@@ -1,0 +1,61 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName table instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+table instance SimpleName MethodInvocation SimpleName get
+table instance SimpleName MethodInvocation SimpleName columns attr name
+get SimpleName MethodInvocation SimpleName columns attr name
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table instance
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName columns attr name
+columns SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation MethodInvocation SimpleName get id
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get id
+columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get state
+get id SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName identity statedeleted
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName identity statedeleted
+get state SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert column for test delete reference
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert column for test delete reference
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table instance
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName assert column for test delete reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+assert column for test delete reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+assert column for test delete reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table instance
+assert column for test delete reference SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+table instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert column for test delete reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert column for test delete reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

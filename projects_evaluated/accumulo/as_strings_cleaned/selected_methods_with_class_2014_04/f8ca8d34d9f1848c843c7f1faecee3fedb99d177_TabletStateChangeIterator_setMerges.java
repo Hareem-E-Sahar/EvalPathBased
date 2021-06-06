@@ -1,0 +1,102 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName merge info
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merges
+merge info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merges
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output buffer
+data output buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+merge info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+info SimpleName MethodInvocation SimpleName get extent
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName info
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get extent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+info SimpleName MethodInvocation SimpleName get state
+info SimpleName MethodInvocation MethodInvocation SimpleName equals
+get state SimpleName MethodInvocation MethodInvocation SimpleName equals
+info SimpleName MethodInvocation MethodInvocation QualifiedName merge statenone
+get state SimpleName MethodInvocation MethodInvocation QualifiedName merge statenone
+equals SimpleName MethodInvocation QualifiedName merge statenone
+info SimpleName MethodInvocation SimpleName write
+info SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+merge info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName merges
+info SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName merges
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+buffer SimpleName MethodInvocation SimpleName get data
+buffer SimpleName MethodInvocation SimpleName get length
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation MethodInvocation SimpleName buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get data
+arrays SimpleName MethodInvocation MethodInvocation SimpleName buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get length
+copy of SimpleName MethodInvocation MethodInvocation SimpleName buffer
+copy of SimpleName MethodInvocation MethodInvocation SimpleName get data
+copy of SimpleName MethodInvocation MethodInvocation SimpleName buffer
+copy of SimpleName MethodInvocation MethodInvocation SimpleName get length
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName arrays
+base SimpleName MethodInvocation MethodInvocation SimpleName copy of
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+encode base SimpleName MethodInvocation MethodInvocation SimpleName arrays
+encode base SimpleName MethodInvocation MethodInvocation SimpleName copy of
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+base SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+encode base SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+arrays SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+copy of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+encoded SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+encoded SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName base
+encoded SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName encode base
+encoded SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName standard charsetsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded
+cfg SimpleName MethodInvocation SimpleName add option
+cfg SimpleName MethodInvocation SimpleName merges option
+cfg SimpleName MethodInvocation SimpleName encoded
+add option SimpleName MethodInvocation SimpleName merges option
+add option SimpleName MethodInvocation SimpleName encoded
+merges option SimpleName MethodInvocation SimpleName encoded
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set merges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName merges
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set merges
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName merges
+void PrimitiveType MethodDeclaration SimpleName set merges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName merges
+set merges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set merges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+set merges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName merges
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set merges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merges
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set merges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merges

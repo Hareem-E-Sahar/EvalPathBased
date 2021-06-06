@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName mini accumulo cluster
+public Modifier MethodDeclaration SimpleName get cluster
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cluster
+mini accumulo cluster SimpleName SimpleType MethodDeclaration SimpleName get cluster
+get cluster SimpleName MethodDeclaration Block ReturnStatement SimpleName cluster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mini accumulo cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mini accumulo cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster

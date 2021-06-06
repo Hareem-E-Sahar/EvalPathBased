@@ -1,0 +1,49 @@
+t SimpleName TypeParameter SimpleType SimpleName http upgrade handler
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName handler class
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName handler class
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName upgrade
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName handler class
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName http upgrade handler
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName upgrade
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handler class
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName upgrade
+http upgrade handler SimpleName SimpleType TypeParameter MethodDeclaration SimpleName upgrade
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName handler class
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName io exception
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName servlet exception
+t SimpleName SimpleType MethodDeclaration SimpleName upgrade
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handler class
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+upgrade SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler class
+upgrade SimpleName MethodDeclaration SimpleType SimpleName io exception
+upgrade SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+handler class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+handler class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName upgrade
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName upgrade
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

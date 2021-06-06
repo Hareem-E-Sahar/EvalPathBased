@@ -1,0 +1,126 @@
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral master monitor info
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral master monitor info
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+first SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table map
+append SimpleName MethodInvocation StringLiteral table map
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName table map
+append SimpleName MethodInvocation FieldAccess SimpleName table map
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral t server info
+append SimpleName MethodInvocation StringLiteral t server info
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName t server info
+append SimpleName MethodInvocation FieldAccess SimpleName t server info
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral bad t servers
+append SimpleName MethodInvocation StringLiteral bad t servers
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName bad t servers
+append SimpleName MethodInvocation FieldAccess SimpleName bad t servers
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral state
+append SimpleName MethodInvocation StringLiteral state
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName state
+append SimpleName MethodInvocation FieldAccess SimpleName state
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral goal state
+append SimpleName MethodInvocation StringLiteral goal state
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName goal state
+append SimpleName MethodInvocation FieldAccess SimpleName goal state
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral unassigned tablets
+append SimpleName MethodInvocation StringLiteral unassigned tablets
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName unassigned tablets
+append SimpleName MethodInvocation FieldAccess SimpleName unassigned tablets
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral servers shutting down
+append SimpleName MethodInvocation StringLiteral servers shutting down
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+append SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral dead tablet servers
+append SimpleName MethodInvocation StringLiteral dead tablet servers
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName dead tablet servers
+append SimpleName MethodInvocation FieldAccess SimpleName dead tablet servers
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral )
+append SimpleName MethodInvocation StringLiteral )
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

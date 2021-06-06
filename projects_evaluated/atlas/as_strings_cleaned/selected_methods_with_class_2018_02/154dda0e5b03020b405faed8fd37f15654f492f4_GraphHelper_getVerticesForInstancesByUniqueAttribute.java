@@ -1,0 +1,225 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instances for class
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName get uniq attributes
+class type SimpleName MethodInvocation MethodInvocation SimpleName values
+get uniq attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute info SimpleName MethodInvocation SimpleName get qualified name
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property key
+map for attribute SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName attribute value map
+attribute value map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map for attribute
+idx SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+instances for class SimpleName MethodInvocation SimpleName size
+idx SimpleName InfixExpression MethodInvocation SimpleName instances for class
+idx SimpleName InfixExpression MethodInvocation SimpleName size
+instances for class SimpleName MethodInvocation SimpleName get
+instances for class SimpleName MethodInvocation SimpleName idx
+get SimpleName MethodInvocation SimpleName idx
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instances for class
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+attribute info SimpleName MethodInvocation SimpleName get name
+instance SimpleName MethodInvocation SimpleName get
+instance SimpleName MethodInvocation MethodInvocation SimpleName attribute info
+instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute info
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute info
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+map for attribute SimpleName MethodInvocation SimpleName put
+map for attribute SimpleName MethodInvocation SimpleName value
+map for attribute SimpleName MethodInvocation SimpleName instance
+map for attribute SimpleName MethodInvocation SimpleName idx
+put SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName instance
+put SimpleName MethodInvocation SimpleName idx
+value SimpleName MethodInvocation SimpleName instance
+value SimpleName MethodInvocation SimpleName idx
+instance SimpleName MethodInvocation SimpleName idx
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName idx
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName idx
+idx SimpleName InfixExpression ForStatement PostfixExpression SimpleName idx
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName property key
+map SimpleName MethodInvocation SimpleName map for attribute
+put SimpleName MethodInvocation SimpleName property key
+put SimpleName MethodInvocation SimpleName map for attribute
+property key SimpleName MethodInvocation SimpleName map for attribute
+attribute info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+instances for class SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName instances for class
+result SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+map SimpleName MethodInvocation SimpleName is empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName result
+as list SimpleName MethodInvocation SimpleName result
+graph SimpleName MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+class type SimpleName MethodInvocation SimpleName get type name
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation MethodInvocation SimpleName class type
+query SimpleName MethodInvocation MethodInvocation SimpleName get type name
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation MethodInvocation SimpleName class type
+has SimpleName MethodInvocation MethodInvocation SimpleName get type name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName class type
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+identity stateactive QualifiedName MethodInvocation SimpleName name
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation QualifiedName constantsstate property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName identity stateactive
+query SimpleName MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName identity stateactive
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName identity stateactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas graph query
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas graph query
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute value map
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+attribute value map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+map SimpleName MethodInvocation SimpleName entry set
+query SimpleName MethodInvocation SimpleName create child query
+or child SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+or child SimpleName VariableDeclarationFragment MethodInvocation SimpleName create child query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName or child
+entry SimpleName MethodInvocation SimpleName get key
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+entry SimpleName MethodInvocation SimpleName get value
+value map SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+value map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+attribute value map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value map
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+value map SimpleName MethodInvocation SimpleName get attribute values
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName value map
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute values
+values SimpleName MethodInvocation SimpleName size
+values SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+values SimpleName MethodInvocation SimpleName iterator
+values SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+or child SimpleName MethodInvocation SimpleName has
+or child SimpleName MethodInvocation SimpleName property name
+or child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+or child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+or child SimpleName MethodInvocation MethodInvocation SimpleName next
+has SimpleName MethodInvocation SimpleName property name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+has SimpleName MethodInvocation MethodInvocation SimpleName next
+property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+property name SimpleName MethodInvocation MethodInvocation SimpleName next
+values SimpleName MethodInvocation SimpleName size
+values SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+or child SimpleName MethodInvocation SimpleName in
+or child SimpleName MethodInvocation SimpleName property name
+or child SimpleName MethodInvocation SimpleName values
+in SimpleName MethodInvocation SimpleName property name
+in SimpleName MethodInvocation SimpleName values
+property name SimpleName MethodInvocation SimpleName values
+or children SimpleName MethodInvocation SimpleName add
+or children SimpleName MethodInvocation SimpleName or child
+add SimpleName MethodInvocation SimpleName or child
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+or children SimpleName MethodInvocation SimpleName size
+or children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+or children SimpleName MethodInvocation SimpleName get
+or children SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName or children
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+child SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child
+query SimpleName MethodInvocation SimpleName add conditions from
+query SimpleName MethodInvocation SimpleName child
+add conditions from SimpleName MethodInvocation SimpleName child
+or children SimpleName MethodInvocation SimpleName size
+or children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName or
+query SimpleName MethodInvocation SimpleName or children
+or SimpleName MethodInvocation SimpleName or children
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName matching vertex
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName indexed instance
+get instances for vertex SimpleName MethodInvocation SimpleName map
+get instances for vertex SimpleName MethodInvocation SimpleName matching vertex
+map SimpleName MethodInvocation SimpleName matching vertex
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instances for vertex
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+matches SimpleName VariableDeclarationFragment MethodInvocation SimpleName matching vertex
+indexed instance SimpleName SimpleType SingleVariableDeclaration SimpleName wrapper
+wrapper SimpleName MethodInvocation SimpleName get index
+result SimpleName ArrayAccess MethodInvocation SimpleName wrapper
+result SimpleName ArrayAccess MethodInvocation SimpleName get index
+result SimpleName ArrayAccess Assignment SimpleName matching vertex
+wrapper SimpleName MethodInvocation ArrayAccess Assignment SimpleName matching vertex
+get index SimpleName MethodInvocation ArrayAccess Assignment SimpleName matching vertex
+indexed instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName matches
+wrapper SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName matches
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName query result
+matching vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName query result
+query result SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName matches
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName result
+as list SimpleName MethodInvocation SimpleName result
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get vertices for instances by unique attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instances for class
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices for instances by unique attribute
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices for instances by unique attribute
+get vertices for instances by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get vertices for instances by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type
+get vertices for instances by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instances for class
+get vertices for instances by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get vertices for instances by unique attribute SimpleName MethodDeclaration Block EnhancedForStatement SimpleName query result
+class type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances for class
+class type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instances for class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices for instances by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances for class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices for instances by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances for class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,79 @@
+final Modifier SingleVariableDeclaration SimpleType QualifiedName falcon eventoperation
+final Modifier SingleVariableDeclaration SimpleName op
+falcon eventoperation QualifiedName SimpleType SingleVariableDeclaration SimpleName op
+falcon operation StringLiteral InfixExpression SimpleName op
+falcon operation StringLiteral InfixExpression StringLiteral is not valid or supported
+op SimpleName InfixExpression StringLiteral is not valid or supported
+falcon exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral falcon operation
+falcon exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName op
+falcon exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not valid or supported
+op SimpleName SwitchStatement SwitchCase SimpleName add cluster
+op SimpleName SwitchStatement SwitchCase SimpleName add feed
+op SimpleName SwitchStatement SwitchCase SimpleName add process
+op SimpleName SwitchStatement ReturnStatement QualifiedName operationadd
+op SimpleName SwitchStatement SwitchCase SimpleName update cluster
+add cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName add feed
+add cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName add process
+add cluster SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationadd
+add cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update cluster
+add cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update feed
+add feed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName add process
+add feed SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationadd
+add feed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update cluster
+add feed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update feed
+add feed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update process
+add process SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationadd
+add process SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update cluster
+add process SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update feed
+add process SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update process
+add process SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationupdate
+operationadd QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName update cluster
+operationadd QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName update feed
+operationadd QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName update process
+operationadd QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName operationupdate
+update cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update feed
+update cluster SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update process
+update cluster SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationupdate
+update feed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update process
+update feed SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationupdate
+update process SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName operationupdate
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName operation
+private Modifier MethodDeclaration SimpleName get operation
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName falcon eventoperation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+private Modifier MethodDeclaration SimpleType SimpleName falcon exception
+static Modifier MethodDeclaration SimpleType SimpleName operation
+static Modifier MethodDeclaration SimpleName get operation
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName falcon eventoperation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+static Modifier MethodDeclaration SimpleType SimpleName falcon exception
+static Modifier MethodDeclaration Block SwitchStatement SimpleName op
+operation SimpleName SimpleType MethodDeclaration SimpleName get operation
+operation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+operation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+operation SimpleName SimpleType MethodDeclaration SimpleType SimpleName falcon exception
+get operation SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName falcon eventoperation
+get operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+get operation SimpleName MethodDeclaration SimpleType SimpleName falcon exception
+get operation SimpleName MethodDeclaration Block SwitchStatement SimpleName op
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception

@@ -1,0 +1,36 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+mapper SimpleName MethodInvocation SimpleName write value as string
+mapper SimpleName MethodInvocation SimpleName obj
+write value as string SimpleName MethodInvocation SimpleName obj
+ret SimpleName Assignment MethodInvocation SimpleName mapper
+ret SimpleName Assignment MethodInvocation SimpleName write value as string
+ret SimpleName Assignment MethodInvocation SimpleName obj
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName to json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+to json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+to json SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

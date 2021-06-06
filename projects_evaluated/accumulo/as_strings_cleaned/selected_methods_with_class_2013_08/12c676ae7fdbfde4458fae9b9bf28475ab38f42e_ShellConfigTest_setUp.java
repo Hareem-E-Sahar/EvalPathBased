@@ -1,0 +1,41 @@
+shelllog QualifiedName MethodInvocation SimpleName set level
+shelllog QualifiedName MethodInvocation QualifiedName levelerror
+set level SimpleName MethodInvocation QualifiedName levelerror
+out SimpleName Assignment QualifiedName systemout
+output SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test output stream
+print stream SimpleName SimpleType ClassInstanceCreation SimpleName output
+system SimpleName MethodInvocation SimpleName set out
+system SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print stream
+system SimpleName MethodInvocation ClassInstanceCreation SimpleName output
+set out SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print stream
+set out SimpleName MethodInvocation ClassInstanceCreation SimpleName output
+file input stream SimpleName SimpleType ClassInstanceCreation QualifiedName file descriptorin
+console reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName file descriptorin
+console reader SimpleName SimpleType ClassInstanceCreation SimpleName output
+file input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName output
+file descriptorin QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName output
+shell SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName output
+shell SimpleName Assignment ClassInstanceCreation SimpleType SimpleName shell
+shell SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName output
+shell SimpleName MethodInvocation SimpleName set log errors to console
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

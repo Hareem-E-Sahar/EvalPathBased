@@ -1,0 +1,360 @@
+cis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName chunk input stream
+chunk input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cis
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+data SimpleName MethodInvocation SimpleName iterator
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName data
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName iterator
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral asdfj
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral asdfj
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfj
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral asdfj
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfj
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral kl
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral kl
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral kl
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral kl
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral kl
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+read SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral qwert
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral qwert
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral qwert
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral qwert
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral qwert
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral yuiop
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral yuiop
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral yuiop
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral yuiop
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral yuiop
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+read SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral ab bc d
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ab bc d
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ab bc d
+to string SimpleName MethodInvocation MethodInvocation StringLiteral ab bc d
+cis SimpleName MethodInvocation SimpleName close
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral asdfj
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral asdfj
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfj
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral asdfj
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfj
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral klas
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral klas
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral klas
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral klas
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral klas
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral dfjkl
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral dfjkl
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral dfjkl
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral dfjkl
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral dfjkl
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral 
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral 
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral 
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral 
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral 
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+read SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral ab
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ab
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ab
+to string SimpleName MethodInvocation MethodInvocation StringLiteral ab
+cis SimpleName MethodInvocation SimpleName close
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+read SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+cis SimpleName MethodInvocation SimpleName close
+pi SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName pi
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test read into buffer smaller than chunks
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test read into buffer smaller than chunks
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test read into buffer smaller than chunks SimpleName MethodDeclaration SimpleType SimpleName io exception
+test read into buffer smaller than chunks SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test read into buffer smaller than chunks
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test read into buffer smaller than chunks
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

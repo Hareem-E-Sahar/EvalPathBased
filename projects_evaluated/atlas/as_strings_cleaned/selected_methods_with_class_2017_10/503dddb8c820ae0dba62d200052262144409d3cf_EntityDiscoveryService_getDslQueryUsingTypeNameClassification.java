@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+query SimpleName InfixExpression ConditionalExpression StringLiteral empty
+query SimpleName InfixExpression ConditionalExpression SimpleName query
+empty StringLiteral ConditionalExpression SimpleName query
+query str SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName query
+query str SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+query str SimpleName VariableDeclarationFragment ConditionalExpression SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query str
+orgapachecommonslang string utils QualifiedName MethodInvocation SimpleName is none empty
+orgapachecommonslang string utils QualifiedName MethodInvocation SimpleName type name
+is none empty SimpleName MethodInvocation SimpleName type name
+escape type name SimpleName MethodInvocation SimpleName type name
+escape type name SimpleName MethodInvocation InfixExpression StringLiteral empty
+type name SimpleName MethodInvocation InfixExpression StringLiteral empty
+escape type name SimpleName MethodInvocation InfixExpression SimpleName query str
+type name SimpleName MethodInvocation InfixExpression SimpleName query str
+empty StringLiteral InfixExpression SimpleName query str
+query str SimpleName Assignment InfixExpression MethodInvocation SimpleName escape type name
+query str SimpleName Assignment InfixExpression MethodInvocation SimpleName type name
+query str SimpleName Assignment InfixExpression StringLiteral empty
+query str SimpleName Assignment InfixExpression SimpleName query str
+orgapachecommonslang string utils QualifiedName MethodInvocation SimpleName is none empty
+orgapachecommonslang string utils QualifiedName MethodInvocation SimpleName classification
+is none empty SimpleName MethodInvocation SimpleName classification
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName query
+is empty SimpleName MethodInvocation SimpleName query
+isa StringLiteral InfixExpression SimpleName classification
+query str SimpleName Assignment ParenthesizedExpression InfixExpression StringLiteral isa
+query str SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName classification
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get dsl query using type name classification
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get dsl query using type name classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification
+string SimpleName SimpleType MethodDeclaration SimpleName get dsl query using type name classification
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get dsl query using type name classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification
+get dsl query using type name classification SimpleName MethodDeclaration Block ReturnStatement SimpleName query str
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dsl query using type name classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dsl query using type name classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification

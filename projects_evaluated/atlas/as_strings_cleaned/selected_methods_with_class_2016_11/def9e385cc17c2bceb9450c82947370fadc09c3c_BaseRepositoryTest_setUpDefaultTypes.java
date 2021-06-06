@@ -1,0 +1,27 @@
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create default type definitions
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types serialization SimpleName MethodInvocation SimpleName to json
+types serialization SimpleName MethodInvocation SimpleName types def
+to json SimpleName MethodInvocation SimpleName types def
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types serialization
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types as json
+metadata service SimpleName MethodInvocation SimpleName create type
+metadata service SimpleName MethodInvocation SimpleName types as json
+create type SimpleName MethodInvocation SimpleName types as json
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set up default types
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up default types
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up default types SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up default types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up default types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

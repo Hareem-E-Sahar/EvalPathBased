@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName val
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+success SimpleName FieldAccess MethodInvocation SimpleName put
+success SimpleName FieldAccess MethodInvocation SimpleName key
+success SimpleName FieldAccess MethodInvocation SimpleName val
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName val
+key SimpleName MethodInvocation SimpleName val
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put to success
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName put to success
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+put to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+put to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+put to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+put to success SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put to success
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put to success
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

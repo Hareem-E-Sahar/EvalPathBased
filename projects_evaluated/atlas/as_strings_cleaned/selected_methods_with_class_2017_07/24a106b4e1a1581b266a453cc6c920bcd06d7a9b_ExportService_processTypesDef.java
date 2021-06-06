@@ -1,0 +1,108 @@
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+contextresult QualifiedName MethodInvocation SimpleName get data
+contextresult QualifiedName MethodInvocation MethodInvocation SimpleName get types def
+get data SimpleName MethodInvocation MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName contextresult
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+type registry SimpleName MethodInvocation SimpleName get entity def by name
+type registry SimpleName MethodInvocation SimpleName entity type
+get entity def by name SimpleName MethodInvocation SimpleName entity type
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity def by name
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity def
+types def SimpleName MethodInvocation SimpleName get entity defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName entity def
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName entity def
+add SimpleName MethodInvocation SimpleName entity def
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName contextentity types
+entity type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName contextentity types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification type
+type registry SimpleName MethodInvocation SimpleName get classification def by name
+type registry SimpleName MethodInvocation SimpleName classification type
+get classification def by name SimpleName MethodInvocation SimpleName classification type
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification def by name
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification type
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification def
+types def SimpleName MethodInvocation SimpleName get classification defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName classification def
+add SimpleName MethodInvocation SimpleName classification def
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName contextclassification types
+classification type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName contextclassification types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+type registry SimpleName MethodInvocation SimpleName get struct def by name
+type registry SimpleName MethodInvocation SimpleName struct type
+get struct def by name SimpleName MethodInvocation SimpleName struct type
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct def by name
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct def
+types def SimpleName MethodInvocation SimpleName get struct defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName struct def
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName struct def
+add SimpleName MethodInvocation SimpleName struct def
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName contextstruct types
+struct type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName contextstruct types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName enum type
+type registry SimpleName MethodInvocation SimpleName get enum def by name
+type registry SimpleName MethodInvocation SimpleName enum type
+get enum def by name SimpleName MethodInvocation SimpleName enum type
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enum def by name
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum type
+atlas enum def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum def
+types def SimpleName MethodInvocation SimpleName get enum defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get enum defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName enum def
+get enum defs SimpleName MethodInvocation MethodInvocation SimpleName enum def
+add SimpleName MethodInvocation SimpleName enum def
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName contextenum types
+enum type SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName contextenum types
+contextentity types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextclassification types
+contextentity types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextstruct types
+contextentity types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextenum types
+contextclassification types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextstruct types
+contextclassification types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextenum types
+contextstruct types QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName contextenum types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration Block EnhancedForStatement QualifiedName contextentity types
+private Modifier MethodDeclaration Block EnhancedForStatement QualifiedName contextclassification types
+private Modifier MethodDeclaration Block EnhancedForStatement QualifiedName contextstruct types
+private Modifier MethodDeclaration Block EnhancedForStatement QualifiedName contextenum types
+void PrimitiveType MethodDeclaration SimpleName process types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName contextentity types
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName contextclassification types
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName contextstruct types
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName contextenum types
+process types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+process types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+process types def SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName contextentity types
+process types def SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName contextclassification types
+process types def SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName contextstruct types
+process types def SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName contextenum types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

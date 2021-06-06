@@ -1,0 +1,54 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral ==> hook consumer do work
+info SimpleName MethodInvocation StringLiteral ==> hook consumer do work
+should run SimpleName MethodInvocation SimpleName set
+should run SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+server available SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName notification hook consumertimer
+should run SimpleName MethodInvocation SimpleName get
+atlas kafka message SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+consumer SimpleName MethodInvocation SimpleName receive
+messages SimpleName VariableDeclarationFragment MethodInvocation SimpleName consumer
+messages SimpleName VariableDeclarationFragment MethodInvocation SimpleName receive
+atlas kafka message SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+atlas kafka message SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName msg
+hook notification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName msg
+handle message SimpleName MethodInvocation SimpleName msg
+msg SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName messages
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+adaptive waiter SimpleName MethodInvocation SimpleName pause
+adaptive waiter SimpleName MethodInvocation SimpleName ex
+pause SimpleName MethodInvocation SimpleName ex
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+should run SimpleName MethodInvocation SimpleName get
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral exception in notification hook consumer
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral exception in notification hook consumer
+warn SimpleName MethodInvocation SimpleName e
+exception in notification hook consumer StringLiteral MethodInvocation SimpleName e
+adaptive waiter SimpleName MethodInvocation SimpleName pause
+adaptive waiter SimpleName MethodInvocation SimpleName e
+pause SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral closing notification consumer
+info SimpleName MethodInvocation StringLiteral closing notification consumer
+consumer SimpleName MethodInvocation SimpleName close
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral <== hook consumer do work
+info SimpleName MethodInvocation StringLiteral <== hook consumer do work
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do work
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do work
+void PrimitiveType MethodDeclaration SimpleName do work
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do work
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do work

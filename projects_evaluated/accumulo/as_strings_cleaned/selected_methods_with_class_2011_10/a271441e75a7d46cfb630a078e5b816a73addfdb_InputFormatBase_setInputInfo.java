@@ -1,0 +1,139 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName passwd
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+authorizations SimpleName SimpleType SingleVariableDeclaration SimpleName auths
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName input info has been set
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName input info has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+input info has been set SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral input info can only be set once per job
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName input info has been set
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName input info has been set
+set boolean SimpleName MethodInvocation BooleanLiteral true
+input info has been set SimpleName MethodInvocation BooleanLiteral true
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName user
+argument checker SimpleName MethodInvocation SimpleName passwd
+argument checker SimpleName MethodInvocation SimpleName table
+not null SimpleName MethodInvocation SimpleName user
+not null SimpleName MethodInvocation SimpleName passwd
+not null SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation SimpleName passwd
+user SimpleName MethodInvocation SimpleName table
+passwd SimpleName MethodInvocation SimpleName table
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName username
+conf SimpleName MethodInvocation SimpleName user
+set SimpleName MethodInvocation SimpleName username
+set SimpleName MethodInvocation SimpleName user
+username SimpleName MethodInvocation SimpleName user
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation SimpleName passwd
+encode base SimpleName MethodInvocation SimpleName passwd
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName passwd
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName password
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName passwd
+set SimpleName MethodInvocation SimpleName password
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName passwd
+password SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+password SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+password SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+password SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName passwd
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName table name
+conf SimpleName MethodInvocation SimpleName table
+set SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation SimpleName table
+table name SimpleName MethodInvocation SimpleName table
+auths SimpleName MethodInvocation SimpleName is empty
+auths SimpleName MethodInvocation SimpleName serialize
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName authorizations
+conf SimpleName MethodInvocation MethodInvocation SimpleName auths
+conf SimpleName MethodInvocation MethodInvocation SimpleName serialize
+set SimpleName MethodInvocation SimpleName authorizations
+set SimpleName MethodInvocation MethodInvocation SimpleName auths
+set SimpleName MethodInvocation MethodInvocation SimpleName serialize
+authorizations SimpleName MethodInvocation MethodInvocation SimpleName auths
+authorizations SimpleName MethodInvocation MethodInvocation SimpleName serialize
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set input info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set input info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName passwd
+void PrimitiveType MethodDeclaration SimpleName set input info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName passwd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+set input info SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName passwd
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+set input info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auths
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+passwd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+passwd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set input info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set input info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths

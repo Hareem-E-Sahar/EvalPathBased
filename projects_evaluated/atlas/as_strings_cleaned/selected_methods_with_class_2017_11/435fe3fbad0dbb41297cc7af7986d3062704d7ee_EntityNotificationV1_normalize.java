@@ -1,0 +1,15 @@
+entity SimpleName MethodInvocation SimpleName normailze
+struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+trait SimpleName MethodInvocation SimpleName normailze
+struct SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize
+void PrimitiveType MethodDeclaration SimpleName normalize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize

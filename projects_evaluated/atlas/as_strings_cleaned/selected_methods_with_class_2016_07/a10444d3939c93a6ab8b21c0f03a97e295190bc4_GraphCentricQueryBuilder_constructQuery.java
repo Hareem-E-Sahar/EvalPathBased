@@ -1,0 +1,500 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName element category
+final Modifier SingleVariableDeclaration SimpleName result type
+element category SimpleName SimpleType SingleVariableDeclaration SimpleName result type
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName result type
+check not null SimpleName MethodInvocation SimpleName result type
+limit SimpleName InfixExpression NumberLiteral empty
+graph centric query SimpleName MethodInvocation SimpleName empty query
+graph centric query SimpleName MethodInvocation SimpleName result type
+empty query SimpleName MethodInvocation SimpleName result type
+and SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+query util SimpleName MethodInvocation SimpleName constraints qnf
+query util SimpleName MethodInvocation SimpleName tx
+query util SimpleName MethodInvocation SimpleName constraints
+constraints qnf SimpleName MethodInvocation SimpleName tx
+constraints qnf SimpleName MethodInvocation SimpleName constraints
+tx SimpleName MethodInvocation SimpleName constraints
+conditions SimpleName VariableDeclarationFragment MethodInvocation SimpleName query util
+conditions SimpleName VariableDeclarationFragment MethodInvocation SimpleName constraints qnf
+conditions SimpleName VariableDeclarationFragment MethodInvocation SimpleName tx
+conditions SimpleName VariableDeclarationFragment MethodInvocation SimpleName constraints
+graph centric query SimpleName MethodInvocation SimpleName empty query
+graph centric query SimpleName MethodInvocation SimpleName result type
+empty query SimpleName MethodInvocation SimpleName result type
+orders SimpleName MethodInvocation SimpleName make immutable
+orders SimpleName MethodInvocation SimpleName is empty
+orders SimpleName Assignment QualifiedName order listno order
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName index type
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName index type
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName index type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName index candidates
+condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName condition
+condition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+titan element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+condition SimpleName InstanceofExpression SimpleType SimpleName predicate condition
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName relation type
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+relation type SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+predicate condition SimpleName SimpleType ParameterizedType CastExpression SimpleName condition
+relation type SimpleName SimpleType ParameterizedType CastExpression SimpleName condition
+titan element SimpleName SimpleType ParameterizedType CastExpression SimpleName condition
+condition SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+relation type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName is property key
+type SimpleName InfixExpression InfixExpression MethodInvocation SimpleName type
+type SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is property key
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation InfixExpression InfixExpression SimpleName type
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is property key
+check argument SimpleName MethodInvocation InfixExpression InfixExpression SimpleName type
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is property key
+internal relation type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key indexes
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName index type
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName index type
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName index type
+index type SimpleName SimpleType SingleVariableDeclaration SimpleName index type
+index type SimpleName MethodInvocation SimpleName get element
+index type SimpleName MethodInvocation InfixExpression SimpleName result type
+get element SimpleName MethodInvocation InfixExpression SimpleName result type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName index type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index type
+boolean PrimitiveType MethodDeclaration SimpleName apply
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index type
+apply SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index type
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index type
+iterables SimpleName MethodInvocation SimpleName filter
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get key indexes
+filter SimpleName MethodInvocation MethodInvocation SimpleName get key indexes
+iterables SimpleName MethodInvocation SimpleName add all
+iterables SimpleName MethodInvocation SimpleName index candidates
+iterables SimpleName MethodInvocation MethodInvocation SimpleName iterables
+iterables SimpleName MethodInvocation MethodInvocation SimpleName filter
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key indexes
+add all SimpleName MethodInvocation SimpleName index candidates
+add all SimpleName MethodInvocation MethodInvocation SimpleName iterables
+add all SimpleName MethodInvocation MethodInvocation SimpleName filter
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key indexes
+index candidates SimpleName MethodInvocation MethodInvocation SimpleName iterables
+index candidates SimpleName MethodInvocation MethodInvocation SimpleName filter
+index candidates SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key indexes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName apply
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName condition
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+apply SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName condition
+apply SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+condition util SimpleName MethodInvocation SimpleName traversal
+condition util SimpleName MethodInvocation SimpleName conditions
+traversal SimpleName MethodInvocation SimpleName conditions
+joint query SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName joint index query
+joint index query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName joint query
+orders SimpleName MethodInvocation SimpleName is empty
+is sorted SimpleName VariableDeclarationFragment MethodInvocation SimpleName orders
+is sorted SimpleName VariableDeclarationFragment MethodInvocation SimpleName is empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is sorted
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName orders
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName condition
+sets SimpleName MethodInvocation SimpleName new hash set
+covered clauses SimpleName VariableDeclarationFragment MethodInvocation SimpleName sets
+covered clauses SimpleName VariableDeclarationFragment MethodInvocation SimpleName new hash set
+index type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName best candidate
+candidate score SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName candidate score
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName condition
+candidate supports sort SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName candidate supports sort
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName candidate subcondition
+index type SimpleName SimpleType SingleVariableDeclaration SimpleName index
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName condition
+sets SimpleName MethodInvocation SimpleName new hash set
+subcover SimpleName VariableDeclarationFragment MethodInvocation SimpleName sets
+subcover SimpleName VariableDeclarationFragment MethodInvocation SimpleName new hash set
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName subcondition
+orders SimpleName MethodInvocation SimpleName is empty
+supports sort SimpleName VariableDeclarationFragment MethodInvocation SimpleName orders
+supports sort SimpleName VariableDeclarationFragment MethodInvocation SimpleName is empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName supports sort
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName orders
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is empty
+index SimpleName MethodInvocation SimpleName has schema type constraint
+index SimpleName MethodInvocation SimpleName get schema type constraint
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema type constraint
+titan schema type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName condition
+get equality condition values SimpleName MethodInvocation SimpleName conditions
+get equality condition values SimpleName MethodInvocation QualifiedName implicit keylabel
+conditions SimpleName MethodInvocation QualifiedName implicit keylabel
+equal con SimpleName VariableDeclarationFragment MethodInvocation SimpleName get equality condition values
+equal con SimpleName VariableDeclarationFragment MethodInvocation SimpleName conditions
+equal con SimpleName VariableDeclarationFragment MethodInvocation QualifiedName implicit keylabel
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+equal con SimpleName MethodInvocation SimpleName get value
+labels SimpleName VariableDeclarationFragment MethodInvocation SimpleName equal con
+labels SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+labels SimpleName MethodInvocation SimpleName size
+labels SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+labels SimpleName MethodInvocation SimpleName size
+labels SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral the query optimizer currently does not support multiple label constraints in query {}
+warn SimpleName MethodInvocation StringLiteral the query optimizer currently does not support multiple label constraints in query {}
+type SimpleName MethodInvocation SimpleName get name
+iterables SimpleName MethodInvocation SimpleName get only element
+iterables SimpleName MethodInvocation SimpleName labels
+get only element SimpleName MethodInvocation SimpleName labels
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName iterables
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get only element
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName labels
+type SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName iterables
+equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get only element
+equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName labels
+equal con SimpleName MethodInvocation SimpleName get key
+subcover SimpleName MethodInvocation SimpleName add
+subcover SimpleName MethodInvocation MethodInvocation SimpleName equal con
+subcover SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName equal con
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+index SimpleName MethodInvocation SimpleName is composite index
+composite index type SimpleName SimpleType CastExpression SimpleName index
+index cover SimpleName MethodInvocation CastExpression SimpleType SimpleName composite index type
+index cover SimpleName MethodInvocation CastExpression SimpleName index
+index cover SimpleName MethodInvocation SimpleName conditions
+index cover SimpleName MethodInvocation SimpleName subcover
+composite index type SimpleName SimpleType CastExpression MethodInvocation SimpleName conditions
+index SimpleName CastExpression MethodInvocation SimpleName conditions
+composite index type SimpleName SimpleType CastExpression MethodInvocation SimpleName subcover
+index SimpleName CastExpression MethodInvocation SimpleName subcover
+conditions SimpleName MethodInvocation SimpleName subcover
+subcondition SimpleName Assignment MethodInvocation SimpleName index cover
+subcondition SimpleName Assignment MethodInvocation CastExpression SimpleName index
+subcondition SimpleName Assignment MethodInvocation SimpleName conditions
+subcondition SimpleName Assignment MethodInvocation SimpleName subcover
+mixed index type SimpleName SimpleType CastExpression SimpleName index
+index cover SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+index cover SimpleName MethodInvocation CastExpression SimpleName index
+index cover SimpleName MethodInvocation SimpleName conditions
+index cover SimpleName MethodInvocation SimpleName serializer
+index cover SimpleName MethodInvocation SimpleName subcover
+mixed index type SimpleName SimpleType CastExpression MethodInvocation SimpleName conditions
+index SimpleName CastExpression MethodInvocation SimpleName conditions
+mixed index type SimpleName SimpleType CastExpression MethodInvocation SimpleName serializer
+index SimpleName CastExpression MethodInvocation SimpleName serializer
+mixed index type SimpleName SimpleType CastExpression MethodInvocation SimpleName subcover
+index SimpleName CastExpression MethodInvocation SimpleName subcover
+conditions SimpleName MethodInvocation SimpleName serializer
+conditions SimpleName MethodInvocation SimpleName subcover
+serializer SimpleName MethodInvocation SimpleName subcover
+subcondition SimpleName Assignment MethodInvocation SimpleName index cover
+subcondition SimpleName Assignment MethodInvocation CastExpression SimpleName index
+subcondition SimpleName Assignment MethodInvocation SimpleName conditions
+subcondition SimpleName Assignment MethodInvocation SimpleName serializer
+subcondition SimpleName Assignment MethodInvocation SimpleName subcover
+covered clauses SimpleName MethodInvocation SimpleName is empty
+mixed index type SimpleName SimpleType CastExpression SimpleName index
+index covers order SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+index covers order SimpleName MethodInvocation CastExpression SimpleName index
+index covers order SimpleName MethodInvocation SimpleName orders
+mixed index type SimpleName SimpleType CastExpression MethodInvocation SimpleName orders
+index SimpleName CastExpression MethodInvocation SimpleName orders
+covered clauses SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName supports sort
+is empty SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName supports sort
+covered clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index covers order
+covered clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName orders
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index covers order
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName orders
+supports sort SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName index covers order
+supports sort SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName orders
+supports sort SimpleName Assignment BooleanLiteral true
+subcover SimpleName MethodInvocation SimpleName is empty
+score SimpleName VariableDeclarationFragment NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName score
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral .
+covers additional clause SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName covers additional clause
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+condition SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName InstanceofExpression SimpleType SimpleName predicate condition
+predicate condition SimpleName SimpleType CastExpression SimpleName c
+c SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get predicate
+get predicate SimpleName MethodInvocation InfixExpression QualifiedName cmpequal
+c SimpleName InstanceofExpression InfixExpression InfixExpression QualifiedName cmpequal
+equal condition score SimpleName ConditionalExpression SimpleName other condition score
+s SimpleName VariableDeclarationFragment ConditionalExpression SimpleName equal condition score
+s SimpleName VariableDeclarationFragment ConditionalExpression SimpleName other condition score
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName equal condition score
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName other condition score
+covered clauses SimpleName MethodInvocation SimpleName contains
+covered clauses SimpleName MethodInvocation SimpleName c
+contains SimpleName MethodInvocation SimpleName c
+s SimpleName InfixExpression SimpleName already matched adjustor
+s SimpleName Assignment InfixExpression SimpleName s
+s SimpleName Assignment InfixExpression SimpleName already matched adjustor
+covers additional clause SimpleName Assignment BooleanLiteral true
+score SimpleName Assignment SimpleName s
+index SimpleName MethodInvocation SimpleName is composite index
+composite index type SimpleName SimpleType CastExpression SimpleName index
+index SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get cardinality
+get cardinality SimpleName MethodInvocation InfixExpression QualifiedName cardinalitysingle
+get cardinality SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName cardinality singe score
+cardinalitysingle QualifiedName InfixExpression ConditionalExpression SimpleName cardinality singe score
+get cardinality SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName cardinality other score
+cardinalitysingle QualifiedName InfixExpression ConditionalExpression SimpleName cardinality other score
+cardinality singe score SimpleName ConditionalExpression SimpleName cardinality other score
+score SimpleName Assignment ConditionalExpression InfixExpression QualifiedName cardinalitysingle
+score SimpleName Assignment ConditionalExpression SimpleName cardinality singe score
+score SimpleName Assignment ConditionalExpression SimpleName cardinality other score
+condition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName subcover
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName subcover
+subcover SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType double
+score SimpleName Assignment SimpleName order match
+supports sort SimpleName IfStatement ExpressionStatement Assignment SimpleName score
+supports sort SimpleName IfStatement ExpressionStatement Assignment SimpleName order match
+score SimpleName InfixExpression SimpleName candidate score
+covers additional clause SimpleName InfixExpression InfixExpression SimpleName score
+covers additional clause SimpleName InfixExpression InfixExpression SimpleName candidate score
+candidate score SimpleName Assignment SimpleName score
+best candidate SimpleName Assignment SimpleName index
+candidate subcover SimpleName Assignment SimpleName subcover
+candidate subcondition SimpleName Assignment SimpleName subcondition
+candidate supports sort SimpleName Assignment SimpleName supports sort
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+double PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName subcover
+double PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName supports sort
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName subcover
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName supports sort
+subcover SimpleName EnhancedForStatement Block IfStatement SimpleName supports sort
+index type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName index candidates
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName index candidates
+index candidates SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+index candidates SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType double
+index candidates SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+index candidates SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName subcover
+index candidates SimpleName EnhancedForStatement Block IfStatement SimpleName supports sort
+covered clauses SimpleName MethodInvocation SimpleName is empty
+is sorted SimpleName Assignment SimpleName candidate supports sort
+covered clauses SimpleName MethodInvocation SimpleName add all
+covered clauses SimpleName MethodInvocation SimpleName candidate subcover
+add all SimpleName MethodInvocation SimpleName candidate subcover
+best candidate SimpleName MethodInvocation SimpleName is composite index
+best candidate SimpleName MethodInvocation ConditionalExpression StringLiteral composite
+is composite index SimpleName MethodInvocation ConditionalExpression StringLiteral composite
+best candidate SimpleName MethodInvocation ConditionalExpression StringLiteral mixed
+is composite index SimpleName MethodInvocation ConditionalExpression StringLiteral mixed
+composite StringLiteral ConditionalExpression StringLiteral mixed
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral index chosen for query {} {}
+log SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName best candidate
+log SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is composite index
+log SimpleName MethodInvocation ConditionalExpression StringLiteral composite
+log SimpleName MethodInvocation ConditionalExpression StringLiteral mixed
+log SimpleName MethodInvocation SimpleName covered clauses
+info SimpleName MethodInvocation StringLiteral index chosen for query {} {}
+info SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName best candidate
+info SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName is composite index
+info SimpleName MethodInvocation ConditionalExpression StringLiteral composite
+info SimpleName MethodInvocation ConditionalExpression StringLiteral mixed
+info SimpleName MethodInvocation SimpleName covered clauses
+index chosen for query {} {} StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName best candidate
+index chosen for query {} {} StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName is composite index
+index chosen for query {} {} StringLiteral MethodInvocation ConditionalExpression StringLiteral composite
+index chosen for query {} {} StringLiteral MethodInvocation ConditionalExpression StringLiteral mixed
+index chosen for query {} {} StringLiteral MethodInvocation SimpleName covered clauses
+best candidate SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName covered clauses
+is composite index SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName covered clauses
+composite StringLiteral ConditionalExpression MethodInvocation SimpleName covered clauses
+mixed StringLiteral ConditionalExpression MethodInvocation SimpleName covered clauses
+best candidate SimpleName MethodInvocation SimpleName is composite index
+composite index type SimpleName SimpleType CastExpression SimpleName best candidate
+composite index type SimpleName SimpleType CastExpression SimpleName best candidate
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName candidate subcondition
+serializer SimpleName MethodInvocation SimpleName get query
+serializer SimpleName MethodInvocation CastExpression SimpleType SimpleName composite index type
+serializer SimpleName MethodInvocation CastExpression SimpleName best candidate
+serializer SimpleName MethodInvocation CastExpression SimpleName candidate subcondition
+get query SimpleName MethodInvocation CastExpression SimpleType SimpleName composite index type
+get query SimpleName MethodInvocation CastExpression SimpleName best candidate
+get query SimpleName MethodInvocation CastExpression SimpleName candidate subcondition
+best candidate SimpleName CastExpression MethodInvocation CastExpression SimpleName candidate subcondition
+joint query SimpleName MethodInvocation SimpleName add
+joint query SimpleName MethodInvocation CastExpression SimpleType SimpleName composite index type
+joint query SimpleName MethodInvocation CastExpression SimpleName best candidate
+joint query SimpleName MethodInvocation MethodInvocation SimpleName serializer
+joint query SimpleName MethodInvocation MethodInvocation SimpleName get query
+joint query SimpleName MethodInvocation MethodInvocation CastExpression SimpleName best candidate
+joint query SimpleName MethodInvocation MethodInvocation CastExpression SimpleName candidate subcondition
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName composite index type
+add SimpleName MethodInvocation CastExpression SimpleName best candidate
+add SimpleName MethodInvocation MethodInvocation SimpleName serializer
+add SimpleName MethodInvocation MethodInvocation SimpleName get query
+add SimpleName MethodInvocation MethodInvocation CastExpression SimpleName best candidate
+add SimpleName MethodInvocation MethodInvocation CastExpression SimpleName candidate subcondition
+best candidate SimpleName CastExpression MethodInvocation MethodInvocation SimpleName serializer
+best candidate SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get query
+mixed index type SimpleName SimpleType CastExpression SimpleName best candidate
+mixed index type SimpleName SimpleType CastExpression SimpleName best candidate
+condition SimpleName SimpleType CastExpression SimpleName candidate subcondition
+serializer SimpleName MethodInvocation SimpleName get query
+serializer SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+serializer SimpleName MethodInvocation CastExpression SimpleName best candidate
+serializer SimpleName MethodInvocation CastExpression SimpleType SimpleName condition
+serializer SimpleName MethodInvocation CastExpression SimpleName candidate subcondition
+serializer SimpleName MethodInvocation SimpleName orders
+get query SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+get query SimpleName MethodInvocation CastExpression SimpleName best candidate
+get query SimpleName MethodInvocation CastExpression SimpleType SimpleName condition
+get query SimpleName MethodInvocation CastExpression SimpleName candidate subcondition
+get query SimpleName MethodInvocation SimpleName orders
+best candidate SimpleName CastExpression MethodInvocation CastExpression SimpleName candidate subcondition
+mixed index type SimpleName SimpleType CastExpression MethodInvocation SimpleName orders
+best candidate SimpleName CastExpression MethodInvocation SimpleName orders
+condition SimpleName SimpleType CastExpression MethodInvocation SimpleName orders
+candidate subcondition SimpleName CastExpression MethodInvocation SimpleName orders
+joint query SimpleName MethodInvocation SimpleName add
+joint query SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+joint query SimpleName MethodInvocation CastExpression SimpleName best candidate
+joint query SimpleName MethodInvocation MethodInvocation SimpleName serializer
+joint query SimpleName MethodInvocation MethodInvocation SimpleName get query
+joint query SimpleName MethodInvocation MethodInvocation CastExpression SimpleName best candidate
+joint query SimpleName MethodInvocation MethodInvocation CastExpression SimpleName candidate subcondition
+joint query SimpleName MethodInvocation MethodInvocation SimpleName orders
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName mixed index type
+add SimpleName MethodInvocation CastExpression SimpleName best candidate
+add SimpleName MethodInvocation MethodInvocation SimpleName serializer
+add SimpleName MethodInvocation MethodInvocation SimpleName get query
+add SimpleName MethodInvocation MethodInvocation CastExpression SimpleName best candidate
+add SimpleName MethodInvocation MethodInvocation CastExpression SimpleName candidate subcondition
+add SimpleName MethodInvocation MethodInvocation SimpleName orders
+best candidate SimpleName CastExpression MethodInvocation MethodInvocation SimpleName serializer
+best candidate SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get query
+best candidate SimpleName CastExpression MethodInvocation MethodInvocation SimpleName orders
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+double PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName index candidates
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName index candidates
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType double
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType boolean
+true BooleanLiteral WhileStatement Block EnhancedForStatement SimpleName index candidates
+backend query holder SimpleName SimpleType ParameterizedType SimpleType SimpleName joint index query
+covered clauses SimpleName MethodInvocation SimpleName is empty
+limit SimpleName InfixExpression QualifiedName queryno limit
+limit SimpleName InfixExpression ConditionalExpression SimpleName hard max limit
+queryno limit QualifiedName InfixExpression ConditionalExpression SimpleName hard max limit
+limit SimpleName InfixExpression ConditionalExpression SimpleName limit
+queryno limit QualifiedName InfixExpression ConditionalExpression SimpleName limit
+hard max limit SimpleName ConditionalExpression SimpleName limit
+index limit SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName limit
+index limit SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression QualifiedName queryno limit
+index limit SimpleName VariableDeclarationFragment ConditionalExpression SimpleName hard max limit
+index limit SimpleName VariableDeclarationFragment ConditionalExpression SimpleName limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName hard max limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName limit
+tx SimpleName MethodInvocation SimpleName get graph
+tx SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get graph SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+tx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName adjust query limit
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName adjust query limit
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName adjust query limit
+limit SimpleName InfixExpression QualifiedName queryno limit
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName max base limit
+math SimpleName MethodInvocation SimpleName limit
+min SimpleName MethodInvocation SimpleName max base limit
+min SimpleName MethodInvocation SimpleName limit
+max base limit SimpleName MethodInvocation SimpleName limit
+limit SimpleName InfixExpression ConditionalExpression SimpleName default no limit
+queryno limit QualifiedName InfixExpression ConditionalExpression SimpleName default no limit
+limit SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName math
+limit SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName min
+limit SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName max base limit
+limit SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName limit
+queryno limit QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName math
+queryno limit QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName min
+queryno limit QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName max base limit
+queryno limit QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName limit
+default no limit SimpleName ConditionalExpression MethodInvocation SimpleName math
+default no limit SimpleName ConditionalExpression MethodInvocation SimpleName min
+default no limit SimpleName ConditionalExpression MethodInvocation SimpleName max base limit
+default no limit SimpleName ConditionalExpression MethodInvocation SimpleName limit
+index limit SimpleName Assignment ConditionalExpression InfixExpression SimpleName limit
+index limit SimpleName Assignment ConditionalExpression InfixExpression QualifiedName queryno limit
+index limit SimpleName Assignment ConditionalExpression SimpleName default no limit
+index limit SimpleName Assignment ConditionalExpression MethodInvocation SimpleName math
+index limit SimpleName Assignment ConditionalExpression MethodInvocation SimpleName min
+index limit SimpleName Assignment ConditionalExpression MethodInvocation SimpleName max base limit
+index limit SimpleName Assignment ConditionalExpression MethodInvocation SimpleName limit
+covered clauses SimpleName MethodInvocation SimpleName size
+query util SimpleName MethodInvocation SimpleName adjust limit for tx modifications
+query util SimpleName MethodInvocation SimpleName tx
+query util SimpleName MethodInvocation MethodInvocation SimpleName covered clauses
+query util SimpleName MethodInvocation MethodInvocation SimpleName size
+query util SimpleName MethodInvocation SimpleName index limit
+adjust limit for tx modifications SimpleName MethodInvocation SimpleName tx
+adjust limit for tx modifications SimpleName MethodInvocation MethodInvocation SimpleName covered clauses
+adjust limit for tx modifications SimpleName MethodInvocation MethodInvocation SimpleName size
+adjust limit for tx modifications SimpleName MethodInvocation SimpleName index limit
+tx SimpleName MethodInvocation MethodInvocation SimpleName covered clauses
+tx SimpleName MethodInvocation MethodInvocation SimpleName size
+tx SimpleName MethodInvocation SimpleName index limit
+covered clauses SimpleName MethodInvocation MethodInvocation SimpleName index limit
+size SimpleName MethodInvocation MethodInvocation SimpleName index limit
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName hard max limit
+math SimpleName MethodInvocation MethodInvocation SimpleName query util
+math SimpleName MethodInvocation MethodInvocation SimpleName adjust limit for tx modifications
+math SimpleName MethodInvocation MethodInvocation SimpleName tx
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName covered clauses
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation MethodInvocation SimpleName index limit
+min SimpleName MethodInvocation SimpleName hard max limit
+min SimpleName MethodInvocation MethodInvocation SimpleName query util
+min SimpleName MethodInvocation MethodInvocation SimpleName adjust limit for tx modifications
+min SimpleName MethodInvocation MethodInvocation SimpleName tx
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName covered clauses
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation MethodInvocation SimpleName index limit
+hard max limit SimpleName MethodInvocation MethodInvocation SimpleName query util
+hard max limit SimpleName MethodInvocation MethodInvocation SimpleName adjust limit for tx modifications
+hard max limit SimpleName MethodInvocation MethodInvocation SimpleName tx
+hard max limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName covered clauses
+hard max limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+hard max limit SimpleName MethodInvocation MethodInvocation SimpleName index limit

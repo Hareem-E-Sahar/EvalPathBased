@@ -1,0 +1,62 @@
+data provider SimpleName MemberValuePair StringLiteral comparison queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral comparison queries provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName expected num rows
+run query SimpleName MethodInvocation SimpleName dsl query
+run query SimpleName MethodInvocation SimpleName expected num rows
+run query SimpleName MethodInvocation NumberLiteral empty
+run query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation SimpleName expected num rows
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+expected num rows SimpleName MethodInvocation NumberLiteral empty
+expected num rows SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+comparison queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+comparison queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test data type comparison queries
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test data type comparison queries
+comparison queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test data type comparison queries
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test data type comparison queries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test data type comparison queries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test data type comparison queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test data type comparison queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test data type comparison queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+test data type comparison queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+test data type comparison queries SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test data type comparison queries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test data type comparison queries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

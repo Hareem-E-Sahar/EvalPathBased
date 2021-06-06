@@ -1,0 +1,257 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get graph
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation StringLiteral knows
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral knows
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation StringLiteral knows
+v SimpleName MethodInvocation StringLiteral knows
+knows SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+knows SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+knows SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+knows SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+knows SimpleName VariableDeclarationFragment MethodInvocation StringLiteral knows
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation StringLiteral eats
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral eats
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation StringLiteral eats
+v SimpleName MethodInvocation StringLiteral eats
+eats SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+eats SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+eats SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+eats SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+eats SimpleName VariableDeclarationFragment MethodInvocation StringLiteral eats
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation StringLiteral drives
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral drives
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation StringLiteral drives
+v SimpleName MethodInvocation StringLiteral drives
+drives SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+drives SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+drives SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+drives SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+drives SimpleName VariableDeclarationFragment MethodInvocation StringLiteral drives
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation StringLiteral sleeps
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral sleeps
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation StringLiteral sleeps
+v SimpleName MethodInvocation StringLiteral sleeps
+sleeps SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+sleeps SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+sleeps SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+sleeps SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+sleeps SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sleeps
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionin
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionin
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+assert edges match SimpleName MethodInvocation SimpleName knows
+assert edges match SimpleName MethodInvocation SimpleName eats
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName eats
+get edges SimpleName MethodInvocation MethodInvocation SimpleName eats
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName eats
+knows SimpleName MethodInvocation SimpleName eats
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionboth
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation SimpleName knows
+assert edges match SimpleName MethodInvocation SimpleName eats
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName eats
+get edges SimpleName MethodInvocation MethodInvocation SimpleName eats
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName eats
+knows SimpleName MethodInvocation SimpleName eats
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionin
+v SimpleName MethodInvocation StringLiteral knows
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionin
+get edges SimpleName MethodInvocation StringLiteral knows
+atlas edge directionin QualifiedName MethodInvocation StringLiteral knows
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+assert edges match SimpleName MethodInvocation MethodInvocation StringLiteral knows
+assert edges match SimpleName MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName knows
+knows StringLiteral MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionout
+v SimpleName MethodInvocation StringLiteral knows
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation StringLiteral knows
+atlas edge directionout QualifiedName MethodInvocation StringLiteral knows
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges match SimpleName MethodInvocation MethodInvocation StringLiteral knows
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionboth
+v SimpleName MethodInvocation StringLiteral knows
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionboth
+get edges SimpleName MethodInvocation StringLiteral knows
+atlas edge directionboth QualifiedName MethodInvocation StringLiteral knows
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation MethodInvocation StringLiteral knows
+assert edges match SimpleName MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName knows
+knows StringLiteral MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionin
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionin
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+assert edges match SimpleName MethodInvocation SimpleName drives
+v SimpleName MethodInvocation MethodInvocation SimpleName drives
+get edges SimpleName MethodInvocation MethodInvocation SimpleName drives
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName drives
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges match SimpleName MethodInvocation SimpleName knows
+assert edges match SimpleName MethodInvocation SimpleName sleeps
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName sleeps
+get edges SimpleName MethodInvocation MethodInvocation SimpleName sleeps
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName sleeps
+knows SimpleName MethodInvocation SimpleName sleeps
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionboth
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation SimpleName knows
+assert edges match SimpleName MethodInvocation SimpleName sleeps
+assert edges match SimpleName MethodInvocation SimpleName drives
+v SimpleName MethodInvocation MethodInvocation SimpleName knows
+get edges SimpleName MethodInvocation MethodInvocation SimpleName knows
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName knows
+v SimpleName MethodInvocation MethodInvocation SimpleName sleeps
+get edges SimpleName MethodInvocation MethodInvocation SimpleName sleeps
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName sleeps
+v SimpleName MethodInvocation MethodInvocation SimpleName drives
+get edges SimpleName MethodInvocation MethodInvocation SimpleName drives
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName drives
+knows SimpleName MethodInvocation SimpleName sleeps
+knows SimpleName MethodInvocation SimpleName drives
+sleeps SimpleName MethodInvocation SimpleName drives
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName atlas edge directionboth
+v SimpleName MethodInvocation StringLiteral delivers
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionboth
+get edges SimpleName MethodInvocation StringLiteral delivers
+atlas edge directionboth QualifiedName MethodInvocation StringLiteral delivers
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName v
+assert edges match SimpleName MethodInvocation MethodInvocation SimpleName get edges
+assert edges match SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionboth
+assert edges match SimpleName MethodInvocation MethodInvocation StringLiteral delivers
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get edges
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get edges
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName test get edges
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test get edges
+void PrimitiveType MethodDeclaration SimpleName test get edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get edges
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get edges

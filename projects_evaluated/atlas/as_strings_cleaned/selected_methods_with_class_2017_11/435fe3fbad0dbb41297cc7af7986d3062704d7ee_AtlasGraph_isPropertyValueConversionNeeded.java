@@ -1,0 +1,13 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SimpleName is property value conversion needed
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+is property value conversion needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+is property value conversion needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is property value conversion needed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is property value conversion needed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

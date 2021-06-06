@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tag name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+get tag with name SimpleName MethodInvocation SimpleName types def
+get tag with name SimpleName MethodInvocation SimpleName tag name
+get tag with name SimpleName MethodInvocation SimpleName attribute type
+types def SimpleName MethodInvocation SimpleName tag name
+types def SimpleName MethodInvocation SimpleName attribute type
+tag name SimpleName MethodInvocation SimpleName attribute type
+type def store SimpleName MethodInvocation SimpleName create types def
+type def store SimpleName MethodInvocation SimpleName types def
+create types def SimpleName MethodInvocation SimpleName types def
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral tag creation shouldve succeeded
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName create tag
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tag name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+void PrimitiveType MethodDeclaration SimpleName create tag
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tag name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+create tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tag name
+create tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+tag name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type

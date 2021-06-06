@@ -1,0 +1,93 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+configure replication table SimpleName MethodInvocation SimpleName conn
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation QualifiedName replication tablename
+tops SimpleName MethodInvocation BooleanLiteral false
+create SimpleName MethodInvocation QualifiedName replication tablename
+create SimpleName MethodInvocation BooleanLiteral false
+replication tablename QualifiedName MethodInvocation BooleanLiteral false
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to create replication table
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to create replication table
+error SimpleName MethodInvocation SimpleName e
+failed to create replication table StringLiteral MethodInvocation SimpleName e
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral retrying table creation in second
+error SimpleName MethodInvocation StringLiteral retrying table creation in second
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+configure replication table SimpleName MethodInvocation SimpleName conn
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to configure the replication table retying
+error SimpleName MethodInvocation StringLiteral failed to configure the replication table retying
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not configure replication table
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create replication table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName create replication table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName create replication table
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SimpleName create replication table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+create replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+create replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create replication table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create replication table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn

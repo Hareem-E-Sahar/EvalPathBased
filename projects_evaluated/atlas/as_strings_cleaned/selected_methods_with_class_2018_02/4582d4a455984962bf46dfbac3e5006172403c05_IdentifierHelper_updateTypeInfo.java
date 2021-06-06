@@ -1,0 +1,182 @@
+orgapacheatlasquerylookup QualifiedName SimpleType SingleVariableDeclaration SimpleName lookup
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName has alias
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+has alias SimpleName MethodInvocation ArrayAccess SimpleName parts
+has alias SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName get type name from alias
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get type name from alias SimpleName MethodInvocation ArrayAccess SimpleName parts
+get type name from alias SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type name from alias
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type name from alias
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get active type name
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get active type name
+get type name from alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+get type name from alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get active type name
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName context
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName has alias
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName context
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type name from alias
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName context
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get active type name
+parts SimpleName ArrayAccess NumberLiteral empty
+get default qualified name for single part name SimpleName MethodInvocation SimpleName context
+get default qualified name for single part name SimpleName MethodInvocation ArrayAccess SimpleName parts
+get default qualified name for single part name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+qualified name SimpleName Assignment MethodInvocation SimpleName get default qualified name for single part name
+qualified name SimpleName Assignment MethodInvocation SimpleName context
+qualified name SimpleName Assignment MethodInvocation ArrayAccess SimpleName parts
+qualified name SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+attribute name SimpleName Assignment ArrayAccess SimpleName parts
+attribute name SimpleName Assignment ArrayAccess NumberLiteral empty
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+lookup SimpleName MethodInvocation SimpleName has attribute
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation ArrayAccess SimpleName parts
+lookup SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+has attribute SimpleName MethodInvocation SimpleName context
+has attribute SimpleName MethodInvocation ArrayAccess SimpleName parts
+has attribute SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+is attr of active type SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup
+is attr of active type SimpleName VariableDeclarationFragment MethodInvocation SimpleName has attribute
+is attr of active type SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+is attr of active type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName parts
+is attr of active type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is attr of active type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lookup
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName has attribute
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName context
+parts SimpleName ArrayAccess NumberLiteral empty
+attribute name SimpleName Assignment ArrayAccess SimpleName parts
+attribute name SimpleName Assignment ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName has alias
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+has alias SimpleName MethodInvocation ArrayAccess SimpleName parts
+has alias SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName get type name from alias
+context SimpleName MethodInvocation ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get type name from alias SimpleName MethodInvocation ArrayAccess SimpleName parts
+get type name from alias SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+context SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type name from alias
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName context
+has alias SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type name from alias
+context SimpleName MethodInvocation ConditionalExpression ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ConditionalExpression ArrayAccess NumberLiteral empty
+has alias SimpleName MethodInvocation ConditionalExpression ArrayAccess SimpleName parts
+has alias SimpleName MethodInvocation ConditionalExpression ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation ConditionalExpression ArrayAccess SimpleName parts
+context SimpleName MethodInvocation ConditionalExpression ArrayAccess NumberLiteral empty
+get type name from alias SimpleName MethodInvocation ConditionalExpression ArrayAccess SimpleName parts
+get type name from alias SimpleName MethodInvocation ConditionalExpression ArrayAccess NumberLiteral empty
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName context
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName has alias
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName context
+type name SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type name from alias
+type name SimpleName Assignment ConditionalExpression ArrayAccess SimpleName parts
+type name SimpleName Assignment ConditionalExpression ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+attribute name SimpleName Assignment ArrayAccess SimpleName parts
+attribute name SimpleName Assignment ArrayAccess NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is attr of active type
+lookup SimpleName MethodInvocation SimpleName has attribute
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName attribute name
+has attribute SimpleName MethodInvocation SimpleName context
+has attribute SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName attribute name
+is attribute SimpleName Assignment MethodInvocation SimpleName lookup
+is attribute SimpleName Assignment MethodInvocation SimpleName has attribute
+is attribute SimpleName Assignment MethodInvocation SimpleName context
+is attribute SimpleName Assignment MethodInvocation SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName is primitive
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName attribute name
+is primitive SimpleName MethodInvocation SimpleName context
+is primitive SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName attribute name
+is primitive SimpleName Assignment MethodInvocation SimpleName lookup
+is primitive SimpleName Assignment MethodInvocation SimpleName is primitive
+is primitive SimpleName Assignment MethodInvocation SimpleName context
+is primitive SimpleName Assignment MethodInvocation SimpleName attribute name
+set qualified name SimpleName MethodInvocation SimpleName lookup
+set qualified name SimpleName MethodInvocation SimpleName context
+set qualified name SimpleName MethodInvocation SimpleName is attribute
+set qualified name SimpleName MethodInvocation SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName is attribute
+lookup SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName is attribute
+context SimpleName MethodInvocation SimpleName attribute name
+is attribute SimpleName MethodInvocation SimpleName attribute name
+set is date SimpleName MethodInvocation SimpleName lookup
+set is date SimpleName MethodInvocation SimpleName context
+set is date SimpleName MethodInvocation SimpleName is primitive
+set is date SimpleName MethodInvocation SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName is primitive
+lookup SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName is primitive
+context SimpleName MethodInvocation SimpleName attribute name
+is primitive SimpleName MethodInvocation SimpleName attribute name
+set is numeric SimpleName MethodInvocation SimpleName lookup
+set is numeric SimpleName MethodInvocation SimpleName context
+set is numeric SimpleName MethodInvocation SimpleName is primitive
+set is numeric SimpleName MethodInvocation SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName is primitive
+lookup SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName is primitive
+context SimpleName MethodInvocation SimpleName attribute name
+is primitive SimpleName MethodInvocation SimpleName attribute name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update type info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName update type info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+update type info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+update type info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lookup
+update type info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+update type info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update type info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update type info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

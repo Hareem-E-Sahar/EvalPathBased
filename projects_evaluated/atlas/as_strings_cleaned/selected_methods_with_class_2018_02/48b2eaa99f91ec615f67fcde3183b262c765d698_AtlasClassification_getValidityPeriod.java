@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName time boundary
+public Modifier MethodDeclaration SimpleName get validity period
+public Modifier MethodDeclaration Block ReturnStatement SimpleName validity period
+time boundary SimpleName SimpleType MethodDeclaration SimpleName get validity period
+get validity period SimpleName MethodDeclaration Block ReturnStatement SimpleName validity period
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName time boundary
+public Modifier TypeDeclaration MethodDeclaration SimpleName get validity period
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName time boundary
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get validity period

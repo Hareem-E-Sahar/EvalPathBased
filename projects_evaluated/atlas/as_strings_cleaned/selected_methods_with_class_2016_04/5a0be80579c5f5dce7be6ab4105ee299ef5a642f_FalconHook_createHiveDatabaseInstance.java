@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+hive data typeshive db QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+db ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+db ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+db ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db ref
+db ref SimpleName MethodInvocation SimpleName set
+db ref SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+db ref SimpleName MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+set SimpleName MethodInvocation SimpleName cluster name
+atlas constantscluster name attribute QualifiedName MethodInvocation SimpleName cluster name
+db ref SimpleName MethodInvocation SimpleName set
+db ref SimpleName MethodInvocation QualifiedName hive data model generatorname
+db ref SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation QualifiedName hive data model generatorname
+set SimpleName MethodInvocation SimpleName db name
+hive data model generatorname QualifiedName MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation SimpleName get db qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+get db qualified name SimpleName MethodInvocation SimpleName cluster name
+get db qualified name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName db name
+db ref SimpleName MethodInvocation SimpleName set
+db ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+db ref SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+db ref SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+db ref SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+db ref SimpleName MethodInvocation MethodInvocation SimpleName db name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+set SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+set SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation MethodInvocation SimpleName db name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get db qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName db name
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create hive database instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create hive database instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+create hive database instance SimpleName MethodDeclaration SimpleType SimpleName exception
+create hive database instance SimpleName MethodDeclaration Block ReturnStatement SimpleName db ref
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive database instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive database instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

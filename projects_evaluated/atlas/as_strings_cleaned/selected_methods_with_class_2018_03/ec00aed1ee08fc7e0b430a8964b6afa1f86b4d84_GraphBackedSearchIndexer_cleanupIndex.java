@@ -1,0 +1,39 @@
+atlas graph management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral invalidating property key = {}
+log SimpleName MethodInvocation SimpleName property key
+debug SimpleName MethodInvocation StringLiteral invalidating property key = {}
+debug SimpleName MethodInvocation SimpleName property key
+invalidating property key = {} StringLiteral MethodInvocation SimpleName property key
+management SimpleName MethodInvocation SimpleName delete property key
+management SimpleName MethodInvocation SimpleName property key
+delete property key SimpleName MethodInvocation SimpleName property key
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName cleanup index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+void PrimitiveType MethodDeclaration SimpleName cleanup index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property key
+cleanup index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+cleanup index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+cleanup index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+cleanup index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleanup index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleanup index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key

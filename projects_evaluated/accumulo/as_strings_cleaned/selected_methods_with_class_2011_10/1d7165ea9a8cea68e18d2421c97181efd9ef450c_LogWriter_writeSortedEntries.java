@@ -1,0 +1,266 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dest
+int PrimitiveType SingleVariableDeclaration SimpleName part
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+log file key SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration SimpleName kv
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral partr d
+string SimpleName MethodInvocation SimpleName part
+format SimpleName MethodInvocation StringLiteral partr d
+format SimpleName MethodInvocation SimpleName part
+partr d StringLiteral MethodInvocation SimpleName part
+dest SimpleName InfixExpression MethodInvocation SimpleName string
+dest SimpleName InfixExpression MethodInvocation SimpleName format
+dest SimpleName InfixExpression MethodInvocation StringLiteral partr d
+dest SimpleName InfixExpression MethodInvocation SimpleName part
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName dest
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName string
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName format
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral partr d
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName part
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+writing partial log file to dsf StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral writing partial log file to dsf
+log SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral writing partial log file to dsf
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sorting
+debug SimpleName MethodInvocation StringLiteral sorting
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral logger sort
+start SimpleName MethodInvocation StringLiteral logger sort
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral logger sort
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+dest SimpleName MethodInvocation SimpleName get name
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral logfile
+span SimpleName MethodInvocation MethodInvocation SimpleName dest
+span SimpleName MethodInvocation MethodInvocation SimpleName get name
+data SimpleName MethodInvocation StringLiteral logfile
+data SimpleName MethodInvocation MethodInvocation SimpleName dest
+data SimpleName MethodInvocation MethodInvocation SimpleName get name
+logfile StringLiteral MethodInvocation MethodInvocation SimpleName dest
+logfile StringLiteral MethodInvocation MethodInvocation SimpleName get name
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+log file key SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+log file key SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+log file key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+log file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+log file key SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+log file key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+log file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get first
+o SimpleName MethodInvocation SimpleName get first
+o SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get first SimpleName MethodInvocation MethodInvocation SimpleName compare to
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get first
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get first
+compare to SimpleName MethodInvocation MethodInvocation SimpleName o
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get first
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName kv
+sort SimpleName MethodInvocation SimpleName kv
+span SimpleName MethodInvocation SimpleName stop
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral logger write
+start SimpleName MethodInvocation StringLiteral logger write
+span SimpleName Assignment MethodInvocation SimpleName trace
+span SimpleName Assignment MethodInvocation SimpleName start
+span SimpleName Assignment MethodInvocation StringLiteral logger write
+dest SimpleName MethodInvocation SimpleName get name
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral logfile
+span SimpleName MethodInvocation MethodInvocation SimpleName dest
+span SimpleName MethodInvocation MethodInvocation SimpleName get name
+data SimpleName MethodInvocation StringLiteral logfile
+data SimpleName MethodInvocation MethodInvocation SimpleName dest
+data SimpleName MethodInvocation MethodInvocation SimpleName get name
+logfile StringLiteral MethodInvocation MethodInvocation SimpleName dest
+logfile StringLiteral MethodInvocation MethodInvocation SimpleName get name
+fs SimpleName MethodInvocation SimpleName get conf
+map filewriter QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+map filewriter QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+map filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+map filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+get conf SimpleName MethodInvocation ClassInstanceCreation SimpleName fs
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+get conf SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+fs SimpleName ClassInstanceCreation SimpleName path
+fs SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName log file key
+fs SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName log file value
+path SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName log file key
+path SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName log file value
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName map filewriter
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fs
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+map filewriter QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+acu conf SimpleName MethodInvocation SimpleName get count
+acu conf SimpleName MethodInvocation QualifiedName propertylogger recovery file replication
+get count SimpleName MethodInvocation QualifiedName propertylogger recovery file replication
+short PrimitiveType CastExpression MethodInvocation SimpleName acu conf
+short PrimitiveType CastExpression MethodInvocation SimpleName get count
+short PrimitiveType CastExpression MethodInvocation QualifiedName propertylogger recovery file replication
+replication SimpleName VariableDeclarationFragment CastExpression PrimitiveType short
+replication SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName acu conf
+replication SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get count
+replication SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName propertylogger recovery file replication
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName replication
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType short
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression QualifiedName map filedata file name
+/ StringLiteral InfixExpression QualifiedName map filedata file name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+fs SimpleName MethodInvocation SimpleName set replication
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+fs SimpleName MethodInvocation SimpleName replication
+set replication SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+set replication SimpleName MethodInvocation SimpleName replication
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName replication
+path SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+/ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+map filedata file name QualifiedName InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression QualifiedName map fileindex file name
+/ StringLiteral InfixExpression QualifiedName map fileindex file name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName map fileindex file name
+fs SimpleName MethodInvocation SimpleName set replication
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map fileindex file name
+fs SimpleName MethodInvocation SimpleName replication
+set replication SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName path
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+set replication SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map fileindex file name
+set replication SimpleName MethodInvocation SimpleName replication
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName replication
+path SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+/ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+map fileindex file name QualifiedName InfixExpression ClassInstanceCreation MethodInvocation SimpleName replication
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+log file key SimpleName SimpleType ParameterizedType SimpleType SimpleName log file value
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+log file key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+log file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get first
+entry SimpleName MethodInvocation SimpleName get second
+writer SimpleName MethodInvocation SimpleName append
+writer SimpleName MethodInvocation MethodInvocation SimpleName entry
+writer SimpleName MethodInvocation MethodInvocation SimpleName get first
+writer SimpleName MethodInvocation MethodInvocation SimpleName entry
+writer SimpleName MethodInvocation MethodInvocation SimpleName get second
+append SimpleName MethodInvocation MethodInvocation SimpleName entry
+append SimpleName MethodInvocation MethodInvocation SimpleName get first
+append SimpleName MethodInvocation MethodInvocation SimpleName entry
+append SimpleName MethodInvocation MethodInvocation SimpleName get second
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName kv
+kv SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName writer
+kv SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName append
+writer SimpleName MethodInvocation SimpleName close
+span SimpleName MethodInvocation SimpleName stop
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write sorted entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName part
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName kv
+void PrimitiveType MethodDeclaration SimpleName write sorted entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dest
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName part
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kv
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName part
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+write sorted entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kv
+write sorted entries SimpleName MethodDeclaration SimpleType SimpleName io exception
+write sorted entries SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+dest SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dest SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName part
+dest SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+dest SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kv
+dest SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kv
+part SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+part SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kv
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+part SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+kv SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write sorted entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName part
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kv
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write sorted entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName part
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kv
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

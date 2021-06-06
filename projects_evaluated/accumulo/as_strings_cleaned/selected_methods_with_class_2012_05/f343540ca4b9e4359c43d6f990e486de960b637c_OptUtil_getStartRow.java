@@ -1,0 +1,47 @@
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation SimpleName start row opt
+has option SimpleName MethodInvocation SimpleName start row opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation SimpleName start row opt
+get option value SimpleName MethodInvocation SimpleName start row opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+start row opt SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+cl SimpleName MethodInvocation MethodInvocation QualifiedName shellcharset
+get option value SimpleName MethodInvocation MethodInvocation QualifiedName shellcharset
+start row opt SimpleName MethodInvocation MethodInvocation QualifiedName shellcharset
+get bytes SimpleName MethodInvocation QualifiedName shellcharset
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName shellcharset
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName get start row
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SimpleType SimpleName unsupported encoding exception
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName get start row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+static Modifier MethodDeclaration SimpleType SimpleName unsupported encoding exception
+text SimpleName SimpleType MethodDeclaration SimpleName get start row
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cl
+text SimpleName SimpleType MethodDeclaration SimpleType SimpleName unsupported encoding exception
+get start row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+get start row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+get start row SimpleName MethodDeclaration SimpleType SimpleName unsupported encoding exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName get start row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get start row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception

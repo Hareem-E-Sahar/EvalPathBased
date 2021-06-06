@@ -1,0 +1,17 @@
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+current key SimpleName MethodInvocation SimpleName set
+current key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get source
+current key SimpleName MethodInvocation MethodInvocation SimpleName get top key
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get source
+set SimpleName MethodInvocation MethodInvocation SimpleName get top key
+num versions SimpleName Assignment NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reset version count
+void PrimitiveType MethodDeclaration SimpleName reset version count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset version count
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset version count

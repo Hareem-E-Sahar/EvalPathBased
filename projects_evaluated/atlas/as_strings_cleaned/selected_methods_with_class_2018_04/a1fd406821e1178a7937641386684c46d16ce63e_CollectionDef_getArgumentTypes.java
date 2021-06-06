@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName primitive def category
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName argument types
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName primitive def category
+public Modifier MethodDeclaration SimpleName get argument types
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get argument types
+primitive def category SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get argument types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get argument types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get argument types

@@ -1,0 +1,85 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName trait name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+call api with body and params SimpleName MethodInvocation QualifiedName api v get trait definition
+call api with body and params SimpleName MethodInvocation SimpleName guid
+call api with body and params SimpleName MethodInvocation SimpleName trait definitions
+call api with body and params SimpleName MethodInvocation SimpleName trait name
+api v get trait definition QualifiedName MethodInvocation SimpleName guid
+api v get trait definition QualifiedName MethodInvocation SimpleName trait definitions
+api v get trait definition QualifiedName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait definitions
+guid SimpleName MethodInvocation SimpleName trait name
+trait definitions SimpleName MethodInvocation SimpleName trait name
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName api v get trait definition
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait definitions
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+json response SimpleName MethodInvocation SimpleName get string
+json response SimpleName MethodInvocation QualifiedName atlas clientresults
+get string SimpleName MethodInvocation QualifiedName atlas clientresults
+atlas type SimpleName MethodInvocation SimpleName from v json
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName json response
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName get string
+atlas type SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct
+from v json SimpleName MethodInvocation MethodInvocation SimpleName json response
+from v json SimpleName MethodInvocation MethodInvocation SimpleName get string
+from v json SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+from v json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation QualifiedName api v get trait definition
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+api v get trait definition QualifiedName ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName struct
+public Modifier MethodDeclaration SimpleName get trait definition
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+struct SimpleName SimpleType MethodDeclaration SimpleName get trait definition
+struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+get trait definition SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

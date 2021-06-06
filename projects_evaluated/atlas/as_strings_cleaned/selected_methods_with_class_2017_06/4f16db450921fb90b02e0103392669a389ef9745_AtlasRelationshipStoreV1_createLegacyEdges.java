@@ -1,0 +1,91 @@
+atlas relationship def SimpleName SimpleType SingleVariableDeclaration SimpleName relationship def
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName from vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName to vertex
+relationship def SimpleName MethodInvocation SimpleName get end def
+end def SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship def
+end def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end def
+atlas relationship end def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end def
+relationship def SimpleName MethodInvocation SimpleName get end def
+end def SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship def
+end def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end def
+atlas relationship end def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end def
+end def SimpleName MethodInvocation SimpleName has legacy relation
+end def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName end def
+end def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has legacy relation
+end def SimpleName MethodInvocation SimpleName get legacy label
+graph helper SimpleName MethodInvocation SimpleName get or create edge
+graph helper SimpleName MethodInvocation SimpleName from vertex
+graph helper SimpleName MethodInvocation SimpleName to vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName end def
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+get or create edge SimpleName MethodInvocation SimpleName from vertex
+get or create edge SimpleName MethodInvocation SimpleName to vertex
+get or create edge SimpleName MethodInvocation MethodInvocation SimpleName end def
+get or create edge SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+from vertex SimpleName MethodInvocation SimpleName to vertex
+from vertex SimpleName MethodInvocation MethodInvocation SimpleName end def
+from vertex SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+to vertex SimpleName MethodInvocation MethodInvocation SimpleName end def
+to vertex SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+end def SimpleName MethodInvocation SimpleName has legacy relation
+end def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName end def
+end def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has legacy relation
+end def SimpleName MethodInvocation SimpleName get legacy label
+graph helper SimpleName MethodInvocation SimpleName get or create edge
+graph helper SimpleName MethodInvocation SimpleName to vertex
+graph helper SimpleName MethodInvocation SimpleName from vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName end def
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+get or create edge SimpleName MethodInvocation SimpleName to vertex
+get or create edge SimpleName MethodInvocation SimpleName from vertex
+get or create edge SimpleName MethodInvocation MethodInvocation SimpleName end def
+get or create edge SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+to vertex SimpleName MethodInvocation SimpleName from vertex
+to vertex SimpleName MethodInvocation MethodInvocation SimpleName end def
+to vertex SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+from vertex SimpleName MethodInvocation MethodInvocation SimpleName end def
+from vertex SimpleName MethodInvocation MethodInvocation SimpleName get legacy label
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create legacy edges
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+void PrimitiveType MethodDeclaration SimpleName create legacy edges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship def
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship def
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+create legacy edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+create legacy edges SimpleName MethodDeclaration SimpleType SimpleName repository exception
+relationship def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+relationship def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+relationship def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create legacy edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create legacy edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

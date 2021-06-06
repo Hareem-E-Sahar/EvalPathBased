@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName field
+types util SimpleName MethodInvocation SimpleName new attribute info
+types util SimpleName MethodInvocation SimpleName field
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+new attribute info SimpleName MethodInvocation SimpleName field
+new attribute info SimpleName MethodInvocation QualifiedName data typesstring type
+field SimpleName MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation SimpleName new attribute info
+types util SimpleName MethodInvocation SimpleName field
+types util SimpleName MethodInvocation QualifiedName data typeslong type
+new attribute info SimpleName MethodInvocation SimpleName field
+new attribute info SimpleName MethodInvocation QualifiedName data typeslong type
+field SimpleName MethodInvocation QualifiedName data typeslong type
+field SimpleName SwitchStatement SwitchCase QualifiedName constantsstate property key
+field SimpleName SwitchStatement SwitchCase QualifiedName constantsguid property key
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName types util
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName new attribute info
+field SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName field
+field SimpleName SwitchStatement ReturnStatement MethodInvocation QualifiedName data typesstring type
+field SimpleName SwitchStatement SwitchCase QualifiedName constantstimestamp property key
+field SimpleName SwitchStatement SwitchCase QualifiedName constantsmodification timestamp property key
+constantsstate property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantsguid property key
+constantsstate property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantstimestamp property key
+constantsstate property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantsmodification timestamp property key
+constantsguid property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantstimestamp property key
+constantsguid property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantsmodification timestamp property key
+constantstimestamp property key QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName constantsmodification timestamp property key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName attribute info
+public Modifier MethodDeclaration SimpleName get attribute info for system attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier MethodDeclaration Block SwitchStatement SimpleName field
+static Modifier MethodDeclaration SimpleType SimpleName attribute info
+static Modifier MethodDeclaration SimpleName get attribute info for system attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+static Modifier MethodDeclaration Block SwitchStatement SimpleName field
+attribute info SimpleName SimpleType MethodDeclaration SimpleName get attribute info for system attributes
+attribute info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName field
+get attribute info for system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute info for system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+get attribute info for system attributes SimpleName MethodDeclaration Block SwitchStatement SimpleName field
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute info for system attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute info for system attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field

@@ -1,0 +1,51 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName collection
+collection SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName is empty
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName val
+get length SimpleName MethodInvocation SimpleName val
+array SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+val SimpleName InstanceofExpression SimpleType SimpleName string
+val SimpleName MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName val
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+from json SimpleName MethodInvocation MethodInvocation SimpleName val
+from json SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName val
+list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+list SimpleName MethodInvocation SimpleName is empty
+list SimpleName InfixExpression InfixExpression MethodInvocation SimpleName list
+list SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is empty array value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is empty array value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is empty array value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+is empty array value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+is empty array value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is empty array value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is empty array value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

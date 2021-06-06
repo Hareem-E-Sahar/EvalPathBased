@@ -1,0 +1,63 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entity SimpleName MethodInvocation SimpleName get relationship attributes
+relationship attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+relationship attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attributes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entity SimpleName MethodInvocation SimpleName get attributes
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName relationship attributes
+is not empty SimpleName MethodInvocation SimpleName relationship attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName attributes
+is not empty SimpleName MethodInvocation SimpleName attributes
+map utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+map utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attributes
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attributes
+relationship attributes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+relationship attributes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+relationship attributes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attributes
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+relationship attributes SimpleName MethodInvocation SimpleName key set
+attributes SimpleName MethodInvocation SimpleName contains key
+attributes SimpleName MethodInvocation SimpleName attr name
+contains key SimpleName MethodInvocation SimpleName attr name
+entity SimpleName MethodInvocation SimpleName remove attribute
+entity SimpleName MethodInvocation SimpleName attr name
+remove attribute SimpleName MethodInvocation SimpleName attr name
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName relationship attributes
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName compact attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName compact attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName compact attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+compact attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+compact attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compact attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compact attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

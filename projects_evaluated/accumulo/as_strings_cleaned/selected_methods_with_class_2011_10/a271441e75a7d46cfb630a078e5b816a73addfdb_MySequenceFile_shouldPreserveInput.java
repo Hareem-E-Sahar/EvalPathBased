@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName should preserve input
+public Modifier MethodDeclaration Block ReturnStatement SimpleName preserve input
+boolean PrimitiveType MethodDeclaration SimpleName should preserve input
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName preserve input
+should preserve input SimpleName MethodDeclaration Block ReturnStatement SimpleName preserve input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName should preserve input
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should preserve input

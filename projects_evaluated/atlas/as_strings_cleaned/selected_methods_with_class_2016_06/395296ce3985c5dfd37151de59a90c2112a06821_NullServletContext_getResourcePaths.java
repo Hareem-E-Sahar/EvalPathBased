@@ -1,0 +1,18 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get resource paths
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resource paths
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resource paths
+get resource paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get resource paths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource paths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource paths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

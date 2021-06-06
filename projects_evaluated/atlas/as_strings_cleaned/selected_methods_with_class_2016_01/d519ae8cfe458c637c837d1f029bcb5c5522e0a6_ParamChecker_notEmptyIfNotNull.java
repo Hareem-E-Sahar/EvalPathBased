@@ -1,0 +1,64 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName info
+value SimpleName MethodInvocation SimpleName trim
+value SimpleName MethodInvocation MethodInvocation SimpleName length
+trim SimpleName MethodInvocation MethodInvocation SimpleName length
+value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+trim SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty StringLiteral InfixExpression SimpleName info
+info SimpleName InfixExpression ConditionalExpression StringLiteral empty
+info SimpleName InfixExpression ConditionalExpression InfixExpression StringLiteral empty
+info SimpleName InfixExpression ConditionalExpression InfixExpression SimpleName info
+empty StringLiteral ConditionalExpression InfixExpression StringLiteral empty
+empty StringLiteral ConditionalExpression InfixExpression SimpleName info
+name SimpleName InfixExpression StringLiteral cannot be empty
+name SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+cannot be empty StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot be empty
+value SimpleName MethodInvocation SimpleName trim
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName not empty if not null
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName not empty if not null
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+string SimpleName SimpleType MethodDeclaration SimpleName not empty if not null
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName info
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+not empty if not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName not empty if not null
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName not empty if not null
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info

@@ -1,0 +1,43 @@
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get data SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zoo reader writer
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+master goal state SimpleName MethodInvocation SimpleName value of
+master goal state SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+master goal state SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+problem getting real goal state StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral problem getting real goal state
+log SimpleName MethodInvocation InfixExpression SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral problem getting real goal state
+error SimpleName MethodInvocation InfixExpression SimpleName e
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+master goal state SimpleName SimpleType MethodDeclaration SimpleName get master goal state
+get master goal state SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName master goal state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get master goal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName master goal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get master goal state

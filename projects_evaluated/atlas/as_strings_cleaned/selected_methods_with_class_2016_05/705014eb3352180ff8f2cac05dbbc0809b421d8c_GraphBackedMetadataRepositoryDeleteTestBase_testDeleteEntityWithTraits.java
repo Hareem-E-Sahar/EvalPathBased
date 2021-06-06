@@ -1,0 +1,78 @@
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName create db entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+create instance SimpleName MethodInvocation SimpleName entity
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+type system SimpleName MethodInvocation SimpleName pii
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation SimpleName pii
+trait type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName pii
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pii
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspii
+data type SimpleName MethodInvocation SimpleName convert
+data type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+data type SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspii
+data type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+convert SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspii
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName multiplicityrequired
+test utilspii QualifiedName ClassInstanceCreation MethodInvocation QualifiedName multiplicityrequired
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName data type
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+trait SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName test utilspii
+trait SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait
+repository service SimpleName MethodInvocation SimpleName add trait
+repository service SimpleName MethodInvocation SimpleName id
+repository service SimpleName MethodInvocation SimpleName trait
+add trait SimpleName MethodInvocation SimpleName id
+add trait SimpleName MethodInvocation SimpleName trait
+id SimpleName MethodInvocation SimpleName trait
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName id
+get entity definition SimpleName MethodInvocation SimpleName id
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get traits
+instance SimpleName MethodInvocation MethodInvocation SimpleName contains
+get traits SimpleName MethodInvocation MethodInvocation SimpleName contains
+instance SimpleName MethodInvocation MethodInvocation SimpleName pii
+get traits SimpleName MethodInvocation MethodInvocation SimpleName pii
+contains SimpleName MethodInvocation SimpleName pii
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get traits
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName pii
+delete entities SimpleName MethodInvocation SimpleName id
+assert entity deleted SimpleName MethodInvocation SimpleName id
+assert test delete entity with traits SimpleName MethodInvocation SimpleName id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete entity with traits
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete entity with traits
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete entity with traits
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete entity with traits SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete entity with traits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete entity with traits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

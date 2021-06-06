@@ -1,0 +1,61 @@
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max retries
+retry SimpleName MethodInvocation SimpleName retries completed
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName i
+assert SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+i SimpleName MethodInvocation MethodInvocation SimpleName retry
+i SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+retry SimpleName MethodInvocation SimpleName can retry
+retry SimpleName MethodInvocation SimpleName retries completed
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName i
+assert SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+i SimpleName MethodInvocation MethodInvocation SimpleName retry
+i SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+retry SimpleName MethodInvocation SimpleName use retry
+i SimpleName InfixExpression NumberLiteral empty
+retry SimpleName MethodInvocation SimpleName retries completed
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression SimpleName i
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+assert equals SimpleName MethodInvocation InfixExpression SimpleName i
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retries completed
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName retry
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName retries completed
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName retry
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName retries completed
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max retries
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max retries SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName retries are completed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName retries are completed
+void PrimitiveType MethodDeclaration SimpleName retries are completed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName retries are completed
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retries are completed

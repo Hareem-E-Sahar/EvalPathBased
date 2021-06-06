@@ -1,0 +1,59 @@
+authentication SimpleName MethodInvocation SimpleName get name
+when SimpleName MethodInvocation MethodInvocation SimpleName authentication
+when SimpleName MethodInvocation MethodInvocation SimpleName get name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral admin
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+then return SimpleName MethodInvocation StringLiteral admin
+authentication SimpleName MethodInvocation SimpleName get credentials
+when SimpleName MethodInvocation MethodInvocation SimpleName authentication
+when SimpleName MethodInvocation MethodInvocation SimpleName get credentials
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral wrongpassword
+authentication SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral wrongpassword
+get credentials SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral wrongpassword
+then return SimpleName MethodInvocation StringLiteral wrongpassword
+auth provider SimpleName MethodInvocation SimpleName authenticate
+auth provider SimpleName MethodInvocation SimpleName authentication
+authenticate SimpleName MethodInvocation SimpleName authentication
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth provider
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName authenticate
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+empty StringLiteral InfixExpression SimpleName auth
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName auth
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName auth
+bad credentials exception SimpleName SimpleType SingleVariableDeclaration SimpleName bc exp
+bc exp SimpleName MethodInvocation SimpleName get message
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral wrong password
+assert SimpleName MethodInvocation MethodInvocation SimpleName bc exp
+assert SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral wrong password
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bc exp
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+wrong password StringLiteral MethodInvocation MethodInvocation SimpleName bc exp
+wrong password StringLiteral MethodInvocation MethodInvocation SimpleName get message
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test in valid password login
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test in valid password login
+void PrimitiveType MethodDeclaration SimpleName test in valid password login
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test in valid password login
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test in valid password login

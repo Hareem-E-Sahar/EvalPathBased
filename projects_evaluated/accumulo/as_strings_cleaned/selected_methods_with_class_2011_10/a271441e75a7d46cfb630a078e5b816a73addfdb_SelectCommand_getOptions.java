@@ -1,0 +1,100 @@
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+option SimpleName SimpleType ClassInstanceCreation StringLiteral s
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scanauthorizations
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral scan authorizations
+s StringLiteral ClassInstanceCreation StringLiteral scanauthorizations
+s StringLiteral ClassInstanceCreation BooleanLiteral true
+s StringLiteral ClassInstanceCreation StringLiteral scan authorizations
+scanauthorizations StringLiteral ClassInstanceCreation BooleanLiteral true
+scanauthorizations StringLiteral ClassInstanceCreation StringLiteral scan authorizations
+true BooleanLiteral ClassInstanceCreation StringLiteral scan authorizations
+select opt auths SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+select opt auths SimpleName Assignment ClassInstanceCreation StringLiteral s
+select opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scanauthorizations
+select opt auths SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+select opt auths SimpleName Assignment ClassInstanceCreation StringLiteral scan authorizations
+select opt auths SimpleName MethodInvocation SimpleName set arg name
+select opt auths SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+set arg name SimpleName MethodInvocation StringLiteral commaseparatedauthorizations
+option SimpleName SimpleType ClassInstanceCreation StringLiteral st
+option SimpleName SimpleType ClassInstanceCreation StringLiteral showtimestamps
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral enables displaying timestamps
+st StringLiteral ClassInstanceCreation StringLiteral showtimestamps
+st StringLiteral ClassInstanceCreation BooleanLiteral false
+st StringLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+showtimestamps StringLiteral ClassInstanceCreation BooleanLiteral false
+showtimestamps StringLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+false BooleanLiteral ClassInstanceCreation StringLiteral enables displaying timestamps
+timestamp opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral st
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral showtimestamps
+timestamp opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+timestamp opt SimpleName Assignment ClassInstanceCreation StringLiteral enables displaying timestamps
+option SimpleName SimpleType ClassInstanceCreation StringLiteral np
+option SimpleName SimpleType ClassInstanceCreation StringLiteral nopagination
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disables pagination of output
+np StringLiteral ClassInstanceCreation StringLiteral nopagination
+np StringLiteral ClassInstanceCreation BooleanLiteral false
+np StringLiteral ClassInstanceCreation StringLiteral disables pagination of output
+nopagination StringLiteral ClassInstanceCreation BooleanLiteral false
+nopagination StringLiteral ClassInstanceCreation StringLiteral disables pagination of output
+false BooleanLiteral ClassInstanceCreation StringLiteral disables pagination of output
+disable pagination opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral np
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral nopagination
+disable pagination opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral disables pagination of output
+option SimpleName SimpleType ClassInstanceCreation QualifiedName shelltable option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table name
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table name
+shelltable option QualifiedName ClassInstanceCreation BooleanLiteral true
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table
+table name StringLiteral ClassInstanceCreation BooleanLiteral true
+table name StringLiteral ClassInstanceCreation StringLiteral table
+true BooleanLiteral ClassInstanceCreation StringLiteral table
+table opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+table opt SimpleName Assignment ClassInstanceCreation QualifiedName shelltable option
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table name
+table opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table
+table opt SimpleName MethodInvocation SimpleName set arg name
+table opt SimpleName MethodInvocation StringLiteral table
+set arg name SimpleName MethodInvocation StringLiteral table
+table opt SimpleName MethodInvocation SimpleName set required
+table opt SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName select opt auths
+add option SimpleName MethodInvocation SimpleName select opt auths
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName timestamp opt
+add option SimpleName MethodInvocation SimpleName timestamp opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName disable pagination opt
+add option SimpleName MethodInvocation SimpleName disable pagination opt
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName table opt
+add option SimpleName MethodInvocation SimpleName table opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

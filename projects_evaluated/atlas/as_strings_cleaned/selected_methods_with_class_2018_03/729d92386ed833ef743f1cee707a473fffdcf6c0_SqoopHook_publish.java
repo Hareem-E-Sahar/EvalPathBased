@@ -1,0 +1,164 @@
+sqoop job data publisherdata QualifiedName SimpleType SingleVariableDeclaration SimpleName data
+application properties SimpleName MethodInvocation SimpleName get
+atlas properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+atlas properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas properties
+atlas properties SimpleName MethodInvocation SimpleName get string
+atlas properties SimpleName MethodInvocation SimpleName atlas cluster name
+atlas properties SimpleName MethodInvocation SimpleName default cluster name
+get string SimpleName MethodInvocation SimpleName atlas cluster name
+get string SimpleName MethodInvocation SimpleName default cluster name
+atlas cluster name SimpleName MethodInvocation SimpleName default cluster name
+cluster name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+cluster name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+cluster name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas cluster name
+cluster name SimpleName VariableDeclarationFragment MethodInvocation SimpleName default cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster name
+to sqoop db store entity SimpleName MethodInvocation SimpleName data
+ent db store SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sqoop db store entity
+ent db store SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent db store
+data SimpleName MethodInvocation SimpleName get hive db
+to hive database entity SimpleName MethodInvocation SimpleName cluster name
+to hive database entity SimpleName MethodInvocation MethodInvocation SimpleName data
+to hive database entity SimpleName MethodInvocation MethodInvocation SimpleName get hive db
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName data
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get hive db
+ent hive db SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hive database entity
+ent hive db SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+ent hive db SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName data
+ent hive db SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hive db
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent hive db
+data SimpleName MethodInvocation SimpleName get hive table
+data SimpleName MethodInvocation SimpleName get hive table
+to hive table entity SimpleName MethodInvocation SimpleName ent hive db
+to hive table entity SimpleName MethodInvocation MethodInvocation SimpleName data
+to hive table entity SimpleName MethodInvocation MethodInvocation SimpleName get hive table
+ent hive db SimpleName MethodInvocation MethodInvocation SimpleName data
+ent hive db SimpleName MethodInvocation MethodInvocation SimpleName get hive table
+ent hive table SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to hive table entity
+ent hive table SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName ent hive db
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent hive table
+to sqoop process entity SimpleName MethodInvocation SimpleName ent db store
+to sqoop process entity SimpleName MethodInvocation SimpleName ent hive db
+to sqoop process entity SimpleName MethodInvocation SimpleName ent hive table
+to sqoop process entity SimpleName MethodInvocation SimpleName data
+to sqoop process entity SimpleName MethodInvocation SimpleName cluster name
+ent db store SimpleName MethodInvocation SimpleName ent hive db
+ent db store SimpleName MethodInvocation SimpleName ent hive table
+ent db store SimpleName MethodInvocation SimpleName data
+ent db store SimpleName MethodInvocation SimpleName cluster name
+ent hive db SimpleName MethodInvocation SimpleName ent hive table
+ent hive db SimpleName MethodInvocation SimpleName data
+ent hive db SimpleName MethodInvocation SimpleName cluster name
+ent hive table SimpleName MethodInvocation SimpleName data
+ent hive table SimpleName MethodInvocation SimpleName cluster name
+data SimpleName MethodInvocation SimpleName cluster name
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName to sqoop process entity
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName ent db store
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName ent hive db
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName ent hive table
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+ent process SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent process
+atlas entities with ext info SimpleName SimpleType ClassInstanceCreation SimpleName ent process
+entities SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+entities SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ent process
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities
+entities SimpleName MethodInvocation SimpleName add referred entity
+entities SimpleName MethodInvocation SimpleName ent db store
+add referred entity SimpleName MethodInvocation SimpleName ent db store
+entities SimpleName MethodInvocation SimpleName add referred entity
+entities SimpleName MethodInvocation SimpleName ent hive db
+add referred entity SimpleName MethodInvocation SimpleName ent hive db
+entities SimpleName MethodInvocation SimpleName add referred entity
+entities SimpleName MethodInvocation SimpleName ent hive table
+add referred entity SimpleName MethodInvocation SimpleName ent hive table
+atlas hook SimpleName MethodInvocation SimpleName get user
+entity create request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas hook
+entity create request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+entity create request v SimpleName SimpleType ClassInstanceCreation SimpleName entities
+atlas hook SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity create request v
+message SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas hook
+message SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get user
+message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entities
+hook notification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName message
+singleton list SimpleName MethodInvocation SimpleName message
+atlas properties SimpleName MethodInvocation SimpleName get int
+atlas properties SimpleName MethodInvocation SimpleName hook num retries
+atlas properties SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation SimpleName hook num retries
+get int SimpleName MethodInvocation NumberLiteral empty
+hook num retries SimpleName MethodInvocation NumberLiteral empty
+atlas hook SimpleName MethodInvocation SimpleName notify entities
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName message
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName atlas properties
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName get int
+atlas hook SimpleName MethodInvocation MethodInvocation SimpleName hook num retries
+atlas hook SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName collections
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName message
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName atlas properties
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName get int
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName hook num retries
+notify entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas properties
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get int
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook num retries
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas properties
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get int
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook num retries
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas properties
+message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get int
+message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook num retries
+message SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral sqoop hookpublish failed
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral sqoop hookpublish failed
+error SimpleName MethodInvocation SimpleName e
+sqoop hookpublish failed StringLiteral MethodInvocation SimpleName e
+atlas hook exception SimpleName SimpleType ClassInstanceCreation StringLiteral sqoop hookpublish failed
+atlas hook exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+sqoop hookpublish failed StringLiteral ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName publish
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas hook exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName publish
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SimpleType SimpleName atlas hook exception
+void PrimitiveType MethodDeclaration SimpleName publish
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas hook exception
+publish SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+publish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+publish SimpleName MethodDeclaration SimpleType SimpleName atlas hook exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName publish
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName publish
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception

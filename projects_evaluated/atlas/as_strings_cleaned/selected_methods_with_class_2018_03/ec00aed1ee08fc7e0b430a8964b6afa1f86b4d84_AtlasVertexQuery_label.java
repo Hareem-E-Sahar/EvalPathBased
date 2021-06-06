@@ -1,0 +1,14 @@
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+atlas vertex query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName label
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName label
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName label
+label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label

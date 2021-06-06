@@ -1,0 +1,178 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+log SimpleName MethodInvocation SimpleName is trace enabled
+m SimpleName MethodInvocation SimpleName get row
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName m
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName get row
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral table s row key s
+string SimpleName MethodInvocation SimpleName table
+string SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+format SimpleName MethodInvocation StringLiteral table s row key s
+format SimpleName MethodInvocation SimpleName table
+format SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+table s row key s StringLiteral MethodInvocation SimpleName table
+table s row key s StringLiteral MethodInvocation MethodInvocation SimpleName hex dump
+table s row key s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName m
+table s row key s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+table SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral table s row key s
+log SimpleName MethodInvocation MethodInvocation SimpleName table
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName format
+trace SimpleName MethodInvocation MethodInvocation StringLiteral table s row key s
+trace SimpleName MethodInvocation MethodInvocation SimpleName table
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName cu
+m SimpleName MethodInvocation SimpleName get updates
+cu SimpleName MethodInvocation SimpleName get column family
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName cu
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName get column family
+cu SimpleName MethodInvocation SimpleName get column qualifier
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName cu
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral table s column ss
+string SimpleName MethodInvocation SimpleName table
+string SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+string SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+format SimpleName MethodInvocation StringLiteral table s column ss
+format SimpleName MethodInvocation SimpleName table
+format SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+format SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+table s column ss StringLiteral MethodInvocation SimpleName table
+table s column ss StringLiteral MethodInvocation MethodInvocation SimpleName hex dump
+table s column ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table s column ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+table s column ss StringLiteral MethodInvocation MethodInvocation SimpleName hex dump
+table s column ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table s column ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+table SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+table SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+hex dump SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral table s column ss
+log SimpleName MethodInvocation MethodInvocation SimpleName table
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName format
+trace SimpleName MethodInvocation MethodInvocation StringLiteral table s column ss
+trace SimpleName MethodInvocation MethodInvocation SimpleName table
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+cu SimpleName MethodInvocation SimpleName get column visibility
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cu
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column visibility
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+cu SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get column visibility SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral table s security s
+string SimpleName MethodInvocation SimpleName table
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation StringLiteral table s security s
+format SimpleName MethodInvocation SimpleName table
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+table s security s StringLiteral MethodInvocation SimpleName table
+table s security s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+table SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral table s security s
+log SimpleName MethodInvocation MethodInvocation SimpleName table
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName format
+trace SimpleName MethodInvocation MethodInvocation StringLiteral table s security s
+trace SimpleName MethodInvocation MethodInvocation SimpleName table
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+cu SimpleName MethodInvocation SimpleName get value
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName cu
+hex dump SimpleName MethodInvocation MethodInvocation SimpleName get value
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral table s value s
+string SimpleName MethodInvocation SimpleName table
+string SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+format SimpleName MethodInvocation StringLiteral table s value s
+format SimpleName MethodInvocation SimpleName table
+format SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+table s value s StringLiteral MethodInvocation SimpleName table
+table s value s StringLiteral MethodInvocation MethodInvocation SimpleName hex dump
+table s value s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table s value s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+table SimpleName MethodInvocation MethodInvocation SimpleName hex dump
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cu
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral table s value s
+log SimpleName MethodInvocation MethodInvocation SimpleName table
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName format
+trace SimpleName MethodInvocation MethodInvocation StringLiteral table s value s
+trace SimpleName MethodInvocation MethodInvocation SimpleName table
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hex dump
+cu SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName m
+cu SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get updates
+m SimpleName MethodInvocation SimpleName get updates
+m SimpleName MethodInvocation MethodInvocation SimpleName size
+get updates SimpleName MethodInvocation MethodInvocation SimpleName size
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName print mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+int PrimitiveType MethodDeclaration SimpleName print mutation
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+print mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+print mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+print mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+print mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName print mutation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print mutation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

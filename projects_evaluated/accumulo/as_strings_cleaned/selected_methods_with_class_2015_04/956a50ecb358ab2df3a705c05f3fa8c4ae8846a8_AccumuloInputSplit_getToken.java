@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName authentication token
+public Modifier MethodDeclaration SimpleName get token
+public Modifier MethodDeclaration Block ReturnStatement SimpleName token
+authentication token SimpleName SimpleType MethodDeclaration SimpleName get token
+get token SimpleName MethodDeclaration Block ReturnStatement SimpleName token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+public Modifier TypeDeclaration MethodDeclaration SimpleName get token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get token

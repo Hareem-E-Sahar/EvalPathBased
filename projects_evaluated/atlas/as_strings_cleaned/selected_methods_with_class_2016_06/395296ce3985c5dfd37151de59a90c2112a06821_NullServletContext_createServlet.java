@@ -1,0 +1,34 @@
+t SimpleName TypeParameter SimpleType SimpleName servlet
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName servlet
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName create servlet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName create servlet
+servlet SimpleName SimpleType TypeParameter MethodDeclaration SimpleName create servlet
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName servlet exception
+t SimpleName SimpleType MethodDeclaration SimpleName create servlet
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+create servlet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+create servlet SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create servlet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create servlet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

@@ -1,0 +1,54 @@
+service state SimpleName MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName service state
+when SimpleName MethodInvocation MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+then return SimpleName MethodInvocation QualifiedName service stateservice state valueactive
+local atlas client SimpleName SimpleType ClassInstanceCreation SimpleName service state
+local atlas client SimpleName SimpleType ClassInstanceCreation SimpleName mock entity resource
+service state SimpleName ClassInstanceCreation SimpleName mock entity resource
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName local atlas client
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service state
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mock entity resource
+local atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+atlas client SimpleName MethodInvocation SimpleName is server ready
+assert true SimpleName MethodInvocation MethodInvocation SimpleName atlas client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is server ready
+service state SimpleName MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName service state
+when SimpleName MethodInvocation MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName service stateservice state valuebecoming active
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valuebecoming active
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valuebecoming active
+then return SimpleName MethodInvocation QualifiedName service stateservice state valuebecoming active
+atlas client SimpleName MethodInvocation SimpleName is server ready
+assert false SimpleName MethodInvocation MethodInvocation SimpleName atlas client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is server ready
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test is server ready
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test is server ready
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test is server ready
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test is server ready SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test is server ready
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test is server ready
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

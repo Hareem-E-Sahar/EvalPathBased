@@ -1,0 +1,159 @@
+dsl query SimpleName VariableDeclarationFragment StringLiteral from dsl test type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral from dsl test type
+service SimpleName MethodInvocation SimpleName path
+service SimpleName MethodInvocation StringLiteral apiatlasdiscoverysearchdsl
+path SimpleName MethodInvocation StringLiteral apiatlasdiscoverysearchdsl
+service SimpleName MethodInvocation MethodInvocation SimpleName query param
+path SimpleName MethodInvocation MethodInvocation SimpleName query param
+apiatlasdiscoverysearchdsl StringLiteral MethodInvocation MethodInvocation SimpleName query param
+service SimpleName MethodInvocation MethodInvocation StringLiteral query
+path SimpleName MethodInvocation MethodInvocation StringLiteral query
+apiatlasdiscoverysearchdsl StringLiteral MethodInvocation MethodInvocation StringLiteral query
+service SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+path SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+apiatlasdiscoverysearchdsl StringLiteral MethodInvocation MethodInvocation SimpleName dsl query
+query param SimpleName MethodInvocation StringLiteral query
+query param SimpleName MethodInvocation SimpleName dsl query
+query StringLiteral MethodInvocation SimpleName dsl query
+resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName service
+resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral apiatlasdiscoverysearchdsl
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName query param
+resource SimpleName VariableDeclarationFragment MethodInvocation StringLiteral query
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName accept
+resource SimpleName MethodInvocation QualifiedName servletsjson media type
+accept SimpleName MethodInvocation QualifiedName servletsjson media type
+resource SimpleName MethodInvocation MethodInvocation SimpleName type
+accept SimpleName MethodInvocation MethodInvocation SimpleName type
+servletsjson media type QualifiedName MethodInvocation MethodInvocation SimpleName type
+resource SimpleName MethodInvocation MethodInvocation QualifiedName servletsjson media type
+accept SimpleName MethodInvocation MethodInvocation QualifiedName servletsjson media type
+servletsjson media type QualifiedName MethodInvocation MethodInvocation QualifiedName servletsjson media type
+type SimpleName MethodInvocation QualifiedName servletsjson media type
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+servletsjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName method
+type SimpleName MethodInvocation MethodInvocation SimpleName method
+servletsjson media type QualifiedName MethodInvocation MethodInvocation SimpleName method
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName http methodget
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName http methodget
+servletsjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName http methodget
+type SimpleName MethodInvocation MethodInvocation QualifiedName http methodget
+servletsjson media type QualifiedName MethodInvocation MethodInvocation QualifiedName http methodget
+method SimpleName MethodInvocation QualifiedName http methodget
+method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+http methodget QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName client response
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type
+client response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName servletsjson media type
+client response SimpleName VariableDeclarationFragment MethodInvocation SimpleName method
+client response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName http methodget
+client response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client response
+client response SimpleName MethodInvocation SimpleName get status
+responsestatusok QualifiedName MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusok
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+client response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation SimpleName get entity
+client response SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+response as string SimpleName VariableDeclarationFragment MethodInvocation SimpleName client response
+response as string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response as string
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response as string
+assert not null SimpleName MethodInvocation SimpleName response as string
+json object SimpleName SimpleType ClassInstanceCreation SimpleName response as string
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName response as string
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query
+get string SimpleName MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation SimpleName dsl query
+response SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+get string SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+query StringLiteral MethodInvocation MethodInvocation SimpleName dsl query
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query type
+get string SimpleName MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation StringLiteral dsl
+response SimpleName MethodInvocation MethodInvocation StringLiteral dsl
+get string SimpleName MethodInvocation MethodInvocation StringLiteral dsl
+query type StringLiteral MethodInvocation MethodInvocation StringLiteral dsl
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+results SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName results
+assert not null SimpleName MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation SimpleName get int
+response SimpleName MethodInvocation QualifiedName atlas clientcount
+get int SimpleName MethodInvocation QualifiedName atlas clientcount
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+num rows SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName response
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+assert equals SimpleName MethodInvocation SimpleName num rows
+assert equals SimpleName MethodInvocation NumberLiteral empty
+num rows SimpleName MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search by dsl
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search by dsl
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test search by dsl
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test search by dsl SimpleName MethodDeclaration SimpleType SimpleName exception
+test search by dsl SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search by dsl
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search by dsl
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

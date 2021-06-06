@@ -1,0 +1,50 @@
+client response SimpleName SimpleType SingleVariableDeclaration SimpleName client response
+client response SimpleName MethodInvocation SimpleName get status
+responsestatusok QualifiedName MethodInvocation SimpleName get status code
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName client response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusok
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName client response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusok
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+client response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+client response SimpleName MethodInvocation SimpleName get entity
+client response SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName client response
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get entity
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+response SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName client response
+response SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get entity
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+private Modifier MethodDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SimpleName get entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName client response
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName response
+json object SimpleName SimpleType MethodDeclaration SimpleName get entity
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client response
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client response
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client response
+get entity SimpleName MethodDeclaration SimpleType SimpleName json exception
+get entity SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+client response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client response
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client response
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

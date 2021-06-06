@@ -1,0 +1,104 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName permission
+can revoke system SimpleName MethodInvocation SimpleName credentials
+can revoke system SimpleName MethodInvocation SimpleName user
+can revoke system SimpleName MethodInvocation SimpleName permission
+credentials SimpleName MethodInvocation SimpleName user
+credentials SimpleName MethodInvocation SimpleName permission
+user SimpleName MethodInvocation SimpleName permission
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+target user exists SimpleName MethodInvocation SimpleName user
+perm handle SimpleName MethodInvocation SimpleName revoke system permission
+perm handle SimpleName MethodInvocation SimpleName user
+perm handle SimpleName MethodInvocation SimpleName permission
+revoke system permission SimpleName MethodInvocation SimpleName user
+revoke system permission SimpleName MethodInvocation SimpleName permission
+user SimpleName MethodInvocation SimpleName permission
+credentials SimpleName MethodInvocation SimpleName get principal
+revoked system permission StringLiteral InfixExpression SimpleName permission
+revoked system permission StringLiteral InfixExpression StringLiteral for user
+revoked system permission StringLiteral InfixExpression SimpleName user
+revoked system permission StringLiteral InfixExpression StringLiteral at the request of user
+revoked system permission StringLiteral InfixExpression MethodInvocation SimpleName credentials
+revoked system permission StringLiteral InfixExpression MethodInvocation SimpleName get principal
+permission SimpleName InfixExpression StringLiteral for user
+permission SimpleName InfixExpression SimpleName user
+permission SimpleName InfixExpression StringLiteral at the request of user
+permission SimpleName InfixExpression MethodInvocation SimpleName credentials
+permission SimpleName InfixExpression MethodInvocation SimpleName get principal
+for user StringLiteral InfixExpression SimpleName user
+for user StringLiteral InfixExpression StringLiteral at the request of user
+for user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+user SimpleName InfixExpression StringLiteral at the request of user
+user SimpleName InfixExpression MethodInvocation SimpleName credentials
+user SimpleName InfixExpression MethodInvocation SimpleName get principal
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral revoked system permission
+log SimpleName MethodInvocation InfixExpression SimpleName permission
+log SimpleName MethodInvocation InfixExpression StringLiteral for user
+log SimpleName MethodInvocation InfixExpression SimpleName user
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral revoked system permission
+info SimpleName MethodInvocation InfixExpression SimpleName permission
+info SimpleName MethodInvocation InfixExpression StringLiteral for user
+info SimpleName MethodInvocation InfixExpression SimpleName user
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName revoke system permission
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName permission
+void PrimitiveType MethodDeclaration SimpleName revoke system permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName permission
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+revoke system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName permission
+revoke system permission SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+permission SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName revoke system permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName revoke system permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

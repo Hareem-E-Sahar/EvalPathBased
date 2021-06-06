@@ -1,0 +1,83 @@
+fields SimpleName SimpleType SingleVariableDeclaration SimpleName field
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+long SimpleName SimpleType CastExpression SimpleName value
+set recs SimpleName MethodInvocation CastExpression SimpleType SimpleName long
+set recs SimpleName MethodInvocation CastExpression SimpleName value
+long SimpleName SimpleType CastExpression SimpleName value
+set recs in memory SimpleName MethodInvocation CastExpression SimpleType SimpleName long
+set recs in memory SimpleName MethodInvocation CastExpression SimpleName value
+integer SimpleName SimpleType CastExpression SimpleName value
+set tablets SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+set tablets SimpleName MethodInvocation CastExpression SimpleName value
+integer SimpleName SimpleType CastExpression SimpleName value
+set online tablets SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+set online tablets SimpleName MethodInvocation CastExpression SimpleName value
+double SimpleName SimpleType CastExpression SimpleName value
+set ingest rate SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+set ingest rate SimpleName MethodInvocation CastExpression SimpleName value
+double SimpleName SimpleType CastExpression SimpleName value
+set ingest byte rate SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+set ingest byte rate SimpleName MethodInvocation CastExpression SimpleName value
+double SimpleName SimpleType CastExpression SimpleName value
+set query rate SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+set query rate SimpleName MethodInvocation CastExpression SimpleName value
+double SimpleName SimpleType CastExpression SimpleName value
+set query byte rate SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+set query byte rate SimpleName MethodInvocation CastExpression SimpleName value
+compacting SimpleName SimpleType CastExpression SimpleName value
+set minors SimpleName MethodInvocation CastExpression SimpleType SimpleName compacting
+set minors SimpleName MethodInvocation CastExpression SimpleName value
+compacting SimpleName SimpleType CastExpression SimpleName value
+set majors SimpleName MethodInvocation CastExpression SimpleType SimpleName compacting
+set majors SimpleName MethodInvocation CastExpression SimpleName value
+compacting SimpleName SimpleType CastExpression SimpleName value
+set scans SimpleName MethodInvocation CastExpression SimpleType SimpleName compacting
+set scans SimpleName MethodInvocation CastExpression SimpleName value
+double SimpleName SimpleType CastExpression SimpleName value
+set scan rate SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+set scan rate SimpleName MethodInvocation CastExpression SimpleName value
+field SimpleName SwitchStatement SwitchCase SimpleName recs
+field SimpleName SwitchStatement IfStatement InfixExpression SimpleName value
+field SimpleName SwitchStatement SwitchCase SimpleName recs in memory
+field SimpleName SwitchStatement IfStatement InfixExpression SimpleName value
+recs SimpleName SwitchCase SwitchStatement SwitchCase SimpleName recs in memory
+recs in memory SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tablets
+tablets SimpleName SwitchCase SwitchStatement SwitchCase SimpleName online tablets
+online tablets SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ingest rate
+ingest rate SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ingest byte rate
+ingest byte rate SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query rate
+query rate SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query byte rate
+query byte rate SimpleName SwitchCase SwitchStatement SwitchCase SimpleName minors
+minors SimpleName SwitchCase SwitchStatement SwitchCase SimpleName majors
+majors SimpleName SwitchCase SwitchStatement SwitchCase SimpleName scans
+scans SimpleName SwitchCase SwitchStatement SwitchCase SimpleName scan rate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set field value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName field
+void PrimitiveType MethodDeclaration SimpleName set field value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName field
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set field value SimpleName MethodDeclaration Block SwitchStatement SimpleName field
+field SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set field value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set field value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

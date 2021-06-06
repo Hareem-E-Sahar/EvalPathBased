@@ -1,0 +1,147 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral serial
+prop SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop
+prop SimpleName MethodInvocation SimpleName set property
+prop SimpleName MethodInvocation StringLiteral use mock instance
+prop SimpleName MethodInvocation StringLiteral true
+set property SimpleName MethodInvocation StringLiteral use mock instance
+set property SimpleName MethodInvocation StringLiteral true
+use mock instance StringLiteral MethodInvocation StringLiteral true
+password token SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+prop SimpleName MethodInvocation SimpleName put
+prop SimpleName MethodInvocation StringLiteral token class
+prop SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation StringLiteral token class
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+token class StringLiteral MethodInvocation MethodInvocation SimpleName get name
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation StringLiteral orgapacheaccumuloproxythriftaccumulo proxy
+for name SimpleName MethodInvocation StringLiteral orgapacheaccumuloproxythriftaccumulo proxy
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+for name SimpleName MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+proxy SimpleName MethodInvocation SimpleName create proxy server
+proxy SimpleName MethodInvocation MethodInvocation SimpleName class
+proxy SimpleName MethodInvocation MethodInvocation SimpleName for name
+proxy SimpleName MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxythriftaccumulo proxy
+proxy SimpleName MethodInvocation MethodInvocation SimpleName class
+proxy SimpleName MethodInvocation MethodInvocation SimpleName for name
+proxy SimpleName MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+proxy SimpleName MethodInvocation SimpleName port
+proxy SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName t compact protocolfactory
+create proxy server SimpleName MethodInvocation MethodInvocation SimpleName class
+create proxy server SimpleName MethodInvocation MethodInvocation SimpleName for name
+create proxy server SimpleName MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxythriftaccumulo proxy
+create proxy server SimpleName MethodInvocation MethodInvocation SimpleName class
+create proxy server SimpleName MethodInvocation MethodInvocation SimpleName for name
+create proxy server SimpleName MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+create proxy server SimpleName MethodInvocation SimpleName port
+create proxy server SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName t compact protocolfactory
+create proxy server SimpleName MethodInvocation SimpleName prop
+class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class
+class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+class SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+for name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class
+for name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+for name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+orgapacheaccumuloproxythriftaccumulo proxy StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName class
+orgapacheaccumuloproxythriftaccumulo proxy StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+orgapacheaccumuloproxythriftaccumulo proxy StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+class SimpleName MethodInvocation MethodInvocation SimpleName port
+for name SimpleName MethodInvocation MethodInvocation SimpleName port
+orgapacheaccumuloproxythriftaccumulo proxy StringLiteral MethodInvocation MethodInvocation SimpleName port
+class SimpleName MethodInvocation MethodInvocation SimpleName prop
+for name SimpleName MethodInvocation MethodInvocation SimpleName prop
+orgapacheaccumuloproxythriftaccumulo proxy StringLiteral MethodInvocation MethodInvocation SimpleName prop
+class SimpleName MethodInvocation MethodInvocation SimpleName port
+for name SimpleName MethodInvocation MethodInvocation SimpleName port
+orgapacheaccumuloproxyproxy server StringLiteral MethodInvocation MethodInvocation SimpleName port
+class SimpleName MethodInvocation MethodInvocation SimpleName prop
+for name SimpleName MethodInvocation MethodInvocation SimpleName prop
+orgapacheaccumuloproxyproxy server StringLiteral MethodInvocation MethodInvocation SimpleName prop
+port SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName t compact protocolfactory
+port SimpleName MethodInvocation SimpleName prop
+t compact protocolfactory QualifiedName SimpleType TypeLiteral MethodInvocation SimpleName prop
+proxy SimpleName Assignment MethodInvocation SimpleName proxy
+proxy SimpleName Assignment MethodInvocation SimpleName create proxy server
+proxy SimpleName Assignment MethodInvocation MethodInvocation SimpleName class
+proxy SimpleName Assignment MethodInvocation MethodInvocation SimpleName for name
+proxy SimpleName Assignment MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxythriftaccumulo proxy
+proxy SimpleName Assignment MethodInvocation MethodInvocation SimpleName class
+proxy SimpleName Assignment MethodInvocation MethodInvocation SimpleName for name
+proxy SimpleName Assignment MethodInvocation MethodInvocation StringLiteral orgapacheaccumuloproxyproxy server
+proxy SimpleName Assignment MethodInvocation SimpleName port
+proxy SimpleName Assignment MethodInvocation SimpleName prop
+proxy SimpleName MethodInvocation SimpleName serve
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread SimpleName Assignment ClassInstanceCreation SimpleType SimpleName thread
+thread SimpleName MethodInvocation SimpleName start
+test proxy client SimpleName SimpleType ClassInstanceCreation StringLiteral localhost
+test proxy client SimpleName SimpleType ClassInstanceCreation SimpleName port
+localhost StringLiteral ClassInstanceCreation SimpleName port
+tpc SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test proxy client
+tpc SimpleName Assignment ClassInstanceCreation StringLiteral localhost
+tpc SimpleName Assignment ClassInstanceCreation SimpleName port
+tpc SimpleName MethodInvocation SimpleName proxy
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+put SimpleName MethodInvocation StringLiteral password
+put SimpleName MethodInvocation StringLiteral empty
+password StringLiteral MethodInvocation StringLiteral empty
+tpc SimpleName MethodInvocation MethodInvocation SimpleName login
+proxy SimpleName MethodInvocation MethodInvocation SimpleName login
+tpc SimpleName MethodInvocation MethodInvocation StringLiteral root
+proxy SimpleName MethodInvocation MethodInvocation StringLiteral root
+login SimpleName MethodInvocation StringLiteral root
+userpass SimpleName Assignment MethodInvocation MethodInvocation SimpleName tpc
+userpass SimpleName Assignment MethodInvocation MethodInvocation SimpleName proxy
+userpass SimpleName Assignment MethodInvocation SimpleName login
+userpass SimpleName Assignment MethodInvocation StringLiteral root
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName before class
+serial StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName before class
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+serial StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+serial StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+serial StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName setup
+serial StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName setup
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral serial
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral serial
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

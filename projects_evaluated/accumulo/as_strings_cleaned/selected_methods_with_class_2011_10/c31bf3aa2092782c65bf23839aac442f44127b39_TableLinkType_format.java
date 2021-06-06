@@ -1,0 +1,44 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InfixExpression IfStatement ReturnStatement StringLiteral -
+string SimpleName SimpleType CastExpression SimpleName obj
+table id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+table id SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+display name SimpleName MethodInvocation SimpleName table id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral a hreftablestssa
+string SimpleName MethodInvocation SimpleName table id
+string SimpleName MethodInvocation MethodInvocation SimpleName display name
+string SimpleName MethodInvocation MethodInvocation SimpleName table id
+format SimpleName MethodInvocation StringLiteral a hreftablestssa
+format SimpleName MethodInvocation SimpleName table id
+format SimpleName MethodInvocation MethodInvocation SimpleName display name
+format SimpleName MethodInvocation MethodInvocation SimpleName table id
+a hreftablestssa StringLiteral MethodInvocation SimpleName table id
+a hreftablestssa StringLiteral MethodInvocation MethodInvocation SimpleName display name
+a hreftablestssa StringLiteral MethodInvocation MethodInvocation SimpleName table id
+table id SimpleName MethodInvocation MethodInvocation SimpleName display name
+table id SimpleName MethodInvocation MethodInvocation SimpleName table id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName format
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

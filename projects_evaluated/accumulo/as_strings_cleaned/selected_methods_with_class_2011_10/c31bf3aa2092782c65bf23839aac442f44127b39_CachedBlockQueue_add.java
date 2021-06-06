@@ -1,0 +1,50 @@
+cached block SimpleName SimpleType SingleVariableDeclaration SimpleName cb
+heap size SimpleName InfixExpression SimpleName max size
+queue SimpleName MethodInvocation SimpleName add
+queue SimpleName MethodInvocation SimpleName cb
+add SimpleName MethodInvocation SimpleName cb
+cb SimpleName MethodInvocation SimpleName heap size
+heap size SimpleName Assignment MethodInvocation SimpleName cb
+heap size SimpleName Assignment MethodInvocation SimpleName heap size
+queue SimpleName MethodInvocation SimpleName peek
+head SimpleName VariableDeclarationFragment MethodInvocation SimpleName queue
+head SimpleName VariableDeclarationFragment MethodInvocation SimpleName peek
+cached block SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName head
+cb SimpleName MethodInvocation SimpleName compare to
+cb SimpleName MethodInvocation SimpleName head
+compare to SimpleName MethodInvocation SimpleName head
+cb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+head SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cb SimpleName MethodInvocation SimpleName heap size
+heap size SimpleName Assignment MethodInvocation SimpleName cb
+heap size SimpleName Assignment MethodInvocation SimpleName heap size
+head SimpleName MethodInvocation SimpleName heap size
+heap size SimpleName Assignment MethodInvocation SimpleName head
+heap size SimpleName Assignment MethodInvocation SimpleName heap size
+heap size SimpleName InfixExpression SimpleName max size
+queue SimpleName MethodInvocation SimpleName poll
+head SimpleName MethodInvocation SimpleName heap size
+heap size SimpleName Assignment MethodInvocation SimpleName head
+heap size SimpleName Assignment MethodInvocation SimpleName heap size
+queue SimpleName MethodInvocation SimpleName add
+queue SimpleName MethodInvocation SimpleName cb
+add SimpleName MethodInvocation SimpleName cb
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cb
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cb
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cb

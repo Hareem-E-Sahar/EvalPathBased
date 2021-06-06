@@ -1,0 +1,216 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral index table name
+get SimpleName MethodInvocation StringLiteral index table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral index table name
+index table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral index table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index table name
+index table name SimpleName InfixExpression StringLiteral tmp
+tmp index table name SimpleName VariableDeclarationFragment InfixExpression SimpleName index table name
+tmp index table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral tmp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp index table name
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral doc table name
+get SimpleName MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral doc table name
+doc table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+doc table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc table name
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral num partitions
+get SimpleName MethodInvocation StringLiteral num partitions
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation StringLiteral num partitions
+num partitions SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+num partitions SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral num partitions
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num partitions
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral rand
+get SimpleName MethodInvocation StringLiteral rand
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+random SimpleName SimpleType CastExpression MethodInvocation StringLiteral rand
+rand SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral rand
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+shard fixture SimpleName MethodInvocation SimpleName create index table
+shard fixture SimpleName MethodInvocation FieldAccess SimpleName log
+shard fixture SimpleName MethodInvocation SimpleName state
+shard fixture SimpleName MethodInvocation StringLiteral tmp
+shard fixture SimpleName MethodInvocation SimpleName rand
+create index table SimpleName MethodInvocation FieldAccess SimpleName log
+create index table SimpleName MethodInvocation SimpleName state
+create index table SimpleName MethodInvocation StringLiteral tmp
+create index table SimpleName MethodInvocation SimpleName rand
+log SimpleName FieldAccess MethodInvocation SimpleName state
+log SimpleName FieldAccess MethodInvocation StringLiteral tmp
+log SimpleName FieldAccess MethodInvocation SimpleName rand
+state SimpleName MethodInvocation StringLiteral tmp
+state SimpleName MethodInvocation SimpleName rand
+tmp StringLiteral MethodInvocation SimpleName rand
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+state SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName doc table name
+state SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation SimpleName doc table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+doc table name SimpleName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+state SimpleName MethodInvocation MethodInvocation SimpleName tmp index table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName tmp index table name
+state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+state SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName tmp index table name
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+tmp index table name SimpleName MethodInvocation NumberLiteral empty
+tmp index table name SimpleName MethodInvocation NumberLiteral l
+tmp index table name SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+tbw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+tbw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+tbw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+tbw SimpleName VariableDeclarationFragment MethodInvocation SimpleName tmp index table name
+tbw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+tbw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+tbw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbw
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+doc id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc id
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+insert SimpleName MethodInvocation SimpleName index document
+insert SimpleName MethodInvocation SimpleName tbw
+insert SimpleName MethodInvocation SimpleName doc
+insert SimpleName MethodInvocation SimpleName doc id
+insert SimpleName MethodInvocation SimpleName num partitions
+index document SimpleName MethodInvocation SimpleName tbw
+index document SimpleName MethodInvocation SimpleName doc
+index document SimpleName MethodInvocation SimpleName doc id
+index document SimpleName MethodInvocation SimpleName num partitions
+tbw SimpleName MethodInvocation SimpleName doc
+tbw SimpleName MethodInvocation SimpleName doc id
+tbw SimpleName MethodInvocation SimpleName num partitions
+doc SimpleName MethodInvocation SimpleName doc id
+doc SimpleName MethodInvocation SimpleName num partitions
+doc id SimpleName MethodInvocation SimpleName num partitions
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+tbw SimpleName MethodInvocation SimpleName close
+reindexed StringLiteral InfixExpression SimpleName count
+reindexed StringLiteral InfixExpression StringLiteral documents into
+reindexed StringLiteral InfixExpression SimpleName tmp index table name
+count SimpleName InfixExpression StringLiteral documents into
+count SimpleName InfixExpression SimpleName tmp index table name
+documents into StringLiteral InfixExpression SimpleName tmp index table name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral reindexed
+log SimpleName MethodInvocation InfixExpression SimpleName count
+log SimpleName MethodInvocation InfixExpression StringLiteral documents into
+log SimpleName MethodInvocation InfixExpression SimpleName tmp index table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral reindexed
+debug SimpleName MethodInvocation InfixExpression SimpleName count
+debug SimpleName MethodInvocation InfixExpression StringLiteral documents into
+debug SimpleName MethodInvocation InfixExpression SimpleName tmp index table name
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

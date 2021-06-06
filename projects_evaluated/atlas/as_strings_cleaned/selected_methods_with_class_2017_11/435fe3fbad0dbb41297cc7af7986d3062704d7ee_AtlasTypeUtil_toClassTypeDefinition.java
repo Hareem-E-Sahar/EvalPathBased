@@ -1,0 +1,101 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas entity type
+final Modifier SingleVariableDeclaration SimpleName entity type
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity type SimpleName MethodInvocation SimpleName get entity def
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+entity def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity def
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity def
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName class type definition
+entity def SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set type name
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+set type name SimpleName MethodInvocation MethodInvocation SimpleName entity def
+set type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity def SimpleName MethodInvocation SimpleName get description
+ret SimpleName MethodInvocation SimpleName set type description
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get description
+set type description SimpleName MethodInvocation MethodInvocation SimpleName entity def
+set type description SimpleName MethodInvocation MethodInvocation SimpleName get description
+entity def SimpleName MethodInvocation SimpleName get type version
+ret SimpleName MethodInvocation SimpleName set type version
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type version
+set type version SimpleName MethodInvocation MethodInvocation SimpleName entity def
+set type version SimpleName MethodInvocation MethodInvocation SimpleName get type version
+entity def SimpleName MethodInvocation SimpleName get super types
+ret SimpleName MethodInvocation SimpleName set super types
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get super types
+set super types SimpleName MethodInvocation MethodInvocation SimpleName entity def
+set super types SimpleName MethodInvocation MethodInvocation SimpleName get super types
+entity type SimpleName MethodInvocation SimpleName get all attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName entity type
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entity type
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute definition
+entity type SimpleName MethodInvocation SimpleName get all attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stream
+get all attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stream
+entry set SimpleName MethodInvocation MethodInvocation SimpleName stream
+e SimpleName MethodInvocation SimpleName get value
+to v attribute definition SimpleName MethodInvocation MethodInvocation SimpleName e
+to v attribute definition SimpleName MethodInvocation MethodInvocation SimpleName get value
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName to v attribute definition
+entry set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName to v attribute definition
+collectors SimpleName MethodInvocation SimpleName to list
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to list
+ret SimpleName MethodInvocation SimpleName set attribute definitions
+ret SimpleName MethodInvocation SimpleName attribute definitions
+set attribute definitions SimpleName MethodInvocation SimpleName attribute definitions
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName class type definition
+public Modifier MethodDeclaration SimpleName to class type definition
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName class type definition
+static Modifier MethodDeclaration SimpleName to class type definition
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+class type definition SimpleName SimpleType MethodDeclaration SimpleName to class type definition
+class type definition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+class type definition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+to class type definition SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+to class type definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+to class type definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+to class type definition SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleName to class type definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to class type definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type

@@ -1,0 +1,20 @@
+omrs repository validator SimpleName SimpleType SingleVariableDeclaration SimpleName repository validator
+repository validator SimpleName FieldAccess Assignment SimpleName repository validator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set repository validator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository validator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository validator
+void PrimitiveType MethodDeclaration SimpleName set repository validator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository validator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repository validator
+set repository validator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository validator
+set repository validator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository validator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set repository validator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository validator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set repository validator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository validator

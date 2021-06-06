@@ -1,0 +1,64 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term assignment header
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term assignment header
+entity vertex SimpleName MethodInvocation SimpleName query
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName direction
+query SimpleName MethodInvocation MethodInvocation SimpleName direction
+entity vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+direction SimpleName MethodInvocation QualifiedName atlas edge directionin
+entity vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+direction SimpleName MethodInvocation MethodInvocation SimpleName label
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName label
+entity vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term assignment label
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term assignment label
+direction SimpleName MethodInvocation MethodInvocation SimpleName term assignment label
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName term assignment label
+label SimpleName MethodInvocation SimpleName term assignment label
+direction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+label SimpleName MethodInvocation MethodInvocation SimpleName edges
+term assignment label SimpleName MethodInvocation MethodInvocation SimpleName edges
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName label
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName term assignment label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+iterable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+edges SimpleName MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+to term assignment header SimpleName MethodInvocation SimpleName edge
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName to term assignment header
+ret SimpleName MethodInvocation MethodInvocation SimpleName edge
+add SimpleName MethodInvocation MethodInvocation SimpleName to term assignment header
+add SimpleName MethodInvocation MethodInvocation SimpleName edge
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas term assignment header
+public Modifier MethodDeclaration SimpleName map assigned terms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map assigned terms
+atlas term assignment header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map assigned terms
+map assigned terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map assigned terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map assigned terms SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map assigned terms SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName map assigned terms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map assigned terms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

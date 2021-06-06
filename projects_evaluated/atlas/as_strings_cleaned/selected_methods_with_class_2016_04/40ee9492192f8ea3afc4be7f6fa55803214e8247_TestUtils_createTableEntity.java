@@ -1,0 +1,90 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db id
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName table type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+random string utils SimpleName MethodInvocation SimpleName random alphanumeric
+random string utils SimpleName MethodInvocation NumberLiteral empty
+random alphanumeric SimpleName MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string utils
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random alphanumeric
+table name SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation SimpleName name
+set SimpleName MethodInvocation SimpleName table name
+name SimpleName MethodInvocation SimpleName table name
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral description
+entity SimpleName MethodInvocation StringLiteral random table
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral random table
+description StringLiteral MethodInvocation StringLiteral random table
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral type
+entity SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral type
+type StringLiteral MethodInvocation StringLiteral type
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral table type
+entity SimpleName MethodInvocation StringLiteral managed
+set SimpleName MethodInvocation StringLiteral table type
+set SimpleName MethodInvocation StringLiteral managed
+table type StringLiteral MethodInvocation StringLiteral managed
+id SimpleName SimpleType ClassInstanceCreation SimpleName db id
+id SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation SimpleName database type
+db id SimpleName ClassInstanceCreation NumberLiteral empty
+db id SimpleName ClassInstanceCreation SimpleName database type
+empty NumberLiteral ClassInstanceCreation SimpleName database type
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral database
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName db id
+entity SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName database type
+set SimpleName MethodInvocation StringLiteral database
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id
+set SimpleName MethodInvocation ClassInstanceCreation SimpleName db id
+set SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set SimpleName MethodInvocation ClassInstanceCreation SimpleName database type
+database StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName id
+database StringLiteral MethodInvocation ClassInstanceCreation SimpleName db id
+database StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+database StringLiteral MethodInvocation ClassInstanceCreation SimpleName database type
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation StringLiteral created
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation StringLiteral created
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+created StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName create table entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName db id
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+static Modifier MethodDeclaration SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SimpleName create table entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName db id
+static Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create table entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db id
+create table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db id
+create table entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create table entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create table entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db id

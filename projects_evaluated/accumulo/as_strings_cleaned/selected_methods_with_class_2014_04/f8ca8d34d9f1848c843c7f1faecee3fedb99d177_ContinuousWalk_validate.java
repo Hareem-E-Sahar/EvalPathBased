@@ -1,0 +1,166 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get
+get checksum offset SimpleName MethodInvocation MethodInvocation SimpleName value
+get checksum offset SimpleName MethodInvocation MethodInvocation SimpleName get
+ck off SimpleName VariableDeclarationFragment MethodInvocation SimpleName get checksum offset
+ck off SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+ck off SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ck off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get checksum offset
+ck off SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation SimpleName ck off
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+value SimpleName MethodInvocation ClassInstanceCreation SimpleName ck off
+get SimpleName MethodInvocation ClassInstanceCreation SimpleName ck off
+value SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+value SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+get SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+ck off SimpleName ClassInstanceCreation NumberLiteral empty
+ck off SimpleName ClassInstanceCreation QualifiedName standard charsetsutf
+empty NumberLiteral ClassInstanceCreation QualifiedName standard charsetsutf
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName ck off
+long SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+long SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+long SimpleName MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+parse long SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName ck off
+parse long SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+parse long SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+parse long SimpleName MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+ck off SimpleName ClassInstanceCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+standard charsetsutf QualifiedName ClassInstanceCreation MethodInvocation NumberLiteral empty
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName ck off
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation NumberLiteral empty
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+stored cksum SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName stored cksum
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+cksum SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName crc
+crc SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cksum
+key SimpleName MethodInvocation SimpleName get row data
+key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get row data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cksum SimpleName MethodInvocation SimpleName update
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row data
+cksum SimpleName MethodInvocation MethodInvocation SimpleName to array
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row data
+update SimpleName MethodInvocation MethodInvocation SimpleName to array
+key SimpleName MethodInvocation SimpleName get column family data
+key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column family data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cksum SimpleName MethodInvocation SimpleName update
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+cksum SimpleName MethodInvocation MethodInvocation SimpleName to array
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+update SimpleName MethodInvocation MethodInvocation SimpleName to array
+key SimpleName MethodInvocation SimpleName get column qualifier data
+key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cksum SimpleName MethodInvocation SimpleName update
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier data
+cksum SimpleName MethodInvocation MethodInvocation SimpleName to array
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier data
+update SimpleName MethodInvocation MethodInvocation SimpleName to array
+key SimpleName MethodInvocation SimpleName get column visibility data
+key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column visibility data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cksum SimpleName MethodInvocation SimpleName update
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cksum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility data
+cksum SimpleName MethodInvocation MethodInvocation SimpleName to array
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility data
+update SimpleName MethodInvocation MethodInvocation SimpleName to array
+value SimpleName MethodInvocation SimpleName get
+cksum SimpleName MethodInvocation SimpleName update
+cksum SimpleName MethodInvocation MethodInvocation SimpleName value
+cksum SimpleName MethodInvocation MethodInvocation SimpleName get
+cksum SimpleName MethodInvocation NumberLiteral empty
+cksum SimpleName MethodInvocation SimpleName ck off
+update SimpleName MethodInvocation MethodInvocation SimpleName value
+update SimpleName MethodInvocation MethodInvocation SimpleName get
+update SimpleName MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation SimpleName ck off
+value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation MethodInvocation SimpleName ck off
+get SimpleName MethodInvocation MethodInvocation SimpleName ck off
+empty NumberLiteral MethodInvocation SimpleName ck off
+cksum SimpleName MethodInvocation SimpleName get value
+cksum SimpleName MethodInvocation InfixExpression SimpleName stored cksum
+get value SimpleName MethodInvocation InfixExpression SimpleName stored cksum
+checksum invalid StringLiteral InfixExpression SimpleName key
+checksum invalid StringLiteral InfixExpression StringLiteral empty
+checksum invalid StringLiteral InfixExpression SimpleName value
+key SimpleName InfixExpression StringLiteral empty
+key SimpleName InfixExpression SimpleName value
+empty StringLiteral InfixExpression SimpleName value
+bad checksum exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral checksum invalid
+bad checksum exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+bad checksum exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+bad checksum exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName value
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName validate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName bad checksum exception
+void PrimitiveType MethodDeclaration SimpleName validate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName bad checksum exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+validate SimpleName MethodDeclaration SimpleType SimpleName bad checksum exception
+validate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+validate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName bad checksum exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName bad checksum exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bad checksum exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bad checksum exception

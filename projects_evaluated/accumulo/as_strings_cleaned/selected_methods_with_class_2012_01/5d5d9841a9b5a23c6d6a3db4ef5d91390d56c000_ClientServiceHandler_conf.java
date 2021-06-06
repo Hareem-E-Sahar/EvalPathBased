@@ -1,0 +1,76 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+propertyinstance secret QualifiedName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation MethodInvocation SimpleName entry
+result SimpleName MethodInvocation MethodInvocation SimpleName get key
+result SimpleName MethodInvocation MethodInvocation SimpleName entry
+result SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName conf
+conf SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration Modifier private
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName conf
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName conf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName conf
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName conf
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName conf
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName conf
+conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+conf SimpleName MethodDeclaration Block EnhancedForStatement SimpleName conf
+conf SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

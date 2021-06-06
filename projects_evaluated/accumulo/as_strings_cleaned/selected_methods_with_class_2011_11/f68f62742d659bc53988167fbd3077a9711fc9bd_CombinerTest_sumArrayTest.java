@@ -1,0 +1,44 @@
+sum array SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName summing array combinervar long array encoder
+sum array SimpleName MethodInvocation QualifiedName summing array combinertypevarlen
+summing array combinervar long array encoder QualifiedName SimpleType TypeLiteral MethodInvocation QualifiedName summing array combinertypevarlen
+sum array SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName summing array combinerfixed long array encoder
+sum array SimpleName MethodInvocation QualifiedName summing array combinertypefixedlen
+summing array combinerfixed long array encoder QualifiedName SimpleType TypeLiteral MethodInvocation QualifiedName summing array combinertypefixedlen
+sum array SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName summing array combinerstring array encoder
+sum array SimpleName MethodInvocation QualifiedName summing array combinertypestring
+summing array combinerstring array encoder QualifiedName SimpleType TypeLiteral MethodInvocation QualifiedName summing array combinertypestring
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName sum array test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName instantiation exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName sum array test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName instantiation exception
+public Modifier MethodDeclaration SimpleType SimpleName illegal access exception
+void PrimitiveType MethodDeclaration SimpleName sum array test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName instantiation exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName illegal access exception
+sum array test SimpleName MethodDeclaration SimpleType SimpleName io exception
+sum array test SimpleName MethodDeclaration SimpleType SimpleName instantiation exception
+sum array test SimpleName MethodDeclaration SimpleType SimpleName illegal access exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName instantiation exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal access exception
+instantiation exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sum array test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instantiation exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sum array test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instantiation exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception

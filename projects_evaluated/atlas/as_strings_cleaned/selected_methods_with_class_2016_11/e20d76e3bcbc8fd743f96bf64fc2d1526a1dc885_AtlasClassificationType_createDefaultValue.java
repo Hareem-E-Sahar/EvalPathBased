@@ -1,0 +1,25 @@
+classification def SimpleName MethodInvocation SimpleName get name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification def
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName classification def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+populate default values SimpleName MethodInvocation SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas classification
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create default value
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName create default value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification SimpleName SimpleType MethodDeclaration SimpleName create default value
+create default value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier TypeDeclaration MethodDeclaration SimpleName create default value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create default value

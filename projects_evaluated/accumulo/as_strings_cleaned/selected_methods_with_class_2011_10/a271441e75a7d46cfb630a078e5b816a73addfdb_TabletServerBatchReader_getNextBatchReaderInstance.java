@@ -1,0 +1,21 @@
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get next batch reader instance
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get next batch reader instance
+synchronized Modifier MethodDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SimpleName get next batch reader instance
+int PrimitiveType MethodDeclaration SimpleName get next batch reader instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next batch reader instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next batch reader instance

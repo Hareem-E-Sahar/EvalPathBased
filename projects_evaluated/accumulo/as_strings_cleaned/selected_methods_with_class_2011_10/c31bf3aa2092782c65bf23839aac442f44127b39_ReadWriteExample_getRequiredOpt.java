@@ -1,0 +1,19 @@
+option SimpleName SimpleType SingleVariableDeclaration SimpleName opt
+get opt SimpleName MethodInvocation SimpleName opt
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get required opt
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName opt
+string SimpleName SimpleType MethodDeclaration SimpleName get required opt
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opt
+get required opt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+get required opt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get required opt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opt
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get required opt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opt

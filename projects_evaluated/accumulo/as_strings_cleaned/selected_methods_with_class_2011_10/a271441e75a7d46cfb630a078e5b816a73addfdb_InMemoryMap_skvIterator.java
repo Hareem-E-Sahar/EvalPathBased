@@ -1,0 +1,53 @@
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral can not obtain iterator after map deleted
+deleted SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral can not obtain iterator after map deleted
+mutation count SimpleName MethodInvocation SimpleName get
+mc SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutation count
+mc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mutation count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+mds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName memory data source
+memory data source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mds
+ssi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName source switching iterator
+source switching iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssi
+partial mutation skipping iterator SimpleName SimpleType ClassInstanceCreation SimpleName ssi
+partial mutation skipping iterator SimpleName SimpleType ClassInstanceCreation SimpleName mc
+ssi SimpleName ClassInstanceCreation SimpleName mc
+column family skipping iterator SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName ssi
+column family skipping iterator SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName mc
+mi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName memory iterator
+memory iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mi
+mi SimpleName MethodInvocation SimpleName set ssi
+mi SimpleName MethodInvocation SimpleName ssi
+set ssi SimpleName MethodInvocation SimpleName ssi
+mi SimpleName MethodInvocation SimpleName set mds
+mi SimpleName MethodInvocation SimpleName mds
+set mds SimpleName MethodInvocation SimpleName mds
+active iters SimpleName MethodInvocation SimpleName add
+active iters SimpleName MethodInvocation SimpleName mi
+add SimpleName MethodInvocation SimpleName mi
+deleted SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName memory iterator
+public Modifier MethodDeclaration SimpleName skv iterator
+public Modifier MethodDeclaration Block IfStatement SimpleName deleted
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mi
+synchronized Modifier MethodDeclaration SimpleType SimpleName memory iterator
+synchronized Modifier MethodDeclaration SimpleName skv iterator
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName deleted
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName mi
+memory iterator SimpleName SimpleType MethodDeclaration SimpleName skv iterator
+skv iterator SimpleName MethodDeclaration Block IfStatement SimpleName deleted
+skv iterator SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+skv iterator SimpleName MethodDeclaration Block ReturnStatement SimpleName mi
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName memory iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName skv iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName memory iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skv iterator

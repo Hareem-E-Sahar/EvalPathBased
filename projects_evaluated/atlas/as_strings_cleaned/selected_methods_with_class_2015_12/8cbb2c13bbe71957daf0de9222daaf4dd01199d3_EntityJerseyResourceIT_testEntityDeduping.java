@@ -1,0 +1,226 @@
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName database type
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+final Modifier VariableDeclarationStatement SimpleType SimpleName referenceable
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db StringLiteral InfixExpression MethodInvocation SimpleName random string
+db name SimpleName VariableDeclarationFragment InfixExpression StringLiteral db
+db name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral db
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+db SimpleName MethodInvocation SimpleName set
+db SimpleName MethodInvocation StringLiteral name
+db SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+db SimpleName MethodInvocation SimpleName set
+db SimpleName MethodInvocation StringLiteral description
+db SimpleName MethodInvocation MethodInvocation SimpleName random string
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation MethodInvocation SimpleName random string
+description StringLiteral MethodInvocation MethodInvocation SimpleName random string
+service client SimpleName MethodInvocation SimpleName create entity
+service client SimpleName MethodInvocation SimpleName db
+create entity SimpleName MethodInvocation SimpleName db
+service client SimpleName MethodInvocation MethodInvocation SimpleName get string
+create entity SimpleName MethodInvocation MethodInvocation SimpleName get string
+db SimpleName MethodInvocation MethodInvocation SimpleName get string
+service client SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create entity SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+db SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get string SimpleName MethodInvocation NumberLiteral empty
+wait for notification SimpleName MethodInvocation SimpleName notification consumer
+wait for notification SimpleName MethodInvocation SimpleName max wait time
+notification consumer SimpleName MethodInvocation SimpleName max wait time
+notification consumer SimpleName MethodInvocation SimpleName get last entity notification
+notification SimpleName VariableDeclarationFragment MethodInvocation SimpleName notification consumer
+notification SimpleName VariableDeclarationFragment MethodInvocation SimpleName get last entity notification
+entity notification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification
+assert not null SimpleName MethodInvocation SimpleName notification
+notification SimpleName MethodInvocation SimpleName get entity
+notification SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get
+notification SimpleName MethodInvocation MethodInvocation StringLiteral name
+get entity SimpleName MethodInvocation MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation SimpleName db name
+notification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db name
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db name
+get SimpleName MethodInvocation MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation MethodInvocation SimpleName db name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s where names
+string SimpleName MethodInvocation SimpleName database type
+string SimpleName MethodInvocation SimpleName db name
+format SimpleName MethodInvocation StringLiteral s where names
+format SimpleName MethodInvocation SimpleName database type
+format SimpleName MethodInvocation SimpleName db name
+s where names StringLiteral MethodInvocation SimpleName database type
+s where names StringLiteral MethodInvocation SimpleName db name
+database type SimpleName MethodInvocation SimpleName db name
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation MethodInvocation SimpleName string
+service client SimpleName MethodInvocation MethodInvocation SimpleName format
+service client SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+service client SimpleName MethodInvocation MethodInvocation SimpleName database type
+service client SimpleName MethodInvocation MethodInvocation SimpleName db name
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName string
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName format
+search by dsl SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName database type
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName db name
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName string
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName format
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral s where names
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName database type
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName db name
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+notification consumer SimpleName MethodInvocation SimpleName reset
+service client SimpleName MethodInvocation SimpleName create entity
+service client SimpleName MethodInvocation SimpleName db
+create entity SimpleName MethodInvocation SimpleName db
+wait for notification SimpleName MethodInvocation SimpleName notification consumer
+wait for notification SimpleName MethodInvocation SimpleName max wait time
+notification consumer SimpleName MethodInvocation SimpleName max wait time
+fail SimpleName MethodInvocation StringLiteral expected time out exception
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s where names
+string SimpleName MethodInvocation SimpleName database type
+string SimpleName MethodInvocation SimpleName db name
+format SimpleName MethodInvocation StringLiteral s where names
+format SimpleName MethodInvocation SimpleName database type
+format SimpleName MethodInvocation SimpleName db name
+s where names StringLiteral MethodInvocation SimpleName database type
+s where names StringLiteral MethodInvocation SimpleName db name
+database type SimpleName MethodInvocation SimpleName db name
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation MethodInvocation SimpleName string
+service client SimpleName MethodInvocation MethodInvocation SimpleName format
+service client SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+service client SimpleName MethodInvocation MethodInvocation SimpleName database type
+service client SimpleName MethodInvocation MethodInvocation SimpleName db name
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName string
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName format
+search by dsl SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName database type
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName db name
+results SimpleName Assignment MethodInvocation SimpleName service client
+results SimpleName Assignment MethodInvocation SimpleName search by dsl
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName string
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName format
+results SimpleName Assignment MethodInvocation MethodInvocation StringLiteral s where names
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName database type
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName db name
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName hive table type
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive table type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table SimpleName MethodInvocation SimpleName set
+table SimpleName MethodInvocation StringLiteral name
+table SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+table SimpleName MethodInvocation SimpleName set
+table SimpleName MethodInvocation StringLiteral db
+table SimpleName MethodInvocation SimpleName db
+set SimpleName MethodInvocation StringLiteral db
+set SimpleName MethodInvocation SimpleName db
+db StringLiteral MethodInvocation SimpleName db
+service client SimpleName MethodInvocation SimpleName create entity
+service client SimpleName MethodInvocation SimpleName table
+create entity SimpleName MethodInvocation SimpleName table
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s where names
+string SimpleName MethodInvocation SimpleName database type
+string SimpleName MethodInvocation SimpleName db name
+format SimpleName MethodInvocation StringLiteral s where names
+format SimpleName MethodInvocation SimpleName database type
+format SimpleName MethodInvocation SimpleName db name
+s where names StringLiteral MethodInvocation SimpleName database type
+s where names StringLiteral MethodInvocation SimpleName db name
+database type SimpleName MethodInvocation SimpleName db name
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation MethodInvocation SimpleName string
+service client SimpleName MethodInvocation MethodInvocation SimpleName format
+service client SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+service client SimpleName MethodInvocation MethodInvocation SimpleName database type
+service client SimpleName MethodInvocation MethodInvocation SimpleName db name
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName string
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName format
+search by dsl SimpleName MethodInvocation MethodInvocation StringLiteral s where names
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName database type
+search by dsl SimpleName MethodInvocation MethodInvocation SimpleName db name
+results SimpleName Assignment MethodInvocation SimpleName service client
+results SimpleName Assignment MethodInvocation SimpleName search by dsl
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName string
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName format
+results SimpleName Assignment MethodInvocation MethodInvocation StringLiteral s where names
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName database type
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName db name
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test entity deduping
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test entity deduping
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test entity deduping
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test entity deduping SimpleName MethodDeclaration SimpleType SimpleName exception
+test entity deduping SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test entity deduping SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test entity deduping SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test entity deduping
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test entity deduping
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

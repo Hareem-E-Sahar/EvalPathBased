@@ -1,0 +1,63 @@
+tried to reserve merging minor compaction file when already reserved : StringLiteral InfixExpression SimpleName merging minor compaction file
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tried to reserve merging minor compaction file when already reserved :
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName merging minor compaction file
+extent SimpleName MethodInvocation SimpleName is root tablet
+acu table conf SimpleName MethodInvocation SimpleName get max files per tablet
+max files SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu table conf
+max files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get max files per tablet
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName acu table conf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get max files per tablet
+major compacting files SimpleName MethodInvocation SimpleName size
+major compacting files SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+datafile sizes SimpleName MethodInvocation SimpleName size
+datafile sizes SimpleName MethodInvocation InfixExpression SimpleName max files
+size SimpleName MethodInvocation InfixExpression SimpleName max files
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName max files
+datafile sizes SimpleName MethodInvocation SimpleName size
+datafile sizes SimpleName MethodInvocation InfixExpression SimpleName max files
+size SimpleName MethodInvocation InfixExpression SimpleName max files
+min SimpleName VariableDeclarationFragment QualifiedName longmax value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName longmax value
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName min name
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+datafile sizes SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get size
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName min
+get value SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName min
+get size SimpleName MethodInvocation InfixExpression SimpleName min
+entry SimpleName MethodInvocation SimpleName get key
+major compacting files SimpleName MethodInvocation SimpleName contains
+major compacting files SimpleName MethodInvocation MethodInvocation SimpleName entry
+major compacting files SimpleName MethodInvocation MethodInvocation SimpleName get key
+contains SimpleName MethodInvocation MethodInvocation SimpleName entry
+contains SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get size
+min SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+min SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+min SimpleName Assignment MethodInvocation SimpleName get size
+entry SimpleName MethodInvocation SimpleName get key
+min name SimpleName Assignment MethodInvocation SimpleName entry
+min name SimpleName Assignment MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName datafile sizes
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+merging minor compaction file SimpleName Assignment SimpleName min name
+min name SimpleName MethodInvocation SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName reserve merging minor compaction file
+reserve merging minor compaction file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName reserve merging minor compaction file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reserve merging minor compaction file

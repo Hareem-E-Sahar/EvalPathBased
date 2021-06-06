@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+string SimpleName SimpleType SingleVariableDeclaration SimpleName index name
+boolean PrimitiveType MethodDeclaration SimpleName edge index exist
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName label
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index name
+edge index exist SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+edge index exist SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+edge index exist SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+edge index exist SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index name
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName edge index exist
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edge index exist
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name

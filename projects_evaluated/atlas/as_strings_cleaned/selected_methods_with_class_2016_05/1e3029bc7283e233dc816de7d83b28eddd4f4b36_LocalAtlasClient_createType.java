@@ -1,0 +1,30 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type as json
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported in local atlas client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type as json
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type as json
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create type
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create type
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type as json
+create type SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+type as json SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type as json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type as json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

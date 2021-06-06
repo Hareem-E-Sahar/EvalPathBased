@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file output stream SimpleName SimpleType ClassInstanceCreation SimpleName file
+fos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file output stream
+fos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+file output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fos
+buffered output stream SimpleName SimpleType ClassInstanceCreation SimpleName fos
+bos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered output stream
+bos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fos
+buffered output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bos
+print stream SimpleName SimpleType ClassInstanceCreation SimpleName bos
+ps SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print stream
+ps SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bos
+print stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ps
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+counts SimpleName MethodInvocation SimpleName values
+sorted counts SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName counts
+sorted counts SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName values
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+sorted counts SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted counts
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iter SimpleName MethodInvocation SimpleName next
+hd SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+hd SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+empty StringLiteral InfixExpression QualifiedName hdbin
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName hdcount
+hdbin QualifiedName InfixExpression StringLiteral empty
+hdbin QualifiedName InfixExpression QualifiedName hdcount
+empty StringLiteral InfixExpression QualifiedName hdcount
+ps SimpleName MethodInvocation SimpleName println
+ps SimpleName MethodInvocation InfixExpression StringLiteral empty
+ps SimpleName MethodInvocation InfixExpression QualifiedName hdbin
+ps SimpleName MethodInvocation InfixExpression StringLiteral empty
+ps SimpleName MethodInvocation InfixExpression QualifiedName hdcount
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName hdbin
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName hdcount
+ps SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName save
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName save
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+save SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+save SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+save SimpleName MethodDeclaration SimpleType SimpleName io exception
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

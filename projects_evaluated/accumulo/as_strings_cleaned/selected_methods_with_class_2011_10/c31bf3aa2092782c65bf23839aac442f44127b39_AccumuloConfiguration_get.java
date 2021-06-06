@@ -1,0 +1,25 @@
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+abstract Modifier MethodDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SimpleName get
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType MethodDeclaration SimpleName get
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

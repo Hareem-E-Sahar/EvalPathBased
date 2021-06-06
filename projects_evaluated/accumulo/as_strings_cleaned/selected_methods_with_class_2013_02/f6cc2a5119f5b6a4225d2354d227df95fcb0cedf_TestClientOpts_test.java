@@ -1,0 +1,277 @@
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+args SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client opts
+client opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName args
+bw opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+bs opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch scanner opts
+batch scanner opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs opts
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName system
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get property
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral username
+assert equals SimpleName MethodInvocation QualifiedName argsuser
+system SimpleName MethodInvocation MethodInvocation QualifiedName argsuser
+get property SimpleName MethodInvocation MethodInvocation QualifiedName argsuser
+username StringLiteral MethodInvocation MethodInvocation QualifiedName argsuser
+assert null SimpleName MethodInvocation QualifiedName argssecure password
+secret StringLiteral MethodInvocation SimpleName get bytes
+args SimpleName MethodInvocation SimpleName get password
+assert array equals SimpleName MethodInvocation MethodInvocation StringLiteral secret
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName args
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName get password
+secret StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName args
+secret StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+cfg SimpleName MethodInvocation SimpleName get max latency
+cfg SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cfg
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get max latency
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cfg
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max latency
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch latency
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+cfg SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+get max latency SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+time unitmilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+cfg SimpleName MethodInvocation SimpleName get timeout
+cfg SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cfg
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get timeout
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cfg
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get timeout
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch timeout
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+cfg SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+get timeout SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+time unitmilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+cfg SimpleName MethodInvocation SimpleName get max memory
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cfg
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get max memory
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cfg
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max memory
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch memory
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+cfg SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+get max memory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+assert false SimpleName MethodInvocation QualifiedName argsdebug
+assert false SimpleName MethodInvocation QualifiedName argstrace
+bs optsscan threads QualifiedName MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation QualifiedName argsinstance
+assert equals SimpleName MethodInvocation QualifiedName constantsno auths
+assert equals SimpleName MethodInvocation QualifiedName argsauths
+constantsno auths QualifiedName MethodInvocation QualifiedName argsauths
+assert equals SimpleName MethodInvocation StringLiteral localhost
+assert equals SimpleName MethodInvocation QualifiedName argszookeepers
+localhost StringLiteral MethodInvocation QualifiedName argszookeepers
+assert false SimpleName MethodInvocation QualifiedName argshelp
+jc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j commander
+j commander SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jc
+jc SimpleName MethodInvocation SimpleName add object
+jc SimpleName MethodInvocation SimpleName args
+add object SimpleName MethodInvocation SimpleName args
+jc SimpleName MethodInvocation SimpleName add object
+jc SimpleName MethodInvocation SimpleName bw opts
+add object SimpleName MethodInvocation SimpleName bw opts
+jc SimpleName MethodInvocation SimpleName add object
+jc SimpleName MethodInvocation SimpleName bs opts
+add object SimpleName MethodInvocation SimpleName bs opts
+jc SimpleName MethodInvocation SimpleName parse
+jc SimpleName MethodInvocation StringLiteral u
+jc SimpleName MethodInvocation StringLiteral bar
+jc SimpleName MethodInvocation StringLiteral p
+jc SimpleName MethodInvocation StringLiteral foo
+parse SimpleName MethodInvocation StringLiteral u
+parse SimpleName MethodInvocation StringLiteral bar
+parse SimpleName MethodInvocation StringLiteral p
+parse SimpleName MethodInvocation StringLiteral foo
+parse SimpleName MethodInvocation StringLiteral batch latency
+u StringLiteral MethodInvocation StringLiteral bar
+u StringLiteral MethodInvocation StringLiteral p
+u StringLiteral MethodInvocation StringLiteral foo
+u StringLiteral MethodInvocation StringLiteral batch latency
+u StringLiteral MethodInvocation StringLiteral s
+bar StringLiteral MethodInvocation StringLiteral p
+bar StringLiteral MethodInvocation StringLiteral foo
+bar StringLiteral MethodInvocation StringLiteral batch latency
+bar StringLiteral MethodInvocation StringLiteral s
+bar StringLiteral MethodInvocation StringLiteral batch timeout
+p StringLiteral MethodInvocation StringLiteral foo
+p StringLiteral MethodInvocation StringLiteral batch latency
+p StringLiteral MethodInvocation StringLiteral s
+p StringLiteral MethodInvocation StringLiteral batch timeout
+p StringLiteral MethodInvocation StringLiteral s
+foo StringLiteral MethodInvocation StringLiteral batch latency
+foo StringLiteral MethodInvocation StringLiteral s
+foo StringLiteral MethodInvocation StringLiteral batch timeout
+foo StringLiteral MethodInvocation StringLiteral s
+foo StringLiteral MethodInvocation StringLiteral batch memory
+batch latency StringLiteral MethodInvocation StringLiteral s
+batch latency StringLiteral MethodInvocation StringLiteral batch timeout
+batch latency StringLiteral MethodInvocation StringLiteral s
+batch latency StringLiteral MethodInvocation StringLiteral batch memory
+batch latency StringLiteral MethodInvocation StringLiteral m
+s StringLiteral MethodInvocation StringLiteral batch timeout
+s StringLiteral MethodInvocation StringLiteral s
+s StringLiteral MethodInvocation StringLiteral batch memory
+s StringLiteral MethodInvocation StringLiteral m
+s StringLiteral MethodInvocation StringLiteral debug
+batch timeout StringLiteral MethodInvocation StringLiteral s
+batch timeout StringLiteral MethodInvocation StringLiteral batch memory
+batch timeout StringLiteral MethodInvocation StringLiteral m
+batch timeout StringLiteral MethodInvocation StringLiteral debug
+batch timeout StringLiteral MethodInvocation StringLiteral trace
+s StringLiteral MethodInvocation StringLiteral batch memory
+s StringLiteral MethodInvocation StringLiteral m
+s StringLiteral MethodInvocation StringLiteral debug
+s StringLiteral MethodInvocation StringLiteral trace
+s StringLiteral MethodInvocation StringLiteral scan threads
+batch memory StringLiteral MethodInvocation StringLiteral m
+batch memory StringLiteral MethodInvocation StringLiteral debug
+batch memory StringLiteral MethodInvocation StringLiteral trace
+batch memory StringLiteral MethodInvocation StringLiteral scan threads
+batch memory StringLiteral MethodInvocation StringLiteral empty
+m StringLiteral MethodInvocation StringLiteral debug
+m StringLiteral MethodInvocation StringLiteral trace
+m StringLiteral MethodInvocation StringLiteral scan threads
+m StringLiteral MethodInvocation StringLiteral empty
+m StringLiteral MethodInvocation StringLiteral i
+debug StringLiteral MethodInvocation StringLiteral trace
+debug StringLiteral MethodInvocation StringLiteral scan threads
+debug StringLiteral MethodInvocation StringLiteral empty
+debug StringLiteral MethodInvocation StringLiteral i
+debug StringLiteral MethodInvocation StringLiteral instance
+trace StringLiteral MethodInvocation StringLiteral scan threads
+trace StringLiteral MethodInvocation StringLiteral empty
+trace StringLiteral MethodInvocation StringLiteral i
+trace StringLiteral MethodInvocation StringLiteral instance
+trace StringLiteral MethodInvocation StringLiteral auths
+scan threads StringLiteral MethodInvocation StringLiteral empty
+scan threads StringLiteral MethodInvocation StringLiteral i
+scan threads StringLiteral MethodInvocation StringLiteral instance
+scan threads StringLiteral MethodInvocation StringLiteral auths
+scan threads StringLiteral MethodInvocation StringLiteral g g g
+empty StringLiteral MethodInvocation StringLiteral i
+empty StringLiteral MethodInvocation StringLiteral instance
+empty StringLiteral MethodInvocation StringLiteral auths
+empty StringLiteral MethodInvocation StringLiteral g g g
+empty StringLiteral MethodInvocation StringLiteral z
+i StringLiteral MethodInvocation StringLiteral instance
+i StringLiteral MethodInvocation StringLiteral auths
+i StringLiteral MethodInvocation StringLiteral g g g
+i StringLiteral MethodInvocation StringLiteral z
+i StringLiteral MethodInvocation StringLiteral zoohost zoohost
+instance StringLiteral MethodInvocation StringLiteral auths
+instance StringLiteral MethodInvocation StringLiteral g g g
+instance StringLiteral MethodInvocation StringLiteral z
+instance StringLiteral MethodInvocation StringLiteral zoohost zoohost
+instance StringLiteral MethodInvocation StringLiteral help
+auths StringLiteral MethodInvocation StringLiteral g g g
+auths StringLiteral MethodInvocation StringLiteral z
+auths StringLiteral MethodInvocation StringLiteral zoohost zoohost
+auths StringLiteral MethodInvocation StringLiteral help
+g g g StringLiteral MethodInvocation StringLiteral z
+g g g StringLiteral MethodInvocation StringLiteral zoohost zoohost
+g g g StringLiteral MethodInvocation StringLiteral help
+z StringLiteral MethodInvocation StringLiteral zoohost zoohost
+z StringLiteral MethodInvocation StringLiteral help
+zoohost zoohost StringLiteral MethodInvocation StringLiteral help
+assert equals SimpleName MethodInvocation StringLiteral bar
+assert equals SimpleName MethodInvocation QualifiedName argsuser
+bar StringLiteral MethodInvocation QualifiedName argsuser
+assert null SimpleName MethodInvocation QualifiedName argssecure password
+foo StringLiteral MethodInvocation SimpleName get bytes
+args SimpleName MethodInvocation SimpleName get password
+assert array equals SimpleName MethodInvocation MethodInvocation StringLiteral foo
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName args
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName get password
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName args
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+long SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch latency
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+empty NumberLiteral ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch latency
+long SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch timeout
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+empty NumberLiteral ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch timeout
+empty NumberLiteral InfixExpression NumberLiteral empty
+long SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+long SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+assert equals SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName bw optsbatch memory
+long SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation QualifiedName bw optsbatch memory
+assert true SimpleName MethodInvocation QualifiedName argsdebug
+assert true SimpleName MethodInvocation QualifiedName argstrace
+bs optsscan threads QualifiedName MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation StringLiteral instance
+assert equals SimpleName MethodInvocation QualifiedName argsinstance
+instance StringLiteral MethodInvocation QualifiedName argsinstance
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral g
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral g
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral g
+g StringLiteral ClassInstanceCreation StringLiteral g
+g StringLiteral ClassInstanceCreation StringLiteral g
+g StringLiteral ClassInstanceCreation StringLiteral g
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral g
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral g
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral g
+assert equals SimpleName MethodInvocation QualifiedName argsauths
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName argsauths
+g StringLiteral ClassInstanceCreation MethodInvocation QualifiedName argsauths
+g StringLiteral ClassInstanceCreation MethodInvocation QualifiedName argsauths
+g StringLiteral ClassInstanceCreation MethodInvocation QualifiedName argsauths
+assert equals SimpleName MethodInvocation StringLiteral zoohost zoohost
+assert equals SimpleName MethodInvocation QualifiedName argszookeepers
+zoohost zoohost StringLiteral MethodInvocation QualifiedName argszookeepers
+assert true SimpleName MethodInvocation QualifiedName argshelp
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleName test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test

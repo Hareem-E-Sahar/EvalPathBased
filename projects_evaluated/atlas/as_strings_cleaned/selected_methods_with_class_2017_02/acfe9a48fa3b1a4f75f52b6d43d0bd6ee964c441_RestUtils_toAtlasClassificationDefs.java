@@ -1,0 +1,74 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait type definitions
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait type
+trait type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait type
+classif def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification def
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classif def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+classif def SimpleName MethodInvocation SimpleName set name
+classif def SimpleName MethodInvocation QualifiedName trait typetype name
+set name SimpleName MethodInvocation QualifiedName trait typetype name
+classif def SimpleName MethodInvocation SimpleName set description
+classif def SimpleName MethodInvocation QualifiedName trait typetype description
+set description SimpleName MethodInvocation QualifiedName trait typetype description
+classif def SimpleName MethodInvocation SimpleName set type version
+classif def SimpleName MethodInvocation QualifiedName trait typetype version
+set type version SimpleName MethodInvocation QualifiedName trait typetype version
+classif def SimpleName MethodInvocation SimpleName set super types
+classif def SimpleName MethodInvocation QualifiedName trait typesuper types
+set super types SimpleName MethodInvocation QualifiedName trait typesuper types
+attr definitions SimpleName VariableDeclarationFragment QualifiedName trait typeattribute definitions
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName attr definition
+to atlas attribute def SimpleName MethodInvocation SimpleName attr definition
+attr defs SimpleName MethodInvocation SimpleName add
+attr defs SimpleName MethodInvocation MethodInvocation SimpleName to atlas attribute def
+attr defs SimpleName MethodInvocation MethodInvocation SimpleName attr definition
+add SimpleName MethodInvocation MethodInvocation SimpleName to atlas attribute def
+add SimpleName MethodInvocation MethodInvocation SimpleName attr definition
+attribute definition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attr definitions
+attr definition SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attr definitions
+classif def SimpleName MethodInvocation SimpleName set attribute defs
+classif def SimpleName MethodInvocation SimpleName attr defs
+set attribute defs SimpleName MethodInvocation SimpleName attr defs
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName classif def
+add SimpleName MethodInvocation SimpleName classif def
+trait type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trait type definitions
+trait type definitions SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName attr definitions
+trait type definitions SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+private Modifier MethodDeclaration SimpleName to atlas classification defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait type definitions
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+static Modifier MethodDeclaration SimpleName to atlas classification defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait type definitions
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName trait type definitions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas classification defs
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas classification defs
+to atlas classification defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait type definitions
+to atlas classification defs SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas classification defs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName trait type definitions
+to atlas classification defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+trait type definitions SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas classification defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait type definitions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas classification defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait type definitions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,7 @@
+commit session SimpleName SimpleType MethodDeclaration SimpleName get commit session
+get commit session SimpleName MethodDeclaration Block ReturnStatement SimpleName commit session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName commit session
+public Modifier TypeDeclaration MethodDeclaration SimpleName get commit session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName commit session
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get commit session

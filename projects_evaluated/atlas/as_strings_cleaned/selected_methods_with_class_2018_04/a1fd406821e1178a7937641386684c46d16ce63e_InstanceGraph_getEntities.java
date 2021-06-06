@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity element list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName get entities
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+entity detail SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entities

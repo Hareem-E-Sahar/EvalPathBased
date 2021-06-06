@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName acl string
+get components SimpleName MethodInvocation SimpleName acl string
+get components SimpleName MethodInvocation StringLiteral acl
+get components SimpleName MethodInvocation StringLiteral schemeid
+acl string SimpleName MethodInvocation StringLiteral acl
+acl string SimpleName MethodInvocation StringLiteral schemeid
+acl StringLiteral MethodInvocation StringLiteral schemeid
+acl components SimpleName VariableDeclarationFragment MethodInvocation SimpleName get components
+acl components SimpleName VariableDeclarationFragment MethodInvocation SimpleName acl string
+acl components SimpleName VariableDeclarationFragment MethodInvocation StringLiteral acl
+acl components SimpleName VariableDeclarationFragment MethodInvocation StringLiteral schemeid
+acl components SimpleName ArrayAccess NumberLiteral empty
+acl components SimpleName ArrayAccess NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName acl components
+id SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName acl components
+id SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+acl components SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName acl components
+acl components SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName acl components
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+acl SimpleName SimpleType ClassInstanceCreation QualifiedName zoo defspermsall
+zoo defspermsall QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName id
+zoo defspermsall QualifiedName ClassInstanceCreation ClassInstanceCreation ArrayAccess SimpleName acl components
+zoo defspermsall QualifiedName ClassInstanceCreation ClassInstanceCreation ArrayAccess NumberLiteral empty
+zoo defspermsall QualifiedName ClassInstanceCreation ClassInstanceCreation ArrayAccess SimpleName acl components
+zoo defspermsall QualifiedName ClassInstanceCreation ClassInstanceCreation ArrayAccess NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName acl
+public Modifier MethodDeclaration SimpleName parse acl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl string
+static Modifier MethodDeclaration SimpleType SimpleName acl
+static Modifier MethodDeclaration SimpleName parse acl
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acl string
+acl SimpleName SimpleType MethodDeclaration SimpleName parse acl
+acl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName acl string
+parse acl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse acl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acl string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName acl
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse acl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName acl
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse acl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acl string

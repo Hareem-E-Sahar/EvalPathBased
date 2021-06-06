@@ -1,0 +1,164 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName pass
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissionalter user
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissionalter user
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissionalter user
+credentialsuser QualifiedName MethodInvocation SimpleName equals
+credentialsuser QualifiedName MethodInvocation SimpleName user
+equals SimpleName MethodInvocation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codepermission denied
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation QualifiedName security constantssystem username
+equals SimpleName MethodInvocation QualifiedName security constantssystem username
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+user SimpleName ClassInstanceCreation QualifiedName security error codepermission denied
+user exists SimpleName MethodInvocation SimpleName user
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName user
+tool SimpleName MethodInvocation SimpleName create pass
+tool SimpleName MethodInvocation SimpleName pass
+create pass SimpleName MethodInvocation SimpleName pass
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put private persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put private persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put private persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put private persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put private persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put private persistent data SimpleName MethodInvocation MethodInvocation SimpleName tool
+put private persistent data SimpleName MethodInvocation MethodInvocation SimpleName create pass
+put private persistent data SimpleName MethodInvocation MethodInvocation SimpleName pass
+put private persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName create pass
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName pass
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName create pass
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName pass
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName create pass
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName pass
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+create pass SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+pass SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+changed password for user StringLiteral InfixExpression SimpleName user
+changed password for user StringLiteral InfixExpression StringLiteral at the request of user
+changed password for user StringLiteral InfixExpression QualifiedName credentialsuser
+user SimpleName InfixExpression StringLiteral at the request of user
+user SimpleName InfixExpression QualifiedName credentialsuser
+at the request of user StringLiteral InfixExpression QualifiedName credentialsuser
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+log SimpleName MethodInvocation InfixExpression SimpleName user
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression QualifiedName credentialsuser
+info SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+info SimpleName MethodInvocation InfixExpression SimpleName user
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression QualifiedName credentialsuser
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeconnection error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+user SimpleName ClassInstanceCreation QualifiedName security error codeconnection error
+user SimpleName ClassInstanceCreation SimpleName e
+security error codeconnection error QualifiedName ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codedefault security error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+user SimpleName ClassInstanceCreation QualifiedName security error codedefault security error
+user SimpleName ClassInstanceCreation SimpleName e
+security error codedefault security error QualifiedName ClassInstanceCreation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+user SimpleName ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pass
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pass
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+change password SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pass
+change password SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+pass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

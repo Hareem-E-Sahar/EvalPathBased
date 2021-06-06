@@ -1,0 +1,49 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+obj SimpleName InstanceofExpression SimpleType SimpleName json node
+json node SimpleName SimpleType CastExpression SimpleName obj
+obj SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName is textual
+obj SimpleName InstanceofExpression InfixExpression MethodInvocation SimpleName is textual
+json node SimpleName SimpleType CastExpression SimpleName obj
+obj SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName text value
+ret SimpleName Assignment MethodInvocation SimpleName text value
+mapper v SimpleName MethodInvocation SimpleName write value as string
+mapper v SimpleName MethodInvocation SimpleName obj
+write value as string SimpleName MethodInvocation SimpleName obj
+ret SimpleName Assignment MethodInvocation SimpleName mapper v
+ret SimpleName Assignment MethodInvocation SimpleName write value as string
+ret SimpleName Assignment MethodInvocation SimpleName obj
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral atlas typeto v json
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral atlas typeto v json
+error SimpleName MethodInvocation SimpleName e
+atlas typeto v json StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to v json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to v json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName to v json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+to v json SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to v json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to v json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

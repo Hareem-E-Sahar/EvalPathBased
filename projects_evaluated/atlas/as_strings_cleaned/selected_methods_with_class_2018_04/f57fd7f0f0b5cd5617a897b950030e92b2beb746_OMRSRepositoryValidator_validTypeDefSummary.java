@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+type def summary SimpleName SimpleType SingleVariableDeclaration SimpleName type def summary
+method name SimpleName VariableDeclarationFragment StringLiteral valid type def summary
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid type def summary
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid type def summary
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName valid type def summary
+repository content manager SimpleName MethodInvocation SimpleName source name
+repository content manager SimpleName MethodInvocation SimpleName type def summary
+valid type def summary SimpleName MethodInvocation SimpleName source name
+valid type def summary SimpleName MethodInvocation SimpleName type def summary
+source name SimpleName MethodInvocation SimpleName type def summary
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid type def summary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration SimpleName valid type def summary
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+valid type def summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid type def summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid type def summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+valid type def summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+valid type def summary SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid type def summary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid type def summary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary

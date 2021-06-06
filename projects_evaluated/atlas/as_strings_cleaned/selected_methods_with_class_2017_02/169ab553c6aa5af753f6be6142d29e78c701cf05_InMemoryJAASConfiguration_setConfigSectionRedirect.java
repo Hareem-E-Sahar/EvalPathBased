@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName redirect to
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral set config section redirect {})
+log SimpleName MethodInvocation SimpleName name
+log SimpleName MethodInvocation SimpleName redirect to
+debug SimpleName MethodInvocation StringLiteral set config section redirect {})
+debug SimpleName MethodInvocation SimpleName name
+debug SimpleName MethodInvocation SimpleName redirect to
+set config section redirect {}) StringLiteral MethodInvocation SimpleName name
+set config section redirect {}) StringLiteral MethodInvocation SimpleName redirect to
+name SimpleName MethodInvocation SimpleName redirect to
+config section redirects SimpleName MethodInvocation SimpleName put
+config section redirects SimpleName MethodInvocation SimpleName name
+config section redirects SimpleName MethodInvocation SimpleName redirect to
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName redirect to
+name SimpleName MethodInvocation SimpleName redirect to
+config section redirects SimpleName MethodInvocation SimpleName remove
+config section redirects SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set config section redirect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set config section redirect
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+void PrimitiveType MethodDeclaration SimpleName set config section redirect
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+set config section redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set config section redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set config section redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set config section redirect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set config section redirect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName redirect to
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set config section redirect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName redirect to

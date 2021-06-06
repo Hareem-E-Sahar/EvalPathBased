@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+hive data typeshive db QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ent hive db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+ent hive db SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+ent hive db SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent hive db
+hive meta store bridge SimpleName MethodInvocation SimpleName get db qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+get db qualified name SimpleName MethodInvocation SimpleName cluster name
+get db qualified name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName db name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db qualified name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+ent hive db SimpleName MethodInvocation SimpleName set attribute
+ent hive db SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+ent hive db SimpleName MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+set attribute SimpleName MethodInvocation SimpleName cluster name
+atlas constantscluster name attribute QualifiedName MethodInvocation SimpleName cluster name
+ent hive db SimpleName MethodInvocation SimpleName set attribute
+ent hive db SimpleName MethodInvocation QualifiedName atlas clientname
+ent hive db SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName db name
+atlas clientname QualifiedName MethodInvocation SimpleName db name
+ent hive db SimpleName MethodInvocation SimpleName set attribute
+ent hive db SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ent hive db SimpleName MethodInvocation SimpleName qualified name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation SimpleName qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName qualified name
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName create hive database instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ent hive db
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create hive database instance
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive database instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+create hive database instance SimpleName MethodDeclaration Block ReturnStatement SimpleName ent hive db
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive database instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive database instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name

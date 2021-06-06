@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+request context SimpleName MethodInvocation SimpleName create context
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName id
+as list SimpleName MethodInvocation SimpleName id
+repository service SimpleName MethodInvocation SimpleName delete entities
+repository service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+repository service SimpleName MethodInvocation MethodInvocation SimpleName as list
+repository service SimpleName MethodInvocation MethodInvocation SimpleName id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName id
+private Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+private Modifier MethodDeclaration SimpleName delete entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+private Modifier MethodDeclaration SimpleType SimpleName exception
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName delete entities
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName exception
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+delete entities SimpleName MethodDeclaration SimpleType SimpleName exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

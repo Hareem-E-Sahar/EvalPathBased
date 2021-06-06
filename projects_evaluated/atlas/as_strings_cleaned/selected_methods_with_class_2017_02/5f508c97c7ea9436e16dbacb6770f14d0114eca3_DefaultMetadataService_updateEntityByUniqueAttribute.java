@@ -1,0 +1,139 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr value
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName updated entity
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName type name
+param checker SimpleName MethodInvocation StringLiteral type name
+not empty SimpleName MethodInvocation SimpleName type name
+not empty SimpleName MethodInvocation StringLiteral type name
+type name SimpleName MethodInvocation StringLiteral type name
+type name SimpleName Assignment MethodInvocation SimpleName param checker
+type name SimpleName Assignment MethodInvocation SimpleName not empty
+type name SimpleName Assignment MethodInvocation SimpleName type name
+type name SimpleName Assignment MethodInvocation StringLiteral type name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName unique attribute name
+param checker SimpleName MethodInvocation StringLiteral unique attribute name
+not empty SimpleName MethodInvocation SimpleName unique attribute name
+not empty SimpleName MethodInvocation StringLiteral unique attribute name
+unique attribute name SimpleName MethodInvocation StringLiteral unique attribute name
+unique attribute name SimpleName Assignment MethodInvocation SimpleName param checker
+unique attribute name SimpleName Assignment MethodInvocation SimpleName not empty
+unique attribute name SimpleName Assignment MethodInvocation SimpleName unique attribute name
+unique attribute name SimpleName Assignment MethodInvocation StringLiteral unique attribute name
+param checker SimpleName MethodInvocation SimpleName not null
+param checker SimpleName MethodInvocation SimpleName attr value
+param checker SimpleName MethodInvocation StringLiteral unique attribute value
+not null SimpleName MethodInvocation SimpleName attr value
+not null SimpleName MethodInvocation StringLiteral unique attribute value
+attr value SimpleName MethodInvocation StringLiteral unique attribute value
+attr value SimpleName Assignment MethodInvocation SimpleName param checker
+attr value SimpleName Assignment MethodInvocation SimpleName not null
+attr value SimpleName Assignment MethodInvocation SimpleName attr value
+attr value SimpleName Assignment MethodInvocation StringLiteral unique attribute value
+param checker SimpleName MethodInvocation SimpleName not null
+param checker SimpleName MethodInvocation SimpleName updated entity
+param checker SimpleName MethodInvocation StringLiteral updated entity
+not null SimpleName MethodInvocation SimpleName updated entity
+not null SimpleName MethodInvocation StringLiteral updated entity
+updated entity SimpleName MethodInvocation StringLiteral updated entity
+updated entity SimpleName Assignment MethodInvocation SimpleName param checker
+updated entity SimpleName Assignment MethodInvocation SimpleName not null
+updated entity SimpleName Assignment MethodInvocation SimpleName updated entity
+updated entity SimpleName Assignment MethodInvocation StringLiteral updated entity
+get entity definition reference SimpleName MethodInvocation SimpleName type name
+get entity definition reference SimpleName MethodInvocation SimpleName unique attribute name
+get entity definition reference SimpleName MethodInvocation SimpleName attr value
+type name SimpleName MethodInvocation SimpleName unique attribute name
+type name SimpleName MethodInvocation SimpleName attr value
+unique attribute name SimpleName MethodInvocation SimpleName attr value
+old instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition reference
+old instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+old instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName unique attribute name
+old instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old instance
+convert to typed instance SimpleName MethodInvocation SimpleName updated entity
+convert to typed instance SimpleName MethodInvocation SimpleName type name
+updated entity SimpleName MethodInvocation SimpleName type name
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert to typed instance
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName updated entity
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+final Modifier VariableDeclarationStatement SimpleType SimpleName i typed referenceable instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert to typed instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName updated entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type name
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance
+referenceable instance SimpleName SimpleType CastExpression SimpleName new instance
+old instance SimpleName MethodInvocation SimpleName get id
+new instance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName replace with new id
+replace with new id SimpleName MethodInvocation MethodInvocation SimpleName old instance
+replace with new id SimpleName MethodInvocation MethodInvocation SimpleName get id
+repository SimpleName MethodInvocation SimpleName update partial
+repository SimpleName MethodInvocation SimpleName new instance
+update partial SimpleName MethodInvocation SimpleName new instance
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName update partial
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+create update entities result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get entity result
+on entities added updated SimpleName MethodInvocation MethodInvocation SimpleName result
+on entities added updated SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName create update entities result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update entity by unique attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier MethodDeclaration SimpleName update entity by unique attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr value
+create update entities result SimpleName SimpleType MethodDeclaration SimpleName update entity by unique attribute
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr value
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr value
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+update entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+update entity by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attr value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+attr value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+updated entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

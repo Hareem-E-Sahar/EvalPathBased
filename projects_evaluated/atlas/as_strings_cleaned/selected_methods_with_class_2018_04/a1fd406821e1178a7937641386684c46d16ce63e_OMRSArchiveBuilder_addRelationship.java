@@ -1,0 +1,265 @@
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+method name SimpleName VariableDeclarationFragment StringLiteral add relationship
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add relationship
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add relationship
+log SimpleName MethodInvocation SimpleName is debug enabled
+relationship SimpleName MethodInvocation SimpleName to string
+adding relationship StringLiteral InfixExpression MethodInvocation SimpleName relationship
+adding relationship StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral adding relationship
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral adding relationship
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation SimpleName get guid
+relationship map SimpleName MethodInvocation SimpleName put
+relationship map SimpleName MethodInvocation MethodInvocation SimpleName relationship
+relationship map SimpleName MethodInvocation MethodInvocation SimpleName get guid
+relationship map SimpleName MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get guid SimpleName MethodInvocation MethodInvocation SimpleName relationship
+duplicate element SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship map
+duplicate element SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+duplicate element SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+duplicate element SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+duplicate element SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName duplicate element
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codeduplicate instance in archive
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codeduplicate instance in archive
+error code SimpleName MethodInvocation SimpleName get error message id
+type def categoryentity def QualifiedName MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName get guid
+duplicate element SimpleName MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation MethodInvocation QualifiedName type def categoryentity def
+error code SimpleName MethodInvocation MethodInvocation SimpleName get type name
+error code SimpleName MethodInvocation MethodInvocation SimpleName relationship
+error code SimpleName MethodInvocation MethodInvocation SimpleName get guid
+error code SimpleName MethodInvocation MethodInvocation SimpleName duplicate element
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation MethodInvocation SimpleName relationship
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation QualifiedName type def categoryentity def
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName duplicate element
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate element
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate element
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+type def categoryentity def QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate element
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate element
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+duplicate element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+duplicate element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+relationship SimpleName MethodInvocation SimpleName get guid
+guid map SimpleName MethodInvocation SimpleName put
+guid map SimpleName MethodInvocation MethodInvocation SimpleName relationship
+guid map SimpleName MethodInvocation MethodInvocation SimpleName get guid
+guid map SimpleName MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get guid SimpleName MethodInvocation MethodInvocation SimpleName relationship
+duplicate guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid map
+duplicate guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+duplicate guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+duplicate guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+duplicate guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName duplicate guid
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codeduplicate guid in archive
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codeduplicate guid in archive
+error code SimpleName MethodInvocation SimpleName get error message id
+relationship SimpleName MethodInvocation SimpleName get guid
+duplicate guid SimpleName MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation MethodInvocation SimpleName relationship
+error code SimpleName MethodInvocation MethodInvocation SimpleName get guid
+error code SimpleName MethodInvocation MethodInvocation SimpleName duplicate guid
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation MethodInvocation SimpleName relationship
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName duplicate guid
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate guid
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName duplicate guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+duplicate guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+duplicate guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+relationship list SimpleName MethodInvocation SimpleName add
+relationship list SimpleName MethodInvocation SimpleName relationship
+add SimpleName MethodInvocation SimpleName relationship
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName add relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+add relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+add relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+add relationship SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship

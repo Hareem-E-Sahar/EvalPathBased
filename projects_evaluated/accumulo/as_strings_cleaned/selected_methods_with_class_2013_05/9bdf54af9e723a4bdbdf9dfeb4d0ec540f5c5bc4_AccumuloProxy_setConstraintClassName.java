@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName constraint class name
+constraint class name SimpleName FieldAccess Assignment SimpleName constraint class name
+public Modifier MethodDeclaration SimpleType SimpleName add constraint args
+public Modifier MethodDeclaration SimpleName set constraint class name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+add constraint args SimpleName SimpleType MethodDeclaration SimpleName set constraint class name
+add constraint args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+set constraint class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set constraint class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName add constraint args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set constraint class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName add constraint args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set constraint class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint class name

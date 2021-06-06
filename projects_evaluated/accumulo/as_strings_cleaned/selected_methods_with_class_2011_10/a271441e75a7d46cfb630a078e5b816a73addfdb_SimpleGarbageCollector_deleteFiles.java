@@ -1,0 +1,279 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName confirmed deletes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName confirmed deletes
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+security constants SimpleName MethodInvocation SimpleName get system credentials
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName security constants
+instance SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security constants
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+c SimpleName Assignment MethodInvocation SimpleName instance
+c SimpleName Assignment MethodInvocation SimpleName get connector
+c SimpleName Assignment MethodInvocation MethodInvocation SimpleName security constants
+c SimpleName Assignment MethodInvocation MethodInvocation SimpleName get system credentials
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation QualifiedName constantsmetadata table name
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral l
+c SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral empty
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral l
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation SimpleName c
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation QualifiedName constantsmetadata table name
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation NumberLiteral l
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to create writer to remove file from the metadata table
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to create writer to remove file from the metadata table
+error SimpleName MethodInvocation SimpleName e
+unable to create writer to remove file from the metadata table StringLiteral MethodInvocation SimpleName e
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+confirmed deletes SimpleName MethodInvocation SimpleName iterator
+cd iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName confirmed deletes
+cd iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last dir
+cd iter SimpleName MethodInvocation SimpleName has next
+cd iter SimpleName MethodInvocation SimpleName next
+delete SimpleName VariableDeclarationFragment MethodInvocation SimpleName cd iter
+delete SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete
+is dir SimpleName MethodInvocation SimpleName delete
+last dir SimpleName Assignment SimpleName delete
+delete SimpleName MethodInvocation SimpleName starts with
+delete SimpleName MethodInvocation SimpleName last dir
+starts with SimpleName MethodInvocation SimpleName last dir
+ignoring StringLiteral InfixExpression SimpleName delete
+ignoring StringLiteral InfixExpression StringLiteral because
+ignoring StringLiteral InfixExpression SimpleName last dir
+ignoring StringLiteral InfixExpression StringLiteral exist
+delete SimpleName InfixExpression StringLiteral because
+delete SimpleName InfixExpression SimpleName last dir
+delete SimpleName InfixExpression StringLiteral exist
+because StringLiteral InfixExpression SimpleName last dir
+because StringLiteral InfixExpression StringLiteral exist
+last dir SimpleName InfixExpression StringLiteral exist
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring
+log SimpleName MethodInvocation InfixExpression SimpleName delete
+log SimpleName MethodInvocation InfixExpression StringLiteral because
+log SimpleName MethodInvocation InfixExpression SimpleName last dir
+log SimpleName MethodInvocation InfixExpression StringLiteral exist
+debug SimpleName MethodInvocation InfixExpression StringLiteral ignoring
+debug SimpleName MethodInvocation InfixExpression SimpleName delete
+debug SimpleName MethodInvocation InfixExpression StringLiteral because
+debug SimpleName MethodInvocation InfixExpression SimpleName last dir
+debug SimpleName MethodInvocation InfixExpression StringLiteral exist
+constantsmetadata delete flag prefix QualifiedName InfixExpression SimpleName delete
+text SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantsmetadata delete flag prefix
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delete
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation SimpleName empty text
+m SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+empty text SimpleName MethodInvocation SimpleName empty text
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+cd iter SimpleName MethodInvocation SimpleName remove
+final writer SimpleName VariableDeclarationFragment SimpleName writer
+final Modifier VariableDeclarationStatement SimpleType SimpleName batch writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final writer
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+executors SimpleName MethodInvocation SimpleName new fixed thread pool
+executors SimpleName MethodInvocation SimpleName num delete threads
+new fixed thread pool SimpleName MethodInvocation SimpleName num delete threads
+delete thread pool SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+delete thread pool SimpleName VariableDeclarationFragment MethodInvocation SimpleName new fixed thread pool
+delete thread pool SimpleName VariableDeclarationFragment MethodInvocation SimpleName num delete threads
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete thread pool
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName delete
+string SimpleName SimpleType SingleVariableDeclaration SimpleName delete
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName remove flag
+server constants SimpleName MethodInvocation SimpleName get tables dir
+deleting StringLiteral InfixExpression MethodInvocation SimpleName server constants
+deleting StringLiteral InfixExpression MethodInvocation SimpleName get tables dir
+deleting StringLiteral InfixExpression SimpleName delete
+server constants SimpleName MethodInvocation InfixExpression SimpleName delete
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName delete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server constants
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tables dir
+log SimpleName MethodInvocation InfixExpression SimpleName delete
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleting
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server constants
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tables dir
+debug SimpleName MethodInvocation InfixExpression SimpleName delete
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation InfixExpression SimpleName delete
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName delete
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delete
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName delete
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName p
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName p
+delete SimpleName MethodInvocation BooleanLiteral true
+p SimpleName MethodInvocation BooleanLiteral true
+remove flag SimpleName Assignment BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName p
+exists SimpleName MethodInvocation SimpleName p
+remove flag SimpleName Assignment BooleanLiteral false
+file exists but was not deleted for an unknown reason StringLiteral InfixExpression SimpleName p
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral file exists but was not deleted for an unknown reason
+log SimpleName MethodInvocation InfixExpression SimpleName p
+warn SimpleName MethodInvocation InfixExpression StringLiteral file exists but was not deleted for an unknown reason
+warn SimpleName MethodInvocation InfixExpression SimpleName p
+remove flag SimpleName Assignment BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName split
+delete SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+table id SimpleName VariableDeclarationFragment ArrayAccess SimpleName parts
+table id SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+table manager SimpleName MethodInvocation SimpleName get instance
+table manager SimpleName MethodInvocation MethodInvocation SimpleName update table state cache
+get instance SimpleName MethodInvocation MethodInvocation SimpleName update table state cache
+table manager SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+update table state cache SimpleName MethodInvocation SimpleName table id
+table manager SimpleName MethodInvocation SimpleName get instance
+table manager SimpleName MethodInvocation MethodInvocation SimpleName get table state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get table state
+table manager SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName table id
+table state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table manager
+table state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+table state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table state
+table state SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table state
+table state SimpleName InfixExpression QualifiedName table statedeleting
+table state SimpleName InfixExpression InfixExpression InfixExpression SimpleName table state
+table state SimpleName InfixExpression InfixExpression InfixExpression QualifiedName table statedeleting
+file doesnt exist StringLiteral InfixExpression SimpleName p
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral file doesnt exist
+log SimpleName MethodInvocation InfixExpression SimpleName p
+warn SimpleName MethodInvocation InfixExpression StringLiteral file doesnt exist
+warn SimpleName MethodInvocation InfixExpression SimpleName p
+very strange path name StringLiteral InfixExpression SimpleName delete
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral very strange path name
+log SimpleName MethodInvocation InfixExpression SimpleName delete
+warn SimpleName MethodInvocation InfixExpression StringLiteral very strange path name
+warn SimpleName MethodInvocation InfixExpression SimpleName delete
+remove flag SimpleName InfixExpression InfixExpression SimpleName final writer
+constantsmetadata delete flag prefix QualifiedName InfixExpression SimpleName delete
+text SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantsmetadata delete flag prefix
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delete
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation SimpleName empty text
+m SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+put delete SimpleName MethodInvocation SimpleName empty text
+empty text SimpleName MethodInvocation SimpleName empty text
+final writer SimpleName MethodInvocation SimpleName add mutation
+final writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+delete task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete task
+delete thread pool SimpleName MethodInvocation SimpleName execute
+delete thread pool SimpleName MethodInvocation SimpleName delete task
+execute SimpleName MethodInvocation SimpleName delete task
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName confirmed deletes
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName confirmed deletes
+delete SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName confirmed deletes
+delete thread pool SimpleName MethodInvocation SimpleName shutdown
+delete thread pool SimpleName MethodInvocation SimpleName await termination
+delete thread pool SimpleName MethodInvocation NumberLiteral empty
+delete thread pool SimpleName MethodInvocation QualifiedName time unitmilliseconds
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unitmilliseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+writer SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral problem removing entries from the metadata table
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral problem removing entries from the metadata table
+error SimpleName MethodInvocation SimpleName e
+problem removing entries from the metadata table StringLiteral MethodInvocation SimpleName e
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName confirmed deletes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName confirmed deletes
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName confirmed deletes
+void PrimitiveType MethodDeclaration SimpleName delete files
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName confirmed deletes
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName confirmed deletes
+delete files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName confirmed deletes
+delete files SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+delete files SimpleName MethodDeclaration Block EnhancedForStatement SimpleName confirmed deletes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName confirmed deletes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName confirmed deletes

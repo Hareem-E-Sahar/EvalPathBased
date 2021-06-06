@@ -1,0 +1,197 @@
+expected legacy type name SimpleName VariableDeclarationFragment StringLiteral traitprayivofx
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected legacy type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral traitprayivofx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected legacy type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral traitprayivofx
+legacy StringLiteral InfixExpression SimpleName expected legacy type name
+expected modified legacy type name SimpleName VariableDeclarationFragment InfixExpression StringLiteral legacy
+expected modified legacy type name SimpleName VariableDeclarationFragment InfixExpression SimpleName expected legacy type name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected modified legacy type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral legacy
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName expected legacy type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected modified legacy type name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName types def scrubberclassification to struct def name
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName types def scrubberclassification to struct def name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType QualifiedName types def scrubberclassification to struct def name
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName types def scrubberclassification to struct def name
+types def scrubberclassification to struct def name QualifiedName SimpleType ClassInstanceCreation StringLiteral traitprayivofx
+types def scrubberclassification to struct def name QualifiedName SimpleType ClassInstanceCreation StringLiteral legacy traitprayivofx
+traitprayivofx StringLiteral ClassInstanceCreation StringLiteral legacy traitprayivofx
+put SimpleName MethodInvocation StringLiteral create complex trait type testprayivofx complex trait
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName types def scrubberclassification to struct def name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral traitprayivofx
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral legacy traitprayivofx
+create complex trait type testprayivofx complex trait StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName types def scrubberclassification to struct def name
+create complex trait type testprayivofx complex trait StringLiteral MethodInvocation ClassInstanceCreation StringLiteral traitprayivofx
+create complex trait type testprayivofx complex trait StringLiteral MethodInvocation ClassInstanceCreation StringLiteral legacy traitprayivofx
+element processors SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get post process map
+element processors SimpleName SimpleType ClassInstanceCreation SimpleName types as traits
+get post process map SimpleName MethodInvocation ClassInstanceCreation SimpleName types as traits
+element processors SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName element processors
+element processors SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get post process map
+element processors SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName types as traits
+element processors SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element processors
+tinker graph SimpleName MethodInvocation SimpleName open
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinker graph
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+tinker graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tg
+graph son utility SimpleName SimpleType ClassInstanceCreation SimpleName element processors
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName graph son utility
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName element processors
+graph son utility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gu
+get json node from file SimpleName MethodInvocation StringLiteral entitywithtraittypejson
+nd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json node from file
+nd SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entitywithtraittypejson
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nd
+nd SimpleName MethodInvocation SimpleName get
+nd SimpleName MethodInvocation StringLiteral vertices
+get SimpleName MethodInvocation StringLiteral vertices
+nd SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName get
+nd SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+nd SimpleName MethodInvocation SimpleName get
+nd SimpleName MethodInvocation StringLiteral vertices
+get SimpleName MethodInvocation StringLiteral vertices
+nd SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+vertices StringLiteral MethodInvocation MethodInvocation SimpleName get
+nd SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+vertices StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+add vertex to graph SimpleName MethodInvocation SimpleName tg
+add vertex to graph SimpleName MethodInvocation SimpleName gu
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+add vertex to graph SimpleName MethodInvocation MethodInvocation SimpleName get
+add vertex to graph SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+add vertex to graph SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+add vertex to graph SimpleName MethodInvocation MethodInvocation SimpleName get
+add vertex to graph SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tg SimpleName MethodInvocation SimpleName gu
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+tg SimpleName MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+tg SimpleName MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+gu SimpleName MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral vertices
+gu SimpleName MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+nd SimpleName MethodInvocation SimpleName get
+nd SimpleName MethodInvocation StringLiteral edges
+get SimpleName MethodInvocation StringLiteral edges
+nd SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+edges StringLiteral MethodInvocation MethodInvocation SimpleName get
+nd SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+edges StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+add edge to graph SimpleName MethodInvocation SimpleName tg
+add edge to graph SimpleName MethodInvocation SimpleName gu
+add edge to graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+add edge to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+add edge to graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+add edge to graph SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral edges
+add edge to graph SimpleName MethodInvocation MethodInvocation SimpleName get
+add edge to graph SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tg SimpleName MethodInvocation SimpleName gu
+tg SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral edges
+tg SimpleName MethodInvocation MethodInvocation SimpleName get
+tg SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+gu SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nd
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral edges
+gu SimpleName MethodInvocation MethodInvocation SimpleName get
+gu SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+asserted SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName asserted
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+tg SimpleName MethodInvocation SimpleName vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName tg
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+vertices SimpleName MethodInvocation SimpleName has next
+vertices SimpleName MethodInvocation SimpleName next
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation QualifiedName constantsentity type property key
+property SimpleName MethodInvocation QualifiedName constantsentity type property key
+v SimpleName MethodInvocation MethodInvocation SimpleName value
+property SimpleName MethodInvocation MethodInvocation SimpleName value
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName value
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+value SimpleName MethodInvocation MethodInvocation SimpleName to string
+type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+type name SimpleName MethodInvocation SimpleName contains
+type name SimpleName MethodInvocation StringLiteral traitprayivofx
+contains SimpleName MethodInvocation StringLiteral traitprayivofx
+assert equals SimpleName MethodInvocation SimpleName type name
+assert equals SimpleName MethodInvocation SimpleName expected modified legacy type name
+type name SimpleName MethodInvocation SimpleName expected modified legacy type name
+asserted SimpleName Assignment BooleanLiteral true
+assert true SimpleName MethodInvocation SimpleName asserted
+assert true SimpleName MethodInvocation StringLiteral condition was not met
+asserted SimpleName MethodInvocation StringLiteral condition was not met
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName entities with types as traits
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName entities with types as traits
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName entities with types as traits
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+entities with types as traits SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+entities with types as traits SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+entities with types as traits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName entities with types as traits
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entities with types as traits

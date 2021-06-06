@@ -1,0 +1,31 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsguid property key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get id from edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get id from edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+string SimpleName SimpleType MethodDeclaration SimpleName get id from edge
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+get id from edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+get id from edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id from edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id from edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

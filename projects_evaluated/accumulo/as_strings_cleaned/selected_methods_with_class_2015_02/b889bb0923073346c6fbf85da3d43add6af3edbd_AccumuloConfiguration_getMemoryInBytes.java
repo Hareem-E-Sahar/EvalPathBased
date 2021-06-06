@@ -1,0 +1,122 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+str SimpleName MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str SimpleName MethodInvocation SimpleName char at
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName str
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+last char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName str
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+last char SimpleName InfixExpression CharacterLiteral b
+the b in StringLiteral InfixExpression SimpleName str
+the b in StringLiteral InfixExpression StringLiteral is being considered as bytes
+the b in StringLiteral InfixExpression StringLiteral setting memory by bits is not supported
+str SimpleName InfixExpression StringLiteral is being considered as bytes
+str SimpleName InfixExpression StringLiteral setting memory by bits is not supported
+is being considered as bytes StringLiteral InfixExpression StringLiteral setting memory by bits is not supported
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral the b in
+log SimpleName MethodInvocation InfixExpression SimpleName str
+log SimpleName MethodInvocation InfixExpression StringLiteral is being considered as bytes
+log SimpleName MethodInvocation InfixExpression StringLiteral setting memory by bits is not supported
+warn SimpleName MethodInvocation InfixExpression StringLiteral the b in
+warn SimpleName MethodInvocation InfixExpression SimpleName str
+warn SimpleName MethodInvocation InfixExpression StringLiteral is being considered as bytes
+warn SimpleName MethodInvocation InfixExpression StringLiteral setting memory by bits is not supported
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName multiplier
+character SimpleName MethodInvocation SimpleName to upper case
+character SimpleName MethodInvocation SimpleName last char
+to upper case SimpleName MethodInvocation SimpleName last char
+multiplier SimpleName Assignment NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName str
+parse long SimpleName MethodInvocation SimpleName str
+character SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+last char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+character SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+last char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+g CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral k
+k CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+str SimpleName MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str SimpleName MethodInvocation SimpleName substring
+str SimpleName MethodInvocation NumberLiteral empty
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName str
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName str
+long SimpleName MethodInvocation MethodInvocation SimpleName substring
+long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+long SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation SimpleName str
+parse long SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+long SimpleName MethodInvocation InfixExpression SimpleName multiplier
+parse long SimpleName MethodInvocation InfixExpression SimpleName multiplier
+str SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+substring SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+the value StringLiteral InfixExpression SimpleName str
+the value StringLiteral InfixExpression StringLiteral is not a valid memory setting a valid value would a number
+the value StringLiteral InfixExpression StringLiteral possibily followed by an optional g m k or b
+str SimpleName InfixExpression StringLiteral is not a valid memory setting a valid value would a number
+str SimpleName InfixExpression StringLiteral possibily followed by an optional g m k or b
+is not a valid memory setting a valid value would a number StringLiteral InfixExpression StringLiteral possibily followed by an optional g m k or b
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral the value
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName str
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not a valid memory setting a valid value would a number
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral possibily followed by an optional g m k or b
+static Modifier MethodDeclaration Modifier public
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get memory in bytes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get memory in bytes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+long PrimitiveType MethodDeclaration SimpleName get memory in bytes
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+get memory in bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get memory in bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+get memory in bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get memory in bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get memory in bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

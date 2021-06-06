@@ -1,0 +1,317 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName offline metadata scanner
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to create offline metadata scanner
+illegal state exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unable to create offline metadata scanner StringLiteral ClassInstanceCreation SimpleName e
+scanner impl SimpleName SimpleType ClassInstanceCreation SimpleName instance
+scanner impl SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsno auths
+instance SimpleName ClassInstanceCreation SimpleName credentials
+instance SimpleName ClassInstanceCreation QualifiedName constantsmetadata table id
+instance SimpleName ClassInstanceCreation QualifiedName constantsno auths
+credentials SimpleName ClassInstanceCreation QualifiedName constantsmetadata table id
+credentials SimpleName ClassInstanceCreation QualifiedName constantsno auths
+constantsmetadata table id QualifiedName ClassInstanceCreation QualifiedName constantsno auths
+isolated scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName instance
+isolated scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName credentials
+isolated scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName constantsmetadata table id
+isolated scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName constantsno auths
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName isolated scanner
+scanner SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName instance
+scanner SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName credentials
+scanner SimpleName Assignment ClassInstanceCreation ClassInstanceCreation QualifiedName constantsmetadata table id
+scanner SimpleName Assignment ClassInstanceCreation ClassInstanceCreation QualifiedName constantsno auths
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral checking for bulk processing flags
+debug SimpleName MethodInvocation StringLiteral checking for bulk processing flags
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata blip keyspace
+set range SimpleName MethodInvocation QualifiedName constantsmetadata blip keyspace
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+constantsmetadata blip flag prefix QualifiedName MethodInvocation SimpleName length
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata blip flag prefix
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata blip flag prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+blip path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+blip path SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+blip path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsmetadata blip flag prefix
+blip path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName blip path
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+candidates SimpleName MethodInvocation SimpleName tail set
+candidates SimpleName MethodInvocation SimpleName blip path
+tail set SimpleName MethodInvocation SimpleName blip path
+candidates SimpleName MethodInvocation MethodInvocation SimpleName iterator
+tail set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+blip path SimpleName MethodInvocation MethodInvocation SimpleName iterator
+tail iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName candidates
+tail iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tail set
+tail iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName blip path
+tail iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tail iter SimpleName MethodInvocation SimpleName has next
+tail iter SimpleName MethodInvocation SimpleName next
+tail iter SimpleName MethodInvocation MethodInvocation SimpleName starts with
+next SimpleName MethodInvocation MethodInvocation SimpleName starts with
+tail iter SimpleName MethodInvocation MethodInvocation SimpleName blip path
+next SimpleName MethodInvocation MethodInvocation SimpleName blip path
+starts with SimpleName MethodInvocation SimpleName blip path
+tail iter SimpleName MethodInvocation SimpleName remove
+count SimpleName InfixExpression NumberLiteral empty
+folder has bulk processing flag StringLiteral InfixExpression SimpleName blip path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral folder has bulk processing flag
+log SimpleName MethodInvocation InfixExpression SimpleName blip path
+debug SimpleName MethodInvocation InfixExpression StringLiteral folder has bulk processing flag
+debug SimpleName MethodInvocation InfixExpression SimpleName blip path
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+check for bulk processing files SimpleName IfStatement Block EnhancedForStatement SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName clear columns
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+column fq SimpleName MethodInvocation SimpleName fetch
+column fq SimpleName MethodInvocation SimpleName scanner
+column fq SimpleName MethodInvocation QualifiedName constantsmetadata directory column
+fetch SimpleName MethodInvocation SimpleName scanner
+fetch SimpleName MethodInvocation QualifiedName constantsmetadata directory column
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata directory column
+tablet iterator SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+tablet iterator SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata keyspace
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+tablet iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+scanner SimpleName ClassInstanceCreation QualifiedName constantsmetadata keyspace
+scanner SimpleName ClassInstanceCreation BooleanLiteral false
+scanner SimpleName ClassInstanceCreation BooleanLiteral false
+constantsmetadata keyspace QualifiedName ClassInstanceCreation BooleanLiteral false
+constantsmetadata keyspace QualifiedName ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+tablet iterator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet iterator
+tablet iterator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName scanner
+tablet iterator SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsmetadata keyspace
+tablet iterator SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+tablet iterator SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+tablet iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet iterator
+tablet iterator SimpleName MethodInvocation SimpleName has next
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tablet iterator SimpleName MethodInvocation SimpleName next
+tablet key values SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet iterator
+tablet key values SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet key values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata scanfile column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata scanfile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata scanfile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName constantsmetadata scanfile column family
+constantsmetadata datafile column family QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+constantsmetadata datafile column family QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName constantsmetadata scanfile column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+cf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete
+cf SimpleName MethodInvocation SimpleName starts with
+cf SimpleName MethodInvocation StringLiteral ../
+starts with SimpleName MethodInvocation StringLiteral ../
+cf SimpleName MethodInvocation SimpleName substring
+cf SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName Assignment MethodInvocation SimpleName cf
+delete SimpleName Assignment MethodInvocation SimpleName substring
+delete SimpleName Assignment MethodInvocation NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName MethodInvocation SimpleName table of metadata row
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get row
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table of metadata row SimpleName MethodInvocation MethodInvocation SimpleName get row
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table of metadata row
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table of metadata row
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+/ StringLiteral InfixExpression SimpleName table
+/ StringLiteral InfixExpression SimpleName cf
+table SimpleName InfixExpression SimpleName cf
+delete SimpleName Assignment InfixExpression StringLiteral /
+delete SimpleName Assignment InfixExpression SimpleName table
+delete SimpleName Assignment InfixExpression SimpleName cf
+candidates SimpleName MethodInvocation SimpleName remove
+candidates SimpleName MethodInvocation SimpleName delete
+remove SimpleName MethodInvocation SimpleName delete
+candidate was still in use in the metadata table StringLiteral InfixExpression SimpleName delete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+log SimpleName MethodInvocation InfixExpression SimpleName delete
+debug SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+debug SimpleName MethodInvocation InfixExpression SimpleName delete
+delete SimpleName MethodInvocation SimpleName last index of
+delete SimpleName MethodInvocation CharacterLiteral /
+last index of SimpleName MethodInvocation CharacterLiteral /
+delete SimpleName MethodInvocation SimpleName substring
+delete SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation MethodInvocation SimpleName delete
+delete SimpleName MethodInvocation MethodInvocation SimpleName last index of
+delete SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation SimpleName delete
+substring SimpleName MethodInvocation MethodInvocation SimpleName last index of
+substring SimpleName MethodInvocation MethodInvocation CharacterLiteral /
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName delete
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName last index of
+empty NumberLiteral MethodInvocation MethodInvocation CharacterLiteral /
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+path SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName delete
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName last index of
+path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation CharacterLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+candidates SimpleName MethodInvocation SimpleName remove
+candidates SimpleName MethodInvocation SimpleName path
+remove SimpleName MethodInvocation SimpleName path
+candidate was still in use in the metadata table StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+log SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+entry SimpleName MethodInvocation SimpleName get key
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName has columns
+constantsmetadata directory column QualifiedName MethodInvocation MethodInvocation SimpleName entry
+constantsmetadata directory column QualifiedName MethodInvocation MethodInvocation SimpleName get key
+has columns SimpleName MethodInvocation MethodInvocation SimpleName entry
+has columns SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName MethodInvocation SimpleName table of metadata row
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get row
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table of metadata row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table of metadata row SimpleName MethodInvocation MethodInvocation SimpleName get row
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table of metadata row
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+table SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table of metadata row
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression SimpleName table
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get value
+table SimpleName InfixExpression MethodInvocation SimpleName to string
+delete SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+delete SimpleName VariableDeclarationFragment InfixExpression SimpleName table
+delete SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete
+candidates SimpleName MethodInvocation SimpleName remove
+candidates SimpleName MethodInvocation SimpleName delete
+remove SimpleName MethodInvocation SimpleName delete
+candidate was still in use in the metadata table StringLiteral InfixExpression SimpleName delete
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+log SimpleName MethodInvocation InfixExpression SimpleName delete
+debug SimpleName MethodInvocation InfixExpression StringLiteral candidate was still in use in the metadata table
+debug SimpleName MethodInvocation InfixExpression SimpleName delete
+entry SimpleName MethodInvocation SimpleName get key
+scanner over metadata table returned unexpected column : StringLiteral InfixExpression MethodInvocation SimpleName entry
+scanner over metadata table returned unexpected column : StringLiteral InfixExpression MethodInvocation SimpleName get key
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral scanner over metadata table returned unexpected column :
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet key values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+offline SimpleName IfStatement Block IfStatement SimpleName check for bulk processing files
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName confirm deletes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName candidates
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+private Modifier MethodDeclaration Block IfStatement SimpleName offline
+private Modifier MethodDeclaration Block IfStatement SimpleName check for bulk processing files
+void PrimitiveType MethodDeclaration SimpleName confirm deletes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName candidates
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName offline
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName check for bulk processing files
+confirm deletes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName candidates
+confirm deletes SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+confirm deletes SimpleName MethodDeclaration Block IfStatement SimpleName offline
+confirm deletes SimpleName MethodDeclaration Block IfStatement SimpleName check for bulk processing files
+candidates SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName confirm deletes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName confirm deletes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

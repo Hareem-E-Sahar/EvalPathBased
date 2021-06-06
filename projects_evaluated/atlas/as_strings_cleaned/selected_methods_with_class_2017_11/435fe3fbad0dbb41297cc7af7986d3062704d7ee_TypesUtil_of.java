@@ -1,0 +1,53 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName l
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName r
+l SimpleName SimpleType ParameterizedType SimpleType SimpleName r
+l SimpleName SimpleType SingleVariableDeclaration SimpleName left
+r SimpleName SimpleType SingleVariableDeclaration SimpleName right
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName left
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName right
+left SimpleName ClassInstanceCreation SimpleName right
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName l
+public Modifier MethodDeclaration TypeParameter SimpleName r
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName l
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName r
+public Modifier MethodDeclaration SimpleName of
+static Modifier MethodDeclaration TypeParameter SimpleName l
+static Modifier MethodDeclaration TypeParameter SimpleName r
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName l
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName r
+static Modifier MethodDeclaration SimpleName of
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName l
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName left
+l SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName r
+l SimpleName TypeParameter MethodDeclaration SimpleName of
+l SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName left
+l SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName right
+r SimpleName TypeParameter MethodDeclaration SimpleName of
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName left
+r SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName right
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName of
+l SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName of
+r SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName of
+of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName l
+of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName left
+of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName r
+of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName right
+left SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName l
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleName of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName left
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleName of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName left
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right

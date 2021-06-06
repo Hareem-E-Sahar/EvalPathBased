@@ -1,0 +1,500 @@
+method SimpleName MemberValuePair QualifiedName request methodpost
+path SimpleName MemberValuePair StringLiteral instanceconfiguration
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpost
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral instanceconfiguration
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral instanceconfiguration
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral instanceconfiguration
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName omag server config
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName configuration
+omag server config SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+method name SimpleName VariableDeclarationFragment StringLiteral initialize
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize
+validate server name SimpleName MethodInvocation SimpleName server name
+validate server name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName server name
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codenull server config
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codenull server config
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+save server config SimpleName MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get repository services config
+repository services config SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+repository services config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get repository services config
+repository services config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repository services config
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codenull repository config
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codenull repository config
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+terminate SimpleName MethodInvocation SimpleName user id
+terminate SimpleName MethodInvocation SimpleName server name
+terminate SimpleName MethodInvocation BooleanLiteral false
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation BooleanLiteral false
+server name SimpleName MethodInvocation BooleanLiteral false
+configuration SimpleName MethodInvocation SimpleName get local server name
+configuration SimpleName MethodInvocation SimpleName get local server type
+configuration SimpleName MethodInvocation SimpleName get organization name
+configuration SimpleName MethodInvocation SimpleName get local server url
+configuration SimpleName MethodInvocation SimpleName get max page size
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local server name
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local server type
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get organization name
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local server url
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+omrs operational services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get max page size
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server type
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server type
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server url
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+get local server url SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName configuration
+get local server url SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max page size
+operational services SimpleName Assignment ClassInstanceCreation SimpleType SimpleName omrs operational services
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get local server name
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get local server type
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get organization name
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get local server url
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+operational services SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get max page size
+operational services SimpleName MethodInvocation SimpleName initialize
+operational services SimpleName MethodInvocation SimpleName repository services config
+initialize SimpleName MethodInvocation SimpleName repository services config
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName access service config
+configuration SimpleName MethodInvocation SimpleName get access services config
+access service config list SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+access service config list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get access services config
+operational services SimpleName MethodInvocation SimpleName get enterprise omrs topic connector
+enterprise topic connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName operational services
+enterprise topic connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enterprise omrs topic connector
+omrs topic connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enterprise topic connector
+access service config SimpleName SimpleType SingleVariableDeclaration SimpleName access service config
+access service config SimpleName MethodInvocation SimpleName get access service admin class
+access service admin class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName access service config
+access service admin class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get access service admin class
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName access service admin class name
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName access service admin class name
+for name SimpleName MethodInvocation SimpleName access service admin class name
+class SimpleName MethodInvocation MethodInvocation SimpleName new instance
+for name SimpleName MethodInvocation MethodInvocation SimpleName new instance
+access service admin class name SimpleName MethodInvocation MethodInvocation SimpleName new instance
+access service admin SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+access service admin SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName access service admin
+access service admin SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new instance
+access service admin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName access service admin
+access service config SimpleName MethodInvocation SimpleName get access service name
+operational services SimpleName MethodInvocation SimpleName get enterprise omrs repository connector
+operational services SimpleName MethodInvocation MethodInvocation SimpleName access service config
+operational services SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+get enterprise omrs repository connector SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get enterprise omrs repository connector SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation SimpleName get access service id
+access service config SimpleName MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation SimpleName get access service description
+access service config SimpleName MethodInvocation SimpleName get access service wiki
+operational services SimpleName MethodInvocation SimpleName get audit log
+operational services SimpleName MethodInvocation MethodInvocation SimpleName access service config
+operational services SimpleName MethodInvocation MethodInvocation SimpleName get access service id
+operational services SimpleName MethodInvocation MethodInvocation SimpleName access service config
+operational services SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+operational services SimpleName MethodInvocation MethodInvocation SimpleName access service config
+operational services SimpleName MethodInvocation MethodInvocation SimpleName get access service description
+operational services SimpleName MethodInvocation MethodInvocation SimpleName access service config
+operational services SimpleName MethodInvocation MethodInvocation SimpleName get access service wiki
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName get access service id
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName get access service description
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get audit log SimpleName MethodInvocation MethodInvocation SimpleName get access service wiki
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+get access service description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+get access service description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+access service admin SimpleName MethodInvocation SimpleName initialize
+access service admin SimpleName MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation SimpleName enterprise topic connector
+access service admin SimpleName MethodInvocation MethodInvocation SimpleName operational services
+access service admin SimpleName MethodInvocation MethodInvocation SimpleName get enterprise omrs repository connector
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+access service admin SimpleName MethodInvocation MethodInvocation SimpleName operational services
+access service admin SimpleName MethodInvocation MethodInvocation SimpleName get audit log
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service id
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service admin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+initialize SimpleName MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation SimpleName enterprise topic connector
+initialize SimpleName MethodInvocation MethodInvocation SimpleName operational services
+initialize SimpleName MethodInvocation MethodInvocation SimpleName get enterprise omrs repository connector
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+initialize SimpleName MethodInvocation MethodInvocation SimpleName operational services
+initialize SimpleName MethodInvocation MethodInvocation SimpleName get audit log
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service id
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+initialize SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+initialize SimpleName MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation SimpleName enterprise topic connector
+access service config SimpleName MethodInvocation MethodInvocation SimpleName operational services
+access service config SimpleName MethodInvocation MethodInvocation SimpleName get enterprise omrs repository connector
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation MethodInvocation SimpleName operational services
+access service config SimpleName MethodInvocation MethodInvocation SimpleName get audit log
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service id
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+access service config SimpleName MethodInvocation StringLiteral omas user
+enterprise topic connector SimpleName MethodInvocation MethodInvocation SimpleName operational services
+enterprise topic connector SimpleName MethodInvocation MethodInvocation SimpleName get enterprise omrs repository connector
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+enterprise topic connector SimpleName MethodInvocation MethodInvocation SimpleName operational services
+enterprise topic connector SimpleName MethodInvocation MethodInvocation SimpleName get audit log
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service id
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service name
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service description
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName access service config
+enterprise topic connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get access service wiki
+enterprise topic connector SimpleName MethodInvocation StringLiteral omas user
+operational services SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName operational services
+operational services SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get audit log
+get enterprise omrs repository connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName operational services
+get enterprise omrs repository connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get audit log
+operational services SimpleName MethodInvocation MethodInvocation StringLiteral omas user
+get enterprise omrs repository connector SimpleName MethodInvocation MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+operational services SimpleName MethodInvocation MethodInvocation StringLiteral omas user
+get audit log SimpleName MethodInvocation MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+get access service id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+get access service name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+get access service description SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+access service config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+get access service wiki SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral omas user
+access service admin list SimpleName MethodInvocation SimpleName add
+access service admin list SimpleName MethodInvocation SimpleName access service admin
+add SimpleName MethodInvocation SimpleName access service admin
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codebad access service admin class
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codebad access service admin class
+error code SimpleName MethodInvocation SimpleName get error message id
+access service config SimpleName MethodInvocation SimpleName get access service name
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation SimpleName access service admin class name
+error code SimpleName MethodInvocation MethodInvocation SimpleName access service config
+error code SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName access service admin class name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+server name SimpleName MethodInvocation SimpleName access service admin class name
+server name SimpleName MethodInvocation MethodInvocation SimpleName access service config
+server name SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+access service admin class name SimpleName MethodInvocation MethodInvocation SimpleName access service config
+access service admin class name SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName access service admin class name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName access service admin class name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName access service admin class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag configuration error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codenull access service admin class
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codenull access service admin class
+error code SimpleName MethodInvocation SimpleName get error message id
+access service config SimpleName MethodInvocation SimpleName get access service name
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation MethodInvocation SimpleName access service config
+error code SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName access service config
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+server name SimpleName MethodInvocation MethodInvocation SimpleName access service config
+server name SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code

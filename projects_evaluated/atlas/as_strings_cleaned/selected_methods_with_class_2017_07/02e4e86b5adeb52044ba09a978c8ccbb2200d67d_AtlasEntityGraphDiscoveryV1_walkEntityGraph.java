@@ -1,0 +1,35 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+entity SimpleName MethodInvocation SimpleName get guid
+record object reference SimpleName MethodInvocation MethodInvocation SimpleName entity
+record object reference SimpleName MethodInvocation MethodInvocation SimpleName get guid
+visit entity SimpleName MethodInvocation SimpleName type
+visit entity SimpleName MethodInvocation SimpleName entity
+type SimpleName MethodInvocation SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName walk entity graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+walk entity graph SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName walk entity graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName walk entity graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

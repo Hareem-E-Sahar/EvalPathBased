@@ -1,0 +1,131 @@
+groups SimpleName MemberValuePair StringLiteral glossaryupdate
+depends on groups SimpleName MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossaryupdate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName glossary category
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName customer category
+arrays SimpleName MethodInvocation SimpleName account category
+arrays SimpleName MethodInvocation SimpleName mortgage category
+as list SimpleName MethodInvocation SimpleName customer category
+as list SimpleName MethodInvocation SimpleName account category
+as list SimpleName MethodInvocation SimpleName mortgage category
+customer category SimpleName MethodInvocation SimpleName account category
+customer category SimpleName MethodInvocation SimpleName mortgage category
+account category SimpleName MethodInvocation SimpleName mortgage category
+glossary category SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get category
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get category SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+get category SimpleName MethodInvocation MethodInvocation SimpleName get guid
+glossary categories SimpleName MethodInvocation SimpleName add
+glossary categories SimpleName MethodInvocation MethodInvocation SimpleName glossary service
+glossary categories SimpleName MethodInvocation MethodInvocation SimpleName get category
+glossary categories SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName glossary category
+glossary categories SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName glossary service
+add SimpleName MethodInvocation MethodInvocation SimpleName get category
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName glossary category
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral category fetch shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+category fetch shouldve succeeded StringLiteral MethodInvocation SimpleName e
+glossary category SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+glossary category SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+glossary category SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName customer category
+glossary category SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName account category
+glossary category SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mortgage category
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName set short description
+c SimpleName MethodInvocation StringLiteral updated short description
+set short description SimpleName MethodInvocation StringLiteral updated short description
+c SimpleName MethodInvocation SimpleName set long description
+c SimpleName MethodInvocation StringLiteral updated long description
+set long description SimpleName MethodInvocation StringLiteral updated long description
+glossary service SimpleName MethodInvocation SimpleName update category
+glossary service SimpleName MethodInvocation SimpleName c
+update category SimpleName MethodInvocation SimpleName c
+updated category SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+updated category SimpleName VariableDeclarationFragment MethodInvocation SimpleName update category
+updated category SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated category
+assert not null SimpleName MethodInvocation SimpleName updated category
+updated category SimpleName MethodInvocation SimpleName get guid
+c SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated category
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+updated category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+updated category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary category fetching shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+glossary category fetching shouldve succeeded StringLiteral MethodInvocation SimpleName e
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName glossary categories
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName glossary categories
+customer category SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get category
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName customer category
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get category SimpleName MethodInvocation MethodInvocation SimpleName customer category
+get category SimpleName MethodInvocation MethodInvocation SimpleName get guid
+category SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get category
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName customer category
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName category
+category SimpleName MethodInvocation SimpleName set children categories
+glossary service SimpleName MethodInvocation SimpleName update category
+glossary service SimpleName MethodInvocation SimpleName category
+update category SimpleName MethodInvocation SimpleName category
+category SimpleName Assignment MethodInvocation SimpleName glossary service
+category SimpleName Assignment MethodInvocation SimpleName update category
+category SimpleName Assignment MethodInvocation SimpleName category
+assert not null SimpleName MethodInvocation SimpleName category
+category SimpleName MethodInvocation SimpleName get children categories
+assert null SimpleName MethodInvocation MethodInvocation SimpleName category
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get children categories
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral customer category fetch shouldve succeeded
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test update glossary category
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary category
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary category
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary category
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary category
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test update glossary category
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName glossary categories
+void PrimitiveType MethodDeclaration SimpleName test update glossary category
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName glossary categories
+test update glossary category SimpleName MethodDeclaration Block EnhancedForStatement SimpleName glossary categories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test update glossary category
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test update glossary category

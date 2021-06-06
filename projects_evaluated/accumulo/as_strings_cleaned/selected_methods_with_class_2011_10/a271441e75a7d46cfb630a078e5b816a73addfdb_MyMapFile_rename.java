@@ -1,0 +1,80 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new name
+path SimpleName SimpleType ClassInstanceCreation SimpleName old name
+old dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+old dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName old name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old dir
+path SimpleName SimpleType ClassInstanceCreation SimpleName new name
+new dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+new dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName new name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new dir
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation SimpleName old dir
+fs SimpleName MethodInvocation SimpleName new dir
+rename SimpleName MethodInvocation SimpleName old dir
+rename SimpleName MethodInvocation SimpleName new dir
+old dir SimpleName MethodInvocation SimpleName new dir
+could not rename StringLiteral InfixExpression SimpleName old dir
+could not rename StringLiteral InfixExpression StringLiteral to
+could not rename StringLiteral InfixExpression SimpleName new dir
+old dir SimpleName InfixExpression StringLiteral to
+old dir SimpleName InfixExpression SimpleName new dir
+to StringLiteral InfixExpression SimpleName new dir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not rename
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName old dir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral to
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new dir
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName rename
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName rename
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName old name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName new name
+void PrimitiveType MethodDeclaration SimpleName rename
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new name
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old name
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new name
+rename SimpleName MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old name
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new name
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+old name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new name
+old name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

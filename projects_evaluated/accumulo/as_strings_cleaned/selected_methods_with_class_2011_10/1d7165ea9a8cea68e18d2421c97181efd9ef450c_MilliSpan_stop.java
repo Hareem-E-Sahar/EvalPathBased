@@ -1,0 +1,28 @@
+start SimpleName InfixExpression NumberLiteral empty
+span for StringLiteral InfixExpression SimpleName description
+span for StringLiteral InfixExpression StringLiteral has not been started
+description SimpleName InfixExpression StringLiteral has not been started
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral span for
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName description
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has not been started
+system SimpleName MethodInvocation SimpleName current time millis
+stop SimpleName Assignment MethodInvocation SimpleName system
+stop SimpleName Assignment MethodInvocation SimpleName current time millis
+tracer SimpleName MethodInvocation SimpleName get instance
+tracer SimpleName MethodInvocation MethodInvocation SimpleName pop
+get instance SimpleName MethodInvocation MethodInvocation SimpleName pop
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName stop
+void PrimitiveType MethodDeclaration SimpleName stop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop

@@ -1,0 +1,45 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+get type SimpleName MethodInvocation SimpleName req
+get minutes SimpleName MethodInvocation SimpleName req
+traces for StringLiteral InfixExpression MethodInvocation SimpleName get type
+traces for StringLiteral InfixExpression MethodInvocation SimpleName req
+traces for StringLiteral InfixExpression StringLiteral for the last
+traces for StringLiteral InfixExpression MethodInvocation SimpleName get minutes
+traces for StringLiteral InfixExpression MethodInvocation SimpleName req
+traces for StringLiteral InfixExpression StringLiteral minutes
+get type SimpleName MethodInvocation InfixExpression StringLiteral for the last
+req SimpleName MethodInvocation InfixExpression StringLiteral for the last
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get minutes
+get type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName req
+req SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get minutes
+req SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName req
+get type SimpleName MethodInvocation InfixExpression StringLiteral minutes
+req SimpleName MethodInvocation InfixExpression StringLiteral minutes
+for the last StringLiteral InfixExpression MethodInvocation SimpleName get minutes
+for the last StringLiteral InfixExpression MethodInvocation SimpleName req
+for the last StringLiteral InfixExpression StringLiteral minutes
+get minutes SimpleName MethodInvocation InfixExpression StringLiteral minutes
+req SimpleName MethodInvocation InfixExpression StringLiteral minutes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get title
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get title
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+string SimpleName SimpleType MethodDeclaration SimpleName get title
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName req
+get title SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get title SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get title
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get title
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req

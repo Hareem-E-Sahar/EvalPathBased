@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum element def
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName element defs
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum element def
+public Modifier MethodDeclaration SimpleName get element defs
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get element defs
+enum element def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get element defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get element defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get element defs

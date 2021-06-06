@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edg label
+atlas edge label SimpleName SimpleType ClassInstanceCreation SimpleName edg label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas edge label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName edg label
+atlas edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas edge label
+atlas edge label SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+reference type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+reference type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+reference type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas edge label
+reference type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference type
+get field mapping SimpleName MethodInvocation SimpleName reference type
+get field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+reference type SimpleName MethodInvocation FieldAccess SimpleName fields
+atlas edge label SimpleName MethodInvocation SimpleName get attribute name
+get field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+reference type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+fields SimpleName FieldAccess MethodInvocation SimpleName get
+fields SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName atlas edge label
+fields SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get attribute name
+get SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+get SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+protected Modifier MethodDeclaration SimpleType SimpleName attribute info
+protected Modifier MethodDeclaration SimpleName get attribute for edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edg label
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SimpleType MethodDeclaration SimpleName get attribute for edge
+attribute info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edg label
+attribute info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get attribute for edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute for edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edg label
+get attribute for edge SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+edg label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute for edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edg label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute for edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edg label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

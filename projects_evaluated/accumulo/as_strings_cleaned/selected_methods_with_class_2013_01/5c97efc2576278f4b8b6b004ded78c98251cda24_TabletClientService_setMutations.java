@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapacheaccumulocoredatathriftt mutation
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+orgapacheaccumulocoredatathriftt mutation QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+mutations SimpleName FieldAccess Assignment SimpleName mutations
+public Modifier MethodDeclaration SimpleType SimpleName apply updates args
+public Modifier MethodDeclaration SimpleName set mutations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutations
+apply updates args SimpleName SimpleType MethodDeclaration SimpleName set mutations
+apply updates args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mutations
+set mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName apply updates args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mutations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName apply updates args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mutations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations

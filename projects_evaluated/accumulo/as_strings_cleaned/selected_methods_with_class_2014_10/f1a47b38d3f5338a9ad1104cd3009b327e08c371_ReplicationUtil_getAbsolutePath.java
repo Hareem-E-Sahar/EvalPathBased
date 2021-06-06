@@ -1,0 +1,56 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName work queue path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName queue key
+work queue path SimpleName InfixExpression StringLiteral /
+work queue path SimpleName InfixExpression SimpleName queue key
+/ StringLiteral InfixExpression SimpleName queue key
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName work queue path
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName queue key
+get SimpleName MethodInvocation InfixExpression SimpleName work queue path
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName queue key
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo cache
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName work queue path
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName queue key
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get absolute path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName queue key
+string SimpleName SimpleType MethodDeclaration SimpleName get absolute path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName queue key
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get absolute path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName queue key
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queue key
+work queue path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queue key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get absolute path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queue key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get absolute path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work queue path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queue key

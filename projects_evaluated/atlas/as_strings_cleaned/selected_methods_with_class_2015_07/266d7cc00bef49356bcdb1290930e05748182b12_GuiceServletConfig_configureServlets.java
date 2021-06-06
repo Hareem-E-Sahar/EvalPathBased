@@ -1,0 +1,65 @@
+filter SimpleName MethodInvocation StringLiteral /*
+filter SimpleName MethodInvocation MethodInvocation SimpleName through
+/* StringLiteral MethodInvocation MethodInvocation SimpleName through
+through SimpleName MethodInvocation TypeLiteral SimpleType SimpleName audit filter
+configuration exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to add and configure authentication filter
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral unable to add and configure authentication filter
+warn SimpleName MethodInvocation SimpleName e
+unable to add and configure authentication filter StringLiteral MethodInvocation SimpleName e
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName get init parameter
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName guice ctx param
+get init parameter SimpleName MethodInvocation SimpleName guice ctx param
+packages SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get servlet context
+packages SimpleName VariableDeclarationFragment MethodInvocation SimpleName get init parameter
+packages SimpleName VariableDeclarationFragment MethodInvocation SimpleName guice ctx param
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName packages
+jersey loading from packages StringLiteral InfixExpression SimpleName packages
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral jersey loading from packages
+log SimpleName MethodInvocation InfixExpression SimpleName packages
+info SimpleName MethodInvocation InfixExpression StringLiteral jersey loading from packages
+info SimpleName MethodInvocation InfixExpression SimpleName packages
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation QualifiedName packages resource configproperty packages
+params SimpleName MethodInvocation SimpleName packages
+put SimpleName MethodInvocation QualifiedName packages resource configproperty packages
+put SimpleName MethodInvocation SimpleName packages
+packages resource configproperty packages QualifiedName MethodInvocation SimpleName packages
+/ StringLiteral InfixExpression QualifiedName atlas clientbase uri
+/ StringLiteral InfixExpression StringLiteral *
+atlas clientbase uri QualifiedName InfixExpression StringLiteral *
+serve SimpleName MethodInvocation InfixExpression StringLiteral /
+serve SimpleName MethodInvocation InfixExpression QualifiedName atlas clientbase uri
+serve SimpleName MethodInvocation InfixExpression StringLiteral *
+serve SimpleName MethodInvocation MethodInvocation SimpleName with
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName with
+atlas clientbase uri QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName with
+* StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName with
+serve SimpleName MethodInvocation MethodInvocation SimpleName params
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName params
+atlas clientbase uri QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName params
+* StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName params
+with SimpleName MethodInvocation TypeLiteral SimpleType SimpleName guice container
+with SimpleName MethodInvocation SimpleName params
+guice container SimpleName SimpleType TypeLiteral MethodInvocation SimpleName params
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure servlets
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure servlets
+void PrimitiveType MethodDeclaration SimpleName configure servlets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure servlets
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure servlets

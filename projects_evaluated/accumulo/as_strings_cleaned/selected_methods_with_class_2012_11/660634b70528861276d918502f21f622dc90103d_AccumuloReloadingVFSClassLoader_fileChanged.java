@@ -1,0 +1,49 @@
+file change event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+log SimpleName MethodInvocation SimpleName is debug enabled
+event SimpleName MethodInvocation SimpleName get file
+event SimpleName MethodInvocation MethodInvocation SimpleName get url
+get file SimpleName MethodInvocation MethodInvocation SimpleName get url
+event SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get url SimpleName MethodInvocation MethodInvocation SimpleName to string
+get url SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral deleted recreating classloader
+to string SimpleName MethodInvocation InfixExpression StringLiteral deleted recreating classloader
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted recreating classloader
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleted recreating classloader
+vfs class loader SimpleName SimpleType ClassInstanceCreation SimpleName files
+vfs class loader SimpleName SimpleType ClassInstanceCreation SimpleName vfs
+vfs class loader SimpleName SimpleType ClassInstanceCreation SimpleName parent
+files SimpleName ClassInstanceCreation SimpleName vfs
+files SimpleName ClassInstanceCreation SimpleName parent
+vfs SimpleName ClassInstanceCreation SimpleName parent
+cl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName vfs class loader
+cl SimpleName Assignment ClassInstanceCreation SimpleName files
+cl SimpleName Assignment ClassInstanceCreation SimpleName vfs
+cl SimpleName Assignment ClassInstanceCreation SimpleName parent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName file changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName file changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+file changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file change event
+file changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+file changed SimpleName MethodDeclaration SimpleType SimpleName exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName file changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName file changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

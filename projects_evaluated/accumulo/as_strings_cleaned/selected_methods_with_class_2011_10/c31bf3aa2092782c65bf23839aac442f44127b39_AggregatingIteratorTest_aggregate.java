@@ -1,0 +1,14 @@
+sum SimpleName InfixExpression StringLiteral empty
+sum SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName aggregate
+value SimpleName SimpleType MethodDeclaration SimpleName aggregate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName aggregate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName aggregate

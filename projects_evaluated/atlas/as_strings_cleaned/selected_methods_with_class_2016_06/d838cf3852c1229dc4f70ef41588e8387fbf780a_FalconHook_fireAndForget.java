@@ -1,0 +1,84 @@
+falcon event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get operation
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral entered atlas hook for falcon hook operation {}
+log SimpleName MethodInvocation MethodInvocation SimpleName event
+log SimpleName MethodInvocation MethodInvocation SimpleName get operation
+info SimpleName MethodInvocation StringLiteral entered atlas hook for falcon hook operation {}
+info SimpleName MethodInvocation MethodInvocation SimpleName event
+info SimpleName MethodInvocation MethodInvocation SimpleName get operation
+entered atlas hook for falcon hook operation {} StringLiteral MethodInvocation MethodInvocation SimpleName event
+entered atlas hook for falcon hook operation {} StringLiteral MethodInvocation MethodInvocation SimpleName get operation
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName hook notificationhook notification message
+event SimpleName MethodInvocation SimpleName get operation
+get operation SimpleName MethodInvocation MethodInvocation SimpleName event
+get operation SimpleName MethodInvocation MethodInvocation SimpleName get operation
+op SimpleName VariableDeclarationFragment MethodInvocation SimpleName get operation
+op SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName event
+op SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get operation
+operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+event SimpleName MethodInvocation SimpleName get user
+get user SimpleName MethodInvocation MethodInvocation SimpleName event
+get user SimpleName MethodInvocation MethodInvocation SimpleName get user
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName event
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral fire and forget user
+log SimpleName MethodInvocation SimpleName user
+info SimpleName MethodInvocation StringLiteral fire and forget user
+info SimpleName MethodInvocation SimpleName user
+fire and forget user StringLiteral MethodInvocation SimpleName user
+create entities SimpleName MethodInvocation SimpleName event
+create entities SimpleName MethodInvocation SimpleName user
+event SimpleName MethodInvocation SimpleName user
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation SimpleName user
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName create entities
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName event
+hook notificationentity create request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName user
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName create entities
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName event
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName user
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity create request
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleName user
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create entities
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity create request
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName user
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create entities
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user
+op SimpleName SwitchStatement SwitchCase SimpleName add
+op SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName messages
+op SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName add
+notify entities SimpleName MethodInvocation SimpleName messages
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName fire and forget
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName falcon event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block SwitchStatement SimpleName op
+void PrimitiveType MethodDeclaration SimpleName fire and forget
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName falcon event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName op
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName falcon event
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+fire and forget SimpleName MethodDeclaration SimpleType SimpleName exception
+fire and forget SimpleName MethodDeclaration Block SwitchStatement SimpleName op
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire and forget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire and forget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

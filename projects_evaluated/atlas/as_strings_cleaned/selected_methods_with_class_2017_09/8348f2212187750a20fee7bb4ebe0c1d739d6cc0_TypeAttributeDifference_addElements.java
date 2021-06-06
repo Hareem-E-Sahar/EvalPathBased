@@ -1,0 +1,40 @@
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName def
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+atlas enum defatlas enum element def QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+atlas enum defatlas enum element def QualifiedName SimpleType SingleVariableDeclaration SimpleName ad
+def SimpleName MethodInvocation SimpleName add element
+def SimpleName MethodInvocation SimpleName ad
+add element SimpleName MethodInvocation SimpleName ad
+atlas enum defatlas enum element def QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+ad SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName MethodInvocation SimpleName size
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName add elements
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+boolean PrimitiveType MethodDeclaration SimpleName add elements
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName list
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName list
+add elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+add elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+add elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+add elements SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add elements
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add elements
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

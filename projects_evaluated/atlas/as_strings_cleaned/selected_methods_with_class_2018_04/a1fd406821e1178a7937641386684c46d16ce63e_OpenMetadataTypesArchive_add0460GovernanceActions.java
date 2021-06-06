@@ -1,0 +1,19 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get control point classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get control point classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get verification point classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get verification point classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get enforcement point classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get enforcement point classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add governance actions
+void PrimitiveType MethodDeclaration SimpleName add governance actions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add governance actions
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add governance actions

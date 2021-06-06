@@ -1,0 +1,168 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current entries
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current entries
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new entries
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new entries
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName entry type
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+current entries SimpleName MethodInvocation SimpleName is empty
+current entries SimpleName InfixExpression InfixExpression MethodInvocation SimpleName current entries
+current entries SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing unused entries from the old collection
+debug SimpleName MethodInvocation StringLiteral removing unused entries from the old collection
+entry type SimpleName MethodInvocation SimpleName get type category
+entry type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+entry type SimpleName MethodInvocation SimpleName get type category
+entry type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+data typestype categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data typestype categoryclass
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+get edges SimpleName MethodInvocation SimpleName current entries
+get edges SimpleName MethodInvocation SimpleName edge map
+current entries SimpleName MethodInvocation SimpleName edge map
+get edges SimpleName MethodInvocation SimpleName new entries
+get edges SimpleName MethodInvocation SimpleName edge map
+new entries SimpleName MethodInvocation SimpleName edge map
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+edge map SimpleName MethodInvocation SimpleName get
+edge map SimpleName MethodInvocation SimpleName edge id
+get SimpleName MethodInvocation SimpleName edge id
+edge map SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+get SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+edge id SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+edge map SimpleName MethodInvocation MethodInvocation QualifiedName directionin
+get SimpleName MethodInvocation MethodInvocation QualifiedName directionin
+edge id SimpleName MethodInvocation MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+in vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge map
+in vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+in vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge id
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+in vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in vertex
+in vertex SimpleName MethodInvocation SimpleName get id
+in vertex SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+new in vertices SimpleName MethodInvocation SimpleName add
+new in vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in vertex
+new in vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+new in vertices SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in vertex
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new entries
+edge id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new entries
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current entries
+clone elements SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current entries
+clone elements SimpleName MethodInvocation SimpleName remove all
+clone elements SimpleName MethodInvocation SimpleName new entries
+remove all SimpleName MethodInvocation SimpleName new entries
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing unused entries from the old collection - {}
+log SimpleName MethodInvocation SimpleName clone elements
+debug SimpleName MethodInvocation StringLiteral removing unused entries from the old collection - {}
+debug SimpleName MethodInvocation SimpleName clone elements
+removing unused entries from the old collection - {} StringLiteral MethodInvocation SimpleName clone elements
+clone elements SimpleName MethodInvocation SimpleName is empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id for delete
+edge map SimpleName MethodInvocation SimpleName get
+edge map SimpleName MethodInvocation SimpleName edge id for delete
+get SimpleName MethodInvocation SimpleName edge id for delete
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge map
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge id for delete
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+in vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in vertex
+in vertex SimpleName MethodInvocation SimpleName get id
+in vertex SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+new in vertices SimpleName MethodInvocation SimpleName contains
+new in vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in vertex
+new in vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+new in vertices SimpleName MethodInvocation MethodInvocation SimpleName to string
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in vertex
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+contains SimpleName MethodInvocation MethodInvocation SimpleName to string
+delete handler SimpleName MethodInvocation SimpleName delete edge
+delete handler SimpleName MethodInvocation SimpleName edge
+delete handler SimpleName MethodInvocation BooleanLiteral true
+delete edge SimpleName MethodInvocation SimpleName edge
+delete edge SimpleName MethodInvocation BooleanLiteral true
+edge SimpleName MethodInvocation BooleanLiteral true
+entry type SimpleName MethodInvocation SimpleName get type category
+delete handler SimpleName MethodInvocation SimpleName delete reference
+delete handler SimpleName MethodInvocation SimpleName edge
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName entry type
+delete handler SimpleName MethodInvocation MethodInvocation SimpleName get type category
+delete handler SimpleName MethodInvocation QualifiedName attribute infois composite
+delete reference SimpleName MethodInvocation SimpleName edge
+delete reference SimpleName MethodInvocation MethodInvocation SimpleName entry type
+delete reference SimpleName MethodInvocation MethodInvocation SimpleName get type category
+delete reference SimpleName MethodInvocation QualifiedName attribute infois composite
+edge SimpleName MethodInvocation MethodInvocation SimpleName entry type
+edge SimpleName MethodInvocation MethodInvocation SimpleName get type category
+edge SimpleName MethodInvocation QualifiedName attribute infois composite
+entry type SimpleName MethodInvocation MethodInvocation QualifiedName attribute infois composite
+get type category SimpleName MethodInvocation MethodInvocation QualifiedName attribute infois composite
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName clone elements
+edge id for delete SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName clone elements
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName remove unused entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName current entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry type
+void PrimitiveType MethodDeclaration SimpleName remove unused entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entry type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current entries
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new entries
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry type
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+remove unused entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+remove unused entries SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+current entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entries
+current entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry type
+current entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+current entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+new entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry type
+new entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+new entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+entry type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+entry type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove unused entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove unused entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

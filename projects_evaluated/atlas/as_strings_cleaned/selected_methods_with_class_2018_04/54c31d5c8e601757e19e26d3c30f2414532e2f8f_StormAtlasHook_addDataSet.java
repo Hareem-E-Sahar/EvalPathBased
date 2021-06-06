@@ -1,0 +1,500 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data set type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName topology owner
+serializable SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+map SimpleName SimpleType SingleVariableDeclaration SimpleName storm conf
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+storm topology util SimpleName MethodInvocation SimpleName get field values
+storm topology util SimpleName MethodInvocation SimpleName instance
+storm topology util SimpleName MethodInvocation BooleanLiteral true
+get field values SimpleName MethodInvocation SimpleName instance
+get field values SimpleName MethodInvocation BooleanLiteral true
+instance SimpleName MethodInvocation BooleanLiteral true
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName storm topology util
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field values
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+config SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral kafka spoutkafka spout configtranslatortopic
+get SimpleName MethodInvocation StringLiteral kafka spoutkafka spout configtranslatortopic
+topic name SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+topic name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+topic name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral kafka spoutkafka spout configtranslatortopic
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName topic name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral kafka spoutkafka spout configkafka propsbootstrapservers
+get SimpleName MethodInvocation StringLiteral kafka spoutkafka spout configkafka propsbootstrapservers
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+uri SimpleName VariableDeclarationFragment MethodInvocation StringLiteral kafka spoutkafka spout configkafka propsbootstrapservers
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName topic name
+is empty SimpleName MethodInvocation SimpleName topic name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral kafka spout spout configtopic
+get SimpleName MethodInvocation StringLiteral kafka spout spout configtopic
+topic name SimpleName Assignment MethodInvocation SimpleName config
+topic name SimpleName Assignment MethodInvocation SimpleName get
+topic name SimpleName Assignment MethodInvocation StringLiteral kafka spout spout configtopic
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName uri
+is empty SimpleName MethodInvocation SimpleName uri
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral kafka spout spout confighostsbroker zk str
+get SimpleName MethodInvocation StringLiteral kafka spout spout confighostsbroker zk str
+uri SimpleName Assignment MethodInvocation SimpleName config
+uri SimpleName Assignment MethodInvocation SimpleName get
+uri SimpleName Assignment MethodInvocation StringLiteral kafka spout spout confighostsbroker zk str
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName topology owner
+is empty SimpleName MethodInvocation SimpleName topology owner
+topology owner SimpleName Assignment SimpleName anonymous owner
+get cluster name SimpleName MethodInvocation SimpleName storm conf
+cluster name SimpleName Assignment MethodInvocation SimpleName get cluster name
+cluster name SimpleName Assignment MethodInvocation SimpleName storm conf
+storm data typeskafka topic QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName storm data typeskafka topic
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName storm data typeskafka topic
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral topic
+ret SimpleName MethodInvocation SimpleName topic name
+set attribute SimpleName MethodInvocation StringLiteral topic
+set attribute SimpleName MethodInvocation SimpleName topic name
+topic StringLiteral MethodInvocation SimpleName topic name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral uri
+ret SimpleName MethodInvocation SimpleName uri
+set attribute SimpleName MethodInvocation StringLiteral uri
+set attribute SimpleName MethodInvocation SimpleName uri
+uri StringLiteral MethodInvocation SimpleName uri
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientowner
+ret SimpleName MethodInvocation SimpleName topology owner
+set attribute SimpleName MethodInvocation QualifiedName atlas clientowner
+set attribute SimpleName MethodInvocation SimpleName topology owner
+atlas clientowner QualifiedName MethodInvocation SimpleName topology owner
+get kafka topic qualified name SimpleName MethodInvocation SimpleName cluster name
+get kafka topic qualified name SimpleName MethodInvocation SimpleName topic name
+cluster name SimpleName MethodInvocation SimpleName topic name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get kafka topic qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+ret SimpleName MethodInvocation MethodInvocation SimpleName topic name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get kafka topic qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName topic name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get kafka topic qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName topic name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientname
+ret SimpleName MethodInvocation SimpleName topic name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName topic name
+atlas clientname QualifiedName MethodInvocation SimpleName topic name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral h base bolttable name
+get SimpleName MethodInvocation StringLiteral h base bolttable name
+hbase table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+hbase table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hbase table name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral h base bolttable name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hbase table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral h base bolttable name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hbase table name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hbaserootdir
+get SimpleName MethodInvocation StringLiteral hbaserootdir
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+uri SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hbaserootdir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName uri
+is empty SimpleName MethodInvocation SimpleName uri
+uri SimpleName Assignment SimpleName hbase table name
+h base configuration SimpleName MethodInvocation SimpleName create
+extract component cluster name SimpleName MethodInvocation MethodInvocation SimpleName h base configuration
+extract component cluster name SimpleName MethodInvocation MethodInvocation SimpleName create
+extract component cluster name SimpleName MethodInvocation SimpleName storm conf
+h base configuration SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+create SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+cluster name SimpleName Assignment MethodInvocation SimpleName extract component cluster name
+cluster name SimpleName Assignment MethodInvocation MethodInvocation SimpleName h base configuration
+cluster name SimpleName Assignment MethodInvocation MethodInvocation SimpleName create
+cluster name SimpleName Assignment MethodInvocation SimpleName storm conf
+storm data typeshbase table QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName storm data typeshbase table
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName storm data typeshbase table
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral uri
+ret SimpleName MethodInvocation SimpleName hbase table name
+set attribute SimpleName MethodInvocation StringLiteral uri
+set attribute SimpleName MethodInvocation SimpleName hbase table name
+uri StringLiteral MethodInvocation SimpleName hbase table name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientname
+ret SimpleName MethodInvocation SimpleName uri
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName uri
+atlas clientname QualifiedName MethodInvocation SimpleName uri
+storm conf SimpleName MethodInvocation SimpleName get
+storm conf SimpleName MethodInvocation StringLiteral stormkerberosprincipal
+get SimpleName MethodInvocation StringLiteral stormkerberosprincipal
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientowner
+ret SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+ret SimpleName MethodInvocation MethodInvocation SimpleName get
+ret SimpleName MethodInvocation MethodInvocation StringLiteral stormkerberosprincipal
+set attribute SimpleName MethodInvocation QualifiedName atlas clientowner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+set attribute SimpleName MethodInvocation MethodInvocation StringLiteral stormkerberosprincipal
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName storm conf
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas clientowner QualifiedName MethodInvocation MethodInvocation StringLiteral stormkerberosprincipal
+get hbase table qualified name SimpleName MethodInvocation SimpleName cluster name
+get hbase table qualified name SimpleName MethodInvocation SimpleName hbase namespace default
+get hbase table qualified name SimpleName MethodInvocation SimpleName hbase table name
+cluster name SimpleName MethodInvocation SimpleName hbase namespace default
+cluster name SimpleName MethodInvocation SimpleName hbase table name
+hbase namespace default SimpleName MethodInvocation SimpleName hbase table name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get hbase table qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+ret SimpleName MethodInvocation MethodInvocation SimpleName hbase namespace default
+ret SimpleName MethodInvocation MethodInvocation SimpleName hbase table name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get hbase table qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hbase namespace default
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hbase table name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get hbase table qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName hbase namespace default
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName hbase table name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hdfs boltrotation actions
+get SimpleName MethodInvocation StringLiteral hdfs boltrotation actions
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hdfs boltfile name formatpath
+get SimpleName MethodInvocation StringLiteral hdfs boltfile name formatpath
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hdfs boltrotation actions
+get SimpleName MethodInvocation StringLiteral hdfs boltrotation actions
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+config SimpleName MethodInvocation ConditionalExpression MethodInvocation StringLiteral hdfs boltrotation actions
+get SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+get SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation ConditionalExpression MethodInvocation StringLiteral hdfs boltrotation actions
+hdfs boltfile name formatpath StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName config
+hdfs boltfile name formatpath StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName get
+hdfs boltfile name formatpath StringLiteral MethodInvocation ConditionalExpression MethodInvocation StringLiteral hdfs boltrotation actions
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName config
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation StringLiteral hdfs boltfile name formatpath
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName config
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+hdfs uri SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation StringLiteral hdfs boltrotation actions
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs uri
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hdfs boltfs url
+get SimpleName MethodInvocation StringLiteral hdfs boltfs url
+config SimpleName MethodInvocation InfixExpression SimpleName hdfs uri
+get SimpleName MethodInvocation InfixExpression SimpleName hdfs uri
+hdfs boltfs url StringLiteral MethodInvocation InfixExpression SimpleName hdfs uri
+hdfs path str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName config
+hdfs path str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get
+hdfs path str SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral hdfs boltfs url
+hdfs path str SimpleName VariableDeclarationFragment InfixExpression SimpleName hdfs uri
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs path str
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName hdfs uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs path str
+path SimpleName SimpleType ClassInstanceCreation SimpleName hdfs path str
+hdfs path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+hdfs path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hdfs path str
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName hdfs path str
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs path
+hdfs name service resolver SimpleName MethodInvocation SimpleName get name service id for path
+hdfs name service resolver SimpleName MethodInvocation SimpleName hdfs path str
+get name service id for path SimpleName MethodInvocation SimpleName hdfs path str
+name service id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs name service resolver
+name service id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name service id for path
+name service id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs path str
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name service id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hdfs name service resolver
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name service id for path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hdfs path str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name service id
+get cluster name SimpleName MethodInvocation SimpleName storm conf
+cluster name SimpleName Assignment MethodInvocation SimpleName get cluster name
+cluster name SimpleName Assignment MethodInvocation SimpleName storm conf
+atlas entity SimpleName SimpleType ClassInstanceCreation QualifiedName hive meta store bridgehdfs path
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName Assignment ClassInstanceCreation QualifiedName hive meta store bridgehdfs path
+get cluster name SimpleName MethodInvocation SimpleName storm conf
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+ret SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+set attribute SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName get cluster name
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName storm conf
+storm conf SimpleName MethodInvocation SimpleName get
+storm conf SimpleName MethodInvocation StringLiteral hdfskerberosprincipal
+get SimpleName MethodInvocation StringLiteral hdfskerberosprincipal
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientowner
+ret SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+ret SimpleName MethodInvocation MethodInvocation SimpleName get
+ret SimpleName MethodInvocation MethodInvocation StringLiteral hdfskerberosprincipal
+set attribute SimpleName MethodInvocation QualifiedName atlas clientowner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+set attribute SimpleName MethodInvocation MethodInvocation StringLiteral hdfskerberosprincipal
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName storm conf
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas clientowner QualifiedName MethodInvocation MethodInvocation StringLiteral hdfskerberosprincipal
+path SimpleName MethodInvocation SimpleName get path without scheme and authority
+path SimpleName MethodInvocation SimpleName hdfs path
+get path without scheme and authority SimpleName MethodInvocation SimpleName hdfs path
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path without scheme and authority SimpleName MethodInvocation MethodInvocation SimpleName to string
+hdfs path SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get path without scheme and authority SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+hdfs path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientname
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+ret SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+atlas clientname QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName to lower case
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName name service id
+is not empty SimpleName MethodInvocation SimpleName name service id
+hdfs name service resolver SimpleName MethodInvocation SimpleName get path with name service id
+hdfs name service resolver SimpleName MethodInvocation SimpleName hdfs path str
+get path with name service id SimpleName MethodInvocation SimpleName hdfs path str
+updated path SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs name service resolver
+updated path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path with name service id
+updated path SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs path str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated path
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral path
+ret SimpleName MethodInvocation SimpleName updated path
+set attribute SimpleName MethodInvocation StringLiteral path
+set attribute SimpleName MethodInvocation SimpleName updated path
+path StringLiteral MethodInvocation SimpleName updated path
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral name service id
+ret SimpleName MethodInvocation SimpleName name service id
+set attribute SimpleName MethodInvocation StringLiteral name service id
+set attribute SimpleName MethodInvocation SimpleName name service id
+name service id StringLiteral MethodInvocation SimpleName name service id
+get hdfs path qualified name SimpleName MethodInvocation SimpleName cluster name
+get hdfs path qualified name SimpleName MethodInvocation SimpleName updated path
+cluster name SimpleName MethodInvocation SimpleName updated path
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+ret SimpleName MethodInvocation MethodInvocation SimpleName updated path
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName updated path
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName updated path
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation StringLiteral path
+ret SimpleName MethodInvocation SimpleName hdfs path str
+set attribute SimpleName MethodInvocation StringLiteral path
+set attribute SimpleName MethodInvocation SimpleName hdfs path str
+path StringLiteral MethodInvocation SimpleName hdfs path str
+get hdfs path qualified name SimpleName MethodInvocation SimpleName cluster name
+get hdfs path qualified name SimpleName MethodInvocation SimpleName hdfs path str
+cluster name SimpleName MethodInvocation SimpleName hdfs path str
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+ret SimpleName MethodInvocation MethodInvocation SimpleName hdfs path str
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hdfs path str
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get hdfs path qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName hdfs path str
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+extract component cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hive conf
+extract component cluster name SimpleName MethodInvocation SimpleName storm conf
+hive conf SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName storm conf
+cluster name SimpleName Assignment MethodInvocation SimpleName extract component cluster name
+cluster name SimpleName Assignment MethodInvocation SimpleName storm conf
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hive boltoptionsdatabase name
+get SimpleName MethodInvocation StringLiteral hive boltoptionsdatabase name
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+db name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hive boltoptionsdatabase name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral hive boltoptionsdatabase name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation StringLiteral hive boltoptionstable name
+get SimpleName MethodInvocation StringLiteral hive boltoptionstable name
+tbl name SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+tbl name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tbl name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hive boltoptionstable name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral hive boltoptionstable name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl name
+hive meta store bridge SimpleName MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation SimpleName tbl name
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation SimpleName tbl name
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName tbl name
+db name SimpleName MethodInvocation SimpleName tbl name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cluster name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName db name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tbl name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qualified name
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral hive db
+db entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+db entity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hive db
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db entity
+db entity SimpleName MethodInvocation SimpleName set attribute
+db entity SimpleName MethodInvocation QualifiedName atlas clientname
+db entity SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName db name
+atlas clientname QualifiedName MethodInvocation SimpleName db name
+get cluster name SimpleName MethodInvocation SimpleName storm conf
+hive meta store bridge SimpleName MethodInvocation SimpleName get db qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+get db qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get db qualified name SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+get db qualified name SimpleName MethodInvocation SimpleName db name
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName db name
+storm conf SimpleName MethodInvocation MethodInvocation SimpleName db name
+db entity SimpleName MethodInvocation SimpleName set attribute
+db entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+db entity SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+db entity SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+db entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+db entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storm conf
+db entity SimpleName MethodInvocation MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storm conf
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName db name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get db qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName storm conf
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName db name
+get cluster name SimpleName MethodInvocation SimpleName storm conf
+db entity SimpleName MethodInvocation SimpleName set attribute
+db entity SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+db entity SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+db entity SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+set attribute SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storm conf
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName get cluster name
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName storm conf
+entity ext info SimpleName MethodInvocation SimpleName add referred entity
+entity ext info SimpleName MethodInvocation SimpleName db entity
+add referred entity SimpleName MethodInvocation SimpleName db entity
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral hive table
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName Assignment ClassInstanceCreation StringLiteral hive table
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientname
+ret SimpleName MethodInvocation SimpleName tbl name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName tbl name
+atlas clientname QualifiedName MethodInvocation SimpleName tbl name
+atlas type util SimpleName MethodInvocation SimpleName get atlas object id
+atlas type util SimpleName MethodInvocation SimpleName db entity
+get atlas object id SimpleName MethodInvocation SimpleName db entity
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute db
+ret SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+ret SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+ret SimpleName MethodInvocation MethodInvocation SimpleName db entity
+set attribute SimpleName MethodInvocation SimpleName attribute db
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName db entity
+attribute db SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+attribute db SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+attribute db SimpleName MethodInvocation MethodInvocation SimpleName db entity
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ret SimpleName MethodInvocation SimpleName tbl qualified name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation SimpleName tbl qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName tbl qualified name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final

@@ -1,0 +1,108 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName username
+string SimpleName SimpleType SingleVariableDeclaration SimpleName username
+user logins SimpleName MethodInvocation SimpleName get property
+user logins SimpleName MethodInvocation SimpleName username
+get property SimpleName MethodInvocation SimpleName username
+userdetails str SimpleName VariableDeclarationFragment MethodInvocation SimpleName user logins
+userdetails str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+userdetails str SimpleName VariableDeclarationFragment MethodInvocation SimpleName username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName userdetails str
+userdetails str SimpleName MethodInvocation SimpleName is empty
+userdetails str SimpleName InfixExpression InfixExpression MethodInvocation SimpleName userdetails str
+userdetails str SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+username not found StringLiteral InfixExpression SimpleName username
+username not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral username not found
+username not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName username
+password SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+role SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName role
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+userdetails str SimpleName MethodInvocation SimpleName split
+userdetails str SimpleName MethodInvocation StringLiteral ::
+split SimpleName MethodInvocation StringLiteral ::
+data arr SimpleName VariableDeclarationFragment MethodInvocation SimpleName userdetails str
+data arr SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+data arr SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ::
+data arrlength QualifiedName InfixExpression NumberLiteral empty
+data arr SimpleName InfixExpression InfixExpression InfixExpression QualifiedName data arrlength
+data arr SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+data arr SimpleName ArrayAccess NumberLiteral empty
+role SimpleName Assignment ArrayAccess SimpleName data arr
+role SimpleName Assignment ArrayAccess NumberLiteral empty
+data arr SimpleName ArrayAccess NumberLiteral empty
+password SimpleName Assignment ArrayAccess SimpleName data arr
+password SimpleName Assignment ArrayAccess NumberLiteral empty
+user role credentials is not set properly for StringLiteral InfixExpression SimpleName username
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral user role credentials is not set properly for
+log SimpleName MethodInvocation InfixExpression SimpleName username
+error SimpleName MethodInvocation InfixExpression StringLiteral user role credentials is not set properly for
+error SimpleName MethodInvocation InfixExpression SimpleName username
+user role credentials is not set properly for StringLiteral InfixExpression SimpleName username
+atlas authentication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral user role credentials is not set properly for
+atlas authentication exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName username
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+string utils SimpleName MethodInvocation SimpleName has text
+string utils SimpleName MethodInvocation SimpleName role
+has text SimpleName MethodInvocation SimpleName role
+simple granted authority SimpleName SimpleType ClassInstanceCreation SimpleName role
+granted auths SimpleName MethodInvocation SimpleName add
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleName role
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName role
+user role credentials is not set properly for StringLiteral InfixExpression SimpleName username
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral user role credentials is not set properly for
+log SimpleName MethodInvocation InfixExpression SimpleName username
+error SimpleName MethodInvocation InfixExpression StringLiteral user role credentials is not set properly for
+error SimpleName MethodInvocation InfixExpression SimpleName username
+user role credentials is not set properly for StringLiteral InfixExpression SimpleName username
+atlas authentication exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral user role credentials is not set properly for
+atlas authentication exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName username
+user SimpleName SimpleType ClassInstanceCreation SimpleName username
+user SimpleName SimpleType ClassInstanceCreation SimpleName password
+user SimpleName SimpleType ClassInstanceCreation SimpleName granted auths
+username SimpleName ClassInstanceCreation SimpleName password
+username SimpleName ClassInstanceCreation SimpleName granted auths
+password SimpleName ClassInstanceCreation SimpleName granted auths
+user details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user
+user details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName username
+user details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName password
+user details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user details
+public Modifier MethodDeclaration SimpleType SimpleName user
+public Modifier MethodDeclaration SimpleName load user by username
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier MethodDeclaration SimpleType SimpleName authentication exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName user details
+user SimpleName SimpleType MethodDeclaration SimpleName load user by username
+user SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+user SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName username
+user SimpleName SimpleType MethodDeclaration SimpleType SimpleName authentication exception
+load user by username SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+load user by username SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load user by username SimpleName MethodDeclaration SingleVariableDeclaration SimpleName username
+load user by username SimpleName MethodDeclaration SimpleType SimpleName authentication exception
+load user by username SimpleName MethodDeclaration Block ReturnStatement SimpleName user details
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName authentication exception
+username SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName authentication exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleName load user by username
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load user by username
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName username
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication exception

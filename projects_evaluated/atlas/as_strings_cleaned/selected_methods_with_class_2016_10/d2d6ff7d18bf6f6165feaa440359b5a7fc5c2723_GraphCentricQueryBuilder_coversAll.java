@@ -1,0 +1,154 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName mixed index type
+final Modifier SingleVariableDeclaration SimpleName index
+mixed index type SimpleName SimpleType SingleVariableDeclaration SimpleName index
+condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+condition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+titan element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+index serializer SimpleName SimpleType SingleVariableDeclaration SimpleName index info
+condition SimpleName MethodInvocation SimpleName get type
+condition SimpleName MethodInvocation InfixExpression QualifiedName conditiontypeliteral
+get type SimpleName MethodInvocation InfixExpression QualifiedName conditiontypeliteral
+condition SimpleName InstanceofExpression SimpleType SimpleName predicate condition
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName relation type
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+relation type SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+predicate condition SimpleName SimpleType CastExpression SimpleName condition
+atom SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName predicate condition
+atom SimpleName VariableDeclarationFragment CastExpression SimpleName condition
+atom SimpleName MethodInvocation SimpleName get value
+atom SimpleName MethodInvocation SimpleName get key
+atom SimpleName MethodInvocation MethodInvocation SimpleName is property key
+get key SimpleName MethodInvocation MethodInvocation SimpleName is property key
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atom
+preconditions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName is property key
+check argument SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atom
+check argument SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+check argument SimpleName MethodInvocation MethodInvocation SimpleName is property key
+atom SimpleName MethodInvocation SimpleName get key
+property key SimpleName SimpleType CastExpression MethodInvocation SimpleName atom
+property key SimpleName SimpleType CastExpression MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName property key
+key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName atom
+key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get key
+property key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+index SimpleName MethodInvocation SimpleName get field keys
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field keys
+parameter index field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName match
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName fieldslength
+fields SimpleName ArrayAccess SimpleName i
+fields SimpleName ArrayAccess MethodInvocation SimpleName get status
+i SimpleName ArrayAccess MethodInvocation SimpleName get status
+fields SimpleName ArrayAccess MethodInvocation InfixExpression QualifiedName schema statusenabled
+i SimpleName ArrayAccess MethodInvocation InfixExpression QualifiedName schema statusenabled
+get status SimpleName MethodInvocation InfixExpression QualifiedName schema statusenabled
+fields SimpleName ArrayAccess SimpleName i
+fields SimpleName ArrayAccess MethodInvocation SimpleName get field key
+i SimpleName ArrayAccess MethodInvocation SimpleName get field key
+fields SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName equals
+get field key SimpleName MethodInvocation MethodInvocation SimpleName equals
+fields SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName key
+i SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName key
+get field key SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+fields SimpleName ArrayAccess SimpleName i
+match SimpleName Assignment ArrayAccess SimpleName fields
+match SimpleName Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName fieldslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+fieldslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+match SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+atom SimpleName MethodInvocation SimpleName get predicate
+index info SimpleName MethodInvocation SimpleName supports
+index info SimpleName MethodInvocation SimpleName index
+index info SimpleName MethodInvocation SimpleName match
+index info SimpleName MethodInvocation MethodInvocation SimpleName atom
+index info SimpleName MethodInvocation MethodInvocation SimpleName get predicate
+supports SimpleName MethodInvocation SimpleName index
+supports SimpleName MethodInvocation SimpleName match
+supports SimpleName MethodInvocation MethodInvocation SimpleName atom
+supports SimpleName MethodInvocation MethodInvocation SimpleName get predicate
+index SimpleName MethodInvocation SimpleName match
+index SimpleName MethodInvocation MethodInvocation SimpleName atom
+index SimpleName MethodInvocation MethodInvocation SimpleName get predicate
+match SimpleName MethodInvocation MethodInvocation SimpleName atom
+match SimpleName MethodInvocation MethodInvocation SimpleName get predicate
+condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+condition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName child
+titan element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName child
+condition SimpleName MethodInvocation SimpleName get children
+covers all SimpleName MethodInvocation SimpleName index
+covers all SimpleName MethodInvocation SimpleName child
+covers all SimpleName MethodInvocation SimpleName index info
+index SimpleName MethodInvocation SimpleName child
+index SimpleName MethodInvocation SimpleName index info
+child SimpleName MethodInvocation SimpleName index info
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName condition
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName covers all
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mixed index type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName covers all
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mixed index type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName covers all
+final Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mixed index type
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index serializer
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName index info
+boolean PrimitiveType MethodDeclaration SimpleName covers all
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mixed index type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName condition
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index serializer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index info
+covers all SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+covers all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mixed index type
+covers all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+covers all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName condition
+covers all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index serializer
+covers all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index info
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index info
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index info
+condition SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName covers all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index info
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName covers all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index info

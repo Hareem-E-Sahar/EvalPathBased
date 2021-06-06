@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+get relationship type name SimpleName MethodInvocation SimpleName edge label
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName type name
+is not empty SimpleName MethodInvocation SimpleName type name
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation QualifiedName constantsentity type property key
+props SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation QualifiedName constantsentity type property key
+put SimpleName MethodInvocation SimpleName type name
+constantsentity type property key QualifiedName MethodInvocation SimpleName type name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral could not find relationship type for {}
+log SimpleName MethodInvocation SimpleName edge label
+debug SimpleName MethodInvocation StringLiteral could not find relationship type for {}
+debug SimpleName MethodInvocation SimpleName edge label
+could not find relationship type for {} StringLiteral MethodInvocation SimpleName edge label
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add relationship type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleName add relationship type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+add relationship type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add relationship type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add relationship type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add relationship type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add relationship type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

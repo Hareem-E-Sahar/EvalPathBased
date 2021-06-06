@@ -1,0 +1,51 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+thread StringLiteral InfixExpression MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression StringLiteral died
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral died
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral died
+get name SimpleName MethodInvocation InfixExpression StringLiteral died
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral thread
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral died
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral thread
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+error SimpleName MethodInvocation InfixExpression StringLiteral died
+error SimpleName MethodInvocation SimpleName t
+thread StringLiteral InfixExpression MethodInvocation SimpleName t
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+died StringLiteral InfixExpression MethodInvocation SimpleName t
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName die
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName die
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleName die
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+die SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+die SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName die
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName die
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

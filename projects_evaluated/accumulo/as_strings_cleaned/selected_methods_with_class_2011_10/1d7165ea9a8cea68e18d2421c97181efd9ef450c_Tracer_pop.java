@@ -1,0 +1,27 @@
+span SimpleName SimpleType SingleVariableDeclaration SimpleName span
+deliver SimpleName MethodInvocation SimpleName span
+span SimpleName MethodInvocation SimpleName parent
+current trace SimpleName MethodInvocation SimpleName set
+current trace SimpleName MethodInvocation MethodInvocation SimpleName span
+current trace SimpleName MethodInvocation MethodInvocation SimpleName parent
+set SimpleName MethodInvocation MethodInvocation SimpleName span
+set SimpleName MethodInvocation MethodInvocation SimpleName parent
+current trace SimpleName MethodInvocation SimpleName set
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName pop
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName span
+void PrimitiveType MethodDeclaration SimpleName pop
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName span
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName span
+pop SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName span
+pop SimpleName MethodDeclaration SingleVariableDeclaration SimpleName span
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pop
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName span
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pop
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName span

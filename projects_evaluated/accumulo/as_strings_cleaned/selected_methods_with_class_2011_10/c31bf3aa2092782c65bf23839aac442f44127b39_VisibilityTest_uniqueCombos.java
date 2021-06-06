@@ -1,0 +1,73 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prefix
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName suffix
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName suffix
+all SimpleName MethodInvocation SimpleName add
+all SimpleName MethodInvocation SimpleName prefix
+add SimpleName MethodInvocation SimpleName prefix
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName suffix
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName suffix
+ss SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName suffix
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName prefix
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName prefix
+ps SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName prefix
+ps SimpleName MethodInvocation SimpleName add
+ps SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+ss SimpleName MethodInvocation SimpleName remove
+ss SimpleName MethodInvocation SimpleName s
+remove SimpleName MethodInvocation SimpleName s
+unique combos SimpleName MethodInvocation SimpleName all
+unique combos SimpleName MethodInvocation SimpleName ps
+unique combos SimpleName MethodInvocation SimpleName ss
+all SimpleName MethodInvocation SimpleName ps
+all SimpleName MethodInvocation SimpleName ss
+ps SimpleName MethodInvocation SimpleName ss
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName suffix
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName suffix
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName unique combos
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName all
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName unique combos
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName all
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName suffix
+void PrimitiveType MethodDeclaration SimpleName unique combos
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName suffix
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName suffix
+unique combos SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all
+unique combos SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+unique combos SimpleName MethodDeclaration SingleVariableDeclaration SimpleName suffix
+unique combos SimpleName MethodDeclaration Block EnhancedForStatement SimpleName suffix
+all SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+all SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName suffix
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName suffix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unique combos
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName suffix
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unique combos
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName suffix

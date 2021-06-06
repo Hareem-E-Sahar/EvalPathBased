@@ -1,0 +1,19 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get certification type entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get certification type entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get certification relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get certification relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get regulation certification type relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get regulation certification type relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add certifications
+void PrimitiveType MethodDeclaration SimpleName add certifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add certifications
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add certifications

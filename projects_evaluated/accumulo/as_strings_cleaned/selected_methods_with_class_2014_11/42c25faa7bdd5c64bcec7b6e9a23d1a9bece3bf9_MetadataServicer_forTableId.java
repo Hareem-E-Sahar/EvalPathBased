@@ -1,0 +1,50 @@
+client context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+check argument SimpleName MethodInvocation InfixExpression SimpleName table id
+check argument SimpleName MethodInvocation StringLiteral table id is null
+table id SimpleName InfixExpression MethodInvocation StringLiteral table id is null
+root tableid QualifiedName MethodInvocation SimpleName equals
+root tableid QualifiedName MethodInvocation SimpleName table id
+equals SimpleName MethodInvocation SimpleName table id
+servicer for root table SimpleName SimpleType ClassInstanceCreation SimpleName context
+metadata tableid QualifiedName MethodInvocation SimpleName equals
+metadata tableid QualifiedName MethodInvocation SimpleName table id
+equals SimpleName MethodInvocation SimpleName table id
+servicer for metadata table SimpleName SimpleType ClassInstanceCreation SimpleName context
+servicer for user tables SimpleName SimpleType ClassInstanceCreation SimpleName context
+servicer for user tables SimpleName SimpleType ClassInstanceCreation SimpleName table id
+context SimpleName ClassInstanceCreation SimpleName table id
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName metadata servicer
+public Modifier MethodDeclaration SimpleName for table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName metadata servicer
+static Modifier MethodDeclaration SimpleName for table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+metadata servicer SimpleName SimpleType MethodDeclaration SimpleName for table id
+metadata servicer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+metadata servicer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+for table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+for table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+for table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+for table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata servicer
+public Modifier TypeDeclaration MethodDeclaration SimpleName for table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata servicer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName for table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

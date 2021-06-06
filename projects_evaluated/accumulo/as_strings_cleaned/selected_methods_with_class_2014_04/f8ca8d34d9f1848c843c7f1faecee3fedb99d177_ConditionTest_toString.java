@@ -1,0 +1,24 @@
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName bs
+bs SimpleName MethodInvocation SimpleName to array
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bs
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+bs SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+to array SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bs
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName bs
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bs

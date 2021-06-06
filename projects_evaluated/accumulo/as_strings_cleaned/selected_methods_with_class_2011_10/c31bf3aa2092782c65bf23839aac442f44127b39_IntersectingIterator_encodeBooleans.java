@@ -1,0 +1,51 @@
+boolean PrimitiveType ArrayType SingleVariableDeclaration SimpleName flags
+byte PrimitiveType ArrayType ArrayCreation QualifiedName flagslength
+bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+bytes SimpleName VariableDeclarationFragment ArrayCreation QualifiedName flagslength
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName flagslength
+flags SimpleName ArrayAccess SimpleName i
+bytes SimpleName ArrayAccess SimpleName i
+bytes SimpleName ArrayAccess Assignment NumberLiteral empty
+i SimpleName ArrayAccess Assignment NumberLiteral empty
+bytes SimpleName ArrayAccess SimpleName i
+bytes SimpleName ArrayAccess Assignment NumberLiteral empty
+i SimpleName ArrayAccess Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName flagslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+flagslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation SimpleName bytes
+encode base SimpleName MethodInvocation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bytes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName encode booleans
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName flags
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName encode booleans
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName flags
+string SimpleName SimpleType MethodDeclaration SimpleName encode booleans
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flags
+encode booleans SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+encode booleans SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flags
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode booleans
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode booleans
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flags

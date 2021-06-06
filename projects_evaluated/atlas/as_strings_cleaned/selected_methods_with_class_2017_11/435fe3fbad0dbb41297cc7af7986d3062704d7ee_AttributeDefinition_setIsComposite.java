@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is composite
+is composite SimpleName FieldAccess Assignment SimpleName is composite
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set is composite
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is composite
+void PrimitiveType MethodDeclaration SimpleName set is composite
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is composite
+set is composite SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set is composite SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is composite
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set is composite
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is composite
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set is composite
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is composite

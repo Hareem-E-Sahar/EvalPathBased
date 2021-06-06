@@ -1,0 +1,52 @@
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName limit
+int PrimitiveType SingleVariableDeclaration SimpleName limit
+limit SimpleName InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation InfixExpression SimpleName limit
+preconditions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation StringLiteral nonnegative limit expected s
+preconditions SimpleName MethodInvocation SimpleName limit
+check argument SimpleName MethodInvocation InfixExpression SimpleName limit
+check argument SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check argument SimpleName MethodInvocation StringLiteral nonnegative limit expected s
+check argument SimpleName MethodInvocation SimpleName limit
+limit SimpleName InfixExpression MethodInvocation StringLiteral nonnegative limit expected s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral nonnegative limit expected s
+limit SimpleName InfixExpression MethodInvocation SimpleName limit
+empty NumberLiteral InfixExpression MethodInvocation SimpleName limit
+nonnegative limit expected s StringLiteral MethodInvocation SimpleName limit
+limit SimpleName FieldAccess Assignment SimpleName limit
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName graph centric query builder
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName limit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier MethodDeclaration SimpleType SimpleName graph centric query builder
+public Modifier MethodDeclaration SimpleName limit
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+graph centric query builder SimpleName SimpleType MethodDeclaration SimpleName limit
+graph centric query builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+graph centric query builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+graph centric query builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName limit
+limit SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+limit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graph centric query builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graph centric query builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit

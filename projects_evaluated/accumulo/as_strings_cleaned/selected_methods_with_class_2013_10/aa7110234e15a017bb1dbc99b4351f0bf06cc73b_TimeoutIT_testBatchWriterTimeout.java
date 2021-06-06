@@ -1,0 +1,104 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+slow constraint SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+conn SimpleName MethodInvocation MethodInvocation SimpleName add constraint
+table operations SimpleName MethodInvocation MethodInvocation SimpleName add constraint
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add constraint SimpleName MethodInvocation SimpleName table name
+add constraint SimpleName MethodInvocation MethodInvocation SimpleName get name
+table name SimpleName MethodInvocation MethodInvocation SimpleName get name
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+batch writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set timeout
+batch writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+batch writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+set timeout SimpleName MethodInvocation NumberLiteral empty
+set timeout SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+conn SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+create batch writer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+table name SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+table name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set timeout
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation StringLiteral cf
+mut SimpleName MethodInvocation StringLiteral cq
+mut SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName close
+fail SimpleName MethodInvocation StringLiteral batch writer did not timeout
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName mre
+mre SimpleName MethodInvocation SimpleName get cause
+mre SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName timed out exception
+get cause SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName timed out exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test batch writer timeout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test batch writer timeout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test batch writer timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test batch writer timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+test batch writer timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test batch writer timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+test batch writer timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test batch writer timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test batch writer timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

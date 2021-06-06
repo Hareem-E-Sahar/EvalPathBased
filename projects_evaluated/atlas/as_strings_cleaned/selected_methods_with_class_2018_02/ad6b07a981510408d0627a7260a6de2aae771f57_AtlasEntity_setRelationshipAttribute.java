@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+r SimpleName VariableDeclarationFragment FieldAccess SimpleName relationship attributes
+r SimpleName MethodInvocation SimpleName put
+r SimpleName MethodInvocation SimpleName name
+r SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName value
+name SimpleName MethodInvocation SimpleName value
+r SimpleName MethodInvocation SimpleName put
+r SimpleName MethodInvocation SimpleName name
+r SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName value
+name SimpleName MethodInvocation SimpleName value
+relationship attributes SimpleName FieldAccess Assignment SimpleName r
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set relationship attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set relationship attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set relationship attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set relationship attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

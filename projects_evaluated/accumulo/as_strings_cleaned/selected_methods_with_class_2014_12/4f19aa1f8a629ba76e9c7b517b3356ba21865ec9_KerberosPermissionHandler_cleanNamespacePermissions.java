@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+zk permission handler SimpleName MethodInvocation SimpleName clean namespace permissions
+zk permission handler SimpleName MethodInvocation SimpleName namespace
+clean namespace permissions SimpleName MethodInvocation SimpleName namespace
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clean namespace permissions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName namespace
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clean namespace permissions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName namespace not found exception
+void PrimitiveType MethodDeclaration SimpleName clean namespace permissions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName namespace not found exception
+clean namespace permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clean namespace permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace
+clean namespace permissions SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+clean namespace permissions SimpleName MethodDeclaration SimpleType SimpleName namespace not found exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean namespace permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean namespace permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception

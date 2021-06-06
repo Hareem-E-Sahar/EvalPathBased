@@ -1,0 +1,81 @@
+graph persistence strategies SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName fill var
+graph expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all vertices expr
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph expr
+s SimpleName MethodInvocation SimpleName super type attribute name
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+literal expression SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName super type attribute name
+super type attribute name expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal expression
+super type attribute name expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName s
+super type attribute name expr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName super type attribute name
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type attribute name expr
+literal expression SimpleName SimpleType ClassInstanceCreation SimpleName type name
+type name expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal expression
+type name expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type name
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName graph expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName has method
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName super type attribute name expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName type name expr
+graph expr SimpleName ClassInstanceCreation SimpleName has method
+graph expr SimpleName ClassInstanceCreation SimpleName super type attribute name expr
+graph expr SimpleName ClassInstanceCreation SimpleName type name expr
+has method SimpleName ClassInstanceCreation SimpleName super type attribute name expr
+has method SimpleName ClassInstanceCreation SimpleName type name expr
+super type attribute name expr SimpleName ClassInstanceCreation SimpleName type name expr
+has expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName function call expression
+has expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName graph expr
+has expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName has method
+has expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName super type attribute name expr
+has expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type name expr
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName has expr
+identifier expression SimpleName SimpleType ClassInstanceCreation SimpleName fill var
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName has expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName fill method
+function call expression SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName fill var
+has expr SimpleName ClassInstanceCreation SimpleName fill method
+has expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName identifier expression
+has expr SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName fill var
+fill method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName identifier expression
+fill method SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName fill var
+fill expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName function call expression
+fill expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName has expr
+fill expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fill method
+fill expr SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName fill var
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fill expr
+private Modifier MethodDeclaration SimpleType SimpleName groovy expression
+private Modifier MethodDeclaration SimpleName fill var with sub type instances
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fill var
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName fill var with sub type instances
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fill var
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph persistence strategies
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fill var with sub type instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fill var
+fill var with sub type instances SimpleName MethodDeclaration Block ReturnStatement SimpleName fill expr
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill var
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill var
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName fill var with sub type instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill var
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fill var with sub type instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill var

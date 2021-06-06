@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type categories
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type categories
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type categories
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type categories
+get type categories SimpleName MethodDeclaration Block ReturnStatement SimpleName type categories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type categories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type categories

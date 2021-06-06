@@ -1,0 +1,183 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type guid
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName initial properties
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName initial classifications
+classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName initial classifications
+instance status SimpleName SimpleType SingleVariableDeclaration SimpleName initial status
+method name SimpleName VariableDeclarationFragment StringLiteral add entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity
+url template SimpleName VariableDeclarationFragment StringLiteral { instancesentityentity type guid initial properties initial classifications initial status }
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral { instancesentityentity type guid initial properties initial classifications initial status }
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral { instancesentityentity type guid initial properties initial classifications initial status }
+rest url root SimpleName InfixExpression SimpleName url template
+call entity detail post rest call SimpleName MethodInvocation SimpleName method name
+call entity detail post rest call SimpleName MethodInvocation InfixExpression SimpleName rest url root
+call entity detail post rest call SimpleName MethodInvocation InfixExpression SimpleName url template
+call entity detail post rest call SimpleName MethodInvocation SimpleName user id
+call entity detail post rest call SimpleName MethodInvocation SimpleName entity type guid
+call entity detail post rest call SimpleName MethodInvocation SimpleName initial properties
+method name SimpleName MethodInvocation InfixExpression SimpleName rest url root
+method name SimpleName MethodInvocation InfixExpression SimpleName url template
+method name SimpleName MethodInvocation SimpleName user id
+method name SimpleName MethodInvocation SimpleName entity type guid
+method name SimpleName MethodInvocation SimpleName initial properties
+method name SimpleName MethodInvocation SimpleName initial classifications
+rest url root SimpleName InfixExpression MethodInvocation SimpleName user id
+url template SimpleName InfixExpression MethodInvocation SimpleName user id
+rest url root SimpleName InfixExpression MethodInvocation SimpleName entity type guid
+url template SimpleName InfixExpression MethodInvocation SimpleName entity type guid
+rest url root SimpleName InfixExpression MethodInvocation SimpleName initial properties
+url template SimpleName InfixExpression MethodInvocation SimpleName initial properties
+rest url root SimpleName InfixExpression MethodInvocation SimpleName initial classifications
+url template SimpleName InfixExpression MethodInvocation SimpleName initial classifications
+rest url root SimpleName InfixExpression MethodInvocation SimpleName initial status
+url template SimpleName InfixExpression MethodInvocation SimpleName initial status
+user id SimpleName MethodInvocation SimpleName entity type guid
+user id SimpleName MethodInvocation SimpleName initial properties
+user id SimpleName MethodInvocation SimpleName initial classifications
+user id SimpleName MethodInvocation SimpleName initial status
+entity type guid SimpleName MethodInvocation SimpleName initial properties
+entity type guid SimpleName MethodInvocation SimpleName initial classifications
+entity type guid SimpleName MethodInvocation SimpleName initial status
+initial properties SimpleName MethodInvocation SimpleName initial classifications
+initial properties SimpleName MethodInvocation SimpleName initial status
+initial classifications SimpleName MethodInvocation SimpleName initial status
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call entity detail post rest call
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName rest url root
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName url template
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type guid
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial properties
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial classifications
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName initial status
+entity detail response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rest result
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName method name
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw type error exception SimpleName MethodInvocation SimpleName method name
+detect and throw type error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw property error exception SimpleName MethodInvocation SimpleName method name
+detect and throw property error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw classification error exception SimpleName MethodInvocation SimpleName method name
+detect and throw classification error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw status not supported exception SimpleName MethodInvocation SimpleName method name
+detect and throw status not supported exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName method name
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw repository error exception SimpleName MethodInvocation SimpleName method name
+detect and throw repository error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation SimpleName get entity
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName add entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity detail SimpleName SimpleType MethodDeclaration SimpleName add entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance status
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName initial status
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity type guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+initial status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName classification error exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName status not supported exception
+classification error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+status not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName initial status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

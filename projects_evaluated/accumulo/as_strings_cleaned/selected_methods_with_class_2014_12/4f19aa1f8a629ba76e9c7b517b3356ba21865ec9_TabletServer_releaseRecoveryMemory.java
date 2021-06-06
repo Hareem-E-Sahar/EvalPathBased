@@ -1,0 +1,21 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+extent SimpleName MethodInvocation SimpleName is meta
+recovery lock SimpleName MethodInvocation SimpleName unlock
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName release recovery memory
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SimpleName release recovery memory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+release recovery memory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+release recovery memory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName release recovery memory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName release recovery memory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent

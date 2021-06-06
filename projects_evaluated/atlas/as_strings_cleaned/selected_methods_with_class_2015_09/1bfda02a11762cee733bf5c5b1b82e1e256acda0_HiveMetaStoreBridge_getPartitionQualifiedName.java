@@ -1,0 +1,86 @@
+partition SimpleName SimpleType SingleVariableDeclaration SimpleName partition
+partition SimpleName MethodInvocation SimpleName get table
+partition SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+partition SimpleName MethodInvocation SimpleName get table
+partition SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+partition SimpleName MethodInvocation SimpleName get values
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation MethodInvocation SimpleName partition
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get values
+string utils SimpleName MethodInvocation StringLiteral /
+join SimpleName MethodInvocation MethodInvocation SimpleName partition
+join SimpleName MethodInvocation MethodInvocation SimpleName get values
+join SimpleName MethodInvocation StringLiteral /
+partition SimpleName MethodInvocation MethodInvocation StringLiteral /
+get values SimpleName MethodInvocation MethodInvocation StringLiteral /
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ssss
+string SimpleName MethodInvocation SimpleName cluster name
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+string SimpleName MethodInvocation MethodInvocation SimpleName get db name
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+string SimpleName MethodInvocation MethodInvocation SimpleName get table name
+format SimpleName MethodInvocation StringLiteral ssss
+format SimpleName MethodInvocation SimpleName cluster name
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+format SimpleName MethodInvocation MethodInvocation SimpleName get db name
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+format SimpleName MethodInvocation MethodInvocation SimpleName get table name
+format SimpleName MethodInvocation MethodInvocation SimpleName string utils
+format SimpleName MethodInvocation MethodInvocation SimpleName join
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get values
+format SimpleName MethodInvocation MethodInvocation StringLiteral /
+ssss StringLiteral MethodInvocation SimpleName cluster name
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+ssss StringLiteral MethodInvocation MethodInvocation SimpleName get db name
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+ssss StringLiteral MethodInvocation MethodInvocation SimpleName get table name
+ssss StringLiteral MethodInvocation MethodInvocation SimpleName string utils
+ssss StringLiteral MethodInvocation MethodInvocation SimpleName join
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+ssss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get values
+ssss StringLiteral MethodInvocation MethodInvocation StringLiteral /
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get db name
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get table name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName string utils
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName join
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get values
+cluster name SimpleName MethodInvocation MethodInvocation StringLiteral /
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string utils
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral /
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string utils
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral /
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get partition qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName partition
+string SimpleName SimpleType MethodDeclaration SimpleName get partition qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName partition
+get partition qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partition
+get partition qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName partition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partition qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partition qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition

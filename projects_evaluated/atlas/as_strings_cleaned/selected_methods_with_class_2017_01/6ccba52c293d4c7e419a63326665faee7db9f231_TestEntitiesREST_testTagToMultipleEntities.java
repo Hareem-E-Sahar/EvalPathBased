@@ -1,0 +1,83 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create or update entities
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create or update entities
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral tag
+put SimpleName MethodInvocation StringLiteral tag name
+tag StringLiteral MethodInvocation StringLiteral tag name
+atlas classification SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v classification
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utils v classification
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+classification associate request SimpleName SimpleType ClassInstanceCreation SimpleName created guids
+classification associate request SimpleName SimpleType ClassInstanceCreation SimpleName tag
+created guids SimpleName ClassInstanceCreation SimpleName tag
+classification associate request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName classification associate request
+classification associate request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName created guids
+classification associate request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tag
+classification associate request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification associate request
+entities rest SimpleName MethodInvocation SimpleName add classification
+entities rest SimpleName MethodInvocation SimpleName classification associate request
+add classification SimpleName MethodInvocation SimpleName classification associate request
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+entity rest SimpleName MethodInvocation SimpleName get classification
+entity rest SimpleName MethodInvocation SimpleName guid
+entity rest SimpleName MethodInvocation QualifiedName test utils v classification
+get classification SimpleName MethodInvocation SimpleName guid
+get classification SimpleName MethodInvocation QualifiedName test utils v classification
+guid SimpleName MethodInvocation QualifiedName test utils v classification
+result tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+result tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification
+result tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+result tag SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v classification
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName result tag
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity rest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v classification
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result tag
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName result tag
+assert not null SimpleName MethodInvocation SimpleName result tag
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName result tag
+assert SimpleName MethodInvocation SimpleName tag
+assert equals SimpleName MethodInvocation SimpleName result tag
+assert equals SimpleName MethodInvocation SimpleName tag
+result tag SimpleName MethodInvocation SimpleName tag
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName created guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName created guids
+created guids SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create or update entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create or update entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test tag to multiple entities
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test tag to multiple entities
+test create or update entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test tag to multiple entities
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test tag to multiple entities
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName created guids
+void PrimitiveType MethodDeclaration SimpleName test tag to multiple entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName created guids
+test tag to multiple entities SimpleName MethodDeclaration SimpleType SimpleName exception
+test tag to multiple entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName created guids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test tag to multiple entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test tag to multiple entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

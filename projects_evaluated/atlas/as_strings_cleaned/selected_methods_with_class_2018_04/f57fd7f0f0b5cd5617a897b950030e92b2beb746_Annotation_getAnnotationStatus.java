@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName annotation status
+public Modifier MethodDeclaration SimpleName get annotation status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName annotation status
+annotation status SimpleName SimpleType MethodDeclaration SimpleName get annotation status
+get annotation status SimpleName MethodDeclaration Block ReturnStatement SimpleName annotation status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName annotation status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get annotation status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName annotation status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get annotation status

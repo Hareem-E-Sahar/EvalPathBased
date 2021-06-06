@@ -1,0 +1,62 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName invoking class
+string SimpleName SimpleType SingleVariableDeclaration SimpleName invoking class
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName invoked method name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName invoked method name
+inner failure SimpleName MethodInvocation SimpleName get
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral innernested call threw exception rollback on txn entrypoint {}.{}
+log SimpleName MethodInvocation SimpleName invoking class
+log SimpleName MethodInvocation SimpleName invoked method name
+debug SimpleName MethodInvocation StringLiteral innernested call threw exception rollback on txn entrypoint {}.{}
+debug SimpleName MethodInvocation SimpleName invoking class
+debug SimpleName MethodInvocation SimpleName invoked method name
+innernested call threw exception rollback on txn entrypoint {}.{} StringLiteral MethodInvocation SimpleName invoking class
+innernested call threw exception rollback on txn entrypoint {}.{} StringLiteral MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+graph SimpleName MethodInvocation SimpleName rollback
+do commit SimpleName MethodInvocation SimpleName invoking class
+do commit SimpleName MethodInvocation SimpleName invoked method name
+invoking class SimpleName MethodInvocation SimpleName invoked method name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do commit or rollback
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+void PrimitiveType MethodDeclaration SimpleName do commit or rollback
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do commit or rollback SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+invoking class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+invoking class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do commit or rollback
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do commit or rollback
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoking class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invoked method name

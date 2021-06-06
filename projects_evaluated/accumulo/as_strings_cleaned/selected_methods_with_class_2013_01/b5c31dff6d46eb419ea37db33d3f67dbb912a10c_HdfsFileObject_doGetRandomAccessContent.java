@@ -1,0 +1,46 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName random access mode
+final Modifier SingleVariableDeclaration SimpleName mode
+random access mode SimpleName SimpleType SingleVariableDeclaration SimpleName mode
+mode SimpleName MethodInvocation SimpleName equals
+mode SimpleName MethodInvocation QualifiedName random access modereadwrite
+equals SimpleName MethodInvocation QualifiedName random access modereadwrite
+hdfs random access content SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName path
+hdfs random access content SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName hdfs
+path SimpleName FieldAccess ClassInstanceCreation FieldAccess SimpleName hdfs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName random access content
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do get random access content
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName mode
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName random access content
+protected Modifier MethodDeclaration SimpleName do get random access content
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random access mode
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName mode
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+random access content SimpleName SimpleType MethodDeclaration SimpleName do get random access content
+random access content SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+random access content SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mode
+random access content SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do get random access content SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+do get random access content SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random access mode
+do get random access content SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mode
+do get random access content SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName random access content
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get random access content
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName random access content
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get random access content
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

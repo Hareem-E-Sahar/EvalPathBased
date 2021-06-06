@@ -1,0 +1,14 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName get mutations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mutations
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get mutations
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get mutations
+get mutations SimpleName MethodDeclaration Block ReturnStatement SimpleName mutations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get mutations

@@ -1,0 +1,109 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+graph helper SimpleName MethodInvocation SimpleName get trait names
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get trait names SimpleName MethodInvocation SimpleName instance vertex
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get type name SimpleName MethodInvocation SimpleName instance vertex
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName graph helper
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name to be deleted
+graph helper SimpleName MethodInvocation SimpleName get trait label
+graph helper SimpleName MethodInvocation SimpleName entity type name
+graph helper SimpleName MethodInvocation SimpleName trait name to be deleted
+get trait label SimpleName MethodInvocation SimpleName entity type name
+get trait label SimpleName MethodInvocation SimpleName trait name to be deleted
+entity type name SimpleName MethodInvocation SimpleName trait name to be deleted
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait label
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name to be deleted
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship label
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+instance vertex SimpleName MethodInvocation SimpleName get edges
+instance vertex SimpleName MethodInvocation QualifiedName directionout
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+get edges SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation SimpleName relationship label
+directionout QualifiedName MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+relationship label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance vertex
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName directionout
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship label
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+trait edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+trait edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+final Modifier VariableDeclarationStatement SimpleType SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName results
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait edge
+trait edge SimpleName MethodInvocation SimpleName get vertex
+trait edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait edge
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+final Modifier VariableDeclarationStatement SimpleType SimpleName vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName trait edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait vertex
+graph helper SimpleName MethodInvocation SimpleName remove edge
+graph helper SimpleName MethodInvocation SimpleName trait edge
+remove edge SimpleName MethodInvocation SimpleName trait edge
+delete trait vertex SimpleName MethodInvocation SimpleName trait name to be deleted
+delete trait vertex SimpleName MethodInvocation SimpleName trait vertex
+trait name to be deleted SimpleName MethodInvocation SimpleName trait vertex
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+trait name to be deleted SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName trait names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete all traits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName trait names
+void PrimitiveType MethodDeclaration SimpleName delete all traits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName trait names
+delete all traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+delete all traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+delete all traits SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+delete all traits SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+delete all traits SimpleName MethodDeclaration Block EnhancedForStatement SimpleName trait names
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete all traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete all traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

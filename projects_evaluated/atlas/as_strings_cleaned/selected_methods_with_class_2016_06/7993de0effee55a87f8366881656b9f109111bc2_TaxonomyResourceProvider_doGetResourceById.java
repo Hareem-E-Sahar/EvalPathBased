@@ -1,0 +1,70 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+atlas query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas query
+query factory SimpleName MethodInvocation SimpleName create taxonomy query
+query factory SimpleName MethodInvocation SimpleName request
+create taxonomy query SimpleName MethodInvocation SimpleName request
+atlas query SimpleName Assignment MethodInvocation SimpleName query factory
+atlas query SimpleName Assignment MethodInvocation SimpleName create taxonomy query
+atlas query SimpleName Assignment MethodInvocation SimpleName request
+invalid query exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+unable to compile internal taxonomy query StringLiteral InfixExpression SimpleName e
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unable to compile internal taxonomy query
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName e
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unable to compile internal taxonomy query StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+e SimpleName InfixExpression ClassInstanceCreation SimpleName e
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas query SimpleName MethodInvocation SimpleName execute
+result set SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas query
+result set SimpleName VariableDeclarationFragment MethodInvocation SimpleName execute
+result set SimpleName MethodInvocation SimpleName is empty
+resource definition SimpleName MethodInvocation SimpleName get id property name
+request SimpleName MethodInvocation SimpleName get property
+request SimpleName MethodInvocation MethodInvocation SimpleName resource definition
+request SimpleName MethodInvocation MethodInvocation SimpleName get id property name
+get property SimpleName MethodInvocation MethodInvocation SimpleName resource definition
+get property SimpleName MethodInvocation MethodInvocation SimpleName get id property name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral taxonomy s not found
+string SimpleName MethodInvocation MethodInvocation SimpleName request
+string SimpleName MethodInvocation MethodInvocation SimpleName get property
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource definition
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id property name
+format SimpleName MethodInvocation StringLiteral taxonomy s not found
+format SimpleName MethodInvocation MethodInvocation SimpleName request
+format SimpleName MethodInvocation MethodInvocation SimpleName get property
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource definition
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id property name
+taxonomy s not found StringLiteral MethodInvocation MethodInvocation SimpleName request
+taxonomy s not found StringLiteral MethodInvocation MethodInvocation SimpleName get property
+taxonomy s not found StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName resource definition
+taxonomy s not found StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id property name
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+resource not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral taxonomy s not found
+result SimpleName SimpleType ClassInstanceCreation SimpleName result set
+private Modifier MethodDeclaration SimpleType SimpleName result
+private Modifier MethodDeclaration SimpleName do get resource by id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+private Modifier MethodDeclaration SimpleType SimpleName resource not found exception
+result SimpleName SimpleType MethodDeclaration SimpleName do get resource by id
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+result SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource not found exception
+do get resource by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+do get resource by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+do get resource by id SimpleName MethodDeclaration SimpleType SimpleName resource not found exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get resource by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get resource by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception

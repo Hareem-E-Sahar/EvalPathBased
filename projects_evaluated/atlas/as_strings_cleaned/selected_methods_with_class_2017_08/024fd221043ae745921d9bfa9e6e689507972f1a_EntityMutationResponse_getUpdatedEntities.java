@@ -1,0 +1,18 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationupdate
+get SimpleName MethodInvocation QualifiedName entity operationupdate
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName get updated entities
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SimpleName get updated entities
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated entities
+atlas entity header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get updated entities
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get updated entities

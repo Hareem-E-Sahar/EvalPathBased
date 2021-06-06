@@ -1,0 +1,29 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+vertices SimpleName MethodInvocation SimpleName has next
+vertices SimpleName MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation SimpleName vertex
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+protected Modifier MethodDeclaration SimpleName get vertices
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertices
+get vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices

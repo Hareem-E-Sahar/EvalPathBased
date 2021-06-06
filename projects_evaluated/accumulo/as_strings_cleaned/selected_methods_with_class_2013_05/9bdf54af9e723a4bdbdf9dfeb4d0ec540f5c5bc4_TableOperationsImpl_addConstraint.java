@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName constraint class name
+constraint SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+test class load SimpleName MethodInvocation SimpleName table name
+test class load SimpleName MethodInvocation SimpleName constraint class name
+test class load SimpleName MethodInvocation MethodInvocation SimpleName get name
+table name SimpleName MethodInvocation SimpleName constraint class name
+table name SimpleName MethodInvocation MethodInvocation SimpleName get name
+constraint class name SimpleName MethodInvocation MethodInvocation SimpleName get name
+add constraint SimpleName SuperMethodInvocation SimpleName table name
+add constraint SimpleName SuperMethodInvocation SimpleName constraint class name
+table name SimpleName SuperMethodInvocation SimpleName constraint class name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add constraint
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName add constraint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+int PrimitiveType MethodDeclaration SimpleName add constraint
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+add constraint SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+add constraint SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+add constraint SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+constraint class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+constraint class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+constraint class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName add constraint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add constraint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint class name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

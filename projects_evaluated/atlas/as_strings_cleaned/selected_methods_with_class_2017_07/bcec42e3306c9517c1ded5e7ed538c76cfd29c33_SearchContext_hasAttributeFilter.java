@@ -1,0 +1,35 @@
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+filter criteria SimpleName MethodInvocation SimpleName get criterion
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get criterion
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get criterion
+filter criteria SimpleName MethodInvocation SimpleName get attribute name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+collection utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+collection utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName has attribute filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+boolean PrimitiveType MethodDeclaration SimpleName has attribute filter
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+has attribute filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+has attribute filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has attribute filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has attribute filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria

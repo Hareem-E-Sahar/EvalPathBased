@@ -1,0 +1,35 @@
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName service
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+service SimpleName ClassInstanceCreation SimpleName configuration
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+atlas client SimpleName MethodInvocation SimpleName determine active service url
+atlas client SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+atlas client SimpleName MethodInvocation SimpleName client
+determine active service url SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+determine active service url SimpleName MethodInvocation SimpleName client
+httplocalhost StringLiteral ArrayInitializer ArrayCreation MethodInvocation SimpleName client
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName determine active service url
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service url
+assert equals SimpleName MethodInvocation SimpleName service url
+assert equals SimpleName MethodInvocation StringLiteral httplocalhost
+service url SimpleName MethodInvocation StringLiteral httplocalhost
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName should return base url as passed in url
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should return base url as passed in url
+void PrimitiveType MethodDeclaration SimpleName should return base url as passed in url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should return base url as passed in url
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should return base url as passed in url

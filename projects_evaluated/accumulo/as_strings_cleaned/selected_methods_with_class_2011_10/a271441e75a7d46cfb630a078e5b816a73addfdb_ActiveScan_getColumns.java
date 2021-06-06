@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName column
+public Modifier MethodDeclaration SimpleName get columns
+public Modifier MethodDeclaration Block ReturnStatement SimpleName columns
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get columns
+column SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get columns
+get columns SimpleName MethodDeclaration Block ReturnStatement SimpleName columns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get columns

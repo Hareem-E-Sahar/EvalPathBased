@@ -1,0 +1,151 @@
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName struct instance
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+struct instance SimpleName MethodInvocation SimpleName get type name
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+graph helper SimpleName MethodInvocation SimpleName create vertex without identity
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName struct instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName collections
+graph helper SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create vertex without identity SimpleName MethodInvocation MethodInvocation SimpleName struct instance
+create vertex without identity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+create vertex without identity SimpleName MethodInvocation MethodInvocation SimpleName collections
+create vertex without identity SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create vertex without identity SimpleName MethodInvocation MethodInvocation SimpleName empty set
+struct instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+struct instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty set
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty set
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex without identity
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName struct instance
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct instance vertex
+string SimpleName MethodInvocation SimpleName struct instance vertex
+struct instance SimpleName MethodInvocation SimpleName to short string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral created vertex {} for struct {} value {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName struct instance vertex
+log SimpleName MethodInvocation QualifiedName attribute infoname
+log SimpleName MethodInvocation MethodInvocation SimpleName struct instance
+log SimpleName MethodInvocation MethodInvocation SimpleName to short string
+debug SimpleName MethodInvocation StringLiteral created vertex {} for struct {} value {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName struct instance vertex
+debug SimpleName MethodInvocation QualifiedName attribute infoname
+debug SimpleName MethodInvocation MethodInvocation SimpleName struct instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName to short string
+created vertex {} for struct {} value {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+created vertex {} for struct {} value {} StringLiteral MethodInvocation MethodInvocation SimpleName struct instance vertex
+created vertex {} for struct {} value {} StringLiteral MethodInvocation QualifiedName attribute infoname
+created vertex {} for struct {} value {} StringLiteral MethodInvocation MethodInvocation SimpleName struct instance
+created vertex {} for struct {} value {} StringLiteral MethodInvocation MethodInvocation SimpleName to short string
+string SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+struct instance vertex SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct instance
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to short string
+struct instance vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct instance
+struct instance vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to short string
+attribute infoname QualifiedName MethodInvocation MethodInvocation SimpleName struct instance
+attribute infoname QualifiedName MethodInvocation MethodInvocation SimpleName to short string
+struct instance SimpleName MethodInvocation SimpleName field mapping
+struct instance SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName struct instance
+map instance to vertex SimpleName MethodInvocation SimpleName struct instance vertex
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+map instance to vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation BooleanLiteral false
+map instance to vertex SimpleName MethodInvocation QualifiedName operationcreate
+struct instance SimpleName MethodInvocation SimpleName struct instance vertex
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance SimpleName MethodInvocation BooleanLiteral false
+struct instance SimpleName MethodInvocation QualifiedName operationcreate
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance vertex SimpleName MethodInvocation BooleanLiteral false
+struct instance vertex SimpleName MethodInvocation QualifiedName operationcreate
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+fields SimpleName FieldAccess MethodInvocation BooleanLiteral false
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName operationcreate
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation QualifiedName operationcreate
+fields SimpleName FieldAccess MethodInvocation QualifiedName operationcreate
+false BooleanLiteral MethodInvocation QualifiedName operationcreate
+graph helper SimpleName MethodInvocation SimpleName add edge
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName struct instance vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+add edge SimpleName MethodInvocation SimpleName instance vertex
+add edge SimpleName MethodInvocation SimpleName struct instance vertex
+add edge SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName struct instance vertex
+instance vertex SimpleName MethodInvocation SimpleName edge label
+struct instance vertex SimpleName MethodInvocation SimpleName edge label
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct instance vertex
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new edge
+private Modifier MethodDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SimpleName add struct vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge SimpleName SimpleType MethodDeclaration SimpleName add struct vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add struct vertex SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName add struct vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add struct vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

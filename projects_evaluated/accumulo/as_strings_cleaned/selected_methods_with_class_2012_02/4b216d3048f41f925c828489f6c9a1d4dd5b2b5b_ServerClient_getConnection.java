@@ -1,0 +1,189 @@
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName instance
+not null SimpleName MethodInvocation SimpleName instance
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName thrift transport key
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName thrift transport key
+get zoo cache SimpleName MethodInvocation SimpleName instance
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zoo cache
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+zoo cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zc
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zc SimpleName MethodInvocation SimpleName get children
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName tserver
+get root SimpleName MethodInvocation InfixExpression SimpleName tserver
+instance SimpleName MethodInvocation InfixExpression SimpleName tserver
+constantsztservers QualifiedName InfixExpression StringLiteral /
+constantsztservers QualifiedName InfixExpression SimpleName tserver
+/ StringLiteral InfixExpression SimpleName tserver
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztservers
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName tserver
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+zoo util SimpleName MethodInvocation SimpleName get lock data
+zoo util SimpleName MethodInvocation SimpleName zc
+zoo util SimpleName MethodInvocation SimpleName path
+get lock data SimpleName MethodInvocation SimpleName zc
+get lock data SimpleName MethodInvocation SimpleName path
+zc SimpleName MethodInvocation SimpleName path
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo util
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get lock data
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName equals
+data SimpleName ClassInstanceCreation MethodInvocation SimpleName equals
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral master
+data SimpleName ClassInstanceCreation MethodInvocation StringLiteral master
+equals SimpleName MethodInvocation StringLiteral master
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+server services SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName data
+server services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get address string
+data SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get address string
+server services SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName servicetserv client
+data SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation QualifiedName servicetserv client
+get address string SimpleName MethodInvocation QualifiedName servicetserv client
+instance SimpleName MethodInvocation SimpleName get configuration
+instance SimpleName MethodInvocation MethodInvocation SimpleName get port
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+instance SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+get port SimpleName MethodInvocation QualifiedName propertytserv clientport
+instance SimpleName MethodInvocation SimpleName get configuration
+instance SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+instance SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get address string
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName servicetserv client
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get port
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertytserv clientport
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get time in millis
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+get address string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+get address string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertytserv clientport
+servicetserv client QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+servicetserv client QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertytserv clientport
+get address string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+get address string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+servicetserv client QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+servicetserv client QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+get port SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+get port SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+propertytserv clientport QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+propertytserv clientport QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+servers SimpleName MethodInvocation SimpleName add
+servers SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thrift transport key
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get address string
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName servicetserv client
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertytserv clientport
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+servers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thrift transport key
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get address string
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName servicetserv client
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get port
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertytserv clientport
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get time in millis
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zc
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+opened SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opened
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+thrift transport pool SimpleName MethodInvocation SimpleName get instance
+thrift transport pool SimpleName MethodInvocation MethodInvocation SimpleName get any transport
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get any transport
+thrift transport pool SimpleName MethodInvocation MethodInvocation SimpleName servers
+get instance SimpleName MethodInvocation MethodInvocation SimpleName servers
+get any transport SimpleName MethodInvocation SimpleName servers
+socket SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName thrift transport pool
+socket SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+socket SimpleName VariableDeclarationFragment MethodInvocation SimpleName get any transport
+socket SimpleName VariableDeclarationFragment MethodInvocation SimpleName servers
+t transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName socket
+thrift util SimpleName MethodInvocation SimpleName create client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName socket
+create client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName client serviceclientfactory
+create client SimpleName MethodInvocation SimpleName socket
+client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName socket
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName create client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName socket
+client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+opened SimpleName Assignment BooleanLiteral true
+warned about t servers being down SimpleName Assignment BooleanLiteral false
+servers SimpleName MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral there are no tablet servers check that zookeeper and accumulo are running
+warn SimpleName MethodInvocation StringLiteral there are no tablet servers check that zookeeper and accumulo are running
+failed to find an available server in the list of servers StringLiteral InfixExpression SimpleName servers
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to find an available server in the list of servers
+log SimpleName MethodInvocation InfixExpression SimpleName servers
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to find an available server in the list of servers
+warn SimpleName MethodInvocation InfixExpression SimpleName servers
+warned about t servers being down SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName client serviceiface
+public Modifier MethodDeclaration SimpleName get connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SimpleType SimpleName t transport exception
+static Modifier MethodDeclaration SimpleType QualifiedName client serviceiface
+static Modifier MethodDeclaration SimpleName get connection
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName t transport exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+client serviceiface QualifiedName SimpleType MethodDeclaration SimpleName get connection
+client serviceiface QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+client serviceiface QualifiedName SimpleType MethodDeclaration SimpleType SimpleName t transport exception
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get connection SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+get connection SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName client serviceiface
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName client serviceiface
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

@@ -1,0 +1,60 @@
+ex main SimpleName VariableDeclarationFragment StringLiteral gvhas type name tableout tablecolumnsdeduplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex main
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name tableout tablecolumnsdeduplimit to list
+ex sel SimpleName VariableDeclarationFragment StringLiteral def fr r }
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex sel
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral def fr r }
+ex sel SimpleName VariableDeclarationFragment StringLiteral def fr tdbname reachtadditvaluedbname tunique }
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex sel
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral def fr tdbname reachtadditvaluedbname tunique }
+get expected SimpleName MethodInvocation SimpleName ex sel
+get expected SimpleName MethodInvocation SimpleName ex main
+ex sel SimpleName MethodInvocation SimpleName ex main
+verify SimpleName MethodInvocation StringLiteral table select columns limit
+verify SimpleName MethodInvocation MethodInvocation SimpleName get expected
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex sel
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex main
+table select columns limit StringLiteral MethodInvocation MethodInvocation SimpleName get expected
+table select columns limit StringLiteral MethodInvocation MethodInvocation SimpleName ex sel
+table select columns limit StringLiteral MethodInvocation MethodInvocation SimpleName ex main
+ex main SimpleName VariableDeclarationFragment StringLiteral gvhas type name tableout tabledbdeduplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex main
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name tableout tabledbdeduplimit to list
+get expected SimpleName MethodInvocation SimpleName ex sel
+get expected SimpleName MethodInvocation SimpleName ex main
+ex sel SimpleName MethodInvocation SimpleName ex main
+verify SimpleName MethodInvocation StringLiteral table select db
+verify SimpleName MethodInvocation MethodInvocation SimpleName get expected
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex sel
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex main
+table select db StringLiteral MethodInvocation MethodInvocation SimpleName get expected
+table select db StringLiteral MethodInvocation MethodInvocation SimpleName ex sel
+table select db StringLiteral MethodInvocation MethodInvocation SimpleName ex main
+ex main SimpleName VariableDeclarationFragment StringLiteral gvhas type name tableout tabledbdeduplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex main
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name tableout tabledbdeduplimit to list
+get expected SimpleName MethodInvocation SimpleName ex sel
+get expected SimpleName MethodInvocation SimpleName ex main
+ex sel SimpleName MethodInvocation SimpleName ex main
+verify SimpleName MethodInvocation StringLiteral table select dbname
+verify SimpleName MethodInvocation MethodInvocation SimpleName get expected
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex sel
+verify SimpleName MethodInvocation MethodInvocation SimpleName ex main
+table select dbname StringLiteral MethodInvocation MethodInvocation SimpleName get expected
+table select dbname StringLiteral MethodInvocation MethodInvocation SimpleName ex sel
+table select dbname StringLiteral MethodInvocation MethodInvocation SimpleName ex main
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName table select columns
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName table select columns
+void PrimitiveType MethodDeclaration SimpleName table select columns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName table select columns
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName table select columns

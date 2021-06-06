@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+void PrimitiveType MethodDeclaration SimpleName set null
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+void PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+set null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+set null SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set null
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set null
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

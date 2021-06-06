@@ -1,0 +1,105 @@
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+range SimpleName Assignment FieldAccess SimpleName range
+range SimpleName SimpleType ClassInstanceCreation SimpleName last tablet
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation SimpleName last tablet
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+last tablet SimpleName ClassInstanceCreation BooleanLiteral true
+last tablet SimpleName ClassInstanceCreation SimpleName last tablet
+last tablet SimpleName ClassInstanceCreation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation SimpleName last tablet
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+last tablet SimpleName ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation SimpleName last tablet
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation SimpleName last tablet
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName range
+set range SimpleName MethodInvocation SimpleName range
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+count SimpleName InfixExpression NumberLiteral empty
+tablet StringLiteral InfixExpression SimpleName last tablet
+tablet StringLiteral InfixExpression StringLiteral was deleted while iterating
+last tablet SimpleName InfixExpression StringLiteral was deleted while iterating
+tablet deleted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+tablet deleted exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName last tablet
+tablet deleted exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral was deleted while iterating
+key SimpleName SimpleType ClassInstanceCreation SimpleName last tablet
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+last tablet SimpleName ClassInstanceCreation MethodInvocation SimpleName following key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+last tablet SimpleName ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+following key SimpleName MethodInvocation QualifiedName partial keyrow
+range SimpleName FieldAccess MethodInvocation SimpleName get end key
+range SimpleName FieldAccess MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+last tablet SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral true
+following key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation BooleanLiteral true
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation FieldAccess SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation MethodInvocation FieldAccess SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName following key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+resetting StringLiteral InfixExpression QualifiedName constantsmetadata table name
+resetting StringLiteral InfixExpression StringLiteral scanner to
+resetting StringLiteral InfixExpression SimpleName range
+constantsmetadata table name QualifiedName InfixExpression StringLiteral scanner to
+constantsmetadata table name QualifiedName InfixExpression SimpleName range
+scanner to StringLiteral InfixExpression SimpleName range
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral resetting
+log SimpleName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+log SimpleName MethodInvocation InfixExpression StringLiteral scanner to
+log SimpleName MethodInvocation InfixExpression SimpleName range
+info SimpleName MethodInvocation InfixExpression StringLiteral resetting
+info SimpleName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+info SimpleName MethodInvocation InfixExpression StringLiteral scanner to
+info SimpleName MethodInvocation InfixExpression SimpleName range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName range
+set range SimpleName MethodInvocation SimpleName range
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName scanner
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName reset scanner
+void PrimitiveType MethodDeclaration SimpleName reset scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset scanner
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset scanner

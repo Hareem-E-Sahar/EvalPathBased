@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas privilege
+public Modifier MethodDeclaration SimpleName get action
+public Modifier MethodDeclaration Block ReturnStatement SimpleName action
+atlas privilege SimpleName SimpleType MethodDeclaration SimpleName get action
+get action SimpleName MethodDeclaration Block ReturnStatement SimpleName action
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas privilege
+public Modifier TypeDeclaration MethodDeclaration SimpleName get action
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas privilege
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get action

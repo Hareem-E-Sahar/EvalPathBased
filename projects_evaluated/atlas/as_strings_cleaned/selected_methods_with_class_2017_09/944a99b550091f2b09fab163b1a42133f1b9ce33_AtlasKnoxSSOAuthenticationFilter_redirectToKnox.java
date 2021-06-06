@@ -1,0 +1,132 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName http request
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName http servlet response
+filter chain SimpleName SimpleType SingleVariableDeclaration SimpleName filter chain
+http request SimpleName MethodInvocation SimpleName get header
+http request SimpleName MethodInvocation StringLiteral useragent
+get header SimpleName MethodInvocation StringLiteral useragent
+is web user agent SimpleName MethodInvocation MethodInvocation SimpleName http request
+is web user agent SimpleName MethodInvocation MethodInvocation SimpleName get header
+is web user agent SimpleName MethodInvocation MethodInvocation StringLiteral useragent
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName http request
+filter chain SimpleName MethodInvocation SimpleName http servlet response
+do filter SimpleName MethodInvocation SimpleName http request
+do filter SimpleName MethodInvocation SimpleName http servlet response
+http request SimpleName MethodInvocation SimpleName http servlet response
+http request SimpleName MethodInvocation SimpleName get header
+http request SimpleName MethodInvocation StringLiteral xrequestedwith
+get header SimpleName MethodInvocation StringLiteral xrequestedwith
+ajax request header SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+ajax request header SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header
+ajax request header SimpleName VariableDeclarationFragment MethodInvocation StringLiteral xrequestedwith
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ajax request header
+xml http request StringLiteral MethodInvocation SimpleName equals
+xml http request StringLiteral MethodInvocation SimpleName ajax request header
+equals SimpleName MethodInvocation SimpleName ajax request header
+construct login url SimpleName MethodInvocation SimpleName http request
+construct login url SimpleName MethodInvocation BooleanLiteral true
+http request SimpleName MethodInvocation BooleanLiteral true
+ssourl SimpleName VariableDeclarationFragment MethodInvocation SimpleName construct login url
+ssourl SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+ssourl SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssourl
+json SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json
+url encoder SimpleName MethodInvocation SimpleName encode
+url encoder SimpleName MethodInvocation SimpleName ssourl
+url encoder SimpleName MethodInvocation StringLiteral utf
+encode SimpleName MethodInvocation SimpleName ssourl
+encode SimpleName MethodInvocation StringLiteral utf
+ssourl SimpleName MethodInvocation StringLiteral utf
+json SimpleName MethodInvocation SimpleName put
+json SimpleName MethodInvocation StringLiteral knoxssoredirect url
+json SimpleName MethodInvocation MethodInvocation SimpleName url encoder
+json SimpleName MethodInvocation MethodInvocation SimpleName encode
+json SimpleName MethodInvocation MethodInvocation SimpleName ssourl
+json SimpleName MethodInvocation MethodInvocation StringLiteral utf
+put SimpleName MethodInvocation StringLiteral knoxssoredirect url
+put SimpleName MethodInvocation MethodInvocation SimpleName url encoder
+put SimpleName MethodInvocation MethodInvocation SimpleName encode
+put SimpleName MethodInvocation MethodInvocation SimpleName ssourl
+put SimpleName MethodInvocation MethodInvocation StringLiteral utf
+knoxssoredirect url StringLiteral MethodInvocation MethodInvocation SimpleName url encoder
+knoxssoredirect url StringLiteral MethodInvocation MethodInvocation SimpleName encode
+knoxssoredirect url StringLiteral MethodInvocation MethodInvocation SimpleName ssourl
+knoxssoredirect url StringLiteral MethodInvocation MethodInvocation StringLiteral utf
+http servlet response SimpleName MethodInvocation SimpleName set content type
+http servlet response SimpleName MethodInvocation StringLiteral applicationjson
+set content type SimpleName MethodInvocation StringLiteral applicationjson
+http servlet response SimpleName MethodInvocation SimpleName set status
+http servlet response SimpleName MethodInvocation QualifiedName http servlet responsesc unauthorized
+set status SimpleName MethodInvocation QualifiedName http servlet responsesc unauthorized
+json SimpleName MethodInvocation SimpleName to string
+http servlet response SimpleName MethodInvocation SimpleName send error
+http servlet response SimpleName MethodInvocation QualifiedName http servlet responsesc unauthorized
+http servlet response SimpleName MethodInvocation MethodInvocation SimpleName json
+http servlet response SimpleName MethodInvocation MethodInvocation SimpleName to string
+send error SimpleName MethodInvocation QualifiedName http servlet responsesc unauthorized
+send error SimpleName MethodInvocation MethodInvocation SimpleName json
+send error SimpleName MethodInvocation MethodInvocation SimpleName to string
+http servlet responsesc unauthorized QualifiedName MethodInvocation MethodInvocation SimpleName json
+http servlet responsesc unauthorized QualifiedName MethodInvocation MethodInvocation SimpleName to string
+construct login url SimpleName MethodInvocation SimpleName http request
+construct login url SimpleName MethodInvocation BooleanLiteral false
+http request SimpleName MethodInvocation BooleanLiteral false
+ssourl SimpleName VariableDeclarationFragment MethodInvocation SimpleName construct login url
+ssourl SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+ssourl SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssourl
+http servlet response SimpleName MethodInvocation SimpleName send redirect
+http servlet response SimpleName MethodInvocation SimpleName ssourl
+send redirect SimpleName MethodInvocation SimpleName ssourl
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName redirect to knox
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName http request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+void PrimitiveType MethodDeclaration SimpleName redirect to knox
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName http request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http request
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+redirect to knox SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+redirect to knox SimpleName MethodDeclaration SimpleType SimpleName io exception
+redirect to knox SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+http request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+http request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+http request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+http request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+http servlet response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+http servlet response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+http servlet response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName redirect to knox
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName redirect to knox
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

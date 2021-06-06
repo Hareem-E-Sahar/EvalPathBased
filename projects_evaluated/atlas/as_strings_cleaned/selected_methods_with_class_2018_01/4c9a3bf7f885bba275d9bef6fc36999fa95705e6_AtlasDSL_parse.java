@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query str
+atlas dsl parserquery context QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+query str SimpleName MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName query str
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName query str
+stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stream
+char streams SimpleName MethodInvocation SimpleName from stream
+char streams SimpleName MethodInvocation SimpleName stream
+from stream SimpleName MethodInvocation SimpleName stream
+atlas dsl lexer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName char streams
+atlas dsl lexer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from stream
+atlas dsl lexer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName stream
+lexer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas dsl lexer
+lexer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName char streams
+lexer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName from stream
+lexer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName stream
+atlas dsl lexer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lexer
+validator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName validator
+validator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName validator
+common token stream SimpleName SimpleType ClassInstanceCreation SimpleName lexer
+input token stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName common token stream
+input token stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName lexer
+token stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input token stream
+atlas dsl parser SimpleName SimpleType ClassInstanceCreation SimpleName input token stream
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas dsl parser
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName input token stream
+atlas dsl parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+parser SimpleName MethodInvocation SimpleName remove error listeners
+parser SimpleName MethodInvocation SimpleName add error listener
+parser SimpleName MethodInvocation SimpleName validator
+add error listener SimpleName MethodInvocation SimpleName validator
+parser SimpleName MethodInvocation SimpleName query
+ret SimpleName Assignment MethodInvocation SimpleName parser
+ret SimpleName Assignment MethodInvocation SimpleName query
+validator SimpleName MethodInvocation SimpleName is valid
+validator SimpleName MethodInvocation SimpleName get error msg
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral invalid dsl {} reason {}
+log SimpleName MethodInvocation SimpleName query str
+log SimpleName MethodInvocation MethodInvocation SimpleName validator
+log SimpleName MethodInvocation MethodInvocation SimpleName get error msg
+error SimpleName MethodInvocation StringLiteral invalid dsl {} reason {}
+error SimpleName MethodInvocation SimpleName query str
+error SimpleName MethodInvocation MethodInvocation SimpleName validator
+error SimpleName MethodInvocation MethodInvocation SimpleName get error msg
+invalid dsl {} reason {} StringLiteral MethodInvocation SimpleName query str
+invalid dsl {} reason {} StringLiteral MethodInvocation MethodInvocation SimpleName validator
+invalid dsl {} reason {} StringLiteral MethodInvocation MethodInvocation SimpleName get error msg
+query str SimpleName MethodInvocation MethodInvocation SimpleName validator
+query str SimpleName MethodInvocation MethodInvocation SimpleName get error msg
+validator SimpleName MethodInvocation SimpleName get error msg
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid dsl query
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName query str
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName validator
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error msg
+atlas error codeinvalid dsl query QualifiedName ClassInstanceCreation SimpleName query str
+atlas error codeinvalid dsl query QualifiedName ClassInstanceCreation MethodInvocation SimpleName validator
+atlas error codeinvalid dsl query QualifiedName ClassInstanceCreation MethodInvocation SimpleName get error msg
+query str SimpleName ClassInstanceCreation MethodInvocation SimpleName validator
+query str SimpleName ClassInstanceCreation MethodInvocation SimpleName get error msg
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName parse
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query str
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+static Modifier MethodDeclaration SimpleName parse
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName query str
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas dsl parserquery context QualifiedName SimpleType MethodDeclaration SimpleName parse
+atlas dsl parserquery context QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query str
+atlas dsl parserquery context QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query str
+parse SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+parse SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+query str SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas dsl parserquery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

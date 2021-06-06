@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+dgi c lient SimpleName MethodInvocation SimpleName search by dsl
+dgi c lient SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert entity is not registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert entity is not registered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+assert entity is not registered SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert entity is not registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert entity is not registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

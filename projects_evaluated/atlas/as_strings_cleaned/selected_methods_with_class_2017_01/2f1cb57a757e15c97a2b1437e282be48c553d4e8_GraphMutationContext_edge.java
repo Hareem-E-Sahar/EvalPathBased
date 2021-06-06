@@ -1,0 +1,14 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+optional SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+current edge SimpleName FieldAccess Assignment SimpleName edge
+builder SimpleName SimpleType MethodDeclaration SimpleName edge
+builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

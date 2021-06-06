@@ -1,0 +1,319 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+file util SimpleName MethodInvocation SimpleName get file system
+file util SimpleName MethodInvocation SimpleName conf
+file util SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+file util SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+get file system SimpleName MethodInvocation SimpleName conf
+get file system SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+trace file system SimpleName MethodInvocation SimpleName wrap
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName file util
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName get file system
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName conf
+trace file system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server configuration
+trace file system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+wrap SimpleName MethodInvocation MethodInvocation SimpleName file util
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get file system
+wrap SimpleName MethodInvocation MethodInvocation SimpleName conf
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server configuration
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file util
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+file system SimpleName MethodInvocation SimpleName get local
+file system SimpleName MethodInvocation SimpleName conf
+get local SimpleName MethodInvocation SimpleName conf
+trace file system SimpleName MethodInvocation SimpleName wrap
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName file system
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName get local
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName conf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName file system
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get local
+wrap SimpleName MethodInvocation MethodInvocation SimpleName conf
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace file system
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+local SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file system
+local SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get local
+local SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local
+option SimpleName SimpleType ClassInstanceCreation StringLiteral r
+option SimpleName SimpleType ClassInstanceCreation StringLiteral row
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral search for a specific row
+r StringLiteral ClassInstanceCreation StringLiteral row
+r StringLiteral ClassInstanceCreation BooleanLiteral true
+r StringLiteral ClassInstanceCreation StringLiteral search for a specific row
+row StringLiteral ClassInstanceCreation BooleanLiteral true
+row StringLiteral ClassInstanceCreation StringLiteral search for a specific row
+true BooleanLiteral ClassInstanceCreation StringLiteral search for a specific row
+row opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+row opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+row opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral row
+row opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+row opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral search for a specific row
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral m
+option SimpleName SimpleType ClassInstanceCreation StringLiteral maxmutations
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral the maximum number of mutations to print per log entry
+m StringLiteral ClassInstanceCreation StringLiteral maxmutations
+m StringLiteral ClassInstanceCreation BooleanLiteral true
+m StringLiteral ClassInstanceCreation StringLiteral the maximum number of mutations to print per log entry
+maxmutations StringLiteral ClassInstanceCreation BooleanLiteral true
+maxmutations StringLiteral ClassInstanceCreation StringLiteral the maximum number of mutations to print per log entry
+true BooleanLiteral ClassInstanceCreation StringLiteral the maximum number of mutations to print per log entry
+max opt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+max opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral m
+max opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral maxmutations
+max opt SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+max opt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral the maximum number of mutations to print per log entry
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max opt
+options SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName options
+options SimpleName MethodInvocation SimpleName add option
+options SimpleName MethodInvocation SimpleName row opt
+add option SimpleName MethodInvocation SimpleName row opt
+options SimpleName MethodInvocation SimpleName add option
+options SimpleName MethodInvocation SimpleName max opt
+add option SimpleName MethodInvocation SimpleName max opt
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName options
+parse SimpleName MethodInvocation SimpleName args
+options SimpleName MethodInvocation SimpleName args
+cl SimpleName Assignment MethodInvocation SimpleName parse
+cl SimpleName Assignment MethodInvocation SimpleName options
+cl SimpleName Assignment MethodInvocation SimpleName args
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+max SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get args
+fileslength QualifiedName InfixExpression NumberLiteral empty
+row opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName row opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName row opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+row opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName row opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName row opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cl
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get option value
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName cl
+row SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get option value
+max opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName max opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName max opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+max opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName max opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName max opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName cl
+integer SimpleName MethodInvocation MethodInvocation SimpleName get option value
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max opt
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+parse int SimpleName MethodInvocation MethodInvocation SimpleName cl
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get option value
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max opt
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+max SimpleName Assignment MethodInvocation SimpleName integer
+max SimpleName Assignment MethodInvocation SimpleName parse int
+max SimpleName Assignment MethodInvocation MethodInvocation SimpleName cl
+max SimpleName Assignment MethodInvocation MethodInvocation SimpleName get option value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+fs SimpleName MethodInvocation SimpleName is file
+fs SimpleName MethodInvocation SimpleName path
+is file SimpleName MethodInvocation SimpleName path
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+sequence filereader QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName file
+fs SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+file SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName conf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sequence filereader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName file
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+orgapachehadoopiosequence filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName key
+print log event SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName row
+print log event SimpleName MethodInvocation SimpleName max
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName row
+key SimpleName MethodInvocation SimpleName max
+value SimpleName MethodInvocation SimpleName row
+value SimpleName MethodInvocation SimpleName max
+row SimpleName MethodInvocation SimpleName max
+local SimpleName MethodInvocation SimpleName is file
+local SimpleName MethodInvocation SimpleName path
+is file SimpleName MethodInvocation SimpleName path
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName local
+sequence filereader QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+local SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+local SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName file
+local SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+file SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName conf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sequence filereader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName file
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+orgapachehadoopiosequence filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName key
+reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName key
+print log event SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName row
+print log event SimpleName MethodInvocation SimpleName max
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName row
+key SimpleName MethodInvocation SimpleName max
+value SimpleName MethodInvocation SimpleName row
+value SimpleName MethodInvocation SimpleName max
+row SimpleName MethodInvocation SimpleName max
+multi reader SimpleName SimpleType ClassInstanceCreation SimpleName fs
+multi reader SimpleName SimpleType ClassInstanceCreation SimpleName conf
+multi reader SimpleName SimpleType ClassInstanceCreation SimpleName file
+fs SimpleName ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation SimpleName file
+conf SimpleName ClassInstanceCreation SimpleName file
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi reader
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+multi reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+input SimpleName MethodInvocation SimpleName next
+input SimpleName MethodInvocation SimpleName key
+input SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName key
+print log event SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName row
+print log event SimpleName MethodInvocation SimpleName max
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName row
+key SimpleName MethodInvocation SimpleName max
+value SimpleName MethodInvocation SimpleName row
+value SimpleName MethodInvocation SimpleName max
+row SimpleName MethodInvocation SimpleName max
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName local
+sequence filereader QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName file
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+local SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+local SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName file
+local SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+file SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName conf
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sequence filereader
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local
+input SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName file
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+sequence filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+input SimpleName MethodInvocation SimpleName next
+input SimpleName MethodInvocation SimpleName key
+input SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName key
+print log event SimpleName MethodInvocation SimpleName value
+print log event SimpleName MethodInvocation SimpleName row
+print log event SimpleName MethodInvocation SimpleName max
+key SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName row
+key SimpleName MethodInvocation SimpleName max
+value SimpleName MethodInvocation SimpleName row
+value SimpleName MethodInvocation SimpleName max
+row SimpleName MethodInvocation SimpleName max
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName files
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName files
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName files
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName files
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

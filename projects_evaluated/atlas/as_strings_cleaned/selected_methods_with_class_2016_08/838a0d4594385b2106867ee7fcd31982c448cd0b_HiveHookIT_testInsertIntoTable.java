@@ -1,0 +1,311 @@
+input table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input table name
+input table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input table name
+insert table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName insert table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName input table name
+default db SimpleName MethodInvocation SimpleName input table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName insert table name
+default db SimpleName MethodInvocation SimpleName insert table name
+insert into StringLiteral InfixExpression SimpleName insert table name
+insert into StringLiteral InfixExpression StringLiteral select t id t name from
+insert into StringLiteral InfixExpression SimpleName input table name
+insert into StringLiteral InfixExpression StringLiteral as t
+insert into StringLiteral InfixExpression SimpleName input table name
+insert table name SimpleName InfixExpression StringLiteral select t id t name from
+insert table name SimpleName InfixExpression SimpleName input table name
+insert table name SimpleName InfixExpression StringLiteral as t
+insert table name SimpleName InfixExpression SimpleName input table name
+insert table name SimpleName InfixExpression StringLiteral as t where t idt id
+select t id t name from StringLiteral InfixExpression SimpleName input table name
+select t id t name from StringLiteral InfixExpression StringLiteral as t
+select t id t name from StringLiteral InfixExpression SimpleName input table name
+select t id t name from StringLiteral InfixExpression StringLiteral as t where t idt id
+input table name SimpleName InfixExpression StringLiteral as t
+input table name SimpleName InfixExpression SimpleName input table name
+input table name SimpleName InfixExpression StringLiteral as t where t idt id
+as t StringLiteral InfixExpression SimpleName input table name
+as t StringLiteral InfixExpression StringLiteral as t where t idt id
+input table name SimpleName InfixExpression StringLiteral as t where t idt id
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral insert into
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName insert table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral select t id t name from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName input table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral as t
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName input table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral as t where t idt id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName input table name
+get inputs SimpleName MethodInvocation QualifiedName entitytypetable
+input table name SimpleName MethodInvocation QualifiedName entitytypetable
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName input table name
+inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName input table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+get inputs SimpleName MethodInvocation SimpleName input table name
+get inputs SimpleName MethodInvocation QualifiedName entitytypetable
+input table name SimpleName MethodInvocation QualifiedName entitytypetable
+inputs SimpleName MethodInvocation SimpleName add all
+inputs SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+inputs SimpleName MethodInvocation MethodInvocation SimpleName input table name
+inputs SimpleName MethodInvocation MethodInvocation QualifiedName entitytypetable
+add all SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+add all SimpleName MethodInvocation MethodInvocation SimpleName input table name
+add all SimpleName MethodInvocation MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName insert table name
+get outputs SimpleName MethodInvocation QualifiedName entitytypetable
+insert table name SimpleName MethodInvocation QualifiedName entitytypetable
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName insert table name
+outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+outputs SimpleName MethodInvocation SimpleName iterator
+outputs SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+next SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName set write type
+next SimpleName MethodInvocation ParenthesizedExpression MethodInvocation QualifiedName write entitywrite typeinsert
+set write type SimpleName MethodInvocation QualifiedName write entitywrite typeinsert
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationquery
+construct event SimpleName MethodInvocation SimpleName inputs
+construct event SimpleName MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation QualifiedName hive operationquery
+query SimpleName MethodInvocation SimpleName inputs
+query SimpleName MethodInvocation SimpleName outputs
+hive operationquery QualifiedName MethodInvocation SimpleName inputs
+hive operationquery QualifiedName MethodInvocation SimpleName outputs
+inputs SimpleName MethodInvocation SimpleName outputs
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName construct event
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+event SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive operationquery
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName inputs
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName outputs
+hive hookhive event context QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+add all SimpleName MethodInvocation SimpleName inputs
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+read entity SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+expected inputs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity comparator
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName insert table name
+default db SimpleName MethodInvocation SimpleName insert table name
+validate process SimpleName MethodInvocation SimpleName event
+validate process SimpleName MethodInvocation SimpleName expected inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+event SimpleName MethodInvocation SimpleName expected inputs
+event SimpleName MethodInvocation SimpleName outputs
+expected inputs SimpleName MethodInvocation SimpleName outputs
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected inputs
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName outputs
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process ref
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get qualified tbl name SimpleName MethodInvocation SimpleName input table name
+sorted tbl names SimpleName MethodInvocation SimpleName add
+sorted tbl names SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+sorted tbl names SimpleName MethodInvocation MethodInvocation SimpleName input table name
+add SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+add SimpleName MethodInvocation MethodInvocation SimpleName input table name
+get qualified tbl name SimpleName MethodInvocation SimpleName input table name
+sorted tbl names SimpleName MethodInvocation SimpleName add
+sorted tbl names SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+sorted tbl names SimpleName MethodInvocation MethodInvocation SimpleName input table name
+add SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+add SimpleName MethodInvocation MethodInvocation SimpleName input table name
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation SimpleName sep
+on SimpleName MethodInvocation SimpleName sep
+sorted tbl names SimpleName MethodInvocation SimpleName first
+sorted tbl names SimpleName MethodInvocation SimpleName last
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+sep SimpleName MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation StringLiteral query
+on SimpleName MethodInvocation MethodInvocation StringLiteral query
+sep SimpleName MethodInvocation MethodInvocation StringLiteral query
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last
+join SimpleName MethodInvocation StringLiteral query
+join SimpleName MethodInvocation MethodInvocation SimpleName sorted tbl names
+join SimpleName MethodInvocation MethodInvocation SimpleName first
+join SimpleName MethodInvocation MethodInvocation SimpleName sorted tbl names
+join SimpleName MethodInvocation MethodInvocation SimpleName last
+query StringLiteral MethodInvocation MethodInvocation SimpleName sorted tbl names
+query StringLiteral MethodInvocation MethodInvocation SimpleName first
+query StringLiteral MethodInvocation MethodInvocation SimpleName sorted tbl names
+query StringLiteral MethodInvocation MethodInvocation SimpleName last
+sorted tbl names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+sorted tbl names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last
+first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted tbl names
+first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName last
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation SimpleName sep
+on SimpleName MethodInvocation SimpleName sep
+write entitywrite typeinsert QualifiedName MethodInvocation SimpleName name
+get qualified tbl name SimpleName MethodInvocation SimpleName insert table name
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+sep SimpleName MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+on SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified tbl name
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName insert table name
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified tbl name
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName insert table name
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified tbl name
+sep SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName insert table name
+join SimpleName MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+join SimpleName MethodInvocation MethodInvocation SimpleName name
+join SimpleName MethodInvocation MethodInvocation SimpleName get qualified tbl name
+join SimpleName MethodInvocation MethodInvocation SimpleName insert table name
+write entitywrite typeinsert QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified tbl name
+write entitywrite typeinsert QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName insert table name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified tbl name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName insert table name
+joiner SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+on SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+sep SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+join SimpleName MethodInvocation InfixExpression SimpleName io sep
+query StringLiteral MethodInvocation InfixExpression SimpleName io sep
+sorted tbl names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+first SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+sorted tbl names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+last SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName io sep
+joiner SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+on SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+sep SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+join SimpleName MethodInvocation InfixExpression SimpleName sep
+query StringLiteral MethodInvocation InfixExpression SimpleName sep
+sorted tbl names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+first SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+sorted tbl names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+last SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName sep
+join SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+query StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName join
+io sep SimpleName InfixExpression SimpleName sep
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName joiner
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName on
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sep
+io sep SimpleName InfixExpression MethodInvocation SimpleName join
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get qualified tbl name
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName insert table name
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName joiner
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName on
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sep
+sep SimpleName InfixExpression MethodInvocation SimpleName join
+sep SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName write entitywrite typeinsert
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName name
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get qualified tbl name
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName insert table name
+process ref SimpleName MethodInvocation SimpleName get
+process ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+assert SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral query
+assert SimpleName MethodInvocation InfixExpression SimpleName io sep
+assert SimpleName MethodInvocation InfixExpression SimpleName sep
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+assert SimpleName MethodInvocation MethodInvocation SimpleName process ref
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation InfixExpression SimpleName io sep
+assert equals SimpleName MethodInvocation InfixExpression SimpleName sep
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName process ref
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName process ref
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+io sep SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName process ref
+sep SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+sep SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+run command with delay SimpleName MethodInvocation SimpleName query
+run command with delay SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+validate process SimpleName MethodInvocation SimpleName event
+validate process SimpleName MethodInvocation SimpleName expected inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+event SimpleName MethodInvocation SimpleName expected inputs
+event SimpleName MethodInvocation SimpleName outputs
+expected inputs SimpleName MethodInvocation SimpleName outputs
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected inputs
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName outputs
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process ref
+process ref SimpleName MethodInvocation SimpleName get id
+process ref SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+process ref SimpleName MethodInvocation SimpleName get id
+process ref SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process ref
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process ref
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process ref
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process ref
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test insert into table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test insert into table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test insert into table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into table SimpleName MethodDeclaration SimpleType SimpleName exception
+test insert into table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test insert into table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test insert into table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

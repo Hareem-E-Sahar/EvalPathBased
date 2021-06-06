@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName assignment failures
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName assignment failures
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+assignment failures SimpleName MethodInvocation SimpleName entry set
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+entry SimpleName MethodInvocation SimpleName get value
+get count SimpleName MethodInvocation SimpleName ke
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+count SimpleName InfixExpression NumberLiteral empty
+counts SimpleName MethodInvocation SimpleName put
+counts SimpleName MethodInvocation SimpleName ke
+counts SimpleName MethodInvocation InfixExpression SimpleName count
+counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put SimpleName MethodInvocation SimpleName ke
+put SimpleName MethodInvocation InfixExpression SimpleName count
+put SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ke SimpleName MethodInvocation InfixExpression SimpleName count
+ke SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName assignment failures
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+void PrimitiveType MethodDeclaration SimpleName assignments failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName assignment failures
+assignments failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assignment failures
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assignments failed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment failures
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assignments failed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment failures

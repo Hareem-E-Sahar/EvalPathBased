@@ -1,0 +1,73 @@
+a block reader SimpleName SimpleType SingleVariableDeclaration SimpleName cache block
+index entry SimpleName SimpleType SingleVariableDeclaration SimpleName index entry
+cache block SimpleName MethodInvocation SimpleName get index
+cache block SimpleName MethodInvocation TypeLiteral SimpleType SimpleName block index
+get index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName block index
+block index SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache block
+block index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index
+block index SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName block index
+block indexaccess count QualifiedName MethodInvocation SimpleName increment and get
+access count SimpleName VariableDeclarationFragment MethodInvocation QualifiedName block indexaccess count
+access count SimpleName VariableDeclarationFragment MethodInvocation SimpleName increment and get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName access count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName block indexaccess count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName increment and get
+access count SimpleName InfixExpression NumberLiteral empty
+is power of two SimpleName MethodInvocation SimpleName access count
+access count SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is power of two
+access count SimpleName InfixExpression InfixExpression MethodInvocation SimpleName access count
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName is power of two
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName access count
+block index SimpleName MethodInvocation SimpleName build index
+block index SimpleName MethodInvocation SimpleName access count
+block index SimpleName MethodInvocation SimpleName cache block
+block index SimpleName MethodInvocation SimpleName index entry
+build index SimpleName MethodInvocation SimpleName access count
+build index SimpleName MethodInvocation SimpleName cache block
+build index SimpleName MethodInvocation SimpleName index entry
+access count SimpleName MethodInvocation SimpleName cache block
+access count SimpleName MethodInvocation SimpleName index entry
+cache block SimpleName MethodInvocation SimpleName index entry
+block indexblock index QualifiedName InfixExpression IfStatement ReturnStatement SimpleName block index
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName block index
+public Modifier MethodDeclaration SimpleName get index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index entry
+static Modifier MethodDeclaration SimpleType SimpleName block index
+static Modifier MethodDeclaration SimpleName get index
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache block
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName index entry
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+block index SimpleName SimpleType MethodDeclaration SimpleName get index
+block index SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cache block
+block index SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index entry
+block index SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache block
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index entry
+get index SimpleName MethodDeclaration SimpleType SimpleName io exception
+get index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+cache block SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+cache block SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+index entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block index
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block index
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

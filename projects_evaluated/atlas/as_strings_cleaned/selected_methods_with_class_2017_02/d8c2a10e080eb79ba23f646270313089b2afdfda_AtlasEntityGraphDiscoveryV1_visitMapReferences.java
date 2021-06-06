@@ -1,0 +1,128 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName parent type
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas type
+final Modifier SingleVariableDeclaration SimpleName attr type
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attr def
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName value type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+key type SimpleName MethodInvocation SimpleName get type category
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName key type
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName get type category
+value type SimpleName MethodInvocation SimpleName get type category
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName value type
+is primitive SimpleName MethodInvocation MethodInvocation SimpleName get type category
+is primitive SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is primitive
+val SimpleName MethodInvocation SimpleName get class
+map SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName val
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName get class
+iterator SimpleName SimpleType ParameterizedType SimpleType QualifiedName mapentry
+map SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName entry set
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get key
+visit attribute SimpleName MethodInvocation SimpleName parent type
+visit attribute SimpleName MethodInvocation SimpleName key type
+visit attribute SimpleName MethodInvocation SimpleName attr def
+visit attribute SimpleName MethodInvocation MethodInvocation SimpleName e
+visit attribute SimpleName MethodInvocation MethodInvocation SimpleName get key
+parent type SimpleName MethodInvocation SimpleName key type
+parent type SimpleName MethodInvocation SimpleName attr def
+parent type SimpleName MethodInvocation MethodInvocation SimpleName e
+parent type SimpleName MethodInvocation MethodInvocation SimpleName get key
+key type SimpleName MethodInvocation SimpleName attr def
+key type SimpleName MethodInvocation MethodInvocation SimpleName e
+key type SimpleName MethodInvocation MethodInvocation SimpleName get key
+attr def SimpleName MethodInvocation MethodInvocation SimpleName e
+attr def SimpleName MethodInvocation MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get value
+visit attribute SimpleName MethodInvocation SimpleName parent type
+visit attribute SimpleName MethodInvocation SimpleName value type
+visit attribute SimpleName MethodInvocation SimpleName attr def
+visit attribute SimpleName MethodInvocation MethodInvocation SimpleName e
+visit attribute SimpleName MethodInvocation MethodInvocation SimpleName get value
+parent type SimpleName MethodInvocation SimpleName value type
+parent type SimpleName MethodInvocation SimpleName attr def
+parent type SimpleName MethodInvocation MethodInvocation SimpleName e
+parent type SimpleName MethodInvocation MethodInvocation SimpleName get value
+value type SimpleName MethodInvocation SimpleName attr def
+value type SimpleName MethodInvocation MethodInvocation SimpleName e
+value type SimpleName MethodInvocation MethodInvocation SimpleName get value
+attr def SimpleName MethodInvocation MethodInvocation SimpleName e
+attr def SimpleName MethodInvocation MethodInvocation SimpleName get value
+void PrimitiveType MethodDeclaration SimpleName visit map references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr def
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+visit map references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value type
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+parent type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+key type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+value type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+value type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit map references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit map references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

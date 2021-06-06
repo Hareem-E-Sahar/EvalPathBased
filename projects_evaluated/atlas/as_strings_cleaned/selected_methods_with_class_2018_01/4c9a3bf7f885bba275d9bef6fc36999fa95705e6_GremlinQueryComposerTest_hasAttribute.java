@@ -1,0 +1,261 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral db
+equals SimpleName MethodInvocation StringLiteral db
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral db
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral db
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral columns
+equals SimpleName MethodInvocation StringLiteral columns
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral columns
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral columns
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral create time
+equals SimpleName MethodInvocation StringLiteral create time
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral create time
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral create time
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral cluster name
+equals SimpleName MethodInvocation StringLiteral cluster name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral cluster name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral cluster name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral table
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral is file
+equals SimpleName MethodInvocation StringLiteral is file
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral is file
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral is file
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+equals SimpleName MethodInvocation StringLiteral hive db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+equals SimpleName MethodInvocation StringLiteral hive db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral hive db
+equals SimpleName MethodInvocation StringLiteral hive db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral create time
+equals SimpleName MethodInvocation StringLiteral create time
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral create time
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+hive db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral create time
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral db
+equals SimpleName MethodInvocation StringLiteral db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral db
+equals SimpleName MethodInvocation StringLiteral db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral db
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral db
+equals SimpleName MethodInvocation StringLiteral db
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral cluster name
+equals SimpleName MethodInvocation StringLiteral cluster name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral cluster name
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+db StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+db StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral cluster name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral asset
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral asset
+equals SimpleName MethodInvocation StringLiteral asset
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation StringLiteral name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral name
+context SimpleName MethodInvocation SimpleName get active type name
+context SimpleName MethodInvocation MethodInvocation SimpleName equals
+get active type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+context SimpleName MethodInvocation MethodInvocation StringLiteral asset
+get active type name SimpleName MethodInvocation MethodInvocation StringLiteral asset
+equals SimpleName MethodInvocation StringLiteral asset
+attribute name SimpleName MethodInvocation SimpleName equals
+attribute name SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation StringLiteral owner
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName attribute name
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+asset StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral owner
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+boolean PrimitiveType MethodDeclaration SimpleName has attribute
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+has attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+has attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+has attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

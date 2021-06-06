@@ -1,0 +1,61 @@
+atlas kafka message SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+atlas kafka message SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kafka message
+hook notification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kafka message
+commit succeess status SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName commit succeess status
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+kafka message SimpleName MethodInvocation SimpleName get partition
+topic partition SimpleName SimpleType ClassInstanceCreation StringLiteral atlas hook
+topic partition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName kafka message
+topic partition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get partition
+atlas hook StringLiteral ClassInstanceCreation MethodInvocation SimpleName kafka message
+atlas hook StringLiteral ClassInstanceCreation MethodInvocation SimpleName get partition
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName topic partition
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral atlas hook
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName kafka message
+partition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get partition
+topic partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+kafka message SimpleName MethodInvocation SimpleName get offset
+kafka message SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get offset SimpleName MethodInvocation InfixExpression NumberLiteral empty
+consumer SimpleName MethodInvocation SimpleName commit
+consumer SimpleName MethodInvocation SimpleName partition
+consumer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName kafka message
+consumer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get offset
+consumer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+commit SimpleName MethodInvocation SimpleName partition
+commit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName kafka message
+commit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get offset
+commit SimpleName MethodInvocation InfixExpression NumberLiteral empty
+partition SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName kafka message
+partition SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get offset
+partition SimpleName MethodInvocation InfixExpression NumberLiteral empty
+commit succeess status SimpleName Assignment BooleanLiteral true
+kafka message SimpleName MethodInvocation SimpleName get offset
+failed commit offset recorder SimpleName MethodInvocation SimpleName record if failed
+failed commit offset recorder SimpleName MethodInvocation SimpleName commit succeess status
+failed commit offset recorder SimpleName MethodInvocation MethodInvocation SimpleName kafka message
+failed commit offset recorder SimpleName MethodInvocation MethodInvocation SimpleName get offset
+record if failed SimpleName MethodInvocation SimpleName commit succeess status
+record if failed SimpleName MethodInvocation MethodInvocation SimpleName kafka message
+record if failed SimpleName MethodInvocation MethodInvocation SimpleName get offset
+commit succeess status SimpleName MethodInvocation MethodInvocation SimpleName kafka message
+commit succeess status SimpleName MethodInvocation MethodInvocation SimpleName get offset
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName commit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName kafka message
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName commit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kafka message
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kafka message
+commit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kafka message
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kafka message

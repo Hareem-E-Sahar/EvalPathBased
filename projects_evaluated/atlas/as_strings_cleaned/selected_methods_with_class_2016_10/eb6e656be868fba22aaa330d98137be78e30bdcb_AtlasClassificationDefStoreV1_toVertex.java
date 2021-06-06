@@ -1,0 +1,91 @@
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName classification def
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+classification def SimpleName MethodInvocation SimpleName get name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName classification def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName atlas typetype categoryclassification
+get type category SimpleName MethodInvocation InfixExpression QualifiedName atlas typetype categoryclassification
+classification def SimpleName MethodInvocation SimpleName get name
+classification def SimpleName MethodInvocation InfixExpression StringLiteral : not a classification type
+get name SimpleName MethodInvocation InfixExpression StringLiteral : not a classification type
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral : not a classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+atlas struct def store v SimpleName MethodInvocation SimpleName to vertex
+atlas struct def store v SimpleName MethodInvocation SimpleName classification def
+atlas struct def store v SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas classification type
+atlas struct def store v SimpleName MethodInvocation CastExpression SimpleName type
+atlas struct def store v SimpleName MethodInvocation SimpleName vertex
+atlas struct def store v SimpleName MethodInvocation SimpleName type def store
+to vertex SimpleName MethodInvocation SimpleName classification def
+to vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas classification type
+to vertex SimpleName MethodInvocation CastExpression SimpleName type
+to vertex SimpleName MethodInvocation SimpleName vertex
+to vertex SimpleName MethodInvocation SimpleName type def store
+to vertex SimpleName MethodInvocation SimpleName type registry
+classification def SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas classification type
+classification def SimpleName MethodInvocation CastExpression SimpleName type
+classification def SimpleName MethodInvocation SimpleName vertex
+classification def SimpleName MethodInvocation SimpleName type def store
+classification def SimpleName MethodInvocation SimpleName type registry
+atlas classification type SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+type SimpleName CastExpression MethodInvocation SimpleName vertex
+atlas classification type SimpleName SimpleType CastExpression MethodInvocation SimpleName type def store
+type SimpleName CastExpression MethodInvocation SimpleName type def store
+atlas classification type SimpleName SimpleType CastExpression MethodInvocation SimpleName type registry
+type SimpleName CastExpression MethodInvocation SimpleName type registry
+vertex SimpleName MethodInvocation SimpleName type def store
+vertex SimpleName MethodInvocation SimpleName type registry
+type def store SimpleName MethodInvocation SimpleName type registry
+classification def SimpleName MethodInvocation SimpleName get super types
+type def store SimpleName MethodInvocation SimpleName create super type edges
+type def store SimpleName MethodInvocation SimpleName vertex
+type def store SimpleName MethodInvocation MethodInvocation SimpleName classification def
+type def store SimpleName MethodInvocation MethodInvocation SimpleName get super types
+create super type edges SimpleName MethodInvocation SimpleName vertex
+create super type edges SimpleName MethodInvocation MethodInvocation SimpleName classification def
+create super type edges SimpleName MethodInvocation MethodInvocation SimpleName get super types
+vertex SimpleName MethodInvocation MethodInvocation SimpleName classification def
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get super types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName to vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName to vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification def
+to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+to vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+classification def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+classification def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

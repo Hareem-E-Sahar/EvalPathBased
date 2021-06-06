@@ -1,0 +1,112 @@
+entities client v SimpleName MethodInvocation SimpleName get entity by attribute
+entities client v SimpleName MethodInvocation QualifiedName quick start v view type
+entities client v SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+entities client v SimpleName MethodInvocation QualifiedName quick start v product dim view
+get entity by attribute SimpleName MethodInvocation QualifiedName quick start v view type
+get entity by attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get entity by attribute SimpleName MethodInvocation QualifiedName quick start v product dim view
+quick start v view type QualifiedName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+quick start v view type QualifiedName MethodInvocation QualifiedName quick start v product dim view
+atlas clientreferenceable attribute name QualifiedName MethodInvocation QualifiedName quick start v product dim view
+entities client v SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+quick start v view type QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick start v product dim view QualifiedName MethodInvocation MethodInvocation SimpleName get
+entities client v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity by attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+quick start v view type QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+quick start v product dim view QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+view SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entities client v
+view SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity by attribute
+view SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName quick start v view type
+view SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+view SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName quick start v product dim view
+view SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+view SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+view SimpleName MethodInvocation SimpleName get attributes
+view attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName view
+view attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+view attributes SimpleName MethodInvocation SimpleName get
+view attributes SimpleName MethodInvocation QualifiedName atlas clientname
+get SimpleName MethodInvocation QualifiedName atlas clientname
+assert equals SimpleName MethodInvocation QualifiedName quick start v product dim view
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName view attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientname
+quick start v product dim view QualifiedName MethodInvocation MethodInvocation SimpleName view attributes
+quick start v product dim view QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick start v product dim view QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientname
+get table SimpleName MethodInvocation QualifiedName quick start v product dim table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get guid
+quick start v product dim table QualifiedName MethodInvocation MethodInvocation SimpleName get guid
+product dim id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table
+product dim id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName quick start v product dim table
+product dim id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName product dim id
+view attributes SimpleName MethodInvocation SimpleName get
+view attributes SimpleName MethodInvocation StringLiteral input tables
+get SimpleName MethodInvocation StringLiteral input tables
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName view attributes
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+list SimpleName SimpleType CastExpression MethodInvocation StringLiteral input tables
+input tables SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+input tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName view attributes
+input tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+input tables SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral input tables
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input tables
+input tables SimpleName MethodInvocation SimpleName get
+input tables SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName input tables
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+input tables map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+input tables map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName input tables
+input tables map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+input tables map SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input tables map
+input tables map SimpleName MethodInvocation SimpleName get
+input tables map SimpleName MethodInvocation StringLiteral guid
+get SimpleName MethodInvocation StringLiteral guid
+assert equals SimpleName MethodInvocation SimpleName product dim id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName input tables map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral guid
+product dim id SimpleName MethodInvocation MethodInvocation SimpleName input tables map
+product dim id SimpleName MethodInvocation MethodInvocation SimpleName get
+product dim id SimpleName MethodInvocation MethodInvocation StringLiteral guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test view is added
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test view is added
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName test view is added
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+test view is added SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+test view is added SimpleName MethodDeclaration SimpleType SimpleName json exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test view is added
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test view is added
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

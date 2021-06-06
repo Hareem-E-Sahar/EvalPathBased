@@ -1,0 +1,142 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName test user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+val StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral val
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral val
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral val
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+writer SimpleName MethodInvocation SimpleName close
+c SimpleName MethodInvocation SimpleName whoami
+table permission SimpleName MethodInvocation SimpleName values
+verify has only these table permissions SimpleName MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation SimpleName table name
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName table permission
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName values
+c SimpleName MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName table permission
+c SimpleName MethodInvocation MethodInvocation SimpleName values
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+whoami SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table permission
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table permission
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+table name SimpleName MethodInvocation MethodInvocation SimpleName table permission
+table name SimpleName MethodInvocation MethodInvocation SimpleName values
+table permission SimpleName MethodInvocation SimpleName values
+verify has no table permissions SimpleName MethodInvocation SimpleName c
+verify has no table permissions SimpleName MethodInvocation SimpleName test user
+verify has no table permissions SimpleName MethodInvocation SimpleName table name
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName table permission
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName values
+c SimpleName MethodInvocation SimpleName test user
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName table permission
+c SimpleName MethodInvocation MethodInvocation SimpleName values
+test user SimpleName MethodInvocation SimpleName table name
+test user SimpleName MethodInvocation MethodInvocation SimpleName table permission
+test user SimpleName MethodInvocation MethodInvocation SimpleName values
+table name SimpleName MethodInvocation MethodInvocation SimpleName table permission
+table name SimpleName MethodInvocation MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create test table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName test user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleName create test table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName test user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName test user
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create test table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create test table SimpleName MethodDeclaration SimpleType SimpleName exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+test user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

@@ -1,0 +1,87 @@
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName login
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName as type name
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SimpleType SimpleName test class load call
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+test class load call SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+test class load call SimpleName SimpleType ClassInstanceCreation SimpleName login
+test class load call SimpleName SimpleType ClassInstanceCreation SimpleName class name
+test class load call SimpleName SimpleType ClassInstanceCreation SimpleName as type name
+test class load call SimpleName SimpleType ClassInstanceCreation SimpleName result handler
+login SimpleName ClassInstanceCreation SimpleName class name
+login SimpleName ClassInstanceCreation SimpleName as type name
+login SimpleName ClassInstanceCreation SimpleName result handler
+login SimpleName ClassInstanceCreation SimpleName protocol factory
+class name SimpleName ClassInstanceCreation SimpleName as type name
+class name SimpleName ClassInstanceCreation SimpleName result handler
+class name SimpleName ClassInstanceCreation SimpleName protocol factory
+class name SimpleName ClassInstanceCreation SimpleName transport
+as type name SimpleName ClassInstanceCreation SimpleName result handler
+as type name SimpleName ClassInstanceCreation SimpleName protocol factory
+as type name SimpleName ClassInstanceCreation SimpleName transport
+result handler SimpleName ClassInstanceCreation SimpleName protocol factory
+result handler SimpleName ClassInstanceCreation SimpleName transport
+protocol factory SimpleName ClassInstanceCreation SimpleName transport
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test class load call
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName login
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName class name
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName as type name
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName result handler
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName protocol factory
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transport
+test class load call SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method call
+current method SimpleName FieldAccess Assignment SimpleName method call
+manager SimpleName MethodInvocation SimpleName call
+manager SimpleName MethodInvocation SimpleName method call
+call SimpleName MethodInvocation SimpleName method call
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test class load
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName as type name
+void PrimitiveType MethodDeclaration SimpleName test class load
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName login
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result handler
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName login
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result handler
+test class load SimpleName MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+login SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+login SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+login SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+login SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+result handler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test class load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test class load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception

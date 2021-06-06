@@ -1,0 +1,79 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName url
+final Modifier SingleVariableDeclaration SimpleName url
+url SimpleName SimpleType SingleVariableDeclaration SimpleName url
+privileged exception action SimpleName SimpleType ParameterizedType SimpleType SimpleName http url connection
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName final authenticator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName conn configurator
+final authenticator SimpleName ClassInstanceCreation SimpleName conn configurator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open connection
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName token
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName final do as user
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+open connection SimpleName MethodInvocation SimpleName url
+open connection SimpleName MethodInvocation SimpleName token
+open connection SimpleName MethodInvocation SimpleName final do as user
+url SimpleName MethodInvocation SimpleName token
+url SimpleName MethodInvocation SimpleName final do as user
+token SimpleName MethodInvocation SimpleName final do as user
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+http url connection SimpleName SimpleType MethodDeclaration SimpleName run
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+actual ugi SimpleName MethodInvocation SimpleName do as
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName io exception
+io exception SimpleName SimpleType CastExpression SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName url
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName get http url connection
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+http url connection SimpleName SimpleType MethodDeclaration SimpleName get http url connection
+http url connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+http url connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName url
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+get http url connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+get http url connection SimpleName MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get http url connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get http url connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

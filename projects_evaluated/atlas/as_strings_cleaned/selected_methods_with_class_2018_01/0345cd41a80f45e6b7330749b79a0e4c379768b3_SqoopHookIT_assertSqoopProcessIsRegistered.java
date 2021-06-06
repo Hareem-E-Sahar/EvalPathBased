@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName process name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for sqoop process {}
+log SimpleName MethodInvocation SimpleName process name
+debug SimpleName MethodInvocation StringLiteral searching for sqoop process {}
+debug SimpleName MethodInvocation SimpleName process name
+searching for sqoop process {} StringLiteral MethodInvocation SimpleName process name
+sqoop data typessqoop process QualifiedName MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName sqoop data typessqoop process
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName process name
+sqoop data typessqoop process QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+sqoop data typessqoop process QualifiedName MethodInvocation MethodInvocation SimpleName process name
+get name SimpleName MethodInvocation MethodInvocation SimpleName process name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName process name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert sqoop process is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName process name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert sqoop process is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName process name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert sqoop process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert sqoop process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName process name
+assert sqoop process is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+process name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert sqoop process is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert sqoop process is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

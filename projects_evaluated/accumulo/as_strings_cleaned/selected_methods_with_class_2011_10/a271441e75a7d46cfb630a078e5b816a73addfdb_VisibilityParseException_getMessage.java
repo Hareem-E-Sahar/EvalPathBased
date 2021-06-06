@@ -1,0 +1,25 @@
+get message SimpleName SuperMethodInvocation InfixExpression StringLiteral in string
+get message SimpleName SuperMethodInvocation InfixExpression SimpleName visibility
+get message SimpleName SuperMethodInvocation InfixExpression StringLiteral at position
+get message SimpleName SuperMethodInvocation InfixExpression SuperMethodInvocation SimpleName get error offset
+in string StringLiteral InfixExpression SimpleName visibility
+in string StringLiteral InfixExpression StringLiteral at position
+in string StringLiteral InfixExpression SuperMethodInvocation SimpleName get error offset
+visibility SimpleName InfixExpression StringLiteral at position
+visibility SimpleName InfixExpression SuperMethodInvocation SimpleName get error offset
+at position StringLiteral InfixExpression SuperMethodInvocation SimpleName get error offset
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get message
+string SimpleName SimpleType MethodDeclaration SimpleName get message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message

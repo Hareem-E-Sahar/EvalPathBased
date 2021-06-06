@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr value
+attr value SimpleName MethodInvocation SimpleName to lower case
+attr value SimpleName MethodInvocation MethodInvocation SimpleName replace
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName replace
+attr value SimpleName MethodInvocation MethodInvocation SimpleName lower case cl
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName lower case cl
+attr value SimpleName MethodInvocation MethodInvocation SimpleName lower case cl
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName lower case cl
+replace SimpleName MethodInvocation SimpleName lower case cl
+replace SimpleName MethodInvocation SimpleName lower case cl
+lower case cl SimpleName MethodInvocation SimpleName lower case cl
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName apply default transform
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr value
+string SimpleName SimpleType MethodDeclaration SimpleName apply default transform
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr value
+apply default transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+apply default transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply default transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply default transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value

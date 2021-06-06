@@ -1,0 +1,11 @@
+duplicate reads SimpleName MethodInvocation SimpleName increment and get
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName duplicate reads
+void PrimitiveType MethodDeclaration SimpleName duplicate reads
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName duplicate reads
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName duplicate reads

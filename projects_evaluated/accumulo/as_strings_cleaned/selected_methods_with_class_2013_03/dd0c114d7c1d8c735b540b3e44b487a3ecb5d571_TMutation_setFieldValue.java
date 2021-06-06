@@ -1,0 +1,52 @@
+fields SimpleName SimpleType SingleVariableDeclaration SimpleName field
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+byte buffer SimpleName SimpleType CastExpression SimpleName value
+set row SimpleName MethodInvocation CastExpression SimpleType SimpleName byte buffer
+set row SimpleName MethodInvocation CastExpression SimpleName value
+byte buffer SimpleName SimpleType CastExpression SimpleName value
+set data SimpleName MethodInvocation CastExpression SimpleType SimpleName byte buffer
+set data SimpleName MethodInvocation CastExpression SimpleName value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+byte buffer SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+set values SimpleName MethodInvocation CastExpression SimpleName value
+integer SimpleName SimpleType CastExpression SimpleName value
+set entries SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+set entries SimpleName MethodInvocation CastExpression SimpleName value
+field SimpleName SwitchStatement SwitchCase SimpleName row
+field SimpleName SwitchStatement IfStatement InfixExpression SimpleName value
+field SimpleName SwitchStatement SwitchCase SimpleName data
+field SimpleName SwitchStatement IfStatement InfixExpression SimpleName value
+row SimpleName SwitchCase SwitchStatement SwitchCase SimpleName data
+data SimpleName SwitchCase SwitchStatement SwitchCase SimpleName values
+values SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entries
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set field value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName field
+void PrimitiveType MethodDeclaration SimpleName set field value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName field
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fields
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set field value SimpleName MethodDeclaration Block SwitchStatement SimpleName field
+field SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set field value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set field value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

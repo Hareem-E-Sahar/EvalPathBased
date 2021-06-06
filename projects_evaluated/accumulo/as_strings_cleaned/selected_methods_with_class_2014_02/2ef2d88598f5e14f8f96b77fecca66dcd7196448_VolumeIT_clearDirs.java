@@ -1,0 +1,30 @@
+v SimpleName MethodInvocation SimpleName get parent
+v SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get parent SimpleName MethodInvocation MethodInvocation SimpleName to uri
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+file utils SimpleName MethodInvocation SimpleName delete quietly
+file utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+file utils SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+delete quietly SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+delete quietly SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+after SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after SimpleName MarkerAnnotation MethodDeclaration SimpleName clear dirs
+after SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear dirs
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName clear dirs
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+clear dirs SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear dirs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear dirs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

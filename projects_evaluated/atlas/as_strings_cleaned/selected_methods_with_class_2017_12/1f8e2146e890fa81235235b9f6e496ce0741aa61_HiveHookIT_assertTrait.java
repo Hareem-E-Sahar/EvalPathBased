@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas client SimpleName MethodInvocation SimpleName list traits
+atlas client SimpleName MethodInvocation SimpleName guid
+list traits SimpleName MethodInvocation SimpleName guid
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName list traits
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+traits SimpleName MethodInvocation SimpleName get
+traits SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName traits
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName trait name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName traits
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName trait name
+traits SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get SimpleName MethodInvocation MethodInvocation SimpleName trait name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName trait name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleName assert trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+assert trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+assert trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+assert trait SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

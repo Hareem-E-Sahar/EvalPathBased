@@ -1,0 +1,51 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName minc
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName majc
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName minc
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName majc
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName scan
+minc SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+minc SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName majc
+minc SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+minc SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName scan
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName majc
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName scan
+majc SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+majc SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName scan
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName scan
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName iterator scope
+public Modifier MethodDeclaration SimpleName find by value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName iterator scope
+static Modifier MethodDeclaration SimpleName find by value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block SwitchStatement SimpleName value
+iterator scope SimpleName SimpleType MethodDeclaration SimpleName find by value
+iterator scope SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+iterator scope SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find by value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration Block SwitchStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName iterator scope
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName iterator scope
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

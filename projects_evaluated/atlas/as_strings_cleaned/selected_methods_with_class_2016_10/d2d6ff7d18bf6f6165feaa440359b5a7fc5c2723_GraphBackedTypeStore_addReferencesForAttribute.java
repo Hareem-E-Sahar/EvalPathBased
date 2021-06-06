@@ -1,0 +1,217 @@
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName get core types
+core types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+core types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get core types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+attribute SimpleName MethodInvocation SimpleName data type
+attr data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName data type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr data type
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation QualifiedName constantstypename property key
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get single valued property SimpleName MethodInvocation SimpleName vertex
+get single valued property SimpleName MethodInvocation QualifiedName constantstypename property key
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName MethodInvocation QualifiedName constantstypename property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstypename property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+vertex type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get single valued property
+vertex type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+vertex type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstypename property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex type name
+attr data type SimpleName MethodInvocation SimpleName get type category
+attr data type SimpleName MethodInvocation SimpleName get name
+type utils SimpleName MethodInvocation SimpleName parse as array type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse as array type SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+parse as array type SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as array type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr data type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName attr type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation SimpleName attr type
+i data type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName attr type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName element type
+add SimpleName MethodInvocation SimpleName element type
+attr data type SimpleName MethodInvocation SimpleName get name
+type utils SimpleName MethodInvocation SimpleName parse as map type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse as map type SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+parse as map type SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+attr types SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as map type
+attr types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr data type
+attr types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+attr typeslength QualifiedName InfixExpression NumberLiteral empty
+attr types SimpleName InfixExpression InfixExpression InfixExpression QualifiedName attr typeslength
+attr types SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+attr types SimpleName ArrayAccess NumberLiteral empty
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation ArrayAccess SimpleName attr types
+type system SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation ArrayAccess SimpleName attr types
+get data type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+key type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName attr types
+key type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+attr types SimpleName ArrayAccess NumberLiteral empty
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation ArrayAccess SimpleName attr types
+type system SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation ArrayAccess SimpleName attr types
+get data type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+value type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName attr types
+value type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName key type
+add SimpleName MethodInvocation SimpleName key type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName value type
+add SimpleName MethodInvocation SimpleName value type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName attr data type
+add SimpleName MethodInvocation SimpleName attr data type
+attr data type SimpleName MethodInvocation SimpleName get type category
+attribute cannot reference instances of type : StringLiteral InfixExpression MethodInvocation SimpleName attr data type
+attribute cannot reference instances of type : StringLiteral InfixExpression MethodInvocation SimpleName get type category
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral attribute cannot reference instances of type :
+attr data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+attr data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+attr type SimpleName MethodInvocation SimpleName get name
+core types SimpleName MethodInvocation SimpleName contains
+core types SimpleName MethodInvocation MethodInvocation SimpleName attr type
+core types SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains SimpleName MethodInvocation MethodInvocation SimpleName attr type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation SimpleName get name
+attr type SimpleName MethodInvocation SimpleName get description
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName attr type
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName get type category
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName attr type
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName get name
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName attr type
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName get description
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+attr type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr type
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type category
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr type
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr type
+attr vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get description
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr vertex
+get edge label SimpleName MethodInvocation SimpleName vertex type name
+get edge label SimpleName MethodInvocation QualifiedName attributename
+vertex type name SimpleName MethodInvocation QualifiedName attributename
+label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+label SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex type name
+label SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attributename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName label
+graph helper SimpleName MethodInvocation SimpleName get or create edge
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName attr vertex
+graph helper SimpleName MethodInvocation SimpleName label
+get or create edge SimpleName MethodInvocation SimpleName vertex
+get or create edge SimpleName MethodInvocation SimpleName attr vertex
+get or create edge SimpleName MethodInvocation SimpleName label
+vertex SimpleName MethodInvocation SimpleName attr vertex
+vertex SimpleName MethodInvocation SimpleName label
+attr vertex SimpleName MethodInvocation SimpleName label
+i data type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attr data types
+attr type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attr data types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add references for attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SimpleName add references for attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add references for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+add references for attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+add references for attribute SimpleName MethodDeclaration Block EnhancedForStatement SimpleName attr data types
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add references for attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add references for attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,58 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName hook context
+final Modifier SingleVariableDeclaration SimpleName hook context
+hook context SimpleName SimpleType SingleVariableDeclaration SimpleName hook context
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> hive hookrun
+log SimpleName MethodInvocation SimpleName hook context
+debug SimpleName MethodInvocation StringLiteral ==> hive hookrun
+debug SimpleName MethodInvocation SimpleName hook context
+==> hive hookrun StringLiteral MethodInvocation SimpleName hook context
+hive hook impl SimpleName MethodInvocation SimpleName run
+hive hook impl SimpleName MethodInvocation SimpleName hook context
+run SimpleName MethodInvocation SimpleName hook context
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== hive hookrun
+log SimpleName MethodInvocation SimpleName hook context
+debug SimpleName MethodInvocation StringLiteral <== hive hookrun
+debug SimpleName MethodInvocation SimpleName hook context
+<== hive hookrun StringLiteral MethodInvocation SimpleName hook context
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hook context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hook context
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hook context
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hook context
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+hook context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

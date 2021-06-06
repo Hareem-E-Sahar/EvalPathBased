@@ -1,0 +1,86 @@
+long PrimitiveType SingleVariableDeclaration SimpleName opid
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+master client SimpleName MethodInvocation SimpleName get connection with retry
+master client SimpleName MethodInvocation SimpleName context
+get connection with retry SimpleName MethodInvocation SimpleName context
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection with retry
+client SimpleName Assignment MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation SimpleName trace info
+context SimpleName MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName wait for fate operation
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName opid
+wait for fate operation SimpleName MethodInvocation MethodInvocation SimpleName tracer
+wait for fate operation SimpleName MethodInvocation MethodInvocation SimpleName trace info
+wait for fate operation SimpleName MethodInvocation MethodInvocation SimpleName context
+wait for fate operation SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+wait for fate operation SimpleName MethodInvocation SimpleName opid
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+tracer SimpleName MethodInvocation MethodInvocation SimpleName opid
+trace info SimpleName MethodInvocation MethodInvocation SimpleName opid
+context SimpleName MethodInvocation MethodInvocation SimpleName opid
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName opid
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName tte
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral failed to call wait for fate operation retrying ...
+log SimpleName MethodInvocation SimpleName tte
+debug SimpleName MethodInvocation StringLiteral failed to call wait for fate operation retrying ...
+debug SimpleName MethodInvocation SimpleName tte
+failed to call wait for fate operation retrying ... StringLiteral MethodInvocation SimpleName tte
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName wait for fate operation
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName opid
+private Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+private Modifier MethodDeclaration SimpleType SimpleName t exception
+string SimpleName SimpleType MethodDeclaration SimpleName wait for fate operation
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift security exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+wait for fate operation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait for fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opid
+wait for fate operation SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+wait for fate operation SimpleName MethodDeclaration SimpleType SimpleName t exception
+wait for fate operation SimpleName MethodDeclaration SimpleType SimpleName thrift table operation exception
+wait for fate operation SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+opid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+opid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+opid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+t exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for fate operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for fate operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception

@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+attribute type def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type def
+null attribute type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null attribute type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null attribute type def from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+attribute type def SimpleName MethodInvocation SimpleName get guid
+attribute type def SimpleName MethodInvocation SimpleName get name
+attribute type def SimpleName MethodInvocation SimpleName get category
+valid attribute type def id SimpleName MethodInvocation SimpleName source name
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName get name
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+valid attribute type def id SimpleName MethodInvocation MethodInvocation SimpleName get category
+source name SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get name
+source name SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+source name SimpleName MethodInvocation MethodInvocation SimpleName get category
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+attribute type def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute type def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get category
+good attribute type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral good attribute type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+debug SimpleName MethodInvocation InfixExpression StringLiteral good attribute type def from
+debug SimpleName MethodInvocation InfixExpression SimpleName source name
+bad attribute type def from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral bad attribute type def from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral bad attribute type def from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+boolean PrimitiveType MethodDeclaration SimpleName valid attribute type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def

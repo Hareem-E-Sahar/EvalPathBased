@@ -1,0 +1,44 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serialized jwt
+req SimpleName MethodInvocation SimpleName get cookies
+cookies SimpleName VariableDeclarationFragment MethodInvocation SimpleName req
+cookies SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cookies
+cookie name SimpleName InfixExpression InfixExpression InfixExpression SimpleName cookies
+cookie SimpleName SimpleType SingleVariableDeclaration SimpleName cookie
+cookie SimpleName MethodInvocation SimpleName get name
+cookie name SimpleName MethodInvocation SimpleName equals
+cookie name SimpleName MethodInvocation MethodInvocation SimpleName cookie
+cookie name SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName cookie
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} cookie has been found and is being processed
+log SimpleName MethodInvocation SimpleName cookie name
+debug SimpleName MethodInvocation StringLiteral {} cookie has been found and is being processed
+debug SimpleName MethodInvocation SimpleName cookie name
+{} cookie has been found and is being processed StringLiteral MethodInvocation SimpleName cookie name
+cookie SimpleName MethodInvocation SimpleName get value
+serialized jwt SimpleName Assignment MethodInvocation SimpleName cookie
+serialized jwt SimpleName Assignment MethodInvocation SimpleName get value
+cookie SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cookies
+cookie SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cookies
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get jwt from cookie
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName serialized jwt
+string SimpleName SimpleType MethodDeclaration SimpleName get jwt from cookie
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName req
+get jwt from cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get jwt from cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+get jwt from cookie SimpleName MethodDeclaration Block ReturnStatement SimpleName serialized jwt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get jwt from cookie
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get jwt from cookie
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req

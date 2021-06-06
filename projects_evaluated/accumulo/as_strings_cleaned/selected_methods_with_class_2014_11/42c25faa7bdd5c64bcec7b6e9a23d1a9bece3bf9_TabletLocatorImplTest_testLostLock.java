@@ -1,0 +1,500 @@
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName hash set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName active locks
+tservers SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t servers
+t servers SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tservers
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+string SimpleName SimpleType SingleVariableDeclaration SimpleName session
+tserver SimpleName InfixExpression StringLiteral :
+tserver SimpleName InfixExpression SimpleName session
+: StringLiteral InfixExpression SimpleName session
+active locks SimpleName MethodInvocation SimpleName contains
+active locks SimpleName MethodInvocation InfixExpression SimpleName tserver
+active locks SimpleName MethodInvocation InfixExpression StringLiteral :
+active locks SimpleName MethodInvocation InfixExpression SimpleName session
+contains SimpleName MethodInvocation InfixExpression SimpleName tserver
+contains SimpleName MethodInvocation InfixExpression StringLiteral :
+contains SimpleName MethodInvocation InfixExpression SimpleName session
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is lock held
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tserver
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is lock held
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+boolean PrimitiveType MethodDeclaration SimpleName is lock held
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tserver
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName session
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invalidate cache
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName invalidate cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleName invalidate cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+invalidate cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+invalidate cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName invalidate cache
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName invalidate cache
+is lock held SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+is lock held SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+is lock held SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName invalidate cache
+create locators SimpleName MethodInvocation SimpleName tservers
+create locators SimpleName MethodInvocation StringLiteral tserver
+create locators SimpleName MethodInvocation StringLiteral tserver
+create locators SimpleName MethodInvocation StringLiteral foo
+create locators SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet server lock checker
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation StringLiteral foo
+tservers SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet server lock checker
+tserver StringLiteral MethodInvocation StringLiteral tserver
+tserver StringLiteral MethodInvocation StringLiteral foo
+tserver StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet server lock checker
+tserver StringLiteral MethodInvocation StringLiteral foo
+tserver StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet server lock checker
+foo StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet server lock checker
+meta cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName create locators
+meta cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName tservers
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tserver
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tserver
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+tablet locator impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta cache
+nke SimpleName MethodInvocation StringLiteral foo
+ke SimpleName VariableDeclarationFragment MethodInvocation SimpleName nke
+ke SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+set location SimpleName MethodInvocation SimpleName tservers
+set location SimpleName MethodInvocation StringLiteral tserver
+set location SimpleName MethodInvocation SimpleName mte
+set location SimpleName MethodInvocation SimpleName ke
+set location SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral l
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral l
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral empty
+l StringLiteral MethodInvocation StringLiteral empty
+active locks SimpleName MethodInvocation SimpleName add
+active locks SimpleName MethodInvocation StringLiteral l :
+add SimpleName MethodInvocation StringLiteral l :
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+active locks SimpleName MethodInvocation SimpleName clear
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral a
+clear location SimpleName MethodInvocation SimpleName tservers
+clear location SimpleName MethodInvocation StringLiteral tserver
+clear location SimpleName MethodInvocation SimpleName mte
+clear location SimpleName MethodInvocation SimpleName ke
+clear location SimpleName MethodInvocation StringLiteral empty
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral empty
+set location SimpleName MethodInvocation SimpleName tservers
+set location SimpleName MethodInvocation StringLiteral tserver
+set location SimpleName MethodInvocation SimpleName mte
+set location SimpleName MethodInvocation SimpleName ke
+set location SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral l
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral l
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral empty
+l StringLiteral MethodInvocation StringLiteral empty
+active locks SimpleName MethodInvocation SimpleName add
+active locks SimpleName MethodInvocation StringLiteral l :
+add SimpleName MethodInvocation StringLiteral l :
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+clear location SimpleName MethodInvocation SimpleName tservers
+clear location SimpleName MethodInvocation StringLiteral tserver
+clear location SimpleName MethodInvocation SimpleName mte
+clear location SimpleName MethodInvocation SimpleName ke
+clear location SimpleName MethodInvocation StringLiteral empty
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral empty
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+set location SimpleName MethodInvocation SimpleName tservers
+set location SimpleName MethodInvocation StringLiteral tserver
+set location SimpleName MethodInvocation SimpleName mte
+set location SimpleName MethodInvocation SimpleName ke
+set location SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral l
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral l
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral empty
+l StringLiteral MethodInvocation StringLiteral empty
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+active locks SimpleName MethodInvocation SimpleName clear
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral a
+active locks SimpleName MethodInvocation SimpleName add
+active locks SimpleName MethodInvocation StringLiteral l :
+add SimpleName MethodInvocation StringLiteral l :
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+locate tablet test SimpleName MethodInvocation SimpleName meta cache
+locate tablet test SimpleName MethodInvocation StringLiteral a
+locate tablet test SimpleName MethodInvocation SimpleName ke
+locate tablet test SimpleName MethodInvocation StringLiteral l
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation SimpleName ke
+meta cache SimpleName MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral l
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+nm SimpleName MethodInvocation StringLiteral a
+nm SimpleName MethodInvocation StringLiteral cf cq v
+nm SimpleName MethodInvocation StringLiteral cf cq v
+a StringLiteral MethodInvocation StringLiteral cf cq v
+a StringLiteral MethodInvocation StringLiteral cf cq v
+cf cq v StringLiteral MethodInvocation StringLiteral cf cq v
+nm SimpleName MethodInvocation StringLiteral w
+nm SimpleName MethodInvocation StringLiteral cf cq v
+w StringLiteral MethodInvocation StringLiteral cf cq v
+nml SimpleName MethodInvocation MethodInvocation SimpleName nm
+nml SimpleName MethodInvocation MethodInvocation StringLiteral a
+nml SimpleName MethodInvocation MethodInvocation StringLiteral cf cq v
+nml SimpleName MethodInvocation MethodInvocation StringLiteral cf cq v
+nml SimpleName MethodInvocation MethodInvocation SimpleName nm
+nml SimpleName MethodInvocation MethodInvocation StringLiteral w
+nml SimpleName MethodInvocation MethodInvocation StringLiteral cf cq v
+nm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nm
+nm SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+nm SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cf cq v
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nm
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral cf cq v
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nm
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral cf cq v
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nm
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+cf cq v StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral cf cq v
+ml SimpleName VariableDeclarationFragment MethodInvocation SimpleName nml
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nm
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral a
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral cf cq v
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral cf cq v
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nm
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral w
+ml SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral cf cq v
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+nol SimpleName MethodInvocation StringLiteral a
+nol SimpleName MethodInvocation StringLiteral l
+nol SimpleName MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation SimpleName ke
+l StringLiteral MethodInvocation SimpleName ke
+nol SimpleName MethodInvocation StringLiteral w
+nol SimpleName MethodInvocation StringLiteral l
+nol SimpleName MethodInvocation SimpleName ke
+w StringLiteral MethodInvocation StringLiteral l
+w StringLiteral MethodInvocation SimpleName ke
+l StringLiteral MethodInvocation SimpleName ke
+cemb SimpleName MethodInvocation MethodInvocation SimpleName nol
+cemb SimpleName MethodInvocation MethodInvocation StringLiteral a
+cemb SimpleName MethodInvocation MethodInvocation StringLiteral l
+cemb SimpleName MethodInvocation MethodInvocation SimpleName ke
+cemb SimpleName MethodInvocation MethodInvocation SimpleName nol
+cemb SimpleName MethodInvocation MethodInvocation StringLiteral w
+cemb SimpleName MethodInvocation MethodInvocation StringLiteral l
+cemb SimpleName MethodInvocation MethodInvocation SimpleName ke
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nol
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nol
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nol
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nol
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral w
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+emb SimpleName VariableDeclarationFragment MethodInvocation SimpleName cemb
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nol
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral a
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral l
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ke
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nol
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral w
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral l
+emb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ke
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName ml
+run test SimpleName MethodInvocation SimpleName emb
+meta cache SimpleName MethodInvocation SimpleName ml
+meta cache SimpleName MethodInvocation SimpleName emb
+ml SimpleName MethodInvocation SimpleName emb
+clear location SimpleName MethodInvocation SimpleName tservers
+clear location SimpleName MethodInvocation StringLiteral tserver
+clear location SimpleName MethodInvocation SimpleName mte
+clear location SimpleName MethodInvocation SimpleName ke
+clear location SimpleName MethodInvocation StringLiteral empty
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral empty
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName ml
+run test SimpleName MethodInvocation SimpleName emb
+meta cache SimpleName MethodInvocation SimpleName ml
+meta cache SimpleName MethodInvocation SimpleName emb
+ml SimpleName MethodInvocation SimpleName emb
+active locks SimpleName MethodInvocation SimpleName clear
+emb SimpleName MethodInvocation SimpleName clear
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName ml
+run test SimpleName MethodInvocation SimpleName emb
+run test SimpleName MethodInvocation StringLiteral a
+run test SimpleName MethodInvocation StringLiteral w
+meta cache SimpleName MethodInvocation SimpleName ml
+meta cache SimpleName MethodInvocation SimpleName emb
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral w
+ml SimpleName MethodInvocation SimpleName emb
+ml SimpleName MethodInvocation StringLiteral a
+ml SimpleName MethodInvocation StringLiteral w
+emb SimpleName MethodInvocation StringLiteral a
+emb SimpleName MethodInvocation StringLiteral w
+a StringLiteral MethodInvocation StringLiteral w
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName ml
+run test SimpleName MethodInvocation SimpleName emb
+run test SimpleName MethodInvocation StringLiteral a
+run test SimpleName MethodInvocation StringLiteral w
+meta cache SimpleName MethodInvocation SimpleName ml
+meta cache SimpleName MethodInvocation SimpleName emb
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral w
+ml SimpleName MethodInvocation SimpleName emb
+ml SimpleName MethodInvocation StringLiteral a
+ml SimpleName MethodInvocation StringLiteral w
+emb SimpleName MethodInvocation StringLiteral a
+emb SimpleName MethodInvocation StringLiteral w
+a StringLiteral MethodInvocation StringLiteral w
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral m
+foo StringLiteral MethodInvocation StringLiteral m
+ke SimpleName VariableDeclarationFragment MethodInvocation SimpleName nke
+ke SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+ke SimpleName VariableDeclarationFragment MethodInvocation StringLiteral m
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral m
+foo StringLiteral MethodInvocation StringLiteral m
+ke SimpleName VariableDeclarationFragment MethodInvocation SimpleName nke
+ke SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+ke SimpleName VariableDeclarationFragment MethodInvocation StringLiteral m
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+set location SimpleName MethodInvocation SimpleName tservers
+set location SimpleName MethodInvocation StringLiteral tserver
+set location SimpleName MethodInvocation SimpleName mte
+set location SimpleName MethodInvocation SimpleName ke
+set location SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral l
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral l
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral empty
+l StringLiteral MethodInvocation StringLiteral empty
+set location SimpleName MethodInvocation SimpleName tservers
+set location SimpleName MethodInvocation StringLiteral tserver
+set location SimpleName MethodInvocation SimpleName mte
+set location SimpleName MethodInvocation SimpleName ke
+set location SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral tserver
+tservers SimpleName MethodInvocation SimpleName mte
+tservers SimpleName MethodInvocation SimpleName ke
+tservers SimpleName MethodInvocation StringLiteral l
+tservers SimpleName MethodInvocation StringLiteral empty
+tserver StringLiteral MethodInvocation SimpleName mte
+tserver StringLiteral MethodInvocation SimpleName ke
+tserver StringLiteral MethodInvocation StringLiteral l
+tserver StringLiteral MethodInvocation StringLiteral empty
+mte SimpleName MethodInvocation SimpleName ke
+mte SimpleName MethodInvocation StringLiteral l
+mte SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation StringLiteral l
+ke SimpleName MethodInvocation StringLiteral empty
+l StringLiteral MethodInvocation StringLiteral empty
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName ml
+run test SimpleName MethodInvocation SimpleName emb
+run test SimpleName MethodInvocation StringLiteral a
+run test SimpleName MethodInvocation StringLiteral w
+meta cache SimpleName MethodInvocation SimpleName ml
+meta cache SimpleName MethodInvocation SimpleName emb
+meta cache SimpleName MethodInvocation StringLiteral a
+meta cache SimpleName MethodInvocation StringLiteral w
+ml SimpleName MethodInvocation SimpleName emb
+ml SimpleName MethodInvocation StringLiteral a
+ml SimpleName MethodInvocation StringLiteral w
+emb SimpleName MethodInvocation StringLiteral a
+emb SimpleName MethodInvocation StringLiteral w
+a StringLiteral MethodInvocation StringLiteral w
+active locks SimpleName MethodInvocation SimpleName add
+active locks SimpleName MethodInvocation StringLiteral l :
+add SimpleName MethodInvocation StringLiteral l :

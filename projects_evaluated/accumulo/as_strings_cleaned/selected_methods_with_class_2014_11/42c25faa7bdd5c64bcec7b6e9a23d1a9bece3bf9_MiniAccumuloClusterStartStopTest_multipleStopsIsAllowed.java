@@ -1,0 +1,41 @@
+accumulo SimpleName MethodInvocation SimpleName start
+accumulo SimpleName MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation StringLiteral root
+accumulo SimpleName MethodInvocation StringLiteral super secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation StringLiteral super secret
+root StringLiteral MethodInvocation StringLiteral super secret
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral super secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation StringLiteral foo
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+create SimpleName MethodInvocation StringLiteral foo
+accumulo SimpleName MethodInvocation SimpleName stop
+accumulo SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName multiple stops is allowed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName multiple stops is allowed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName multiple stops is allowed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+multiple stops is allowed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName multiple stops is allowed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName multiple stops is allowed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

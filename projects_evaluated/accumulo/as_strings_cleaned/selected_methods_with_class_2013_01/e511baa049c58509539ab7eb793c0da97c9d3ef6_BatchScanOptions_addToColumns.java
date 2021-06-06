@@ -1,0 +1,23 @@
+scan column SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName scan column
+columns SimpleName FieldAccess MethodInvocation SimpleName add
+columns SimpleName FieldAccess MethodInvocation SimpleName elem
+add SimpleName MethodInvocation SimpleName elem
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to columns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan column
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem
+void PrimitiveType MethodDeclaration SimpleName add to columns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elem
+add to columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scan column
+add to columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem

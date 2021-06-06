@@ -1,0 +1,60 @@
+master client serviceclient QualifiedName SimpleType SingleVariableDeclaration SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+creds SimpleName MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation SimpleName shutdown tablet server
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName creds
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation SimpleName final server
+client SimpleName MethodInvocation SimpleName force
+shutdown tablet server SimpleName MethodInvocation MethodInvocation SimpleName tracer
+shutdown tablet server SimpleName MethodInvocation MethodInvocation SimpleName trace info
+shutdown tablet server SimpleName MethodInvocation MethodInvocation SimpleName creds
+shutdown tablet server SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+shutdown tablet server SimpleName MethodInvocation SimpleName final server
+shutdown tablet server SimpleName MethodInvocation SimpleName force
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation SimpleName final server
+trace info SimpleName MethodInvocation MethodInvocation SimpleName final server
+tracer SimpleName MethodInvocation MethodInvocation SimpleName force
+trace info SimpleName MethodInvocation MethodInvocation SimpleName force
+creds SimpleName MethodInvocation MethodInvocation SimpleName final server
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName final server
+creds SimpleName MethodInvocation MethodInvocation SimpleName force
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName force
+final server SimpleName MethodInvocation SimpleName force
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName master client serviceclient
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName master client serviceclient
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName client
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName master client serviceclient
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

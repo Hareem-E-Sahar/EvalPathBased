@@ -1,0 +1,135 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName originator metadata collection id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName originator server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName originator server type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName originator organization name
+type def patch SimpleName SimpleType SingleVariableDeclaration SimpleName type def patch
+local repository connector SimpleName MethodInvocation SimpleName get metadata collection
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName local repository connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+metadata collection SimpleName MethodInvocation SimpleName update type def
+metadata collection SimpleName MethodInvocation SimpleName type def patch
+update type def SimpleName MethodInvocation SimpleName type def patch
+updated type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+updated type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName update type def
+updated type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def patch
+type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated type def
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch successfully applied
+log SimpleName MethodInvocation SimpleName updated type def
+debug SimpleName MethodInvocation StringLiteral patch successfully applied
+debug SimpleName MethodInvocation SimpleName updated type def
+patch successfully applied StringLiteral MethodInvocation SimpleName updated type def
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch not applied because repository is not available
+log SimpleName MethodInvocation SimpleName type def patch
+debug SimpleName MethodInvocation StringLiteral patch not applied because repository is not available
+debug SimpleName MethodInvocation SimpleName type def patch
+patch not applied because repository is not available StringLiteral MethodInvocation SimpleName type def patch
+type def not known exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch not applied because type def does not exist
+log SimpleName MethodInvocation SimpleName type def patch
+debug SimpleName MethodInvocation StringLiteral patch not applied because type def does not exist
+debug SimpleName MethodInvocation SimpleName type def patch
+patch not applied because type def does not exist StringLiteral MethodInvocation SimpleName type def patch
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral type def not known exception
+log SimpleName MethodInvocation SimpleName error
+debug SimpleName MethodInvocation StringLiteral type def not known exception
+debug SimpleName MethodInvocation SimpleName error
+type def not known exception StringLiteral MethodInvocation SimpleName error
+patch error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch not applied because it is invalid
+log SimpleName MethodInvocation SimpleName type def patch
+debug SimpleName MethodInvocation StringLiteral patch not applied because it is invalid
+debug SimpleName MethodInvocation SimpleName type def patch
+patch not applied because it is invalid StringLiteral MethodInvocation SimpleName type def patch
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch error exception
+log SimpleName MethodInvocation SimpleName error
+debug SimpleName MethodInvocation StringLiteral patch error exception
+debug SimpleName MethodInvocation SimpleName error
+patch error exception StringLiteral MethodInvocation SimpleName error
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral patch not applied because of an error
+log SimpleName MethodInvocation SimpleName type def patch
+debug SimpleName MethodInvocation StringLiteral patch not applied because of an error
+debug SimpleName MethodInvocation SimpleName type def patch
+patch not applied because of an error StringLiteral MethodInvocation SimpleName type def patch
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral throwable
+log SimpleName MethodInvocation SimpleName error
+debug SimpleName MethodInvocation StringLiteral throwable
+debug SimpleName MethodInvocation SimpleName error
+throwable StringLiteral MethodInvocation SimpleName error
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process updated type def event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+void PrimitiveType MethodDeclaration SimpleName process updated type def event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process updated type def event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+originator metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+originator metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+originator metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+originator metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+originator server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+originator server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+originator server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+originator server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+originator server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+originator organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process updated type def event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process updated type def event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator server type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator organization name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def patch

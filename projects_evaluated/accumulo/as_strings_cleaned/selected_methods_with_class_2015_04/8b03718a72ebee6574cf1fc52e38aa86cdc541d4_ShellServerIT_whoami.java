@@ -1,0 +1,149 @@
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName get token
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral whoami
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral whoami
+exec SimpleName MethodInvocation BooleanLiteral true
+whoami StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation MethodInvocation SimpleName contains
+exec SimpleName MethodInvocation MethodInvocation SimpleName contains
+whoami StringLiteral MethodInvocation MethodInvocation SimpleName contains
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName contains
+ts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+exec SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+whoami StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+contains SimpleName MethodInvocation MethodInvocation SimpleName get principal
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ts
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral whoami
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+token SimpleName InstanceofExpression SimpleType SimpleName password token
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral secretsecret
+set SimpleName MethodInvocation StringLiteral secretsecret
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral createuser test user
+exec SimpleName MethodInvocation StringLiteral createuser test user
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral setauths u test user s
+exec SimpleName MethodInvocation StringLiteral setauths u test user s
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral getauths u test user
+exec SimpleName MethodInvocation StringLiteral getauths u test user
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+auths SimpleName VariableDeclarationFragment MethodInvocation StringLiteral getauths u test user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auths
+auths SimpleName MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation StringLiteral empty
+auths SimpleName MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation StringLiteral empty
+auths SimpleName MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation StringLiteral empty
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName auths
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName auths
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+auths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+auths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName auths
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+empty StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName auths
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+token SimpleName InstanceofExpression SimpleType SimpleName password token
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation StringLiteral secret
+set SimpleName MethodInvocation StringLiteral secret
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral user test user
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral user test user
+exec SimpleName MethodInvocation BooleanLiteral true
+user test user StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral whoami
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral whoami
+exec SimpleName MethodInvocation BooleanLiteral true
+whoami StringLiteral MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation MethodInvocation SimpleName contains
+exec SimpleName MethodInvocation MethodInvocation SimpleName contains
+whoami StringLiteral MethodInvocation MethodInvocation SimpleName contains
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName contains
+ts SimpleName MethodInvocation MethodInvocation StringLiteral test user
+exec SimpleName MethodInvocation MethodInvocation StringLiteral test user
+whoami StringLiteral MethodInvocation MethodInvocation StringLiteral test user
+true BooleanLiteral MethodInvocation MethodInvocation StringLiteral test user
+contains SimpleName MethodInvocation StringLiteral test user
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ts
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral whoami
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral test user
+get root password SimpleName MethodInvocation InfixExpression StringLiteral empty
+tsinput QualifiedName MethodInvocation SimpleName set
+tsinput QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+tsinput QualifiedName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root password
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral user root
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral user root
+exec SimpleName MethodInvocation BooleanLiteral true
+user root StringLiteral MethodInvocation BooleanLiteral true
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName whoami
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName whoami
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName whoami
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+whoami SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName whoami
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName whoami
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

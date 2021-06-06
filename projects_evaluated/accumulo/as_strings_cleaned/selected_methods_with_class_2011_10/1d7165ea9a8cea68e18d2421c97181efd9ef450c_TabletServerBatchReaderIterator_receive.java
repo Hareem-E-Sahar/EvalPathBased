@@ -1,0 +1,72 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+my entry SimpleName SimpleType ClassInstanceCreation SimpleName key
+my entry SimpleName SimpleType ClassInstanceCreation SimpleName value
+key SimpleName ClassInstanceCreation SimpleName value
+results queue SimpleName MethodInvocation SimpleName put
+results queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName my entry
+results queue SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+results queue SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName my entry
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tablet server batch reader iterator SimpleName ThisExpression FieldAccess SimpleName query thread pool
+tablet server batch reader iterator SimpleName ThisExpression FieldAccess MethodInvocation SimpleName is shutdown
+query thread pool SimpleName FieldAccess MethodInvocation SimpleName is shutdown
+failed to add batch scan result for key StringLiteral InfixExpression SimpleName key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to add batch scan result for key
+log SimpleName MethodInvocation InfixExpression SimpleName key
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed to add batch scan result for key
+debug SimpleName MethodInvocation InfixExpression SimpleName key
+debug SimpleName MethodInvocation SimpleName e
+failed to add batch scan result for key StringLiteral InfixExpression MethodInvocation SimpleName e
+key SimpleName InfixExpression MethodInvocation SimpleName e
+failed to add batch scan result for key StringLiteral InfixExpression SimpleName key
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to add batch scan result for key
+log SimpleName MethodInvocation InfixExpression SimpleName key
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to add batch scan result for key
+warn SimpleName MethodInvocation InfixExpression SimpleName key
+warn SimpleName MethodInvocation SimpleName e
+failed to add batch scan result for key StringLiteral InfixExpression MethodInvocation SimpleName e
+key SimpleName InfixExpression MethodInvocation SimpleName e
+fatal exception SimpleName Assignment SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName receive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName receive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName receive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

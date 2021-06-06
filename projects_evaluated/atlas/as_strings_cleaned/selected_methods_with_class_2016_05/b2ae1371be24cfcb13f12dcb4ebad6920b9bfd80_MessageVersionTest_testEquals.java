@@ -1,0 +1,105 @@
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message version
+version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . .
+message version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+version SimpleName MethodInvocation SimpleName equals
+version SimpleName MethodInvocation SimpleName version
+equals SimpleName MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName version
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test equals
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test equals
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test equals
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test equals SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test equals
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test equals
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

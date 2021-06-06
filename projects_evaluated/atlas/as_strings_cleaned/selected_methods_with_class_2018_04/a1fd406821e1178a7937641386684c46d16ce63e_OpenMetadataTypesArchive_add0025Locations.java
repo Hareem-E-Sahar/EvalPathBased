@@ -1,0 +1,34 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get location entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get location entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get nested location relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get nested location relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get adjacent location relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get adjacent location relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get asset location relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get asset location relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get mobile asset classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get mobile asset classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get fixed location classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get fixed location classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get secure location classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get secure location classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get cyber location classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get cyber location classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add locations
+void PrimitiveType MethodDeclaration SimpleName add locations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add locations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add locations

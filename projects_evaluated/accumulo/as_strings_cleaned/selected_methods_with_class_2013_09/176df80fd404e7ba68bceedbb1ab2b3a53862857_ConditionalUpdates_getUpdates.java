@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName column update
+public Modifier MethodDeclaration SimpleName get updates
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updates
+column update SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get updates
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get updates

@@ -1,0 +1,50 @@
+application properties SimpleName MethodInvocation SimpleName get
+atlas properties SimpleName Assignment MethodInvocation SimpleName application properties
+atlas properties SimpleName Assignment MethodInvocation SimpleName get
+atlas properties SimpleName MethodInvocation SimpleName get string
+atlas properties SimpleName MethodInvocation StringLiteral atlasrestaddress
+get string SimpleName MethodInvocation StringLiteral atlasrestaddress
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas properties
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral atlasrestaddress
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName atlas properties
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation StringLiteral atlasrestaddress
+service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas service
+atlas service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+service SimpleName MethodInvocation SimpleName init
+store SimpleName MethodInvocation SimpleName register listener
+store SimpleName MethodInvocation SimpleName service
+register listener SimpleName MethodInvocation SimpleName service
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+current user SimpleName MethodInvocation SimpleName authenticate
+current user SimpleName MethodInvocation MethodInvocation SimpleName system
+current user SimpleName MethodInvocation MethodInvocation SimpleName get property
+current user SimpleName MethodInvocation MethodInvocation StringLiteral username
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName system
+authenticate SimpleName MethodInvocation MethodInvocation SimpleName get property
+authenticate SimpleName MethodInvocation MethodInvocation StringLiteral username
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

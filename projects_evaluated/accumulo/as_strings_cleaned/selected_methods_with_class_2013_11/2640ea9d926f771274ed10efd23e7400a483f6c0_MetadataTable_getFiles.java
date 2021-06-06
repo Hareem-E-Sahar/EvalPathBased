@@ -1,0 +1,95 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src table id
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+cf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+cf SimpleName MethodInvocation SimpleName starts with
+cf SimpleName MethodInvocation StringLiteral ../
+starts with SimpleName MethodInvocation StringLiteral ../
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+../ StringLiteral InfixExpression SimpleName src table id
+../ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+../ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+../ StringLiteral InfixExpression MethodInvocation SimpleName get column qualifier
+src table id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+src table id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get key
+src table id SimpleName InfixExpression MethodInvocation SimpleName get column qualifier
+cf SimpleName Assignment InfixExpression StringLiteral ../
+cf SimpleName Assignment InfixExpression SimpleName src table id
+cf SimpleName Assignment InfixExpression MethodInvocation SimpleName get column qualifier
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation SimpleName cf
+add SimpleName MethodInvocation SimpleName cf
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName get files
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table id
+void PrimitiveType MethodDeclaration SimpleName get files
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src table id
+get files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+get files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet
+get files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src table id
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+tablet SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id

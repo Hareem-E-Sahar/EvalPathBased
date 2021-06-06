@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get referring vertex
+public Modifier MethodDeclaration Block ReturnStatement SimpleName referring vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get referring vertex
+get referring vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName referring vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referring vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referring vertex

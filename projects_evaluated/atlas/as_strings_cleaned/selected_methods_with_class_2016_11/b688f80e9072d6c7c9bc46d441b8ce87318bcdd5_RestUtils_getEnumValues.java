@@ -1,0 +1,56 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum element def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum defs
+atlas enum element def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum defs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum value
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum value
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName enum defs
+is not empty SimpleName MethodInvocation SimpleName enum defs
+atlas enum element def SimpleName SimpleType SingleVariableDeclaration SimpleName enum def
+enum def SimpleName MethodInvocation SimpleName get value
+enum def SimpleName MethodInvocation SimpleName get ordinal
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName enum def
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName enum def
+enum value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get ordinal
+enum def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+enum def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get ordinal
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get ordinal
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get ordinal
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName enum def
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get ordinal
+atlas enum element def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName enum defs
+enum def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName enum defs
+ret SimpleName MethodInvocation SimpleName size
+ret SimpleName MethodInvocation SimpleName to array
+ret SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName ret
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName enum value
+private Modifier MethodDeclaration SimpleName get enum values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum defs
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName enum value
+static Modifier MethodDeclaration SimpleName get enum values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum defs
+enum value SimpleName SimpleType ArrayType MethodDeclaration SimpleName get enum values
+get enum values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enum defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get enum values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get enum values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum defs

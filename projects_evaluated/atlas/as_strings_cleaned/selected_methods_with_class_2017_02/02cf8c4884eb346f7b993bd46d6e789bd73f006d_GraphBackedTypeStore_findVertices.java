@@ -1,0 +1,43 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+type names SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding vertices for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName type names
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation StringLiteral finding vertices for {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName type names
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+finding vertices for {} StringLiteral MethodInvocation MethodInvocation SimpleName type names
+finding vertices for {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph helper SimpleName MethodInvocation SimpleName get vertices for property values
+graph helper SimpleName MethodInvocation QualifiedName constantstypename property key
+graph helper SimpleName MethodInvocation SimpleName type names
+get vertices for property values SimpleName MethodInvocation QualifiedName constantstypename property key
+get vertices for property values SimpleName MethodInvocation SimpleName type names
+constantstypename property key QualifiedName MethodInvocation SimpleName type names
+found vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+found vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices for property values
+found vertices SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstypename property key
+found vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName type names
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find vertices
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find vertices
+find vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type names
+find vertices SimpleName MethodDeclaration SimpleType SimpleName repository exception
+find vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName found vertices
+type names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName find vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

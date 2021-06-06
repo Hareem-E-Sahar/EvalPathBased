@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+string SimpleName SimpleType SingleVariableDeclaration SimpleName application
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+distributed trace SimpleName MethodInvocation SimpleName enable
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName get instance
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName zoo reader writer
+distributed trace SimpleName MethodInvocation MethodInvocation SimpleName get instance
+distributed trace SimpleName MethodInvocation SimpleName application
+distributed trace SimpleName MethodInvocation SimpleName address
+enable SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+enable SimpleName MethodInvocation MethodInvocation SimpleName get instance
+enable SimpleName MethodInvocation MethodInvocation SimpleName zoo reader writer
+enable SimpleName MethodInvocation MethodInvocation SimpleName get instance
+enable SimpleName MethodInvocation SimpleName application
+enable SimpleName MethodInvocation SimpleName address
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zoo reader writer
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zoo reader writer
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName application
+get instance SimpleName MethodInvocation MethodInvocation SimpleName application
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName address
+get instance SimpleName MethodInvocation MethodInvocation SimpleName address
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName application
+get instance SimpleName MethodInvocation MethodInvocation SimpleName application
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName address
+get instance SimpleName MethodInvocation MethodInvocation SimpleName address
+application SimpleName MethodInvocation SimpleName address
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral creating remote sink for trace spans
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral creating remote sink for trace spans
+error SimpleName MethodInvocation SimpleName ex
+creating remote sink for trace spans StringLiteral MethodInvocation SimpleName ex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName enable tracing
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName application
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName enable tracing
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName application
+void PrimitiveType MethodDeclaration SimpleName enable tracing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName application
+enable tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+enable tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+enable tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+enable tracing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName application
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName application
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName enable tracing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName application
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName enable tracing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName application

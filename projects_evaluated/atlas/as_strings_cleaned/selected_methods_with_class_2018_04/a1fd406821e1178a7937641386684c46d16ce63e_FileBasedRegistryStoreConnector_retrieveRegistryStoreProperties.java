@@ -1,0 +1,139 @@
+file SimpleName SimpleType ClassInstanceCreation SimpleName registry store name
+registry store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+registry store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName registry store name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName registry store file
+cohort membership SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new registry store properties
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral retrieving cohort registry store properties
+debug SimpleName MethodInvocation StringLiteral retrieving cohort registry store properties
+file utils SimpleName MethodInvocation SimpleName read file to string
+file utils SimpleName MethodInvocation SimpleName registry store file
+file utils SimpleName MethodInvocation StringLiteral utf
+read file to string SimpleName MethodInvocation SimpleName registry store file
+read file to string SimpleName MethodInvocation StringLiteral utf
+registry store file SimpleName MethodInvocation StringLiteral utf
+registry store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName file utils
+registry store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName read file to string
+registry store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry store file
+registry store file contents SimpleName VariableDeclarationFragment MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName registry store file contents
+object mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object mapper
+object mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object mapper
+object mapper SimpleName MethodInvocation SimpleName read value
+object mapper SimpleName MethodInvocation SimpleName registry store file contents
+object mapper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cohort membership
+read value SimpleName MethodInvocation SimpleName registry store file contents
+read value SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cohort membership
+registry store file contents SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cohort membership
+new registry store properties SimpleName Assignment MethodInvocation SimpleName object mapper
+new registry store properties SimpleName Assignment MethodInvocation SimpleName read value
+new registry store properties SimpleName Assignment MethodInvocation SimpleName registry store file contents
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io exception
+action description SimpleName VariableDeclarationFragment StringLiteral retrieving cohort registry store properties
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral retrieving cohort registry store properties
+audit code SimpleName VariableDeclarationFragment QualifiedName omrs audit codecreate registry file
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit code
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs audit codecreate registry file
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName registry store name
+get formatted log message SimpleName MethodInvocation SimpleName registry store name
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+audit log SimpleName MethodInvocation MethodInvocation SimpleName registry store name
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation MethodInvocation SimpleName registry store name
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName registry store name
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registry store name
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registry store name
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registry store name
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName registry store name
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+registry store name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+registry store name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+registry store name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+registry store name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral new cohort registry store
+log SimpleName MethodInvocation SimpleName io exception
+debug SimpleName MethodInvocation StringLiteral new cohort registry store
+debug SimpleName MethodInvocation SimpleName io exception
+new cohort registry store StringLiteral MethodInvocation SimpleName io exception
+new registry store properties SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cohort membership
+private Modifier MethodDeclaration SimpleType SimpleName cohort membership
+private Modifier MethodDeclaration SimpleName retrieve registry store properties
+private Modifier MethodDeclaration Block ReturnStatement SimpleName new registry store properties
+cohort membership SimpleName SimpleType MethodDeclaration SimpleName retrieve registry store properties
+retrieve registry store properties SimpleName MethodDeclaration Block ReturnStatement SimpleName new registry store properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cohort membership
+public Modifier TypeDeclaration MethodDeclaration SimpleName retrieve registry store properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cohort membership
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retrieve registry store properties

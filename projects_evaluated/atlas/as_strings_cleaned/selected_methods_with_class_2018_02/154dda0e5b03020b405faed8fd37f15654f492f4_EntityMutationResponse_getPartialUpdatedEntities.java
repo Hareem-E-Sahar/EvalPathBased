@@ -1,0 +1,14 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationpartial update
+get SimpleName MethodInvocation QualifiedName entity operationpartial update
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SimpleName get partial updated entities
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get partial updated entities
+atlas entity header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get partial updated entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partial updated entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partial updated entities

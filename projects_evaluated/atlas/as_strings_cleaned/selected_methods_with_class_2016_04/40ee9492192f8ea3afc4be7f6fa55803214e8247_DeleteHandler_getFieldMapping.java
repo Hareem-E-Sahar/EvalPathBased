@@ -1,0 +1,38 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+hierarchical type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName field mapping
+struct type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName field mapping
+type StringLiteral InfixExpression SimpleName type
+type StringLiteral InfixExpression StringLiteral doesnt have any fields
+type SimpleName InfixExpression StringLiteral doesnt have any fields
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral doesnt have any fields
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName trait
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName trait
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+protected Modifier MethodDeclaration SimpleType SimpleName field mapping
+protected Modifier MethodDeclaration SimpleName get field mapping
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+field mapping SimpleName SimpleType MethodDeclaration SimpleName get field mapping
+field mapping SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get field mapping SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+get field mapping SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName field mapping
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field mapping
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName field mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field mapping
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

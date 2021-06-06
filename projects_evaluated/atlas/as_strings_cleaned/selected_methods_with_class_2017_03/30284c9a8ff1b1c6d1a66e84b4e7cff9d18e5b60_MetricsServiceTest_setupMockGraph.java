@@ -1,0 +1,59 @@
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas graph
+mock graph SimpleName Assignment MethodInvocation SimpleName mock
+eq SimpleName MethodInvocation BooleanLiteral false
+mock graph SimpleName MethodInvocation SimpleName execute gremlin script
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName any string
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName eq
+mock graph SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any string
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName eq
+execute gremlin script SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+when SimpleName MethodInvocation MethodInvocation SimpleName mock graph
+when SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+answer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+invocation on mock SimpleName SimpleType SingleVariableDeclaration SimpleName invocation on mock
+invocation on mock SimpleName MethodInvocation SimpleName get arguments
+invocation on mock SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get arguments SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+string SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+contains SimpleName MethodInvocation StringLiteral count
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+object SimpleName SimpleType MethodDeclaration SimpleName answer
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName invocation on mock
+answer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation on mock
+answer SimpleName MethodDeclaration SimpleType SimpleName throwable
+invocation on mock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+execute gremlin script SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup mock graph
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName setup mock graph
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+setup mock graph SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup mock graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup mock graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

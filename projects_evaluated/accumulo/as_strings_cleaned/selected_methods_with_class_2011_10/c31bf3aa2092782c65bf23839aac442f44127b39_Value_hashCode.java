@@ -1,0 +1,25 @@
+value SimpleName FieldAccess FieldAccess SimpleName length
+writable comparator SimpleName MethodInvocation SimpleName hash bytes
+writable comparator SimpleName MethodInvocation SimpleName value
+writable comparator SimpleName MethodInvocation FieldAccess FieldAccess SimpleName value
+writable comparator SimpleName MethodInvocation FieldAccess SimpleName length
+hash bytes SimpleName MethodInvocation SimpleName value
+hash bytes SimpleName MethodInvocation FieldAccess FieldAccess SimpleName value
+hash bytes SimpleName MethodInvocation FieldAccess SimpleName length
+value SimpleName MethodInvocation FieldAccess FieldAccess SimpleName value
+value SimpleName MethodInvocation FieldAccess SimpleName length
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

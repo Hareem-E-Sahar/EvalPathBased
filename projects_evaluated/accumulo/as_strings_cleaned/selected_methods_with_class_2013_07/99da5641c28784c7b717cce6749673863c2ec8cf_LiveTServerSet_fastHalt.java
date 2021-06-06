@@ -1,0 +1,80 @@
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName conf
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation SimpleName conf
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+address SimpleName MethodInvocation SimpleName conf
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName instance
+get SimpleName MethodInvocation MethodInvocation SimpleName instance
+to thrift SimpleName MethodInvocation SimpleName instance
+lock string SimpleName MethodInvocation SimpleName lock
+client SimpleName MethodInvocation SimpleName fast halt
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName instance
+client SimpleName MethodInvocation MethodInvocation SimpleName lock string
+client SimpleName MethodInvocation MethodInvocation SimpleName lock
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName tracer
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName trace info
+fast halt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+fast halt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName instance
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName lock string
+fast halt SimpleName MethodInvocation MethodInvocation SimpleName lock
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fast halt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName fast halt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+fast halt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+fast halt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+fast halt SimpleName MethodDeclaration SimpleType SimpleName t exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fast halt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fast halt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

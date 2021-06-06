@@ -1,0 +1,31 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file SimpleName MethodInvocation SimpleName get name
+file SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get name SimpleName MethodInvocation MethodInvocation SimpleName starts with
+file SimpleName MethodInvocation MethodInvocation StringLiteral partm
+get name SimpleName MethodInvocation MethodInvocation StringLiteral partm
+starts with SimpleName MethodInvocation StringLiteral partm
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName accept
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName accept
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+boolean PrimitiveType MethodDeclaration SimpleName accept
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName accept
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName accept
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

@@ -1,0 +1,310 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName db reference
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table reference
+table SimpleName SimpleType SingleVariableDeclaration SimpleName hive table
+hive table SimpleName MethodInvocation SimpleName get db name
+hive table SimpleName MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral importing objects from {}.{}
+log SimpleName MethodInvocation MethodInvocation SimpleName hive table
+log SimpleName MethodInvocation MethodInvocation SimpleName get db name
+log SimpleName MethodInvocation MethodInvocation SimpleName hive table
+log SimpleName MethodInvocation MethodInvocation SimpleName get table name
+info SimpleName MethodInvocation StringLiteral importing objects from {}.{}
+info SimpleName MethodInvocation MethodInvocation SimpleName hive table
+info SimpleName MethodInvocation MethodInvocation SimpleName get db name
+info SimpleName MethodInvocation MethodInvocation SimpleName hive table
+info SimpleName MethodInvocation MethodInvocation SimpleName get table name
+importing objects from {}.{} StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+importing objects from {}.{} StringLiteral MethodInvocation MethodInvocation SimpleName get db name
+importing objects from {}.{} StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+importing objects from {}.{} StringLiteral MethodInvocation MethodInvocation SimpleName get table name
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+hive data typeshive table QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive table
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+table reference SimpleName Assignment ClassInstanceCreation SimpleType SimpleName referenceable
+table reference SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive table
+table reference SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+hive table SimpleName MethodInvocation SimpleName get db name
+hive table SimpleName MethodInvocation SimpleName get table name
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName get table name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName hive table
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get db name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName hive table
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get table name
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive table
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get db name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive table
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation QualifiedName hive data model generatorname
+table reference SimpleName MethodInvocation SimpleName table qualified name
+set SimpleName MethodInvocation QualifiedName hive data model generatorname
+set SimpleName MethodInvocation SimpleName table qualified name
+hive data model generatorname QualifiedName MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation SimpleName get table name
+hive table SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get table name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation QualifiedName hive data model generatortable name
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table reference SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+set SimpleName MethodInvocation QualifiedName hive data model generatortable name
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+set SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+hive data model generatortable name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive data model generatortable name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+hive data model generatortable name QualifiedName MethodInvocation MethodInvocation SimpleName to lower case
+hive table SimpleName MethodInvocation SimpleName get owner
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral owner
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get owner
+set SimpleName MethodInvocation StringLiteral owner
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get owner
+owner StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+owner StringLiteral MethodInvocation MethodInvocation SimpleName get owner
+hive table SimpleName MethodInvocation SimpleName get metadata
+hive table SimpleName MethodInvocation MethodInvocation SimpleName get property
+get metadata SimpleName MethodInvocation MethodInvocation SimpleName get property
+hive table SimpleName MethodInvocation MethodInvocation QualifiedName hive metastore constantsddl time
+get metadata SimpleName MethodInvocation MethodInvocation QualifiedName hive metastore constantsddl time
+get property SimpleName MethodInvocation QualifiedName hive metastore constantsddl time
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral create time
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get property
+table reference SimpleName MethodInvocation MethodInvocation QualifiedName hive metastore constantsddl time
+set SimpleName MethodInvocation StringLiteral create time
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata
+set SimpleName MethodInvocation MethodInvocation SimpleName get property
+set SimpleName MethodInvocation MethodInvocation QualifiedName hive metastore constantsddl time
+create time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+create time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata
+create time StringLiteral MethodInvocation MethodInvocation SimpleName get property
+create time StringLiteral MethodInvocation MethodInvocation QualifiedName hive metastore constantsddl time
+hive table SimpleName MethodInvocation SimpleName get last access time
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral last access time
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get last access time
+set SimpleName MethodInvocation StringLiteral last access time
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get last access time
+last access time StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+last access time StringLiteral MethodInvocation MethodInvocation SimpleName get last access time
+hive table SimpleName MethodInvocation SimpleName get retention
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral retention
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get retention
+set SimpleName MethodInvocation StringLiteral retention
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get retention
+retention StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+retention StringLiteral MethodInvocation MethodInvocation SimpleName get retention
+hive table SimpleName MethodInvocation SimpleName get parameters
+hive table SimpleName MethodInvocation MethodInvocation SimpleName get
+get parameters SimpleName MethodInvocation MethodInvocation SimpleName get
+hive table SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorcomment
+get parameters SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorcomment
+get SimpleName MethodInvocation QualifiedName hive data model generatorcomment
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation QualifiedName hive data model generatorcomment
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parameters
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get
+table reference SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorcomment
+set SimpleName MethodInvocation QualifiedName hive data model generatorcomment
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parameters
+set SimpleName MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorcomment
+hive data model generatorcomment QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive data model generatorcomment QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get parameters
+hive data model generatorcomment QualifiedName MethodInvocation MethodInvocation SimpleName get
+hive data model generatorcomment QualifiedName MethodInvocation MethodInvocation QualifiedName hive data model generatorcomment
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation QualifiedName hive data model generatordb
+table reference SimpleName MethodInvocation SimpleName db reference
+set SimpleName MethodInvocation QualifiedName hive data model generatordb
+set SimpleName MethodInvocation SimpleName db reference
+hive data model generatordb QualifiedName MethodInvocation SimpleName db reference
+hive table SimpleName MethodInvocation SimpleName get cols
+get columns SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get columns SimpleName MethodInvocation MethodInvocation SimpleName get cols
+get columns SimpleName MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+get cols SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get columns
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cols
+table reference SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+set SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+set SimpleName MethodInvocation MethodInvocation SimpleName get columns
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cols
+set SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+hive data model generatorcolumns QualifiedName MethodInvocation MethodInvocation SimpleName get columns
+hive data model generatorcolumns QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive data model generatorcolumns QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get cols
+hive data model generatorcolumns QualifiedName MethodInvocation MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation SimpleName get sd
+fill storage desc struct SimpleName MethodInvocation MethodInvocation SimpleName hive table
+fill storage desc struct SimpleName MethodInvocation MethodInvocation SimpleName get sd
+fill storage desc struct SimpleName MethodInvocation SimpleName table qualified name
+fill storage desc struct SimpleName MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+get sd SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+get sd SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+table qualified name SimpleName MethodInvocation SimpleName table qualified name
+sd referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName fill storage desc struct
+sd referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive table
+sd referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get sd
+sd referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName table qualified name
+sd referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName table qualified name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd referenceable
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral sd
+table reference SimpleName MethodInvocation SimpleName sd referenceable
+set SimpleName MethodInvocation StringLiteral sd
+set SimpleName MethodInvocation SimpleName sd referenceable
+sd StringLiteral MethodInvocation SimpleName sd referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+hive table SimpleName MethodInvocation SimpleName get partition keys
+get columns SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get columns SimpleName MethodInvocation MethodInvocation SimpleName get partition keys
+get columns SimpleName MethodInvocation SimpleName table qualified name
+hive table SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+get partition keys SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+part keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get columns
+part keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive table
+part keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get partition keys
+part keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName table qualified name
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral partition keys
+table reference SimpleName MethodInvocation SimpleName part keys
+set SimpleName MethodInvocation StringLiteral partition keys
+set SimpleName MethodInvocation SimpleName part keys
+partition keys StringLiteral MethodInvocation SimpleName part keys
+hive table SimpleName MethodInvocation SimpleName get parameters
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral parameters
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set SimpleName MethodInvocation StringLiteral parameters
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+parameters StringLiteral MethodInvocation MethodInvocation SimpleName get parameters
+hive table SimpleName MethodInvocation SimpleName get view original text
+hive table SimpleName MethodInvocation SimpleName get view original text
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral view original text
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get view original text
+set SimpleName MethodInvocation StringLiteral view original text
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get view original text
+view original text StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+view original text StringLiteral MethodInvocation MethodInvocation SimpleName get view original text
+hive table SimpleName MethodInvocation SimpleName get view expanded text
+hive table SimpleName MethodInvocation SimpleName get view expanded text
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral view expanded text
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName get view expanded text
+set SimpleName MethodInvocation StringLiteral view expanded text
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName get view expanded text
+view expanded text StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+view expanded text StringLiteral MethodInvocation MethodInvocation SimpleName get view expanded text
+hive table SimpleName MethodInvocation SimpleName get table type
+hive table SimpleName MethodInvocation MethodInvocation SimpleName name
+get table type SimpleName MethodInvocation MethodInvocation SimpleName name
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation SimpleName table type attr
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table type
+table reference SimpleName MethodInvocation MethodInvocation SimpleName name
+set SimpleName MethodInvocation SimpleName table type attr
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table type
+set SimpleName MethodInvocation MethodInvocation SimpleName name
+table type attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+table type attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table type
+table type attr SimpleName MethodInvocation MethodInvocation SimpleName name
+hive table SimpleName MethodInvocation SimpleName is temporary
+table reference SimpleName MethodInvocation SimpleName set
+table reference SimpleName MethodInvocation StringLiteral temporary
+table reference SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table reference SimpleName MethodInvocation MethodInvocation SimpleName is temporary
+set SimpleName MethodInvocation StringLiteral temporary
+set SimpleName MethodInvocation MethodInvocation SimpleName hive table
+set SimpleName MethodInvocation MethodInvocation SimpleName is temporary
+temporary StringLiteral MethodInvocation MethodInvocation SimpleName hive table
+temporary StringLiteral MethodInvocation MethodInvocation SimpleName is temporary
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create or update table instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive table
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create or update table instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive table
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db reference
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table reference
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+create or update table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive table
+create or update table instance SimpleName MethodDeclaration SimpleType SimpleName exception
+create or update table instance SimpleName MethodDeclaration Block ReturnStatement SimpleName table reference
+db reference SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table reference
+db reference SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table
+db reference SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table reference SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table
+table reference SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+hive table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create or update table instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create or update table instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

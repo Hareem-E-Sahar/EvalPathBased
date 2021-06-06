@@ -1,0 +1,178 @@
+runtime SimpleName MethodInvocation SimpleName get runtime
+mini accumulo cluster SimpleName ThisExpression MethodInvocation SimpleName stop
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+runtime SimpleName MethodInvocation MethodInvocation SimpleName add shutdown hook
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName add shutdown hook
+add shutdown hook SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thread
+zoo keeper server main SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+zoo cfg file SimpleName MethodInvocation SimpleName get absolute path
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName main
+exec SimpleName MethodInvocation QualifiedName server typezookeeper
+exec SimpleName MethodInvocation MethodInvocation SimpleName get name
+exec SimpleName MethodInvocation MethodInvocation SimpleName zoo cfg file
+exec SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+main SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName server typezookeeper
+server typezookeeper QualifiedName MethodInvocation MethodInvocation SimpleName get name
+server typezookeeper QualifiedName MethodInvocation MethodInvocation SimpleName zoo cfg file
+server typezookeeper QualifiedName MethodInvocation MethodInvocation SimpleName get absolute path
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zoo cfg file
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+zoo keeper process SimpleName Assignment MethodInvocation SimpleName exec
+zoo keeper process SimpleName Assignment MethodInvocation QualifiedName server typezookeeper
+zoo keeper process SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name
+zoo keeper process SimpleName Assignment MethodInvocation MethodInvocation SimpleName zoo cfg file
+zoo keeper process SimpleName Assignment MethodInvocation MethodInvocation SimpleName get absolute path
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+config SimpleName MethodInvocation SimpleName get instance name
+config SimpleName MethodInvocation SimpleName get root password
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName initialize
+exec SimpleName MethodInvocation StringLiteral instancename
+exec SimpleName MethodInvocation MethodInvocation SimpleName config
+exec SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+exec SimpleName MethodInvocation StringLiteral password
+exec SimpleName MethodInvocation MethodInvocation SimpleName config
+exec SimpleName MethodInvocation MethodInvocation SimpleName get root password
+initialize SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral instancename
+initialize SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral password
+initialize SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral username
+instancename StringLiteral MethodInvocation MethodInvocation SimpleName config
+instancename StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+instancename StringLiteral MethodInvocation StringLiteral password
+instancename StringLiteral MethodInvocation MethodInvocation SimpleName config
+instancename StringLiteral MethodInvocation MethodInvocation SimpleName get root password
+instancename StringLiteral MethodInvocation StringLiteral username
+instancename StringLiteral MethodInvocation StringLiteral root
+config SimpleName MethodInvocation MethodInvocation StringLiteral password
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral password
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+config SimpleName MethodInvocation MethodInvocation StringLiteral username
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral username
+config SimpleName MethodInvocation MethodInvocation StringLiteral root
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral root
+password StringLiteral MethodInvocation MethodInvocation SimpleName config
+password StringLiteral MethodInvocation MethodInvocation SimpleName get root password
+password StringLiteral MethodInvocation StringLiteral username
+password StringLiteral MethodInvocation StringLiteral root
+config SimpleName MethodInvocation MethodInvocation StringLiteral username
+get root password SimpleName MethodInvocation MethodInvocation StringLiteral username
+config SimpleName MethodInvocation MethodInvocation StringLiteral root
+get root password SimpleName MethodInvocation MethodInvocation StringLiteral root
+username StringLiteral MethodInvocation StringLiteral root
+init process SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+init process SimpleName VariableDeclarationFragment MethodInvocation StringLiteral instancename
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance name
+init process SimpleName VariableDeclarationFragment MethodInvocation StringLiteral password
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get root password
+init process SimpleName VariableDeclarationFragment MethodInvocation StringLiteral username
+init process SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName init process
+init process SimpleName MethodInvocation SimpleName wait for
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName init process
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName init process
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wait for
+ret SimpleName InfixExpression NumberLiteral empty
+initialize process returned StringLiteral InfixExpression SimpleName ret
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral initialize process returned
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ret
+initialized SimpleName Assignment BooleanLiteral true
+tablet server processes SimpleName MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet server processes
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName tablet server processes
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName size
+config SimpleName MethodInvocation SimpleName get num tservers
+i SimpleName InfixExpression MethodInvocation SimpleName config
+i SimpleName InfixExpression MethodInvocation SimpleName get num tservers
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName tablet server
+exec SimpleName MethodInvocation QualifiedName server typetablet server
+tablet server SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName server typetablet server
+tablet server processes SimpleName MethodInvocation SimpleName add
+tablet server processes SimpleName MethodInvocation MethodInvocation SimpleName exec
+tablet server processes SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+add SimpleName MethodInvocation MethodInvocation SimpleName exec
+add SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+ret SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+set goal state SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+master goal statenormal QualifiedName MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName main
+exec SimpleName MethodInvocation MethodInvocation SimpleName get name
+exec SimpleName MethodInvocation MethodInvocation QualifiedName master goal statenormal
+exec SimpleName MethodInvocation MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName master goal statenormal
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+master goal statenormal QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName exec
+ret SimpleName Assignment MethodInvocation SimpleName wait for
+ret SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+ret SimpleName InfixExpression NumberLiteral empty
+could not set master goal state process returned StringLiteral InfixExpression SimpleName ret
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not set master goal state process returned
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ret
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName master
+exec SimpleName MethodInvocation QualifiedName server typemaster
+master SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName server typemaster
+master process SimpleName Assignment MethodInvocation SimpleName exec
+master process SimpleName Assignment MethodInvocation QualifiedName server typemaster
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start SimpleName MethodDeclaration SimpleType SimpleName io exception
+start SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

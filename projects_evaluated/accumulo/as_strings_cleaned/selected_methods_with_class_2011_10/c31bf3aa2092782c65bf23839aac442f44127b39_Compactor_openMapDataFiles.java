@@ -1,0 +1,225 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lg name
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers
+file skv iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+files to compact SimpleName MethodInvocation SimpleName size
+iters SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName files to compact
+iters SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map file
+files to compact SimpleName MethodInvocation SimpleName key set
+file operations SimpleName MethodInvocation SimpleName get instance
+file factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName file operations
+file factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+file operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file factory
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+server configuration SimpleName MethodInvocation SimpleName get table configuration
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get table configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName to string
+table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName server configuration
+table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table configuration
+table conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table conf
+file factory SimpleName MethodInvocation SimpleName open reader
+file factory SimpleName MethodInvocation SimpleName map file
+file factory SimpleName MethodInvocation BooleanLiteral false
+file factory SimpleName MethodInvocation SimpleName fs
+file factory SimpleName MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName map file
+open reader SimpleName MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName table conf
+map file SimpleName MethodInvocation BooleanLiteral false
+map file SimpleName MethodInvocation SimpleName fs
+map file SimpleName MethodInvocation SimpleName conf
+map file SimpleName MethodInvocation SimpleName table conf
+false BooleanLiteral MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation SimpleName conf
+false BooleanLiteral MethodInvocation SimpleName table conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName table conf
+conf SimpleName MethodInvocation SimpleName table conf
+reader SimpleName Assignment MethodInvocation SimpleName file factory
+reader SimpleName Assignment MethodInvocation SimpleName open reader
+reader SimpleName Assignment MethodInvocation SimpleName map file
+reader SimpleName Assignment MethodInvocation BooleanLiteral false
+reader SimpleName Assignment MethodInvocation SimpleName fs
+reader SimpleName Assignment MethodInvocation SimpleName conf
+reader SimpleName Assignment MethodInvocation SimpleName table conf
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName map file
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName reader
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName map file
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+to string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reader
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reader
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName reader
+map file SimpleName ClassInstanceCreation BooleanLiteral false
+map file SimpleName ClassInstanceCreation SimpleName reader
+false BooleanLiteral ClassInstanceCreation SimpleName reader
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName problem reporting iterator
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName map file
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName reader
+files to compact SimpleName MethodInvocation SimpleName get
+files to compact SimpleName MethodInvocation SimpleName map file
+get SimpleName MethodInvocation SimpleName map file
+files to compact SimpleName MethodInvocation MethodInvocation SimpleName is time set
+get SimpleName MethodInvocation MethodInvocation SimpleName is time set
+map file SimpleName MethodInvocation MethodInvocation SimpleName is time set
+files to compact SimpleName MethodInvocation SimpleName get
+files to compact SimpleName MethodInvocation SimpleName map file
+get SimpleName MethodInvocation SimpleName map file
+files to compact SimpleName MethodInvocation MethodInvocation SimpleName get time
+get SimpleName MethodInvocation MethodInvocation SimpleName get time
+map file SimpleName MethodInvocation MethodInvocation SimpleName get time
+time setting iterator SimpleName SimpleType ClassInstanceCreation SimpleName iter
+time setting iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get time
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName files to compact
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName map file
+iter SimpleName ClassInstanceCreation MethodInvocation SimpleName get time
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName time setting iterator
+iter SimpleName Assignment ClassInstanceCreation SimpleName iter
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get time
+iters SimpleName MethodInvocation SimpleName add
+iters SimpleName MethodInvocation SimpleName iter
+add SimpleName MethodInvocation SimpleName iter
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+problem reports SimpleName MethodInvocation SimpleName get instance
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+problem report SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+problem report SimpleName SimpleType ClassInstanceCreation QualifiedName problem typefile read
+problem report SimpleName SimpleType ClassInstanceCreation SimpleName map file
+problem report SimpleName SimpleType ClassInstanceCreation SimpleName e
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+to string SimpleName MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName map file
+extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+problem typefile read QualifiedName ClassInstanceCreation SimpleName map file
+problem typefile read QualifiedName ClassInstanceCreation SimpleName e
+map file SimpleName ClassInstanceCreation SimpleName e
+problem reports SimpleName MethodInvocation MethodInvocation SimpleName report
+get instance SimpleName MethodInvocation MethodInvocation SimpleName report
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName map file
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+report SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName problem report
+report SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+report SimpleName MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+report SimpleName MethodInvocation ClassInstanceCreation SimpleName map file
+report SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+some problem opening map file StringLiteral InfixExpression SimpleName map file
+some problem opening map file StringLiteral InfixExpression StringLiteral empty
+some problem opening map file StringLiteral InfixExpression MethodInvocation SimpleName e
+some problem opening map file StringLiteral InfixExpression MethodInvocation SimpleName get message
+map file SimpleName InfixExpression StringLiteral empty
+map file SimpleName InfixExpression MethodInvocation SimpleName e
+map file SimpleName InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral some problem opening map file
+log SimpleName MethodInvocation InfixExpression SimpleName map file
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral some problem opening map file
+warn SimpleName MethodInvocation InfixExpression SimpleName map file
+warn SimpleName MethodInvocation InfixExpression StringLiteral empty
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+some problem opening map file StringLiteral InfixExpression MethodInvocation SimpleName e
+map file SimpleName InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+file skv iterator SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+reader SimpleName MethodInvocation SimpleName close
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to close map file
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral failed to close map file
+warn SimpleName MethodInvocation SimpleName e
+failed to close map file StringLiteral MethodInvocation SimpleName e
+file skv iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName readers
+reader SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName readers
+readers SimpleName MethodInvocation SimpleName clear
+e SimpleName InstanceofExpression SimpleType SimpleName io exception
+io exception SimpleName SimpleType CastExpression SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to open map data files
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to open map data files StringLiteral ClassInstanceCreation SimpleName e
+map file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName files to compact
+map file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName open map data files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lg name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName readers
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName open map data files
+open map data files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+open map data files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lg name
+open map data files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName readers
+open map data files SimpleName MethodDeclaration SimpleType SimpleName io exception
+open map data files SimpleName MethodDeclaration Block ReturnStatement SimpleName iters
+lg name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+lg name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+readers SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName open map data files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lg name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open map data files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lg name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

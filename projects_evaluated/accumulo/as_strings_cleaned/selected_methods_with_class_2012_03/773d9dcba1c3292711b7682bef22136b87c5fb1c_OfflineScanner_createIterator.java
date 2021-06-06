@@ -1,0 +1,240 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName abs files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName abs files
+accumulo configuration SimpleName MethodInvocation SimpleName get table configuration
+accumulo configuration SimpleName MethodInvocation SimpleName conn
+accumulo configuration SimpleName MethodInvocation SimpleName table id
+get table configuration SimpleName MethodInvocation SimpleName conn
+get table configuration SimpleName MethodInvocation SimpleName table id
+conn SimpleName MethodInvocation SimpleName table id
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table configuration
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acu table conf
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+file util SimpleName MethodInvocation SimpleName get file system
+file util SimpleName MethodInvocation SimpleName conf
+file util SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+file util SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+get file system SimpleName MethodInvocation SimpleName conf
+get file system SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file util
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reader
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reader
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reader
+file skv iterator SimpleName SimpleType CastExpression SimpleName reader
+reader SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName close
+reader SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName readers
+readers SimpleName MethodInvocation SimpleName clear
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file operations SimpleName MethodInvocation SimpleName get instance
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName file
+get instance SimpleName MethodInvocation MethodInvocation SimpleName file
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName file
+open reader SimpleName MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName acu table conf
+file SimpleName MethodInvocation BooleanLiteral false
+file SimpleName MethodInvocation SimpleName fs
+file SimpleName MethodInvocation SimpleName conf
+file SimpleName MethodInvocation SimpleName acu table conf
+false BooleanLiteral MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation SimpleName conf
+false BooleanLiteral MethodInvocation SimpleName acu table conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName acu table conf
+conf SimpleName MethodInvocation SimpleName acu table conf
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+reader SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu table conf
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName abs files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName abs files
+multi iterator SimpleName SimpleType ClassInstanceCreation SimpleName readers
+multi iterator SimpleName SimpleType ClassInstanceCreation SimpleName extent
+readers SimpleName ClassInstanceCreation SimpleName extent
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi iterator
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName readers
+multi iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName extent
+multi iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName multi iter
+iter env SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName offline iterator environment
+offline iterator environment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter env
+deleting iterator SimpleName SimpleType ClassInstanceCreation SimpleName multi iter
+deleting iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+multi iter SimpleName ClassInstanceCreation BooleanLiteral false
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName deleting iterator
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName multi iter
+del iter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+deleting iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName del iter
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName optionsfetched columns
+column SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName optionsfetched columns
+column qualifier filter SimpleName SimpleType ClassInstanceCreation SimpleName del iter
+column qualifier filter SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName optionsfetched columns
+del iter SimpleName ClassInstanceCreation ClassInstanceCreation QualifiedName optionsfetched columns
+col filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column qualifier filter
+col filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName del iter
+col filter SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName optionsfetched columns
+column qualifier filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col filter
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName default security label
+acu table conf SimpleName MethodInvocation SimpleName get
+acu table conf SimpleName MethodInvocation QualifiedName propertytable default scantime visibility
+get SimpleName MethodInvocation QualifiedName propertytable default scantime visibility
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName acu table conf
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertytable default scantime visibility
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName acu table conf
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName propertytable default scantime visibility
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cv SimpleName MethodInvocation SimpleName get expression
+default security label SimpleName Assignment MethodInvocation SimpleName cv
+default security label SimpleName Assignment MethodInvocation SimpleName get expression
+visibility filter SimpleName SimpleType ClassInstanceCreation SimpleName col filter
+visibility filter SimpleName SimpleType ClassInstanceCreation SimpleName authorizations
+visibility filter SimpleName SimpleType ClassInstanceCreation SimpleName default security label
+col filter SimpleName ClassInstanceCreation SimpleName authorizations
+col filter SimpleName ClassInstanceCreation SimpleName default security label
+authorizations SimpleName ClassInstanceCreation SimpleName default security label
+vis filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName visibility filter
+vis filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName col filter
+vis filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName authorizations
+vis filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName default security label
+visibility filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vis filter
+iterator util SimpleName MethodInvocation SimpleName load iterators
+iterator util SimpleName MethodInvocation QualifiedName iterator scopescan
+iterator util SimpleName MethodInvocation SimpleName vis filter
+iterator util SimpleName MethodInvocation SimpleName extent
+iterator util SimpleName MethodInvocation SimpleName acu table conf
+load iterators SimpleName MethodInvocation QualifiedName iterator scopescan
+load iterators SimpleName MethodInvocation SimpleName vis filter
+load iterators SimpleName MethodInvocation SimpleName extent
+load iterators SimpleName MethodInvocation SimpleName acu table conf
+load iterators SimpleName MethodInvocation QualifiedName optionsserver side iterator list
+iterator scopescan QualifiedName MethodInvocation SimpleName vis filter
+iterator scopescan QualifiedName MethodInvocation SimpleName extent
+iterator scopescan QualifiedName MethodInvocation SimpleName acu table conf
+iterator scopescan QualifiedName MethodInvocation QualifiedName optionsserver side iterator list
+iterator scopescan QualifiedName MethodInvocation QualifiedName optionsserver side iterator options
+vis filter SimpleName MethodInvocation SimpleName extent
+vis filter SimpleName MethodInvocation SimpleName acu table conf
+vis filter SimpleName MethodInvocation QualifiedName optionsserver side iterator list
+vis filter SimpleName MethodInvocation QualifiedName optionsserver side iterator options
+vis filter SimpleName MethodInvocation SimpleName iter env
+extent SimpleName MethodInvocation SimpleName acu table conf
+extent SimpleName MethodInvocation QualifiedName optionsserver side iterator list
+extent SimpleName MethodInvocation QualifiedName optionsserver side iterator options
+extent SimpleName MethodInvocation SimpleName iter env
+extent SimpleName MethodInvocation BooleanLiteral false
+acu table conf SimpleName MethodInvocation QualifiedName optionsserver side iterator list
+acu table conf SimpleName MethodInvocation QualifiedName optionsserver side iterator options
+acu table conf SimpleName MethodInvocation SimpleName iter env
+acu table conf SimpleName MethodInvocation BooleanLiteral false
+optionsserver side iterator list QualifiedName MethodInvocation QualifiedName optionsserver side iterator options
+optionsserver side iterator list QualifiedName MethodInvocation SimpleName iter env
+optionsserver side iterator list QualifiedName MethodInvocation BooleanLiteral false
+optionsserver side iterator options QualifiedName MethodInvocation SimpleName iter env
+optionsserver side iterator options QualifiedName MethodInvocation BooleanLiteral false
+iter env SimpleName MethodInvocation BooleanLiteral false
+iter env SimpleName MethodInvocation SimpleName get top level iterator
+iter env SimpleName MethodInvocation MethodInvocation SimpleName iterator util
+iter env SimpleName MethodInvocation MethodInvocation SimpleName load iterators
+iter env SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+iter env SimpleName MethodInvocation MethodInvocation SimpleName vis filter
+iter env SimpleName MethodInvocation MethodInvocation SimpleName extent
+iter env SimpleName MethodInvocation MethodInvocation SimpleName acu table conf
+iter env SimpleName MethodInvocation MethodInvocation QualifiedName optionsserver side iterator list
+iter env SimpleName MethodInvocation MethodInvocation QualifiedName optionsserver side iterator options
+iter env SimpleName MethodInvocation MethodInvocation SimpleName iter env
+iter env SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName iterator util
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName load iterators
+get top level iterator SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName vis filter
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName extent
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName acu table conf
+get top level iterator SimpleName MethodInvocation MethodInvocation QualifiedName optionsserver side iterator list
+get top level iterator SimpleName MethodInvocation MethodInvocation QualifiedName optionsserver side iterator options
+get top level iterator SimpleName MethodInvocation MethodInvocation SimpleName iter env
+get top level iterator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+readers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName abs files
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+private Modifier MethodDeclaration SimpleName create iterator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName abs files
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create iterator
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create iterator
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create iterator
+create iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+create iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+create iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName abs files
+create iterator SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+create iterator SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+create iterator SimpleName MethodDeclaration SimpleType SimpleName io exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs files
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+abs files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+abs files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+abs files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName create iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName abs files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

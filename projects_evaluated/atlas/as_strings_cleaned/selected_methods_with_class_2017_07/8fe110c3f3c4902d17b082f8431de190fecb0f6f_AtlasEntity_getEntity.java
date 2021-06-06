@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+get entity SimpleName SuperMethodInvocation SimpleName guid
+ret SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get entity
+ret SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entities
+is not empty SimpleName MethodInvocation SimpleName entities
+ret SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+ret SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+ret SimpleName InfixExpression InfixExpression MethodInvocation SimpleName entities
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation SimpleName guid
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation SimpleName guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+ret SimpleName Assignment SimpleName entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+json ignore SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas entity
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas entity
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName get entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

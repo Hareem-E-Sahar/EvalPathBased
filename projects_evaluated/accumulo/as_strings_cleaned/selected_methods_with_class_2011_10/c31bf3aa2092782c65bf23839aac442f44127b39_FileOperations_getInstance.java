@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName file operations
+public Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SimpleType SimpleName file operations
+static Modifier MethodDeclaration SimpleName get instance
+file operations SimpleName SimpleType MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file operations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file operations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance

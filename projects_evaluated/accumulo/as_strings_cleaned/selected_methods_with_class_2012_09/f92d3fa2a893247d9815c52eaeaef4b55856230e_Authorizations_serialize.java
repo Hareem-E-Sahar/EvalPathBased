@@ -1,0 +1,42 @@
+string builder SimpleName SimpleType ClassInstanceCreation SimpleName header
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName header
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sep SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName auth
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName sep
+append SimpleName MethodInvocation SimpleName sep
+sep SimpleName Assignment StringLiteral empty
+auth SimpleName MethodInvocation SimpleName to array
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName auth
+base SimpleName MethodInvocation MethodInvocation SimpleName to array
+encode base SimpleName MethodInvocation MethodInvocation SimpleName auth
+encode base SimpleName MethodInvocation MethodInvocation SimpleName to array
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+sb SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+sb SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+byte sequence SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName auths
+auth SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName auths
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName serialize
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName auths
+string SimpleName SimpleType MethodDeclaration SimpleName serialize
+serialize SimpleName MethodDeclaration Block EnhancedForStatement SimpleName auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName serialize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName serialize

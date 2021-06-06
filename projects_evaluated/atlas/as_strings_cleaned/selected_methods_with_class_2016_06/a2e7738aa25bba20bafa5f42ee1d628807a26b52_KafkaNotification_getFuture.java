@@ -1,0 +1,13 @@
+future SimpleName SimpleType ParameterizedType SimpleType SimpleName record metadata
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName future
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName record metadata
+public Modifier MethodDeclaration SimpleName get future
+public Modifier MethodDeclaration Block ReturnStatement SimpleName future
+future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get future
+record metadata SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get future
+get future SimpleName MethodDeclaration Block ReturnStatement SimpleName future
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get future
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get future

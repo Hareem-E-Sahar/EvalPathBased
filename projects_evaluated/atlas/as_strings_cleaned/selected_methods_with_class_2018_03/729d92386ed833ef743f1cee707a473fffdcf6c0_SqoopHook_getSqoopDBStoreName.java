@@ -1,0 +1,105 @@
+sqoop job data publisherdata QualifiedName SimpleType SingleVariableDeclaration SimpleName data
+data SimpleName MethodInvocation SimpleName get store type
+data SimpleName MethodInvocation SimpleName get url
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s url s
+string SimpleName MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation SimpleName get store type
+string SimpleName MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation SimpleName get url
+format SimpleName MethodInvocation StringLiteral s url s
+format SimpleName MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation SimpleName get store type
+format SimpleName MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation SimpleName get url
+s url s StringLiteral MethodInvocation MethodInvocation SimpleName data
+s url s StringLiteral MethodInvocation MethodInvocation SimpleName get store type
+s url s StringLiteral MethodInvocation MethodInvocation SimpleName data
+s url s StringLiteral MethodInvocation MethodInvocation SimpleName get url
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+get store type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+get store type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral s url s
+name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral s url s
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+data SimpleName MethodInvocation SimpleName get hive table
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName data
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get hive table
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName data
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get hive table
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+data SimpleName MethodInvocation SimpleName get store table
+name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+table StringLiteral MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+append SimpleName MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation SimpleName get store table
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation StringLiteral database
+append SimpleName MethodInvocation StringLiteral database
+data SimpleName MethodInvocation SimpleName get hive db
+name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+database StringLiteral MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+database StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+database StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+append SimpleName MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation SimpleName get hive db
+data SimpleName MethodInvocation SimpleName get store query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName data
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get store query
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName data
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get store query
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation StringLiteral query
+append SimpleName MethodInvocation StringLiteral query
+data SimpleName MethodInvocation SimpleName get store query
+name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+query StringLiteral MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+query StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+query StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+append SimpleName MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation SimpleName get store query
+name SimpleName MethodInvocation SimpleName to string
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get sqoop db store name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType MethodDeclaration SimpleName get sqoop db store name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+get sqoop db store name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+get sqoop db store name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sqoop db store name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sqoop db store name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

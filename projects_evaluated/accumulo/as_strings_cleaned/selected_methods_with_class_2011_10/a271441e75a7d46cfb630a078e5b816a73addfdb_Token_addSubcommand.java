@@ -1,0 +1,27 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName t
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration SimpleName a
+token SimpleName SimpleType ClassInstanceCreation SimpleName a
+add subcommand SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName token
+add subcommand SimpleName MethodInvocation ClassInstanceCreation SimpleName a
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName t
+a SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName t
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add subcommand
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName t
+void PrimitiveType MethodDeclaration SimpleName add subcommand
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName t
+add subcommand SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+add subcommand SimpleName MethodDeclaration Block EnhancedForStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add subcommand
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add subcommand
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

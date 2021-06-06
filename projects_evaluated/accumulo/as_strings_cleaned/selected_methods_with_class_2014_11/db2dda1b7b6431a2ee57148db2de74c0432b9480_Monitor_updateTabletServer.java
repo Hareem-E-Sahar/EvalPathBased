@@ -1,0 +1,81 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+long PrimitiveType SingleVariableDeclaration SimpleName sample time
+long PrimitiveType SingleVariableDeclaration SimpleName num events
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName sample time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName sample time
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName sample time
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName num events
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName num events
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName num events
+sample time SimpleName ClassInstanceCreation SimpleName num events
+new sample SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sample time
+new sample SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num events
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+samples SimpleName MethodInvocation SimpleName get
+samples SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+last sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName samples
+last sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+last sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+last sample SimpleName MethodInvocation SimpleName equals
+last sample SimpleName MethodInvocation SimpleName new sample
+equals SimpleName MethodInvocation SimpleName new sample
+samples SimpleName MethodInvocation SimpleName put
+samples SimpleName MethodInvocation SimpleName name
+samples SimpleName MethodInvocation SimpleName new sample
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName new sample
+name SimpleName MethodInvocation SimpleName new sample
+prev samples SimpleName MethodInvocation SimpleName put
+prev samples SimpleName MethodInvocation SimpleName name
+prev samples SimpleName MethodInvocation SimpleName last sample
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName last sample
+name SimpleName MethodInvocation SimpleName last sample
+servers updated SimpleName MethodInvocation SimpleName add
+servers updated SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+void PrimitiveType MethodDeclaration SimpleName update tablet server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sample time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName num events
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sample time
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num events
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sample time
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num events
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num events
+sample time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+sample time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num events
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update tablet server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sample time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num events
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update tablet server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sample time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num events

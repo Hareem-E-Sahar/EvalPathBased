@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+conditional writer config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+get table id SimpleName MethodInvocation SimpleName table name
+conditional writer impl SimpleName SimpleType ClassInstanceCreation SimpleName context
+conditional writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+conditional writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+conditional writer impl SimpleName SimpleType ClassInstanceCreation SimpleName config
+context SimpleName ClassInstanceCreation MethodInvocation SimpleName get table id
+context SimpleName ClassInstanceCreation MethodInvocation SimpleName table name
+context SimpleName ClassInstanceCreation SimpleName config
+get table id SimpleName MethodInvocation ClassInstanceCreation SimpleName config
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleName config
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName conditional writer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create conditional writer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SimpleType SimpleName conditional writer
+public Modifier MethodDeclaration SimpleName create conditional writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName conditional writer config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+conditional writer SimpleName SimpleType MethodDeclaration SimpleName create conditional writer
+conditional writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+conditional writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+conditional writer SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+create conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+create conditional writer SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName conditional writer
+public Modifier TypeDeclaration MethodDeclaration SimpleName create conditional writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName conditional writer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create conditional writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

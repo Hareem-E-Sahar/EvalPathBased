@@ -1,0 +1,12 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+registry dataclassification defs QualifiedName MethodInvocation SimpleName get all
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName get all classification defs
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classification defs
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classification defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all classification defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all classification defs

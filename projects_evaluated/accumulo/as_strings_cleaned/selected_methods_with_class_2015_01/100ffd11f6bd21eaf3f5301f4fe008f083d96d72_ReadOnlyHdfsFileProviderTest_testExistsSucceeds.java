@@ -1,0 +1,46 @@
+manager SimpleName MethodInvocation SimpleName resolve file
+manager SimpleName MethodInvocation SimpleName test file
+resolve file SimpleName MethodInvocation SimpleName test file
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName test file
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fo
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName fo
+assert not null SimpleName MethodInvocation SimpleName fo
+fo SimpleName MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+create test file SimpleName MethodInvocation SimpleName hdfs
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName file object
+unused StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName file object
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+unused StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test exists succeeds
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test exists succeeds
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test exists succeeds
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test exists succeeds SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test exists succeeds
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test exists succeeds
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

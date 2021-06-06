@@ -1,0 +1,178 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName hive type process
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive type process
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+hook context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hive context
+hook context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hook context
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query str
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query str
+query str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hook context
+query str SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get query plan
+query str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get query str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query str
+query str SimpleName MethodInvocation SimpleName to lower case
+query str SimpleName MethodInvocation MethodInvocation SimpleName trim
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName trim
+query str SimpleName Assignment MethodInvocation MethodInvocation SimpleName query str
+query str SimpleName Assignment MethodInvocation MethodInvocation SimpleName to lower case
+query str SimpleName Assignment MethodInvocation SimpleName trim
+get qualified name SimpleName MethodInvocation SimpleName inputs
+get qualified name SimpleName MethodInvocation SimpleName outputs
+inputs SimpleName MethodInvocation SimpleName outputs
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+ret SimpleName MethodInvocation MethodInvocation SimpleName inputs
+ret SimpleName MethodInvocation MethodInvocation SimpleName outputs
+set attribute SimpleName MethodInvocation SimpleName attribute qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName inputs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName outputs
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName inputs
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName outputs
+get object ids SimpleName MethodInvocation SimpleName inputs
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute inputs
+ret SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+ret SimpleName MethodInvocation MethodInvocation SimpleName inputs
+set attribute SimpleName MethodInvocation SimpleName attribute inputs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName inputs
+attribute inputs SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+attribute inputs SimpleName MethodInvocation MethodInvocation SimpleName inputs
+get object ids SimpleName MethodInvocation SimpleName outputs
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute outputs
+ret SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+ret SimpleName MethodInvocation MethodInvocation SimpleName outputs
+set attribute SimpleName MethodInvocation SimpleName attribute outputs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName outputs
+attribute outputs SimpleName MethodInvocation MethodInvocation SimpleName get object ids
+attribute outputs SimpleName MethodInvocation MethodInvocation SimpleName outputs
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute name
+ret SimpleName MethodInvocation SimpleName query str
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation SimpleName query str
+attribute name SimpleName MethodInvocation SimpleName query str
+hook context SimpleName MethodInvocation SimpleName get operation name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute operation type
+ret SimpleName MethodInvocation MethodInvocation SimpleName hook context
+ret SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+set attribute SimpleName MethodInvocation SimpleName attribute operation type
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hook context
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+attribute operation type SimpleName MethodInvocation MethodInvocation SimpleName hook context
+attribute operation type SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute start time
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query plan
+ret SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+set attribute SimpleName MethodInvocation SimpleName attribute start time
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query plan
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+attribute start time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+attribute start time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query plan
+attribute start time SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+system SimpleName MethodInvocation SimpleName current time millis
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute end time
+ret SimpleName MethodInvocation MethodInvocation SimpleName system
+ret SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+set attribute SimpleName MethodInvocation SimpleName attribute end time
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName system
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+attribute end time SimpleName MethodInvocation MethodInvocation SimpleName system
+attribute end time SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute user name
+ret SimpleName MethodInvocation MethodInvocation SimpleName get user name
+set attribute SimpleName MethodInvocation SimpleName attribute user name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get user name
+attribute user name SimpleName MethodInvocation MethodInvocation SimpleName get user name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute query text
+ret SimpleName MethodInvocation SimpleName query str
+set attribute SimpleName MethodInvocation SimpleName attribute query text
+set attribute SimpleName MethodInvocation SimpleName query str
+attribute query text SimpleName MethodInvocation SimpleName query str
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query
+hook context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query id
+get query plan SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query id
+get query SimpleName MethodInvocation MethodInvocation SimpleName get query id
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute query id
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query
+ret SimpleName MethodInvocation MethodInvocation SimpleName get query id
+set attribute SimpleName MethodInvocation SimpleName attribute query id
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get query id
+attribute query id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query
+attribute query id SimpleName MethodInvocation MethodInvocation SimpleName get query id
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute query plan
+ret SimpleName MethodInvocation StringLiteral not supported
+set attribute SimpleName MethodInvocation SimpleName attribute query plan
+set attribute SimpleName MethodInvocation StringLiteral not supported
+attribute query plan SimpleName MethodInvocation StringLiteral not supported
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName query str
+singleton list SimpleName MethodInvocation SimpleName query str
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute recent queries
+ret SimpleName MethodInvocation MethodInvocation SimpleName collections
+ret SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+ret SimpleName MethodInvocation MethodInvocation SimpleName query str
+set attribute SimpleName MethodInvocation SimpleName attribute recent queries
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName collections
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName query str
+attribute recent queries SimpleName MethodInvocation MethodInvocation SimpleName collections
+attribute recent queries SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+attribute recent queries SimpleName MethodInvocation MethodInvocation SimpleName query str
+protected Modifier MethodDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SimpleName get hive process entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName inputs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName outputs
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get hive process entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inputs
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName outputs
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get hive process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inputs
+get hive process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName outputs
+get hive process entity SimpleName MethodDeclaration SimpleType SimpleName exception
+get hive process entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+inputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+outputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hive process entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hive process entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

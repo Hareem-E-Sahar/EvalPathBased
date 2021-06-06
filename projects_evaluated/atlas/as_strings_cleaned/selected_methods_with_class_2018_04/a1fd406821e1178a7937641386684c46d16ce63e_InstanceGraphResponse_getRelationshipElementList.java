@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName relationship
+public Modifier MethodDeclaration SimpleName get relationship element list
+public Modifier MethodDeclaration Block ReturnStatement SimpleName relationship element list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship element list
+relationship SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship element list
+get relationship element list SimpleName MethodDeclaration Block ReturnStatement SimpleName relationship element list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship element list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship element list

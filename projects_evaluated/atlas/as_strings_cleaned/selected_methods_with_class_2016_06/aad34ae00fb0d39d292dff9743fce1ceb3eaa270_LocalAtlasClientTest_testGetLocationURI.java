@@ -1,0 +1,68 @@
+guid SimpleName VariableDeclarationFragment StringLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+add SimpleName MethodInvocation SimpleName guid
+entity resource SimpleName MethodInvocation SimpleName get location uri
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity resource
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location uri
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+uri SimpleName MethodInvocation SimpleName get raw path
+atlas clientapiget entity QualifiedName MethodInvocation SimpleName get path
+atlas constantsdefault atlas rest address QualifiedName InfixExpression StringLiteral /
+atlas constantsdefault atlas rest address QualifiedName InfixExpression MethodInvocation QualifiedName atlas clientapiget entity
+atlas constantsdefault atlas rest address QualifiedName InfixExpression MethodInvocation SimpleName get path
+atlas constantsdefault atlas rest address QualifiedName InfixExpression StringLiteral /
+atlas constantsdefault atlas rest address QualifiedName InfixExpression SimpleName guid
+/ StringLiteral InfixExpression MethodInvocation QualifiedName atlas clientapiget entity
+/ StringLiteral InfixExpression MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName guid
+atlas clientapiget entity QualifiedName MethodInvocation InfixExpression StringLiteral /
+get path SimpleName MethodInvocation InfixExpression StringLiteral /
+atlas clientapiget entity QualifiedName MethodInvocation InfixExpression SimpleName guid
+get path SimpleName MethodInvocation InfixExpression SimpleName guid
+/ StringLiteral InfixExpression SimpleName guid
+uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+get raw path SimpleName MethodInvocation MethodInvocation SimpleName equals
+uri SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName atlas constantsdefault atlas rest address
+uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+uri SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName guid
+get raw path SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName atlas constantsdefault atlas rest address
+get raw path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get raw path SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get raw path SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName guid
+equals SimpleName MethodInvocation InfixExpression QualifiedName atlas constantsdefault atlas rest address
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName atlas clientapiget entity
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression SimpleName guid
+test SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName inject
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get location uri
+inject SimpleName MarkerAnnotation MethodDeclaration Modifier public
+inject SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+inject SimpleName MarkerAnnotation MethodDeclaration SimpleName test get location uri
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get location uri
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get location uri
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get location uri SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName inject
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get location uri
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName inject
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get location uri

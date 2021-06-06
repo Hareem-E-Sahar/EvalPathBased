@@ -1,0 +1,98 @@
+system SimpleName MethodInvocation SimpleName current time millis
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName rand
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation StringLiteral u
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+entity audit repositoryentity audit event QualifiedName SimpleType ClassInstanceCreation StringLiteral d
+rand SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+rand SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+rand SimpleName MethodInvocation ClassInstanceCreation StringLiteral u
+rand SimpleName MethodInvocation ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+rand SimpleName MethodInvocation ClassInstanceCreation StringLiteral d
+system SimpleName MethodInvocation ClassInstanceCreation StringLiteral u
+current time millis SimpleName MethodInvocation ClassInstanceCreation StringLiteral u
+system SimpleName MethodInvocation ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+current time millis SimpleName MethodInvocation ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+system SimpleName MethodInvocation ClassInstanceCreation StringLiteral d
+current time millis SimpleName MethodInvocation ClassInstanceCreation StringLiteral d
+u StringLiteral ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+u StringLiteral ClassInstanceCreation StringLiteral d
+entity audit repositoryentity audit actionentity create QualifiedName ClassInstanceCreation StringLiteral d
+event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName entity audit repositoryentity audit event
+event SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName rand
+event SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+event SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName current time millis
+event SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral u
+event SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName entity audit repositoryentity audit actionentity create
+event SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral d
+entity audit repositoryentity audit event QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+event repository SimpleName MethodInvocation SimpleName put events
+event repository SimpleName MethodInvocation SimpleName event
+put events SimpleName MethodInvocation SimpleName event
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName entity audit repositoryentity audit event
+system SimpleName MethodInvocation SimpleName current time millis
+short PrimitiveType CastExpression NumberLiteral empty
+event repository SimpleName MethodInvocation SimpleName list events
+event repository SimpleName MethodInvocation QualifiedName evententity id
+event repository SimpleName MethodInvocation MethodInvocation SimpleName system
+event repository SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+event repository SimpleName MethodInvocation CastExpression PrimitiveType short
+event repository SimpleName MethodInvocation CastExpression NumberLiteral empty
+list events SimpleName MethodInvocation QualifiedName evententity id
+list events SimpleName MethodInvocation MethodInvocation SimpleName system
+list events SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+list events SimpleName MethodInvocation CastExpression PrimitiveType short
+list events SimpleName MethodInvocation CastExpression NumberLiteral empty
+evententity id QualifiedName MethodInvocation MethodInvocation SimpleName system
+evententity id QualifiedName MethodInvocation MethodInvocation SimpleName current time millis
+evententity id QualifiedName MethodInvocation CastExpression PrimitiveType short
+evententity id QualifiedName MethodInvocation CastExpression NumberLiteral empty
+system SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType short
+system SimpleName MethodInvocation MethodInvocation CastExpression NumberLiteral empty
+current time millis SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType short
+current time millis SimpleName MethodInvocation MethodInvocation CastExpression NumberLiteral empty
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName event repository
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName list events
+events SimpleName VariableDeclarationFragment MethodInvocation QualifiedName evententity id
+events SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName system
+events SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current time millis
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType short
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression NumberLiteral empty
+events SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName events
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+events SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+events SimpleName MethodInvocation SimpleName get
+events SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName events
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName event
+events SimpleName MethodInvocation MethodInvocation SimpleName event
+get SimpleName MethodInvocation MethodInvocation SimpleName event
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName event
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add events
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add events
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test add events
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test add events SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add events
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add events
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

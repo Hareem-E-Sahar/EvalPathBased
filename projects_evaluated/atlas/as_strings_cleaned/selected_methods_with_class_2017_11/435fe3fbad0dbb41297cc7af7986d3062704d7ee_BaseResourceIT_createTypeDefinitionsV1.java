@@ -1,0 +1,500 @@
+types util SimpleName MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation SimpleName name
+types util SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+create unique required attr def SimpleName MethodInvocation SimpleName name
+create unique required attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation SimpleName description
+types util SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation SimpleName description
+create required attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+description SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral location uri
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+location uri StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral owner
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+owner StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral create time
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type int
+create time StringLiteral MethodInvocation QualifiedName atlas base type defatlas type int
+atlas base type def SimpleName MethodInvocation SimpleName get array type name
+atlas base type def SimpleName MethodInvocation SimpleName hive table type
+get array type name SimpleName MethodInvocation SimpleName hive table type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral tables
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas base type def
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get array type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hive table type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral db
+tables StringLiteral ClassInstanceCreation MethodInvocation SimpleName atlas base type def
+tables StringLiteral ClassInstanceCreation MethodInvocation SimpleName get array type name
+tables StringLiteral ClassInstanceCreation MethodInvocation SimpleName hive table type
+tables StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+tables StringLiteral ClassInstanceCreation BooleanLiteral false
+tables StringLiteral ClassInstanceCreation StringLiteral db
+atlas base type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get array type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+hive table type SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get array type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+hive table type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral db
+get array type name SimpleName MethodInvocation ClassInstanceCreation StringLiteral db
+hive table type SimpleName MethodInvocation ClassInstanceCreation StringLiteral db
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation StringLiteral db
+false BooleanLiteral ClassInstanceCreation StringLiteral db
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation SimpleName database type
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation MethodInvocation SimpleName name
+types util SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create class type def SimpleName MethodInvocation SimpleName database type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName description
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+database type SimpleName MethodInvocation MethodInvocation SimpleName types util
+database type SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+database type SimpleName MethodInvocation MethodInvocation SimpleName name
+database type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+database type SimpleName MethodInvocation MethodInvocation SimpleName types util
+database type SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+database type SimpleName MethodInvocation MethodInvocation SimpleName description
+database type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+database type SimpleName MethodInvocation MethodInvocation SimpleName attr def
+database type SimpleName MethodInvocation MethodInvocation StringLiteral location uri
+database type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName description
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName description
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName description
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName description
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+create unique required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+create unique required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create unique required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+create unique required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+description SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+description SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral location uri
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+description SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+description SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+description SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+description SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+create required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+create required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+create required attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+description SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+description SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+description SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+description SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral owner
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+location uri StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+location uri StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+location uri StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+location uri StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+location uri StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral create time
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+owner StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+owner StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+owner StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+owner StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+attr def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+create time StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+create time StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create time StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+create time StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+atlas base type defatlas type int QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral tables
+atlas base type defatlas type int QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type defatlas type int QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+atlas base type defatlas type int QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral db
+db cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+db cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName database type
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create unique required attr def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName description
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral location uri
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral owner
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral create time
+db cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type int
+db cls def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral tables
+db cls def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+db cls def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+db cls def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral db
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db cls def
+attr def SimpleName MethodInvocation SimpleName name
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral data type
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+data type StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral comment
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+comment StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation SimpleName column type
+types util SimpleName MethodInvocation MethodInvocation SimpleName attr def
+types util SimpleName MethodInvocation MethodInvocation SimpleName name
+types util SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create class type def SimpleName MethodInvocation SimpleName column type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral data type
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column type SimpleName MethodInvocation MethodInvocation SimpleName attr def
+column type SimpleName MethodInvocation MethodInvocation SimpleName name
+column type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column type SimpleName MethodInvocation MethodInvocation SimpleName attr def
+column type SimpleName MethodInvocation MethodInvocation StringLiteral data type
+column type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column type SimpleName MethodInvocation MethodInvocation SimpleName attr def
+column type SimpleName MethodInvocation MethodInvocation StringLiteral comment
+column type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral data type
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral data type
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral data type
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+data type StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+data type StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+data type StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attr def
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral comment
+atlas base type defatlas type string QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+column cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+column cls def SimpleName VariableDeclarationFragment MethodInvocation SimpleName column type
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral data type
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr def
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral comment
+column cls def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column cls def
+types util SimpleName MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation SimpleName name
+types util SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation SimpleName name
+create required attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation StringLiteral serde
+types util SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation StringLiteral serde
+create required attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+serde StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+types util SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName atlas base type defatlas type string
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName types util
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName types util
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+name SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName atlas base type defatlas type string
+atlas base type defatlas type string QualifiedName MethodInvocation ArrayInitializer MethodInvocation SimpleName types util
+atlas base type defatlas type string QualifiedName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+atlas base type defatlas type string QualifiedName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+atlas base type defatlas type string QualifiedName MethodInvocation ArrayInitializer MethodInvocation QualifiedName atlas base type defatlas type string
+arrays SimpleName MethodInvocation SimpleName as list
+struct type definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+struct type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+struct type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+serde type StringLiteral ClassInstanceCreation MethodInvocation SimpleName arrays
+serde type StringLiteral ClassInstanceCreation MethodInvocation SimpleName as list
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct type definition
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+struct type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type definition
+enum value SimpleName SimpleType ClassInstanceCreation StringLiteral managed
+enum value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+managed StringLiteral ClassInstanceCreation NumberLiteral empty
+enum value SimpleName SimpleType ClassInstanceCreation StringLiteral external
+enum value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+external StringLiteral ClassInstanceCreation NumberLiteral empty
+managed StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral external
+managed StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral external
+empty NumberLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation NumberLiteral empty
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral managed
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation NumberLiteral empty
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral external
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName values
+as list SimpleName MethodInvocation SimpleName values
+enum type definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+enum type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+enum type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+enum type definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName values
+table type StringLiteral ClassInstanceCreation MethodInvocation SimpleName arrays
+table type StringLiteral ClassInstanceCreation MethodInvocation SimpleName as list
+table type StringLiteral ClassInstanceCreation MethodInvocation SimpleName values
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName enum type definition
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table type
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName values
+enum type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum type definition
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation StringLiteral data set
+singleton SimpleName MethodInvocation StringLiteral data set
+attr def SimpleName MethodInvocation StringLiteral owner
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+owner StringLiteral MethodInvocation QualifiedName atlas base type defatlas type string
+attr def SimpleName MethodInvocation StringLiteral create time
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type long
+create time StringLiteral MethodInvocation QualifiedName atlas base type defatlas type long
+attr def SimpleName MethodInvocation StringLiteral last access time
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type date
+last access time StringLiteral MethodInvocation QualifiedName atlas base type defatlas type date
+attr def SimpleName MethodInvocation StringLiteral temporary
+attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type boolean
+temporary StringLiteral MethodInvocation QualifiedName atlas base type defatlas type boolean
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral db
+attribute definition SimpleName SimpleType ClassInstanceCreation SimpleName database type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral tables
+db StringLiteral ClassInstanceCreation SimpleName database type
+db StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+db StringLiteral ClassInstanceCreation BooleanLiteral true
+db StringLiteral ClassInstanceCreation StringLiteral tables
+database type SimpleName ClassInstanceCreation QualifiedName multiplicityoptional
+database type SimpleName ClassInstanceCreation BooleanLiteral true
+database type SimpleName ClassInstanceCreation StringLiteral tables
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral true
+multiplicityoptional QualifiedName ClassInstanceCreation StringLiteral tables
+true BooleanLiteral ClassInstanceCreation StringLiteral tables
+atlas base type def SimpleName MethodInvocation SimpleName get array type name
+atlas base type def SimpleName MethodInvocation SimpleName column type
+get array type name SimpleName MethodInvocation SimpleName column type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral columns
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas base type def
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get array type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+columns StringLiteral ClassInstanceCreation MethodInvocation SimpleName atlas base type def
+columns StringLiteral ClassInstanceCreation MethodInvocation SimpleName get array type name
+columns StringLiteral ClassInstanceCreation MethodInvocation SimpleName column type
+columns StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+columns StringLiteral ClassInstanceCreation BooleanLiteral true
+atlas base type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get array type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+column type SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+atlas base type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get array type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+column type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral true
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+table type StringLiteral ClassInstanceCreation StringLiteral table type
+table type StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+table type StringLiteral ClassInstanceCreation BooleanLiteral false
+table type StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+table type StringLiteral ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+serde StringLiteral ClassInstanceCreation StringLiteral serde type
+serde StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+serde StringLiteral ClassInstanceCreation BooleanLiteral false
+serde type StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+serde type StringLiteral ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+serde StringLiteral ClassInstanceCreation StringLiteral serde type
+serde StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+serde StringLiteral ClassInstanceCreation BooleanLiteral false

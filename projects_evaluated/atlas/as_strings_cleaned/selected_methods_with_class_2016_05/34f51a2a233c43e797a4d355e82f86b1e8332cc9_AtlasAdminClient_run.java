@@ -1,0 +1,59 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+parse command line options SimpleName MethodInvocation SimpleName args
+command line SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse command line options
+command line SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command line
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName atlas constantsatlas rest address key
+configuration SimpleName MethodInvocation QualifiedName atlas constantsdefault atlas rest address
+get string SimpleName MethodInvocation QualifiedName atlas constantsatlas rest address key
+get string SimpleName MethodInvocation QualifiedName atlas constantsdefault atlas rest address
+atlas constantsatlas rest address key QualifiedName MethodInvocation QualifiedName atlas constantsdefault atlas rest address
+atlas server uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+atlas server uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+atlas server uri SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas constantsatlas rest address key
+atlas server uri SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas constantsdefault atlas rest address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas server uri
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+authentication util SimpleName MethodInvocation SimpleName is kerberos authication enabled
+authentication util SimpleName MethodInvocation SimpleName get basic authentication input
+basic auth username password SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication util
+basic auth username password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get basic authentication input
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName basic auth username password
+atlas server uri SimpleName ArrayInitializer ArrayCreation ClassInstanceCreation SimpleName basic auth username password
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName basic auth username password
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas server uri
+handle command SimpleName MethodInvocation SimpleName command line
+handle command SimpleName MethodInvocation SimpleName atlas server uri
+handle command SimpleName MethodInvocation SimpleName atlas client
+command line SimpleName MethodInvocation SimpleName atlas server uri
+command line SimpleName MethodInvocation SimpleName atlas client
+atlas server uri SimpleName MethodInvocation SimpleName atlas client
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName run
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

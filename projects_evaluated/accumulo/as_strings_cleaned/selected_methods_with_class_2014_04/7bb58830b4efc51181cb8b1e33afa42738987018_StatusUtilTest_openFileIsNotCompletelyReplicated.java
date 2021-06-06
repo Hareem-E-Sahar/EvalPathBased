@@ -1,0 +1,66 @@
+status SimpleName MethodInvocation SimpleName new builder
+status SimpleName MethodInvocation MethodInvocation SimpleName set closed
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set closed
+status SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+new builder SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set closed SimpleName MethodInvocation BooleanLiteral false
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set begin
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set begin
+set closed SimpleName MethodInvocation MethodInvocation SimpleName set begin
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName set begin
+status SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set closed SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation NumberLiteral empty
+set closed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set end
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set end
+set begin SimpleName MethodInvocation MethodInvocation SimpleName set end
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set end
+set closed SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set end SimpleName MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+set end SimpleName MethodInvocation MethodInvocation SimpleName set infinite end
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set infinite end
+set begin SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+set end SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+set infinite end SimpleName MethodInvocation BooleanLiteral false
+set end SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set infinite end SimpleName MethodInvocation MethodInvocation SimpleName build
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName build
+status util SimpleName MethodInvocation SimpleName is completely replicated
+status util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+status util SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+status util SimpleName MethodInvocation MethodInvocation SimpleName build
+is completely replicated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+is completely replicated SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+is completely replicated SimpleName MethodInvocation MethodInvocation SimpleName build
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName status util
+assert SimpleName MethodInvocation MethodInvocation SimpleName is completely replicated
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+assert false SimpleName MethodInvocation MethodInvocation SimpleName status util
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is completely replicated
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName open file is not completely replicated
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName open file is not completely replicated
+void PrimitiveType MethodDeclaration SimpleName open file is not completely replicated
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName open file is not completely replicated
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open file is not completely replicated

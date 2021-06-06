@@ -1,0 +1,105 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral user idinstancesentityguidsummary
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idinstancesentityguidsummary
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentityguidsummary
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentityguidsummary
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+method name SimpleName VariableDeclarationFragment StringLiteral get entity summary
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get entity summary
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get entity summary
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity summary response
+entity summary response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName get entity summary
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName guid
+get entity summary SimpleName MethodInvocation SimpleName user id
+get entity summary SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation SimpleName guid
+response SimpleName MethodInvocation SimpleName set entity
+response SimpleName MethodInvocation MethodInvocation SimpleName local metadata collection
+response SimpleName MethodInvocation MethodInvocation SimpleName get entity summary
+response SimpleName MethodInvocation MethodInvocation SimpleName user id
+response SimpleName MethodInvocation MethodInvocation SimpleName guid
+set entity SimpleName MethodInvocation MethodInvocation SimpleName local metadata collection
+set entity SimpleName MethodInvocation MethodInvocation SimpleName get entity summary
+set entity SimpleName MethodInvocation MethodInvocation SimpleName user id
+set entity SimpleName MethodInvocation MethodInvocation SimpleName guid
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+entity not known exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture entity not known exception SimpleName MethodInvocation SimpleName response
+capture entity not known exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idinstancesentityguidsummary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName entity summary response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName get entity summary
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get entity summary
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get entity summary
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get entity summary
+user idinstancesentityguidsummary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName get entity summary
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName entity summary response
+public Modifier MethodDeclaration SimpleName get entity summary
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+entity summary response SimpleName SimpleType MethodDeclaration SimpleName get entity summary
+entity summary response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity summary response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity summary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity summary SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get entity summary SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity summary response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity summary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity summary response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity summary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

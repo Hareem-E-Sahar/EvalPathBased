@@ -1,0 +1,232 @@
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+contains key SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName contains key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+get boolean SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName types def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+type store SimpleName MethodInvocation SimpleName restore
+when SimpleName MethodInvocation MethodInvocation SimpleName type store
+when SimpleName MethodInvocation MethodInvocation SimpleName restore
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+restore SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName types def
+type store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+restore SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+then return SimpleName MethodInvocation SimpleName types def
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName is registered
+type system SimpleName MethodInvocation MethodInvocation SimpleName any
+is registered SimpleName MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName type system
+when SimpleName MethodInvocation MethodInvocation SimpleName is registered
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+is registered SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName type systemtransient type system
+transient type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+type systemtransient type system QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transient type system
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+transient type system SimpleName MethodInvocation SimpleName get types added
+when SimpleName MethodInvocation MethodInvocation SimpleName transient type system
+when SimpleName MethodInvocation MethodInvocation SimpleName get types added
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+transient type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get types added SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName types added
+transient type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+get types added SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+then return SimpleName MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation SimpleName create transient type system
+type system SimpleName MethodInvocation SimpleName types def
+type system SimpleName MethodInvocation BooleanLiteral true
+create transient type system SimpleName MethodInvocation SimpleName types def
+create transient type system SimpleName MethodInvocation BooleanLiteral true
+types def SimpleName MethodInvocation BooleanLiteral true
+when SimpleName MethodInvocation MethodInvocation SimpleName type system
+when SimpleName MethodInvocation MethodInvocation SimpleName create transient type system
+when SimpleName MethodInvocation MethodInvocation SimpleName types def
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+create transient type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName transient type system
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transient type system
+create transient type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transient type system
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transient type system
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName transient type system
+then return SimpleName MethodInvocation SimpleName transient type system
+provider SimpleName SimpleType ParameterizedType SimpleType SimpleName types change listener
+provider SimpleName SimpleType ParameterizedType SimpleType SimpleName entity change listener
+default metadata service SimpleName SimpleType ClassInstanceCreation SimpleName metadata repository
+default metadata service SimpleName SimpleType ClassInstanceCreation SimpleName type store
+default metadata service SimpleName SimpleType ClassInstanceCreation SimpleName types registrar
+metadata repository SimpleName ClassInstanceCreation SimpleName type store
+metadata repository SimpleName ClassInstanceCreation SimpleName types registrar
+metadata repository SimpleName ClassInstanceCreation SimpleName type system
+type store SimpleName ClassInstanceCreation SimpleName types registrar
+type store SimpleName ClassInstanceCreation SimpleName type system
+type store SimpleName ClassInstanceCreation SimpleName configuration
+types registrar SimpleName ClassInstanceCreation SimpleName type system
+types registrar SimpleName ClassInstanceCreation SimpleName configuration
+type system SimpleName ClassInstanceCreation SimpleName configuration
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default metadata service
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName metadata repository
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type store
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName types registrar
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+default metadata service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+default metadata service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default metadata service
+default metadata service SimpleName MethodInvocation SimpleName instance is active
+default metadata service SimpleName MethodInvocation SimpleName instance is passive
+default metadata service SimpleName MethodInvocation SimpleName instance is active
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName type store
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+type store SimpleName MethodInvocation MethodInvocation SimpleName times
+type store SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName restore
+type store SimpleName MethodInvocation MethodInvocation SimpleName restore
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName restore
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName restore
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+type system SimpleName MethodInvocation MethodInvocation SimpleName times
+type system SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName define types
+type system SimpleName MethodInvocation MethodInvocation SimpleName define types
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName define types
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName define types
+verify SimpleName MethodInvocation MethodInvocation SimpleName types def
+type system SimpleName MethodInvocation MethodInvocation SimpleName types def
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+define types SimpleName MethodInvocation SimpleName types def
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName types registrar
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName times
+types registrar SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+reserved types registrar SimpleName MethodInvocation SimpleName get types dir
+verify SimpleName MethodInvocation MethodInvocation SimpleName register types
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName register types
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName register types
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName register types
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reserved types registrar
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get types dir
+types registrar SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reserved types registrar
+types registrar SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get types dir
+verify SimpleName MethodInvocation MethodInvocation SimpleName type system
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName type system
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type system
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+types registrar SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default metadata service
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName default metadata service
+register types SimpleName MethodInvocation MethodInvocation SimpleName reserved types registrar
+register types SimpleName MethodInvocation MethodInvocation SimpleName get types dir
+register types SimpleName MethodInvocation SimpleName type system
+register types SimpleName MethodInvocation SimpleName default metadata service
+reserved types registrar SimpleName MethodInvocation MethodInvocation SimpleName type system
+get types dir SimpleName MethodInvocation MethodInvocation SimpleName type system
+reserved types registrar SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+get types dir SimpleName MethodInvocation MethodInvocation SimpleName default metadata service
+type system SimpleName MethodInvocation SimpleName default metadata service
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+type system SimpleName MethodInvocation MethodInvocation SimpleName times
+type system SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName create transient type system
+type system SimpleName MethodInvocation MethodInvocation SimpleName create transient type system
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create transient type system
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create transient type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName types def
+type system SimpleName MethodInvocation MethodInvocation SimpleName types def
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+verify SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+type system SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+times SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+create transient type system SimpleName MethodInvocation SimpleName types def
+create transient type system SimpleName MethodInvocation BooleanLiteral true
+types def SimpleName MethodInvocation BooleanLiteral true
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+type system SimpleName MethodInvocation MethodInvocation SimpleName times
+type system SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName commit types
+type system SimpleName MethodInvocation MethodInvocation SimpleName commit types
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName commit types
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName commit types
+verify SimpleName MethodInvocation MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation MethodInvocation SimpleName types added
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+commit types SimpleName MethodInvocation SimpleName types added
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test should only restore cache on server active if already done once
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test should only restore cache on server active if already done once
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test should only restore cache on server active if already done once
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test should only restore cache on server active if already done once SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test should only restore cache on server active if already done once
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test should only restore cache on server active if already done once
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName entity type
+preconditions SimpleName MethodInvocation StringLiteral entity type cannot be null
+check not null SimpleName MethodInvocation SimpleName entity type
+check not null SimpleName MethodInvocation StringLiteral entity type cannot be null
+entity type SimpleName MethodInvocation StringLiteral entity type cannot be null
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing type definition
+get type definition SimpleName MethodInvocation SimpleName entity type
+existing type definition SimpleName Assignment MethodInvocation SimpleName get type definition
+existing type definition SimpleName Assignment MethodInvocation SimpleName entity type
+metadata exception SimpleName SimpleType SingleVariableDeclaration SimpleName ignore
+type is not defined for : StringLiteral InfixExpression SimpleName entity type
+repository exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral type is not defined for :
+repository exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName entity type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate type exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SimpleType SimpleName metadata exception
+void PrimitiveType MethodDeclaration SimpleName validate type exists
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+validate type exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+validate type exists SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate type exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate type exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

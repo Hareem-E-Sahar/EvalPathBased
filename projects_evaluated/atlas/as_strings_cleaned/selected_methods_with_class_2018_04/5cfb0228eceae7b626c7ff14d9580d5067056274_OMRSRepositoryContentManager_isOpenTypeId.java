@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type guid
+known type def gui ds SimpleName MethodInvocation SimpleName get
+known type def gui ds SimpleName MethodInvocation SimpleName type guid
+get SimpleName MethodInvocation SimpleName type guid
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName known type def gui ds
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type guid
+type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+type def SimpleName MethodInvocation SimpleName get origin
+origin guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def
+origin guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get origin
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName origin guid
+origin guid SimpleName MethodInvocation SimpleName equals
+origin guid SimpleName MethodInvocation SimpleName open types origin guid
+equals SimpleName MethodInvocation SimpleName open types origin guid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is open type id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type guid
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is open type id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type guid
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is open type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is open type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+is open type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is open type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type guid
+is open type id SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is open type id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is open type id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid

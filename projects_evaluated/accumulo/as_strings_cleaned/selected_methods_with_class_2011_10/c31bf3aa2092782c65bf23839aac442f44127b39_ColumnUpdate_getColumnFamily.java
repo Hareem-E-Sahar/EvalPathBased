@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get column family
+public Modifier MethodDeclaration Block ReturnStatement SimpleName column family
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get column family
+get column family SimpleName MethodDeclaration Block ReturnStatement SimpleName column family
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column family
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column family

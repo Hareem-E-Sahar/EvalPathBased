@@ -1,0 +1,62 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job context
+job context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName set iterator option
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation StringLiteral some iterator
+accumulo input format SimpleName MethodInvocation StringLiteral a key
+accumulo input format SimpleName MethodInvocation StringLiteral a value
+set iterator option SimpleName MethodInvocation SimpleName job
+set iterator option SimpleName MethodInvocation StringLiteral some iterator
+set iterator option SimpleName MethodInvocation StringLiteral a key
+set iterator option SimpleName MethodInvocation StringLiteral a value
+job SimpleName MethodInvocation StringLiteral some iterator
+job SimpleName MethodInvocation StringLiteral a key
+job SimpleName MethodInvocation StringLiteral a value
+some iterator StringLiteral MethodInvocation StringLiteral a key
+some iterator StringLiteral MethodInvocation StringLiteral a value
+a key StringLiteral MethodInvocation StringLiteral a value
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation StringLiteral accumulo input formatiteratorsoptions
+get SimpleName MethodInvocation StringLiteral accumulo input formatiteratorsoptions
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+options SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo input formatiteratorsoptions
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName options
+string SimpleName SimpleType ClassInstanceCreation StringLiteral some iteratora keya value
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral some iteratora keya value
+assert equals SimpleName MethodInvocation SimpleName options
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName options
+some iteratora keya value StringLiteral ClassInstanceCreation MethodInvocation SimpleName options
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName test
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName test set iterator option
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName test set iterator option
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set iterator option
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set iterator option
+void PrimitiveType MethodDeclaration SimpleName test set iterator option
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set iterator option
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set iterator option

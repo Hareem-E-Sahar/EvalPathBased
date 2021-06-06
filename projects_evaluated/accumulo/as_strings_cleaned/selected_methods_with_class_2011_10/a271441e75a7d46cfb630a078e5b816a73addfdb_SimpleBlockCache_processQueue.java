@@ -1,0 +1,16 @@
+ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+q SimpleName MethodInvocation SimpleName poll
+ref SimpleName SimpleType CastExpression MethodInvocation SimpleName q
+ref SimpleName SimpleType CastExpression MethodInvocation SimpleName poll
+r SimpleName Assignment CastExpression SimpleType SimpleName ref
+r SimpleName Assignment CastExpression MethodInvocation SimpleName q
+r SimpleName Assignment CastExpression MethodInvocation SimpleName poll
+cache SimpleName MethodInvocation SimpleName remove
+cache SimpleName MethodInvocation QualifiedName rblock id
+remove SimpleName MethodInvocation QualifiedName rblock id
+void PrimitiveType MethodDeclaration SimpleName process queue
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process queue
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process queue

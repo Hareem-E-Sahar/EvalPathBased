@@ -1,0 +1,28 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is property value conversion needed
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is property value conversion needed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is property value conversion needed
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is property value conversion needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+is property value conversion needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+is property value conversion needed SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is property value conversion needed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is property value conversion needed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

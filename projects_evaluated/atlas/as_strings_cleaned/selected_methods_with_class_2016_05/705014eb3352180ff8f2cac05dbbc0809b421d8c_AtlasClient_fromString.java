@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json
+gson SimpleName MethodInvocation SimpleName from json
+gson SimpleName MethodInvocation SimpleName json
+gson SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity result
+from json SimpleName MethodInvocation SimpleName json
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity result
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName entity result
+public Modifier MethodDeclaration SimpleName from string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+static Modifier MethodDeclaration SimpleType SimpleName entity result
+static Modifier MethodDeclaration SimpleName from string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+static Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+entity result SimpleName SimpleType MethodDeclaration SimpleName from string
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json
+entity result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json
+from string SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+json SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName from string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

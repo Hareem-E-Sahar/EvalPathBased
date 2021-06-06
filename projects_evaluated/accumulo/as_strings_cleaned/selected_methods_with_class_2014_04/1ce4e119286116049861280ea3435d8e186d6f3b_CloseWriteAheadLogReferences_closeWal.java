@@ -1,0 +1,84 @@
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName bw
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+k SimpleName MethodInvocation SimpleName to string no truncate
+closing unreferenced wal StringLiteral InfixExpression MethodInvocation SimpleName k
+closing unreferenced wal StringLiteral InfixExpression MethodInvocation SimpleName to string no truncate
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral closing unreferenced wal
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName k
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string no truncate
+info SimpleName MethodInvocation InfixExpression StringLiteral closing unreferenced wal
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName k
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string no truncate
+k SimpleName MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName k
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName k
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+k SimpleName MethodInvocation SimpleName get column family
+k SimpleName MethodInvocation SimpleName get column qualifier
+status util SimpleName MethodInvocation SimpleName file closed value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation MethodInvocation SimpleName k
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation SimpleName k
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation MethodInvocation SimpleName status util
+m SimpleName MethodInvocation MethodInvocation SimpleName file closed value
+put SimpleName MethodInvocation MethodInvocation SimpleName k
+put SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put SimpleName MethodInvocation MethodInvocation SimpleName k
+put SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put SimpleName MethodInvocation MethodInvocation SimpleName status util
+put SimpleName MethodInvocation MethodInvocation SimpleName file closed value
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file closed value
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file closed value
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file closed value
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file closed value
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName close wal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName bw
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+protected Modifier MethodDeclaration SimpleType SimpleName mutations rejected exception
+void PrimitiveType MethodDeclaration SimpleName close wal
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+void PrimitiveType MethodDeclaration SimpleType SimpleName mutations rejected exception
+close wal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+close wal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bw
+close wal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+close wal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+close wal SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+k SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close wal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close wal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

@@ -1,0 +1,162 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName elem type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship label
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding edge for {} -> label {}
+log SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName relationship label
+debug SimpleName MethodInvocation StringLiteral finding edge for {} -> label {}
+debug SimpleName MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation SimpleName relationship label
+finding edge for {} -> label {} StringLiteral MethodInvocation SimpleName instance vertex
+finding edge for {} -> label {} StringLiteral MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+instance vertex SimpleName MethodInvocation SimpleName get edges
+instance vertex SimpleName MethodInvocation QualifiedName directionout
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+get edges SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation SimpleName relationship label
+directionout QualifiedName MethodInvocation SimpleName relationship label
+edge SimpleName MethodInvocation SimpleName get id
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName edge
+string SimpleName MethodInvocation MethodInvocation SimpleName get id
+value of SimpleName MethodInvocation MethodInvocation SimpleName edge
+value of SimpleName MethodInvocation MethodInvocation SimpleName get id
+edge id SimpleName MethodInvocation SimpleName equals
+edge id SimpleName MethodInvocation MethodInvocation SimpleName string
+edge id SimpleName MethodInvocation MethodInvocation SimpleName value of
+edge id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+edge id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+equals SimpleName MethodInvocation MethodInvocation SimpleName string
+equals SimpleName MethodInvocation MethodInvocation SimpleName value of
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mapping vertex {} to struct {}
+log SimpleName MethodInvocation SimpleName struct instance vertex
+log SimpleName MethodInvocation SimpleName attribute name
+debug SimpleName MethodInvocation StringLiteral mapping vertex {} to struct {}
+debug SimpleName MethodInvocation SimpleName struct instance vertex
+debug SimpleName MethodInvocation SimpleName attribute name
+mapping vertex {} to struct {} StringLiteral MethodInvocation SimpleName struct instance vertex
+mapping vertex {} to struct {} StringLiteral MethodInvocation SimpleName attribute name
+struct instance vertex SimpleName MethodInvocation SimpleName attribute name
+elem type SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found struct instance vertex {} mapping to instance {}
+log SimpleName MethodInvocation SimpleName struct instance vertex
+log SimpleName MethodInvocation MethodInvocation SimpleName elem type
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation StringLiteral found struct instance vertex {} mapping to instance {}
+debug SimpleName MethodInvocation SimpleName struct instance vertex
+debug SimpleName MethodInvocation MethodInvocation SimpleName elem type
+debug SimpleName MethodInvocation MethodInvocation SimpleName get name
+found struct instance vertex {} mapping to instance {} StringLiteral MethodInvocation SimpleName struct instance vertex
+found struct instance vertex {} mapping to instance {} StringLiteral MethodInvocation MethodInvocation SimpleName elem type
+found struct instance vertex {} mapping to instance {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+struct instance vertex SimpleName MethodInvocation MethodInvocation SimpleName elem type
+struct instance vertex SimpleName MethodInvocation MethodInvocation SimpleName get name
+elem type SimpleName MethodInvocation SimpleName get name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct type
+type system SimpleName MethodInvocation MethodInvocation SimpleName elem type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName elem type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get name
+struct type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+struct type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+struct type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName elem type
+struct type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+struct type SimpleName MethodInvocation SimpleName create instance
+struct instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+struct instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct instance
+struct type SimpleName MethodInvocation SimpleName field mapping
+struct type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+map vertex to instance SimpleName MethodInvocation SimpleName struct instance vertex
+map vertex to instance SimpleName MethodInvocation SimpleName struct instance
+map vertex to instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+map vertex to instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+map vertex to instance SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance vertex SimpleName MethodInvocation SimpleName struct instance
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance SimpleName MethodInvocation FieldAccess SimpleName fields
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName instance vertex
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName directionout
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName relationship label
+private Modifier MethodDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SimpleName get struct instance from vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+i typed struct SimpleName SimpleType MethodDeclaration SimpleName get struct instance from vertex
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elem type
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem type
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get struct instance from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+elem type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+elem type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+elem type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+elem type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+relationship label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+relationship label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct instance from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct instance from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

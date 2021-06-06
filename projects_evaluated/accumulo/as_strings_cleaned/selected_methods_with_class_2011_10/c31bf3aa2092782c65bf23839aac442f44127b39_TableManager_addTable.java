@@ -1,0 +1,76 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+node exists policy SimpleName SimpleType SingleVariableDeclaration SimpleName exists policy
+instance SimpleName MethodInvocation SimpleName get instance id
+prepare new table state SimpleName MethodInvocation MethodInvocation SimpleName instance
+prepare new table state SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+prepare new table state SimpleName MethodInvocation SimpleName table id
+prepare new table state SimpleName MethodInvocation SimpleName table name
+prepare new table state SimpleName MethodInvocation QualifiedName table statenew
+prepare new table state SimpleName MethodInvocation SimpleName exists policy
+instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation MethodInvocation QualifiedName table statenew
+get instance id SimpleName MethodInvocation MethodInvocation QualifiedName table statenew
+instance SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+table id SimpleName MethodInvocation SimpleName table name
+table id SimpleName MethodInvocation QualifiedName table statenew
+table id SimpleName MethodInvocation SimpleName exists policy
+table name SimpleName MethodInvocation QualifiedName table statenew
+table name SimpleName MethodInvocation SimpleName exists policy
+table statenew QualifiedName MethodInvocation SimpleName exists policy
+update table state cache SimpleName MethodInvocation SimpleName table id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node exists policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+void PrimitiveType MethodDeclaration SimpleName add table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node exists policy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node exists policy
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+add table SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+add table SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

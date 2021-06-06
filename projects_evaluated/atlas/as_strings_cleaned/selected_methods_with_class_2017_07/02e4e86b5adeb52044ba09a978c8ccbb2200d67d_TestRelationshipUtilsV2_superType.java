@@ -1,0 +1,56 @@
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName super type name
+is not empty SimpleName MethodInvocation SimpleName super type name
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName super type name
+of SimpleName MethodInvocation SimpleName super type name
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName super type name
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName super type name
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName super type name
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+immutable set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+of SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName immutable set
+super type name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName super type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName super type name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName super type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName super type name
+immutable set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName super type
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName super type
+super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName super type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName super type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super type name

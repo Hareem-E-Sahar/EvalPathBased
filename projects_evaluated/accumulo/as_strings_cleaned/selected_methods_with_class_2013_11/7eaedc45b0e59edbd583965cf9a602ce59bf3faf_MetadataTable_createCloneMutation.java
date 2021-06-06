@@ -1,0 +1,223 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName key set
+tablet SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+next SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+ke SimpleName MethodInvocation SimpleName get end row
+key extent SimpleName MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+key extent SimpleName MethodInvocation MethodInvocation SimpleName ke
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get end row
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+get metadata entry SimpleName MethodInvocation MethodInvocation SimpleName ke
+get metadata entry SimpleName MethodInvocation MethodInvocation SimpleName get end row
+table id SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName ke
+table id SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get end row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+cf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+cf SimpleName MethodInvocation SimpleName starts with
+cf SimpleName MethodInvocation StringLiteral ../
+starts with SimpleName MethodInvocation StringLiteral ../
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+../ StringLiteral InfixExpression SimpleName src table id
+../ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+../ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+../ StringLiteral InfixExpression MethodInvocation SimpleName get column qualifier
+src table id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName entry
+src table id SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get key
+src table id SimpleName InfixExpression MethodInvocation SimpleName get column qualifier
+cf SimpleName Assignment InfixExpression StringLiteral ../
+cf SimpleName Assignment InfixExpression SimpleName src table id
+cf SimpleName Assignment InfixExpression MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation SimpleName cf
+entry SimpleName MethodInvocation SimpleName get value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation SimpleName cf
+m SimpleName MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName cf
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName cf
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+cf SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+cf SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata current location column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata current location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata current location column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata current location column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation SimpleName get value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation SimpleName get column qualifier
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation SimpleName entry
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation SimpleName get value
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation SimpleName get value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation MethodInvocation SimpleName entry
+m SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName mutation
+private Modifier MethodDeclaration SimpleName create clone mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName mutation
+static Modifier MethodDeclaration SimpleName create clone mutation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+mutation SimpleName SimpleType MethodDeclaration SimpleName create clone mutation
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src table id
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+mutation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tablet
+create clone mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create clone mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src table id
+create clone mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create clone mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+create clone mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet
+create clone mutation SimpleName MethodDeclaration Block ReturnStatement SimpleName m
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+src table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName create clone mutation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create clone mutation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet

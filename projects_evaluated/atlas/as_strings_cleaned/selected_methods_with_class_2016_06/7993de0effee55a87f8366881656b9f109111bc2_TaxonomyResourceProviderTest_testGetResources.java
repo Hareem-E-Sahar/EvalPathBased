@@ -1,0 +1,214 @@
+create strict mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas type system
+type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName create strict mock
+atlas type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type system
+create strict mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName query factory
+query factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName create strict mock
+query factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query factory
+create strict mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName create strict mock
+atlas query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName request
+request capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName new capture
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+query result SimpleName MethodInvocation SimpleName add
+query result SimpleName MethodInvocation SimpleName query result row
+add SimpleName MethodInvocation SimpleName query result row
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral mame
+query result row SimpleName MethodInvocation StringLiteral taxonomy name
+put SimpleName MethodInvocation StringLiteral mame
+put SimpleName MethodInvocation StringLiteral taxonomy name
+mame StringLiteral MethodInvocation StringLiteral taxonomy name
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral description
+query result row SimpleName MethodInvocation StringLiteral test taxonomy description
+put SimpleName MethodInvocation StringLiteral description
+put SimpleName MethodInvocation StringLiteral test taxonomy description
+description StringLiteral MethodInvocation StringLiteral test taxonomy description
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral creation time
+query result row SimpleName MethodInvocation StringLiteral / /
+put SimpleName MethodInvocation StringLiteral creation time
+put SimpleName MethodInvocation StringLiteral / /
+creation time StringLiteral MethodInvocation StringLiteral / /
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+query result SimpleName MethodInvocation SimpleName add
+query result SimpleName MethodInvocation SimpleName query result row
+add SimpleName MethodInvocation SimpleName query result row
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral mame
+query result row SimpleName MethodInvocation StringLiteral taxonomy name
+put SimpleName MethodInvocation StringLiteral mame
+put SimpleName MethodInvocation StringLiteral taxonomy name
+mame StringLiteral MethodInvocation StringLiteral taxonomy name
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral description
+query result row SimpleName MethodInvocation StringLiteral test taxonomy description
+put SimpleName MethodInvocation StringLiteral description
+put SimpleName MethodInvocation StringLiteral test taxonomy description
+description StringLiteral MethodInvocation StringLiteral test taxonomy description
+query result row SimpleName MethodInvocation SimpleName put
+query result row SimpleName MethodInvocation StringLiteral creation time
+query result row SimpleName MethodInvocation StringLiteral / /
+put SimpleName MethodInvocation StringLiteral creation time
+put SimpleName MethodInvocation StringLiteral / /
+creation time StringLiteral MethodInvocation StringLiteral / /
+capture SimpleName MethodInvocation SimpleName request capture
+query factory SimpleName MethodInvocation SimpleName create taxonomy query
+query factory SimpleName MethodInvocation MethodInvocation SimpleName capture
+query factory SimpleName MethodInvocation MethodInvocation SimpleName request capture
+create taxonomy query SimpleName MethodInvocation MethodInvocation SimpleName capture
+create taxonomy query SimpleName MethodInvocation MethodInvocation SimpleName request capture
+expect SimpleName MethodInvocation MethodInvocation SimpleName query factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName create taxonomy query
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName capture
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request capture
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+query factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+create taxonomy query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName query
+query factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+create taxonomy query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+and return SimpleName MethodInvocation SimpleName query
+query SimpleName MethodInvocation SimpleName execute
+expect SimpleName MethodInvocation MethodInvocation SimpleName query
+expect SimpleName MethodInvocation MethodInvocation SimpleName execute
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName query result
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query result
+execute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query result
+and return SimpleName MethodInvocation SimpleName query result
+replay SimpleName MethodInvocation SimpleName type system
+replay SimpleName MethodInvocation SimpleName query factory
+replay SimpleName MethodInvocation SimpleName query
+type system SimpleName MethodInvocation SimpleName query factory
+type system SimpleName MethodInvocation SimpleName query
+query factory SimpleName MethodInvocation SimpleName query
+test taxonomy resource provider SimpleName SimpleType ClassInstanceCreation SimpleName type system
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test taxonomy resource provider
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+taxonomy resource provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+provider SimpleName MethodInvocation SimpleName set query factory
+provider SimpleName MethodInvocation SimpleName query factory
+set query factory SimpleName MethodInvocation SimpleName query factory
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+collection request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+collection request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty map
+collection request SimpleName SimpleType ClassInstanceCreation StringLiteral nametaxonomy
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral nametaxonomy
+string SimpleName SimpleType MethodInvocation ClassInstanceCreation StringLiteral nametaxonomy
+object SimpleName SimpleType MethodInvocation ClassInstanceCreation StringLiteral nametaxonomy
+empty map SimpleName MethodInvocation ClassInstanceCreation StringLiteral nametaxonomy
+user request SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName collection request
+user request SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+user request SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty map
+user request SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral nametaxonomy
+request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user request
+provider SimpleName MethodInvocation SimpleName get resources
+provider SimpleName MethodInvocation SimpleName user request
+get resources SimpleName MethodInvocation SimpleName user request
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName provider
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resources
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName user request
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get property maps
+result SimpleName MethodInvocation MethodInvocation SimpleName size
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property maps
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName result
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get property maps
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+result SimpleName MethodInvocation SimpleName get property maps
+result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName contains
+result SimpleName MethodInvocation MethodInvocation SimpleName query result row
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName query result row
+contains SimpleName MethodInvocation SimpleName query result row
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property maps
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName query result row
+result SimpleName MethodInvocation SimpleName get property maps
+result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName contains
+result SimpleName MethodInvocation MethodInvocation SimpleName query result row
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName query result row
+contains SimpleName MethodInvocation SimpleName query result row
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property maps
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName query result row
+request capture SimpleName MethodInvocation SimpleName get value
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName request capture
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request
+request SimpleName MethodInvocation SimpleName get query string
+assert equals SimpleName MethodInvocation StringLiteral nametaxonomy
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName request
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get query string
+nametaxonomy StringLiteral MethodInvocation MethodInvocation SimpleName request
+nametaxonomy StringLiteral MethodInvocation MethodInvocation SimpleName get query string
+request SimpleName MethodInvocation SimpleName get additional select properties
+request SimpleName MethodInvocation MethodInvocation SimpleName size
+get additional select properties SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get additional select properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName request
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get additional select properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+request SimpleName MethodInvocation SimpleName get query properties
+request SimpleName MethodInvocation MethodInvocation SimpleName size
+get query properties SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName request
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get query properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+verify SimpleName MethodInvocation SimpleName type system
+verify SimpleName MethodInvocation SimpleName query factory
+verify SimpleName MethodInvocation SimpleName query
+type system SimpleName MethodInvocation SimpleName query factory
+type system SimpleName MethodInvocation SimpleName query
+query factory SimpleName MethodInvocation SimpleName query
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get resources
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get resources
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get resources
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get resources SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get resources
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get resources
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

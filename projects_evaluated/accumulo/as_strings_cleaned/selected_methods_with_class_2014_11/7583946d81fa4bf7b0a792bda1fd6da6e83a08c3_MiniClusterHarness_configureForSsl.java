@@ -1,0 +1,300 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+file SimpleName SimpleType SingleVariableDeclaration SimpleName folder
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+cfg SimpleName MethodInvocation SimpleName get site config
+site config SimpleName VariableDeclarationFragment MethodInvocation SimpleName cfg
+site config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get site config
+propertyinstance rpc ssl enabled QualifiedName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName get
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+true SimpleName MethodInvocation SimpleName equals
+true SimpleName MethodInvocation MethodInvocation SimpleName site config
+true SimpleName MethodInvocation MethodInvocation SimpleName get
+true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation SimpleName site config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+file SimpleName SimpleType ClassInstanceCreation SimpleName folder
+file SimpleName SimpleType ClassInstanceCreation StringLiteral ssl
+folder SimpleName ClassInstanceCreation StringLiteral ssl
+ssl dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+ssl dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName folder
+ssl dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral ssl
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssl dir
+ssl dir SimpleName MethodInvocation SimpleName mkdirs
+cfg SimpleName MethodInvocation SimpleName get instance name
+root StringLiteral InfixExpression MethodInvocation SimpleName cfg
+root StringLiteral InfixExpression MethodInvocation SimpleName get instance name
+root StringLiteral InfixExpression StringLiteral jks
+cfg SimpleName MethodInvocation InfixExpression StringLiteral jks
+get instance name SimpleName MethodInvocation InfixExpression StringLiteral jks
+file SimpleName SimpleType ClassInstanceCreation SimpleName ssl dir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral root
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral jks
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral root
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName cfg
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get instance name
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral jks
+root keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+root keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ssl dir
+root keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral root
+root keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral jks
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root keystore file
+cfg SimpleName MethodInvocation SimpleName get instance name
+local StringLiteral InfixExpression MethodInvocation SimpleName cfg
+local StringLiteral InfixExpression MethodInvocation SimpleName get instance name
+local StringLiteral InfixExpression StringLiteral jks
+cfg SimpleName MethodInvocation InfixExpression StringLiteral jks
+get instance name SimpleName MethodInvocation InfixExpression StringLiteral jks
+file SimpleName SimpleType ClassInstanceCreation SimpleName ssl dir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral local
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral jks
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral local
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName cfg
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get instance name
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral jks
+local keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+local keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ssl dir
+local keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral local
+local keystore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral jks
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local keystore file
+cfg SimpleName MethodInvocation SimpleName get instance name
+public StringLiteral InfixExpression MethodInvocation SimpleName cfg
+public StringLiteral InfixExpression MethodInvocation SimpleName get instance name
+public StringLiteral InfixExpression StringLiteral jks
+cfg SimpleName MethodInvocation InfixExpression StringLiteral jks
+get instance name SimpleName MethodInvocation InfixExpression StringLiteral jks
+file SimpleName SimpleType ClassInstanceCreation SimpleName ssl dir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral public
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral jks
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral public
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName cfg
+ssl dir SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get instance name
+ssl dir SimpleName ClassInstanceCreation InfixExpression StringLiteral jks
+public truststore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+public truststore file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ssl dir
+public truststore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral public
+public truststore file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral jks
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName public truststore file
+root keystore password SimpleName VariableDeclarationFragment StringLiteral root keystore password
+truststore password SimpleName VariableDeclarationFragment StringLiteral truststore password
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName root keystore password
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral root keystore password
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName truststore password
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral truststore password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root keystore password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral root keystore password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName truststore password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral truststore password
+root keystore password SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName truststore password
+root keystore password SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral truststore password
+root keystore password StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName truststore password
+root keystore password StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral truststore password
+propertyrpc ssl keystore type QualifiedName MethodInvocation SimpleName get default value
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertyrpc ssl keystore type
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get default value
+cert utils SimpleName SimpleType ClassInstanceCreation StringLiteral oapache accumulocnmini accumulo cluster
+cert utils SimpleName SimpleType ClassInstanceCreation StringLiteral rsa
+cert utils SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+cert utils SimpleName SimpleType ClassInstanceCreation StringLiteral sha with rsa encryption
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation StringLiteral oapache accumulocnmini accumulo cluster
+get default value SimpleName MethodInvocation ClassInstanceCreation StringLiteral oapache accumulocnmini accumulo cluster
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation StringLiteral rsa
+get default value SimpleName MethodInvocation ClassInstanceCreation StringLiteral rsa
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get default value SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation StringLiteral sha with rsa encryption
+get default value SimpleName MethodInvocation ClassInstanceCreation StringLiteral sha with rsa encryption
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation StringLiteral rsa
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation NumberLiteral empty
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation StringLiteral sha with rsa encryption
+rsa StringLiteral ClassInstanceCreation NumberLiteral empty
+rsa StringLiteral ClassInstanceCreation StringLiteral sha with rsa encryption
+empty NumberLiteral ClassInstanceCreation StringLiteral sha with rsa encryption
+cfg SimpleName MethodInvocation SimpleName get instance name
+cfg SimpleName MethodInvocation SimpleName get root password
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create all
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create all
+get default value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create all
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation SimpleName create all
+rsa StringLiteral ClassInstanceCreation MethodInvocation SimpleName create all
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName create all
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation SimpleName create all
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName root keystore file
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName root keystore file
+get default value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName root keystore file
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation SimpleName root keystore file
+rsa StringLiteral ClassInstanceCreation MethodInvocation SimpleName root keystore file
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName root keystore file
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation SimpleName root keystore file
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local keystore file
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local keystore file
+get default value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local keystore file
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation SimpleName local keystore file
+rsa StringLiteral ClassInstanceCreation MethodInvocation SimpleName local keystore file
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName local keystore file
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation SimpleName local keystore file
+cert utils SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName public truststore file
+propertyrpc ssl keystore type QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName public truststore file
+get default value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName public truststore file
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation SimpleName public truststore file
+rsa StringLiteral ClassInstanceCreation MethodInvocation SimpleName public truststore file
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName public truststore file
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation SimpleName public truststore file
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cfg
+oapache accumulocnmini accumulo cluster StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance name
+rsa StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cfg
+rsa StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance name
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cfg
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance name
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cfg
+sha with rsa encryption StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance name
+create all SimpleName MethodInvocation SimpleName root keystore file
+create all SimpleName MethodInvocation SimpleName local keystore file
+create all SimpleName MethodInvocation SimpleName public truststore file
+create all SimpleName MethodInvocation MethodInvocation SimpleName cfg
+create all SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+create all SimpleName MethodInvocation SimpleName root keystore password
+root keystore file SimpleName MethodInvocation SimpleName local keystore file
+root keystore file SimpleName MethodInvocation SimpleName public truststore file
+root keystore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+root keystore file SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+root keystore file SimpleName MethodInvocation SimpleName root keystore password
+root keystore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+root keystore file SimpleName MethodInvocation MethodInvocation SimpleName get root password
+local keystore file SimpleName MethodInvocation SimpleName public truststore file
+local keystore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+local keystore file SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+local keystore file SimpleName MethodInvocation SimpleName root keystore password
+local keystore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+local keystore file SimpleName MethodInvocation MethodInvocation SimpleName get root password
+local keystore file SimpleName MethodInvocation SimpleName truststore password
+public truststore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+public truststore file SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+public truststore file SimpleName MethodInvocation SimpleName root keystore password
+public truststore file SimpleName MethodInvocation MethodInvocation SimpleName cfg
+public truststore file SimpleName MethodInvocation MethodInvocation SimpleName get root password
+public truststore file SimpleName MethodInvocation SimpleName truststore password
+cfg SimpleName MethodInvocation MethodInvocation SimpleName root keystore password
+get instance name SimpleName MethodInvocation MethodInvocation SimpleName root keystore password
+cfg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cfg
+cfg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cfg
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+cfg SimpleName MethodInvocation MethodInvocation SimpleName truststore password
+get instance name SimpleName MethodInvocation MethodInvocation SimpleName truststore password
+root keystore password SimpleName MethodInvocation MethodInvocation SimpleName cfg
+root keystore password SimpleName MethodInvocation MethodInvocation SimpleName get root password
+root keystore password SimpleName MethodInvocation SimpleName truststore password
+cfg SimpleName MethodInvocation MethodInvocation SimpleName truststore password
+get root password SimpleName MethodInvocation MethodInvocation SimpleName truststore password
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral error creating mac keystore
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error creating mac keystore StringLiteral ClassInstanceCreation SimpleName e
+propertyinstance rpc ssl enabled QualifiedName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation StringLiteral true
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance rpc ssl enabled
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation StringLiteral true
+propertyinstance rpc ssl enabled QualifiedName MethodInvocation MethodInvocation StringLiteral true
+get key SimpleName MethodInvocation MethodInvocation StringLiteral true
+propertyrpc ssl keystore path QualifiedName MethodInvocation SimpleName get key
+local keystore file SimpleName MethodInvocation SimpleName get absolute path
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl keystore path
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation MethodInvocation SimpleName local keystore file
+site config SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl keystore path
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName local keystore file
+put SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+propertyrpc ssl keystore path QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName local keystore file
+propertyrpc ssl keystore path QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName local keystore file
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+propertyrpc ssl keystore password QualifiedName MethodInvocation SimpleName get key
+cfg SimpleName MethodInvocation SimpleName get root password
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl keystore password
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation MethodInvocation SimpleName cfg
+site config SimpleName MethodInvocation MethodInvocation SimpleName get root password
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl keystore password
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName cfg
+put SimpleName MethodInvocation MethodInvocation SimpleName get root password
+propertyrpc ssl keystore password QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cfg
+propertyrpc ssl keystore password QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cfg
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root password
+propertyrpc ssl truststore path QualifiedName MethodInvocation SimpleName get key
+public truststore file SimpleName MethodInvocation SimpleName get absolute path
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl truststore path
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation MethodInvocation SimpleName public truststore file
+site config SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl truststore path
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName public truststore file
+put SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+propertyrpc ssl truststore path QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName public truststore file
+propertyrpc ssl truststore path QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName public truststore file
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+propertyrpc ssl truststore password QualifiedName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl truststore password
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName truststore password
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyrpc ssl truststore password
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation SimpleName truststore password
+propertyrpc ssl truststore password QualifiedName MethodInvocation MethodInvocation SimpleName truststore password
+get key SimpleName MethodInvocation MethodInvocation SimpleName truststore password
+cfg SimpleName MethodInvocation SimpleName set site config
+cfg SimpleName MethodInvocation SimpleName site config
+set site config SimpleName MethodInvocation SimpleName site config
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure for ssl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName folder
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName configure for ssl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName folder
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+configure for ssl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure for ssl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure for ssl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+configure for ssl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName folder
+configure for ssl SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure for ssl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure for ssl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName folder

@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+mapper v SimpleName MethodInvocation SimpleName create object node
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName mapper v
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName create object node
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName put pojo
+ret SimpleName MethodInvocation SimpleName key
+ret SimpleName MethodInvocation SimpleName value
+put pojo SimpleName MethodInvocation SimpleName key
+put pojo SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName object node
+public Modifier MethodDeclaration SimpleName create v object node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName object node
+static Modifier MethodDeclaration SimpleName create v object node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object node SimpleName SimpleType MethodDeclaration SimpleName create v object node
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+create v object node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create v object node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+create v object node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create v object node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+create v object node SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create v object node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create v object node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

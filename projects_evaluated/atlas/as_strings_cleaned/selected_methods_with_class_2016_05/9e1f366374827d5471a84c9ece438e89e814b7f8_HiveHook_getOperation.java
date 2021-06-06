@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName hive operation
+public Modifier MethodDeclaration SimpleName get operation
+public Modifier MethodDeclaration Block ReturnStatement SimpleName operation
+hive operation SimpleName SimpleType MethodDeclaration SimpleName get operation
+get operation SimpleName MethodDeclaration Block ReturnStatement SimpleName operation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive operation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get operation
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get operation

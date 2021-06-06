@@ -1,0 +1,18 @@
+replication util SimpleName MethodInvocation SimpleName get peers
+replication util SimpleName MethodInvocation MethodInvocation SimpleName size
+get peers SimpleName MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get num configured peers
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get num configured peers
+int PrimitiveType MethodDeclaration SimpleName get num configured peers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get num configured peers
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get num configured peers

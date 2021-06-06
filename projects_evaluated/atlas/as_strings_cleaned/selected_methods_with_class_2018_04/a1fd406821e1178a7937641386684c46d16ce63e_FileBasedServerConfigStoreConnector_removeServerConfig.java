@@ -1,0 +1,15 @@
+file SimpleName SimpleType ClassInstanceCreation SimpleName config store name
+config store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+config store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName config store name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config store file
+config store file SimpleName MethodInvocation SimpleName delete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove server config
+void PrimitiveType MethodDeclaration SimpleName remove server config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove server config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove server config

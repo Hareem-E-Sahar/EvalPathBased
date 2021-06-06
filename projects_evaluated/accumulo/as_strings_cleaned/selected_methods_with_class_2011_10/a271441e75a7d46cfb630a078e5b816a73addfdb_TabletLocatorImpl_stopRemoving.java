@@ -1,0 +1,55 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName nke
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+ke SimpleName MethodInvocation SimpleName get prev end row
+nke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get prev end row
+nke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end row
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName nke
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName stop removing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName nke
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName stop removing
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName nke
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+boolean PrimitiveType MethodDeclaration SimpleName stop removing
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nke
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ke
+stop removing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+stop removing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nke
+stop removing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+stop removing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ke
+nke SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop removing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop removing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke

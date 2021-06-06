@@ -1,0 +1,61 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName database type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+random string utils SimpleName MethodInvocation SimpleName random alphanumeric
+random string utils SimpleName MethodInvocation NumberLiteral empty
+random alphanumeric SimpleName MethodInvocation NumberLiteral empty
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string utils
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random alphanumeric
+db name SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName db name
+name SimpleName MethodInvocation SimpleName db name
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral description
+entity SimpleName MethodInvocation StringLiteral us db
+set attribute SimpleName MethodInvocation StringLiteral description
+set attribute SimpleName MethodInvocation StringLiteral us db
+description StringLiteral MethodInvocation StringLiteral us db
+entity SimpleName MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName create db entity
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SimpleName create db entity
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create db entity
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create db entity
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create db entity
+create db entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create db entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create db entity

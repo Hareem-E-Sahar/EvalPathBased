@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName message deserializer
+public Modifier MethodDeclaration SimpleName get deserializer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName deserializer
+message deserializer SimpleName SimpleType MethodDeclaration SimpleName get deserializer
+get deserializer SimpleName MethodDeclaration Block ReturnStatement SimpleName deserializer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName message deserializer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get deserializer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName message deserializer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get deserializer

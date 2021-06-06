@@ -1,0 +1,178 @@
+select expr context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral => dsl visitorvisit select expr
+log SimpleName MethodInvocation SimpleName ctx
+debug SimpleName MethodInvocation StringLiteral => dsl visitorvisit select expr
+debug SimpleName MethodInvocation SimpleName ctx
+=> dsl visitorvisit select expr StringLiteral MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get parent
+ctx SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName group by expression context
+get parent SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName group by expression context
+ctx SimpleName MethodInvocation SimpleName select expression
+ctx SimpleName MethodInvocation MethodInvocation SimpleName size
+select expression SimpleName MethodInvocation MethodInvocation SimpleName size
+items SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+ctx SimpleName MethodInvocation SimpleName select expression
+ctx SimpleName MethodInvocation MethodInvocation SimpleName size
+select expression SimpleName MethodInvocation MethodInvocation SimpleName size
+labels SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+select clause composer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName select clause composer
+select clause composer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName select clause composer
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+ctx SimpleName MethodInvocation SimpleName select expression
+ctx SimpleName MethodInvocation MethodInvocation SimpleName size
+select expression SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ctx
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName select expression
+i SimpleName InfixExpression MethodInvocation SimpleName size
+ctx SimpleName MethodInvocation SimpleName select expression
+ctx SimpleName MethodInvocation SimpleName i
+select expression SimpleName MethodInvocation SimpleName i
+select expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+select expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName select expression
+select expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+select expression context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName select expression
+select expression SimpleName MethodInvocation SimpleName expr
+select expression SimpleName MethodInvocation MethodInvocation SimpleName comp e
+expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+select expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count clause
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count clause
+comp e SimpleName MethodInvocation MethodInvocation SimpleName count clause
+count clause SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName comp e
+count clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName count clause
+count clause context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count clause
+select expression SimpleName MethodInvocation SimpleName expr
+select expression SimpleName MethodInvocation MethodInvocation SimpleName comp e
+expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+select expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sum clause
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sum clause
+comp e SimpleName MethodInvocation MethodInvocation SimpleName sum clause
+sum clause SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName comp e
+sum clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName sum clause
+sum clause context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sum clause
+select expression SimpleName MethodInvocation SimpleName expr
+select expression SimpleName MethodInvocation MethodInvocation SimpleName comp e
+expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+select expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName min clause
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName min clause
+comp e SimpleName MethodInvocation MethodInvocation SimpleName min clause
+min clause SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName comp e
+min clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName min clause
+min clause context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName min clause
+select expression SimpleName MethodInvocation SimpleName expr
+select expression SimpleName MethodInvocation MethodInvocation SimpleName comp e
+expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+select expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max clause
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max clause
+comp e SimpleName MethodInvocation MethodInvocation SimpleName max clause
+max clause SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName comp e
+max clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName max clause
+max clause context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max clause
+select expression SimpleName MethodInvocation SimpleName identifier
+identifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName select expression
+identifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName identifier
+identifier context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName identifier
+labels SimpleName ArrayAccess SimpleName i
+identifier SimpleName MethodInvocation SimpleName get text
+select expression SimpleName MethodInvocation SimpleName get text
+identifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName identifier
+identifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get text
+identifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName select expression
+identifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get text
+identifier SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName select expression
+identifier SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get text
+get text SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName select expression
+get text SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get text
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName count clause
+non null SimpleName MethodInvocation SimpleName count clause
+items SimpleName ArrayAccess SimpleName i
+items SimpleName ArrayAccess Assignment StringLiteral count
+i SimpleName ArrayAccess Assignment StringLiteral count
+select clause composer SimpleName MethodInvocation SimpleName set count idx
+select clause composer SimpleName MethodInvocation SimpleName i
+set count idx SimpleName MethodInvocation SimpleName i
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName sum clause
+non null SimpleName MethodInvocation SimpleName sum clause
+items SimpleName ArrayAccess SimpleName i
+sum clause SimpleName MethodInvocation SimpleName expr
+sum clause SimpleName MethodInvocation MethodInvocation SimpleName get text
+expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+items SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+select clause composer SimpleName MethodInvocation SimpleName set sum idx
+select clause composer SimpleName MethodInvocation SimpleName i
+set sum idx SimpleName MethodInvocation SimpleName i
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName min clause
+non null SimpleName MethodInvocation SimpleName min clause
+items SimpleName ArrayAccess SimpleName i
+min clause SimpleName MethodInvocation SimpleName expr
+min clause SimpleName MethodInvocation MethodInvocation SimpleName get text
+expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+items SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+select clause composer SimpleName MethodInvocation SimpleName set min idx
+select clause composer SimpleName MethodInvocation SimpleName i
+set min idx SimpleName MethodInvocation SimpleName i
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName max clause
+non null SimpleName MethodInvocation SimpleName max clause
+items SimpleName ArrayAccess SimpleName i
+max clause SimpleName MethodInvocation SimpleName expr
+max clause SimpleName MethodInvocation MethodInvocation SimpleName get text
+expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+items SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+select clause composer SimpleName MethodInvocation SimpleName set max idx
+select clause composer SimpleName MethodInvocation SimpleName i
+set max idx SimpleName MethodInvocation SimpleName i
+items SimpleName ArrayAccess SimpleName i
+select expression SimpleName MethodInvocation SimpleName expr
+select expression SimpleName MethodInvocation MethodInvocation SimpleName get text
+expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+items SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get text
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+select clause composer SimpleName MethodInvocation SimpleName set items
+select clause composer SimpleName MethodInvocation SimpleName items
+set items SimpleName MethodInvocation SimpleName items
+select clause composer SimpleName MethodInvocation SimpleName set attributes
+select clause composer SimpleName MethodInvocation SimpleName items
+set attributes SimpleName MethodInvocation SimpleName items
+select clause composer SimpleName MethodInvocation SimpleName set labels
+select clause composer SimpleName MethodInvocation SimpleName labels
+set labels SimpleName MethodInvocation SimpleName labels
+gremlin query composer SimpleName MethodInvocation SimpleName add select
+gremlin query composer SimpleName MethodInvocation SimpleName select clause composer
+add select SimpleName MethodInvocation SimpleName select clause composer
+visit select expr SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit select expr
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit select expr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select expr context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit select expr
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit select expr SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select expr context
+visit select expr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit select expr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit select expr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

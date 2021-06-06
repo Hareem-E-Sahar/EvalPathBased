@@ -1,0 +1,82 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table referenceable
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName sd referenceable
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table SimpleName MethodInvocation SimpleName get db name
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+table SimpleName MethodInvocation SimpleName get table name
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral registering partitions for {}.{}
+log SimpleName MethodInvocation SimpleName db name
+log SimpleName MethodInvocation SimpleName table name
+info SimpleName MethodInvocation StringLiteral registering partitions for {}.{}
+info SimpleName MethodInvocation SimpleName db name
+info SimpleName MethodInvocation SimpleName table name
+registering partitions for {}.{} StringLiteral MethodInvocation SimpleName db name
+registering partitions for {}.{} StringLiteral MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName partition
+hive client SimpleName MethodInvocation SimpleName get partitions
+hive client SimpleName MethodInvocation SimpleName table
+get partitions SimpleName MethodInvocation SimpleName table
+table parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive client
+table parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get partitions
+table parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+partition SimpleName SimpleType SingleVariableDeclaration SimpleName hive part
+register partition SimpleName MethodInvocation SimpleName table referenceable
+register partition SimpleName MethodInvocation SimpleName sd referenceable
+register partition SimpleName MethodInvocation SimpleName hive part
+table referenceable SimpleName MethodInvocation SimpleName sd referenceable
+table referenceable SimpleName MethodInvocation SimpleName hive part
+sd referenceable SimpleName MethodInvocation SimpleName hive part
+partition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table parts
+hive part SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table parts
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName register partitions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleName register partitions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table referenceable
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+register partitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+register partitions SimpleName MethodDeclaration SimpleType SimpleName exception
+register partitions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table parts
+table referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+table referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+table referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+sd referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+sd referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register partitions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register partitions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

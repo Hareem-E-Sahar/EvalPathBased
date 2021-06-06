@@ -1,0 +1,181 @@
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+prefix SimpleName MethodInvocation SimpleName is deprecated
+prop SimpleName MethodInvocation SimpleName is deprecated
+prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is deprecated
+is deprecated SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+is deprecated SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is deprecated
+depr SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName prefix
+depr SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is deprecated
+depr SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName prop
+depr SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is deprecated
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName depr
+prop SimpleName MethodInvocation SimpleName get key
+prefix SimpleName MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation SimpleName prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation SimpleName get key
+===== StringLiteral InfixExpression MethodInvocation SimpleName prop
+===== StringLiteral InfixExpression MethodInvocation SimpleName get key
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation InfixExpression StringLiteral =====
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+println SimpleName MethodInvocation InfixExpression StringLiteral =====
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+depr SimpleName ConditionalExpression StringLiteral deprecated
+depr SimpleName ConditionalExpression StringLiteral empty
+deprecated StringLiteral ConditionalExpression StringLiteral empty
+prop SimpleName MethodInvocation SimpleName get description
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName prop
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName get description
+strike SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+strike SimpleName MethodInvocation SimpleName depr
+sanitize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation MethodInvocation SimpleName strike
+doc SimpleName MethodInvocation MethodInvocation SimpleName depr
+println SimpleName MethodInvocation MethodInvocation SimpleName strike
+println SimpleName MethodInvocation MethodInvocation SimpleName depr
+doc SimpleName MethodInvocation SimpleName println
+prop SimpleName MethodInvocation SimpleName get type
+prop SimpleName MethodInvocation MethodInvocation SimpleName name
+get type SimpleName MethodInvocation MethodInvocation SimpleName name
+type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName prop
+type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+type StringLiteral InfixExpression MethodInvocation SimpleName name
+strike SimpleName MethodInvocation InfixExpression StringLiteral type
+strike SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+strike SimpleName MethodInvocation SimpleName depr
+type StringLiteral InfixExpression MethodInvocation SimpleName depr
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+strike SimpleName MethodInvocation InfixExpression StringLiteral +
+type StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral +
+depr SimpleName MethodInvocation InfixExpression StringLiteral +
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName strike
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+doc SimpleName MethodInvocation InfixExpression StringLiteral +
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName strike
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+println SimpleName MethodInvocation InfixExpression StringLiteral +
+is zoo keeper mutable SimpleName MethodInvocation SimpleName prop
+zookeeper mutable StringLiteral InfixExpression MethodInvocation SimpleName is zoo keeper mutable
+zookeeper mutable StringLiteral InfixExpression MethodInvocation SimpleName prop
+strike SimpleName MethodInvocation InfixExpression StringLiteral zookeeper mutable
+strike SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is zoo keeper mutable
+strike SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+strike SimpleName MethodInvocation SimpleName depr
+zookeeper mutable StringLiteral InfixExpression MethodInvocation SimpleName depr
+is zoo keeper mutable SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+prop SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+strike SimpleName MethodInvocation InfixExpression StringLiteral +
+zookeeper mutable StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral +
+depr SimpleName MethodInvocation InfixExpression StringLiteral +
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName strike
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+doc SimpleName MethodInvocation InfixExpression StringLiteral +
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName strike
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName depr
+println SimpleName MethodInvocation InfixExpression StringLiteral +
+prop SimpleName MethodInvocation SimpleName get raw default value
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName prop
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName get raw default value
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName trim
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+get raw default value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+default value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sanitize
+default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+default value SimpleName MethodInvocation SimpleName length
+default value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+strike SimpleName MethodInvocation StringLiteral default value empty
+strike SimpleName MethodInvocation SimpleName depr
+default value empty StringLiteral MethodInvocation SimpleName depr
+default value SimpleName Assignment MethodInvocation SimpleName strike
+default value SimpleName Assignment MethodInvocation StringLiteral default value empty
+default value SimpleName Assignment MethodInvocation SimpleName depr
+default value SimpleName MethodInvocation SimpleName contains
+default value SimpleName MethodInvocation StringLiteral empty
+contains SimpleName MethodInvocation StringLiteral empty
+strike SimpleName MethodInvocation StringLiteral default value
+strike SimpleName MethodInvocation SimpleName depr
+default value StringLiteral MethodInvocation SimpleName depr
+strike SimpleName MethodInvocation InfixExpression StringLiteral ----
+default value StringLiteral MethodInvocation InfixExpression StringLiteral ----
+depr SimpleName MethodInvocation InfixExpression StringLiteral ----
+strike SimpleName MethodInvocation InfixExpression SimpleName default value
+default value StringLiteral MethodInvocation InfixExpression SimpleName default value
+depr SimpleName MethodInvocation InfixExpression SimpleName default value
+strike SimpleName MethodInvocation InfixExpression StringLiteral ----
+default value StringLiteral MethodInvocation InfixExpression StringLiteral ----
+depr SimpleName MethodInvocation InfixExpression StringLiteral ----
+---- StringLiteral InfixExpression SimpleName default value
+---- StringLiteral InfixExpression StringLiteral ----
+default value SimpleName InfixExpression StringLiteral ----
+default value SimpleName Assignment InfixExpression MethodInvocation SimpleName strike
+default value SimpleName Assignment InfixExpression MethodInvocation StringLiteral default value
+default value SimpleName Assignment InfixExpression MethodInvocation SimpleName depr
+default value SimpleName Assignment InfixExpression StringLiteral ----
+default value SimpleName Assignment InfixExpression SimpleName default value
+default value SimpleName Assignment InfixExpression StringLiteral ----
+default value StringLiteral InfixExpression StringLiteral `
+default value StringLiteral InfixExpression InfixExpression SimpleName default value
+` StringLiteral InfixExpression InfixExpression SimpleName default value
+default value StringLiteral InfixExpression InfixExpression StringLiteral `
+` StringLiteral InfixExpression InfixExpression StringLiteral `
+default value SimpleName InfixExpression StringLiteral `
+strike SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral default value
+strike SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral `
+strike SimpleName MethodInvocation InfixExpression SimpleName default value
+strike SimpleName MethodInvocation InfixExpression StringLiteral `
+strike SimpleName MethodInvocation SimpleName depr
+default value StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName depr
+` StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName depr
+default value SimpleName InfixExpression MethodInvocation SimpleName depr
+` StringLiteral InfixExpression MethodInvocation SimpleName depr
+default value SimpleName Assignment MethodInvocation SimpleName strike
+default value SimpleName Assignment MethodInvocation InfixExpression SimpleName default value
+default value SimpleName Assignment MethodInvocation InfixExpression StringLiteral `
+default value SimpleName Assignment MethodInvocation SimpleName depr
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation SimpleName default value
+println SimpleName MethodInvocation SimpleName default value
+doc SimpleName MethodInvocation SimpleName println
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName property
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName prefix
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName prop
+void PrimitiveType MethodDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prop
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prop
+property SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop

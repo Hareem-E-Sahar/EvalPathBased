@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType QualifiedName data typestype category
+public Modifier MethodDeclaration SimpleName get category
+public Modifier MethodDeclaration Block ReturnStatement SimpleName category
+data typestype category QualifiedName SimpleType MethodDeclaration SimpleName get category
+get category SimpleName MethodDeclaration Block ReturnStatement SimpleName category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName data typestype category
+public Modifier TypeDeclaration MethodDeclaration SimpleName get category
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName data typestype category
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get category

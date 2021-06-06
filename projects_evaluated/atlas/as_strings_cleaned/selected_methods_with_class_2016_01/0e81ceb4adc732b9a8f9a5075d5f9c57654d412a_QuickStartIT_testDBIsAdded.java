@@ -1,0 +1,45 @@
+get db SimpleName MethodInvocation QualifiedName quick startsales db
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db
+db SimpleName VariableDeclarationFragment MethodInvocation QualifiedName quick startsales db
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db SimpleName MethodInvocation SimpleName get
+db SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation QualifiedName quick startsales db
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName db
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+quick startsales db QualifiedName MethodInvocation MethodInvocation SimpleName db
+quick startsales db QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick startsales db QualifiedName MethodInvocation MethodInvocation StringLiteral name
+db SimpleName MethodInvocation SimpleName get
+db SimpleName MethodInvocation StringLiteral description
+get SimpleName MethodInvocation StringLiteral description
+assert equals SimpleName MethodInvocation QualifiedName quick startsales db description
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName db
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral description
+quick startsales db description QualifiedName MethodInvocation MethodInvocation SimpleName db
+quick startsales db description QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick startsales db description QualifiedName MethodInvocation MethodInvocation StringLiteral description
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test db is added
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test db is added
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test db is added
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test db is added SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test db is added
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test db is added
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

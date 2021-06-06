@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full text query
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral vss
+string SimpleName MethodInvocation QualifiedName constantsentity text property key
+string SimpleName MethodInvocation SimpleName full text query
+format SimpleName MethodInvocation StringLiteral vss
+format SimpleName MethodInvocation QualifiedName constantsentity text property key
+format SimpleName MethodInvocation SimpleName full text query
+vss StringLiteral MethodInvocation QualifiedName constantsentity text property key
+vss StringLiteral MethodInvocation SimpleName full text query
+constantsentity text property key QualifiedName MethodInvocation SimpleName full text query
+graph query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+graph query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+graph query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral vss
+graph query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsentity text property key
+graph query SimpleName VariableDeclarationFragment MethodInvocation SimpleName full text query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph query
+graph SimpleName MethodInvocation SimpleName index query
+graph SimpleName MethodInvocation QualifiedName constantsfulltext index
+graph SimpleName MethodInvocation SimpleName graph query
+index query SimpleName MethodInvocation QualifiedName constantsfulltext index
+index query SimpleName MethodInvocation SimpleName graph query
+constantsfulltext index QualifiedName MethodInvocation SimpleName graph query
+private Modifier MethodDeclaration SimpleType SimpleName atlas index query
+private Modifier MethodDeclaration SimpleName to atlas index query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName full text query
+atlas index query SimpleName SimpleType MethodDeclaration SimpleName to atlas index query
+atlas index query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName full text query
+to atlas index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to atlas index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full text query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas index query
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas index query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full text query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas index query
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas index query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full text query

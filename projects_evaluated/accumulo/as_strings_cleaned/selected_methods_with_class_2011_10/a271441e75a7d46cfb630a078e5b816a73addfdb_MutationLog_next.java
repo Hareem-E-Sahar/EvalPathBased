@@ -1,0 +1,20 @@
+mutation SimpleName MethodInvocation SimpleName read fields
+mutation SimpleName MethodInvocation SimpleName login
+read fields SimpleName MethodInvocation SimpleName login
+login SimpleName MethodInvocation SimpleName read byte
+event type SimpleName Assignment MethodInvocation SimpleName login
+event type SimpleName Assignment MethodInvocation SimpleName read byte
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mutation
+mutation SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName mutation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

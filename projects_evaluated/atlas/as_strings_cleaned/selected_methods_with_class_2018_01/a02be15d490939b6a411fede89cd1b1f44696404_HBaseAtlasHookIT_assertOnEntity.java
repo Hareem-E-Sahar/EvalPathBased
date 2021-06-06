@@ -1,0 +1,18 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName assert on entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+assert on entity SimpleName MethodDeclaration SimpleType SimpleName exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert on entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert on entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

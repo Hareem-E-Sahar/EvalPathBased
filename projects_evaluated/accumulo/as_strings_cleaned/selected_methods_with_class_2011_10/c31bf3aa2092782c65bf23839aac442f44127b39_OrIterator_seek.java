@@ -1,0 +1,324 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column families
+byte sequence SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column families
+boolean PrimitiveType SingleVariableDeclaration SimpleName inclusive
+sources SimpleName MethodInvocation SimpleName size
+sources SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sources SimpleName MethodInvocation SimpleName size
+sources SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sources SimpleName MethodInvocation SimpleName get
+sources SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+current term SimpleName Assignment MethodInvocation SimpleName sources
+current term SimpleName Assignment MethodInvocation SimpleName get
+current term SimpleName Assignment MethodInvocation NumberLiteral empty
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new range
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+new range SimpleName Assignment SimpleName range
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+current termterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null text
+current termterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName current termterm
+null text SimpleName ConditionalExpression QualifiedName current termterm
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null text
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression SimpleName null text
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+new key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null text
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+current termterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null text
+current termterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName current termterm
+null text SimpleName ConditionalExpression QualifiedName current termterm
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null text
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression SimpleName null text
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+null text SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+current termterm QualifiedName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+new key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null text
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression QualifiedName current termterm
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+new key SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null key
+new key SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName new key
+null key SimpleName ConditionalExpression SimpleName new key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null key
+range SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName new key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+null key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral true
+new key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral true
+null key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName range
+null key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get end key
+new key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName range
+new key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get end key
+null key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral false
+new key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get end key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+new range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+new range SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null key
+new range SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName new key
+new range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+new range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+new range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+new range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+current termiter QualifiedName MethodInvocation SimpleName seek
+current termiter QualifiedName MethodInvocation SimpleName new range
+current termiter QualifiedName MethodInvocation SimpleName column families
+current termiter QualifiedName MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation SimpleName new range
+seek SimpleName MethodInvocation SimpleName column families
+seek SimpleName MethodInvocation SimpleName inclusive
+new range SimpleName MethodInvocation SimpleName column families
+new range SimpleName MethodInvocation SimpleName inclusive
+column families SimpleName MethodInvocation SimpleName inclusive
+current termiter QualifiedName MethodInvocation SimpleName has top
+current termiter QualifiedName MethodInvocation SimpleName get top key
+current termiter QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+current termterm QualifiedName MethodInvocation SimpleName compare to
+current termterm QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName current termiter
+current termterm QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+current termterm QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName current termiter
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get column family
+current termterm QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get column family SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+sorted SimpleName MethodInvocation SimpleName clear
+term source SimpleName SimpleType SingleVariableDeclaration SimpleName ts
+tsiter QualifiedName MethodInvocation SimpleName seek
+tsiter QualifiedName MethodInvocation SimpleName range
+tsiter QualifiedName MethodInvocation SimpleName column families
+tsiter QualifiedName MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation SimpleName column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName MethodInvocation SimpleName column families
+range SimpleName MethodInvocation SimpleName inclusive
+column families SimpleName MethodInvocation SimpleName inclusive
+tsiter QualifiedName MethodInvocation SimpleName has top
+tsiter QualifiedName MethodInvocation SimpleName get top key
+tsiter QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+tsterm QualifiedName MethodInvocation SimpleName compare to
+tsterm QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName tsiter
+tsterm QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+tsterm QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tsiter
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get column family
+tsterm QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get column family SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+sorted SimpleName MethodInvocation SimpleName add
+sorted SimpleName MethodInvocation SimpleName ts
+add SimpleName MethodInvocation SimpleName ts
+term source SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sources
+ts SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sources
+sorted SimpleName MethodInvocation SimpleName poll
+current term SimpleName Assignment MethodInvocation SimpleName sorted
+current term SimpleName Assignment MethodInvocation SimpleName poll
+term source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName term source
+sources SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName sources
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+ts SimpleName Assignment MethodInvocation SimpleName iter
+ts SimpleName Assignment MethodInvocation SimpleName next
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new range
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+new range SimpleName Assignment SimpleName range
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+tsterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null text
+tsterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsterm
+null text SimpleName ConditionalExpression QualifiedName tsterm
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null text
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression SimpleName null text
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+new key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null text
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+tsterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null text
+tsterm QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsterm
+null text SimpleName ConditionalExpression QualifiedName tsterm
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null text
+key SimpleName SimpleType ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression SimpleName null text
+get row SimpleName MethodInvocation ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+null text SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+tsterm QualifiedName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+new key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null text
+new key SimpleName Assignment ClassInstanceCreation ConditionalExpression QualifiedName tsterm
+new key SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+new key SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName null key
+new key SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName new key
+null key SimpleName ConditionalExpression SimpleName new key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName null key
+range SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName new key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+null key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral true
+new key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral true
+null key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName range
+null key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get end key
+new key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName range
+new key SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName get end key
+null key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral false
+new key SimpleName ConditionalExpression ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get end key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+new range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+new range SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName null key
+new range SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName new key
+new range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+new range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+new range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+new range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+tsiter QualifiedName MethodInvocation SimpleName seek
+tsiter QualifiedName MethodInvocation SimpleName new range
+tsiter QualifiedName MethodInvocation SimpleName column families
+tsiter QualifiedName MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation SimpleName new range
+seek SimpleName MethodInvocation SimpleName column families
+seek SimpleName MethodInvocation SimpleName inclusive
+new range SimpleName MethodInvocation SimpleName column families
+new range SimpleName MethodInvocation SimpleName inclusive
+column families SimpleName MethodInvocation SimpleName inclusive
+tsiter QualifiedName MethodInvocation SimpleName has top
+tsiter QualifiedName MethodInvocation SimpleName get top key
+tsiter QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+tsterm QualifiedName MethodInvocation SimpleName compare to
+tsterm QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName tsiter
+tsterm QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+tsterm QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tsiter
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get column family
+tsterm QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get column family SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName remove
+sorted SimpleName MethodInvocation SimpleName add
+sorted SimpleName MethodInvocation SimpleName ts
+add SimpleName MethodInvocation SimpleName ts
+sorted SimpleName MethodInvocation SimpleName poll
+current term SimpleName Assignment MethodInvocation SimpleName sorted
+current term SimpleName Assignment MethodInvocation SimpleName poll
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName seek
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName range
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName column families
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName seek
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName column families
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+void PrimitiveType MethodDeclaration SimpleName seek
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column families
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column families
+seek SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+seek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+seek SimpleName MethodDeclaration SimpleType SimpleName io exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column families
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+column families SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+column families SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+column families SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+inclusive SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName seek
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column families
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName seek
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column families
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inclusive
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

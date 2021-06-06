@@ -1,0 +1,82 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName http servlet request
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName search filter
+search filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+http servlet request SimpleName MethodInvocation SimpleName get parameter map
+http servlet request SimpleName MethodInvocation MethodInvocation SimpleName key set
+get parameter map SimpleName MethodInvocation MethodInvocation SimpleName key set
+key set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+key set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parameter map
+key set SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+string SimpleName SimpleType SingleVariableDeclaration SimpleName k
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName k
+value of SimpleName MethodInvocation SimpleName k
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+http servlet request SimpleName MethodInvocation SimpleName get parameter
+http servlet request SimpleName MethodInvocation SimpleName k
+get parameter SimpleName MethodInvocation SimpleName k
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+string SimpleName MethodInvocation MethodInvocation SimpleName get parameter
+string SimpleName MethodInvocation MethodInvocation SimpleName k
+value of SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+value of SimpleName MethodInvocation MethodInvocation SimpleName get parameter
+value of SimpleName MethodInvocation MethodInvocation SimpleName k
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parameter
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName k
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+key SimpleName MethodInvocation SimpleName equals ignore case
+key SimpleName MethodInvocation StringLiteral exclude internal types and references
+equals ignore case SimpleName MethodInvocation StringLiteral exclude internal types and references
+value SimpleName MethodInvocation SimpleName equals ignore case
+value SimpleName MethodInvocation StringLiteral true
+equals ignore case SimpleName MethodInvocation StringLiteral true
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+key SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+exclude internal types and references StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName value
+exclude internal types and references StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+exclude internal types and references StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral true
+filter util SimpleName MethodInvocation SimpleName add params to hide internal type
+filter util SimpleName MethodInvocation SimpleName ret
+add params to hide internal type SimpleName MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation SimpleName set param
+ret SimpleName MethodInvocation SimpleName key
+ret SimpleName MethodInvocation SimpleName value
+set param SimpleName MethodInvocation SimpleName key
+set param SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName key set
+k SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName key set
+key set SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName search filter
+private Modifier MethodDeclaration SimpleName get search filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName key set
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+search filter SimpleName SimpleType MethodDeclaration SimpleName get search filter
+search filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+get search filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get search filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+get search filter SimpleName MethodDeclaration Block EnhancedForStatement SimpleName key set
+get search filter SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName search filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get search filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName search filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get search filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet request

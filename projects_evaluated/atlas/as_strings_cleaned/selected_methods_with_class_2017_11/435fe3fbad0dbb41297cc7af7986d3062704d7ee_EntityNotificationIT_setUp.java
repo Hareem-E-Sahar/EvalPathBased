@@ -1,0 +1,49 @@
+create hive db instance built in SimpleName MethodInvocation SimpleName database name
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive db instance built in
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive db instance
+create instance SimpleName MethodInvocation SimpleName hive db instance
+db id SimpleName Assignment MethodInvocation SimpleName create instance
+db id SimpleName Assignment MethodInvocation SimpleName hive db instance
+notification interface SimpleName MethodInvocation SimpleName create consumers
+notification interface SimpleName MethodInvocation QualifiedName notification typeentities
+notification interface SimpleName MethodInvocation NumberLiteral empty
+create consumers SimpleName MethodInvocation QualifiedName notification typeentities
+create consumers SimpleName MethodInvocation NumberLiteral empty
+notification typeentities QualifiedName MethodInvocation NumberLiteral empty
+notification interface SimpleName MethodInvocation MethodInvocation SimpleName get
+create consumers SimpleName MethodInvocation MethodInvocation SimpleName get
+notification typeentities QualifiedName MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get
+notification interface SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create consumers SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+notification typeentities QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation SimpleName notification interface
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation SimpleName create consumers
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation QualifiedName notification typeentities
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+notification consumer SimpleName Assignment MethodInvocation SimpleName get
+notification consumer SimpleName Assignment MethodInvocation NumberLiteral empty
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,65 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName out
+object SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge properties
+edge collection property processor SimpleName MethodInvocation SimpleName update
+edge collection property processor SimpleName MethodInvocation SimpleName out
+edge collection property processor SimpleName MethodInvocation SimpleName edge id
+edge collection property processor SimpleName MethodInvocation SimpleName label
+edge collection property processor SimpleName MethodInvocation SimpleName edge properties
+update SimpleName MethodInvocation SimpleName out
+update SimpleName MethodInvocation SimpleName edge id
+update SimpleName MethodInvocation SimpleName label
+update SimpleName MethodInvocation SimpleName edge properties
+out SimpleName MethodInvocation SimpleName edge id
+out SimpleName MethodInvocation SimpleName label
+out SimpleName MethodInvocation SimpleName edge properties
+edge id SimpleName MethodInvocation SimpleName label
+edge id SimpleName MethodInvocation SimpleName edge properties
+label SimpleName MethodInvocation SimpleName edge properties
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName add index keys for collections
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+string SimpleName SimpleType MethodDeclaration SimpleName add index keys for collections
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName out
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+add index keys for collections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add index keys for collections
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add index keys for collections
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge properties

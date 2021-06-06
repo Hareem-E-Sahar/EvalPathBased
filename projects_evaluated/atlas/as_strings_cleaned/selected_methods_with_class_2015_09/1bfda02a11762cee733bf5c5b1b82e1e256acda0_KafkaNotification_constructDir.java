@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir prefix
+properties SimpleName MethodInvocation SimpleName get property
+properties SimpleName MethodInvocation SimpleName atlas kafka data
+get property SimpleName MethodInvocation SimpleName atlas kafka data
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName properties
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas kafka data
+file SimpleName SimpleType ClassInstanceCreation SimpleName dir prefix
+properties SimpleName MethodInvocation ClassInstanceCreation SimpleName dir prefix
+get property SimpleName MethodInvocation ClassInstanceCreation SimpleName dir prefix
+atlas kafka data SimpleName MethodInvocation ClassInstanceCreation SimpleName dir prefix
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName properties
+file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas kafka data
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dir prefix
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName exists
+file SimpleName MethodInvocation SimpleName mkdirs
+file SimpleName MethodInvocation SimpleName get absolute path
+could not create temp directory StringLiteral InfixExpression MethodInvocation SimpleName file
+could not create temp directory StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not create temp directory
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName construct dir
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir prefix
+private Modifier MethodDeclaration Block ReturnStatement SimpleName file
+file SimpleName SimpleType MethodDeclaration SimpleName construct dir
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir prefix
+construct dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+construct dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir prefix
+construct dir SimpleName MethodDeclaration Block ReturnStatement SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir prefix

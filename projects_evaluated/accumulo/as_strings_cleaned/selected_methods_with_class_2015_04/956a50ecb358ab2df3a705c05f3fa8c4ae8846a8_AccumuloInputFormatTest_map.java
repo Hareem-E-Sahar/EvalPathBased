@@ -1,0 +1,114 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName v
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName v
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+k SimpleName MethodInvocation SimpleName get row
+count SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation InfixExpression SimpleName count
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation InfixExpression SimpleName count
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+% x StringLiteral MethodInvocation InfixExpression SimpleName count
+% x StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % x
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName k
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get row
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral % x
+v SimpleName MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName v
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation SimpleName count
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation SimpleName count
+% x StringLiteral MethodInvocation SimpleName count
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName v
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName format
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral % x
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName count
+assertion error SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName Assignment SimpleName e
+key SimpleName SimpleType ClassInstanceCreation SimpleName k
+key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName Assignment ClassInstanceCreation SimpleName k
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName map
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName k
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName v
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+map SimpleName MethodDeclaration SimpleType SimpleName io exception
+map SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+k SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+k SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

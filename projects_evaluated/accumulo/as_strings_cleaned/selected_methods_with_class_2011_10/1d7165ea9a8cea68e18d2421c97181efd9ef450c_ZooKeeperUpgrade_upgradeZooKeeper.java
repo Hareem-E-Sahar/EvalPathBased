@@ -1,0 +1,430 @@
+i zoo reader writer SimpleName SimpleType SingleVariableDeclaration SimpleName zoo
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get old table names SimpleName MethodInvocation SimpleName zoo
+table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get old table names
+table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+zk instance root SimpleName InfixExpression QualifiedName constantszloggers
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszloggers
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszloggers
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszloggers QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantszloggers QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantszproblems
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszproblems QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantszproblems QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantsztservers
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantsztservers QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantsztservers QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantszgc
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszgc
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszgc
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszgc QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantszgc QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantszgc lock
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszgc lock
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszgc lock
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszgc lock QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+constantszgc lock QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantszroot tablet
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszroot tablet QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+constantszroot tablet QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyfail
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyfail
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression SimpleName old root tablet logs
+zk instance root SimpleName InfixExpression QualifiedName constantszroot tablet walogs
+move SimpleName MethodInvocation SimpleName zoo
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression SimpleName old root tablet logs
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old root tablet logs
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+old root tablet logs SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+old root tablet logs SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+zk instance root SimpleName InfixExpression SimpleName old root tablet loc
+zk instance root SimpleName InfixExpression QualifiedName constantszroot tablet location
+move SimpleName MethodInvocation SimpleName zoo
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression SimpleName old root tablet loc
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old root tablet loc
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+old root tablet loc SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+old root tablet loc SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+zk instance root SimpleName InfixExpression QualifiedName constantszmasters
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszmasters
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszmasters
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantszmasters QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+constantszmasters QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyfail
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyfail
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression SimpleName old master lock
+zk instance root SimpleName InfixExpression QualifiedName constantszmaster lock
+move SimpleName MethodInvocation SimpleName zoo
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression SimpleName old master lock
+move SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+move SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old master lock
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+zk instance root SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszmaster lock
+old master lock SimpleName InfixExpression MethodInvocation InfixExpression SimpleName zk instance root
+old master lock SimpleName InfixExpression MethodInvocation InfixExpression QualifiedName constantszmaster lock
+zk instance root SimpleName InfixExpression QualifiedName constantsztables
+table names SimpleName MethodInvocation SimpleName size
+table names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+big integer SimpleName MethodInvocation SimpleName value of
+big integer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table names
+big integer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+big integer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table names
+value of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+value of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+big integer SimpleName MethodInvocation MethodInvocation SimpleName to string
+value of SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+big integer SimpleName MethodInvocation MethodInvocation QualifiedName charactermax radix
+value of SimpleName MethodInvocation MethodInvocation QualifiedName charactermax radix
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation QualifiedName charactermax radix
+to string SimpleName MethodInvocation QualifiedName charactermax radix
+big integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+charactermax radix QualifiedName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName charactermax radix
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName charactermax radix
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+constantsztables QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyfail
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+charactermax radix QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+string SimpleName SimpleType ClassInstanceCreation QualifiedName constantsztables initial id
+big integer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName constantsztables initial id
+big integer SimpleName SimpleType ClassInstanceCreation QualifiedName charactermax radix
+string SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName charactermax radix
+constantsztables initial id QualifiedName ClassInstanceCreation ClassInstanceCreation QualifiedName charactermax radix
+big int SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName big integer
+big int SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName constantsztables initial id
+big int SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName charactermax radix
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName big int
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+table name SimpleName MethodInvocation SimpleName equals
+table name SimpleName MethodInvocation QualifiedName constantsmetadata table name
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table name
+big int SimpleName MethodInvocation SimpleName to string
+big int SimpleName MethodInvocation QualifiedName charactermax radix
+to string SimpleName MethodInvocation QualifiedName charactermax radix
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName big int
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+table id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName charactermax radix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+big int SimpleName MethodInvocation SimpleName add
+big int SimpleName MethodInvocation QualifiedName big integerone
+add SimpleName MethodInvocation QualifiedName big integerone
+big int SimpleName Assignment MethodInvocation SimpleName big int
+big int SimpleName Assignment MethodInvocation SimpleName add
+big int SimpleName Assignment MethodInvocation QualifiedName big integerone
+table ids SimpleName MethodInvocation SimpleName add
+table ids SimpleName MethodInvocation SimpleName table id
+add SimpleName MethodInvocation SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table ids SimpleName MethodInvocation SimpleName iterator
+tii SimpleName VariableDeclarationFragment MethodInvocation SimpleName table ids
+tii SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+table name SimpleName InfixExpression StringLiteral is being upgraded
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName table name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral is being upgraded
+println SimpleName MethodInvocation InfixExpression SimpleName table name
+println SimpleName MethodInvocation InfixExpression StringLiteral is being upgraded
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+table name SimpleName MethodInvocation SimpleName equals
+table name SimpleName MethodInvocation QualifiedName constantsmetadata table name
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table name
+tii SimpleName MethodInvocation SimpleName next
+table id SimpleName Assignment MethodInvocation SimpleName tii
+table id SimpleName Assignment MethodInvocation SimpleName next
+table id SimpleName Assignment QualifiedName constantsmetadata table id
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+table manager SimpleName MethodInvocation SimpleName prepare new table state
+table manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+table manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+table manager SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+table manager SimpleName MethodInvocation SimpleName table id
+table manager SimpleName MethodInvocation SimpleName table name
+table manager SimpleName MethodInvocation QualifiedName table stateoffline
+prepare new table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+prepare new table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+prepare new table state SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+prepare new table state SimpleName MethodInvocation SimpleName table id
+prepare new table state SimpleName MethodInvocation SimpleName table name
+prepare new table state SimpleName MethodInvocation QualifiedName table stateoffline
+prepare new table state SimpleName MethodInvocation QualifiedName node exists policyfail
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName table name
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table stateoffline
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table stateoffline
+get instance id SimpleName MethodInvocation MethodInvocation QualifiedName table stateoffline
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get instance id SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+table id SimpleName MethodInvocation SimpleName table name
+table id SimpleName MethodInvocation QualifiedName table stateoffline
+table id SimpleName MethodInvocation QualifiedName node exists policyfail
+table name SimpleName MethodInvocation QualifiedName table stateoffline
+table name SimpleName MethodInvocation QualifiedName node exists policyfail
+table stateoffline QualifiedName MethodInvocation QualifiedName node exists policyfail
+zk instance root SimpleName InfixExpression SimpleName old table conf dir
+zk instance root SimpleName InfixExpression StringLiteral /
+zk instance root SimpleName InfixExpression SimpleName table name
+old table conf dir SimpleName InfixExpression StringLiteral /
+old table conf dir SimpleName InfixExpression SimpleName table name
+/ StringLiteral InfixExpression SimpleName table name
+old conf dir SimpleName VariableDeclarationFragment InfixExpression SimpleName zk instance root
+old conf dir SimpleName VariableDeclarationFragment InfixExpression SimpleName old table conf dir
+old conf dir SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+old conf dir SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old conf dir
+zoo SimpleName MethodInvocation SimpleName exists
+zoo SimpleName MethodInvocation SimpleName old conf dir
+exists SimpleName MethodInvocation SimpleName old conf dir
+table id SimpleName MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation QualifiedName constantsmetadata table id
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table id
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation SimpleName old conf dir
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName old conf dir
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+old conf dir SimpleName MethodInvocation QualifiedName node missing policyskip
+zk instance root SimpleName InfixExpression QualifiedName constantsztables
+zk instance root SimpleName InfixExpression StringLiteral /
+zk instance root SimpleName InfixExpression SimpleName table id
+zk instance root SimpleName InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+table id SimpleName InfixExpression QualifiedName constantsztable conf
+zoo SimpleName MethodInvocation SimpleName recursive copy persistent
+zoo SimpleName MethodInvocation SimpleName old conf dir
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName table id
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+zoo SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+recursive copy persistent SimpleName MethodInvocation SimpleName old conf dir
+recursive copy persistent SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+recursive copy persistent SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+recursive copy persistent SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive copy persistent SimpleName MethodInvocation InfixExpression SimpleName table id
+recursive copy persistent SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+recursive copy persistent SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+old conf dir SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+old conf dir SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+old conf dir SimpleName MethodInvocation InfixExpression StringLiteral /
+old conf dir SimpleName MethodInvocation InfixExpression SimpleName table id
+old conf dir SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+old conf dir SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+constantsztables QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+table id SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+constantsztable conf QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+table id SimpleName MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation QualifiedName constantsmetadata table id
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table id
+validate config SimpleName MethodInvocation SimpleName table id
+validate config SimpleName MethodInvocation SimpleName zoo
+table id SimpleName MethodInvocation SimpleName zoo
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+zk instance root SimpleName InfixExpression SimpleName old conf dir
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old conf dir
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName old conf dir
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zk instance root SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+old conf dir SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+table names SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName table names
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName upgrade zoo keeper
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleName upgrade zoo keeper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+upgrade zoo keeper SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+upgrade zoo keeper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo
+upgrade zoo keeper SimpleName MethodDeclaration SimpleType SimpleName io exception
+upgrade zoo keeper SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+upgrade zoo keeper SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+upgrade zoo keeper SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table names
+upgrade zoo keeper SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table names
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName upgrade zoo keeper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName upgrade zoo keeper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

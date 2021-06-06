@@ -1,0 +1,110 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+boolean PrimitiveType SingleVariableDeclaration SimpleName string present
+error message callback SimpleName SimpleType SingleVariableDeclaration SimpleName callback
+output SimpleName MethodInvocation SimpleName get
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation MethodInvocation SimpleName output
+shelllog QualifiedName MethodInvocation MethodInvocation SimpleName get
+info SimpleName MethodInvocation MethodInvocation SimpleName output
+info SimpleName MethodInvocation MethodInvocation SimpleName get
+shell SimpleName MethodInvocation SimpleName get exit code
+empty NumberLiteral InfixExpression MethodInvocation SimpleName shell
+empty NumberLiteral InfixExpression MethodInvocation SimpleName get exit code
+callback SimpleName MethodInvocation SimpleName get error message
+error msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName callback
+error msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error msg
+shell SimpleName MethodInvocation SimpleName get exit code
+assert equals SimpleName MethodInvocation SimpleName error msg
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName shell
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get exit code
+error msg SimpleName MethodInvocation NumberLiteral empty
+error msg SimpleName MethodInvocation MethodInvocation SimpleName shell
+error msg SimpleName MethodInvocation MethodInvocation SimpleName get exit code
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName shell
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get exit code
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+output SimpleName MethodInvocation SimpleName get
+s SimpleName InfixExpression StringLiteral present in
+s SimpleName InfixExpression MethodInvocation SimpleName output
+s SimpleName InfixExpression MethodInvocation SimpleName get
+s SimpleName InfixExpression StringLiteral was not
+s SimpleName InfixExpression SimpleName string present
+present in StringLiteral InfixExpression MethodInvocation SimpleName output
+present in StringLiteral InfixExpression MethodInvocation SimpleName get
+present in StringLiteral InfixExpression StringLiteral was not
+present in StringLiteral InfixExpression SimpleName string present
+output SimpleName MethodInvocation InfixExpression StringLiteral was not
+get SimpleName MethodInvocation InfixExpression StringLiteral was not
+output SimpleName MethodInvocation InfixExpression SimpleName string present
+get SimpleName MethodInvocation InfixExpression SimpleName string present
+was not StringLiteral InfixExpression SimpleName string present
+output SimpleName MethodInvocation SimpleName get
+output SimpleName MethodInvocation MethodInvocation SimpleName contains
+get SimpleName MethodInvocation MethodInvocation SimpleName contains
+output SimpleName MethodInvocation MethodInvocation SimpleName s
+get SimpleName MethodInvocation MethodInvocation SimpleName s
+contains SimpleName MethodInvocation SimpleName s
+assert equals SimpleName MethodInvocation InfixExpression SimpleName s
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral present in
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName output
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral was not
+assert equals SimpleName MethodInvocation InfixExpression SimpleName string present
+assert equals SimpleName MethodInvocation SimpleName string present
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName s
+s SimpleName InfixExpression MethodInvocation SimpleName string present
+present in StringLiteral InfixExpression MethodInvocation SimpleName string present
+output SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string present
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string present
+was not StringLiteral InfixExpression MethodInvocation SimpleName string present
+string present SimpleName InfixExpression MethodInvocation SimpleName string present
+s SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+s SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+present in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+present in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+was not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName contains
+was not StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+string present SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName contains
+string present SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+string present SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output
+string present SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+string present SimpleName MethodInvocation MethodInvocation SimpleName contains
+string present SimpleName MethodInvocation MethodInvocation SimpleName s
+void PrimitiveType MethodDeclaration SimpleName assert good exit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string present
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName error message callback
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName callback
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string present
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName error message callback
+assert good exit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName callback
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string present
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callback
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callback
+string present SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callback
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert good exit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string present
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callback
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert good exit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string present
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName callback

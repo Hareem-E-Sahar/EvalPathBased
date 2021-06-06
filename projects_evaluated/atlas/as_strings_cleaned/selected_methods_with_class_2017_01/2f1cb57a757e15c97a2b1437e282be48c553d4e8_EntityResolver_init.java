@@ -1,0 +1,18 @@
+entity graph discovery context SimpleName SimpleType SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+init SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

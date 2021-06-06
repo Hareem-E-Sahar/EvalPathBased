@@ -1,0 +1,71 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName accepted
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName rejected
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName accepted
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName rejected
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName violated
+accepted SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+accepted SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName rejected
+accepted SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+accepted SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName violated
+accepted SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName rejected
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName violated
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName unknown
+rejected SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+rejected SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName violated
+rejected SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+rejected SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName unknown
+rejected SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName violated
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName unknown
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName invisible visibility
+violated SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+violated SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName unknown
+violated SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+violated SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName invisible visibility
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName unknown
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName invisible visibility
+unknown SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+unknown SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName invisible visibility
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName invisible visibility
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName conditional status
+public Modifier MethodDeclaration SimpleName find by value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName conditional status
+static Modifier MethodDeclaration SimpleName find by value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block SwitchStatement SimpleName value
+conditional status SimpleName SimpleType MethodDeclaration SimpleName find by value
+conditional status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+conditional status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find by value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration Block SwitchStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName conditional status
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName conditional status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

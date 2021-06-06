@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+attribute type def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type def
+method name SimpleName VariableDeclarationFragment StringLiteral valid attribute type def
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid attribute type def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid attribute type def
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName valid attribute type def
+repository content manager SimpleName MethodInvocation SimpleName source name
+repository content manager SimpleName MethodInvocation SimpleName attribute type def
+valid attribute type def SimpleName MethodInvocation SimpleName source name
+valid attribute type def SimpleName MethodInvocation SimpleName attribute type def
+source name SimpleName MethodInvocation SimpleName attribute type def
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration SimpleName valid attribute type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+valid attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+valid attribute type def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def

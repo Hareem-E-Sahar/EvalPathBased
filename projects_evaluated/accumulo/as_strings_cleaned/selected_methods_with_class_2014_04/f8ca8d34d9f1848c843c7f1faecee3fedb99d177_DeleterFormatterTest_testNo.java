@@ -1,0 +1,96 @@
+input SimpleName MethodInvocation SimpleName set
+input SimpleName MethodInvocation StringLiteral no
+set SimpleName MethodInvocation StringLiteral no
+key SimpleName SimpleType ClassInstanceCreation StringLiteral z
+v StringLiteral MethodInvocation SimpleName get bytes
+v StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral v
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName put
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+data SimpleName MethodInvocation ClassInstanceCreation StringLiteral z
+data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral v
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral z
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral v
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+data SimpleName MethodInvocation SimpleName entry set
+deleter formatter SimpleName SimpleType ClassInstanceCreation SimpleName writer
+deleter formatter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+deleter formatter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry set
+deleter formatter SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+deleter formatter SimpleName SimpleType ClassInstanceCreation SimpleName shell state
+deleter formatter SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+writer SimpleName ClassInstanceCreation MethodInvocation SimpleName data
+writer SimpleName ClassInstanceCreation MethodInvocation SimpleName entry set
+writer SimpleName ClassInstanceCreation BooleanLiteral true
+writer SimpleName ClassInstanceCreation SimpleName shell state
+writer SimpleName ClassInstanceCreation BooleanLiteral false
+data SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+entry set SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+data SimpleName MethodInvocation ClassInstanceCreation SimpleName shell state
+entry set SimpleName MethodInvocation ClassInstanceCreation SimpleName shell state
+data SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entry set SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName shell state
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+shell state SimpleName ClassInstanceCreation BooleanLiteral false
+formatter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName deleter formatter
+formatter SimpleName Assignment ClassInstanceCreation SimpleName writer
+formatter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName data
+formatter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entry set
+formatter SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+formatter SimpleName Assignment ClassInstanceCreation SimpleName shell state
+formatter SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+formatter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName formatter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+formatter SimpleName MethodInvocation SimpleName next
+assert null SimpleName MethodInvocation MethodInvocation SimpleName formatter
+assert null SimpleName MethodInvocation MethodInvocation SimpleName next
+verify SimpleName MethodInvocation StringLiteral skipped
+verify SimpleName MethodInvocation StringLiteral r
+verify SimpleName MethodInvocation StringLiteral cf
+verify SimpleName MethodInvocation StringLiteral cq
+verify SimpleName MethodInvocation StringLiteral value
+skipped StringLiteral MethodInvocation StringLiteral r
+skipped StringLiteral MethodInvocation StringLiteral cf
+skipped StringLiteral MethodInvocation StringLiteral cq
+skipped StringLiteral MethodInvocation StringLiteral value
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral value
+cq StringLiteral MethodInvocation StringLiteral value
+formatter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName formatter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test no
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test no SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

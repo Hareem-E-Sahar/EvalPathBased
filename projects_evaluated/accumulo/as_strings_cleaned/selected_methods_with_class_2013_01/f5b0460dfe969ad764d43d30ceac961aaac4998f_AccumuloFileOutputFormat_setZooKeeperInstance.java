@@ -1,0 +1,71 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName zoo keepers
+file output configurator SimpleName MethodInvocation SimpleName set zoo keeper instance
+file output configurator SimpleName MethodInvocation SimpleName class
+file output configurator SimpleName MethodInvocation SimpleName conf
+file output configurator SimpleName MethodInvocation SimpleName instance name
+file output configurator SimpleName MethodInvocation SimpleName zoo keepers
+set zoo keeper instance SimpleName MethodInvocation SimpleName class
+set zoo keeper instance SimpleName MethodInvocation SimpleName conf
+set zoo keeper instance SimpleName MethodInvocation SimpleName instance name
+set zoo keeper instance SimpleName MethodInvocation SimpleName zoo keepers
+class SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName instance name
+class SimpleName MethodInvocation SimpleName zoo keepers
+conf SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName zoo keepers
+instance name SimpleName MethodInvocation SimpleName zoo keepers
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set zoo keeper instance
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set zoo keeper instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set zoo keeper instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+void PrimitiveType MethodDeclaration SimpleName set zoo keeper instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance name
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+instance name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set zoo keeper instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set zoo keeper instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers

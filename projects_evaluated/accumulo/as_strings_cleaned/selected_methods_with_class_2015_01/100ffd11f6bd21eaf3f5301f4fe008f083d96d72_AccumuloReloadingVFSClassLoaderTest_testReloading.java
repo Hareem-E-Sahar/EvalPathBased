@@ -1,0 +1,212 @@
+folder SimpleName MethodInvocation SimpleName get root
+folder SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get root SimpleName MethodInvocation MethodInvocation SimpleName to uri
+folder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+vfs SimpleName MethodInvocation SimpleName resolve file
+vfs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+vfs SimpleName MethodInvocation MethodInvocation SimpleName to string
+resolve file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+resolve file SimpleName MethodInvocation MethodInvocation SimpleName to string
+test dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName vfs
+test dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+test dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test dir
+test dir SimpleName MethodInvocation SimpleName get children
+dir contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName test dir
+dir contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+class loader SimpleName MethodInvocation SimpleName get system class loader
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName class loader
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get class loader
+public Modifier MethodDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName get class loader
+class loader SimpleName SimpleType MethodDeclaration SimpleName get class loader
+accumulo reloading vfs class loader SimpleName SimpleType ClassInstanceCreation SimpleName folder path
+accumulo reloading vfs class loader SimpleName SimpleType ClassInstanceCreation SimpleName vfs
+accumulo reloading vfs class loader SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+accumulo reloading vfs class loader SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+folder path SimpleName ClassInstanceCreation SimpleName vfs
+folder path SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName reloading class loader
+folder path SimpleName ClassInstanceCreation NumberLiteral empty
+folder path SimpleName ClassInstanceCreation BooleanLiteral true
+vfs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName reloading class loader
+vfs SimpleName ClassInstanceCreation NumberLiteral empty
+vfs SimpleName ClassInstanceCreation BooleanLiteral true
+reloading class loader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+reloading class loader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+arvcl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName accumulo reloading vfs class loader
+arvcl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName folder path
+arvcl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vfs
+arvcl SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+arvcl SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+accumulo reloading vfs class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arvcl
+arvcl SimpleName MethodInvocation SimpleName get class loader
+vfs class loader SimpleName SimpleType CastExpression MethodInvocation SimpleName arvcl
+vfs class loader SimpleName SimpleType CastExpression MethodInvocation SimpleName get class loader
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file objects
+create file systems SimpleName MethodInvocation SimpleName dir contents
+assert SimpleName MethodInvocation SimpleName assert array equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName create file systems
+assert SimpleName MethodInvocation MethodInvocation SimpleName dir contents
+assert SimpleName MethodInvocation SimpleName files
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName create file systems
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName dir contents
+assert array equals SimpleName MethodInvocation SimpleName files
+create file systems SimpleName MethodInvocation MethodInvocation SimpleName files
+dir contents SimpleName MethodInvocation MethodInvocation SimpleName files
+class SimpleName SimpleType ParameterizedType WildcardType ?
+arvcl SimpleName MethodInvocation SimpleName get class loader
+arvcl SimpleName MethodInvocation MethodInvocation SimpleName load class
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName load class
+arvcl SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+get class loader SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+load class SimpleName MethodInvocation StringLiteral testhello world
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arvcl
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testhello world
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName new instance
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral hello world
+assert SimpleName MethodInvocation MethodInvocation SimpleName o
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral hello world
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName o
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName o
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName to string
+class SimpleName SimpleType ParameterizedType WildcardType ?
+arvcl SimpleName MethodInvocation SimpleName get class loader
+arvcl SimpleName MethodInvocation MethodInvocation SimpleName load class
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName load class
+arvcl SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+get class loader SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+load class SimpleName MethodInvocation StringLiteral testhello world
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arvcl
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testhello world
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName clazz
+assert SimpleName MethodInvocation SimpleName clazz
+assert equals SimpleName MethodInvocation SimpleName clazz
+assert equals SimpleName MethodInvocation SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName clazz
+folder SimpleName MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName folder
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation StringLiteral hello worldjar
+folder SimpleName MethodInvocation ClassInstanceCreation StringLiteral hello worldjar
+get root SimpleName MethodInvocation ClassInstanceCreation StringLiteral hello worldjar
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delete
+folder SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName delete
+get root SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName delete
+hello worldjar StringLiteral ClassInstanceCreation MethodInvocation SimpleName delete
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral hello worldjar
+get resource SimpleName MethodInvocation StringLiteral hello worldjar
+folder SimpleName MethodInvocation SimpleName new file
+folder SimpleName MethodInvocation StringLiteral hello world jar
+new file SimpleName MethodInvocation StringLiteral hello world jar
+file utils SimpleName MethodInvocation SimpleName copy url to file
+file utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+file utils SimpleName MethodInvocation MethodInvocation SimpleName get resource
+file utils SimpleName MethodInvocation MethodInvocation StringLiteral hello worldjar
+file utils SimpleName MethodInvocation MethodInvocation SimpleName folder
+file utils SimpleName MethodInvocation MethodInvocation SimpleName new file
+file utils SimpleName MethodInvocation MethodInvocation StringLiteral hello world jar
+copy url to file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+copy url to file SimpleName MethodInvocation MethodInvocation SimpleName get resource
+copy url to file SimpleName MethodInvocation MethodInvocation StringLiteral hello worldjar
+copy url to file SimpleName MethodInvocation MethodInvocation SimpleName folder
+copy url to file SimpleName MethodInvocation MethodInvocation SimpleName new file
+copy url to file SimpleName MethodInvocation MethodInvocation StringLiteral hello world jar
+get resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName folder
+get resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new file
+get resource SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral hello world jar
+hello worldjar StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName folder
+hello worldjar StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName new file
+hello worldjar StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral hello world jar
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+class SimpleName SimpleType ParameterizedType WildcardType ?
+arvcl SimpleName MethodInvocation SimpleName get class loader
+arvcl SimpleName MethodInvocation MethodInvocation SimpleName load class
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName load class
+arvcl SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+get class loader SimpleName MethodInvocation MethodInvocation StringLiteral testhello world
+load class SimpleName MethodInvocation StringLiteral testhello world
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arvcl
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testhello world
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName new instance
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral hello world
+assert SimpleName MethodInvocation MethodInvocation SimpleName o
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral hello world
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName o
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName o
+hello world StringLiteral MethodInvocation MethodInvocation SimpleName to string
+clazz SimpleName MethodInvocation SimpleName equals
+clazz SimpleName MethodInvocation SimpleName clazz
+equals SimpleName MethodInvocation SimpleName clazz
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName clazz
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName clazz
+assert false SimpleName MethodInvocation MethodInvocation SimpleName clazz
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName clazz
+o SimpleName MethodInvocation SimpleName equals
+o SimpleName MethodInvocation SimpleName o
+equals SimpleName MethodInvocation SimpleName o
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName o
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName o
+assert false SimpleName MethodInvocation MethodInvocation SimpleName o
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName o
+arvcl SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test reloading
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test reloading
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test reloading
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test reloading SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test reloading
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test reloading
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

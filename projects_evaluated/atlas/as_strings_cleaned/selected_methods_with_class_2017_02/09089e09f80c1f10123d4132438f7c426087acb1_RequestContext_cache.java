@@ -1,0 +1,34 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+instance SimpleName MethodInvocation SimpleName get id
+instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+entity cache SimpleName MethodInvocation SimpleName put
+entity cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+entity cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+entity cache SimpleName MethodInvocation MethodInvocation SimpleName get id
+entity cache SimpleName MethodInvocation SimpleName instance
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+get id SimpleName MethodInvocation MethodInvocation SimpleName instance
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleName cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

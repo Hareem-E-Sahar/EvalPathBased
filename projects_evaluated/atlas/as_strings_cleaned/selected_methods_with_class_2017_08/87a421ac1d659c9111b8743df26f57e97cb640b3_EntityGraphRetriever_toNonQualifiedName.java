@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attr name SimpleName MethodInvocation SimpleName contains
+attr name SimpleName MethodInvocation StringLiteral .
+contains SimpleName MethodInvocation StringLiteral .
+attr name SimpleName MethodInvocation SimpleName split
+attr name SimpleName MethodInvocation StringLiteral \\.
+split SimpleName MethodInvocation StringLiteral \\.
+attribute parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+attribute parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+attribute parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\.
+attribute partslength QualifiedName InfixExpression NumberLiteral empty
+attribute parts SimpleName ArrayAccess InfixExpression QualifiedName attribute partslength
+attribute parts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+ret SimpleName Assignment ArrayAccess SimpleName attribute parts
+ret SimpleName Assignment ArrayAccess InfixExpression QualifiedName attribute partslength
+ret SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+ret SimpleName Assignment SimpleName attr name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to non qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName to non qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+to non qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to non qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+to non qualified name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to non qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to non qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

@@ -1,0 +1,31 @@
+enterprise access config SimpleName SimpleType SingleVariableDeclaration SimpleName enterprise access config
+omrs topic connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enterprise omrs topic connector
+enterprise access config SimpleName MethodInvocation SimpleName get enterprise omrs topic connection
+enterprise omrs topic connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName enterprise access config
+enterprise omrs topic connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enterprise omrs topic connection
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enterprise omrs topic connection
+get topic connector SimpleName MethodInvocation StringLiteral enterprise access
+get topic connector SimpleName MethodInvocation SimpleName enterprise omrs topic connection
+enterprise access StringLiteral MethodInvocation SimpleName enterprise omrs topic connection
+enterprise omrs topic connector SimpleName Assignment MethodInvocation SimpleName get topic connector
+enterprise omrs topic connector SimpleName Assignment MethodInvocation StringLiteral enterprise access
+enterprise omrs topic connector SimpleName Assignment MethodInvocation SimpleName enterprise omrs topic connection
+private Modifier MethodDeclaration SimpleType SimpleName omrs topic connector
+private Modifier MethodDeclaration SimpleName initialize enterprise omrs topic connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enterprise access config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+private Modifier MethodDeclaration Block ReturnStatement SimpleName enterprise omrs topic connector
+omrs topic connector SimpleName SimpleType MethodDeclaration SimpleName initialize enterprise omrs topic connector
+omrs topic connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+initialize enterprise omrs topic connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enterprise access config
+initialize enterprise omrs topic connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+initialize enterprise omrs topic connector SimpleName MethodDeclaration Block ReturnStatement SimpleName enterprise omrs topic connector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs topic connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize enterprise omrs topic connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs topic connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize enterprise omrs topic connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config

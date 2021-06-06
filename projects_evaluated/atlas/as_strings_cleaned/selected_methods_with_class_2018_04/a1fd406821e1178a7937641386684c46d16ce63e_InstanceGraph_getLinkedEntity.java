@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName anchor entity guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName linking relationship guid
+relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName matching relationship
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName linked entity guid
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName linked entity
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation MethodInvocation SimpleName equals
+get guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+relationship SimpleName MethodInvocation MethodInvocation SimpleName linking relationship guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName linking relationship guid
+equals SimpleName MethodInvocation SimpleName linking relationship guid
+matching relationship SimpleName Assignment SimpleName relationship
+relationship SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName relationship element list
+relationship SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName relationship element list
+matching relationship SimpleName MethodInvocation SimpleName get linked entity
+matching relationship SimpleName MethodInvocation SimpleName anchor entity guid
+get linked entity SimpleName MethodInvocation SimpleName anchor entity guid
+linked entity guid SimpleName Assignment MethodInvocation SimpleName matching relationship
+linked entity guid SimpleName Assignment MethodInvocation SimpleName get linked entity
+linked entity guid SimpleName Assignment MethodInvocation SimpleName anchor entity guid
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName equals
+get guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+entity SimpleName MethodInvocation MethodInvocation SimpleName linked entity guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName linked entity guid
+equals SimpleName MethodInvocation SimpleName linked entity guid
+entity detail SimpleName SimpleType ClassInstanceCreation SimpleName entity
+linked entity SimpleName Assignment ClassInstanceCreation SimpleType SimpleName entity detail
+linked entity SimpleName Assignment ClassInstanceCreation SimpleName entity
+entity detail SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity element list
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity element list
+entity element list SimpleName EnhancedForStatement Block ReturnStatement SimpleName linked entity
+public Modifier MethodDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SimpleName get linked entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName entity element list
+public Modifier MethodDeclaration Block ReturnStatement SimpleName linked entity
+entity detail SimpleName SimpleType MethodDeclaration SimpleName get linked entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid
+get linked entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get linked entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+get linked entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get linked entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid
+get linked entity SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entity element list
+get linked entity SimpleName MethodDeclaration Block ReturnStatement SimpleName linked entity
+anchor entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName get linked entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get linked entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName linking relationship guid

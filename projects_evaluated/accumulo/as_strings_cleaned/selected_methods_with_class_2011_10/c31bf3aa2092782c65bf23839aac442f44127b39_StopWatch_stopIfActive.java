@@ -1,0 +1,30 @@
+k SimpleName SimpleType SingleVariableDeclaration SimpleName timer
+start time SimpleName MethodInvocation SimpleName contains key
+start time SimpleName MethodInvocation SimpleName timer
+contains key SimpleName MethodInvocation SimpleName timer
+stop SimpleName MethodInvocation SimpleName timer
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop if active
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timer
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName stop if active
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName timer
+void PrimitiveType MethodDeclaration SimpleName stop if active
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName timer
+stop if active SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName k
+stop if active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop if active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop if active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timer

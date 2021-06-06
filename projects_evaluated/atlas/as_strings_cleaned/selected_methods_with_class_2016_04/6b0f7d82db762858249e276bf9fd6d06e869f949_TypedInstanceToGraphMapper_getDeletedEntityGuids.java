@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+deleted entity guids SimpleName MethodInvocation SimpleName size
+deleted entity guids SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+collections SimpleName MethodInvocation SimpleName deleted entity guids
+unmodifiable list SimpleName MethodInvocation SimpleName deleted entity guids
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deleted entity guids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deleted entity guids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get deleted entity guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get deleted entity guids

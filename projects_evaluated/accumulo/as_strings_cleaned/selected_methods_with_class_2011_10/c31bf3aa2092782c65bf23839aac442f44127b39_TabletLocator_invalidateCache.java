@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName invalidate cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName invalidate cache
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleName invalidate cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+invalidate cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+invalidate cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName invalidate cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invalidate cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server

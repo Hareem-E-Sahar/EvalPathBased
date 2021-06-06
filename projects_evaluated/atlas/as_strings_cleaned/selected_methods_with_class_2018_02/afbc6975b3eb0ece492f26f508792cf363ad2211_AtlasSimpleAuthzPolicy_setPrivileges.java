@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName privileges
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName privileges
+privileges SimpleName FieldAccess Assignment SimpleName privileges
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set privileges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName privileges
+void PrimitiveType MethodDeclaration SimpleName set privileges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName privileges
+set privileges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName privileges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set privileges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName privileges
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set privileges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName privileges

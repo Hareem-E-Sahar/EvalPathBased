@@ -1,0 +1,104 @@
+filter config SimpleName SimpleType SingleVariableDeclaration SimpleName filter config
+atlas authentication filter :: initialize secret provider StringLiteral InfixExpression SimpleName filter config
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral atlas authentication filter :: initialize secret provider
+log SimpleName MethodInvocation InfixExpression SimpleName filter config
+debug SimpleName MethodInvocation InfixExpression StringLiteral atlas authentication filter :: initialize secret provider
+debug SimpleName MethodInvocation InfixExpression SimpleName filter config
+filter config SimpleName MethodInvocation SimpleName get servlet context
+filter config SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get servlet context SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+filter config SimpleName MethodInvocation MethodInvocation QualifiedName authentication filtersigner secret provider attribute
+get servlet context SimpleName MethodInvocation MethodInvocation QualifiedName authentication filtersigner secret provider attribute
+get attribute SimpleName MethodInvocation QualifiedName authentication filtersigner secret provider attribute
+signer secret provider SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+signer secret provider SimpleName SimpleType CastExpression MethodInvocation QualifiedName authentication filtersigner secret provider attribute
+secret provider SimpleName Assignment CastExpression SimpleType SimpleName signer secret provider
+secret provider SimpleName Assignment CastExpression MethodInvocation SimpleName get attribute
+secret provider SimpleName Assignment CastExpression MethodInvocation QualifiedName authentication filtersigner secret provider attribute
+filter config SimpleName MethodInvocation SimpleName get init parameter
+filter config SimpleName MethodInvocation SimpleName config prefix
+get init parameter SimpleName MethodInvocation SimpleName config prefix
+config prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter config
+config prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get init parameter
+config prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName config prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config prefix
+config prefix SimpleName InfixExpression StringLiteral .
+config prefix SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+config prefix SimpleName InfixExpression ConditionalExpression StringLiteral empty
+. StringLiteral InfixExpression ConditionalExpression StringLiteral empty
+config prefix SimpleName Assignment ConditionalExpression InfixExpression SimpleName config prefix
+config prefix SimpleName Assignment ConditionalExpression InfixExpression StringLiteral .
+config prefix SimpleName Assignment ConditionalExpression StringLiteral empty
+filter config SimpleName MethodInvocation SimpleName get servlet context
+get configuration SimpleName SuperMethodInvocation SimpleName config prefix
+get configuration SimpleName SuperMethodInvocation SimpleName filter config
+config prefix SimpleName SuperMethodInvocation SimpleName filter config
+authentication filter SimpleName MethodInvocation SimpleName construct secret provider
+authentication filter SimpleName MethodInvocation MethodInvocation SimpleName filter config
+authentication filter SimpleName MethodInvocation MethodInvocation SimpleName get servlet context
+authentication filter SimpleName MethodInvocation SuperMethodInvocation SimpleName get configuration
+authentication filter SimpleName MethodInvocation SuperMethodInvocation SimpleName config prefix
+authentication filter SimpleName MethodInvocation SuperMethodInvocation SimpleName filter config
+authentication filter SimpleName MethodInvocation BooleanLiteral false
+construct secret provider SimpleName MethodInvocation MethodInvocation SimpleName filter config
+construct secret provider SimpleName MethodInvocation MethodInvocation SimpleName get servlet context
+construct secret provider SimpleName MethodInvocation SuperMethodInvocation SimpleName get configuration
+construct secret provider SimpleName MethodInvocation SuperMethodInvocation SimpleName config prefix
+construct secret provider SimpleName MethodInvocation SuperMethodInvocation SimpleName filter config
+construct secret provider SimpleName MethodInvocation BooleanLiteral false
+filter config SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName get configuration
+filter config SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName config prefix
+filter config SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName filter config
+get servlet context SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName get configuration
+get servlet context SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName config prefix
+get servlet context SimpleName MethodInvocation MethodInvocation SuperMethodInvocation SimpleName filter config
+filter config SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get servlet context SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get configuration SimpleName SuperMethodInvocation MethodInvocation BooleanLiteral false
+config prefix SimpleName SuperMethodInvocation MethodInvocation BooleanLiteral false
+filter config SimpleName SuperMethodInvocation MethodInvocation BooleanLiteral false
+secret provider SimpleName Assignment MethodInvocation SimpleName authentication filter
+secret provider SimpleName Assignment MethodInvocation SimpleName construct secret provider
+secret provider SimpleName Assignment MethodInvocation MethodInvocation SimpleName filter config
+secret provider SimpleName Assignment MethodInvocation MethodInvocation SimpleName get servlet context
+secret provider SimpleName Assignment MethodInvocation SuperMethodInvocation SimpleName get configuration
+secret provider SimpleName Assignment MethodInvocation SuperMethodInvocation SimpleName config prefix
+secret provider SimpleName Assignment MethodInvocation SuperMethodInvocation SimpleName filter config
+secret provider SimpleName Assignment MethodInvocation BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+servlet exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+signer SimpleName SimpleType ClassInstanceCreation SimpleName secret provider
+signer SimpleName Assignment ClassInstanceCreation SimpleType SimpleName signer
+signer SimpleName Assignment ClassInstanceCreation SimpleName secret provider
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize secret provider
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter config
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize secret provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter config
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+void PrimitiveType MethodDeclaration SimpleName initialize secret provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter config
+void PrimitiveType MethodDeclaration SimpleType SimpleName servlet exception
+initialize secret provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+initialize secret provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter config
+initialize secret provider SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+filter config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize secret provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize secret provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

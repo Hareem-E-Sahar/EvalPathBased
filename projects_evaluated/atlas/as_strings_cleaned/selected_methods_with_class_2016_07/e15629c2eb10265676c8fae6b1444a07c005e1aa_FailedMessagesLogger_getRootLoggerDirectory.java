@@ -1,0 +1,43 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root logger directory
+orgapachelog jlogger QualifiedName MethodInvocation SimpleName get root logger
+root logger SimpleName VariableDeclarationFragment MethodInvocation QualifiedName orgapachelog jlogger
+root logger SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root logger
+orgapachelog jlogger QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root logger
+root logger SimpleName MethodInvocation SimpleName get all appenders
+all appenders SimpleName VariableDeclarationFragment MethodInvocation SimpleName root logger
+all appenders SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all appenders
+enumeration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName all appenders
+all appenders SimpleName MethodInvocation SimpleName has more elements
+all appenders SimpleName MethodInvocation SimpleName next element
+appender SimpleName SimpleType CastExpression MethodInvocation SimpleName all appenders
+appender SimpleName SimpleType CastExpression MethodInvocation SimpleName next element
+appender SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName appender
+appender SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName all appenders
+appender SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next element
+appender SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName appender
+appender SimpleName InstanceofExpression SimpleType SimpleName file appender
+file appender SimpleName SimpleType CastExpression SimpleName appender
+file appender SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file appender
+file appender SimpleName VariableDeclarationFragment CastExpression SimpleName appender
+file appender SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file appender
+file appender SimpleName MethodInvocation SimpleName get file
+root logger file SimpleName VariableDeclarationFragment MethodInvocation SimpleName file appender
+root logger file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root logger file
+file SimpleName SimpleType ClassInstanceCreation SimpleName root logger file
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get parent
+root logger file SimpleName ClassInstanceCreation MethodInvocation SimpleName get parent
+root logger directory SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName root logger file
+root logger directory SimpleName Assignment MethodInvocation SimpleName get parent
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get root logger directory
+private Modifier MethodDeclaration Block ReturnStatement SimpleName root logger directory
+string SimpleName SimpleType MethodDeclaration SimpleName get root logger directory
+get root logger directory SimpleName MethodDeclaration Block ReturnStatement SimpleName root logger directory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root logger directory
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root logger directory

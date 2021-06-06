@@ -1,0 +1,65 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+predicate SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parent filter SimpleName VariableDeclarationFragment SimpleName filter
+get namespace id SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace id SimpleName MethodInvocation MethodInvocation QualifiedName namespacesaccumulo namespace id
+equals SimpleName MethodInvocation QualifiedName namespacesaccumulo namespace id
+system namespace filter SimpleName SimpleType ClassInstanceCreation SimpleName filter
+parent filter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName system namespace filter
+parent filter SimpleName Assignment ClassInstanceCreation SimpleName filter
+get prop cache accessor SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get prop cache accessor SimpleName MethodInvocation MethodInvocation SimpleName props
+get prop cache accessor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get prop cache accessor SimpleName MethodInvocation MethodInvocation SimpleName filter
+get prop cache accessor SimpleName MethodInvocation MethodInvocation SimpleName parent
+get properties SimpleName MethodInvocation SimpleName props
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get path
+get properties SimpleName MethodInvocation SimpleName filter
+get properties SimpleName MethodInvocation SimpleName parent
+get properties SimpleName MethodInvocation SimpleName parent filter
+props SimpleName MethodInvocation MethodInvocation SimpleName get path
+props SimpleName MethodInvocation SimpleName filter
+props SimpleName MethodInvocation SimpleName parent
+props SimpleName MethodInvocation SimpleName parent filter
+get path SimpleName MethodInvocation MethodInvocation SimpleName filter
+get path SimpleName MethodInvocation MethodInvocation SimpleName parent
+get path SimpleName MethodInvocation MethodInvocation SimpleName parent filter
+filter SimpleName MethodInvocation SimpleName parent
+filter SimpleName MethodInvocation SimpleName parent filter
+parent SimpleName MethodInvocation SimpleName parent filter
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get properties
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter
+void PrimitiveType MethodDeclaration SimpleName get properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter
+props SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter

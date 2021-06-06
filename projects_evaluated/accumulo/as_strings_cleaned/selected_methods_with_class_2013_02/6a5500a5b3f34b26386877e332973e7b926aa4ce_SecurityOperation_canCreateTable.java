@@ -1,0 +1,36 @@
+credential SimpleName SimpleType SingleVariableDeclaration SimpleName c
+authenticate SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName get principal
+has system permission SimpleName MethodInvocation MethodInvocation SimpleName c
+has system permission SimpleName MethodInvocation MethodInvocation SimpleName get principal
+has system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+get principal SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get principal SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+system permissioncreate table QualifiedName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can create table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration SimpleName can create table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+can create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can create table SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can create table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can create table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

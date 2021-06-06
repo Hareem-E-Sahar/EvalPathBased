@@ -1,0 +1,41 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName bytes
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation SimpleName b
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation SimpleName b
+% x StringLiteral MethodInvocation SimpleName b
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral % x
+sb SimpleName MethodInvocation MethodInvocation SimpleName b
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral % x
+append SimpleName MethodInvocation MethodInvocation SimpleName b
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName bytes
+b SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bytes
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName hex string
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName bytes
+string SimpleName SimpleType MethodDeclaration SimpleName hex string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName bytes
+hex string SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+hex string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bytes
+hex string SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bytes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName hex string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hex string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes

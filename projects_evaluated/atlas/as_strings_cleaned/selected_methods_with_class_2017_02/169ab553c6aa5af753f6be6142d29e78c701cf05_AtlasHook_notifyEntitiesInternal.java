@@ -1,0 +1,160 @@
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName hook notificationhook notification message
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+hook notificationhook notification message QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+int PrimitiveType SingleVariableDeclaration SimpleName max retries
+notification interface SimpleName SimpleType SingleVariableDeclaration SimpleName notification interface
+boolean PrimitiveType SingleVariableDeclaration SimpleName should log failed messages
+failed messages logger SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+messages SimpleName MethodInvocation SimpleName is empty
+messages SimpleName InfixExpression InfixExpression MethodInvocation SimpleName messages
+messages SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+messages SimpleName MethodInvocation SimpleName to string
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+message SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName messages
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+num retries SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num retries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+notification interface SimpleName MethodInvocation SimpleName send
+notification interface SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+notification interface SimpleName MethodInvocation SimpleName messages
+send SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+send SimpleName MethodInvocation SimpleName messages
+notification interfacenotification typehook QualifiedName MethodInvocation SimpleName messages
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+num retries SimpleName InfixExpression SimpleName max retries
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to send notification - attempt #{} error
+log SimpleName MethodInvocation SimpleName num retries
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+error SimpleName MethodInvocation StringLiteral failed to send notification - attempt #{} error
+error SimpleName MethodInvocation SimpleName num retries
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName get message
+failed to send notification - attempt #{} error StringLiteral MethodInvocation SimpleName num retries
+failed to send notification - attempt #{} error StringLiteral MethodInvocation MethodInvocation SimpleName e
+failed to send notification - attempt #{} error StringLiteral MethodInvocation MethodInvocation SimpleName get message
+num retries SimpleName MethodInvocation MethodInvocation SimpleName e
+num retries SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sleeping for {} ms before retry
+log SimpleName MethodInvocation SimpleName notification retry interval
+debug SimpleName MethodInvocation StringLiteral sleeping for {} ms before retry
+debug SimpleName MethodInvocation SimpleName notification retry interval
+sleeping for {} ms before retry StringLiteral MethodInvocation SimpleName notification retry interval
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName notification retry interval
+sleep SimpleName MethodInvocation SimpleName notification retry interval
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral notification hook thread sleep interrupted
+error SimpleName MethodInvocation StringLiteral notification hook thread sleep interrupted
+e SimpleName InstanceofExpression SimpleType SimpleName notification exception
+should log failed messages SimpleName InfixExpression InstanceofExpression SimpleName e
+should log failed messages SimpleName InfixExpression InstanceofExpression SimpleType SimpleName notification exception
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+notification exception SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get failed messages
+failed messages SimpleName VariableDeclarationFragment MethodInvocation SimpleName get failed messages
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+logger SimpleName MethodInvocation SimpleName log
+logger SimpleName MethodInvocation SimpleName msg
+log SimpleName MethodInvocation SimpleName msg
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName failed messages
+msg SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName failed messages
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {} after {} retries quitting
+log SimpleName MethodInvocation SimpleName message
+log SimpleName MethodInvocation SimpleName max retries
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to notify atlas for entity {} after {} retries quitting
+error SimpleName MethodInvocation SimpleName message
+error SimpleName MethodInvocation SimpleName max retries
+error SimpleName MethodInvocation SimpleName e
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName message
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName max retries
+failed to notify atlas for entity {} after {} retries quitting StringLiteral MethodInvocation SimpleName e
+message SimpleName MethodInvocation SimpleName max retries
+message SimpleName MethodInvocation SimpleName e
+max retries SimpleName MethodInvocation SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName notify entities internal
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName messages
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName max retries
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName notify entities internal
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName messages
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max retries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification interface
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+void PrimitiveType MethodDeclaration SimpleName notify entities internal
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName messages
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max retries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification interface
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName messages
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max retries
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification interface
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName failed messages logger
+notify entities internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName logger
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max retries
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+max retries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+max retries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+max retries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+max retries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+notification interface SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+notification interface SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+notification interface SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+should log failed messages SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify entities internal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max retries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify entities internal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max retries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification interface
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName should log failed messages
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logger

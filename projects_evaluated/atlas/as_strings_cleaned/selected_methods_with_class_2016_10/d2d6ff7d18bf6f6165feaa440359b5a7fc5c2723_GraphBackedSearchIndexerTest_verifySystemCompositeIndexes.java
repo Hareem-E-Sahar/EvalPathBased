@@ -1,0 +1,60 @@
+test utils SimpleName MethodInvocation SimpleName get graph
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+atlas graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+graph SimpleName MethodInvocation SimpleName get management system
+management system SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+management system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get management system
+atlas graph management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName management system
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantsguid property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral true
+management system SimpleName MethodInvocation QualifiedName constantsguid property key
+management system SimpleName MethodInvocation BooleanLiteral true
+constantsguid property key QualifiedName MethodInvocation BooleanLiteral true
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantsguid property key
+management system SimpleName MethodInvocation QualifiedName constantsguid property key
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantsentity type property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral false
+management system SimpleName MethodInvocation QualifiedName constantsentity type property key
+management system SimpleName MethodInvocation BooleanLiteral false
+constantsentity type property key QualifiedName MethodInvocation BooleanLiteral false
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantsentity type property key
+management system SimpleName MethodInvocation QualifiedName constantsentity type property key
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantssuper types property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral false
+management system SimpleName MethodInvocation QualifiedName constantssuper types property key
+management system SimpleName MethodInvocation BooleanLiteral false
+constantssuper types property key QualifiedName MethodInvocation BooleanLiteral false
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantssuper types property key
+management system SimpleName MethodInvocation QualifiedName constantssuper types property key
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantstrait names property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral false
+management system SimpleName MethodInvocation QualifiedName constantstrait names property key
+management system SimpleName MethodInvocation BooleanLiteral false
+constantstrait names property key QualifiedName MethodInvocation BooleanLiteral false
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantstrait names property key
+management system SimpleName MethodInvocation QualifiedName constantstrait names property key
+management system SimpleName MethodInvocation SimpleName rollback
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName verify system composite indexes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify system composite indexes
+void PrimitiveType MethodDeclaration SimpleName verify system composite indexes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify system composite indexes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify system composite indexes

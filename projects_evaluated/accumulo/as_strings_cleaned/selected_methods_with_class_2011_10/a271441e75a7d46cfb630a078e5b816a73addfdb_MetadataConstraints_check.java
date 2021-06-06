@@ -1,0 +1,393 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName mutation
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+mutation SimpleName MethodInvocation SimpleName get updates
+col updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutation
+col updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updates
+contains semi c SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName contains semi c
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+mutation SimpleName MethodInvocation SimpleName get row
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutation
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get row
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+rowlength QualifiedName InfixExpression NumberLiteral empty
+row SimpleName ArrayAccess NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral ~
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral ~
+rowlength QualifiedName InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+b SimpleName InfixExpression CharacterLiteral 
+contains semi c SimpleName Assignment BooleanLiteral true
+b SimpleName InfixExpression CharacterLiteral 
+b SimpleName InfixExpression CharacterLiteral <
+b SimpleName InfixExpression InfixExpression InfixExpression SimpleName b
+b SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral <
+ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName b
+ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral <
+xff NumberLiteral InfixExpression SimpleName b
+valid table name chars SimpleName ArrayAccess InfixExpression NumberLiteral xff
+valid table name chars SimpleName ArrayAccess InfixExpression SimpleName b
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName contains
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+contains SimpleName MethodInvocation CastExpression PrimitiveType short
+contains SimpleName MethodInvocation CastExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName row
+b SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName row
+rowlength QualifiedName InfixExpression NumberLiteral empty
+rowlength QualifiedName InfixExpression NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression QualifiedName rowlength
+row SimpleName ArrayAccess InfixExpression NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral <
+rowlength QualifiedName InfixExpression ArrayAccess InfixExpression CharacterLiteral <
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression CharacterLiteral <
+rowlength QualifiedName InfixExpression InfixExpression InfixExpression CharacterLiteral <
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral <
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName contains
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+contains SimpleName MethodInvocation CastExpression PrimitiveType short
+contains SimpleName MethodInvocation CastExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+rowlength QualifiedName InfixExpression NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName contains
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+contains SimpleName MethodInvocation CastExpression PrimitiveType short
+contains SimpleName MethodInvocation CastExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+rowlength QualifiedName InfixExpression NumberLiteral empty
+row SimpleName ArrayAccess NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral !
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral !
+rowlength QualifiedName InfixExpression InfixExpression InfixExpression CharacterLiteral !
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral !
+rowlength QualifiedName InfixExpression NumberLiteral empty
+row SimpleName ArrayAccess NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral empty
+rowlength QualifiedName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+row SimpleName ArrayAccess NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral <
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral <
+row SimpleName ArrayAccess NumberLiteral empty
+row SimpleName ArrayAccess InfixExpression CharacterLiteral 
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral 
+< CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral 
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName contains
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+contains SimpleName MethodInvocation CastExpression PrimitiveType short
+contains SimpleName MethodInvocation CastExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+text SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName compare to
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName compare to
+row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+compare to SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+compare to SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+row SimpleName ClassInstanceCreation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+constantsmetadata table id QualifiedName ClassInstanceCreation MethodInvocation InfixExpression NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName column update
+column update SimpleName MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+column family SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+column family SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName column update
+column family SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column family
+column update SimpleName MethodInvocation SimpleName is deleted
+is valid column SimpleName MethodInvocation SimpleName column update
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column update SimpleName MethodInvocation SimpleName get value
+column update SimpleName MethodInvocation FieldAccess SimpleName length
+get value SimpleName MethodInvocation FieldAccess SimpleName length
+column update SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+column family SimpleName MethodInvocation SimpleName equals
+column family SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column family SimpleName MethodInvocation SimpleName equals
+column family SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+column update SimpleName MethodInvocation SimpleName get value
+data file value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column update
+data file value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data file value
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName column update
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get value
+data file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfv
+dfv SimpleName MethodInvocation SimpleName get size
+dfv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+dfv SimpleName MethodInvocation SimpleName get num entries
+dfv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName nfe
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+array index out of bounds exception SimpleName SimpleType SingleVariableDeclaration SimpleName aiooe
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column family SimpleName MethodInvocation SimpleName equals
+column family SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata scanfile column family
+is valid column SimpleName MethodInvocation SimpleName column update
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column fq SimpleName SimpleType ClassInstanceCreation SimpleName column update
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName equals
+column update SimpleName ClassInstanceCreation MethodInvocation SimpleName equals
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+column update SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+equals SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+column update SimpleName MethodInvocation SimpleName get value
+column update SimpleName MethodInvocation FieldAccess SimpleName length
+get value SimpleName MethodInvocation FieldAccess SimpleName length
+column update SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+equals SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+constantsmetadata prev row column QualifiedName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName contains
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+contains SimpleName MethodInvocation CastExpression PrimitiveType short
+contains SimpleName MethodInvocation CastExpression NumberLiteral empty
+mutation SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mutation
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+column update SimpleName MethodInvocation SimpleName get value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column update
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+key extent SimpleName MethodInvocation SimpleName decode prev end row
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+key extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName column update
+key extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+decode prev end row SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+decode prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName column update
+decode prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode prev end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName per
+ke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get end row
+per SimpleName MethodInvocation SimpleName compare to
+per SimpleName MethodInvocation MethodInvocation SimpleName ke
+per SimpleName MethodInvocation MethodInvocation SimpleName get end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName ke
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get end row
+per SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+prev end row less than end row SimpleName VariableDeclarationFragment InfixExpression InfixExpression NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev end row less than end row
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column fq SimpleName SimpleType ClassInstanceCreation SimpleName column update
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName equals
+column update SimpleName ClassInstanceCreation MethodInvocation SimpleName equals
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata lock column
+column update SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata lock column
+equals SimpleName MethodInvocation QualifiedName constantsmetadata lock column
+zoo cache SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo cache
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo root SimpleName Assignment MethodInvocation SimpleName zoo util
+zoo root SimpleName Assignment MethodInvocation SimpleName get root
+zoo root SimpleName Assignment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo root SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+lock held SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock held
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+column update SimpleName MethodInvocation SimpleName get value
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column update
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName column update
+lock id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock id
+zoo utillock id QualifiedName SimpleType ClassInstanceCreation SimpleName zoo root
+zoo utillock id QualifiedName SimpleType ClassInstanceCreation SimpleName lock id
+zoo root SimpleName ClassInstanceCreation SimpleName lock id
+zoo lock SimpleName MethodInvocation SimpleName is lock held
+zoo lock SimpleName MethodInvocation SimpleName zoo cache
+zoo lock SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName zoo utillock id
+zoo lock SimpleName MethodInvocation ClassInstanceCreation SimpleName zoo root
+zoo lock SimpleName MethodInvocation ClassInstanceCreation SimpleName lock id
+is lock held SimpleName MethodInvocation SimpleName zoo cache
+is lock held SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName zoo utillock id
+is lock held SimpleName MethodInvocation ClassInstanceCreation SimpleName zoo root
+is lock held SimpleName MethodInvocation ClassInstanceCreation SimpleName lock id
+zoo cache SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName zoo utillock id
+zoo cache SimpleName MethodInvocation ClassInstanceCreation SimpleName zoo root
+zoo cache SimpleName MethodInvocation ClassInstanceCreation SimpleName lock id
+lock held SimpleName Assignment MethodInvocation SimpleName zoo lock
+lock held SimpleName Assignment MethodInvocation SimpleName is lock held
+lock held SimpleName Assignment MethodInvocation SimpleName zoo cache
+lock held SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName zoo root
+lock held SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName lock id
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+failed to verify lock was held StringLiteral InfixExpression SimpleName lock id
+failed to verify lock was held StringLiteral InfixExpression StringLiteral empty
+failed to verify lock was held StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to verify lock was held StringLiteral InfixExpression MethodInvocation SimpleName get message
+lock id SimpleName InfixExpression StringLiteral empty
+lock id SimpleName InfixExpression MethodInvocation SimpleName e
+lock id SimpleName InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to verify lock was held
+log SimpleName MethodInvocation InfixExpression SimpleName lock id
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed to verify lock was held
+debug SimpleName MethodInvocation InfixExpression SimpleName lock id
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+short PrimitiveType CastExpression NumberLiteral empty
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation CastExpression PrimitiveType short
+violations SimpleName MethodInvocation CastExpression NumberLiteral empty
+add SimpleName MethodInvocation CastExpression PrimitiveType short
+add SimpleName MethodInvocation CastExpression NumberLiteral empty
+column update SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName col updates
+column update SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName col updates
+violating metadata mutation : StringLiteral InfixExpression SimpleName mutation
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral violating metadata mutation :
+log SimpleName MethodInvocation InfixExpression SimpleName mutation
+debug SimpleName MethodInvocation InfixExpression StringLiteral violating metadata mutation :
+debug SimpleName MethodInvocation InfixExpression SimpleName mutation
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName row
+row SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName col updates
+col updates SimpleName EnhancedForStatement Block ReturnStatement SimpleName violations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName short
+public Modifier MethodDeclaration SimpleName check
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutation
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName row
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName col updates
+public Modifier MethodDeclaration Block ReturnStatement SimpleName violations
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check
+short SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutation
+check SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+check SimpleName MethodDeclaration Block EnhancedForStatement SimpleName row
+check SimpleName MethodDeclaration Block EnhancedForStatement SimpleName col updates
+check SimpleName MethodDeclaration Block ReturnStatement SimpleName violations
+env SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation

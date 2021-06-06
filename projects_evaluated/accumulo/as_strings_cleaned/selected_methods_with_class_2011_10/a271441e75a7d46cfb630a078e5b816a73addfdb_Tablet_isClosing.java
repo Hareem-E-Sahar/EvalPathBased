@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is closing
+public Modifier MethodDeclaration Block ReturnStatement SimpleName closing
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName is closing
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName closing
+boolean PrimitiveType MethodDeclaration SimpleName is closing
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName closing
+is closing SimpleName MethodDeclaration Block ReturnStatement SimpleName closing
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is closing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is closing

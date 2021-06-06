@@ -1,0 +1,40 @@
+depends on methods SimpleName MemberValuePair StringLiteral test store
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test store
+graph backed type store SimpleName SimpleType CastExpression SimpleName type store
+type store SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName restore type
+type store SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral manager
+restore type SimpleName MethodInvocation StringLiteral manager
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName restore type
+types def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral manager
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+verify restored class type SimpleName MethodInvocation SimpleName types def
+verify restored class type SimpleName MethodInvocation StringLiteral manager
+types def SimpleName MethodInvocation StringLiteral manager
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test restore type
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test restore type
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test restore type
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test restore type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test restore type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test restore type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test restore type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test restore type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

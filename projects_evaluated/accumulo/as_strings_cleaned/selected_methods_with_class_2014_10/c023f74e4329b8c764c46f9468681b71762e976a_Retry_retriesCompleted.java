@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName retries completed
+public Modifier MethodDeclaration Block ReturnStatement SimpleName retries done
+long PrimitiveType MethodDeclaration SimpleName retries completed
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName retries done
+retries completed SimpleName MethodDeclaration Block ReturnStatement SimpleName retries done
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName retries completed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retries completed

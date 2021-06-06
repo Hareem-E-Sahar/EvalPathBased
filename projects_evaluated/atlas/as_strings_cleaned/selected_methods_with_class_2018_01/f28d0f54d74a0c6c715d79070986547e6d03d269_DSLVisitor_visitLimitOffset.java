@@ -1,0 +1,56 @@
+limit offset context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral => dsl visitorvisit limit offset
+log SimpleName MethodInvocation SimpleName ctx
+debug SimpleName MethodInvocation StringLiteral => dsl visitorvisit limit offset
+debug SimpleName MethodInvocation SimpleName ctx
+=> dsl visitorvisit limit offset StringLiteral MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName limit clause
+ctx SimpleName MethodInvocation MethodInvocation SimpleName number
+limit clause SimpleName MethodInvocation MethodInvocation SimpleName number
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get text
+limit clause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get text
+number SimpleName MethodInvocation MethodInvocation SimpleName get text
+ctx SimpleName MethodInvocation SimpleName offset clause
+ctx SimpleName MethodInvocation SimpleName offset clause
+ctx SimpleName MethodInvocation MethodInvocation SimpleName number
+offset clause SimpleName MethodInvocation MethodInvocation SimpleName number
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get text
+offset clause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get text
+number SimpleName MethodInvocation MethodInvocation SimpleName get text
+ctx SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+offset clause SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+empty StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName number
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation SimpleName add limit
+gremlin query composer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName number
+gremlin query composer SimpleName MethodInvocation MethodInvocation SimpleName get text
+gremlin query composer SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression StringLiteral empty
+add limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName number
+add limit SimpleName MethodInvocation MethodInvocation SimpleName get text
+add limit SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression StringLiteral empty
+visit limit offset SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit limit offset
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit limit offset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName limit offset context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit limit offset
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit limit offset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName limit offset context
+visit limit offset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit limit offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit limit offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,89 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName o
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get row
+o SimpleName MethodInvocation SimpleName get row
+o SimpleName MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation FieldAccess SimpleName length
+o SimpleName MethodInvocation SimpleName get row
+o SimpleName MethodInvocation SimpleName get row
+o SimpleName MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation FieldAccess SimpleName length
+writable comparator SimpleName MethodInvocation SimpleName compare bytes
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName o
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName get row
+writable comparator SimpleName MethodInvocation NumberLiteral empty
+writable comparator SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName o
+writable comparator SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get row
+writable comparator SimpleName MethodInvocation FieldAccess SimpleName length
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName o
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName get row
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName o
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName get row
+compare bytes SimpleName MethodInvocation NumberLiteral empty
+compare bytes SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName o
+compare bytes SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get row
+compare bytes SimpleName MethodInvocation FieldAccess SimpleName length
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName o
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName get row
+compare bytes SimpleName MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get row
+empty NumberLiteral MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get row
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get row
+empty NumberLiteral MethodInvocation FieldAccess SimpleName length
+length SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName o
+length SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get row
+o SimpleName MethodInvocation FieldAccess MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation FieldAccess MethodInvocation NumberLiteral empty
+length SimpleName FieldAccess MethodInvocation NumberLiteral empty
+length SimpleName FieldAccess MethodInvocation FieldAccess SimpleName length
+o SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+o SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName o
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get row
+empty NumberLiteral MethodInvocation FieldAccess SimpleName length
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

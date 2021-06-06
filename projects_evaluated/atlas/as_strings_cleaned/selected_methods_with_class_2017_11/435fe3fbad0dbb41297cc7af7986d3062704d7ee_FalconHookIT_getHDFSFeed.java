@@ -1,0 +1,217 @@
+types utilpair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+types utilpair QualifiedName SimpleType ParameterizedType SimpleType SimpleName feed
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName feed
+string SimpleName SimpleType SingleVariableDeclaration SimpleName feed resource
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+feed StringLiteral InfixExpression MethodInvocation SimpleName random
+load entity SimpleName MethodInvocation QualifiedName entity typefeed
+load entity SimpleName MethodInvocation SimpleName feed resource
+load entity SimpleName MethodInvocation InfixExpression StringLiteral feed
+load entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+entity typefeed QualifiedName MethodInvocation SimpleName feed resource
+entity typefeed QualifiedName MethodInvocation InfixExpression StringLiteral feed
+entity typefeed QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName random
+feed resource SimpleName MethodInvocation InfixExpression StringLiteral feed
+feed resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName load entity
+feed SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity typefeed
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed resource
+feed SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral feed
+feed SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed
+feed SimpleName MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get clusters SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get clusters
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+orgapachefalconentityv feedcluster QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed cluster
+feed cluster SimpleName MethodInvocation SimpleName set name
+feed cluster SimpleName MethodInvocation SimpleName cluster name
+set name SimpleName MethodInvocation SimpleName cluster name
+store SimpleName MethodInvocation SimpleName publish
+store SimpleName MethodInvocation QualifiedName entity typefeed
+store SimpleName MethodInvocation SimpleName feed
+publish SimpleName MethodInvocation QualifiedName entity typefeed
+publish SimpleName MethodInvocation SimpleName feed
+entity typefeed QualifiedName MethodInvocation SimpleName feed
+assert feed is registered SimpleName MethodInvocation SimpleName feed
+assert feed is registered SimpleName MethodInvocation SimpleName cluster name
+feed SimpleName MethodInvocation SimpleName cluster name
+feed id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert feed is registered
+feed id SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+feed id SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed id
+assert feed attributes SimpleName MethodInvocation SimpleName feed id
+falcon data typesfalcon feed creation QualifiedName MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation SimpleName get name
+falcon bridge SimpleName MethodInvocation SimpleName get feed qualified name
+falcon bridge SimpleName MethodInvocation MethodInvocation SimpleName feed
+falcon bridge SimpleName MethodInvocation MethodInvocation SimpleName get name
+falcon bridge SimpleName MethodInvocation SimpleName cluster name
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName feed
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+get feed qualified name SimpleName MethodInvocation SimpleName cluster name
+feed SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+get name SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName falcon data typesfalcon feed creation
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName falcon bridge
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get feed qualified name
+assert entity is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+assert entity is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+falcon data typesfalcon feed creation QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+falcon data typesfalcon feed creation QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName falcon bridge
+falcon data typesfalcon feed creation QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get feed qualified name
+falcon data typesfalcon feed creation QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName falcon bridge
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get feed qualified name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName falcon bridge
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get feed qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName feed
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert entity is registered
+process id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName falcon data typesfalcon feed creation
+process id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+process id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientreferenceable attribute name
+process id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName falcon bridge
+process id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get feed qualified name
+process id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process id
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName process id
+get entity SimpleName MethodInvocation SimpleName process id
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName process id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+process entity SimpleName MethodInvocation SimpleName get
+process entity SimpleName MethodInvocation StringLiteral outputs
+get SimpleName MethodInvocation StringLiteral outputs
+get SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation SimpleName feed id
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName feed id
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName feed id
+get id SimpleName MethodInvocation MethodInvocation SimpleName feed id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+process entity SimpleName MethodInvocation SimpleName get
+process entity SimpleName MethodInvocation StringLiteral inputs
+get SimpleName MethodInvocation StringLiteral inputs
+get SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get id
+input id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+input id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+input id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input id
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName input id
+get entity SimpleName MethodInvocation SimpleName input id
+path entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+path entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+path entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName input id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path entity
+path entity SimpleName MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation QualifiedName hive meta store bridgehdfs path
+path entity SimpleName MethodInvocation MethodInvocation QualifiedName hive meta store bridgehdfs path
+get type name SimpleName MethodInvocation MethodInvocation QualifiedName hive meta store bridgehdfs path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName location
+feed helper SimpleName MethodInvocation SimpleName get locations
+feed helper SimpleName MethodInvocation SimpleName feed cluster
+feed helper SimpleName MethodInvocation SimpleName feed
+get locations SimpleName MethodInvocation SimpleName feed cluster
+get locations SimpleName MethodInvocation SimpleName feed
+feed cluster SimpleName MethodInvocation SimpleName feed
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed helper
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get locations
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed cluster
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+file system storage SimpleName MethodInvocation SimpleName get location
+file system storage SimpleName MethodInvocation SimpleName locations
+file system storage SimpleName MethodInvocation QualifiedName location typedata
+get location SimpleName MethodInvocation SimpleName locations
+get location SimpleName MethodInvocation QualifiedName location typedata
+locations SimpleName MethodInvocation QualifiedName location typedata
+data location SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system storage
+data location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+data location SimpleName VariableDeclarationFragment MethodInvocation SimpleName locations
+data location SimpleName VariableDeclarationFragment MethodInvocation QualifiedName location typedata
+location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data location
+path entity SimpleName MethodInvocation SimpleName get
+path entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+data location SimpleName MethodInvocation SimpleName get path
+falcon bridge SimpleName MethodInvocation SimpleName normalize
+falcon bridge SimpleName MethodInvocation MethodInvocation SimpleName data location
+falcon bridge SimpleName MethodInvocation MethodInvocation SimpleName get path
+normalize SimpleName MethodInvocation MethodInvocation SimpleName data location
+normalize SimpleName MethodInvocation MethodInvocation SimpleName get path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName path entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName falcon bridge
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName normalize
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data location
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+path entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName falcon bridge
+path entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName normalize
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName falcon bridge
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName normalize
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName falcon bridge
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName normalize
+types utilpair QualifiedName MethodInvocation SimpleName of
+types utilpair QualifiedName MethodInvocation SimpleName feed id
+types utilpair QualifiedName MethodInvocation SimpleName feed
+of SimpleName MethodInvocation SimpleName feed id
+of SimpleName MethodInvocation SimpleName feed
+feed id SimpleName MethodInvocation SimpleName feed
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName types utilpair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName feed
+private Modifier MethodDeclaration SimpleName get hdfs feed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+types utilpair QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get hdfs feed
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get hdfs feed
+feed SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get hdfs feed
+get hdfs feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get hdfs feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+get hdfs feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get hdfs feed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get hdfs feed SimpleName MethodDeclaration SimpleType SimpleName exception
+feed resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+feed resource SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hdfs feed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hdfs feed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

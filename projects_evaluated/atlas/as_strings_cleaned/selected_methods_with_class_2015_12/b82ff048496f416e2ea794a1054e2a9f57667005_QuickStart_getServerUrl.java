@@ -1,0 +1,43 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName atlas rest address
+get string SimpleName MethodInvocation SimpleName atlas rest address
+base url SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+base url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+base url SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas rest address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base url
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral usage quick startpy atlas endpoint of format httphttpsatlasfqdnatlas port like httplocalhost >
+println SimpleName MethodInvocation StringLiteral usage quick startpy atlas endpoint of format httphttpsatlasfqdnatlas port like httplocalhost >
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get server url
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName base url
+string SimpleName SimpleType MethodDeclaration SimpleName get server url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get server url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+get server url SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get server url SimpleName MethodDeclaration Block ReturnStatement SimpleName base url
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

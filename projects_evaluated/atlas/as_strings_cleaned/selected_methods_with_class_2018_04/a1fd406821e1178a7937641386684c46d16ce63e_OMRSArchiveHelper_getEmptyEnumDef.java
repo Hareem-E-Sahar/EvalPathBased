@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description guid
+enum def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName enum def
+enum def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum def
+enum def SimpleName MethodInvocation SimpleName set guid
+enum def SimpleName MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+enum def SimpleName MethodInvocation SimpleName set name
+enum def SimpleName MethodInvocation SimpleName name
+set name SimpleName MethodInvocation SimpleName name
+enum def SimpleName MethodInvocation SimpleName set description
+enum def SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+enum def SimpleName MethodInvocation SimpleName set description guid
+enum def SimpleName MethodInvocation SimpleName description guid
+set description guid SimpleName MethodInvocation SimpleName description guid
+enum def SimpleName MethodInvocation SimpleName set default value
+enum def SimpleName MethodInvocation SimpleName set version
+enum def SimpleName MethodInvocation SimpleName version number
+set version SimpleName MethodInvocation SimpleName version number
+enum def SimpleName MethodInvocation SimpleName set version name
+enum def SimpleName MethodInvocation SimpleName version name
+set version name SimpleName MethodInvocation SimpleName version name
+public Modifier MethodDeclaration SimpleType SimpleName enum def
+public Modifier MethodDeclaration SimpleName get empty enum def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName description
+enum def SimpleName SimpleType MethodDeclaration SimpleName get empty enum def
+enum def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+enum def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+enum def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName description
+enum def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName description guid
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get empty enum def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description guid
+get empty enum def SimpleName MethodDeclaration Block ReturnStatement SimpleName enum def
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName enum def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get empty enum def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName enum def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get empty enum def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid

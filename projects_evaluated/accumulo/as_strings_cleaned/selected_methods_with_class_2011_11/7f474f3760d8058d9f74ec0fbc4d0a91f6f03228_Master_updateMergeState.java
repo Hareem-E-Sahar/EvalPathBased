@@ -1,0 +1,330 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+merge stats SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+merge stats SimpleName SimpleType SingleVariableDeclaration SimpleName stats
+merge stats cache SimpleName MethodInvocation SimpleName values
+statsinfo QualifiedName MethodInvocation SimpleName get state
+state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName statsinfo
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+merge state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName merge statestarted
+state SimpleName Assignment QualifiedName merge statesplitting
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statesplitting
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statesplitting
+state SimpleName InfixExpression QualifiedName merge statesplitting
+statshosted QualifiedName InfixExpression StringLiteral are hosted total
+statshosted QualifiedName InfixExpression QualifiedName statstotal
+are hosted total StringLiteral InfixExpression QualifiedName statstotal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+log SimpleName MethodInvocation InfixExpression StringLiteral are hosted total
+log SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+info SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+info SimpleName MethodInvocation InfixExpression StringLiteral are hosted total
+info SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+statsinfo QualifiedName MethodInvocation SimpleName is delete
+statstotal QualifiedName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral merge range is already contained in a single tablet
+info SimpleName MethodInvocation StringLiteral merge range is already contained in a single tablet
+state SimpleName Assignment QualifiedName merge statecomplete
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statecomplete
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statecomplete
+statshosted QualifiedName InfixExpression QualifiedName statstotal
+statsinfo QualifiedName MethodInvocation SimpleName is delete
+waiting for StringLiteral InfixExpression QualifiedName statsinfo
+waiting for StringLiteral InfixExpression StringLiteral lower split to occur
+statsinfo QualifiedName InfixExpression StringLiteral lower split to occur
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+log SimpleName MethodInvocation InfixExpression QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression StringLiteral lower split to occur
+info SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+info SimpleName MethodInvocation InfixExpression QualifiedName statsinfo
+info SimpleName MethodInvocation InfixExpression StringLiteral lower split to occur
+waiting for StringLiteral InfixExpression QualifiedName statsinfo
+waiting for StringLiteral InfixExpression StringLiteral upper split to occur
+statsinfo QualifiedName InfixExpression StringLiteral upper split to occur
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+log SimpleName MethodInvocation InfixExpression QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression StringLiteral upper split to occur
+info SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+info SimpleName MethodInvocation InfixExpression QualifiedName statsinfo
+info SimpleName MethodInvocation InfixExpression StringLiteral upper split to occur
+state SimpleName Assignment QualifiedName merge statewaiting for chopped
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statewaiting for chopped
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statewaiting for chopped
+state SimpleName Assignment QualifiedName merge statewaiting for chopped
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statewaiting for chopped
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statewaiting for chopped
+waiting for StringLiteral InfixExpression QualifiedName statshosted
+waiting for StringLiteral InfixExpression StringLiteral hosted tablets to be
+waiting for StringLiteral InfixExpression QualifiedName statstotal
+statshosted QualifiedName InfixExpression StringLiteral hosted tablets to be
+statshosted QualifiedName InfixExpression QualifiedName statstotal
+hosted tablets to be StringLiteral InfixExpression QualifiedName statstotal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+log SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+log SimpleName MethodInvocation InfixExpression StringLiteral hosted tablets to be
+log SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+info SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+info SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+info SimpleName MethodInvocation InfixExpression StringLiteral hosted tablets to be
+info SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+state SimpleName InfixExpression QualifiedName merge statewaiting for chopped
+statschopped QualifiedName InfixExpression StringLiteral tablets are chopped
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+log SimpleName MethodInvocation InfixExpression StringLiteral tablets are chopped
+info SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+info SimpleName MethodInvocation InfixExpression StringLiteral tablets are chopped
+statschopped QualifiedName InfixExpression QualifiedName statsneeds to be chopped
+state SimpleName Assignment QualifiedName merge statewaiting for offline
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statewaiting for offline
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statewaiting for offline
+waiting for StringLiteral InfixExpression QualifiedName statschopped
+waiting for StringLiteral InfixExpression StringLiteral chopped tablets to be
+waiting for StringLiteral InfixExpression QualifiedName statsneeds to be chopped
+statschopped QualifiedName InfixExpression StringLiteral chopped tablets to be
+statschopped QualifiedName InfixExpression QualifiedName statsneeds to be chopped
+chopped tablets to be StringLiteral InfixExpression QualifiedName statsneeds to be chopped
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+log SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+log SimpleName MethodInvocation InfixExpression StringLiteral chopped tablets to be
+log SimpleName MethodInvocation InfixExpression QualifiedName statsneeds to be chopped
+info SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+info SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+info SimpleName MethodInvocation InfixExpression StringLiteral chopped tablets to be
+info SimpleName MethodInvocation InfixExpression QualifiedName statsneeds to be chopped
+state SimpleName InfixExpression QualifiedName merge statewaiting for offline
+statschopped QualifiedName InfixExpression QualifiedName statsneeds to be chopped
+statsinfo QualifiedName MethodInvocation SimpleName get range
+unexpected state chopped tablets should be StringLiteral InfixExpression QualifiedName statsneeds to be chopped
+unexpected state chopped tablets should be StringLiteral InfixExpression StringLiteral was
+unexpected state chopped tablets should be StringLiteral InfixExpression QualifiedName statschopped
+unexpected state chopped tablets should be StringLiteral InfixExpression StringLiteral merge
+unexpected state chopped tablets should be StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+unexpected state chopped tablets should be StringLiteral InfixExpression MethodInvocation SimpleName get range
+statsneeds to be chopped QualifiedName InfixExpression StringLiteral was
+statsneeds to be chopped QualifiedName InfixExpression QualifiedName statschopped
+statsneeds to be chopped QualifiedName InfixExpression StringLiteral merge
+statsneeds to be chopped QualifiedName InfixExpression MethodInvocation QualifiedName statsinfo
+statsneeds to be chopped QualifiedName InfixExpression MethodInvocation SimpleName get range
+was StringLiteral InfixExpression QualifiedName statschopped
+was StringLiteral InfixExpression StringLiteral merge
+was StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+was StringLiteral InfixExpression MethodInvocation SimpleName get range
+statschopped QualifiedName InfixExpression StringLiteral merge
+statschopped QualifiedName InfixExpression MethodInvocation QualifiedName statsinfo
+statschopped QualifiedName InfixExpression MethodInvocation SimpleName get range
+merge StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+merge StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unexpected state chopped tablets should be
+log SimpleName MethodInvocation InfixExpression QualifiedName statsneeds to be chopped
+log SimpleName MethodInvocation InfixExpression StringLiteral was
+log SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+log SimpleName MethodInvocation InfixExpression StringLiteral merge
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+warn SimpleName MethodInvocation InfixExpression StringLiteral unexpected state chopped tablets should be
+warn SimpleName MethodInvocation InfixExpression QualifiedName statsneeds to be chopped
+warn SimpleName MethodInvocation InfixExpression StringLiteral was
+warn SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+warn SimpleName MethodInvocation InfixExpression StringLiteral merge
+warn SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+state SimpleName Assignment QualifiedName merge statesplitting
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statesplitting
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statesplitting
+statschopped QualifiedName InfixExpression StringLiteral tablets are chopped
+statschopped QualifiedName InfixExpression QualifiedName statsunassigned
+statschopped QualifiedName InfixExpression StringLiteral are offline
+tablets are chopped StringLiteral InfixExpression QualifiedName statsunassigned
+tablets are chopped StringLiteral InfixExpression StringLiteral are offline
+statsunassigned QualifiedName InfixExpression StringLiteral are offline
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+log SimpleName MethodInvocation InfixExpression StringLiteral tablets are chopped
+log SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+log SimpleName MethodInvocation InfixExpression StringLiteral are offline
+info SimpleName MethodInvocation InfixExpression QualifiedName statschopped
+info SimpleName MethodInvocation InfixExpression StringLiteral tablets are chopped
+info SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+info SimpleName MethodInvocation InfixExpression StringLiteral are offline
+statsunassigned QualifiedName InfixExpression QualifiedName statstotal
+statschopped QualifiedName InfixExpression QualifiedName statsneeds to be chopped
+statsunassigned QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statschopped
+statsunassigned QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statsneeds to be chopped
+statstotal QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statschopped
+statstotal QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statsneeds to be chopped
+state SimpleName Assignment QualifiedName merge statemerging
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statemerging
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statemerging
+waiting for StringLiteral InfixExpression QualifiedName statsunassigned
+waiting for StringLiteral InfixExpression StringLiteral unassigned tablets to be
+waiting for StringLiteral InfixExpression QualifiedName statstotal
+statsunassigned QualifiedName InfixExpression StringLiteral unassigned tablets to be
+statsunassigned QualifiedName InfixExpression QualifiedName statstotal
+unassigned tablets to be StringLiteral InfixExpression QualifiedName statstotal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+log SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+log SimpleName MethodInvocation InfixExpression StringLiteral unassigned tablets to be
+log SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+info SimpleName MethodInvocation InfixExpression StringLiteral waiting for
+info SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+info SimpleName MethodInvocation InfixExpression StringLiteral unassigned tablets to be
+info SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+state SimpleName InfixExpression QualifiedName merge statemerging
+statshosted QualifiedName InfixExpression NumberLiteral empty
+statsinfo QualifiedName MethodInvocation SimpleName get range
+unexpected state hosted tablets should be zero StringLiteral InfixExpression QualifiedName statshosted
+unexpected state hosted tablets should be zero StringLiteral InfixExpression StringLiteral merge
+unexpected state hosted tablets should be zero StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+unexpected state hosted tablets should be zero StringLiteral InfixExpression MethodInvocation SimpleName get range
+statshosted QualifiedName InfixExpression StringLiteral merge
+statshosted QualifiedName InfixExpression MethodInvocation QualifiedName statsinfo
+statshosted QualifiedName InfixExpression MethodInvocation SimpleName get range
+merge StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+merge StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unexpected state hosted tablets should be zero
+log SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+log SimpleName MethodInvocation InfixExpression StringLiteral merge
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+error SimpleName MethodInvocation InfixExpression StringLiteral unexpected state hosted tablets should be zero
+error SimpleName MethodInvocation InfixExpression QualifiedName statshosted
+error SimpleName MethodInvocation InfixExpression StringLiteral merge
+error SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+statsunassigned QualifiedName InfixExpression QualifiedName statstotal
+statsinfo QualifiedName MethodInvocation SimpleName get range
+unexpected state unassigned tablets should be StringLiteral InfixExpression QualifiedName statstotal
+unexpected state unassigned tablets should be StringLiteral InfixExpression StringLiteral was
+unexpected state unassigned tablets should be StringLiteral InfixExpression QualifiedName statsunassigned
+unexpected state unassigned tablets should be StringLiteral InfixExpression StringLiteral merge
+unexpected state unassigned tablets should be StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+unexpected state unassigned tablets should be StringLiteral InfixExpression MethodInvocation SimpleName get range
+statstotal QualifiedName InfixExpression StringLiteral was
+statstotal QualifiedName InfixExpression QualifiedName statsunassigned
+statstotal QualifiedName InfixExpression StringLiteral merge
+statstotal QualifiedName InfixExpression MethodInvocation QualifiedName statsinfo
+statstotal QualifiedName InfixExpression MethodInvocation SimpleName get range
+was StringLiteral InfixExpression QualifiedName statsunassigned
+was StringLiteral InfixExpression StringLiteral merge
+was StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+was StringLiteral InfixExpression MethodInvocation SimpleName get range
+statsunassigned QualifiedName InfixExpression StringLiteral merge
+statsunassigned QualifiedName InfixExpression MethodInvocation QualifiedName statsinfo
+statsunassigned QualifiedName InfixExpression MethodInvocation SimpleName get range
+merge StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+merge StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unexpected state unassigned tablets should be
+log SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+log SimpleName MethodInvocation InfixExpression StringLiteral was
+log SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+log SimpleName MethodInvocation InfixExpression StringLiteral merge
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+error SimpleName MethodInvocation InfixExpression StringLiteral unexpected state unassigned tablets should be
+error SimpleName MethodInvocation InfixExpression QualifiedName statstotal
+error SimpleName MethodInvocation InfixExpression StringLiteral was
+error SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+error SimpleName MethodInvocation InfixExpression StringLiteral merge
+error SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+statsunassigned QualifiedName InfixExpression StringLiteral tablets are unassigned
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+log SimpleName MethodInvocation InfixExpression StringLiteral tablets are unassigned
+info SimpleName MethodInvocation InfixExpression QualifiedName statsunassigned
+info SimpleName MethodInvocation InfixExpression StringLiteral tablets are unassigned
+statshosted QualifiedName InfixExpression NumberLiteral empty
+statsunassigned QualifiedName InfixExpression QualifiedName statstotal
+statshosted QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statsunassigned
+statshosted QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName statstotal
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName statsunassigned
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName statstotal
+statsinfo QualifiedName MethodInvocation SimpleName is delete
+delete tablets SimpleName MethodInvocation QualifiedName statsinfo
+merge metadata records SimpleName MethodInvocation QualifiedName statsinfo
+state SimpleName Assignment QualifiedName merge statecomplete
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation Assignment SimpleName state
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statecomplete
+statsinfo QualifiedName MethodInvocation Assignment SimpleName state
+statsinfo QualifiedName MethodInvocation Assignment QualifiedName merge statecomplete
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable merge metadata table records
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable merge metadata table records
+error SimpleName MethodInvocation SimpleName ex
+unable merge metadata table records StringLiteral MethodInvocation SimpleName ex
+state SimpleName InfixExpression QualifiedName merge statecomplete
+set merge state SimpleName MethodInvocation QualifiedName statsinfo
+set merge state SimpleName MethodInvocation QualifiedName merge statenone
+statsinfo QualifiedName MethodInvocation QualifiedName merge statenone
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+statsinfo QualifiedName MethodInvocation SimpleName get range
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation QualifiedName statsinfo
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to update merge state for merge
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to update merge state for merge
+error SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName statsinfo
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+error SimpleName MethodInvocation SimpleName ex
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation SimpleName ex
+statsinfo QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ex
+get range SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ex
+stats SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName merge stats cache
+stats SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update merge state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+void PrimitiveType MethodDeclaration SimpleName update merge state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+update merge state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update merge state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update merge state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache

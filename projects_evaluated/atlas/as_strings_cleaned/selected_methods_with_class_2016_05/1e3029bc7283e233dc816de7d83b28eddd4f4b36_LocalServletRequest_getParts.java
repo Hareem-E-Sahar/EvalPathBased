@@ -1,0 +1,27 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName part
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get parts
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName part
+public Modifier MethodDeclaration SimpleName get parts
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parts
+part SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parts
+get parts SimpleName MethodDeclaration SimpleType SimpleName io exception
+get parts SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

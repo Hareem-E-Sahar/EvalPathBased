@@ -1,0 +1,114 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+int PrimitiveType SingleVariableDeclaration SimpleName min
+int PrimitiveType SingleVariableDeclaration SimpleName max
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get splits
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+get splits SimpleName MethodInvocation SimpleName table
+splits SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+splits SimpleName VariableDeclarationFragment MethodInvocation SimpleName get splits
+splits SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+splits SimpleName MethodInvocation SimpleName size
+splits SimpleName MethodInvocation InfixExpression SimpleName min
+size SimpleName MethodInvocation InfixExpression SimpleName min
+splits SimpleName MethodInvocation SimpleName size
+splits SimpleName MethodInvocation InfixExpression SimpleName max
+size SimpleName MethodInvocation InfixExpression SimpleName max
+min SimpleName InfixExpression InfixExpression InfixExpression SimpleName max
+splits SimpleName MethodInvocation SimpleName size
+# of table splits points out of range splits StringLiteral InfixExpression MethodInvocation SimpleName splits
+# of table splits points out of range splits StringLiteral InfixExpression MethodInvocation SimpleName size
+# of table splits points out of range splits StringLiteral InfixExpression StringLiteral table
+# of table splits points out of range splits StringLiteral InfixExpression SimpleName table
+# of table splits points out of range splits StringLiteral InfixExpression StringLiteral min
+# of table splits points out of range splits StringLiteral InfixExpression SimpleName min
+splits SimpleName MethodInvocation InfixExpression StringLiteral table
+size SimpleName MethodInvocation InfixExpression StringLiteral table
+splits SimpleName MethodInvocation InfixExpression SimpleName table
+size SimpleName MethodInvocation InfixExpression SimpleName table
+splits SimpleName MethodInvocation InfixExpression StringLiteral min
+size SimpleName MethodInvocation InfixExpression StringLiteral min
+splits SimpleName MethodInvocation InfixExpression SimpleName min
+size SimpleName MethodInvocation InfixExpression SimpleName min
+splits SimpleName MethodInvocation InfixExpression StringLiteral max
+size SimpleName MethodInvocation InfixExpression StringLiteral max
+table StringLiteral InfixExpression SimpleName table
+table StringLiteral InfixExpression StringLiteral min
+table StringLiteral InfixExpression SimpleName min
+table StringLiteral InfixExpression StringLiteral max
+table StringLiteral InfixExpression SimpleName max
+table SimpleName InfixExpression StringLiteral min
+table SimpleName InfixExpression SimpleName min
+table SimpleName InfixExpression StringLiteral max
+table SimpleName InfixExpression SimpleName max
+min StringLiteral InfixExpression SimpleName min
+min StringLiteral InfixExpression StringLiteral max
+min StringLiteral InfixExpression SimpleName max
+min SimpleName InfixExpression StringLiteral max
+min SimpleName InfixExpression SimpleName max
+max StringLiteral InfixExpression SimpleName max
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral # of table splits points out of range splits
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral min
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName min
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral max
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check splits
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName min
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName max
+void PrimitiveType MethodDeclaration SimpleName check splits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName min
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+check splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+check splits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+check splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName min
+check splits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+check splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max
+check splits SimpleName MethodDeclaration SimpleType SimpleName exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+min SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+min SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+min SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+max SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

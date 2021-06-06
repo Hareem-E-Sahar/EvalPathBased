@@ -1,0 +1,99 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName processed guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName processed guids
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName attributes
+is empty SimpleName MethodInvocation SimpleName attributes
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute entry
+attributes SimpleName MethodInvocation SimpleName entry set
+attribute entry SimpleName MethodInvocation SimpleName get key
+attrib key SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute entry
+attrib key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrib key
+attribute entry SimpleName MethodInvocation SimpleName get value
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute entry
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName attrib key
+append SimpleName MethodInvocation SimpleName attrib key
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+attrib key SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation MethodInvocation SimpleName full text delimiter
+attrib key SimpleName MethodInvocation MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation SimpleName full text delimiter
+map attribute SimpleName MethodInvocation SimpleName attr value
+map attribute SimpleName MethodInvocation SimpleName entity ext info
+map attribute SimpleName MethodInvocation SimpleName sb
+map attribute SimpleName MethodInvocation SimpleName processed guids
+attr value SimpleName MethodInvocation SimpleName entity ext info
+attr value SimpleName MethodInvocation SimpleName sb
+attr value SimpleName MethodInvocation SimpleName processed guids
+entity ext info SimpleName MethodInvocation SimpleName sb
+entity ext info SimpleName MethodInvocation SimpleName processed guids
+sb SimpleName MethodInvocation SimpleName processed guids
+attribute entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attributes
+attribute entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName map attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName map attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+map attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+map attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+processed guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

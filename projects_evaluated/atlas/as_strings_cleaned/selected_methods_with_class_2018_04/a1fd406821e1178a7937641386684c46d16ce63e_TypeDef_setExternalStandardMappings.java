@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName external standard mapping
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName external standard mappings
+external standard mapping SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName external standard mappings
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName external standard mappings
+external standard mappings SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName external standard mappings
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set external standard mappings
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+void PrimitiveType MethodDeclaration SimpleName set external standard mappings
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+set external standard mappings SimpleName MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set external standard mappings
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set external standard mappings
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings

@@ -1,0 +1,29 @@
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName exists
+v SimpleName InfixExpression InfixExpression MethodInvocation SimpleName v
+v SimpleName InfixExpression InfixExpression MethodInvocation SimpleName exists
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName element exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName element exists
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName element exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+element exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+element exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName element exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName element exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

@@ -1,0 +1,77 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName src
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dst
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation SimpleName src
+fs SimpleName MethodInvocation SimpleName dst
+rename SimpleName MethodInvocation SimpleName src
+rename SimpleName MethodInvocation SimpleName dst
+src SimpleName MethodInvocation SimpleName dst
+rename StringLiteral InfixExpression SimpleName src
+rename StringLiteral InfixExpression StringLiteral to
+rename StringLiteral InfixExpression SimpleName dst
+rename StringLiteral InfixExpression StringLiteral returned false
+src SimpleName InfixExpression StringLiteral to
+src SimpleName InfixExpression SimpleName dst
+src SimpleName InfixExpression StringLiteral returned false
+to StringLiteral InfixExpression SimpleName dst
+to StringLiteral InfixExpression StringLiteral returned false
+dst SimpleName InfixExpression StringLiteral returned false
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral rename
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName src
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral to
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dst
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral returned false
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName rename
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName rename
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SimpleName rename
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+rename SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dst
+rename SimpleName MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+src SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+dst SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

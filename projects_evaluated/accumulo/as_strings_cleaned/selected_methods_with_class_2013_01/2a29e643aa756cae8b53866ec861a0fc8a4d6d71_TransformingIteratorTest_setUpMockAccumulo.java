@@ -1,0 +1,120 @@
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral test
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral user
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral password
+user StringLiteral ClassInstanceCreation StringLiteral password
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral user
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral password
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral user
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral password
+connector SimpleName Assignment MethodInvocation SimpleName instance
+connector SimpleName Assignment MethodInvocation SimpleName get connector
+connector SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral user
+connector SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral password
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+connector SimpleName MethodInvocation MethodInvocation StringLiteral user
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral user
+connector SimpleName MethodInvocation MethodInvocation SimpleName authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authorizations
+change user authorizations SimpleName MethodInvocation StringLiteral user
+change user authorizations SimpleName MethodInvocation SimpleName authorizations
+user StringLiteral MethodInvocation SimpleName authorizations
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+delete SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+bw cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw cfg
+bw cfg SimpleName MethodInvocation SimpleName set max write threads
+bw cfg SimpleName MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+connector SimpleName MethodInvocation SimpleName create batch writer
+connector SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName bw cfg
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation SimpleName bw cfg
+table name SimpleName MethodInvocation SimpleName bw cfg
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName bw cfg
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+create default mutation SimpleName MethodInvocation StringLiteral row
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral row
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral row
+create default mutation SimpleName MethodInvocation StringLiteral row
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral row
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral row
+create default mutation SimpleName MethodInvocation StringLiteral row
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral row
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create default mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral row
+bw SimpleName MethodInvocation SimpleName flush
+bw SimpleName MethodInvocation SimpleName close
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName authorizations
+create scanner SimpleName MethodInvocation SimpleName table name
+create scanner SimpleName MethodInvocation SimpleName authorizations
+table name SimpleName MethodInvocation SimpleName authorizations
+scanner SimpleName Assignment MethodInvocation SimpleName connector
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation SimpleName table name
+scanner SimpleName Assignment MethodInvocation SimpleName authorizations
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reuse iterator
+scanner SimpleName MethodInvocation SimpleName add scan iterator
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+scanner SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add scan iterator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+add scan iterator SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up mock accumulo
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up mock accumulo
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up mock accumulo
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up mock accumulo SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up mock accumulo
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up mock accumulo
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

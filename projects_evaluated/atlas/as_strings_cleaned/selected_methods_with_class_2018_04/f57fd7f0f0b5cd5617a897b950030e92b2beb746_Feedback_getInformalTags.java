@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName informal tag
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName informal tags
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName informal tag
+public Modifier MethodDeclaration SimpleName get informal tags
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get informal tags
+informal tag SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get informal tags
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get informal tags
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get informal tags

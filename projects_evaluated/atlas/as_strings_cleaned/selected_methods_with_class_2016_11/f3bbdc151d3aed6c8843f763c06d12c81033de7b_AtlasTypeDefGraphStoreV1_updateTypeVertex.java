@@ -1,0 +1,59 @@
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName type def
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+is type vertex SimpleName MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral update type vertex not a typevertex - {}
+log SimpleName MethodInvocation SimpleName vertex
+warn SimpleName MethodInvocation StringLiteral update type vertex not a typevertex - {}
+warn SimpleName MethodInvocation SimpleName vertex
+update type vertex not a typevertex - {} StringLiteral MethodInvocation SimpleName vertex
+type def SimpleName MethodInvocation SimpleName get guid
+update vertex property SimpleName MethodInvocation SimpleName vertex
+update vertex property SimpleName MethodInvocation QualifiedName constantsguid property key
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName type def
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName get guid
+vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName type def
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get guid
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName type def
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName get guid
+type def SimpleName MethodInvocation SimpleName get description
+update vertex property SimpleName MethodInvocation SimpleName vertex
+update vertex property SimpleName MethodInvocation QualifiedName constantstypedescription property key
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName type def
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName get description
+vertex SimpleName MethodInvocation QualifiedName constantstypedescription property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName type def
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get description
+constantstypedescription property key QualifiedName MethodInvocation MethodInvocation SimpleName type def
+constantstypedescription property key QualifiedName MethodInvocation MethodInvocation SimpleName get description
+type def SimpleName MethodInvocation SimpleName get type version
+update vertex property SimpleName MethodInvocation SimpleName vertex
+update vertex property SimpleName MethodInvocation QualifiedName constantstypeversion property key
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName type def
+update vertex property SimpleName MethodInvocation MethodInvocation SimpleName get type version
+vertex SimpleName MethodInvocation QualifiedName constantstypeversion property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName type def
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get type version
+constantstypeversion property key QualifiedName MethodInvocation MethodInvocation SimpleName type def
+constantstypeversion property key QualifiedName MethodInvocation MethodInvocation SimpleName get type version
+mark vertex updated SimpleName MethodInvocation SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName update type vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+update type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+update type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def
+update type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update type vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update type vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update type vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

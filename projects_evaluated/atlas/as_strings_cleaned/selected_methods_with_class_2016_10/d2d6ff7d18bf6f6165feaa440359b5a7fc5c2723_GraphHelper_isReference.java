@@ -1,0 +1,33 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+data typestype categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data typestype categoryclass
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is reference
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SimpleName is reference
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+is reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+is reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

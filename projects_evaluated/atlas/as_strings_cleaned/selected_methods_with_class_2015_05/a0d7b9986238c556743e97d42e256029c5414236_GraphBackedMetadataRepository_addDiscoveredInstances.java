@@ -1,0 +1,166 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity processor SimpleName SimpleType SingleVariableDeclaration SimpleName entity processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new typed instances
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new typed instances
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName typed instance guid
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+typed instance SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral adding typed instance {}
+log SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral adding typed instance {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+adding typed instance {} StringLiteral MethodInvocation MethodInvocation SimpleName typed instance
+adding typed instance {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+typed instance SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+repository exception SimpleName SimpleType ClassInstanceCreation StringLiteral id cannot be null
+entity processorid to vertex map QualifiedName MethodInvocation SimpleName get
+entity processorid to vertex map QualifiedName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity processorid to vertex map
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+fields SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName class type
+fields SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName field mapping
+fields SimpleName VariableDeclarationFragment FieldAccess SimpleName fields
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName attribute info
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fields
+final Modifier VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName id
+map instance to vertex SimpleName MethodInvocation SimpleName typed instance
+map instance to vertex SimpleName MethodInvocation SimpleName instance vertex
+map instance to vertex SimpleName MethodInvocation SimpleName fields
+map instance to vertex SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+id SimpleName MethodInvocation SimpleName typed instance
+id SimpleName MethodInvocation SimpleName instance vertex
+id SimpleName MethodInvocation SimpleName fields
+id SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName fields
+typed instance SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+instance vertex SimpleName MethodInvocation SimpleName fields
+instance vertex SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+fields SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+typed instance SimpleName MethodInvocation SimpleName get traits
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mapping trait {}
+log SimpleName MethodInvocation SimpleName trait name
+debug SimpleName MethodInvocation StringLiteral mapping trait {}
+debug SimpleName MethodInvocation SimpleName trait name
+mapping trait {} StringLiteral MethodInvocation SimpleName trait name
+titan vertex SimpleName SimpleType CastExpression SimpleName instance vertex
+instance vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName add property
+instance vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName constantstrait names property key
+instance vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName trait name
+add property SimpleName MethodInvocation QualifiedName constantstrait names property key
+add property SimpleName MethodInvocation SimpleName trait name
+constantstrait names property key QualifiedName MethodInvocation SimpleName trait name
+typed instance SimpleName MethodInvocation SimpleName get trait
+typed instance SimpleName MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation SimpleName trait name
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName typed instance
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get trait
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName trait name
+trait instance SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed struct
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName typed instance
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get trait
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName trait name
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+map trait instance to vertex SimpleName MethodInvocation SimpleName trait instance
+map trait instance to vertex SimpleName MethodInvocation SimpleName typed instance
+map trait instance to vertex SimpleName MethodInvocation SimpleName instance vertex
+map trait instance to vertex SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+trait instance SimpleName MethodInvocation SimpleName typed instance
+trait instance SimpleName MethodInvocation SimpleName instance vertex
+trait instance SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+instance vertex SimpleName MethodInvocation QualifiedName entity processorid to vertex map
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName typed instance
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get traits
+typed instance SimpleName MethodInvocation SimpleName get id
+entity SimpleName MethodInvocation SimpleName get id
+typed instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+typed instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+instance vertex SimpleName MethodInvocation SimpleName get property
+instance vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+typed instance guid SimpleName Assignment MethodInvocation SimpleName instance vertex
+typed instance guid SimpleName Assignment MethodInvocation SimpleName get property
+typed instance guid SimpleName Assignment MethodInvocation QualifiedName constantsguid property key
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new typed instances
+typed instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new typed instances
+new typed instances SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+new typed instances SimpleName EnhancedForStatement Block ReturnStatement SimpleName typed instance guid
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add discovered instances
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity processor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+string SimpleName SimpleType MethodDeclaration SimpleName add discovered instances
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+add discovered instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+add discovered instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+add discovered instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity processor
+add discovered instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+add discovered instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+add discovered instances SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+add discovered instances SimpleName MethodDeclaration Block EnhancedForStatement SimpleName new typed instances
+add discovered instances SimpleName MethodDeclaration Block ReturnStatement SimpleName typed instance guid
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+entity processor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+entity processor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+new typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add discovered instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add discovered instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

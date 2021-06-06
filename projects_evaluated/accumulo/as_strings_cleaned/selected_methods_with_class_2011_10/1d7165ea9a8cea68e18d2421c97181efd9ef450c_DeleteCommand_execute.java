@@ -1,0 +1,292 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+shell state SimpleName MethodInvocation SimpleName check table state
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+delete opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName delete opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName delete opt auths
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+delete opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName delete opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName delete opt auths
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cl
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get option value
+le SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+le SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cl
+le SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get option value
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName le
+timestamp opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+timestamp opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName cl
+long SimpleName MethodInvocation MethodInvocation SimpleName get option value
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp opt
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+parse long SimpleName MethodInvocation MethodInvocation SimpleName cl
+parse long SimpleName MethodInvocation MethodInvocation SimpleName get option value
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp opt
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation SimpleName le
+m SimpleName MethodInvocation MethodInvocation SimpleName long
+m SimpleName MethodInvocation MethodInvocation SimpleName parse long
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation SimpleName le
+put delete SimpleName MethodInvocation MethodInvocation SimpleName long
+put delete SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName le
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation SimpleName le
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName le
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation SimpleName le
+le SimpleName MethodInvocation MethodInvocation SimpleName long
+le SimpleName MethodInvocation MethodInvocation SimpleName parse long
+le SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+le SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation SimpleName le
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation SimpleName le
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName le
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation SimpleName le
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName le
+empty NumberLiteral ArrayAccess ClassInstanceCreation MethodInvocation SimpleName le
+timestamp opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+timestamp opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName timestamp opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName cl
+long SimpleName MethodInvocation MethodInvocation SimpleName get option value
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp opt
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+parse long SimpleName MethodInvocation MethodInvocation SimpleName cl
+parse long SimpleName MethodInvocation MethodInvocation SimpleName get option value
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp opt
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation MethodInvocation SimpleName long
+m SimpleName MethodInvocation MethodInvocation SimpleName parse long
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation MethodInvocation SimpleName long
+put delete SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+put delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation SimpleName get table name
+m SimpleName MethodInvocation SimpleName estimated memory used
+m SimpleName MethodInvocation InfixExpression NumberLiteral l
+estimated memory used SimpleName MethodInvocation InfixExpression NumberLiteral l
+shell state SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName shell state
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName shell state
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+shell state SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+shell state SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+shell state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName shell state
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName get table name
+create batch writer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName m
+create batch writer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName estimated memory used
+create batch writer SimpleName MethodInvocation InfixExpression NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+shell state SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+get table name SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+shell state SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get table name SimpleName MethodInvocation MethodInvocation NumberLiteral l
+shell state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get table name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+m SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral l
+estimated memory used SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral l
+l NumberLiteral InfixExpression MethodInvocation NumberLiteral l
+m SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+estimated memory used SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+l NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName shell state
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName shell state
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+bw SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleName execute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full command
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception

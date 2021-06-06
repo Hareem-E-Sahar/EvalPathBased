@@ -1,0 +1,63 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+edge SimpleName MethodInvocation SimpleName get label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsclassification edge is propagated property key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+get property SimpleName MethodInvocation QualifiedName constantsclassification edge is propagated property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+constantsclassification edge is propagated property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+is propagated SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+is propagated SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+is propagated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsclassification edge is propagated property key
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is propagated
+edge label SimpleName InfixExpression InfixExpression InfixExpression SimpleName is propagated
+edge label SimpleName MethodInvocation SimpleName equals
+edge label SimpleName MethodInvocation SimpleName classification label
+equals SimpleName MethodInvocation SimpleName classification label
+edge label SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName is propagated
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName is propagated
+classification label SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName is propagated
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName edge label
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName equals
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName classification label
+ret SimpleName Assignment InfixExpression PrefixExpression SimpleName is propagated
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is classification edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is classification edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is classification edge
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+is classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+is classification edge SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is classification edge SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is classification edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is classification edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

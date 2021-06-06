@@ -1,0 +1,93 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation SimpleName guid
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s where guid = s
+string SimpleName MethodInvocation SimpleName query
+string SimpleName MethodInvocation SimpleName guid
+format SimpleName MethodInvocation StringLiteral s where guid = s
+format SimpleName MethodInvocation SimpleName query
+format SimpleName MethodInvocation SimpleName guid
+s where guid = s StringLiteral MethodInvocation SimpleName query
+s where guid = s StringLiteral MethodInvocation SimpleName guid
+query SimpleName MethodInvocation SimpleName guid
+string utils SimpleName MethodInvocation ConditionalExpression SimpleName query
+is empty SimpleName MethodInvocation ConditionalExpression SimpleName query
+guid SimpleName MethodInvocation ConditionalExpression SimpleName query
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName string
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName format
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation StringLiteral s where guid = s
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName query
+string utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName string
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName format
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation StringLiteral s where guid = s
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName query
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName guid
+guid SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName string
+guid SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName format
+guid SimpleName MethodInvocation ConditionalExpression MethodInvocation StringLiteral s where guid = s
+guid SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName query
+guid SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName guid
+query SimpleName ConditionalExpression MethodInvocation SimpleName string
+query SimpleName ConditionalExpression MethodInvocation SimpleName format
+query SimpleName ConditionalExpression MethodInvocation StringLiteral s where guid = s
+query SimpleName ConditionalExpression MethodInvocation SimpleName query
+query SimpleName ConditionalExpression MethodInvocation SimpleName guid
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName string utils
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is empty
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+q SimpleName VariableDeclarationFragment ConditionalExpression SimpleName query
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName string
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName format
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation StringLiteral s where guid = s
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName query
+q SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+discovery service SimpleName MethodInvocation SimpleName search using dsl query
+discovery service SimpleName MethodInvocation SimpleName q
+discovery service SimpleName MethodInvocation SimpleName default limit
+discovery service SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation SimpleName q
+search using dsl query SimpleName MethodInvocation SimpleName default limit
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+q SimpleName MethodInvocation SimpleName default limit
+q SimpleName MethodInvocation NumberLiteral empty
+default limit SimpleName MethodInvocation NumberLiteral empty
+discovery service SimpleName MethodInvocation MethodInvocation SimpleName get entities
+search using dsl query SimpleName MethodInvocation MethodInvocation SimpleName get entities
+q SimpleName MethodInvocation MethodInvocation SimpleName get entities
+default limit SimpleName MethodInvocation MethodInvocation SimpleName get entities
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get entities
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SimpleName get entities from db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities from db
+atlas entity header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities from db
+get entities from db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entities from db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+get entities from db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entities from db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entities from db SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entities from db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entities from db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

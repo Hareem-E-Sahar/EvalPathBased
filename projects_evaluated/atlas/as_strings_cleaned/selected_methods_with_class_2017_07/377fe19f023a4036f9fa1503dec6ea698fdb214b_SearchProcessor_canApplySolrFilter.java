@@ -1,0 +1,117 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+boolean PrimitiveType SingleVariableDeclaration SimpleName inside or condition
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+filter criteria SimpleName MethodInvocation SimpleName get condition
+filter condition SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+filter condition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get condition
+condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter condition
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName filter criteria
+filter criteria SimpleName MethodInvocation SimpleName get criterion
+criterion SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+criterion SimpleName VariableDeclarationFragment MethodInvocation SimpleName get criterion
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+context SimpleName MethodInvocation SimpleName get indexed keys
+indexed keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+indexed keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get indexed keys
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName criterion
+is not empty SimpleName MethodInvocation SimpleName criterion
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName criterion
+filter condition SimpleName InfixExpression QualifiedName conditionor
+inside or condition SimpleName InfixExpression InfixExpression SimpleName filter condition
+inside or condition SimpleName InfixExpression InfixExpression QualifiedName conditionor
+inside or condition SimpleName Assignment InfixExpression SimpleName inside or condition
+inside or condition SimpleName Assignment InfixExpression InfixExpression SimpleName filter condition
+inside or condition SimpleName Assignment InfixExpression InfixExpression QualifiedName conditionor
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName criteria
+can apply solr filter SimpleName MethodInvocation SimpleName struct type
+can apply solr filter SimpleName MethodInvocation SimpleName criteria
+can apply solr filter SimpleName MethodInvocation SimpleName inside or condition
+struct type SimpleName MethodInvocation SimpleName criteria
+struct type SimpleName MethodInvocation SimpleName inside or condition
+criteria SimpleName MethodInvocation SimpleName inside or condition
+ret SimpleName Assignment MethodInvocation SimpleName can apply solr filter
+ret SimpleName Assignment MethodInvocation SimpleName struct type
+ret SimpleName Assignment MethodInvocation SimpleName criteria
+ret SimpleName Assignment MethodInvocation SimpleName inside or condition
+filter criteria SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName criterion
+criteria SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName criterion
+filter criteria SimpleName MethodInvocation SimpleName get attribute name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+filter criteria SimpleName MethodInvocation SimpleName get attribute name
+struct type SimpleName MethodInvocation SimpleName get qualified attribute name
+struct type SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+struct type SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+get qualified attribute name SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+get qualified attribute name SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName filter criteria
+qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+indexed keys SimpleName MethodInvocation SimpleName contains
+indexed keys SimpleName MethodInvocation SimpleName qualified name
+contains SimpleName MethodInvocation SimpleName qualified name
+ret SimpleName Assignment BooleanLiteral false
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName can apply solr filter
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+boolean PrimitiveType MethodDeclaration SimpleName can apply solr filter
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+can apply solr filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+can apply solr filter SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+can apply solr filter SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can apply solr filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inside or condition
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can apply solr filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inside or condition

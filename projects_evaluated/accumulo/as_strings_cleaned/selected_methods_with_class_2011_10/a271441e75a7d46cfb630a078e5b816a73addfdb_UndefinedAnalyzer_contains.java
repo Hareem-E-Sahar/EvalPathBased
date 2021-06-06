@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName row
+prev end row SimpleName MethodInvocation SimpleName compare to
+prev end row SimpleName MethodInvocation SimpleName row
+compare to SimpleName MethodInvocation SimpleName row
+prev end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end row SimpleName MethodInvocation SimpleName compare to
+end row SimpleName MethodInvocation SimpleName row
+compare to SimpleName MethodInvocation SimpleName row
+end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName contains
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+boolean PrimitiveType MethodDeclaration SimpleName contains
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName row
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row

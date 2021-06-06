@@ -1,0 +1,112 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+data typestype category QualifiedName SimpleType SingleVariableDeclaration SimpleName type category
+string SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral setting the external references to {} to nullremoving edges
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation StringLiteral setting the external references to {} to nullremoving edges
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+setting the external references to {} to nullremoving edges StringLiteral MethodInvocation MethodInvocation SimpleName string
+setting the external references to {} to nullremoving edges StringLiteral MethodInvocation MethodInvocation SimpleName instance vertex
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+instance vertex SimpleName MethodInvocation SimpleName get edges
+instance vertex SimpleName MethodInvocation QualifiedName directionin
+get edges SimpleName MethodInvocation QualifiedName directionin
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+directionin QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName directionin
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsstate property key
+get property SimpleName MethodInvocation QualifiedName constantsstate property key
+edge state SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+edge state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+edge state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsstate property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge state
+identity stateactive QualifiedName MethodInvocation SimpleName name
+identity stateactive QualifiedName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+identity stateactive QualifiedName MethodInvocation MethodInvocation SimpleName edge state
+name SimpleName MethodInvocation MethodInvocation SimpleName edge state
+equals SimpleName MethodInvocation SimpleName edge state
+edge SimpleName MethodInvocation SimpleName get label
+get attribute for edge SimpleName MethodInvocation MethodInvocation SimpleName edge
+get attribute for edge SimpleName MethodInvocation MethodInvocation SimpleName get label
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute for edge
+attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get label
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionout
+get vertex SimpleName MethodInvocation QualifiedName directionout
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+delete edge between vertices SimpleName MethodInvocation MethodInvocation SimpleName edge
+delete edge between vertices SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+delete edge between vertices SimpleName MethodInvocation MethodInvocation QualifiedName directionout
+delete edge between vertices SimpleName MethodInvocation MethodInvocation SimpleName edge
+delete edge between vertices SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+delete edge between vertices SimpleName MethodInvocation MethodInvocation QualifiedName directionin
+delete edge between vertices SimpleName MethodInvocation QualifiedName attributename
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName directionin
+directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex
+directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName directionin
+edge SimpleName MethodInvocation MethodInvocation QualifiedName attributename
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName attributename
+directionout QualifiedName MethodInvocation MethodInvocation QualifiedName attributename
+edge SimpleName MethodInvocation MethodInvocation QualifiedName attributename
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName attributename
+directionin QualifiedName MethodInvocation MethodInvocation QualifiedName attributename
+delete edge SimpleName MethodInvocation SimpleName edge
+delete vertex SimpleName MethodInvocation SimpleName instance vertex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type category
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName delete vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type category
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+delete vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+delete vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+delete vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+delete vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+delete vertex SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

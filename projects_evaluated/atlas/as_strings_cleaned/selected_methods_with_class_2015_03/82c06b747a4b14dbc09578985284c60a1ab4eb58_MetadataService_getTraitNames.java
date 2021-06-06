@@ -1,0 +1,15 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get trait names SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName path
+is empty SimpleName MethodInvocation SimpleName path
+ret SimpleName Assignment BooleanLiteral false
+file SimpleName SimpleType ClassInstanceCreation SimpleName path
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName exists
+f SimpleName MethodInvocation SimpleName is directory
+f SimpleName MethodInvocation SimpleName can read
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+f SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+is directory SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName f
+is directory SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName can read
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName f
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName exists
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName f
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName is directory
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName f
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName can read
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral will migrate data in directory {}
+log SimpleName MethodInvocation SimpleName import directory
+info SimpleName MethodInvocation StringLiteral will migrate data in directory {}
+info SimpleName MethodInvocation SimpleName import directory
+will migrate data in directory {} StringLiteral MethodInvocation SimpleName import directory
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral cannot read migration data in directory {}
+log SimpleName MethodInvocation SimpleName import directory
+error SimpleName MethodInvocation StringLiteral cannot read migration data in directory {}
+error SimpleName MethodInvocation SimpleName import directory
+cannot read migration data in directory {} StringLiteral MethodInvocation SimpleName import directory
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+ret SimpleName IfStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName perform access checks
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block IfStatement SimpleName ret
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName perform access checks
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+perform access checks SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+perform access checks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+perform access checks SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+perform access checks SimpleName MethodDeclaration Block IfStatement SimpleName ret
+perform access checks SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName perform access checks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName perform access checks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

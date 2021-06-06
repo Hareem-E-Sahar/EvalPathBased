@@ -1,0 +1,235 @@
+path SimpleName SingleMemberAnnotation StringLiteral tabletable nameoutputsgraph
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName http servlet request
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName request
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+path param SimpleName SingleMemberAnnotation StringLiteral table name
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+table name StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName table name
+table name StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> data set lineage resourceoutputs graph
+log SimpleName MethodInvocation SimpleName table name
+debug SimpleName MethodInvocation StringLiteral ==> data set lineage resourceoutputs graph
+debug SimpleName MethodInvocation SimpleName table name
+==> data set lineage resourceoutputs graph StringLiteral MethodInvocation SimpleName table name
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data set lineage response
+data set lineage response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+data set lineage resourceoutputs graphtable name StringLiteral InfixExpression SimpleName table name
+data set lineage resourceoutputs graphtable name StringLiteral InfixExpression StringLiteral )
+table name SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral data set lineage resourceoutputs graphtable name
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName table name
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral data set lineage resourceoutputs graphtable name
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName table name
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral data set lineage resourceoutputs graphtable name
+perf log SimpleName MethodInvocation InfixExpression SimpleName table name
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral data set lineage resourceoutputs graphtable name
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName table name
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+get guid SimpleName MethodInvocation SimpleName table name
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+atlas lineage service SimpleName MethodInvocation SimpleName get atlas lineage info
+atlas lineage service SimpleName MethodInvocation SimpleName guid
+atlas lineage service SimpleName MethodInvocation QualifiedName lineage directionoutput
+atlas lineage service SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+get atlas lineage info SimpleName MethodInvocation SimpleName guid
+get atlas lineage info SimpleName MethodInvocation QualifiedName lineage directionoutput
+get atlas lineage info SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+guid SimpleName MethodInvocation QualifiedName lineage directionoutput
+guid SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+lineage directionoutput QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+lineage info SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas lineage service
+lineage info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas lineage info
+lineage info SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+lineage info SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lineage directionoutput
+lineage info SimpleName VariableDeclarationFragment MethodInvocation PrefixExpression NumberLiteral empty
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lineage info
+ret SimpleName MethodInvocation SimpleName set table name
+ret SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+servlets SimpleName MethodInvocation SimpleName get request id
+ret SimpleName MethodInvocation SimpleName set request id
+ret SimpleName MethodInvocation MethodInvocation SimpleName servlets
+ret SimpleName MethodInvocation MethodInvocation SimpleName get request id
+set request id SimpleName MethodInvocation MethodInvocation SimpleName servlets
+set request id SimpleName MethodInvocation MethodInvocation SimpleName get request id
+lineage utils SimpleName MethodInvocation SimpleName to lineage struct
+lineage utils SimpleName MethodInvocation SimpleName lineage info
+lineage utils SimpleName MethodInvocation SimpleName type registry
+to lineage struct SimpleName MethodInvocation SimpleName lineage info
+to lineage struct SimpleName MethodInvocation SimpleName type registry
+lineage info SimpleName MethodInvocation SimpleName type registry
+ret SimpleName MethodInvocation SimpleName set results
+ret SimpleName MethodInvocation MethodInvocation SimpleName lineage utils
+ret SimpleName MethodInvocation MethodInvocation SimpleName to lineage struct
+ret SimpleName MethodInvocation MethodInvocation SimpleName lineage info
+ret SimpleName MethodInvocation MethodInvocation SimpleName type registry
+set results SimpleName MethodInvocation MethodInvocation SimpleName lineage utils
+set results SimpleName MethodInvocation MethodInvocation SimpleName to lineage struct
+set results SimpleName MethodInvocation MethodInvocation SimpleName lineage info
+set results SimpleName MethodInvocation MethodInvocation SimpleName type registry
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+error SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation SimpleName e
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName table name
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName e
+table name SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+error SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation SimpleName e
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName table name
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName e
+table name SimpleName MethodInvocation SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get lineage outputs graph for table {}
+error SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation SimpleName e
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName table name
+unable to get lineage outputs graph for table {} StringLiteral MethodInvocation SimpleName e
+table name SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+e SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral tabletable nameoutputsgraph
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+tabletable nameoutputsgraph StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName data set lineage response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName outputs graph
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName data set lineage response
+public Modifier MethodDeclaration SimpleName outputs graph
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+data set lineage response SimpleName SimpleType MethodDeclaration SimpleName outputs graph
+data set lineage response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+data set lineage response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral table name
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+outputs graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral tabletable nameoutputsgraph
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName data set lineage response
+public Modifier TypeDeclaration MethodDeclaration SimpleName outputs graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral tabletable nameoutputsgraph
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName data set lineage response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName outputs graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name

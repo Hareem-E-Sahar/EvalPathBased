@@ -1,0 +1,152 @@
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+types util SimpleName MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation SimpleName name
+types util SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+create unique required attr def SimpleName MethodInvocation SimpleName name
+create unique required attr def SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+name SimpleName MethodInvocation QualifiedName atlas base type defatlas type string
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation MethodInvocation SimpleName random string
+types util SimpleName MethodInvocation MethodInvocation SimpleName collections
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation MethodInvocation SimpleName name
+types util SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName random string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty set
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random string
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create unique required attr def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type string
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+collections SimpleName MethodInvocation SimpleType SimpleName enum type definition
+collections SimpleName MethodInvocation SimpleName empty list
+enum type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName struct type definition
+collections SimpleName MethodInvocation SimpleName empty list
+struct type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName trait type definition
+collections SimpleName MethodInvocation SimpleName empty list
+trait type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName type
+singleton list SimpleName MethodInvocation SimpleName type
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName singleton list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName types def
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName singleton list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName type
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+atlas client v SimpleName MethodInvocation SimpleName create type
+atlas client v SimpleName MethodInvocation SimpleName types def
+create type SimpleName MethodInvocation SimpleName types def
+atlas client v SimpleName MethodInvocation SimpleName create type
+atlas client v SimpleName MethodInvocation SimpleName types def
+create type SimpleName MethodInvocation SimpleName types def
+fail SimpleName MethodInvocation StringLiteral expected
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation MethodInvocation SimpleName get status code
+get status SimpleName MethodInvocation MethodInvocation SimpleName get status code
+responsestatusconflict QualifiedName MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusconflict
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+get status code SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusconflict
+get status code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test duplicate submit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test duplicate submit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test duplicate submit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test duplicate submit SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test duplicate submit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test duplicate submit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

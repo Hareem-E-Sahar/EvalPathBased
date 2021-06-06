@@ -1,0 +1,163 @@
+assert not null SimpleName MethodInvocation SimpleName metrics service
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral false
+get metrics SimpleName MethodInvocation BooleanLiteral false
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics service
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metrics
+metrics SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+atlas metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+assert not null SimpleName MethodInvocation SimpleName metrics
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral entity
+metrics SimpleName MethodInvocation StringLiteral a
+get metric SimpleName MethodInvocation StringLiteral entity
+get metric SimpleName MethodInvocation StringLiteral a
+entity StringLiteral MethodInvocation StringLiteral a
+a count SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+a count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+a count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity
+a count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a count
+assert not null SimpleName MethodInvocation SimpleName a count
+assert equals SimpleName MethodInvocation SimpleName a count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+a count SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral entity
+metrics SimpleName MethodInvocation StringLiteral b
+get metric SimpleName MethodInvocation StringLiteral entity
+get metric SimpleName MethodInvocation StringLiteral b
+entity StringLiteral MethodInvocation StringLiteral b
+b count SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+b count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+b count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity
+b count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral b
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b count
+assert not null SimpleName MethodInvocation SimpleName b count
+assert equals SimpleName MethodInvocation SimpleName b count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+b count SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral entity
+metrics SimpleName MethodInvocation StringLiteral c
+get metric SimpleName MethodInvocation StringLiteral entity
+get metric SimpleName MethodInvocation StringLiteral c
+entity StringLiteral MethodInvocation StringLiteral c
+c count SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+c count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+c count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity
+c count SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c count
+assert not null SimpleName MethodInvocation SimpleName c count
+assert equals SimpleName MethodInvocation SimpleName c count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+c count SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral tag
+metrics SimpleName MethodInvocation StringLiteral a
+get metric SimpleName MethodInvocation StringLiteral tag
+get metric SimpleName MethodInvocation StringLiteral a
+tag StringLiteral MethodInvocation StringLiteral a
+a tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+a tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+a tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tag
+a tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a tags
+assert not null SimpleName MethodInvocation SimpleName a tags
+assert equals SimpleName MethodInvocation SimpleName a tags
+assert equals SimpleName MethodInvocation NumberLiteral empty
+a tags SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral tag
+metrics SimpleName MethodInvocation StringLiteral b
+get metric SimpleName MethodInvocation StringLiteral tag
+get metric SimpleName MethodInvocation StringLiteral b
+tag StringLiteral MethodInvocation StringLiteral b
+b tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+b tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+b tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tag
+b tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral b
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b tags
+assert not null SimpleName MethodInvocation SimpleName b tags
+assert equals SimpleName MethodInvocation SimpleName b tags
+assert equals SimpleName MethodInvocation NumberLiteral empty
+b tags SimpleName MethodInvocation NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName get metric
+metrics SimpleName MethodInvocation StringLiteral tag
+metrics SimpleName MethodInvocation StringLiteral c
+get metric SimpleName MethodInvocation StringLiteral tag
+get metric SimpleName MethodInvocation StringLiteral c
+tag StringLiteral MethodInvocation StringLiteral c
+c tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName metrics
+c tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+c tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tag
+c tags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c tags
+assert not null SimpleName MethodInvocation SimpleName c tags
+assert equals SimpleName MethodInvocation SimpleName c tags
+assert equals SimpleName MethodInvocation NumberLiteral empty
+c tags SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName mock graph
+verify SimpleName MethodInvocation MethodInvocation SimpleName at least once
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName at least once
+verify SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName execute gremlin script
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any string
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any boolean
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral false
+get metrics SimpleName MethodInvocation BooleanLiteral false
+verify zero interactions SimpleName MethodInvocation SimpleName mock graph
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+metrics service SimpleName MethodInvocation SimpleName get metrics
+metrics service SimpleName MethodInvocation BooleanLiteral true
+get metrics SimpleName MethodInvocation BooleanLiteral true
+verify SimpleName MethodInvocation SimpleName mock graph
+verify SimpleName MethodInvocation MethodInvocation SimpleName at least once
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName at least once
+verify SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+mock graph SimpleName MethodInvocation MethodInvocation SimpleName execute gremlin script
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName execute gremlin script
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+mock graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any string
+execute gremlin script SimpleName MethodInvocation MethodInvocation SimpleName any boolean
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any boolean
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get metrics
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get metrics
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName test get metrics
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+test get metrics SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+test get metrics SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

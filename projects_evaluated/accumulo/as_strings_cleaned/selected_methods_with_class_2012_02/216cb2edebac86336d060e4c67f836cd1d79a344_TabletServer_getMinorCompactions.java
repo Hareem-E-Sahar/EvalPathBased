@@ -1,0 +1,32 @@
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+online tablets SimpleName MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName unmodifiable collection
+collections SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+collections SimpleName MethodInvocation MethodInvocation SimpleName values
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName values
+tablet SimpleName MethodInvocation SimpleName minor compaction running
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName collections
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName unmodifiable collection
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get minor compactions
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get minor compactions
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName get minor compactions
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+get minor compactions SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get minor compactions
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get minor compactions

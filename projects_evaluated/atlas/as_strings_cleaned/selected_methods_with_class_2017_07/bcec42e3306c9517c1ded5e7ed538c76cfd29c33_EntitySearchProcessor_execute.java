@@ -1,0 +1,197 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> entity search processorexecute
+log SimpleName MethodInvocation SimpleName context
+debug SimpleName MethodInvocation StringLiteral ==> entity search processorexecute
+debug SimpleName MethodInvocation SimpleName context
+==> entity search processorexecute StringLiteral MethodInvocation SimpleName context
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+entity search processorexecute StringLiteral InfixExpression SimpleName context
+entity search processorexecute StringLiteral InfixExpression StringLiteral )
+context SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity search processorexecute
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName context
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity search processorexecute
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName context
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral entity search processorexecute
+perf log SimpleName MethodInvocation InfixExpression SimpleName context
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral entity search processorexecute
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName context
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get offset
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get offset
+next processor SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+context SimpleName MethodInvocation MethodInvocation ConditionalExpression NumberLiteral empty
+get search parameters SimpleName MethodInvocation MethodInvocation ConditionalExpression NumberLiteral empty
+get offset SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+qry offset SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get offset
+qry offset SimpleName VariableDeclarationFragment ConditionalExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName qry offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression NumberLiteral empty
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get limit
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get limit
+limit SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+limit SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get search parameters
+limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName get limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get limit
+result idx SimpleName VariableDeclarationFragment SimpleName qry offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName qry offset
+ret SimpleName MethodInvocation SimpleName size
+ret SimpleName MethodInvocation InfixExpression SimpleName limit
+size SimpleName MethodInvocation InfixExpression SimpleName limit
+context SimpleName MethodInvocation SimpleName terminate search
+context SimpleName MethodInvocation SimpleName get search parameters
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral query terminated {}
+log SimpleName MethodInvocation MethodInvocation SimpleName context
+log SimpleName MethodInvocation MethodInvocation SimpleName get search parameters
+warn SimpleName MethodInvocation StringLiteral query terminated {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName context
+warn SimpleName MethodInvocation MethodInvocation SimpleName get search parameters
+query terminated {} StringLiteral MethodInvocation MethodInvocation SimpleName context
+query terminated {} StringLiteral MethodInvocation MethodInvocation SimpleName get search parameters
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+iterator SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas index queryresult
+index query SimpleName MethodInvocation SimpleName vertices
+index query SimpleName MethodInvocation SimpleName qry offset
+index query SimpleName MethodInvocation SimpleName limit
+vertices SimpleName MethodInvocation SimpleName qry offset
+vertices SimpleName MethodInvocation SimpleName limit
+qry offset SimpleName MethodInvocation SimpleName limit
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName index query
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName qry offset
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName limit
+query result SimpleName MethodInvocation SimpleName has next
+get vertices from index query result SimpleName MethodInvocation SimpleName query result
+vertices SimpleName Assignment MethodInvocation SimpleName get vertices from index query result
+vertices SimpleName Assignment MethodInvocation SimpleName query result
+context SimpleName MethodInvocation SimpleName get graph
+context SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph SimpleName MethodInvocation MethodInvocation SimpleName query
+get guids SimpleName MethodInvocation SimpleName vertices
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+query SimpleName MethodInvocation MethodInvocation SimpleName in
+context SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guids
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+in SimpleName MethodInvocation QualifiedName constantsguid property key
+in SimpleName MethodInvocation MethodInvocation SimpleName get guids
+in SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+guid query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+guid query SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+guid query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+guid query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guids
+guid query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid query
+guid query SimpleName MethodInvocation SimpleName add conditions from
+guid query SimpleName MethodInvocation SimpleName partial graph query
+add conditions from SimpleName MethodInvocation SimpleName partial graph query
+guid query SimpleName MethodInvocation SimpleName vertices
+guid query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName guid query
+get vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+get vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName Assignment MethodInvocation SimpleName get vertices
+vertices SimpleName Assignment MethodInvocation MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+all graph query SimpleName MethodInvocation SimpleName vertices
+all graph query SimpleName MethodInvocation SimpleName qry offset
+all graph query SimpleName MethodInvocation SimpleName limit
+vertices SimpleName MethodInvocation SimpleName qry offset
+vertices SimpleName MethodInvocation SimpleName limit
+qry offset SimpleName MethodInvocation SimpleName limit
+all graph query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+qry offset SimpleName MethodInvocation MethodInvocation SimpleName iterator
+limit SimpleName MethodInvocation MethodInvocation SimpleName iterator
+query result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName all graph query
+query result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+query result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName qry offset
+query result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName limit
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+query result SimpleName MethodInvocation SimpleName has next
+get vertices SimpleName MethodInvocation SimpleName query result
+vertices SimpleName Assignment MethodInvocation SimpleName get vertices
+vertices SimpleName Assignment MethodInvocation SimpleName query result
+qry offset SimpleName Assignment SimpleName limit
+filter SimpleName SuperMethodInvocation SimpleName vertices
+vertices SimpleName Assignment SuperMethodInvocation SimpleName filter
+vertices SimpleName Assignment SuperMethodInvocation SimpleName vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get offset
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get offset
+result idx SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName context
+result idx SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get search parameters
+result idx SimpleName InfixExpression MethodInvocation SimpleName get offset
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation SimpleName size
+ret SimpleName MethodInvocation InfixExpression SimpleName limit
+size SimpleName MethodInvocation InfixExpression SimpleName limit
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName vertices
+vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName vertices
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+ret SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== entity search processorexecute retsize
+log SimpleName MethodInvocation SimpleName context
+log SimpleName MethodInvocation MethodInvocation SimpleName ret
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral <== entity search processorexecute retsize
+debug SimpleName MethodInvocation SimpleName context
+debug SimpleName MethodInvocation MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+<== entity search processorexecute retsize StringLiteral MethodInvocation SimpleName context
+<== entity search processorexecute retsize StringLiteral MethodInvocation MethodInvocation SimpleName ret
+<== entity search processorexecute retsize StringLiteral MethodInvocation MethodInvocation SimpleName size
+context SimpleName MethodInvocation MethodInvocation SimpleName ret
+context SimpleName MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+execute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute

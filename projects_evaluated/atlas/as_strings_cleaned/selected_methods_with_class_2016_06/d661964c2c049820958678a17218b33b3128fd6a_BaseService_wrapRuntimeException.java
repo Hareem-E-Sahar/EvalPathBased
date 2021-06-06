@@ -1,0 +1,25 @@
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName catalog runtime exception
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName InstanceofExpression ConditionalExpression SimpleName e
+catalog runtime exception SimpleName SimpleType InstanceofExpression ConditionalExpression SimpleName e
+e SimpleName InstanceofExpression ConditionalExpression ClassInstanceCreation SimpleName e
+e SimpleName ConditionalExpression ClassInstanceCreation SimpleType SimpleName catalog runtime exception
+e SimpleName ConditionalExpression ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName runtime exception
+private Modifier MethodDeclaration SimpleName wrap runtime exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runtime exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType MethodDeclaration SimpleName wrap runtime exception
+runtime exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+wrap runtime exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runtime exception
+wrap runtime exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName runtime exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap runtime exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName runtime exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap runtime exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

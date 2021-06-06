@@ -1,0 +1,20 @@
+storage descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName sd
+sd SimpleName FieldAccess Assignment SimpleName sd
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set storage descriptor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sd
+void PrimitiveType MethodDeclaration SimpleName set storage descriptor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sd
+set storage descriptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+set storage descriptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set storage descriptor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set storage descriptor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd

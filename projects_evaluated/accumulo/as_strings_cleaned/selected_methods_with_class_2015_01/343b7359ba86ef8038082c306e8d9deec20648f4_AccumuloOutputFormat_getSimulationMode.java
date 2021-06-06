@@ -1,0 +1,40 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+hadoop compat util SimpleName MethodInvocation SimpleName get configuration
+hadoop compat util SimpleName MethodInvocation SimpleName context
+get configuration SimpleName MethodInvocation SimpleName context
+output configurator SimpleName MethodInvocation SimpleName get simulation mode
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName context
+get simulation mode SimpleName MethodInvocation SimpleName class
+get simulation mode SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+get simulation mode SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get simulation mode SimpleName MethodInvocation MethodInvocation SimpleName context
+class SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName context
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName boolean
+protected Modifier MethodDeclaration SimpleName get simulation mode
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName boolean
+static Modifier MethodDeclaration SimpleName get simulation mode
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean SimpleName SimpleType MethodDeclaration SimpleName get simulation mode
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get simulation mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get simulation mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simulation mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simulation mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

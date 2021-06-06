@@ -1,0 +1,124 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName deleted guid
+singleton list SimpleName MethodInvocation SimpleName deleted guid
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton list
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName deleted guid
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty list
+string SimpleName SimpleType MethodInvocation SimpleName empty list
+entity result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+entity result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+entity result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+entity result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+entity result SimpleName SimpleType ClassInstanceCreation SimpleName guids
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName guids
+string SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName guids
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName guids
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName guids
+string SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName guids
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName guids
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity result
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName guids
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+mock service SimpleName MethodInvocation SimpleName delete entities
+mock service SimpleName MethodInvocation SimpleName guids
+delete entities SimpleName MethodInvocation SimpleName guids
+when SimpleName MethodInvocation MethodInvocation SimpleName mock service
+when SimpleName MethodInvocation MethodInvocation SimpleName delete entities
+when SimpleName MethodInvocation MethodInvocation SimpleName guids
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+mock service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName entity result
+mock service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+then return SimpleName MethodInvocation SimpleName entity result
+entity resource SimpleName SimpleType ClassInstanceCreation SimpleName mock service
+entity resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity resource
+entity resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mock service
+entity resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity resource
+entity resource SimpleName MethodInvocation SimpleName delete entities
+entity resource SimpleName MethodInvocation SimpleName guids
+delete entities SimpleName MethodInvocation SimpleName guids
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity resource
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName guids
+response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+verify SimpleName MethodInvocation SimpleName mock service
+verify SimpleName MethodInvocation MethodInvocation SimpleName never
+mock service SimpleName MethodInvocation MethodInvocation SimpleName never
+matchers SimpleName MethodInvocation SimpleName any string
+verify SimpleName MethodInvocation MethodInvocation SimpleName get entity definition
+mock service SimpleName MethodInvocation MethodInvocation SimpleName get entity definition
+never SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity definition
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+mock service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matchers
+mock service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName matchers
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName any string
+response SimpleName MethodInvocation SimpleName get entity
+response SimpleName MethodInvocation MethodInvocation SimpleName to string
+get entity SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity result SimpleName MethodInvocation SimpleName from string
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+entity result SimpleName MethodInvocation MethodInvocation SimpleName to string
+from string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+from string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+from string SimpleName MethodInvocation MethodInvocation SimpleName to string
+result from entity resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity result
+result from entity resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+result from entity resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result from entity resource
+result from entity resource SimpleName MethodInvocation SimpleName get deleted entities
+result from entity resource SimpleName MethodInvocation MethodInvocation SimpleName contains
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains
+result from entity resource SimpleName MethodInvocation MethodInvocation SimpleName deleted guid
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName deleted guid
+contains SimpleName MethodInvocation SimpleName deleted guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result from entity resource
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName deleted guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result from entity resource
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName deleted guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete entities does not lookup deleted entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete entities does not lookup deleted entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete entities does not lookup deleted entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete entities does not lookup deleted entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete entities does not lookup deleted entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete entities does not lookup deleted entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

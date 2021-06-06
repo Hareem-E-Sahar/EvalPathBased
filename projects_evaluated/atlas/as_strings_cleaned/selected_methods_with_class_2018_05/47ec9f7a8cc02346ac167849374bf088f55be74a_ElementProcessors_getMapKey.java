@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation SimpleName property
+string SimpleName MethodInvocation SimpleName key
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation SimpleName property
+format SimpleName MethodInvocation SimpleName key
+ss StringLiteral MethodInvocation SimpleName property
+ss StringLiteral MethodInvocation SimpleName key
+property SimpleName MethodInvocation SimpleName key
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get map key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName get map key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get map key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get map key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

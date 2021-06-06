@@ -1,0 +1,43 @@
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName type category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+assert valid type category SimpleName MethodInvocation SimpleName type category
+get SimpleName MethodInvocation SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i data type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type category
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i data type SimpleName SimpleType MethodDeclaration SimpleName get
+i data type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type category
+i data type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+i data type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

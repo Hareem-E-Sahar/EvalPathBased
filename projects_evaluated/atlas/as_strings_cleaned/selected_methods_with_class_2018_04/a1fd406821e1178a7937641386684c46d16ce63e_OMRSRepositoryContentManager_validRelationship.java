@@ -1,0 +1,124 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+null relationship from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null relationship from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null relationship from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+relationship SimpleName MethodInvocation SimpleName get type
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+instance type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance type
+null instance type in relationship from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null instance type in relationship from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null instance type in relationship from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+instance type SimpleName MethodInvocation SimpleName get type def guid
+instance type SimpleName MethodInvocation SimpleName get type def name
+instance type SimpleName MethodInvocation SimpleName get type def category
+relationship SimpleName MethodInvocation SimpleName get guid
+valid instance id SimpleName MethodInvocation SimpleName source name
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def category
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName relationship
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def category
+source name SimpleName MethodInvocation MethodInvocation SimpleName relationship
+source name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def name
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def name
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+get type def category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+null relationship guid from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null relationship guid from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null relationship guid from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+relationship SimpleName MethodInvocation SimpleName get metadata collection id
+home metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+home metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName home metadata collection id
+relationship SimpleName MethodInvocation SimpleName get guid
+null home metadata collection id for relationship StringLiteral InfixExpression MethodInvocation SimpleName relationship
+null home metadata collection id for relationship StringLiteral InfixExpression MethodInvocation SimpleName get guid
+null home metadata collection id for relationship StringLiteral InfixExpression StringLiteral from
+null home metadata collection id for relationship StringLiteral InfixExpression SimpleName source name
+relationship SimpleName MethodInvocation InfixExpression StringLiteral from
+get guid SimpleName MethodInvocation InfixExpression StringLiteral from
+relationship SimpleName MethodInvocation InfixExpression SimpleName source name
+get guid SimpleName MethodInvocation InfixExpression SimpleName source name
+from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null home metadata collection id for relationship
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null home metadata collection id for relationship
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName relationship
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+error SimpleName MethodInvocation InfixExpression StringLiteral from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName valid relationship
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+valid relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+valid relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+valid relationship SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship

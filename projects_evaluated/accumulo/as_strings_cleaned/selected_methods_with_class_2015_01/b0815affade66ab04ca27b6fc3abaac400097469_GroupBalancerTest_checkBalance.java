@@ -1,0 +1,296 @@
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet locs SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+partitioner SimpleName MethodInvocation SimpleName apply
+partitioner SimpleName MethodInvocation MethodInvocation SimpleName entry
+partitioner SimpleName MethodInvocation MethodInvocation SimpleName get key
+apply SimpleName MethodInvocation MethodInvocation SimpleName entry
+apply SimpleName MethodInvocation MethodInvocation SimpleName get key
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName partitioner
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName apply
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+entry SimpleName MethodInvocation SimpleName get value
+loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loc
+group counts SimpleName MethodInvocation SimpleName increment
+group counts SimpleName MethodInvocation SimpleName group
+group counts SimpleName MethodInvocation NumberLiteral empty
+increment SimpleName MethodInvocation SimpleName group
+increment SimpleName MethodInvocation NumberLiteral empty
+group SimpleName MethodInvocation NumberLiteral empty
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tserver group counts SimpleName MethodInvocation SimpleName get
+tserver group counts SimpleName MethodInvocation SimpleName loc
+get SimpleName MethodInvocation SimpleName loc
+tgc SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver group counts
+tgc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tgc SimpleName VariableDeclarationFragment MethodInvocation SimpleName loc
+tserver group counts SimpleName MethodInvocation SimpleName put
+tserver group counts SimpleName MethodInvocation SimpleName loc
+tserver group counts SimpleName MethodInvocation SimpleName tgc
+put SimpleName MethodInvocation SimpleName loc
+put SimpleName MethodInvocation SimpleName tgc
+loc SimpleName MethodInvocation SimpleName tgc
+tgc SimpleName MethodInvocation SimpleName increment
+tgc SimpleName MethodInvocation SimpleName group
+tgc SimpleName MethodInvocation NumberLiteral empty
+increment SimpleName MethodInvocation SimpleName group
+increment SimpleName MethodInvocation NumberLiteral empty
+group SimpleName MethodInvocation NumberLiteral empty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet locs
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+total extra SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total extra
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+group counts SimpleName MethodInvocation SimpleName key set
+group counts SimpleName MethodInvocation SimpleName get
+group counts SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+group count SimpleName VariableDeclarationFragment MethodInvocation SimpleName group counts
+group count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+group count SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName group count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName group counts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName group
+tservers SimpleName MethodInvocation SimpleName size
+group count SimpleName InfixExpression MethodInvocation SimpleName tservers
+group count SimpleName InfixExpression MethodInvocation SimpleName size
+total extra SimpleName Assignment InfixExpression SimpleName group count
+total extra SimpleName Assignment InfixExpression MethodInvocation SimpleName tservers
+total extra SimpleName Assignment InfixExpression MethodInvocation SimpleName size
+tservers SimpleName MethodInvocation SimpleName size
+group count SimpleName InfixExpression MethodInvocation SimpleName tservers
+group count SimpleName InfixExpression MethodInvocation SimpleName size
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName group count
+expected counts SimpleName MethodInvocation SimpleName put
+expected counts SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation CastExpression PrimitiveType int
+put SimpleName MethodInvocation SimpleName group
+put SimpleName MethodInvocation CastExpression PrimitiveType int
+group SimpleName MethodInvocation CastExpression PrimitiveType int
+group SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName group counts
+group SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+tservers SimpleName MethodInvocation SimpleName size
+total extra SimpleName InfixExpression MethodInvocation SimpleName tservers
+total extra SimpleName InfixExpression MethodInvocation SimpleName size
+expected extra SimpleName VariableDeclarationFragment InfixExpression SimpleName total extra
+expected extra SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tservers
+expected extra SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected extra
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName total extra
+tservers SimpleName MethodInvocation SimpleName size
+total extra SimpleName InfixExpression MethodInvocation SimpleName tservers
+total extra SimpleName InfixExpression MethodInvocation SimpleName size
+total extra SimpleName InfixExpression InfixExpression NumberLiteral empty
+tservers SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+expected extra SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+expected extra SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+max extra groups SimpleName VariableDeclarationFragment InfixExpression SimpleName expected extra
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max extra groups
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName expected extra
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tserver group counts SimpleName MethodInvocation SimpleName entry set
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName MethodInvocation SimpleName get value
+tgc SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+tgc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+tserver extra SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver extra
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+group counts SimpleName MethodInvocation SimpleName key set
+tgc SimpleName MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation SimpleName get
+expected counts SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+tgc SimpleName MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation SimpleName get
+expected counts SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+group SimpleName MethodInvocation InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get key
+group counts not as expected group StringLiteral InfixExpression SimpleName group
+group counts not as expected group StringLiteral InfixExpression StringLiteral actual
+group counts not as expected group StringLiteral InfixExpression MethodInvocation SimpleName tgc
+group counts not as expected group StringLiteral InfixExpression MethodInvocation SimpleName get
+group counts not as expected group StringLiteral InfixExpression MethodInvocation SimpleName group
+group counts not as expected group StringLiteral InfixExpression StringLiteral expected
+group counts not as expected group StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+group SimpleName InfixExpression StringLiteral actual
+group SimpleName InfixExpression MethodInvocation SimpleName tgc
+group SimpleName InfixExpression MethodInvocation SimpleName get
+group SimpleName InfixExpression MethodInvocation SimpleName group
+group SimpleName InfixExpression StringLiteral expected
+group SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+group SimpleName InfixExpression StringLiteral tserver
+actual StringLiteral InfixExpression MethodInvocation SimpleName tgc
+actual StringLiteral InfixExpression MethodInvocation SimpleName get
+actual StringLiteral InfixExpression MethodInvocation SimpleName group
+actual StringLiteral InfixExpression StringLiteral expected
+actual StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+actual StringLiteral InfixExpression StringLiteral tserver
+actual StringLiteral InfixExpression MethodInvocation SimpleName entry
+actual StringLiteral InfixExpression MethodInvocation SimpleName get key
+tgc SimpleName MethodInvocation InfixExpression StringLiteral expected
+get SimpleName MethodInvocation InfixExpression StringLiteral expected
+group SimpleName MethodInvocation InfixExpression StringLiteral expected
+tgc SimpleName MethodInvocation InfixExpression StringLiteral tserver
+get SimpleName MethodInvocation InfixExpression StringLiteral tserver
+group SimpleName MethodInvocation InfixExpression StringLiteral tserver
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+expected StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+expected StringLiteral InfixExpression StringLiteral tserver
+expected StringLiteral InfixExpression MethodInvocation SimpleName entry
+expected StringLiteral InfixExpression MethodInvocation SimpleName get key
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral tserver
+tserver StringLiteral InfixExpression MethodInvocation SimpleName entry
+tserver StringLiteral InfixExpression MethodInvocation SimpleName get key
+tgc SimpleName MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation SimpleName get
+expected counts SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+group SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tgc SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+group SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral group counts not as expected group
+assert SimpleName MethodInvocation InfixExpression SimpleName group
+assert SimpleName MethodInvocation InfixExpression StringLiteral actual
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert SimpleName MethodInvocation InfixExpression StringLiteral tserver
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression StringLiteral group counts not as expected group
+assert true SimpleName MethodInvocation InfixExpression SimpleName group
+assert true SimpleName MethodInvocation InfixExpression StringLiteral actual
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert true SimpleName MethodInvocation InfixExpression StringLiteral expected
+assert true SimpleName MethodInvocation InfixExpression StringLiteral tserver
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tgc
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+assert true SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+tgc SimpleName MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+expected counts SimpleName MethodInvocation SimpleName get
+expected counts SimpleName MethodInvocation SimpleName group
+get SimpleName MethodInvocation SimpleName group
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+tgc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected counts
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+group SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName group
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName tgc
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName get
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName group
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName expected counts
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName get
+tserver extra SimpleName Assignment InfixExpression MethodInvocation SimpleName group
+group SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName group counts
+group SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+tserver extra SimpleName InfixExpression SimpleName expected extra
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression SimpleName tserver extra
+assert SimpleName MethodInvocation InfixExpression SimpleName expected extra
+assert true SimpleName MethodInvocation InfixExpression SimpleName tserver extra
+assert true SimpleName MethodInvocation InfixExpression SimpleName expected extra
+tserver extra SimpleName InfixExpression SimpleName max extra groups
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression SimpleName tserver extra
+assert SimpleName MethodInvocation InfixExpression SimpleName max extra groups
+assert true SimpleName MethodInvocation InfixExpression SimpleName tserver extra
+assert true SimpleName MethodInvocation InfixExpression SimpleName max extra groups
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tserver group counts
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName check balance
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check balance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check balance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check balance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check balance
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check balance

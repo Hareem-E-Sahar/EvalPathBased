@@ -1,0 +1,86 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+cluster SimpleName MethodInvocation SimpleName start
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get
+get processes SimpleName MethodInvocation MethodInvocation SimpleName get
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get processes SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName ref
+kill process SimpleName MethodInvocation QualifiedName server typetablet server
+kill process SimpleName MethodInvocation SimpleName ref
+server typetablet server QualifiedName MethodInvocation SimpleName ref
+ref SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+ref SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName start
+c SimpleName MethodInvocation SimpleName create scanner
+c SimpleName MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+functional test utils SimpleName MethodInvocation SimpleName count
+functional test utils SimpleName MethodInvocation SimpleName scanner
+count SimpleName MethodInvocation SimpleName scanner
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName dont gc root log
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName dont gc root log
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dont gc root log
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName dont gc root log
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+dont gc root log SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dont gc root log
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dont gc root log
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

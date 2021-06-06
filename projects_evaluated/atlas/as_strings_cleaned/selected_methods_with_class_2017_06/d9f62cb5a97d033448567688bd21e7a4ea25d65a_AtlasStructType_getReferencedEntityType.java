@@ -1,0 +1,29 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas array type
+atlas array type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get element type
+type SimpleName Assignment MethodInvocation SimpleName get element type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas map type
+atlas map type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+type SimpleName Assignment MethodInvocation SimpleName get value type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName type
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SimpleName get referenced entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+atlas entity type SimpleName SimpleType MethodDeclaration SimpleName get referenced entity type
+atlas entity type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get referenced entity type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get referenced entity type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referenced entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referenced entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

@@ -1,0 +1,105 @@
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName instance
+argument checker SimpleName MethodInvocation SimpleName table id
+not null SimpleName MethodInvocation SimpleName instance
+not null SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+get zoo cache SimpleName MethodInvocation SimpleName instance
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zoo cache
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+zoo cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zc
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table id
+get root SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable namespace
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable namespace
+table id SimpleName InfixExpression QualifiedName constantsztable namespace
+zc SimpleName MethodInvocation SimpleName get
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zc SimpleName MethodInvocation InfixExpression StringLiteral /
+zc SimpleName MethodInvocation InfixExpression SimpleName table id
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName table id
+get SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsztables
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName table id
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsztable namespace
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+table with id StringLiteral InfixExpression SimpleName table id
+table with id StringLiteral InfixExpression StringLiteral does not exist
+table id SimpleName InfixExpression StringLiteral does not exist
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table with id
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+string SimpleName SimpleType ClassInstanceCreation SimpleName n
+string SimpleName SimpleType ClassInstanceCreation QualifiedName constantsutf
+n SimpleName ClassInstanceCreation QualifiedName constantsutf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get namespace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get namespace
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+string SimpleName SimpleType MethodDeclaration SimpleName get namespace
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal argument exception
+get namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+get namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get namespace SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

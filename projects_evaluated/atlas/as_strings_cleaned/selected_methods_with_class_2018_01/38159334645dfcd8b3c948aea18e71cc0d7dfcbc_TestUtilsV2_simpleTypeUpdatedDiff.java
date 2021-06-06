@@ -1,0 +1,149 @@
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation SimpleName create optional attr def
+atlas type util SimpleName MethodInvocation StringLiteral attr
+atlas type util SimpleName MethodInvocation StringLiteral string
+create optional attr def SimpleName MethodInvocation StringLiteral attr
+create optional attr def SimpleName MethodInvocation StringLiteral string
+attr StringLiteral MethodInvocation StringLiteral string
+atlas type util SimpleName MethodInvocation SimpleName create class type def
+atlas type util SimpleName MethodInvocation StringLiteral new h type
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral attr
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral string
+create class type def SimpleName MethodInvocation StringLiteral new h type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral attr
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral string
+new h type StringLiteral MethodInvocation MethodInvocation SimpleName collections
+new h type StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+new h type StringLiteral MethodInvocation MethodInvocation SimpleName empty set
+new h type StringLiteral MethodInvocation MethodInvocation SimpleName atlas type util
+new h type StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+new h type StringLiteral MethodInvocation MethodInvocation StringLiteral attr
+new h type StringLiteral MethodInvocation MethodInvocation StringLiteral string
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas type util
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas type util
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation StringLiteral new h type
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas type util
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral attr
+new super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral string
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new super type definition
+collections SimpleName MethodInvocation SimpleType SimpleName atlas enum def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas enum def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas struct def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas classification def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas classification def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName new super type definition
+singleton list SimpleName MethodInvocation SimpleName new super type definition
+atlas type util SimpleName MethodInvocation SimpleName get types def
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas enum def
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty list
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas struct def
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty list
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas classification def
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty list
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName new super type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName collections
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas enum def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName empty list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName collections
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas struct def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName empty list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName collections
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName atlas classification def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName empty list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName collections
+get types def SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName new super type definition
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new super type definition
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty list
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty list
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty list
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton list
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new super type definition
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+populate system attributes SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName simple type updated diff
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas types def
+static Modifier MethodDeclaration SimpleName simple type updated diff
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName simple type updated diff
+simple type updated diff SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName simple type updated diff
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName simple type updated diff

@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SimpleName get resource as stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+input stream SimpleName SimpleType MethodDeclaration SimpleName get resource as stream
+input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+get resource as stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get resource as stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource as stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource as stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

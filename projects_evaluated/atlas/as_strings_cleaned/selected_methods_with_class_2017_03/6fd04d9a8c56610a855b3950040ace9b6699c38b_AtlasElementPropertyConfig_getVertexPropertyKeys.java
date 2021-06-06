@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get vertex property keys
+public Modifier MethodDeclaration Block ReturnStatement SimpleName vertex property keys
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex property keys
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertex property keys
+get vertex property keys SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex property keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex property keys
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex property keys

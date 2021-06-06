@@ -1,0 +1,47 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName obj
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+type vertex info SimpleName SimpleType CastExpression SimpleName obj
+other SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName type vertex info
+other SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+type vertex info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName category
+objects SimpleName MethodInvocation QualifiedName othercategory
+equals SimpleName MethodInvocation SimpleName category
+equals SimpleName MethodInvocation QualifiedName othercategory
+category SimpleName MethodInvocation QualifiedName othercategory
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName type name
+objects SimpleName MethodInvocation QualifiedName othertype name
+equals SimpleName MethodInvocation SimpleName type name
+equals SimpleName MethodInvocation QualifiedName othertype name
+type name SimpleName MethodInvocation QualifiedName othertype name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

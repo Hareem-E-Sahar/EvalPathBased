@@ -1,0 +1,218 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName basic parser
+parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+p SimpleName MethodInvocation SimpleName parse
+p SimpleName MethodInvocation SimpleName opts
+p SimpleName MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName opts
+parse SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName args
+cl SimpleName Assignment MethodInvocation SimpleName p
+cl SimpleName Assignment MethodInvocation SimpleName parse
+cl SimpleName Assignment MethodInvocation SimpleName opts
+cl SimpleName Assignment MethodInvocation SimpleName args
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral parse exception exiting
+println SimpleName MethodInvocation StringLiteral parse exception exiting
+master opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName master opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation StringLiteral localhost
+get option value SimpleName MethodInvocation MethodInvocation SimpleName master opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation StringLiteral localhost
+master opt SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+get opt SimpleName MethodInvocation MethodInvocation StringLiteral localhost
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName master opt
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+master SimpleName VariableDeclarationFragment MethodInvocation StringLiteral localhost
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+username opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName username opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation StringLiteral root
+get option value SimpleName MethodInvocation MethodInvocation SimpleName username opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation StringLiteral root
+username opt SimpleName MethodInvocation MethodInvocation StringLiteral root
+get opt SimpleName MethodInvocation MethodInvocation StringLiteral root
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+username SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+username SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName username opt
+username SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+username SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+password opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName password opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation StringLiteral secret
+get option value SimpleName MethodInvocation MethodInvocation SimpleName password opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation StringLiteral secret
+password opt SimpleName MethodInvocation MethodInvocation StringLiteral secret
+get opt SimpleName MethodInvocation MethodInvocation StringLiteral secret
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName password opt
+password SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+password SimpleName VariableDeclarationFragment MethodInvocation StringLiteral secret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+instance name opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName instance name opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation StringLiteral func test
+get option value SimpleName MethodInvocation MethodInvocation SimpleName instance name opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation StringLiteral func test
+instance name opt SimpleName MethodInvocation MethodInvocation StringLiteral func test
+get opt SimpleName MethodInvocation MethodInvocation StringLiteral func test
+instance name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+instance name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+instance name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance name opt
+instance name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+instance name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral func test
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name
+cl SimpleName MethodInvocation SimpleName get args
+remaining args SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+remaining args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get args
+remaining args SimpleName ArrayAccess NumberLiteral empty
+clazz SimpleName VariableDeclarationFragment ArrayAccess SimpleName remaining args
+clazz SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+remaining args SimpleName ArrayAccess NumberLiteral empty
+opt SimpleName VariableDeclarationFragment ArrayAccess SimpleName remaining args
+opt SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opt
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation SimpleName clazz
+accumulo class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName functional test
+load class SimpleName MethodInvocation SimpleName clazz
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName functional test
+clazz SimpleName MethodInvocation TypeLiteral SimpleType SimpleName functional test
+test class SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo class loader
+test class SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+test class SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+test class SimpleName MethodInvocation SimpleName new instance
+f test SimpleName VariableDeclarationFragment MethodInvocation SimpleName test class
+f test SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+functional test SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f test
+f test SimpleName MethodInvocation SimpleName set master
+f test SimpleName MethodInvocation SimpleName master
+set master SimpleName MethodInvocation SimpleName master
+f test SimpleName MethodInvocation SimpleName set username
+f test SimpleName MethodInvocation SimpleName username
+set username SimpleName MethodInvocation SimpleName username
+f test SimpleName MethodInvocation SimpleName set password
+f test SimpleName MethodInvocation SimpleName password
+set password SimpleName MethodInvocation SimpleName password
+f test SimpleName MethodInvocation SimpleName set instance name
+f test SimpleName MethodInvocation SimpleName instance name
+set instance name SimpleName MethodInvocation SimpleName instance name
+opt SimpleName MethodInvocation SimpleName equals
+opt SimpleName MethodInvocation StringLiteral get config
+equals SimpleName MethodInvocation StringLiteral get config
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+f test SimpleName MethodInvocation SimpleName get initial config
+iconfig SimpleName VariableDeclarationFragment MethodInvocation SimpleName f test
+iconfig SimpleName VariableDeclarationFragment MethodInvocation SimpleName get initial config
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral {
+println SimpleName MethodInvocation StringLiteral {
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+iconfig SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get key
+empty StringLiteral InfixExpression StringLiteral :
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression StringLiteral :
+get key SimpleName MethodInvocation InfixExpression StringLiteral :
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+: StringLiteral InfixExpression MethodInvocation SimpleName entry
+: StringLiteral InfixExpression MethodInvocation SimpleName get value
+: StringLiteral InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get value SimpleName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+println SimpleName MethodInvocation InfixExpression StringLiteral :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName iconfig
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral }
+println SimpleName MethodInvocation StringLiteral }
+opt SimpleName MethodInvocation SimpleName equals
+opt SimpleName MethodInvocation StringLiteral setup
+equals SimpleName MethodInvocation StringLiteral setup
+f test SimpleName MethodInvocation SimpleName setup
+opt SimpleName MethodInvocation SimpleName equals
+opt SimpleName MethodInvocation StringLiteral run
+equals SimpleName MethodInvocation StringLiteral run
+f test SimpleName MethodInvocation SimpleName run
+opt SimpleName MethodInvocation SimpleName equals
+opt SimpleName MethodInvocation StringLiteral cleanup
+equals SimpleName MethodInvocation StringLiteral cleanup
+f test SimpleName MethodInvocation SimpleName cleanup
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

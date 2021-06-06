@@ -1,0 +1,86 @@
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName base exception
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+base exception SimpleName MethodInvocation SimpleName get atlas error code
+error code SimpleName VariableDeclarationFragment MethodInvocation SimpleName base exception
+error code SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas error code
+atlas error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+error code SimpleName MethodInvocation SimpleName get error code
+error json map SimpleName MethodInvocation SimpleName put
+error json map SimpleName MethodInvocation StringLiteral error code
+error json map SimpleName MethodInvocation MethodInvocation SimpleName error code
+error json map SimpleName MethodInvocation MethodInvocation SimpleName get error code
+put SimpleName MethodInvocation StringLiteral error code
+put SimpleName MethodInvocation MethodInvocation SimpleName error code
+put SimpleName MethodInvocation MethodInvocation SimpleName get error code
+error code StringLiteral MethodInvocation MethodInvocation SimpleName error code
+error code StringLiteral MethodInvocation MethodInvocation SimpleName get error code
+base exception SimpleName MethodInvocation SimpleName get message
+error json map SimpleName MethodInvocation SimpleName put
+error json map SimpleName MethodInvocation StringLiteral error message
+error json map SimpleName MethodInvocation MethodInvocation SimpleName base exception
+error json map SimpleName MethodInvocation MethodInvocation SimpleName get message
+put SimpleName MethodInvocation StringLiteral error message
+put SimpleName MethodInvocation MethodInvocation SimpleName base exception
+put SimpleName MethodInvocation MethodInvocation SimpleName get message
+error message StringLiteral MethodInvocation MethodInvocation SimpleName base exception
+error message StringLiteral MethodInvocation MethodInvocation SimpleName get message
+base exception SimpleName MethodInvocation SimpleName get cause
+base exception SimpleName MethodInvocation SimpleName get cause
+base exception SimpleName MethodInvocation MethodInvocation SimpleName get message
+get cause SimpleName MethodInvocation MethodInvocation SimpleName get message
+error json map SimpleName MethodInvocation SimpleName put
+error json map SimpleName MethodInvocation StringLiteral error cause
+error json map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName base exception
+error json map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+error json map SimpleName MethodInvocation MethodInvocation SimpleName get message
+put SimpleName MethodInvocation StringLiteral error cause
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName base exception
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+put SimpleName MethodInvocation MethodInvocation SimpleName get message
+error cause StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName base exception
+error cause StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+error cause StringLiteral MethodInvocation MethodInvocation SimpleName get message
+error code SimpleName MethodInvocation SimpleName get http code
+response SimpleName MethodInvocation SimpleName status
+response SimpleName MethodInvocation MethodInvocation SimpleName error code
+response SimpleName MethodInvocation MethodInvocation SimpleName get http code
+status SimpleName MethodInvocation MethodInvocation SimpleName error code
+status SimpleName MethodInvocation MethodInvocation SimpleName get http code
+response builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+response builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+response builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName error code
+response builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get http code
+responseresponse builder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response builder
+error code SimpleName MethodInvocation SimpleName get http code
+responsestatusno content QualifiedName InfixExpression MethodInvocation SimpleName error code
+responsestatusno content QualifiedName InfixExpression MethodInvocation SimpleName get http code
+atlas type SimpleName MethodInvocation SimpleName to json
+atlas type SimpleName MethodInvocation SimpleName error json map
+to json SimpleName MethodInvocation SimpleName error json map
+response builder SimpleName MethodInvocation SimpleName entity
+response builder SimpleName MethodInvocation MethodInvocation SimpleName atlas type
+response builder SimpleName MethodInvocation MethodInvocation SimpleName to json
+response builder SimpleName MethodInvocation MethodInvocation SimpleName error json map
+entity SimpleName MethodInvocation MethodInvocation SimpleName atlas type
+entity SimpleName MethodInvocation MethodInvocation SimpleName to json
+entity SimpleName MethodInvocation MethodInvocation SimpleName error json map
+response builder SimpleName MethodInvocation SimpleName build
+protected Modifier MethodDeclaration SimpleType SimpleName response
+protected Modifier MethodDeclaration SimpleName build atlas base exception response
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base exception
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName base exception
+response SimpleName SimpleType MethodDeclaration SimpleName build atlas base exception response
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base exception
+build atlas base exception response SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base exception
+build atlas base exception response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName build atlas base exception response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build atlas base exception response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base exception

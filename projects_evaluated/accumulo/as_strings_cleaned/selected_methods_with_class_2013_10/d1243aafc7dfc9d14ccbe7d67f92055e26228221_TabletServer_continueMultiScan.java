@@ -1,0 +1,123 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+long PrimitiveType SingleVariableDeclaration SimpleName scan id
+multi scan session SimpleName SimpleType SingleVariableDeclaration SimpleName session
+lookup task SimpleName SimpleType ClassInstanceCreation SimpleName scan id
+sessionlookup task QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName lookup task
+sessionlookup task QualifiedName Assignment ClassInstanceCreation SimpleName scan id
+resource manager SimpleName MethodInvocation SimpleName execute read ahead
+resource manager SimpleName MethodInvocation QualifiedName sessionthread pool extent
+resource manager SimpleName MethodInvocation QualifiedName sessionlookup task
+execute read ahead SimpleName MethodInvocation QualifiedName sessionthread pool extent
+execute read ahead SimpleName MethodInvocation QualifiedName sessionlookup task
+sessionthread pool extent QualifiedName MethodInvocation QualifiedName sessionlookup task
+sessionlookup task QualifiedName MethodInvocation SimpleName get
+sessionlookup task QualifiedName MethodInvocation SimpleName max time to wait for scan result millis
+sessionlookup task QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+get SimpleName MethodInvocation SimpleName max time to wait for scan result millis
+get SimpleName MethodInvocation QualifiedName time unitmilliseconds
+max time to wait for scan result millis SimpleName MethodInvocation QualifiedName time unitmilliseconds
+scan result SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sessionlookup task
+scan result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+scan result SimpleName VariableDeclarationFragment MethodInvocation SimpleName max time to wait for scan result millis
+scan result SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+multi scan result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan result
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+acu conf SimpleName MethodInvocation SimpleName get time in millis
+acu conf SimpleName MethodInvocation QualifiedName propertytserv client timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertytserv client timeout
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+timeout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+timeout SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytserv client timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName acu conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertytserv client timeout
+session manager SimpleName MethodInvocation SimpleName remove if not accessed
+session manager SimpleName MethodInvocation SimpleName scan id
+session manager SimpleName MethodInvocation SimpleName timeout
+remove if not accessed SimpleName MethodInvocation SimpleName scan id
+remove if not accessed SimpleName MethodInvocation SimpleName timeout
+scan id SimpleName MethodInvocation SimpleName timeout
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key value
+collections SimpleName MethodInvocation SimpleName empty list
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+collections SimpleName MethodInvocation SimpleName empty map
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+collections SimpleName MethodInvocation SimpleName empty list
+full scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+full scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+multi scan result SimpleName SimpleType ClassInstanceCreation SimpleName results
+multi scan result SimpleName SimpleType ClassInstanceCreation SimpleName failures
+multi scan result SimpleName SimpleType ClassInstanceCreation SimpleName full scans
+results SimpleName ClassInstanceCreation SimpleName failures
+results SimpleName ClassInstanceCreation SimpleName full scans
+results SimpleName ClassInstanceCreation BooleanLiteral false
+failures SimpleName ClassInstanceCreation SimpleName full scans
+failures SimpleName ClassInstanceCreation BooleanLiteral false
+failures SimpleName ClassInstanceCreation BooleanLiteral true
+full scans SimpleName ClassInstanceCreation BooleanLiteral false
+full scans SimpleName ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+session manager SimpleName MethodInvocation SimpleName remove session
+session manager SimpleName MethodInvocation SimpleName scan id
+remove session SimpleName MethodInvocation SimpleName scan id
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to get multiscan result
+log SimpleName MethodInvocation SimpleName t
+warn SimpleName MethodInvocation StringLiteral failed to get multiscan result
+warn SimpleName MethodInvocation SimpleName t
+failed to get multiscan result StringLiteral MethodInvocation SimpleName t
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName multi scan result
+private Modifier MethodDeclaration SimpleName continue multi scan
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multi scan session
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName session
+multi scan result SimpleName SimpleType MethodDeclaration SimpleName continue multi scan
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scan id
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName session
+multi scan result SimpleName SimpleType MethodDeclaration SimpleType SimpleName no such scan id exception
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan id
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName multi scan session
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName session
+continue multi scan SimpleName MethodDeclaration SimpleType SimpleName no such scan id exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+scan id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+session SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName multi scan result
+public Modifier TypeDeclaration MethodDeclaration SimpleName continue multi scan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName multi scan result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName continue multi scan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName session
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception

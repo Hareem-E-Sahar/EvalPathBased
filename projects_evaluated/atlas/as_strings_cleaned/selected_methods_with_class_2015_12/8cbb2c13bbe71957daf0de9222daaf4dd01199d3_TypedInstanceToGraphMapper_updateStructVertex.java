@@ -1,0 +1,148 @@
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName vertex
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName struct instance
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName rel edge
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+rel edge SimpleName MethodInvocation SimpleName get vertex
+rel edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName rel edge
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+struct instance vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct instance vertex
+md utils SimpleName MethodInvocation SimpleName get digester
+digester SimpleName VariableDeclarationFragment MethodInvocation SimpleName md utils
+digester SimpleName VariableDeclarationFragment MethodInvocation SimpleName get digester
+final Modifier VariableDeclarationStatement SimpleType SimpleName message digest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName digester
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName md utils
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get digester
+message digest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName digester
+struct instance SimpleName MethodInvocation SimpleName get signature hash
+struct instance SimpleName MethodInvocation SimpleName digester
+get signature hash SimpleName MethodInvocation SimpleName digester
+new signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct instance
+new signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName get signature hash
+new signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName digester
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new signature
+struct instance vertex SimpleName MethodInvocation SimpleName get property
+struct instance vertex SimpleName MethodInvocation SimpleName signature hash property key
+get property SimpleName MethodInvocation SimpleName signature hash property key
+cur signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct instance vertex
+cur signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+cur signature SimpleName VariableDeclarationFragment MethodInvocation SimpleName signature hash property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur signature
+new signature SimpleName MethodInvocation SimpleName equals
+new signature SimpleName MethodInvocation SimpleName cur signature
+equals SimpleName MethodInvocation SimpleName cur signature
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating struct {} since signature has changed {} {}
+log SimpleName MethodInvocation SimpleName struct instance
+log SimpleName MethodInvocation SimpleName cur signature
+log SimpleName MethodInvocation SimpleName new signature
+debug SimpleName MethodInvocation StringLiteral updating struct {} since signature has changed {} {}
+debug SimpleName MethodInvocation SimpleName struct instance
+debug SimpleName MethodInvocation SimpleName cur signature
+debug SimpleName MethodInvocation SimpleName new signature
+updating struct {} since signature has changed {} {} StringLiteral MethodInvocation SimpleName struct instance
+updating struct {} since signature has changed {} {} StringLiteral MethodInvocation SimpleName cur signature
+updating struct {} since signature has changed {} {} StringLiteral MethodInvocation SimpleName new signature
+struct instance SimpleName MethodInvocation SimpleName cur signature
+struct instance SimpleName MethodInvocation SimpleName new signature
+cur signature SimpleName MethodInvocation SimpleName new signature
+struct instance SimpleName MethodInvocation SimpleName field mapping
+struct instance SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName struct instance
+map instance to vertex SimpleName MethodInvocation SimpleName struct instance vertex
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+map instance to vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation BooleanLiteral false
+map instance to vertex SimpleName MethodInvocation SimpleName operation
+struct instance SimpleName MethodInvocation SimpleName struct instance vertex
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance SimpleName MethodInvocation BooleanLiteral false
+struct instance SimpleName MethodInvocation SimpleName operation
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct instance
+struct instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct instance vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+struct instance vertex SimpleName MethodInvocation BooleanLiteral false
+struct instance vertex SimpleName MethodInvocation SimpleName operation
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation BooleanLiteral false
+fields SimpleName FieldAccess MethodInvocation BooleanLiteral false
+struct instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName operation
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName operation
+fields SimpleName FieldAccess MethodInvocation SimpleName operation
+false BooleanLiteral MethodInvocation SimpleName operation
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName new signature
+value of SimpleName MethodInvocation SimpleName new signature
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName struct instance vertex
+graph helper SimpleName MethodInvocation SimpleName signature hash property key
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName string
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName value of
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName new signature
+set property SimpleName MethodInvocation SimpleName struct instance vertex
+set property SimpleName MethodInvocation SimpleName signature hash property key
+set property SimpleName MethodInvocation MethodInvocation SimpleName string
+set property SimpleName MethodInvocation MethodInvocation SimpleName value of
+set property SimpleName MethodInvocation MethodInvocation SimpleName new signature
+struct instance vertex SimpleName MethodInvocation SimpleName signature hash property key
+struct instance vertex SimpleName MethodInvocation MethodInvocation SimpleName string
+struct instance vertex SimpleName MethodInvocation MethodInvocation SimpleName value of
+struct instance vertex SimpleName MethodInvocation MethodInvocation SimpleName new signature
+signature hash property key SimpleName MethodInvocation MethodInvocation SimpleName string
+signature hash property key SimpleName MethodInvocation MethodInvocation SimpleName value of
+signature hash property key SimpleName MethodInvocation MethodInvocation SimpleName new signature
+type utilspair QualifiedName MethodInvocation SimpleName of
+type utilspair QualifiedName MethodInvocation SimpleName struct instance vertex
+type utilspair QualifiedName MethodInvocation SimpleName rel edge
+of SimpleName MethodInvocation SimpleName struct instance vertex
+of SimpleName MethodInvocation SimpleName rel edge
+struct instance vertex SimpleName MethodInvocation SimpleName rel edge
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName type utilspair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName edge
+private Modifier MethodDeclaration SimpleName update struct vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rel edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName operation
+type utilspair QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName update struct vertex
+vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update struct vertex
+edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update struct vertex
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rel edge
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+update struct vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+update struct vertex SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+update struct vertex SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel edge
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+struct instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+rel edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+rel edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName update struct vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update struct vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

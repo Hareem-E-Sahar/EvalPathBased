@@ -1,0 +1,50 @@
+map SimpleName SimpleType SingleVariableDeclaration SimpleName map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+map SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName map
+map SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+map SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName key
+ret SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName map
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName map
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName to string
+ret SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName ret
+ret SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get string value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get string value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName get string value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName map
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+get string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+get string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,34 @@
+keep running SimpleName Assignment BooleanLiteral true
+connection SimpleName SuperFieldAccess MethodInvocation SimpleName get endpoint
+endpoint SimpleName VariableDeclarationFragment MethodInvocation SuperFieldAccess SimpleName connection
+endpoint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get endpoint
+endpoint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint
+endpoint SimpleName MethodInvocation SimpleName get address
+topic name SimpleName Assignment MethodInvocation SimpleName endpoint
+topic name SimpleName Assignment MethodInvocation SimpleName get address
+default thread name SimpleName InfixExpression StringLiteral :
+default thread name SimpleName InfixExpression SimpleName topic name
+: StringLiteral InfixExpression SimpleName topic name
+listener thread name SimpleName Assignment InfixExpression SimpleName default thread name
+listener thread name SimpleName Assignment InfixExpression StringLiteral :
+listener thread name SimpleName Assignment InfixExpression SimpleName topic name
+thread SimpleName SimpleType ClassInstanceCreation SimpleName listener thread name
+listener thread SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread
+listener thread SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName listener thread name
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener thread
+listener thread SimpleName MethodInvocation SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SimpleType SimpleName connector checked exception
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleType SimpleName connector checked exception
+start SimpleName MethodDeclaration SimpleType SimpleName connector checked exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception

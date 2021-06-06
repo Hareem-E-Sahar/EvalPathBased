@@ -1,0 +1,78 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+array utils SimpleName MethodInvocation SimpleName is empty
+array utils SimpleName MethodInvocation SimpleName args
+is empty SimpleName MethodInvocation SimpleName args
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral no argument
+println SimpleName MethodInvocation StringLiteral no argument
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral start
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral start
+equals SimpleName MethodInvocation StringLiteral start
+started local solr server StringLiteral InfixExpression MethodInvocation SimpleName get zookeeper urls
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral started local solr server
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get zookeeper urls
+println SimpleName MethodInvocation InfixExpression StringLiteral started local solr server
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get zookeeper urls
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error starting local solr server StringLiteral InfixExpression SimpleName e
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral error starting local solr server
+systemout QualifiedName MethodInvocation InfixExpression SimpleName e
+println SimpleName MethodInvocation InfixExpression StringLiteral error starting local solr server
+println SimpleName MethodInvocation InfixExpression SimpleName e
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral stop
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral stop
+equals SimpleName MethodInvocation StringLiteral stop
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral stopping local solr server
+println SimpleName MethodInvocation StringLiteral stopping local solr server
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error stopping local solr server StringLiteral InfixExpression SimpleName e
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral error stopping local solr server
+systemout QualifiedName MethodInvocation InfixExpression SimpleName e
+println SimpleName MethodInvocation InfixExpression StringLiteral error stopping local solr server
+println SimpleName MethodInvocation InfixExpression SimpleName e
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName args
+to string SimpleName MethodInvocation SimpleName args
+bad first argument StringLiteral InfixExpression MethodInvocation SimpleName arrays
+bad first argument StringLiteral InfixExpression MethodInvocation SimpleName to string
+bad first argument StringLiteral InfixExpression MethodInvocation SimpleName args
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral bad first argument
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName args
+println SimpleName MethodInvocation InfixExpression StringLiteral bad first argument
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName args
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

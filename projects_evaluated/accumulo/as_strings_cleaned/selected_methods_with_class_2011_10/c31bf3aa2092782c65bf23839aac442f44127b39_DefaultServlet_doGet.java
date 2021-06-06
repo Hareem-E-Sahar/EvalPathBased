@@ -1,0 +1,108 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName resp
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName starts with
+req SimpleName MethodInvocation MethodInvocation StringLiteral web
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral web
+starts with SimpleName MethodInvocation StringLiteral web
+get resource SimpleName MethodInvocation SimpleName req
+get resource SimpleName MethodInvocation SimpleName resp
+req SimpleName MethodInvocation SimpleName resp
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName equals
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+req SimpleName MethodInvocation MethodInvocation StringLiteral docs
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral docs
+equals SimpleName MethodInvocation StringLiteral docs
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName equals
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+req SimpleName MethodInvocation MethodInvocation StringLiteral docsapidocs
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral docsapidocs
+equals SimpleName MethodInvocation StringLiteral docsapidocs
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral docsapidocs
+docs StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+docs StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral docsapidocs
+do get SimpleName SuperMethodInvocation SimpleName req
+do get SimpleName SuperMethodInvocation SimpleName resp
+req SimpleName SuperMethodInvocation SimpleName resp
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName starts with
+req SimpleName MethodInvocation MethodInvocation StringLiteral docs
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral docs
+starts with SimpleName MethodInvocation StringLiteral docs
+get doc resource SimpleName MethodInvocation SimpleName req
+get doc resource SimpleName MethodInvocation SimpleName resp
+req SimpleName MethodInvocation SimpleName resp
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName starts with
+req SimpleName MethodInvocation MethodInvocation StringLiteral monitor
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral monitor
+starts with SimpleName MethodInvocation StringLiteral monitor
+resp SimpleName MethodInvocation SimpleName send redirect
+resp SimpleName MethodInvocation StringLiteral master
+send redirect SimpleName MethodInvocation StringLiteral master
+req SimpleName MethodInvocation SimpleName get request uri
+req SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get request uri SimpleName MethodInvocation MethodInvocation SimpleName starts with
+req SimpleName MethodInvocation MethodInvocation StringLiteral errors
+get request uri SimpleName MethodInvocation MethodInvocation StringLiteral errors
+starts with SimpleName MethodInvocation StringLiteral errors
+resp SimpleName MethodInvocation SimpleName send redirect
+resp SimpleName MethodInvocation StringLiteral problems
+send redirect SimpleName MethodInvocation StringLiteral problems
+do get SimpleName SuperMethodInvocation SimpleName req
+do get SimpleName SuperMethodInvocation SimpleName resp
+req SimpleName SuperMethodInvocation SimpleName resp
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do get
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName req
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resp
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resp
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+void PrimitiveType MethodDeclaration SimpleName do get
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resp
+void PrimitiveType MethodDeclaration SimpleType SimpleName servlet exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+do get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+do get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+do get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resp
+do get SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+do get SimpleName MethodDeclaration SimpleType SimpleName io exception
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+resp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+resp SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+servlet exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

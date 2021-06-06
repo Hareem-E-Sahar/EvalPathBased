@@ -1,0 +1,77 @@
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral condition
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral condition
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+first SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral column
+append SimpleName MethodInvocation StringLiteral column
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName column
+append SimpleName MethodInvocation FieldAccess SimpleName column
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral timestamp
+append SimpleName MethodInvocation StringLiteral timestamp
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName timestamp
+append SimpleName MethodInvocation FieldAccess SimpleName timestamp
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral value
+append SimpleName MethodInvocation StringLiteral value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName to string
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName value
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName sb
+to string SimpleName MethodInvocation FieldAccess SimpleName value
+to string SimpleName MethodInvocation SimpleName sb
+value SimpleName FieldAccess MethodInvocation SimpleName sb
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral iterators
+append SimpleName MethodInvocation StringLiteral iterators
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName iterators
+append SimpleName MethodInvocation FieldAccess SimpleName iterators
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral )
+append SimpleName MethodInvocation StringLiteral )
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

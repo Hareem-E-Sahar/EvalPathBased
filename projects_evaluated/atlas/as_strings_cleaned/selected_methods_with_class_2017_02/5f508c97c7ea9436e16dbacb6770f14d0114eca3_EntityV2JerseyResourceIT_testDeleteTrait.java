@@ -1,0 +1,51 @@
+depends on methods SimpleName MemberValuePair StringLiteral test add trait
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test add trait
+create hive table SimpleName MethodInvocation MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create hive table
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+entities client v SimpleName MethodInvocation SimpleName delete classification
+entities client v SimpleName MethodInvocation SimpleName guid
+entities client v SimpleName MethodInvocation SimpleName trait name
+delete classification SimpleName MethodInvocation SimpleName guid
+delete classification SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait name
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+fail SimpleName MethodInvocation StringLiteral deletion shouldve succeeded
+assert entity audit SimpleName MethodInvocation SimpleName guid
+assert entity audit SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag delete
+guid SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag delete
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete trait
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete trait
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete trait
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete trait
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test delete trait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test delete trait SimpleName MethodDeclaration SimpleType SimpleName exception
+test delete trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete trait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete trait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,7 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName edges
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edges

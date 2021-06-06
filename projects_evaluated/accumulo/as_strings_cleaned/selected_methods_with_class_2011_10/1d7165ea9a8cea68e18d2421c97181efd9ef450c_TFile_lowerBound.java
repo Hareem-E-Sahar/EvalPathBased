@@ -1,0 +1,51 @@
+raw comparable SimpleName SimpleType SingleVariableDeclaration SimpleName key
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot search in unsorted t file
+utils SimpleName MethodInvocation SimpleName lower bound
+utils SimpleName MethodInvocation SimpleName index
+utils SimpleName MethodInvocation SimpleName key
+utils SimpleName MethodInvocation SimpleName comparator
+lower bound SimpleName MethodInvocation SimpleName index
+lower bound SimpleName MethodInvocation SimpleName key
+lower bound SimpleName MethodInvocation SimpleName comparator
+index SimpleName MethodInvocation SimpleName key
+index SimpleName MethodInvocation SimpleName comparator
+key SimpleName MethodInvocation SimpleName comparator
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower bound
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName comparator
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lower bound
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName comparator
+index SimpleName MethodInvocation SimpleName size
+ret SimpleName InfixExpression MethodInvocation SimpleName index
+ret SimpleName InfixExpression MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName lower bound
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType MethodDeclaration SimpleName lower bound
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+lower bound SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+lower bound SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+lower bound SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+lower bound SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName lower bound
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lower bound
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,61 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+context SimpleName MethodInvocation SimpleName get active entity type
+context SimpleName MethodInvocation SimpleName get active entity type
+context SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+get active entity type SimpleName MethodInvocation MethodInvocation SimpleName get type and all sub types
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+get active entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+get type and all sub types SimpleName MethodInvocation MethodInvocation SimpleName to array
+str SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to array
+strlength QualifiedName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ArrayType ArrayCreation QualifiedName strlength
+quoted SimpleName VariableDeclarationFragment ArrayCreation QualifiedName strlength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName strlength
+quoted SimpleName ArrayAccess SimpleName i
+str SimpleName ArrayAccess SimpleName i
+identifier helper SimpleName MethodInvocation SimpleName get quoted
+identifier helper SimpleName MethodInvocation ArrayAccess SimpleName str
+identifier helper SimpleName MethodInvocation ArrayAccess SimpleName i
+get quoted SimpleName MethodInvocation ArrayAccess SimpleName str
+get quoted SimpleName MethodInvocation ArrayAccess SimpleName i
+quoted SimpleName ArrayAccess Assignment MethodInvocation SimpleName identifier helper
+quoted SimpleName ArrayAccess Assignment MethodInvocation SimpleName get quoted
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName identifier helper
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get quoted
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName strlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+strlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName quoted
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName quoted
+join SimpleName MethodInvocation StringLiteral empty
+quoted SimpleName MethodInvocation StringLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get type and sub types
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type and sub types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType MethodDeclaration SimpleName get type and sub types
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get type and sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+get type and sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type and sub types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type and sub types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

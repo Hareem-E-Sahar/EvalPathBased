@@ -1,0 +1,40 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName def
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct defatlas attribute def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+atlas struct defatlas attribute def QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+atlas struct defatlas attribute def QualifiedName SimpleType SingleVariableDeclaration SimpleName ad
+def SimpleName MethodInvocation SimpleName add attribute
+def SimpleName MethodInvocation SimpleName ad
+add attribute SimpleName MethodInvocation SimpleName ad
+atlas struct defatlas attribute def QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+ad SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName MethodInvocation SimpleName size
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName add attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+boolean PrimitiveType MethodDeclaration SimpleName add attributes
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName list
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName list
+add attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+add attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+add attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+add attributes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

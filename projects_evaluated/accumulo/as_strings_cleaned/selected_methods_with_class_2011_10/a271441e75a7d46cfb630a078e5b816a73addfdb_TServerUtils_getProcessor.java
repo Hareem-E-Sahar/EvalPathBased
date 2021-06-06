@@ -1,0 +1,30 @@
+t transport SimpleName SimpleType SingleVariableDeclaration SimpleName trans
+trans SimpleName InstanceofExpression SimpleType SimpleName t buffered socket
+t buffered socket SimpleName SimpleType CastExpression SimpleName trans
+tsock SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t buffered socket
+tsock SimpleName VariableDeclarationFragment CastExpression SimpleName trans
+t buffered socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tsock
+tsock SimpleName MethodInvocation SimpleName get client string
+client address SimpleName MethodInvocation SimpleName set
+client address SimpleName MethodInvocation MethodInvocation SimpleName tsock
+client address SimpleName MethodInvocation MethodInvocation SimpleName get client string
+set SimpleName MethodInvocation MethodInvocation SimpleName tsock
+set SimpleName MethodInvocation MethodInvocation SimpleName get client string
+get processor SimpleName SuperMethodInvocation SimpleName trans
+public Modifier MethodDeclaration SimpleType SimpleName t processor
+public Modifier MethodDeclaration SimpleName get processor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t transport
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trans
+t processor SimpleName SimpleType MethodDeclaration SimpleName get processor
+t processor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trans
+get processor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t transport
+get processor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trans
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t processor
+public Modifier TypeDeclaration MethodDeclaration SimpleName get processor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trans
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t processor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get processor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trans

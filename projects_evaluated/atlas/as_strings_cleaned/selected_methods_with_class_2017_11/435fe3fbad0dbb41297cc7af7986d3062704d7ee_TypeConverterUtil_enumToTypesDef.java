@@ -1,0 +1,78 @@
+atlas enum type SimpleName SimpleType SingleVariableDeclaration SimpleName enum type
+enum type SimpleName MethodInvocation SimpleName get enum def
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum type
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enum def
+atlas enum def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum def
+enum def SimpleName MethodInvocation SimpleName get name
+enum name SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum def
+enum name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum name
+enum def SimpleName MethodInvocation SimpleName get description
+enum desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum def
+enum desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum desc
+enum def SimpleName MethodInvocation SimpleName get type version
+enum version SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum def
+enum version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum version
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum value
+enum def SimpleName MethodInvocation SimpleName get element defs
+get enum values SimpleName MethodInvocation MethodInvocation SimpleName enum def
+get enum values SimpleName MethodInvocation MethodInvocation SimpleName get element defs
+enum values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get enum values
+enum values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum def
+enum values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get element defs
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName enum name
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName enum desc
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName enum version
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName enum values
+enum name SimpleName ClassInstanceCreation SimpleName enum desc
+enum name SimpleName ClassInstanceCreation SimpleName enum version
+enum name SimpleName ClassInstanceCreation SimpleName enum values
+enum desc SimpleName ClassInstanceCreation SimpleName enum version
+enum desc SimpleName ClassInstanceCreation SimpleName enum values
+enum version SimpleName ClassInstanceCreation SimpleName enum values
+enum type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName enum type definition
+enum type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName enum name
+enum type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName enum desc
+enum type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName enum version
+enum type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName enum values
+enum type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum type def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName enum type def
+as list SimpleName MethodInvocation SimpleName enum type def
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName enum type def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName types def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName enum type def
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName types def
+private Modifier MethodDeclaration SimpleName enum to types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum type
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName types def
+static Modifier MethodDeclaration SimpleName enum to types def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum type
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+types def SimpleName SimpleType MethodDeclaration SimpleName enum to types def
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enum type
+enum to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum type
+enum to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enum type
+enum to types def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName enum to types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName enum to types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum type

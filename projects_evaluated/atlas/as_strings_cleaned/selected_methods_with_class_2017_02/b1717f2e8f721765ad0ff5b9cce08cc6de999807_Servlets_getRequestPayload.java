@@ -1,0 +1,48 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName InstanceofExpression SimpleType SimpleName local servlet request
+local servlet request SimpleName SimpleType CastExpression SimpleName request
+request SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get payload
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+request SimpleName MethodInvocation SimpleName get input stream
+io utils SimpleName MethodInvocation SimpleName copy
+io utils SimpleName MethodInvocation MethodInvocation SimpleName request
+io utils SimpleName MethodInvocation MethodInvocation SimpleName get input stream
+io utils SimpleName MethodInvocation SimpleName writer
+copy SimpleName MethodInvocation MethodInvocation SimpleName request
+copy SimpleName MethodInvocation MethodInvocation SimpleName get input stream
+copy SimpleName MethodInvocation SimpleName writer
+request SimpleName MethodInvocation MethodInvocation SimpleName writer
+get input stream SimpleName MethodInvocation MethodInvocation SimpleName writer
+writer SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get request payload
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get request payload
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get request payload
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get request payload SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get request payload SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get request payload SimpleName MethodDeclaration SimpleType SimpleName io exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request payload
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request payload
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

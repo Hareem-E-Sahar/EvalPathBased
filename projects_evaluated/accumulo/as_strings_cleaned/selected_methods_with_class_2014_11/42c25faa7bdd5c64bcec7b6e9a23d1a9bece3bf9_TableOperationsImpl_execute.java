@@ -1,0 +1,66 @@
+client serviceclient QualifiedName SimpleType SingleVariableDeclaration SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+context SimpleName MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName check table class
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName table name
+client SimpleName MethodInvocation SimpleName class name
+check table class SimpleName MethodInvocation MethodInvocation SimpleName tracer
+check table class SimpleName MethodInvocation MethodInvocation SimpleName trace info
+check table class SimpleName MethodInvocation MethodInvocation SimpleName context
+check table class SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+check table class SimpleName MethodInvocation SimpleName table name
+check table class SimpleName MethodInvocation SimpleName class name
+check table class SimpleName MethodInvocation SimpleName as type name
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+tracer SimpleName MethodInvocation MethodInvocation SimpleName table name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName table name
+tracer SimpleName MethodInvocation MethodInvocation SimpleName class name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName class name
+tracer SimpleName MethodInvocation MethodInvocation SimpleName as type name
+trace info SimpleName MethodInvocation MethodInvocation SimpleName as type name
+context SimpleName MethodInvocation MethodInvocation SimpleName table name
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName table name
+context SimpleName MethodInvocation MethodInvocation SimpleName class name
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName class name
+context SimpleName MethodInvocation MethodInvocation SimpleName as type name
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName as type name
+table name SimpleName MethodInvocation SimpleName class name
+table name SimpleName MethodInvocation SimpleName as type name
+class name SimpleName MethodInvocation SimpleName as type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+boolean SimpleName SimpleType MethodDeclaration SimpleName execute
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+boolean SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

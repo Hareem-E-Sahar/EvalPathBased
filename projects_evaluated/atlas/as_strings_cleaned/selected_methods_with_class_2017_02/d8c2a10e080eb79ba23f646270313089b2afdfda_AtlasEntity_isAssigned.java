@@ -1,0 +1,41 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation SimpleName guid
+from string SimpleName MethodInvocation SimpleName guid
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier static
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName is assigned
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is assigned
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is assigned
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is assigned
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is assigned SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is assigned SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+is assigned SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is assigned
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is assigned
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

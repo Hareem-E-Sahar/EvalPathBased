@@ -1,0 +1,128 @@
+int PrimitiveType SingleVariableDeclaration SimpleName element number
+instance property value SimpleName SimpleType SingleVariableDeclaration SimpleName property value
+array count SimpleName InfixExpression SimpleName element number
+array values SimpleName Assignment ClassInstanceCreation SimpleType SimpleName instance properties
+integer SimpleName SimpleType ClassInstanceCreation SimpleName element number
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+element number SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+array values SimpleName MethodInvocation SimpleName set property
+array values SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName element number
+array values SimpleName MethodInvocation MethodInvocation SimpleName to string
+array values SimpleName MethodInvocation SimpleName property value
+set property SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName element number
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation SimpleName property value
+element number SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName property value
+to string SimpleName MethodInvocation MethodInvocation SimpleName property value
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codearray out of bounds
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codearray out of bounds
+error code SimpleName MethodInvocation SimpleName get error message id
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+integer SimpleName SimpleType ClassInstanceCreation SimpleName element number
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+element number SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+integer SimpleName SimpleType ClassInstanceCreation SimpleName array count
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+array count SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+error code SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+error code SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName element number
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName array count
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get formatted error message SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName element number
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName array count
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral set array value
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation StringLiteral set array value
+get http error code SimpleName MethodInvocation ClassInstanceCreation StringLiteral set array value
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral set array value
+get name SimpleName MethodInvocation ClassInstanceCreation StringLiteral set array value
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+set array value StringLiteral ClassInstanceCreation SimpleName error message
+set array value StringLiteral ClassInstanceCreation MethodInvocation SimpleName error code
+set array value StringLiteral ClassInstanceCreation MethodInvocation SimpleName get system action
+set array value StringLiteral ClassInstanceCreation MethodInvocation SimpleName error code
+set array value StringLiteral ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set array value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance property value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property value
+void PrimitiveType MethodDeclaration SimpleName set array value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element number
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance property value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property value
+set array value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set array value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element number
+set array value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance property value
+set array value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property value
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property value
+element number SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set array value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element number
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set array value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element number
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property value

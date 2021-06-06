@@ -1,0 +1,25 @@
+cached block SimpleName SimpleType SingleVariableDeclaration SimpleName block
+block SimpleName MethodInvocation SimpleName heap size
+total size SimpleName Assignment MethodInvocation SimpleName block
+total size SimpleName Assignment MethodInvocation SimpleName heap size
+queue SimpleName MethodInvocation SimpleName add
+queue SimpleName MethodInvocation SimpleName block
+add SimpleName MethodInvocation SimpleName block
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName block
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName block
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached block
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block

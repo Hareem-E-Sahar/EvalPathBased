@@ -1,0 +1,43 @@
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration SimpleName watcher
+table counts SimpleName SimpleType SingleVariableDeclaration SimpleName counts
+watcher SimpleName MethodInvocation SimpleName get stats
+watcher SimpleName MethodInvocation MethodInvocation SimpleName values
+get stats SimpleName MethodInvocation MethodInvocation SimpleName values
+counts SimpleName MethodInvocation SimpleName assigned
+counts SimpleName MethodInvocation SimpleName hosted
+counts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName counts
+counts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hosted
+assigned SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName counts
+assigned SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hosted
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName counts
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName assigned
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName counts
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName hosted
+counts SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+watcher SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName watchers
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+watchers SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName total assigned or hosted
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName watchers
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName total assigned or hosted
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName watchers
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+total assigned or hosted SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+total assigned or hosted SimpleName MethodDeclaration Block EnhancedForStatement SimpleName watchers
+total assigned or hosted SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName total assigned or hosted
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName total assigned or hosted

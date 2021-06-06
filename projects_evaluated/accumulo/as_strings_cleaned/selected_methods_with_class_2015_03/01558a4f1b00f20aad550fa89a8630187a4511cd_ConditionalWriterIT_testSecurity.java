@@ -1,0 +1,330 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+cluster SimpleName MethodInvocation SimpleName get client config
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client config
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client conf
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation SimpleName get boolean
+client conf SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName client conf
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sasl enabled
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName client conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sasl enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName client conf
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+get user SimpleName MethodInvocation NumberLiteral empty
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+user SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+cluster user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+user SimpleName MethodInvocation SimpleName get principal
+user SimpleName Assignment MethodInvocation SimpleName user
+user SimpleName Assignment MethodInvocation SimpleName get principal
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+create local user SimpleName MethodInvocation SimpleName user
+conn SimpleName MethodInvocation SimpleName security operations
+user SimpleName MethodInvocation SimpleName get password
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName user
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get password
+conn SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+create local user SimpleName MethodInvocation SimpleName user
+create local user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+create local user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user
+create local user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get password
+user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user
+user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get password
+get unique names SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName get unique names
+tables SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess SimpleName tables
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess SimpleName tables
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess SimpleName tables
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionread
+table SimpleName MethodInvocation QualifiedName table permissionread
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionwrite
+table SimpleName MethodInvocation QualifiedName table permissionwrite
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionread
+table SimpleName MethodInvocation QualifiedName table permissionread
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionwrite
+table SimpleName MethodInvocation QualifiedName table permissionwrite
+conn SimpleName MethodInvocation SimpleName get instance
+user SimpleName MethodInvocation SimpleName get token
+conn SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+get instance SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+user SimpleName MethodInvocation MethodInvocation SimpleName user
+user SimpleName MethodInvocation MethodInvocation SimpleName get token
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName user
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get token
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+r StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName condition
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral a
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral a
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral a
+x StringLiteral MethodInvocation StringLiteral a
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName statusaccepted
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusaccepted
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+statusaccepted QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+statusaccepted QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+statusaccepted QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+statusaccepted QualifiedName MethodInvocation MethodInvocation SimpleName get status
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cw
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName write
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cm
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get status
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+expected exception writing conditional mutation to table the user doesnt have write access to got status StringLiteral InfixExpression SimpleName status
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to table the user doesnt have write access to got status
+assert SimpleName MethodInvocation InfixExpression SimpleName status
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to table the user doesnt have write access to got status
+fail SimpleName MethodInvocation InfixExpression SimpleName status
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ase
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cw
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName write
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cm
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get status
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+expected exception writing conditional mutation to table the user doesnt have read access to got status StringLiteral InfixExpression SimpleName status
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to table the user doesnt have read access to got status
+assert SimpleName MethodInvocation InfixExpression SimpleName status
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to table the user doesnt have read access to got status
+fail SimpleName MethodInvocation InfixExpression SimpleName status
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ase
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName sasl enabled
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName sasl enabled
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test security
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test security
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName sasl enabled
+void PrimitiveType MethodDeclaration SimpleName test security
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName sasl enabled
+test security SimpleName MethodDeclaration SimpleType SimpleName exception
+test security SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test security SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test security SimpleName MethodDeclaration Block IfStatement SimpleName sasl enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test security
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test security
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

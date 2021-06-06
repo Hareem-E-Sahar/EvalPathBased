@@ -1,0 +1,131 @@
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName offline
+table operations SimpleName MethodInvocation MethodInvocation SimpleName offline
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+offline SimpleName MethodInvocation SimpleName table
+offline SimpleName MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation BooleanLiteral true
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+r StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName condition
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral a
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral a
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral a
+x StringLiteral MethodInvocation StringLiteral a
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName cw
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName write
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName cm
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get status
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get status
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+expected exception writing conditional mutation to offline table got status StringLiteral InfixExpression SimpleName status
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to offline table got status
+assert SimpleName MethodInvocation InfixExpression SimpleName status
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected exception writing conditional mutation to offline table got status
+fail SimpleName MethodInvocation InfixExpression SimpleName status
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+ae SimpleName MethodInvocation SimpleName get cause
+ae SimpleName MethodInvocation MethodInvocation SimpleName get class
+get cause SimpleName MethodInvocation MethodInvocation SimpleName get class
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation TypeLiteral SimpleType SimpleName table offline exception
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ae
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+assert SimpleName MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation TypeLiteral SimpleType SimpleName table offline exception
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ae
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get class
+cw SimpleName MethodInvocation SimpleName close
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral expected exception creating conditional writer to offline table
+fail SimpleName MethodInvocation StringLiteral expected exception creating conditional writer to offline table
+table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test offline
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test offline
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test offline
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test offline SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test offline
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test offline
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

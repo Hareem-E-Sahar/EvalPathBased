@@ -1,0 +1,403 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+opts SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+volume manager SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+uuid SimpleName SimpleType SingleVariableDeclaration SimpleName uuid
+path SimpleName SimpleType SingleVariableDeclaration SimpleName root tablet
+file status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fstat
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+volume configuration SimpleName MethodInvocation SimpleName get volume uris
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+get volume uris SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+get volume uris SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+init dirs SimpleName MethodInvocation SimpleName fs
+init dirs SimpleName MethodInvocation SimpleName uuid
+init dirs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+init dirs SimpleName MethodInvocation MethodInvocation SimpleName get volume uris
+init dirs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server configuration
+init dirs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+init dirs SimpleName MethodInvocation BooleanLiteral false
+fs SimpleName MethodInvocation SimpleName uuid
+fs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get volume uris
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server configuration
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName MethodInvocation BooleanLiteral false
+uuid SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+uuid SimpleName MethodInvocation MethodInvocation SimpleName get volume uris
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server configuration
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get site configuration
+uuid SimpleName MethodInvocation BooleanLiteral false
+volume configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get volume uris SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+server configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+get site configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+server constants SimpleName MethodInvocation SimpleName get metadata table dirs
+paths SimpleName MethodInvocation MethodInvocation SimpleName server constants
+paths SimpleName MethodInvocation MethodInvocation SimpleName get metadata table dirs
+metadata table dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+metadata table dirs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server constants
+metadata table dirs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get metadata table dirs
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata table dirs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName paths
+server constants SimpleName MethodInvocation SimpleName get metadata table dirs
+volume configuration SimpleName MethodInvocation SimpleName prefix
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName server constants
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get metadata table dirs
+volume configuration SimpleName MethodInvocation SimpleName table tablets tablet dir
+prefix SimpleName MethodInvocation MethodInvocation SimpleName server constants
+prefix SimpleName MethodInvocation MethodInvocation SimpleName get metadata table dirs
+prefix SimpleName MethodInvocation SimpleName table tablets tablet dir
+server constants SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+get metadata table dirs SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+fs SimpleName MethodInvocation SimpleName choose
+fs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName prefix
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata table dirs
+fs SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+choose SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+choose SimpleName MethodInvocation MethodInvocation SimpleName prefix
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata table dirs
+choose SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+table metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+table metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName choose
+table metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName volume configuration
+table metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix
+table metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table metadata tablet dir
+server constants SimpleName MethodInvocation SimpleName get metadata table dirs
+volume configuration SimpleName MethodInvocation SimpleName prefix
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName server constants
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get metadata table dirs
+volume configuration SimpleName MethodInvocation QualifiedName constantsdefault tablet location
+prefix SimpleName MethodInvocation MethodInvocation SimpleName server constants
+prefix SimpleName MethodInvocation MethodInvocation SimpleName get metadata table dirs
+prefix SimpleName MethodInvocation QualifiedName constantsdefault tablet location
+server constants SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+get metadata table dirs SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+fs SimpleName MethodInvocation SimpleName choose
+fs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName prefix
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata table dirs
+fs SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+choose SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+choose SimpleName MethodInvocation MethodInvocation SimpleName prefix
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata table dirs
+choose SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+default metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+default metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName choose
+default metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName volume configuration
+default metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix
+default metadata tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default metadata tablet dir
+path SimpleName SimpleType SingleVariableDeclaration SimpleName mtd
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName mtd
+get file status SimpleName MethodInvocation SimpleName mtd
+fstat SimpleName Assignment MethodInvocation SimpleName fs
+fstat SimpleName Assignment MethodInvocation SimpleName get file status
+fstat SimpleName Assignment MethodInvocation SimpleName mtd
+fstat SimpleName MethodInvocation SimpleName is dir
+mtd SimpleName MethodInvocation SimpleName to string
+location StringLiteral InfixExpression MethodInvocation SimpleName mtd
+location StringLiteral InfixExpression MethodInvocation SimpleName to string
+location StringLiteral InfixExpression StringLiteral exists but is not a directory
+mtd SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+to string SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral location
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+fatal SimpleName MethodInvocation InfixExpression StringLiteral location
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName mtd
+mkdirs SimpleName MethodInvocation SimpleName mtd
+mtd SimpleName MethodInvocation SimpleName to string
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName mtd
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName metadata table dirs
+mtd SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName metadata table dirs
+server constants SimpleName MethodInvocation SimpleName get replication table dirs
+paths SimpleName MethodInvocation MethodInvocation SimpleName server constants
+paths SimpleName MethodInvocation MethodInvocation SimpleName get replication table dirs
+replication table dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName paths
+replication table dirs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server constants
+replication table dirs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get replication table dirs
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName replication table dirs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName paths
+server constants SimpleName MethodInvocation SimpleName get replication table dirs
+volume configuration SimpleName MethodInvocation SimpleName prefix
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName server constants
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get replication table dirs
+volume configuration SimpleName MethodInvocation SimpleName table tablets tablet dir
+prefix SimpleName MethodInvocation MethodInvocation SimpleName server constants
+prefix SimpleName MethodInvocation MethodInvocation SimpleName get replication table dirs
+prefix SimpleName MethodInvocation SimpleName table tablets tablet dir
+server constants SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+get replication table dirs SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+fs SimpleName MethodInvocation SimpleName choose
+fs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName prefix
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get replication table dirs
+fs SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+choose SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+choose SimpleName MethodInvocation MethodInvocation SimpleName prefix
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get replication table dirs
+choose SimpleName MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+table replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+table replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName choose
+table replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName volume configuration
+table replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix
+table replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table tablets tablet dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table replication tablet dir
+server constants SimpleName MethodInvocation SimpleName get replication table dirs
+volume configuration SimpleName MethodInvocation SimpleName prefix
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName server constants
+volume configuration SimpleName MethodInvocation MethodInvocation SimpleName get replication table dirs
+volume configuration SimpleName MethodInvocation QualifiedName constantsdefault tablet location
+prefix SimpleName MethodInvocation MethodInvocation SimpleName server constants
+prefix SimpleName MethodInvocation MethodInvocation SimpleName get replication table dirs
+prefix SimpleName MethodInvocation QualifiedName constantsdefault tablet location
+server constants SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+get replication table dirs SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+fs SimpleName MethodInvocation SimpleName choose
+fs SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName prefix
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get replication table dirs
+fs SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+choose SimpleName MethodInvocation MethodInvocation SimpleName volume configuration
+choose SimpleName MethodInvocation MethodInvocation SimpleName prefix
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+choose SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get replication table dirs
+choose SimpleName MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+default replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+default replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName choose
+default replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName volume configuration
+default replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix
+default replication tablet dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsdefault tablet location
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default replication tablet dir
+path SimpleName SimpleType SingleVariableDeclaration SimpleName mtd
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName mtd
+get file status SimpleName MethodInvocation SimpleName mtd
+fstat SimpleName Assignment MethodInvocation SimpleName fs
+fstat SimpleName Assignment MethodInvocation SimpleName get file status
+fstat SimpleName Assignment MethodInvocation SimpleName mtd
+fstat SimpleName MethodInvocation SimpleName is dir
+mtd SimpleName MethodInvocation SimpleName to string
+location StringLiteral InfixExpression MethodInvocation SimpleName mtd
+location StringLiteral InfixExpression MethodInvocation SimpleName to string
+location StringLiteral InfixExpression StringLiteral exists but is not a directory
+mtd SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+to string SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral location
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+fatal SimpleName MethodInvocation InfixExpression StringLiteral location
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName mtd
+mkdirs SimpleName MethodInvocation SimpleName mtd
+mtd SimpleName MethodInvocation SimpleName to string
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName mtd
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mtd
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName replication table dirs
+mtd SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName replication table dirs
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName root tablet
+get file status SimpleName MethodInvocation SimpleName root tablet
+fstat SimpleName Assignment MethodInvocation SimpleName fs
+fstat SimpleName Assignment MethodInvocation SimpleName get file status
+fstat SimpleName Assignment MethodInvocation SimpleName root tablet
+fstat SimpleName MethodInvocation SimpleName is dir
+root tablet SimpleName MethodInvocation SimpleName to string
+location StringLiteral InfixExpression MethodInvocation SimpleName root tablet
+location StringLiteral InfixExpression MethodInvocation SimpleName to string
+location StringLiteral InfixExpression StringLiteral exists but is not a directory
+root tablet SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+to string SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral location
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+fatal SimpleName MethodInvocation InfixExpression StringLiteral location
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName root tablet
+mkdirs SimpleName MethodInvocation SimpleName root tablet
+root tablet SimpleName MethodInvocation SimpleName to string
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName root tablet
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+root tablet SimpleName MethodInvocation SimpleName to string
+initialize table data SimpleName MethodInvocation SimpleName fs
+initialize table data SimpleName MethodInvocation QualifiedName metadata tableid
+initialize table data SimpleName MethodInvocation MethodInvocation SimpleName root tablet
+initialize table data SimpleName MethodInvocation MethodInvocation SimpleName to string
+initialize table data SimpleName MethodInvocation SimpleName table metadata tablet dir
+initialize table data SimpleName MethodInvocation SimpleName default metadata tablet dir
+fs SimpleName MethodInvocation QualifiedName metadata tableid
+fs SimpleName MethodInvocation MethodInvocation SimpleName root tablet
+fs SimpleName MethodInvocation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName table metadata tablet dir
+fs SimpleName MethodInvocation SimpleName default metadata tablet dir
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName root tablet
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName to string
+metadata tableid QualifiedName MethodInvocation SimpleName table metadata tablet dir
+metadata tableid QualifiedName MethodInvocation SimpleName default metadata tablet dir
+root tablet SimpleName MethodInvocation MethodInvocation SimpleName table metadata tablet dir
+to string SimpleName MethodInvocation MethodInvocation SimpleName table metadata tablet dir
+root tablet SimpleName MethodInvocation MethodInvocation SimpleName default metadata tablet dir
+to string SimpleName MethodInvocation MethodInvocation SimpleName default metadata tablet dir
+table metadata tablet dir SimpleName MethodInvocation SimpleName default metadata tablet dir
+create directories SimpleName MethodInvocation SimpleName fs
+create directories SimpleName MethodInvocation SimpleName table metadata tablet dir
+create directories SimpleName MethodInvocation SimpleName default metadata tablet dir
+fs SimpleName MethodInvocation SimpleName table metadata tablet dir
+fs SimpleName MethodInvocation SimpleName default metadata tablet dir
+table metadata tablet dir SimpleName MethodInvocation SimpleName default metadata tablet dir
+initialize table data SimpleName MethodInvocation SimpleName fs
+initialize table data SimpleName MethodInvocation QualifiedName replication tableid
+initialize table data SimpleName MethodInvocation SimpleName default metadata tablet dir
+initialize table data SimpleName MethodInvocation SimpleName table replication tablet dir
+initialize table data SimpleName MethodInvocation SimpleName default replication tablet dir
+fs SimpleName MethodInvocation QualifiedName replication tableid
+fs SimpleName MethodInvocation SimpleName default metadata tablet dir
+fs SimpleName MethodInvocation SimpleName table replication tablet dir
+fs SimpleName MethodInvocation SimpleName default replication tablet dir
+replication tableid QualifiedName MethodInvocation SimpleName default metadata tablet dir
+replication tableid QualifiedName MethodInvocation SimpleName table replication tablet dir
+replication tableid QualifiedName MethodInvocation SimpleName default replication tablet dir
+default metadata tablet dir SimpleName MethodInvocation SimpleName table replication tablet dir
+default metadata tablet dir SimpleName MethodInvocation SimpleName default replication tablet dir
+table replication tablet dir SimpleName MethodInvocation SimpleName default replication tablet dir
+create directories SimpleName MethodInvocation SimpleName fs
+create directories SimpleName MethodInvocation SimpleName table replication tablet dir
+create directories SimpleName MethodInvocation SimpleName default replication tablet dir
+fs SimpleName MethodInvocation SimpleName table replication tablet dir
+fs SimpleName MethodInvocation SimpleName default replication tablet dir
+table replication tablet dir SimpleName MethodInvocation SimpleName default replication tablet dir
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName metadata table dirs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+metadata table dirs SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+metadata table dirs SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName replication table dirs
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName replication table dirs
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier static
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier static
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName init file system
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName init file system
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName opts
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName opts
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName init file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName uuid
+void PrimitiveType MethodDeclaration SimpleName init file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uuid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName volume manager
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uuid
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+init file system SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+init file system SimpleName MethodDeclaration SimpleType SimpleName io exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+uuid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+uuid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+root tablet SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init file system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init file system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root tablet
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

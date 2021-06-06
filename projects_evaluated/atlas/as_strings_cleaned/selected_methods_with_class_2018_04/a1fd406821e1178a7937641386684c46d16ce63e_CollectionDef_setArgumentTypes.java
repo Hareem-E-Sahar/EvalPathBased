@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName primitive def category
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName argument types
+primitive def category SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName argument types
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName argument types
+argument types SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName argument types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set argument types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName argument types
+void PrimitiveType MethodDeclaration SimpleName set argument types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName argument types
+set argument types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName argument types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set argument types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argument types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set argument types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argument types

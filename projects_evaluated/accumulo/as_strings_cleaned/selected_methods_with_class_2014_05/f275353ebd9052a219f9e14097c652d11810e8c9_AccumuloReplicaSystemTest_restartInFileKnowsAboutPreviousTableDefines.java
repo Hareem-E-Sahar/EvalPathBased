@@ -1,0 +1,376 @@
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dos
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+keyseq QualifiedName Assignment NumberLiteral l
+keyevent QualifiedName Assignment QualifiedName log eventsdefine tablet
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+keytablet QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName key extent
+keytablet QualifiedName Assignment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+keytid QualifiedName Assignment NumberLiteral empty
+key SimpleName MethodInvocation SimpleName write
+key SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+value SimpleName MethodInvocation SimpleName write
+value SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+keyevent QualifiedName Assignment QualifiedName log eventsmutation
+uuid SimpleName MethodInvocation SimpleName random uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation SimpleName uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation SimpleName random uuid
+keyfilename QualifiedName Assignment InfixExpression StringLiteral accumulowalstserverport
+keyfilename QualifiedName Assignment InfixExpression MethodInvocation SimpleName uuid
+keyfilename QualifiedName Assignment InfixExpression MethodInvocation SimpleName random uuid
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+server mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+arrays SimpleName MethodInvocation SimpleType SimpleName mutation
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server mutation
+arrays SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType MethodInvocation SimpleName as list
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server mutation
+as list SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral row
+valuemutations QualifiedName Assignment MethodInvocation SimpleName arrays
+valuemutations QualifiedName Assignment MethodInvocation SimpleType SimpleName mutation
+valuemutations QualifiedName Assignment MethodInvocation SimpleName as list
+key SimpleName MethodInvocation SimpleName write
+key SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+value SimpleName MethodInvocation SimpleName write
+value SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+keyevent QualifiedName Assignment QualifiedName log eventsmutation
+keytid QualifiedName Assignment NumberLiteral empty
+uuid SimpleName MethodInvocation SimpleName random uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation SimpleName uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation SimpleName random uuid
+keyfilename QualifiedName Assignment InfixExpression StringLiteral accumulowalstserverport
+keyfilename QualifiedName Assignment InfixExpression MethodInvocation SimpleName uuid
+keyfilename QualifiedName Assignment InfixExpression MethodInvocation SimpleName random uuid
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+server mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+arrays SimpleName MethodInvocation SimpleType SimpleName mutation
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server mutation
+arrays SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType MethodInvocation SimpleName as list
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName server mutation
+as list SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral row
+valuemutations QualifiedName Assignment MethodInvocation SimpleName arrays
+valuemutations QualifiedName Assignment MethodInvocation SimpleType SimpleName mutation
+valuemutations QualifiedName Assignment MethodInvocation SimpleName as list
+key SimpleName MethodInvocation SimpleName write
+key SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+value SimpleName MethodInvocation SimpleName write
+value SimpleName MethodInvocation SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+dos SimpleName MethodInvocation SimpleName close
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+propertyreplication name QualifiedName MethodInvocation SimpleName get key
+conf map SimpleName MethodInvocation SimpleName put
+conf map SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication name
+conf map SimpleName MethodInvocation MethodInvocation SimpleName get key
+conf map SimpleName MethodInvocation StringLiteral source
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication name
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation StringLiteral source
+propertyreplication name QualifiedName MethodInvocation MethodInvocation StringLiteral source
+get key SimpleName MethodInvocation MethodInvocation StringLiteral source
+configuration copy SimpleName SimpleType ClassInstanceCreation SimpleName conf map
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration copy
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf map
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+ars SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName accumulo replica system
+accumulo replica system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ars
+ars SimpleName MethodInvocation SimpleName set conf
+ars SimpleName MethodInvocation SimpleName conf
+set conf SimpleName MethodInvocation SimpleName conf
+status SimpleName MethodInvocation SimpleName new builder
+status SimpleName MethodInvocation MethodInvocation SimpleName set begin
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set begin
+status SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new builder SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation NumberLiteral empty
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set end
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set end
+set begin SimpleName MethodInvocation MethodInvocation SimpleName set end
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set end
+status SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set end SimpleName MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set infinite end
+set end SimpleName MethodInvocation MethodInvocation SimpleName set infinite end
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set infinite end
+set begin SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+set end SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral true
+set infinite end SimpleName MethodInvocation BooleanLiteral true
+set end SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set closed
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set closed
+set infinite end SimpleName MethodInvocation MethodInvocation SimpleName set closed
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName set closed
+set end SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+set infinite end SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation BooleanLiteral false
+set closed SimpleName MethodInvocation BooleanLiteral false
+set infinite end SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set closed SimpleName MethodInvocation MethodInvocation SimpleName build
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName build
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set closed
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation BooleanLiteral false
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+baos SimpleName MethodInvocation SimpleName to byte array
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName baos
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to byte array
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral peer
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+peer StringLiteral ClassInstanceCreation StringLiteral empty
+peer StringLiteral ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+path SimpleName SimpleType ClassInstanceCreation StringLiteral accumulowalstserverportwal
+ars SimpleName MethodInvocation SimpleName get wal edits
+ars SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName replication target
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral peer
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+ars SimpleName MethodInvocation SimpleName dis
+ars SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+ars SimpleName MethodInvocation SimpleName status
+get wal edits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName replication target
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral peer
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get wal edits SimpleName MethodInvocation SimpleName dis
+get wal edits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+get wal edits SimpleName MethodInvocation SimpleName status
+get wal edits SimpleName MethodInvocation NumberLiteral l
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dis
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+peer StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName status
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral l
+peer StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+empty StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+empty StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tids
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+dis SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+dis SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+dis SimpleName MethodInvocation SimpleName status
+dis SimpleName MethodInvocation NumberLiteral l
+dis SimpleName MethodInvocation SimpleName tids
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName status
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral l
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tids
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+status SimpleName MethodInvocation NumberLiteral l
+status SimpleName MethodInvocation SimpleName tids
+l NumberLiteral MethodInvocation SimpleName tids
+repl SimpleName VariableDeclarationFragment MethodInvocation SimpleName ars
+repl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get wal edits
+repl SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral peer
+repl SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+repl SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+repl SimpleName VariableDeclarationFragment MethodInvocation SimpleName dis
+repl SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+repl SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+repl SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+repl SimpleName VariableDeclarationFragment MethodInvocation SimpleName tids
+wal replication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replentries consumed
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName replentries consumed
+empty NumberLiteral MethodInvocation QualifiedName replentries consumed
+replwal edits QualifiedName MethodInvocation SimpleName get edits size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replwal edits
+assert SimpleName MethodInvocation MethodInvocation SimpleName get edits size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName replwal edits
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get edits size
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName replwal edits
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get edits size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replsize in records
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName replsize in records
+empty NumberLiteral MethodInvocation QualifiedName replsize in records
+assert SimpleName MethodInvocation SimpleName assert not equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replsize in bytes
+assert not equals SimpleName MethodInvocation NumberLiteral empty
+assert not equals SimpleName MethodInvocation QualifiedName replsize in bytes
+empty NumberLiteral MethodInvocation QualifiedName replsize in bytes
+status SimpleName MethodInvocation SimpleName new builder
+status SimpleName MethodInvocation SimpleName status
+new builder SimpleName MethodInvocation SimpleName status
+status SimpleName MethodInvocation MethodInvocation SimpleName set begin
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set begin
+status SimpleName MethodInvocation MethodInvocation SimpleName set begin
+status SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new builder SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+status SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set begin SimpleName MethodInvocation NumberLiteral empty
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set begin SimpleName MethodInvocation MethodInvocation SimpleName build
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName build
+status SimpleName Assignment MethodInvocation MethodInvocation SimpleName set begin
+status SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+status SimpleName Assignment MethodInvocation SimpleName build
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral peer
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+peer StringLiteral ClassInstanceCreation StringLiteral empty
+peer StringLiteral ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+path SimpleName SimpleType ClassInstanceCreation StringLiteral accumulowalstserverportwal
+ars SimpleName MethodInvocation SimpleName get wal edits
+ars SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName replication target
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral peer
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+ars SimpleName MethodInvocation SimpleName dis
+ars SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+ars SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+ars SimpleName MethodInvocation SimpleName status
+get wal edits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName replication target
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral peer
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get wal edits SimpleName MethodInvocation SimpleName dis
+get wal edits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get wal edits SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+get wal edits SimpleName MethodInvocation SimpleName status
+get wal edits SimpleName MethodInvocation NumberLiteral l
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dis
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName dis
+peer StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName status
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral l
+peer StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+empty StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+empty StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+replication target SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tids
+peer StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+dis SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+dis SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+dis SimpleName MethodInvocation SimpleName status
+dis SimpleName MethodInvocation NumberLiteral l
+dis SimpleName MethodInvocation SimpleName tids
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName status
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation SimpleName status
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral l
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral l
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tids
+accumulowalstserverportwal StringLiteral ClassInstanceCreation MethodInvocation SimpleName tids
+status SimpleName MethodInvocation NumberLiteral l
+status SimpleName MethodInvocation SimpleName tids
+l NumberLiteral MethodInvocation SimpleName tids
+repl SimpleName Assignment MethodInvocation SimpleName ars
+repl SimpleName Assignment MethodInvocation SimpleName get wal edits
+repl SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral peer
+repl SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral empty
+repl SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral empty
+repl SimpleName Assignment MethodInvocation SimpleName dis
+repl SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral accumulowalstserverportwal
+repl SimpleName Assignment MethodInvocation SimpleName status
+repl SimpleName Assignment MethodInvocation NumberLiteral l
+repl SimpleName Assignment MethodInvocation SimpleName tids
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replentries consumed
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName replentries consumed
+empty NumberLiteral MethodInvocation QualifiedName replentries consumed
+replwal edits QualifiedName MethodInvocation SimpleName get edits size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replwal edits
+assert SimpleName MethodInvocation MethodInvocation SimpleName get edits size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName replwal edits
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get edits size
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName replwal edits
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get edits size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replsize in records
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName replsize in records
+empty NumberLiteral MethodInvocation QualifiedName replsize in records
+assert SimpleName MethodInvocation SimpleName assert not equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName replsize in bytes
+assert not equals SimpleName MethodInvocation NumberLiteral empty
+assert not equals SimpleName MethodInvocation QualifiedName replsize in bytes
+empty NumberLiteral MethodInvocation QualifiedName replsize in bytes
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName restart in file knows about previous table defines
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName restart in file knows about previous table defines
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName restart in file knows about previous table defines
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+restart in file knows about previous table defines SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName restart in file knows about previous table defines
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restart in file knows about previous table defines
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

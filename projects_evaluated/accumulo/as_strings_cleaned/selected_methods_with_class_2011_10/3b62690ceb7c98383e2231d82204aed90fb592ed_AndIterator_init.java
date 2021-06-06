@@ -1,0 +1,245 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+iterator environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral in and iteratorinit
+debug SimpleName MethodInvocation StringLiteral in and iteratorinit
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName column families option name
+get SimpleName MethodInvocation SimpleName column families option name
+decode columns SimpleName MethodInvocation MethodInvocation SimpleName options
+decode columns SimpleName MethodInvocation MethodInvocation SimpleName get
+decode columns SimpleName MethodInvocation MethodInvocation SimpleName column families option name
+data locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode columns
+data locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName options
+data locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+data locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column families option name
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName term values option name
+get SimpleName MethodInvocation SimpleName term values option name
+decode term values SimpleName MethodInvocation MethodInvocation SimpleName options
+decode term values SimpleName MethodInvocation MethodInvocation SimpleName get
+decode term values SimpleName MethodInvocation MethodInvocation SimpleName term values option name
+terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode term values
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName options
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName term values option name
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName not flags option name
+get SimpleName MethodInvocation SimpleName not flags option name
+decode booleans SimpleName MethodInvocation MethodInvocation SimpleName options
+decode booleans SimpleName MethodInvocation MethodInvocation SimpleName get
+decode booleans SimpleName MethodInvocation MethodInvocation SimpleName not flags option name
+not flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode booleans
+not flags SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName options
+not flags SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+not flags SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName not flags option name
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName not flags
+termslength QualifiedName InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral and iterator requires two or more columns families
+boolean PrimitiveType ArrayType ArrayCreation QualifiedName termslength
+not flags SimpleName Assignment ArrayCreation ArrayType PrimitiveType boolean
+not flags SimpleName Assignment ArrayCreation QualifiedName termslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName termslength
+not flags SimpleName ArrayAccess SimpleName i
+not flags SimpleName ArrayAccess Assignment BooleanLiteral false
+i SimpleName ArrayAccess Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName termslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+termslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+not flags SimpleName ArrayAccess NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName not flagslength
+not flags SimpleName ArrayAccess SimpleName i
+not flags SimpleName ArrayAccess InfixExpression BooleanLiteral false
+i SimpleName ArrayAccess InfixExpression BooleanLiteral false
+terms SimpleName ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName terms
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+swap SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+swap SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName terms
+swap SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName swap
+terms SimpleName ArrayAccess NumberLiteral empty
+terms SimpleName ArrayAccess SimpleName i
+terms SimpleName ArrayAccess MethodInvocation SimpleName set
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName set
+terms SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName terms
+terms SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName terms
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName i
+set SimpleName MethodInvocation ArrayAccess SimpleName terms
+set SimpleName MethodInvocation ArrayAccess SimpleName i
+terms SimpleName ArrayAccess SimpleName i
+terms SimpleName ArrayAccess MethodInvocation SimpleName set
+i SimpleName ArrayAccess MethodInvocation SimpleName set
+terms SimpleName ArrayAccess MethodInvocation SimpleName swap
+i SimpleName ArrayAccess MethodInvocation SimpleName swap
+set SimpleName MethodInvocation SimpleName swap
+data locations SimpleName ArrayAccess NumberLiteral empty
+swap SimpleName MethodInvocation SimpleName set
+swap SimpleName MethodInvocation ArrayAccess SimpleName data locations
+swap SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set SimpleName MethodInvocation ArrayAccess SimpleName data locations
+set SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+data locations SimpleName ArrayAccess NumberLiteral empty
+data locations SimpleName ArrayAccess SimpleName i
+data locations SimpleName ArrayAccess MethodInvocation SimpleName set
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName set
+data locations SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName data locations
+data locations SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName data locations
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName i
+set SimpleName MethodInvocation ArrayAccess SimpleName data locations
+set SimpleName MethodInvocation ArrayAccess SimpleName i
+data locations SimpleName ArrayAccess SimpleName i
+data locations SimpleName ArrayAccess MethodInvocation SimpleName set
+i SimpleName ArrayAccess MethodInvocation SimpleName set
+data locations SimpleName ArrayAccess MethodInvocation SimpleName swap
+i SimpleName ArrayAccess MethodInvocation SimpleName swap
+set SimpleName MethodInvocation SimpleName swap
+not flags SimpleName ArrayAccess NumberLiteral empty
+not flags SimpleName ArrayAccess Assignment BooleanLiteral false
+empty NumberLiteral ArrayAccess Assignment BooleanLiteral false
+not flags SimpleName ArrayAccess SimpleName i
+not flags SimpleName ArrayAccess Assignment BooleanLiteral true
+i SimpleName ArrayAccess Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName not flagslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+not flagslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+not flags SimpleName ArrayAccess NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral and iterator requires at least one column family without not
+term source SimpleName SimpleType ArrayType ArrayCreation QualifiedName data locationslength
+sources SimpleName Assignment ArrayCreation QualifiedName data locationslength
+sources SimpleName ArrayAccess NumberLiteral empty
+data locations SimpleName ArrayAccess NumberLiteral empty
+terms SimpleName ArrayAccess NumberLiteral empty
+term source SimpleName SimpleType ClassInstanceCreation SimpleName source
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName data locations
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName terms
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+source SimpleName ClassInstanceCreation ArrayAccess SimpleName data locations
+source SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+source SimpleName ClassInstanceCreation ArrayAccess SimpleName terms
+source SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName terms
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName terms
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+sources SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName source
+empty NumberLiteral ArrayAccess Assignment ClassInstanceCreation SimpleName source
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName data locationslength
+sources SimpleName ArrayAccess SimpleName i
+source SimpleName MethodInvocation SimpleName deep copy
+source SimpleName MethodInvocation SimpleName env
+deep copy SimpleName MethodInvocation SimpleName env
+data locations SimpleName ArrayAccess SimpleName i
+terms SimpleName ArrayAccess SimpleName i
+not flags SimpleName ArrayAccess SimpleName i
+term source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName source
+term source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName deep copy
+term source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName env
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName data locations
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName terms
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName not flags
+term source SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName data locations
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName data locations
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName data locations
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName terms
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName terms
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName terms
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName not flags
+source SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName not flags
+deep copy SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName not flags
+env SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName terms
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName terms
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName not flags
+data locations SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName not flags
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+terms SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName not flags
+terms SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName not flags
+i SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName data locationslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+data locationslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+sources count SimpleName Assignment QualifiedName data locationslength
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+init SimpleName MethodDeclaration SimpleType SimpleName io exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

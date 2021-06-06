@@ -1,0 +1,50 @@
+atlas clientapi QualifiedName SimpleType SingleVariableDeclaration SimpleName api
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName web resource
+api SimpleName MethodInvocation SimpleName get path
+web resource SimpleName MethodInvocation SimpleName path
+web resource SimpleName MethodInvocation MethodInvocation SimpleName api
+web resource SimpleName MethodInvocation MethodInvocation SimpleName get path
+path SimpleName MethodInvocation MethodInvocation SimpleName api
+path SimpleName MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName web resource
+when SimpleName MethodInvocation MethodInvocation SimpleName path
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName api
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+web resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName service
+web resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+then return SimpleName MethodInvocation SimpleName service
+get builder SimpleName MethodInvocation SimpleName service
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+web resourcebuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+private Modifier MethodDeclaration SimpleType QualifiedName web resourcebuilder
+private Modifier MethodDeclaration SimpleName setup builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas clientapi
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName api
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName web resource
+private Modifier MethodDeclaration Block ReturnStatement SimpleName builder
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SimpleName setup builder
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName web resource
+setup builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas clientapi
+setup builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api
+setup builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+setup builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName web resource
+setup builder SimpleName MethodDeclaration Block ReturnStatement SimpleName builder
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName web resource
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup builder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName web resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup builder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName web resource

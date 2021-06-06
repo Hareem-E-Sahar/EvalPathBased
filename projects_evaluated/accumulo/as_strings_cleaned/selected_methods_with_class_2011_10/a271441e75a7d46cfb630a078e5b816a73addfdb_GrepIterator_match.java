@@ -1,0 +1,34 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName ba
+index of SimpleName MethodInvocation SimpleName ba
+index of SimpleName MethodInvocation NumberLiteral empty
+index of SimpleName MethodInvocation QualifiedName balength
+index of SimpleName MethodInvocation SimpleName term
+ba SimpleName MethodInvocation NumberLiteral empty
+ba SimpleName MethodInvocation QualifiedName balength
+ba SimpleName MethodInvocation SimpleName term
+empty NumberLiteral MethodInvocation QualifiedName balength
+empty NumberLiteral MethodInvocation SimpleName term
+balength QualifiedName MethodInvocation SimpleName term
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ba SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+balength QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+term SimpleName MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName match
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ba
+boolean PrimitiveType MethodDeclaration SimpleName match
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ba
+match SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ba
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ba
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ba

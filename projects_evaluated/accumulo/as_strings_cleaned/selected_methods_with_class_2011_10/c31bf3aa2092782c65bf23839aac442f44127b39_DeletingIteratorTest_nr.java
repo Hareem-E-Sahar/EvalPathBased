@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName row
+long PrimitiveType SingleVariableDeclaration SimpleName ts
+nr SimpleName MethodInvocation SimpleName row
+nr SimpleName MethodInvocation SimpleName ts
+nr SimpleName MethodInvocation BooleanLiteral true
+row SimpleName MethodInvocation SimpleName ts
+row SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration SimpleType SimpleName range
+private Modifier MethodDeclaration SimpleName nr
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ts
+range SimpleName SimpleType MethodDeclaration SimpleName nr
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ts
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+nr SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ts
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SimpleName nr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ts
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SimpleName nr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ts

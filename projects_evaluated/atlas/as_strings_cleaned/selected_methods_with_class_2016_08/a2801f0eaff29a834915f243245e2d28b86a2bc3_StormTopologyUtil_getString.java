@@ -1,0 +1,124 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName flatten fields
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName flatten fields
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName flatten fields
+boolean PrimitiveType SingleVariableDeclaration SimpleName wrap with quote
+out str SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+flatten fields SimpleName MethodInvocation SimpleName is empty
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+flatten fields SimpleName MethodInvocation SimpleName entry set
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+join SimpleName MethodInvocation MethodInvocation SimpleName flatten fields
+join SimpleName MethodInvocation MethodInvocation SimpleName entry set
+\ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName joiner
+\ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName on
+\ StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral empty
+\ StringLiteral InfixExpression MethodInvocation SimpleName join
+\ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName flatten fields
+\ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry set
+\ StringLiteral InfixExpression StringLiteral \
+joiner SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+on SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+empty StringLiteral MethodInvocation MethodInvocation InfixExpression StringLiteral \
+join SimpleName MethodInvocation InfixExpression StringLiteral \
+flatten fields SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+entry set SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+out str SimpleName Assignment InfixExpression StringLiteral \
+out str SimpleName Assignment InfixExpression MethodInvocation SimpleName join
+out str SimpleName Assignment InfixExpression StringLiteral \
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+flatten fields SimpleName MethodInvocation SimpleName entry set
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName flatten fields
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+join SimpleName MethodInvocation MethodInvocation SimpleName flatten fields
+join SimpleName MethodInvocation MethodInvocation SimpleName entry set
+joiner SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+on SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+join SimpleName MethodInvocation InfixExpression StringLiteral empty
+flatten fields SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+entry set SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+out str SimpleName Assignment InfixExpression MethodInvocation SimpleName join
+out str SimpleName Assignment InfixExpression StringLiteral empty
+out str SimpleName MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName MethodInvocation SimpleName substring
+out str SimpleName MethodInvocation NumberLiteral empty
+out str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName out str
+out str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName out str
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName out str
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName Assignment MethodInvocation SimpleName out str
+out str SimpleName Assignment MethodInvocation SimpleName substring
+out str SimpleName Assignment MethodInvocation NumberLiteral empty
+out str SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+static Modifier MethodDeclaration Block ReturnStatement SimpleName out str
+string SimpleName SimpleType MethodDeclaration SimpleName get string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+get string SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+get string SimpleName MethodDeclaration Block ReturnStatement SimpleName out str
+flatten fields SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+flatten fields SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flatten fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wrap with quote

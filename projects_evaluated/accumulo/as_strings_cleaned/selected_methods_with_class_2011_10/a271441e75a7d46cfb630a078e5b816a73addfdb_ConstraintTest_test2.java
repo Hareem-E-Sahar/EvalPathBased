@@ -1,0 +1,420 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+boolean PrimitiveType SingleVariableDeclaration SimpleName do flush
+numeric errors SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName numeric errors
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+new mut SimpleName MethodInvocation StringLiteral r
+new mut SimpleName MethodInvocation StringLiteral cf
+new mut SimpleName MethodInvocation StringLiteral cq
+new mut SimpleName MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral empty
+cq StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName new mut
+bw SimpleName MethodInvocation MethodInvocation StringLiteral r
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cf
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cq
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName new mut
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral r
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cf
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cq
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+new mut SimpleName MethodInvocation StringLiteral r
+new mut SimpleName MethodInvocation StringLiteral cf
+new mut SimpleName MethodInvocation StringLiteral cq
+new mut SimpleName MethodInvocation StringLiteral im a bad value
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral im a bad value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral im a bad value
+cq StringLiteral MethodInvocation StringLiteral im a bad value
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName new mut
+bw SimpleName MethodInvocation MethodInvocation StringLiteral r
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cf
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cq
+bw SimpleName MethodInvocation MethodInvocation StringLiteral im a bad value
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName new mut
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral r
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cf
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cq
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral im a bad value
+bw SimpleName MethodInvocation SimpleName flush
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral didnt find a bad mutation
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName mre
+bw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation SimpleName table
+bw SimpleName Assignment MethodInvocation NumberLiteral empty
+bw SimpleName Assignment MethodInvocation NumberLiteral l
+bw SimpleName Assignment MethodInvocation NumberLiteral empty
+numeric errors SimpleName Assignment NumberLiteral empty
+new mut SimpleName MethodInvocation StringLiteral r
+new mut SimpleName MethodInvocation StringLiteral cf
+new mut SimpleName MethodInvocation StringLiteral cq
+new mut SimpleName MethodInvocation StringLiteral im a naughty value
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral im a naughty value
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral im a naughty value
+cq StringLiteral MethodInvocation StringLiteral im a naughty value
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName new mut
+bw SimpleName MethodInvocation MethodInvocation StringLiteral r
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cf
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cq
+bw SimpleName MethodInvocation MethodInvocation StringLiteral im a naughty value
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName new mut
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral r
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cf
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cq
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral im a naughty value
+new mut SimpleName MethodInvocation StringLiteral bad row
+new mut SimpleName MethodInvocation StringLiteral cf
+new mut SimpleName MethodInvocation StringLiteral cq
+new mut SimpleName MethodInvocation StringLiteral empty
+bad row StringLiteral MethodInvocation StringLiteral cf
+bad row StringLiteral MethodInvocation StringLiteral cq
+bad row StringLiteral MethodInvocation StringLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral empty
+cq StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName new mut
+bw SimpleName MethodInvocation MethodInvocation StringLiteral bad row
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cf
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cq
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName new mut
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral bad row
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cf
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cq
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+new mut SimpleName MethodInvocation StringLiteral r
+new mut SimpleName MethodInvocation StringLiteral cf
+new mut SimpleName MethodInvocation StringLiteral cq
+new mut SimpleName MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral empty
+cq StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName new mut
+bw SimpleName MethodInvocation MethodInvocation StringLiteral r
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cf
+bw SimpleName MethodInvocation MethodInvocation StringLiteral cq
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName new mut
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral r
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cf
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral cq
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+saw mre SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName saw mre
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+bw SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral test failed constraint did not catch bad mutation
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName mre
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName mre
+println SimpleName MethodInvocation SimpleName mre
+saw mre SimpleName Assignment BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName constraint violation summary
+mre SimpleName MethodInvocation SimpleName get constraint violation summaries
+cvsl SimpleName VariableDeclarationFragment MethodInvocation SimpleName mre
+cvsl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get constraint violation summaries
+cvsl SimpleName MethodInvocation SimpleName size
+cvsl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected constraints
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+expected SimpleName MethodInvocation SimpleName put
+expected SimpleName MethodInvocation StringLiteral orgapacheaccumuloexamplesconstraintsnumeric value constraint
+expected SimpleName MethodInvocation SimpleName numeric errors
+put SimpleName MethodInvocation StringLiteral orgapacheaccumuloexamplesconstraintsnumeric value constraint
+put SimpleName MethodInvocation SimpleName numeric errors
+orgapacheaccumuloexamplesconstraintsnumeric value constraint StringLiteral MethodInvocation SimpleName numeric errors
+expected SimpleName MethodInvocation SimpleName put
+expected SimpleName MethodInvocation StringLiteral orgapacheaccumuloexamplesconstraintsalpha num key constraint
+expected SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral orgapacheaccumuloexamplesconstraintsalpha num key constraint
+put SimpleName MethodInvocation NumberLiteral empty
+orgapacheaccumuloexamplesconstraintsalpha num key constraint StringLiteral MethodInvocation NumberLiteral empty
+constraint violation summary SimpleName SimpleType SingleVariableDeclaration SimpleName cvs
+expected SimpleName MethodInvocation SimpleName get
+expected SimpleName MethodInvocation QualifiedName cvsconstrain class
+get SimpleName MethodInvocation QualifiedName cvsconstrain class
+expected SimpleName MethodInvocation InfixExpression QualifiedName cvsnumber of violating mutations
+get SimpleName MethodInvocation InfixExpression QualifiedName cvsnumber of violating mutations
+cvsconstrain class QualifiedName MethodInvocation InfixExpression QualifiedName cvsnumber of violating mutations
+unexpected StringLiteral InfixExpression QualifiedName cvsconstrain class
+unexpected StringLiteral InfixExpression StringLiteral empty
+unexpected StringLiteral InfixExpression QualifiedName cvsnumber of violating mutations
+cvsconstrain class QualifiedName InfixExpression StringLiteral empty
+cvsconstrain class QualifiedName InfixExpression QualifiedName cvsnumber of violating mutations
+empty StringLiteral InfixExpression QualifiedName cvsnumber of violating mutations
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName cvsconstrain class
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName cvsnumber of violating mutations
+constraint violation summary SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cvsl
+cvs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cvsl
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral did not see mutations rejected exception
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+table SimpleName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral r
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected key or value StringLiteral InfixExpression StringLiteral empty
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral r
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cq
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+entry SimpleName MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected key or value StringLiteral InfixExpression StringLiteral empty
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName iter
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get key
+unexpected extra key or value StringLiteral InfixExpression StringLiteral empty
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName entry
+unexpected extra key or value StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression MethodInvocation SimpleName get value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected extra key or value
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName do flush
+do flush SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName do flush
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName do flush
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName do flush
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName do flush
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MethodDeclaration Block IfStatement SimpleName do flush
+test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do flush
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+do flush SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do flush
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName do flush
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

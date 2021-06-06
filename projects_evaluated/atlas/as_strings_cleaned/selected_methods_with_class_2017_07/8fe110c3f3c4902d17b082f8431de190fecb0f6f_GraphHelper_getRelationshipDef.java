@@ -1,0 +1,102 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas relationship type
+entity type SimpleName MethodInvocation SimpleName get relationship attribute type
+entity type SimpleName MethodInvocation SimpleName attribute name
+get relationship attribute type SimpleName MethodInvocation SimpleName attribute name
+relationship types SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+relationship types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attribute type
+relationship types SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas relationship def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+relationship types SimpleName MethodInvocation SimpleName size
+relationship types SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+entity vertex SimpleName MethodInvocation SimpleName get edges
+entity vertex SimpleName MethodInvocation QualifiedName atlas edge directionin
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionin
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionin QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity vertex
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas edge directionin
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation InfixExpression InfixExpression SimpleName ret
+has next SimpleName MethodInvocation InfixExpression InfixExpression SimpleName ret
+iter SimpleName MethodInvocation SimpleName next
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName iter
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName next
+get type name SimpleName MethodInvocation MethodInvocation SimpleName iter
+get type name SimpleName MethodInvocation MethodInvocation SimpleName next
+edge type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+edge type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+edge type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iter
+edge type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge type name
+atlas relationship type SimpleName SimpleType SingleVariableDeclaration SimpleName relation type
+relation type SimpleName MethodInvocation SimpleName get relationship def
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName relation type
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship def
+atlas relationship def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship def
+relationship def SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation SimpleName edge type name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName relationship def
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation SimpleName edge type name
+equals SimpleName MethodInvocation MethodInvocation SimpleName relationship def
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+edge type name SimpleName MethodInvocation MethodInvocation SimpleName relationship def
+edge type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+ret SimpleName Assignment SimpleName relationship def
+atlas relationship type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName relationship types
+relation type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName relationship types
+relationship types SimpleName MethodInvocation SimpleName get
+relationship types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+relationship types SimpleName MethodInvocation MethodInvocation SimpleName get relationship def
+get SimpleName MethodInvocation MethodInvocation SimpleName get relationship def
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get relationship def
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName relationship types
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+ret SimpleName Assignment MethodInvocation SimpleName get relationship def
+public Modifier MethodDeclaration SimpleType SimpleName atlas relationship def
+public Modifier MethodDeclaration SimpleName get relationship def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+atlas relationship def SimpleName SimpleType MethodDeclaration SimpleName get relationship def
+atlas relationship def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas relationship def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+atlas relationship def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get relationship def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

@@ -1,0 +1,314 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+final Modifier SingleVariableDeclaration SimpleName dgi bridge
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+final Modifier SingleVariableDeclaration SimpleType SimpleName hive event context
+final Modifier SingleVariableDeclaration SimpleName event
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName type
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName linked hash map
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName type
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration SimpleName tables
+linked hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+event SimpleName MethodInvocation SimpleName get outputs
+get entity by type SimpleName MethodInvocation MethodInvocation SimpleName event
+get entity by type SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+get entity by type SimpleName MethodInvocation QualifiedName typetable
+event SimpleName MethodInvocation MethodInvocation QualifiedName typetable
+get outputs SimpleName MethodInvocation MethodInvocation QualifiedName typetable
+write entity SimpleName SimpleType CastExpression MethodInvocation SimpleName get entity by type
+write entity SimpleName SimpleType CastExpression MethodInvocation QualifiedName typetable
+hive entity SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName write entity
+hive entity SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get entity by type
+hive entity SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName typetable
+final Modifier VariableDeclarationStatement SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hive entity
+write entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive entity
+hive entity SimpleName MethodInvocation SimpleName get table
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive entity
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive table
+hive table SimpleName MethodInvocation SimpleName get db name
+hive table SimpleName MethodInvocation SimpleName get table name
+dgi bridgehive client QualifiedName MethodInvocation SimpleName get table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName hive table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName get db name
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName hive table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+hive table SimpleName Assignment MethodInvocation QualifiedName dgi bridgehive client
+hive table SimpleName Assignment MethodInvocation SimpleName get table
+hive table SimpleName Assignment MethodInvocation MethodInvocation SimpleName hive table
+hive table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get db name
+hive table SimpleName Assignment MethodInvocation MethodInvocation SimpleName hive table
+hive table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+hive table SimpleName MethodInvocation SimpleName get data location
+hive table SimpleName MethodInvocation MethodInvocation SimpleName to string
+get data location SimpleName MethodInvocation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table
+lower SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data location
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower
+location SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lower
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+hive table SimpleName MethodInvocation SimpleName get table type
+table typeexternal table QualifiedName MethodInvocation SimpleName equals
+table typeexternal table QualifiedName MethodInvocation MethodInvocation SimpleName hive table
+table typeexternal table QualifiedName MethodInvocation MethodInvocation SimpleName get table type
+equals SimpleName MethodInvocation MethodInvocation SimpleName hive table
+equals SimpleName MethodInvocation MethodInvocation SimpleName get table type
+hive table SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName table typeexternal table
+hive table SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+event SimpleName MethodInvocation SimpleName get query str
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral registering external table process {}
+log SimpleName MethodInvocation MethodInvocation SimpleName event
+log SimpleName MethodInvocation MethodInvocation SimpleName get query str
+info SimpleName MethodInvocation StringLiteral registering external table process {}
+info SimpleName MethodInvocation MethodInvocation SimpleName event
+info SimpleName MethodInvocation MethodInvocation SimpleName get query str
+registering external table process {} StringLiteral MethodInvocation MethodInvocation SimpleName event
+registering external table process {} StringLiteral MethodInvocation MethodInvocation SimpleName get query str
+dfs entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs entity
+read entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs entity
+dfs entity SimpleName MethodInvocation SimpleName set typ
+dfs entity SimpleName MethodInvocation QualifiedName typedfs dir
+set typ SimpleName MethodInvocation QualifiedName typedfs dir
+dfs entity SimpleName MethodInvocation SimpleName set name
+dfs entity SimpleName MethodInvocation SimpleName location
+set name SimpleName MethodInvocation SimpleName location
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+read entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+read entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+dgi bridge SimpleName MethodInvocation SimpleName fill hdfs data set
+dgi bridge SimpleName MethodInvocation SimpleName location
+fill hdfs data set SimpleName MethodInvocation SimpleName location
+put SimpleName MethodInvocation SimpleName dfs entity
+put SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+put SimpleName MethodInvocation MethodInvocation SimpleName fill hdfs data set
+put SimpleName MethodInvocation MethodInvocation SimpleName location
+dfs entity SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+dfs entity SimpleName MethodInvocation MethodInvocation SimpleName fill hdfs data set
+dfs entity SimpleName MethodInvocation MethodInvocation SimpleName location
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+read entity SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+referenceable SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+hive inputs map SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity comparator
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+write entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+write entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation QualifiedName typetable
+get SimpleName MethodInvocation QualifiedName typetable
+put SimpleName MethodInvocation SimpleName hive entity
+put SimpleName MethodInvocation MethodInvocation SimpleName tables
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation QualifiedName typetable
+hive entity SimpleName MethodInvocation MethodInvocation SimpleName tables
+hive entity SimpleName MethodInvocation MethodInvocation SimpleName get
+hive entity SimpleName MethodInvocation MethodInvocation QualifiedName typetable
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+write entity SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+referenceable SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+hive outputs map SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity comparator
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+sorted ips SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity comparator
+hive inputs map SimpleName MethodInvocation SimpleName key set
+sorted ips SimpleName MethodInvocation SimpleName add all
+sorted ips SimpleName MethodInvocation MethodInvocation SimpleName hive inputs map
+sorted ips SimpleName MethodInvocation MethodInvocation SimpleName key set
+add all SimpleName MethodInvocation MethodInvocation SimpleName hive inputs map
+add all SimpleName MethodInvocation MethodInvocation SimpleName key set
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+tree set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity comparator
+sorted ops SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity comparator
+hive outputs map SimpleName MethodInvocation SimpleName key set
+sorted ops SimpleName MethodInvocation SimpleName add all
+sorted ops SimpleName MethodInvocation MethodInvocation SimpleName hive outputs map
+sorted ops SimpleName MethodInvocation MethodInvocation SimpleName key set
+add all SimpleName MethodInvocation MethodInvocation SimpleName hive outputs map
+add all SimpleName MethodInvocation MethodInvocation SimpleName key set
+get process referenceable SimpleName MethodInvocation SimpleName dgi bridge
+get process referenceable SimpleName MethodInvocation SimpleName event
+get process referenceable SimpleName MethodInvocation SimpleName sorted ips
+get process referenceable SimpleName MethodInvocation SimpleName sorted ops
+get process referenceable SimpleName MethodInvocation SimpleName hive inputs map
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName sorted ips
+dgi bridge SimpleName MethodInvocation SimpleName sorted ops
+dgi bridge SimpleName MethodInvocation SimpleName hive inputs map
+dgi bridge SimpleName MethodInvocation SimpleName hive outputs map
+event SimpleName MethodInvocation SimpleName sorted ips
+event SimpleName MethodInvocation SimpleName sorted ops
+event SimpleName MethodInvocation SimpleName hive inputs map
+event SimpleName MethodInvocation SimpleName hive outputs map
+sorted ips SimpleName MethodInvocation SimpleName sorted ops
+sorted ips SimpleName MethodInvocation SimpleName hive inputs map
+sorted ips SimpleName MethodInvocation SimpleName hive outputs map
+sorted ops SimpleName MethodInvocation SimpleName hive inputs map
+sorted ops SimpleName MethodInvocation SimpleName hive outputs map
+hive inputs map SimpleName MethodInvocation SimpleName hive outputs map
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get process referenceable
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted ips
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted ops
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive inputs map
+process referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive outputs map
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process referenceable
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName get table qualified name
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName hive table
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get table qualified name SimpleName MethodInvocation SimpleName hive table
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName hive table
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName hive table
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dgi bridge
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+is create op SimpleName MethodInvocation SimpleName event
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral overriding process qualified name to {}
+log SimpleName MethodInvocation SimpleName table qualified name
+info SimpleName MethodInvocation StringLiteral overriding process qualified name to {}
+info SimpleName MethodInvocation SimpleName table qualified name
+overriding process qualified name to {} StringLiteral MethodInvocation SimpleName table qualified name
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+process referenceable SimpleName MethodInvocation SimpleName table qualified name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName table qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName table qualified name
+tables SimpleName MethodInvocation SimpleName values
+entities SimpleName MethodInvocation SimpleName add all
+entities SimpleName MethodInvocation MethodInvocation SimpleName tables
+entities SimpleName MethodInvocation MethodInvocation SimpleName values
+add all SimpleName MethodInvocation MethodInvocation SimpleName tables
+add all SimpleName MethodInvocation MethodInvocation SimpleName values
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation SimpleName process referenceable
+add SimpleName MethodInvocation SimpleName process referenceable
+event SimpleName MethodInvocation SimpleName get user
+hook notificationentity update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName event
+hook notificationentity update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+hook notificationentity update request QualifiedName SimpleType ClassInstanceCreation SimpleName entities
+event SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+event SimpleName MethodInvocation SimpleName add message
+event SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity update request
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+event SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+add message SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity update request
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+add message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+add message SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle external tables
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tables
+void PrimitiveType MethodDeclaration SimpleName handle external tables
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tables
+void PrimitiveType MethodDeclaration SimpleType SimpleName hive exception
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+handle external tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tables
+handle external tables SimpleName MethodDeclaration SimpleType SimpleName hive exception
+handle external tables SimpleName MethodDeclaration SimpleType SimpleName malformed url exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+hive exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName malformed url exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle external tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle external tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception

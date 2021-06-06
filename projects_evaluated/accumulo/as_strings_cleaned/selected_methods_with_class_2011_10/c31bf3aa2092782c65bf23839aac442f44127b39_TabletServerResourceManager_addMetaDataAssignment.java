@@ -1,0 +1,22 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName assignment handler
+assign meta data pool SimpleName MethodInvocation SimpleName execute
+assign meta data pool SimpleName MethodInvocation SimpleName assignment handler
+execute SimpleName MethodInvocation SimpleName assignment handler
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add meta data assignment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName assignment handler
+void PrimitiveType MethodDeclaration SimpleName add meta data assignment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName assignment handler
+add meta data assignment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+add meta data assignment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assignment handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add meta data assignment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add meta data assignment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment handler

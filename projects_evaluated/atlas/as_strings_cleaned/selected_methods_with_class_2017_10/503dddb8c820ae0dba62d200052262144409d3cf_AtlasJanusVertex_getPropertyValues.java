@@ -1,0 +1,59 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+vertex property SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName properties
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName property name
+properties SimpleName MethodInvocation SimpleName property name
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get wrapped element
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+it SimpleName MethodInvocation MethodInvocation SimpleName value
+next SimpleName MethodInvocation MethodInvocation SimpleName value
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+result SimpleName MethodInvocation MethodInvocation SimpleName value
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+add SimpleName MethodInvocation MethodInvocation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get property values
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get property values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SimpleName get property values
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property values
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property values
+get property values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get property values SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

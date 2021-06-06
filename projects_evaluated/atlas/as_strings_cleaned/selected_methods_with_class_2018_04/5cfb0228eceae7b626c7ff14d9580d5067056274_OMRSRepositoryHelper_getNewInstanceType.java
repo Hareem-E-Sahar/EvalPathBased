@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+type def summary SimpleName SimpleType SingleVariableDeclaration SimpleName type def summary
+method name SimpleName VariableDeclarationFragment StringLiteral get new instance type
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get new instance type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get new instance type
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+type def summary SimpleName MethodInvocation SimpleName get category
+type def summary SimpleName MethodInvocation SimpleName get name
+repository content manager SimpleName MethodInvocation SimpleName get instance type
+repository content manager SimpleName MethodInvocation SimpleName source name
+repository content manager SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+repository content manager SimpleName MethodInvocation MethodInvocation SimpleName get category
+repository content manager SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+repository content manager SimpleName MethodInvocation MethodInvocation SimpleName get name
+repository content manager SimpleName MethodInvocation SimpleName method name
+get instance type SimpleName MethodInvocation SimpleName source name
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName get category
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+get instance type SimpleName MethodInvocation MethodInvocation SimpleName get name
+get instance type SimpleName MethodInvocation SimpleName method name
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+source name SimpleName MethodInvocation MethodInvocation SimpleName get category
+source name SimpleName MethodInvocation MethodInvocation SimpleName type def summary
+source name SimpleName MethodInvocation MethodInvocation SimpleName get name
+source name SimpleName MethodInvocation SimpleName method name
+type def summary SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def summary
+type def summary SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type def summary
+get category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+type def summary SimpleName MethodInvocation MethodInvocation SimpleName method name
+get category SimpleName MethodInvocation MethodInvocation SimpleName method name
+type def summary SimpleName MethodInvocation MethodInvocation SimpleName method name
+get name SimpleName MethodInvocation MethodInvocation SimpleName method name
+public Modifier MethodDeclaration SimpleType SimpleName instance type
+public Modifier MethodDeclaration SimpleName get new instance type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+public Modifier MethodDeclaration SimpleType SimpleName type error exception
+instance type SimpleName SimpleType MethodDeclaration SimpleName get new instance type
+instance type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source name
+instance type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+instance type SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+get new instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get new instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+get new instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def summary
+get new instance type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+get new instance type SimpleName MethodDeclaration SimpleType SimpleName type error exception
+get new instance type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+source name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+type def summary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get new instance type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get new instance type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summary
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception

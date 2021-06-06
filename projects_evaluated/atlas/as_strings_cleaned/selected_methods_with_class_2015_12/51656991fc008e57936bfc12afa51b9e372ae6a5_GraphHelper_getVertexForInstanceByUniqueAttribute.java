@@ -1,0 +1,95 @@
+class type SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+class type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+fields SimpleName FieldAccess MethodInvocation SimpleName values
+get qualified field name SimpleName MethodInvocation SimpleName class type
+get qualified field name SimpleName MethodInvocation QualifiedName attribute infoname
+class type SimpleName MethodInvocation QualifiedName attribute infoname
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified field name
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+property key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attribute infoname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property key
+instance SimpleName MethodInvocation SimpleName get
+instance SimpleName MethodInvocation QualifiedName attribute infoname
+get SimpleName MethodInvocation QualifiedName attribute infoname
+get vertex for property SimpleName MethodInvocation SimpleName property key
+get vertex for property SimpleName MethodInvocation MethodInvocation SimpleName instance
+get vertex for property SimpleName MethodInvocation MethodInvocation SimpleName get
+get vertex for property SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+property key SimpleName MethodInvocation MethodInvocation SimpleName instance
+property key SimpleName MethodInvocation MethodInvocation SimpleName get
+property key SimpleName MethodInvocation MethodInvocation QualifiedName attribute infoname
+result SimpleName Assignment MethodInvocation SimpleName get vertex for property
+result SimpleName Assignment MethodInvocation SimpleName property key
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+result SimpleName Assignment MethodInvocation MethodInvocation QualifiedName attribute infoname
+instance SimpleName MethodInvocation SimpleName get
+instance SimpleName MethodInvocation QualifiedName attribute infoname
+get SimpleName MethodInvocation QualifiedName attribute infoname
+found vertex by unique attribute : StringLiteral InfixExpression SimpleName property key
+found vertex by unique attribute : StringLiteral InfixExpression StringLiteral =
+found vertex by unique attribute : StringLiteral InfixExpression MethodInvocation SimpleName instance
+found vertex by unique attribute : StringLiteral InfixExpression MethodInvocation SimpleName get
+found vertex by unique attribute : StringLiteral InfixExpression MethodInvocation QualifiedName attribute infoname
+property key SimpleName InfixExpression StringLiteral =
+property key SimpleName InfixExpression MethodInvocation SimpleName instance
+property key SimpleName InfixExpression MethodInvocation SimpleName get
+property key SimpleName InfixExpression MethodInvocation QualifiedName attribute infoname
+= StringLiteral InfixExpression MethodInvocation SimpleName instance
+= StringLiteral InfixExpression MethodInvocation SimpleName get
+= StringLiteral InfixExpression MethodInvocation QualifiedName attribute infoname
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found vertex by unique attribute :
+log SimpleName MethodInvocation InfixExpression SimpleName property key
+log SimpleName MethodInvocation InfixExpression StringLiteral =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName attribute infoname
+debug SimpleName MethodInvocation InfixExpression StringLiteral found vertex by unique attribute :
+debug SimpleName MethodInvocation InfixExpression SimpleName property key
+debug SimpleName MethodInvocation InfixExpression StringLiteral =
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+debug SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName attribute infoname
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+attribute info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SimpleName get vertex for instance by unique attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+vertex SimpleName SimpleType MethodDeclaration SimpleName get vertex for instance by unique attribute
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class type
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get vertex for instance by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+get vertex for instance by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type
+get vertex for instance by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+get vertex for instance by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get vertex for instance by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get vertex for instance by unique attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+class type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+class type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex for instance by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex for instance by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

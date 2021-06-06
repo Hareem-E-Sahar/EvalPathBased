@@ -1,0 +1,202 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship label
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName optional edge
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding edge for {} -> label {}
+log SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName relationship label
+debug SimpleName MethodInvocation StringLiteral finding edge for {} -> label {}
+debug SimpleName MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation SimpleName relationship label
+finding edge for {} -> label {} StringLiteral MethodInvocation SimpleName instance vertex
+finding edge for {} -> label {} StringLiteral MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName relationship label
+get edge for label SimpleName MethodInvocation SimpleName instance vertex
+get edge for label SimpleName MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+edge SimpleName Assignment MethodInvocation SimpleName graph helper
+edge SimpleName Assignment MethodInvocation SimpleName get edge for label
+edge SimpleName Assignment MethodInvocation SimpleName instance vertex
+edge SimpleName Assignment MethodInvocation SimpleName relationship label
+edge SimpleName Assignment SimpleName optional edge
+graph helper SimpleName MethodInvocation SimpleName element exists
+graph helper SimpleName MethodInvocation SimpleName edge
+element exists SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation QualifiedName constantsguid property key
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get single valued property SimpleName MethodInvocation SimpleName reference vertex
+get single valued property SimpleName MethodInvocation QualifiedName constantsguid property key
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+reference vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+reference vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get single valued property
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName graph helper
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get single valued property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName reference vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found vertex {} for label {} with guid {}
+log SimpleName MethodInvocation SimpleName reference vertex
+log SimpleName MethodInvocation SimpleName relationship label
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral found vertex {} for label {} with guid {}
+debug SimpleName MethodInvocation SimpleName reference vertex
+debug SimpleName MethodInvocation SimpleName relationship label
+debug SimpleName MethodInvocation SimpleName guid
+found vertex {} for label {} with guid {} StringLiteral MethodInvocation SimpleName reference vertex
+found vertex {} for label {} with guid {} StringLiteral MethodInvocation SimpleName relationship label
+found vertex {} for label {} with guid {} StringLiteral MethodInvocation SimpleName guid
+reference vertex SimpleName MethodInvocation SimpleName relationship label
+reference vertex SimpleName MethodInvocation SimpleName guid
+relationship label SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found composite mapping vertex to instance
+debug SimpleName MethodInvocation StringLiteral found composite mapping vertex to instance
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName MethodInvocation MethodInvocation SimpleName get instance v
+get SimpleName MethodInvocation MethodInvocation SimpleName get instance v
+request context SimpleName MethodInvocation MethodInvocation SimpleName guid
+get SimpleName MethodInvocation MethodInvocation SimpleName guid
+get instance v SimpleName MethodInvocation SimpleName guid
+cached SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request context
+cached SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+cached SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance v
+cached SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cached
+map graph to typed instance SimpleName MethodInvocation SimpleName guid
+map graph to typed instance SimpleName MethodInvocation SimpleName reference vertex
+guid SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation SimpleName get state as string
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+get state as string SimpleName MethodInvocation SimpleName reference vertex
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state as string
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+graph helper SimpleName MethodInvocation SimpleName get version
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+get version SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName int value
+get version SimpleName MethodInvocation MethodInvocation SimpleName int value
+reference vertex SimpleName MethodInvocation MethodInvocation SimpleName int value
+data type SimpleName MethodInvocation SimpleName get name
+id SimpleName SimpleType ClassInstanceCreation SimpleName guid
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName int value
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data type
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+id SimpleName SimpleType ClassInstanceCreation SimpleName state
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName graph helper
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get version
+guid SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName reference vertex
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName int value
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName data type
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+guid SimpleName ClassInstanceCreation SimpleName state
+int value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data type
+int value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName state
+get version SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName state
+reference vertex SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName state
+int value SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+data type SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName id
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName guid
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName int value
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName data type
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+reference id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName state
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference id
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found noncomposite adding id {}
+log SimpleName MethodInvocation SimpleName reference id
+debug SimpleName MethodInvocation StringLiteral found noncomposite adding id {}
+debug SimpleName MethodInvocation SimpleName reference id
+found noncomposite adding id {} StringLiteral MethodInvocation SimpleName reference id
+attribute infois composite QualifiedName IfStatement Block ReturnStatement SimpleName reference id
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block IfStatement QualifiedName attribute infois composite
+final Modifier VariableDeclarationStatement Block IfStatement QualifiedName attribute infois composite
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName map vertex to class reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+object SimpleName SimpleType MethodDeclaration SimpleName map vertex to class reference
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map vertex to class reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+relationship label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+relationship label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+relationship label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+optional edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map vertex to class reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map vertex to class reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

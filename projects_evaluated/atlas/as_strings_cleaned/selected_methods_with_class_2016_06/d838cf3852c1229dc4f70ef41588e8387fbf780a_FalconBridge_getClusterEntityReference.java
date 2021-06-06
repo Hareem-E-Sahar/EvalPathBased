@@ -1,0 +1,103 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName colo
+string SimpleName SimpleType SingleVariableDeclaration SimpleName colo
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral getting reference for entity {}
+log SimpleName MethodInvocation SimpleName cluster name
+info SimpleName MethodInvocation StringLiteral getting reference for entity {}
+info SimpleName MethodInvocation SimpleName cluster name
+getting reference for entity {} StringLiteral MethodInvocation SimpleName cluster name
+falcon data typesfalcon cluster QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon cluster
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+cluster ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+cluster ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon cluster
+cluster ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster ref
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s
+string SimpleName MethodInvocation SimpleName cluster name
+format SimpleName MethodInvocation StringLiteral s
+format SimpleName MethodInvocation SimpleName cluster name
+s StringLiteral MethodInvocation SimpleName cluster name
+cluster ref SimpleName MethodInvocation SimpleName set
+cluster ref SimpleName MethodInvocation QualifiedName atlas clientname
+cluster ref SimpleName MethodInvocation MethodInvocation SimpleName string
+cluster ref SimpleName MethodInvocation MethodInvocation SimpleName format
+cluster ref SimpleName MethodInvocation MethodInvocation StringLiteral s
+cluster ref SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation MethodInvocation SimpleName string
+set SimpleName MethodInvocation MethodInvocation SimpleName format
+set SimpleName MethodInvocation MethodInvocation StringLiteral s
+set SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName string
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName format
+atlas clientname QualifiedName MethodInvocation MethodInvocation StringLiteral s
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName cluster name
+cluster ref SimpleName MethodInvocation SimpleName set
+cluster ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+cluster ref SimpleName MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName cluster name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName cluster name
+cluster ref SimpleName MethodInvocation SimpleName set
+cluster ref SimpleName MethodInvocation QualifiedName falcon data model generatorcolo
+cluster ref SimpleName MethodInvocation SimpleName colo
+set SimpleName MethodInvocation QualifiedName falcon data model generatorcolo
+set SimpleName MethodInvocation SimpleName colo
+falcon data model generatorcolo QualifiedName MethodInvocation SimpleName colo
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get cluster entity reference
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName colo
+static Modifier MethodDeclaration SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SimpleName get cluster entity reference
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName colo
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cluster ref
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get cluster entity reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName colo
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get cluster entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName colo
+get cluster entity reference SimpleName MethodDeclaration Block ReturnStatement SimpleName cluster ref
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colo
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster entity reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colo
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster entity reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colo

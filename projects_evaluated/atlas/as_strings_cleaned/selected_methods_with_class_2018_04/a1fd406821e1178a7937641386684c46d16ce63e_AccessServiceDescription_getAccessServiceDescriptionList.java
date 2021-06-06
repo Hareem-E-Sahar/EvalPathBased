@@ -1,0 +1,84 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName access service description
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName access service description
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionasset catalog omas
+add SimpleName MethodInvocation QualifiedName access service descriptionasset catalog omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionasset consumer omas
+add SimpleName MethodInvocation QualifiedName access service descriptionasset consumer omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionasset owner omas
+add SimpleName MethodInvocation QualifiedName access service descriptionasset owner omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioncommunity profile omas
+add SimpleName MethodInvocation QualifiedName access service descriptioncommunity profile omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionconnected asset omas
+add SimpleName MethodInvocation QualifiedName access service descriptionconnected asset omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptiondata platform omas
+add SimpleName MethodInvocation QualifiedName access service descriptiondata platform omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptiondata science omas
+add SimpleName MethodInvocation QualifiedName access service descriptiondata science omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptiondevops omas
+add SimpleName MethodInvocation QualifiedName access service descriptiondevops omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptiongovernance engine omas
+add SimpleName MethodInvocation QualifiedName access service descriptiongovernance engine omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptiongovernance program omas
+add SimpleName MethodInvocation QualifiedName access service descriptiongovernance program omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioninformation infrastructure omas
+add SimpleName MethodInvocation QualifiedName access service descriptioninformation infrastructure omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioninformation landscape omas
+add SimpleName MethodInvocation QualifiedName access service descriptioninformation landscape omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioninformation process omas
+add SimpleName MethodInvocation QualifiedName access service descriptioninformation process omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioninformation protection omas
+add SimpleName MethodInvocation QualifiedName access service descriptioninformation protection omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptioninformation view omas
+add SimpleName MethodInvocation QualifiedName access service descriptioninformation view omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionmetadata discovery omas
+add SimpleName MethodInvocation QualifiedName access service descriptionmetadata discovery omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionprivacy office omas
+add SimpleName MethodInvocation QualifiedName access service descriptionprivacy office omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionproject management omas
+add SimpleName MethodInvocation QualifiedName access service descriptionproject management omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionsoftware development omas
+add SimpleName MethodInvocation QualifiedName access service descriptionsoftware development omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionstewardship action omas
+add SimpleName MethodInvocation QualifiedName access service descriptionstewardship action omas
+access service description list SimpleName MethodInvocation SimpleName add
+access service description list SimpleName MethodInvocation QualifiedName access service descriptionsubject area omas
+add SimpleName MethodInvocation QualifiedName access service descriptionsubject area omas
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName access service description
+public Modifier MethodDeclaration SimpleName get access service description list
+public Modifier MethodDeclaration Block ReturnStatement SimpleName access service description list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName access service description
+static Modifier MethodDeclaration SimpleName get access service description list
+static Modifier MethodDeclaration Block ReturnStatement SimpleName access service description list
+array list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get access service description list
+access service description SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get access service description list
+get access service description list SimpleName MethodDeclaration Block ReturnStatement SimpleName access service description list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get access service description list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get access service description list

@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition json
+metadata service SimpleName MethodInvocation SimpleName guid
+get entity definition json SimpleName MethodInvocation SimpleName guid
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition json
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity json
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entity json
+assert not null SimpleName MethodInvocation SimpleName entity json
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName entity json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName entity json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+entity json SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

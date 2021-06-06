@@ -1,0 +1,13 @@
+type reference SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type reference
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get message type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName message type
+type reference SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get message type
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get message type
+get message type SimpleName MethodDeclaration Block ReturnStatement SimpleName message type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message type

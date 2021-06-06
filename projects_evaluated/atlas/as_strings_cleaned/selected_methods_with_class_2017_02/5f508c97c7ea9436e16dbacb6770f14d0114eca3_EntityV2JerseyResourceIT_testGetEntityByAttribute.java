@@ -1,0 +1,79 @@
+hive db SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive db
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive db
+hive db SimpleName MethodInvocation SimpleName get attribute
+hive db SimpleName MethodInvocation SimpleName name
+get attribute SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName hive db
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+qualified name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+qualified name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hive db
+qualified name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+qualified name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+entities client v SimpleName MethodInvocation SimpleName get entity by attribute
+entities client v SimpleName MethodInvocation SimpleName database type v
+entities client v SimpleName MethodInvocation SimpleName name
+entities client v SimpleName MethodInvocation SimpleName qualified name
+get entity by attribute SimpleName MethodInvocation SimpleName database type v
+get entity by attribute SimpleName MethodInvocation SimpleName name
+get entity by attribute SimpleName MethodInvocation SimpleName qualified name
+database type v SimpleName MethodInvocation SimpleName name
+database type v SimpleName MethodInvocation SimpleName qualified name
+name SimpleName MethodInvocation SimpleName qualified name
+entities client v SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+database type v SimpleName MethodInvocation MethodInvocation SimpleName get
+name SimpleName MethodInvocation MethodInvocation SimpleName get
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName get
+entities client v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity by attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+database type v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+qualified name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+by attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entities client v
+by attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity by attribute
+by attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName database type v
+by attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+by attribute SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName qualified name
+by attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+by attribute SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName by attribute
+by attribute SimpleName MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName by attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation SimpleName database type v
+by attribute SimpleName MethodInvocation MethodInvocation SimpleName database type v
+get type name SimpleName MethodInvocation MethodInvocation SimpleName database type v
+by attribute SimpleName MethodInvocation SimpleName get attribute
+by attribute SimpleName MethodInvocation SimpleName name
+get attribute SimpleName MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName by attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation SimpleName qualified name
+by attribute SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+name SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get entity by attribute
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity by attribute
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity by attribute
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity by attribute SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity by attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity by attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

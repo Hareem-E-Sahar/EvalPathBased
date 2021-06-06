@@ -1,0 +1,225 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName connector
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+file SimpleName SimpleType SingleVariableDeclaration SimpleName output directory
+table name SimpleName InfixExpression StringLiteral cfg
+file SimpleName SimpleType ClassInstanceCreation SimpleName output directory
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cfg
+output directory SimpleName ClassInstanceCreation InfixExpression SimpleName table name
+output directory SimpleName ClassInstanceCreation InfixExpression StringLiteral cfg
+table backup SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+table backup SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName output directory
+table backup SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName table name
+table backup SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral cfg
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table backup
+file writer SimpleName SimpleType ClassInstanceCreation SimpleName table backup
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file writer
+writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table backup
+file writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+create table format SimpleName MethodInvocation SimpleName format
+create table format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName create table format
+writer SimpleName MethodInvocation MethodInvocation SimpleName format
+write SimpleName MethodInvocation MethodInvocation SimpleName create table format
+write SimpleName MethodInvocation MethodInvocation SimpleName format
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName p
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+get properties SimpleName MethodInvocation SimpleName table name
+p SimpleName MethodInvocation SimpleName get key
+p SimpleName MethodInvocation SimpleName get value
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation MethodInvocation SimpleName p
+props SimpleName MethodInvocation MethodInvocation SimpleName get key
+props SimpleName MethodInvocation MethodInvocation SimpleName p
+props SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName p
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName p
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table name
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+props SimpleName MethodInvocation SimpleName entry set
+prop SimpleName MethodInvocation SimpleName get key
+propertytable prefix QualifiedName MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable prefix
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytable prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation SimpleName get key
+get default config value SimpleName MethodInvocation MethodInvocation SimpleName prop
+get default config value SimpleName MethodInvocation MethodInvocation SimpleName get key
+default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default config value
+default value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prop
+default value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+prop SimpleName MethodInvocation SimpleName get value
+default value SimpleName MethodInvocation SimpleName equals
+default value SimpleName MethodInvocation MethodInvocation SimpleName prop
+default value SimpleName MethodInvocation MethodInvocation SimpleName get value
+equals SimpleName MethodInvocation MethodInvocation SimpleName prop
+equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName get
+site config SimpleName MethodInvocation MethodInvocation SimpleName prop
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName prop
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site config
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site config
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName site config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation SimpleName get key
+system config SimpleName MethodInvocation SimpleName get
+system config SimpleName MethodInvocation MethodInvocation SimpleName prop
+system config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName prop
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system config
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system config
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName system config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+prop SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName prop
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+table name SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName prop
+table name SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName get key
+table name SimpleName ArrayInitializer InfixExpression StringLiteral =
+table name SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName prop
+table name SimpleName ArrayInitializer InfixExpression MethodInvocation SimpleName get value
+config format SimpleName MethodInvocation SimpleName format
+config format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+format SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName config format
+writer SimpleName MethodInvocation MethodInvocation SimpleName format
+write SimpleName MethodInvocation MethodInvocation SimpleName config format
+write SimpleName MethodInvocation MethodInvocation SimpleName format
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName props
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+writer SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName print table configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName print table configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName output directory
+void PrimitiveType MethodDeclaration SimpleName print table configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName output directory
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connector
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+print table configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output directory
+print table configuration SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+print table configuration SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+output directory SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print table configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print table configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output directory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

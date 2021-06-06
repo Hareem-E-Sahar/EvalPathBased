@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get ordinal
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ordinal
+int PrimitiveType MethodDeclaration SimpleName get ordinal
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ordinal
+get ordinal SimpleName MethodDeclaration Block ReturnStatement SimpleName ordinal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ordinal
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ordinal

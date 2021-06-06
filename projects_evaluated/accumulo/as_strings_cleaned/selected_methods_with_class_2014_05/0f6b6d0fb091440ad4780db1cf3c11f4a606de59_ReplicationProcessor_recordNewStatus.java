@@ -1,0 +1,153 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName file path
+status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+creds SimpleName MethodInvocation SimpleName get principal
+creds SimpleName MethodInvocation SimpleName get token
+inst SimpleName MethodInvocation SimpleName get connector
+inst SimpleName MethodInvocation MethodInvocation SimpleName creds
+inst SimpleName MethodInvocation MethodInvocation SimpleName get principal
+inst SimpleName MethodInvocation MethodInvocation SimpleName creds
+inst SimpleName MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName creds
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation MethodInvocation SimpleName creds
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName inst
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName creds
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get principal
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName creds
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get token
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+replication table SimpleName MethodInvocation SimpleName get batch writer
+replication table SimpleName MethodInvocation SimpleName conn
+get batch writer SimpleName MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication table
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+file path SimpleName MethodInvocation SimpleName to string
+text format SimpleName MethodInvocation SimpleName short debug string
+text format SimpleName MethodInvocation SimpleName status
+short debug string SimpleName MethodInvocation SimpleName status
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral recording new status for {} {}
+log SimpleName MethodInvocation MethodInvocation SimpleName file path
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName text format
+log SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+log SimpleName MethodInvocation MethodInvocation SimpleName status
+debug SimpleName MethodInvocation StringLiteral recording new status for {} {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName file path
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName text format
+debug SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+debug SimpleName MethodInvocation MethodInvocation SimpleName status
+recording new status for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName file path
+recording new status for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+recording new status for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName text format
+recording new status for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName short debug string
+recording new status for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName status
+file path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text format
+file path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName short debug string
+file path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text format
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName short debug string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+file path SimpleName MethodInvocation SimpleName to string
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file path
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName file path
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+target SimpleName MethodInvocation SimpleName to text
+protobuf util SimpleName MethodInvocation SimpleName to value
+protobuf util SimpleName MethodInvocation SimpleName status
+to value SimpleName MethodInvocation SimpleName status
+work section SimpleName MethodInvocation SimpleName add
+work section SimpleName MethodInvocation SimpleName m
+work section SimpleName MethodInvocation MethodInvocation SimpleName target
+work section SimpleName MethodInvocation MethodInvocation SimpleName to text
+work section SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+work section SimpleName MethodInvocation MethodInvocation SimpleName to value
+work section SimpleName MethodInvocation MethodInvocation SimpleName status
+add SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation MethodInvocation SimpleName target
+add SimpleName MethodInvocation MethodInvocation SimpleName to text
+add SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+add SimpleName MethodInvocation MethodInvocation SimpleName to value
+add SimpleName MethodInvocation MethodInvocation SimpleName status
+m SimpleName MethodInvocation MethodInvocation SimpleName target
+m SimpleName MethodInvocation MethodInvocation SimpleName to text
+m SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+m SimpleName MethodInvocation MethodInvocation SimpleName to value
+m SimpleName MethodInvocation MethodInvocation SimpleName status
+target SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName protobuf util
+target SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to value
+target SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName protobuf util
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to value
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType UnionType SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+table not found exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error recording updated status for {}
+log SimpleName MethodInvocation SimpleName file path
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error recording updated status for {}
+error SimpleName MethodInvocation SimpleName file path
+error SimpleName MethodInvocation SimpleName e
+error recording updated status for {} StringLiteral MethodInvocation SimpleName file path
+error recording updated status for {} StringLiteral MethodInvocation SimpleName e
+file path SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName record new status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleName record new status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file path
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+record new status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+file path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+file path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record new status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record new status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

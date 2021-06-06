@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+result SimpleName VariableDeclarationFragment QualifiedName contextresult
+atlas export result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+atlas export result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName contextresult
+result SimpleName MethodInvocation SimpleName get data
+result SimpleName MethodInvocation MethodInvocation SimpleName get types def
+get data SimpleName MethodInvocation MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName result
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName has entity def
+types def SimpleName MethodInvocation SimpleName type name
+has entity def SimpleName MethodInvocation SimpleName type name
+type registry SimpleName MethodInvocation SimpleName get entity def by name
+type registry SimpleName MethodInvocation SimpleName type name
+get entity def by name SimpleName MethodInvocation SimpleName type name
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity def by name
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type definition
+types def SimpleName MethodInvocation SimpleName get entity defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName type definition
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName type definition
+add SimpleName MethodInvocation SimpleName type definition
+type definition SimpleName MethodInvocation SimpleName get name
+typedef StringLiteral InfixExpression MethodInvocation SimpleName type definition
+typedef StringLiteral InfixExpression MethodInvocation SimpleName get name
+result SimpleName MethodInvocation SimpleName increment metics counter
+result SimpleName MethodInvocation InfixExpression StringLiteral typedef
+result SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type definition
+result SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+increment metics counter SimpleName MethodInvocation InfixExpression StringLiteral typedef
+increment metics counter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type definition
+increment metics counter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add types as needed
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName add types as needed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+add types as needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add types as needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add types as needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add types as needed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add types as needed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add types as needed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

@@ -1,0 +1,30 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+params SimpleName MethodInvocation SimpleName key set
+params SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iterator enumeration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iterator
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get init parameter names
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get init parameter names
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get init parameter names
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enumeration
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get init parameter names
+enumeration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get init parameter names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get init parameter names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get init parameter names
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get init parameter names

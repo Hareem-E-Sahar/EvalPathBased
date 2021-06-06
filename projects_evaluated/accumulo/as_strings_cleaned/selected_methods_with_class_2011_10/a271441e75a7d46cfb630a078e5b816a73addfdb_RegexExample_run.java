@@ -1,0 +1,252 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get simple name
+get conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get simple name
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get simple name
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation SimpleName set zoo keeper instance
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation SimpleName job
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation SimpleName set input info
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+accumulo input format SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+accumulo input format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo input format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set input info SimpleName MethodInvocation SimpleName job
+set input info SimpleName MethodInvocation ArrayAccess SimpleName args
+set input info SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set input info SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set input info SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set input info SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set input info SimpleName MethodInvocation ArrayAccess SimpleName args
+set input info SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set input info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+job SimpleName MethodInvocation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+get bytes SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral regex
+empty NumberLiteral ClassInstanceCreation StringLiteral regex
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex iterator
+regex StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex iterator
+regex SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+regex SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+regex SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral regex
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName regex
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+reg ex iterator SimpleName MethodInvocation SimpleName set regexs
+reg ex iterator SimpleName MethodInvocation SimpleName regex
+reg ex iterator SimpleName MethodInvocation ArrayAccess SimpleName args
+reg ex iterator SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+reg ex iterator SimpleName MethodInvocation ArrayAccess SimpleName args
+reg ex iterator SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+reg ex iterator SimpleName MethodInvocation ArrayAccess SimpleName args
+reg ex iterator SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set regexs SimpleName MethodInvocation SimpleName regex
+set regexs SimpleName MethodInvocation ArrayAccess SimpleName args
+set regexs SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set regexs SimpleName MethodInvocation ArrayAccess SimpleName args
+set regexs SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set regexs SimpleName MethodInvocation ArrayAccess SimpleName args
+set regexs SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set regexs SimpleName MethodInvocation ArrayAccess SimpleName args
+set regexs SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+regex SimpleName MethodInvocation ArrayAccess SimpleName args
+regex SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+regex SimpleName MethodInvocation ArrayAccess SimpleName args
+regex SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+regex SimpleName MethodInvocation ArrayAccess SimpleName args
+regex SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+regex SimpleName MethodInvocation ArrayAccess SimpleName args
+regex SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+regex SimpleName MethodInvocation BooleanLiteral false
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+args SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+accumulo input format SimpleName MethodInvocation SimpleName add iterator
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName regex
+add iterator SimpleName MethodInvocation SimpleName job
+add iterator SimpleName MethodInvocation SimpleName regex
+job SimpleName MethodInvocation SimpleName regex
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName regex mapper
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName regex mapper
+job SimpleName MethodInvocation SimpleName set map output key class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key
+job SimpleName MethodInvocation SimpleName set map output value class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName value
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName value
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text output format
+args SimpleName ArrayAccess NumberLiteral empty
+path SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+path SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+text output format SimpleName MethodInvocation SimpleName set output path
+text output format SimpleName MethodInvocation SimpleName job
+text output format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+text output format SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName args
+text output format SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+set output path SimpleName MethodInvocation SimpleName job
+set output path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+set output path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName args
+set output path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+job SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName args
+job SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+set row regex StringLiteral InfixExpression ArrayAccess SimpleName args
+set row regex StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral set row regex
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral set row regex
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+set column family regex StringLiteral InfixExpression ArrayAccess SimpleName args
+set column family regex StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral set column family regex
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral set column family regex
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+set column qualifier regex StringLiteral InfixExpression ArrayAccess SimpleName args
+set column qualifier regex StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral set column qualifier regex
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral set column qualifier regex
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+set value regex StringLiteral InfixExpression ArrayAccess SimpleName args
+set value regex StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral set value regex
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral set value regex
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

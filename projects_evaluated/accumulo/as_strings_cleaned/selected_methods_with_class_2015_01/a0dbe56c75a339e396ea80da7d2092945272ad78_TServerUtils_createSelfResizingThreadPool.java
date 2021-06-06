@@ -1,0 +1,237 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName executor threads
+int PrimitiveType SingleVariableDeclaration SimpleName executor threads
+int PrimitiveType SingleVariableDeclaration SimpleName simple timer threads
+long PrimitiveType SingleVariableDeclaration SimpleName time between thread checks
+simple thread pool SimpleName SimpleType ClassInstanceCreation SimpleName executor threads
+simple thread pool SimpleName SimpleType ClassInstanceCreation StringLiteral client pool
+executor threads SimpleName ClassInstanceCreation StringLiteral client pool
+pool SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple thread pool
+pool SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName executor threads
+pool SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral client pool
+final Modifier VariableDeclarationStatement SimpleType SimpleName thread pool executor
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName pool
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName executor threads
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral client pool
+thread pool executor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pool
+simple timer SimpleName MethodInvocation SimpleName get instance
+simple timer SimpleName MethodInvocation SimpleName simple timer threads
+get instance SimpleName MethodInvocation SimpleName simple timer threads
+pool SimpleName MethodInvocation SimpleName get core pool size
+pool SimpleName MethodInvocation SimpleName get active count
+pool SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pool
+pool SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get active count
+get core pool size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pool
+get core pool size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get active count
+pool SimpleName MethodInvocation SimpleName get core pool size
+pool SimpleName MethodInvocation SimpleName get queue
+pool SimpleName MethodInvocation MethodInvocation SimpleName size
+get queue SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pool
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get queue
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation NumberLiteral empty
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pool
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get queue
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation NumberLiteral empty
+pool SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get queue SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+pool SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+pool SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName min
+pool SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+get core pool size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+get core pool size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName min
+get core pool size SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+larger SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName pool
+larger SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get core pool size
+larger SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName math
+larger SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName min
+larger SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName larger
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral increasing server thread pool size on {} to {}
+log SimpleName MethodInvocation SimpleName server name
+log SimpleName MethodInvocation SimpleName larger
+info SimpleName MethodInvocation StringLiteral increasing server thread pool size on {} to {}
+info SimpleName MethodInvocation SimpleName server name
+info SimpleName MethodInvocation SimpleName larger
+increasing server thread pool size on {} to {} StringLiteral MethodInvocation SimpleName server name
+increasing server thread pool size on {} to {} StringLiteral MethodInvocation SimpleName larger
+server name SimpleName MethodInvocation SimpleName larger
+pool SimpleName MethodInvocation SimpleName set maximum pool size
+pool SimpleName MethodInvocation SimpleName larger
+set maximum pool size SimpleName MethodInvocation SimpleName larger
+pool SimpleName MethodInvocation SimpleName set core pool size
+pool SimpleName MethodInvocation SimpleName larger
+set core pool size SimpleName MethodInvocation SimpleName larger
+pool SimpleName MethodInvocation SimpleName get core pool size
+pool SimpleName MethodInvocation SimpleName get active count
+pool SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get active count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pool SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get core pool size SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+pool SimpleName MethodInvocation SimpleName get core pool size
+pool SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get core pool size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName executor threads
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pool
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get core pool size
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+max SimpleName MethodInvocation SimpleName executor threads
+max SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pool
+max SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get core pool size
+max SimpleName MethodInvocation InfixExpression NumberLiteral empty
+executor threads SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pool
+executor threads SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get core pool size
+executor threads SimpleName MethodInvocation InfixExpression NumberLiteral empty
+smaller SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+smaller SimpleName VariableDeclarationFragment MethodInvocation SimpleName max
+smaller SimpleName VariableDeclarationFragment MethodInvocation SimpleName executor threads
+smaller SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName smaller
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName executor threads
+pool SimpleName MethodInvocation SimpleName get core pool size
+smaller SimpleName InfixExpression MethodInvocation SimpleName pool
+smaller SimpleName InfixExpression MethodInvocation SimpleName get core pool size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral decreasing server thread pool size on {} to {}
+log SimpleName MethodInvocation SimpleName server name
+log SimpleName MethodInvocation SimpleName smaller
+info SimpleName MethodInvocation StringLiteral decreasing server thread pool size on {} to {}
+info SimpleName MethodInvocation SimpleName server name
+info SimpleName MethodInvocation SimpleName smaller
+decreasing server thread pool size on {} to {} StringLiteral MethodInvocation SimpleName server name
+decreasing server thread pool size on {} to {} StringLiteral MethodInvocation SimpleName smaller
+server name SimpleName MethodInvocation SimpleName smaller
+pool SimpleName MethodInvocation SimpleName set core pool size
+pool SimpleName MethodInvocation SimpleName smaller
+set core pool size SimpleName MethodInvocation SimpleName smaller
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName schedule
+get instance SimpleName MethodInvocation MethodInvocation SimpleName schedule
+simple timer threads SimpleName MethodInvocation MethodInvocation SimpleName schedule
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+get instance SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+simple timer threads SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+simple timer SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+get instance SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+simple timer threads SimpleName MethodInvocation MethodInvocation SimpleName time between thread checks
+schedule SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+schedule SimpleName MethodInvocation SimpleName time between thread checks
+schedule SimpleName MethodInvocation SimpleName time between thread checks
+runnable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName time between thread checks
+runnable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName time between thread checks
+time between thread checks SimpleName MethodInvocation SimpleName time between thread checks
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName pool
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName thread pool executor
+public Modifier MethodDeclaration SimpleName create self resizing thread pool
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+static Modifier MethodDeclaration SimpleType SimpleName thread pool executor
+static Modifier MethodDeclaration SimpleName create self resizing thread pool
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+thread pool executor SimpleName SimpleType MethodDeclaration SimpleName create self resizing thread pool
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server name
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+thread pool executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create self resizing thread pool SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+create self resizing thread pool SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create self resizing thread pool SimpleName MethodDeclaration Block ReturnStatement SimpleName pool
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+executor threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+executor threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+executor threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+executor threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+simple timer threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+simple timer threads SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thread pool executor
+public Modifier TypeDeclaration MethodDeclaration SimpleName create self resizing thread pool
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thread pool executor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create self resizing thread pool
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor threads
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName simple timer threads
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time between thread checks

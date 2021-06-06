@@ -1,0 +1,49 @@
+bw config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+bw config SimpleName MethodInvocation SimpleName set max latency
+bw config SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set max latency SimpleName MethodInvocation NumberLiteral empty
+set max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName set timeout
+bw config SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set timeout SimpleName MethodInvocation NumberLiteral empty
+set timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName get max latency
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation QualifiedName longmax value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+longmax value QualifiedName MethodInvocation MethodInvocation SimpleName bw config
+longmax value QualifiedName MethodInvocation MethodInvocation SimpleName get max latency
+longmax value QualifiedName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName get timeout
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation QualifiedName longmax value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+longmax value QualifiedName MethodInvocation MethodInvocation SimpleName bw config
+longmax value QualifiedName MethodInvocation MethodInvocation SimpleName get timeout
+longmax value QualifiedName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test zero timeout and latency
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test zero timeout and latency
+void PrimitiveType MethodDeclaration SimpleName test zero timeout and latency
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test zero timeout and latency
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test zero timeout and latency

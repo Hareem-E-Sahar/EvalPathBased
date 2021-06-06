@@ -1,0 +1,216 @@
+servletsjson media type QualifiedName ArrayInitializer QualifiedName media typeapplication json
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName media typeapplication json
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+query param SimpleName SingleMemberAnnotation StringLiteral type
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+type StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName entity type
+type StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+query param SimpleName SingleMemberAnnotation StringLiteral property
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+property StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName attribute
+property StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+query param SimpleName SingleMemberAnnotation StringLiteral value
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration Modifier final
+value StringLiteral SingleMemberAnnotation SingleVariableDeclaration Modifier final
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+value StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName value
+value StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName value
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> entity resourceget entity {} {})
+log SimpleName MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation SimpleName attribute
+log SimpleName MethodInvocation SimpleName value
+debug SimpleName MethodInvocation StringLiteral ==> entity resourceget entity {} {})
+debug SimpleName MethodInvocation SimpleName entity type
+debug SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation SimpleName value
+==> entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName entity type
+==> entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName attribute
+==> entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName value
+entity type SimpleName MethodInvocation SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName value
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+entity resourceget entity StringLiteral InfixExpression SimpleName entity type
+entity resourceget entity StringLiteral InfixExpression StringLiteral empty
+entity resourceget entity StringLiteral InfixExpression SimpleName attribute
+entity resourceget entity StringLiteral InfixExpression StringLiteral empty
+entity resourceget entity StringLiteral InfixExpression SimpleName value
+entity type SimpleName InfixExpression StringLiteral empty
+entity type SimpleName InfixExpression SimpleName attribute
+entity type SimpleName InfixExpression StringLiteral empty
+entity type SimpleName InfixExpression SimpleName value
+entity type SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName attribute
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName value
+empty StringLiteral InfixExpression StringLiteral )
+attribute SimpleName InfixExpression StringLiteral empty
+attribute SimpleName InfixExpression SimpleName value
+attribute SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName value
+empty StringLiteral InfixExpression StringLiteral )
+value SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity resourceget entity
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName entity type
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName attribute
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName value
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity resourceget entity
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName entity type
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName attribute
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName value
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral entity resourceget entity
+perf log SimpleName MethodInvocation InfixExpression SimpleName entity type
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName attribute
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName value
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral entity resourceget entity
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName entity type
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName attribute
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName value
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName attribute
+is empty SimpleName MethodInvocation SimpleName attribute
+get entity list by type SimpleName MethodInvocation SimpleName entity type
+get entity definition by attribute SimpleName MethodInvocation SimpleName entity type
+get entity definition by attribute SimpleName MethodInvocation SimpleName attribute
+get entity definition by attribute SimpleName MethodInvocation SimpleName value
+entity type SimpleName MethodInvocation SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName value
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== entity resourceget entity {} {})
+log SimpleName MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation SimpleName attribute
+log SimpleName MethodInvocation SimpleName value
+debug SimpleName MethodInvocation StringLiteral <== entity resourceget entity {} {})
+debug SimpleName MethodInvocation SimpleName entity type
+debug SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation SimpleName value
+<== entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName entity type
+<== entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName attribute
+<== entity resourceget entity {} {}) StringLiteral MethodInvocation SimpleName value
+entity type SimpleName MethodInvocation SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName value
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get entity
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName get entity
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName get entity
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get entity
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get entity
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName get entity
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral value
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+response SimpleName SimpleType MethodDeclaration SimpleName get entity
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral type
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral property
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral value
+get entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

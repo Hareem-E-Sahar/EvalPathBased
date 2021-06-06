@@ -1,0 +1,20 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlashome
+get property SimpleName MethodInvocation StringLiteral atlashome
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get property SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+atlashome StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression StringLiteral models
+get property SimpleName MethodInvocation InfixExpression StringLiteral models
+atlashome StringLiteral MethodInvocation InfixExpression StringLiteral models
+fileseparator QualifiedName InfixExpression StringLiteral models
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get types dir
+string SimpleName SimpleType MethodDeclaration SimpleName get types dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get types dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get types dir

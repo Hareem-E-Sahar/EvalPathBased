@@ -1,0 +1,55 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName instance operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+propertytrace table QualifiedName MethodInvocation SimpleName get key
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytrace table
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytrace table
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+trace table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+trace table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+trace table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertytrace table
+trace table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trace table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation SimpleName trace table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName trace table
+exists SimpleName MethodInvocation SimpleName trace table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName offline
+table operations SimpleName MethodInvocation MethodInvocation SimpleName offline
+conn SimpleName MethodInvocation MethodInvocation SimpleName trace table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName trace table
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+offline SimpleName MethodInvocation SimpleName trace table
+offline SimpleName MethodInvocation BooleanLiteral true
+trace table SimpleName MethodInvocation BooleanLiteral true
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName offline trace table
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName offline trace table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName offline trace table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+offline trace table SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName offline trace table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName offline trace table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,45 @@
+create hive db instance v SimpleName MethodInvocation SimpleName database name
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive db instance v
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive db instance
+create instance SimpleName MethodInvocation SimpleName hive db instance
+db id SimpleName Assignment MethodInvocation SimpleName create instance
+db id SimpleName Assignment MethodInvocation SimpleName hive db instance
+notification consumer SimpleName SimpleType ParameterizedType SimpleType SimpleName entity notification
+notification interface SimpleName MethodInvocation SimpleName create consumers
+notification interface SimpleName MethodInvocation QualifiedName notification interfacenotification typeentities
+notification interface SimpleName MethodInvocation NumberLiteral empty
+create consumers SimpleName MethodInvocation QualifiedName notification interfacenotification typeentities
+create consumers SimpleName MethodInvocation NumberLiteral empty
+notification interfacenotification typeentities QualifiedName MethodInvocation NumberLiteral empty
+consumers SimpleName VariableDeclarationFragment MethodInvocation SimpleName notification interface
+consumers SimpleName VariableDeclarationFragment MethodInvocation SimpleName create consumers
+consumers SimpleName VariableDeclarationFragment MethodInvocation QualifiedName notification interfacenotification typeentities
+consumers SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+consumers SimpleName MethodInvocation SimpleName iterator
+consumers SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation SimpleName consumers
+notification consumer SimpleName Assignment MethodInvocation MethodInvocation SimpleName iterator
+notification consumer SimpleName Assignment MethodInvocation SimpleName next
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

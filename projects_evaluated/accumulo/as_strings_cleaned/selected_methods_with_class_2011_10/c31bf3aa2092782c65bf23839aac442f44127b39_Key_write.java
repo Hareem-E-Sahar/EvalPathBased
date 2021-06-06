@@ -1,0 +1,109 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+col family offset SimpleName VariableDeclarationFragment QualifiedName rowlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName col family offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName rowlength
+col family offset SimpleName InfixExpression QualifiedName col familylength
+col qualifier offset SimpleName VariableDeclarationFragment InfixExpression SimpleName col family offset
+col qualifier offset SimpleName VariableDeclarationFragment InfixExpression QualifiedName col familylength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName col qualifier offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName col family offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName col familylength
+col qualifier offset SimpleName InfixExpression QualifiedName col qualifierlength
+col visibility offset SimpleName VariableDeclarationFragment InfixExpression SimpleName col qualifier offset
+col visibility offset SimpleName VariableDeclarationFragment InfixExpression QualifiedName col qualifierlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName col visibility offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName col qualifier offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName col qualifierlength
+col visibility offset SimpleName InfixExpression QualifiedName col visibilitylength
+total len SimpleName VariableDeclarationFragment InfixExpression SimpleName col visibility offset
+total len SimpleName VariableDeclarationFragment InfixExpression QualifiedName col visibilitylength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName col visibility offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName col visibilitylength
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName col family offset
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation SimpleName col family offset
+out SimpleName MethodInvocation SimpleName col family offset
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName col qualifier offset
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation SimpleName col qualifier offset
+out SimpleName MethodInvocation SimpleName col qualifier offset
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName col visibility offset
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation SimpleName col visibility offset
+out SimpleName MethodInvocation SimpleName col visibility offset
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName total len
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation SimpleName total len
+out SimpleName MethodInvocation SimpleName total len
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName row
+write SimpleName MethodInvocation SimpleName row
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName col family
+write SimpleName MethodInvocation SimpleName col family
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName col qualifier
+write SimpleName MethodInvocation SimpleName col qualifier
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName col visibility
+write SimpleName MethodInvocation SimpleName col visibility
+writable utils SimpleName MethodInvocation SimpleName write v long
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName timestamp
+write v long SimpleName MethodInvocation SimpleName out
+write v long SimpleName MethodInvocation SimpleName timestamp
+out SimpleName MethodInvocation SimpleName timestamp
+out SimpleName MethodInvocation SimpleName write boolean
+out SimpleName MethodInvocation SimpleName deleted
+write boolean SimpleName MethodInvocation SimpleName deleted
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,25 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName constraint violation summary
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cvs list
+constraint violation summary SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cvs list
+cvs list SimpleName MethodInvocation SimpleName size
+cvs list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+something failed SimpleName Assignment BooleanLiteral true
+violations SimpleName MethodInvocation SimpleName add
+violations SimpleName MethodInvocation SimpleName cvs list
+add SimpleName MethodInvocation SimpleName cvs list
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName updated constraint violations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cvs list
+void PrimitiveType MethodDeclaration SimpleName updated constraint violations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cvs list
+updated constraint violations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cvs list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName updated constraint violations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cvs list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName updated constraint violations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cvs list

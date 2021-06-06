@@ -1,0 +1,42 @@
+i typed referenceable instance SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName typed instances
+repository SimpleName MethodInvocation SimpleName create entities
+repository SimpleName MethodInvocation SimpleName typed instances
+create entities SimpleName MethodInvocation SimpleName typed instances
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entities
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instances
+final Modifier VariableDeclarationStatement SimpleType SimpleName create update entities result
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName repository
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create entities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName typed instances
+create update entities result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get created entities
+on entities added SimpleName MethodInvocation MethodInvocation SimpleName result
+on entities added SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier MethodDeclaration SimpleName create entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+create update entities result SimpleName SimpleType MethodDeclaration SimpleName create entities
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+create update entities result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+create entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+create entities SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+create entities SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create entities SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

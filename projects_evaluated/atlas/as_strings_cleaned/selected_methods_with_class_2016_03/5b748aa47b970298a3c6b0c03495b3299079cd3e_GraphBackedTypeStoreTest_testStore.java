@@ -1,0 +1,31 @@
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ts SimpleName MethodInvocation SimpleName get type names
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type names
+type store SimpleName MethodInvocation SimpleName store
+type store SimpleName MethodInvocation SimpleName ts
+type store SimpleName MethodInvocation SimpleName type names
+store SimpleName MethodInvocation SimpleName ts
+store SimpleName MethodInvocation SimpleName type names
+ts SimpleName MethodInvocation SimpleName type names
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test store
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test store
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test store
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test store SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test store
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test store
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

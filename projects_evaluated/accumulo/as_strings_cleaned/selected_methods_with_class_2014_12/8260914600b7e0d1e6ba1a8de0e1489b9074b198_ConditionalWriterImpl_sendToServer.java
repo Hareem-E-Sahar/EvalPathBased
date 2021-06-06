@@ -1,0 +1,325 @@
+host and port SimpleName SimpleType SingleVariableDeclaration SimpleName location
+tablet server mutations SimpleName SimpleType ParameterizedType SimpleType SimpleName qc mutation
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+qc mutation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+tablet client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+tinfo SimpleName VariableDeclarationFragment MethodInvocation SimpleName tracer
+tinfo SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace info
+t info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tinfo
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName cmk
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName cmk
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName cmk
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName cmk
+mutable long SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+cmid SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutable long
+cmid SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+mutable long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmid
+session id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName session id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t conditional mutation
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t conditional mutation
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+compressed iters SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName compressed iterators
+compressed iterators SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName compressed iters
+convert mutations SimpleName MethodInvocation SimpleName mutations
+convert mutations SimpleName MethodInvocation SimpleName cmid to cm
+convert mutations SimpleName MethodInvocation SimpleName cmid
+convert mutations SimpleName MethodInvocation SimpleName tmutations
+convert mutations SimpleName MethodInvocation SimpleName compressed iters
+mutations SimpleName MethodInvocation SimpleName cmid to cm
+mutations SimpleName MethodInvocation SimpleName cmid
+mutations SimpleName MethodInvocation SimpleName tmutations
+mutations SimpleName MethodInvocation SimpleName compressed iters
+cmid to cm SimpleName MethodInvocation SimpleName cmid
+cmid to cm SimpleName MethodInvocation SimpleName tmutations
+cmid to cm SimpleName MethodInvocation SimpleName compressed iters
+cmid SimpleName MethodInvocation SimpleName tmutations
+cmid SimpleName MethodInvocation SimpleName compressed iters
+tmutations SimpleName MethodInvocation SimpleName compressed iters
+get client SimpleName MethodInvocation SimpleName location
+client SimpleName Assignment MethodInvocation SimpleName get client
+client SimpleName Assignment MethodInvocation SimpleName location
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tcm result
+reserve session id SimpleName MethodInvocation SimpleName location
+reserve session id SimpleName MethodInvocation SimpleName client
+reserve session id SimpleName MethodInvocation SimpleName tinfo
+location SimpleName MethodInvocation SimpleName client
+location SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation SimpleName tinfo
+session id SimpleName Assignment MethodInvocation SimpleName reserve session id
+session id SimpleName Assignment MethodInvocation SimpleName location
+session id SimpleName Assignment MethodInvocation SimpleName client
+session id SimpleName Assignment MethodInvocation SimpleName tinfo
+compressed iters SimpleName MethodInvocation SimpleName get symbol table
+client SimpleName MethodInvocation SimpleName conditional update
+client SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation QualifiedName session idsession id
+client SimpleName MethodInvocation SimpleName tmutations
+client SimpleName MethodInvocation MethodInvocation SimpleName compressed iters
+client SimpleName MethodInvocation MethodInvocation SimpleName get symbol table
+conditional update SimpleName MethodInvocation SimpleName tinfo
+conditional update SimpleName MethodInvocation QualifiedName session idsession id
+conditional update SimpleName MethodInvocation SimpleName tmutations
+conditional update SimpleName MethodInvocation MethodInvocation SimpleName compressed iters
+conditional update SimpleName MethodInvocation MethodInvocation SimpleName get symbol table
+tinfo SimpleName MethodInvocation QualifiedName session idsession id
+tinfo SimpleName MethodInvocation SimpleName tmutations
+tinfo SimpleName MethodInvocation MethodInvocation SimpleName compressed iters
+tinfo SimpleName MethodInvocation MethodInvocation SimpleName get symbol table
+session idsession id QualifiedName MethodInvocation SimpleName tmutations
+session idsession id QualifiedName MethodInvocation MethodInvocation SimpleName compressed iters
+session idsession id QualifiedName MethodInvocation MethodInvocation SimpleName get symbol table
+tmutations SimpleName MethodInvocation MethodInvocation SimpleName compressed iters
+tmutations SimpleName MethodInvocation MethodInvocation SimpleName get symbol table
+tresults SimpleName Assignment MethodInvocation SimpleName client
+tresults SimpleName Assignment MethodInvocation SimpleName conditional update
+tresults SimpleName Assignment MethodInvocation SimpleName tinfo
+tresults SimpleName Assignment MethodInvocation QualifiedName session idsession id
+tresults SimpleName Assignment MethodInvocation SimpleName tmutations
+tresults SimpleName Assignment MethodInvocation MethodInvocation SimpleName compressed iters
+tresults SimpleName Assignment MethodInvocation MethodInvocation SimpleName get symbol table
+no such scan id exception SimpleName SimpleType SingleVariableDeclaration SimpleName nssie
+invalidate session id SimpleName MethodInvocation SimpleName location
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName qc mutation
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName qc mutation
+tcm result SimpleName SimpleType SingleVariableDeclaration SimpleName tcm result
+tcm resultstatus QualifiedName InfixExpression QualifiedName tcm statusignored
+cmid to cm SimpleName MethodInvocation SimpleName get
+cmid to cm SimpleName MethodInvocation QualifiedName tcm resultcmid
+get SimpleName MethodInvocation QualifiedName tcm resultcmid
+cmk SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmid to cm
+cmk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cmk SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tcm resultcmid
+cmk SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmk
+ignored SimpleName MethodInvocation SimpleName add
+ignored SimpleName MethodInvocation QualifiedName cmkcm
+add SimpleName MethodInvocation QualifiedName cmkcm
+extents to invalidate SimpleName MethodInvocation SimpleName add
+extents to invalidate SimpleName MethodInvocation QualifiedName cmkke
+add SimpleName MethodInvocation QualifiedName cmkke
+cmid to cm SimpleName MethodInvocation SimpleName get
+cmid to cm SimpleName MethodInvocation QualifiedName tcm resultcmid
+get SimpleName MethodInvocation QualifiedName tcm resultcmid
+cmid to cm SimpleName MethodInvocation FieldAccess SimpleName cm
+get SimpleName MethodInvocation FieldAccess SimpleName cm
+tcm resultcmid QualifiedName MethodInvocation FieldAccess SimpleName cm
+qcm SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName cmid to cm
+qcm SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName get
+qcm SimpleName VariableDeclarationFragment FieldAccess MethodInvocation QualifiedName tcm resultcmid
+qcm SimpleName VariableDeclarationFragment FieldAccess SimpleName cm
+qc mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qcm
+from thrift SimpleName MethodInvocation QualifiedName tcm resultstatus
+location SimpleName MethodInvocation SimpleName to string
+result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from thrift
+result SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName tcm resultstatus
+result SimpleName SimpleType ClassInstanceCreation SimpleName qcm
+result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location
+result SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+from thrift SimpleName MethodInvocation ClassInstanceCreation SimpleName qcm
+tcm resultstatus QualifiedName MethodInvocation ClassInstanceCreation SimpleName qcm
+from thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+from thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+tcm resultstatus QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+tcm resultstatus QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+qcm SimpleName ClassInstanceCreation MethodInvocation SimpleName location
+qcm SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+qcm SimpleName MethodInvocation SimpleName queue result
+qcm SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName result
+qcm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from thrift
+qcm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tcm resultstatus
+qcm SimpleName MethodInvocation ClassInstanceCreation SimpleName qcm
+qcm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+qcm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+queue result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName result
+queue result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from thrift
+queue result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName tcm resultstatus
+queue result SimpleName MethodInvocation ClassInstanceCreation SimpleName qcm
+queue result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+queue result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+tcm result SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tresults
+tcm result SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tresults
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+locator SimpleName MethodInvocation SimpleName invalidate cache
+locator SimpleName MethodInvocation SimpleName ke
+invalidate cache SimpleName MethodInvocation SimpleName ke
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName extents to invalidate
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName extents to invalidate
+queue retry SimpleName MethodInvocation SimpleName ignored
+queue retry SimpleName MethodInvocation SimpleName location
+ignored SimpleName MethodInvocation SimpleName location
+tresults SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName extents to invalidate
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName tse
+context SimpleName MethodInvocation SimpleName get credentials
+context SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+tse SimpleName MethodInvocation SimpleName get code
+context SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get printable table info from id
+tables SimpleName MethodInvocation MethodInvocation SimpleName context
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName table id
+get printable table info from id SimpleName MethodInvocation MethodInvocation SimpleName context
+get printable table info from id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get printable table info from id SimpleName MethodInvocation SimpleName table id
+context SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tse
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get code
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tables
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get printable table info from id
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName tse
+get principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tse
+get principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get code
+get principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+get principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get printable table info from id
+get principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table id
+context SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName tse
+get credentials SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName tse
+get principal SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+tse SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+tse SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get printable table info from id
+tse SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table id
+get code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+get code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get printable table info from id
+get code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table id
+tse SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+get code SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+tables SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+get printable table info from id SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+context SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName tse
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName tse
+table id SimpleName MethodInvocation ClassInstanceCreation SimpleName tse
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName accumulo security exception
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get principal
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tse
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get code
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tables
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get printable table info from id
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table id
+ase SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tse
+accumulo security exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ase
+queue exception SimpleName MethodInvocation SimpleName location
+queue exception SimpleName MethodInvocation SimpleName cmid to cm
+queue exception SimpleName MethodInvocation SimpleName ase
+location SimpleName MethodInvocation SimpleName cmid to cm
+location SimpleName MethodInvocation SimpleName ase
+cmid to cm SimpleName MethodInvocation SimpleName ase
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+context SimpleName MethodInvocation SimpleName get instance
+location SimpleName MethodInvocation SimpleName to string
+locator SimpleName MethodInvocation SimpleName invalidate cache
+locator SimpleName MethodInvocation MethodInvocation SimpleName context
+locator SimpleName MethodInvocation MethodInvocation SimpleName get instance
+locator SimpleName MethodInvocation MethodInvocation SimpleName location
+locator SimpleName MethodInvocation MethodInvocation SimpleName to string
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName context
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName get instance
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName location
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName to string
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+invalidate session SimpleName MethodInvocation SimpleName location
+invalidate session SimpleName MethodInvocation SimpleName mutations
+invalidate session SimpleName MethodInvocation SimpleName cmid to cm
+invalidate session SimpleName MethodInvocation SimpleName session id
+location SimpleName MethodInvocation SimpleName mutations
+location SimpleName MethodInvocation SimpleName cmid to cm
+location SimpleName MethodInvocation SimpleName session id
+mutations SimpleName MethodInvocation SimpleName cmid to cm
+mutations SimpleName MethodInvocation SimpleName session id
+cmid to cm SimpleName MethodInvocation SimpleName session id
+t application exception SimpleName SimpleType SingleVariableDeclaration SimpleName tae
+location SimpleName MethodInvocation SimpleName to string
+accumulo server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location
+accumulo server exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+accumulo server exception SimpleName SimpleType ClassInstanceCreation SimpleName tae
+location SimpleName MethodInvocation ClassInstanceCreation SimpleName tae
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName tae
+queue exception SimpleName MethodInvocation SimpleName location
+queue exception SimpleName MethodInvocation SimpleName cmid to cm
+queue exception SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName accumulo server exception
+queue exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+queue exception SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+queue exception SimpleName MethodInvocation ClassInstanceCreation SimpleName tae
+location SimpleName MethodInvocation SimpleName cmid to cm
+location SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName accumulo server exception
+location SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+location SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+location SimpleName MethodInvocation ClassInstanceCreation SimpleName tae
+cmid to cm SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName accumulo server exception
+cmid to cm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location
+cmid to cm SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+cmid to cm SimpleName MethodInvocation ClassInstanceCreation SimpleName tae
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+context SimpleName MethodInvocation SimpleName get instance
+location SimpleName MethodInvocation SimpleName to string
+locator SimpleName MethodInvocation SimpleName invalidate cache
+locator SimpleName MethodInvocation MethodInvocation SimpleName context
+locator SimpleName MethodInvocation MethodInvocation SimpleName get instance
+locator SimpleName MethodInvocation MethodInvocation SimpleName location
+locator SimpleName MethodInvocation MethodInvocation SimpleName to string
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName context
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName get instance
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName location
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName to string
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+invalidate session SimpleName MethodInvocation SimpleName location
+invalidate session SimpleName MethodInvocation SimpleName mutations
+invalidate session SimpleName MethodInvocation SimpleName cmid to cm
+invalidate session SimpleName MethodInvocation SimpleName session id
+location SimpleName MethodInvocation SimpleName mutations
+location SimpleName MethodInvocation SimpleName cmid to cm
+location SimpleName MethodInvocation SimpleName session id
+mutations SimpleName MethodInvocation SimpleName cmid to cm
+mutations SimpleName MethodInvocation SimpleName session id
+cmid to cm SimpleName MethodInvocation SimpleName session id
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+queue exception SimpleName MethodInvocation SimpleName location
+queue exception SimpleName MethodInvocation SimpleName cmid to cm
+queue exception SimpleName MethodInvocation SimpleName e
+location SimpleName MethodInvocation SimpleName cmid to cm
+location SimpleName MethodInvocation SimpleName e
+cmid to cm SimpleName MethodInvocation SimpleName e
+unreserve session id SimpleName MethodInvocation SimpleName location
+t service client SimpleName SimpleType CastExpression SimpleName client
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation CastExpression SimpleType SimpleName t service client
+thrift util SimpleName MethodInvocation CastExpression SimpleName client
+return client SimpleName MethodInvocation CastExpression SimpleType SimpleName t service client
+return client SimpleName MethodInvocation CastExpression SimpleName client
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName send to server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutations
+void PrimitiveType MethodDeclaration SimpleName send to server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mutations
+send to server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+send to server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+send to server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutations
+location SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send to server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send to server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations

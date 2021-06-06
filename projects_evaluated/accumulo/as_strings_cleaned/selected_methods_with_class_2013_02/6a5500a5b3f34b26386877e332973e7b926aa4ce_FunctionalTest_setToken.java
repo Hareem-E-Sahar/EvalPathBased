@@ -1,0 +1,20 @@
+security token SimpleName SimpleType SingleVariableDeclaration SimpleName token
+token SimpleName FieldAccess Assignment SimpleName token
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set token
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleName set token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+set token SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+set token SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token

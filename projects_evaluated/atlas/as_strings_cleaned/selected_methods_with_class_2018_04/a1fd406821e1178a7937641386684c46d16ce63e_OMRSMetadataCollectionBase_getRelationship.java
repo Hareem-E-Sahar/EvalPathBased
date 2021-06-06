@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+date SimpleName SimpleType SingleVariableDeclaration SimpleName as of time
+public Modifier MethodDeclaration SimpleType SimpleName relationship
+public Modifier MethodDeclaration SimpleName get relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName as of time
+relationship SimpleName SimpleType MethodDeclaration SimpleName get relationship
+relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName as of time
+relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as of time
+get relationship SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get relationship SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName relationship not known exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName relationship not known exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+as of time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+as of time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+as of time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName relationship not known exception
+as of time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+as of time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName relationship not known exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName relationship not known exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+relationship not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+relationship not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+function not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName relationship not known exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName relationship not known exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

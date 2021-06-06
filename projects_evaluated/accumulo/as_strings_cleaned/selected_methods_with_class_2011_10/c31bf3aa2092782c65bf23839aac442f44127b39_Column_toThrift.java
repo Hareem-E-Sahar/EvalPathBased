@@ -1,0 +1,28 @@
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName column family
+wrap SimpleName MethodInvocation SimpleName column family
+column family SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName byte buffer
+column family SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName wrap
+column family SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName column family
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName column qualifier
+wrap SimpleName MethodInvocation SimpleName column qualifier
+column qualifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName byte buffer
+column qualifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName wrap
+column qualifier SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName column qualifier
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName column visibility
+wrap SimpleName MethodInvocation SimpleName column visibility
+column visibility SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName byte buffer
+column visibility SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName wrap
+column visibility SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName column visibility
+public Modifier MethodDeclaration SimpleType SimpleName t column
+public Modifier MethodDeclaration SimpleName to thrift
+t column SimpleName SimpleType MethodDeclaration SimpleName to thrift
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t column
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t column
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift

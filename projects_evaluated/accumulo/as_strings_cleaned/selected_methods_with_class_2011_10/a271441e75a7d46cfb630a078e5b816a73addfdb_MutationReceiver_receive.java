@@ -1,0 +1,13 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleName receive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

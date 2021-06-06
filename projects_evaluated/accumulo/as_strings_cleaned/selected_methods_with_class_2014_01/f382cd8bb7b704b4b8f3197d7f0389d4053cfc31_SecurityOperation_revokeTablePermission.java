@@ -1,0 +1,139 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName permission
+can revoke table SimpleName MethodInvocation SimpleName c
+can revoke table SimpleName MethodInvocation SimpleName user
+can revoke table SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName user
+c SimpleName MethodInvocation SimpleName table id
+user SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+c SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+target user exists SimpleName MethodInvocation SimpleName user
+perm handle SimpleName MethodInvocation SimpleName revoke table permission
+perm handle SimpleName MethodInvocation SimpleName user
+perm handle SimpleName MethodInvocation SimpleName table id
+perm handle SimpleName MethodInvocation SimpleName permission
+revoke table permission SimpleName MethodInvocation SimpleName user
+revoke table permission SimpleName MethodInvocation SimpleName table id
+revoke table permission SimpleName MethodInvocation SimpleName permission
+user SimpleName MethodInvocation SimpleName table id
+user SimpleName MethodInvocation SimpleName permission
+table id SimpleName MethodInvocation SimpleName permission
+c SimpleName MethodInvocation SimpleName get principal
+revoked table permission StringLiteral InfixExpression SimpleName permission
+revoked table permission StringLiteral InfixExpression StringLiteral for user
+revoked table permission StringLiteral InfixExpression SimpleName user
+revoked table permission StringLiteral InfixExpression StringLiteral on the table
+revoked table permission StringLiteral InfixExpression SimpleName table id
+permission SimpleName InfixExpression StringLiteral for user
+permission SimpleName InfixExpression SimpleName user
+permission SimpleName InfixExpression StringLiteral on the table
+permission SimpleName InfixExpression SimpleName table id
+permission SimpleName InfixExpression StringLiteral at the request of user
+for user StringLiteral InfixExpression SimpleName user
+for user StringLiteral InfixExpression StringLiteral on the table
+for user StringLiteral InfixExpression SimpleName table id
+for user StringLiteral InfixExpression StringLiteral at the request of user
+for user StringLiteral InfixExpression MethodInvocation SimpleName c
+for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+user SimpleName InfixExpression StringLiteral on the table
+user SimpleName InfixExpression SimpleName table id
+user SimpleName InfixExpression StringLiteral at the request of user
+user SimpleName InfixExpression MethodInvocation SimpleName c
+user SimpleName InfixExpression MethodInvocation SimpleName get principal
+on the table StringLiteral InfixExpression SimpleName table id
+on the table StringLiteral InfixExpression StringLiteral at the request of user
+on the table StringLiteral InfixExpression MethodInvocation SimpleName c
+on the table StringLiteral InfixExpression MethodInvocation SimpleName get principal
+table id SimpleName InfixExpression StringLiteral at the request of user
+table id SimpleName InfixExpression MethodInvocation SimpleName c
+table id SimpleName InfixExpression MethodInvocation SimpleName get principal
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName c
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral revoked table permission
+log SimpleName MethodInvocation InfixExpression SimpleName permission
+log SimpleName MethodInvocation InfixExpression StringLiteral for user
+log SimpleName MethodInvocation InfixExpression SimpleName user
+log SimpleName MethodInvocation InfixExpression StringLiteral on the table
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral revoked table permission
+info SimpleName MethodInvocation InfixExpression SimpleName permission
+info SimpleName MethodInvocation InfixExpression StringLiteral for user
+info SimpleName MethodInvocation InfixExpression SimpleName user
+info SimpleName MethodInvocation InfixExpression StringLiteral on the table
+info SimpleName MethodInvocation InfixExpression SimpleName table id
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+c SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codetable doesnt exist
+c SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable doesnt exist
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable doesnt exist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName revoke table permission
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleName revoke table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName permission
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+revoke table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName permission
+revoke table permission SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+permission SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName revoke table permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName revoke table permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

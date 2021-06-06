@@ -1,0 +1,112 @@
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+log SimpleName MethodInvocation SimpleName is debug enabled
+typed instance SimpleName MethodInvocation SimpleName to short string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral addingupdating typed instance {}
+log SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+log SimpleName MethodInvocation MethodInvocation SimpleName to short string
+debug SimpleName MethodInvocation StringLiteral addingupdating typed instance {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName to short string
+addingupdating typed instance {} StringLiteral MethodInvocation MethodInvocation SimpleName typed instance
+addingupdating typed instance {} StringLiteral MethodInvocation MethodInvocation SimpleName to short string
+typed instance SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+repository exception SimpleName SimpleType ClassInstanceCreation StringLiteral id cannot be null
+id to vertex map SimpleName MethodInvocation SimpleName get
+id to vertex map SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id to vertex map
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+fields SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName class type
+fields SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName field mapping
+fields SimpleName VariableDeclarationFragment FieldAccess SimpleName fields
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName attribute info
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fields
+final Modifier VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName typed instance
+map instance to vertex SimpleName MethodInvocation SimpleName instance vertex
+map instance to vertex SimpleName MethodInvocation SimpleName fields
+map instance to vertex SimpleName MethodInvocation BooleanLiteral false
+map instance to vertex SimpleName MethodInvocation SimpleName operation
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName fields
+typed instance SimpleName MethodInvocation BooleanLiteral false
+typed instance SimpleName MethodInvocation SimpleName operation
+instance vertex SimpleName MethodInvocation SimpleName fields
+instance vertex SimpleName MethodInvocation BooleanLiteral false
+instance vertex SimpleName MethodInvocation SimpleName operation
+fields SimpleName MethodInvocation BooleanLiteral false
+fields SimpleName MethodInvocation SimpleName operation
+false BooleanLiteral MethodInvocation SimpleName operation
+operationcreate QualifiedName MethodInvocation SimpleName equals
+operationcreate QualifiedName MethodInvocation SimpleName operation
+equals SimpleName MethodInvocation SimpleName operation
+add traits SimpleName MethodInvocation SimpleName typed instance
+add traits SimpleName MethodInvocation SimpleName instance vertex
+add traits SimpleName MethodInvocation SimpleName class type
+typed instance SimpleName MethodInvocation SimpleName instance vertex
+typed instance SimpleName MethodInvocation SimpleName class type
+instance vertex SimpleName MethodInvocation SimpleName class type
+get id SimpleName MethodInvocation SimpleName typed instance
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add or update attributes and traits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName add or update attributes and traits
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName operation
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+add or update attributes and traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+add or update attributes and traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+add or update attributes and traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add or update attributes and traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+add or update attributes and traits SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+add or update attributes and traits SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+operation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update attributes and traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update attributes and traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

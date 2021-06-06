@@ -1,0 +1,13 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName get updated entities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entities updated
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated entities
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated entities
+get updated entities SimpleName MethodDeclaration Block ReturnStatement SimpleName entities updated
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get updated entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get updated entities

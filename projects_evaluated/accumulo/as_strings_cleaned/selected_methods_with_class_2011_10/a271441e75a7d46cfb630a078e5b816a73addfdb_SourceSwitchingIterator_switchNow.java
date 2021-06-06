@@ -1,0 +1,25 @@
+source switching iterator SimpleName SimpleType SingleVariableDeclaration SimpleName ssi
+ssi SimpleName MethodInvocation SimpleName switch now
+source switching iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName copies
+ssi SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName copies
+copies SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName ssi
+copies SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName switch now
+copies SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName copies
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName switch now
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName copies
+void PrimitiveType MethodDeclaration SimpleName switch now
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName copies
+switch now SimpleName MethodDeclaration SimpleType SimpleName io exception
+switch now SimpleName MethodDeclaration Block SynchronizedStatement SimpleName copies
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName switch now
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName switch now
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

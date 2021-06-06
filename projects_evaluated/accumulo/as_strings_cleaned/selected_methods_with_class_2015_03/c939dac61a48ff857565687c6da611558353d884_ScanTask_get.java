@@ -1,0 +1,124 @@
+long PrimitiveType SingleVariableDeclaration SimpleName timeout
+time unit SimpleName SimpleType SingleVariableDeclaration SimpleName unit
+array blocking queue SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+local rq SimpleName VariableDeclarationFragment SimpleName result queue
+state SimpleName MethodInvocation SimpleName get
+st SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+st SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state str
+state str SimpleName Assignment StringLiteral added
+state str SimpleName Assignment StringLiteral canceled
+state str SimpleName Assignment StringLiteral initial
+state str SimpleName Assignment StringLiteral unkonwn
+st SimpleName SwitchStatement SwitchCase SimpleName added
+st SimpleName SwitchStatement ExpressionStatement Assignment SimpleName state str
+st SimpleName SwitchStatement ExpressionStatement Assignment StringLiteral added
+st SimpleName SwitchStatement SwitchCase SimpleName canceled
+st SimpleName SwitchStatement ExpressionStatement Assignment SimpleName state str
+st SimpleName SwitchStatement ExpressionStatement Assignment StringLiteral canceled
+added SimpleName SwitchCase SwitchStatement SwitchCase SimpleName canceled
+canceled SimpleName SwitchCase SwitchStatement SwitchCase SimpleName initial
+tried to get result twice state StringLiteral InfixExpression SimpleName state str
+tried to get result twice state StringLiteral InfixExpression StringLiteral (
+tried to get result twice state StringLiteral InfixExpression SimpleName st
+tried to get result twice state StringLiteral InfixExpression StringLiteral )]
+state str SimpleName InfixExpression StringLiteral (
+state str SimpleName InfixExpression SimpleName st
+state str SimpleName InfixExpression StringLiteral )]
+( StringLiteral InfixExpression SimpleName st
+( StringLiteral InfixExpression StringLiteral )]
+st SimpleName InfixExpression StringLiteral )]
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tried to get result twice state
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName state str
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral (
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName st
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )]
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName st
+local rq SimpleName MethodInvocation SimpleName poll
+local rq SimpleName MethodInvocation SimpleName timeout
+local rq SimpleName MethodInvocation SimpleName unit
+poll SimpleName MethodInvocation SimpleName timeout
+poll SimpleName MethodInvocation SimpleName unit
+timeout SimpleName MethodInvocation SimpleName unit
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName local rq
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName timeout
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral nothing should have been added when in canceled state
+r SimpleName InstanceofExpression SimpleType SimpleName throwable
+throwable SimpleName SimpleType CastExpression SimpleName r
+execution exception SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName r
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+t SimpleName SimpleType CastExpression SimpleName r
+r as t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t
+r as t SimpleName VariableDeclarationFragment CastExpression SimpleName r
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName t
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName t
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName r as t
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName r as t
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r as t
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName timeout
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+t SimpleName SimpleType MethodDeclaration SimpleName get
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName timeout
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unit
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName execution exception
+get SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timeout
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time unit
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit
+get SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+get SimpleName MethodDeclaration SimpleType SimpleName execution exception
+get SimpleName MethodDeclaration SimpleType SimpleName timeout exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName execution exception
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName execution exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName timeout exception
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName timeout exception
+unit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+unit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName execution exception
+unit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName timeout exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName execution exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName timeout exception
+execution exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName timeout exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName execution exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timeout exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName execution exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timeout exception

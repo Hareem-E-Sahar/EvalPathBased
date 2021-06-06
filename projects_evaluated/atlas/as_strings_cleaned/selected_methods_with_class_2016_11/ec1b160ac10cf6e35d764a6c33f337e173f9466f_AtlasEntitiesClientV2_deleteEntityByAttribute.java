@@ -1,0 +1,71 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+query params SimpleName MethodInvocation SimpleName add
+query params SimpleName MethodInvocation StringLiteral value
+query params SimpleName MethodInvocation SimpleName value
+add SimpleName MethodInvocation StringLiteral value
+add SimpleName MethodInvocation SimpleName value
+value StringLiteral MethodInvocation SimpleName value
+format path for path params SimpleName MethodInvocation SimpleName delete entity by attribute
+format path for path params SimpleName MethodInvocation SimpleName type
+format path for path params SimpleName MethodInvocation SimpleName attribute
+delete entity by attribute SimpleName MethodInvocation SimpleName type
+delete entity by attribute SimpleName MethodInvocation SimpleName attribute
+type SimpleName MethodInvocation SimpleName attribute
+call api SimpleName MethodInvocation MethodInvocation SimpleName format path for path params
+call api SimpleName MethodInvocation MethodInvocation SimpleName delete entity by attribute
+call api SimpleName MethodInvocation MethodInvocation SimpleName type
+call api SimpleName MethodInvocation MethodInvocation SimpleName attribute
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity mutation response
+call api SimpleName MethodInvocation SimpleName query params
+format path for path params SimpleName MethodInvocation MethodInvocation SimpleName query params
+delete entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName query params
+type SimpleName MethodInvocation MethodInvocation SimpleName query params
+attribute SimpleName MethodInvocation MethodInvocation SimpleName query params
+entity mutation response SimpleName SimpleType TypeLiteral MethodInvocation SimpleName query params
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName delete entity by attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName delete entity by attribute
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+delete entity by attribute SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entity by attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entity by attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

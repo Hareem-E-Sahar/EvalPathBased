@@ -1,0 +1,255 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new table name
+boolean PrimitiveType SingleVariableDeclaration SimpleName flush
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+check argument SimpleName MethodInvocation InfixExpression SimpleName src table name
+check argument SimpleName MethodInvocation StringLiteral src table name is null
+src table name SimpleName InfixExpression MethodInvocation StringLiteral src table name is null
+check argument SimpleName MethodInvocation InfixExpression SimpleName new table name
+check argument SimpleName MethodInvocation StringLiteral new table name is null
+new table name SimpleName InfixExpression MethodInvocation StringLiteral new table name is null
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName src table name
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation SimpleName src table name
+instance SimpleName MethodInvocation SimpleName src table name
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName src table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src table id
+flush SimpleName MethodInvocation SimpleName src table id
+flush SimpleName MethodInvocation BooleanLiteral true
+src table id SimpleName MethodInvocation BooleanLiteral true
+flush SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName flush
+flush SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName src table id
+flush SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral true
+collections SimpleName MethodInvocation SimpleName empty set
+properties to exclude SimpleName Assignment MethodInvocation SimpleName collections
+properties to exclude SimpleName Assignment MethodInvocation SimpleName empty set
+collections SimpleName MethodInvocation SimpleName empty map
+properties to set SimpleName Assignment MethodInvocation SimpleName collections
+properties to set SimpleName Assignment MethodInvocation SimpleName empty map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+src table id SimpleName MethodInvocation SimpleName get bytes
+src table id SimpleName MethodInvocation QualifiedName constantsutf
+get bytes SimpleName MethodInvocation QualifiedName constantsutf
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName src table id
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName src table id
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+new table name SimpleName MethodInvocation SimpleName get bytes
+new table name SimpleName MethodInvocation QualifiedName constantsutf
+get bytes SimpleName MethodInvocation QualifiedName constantsutf
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName new table name
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName new table name
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src table id
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsutf
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table name
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsutf
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src table id
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsutf
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsutf
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+properties to set SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+entry SimpleName MethodInvocation MethodInvocation SimpleName clone exclude prefix
+get key SimpleName MethodInvocation MethodInvocation SimpleName clone exclude prefix
+starts with SimpleName MethodInvocation SimpleName clone exclude prefix
+property can not start with StringLiteral InfixExpression SimpleName clone exclude prefix
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral property can not start with
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName clone exclude prefix
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+opts SimpleName MethodInvocation SimpleName put
+opts SimpleName MethodInvocation MethodInvocation SimpleName entry
+opts SimpleName MethodInvocation MethodInvocation SimpleName get key
+opts SimpleName MethodInvocation MethodInvocation SimpleName entry
+opts SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName properties to set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+clone exclude prefix SimpleName InfixExpression SimpleName prop
+opts SimpleName MethodInvocation SimpleName put
+opts SimpleName MethodInvocation InfixExpression SimpleName clone exclude prefix
+opts SimpleName MethodInvocation InfixExpression SimpleName prop
+opts SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation InfixExpression SimpleName clone exclude prefix
+put SimpleName MethodInvocation InfixExpression SimpleName prop
+put SimpleName MethodInvocation StringLiteral empty
+clone exclude prefix SimpleName InfixExpression MethodInvocation StringLiteral empty
+prop SimpleName InfixExpression MethodInvocation StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName properties to exclude
+prop SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName properties to exclude
+do table fate operation SimpleName MethodInvocation SimpleName new table name
+do table fate operation SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo exception
+do table fate operation SimpleName MethodInvocation QualifiedName fate operationtable clone
+do table fate operation SimpleName MethodInvocation SimpleName args
+do table fate operation SimpleName MethodInvocation SimpleName opts
+new table name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo exception
+new table name SimpleName MethodInvocation QualifiedName fate operationtable clone
+new table name SimpleName MethodInvocation SimpleName args
+new table name SimpleName MethodInvocation SimpleName opts
+accumulo exception SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName fate operationtable clone
+accumulo exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+accumulo exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName opts
+fate operationtable clone QualifiedName MethodInvocation SimpleName args
+fate operationtable clone QualifiedName MethodInvocation SimpleName opts
+args SimpleName MethodInvocation SimpleName opts
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName src table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new table name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new table name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SimpleName clone
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src table name
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new table name
+clone SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flush
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+clone SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+src table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+flush SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+flush SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+flush SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+flush SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+flush SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+properties to set SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+properties to exclude SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

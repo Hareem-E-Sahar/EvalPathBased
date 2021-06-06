@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName index
+string SimpleName SimpleType SingleVariableDeclaration SimpleName backing index
+build mixed index SimpleName MethodInvocation SimpleName index
+build mixed index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName edge
+build mixed index SimpleName MethodInvocation SimpleName backing index
+index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName edge
+index SimpleName MethodInvocation SimpleName backing index
+edge SimpleName SimpleType TypeLiteral MethodInvocation SimpleName backing index
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create edge index
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName index
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName backing index
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create edge index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName backing index
+void PrimitiveType MethodDeclaration SimpleName create edge index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName backing index
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create edge index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName backing index
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName backing index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create edge index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName backing index
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create edge index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName backing index

@@ -1,0 +1,110 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName condition
+condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+condition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+titan element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName condition
+relation type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+condition SimpleName SimpleType SingleVariableDeclaration SimpleName c
+condition SimpleName MethodInvocation SimpleName get children
+c SimpleName InstanceofExpression SimpleType SimpleName or
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName relation type
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName collection
+relation type SimpleName SimpleType ParameterizedType SimpleType SimpleName collection
+or SimpleName SimpleType CastExpression SimpleName c
+query util SimpleName MethodInvocation SimpleName extract or condition
+query util SimpleName MethodInvocation CastExpression SimpleType SimpleName or
+query util SimpleName MethodInvocation CastExpression SimpleName c
+extract or condition SimpleName MethodInvocation CastExpression SimpleType SimpleName or
+extract or condition SimpleName MethodInvocation CastExpression SimpleName c
+or equal SimpleName VariableDeclarationFragment MethodInvocation SimpleName query util
+or equal SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract or condition
+or equal SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName c
+or equal SimpleName MethodInvocation SimpleName get key
+or equal SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+or equal SimpleName MethodInvocation MethodInvocation SimpleName type
+get key SimpleName MethodInvocation MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+or equal SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+or equal SimpleName InfixExpression InfixExpression MethodInvocation SimpleName type
+or equal SimpleName MethodInvocation SimpleName get value
+or equal SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get value SimpleName MethodInvocation MethodInvocation SimpleName is empty
+or equal SimpleName MethodInvocation SimpleName get value
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation SimpleName c
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName or equal
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+c SimpleName ClassInstanceCreation MethodInvocation SimpleName or equal
+c SimpleName ClassInstanceCreation MethodInvocation SimpleName get value
+c SimpleName InstanceofExpression SimpleType SimpleName predicate condition
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName relation type
+predicate condition SimpleName SimpleType ParameterizedType SimpleType SimpleName titan relation
+relation type SimpleName SimpleType ParameterizedType SimpleType SimpleName titan relation
+predicate condition SimpleName SimpleType CastExpression SimpleName c
+atom SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName predicate condition
+atom SimpleName VariableDeclarationFragment CastExpression SimpleName c
+atom SimpleName MethodInvocation SimpleName get key
+atom SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+atom SimpleName MethodInvocation MethodInvocation SimpleName type
+get key SimpleName MethodInvocation MethodInvocation SimpleName type
+equals SimpleName MethodInvocation SimpleName type
+atom SimpleName MethodInvocation SimpleName get predicate
+atom SimpleName MethodInvocation InfixExpression QualifiedName cmpequal
+get predicate SimpleName MethodInvocation InfixExpression QualifiedName cmpequal
+equals SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName cmpequal
+type SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName cmpequal
+atom SimpleName MethodInvocation SimpleName get value
+atom SimpleName MethodInvocation SimpleName get value
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName atom
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName get value
+of SimpleName MethodInvocation MethodInvocation SimpleName atom
+of SimpleName MethodInvocation MethodInvocation SimpleName get value
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation SimpleName c
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable list
+abstract mapsimple immutable entry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+c SimpleName ClassInstanceCreation MethodInvocation SimpleName immutable list
+c SimpleName ClassInstanceCreation MethodInvocation SimpleName of
+c SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName atom
+c SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get value
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName condition
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName mapentry
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName condition
+private Modifier MethodDeclaration SimpleName get equality condition values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName mapentry
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName condition
+static Modifier MethodDeclaration SimpleName get equality condition values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relation type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+final Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName mapentry
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName condition
+final Modifier MethodDeclaration SimpleName get equality condition values
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relation type
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+mapentry QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get equality condition values
+condition SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get equality condition values
+get equality condition values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName condition
+get equality condition values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relation type
+get equality condition values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+condition SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleName get equality condition values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get equality condition values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

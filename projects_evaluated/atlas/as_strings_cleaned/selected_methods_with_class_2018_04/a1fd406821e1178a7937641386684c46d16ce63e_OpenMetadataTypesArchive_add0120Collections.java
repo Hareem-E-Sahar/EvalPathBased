@@ -1,0 +1,28 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get order by enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get order by enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get collection entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get collection entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get collection membership relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get collection membership relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get actor collection relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get actor collection relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get folder classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get folder classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get set classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get set classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add collections
+void PrimitiveType MethodDeclaration SimpleName add collections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add collections
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add collections

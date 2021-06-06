@@ -1,0 +1,19 @@
+partial key SimpleName SimpleType SingleVariableDeclaration SimpleName part
+part SimpleName FieldAccess Assignment SimpleName part
+public Modifier MethodDeclaration SimpleType SimpleName get following args
+public Modifier MethodDeclaration SimpleName set part
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partial key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName part
+get following args SimpleName SimpleType MethodDeclaration SimpleName set part
+get following args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName part
+set part SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName partial key
+set part SimpleName MethodDeclaration SingleVariableDeclaration SimpleName part
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get following args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set part
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName part
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get following args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set part
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName part

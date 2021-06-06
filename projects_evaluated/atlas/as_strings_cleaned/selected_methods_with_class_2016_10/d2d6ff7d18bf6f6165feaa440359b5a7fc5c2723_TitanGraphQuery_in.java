@@ -1,0 +1,44 @@
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+in predicate SimpleName SimpleType ClassInstanceCreation SimpleName property key
+in predicate SimpleName SimpleType ClassInstanceCreation SimpleName values
+property key SimpleName ClassInstanceCreation SimpleName values
+query condition SimpleName MethodInvocation SimpleName and with
+query condition SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName in predicate
+query condition SimpleName MethodInvocation ClassInstanceCreation SimpleName property key
+query condition SimpleName MethodInvocation ClassInstanceCreation SimpleName values
+and with SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName in predicate
+and with SimpleName MethodInvocation ClassInstanceCreation SimpleName property key
+and with SimpleName MethodInvocation ClassInstanceCreation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName in
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName in
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+atlas graph query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName in
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName in
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName in
+in SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+in SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+in SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

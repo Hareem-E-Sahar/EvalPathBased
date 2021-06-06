@@ -1,0 +1,58 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName starts with
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName token
+subcommands SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName subcommands
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+t SimpleName MethodInvocation SimpleName get command names
+subset SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+subset SimpleName VariableDeclarationFragment MethodInvocation SimpleName get command names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+t SimpleName MethodInvocation SimpleName get case sensitive
+s SimpleName MethodInvocation SimpleName to lower case
+starts with SimpleName MethodInvocation SimpleName to lower case
+s SimpleName MethodInvocation MethodInvocation SimpleName starts with
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+starts with SimpleName MethodInvocation MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+set SimpleName MethodInvocation SimpleName add
+set SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation SimpleName starts with
+set SimpleName MethodInvocation SimpleName add
+set SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName subset
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName subset
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get subcommand names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName starts with
+public Modifier MethodDeclaration Block ReturnStatement SimpleName set
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get subcommand names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get subcommand names
+get subcommand names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get subcommand names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName starts with
+get subcommand names SimpleName MethodDeclaration Block ReturnStatement SimpleName set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get subcommand names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName starts with
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get subcommand names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName starts with

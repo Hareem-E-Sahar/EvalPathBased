@@ -1,0 +1,127 @@
+groups SimpleName MemberValuePair StringLiteral glossarycreate
+depends on methods SimpleName MemberValuePair StringLiteral test create glossary
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create glossary
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+term categorization header SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas term categorization header
+atlas term categorization header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName term categorization header
+account category SimpleName MethodInvocation SimpleName get guid
+term categorization header SimpleName MethodInvocation SimpleName set category guid
+term categorization header SimpleName MethodInvocation MethodInvocation SimpleName account category
+term categorization header SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set category guid SimpleName MethodInvocation MethodInvocation SimpleName account category
+set category guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+term categorization header SimpleName MethodInvocation SimpleName set description
+term categorization header SimpleName MethodInvocation StringLiteral test description
+set description SimpleName MethodInvocation StringLiteral test description
+term categorization header SimpleName MethodInvocation SimpleName set status
+term categorization header SimpleName MethodInvocation QualifiedName atlas term relationship statusdraft
+set status SimpleName MethodInvocation QualifiedName atlas term relationship statusdraft
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName term categorization header
+singleton SimpleName MethodInvocation SimpleName term categorization header
+fixed rate mortgage SimpleName MethodInvocation SimpleName set categories
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName collections
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName singleton
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName term categorization header
+set categories SimpleName MethodInvocation MethodInvocation SimpleName collections
+set categories SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set categories SimpleName MethodInvocation MethodInvocation SimpleName term categorization header
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName term categorization header
+singleton SimpleName MethodInvocation SimpleName term categorization header
+adjustable rate mortgage SimpleName MethodInvocation SimpleName set categories
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName collections
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName singleton
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName term categorization header
+set categories SimpleName MethodInvocation MethodInvocation SimpleName collections
+set categories SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set categories SimpleName MethodInvocation MethodInvocation SimpleName term categorization header
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName fixed rate mortgage
+arrays SimpleName MethodInvocation SimpleName adjustable rate mortgage
+as list SimpleName MethodInvocation SimpleName fixed rate mortgage
+as list SimpleName MethodInvocation SimpleName adjustable rate mortgage
+fixed rate mortgage SimpleName MethodInvocation SimpleName adjustable rate mortgage
+glossary service SimpleName MethodInvocation SimpleName create terms
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName as list
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+create terms SimpleName MethodInvocation MethodInvocation SimpleName arrays
+create terms SimpleName MethodInvocation MethodInvocation SimpleName as list
+create terms SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+create terms SimpleName MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName create terms
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+terms SimpleName MethodInvocation SimpleName get
+terms SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+terms SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+fixed rate mortgage SimpleName MethodInvocation SimpleName set guid
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName terms
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName terms
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+terms SimpleName MethodInvocation SimpleName get
+terms SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+terms SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+adjustable rate mortgage SimpleName MethodInvocation SimpleName set guid
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName terms
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName terms
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term creation shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term creation shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test term creation with category
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation with category
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation with category
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation with category
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term creation with category
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test term creation with category
+void PrimitiveType MethodDeclaration SimpleName test term creation with category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test term creation with category
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test term creation with category

@@ -1,0 +1,31 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get exception log file classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get exception log file classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get audit log file classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get audit log file classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get exception backlog classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get exception backlog classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get audit log classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get audit log classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get metering log classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get metering log classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get stewardship server classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get stewardship server classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance daemon classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get governance daemon classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add exception management
+void PrimitiveType MethodDeclaration SimpleName add exception management
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add exception management
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add exception management

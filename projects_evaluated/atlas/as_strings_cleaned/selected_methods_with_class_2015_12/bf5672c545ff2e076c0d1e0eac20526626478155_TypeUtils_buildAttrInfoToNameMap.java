@@ -1,0 +1,69 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+field mapping SimpleName SimpleType SingleVariableDeclaration SimpleName f
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+b SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+attribute info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+ffields QualifiedName MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+e SimpleName MethodInvocation SimpleName get value
+b SimpleName MethodInvocation SimpleName get
+b SimpleName MethodInvocation MethodInvocation SimpleName e
+b SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName e
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName b
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName e
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+e SimpleName MethodInvocation SimpleName get value
+b SimpleName MethodInvocation SimpleName put
+b SimpleName MethodInvocation MethodInvocation SimpleName e
+b SimpleName MethodInvocation MethodInvocation SimpleName get value
+b SimpleName MethodInvocation SimpleName names
+put SimpleName MethodInvocation MethodInvocation SimpleName e
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName names
+e SimpleName MethodInvocation MethodInvocation SimpleName names
+get value SimpleName MethodInvocation MethodInvocation SimpleName names
+e SimpleName MethodInvocation SimpleName get key
+names SimpleName MethodInvocation SimpleName add
+names SimpleName MethodInvocation MethodInvocation SimpleName e
+names SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName e
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName ffields
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute info
+public Modifier MethodDeclaration SimpleName build attr info to name map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field mapping
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration Block ReturnStatement SimpleName b
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute info
+static Modifier MethodDeclaration SimpleName build attr info to name map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field mapping
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+static Modifier MethodDeclaration Block ReturnStatement SimpleName b
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName build attr info to name map
+attribute info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName build attr info to name map
+build attr info to name map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName field mapping
+build attr info to name map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+build attr info to name map SimpleName MethodDeclaration Block ReturnStatement SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName build attr info to name map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build attr info to name map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

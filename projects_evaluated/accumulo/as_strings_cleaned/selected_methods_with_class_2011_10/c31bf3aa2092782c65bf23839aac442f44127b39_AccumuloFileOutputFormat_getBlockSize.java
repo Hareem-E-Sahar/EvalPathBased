@@ -1,0 +1,50 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get configuration
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+accumulo configuration SimpleName MethodInvocation MethodInvocation SimpleName get memory in bytes
+get default configuration SimpleName MethodInvocation MethodInvocation SimpleName get memory in bytes
+accumulo configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+get default configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertytable file compressed block size
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName accumulo configuration
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get default configuration
+int PrimitiveType CastExpression MethodInvocation SimpleName get memory in bytes
+int PrimitiveType CastExpression MethodInvocation QualifiedName propertytable file compressed block size
+job SimpleName MethodInvocation MethodInvocation SimpleName get int
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get int
+job SimpleName MethodInvocation MethodInvocation SimpleName block size
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName block size
+job SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+get configuration SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+get int SimpleName MethodInvocation SimpleName block size
+get int SimpleName MethodInvocation CastExpression PrimitiveType int
+get int SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get memory in bytes
+get int SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName propertytable file compressed block size
+block size SimpleName MethodInvocation CastExpression PrimitiveType int
+block size SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get memory in bytes
+block size SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName propertytable file compressed block size
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get block size
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get block size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+int PrimitiveType MethodDeclaration SimpleName get block size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+get block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get block size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get block size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

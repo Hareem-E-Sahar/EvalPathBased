@@ -1,0 +1,93 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+merge stats SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName merge stats cache
+merge stats SimpleName SimpleType SingleVariableDeclaration SimpleName stats
+merge stats cache SimpleName MethodInvocation SimpleName values
+stats SimpleName MethodInvocation SimpleName next merge state
+stats SimpleName MethodInvocation MethodInvocation SimpleName get connector
+stats SimpleName MethodInvocation ThisExpression SimpleName master
+next merge state SimpleName MethodInvocation MethodInvocation SimpleName get connector
+next merge state SimpleName MethodInvocation ThisExpression SimpleName master
+get connector SimpleName MethodInvocation MethodInvocation ThisExpression SimpleName master
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName stats
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName next merge state
+update SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+update SimpleName VariableDeclarationFragment MethodInvocation ThisExpression SimpleName master
+merge state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName update
+update SimpleName InfixExpression QualifiedName merge statecomplete
+update SimpleName Assignment QualifiedName merge statenone
+stats SimpleName MethodInvocation SimpleName get merge info
+stats SimpleName MethodInvocation MethodInvocation SimpleName get state
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName get state
+update SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName stats
+update SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get merge info
+update SimpleName InfixExpression MethodInvocation SimpleName get state
+stats SimpleName MethodInvocation SimpleName get merge info
+set merge state SimpleName MethodInvocation MethodInvocation SimpleName stats
+set merge state SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+set merge state SimpleName MethodInvocation SimpleName update
+stats SimpleName MethodInvocation MethodInvocation SimpleName update
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName update
+update SimpleName InfixExpression QualifiedName merge statemerging
+stats SimpleName MethodInvocation SimpleName get merge info
+stats SimpleName MethodInvocation MethodInvocation SimpleName is delete
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName is delete
+stats SimpleName MethodInvocation SimpleName get merge info
+delete tablets SimpleName MethodInvocation MethodInvocation SimpleName stats
+delete tablets SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+stats SimpleName MethodInvocation SimpleName get merge info
+merge metadata records SimpleName MethodInvocation MethodInvocation SimpleName stats
+merge metadata records SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+stats SimpleName MethodInvocation SimpleName get merge info
+update SimpleName Assignment QualifiedName merge statecomplete
+set merge state SimpleName MethodInvocation MethodInvocation SimpleName stats
+set merge state SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+set merge state SimpleName MethodInvocation Assignment SimpleName update
+set merge state SimpleName MethodInvocation Assignment QualifiedName merge statecomplete
+stats SimpleName MethodInvocation MethodInvocation Assignment SimpleName update
+stats SimpleName MethodInvocation MethodInvocation Assignment QualifiedName merge statecomplete
+get merge info SimpleName MethodInvocation MethodInvocation Assignment SimpleName update
+get merge info SimpleName MethodInvocation MethodInvocation Assignment QualifiedName merge statecomplete
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable merge metadata table records
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable merge metadata table records
+error SimpleName MethodInvocation SimpleName ex
+unable merge metadata table records StringLiteral MethodInvocation SimpleName ex
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+stats SimpleName MethodInvocation SimpleName get merge info
+stats SimpleName MethodInvocation MethodInvocation SimpleName get range
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName get range
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName stats
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get merge info
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to update merge state for merge
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to update merge state for merge
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+error SimpleName MethodInvocation SimpleName ex
+unable to update merge state for merge StringLiteral InfixExpression MethodInvocation SimpleName ex
+get range SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ex
+stats SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName merge stats cache
+stats SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update merge state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+void PrimitiveType MethodDeclaration SimpleName update merge state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+update merge state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update merge state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update merge state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge stats cache

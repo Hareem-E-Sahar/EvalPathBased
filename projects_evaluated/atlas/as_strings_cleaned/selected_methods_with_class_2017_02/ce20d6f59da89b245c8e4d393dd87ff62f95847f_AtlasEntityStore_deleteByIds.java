@@ -1,0 +1,18 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guid
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName delete by ids
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+delete by ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete by ids SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete by ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete by ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

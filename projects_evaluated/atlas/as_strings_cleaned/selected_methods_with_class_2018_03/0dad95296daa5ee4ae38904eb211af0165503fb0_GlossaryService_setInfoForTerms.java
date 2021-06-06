@@ -1,0 +1,111 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas related term header
+final Modifier SingleVariableDeclaration SimpleName term headers
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName term headers
+atlas related term header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName term headers
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+term headers SimpleName MethodInvocation SimpleName stream
+id SimpleName MethodInvocation SimpleName get term guid
+get atlas glossary term skeleton SimpleName MethodInvocation MethodInvocation SimpleName id
+get atlas glossary term skeleton SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+id SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get atlas glossary term skeleton
+term headers SimpleName MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName id
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get atlas glossary term skeleton
+collectors SimpleName MethodInvocation SimpleName to list
+term headers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName terms
+load SimpleName MethodInvocation SimpleName terms
+data access SimpleName MethodInvocation MethodInvocation SimpleName iterator
+load SimpleName MethodInvocation MethodInvocation SimpleName iterator
+terms SimpleName MethodInvocation MethodInvocation SimpleName iterator
+t SimpleName MethodInvocation SimpleName get guid
+term map SimpleName MethodInvocation SimpleName put
+term map SimpleName MethodInvocation MethodInvocation SimpleName t
+term map SimpleName MethodInvocation MethodInvocation SimpleName get guid
+term map SimpleName MethodInvocation SimpleName t
+put SimpleName MethodInvocation MethodInvocation SimpleName t
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation MethodInvocation SimpleName t
+get guid SimpleName MethodInvocation MethodInvocation SimpleName t
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName term map
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName put
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName t
+data access SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for each remaining
+load SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for each remaining
+terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for each remaining
+iterator SimpleName MethodInvocation MethodInvocation SimpleName for each remaining
+for each remaining SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+for each remaining SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName term map
+for each remaining SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName put
+for each remaining SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName get term guid
+term map SimpleName MethodInvocation SimpleName get
+term map SimpleName MethodInvocation MethodInvocation SimpleName t
+term map SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+get SimpleName MethodInvocation MethodInvocation SimpleName t
+get SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+term map SimpleName MethodInvocation MethodInvocation SimpleName get display name
+get SimpleName MethodInvocation MethodInvocation SimpleName get display name
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display name
+get term guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display name
+t SimpleName MethodInvocation SimpleName set display text
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term map
+t SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+t SimpleName MethodInvocation MethodInvocation SimpleName get display name
+set display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term map
+set display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set display text SimpleName MethodInvocation MethodInvocation SimpleName get display name
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName t
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName set display text
+term headers SimpleName MethodInvocation SimpleName for each
+term headers SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+term headers SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+term headers SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName set display text
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+for each SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+for each SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName set display text
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set info for terms
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName term headers
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName set info for terms
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName term headers
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+set info for terms SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set info for terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term headers
+set info for terms SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+term headers SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set info for terms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term headers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set info for terms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term headers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

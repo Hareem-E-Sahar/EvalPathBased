@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+prefix SimpleName InfixExpression StringLiteral .
+prefix SimpleName InfixExpression SimpleName key
+. StringLiteral InfixExpression SimpleName key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get qualified name for map key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get qualified name for map key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName get qualified name for map key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get qualified name for map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get qualified name for map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+get qualified name for map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get qualified name for map key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get qualified name for map key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get qualified name for map key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

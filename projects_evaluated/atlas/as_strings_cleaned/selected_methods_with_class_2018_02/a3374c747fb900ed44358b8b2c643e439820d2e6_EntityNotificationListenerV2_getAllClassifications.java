@@ -1,0 +1,147 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+atlas classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classifications
+is not empty SimpleName MethodInvocation SimpleName classifications
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+classification SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName classification
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get classification type by name SimpleName MethodInvocation MethodInvocation SimpleName classification
+get classification type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+classification type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification
+classification type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+classification type SimpleName MethodInvocation SimpleName get all super types
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName classification type
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get all super types
+super type names SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName classification type
+super type names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName classification type
+super type names SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get all super types
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName classification
+add SimpleName MethodInvocation SimpleName classification
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName super type names
+is not empty SimpleName MethodInvocation SimpleName super type names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+atlas classification SimpleName SimpleType ClassInstanceCreation SimpleName super type name
+super type classification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+super type classification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName super type name
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type classification
+classification SimpleName MethodInvocation SimpleName get entity guid
+super type classification SimpleName MethodInvocation SimpleName set entity guid
+super type classification SimpleName MethodInvocation MethodInvocation SimpleName classification
+super type classification SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName classification
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+classification SimpleName MethodInvocation SimpleName is propagate
+super type classification SimpleName MethodInvocation SimpleName set propagate
+super type classification SimpleName MethodInvocation MethodInvocation SimpleName classification
+super type classification SimpleName MethodInvocation MethodInvocation SimpleName is propagate
+set propagate SimpleName MethodInvocation MethodInvocation SimpleName classification
+set propagate SimpleName MethodInvocation MethodInvocation SimpleName is propagate
+classification SimpleName MethodInvocation SimpleName get attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName classification
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName classification
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName super type name
+get classification type by name SimpleName MethodInvocation SimpleName super type name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+super type SimpleName MethodInvocation SimpleName get all attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName super type
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName super type
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+super type SimpleName InfixExpression InfixExpression MethodInvocation SimpleName map utils
+super type SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr entry
+classification SimpleName MethodInvocation SimpleName get attributes
+classification SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+attr entry SimpleName MethodInvocation SimpleName get key
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr entry
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+super type SimpleName MethodInvocation SimpleName get all attributes
+super type SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName contains key
+super type SimpleName MethodInvocation MethodInvocation SimpleName attr name
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName attr name
+contains key SimpleName MethodInvocation SimpleName attr name
+attr entry SimpleName MethodInvocation SimpleName get value
+super type classification attributes SimpleName MethodInvocation SimpleName put
+super type classification attributes SimpleName MethodInvocation SimpleName attr name
+super type classification attributes SimpleName MethodInvocation MethodInvocation SimpleName attr entry
+super type classification attributes SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation MethodInvocation SimpleName attr entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+attr name SimpleName MethodInvocation MethodInvocation SimpleName attr entry
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get value
+attr entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+super type classification SimpleName MethodInvocation SimpleName set attributes
+super type classification SimpleName MethodInvocation SimpleName super type classification attributes
+set attributes SimpleName MethodInvocation SimpleName super type classification attributes
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName super type classification
+add SimpleName MethodInvocation SimpleName super type classification
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super type names
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super type names
+atlas classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+classification SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification
+private Modifier MethodDeclaration SimpleName get all classifications
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classifications
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification
+static Modifier MethodDeclaration SimpleName get all classifications
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classifications
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classifications
+atlas classification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classifications
+get all classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classifications
+get all classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+get all classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+get all classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classifications SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry

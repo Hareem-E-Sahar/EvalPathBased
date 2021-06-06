@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source version
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target version
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName type category
+type category SimpleName MethodInvocation SimpleName name
+source version SimpleName InfixExpression StringLiteral to
+source version SimpleName InfixExpression SimpleName target version
+source version SimpleName InfixExpression StringLiteral -
+source version SimpleName InfixExpression MethodInvocation SimpleName type category
+source version SimpleName InfixExpression MethodInvocation SimpleName name
+to StringLiteral InfixExpression SimpleName target version
+to StringLiteral InfixExpression StringLiteral -
+to StringLiteral InfixExpression MethodInvocation SimpleName type category
+to StringLiteral InfixExpression MethodInvocation SimpleName name
+target version SimpleName InfixExpression StringLiteral -
+target version SimpleName InfixExpression MethodInvocation SimpleName type category
+target version SimpleName InfixExpression MethodInvocation SimpleName name
+- StringLiteral InfixExpression MethodInvocation SimpleName type category
+- StringLiteral InfixExpression MethodInvocation SimpleName name
+string SimpleName SimpleType MethodDeclaration SimpleName get key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source version
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target version
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type category
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source version
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target version
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category

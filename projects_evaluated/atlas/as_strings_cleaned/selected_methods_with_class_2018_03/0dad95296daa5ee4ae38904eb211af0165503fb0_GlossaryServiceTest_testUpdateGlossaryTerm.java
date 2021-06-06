@@ -1,0 +1,113 @@
+groups SimpleName MemberValuePair StringLiteral glossaryupdate
+depends on groups SimpleName MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossaryupdate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName term
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName checking account
+arrays SimpleName MethodInvocation SimpleName savings account
+arrays SimpleName MethodInvocation SimpleName fixed rate mortgage
+arrays SimpleName MethodInvocation SimpleName adjustable rate mortgage
+as list SimpleName MethodInvocation SimpleName checking account
+as list SimpleName MethodInvocation SimpleName savings account
+as list SimpleName MethodInvocation SimpleName fixed rate mortgage
+as list SimpleName MethodInvocation SimpleName adjustable rate mortgage
+checking account SimpleName MethodInvocation SimpleName savings account
+checking account SimpleName MethodInvocation SimpleName fixed rate mortgage
+checking account SimpleName MethodInvocation SimpleName adjustable rate mortgage
+savings account SimpleName MethodInvocation SimpleName fixed rate mortgage
+savings account SimpleName MethodInvocation SimpleName adjustable rate mortgage
+fixed rate mortgage SimpleName MethodInvocation SimpleName adjustable rate mortgage
+term SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get term
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName term
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get term SimpleName MethodInvocation MethodInvocation SimpleName term
+get term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+glossary terms SimpleName MethodInvocation SimpleName add
+glossary terms SimpleName MethodInvocation MethodInvocation SimpleName glossary service
+glossary terms SimpleName MethodInvocation MethodInvocation SimpleName get term
+glossary terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term
+glossary terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName glossary service
+add SimpleName MethodInvocation MethodInvocation SimpleName get term
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName term
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral fetch of glossary term shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+fetch of glossary term shouldve succeeded StringLiteral MethodInvocation SimpleName e
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName checking account
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName savings account
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fixed rate mortgage
+term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName adjustable rate mortgage
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName set short description
+t SimpleName MethodInvocation StringLiteral updated short description
+set short description SimpleName MethodInvocation StringLiteral updated short description
+t SimpleName MethodInvocation SimpleName set long description
+t SimpleName MethodInvocation StringLiteral updated long description
+set long description SimpleName MethodInvocation StringLiteral updated long description
+glossary service SimpleName MethodInvocation SimpleName update term
+glossary service SimpleName MethodInvocation SimpleName t
+update term SimpleName MethodInvocation SimpleName t
+updated term SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+updated term SimpleName VariableDeclarationFragment MethodInvocation SimpleName update term
+updated term SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+atlas glossary term SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated term
+assert not null SimpleName MethodInvocation SimpleName updated term
+updated term SimpleName MethodInvocation SimpleName get guid
+t SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated term
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName t
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+updated term SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+updated term SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary term fetchupdate shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+glossary term fetchupdate shouldve succeeded StringLiteral MethodInvocation SimpleName e
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName glossary terms
+t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName glossary terms
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test update glossary term
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary term
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary term
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary term
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test update glossary term
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test update glossary term
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName glossary terms
+void PrimitiveType MethodDeclaration SimpleName test update glossary term
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName glossary terms
+test update glossary term SimpleName MethodDeclaration Block EnhancedForStatement SimpleName glossary terms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test update glossary term
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test update glossary term

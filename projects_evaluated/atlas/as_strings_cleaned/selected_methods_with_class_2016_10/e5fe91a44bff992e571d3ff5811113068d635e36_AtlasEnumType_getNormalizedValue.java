@@ -1,0 +1,39 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName to string
+obj SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+to string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+element defs SimpleName MethodInvocation SimpleName get
+element defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obj
+element defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+element defs SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obj
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+element def SimpleName VariableDeclarationFragment MethodInvocation SimpleName element defs
+element def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+element def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+atlas enum element def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element def
+element def SimpleName MethodInvocation SimpleName get value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get normalized value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get normalized value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType MethodDeclaration SimpleName get normalized value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+get normalized value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get normalized value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get normalized value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get normalized value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

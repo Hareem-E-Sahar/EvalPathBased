@@ -1,0 +1,33 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+ssi SimpleName MethodInvocation SimpleName has top
+ssi SimpleName MethodInvocation SimpleName get top key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ssi
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top key
+ssi SimpleName MethodInvocation SimpleName get top value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ssi
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top value
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName my entry
+my entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+ssi SimpleName MethodInvocation SimpleName next
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entry
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName e
+entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

@@ -1,0 +1,350 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName criteria
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName gremlin attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName gremlin attributes
+atlas graph query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+criteria SimpleName MethodInvocation SimpleName get condition
+criteria SimpleName MethodInvocation SimpleName get condition
+criteria SimpleName MethodInvocation InfixExpression QualifiedName conditionand
+get condition SimpleName MethodInvocation InfixExpression QualifiedName conditionand
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+criteria SimpleName MethodInvocation SimpleName get criterion
+context SimpleName MethodInvocation SimpleName get graph
+context SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph SimpleName MethodInvocation MethodInvocation SimpleName query
+to gremlin filter query SimpleName MethodInvocation SimpleName type
+to gremlin filter query SimpleName MethodInvocation SimpleName filter criteria
+to gremlin filter query SimpleName MethodInvocation SimpleName gremlin attributes
+to gremlin filter query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+to gremlin filter query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+to gremlin filter query SimpleName MethodInvocation MethodInvocation SimpleName query
+type SimpleName MethodInvocation SimpleName filter criteria
+type SimpleName MethodInvocation SimpleName gremlin attributes
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+type SimpleName MethodInvocation MethodInvocation SimpleName query
+filter criteria SimpleName MethodInvocation SimpleName gremlin attributes
+filter criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+filter criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+filter criteria SimpleName MethodInvocation MethodInvocation SimpleName query
+gremlin attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+gremlin attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+gremlin attributes SimpleName MethodInvocation MethodInvocation SimpleName query
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName to gremlin filter query
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin attributes
+nested query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested query
+query SimpleName MethodInvocation SimpleName add conditions from
+query SimpleName MethodInvocation SimpleName nested query
+add conditions from SimpleName MethodInvocation SimpleName nested query
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName criteria
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get criterion
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas graph query
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+criteria SimpleName MethodInvocation SimpleName get criterion
+context SimpleName MethodInvocation SimpleName get graph
+context SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph SimpleName MethodInvocation MethodInvocation SimpleName query
+to gremlin filter query SimpleName MethodInvocation SimpleName type
+to gremlin filter query SimpleName MethodInvocation SimpleName filter criteria
+to gremlin filter query SimpleName MethodInvocation SimpleName gremlin attributes
+to gremlin filter query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+to gremlin filter query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+to gremlin filter query SimpleName MethodInvocation MethodInvocation SimpleName query
+type SimpleName MethodInvocation SimpleName filter criteria
+type SimpleName MethodInvocation SimpleName gremlin attributes
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+type SimpleName MethodInvocation MethodInvocation SimpleName query
+filter criteria SimpleName MethodInvocation SimpleName gremlin attributes
+filter criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+filter criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+filter criteria SimpleName MethodInvocation MethodInvocation SimpleName query
+gremlin attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+gremlin attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get graph
+gremlin attributes SimpleName MethodInvocation MethodInvocation SimpleName query
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName to gremlin filter query
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin attributes
+nested query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested query
+context SimpleName MethodInvocation SimpleName get graph
+context SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph SimpleName MethodInvocation MethodInvocation SimpleName query
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create child query
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create child query
+query SimpleName MethodInvocation MethodInvocation SimpleName create child query
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add conditions from
+create child query SimpleName MethodInvocation MethodInvocation SimpleName add conditions from
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested query
+create child query SimpleName MethodInvocation MethodInvocation SimpleName nested query
+add conditions from SimpleName MethodInvocation SimpleName nested query
+or conditions SimpleName MethodInvocation SimpleName add
+or conditions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create child query
+or conditions SimpleName MethodInvocation MethodInvocation SimpleName add conditions from
+or conditions SimpleName MethodInvocation MethodInvocation SimpleName nested query
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create child query
+add SimpleName MethodInvocation MethodInvocation SimpleName add conditions from
+add SimpleName MethodInvocation MethodInvocation SimpleName nested query
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName criteria
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get criterion
+or conditions SimpleName MethodInvocation SimpleName is empty
+query SimpleName MethodInvocation SimpleName or
+query SimpleName MethodInvocation SimpleName or conditions
+or SimpleName MethodInvocation SimpleName or conditions
+criteria SimpleName MethodInvocation SimpleName get attribute name
+gremlin attributes SimpleName MethodInvocation SimpleName contains
+gremlin attributes SimpleName MethodInvocation MethodInvocation SimpleName criteria
+gremlin attributes SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+contains SimpleName MethodInvocation MethodInvocation SimpleName criteria
+contains SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+criteria SimpleName MethodInvocation SimpleName get attribute name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName criteria
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+criteria SimpleName MethodInvocation SimpleName get attribute value
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName criteria
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+criteria SimpleName MethodInvocation SimpleName get operator
+operator SimpleName VariableDeclarationFragment MethodInvocation SimpleName criteria
+operator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get operator
+search parametersoperator QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operator
+type SimpleName MethodInvocation SimpleName get qualified attribute name
+type SimpleName MethodInvocation SimpleName attr name
+get qualified attribute name SimpleName MethodInvocation SimpleName attr name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatorless than QualifiedName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than equal
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than equal
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorless than equal
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatorless than equal QualifiedName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatorgreater than QualifiedName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than equal
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than equal
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorgreater than equal
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatorgreater than equal QualifiedName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatorequal
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatorequal QualifiedName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatornot equal
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatornot equal
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querycomparision operatornot equal
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querycomparision operatornot equal QualifiedName MethodInvocation SimpleName attr value
+get like regex SimpleName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+query SimpleName MethodInvocation MethodInvocation SimpleName get like regex
+query SimpleName MethodInvocation MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+has SimpleName MethodInvocation MethodInvocation SimpleName get like regex
+has SimpleName MethodInvocation MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName get like regex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName get like regex
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName attr value
+get contains regex SimpleName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+query SimpleName MethodInvocation MethodInvocation SimpleName get contains regex
+query SimpleName MethodInvocation MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+has SimpleName MethodInvocation MethodInvocation SimpleName get contains regex
+has SimpleName MethodInvocation MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName get contains regex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName get contains regex
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorprefix
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorprefix
+has SimpleName MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorprefix
+qualified name SimpleName MethodInvocation SimpleName attr value
+atlas graph querymatching operatorprefix QualifiedName MethodInvocation SimpleName attr value
+get suffix regex SimpleName MethodInvocation SimpleName attr value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName qualified name
+query SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+query SimpleName MethodInvocation MethodInvocation SimpleName get suffix regex
+query SimpleName MethodInvocation MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation SimpleName qualified name
+has SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+has SimpleName MethodInvocation MethodInvocation SimpleName get suffix regex
+has SimpleName MethodInvocation MethodInvocation SimpleName attr value
+qualified name SimpleName MethodInvocation QualifiedName atlas graph querymatching operatorregex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName get suffix regex
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName get suffix regex
+atlas graph querymatching operatorregex QualifiedName MethodInvocation MethodInvocation SimpleName attr value
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral {}: unsupported operator ignored
+log SimpleName MethodInvocation SimpleName operator
+warn SimpleName MethodInvocation StringLiteral {}: unsupported operator ignored
+warn SimpleName MethodInvocation SimpleName operator
+{}: unsupported operator ignored StringLiteral MethodInvocation SimpleName operator
+operator SimpleName SwitchStatement SwitchCase SimpleName lt
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName query
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName has
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName qualified name
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName atlas graph querycomparision operatorless than
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr value
+operator SimpleName SwitchStatement SwitchCase SimpleName lte
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName query
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName has
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName qualified name
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName atlas graph querycomparision operatorless than equal
+operator SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attr value
+lt SimpleName SwitchCase SwitchStatement SwitchCase SimpleName lte
+lte SimpleName SwitchCase SwitchStatement SwitchCase SimpleName gt
+gt SimpleName SwitchCase SwitchStatement SwitchCase SimpleName gte
+gte SimpleName SwitchCase SwitchStatement SwitchCase SimpleName eq
+eq SimpleName SwitchCase SwitchStatement SwitchCase SimpleName neq
+neq SimpleName SwitchCase SwitchStatement SwitchCase SimpleName like
+like SimpleName SwitchCase SwitchStatement SwitchCase SimpleName contains
+contains SimpleName SwitchCase SwitchStatement SwitchCase SimpleName starts with
+starts with SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ends with
+ends with SimpleName SwitchCase SwitchStatement SwitchCase SimpleName in
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName operator
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+to gremlin filter query failed for attr name StringLiteral InfixExpression SimpleName attr name
+to gremlin filter query failed for attr name StringLiteral InfixExpression StringLiteral operator
+to gremlin filter query failed for attr name StringLiteral InfixExpression SimpleName operator
+to gremlin filter query failed for attr name StringLiteral InfixExpression StringLiteral attr value
+to gremlin filter query failed for attr name StringLiteral InfixExpression SimpleName attr value
+attr name SimpleName InfixExpression StringLiteral operator
+attr name SimpleName InfixExpression SimpleName operator
+attr name SimpleName InfixExpression StringLiteral attr value
+attr name SimpleName InfixExpression SimpleName attr value
+ operator StringLiteral InfixExpression SimpleName operator
+ operator StringLiteral InfixExpression StringLiteral attr value
+ operator StringLiteral InfixExpression SimpleName attr value
+operator SimpleName InfixExpression StringLiteral attr value
+operator SimpleName InfixExpression SimpleName attr value
+ attr value StringLiteral InfixExpression SimpleName attr value
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral to gremlin filter query failed for attr name
+log SimpleName MethodInvocation InfixExpression SimpleName attr name
+log SimpleName MethodInvocation InfixExpression StringLiteral operator
+log SimpleName MethodInvocation InfixExpression SimpleName operator
+log SimpleName MethodInvocation InfixExpression StringLiteral attr value
+log SimpleName MethodInvocation InfixExpression SimpleName attr value
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral to gremlin filter query failed for attr name
+error SimpleName MethodInvocation InfixExpression SimpleName attr name
+error SimpleName MethodInvocation InfixExpression StringLiteral operator
+error SimpleName MethodInvocation InfixExpression SimpleName operator
+error SimpleName MethodInvocation InfixExpression StringLiteral attr value
+error SimpleName MethodInvocation InfixExpression SimpleName attr value
+error SimpleName MethodInvocation SimpleName e
+to gremlin filter query failed for attr name StringLiteral InfixExpression MethodInvocation SimpleName e
+attr name SimpleName InfixExpression MethodInvocation SimpleName e
+ operator StringLiteral InfixExpression MethodInvocation SimpleName e
+operator SimpleName InfixExpression MethodInvocation SimpleName e
+ attr value StringLiteral InfixExpression MethodInvocation SimpleName e
+attr value SimpleName InfixExpression MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName atlas graph query
+protected Modifier MethodDeclaration SimpleName to gremlin filter query
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+atlas graph query SimpleName SimpleType MethodDeclaration SimpleName to gremlin filter query
+atlas graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+atlas graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName criteria
+atlas graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+atlas graph query SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName criteria
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+to gremlin filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+to gremlin filter query SimpleName MethodDeclaration Block ReturnStatement SimpleName query
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+gremlin attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas graph query
+public Modifier TypeDeclaration MethodDeclaration SimpleName to gremlin filter query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas graph query
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to gremlin filter query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName access service operational status
+public Modifier MethodDeclaration SimpleName get access service operational status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName access service operational status
+access service operational status SimpleName SimpleType MethodDeclaration SimpleName get access service operational status
+get access service operational status SimpleName MethodDeclaration Block ReturnStatement SimpleName access service operational status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName access service operational status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get access service operational status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName access service operational status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get access service operational status

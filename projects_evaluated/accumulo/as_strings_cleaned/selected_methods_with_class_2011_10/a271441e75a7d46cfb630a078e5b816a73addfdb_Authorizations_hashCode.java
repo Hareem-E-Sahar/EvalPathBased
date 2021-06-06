@@ -1,0 +1,32 @@
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName b
+b SimpleName MethodInvocation SimpleName hash code
+result SimpleName Assignment MethodInvocation SimpleName b
+result SimpleName Assignment MethodInvocation SimpleName hash code
+byte sequence SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName auths
+b SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName auths
+auths SimpleName EnhancedForStatement ExpressionStatement Assignment SimpleName result
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName auths
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+auths SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName auths
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName auths
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+hash code SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+hash code SimpleName MethodDeclaration Block EnhancedForStatement SimpleName auths
+hash code SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

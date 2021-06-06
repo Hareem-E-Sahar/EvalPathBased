@@ -1,0 +1,71 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+long PrimitiveType SingleVariableDeclaration SimpleName timeout
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName consumer records
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName consumer records
+consumer SimpleName MethodInvocation SimpleName poll
+consumer SimpleName MethodInvocation SimpleName timeout
+poll SimpleName MethodInvocation SimpleName timeout
+records map SimpleName VariableDeclarationFragment MethodInvocation SimpleName consumer
+records map SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+records map SimpleName VariableDeclarationFragment MethodInvocation SimpleName timeout
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+consumer records SimpleName SimpleType SingleVariableDeclaration SimpleName records
+records map SimpleName MethodInvocation SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName consumer record
+records SimpleName MethodInvocation SimpleName records
+record list SimpleName VariableDeclarationFragment MethodInvocation SimpleName records
+record list SimpleName VariableDeclarationFragment MethodInvocation SimpleName records
+consumer record SimpleName SimpleType SingleVariableDeclaration SimpleName record
+record SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName record
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+message SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+message SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName record
+message SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral received message from topic {}: {}
+log SimpleName MethodInvocation SimpleName atlas hook topic
+log SimpleName MethodInvocation SimpleName message
+debug SimpleName MethodInvocation StringLiteral received message from topic {}: {}
+debug SimpleName MethodInvocation SimpleName atlas hook topic
+debug SimpleName MethodInvocation SimpleName message
+received message from topic {}: {} StringLiteral MethodInvocation SimpleName atlas hook topic
+received message from topic {}: {} StringLiteral MethodInvocation SimpleName message
+atlas hook topic SimpleName MethodInvocation SimpleName message
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation SimpleName message
+add SimpleName MethodInvocation SimpleName message
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+notification exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+consumer record SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName record list
+record SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName record list
+records SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName records map
+records SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName receive
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName timeout
+private Modifier MethodDeclaration SimpleType SimpleName notification exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName messages
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName receive
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName receive
+receive SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timeout
+receive SimpleName MethodDeclaration SimpleType SimpleName notification exception
+receive SimpleName MethodDeclaration Block ReturnStatement SimpleName messages
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName receive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName receive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception

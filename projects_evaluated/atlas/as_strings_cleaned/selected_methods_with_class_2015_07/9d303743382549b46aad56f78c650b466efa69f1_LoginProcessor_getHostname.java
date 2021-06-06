@@ -1,0 +1,38 @@
+orgapachecommonsconfigurationconfiguration QualifiedName SimpleType SingleVariableDeclaration SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName security propertiesbind address
+get string SimpleName MethodInvocation QualifiedName security propertiesbind address
+bind address SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+bind address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+bind address SimpleName VariableDeclarationFragment MethodInvocation QualifiedName security propertiesbind address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bind address
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no host name configured defaulting to local host name
+info SimpleName MethodInvocation StringLiteral no host name configured defaulting to local host name
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+bind address SimpleName Assignment MethodInvocation MethodInvocation SimpleName inet address
+bind address SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local host
+bind address SimpleName Assignment MethodInvocation SimpleName get host name
+unknown host exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get hostname
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+private Modifier MethodDeclaration Block ReturnStatement SimpleName bind address
+string SimpleName SimpleType MethodDeclaration SimpleName get hostname
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get hostname SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+get hostname SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get hostname SimpleName MethodDeclaration Block ReturnStatement SimpleName bind address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hostname
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hostname
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

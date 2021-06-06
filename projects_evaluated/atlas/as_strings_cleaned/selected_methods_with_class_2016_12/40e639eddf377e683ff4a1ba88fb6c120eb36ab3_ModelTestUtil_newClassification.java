@@ -1,0 +1,70 @@
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName classification def
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName types registry
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+classification def SimpleName MethodInvocation SimpleName get name
+types registry SimpleName MethodInvocation SimpleName get type
+types registry SimpleName MethodInvocation MethodInvocation SimpleName classification def
+types registry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types registry
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification def
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName data type
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create default value
+ret SimpleName Assignment MethodInvocation SimpleName create default value
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+classification def SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to get classificationtype {}
+log SimpleName MethodInvocation MethodInvocation SimpleName classification def
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral failed to get classificationtype {}
+error SimpleName MethodInvocation MethodInvocation SimpleName classification def
+error SimpleName MethodInvocation MethodInvocation SimpleName get name
+error SimpleName MethodInvocation SimpleName excp
+failed to get classificationtype {} StringLiteral MethodInvocation MethodInvocation SimpleName classification def
+failed to get classificationtype {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+failed to get classificationtype {} StringLiteral MethodInvocation SimpleName excp
+classification def SimpleName MethodInvocation MethodInvocation SimpleName excp
+get name SimpleName MethodInvocation MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName new classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration SimpleType SimpleName atlas classification
+static Modifier MethodDeclaration SimpleName new classification
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification SimpleName SimpleType MethodDeclaration SimpleName new classification
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification def
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+new classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification def
+new classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+new classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new classification SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier TypeDeclaration MethodDeclaration SimpleName new classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry

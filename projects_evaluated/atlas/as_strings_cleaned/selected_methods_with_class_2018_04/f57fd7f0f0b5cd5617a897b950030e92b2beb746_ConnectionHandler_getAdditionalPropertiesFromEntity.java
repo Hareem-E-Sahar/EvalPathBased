@@ -1,0 +1,101 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+repository helper SimpleName MethodInvocation SimpleName get map property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName property name
+repository helper SimpleName MethodInvocation SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get map property SimpleName MethodInvocation SimpleName service name
+get map property SimpleName MethodInvocation SimpleName property name
+get map property SimpleName MethodInvocation SimpleName properties
+get map property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName property name
+service name SimpleName MethodInvocation SimpleName properties
+service name SimpleName MethodInvocation SimpleName method name
+property name SimpleName MethodInvocation SimpleName properties
+property name SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName method name
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository helper
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map property
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName service name
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+map property SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+instance properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map property
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map property SimpleName MethodInvocation SimpleName get property names
+additional property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName map property
+additional property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property names
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+additional property names SimpleName MethodInvocation SimpleName has next
+additional property names SimpleName MethodInvocation SimpleName next
+additional property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName additional property names
+additional property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName additional property name
+map property SimpleName MethodInvocation SimpleName get property value
+map property SimpleName MethodInvocation SimpleName additional property name
+get property value SimpleName MethodInvocation SimpleName additional property name
+additional property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName map property
+additional property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+additional property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName additional property name
+instance property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName additional property value
+additional property value SimpleName MethodInvocation SimpleName get instance property category
+additional property value SimpleName MethodInvocation InfixExpression QualifiedName instance property categoryprimitive
+get instance property category SimpleName MethodInvocation InfixExpression QualifiedName instance property categoryprimitive
+primitive property value SimpleName SimpleType CastExpression SimpleName additional property value
+primitive property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName primitive property value
+primitive property value SimpleName VariableDeclarationFragment CastExpression SimpleName additional property value
+primitive property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive property value
+primitive property value SimpleName MethodInvocation SimpleName get primitive value
+additional properties map SimpleName MethodInvocation SimpleName put
+additional properties map SimpleName MethodInvocation SimpleName additional property name
+additional properties map SimpleName MethodInvocation MethodInvocation SimpleName primitive property value
+additional properties map SimpleName MethodInvocation MethodInvocation SimpleName get primitive value
+put SimpleName MethodInvocation SimpleName additional property name
+put SimpleName MethodInvocation MethodInvocation SimpleName primitive property value
+put SimpleName MethodInvocation MethodInvocation SimpleName get primitive value
+additional property name SimpleName MethodInvocation MethodInvocation SimpleName primitive property value
+additional property name SimpleName MethodInvocation MethodInvocation SimpleName get primitive value
+additional properties map SimpleName MethodInvocation SimpleName is empty
+additional properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName additional properties
+additional properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName additional properties
+additional properties SimpleName MethodInvocation SimpleName set additional properties
+additional properties SimpleName MethodInvocation SimpleName additional properties map
+set additional properties SimpleName MethodInvocation SimpleName additional properties map
+private Modifier MethodDeclaration SimpleType SimpleName additional properties
+private Modifier MethodDeclaration SimpleName get additional properties from entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+additional properties SimpleName SimpleType MethodDeclaration SimpleName get additional properties from entity
+additional properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+additional properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties
+additional properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method name
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get additional properties from entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get additional properties from entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get additional properties from entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name

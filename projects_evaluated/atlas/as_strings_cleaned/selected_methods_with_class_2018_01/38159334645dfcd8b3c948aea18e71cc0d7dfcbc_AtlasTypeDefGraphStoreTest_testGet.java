@@ -1,0 +1,65 @@
+type def store SimpleName MethodInvocation SimpleName search types def
+type def store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName search filter
+search types def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName search filter
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def store
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName search types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName get enum defs
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName types def
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get enum defs
+types def SimpleName MethodInvocation SimpleName get struct defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName size
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation SimpleName get struct defs
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName types def
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get struct defs
+types def SimpleName MethodInvocation SimpleName get classification defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName size
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation SimpleName get classification defs
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName types def
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get classification defs
+types def SimpleName MethodInvocation SimpleName get entity defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName size
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types def
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+types def SimpleName MethodInvocation SimpleName get entity defs
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName types def
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get entity defs
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral search of types shouldnt have failed
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get
+void PrimitiveType MethodDeclaration SimpleName test get
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get

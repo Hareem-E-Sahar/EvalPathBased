@@ -1,0 +1,42 @@
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation StringLiteral atlasservicesenabled
+configuration SimpleName MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation StringLiteral atlasservicesenabled
+get boolean SimpleName MethodInvocation BooleanLiteral true
+atlasservicesenabled StringLiteral MethodInvocation BooleanLiteral true
+service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+service SimpleName MethodInvocation SimpleName get class
+service SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral starting service {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral starting service {}
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+starting service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName service
+starting service {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+starting service {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+service SimpleName MethodInvocation SimpleName start
+service SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName services
+service SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName services
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+post construct SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post construct SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+post construct SimpleName MarkerAnnotation MethodDeclaration SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleName start
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start

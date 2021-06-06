@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName existing properties
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName new properties
+instance properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName merged properties
+merged properties SimpleName Assignment SimpleName new properties
+merged properties SimpleName Assignment SimpleName existing properties
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+new properties SimpleName MethodInvocation SimpleName get property names
+new property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName new properties
+new property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property names
+new property names SimpleName MethodInvocation SimpleName has next
+new property names SimpleName MethodInvocation SimpleName next
+new property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new property names
+new property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new property name
+new properties SimpleName MethodInvocation SimpleName get property value
+new properties SimpleName MethodInvocation SimpleName new property name
+get property value SimpleName MethodInvocation SimpleName new property name
+merged properties SimpleName MethodInvocation SimpleName set property
+merged properties SimpleName MethodInvocation SimpleName new property name
+merged properties SimpleName MethodInvocation MethodInvocation SimpleName new properties
+merged properties SimpleName MethodInvocation MethodInvocation SimpleName get property value
+merged properties SimpleName MethodInvocation MethodInvocation SimpleName new property name
+set property SimpleName MethodInvocation SimpleName new property name
+set property SimpleName MethodInvocation MethodInvocation SimpleName new properties
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property value
+set property SimpleName MethodInvocation MethodInvocation SimpleName new property name
+new property name SimpleName MethodInvocation MethodInvocation SimpleName new properties
+new property name SimpleName MethodInvocation MethodInvocation SimpleName get property value
+new property name SimpleName MethodInvocation MethodInvocation SimpleName new property name
+public Modifier MethodDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SimpleName merge instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new properties
+instance properties SimpleName SimpleType MethodDeclaration SimpleName merge instance properties
+instance properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source name
+instance properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+instance properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new properties
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+merge instance properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new properties
+merge instance properties SimpleName MethodDeclaration Block ReturnStatement SimpleName merged properties
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new properties
+existing properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName merge instance properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merge instance properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new properties

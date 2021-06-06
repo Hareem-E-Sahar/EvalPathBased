@@ -1,0 +1,24 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert vertices deleted
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName assert vertices deleted
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+void PrimitiveType MethodDeclaration SimpleName assert vertices deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertices
+assert vertices deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert vertices deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert vertices deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices

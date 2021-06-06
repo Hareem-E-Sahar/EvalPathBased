@@ -1,0 +1,110 @@
+titan management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+data type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName SimpleType CastExpression SimpleName data type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleName data type
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+struct type SimpleName MethodInvocation SimpleName field mapping
+struct type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+create index for fields SimpleName MethodInvocation SimpleName management
+create index for fields SimpleName MethodInvocation SimpleName struct type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+create index for fields SimpleName MethodInvocation FieldAccess SimpleName fields
+management SimpleName MethodInvocation SimpleName struct type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+management SimpleName MethodInvocation FieldAccess SimpleName fields
+struct type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName struct type
+struct type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+struct type SimpleName MethodInvocation FieldAccess SimpleName fields
+trait type SimpleName SimpleType CastExpression SimpleName data type
+trait type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName trait type
+trait type SimpleName VariableDeclarationFragment CastExpression SimpleName data type
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName field mapping
+trait type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+create index for fields SimpleName MethodInvocation SimpleName management
+create index for fields SimpleName MethodInvocation SimpleName trait type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+create index for fields SimpleName MethodInvocation FieldAccess SimpleName fields
+management SimpleName MethodInvocation SimpleName trait type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+management SimpleName MethodInvocation FieldAccess SimpleName fields
+trait type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait type
+trait type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+trait type SimpleName MethodInvocation FieldAccess SimpleName fields
+class type SimpleName SimpleType CastExpression SimpleName data type
+class type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName class type
+class type SimpleName VariableDeclarationFragment CastExpression SimpleName data type
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+create index for fields SimpleName MethodInvocation SimpleName management
+create index for fields SimpleName MethodInvocation SimpleName class type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+create index for fields SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+create index for fields SimpleName MethodInvocation FieldAccess SimpleName fields
+management SimpleName MethodInvocation SimpleName class type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+management SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+management SimpleName MethodInvocation FieldAccess SimpleName fields
+class type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName class type
+class type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+bad data type StringLiteral InfixExpression SimpleName data type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad data type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName data type
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add index for type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+void PrimitiveType MethodDeclaration SimpleName add index for type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data type
+add index for type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+add index for type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+add index for type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+add index for type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add index for type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add index for type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type

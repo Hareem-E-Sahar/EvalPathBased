@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+boolean PrimitiveType SingleVariableDeclaration SimpleName registered
+dgi c lient SimpleName MethodInvocation SimpleName search by dsl
+dgi c lient SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName has
+row SimpleName MethodInvocation StringLiteral id
+has SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation SimpleName get json object
+row SimpleName MethodInvocation StringLiteral id
+get json object SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+id StringLiteral MethodInvocation MethodInvocation SimpleName get string
+row SimpleName MethodInvocation MethodInvocation StringLiteral id
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral id
+id StringLiteral MethodInvocation MethodInvocation StringLiteral id
+get string SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation SimpleName get json object
+row SimpleName MethodInvocation StringLiteral col
+get json object SimpleName MethodInvocation StringLiteral col
+row SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+col StringLiteral MethodInvocation MethodInvocation SimpleName get string
+row SimpleName MethodInvocation MethodInvocation StringLiteral id
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral id
+col StringLiteral MethodInvocation MethodInvocation StringLiteral id
+get string SimpleName MethodInvocation StringLiteral id
+results SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName results
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert entity is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName registered
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert entity is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName registered
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+assert entity is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registered
+assert entity is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+assert entity is registered SimpleName MethodDeclaration Block IfStatement SimpleName registered
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registered
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+registered SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert entity is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registered
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert entity is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registered
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

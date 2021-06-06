@@ -1,0 +1,102 @@
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilsstorage desc type
+sd referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+sd referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilsstorage desc type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd referenceable
+test utils SimpleName MethodInvocation SimpleName random string
+sd referenceable SimpleName MethodInvocation SimpleName set
+sd referenceable SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+sd referenceable SimpleName MethodInvocation MethodInvocation SimpleName test utils
+sd referenceable SimpleName MethodInvocation MethodInvocation SimpleName random string
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation MethodInvocation SimpleName test utils
+set SimpleName MethodInvocation MethodInvocation SimpleName random string
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName test utils
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName random string
+sd referenceable SimpleName MethodInvocation SimpleName set
+sd referenceable SimpleName MethodInvocation StringLiteral compressed
+sd referenceable SimpleName MethodInvocation StringLiteral false
+set SimpleName MethodInvocation StringLiteral compressed
+set SimpleName MethodInvocation StringLiteral false
+compressed StringLiteral MethodInvocation StringLiteral false
+sd referenceable SimpleName MethodInvocation SimpleName set
+sd referenceable SimpleName MethodInvocation StringLiteral location
+sd referenceable SimpleName MethodInvocation StringLiteral hdfstmphiveuser
+set SimpleName MethodInvocation StringLiteral location
+set SimpleName MethodInvocation StringLiteral hdfstmphiveuser
+location StringLiteral MethodInvocation StringLiteral hdfstmphiveuser
+create instance SimpleName MethodInvocation SimpleName sd referenceable
+sd guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+sd guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName sd referenceable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd guid
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName sd guid
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilsstorage desc type
+sd guid SimpleName ClassInstanceCreation QualifiedName test utilsstorage desc type
+sd ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+sd ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sd guid
+sd ref SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilsstorage desc type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd ref
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition class type
+part ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+part ref SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspartition class type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName part ref
+part ref SimpleName MethodInvocation SimpleName set
+part ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+part ref SimpleName MethodInvocation StringLiteral partunique
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation StringLiteral partunique
+atlas clientreferenceable attribute name QualifiedName MethodInvocation StringLiteral partunique
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation StringLiteral - -
+of SimpleName MethodInvocation StringLiteral - -
+part ref SimpleName MethodInvocation SimpleName set
+part ref SimpleName MethodInvocation StringLiteral values
+part ref SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+part ref SimpleName MethodInvocation MethodInvocation SimpleName of
+part ref SimpleName MethodInvocation MethodInvocation StringLiteral - -
+set SimpleName MethodInvocation StringLiteral values
+set SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+set SimpleName MethodInvocation MethodInvocation SimpleName of
+set SimpleName MethodInvocation MethodInvocation StringLiteral - -
+values StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+values StringLiteral MethodInvocation MethodInvocation SimpleName of
+values StringLiteral MethodInvocation MethodInvocation StringLiteral - -
+part ref SimpleName MethodInvocation SimpleName set
+part ref SimpleName MethodInvocation StringLiteral table
+part ref SimpleName MethodInvocation SimpleName table
+set SimpleName MethodInvocation StringLiteral table
+set SimpleName MethodInvocation SimpleName table
+table StringLiteral MethodInvocation SimpleName table
+part ref SimpleName MethodInvocation SimpleName set
+part ref SimpleName MethodInvocation StringLiteral sd
+part ref SimpleName MethodInvocation SimpleName sd ref
+set SimpleName MethodInvocation StringLiteral sd
+set SimpleName MethodInvocation SimpleName sd ref
+sd StringLiteral MethodInvocation SimpleName sd ref
+create instance SimpleName MethodInvocation SimpleName part ref
+part guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+part guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName part ref
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName part guid
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName part guid
+assert not null SimpleName MethodInvocation SimpleName part guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create entity with referenceable having id no value
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create entity with referenceable having id no value
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create entity with referenceable having id no value
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create entity with referenceable having id no value SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create entity with referenceable having id no value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create entity with referenceable having id no value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

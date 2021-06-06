@@ -1,0 +1,72 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity with associations
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+query params SimpleName MethodInvocation SimpleName add
+query params SimpleName MethodInvocation StringLiteral value
+query params SimpleName MethodInvocation SimpleName value
+add SimpleName MethodInvocation StringLiteral value
+add SimpleName MethodInvocation SimpleName value
+value StringLiteral MethodInvocation SimpleName value
+format path for path params SimpleName MethodInvocation SimpleName get entity by attribute
+format path for path params SimpleName MethodInvocation SimpleName type
+format path for path params SimpleName MethodInvocation SimpleName attribute
+get entity by attribute SimpleName MethodInvocation SimpleName type
+get entity by attribute SimpleName MethodInvocation SimpleName attribute
+type SimpleName MethodInvocation SimpleName attribute
+call api SimpleName MethodInvocation MethodInvocation SimpleName format path for path params
+call api SimpleName MethodInvocation MethodInvocation SimpleName get entity by attribute
+call api SimpleName MethodInvocation MethodInvocation SimpleName type
+call api SimpleName MethodInvocation MethodInvocation SimpleName attribute
+call api SimpleName MethodInvocation SimpleName entity with associations list type
+call api SimpleName MethodInvocation SimpleName query params
+format path for path params SimpleName MethodInvocation MethodInvocation SimpleName entity with associations list type
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName entity with associations list type
+type SimpleName MethodInvocation MethodInvocation SimpleName entity with associations list type
+attribute SimpleName MethodInvocation MethodInvocation SimpleName entity with associations list type
+format path for path params SimpleName MethodInvocation MethodInvocation SimpleName query params
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName query params
+type SimpleName MethodInvocation MethodInvocation SimpleName query params
+attribute SimpleName MethodInvocation MethodInvocation SimpleName query params
+entity with associations list type SimpleName MethodInvocation SimpleName query params
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity with associations
+public Modifier MethodDeclaration SimpleName get entity by attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity by attribute
+atlas entity with associations SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity by attribute
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+get entity by attribute SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity by attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity by attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

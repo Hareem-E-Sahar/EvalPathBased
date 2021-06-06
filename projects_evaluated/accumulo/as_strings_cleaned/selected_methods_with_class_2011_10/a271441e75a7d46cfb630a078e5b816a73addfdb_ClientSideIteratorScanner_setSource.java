@@ -1,0 +1,22 @@
+scanner SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+scanner translator SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+smi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scanner translator
+smi SimpleName Assignment ClassInstanceCreation SimpleName scanner
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleName set source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+set source SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+set source SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner

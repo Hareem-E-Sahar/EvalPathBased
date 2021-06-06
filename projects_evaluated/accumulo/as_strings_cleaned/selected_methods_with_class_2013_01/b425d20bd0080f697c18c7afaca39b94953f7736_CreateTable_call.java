@@ -1,0 +1,61 @@
+repo SimpleName SimpleType ParameterizedType SimpleType SimpleName master
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+master SimpleName SimpleType SingleVariableDeclaration SimpleName master
+utilsid lock QualifiedName MethodInvocation SimpleName lock
+master SimpleName MethodInvocation SimpleName get instance
+utils SimpleName MethodInvocation SimpleName get next table id
+utils SimpleName MethodInvocation QualifiedName table infotable name
+utils SimpleName MethodInvocation MethodInvocation SimpleName master
+utils SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get next table id SimpleName MethodInvocation QualifiedName table infotable name
+get next table id SimpleName MethodInvocation MethodInvocation SimpleName master
+get next table id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+table infotable name QualifiedName MethodInvocation MethodInvocation SimpleName master
+table infotable name QualifiedName MethodInvocation MethodInvocation SimpleName get instance
+table infotable id QualifiedName Assignment MethodInvocation SimpleName utils
+table infotable id QualifiedName Assignment MethodInvocation SimpleName get next table id
+table infotable id QualifiedName Assignment MethodInvocation QualifiedName table infotable name
+table infotable id QualifiedName Assignment MethodInvocation MethodInvocation SimpleName master
+table infotable id QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get instance
+setup permissions SimpleName SimpleType ClassInstanceCreation SimpleName table info
+utilsid lock QualifiedName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName master
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName repo
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName master
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName master
+public Modifier MethodDeclaration SimpleType SimpleName exception
+repo SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call
+master SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call
+call SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName master
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName master
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName master
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+master SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName master
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName master
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

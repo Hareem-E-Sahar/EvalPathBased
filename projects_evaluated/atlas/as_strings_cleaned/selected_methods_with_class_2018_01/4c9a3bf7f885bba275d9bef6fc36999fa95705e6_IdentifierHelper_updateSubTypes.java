@@ -1,0 +1,48 @@
+orgapacheatlasquerylookup QualifiedName SimpleType SingleVariableDeclaration SimpleName lookup
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+lookup SimpleName MethodInvocation SimpleName does type have sub types
+lookup SimpleName MethodInvocation SimpleName context
+does type have sub types SimpleName MethodInvocation SimpleName context
+has subtypes SimpleName Assignment MethodInvocation SimpleName lookup
+has subtypes SimpleName Assignment MethodInvocation SimpleName does type have sub types
+has subtypes SimpleName Assignment MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName get type and sub types
+lookup SimpleName MethodInvocation SimpleName context
+get type and sub types SimpleName MethodInvocation SimpleName context
+sub types SimpleName Assignment MethodInvocation SimpleName lookup
+sub types SimpleName Assignment MethodInvocation SimpleName get type and sub types
+sub types SimpleName Assignment MethodInvocation SimpleName context
+is trait SimpleName IfStatement Block IfStatement SimpleName has subtypes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update sub types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration Block IfStatement SimpleName is trait
+private Modifier MethodDeclaration Block IfStatement SimpleName has subtypes
+void PrimitiveType MethodDeclaration SimpleName update sub types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName is trait
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName has subtypes
+update sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+update sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lookup
+update sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+update sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+update sub types SimpleName MethodDeclaration Block IfStatement SimpleName is trait
+update sub types SimpleName MethodDeclaration Block IfStatement SimpleName has subtypes
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update sub types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update sub types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

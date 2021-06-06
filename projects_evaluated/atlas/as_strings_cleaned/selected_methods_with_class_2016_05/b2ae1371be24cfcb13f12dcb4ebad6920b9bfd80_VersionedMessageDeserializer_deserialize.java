@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message json
+versioned message SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+gson SimpleName MethodInvocation SimpleName from json
+gson SimpleName MethodInvocation SimpleName message json
+gson SimpleName MethodInvocation SimpleName versioned message type
+from json SimpleName MethodInvocation SimpleName message json
+from json SimpleName MethodInvocation SimpleName versioned message type
+message json SimpleName MethodInvocation SimpleName versioned message type
+versioned message SimpleName VariableDeclarationFragment MethodInvocation SimpleName gson
+versioned message SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+versioned message SimpleName VariableDeclarationFragment MethodInvocation SimpleName message json
+versioned message SimpleName VariableDeclarationFragment MethodInvocation SimpleName versioned message type
+versioned message SimpleName MethodInvocation SimpleName get version
+parameterized type SimpleName SimpleType CastExpression SimpleName versioned message type
+versioned message type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get actual type arguments
+get actual type arguments SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+t SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get actual type arguments
+t SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+gson SimpleName MethodInvocation SimpleType SimpleName t
+gson SimpleName MethodInvocation SimpleName from json
+gson SimpleName MethodInvocation SimpleName message json
+gson SimpleName MethodInvocation SimpleName t
+t SimpleName SimpleType MethodInvocation SimpleName from json
+t SimpleName SimpleType MethodInvocation SimpleName message json
+t SimpleName SimpleType MethodInvocation SimpleName t
+from json SimpleName MethodInvocation SimpleName message json
+from json SimpleName MethodInvocation SimpleName t
+message json SimpleName MethodInvocation SimpleName t
+versioned message SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName message versionno version
+message versionno version QualifiedName ClassInstanceCreation MethodInvocation SimpleName gson
+message versionno version QualifiedName ClassInstanceCreation MethodInvocation SimpleType SimpleName t
+message versionno version QualifiedName ClassInstanceCreation MethodInvocation SimpleName from json
+message versionno version QualifiedName ClassInstanceCreation MethodInvocation SimpleName message json
+message versionno version QualifiedName ClassInstanceCreation MethodInvocation SimpleName t
+versioned message SimpleName Assignment ClassInstanceCreation QualifiedName message versionno version
+versioned message SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName gson
+versioned message SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName from json
+versioned message SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName message json
+versioned message SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName t
+check version SimpleName MethodInvocation SimpleName versioned message
+check version SimpleName MethodInvocation SimpleName message json
+versioned message SimpleName MethodInvocation SimpleName message json
+versioned message SimpleName MethodInvocation SimpleName get message
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName deserialize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName message json
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName deserialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message json
+t SimpleName SimpleType MethodDeclaration SimpleName deserialize
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName message json
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message json
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName deserialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message json
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deserialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message json

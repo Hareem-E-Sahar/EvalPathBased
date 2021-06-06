@@ -1,0 +1,69 @@
+do get type SimpleName MethodInvocation InfixExpression QualifiedName file typefolder
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName do list children
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName children
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName do list children
+file object SimpleName SimpleType ArrayType ArrayCreation QualifiedName childrenlength
+fo SimpleName VariableDeclarationFragment ArrayCreation QualifiedName childrenlength
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName file object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fo
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayCreation QualifiedName childrenlength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName childrenlength
+children SimpleName ArrayAccess SimpleName i
+path SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName path
+path SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName children
+path SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+path SimpleName FieldAccess ClassInstanceCreation ArrayAccess SimpleName children
+path SimpleName FieldAccess ClassInstanceCreation ArrayAccess SimpleName i
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation FieldAccess SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName children
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName i
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+fo SimpleName ArrayAccess SimpleName i
+p SimpleName MethodInvocation SimpleName to uri
+p SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+fs SimpleName FieldAccess MethodInvocation SimpleName resolve file
+fs SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName to string
+resolve file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+resolve file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+resolve file SimpleName MethodInvocation MethodInvocation SimpleName to string
+fo SimpleName ArrayAccess Assignment MethodInvocation SimpleName resolve file
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName resolve file
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName childrenlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+childrenlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName fo
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName fo
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do list children resolved
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName file object
+protected Modifier MethodDeclaration SimpleName do list children resolved
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName fo
+file object SimpleName SimpleType ArrayType MethodDeclaration SimpleName do list children resolved
+do list children resolved SimpleName MethodDeclaration SimpleType SimpleName exception
+do list children resolved SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+do list children resolved SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+do list children resolved SimpleName MethodDeclaration Block ReturnStatement SimpleName fo
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName do list children resolved
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do list children resolved
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

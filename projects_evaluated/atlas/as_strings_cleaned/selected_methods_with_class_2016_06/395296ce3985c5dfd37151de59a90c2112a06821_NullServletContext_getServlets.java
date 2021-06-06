@@ -1,0 +1,11 @@
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName servlet
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enumeration
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName servlet
+public Modifier MethodDeclaration SimpleName get servlets
+enumeration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get servlets
+servlet SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get servlets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get servlets
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get servlets

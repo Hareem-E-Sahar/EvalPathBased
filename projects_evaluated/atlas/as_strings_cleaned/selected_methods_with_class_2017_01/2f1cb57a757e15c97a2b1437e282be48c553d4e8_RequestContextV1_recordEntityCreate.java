@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName created entity id
+created entity ids SimpleName FieldAccess MethodInvocation SimpleName add
+created entity ids SimpleName FieldAccess MethodInvocation SimpleName created entity id
+add SimpleName MethodInvocation SimpleName created entity id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName record entity create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName created entity id
+void PrimitiveType MethodDeclaration SimpleName record entity create
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName created entity id
+record entity create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+record entity create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName created entity id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record entity create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName created entity id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record entity create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName created entity id

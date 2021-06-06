@@ -1,0 +1,22 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+resolved ids SimpleName MethodInvocation SimpleName contains key
+resolved ids SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is resolved id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+boolean PrimitiveType MethodDeclaration SimpleName is resolved id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+is resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+is resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is resolved id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is resolved id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

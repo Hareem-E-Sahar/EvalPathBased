@@ -1,0 +1,58 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+boolean PrimitiveType SingleVariableDeclaration SimpleName scan off
+input configurator SimpleName MethodInvocation SimpleName set offline table scan
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation SimpleName conf
+input configurator SimpleName MethodInvocation SimpleName scan off
+set offline table scan SimpleName MethodInvocation SimpleName class
+set offline table scan SimpleName MethodInvocation SimpleName conf
+set offline table scan SimpleName MethodInvocation SimpleName scan off
+class SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName scan off
+conf SimpleName MethodInvocation SimpleName scan off
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set scan offline
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set scan offline
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan off
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set scan offline
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan off
+void PrimitiveType MethodDeclaration SimpleName set scan offline
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scan off
+set scan offline SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set scan offline SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set scan offline SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set scan offline SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan off
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan off
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scan offline
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan off
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scan offline
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan off

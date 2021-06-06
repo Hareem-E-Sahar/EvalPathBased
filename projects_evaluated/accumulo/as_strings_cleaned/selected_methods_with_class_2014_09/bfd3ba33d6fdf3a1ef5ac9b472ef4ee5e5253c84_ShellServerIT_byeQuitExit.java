@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+bye quit exit StringLiteral MethodInvocation SimpleName split
+bye quit exit StringLiteral MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+tsshell QualifiedName MethodInvocation SimpleName get exit
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName tsshell
+assert false SimpleName MethodInvocation MethodInvocation SimpleName get exit
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation SimpleName cmd
+exec SimpleName MethodInvocation SimpleName cmd
+tsshell QualifiedName MethodInvocation SimpleName get exit
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName tsshell
+assert true SimpleName MethodInvocation MethodInvocation SimpleName get exit
+tsshell QualifiedName MethodInvocation SimpleName set exit
+tsshell QualifiedName MethodInvocation BooleanLiteral false
+set exit SimpleName MethodInvocation BooleanLiteral false
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral bye quit exit
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+cmd SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName bye quit exit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName bye quit exit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName bye quit exit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+bye quit exit SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bye quit exit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bye quit exit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

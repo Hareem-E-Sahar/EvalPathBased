@@ -1,0 +1,160 @@
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation StringLiteral ingest partitioned wikipedia
+get conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral ingest partitioned wikipedia
+ingest job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+ingest job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+ingest job SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral ingest partitioned wikipedia
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest job
+ingest job SimpleName MethodInvocation SimpleName get configuration
+ingest conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest job
+ingest conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest conf
+ingest conf SimpleName MethodInvocation SimpleName set
+ingest conf SimpleName MethodInvocation StringLiteral mapredmaptasksspeculativeexecution
+ingest conf SimpleName MethodInvocation StringLiteral false
+set SimpleName MethodInvocation StringLiteral mapredmaptasksspeculativeexecution
+set SimpleName MethodInvocation StringLiteral false
+mapredmaptasksspeculativeexecution StringLiteral MethodInvocation StringLiteral false
+wikipedia configuration SimpleName MethodInvocation SimpleName get table name
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get table name SimpleName MethodInvocation SimpleName ingest conf
+tablename SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+tablename SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+tablename SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablename
+wikipedia configuration SimpleName MethodInvocation SimpleName get zookeepers
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get zookeepers SimpleName MethodInvocation SimpleName ingest conf
+zookeepers SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+zookeepers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zookeepers
+zookeepers SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zookeepers
+wikipedia configuration SimpleName MethodInvocation SimpleName get instance name
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get instance name SimpleName MethodInvocation SimpleName ingest conf
+instance name SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+instance name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance name
+instance name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name
+wikipedia configuration SimpleName MethodInvocation SimpleName get user
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get user SimpleName MethodInvocation SimpleName ingest conf
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+wikipedia configuration SimpleName MethodInvocation SimpleName get password
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get password SimpleName MethodInvocation SimpleName ingest conf
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get password
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+wikipedia configuration SimpleName MethodInvocation SimpleName get connector
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get connector SimpleName MethodInvocation SimpleName ingest conf
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName wikipedia configuration
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest conf
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+create tables SimpleName MethodInvocation SimpleName tops
+create tables SimpleName MethodInvocation SimpleName tablename
+tops SimpleName MethodInvocation SimpleName tablename
+ingest job SimpleName MethodInvocation SimpleName set input format class
+ingest job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sequence file input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sequence file input format
+wikipedia configuration SimpleName MethodInvocation SimpleName get partitioned articles path
+wikipedia configuration SimpleName MethodInvocation SimpleName ingest conf
+get partitioned articles path SimpleName MethodInvocation SimpleName ingest conf
+sequence file input format SimpleName MethodInvocation SimpleName set input paths
+sequence file input format SimpleName MethodInvocation SimpleName ingest job
+sequence file input format SimpleName MethodInvocation MethodInvocation SimpleName wikipedia configuration
+sequence file input format SimpleName MethodInvocation MethodInvocation SimpleName get partitioned articles path
+sequence file input format SimpleName MethodInvocation MethodInvocation SimpleName ingest conf
+set input paths SimpleName MethodInvocation SimpleName ingest job
+set input paths SimpleName MethodInvocation MethodInvocation SimpleName wikipedia configuration
+set input paths SimpleName MethodInvocation MethodInvocation SimpleName get partitioned articles path
+set input paths SimpleName MethodInvocation MethodInvocation SimpleName ingest conf
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName wikipedia configuration
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName get partitioned articles path
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName ingest conf
+ingest job SimpleName MethodInvocation SimpleName set map output key class
+ingest job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text
+ingest job SimpleName MethodInvocation SimpleName set map output value class
+ingest job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+ingest job SimpleName MethodInvocation SimpleName set output format class
+ingest job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+ingest job SimpleName MethodInvocation SimpleName get configuration
+accumulo output format SimpleName MethodInvocation SimpleName set output info
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName ingest job
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+accumulo output format SimpleName MethodInvocation SimpleName user
+accumulo output format SimpleName MethodInvocation SimpleName password
+accumulo output format SimpleName MethodInvocation BooleanLiteral true
+set output info SimpleName MethodInvocation MethodInvocation SimpleName ingest job
+set output info SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set output info SimpleName MethodInvocation SimpleName user
+set output info SimpleName MethodInvocation SimpleName password
+set output info SimpleName MethodInvocation BooleanLiteral true
+set output info SimpleName MethodInvocation SimpleName tablename
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName user
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName user
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName password
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName password
+ingest job SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName tablename
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName tablename
+user SimpleName MethodInvocation SimpleName password
+user SimpleName MethodInvocation BooleanLiteral true
+user SimpleName MethodInvocation SimpleName tablename
+password SimpleName MethodInvocation BooleanLiteral true
+password SimpleName MethodInvocation SimpleName tablename
+true BooleanLiteral MethodInvocation SimpleName tablename
+ingest job SimpleName MethodInvocation SimpleName get configuration
+accumulo output format SimpleName MethodInvocation SimpleName set zoo keeper instance
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName ingest job
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+accumulo output format SimpleName MethodInvocation SimpleName instance name
+accumulo output format SimpleName MethodInvocation SimpleName zookeepers
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation SimpleName ingest job
+set zoo keeper instance SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set zoo keeper instance SimpleName MethodInvocation SimpleName instance name
+set zoo keeper instance SimpleName MethodInvocation SimpleName zookeepers
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName instance name
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName instance name
+ingest job SimpleName MethodInvocation MethodInvocation SimpleName zookeepers
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName zookeepers
+instance name SimpleName MethodInvocation SimpleName zookeepers
+ingest job SimpleName MethodInvocation SimpleName wait for completion
+ingest job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+ingest job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+wait for completion SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+true BooleanLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+ingest job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+wait for completion SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+true BooleanLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run ingest job
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run ingest job
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run ingest job SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run ingest job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run ingest job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

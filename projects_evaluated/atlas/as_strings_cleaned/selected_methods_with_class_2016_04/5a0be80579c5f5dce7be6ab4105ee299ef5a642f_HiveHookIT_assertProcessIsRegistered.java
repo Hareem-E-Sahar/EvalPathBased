@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query str
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive process
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+normalize SimpleName MethodInvocation SimpleName query str
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral gvhas type name shassquery text sto list
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation MethodInvocation SimpleName normalize
+string SimpleName MethodInvocation MethodInvocation SimpleName query str
+format SimpleName MethodInvocation StringLiteral gvhas type name shassquery text sto list
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation MethodInvocation SimpleName normalize
+format SimpleName MethodInvocation MethodInvocation SimpleName query str
+gvhas type name shassquery text sto list StringLiteral MethodInvocation SimpleName type name
+gvhas type name shassquery text sto list StringLiteral MethodInvocation SimpleName type name
+gvhas type name shassquery text sto list StringLiteral MethodInvocation MethodInvocation SimpleName normalize
+gvhas type name shassquery text sto list StringLiteral MethodInvocation MethodInvocation SimpleName query str
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation MethodInvocation SimpleName normalize
+type name SimpleName MethodInvocation MethodInvocation SimpleName query str
+type name SimpleName MethodInvocation MethodInvocation SimpleName normalize
+type name SimpleName MethodInvocation MethodInvocation SimpleName query str
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gvhas type name shassquery text sto list
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName normalize
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin query
+assert entity is registered SimpleName MethodInvocation SimpleName gremlin query
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert process is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query str
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert process is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query str
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query str
+assert process is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+query str SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert process is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert process is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

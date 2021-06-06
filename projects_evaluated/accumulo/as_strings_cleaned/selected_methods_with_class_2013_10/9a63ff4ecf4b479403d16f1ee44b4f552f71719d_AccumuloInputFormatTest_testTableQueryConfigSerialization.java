@@ -1,0 +1,205 @@
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job conf
+job conf SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+range SimpleName SimpleType ClassInstanceCreation StringLiteral a
+range SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+batch scan config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set ranges
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+cf StringLiteral ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cf
+collections SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+singleton SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cf
+singleton SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName fetch columns
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch columns
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch columns
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName singleton
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral iter
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral iterclass
+empty NumberLiteral ClassInstanceCreation StringLiteral iter
+empty NumberLiteral ClassInstanceCreation StringLiteral iterclass
+iter StringLiteral ClassInstanceCreation StringLiteral iterclass
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+collections SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral iter
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral iterclass
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+singleton list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral iter
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral iterclass
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName set iterators
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+fetch columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+fetch columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+set iterators SimpleName MethodInvocation MethodInvocation SimpleName collections
+set iterators SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral iter
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral iterclass
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fetch columns
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName set iterators
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton list
+batch scan config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+range SimpleName SimpleType ClassInstanceCreation StringLiteral a
+range SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+batch scan config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set ranges
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+set ranges SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+cf StringLiteral ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cf
+collections SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+singleton SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cf
+singleton SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral cq
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName fetch columns
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch columns
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch columns
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName singleton
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral iter
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral iterclass
+empty NumberLiteral ClassInstanceCreation StringLiteral iter
+empty NumberLiteral ClassInstanceCreation StringLiteral iterclass
+iter StringLiteral ClassInstanceCreation StringLiteral iterclass
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+collections SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral iter
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral iterclass
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+singleton list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral iter
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral iterclass
+set ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+fetch columns SimpleName MethodInvocation MethodInvocation SimpleName set iterators
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set iterators
+fetch columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+fetch columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+set iterators SimpleName MethodInvocation MethodInvocation SimpleName collections
+set iterators SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral iter
+set iterators SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral iterclass
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fetch columns
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName set iterators
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton list
+batch scan config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+config map SimpleName MethodInvocation SimpleName put
+config map SimpleName MethodInvocation SimpleName test table
+config map SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName test table
+put SimpleName MethodInvocation SimpleName table
+test table SimpleName MethodInvocation SimpleName table
+config map SimpleName MethodInvocation SimpleName put
+config map SimpleName MethodInvocation SimpleName test table
+config map SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName test table
+put SimpleName MethodInvocation SimpleName table
+test table SimpleName MethodInvocation SimpleName table
+accumulo input format SimpleName MethodInvocation SimpleName set table query configs
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName config map
+set table query configs SimpleName MethodInvocation SimpleName job
+set table query configs SimpleName MethodInvocation SimpleName config map
+job SimpleName MethodInvocation SimpleName config map
+accumulo input format SimpleName MethodInvocation SimpleName get table query config
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName test table
+get table query config SimpleName MethodInvocation SimpleName job
+get table query config SimpleName MethodInvocation SimpleName test table
+job SimpleName MethodInvocation SimpleName test table
+assert equals SimpleName MethodInvocation SimpleName table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName accumulo input format
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get table query config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName test table
+table SimpleName MethodInvocation MethodInvocation SimpleName accumulo input format
+table SimpleName MethodInvocation MethodInvocation SimpleName get table query config
+table SimpleName MethodInvocation MethodInvocation SimpleName job
+table SimpleName MethodInvocation MethodInvocation SimpleName test table
+accumulo input format SimpleName MethodInvocation SimpleName get table query config
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName test table
+get table query config SimpleName MethodInvocation SimpleName job
+get table query config SimpleName MethodInvocation SimpleName test table
+job SimpleName MethodInvocation SimpleName test table
+assert equals SimpleName MethodInvocation SimpleName table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName accumulo input format
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get table query config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName test table
+table SimpleName MethodInvocation MethodInvocation SimpleName accumulo input format
+table SimpleName MethodInvocation MethodInvocation SimpleName get table query config
+table SimpleName MethodInvocation MethodInvocation SimpleName job
+table SimpleName MethodInvocation MethodInvocation SimpleName test table
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test table query config serialization
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test table query config serialization
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test table query config serialization
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test table query config serialization SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test table query config serialization
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test table query config serialization
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

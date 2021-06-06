@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+long PrimitiveType MethodDeclaration SimpleName get long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+long PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get long SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get long SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

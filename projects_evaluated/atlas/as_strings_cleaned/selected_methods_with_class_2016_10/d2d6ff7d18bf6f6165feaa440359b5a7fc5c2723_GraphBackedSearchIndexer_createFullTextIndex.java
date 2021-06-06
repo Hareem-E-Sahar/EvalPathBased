@@ -1,0 +1,44 @@
+atlas graph management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+management SimpleName MethodInvocation SimpleName make property key
+management SimpleName MethodInvocation QualifiedName constantsentity text property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+make property key SimpleName MethodInvocation QualifiedName constantsentity text property key
+make property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+make property key SimpleName MethodInvocation QualifiedName atlas cardinalitysingle
+constantsentity text property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsentity text property key QualifiedName MethodInvocation QualifiedName atlas cardinalitysingle
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalitysingle
+full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName management
+full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName make property key
+full text SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsentity text property key
+full text SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas cardinalitysingle
+atlas property key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full text
+management SimpleName MethodInvocation SimpleName create full text index
+management SimpleName MethodInvocation QualifiedName constantsfulltext index
+management SimpleName MethodInvocation SimpleName full text
+management SimpleName MethodInvocation QualifiedName constantsbacking index
+create full text index SimpleName MethodInvocation QualifiedName constantsfulltext index
+create full text index SimpleName MethodInvocation SimpleName full text
+create full text index SimpleName MethodInvocation QualifiedName constantsbacking index
+constantsfulltext index QualifiedName MethodInvocation SimpleName full text
+constantsfulltext index QualifiedName MethodInvocation QualifiedName constantsbacking index
+full text SimpleName MethodInvocation QualifiedName constantsbacking index
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create full text index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SimpleName create full text index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+create full text index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+create full text index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create full text index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create full text index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management

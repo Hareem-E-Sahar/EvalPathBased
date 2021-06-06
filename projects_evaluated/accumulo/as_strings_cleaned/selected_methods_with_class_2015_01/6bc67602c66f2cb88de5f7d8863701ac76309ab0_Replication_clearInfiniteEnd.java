@@ -1,0 +1,13 @@
+bit field SimpleName InfixExpression PrefixExpression NumberLiteral x
+bit field SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName bit field
+infinite end SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration SimpleType SimpleName builder
+public Modifier MethodDeclaration SimpleName clear infinite end
+builder SimpleName SimpleType MethodDeclaration SimpleName clear infinite end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear infinite end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear infinite end

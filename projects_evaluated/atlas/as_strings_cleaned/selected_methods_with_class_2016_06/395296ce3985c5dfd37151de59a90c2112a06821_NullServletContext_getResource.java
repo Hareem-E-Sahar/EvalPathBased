@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SimpleName get resource
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName malformed url exception
+url SimpleName SimpleType MethodDeclaration SimpleName get resource
+url SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+url SimpleName SimpleType MethodDeclaration SimpleType SimpleName malformed url exception
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+get resource SimpleName MethodDeclaration SimpleType SimpleName malformed url exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception

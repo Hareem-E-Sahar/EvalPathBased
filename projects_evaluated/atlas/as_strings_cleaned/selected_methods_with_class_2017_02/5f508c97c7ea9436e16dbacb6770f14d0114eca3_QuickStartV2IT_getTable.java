@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+entities client v SimpleName MethodInvocation SimpleName get entity by attribute
+entities client v SimpleName MethodInvocation QualifiedName quick start v table type
+entities client v SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+entities client v SimpleName MethodInvocation SimpleName table name
+get entity by attribute SimpleName MethodInvocation QualifiedName quick start v table type
+get entity by attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get entity by attribute SimpleName MethodInvocation SimpleName table name
+quick start v table type QualifiedName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+quick start v table type QualifiedName MethodInvocation SimpleName table name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName table name
+entities client v SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+quick start v table type QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get
+table name SimpleName MethodInvocation MethodInvocation SimpleName get
+entities client v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity by attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+quick start v table type QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+table entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entities client v
+table entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity by attribute
+table entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName quick start v table type
+table entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+table entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table name
+table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table entity SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName table entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get table
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get table SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+get table SimpleName MethodDeclaration Block ReturnStatement SimpleName table entity
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,106 @@
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName server
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get conf dir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral slaves
+conf dir SimpleName ClassInstanceCreation StringLiteral slaves
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral slaves
+start SimpleName MethodInvocation SimpleName server
+start SimpleName MethodInvocation SimpleName tserver
+server SimpleName MethodInvocation SimpleName tserver
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+string SimpleName SimpleType SingleVariableDeclaration SimpleName master
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral masters
+conf dir SimpleName ClassInstanceCreation StringLiteral masters
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral masters
+start SimpleName MethodInvocation SimpleName server
+start SimpleName MethodInvocation SimpleName master
+server SimpleName MethodInvocation SimpleName master
+master SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+string SimpleName SimpleType SingleVariableDeclaration SimpleName gc
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral gc
+conf dir SimpleName ClassInstanceCreation StringLiteral gc
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral gc
+start SimpleName MethodInvocation SimpleName server
+start SimpleName MethodInvocation SimpleName gc
+server SimpleName MethodInvocation SimpleName gc
+gc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tracer
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral tracers
+conf dir SimpleName ClassInstanceCreation StringLiteral tracers
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral tracers
+start SimpleName MethodInvocation SimpleName server
+start SimpleName MethodInvocation SimpleName tracer
+server SimpleName MethodInvocation SimpleName tracer
+tracer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+string SimpleName SimpleType SingleVariableDeclaration SimpleName monitor
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral monitor
+conf dir SimpleName ClassInstanceCreation StringLiteral monitor
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral monitor
+start SimpleName MethodInvocation SimpleName server
+start SimpleName MethodInvocation SimpleName monitor
+server SimpleName MethodInvocation SimpleName monitor
+monitor SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+could not start servers for StringLiteral InfixExpression SimpleName server
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not start servers for
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName server
+server SimpleName SwitchStatement SwitchCase SimpleName tablet server
+server SimpleName SwitchStatement EnhancedForStatement SingleVariableDeclaration SimpleName tserver
+server SimpleName SwitchStatement EnhancedForStatement MethodInvocation SimpleName get hosts
+server SimpleName SwitchStatement SwitchCase SimpleName master
+server SimpleName SwitchStatement EnhancedForStatement SingleVariableDeclaration SimpleName master
+server SimpleName SwitchStatement EnhancedForStatement MethodInvocation SimpleName get hosts
+tablet server SimpleName SwitchCase SwitchStatement SwitchCase SimpleName master
+master SimpleName SwitchCase SwitchStatement SwitchCase SimpleName garbage collector
+garbage collector SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tracer
+tracer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName monitor
+monitor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName zookeeper
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start all
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block SwitchStatement SimpleName server
+void PrimitiveType MethodDeclaration SimpleName start all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName server
+start all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+start all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+start all SimpleName MethodDeclaration SimpleType SimpleName io exception
+start all SimpleName MethodDeclaration Block SwitchStatement SimpleName server
+server SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

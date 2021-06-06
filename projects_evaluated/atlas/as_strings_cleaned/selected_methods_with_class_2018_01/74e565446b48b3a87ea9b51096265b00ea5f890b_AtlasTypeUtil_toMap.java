@@ -1,0 +1,226 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entity SimpleName MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation StringLiteral type name
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type name
+put SimpleName MethodInvocation StringLiteral type name
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type name StringLiteral MethodInvocation MethodInvocation SimpleName entity
+type name StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entity SimpleName MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation StringLiteral id
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+id StringLiteral MethodInvocation MethodInvocation SimpleName entity
+id StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get type name
+put SimpleName MethodInvocation StringLiteral type name
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type name StringLiteral MethodInvocation MethodInvocation SimpleName entity
+type name StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get version
+entity SimpleName MethodInvocation MethodInvocation SimpleName int value
+get version SimpleName MethodInvocation MethodInvocation SimpleName int value
+put SimpleName MethodInvocation StringLiteral version
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+put SimpleName MethodInvocation MethodInvocation SimpleName int value
+version StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+version StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+version StringLiteral MethodInvocation MethodInvocation SimpleName int value
+entity SimpleName MethodInvocation SimpleName get status
+entity SimpleName MethodInvocation MethodInvocation SimpleName name
+get status SimpleName MethodInvocation MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral state
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+put SimpleName MethodInvocation MethodInvocation SimpleName name
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+state StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+state StringLiteral MethodInvocation MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation StringLiteral id
+put SimpleName MethodInvocation StringLiteral id
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName MethodInvocation SimpleName get created by
+put SimpleName MethodInvocation StringLiteral created by
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get created by
+created by StringLiteral MethodInvocation MethodInvocation SimpleName entity
+created by StringLiteral MethodInvocation MethodInvocation SimpleName get created by
+entity SimpleName MethodInvocation SimpleName get updated by
+put SimpleName MethodInvocation StringLiteral modified by
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get updated by
+modified by StringLiteral MethodInvocation MethodInvocation SimpleName entity
+modified by StringLiteral MethodInvocation MethodInvocation SimpleName get updated by
+entity SimpleName MethodInvocation SimpleName get create time
+entity SimpleName MethodInvocation MethodInvocation SimpleName to string
+get create time SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral created time
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get create time
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+created time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+created time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get create time
+created time StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName get update time
+entity SimpleName MethodInvocation MethodInvocation SimpleName to string
+get update time SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral modified time
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update time
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+modified time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+modified time StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get update time
+modified time StringLiteral MethodInvocation MethodInvocation SimpleName to string
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation StringLiteral system attributes
+put SimpleName MethodInvocation StringLiteral system attributes
+entity SimpleName MethodInvocation SimpleName get classifications
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entity
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName hash map
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName hash map
+entity SimpleName MethodInvocation SimpleName get classifications
+entity SimpleName MethodInvocation MethodInvocation SimpleName stream
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName stream
+atlas struct SimpleName ExpressionMethodReference SimpleName get type name
+atlas type util SimpleName ExpressionMethodReference SimpleName get nested trait details
+collectors SimpleName MethodInvocation SimpleName to map
+collectors SimpleName MethodInvocation ExpressionMethodReference SimpleName atlas struct
+collectors SimpleName MethodInvocation ExpressionMethodReference SimpleName get type name
+collectors SimpleName MethodInvocation ExpressionMethodReference SimpleName atlas type util
+collectors SimpleName MethodInvocation ExpressionMethodReference SimpleName get nested trait details
+to map SimpleName MethodInvocation ExpressionMethodReference SimpleName atlas struct
+to map SimpleName MethodInvocation ExpressionMethodReference SimpleName get type name
+to map SimpleName MethodInvocation ExpressionMethodReference SimpleName atlas type util
+to map SimpleName MethodInvocation ExpressionMethodReference SimpleName get nested trait details
+atlas struct SimpleName ExpressionMethodReference MethodInvocation ExpressionMethodReference SimpleName atlas type util
+atlas struct SimpleName ExpressionMethodReference MethodInvocation ExpressionMethodReference SimpleName get nested trait details
+get type name SimpleName ExpressionMethodReference MethodInvocation ExpressionMethodReference SimpleName atlas type util
+get type name SimpleName ExpressionMethodReference MethodInvocation ExpressionMethodReference SimpleName get nested trait details
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+get classifications SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to map
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to map
+collect SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName atlas struct
+collect SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get type name
+collect SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName atlas type util
+collect SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get nested trait details
+trait details SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName stream
+trait details SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+trait details SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+trait details SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to map
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation StringLiteral traits
+ret SimpleName MethodInvocation SimpleName trait details
+put SimpleName MethodInvocation StringLiteral traits
+put SimpleName MethodInvocation SimpleName trait details
+traits StringLiteral MethodInvocation SimpleName trait details
+entity SimpleName MethodInvocation SimpleName get attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entity
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entity SimpleName MethodInvocation SimpleName get attributes
+entity SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName atlas object id
+get value SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName atlas object id
+entry SimpleName MethodInvocation SimpleName get key
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entry SimpleName MethodInvocation SimpleName get value
+atlas object id SimpleName SimpleType CastExpression MethodInvocation SimpleName entry
+atlas object id SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+put SimpleName MethodInvocation StringLiteral id
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+id StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+entry SimpleName MethodInvocation SimpleName get value
+atlas object id SimpleName SimpleType CastExpression MethodInvocation SimpleName entry
+atlas object id SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+put SimpleName MethodInvocation StringLiteral type name
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type name StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation MethodInvocation SimpleName entry
+ret SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation MethodInvocation SimpleName entry
+ret SimpleName MethodInvocation MethodInvocation SimpleName get key
+ret SimpleName MethodInvocation MethodInvocation SimpleName entry
+ret SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName to map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName to map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to map
+to map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+to map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+to map SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

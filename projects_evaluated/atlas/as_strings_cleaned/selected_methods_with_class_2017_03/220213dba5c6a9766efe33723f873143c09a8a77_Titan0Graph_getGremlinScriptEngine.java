@@ -1,0 +1,41 @@
+manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName script engine manager
+script engine manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get engine by name
+manager SimpleName MethodInvocation StringLiteral gremlingroovy
+get engine by name SimpleName MethodInvocation StringLiteral gremlingroovy
+engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName get engine by name
+engine SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gremlingroovy
+script engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName engine
+engine SimpleName MethodInvocation SimpleName get context
+engine SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+get context SimpleName MethodInvocation MethodInvocation SimpleName set attribute
+engine SimpleName MethodInvocation MethodInvocation StringLiteral jsr groovyenginekeepglobals
+get context SimpleName MethodInvocation MethodInvocation StringLiteral jsr groovyenginekeepglobals
+engine SimpleName MethodInvocation MethodInvocation StringLiteral phantom
+get context SimpleName MethodInvocation MethodInvocation StringLiteral phantom
+engine SimpleName MethodInvocation MethodInvocation QualifiedName script contextengine scope
+get context SimpleName MethodInvocation MethodInvocation QualifiedName script contextengine scope
+set attribute SimpleName MethodInvocation StringLiteral jsr groovyenginekeepglobals
+set attribute SimpleName MethodInvocation StringLiteral phantom
+set attribute SimpleName MethodInvocation QualifiedName script contextengine scope
+jsr groovyenginekeepglobals StringLiteral MethodInvocation StringLiteral phantom
+jsr groovyenginekeepglobals StringLiteral MethodInvocation QualifiedName script contextengine scope
+phantom StringLiteral MethodInvocation QualifiedName script contextengine scope
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName script engine
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get gremlin script engine
+public Modifier MethodDeclaration SimpleType SimpleName script engine
+public Modifier MethodDeclaration SimpleName get gremlin script engine
+public Modifier MethodDeclaration Block ReturnStatement SimpleName engine
+script engine SimpleName SimpleType MethodDeclaration SimpleName get gremlin script engine
+get gremlin script engine SimpleName MethodDeclaration Block ReturnStatement SimpleName engine
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName script engine
+public Modifier TypeDeclaration MethodDeclaration SimpleName get gremlin script engine
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName script engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get gremlin script engine

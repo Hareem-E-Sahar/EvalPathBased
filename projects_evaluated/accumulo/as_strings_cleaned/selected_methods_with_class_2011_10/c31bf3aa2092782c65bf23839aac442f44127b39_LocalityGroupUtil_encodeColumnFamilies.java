@@ -1,0 +1,72 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName col fams
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName col fams
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+text SimpleName SimpleType SingleVariableDeclaration SimpleName text
+text SimpleName MethodInvocation SimpleName get bytes
+text SimpleName MethodInvocation SimpleName get length
+encode column family SimpleName MethodInvocation SimpleName sb
+encode column family SimpleName MethodInvocation MethodInvocation SimpleName text
+encode column family SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode column family SimpleName MethodInvocation NumberLiteral empty
+encode column family SimpleName MethodInvocation MethodInvocation SimpleName text
+encode column family SimpleName MethodInvocation MethodInvocation SimpleName get length
+sb SimpleName MethodInvocation MethodInvocation SimpleName text
+sb SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+sb SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName text
+sb SimpleName MethodInvocation MethodInvocation SimpleName get length
+text SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text
+text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+ecf SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode column family
+ecf SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+ecf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName text
+ecf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+ecf SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+ecf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName text
+ecf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ecf
+ecfs SimpleName MethodInvocation SimpleName add
+ecfs SimpleName MethodInvocation SimpleName ecf
+add SimpleName MethodInvocation SimpleName ecf
+text SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName col fams
+text SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName col fams
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation SimpleName ecfs
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName ecfs
+join SimpleName MethodInvocation StringLiteral empty
+ecfs SimpleName MethodInvocation StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName encode column families
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName col fams
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName col fams
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName encode column families
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName col fams
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName col fams
+string SimpleName SimpleType MethodDeclaration SimpleName encode column families
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName col fams
+encode column families SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col fams
+encode column families SimpleName MethodDeclaration Block EnhancedForStatement SimpleName col fams
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode column families
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col fams
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode column families
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col fams

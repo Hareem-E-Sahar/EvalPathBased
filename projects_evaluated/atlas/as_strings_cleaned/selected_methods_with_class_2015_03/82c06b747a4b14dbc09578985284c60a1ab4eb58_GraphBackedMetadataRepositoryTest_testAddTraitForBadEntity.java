@@ -1,0 +1,73 @@
+depends on methods SimpleName MemberValuePair StringLiteral test add trait
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName repository exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test add trait
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+test add trait StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+type system SimpleName MethodInvocation SimpleName pii
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation SimpleName pii
+trait type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName pii
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pii
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName create instance
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait type
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+repository service SimpleName MethodInvocation SimpleName add trait
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+repository service SimpleName MethodInvocation MethodInvocation SimpleName to string
+repository service SimpleName MethodInvocation SimpleName pii
+repository service SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+add trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+add trait SimpleName MethodInvocation MethodInvocation SimpleName to string
+add trait SimpleName MethodInvocation SimpleName pii
+add trait SimpleName MethodInvocation SimpleName trait instance
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+random uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii
+to string SimpleName MethodInvocation MethodInvocation SimpleName pii
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait instance
+random uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait instance
+to string SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+pii SimpleName MethodInvocation SimpleName trait instance
+assert SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add trait for bad entity
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait for bad entity
+test add trait StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait for bad entity
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait for bad entity
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add trait for bad entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test add trait for bad entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test add trait for bad entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add trait for bad entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add trait for bad entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,330 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+table state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+node exists policy SimpleName SimpleType SingleVariableDeclaration SimpleName exists policy
+creating zoo keeper entries for new table StringLiteral InfixExpression SimpleName table name
+creating zoo keeper entries for new table StringLiteral InfixExpression StringLiteral id
+creating zoo keeper entries for new table StringLiteral InfixExpression SimpleName table id
+creating zoo keeper entries for new table StringLiteral InfixExpression StringLiteral ) in namespace id
+creating zoo keeper entries for new table StringLiteral InfixExpression SimpleName namespace id
+table name SimpleName InfixExpression StringLiteral id
+table name SimpleName InfixExpression SimpleName table id
+table name SimpleName InfixExpression StringLiteral ) in namespace id
+table name SimpleName InfixExpression SimpleName namespace id
+table name SimpleName InfixExpression StringLiteral )
+id StringLiteral InfixExpression SimpleName table id
+id StringLiteral InfixExpression StringLiteral ) in namespace id
+id StringLiteral InfixExpression SimpleName namespace id
+id StringLiteral InfixExpression StringLiteral )
+table id SimpleName InfixExpression StringLiteral ) in namespace id
+table id SimpleName InfixExpression SimpleName namespace id
+table id SimpleName InfixExpression StringLiteral )
+) in namespace id StringLiteral InfixExpression SimpleName namespace id
+) in namespace id StringLiteral InfixExpression StringLiteral )
+namespace id SimpleName InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating zoo keeper entries for new table
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+log SimpleName MethodInvocation InfixExpression StringLiteral id
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+log SimpleName MethodInvocation InfixExpression StringLiteral ) in namespace id
+log SimpleName MethodInvocation InfixExpression SimpleName namespace id
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating zoo keeper entries for new table
+debug SimpleName MethodInvocation InfixExpression SimpleName table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral id
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation InfixExpression StringLiteral ) in namespace id
+debug SimpleName MethodInvocation InfixExpression SimpleName namespace id
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tables SimpleName MethodInvocation SimpleName qualify
+tables SimpleName MethodInvocation SimpleName table name
+qualify SimpleName MethodInvocation SimpleName table name
+qualified table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+qualified table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName qualify
+qualified table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+qualified table name SimpleName MethodInvocation SimpleName get second
+table name SimpleName Assignment MethodInvocation SimpleName qualified table name
+table name SimpleName Assignment MethodInvocation SimpleName get second
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table id
+instance id SimpleName InfixExpression QualifiedName constantsztables
+instance id SimpleName InfixExpression StringLiteral /
+instance id SimpleName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName table id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression SimpleName instance id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z table path
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get retrying instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName z table path
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation SimpleName z table path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+z table path SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+z table path SimpleName MethodInvocation SimpleName exists policy
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName exists policy
+empty NumberLiteral ArrayCreation MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable conf
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+constantsztable conf QualifiedName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable conf QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName exists policy
+empty NumberLiteral ArrayCreation MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable namespace
+namespace id SimpleName MethodInvocation SimpleName get bytes
+namespace id SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+zoo SimpleName MethodInvocation MethodInvocation SimpleName namespace id
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable namespace
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName namespace id
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName namespace id
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+constantsztable namespace QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName namespace id
+constantsztable namespace QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+constantsztable namespace QualifiedName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable namespace QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+namespace id SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+standard charsetsutf QualifiedName MethodInvocation MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable name
+table name SimpleName MethodInvocation SimpleName get bytes
+table name SimpleName MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+zoo SimpleName MethodInvocation MethodInvocation SimpleName table name
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName table name
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName table name
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+constantsztable name QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName table name
+constantsztable name QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+constantsztable name QualifiedName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable name QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+table name SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+standard charsetsutf QualifiedName MethodInvocation MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable flush id
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+zoo SimpleName MethodInvocation SimpleName zero byte
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+put persistent data SimpleName MethodInvocation SimpleName zero byte
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation SimpleName zero byte
+constantsztable flush id QualifiedName InfixExpression MethodInvocation SimpleName zero byte
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable flush id QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+zero byte SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable compact id
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+zoo SimpleName MethodInvocation SimpleName zero byte
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+put persistent data SimpleName MethodInvocation SimpleName zero byte
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation SimpleName zero byte
+constantsztable compact id QualifiedName InfixExpression MethodInvocation SimpleName zero byte
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable compact id QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+zero byte SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable compact cancel id
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact cancel id
+zoo SimpleName MethodInvocation SimpleName zero byte
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact cancel id
+put persistent data SimpleName MethodInvocation SimpleName zero byte
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation SimpleName zero byte
+constantsztable compact cancel id QualifiedName InfixExpression MethodInvocation SimpleName zero byte
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable compact cancel id QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+zero byte SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression QualifiedName constantsztable state
+state SimpleName MethodInvocation SimpleName name
+state SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+state SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+name SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName z table path
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation SimpleName exists policy
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName z table path
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+put persistent data SimpleName MethodInvocation SimpleName exists policy
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+z table path SimpleName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+constantsztable state QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+constantsztable state QualifiedName InfixExpression MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+z table path SimpleName InfixExpression MethodInvocation SimpleName exists policy
+constantsztable state QualifiedName InfixExpression MethodInvocation SimpleName exists policy
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists policy
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists policy
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName exists policy
+standard charsetsutf QualifiedName MethodInvocation MethodInvocation SimpleName exists policy
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName prepare new table state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName prepare new table state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+void PrimitiveType MethodDeclaration SimpleName prepare new table state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance id
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table state
+prepare new table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+exists policy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName prepare new table state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prepare new table state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exists policy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

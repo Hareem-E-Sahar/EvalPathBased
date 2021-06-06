@@ -1,0 +1,84 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName titan graph database
+titan graph database SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db SimpleName MethodInvocation SimpleName get graph
+atlas graph SimpleName Assignment MethodInvocation SimpleName db
+atlas graph SimpleName Assignment MethodInvocation SimpleName get graph
+atlas graph SimpleName MethodInvocation SimpleName get management system
+mgmt SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph
+mgmt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get management system
+atlas graph management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mgmt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+super type names StringLiteral ArrayInitializer StringLiteral trait names
+mgmt SimpleName MethodInvocation SimpleName get property key
+mgmt SimpleName MethodInvocation SimpleName property name
+get property key SimpleName MethodInvocation SimpleName property name
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName mgmt
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property key
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+atlas property key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property key
+mgmt SimpleName MethodInvocation SimpleName make property key
+mgmt SimpleName MethodInvocation SimpleName property name
+mgmt SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+mgmt SimpleName MethodInvocation QualifiedName atlas cardinalityset
+make property key SimpleName MethodInvocation SimpleName property name
+make property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+make property key SimpleName MethodInvocation QualifiedName atlas cardinalityset
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property name SimpleName MethodInvocation QualifiedName atlas cardinalityset
+string SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName atlas cardinalityset
+property key SimpleName Assignment MethodInvocation SimpleName mgmt
+property key SimpleName Assignment MethodInvocation SimpleName make property key
+property key SimpleName Assignment MethodInvocation SimpleName property name
+property key SimpleName Assignment MethodInvocation QualifiedName atlas cardinalityset
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName property key
+singleton list SimpleName MethodInvocation SimpleName property key
+mgmt SimpleName MethodInvocation SimpleName create exact match index
+mgmt SimpleName MethodInvocation SimpleName property name
+mgmt SimpleName MethodInvocation BooleanLiteral false
+mgmt SimpleName MethodInvocation MethodInvocation SimpleName collections
+mgmt SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+mgmt SimpleName MethodInvocation MethodInvocation SimpleName property key
+create exact match index SimpleName MethodInvocation SimpleName property name
+create exact match index SimpleName MethodInvocation BooleanLiteral false
+create exact match index SimpleName MethodInvocation MethodInvocation SimpleName collections
+create exact match index SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+create exact match index SimpleName MethodInvocation MethodInvocation SimpleName property key
+property name SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation MethodInvocation SimpleName collections
+property name SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+property name SimpleName MethodInvocation MethodInvocation SimpleName property key
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName collections
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName singleton list
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName property key
+mgmt SimpleName MethodInvocation SimpleName commit
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas graph
+v SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas graph
+e SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas graph
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+private Modifier MethodDeclaration SimpleName get graph
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration SimpleName get graph
+e SimpleName TypeParameter MethodDeclaration SimpleName get graph
+atlas graph SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph

@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+validate type exists SimpleName MethodInvocation SimpleName entity type
+repository SimpleName MethodInvocation SimpleName get entity list
+repository SimpleName MethodInvocation SimpleName entity type
+get entity list SimpleName MethodInvocation SimpleName entity type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity list
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity list
+get entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get entity list SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

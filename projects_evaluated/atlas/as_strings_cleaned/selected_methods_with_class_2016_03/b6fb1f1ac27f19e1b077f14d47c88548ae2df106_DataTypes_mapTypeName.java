@@ -1,0 +1,46 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName key type
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName value type
+key type SimpleName MethodInvocation SimpleName get name
+value type SimpleName MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation MethodInvocation SimpleName key type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation MethodInvocation SimpleName value type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value type
+key type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName map type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value type
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName map type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value type
+string SimpleName SimpleType MethodDeclaration SimpleName map type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value type
+map type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+map type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key type
+map type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+map type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value type
+key type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName map type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value type

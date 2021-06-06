@@ -1,0 +1,64 @@
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName child queries
+or condition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+overall child query SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName or condition
+overall child query SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+or condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName overall child query
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph query SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas child query
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas child query
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas child query
+atlas child query SimpleName MethodInvocation SimpleName is child query
+atlas child query SimpleName InfixExpression StringLiteral is not a child query
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName atlas child query
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not a child query
+tinkerpop graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+tinkerpop graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+tinkerpop graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+tinkerpop graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+tinkerpop graph query SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas child query
+v SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas child query
+e SimpleName SimpleType ParameterizedType CastExpression SimpleName atlas child query
+child query SimpleName VariableDeclarationFragment CastExpression SimpleName atlas child query
+child query SimpleName MethodInvocation SimpleName get or condition
+overall child query SimpleName MethodInvocation SimpleName or with
+overall child query SimpleName MethodInvocation MethodInvocation SimpleName child query
+overall child query SimpleName MethodInvocation MethodInvocation SimpleName get or condition
+or with SimpleName MethodInvocation MethodInvocation SimpleName child query
+or with SimpleName MethodInvocation MethodInvocation SimpleName get or condition
+atlas child query SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName child queries
+query condition SimpleName MethodInvocation SimpleName and with
+query condition SimpleName MethodInvocation SimpleName overall child query
+and with SimpleName MethodInvocation SimpleName overall child query
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName or
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName child queries
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas graph query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName or
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName child queries
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName child queries
+atlas graph query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName or
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName or
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName or
+or SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child queries
+or SimpleName MethodDeclaration Block EnhancedForStatement SimpleName child queries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName or
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child queries
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName or
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child queries

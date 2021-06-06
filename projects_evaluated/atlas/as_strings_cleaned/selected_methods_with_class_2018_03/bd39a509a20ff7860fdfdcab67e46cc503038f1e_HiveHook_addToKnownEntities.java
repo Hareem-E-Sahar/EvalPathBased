@@ -1,0 +1,62 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+known databases SimpleName InfixExpression InfixExpression InfixExpression SimpleName known tables
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName hive type db
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation SimpleName hive type db
+entity SimpleName MethodInvocation MethodInvocation SimpleName hive type db
+get type name SimpleName MethodInvocation MethodInvocation SimpleName hive type db
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName entity
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute qualified name
+add to known database SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+add to known database SimpleName MethodInvocation CastExpression MethodInvocation SimpleName entity
+add to known database SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+add to known database SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute qualified name
+entity SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName hive type table
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation SimpleName hive type table
+entity SimpleName MethodInvocation MethodInvocation SimpleName hive type table
+get type name SimpleName MethodInvocation MethodInvocation SimpleName hive type table
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName attribute qualified name
+get attribute SimpleName MethodInvocation SimpleName attribute qualified name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName entity
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attribute qualified name
+add to knwn table SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+add to knwn table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName entity
+add to knwn table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get attribute
+add to knwn table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attribute qualified name
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to known entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleName add to known entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+add to known entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to known entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to known entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

@@ -1,0 +1,61 @@
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet location
+z root loc path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+z root loc path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+z root loc path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot tablet location
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z root loc path
+op timer SimpleName SimpleType ClassInstanceCreation SimpleName log
+op timer SimpleName SimpleType ClassInstanceCreation QualifiedName leveltrace
+log SimpleName ClassInstanceCreation QualifiedName leveltrace
+op timer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation MethodInvocation SimpleName start
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation SimpleName start
+op timer SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral looking up root tablet location in zoocache
+log SimpleName ClassInstanceCreation MethodInvocation StringLiteral looking up root tablet location in zoocache
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation StringLiteral looking up root tablet location in zoocache
+start SimpleName MethodInvocation StringLiteral looking up root tablet location in zoocache
+op timer SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName log
+op timer SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName leveltrace
+op timer SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+op timer SimpleName VariableDeclarationFragment MethodInvocation StringLiteral looking up root tablet location in zoocache
+op timer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op timer
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName z root loc path
+get SimpleName MethodInvocation SimpleName z root loc path
+loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo cache
+loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName z root loc path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName loc
+string SimpleName SimpleType ClassInstanceCreation SimpleName loc
+loc SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName loc
+found root tablet at StringLiteral InfixExpression StringLiteral in duration
+op timer SimpleName MethodInvocation SimpleName stop
+op timer SimpleName MethodInvocation InfixExpression StringLiteral found root tablet at
+op timer SimpleName MethodInvocation InfixExpression StringLiteral in duration
+stop SimpleName MethodInvocation InfixExpression StringLiteral found root tablet at
+stop SimpleName MethodInvocation InfixExpression StringLiteral in duration
+string SimpleName SimpleType ClassInstanceCreation SimpleName loc
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName split
+loc SimpleName ClassInstanceCreation MethodInvocation SimpleName split
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral \\ 
+loc SimpleName ClassInstanceCreation MethodInvocation StringLiteral \\ 
+split SimpleName MethodInvocation StringLiteral \\ 
+loc SimpleName ClassInstanceCreation MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+\\ StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get root tablet location
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get root tablet location
+string SimpleName SimpleType MethodDeclaration SimpleName get root tablet location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root tablet location
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root tablet location

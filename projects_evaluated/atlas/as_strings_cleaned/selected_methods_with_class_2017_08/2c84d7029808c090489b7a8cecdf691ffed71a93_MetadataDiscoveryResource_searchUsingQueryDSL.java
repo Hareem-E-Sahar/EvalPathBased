@@ -1,0 +1,368 @@
+path SimpleName SingleMemberAnnotation StringLiteral searchdsl
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+query param SimpleName SingleMemberAnnotation StringLiteral query
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName dsl query
+query StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName dsl query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+default value SimpleName SingleMemberAnnotation SimpleName limit offset default
+query param SimpleName SingleMemberAnnotation StringLiteral limit
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation StringLiteral limit
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation StringLiteral limit
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName limit
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName limit
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+limit StringLiteral SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName limit
+limit StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName limit
+int PrimitiveType SingleVariableDeclaration SimpleName limit
+default value SimpleName SingleMemberAnnotation SimpleName limit offset default
+query param SimpleName SingleMemberAnnotation StringLiteral offset
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation StringLiteral offset
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SingleMemberAnnotation StringLiteral offset
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+default value SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName offset
+limit offset default SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName offset
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+offset StringLiteral SingleMemberAnnotation SingleVariableDeclaration PrimitiveType int
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName offset
+offset StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName offset
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> metadata discovery resourcesearch using query dsl {} {})
+log SimpleName MethodInvocation SimpleName dsl query
+log SimpleName MethodInvocation SimpleName limit
+log SimpleName MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral ==> metadata discovery resourcesearch using query dsl {} {})
+debug SimpleName MethodInvocation SimpleName dsl query
+debug SimpleName MethodInvocation SimpleName limit
+debug SimpleName MethodInvocation SimpleName offset
+==> metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName dsl query
+==> metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName limit
+==> metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName offset
+dsl query SimpleName MethodInvocation SimpleName limit
+dsl query SimpleName MethodInvocation SimpleName offset
+limit SimpleName MethodInvocation SimpleName offset
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+metadata discovery resourcesearch using query dsl StringLiteral InfixExpression SimpleName dsl query
+metadata discovery resourcesearch using query dsl StringLiteral InfixExpression StringLiteral empty
+metadata discovery resourcesearch using query dsl StringLiteral InfixExpression SimpleName limit
+metadata discovery resourcesearch using query dsl StringLiteral InfixExpression StringLiteral empty
+metadata discovery resourcesearch using query dsl StringLiteral InfixExpression SimpleName offset
+dsl query SimpleName InfixExpression StringLiteral empty
+dsl query SimpleName InfixExpression SimpleName limit
+dsl query SimpleName InfixExpression StringLiteral empty
+dsl query SimpleName InfixExpression SimpleName offset
+dsl query SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName limit
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName offset
+empty StringLiteral InfixExpression StringLiteral )
+limit SimpleName InfixExpression StringLiteral empty
+limit SimpleName InfixExpression SimpleName offset
+limit SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName offset
+empty StringLiteral InfixExpression StringLiteral )
+offset SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral metadata discovery resourcesearch using query dsl
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName dsl query
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName limit
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName offset
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral metadata discovery resourcesearch using query dsl
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName dsl query
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName limit
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName offset
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral metadata discovery resourcesearch using query dsl
+perf log SimpleName MethodInvocation InfixExpression SimpleName dsl query
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName limit
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName offset
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral metadata discovery resourcesearch using query dsl
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName dsl query
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName limit
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName offset
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName dsl query
+param checker SimpleName MethodInvocation StringLiteral dsl query cannot be null
+not empty SimpleName MethodInvocation SimpleName dsl query
+not empty SimpleName MethodInvocation StringLiteral dsl query cannot be null
+dsl query SimpleName MethodInvocation StringLiteral dsl query cannot be null
+dsl query SimpleName Assignment MethodInvocation SimpleName param checker
+dsl query SimpleName Assignment MethodInvocation SimpleName not empty
+dsl query SimpleName Assignment MethodInvocation SimpleName dsl query
+dsl query SimpleName Assignment MethodInvocation StringLiteral dsl query cannot be null
+validate query params SimpleName MethodInvocation SimpleName limit
+validate query params SimpleName MethodInvocation SimpleName offset
+limit SimpleName MethodInvocation SimpleName offset
+query params SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate query params
+query params SimpleName VariableDeclarationFragment MethodInvocation SimpleName limit
+query params SimpleName VariableDeclarationFragment MethodInvocation SimpleName offset
+query params SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query params
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation SimpleName dsl query
+discovery service SimpleName MethodInvocation SimpleName query params
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName query params
+dsl query SimpleName MethodInvocation SimpleName query params
+json result str SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+json result str SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+json result str SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+json result str SimpleName VariableDeclarationFragment MethodInvocation SimpleName query params
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName json result str
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName discovery service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dsl query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query params
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json result str
+dsljson response builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName results
+dsljson response builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName json result str
+results SimpleName MethodInvocation SimpleName json result str
+results SimpleName MethodInvocation MethodInvocation SimpleName query
+json result str SimpleName MethodInvocation MethodInvocation SimpleName query
+results SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+json result str SimpleName MethodInvocation MethodInvocation SimpleName dsl query
+query SimpleName MethodInvocation SimpleName dsl query
+results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+json result str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+query SimpleName MethodInvocation MethodInvocation SimpleName build
+dsl query SimpleName MethodInvocation MethodInvocation SimpleName build
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dsl query
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName ok
+response SimpleName MethodInvocation SimpleName response
+ok SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+ok SimpleName MethodInvocation MethodInvocation SimpleName build
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+discovery exception SimpleName SimpleType UnionType SimpleType SimpleName illegal argument exception
+discovery exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+log SimpleName MethodInvocation SimpleName dsl query
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+error SimpleName MethodInvocation SimpleName dsl query
+error SimpleName MethodInvocation SimpleName e
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName dsl query
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName e
+dsl query SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+log SimpleName MethodInvocation SimpleName dsl query
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+error SimpleName MethodInvocation SimpleName dsl query
+error SimpleName MethodInvocation SimpleName e
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName dsl query
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName e
+dsl query SimpleName MethodInvocation SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+log SimpleName MethodInvocation SimpleName dsl query
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get entity list for dsl query {}
+error SimpleName MethodInvocation SimpleName dsl query
+error SimpleName MethodInvocation SimpleName e
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName dsl query
+unable to get entity list for dsl query {} StringLiteral MethodInvocation SimpleName e
+dsl query SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+e SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== metadata discovery resourcesearch using query dsl {} {})
+log SimpleName MethodInvocation SimpleName dsl query
+log SimpleName MethodInvocation SimpleName limit
+log SimpleName MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral <== metadata discovery resourcesearch using query dsl {} {})
+debug SimpleName MethodInvocation SimpleName dsl query
+debug SimpleName MethodInvocation SimpleName limit
+debug SimpleName MethodInvocation SimpleName offset
+<== metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName dsl query
+<== metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName limit
+<== metadata discovery resourcesearch using query dsl {} {}) StringLiteral MethodInvocation SimpleName offset
+dsl query SimpleName MethodInvocation SimpleName limit
+dsl query SimpleName MethodInvocation SimpleName offset
+limit SimpleName MethodInvocation SimpleName offset
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral searchdsl
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+searchdsl StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName search using query dsl
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName limit
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName search using query dsl
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName default value
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName limit offset default
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral limit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName default value
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName limit offset default
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral offset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+response SimpleName SimpleType MethodDeclaration SimpleName search using query dsl
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName limit
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName offset
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral query
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName default value
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName limit offset default
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral limit
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName default value
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName limit offset default
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral offset
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+search using query dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral searchdsl
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName search using query dsl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral searchdsl
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search using query dsl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

@@ -1,0 +1,114 @@
+connector SimpleName Assignment MethodInvocation SimpleName get connector
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table name SimpleName Assignment ArrayAccess MethodInvocation SimpleName get unique names
+table name SimpleName Assignment ArrayAccess MethodInvocation NumberLiteral empty
+table name SimpleName Assignment ArrayAccess NumberLiteral empty
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+cluster SimpleName MethodInvocation SimpleName get client config
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client config
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client config
+get user SimpleName MethodInvocation NumberLiteral empty
+cluster user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+cluster user SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+cluster user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster user
+cluster user SimpleName MethodInvocation SimpleName get principal
+user SimpleName Assignment MethodInvocation SimpleName cluster user
+user SimpleName Assignment MethodInvocation SimpleName get principal
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user token
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client config SimpleName MethodInvocation SimpleName get boolean
+client config SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client config SimpleName MethodInvocation MethodInvocation SimpleName get key
+client config SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+sasl enabled SimpleName Assignment BooleanLiteral true
+cluster user SimpleName MethodInvocation SimpleName get password
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster user
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get password
+user token SimpleName Assignment ClassInstanceCreation SimpleType SimpleName password token
+user token SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName cluster user
+user token SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get password
+sasl enabled SimpleName Assignment BooleanLiteral false
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+connector SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+connector SimpleName MethodInvocation MethodInvocation SimpleName user token
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user token
+create local user SimpleName MethodInvocation SimpleName user
+create local user SimpleName MethodInvocation SimpleName user token
+user SimpleName MethodInvocation SimpleName user token
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+connector SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+user SimpleName MethodInvocation SimpleName table name
+user SimpleName MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+connector SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+user SimpleName MethodInvocation SimpleName table name
+user SimpleName MethodInvocation QualifiedName table permissionwrite
+table name SimpleName MethodInvocation QualifiedName table permissionwrite
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+connector SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+connector SimpleName MethodInvocation MethodInvocation QualifiedName auths iteratorauths
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName auths iteratorauths
+change user authorizations SimpleName MethodInvocation SimpleName user
+change user authorizations SimpleName MethodInvocation QualifiedName auths iteratorauths
+user SimpleName MethodInvocation QualifiedName auths iteratorauths
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

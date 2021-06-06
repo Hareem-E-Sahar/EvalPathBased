@@ -1,0 +1,80 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ClassInstanceCreation StringLiteral filefoov
+path SimpleName SimpleType ClassInstanceCreation StringLiteral filefoov
+filefoov StringLiteral ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+replacements SimpleName MethodInvocation SimpleName add
+replacements SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+replacements SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ClassInstanceCreation StringLiteral filefoov
+path SimpleName SimpleType ClassInstanceCreation StringLiteral filefoov
+filefoov StringLiteral ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+replacements SimpleName MethodInvocation SimpleName add
+replacements SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+replacements SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral filefoov
+ft SimpleName VariableDeclarationFragment QualifiedName file typetable
+file type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ft
+file type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName file typetable
+volume util SimpleName MethodInvocation SimpleName switch volume
+volume util SimpleName MethodInvocation StringLiteral filefoov tablesrroot tablet
+volume util SimpleName MethodInvocation SimpleName ft
+volume util SimpleName MethodInvocation SimpleName replacements
+switch volume SimpleName MethodInvocation StringLiteral filefoov tablesrroot tablet
+switch volume SimpleName MethodInvocation SimpleName ft
+switch volume SimpleName MethodInvocation SimpleName replacements
+filefoov tablesrroot tablet StringLiteral MethodInvocation SimpleName ft
+filefoov tablesrroot tablet StringLiteral MethodInvocation SimpleName replacements
+ft SimpleName MethodInvocation SimpleName replacements
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral filefoov tablesrroot tablet
+assert SimpleName MethodInvocation MethodInvocation SimpleName volume util
+assert SimpleName MethodInvocation MethodInvocation SimpleName switch volume
+assert SimpleName MethodInvocation MethodInvocation StringLiteral filefoov tablesrroot tablet
+assert SimpleName MethodInvocation MethodInvocation SimpleName ft
+assert SimpleName MethodInvocation MethodInvocation SimpleName replacements
+assert equals SimpleName MethodInvocation StringLiteral filefoov tablesrroot tablet
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName volume util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName switch volume
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral filefoov tablesrroot tablet
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ft
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName replacements
+filefoov tablesrroot tablet StringLiteral MethodInvocation MethodInvocation SimpleName volume util
+filefoov tablesrroot tablet StringLiteral MethodInvocation MethodInvocation SimpleName switch volume
+filefoov tablesrroot tablet StringLiteral MethodInvocation MethodInvocation StringLiteral filefoov tablesrroot tablet
+filefoov tablesrroot tablet StringLiteral MethodInvocation MethodInvocation SimpleName ft
+filefoov tablesrroot tablet StringLiteral MethodInvocation MethodInvocation SimpleName replacements
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test root table replacement
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test root table replacement
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test root table replacement
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test root table replacement SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test root table replacement
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test root table replacement
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

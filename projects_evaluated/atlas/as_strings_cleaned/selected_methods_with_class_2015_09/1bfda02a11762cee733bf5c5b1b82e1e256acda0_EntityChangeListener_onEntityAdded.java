@@ -1,0 +1,18 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName typed instances
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName typed instances
+void PrimitiveType MethodDeclaration SimpleName on entity added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+on entity added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+on entity added SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entity added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entity added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

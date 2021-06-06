@@ -1,0 +1,59 @@
+entry SimpleName InfixExpression PrefixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName user data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+user data SimpleName FieldAccess ClassInstanceCreation SimpleName utf
+removing lock entry StringLiteral InfixExpression SimpleName entry
+removing lock entry StringLiteral InfixExpression StringLiteral user data
+removing lock entry StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+removing lock entry StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+removing lock entry StringLiteral InfixExpression ClassInstanceCreation SimpleName utf
+removing lock entry StringLiteral InfixExpression StringLiteral lock type
+removing lock entry StringLiteral InfixExpression MethodInvocation SimpleName lock type
+entry SimpleName InfixExpression StringLiteral user data
+entry SimpleName InfixExpression ClassInstanceCreation SimpleType SimpleName string
+entry SimpleName InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+entry SimpleName InfixExpression ClassInstanceCreation SimpleName utf
+entry SimpleName InfixExpression StringLiteral lock type
+entry SimpleName InfixExpression MethodInvocation SimpleName lock type
+user data StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+user data StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+user data StringLiteral InfixExpression ClassInstanceCreation SimpleName utf
+user data StringLiteral InfixExpression StringLiteral lock type
+user data StringLiteral InfixExpression MethodInvocation SimpleName lock type
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lock type
+user data SimpleName FieldAccess ClassInstanceCreation InfixExpression StringLiteral lock type
+utf SimpleName ClassInstanceCreation InfixExpression StringLiteral lock type
+utf SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName lock type
+lock type StringLiteral InfixExpression MethodInvocation SimpleName lock type
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing lock entry
+log SimpleName MethodInvocation InfixExpression SimpleName entry
+log SimpleName MethodInvocation InfixExpression StringLiteral user data
+log SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName utf
+log SimpleName MethodInvocation InfixExpression StringLiteral lock type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock type
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing lock entry
+debug SimpleName MethodInvocation InfixExpression SimpleName entry
+debug SimpleName MethodInvocation InfixExpression StringLiteral user data
+debug SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName utf
+debug SimpleName MethodInvocation InfixExpression StringLiteral lock type
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock type
+qlock SimpleName MethodInvocation SimpleName remove entry
+qlock SimpleName MethodInvocation SimpleName entry
+remove entry SimpleName MethodInvocation SimpleName entry
+entry SimpleName Assignment PrefixExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unlock
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName unlock
+void PrimitiveType MethodDeclaration SimpleName unlock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unlock
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unlock

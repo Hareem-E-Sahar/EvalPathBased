@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get labels
+public Modifier MethodDeclaration Block ReturnStatement SimpleName labels
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get labels
+get labels SimpleName MethodDeclaration Block ReturnStatement SimpleName labels
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get labels
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get labels

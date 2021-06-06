@@ -1,0 +1,107 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+result checker SimpleName SimpleType SingleVariableDeclaration SimpleName checker
+executing dsl query = StringLiteral InfixExpression SimpleName dsl query
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral executing dsl query =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName dsl query
+println SimpleName MethodInvocation InfixExpression StringLiteral executing dsl query =
+println SimpleName MethodInvocation InfixExpression SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json results
+assert not null SimpleName MethodInvocation SimpleName json results
+json object SimpleName SimpleType ClassInstanceCreation SimpleName json results
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName json results
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation StringLiteral query
+get SimpleName MethodInvocation StringLiteral query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral query
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+assert not null SimpleName MethodInvocation SimpleName query
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+rows SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rows
+assert not null SimpleName MethodInvocation SimpleName rows
+checker SimpleName MethodInvocation SimpleName validate result
+checker SimpleName MethodInvocation SimpleName dsl query
+checker SimpleName MethodInvocation SimpleName rows
+validate result SimpleName MethodInvocation SimpleName dsl query
+validate result SimpleName MethodInvocation SimpleName rows
+dsl query SimpleName MethodInvocation SimpleName rows
+rows SimpleName MethodInvocation SimpleName length
+query [ StringLiteral InfixExpression SimpleName dsl query
+query [ StringLiteral InfixExpression StringLiteral ] returned [
+query [ StringLiteral InfixExpression MethodInvocation SimpleName rows
+query [ StringLiteral InfixExpression MethodInvocation SimpleName length
+query [ StringLiteral InfixExpression StringLiteral ] rows
+dsl query SimpleName InfixExpression StringLiteral ] returned [
+dsl query SimpleName InfixExpression MethodInvocation SimpleName rows
+dsl query SimpleName InfixExpression MethodInvocation SimpleName length
+dsl query SimpleName InfixExpression StringLiteral ] rows
+] returned [ StringLiteral InfixExpression MethodInvocation SimpleName rows
+] returned [ StringLiteral InfixExpression MethodInvocation SimpleName length
+] returned [ StringLiteral InfixExpression StringLiteral ] rows
+rows SimpleName MethodInvocation InfixExpression StringLiteral ] rows
+length SimpleName MethodInvocation InfixExpression StringLiteral ] rows
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral query [
+systemout QualifiedName MethodInvocation InfixExpression SimpleName dsl query
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ] returned [
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName rows
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName length
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ] rows
+println SimpleName MethodInvocation InfixExpression StringLiteral query [
+println SimpleName MethodInvocation InfixExpression SimpleName dsl query
+println SimpleName MethodInvocation InfixExpression StringLiteral ] returned [
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rows
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+println SimpleName MethodInvocation InfixExpression StringLiteral ] rows
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run and validate query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName checker
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run and validate query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName checker
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run and validate query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run and validate query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+run and validate query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+run and validate query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName checker
+run and validate query SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+checker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run and validate query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run and validate query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

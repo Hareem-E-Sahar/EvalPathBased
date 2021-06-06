@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName search query
+get resource SimpleName MethodInvocation QualifiedName apisearch
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apisearch
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName query
+resource SimpleName MethodInvocation SimpleName search query
+query param SimpleName MethodInvocation SimpleName query
+query param SimpleName MethodInvocation SimpleName search query
+query SimpleName MethodInvocation SimpleName search query
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName query
+resource SimpleName Assignment MethodInvocation SimpleName search query
+call api with resource SimpleName MethodInvocation QualifiedName apisearch
+call api with resource SimpleName MethodInvocation SimpleName resource
+apisearch QualifiedName MethodInvocation SimpleName resource
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with resource
+result SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apisearch
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get json array
+result SimpleName MethodInvocation SimpleName results
+get json array SimpleName MethodInvocation SimpleName results
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName json array
+public Modifier MethodDeclaration SimpleName search
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName search query
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+json array SimpleName SimpleType MethodDeclaration SimpleName search
+json array SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName search query
+json array SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+search SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search SimpleName MethodDeclaration SingleVariableDeclaration SimpleName search query
+search SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+search query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+public Modifier TypeDeclaration MethodDeclaration SimpleName search
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

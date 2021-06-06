@@ -1,0 +1,73 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table setup
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName table setup
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName table setup
+table setup SimpleName SimpleType ClassInstanceCreation StringLiteral table
+ts SimpleName MethodInvocation SimpleName add
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+ts SimpleName MethodInvocation ClassInstanceCreation StringLiteral table
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral table
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+splits SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName splits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+row limit SimpleName InfixExpression SimpleName splits
+i SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName row limit
+i SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName splits
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+i SimpleName InfixExpression SimpleName row limit
+row limit SimpleName InfixExpression SimpleName splits
+i SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName row limit
+i SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName splits
+create row SimpleName MethodInvocation SimpleName i
+split rows SimpleName MethodInvocation SimpleName add
+split rows SimpleName MethodInvocation MethodInvocation SimpleName create row
+split rows SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName create row
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName row limit
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+row limit SimpleName InfixExpression ForStatement Assignment SimpleName i
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty map
+empty SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+empty SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty map
+table setup SimpleName SimpleType ClassInstanceCreation StringLiteral table
+table setup SimpleName SimpleType ClassInstanceCreation SimpleName empty
+table setup SimpleName SimpleType ClassInstanceCreation SimpleName split rows
+table StringLiteral ClassInstanceCreation SimpleName empty
+table StringLiteral ClassInstanceCreation SimpleName split rows
+empty SimpleName ClassInstanceCreation SimpleName split rows
+ts SimpleName MethodInvocation SimpleName add
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+ts SimpleName MethodInvocation ClassInstanceCreation StringLiteral table
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleName empty
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleName split rows
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral table
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName split rows
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ts
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tables to create
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName table setup
+public Modifier MethodDeclaration SimpleName get tables to create
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ts
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+table setup SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+get tables to create SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get tables to create SimpleName MethodDeclaration Block ReturnStatement SimpleName ts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tables to create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tables to create

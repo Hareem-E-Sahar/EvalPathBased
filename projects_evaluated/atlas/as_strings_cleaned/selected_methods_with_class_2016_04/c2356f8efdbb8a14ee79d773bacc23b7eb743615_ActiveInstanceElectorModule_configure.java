@@ -1,0 +1,53 @@
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName active state change handler
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName active state change handler
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName active state change handler
+active state change handler binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+active state change handler binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+active state change handler binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+active state change handler binder SimpleName MethodInvocation SimpleName add binding
+active state change handler binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName graph backed search indexer
+active state change handler binder SimpleName MethodInvocation SimpleName add binding
+active state change handler binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName default metadata service
+active state change handler binder SimpleName MethodInvocation SimpleName add binding
+active state change handler binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification hook consumer
+active state change handler binder SimpleName MethodInvocation SimpleName add binding
+active state change handler binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName h base based audit repository
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+service binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName active instance elector service
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

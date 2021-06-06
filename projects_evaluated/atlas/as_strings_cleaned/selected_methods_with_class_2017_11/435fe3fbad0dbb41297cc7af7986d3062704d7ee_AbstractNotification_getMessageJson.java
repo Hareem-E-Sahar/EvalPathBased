@@ -1,0 +1,35 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName message
+atlas notification message SimpleName SimpleType ParameterizedType WildcardType ?
+atlas notification message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current message version
+atlas notification message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName message
+current message version SimpleName ClassInstanceCreation SimpleName message
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current message version
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification msg
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName notification msg
+to v json SimpleName MethodInvocation SimpleName notification msg
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get message json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get message json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+string SimpleName SimpleType MethodDeclaration SimpleName get message json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName message
+get message json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get message json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

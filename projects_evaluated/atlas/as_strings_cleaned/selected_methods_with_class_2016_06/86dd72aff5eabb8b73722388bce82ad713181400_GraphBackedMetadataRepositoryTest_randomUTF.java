@@ -1,0 +1,13 @@
+random string utils SimpleName MethodInvocation SimpleName random
+random string utils SimpleName MethodInvocation NumberLiteral empty
+random SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName random utf
+string SimpleName SimpleType MethodDeclaration SimpleName random utf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName random utf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName random utf

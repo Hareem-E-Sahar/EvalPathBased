@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referred entities
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referred entities
+atlas entity header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName referred entities
+referred entities SimpleName FieldAccess Assignment SimpleName referred entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set referred entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName referred entities
+void PrimitiveType MethodDeclaration SimpleName set referred entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName referred entities
+set referred entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referred entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set referred entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referred entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set referred entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referred entities

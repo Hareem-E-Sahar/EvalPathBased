@@ -1,0 +1,300 @@
+namespace SimpleName InfixExpression StringLiteral .
+t SimpleName VariableDeclarationFragment InfixExpression SimpleName namespace
+t SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+namespace SimpleName InfixExpression StringLiteral .
+t SimpleName VariableDeclarationFragment InfixExpression SimpleName namespace
+t SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+delete SimpleName MethodInvocation SimpleName namespace
+namespace not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+namespace not found exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+e SimpleName MethodInvocation SimpleName get cause
+e SimpleName MethodInvocation MethodInvocation SimpleName get class
+get cause SimpleName MethodInvocation MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get cause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+create SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+create SimpleName MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+create SimpleName MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+delete SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+exists SimpleName MethodInvocation SimpleName namespace
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespace operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+exists SimpleName MethodInvocation SimpleName t
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName t
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName create and delete namespace
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create and delete namespace
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName create and delete namespace
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create and delete namespace SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create and delete namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create and delete namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

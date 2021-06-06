@@ -1,0 +1,16 @@
+stream SimpleName MethodInvocation SimpleName size
+residual list SimpleName MethodInvocation SimpleName size
+stream SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName residual list
+stream SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName residual list
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get stream size
+int PrimitiveType MethodDeclaration SimpleName get stream size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stream size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stream size

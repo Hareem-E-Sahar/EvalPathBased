@@ -1,0 +1,412 @@
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance name
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation StringLiteral root
+instance SimpleName MethodInvocation SimpleName password
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation SimpleName password
+root StringLiteral MethodInvocation SimpleName password
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+instance SimpleName MethodInvocation SimpleName get instance id
+credential helper SimpleName MethodInvocation SimpleName create
+credential helper SimpleName MethodInvocation StringLiteral root
+credential helper SimpleName MethodInvocation SimpleName password
+credential helper SimpleName MethodInvocation MethodInvocation SimpleName instance
+credential helper SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+create SimpleName MethodInvocation StringLiteral root
+create SimpleName MethodInvocation SimpleName password
+create SimpleName MethodInvocation MethodInvocation SimpleName instance
+create SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+root StringLiteral MethodInvocation SimpleName password
+root StringLiteral MethodInvocation MethodInvocation SimpleName instance
+root StringLiteral MethodInvocation MethodInvocation SimpleName get instance id
+password SimpleName MethodInvocation MethodInvocation SimpleName instance
+password SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+creds SimpleName VariableDeclarationFragment MethodInvocation SimpleName credential helper
+creds SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+creds SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+creds SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+creds SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+creds SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance id
+t credentials SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName creds
+multi table batch writer impl SimpleName SimpleType ClassInstanceCreation SimpleName instance
+multi table batch writer impl SimpleName SimpleType ClassInstanceCreation SimpleName creds
+multi table batch writer impl SimpleName SimpleType ClassInstanceCreation SimpleName config
+multi table batch writer impl SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+multi table batch writer impl SimpleName SimpleType ClassInstanceCreation QualifiedName time unitseconds
+instance SimpleName ClassInstanceCreation SimpleName creds
+instance SimpleName ClassInstanceCreation SimpleName config
+instance SimpleName ClassInstanceCreation NumberLiteral empty
+instance SimpleName ClassInstanceCreation QualifiedName time unitseconds
+creds SimpleName ClassInstanceCreation SimpleName config
+creds SimpleName ClassInstanceCreation NumberLiteral empty
+creds SimpleName ClassInstanceCreation QualifiedName time unitseconds
+config SimpleName ClassInstanceCreation NumberLiteral empty
+config SimpleName ClassInstanceCreation QualifiedName time unitseconds
+empty NumberLiteral ClassInstanceCreation QualifiedName time unitseconds
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi table batch writer impl
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName creds
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName config
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+mtbw SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName time unitseconds
+multi table batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mtbw
+table SimpleName VariableDeclarationFragment StringLiteral test table rename same writers table
+table SimpleName VariableDeclarationFragment StringLiteral test table rename same writers table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+test table rename same writers table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+test table rename same writers table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers table
+new table SimpleName VariableDeclarationFragment StringLiteral test table rename same writers new table
+new table SimpleName VariableDeclarationFragment StringLiteral test table rename same writers new table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+new table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+new table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+test table rename same writers new table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+test table rename same writers new table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test table rename same writers new table
+connector SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName mtbw
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName mtbw
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+bw SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+tops SimpleName MethodInvocation SimpleName rename
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation SimpleName new table
+rename SimpleName MethodInvocation SimpleName table
+rename SimpleName MethodInvocation SimpleName new table
+table SimpleName MethodInvocation SimpleName new table
+tops SimpleName MethodInvocation SimpleName rename
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation SimpleName new table
+rename SimpleName MethodInvocation SimpleName table
+rename SimpleName MethodInvocation SimpleName new table
+table SimpleName MethodInvocation SimpleName new table
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bar
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+mtbw SimpleName MethodInvocation SimpleName close
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation StringLiteral foo
+maps SimpleName MethodInvocation StringLiteral col
+immutable entry SimpleName MethodInvocation StringLiteral foo
+immutable entry SimpleName MethodInvocation StringLiteral col
+foo StringLiteral MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation SimpleName put
+expectations SimpleName MethodInvocation MethodInvocation SimpleName maps
+expectations SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation MethodInvocation SimpleName maps
+put SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+put SimpleName MethodInvocation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation MethodInvocation StringLiteral val
+immutable entry SimpleName MethodInvocation MethodInvocation StringLiteral val
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation StringLiteral foo
+maps SimpleName MethodInvocation StringLiteral col
+immutable entry SimpleName MethodInvocation StringLiteral foo
+immutable entry SimpleName MethodInvocation StringLiteral col
+foo StringLiteral MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation SimpleName put
+expectations SimpleName MethodInvocation MethodInvocation SimpleName maps
+expectations SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation MethodInvocation SimpleName maps
+put SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+put SimpleName MethodInvocation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation MethodInvocation StringLiteral val
+immutable entry SimpleName MethodInvocation MethodInvocation StringLiteral val
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation StringLiteral bar
+maps SimpleName MethodInvocation StringLiteral col
+immutable entry SimpleName MethodInvocation StringLiteral bar
+immutable entry SimpleName MethodInvocation StringLiteral col
+bar StringLiteral MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation SimpleName put
+expectations SimpleName MethodInvocation MethodInvocation SimpleName maps
+expectations SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral bar
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation MethodInvocation SimpleName maps
+put SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+put SimpleName MethodInvocation MethodInvocation StringLiteral bar
+put SimpleName MethodInvocation MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation MethodInvocation StringLiteral val
+immutable entry SimpleName MethodInvocation MethodInvocation StringLiteral val
+bar StringLiteral MethodInvocation MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation StringLiteral bar
+maps SimpleName MethodInvocation StringLiteral col
+immutable entry SimpleName MethodInvocation StringLiteral bar
+immutable entry SimpleName MethodInvocation StringLiteral col
+bar StringLiteral MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation SimpleName put
+expectations SimpleName MethodInvocation MethodInvocation SimpleName maps
+expectations SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral bar
+expectations SimpleName MethodInvocation MethodInvocation StringLiteral col
+expectations SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation MethodInvocation SimpleName maps
+put SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+put SimpleName MethodInvocation MethodInvocation StringLiteral bar
+put SimpleName MethodInvocation MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral val
+maps SimpleName MethodInvocation MethodInvocation StringLiteral val
+immutable entry SimpleName MethodInvocation MethodInvocation StringLiteral val
+bar StringLiteral MethodInvocation MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation MethodInvocation StringLiteral val
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName new table
+arrays SimpleName MethodInvocation SimpleName new table
+as list SimpleName MethodInvocation SimpleName new table
+as list SimpleName MethodInvocation SimpleName new table
+new table SimpleName MethodInvocation SimpleName new table
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation SimpleName table
+connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName set range
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation SimpleName to string
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+maps SimpleName MethodInvocation MethodInvocation SimpleName to string
+maps SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+maps SimpleName MethodInvocation MethodInvocation SimpleName to string
+immutable entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+immutable entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+immutable entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+immutable entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+actual SimpleName MethodInvocation SimpleName put
+actual SimpleName MethodInvocation MethodInvocation SimpleName maps
+actual SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+actual SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName maps
+put SimpleName MethodInvocation MethodInvocation SimpleName immutable entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+maps SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+immutable entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+differing results for StringLiteral InfixExpression SimpleName table
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression StringLiteral differing results for
+assert SimpleName MethodInvocation InfixExpression SimpleName table
+assert SimpleName MethodInvocation SimpleName expectations
+assert SimpleName MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral differing results for
+assert equals SimpleName MethodInvocation InfixExpression SimpleName table
+assert equals SimpleName MethodInvocation SimpleName expectations
+assert equals SimpleName MethodInvocation SimpleName actual
+differing results for StringLiteral InfixExpression MethodInvocation SimpleName expectations
+table SimpleName InfixExpression MethodInvocation SimpleName expectations
+differing results for StringLiteral InfixExpression MethodInvocation SimpleName actual
+table SimpleName InfixExpression MethodInvocation SimpleName actual
+expectations SimpleName MethodInvocation SimpleName actual
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName new table
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName new table
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+mtbw SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test table rename same writers
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test table rename same writers
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test table rename same writers
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test table rename same writers SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test table rename same writers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test table rename same writers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

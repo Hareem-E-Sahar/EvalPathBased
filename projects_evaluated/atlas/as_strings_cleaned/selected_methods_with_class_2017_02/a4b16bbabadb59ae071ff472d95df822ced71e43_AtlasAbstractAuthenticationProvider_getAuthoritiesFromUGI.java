@@ -1,0 +1,82 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+user group information SimpleName MethodInvocation SimpleName create remote user
+user group information SimpleName MethodInvocation SimpleName user name
+create remote user SimpleName MethodInvocation SimpleName user name
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName user group information
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName create remote user
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName user name
+user group information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ugi
+ugi SimpleName MethodInvocation SimpleName get group names
+user groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName ugi
+user groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName get group names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+simple granted authority SimpleName SimpleType ClassInstanceCreation SimpleName group
+granted auths SimpleName MethodInvocation SimpleName add
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName user groups
+group SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName user groups
+granted auths SimpleName MethodInvocation SimpleName is empty
+granted auths SimpleName InfixExpression InfixExpression MethodInvocation SimpleName granted auths
+granted auths SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+groups SimpleName SimpleType ClassInstanceCreation SimpleName config
+gp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName groups
+gp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName config
+groups SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gp
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+gp SimpleName MethodInvocation SimpleName get groups
+gp SimpleName MethodInvocation SimpleName user name
+get groups SimpleName MethodInvocation SimpleName user name
+user groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName gp
+user groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName get groups
+user groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName user name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+simple granted authority SimpleName SimpleType ClassInstanceCreation SimpleName group
+granted auths SimpleName MethodInvocation SimpleName add
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+granted auths SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName simple granted authority
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName user groups
+group SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName user groups
+javaioio exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while fetching groups
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while fetching groups
+error SimpleName MethodInvocation SimpleName e
+exception while fetching groups StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName granted authority
+public Modifier MethodDeclaration SimpleName get authorities from ugi
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName granted auths
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName granted authority
+static Modifier MethodDeclaration SimpleName get authorities from ugi
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName granted auths
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get authorities from ugi
+granted authority SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get authorities from ugi
+get authorities from ugi SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get authorities from ugi SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+get authorities from ugi SimpleName MethodDeclaration Block ReturnStatement SimpleName granted auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authorities from ugi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authorities from ugi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name

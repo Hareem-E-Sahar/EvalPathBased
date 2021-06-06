@@ -1,0 +1,275 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation StringLiteral tera sort cloud
+get conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral tera sort cloud
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tera sort cloud
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName range input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName range input format
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sort gen mapper
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sort gen mapper
+job SimpleName MethodInvocation SimpleName set map output key class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text
+job SimpleName MethodInvocation SimpleName set map output value class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation SimpleName set zoo keeper instance
+accumulo output format SimpleName MethodInvocation SimpleName conf
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation SimpleName conf
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess SimpleName args
+set zoo keeper instance SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+accumulo output format SimpleName MethodInvocation SimpleName set output info
+accumulo output format SimpleName MethodInvocation SimpleName conf
+accumulo output format SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+accumulo output format SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+accumulo output format SimpleName MethodInvocation BooleanLiteral true
+set output info SimpleName MethodInvocation SimpleName conf
+set output info SimpleName MethodInvocation ArrayAccess SimpleName args
+set output info SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set output info SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set output info SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set output info SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set output info SimpleName MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+conf SimpleName MethodInvocation BooleanLiteral true
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get bytes
+args SimpleName ArrayAccess MethodInvocation BooleanLiteral true
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral true
+args SimpleName ArrayAccess MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation BooleanLiteral true
+get bytes SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+l NumberLiteral InfixExpression NumberLiteral empty
+l NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+accumulo output format SimpleName MethodInvocation SimpleName set max mutation buffer size
+accumulo output format SimpleName MethodInvocation SimpleName conf
+accumulo output format SimpleName MethodInvocation InfixExpression NumberLiteral l
+accumulo output format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+accumulo output format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set max mutation buffer size SimpleName MethodInvocation SimpleName conf
+set max mutation buffer size SimpleName MethodInvocation InfixExpression NumberLiteral l
+set max mutation buffer size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set max mutation buffer size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+conf SimpleName MethodInvocation InfixExpression NumberLiteral l
+conf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+conf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName args
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName args
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set long
+conf SimpleName MethodInvocation SimpleName numrows
+conf SimpleName MethodInvocation MethodInvocation SimpleName long
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse long
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set long SimpleName MethodInvocation SimpleName numrows
+set long SimpleName MethodInvocation MethodInvocation SimpleName long
+set long SimpleName MethodInvocation MethodInvocation SimpleName parse long
+set long SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set long SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+numrows SimpleName MethodInvocation MethodInvocation SimpleName long
+numrows SimpleName MethodInvocation MethodInvocation SimpleName parse long
+numrows SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+numrows SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral cloudgenminkeylength
+conf SimpleName MethodInvocation MethodInvocation SimpleName integer
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse int
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral cloudgenminkeylength
+set int SimpleName MethodInvocation MethodInvocation SimpleName integer
+set int SimpleName MethodInvocation MethodInvocation SimpleName parse int
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+cloudgenminkeylength StringLiteral MethodInvocation MethodInvocation SimpleName integer
+cloudgenminkeylength StringLiteral MethodInvocation MethodInvocation SimpleName parse int
+cloudgenminkeylength StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+cloudgenminkeylength StringLiteral MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral cloudgenmaxkeylength
+conf SimpleName MethodInvocation MethodInvocation SimpleName integer
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse int
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral cloudgenmaxkeylength
+set int SimpleName MethodInvocation MethodInvocation SimpleName integer
+set int SimpleName MethodInvocation MethodInvocation SimpleName parse int
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+cloudgenmaxkeylength StringLiteral MethodInvocation MethodInvocation SimpleName integer
+cloudgenmaxkeylength StringLiteral MethodInvocation MethodInvocation SimpleName parse int
+cloudgenmaxkeylength StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+cloudgenmaxkeylength StringLiteral MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral cloudgenminvaluelength
+conf SimpleName MethodInvocation MethodInvocation SimpleName integer
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse int
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral cloudgenminvaluelength
+set int SimpleName MethodInvocation MethodInvocation SimpleName integer
+set int SimpleName MethodInvocation MethodInvocation SimpleName parse int
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+cloudgenminvaluelength StringLiteral MethodInvocation MethodInvocation SimpleName integer
+cloudgenminvaluelength StringLiteral MethodInvocation MethodInvocation SimpleName parse int
+cloudgenminvaluelength StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+cloudgenminvaluelength StringLiteral MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation StringLiteral cloudgenmaxvaluelength
+conf SimpleName MethodInvocation MethodInvocation SimpleName integer
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse int
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral cloudgenmaxvaluelength
+set int SimpleName MethodInvocation MethodInvocation SimpleName integer
+set int SimpleName MethodInvocation MethodInvocation SimpleName parse int
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+cloudgenmaxvaluelength StringLiteral MethodInvocation MethodInvocation SimpleName integer
+cloudgenmaxvaluelength StringLiteral MethodInvocation MethodInvocation SimpleName parse int
+cloudgenmaxvaluelength StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+cloudgenmaxvaluelength StringLiteral MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation StringLiteral cloudgentablename
+conf SimpleName MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral cloudgentablename
+set SimpleName MethodInvocation ArrayAccess SimpleName args
+set SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cloudgentablename StringLiteral MethodInvocation ArrayAccess SimpleName args
+cloudgentablename StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation SimpleName numsplits
+conf SimpleName MethodInvocation MethodInvocation SimpleName integer
+conf SimpleName MethodInvocation MethodInvocation SimpleName parse int
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conf SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set int SimpleName MethodInvocation SimpleName numsplits
+set int SimpleName MethodInvocation MethodInvocation SimpleName integer
+set int SimpleName MethodInvocation MethodInvocation SimpleName parse int
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+set int SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+numsplits SimpleName MethodInvocation MethodInvocation SimpleName integer
+numsplits SimpleName MethodInvocation MethodInvocation SimpleName parse int
+numsplits SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+numsplits SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,22 @@
+name callback SimpleName SimpleType SingleVariableDeclaration SimpleName name callback
+name callback SimpleName MethodInvocation SimpleName get name
+username SimpleName Assignment MethodInvocation SimpleName name callback
+username SimpleName Assignment MethodInvocation SimpleName get name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init user name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName name callback
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name callback
+void PrimitiveType MethodDeclaration SimpleName init user name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName name callback
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name callback
+init user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName name callback
+init user name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name callback
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init user name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name callback
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init user name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name callback

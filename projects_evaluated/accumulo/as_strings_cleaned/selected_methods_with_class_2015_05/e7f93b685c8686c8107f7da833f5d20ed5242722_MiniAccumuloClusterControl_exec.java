@@ -1,0 +1,73 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clz
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName clz
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation SimpleName clz
+cluster SimpleName MethodInvocation SimpleName args
+exec SimpleName MethodInvocation SimpleName clz
+exec SimpleName MethodInvocation SimpleName args
+clz SimpleName MethodInvocation SimpleName args
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName clz
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exit code
+p SimpleName MethodInvocation SimpleName wait for
+exit code SimpleName Assignment MethodInvocation SimpleName p
+exit code SimpleName Assignment MethodInvocation SimpleName wait for
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral interrupted waiting for process to exit
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral interrupted waiting for process to exit
+warn SimpleName MethodInvocation SimpleName e
+interrupted waiting for process to exit StringLiteral MethodInvocation SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName exit code
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName exec
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName clz
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName exec
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName exec
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clz
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName exit code
+exec SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clz
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+exec SimpleName MethodDeclaration SimpleType SimpleName io exception
+exec SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+exec SimpleName MethodDeclaration Block ReturnStatement SimpleName exit code
+clz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+clz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

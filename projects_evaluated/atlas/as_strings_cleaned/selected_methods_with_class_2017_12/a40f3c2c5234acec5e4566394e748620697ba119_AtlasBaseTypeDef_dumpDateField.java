@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+date SimpleName SimpleType SingleVariableDeclaration SimpleName value
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName prefix
+append SimpleName MethodInvocation SimpleName prefix
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName value
+get date formatter SimpleName MethodInvocation MethodInvocation SimpleName format
+get date formatter SimpleName MethodInvocation MethodInvocation SimpleName value
+format SimpleName MethodInvocation SimpleName value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get date formatter
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get date formatter
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SimpleName dump date field
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SimpleName dump date field
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SimpleName dump date field
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+dump date field SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+dump date field SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump date field
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump date field
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

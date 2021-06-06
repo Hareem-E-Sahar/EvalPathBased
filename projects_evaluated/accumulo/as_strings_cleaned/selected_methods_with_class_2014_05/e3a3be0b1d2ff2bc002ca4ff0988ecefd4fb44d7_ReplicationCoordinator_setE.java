@@ -1,0 +1,19 @@
+remote coordination exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName FieldAccess Assignment SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName get servicer address result
+public Modifier MethodDeclaration SimpleName set e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote coordination exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+get servicer address result SimpleName SimpleType MethodDeclaration SimpleName set e
+get servicer address result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+set e SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote coordination exception
+set e SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get servicer address result
+public Modifier TypeDeclaration MethodDeclaration SimpleName set e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get servicer address result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

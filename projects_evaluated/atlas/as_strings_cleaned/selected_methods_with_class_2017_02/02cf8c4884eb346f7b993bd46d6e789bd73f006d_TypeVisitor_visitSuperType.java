@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+void PrimitiveType MethodDeclaration SimpleName visit super type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName super type
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+visit super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+visit super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+visit super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+visit super type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super type
+visit super type SimpleName MethodDeclaration SimpleType SimpleName repository exception
+visit super type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super type
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+super type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+super type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+repository exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit super type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit super type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

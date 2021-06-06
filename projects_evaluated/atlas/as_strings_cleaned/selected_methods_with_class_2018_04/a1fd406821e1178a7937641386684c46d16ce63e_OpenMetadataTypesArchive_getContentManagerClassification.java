@@ -1,0 +1,92 @@
+guid SimpleName VariableDeclarationFragment StringLiteral fa df b cb d c e f b ca d
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral fa df b cb d c e f b ca d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral fa df b cb d c e f b ca d
+name SimpleName VariableDeclarationFragment StringLiteral content manager
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral content manager
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral content manager
+description SimpleName VariableDeclarationFragment StringLiteral identifies a server as a manager of controlled documents and related media
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral identifies a server as a manager of controlled documents and related media
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral identifies a server as a manager of controlled documents and related media
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+linked to entity SimpleName VariableDeclarationFragment StringLiteral software server
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName linked to entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral software server
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName linked to entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral software server
+archive builder SimpleName FieldAccess MethodInvocation SimpleName get entity def
+archive builder SimpleName FieldAccess MethodInvocation SimpleName linked to entity
+get entity def SimpleName MethodInvocation SimpleName linked to entity
+archive helper SimpleName MethodInvocation SimpleName get classification def
+archive helper SimpleName MethodInvocation SimpleName guid
+archive helper SimpleName MethodInvocation SimpleName name
+archive helper SimpleName MethodInvocation SimpleName description
+get classification def SimpleName MethodInvocation SimpleName guid
+get classification def SimpleName MethodInvocation SimpleName name
+get classification def SimpleName MethodInvocation SimpleName description
+get classification def SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation SimpleName name
+guid SimpleName MethodInvocation SimpleName description
+guid SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+guid SimpleName MethodInvocation MethodInvocation SimpleName get entity def
+guid SimpleName MethodInvocation MethodInvocation SimpleName linked to entity
+name SimpleName MethodInvocation SimpleName description
+name SimpleName MethodInvocation SimpleName description guid
+name SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+name SimpleName MethodInvocation MethodInvocation SimpleName get entity def
+name SimpleName MethodInvocation MethodInvocation SimpleName linked to entity
+name SimpleName MethodInvocation BooleanLiteral false
+description SimpleName MethodInvocation SimpleName description guid
+description SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+description SimpleName MethodInvocation MethodInvocation SimpleName get entity def
+description SimpleName MethodInvocation MethodInvocation SimpleName linked to entity
+description SimpleName MethodInvocation BooleanLiteral false
+description guid SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+description guid SimpleName MethodInvocation MethodInvocation SimpleName get entity def
+description guid SimpleName MethodInvocation MethodInvocation SimpleName linked to entity
+description guid SimpleName MethodInvocation BooleanLiteral false
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation BooleanLiteral false
+get entity def SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+linked to entity SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName classification def
+private Modifier MethodDeclaration SimpleName get content manager classification
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+classification def SimpleName SimpleType MethodDeclaration SimpleName get content manager classification
+get content manager classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get content manager classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get content manager classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get content manager classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get content manager classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get content manager classification
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get content manager classification

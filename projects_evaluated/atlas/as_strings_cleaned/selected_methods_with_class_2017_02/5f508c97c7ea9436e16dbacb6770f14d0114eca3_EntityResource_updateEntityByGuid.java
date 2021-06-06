@@ -1,0 +1,192 @@
+path SimpleName SingleMemberAnnotation StringLiteral guid
+servletsjson media type QualifiedName ArrayInitializer QualifiedName media typeapplication json
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName media typeapplication json
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+path param SimpleName SingleMemberAnnotation StringLiteral guid
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+query param SimpleName SingleMemberAnnotation StringLiteral property
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+property StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+query param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName attribute
+property StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName http servlet request
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName request
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> entity resourceupdate entity by guid {})
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation StringLiteral ==> entity resourceupdate entity by guid {})
+debug SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation SimpleName attribute
+==> entity resourceupdate entity by guid {}) StringLiteral MethodInvocation SimpleName guid
+==> entity resourceupdate entity by guid {}) StringLiteral MethodInvocation SimpleName attribute
+guid SimpleName MethodInvocation SimpleName attribute
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+entity resourceupdate entity by guid StringLiteral InfixExpression SimpleName guid
+entity resourceupdate entity by guid StringLiteral InfixExpression StringLiteral empty
+entity resourceupdate entity by guid StringLiteral InfixExpression SimpleName attribute
+entity resourceupdate entity by guid StringLiteral InfixExpression StringLiteral )
+guid SimpleName InfixExpression StringLiteral empty
+guid SimpleName InfixExpression SimpleName attribute
+guid SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName attribute
+empty StringLiteral InfixExpression StringLiteral )
+attribute SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity resourceupdate entity by guid
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName guid
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName attribute
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity resourceupdate entity by guid
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName guid
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName attribute
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral entity resourceupdate entity by guid
+perf log SimpleName MethodInvocation InfixExpression SimpleName guid
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName attribute
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral entity resourceupdate entity by guid
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName guid
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName attribute
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName attribute
+is empty SimpleName MethodInvocation SimpleName attribute
+update entity partial by guid SimpleName MethodInvocation SimpleName guid
+update entity partial by guid SimpleName MethodInvocation SimpleName request
+guid SimpleName MethodInvocation SimpleName request
+update entity attribute by guid SimpleName MethodInvocation SimpleName guid
+update entity attribute by guid SimpleName MethodInvocation SimpleName attribute
+update entity attribute by guid SimpleName MethodInvocation SimpleName request
+guid SimpleName MethodInvocation SimpleName attribute
+guid SimpleName MethodInvocation SimpleName request
+attribute SimpleName MethodInvocation SimpleName request
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== entity resourceupdate entity by guid {})
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation StringLiteral <== entity resourceupdate entity by guid {})
+debug SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation SimpleName attribute
+<== entity resourceupdate entity by guid {}) StringLiteral MethodInvocation SimpleName guid
+<== entity resourceupdate entity by guid {}) StringLiteral MethodInvocation SimpleName attribute
+guid SimpleName MethodInvocation SimpleName attribute
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral guid
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+guid StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+guid StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+guid StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+guid StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+guid StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+guid StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName update entity by guid
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName update entity by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+response SimpleName SimpleType MethodDeclaration SimpleName update entity by guid
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName query param
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral property
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+update entity by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guid
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guid
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

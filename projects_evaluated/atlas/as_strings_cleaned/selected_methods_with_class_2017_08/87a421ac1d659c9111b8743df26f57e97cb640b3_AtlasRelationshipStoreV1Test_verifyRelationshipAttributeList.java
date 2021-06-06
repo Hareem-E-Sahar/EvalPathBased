@@ -1,0 +1,81 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship attr name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected values
+atlas object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected values
+entity SimpleName MethodInvocation SimpleName get relationship attribute
+entity SimpleName MethodInvocation SimpleName relationship attr name
+get relationship attribute SimpleName MethodInvocation SimpleName relationship attr name
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attribute
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value
+ref value SimpleName InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+to atlas object ids SimpleName MethodInvocation SimpleName ref value
+ref list SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+ref list SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref value
+ref list SimpleName MethodInvocation SimpleName size
+expected values SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ref list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected values
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+ref list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected values
+ref list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected values
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+expected values SimpleName MethodInvocation SimpleName size
+expected values SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ref list SimpleName MethodInvocation SimpleName contains all
+ref list SimpleName MethodInvocation SimpleName expected values
+contains all SimpleName MethodInvocation SimpleName expected values
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ref list
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert true SimpleName MethodInvocation MethodInvocation SimpleName expected values
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName verify relationship attribute list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName verify relationship attribute list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected values
+void PrimitiveType MethodDeclaration SimpleName verify relationship attribute list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected values
+verify relationship attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify relationship attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+verify relationship attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify relationship attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+verify relationship attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected values
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected values
+relationship attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify relationship attribute list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected values
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify relationship attribute list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship attr name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected values

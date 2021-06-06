@@ -1,0 +1,79 @@
+method invocation SimpleName SimpleType SingleVariableDeclaration SimpleName invocation
+atlas graph provider SimpleName MethodInvocation SimpleName get graph instance
+graph SimpleName Assignment MethodInvocation SimpleName atlas graph provider
+graph SimpleName Assignment MethodInvocation SimpleName get graph instance
+invocation SimpleName MethodInvocation SimpleName proceed
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName invocation
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName proceed
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+graph SimpleName MethodInvocation SimpleName commit
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral graph commit
+info SimpleName MethodInvocation StringLiteral graph commit
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log exception SimpleName MethodInvocation SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral graph rollback due to exception
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral graph rollback due to exception
+error SimpleName MethodInvocation SimpleName t
+graph rollback due to exception StringLiteral MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+t SimpleName MethodInvocation SimpleName get message
+graph rollback due to exception StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName t
+graph rollback due to exception StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+graph rollback due to exception StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+graph rollback due to exception StringLiteral InfixExpression StringLiteral :
+graph rollback due to exception StringLiteral InfixExpression MethodInvocation SimpleName t
+graph rollback due to exception StringLiteral InfixExpression MethodInvocation SimpleName get message
+t SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral :
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+: StringLiteral InfixExpression MethodInvocation SimpleName t
+: StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral graph rollback due to exception
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation InfixExpression StringLiteral graph rollback due to exception
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+graph SimpleName MethodInvocation SimpleName rollback
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName invocation
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName invoke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+object SimpleName SimpleType MethodDeclaration SimpleName invoke
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName invocation
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName method invocation
+invoke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName invocation
+invoke SimpleName MethodDeclaration SimpleType SimpleName throwable
+invocation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName invocation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

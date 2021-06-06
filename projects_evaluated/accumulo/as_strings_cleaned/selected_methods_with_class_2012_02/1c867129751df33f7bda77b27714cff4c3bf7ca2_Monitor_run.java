@@ -1,0 +1,210 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+system SimpleName MethodInvocation SimpleName current time millis
+monitorstart time QualifiedName Assignment MethodInvocation SimpleName system
+monitorstart time QualifiedName Assignment MethodInvocation SimpleName current time millis
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertymonitor port
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertymonitor port
+get port SimpleName MethodInvocation QualifiedName propertymonitor port
+port SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+port SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+port SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertymonitor port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertymonitor port
+embedded web server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+creating monitor on port StringLiteral InfixExpression SimpleName port
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating monitor on port
+log SimpleName MethodInvocation InfixExpression SimpleName port
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating monitor on port
+debug SimpleName MethodInvocation InfixExpression SimpleName port
+embedded web server SimpleName MethodInvocation SimpleName create
+embedded web server SimpleName MethodInvocation SimpleName port
+create SimpleName MethodInvocation SimpleName port
+server SimpleName Assignment MethodInvocation SimpleName embedded web server
+server SimpleName Assignment MethodInvocation SimpleName create
+server SimpleName Assignment MethodInvocation SimpleName port
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to start embedded web server
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable to start embedded web server
+error SimpleName MethodInvocation SimpleName ex
+unable to start embedded web server StringLiteral MethodInvocation SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName default servlet
+server SimpleName MethodInvocation StringLiteral /
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName default servlet
+add servlet SimpleName MethodInvocation StringLiteral /
+default servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral /
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName operation servlet
+server SimpleName MethodInvocation StringLiteral op
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName operation servlet
+add servlet SimpleName MethodInvocation StringLiteral op
+operation servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral op
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName master servlet
+server SimpleName MethodInvocation StringLiteral master
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName master servlet
+add servlet SimpleName MethodInvocation StringLiteral master
+master servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral master
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName tables servlet
+server SimpleName MethodInvocation StringLiteral tables
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName tables servlet
+add servlet SimpleName MethodInvocation StringLiteral tables
+tables servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral tables
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName t servers servlet
+server SimpleName MethodInvocation StringLiteral tservers
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName t servers servlet
+add servlet SimpleName MethodInvocation StringLiteral tservers
+t servers servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral tservers
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName loggers servlet
+server SimpleName MethodInvocation StringLiteral loggers
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName loggers servlet
+add servlet SimpleName MethodInvocation StringLiteral loggers
+loggers servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral loggers
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName problem servlet
+server SimpleName MethodInvocation StringLiteral problems
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName problem servlet
+add servlet SimpleName MethodInvocation StringLiteral problems
+problem servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral problems
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName gc status servlet
+server SimpleName MethodInvocation StringLiteral gc
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName gc status servlet
+add servlet SimpleName MethodInvocation StringLiteral gc
+gc status servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral gc
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log servlet
+server SimpleName MethodInvocation StringLiteral log
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log servlet
+add servlet SimpleName MethodInvocation StringLiteral log
+log servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral log
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName xml servlet
+server SimpleName MethodInvocation StringLiteral xml
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName xml servlet
+add servlet SimpleName MethodInvocation StringLiteral xml
+xml servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral xml
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vis servlet
+server SimpleName MethodInvocation StringLiteral vis
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vis servlet
+add servlet SimpleName MethodInvocation StringLiteral vis
+vis servlet SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral vis
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName summary
+server SimpleName MethodInvocation StringLiteral tracesummary
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName summary
+add servlet SimpleName MethodInvocation StringLiteral tracesummary
+summary SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral tracesummary
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list type
+server SimpleName MethodInvocation StringLiteral tracelist type
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list type
+add servlet SimpleName MethodInvocation StringLiteral tracelist type
+list type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral tracelist type
+server SimpleName MethodInvocation SimpleName add servlet
+server SimpleName MethodInvocation TypeLiteral SimpleType SimpleName show trace
+server SimpleName MethodInvocation StringLiteral traceshow
+add servlet SimpleName MethodInvocation TypeLiteral SimpleType SimpleName show trace
+add servlet SimpleName MethodInvocation StringLiteral traceshow
+show trace SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral traceshow
+log service SimpleName MethodInvocation SimpleName start log listener
+server SimpleName MethodInvocation SimpleName start
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName log
+log SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName zoo keeper status
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName log
+daemon SimpleName SimpleType ClassInstanceCreation StringLiteral zoo keeper status
+logging runnable SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral zoo keeper status
+log SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral zoo keeper status
+daemon SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName start
+zoo keeper status StringLiteral ClassInstanceCreation MethodInvocation SimpleName start
+monitor SimpleName MethodInvocation SimpleName fetch data
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+run SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+logging runnable SimpleName SimpleType ClassInstanceCreation SimpleName log
+log SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName runnable
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName log
+daemon SimpleName SimpleType ClassInstanceCreation StringLiteral data fetcher
+logging runnable SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral data fetcher
+log SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral data fetcher
+daemon SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName start
+data fetcher StringLiteral ClassInstanceCreation MethodInvocation SimpleName start
+accumulo SimpleName MethodInvocation SimpleName init
+accumulo SimpleName MethodInvocation StringLiteral monitor
+init SimpleName MethodInvocation StringLiteral monitor
+accumulo SimpleName MethodInvocation SimpleName get local address
+accumulo SimpleName MethodInvocation SimpleName args
+get local address SimpleName MethodInvocation SimpleName args
+accumulo SimpleName MethodInvocation MethodInvocation SimpleName to string
+get local address SimpleName MethodInvocation MethodInvocation SimpleName to string
+args SimpleName MethodInvocation MethodInvocation SimpleName to string
+accumulo SimpleName MethodInvocation SimpleName enable tracing
+accumulo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo
+accumulo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local address
+accumulo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+accumulo SimpleName MethodInvocation MethodInvocation SimpleName to string
+accumulo SimpleName MethodInvocation StringLiteral monitor
+enable tracing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo
+enable tracing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local address
+enable tracing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+enable tracing SimpleName MethodInvocation MethodInvocation SimpleName to string
+enable tracing SimpleName MethodInvocation StringLiteral monitor
+accumulo SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral monitor
+get local address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral monitor
+args SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral monitor
+to string SimpleName MethodInvocation MethodInvocation StringLiteral monitor
+unknown host exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

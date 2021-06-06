@@ -1,0 +1,41 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName auth
+get connector SimpleName MethodInvocation QualifiedName authuser
+get connector SimpleName MethodInvocation QualifiedName authpassword
+authuser QualifiedName MethodInvocation QualifiedName authpassword
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName connector
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get connector
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName auth
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SimpleName get connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+connector SimpleName SimpleType MethodDeclaration SimpleName get connector
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName auth
+connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+get connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth
+get connector SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get connector SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+auth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+auth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

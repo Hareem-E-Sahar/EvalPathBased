@@ -1,0 +1,26 @@
+groovy expression SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName groovy expression
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get initial indexed predicate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SimpleName get initial indexed predicate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parent
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName get initial indexed predicate
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parent
+get initial indexed predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+get initial indexed predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+get initial indexed predicate SimpleName MethodDeclaration Block ReturnStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName get initial indexed predicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get initial indexed predicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent

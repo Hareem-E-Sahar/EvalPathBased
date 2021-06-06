@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleName get header by id
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get header by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get header by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get header by id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SimpleName get header by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get header by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

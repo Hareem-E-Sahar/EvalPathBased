@@ -1,0 +1,261 @@
+in memory map SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+in memory map SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+false BooleanLiteral ClassInstanceCreation StringLiteral tmp
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName in memory map
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+in memory map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName imm
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation SimpleName skv iterator
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName imm
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName skv iterator
+memory iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ski
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+ski SimpleName MethodInvocation SimpleName seek
+ski SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+ski SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+ski SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+ski SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+r StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+r StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName ski
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+ski SimpleName MethodInvocation SimpleName close
+in memory map SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+in memory map SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+false BooleanLiteral ClassInstanceCreation StringLiteral tmp
+imm SimpleName Assignment ClassInstanceCreation SimpleType SimpleName in memory map
+imm SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+imm SimpleName Assignment ClassInstanceCreation StringLiteral tmp
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation SimpleName skv iterator
+ski SimpleName Assignment MethodInvocation SimpleName imm
+ski SimpleName Assignment MethodInvocation SimpleName skv iterator
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+ski SimpleName MethodInvocation SimpleName seek
+ski SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+ski SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+ski SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+ski SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral r
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+r StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+r StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName ski
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+ski SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

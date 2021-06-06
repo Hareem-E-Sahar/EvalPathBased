@@ -1,0 +1,34 @@
+groovy expression SimpleName SimpleType SingleVariableDeclaration SimpleName it expr
+cast expression SimpleName SimpleType ClassInstanceCreation SimpleName it expr
+cast expression SimpleName SimpleType ClassInstanceCreation StringLiteral collection
+it expr SimpleName ClassInstanceCreation StringLiteral collection
+collection expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cast expression
+collection expr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName it expr
+collection expr SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral collection
+groovy expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName collection expr
+function call expression SimpleName SimpleType ClassInstanceCreation SimpleName it expr
+function call expression SimpleName SimpleType ClassInstanceCreation StringLiteral size
+it expr SimpleName ClassInstanceCreation StringLiteral size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName groovy expression
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName generate count expression
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName it expr
+public Modifier MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SimpleName generate count expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName it expr
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName generate count expression
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName it expr
+generate count expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+generate count expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it expr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate count expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it expr
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate count expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it expr

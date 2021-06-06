@@ -1,0 +1,41 @@
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName types def
+types def SimpleName MethodInvocation SimpleName is empty
+types def SimpleName MethodInvocation SimpleName get enum defs
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName types def
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName get enum defs
+types def SimpleName MethodInvocation SimpleName get struct defs
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName types def
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName get struct defs
+types def SimpleName MethodInvocation SimpleName get classification defs
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName types def
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName get classification defs
+types def SimpleName MethodInvocation SimpleName get entity defs
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName types def
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName get entity defs
+types def SimpleName MethodInvocation SimpleName get relationship defs
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName types def
+remove types with no ref resolve SimpleName MethodInvocation MethodInvocation SimpleName get relationship defs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName remove types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types def
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+remove types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+remove types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types def
+remove types def SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+types def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

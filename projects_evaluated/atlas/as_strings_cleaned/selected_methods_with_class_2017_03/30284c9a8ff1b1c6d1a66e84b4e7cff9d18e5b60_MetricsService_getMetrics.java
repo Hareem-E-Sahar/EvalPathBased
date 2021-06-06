@@ -1,0 +1,100 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore cache
+ignore cache SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName is cache valid
+metrics SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas metrics
+atlas metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+metric query SimpleName SimpleType SingleVariableDeclaration SimpleName metric query
+metric query SimpleName MethodInvocation SimpleName values
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral executing query {}
+log SimpleName MethodInvocation SimpleName metric query
+debug SimpleName MethodInvocation StringLiteral executing query {}
+debug SimpleName MethodInvocation SimpleName metric query
+executing query {} StringLiteral MethodInvocation SimpleName metric query
+execute gremlin query SimpleName MethodInvocation SimpleName metrics
+execute gremlin query SimpleName MethodInvocation QualifiedName metric querygroup
+execute gremlin query SimpleName MethodInvocation QualifiedName metric queryname
+execute gremlin query SimpleName MethodInvocation QualifiedName metric queryquery
+metrics SimpleName MethodInvocation QualifiedName metric querygroup
+metrics SimpleName MethodInvocation QualifiedName metric queryname
+metrics SimpleName MethodInvocation QualifiedName metric queryquery
+metric querygroup QualifiedName MethodInvocation QualifiedName metric queryname
+metric querygroup QualifiedName MethodInvocation QualifiedName metric queryquery
+metric queryname QualifiedName MethodInvocation QualifiedName metric queryquery
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral gremlin execution failed for metric {}
+log SimpleName MethodInvocation SimpleName metric query
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation StringLiteral gremlin execution failed for metric {}
+debug SimpleName MethodInvocation SimpleName metric query
+debug SimpleName MethodInvocation SimpleName e
+gremlin execution failed for metric {} StringLiteral MethodInvocation SimpleName metric query
+gremlin execution failed for metric {} StringLiteral MethodInvocation SimpleName e
+metric query SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral gremlin execution failed for metric {}
+log SimpleName MethodInvocation SimpleName metric query
+warn SimpleName MethodInvocation StringLiteral gremlin execution failed for metric {}
+warn SimpleName MethodInvocation SimpleName metric query
+gremlin execution failed for metric {} StringLiteral MethodInvocation SimpleName metric query
+metric query SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName metric query
+metric query SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+system SimpleName MethodInvocation SimpleName current time millis
+collection time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+collection time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName collection time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+metrics SimpleName MethodInvocation SimpleName add data
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric collection time
+metrics SimpleName MethodInvocation SimpleName collection time
+add data SimpleName MethodInvocation SimpleName general
+add data SimpleName MethodInvocation SimpleName metric collection time
+add data SimpleName MethodInvocation SimpleName collection time
+general SimpleName MethodInvocation SimpleName metric collection time
+general SimpleName MethodInvocation SimpleName collection time
+metric collection time SimpleName MethodInvocation SimpleName collection time
+cached metrics SimpleName FieldAccess Assignment SimpleName metrics
+cache ttl in secs SimpleName InfixExpression NumberLiteral empty
+collection time SimpleName InfixExpression InfixExpression SimpleName cache ttl in secs
+collection time SimpleName InfixExpression InfixExpression NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas metrics
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas metrics
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get metrics
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get metrics
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+public Modifier MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier MethodDeclaration SimpleName get metrics
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cached metrics
+atlas metrics SimpleName SimpleType MethodDeclaration SimpleName get metrics
+atlas metrics SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas metrics SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+get metrics SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+get metrics SimpleName MethodDeclaration Block ReturnStatement SimpleName cached metrics
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metrics
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metrics
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore cache

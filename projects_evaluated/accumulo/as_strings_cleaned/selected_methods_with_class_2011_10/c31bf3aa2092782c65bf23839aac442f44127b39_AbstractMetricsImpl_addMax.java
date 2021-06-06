@@ -1,0 +1,32 @@
+long PrimitiveType SingleVariableDeclaration SimpleName a
+a SimpleName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName a
+max SimpleName MethodInvocation SimpleName max
+max SimpleName MethodInvocation SimpleName a
+max SimpleName MethodInvocation SimpleName a
+max SimpleName Assignment MethodInvocation SimpleName math
+max SimpleName Assignment MethodInvocation SimpleName max
+max SimpleName Assignment MethodInvocation SimpleName max
+max SimpleName Assignment MethodInvocation SimpleName a
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add max
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SimpleName add max
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+add max SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+add max SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add max
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add max
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

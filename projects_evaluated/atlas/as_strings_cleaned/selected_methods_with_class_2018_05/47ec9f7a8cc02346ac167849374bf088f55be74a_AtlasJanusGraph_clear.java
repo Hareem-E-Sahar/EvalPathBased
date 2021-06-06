@@ -1,0 +1,23 @@
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+janus graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+graph SimpleName MethodInvocation SimpleName is open
+graph SimpleName MethodInvocation SimpleName close
+janus graph factory SimpleName MethodInvocation SimpleName drop
+janus graph factory SimpleName MethodInvocation SimpleName graph
+drop SimpleName MethodInvocation SimpleName graph
+backend exception SimpleName SimpleType SingleVariableDeclaration SimpleName ignore ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clear
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear
+void PrimitiveType MethodDeclaration SimpleName clear
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear

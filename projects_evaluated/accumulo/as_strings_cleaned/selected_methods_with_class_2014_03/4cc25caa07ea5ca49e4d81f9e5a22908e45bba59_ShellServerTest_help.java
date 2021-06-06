@@ -1,0 +1,124 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+exec SimpleName MethodInvocation StringLiteral help np
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral help commands
+exec SimpleName MethodInvocation BooleanLiteral true
+help np StringLiteral MethodInvocation BooleanLiteral true
+help np StringLiteral MethodInvocation StringLiteral help commands
+help np StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral help commands
+true BooleanLiteral MethodInvocation BooleanLiteral true
+help commands StringLiteral MethodInvocation BooleanLiteral true
+shell SimpleName MethodInvocation SimpleName get reader
+empty StringLiteral MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+shell SimpleName MethodInvocation MethodInvocation SimpleName set input
+get reader SimpleName MethodInvocation MethodInvocation SimpleName set input
+set input SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte array input stream
+set input SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+set input SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+exec SimpleName MethodInvocation StringLiteral ?
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral help commands
+exec SimpleName MethodInvocation BooleanLiteral true
+? StringLiteral MethodInvocation BooleanLiteral true
+? StringLiteral MethodInvocation StringLiteral help commands
+? StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral help commands
+true BooleanLiteral MethodInvocation BooleanLiteral true
+help commands StringLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName c
+bye exit quit StringLiteral InfixExpression StringLiteral about help info ?
+bye exit quit StringLiteral InfixExpression StringLiteral deleteiter deletescaniter listiter setiter setscaniter
+bye exit quit StringLiteral InfixExpression StringLiteral grant revoke systempermissions tablepermissions userpermissions
+bye exit quit StringLiteral InfixExpression StringLiteral execfile history
+bye exit quit StringLiteral InfixExpression StringLiteral authenticate cls clear notable sleep table user whoami
+about help info ? StringLiteral InfixExpression StringLiteral deleteiter deletescaniter listiter setiter setscaniter
+about help info ? StringLiteral InfixExpression StringLiteral grant revoke systempermissions tablepermissions userpermissions
+about help info ? StringLiteral InfixExpression StringLiteral execfile history
+about help info ? StringLiteral InfixExpression StringLiteral authenticate cls clear notable sleep table user whoami
+about help info ? StringLiteral InfixExpression StringLiteral clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression StringLiteral grant revoke systempermissions tablepermissions userpermissions
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression StringLiteral execfile history
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression StringLiteral authenticate cls clear notable sleep table user whoami
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression StringLiteral clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression StringLiteral addsplits compact constraint flush getgropus getsplits merge setgroups
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression StringLiteral execfile history
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression StringLiteral authenticate cls clear notable sleep table user whoami
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression StringLiteral clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression StringLiteral addsplits compact constraint flush getgropus getsplits merge setgroups
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression StringLiteral addauths createuser deleteuser dropuser getauths passwd setauths users
+execfile history StringLiteral InfixExpression StringLiteral authenticate cls clear notable sleep table user whoami
+execfile history StringLiteral InfixExpression StringLiteral clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables
+execfile history StringLiteral InfixExpression StringLiteral addsplits compact constraint flush getgropus getsplits merge setgroups
+execfile history StringLiteral InfixExpression StringLiteral addauths createuser deleteuser dropuser getauths passwd setauths users
+execfile history StringLiteral InfixExpression StringLiteral delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression StringLiteral clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression StringLiteral addsplits compact constraint flush getgropus getsplits merge setgroups
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression StringLiteral addauths createuser deleteuser dropuser getauths passwd setauths users
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression StringLiteral delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan
+clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables StringLiteral InfixExpression StringLiteral addsplits compact constraint flush getgropus getsplits merge setgroups
+clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables StringLiteral InfixExpression StringLiteral addauths createuser deleteuser dropuser getauths passwd setauths users
+clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables StringLiteral InfixExpression StringLiteral delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan
+addsplits compact constraint flush getgropus getsplits merge setgroups StringLiteral InfixExpression StringLiteral addauths createuser deleteuser dropuser getauths passwd setauths users
+addsplits compact constraint flush getgropus getsplits merge setgroups StringLiteral InfixExpression StringLiteral delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan
+addauths createuser deleteuser dropuser getauths passwd setauths users StringLiteral InfixExpression StringLiteral delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan
+bye exit quit StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+about help info ? StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+execfile history StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+addsplits compact constraint flush getgropus getsplits merge setgroups StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+addauths createuser deleteuser dropuser getauths passwd setauths users StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName split
+bye exit quit StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+about help info ? StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+deleteiter deletescaniter listiter setiter setscaniter StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+grant revoke systempermissions tablepermissions userpermissions StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+execfile history StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+authenticate cls clear notable sleep table user whoami StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+clonetable config createtable deletetable droptable du exporttable importtable offline online renametable tables StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+addsplits compact constraint flush getgropus getsplits merge setgroups StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+addauths createuser deleteuser dropuser getauths passwd setauths users StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+delete deletemany deleterows egrep formatter interpreter grep importdirectory insert maxrow scan StringLiteral InfixExpression ParenthesizedExpression MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+help StringLiteral InfixExpression SimpleName c
+exec SimpleName MethodInvocation InfixExpression StringLiteral help
+exec SimpleName MethodInvocation InfixExpression SimpleName c
+exec SimpleName MethodInvocation BooleanLiteral true
+help StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+c SimpleName InfixExpression MethodInvocation BooleanLiteral true
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName help
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName help
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName help
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName help
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName help
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+help SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName help
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName help
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

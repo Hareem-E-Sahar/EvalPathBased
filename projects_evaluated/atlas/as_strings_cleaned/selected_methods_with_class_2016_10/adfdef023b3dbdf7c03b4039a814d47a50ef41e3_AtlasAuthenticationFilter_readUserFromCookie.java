@@ -1,0 +1,148 @@
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName response
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+response SimpleName MethodInvocation SimpleName contains header
+response SimpleName MethodInvocation StringLiteral setcookie
+contains header SimpleName MethodInvocation StringLiteral setcookie
+is cookie set SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+is cookie set SimpleName VariableDeclarationFragment MethodInvocation SimpleName contains header
+is cookie set SimpleName VariableDeclarationFragment MethodInvocation StringLiteral setcookie
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is cookie set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName response
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName contains header
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral setcookie
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+response SimpleName MethodInvocation SimpleName get headers
+response SimpleName MethodInvocation StringLiteral setcookie
+get headers SimpleName MethodInvocation StringLiteral setcookie
+auth user name SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+auth user name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get headers
+auth user name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral setcookie
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+auth user name SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth user name
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cookie
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName cookie
+is empty SimpleName MethodInvocation SimpleName cookie
+cookie SimpleName MethodInvocation SimpleName to lower case
+authenticated urlauth cookie QualifiedName MethodInvocation SimpleName to lower case
+cookie SimpleName MethodInvocation MethodInvocation SimpleName starts with
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName starts with
+cookie SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+cookie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+starts with SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+cookie SimpleName MethodInvocation SimpleName contains
+cookie SimpleName MethodInvocation StringLiteral u
+contains SimpleName MethodInvocation StringLiteral u
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cookie
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral u
+cookie SimpleName MethodInvocation SimpleName split
+cookie SimpleName MethodInvocation StringLiteral 
+split SimpleName MethodInvocation StringLiteral 
+split SimpleName VariableDeclarationFragment MethodInvocation SimpleName cookie
+split SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+split SimpleName VariableDeclarationFragment MethodInvocation StringLiteral 
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName s
+is empty SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName to lower case
+authenticated urlauth cookie QualifiedName MethodInvocation SimpleName to lower case
+s SimpleName MethodInvocation MethodInvocation SimpleName starts with
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName authenticated urlauth cookie
+starts with SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation StringLiteral u
+index of SimpleName MethodInvocation StringLiteral u
+ustr SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+ustr SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+ustr SimpleName VariableDeclarationFragment MethodInvocation StringLiteral u
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ustr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral u
+ustr SimpleName InfixExpression PrefixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation StringLiteral &
+s SimpleName MethodInvocation SimpleName ustr
+index of SimpleName MethodInvocation StringLiteral &
+index of SimpleName MethodInvocation SimpleName ustr
+& StringLiteral MethodInvocation SimpleName ustr
+and str SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+and str SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+and str SimpleName VariableDeclarationFragment MethodInvocation StringLiteral &
+and str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ustr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName and str
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral &
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ustr
+and str SimpleName InfixExpression PrefixExpression NumberLiteral empty
+ustr SimpleName InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation InfixExpression SimpleName ustr
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName and str
+substring SimpleName MethodInvocation InfixExpression SimpleName ustr
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName and str
+ustr SimpleName InfixExpression MethodInvocation SimpleName and str
+empty NumberLiteral InfixExpression MethodInvocation SimpleName and str
+user name SimpleName Assignment MethodInvocation SimpleName s
+user name SimpleName Assignment MethodInvocation SimpleName substring
+user name SimpleName Assignment MethodInvocation InfixExpression SimpleName ustr
+user name SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+user name SimpleName Assignment MethodInvocation SimpleName and str
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName split
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName split
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is cookie set
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName user name
+is cookie set SimpleName IfStatement Block ReturnStatement SimpleName user name
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName read user from cookie
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block IfStatement SimpleName is cookie set
+private Modifier MethodDeclaration Block ReturnStatement SimpleName user name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName read user from cookie
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block IfStatement SimpleName is cookie set
+static Modifier MethodDeclaration Block ReturnStatement SimpleName user name
+string SimpleName SimpleType MethodDeclaration SimpleName read user from cookie
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName response
+read user from cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+read user from cookie SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response
+read user from cookie SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+read user from cookie SimpleName MethodDeclaration Block IfStatement SimpleName is cookie set
+read user from cookie SimpleName MethodDeclaration Block ReturnStatement SimpleName user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read user from cookie
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read user from cookie
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response

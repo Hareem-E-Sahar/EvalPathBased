@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName type name
+get classification type by name SimpleName MethodInvocation SimpleName type name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+type categoryclassification QualifiedName MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName type categoryclassification
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName type name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation QualifiedName type categoryclassification
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation SimpleName type name
+type categoryclassification QualifiedName MethodInvocation ClassInstanceCreation SimpleName type name
+name SimpleName MethodInvocation ClassInstanceCreation SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas classification type
+private Modifier MethodDeclaration SimpleName ensure classification type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification type SimpleName SimpleType MethodDeclaration SimpleName ensure classification type
+atlas classification type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+atlas classification type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+ensure classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ensure classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+ensure classification type SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+ensure classification type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification type
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure classification type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure classification type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,43 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gnu parser
+command line parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName command line
+parser SimpleName MethodInvocation SimpleName parse
+parser SimpleName MethodInvocation SimpleName options
+parser SimpleName MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName options
+parse SimpleName MethodInvocation SimpleName args
+options SimpleName MethodInvocation SimpleName args
+command line SimpleName Assignment MethodInvocation SimpleName parser
+command line SimpleName Assignment MethodInvocation SimpleName parse
+command line SimpleName Assignment MethodInvocation SimpleName options
+command line SimpleName Assignment MethodInvocation SimpleName args
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+could not parse command line options StringLiteral InfixExpression MethodInvocation SimpleName e
+could not parse command line options StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral could not parse command line options
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral could not parse command line options
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+private Modifier MethodDeclaration SimpleType SimpleName command line
+private Modifier MethodDeclaration SimpleName parse command line options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration Block ReturnStatement SimpleName command line
+command line SimpleName SimpleType MethodDeclaration SimpleName parse command line options
+command line SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+parse command line options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+parse command line options SimpleName MethodDeclaration Block ReturnStatement SimpleName command line
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command line
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse command line options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command line
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse command line options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

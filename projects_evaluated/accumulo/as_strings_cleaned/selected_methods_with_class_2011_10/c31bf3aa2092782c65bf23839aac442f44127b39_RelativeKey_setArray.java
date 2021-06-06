@@ -1,0 +1,16 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+data SimpleName FieldAccess Assignment SimpleName data
+offset SimpleName FieldAccess Assignment NumberLiteral empty
+length SimpleName FieldAccess Assignment NumberLiteral empty
+void PrimitiveType MethodDeclaration SimpleName set array
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+set array SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

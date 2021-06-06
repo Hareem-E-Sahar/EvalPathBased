@@ -1,0 +1,59 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+edge direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+edge direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship edge direction
+atlas relationship edge direction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge direction
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+get edges for label SimpleName MethodInvocation SimpleName vertex
+get edges for label SimpleName MethodInvocation SimpleName edge label
+get edges for label SimpleName MethodInvocation SimpleName edge direction
+vertex SimpleName MethodInvocation SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName edge direction
+edge label SimpleName MethodInvocation SimpleName edge direction
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edges for label
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge direction
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+iterator utils SimpleName MethodInvocation SimpleName to list
+iterator utils SimpleName MethodInvocation SimpleName edges for label
+to list SimpleName MethodInvocation SimpleName edges for label
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SimpleName get map values using relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SimpleName get map values using relationship
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get map values using relationship
+atlas edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get map values using relationship
+get map values using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get map values using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get map values using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get map values using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get map values using relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get map values using relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute

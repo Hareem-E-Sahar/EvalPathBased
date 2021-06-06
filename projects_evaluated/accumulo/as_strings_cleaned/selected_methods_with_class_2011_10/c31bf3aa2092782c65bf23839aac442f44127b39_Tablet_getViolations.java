@@ -1,0 +1,7 @@
+violations SimpleName SimpleType MethodDeclaration SimpleName get violations
+get violations SimpleName MethodDeclaration Block ReturnStatement SimpleName violations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName violations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get violations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName violations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get violations

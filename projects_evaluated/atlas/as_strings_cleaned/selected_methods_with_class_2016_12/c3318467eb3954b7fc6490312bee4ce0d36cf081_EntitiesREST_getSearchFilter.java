@@ -1,0 +1,46 @@
+search filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName search filter
+search filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search filter
+http servlet request SimpleName MethodInvocation SimpleName get parameter map
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+http servlet request SimpleName MethodInvocation SimpleName get parameter map
+http servlet request SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get parameter map SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName entry
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get value
+as list SimpleName MethodInvocation MethodInvocation SimpleName entry
+as list SimpleName MethodInvocation MethodInvocation SimpleName get value
+search filter SimpleName MethodInvocation SimpleName set param
+search filter SimpleName MethodInvocation MethodInvocation SimpleName entry
+search filter SimpleName MethodInvocation MethodInvocation SimpleName get key
+search filter SimpleName MethodInvocation MethodInvocation SimpleName arrays
+search filter SimpleName MethodInvocation MethodInvocation SimpleName as list
+search filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+search filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+set param SimpleName MethodInvocation MethodInvocation SimpleName entry
+set param SimpleName MethodInvocation MethodInvocation SimpleName get key
+set param SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set param SimpleName MethodInvocation MethodInvocation SimpleName as list
+set param SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+set param SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration SimpleType SimpleName search filter
+private Modifier MethodDeclaration SimpleName get search filter
+private Modifier MethodDeclaration Block ReturnStatement SimpleName search filter
+search filter SimpleName SimpleType MethodDeclaration SimpleName get search filter
+get search filter SimpleName MethodDeclaration Block ReturnStatement SimpleName search filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName search filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get search filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName search filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get search filter

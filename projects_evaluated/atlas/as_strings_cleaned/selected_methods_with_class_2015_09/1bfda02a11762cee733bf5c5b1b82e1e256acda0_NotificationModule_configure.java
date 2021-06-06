@@ -1,0 +1,44 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification interface
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kafka notification
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+to SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kafka notification
+bind SimpleName MethodInvocation MethodInvocation SimpleName to provider
+to provider SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kafka notification provider
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+to provider SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName service
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+service binder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+service binder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kafka notification
+service binder SimpleName MethodInvocation SimpleName add binding
+service binder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification hook consumer
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

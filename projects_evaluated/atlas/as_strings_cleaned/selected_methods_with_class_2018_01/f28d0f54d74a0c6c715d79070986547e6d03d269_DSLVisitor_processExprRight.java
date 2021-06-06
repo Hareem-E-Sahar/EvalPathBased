@@ -1,0 +1,126 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName expr context
+final Modifier SingleVariableDeclaration SimpleName expr
+expr context SimpleName SimpleType SingleVariableDeclaration SimpleName expr
+gremlin query composer SimpleName SimpleType SingleVariableDeclaration SimpleName gremlin query composer
+gremlin query composer SimpleName MethodInvocation SimpleName create nested processor
+nested processor SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin query composer
+nested processor SimpleName VariableDeclarationFragment MethodInvocation SimpleName create nested processor
+gremlin query composer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+expr SimpleName MethodInvocation SimpleName comp e
+process expr SimpleName MethodInvocation MethodInvocation SimpleName expr
+process expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+process expr SimpleName MethodInvocation SimpleName nested processor
+expr SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+comp e SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+nested processor SimpleName MethodInvocation SimpleName get
+nested queries SimpleName MethodInvocation SimpleName add
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+expr right context SimpleName SimpleType SingleVariableDeclaration SimpleName expr right
+expr SimpleName MethodInvocation SimpleName expr right
+gremlin query composer SimpleName MethodInvocation SimpleName create nested processor
+nested processor SimpleName Assignment MethodInvocation SimpleName gremlin query composer
+nested processor SimpleName Assignment MethodInvocation SimpleName create nested processor
+expr right SimpleName MethodInvocation SimpleName k and
+prev SimpleName Assignment SimpleName and
+or SimpleName MethodInvocation SimpleName equals ignore case
+or SimpleName MethodInvocation SimpleName prev
+equals ignore case SimpleName MethodInvocation SimpleName prev
+nested processor SimpleName MethodInvocation SimpleName create nested processor
+or clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName nested processor
+or clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName create nested processor
+gremlin query composer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName or clause
+or clause SimpleName MethodInvocation SimpleName add or clauses
+or clause SimpleName MethodInvocation SimpleName nested queries
+add or clauses SimpleName MethodInvocation SimpleName nested queries
+nested queries SimpleName MethodInvocation SimpleName clear
+or clause SimpleName MethodInvocation SimpleName get
+nested queries SimpleName MethodInvocation SimpleName add
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName or clause
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName or clause
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+prev SimpleName Assignment SimpleName and
+expr right SimpleName MethodInvocation SimpleName k or
+prev SimpleName Assignment SimpleName or
+and SimpleName MethodInvocation SimpleName equals ignore case
+and SimpleName MethodInvocation SimpleName prev
+equals ignore case SimpleName MethodInvocation SimpleName prev
+nested processor SimpleName MethodInvocation SimpleName create nested processor
+and clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName nested processor
+and clause SimpleName VariableDeclarationFragment MethodInvocation SimpleName create nested processor
+gremlin query composer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName and clause
+and clause SimpleName MethodInvocation SimpleName add and clauses
+and clause SimpleName MethodInvocation SimpleName nested queries
+add and clauses SimpleName MethodInvocation SimpleName nested queries
+nested queries SimpleName MethodInvocation SimpleName clear
+and clause SimpleName MethodInvocation SimpleName get
+nested queries SimpleName MethodInvocation SimpleName add
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName and clause
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName and clause
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+prev SimpleName Assignment SimpleName or
+expr right SimpleName MethodInvocation SimpleName comp e
+process expr SimpleName MethodInvocation MethodInvocation SimpleName expr right
+process expr SimpleName MethodInvocation MethodInvocation SimpleName comp e
+process expr SimpleName MethodInvocation SimpleName nested processor
+expr right SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+comp e SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+nested processor SimpleName MethodInvocation SimpleName get
+nested queries SimpleName MethodInvocation SimpleName add
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+nested queries SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName nested processor
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+expr right SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName expr
+expr right SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName expr right
+and SimpleName MethodInvocation SimpleName equals ignore case
+and SimpleName MethodInvocation SimpleName prev
+equals ignore case SimpleName MethodInvocation SimpleName prev
+gremlin query composer SimpleName MethodInvocation SimpleName add and clauses
+gremlin query composer SimpleName MethodInvocation SimpleName nested queries
+add and clauses SimpleName MethodInvocation SimpleName nested queries
+or SimpleName MethodInvocation SimpleName equals ignore case
+or SimpleName MethodInvocation SimpleName prev
+equals ignore case SimpleName MethodInvocation SimpleName prev
+gremlin query composer SimpleName MethodInvocation SimpleName add or clauses
+gremlin query composer SimpleName MethodInvocation SimpleName nested queries
+add or clauses SimpleName MethodInvocation SimpleName nested queries
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process expr right
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName expr context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expr
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin query composer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+void PrimitiveType MethodDeclaration SimpleName process expr right
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName expr context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin query composer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+process expr right SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+process expr right SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName expr context
+process expr right SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expr
+process expr right SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin query composer
+process expr right SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+expr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process expr right
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process expr right
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query composer

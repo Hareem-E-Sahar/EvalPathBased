@@ -1,0 +1,27 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SimpleName import legacy graph son
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+import legacy graph son SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+import legacy graph son SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+import legacy graph son SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+import legacy graph son SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+import legacy graph son SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import legacy graph son
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import legacy graph son
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

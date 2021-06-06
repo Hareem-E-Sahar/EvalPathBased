@@ -1,0 +1,74 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+boolean PrimitiveType SingleVariableDeclaration SimpleName force
+log SimpleName MethodInvocation SimpleName is debug enabled
+graph helper SimpleName MethodInvocation SimpleName string
+graph helper SimpleName MethodInvocation SimpleName edge
+string SimpleName MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> hard delete handler v delete edge {})
+log SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName force
+debug SimpleName MethodInvocation StringLiteral ==> hard delete handler v delete edge {})
+debug SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName edge
+debug SimpleName MethodInvocation SimpleName force
+==> hard delete handler v delete edge {}) StringLiteral MethodInvocation MethodInvocation SimpleName graph helper
+==> hard delete handler v delete edge {}) StringLiteral MethodInvocation MethodInvocation SimpleName string
+==> hard delete handler v delete edge {}) StringLiteral MethodInvocation MethodInvocation SimpleName edge
+==> hard delete handler v delete edge {}) StringLiteral MethodInvocation SimpleName force
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName force
+string SimpleName MethodInvocation MethodInvocation SimpleName force
+edge SimpleName MethodInvocation MethodInvocation SimpleName force
+remove tag propagation SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName remove edge
+graph helper SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName force
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName force
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName force
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName force
+delete edge SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+force SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

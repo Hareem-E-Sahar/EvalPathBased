@@ -1,0 +1,24 @@
+long PrimitiveType SingleVariableDeclaration SimpleName max size
+max size SimpleName FieldAccess Assignment SimpleName max size
+size SimpleName FieldAccess MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName acceptable size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set max size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max size
+void PrimitiveType MethodDeclaration SimpleName set max size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max size
+set max size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set max size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set max size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set max size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max size

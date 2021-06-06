@@ -1,0 +1,109 @@
+depends on methods SimpleName MemberValuePair StringLiteral test delete entities
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test delete entities
+hr dept guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hr dept graph
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName hr dept guid
+get entity definition SimpleName MethodInvocation SimpleName hr dept guid
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+hr dept SimpleName MethodInvocation SimpleName get
+hr dept SimpleName MethodInvocation StringLiteral employees
+get SimpleName MethodInvocation StringLiteral employees
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ref value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral employees
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value
+ref value SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+object SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+employees SimpleName VariableDeclarationFragment CastExpression SimpleName ref value
+employees SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+employees SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+employees SimpleName MethodInvocation SimpleName get
+employees SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+list value SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees
+list value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+list value SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list value
+list value SimpleName InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName list value
+employee SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed referenceable instance
+employee SimpleName VariableDeclarationFragment CastExpression SimpleName list value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employee
+employee SimpleName MethodInvocation SimpleName get id
+employee SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+employee guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName employee
+employee guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+employee guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employee guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName delete entities
+repository service SimpleName MethodInvocation SimpleName employee guid
+delete entities SimpleName MethodInvocation SimpleName employee guid
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee guid
+deleted entities SimpleName MethodInvocation SimpleName contains
+deleted entities SimpleName MethodInvocation SimpleName employee guid
+contains SimpleName MethodInvocation SimpleName employee guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName employee guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName employee guid
+verify entity does not exist SimpleName MethodInvocation SimpleName employee guid
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test delete entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test delete entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete contained entity
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete contained entity
+test delete entities StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete contained entity
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete contained entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete contained entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete contained entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete contained entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete contained entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

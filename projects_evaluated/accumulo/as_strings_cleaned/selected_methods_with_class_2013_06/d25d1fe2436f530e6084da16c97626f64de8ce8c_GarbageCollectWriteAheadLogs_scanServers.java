@@ -1,0 +1,125 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+server constants SimpleName MethodInvocation SimpleName get wal directory
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get wal directory
+wal root SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+wal root SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName server constants
+wal root SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get wal directory
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wal root
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName wal root
+list status SimpleName MethodInvocation SimpleName wal root
+status SimpleName MethodInvocation SimpleName get path
+status SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+status SimpleName MethodInvocation SimpleName is dir
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName file
+path SimpleName SimpleType ClassInstanceCreation SimpleName wal root
+path SimpleName SimpleType ClassInstanceCreation SimpleName name
+wal root SimpleName ClassInstanceCreation SimpleName name
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName wal root
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName name
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleName wal root
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleName name
+file SimpleName MethodInvocation SimpleName get path
+file SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+is uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+is uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+is uuid SimpleName MethodInvocation MethodInvocation SimpleName get name
+file SimpleName MethodInvocation SimpleName get path
+file SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+file to server map SimpleName MethodInvocation SimpleName put
+file to server map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+file to server map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+file to server map SimpleName MethodInvocation MethodInvocation SimpleName get name
+file to server map SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName name
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get name SimpleName MethodInvocation MethodInvocation SimpleName name
+file SimpleName MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName file
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression StringLiteral because it doesnt look like a uuid
+file SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+get path SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+info SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list status
+is uuid SimpleName MethodInvocation SimpleName name
+file to server map SimpleName MethodInvocation SimpleName put
+file to server map SimpleName MethodInvocation SimpleName name
+file to server map SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral empty
+name SimpleName MethodInvocation StringLiteral empty
+ignoring file StringLiteral InfixExpression SimpleName name
+ignoring file StringLiteral InfixExpression StringLiteral because it doesnt look like a uuid
+name SimpleName InfixExpression StringLiteral because it doesnt look like a uuid
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+info SimpleName MethodInvocation InfixExpression SimpleName name
+info SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+status SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+status SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list status
+status SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName wal root
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName scan servers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName count
+int PrimitiveType MethodDeclaration SimpleName scan servers
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName count
+scan servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+scan servers SimpleName MethodDeclaration SimpleType SimpleName exception
+scan servers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+scan servers SimpleName MethodDeclaration Block ReturnStatement SimpleName count
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName scan servers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName scan servers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

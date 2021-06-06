@@ -1,0 +1,19 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+range SimpleName FieldAccess Assignment SimpleName range
+public Modifier MethodDeclaration SimpleType SimpleName split range by tablets args
+public Modifier MethodDeclaration SimpleName set range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+split range by tablets args SimpleName SimpleType MethodDeclaration SimpleName set range
+split range by tablets args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName range
+set range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+set range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName split range by tablets args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName split range by tablets args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range

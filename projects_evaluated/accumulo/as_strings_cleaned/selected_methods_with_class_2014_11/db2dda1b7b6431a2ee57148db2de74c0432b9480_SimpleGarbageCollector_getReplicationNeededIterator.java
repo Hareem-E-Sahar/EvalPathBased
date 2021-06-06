@@ -1,0 +1,133 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+credentials SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get token
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get principal
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName credentials
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get principal
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName credentials
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get token
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+replication table SimpleName MethodInvocation SimpleName get scanner
+replication table SimpleName MethodInvocation SimpleName conn
+get scanner SimpleName MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication table
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName s
+limit SimpleName MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName iterator
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName status
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+input SimpleName MethodInvocation SimpleName get key
+input SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+input SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stat
+input SimpleName MethodInvocation SimpleName get value
+input SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+stat SimpleName Assignment MethodInvocation SimpleName status
+stat SimpleName Assignment MethodInvocation SimpleName parse from
+stat SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+invalid protocol buffer exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+input SimpleName MethodInvocation SimpleName get key
+could not deserialize protobuf for StringLiteral InfixExpression MethodInvocation SimpleName input
+could not deserialize protobuf for StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral could not deserialize protobuf for
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName input
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+warn SimpleName MethodInvocation InfixExpression StringLiteral could not deserialize protobuf for
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName input
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+maps SimpleName MethodInvocation SimpleName immutable entry
+maps SimpleName MethodInvocation SimpleName file
+maps SimpleName MethodInvocation SimpleName stat
+immutable entry SimpleName MethodInvocation SimpleName file
+immutable entry SimpleName MethodInvocation SimpleName stat
+file SimpleName MethodInvocation SimpleName stat
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entry
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+status SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+iterators SimpleName MethodInvocation SimpleName transform
+iterators SimpleName MethodInvocation MethodInvocation SimpleName s
+iterators SimpleName MethodInvocation MethodInvocation SimpleName iterator
+transform SimpleName MethodInvocation MethodInvocation SimpleName s
+transform SimpleName MethodInvocation MethodInvocation SimpleName iterator
+replication table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+iterators SimpleName MethodInvocation SimpleName empty iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get replication needed iterator
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName get replication needed iterator
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get replication needed iterator
+get replication needed iterator SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get replication needed iterator SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get replication needed iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get replication needed iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,79 @@
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName seq
+int PrimitiveType SingleVariableDeclaration SimpleName num bytes
+num bytes SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName num bytes
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+bytes SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName num bytes
+bytes SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+bytes SimpleName ArrayAccess NumberLiteral empty
+bytes SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num bytes
+seq SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName seq
+i SimpleName InfixExpression MethodInvocation SimpleName length
+i SimpleName InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression SimpleName i
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess Assignment NumberLiteral empty
+i SimpleName InfixExpression ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral InfixExpression ArrayAccess Assignment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+bytes SimpleName ArrayAccess InfixExpression SimpleName i
+bytes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+seq SimpleName MethodInvocation SimpleName byte at
+seq SimpleName MethodInvocation SimpleName i
+byte at SimpleName MethodInvocation SimpleName i
+bytes SimpleName ArrayAccess Assignment MethodInvocation SimpleName seq
+bytes SimpleName ArrayAccess Assignment MethodInvocation SimpleName byte at
+bytes SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num bytes
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num bytes SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SimpleName extract bytes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName seq
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName extract bytes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName seq
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+static Modifier MethodDeclaration Block ReturnStatement SimpleName bytes
+byte PrimitiveType ArrayType MethodDeclaration SimpleName extract bytes
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName seq
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+extract bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+extract bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seq
+extract bytes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+extract bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+extract bytes SimpleName MethodDeclaration Block ReturnStatement SimpleName bytes
+seq SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+seq SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seq
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num bytes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seq
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num bytes

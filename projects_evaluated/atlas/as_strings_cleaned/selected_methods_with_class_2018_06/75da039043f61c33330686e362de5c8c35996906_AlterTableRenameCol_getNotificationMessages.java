@@ -1,0 +1,201 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+is empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral alter table rename col oldtable not found in inputs list
+error SimpleName MethodInvocation StringLiteral alter table rename col oldtable not found in inputs list
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+is empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive context
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral alter table rename col newtable not found in outputs list
+error SimpleName MethodInvocation StringLiteral alter table rename col newtable not found in outputs list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+base msgs SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get notification messages
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName base msgs
+is empty SimpleName MethodInvocation SimpleName base msgs
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipped processing of columnrename on a temporary table
+debug SimpleName MethodInvocation StringLiteral skipped processing of columnrename on a temporary table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hook notification
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName base msgs
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName base msgs
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get inputs
+get hive context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get inputs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get inputs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+next SimpleName MethodInvocation MethodInvocation SimpleName get table
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+get hive context SimpleName MethodInvocation MethodInvocation SimpleName get outputs
+get hive context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get outputs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get outputs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+next SimpleName MethodInvocation MethodInvocation SimpleName get table
+new table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+new table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+new table SimpleName MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation SimpleName get table name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName new table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName new table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get hive
+new table SimpleName Assignment MethodInvocation SimpleName get table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get db name
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName new table
+new table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName field schema
+old table SimpleName MethodInvocation SimpleName get cols
+old columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName old table
+old columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cols
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName field schema
+new table SimpleName MethodInvocation SimpleName get cols
+new columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table
+new columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cols
+field schema SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName changed column old
+field schema SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName changed column new
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName old column
+new columns SimpleName MethodInvocation SimpleName contains
+new columns SimpleName MethodInvocation SimpleName old column
+contains SimpleName MethodInvocation SimpleName old column
+changed column old SimpleName Assignment SimpleName old column
+field schema SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName old columns
+old column SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName old columns
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName new column
+old columns SimpleName MethodInvocation SimpleName contains
+old columns SimpleName MethodInvocation SimpleName new column
+contains SimpleName MethodInvocation SimpleName new column
+changed column new SimpleName Assignment SimpleName new column
+field schema SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new columns
+new column SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new columns
+changed column old SimpleName InfixExpression InfixExpression InfixExpression SimpleName changed column new
+get qualified name SimpleName MethodInvocation SimpleName old table
+get qualified name SimpleName MethodInvocation SimpleName changed column old
+old table SimpleName MethodInvocation SimpleName changed column old
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName hive type column
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName attribute qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get qualified name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName old table
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName changed column old
+hive type column SimpleName ClassInstanceCreation SimpleName attribute qualified name
+hive type column SimpleName ClassInstanceCreation MethodInvocation SimpleName get qualified name
+hive type column SimpleName ClassInstanceCreation MethodInvocation SimpleName old table
+hive type column SimpleName ClassInstanceCreation MethodInvocation SimpleName changed column old
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName get qualified name
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName old table
+attribute qualified name SimpleName ClassInstanceCreation MethodInvocation SimpleName changed column old
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive type column
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attribute qualified name
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get qualified name
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName old table
+old column id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName changed column old
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old column id
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName hive type column
+new column SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+new column SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive type column
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new column
+changed column new SimpleName MethodInvocation SimpleName get name
+new column SimpleName MethodInvocation SimpleName set attribute
+new column SimpleName MethodInvocation SimpleName attribute name
+new column SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+new column SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName get name
+get qualified name SimpleName MethodInvocation SimpleName new table
+get qualified name SimpleName MethodInvocation SimpleName changed column new
+new table SimpleName MethodInvocation SimpleName changed column new
+new column SimpleName MethodInvocation SimpleName set attribute
+new column SimpleName MethodInvocation SimpleName attribute qualified name
+new column SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+new column SimpleName MethodInvocation MethodInvocation SimpleName new table
+new column SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+set attribute SimpleName MethodInvocation SimpleName attribute qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName new table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName new table
+attribute qualified name SimpleName MethodInvocation MethodInvocation SimpleName changed column new
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName new column
+entity partial update request v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user name
+entity partial update request v SimpleName SimpleType ClassInstanceCreation SimpleName old column id
+entity partial update request v SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName new column
+get user name SimpleName MethodInvocation ClassInstanceCreation SimpleName old column id
+get user name SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new column
+old column id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+old column id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName new column
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName old column id
+ret SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new column
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName old column id
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new column
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName entity partial update request v
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user name
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleName old column id
+empty NumberLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName new column
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral alter table rename col no renamed column detected
+error SimpleName MethodInvocation StringLiteral alter table rename col no renamed column detected
+old columns SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName new columns
+old columns SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+new columns SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get notification messages
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hook notification
+public Modifier MethodDeclaration SimpleName get notification messages
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName old columns
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName new columns
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get notification messages
+hook notification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get notification messages
+get notification messages SimpleName MethodDeclaration SimpleType SimpleName exception
+get notification messages SimpleName MethodDeclaration Block EnhancedForStatement SimpleName old columns
+get notification messages SimpleName MethodDeclaration Block EnhancedForStatement SimpleName new columns
+get notification messages SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get notification messages
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get notification messages
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

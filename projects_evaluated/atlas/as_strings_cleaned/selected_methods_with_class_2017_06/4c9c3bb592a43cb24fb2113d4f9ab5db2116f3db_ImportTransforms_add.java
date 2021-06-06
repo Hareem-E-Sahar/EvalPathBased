@@ -1,0 +1,76 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+import transformer SimpleName SimpleType SingleVariableDeclaration SimpleName transformer
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName import transformer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+transforms SimpleName MethodInvocation SimpleName contains key
+transforms SimpleName MethodInvocation SimpleName type name
+contains key SimpleName MethodInvocation SimpleName type name
+transforms SimpleName MethodInvocation SimpleName get
+transforms SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+attr map SimpleName Assignment MethodInvocation SimpleName transforms
+attr map SimpleName Assignment MethodInvocation SimpleName get
+attr map SimpleName Assignment MethodInvocation SimpleName type name
+transforms SimpleName MethodInvocation SimpleName put
+transforms SimpleName MethodInvocation SimpleName type name
+transforms SimpleName MethodInvocation SimpleName attr map
+put SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName attr map
+type name SimpleName MethodInvocation SimpleName attr map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName import transformer
+attr map SimpleName MethodInvocation SimpleName contains key
+attr map SimpleName MethodInvocation SimpleName attribute name
+contains key SimpleName MethodInvocation SimpleName attribute name
+attr map SimpleName MethodInvocation SimpleName get
+attr map SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+list SimpleName Assignment MethodInvocation SimpleName attr map
+list SimpleName Assignment MethodInvocation SimpleName get
+list SimpleName Assignment MethodInvocation SimpleName attribute name
+attr map SimpleName MethodInvocation SimpleName put
+attr map SimpleName MethodInvocation SimpleName attribute name
+attr map SimpleName MethodInvocation SimpleName list
+put SimpleName MethodInvocation SimpleName attribute name
+put SimpleName MethodInvocation SimpleName list
+attribute name SimpleName MethodInvocation SimpleName list
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName transformer
+add SimpleName MethodInvocation SimpleName transformer
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName import transformer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName transformer
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName import transformer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName transformer
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName import transformer
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transformer
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transformer

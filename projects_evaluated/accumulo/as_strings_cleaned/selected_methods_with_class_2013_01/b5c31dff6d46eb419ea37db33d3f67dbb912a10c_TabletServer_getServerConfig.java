@@ -1,0 +1,44 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get file system
+public Modifier MethodDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SimpleName get file system
+public Modifier MethodDeclaration Block ReturnStatement SimpleName fs
+file system SimpleName SimpleType MethodDeclaration SimpleName get file system
+get file system SimpleName MethodDeclaration Block ReturnStatement SimpleName fs
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get current t servers
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t server instance
+public Modifier MethodDeclaration SimpleName get current t servers
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current t servers
+t server instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current t servers
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo configuration
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SimpleName get configuration
+accumulo configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get current t servers
+get file system SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get file system SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get current t servers
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+get file system SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get file system SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+get current t servers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get current t servers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+public Modifier MethodDeclaration SimpleType QualifiedName dfs loggerserver resources
+public Modifier MethodDeclaration SimpleName get server config
+dfs loggerserver resources QualifiedName SimpleType MethodDeclaration SimpleName get server config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName dfs loggerserver resources
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName dfs loggerserver resources
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server config

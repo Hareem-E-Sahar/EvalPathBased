@@ -1,0 +1,23 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entities SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+entities SimpleName MethodInvocation SimpleName add entity
+entities SimpleName MethodInvocation SimpleName entity
+add entity SimpleName MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName add entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

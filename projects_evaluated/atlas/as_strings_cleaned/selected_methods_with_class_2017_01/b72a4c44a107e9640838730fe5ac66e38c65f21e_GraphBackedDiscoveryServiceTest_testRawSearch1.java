@@ -1,0 +1,260 @@
+discovery service SimpleName MethodInvocation SimpleName search by gremlin
+discovery service SimpleName MethodInvocation StringLiteral gvto list
+search by gremlin SimpleName MethodInvocation StringLiteral gvto list
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by gremlin
+r SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gvto list
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName r
+result list SimpleName VariableDeclarationFragment CastExpression SimpleName r
+result list SimpleName MethodInvocation SimpleName size
+result list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+gvfilterit StringLiteral InfixExpression QualifiedName constantsentity type property key
+gvfilterit StringLiteral InfixExpression StringLiteral == departmentto list
+constantsentity type property key QualifiedName InfixExpression StringLiteral == departmentto list
+discovery service SimpleName MethodInvocation SimpleName search by gremlin
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+discovery service SimpleName MethodInvocation InfixExpression QualifiedName constantsentity type property key
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral == departmentto list
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+search by gremlin SimpleName MethodInvocation InfixExpression QualifiedName constantsentity type property key
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral == departmentto list
+r SimpleName Assignment MethodInvocation SimpleName discovery service
+r SimpleName Assignment MethodInvocation SimpleName search by gremlin
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral gvfilterit
+r SimpleName Assignment MethodInvocation InfixExpression QualifiedName constantsentity type property key
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral == departmentto list
+r SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName r
+result list SimpleName Assignment CastExpression SimpleName r
+result list SimpleName MethodInvocation SimpleName size
+result list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+gvfilterit StringLiteral InfixExpression QualifiedName constantsentity type property key
+gvfilterit StringLiteral InfixExpression StringLiteral == personpersonnameto list
+constantsentity type property key QualifiedName InfixExpression StringLiteral == personpersonnameto list
+discovery service SimpleName MethodInvocation SimpleName search by gremlin
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+discovery service SimpleName MethodInvocation InfixExpression QualifiedName constantsentity type property key
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral == personpersonnameto list
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+search by gremlin SimpleName MethodInvocation InfixExpression QualifiedName constantsentity type property key
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral == personpersonnameto list
+r SimpleName Assignment MethodInvocation SimpleName discovery service
+r SimpleName Assignment MethodInvocation SimpleName search by gremlin
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral gvfilterit
+r SimpleName Assignment MethodInvocation InfixExpression QualifiedName constantsentity type property key
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral == personpersonnameto list
+r SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName r
+result list SimpleName Assignment CastExpression SimpleName r
+result list SimpleName MethodInvocation SimpleName size
+result list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+result list SimpleName MethodInvocation SimpleName size
+names SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName result list
+names SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+vertex props SimpleName MethodInvocation SimpleName values
+names SimpleName MethodInvocation SimpleName add all
+names SimpleName MethodInvocation MethodInvocation SimpleName vertex props
+names SimpleName MethodInvocation MethodInvocation SimpleName values
+add all SimpleName MethodInvocation MethodInvocation SimpleName vertex props
+add all SimpleName MethodInvocation MethodInvocation SimpleName values
+vertex props SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName result list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation StringLiteral john
+arrays SimpleName MethodInvocation StringLiteral max
+as list SimpleName MethodInvocation StringLiteral john
+as list SimpleName MethodInvocation StringLiteral max
+john StringLiteral MethodInvocation StringLiteral max
+names SimpleName MethodInvocation SimpleName contains
+names SimpleName MethodInvocation SimpleName name
+contains SimpleName MethodInvocation SimpleName name
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral john
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral max
+gvfilterit StringLiteral InfixExpression QualifiedName constantsmodification timestamp property key
+gvfilterit StringLiteral InfixExpression StringLiteral > to list
+constantsmodification timestamp property key QualifiedName InfixExpression StringLiteral > to list
+discovery service SimpleName MethodInvocation SimpleName search by gremlin
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+discovery service SimpleName MethodInvocation InfixExpression QualifiedName constantsmodification timestamp property key
+discovery service SimpleName MethodInvocation InfixExpression StringLiteral > to list
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral gvfilterit
+search by gremlin SimpleName MethodInvocation InfixExpression QualifiedName constantsmodification timestamp property key
+search by gremlin SimpleName MethodInvocation InfixExpression StringLiteral > to list
+r SimpleName Assignment MethodInvocation SimpleName discovery service
+r SimpleName Assignment MethodInvocation SimpleName search by gremlin
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral gvfilterit
+r SimpleName Assignment MethodInvocation InfixExpression QualifiedName constantsmodification timestamp property key
+r SimpleName Assignment MethodInvocation InfixExpression StringLiteral > to list
+r SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName r
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName r
+result list SimpleName Assignment CastExpression SimpleName r
+result list SimpleName MethodInvocation SimpleName size
+result list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName result list
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex props
+vertex props SimpleName MethodInvocation SimpleName get
+vertex props SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+get SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex props
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmodification timestamp property key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object
+assert not null SimpleName MethodInvocation SimpleName object
+string SimpleName SimpleType CastExpression SimpleName object
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+long SimpleName MethodInvocation CastExpression SimpleName object
+value of SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+value of SimpleName MethodInvocation CastExpression SimpleName object
+timestamp as long SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+timestamp as long SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+timestamp as long SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName object
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName timestamp as long
+timestamp as long SimpleName InfixExpression NumberLiteral l
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression SimpleName timestamp as long
+assert SimpleName MethodInvocation InfixExpression NumberLiteral l
+assert true SimpleName MethodInvocation InfixExpression SimpleName timestamp as long
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral l
+vertex props SimpleName MethodInvocation SimpleName get
+vertex props SimpleName MethodInvocation QualifiedName constantstimestamp property key
+get SimpleName MethodInvocation QualifiedName constantstimestamp property key
+object SimpleName Assignment MethodInvocation SimpleName vertex props
+object SimpleName Assignment MethodInvocation SimpleName get
+object SimpleName Assignment MethodInvocation QualifiedName constantstimestamp property key
+assert not null SimpleName MethodInvocation SimpleName object
+vertex props SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName result list
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test raw search
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test raw search
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName result list
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName result list
+void PrimitiveType MethodDeclaration SimpleName test raw search
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName result list
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName result list
+test raw search SimpleName MethodDeclaration SimpleType SimpleName exception
+test raw search SimpleName MethodDeclaration Block EnhancedForStatement SimpleName result list
+test raw search SimpleName MethodDeclaration Block EnhancedForStatement SimpleName result list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test raw search
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test raw search
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

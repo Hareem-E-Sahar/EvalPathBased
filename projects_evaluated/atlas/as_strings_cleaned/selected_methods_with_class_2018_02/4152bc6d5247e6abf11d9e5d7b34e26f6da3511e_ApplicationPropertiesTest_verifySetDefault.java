@@ -1,0 +1,78 @@
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation StringLiteral testproperties
+get SimpleName MethodInvocation StringLiteral testproperties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+props SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testproperties
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+application properties SimpleName SimpleType CastExpression SimpleName props
+a props SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName application properties
+a props SimpleName VariableDeclarationFragment CastExpression SimpleName props
+application properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a props
+default value SimpleName VariableDeclarationFragment StringLiteral some value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral some value
+some key SimpleName VariableDeclarationFragment StringLiteral some key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName some key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral some key
+abstract mapsimple entry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+abstract mapsimple entry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+abstract mapsimple entry QualifiedName SimpleType ParameterizedType ClassInstanceCreation SimpleName some key
+abstract mapsimple entry QualifiedName SimpleType ParameterizedType ClassInstanceCreation SimpleName default value
+some key SimpleName ClassInstanceCreation SimpleName default value
+default kv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName some key
+default kv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName default value
+a props SimpleName MethodInvocation SimpleName set default
+a props SimpleName MethodInvocation SimpleName default kv
+a props SimpleName MethodInvocation StringLiteral new value
+set default SimpleName MethodInvocation SimpleName default kv
+set default SimpleName MethodInvocation StringLiteral new value
+default kv SimpleName MethodInvocation StringLiteral new value
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName some key
+get string SimpleName MethodInvocation SimpleName some key
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName props
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName some key
+assert not equals SimpleName MethodInvocation SimpleName default value
+props SimpleName MethodInvocation MethodInvocation SimpleName default value
+get string SimpleName MethodInvocation MethodInvocation SimpleName default value
+some key SimpleName MethodInvocation MethodInvocation SimpleName default value
+a props SimpleName MethodInvocation SimpleName set default
+a props SimpleName MethodInvocation SimpleName default kv
+a props SimpleName MethodInvocation StringLiteral empty
+set default SimpleName MethodInvocation SimpleName default kv
+set default SimpleName MethodInvocation StringLiteral empty
+default kv SimpleName MethodInvocation StringLiteral empty
+props SimpleName MethodInvocation SimpleName get string
+props SimpleName MethodInvocation SimpleName some key
+get string SimpleName MethodInvocation SimpleName some key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName props
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName some key
+assert equals SimpleName MethodInvocation SimpleName default value
+props SimpleName MethodInvocation MethodInvocation SimpleName default value
+get string SimpleName MethodInvocation MethodInvocation SimpleName default value
+some key SimpleName MethodInvocation MethodInvocation SimpleName default value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName verify set default
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify set default
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName verify set default
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+verify set default SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify set default
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify set default
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

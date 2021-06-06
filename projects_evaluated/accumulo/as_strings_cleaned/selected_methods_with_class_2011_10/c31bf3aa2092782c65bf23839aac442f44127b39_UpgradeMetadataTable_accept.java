@@ -1,0 +1,25 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName get name
+path SimpleName MethodInvocation MethodInvocation SimpleName matches
+get name SimpleName MethodInvocation MethodInvocation SimpleName matches
+path SimpleName MethodInvocation MethodInvocation StringLiteral d dmap
+get name SimpleName MethodInvocation MethodInvocation StringLiteral d dmap
+matches SimpleName MethodInvocation StringLiteral d dmap
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName accept
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration SimpleName accept
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName accept
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName accept
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

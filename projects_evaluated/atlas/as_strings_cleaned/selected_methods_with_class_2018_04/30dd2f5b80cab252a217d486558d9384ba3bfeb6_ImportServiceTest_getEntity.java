@@ -1,0 +1,30 @@
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName header
+header SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName get by id
+entity store SimpleName MethodInvocation MethodInvocation SimpleName header
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get by id SimpleName MethodInvocation MethodInvocation SimpleName header
+get by id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+private Modifier MethodDeclaration SimpleType QualifiedName atlas entityatlas entity with ext info
+private Modifier MethodDeclaration SimpleName get entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName header
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entityatlas entity with ext info QualifiedName SimpleType MethodDeclaration SimpleName get entity
+atlas entityatlas entity with ext info QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName header
+atlas entityatlas entity with ext info QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName header
+get entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+header SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entityatlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entityatlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

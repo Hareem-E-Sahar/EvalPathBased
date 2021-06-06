@@ -1,0 +1,12 @@
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get session
+final Modifier MethodDeclaration Block ReturnStatement SimpleName tserver session
+string SimpleName SimpleType MethodDeclaration SimpleName get session
+get session SimpleName MethodDeclaration Block ReturnStatement SimpleName tserver session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session

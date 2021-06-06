@@ -1,0 +1,18 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleName put
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+put SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

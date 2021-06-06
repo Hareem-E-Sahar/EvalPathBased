@@ -1,0 +1,39 @@
+system SimpleName MethodInvocation SimpleName get security manager
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security manager
+security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName check permission
+sm SimpleName MethodInvocation SimpleName transport pool permission
+check permission SimpleName MethodInvocation SimpleName transport pool permission
+daemon started SimpleName MethodInvocation SimpleName compare and set
+daemon started SimpleName MethodInvocation BooleanLiteral false
+daemon started SimpleName MethodInvocation BooleanLiteral true
+compare and set SimpleName MethodInvocation BooleanLiteral false
+compare and set SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+closer SimpleName SimpleType ClassInstanceCreation SimpleName instance
+daemon SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName instance
+daemon SimpleName SimpleType ClassInstanceCreation StringLiteral thrift connection pool checker
+closer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral thrift connection pool checker
+instance SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral thrift connection pool checker
+daemon SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName start
+thrift connection pool checker StringLiteral ClassInstanceCreation MethodInvocation SimpleName start
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName thrift transport pool
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration Block ReturnStatement SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName thrift transport pool
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration Block ReturnStatement SimpleName instance
+thrift transport pool SimpleName SimpleType MethodDeclaration SimpleName get instance
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift transport pool
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift transport pool
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance

@@ -1,0 +1,75 @@
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName class type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+class types to test SimpleName MethodInvocation SimpleName entry set
+type entry SimpleName MethodInvocation SimpleName get key
+type cache SimpleName MethodInvocation SimpleName is cached in memory
+type cache SimpleName MethodInvocation MethodInvocation SimpleName type entry
+type cache SimpleName MethodInvocation MethodInvocation SimpleName get key
+is cached in memory SimpleName MethodInvocation MethodInvocation SimpleName type entry
+is cached in memory SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert false SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+type entry SimpleName MethodInvocation SimpleName get key
+type cache SimpleName MethodInvocation SimpleName has
+type cache SimpleName MethodInvocation MethodInvocation SimpleName type entry
+type cache SimpleName MethodInvocation MethodInvocation SimpleName get key
+has SimpleName MethodInvocation MethodInvocation SimpleName type entry
+has SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert SimpleName MethodInvocation MethodInvocation SimpleName has
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+type entry SimpleName MethodInvocation SimpleName get key
+type cache SimpleName MethodInvocation SimpleName is cached in memory
+type cache SimpleName MethodInvocation MethodInvocation SimpleName type entry
+type cache SimpleName MethodInvocation MethodInvocation SimpleName get key
+is cached in memory SimpleName MethodInvocation MethodInvocation SimpleName type entry
+is cached in memory SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName type cache
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type entry
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+type entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName class types to test
+type entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test has class type
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test has class type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test has class type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test has class type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test has class type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test has class type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

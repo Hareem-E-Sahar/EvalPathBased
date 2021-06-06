@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName steward
+steward SimpleName FieldAccess Assignment SimpleName steward
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set steward
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName steward
+void PrimitiveType MethodDeclaration SimpleName set steward
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName steward
+set steward SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set steward SimpleName MethodDeclaration SingleVariableDeclaration SimpleName steward
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set steward
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName steward
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set steward
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName steward

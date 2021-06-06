@@ -1,0 +1,59 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+atlas struct def store v SimpleName MethodInvocation SimpleName update vertex pre create
+atlas struct def store v SimpleName MethodInvocation SimpleName struct def
+atlas struct def store v SimpleName MethodInvocation SimpleName struct type
+atlas struct def store v SimpleName MethodInvocation SimpleName vertex
+update vertex pre create SimpleName MethodInvocation SimpleName struct def
+update vertex pre create SimpleName MethodInvocation SimpleName struct type
+update vertex pre create SimpleName MethodInvocation SimpleName vertex
+struct def SimpleName MethodInvocation SimpleName struct type
+struct def SimpleName MethodInvocation SimpleName vertex
+struct type SimpleName MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update vertex pre update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName update vertex pre update
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName update vertex pre update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update vertex pre update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update vertex pre update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update vertex pre update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

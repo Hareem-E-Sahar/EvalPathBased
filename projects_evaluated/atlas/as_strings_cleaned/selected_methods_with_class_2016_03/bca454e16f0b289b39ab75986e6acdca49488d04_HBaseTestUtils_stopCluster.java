@@ -1,0 +1,26 @@
+hbase test utility SimpleName MethodInvocation SimpleName get connection
+hbase test utility SimpleName MethodInvocation MethodInvocation SimpleName close
+get connection SimpleName MethodInvocation MethodInvocation SimpleName close
+hbase cluster SimpleName MethodInvocation SimpleName shutdown
+hbase test utility SimpleName MethodInvocation SimpleName shutdown mini zk cluster
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName stop cluster
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName stop cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+stop cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

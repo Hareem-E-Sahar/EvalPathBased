@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def summary
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def summaries
+type def summary SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def summaries
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName validate against local type defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def summaries
+void PrimitiveType MethodDeclaration SimpleName validate against local type defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def summaries
+validate against local type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate against local type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+validate against local type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def summaries
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summaries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate against local type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summaries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate against local type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def summaries

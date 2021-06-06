@@ -1,0 +1,29 @@
+class SimpleName SimpleType SingleVariableDeclaration SimpleName c
+list SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+list SimpleName SimpleType TypeLiteral MethodInvocation SimpleName c
+is assignable from SimpleName MethodInvocation SimpleName c
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is array list type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is array list type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SimpleName is array list type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+is array list type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+is array list type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is array list type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is array list type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

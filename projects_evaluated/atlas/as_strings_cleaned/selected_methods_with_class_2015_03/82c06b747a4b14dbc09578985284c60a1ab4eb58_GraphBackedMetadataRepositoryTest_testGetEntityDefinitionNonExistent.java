@@ -1,0 +1,30 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName repository exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation StringLiteral blah
+get entity definition SimpleName MethodInvocation StringLiteral blah
+assert SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get entity definition non existent
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity definition non existent
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity definition non existent
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity definition non existent
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity definition non existent SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity definition non existent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity definition non existent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,107 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+tables SimpleName MethodInvocation SimpleName qualify
+tables SimpleName MethodInvocation SimpleName table name
+qualify SimpleName MethodInvocation SimpleName table name
+tables SimpleName MethodInvocation MethodInvocation SimpleName get first
+qualify SimpleName MethodInvocation MethodInvocation SimpleName get first
+table name SimpleName MethodInvocation MethodInvocation SimpleName get first
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tables
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName qualify
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table name
+namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+namespace exists SimpleName MethodInvocation SimpleName namespace
+namespace ( StringLiteral InfixExpression SimpleName namespace
+namespace ( StringLiteral InfixExpression StringLiteral ) does not exist
+namespace SimpleName InfixExpression StringLiteral ) does not exist
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral namespace (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName namespace
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) does not exist
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+acunamespaces QualifiedName MethodInvocation SimpleName get
+acunamespaces QualifiedName MethodInvocation SimpleName namespace
+get SimpleName MethodInvocation SimpleName namespace
+acunamespaces QualifiedName MethodInvocation FieldAccess SimpleName settings
+get SimpleName MethodInvocation FieldAccess SimpleName settings
+namespace SimpleName MethodInvocation FieldAccess SimpleName settings
+acunamespaces QualifiedName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+get SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+namespace SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+settings SimpleName FieldAccess MethodInvocation SimpleName entry set
+props SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entry set
+exists SimpleName MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation SimpleName table name
+table name SimpleName ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation StringLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+acutables QualifiedName MethodInvocation SimpleName get
+acutables QualifiedName MethodInvocation SimpleName table name
+get SimpleName MethodInvocation SimpleName table name
+acutables QualifiedName MethodInvocation FieldAccess SimpleName settings
+get SimpleName MethodInvocation FieldAccess SimpleName settings
+table name SimpleName MethodInvocation FieldAccess SimpleName settings
+acutables QualifiedName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+get SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+table name SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+settings SimpleName FieldAccess MethodInvocation SimpleName entry set
+table props SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName settings
+table props SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+props SimpleName MethodInvocation SimpleName contains
+props SimpleName MethodInvocation SimpleName e
+contains SimpleName MethodInvocation SimpleName e
+props SimpleName MethodInvocation SimpleName remove
+props SimpleName MethodInvocation SimpleName e
+remove SimpleName MethodInvocation SimpleName e
+props SimpleName MethodInvocation SimpleName add
+props SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table props
+table props SimpleName EnhancedForStatement Block ReturnStatement SimpleName props
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get properties
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName get properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName table props
+public Modifier MethodDeclaration Block ReturnStatement SimpleName props
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get properties SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get properties SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table props
+get properties SimpleName MethodDeclaration Block ReturnStatement SimpleName props
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

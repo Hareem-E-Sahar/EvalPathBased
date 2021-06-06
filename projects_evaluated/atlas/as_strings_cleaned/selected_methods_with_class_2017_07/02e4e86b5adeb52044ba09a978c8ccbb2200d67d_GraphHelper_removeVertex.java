@@ -1,0 +1,40 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex string
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName MethodInvocation SimpleName vertex
+vertex string SimpleName Assignment MethodInvocation SimpleName string
+vertex string SimpleName Assignment MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing {}
+log SimpleName MethodInvocation SimpleName vertex string
+debug SimpleName MethodInvocation StringLiteral removing {}
+debug SimpleName MethodInvocation SimpleName vertex string
+removing {} StringLiteral MethodInvocation SimpleName vertex string
+graph SimpleName MethodInvocation SimpleName remove vertex
+graph SimpleName MethodInvocation SimpleName vertex
+remove vertex SimpleName MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removed {}
+log SimpleName MethodInvocation SimpleName vertex string
+info SimpleName MethodInvocation StringLiteral removed {}
+info SimpleName MethodInvocation SimpleName vertex string
+removed {} StringLiteral MethodInvocation SimpleName vertex string
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName remove vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+remove vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+remove vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

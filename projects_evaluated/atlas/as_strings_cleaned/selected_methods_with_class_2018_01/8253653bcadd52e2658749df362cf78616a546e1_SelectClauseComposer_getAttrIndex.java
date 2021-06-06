@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+ret SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName attributeslength
+attributes SimpleName ArrayAccess SimpleName i
+attributes SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+attributes SimpleName ArrayAccess MethodInvocation SimpleName attr
+i SimpleName ArrayAccess MethodInvocation SimpleName attr
+equals SimpleName MethodInvocation SimpleName attr
+ret SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName attributeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+attributeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get attr index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType MethodDeclaration SimpleName get attr index
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+get attr index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attr index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr
+get attr index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get attr index SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attr index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attr index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr

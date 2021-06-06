@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName struct
+public Modifier MethodDeclaration SimpleName get traits
+public Modifier MethodDeclaration Block ReturnStatement SimpleName traits
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get traits
+struct SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get traits
+get traits SimpleName MethodDeclaration Block ReturnStatement SimpleName traits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get traits
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get traits

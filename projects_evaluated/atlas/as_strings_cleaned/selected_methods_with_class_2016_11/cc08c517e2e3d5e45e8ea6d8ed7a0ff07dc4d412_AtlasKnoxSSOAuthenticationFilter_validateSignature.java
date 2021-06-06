@@ -1,0 +1,69 @@
+signed jwt SimpleName SimpleType SingleVariableDeclaration SimpleName jwt token
+valid SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+jwt token SimpleName MethodInvocation SimpleName get state
+jws objectstatesigned QualifiedName InfixExpression MethodInvocation SimpleName jwt token
+jws objectstatesigned QualifiedName InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sso token is in a signed state
+debug SimpleName MethodInvocation StringLiteral sso token is in a signed state
+jwt token SimpleName MethodInvocation SimpleName get signature
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sso token signature is not null
+debug SimpleName MethodInvocation StringLiteral sso token signature is not null
+jwt token SimpleName MethodInvocation SimpleName verify
+jwt token SimpleName MethodInvocation SimpleName verifier
+verify SimpleName MethodInvocation SimpleName verifier
+verifier SimpleName InfixExpression InfixExpression MethodInvocation SimpleName jwt token
+verifier SimpleName InfixExpression InfixExpression MethodInvocation SimpleName verify
+verifier SimpleName InfixExpression InfixExpression MethodInvocation SimpleName verifier
+valid SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sso token has been successfully verified
+debug SimpleName MethodInvocation StringLiteral sso token has been successfully verified
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral sso signature verification failedplease check the public key
+warn SimpleName MethodInvocation StringLiteral sso signature verification failedplease check the public key
+jose exception SimpleName SimpleType SingleVariableDeclaration SimpleName je
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error while validating signature
+log SimpleName MethodInvocation SimpleName je
+warn SimpleName MethodInvocation StringLiteral error while validating signature
+warn SimpleName MethodInvocation SimpleName je
+error while validating signature StringLiteral MethodInvocation SimpleName je
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error while validating signature
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error while validating signature
+warn SimpleName MethodInvocation SimpleName e
+error while validating signature StringLiteral MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName valid
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName validate signature
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName valid
+boolean PrimitiveType MethodDeclaration SimpleName validate signature
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName valid
+validate signature SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+validate signature SimpleName MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+validate signature SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+validate signature SimpleName MethodDeclaration Block ReturnStatement SimpleName valid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate signature
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate signature
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token

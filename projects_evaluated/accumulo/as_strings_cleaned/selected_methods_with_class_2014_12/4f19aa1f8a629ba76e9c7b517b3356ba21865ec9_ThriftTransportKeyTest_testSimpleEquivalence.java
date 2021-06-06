@@ -1,0 +1,82 @@
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client context
+client ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+client context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client ctx
+client ctx SimpleName MethodInvocation SimpleName get client ssl params
+expect SimpleName MethodInvocation MethodInvocation SimpleName client ctx
+expect SimpleName MethodInvocation MethodInvocation SimpleName get client ssl params
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+client ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get client ssl params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+client ctx SimpleName MethodInvocation SimpleName get client sasl params
+expect SimpleName MethodInvocation MethodInvocation SimpleName client ctx
+expect SimpleName MethodInvocation MethodInvocation SimpleName get client sasl params
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+client ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get client sasl params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+replay SimpleName MethodInvocation SimpleName client ctx
+host and port SimpleName MethodInvocation SimpleName from parts
+host and port SimpleName MethodInvocation StringLiteral localhost
+host and port SimpleName MethodInvocation NumberLiteral empty
+from parts SimpleName MethodInvocation StringLiteral localhost
+from parts SimpleName MethodInvocation NumberLiteral empty
+localhost StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host and port
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from parts
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral localhost
+thrift transport key SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+thrift transport key SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+thrift transport key SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+thrift transport key SimpleName SimpleType ClassInstanceCreation SimpleName client ctx
+host and port SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+host and port SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+from parts SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+from parts SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+localhost StringLiteral MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+localhost StringLiteral MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+host and port SimpleName MethodInvocation ClassInstanceCreation SimpleName client ctx
+from parts SimpleName MethodInvocation ClassInstanceCreation SimpleName client ctx
+localhost StringLiteral MethodInvocation ClassInstanceCreation SimpleName client ctx
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleName client ctx
+empty NumberLiteral InfixExpression ClassInstanceCreation SimpleName client ctx
+empty NumberLiteral InfixExpression ClassInstanceCreation SimpleName client ctx
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thrift transport key
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName host and port
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName from parts
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral localhost
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation NumberLiteral empty
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+ttk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName client ctx
+thrift transport key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ttk
+ttk SimpleName MethodInvocation SimpleName equals
+ttk SimpleName MethodInvocation SimpleName ttk
+equals SimpleName MethodInvocation SimpleName ttk
+assert true SimpleName MethodInvocation StringLiteral normal thrift transport key doesnt equal itself
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ttk
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ttk
+normal thrift transport key doesnt equal itself StringLiteral MethodInvocation MethodInvocation SimpleName ttk
+normal thrift transport key doesnt equal itself StringLiteral MethodInvocation MethodInvocation SimpleName equals
+normal thrift transport key doesnt equal itself StringLiteral MethodInvocation MethodInvocation SimpleName ttk
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test simple equivalence
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test simple equivalence
+void PrimitiveType MethodDeclaration SimpleName test simple equivalence
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test simple equivalence
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test simple equivalence

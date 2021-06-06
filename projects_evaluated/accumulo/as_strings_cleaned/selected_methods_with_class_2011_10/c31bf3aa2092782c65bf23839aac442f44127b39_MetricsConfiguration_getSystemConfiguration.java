@@ -1,0 +1,13 @@
+sys config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName system configuration
+public Modifier MethodDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SimpleName get system configuration
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sys config
+configuration SimpleName SimpleType MethodDeclaration SimpleName get system configuration
+get system configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName sys config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get system configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get system configuration

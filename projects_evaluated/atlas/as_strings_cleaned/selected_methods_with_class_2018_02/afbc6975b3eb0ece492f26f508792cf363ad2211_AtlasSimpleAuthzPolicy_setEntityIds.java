@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity ids
+entity ids SimpleName FieldAccess Assignment SimpleName entity ids
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set entity ids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity ids
+void PrimitiveType MethodDeclaration SimpleName set entity ids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity ids
+set entity ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set entity ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set entity ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ids

@@ -1,0 +1,48 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName class
+final Modifier SingleVariableDeclaration SimpleName c
+class SimpleName SimpleType SingleVariableDeclaration SimpleName c
+number SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+number SimpleName SimpleType TypeLiteral MethodInvocation SimpleName c
+is assignable from SimpleName MethodInvocation SimpleName c
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName c
+is assignable from SimpleName MethodInvocation SimpleName c
+date SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+date SimpleName SimpleType TypeLiteral MethodInvocation SimpleName c
+is assignable from SimpleName MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName is primitive
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is primitive type
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is primitive type
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is primitive type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is primitive type SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+is primitive type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+is primitive type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+is primitive type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is primitive type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is primitive type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

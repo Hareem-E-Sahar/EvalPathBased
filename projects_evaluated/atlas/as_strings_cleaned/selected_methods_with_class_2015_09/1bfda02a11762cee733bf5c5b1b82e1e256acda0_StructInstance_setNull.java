@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+field mappingfields QualifiedName MethodInvocation SimpleName get
+field mappingfields QualifiedName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+i SimpleName VariableDeclarationFragment MethodInvocation QualifiedName field mappingfields
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unknown field s for struct s
+string SimpleName MethodInvocation SimpleName attr name
+string SimpleName MethodInvocation MethodInvocation SimpleName get type name
+format SimpleName MethodInvocation StringLiteral unknown field s for struct s
+format SimpleName MethodInvocation SimpleName attr name
+format SimpleName MethodInvocation MethodInvocation SimpleName get type name
+unknown field s for struct s StringLiteral MethodInvocation SimpleName attr name
+unknown field s for struct s StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unknown field s for struct s
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr name
+field mappingfield null pos QualifiedName MethodInvocation SimpleName get
+field mappingfield null pos QualifiedName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+null pos SimpleName VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield null pos
+null pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+null pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName null pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield null pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr name
+null flags SimpleName ArrayAccess SimpleName null pos
+null flags SimpleName ArrayAccess Assignment BooleanLiteral true
+null pos SimpleName ArrayAccess Assignment BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set null
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set null
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+set null SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+set null SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set null
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set null
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

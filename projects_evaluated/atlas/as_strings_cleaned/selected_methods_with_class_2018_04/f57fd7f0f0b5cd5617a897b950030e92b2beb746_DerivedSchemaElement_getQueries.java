@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName schema implementation query
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName queries
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName schema implementation query
+public Modifier MethodDeclaration SimpleName get queries
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get queries
+schema implementation query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get queries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get queries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get queries

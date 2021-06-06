@@ -1,0 +1,31 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+call api SimpleName MethodInvocation QualifiedName apilist types
+json object SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api
+json object SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apilist types
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName call api
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName apilist types
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json object
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract results SimpleName MethodInvocation SimpleName json object
+extract results SimpleName MethodInvocation QualifiedName atlas clientresults
+json object SimpleName MethodInvocation QualifiedName atlas clientresults
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list types
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list types
+list types SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+list types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName param
+params SimpleName MethodInvocation SimpleName get
+params SimpleName MethodInvocation SimpleName param
+get SimpleName MethodInvocation SimpleName param
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get init parameter
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName param
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get init parameter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName param
+string SimpleName SimpleType MethodDeclaration SimpleName get init parameter
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName param
+get init parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get init parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get init parameter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get init parameter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param

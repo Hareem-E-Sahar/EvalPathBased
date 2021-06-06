@@ -1,0 +1,22 @@
+get graph SimpleName MethodInvocation MethodInvocation SimpleName commit
+protected Modifier MethodDeclaration TypeParameter SimpleName v
+protected Modifier MethodDeclaration TypeParameter SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName push changes and flush cache
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName push changes and flush cache
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName push changes and flush cache
+void PrimitiveType MethodDeclaration SimpleName push changes and flush cache
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName push changes and flush cache
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName push changes and flush cache

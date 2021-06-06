@@ -1,0 +1,82 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get type
+event typenone QualifiedName InfixExpression MethodInvocation SimpleName event
+event typenone QualifiedName InfixExpression MethodInvocation SimpleName get type
+event SimpleName MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral zoo keeper connection disconnected clearing secret manager
+debug SimpleName MethodInvocation StringLiteral zoo keeper connection disconnected clearing secret manager
+secret manager SimpleName MethodInvocation SimpleName remove all keys
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral zoo keeper reconnected updating secret manager
+debug SimpleName MethodInvocation StringLiteral zoo keeper reconnected updating secret manager
+keeper exception SimpleName SimpleType UnionType SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+interrupted exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to update secret manager after zoo keeper reconnect
+error SimpleName MethodInvocation StringLiteral failed to update secret manager after zoo keeper reconnect
+unhandled StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+log SimpleName MethodInvocation InfixExpression SimpleName event
+warn SimpleName MethodInvocation InfixExpression StringLiteral unhandled
+warn SimpleName MethodInvocation InfixExpression SimpleName event
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName disconnected
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName disconnected
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName expired
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName expired
+disconnected SimpleName SwitchCase SwitchStatement SwitchCase SimpleName expired
+disconnected SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sync connected
+expired SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sync connected
+event SimpleName MethodInvocation SimpleName get path
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName starts with
+path SimpleName MethodInvocation SimpleName base node
+starts with SimpleName MethodInvocation SimpleName base node
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral ignoring event for path {}
+log SimpleName MethodInvocation SimpleName path
+info SimpleName MethodInvocation StringLiteral ignoring event for path {}
+info SimpleName MethodInvocation SimpleName path
+ignoring event for path {} StringLiteral MethodInvocation SimpleName path
+path SimpleName MethodInvocation SimpleName equals
+path SimpleName MethodInvocation SimpleName base node
+equals SimpleName MethodInvocation SimpleName base node
+process base node SimpleName MethodInvocation SimpleName event
+process child node SimpleName MethodInvocation SimpleName event
+keeper exception SimpleName SimpleType UnionType SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+interrupted exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to communicate with zoo keeper
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to communicate with zoo keeper
+error SimpleName MethodInvocation SimpleName e
+failed to communicate with zoo keeper StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

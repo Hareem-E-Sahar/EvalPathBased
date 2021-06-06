@@ -1,0 +1,24 @@
+site configuration SimpleName MethodInvocation SimpleName get instance
+site configuration SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName site configuration
+public Modifier MethodDeclaration SimpleName get site configuration
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName site configuration
+static Modifier MethodDeclaration SimpleName get site configuration
+synchronized Modifier MethodDeclaration SimpleType SimpleName site configuration
+synchronized Modifier MethodDeclaration SimpleName get site configuration
+site configuration SimpleName SimpleType MethodDeclaration SimpleName get site configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName site configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get site configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName site configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get site configuration

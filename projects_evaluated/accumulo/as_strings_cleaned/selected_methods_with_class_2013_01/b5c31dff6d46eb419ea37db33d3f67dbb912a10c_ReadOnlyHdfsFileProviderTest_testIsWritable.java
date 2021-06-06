@@ -1,0 +1,47 @@
+manager SimpleName MethodInvocation SimpleName resolve file
+manager SimpleName MethodInvocation SimpleName test dir
+resolve file SimpleName MethodInvocation SimpleName test dir
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName test dir
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fo
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName fo
+assert not null SimpleName MethodInvocation SimpleName fo
+fo SimpleName MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+create test file SimpleName MethodInvocation SimpleName hdfs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName is writeable
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName file
+assert SimpleName MethodInvocation MethodInvocation SimpleName is writeable
+assert false SimpleName MethodInvocation MethodInvocation SimpleName file
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is writeable
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test is writable
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test is writable
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test is writable
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test is writable SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test is writable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test is writable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

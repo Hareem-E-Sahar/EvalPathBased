@@ -1,0 +1,105 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+propertytable split threshold QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral k
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral k
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral k
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation StringLiteral k
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation StringLiteral k
+get key SimpleName MethodInvocation MethodInvocation StringLiteral k
+c SimpleName MethodInvocation SimpleName table operations
+propertytable file compression type QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file compression type
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file compression type
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral none
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral none
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compression type
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral none
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compression type
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation StringLiteral none
+propertytable file compression type QualifiedName MethodInvocation MethodInvocation StringLiteral none
+get key SimpleName MethodInvocation MethodInvocation StringLiteral none
+read write it SimpleName MethodInvocation SimpleName interleave test
+read write it SimpleName MethodInvocation SimpleName c
+read write it SimpleName MethodInvocation SimpleName table name
+interleave test SimpleName MethodInvocation SimpleName c
+interleave test SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table name
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list splits
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+list splits SimpleName MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list splits SimpleName MethodInvocation MethodInvocation SimpleName size
+test ingest StringLiteral MethodInvocation MethodInvocation SimpleName size
+list splits SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+test ingest StringLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName interleave split
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName interleave split
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName interleave split
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+interleave split SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName interleave split
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName interleave split
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

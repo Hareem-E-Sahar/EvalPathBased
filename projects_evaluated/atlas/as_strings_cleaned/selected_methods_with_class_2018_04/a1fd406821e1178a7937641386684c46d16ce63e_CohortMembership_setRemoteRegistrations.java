@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName remote registrations
+member registration SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName remote registrations
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName remote registrations
+remote registrations SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName remote registrations
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set remote registrations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote registrations
+void PrimitiveType MethodDeclaration SimpleName set remote registrations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote registrations
+set remote registrations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote registrations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set remote registrations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote registrations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set remote registrations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote registrations

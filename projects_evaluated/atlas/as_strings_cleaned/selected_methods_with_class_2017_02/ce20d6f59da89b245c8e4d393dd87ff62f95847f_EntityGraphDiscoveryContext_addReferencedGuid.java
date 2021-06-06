@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+referenced guids SimpleName MethodInvocation SimpleName contains
+referenced guids SimpleName MethodInvocation SimpleName guid
+contains SimpleName MethodInvocation SimpleName guid
+referenced guids SimpleName MethodInvocation SimpleName add
+referenced guids SimpleName MethodInvocation SimpleName guid
+add SimpleName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add referenced guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SimpleName add referenced guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+add referenced guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add referenced guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add referenced guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add referenced guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

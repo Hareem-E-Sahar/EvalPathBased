@@ -1,0 +1,275 @@
+int PrimitiveType SingleVariableDeclaration SimpleName interleaving
+boolean PrimitiveType SingleVariableDeclaration SimpleName interrupt
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral target
+get property SimpleName MethodInvocation InfixExpression StringLiteral target
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral target
+in memory map SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+in memory map SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral target
+false BooleanLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName system
+false BooleanLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName get property
+false BooleanLiteral ClassInstanceCreation InfixExpression MethodInvocation StringLiteral userdir
+false BooleanLiteral ClassInstanceCreation InfixExpression StringLiteral target
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName in memory map
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral target
+in memory map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName imm
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation StringLiteral foocq
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation StringLiteral foocq
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+imm SimpleName MethodInvocation SimpleName skv iterator
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName imm
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName skv iterator
+memory iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ski
+atomic boolean SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+iflag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atomic boolean
+iflag SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+atomic boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iflag
+ski SimpleName MethodInvocation SimpleName set interrupt flag
+ski SimpleName MethodInvocation SimpleName iflag
+set interrupt flag SimpleName MethodInvocation SimpleName iflag
+interleaving SimpleName InfixExpression NumberLiteral empty
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+iflag SimpleName MethodInvocation SimpleName set
+iflag SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName iflag
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral true
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+ski SimpleName MethodInvocation SimpleName deep copy
+dc SimpleName VariableDeclarationFragment MethodInvocation SimpleName ski
+dc SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep copy
+interleaving SimpleName InfixExpression NumberLiteral empty
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+iflag SimpleName MethodInvocation SimpleName set
+iflag SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName iflag
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral true
+dc SimpleName MethodInvocation SimpleName seek
+dc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+dc SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+dc SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+ski SimpleName MethodInvocation SimpleName seek
+ski SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+ski SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+ski SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+interleaving SimpleName InfixExpression NumberLiteral empty
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+iflag SimpleName MethodInvocation SimpleName set
+iflag SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName iflag
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral true
+ae SimpleName MethodInvocation SimpleName dc
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+dc SimpleName MethodInvocation StringLiteral r
+dc SimpleName MethodInvocation StringLiteral foocq
+dc SimpleName MethodInvocation NumberLiteral empty
+dc SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+dc SimpleName MethodInvocation SimpleName seek
+dc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+dc SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+dc SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+interleaving SimpleName InfixExpression NumberLiteral empty
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+iflag SimpleName MethodInvocation SimpleName set
+iflag SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName iflag
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral true
+ae SimpleName MethodInvocation SimpleName ski
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+ski SimpleName MethodInvocation StringLiteral r
+ski SimpleName MethodInvocation StringLiteral foocq
+ski SimpleName MethodInvocation NumberLiteral empty
+ski SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ae SimpleName MethodInvocation SimpleName dc
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+dc SimpleName MethodInvocation StringLiteral r
+dc SimpleName MethodInvocation StringLiteral foocq
+dc SimpleName MethodInvocation NumberLiteral empty
+dc SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+ae SimpleName MethodInvocation SimpleName dc
+ae SimpleName MethodInvocation StringLiteral r
+ae SimpleName MethodInvocation StringLiteral foocq
+ae SimpleName MethodInvocation NumberLiteral empty
+ae SimpleName MethodInvocation StringLiteral bar
+dc SimpleName MethodInvocation StringLiteral r
+dc SimpleName MethodInvocation StringLiteral foocq
+dc SimpleName MethodInvocation NumberLiteral empty
+dc SimpleName MethodInvocation StringLiteral bar
+r StringLiteral MethodInvocation StringLiteral foocq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral bar
+foocq StringLiteral MethodInvocation NumberLiteral empty
+foocq StringLiteral MethodInvocation StringLiteral bar
+empty NumberLiteral MethodInvocation StringLiteral bar
+dc SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName dc
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+ski SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName ski
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+dc SimpleName MethodInvocation SimpleName seek
+dc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+dc SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+dc SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName dc
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName seek
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName locality group utilempty cf set
+interrupt SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName deep copy and delete
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName interleaving
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName deep copy and delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interleaving
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName interrupt
+deep copy and delete SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+deep copy and delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interleaving
+deep copy and delete SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+deep copy and delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+deep copy and delete SimpleName MethodDeclaration SimpleType SimpleName exception
+deep copy and delete SimpleName MethodDeclaration Block IfStatement SimpleName interrupt
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+interleaving SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+interleaving SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+interleaving SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+interrupt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName deep copy and delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interleaving
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deep copy and delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interleaving
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interrupt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity operation
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName entity operation
+final Modifier SingleVariableDeclaration SimpleName mutated entities
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutated entities
+entity operation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutated entities
+mutated entities SimpleName FieldAccess Assignment SimpleName mutated entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set mutated entities
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutated entities
+void PrimitiveType MethodDeclaration SimpleName set mutated entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mutated entities
+set mutated entities SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set mutated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutated entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mutated entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutated entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mutated entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutated entities

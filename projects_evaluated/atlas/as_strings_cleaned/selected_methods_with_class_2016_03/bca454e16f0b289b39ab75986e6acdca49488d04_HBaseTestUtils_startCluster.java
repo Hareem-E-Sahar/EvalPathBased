@@ -1,0 +1,74 @@
+application properties SimpleName MethodInvocation SimpleName get
+h base based audit repository SimpleName MethodInvocation SimpleName get h base configuration
+h base based audit repository SimpleName MethodInvocation MethodInvocation SimpleName application properties
+h base based audit repository SimpleName MethodInvocation MethodInvocation SimpleName get
+get h base configuration SimpleName MethodInvocation MethodInvocation SimpleName application properties
+get h base configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+hbase conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName h base based audit repository
+hbase conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get h base configuration
+hbase conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName application properties
+hbase conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hbase conf
+h base testing utility SimpleName SimpleType ClassInstanceCreation SimpleName hbase conf
+hbase test utility SimpleName Assignment ClassInstanceCreation SimpleType SimpleName h base testing utility
+hbase test utility SimpleName Assignment ClassInstanceCreation SimpleName hbase conf
+hbase conf SimpleName MethodInvocation SimpleName get int
+hbase conf SimpleName MethodInvocation StringLiteral hbasezookeeperpropertyclient port
+hbase conf SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation StringLiteral hbasezookeeperpropertyclient port
+get int SimpleName MethodInvocation NumberLiteral empty
+hbasezookeeperpropertyclient port StringLiteral MethodInvocation NumberLiteral empty
+zk port SimpleName VariableDeclarationFragment MethodInvocation SimpleName hbase conf
+zk port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+zk port SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hbasezookeeperpropertyclient port
+zk port SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hbase conf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral hbasezookeeperpropertyclient port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+hbase test utility SimpleName MethodInvocation SimpleName start mini zk cluster
+hbase test utility SimpleName MethodInvocation NumberLiteral empty
+hbase test utility SimpleName MethodInvocation SimpleName zk port
+start mini zk cluster SimpleName MethodInvocation NumberLiteral empty
+start mini zk cluster SimpleName MethodInvocation SimpleName zk port
+empty NumberLiteral MethodInvocation SimpleName zk port
+hbase test utility SimpleName MethodInvocation SimpleName get configuration
+local h base cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hbase test utility
+local h base cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+hbase cluster SimpleName Assignment ClassInstanceCreation SimpleType SimpleName local h base cluster
+hbase cluster SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName hbase test utility
+hbase cluster SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get configuration
+hbase cluster SimpleName MethodInvocation SimpleName startup
+request context SimpleName MethodInvocation SimpleName create context
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName MethodInvocation MethodInvocation SimpleName set user
+get SimpleName MethodInvocation MethodInvocation SimpleName set user
+request context SimpleName MethodInvocation MethodInvocation StringLiteral testuser
+get SimpleName MethodInvocation MethodInvocation StringLiteral testuser
+set user SimpleName MethodInvocation StringLiteral testuser
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName start cluster
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName start cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+start cluster SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

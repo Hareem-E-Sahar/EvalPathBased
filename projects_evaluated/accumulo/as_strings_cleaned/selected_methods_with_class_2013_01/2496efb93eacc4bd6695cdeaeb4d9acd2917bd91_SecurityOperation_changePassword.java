@@ -1,0 +1,89 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+token SimpleName MethodInvocation SimpleName get principal
+can change password SimpleName MethodInvocation SimpleName credentials
+can change password SimpleName MethodInvocation MethodInvocation SimpleName token
+can change password SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation MethodInvocation SimpleName token
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+authenticator SimpleName MethodInvocation SimpleName change password
+authenticator SimpleName MethodInvocation SimpleName token
+change password SimpleName MethodInvocation SimpleName token
+token SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get principal
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName token
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+changed password for user StringLiteral InfixExpression StringLiteral at the request of user
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+token SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+get principal SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+token SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+token SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName token
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName token
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+change password SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

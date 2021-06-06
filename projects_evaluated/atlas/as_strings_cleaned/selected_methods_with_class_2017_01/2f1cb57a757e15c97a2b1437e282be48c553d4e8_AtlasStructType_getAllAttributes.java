@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SimpleName get all attributes
+public Modifier MethodDeclaration Block ReturnStatement SimpleName all attributes
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all attributes
+atlas attribute SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all attributes
+get all attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName all attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all attributes

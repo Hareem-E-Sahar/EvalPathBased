@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+qualified StringLiteral InfixExpression SimpleName table name
+lineage service SimpleName MethodInvocation SimpleName get schema
+lineage service SimpleName MethodInvocation InfixExpression StringLiteral qualified
+lineage service SimpleName MethodInvocation InfixExpression SimpleName table name
+get schema SimpleName MethodInvocation InfixExpression StringLiteral qualified
+get schema SimpleName MethodInvocation InfixExpression SimpleName table name
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lineage service
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get schema
+private Modifier MethodDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SimpleName get schema
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+json object SimpleName SimpleType MethodDeclaration SimpleName get schema
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get schema SimpleName MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

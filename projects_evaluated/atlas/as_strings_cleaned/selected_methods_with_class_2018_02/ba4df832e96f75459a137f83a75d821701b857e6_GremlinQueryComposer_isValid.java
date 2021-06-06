@@ -1,0 +1,149 @@
+context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+gremlin clause SimpleName SimpleType SingleVariableDeclaration SimpleName clause
+identifier helperinfo QualifiedName SimpleType SingleVariableDeclaration SimpleName ia
+ia SimpleName MethodInvocation SimpleName is trait
+ia SimpleName MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName is trait
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl unknown classification
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown classification
+is trait SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown classification
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+is trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+is trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+atlas error codeinvalid dsl unknown classification QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl unknown classification QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+ctx SimpleName MethodInvocation SimpleName get active type
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get active type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get active type
+type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type category
+ia SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName ia
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName ia
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type category SimpleName InfixExpression QualifiedName type categoryclassification
+string utils SimpleName MethodInvocation InfixExpression InfixExpression SimpleName type category
+string utils SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName type categoryclassification
+is not empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName type category
+is not empty SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName type categoryclassification
+type category SimpleName InfixExpression QualifiedName type categoryentity
+ia SimpleName MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation InfixExpression InfixExpression SimpleName type category
+check SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName type categoryentity
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+type category SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+type categoryentity QualifiedName InfixExpression InfixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+atlas error codeinvalid dsl unknown type QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl unknown type QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation SimpleName is primitive
+ia SimpleName MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName is primitive
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl has property
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl has property
+is primitive SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl has property
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+atlas error codeinvalid dsl has property QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl has property QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation SimpleName is primitive
+ia SimpleName MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName is primitive
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl orderby
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl orderby
+is primitive SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl orderby
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+atlas error codeinvalid dsl orderby QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl orderby QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation SimpleName is primitive
+ia SimpleName MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName is primitive
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+ia SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+is primitive SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+ia SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+is primitive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+atlas error codeinvalid dsl select invalid agg QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl select invalid agg QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+get error list SimpleName MethodInvocation MethodInvocation SimpleName size
+get error list SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+clause SimpleName SwitchStatement SwitchCase SimpleName trait
+clause SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName check
+clause SimpleName SwitchStatement ReturnStatement MethodInvocation QualifiedName atlas error codeinvalid dsl unknown classification
+clause SimpleName SwitchStatement SwitchCase SimpleName has type
+clause SimpleName SwitchStatement VariableDeclarationStatement SimpleType SimpleName type category
+clause SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName type category
+clause SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName check
+clause SimpleName SwitchStatement ReturnStatement MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName has type
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName has property
+has type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName has property
+has type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName order by
+has property SimpleName SwitchCase SwitchStatement SwitchCase SimpleName order by
+has property SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group by
+order by SimpleName SwitchCase SwitchStatement SwitchCase SimpleName group by
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clause
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ia
+boolean PrimitiveType MethodDeclaration SimpleName is valid
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clause
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ia
+boolean PrimitiveType MethodDeclaration Block SwitchStatement SimpleName clause
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clause
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+is valid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ia
+is valid SimpleName MethodDeclaration Block SwitchStatement SimpleName clause
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clause
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia
+clause SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ia

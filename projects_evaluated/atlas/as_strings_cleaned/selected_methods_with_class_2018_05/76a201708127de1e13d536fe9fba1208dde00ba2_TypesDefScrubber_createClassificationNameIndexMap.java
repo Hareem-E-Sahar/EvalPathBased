@@ -1,0 +1,44 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification defs
+atlas classification def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification defs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+classification defs SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName classification defs
+i SimpleName InfixExpression MethodInvocation SimpleName size
+classification defs SimpleName MethodInvocation SimpleName get
+classification defs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification defs
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification def
+classification def SimpleName MethodInvocation SimpleName get name
+classification index map SimpleName MethodInvocation SimpleName put
+classification index map SimpleName MethodInvocation MethodInvocation SimpleName classification def
+classification index map SimpleName MethodInvocation MethodInvocation SimpleName get name
+classification index map SimpleName MethodInvocation SimpleName i
+put SimpleName MethodInvocation MethodInvocation SimpleName classification def
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName i
+classification def SimpleName MethodInvocation MethodInvocation SimpleName i
+get name SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create classification name index map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+void PrimitiveType MethodDeclaration SimpleName create classification name index map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+create classification name index map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create classification name index map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create classification name index map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification defs

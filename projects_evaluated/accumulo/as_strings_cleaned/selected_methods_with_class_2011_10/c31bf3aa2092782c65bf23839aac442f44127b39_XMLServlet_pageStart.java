@@ -1,0 +1,56 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName resp
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+resp SimpleName MethodInvocation SimpleName set content type
+resp SimpleName MethodInvocation StringLiteral textxml
+set content type SimpleName MethodInvocation StringLiteral textxml
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral xml version . \ encodingutf \?>
+append SimpleName MethodInvocation StringLiteral xml version . \ encodingutf \?>
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral stats
+append SimpleName MethodInvocation StringLiteral stats
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName page start
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName req
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resp
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName page start
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resp
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName page start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resp
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+page start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+resp SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName page start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName page start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

@@ -1,0 +1,48 @@
+data input SimpleName SimpleType SingleVariableDeclaration SimpleName in
+read fields SimpleName SuperMethodInvocation SimpleName in
+range SimpleName MethodInvocation SimpleName read fields
+range SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName in
+in SimpleName MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read boolean
+isolated scan SimpleName Assignment MethodInvocation SimpleName in
+isolated scan SimpleName Assignment MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read boolean
+offline SimpleName Assignment MethodInvocation SimpleName in
+offline SimpleName Assignment MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read boolean
+in SimpleName MethodInvocation SimpleName read boolean
+local iterators SimpleName Assignment MethodInvocation SimpleName in
+local iterators SimpleName Assignment MethodInvocation SimpleName read boolean
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read fields
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName in
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName read fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read fields SimpleName MethodDeclaration SimpleType SimpleName io exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType ParameterizedType WildcardType ?
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName element type
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName removed relation
+element type SimpleName MethodInvocation SimpleName get type category
+graph helper SimpleName MethodInvocation SimpleName remove relation
+graph helper SimpleName MethodInvocation SimpleName edge id
+graph helper SimpleName MethodInvocation BooleanLiteral true
+remove relation SimpleName MethodInvocation SimpleName edge id
+remove relation SimpleName MethodInvocation BooleanLiteral true
+edge id SimpleName MethodInvocation BooleanLiteral true
+removed relation SimpleName Assignment MethodInvocation SimpleName graph helper
+removed relation SimpleName Assignment MethodInvocation SimpleName remove relation
+removed relation SimpleName Assignment MethodInvocation SimpleName edge id
+removed relation SimpleName Assignment MethodInvocation BooleanLiteral true
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName edge
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName vertex
+edge SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get edge and target vertex
+graph helper SimpleName MethodInvocation SimpleName edge id
+get edge and target vertex SimpleName MethodInvocation SimpleName edge id
+edge and vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge and vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge and target vertex
+edge and vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge id
+element type SimpleName MethodInvocation SimpleName get name
+delete entity SimpleName MethodInvocation MethodInvocation SimpleName element type
+delete entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+delete entity SimpleName MethodInvocation QualifiedName edge and vertexright
+element type SimpleName MethodInvocation MethodInvocation QualifiedName edge and vertexright
+get name SimpleName MethodInvocation MethodInvocation QualifiedName edge and vertexright
+graph helper SimpleName MethodInvocation SimpleName remove edge
+graph helper SimpleName MethodInvocation QualifiedName edge and vertexleft
+remove edge SimpleName MethodInvocation QualifiedName edge and vertexleft
+removed relation SimpleName Assignment QualifiedName edge and vertexleft
+graph helper SimpleName MethodInvocation SimpleName remove relation
+graph helper SimpleName MethodInvocation SimpleName edge id
+graph helper SimpleName MethodInvocation BooleanLiteral false
+remove relation SimpleName MethodInvocation SimpleName edge id
+remove relation SimpleName MethodInvocation BooleanLiteral false
+edge id SimpleName MethodInvocation BooleanLiteral false
+removed relation SimpleName Assignment MethodInvocation SimpleName graph helper
+removed relation SimpleName Assignment MethodInvocation SimpleName remove relation
+removed relation SimpleName Assignment MethodInvocation SimpleName edge id
+removed relation SimpleName Assignment MethodInvocation BooleanLiteral false
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+element type SimpleName MethodInvocation SwitchStatement IfStatement QualifiedName attribute infois composite
+get type category SimpleName MethodInvocation SwitchStatement IfStatement QualifiedName attribute infois composite
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement IfStatement QualifiedName attribute infois composite
+class SimpleName SwitchCase SwitchStatement IfStatement QualifiedName attribute infois composite
+private Modifier MethodDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SimpleName remove unused reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+edge SimpleName SimpleType MethodDeclaration SimpleName remove unused reference
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge id
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+edge SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+remove unused reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+remove unused reference SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+remove unused reference SimpleName MethodDeclaration Block ReturnStatement SimpleName removed relation
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove unused reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove unused reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,104 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName query str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query str
+lower SimpleName MethodInvocation SimpleName query str
+lower qry str SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower
+lower qry str SimpleName VariableDeclarationFragment MethodInvocation SimpleName query str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lower qry str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for process with query {}
+log SimpleName MethodInvocation SimpleName lower qry str
+debug SimpleName MethodInvocation StringLiteral searching for process with query {}
+debug SimpleName MethodInvocation SimpleName lower qry str
+searching for process with query {} StringLiteral MethodInvocation SimpleName lower qry str
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+final Modifier SingleVariableDeclaration SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration SimpleName entity
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName MethodInvocation SimpleName get
+entity SimpleName MethodInvocation StringLiteral recent queries
+get SimpleName MethodInvocation StringLiteral recent queries
+recent queries SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName entity
+recent queries SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+recent queries SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral recent queries
+recent queries SimpleName MethodInvocation SimpleName get
+recent queries SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName recent queries
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName query str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName recent queries
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName query str
+recent queries SimpleName MethodInvocation MethodInvocation SimpleName query str
+get SimpleName MethodInvocation MethodInvocation SimpleName query str
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName query str
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert on entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert on entity
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert on entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+assert on entity SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName hive data typeshive process
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName lower qry str
+assert entity is registered SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+hive data typeshive process QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+hive data typeshive process QualifiedName MethodInvocation MethodInvocation SimpleName lower qry str
+get name SimpleName MethodInvocation MethodInvocation SimpleName lower qry str
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName lower qry str
+atlas clientreferenceable attribute name QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+lower qry str SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert process is registered
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query str
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert process is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query str
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query str
+assert process is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+query str SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert process is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert process is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,18 @@
+call api SimpleName MethodInvocation SimpleName metrics
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas metrics
+metrics SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas metrics
+public Modifier MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier MethodDeclaration SimpleName get atlas metrics
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+atlas metrics SimpleName SimpleType MethodDeclaration SimpleName get atlas metrics
+atlas metrics SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get atlas metrics SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

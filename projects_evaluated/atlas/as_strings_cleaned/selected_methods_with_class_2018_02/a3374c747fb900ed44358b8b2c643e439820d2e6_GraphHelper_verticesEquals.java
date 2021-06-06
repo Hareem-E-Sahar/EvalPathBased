@@ -1,0 +1,53 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex a
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex b
+get guid SimpleName MethodInvocation SimpleName vertex b
+get guid SimpleName MethodInvocation SimpleName vertex a
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation MethodInvocation SimpleName vertex b
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation MethodInvocation SimpleName vertex a
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName vertex b
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName vertex a
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex a
+vertex b SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+vertex b SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex a
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName vertices equals
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName vertices equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+boolean PrimitiveType MethodDeclaration SimpleName vertices equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+vertices equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+vertices equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+vertices equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+vertices equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+vertex a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertices equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex b
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertices equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex b

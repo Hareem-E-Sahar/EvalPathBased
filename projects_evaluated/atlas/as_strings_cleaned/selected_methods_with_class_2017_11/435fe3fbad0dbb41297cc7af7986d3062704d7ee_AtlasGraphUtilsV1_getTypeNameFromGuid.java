@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName guid
+is not empty SimpleName MethodInvocation SimpleName guid
+atlas graph utils v SimpleName MethodInvocation SimpleName find by guid
+atlas graph utils v SimpleName MethodInvocation SimpleName guid
+find by guid SimpleName MethodInvocation SimpleName guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation SimpleName vertex
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type name
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type name from guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get type name from guid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get type name from guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type name from guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type name from guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type name from guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type name from guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type name from guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

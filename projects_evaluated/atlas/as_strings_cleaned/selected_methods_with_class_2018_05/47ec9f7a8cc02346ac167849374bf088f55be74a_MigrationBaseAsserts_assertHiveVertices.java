@@ -1,0 +1,108 @@
+int PrimitiveType SingleVariableDeclaration SimpleName db count
+int PrimitiveType SingleVariableDeclaration SimpleName table count
+int PrimitiveType SingleVariableDeclaration SimpleName column count
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get vertices SimpleName MethodInvocation StringLiteral hive db
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices
+results SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hive db
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+it SimpleName VariableDeclarationFragment SimpleName results
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName it
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName next
+it SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+has next SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation SimpleName db count
+i SimpleName MethodInvocation SimpleName db count
+i SimpleName Assignment NumberLiteral empty
+get vertices SimpleName MethodInvocation StringLiteral hive table
+results SimpleName Assignment MethodInvocation SimpleName get vertices
+results SimpleName Assignment MethodInvocation StringLiteral hive table
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+it SimpleName VariableDeclarationFragment SimpleName results
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName it
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName next
+it SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+has next SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation SimpleName table count
+i SimpleName MethodInvocation SimpleName table count
+i SimpleName Assignment NumberLiteral empty
+get vertices SimpleName MethodInvocation StringLiteral hive column
+results SimpleName Assignment MethodInvocation SimpleName get vertices
+results SimpleName Assignment MethodInvocation StringLiteral hive column
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+it SimpleName VariableDeclarationFragment SimpleName results
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName it
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName next
+it SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+has next SimpleName MethodInvocation ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression SimpleName i
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation SimpleName column count
+i SimpleName MethodInvocation SimpleName column count
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert hive vertices
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName db count
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table count
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName column count
+void PrimitiveType MethodDeclaration SimpleName assert hive vertices
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName db count
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table count
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column count
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db count
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table count
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert hive vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column count
+assert hive vertices SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table count
+db count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+db count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table count
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count
+db count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+db count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count
+table count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert hive vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert hive vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column count

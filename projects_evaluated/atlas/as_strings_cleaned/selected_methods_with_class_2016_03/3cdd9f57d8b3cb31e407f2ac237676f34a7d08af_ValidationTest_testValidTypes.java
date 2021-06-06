@@ -1,0 +1,98 @@
+types util SimpleName MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation StringLiteral name
+create required attr def SimpleName MethodInvocation StringLiteral type
+name StringLiteral MethodInvocation StringLiteral type
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName create required attr def
+attribute SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+attribute SimpleName VariableDeclarationFragment MethodInvocation StringLiteral type
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation StringLiteral super
+of SimpleName MethodInvocation StringLiteral super
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation StringLiteral super
+create class type def SimpleName MethodInvocation StringLiteral name
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral super
+name StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+name StringLiteral MethodInvocation MethodInvocation SimpleName of
+name StringLiteral MethodInvocation MethodInvocation StringLiteral super
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName attribute
+create class type def SimpleName MethodInvocation StringLiteral name
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation SimpleName attribute
+name StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+name StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+name StringLiteral MethodInvocation MethodInvocation SimpleName of
+name StringLiteral MethodInvocation SimpleName attribute
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName attribute
+string SimpleName SimpleType MethodInvocation MethodInvocation SimpleName attribute
+of SimpleName MethodInvocation MethodInvocation SimpleName attribute
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation StringLiteral super
+of SimpleName MethodInvocation StringLiteral super
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation StringLiteral super
+create trait type def SimpleName MethodInvocation StringLiteral name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral super
+name StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+name StringLiteral MethodInvocation MethodInvocation SimpleName of
+name StringLiteral MethodInvocation MethodInvocation StringLiteral super
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName attribute
+create trait type def SimpleName MethodInvocation StringLiteral name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName attribute
+name StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+name StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+name StringLiteral MethodInvocation MethodInvocation SimpleName of
+name StringLiteral MethodInvocation SimpleName attribute
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName attribute
+string SimpleName SimpleType MethodInvocation MethodInvocation SimpleName attribute
+of SimpleName MethodInvocation MethodInvocation SimpleName attribute
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test valid types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test valid types
+void PrimitiveType MethodDeclaration SimpleName test valid types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test valid types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test valid types

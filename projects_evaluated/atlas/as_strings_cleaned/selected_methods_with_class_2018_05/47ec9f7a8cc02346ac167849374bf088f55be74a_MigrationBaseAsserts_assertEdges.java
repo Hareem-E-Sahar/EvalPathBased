@@ -1,0 +1,141 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName results
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName results
+int PrimitiveType SingleVariableDeclaration SimpleName start idx
+int PrimitiveType SingleVariableDeclaration SimpleName expected items
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge type name
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+it SimpleName VariableDeclarationFragment SimpleName results
+it SimpleName MethodInvocation SimpleName has next
+count SimpleName InfixExpression SimpleName start idx
+it SimpleName MethodInvocation InfixExpression InfixExpression SimpleName count
+it SimpleName MethodInvocation InfixExpression InfixExpression SimpleName start idx
+has next SimpleName MethodInvocation InfixExpression InfixExpression SimpleName count
+has next SimpleName MethodInvocation InfixExpression InfixExpression SimpleName start idx
+it SimpleName MethodInvocation SimpleName next
+e SimpleName Assignment MethodInvocation SimpleName it
+e SimpleName Assignment MethodInvocation SimpleName next
+graph helper SimpleName MethodInvocation SimpleName get property
+graph helper SimpleName MethodInvocation SimpleName e
+graph helper SimpleName MethodInvocation SimpleName r guid property name
+get property SimpleName MethodInvocation SimpleName e
+get property SimpleName MethodInvocation SimpleName r guid property name
+e SimpleName MethodInvocation SimpleName r guid property name
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get property
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName e
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName r guid property name
+graph helper SimpleName MethodInvocation SimpleName get property
+graph helper SimpleName MethodInvocation SimpleName e
+graph helper SimpleName MethodInvocation StringLiteral tag propagation
+get property SimpleName MethodInvocation SimpleName e
+get property SimpleName MethodInvocation StringLiteral tag propagation
+e SimpleName MethodInvocation StringLiteral tag propagation
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get property
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName e
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral tag propagation
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName edge type name
+is not empty SimpleName MethodInvocation SimpleName edge type name
+graph helper SimpleName MethodInvocation SimpleName get property
+graph helper SimpleName MethodInvocation SimpleName e
+graph helper SimpleName MethodInvocation SimpleName type name property
+get property SimpleName MethodInvocation SimpleName e
+get property SimpleName MethodInvocation SimpleName type name property
+e SimpleName MethodInvocation SimpleName type name property
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get property
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName type name property
+assert equals SimpleName MethodInvocation SimpleName edge type name
+assert equals SimpleName MethodInvocation SimpleName edge type name
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+get property SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+e SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+type name property SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+get property SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+e SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+type name property SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+edge type name SimpleName MethodInvocation SimpleName edge type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s
+string SimpleName MethodInvocation SimpleName edge type name
+format SimpleName MethodInvocation StringLiteral s
+format SimpleName MethodInvocation SimpleName edge type name
+s StringLiteral MethodInvocation SimpleName edge type name
+assert equals SimpleName MethodInvocation SimpleName count
+assert equals SimpleName MethodInvocation SimpleName expected items
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName format
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral s
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+count SimpleName MethodInvocation SimpleName expected items
+count SimpleName MethodInvocation MethodInvocation SimpleName string
+count SimpleName MethodInvocation MethodInvocation SimpleName format
+count SimpleName MethodInvocation MethodInvocation StringLiteral s
+count SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+expected items SimpleName MethodInvocation MethodInvocation SimpleName string
+expected items SimpleName MethodInvocation MethodInvocation SimpleName format
+expected items SimpleName MethodInvocation MethodInvocation StringLiteral s
+expected items SimpleName MethodInvocation MethodInvocation SimpleName edge type name
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert edges
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName results
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName start idx
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected items
+void PrimitiveType MethodDeclaration SimpleName assert edges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName results
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start idx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected items
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName results
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start idx
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected items
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert edges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+assert edges SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start idx
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected items
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected items
+start idx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+start idx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected items
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+start idx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+expected items SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start idx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected items
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start idx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected items
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge type name

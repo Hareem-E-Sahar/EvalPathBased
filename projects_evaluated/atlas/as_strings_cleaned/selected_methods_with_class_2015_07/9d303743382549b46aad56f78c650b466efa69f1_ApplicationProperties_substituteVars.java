@@ -1,0 +1,128 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expr
+var pattern SimpleName MethodInvocation SimpleName matcher
+var pattern SimpleName MethodInvocation StringLiteral empty
+matcher SimpleName MethodInvocation StringLiteral empty
+match SimpleName VariableDeclarationFragment MethodInvocation SimpleName var pattern
+match SimpleName VariableDeclarationFragment MethodInvocation SimpleName matcher
+match SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+matcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName match
+eval SimpleName VariableDeclarationFragment SimpleName expr
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eval
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expr
+s SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName s
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+s SimpleName InfixExpression SimpleName max subst
+match SimpleName MethodInvocation SimpleName reset
+match SimpleName MethodInvocation SimpleName eval
+reset SimpleName MethodInvocation SimpleName eval
+match SimpleName MethodInvocation SimpleName find
+match SimpleName MethodInvocation SimpleName group
+var SimpleName VariableDeclarationFragment MethodInvocation SimpleName match
+var SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName var
+var SimpleName MethodInvocation SimpleName length
+var SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+var SimpleName MethodInvocation SimpleName substring
+var SimpleName MethodInvocation NumberLiteral empty
+var SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName var
+var SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+var SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName var
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName var
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+var SimpleName Assignment MethodInvocation SimpleName var
+var SimpleName Assignment MethodInvocation SimpleName substring
+var SimpleName Assignment MethodInvocation NumberLiteral empty
+var SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName var
+get property SimpleName MethodInvocation SimpleName var
+val SimpleName Assignment MethodInvocation SimpleName system
+val SimpleName Assignment MethodInvocation SimpleName get property
+val SimpleName Assignment MethodInvocation SimpleName var
+security exception SimpleName SimpleType SingleVariableDeclaration SimpleName se
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unexpected security exception in configuration
+log SimpleName MethodInvocation SimpleName se
+warn SimpleName MethodInvocation StringLiteral unexpected security exception in configuration
+warn SimpleName MethodInvocation SimpleName se
+unexpected security exception in configuration StringLiteral MethodInvocation SimpleName se
+get string SimpleName MethodInvocation SimpleName var
+val SimpleName Assignment MethodInvocation SimpleName get string
+val SimpleName Assignment MethodInvocation SimpleName var
+match SimpleName MethodInvocation SimpleName start
+eval SimpleName MethodInvocation SimpleName substring
+eval SimpleName MethodInvocation NumberLiteral empty
+eval SimpleName MethodInvocation MethodInvocation SimpleName match
+eval SimpleName MethodInvocation MethodInvocation SimpleName start
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation SimpleName match
+substring SimpleName MethodInvocation MethodInvocation SimpleName start
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName match
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName start
+match SimpleName MethodInvocation SimpleName end
+eval SimpleName MethodInvocation SimpleName substring
+eval SimpleName MethodInvocation MethodInvocation SimpleName match
+eval SimpleName MethodInvocation MethodInvocation SimpleName end
+substring SimpleName MethodInvocation MethodInvocation SimpleName match
+substring SimpleName MethodInvocation MethodInvocation SimpleName end
+eval SimpleName MethodInvocation InfixExpression SimpleName val
+substring SimpleName MethodInvocation InfixExpression SimpleName val
+empty NumberLiteral MethodInvocation InfixExpression SimpleName val
+match SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName val
+start SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName val
+eval SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName eval
+eval SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName eval
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName eval
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+val SimpleName InfixExpression MethodInvocation SimpleName eval
+val SimpleName InfixExpression MethodInvocation SimpleName substring
+val SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName match
+val SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName end
+eval SimpleName Assignment InfixExpression MethodInvocation SimpleName eval
+eval SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+eval SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+eval SimpleName Assignment InfixExpression SimpleName val
+eval SimpleName Assignment InfixExpression MethodInvocation SimpleName eval
+eval SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName s
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max subst
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName s
+s SimpleName InfixExpression ForStatement PostfixExpression SimpleName s
+max subst SimpleName InfixExpression ForStatement PostfixExpression SimpleName s
+variable substitution depth too large StringLiteral InfixExpression SimpleName max subst
+variable substitution depth too large StringLiteral InfixExpression StringLiteral empty
+variable substitution depth too large StringLiteral InfixExpression SimpleName expr
+max subst SimpleName InfixExpression StringLiteral empty
+max subst SimpleName InfixExpression SimpleName expr
+empty StringLiteral InfixExpression SimpleName expr
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral variable substitution depth too large
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName max subst
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName expr
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName substitute vars
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expr
+string SimpleName SimpleType MethodDeclaration SimpleName substitute vars
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName expr
+substitute vars SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+substitute vars SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName substitute vars
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName substitute vars
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr

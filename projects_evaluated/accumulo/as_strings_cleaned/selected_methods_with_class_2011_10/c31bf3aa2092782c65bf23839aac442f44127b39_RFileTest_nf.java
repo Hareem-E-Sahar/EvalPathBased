@@ -1,0 +1,41 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+int PrimitiveType SingleVariableDeclaration SimpleName i
+prefix SimpleName InfixExpression StringLiteral % d
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression SimpleName prefix
+string SimpleName MethodInvocation InfixExpression StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation InfixExpression SimpleName prefix
+format SimpleName MethodInvocation InfixExpression StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+prefix SimpleName InfixExpression MethodInvocation SimpleName i
+% d StringLiteral InfixExpression MethodInvocation SimpleName i
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName nf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+string SimpleName SimpleType MethodDeclaration SimpleName nf
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName i
+nf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+nf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+nf SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName nf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName nf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

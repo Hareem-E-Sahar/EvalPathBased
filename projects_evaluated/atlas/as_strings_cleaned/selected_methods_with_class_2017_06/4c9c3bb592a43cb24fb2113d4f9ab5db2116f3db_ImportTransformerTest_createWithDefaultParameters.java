@@ -1,0 +1,61 @@
+import transformer SimpleName MethodInvocation SimpleName get transformer
+import transformer SimpleName MethodInvocation StringLiteral replacecl
+get transformer SimpleName MethodInvocation StringLiteral replacecl
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName import transformer
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transformer
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral replacecl
+import transformer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+import transformer SimpleName MethodInvocation SimpleName get transformer
+import transformer SimpleName MethodInvocation StringLiteral replace
+get transformer SimpleName MethodInvocation StringLiteral replace
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName import transformer
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transformer
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral replace
+import transformer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InstanceofExpression SimpleType QualifiedName import transformerreplace
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName e
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType QualifiedName import transformerreplace
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation StringLiteral cl
+get to find str SimpleName MethodInvocation MethodInvocation StringLiteral cl
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation StringLiteral empty
+get replace str SimpleName MethodInvocation MethodInvocation StringLiteral empty
+e SimpleName InstanceofExpression SimpleType QualifiedName import transformerreplace
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName e
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType QualifiedName import transformerreplace
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation StringLiteral empty
+get to find str SimpleName MethodInvocation MethodInvocation StringLiteral empty
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation StringLiteral empty
+get replace str SimpleName MethodInvocation MethodInvocation StringLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName create with default parameters
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create with default parameters
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName create with default parameters
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+create with default parameters SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create with default parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create with default parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

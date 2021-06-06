@@ -1,0 +1,38 @@
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName get property
+element SimpleName MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+element SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsrelationshiptype tag propagation key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+propagate tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+propagate tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+propagate tags SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName propagate tags
+propagate tags SimpleName MethodInvocation SimpleName value of
+propagate tags SimpleName MethodInvocation SimpleName propagate tags
+value of SimpleName MethodInvocation SimpleName propagate tags
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName propagate tags
+public Modifier MethodDeclaration SimpleName get propagate tags
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName propagate tags
+static Modifier MethodDeclaration SimpleName get propagate tags
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+propagate tags SimpleName SimpleType MethodDeclaration SimpleName get propagate tags
+propagate tags SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get propagate tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+get propagate tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+public Modifier TypeDeclaration MethodDeclaration SimpleName get propagate tags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get propagate tags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

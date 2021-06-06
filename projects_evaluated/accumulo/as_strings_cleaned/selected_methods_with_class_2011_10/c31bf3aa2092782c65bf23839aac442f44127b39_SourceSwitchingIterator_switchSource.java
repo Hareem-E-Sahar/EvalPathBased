@@ -1,0 +1,29 @@
+source SimpleName MethodInvocation SimpleName is current
+source SimpleName MethodInvocation SimpleName get new data source
+source SimpleName Assignment MethodInvocation SimpleName source
+source SimpleName Assignment MethodInvocation SimpleName get new data source
+source SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName source
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+interruptible iterator SimpleName SimpleType CastExpression SimpleName iter
+iter SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set interrupt flag
+iter SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName iflag
+set interrupt flag SimpleName MethodInvocation SimpleName iflag
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName switch source
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName switch source
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+switch source SimpleName MethodDeclaration SimpleType SimpleName io exception
+switch source SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName switch source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName switch source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

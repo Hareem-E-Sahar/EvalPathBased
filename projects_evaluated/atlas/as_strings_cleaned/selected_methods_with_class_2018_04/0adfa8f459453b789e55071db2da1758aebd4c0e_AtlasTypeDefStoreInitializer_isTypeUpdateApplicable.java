@@ -1,0 +1,88 @@
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName old type def
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName new type def
+boolean PrimitiveType SingleVariableDeclaration SimpleName check version
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+old type def SimpleName MethodInvocation SimpleName get type version
+old type version SimpleName VariableDeclarationFragment MethodInvocation SimpleName old type def
+old type version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old type version
+new type def SimpleName MethodInvocation SimpleName get type version
+new type version SimpleName VariableDeclarationFragment MethodInvocation SimpleName new type def
+new type version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new type version
+object utils SimpleName MethodInvocation SimpleName compare
+object utils SimpleName MethodInvocation SimpleName new type version
+object utils SimpleName MethodInvocation SimpleName old type version
+compare SimpleName MethodInvocation SimpleName new type version
+compare SimpleName MethodInvocation SimpleName old type version
+new type version SimpleName MethodInvocation SimpleName old type version
+object utils SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare SimpleName MethodInvocation InfixExpression NumberLiteral empty
+new type version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+old type version SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName object utils
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName compare
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName new type version
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName old type version
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName check version
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+check version SimpleName IfStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is type update applicable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new type def
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is type update applicable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName old type def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName new type def
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName check version
+boolean PrimitiveType MethodDeclaration SimpleName is type update applicable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName check version
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName check version
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old type def
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+is type update applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName check version
+is type update applicable SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is type update applicable SimpleName MethodDeclaration Block IfStatement SimpleName check version
+is type update applicable SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+old type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+old type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+old type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check version
+new type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+new type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is type update applicable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check version
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is type update applicable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check version

@@ -1,0 +1,88 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName type categoryprimitive
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryprimitive
+type SimpleName InstanceofExpression SimpleType SimpleName atlas array type
+atlas array type SimpleName SimpleType CastExpression SimpleName type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas array type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array type
+array type SimpleName MethodInvocation SimpleName get element type
+add type SimpleName MethodInvocation MethodInvocation SimpleName array type
+add type SimpleName MethodInvocation MethodInvocation SimpleName get element type
+add type SimpleName MethodInvocation SimpleName context
+array type SimpleName MethodInvocation MethodInvocation SimpleName context
+get element type SimpleName MethodInvocation MethodInvocation SimpleName context
+type SimpleName InstanceofExpression SimpleType SimpleName atlas map type
+atlas map type SimpleName SimpleType CastExpression SimpleName type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas map type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas map type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map type
+map type SimpleName MethodInvocation SimpleName get key type
+add type SimpleName MethodInvocation MethodInvocation SimpleName map type
+add type SimpleName MethodInvocation MethodInvocation SimpleName get key type
+add type SimpleName MethodInvocation SimpleName context
+map type SimpleName MethodInvocation MethodInvocation SimpleName context
+get key type SimpleName MethodInvocation MethodInvocation SimpleName context
+map type SimpleName MethodInvocation SimpleName get value type
+add type SimpleName MethodInvocation MethodInvocation SimpleName map type
+add type SimpleName MethodInvocation MethodInvocation SimpleName get value type
+add type SimpleName MethodInvocation SimpleName context
+map type SimpleName MethodInvocation MethodInvocation SimpleName context
+get value type SimpleName MethodInvocation MethodInvocation SimpleName context
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+add entity type SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas entity type
+add entity type SimpleName MethodInvocation CastExpression SimpleName type
+add entity type SimpleName MethodInvocation SimpleName context
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+type SimpleName CastExpression MethodInvocation SimpleName context
+type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+add classification type SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas classification type
+add classification type SimpleName MethodInvocation CastExpression SimpleName type
+add classification type SimpleName MethodInvocation SimpleName context
+atlas classification type SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+type SimpleName CastExpression MethodInvocation SimpleName context
+type SimpleName InstanceofExpression SimpleType SimpleName atlas struct type
+atlas struct type SimpleName SimpleType CastExpression SimpleName type
+add struct type SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+add struct type SimpleName MethodInvocation CastExpression SimpleName type
+add struct type SimpleName MethodInvocation SimpleName context
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+type SimpleName CastExpression MethodInvocation SimpleName context
+type SimpleName InstanceofExpression SimpleType SimpleName atlas enum type
+atlas enum type SimpleName SimpleType CastExpression SimpleName type
+add enum type SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas enum type
+add enum type SimpleName MethodInvocation CastExpression SimpleName type
+add enum type SimpleName MethodInvocation SimpleName context
+atlas enum type SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+type SimpleName CastExpression MethodInvocation SimpleName context
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName add type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

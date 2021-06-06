@@ -1,0 +1,111 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+method name SimpleName VariableDeclarationFragment StringLiteral get entity universe
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get entity universe
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get entity universe
+get entity detail SimpleName MethodInvocation SimpleName user id
+get entity detail SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation SimpleName guid
+entity detail SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity detail
+entity detail SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+entity detail SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity detail
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName instance status
+instance statuses SimpleName MethodInvocation SimpleName add
+instance statuses SimpleName MethodInvocation QualifiedName instance statusactive
+add SimpleName MethodInvocation QualifiedName instance statusactive
+get relationships for entity SimpleName MethodInvocation SimpleName user id
+get relationships for entity SimpleName MethodInvocation SimpleName guid
+get relationships for entity SimpleName MethodInvocation NumberLiteral empty
+get relationships for entity SimpleName MethodInvocation SimpleName instance statuses
+user id SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation NumberLiteral empty
+user id SimpleName MethodInvocation SimpleName instance statuses
+guid SimpleName MethodInvocation NumberLiteral empty
+guid SimpleName MethodInvocation SimpleName instance statuses
+empty NumberLiteral MethodInvocation SimpleName instance statuses
+empty NumberLiteral MethodInvocation NumberLiteral empty
+instance statuses SimpleName MethodInvocation NumberLiteral empty
+relationships SimpleName Assignment MethodInvocation SimpleName get relationships for entity
+relationships SimpleName Assignment MethodInvocation SimpleName user id
+relationships SimpleName Assignment MethodInvocation SimpleName guid
+relationships SimpleName Assignment MethodInvocation NumberLiteral empty
+relationships SimpleName Assignment MethodInvocation SimpleName instance statuses
+relationships SimpleName Assignment MethodInvocation NumberLiteral empty
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+throw captured throwable exception SimpleName MethodInvocation SimpleName error
+throw captured throwable exception SimpleName MethodInvocation SimpleName method name
+error SimpleName MethodInvocation SimpleName method name
+entity universe SimpleName SimpleType ClassInstanceCreation SimpleName entity detail
+entity universe SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity universe
+entity universe SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity detail
+entity universe SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity universe
+entity universe SimpleName MethodInvocation SimpleName set entity relationships
+entity universe SimpleName MethodInvocation SimpleName relationships
+set entity relationships SimpleName MethodInvocation SimpleName relationships
+public Modifier MethodDeclaration SimpleType SimpleName entity universe
+public Modifier MethodDeclaration SimpleName get entity universe
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity universe SimpleName SimpleType MethodDeclaration SimpleName get entity universe
+entity universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+get entity universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get entity universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity universe SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get entity universe SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+get entity universe SimpleName MethodDeclaration SimpleType SimpleName entity not known exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity proxy only exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity proxy only exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity proxy only exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not known exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity proxy only exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+entity not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity proxy only exception
+entity not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+entity proxy only exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity universe
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity universe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity proxy only exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity universe
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity universe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not known exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity proxy only exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

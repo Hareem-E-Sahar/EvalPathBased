@@ -1,0 +1,48 @@
+graph SimpleName SimpleType SingleVariableDeclaration SimpleName graph
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName migration status
+migration status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ms
+graph SimpleName MethodInvocation SimpleName traversal
+fetch using type name SimpleName MethodInvocation MethodInvocation SimpleName graph
+fetch using type name SimpleName MethodInvocation MethodInvocation SimpleName traversal
+set values SimpleName MethodInvocation SimpleName ms
+set values SimpleName MethodInvocation MethodInvocation SimpleName fetch using type name
+set values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph
+set values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName traversal
+ms SimpleName MethodInvocation MethodInvocation SimpleName fetch using type name
+ms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph
+ms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName traversal
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral get failed
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral get failed
+error SimpleName MethodInvocation SimpleName ex
+get failed StringLiteral MethodInvocation SimpleName ex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName migration status
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ms
+static Modifier MethodDeclaration SimpleType SimpleName migration status
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ms
+migration status SimpleName SimpleType MethodDeclaration SimpleName get
+migration status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName graph
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName graph
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName ms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph

@@ -1,0 +1,244 @@
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get client address string
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get client address string
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get client address string
+constantsztservers QualifiedName InfixExpression StringLiteral /
+constantsztservers QualifiedName InfixExpression MethodInvocation SimpleName get client address string
+/ StringLiteral InfixExpression MethodInvocation SimpleName get client address string
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+z path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztservers
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get client address string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName z path
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName z path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+z path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+z path SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+zoo lock SimpleName SimpleType ClassInstanceCreation SimpleName z path
+tablet server lock SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo lock
+tablet server lock SimpleName Assignment ClassInstanceCreation SimpleName z path
+final Modifier SingleVariableDeclaration SimpleType SimpleName lock loss reason
+final Modifier SingleVariableDeclaration SimpleName reason
+lock loss reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+lost tablet server lock reason = StringLiteral InfixExpression SimpleName reason
+lost tablet server lock reason = StringLiteral InfixExpression StringLiteral ) exiting
+reason SimpleName InfixExpression StringLiteral ) exiting
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral lost tablet server lock reason =
+log SimpleName MethodInvocation InfixExpression SimpleName reason
+log SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+fatal SimpleName MethodInvocation InfixExpression StringLiteral lost tablet server lock reason =
+fatal SimpleName MethodInvocation InfixExpression SimpleName reason
+fatal SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+log gc info SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName lost lock
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lost lock
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration SimpleName lost lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+final Modifier SingleVariableDeclaration SimpleType SimpleName throwable
+final Modifier SingleVariableDeclaration SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation StringLiteral lost ability to monitor tablet server lock exiting
+log SimpleName MethodInvocation SimpleName e
+fatal SimpleName MethodInvocation StringLiteral lost ability to monitor tablet server lock exiting
+fatal SimpleName MethodInvocation SimpleName e
+lost ability to monitor tablet server lock exiting StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unable to monitor lock node
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName unable to monitor lock node
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName unable to monitor lock node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName unable to monitor lock node
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName unable to monitor lock node
+lost lock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+lost lock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+lost lock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName unable to monitor lock node
+lw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName lock watcher
+lock watcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lw
+server services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get client address string
+server services SimpleName SimpleType ClassInstanceCreation QualifiedName servicetserv client
+get client address string SimpleName MethodInvocation ClassInstanceCreation QualifiedName servicetserv client
+server services SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+get client address string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+servicetserv client QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+servicetserv client QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+servicetserv client QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName utf
+to string SimpleName MethodInvocation MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+lock content SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+lock content SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+lock content SimpleName VariableDeclarationFragment MethodInvocation SimpleName utf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock content
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName z path
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName z path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+z path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+z path SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+z path SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyskip
+tablet server lock SimpleName MethodInvocation SimpleName try lock
+tablet server lock SimpleName MethodInvocation SimpleName lw
+tablet server lock SimpleName MethodInvocation SimpleName lock content
+try lock SimpleName MethodInvocation SimpleName lw
+try lock SimpleName MethodInvocation SimpleName lock content
+lw SimpleName MethodInvocation SimpleName lock content
+tablet server lock SimpleName MethodInvocation SimpleName get lock path
+obtained tablet server lock StringLiteral InfixExpression MethodInvocation SimpleName tablet server lock
+obtained tablet server lock StringLiteral InfixExpression MethodInvocation SimpleName get lock path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral obtained tablet server lock
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet server lock
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get lock path
+debug SimpleName MethodInvocation InfixExpression StringLiteral obtained tablet server lock
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet server lock
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get lock path
+tablet server lock SimpleName MethodInvocation SimpleName get lock id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+constantsztservers QualifiedName InfixExpression StringLiteral /
+tablet server lock SimpleName MethodInvocation MethodInvocation SimpleName serialize
+get lock id SimpleName MethodInvocation MethodInvocation SimpleName serialize
+tablet server lock SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztservers
+tablet server lock SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get lock id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztservers
+get lock id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+serialize SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+serialize SimpleName MethodInvocation InfixExpression StringLiteral /
+lock id SimpleName Assignment MethodInvocation MethodInvocation SimpleName tablet server lock
+lock id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get lock id
+lock id SimpleName Assignment MethodInvocation SimpleName serialize
+lock id SimpleName Assignment MethodInvocation InfixExpression QualifiedName constantsztservers
+lock id SimpleName Assignment MethodInvocation InfixExpression StringLiteral /
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral waiting for tablet server lock
+info SimpleName MethodInvocation StringLiteral waiting for tablet server lock
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+msg SimpleName VariableDeclarationFragment StringLiteral too many retries exiting
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral too many retries exiting
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation SimpleName msg
+info SimpleName MethodInvocation SimpleName msg
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral could not obtain tablet server lock exiting
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral could not obtain tablet server lock exiting
+info SimpleName MethodInvocation SimpleName e
+could not obtain tablet server lock exiting StringLiteral MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName announce existence
+void PrimitiveType MethodDeclaration SimpleName announce existence
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName announce existence
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName announce existence

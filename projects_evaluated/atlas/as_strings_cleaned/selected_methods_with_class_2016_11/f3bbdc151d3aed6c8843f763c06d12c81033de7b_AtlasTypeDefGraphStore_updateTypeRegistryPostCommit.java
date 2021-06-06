@@ -1,0 +1,20 @@
+atlas transient type registry SimpleName SimpleType SingleVariableDeclaration SimpleName ttr
+type registry update hook SimpleName SimpleType ClassInstanceCreation SimpleName ttr
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update type registry post commit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ttr
+void PrimitiveType MethodDeclaration SimpleName update type registry post commit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ttr
+update type registry post commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+update type registry post commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ttr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update type registry post commit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ttr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update type registry post commit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ttr

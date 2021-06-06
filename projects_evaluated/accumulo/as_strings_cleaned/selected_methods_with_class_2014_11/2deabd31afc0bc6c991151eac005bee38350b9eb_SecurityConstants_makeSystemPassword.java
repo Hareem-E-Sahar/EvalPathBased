@@ -1,0 +1,82 @@
+wire version SimpleName VariableDeclarationFragment QualifiedName constantswire version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wire version
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName constantswire version
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utf
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName utf
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+inst SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance id
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName utf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+conf checksum SimpleName Assignment MethodInvocation SimpleName get system config checksum
+no such algorithm exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to compute configuration checksum
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to compute configuration checksum StringLiteral ClassInstanceCreation SimpleName e
+integersize QualifiedName InfixExpression QualifiedName bytesize
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName integersize
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName bytesize
+empty NumberLiteral InfixExpression InfixExpression QualifiedName instlength
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName conf checksumlength
+instlength QualifiedName InfixExpression InfixExpression QualifiedName conf checksumlength
+byte array output stream SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName conf checksumlength
+bytes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+bytes SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName conf checksumlength
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bytes
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+wire version SimpleName InfixExpression PrefixExpression NumberLiteral empty
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation InfixExpression SimpleName wire version
+out SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+write SimpleName MethodInvocation InfixExpression SimpleName wire version
+write SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation QualifiedName instlength
+write SimpleName MethodInvocation QualifiedName instlength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName inst
+write SimpleName MethodInvocation SimpleName inst
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation QualifiedName conf checksumlength
+write SimpleName MethodInvocation QualifiedName conf checksumlength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName conf checksum
+write SimpleName MethodInvocation SimpleName conf checksum
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bytes SimpleName MethodInvocation SimpleName to byte array
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName bytes
+base SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+encode base SimpleName MethodInvocation MethodInvocation SimpleName bytes
+encode base SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName authentication token
+private Modifier MethodDeclaration SimpleName make system password
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration SimpleType SimpleName authentication token
+static Modifier MethodDeclaration SimpleName make system password
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+authentication token SimpleName SimpleType MethodDeclaration SimpleName make system password
+make system password SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+public Modifier TypeDeclaration MethodDeclaration SimpleName make system password
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make system password

@@ -1,0 +1,500 @@
+control SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster control
+mini accumulo cluster control SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName control
+config SimpleName MethodInvocation SimpleName use existing instance
+config SimpleName MethodInvocation SimpleName get accumulo configuration
+acu conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+acu conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get accumulo configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acu conf
+config SimpleName MethodInvocation SimpleName get hadoop configuration
+hadoop conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+hadoop conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hadoop configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hadoop conf
+configuration copy SimpleName SimpleType ClassInstanceCreation SimpleName acu conf
+cc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration copy
+cc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName acu conf
+configuration copy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cc
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+volume manager impl SimpleName MethodInvocation SimpleName get
+volume manager impl SimpleName MethodInvocation SimpleName cc
+volume manager impl SimpleName MethodInvocation SimpleName hadoop conf
+get SimpleName MethodInvocation SimpleName cc
+get SimpleName MethodInvocation SimpleName hadoop conf
+cc SimpleName MethodInvocation SimpleName hadoop conf
+fs SimpleName Assignment MethodInvocation SimpleName volume manager impl
+fs SimpleName Assignment MethodInvocation SimpleName get
+fs SimpleName Assignment MethodInvocation SimpleName cc
+fs SimpleName Assignment MethodInvocation SimpleName hadoop conf
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo SimpleName MethodInvocation SimpleName get accumulo instance id path
+accumulo SimpleName MethodInvocation SimpleName fs
+get accumulo instance id path SimpleName MethodInvocation SimpleName fs
+instance id path SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+instance id path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get accumulo instance id path
+instance id path SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id path
+zoo util SimpleName MethodInvocation SimpleName get instance id from hdfs
+zoo util SimpleName MethodInvocation SimpleName instance id path
+zoo util SimpleName MethodInvocation SimpleName cc
+zoo util SimpleName MethodInvocation SimpleName hadoop conf
+get instance id from hdfs SimpleName MethodInvocation SimpleName instance id path
+get instance id from hdfs SimpleName MethodInvocation SimpleName cc
+get instance id from hdfs SimpleName MethodInvocation SimpleName hadoop conf
+instance id path SimpleName MethodInvocation SimpleName cc
+instance id path SimpleName MethodInvocation SimpleName hadoop conf
+cc SimpleName MethodInvocation SimpleName hadoop conf
+instance id from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo util
+instance id from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance id from hdfs
+instance id from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance id path
+instance id from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName cc
+instance id from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName hadoop conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id from file
+cc SimpleName MethodInvocation SimpleName get
+cc SimpleName MethodInvocation QualifiedName propertyinstance zk host
+get SimpleName MethodInvocation QualifiedName propertyinstance zk host
+cc SimpleName MethodInvocation SimpleName get time in millis
+cc SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+int PrimitiveType CastExpression MethodInvocation SimpleName cc
+int PrimitiveType CastExpression MethodInvocation SimpleName get time in millis
+int PrimitiveType CastExpression MethodInvocation QualifiedName propertyinstance zk timeout
+cc SimpleName MethodInvocation SimpleName get
+cc SimpleName MethodInvocation QualifiedName propertyinstance secret
+get SimpleName MethodInvocation QualifiedName propertyinstance secret
+zoo reader writer factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo reader writer
+get zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName cc
+get zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get
+get zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance zk host
+get zoo reader writer SimpleName MethodInvocation CastExpression PrimitiveType int
+get zoo reader writer SimpleName MethodInvocation CastExpression MethodInvocation SimpleName cc
+get zoo reader writer SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get time in millis
+get zoo reader writer SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName propertyinstance zk timeout
+get zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName cc
+get zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get
+get zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+cc SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+get SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+propertyinstance zk host QualifiedName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+cc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cc
+cc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+cc SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cc
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+propertyinstance zk host QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cc
+propertyinstance zk host QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+propertyinstance zk host QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName cc
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get
+int PrimitiveType CastExpression MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+zrw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zoo reader writer
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cc
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertyinstance zk host
+zrw SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType int
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cc
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+zrw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertyinstance secret
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zrw
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance id from file
+get root SimpleName MethodInvocation SimpleName instance id from file
+root path SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo util
+root path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+root path SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance id from file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+zrw SimpleName MethodInvocation SimpleName get children
+zrw SimpleName MethodInvocation InfixExpression QualifiedName constantszroot
+zrw SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszroot
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName name
+constantszinstances QualifiedName InfixExpression StringLiteral /
+constantszinstances QualifiedName InfixExpression SimpleName name
+/ StringLiteral InfixExpression SimpleName name
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszinstances
+instance name path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+instance name path SimpleName VariableDeclarationFragment InfixExpression SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name path
+zrw SimpleName MethodInvocation SimpleName get data
+zrw SimpleName MethodInvocation SimpleName instance name path
+zrw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+get data SimpleName MethodInvocation SimpleName instance name path
+get data SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+instance name path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName zrw
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance name path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+bytes SimpleName ClassInstanceCreation SimpleName utf
+iid SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+iid SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bytes
+iid SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iid
+iid SimpleName MethodInvocation SimpleName equals
+iid SimpleName MethodInvocation SimpleName instance id from file
+equals SimpleName MethodInvocation SimpleName instance id from file
+instance name SimpleName Assignment SimpleName name
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zrw
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to read instance name from zookeeper
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unable to read instance name from zookeeper StringLiteral ClassInstanceCreation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to read instance name from zookeeper
+config SimpleName MethodInvocation SimpleName set instance name
+config SimpleName MethodInvocation SimpleName instance name
+set instance name SimpleName MethodInvocation SimpleName instance name
+accumulo status SimpleName MethodInvocation SimpleName is accumulo offline
+accumulo status SimpleName MethodInvocation SimpleName zrw
+accumulo status SimpleName MethodInvocation SimpleName root path
+is accumulo offline SimpleName MethodInvocation SimpleName zrw
+is accumulo offline SimpleName MethodInvocation SimpleName root path
+zrw SimpleName MethodInvocation SimpleName root path
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral the accumulo instance being used is already running aborting
+runtime SimpleName MethodInvocation SimpleName get runtime
+mini accumulo cluster impl SimpleName ThisExpression MethodInvocation SimpleName stop
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral io exception while attempting to stop the mini accumulo cluster
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral io exception while attempting to stop the mini accumulo cluster
+error SimpleName MethodInvocation SimpleName e
+io exception while attempting to stop the mini accumulo cluster StringLiteral MethodInvocation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral the stopping of mini accumulo cluster was interrupted
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral the stopping of mini accumulo cluster was interrupted
+error SimpleName MethodInvocation SimpleName e
+the stopping of mini accumulo cluster was interrupted StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+runtime SimpleName MethodInvocation MethodInvocation SimpleName add shutdown hook
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName add shutdown hook
+add shutdown hook SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thread
+control SimpleName MethodInvocation SimpleName start
+control SimpleName MethodInvocation QualifiedName server typezookeeper
+start SimpleName MethodInvocation QualifiedName server typezookeeper
+system SimpleName MethodInvocation SimpleName current time millis
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+config SimpleName MethodInvocation SimpleName get zoo keeper port
+socket SimpleName SimpleType ClassInstanceCreation StringLiteral localhost
+socket SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName config
+socket SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keeper port
+localhost StringLiteral ClassInstanceCreation MethodInvocation SimpleName config
+localhost StringLiteral ClassInstanceCreation MethodInvocation SimpleName get zoo keeper port
+s SimpleName Assignment ClassInstanceCreation SimpleType SimpleName socket
+s SimpleName Assignment ClassInstanceCreation StringLiteral localhost
+s SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName config
+s SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get zoo keeper port
+s SimpleName MethodInvocation SimpleName set reuse address
+s SimpleName MethodInvocation BooleanLiteral true
+set reuse address SimpleName MethodInvocation BooleanLiteral true
+s SimpleName MethodInvocation SimpleName get output stream
+ruok StringLiteral MethodInvocation SimpleName get bytes
+s SimpleName MethodInvocation MethodInvocation SimpleName write
+get output stream SimpleName MethodInvocation MethodInvocation SimpleName write
+s SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ruok
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get output stream SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral ruok
+get output stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation StringLiteral ruok
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+s SimpleName MethodInvocation SimpleName get output stream
+s SimpleName MethodInvocation MethodInvocation SimpleName flush
+get output stream SimpleName MethodInvocation MethodInvocation SimpleName flush
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+s SimpleName MethodInvocation SimpleName get input stream
+s SimpleName MethodInvocation MethodInvocation SimpleName read
+get input stream SimpleName MethodInvocation MethodInvocation SimpleName read
+s SimpleName MethodInvocation MethodInvocation SimpleName buffer
+get input stream SimpleName MethodInvocation MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+n SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName s
+n SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get input stream
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buffer
+n SimpleName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName equals
+buffer SimpleName ClassInstanceCreation MethodInvocation SimpleName equals
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName equals
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName equals
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral imok
+buffer SimpleName ClassInstanceCreation MethodInvocation StringLiteral imok
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral imok
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral imok
+equals SimpleName MethodInvocation StringLiteral imok
+n SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+n SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral imok
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation StringLiteral imok
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start time
+config SimpleName MethodInvocation SimpleName get zoo keeper startup time
+start time SimpleName InfixExpression InfixExpression MethodInvocation SimpleName config
+start time SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get zoo keeper startup time
+config SimpleName MethodInvocation SimpleName get zoo keeper startup time
+config SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get zoo keeper startup time SimpleName MethodInvocation InfixExpression NumberLiteral empty
+config SimpleName MethodInvocation SimpleName get log dir
+zookeeper did not start within StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+zookeeper did not start within StringLiteral InfixExpression StringLiteral seconds check the logs in
+zookeeper did not start within StringLiteral InfixExpression MethodInvocation SimpleName config
+zookeeper did not start within StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+zookeeper did not start within StringLiteral InfixExpression StringLiteral for errors last exception
+zookeeper did not start within StringLiteral InfixExpression SimpleName e
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral seconds check the logs in
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral for errors last exception
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName e
+seconds check the logs in StringLiteral InfixExpression MethodInvocation SimpleName config
+seconds check the logs in StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+seconds check the logs in StringLiteral InfixExpression StringLiteral for errors last exception
+seconds check the logs in StringLiteral InfixExpression SimpleName e
+config SimpleName MethodInvocation InfixExpression StringLiteral for errors last exception
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral for errors last exception
+config SimpleName MethodInvocation InfixExpression SimpleName e
+get log dir SimpleName MethodInvocation InfixExpression SimpleName e
+for errors last exception StringLiteral InfixExpression SimpleName e
+zoo keeper bind exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral zookeeper did not start within
+zoo keeper bind exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral seconds check the logs in
+zoo keeper bind exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for errors last exception
+zoo keeper bind exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName e
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName close
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation StringLiteral instancename
+add SimpleName MethodInvocation StringLiteral instancename
+config SimpleName MethodInvocation SimpleName get instance name
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation MethodInvocation SimpleName config
+args SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+add SimpleName MethodInvocation MethodInvocation SimpleName config
+add SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation StringLiteral user
+add SimpleName MethodInvocation StringLiteral user
+config SimpleName MethodInvocation SimpleName get root user name
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation MethodInvocation SimpleName config
+args SimpleName MethodInvocation MethodInvocation SimpleName get root user name
+add SimpleName MethodInvocation MethodInvocation SimpleName config
+add SimpleName MethodInvocation MethodInvocation SimpleName get root user name
+config SimpleName MethodInvocation SimpleName get site config
+propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+config SimpleName MethodInvocation MethodInvocation SimpleName get
+get site config SimpleName MethodInvocation MethodInvocation SimpleName get
+config SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get site config SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+get site config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site config
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertyinstance rpc sasl enabled
+sasl enabled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sasl enabled
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sasl enabled
+boolean SimpleName MethodInvocation SimpleName parse boolean
+boolean SimpleName MethodInvocation SimpleName sasl enabled
+parse boolean SimpleName MethodInvocation SimpleName sasl enabled
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation StringLiteral password
+add SimpleName MethodInvocation StringLiteral password
+config SimpleName MethodInvocation SimpleName get root password
+args SimpleName MethodInvocation SimpleName add
+args SimpleName MethodInvocation MethodInvocation SimpleName config
+args SimpleName MethodInvocation MethodInvocation SimpleName get root password
+add SimpleName MethodInvocation MethodInvocation SimpleName config
+add SimpleName MethodInvocation MethodInvocation SimpleName get root password
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+args SimpleName MethodInvocation SimpleName to array
+args SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName initialize
+exec SimpleName MethodInvocation MethodInvocation SimpleName args
+exec SimpleName MethodInvocation MethodInvocation SimpleName to array
+exec SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+init process SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName args
+init process SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to array
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName init process
+init process SimpleName MethodInvocation SimpleName wait for
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName init process
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName init process
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wait for
+ret SimpleName InfixExpression NumberLiteral empty
+config SimpleName MethodInvocation SimpleName get log dir
+initialize process returned StringLiteral InfixExpression SimpleName ret
+initialize process returned StringLiteral InfixExpression StringLiteral . check the logs in
+initialize process returned StringLiteral InfixExpression MethodInvocation SimpleName config
+initialize process returned StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+initialize process returned StringLiteral InfixExpression StringLiteral for errors
+ret SimpleName InfixExpression StringLiteral . check the logs in
+ret SimpleName InfixExpression MethodInvocation SimpleName config
+ret SimpleName InfixExpression MethodInvocation SimpleName get log dir
+ret SimpleName InfixExpression StringLiteral for errors
+. check the logs in StringLiteral InfixExpression MethodInvocation SimpleName config
+. check the logs in StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+. check the logs in StringLiteral InfixExpression StringLiteral for errors
+config SimpleName MethodInvocation InfixExpression StringLiteral for errors
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral for errors
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral initialize process returned
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ret
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral . check the logs in
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for errors
+initialized SimpleName Assignment BooleanLiteral true
+long PrimitiveType VariableDeclarationStatement Block WhileStatement BooleanLiteral true
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+config SimpleName MethodInvocation SimpleName get instance name
+config SimpleName MethodInvocation SimpleName get zoo keepers
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral starting mac against instance {} and zookeepers {}.
+log SimpleName MethodInvocation MethodInvocation SimpleName config
+log SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+log SimpleName MethodInvocation MethodInvocation SimpleName config
+log SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+info SimpleName MethodInvocation StringLiteral starting mac against instance {} and zookeepers {}.
+info SimpleName MethodInvocation MethodInvocation SimpleName config
+info SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+info SimpleName MethodInvocation MethodInvocation SimpleName config
+info SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+starting mac against instance {} and zookeepers {}. StringLiteral MethodInvocation MethodInvocation SimpleName config
+starting mac against instance {} and zookeepers {}. StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+starting mac against instance {} and zookeepers {}. StringLiteral MethodInvocation MethodInvocation SimpleName config
+starting mac against instance {} and zookeepers {}. StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+control SimpleName MethodInvocation SimpleName start
+control SimpleName MethodInvocation QualifiedName server typetablet server
+start SimpleName MethodInvocation QualifiedName server typetablet server
+ret SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+set goal state SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+master goal statenormal QualifiedName MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName main
+exec SimpleName MethodInvocation MethodInvocation SimpleName get name
+exec SimpleName MethodInvocation MethodInvocation QualifiedName master goal statenormal
+exec SimpleName MethodInvocation MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName master goal statenormal
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+master goal statenormal QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait for
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName exec
+ret SimpleName Assignment MethodInvocation SimpleName wait for
+ret SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+ret SimpleName InfixExpression NumberLiteral empty
+config SimpleName MethodInvocation SimpleName get log dir
+could not set master goal state process returned StringLiteral InfixExpression SimpleName ret
+could not set master goal state process returned StringLiteral InfixExpression StringLiteral . check the logs in
+could not set master goal state process returned StringLiteral InfixExpression MethodInvocation SimpleName config
+could not set master goal state process returned StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+could not set master goal state process returned StringLiteral InfixExpression StringLiteral for errors
+ret SimpleName InfixExpression StringLiteral . check the logs in
+ret SimpleName InfixExpression MethodInvocation SimpleName config
+ret SimpleName InfixExpression MethodInvocation SimpleName get log dir
+ret SimpleName InfixExpression StringLiteral for errors
+. check the logs in StringLiteral InfixExpression MethodInvocation SimpleName config
+. check the logs in StringLiteral InfixExpression MethodInvocation SimpleName get log dir
+. check the logs in StringLiteral InfixExpression StringLiteral for errors
+config SimpleName MethodInvocation InfixExpression StringLiteral for errors
+get log dir SimpleName MethodInvocation InfixExpression StringLiteral for errors
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not set master goal state process returned
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ret
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral . check the logs in
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for errors
+control SimpleName MethodInvocation SimpleName start
+control SimpleName MethodInvocation QualifiedName server typemaster
+start SimpleName MethodInvocation QualifiedName server typemaster
+control SimpleName MethodInvocation SimpleName start
+control SimpleName MethodInvocation QualifiedName server typegarbage collector
+start SimpleName MethodInvocation QualifiedName server typegarbage collector
+executors SimpleName MethodInvocation SimpleName new single thread executor
+executor SimpleName Assignment MethodInvocation SimpleName executors
+executor SimpleName Assignment MethodInvocation SimpleName new single thread executor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName start
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start SimpleName MethodDeclaration SimpleType SimpleName io exception
+start SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start

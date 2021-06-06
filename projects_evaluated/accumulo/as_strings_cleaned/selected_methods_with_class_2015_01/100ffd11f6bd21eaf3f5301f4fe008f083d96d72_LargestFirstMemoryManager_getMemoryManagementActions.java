@@ -1,0 +1,491 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet state
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+tablet state SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+max memory SimpleName InfixExpression NumberLiteral empty
+largest first memory manager SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+need to initialize StringLiteral InfixExpression MethodInvocation SimpleName get name
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral need to initialize
+max concurrent mincs SimpleName InfixExpression SimpleName num waiting multiplier
+max min cs SimpleName VariableDeclarationFragment InfixExpression SimpleName max concurrent mincs
+max min cs SimpleName VariableDeclarationFragment InfixExpression SimpleName num waiting multiplier
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName max min cs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName max concurrent mincs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName num waiting multiplier
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max min cs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName max concurrent mincs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName num waiting multiplier
+minc idle thresholds SimpleName MethodInvocation SimpleName clear
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName memory management actions
+final Modifier VariableDeclarationStatement SimpleType SimpleName memory management actions
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+memory management actions SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+largest map SimpleName SimpleType ClassInstanceCreation SimpleName max min cs
+largest mem tablets SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName largest map
+largest mem tablets SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName max min cs
+largest map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName largest mem tablets
+largest map SimpleName SimpleType ClassInstanceCreation SimpleName max concurrent mincs
+largest idle mem tablets SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName largest map
+largest idle mem tablets SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName max concurrent mincs
+final Modifier VariableDeclarationStatement SimpleType SimpleName largest map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName largest idle mem tablets
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName max concurrent mincs
+largest map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName largest idle mem tablets
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+ingest memory SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+compaction memory SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName compaction memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num waiting mincs SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num waiting mincs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet state SimpleName SimpleType SingleVariableDeclaration SimpleName ts
+ts SimpleName MethodInvocation SimpleName get mem table size
+mem tablet size SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+mem tablet size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mem table size
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName mem tablet size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get mem table size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mem tablet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get mem table size
+ts SimpleName MethodInvocation SimpleName get minor compacting mem table size
+minor compacting size SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+minor compacting size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get minor compacting mem table size
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName minor compacting size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get minor compacting mem table size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName minor compacting size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get minor compacting mem table size
+ts SimpleName MethodInvocation SimpleName get last commit time
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation MethodInvocation SimpleName ts
+math SimpleName MethodInvocation MethodInvocation SimpleName get last commit time
+math SimpleName MethodInvocation SimpleName zero time
+max SimpleName MethodInvocation MethodInvocation SimpleName ts
+max SimpleName MethodInvocation MethodInvocation SimpleName get last commit time
+max SimpleName MethodInvocation SimpleName zero time
+ts SimpleName MethodInvocation MethodInvocation SimpleName zero time
+get last commit time SimpleName MethodInvocation MethodInvocation SimpleName zero time
+now SimpleName InfixExpression MethodInvocation SimpleName math
+now SimpleName InfixExpression MethodInvocation SimpleName max
+now SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ts
+now SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get last commit time
+now SimpleName InfixExpression MethodInvocation SimpleName zero time
+idle time SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+idle time SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName math
+idle time SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName max
+idle time SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zero time
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName idle time
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idle time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+time memory load SimpleName MethodInvocation SimpleName mem tablet size
+time memory load SimpleName MethodInvocation SimpleName idle time
+mem tablet size SimpleName MethodInvocation SimpleName idle time
+time memory load SimpleName VariableDeclarationFragment MethodInvocation SimpleName time memory load
+time memory load SimpleName VariableDeclarationFragment MethodInvocation SimpleName mem tablet size
+time memory load SimpleName VariableDeclarationFragment MethodInvocation SimpleName idle time
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName time memory load
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName time memory load
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mem tablet size
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName idle time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time memory load
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName time memory load
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mem tablet size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName idle time
+ingest memory SimpleName Assignment SimpleName mem tablet size
+minor compacting size SimpleName InfixExpression NumberLiteral empty
+mem tablet size SimpleName InfixExpression NumberLiteral empty
+minor compacting size SimpleName InfixExpression InfixExpression InfixExpression SimpleName mem tablet size
+minor compacting size SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName mem tablet size
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ts SimpleName MethodInvocation SimpleName get extent
+tablet info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ts
+tablet info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get extent
+tablet info SimpleName SimpleType ClassInstanceCreation SimpleName mem tablet size
+tablet info SimpleName SimpleType ClassInstanceCreation SimpleName idle time
+tablet info SimpleName SimpleType ClassInstanceCreation SimpleName time memory load
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleName mem tablet size
+get extent SimpleName MethodInvocation ClassInstanceCreation SimpleName mem tablet size
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleName idle time
+get extent SimpleName MethodInvocation ClassInstanceCreation SimpleName idle time
+ts SimpleName MethodInvocation ClassInstanceCreation SimpleName time memory load
+get extent SimpleName MethodInvocation ClassInstanceCreation SimpleName time memory load
+mem tablet size SimpleName ClassInstanceCreation SimpleName idle time
+mem tablet size SimpleName ClassInstanceCreation SimpleName time memory load
+idle time SimpleName ClassInstanceCreation SimpleName time memory load
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet info
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ts
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get extent
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mem tablet size
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName idle time
+tablet info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName time memory load
+tablet info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet info
+largest mem tablets SimpleName MethodInvocation SimpleName put
+largest mem tablets SimpleName MethodInvocation SimpleName time memory load
+largest mem tablets SimpleName MethodInvocation SimpleName tablet info
+put SimpleName MethodInvocation SimpleName time memory load
+put SimpleName MethodInvocation SimpleName tablet info
+time memory load SimpleName MethodInvocation SimpleName tablet info
+ts SimpleName MethodInvocation SimpleName get extent
+get min c idle threshold SimpleName MethodInvocation MethodInvocation SimpleName ts
+get min c idle threshold SimpleName MethodInvocation MethodInvocation SimpleName get extent
+idle time SimpleName InfixExpression MethodInvocation SimpleName get min c idle threshold
+idle time SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ts
+idle time SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get extent
+largest idle mem tablets SimpleName MethodInvocation SimpleName put
+largest idle mem tablets SimpleName MethodInvocation SimpleName time memory load
+largest idle mem tablets SimpleName MethodInvocation SimpleName tablet info
+put SimpleName MethodInvocation SimpleName time memory load
+put SimpleName MethodInvocation SimpleName tablet info
+time memory load SimpleName MethodInvocation SimpleName tablet info
+compaction memory SimpleName Assignment SimpleName minor compacting size
+minor compacting size SimpleName InfixExpression NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+tablet state SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+ts SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+ingest memory SimpleName InfixExpression SimpleName compaction memory
+ingest memory SimpleName InfixExpression InfixExpression SimpleName max observed
+compaction memory SimpleName InfixExpression InfixExpression SimpleName max observed
+ingest memory SimpleName InfixExpression SimpleName compaction memory
+max observed SimpleName Assignment InfixExpression SimpleName ingest memory
+max observed SimpleName Assignment InfixExpression SimpleName compaction memory
+ingest memory SimpleName InfixExpression SimpleName prev ingest memory
+memory change SimpleName VariableDeclarationFragment InfixExpression SimpleName ingest memory
+memory change SimpleName VariableDeclarationFragment InfixExpression SimpleName prev ingest memory
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName memory change
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName ingest memory
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName prev ingest memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName memory change
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName ingest memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName prev ingest memory
+prev ingest memory SimpleName Assignment SimpleName ingest memory
+start min c SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start min c
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+num waiting mincs SimpleName InfixExpression SimpleName max min cs
+memory change SimpleName InfixExpression NumberLiteral empty
+ingest memory SimpleName InfixExpression SimpleName memory change
+compaction threshold SimpleName InfixExpression SimpleName max memory
+ingest memory SimpleName InfixExpression InfixExpression InfixExpression SimpleName compaction threshold
+ingest memory SimpleName InfixExpression InfixExpression InfixExpression SimpleName max memory
+memory change SimpleName InfixExpression InfixExpression InfixExpression SimpleName compaction threshold
+memory change SimpleName InfixExpression InfixExpression InfixExpression SimpleName max memory
+start min c SimpleName Assignment BooleanLiteral true
+largest idle mem tablets SimpleName MethodInvocation SimpleName is empty
+start min c SimpleName Assignment BooleanLiteral true
+largest mem tablets SimpleName Assignment SimpleName largest idle mem tablets
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral idle minor compaction chosen
+debug SimpleName MethodInvocation StringLiteral idle minor compaction chosen
+to be compacted SimpleName VariableDeclarationFragment SimpleName compaction memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName to be compacted
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName compaction memory
+i SimpleName VariableDeclarationFragment SimpleName num waiting mincs
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName num waiting mincs
+i SimpleName InfixExpression SimpleName max min cs
+largest mem tablets SimpleName MethodInvocation SimpleName is empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet info
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+largest mem tablets SimpleName MethodInvocation SimpleName last entry
+last entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName largest mem tablets
+last entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName last entry
+tablet info SimpleName SimpleType SingleVariableDeclaration SimpleName largest
+last entry SimpleName MethodInvocation SimpleName get value
+to be compacted SimpleName Assignment QualifiedName largestmem table size
+resulttablets to minor compact QualifiedName MethodInvocation SimpleName add
+resulttablets to minor compact QualifiedName MethodInvocation QualifiedName largestextent
+add SimpleName MethodInvocation QualifiedName largestextent
+largestextent QualifiedName MethodInvocation SimpleName to string
+ingest memory SimpleName InfixExpression SimpleName compaction memory
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral compacting s total = d ingest memory = d
+string SimpleName MethodInvocation MethodInvocation QualifiedName largestextent
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName ingest memory
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName compaction memory
+string SimpleName MethodInvocation SimpleName ingest memory
+format SimpleName MethodInvocation StringLiteral compacting s total = d ingest memory = d
+format SimpleName MethodInvocation MethodInvocation QualifiedName largestextent
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName ingest memory
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName compaction memory
+format SimpleName MethodInvocation SimpleName ingest memory
+compacting s total = d ingest memory = d StringLiteral MethodInvocation MethodInvocation QualifiedName largestextent
+compacting s total = d ingest memory = d StringLiteral MethodInvocation MethodInvocation SimpleName to string
+compacting s total = d ingest memory = d StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName ingest memory
+compacting s total = d ingest memory = d StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName compaction memory
+compacting s total = d ingest memory = d StringLiteral MethodInvocation SimpleName ingest memory
+largestextent QualifiedName MethodInvocation MethodInvocation SimpleName ingest memory
+to string SimpleName MethodInvocation MethodInvocation SimpleName ingest memory
+ingest memory SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName ingest memory
+compaction memory SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName ingest memory
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral compacting s total = d ingest memory = d
+log SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName largestextent
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName ingest memory
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral compacting s total = d ingest memory = d
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName largestextent
+debug SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName ingest memory
+largestidle time QualifiedName InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral chosen mem = d chosen it = %. f load d
+string SimpleName MethodInvocation QualifiedName largestmem table size
+string SimpleName MethodInvocation InfixExpression QualifiedName largestidle time
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+string SimpleName MethodInvocation QualifiedName largestload
+format SimpleName MethodInvocation StringLiteral chosen mem = d chosen it = %. f load d
+format SimpleName MethodInvocation QualifiedName largestmem table size
+format SimpleName MethodInvocation InfixExpression QualifiedName largestidle time
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation QualifiedName largestload
+chosen mem = d chosen it = %. f load d StringLiteral MethodInvocation QualifiedName largestmem table size
+chosen mem = d chosen it = %. f load d StringLiteral MethodInvocation InfixExpression QualifiedName largestidle time
+chosen mem = d chosen it = %. f load d StringLiteral MethodInvocation InfixExpression NumberLiteral .
+chosen mem = d chosen it = %. f load d StringLiteral MethodInvocation QualifiedName largestload
+largestmem table size QualifiedName MethodInvocation InfixExpression QualifiedName largestidle time
+largestmem table size QualifiedName MethodInvocation InfixExpression NumberLiteral .
+largestmem table size QualifiedName MethodInvocation QualifiedName largestload
+largestidle time QualifiedName InfixExpression MethodInvocation QualifiedName largestload
+. NumberLiteral InfixExpression MethodInvocation QualifiedName largestload
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral chosen mem = d chosen it = %. f load d
+log SimpleName MethodInvocation MethodInvocation QualifiedName largestmem table size
+log SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName largestidle time
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation MethodInvocation QualifiedName largestload
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral chosen mem = d chosen it = %. f load d
+debug SimpleName MethodInvocation MethodInvocation QualifiedName largestmem table size
+debug SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName largestidle time
+debug SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+debug SimpleName MethodInvocation MethodInvocation QualifiedName largestload
+ingest memory SimpleName InfixExpression SimpleName max flush at once percent
+to be compacted SimpleName InfixExpression InfixExpression SimpleName ingest memory
+to be compacted SimpleName InfixExpression InfixExpression SimpleName max flush at once percent
+to be compacted SimpleName InfixExpression IfStatement BreakStatement SimpleName outer
+largest SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName last entry
+largest SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+last entry SimpleName MethodInvocation SimpleName get key
+largest mem tablets SimpleName MethodInvocation SimpleName remove
+largest mem tablets SimpleName MethodInvocation MethodInvocation SimpleName last entry
+largest mem tablets SimpleName MethodInvocation MethodInvocation SimpleName get key
+remove SimpleName MethodInvocation MethodInvocation SimpleName last entry
+remove SimpleName MethodInvocation MethodInvocation SimpleName get key
+outer SimpleName LabeledStatement ForStatement VariableDeclarationExpression PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName outer
+memory change SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral before compaction threshold = %. f max observed = d
+string SimpleName MethodInvocation SimpleName compaction threshold
+string SimpleName MethodInvocation SimpleName max observed
+format SimpleName MethodInvocation StringLiteral before compaction threshold = %. f max observed = d
+format SimpleName MethodInvocation SimpleName compaction threshold
+format SimpleName MethodInvocation SimpleName max observed
+before compaction threshold = %. f max observed = d StringLiteral MethodInvocation SimpleName compaction threshold
+before compaction threshold = %. f max observed = d StringLiteral MethodInvocation SimpleName max observed
+compaction threshold SimpleName MethodInvocation SimpleName max observed
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral before compaction threshold = %. f max observed = d
+log SimpleName MethodInvocation MethodInvocation SimpleName compaction threshold
+log SimpleName MethodInvocation MethodInvocation SimpleName max observed
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral before compaction threshold = %. f max observed = d
+debug SimpleName MethodInvocation MethodInvocation SimpleName compaction threshold
+debug SimpleName MethodInvocation MethodInvocation SimpleName max observed
+compaction threshold SimpleName InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression SimpleName max memory
+max observed SimpleName InfixExpression InfixExpression NumberLiteral .
+max observed SimpleName InfixExpression InfixExpression SimpleName max memory
+compaction threshold SimpleName InfixExpression InfixExpression InfixExpression SimpleName max observed
+. NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName max observed
+compaction threshold SimpleName Assignment NumberLiteral .
+compaction threshold SimpleName InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression SimpleName max memory
+max observed SimpleName InfixExpression InfixExpression NumberLiteral .
+max observed SimpleName InfixExpression InfixExpression SimpleName max memory
+compaction threshold SimpleName InfixExpression InfixExpression InfixExpression SimpleName max observed
+. NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName max observed
+compaction threshold SimpleName Assignment NumberLiteral .
+max observed SimpleName Assignment NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral after compaction threshold = %. f
+string SimpleName MethodInvocation SimpleName compaction threshold
+format SimpleName MethodInvocation StringLiteral after compaction threshold = %. f
+format SimpleName MethodInvocation SimpleName compaction threshold
+after compaction threshold = %. f StringLiteral MethodInvocation SimpleName compaction threshold
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral after compaction threshold = %. f
+log SimpleName MethodInvocation MethodInvocation SimpleName compaction threshold
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral after compaction threshold = %. f
+debug SimpleName MethodInvocation MethodInvocation SimpleName compaction threshold
+start min c SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+start min c SimpleName IfStatement Block LabeledStatement SimpleName outer
+start min c SimpleName IfStatement IfStatement InfixExpression SimpleName memory change
+start min c SimpleName IfStatement IfStatement InfixExpression NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName start min c
+long PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName start min c
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName result
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName start min c
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+start min c SimpleName IfStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName memory management actions
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get memory management actions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier MethodDeclaration SimpleType SimpleName memory management actions
+public Modifier MethodDeclaration SimpleName get memory management actions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName start min c
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+memory management actions SimpleName SimpleType MethodDeclaration SimpleName get memory management actions
+memory management actions SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tablets
+get memory management actions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get memory management actions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get memory management actions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get memory management actions SimpleName MethodDeclaration Block IfStatement SimpleName start min c
+get memory management actions SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName memory management actions
+public Modifier TypeDeclaration MethodDeclaration SimpleName get memory management actions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName memory management actions
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get memory management actions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets

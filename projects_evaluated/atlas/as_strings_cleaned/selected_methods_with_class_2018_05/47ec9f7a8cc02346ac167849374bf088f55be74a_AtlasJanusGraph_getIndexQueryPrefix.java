@@ -1,0 +1,29 @@
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName Assignment SimpleName index search vertex prefix default
+application properties SimpleName MethodInvocation SimpleName get string
+application properties SimpleName MethodInvocation SimpleName index search vertex prefix property
+application properties SimpleName MethodInvocation SimpleName index search vertex prefix default
+get string SimpleName MethodInvocation SimpleName index search vertex prefix property
+get string SimpleName MethodInvocation SimpleName index search vertex prefix default
+index search vertex prefix property SimpleName MethodInvocation SimpleName index search vertex prefix default
+ret SimpleName Assignment MethodInvocation SimpleName application properties
+ret SimpleName Assignment MethodInvocation SimpleName get string
+ret SimpleName Assignment MethodInvocation SimpleName index search vertex prefix property
+ret SimpleName Assignment MethodInvocation SimpleName index search vertex prefix default
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get index query prefix
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get index query prefix
+get index query prefix SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get index query prefix SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index query prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index query prefix

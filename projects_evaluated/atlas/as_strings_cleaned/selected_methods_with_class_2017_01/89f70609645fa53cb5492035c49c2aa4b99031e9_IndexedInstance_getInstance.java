@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName i referenceable instance
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration Block ReturnStatement SimpleName instance
+i referenceable instance SimpleName SimpleType MethodDeclaration SimpleName get instance
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance

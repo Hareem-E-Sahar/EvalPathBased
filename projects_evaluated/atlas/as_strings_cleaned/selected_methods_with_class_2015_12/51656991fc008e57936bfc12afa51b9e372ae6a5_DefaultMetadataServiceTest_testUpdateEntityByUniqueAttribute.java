@@ -1,0 +1,150 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation StringLiteral col
+immutable list SimpleName MethodInvocation StringLiteral col
+of SimpleName MethodInvocation StringLiteral col
+of SimpleName MethodInvocation StringLiteral col
+col StringLiteral MethodInvocation StringLiteral col
+col name list SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+col name list SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+col name list SimpleName VariableDeclarationFragment MethodInvocation StringLiteral col
+col name list SimpleName VariableDeclarationFragment MethodInvocation StringLiteral col
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName col name list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName immutable list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName of
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral col
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral col
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral column names
+put SimpleName MethodInvocation SimpleName col name list
+column names StringLiteral MethodInvocation SimpleName col name list
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilstable type
+table updated SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+table updated SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilstable type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table updated
+table SimpleName MethodInvocation SimpleName get type name
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral name
+metadata service SimpleName MethodInvocation SimpleName update entity by unique attribute
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get type name
+metadata service SimpleName MethodInvocation StringLiteral name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+metadata service SimpleName MethodInvocation SimpleName table updated
+update entity by unique attribute SimpleName MethodInvocation MethodInvocation SimpleName table
+update entity by unique attribute SimpleName MethodInvocation MethodInvocation SimpleName get type name
+update entity by unique attribute SimpleName MethodInvocation StringLiteral name
+update entity by unique attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+update entity by unique attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+update entity by unique attribute SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+update entity by unique attribute SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+update entity by unique attribute SimpleName MethodInvocation SimpleName table updated
+table SimpleName MethodInvocation MethodInvocation StringLiteral name
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral name
+table SimpleName MethodInvocation MethodInvocation SimpleName table updated
+get type name SimpleName MethodInvocation MethodInvocation SimpleName table updated
+name StringLiteral MethodInvocation CastExpression SimpleType SimpleName string
+name StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName table
+name StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName get
+name StringLiteral MethodInvocation CastExpression MethodInvocation StringLiteral name
+name StringLiteral MethodInvocation SimpleName table updated
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table updated
+table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table updated
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table updated
+name StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName table updated
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation StringLiteral name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+test utilstable type QualifiedName MethodInvocation StringLiteral name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation StringLiteral name
+name StringLiteral MethodInvocation CastExpression SimpleType SimpleName string
+name StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName table
+name StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName get
+name StringLiteral MethodInvocation CastExpression MethodInvocation StringLiteral name
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table definition json SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition json
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json referenceable
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName table definition json
+table definition SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral column names
+get SimpleName MethodInvocation StringLiteral column names
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName table definition
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+list SimpleName SimpleType CastExpression MethodInvocation StringLiteral column names
+actual columns SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+actual columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table definition
+actual columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+actual columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral column names
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName actual columns
+assert SimpleName MethodInvocation SimpleName col name list
+assert equals SimpleName MethodInvocation SimpleName actual columns
+assert equals SimpleName MethodInvocation SimpleName col name list
+actual columns SimpleName MethodInvocation SimpleName col name list
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test update entity by unique attribute
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test update entity by unique attribute
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test update entity by unique attribute
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test update entity by unique attribute SimpleName MethodDeclaration SimpleType SimpleName exception
+test update entity by unique attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test update entity by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test update entity by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

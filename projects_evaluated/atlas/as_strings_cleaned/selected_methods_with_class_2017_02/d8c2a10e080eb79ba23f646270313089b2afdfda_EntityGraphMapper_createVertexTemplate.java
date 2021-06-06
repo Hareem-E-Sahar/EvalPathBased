@@ -1,0 +1,130 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas struct
+final Modifier SingleVariableDeclaration SimpleName instance
+atlas struct SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas struct type
+final Modifier SingleVariableDeclaration SimpleName struct type
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+struct vertex mapper SimpleName MethodInvocation SimpleName create vertex template
+struct vertex mapper SimpleName MethodInvocation SimpleName instance
+struct vertex mapper SimpleName MethodInvocation SimpleName struct type
+create vertex template SimpleName MethodInvocation SimpleName instance
+create vertex template SimpleName MethodInvocation SimpleName struct type
+instance SimpleName MethodInvocation SimpleName struct type
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct vertex mapper
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex template
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+atlas entity type SimpleName SimpleType CastExpression SimpleName struct type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleName struct type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas entity SimpleName SimpleType CastExpression SimpleName instance
+entity SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment CastExpression SimpleName instance
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+entity type SimpleName MethodInvocation SimpleName get all super types
+atlas graph utils v SimpleName MethodInvocation SimpleName add property
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantssuper types property key
+atlas graph utils v SimpleName MethodInvocation SimpleName super type name
+add property SimpleName MethodInvocation SimpleName vertex
+add property SimpleName MethodInvocation QualifiedName constantssuper types property key
+add property SimpleName MethodInvocation SimpleName super type name
+vertex SimpleName MethodInvocation QualifiedName constantssuper types property key
+vertex SimpleName MethodInvocation SimpleName super type name
+constantssuper types property key QualifiedName MethodInvocation SimpleName super type name
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity type
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all super types
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uuid
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random uuid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsguid property key
+atlas graph utils v SimpleName MethodInvocation SimpleName guid
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantsguid property key
+set property SimpleName MethodInvocation SimpleName guid
+vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation SimpleName guid
+constantsguid property key QualifiedName MethodInvocation SimpleName guid
+entity SimpleName MethodInvocation SimpleName get version
+entity SimpleName MethodInvocation MethodInvocation SimpleName int value
+get version SimpleName MethodInvocation MethodInvocation SimpleName int value
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+integer SimpleName MethodInvocation MethodInvocation SimpleName int value
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+value of SimpleName MethodInvocation MethodInvocation SimpleName int value
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName vertex
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsversion property key
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName integer
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName value of
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantsversion property key
+set property SimpleName MethodInvocation MethodInvocation SimpleName integer
+set property SimpleName MethodInvocation MethodInvocation SimpleName value of
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+vertex SimpleName MethodInvocation QualifiedName constantsversion property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName integer
+vertex SimpleName MethodInvocation MethodInvocation SimpleName value of
+vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+constantsversion property key QualifiedName MethodInvocation MethodInvocation SimpleName integer
+constantsversion property key QualifiedName MethodInvocation MethodInvocation SimpleName value of
+constantsversion property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName int value
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName create vertex template
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName create vertex template
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+create vertex template SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+create vertex template SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create vertex template SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName create vertex template
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create vertex template
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type

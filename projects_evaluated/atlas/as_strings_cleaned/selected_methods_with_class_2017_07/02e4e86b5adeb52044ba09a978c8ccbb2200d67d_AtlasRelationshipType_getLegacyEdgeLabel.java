@@ -1,0 +1,43 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity type SimpleName MethodInvocation SimpleName get attribute
+entity type SimpleName MethodInvocation SimpleName attribute name
+get attribute SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get qualified name
+empty StringLiteral InfixExpression MethodInvocation SimpleName attribute
+empty StringLiteral InfixExpression MethodInvocation SimpleName get qualified name
+ret SimpleName Assignment InfixExpression StringLiteral empty
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName attribute
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName get qualified name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get legacy edge label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get legacy edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get legacy edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get legacy edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get legacy edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get legacy edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get legacy edge label SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get legacy edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get legacy edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

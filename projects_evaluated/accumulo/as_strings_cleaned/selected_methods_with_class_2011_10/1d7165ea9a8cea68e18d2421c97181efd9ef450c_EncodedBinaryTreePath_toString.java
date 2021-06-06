@@ -1,0 +1,46 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral r
+append SimpleName MethodInvocation StringLiteral r
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+path SimpleName MethodInvocation SimpleName test bit
+path SimpleName MethodInvocation SimpleName i
+test bit SimpleName MethodInvocation SimpleName i
+path SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+test bit SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+i SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+path SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+test bit SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+i SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+empty StringLiteral ConditionalExpression StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName path
+sb SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName test bit
+sb SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName i
+sb SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+sb SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+append SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName path
+append SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName test bit
+append SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName i
+append SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+append SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

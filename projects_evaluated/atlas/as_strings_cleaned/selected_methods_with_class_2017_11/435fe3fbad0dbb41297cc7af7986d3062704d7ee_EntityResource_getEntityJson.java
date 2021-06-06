@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+entities store SimpleName MethodInvocation SimpleName get by id
+entities store SimpleName MethodInvocation SimpleName guid
+get by id SimpleName MethodInvocation SimpleName guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities store
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+rest adapters SimpleName MethodInvocation SimpleName get referenceable
+rest adapters SimpleName MethodInvocation SimpleName entity
+get referenceable SimpleName MethodInvocation SimpleName entity
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName rest adapters
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenceable
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referenceable
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName referenceable
+to v json SimpleName MethodInvocation SimpleName referenceable
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenceable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity json
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get entity json
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity json
+string SimpleName SimpleType MethodDeclaration SimpleName get entity json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get entity json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity json SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get entity json SimpleName MethodDeclaration Block ReturnStatement SimpleName entity json
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

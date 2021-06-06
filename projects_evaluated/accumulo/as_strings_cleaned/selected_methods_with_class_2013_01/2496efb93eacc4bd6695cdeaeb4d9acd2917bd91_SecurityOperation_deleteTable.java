@@ -1,0 +1,63 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+can delete table SimpleName MethodInvocation SimpleName credentials
+can delete table SimpleName MethodInvocation SimpleName table id
+credentials SimpleName MethodInvocation SimpleName table id
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+perm handle SimpleName MethodInvocation SimpleName clean table permissions
+perm handle SimpleName MethodInvocation SimpleName table id
+clean table permissions SimpleName MethodInvocation SimpleName table id
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+credentials SimpleName MethodInvocation SimpleName get principal
+e SimpleName MethodInvocation SimpleName set user
+e SimpleName MethodInvocation MethodInvocation SimpleName credentials
+e SimpleName MethodInvocation MethodInvocation SimpleName get principal
+set user SimpleName MethodInvocation MethodInvocation SimpleName credentials
+set user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+e SimpleName MethodInvocation SimpleName as thrift exception
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codetable doesnt exist
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable doesnt exist
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable doesnt exist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName delete table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+delete table SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

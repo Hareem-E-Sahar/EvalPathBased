@@ -1,0 +1,61 @@
+assume SimpleName MethodInvocation SimpleName assume true
+assume SimpleName MethodInvocation MethodInvocation SimpleName is managed cluster
+assume true SimpleName MethodInvocation MethodInvocation SimpleName is managed cluster
+mini cluster harness SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mini cluster harness
+mini cluster harness SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mini cluster harness
+mini cluster harness SimpleName MethodInvocation SimpleName create
+mini cluster harness SimpleName MethodInvocation MethodInvocation SimpleName get token
+create SimpleName MethodInvocation MethodInvocation SimpleName get token
+cluster SimpleName Assignment MethodInvocation SimpleName mini cluster harness
+cluster SimpleName Assignment MethodInvocation SimpleName create
+cluster SimpleName Assignment MethodInvocation MethodInvocation SimpleName get token
+accumulo standalone cluster configuration SimpleName SimpleType CastExpression SimpleName cluster conf
+conf SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName accumulo standalone cluster configuration
+conf SimpleName VariableDeclarationFragment CastExpression SimpleName cluster conf
+accumulo standalone cluster configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get instance
+standalone accumulo cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+standalone accumulo cluster SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+cluster SimpleName Assignment ClassInstanceCreation SimpleType SimpleName standalone accumulo cluster
+cluster SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName conf
+cluster SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get instance
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unhandled type
+type SimpleName SwitchStatement SwitchCase SimpleName mini
+type SimpleName SwitchStatement VariableDeclarationStatement SimpleType SimpleName mini cluster harness
+type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName mini cluster harness
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cluster
+type SimpleName SwitchStatement SwitchCase SimpleName standalone
+mini SimpleName SwitchCase SwitchStatement SwitchCase SimpleName standalone
+standalone SimpleName SwitchCase SwitchStatement SwitchCase SimpleName slider
+managed accumulo cluster SimpleName SimpleType CastExpression SimpleName cluster
+cluster SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName start
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removing tables which appear to be from a previous test run
+info SimpleName MethodInvocation StringLiteral removing tables which appear to be from a previous test run
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removing users which appear to be from a previous test run
+info SimpleName MethodInvocation StringLiteral removing users which appear to be from a previous test run
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup cluster
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+void PrimitiveType MethodDeclaration SimpleName setup cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+setup cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+setup cluster SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

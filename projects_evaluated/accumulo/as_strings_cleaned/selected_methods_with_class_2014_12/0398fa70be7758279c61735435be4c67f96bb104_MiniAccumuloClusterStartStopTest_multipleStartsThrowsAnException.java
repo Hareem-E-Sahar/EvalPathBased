@@ -1,0 +1,35 @@
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation SimpleName test dir
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation StringLiteral super secret
+test dir SimpleName ClassInstanceCreation StringLiteral super secret
+accumulo SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mini accumulo cluster
+accumulo SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName test dir
+accumulo SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral super secret
+mini accumulo cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulo
+accumulo SimpleName MethodInvocation SimpleName start
+accumulo SimpleName MethodInvocation SimpleName start
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral invoking start while already started is an error
+fail SimpleName MethodInvocation StringLiteral invoking start while already started is an error
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName multiple starts throws an exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName multiple starts throws an exception
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName multiple starts throws an exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+multiple starts throws an exception SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName multiple starts throws an exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName multiple starts throws an exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

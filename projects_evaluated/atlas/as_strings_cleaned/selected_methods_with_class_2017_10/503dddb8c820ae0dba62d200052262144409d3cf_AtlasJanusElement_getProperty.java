@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName property
+get wrapped element SimpleName MethodInvocation MethodInvocation SimpleName property name
+property SimpleName MethodInvocation SimpleName property name
+p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get wrapped element
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName is present
+p SimpleName MethodInvocation SimpleName value
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property value
+atlas edge SimpleName SimpleType TypeLiteral InfixExpression SimpleName clazz
+property value SimpleName MethodInvocation SimpleName to string
+graph SimpleName MethodInvocation SimpleName get edge
+graph SimpleName MethodInvocation MethodInvocation SimpleName property value
+graph SimpleName MethodInvocation MethodInvocation SimpleName to string
+get edge SimpleName MethodInvocation MethodInvocation SimpleName property value
+get edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName graph
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName get edge
+atlas vertex SimpleName SimpleType TypeLiteral InfixExpression SimpleName clazz
+property value SimpleName MethodInvocation SimpleName to string
+graph SimpleName MethodInvocation SimpleName get vertex
+graph SimpleName MethodInvocation MethodInvocation SimpleName property value
+graph SimpleName MethodInvocation MethodInvocation SimpleName to string
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName property value
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName to string
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName graph
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName get vertex
+t SimpleName SimpleType CastExpression SimpleName property value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get property
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName get property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SimpleName get property
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

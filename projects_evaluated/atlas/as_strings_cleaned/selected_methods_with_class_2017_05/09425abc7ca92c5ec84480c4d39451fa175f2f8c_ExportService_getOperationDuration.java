@@ -1,0 +1,25 @@
+long PrimitiveType SingleVariableDeclaration SimpleName start time
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start time
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName start time
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get operation duration
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start time
+int PrimitiveType MethodDeclaration SimpleName get operation duration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start time
+get operation duration SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get operation duration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get operation duration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get operation duration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start time

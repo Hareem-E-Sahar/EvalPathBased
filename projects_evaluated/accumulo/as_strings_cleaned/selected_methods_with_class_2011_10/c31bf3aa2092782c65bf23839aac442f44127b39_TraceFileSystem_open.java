@@ -1,0 +1,65 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName f
+int PrimitiveType SingleVariableDeclaration SimpleName buffer size
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral open
+start SimpleName MethodInvocation StringLiteral open
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral open
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+impl SimpleName MethodInvocation SimpleName open
+impl SimpleName MethodInvocation SimpleName f
+impl SimpleName MethodInvocation SimpleName buffer size
+open SimpleName MethodInvocation SimpleName f
+open SimpleName MethodInvocation SimpleName buffer size
+f SimpleName MethodInvocation SimpleName buffer size
+trace fs data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName impl
+trace fs data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open
+trace fs data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName f
+trace fs data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName buffer size
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName fs data input stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName open
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName f
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier MethodDeclaration SimpleType SimpleName fs data input stream
+public Modifier MethodDeclaration SimpleName open
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+fs data input stream SimpleName SimpleType MethodDeclaration SimpleName open
+fs data input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName f
+fs data input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fs data input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+fs data input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+open SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+open SimpleName MethodDeclaration SimpleType SimpleName io exception
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+f SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+f SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName fs data input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName open
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName fs data input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

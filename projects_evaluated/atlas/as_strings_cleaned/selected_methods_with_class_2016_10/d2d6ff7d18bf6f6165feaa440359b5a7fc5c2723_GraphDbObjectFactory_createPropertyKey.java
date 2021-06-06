@@ -1,0 +1,26 @@
+property key SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+titan property key SimpleName SimpleType ClassInstanceCreation SimpleName property key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName titan property key
+public Modifier MethodDeclaration SimpleName create property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+static Modifier MethodDeclaration SimpleType SimpleName titan property key
+static Modifier MethodDeclaration SimpleName create property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+titan property key SimpleName SimpleType MethodDeclaration SimpleName create property key
+titan property key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property key
+create property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+create property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName titan property key
+public Modifier TypeDeclaration MethodDeclaration SimpleName create property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName titan property key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key

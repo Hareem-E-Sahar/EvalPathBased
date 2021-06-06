@@ -1,0 +1,26 @@
+application properties SimpleName MethodInvocation SimpleName get long
+application properties SimpleName MethodInvocation SimpleName graph repository retry sleeptime
+application properties SimpleName MethodInvocation NumberLiteral empty
+get long SimpleName MethodInvocation SimpleName graph repository retry sleeptime
+get long SimpleName MethodInvocation NumberLiteral empty
+graph repository retry sleeptime SimpleName MethodInvocation NumberLiteral empty
+application properties SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName application properties
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName get long
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName graph repository retry sleeptime
+empty NumberLiteral ConditionalExpression MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName long
+private Modifier MethodDeclaration SimpleName get retry sleep time
+static Modifier MethodDeclaration SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName get retry sleep time
+long SimpleName SimpleType MethodDeclaration SimpleName get retry sleep time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get retry sleep time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get retry sleep time

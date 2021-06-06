@@ -1,0 +1,197 @@
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+scanner SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+shell state SimpleName MethodInvocation SimpleName get table name
+shell statescan iterator options QualifiedName MethodInvocation SimpleName get
+shell statescan iterator options QualifiedName MethodInvocation MethodInvocation SimpleName shell state
+shell statescan iterator options QualifiedName MethodInvocation MethodInvocation SimpleName get table name
+get SimpleName MethodInvocation MethodInvocation SimpleName shell state
+get SimpleName MethodInvocation MethodInvocation SimpleName get table name
+table scan iterators SimpleName VariableDeclarationFragment MethodInvocation QualifiedName shell statescan iterator options
+table scan iterators SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table scan iterators SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName shell state
+table scan iterators SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation StringLiteral found no scan iterators to set
+debug SimpleName MethodInvocation StringLiteral found no scan iterators to set
+table scan iterators SimpleName MethodInvocation SimpleName size
+found StringLiteral InfixExpression MethodInvocation SimpleName table scan iterators
+found StringLiteral InfixExpression MethodInvocation SimpleName size
+found StringLiteral InfixExpression StringLiteral scan iterators to set
+table scan iterators SimpleName MethodInvocation InfixExpression StringLiteral scan iterators to set
+size SimpleName MethodInvocation InfixExpression StringLiteral scan iterators to set
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral found
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table scan iterators
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral scan iterators to set
+debug SimpleName MethodInvocation InfixExpression StringLiteral found
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table scan iterators
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral scan iterators to set
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName setting
+setting SimpleName MethodInvocation SimpleName get name
+setting SimpleName MethodInvocation SimpleName get priority
+setting SimpleName MethodInvocation SimpleName get iterator class
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName setting
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName get name
+setting scan iterator StringLiteral InfixExpression StringLiteral at priority
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName setting
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName get priority
+setting scan iterator StringLiteral InfixExpression StringLiteral using class name
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName setting
+setting scan iterator StringLiteral InfixExpression MethodInvocation SimpleName get iterator class
+setting SimpleName MethodInvocation InfixExpression StringLiteral at priority
+get name SimpleName MethodInvocation InfixExpression StringLiteral at priority
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get priority
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get priority
+setting SimpleName MethodInvocation InfixExpression StringLiteral using class name
+get name SimpleName MethodInvocation InfixExpression StringLiteral using class name
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+at priority StringLiteral InfixExpression MethodInvocation SimpleName setting
+at priority StringLiteral InfixExpression MethodInvocation SimpleName get priority
+at priority StringLiteral InfixExpression StringLiteral using class name
+at priority StringLiteral InfixExpression MethodInvocation SimpleName setting
+at priority StringLiteral InfixExpression MethodInvocation SimpleName get iterator class
+setting SimpleName MethodInvocation InfixExpression StringLiteral using class name
+get priority SimpleName MethodInvocation InfixExpression StringLiteral using class name
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+get priority SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+get priority SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+using class name StringLiteral InfixExpression MethodInvocation SimpleName setting
+using class name StringLiteral InfixExpression MethodInvocation SimpleName get iterator class
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral setting scan iterator
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral at priority
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get priority
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral using class name
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+debug SimpleName MethodInvocation InfixExpression StringLiteral setting scan iterator
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral at priority
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get priority
+debug SimpleName MethodInvocation InfixExpression StringLiteral using class name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get iterator class
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName option
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName option
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName option
+setting SimpleName MethodInvocation SimpleName get options
+setting SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get options SimpleName MethodInvocation MethodInvocation SimpleName entry set
+setting SimpleName MethodInvocation SimpleName get name
+option SimpleName MethodInvocation SimpleName get key
+option SimpleName MethodInvocation SimpleName get value
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName setting
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName get name
+setting option for StringLiteral InfixExpression StringLiteral :
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName option
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName get key
+setting option for StringLiteral InfixExpression StringLiteral =
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName option
+setting option for StringLiteral InfixExpression MethodInvocation SimpleName get value
+setting SimpleName MethodInvocation InfixExpression StringLiteral :
+get name SimpleName MethodInvocation InfixExpression StringLiteral :
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+setting SimpleName MethodInvocation InfixExpression StringLiteral =
+get name SimpleName MethodInvocation InfixExpression StringLiteral =
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+setting SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+: StringLiteral InfixExpression MethodInvocation SimpleName option
+: StringLiteral InfixExpression MethodInvocation SimpleName get key
+: StringLiteral InfixExpression StringLiteral =
+: StringLiteral InfixExpression MethodInvocation SimpleName option
+: StringLiteral InfixExpression MethodInvocation SimpleName get value
+option SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+option SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+option SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName option
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral setting option for
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral :
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName option
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral =
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName option
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+debug SimpleName MethodInvocation InfixExpression StringLiteral setting option for
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName setting
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral :
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+debug SimpleName MethodInvocation InfixExpression StringLiteral =
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName option
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+option SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+scanner SimpleName MethodInvocation SimpleName add scan iterator
+scanner SimpleName MethodInvocation SimpleName setting
+add scan iterator SimpleName MethodInvocation SimpleName setting
+iterator setting SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table scan iterators
+setting SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table scan iterators
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add scan iterators
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleName add scan iterators
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName table scan iterators
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add scan iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add scan iterators SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table scan iterators
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add scan iterators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add scan iterators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name

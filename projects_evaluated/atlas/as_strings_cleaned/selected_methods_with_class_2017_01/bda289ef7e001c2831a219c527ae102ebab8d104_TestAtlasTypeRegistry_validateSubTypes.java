@@ -1,0 +1,59 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected sub types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected sub types
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+type SimpleName Assignment MethodInvocation SimpleName type registry
+type SimpleName Assignment MethodInvocation SimpleName get type
+type SimpleName Assignment MethodInvocation SimpleName type name
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all sub types
+sub types SimpleName Assignment MethodInvocation SimpleName get all sub types
+type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all sub types
+sub types SimpleName Assignment MethodInvocation SimpleName get all sub types
+assert equals SimpleName MethodInvocation SimpleName sub types
+assert equals SimpleName MethodInvocation SimpleName expected sub types
+sub types SimpleName MethodInvocation SimpleName expected sub types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate sub types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+void PrimitiveType MethodDeclaration SimpleName validate sub types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+validate sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+validate sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+validate sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+validate sub types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate sub types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected sub types
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate sub types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected sub types

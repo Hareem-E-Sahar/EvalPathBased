@@ -1,0 +1,35 @@
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result uri
+uri SimpleName SimpleType ClassInstanceCreation SimpleName path
+uri SimpleName Assignment ClassInstanceCreation SimpleType SimpleName uri
+uri SimpleName Assignment ClassInstanceCreation SimpleName path
+uri SimpleName MethodInvocation SimpleName normalize
+normalized uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+normalized uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized uri
+normalized uri SimpleName MethodInvocation SimpleName to string
+result uri SimpleName Assignment MethodInvocation SimpleName normalized uri
+result uri SimpleName Assignment MethodInvocation SimpleName to string
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral get normalized path caught exception for path
+log SimpleName MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral get normalized path caught exception for path
+error SimpleName MethodInvocation SimpleName path
+error SimpleName MethodInvocation SimpleName e
+get normalized path caught exception for path StringLiteral MethodInvocation SimpleName path
+get normalized path caught exception for path StringLiteral MethodInvocation SimpleName e
+path SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get normalized path
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result uri
+string SimpleName SimpleType MethodDeclaration SimpleName get normalized path
+get normalized path SimpleName MethodDeclaration Block ReturnStatement SimpleName result uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get normalized path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get normalized path

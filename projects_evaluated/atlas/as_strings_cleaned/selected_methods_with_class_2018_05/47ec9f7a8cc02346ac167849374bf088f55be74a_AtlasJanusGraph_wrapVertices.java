@@ -1,0 +1,19 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName it
+iterator to iterable adapter SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName it
+iterable SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName it
+wrap vertices SimpleName MethodInvocation SimpleName iterable
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+private Modifier MethodDeclaration SimpleName wrap vertices
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName it
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wrap vertices
+wrap vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it

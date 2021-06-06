@@ -1,0 +1,40 @@
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type
+typepartition QualifiedName MethodInvocation SimpleName equals
+typepartition QualifiedName MethodInvocation MethodInvocation SimpleName entity
+typepartition QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entities SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is partition based query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName entities
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is partition based query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName entities
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is partition based query
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entities
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is partition based query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+is partition based query SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entities
+is partition based query SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is partition based query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is partition based query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

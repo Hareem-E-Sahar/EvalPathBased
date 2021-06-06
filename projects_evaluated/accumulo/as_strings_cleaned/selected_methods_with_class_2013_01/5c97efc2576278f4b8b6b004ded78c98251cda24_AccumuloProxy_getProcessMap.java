@@ -1,0 +1,459 @@
+i SimpleName TypeParameter SimpleType SimpleName iface
+orgapachethriftprocess function QualifiedName SimpleType ParameterizedType SimpleType SimpleName i
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+orgapachethriftprocess function QualifiedName SimpleType ParameterizedType SimpleType SimpleName i
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName process map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName process map
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral ping
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ping
+put SimpleName MethodInvocation StringLiteral ping
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ping
+ping StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName ping
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral add constraint
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName add constraint
+put SimpleName MethodInvocation StringLiteral add constraint
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName add constraint
+add constraint StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName add constraint
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral add splits
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName add splits
+put SimpleName MethodInvocation StringLiteral add splits
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName add splits
+add splits StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName add splits
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral attach iterator
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attach iterator
+put SimpleName MethodInvocation StringLiteral attach iterator
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attach iterator
+attach iterator StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attach iterator
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral check iterator conflicts
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName check iterator conflicts
+put SimpleName MethodInvocation StringLiteral check iterator conflicts
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName check iterator conflicts
+check iterator conflicts StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName check iterator conflicts
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral clear locator cache
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clear locator cache
+put SimpleName MethodInvocation StringLiteral clear locator cache
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clear locator cache
+clear locator cache StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName clear locator cache
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral clone table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+put SimpleName MethodInvocation StringLiteral clone table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+clone table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral compact table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compact table
+put SimpleName MethodInvocation StringLiteral compact table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compact table
+compact table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName compact table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral create table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+put SimpleName MethodInvocation StringLiteral create table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+create table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral delete table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName delete table
+put SimpleName MethodInvocation StringLiteral delete table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName delete table
+delete table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName delete table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral delete rows
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName delete rows
+put SimpleName MethodInvocation StringLiteral delete rows
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName delete rows
+delete rows StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName delete rows
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral export table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName export table
+put SimpleName MethodInvocation StringLiteral export table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName export table
+export table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName export table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral flush table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName flush table
+put SimpleName MethodInvocation StringLiteral flush table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName flush table
+flush table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName flush table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get locality groups
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get locality groups
+put SimpleName MethodInvocation StringLiteral get locality groups
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get locality groups
+get locality groups StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get locality groups
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get iterator setting
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get iterator setting
+put SimpleName MethodInvocation StringLiteral get iterator setting
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get iterator setting
+get iterator setting StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get iterator setting
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get max row
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get max row
+put SimpleName MethodInvocation StringLiteral get max row
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get max row
+get max row StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get max row
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get table properties
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get table properties
+put SimpleName MethodInvocation StringLiteral get table properties
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get table properties
+get table properties StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get table properties
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get splits
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get splits
+put SimpleName MethodInvocation StringLiteral get splits
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get splits
+get splits StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get splits
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral import directory
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName import directory
+put SimpleName MethodInvocation StringLiteral import directory
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName import directory
+import directory StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName import directory
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral import table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName import table
+put SimpleName MethodInvocation StringLiteral import table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName import table
+import table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName import table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral list tables
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list tables
+put SimpleName MethodInvocation StringLiteral list tables
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list tables
+list tables StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName list tables
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral list iterators
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list iterators
+put SimpleName MethodInvocation StringLiteral list iterators
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list iterators
+list iterators StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName list iterators
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral list constraints
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list constraints
+put SimpleName MethodInvocation StringLiteral list constraints
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list constraints
+list constraints StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName list constraints
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral merge tablets
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName merge tablets
+put SimpleName MethodInvocation StringLiteral merge tablets
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName merge tablets
+merge tablets StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName merge tablets
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral offline table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName offline table
+put SimpleName MethodInvocation StringLiteral offline table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName offline table
+offline table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName offline table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral online table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName online table
+put SimpleName MethodInvocation StringLiteral online table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName online table
+online table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName online table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral remove constraint
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove constraint
+put SimpleName MethodInvocation StringLiteral remove constraint
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove constraint
+remove constraint StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName remove constraint
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral remove iterator
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove iterator
+put SimpleName MethodInvocation StringLiteral remove iterator
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove iterator
+remove iterator StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName remove iterator
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral remove table property
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove table property
+put SimpleName MethodInvocation StringLiteral remove table property
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove table property
+remove table property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName remove table property
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral rename table
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+put SimpleName MethodInvocation StringLiteral rename table
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+rename table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral set locality groups
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set locality groups
+put SimpleName MethodInvocation StringLiteral set locality groups
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set locality groups
+set locality groups StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName set locality groups
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral set table property
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set table property
+put SimpleName MethodInvocation StringLiteral set table property
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set table property
+set table property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName set table property
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral split range by tablets
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName split range by tablets
+put SimpleName MethodInvocation StringLiteral split range by tablets
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName split range by tablets
+split range by tablets StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName split range by tablets
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral table exists
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table exists
+put SimpleName MethodInvocation StringLiteral table exists
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table exists
+table exists StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName table exists
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral table id map
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table id map
+put SimpleName MethodInvocation StringLiteral table id map
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table id map
+table id map StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName table id map
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral ping tablet server
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ping tablet server
+put SimpleName MethodInvocation StringLiteral ping tablet server
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ping tablet server
+ping tablet server StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName ping tablet server
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get active scans
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get active scans
+put SimpleName MethodInvocation StringLiteral get active scans
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get active scans
+get active scans StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get active scans
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get active compactions
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get active compactions
+put SimpleName MethodInvocation StringLiteral get active compactions
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get active compactions
+get active compactions StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get active compactions
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get site configuration
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get site configuration
+put SimpleName MethodInvocation StringLiteral get site configuration
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get site configuration
+get site configuration StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get site configuration
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get system configuration
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get system configuration
+put SimpleName MethodInvocation StringLiteral get system configuration
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get system configuration
+get system configuration StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get system configuration
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get tablet servers
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get tablet servers
+put SimpleName MethodInvocation StringLiteral get tablet servers
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get tablet servers
+get tablet servers StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get tablet servers
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral remove property
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove property
+put SimpleName MethodInvocation StringLiteral remove property
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remove property
+remove property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName remove property
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral set property
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set property
+put SimpleName MethodInvocation StringLiteral set property
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName set property
+set property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName set property
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral test class load
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName test class load
+put SimpleName MethodInvocation StringLiteral test class load
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName test class load
+test class load StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName test class load
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral authenticate user
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authenticate user
+put SimpleName MethodInvocation StringLiteral authenticate user
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authenticate user
+authenticate user StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName authenticate user
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral change user authorizations
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName change user authorizations
+put SimpleName MethodInvocation StringLiteral change user authorizations
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName change user authorizations
+change user authorizations StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName change user authorizations
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral change user password
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName change user password
+put SimpleName MethodInvocation StringLiteral change user password
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName change user password
+change user password StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName change user password
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral create user
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create user
+put SimpleName MethodInvocation StringLiteral create user
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create user
+create user StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName create user
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral drop user
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName drop user
+put SimpleName MethodInvocation StringLiteral drop user
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName drop user
+drop user StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName drop user
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get user authorizations
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get user authorizations
+put SimpleName MethodInvocation StringLiteral get user authorizations
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get user authorizations
+get user authorizations StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get user authorizations
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral grant system permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName grant system permission
+put SimpleName MethodInvocation StringLiteral grant system permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName grant system permission
+grant system permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName grant system permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral grant table permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName grant table permission
+put SimpleName MethodInvocation StringLiteral grant table permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName grant table permission
+grant table permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName grant table permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral has system permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName has system permission
+put SimpleName MethodInvocation StringLiteral has system permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName has system permission
+has system permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName has system permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral has table permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName has table permission
+put SimpleName MethodInvocation StringLiteral has table permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName has table permission
+has table permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName has table permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral list users
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list users
+put SimpleName MethodInvocation StringLiteral list users
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName list users
+list users StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName list users
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral revoke system permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke system permission
+put SimpleName MethodInvocation StringLiteral revoke system permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke system permission
+revoke system permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke system permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral revoke table permission
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke table permission
+put SimpleName MethodInvocation StringLiteral revoke table permission
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke table permission
+revoke table permission StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName revoke table permission
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral create batch scanner
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create batch scanner
+put SimpleName MethodInvocation StringLiteral create batch scanner
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create batch scanner
+create batch scanner StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName create batch scanner
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral create scanner
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create scanner
+put SimpleName MethodInvocation StringLiteral create scanner
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create scanner
+create scanner StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName create scanner
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral scanner hasnext
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner hasnext
+put SimpleName MethodInvocation StringLiteral scanner hasnext
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner hasnext
+scanner hasnext StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner hasnext
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral scanner next
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next
+put SimpleName MethodInvocation StringLiteral scanner next
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next
+scanner next StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral scanner next k
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next k
+put SimpleName MethodInvocation StringLiteral scanner next k
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next k
+scanner next k StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner next k
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral close scanner
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName close scanner
+put SimpleName MethodInvocation StringLiteral close scanner
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName close scanner
+close scanner StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName close scanner
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral update and flush
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName update and flush
+put SimpleName MethodInvocation StringLiteral update and flush
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName update and flush
+update and flush StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName update and flush
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral create writer
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create writer
+put SimpleName MethodInvocation StringLiteral create writer
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create writer
+create writer StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName create writer
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral writer update
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer update
+put SimpleName MethodInvocation StringLiteral writer update
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer update
+writer update StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName writer update
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral writer flush
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer flush
+put SimpleName MethodInvocation StringLiteral writer flush
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer flush
+writer flush StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName writer flush
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral writer close
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer close
+put SimpleName MethodInvocation StringLiteral writer close
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName writer close
+writer close StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName writer close
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get row range
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get row range
+put SimpleName MethodInvocation StringLiteral get row range
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get row range
+get row range StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get row range
+process map SimpleName MethodInvocation SimpleName put
+process map SimpleName MethodInvocation StringLiteral get following
+process map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get following
+put SimpleName MethodInvocation StringLiteral get following
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName get following
+get following StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName get following
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName i
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName iface
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get process map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName process map
+static Modifier MethodDeclaration TypeParameter SimpleName i
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName iface
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get process map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName process map
+static Modifier MethodDeclaration Block ReturnStatement SimpleName process map
+i SimpleName TypeParameter MethodDeclaration SimpleName get process map
+iface SimpleName SimpleType TypeParameter MethodDeclaration SimpleName get process map
+i SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName process map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get process map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get process map
+get process map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName process map
+get process map SimpleName MethodDeclaration Block ReturnStatement SimpleName process map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName i
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process map

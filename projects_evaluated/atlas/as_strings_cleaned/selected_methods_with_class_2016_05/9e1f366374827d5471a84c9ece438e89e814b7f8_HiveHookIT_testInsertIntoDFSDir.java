@@ -1,0 +1,140 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create test dfs path SimpleName MethodInvocation StringLiteral somedfspath
+p file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs path
+p file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral somedfspath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p file
+path SimpleName SimpleType ClassInstanceCreation SimpleName p file
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+p file SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName p file
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+test path normed SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower
+test path normed SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test path normed
+insert overwrite directory StringLiteral InfixExpression SimpleName p file
+insert overwrite directory StringLiteral InfixExpression StringLiteral select id name from
+insert overwrite directory StringLiteral InfixExpression SimpleName table name
+p file SimpleName InfixExpression StringLiteral select id name from
+p file SimpleName InfixExpression SimpleName table name
+select id name from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral insert overwrite directory
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName p file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral select id name from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+get qualified tbl name SimpleName MethodInvocation SimpleName table name
+tbl qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified tbl name
+tbl qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qlfdname
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation SimpleName tbl qlfdname
+validate process SimpleName MethodInvocation SimpleName test path normed
+query SimpleName MethodInvocation SimpleName tbl qlfdname
+query SimpleName MethodInvocation SimpleName test path normed
+tbl qlfdname SimpleName MethodInvocation SimpleName test path normed
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl qlfdname
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName test path normed
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName p file
+validate hdfs paths SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName p file
+process reference SimpleName MethodInvocation SimpleName outputs
+p file SimpleName MethodInvocation SimpleName outputs
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+validate input tables SimpleName MethodInvocation SimpleName process reference
+validate input tables SimpleName MethodInvocation SimpleName tbl qlfdname
+process reference SimpleName MethodInvocation SimpleName tbl qlfdname
+create test dfs path SimpleName MethodInvocation StringLiteral somedfspath
+p file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs path
+p file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral somedfspath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p file
+path SimpleName SimpleType ClassInstanceCreation SimpleName p file
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+p file SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+lower SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName p file
+lower SimpleName MethodInvocation MethodInvocation SimpleName to string
+test path normed SimpleName Assignment MethodInvocation SimpleName lower
+test path normed SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+insert overwrite directory StringLiteral InfixExpression SimpleName p file
+insert overwrite directory StringLiteral InfixExpression StringLiteral select id name from
+insert overwrite directory StringLiteral InfixExpression SimpleName table name
+p file SimpleName InfixExpression StringLiteral select id name from
+p file SimpleName InfixExpression SimpleName table name
+select id name from StringLiteral InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral insert overwrite directory
+query SimpleName Assignment InfixExpression SimpleName p file
+query SimpleName Assignment InfixExpression StringLiteral select id name from
+query SimpleName Assignment InfixExpression SimpleName table name
+run command SimpleName MethodInvocation SimpleName query
+get qualified tbl name SimpleName MethodInvocation SimpleName table name
+tbl qlfdname SimpleName Assignment MethodInvocation SimpleName get qualified tbl name
+tbl qlfdname SimpleName Assignment MethodInvocation SimpleName table name
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation SimpleName tbl qlfdname
+validate process SimpleName MethodInvocation SimpleName test path normed
+query SimpleName MethodInvocation SimpleName tbl qlfdname
+query SimpleName MethodInvocation SimpleName test path normed
+tbl qlfdname SimpleName MethodInvocation SimpleName test path normed
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl qlfdname
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName test path normed
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName p file
+validate hdfs paths SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName p file
+process reference SimpleName MethodInvocation SimpleName outputs
+p file SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName get id
+process reference SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+process reference SimpleName MethodInvocation SimpleName get id
+process reference SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation SimpleName assert not equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process reference
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process reference
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process reference
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process reference
+assert not equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test insert into dfs dir
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test insert into dfs dir
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test insert into dfs dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test insert into dfs dir SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test insert into dfs dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test insert into dfs dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

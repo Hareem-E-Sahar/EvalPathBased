@@ -1,0 +1,52 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node id
+rand SimpleName Assignment ClassInstanceCreation SimpleType SimpleName random
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation SimpleName total weight
+next int SimpleName MethodInvocation SimpleName total weight
+rand SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+total weight SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rand num SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName rand
+rand num SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName next int
+rand num SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName total weight
+rand num SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand num
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+sum SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sum
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName e
+node id SimpleName Assignment QualifiedName enode id
+sum SimpleName Assignment QualifiedName eweight
+rand num SimpleName InfixExpression SimpleName sum
+edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName edges
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName node id
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName edges
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName node id
+edges SimpleName EnhancedForStatement Block ReturnStatement SimpleName node id
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName random neighbor
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName edges
+private Modifier MethodDeclaration Block ReturnStatement SimpleName node id
+string SimpleName SimpleType MethodDeclaration SimpleName random neighbor
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+random neighbor SimpleName MethodDeclaration SimpleType SimpleName exception
+random neighbor SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+random neighbor SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+random neighbor SimpleName MethodDeclaration Block EnhancedForStatement SimpleName edges
+random neighbor SimpleName MethodDeclaration Block ReturnStatement SimpleName node id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName random neighbor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName random neighbor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

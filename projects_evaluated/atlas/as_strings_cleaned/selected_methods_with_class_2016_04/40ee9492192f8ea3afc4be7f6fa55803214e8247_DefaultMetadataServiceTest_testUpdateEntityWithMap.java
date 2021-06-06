@@ -1,0 +1,500 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName parts map
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral test
+name SimpleName MethodInvocation StringLiteral test
+struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+table SimpleName MethodInvocation SimpleName set
+table SimpleName MethodInvocation StringLiteral partitions map
+table SimpleName MethodInvocation SimpleName parts map
+set SimpleName MethodInvocation StringLiteral partitions map
+set SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+update instance SimpleName MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table definition json SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition json
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json referenceable
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName table definition json
+table definition SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+get SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals contents
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals contents SimpleName MethodInvocation MethodInvocation SimpleName get
+equals contents SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral test
+name SimpleName MethodInvocation StringLiteral test
+struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+table SimpleName MethodInvocation SimpleName set
+table SimpleName MethodInvocation StringLiteral partitions map
+table SimpleName MethodInvocation SimpleName parts map
+set SimpleName MethodInvocation StringLiteral partitions map
+set SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+update instance SimpleName MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+table definition json SimpleName Assignment MethodInvocation SimpleName metadata service
+table definition json SimpleName Assignment MethodInvocation SimpleName get entity definition
+table definition json SimpleName Assignment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName Assignment MethodInvocation SimpleName name
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName Assignment MethodInvocation SimpleName instance serialization
+table definition SimpleName Assignment MethodInvocation SimpleName from json referenceable
+table definition SimpleName Assignment MethodInvocation SimpleName table definition json
+table definition SimpleName Assignment MethodInvocation BooleanLiteral true
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+get SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals contents
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals contents SimpleName MethodInvocation MethodInvocation SimpleName get
+equals contents SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName remove
+parts map SimpleName MethodInvocation StringLiteral part
+remove SimpleName MethodInvocation StringLiteral part
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral test
+name SimpleName MethodInvocation StringLiteral test
+struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspartition struct type
+parts map SimpleName MethodInvocation SimpleName put
+parts map SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+parts map SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+put SimpleName MethodInvocation StringLiteral part
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+part StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+part StringLiteral MethodInvocation ClassInstanceCreation QualifiedName test utilspartition struct type
+table SimpleName MethodInvocation SimpleName set
+table SimpleName MethodInvocation StringLiteral partitions map
+table SimpleName MethodInvocation SimpleName parts map
+set SimpleName MethodInvocation StringLiteral partitions map
+set SimpleName MethodInvocation SimpleName parts map
+partitions map StringLiteral MethodInvocation SimpleName parts map
+update instance SimpleName MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+table definition json SimpleName Assignment MethodInvocation SimpleName metadata service
+table definition json SimpleName Assignment MethodInvocation SimpleName get entity definition
+table definition json SimpleName Assignment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName Assignment MethodInvocation SimpleName name
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName Assignment MethodInvocation SimpleName instance serialization
+table definition SimpleName Assignment MethodInvocation SimpleName from json referenceable
+table definition SimpleName Assignment MethodInvocation SimpleName table definition json
+table definition SimpleName Assignment MethodInvocation BooleanLiteral true
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+get SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals contents
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals contents SimpleName MethodInvocation MethodInvocation SimpleName get
+equals contents SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName parts map
+partition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+partition SimpleName VariableDeclarationFragment MethodInvocation StringLiteral part
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition
+partition SimpleName MethodInvocation SimpleName set
+partition SimpleName MethodInvocation SimpleName name
+partition SimpleName MethodInvocation StringLiteral test updated
+set SimpleName MethodInvocation SimpleName name
+set SimpleName MethodInvocation StringLiteral test updated
+name SimpleName MethodInvocation StringLiteral test updated
+update instance SimpleName MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+table definition json SimpleName Assignment MethodInvocation SimpleName metadata service
+table definition json SimpleName Assignment MethodInvocation SimpleName get entity definition
+table definition json SimpleName Assignment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName Assignment MethodInvocation SimpleName name
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName Assignment MethodInvocation SimpleName instance serialization
+table definition SimpleName Assignment MethodInvocation SimpleName from json referenceable
+table definition SimpleName Assignment MethodInvocation SimpleName table definition json
+table definition SimpleName Assignment MethodInvocation BooleanLiteral true
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation StringLiteral part
+get SimpleName MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral partitions map
+get SimpleName MethodInvocation StringLiteral part
+parts map SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+get SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+part StringLiteral MethodInvocation MethodInvocation SimpleName equals contents
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+parts map SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+part StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+equals contents SimpleName MethodInvocation MethodInvocation SimpleName get
+equals contents SimpleName MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts map
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals contents
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral part
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName struct
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName columns map
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral test
+name SimpleName MethodInvocation StringLiteral test
+put SimpleName MethodInvocation StringLiteral type
+put SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilscolumn type
+col type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+col type SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilscolumn type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col type
+columns map SimpleName MethodInvocation SimpleName put
+columns map SimpleName MethodInvocation StringLiteral col
+columns map SimpleName MethodInvocation SimpleName col type
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation SimpleName col type
+col StringLiteral MethodInvocation SimpleName col type
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral test
+name SimpleName MethodInvocation StringLiteral test
+put SimpleName MethodInvocation StringLiteral type
+put SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName test utilscolumn type
+col type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+col type SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilscolumn type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col type
+columns map SimpleName MethodInvocation SimpleName put
+columns map SimpleName MethodInvocation StringLiteral col

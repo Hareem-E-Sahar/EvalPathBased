@@ -1,0 +1,335 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get entity by id
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get entity by id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral string attr
+put SimpleName MethodInvocation StringLiteral sample string
+string attr StringLiteral MethodInvocation StringLiteral sample string
+put SimpleName MethodInvocation StringLiteral boolean attr
+put SimpleName MethodInvocation BooleanLiteral true
+boolean attr StringLiteral MethodInvocation BooleanLiteral true
+put SimpleName MethodInvocation StringLiteral integer attr
+put SimpleName MethodInvocation NumberLiteral empty
+integer attr StringLiteral MethodInvocation NumberLiteral empty
+atlas classification SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v phi
+phi classification SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+phi classification SimpleName Assignment ClassInstanceCreation QualifiedName test utils v phi
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral tag
+put SimpleName MethodInvocation StringLiteral tag name
+tag StringLiteral MethodInvocation StringLiteral tag name
+atlas classification SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v classification
+test classification SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+test classification SimpleName Assignment ClassInstanceCreation QualifiedName test utils v classification
+db entity SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName phi classification
+as list SimpleName MethodInvocation SimpleName phi classification
+entity rest SimpleName MethodInvocation SimpleName add classifications
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName phi classification
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName db entity
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+add classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+add classifications SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName phi classification
+db entity SimpleName MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation SimpleName get classifications
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName db entity
+get classifications SimpleName MethodInvocation MethodInvocation SimpleName get guid
+retrieved classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+retrieved classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+retrieved classifications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName db entity
+retrieved classifications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas classifications
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved classifications
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity rest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get classifications
+atlas classifications SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved classifications
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName retrieved classifications
+assert not null SimpleName MethodInvocation SimpleName retrieved classifications
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+retrieved classifications SimpleName MethodInvocation SimpleName get list
+retrieved classifications list SimpleName VariableDeclarationFragment MethodInvocation SimpleName retrieved classifications
+retrieved classifications list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName atlas classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved classifications list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName retrieved classifications
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get list
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName retrieved classifications list
+assert not null SimpleName MethodInvocation SimpleName retrieved classifications list
+db entity SimpleName MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation SimpleName get classification
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation QualifiedName test utils v phi
+get classification SimpleName MethodInvocation MethodInvocation SimpleName db entity
+get classification SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get classification SimpleName MethodInvocation QualifiedName test utils v phi
+db entity SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+retrieved classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+retrieved classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification
+retrieved classification SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName db entity
+retrieved classification SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+retrieved classification SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v phi
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity rest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get classification
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v phi
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved classification
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName retrieved classification
+assert not null SimpleName MethodInvocation SimpleName retrieved classification
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName retrieved classification
+assert SimpleName MethodInvocation SimpleName phi classification
+assert equals SimpleName MethodInvocation SimpleName retrieved classification
+assert equals SimpleName MethodInvocation SimpleName phi classification
+retrieved classification SimpleName MethodInvocation SimpleName phi classification
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+retrieved classification SimpleName MethodInvocation SimpleName get attributes
+retrieved classification SimpleName MethodInvocation MethodInvocation SimpleName key set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName key set
+retrieved classification SimpleName MethodInvocation SimpleName get attribute
+retrieved classification SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+phi classification SimpleName MethodInvocation SimpleName get attribute
+phi classification SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName retrieved classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation SimpleName attr name
+assert SimpleName MethodInvocation MethodInvocation SimpleName phi classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation SimpleName attr name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName retrieved classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attr name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName phi classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attr name
+retrieved classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName phi classification
+retrieved classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+retrieved classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName phi classification
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName phi classification
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+attr name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral string attr
+put SimpleName MethodInvocation StringLiteral sample string v
+string attr StringLiteral MethodInvocation StringLiteral sample string v
+put SimpleName MethodInvocation StringLiteral integer attr
+put SimpleName MethodInvocation NumberLiteral empty
+integer attr StringLiteral MethodInvocation NumberLiteral empty
+atlas classification SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v phi
+phi classification SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+phi classification SimpleName Assignment ClassInstanceCreation QualifiedName test utils v phi
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation StringLiteral tag
+put SimpleName MethodInvocation StringLiteral tag name updated
+tag StringLiteral MethodInvocation StringLiteral tag name updated
+atlas classification SimpleName SimpleType ClassInstanceCreation QualifiedName test utils v classification
+test classification SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+test classification SimpleName Assignment ClassInstanceCreation QualifiedName test utils v classification
+db entity SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName phi classification
+arrays SimpleName MethodInvocation SimpleName test classification
+as list SimpleName MethodInvocation SimpleName phi classification
+as list SimpleName MethodInvocation SimpleName test classification
+phi classification SimpleName MethodInvocation SimpleName test classification
+entity rest SimpleName MethodInvocation SimpleName update classification
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName phi classification
+entity rest SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName test classification
+update classification SimpleName MethodInvocation MethodInvocation SimpleName db entity
+update classification SimpleName MethodInvocation MethodInvocation SimpleName get guid
+update classification SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+update classification SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+update classification SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName phi classification
+update classification SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName test classification
+db entity SimpleName MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation SimpleName get classification
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation QualifiedName test utils v phi
+get classification SimpleName MethodInvocation MethodInvocation SimpleName db entity
+get classification SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get classification SimpleName MethodInvocation QualifiedName test utils v phi
+db entity SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+updated classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+updated classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification
+updated classification SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName db entity
+updated classification SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+updated classification SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v phi
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated classification
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName updated classification
+assert not null SimpleName MethodInvocation SimpleName updated classification
+updated classification SimpleName MethodInvocation SimpleName get attribute
+updated classification SimpleName MethodInvocation StringLiteral string attr
+get attribute SimpleName MethodInvocation StringLiteral string attr
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation StringLiteral string attr
+assert SimpleName MethodInvocation StringLiteral sample string v
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral string attr
+assert equals SimpleName MethodInvocation StringLiteral sample string v
+updated classification SimpleName MethodInvocation MethodInvocation StringLiteral sample string v
+get attribute SimpleName MethodInvocation MethodInvocation StringLiteral sample string v
+string attr StringLiteral MethodInvocation MethodInvocation StringLiteral sample string v
+updated classification SimpleName MethodInvocation SimpleName get attribute
+updated classification SimpleName MethodInvocation StringLiteral integer attr
+get attribute SimpleName MethodInvocation StringLiteral integer attr
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation StringLiteral integer attr
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral integer attr
+assert equals SimpleName MethodInvocation NumberLiteral empty
+updated classification SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+integer attr StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+updated classification SimpleName MethodInvocation SimpleName get attribute
+updated classification SimpleName MethodInvocation StringLiteral boolean attr
+get attribute SimpleName MethodInvocation StringLiteral boolean attr
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation StringLiteral boolean attr
+assert SimpleName MethodInvocation BooleanLiteral true
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral boolean attr
+assert equals SimpleName MethodInvocation BooleanLiteral true
+updated classification SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get attribute SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+boolean attr StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+db entity SimpleName MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation SimpleName get classification
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation QualifiedName test utils v classification
+get classification SimpleName MethodInvocation MethodInvocation SimpleName db entity
+get classification SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get classification SimpleName MethodInvocation QualifiedName test utils v classification
+db entity SimpleName MethodInvocation MethodInvocation QualifiedName test utils v classification
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName test utils v classification
+updated classification SimpleName Assignment MethodInvocation SimpleName entity rest
+updated classification SimpleName Assignment MethodInvocation SimpleName get classification
+updated classification SimpleName Assignment MethodInvocation MethodInvocation SimpleName db entity
+updated classification SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+updated classification SimpleName Assignment MethodInvocation QualifiedName test utils v classification
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName updated classification
+assert not null SimpleName MethodInvocation SimpleName updated classification
+updated classification SimpleName MethodInvocation SimpleName get attribute
+updated classification SimpleName MethodInvocation StringLiteral tag
+get attribute SimpleName MethodInvocation StringLiteral tag
+test classification SimpleName MethodInvocation SimpleName get attribute
+test classification SimpleName MethodInvocation StringLiteral tag
+get attribute SimpleName MethodInvocation StringLiteral tag
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation StringLiteral tag
+assert SimpleName MethodInvocation MethodInvocation SimpleName test classification
+assert SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert SimpleName MethodInvocation MethodInvocation StringLiteral tag
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updated classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral tag
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName test classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral tag
+updated classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test classification
+updated classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+updated classification SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tag
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test classification
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tag
+tag StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName test classification
+tag StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+tag StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tag
+db entity SimpleName MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation SimpleName delete classification
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+entity rest SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity rest SimpleName MethodInvocation QualifiedName test utils v phi
+delete classification SimpleName MethodInvocation MethodInvocation SimpleName db entity
+delete classification SimpleName MethodInvocation MethodInvocation SimpleName get guid
+delete classification SimpleName MethodInvocation QualifiedName test utils v phi
+db entity SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName test utils v phi
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get entity by id StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get entity by id StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add and update classification with attributes
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add and update classification with attributes
+test get entity by id StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add and update classification with attributes
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add and update classification with attributes
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test add and update classification with attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add and update classification with attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+test add and update classification with attributes SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add and update classification with attributes SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add and update classification with attributes SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add and update classification with attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add and update classification with attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

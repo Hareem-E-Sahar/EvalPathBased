@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName metadata schematablets sectionlog column familyname
+fetch column family SimpleName MethodInvocation QualifiedName metadata schematablets sectionlog column familyname
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+saw StringLiteral InfixExpression MethodInvocation SimpleName entry
+saw StringLiteral InfixExpression MethodInvocation SimpleName get key
+saw StringLiteral InfixExpression StringLiteral =
+saw StringLiteral InfixExpression MethodInvocation SimpleName entry
+saw StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName entry
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral saw
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation InfixExpression StringLiteral =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+debug SimpleName MethodInvocation InfixExpression StringLiteral saw
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+debug SimpleName MethodInvocation InfixExpression StringLiteral =
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName count
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName count logs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType MethodDeclaration SimpleName count logs
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+int PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName count
+count logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+count logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+count logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+count logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+count logs SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+count logs SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+count logs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+count logs SimpleName MethodDeclaration Block ReturnStatement SimpleName count
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName count logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName count logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

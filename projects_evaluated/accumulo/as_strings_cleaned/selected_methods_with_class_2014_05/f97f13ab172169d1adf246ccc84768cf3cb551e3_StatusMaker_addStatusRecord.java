@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+mutation SimpleName SimpleType ClassInstanceCreation SimpleName file
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName status sectionname
+m SimpleName MethodInvocation SimpleName table id
+m SimpleName MethodInvocation SimpleName v
+put SimpleName MethodInvocation QualifiedName status sectionname
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName v
+status sectionname QualifiedName MethodInvocation SimpleName table id
+status sectionname QualifiedName MethodInvocation SimpleName v
+table id SimpleName MethodInvocation SimpleName v
+replication writer SimpleName MethodInvocation SimpleName add mutation
+replication writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to write work mutations for replication will retry
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral failed to write work mutations for replication will retry
+warn SimpleName MethodInvocation SimpleName e
+failed to write work mutations for replication will retry StringLiteral MethodInvocation SimpleName e
+replication writer SimpleName MethodInvocation SimpleName flush
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to write work mutations for replication will retry
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral failed to write work mutations for replication will retry
+warn SimpleName MethodInvocation SimpleName e
+failed to write work mutations for replication will retry StringLiteral MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName add status record
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName add status record
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+add status record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+add status record SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add status record
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add status record
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

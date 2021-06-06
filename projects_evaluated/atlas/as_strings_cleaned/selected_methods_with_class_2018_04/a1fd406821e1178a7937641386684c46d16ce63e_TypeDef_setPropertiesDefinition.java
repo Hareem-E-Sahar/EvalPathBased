@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties definition
+type def attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties definition
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName properties definition
+properties definition SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName properties definition
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set properties definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties definition
+void PrimitiveType MethodDeclaration SimpleName set properties definition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties definition
+set properties definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties definition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set properties definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set properties definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties definition

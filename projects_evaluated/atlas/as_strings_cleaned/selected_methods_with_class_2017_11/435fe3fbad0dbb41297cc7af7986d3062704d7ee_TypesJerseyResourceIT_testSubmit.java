@@ -1,0 +1,106 @@
+hierarchical type definition SimpleName SimpleType SingleVariableDeclaration SimpleName type definition
+type definition SimpleName MethodInvocation SimpleName get type name
+atlas client v SimpleName MethodInvocation SimpleName get type
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName type definition
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName type definition
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ase
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName type definition
+to v json SimpleName MethodInvocation SimpleName type definition
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName type definition
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types as json
+types as json = StringLiteral InfixExpression SimpleName types as json
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral types as json =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName types as json
+println SimpleName MethodInvocation InfixExpression StringLiteral types as json =
+println SimpleName MethodInvocation InfixExpression SimpleName types as json
+atlas client v SimpleName MethodInvocation SimpleName call api with body
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapi v create type
+atlas client v SimpleName MethodInvocation SimpleName types as json
+call api with body SimpleName MethodInvocation QualifiedName atlas clientapi v create type
+call api with body SimpleName MethodInvocation SimpleName types as json
+atlas clientapi v create type QualifiedName MethodInvocation SimpleName types as json
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapi v create type
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName types as json
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clienttypes
+get json array SimpleName MethodInvocation QualifiedName atlas clienttypes
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+types added SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clienttypes
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types added
+types added SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName types added
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+types added SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+types added SimpleName MethodInvocation SimpleName get json object
+types added SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+types added SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get string
+types added SimpleName MethodInvocation MethodInvocation SimpleName name
+get json object SimpleName MethodInvocation MethodInvocation SimpleName name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName name
+get string SimpleName MethodInvocation SimpleName name
+type definition SimpleName MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName type definition
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type definition
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type definition
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+hierarchical type definition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type definitions
+type definition SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type definitions
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test submit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test submit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName type definitions
+void PrimitiveType MethodDeclaration SimpleName test submit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName type definitions
+test submit SimpleName MethodDeclaration SimpleType SimpleName exception
+test submit SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type definitions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test submit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test submit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

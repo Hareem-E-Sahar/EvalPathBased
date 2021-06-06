@@ -1,0 +1,123 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName current edge
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName new attribute value
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+get class vertex SimpleName MethodInvocation SimpleName new attribute value
+new reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class vertex
+new reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName new attribute value
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new reference vertex
+new reference vertex SimpleName InfixExpression InfixExpression InfixExpression SimpleName new attribute value
+could not find vertex for class reference StringLiteral InfixExpression SimpleName new attribute value
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral could not find vertex for class reference
+log SimpleName MethodInvocation InfixExpression SimpleName new attribute value
+error SimpleName MethodInvocation InfixExpression StringLiteral could not find vertex for class reference
+error SimpleName MethodInvocation InfixExpression SimpleName new attribute value
+could not find vertex for class reference StringLiteral InfixExpression SimpleName new attribute value
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find vertex for class reference
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new attribute value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new edge id
+current edge SimpleName InfixExpression InfixExpression InfixExpression SimpleName new attribute value
+update class edge SimpleName MethodInvocation SimpleName instance vertex
+update class edge SimpleName MethodInvocation SimpleName current edge
+update class edge SimpleName MethodInvocation SimpleName new attribute value
+update class edge SimpleName MethodInvocation SimpleName new reference vertex
+update class edge SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName current edge
+instance vertex SimpleName MethodInvocation SimpleName new attribute value
+instance vertex SimpleName MethodInvocation SimpleName new reference vertex
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName edge label
+current edge SimpleName MethodInvocation SimpleName new attribute value
+current edge SimpleName MethodInvocation SimpleName new reference vertex
+current edge SimpleName MethodInvocation SimpleName attribute info
+current edge SimpleName MethodInvocation SimpleName edge label
+new attribute value SimpleName MethodInvocation SimpleName new reference vertex
+new attribute value SimpleName MethodInvocation SimpleName attribute info
+new attribute value SimpleName MethodInvocation SimpleName edge label
+new reference vertex SimpleName MethodInvocation SimpleName attribute info
+new reference vertex SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName edge label
+new edge id SimpleName Assignment MethodInvocation SimpleName update class edge
+new edge id SimpleName Assignment MethodInvocation SimpleName instance vertex
+new edge id SimpleName Assignment MethodInvocation SimpleName current edge
+new edge id SimpleName Assignment MethodInvocation SimpleName new attribute value
+new edge id SimpleName Assignment MethodInvocation SimpleName new reference vertex
+new edge id SimpleName Assignment MethodInvocation SimpleName attribute info
+new edge id SimpleName Assignment MethodInvocation SimpleName edge label
+current edge SimpleName InfixExpression InfixExpression InfixExpression SimpleName new attribute value
+add class edge SimpleName MethodInvocation SimpleName instance vertex
+add class edge SimpleName MethodInvocation SimpleName new reference vertex
+add class edge SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName new reference vertex
+instance vertex SimpleName MethodInvocation SimpleName edge label
+new reference vertex SimpleName MethodInvocation SimpleName edge label
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName add class edge
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName new reference vertex
+new edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new edge
+new edge SimpleName MethodInvocation SimpleName get id
+new edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+new edge id SimpleName Assignment MethodInvocation MethodInvocation SimpleName new edge
+new edge id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get id
+new edge id SimpleName Assignment MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add or update class vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName current edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+string SimpleName SimpleType MethodDeclaration SimpleName add or update class vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName current edge
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current edge
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update class vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update class vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

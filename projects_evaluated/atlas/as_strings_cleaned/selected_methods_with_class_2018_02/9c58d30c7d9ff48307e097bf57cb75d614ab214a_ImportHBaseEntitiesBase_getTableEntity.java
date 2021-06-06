@@ -1,0 +1,168 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name space
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName owner
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName name space entity
+h table descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName htd
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName table type
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName name space
+get table qualified name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName name space
+cluster name SimpleName MethodInvocation SimpleName table name
+name space SimpleName MethodInvocation SimpleName table name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName qualified name
+ret SimpleName MethodInvocation SimpleName table qualified name
+set attribute SimpleName MethodInvocation SimpleName qualified name
+set attribute SimpleName MethodInvocation SimpleName table qualified name
+qualified name SimpleName MethodInvocation SimpleName table qualified name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName clustername
+ret SimpleName MethodInvocation SimpleName cluster name
+set attribute SimpleName MethodInvocation SimpleName clustername
+set attribute SimpleName MethodInvocation SimpleName cluster name
+clustername SimpleName MethodInvocation SimpleName cluster name
+atlas type util SimpleName MethodInvocation SimpleName get atlas object id
+atlas type util SimpleName MethodInvocation SimpleName name space entity
+get atlas object id SimpleName MethodInvocation SimpleName name space entity
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName namespace
+ret SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+ret SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+ret SimpleName MethodInvocation MethodInvocation SimpleName name space entity
+set attribute SimpleName MethodInvocation SimpleName namespace
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName name space entity
+namespace SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+namespace SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+namespace SimpleName MethodInvocation MethodInvocation SimpleName name space entity
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName table name
+name SimpleName MethodInvocation SimpleName table name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName description attr
+ret SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName description attr
+set attribute SimpleName MethodInvocation SimpleName table name
+description attr SimpleName MethodInvocation SimpleName table name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName owner
+ret SimpleName MethodInvocation SimpleName owner
+set attribute SimpleName MethodInvocation SimpleName owner
+set attribute SimpleName MethodInvocation SimpleName owner
+owner SimpleName MethodInvocation SimpleName owner
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName uri
+ret SimpleName MethodInvocation SimpleName table name
+set attribute SimpleName MethodInvocation SimpleName uri
+set attribute SimpleName MethodInvocation SimpleName table name
+uri SimpleName MethodInvocation SimpleName table name
+htd SimpleName MethodInvocation SimpleName get max file size
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attr table max filesize
+ret SimpleName MethodInvocation MethodInvocation SimpleName htd
+ret SimpleName MethodInvocation MethodInvocation SimpleName get max file size
+set attribute SimpleName MethodInvocation SimpleName attr table max filesize
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName htd
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get max file size
+attr table max filesize SimpleName MethodInvocation MethodInvocation SimpleName htd
+attr table max filesize SimpleName MethodInvocation MethodInvocation SimpleName get max file size
+htd SimpleName MethodInvocation SimpleName get region replication
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attr table replication per region
+ret SimpleName MethodInvocation MethodInvocation SimpleName htd
+ret SimpleName MethodInvocation MethodInvocation SimpleName get region replication
+set attribute SimpleName MethodInvocation SimpleName attr table replication per region
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName htd
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get region replication
+attr table replication per region SimpleName MethodInvocation MethodInvocation SimpleName htd
+attr table replication per region SimpleName MethodInvocation MethodInvocation SimpleName get region replication
+htd SimpleName MethodInvocation SimpleName is read only
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attr table isreadonly
+ret SimpleName MethodInvocation MethodInvocation SimpleName htd
+ret SimpleName MethodInvocation MethodInvocation SimpleName is read only
+set attribute SimpleName MethodInvocation SimpleName attr table isreadonly
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName htd
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName is read only
+attr table isreadonly SimpleName MethodInvocation MethodInvocation SimpleName htd
+attr table isreadonly SimpleName MethodInvocation MethodInvocation SimpleName is read only
+htd SimpleName MethodInvocation SimpleName is compaction enabled
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attr table iscompaction enabled
+ret SimpleName MethodInvocation MethodInvocation SimpleName htd
+ret SimpleName MethodInvocation MethodInvocation SimpleName is compaction enabled
+set attribute SimpleName MethodInvocation SimpleName attr table iscompaction enabled
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName htd
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName is compaction enabled
+attr table iscompaction enabled SimpleName MethodInvocation MethodInvocation SimpleName htd
+attr table iscompaction enabled SimpleName MethodInvocation MethodInvocation SimpleName is compaction enabled
+htd SimpleName MethodInvocation SimpleName get durability
+htd SimpleName MethodInvocation SimpleName get durability
+htd SimpleName MethodInvocation MethodInvocation SimpleName name
+get durability SimpleName MethodInvocation MethodInvocation SimpleName name
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attr table durablility
+set attribute SimpleName MethodInvocation SimpleName attr table durablility
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get table entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name space
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName owner
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get table entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name space
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName owner
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name space
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName owner
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h table descriptor
+get table entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName htd
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+owner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+owner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+name space entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd

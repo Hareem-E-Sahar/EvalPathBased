@@ -1,0 +1,31 @@
+long PrimitiveType SingleVariableDeclaration SimpleName curr time
+curr time SimpleName InfixExpression SimpleName last time
+curr time SimpleName InfixExpression SimpleName last update time
+curr time SimpleName InfixExpression InfixExpression NumberLiteral empty
+last update time SimpleName InfixExpression InfixExpression NumberLiteral empty
+last update time SimpleName Assignment SimpleName curr time
+curr time SimpleName Assignment SimpleName last time
+last time SimpleName Assignment SimpleName curr time
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName update time
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr time
+private Modifier MethodDeclaration Block ReturnStatement SimpleName curr time
+long PrimitiveType MethodDeclaration SimpleName update time
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName curr time
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName curr time
+update time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr time
+update time SimpleName MethodDeclaration Block ReturnStatement SimpleName curr time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName update time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr time

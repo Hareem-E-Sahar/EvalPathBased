@@ -1,0 +1,32 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+atlas entity with associations SimpleName SimpleType ClassInstanceCreation SimpleName entity
+entities SimpleName MethodInvocation SimpleName put
+entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entities SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with associations
+entities SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with associations
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName add entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

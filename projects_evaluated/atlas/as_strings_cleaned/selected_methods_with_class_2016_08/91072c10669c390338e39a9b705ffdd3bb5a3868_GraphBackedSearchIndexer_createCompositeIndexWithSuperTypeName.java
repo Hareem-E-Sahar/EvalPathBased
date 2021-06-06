@@ -1,0 +1,70 @@
+titan management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType SingleVariableDeclaration SimpleName property class
+property key SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+create composite index with system property SimpleName MethodInvocation SimpleName management
+create composite index with system property SimpleName MethodInvocation SimpleName property name
+create composite index with system property SimpleName MethodInvocation SimpleName property class
+create composite index with system property SimpleName MethodInvocation SimpleName property key
+create composite index with system property SimpleName MethodInvocation QualifiedName constantssuper types property key
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation SimpleName property class
+management SimpleName MethodInvocation SimpleName property key
+management SimpleName MethodInvocation QualifiedName constantssuper types property key
+management SimpleName MethodInvocation QualifiedName cardinalityset
+property name SimpleName MethodInvocation SimpleName property class
+property name SimpleName MethodInvocation SimpleName property key
+property name SimpleName MethodInvocation QualifiedName constantssuper types property key
+property name SimpleName MethodInvocation QualifiedName cardinalityset
+property class SimpleName MethodInvocation SimpleName property key
+property class SimpleName MethodInvocation QualifiedName constantssuper types property key
+property class SimpleName MethodInvocation QualifiedName cardinalityset
+property key SimpleName MethodInvocation QualifiedName constantssuper types property key
+property key SimpleName MethodInvocation QualifiedName cardinalityset
+constantssuper types property key QualifiedName MethodInvocation QualifiedName cardinalityset
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create composite index with super type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property class
+void PrimitiveType MethodDeclaration SimpleName create composite index with super type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property key
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property class
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+create composite index with super type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+property class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create composite index with super type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create composite index with super type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key

@@ -1,0 +1,34 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get related term relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get related term relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get synonym relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get synonym relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get antonym relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get antonym relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get preferred term relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get preferred term relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get replacement term relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get replacement term relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get translation relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get translation relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get isa relationship relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get isa relationship relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get valid value relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get valid value relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add related terms
+void PrimitiveType MethodDeclaration SimpleName add related terms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add related terms
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add related terms

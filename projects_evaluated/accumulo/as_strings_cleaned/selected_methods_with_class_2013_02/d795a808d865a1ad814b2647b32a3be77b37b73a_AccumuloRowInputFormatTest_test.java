@@ -1,0 +1,92 @@
+mock instance SimpleName SimpleType ClassInstanceCreation SimpleName instance name
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance name
+final Modifier VariableDeclarationStatement SimpleType SimpleName mock instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName instance name
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral root
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName connector
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName test table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName test table
+create SimpleName MethodInvocation SimpleName test table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName test table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName test table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+test table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+writer SimpleName Assignment MethodInvocation SimpleName conn
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation SimpleName test table
+insert list SimpleName MethodInvocation SimpleName writer
+insert list SimpleName MethodInvocation SimpleName row
+writer SimpleName MethodInvocation SimpleName row
+insert list SimpleName MethodInvocation SimpleName writer
+insert list SimpleName MethodInvocation SimpleName row
+writer SimpleName MethodInvocation SimpleName row
+insert list SimpleName MethodInvocation SimpleName writer
+insert list SimpleName MethodInvocation SimpleName row
+writer SimpleName MethodInvocation SimpleName row
+writer SimpleName MethodInvocation SimpleName close
+root StringLiteral ArrayInitializer StringLiteral empty
+root StringLiteral ArrayInitializer SimpleName test table
+empty StringLiteral ArrayInitializer SimpleName test table
+mr tester SimpleName MethodInvocation SimpleName main
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral root
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+mr tester SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName test table
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral root
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+main SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName test table
+assert null SimpleName MethodInvocation SimpleName e
+assert null SimpleName MethodInvocation SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,37 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+type registry SimpleName InfixExpression InfixExpression InfixExpression SimpleName classification name
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName classification name
+get classification type by name SimpleName MethodInvocation SimpleName classification name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+collections SimpleName MethodInvocation SimpleName empty set
+classification type SimpleName MethodInvocation SimpleName get type and all super types
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName collections
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName empty set
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName classification type
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type and all super types
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName classification type
+collections SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type and all super types
+empty set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName classification type
+empty set SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get type and all super types
+collections SimpleName MethodInvocation SimpleName empty set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get classification type and all super types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification type and all super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification type and all super types
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification type and all super types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification type and all super types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name

@@ -1,0 +1,70 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+request SimpleName MethodInvocation SimpleName get parameter map
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName request
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName request
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+request SimpleName MethodInvocation SimpleName get parameter map
+request SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get parameter map SimpleName MethodInvocation MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+e SimpleName MethodInvocation SimpleName get value
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+valueslength QualifiedName InfixExpression NumberLiteral empty
+values SimpleName InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+values SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess NumberLiteral empty
+value SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess SimpleName values
+value SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation SimpleName key
+attributes SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get parameter map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration Block ReturnStatement SimpleName attributes
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get parameter map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+static Modifier MethodDeclaration Block ReturnStatement SimpleName attributes
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parameter map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parameter map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parameter map
+get parameter map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get parameter map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get parameter map SimpleName MethodDeclaration Block ReturnStatement SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parameter map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parameter map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

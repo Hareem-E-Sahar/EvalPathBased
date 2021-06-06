@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+get SimpleName SuperMethodInvocation SimpleName type name
+type SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get
+type SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName type name
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName context
+context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+get type from store SimpleName MethodInvocation SimpleName type name
+get type from store SimpleName MethodInvocation SimpleName context
+type name SimpleName MethodInvocation SimpleName context
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type from store
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName is empty
+context SimpleName MethodInvocation SimpleName get types def
+type system SimpleName MethodInvocation SimpleName create transient type system
+type system SimpleName MethodInvocation MethodInvocation SimpleName context
+type system SimpleName MethodInvocation MethodInvocation SimpleName get types def
+type system SimpleName MethodInvocation BooleanLiteral false
+create transient type system SimpleName MethodInvocation MethodInvocation SimpleName context
+create transient type system SimpleName MethodInvocation MethodInvocation SimpleName get types def
+create transient type system SimpleName MethodInvocation BooleanLiteral false
+context SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get types def SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+transient type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+transient type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName create transient type system
+transient type system SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+transient type system SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get types def
+transient type system SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+transient type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transient type system
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+transient type system SimpleName MethodInvocation SimpleName get types added
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName transient type system
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types added
+types added SimpleName MethodInvocation SimpleName values
+put all SimpleName MethodInvocation MethodInvocation SimpleName types added
+put all SimpleName MethodInvocation MethodInvocation SimpleName values
+types added SimpleName MethodInvocation SimpleName get
+types added SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i data type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i data type SimpleName SimpleType MethodDeclaration SimpleName get
+i data type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+i data type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

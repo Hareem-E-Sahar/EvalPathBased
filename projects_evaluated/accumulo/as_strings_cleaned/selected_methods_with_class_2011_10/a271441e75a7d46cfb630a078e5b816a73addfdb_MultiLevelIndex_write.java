@@ -1,0 +1,60 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName level
+write int SimpleName MethodInvocation SimpleName level
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName offset
+write int SimpleName MethodInvocation SimpleName offset
+out SimpleName MethodInvocation SimpleName write boolean
+out SimpleName MethodInvocation SimpleName has next
+write boolean SimpleName MethodInvocation SimpleName has next
+offsets SimpleName MethodInvocation SimpleName size
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation MethodInvocation SimpleName offsets
+out SimpleName MethodInvocation MethodInvocation SimpleName size
+write int SimpleName MethodInvocation MethodInvocation SimpleName offsets
+write int SimpleName MethodInvocation MethodInvocation SimpleName size
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName offset
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName offset
+write int SimpleName MethodInvocation SimpleName offset
+integer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName offsets
+offset SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName offsets
+index out SimpleName MethodInvocation SimpleName close
+index bytes SimpleName MethodInvocation SimpleName to byte array
+index data SimpleName VariableDeclarationFragment MethodInvocation SimpleName index bytes
+index data SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName index data
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation QualifiedName index datalength
+write int SimpleName MethodInvocation QualifiedName index datalength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName index data
+write SimpleName MethodInvocation SimpleName index data
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName offsets
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName offsets
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration Block EnhancedForStatement SimpleName offsets
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

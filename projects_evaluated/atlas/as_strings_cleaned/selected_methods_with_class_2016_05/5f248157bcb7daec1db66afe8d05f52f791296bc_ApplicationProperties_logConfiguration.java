@@ -1,0 +1,60 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+log SimpleName MethodInvocation SimpleName is debug enabled
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configuration SimpleName MethodInvocation SimpleName get keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get keys
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral configuration loaded
+debug SimpleName MethodInvocation StringLiteral configuration loaded
+keys SimpleName MethodInvocation SimpleName has next
+keys SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+configuration SimpleName MethodInvocation SimpleName get property
+configuration SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} = {}
+log SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation MethodInvocation SimpleName configuration
+log SimpleName MethodInvocation MethodInvocation SimpleName get property
+log SimpleName MethodInvocation MethodInvocation SimpleName key
+debug SimpleName MethodInvocation StringLiteral {} = {}
+debug SimpleName MethodInvocation SimpleName key
+debug SimpleName MethodInvocation MethodInvocation SimpleName configuration
+debug SimpleName MethodInvocation MethodInvocation SimpleName get property
+debug SimpleName MethodInvocation MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName configuration
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName get property
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation SimpleName configuration
+key SimpleName MethodInvocation MethodInvocation SimpleName get property
+key SimpleName MethodInvocation MethodInvocation SimpleName key
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName log configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName log configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+void PrimitiveType MethodDeclaration SimpleName log configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configuration
+log configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+log configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

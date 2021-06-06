@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tbl qualified name
+known tables SimpleName InfixExpression InfixExpression InfixExpression SimpleName tbl qualified name
+system SimpleName MethodInvocation SimpleName current time millis
+known tables SimpleName MethodInvocation SimpleName put
+known tables SimpleName MethodInvocation SimpleName tbl qualified name
+known tables SimpleName MethodInvocation MethodInvocation SimpleName system
+known tables SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+put SimpleName MethodInvocation SimpleName tbl qualified name
+put SimpleName MethodInvocation MethodInvocation SimpleName system
+put SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+tbl qualified name SimpleName MethodInvocation MethodInvocation SimpleName system
+tbl qualified name SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to knwn table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+void PrimitiveType MethodDeclaration SimpleName add to knwn table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+add to knwn table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add to knwn table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to knwn table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to knwn table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name

@@ -1,0 +1,439 @@
+int PrimitiveType SingleVariableDeclaration SimpleName seconds
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName instance operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get tablet servers SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral javahome
+get property SimpleName MethodInvocation StringLiteral javahome
+java home SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+java home SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+java home SimpleName VariableDeclarationFragment MethodInvocation StringLiteral javahome
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName java home
+java home SimpleName InfixExpression QualifiedName fileseparator
+java home SimpleName InfixExpression StringLiteral bin
+java home SimpleName InfixExpression QualifiedName fileseparator
+java home SimpleName InfixExpression StringLiteral java
+fileseparator QualifiedName InfixExpression StringLiteral bin
+fileseparator QualifiedName InfixExpression QualifiedName fileseparator
+fileseparator QualifiedName InfixExpression StringLiteral java
+bin StringLiteral InfixExpression QualifiedName fileseparator
+bin StringLiteral InfixExpression StringLiteral java
+fileseparator QualifiedName InfixExpression StringLiteral java
+java bin SimpleName VariableDeclarationFragment InfixExpression SimpleName java home
+java bin SimpleName VariableDeclarationFragment InfixExpression QualifiedName fileseparator
+java bin SimpleName VariableDeclarationFragment InfixExpression StringLiteral bin
+java bin SimpleName VariableDeclarationFragment InfixExpression QualifiedName fileseparator
+java bin SimpleName VariableDeclarationFragment InfixExpression StringLiteral java
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName java bin
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral javaclasspath
+get property SimpleName MethodInvocation StringLiteral javaclasspath
+classpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+classpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+classpath SimpleName VariableDeclarationFragment MethodInvocation StringLiteral javaclasspath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classpath
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get dir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral conf
+cluster SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral conf
+get config SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral conf
+get dir SimpleName MethodInvocation ClassInstanceCreation StringLiteral conf
+file SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName filepath separator
+get dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName filepath separator
+conf StringLiteral ClassInstanceCreation InfixExpression QualifiedName filepath separator
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName classpath
+get dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName classpath
+conf StringLiteral ClassInstanceCreation InfixExpression SimpleName classpath
+filepath separator QualifiedName InfixExpression SimpleName classpath
+classpath SimpleName Assignment InfixExpression ClassInstanceCreation StringLiteral conf
+classpath SimpleName Assignment InfixExpression QualifiedName filepath separator
+classpath SimpleName Assignment InfixExpression SimpleName classpath
+tablet server SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName java bin
+arrays SimpleName MethodInvocation StringLiteral cp
+arrays SimpleName MethodInvocation SimpleName classpath
+as list SimpleName MethodInvocation SimpleName java bin
+as list SimpleName MethodInvocation StringLiteral cp
+as list SimpleName MethodInvocation SimpleName classpath
+java bin SimpleName MethodInvocation StringLiteral cp
+java bin SimpleName MethodInvocation SimpleName classpath
+cp StringLiteral MethodInvocation SimpleName classpath
+arg list SimpleName MethodInvocation SimpleName add all
+arg list SimpleName MethodInvocation MethodInvocation SimpleName arrays
+arg list SimpleName MethodInvocation MethodInvocation SimpleName as list
+arg list SimpleName MethodInvocation MethodInvocation SimpleName java bin
+arg list SimpleName MethodInvocation MethodInvocation StringLiteral cp
+arg list SimpleName MethodInvocation MethodInvocation SimpleName classpath
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation SimpleName java bin
+add all SimpleName MethodInvocation MethodInvocation StringLiteral cp
+add all SimpleName MethodInvocation MethodInvocation SimpleName classpath
+main SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get name
+arrays SimpleName MethodInvocation SimpleName class name
+as list SimpleName MethodInvocation MethodInvocation SimpleName get name
+as list SimpleName MethodInvocation SimpleName class name
+get name SimpleName MethodInvocation MethodInvocation SimpleName class name
+arg list SimpleName MethodInvocation SimpleName add all
+arg list SimpleName MethodInvocation MethodInvocation SimpleName arrays
+arg list SimpleName MethodInvocation MethodInvocation SimpleName as list
+arg list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+arg list SimpleName MethodInvocation MethodInvocation SimpleName class name
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add all SimpleName MethodInvocation MethodInvocation SimpleName class name
+process builder SimpleName SimpleType ClassInstanceCreation SimpleName arg list
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName process builder
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName arg list
+process builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+builder SimpleName MethodInvocation SimpleName environment
+env SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+env SimpleName VariableDeclarationFragment MethodInvocation SimpleName environment
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get dir
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get dir SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral accumulo home
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get dir
+env SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+put SimpleName MethodInvocation StringLiteral accumulo home
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get dir
+put SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+accumulo home StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get dir
+accumulo home StringLiteral MethodInvocation MethodInvocation SimpleName get absolute path
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get log dir SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral accumulo log dir
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get log dir
+env SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+put SimpleName MethodInvocation StringLiteral accumulo log dir
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get log dir
+put SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+accumulo log dir StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get log dir
+accumulo log dir StringLiteral MethodInvocation MethodInvocation SimpleName get absolute path
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get log dir
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get log dir SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get log dir SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral trick file
+get absolute path SimpleName MethodInvocation InfixExpression StringLiteral trick file
+trick filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get absolute path
+trick filename SimpleName VariableDeclarationFragment InfixExpression StringLiteral trick file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trick filename
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral trick file
+env SimpleName MethodInvocation SimpleName trick filename
+put SimpleName MethodInvocation StringLiteral trick file
+put SimpleName MethodInvocation SimpleName trick filename
+trick file StringLiteral MethodInvocation SimpleName trick filename
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral targetfake disk failureso
+get property SimpleName MethodInvocation InfixExpression StringLiteral targetfake disk failureso
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral targetfake disk failureso
+lib path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+lib path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get property
+lib path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral userdir
+lib path SimpleName VariableDeclarationFragment InfixExpression StringLiteral targetfake disk failureso
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lib path
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral ld preload
+env SimpleName MethodInvocation SimpleName lib path
+put SimpleName MethodInvocation StringLiteral ld preload
+put SimpleName MethodInvocation SimpleName lib path
+ld preload StringLiteral MethodInvocation SimpleName lib path
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral dyld insert libraries
+env SimpleName MethodInvocation SimpleName lib path
+put SimpleName MethodInvocation StringLiteral dyld insert libraries
+put SimpleName MethodInvocation SimpleName lib path
+dyld insert libraries StringLiteral MethodInvocation SimpleName lib path
+env SimpleName MethodInvocation SimpleName put
+env SimpleName MethodInvocation StringLiteral dyld force flat namespace
+env SimpleName MethodInvocation StringLiteral true
+put SimpleName MethodInvocation StringLiteral dyld force flat namespace
+put SimpleName MethodInvocation StringLiteral true
+dyld force flat namespace StringLiteral MethodInvocation StringLiteral true
+builder SimpleName MethodInvocation SimpleName start
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver
+tserver SimpleName MethodInvocation SimpleName get input stream
+dump output SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tserver
+dump output SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get input stream
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dump output
+t SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tserver
+t SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get input stream
+dump output SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName start
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get
+get processes SimpleName MethodInvocation MethodInvocation SimpleName get
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get processes SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get processes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get SimpleName MethodInvocation MethodInvocation SimpleName iterator
+server typetablet server QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+server typetablet server QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+cluster SimpleName MethodInvocation MethodInvocation SimpleName next
+kill process SimpleName MethodInvocation QualifiedName server typetablet server
+kill process SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+kill process SimpleName MethodInvocation MethodInvocation SimpleName next
+server typetablet server QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+server typetablet server QualifiedName MethodInvocation MethodInvocation SimpleName next
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+create SimpleName MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation SimpleName instance operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get tablet servers SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral InfixExpression NumberLiteral empty
+rows SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+rows SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+rows SimpleName InfixExpression StringLiteral empty
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test ingest
+cluster SimpleName MethodInvocation StringLiteral u
+cluster SimpleName MethodInvocation StringLiteral root
+cluster SimpleName MethodInvocation StringLiteral i
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test ingest
+exec SimpleName MethodInvocation StringLiteral u
+exec SimpleName MethodInvocation StringLiteral root
+exec SimpleName MethodInvocation StringLiteral i
+exec SimpleName MethodInvocation MethodInvocation SimpleName cluster
+exec SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral u
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral root
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral i
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral z
+u StringLiteral MethodInvocation StringLiteral root
+u StringLiteral MethodInvocation StringLiteral i
+u StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+u StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+u StringLiteral MethodInvocation StringLiteral z
+u StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+u StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+root StringLiteral MethodInvocation StringLiteral i
+root StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+root StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+root StringLiteral MethodInvocation StringLiteral z
+root StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+root StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+root StringLiteral MethodInvocation StringLiteral p
+i StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+i StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+i StringLiteral MethodInvocation StringLiteral z
+i StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+i StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+i StringLiteral MethodInvocation StringLiteral p
+i StringLiteral MethodInvocation SimpleName root password
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral z
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral z
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral p
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral p
+cluster SimpleName MethodInvocation MethodInvocation SimpleName root password
+get instance name SimpleName MethodInvocation MethodInvocation SimpleName root password
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral rows
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral rows
+z StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+z StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+z StringLiteral MethodInvocation StringLiteral p
+z StringLiteral MethodInvocation SimpleName root password
+z StringLiteral MethodInvocation StringLiteral rows
+z StringLiteral MethodInvocation InfixExpression SimpleName rows
+z StringLiteral MethodInvocation InfixExpression StringLiteral empty
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral p
+get zoo keepers SimpleName MethodInvocation MethodInvocation StringLiteral p
+cluster SimpleName MethodInvocation MethodInvocation SimpleName root password
+get zoo keepers SimpleName MethodInvocation MethodInvocation SimpleName root password
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral rows
+get zoo keepers SimpleName MethodInvocation MethodInvocation StringLiteral rows
+cluster SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName rows
+cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get zoo keepers SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName rows
+get zoo keepers SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+p StringLiteral MethodInvocation SimpleName root password
+p StringLiteral MethodInvocation StringLiteral rows
+p StringLiteral MethodInvocation InfixExpression SimpleName rows
+p StringLiteral MethodInvocation InfixExpression StringLiteral empty
+root password SimpleName MethodInvocation StringLiteral rows
+root password SimpleName MethodInvocation InfixExpression SimpleName rows
+root password SimpleName MethodInvocation InfixExpression StringLiteral empty
+rows StringLiteral MethodInvocation InfixExpression SimpleName rows
+rows StringLiteral MethodInvocation InfixExpression StringLiteral empty
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral u
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral i
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance name
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral z
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get zoo keepers
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral p
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName root password
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+ingest SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName rows
+ingest SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral empty
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation SimpleName trick filename
+trick file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+trick file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trick filename
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trick file
+trick file SimpleName MethodInvocation SimpleName create new file
+seconds SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression SimpleName seconds
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression SimpleName seconds
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+trick file SimpleName MethodInvocation SimpleName delete
+seconds SimpleName InfixExpression NumberLiteral empty
+ingest SimpleName MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ingest
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ingest
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+vopts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName verify ingestopts
+verify ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vopts
+voptsrows QualifiedName Assignment SimpleName rows
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation SimpleName sopts
+vopts SimpleName MethodInvocation SimpleName sopts
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+t SimpleName MethodInvocation SimpleName to string
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName contains
+results SimpleName MethodInvocation StringLiteral sleepingsleepingsleeping
+contains SimpleName MethodInvocation StringLiteral sleepingsleepingsleeping
+assert true SimpleName MethodInvocation MethodInvocation SimpleName results
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral sleepingsleepingsleeping
+results SimpleName MethodInvocation SimpleName contains
+results SimpleName MethodInvocation StringLiteral zookeeper error will retry
+contains SimpleName MethodInvocation StringLiteral zookeeper error will retry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName results
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral zookeeper error will retry
+ingest SimpleName MethodInvocation SimpleName destroy
+ingest SimpleName MethodInvocation SimpleName wait for
+tserver SimpleName MethodInvocation SimpleName destroy
+tserver SimpleName MethodInvocation SimpleName wait for
+t SimpleName MethodInvocation SimpleName join
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName seconds
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName results
+string SimpleName SimpleType MethodDeclaration SimpleName test
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName seconds
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seconds
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MethodDeclaration Block ReturnStatement SimpleName results
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+seconds SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seconds
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seconds
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

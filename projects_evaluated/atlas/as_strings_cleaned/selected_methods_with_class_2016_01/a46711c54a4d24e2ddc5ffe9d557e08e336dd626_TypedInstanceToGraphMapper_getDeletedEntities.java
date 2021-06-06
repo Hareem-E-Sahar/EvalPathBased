@@ -1,0 +1,9 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+collections SimpleName MethodInvocation SimpleName deleted entities
+unmodifiable list SimpleName MethodInvocation SimpleName deleted entities
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deleted entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deleted entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get deleted entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get deleted entities

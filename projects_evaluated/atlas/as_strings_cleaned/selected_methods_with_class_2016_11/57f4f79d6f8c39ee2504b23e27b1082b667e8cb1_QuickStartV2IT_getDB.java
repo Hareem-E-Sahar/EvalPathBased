@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+entities client v SimpleName MethodInvocation SimpleName get entity by attribute
+entities client v SimpleName MethodInvocation QualifiedName quick start v database type
+entities client v SimpleName MethodInvocation StringLiteral name
+entities client v SimpleName MethodInvocation SimpleName db name
+get entity by attribute SimpleName MethodInvocation QualifiedName quick start v database type
+get entity by attribute SimpleName MethodInvocation StringLiteral name
+get entity by attribute SimpleName MethodInvocation SimpleName db name
+quick start v database type QualifiedName MethodInvocation StringLiteral name
+quick start v database type QualifiedName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities client v
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity by attribute
+db entity SimpleName VariableDeclarationFragment MethodInvocation QualifiedName quick start v database type
+db entity SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get db
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+get db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get db SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+get db SimpleName MethodDeclaration SimpleType SimpleName json exception
+get db SimpleName MethodDeclaration Block ReturnStatement SimpleName db entity
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

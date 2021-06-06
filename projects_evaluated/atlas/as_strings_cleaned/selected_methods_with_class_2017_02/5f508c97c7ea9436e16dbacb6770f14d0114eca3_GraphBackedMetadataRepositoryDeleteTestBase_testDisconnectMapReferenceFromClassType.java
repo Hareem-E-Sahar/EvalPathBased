@@ -1,0 +1,500 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral bi map owner
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral map owner
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral bi map
+bi map owner StringLiteral ClassInstanceCreation StringLiteral map owner
+bi map owner StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+bi map owner StringLiteral ClassInstanceCreation BooleanLiteral false
+bi map owner StringLiteral ClassInstanceCreation StringLiteral bi map
+map owner StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+map owner StringLiteral ClassInstanceCreation BooleanLiteral false
+map owner StringLiteral ClassInstanceCreation StringLiteral bi map
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation StringLiteral bi map
+false BooleanLiteral ClassInstanceCreation StringLiteral bi map
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral map value
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral map owner
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map
+create class type def SimpleName MethodInvocation StringLiteral map value
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral map owner
+create class type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map
+map value StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+map value StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+map value StringLiteral MethodInvocation MethodInvocation SimpleName of
+map value StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+map value StringLiteral MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map value StringLiteral MethodInvocation ClassInstanceCreation StringLiteral map owner
+map value StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map value StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value StringLiteral MethodInvocation ClassInstanceCreation StringLiteral bi map
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral map owner
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral map owner
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map
+map value def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+map value def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+map value def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map value
+map value def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+map value def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+map value def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map value def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral map owner
+map value def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map value def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral bi map
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation SimpleName map type name
+data types SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+data types SimpleName MethodInvocation MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation StringLiteral map value
+map type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation StringLiteral map value
+data typesstring type QualifiedName MethodInvocation MethodInvocation StringLiteral map value
+get name SimpleName MethodInvocation MethodInvocation StringLiteral map value
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral map
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName map type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral map value
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+map StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+map StringLiteral ClassInstanceCreation MethodInvocation SimpleName map type name
+map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+map StringLiteral ClassInstanceCreation MethodInvocation StringLiteral map value
+map StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+map StringLiteral ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map value StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+map type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation SimpleName map type name
+data types SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+data types SimpleName MethodInvocation MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation StringLiteral map value
+map type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation StringLiteral map value
+data typesstring type QualifiedName MethodInvocation MethodInvocation StringLiteral map value
+get name SimpleName MethodInvocation MethodInvocation StringLiteral map value
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral bi map
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName map type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral map value
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral bi map owner
+bi map StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+bi map StringLiteral ClassInstanceCreation MethodInvocation SimpleName map type name
+bi map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+bi map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+bi map StringLiteral ClassInstanceCreation MethodInvocation StringLiteral map value
+bi map StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+bi map StringLiteral ClassInstanceCreation BooleanLiteral false
+bi map StringLiteral ClassInstanceCreation StringLiteral bi map owner
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map value StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+map type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map type name SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map value StringLiteral MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation StringLiteral bi map owner
+false BooleanLiteral ClassInstanceCreation StringLiteral bi map owner
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral map owner
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral map
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+create class type def SimpleName MethodInvocation StringLiteral map owner
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral map
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+create class type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+create class type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map owner StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+map owner StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+map owner StringLiteral MethodInvocation MethodInvocation SimpleName of
+map owner StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+map owner StringLiteral MethodInvocation ClassInstanceCreation StringLiteral map
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+map owner StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map owner StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+map owner StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+map owner StringLiteral MethodInvocation ClassInstanceCreation StringLiteral bi map
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+map owner StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value
+map owner StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map owner StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+map owner StringLiteral MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral map
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral map
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map
+map StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+map StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+map owner def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+map owner def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+map owner def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map owner
+map owner def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+map owner def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral map
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral bi map
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+map owner def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral bi map owner
+immutable list SimpleName MethodInvocation SimpleType SimpleName enum type definition
+immutable list SimpleName MethodInvocation SimpleName of
+enum type definition SimpleName SimpleType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleType SimpleName struct type definition
+immutable list SimpleName MethodInvocation SimpleName of
+struct type definition SimpleName SimpleType MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName hierarchical type definition
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+trait type SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName map owner def
+immutable list SimpleName MethodInvocation SimpleName map value def
+of SimpleName MethodInvocation SimpleName map owner def
+of SimpleName MethodInvocation SimpleName map value def
+map owner def SimpleName MethodInvocation SimpleName map value def
+types util SimpleName MethodInvocation SimpleName get types def
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName struct type definition
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName map owner def
+types util SimpleName MethodInvocation MethodInvocation SimpleName map value def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName struct type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName map owner def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName map value def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map owner def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map value def
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+type system SimpleName MethodInvocation SimpleName define types
+type system SimpleName MethodInvocation SimpleName types def
+define types SimpleName MethodInvocation SimpleName types def
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation StringLiteral map owner
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral map owner
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral map owner
+map owner type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+map owner type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+map owner type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map owner
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner type
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation StringLiteral map value
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral map value
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral map value
+map value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+map value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+map value type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map value
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value type
+map owner type SimpleName MethodInvocation SimpleName create instance
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner type
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner instance
+map value type SimpleName MethodInvocation SimpleName create instance
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value type
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value instance
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation StringLiteral value
+collections SimpleName MethodInvocation SimpleName map value instance
+singleton map SimpleName MethodInvocation StringLiteral value
+singleton map SimpleName MethodInvocation SimpleName map value instance
+value StringLiteral MethodInvocation SimpleName map value instance
+map owner instance SimpleName MethodInvocation SimpleName set
+map owner instance SimpleName MethodInvocation StringLiteral map
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName collections
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+map owner instance SimpleName MethodInvocation MethodInvocation StringLiteral value
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+set SimpleName MethodInvocation StringLiteral map
+set SimpleName MethodInvocation MethodInvocation SimpleName collections
+set SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+set SimpleName MethodInvocation MethodInvocation StringLiteral value
+set SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+map StringLiteral MethodInvocation MethodInvocation SimpleName collections
+map StringLiteral MethodInvocation MethodInvocation SimpleName singleton map
+map StringLiteral MethodInvocation MethodInvocation StringLiteral value
+map StringLiteral MethodInvocation MethodInvocation SimpleName map value instance
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation StringLiteral value
+collections SimpleName MethodInvocation SimpleName map value instance
+singleton map SimpleName MethodInvocation StringLiteral value
+singleton map SimpleName MethodInvocation SimpleName map value instance
+value StringLiteral MethodInvocation SimpleName map value instance
+map owner instance SimpleName MethodInvocation SimpleName set
+map owner instance SimpleName MethodInvocation StringLiteral bi map
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName collections
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+map owner instance SimpleName MethodInvocation MethodInvocation StringLiteral value
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+set SimpleName MethodInvocation StringLiteral bi map
+set SimpleName MethodInvocation MethodInvocation SimpleName collections
+set SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+set SimpleName MethodInvocation MethodInvocation StringLiteral value
+set SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+bi map StringLiteral MethodInvocation MethodInvocation SimpleName collections
+bi map StringLiteral MethodInvocation MethodInvocation SimpleName singleton map
+bi map StringLiteral MethodInvocation MethodInvocation StringLiteral value
+bi map StringLiteral MethodInvocation MethodInvocation SimpleName map value instance
+map value instance SimpleName MethodInvocation SimpleName set
+map value instance SimpleName MethodInvocation StringLiteral bi map owner
+map value instance SimpleName MethodInvocation SimpleName map owner instance
+set SimpleName MethodInvocation StringLiteral bi map owner
+set SimpleName MethodInvocation SimpleName map owner instance
+bi map owner StringLiteral MethodInvocation SimpleName map owner instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName create entities
+repository service SimpleName MethodInvocation SimpleName map owner instance
+repository service SimpleName MethodInvocation SimpleName map value instance
+create entities SimpleName MethodInvocation SimpleName map owner instance
+create entities SimpleName MethodInvocation SimpleName map value instance
+map owner instance SimpleName MethodInvocation SimpleName map value instance
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+create entities SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+map owner instance SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+map value instance SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+create entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName repository service
+create entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create entities
+create entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map owner instance
+create entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map value instance
+create entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entities
+create entities result SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+create entities result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get entity list
+repository service SimpleName MethodInvocation StringLiteral map owner
+get entity list SimpleName MethodInvocation StringLiteral map owner
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity list
+guids SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map owner
+guids SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName guids
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName guids
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+guids SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+guids SimpleName MethodInvocation SimpleName get
+guids SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName guids
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner guid
+map owner typefield mappingfields QualifiedName MethodInvocation SimpleName get
+map owner typefield mappingfields QualifiedName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+graph helper SimpleName MethodInvocation SimpleName get edge label
+graph helper SimpleName MethodInvocation SimpleName map owner type
+graph helper SimpleName MethodInvocation MethodInvocation QualifiedName map owner typefield mappingfields
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation StringLiteral map
+get edge label SimpleName MethodInvocation SimpleName map owner type
+get edge label SimpleName MethodInvocation MethodInvocation QualifiedName map owner typefield mappingfields
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName get
+get edge label SimpleName MethodInvocation MethodInvocation StringLiteral map
+map owner type SimpleName MethodInvocation MethodInvocation QualifiedName map owner typefield mappingfields
+map owner type SimpleName MethodInvocation MethodInvocation SimpleName get
+map owner type SimpleName MethodInvocation MethodInvocation StringLiteral map
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner type
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName map owner typefield mappingfields
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral map
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+edge label SimpleName InfixExpression StringLiteral .
+edge label SimpleName InfixExpression StringLiteral value
+. StringLiteral InfixExpression StringLiteral value
+map entry label SimpleName VariableDeclarationFragment InfixExpression SimpleName edge label
+map entry label SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+map entry label SimpleName VariableDeclarationFragment InfixExpression StringLiteral value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map entry label
+atlas edge label SimpleName SimpleType ClassInstanceCreation SimpleName map entry label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas edge label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName map entry label
+atlas edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value guid

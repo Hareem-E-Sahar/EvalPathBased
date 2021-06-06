@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+expected SimpleName MethodInvocation SimpleName equals
+expected SimpleName MethodInvocation SimpleName value
+equals SimpleName MethodInvocation SimpleName value
+expected StringLiteral InfixExpression SimpleName expected
+expected StringLiteral InfixExpression StringLiteral !=
+expected StringLiteral InfixExpression SimpleName value
+expected SimpleName InfixExpression StringLiteral !=
+expected SimpleName InfixExpression SimpleName value
+!= StringLiteral InfixExpression SimpleName value
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName expected
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral !=
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName value
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert equals
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName assert equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+expected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

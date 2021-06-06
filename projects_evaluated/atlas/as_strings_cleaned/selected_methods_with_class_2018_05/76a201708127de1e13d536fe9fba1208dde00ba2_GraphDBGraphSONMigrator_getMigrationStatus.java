@@ -1,0 +1,18 @@
+reader status manager SimpleName MethodInvocation SimpleName get
+reader status manager SimpleName MethodInvocation MethodInvocation SimpleName get graph instance
+get SimpleName MethodInvocation MethodInvocation SimpleName get graph instance
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName migration status
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get migration status
+public Modifier MethodDeclaration SimpleType SimpleName migration status
+public Modifier MethodDeclaration SimpleName get migration status
+migration status SimpleName SimpleType MethodDeclaration SimpleName get migration status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get migration status
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get migration status

@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName was transaction initialized
+public Modifier MethodDeclaration Block ReturnStatement SimpleName transaction initialized
+boolean PrimitiveType MethodDeclaration SimpleName was transaction initialized
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName transaction initialized
+was transaction initialized SimpleName MethodDeclaration Block ReturnStatement SimpleName transaction initialized
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName was transaction initialized
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName was transaction initialized

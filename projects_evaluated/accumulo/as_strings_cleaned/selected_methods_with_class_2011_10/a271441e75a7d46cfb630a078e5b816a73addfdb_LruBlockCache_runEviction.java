@@ -1,0 +1,11 @@
+eviction thread SimpleName MethodInvocation SimpleName evict
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run eviction
+void PrimitiveType MethodDeclaration SimpleName run eviction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run eviction
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run eviction

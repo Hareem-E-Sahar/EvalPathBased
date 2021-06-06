@@ -1,0 +1,55 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral adding entity
+log SimpleName MethodInvocation SimpleName typed instance
+info SimpleName MethodInvocation StringLiteral adding entity
+info SimpleName MethodInvocation SimpleName typed instance
+adding entity StringLiteral MethodInvocation SimpleName typed instance
+titan graph SimpleName MethodInvocation SimpleName rollback
+instance to graph mapper SimpleName MethodInvocation SimpleName map typed instance to graph
+instance to graph mapper SimpleName MethodInvocation SimpleName typed instance
+map typed instance to graph SimpleName MethodInvocation SimpleName typed instance
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance to graph mapper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName map typed instance to graph
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance to graph mapper
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName map typed instance to graph
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName typed instance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+titan graph SimpleName MethodInvocation SimpleName commit
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName guid
+metadata exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+titan graph SimpleName MethodInvocation SimpleName rollback
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+string SimpleName SimpleType MethodDeclaration SimpleName create entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+create entity SimpleName MethodDeclaration SimpleType SimpleName repository exception
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

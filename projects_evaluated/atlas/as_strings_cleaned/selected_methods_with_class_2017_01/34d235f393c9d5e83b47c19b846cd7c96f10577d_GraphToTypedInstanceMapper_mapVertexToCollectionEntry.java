@@ -1,0 +1,134 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+element type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName SimpleType CastExpression SimpleName element type
+atlas edge SimpleName SimpleType CastExpression SimpleName value
+map vertex to struct instance SimpleName MethodInvocation SimpleName instance vertex
+map vertex to struct instance SimpleName MethodInvocation CastExpression SimpleType SimpleName struct type
+map vertex to struct instance SimpleName MethodInvocation CastExpression SimpleName element type
+map vertex to struct instance SimpleName MethodInvocation SimpleName edge label
+map vertex to struct instance SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+map vertex to struct instance SimpleName MethodInvocation CastExpression SimpleName value
+instance vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName struct type
+instance vertex SimpleName MethodInvocation CastExpression SimpleName element type
+instance vertex SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+instance vertex SimpleName MethodInvocation CastExpression SimpleName value
+struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName edge label
+element type SimpleName CastExpression MethodInvocation SimpleName edge label
+element type SimpleName CastExpression MethodInvocation CastExpression SimpleName value
+edge label SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+edge label SimpleName MethodInvocation CastExpression SimpleName value
+atlas edge SimpleName SimpleType CastExpression SimpleName value
+map vertex to class reference SimpleName MethodInvocation SimpleName instance vertex
+map vertex to class reference SimpleName MethodInvocation SimpleName attribute info
+map vertex to class reference SimpleName MethodInvocation SimpleName edge label
+map vertex to class reference SimpleName MethodInvocation SimpleName element type
+map vertex to class reference SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+map vertex to class reference SimpleName MethodInvocation CastExpression SimpleName value
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName element type
+instance vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+instance vertex SimpleName MethodInvocation CastExpression SimpleName value
+attribute info SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName element type
+attribute info SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+attribute info SimpleName MethodInvocation CastExpression SimpleName value
+edge label SimpleName MethodInvocation SimpleName element type
+edge label SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+edge label SimpleName MethodInvocation CastExpression SimpleName value
+element type SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+element type SimpleName MethodInvocation CastExpression SimpleName value
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+element type SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName value
+get type category SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName value
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+element type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName value
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+enum SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName value
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+value SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName array
+value SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName map
+value SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName trait
+value SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName struct
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName map vertex to collection entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+object SimpleName SimpleType MethodDeclaration SimpleName map vertex to collection entry
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map vertex to collection entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map vertex to collection entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

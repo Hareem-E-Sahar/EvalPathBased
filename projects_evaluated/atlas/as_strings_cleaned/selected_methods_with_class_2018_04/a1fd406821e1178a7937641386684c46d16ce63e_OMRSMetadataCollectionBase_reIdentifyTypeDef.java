@@ -1,0 +1,90 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new type def name
+public Modifier MethodDeclaration SimpleType SimpleName type def
+public Modifier MethodDeclaration SimpleName re identify type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+type def SimpleName SimpleType MethodDeclaration SimpleName re identify type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type def not known exception
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type def not known exception
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+new type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+new type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+new type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type def not known exception
+new type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+new type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type def not known exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type def not known exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+type def not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+type def not known exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+function not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName re identify type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def not known exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re identify type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def not known exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

@@ -1,0 +1,152 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName requested connection
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+connector broker SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector broker
+connector broker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector broker
+connector broker SimpleName MethodInvocation SimpleName get connector
+connector broker SimpleName MethodInvocation SimpleName requested connection
+get connector SimpleName MethodInvocation SimpleName requested connection
+new connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector broker
+new connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+new connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName requested connection
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new connector
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codenull connector returned
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codenull connector returned
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+asset consumer runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+new connector SimpleName MethodInvocation SimpleName get connector instance id
+new connector SimpleName MethodInvocation SimpleName get connection
+connected asset properties SimpleName SimpleType ClassInstanceCreation SimpleName user id
+connected asset properties SimpleName SimpleType ClassInstanceCreation SimpleName omas server url
+connected asset properties SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new connector
+connected asset properties SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector instance id
+connected asset properties SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new connector
+connected asset properties SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connection
+user id SimpleName ClassInstanceCreation SimpleName omas server url
+user id SimpleName ClassInstanceCreation MethodInvocation SimpleName new connector
+user id SimpleName ClassInstanceCreation MethodInvocation SimpleName get connector instance id
+user id SimpleName ClassInstanceCreation MethodInvocation SimpleName new connector
+user id SimpleName ClassInstanceCreation MethodInvocation SimpleName get connection
+omas server url SimpleName ClassInstanceCreation MethodInvocation SimpleName new connector
+omas server url SimpleName ClassInstanceCreation MethodInvocation SimpleName get connector instance id
+omas server url SimpleName ClassInstanceCreation MethodInvocation SimpleName new connector
+omas server url SimpleName ClassInstanceCreation MethodInvocation SimpleName get connection
+new connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName new connector
+new connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connection
+get connector instance id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName new connector
+get connector instance id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connection
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connected asset properties
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user id
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName omas server url
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName new connector
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connector instance id
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName new connector
+connected asset properties SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get connection
+connected asset properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connected asset properties
+new connector SimpleName MethodInvocation SimpleName initialize connected asset properties
+new connector SimpleName MethodInvocation SimpleName connected asset properties
+initialize connected asset properties SimpleName MethodInvocation SimpleName connected asset properties
+private Modifier MethodDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SimpleName get connector for connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+connector SimpleName SimpleType MethodDeclaration SimpleName get connector for connection
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method name
+connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName connection checked exception
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connector for connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+get connector for connection SimpleName MethodDeclaration SimpleType SimpleName connection checked exception
+get connector for connection SimpleName MethodDeclaration SimpleType SimpleName connector checked exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+requested connection SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+requested connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+requested connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+connection checked exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName connector checked exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector for connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector for connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName requested connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception

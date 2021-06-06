@@ -1,0 +1,95 @@
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation QualifiedName type categoryclass
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+get SimpleName MethodInvocation QualifiedName type categoryclass
+get SimpleName MethodInvocation SimpleName classtype customer
+type categoryclass QualifiedName MethodInvocation SimpleName classtype customer
+cust type SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache provider
+cust type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cust type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categoryclass
+cust type SimpleName VariableDeclarationFragment MethodInvocation SimpleName classtype customer
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cust type
+verify type SimpleName MethodInvocation SimpleName cust type
+verify type SimpleName MethodInvocation SimpleName classtype customer
+verify type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+cust type SimpleName MethodInvocation SimpleName classtype customer
+cust type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+classtype customer SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation QualifiedName type categorystruct
+cache provider SimpleName MethodInvocation SimpleName structtype address
+get SimpleName MethodInvocation QualifiedName type categorystruct
+get SimpleName MethodInvocation SimpleName structtype address
+type categorystruct QualifiedName MethodInvocation SimpleName structtype address
+addr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache provider
+addr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+addr type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categorystruct
+addr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName structtype address
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName addr type
+verify type SimpleName MethodInvocation SimpleName addr type
+verify type SimpleName MethodInvocation SimpleName structtype address
+verify type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct type
+addr type SimpleName MethodInvocation SimpleName structtype address
+addr type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct type
+structtype address SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct type
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation QualifiedName type categorytrait
+cache provider SimpleName MethodInvocation SimpleName traittype privileged
+get SimpleName MethodInvocation QualifiedName type categorytrait
+get SimpleName MethodInvocation SimpleName traittype privileged
+type categorytrait QualifiedName MethodInvocation SimpleName traittype privileged
+priv trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache provider
+priv trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+priv trait SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categorytrait
+priv trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName traittype privileged
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName priv trait
+verify type SimpleName MethodInvocation SimpleName priv trait
+verify type SimpleName MethodInvocation SimpleName traittype privileged
+verify type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+priv trait SimpleName MethodInvocation SimpleName traittype privileged
+priv trait SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+traittype privileged SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation QualifiedName type categoryenum
+cache provider SimpleName MethodInvocation SimpleName enumtype shipping
+get SimpleName MethodInvocation QualifiedName type categoryenum
+get SimpleName MethodInvocation SimpleName enumtype shipping
+type categoryenum QualifiedName MethodInvocation SimpleName enumtype shipping
+shipping enum SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache provider
+shipping enum SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+shipping enum SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categoryenum
+shipping enum SimpleName VariableDeclarationFragment MethodInvocation SimpleName enumtype shipping
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shipping enum
+verify type SimpleName MethodInvocation SimpleName shipping enum
+verify type SimpleName MethodInvocation SimpleName enumtype shipping
+verify type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName enum type
+shipping enum SimpleName MethodInvocation SimpleName enumtype shipping
+shipping enum SimpleName MethodInvocation TypeLiteral SimpleType SimpleName enum type
+enumtype shipping SimpleName MethodInvocation TypeLiteral SimpleType SimpleName enum type
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName unknown type
+get SimpleName MethodInvocation SimpleName unknown type
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName unknown type
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cache get type by category
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cache get type by category
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cache get type by category
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cache get type by category SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cache get type by category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cache get type by category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

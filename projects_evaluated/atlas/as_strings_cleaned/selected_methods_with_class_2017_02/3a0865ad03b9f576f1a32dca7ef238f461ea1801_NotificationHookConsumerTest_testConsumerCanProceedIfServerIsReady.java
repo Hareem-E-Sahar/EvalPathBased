@@ -1,0 +1,71 @@
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName notification interface
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName atlas entity store
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName service state
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName instance converter
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+notification interface SimpleName ClassInstanceCreation SimpleName atlas entity store
+notification interface SimpleName ClassInstanceCreation SimpleName service state
+notification interface SimpleName ClassInstanceCreation SimpleName instance converter
+notification interface SimpleName ClassInstanceCreation SimpleName type registry
+atlas entity store SimpleName ClassInstanceCreation SimpleName service state
+atlas entity store SimpleName ClassInstanceCreation SimpleName instance converter
+atlas entity store SimpleName ClassInstanceCreation SimpleName type registry
+service state SimpleName ClassInstanceCreation SimpleName instance converter
+service state SimpleName ClassInstanceCreation SimpleName type registry
+instance converter SimpleName ClassInstanceCreation SimpleName type registry
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName notification hook consumer
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName notification interface
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas entity store
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service state
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance converter
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+notification hook consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification hook consumer
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification consumer
+notification hook consumer SimpleName ClassInstanceCreation SimpleType SimpleName hook consumer
+notification hook consumer SimpleName ClassInstanceCreation MethodInvocation SimpleName mock
+hook consumer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mock
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName notification hook consumer
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hook consumer
+hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mock
+notification hook consumerhook consumer QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hook consumer
+mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName notification hook consumertimer
+timer SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+notification hook consumertimer QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName timer
+service state SimpleName MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName service state
+when SimpleName MethodInvocation MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+service state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName service stateservice state valueactive
+then return SimpleName MethodInvocation QualifiedName service stateservice state valueactive
+hook consumer SimpleName MethodInvocation SimpleName server available
+hook consumer SimpleName MethodInvocation SimpleName timer
+server available SimpleName MethodInvocation SimpleName timer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName hook consumer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName server available
+assert true SimpleName MethodInvocation MethodInvocation SimpleName timer
+verify zero interactions SimpleName MethodInvocation SimpleName timer
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test consumer can proceed if server is ready
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test consumer can proceed if server is ready
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test consumer can proceed if server is ready
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test consumer can proceed if server is ready SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test consumer can proceed if server is ready
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test consumer can proceed if server is ready
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

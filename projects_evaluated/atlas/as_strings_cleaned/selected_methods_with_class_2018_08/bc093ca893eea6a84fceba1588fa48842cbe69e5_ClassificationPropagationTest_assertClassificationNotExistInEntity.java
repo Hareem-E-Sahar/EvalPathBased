@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity name
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+get entity SimpleName MethodInvocation SimpleName entity name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+entity name SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+classifications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity
+classifications SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity name
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+classification SimpleName MethodInvocation SimpleName get type name
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification name
+classification SimpleName MethodInvocation SimpleName get entity guid
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classifications
+is not empty SimpleName MethodInvocation SimpleName classifications
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get type name
+c SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+c SimpleName MethodInvocation MethodInvocation SimpleName classification name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName classification name
+equals SimpleName MethodInvocation SimpleName classification name
+c SimpleName MethodInvocation SimpleName get entity guid
+c SimpleName MethodInvocation MethodInvocation SimpleName equals
+get entity guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+c SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+get entity guid SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+equals SimpleName MethodInvocation SimpleName entity guid
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity guid
+classification name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+classification name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity guid
+fail SimpleName MethodInvocation StringLiteral propagated classification should not be present in entity
+atlas classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert classification not exist in entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName assert classification not exist in entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+assert classification not exist in entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert classification not exist in entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity name
+assert classification not exist in entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+assert classification not exist in entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification
+assert classification not exist in entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+entity name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+classification SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert classification not exist in entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert classification not exist in entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,147 @@
+entries scanned SimpleName Assignment NumberLiteral empty
+inserts SimpleName Assignment NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName auths
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation SimpleName auths
+table SimpleName MethodInvocation SimpleName auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation NumberLiteral l
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral l
+table SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+find max depth SimpleName MethodInvocation SimpleName scanner
+depth SimpleName VariableDeclarationFragment MethodInvocation SimpleName find max depth
+depth SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName depth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find max depth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scanner
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+d SimpleName VariableDeclarationFragment SimpleName depth
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName d
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName depth
+d SimpleName InfixExpression NumberLiteral empty
+calculate counts SimpleName MethodInvocation SimpleName scanner
+calculate counts SimpleName MethodInvocation SimpleName d
+calculate counts SimpleName MethodInvocation SimpleName bw
+scanner SimpleName MethodInvocation SimpleName d
+scanner SimpleName MethodInvocation SimpleName bw
+d SimpleName MethodInvocation SimpleName bw
+bw SimpleName MethodInvocation SimpleName flush
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName d
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName d
+d SimpleName InfixExpression ForStatement PostfixExpression SimpleName d
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName d
+bw SimpleName MethodInvocation SimpleName close
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral max depth : d
+systemout QualifiedName MethodInvocation SimpleName depth
+printf SimpleName MethodInvocation StringLiteral max depth : d
+printf SimpleName MethodInvocation SimpleName depth
+max depth : d StringLiteral MethodInvocation SimpleName depth
+t SimpleName InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral time to find max depth : d ms
+systemout QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+printf SimpleName MethodInvocation StringLiteral time to find max depth : d ms
+printf SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+printf SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+time to find max depth : d ms StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+time to find max depth : d ms StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+t SimpleName InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral time to compute counts : d ms
+systemout QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+printf SimpleName MethodInvocation StringLiteral time to compute counts : d ms
+printf SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+printf SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+time to compute counts : d ms StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+time to compute counts : d ms StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral entries scanned : d
+systemout QualifiedName MethodInvocation SimpleName entries scanned
+printf SimpleName MethodInvocation StringLiteral entries scanned : d
+printf SimpleName MethodInvocation SimpleName entries scanned
+entries scanned : d StringLiteral MethodInvocation SimpleName entries scanned
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral counts inserted : d
+systemout QualifiedName MethodInvocation SimpleName inserts
+printf SimpleName MethodInvocation StringLiteral counts inserted : d
+printf SimpleName MethodInvocation SimpleName inserts
+counts inserted : d StringLiteral MethodInvocation SimpleName inserts
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,26 @@
+cached hdfs zoo instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hdfs zoo instance
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cached hdfs zoo instance
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cached hdfs zoo instance
+synchronized Modifier MethodDeclaration SimpleType SimpleName instance
+synchronized Modifier MethodDeclaration SimpleName get instance
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName cached hdfs zoo instance
+instance SimpleName SimpleType MethodDeclaration SimpleName get instance
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName cached hdfs zoo instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance

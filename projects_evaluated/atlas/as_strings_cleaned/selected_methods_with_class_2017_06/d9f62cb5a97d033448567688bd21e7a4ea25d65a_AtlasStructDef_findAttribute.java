@@ -1,0 +1,55 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+atlas attribute def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName attribute defs
+is not empty SimpleName MethodInvocation SimpleName attribute defs
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+attribute def SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName attr name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation SimpleName attr name
+attribute def SimpleName MethodInvocation MethodInvocation SimpleName attr name
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr name
+ret SimpleName Assignment SimpleName attribute def
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attribute defs
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attribute defs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SimpleName find attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+static Modifier MethodDeclaration SimpleName find attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName find attribute
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+find attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+attribute defs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName find attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

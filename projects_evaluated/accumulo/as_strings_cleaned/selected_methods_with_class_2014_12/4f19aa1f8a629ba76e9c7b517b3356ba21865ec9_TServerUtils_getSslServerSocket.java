@@ -1,0 +1,216 @@
+int PrimitiveType SingleVariableDeclaration SimpleName port
+int PrimitiveType SingleVariableDeclaration SimpleName timeout
+inet address SimpleName SimpleType SingleVariableDeclaration SimpleName address
+ssl connection params SimpleName SimpleType SingleVariableDeclaration SimpleName params
+t server socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t server sock
+params SimpleName MethodInvocation SimpleName use jsse
+params SimpleName MethodInvocation SimpleName is client auth
+tssl transport factory SimpleName MethodInvocation SimpleName get server socket
+tssl transport factory SimpleName MethodInvocation SimpleName port
+tssl transport factory SimpleName MethodInvocation SimpleName timeout
+tssl transport factory SimpleName MethodInvocation MethodInvocation SimpleName params
+tssl transport factory SimpleName MethodInvocation MethodInvocation SimpleName is client auth
+tssl transport factory SimpleName MethodInvocation SimpleName address
+get server socket SimpleName MethodInvocation SimpleName port
+get server socket SimpleName MethodInvocation SimpleName timeout
+get server socket SimpleName MethodInvocation MethodInvocation SimpleName params
+get server socket SimpleName MethodInvocation MethodInvocation SimpleName is client auth
+get server socket SimpleName MethodInvocation SimpleName address
+port SimpleName MethodInvocation SimpleName timeout
+port SimpleName MethodInvocation MethodInvocation SimpleName params
+port SimpleName MethodInvocation MethodInvocation SimpleName is client auth
+port SimpleName MethodInvocation SimpleName address
+timeout SimpleName MethodInvocation MethodInvocation SimpleName params
+timeout SimpleName MethodInvocation MethodInvocation SimpleName is client auth
+timeout SimpleName MethodInvocation SimpleName address
+params SimpleName MethodInvocation MethodInvocation SimpleName address
+is client auth SimpleName MethodInvocation MethodInvocation SimpleName address
+t server sock SimpleName Assignment MethodInvocation SimpleName tssl transport factory
+t server sock SimpleName Assignment MethodInvocation SimpleName get server socket
+t server sock SimpleName Assignment MethodInvocation SimpleName port
+t server sock SimpleName Assignment MethodInvocation SimpleName timeout
+t server sock SimpleName Assignment MethodInvocation MethodInvocation SimpleName params
+t server sock SimpleName Assignment MethodInvocation MethodInvocation SimpleName is client auth
+t server sock SimpleName Assignment MethodInvocation SimpleName address
+params SimpleName MethodInvocation SimpleName get t transport params
+tssl transport factory SimpleName MethodInvocation SimpleName get server socket
+tssl transport factory SimpleName MethodInvocation SimpleName port
+tssl transport factory SimpleName MethodInvocation SimpleName timeout
+tssl transport factory SimpleName MethodInvocation SimpleName address
+tssl transport factory SimpleName MethodInvocation MethodInvocation SimpleName params
+tssl transport factory SimpleName MethodInvocation MethodInvocation SimpleName get t transport params
+get server socket SimpleName MethodInvocation SimpleName port
+get server socket SimpleName MethodInvocation SimpleName timeout
+get server socket SimpleName MethodInvocation SimpleName address
+get server socket SimpleName MethodInvocation MethodInvocation SimpleName params
+get server socket SimpleName MethodInvocation MethodInvocation SimpleName get t transport params
+port SimpleName MethodInvocation SimpleName timeout
+port SimpleName MethodInvocation SimpleName address
+port SimpleName MethodInvocation MethodInvocation SimpleName params
+port SimpleName MethodInvocation MethodInvocation SimpleName get t transport params
+timeout SimpleName MethodInvocation SimpleName address
+timeout SimpleName MethodInvocation MethodInvocation SimpleName params
+timeout SimpleName MethodInvocation MethodInvocation SimpleName get t transport params
+address SimpleName MethodInvocation MethodInvocation SimpleName params
+address SimpleName MethodInvocation MethodInvocation SimpleName get t transport params
+t server sock SimpleName Assignment MethodInvocation SimpleName tssl transport factory
+t server sock SimpleName Assignment MethodInvocation SimpleName get server socket
+t server sock SimpleName Assignment MethodInvocation SimpleName port
+t server sock SimpleName Assignment MethodInvocation SimpleName timeout
+t server sock SimpleName Assignment MethodInvocation SimpleName address
+t server sock SimpleName Assignment MethodInvocation MethodInvocation SimpleName params
+t server sock SimpleName Assignment MethodInvocation MethodInvocation SimpleName get t transport params
+t server sock SimpleName MethodInvocation SimpleName get server socket
+server sock SimpleName VariableDeclarationFragment MethodInvocation SimpleName t server sock
+server sock SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server socket
+final Modifier VariableDeclarationStatement SimpleType SimpleName server socket
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName server sock
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName t server sock
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get server socket
+server socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server sock
+server sock SimpleName InstanceofExpression SimpleType SimpleName ssl server socket
+ssl server socket SimpleName SimpleType CastExpression SimpleName server sock
+ssl server sock SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName ssl server socket
+ssl server sock SimpleName VariableDeclarationFragment CastExpression SimpleName server sock
+ssl server socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssl server sock
+params SimpleName MethodInvocation SimpleName get server protocols
+protocols SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+protocols SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server protocols
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ssl server sock SimpleName MethodInvocation SimpleName get enabled protocols
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName ssl server sock
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get enabled protocols
+as list SimpleName MethodInvocation MethodInvocation SimpleName ssl server sock
+as list SimpleName MethodInvocation MethodInvocation SimpleName get enabled protocols
+socket enabled protocols SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+socket enabled protocols SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName protocols
+as list SimpleName MethodInvocation SimpleName protocols
+socket enabled protocols SimpleName MethodInvocation SimpleName retain all
+socket enabled protocols SimpleName MethodInvocation MethodInvocation SimpleName arrays
+socket enabled protocols SimpleName MethodInvocation MethodInvocation SimpleName as list
+socket enabled protocols SimpleName MethodInvocation MethodInvocation SimpleName protocols
+retain all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+retain all SimpleName MethodInvocation MethodInvocation SimpleName as list
+retain all SimpleName MethodInvocation MethodInvocation SimpleName protocols
+socket enabled protocols SimpleName MethodInvocation SimpleName is empty
+ssl server sock SimpleName MethodInvocation SimpleName get enabled protocols
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation MethodInvocation SimpleName ssl server sock
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get enabled protocols
+to string SimpleName MethodInvocation MethodInvocation SimpleName ssl server sock
+to string SimpleName MethodInvocation MethodInvocation SimpleName get enabled protocols
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName protocols
+to string SimpleName MethodInvocation SimpleName protocols
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation SimpleName arrays
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation SimpleName to string
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ssl server sock
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get enabled protocols
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression StringLiteral allowed protocols
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation SimpleName arrays
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation SimpleName to string
+no available protocols available for secure socket availaable protocols StringLiteral InfixExpression MethodInvocation SimpleName protocols
+arrays SimpleName MethodInvocation InfixExpression StringLiteral allowed protocols
+to string SimpleName MethodInvocation InfixExpression StringLiteral allowed protocols
+ssl server sock SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral allowed protocols
+get enabled protocols SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral allowed protocols
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName protocols
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName protocols
+allowed protocols StringLiteral InfixExpression MethodInvocation SimpleName arrays
+allowed protocols StringLiteral InfixExpression MethodInvocation SimpleName to string
+allowed protocols StringLiteral InfixExpression MethodInvocation SimpleName protocols
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no available protocols available for secure socket availaable protocols
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral allowed protocols
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+socket enabled protocols SimpleName MethodInvocation SimpleName to array
+socket enabled protocols SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+ssl server sock SimpleName MethodInvocation SimpleName set enabled protocols
+ssl server sock SimpleName MethodInvocation MethodInvocation SimpleName socket enabled protocols
+ssl server sock SimpleName MethodInvocation MethodInvocation SimpleName to array
+ssl server sock SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+set enabled protocols SimpleName MethodInvocation MethodInvocation SimpleName socket enabled protocols
+set enabled protocols SimpleName MethodInvocation MethodInvocation SimpleName to array
+set enabled protocols SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName t server sock
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName t server socket
+public Modifier MethodDeclaration SimpleName get ssl server socket
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timeout
+static Modifier MethodDeclaration SimpleType SimpleName t server socket
+static Modifier MethodDeclaration SimpleName get ssl server socket
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName port
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName timeout
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+t server socket SimpleName SimpleType MethodDeclaration SimpleName get ssl server socket
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName port
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName timeout
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+t server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleName port
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timeout
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName inet address
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssl connection params
+get ssl server socket SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+get ssl server socket SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+port SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+port SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server socket
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ssl server socket
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server socket
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ssl server socket
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName port
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

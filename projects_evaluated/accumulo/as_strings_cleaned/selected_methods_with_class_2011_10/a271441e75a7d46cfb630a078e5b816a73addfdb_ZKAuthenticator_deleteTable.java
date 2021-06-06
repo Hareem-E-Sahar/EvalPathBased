@@ -1,0 +1,131 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissiondrop table
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissiondrop table
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissiondrop table
+has table permission SimpleName MethodInvocation SimpleName credentials
+has table permission SimpleName MethodInvocation QualifiedName credentialsuser
+has table permission SimpleName MethodInvocation SimpleName table
+has table permission SimpleName MethodInvocation QualifiedName table permissiondrop table
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation SimpleName table
+credentials SimpleName MethodInvocation QualifiedName table permissiondrop table
+credentialsuser QualifiedName MethodInvocation SimpleName table
+credentialsuser QualifiedName MethodInvocation QualifiedName table permissiondrop table
+table SimpleName MethodInvocation QualifiedName table permissiondrop table
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codepermission denied
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+zoo cache SimpleName MethodInvocation SimpleName get children
+zoo cache SimpleName MethodInvocation SimpleName zk user path
+get children SimpleName MethodInvocation SimpleName zk user path
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user table perms
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName table
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user table perms
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table
+user SimpleName InfixExpression SimpleName zk user table perms
+user SimpleName InfixExpression StringLiteral /
+user SimpleName InfixExpression SimpleName table
+zk user table perms SimpleName InfixExpression StringLiteral /
+zk user table perms SimpleName InfixExpression SimpleName table
+/ StringLiteral InfixExpression SimpleName table
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName user
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user table perms
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName table
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName zk user path
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName user
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName zk user table perms
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName table
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+user SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+zk user table perms SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+table SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+user SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo cache
+user SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+user SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zk user path
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeconnection error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codeconnection error
+credentialsuser QualifiedName ClassInstanceCreation SimpleName e
+security error codeconnection error QualifiedName ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName delete table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+delete table SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

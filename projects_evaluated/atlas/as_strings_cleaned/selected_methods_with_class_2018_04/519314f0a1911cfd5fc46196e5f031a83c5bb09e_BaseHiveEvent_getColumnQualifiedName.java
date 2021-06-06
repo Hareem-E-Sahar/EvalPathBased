@@ -1,0 +1,91 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tbl qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName column name
+tbl qualified name SimpleName MethodInvocation SimpleName last index of
+tbl qualified name SimpleName MethodInvocation SimpleName qname sep cluster name
+last index of SimpleName MethodInvocation SimpleName qname sep cluster name
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl qualified name
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName last index of
+sep pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName qname sep cluster name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tbl qualified name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName last index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName qname sep cluster name
+sep pos SimpleName InfixExpression PrefixExpression NumberLiteral empty
+column name SimpleName MethodInvocation SimpleName to lower case
+tbl qualified name SimpleName InfixExpression SimpleName qname sep entity name
+tbl qualified name SimpleName InfixExpression MethodInvocation SimpleName column name
+tbl qualified name SimpleName InfixExpression MethodInvocation SimpleName to lower case
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName column name
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName to lower case
+tbl qualified name SimpleName MethodInvocation SimpleName substring
+tbl qualified name SimpleName MethodInvocation NumberLiteral empty
+tbl qualified name SimpleName MethodInvocation SimpleName sep pos
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName sep pos
+empty NumberLiteral MethodInvocation SimpleName sep pos
+column name SimpleName MethodInvocation SimpleName to lower case
+tbl qualified name SimpleName MethodInvocation SimpleName substring
+tbl qualified name SimpleName MethodInvocation SimpleName sep pos
+substring SimpleName MethodInvocation SimpleName sep pos
+tbl qualified name SimpleName MethodInvocation InfixExpression SimpleName qname sep entity name
+substring SimpleName MethodInvocation InfixExpression SimpleName qname sep entity name
+empty NumberLiteral MethodInvocation InfixExpression SimpleName qname sep entity name
+sep pos SimpleName MethodInvocation InfixExpression SimpleName qname sep entity name
+tbl qualified name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName column name
+tbl qualified name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName column name
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName column name
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+sep pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName column name
+sep pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+tbl qualified name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+tbl qualified name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+tbl qualified name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+sep pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+sep pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+sep pos SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName column name
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName to lower case
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName tbl qualified name
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName substring
+qname sep entity name SimpleName InfixExpression MethodInvocation SimpleName sep pos
+column name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+column name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+column name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+to lower case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tbl qualified name
+to lower case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+to lower case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sep pos
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get column qualified name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName column name
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get column qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName column name
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column name
+get column qualified name SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+tbl qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name

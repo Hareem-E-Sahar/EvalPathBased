@@ -1,0 +1,53 @@
+conf dir SimpleName VariableDeclarationFragment SimpleName hadoop conf dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hadoop conf dir
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral hadoop conf dir
+getenv SimpleName MethodInvocation StringLiteral hadoop conf dir
+conf dir SimpleName Assignment MethodInvocation SimpleName system
+conf dir SimpleName Assignment MethodInvocation SimpleName getenv
+conf dir SimpleName Assignment MethodInvocation StringLiteral hadoop conf dir
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot determine hadoop conf dir for standalone cluster
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+path SimpleName SimpleType ClassInstanceCreation StringLiteral coresitexml
+conf dir SimpleName ClassInstanceCreation StringLiteral coresitexml
+conf SimpleName MethodInvocation SimpleName add resource
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral coresitexml
+add resource SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+add resource SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+add resource SimpleName MethodInvocation ClassInstanceCreation StringLiteral coresitexml
+path SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+path SimpleName SimpleType ClassInstanceCreation StringLiteral hdfssitexml
+conf dir SimpleName ClassInstanceCreation StringLiteral hdfssitexml
+conf SimpleName MethodInvocation SimpleName add resource
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral hdfssitexml
+add resource SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+add resource SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+add resource SimpleName MethodInvocation ClassInstanceCreation StringLiteral hdfssitexml
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName conf
+public Modifier MethodDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SimpleName get hadoop configuration
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName conf
+configuration SimpleName SimpleType MethodDeclaration SimpleName get hadoop configuration
+get hadoop configuration SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get hadoop configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hadoop configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hadoop configuration

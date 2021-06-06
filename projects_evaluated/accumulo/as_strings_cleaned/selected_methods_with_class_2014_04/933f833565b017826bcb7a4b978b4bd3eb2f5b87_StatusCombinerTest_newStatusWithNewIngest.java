@@ -1,0 +1,93 @@
+status util SimpleName MethodInvocation SimpleName new file
+orig SimpleName VariableDeclarationFragment MethodInvocation SimpleName status util
+orig SimpleName VariableDeclarationFragment MethodInvocation SimpleName new file
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig
+status util SimpleName MethodInvocation SimpleName replicated and ingested
+status util SimpleName MethodInvocation NumberLiteral empty
+status util SimpleName MethodInvocation NumberLiteral empty
+replicated and ingested SimpleName MethodInvocation NumberLiteral empty
+replicated and ingested SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName status util
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName replicated and ingested
+status SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+status SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName orig
+arrays SimpleName MethodInvocation SimpleName status
+as list SimpleName MethodInvocation SimpleName orig
+as list SimpleName MethodInvocation SimpleName status
+orig SimpleName MethodInvocation SimpleName status
+arrays SimpleName MethodInvocation MethodInvocation SimpleName iterator
+as list SimpleName MethodInvocation MethodInvocation SimpleName iterator
+orig SimpleName MethodInvocation MethodInvocation SimpleName iterator
+status SimpleName MethodInvocation MethodInvocation SimpleName iterator
+combiner SimpleName MethodInvocation SimpleName typed reduce
+combiner SimpleName MethodInvocation SimpleName key
+combiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+combiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+combiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName orig
+combiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+combiner SimpleName MethodInvocation MethodInvocation SimpleName iterator
+typed reduce SimpleName MethodInvocation SimpleName key
+typed reduce SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+typed reduce SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+typed reduce SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName orig
+typed reduce SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+typed reduce SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName orig
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status
+key SimpleName MethodInvocation MethodInvocation SimpleName iterator
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName combiner
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed reduce
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName get begin
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral l
+assert SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert SimpleName MethodInvocation MethodInvocation SimpleName get begin
+assert equals SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get begin
+l NumberLiteral MethodInvocation MethodInvocation SimpleName ret
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get begin
+ret SimpleName MethodInvocation SimpleName get end
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral l
+assert SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert SimpleName MethodInvocation MethodInvocation SimpleName get end
+assert equals SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get end
+l NumberLiteral MethodInvocation MethodInvocation SimpleName ret
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get end
+ret SimpleName MethodInvocation SimpleName get closed
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation BooleanLiteral false
+assert SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert SimpleName MethodInvocation MethodInvocation SimpleName get closed
+assert equals SimpleName MethodInvocation BooleanLiteral false
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ret
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get closed
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName ret
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get closed
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName new status with new ingest
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName new status with new ingest
+void PrimitiveType MethodDeclaration SimpleName new status with new ingest
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName new status with new ingest
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new status with new ingest

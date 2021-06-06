@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+propagated StringLiteral InfixExpression SimpleName classification name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get propagated edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get propagated edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+string SimpleName SimpleType MethodDeclaration SimpleName get propagated edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get propagated edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get propagated edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get propagated edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get propagated edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name

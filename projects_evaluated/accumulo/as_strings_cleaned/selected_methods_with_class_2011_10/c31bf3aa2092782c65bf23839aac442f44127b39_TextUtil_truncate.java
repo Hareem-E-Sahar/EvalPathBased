@@ -1,0 +1,28 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName row
+truncate SimpleName MethodInvocation SimpleName row
+truncate SimpleName MethodInvocation QualifiedName constantsmax data to print
+row SimpleName MethodInvocation QualifiedName constantsmax data to print
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName truncate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName truncate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+text SimpleName SimpleType MethodDeclaration SimpleName truncate
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row
+truncate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+truncate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName truncate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName truncate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row

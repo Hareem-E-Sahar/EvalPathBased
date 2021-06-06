@@ -1,0 +1,82 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName config
+string SimpleName SimpleType SingleVariableDeclaration SimpleName http method
+string SimpleName SimpleType SingleVariableDeclaration SimpleName http url
+get audit excluded operations SimpleName MethodInvocation SimpleName config
+get audit excluded operations SimpleName MethodInvocation MethodInvocation SimpleName size
+config SimpleName MethodInvocation MethodInvocation SimpleName size
+get audit excluded operations SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+config SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get audit excluded operations SimpleName MethodInvocation SimpleName config
+http method SimpleName MethodInvocation SimpleName to lower case
+http url SimpleName MethodInvocation SimpleName to lower case
+http method SimpleName MethodInvocation InfixExpression SimpleName separator
+to lower case SimpleName MethodInvocation InfixExpression SimpleName separator
+http method SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName http url
+http method SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+to lower case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName http url
+to lower case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+separator SimpleName InfixExpression MethodInvocation SimpleName http url
+separator SimpleName InfixExpression MethodInvocation SimpleName to lower case
+get audit excluded operations SimpleName MethodInvocation MethodInvocation SimpleName contains
+config SimpleName MethodInvocation MethodInvocation SimpleName contains
+get audit excluded operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName separator
+config SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName separator
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName http method
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+contains SimpleName MethodInvocation InfixExpression SimpleName separator
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName http url
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is excluded from audit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName http method
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is excluded from audit
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName http method
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName http url
+boolean PrimitiveType MethodDeclaration SimpleName is excluded from audit
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName http method
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName http url
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http method
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is excluded from audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http url
+is excluded from audit SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http method
+config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http url
+config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+http method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http url
+http method SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+http url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is excluded from audit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http method
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http url
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is excluded from audit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http method
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http url
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

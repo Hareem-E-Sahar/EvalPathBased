@@ -1,0 +1,86 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+id SimpleName MethodInvocation SimpleName is assigned
+graph helper SimpleName MethodInvocation SimpleName find vertex by guid
+graph helper SimpleName MethodInvocation SimpleName titan graph
+graph helper SimpleName MethodInvocation QualifiedName idid
+find vertex by guid SimpleName MethodInvocation SimpleName titan graph
+find vertex by guid SimpleName MethodInvocation QualifiedName idid
+titan graph SimpleName MethodInvocation QualifiedName idid
+reference vertex SimpleName Assignment MethodInvocation SimpleName graph helper
+reference vertex SimpleName Assignment MethodInvocation SimpleName find vertex by guid
+reference vertex SimpleName Assignment MethodInvocation SimpleName titan graph
+reference vertex SimpleName Assignment MethodInvocation QualifiedName idid
+id to vertex map SimpleName MethodInvocation SimpleName get
+id to vertex map SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+reference vertex SimpleName Assignment MethodInvocation SimpleName id to vertex map
+reference vertex SimpleName Assignment MethodInvocation SimpleName get
+reference vertex SimpleName Assignment MethodInvocation SimpleName id
+graph helper SimpleName MethodInvocation SimpleName add edge
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation SimpleName property key
+add edge SimpleName MethodInvocation SimpleName instance vertex
+add edge SimpleName MethodInvocation SimpleName reference vertex
+add edge SimpleName MethodInvocation SimpleName property key
+instance vertex SimpleName MethodInvocation SimpleName reference vertex
+instance vertex SimpleName MethodInvocation SimpleName property key
+reference vertex SimpleName MethodInvocation SimpleName property key
+booooo = StringLiteral InfixExpression SimpleName id
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral booooo =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName id
+println SimpleName MethodInvocation InfixExpression StringLiteral booooo =
+println SimpleName MethodInvocation InfixExpression SimpleName id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName map class reference as edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+void PrimitiveType MethodDeclaration SimpleName map class reference as edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+map class reference as edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map class reference as edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map class reference as edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

@@ -1,0 +1,398 @@
+employee name id map SimpleName MethodInvocation SimpleName get
+employee name id map SimpleName MethodInvocation StringLiteral hr
+get SimpleName MethodInvocation StringLiteral hr
+hr id SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee name id map
+hr id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hr id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hr
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr id
+employee name id map SimpleName MethodInvocation SimpleName get
+employee name id map SimpleName MethodInvocation StringLiteral max
+get SimpleName MethodInvocation StringLiteral max
+max id SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee name id map
+max id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+max id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral max
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max id
+employee name id map SimpleName MethodInvocation SimpleName get
+employee name id map SimpleName MethodInvocation StringLiteral john
+get SimpleName MethodInvocation StringLiteral john
+john id SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee name id map
+john id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+john id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john id
+employee name id map SimpleName MethodInvocation SimpleName get
+employee name id map SimpleName MethodInvocation StringLiteral julius
+get SimpleName MethodInvocation StringLiteral julius
+julius id SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee name id map
+julius id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+julius id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral julius
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius id
+employee name id map SimpleName MethodInvocation SimpleName get
+employee name id map SimpleName MethodInvocation StringLiteral jane
+get SimpleName MethodInvocation StringLiteral jane
+jane id SimpleName VariableDeclarationFragment MethodInvocation SimpleName employee name id map
+jane id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+jane id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jane
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane id
+hr id SimpleName MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName hr id
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+hr dept SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hr id
+hr dept SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+max id SimpleName MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName max id
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max id
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+john id SimpleName MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName john id
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john id
+john SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john
+julius id SimpleName MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName julius id
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+julius SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+julius SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius id
+julius SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius
+jane id SimpleName MethodInvocation SimpleName get guid
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName jane id
+get entity from store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity from store
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane id
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+hr dept SimpleName MethodInvocation SimpleName get relationship attribute
+hr dept SimpleName MethodInvocation StringLiteral employees
+get relationship attribute SimpleName MethodInvocation StringLiteral employees
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName hr dept
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral employees
+dept employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+dept employees SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hr dept
+dept employees SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+dept employees SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral employees
+assert not null SimpleName MethodInvocation SimpleName dept employees
+dept employees SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName dept employees
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+dept employees SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert object ids contains SimpleName MethodInvocation SimpleName dept employees
+assert object ids contains SimpleName MethodInvocation SimpleName max id
+dept employees SimpleName MethodInvocation SimpleName max id
+assert object ids contains SimpleName MethodInvocation SimpleName dept employees
+assert object ids contains SimpleName MethodInvocation SimpleName john id
+dept employees SimpleName MethodInvocation SimpleName john id
+assert object ids contains SimpleName MethodInvocation SimpleName dept employees
+assert object ids contains SimpleName MethodInvocation SimpleName julius id
+dept employees SimpleName MethodInvocation SimpleName julius id
+assert object ids contains SimpleName MethodInvocation SimpleName dept employees
+assert object ids contains SimpleName MethodInvocation SimpleName jane id
+dept employees SimpleName MethodInvocation SimpleName jane id
+max SimpleName MethodInvocation SimpleName get relationship attribute
+max SimpleName MethodInvocation StringLiteral department
+get relationship attribute SimpleName MethodInvocation StringLiteral department
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName max
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral department
+max department id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+max department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max
+max department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+max department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral department
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max department id
+assert not null SimpleName MethodInvocation SimpleName max department id
+assert object id equals SimpleName MethodInvocation SimpleName max department id
+assert object id equals SimpleName MethodInvocation SimpleName hr id
+max department id SimpleName MethodInvocation SimpleName hr id
+max SimpleName MethodInvocation SimpleName get relationship attribute
+max SimpleName MethodInvocation StringLiteral manager
+get relationship attribute SimpleName MethodInvocation StringLiteral manager
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName max
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral manager
+max manager id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+max manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max
+max manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+max manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral manager
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max manager id
+assert not null SimpleName MethodInvocation SimpleName max manager id
+assert object id equals SimpleName MethodInvocation SimpleName max manager id
+assert object id equals SimpleName MethodInvocation SimpleName jane id
+max manager id SimpleName MethodInvocation SimpleName jane id
+max SimpleName MethodInvocation SimpleName get relationship attribute
+max SimpleName MethodInvocation StringLiteral mentor
+get relationship attribute SimpleName MethodInvocation StringLiteral mentor
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName max
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral mentor
+max mentor id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+max mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max
+max mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+max mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentor
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max mentor id
+assert not null SimpleName MethodInvocation SimpleName max mentor id
+assert object id equals SimpleName MethodInvocation SimpleName max mentor id
+assert object id equals SimpleName MethodInvocation SimpleName julius id
+max mentor id SimpleName MethodInvocation SimpleName julius id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+max SimpleName MethodInvocation SimpleName get relationship attribute
+max SimpleName MethodInvocation StringLiteral mentees
+get relationship attribute SimpleName MethodInvocation StringLiteral mentees
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName max
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral mentees
+max mentees id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+max mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max
+max mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+max mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentees
+assert not null SimpleName MethodInvocation SimpleName max mentees id
+max mentees id SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName max mentees id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+max mentees id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max mentees id SimpleName MethodInvocation SimpleName get
+max mentees id SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert object id equals SimpleName MethodInvocation MethodInvocation SimpleName max mentees id
+assert object id equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert object id equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert object id equals SimpleName MethodInvocation SimpleName john id
+max mentees id SimpleName MethodInvocation MethodInvocation SimpleName john id
+get SimpleName MethodInvocation MethodInvocation SimpleName john id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName john id
+john SimpleName MethodInvocation SimpleName get relationship attribute
+john SimpleName MethodInvocation StringLiteral department
+get relationship attribute SimpleName MethodInvocation StringLiteral department
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName john
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral department
+john department id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+john department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john
+john department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+john department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral department
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john department id
+assert not null SimpleName MethodInvocation SimpleName john department id
+assert object id equals SimpleName MethodInvocation SimpleName john department id
+assert object id equals SimpleName MethodInvocation SimpleName hr id
+john department id SimpleName MethodInvocation SimpleName hr id
+john SimpleName MethodInvocation SimpleName get relationship attribute
+john SimpleName MethodInvocation StringLiteral manager
+get relationship attribute SimpleName MethodInvocation StringLiteral manager
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName john
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral manager
+john manager id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+john manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john
+john manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+john manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral manager
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john manager id
+assert not null SimpleName MethodInvocation SimpleName john manager id
+assert object id equals SimpleName MethodInvocation SimpleName john manager id
+assert object id equals SimpleName MethodInvocation SimpleName jane id
+john manager id SimpleName MethodInvocation SimpleName jane id
+john SimpleName MethodInvocation SimpleName get relationship attribute
+john SimpleName MethodInvocation StringLiteral mentor
+get relationship attribute SimpleName MethodInvocation StringLiteral mentor
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName john
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral mentor
+john mentor id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+john mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john
+john mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+john mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentor
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john mentor id
+assert not null SimpleName MethodInvocation SimpleName john mentor id
+assert object id equals SimpleName MethodInvocation SimpleName john mentor id
+assert object id equals SimpleName MethodInvocation SimpleName max id
+john mentor id SimpleName MethodInvocation SimpleName max id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+john SimpleName MethodInvocation SimpleName get relationship attribute
+john SimpleName MethodInvocation StringLiteral mentees
+get relationship attribute SimpleName MethodInvocation StringLiteral mentees
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName john
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral mentees
+john mentees id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+john mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName john
+john mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+john mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentees
+assert empty SimpleName MethodInvocation SimpleName john mentees id
+jane SimpleName MethodInvocation SimpleName get relationship attribute
+jane SimpleName MethodInvocation StringLiteral department
+get relationship attribute SimpleName MethodInvocation StringLiteral department
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName jane
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral department
+jane department id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+jane department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+jane department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral department
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane department id
+assert not null SimpleName MethodInvocation SimpleName jane department id
+assert object id equals SimpleName MethodInvocation SimpleName jane department id
+assert object id equals SimpleName MethodInvocation SimpleName hr id
+jane department id SimpleName MethodInvocation SimpleName hr id
+jane SimpleName MethodInvocation SimpleName get relationship attribute
+jane SimpleName MethodInvocation StringLiteral manager
+get relationship attribute SimpleName MethodInvocation StringLiteral manager
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName jane
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral manager
+jane manager id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+jane manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+jane manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral manager
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane manager id
+assert null SimpleName MethodInvocation SimpleName jane manager id
+jane SimpleName MethodInvocation SimpleName get relationship attribute
+jane SimpleName MethodInvocation StringLiteral mentor
+get relationship attribute SimpleName MethodInvocation StringLiteral mentor
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName jane
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral mentor
+jane mentor id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+jane mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+jane mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentor
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane mentor id
+assert null SimpleName MethodInvocation SimpleName jane mentor id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+jane SimpleName MethodInvocation SimpleName get relationship attribute
+jane SimpleName MethodInvocation StringLiteral mentees
+get relationship attribute SimpleName MethodInvocation StringLiteral mentees
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName jane
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral mentees
+jane mentees id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+jane mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+jane mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentees
+assert empty SimpleName MethodInvocation SimpleName jane mentees id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+jane SimpleName MethodInvocation SimpleName get relationship attribute
+jane SimpleName MethodInvocation StringLiteral subordinates
+get relationship attribute SimpleName MethodInvocation StringLiteral subordinates
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName jane
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral subordinates
+jane subordinate ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+jane subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane
+jane subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+jane subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral subordinates
+assert not null SimpleName MethodInvocation SimpleName jane subordinate ids
+jane subordinate ids SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName jane subordinate ids
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+jane subordinate ids SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert object ids contains SimpleName MethodInvocation SimpleName jane subordinate ids
+assert object ids contains SimpleName MethodInvocation SimpleName max id
+jane subordinate ids SimpleName MethodInvocation SimpleName max id
+assert object ids contains SimpleName MethodInvocation SimpleName jane subordinate ids
+assert object ids contains SimpleName MethodInvocation SimpleName john id
+jane subordinate ids SimpleName MethodInvocation SimpleName john id
+julius SimpleName MethodInvocation SimpleName get relationship attribute
+julius SimpleName MethodInvocation StringLiteral department
+get relationship attribute SimpleName MethodInvocation StringLiteral department
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName julius
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral department
+julius department id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+julius department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius
+julius department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+julius department id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral department
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius department id
+assert not null SimpleName MethodInvocation SimpleName julius department id
+assert object id equals SimpleName MethodInvocation SimpleName julius department id
+assert object id equals SimpleName MethodInvocation SimpleName hr id
+julius department id SimpleName MethodInvocation SimpleName hr id
+julius SimpleName MethodInvocation SimpleName get relationship attribute
+julius SimpleName MethodInvocation StringLiteral manager
+get relationship attribute SimpleName MethodInvocation StringLiteral manager
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName julius
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral manager
+julius manager id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+julius manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius
+julius manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+julius manager id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral manager
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius manager id
+assert null SimpleName MethodInvocation SimpleName julius manager id
+julius SimpleName MethodInvocation SimpleName get relationship attribute
+julius SimpleName MethodInvocation StringLiteral mentor
+get relationship attribute SimpleName MethodInvocation StringLiteral mentor
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName julius
+to atlas object id SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object id SimpleName MethodInvocation MethodInvocation StringLiteral mentor
+julius mentor id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object id
+julius mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius
+julius mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+julius mentor id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentor
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius mentor id
+assert null SimpleName MethodInvocation SimpleName julius mentor id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+julius SimpleName MethodInvocation SimpleName get relationship attribute
+julius SimpleName MethodInvocation StringLiteral mentees
+get relationship attribute SimpleName MethodInvocation StringLiteral mentees
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName julius
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral mentees
+julius mentees id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+julius mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius
+julius mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+julius mentees id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral mentees
+assert not null SimpleName MethodInvocation SimpleName julius mentees id
+julius mentees id SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName julius mentees id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+julius mentees id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert object ids contains SimpleName MethodInvocation SimpleName julius mentees id
+assert object ids contains SimpleName MethodInvocation SimpleName max id
+julius mentees id SimpleName MethodInvocation SimpleName max id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+julius SimpleName MethodInvocation SimpleName get relationship attribute
+julius SimpleName MethodInvocation StringLiteral subordinates
+get relationship attribute SimpleName MethodInvocation StringLiteral subordinates
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName julius
+to atlas object ids SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+to atlas object ids SimpleName MethodInvocation MethodInvocation StringLiteral subordinates
+julius subordinate ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas object ids
+julius subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName julius
+julius subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+julius subordinate ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral subordinates
+assert empty SimpleName MethodInvocation SimpleName julius subordinate ids
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test department employee entities using relationship
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test department employee entities using relationship
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test department employee entities using relationship
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test department employee entities using relationship SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test department employee entities using relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test department employee entities using relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

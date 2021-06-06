@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+type def guid map SimpleName MethodInvocation SimpleName get
+type def guid map SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type def guid map
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName guid
+ret SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName guid
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type def guid map
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get type def by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+t SimpleName SimpleType MethodDeclaration SimpleName get type def by guid
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type def by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type def by guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type def by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type def by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

@@ -1,0 +1,274 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+put SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation StringLiteral r
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral r
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation QualifiedName row deleting iteratordelete row value
+r StringLiteral MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation QualifiedName row deleting iteratordelete row value
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation QualifiedName row deleting iteratordelete row value
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation QualifiedName row deleting iteratordelete row value
+empty NumberLiteral MethodInvocation QualifiedName row deleting iteratordelete row value
+put SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation StringLiteral r
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral r
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral cq
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+empty StringLiteral MethodInvocation StringLiteral cq
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+put SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation StringLiteral r
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral r
+tm SimpleName MethodInvocation StringLiteral cf
+tm SimpleName MethodInvocation StringLiteral cq
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+put SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation StringLiteral r
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral r
+tm SimpleName MethodInvocation StringLiteral empty
+tm SimpleName MethodInvocation StringLiteral cq
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+empty StringLiteral MethodInvocation StringLiteral cq
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+put SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation StringLiteral r
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral r
+tm SimpleName MethodInvocation StringLiteral cf
+tm SimpleName MethodInvocation StringLiteral cq
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+rdi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName row deleting iterator
+row deleting iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rdi
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+column family skipping iterator SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName tm
+test ie SimpleName SimpleType ClassInstanceCreation QualifiedName iterator scopescan
+test ie SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+iterator scopescan QualifiedName ClassInstanceCreation BooleanLiteral false
+rdi SimpleName MethodInvocation SimpleName init
+rdi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column family skipping iterator
+rdi SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName tm
+rdi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName test ie
+rdi SimpleName MethodInvocation ClassInstanceCreation QualifiedName iterator scopescan
+rdi SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column family skipping iterator
+init SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName test ie
+init SimpleName MethodInvocation ClassInstanceCreation QualifiedName iterator scopescan
+init SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+cf StringLiteral MethodInvocation SimpleName get bytes
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cf
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+cols SimpleName MethodInvocation SimpleName add
+cols SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+cols SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral cf
+cols SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral cf
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+rdi SimpleName MethodInvocation SimpleName seek
+rdi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rdi SimpleName MethodInvocation SimpleName cols
+rdi SimpleName MethodInvocation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName cols
+seek SimpleName MethodInvocation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cols
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+cols SimpleName MethodInvocation BooleanLiteral true
+ane SimpleName MethodInvocation SimpleName rdi
+ane SimpleName MethodInvocation StringLiteral r
+ane SimpleName MethodInvocation StringLiteral cf
+ane SimpleName MethodInvocation StringLiteral cq
+ane SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral r
+rdi SimpleName MethodInvocation StringLiteral cf
+rdi SimpleName MethodInvocation StringLiteral cq
+rdi SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+cols SimpleName MethodInvocation SimpleName clear
+empty StringLiteral MethodInvocation SimpleName get bytes
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+cols SimpleName MethodInvocation SimpleName add
+cols SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+cols SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+cols SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+rdi SimpleName MethodInvocation SimpleName seek
+rdi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rdi SimpleName MethodInvocation SimpleName cols
+rdi SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName cols
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cols
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+cols SimpleName MethodInvocation BooleanLiteral false
+ane SimpleName MethodInvocation SimpleName rdi
+ane SimpleName MethodInvocation StringLiteral r
+ane SimpleName MethodInvocation StringLiteral cf
+ane SimpleName MethodInvocation StringLiteral cq
+ane SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral r
+rdi SimpleName MethodInvocation StringLiteral cf
+rdi SimpleName MethodInvocation StringLiteral cq
+rdi SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+cols SimpleName MethodInvocation SimpleName clear
+rdi SimpleName MethodInvocation SimpleName seek
+rdi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+rdi SimpleName MethodInvocation SimpleName cols
+rdi SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName cols
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cols
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+cols SimpleName MethodInvocation BooleanLiteral false
+ane SimpleName MethodInvocation SimpleName rdi
+ane SimpleName MethodInvocation StringLiteral r
+ane SimpleName MethodInvocation StringLiteral empty
+ane SimpleName MethodInvocation StringLiteral cq
+ane SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral r
+rdi SimpleName MethodInvocation StringLiteral empty
+rdi SimpleName MethodInvocation StringLiteral cq
+rdi SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral empty
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+empty StringLiteral MethodInvocation StringLiteral cq
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+rdi SimpleName MethodInvocation SimpleName next
+ane SimpleName MethodInvocation SimpleName rdi
+ane SimpleName MethodInvocation StringLiteral r
+ane SimpleName MethodInvocation StringLiteral cf
+ane SimpleName MethodInvocation StringLiteral cq
+ane SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral r
+rdi SimpleName MethodInvocation StringLiteral cf
+rdi SimpleName MethodInvocation StringLiteral cq
+rdi SimpleName MethodInvocation NumberLiteral empty
+rdi SimpleName MethodInvocation StringLiteral v
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

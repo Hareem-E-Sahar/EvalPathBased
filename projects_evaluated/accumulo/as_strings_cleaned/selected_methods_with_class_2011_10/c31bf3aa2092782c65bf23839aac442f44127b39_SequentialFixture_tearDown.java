@@ -1,0 +1,48 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+dropping tables StringLiteral InfixExpression SimpleName seq table name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral dropping tables
+log SimpleName MethodInvocation InfixExpression SimpleName seq table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral dropping tables
+debug SimpleName MethodInvocation InfixExpression SimpleName seq table name
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+delete SimpleName MethodInvocation SimpleName seq table name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName tear down
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName tear down
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName tear down
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+tear down SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+tear down SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+tear down SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tear down
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tear down
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,174 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get trait names
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get trait names
+a guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+graph helper SimpleName MethodInvocation SimpleName get instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName a guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName a guid
+get vertex for guid SimpleName MethodInvocation SimpleName a guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph helper
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName a guid
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+get property SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+modification timestamp pre update SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+modification timestamp pre update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+modification timestamp pre update SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmodification timestamp property key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modification timestamp pre update
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName modification timestamp pre update
+assert not null SimpleName MethodInvocation SimpleName modification timestamp pre update
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation SimpleName a guid
+get trait names SimpleName MethodInvocation SimpleName a guid
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName a guid
+trait names = StringLiteral InfixExpression SimpleName trait names
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral trait names =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName trait names
+println SimpleName MethodInvocation InfixExpression StringLiteral trait names =
+println SimpleName MethodInvocation InfixExpression SimpleName trait names
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation QualifiedName test utilsclassification
+contains SimpleName MethodInvocation QualifiedName test utilsclassification
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation QualifiedName test utilsclassification
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName test utilsclassification
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation QualifiedName test utilspii
+contains SimpleName MethodInvocation QualifiedName test utilspii
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation QualifiedName test utilspii
+assert false SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName test utilspii
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+type system SimpleName MethodInvocation QualifiedName test utilspii
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation QualifiedName test utilspii
+trait type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName test utilspii
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+trait type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilspii
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName create instance
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait type
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+repository service SimpleName MethodInvocation SimpleName add trait
+repository service SimpleName MethodInvocation SimpleName a guid
+repository service SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation SimpleName a guid
+add trait SimpleName MethodInvocation SimpleName trait instance
+a guid SimpleName MethodInvocation SimpleName trait instance
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation SimpleName a guid
+get trait names SimpleName MethodInvocation SimpleName a guid
+trait names SimpleName Assignment MethodInvocation SimpleName repository service
+trait names SimpleName Assignment MethodInvocation SimpleName get trait names
+trait names SimpleName Assignment MethodInvocation SimpleName a guid
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation QualifiedName test utilspii
+contains SimpleName MethodInvocation QualifiedName test utilspii
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation QualifiedName test utilspii
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName test utilspii
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation QualifiedName test utilsclassification
+contains SimpleName MethodInvocation QualifiedName test utilsclassification
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation QualifiedName test utilsclassification
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName test utilsclassification
+graph helper SimpleName MethodInvocation SimpleName get instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName a guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName a guid
+get vertex for guid SimpleName MethodInvocation SimpleName a guid
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+get property SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+modification timestamp post update SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+modification timestamp post update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+modification timestamp post update SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmodification timestamp property key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modification timestamp post update
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName modification timestamp post update
+assert not null SimpleName MethodInvocation SimpleName modification timestamp post update
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add trait
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add trait
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test add trait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add trait SimpleName MethodDeclaration SimpleType SimpleName exception
+test add trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add trait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add trait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,24 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName labels
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName labels
+labels SimpleName FieldAccess Assignment SimpleName labels
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set labels
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName labels
+void PrimitiveType MethodDeclaration SimpleName set labels
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName labels
+set labels SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set labels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName labels
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set labels
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName labels
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set labels
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName labels

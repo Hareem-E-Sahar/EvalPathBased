@@ -1,0 +1,63 @@
+garbage collection environment SimpleName SimpleType SingleVariableDeclaration SimpleName gce
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidate map
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral confirm deletes
+start SimpleName MethodInvocation StringLiteral confirm deletes
+confirm deletes span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+confirm deletes span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+confirm deletes span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral confirm deletes
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName confirm deletes span
+confirm deletes SimpleName MethodInvocation SimpleName gce
+confirm deletes SimpleName MethodInvocation SimpleName candidate map
+gce SimpleName MethodInvocation SimpleName candidate map
+confirm deletes span SimpleName MethodInvocation SimpleName stop
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName confirm deletes trace
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName gce
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName confirm deletes trace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gce
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+confirm deletes trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+confirm deletes trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gce
+confirm deletes trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+confirm deletes trace SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+confirm deletes trace SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+confirm deletes trace SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+candidate map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+candidate map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+candidate map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName confirm deletes trace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName confirm deletes trace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidate map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

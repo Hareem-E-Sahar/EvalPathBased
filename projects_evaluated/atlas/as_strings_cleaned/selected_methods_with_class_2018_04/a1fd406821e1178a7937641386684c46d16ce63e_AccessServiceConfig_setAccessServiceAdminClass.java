@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName access service admin class
+access service admin class SimpleName FieldAccess Assignment SimpleName access service admin class
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set access service admin class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access service admin class
+void PrimitiveType MethodDeclaration SimpleName set access service admin class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access service admin class
+set access service admin class SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set access service admin class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access service admin class
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set access service admin class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service admin class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set access service admin class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service admin class

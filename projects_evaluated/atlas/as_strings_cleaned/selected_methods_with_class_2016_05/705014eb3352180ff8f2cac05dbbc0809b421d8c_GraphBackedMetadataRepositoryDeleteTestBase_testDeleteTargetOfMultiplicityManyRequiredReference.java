@@ -1,0 +1,52 @@
+dept guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hr dept graph
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName dept guid
+get entity definition SimpleName MethodInvocation SimpleName dept guid
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName dept guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get employee name guid map SimpleName MethodInvocation SimpleName hr dept
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get employee name guid map
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral john
+get SimpleName MethodInvocation StringLiteral john
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get
+delete entities SimpleName MethodInvocation MethodInvocation StringLiteral john
+name guid map SimpleName MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation StringLiteral max
+get SimpleName MethodInvocation StringLiteral max
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName name guid map
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get
+delete entities SimpleName MethodInvocation MethodInvocation StringLiteral max
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+verify exception thrown SimpleName MethodInvocation SimpleName e
+verify exception thrown SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null required attribute exception
+e SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null required attribute exception
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete target of multiplicity many required reference
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete target of multiplicity many required reference
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete target of multiplicity many required reference
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete target of multiplicity many required reference SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete target of multiplicity many required reference
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete target of multiplicity many required reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

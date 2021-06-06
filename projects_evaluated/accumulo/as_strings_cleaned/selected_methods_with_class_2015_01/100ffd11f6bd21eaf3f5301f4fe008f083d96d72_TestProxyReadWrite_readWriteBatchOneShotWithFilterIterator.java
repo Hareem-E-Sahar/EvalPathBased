@@ -1,0 +1,266 @@
+max inserts SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max inserts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+format SimpleName VariableDeclarationFragment StringLiteral % $ d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName format
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral % $ d
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max inserts
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation SimpleName format
+format SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation SimpleName i
+cf StringLiteral InfixExpression SimpleName i
+cq StringLiteral InfixExpression SimpleName i
+util SimpleName MethodInvocation SimpleName rand string
+util SimpleName MethodInvocation NumberLiteral empty
+rand string SimpleName MethodInvocation NumberLiteral empty
+add mutation SimpleName MethodInvocation SimpleName mutations
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName string
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName format
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName format
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName i
+add mutation SimpleName MethodInvocation InfixExpression StringLiteral cf
+add mutation SimpleName MethodInvocation InfixExpression SimpleName i
+add mutation SimpleName MethodInvocation InfixExpression StringLiteral cq
+add mutation SimpleName MethodInvocation InfixExpression SimpleName i
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName util
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName rand string
+add mutation SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mutations SimpleName MethodInvocation MethodInvocation SimpleName string
+mutations SimpleName MethodInvocation MethodInvocation SimpleName format
+mutations SimpleName MethodInvocation MethodInvocation SimpleName format
+mutations SimpleName MethodInvocation MethodInvocation SimpleName i
+mutations SimpleName MethodInvocation InfixExpression StringLiteral cf
+mutations SimpleName MethodInvocation InfixExpression SimpleName i
+mutations SimpleName MethodInvocation InfixExpression StringLiteral cq
+mutations SimpleName MethodInvocation InfixExpression SimpleName i
+mutations SimpleName MethodInvocation MethodInvocation SimpleName util
+mutations SimpleName MethodInvocation MethodInvocation SimpleName rand string
+mutations SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cf
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cf
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cf
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cf
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+string SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cq
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cq
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cq
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cq
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName util
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName util
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName util
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName util
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand string
+i SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+cf StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral cq
+cf StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral cq
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+cf StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName util
+cf StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rand string
+cf StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName util
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName rand string
+i SimpleName InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+cq StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName util
+cq StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rand string
+cq StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName util
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName rand string
+i SimpleName InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+max inserts SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName max inserts
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName i
+tpc SimpleName MethodInvocation SimpleName proxy
+tpc SimpleName MethodInvocation MethodInvocation SimpleName update and flush
+proxy SimpleName MethodInvocation MethodInvocation SimpleName update and flush
+tpc SimpleName MethodInvocation MethodInvocation SimpleName userpass
+proxy SimpleName MethodInvocation MethodInvocation SimpleName userpass
+tpc SimpleName MethodInvocation MethodInvocation SimpleName testtable
+proxy SimpleName MethodInvocation MethodInvocation SimpleName testtable
+tpc SimpleName MethodInvocation MethodInvocation SimpleName mutations
+proxy SimpleName MethodInvocation MethodInvocation SimpleName mutations
+update and flush SimpleName MethodInvocation SimpleName userpass
+update and flush SimpleName MethodInvocation SimpleName testtable
+update and flush SimpleName MethodInvocation SimpleName mutations
+userpass SimpleName MethodInvocation SimpleName testtable
+userpass SimpleName MethodInvocation SimpleName mutations
+testtable SimpleName MethodInvocation SimpleName mutations
+mutations SimpleName MethodInvocation SimpleName clear
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max inserts
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max inserts SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+regex SimpleName VariableDeclarationFragment StringLiteral .*[ ]
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName regex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral .*[ ]
+orgapacheaccumulocoreclientiterator setting QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+orgapacheaccumulocoreclientiterator setting QualifiedName SimpleType ClassInstanceCreation SimpleName regex
+empty NumberLiteral ClassInstanceCreation SimpleName regex
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex filter
+regex SimpleName ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex filter
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName orgapacheaccumulocoreclientiterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName regex
+orgapacheaccumulocoreclientiterator setting QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+reg ex filter SimpleName MethodInvocation SimpleName set regexs
+reg ex filter SimpleName MethodInvocation SimpleName is
+reg ex filter SimpleName MethodInvocation SimpleName regex
+set regexs SimpleName MethodInvocation SimpleName is
+set regexs SimpleName MethodInvocation SimpleName regex
+is SimpleName MethodInvocation SimpleName regex
+is SimpleName MethodInvocation BooleanLiteral false
+regex SimpleName MethodInvocation BooleanLiteral false
+util SimpleName MethodInvocation SimpleName iterator setting proxy iterator setting
+util SimpleName MethodInvocation SimpleName is
+iterator setting proxy iterator setting SimpleName MethodInvocation SimpleName is
+pis SimpleName VariableDeclarationFragment MethodInvocation SimpleName util
+pis SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator setting proxy iterator setting
+pis SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pis
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scan options
+scan options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName pis
+singleton list SimpleName MethodInvocation SimpleName pis
+optsiterators QualifiedName Assignment MethodInvocation SimpleName collections
+optsiterators QualifiedName Assignment MethodInvocation SimpleName singleton list
+optsiterators QualifiedName Assignment MethodInvocation SimpleName pis
+tpc SimpleName MethodInvocation SimpleName proxy
+tpc SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+proxy SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+tpc SimpleName MethodInvocation MethodInvocation SimpleName userpass
+proxy SimpleName MethodInvocation MethodInvocation SimpleName userpass
+tpc SimpleName MethodInvocation MethodInvocation SimpleName testtable
+proxy SimpleName MethodInvocation MethodInvocation SimpleName testtable
+tpc SimpleName MethodInvocation MethodInvocation SimpleName opts
+proxy SimpleName MethodInvocation MethodInvocation SimpleName opts
+create scanner SimpleName MethodInvocation SimpleName userpass
+create scanner SimpleName MethodInvocation SimpleName testtable
+create scanner SimpleName MethodInvocation SimpleName opts
+userpass SimpleName MethodInvocation SimpleName testtable
+userpass SimpleName MethodInvocation SimpleName opts
+testtable SimpleName MethodInvocation SimpleName opts
+cookie SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tpc
+cookie SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName proxy
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName userpass
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName testtable
+cookie SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cookie
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+has next SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has next
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+k SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tpc SimpleName MethodInvocation SimpleName proxy
+tpc SimpleName MethodInvocation MethodInvocation SimpleName next k
+proxy SimpleName MethodInvocation MethodInvocation SimpleName next k
+tpc SimpleName MethodInvocation MethodInvocation SimpleName cookie
+proxy SimpleName MethodInvocation MethodInvocation SimpleName cookie
+tpc SimpleName MethodInvocation MethodInvocation SimpleName k
+proxy SimpleName MethodInvocation MethodInvocation SimpleName k
+next k SimpleName MethodInvocation SimpleName cookie
+next k SimpleName MethodInvocation SimpleName k
+cookie SimpleName MethodInvocation SimpleName k
+kv list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tpc
+kv list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName proxy
+kv list SimpleName VariableDeclarationFragment MethodInvocation SimpleName next k
+kv list SimpleName VariableDeclarationFragment MethodInvocation SimpleName cookie
+kv list SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+scan result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kv list
+key value SimpleName SimpleType SingleVariableDeclaration SimpleName kv
+kv list SimpleName MethodInvocation SimpleName get results
+kv SimpleName MethodInvocation SimpleName get key
+kv SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+integer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get row
+parse int SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse int SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName integer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName parse int
+assert equals SimpleName MethodInvocation SimpleName i
+integer SimpleName MethodInvocation MethodInvocation SimpleName i
+parse int SimpleName MethodInvocation MethodInvocation SimpleName i
+i SimpleName Assignment NumberLiteral empty
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName kv list
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get results
+kv list SimpleName MethodInvocation SimpleName is more
+has next SimpleName Assignment MethodInvocation SimpleName kv list
+has next SimpleName Assignment MethodInvocation SimpleName is more
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName has next
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName has next
+int PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName has next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName read write batch one shot with filter iterator
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read write batch one shot with filter iterator
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block WhileStatement SimpleName has next
+void PrimitiveType MethodDeclaration SimpleName read write batch one shot with filter iterator
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block WhileStatement SimpleName has next
+read write batch one shot with filter iterator SimpleName MethodDeclaration SimpleType SimpleName exception
+read write batch one shot with filter iterator SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read write batch one shot with filter iterator SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read write batch one shot with filter iterator SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+read write batch one shot with filter iterator SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read write batch one shot with filter iterator SimpleName MethodDeclaration Block WhileStatement SimpleName has next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read write batch one shot with filter iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read write batch one shot with filter iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

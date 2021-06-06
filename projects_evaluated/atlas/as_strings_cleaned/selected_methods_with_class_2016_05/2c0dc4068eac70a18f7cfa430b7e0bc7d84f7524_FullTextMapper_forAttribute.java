@@ -1,0 +1,232 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+boolean PrimitiveType SingleVariableDeclaration SimpleName follow references
+type SimpleName MethodInvocation SimpleName get type category
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+enum value SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName value
+full text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full text
+data typesarray type QualifiedName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get elem type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elem type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem type
+list SimpleName SimpleType CastExpression SimpleName value
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+list SimpleName VariableDeclarationFragment CastExpression SimpleName value
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+object SimpleName SimpleType SingleVariableDeclaration SimpleName element
+for attribute SimpleName MethodInvocation SimpleName elem type
+for attribute SimpleName MethodInvocation SimpleName element
+for attribute SimpleName MethodInvocation BooleanLiteral false
+elem type SimpleName MethodInvocation SimpleName element
+elem type SimpleName MethodInvocation BooleanLiteral false
+element SimpleName MethodInvocation BooleanLiteral false
+elem full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName for attribute
+elem full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem type
+elem full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+elem full text SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem full text
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName elem full text
+is not empty SimpleName MethodInvocation SimpleName elem full text
+full text SimpleName MethodInvocation SimpleName append
+full text SimpleName MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation SimpleName full text delimiter
+full text SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName append
+full text SimpleName MethodInvocation MethodInvocation SimpleName elem full text
+append SimpleName MethodInvocation MethodInvocation SimpleName elem full text
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName elem full text
+append SimpleName MethodInvocation SimpleName elem full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text delimiter
+full text SimpleName Assignment MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation SimpleName elem full text
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+element SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+full text SimpleName MethodInvocation SimpleName to string
+full text SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+data typesmap type QualifiedName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+data typesmap type QualifiedName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+map SimpleName SimpleType CastExpression SimpleName value
+map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+map SimpleName VariableDeclarationFragment CastExpression SimpleName value
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName entry obj
+map SimpleName MethodInvocation SimpleName entry set
+mapentry QualifiedName SimpleType CastExpression SimpleName entry obj
+entry SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName mapentry
+entry SimpleName VariableDeclarationFragment CastExpression SimpleName entry obj
+mapentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+for attribute SimpleName MethodInvocation SimpleName key type
+for attribute SimpleName MethodInvocation MethodInvocation SimpleName entry
+for attribute SimpleName MethodInvocation MethodInvocation SimpleName get key
+for attribute SimpleName MethodInvocation BooleanLiteral false
+key type SimpleName MethodInvocation MethodInvocation SimpleName entry
+key type SimpleName MethodInvocation MethodInvocation SimpleName get key
+key type SimpleName MethodInvocation BooleanLiteral false
+entry SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+key full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName for attribute
+key full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName key type
+key full text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+key full text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+key full text SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key full text
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName key full text
+is not empty SimpleName MethodInvocation SimpleName key full text
+full text SimpleName MethodInvocation SimpleName append
+full text SimpleName MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation SimpleName full text delimiter
+full text SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName append
+full text SimpleName MethodInvocation MethodInvocation SimpleName key full text
+append SimpleName MethodInvocation MethodInvocation SimpleName key full text
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName key full text
+append SimpleName MethodInvocation SimpleName key full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text delimiter
+full text SimpleName Assignment MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation SimpleName key full text
+entry SimpleName MethodInvocation SimpleName get value
+for attribute SimpleName MethodInvocation SimpleName value type
+for attribute SimpleName MethodInvocation MethodInvocation SimpleName entry
+for attribute SimpleName MethodInvocation MethodInvocation SimpleName get value
+for attribute SimpleName MethodInvocation BooleanLiteral false
+value type SimpleName MethodInvocation MethodInvocation SimpleName entry
+value type SimpleName MethodInvocation MethodInvocation SimpleName get value
+value type SimpleName MethodInvocation BooleanLiteral false
+entry SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get value SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+value full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName for attribute
+value full text SimpleName VariableDeclarationFragment MethodInvocation SimpleName value type
+value full text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+value full text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+value full text SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value full text
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName value full text
+is not empty SimpleName MethodInvocation SimpleName value full text
+full text SimpleName MethodInvocation SimpleName append
+full text SimpleName MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation SimpleName full text delimiter
+full text SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName append
+full text SimpleName MethodInvocation MethodInvocation SimpleName value full text
+append SimpleName MethodInvocation MethodInvocation SimpleName value full text
+full text delimiter SimpleName MethodInvocation MethodInvocation SimpleName value full text
+append SimpleName MethodInvocation SimpleName value full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation MethodInvocation SimpleName full text delimiter
+full text SimpleName Assignment MethodInvocation SimpleName append
+full text SimpleName Assignment MethodInvocation SimpleName value full text
+entry obj SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+entry obj SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+full text SimpleName MethodInvocation SimpleName to string
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName value
+value SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+ref guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+ref guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref guid
+graph helper SimpleName MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation SimpleName ref guid
+get vertex for guid SimpleName MethodInvocation SimpleName ref guid
+ref vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+ref vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+ref vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref guid
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref vertex
+map recursive SimpleName MethodInvocation SimpleName ref vertex
+map recursive SimpleName MethodInvocation BooleanLiteral false
+ref vertex SimpleName MethodInvocation BooleanLiteral false
+i typed instance SimpleName SimpleType CastExpression SimpleName value
+for instance SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed instance
+for instance SimpleName MethodInvocation CastExpression SimpleName value
+for instance SimpleName MethodInvocation BooleanLiteral true
+i typed instance SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+value SimpleName CastExpression MethodInvocation BooleanLiteral true
+type SimpleName MethodInvocation SimpleName get type category
+unhandled type category StringLiteral InfixExpression MethodInvocation SimpleName type
+unhandled type category StringLiteral InfixExpression MethodInvocation SimpleName get type category
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unhandled type category
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+array SimpleName SwitchCase SwitchStatement EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement SwitchStatement SwitchCase SimpleName map
+class SimpleName SwitchCase SwitchStatement IfStatement SimpleName follow references
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+class SimpleName SwitchCase SwitchStatement IfStatement SimpleName follow references
+follow references SimpleName IfStatement SwitchStatement SwitchCase SimpleName struct
+follow references SimpleName IfStatement SwitchStatement IfStatement SimpleName follow references
+struct SimpleName SwitchCase SwitchStatement IfStatement SimpleName follow references
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName for attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName follow references
+string SimpleName SimpleType MethodDeclaration SimpleName for attribute
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName follow references
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName follow references
+for attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow references
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow references
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+follow references SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName for attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow references
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName for attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName follow references
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

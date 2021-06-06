@@ -1,0 +1,200 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral rand
+get SimpleName MethodInvocation StringLiteral rand
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+random SimpleName SimpleType CastExpression MethodInvocation StringLiteral rand
+rand SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral rand
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral namespaces
+get SimpleName MethodInvocation StringLiteral namespaces
+namespaces SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+namespaces SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+namespaces SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral namespaces
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName namespaces
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName namespaces
+namespaces SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName namespaces
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName namespaces
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+namespaces SimpleName MethodInvocation SimpleName get
+namespaces SimpleName MethodInvocation MethodInvocation SimpleName rand
+namespaces SimpleName MethodInvocation MethodInvocation SimpleName next int
+namespaces SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespaces
+namespaces SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespaces
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+src name SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespaces
+src name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+src name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+src name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src name
+namespaces SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName namespaces
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName namespaces
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+namespaces SimpleName MethodInvocation SimpleName get
+namespaces SimpleName MethodInvocation MethodInvocation SimpleName rand
+namespaces SimpleName MethodInvocation MethodInvocation SimpleName next int
+namespaces SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespaces
+namespaces SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName namespaces
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+new name SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespaces
+new name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+new name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+new name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new name
+rand SimpleName MethodInvocation SimpleName next boolean
+flush SimpleName VariableDeclarationFragment MethodInvocation SimpleName rand
+flush SimpleName VariableDeclarationFragment MethodInvocation SimpleName next boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rand
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next boolean
+cloning table namespace StringLiteral InfixExpression SimpleName src name
+cloning table namespace StringLiteral InfixExpression StringLiteral empty
+cloning table namespace StringLiteral InfixExpression SimpleName new name
+cloning table namespace StringLiteral InfixExpression StringLiteral empty
+cloning table namespace StringLiteral InfixExpression SimpleName flush
+src name SimpleName InfixExpression StringLiteral empty
+src name SimpleName InfixExpression SimpleName new name
+src name SimpleName InfixExpression StringLiteral empty
+src name SimpleName InfixExpression SimpleName flush
+empty StringLiteral InfixExpression SimpleName new name
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName flush
+new name SimpleName InfixExpression StringLiteral empty
+new name SimpleName InfixExpression SimpleName flush
+empty StringLiteral InfixExpression SimpleName flush
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral cloning table namespace
+log SimpleName MethodInvocation InfixExpression SimpleName src name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName new name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName flush
+debug SimpleName MethodInvocation InfixExpression StringLiteral cloning table namespace
+debug SimpleName MethodInvocation InfixExpression SimpleName src name
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName new name
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName flush
+conn SimpleName MethodInvocation SimpleName table namespace operations
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn SimpleName MethodInvocation MethodInvocation SimpleName clone
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+conn SimpleName MethodInvocation MethodInvocation SimpleName src name
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName src name
+conn SimpleName MethodInvocation MethodInvocation SimpleName new name
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName new name
+conn SimpleName MethodInvocation MethodInvocation SimpleName flush
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+clone SimpleName MethodInvocation SimpleName src name
+clone SimpleName MethodInvocation SimpleName new name
+clone SimpleName MethodInvocation SimpleName flush
+src name SimpleName MethodInvocation SimpleName new name
+src name SimpleName MethodInvocation SimpleName flush
+src name SimpleName MethodInvocation BooleanLiteral true
+new name SimpleName MethodInvocation SimpleName flush
+new name SimpleName MethodInvocation BooleanLiteral true
+flush SimpleName MethodInvocation BooleanLiteral true
+table namespace exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clone namespace StringLiteral InfixExpression SimpleName src name
+clone namespace StringLiteral InfixExpression StringLiteral failed
+clone namespace StringLiteral InfixExpression SimpleName new name
+clone namespace StringLiteral InfixExpression StringLiteral exists
+src name SimpleName InfixExpression StringLiteral failed
+src name SimpleName InfixExpression SimpleName new name
+src name SimpleName InfixExpression StringLiteral exists
+failed StringLiteral InfixExpression SimpleName new name
+failed StringLiteral InfixExpression StringLiteral exists
+new name SimpleName InfixExpression StringLiteral exists
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral clone namespace
+log SimpleName MethodInvocation InfixExpression SimpleName src name
+log SimpleName MethodInvocation InfixExpression StringLiteral failed
+log SimpleName MethodInvocation InfixExpression SimpleName new name
+log SimpleName MethodInvocation InfixExpression StringLiteral exists
+debug SimpleName MethodInvocation InfixExpression StringLiteral clone namespace
+debug SimpleName MethodInvocation InfixExpression SimpleName src name
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed
+debug SimpleName MethodInvocation InfixExpression SimpleName new name
+debug SimpleName MethodInvocation InfixExpression StringLiteral exists
+table namespace not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clone namespace StringLiteral InfixExpression SimpleName src name
+clone namespace StringLiteral InfixExpression StringLiteral failed doesnt exist
+src name SimpleName InfixExpression StringLiteral failed doesnt exist
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral clone namespace
+log SimpleName MethodInvocation InfixExpression SimpleName src name
+log SimpleName MethodInvocation InfixExpression StringLiteral failed doesnt exist
+debug SimpleName MethodInvocation InfixExpression StringLiteral clone namespace
+debug SimpleName MethodInvocation InfixExpression SimpleName src name
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed doesnt exist
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation SimpleName guid
+get entity definition SimpleName MethodInvocation SimpleName guid
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+error SimpleName MethodInvocation SimpleName e
+exception while getting a typed reference for the entity StringLiteral MethodInvocation SimpleName e
+to atlas base exception SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName get i typed referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName get i typed referenceable
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get i typed referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get i typed referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get i typed referenceable SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get i typed referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get i typed referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

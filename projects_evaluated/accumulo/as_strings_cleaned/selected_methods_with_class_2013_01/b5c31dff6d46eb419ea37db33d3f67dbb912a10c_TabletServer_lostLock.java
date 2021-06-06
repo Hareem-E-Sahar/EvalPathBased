@@ -1,0 +1,56 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName lock loss reason
+final Modifier SingleVariableDeclaration SimpleName reason
+lock loss reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+lost tablet server lock reason = StringLiteral InfixExpression SimpleName reason
+lost tablet server lock reason = StringLiteral InfixExpression StringLiteral ) exiting
+reason SimpleName InfixExpression StringLiteral ) exiting
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral lost tablet server lock reason =
+log SimpleName MethodInvocation InfixExpression SimpleName reason
+log SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+fatal SimpleName MethodInvocation InfixExpression StringLiteral lost tablet server lock reason =
+fatal SimpleName MethodInvocation InfixExpression SimpleName reason
+fatal SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+log gc info SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+halt SimpleName MethodInvocation NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName lost lock
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lost lock
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration SimpleName lost lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName lost lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lost lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

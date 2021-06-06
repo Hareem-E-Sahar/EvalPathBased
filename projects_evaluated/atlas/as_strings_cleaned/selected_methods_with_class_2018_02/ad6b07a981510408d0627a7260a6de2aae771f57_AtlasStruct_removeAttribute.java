@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+a SimpleName VariableDeclarationFragment FieldAccess SimpleName attributes
+a SimpleName MethodInvocation SimpleName contains key
+a SimpleName MethodInvocation SimpleName name
+contains key SimpleName MethodInvocation SimpleName name
+a SimpleName InfixExpression InfixExpression MethodInvocation SimpleName a
+a SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains key
+a SimpleName InfixExpression InfixExpression MethodInvocation SimpleName name
+a SimpleName MethodInvocation SimpleName remove
+a SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName remove attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+remove attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

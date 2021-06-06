@@ -1,0 +1,17 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type
+type name map SimpleName MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName unmodifiable collection
+collections SimpleName MethodInvocation MethodInvocation SimpleName type name map
+collections SimpleName MethodInvocation MethodInvocation SimpleName values
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName type name map
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName values
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SimpleName get all types
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all types
+atlas type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all types

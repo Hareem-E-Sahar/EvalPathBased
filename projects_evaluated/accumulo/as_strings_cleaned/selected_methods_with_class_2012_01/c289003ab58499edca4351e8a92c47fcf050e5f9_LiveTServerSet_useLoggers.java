@@ -1,0 +1,56 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName loggers
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName loggers
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+get client SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+address SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+address SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+tablet client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+security constants SimpleName MethodInvocation SimpleName get system credentials
+client SimpleName MethodInvocation SimpleName use loggers
+client SimpleName MethodInvocation MethodInvocation SimpleName security constants
+client SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+client SimpleName MethodInvocation SimpleName loggers
+use loggers SimpleName MethodInvocation MethodInvocation SimpleName security constants
+use loggers SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+use loggers SimpleName MethodInvocation SimpleName loggers
+security constants SimpleName MethodInvocation MethodInvocation SimpleName loggers
+get system credentials SimpleName MethodInvocation MethodInvocation SimpleName loggers
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName use loggers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName loggers
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName use loggers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName loggers
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+use loggers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName loggers
+use loggers SimpleName MethodDeclaration SimpleType SimpleName t exception
+loggers SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName use loggers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loggers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName use loggers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loggers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

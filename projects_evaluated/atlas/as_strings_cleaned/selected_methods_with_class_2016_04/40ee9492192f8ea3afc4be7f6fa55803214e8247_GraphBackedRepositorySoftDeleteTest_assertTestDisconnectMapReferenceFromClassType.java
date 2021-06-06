@@ -1,0 +1,77 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map owner guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName map owner guid
+get entity definition SimpleName MethodInvocation SimpleName map owner guid
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName map owner instance
+map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+map SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral map
+assert not null SimpleName MethodInvocation SimpleName map
+map SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral bi map
+get SimpleName MethodInvocation StringLiteral bi map
+bi map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName map owner instance
+bi map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+bi map SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral bi map
+assert not null SimpleName MethodInvocation SimpleName bi map
+bi map SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bi map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+bi map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert test disconnect map reference from class type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test disconnect map reference from class type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert test disconnect map reference from class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert test disconnect map reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert test disconnect map reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+assert test disconnect map reference from class type SimpleName MethodDeclaration SimpleType SimpleName exception
+map owner guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test disconnect map reference from class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test disconnect map reference from class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

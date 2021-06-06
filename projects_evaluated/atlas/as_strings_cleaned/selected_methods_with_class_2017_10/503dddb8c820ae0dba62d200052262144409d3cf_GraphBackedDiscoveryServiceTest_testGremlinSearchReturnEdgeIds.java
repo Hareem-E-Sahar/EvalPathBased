@@ -1,0 +1,88 @@
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas gremlin query provider
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin query provider
+atlas gremlin query provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin query provider
+gremlin query provider SimpleName Assignment QualifiedName atlas gremlin query providerinstance
+gremlin query provider SimpleName MethodInvocation SimpleName get query
+gremlin query provider SimpleName MethodInvocation QualifiedName atlas gremlin querygremlin search returns edge id
+get query SimpleName MethodInvocation QualifiedName atlas gremlin querygremlin search returns edge id
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin query provider
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get query
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas gremlin querygremlin search returns edge id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gremlin query provider
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas gremlin querygremlin search returns edge id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+discovery service SimpleName MethodInvocation SimpleName search by gremlin
+discovery service SimpleName MethodInvocation SimpleName query
+search by gremlin SimpleName MethodInvocation SimpleName query
+gremlin results SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+gremlin results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by gremlin
+gremlin results SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+gremlin results SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName gremlin results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+gremlin results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+gremlin results SimpleName MethodInvocation SimpleName get
+gremlin results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin results
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+properties SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+properties SimpleName MethodInvocation SimpleName contains key
+properties SimpleName MethodInvocation QualifiedName graph backed discovery servicegremlin id key
+contains key SimpleName MethodInvocation QualifiedName graph backed discovery servicegremlin id key
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation QualifiedName graph backed discovery servicegremlin id key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName graph backed discovery servicegremlin id key
+properties SimpleName MethodInvocation SimpleName contains key
+properties SimpleName MethodInvocation QualifiedName graph backed discovery servicegremlin label key
+contains key SimpleName MethodInvocation QualifiedName graph backed discovery servicegremlin label key
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation QualifiedName graph backed discovery servicegremlin label key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName graph backed discovery servicegremlin label key
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test gremlin search return edge ids
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test gremlin search return edge ids
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test gremlin search return edge ids
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test gremlin search return edge ids SimpleName MethodDeclaration SimpleType SimpleName exception
+test gremlin search return edge ids SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test gremlin search return edge ids SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test gremlin search return edge ids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test gremlin search return edge ids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

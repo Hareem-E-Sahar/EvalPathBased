@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName values
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName values
+join SimpleName MethodInvocation StringLiteral empty
+values SimpleName MethodInvocation StringLiteral empty
+[ StringLiteral InfixExpression MethodInvocation SimpleName string utils
+[ StringLiteral InfixExpression MethodInvocation SimpleName join
+[ StringLiteral InfixExpression MethodInvocation SimpleName values
+[ StringLiteral InfixExpression MethodInvocation StringLiteral empty
+[ StringLiteral InfixExpression StringLiteral ]
+string utils SimpleName MethodInvocation InfixExpression StringLiteral ]
+join SimpleName MethodInvocation InfixExpression StringLiteral ]
+values SimpleName MethodInvocation InfixExpression StringLiteral ]
+empty StringLiteral MethodInvocation InfixExpression StringLiteral ]
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName join partition values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType MethodDeclaration SimpleName join partition values
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+join partition values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName join partition values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName join partition values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

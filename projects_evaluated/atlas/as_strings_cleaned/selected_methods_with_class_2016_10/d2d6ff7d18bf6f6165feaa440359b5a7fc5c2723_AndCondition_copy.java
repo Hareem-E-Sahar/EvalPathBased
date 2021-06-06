@@ -1,0 +1,17 @@
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName and condition
+and condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builderchildren QualifiedName MethodInvocation SimpleName add all
+builderchildren QualifiedName MethodInvocation SimpleName children
+add all SimpleName MethodInvocation SimpleName children
+public Modifier MethodDeclaration SimpleType SimpleName and condition
+public Modifier MethodDeclaration SimpleName copy
+public Modifier MethodDeclaration Block ReturnStatement SimpleName builder
+and condition SimpleName SimpleType MethodDeclaration SimpleName copy
+copy SimpleName MethodDeclaration Block ReturnStatement SimpleName builder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName and condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName and condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy

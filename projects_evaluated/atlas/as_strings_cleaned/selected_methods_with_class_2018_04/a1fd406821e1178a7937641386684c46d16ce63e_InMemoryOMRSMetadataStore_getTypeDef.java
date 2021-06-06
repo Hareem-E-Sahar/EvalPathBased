@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+type def store SimpleName MethodInvocation SimpleName get
+type def store SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+protected Modifier MethodDeclaration SimpleType SimpleName type def
+protected Modifier MethodDeclaration SimpleName get type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+type def SimpleName SimpleType MethodDeclaration SimpleName get type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName item
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add group byitem
+log SimpleName MethodInvocation SimpleName item
+debug SimpleName MethodInvocation StringLiteral add group byitem
+debug SimpleName MethodInvocation SimpleName item
+add group byitem StringLiteral MethodInvocation SimpleName item
+add group by clause SimpleName MethodInvocation SimpleName item
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add group by
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName item
+void PrimitiveType MethodDeclaration SimpleName add group by
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName item
+add group by SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add group by SimpleName MethodDeclaration SingleVariableDeclaration SimpleName item
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add group by
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add group by
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item

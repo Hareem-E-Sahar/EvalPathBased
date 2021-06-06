@@ -1,0 +1,23 @@
+digester factory SimpleName MethodInvocation SimpleName get
+digester SimpleName VariableDeclarationFragment MethodInvocation SimpleName digester factory
+digester SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+message digest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName digester
+digester SimpleName MethodInvocation SimpleName reset
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName message digest
+public Modifier MethodDeclaration SimpleName get digester
+public Modifier MethodDeclaration Block ReturnStatement SimpleName digester
+static Modifier MethodDeclaration SimpleType SimpleName message digest
+static Modifier MethodDeclaration SimpleName get digester
+static Modifier MethodDeclaration Block ReturnStatement SimpleName digester
+message digest SimpleName SimpleType MethodDeclaration SimpleName get digester
+get digester SimpleName MethodDeclaration Block ReturnStatement SimpleName digester
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName message digest
+public Modifier TypeDeclaration MethodDeclaration SimpleName get digester
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName message digest
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get digester

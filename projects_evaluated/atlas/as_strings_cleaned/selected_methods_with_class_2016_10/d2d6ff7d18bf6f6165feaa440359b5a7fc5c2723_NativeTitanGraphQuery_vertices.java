@@ -1,0 +1,7 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertices

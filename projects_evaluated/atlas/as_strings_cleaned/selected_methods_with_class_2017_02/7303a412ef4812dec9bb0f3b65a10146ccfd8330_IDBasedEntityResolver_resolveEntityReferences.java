@@ -1,0 +1,122 @@
+entity graph discovery context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinternal error
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral id based entity resolverresolve entity references context is null
+atlas error codeinternal error QualifiedName ClassInstanceCreation StringLiteral id based entity resolverresolve entity references context is null
+context SimpleName MethodInvocation SimpleName get entity stream
+entity stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+entity stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity stream
+entity stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity stream
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+context SimpleName MethodInvocation SimpleName get referenced guids
+atlas type util SimpleName MethodInvocation SimpleName is assigned guid
+atlas type util SimpleName MethodInvocation SimpleName guid
+is assigned guid SimpleName MethodInvocation SimpleName guid
+is assigned guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+is assigned guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName is assigned guid
+is assigned guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is assigned guid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is assigned guid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas graph utils v SimpleName MethodInvocation SimpleName find by guid
+atlas graph utils v SimpleName MethodInvocation SimpleName guid
+find by guid SimpleName MethodInvocation SimpleName guid
+is assigned guid SimpleName ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+is assigned guid SimpleName ConditionalExpression MethodInvocation SimpleName find by guid
+is assigned guid SimpleName ConditionalExpression MethodInvocation SimpleName guid
+vertex SimpleName VariableDeclarationFragment ConditionalExpression SimpleName is assigned guid
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName atlas graph utils v
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName find by guid
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+entity stream SimpleName MethodInvocation SimpleName get by guid
+entity stream SimpleName MethodInvocation SimpleName guid
+get by guid SimpleName MethodInvocation SimpleName guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity stream
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+type categoryentity QualifiedName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName type categoryentity
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation QualifiedName type categoryentity
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName entity
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+type categoryentity QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+type categoryentity QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get attributes
+atlas graph utils v SimpleName MethodInvocation SimpleName find by unique attributes
+atlas graph utils v SimpleName MethodInvocation SimpleName entity type
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName entity
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+find by unique attributes SimpleName MethodInvocation SimpleName entity type
+find by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName entity
+find by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+vertex SimpleName Assignment MethodInvocation SimpleName atlas graph utils v
+vertex SimpleName Assignment MethodInvocation SimpleName find by unique attributes
+vertex SimpleName Assignment MethodInvocation SimpleName entity type
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attributes
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codereferenced entity not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error codereferenced entity not found QualifiedName ClassInstanceCreation SimpleName guid
+context SimpleName MethodInvocation SimpleName add resolved guid
+context SimpleName MethodInvocation SimpleName guid
+context SimpleName MethodInvocation SimpleName vertex
+add resolved guid SimpleName MethodInvocation SimpleName guid
+add resolved guid SimpleName MethodInvocation SimpleName vertex
+guid SimpleName MethodInvocation SimpleName vertex
+entity stream SimpleName InstanceofExpression SimpleType SimpleName entity import stream
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codereferenced entity not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error codereferenced entity not found QualifiedName ClassInstanceCreation SimpleName guid
+context SimpleName MethodInvocation SimpleName add local guid reference
+context SimpleName MethodInvocation SimpleName guid
+add local guid reference SimpleName MethodInvocation SimpleName guid
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName context
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get referenced guids
+public Modifier MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SimpleName resolve entity references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleName resolve entity references
+entity graph discovery context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+resolve entity references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+resolve entity references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve entity references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve entity references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

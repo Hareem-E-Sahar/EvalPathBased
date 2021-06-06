@@ -1,0 +1,95 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+instance header SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local method name
+method name SimpleName VariableDeclarationFragment StringLiteral is a type of
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral is a type of
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral is a type of
+throw validator logic error SimpleName MethodInvocation SimpleName source name
+throw validator logic error SimpleName MethodInvocation SimpleName method name
+throw validator logic error SimpleName MethodInvocation SimpleName local method name
+source name SimpleName MethodInvocation SimpleName method name
+source name SimpleName MethodInvocation SimpleName local method name
+method name SimpleName MethodInvocation SimpleName local method name
+throw validator logic error SimpleName MethodInvocation SimpleName source name
+throw validator logic error SimpleName MethodInvocation SimpleName method name
+throw validator logic error SimpleName MethodInvocation SimpleName local method name
+source name SimpleName MethodInvocation SimpleName method name
+source name SimpleName MethodInvocation SimpleName local method name
+method name SimpleName MethodInvocation SimpleName local method name
+instance SimpleName MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+instance type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get type def name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type def name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation SimpleName entity type name
+equals SimpleName MethodInvocation SimpleName entity type name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def link
+entity type SimpleName MethodInvocation SimpleName get type def super types
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type def super types
+type def link SimpleName SimpleType SingleVariableDeclaration SimpleName type def link
+type def link SimpleName MethodInvocation SimpleName get name
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation MethodInvocation SimpleName type def link
+type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName type def link
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+type def link SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+type def link SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+final Modifier VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is a type of
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleName is a type of
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local method name
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is a type of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local method name
+is a type of SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+is a type of SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local method name
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local method name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is a type of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is a type of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local method name

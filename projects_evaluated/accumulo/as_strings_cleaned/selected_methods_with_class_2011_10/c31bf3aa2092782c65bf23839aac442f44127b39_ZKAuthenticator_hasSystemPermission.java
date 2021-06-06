@@ -1,0 +1,189 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName permission
+authenticate SimpleName MethodInvocation SimpleName credentials
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codebad credentials
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codebad credentials
+credentialsuser QualifiedName MethodInvocation SimpleName equals
+credentialsuser QualifiedName MethodInvocation SimpleName user
+equals SimpleName MethodInvocation SimpleName user
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissionsystem
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissionsystem
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissionsystem
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissioncreate user
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissioncreate user
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissioncreate user
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissionalter user
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissionalter user
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissionalter user
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissiondrop user
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissiondrop user
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissiondrop user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codepermission denied
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation MethodInvocation SimpleName get root username
+equals SimpleName MethodInvocation MethodInvocation SimpleName get root username
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation QualifiedName security constantssystem username
+equals SimpleName MethodInvocation QualifiedName security constantssystem username
+user SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName user
+user SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+user SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName security constantssystem username
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName user
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName security constantssystem username
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user sys perms
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user sys perms
+user SimpleName InfixExpression SimpleName zk user sys perms
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName user
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+get SimpleName MethodInvocation InfixExpression SimpleName zk user path
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName user
+get SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo cache
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+perms SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName zk user path
+perms SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+perms SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName user
+perms SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName zk user sys perms
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName perms
+tool SimpleName MethodInvocation SimpleName convert system permissions
+tool SimpleName MethodInvocation SimpleName perms
+convert system permissions SimpleName MethodInvocation SimpleName perms
+tool SimpleName MethodInvocation MethodInvocation SimpleName contains
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName contains
+perms SimpleName MethodInvocation MethodInvocation SimpleName contains
+tool SimpleName MethodInvocation MethodInvocation SimpleName permission
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName permission
+perms SimpleName MethodInvocation MethodInvocation SimpleName permission
+contains SimpleName MethodInvocation SimpleName permission
+contains SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+permission SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user sys perms
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user sys perms
+user SimpleName InfixExpression SimpleName zk user sys perms
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName user
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+clear SimpleName MethodInvocation InfixExpression SimpleName zk user path
+clear SimpleName MethodInvocation InfixExpression StringLiteral /
+clear SimpleName MethodInvocation InfixExpression SimpleName user
+clear SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user sys perms
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user sys perms
+user SimpleName InfixExpression SimpleName zk user sys perms
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName user
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+get SimpleName MethodInvocation InfixExpression SimpleName zk user path
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName user
+get SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+tool SimpleName MethodInvocation SimpleName convert system permissions
+tool SimpleName MethodInvocation MethodInvocation SimpleName zoo cache
+tool SimpleName MethodInvocation MethodInvocation SimpleName get
+tool SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+tool SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+tool SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+tool SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user sys perms
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName zoo cache
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName get
+convert system permissions SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+convert system permissions SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+convert system permissions SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+convert system permissions SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user sys perms
+tool SimpleName MethodInvocation MethodInvocation SimpleName contains
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName contains
+zoo cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+tool SimpleName MethodInvocation MethodInvocation SimpleName permission
+convert system permissions SimpleName MethodInvocation MethodInvocation SimpleName permission
+zoo cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName permission
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName permission
+contains SimpleName MethodInvocation SimpleName permission
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+user SimpleName ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has system permission
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has system permission
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName permission
+boolean PrimitiveType MethodDeclaration SimpleName has system permission
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName permission
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName system permission
+has system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName permission
+has system permission SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+permission SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has system permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has system permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permission
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

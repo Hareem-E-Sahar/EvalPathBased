@@ -1,0 +1,159 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+condition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName condition
+titan graph SimpleName MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+i SimpleName Assignment NumberLiteral empty
+args SimpleName ArrayAccess SimpleName i
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression SimpleName i
+args SimpleName ArrayAccess InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+query SimpleName MethodInvocation CastExpression ArrayAccess SimpleName args
+query SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+query SimpleName MethodInvocation ArrayAccess SimpleName args
+query SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+query SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+has SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+has SimpleName MethodInvocation CastExpression ArrayAccess SimpleName args
+has SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+has SimpleName MethodInvocation ArrayAccess SimpleName args
+has SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+has SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+query SimpleName Assignment MethodInvocation SimpleName query
+query SimpleName Assignment MethodInvocation SimpleName has
+query SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+args SimpleName ArrayAccess SimpleName i
+condition SimpleName MethodInvocation SimpleName append
+condition SimpleName MethodInvocation ArrayAccess SimpleName args
+condition SimpleName MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess SimpleName i
+condition SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+i SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+condition SimpleName MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation MethodInvocation StringLiteral =
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral =
+i SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+i SimpleName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression SimpleName i
+args SimpleName ArrayAccess InfixExpression NumberLiteral empty
+condition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+= StringLiteral MethodInvocation MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess SimpleName args
+append SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+append SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+= StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+= StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+args SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+argslength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+argslength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+condition SimpleName MethodInvocation SimpleName to string
+condition str SimpleName VariableDeclarationFragment MethodInvocation SimpleName condition
+condition str SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName condition str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding vertex with {}
+log SimpleName MethodInvocation SimpleName condition str
+debug SimpleName MethodInvocation StringLiteral finding vertex with {}
+debug SimpleName MethodInvocation SimpleName condition str
+finding vertex with {} StringLiteral MethodInvocation SimpleName condition str
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName has next
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName results
+vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+condition SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral could not find a vertex with {}
+log SimpleName MethodInvocation MethodInvocation SimpleName condition
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation StringLiteral could not find a vertex with {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName condition
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+could not find a vertex with {} StringLiteral MethodInvocation MethodInvocation SimpleName condition
+could not find a vertex with {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+could not find an entity in the repository with StringLiteral InfixExpression SimpleName condition str
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find an entity in the repository with
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName condition str
+string SimpleName MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found a vertex {} with {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName condition str
+debug SimpleName MethodInvocation StringLiteral found a vertex {} with {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName vertex
+debug SimpleName MethodInvocation SimpleName condition str
+found a vertex {} with {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+found a vertex {} with {} StringLiteral MethodInvocation MethodInvocation SimpleName vertex
+found a vertex {} with {} StringLiteral MethodInvocation SimpleName condition str
+string SimpleName MethodInvocation MethodInvocation SimpleName condition str
+vertex SimpleName MethodInvocation MethodInvocation SimpleName condition str
+private Modifier MethodDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SimpleName find vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName vertex
+vertex SimpleName SimpleType MethodDeclaration SimpleName find vertex
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+find vertex SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+find vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

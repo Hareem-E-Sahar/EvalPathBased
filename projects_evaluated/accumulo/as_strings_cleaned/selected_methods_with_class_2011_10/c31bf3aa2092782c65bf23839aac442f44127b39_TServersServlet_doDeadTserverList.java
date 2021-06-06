@@ -1,0 +1,59 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+monitor SimpleName MethodInvocation SimpleName get mmi
+mmi SimpleName VariableDeclarationFragment MethodInvocation SimpleName monitor
+mmi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mmi
+master monitor info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mmi
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName dead server
+obit SimpleName VariableDeclarationFragment QualifiedName mmidead tablet servers
+table SimpleName SimpleType ClassInstanceCreation StringLiteral deaddtservers
+table SimpleName SimpleType ClassInstanceCreation StringLiteral deadnbsptabletnbspservers
+table SimpleName SimpleType ClassInstanceCreation StringLiteral error
+deaddtservers StringLiteral ClassInstanceCreation StringLiteral deadnbsptabletnbspservers
+deaddtservers StringLiteral ClassInstanceCreation StringLiteral error
+deadnbsptabletnbspservers StringLiteral ClassInstanceCreation StringLiteral error
+dead t server list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName table
+dead t server list SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral deaddtservers
+dead t server list SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral deadnbsptabletnbspservers
+dead t server list SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral error
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dead t server list
+dead t server list SimpleName MethodInvocation SimpleName set sub caption
+dead t server list SimpleName MethodInvocation StringLiteral the following tablet servers are no longer reachable
+set sub caption SimpleName MethodInvocation StringLiteral the following tablet servers are no longer reachable
+do dead server table SimpleName MethodInvocation SimpleName req
+do dead server table SimpleName MethodInvocation SimpleName sb
+do dead server table SimpleName MethodInvocation SimpleName dead t server list
+do dead server table SimpleName MethodInvocation SimpleName obit
+req SimpleName MethodInvocation SimpleName sb
+req SimpleName MethodInvocation SimpleName dead t server list
+req SimpleName MethodInvocation SimpleName obit
+sb SimpleName MethodInvocation SimpleName dead t server list
+sb SimpleName MethodInvocation SimpleName obit
+dead t server list SimpleName MethodInvocation SimpleName obit
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do dead tserver list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName do dead tserver list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+do dead tserver list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+do dead tserver list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+do dead tserver list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+do dead tserver list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do dead tserver list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do dead tserver list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

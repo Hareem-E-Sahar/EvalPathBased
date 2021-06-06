@@ -1,0 +1,21 @@
+help formatter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName help formatter
+help formatter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName help formatter
+help formatter SimpleName MethodInvocation SimpleName print help
+help formatter SimpleName MethodInvocation StringLiteral atlas adminpy
+help formatter SimpleName MethodInvocation SimpleName options
+print help SimpleName MethodInvocation StringLiteral atlas adminpy
+print help SimpleName MethodInvocation SimpleName options
+atlas adminpy StringLiteral MethodInvocation SimpleName options
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation QualifiedName atlas admin clientinvalid options status
+exit SimpleName MethodInvocation QualifiedName atlas admin clientinvalid options status
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName print usage
+void PrimitiveType MethodDeclaration SimpleName print usage
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print usage
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print usage

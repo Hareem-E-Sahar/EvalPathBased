@@ -1,0 +1,35 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+context SimpleName MethodInvocation SimpleName get configuration
+output configurator SimpleName MethodInvocation SimpleName get log level
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName context
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get log level SimpleName MethodInvocation SimpleName class
+get log level SimpleName MethodInvocation MethodInvocation SimpleName context
+get log level SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName context
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName level
+protected Modifier MethodDeclaration SimpleName get log level
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName level
+static Modifier MethodDeclaration SimpleName get log level
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+level SimpleName SimpleType MethodDeclaration SimpleName get log level
+level SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName level
+public Modifier TypeDeclaration MethodDeclaration SimpleName get log level
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get log level
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

@@ -1,0 +1,71 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral adding entity type
+log SimpleName MethodInvocation SimpleName typed instance
+log SimpleName MethodInvocation SimpleName type name
+info SimpleName MethodInvocation StringLiteral adding entity type
+info SimpleName MethodInvocation SimpleName typed instance
+info SimpleName MethodInvocation SimpleName type name
+adding entity type StringLiteral MethodInvocation SimpleName typed instance
+adding entity type StringLiteral MethodInvocation SimpleName type name
+typed instance SimpleName MethodInvocation SimpleName type name
+graph service SimpleName MethodInvocation SimpleName get transactional graph
+transactional graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph service
+transactional graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transactional graph
+final Modifier VariableDeclarationStatement SimpleType SimpleName transactional graph
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName transactional graph
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName graph service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get transactional graph
+transactional graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transactional graph
+transactional graph SimpleName MethodInvocation SimpleName rollback
+instance to graph mapper SimpleName MethodInvocation SimpleName map typed instance to graph
+instance to graph mapper SimpleName MethodInvocation SimpleName typed instance
+map typed instance to graph SimpleName MethodInvocation SimpleName typed instance
+metadata exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+transactional graph SimpleName MethodInvocation SimpleName rollback
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+transactional graph SimpleName MethodInvocation SimpleName commit
+graph helper SimpleName MethodInvocation SimpleName dump to log
+graph helper SimpleName MethodInvocation SimpleName transactional graph
+dump to log SimpleName MethodInvocation SimpleName transactional graph
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+string SimpleName SimpleType MethodDeclaration SimpleName create entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+create entity SimpleName MethodDeclaration SimpleType SimpleName repository exception
+create entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

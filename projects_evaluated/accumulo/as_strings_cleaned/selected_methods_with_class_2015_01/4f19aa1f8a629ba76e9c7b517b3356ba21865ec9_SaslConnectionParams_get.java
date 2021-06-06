@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+authquality QualifiedName MethodInvocation SimpleName equals
+authquality QualifiedName MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+auth intquality QualifiedName MethodInvocation SimpleName equals
+auth intquality QualifiedName MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+auth confquality QualifiedName MethodInvocation SimpleName equals
+auth confquality QualifiedName MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+no value for StringLiteral InfixExpression SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral no value for
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName quality of protection
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SimpleType SimpleName quality of protection
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+quality of protection SimpleName SimpleType MethodDeclaration SimpleName get
+quality of protection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName quality of protection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName quality of protection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

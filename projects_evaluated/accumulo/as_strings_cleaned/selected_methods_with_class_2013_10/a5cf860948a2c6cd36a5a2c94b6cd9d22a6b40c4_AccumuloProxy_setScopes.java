@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator scope
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scopes
+iterator scope SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scopes
+scopes SimpleName FieldAccess Assignment SimpleName scopes
+public Modifier MethodDeclaration SimpleType SimpleName remove iterator args
+public Modifier MethodDeclaration SimpleName set scopes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scopes
+remove iterator args SimpleName SimpleType MethodDeclaration SimpleName set scopes
+remove iterator args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scopes
+set scopes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scopes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName remove iterator args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scopes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scopes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName remove iterator args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scopes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scopes

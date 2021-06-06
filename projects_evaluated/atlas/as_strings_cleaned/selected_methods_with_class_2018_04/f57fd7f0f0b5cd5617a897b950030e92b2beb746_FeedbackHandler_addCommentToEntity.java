@@ -1,0 +1,320 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid parameter
+comment type SimpleName SimpleType SingleVariableDeclaration SimpleName comment type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName comment text
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+type parameter SimpleName VariableDeclarationFragment StringLiteral comment type
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName type parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral comment type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral comment type
+text parameter SimpleName VariableDeclarationFragment StringLiteral comment text
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName text parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral comment text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral comment text
+error handler SimpleName MethodInvocation SimpleName validate user id
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate guid
+error handler SimpleName MethodInvocation SimpleName entity guid
+error handler SimpleName MethodInvocation SimpleName guid parameter
+error handler SimpleName MethodInvocation SimpleName method name
+validate guid SimpleName MethodInvocation SimpleName entity guid
+validate guid SimpleName MethodInvocation SimpleName guid parameter
+validate guid SimpleName MethodInvocation SimpleName method name
+entity guid SimpleName MethodInvocation SimpleName guid parameter
+entity guid SimpleName MethodInvocation SimpleName method name
+guid parameter SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate enum
+error handler SimpleName MethodInvocation SimpleName comment type
+error handler SimpleName MethodInvocation SimpleName type parameter
+error handler SimpleName MethodInvocation SimpleName method name
+validate enum SimpleName MethodInvocation SimpleName comment type
+validate enum SimpleName MethodInvocation SimpleName type parameter
+validate enum SimpleName MethodInvocation SimpleName method name
+comment type SimpleName MethodInvocation SimpleName type parameter
+comment type SimpleName MethodInvocation SimpleName method name
+type parameter SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate text
+error handler SimpleName MethodInvocation SimpleName comment text
+error handler SimpleName MethodInvocation SimpleName text parameter
+error handler SimpleName MethodInvocation SimpleName method name
+validate text SimpleName MethodInvocation SimpleName comment text
+validate text SimpleName MethodInvocation SimpleName text parameter
+validate text SimpleName MethodInvocation SimpleName method name
+comment text SimpleName MethodInvocation SimpleName text parameter
+comment text SimpleName MethodInvocation SimpleName method name
+text parameter SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate repository connector
+error handler SimpleName MethodInvocation SimpleName method name
+validate repository connector SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName error handler
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate repository connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+validate entity SimpleName MethodInvocation SimpleName user id
+validate entity SimpleName MethodInvocation SimpleName entity guid
+validate entity SimpleName MethodInvocation SimpleName metadata collection
+validate entity SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName entity guid
+user id SimpleName MethodInvocation SimpleName metadata collection
+user id SimpleName MethodInvocation SimpleName method name
+entity guid SimpleName MethodInvocation SimpleName metadata collection
+entity guid SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName MethodInvocation SimpleName method name
+instance properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+add comment type property to instance SimpleName MethodInvocation SimpleName properties
+add comment type property to instance SimpleName MethodInvocation SimpleName comment type
+add comment type property to instance SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName comment type
+properties SimpleName MethodInvocation SimpleName method name
+comment type SimpleName MethodInvocation SimpleName method name
+properties SimpleName Assignment MethodInvocation SimpleName add comment type property to instance
+properties SimpleName Assignment MethodInvocation SimpleName properties
+properties SimpleName Assignment MethodInvocation SimpleName comment type
+properties SimpleName Assignment MethodInvocation SimpleName method name
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+comment StringLiteral InfixExpression SimpleName user id
+comment StringLiteral InfixExpression StringLiteral :
+comment StringLiteral InfixExpression MethodInvocation SimpleName to string
+user id SimpleName InfixExpression StringLiteral :
+user id SimpleName InfixExpression MethodInvocation SimpleName to string
+: StringLiteral InfixExpression MethodInvocation SimpleName to string
+repository helper SimpleName MethodInvocation SimpleName add string property to instance
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName qualified name property name
+repository helper SimpleName MethodInvocation InfixExpression StringLiteral comment
+repository helper SimpleName MethodInvocation InfixExpression SimpleName user id
+repository helper SimpleName MethodInvocation InfixExpression StringLiteral :
+repository helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+add string property to instance SimpleName MethodInvocation SimpleName service name
+add string property to instance SimpleName MethodInvocation SimpleName properties
+add string property to instance SimpleName MethodInvocation SimpleName qualified name property name
+add string property to instance SimpleName MethodInvocation InfixExpression StringLiteral comment
+add string property to instance SimpleName MethodInvocation InfixExpression SimpleName user id
+add string property to instance SimpleName MethodInvocation InfixExpression StringLiteral :
+add string property to instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+add string property to instance SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName properties
+service name SimpleName MethodInvocation SimpleName qualified name property name
+service name SimpleName MethodInvocation InfixExpression StringLiteral comment
+service name SimpleName MethodInvocation InfixExpression SimpleName user id
+service name SimpleName MethodInvocation InfixExpression StringLiteral :
+service name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+service name SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName qualified name property name
+properties SimpleName MethodInvocation InfixExpression StringLiteral comment
+properties SimpleName MethodInvocation InfixExpression SimpleName user id
+properties SimpleName MethodInvocation InfixExpression StringLiteral :
+properties SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+properties SimpleName MethodInvocation SimpleName method name
+qualified name property name SimpleName MethodInvocation InfixExpression StringLiteral comment
+qualified name property name SimpleName MethodInvocation InfixExpression SimpleName user id
+qualified name property name SimpleName MethodInvocation InfixExpression StringLiteral :
+qualified name property name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+qualified name property name SimpleName MethodInvocation SimpleName method name
+comment StringLiteral InfixExpression MethodInvocation SimpleName method name
+user id SimpleName InfixExpression MethodInvocation SimpleName method name
+: StringLiteral InfixExpression MethodInvocation SimpleName method name
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+properties SimpleName Assignment MethodInvocation SimpleName repository helper
+properties SimpleName Assignment MethodInvocation SimpleName add string property to instance
+properties SimpleName Assignment MethodInvocation SimpleName service name
+properties SimpleName Assignment MethodInvocation SimpleName properties
+properties SimpleName Assignment MethodInvocation SimpleName qualified name property name
+properties SimpleName Assignment MethodInvocation InfixExpression StringLiteral comment
+properties SimpleName Assignment MethodInvocation InfixExpression SimpleName user id
+properties SimpleName Assignment MethodInvocation InfixExpression StringLiteral :
+properties SimpleName Assignment MethodInvocation SimpleName method name
+repository helper SimpleName MethodInvocation SimpleName add string property to instance
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName comment property name
+repository helper SimpleName MethodInvocation SimpleName comment text
+add string property to instance SimpleName MethodInvocation SimpleName service name
+add string property to instance SimpleName MethodInvocation SimpleName properties
+add string property to instance SimpleName MethodInvocation SimpleName comment property name
+add string property to instance SimpleName MethodInvocation SimpleName comment text
+add string property to instance SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName properties
+service name SimpleName MethodInvocation SimpleName comment property name
+service name SimpleName MethodInvocation SimpleName comment text
+service name SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName comment property name
+properties SimpleName MethodInvocation SimpleName comment text
+properties SimpleName MethodInvocation SimpleName method name
+comment property name SimpleName MethodInvocation SimpleName comment text
+comment property name SimpleName MethodInvocation SimpleName method name
+comment text SimpleName MethodInvocation SimpleName method name
+properties SimpleName Assignment MethodInvocation SimpleName repository helper
+properties SimpleName Assignment MethodInvocation SimpleName add string property to instance
+properties SimpleName Assignment MethodInvocation SimpleName service name
+properties SimpleName Assignment MethodInvocation SimpleName properties
+properties SimpleName Assignment MethodInvocation SimpleName comment property name
+properties SimpleName Assignment MethodInvocation SimpleName comment text
+properties SimpleName Assignment MethodInvocation SimpleName method name
+metadata collection SimpleName MethodInvocation SimpleName add entity
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation SimpleName comment type guid
+metadata collection SimpleName MethodInvocation SimpleName properties
+add entity SimpleName MethodInvocation SimpleName user id
+add entity SimpleName MethodInvocation SimpleName comment type guid
+add entity SimpleName MethodInvocation SimpleName properties
+add entity SimpleName MethodInvocation QualifiedName instance statusactive
+user id SimpleName MethodInvocation SimpleName comment type guid
+user id SimpleName MethodInvocation SimpleName properties
+user id SimpleName MethodInvocation QualifiedName instance statusactive
+comment type guid SimpleName MethodInvocation SimpleName properties
+comment type guid SimpleName MethodInvocation QualifiedName instance statusactive
+properties SimpleName MethodInvocation QualifiedName instance statusactive
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName add entity
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName comment type guid
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+feedback entity SimpleName VariableDeclarationFragment MethodInvocation QualifiedName instance statusactive
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feedback entity
+feedback entity SimpleName MethodInvocation SimpleName get guid
+metadata collection SimpleName MethodInvocation SimpleName add relationship
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation SimpleName attached comment type guid
+metadata collection SimpleName MethodInvocation SimpleName entity guid
+add relationship SimpleName MethodInvocation SimpleName user id
+add relationship SimpleName MethodInvocation SimpleName attached comment type guid
+add relationship SimpleName MethodInvocation SimpleName entity guid
+add relationship SimpleName MethodInvocation MethodInvocation SimpleName feedback entity
+add relationship SimpleName MethodInvocation MethodInvocation SimpleName get guid
+user id SimpleName MethodInvocation SimpleName attached comment type guid
+user id SimpleName MethodInvocation SimpleName entity guid
+user id SimpleName MethodInvocation MethodInvocation SimpleName feedback entity
+user id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+user id SimpleName MethodInvocation QualifiedName instance statusactive
+attached comment type guid SimpleName MethodInvocation SimpleName entity guid
+attached comment type guid SimpleName MethodInvocation MethodInvocation SimpleName feedback entity
+attached comment type guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+attached comment type guid SimpleName MethodInvocation QualifiedName instance statusactive
+entity guid SimpleName MethodInvocation MethodInvocation SimpleName feedback entity
+entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity guid SimpleName MethodInvocation QualifiedName instance statusactive
+feedback entity SimpleName MethodInvocation MethodInvocation QualifiedName instance statusactive
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName instance statusactive
+feedback entity SimpleName MethodInvocation SimpleName get guid
+orgapacheatlasomrsffdcexceptionuser not authorized exception QualifiedName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle unauthorized user
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle unauthorized user SimpleName MethodInvocation SimpleName user id
+handle unauthorized user SimpleName MethodInvocation SimpleName method name
+handle unauthorized user SimpleName MethodInvocation SimpleName server name
+handle unauthorized user SimpleName MethodInvocation SimpleName service name
+user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle repository error
+error handler SimpleName MethodInvocation SimpleName error
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle repository error SimpleName MethodInvocation SimpleName error
+handle repository error SimpleName MethodInvocation SimpleName method name
+handle repository error SimpleName MethodInvocation SimpleName server name
+handle repository error SimpleName MethodInvocation SimpleName service name
+error SimpleName MethodInvocation SimpleName method name
+error SimpleName MethodInvocation SimpleName server name
+error SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add comment to entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+string SimpleName SimpleType MethodDeclaration SimpleName add comment to entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName comment type
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName comment type
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment type
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add comment to entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comment text
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+entity guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+guid parameter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+guid parameter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+guid parameter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+guid parameter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+guid parameter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+comment text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add comment to entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add comment to entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid parameter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comment text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

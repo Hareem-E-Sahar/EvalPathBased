@@ -1,0 +1,17 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+type def name map SimpleName MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName unmodifiable collection
+collections SimpleName MethodInvocation MethodInvocation SimpleName type def name map
+collections SimpleName MethodInvocation MethodInvocation SimpleName values
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName type def name map
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName values
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get all
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all

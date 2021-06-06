@@ -1,0 +1,136 @@
+accumulo SimpleName MethodInvocation SimpleName get accumulo persistent version
+accumulo SimpleName MethodInvocation InfixExpression QualifiedName constantsprev data version
+get accumulo persistent version SimpleName MethodInvocation InfixExpression QualifiedName constantsprev data version
+upgrade metadata running SimpleName MethodInvocation SimpleName compare and set
+upgrade metadata running SimpleName MethodInvocation BooleanLiteral false
+upgrade metadata running SimpleName MethodInvocation BooleanLiteral true
+compare and set SimpleName MethodInvocation BooleanLiteral false
+compare and set SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral adding bulk dir delete entries to metadata table for upgrade
+info SimpleName MethodInvocation StringLiteral adding bulk dir delete entries to metadata table for upgrade
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral empty
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral l
+constantsmetadata table name QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+constants SimpleName MethodInvocation SimpleName get tables dir
+constants SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+constants SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+get tables dir SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+get tables dir SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+constants SimpleName MethodInvocation InfixExpression StringLiteral /*
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral /*
+server configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /*
+get system configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /*
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /*
+fs SimpleName MethodInvocation SimpleName glob status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /*
+glob status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /*
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName glob status
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName table dir
+table dir SimpleName MethodInvocation SimpleName get path
+table dir SimpleName MethodInvocation InfixExpression StringLiteral bulk *
+get path SimpleName MethodInvocation InfixExpression StringLiteral bulk *
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk *
+fs SimpleName MethodInvocation SimpleName glob status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral bulk *
+glob status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral bulk *
+bulk dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+bulk dirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName glob status
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName bulk dir
+table dir SimpleName MethodInvocation SimpleName get path
+table dir SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+bulk dir SimpleName MethodInvocation SimpleName get path
+bulk dir SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName bulk dir
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get path
+/ StringLiteral InfixExpression MethodInvocation SimpleName get name
+metadata table SimpleName MethodInvocation SimpleName create delete mutation
+metadata table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table dir
+metadata table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get name
+metadata table SimpleName MethodInvocation InfixExpression StringLiteral /
+metadata table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table dir
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+create delete mutation SimpleName MethodInvocation MethodInvocation SimpleName get name
+create delete mutation SimpleName MethodInvocation InfixExpression StringLiteral /
+create delete mutation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName metadata table
+bw SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+bw SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName metadata table
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add mutation SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName bulk dirs
+bulk dir SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bulk dirs
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tables
+table dir SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tables
+tables SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName bulk dirs
+bw SimpleName MethodInvocation SimpleName close
+accumulo SimpleName MethodInvocation SimpleName update accumulo version
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral upgrade complete
+info SimpleName MethodInvocation StringLiteral upgrade complete
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation StringLiteral error performing upgrade
+log SimpleName MethodInvocation SimpleName ex
+fatal SimpleName MethodInvocation StringLiteral error performing upgrade
+fatal SimpleName MethodInvocation SimpleName ex
+error performing upgrade StringLiteral MethodInvocation SimpleName ex
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+upgrade task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upgrade task
+thread SimpleName SimpleType ClassInstanceCreation SimpleName upgrade task
+thread SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+upgrade task SimpleName ClassInstanceCreation MethodInvocation SimpleName start
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName upgrade metadata
+void PrimitiveType MethodDeclaration SimpleName upgrade metadata
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName upgrade metadata
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName upgrade metadata

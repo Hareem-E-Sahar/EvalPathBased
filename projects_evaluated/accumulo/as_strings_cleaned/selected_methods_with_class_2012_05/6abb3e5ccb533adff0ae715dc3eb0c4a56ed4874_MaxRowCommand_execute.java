@@ -1,0 +1,184 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+opt util SimpleName MethodInvocation SimpleName configure table opt
+opt util SimpleName MethodInvocation SimpleName cl
+opt util SimpleName MethodInvocation SimpleName shell state
+configure table opt SimpleName MethodInvocation SimpleName cl
+configure table opt SimpleName MethodInvocation SimpleName shell state
+cl SimpleName MethodInvocation SimpleName shell state
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName opt util
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName configure table opt
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName shell state
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+get range SimpleName MethodInvocation SimpleName cl
+range SimpleName VariableDeclarationFragment MethodInvocation SimpleName get range
+range SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+get auths SimpleName MethodInvocation SimpleName cl
+get auths SimpleName MethodInvocation SimpleName shell state
+cl SimpleName MethodInvocation SimpleName shell state
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName get auths
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName shell state
+authorizations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auths
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+start row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start row
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get end key SimpleName MethodInvocation MethodInvocation SimpleName get row
+end row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end row
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+range SimpleName MethodInvocation SimpleName is start key inclusive
+range SimpleName MethodInvocation SimpleName is end key inclusive
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max row
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max row
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get max row
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auths
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auths
+table operations SimpleName MethodInvocation MethodInvocation SimpleName auths
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+table operations SimpleName MethodInvocation MethodInvocation SimpleName start row
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is start key inclusive
+get max row SimpleName MethodInvocation SimpleName table name
+get max row SimpleName MethodInvocation SimpleName auths
+get max row SimpleName MethodInvocation SimpleName start row
+get max row SimpleName MethodInvocation MethodInvocation SimpleName range
+get max row SimpleName MethodInvocation MethodInvocation SimpleName is start key inclusive
+get max row SimpleName MethodInvocation SimpleName end row
+table name SimpleName MethodInvocation SimpleName auths
+table name SimpleName MethodInvocation SimpleName start row
+table name SimpleName MethodInvocation MethodInvocation SimpleName range
+table name SimpleName MethodInvocation MethodInvocation SimpleName is start key inclusive
+table name SimpleName MethodInvocation SimpleName end row
+table name SimpleName MethodInvocation MethodInvocation SimpleName range
+table name SimpleName MethodInvocation MethodInvocation SimpleName is end key inclusive
+auths SimpleName MethodInvocation SimpleName start row
+auths SimpleName MethodInvocation MethodInvocation SimpleName range
+auths SimpleName MethodInvocation MethodInvocation SimpleName is start key inclusive
+auths SimpleName MethodInvocation SimpleName end row
+auths SimpleName MethodInvocation MethodInvocation SimpleName range
+auths SimpleName MethodInvocation MethodInvocation SimpleName is end key inclusive
+start row SimpleName MethodInvocation MethodInvocation SimpleName range
+start row SimpleName MethodInvocation MethodInvocation SimpleName is start key inclusive
+start row SimpleName MethodInvocation SimpleName end row
+start row SimpleName MethodInvocation MethodInvocation SimpleName range
+start row SimpleName MethodInvocation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation MethodInvocation SimpleName end row
+is start key inclusive SimpleName MethodInvocation MethodInvocation SimpleName end row
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is end key inclusive
+is start key inclusive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName range
+is start key inclusive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is end key inclusive
+end row SimpleName MethodInvocation MethodInvocation SimpleName range
+end row SimpleName MethodInvocation MethodInvocation SimpleName is end key inclusive
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName get max row
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName auths
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName start row
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName range
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName is start key inclusive
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName end row
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName range
+max SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName is end key inclusive
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+shell state SimpleName MethodInvocation SimpleName get reader
+max SimpleName MethodInvocation SimpleName to string
+max SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+shell state SimpleName MethodInvocation MethodInvocation SimpleName print string
+get reader SimpleName MethodInvocation MethodInvocation SimpleName print string
+shell state SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get reader SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+print string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName max
+print string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation InfixExpression StringLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleName execute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full command
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName parse exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName parse exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName parse exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

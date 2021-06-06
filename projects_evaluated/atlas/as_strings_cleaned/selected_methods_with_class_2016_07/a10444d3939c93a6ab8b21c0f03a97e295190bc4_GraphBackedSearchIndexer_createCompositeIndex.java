@@ -1,0 +1,116 @@
+titan management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType SingleVariableDeclaration SimpleName property class
+property key SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+boolean PrimitiveType SingleVariableDeclaration SimpleName enforce uniqueness
+property class SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral creating composite index for property {} of type {}
+log SimpleName MethodInvocation SimpleName property name
+log SimpleName MethodInvocation MethodInvocation SimpleName property class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral creating composite index for property {} of type {}
+info SimpleName MethodInvocation SimpleName property name
+info SimpleName MethodInvocation MethodInvocation SimpleName property class
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+creating composite index for property {} of type {} StringLiteral MethodInvocation SimpleName property name
+creating composite index for property {} of type {} StringLiteral MethodInvocation MethodInvocation SimpleName property class
+creating composite index for property {} of type {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+property name SimpleName MethodInvocation MethodInvocation SimpleName property class
+property name SimpleName MethodInvocation MethodInvocation SimpleName get name
+management SimpleName MethodInvocation SimpleName build index
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+build index SimpleName MethodInvocation SimpleName property name
+build index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+management SimpleName MethodInvocation MethodInvocation SimpleName add key
+build index SimpleName MethodInvocation MethodInvocation SimpleName add key
+property name SimpleName MethodInvocation MethodInvocation SimpleName add key
+management SimpleName MethodInvocation MethodInvocation SimpleName property key
+build index SimpleName MethodInvocation MethodInvocation SimpleName property key
+property name SimpleName MethodInvocation MethodInvocation SimpleName property key
+add key SimpleName MethodInvocation SimpleName property key
+index builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName management
+index builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName build index
+index builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property name
+index builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName add key
+index builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName property key
+titan managementindex builder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index builder
+index builder SimpleName MethodInvocation SimpleName unique
+index builder SimpleName MethodInvocation SimpleName build composite index
+property class SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral created composite index for property {} of type {}
+log SimpleName MethodInvocation SimpleName property name
+log SimpleName MethodInvocation MethodInvocation SimpleName property class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral created composite index for property {} of type {}
+info SimpleName MethodInvocation SimpleName property name
+info SimpleName MethodInvocation MethodInvocation SimpleName property class
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+created composite index for property {} of type {} StringLiteral MethodInvocation SimpleName property name
+created composite index for property {} of type {} StringLiteral MethodInvocation MethodInvocation SimpleName property class
+created composite index for property {} of type {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+property name SimpleName MethodInvocation MethodInvocation SimpleName property class
+property name SimpleName MethodInvocation MethodInvocation SimpleName get name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create composite index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property class
+void PrimitiveType MethodDeclaration SimpleName create composite index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property key
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property class
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property key
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create composite index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+property class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+property class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+property class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create composite index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create composite index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enforce uniqueness

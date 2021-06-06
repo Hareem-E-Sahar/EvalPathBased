@@ -1,0 +1,178 @@
+mi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mi
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+mi SimpleName MethodInvocation SimpleName get connector
+mi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+mi SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mi SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName mi
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName constantsmetadata table name
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+constantsmetadata table name QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+create tablet SimpleName MethodInvocation StringLiteral empty
+create tablet SimpleName MethodInvocation StringLiteral m
+create tablet SimpleName MethodInvocation StringLiteral d
+create tablet SimpleName MethodInvocation StringLiteral d file
+empty StringLiteral MethodInvocation StringLiteral m
+empty StringLiteral MethodInvocation StringLiteral d
+empty StringLiteral MethodInvocation StringLiteral d file
+m StringLiteral MethodInvocation StringLiteral d
+m StringLiteral MethodInvocation StringLiteral d file
+d StringLiteral MethodInvocation StringLiteral d file
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create tablet
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral m
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d file
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create tablet
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral m
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d file
+create tablet SimpleName MethodInvocation StringLiteral empty
+create tablet SimpleName MethodInvocation StringLiteral m
+create tablet SimpleName MethodInvocation StringLiteral d
+create tablet SimpleName MethodInvocation StringLiteral d file
+empty StringLiteral MethodInvocation StringLiteral m
+empty StringLiteral MethodInvocation StringLiteral d
+empty StringLiteral MethodInvocation StringLiteral d file
+m StringLiteral MethodInvocation StringLiteral d
+m StringLiteral MethodInvocation StringLiteral d file
+d StringLiteral MethodInvocation StringLiteral d file
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create tablet
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral m
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d file
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create tablet
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral m
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d file
+bw SimpleName MethodInvocation SimpleName flush
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName constantsmetadata table name
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+constantsmetadata table name QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+metadata table SimpleName MethodInvocation SimpleName initialize clone
+metadata table SimpleName MethodInvocation StringLiteral empty
+metadata table SimpleName MethodInvocation StringLiteral empty
+metadata table SimpleName MethodInvocation SimpleName conn
+metadata table SimpleName MethodInvocation SimpleName bw
+initialize clone SimpleName MethodInvocation StringLiteral empty
+initialize clone SimpleName MethodInvocation StringLiteral empty
+initialize clone SimpleName MethodInvocation SimpleName conn
+initialize clone SimpleName MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bw
+delete tablet SimpleName MethodInvocation StringLiteral empty
+delete tablet SimpleName MethodInvocation StringLiteral m
+delete tablet SimpleName MethodInvocation StringLiteral d
+delete tablet SimpleName MethodInvocation StringLiteral d file
+empty StringLiteral MethodInvocation StringLiteral m
+empty StringLiteral MethodInvocation StringLiteral d
+empty StringLiteral MethodInvocation StringLiteral d file
+m StringLiteral MethodInvocation StringLiteral d
+m StringLiteral MethodInvocation StringLiteral d file
+d StringLiteral MethodInvocation StringLiteral d file
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName delete tablet
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral m
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d
+bw SimpleName MethodInvocation MethodInvocation StringLiteral d file
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName delete tablet
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral m
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral d file
+create tablet SimpleName MethodInvocation StringLiteral empty
+create tablet SimpleName MethodInvocation StringLiteral d
+create tablet SimpleName MethodInvocation StringLiteral d file
+empty StringLiteral MethodInvocation StringLiteral d
+empty StringLiteral MethodInvocation StringLiteral d file
+d StringLiteral MethodInvocation StringLiteral d file
+mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName create tablet
+mut SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+mut SimpleName VariableDeclarationFragment MethodInvocation StringLiteral d
+mut SimpleName VariableDeclarationFragment MethodInvocation StringLiteral d file
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+constantsmetadata datafile column family QualifiedName MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+mut SimpleName MethodInvocation MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation StringLiteral d file
+mut SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata datafile column family
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral d file
+put SimpleName MethodInvocation StringLiteral empty
+constantsmetadata datafile column family QualifiedName MethodInvocation MethodInvocation StringLiteral d file
+to string SimpleName MethodInvocation MethodInvocation StringLiteral d file
+constantsmetadata datafile column family QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+d file StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName flush
+metadata table SimpleName MethodInvocation SimpleName check clone
+metadata table SimpleName MethodInvocation StringLiteral empty
+metadata table SimpleName MethodInvocation StringLiteral empty
+metadata table SimpleName MethodInvocation SimpleName conn
+metadata table SimpleName MethodInvocation SimpleName bw
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation SimpleName conn
+check clone SimpleName MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bw
+assert true SimpleName MethodInvocation BooleanLiteral false
+tablet iteratortablet deleted exception QualifiedName SimpleType SingleVariableDeclaration SimpleName tde
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test merge
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test merge
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test merge SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test merge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test merge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

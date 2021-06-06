@@ -1,0 +1,76 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+change password SimpleName SuperMethodInvocation SimpleName credentials
+change password SimpleName SuperMethodInvocation SimpleName token
+credentials SimpleName SuperMethodInvocation SimpleName token
+token SimpleName MethodInvocation SimpleName get principal
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation StringLiteral changed password for s
+audit SimpleName MethodInvocation MethodInvocation SimpleName token
+audit SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation StringLiteral changed password for s
+credentials SimpleName MethodInvocation MethodInvocation SimpleName token
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+changed password for s StringLiteral MethodInvocation MethodInvocation SimpleName token
+changed password for s StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+token SimpleName MethodInvocation SimpleName get principal
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation StringLiteral changing password for s
+audit SimpleName MethodInvocation MethodInvocation SimpleName token
+audit SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName ex
+credentials SimpleName MethodInvocation StringLiteral changing password for s
+credentials SimpleName MethodInvocation MethodInvocation SimpleName token
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+ex SimpleName MethodInvocation StringLiteral changing password for s
+ex SimpleName MethodInvocation MethodInvocation SimpleName token
+ex SimpleName MethodInvocation MethodInvocation SimpleName get principal
+changing password for s StringLiteral MethodInvocation MethodInvocation SimpleName token
+changing password for s StringLiteral MethodInvocation MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+change password SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

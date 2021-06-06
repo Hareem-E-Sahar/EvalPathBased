@@ -1,0 +1,62 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+client context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+metadata table util SimpleName MethodInvocation SimpleName get data file sizes
+metadata table util SimpleName MethodInvocation SimpleName ke
+metadata table util SimpleName MethodInvocation SimpleName context
+get data file sizes SimpleName MethodInvocation SimpleName ke
+get data file sizes SimpleName MethodInvocation SimpleName context
+ke SimpleName MethodInvocation SimpleName context
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName key set
+get data file sizes SimpleName MethodInvocation MethodInvocation SimpleName key set
+ke SimpleName MethodInvocation MethodInvocation SimpleName key set
+context SimpleName MethodInvocation MethodInvocation SimpleName key set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file ref
+private Modifier MethodDeclaration SimpleName get tablet files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file ref
+static Modifier MethodDeclaration SimpleName get tablet files
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet files
+file ref SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet files
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+get tablet files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ke
+get tablet files SimpleName MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+ke SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

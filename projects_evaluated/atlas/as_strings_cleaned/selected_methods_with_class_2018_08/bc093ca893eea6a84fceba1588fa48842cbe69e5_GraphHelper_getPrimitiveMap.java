@@ -1,0 +1,58 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+encode property key SimpleName MethodInvocation SimpleName property name
+instance vertex SimpleName MethodInvocation SimpleName get property
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName property name
+instance vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+get property SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+get property SimpleName MethodInvocation MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName encode property key
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get primitive map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get primitive map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get primitive map
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get primitive map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get primitive map SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

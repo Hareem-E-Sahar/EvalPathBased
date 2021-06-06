@@ -1,0 +1,35 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName merge info
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName merge info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName merge info
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+tables SimpleName MethodInvocation SimpleName get id to name map
+tables SimpleName MethodInvocation SimpleName instance
+get id to name map SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName key set
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName key set
+instance SimpleName MethodInvocation MethodInvocation SimpleName key set
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+get merge info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get merge info SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+result SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName table id
+add SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName table id
+table id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName merges
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName merge info
+public Modifier MethodDeclaration SimpleName merges
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merges
+merge info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName merges
+merges SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName merges
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merges

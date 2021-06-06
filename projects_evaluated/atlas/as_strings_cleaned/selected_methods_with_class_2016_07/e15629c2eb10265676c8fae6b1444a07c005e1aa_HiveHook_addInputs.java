@@ -1,0 +1,161 @@
+hive operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted inputs
+read entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted inputs
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+read entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName read entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration SimpleName refs
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName refs
+read entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName refs
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName refs
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName input
+input SimpleName MethodInvocation SimpleName get name
+input SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+data sets processed SimpleName MethodInvocation SimpleName contains
+data sets processed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+data sets processed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+data sets processed SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+contains SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+input SimpleName MethodInvocation SimpleName get type
+typedfs dir QualifiedName MethodInvocation SimpleName equals
+typedfs dir QualifiedName MethodInvocation MethodInvocation SimpleName input
+typedfs dir QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName input
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+input SimpleName MethodInvocation SimpleName get type
+typelocal dir QualifiedName MethodInvocation SimpleName equals
+typelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName input
+typelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName input
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+typedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName typelocal dir
+typedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName typelocal dir
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+input SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipping dfs dir input addition to process qualified name {}
+log SimpleName MethodInvocation MethodInvocation SimpleName input
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation StringLiteral skipping dfs dir input addition to process qualified name {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName input
+debug SimpleName MethodInvocation MethodInvocation SimpleName get name
+skipping dfs dir input addition to process qualified name {} StringLiteral MethodInvocation MethodInvocation SimpleName input
+skipping dfs dir input addition to process qualified name {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+refs SimpleName MethodInvocation SimpleName contains key
+refs SimpleName MethodInvocation SimpleName input
+contains key SimpleName MethodInvocation SimpleName input
+refs SimpleName MethodInvocation SimpleName get
+refs SimpleName MethodInvocation SimpleName input
+get SimpleName MethodInvocation SimpleName input
+add dataset SimpleName MethodInvocation SimpleName buffer
+add dataset SimpleName MethodInvocation MethodInvocation SimpleName refs
+add dataset SimpleName MethodInvocation MethodInvocation SimpleName get
+add dataset SimpleName MethodInvocation MethodInvocation SimpleName input
+buffer SimpleName MethodInvocation MethodInvocation SimpleName refs
+buffer SimpleName MethodInvocation MethodInvocation SimpleName get
+buffer SimpleName MethodInvocation MethodInvocation SimpleName input
+input SimpleName MethodInvocation SimpleName get name
+input SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+data sets processed SimpleName MethodInvocation SimpleName add
+data sets processed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+data sets processed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+data sets processed SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sorted inputs
+input SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sorted inputs
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add inputs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add inputs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SimpleName add inputs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName op
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName refs
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName refs
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+add inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+sorted inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+buffer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+refs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+refs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+refs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName refs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths in qf name

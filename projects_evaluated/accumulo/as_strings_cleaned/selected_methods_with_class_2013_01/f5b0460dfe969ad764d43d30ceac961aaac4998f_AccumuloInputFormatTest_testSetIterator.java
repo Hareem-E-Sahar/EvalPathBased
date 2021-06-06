@@ -1,0 +1,74 @@
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral whole row
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral orgapacheaccumulocoreiteratorswhole row iterator
+empty NumberLiteral ClassInstanceCreation StringLiteral whole row
+empty NumberLiteral ClassInstanceCreation StringLiteral orgapacheaccumulocoreiteratorswhole row iterator
+whole row StringLiteral ClassInstanceCreation StringLiteral orgapacheaccumulocoreiteratorswhole row iterator
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+is SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral whole row
+is SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral orgapacheaccumulocoreiteratorswhole row iterator
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+accumulo input format SimpleName MethodInvocation SimpleName add iterator
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName is
+add iterator SimpleName MethodInvocation SimpleName job
+add iterator SimpleName MethodInvocation SimpleName is
+job SimpleName MethodInvocation SimpleName is
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+is SimpleName MethodInvocation SimpleName write
+is SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data output stream
+is SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data output stream
+write SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation StringLiteral accumulo input formatscan optsiterators
+get SimpleName MethodInvocation StringLiteral accumulo input formatscan optsiterators
+iterators SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+iterators SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+iterators SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo input formatscan optsiterators
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iterators
+baos SimpleName MethodInvocation SimpleName to byte array
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName baos
+base SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+encode base SimpleName MethodInvocation MethodInvocation SimpleName baos
+encode base SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+assert equals SimpleName MethodInvocation SimpleName iterators
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iterators
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iterators
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iterators
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set iterator
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set iterator
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test set iterator
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test set iterator SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,74 @@
+long PrimitiveType SingleVariableDeclaration SimpleName v
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot set system timestamp when user set a timestamp
+has timestamp SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral cannot set system timestamp when user set a timestamp
+tso SimpleName VariableDeclarationFragment FieldAccess SimpleName ts offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tso
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName ts offset
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+data SimpleName ArrayAccess PostfixExpression SimpleName tso
+v SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName v
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+timestamp SimpleName FieldAccess Assignment SimpleName v
+has timestamp SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set system timestamp
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration Block IfStatement SimpleName has timestamp
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set system timestamp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName has timestamp
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set system timestamp SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set system timestamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+set system timestamp SimpleName MethodDeclaration Block IfStatement SimpleName has timestamp
+set system timestamp SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set system timestamp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set system timestamp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

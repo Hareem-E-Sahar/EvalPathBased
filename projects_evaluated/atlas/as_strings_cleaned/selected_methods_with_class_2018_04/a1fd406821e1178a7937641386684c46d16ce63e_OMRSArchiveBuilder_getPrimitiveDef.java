@@ -1,0 +1,177 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName primitive def name
+method name SimpleName VariableDeclarationFragment StringLiteral get primitive def
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get primitive def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get primitive def
+log SimpleName MethodInvocation SimpleName is debug enabled
+retrieving primitive def StringLiteral InfixExpression SimpleName primitive def name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral retrieving primitive def
+log SimpleName MethodInvocation InfixExpression SimpleName primitive def name
+debug SimpleName MethodInvocation InfixExpression StringLiteral retrieving primitive def
+debug SimpleName MethodInvocation InfixExpression SimpleName primitive def name
+primitive def map SimpleName MethodInvocation SimpleName get
+primitive def map SimpleName MethodInvocation SimpleName primitive def name
+get SimpleName MethodInvocation SimpleName primitive def name
+primitive def SimpleName VariableDeclarationFragment MethodInvocation SimpleName primitive def map
+primitive def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+primitive def SimpleName VariableDeclarationFragment MethodInvocation SimpleName primitive def name
+primitive def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive def
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codemissing type in archive
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codemissing type in archive
+error code SimpleName MethodInvocation SimpleName get error message id
+attribute type def categoryprimitive QualifiedName MethodInvocation SimpleName get type name
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName primitive def name
+error code SimpleName MethodInvocation MethodInvocation QualifiedName attribute type def categoryprimitive
+error code SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get formatted error message SimpleName MethodInvocation SimpleName primitive def name
+get formatted error message SimpleName MethodInvocation MethodInvocation QualifiedName attribute type def categoryprimitive
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get type name
+primitive def name SimpleName MethodInvocation MethodInvocation QualifiedName attribute type def categoryprimitive
+primitive def name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName primitive def name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName primitive def name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName primitive def name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codemissing name for archive
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codemissing name for archive
+error code SimpleName MethodInvocation SimpleName get error message id
+attribute type def categoryprimitive QualifiedName MethodInvocation SimpleName get type name
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation MethodInvocation QualifiedName attribute type def categoryprimitive
+error code SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get formatted error message SimpleName MethodInvocation MethodInvocation QualifiedName attribute type def categoryprimitive
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get type name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs logic error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration SimpleType SimpleName primitive def
+public Modifier MethodDeclaration SimpleName get primitive def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName primitive def name
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+primitive def SimpleName SimpleType MethodDeclaration SimpleName get primitive def
+primitive def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName primitive def name
+get primitive def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get primitive def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName primitive def name
+get primitive def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName primitive def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive def name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName primitive def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive def name

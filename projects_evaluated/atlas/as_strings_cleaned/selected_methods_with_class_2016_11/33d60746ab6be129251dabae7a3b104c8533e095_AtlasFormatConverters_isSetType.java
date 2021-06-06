@@ -1,0 +1,29 @@
+class SimpleName SimpleType SingleVariableDeclaration SimpleName c
+set SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+set SimpleName SimpleType TypeLiteral MethodInvocation SimpleName c
+is assignable from SimpleName MethodInvocation SimpleName c
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is set type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is set type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SimpleName is set type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+is set type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+is set type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is set type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is set type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

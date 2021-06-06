@@ -1,0 +1,228 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+flush SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+set props option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName set props option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName set props option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+set props option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName set props option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName set props option
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName split
+get option value SimpleName MethodInvocation MethodInvocation SimpleName split
+set props option SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+get opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+cl SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get option value SimpleName MethodInvocation MethodInvocation StringLiteral empty
+set props option SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get opt SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+key vals SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cl
+key vals SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get option value
+key vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+key vals SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key val
+key val SimpleName MethodInvocation SimpleName split
+key val SimpleName MethodInvocation StringLiteral =
+split SimpleName MethodInvocation StringLiteral =
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName key val
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+sa SimpleName VariableDeclarationFragment MethodInvocation StringLiteral =
+sa SimpleName ArrayAccess NumberLiteral empty
+sa SimpleName ArrayAccess NumberLiteral empty
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation ArrayAccess SimpleName sa
+props SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+props SimpleName MethodInvocation ArrayAccess SimpleName sa
+props SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+put SimpleName MethodInvocation ArrayAccess SimpleName sa
+put SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+put SimpleName MethodInvocation ArrayAccess SimpleName sa
+put SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+sa SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName sa
+sa SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName sa
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName key vals
+key val SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName key vals
+exclude props option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName exclude props option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName exclude props option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+exclude props option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName exclude props option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName exclude props option
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName split
+get option value SimpleName MethodInvocation MethodInvocation SimpleName split
+exclude props option SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+get opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+cl SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get option value SimpleName MethodInvocation MethodInvocation StringLiteral empty
+exclude props option SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get opt SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cl
+keys SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get option value
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+keys SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+exclude SimpleName MethodInvocation SimpleName add
+exclude SimpleName MethodInvocation SimpleName key
+add SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+keys SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName exclude
+keys SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+keys SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName key
+no flush option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName no flush option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName no flush option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+flush SimpleName Assignment BooleanLiteral false
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clone
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName props
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName props
+table operations SimpleName MethodInvocation MethodInvocation SimpleName props
+clone SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName cl
+clone SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName get args
+clone SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+clone SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName cl
+clone SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName get args
+clone SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+clone SimpleName MethodInvocation SimpleName flush
+clone SimpleName MethodInvocation SimpleName props
+clone SimpleName MethodInvocation SimpleName exclude
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName flush
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName flush
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName flush
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName props
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName props
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName props
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName exclude
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName exclude
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName exclude
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName flush
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName flush
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName flush
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName props
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName props
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName props
+cl SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName exclude
+get args SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName exclude
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName exclude
+flush SimpleName MethodInvocation SimpleName props
+flush SimpleName MethodInvocation SimpleName exclude
+props SimpleName MethodInvocation SimpleName exclude
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName full command
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleName execute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full command
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

@@ -1,0 +1,138 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+date format SimpleName SimpleType SingleVariableDeclaration SimpleName timestamp format
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation SimpleName buffer
+get row SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation SimpleName sb
+append text SimpleName MethodInvocation SimpleName buffer
+sb SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation MethodInvocation SimpleName append
+append text SimpleName MethodInvocation MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName buffer
+get column family SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation SimpleName sb
+append text SimpleName MethodInvocation SimpleName buffer
+sb SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation MethodInvocation SimpleName append
+append text SimpleName MethodInvocation MethodInvocation StringLiteral :
+sb SimpleName MethodInvocation MethodInvocation StringLiteral :
+buffer SimpleName MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+key SimpleName MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation SimpleName buffer
+get column qualifier SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation SimpleName sb
+append text SimpleName MethodInvocation SimpleName buffer
+sb SimpleName MethodInvocation SimpleName buffer
+append text SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation MethodInvocation SimpleName append
+append text SimpleName MethodInvocation MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+key SimpleName MethodInvocation SimpleName get column visibility
+key SimpleName MethodInvocation SimpleName buffer
+get column visibility SimpleName MethodInvocation SimpleName buffer
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+tmp date SimpleName MethodInvocation SimpleName get
+key SimpleName MethodInvocation SimpleName get timestamp
+tmp date SimpleName MethodInvocation MethodInvocation SimpleName set time
+get SimpleName MethodInvocation MethodInvocation SimpleName set time
+tmp date SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+tmp date SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+set time SimpleName MethodInvocation MethodInvocation SimpleName key
+set time SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+tmp date SimpleName MethodInvocation SimpleName get
+timestamp format SimpleName MethodInvocation SimpleName format
+timestamp format SimpleName MethodInvocation MethodInvocation SimpleName tmp date
+timestamp format SimpleName MethodInvocation MethodInvocation SimpleName get
+format SimpleName MethodInvocation MethodInvocation SimpleName tmp date
+format SimpleName MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp format
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp format
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName timestamp format
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation SimpleName timestamp format
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tmp date
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral t
+append SimpleName MethodInvocation StringLiteral t
+protobuf util SimpleName MethodInvocation SimpleName to string
+protobuf util SimpleName MethodInvocation SimpleName status
+to string SimpleName MethodInvocation SimpleName status
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+sb SimpleName MethodInvocation MethodInvocation SimpleName to string
+sb SimpleName MethodInvocation MethodInvocation SimpleName status
+append SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName status
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral could not deserialize status protocol buffer
+append SimpleName MethodInvocation StringLiteral could not deserialize status protocol buffer
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+string SimpleName SimpleType MethodDeclaration SimpleName format entry
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date format
+format entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp format
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timestamp format

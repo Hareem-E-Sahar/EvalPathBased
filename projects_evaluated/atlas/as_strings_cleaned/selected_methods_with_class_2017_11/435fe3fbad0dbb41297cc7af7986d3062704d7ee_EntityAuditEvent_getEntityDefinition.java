@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName get entity definition
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity definition
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity definition
+get entity definition SimpleName MethodDeclaration Block ReturnStatement SimpleName entity definition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity definition

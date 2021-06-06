@@ -1,0 +1,67 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName original conf
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlasconf
+get property SimpleName MethodInvocation StringLiteral atlasconf
+original conf SimpleName Assignment MethodInvocation SimpleName system
+original conf SimpleName Assignment MethodInvocation SimpleName get property
+original conf SimpleName Assignment MethodInvocation StringLiteral atlasconf
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation StringLiteral atlasconf
+clear property SimpleName MethodInvocation StringLiteral atlasconf
+application properties SimpleName MethodInvocation SimpleName force reload
+test utils SimpleName MethodInvocation SimpleName get war path
+secure embedded server SimpleName SimpleType ClassInstanceCreation SimpleName secure port
+secure embedded server SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName test utils
+secure embedded server SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get war path
+secure port SimpleName ClassInstanceCreation MethodInvocation SimpleName test utils
+secure port SimpleName ClassInstanceCreation MethodInvocation SimpleName get war path
+secure embedded server SimpleName Assignment ClassInstanceCreation SimpleType SimpleName secure embedded server
+secure embedded server SimpleName Assignment ClassInstanceCreation SimpleName secure port
+secure embedded server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName test utils
+secure embedded server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get war path
+secure embedded serverserver QualifiedName MethodInvocation SimpleName start
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral should have thrown an exception
+fail SimpleName MethodInvocation StringLiteral should have thrown an exception
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName e
+assert SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert SimpleName MethodInvocation StringLiteral no credential provider path configured for storage of certificate store passwords
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral no credential provider path configured for storage of certificate store passwords
+e SimpleName MethodInvocation MethodInvocation StringLiteral no credential provider path configured for storage of certificate store passwords
+get message SimpleName MethodInvocation MethodInvocation StringLiteral no credential provider path configured for storage of certificate store passwords
+secure embedded serverserver QualifiedName MethodInvocation SimpleName stop
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation StringLiteral atlasconf
+clear property SimpleName MethodInvocation StringLiteral atlasconf
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral atlasconf
+system SimpleName MethodInvocation SimpleName original conf
+set property SimpleName MethodInvocation StringLiteral atlasconf
+set property SimpleName MethodInvocation SimpleName original conf
+atlasconf StringLiteral MethodInvocation SimpleName original conf
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no configured credential provider
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no configured credential provider
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test no configured credential provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test no configured credential provider SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no configured credential provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no configured credential provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

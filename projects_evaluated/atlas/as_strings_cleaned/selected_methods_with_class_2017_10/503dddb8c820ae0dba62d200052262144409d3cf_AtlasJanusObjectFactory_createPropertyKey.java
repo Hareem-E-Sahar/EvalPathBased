@@ -1,0 +1,27 @@
+atlas property key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+atlas janus property key SimpleName SimpleType CastExpression SimpleName key
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get wrapped property key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName property key
+public Modifier MethodDeclaration SimpleName create property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration SimpleType SimpleName property key
+static Modifier MethodDeclaration SimpleName create property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+property key SimpleName SimpleType MethodDeclaration SimpleName create property key
+property key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+create property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property key
+create property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property key
+public Modifier TypeDeclaration MethodDeclaration SimpleName create property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

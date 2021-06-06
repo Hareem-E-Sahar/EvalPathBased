@@ -1,0 +1,95 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get attribute def
+attr def SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute def
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas attribute def
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName attr def
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get attribute def
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName attribute definition
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attr def SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+set name SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set name SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr def SimpleName MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation SimpleName set data type name
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type name
+set data type name SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set data type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get multiplicity SimpleName MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation SimpleName set multiplicity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get multiplicity
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set multiplicity SimpleName MethodInvocation MethodInvocation SimpleName get multiplicity
+set multiplicity SimpleName MethodInvocation MethodInvocation SimpleName attr def
+attribute SimpleName MethodInvocation SimpleName is owned ref
+ret SimpleName MethodInvocation SimpleName set is composite
+ret SimpleName MethodInvocation MethodInvocation SimpleName attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName is owned ref
+set is composite SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set is composite SimpleName MethodInvocation MethodInvocation SimpleName is owned ref
+attr def SimpleName MethodInvocation SimpleName get is unique
+ret SimpleName MethodInvocation SimpleName set is unique
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+set is unique SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set is unique SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+attr def SimpleName MethodInvocation SimpleName get is indexable
+ret SimpleName MethodInvocation SimpleName set is indexable
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get is indexable
+set is indexable SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set is indexable SimpleName MethodInvocation MethodInvocation SimpleName get is indexable
+attribute SimpleName MethodInvocation SimpleName get inverse ref attribute name
+ret SimpleName MethodInvocation SimpleName set reverse attribute name
+ret SimpleName MethodInvocation MethodInvocation SimpleName attribute
+ret SimpleName MethodInvocation MethodInvocation SimpleName get inverse ref attribute name
+set reverse attribute name SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set reverse attribute name SimpleName MethodInvocation MethodInvocation SimpleName get inverse ref attribute name
+attr def SimpleName MethodInvocation SimpleName get description
+ret SimpleName MethodInvocation SimpleName set description
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get description
+set description SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set description SimpleName MethodInvocation MethodInvocation SimpleName get description
+attr def SimpleName MethodInvocation SimpleName get default value
+ret SimpleName MethodInvocation SimpleName set default value
+ret SimpleName MethodInvocation MethodInvocation SimpleName attr def
+ret SimpleName MethodInvocation MethodInvocation SimpleName get default value
+set default value SimpleName MethodInvocation MethodInvocation SimpleName attr def
+set default value SimpleName MethodInvocation MethodInvocation SimpleName get default value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration SimpleName to attribute definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName attribute definition
+static Modifier MethodDeclaration SimpleName to attribute definition
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+attribute definition SimpleName SimpleType MethodDeclaration SimpleName to attribute definition
+attribute definition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+to attribute definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+to attribute definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+to attribute definition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+to attribute definition SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute definition
+public Modifier TypeDeclaration MethodDeclaration SimpleName to attribute definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to attribute definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute

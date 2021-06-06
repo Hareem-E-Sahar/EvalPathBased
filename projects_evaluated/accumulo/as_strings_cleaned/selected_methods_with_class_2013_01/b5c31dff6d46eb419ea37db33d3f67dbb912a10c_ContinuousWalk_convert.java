@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+random auths SimpleName SimpleType ClassInstanceCreation SimpleName value
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName random auths
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName convert
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName random auths
+public Modifier MethodDeclaration SimpleName convert
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+random auths SimpleName SimpleType MethodDeclaration SimpleName convert
+random auths SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName random auths
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName random auths
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

@@ -1,0 +1,119 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+atlas struct SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+i instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+entity SimpleName MethodInvocation SimpleName get type name
+asserting type : StringLiteral InfixExpression MethodInvocation SimpleName entity
+asserting type : StringLiteral InfixExpression MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral asserting type :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation InfixExpression StringLiteral asserting type :
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type name
+instance SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName instance
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName instance
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName type registry
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas struct type
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get type
+atlas struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+entity SimpleName MethodInvocation SimpleName get attributes
+entity SimpleName MethodInvocation MethodInvocation SimpleName key set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName key set
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+actual SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+instance SimpleName MethodInvocation SimpleName get
+instance SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+entity type SimpleName MethodInvocation SimpleName get attribute type
+entity type SimpleName MethodInvocation SimpleName attr name
+get attribute type SimpleName MethodInvocation SimpleName attr name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+assert attribute SimpleName MethodInvocation SimpleName entity map
+assert attribute SimpleName MethodInvocation SimpleName actual
+assert attribute SimpleName MethodInvocation SimpleName expected
+assert attribute SimpleName MethodInvocation SimpleName attr type
+assert attribute SimpleName MethodInvocation SimpleName attr name
+entity map SimpleName MethodInvocation SimpleName actual
+entity map SimpleName MethodInvocation SimpleName expected
+entity map SimpleName MethodInvocation SimpleName attr type
+entity map SimpleName MethodInvocation SimpleName attr name
+actual SimpleName MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation SimpleName attr type
+actual SimpleName MethodInvocation SimpleName attr name
+expected SimpleName MethodInvocation SimpleName attr type
+expected SimpleName MethodInvocation SimpleName attr name
+attr type SimpleName MethodInvocation SimpleName attr name
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleName assert attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity map
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i instance
+assert attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+assert attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+assert attributes SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

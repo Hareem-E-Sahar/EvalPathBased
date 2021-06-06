@@ -1,0 +1,500 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+time binner SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression StringLiteral period seconds time column data column avgsumminmaxcount date format
+get name SimpleName MethodInvocation InfixExpression StringLiteral period seconds time column data column avgsumminmaxcount date format
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral usage :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral period seconds time column data column avgsumminmaxcount date format
+println SimpleName MethodInvocation InfixExpression StringLiteral usage :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral period seconds time column data column avgsumminmaxcount date format
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName args
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName args
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parse long SimpleName MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression NumberLiteral empty
+period SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName long
+period SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName parse long
+period SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName period
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+time column SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+time column SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+time column SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+time column SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time column
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+data column SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+data column SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+data column SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+data column SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data column
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+args SimpleName ArrayAccess NumberLiteral empty
+operation SimpleName MethodInvocation SimpleName value of
+operation SimpleName MethodInvocation ArrayAccess SimpleName args
+operation SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+value of SimpleName MethodInvocation ArrayAccess SimpleName args
+value of SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName operation
+operation SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+operation SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+operation SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation
+args SimpleName ArrayAccess NumberLiteral empty
+simple date format SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+simple date format SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+sdf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple date format
+sdf SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+sdf SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+simple date format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sdf
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+in SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+in SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName in
+line SimpleName Assignment MethodInvocation SimpleName read line
+line SimpleName MethodInvocation SimpleName split
+line SimpleName MethodInvocation StringLiteral s
+split SimpleName MethodInvocation StringLiteral s
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+tokens SimpleName ArrayAccess SimpleName time column
+double SimpleName MethodInvocation SimpleName parse double
+double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+double SimpleName MethodInvocation ArrayAccess SimpleName time column
+parse double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse double SimpleName MethodInvocation ArrayAccess SimpleName time column
+long PrimitiveType CastExpression MethodInvocation SimpleName double
+long PrimitiveType CastExpression MethodInvocation SimpleName parse double
+long PrimitiveType CastExpression MethodInvocation ArrayAccess SimpleName tokens
+long PrimitiveType CastExpression MethodInvocation ArrayAccess SimpleName time column
+time SimpleName VariableDeclarationFragment CastExpression PrimitiveType long
+time SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName double
+time SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName parse double
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType long
+tokens SimpleName ArrayAccess SimpleName data column
+double SimpleName MethodInvocation SimpleName parse double
+double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+double SimpleName MethodInvocation ArrayAccess SimpleName data column
+parse double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse double SimpleName MethodInvocation ArrayAccess SimpleName data column
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName double
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse double
+data SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tokens
+data SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName data column
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName double
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse double
+time SimpleName InfixExpression SimpleName period
+time SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName period
+period SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName period
+time SimpleName Assignment InfixExpression SimpleName period
+data min SimpleName VariableDeclarationFragment SimpleName data
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data min
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data max SimpleName VariableDeclarationFragment SimpleName data
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data max
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+data column SimpleName InfixExpression NumberLiteral empty
+tokens SimpleName ArrayAccess InfixExpression SimpleName data column
+tokens SimpleName ArrayAccess InfixExpression NumberLiteral empty
+double SimpleName MethodInvocation SimpleName parse double
+double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+double SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName data column
+double SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+parse double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse double SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName data column
+parse double SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+data min SimpleName Assignment MethodInvocation SimpleName double
+data min SimpleName Assignment MethodInvocation SimpleName parse double
+data min SimpleName Assignment MethodInvocation ArrayAccess SimpleName tokens
+data column SimpleName InfixExpression NumberLiteral empty
+tokens SimpleName ArrayAccess InfixExpression SimpleName data column
+tokens SimpleName ArrayAccess InfixExpression NumberLiteral empty
+double SimpleName MethodInvocation SimpleName parse double
+double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+double SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName data column
+double SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+parse double SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse double SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName data column
+parse double SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+data max SimpleName Assignment MethodInvocation SimpleName double
+data max SimpleName Assignment MethodInvocation SimpleName parse double
+data max SimpleName Assignment MethodInvocation ArrayAccess SimpleName tokens
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation QualifiedName doublepositive infinity
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation QualifiedName doublepositive infinity
+aggregation SimpleName MethodInvocation QualifiedName doublepositive infinity
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+mindw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName doublepositive infinity
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mindw
+data SimpleName InfixExpression QualifiedName mindwd
+mindwd QualifiedName Assignment SimpleName data min
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation QualifiedName doublenegative infinity
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation QualifiedName doublenegative infinity
+aggregation SimpleName MethodInvocation QualifiedName doublenegative infinity
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+maxdw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName doublenegative infinity
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName maxdw
+data SimpleName InfixExpression QualifiedName maxdwd
+maxdwd QualifiedName Assignment SimpleName data max
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation NumberLiteral empty
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation NumberLiteral empty
+aggregation SimpleName MethodInvocation NumberLiteral empty
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+sumdw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sumdw
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation NumberLiteral empty
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation NumberLiteral empty
+aggregation SimpleName MethodInvocation NumberLiteral empty
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+countdw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName countdw
+sumdwd QualifiedName Assignment SimpleName data
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation QualifiedName doublenegative infinity
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation QualifiedName doublenegative infinity
+aggregation SimpleName MethodInvocation QualifiedName doublenegative infinity
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+maxdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+maxdw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName doublenegative infinity
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName maxdw
+data SimpleName InfixExpression QualifiedName maxdwd
+maxdwd QualifiedName Assignment SimpleName data
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation QualifiedName doublepositive infinity
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation QualifiedName doublepositive infinity
+aggregation SimpleName MethodInvocation QualifiedName doublepositive infinity
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+mindw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+mindw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName doublepositive infinity
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mindw
+data SimpleName InfixExpression QualifiedName mindwd
+mindwd QualifiedName Assignment SimpleName data
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation NumberLiteral empty
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation NumberLiteral empty
+aggregation SimpleName MethodInvocation NumberLiteral empty
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+countdw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName countdw
+get SimpleName MethodInvocation SimpleName time
+get SimpleName MethodInvocation SimpleName aggregation
+get SimpleName MethodInvocation NumberLiteral empty
+time SimpleName MethodInvocation SimpleName aggregation
+time SimpleName MethodInvocation NumberLiteral empty
+aggregation SimpleName MethodInvocation NumberLiteral empty
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+sumdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+sumdw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sumdw
+sumdwd QualifiedName Assignment SimpleName data
+operation SimpleName SwitchStatement SwitchCase SimpleName amm hack
+operation SimpleName SwitchStatement SwitchCase SimpleName amm
+operation SimpleName SwitchStatement SwitchCase SimpleName avg
+amm hack SimpleName SwitchCase SwitchStatement SwitchCase SimpleName amm
+amm hack SimpleName SwitchCase SwitchStatement SwitchCase SimpleName avg
+amm SimpleName SwitchCase SwitchStatement SwitchCase SimpleName avg
+amm SimpleName SwitchCase SwitchStatement SwitchCase SimpleName max
+avg SimpleName SwitchCase SwitchStatement SwitchCase SimpleName max
+avg SimpleName SwitchCase SwitchStatement SwitchCase SimpleName min
+max SimpleName SwitchCase SwitchStatement SwitchCase SimpleName min
+max SimpleName SwitchCase SwitchStatement SwitchCase SimpleName count
+min SimpleName SwitchCase SwitchStatement SwitchCase SimpleName count
+min SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sum
+min SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+count SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sum
+count SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+sum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+long PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName operation
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName operation
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName operation
+double PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName operation
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+failed to process line : StringLiteral InfixExpression SimpleName line
+failed to process line : StringLiteral InfixExpression StringLiteral empty
+failed to process line : StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to process line : StringLiteral InfixExpression MethodInvocation SimpleName get message
+line SimpleName InfixExpression StringLiteral empty
+line SimpleName InfixExpression MethodInvocation SimpleName e
+line SimpleName InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral failed to process line :
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName line
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral failed to process line :
+println SimpleName MethodInvocation InfixExpression SimpleName line
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName aggregation
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName aggregation
+double wrapper SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName aggregation
+sorted SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName aggregation
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+sorted SimpleName MethodInvocation SimpleName entry set
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+cumulative SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cumulative
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName double wrapper
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+double wrapper SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+entry SimpleName MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation SimpleName get
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName entry
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+countdw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+countdw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName countdw
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName d
+get value SimpleName MethodInvocation FieldAccess SimpleName d
+entry SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName countdwd
+get value SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName countdwd
+d SimpleName FieldAccess InfixExpression QualifiedName countdwd
+entry SimpleName MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation SimpleName get
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName entry
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation FieldAccess SimpleName d
+get SimpleName MethodInvocation FieldAccess SimpleName d
+entry SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName d
+get key SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName d
+entry SimpleName MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation SimpleName get
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName entry
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation FieldAccess SimpleName d
+get SimpleName MethodInvocation FieldAccess SimpleName d
+entry SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName d
+get key SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName d
+empty StringLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName countdwd
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName aggregation
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName aggregation
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+countdwd QualifiedName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+countdwd QualifiedName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName aggregation
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName aggregation
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+aggregation SimpleName MethodInvocation FieldAccess InfixExpression StringLiteral empty
+get SimpleName MethodInvocation FieldAccess InfixExpression StringLiteral empty
+d SimpleName FieldAccess InfixExpression StringLiteral empty
+d SimpleName FieldAccess InfixExpression FieldAccess SimpleName d
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName aggregation
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression FieldAccess SimpleName d
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression FieldAccess SimpleName d
+entry SimpleName MethodInvocation SimpleName get key
+aggregation SimpleName MethodInvocation SimpleName get
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName entry
+aggregation SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregation
+countdw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+countdw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+countdw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+double wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName countdw
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName d
+get value SimpleName MethodInvocation FieldAccess SimpleName d
+entry SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName countdwd
+get value SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName countdwd
+d SimpleName FieldAccess InfixExpression QualifiedName countdwd
+empty StringLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName countdwd
+value SimpleName Assignment InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName d
+get value SimpleName MethodInvocation FieldAccess SimpleName d
+cumulative SimpleName Assignment FieldAccess MethodInvocation SimpleName entry
+cumulative SimpleName Assignment FieldAccess MethodInvocation SimpleName get value
+cumulative SimpleName Assignment FieldAccess SimpleName d
+empty StringLiteral InfixExpression SimpleName cumulative
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression SimpleName cumulative
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName d
+get value SimpleName MethodInvocation FieldAccess SimpleName d
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName entry
+empty StringLiteral InfixExpression FieldAccess MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression FieldAccess SimpleName d
+value SimpleName Assignment InfixExpression StringLiteral empty
+value SimpleName Assignment InfixExpression FieldAccess SimpleName d
+operation SimpleName SwitchStatement SwitchCase SimpleName amm hack
+operation SimpleName SwitchStatement SwitchCase SimpleName amm
+operation SimpleName SwitchStatement SwitchCase SimpleName avg
+amm hack SimpleName SwitchCase SwitchStatement SwitchCase SimpleName amm
+amm hack SimpleName SwitchCase SwitchStatement SwitchCase SimpleName avg
+amm hack SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+amm SimpleName SwitchCase SwitchStatement SwitchCase SimpleName avg
+amm SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+avg SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cumulative
+entry SimpleName MethodInvocation SimpleName get key
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+sdf SimpleName MethodInvocation SimpleName format
+sdf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+sdf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+sdf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+format SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+sdf SimpleName MethodInvocation InfixExpression StringLiteral empty
+format SimpleName MethodInvocation InfixExpression StringLiteral empty
+sdf SimpleName MethodInvocation InfixExpression SimpleName value
+format SimpleName MethodInvocation InfixExpression SimpleName value
+empty StringLiteral InfixExpression SimpleName value
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName sdf
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName format
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName value
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sdf
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+es SimpleName EnhancedForStatement Block SwitchStatement SimpleName operation
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName es
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main

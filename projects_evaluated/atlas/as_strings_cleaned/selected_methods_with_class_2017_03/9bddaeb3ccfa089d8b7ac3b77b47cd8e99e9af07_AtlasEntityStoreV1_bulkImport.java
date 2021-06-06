@@ -1,0 +1,178 @@
+entity stream SimpleName SimpleType SingleVariableDeclaration SimpleName entity stream
+atlas import result SimpleName SimpleType SingleVariableDeclaration SimpleName import result
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> bulk import
+debug SimpleName MethodInvocation StringLiteral ==> bulk import
+entity stream SimpleName MethodInvocation SimpleName has next
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral no entities to createupdate
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral no entities to createupdate
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity mutation response
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set guid assignments
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+progress reported at count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName progress reported at count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entity stream SimpleName MethodInvocation SimpleName has next
+entity stream SimpleName MethodInvocation SimpleName next
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity stream
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+processed guids SimpleName MethodInvocation SimpleName contains
+processed guids SimpleName MethodInvocation MethodInvocation SimpleName entity
+processed guids SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contains SimpleName MethodInvocation MethodInvocation SimpleName entity
+contains SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName InfixExpression InfixExpression MethodInvocation SimpleName processed guids
+entity SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+atlas entity stream for import SimpleName SimpleType ClassInstanceCreation SimpleName entity
+atlas entity stream for import SimpleName SimpleType ClassInstanceCreation SimpleName entity stream
+entity SimpleName ClassInstanceCreation SimpleName entity stream
+one entity stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity stream for import
+one entity stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity
+one entity stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity stream
+atlas entity stream for import SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName one entity stream
+create or update SimpleName MethodInvocation SimpleName one entity stream
+create or update SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation BooleanLiteral true
+one entity stream SimpleName MethodInvocation BooleanLiteral false
+one entity stream SimpleName MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+resp SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+resp SimpleName VariableDeclarationFragment MethodInvocation SimpleName one entity stream
+resp SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+resp SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resp
+resp SimpleName MethodInvocation SimpleName get created entities
+update import metrics SimpleName MethodInvocation StringLiteral entityscreated
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName resp
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+update import metrics SimpleName MethodInvocation SimpleName processed guids
+update import metrics SimpleName MethodInvocation SimpleName import result
+entityscreated StringLiteral MethodInvocation MethodInvocation SimpleName resp
+entityscreated StringLiteral MethodInvocation MethodInvocation SimpleName get created entities
+entityscreated StringLiteral MethodInvocation SimpleName processed guids
+entityscreated StringLiteral MethodInvocation SimpleName import result
+resp SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+get created entities SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+resp SimpleName MethodInvocation MethodInvocation SimpleName import result
+get created entities SimpleName MethodInvocation MethodInvocation SimpleName import result
+processed guids SimpleName MethodInvocation SimpleName import result
+resp SimpleName MethodInvocation SimpleName get updated entities
+update import metrics SimpleName MethodInvocation StringLiteral entitysupdated
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName resp
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName get updated entities
+update import metrics SimpleName MethodInvocation SimpleName processed guids
+update import metrics SimpleName MethodInvocation SimpleName import result
+entitysupdated StringLiteral MethodInvocation MethodInvocation SimpleName resp
+entitysupdated StringLiteral MethodInvocation MethodInvocation SimpleName get updated entities
+entitysupdated StringLiteral MethodInvocation SimpleName processed guids
+entitysupdated StringLiteral MethodInvocation SimpleName import result
+resp SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+get updated entities SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+resp SimpleName MethodInvocation MethodInvocation SimpleName import result
+get updated entities SimpleName MethodInvocation MethodInvocation SimpleName import result
+processed guids SimpleName MethodInvocation SimpleName import result
+resp SimpleName MethodInvocation SimpleName get deleted entities
+update import metrics SimpleName MethodInvocation StringLiteral entitysdeleted
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName resp
+update import metrics SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+update import metrics SimpleName MethodInvocation SimpleName processed guids
+update import metrics SimpleName MethodInvocation SimpleName import result
+entitysdeleted StringLiteral MethodInvocation MethodInvocation SimpleName resp
+entitysdeleted StringLiteral MethodInvocation MethodInvocation SimpleName get deleted entities
+entitysdeleted StringLiteral MethodInvocation SimpleName processed guids
+entitysdeleted StringLiteral MethodInvocation SimpleName import result
+resp SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+resp SimpleName MethodInvocation MethodInvocation SimpleName import result
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName import result
+processed guids SimpleName MethodInvocation SimpleName import result
+processed guids SimpleName MethodInvocation SimpleName size
+processed guids SimpleName MethodInvocation InfixExpression SimpleName progress reported at count
+size SimpleName MethodInvocation InfixExpression SimpleName progress reported at count
+progress reported at count SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+processed guids SimpleName MethodInvocation SimpleName size
+progress reported at count SimpleName Assignment MethodInvocation SimpleName processed guids
+progress reported at count SimpleName Assignment MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral bulk import in progress number of entities imported {}
+log SimpleName MethodInvocation SimpleName progress reported at count
+info SimpleName MethodInvocation StringLiteral bulk import in progress number of entities imported {}
+info SimpleName MethodInvocation SimpleName progress reported at count
+bulk import in progress number of entities imported {} StringLiteral MethodInvocation SimpleName progress reported at count
+resp SimpleName MethodInvocation SimpleName get guid assignments
+ret SimpleName MethodInvocation SimpleName get guid assignments
+resp SimpleName MethodInvocation SimpleName get guid assignments
+ret SimpleName MethodInvocation MethodInvocation SimpleName put all
+get guid assignments SimpleName MethodInvocation MethodInvocation SimpleName put all
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resp
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid assignments
+get guid assignments SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resp
+get guid assignments SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid assignments
+put all SimpleName MethodInvocation MethodInvocation SimpleName resp
+put all SimpleName MethodInvocation MethodInvocation SimpleName get guid assignments
+import result SimpleName MethodInvocation SimpleName get processed entities
+import result SimpleName MethodInvocation MethodInvocation SimpleName add all
+get processed entities SimpleName MethodInvocation MethodInvocation SimpleName add all
+import result SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+get processed entities SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+add all SimpleName MethodInvocation SimpleName processed guids
+processed guids SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral bulk import done number of entities imported {}
+log SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+info SimpleName MethodInvocation StringLiteral bulk import done number of entities imported {}
+info SimpleName MethodInvocation MethodInvocation SimpleName processed guids
+info SimpleName MethodInvocation MethodInvocation SimpleName size
+bulk import done number of entities imported {} StringLiteral MethodInvocation MethodInvocation SimpleName processed guids
+bulk import done number of entities imported {} StringLiteral MethodInvocation MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName bulk import
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName import result
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName bulk import
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName import result
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName bulk import
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName import result
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity stream
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName import result
+bulk import SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+bulk import SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+bulk import SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity stream SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result
+entity stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+import result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName bulk import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bulk import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,34 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+registry store properties SimpleName Assignment MethodInvocation SimpleName retrieve registry store properties
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+registry store properties SimpleName MethodInvocation SimpleName get remote registrations
+remote properties list SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry store properties
+remote properties list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote registrations
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+member registration SimpleName SimpleType SingleVariableDeclaration SimpleName remote registration
+member registration SimpleName SimpleType ClassInstanceCreation SimpleName remote registration
+member SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName member registration
+member SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName remote registration
+member registration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName member
+remote registration array SimpleName MethodInvocation SimpleName add
+remote registration array SimpleName MethodInvocation SimpleName member
+add SimpleName MethodInvocation SimpleName member
+member registration SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName remote properties list
+remote registration SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName remote properties list
+remote registration array SimpleName MethodInvocation SimpleName size
+remote registration array SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+remote registrations SimpleName Assignment SimpleName remote registration array
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName member registration
+public Modifier MethodDeclaration SimpleName retrieve remote registrations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName remote registrations
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName retrieve remote registrations
+member registration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName retrieve remote registrations
+retrieve remote registrations SimpleName MethodDeclaration Block ReturnStatement SimpleName remote registrations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName retrieve remote registrations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retrieve remote registrations

@@ -1,0 +1,20 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server state
+collections SimpleName MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation SimpleName bad states
+unmodifiable set SimpleName MethodInvocation SimpleName bad states
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet server state
+public Modifier MethodDeclaration SimpleName get bad states
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet server state
+static Modifier MethodDeclaration SimpleName get bad states
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bad states
+tablet server state SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bad states
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bad states
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bad states

@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is numeric
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is numeric
+boolean PrimitiveType MethodDeclaration SimpleName is numeric
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is numeric
+is numeric SimpleName MethodDeclaration Block ReturnStatement SimpleName is numeric
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is numeric
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is numeric

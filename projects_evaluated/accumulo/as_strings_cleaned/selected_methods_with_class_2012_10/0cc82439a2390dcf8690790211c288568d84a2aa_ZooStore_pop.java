@@ -1,0 +1,57 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+verify reserved SimpleName MethodInvocation SimpleName tid
+get tx path SimpleName MethodInvocation SimpleName tid
+txpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tx path
+txpath SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txpath
+find top SimpleName MethodInvocation SimpleName txpath
+top SimpleName VariableDeclarationFragment MethodInvocation SimpleName find top
+top SimpleName VariableDeclarationFragment MethodInvocation SimpleName txpath
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName top
+tried to pop when empty StringLiteral InfixExpression SimpleName tid
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tried to pop when empty
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName tid
+txpath SimpleName InfixExpression StringLiteral /
+txpath SimpleName InfixExpression SimpleName top
+/ StringLiteral InfixExpression SimpleName top
+zk SimpleName MethodInvocation SimpleName recursive delete
+zk SimpleName MethodInvocation InfixExpression SimpleName txpath
+zk SimpleName MethodInvocation InfixExpression StringLiteral /
+zk SimpleName MethodInvocation InfixExpression SimpleName top
+zk SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName txpath
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName top
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+txpath SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+top SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName pop
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName pop
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+void PrimitiveType MethodDeclaration SimpleName pop
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+pop SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+pop SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName pop
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName pop
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation SimpleName dsl query
+discovery service SimpleName MethodInvocation SimpleName query params
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName query params
+dsl query SimpleName MethodInvocation SimpleName query params
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName search by dsl
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName search by dsl
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+search by dsl SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName search by dsl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search by dsl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

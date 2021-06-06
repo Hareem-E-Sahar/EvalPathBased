@@ -1,0 +1,247 @@
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get inputs
+event SimpleName MethodInvocation SimpleName get inputs
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+get inputs SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get inputs SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+event SimpleName MethodInvocation SimpleName get outputs
+event SimpleName MethodInvocation SimpleName get outputs
+event SimpleName MethodInvocation MethodInvocation SimpleName size
+get outputs SimpleName MethodInvocation MethodInvocation SimpleName size
+event SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get outputs SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+event SimpleName MethodInvocation SimpleName get inputs
+event SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get inputs SimpleName MethodInvocation MethodInvocation SimpleName iterator
+event SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+get inputs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+old entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+old entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+read entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old entity
+old entity SimpleName MethodInvocation SimpleName get table
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName old entity
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+write entity SimpleName SimpleType SingleVariableDeclaration SimpleName write entity
+event SimpleName MethodInvocation SimpleName get outputs
+write entity SimpleName MethodInvocation SimpleName get type
+write entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+write entity SimpleName MethodInvocation SimpleName get table
+new table SimpleName VariableDeclarationFragment MethodInvocation SimpleName write entity
+new table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table
+new table SimpleName MethodInvocation SimpleName get db name
+old table SimpleName MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation MethodInvocation SimpleName equals
+get db name SimpleName MethodInvocation MethodInvocation SimpleName equals
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+equals SimpleName MethodInvocation MethodInvocation SimpleName old table
+equals SimpleName MethodInvocation MethodInvocation SimpleName get db name
+new table SimpleName MethodInvocation SimpleName get table name
+old table SimpleName MethodInvocation SimpleName get table name
+new table SimpleName MethodInvocation MethodInvocation SimpleName equals
+get table name SimpleName MethodInvocation MethodInvocation SimpleName equals
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+new table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+equals SimpleName MethodInvocation MethodInvocation SimpleName old table
+equals SimpleName MethodInvocation MethodInvocation SimpleName get table name
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName get table qualified name
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName old table
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get table qualified name SimpleName MethodInvocation SimpleName old table
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName old table
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName old table
+old qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+old qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+old qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dgi bridge
+old qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+old qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName old table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName old qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName old table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old qualified name
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName get table qualified name
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+dgi bridge SimpleName MethodInvocation SimpleName new table
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+get table qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get table qualified name SimpleName MethodInvocation SimpleName new table
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName new table
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName new table
+new qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+new qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+new qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dgi bridge
+new qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+new qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new qualified name
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName type
+linked hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+create or update entities SimpleName MethodInvocation SimpleName dgi bridge
+create or update entities SimpleName MethodInvocation SimpleName event
+create or update entities SimpleName MethodInvocation SimpleName write entity
+create or update entities SimpleName MethodInvocation BooleanLiteral true
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName write entity
+dgi bridge SimpleName MethodInvocation BooleanLiteral true
+event SimpleName MethodInvocation SimpleName write entity
+event SimpleName MethodInvocation BooleanLiteral true
+write entity SimpleName MethodInvocation BooleanLiteral true
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update entities
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName write entity
+tables SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName linked hash map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName type
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName referenceable
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create or update entities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName event
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral true
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation QualifiedName typetable
+get SimpleName MethodInvocation QualifiedName typetable
+table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table entity SimpleName VariableDeclarationFragment MethodInvocation QualifiedName typetable
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+table entity SimpleName MethodInvocation SimpleName get
+table entity SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+get SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+replace column qf name SimpleName MethodInvocation SimpleName event
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table entity
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName hive data model generatorcolumns
+replace column qf name SimpleName MethodInvocation SimpleName old qualified name
+replace column qf name SimpleName MethodInvocation SimpleName new qualified name
+event SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table entity
+event SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+event SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName hive data model generatorcolumns
+event SimpleName MethodInvocation SimpleName old qualified name
+event SimpleName MethodInvocation SimpleName new qualified name
+table entity SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+hive data model generatorcolumns QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+table entity SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+hive data model generatorcolumns QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+old qualified name SimpleName MethodInvocation SimpleName new qualified name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+table entity SimpleName MethodInvocation SimpleName get
+table entity SimpleName MethodInvocation QualifiedName hive data model generatorpart cols
+get SimpleName MethodInvocation QualifiedName hive data model generatorpart cols
+replace column qf name SimpleName MethodInvocation SimpleName event
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table entity
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+replace column qf name SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName hive data model generatorpart cols
+replace column qf name SimpleName MethodInvocation SimpleName old qualified name
+replace column qf name SimpleName MethodInvocation SimpleName new qualified name
+event SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table entity
+event SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+event SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName hive data model generatorpart cols
+event SimpleName MethodInvocation SimpleName old qualified name
+event SimpleName MethodInvocation SimpleName new qualified name
+table entity SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+hive data model generatorpart cols QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName old qualified name
+table entity SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+hive data model generatorpart cols QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName new qualified name
+old qualified name SimpleName MethodInvocation SimpleName new qualified name
+replace sdqf name SimpleName MethodInvocation SimpleName event
+replace sdqf name SimpleName MethodInvocation SimpleName table entity
+replace sdqf name SimpleName MethodInvocation SimpleName old qualified name
+replace sdqf name SimpleName MethodInvocation SimpleName new qualified name
+event SimpleName MethodInvocation SimpleName table entity
+event SimpleName MethodInvocation SimpleName old qualified name
+event SimpleName MethodInvocation SimpleName new qualified name
+table entity SimpleName MethodInvocation SimpleName old qualified name
+table entity SimpleName MethodInvocation SimpleName new qualified name
+old qualified name SimpleName MethodInvocation SimpleName new qualified name
+replace table qf name SimpleName MethodInvocation SimpleName event
+replace table qf name SimpleName MethodInvocation SimpleName old table
+replace table qf name SimpleName MethodInvocation SimpleName new table
+replace table qf name SimpleName MethodInvocation SimpleName table entity
+replace table qf name SimpleName MethodInvocation SimpleName old qualified name
+event SimpleName MethodInvocation SimpleName old table
+event SimpleName MethodInvocation SimpleName new table
+event SimpleName MethodInvocation SimpleName table entity
+event SimpleName MethodInvocation SimpleName old qualified name
+event SimpleName MethodInvocation SimpleName new qualified name
+old table SimpleName MethodInvocation SimpleName new table
+old table SimpleName MethodInvocation SimpleName table entity
+old table SimpleName MethodInvocation SimpleName old qualified name
+old table SimpleName MethodInvocation SimpleName new qualified name
+new table SimpleName MethodInvocation SimpleName table entity
+new table SimpleName MethodInvocation SimpleName old qualified name
+new table SimpleName MethodInvocation SimpleName new qualified name
+table entity SimpleName MethodInvocation SimpleName old qualified name
+table entity SimpleName MethodInvocation SimpleName new qualified name
+old qualified name SimpleName MethodInvocation SimpleName new qualified name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+write entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName event
+write entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get outputs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName rename table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName rename table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+rename table SimpleName MethodDeclaration SimpleType SimpleName exception
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

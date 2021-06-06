@@ -1,0 +1,97 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+instance SimpleName MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get root SimpleName MethodInvocation MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+table id SimpleName MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral merge
+get root SimpleName MethodInvocation InfixExpression StringLiteral merge
+instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral merge
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral merge
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName table id
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName to string
+constantsztables QualifiedName InfixExpression StringLiteral merge
+/ StringLiteral InfixExpression MethodInvocation SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression StringLiteral merge
+table id SimpleName MethodInvocation InfixExpression StringLiteral merge
+to string SimpleName MethodInvocation InfixExpression StringLiteral merge
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table id
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral merge
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+get instance SimpleName MethodInvocation MethodInvocation SimpleName recursive delete
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+path SimpleName MethodInvocation QualifiedName node missing policyskip
+merge lock SimpleName MethodInvocation SimpleName notify all
+next event SimpleName MethodInvocation SimpleName event
+next event SimpleName MethodInvocation StringLiteral merge state of s cleared
+next event SimpleName MethodInvocation SimpleName table id
+event SimpleName MethodInvocation StringLiteral merge state of s cleared
+event SimpleName MethodInvocation SimpleName table id
+merge state of s cleared StringLiteral MethodInvocation SimpleName table id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear merge state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleName clear merge state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+clear merge state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+clear merge state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+clear merge state SimpleName MethodDeclaration SimpleType SimpleName io exception
+clear merge state SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+clear merge state SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+clear merge state SimpleName MethodDeclaration Block SynchronizedStatement SimpleName merge lock
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear merge state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear merge state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

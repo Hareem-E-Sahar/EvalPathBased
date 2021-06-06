@@ -1,0 +1,14 @@
+search parameters SimpleName MethodInvocation SimpleName get tag filters
+has attribute filter SimpleName MethodInvocation MethodInvocation SimpleName search parameters
+has attribute filter SimpleName MethodInvocation MethodInvocation SimpleName get tag filters
+has attribute filter SimpleName MethodInvocation InfixExpression InfixExpression SimpleName entity type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName need classification processor
+boolean PrimitiveType MethodDeclaration SimpleName need classification processor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName need classification processor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName need classification processor

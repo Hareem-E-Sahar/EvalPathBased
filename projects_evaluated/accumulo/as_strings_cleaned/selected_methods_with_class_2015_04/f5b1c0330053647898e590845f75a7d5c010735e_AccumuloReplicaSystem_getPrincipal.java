@@ -1,0 +1,66 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName local conf
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName local conf
+check not null SimpleName MethodInvocation SimpleName local conf
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName target
+check not null SimpleName MethodInvocation SimpleName target
+target SimpleName MethodInvocation SimpleName get peer name
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer name
+propertyreplication peer user QualifiedName MethodInvocation SimpleName get key
+propertyreplication peer user QualifiedName MethodInvocation InfixExpression SimpleName peer name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer name
+user key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertyreplication peer user
+user key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+user key SimpleName VariableDeclarationFragment InfixExpression SimpleName peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+local conf SimpleName MethodInvocation SimpleName get all properties with prefix
+local conf SimpleName MethodInvocation QualifiedName propertyreplication peer user
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertyreplication peer user
+peer users SimpleName VariableDeclarationFragment MethodInvocation SimpleName local conf
+peer users SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+peer users SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication peer user
+peer users SimpleName MethodInvocation SimpleName get
+peer users SimpleName MethodInvocation SimpleName user key
+get SimpleName MethodInvocation SimpleName user key
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer users
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName user key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+target SimpleName MethodInvocation SimpleName get peer name
+cannot get user for StringLiteral InfixExpression MethodInvocation SimpleName target
+cannot get user for StringLiteral InfixExpression MethodInvocation SimpleName get peer name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot get user for
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get principal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName local conf
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName user
+string SimpleName SimpleType MethodDeclaration SimpleName get principal
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local conf
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local conf
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+get principal SimpleName MethodDeclaration Block ReturnStatement SimpleName user
+local conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get principal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get principal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

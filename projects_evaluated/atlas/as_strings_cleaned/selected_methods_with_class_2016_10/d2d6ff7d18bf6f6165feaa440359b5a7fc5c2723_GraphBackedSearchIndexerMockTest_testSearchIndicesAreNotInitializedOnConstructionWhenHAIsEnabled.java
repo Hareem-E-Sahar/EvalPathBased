@@ -1,0 +1,85 @@
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+contains key SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName contains key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+get boolean SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+graph SimpleName MethodInvocation SimpleName get management system
+when SimpleName MethodInvocation MethodInvocation SimpleName graph
+when SimpleName MethodInvocation MethodInvocation SimpleName get management system
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get management system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName management
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName management
+get management system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName management
+then return SimpleName MethodInvocation SimpleName management
+management SimpleName MethodInvocation SimpleName contains property key
+management SimpleName MethodInvocation QualifiedName constantsvertex type property key
+contains property key SimpleName MethodInvocation QualifiedName constantsvertex type property key
+when SimpleName MethodInvocation MethodInvocation SimpleName management
+when SimpleName MethodInvocation MethodInvocation SimpleName contains property key
+when SimpleName MethodInvocation MethodInvocation QualifiedName constantsvertex type property key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+management SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains property key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+graph backed search indexer SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+verify zero interactions SimpleName MethodInvocation SimpleName management
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search indices are not initialized on construction when ha is enabled
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName index exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search indices are not initialized on construction when ha is enabled
+public Modifier MethodDeclaration SimpleType SimpleName index exception
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+void PrimitiveType MethodDeclaration SimpleName test search indices are not initialized on construction when ha is enabled
+void PrimitiveType MethodDeclaration SimpleType SimpleName index exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+test search indices are not initialized on construction when ha is enabled SimpleName MethodDeclaration SimpleType SimpleName index exception
+test search indices are not initialized on construction when ha is enabled SimpleName MethodDeclaration SimpleType SimpleName repository exception
+index exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search indices are not initialized on construction when ha is enabled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search indices are not initialized on construction when ha is enabled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

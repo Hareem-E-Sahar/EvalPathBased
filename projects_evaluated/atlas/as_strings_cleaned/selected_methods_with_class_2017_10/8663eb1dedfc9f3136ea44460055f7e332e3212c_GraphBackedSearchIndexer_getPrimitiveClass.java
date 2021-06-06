@@ -1,0 +1,32 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+data type SimpleName InfixExpression QualifiedName data typesstring type
+data type SimpleName InfixExpression QualifiedName data typesshort type
+data type SimpleName InfixExpression QualifiedName data typesint type
+data type SimpleName InfixExpression QualifiedName data typesbiginteger type
+data type SimpleName InfixExpression QualifiedName data typesboolean type
+data type SimpleName InfixExpression QualifiedName data typesbyte type
+data type SimpleName InfixExpression QualifiedName data typeslong type
+data type SimpleName InfixExpression QualifiedName data typesfloat type
+data type SimpleName InfixExpression QualifiedName data typesdouble type
+data type SimpleName InfixExpression QualifiedName data typesbigdecimal type
+data type SimpleName InfixExpression QualifiedName data typesdate type
+unknown data type StringLiteral InfixExpression SimpleName data type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown data type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName data type
+private Modifier MethodDeclaration SimpleType SimpleName class
+private Modifier MethodDeclaration SimpleName get primitive class
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+class SimpleName SimpleType MethodDeclaration SimpleName get primitive class
+class SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+get primitive class SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+get primitive class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type

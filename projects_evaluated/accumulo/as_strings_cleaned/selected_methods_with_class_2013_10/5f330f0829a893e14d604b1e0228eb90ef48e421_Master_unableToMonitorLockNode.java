@@ -1,0 +1,50 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName throwable
+final Modifier SingleVariableDeclaration SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation StringLiteral no longer able to monitor master lock node
+log SimpleName MethodInvocation SimpleName e
+fatal SimpleName MethodInvocation StringLiteral no longer able to monitor master lock node
+fatal SimpleName MethodInvocation SimpleName e
+no longer able to monitor master lock node StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unable to monitor lock node
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName unable to monitor lock node
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName unable to monitor lock node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+unable to monitor lock node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unable to monitor lock node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unable to monitor lock node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

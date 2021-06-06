@@ -1,0 +1,32 @@
+atlas entity def SimpleName SimpleType ClassInstanceCreation StringLiteral my column
+column SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity def
+column SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral my column
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral table
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral my table
+table StringLiteral ClassInstanceCreation StringLiteral my table
+attr table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas attribute def
+attr table SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table
+attr table SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral my table
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr table
+atlas constraint def SimpleName SimpleType ClassInstanceCreation QualifiedName atlas constraint defconstraint type foreign key
+attr table SimpleName MethodInvocation SimpleName add constraint
+attr table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas constraint def
+attr table SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas constraint defconstraint type foreign key
+add constraint SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas constraint def
+add constraint SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas constraint defconstraint type foreign key
+column SimpleName MethodInvocation SimpleName add attribute
+column SimpleName MethodInvocation SimpleName attr table
+add attribute SimpleName MethodInvocation SimpleName attr table
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity def
+private Modifier MethodDeclaration SimpleName create column entity def
+private Modifier MethodDeclaration Block ReturnStatement SimpleName column
+atlas entity def SimpleName SimpleType MethodDeclaration SimpleName create column entity def
+create column entity def SimpleName MethodDeclaration Block ReturnStatement SimpleName column
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+public Modifier TypeDeclaration MethodDeclaration SimpleName create column entity def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create column entity def

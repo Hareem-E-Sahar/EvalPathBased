@@ -1,0 +1,162 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName v obj
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+converter context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+classification type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas classification type
+classification type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+v obj SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName v obj
+v map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+v map SimpleName VariableDeclarationFragment CastExpression SimpleName v obj
+final Modifier VariableDeclarationStatement SimpleType SimpleName map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName v map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName v obj
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v map
+v map SimpleName MethodInvocation SimpleName get
+v map SimpleName MethodInvocation SimpleName attributes property key
+get SimpleName MethodInvocation SimpleName attributes property key
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName v map
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes property key
+v attribs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+v attribs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName v map
+v attribs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+v attribs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attributes property key
+final Modifier VariableDeclarationStatement SimpleType SimpleName map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName v attribs
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v attribs
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName v attribs
+is not empty SimpleName MethodInvocation SimpleName v attribs
+type SimpleName MethodInvocation SimpleName get type name
+from v to v SimpleName MethodInvocation SimpleName classification type
+from v to v SimpleName MethodInvocation SimpleName v attribs
+from v to v SimpleName MethodInvocation SimpleName ctx
+classification type SimpleName MethodInvocation SimpleName v attribs
+classification type SimpleName MethodInvocation SimpleName ctx
+v attribs SimpleName MethodInvocation SimpleName ctx
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from v to v
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification type
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName v attribs
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ctx
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from v to v
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification type
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName v attribs
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ctx
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from v to v
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName v attribs
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ctx
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName type
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName from v to v
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName classification type
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName v attribs
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName ctx
+type SimpleName MethodInvocation SimpleName get type name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName type
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+v obj SimpleName InstanceofExpression SimpleType SimpleName struct
+struct SimpleName SimpleType CastExpression SimpleName v obj
+struct SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct
+struct SimpleName VariableDeclarationFragment CastExpression SimpleName v obj
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct
+type SimpleName MethodInvocation SimpleName get type name
+struct SimpleName MethodInvocation SimpleName get values
+from v to v SimpleName MethodInvocation SimpleName classification type
+from v to v SimpleName MethodInvocation MethodInvocation SimpleName struct
+from v to v SimpleName MethodInvocation MethodInvocation SimpleName get values
+from v to v SimpleName MethodInvocation SimpleName ctx
+classification type SimpleName MethodInvocation MethodInvocation SimpleName struct
+classification type SimpleName MethodInvocation MethodInvocation SimpleName get values
+classification type SimpleName MethodInvocation SimpleName ctx
+struct SimpleName MethodInvocation MethodInvocation SimpleName ctx
+get values SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from v to v
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification type
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ctx
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from v to v
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification type
+type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ctx
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName from v to v
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ctx
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName type
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName from v to v
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName classification type
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName ctx
+v obj SimpleName MethodInvocation SimpleName get class
+v obj SimpleName MethodInvocation MethodInvocation SimpleName get canonical name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get canonical name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeunexpected type
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral map or struct
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get canonical name
+atlas error codeunexpected type QualifiedName ClassInstanceCreation StringLiteral map or struct
+atlas error codeunexpected type QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName v obj
+atlas error codeunexpected type QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+atlas error codeunexpected type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get canonical name
+map or struct StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName v obj
+map or struct StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+map or struct StringLiteral ClassInstanceCreation MethodInvocation SimpleName get canonical name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas classification
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName from v to v
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName v obj
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName from v to v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v obj
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName converter context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+atlas classification SimpleName SimpleType MethodDeclaration SimpleName from v to v
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v obj
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+atlas classification SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v obj
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName converter context
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+from v to v SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+from v to v SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier TypeDeclaration MethodDeclaration SimpleName from v to v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from v to v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

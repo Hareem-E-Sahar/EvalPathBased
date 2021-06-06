@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SimpleName get referred entities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName referred entities
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get referred entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get referred entities
+atlas entity header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get referred entities
+get referred entities SimpleName MethodDeclaration Block ReturnStatement SimpleName referred entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referred entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referred entities

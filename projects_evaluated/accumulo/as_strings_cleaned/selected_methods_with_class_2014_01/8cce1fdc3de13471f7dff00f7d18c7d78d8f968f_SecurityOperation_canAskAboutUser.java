@@ -1,0 +1,55 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+can perform system actions SimpleName MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation MethodInvocation SimpleName equals
+get principal SimpleName MethodInvocation MethodInvocation SimpleName equals
+credentials SimpleName MethodInvocation MethodInvocation SimpleName user
+get principal SimpleName MethodInvocation MethodInvocation SimpleName user
+equals SimpleName MethodInvocation SimpleName user
+can perform system actions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+can perform system actions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName user
+credentials SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+credentials SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName user
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can ask about user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration SimpleName can ask about user
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+can ask about user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can ask about user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+can ask about user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can ask about user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+can ask about user SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+can ask about user SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can ask about user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can ask about user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

@@ -1,0 +1,150 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+accumulo token SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName token
+token SimpleName InstanceofExpression SimpleType SimpleName user pass token
+accumulo security exception SimpleName SimpleType ClassInstanceCreation StringLiteral zk authenticator doesnt take this token type
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeinvalid token
+zk authenticator doesnt take this token type StringLiteral ClassInstanceCreation QualifiedName security error codeinvalid token
+user pass token SimpleName SimpleType CastExpression SimpleName token
+upt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName user pass token
+upt SimpleName VariableDeclarationFragment CastExpression SimpleName token
+user pass token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upt
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get retrying instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo SimpleName MethodInvocation SimpleName exists
+zoo SimpleName MethodInvocation SimpleName zk user path
+exists SimpleName MethodInvocation SimpleName zk user path
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation SimpleName zk user path
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName zk user path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+zk user path SimpleName MethodInvocation QualifiedName node missing policyskip
+removed StringLiteral InfixExpression SimpleName zk user path
+removed StringLiteral InfixExpression StringLiteral /
+removed StringLiteral InfixExpression StringLiteral from zookeeper
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression StringLiteral from zookeeper
+/ StringLiteral InfixExpression StringLiteral from zookeeper
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral removed
+log SimpleName MethodInvocation InfixExpression SimpleName zk user path
+log SimpleName MethodInvocation InfixExpression StringLiteral /
+log SimpleName MethodInvocation InfixExpression StringLiteral from zookeeper
+info SimpleName MethodInvocation InfixExpression StringLiteral removed
+info SimpleName MethodInvocation InfixExpression SimpleName zk user path
+info SimpleName MethodInvocation InfixExpression StringLiteral /
+info SimpleName MethodInvocation InfixExpression StringLiteral from zookeeper
+upt SimpleName MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get principal SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName zk user path
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName upt
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation SimpleName zk user path
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName upt
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName upt
+zk user path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+zk user path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zk user path SimpleName MethodInvocation QualifiedName node exists policyfail
+upt SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+upt SimpleName MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName create pass
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName upt
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName get password
+create pass SimpleName MethodInvocation MethodInvocation SimpleName upt
+create pass SimpleName MethodInvocation MethodInvocation SimpleName get password
+construct user SimpleName MethodInvocation MethodInvocation SimpleName upt
+construct user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+construct user SimpleName MethodInvocation MethodInvocation SimpleName zk security tool
+construct user SimpleName MethodInvocation MethodInvocation SimpleName create pass
+construct user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName upt
+construct user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+upt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk security tool
+upt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk security tool
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create pass
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize security
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize security
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName initialize security
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+initialize security SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize security
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize security
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

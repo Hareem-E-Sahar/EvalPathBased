@@ -1,0 +1,10 @@
+void PrimitiveType MethodDeclaration SimpleName clean up
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+clean up SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

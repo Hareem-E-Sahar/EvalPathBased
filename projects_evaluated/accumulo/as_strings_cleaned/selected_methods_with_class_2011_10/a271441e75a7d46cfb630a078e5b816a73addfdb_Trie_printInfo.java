@@ -1,0 +1,13 @@
+root node SimpleName MethodInvocation SimpleName print info
+root node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+print info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print info
+void PrimitiveType MethodDeclaration SimpleName print info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print info

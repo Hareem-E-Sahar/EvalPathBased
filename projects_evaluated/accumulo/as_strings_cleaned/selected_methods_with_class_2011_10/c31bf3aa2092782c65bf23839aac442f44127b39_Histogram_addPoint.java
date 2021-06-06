@@ -1,0 +1,51 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName x
+long PrimitiveType SingleVariableDeclaration SimpleName y
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+counts SimpleName MethodInvocation SimpleName get
+counts SimpleName MethodInvocation SimpleName x
+get SimpleName MethodInvocation SimpleName x
+hd SimpleName VariableDeclarationFragment MethodInvocation SimpleName counts
+hd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hd SimpleName VariableDeclarationFragment MethodInvocation SimpleName x
+hist data SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+hist data SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName x
+t SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName x
+hd SimpleName Assignment ClassInstanceCreation SimpleName x
+counts SimpleName MethodInvocation SimpleName put
+counts SimpleName MethodInvocation SimpleName x
+counts SimpleName MethodInvocation SimpleName hd
+put SimpleName MethodInvocation SimpleName x
+put SimpleName MethodInvocation SimpleName hd
+x SimpleName MethodInvocation SimpleName hd
+hdcount QualifiedName Assignment SimpleName y
+sum SimpleName Assignment SimpleName y
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+void PrimitiveType MethodDeclaration SimpleName add point
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+add point SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+add point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName x
+add point SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+add point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add point
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add point
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y

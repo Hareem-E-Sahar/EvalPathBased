@@ -1,0 +1,131 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+create hive table SimpleName MethodInvocation MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create hive table
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+pii trait StringLiteral InfixExpression MethodInvocation SimpleName random string
+trait name SimpleName VariableDeclarationFragment InfixExpression StringLiteral pii trait
+trait name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral pii trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty set
+string SimpleName SimpleType MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation SimpleName create required attr def
+atlas type util SimpleName MethodInvocation StringLiteral type
+atlas type util SimpleName MethodInvocation StringLiteral string
+create required attr def SimpleName MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+atlas type util SimpleName MethodInvocation SimpleName create trait type def
+atlas type util SimpleName MethodInvocation SimpleName trait name
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName empty set
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral type
+atlas type util SimpleName MethodInvocation MethodInvocation StringLiteral string
+create trait type def SimpleName MethodInvocation SimpleName trait name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral type
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral string
+trait name SimpleName MethodInvocation MethodInvocation SimpleName collections
+trait name SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+trait name SimpleName MethodInvocation MethodInvocation SimpleName empty set
+trait name SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+trait name SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+trait name SimpleName MethodInvocation MethodInvocation StringLiteral type
+trait name SimpleName MethodInvocation MethodInvocation StringLiteral string
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas type util
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName atlas type util
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas type util
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral type
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral string
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pii trait
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName get classification defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName add
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName add
+types def SimpleName MethodInvocation MethodInvocation SimpleName pii trait
+get classification defs SimpleName MethodInvocation MethodInvocation SimpleName pii trait
+add SimpleName MethodInvocation SimpleName pii trait
+create type SimpleName MethodInvocation SimpleName types def
+atlas client v SimpleName MethodInvocation SimpleName delete classification
+atlas client v SimpleName MethodInvocation SimpleName guid
+atlas client v SimpleName MethodInvocation SimpleName trait name
+delete classification SimpleName MethodInvocation SimpleName guid
+delete classification SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait name
+fail SimpleName MethodInvocation StringLiteral deletion shouldve failed for nonexistent trait association
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName ex
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName ex
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get status
+ex SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ex
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName client responsestatusbad request
+ex SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+get status SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete existent trait non existent for entity
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete existent trait non existent for entity
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete existent trait non existent for entity
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete existent trait non existent for entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test delete existent trait non existent for entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test delete existent trait non existent for entity SimpleName MethodDeclaration SimpleType SimpleName exception
+test delete existent trait non existent for entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test delete existent trait non existent for entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete existent trait non existent for entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete existent trait non existent for entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

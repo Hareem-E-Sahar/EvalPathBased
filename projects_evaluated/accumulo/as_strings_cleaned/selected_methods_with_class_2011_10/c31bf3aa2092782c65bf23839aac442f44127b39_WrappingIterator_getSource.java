@@ -1,0 +1,18 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral getting null source
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+protected Modifier MethodDeclaration SimpleName get source
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName source
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get source
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get source
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get source
+get source SimpleName MethodDeclaration Block ReturnStatement SimpleName source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get source
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get source

@@ -1,0 +1,54 @@
+kt SimpleName SimpleType SingleVariableDeclaration SimpleName key
+long PrimitiveType SingleVariableDeclaration SimpleName l
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+ml SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+ml SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ml SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+mutable long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ml
+ml SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutable long
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName key
+map SimpleName MethodInvocation SimpleName ml
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName ml
+key SimpleName MethodInvocation SimpleName ml
+mll QualifiedName Assignment SimpleName l
+mll QualifiedName InfixExpression NumberLiteral empty
+map SimpleName MethodInvocation SimpleName remove
+map SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName increment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName mll
+long PrimitiveType MethodDeclaration SimpleName increment
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+long PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName mll
+increment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+increment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+increment SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+increment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+increment SimpleName MethodDeclaration Block ReturnStatement QualifiedName mll
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName increment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName increment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

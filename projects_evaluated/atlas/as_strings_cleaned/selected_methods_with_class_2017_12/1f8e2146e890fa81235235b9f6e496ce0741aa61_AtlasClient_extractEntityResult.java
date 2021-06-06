@@ -1,0 +1,30 @@
+object node SimpleName SimpleType SingleVariableDeclaration SimpleName response
+response SimpleName MethodInvocation SimpleName to string
+entity result SimpleName MethodInvocation SimpleName from string
+entity result SimpleName MethodInvocation MethodInvocation SimpleName response
+entity result SimpleName MethodInvocation MethodInvocation SimpleName to string
+from string SimpleName MethodInvocation MethodInvocation SimpleName response
+from string SimpleName MethodInvocation MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName entity result
+protected Modifier MethodDeclaration SimpleName extract entity result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+protected Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+entity result SimpleName SimpleType MethodDeclaration SimpleName extract entity result
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName response
+entity result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+extract entity result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object node
+extract entity result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response
+extract entity result SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract entity result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract entity result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

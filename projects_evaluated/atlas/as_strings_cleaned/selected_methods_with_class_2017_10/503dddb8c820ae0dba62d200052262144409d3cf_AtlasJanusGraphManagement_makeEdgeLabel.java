@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+management SimpleName MethodInvocation SimpleName make edge label
+management SimpleName MethodInvocation SimpleName label
+make edge label SimpleName MethodInvocation SimpleName label
+management SimpleName MethodInvocation MethodInvocation SimpleName make
+make edge label SimpleName MethodInvocation MethodInvocation SimpleName make
+label SimpleName MethodInvocation MethodInvocation SimpleName make
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName management
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName make edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName make
+edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+graph db object factory SimpleName MethodInvocation SimpleName create edge label
+graph db object factory SimpleName MethodInvocation SimpleName edge label
+create edge label SimpleName MethodInvocation SimpleName edge label
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas edge label
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName make edge label
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier MethodDeclaration SimpleType SimpleName atlas edge label
+public Modifier MethodDeclaration SimpleName make edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+atlas edge label SimpleName SimpleType MethodDeclaration SimpleName make edge label
+atlas edge label SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName label
+make edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+make edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleName make edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label

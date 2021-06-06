@@ -1,0 +1,72 @@
+get principal SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get principal SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+get bytes SimpleName MethodInvocation QualifiedName constantsutf
+base SimpleName MethodInvocation SimpleName encode base string
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+encode base string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get principal
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode base string SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+get principal SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral -
+- StringLiteral ConditionalExpression MethodInvocation SimpleName base
+- StringLiteral ConditionalExpression MethodInvocation SimpleName encode base string
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName get bytes
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation QualifiedName constantsutf
+get token SimpleName MethodInvocation MethodInvocation SimpleName get class
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsutf
+get name SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+get bytes SimpleName MethodInvocation QualifiedName constantsutf
+base SimpleName MethodInvocation SimpleName encode base string
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+encode base string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode base string SimpleName MethodInvocation MethodInvocation QualifiedName constantsutf
+get token SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral -
+- StringLiteral ConditionalExpression MethodInvocation SimpleName base
+- StringLiteral ConditionalExpression MethodInvocation SimpleName encode base string
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName get bytes
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation QualifiedName constantsutf
+authentication token serializer SimpleName MethodInvocation SimpleName serialize
+authentication token serializer SimpleName MethodInvocation MethodInvocation SimpleName get token
+serialize SimpleName MethodInvocation MethodInvocation SimpleName get token
+base SimpleName MethodInvocation SimpleName encode base string
+base SimpleName MethodInvocation MethodInvocation SimpleName authentication token serializer
+base SimpleName MethodInvocation MethodInvocation SimpleName serialize
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName authentication token serializer
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName serialize
+encode base string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get token SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral -
+- StringLiteral ConditionalExpression MethodInvocation SimpleName base
+- StringLiteral ConditionalExpression MethodInvocation SimpleName encode base string
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName authentication token serializer
+- StringLiteral ConditionalExpression MethodInvocation MethodInvocation SimpleName serialize
+- StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+- StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral -
+: StringLiteral InfixExpression StringLiteral :
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral -
+- StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+: StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral -
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName serialize
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+string SimpleName SimpleType MethodDeclaration SimpleName serialize
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+serialize SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName serialize
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName serialize
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cause
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName server
+/ StringLiteral InfixExpression SimpleName server
+cause SimpleName MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName server
+zoo SimpleName MethodInvocation MethodInvocation SimpleName cause
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName server
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName cause
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cause
+path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cause
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+server SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName cause
+server SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyskip
+server SimpleName InfixExpression MethodInvocation QualifiedName node exists policyskip
+cause SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyskip
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName post
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cause
+void PrimitiveType MethodDeclaration SimpleName post
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cause
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cause
+server SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cause

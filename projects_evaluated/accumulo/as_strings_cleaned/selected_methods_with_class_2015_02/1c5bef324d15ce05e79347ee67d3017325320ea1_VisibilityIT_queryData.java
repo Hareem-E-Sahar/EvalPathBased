@@ -1,0 +1,142 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all auths
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all auths
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName user auths
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName user auths
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+c SimpleName MethodInvocation SimpleName security operations
+nbas SimpleName MethodInvocation SimpleName user auths
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName nbas
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName user auths
+c SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+change user authorizations SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName nbas
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName user auths
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+unique combos SimpleName MethodInvocation SimpleName combos
+unique combos SimpleName MethodInvocation MethodInvocation SimpleName nss
+unique combos SimpleName MethodInvocation SimpleName all auths
+combos SimpleName MethodInvocation MethodInvocation SimpleName nss
+combos SimpleName MethodInvocation SimpleName all auths
+nss SimpleName MethodInvocation MethodInvocation SimpleName all auths
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName set
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName set
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName set
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName set
+set SimpleName Assignment ClassInstanceCreation SimpleName set
+set SimpleName MethodInvocation SimpleName retain all
+set SimpleName MethodInvocation SimpleName user auths
+retain all SimpleName MethodInvocation SimpleName user auths
+set SimpleName MethodInvocation SimpleName contains all
+set SimpleName MethodInvocation SimpleName set
+contains all SimpleName MethodInvocation SimpleName set
+expected SimpleName MethodInvocation SimpleName contains key
+expected SimpleName MethodInvocation SimpleName set
+contains key SimpleName MethodInvocation SimpleName set
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains key
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName set
+contains all SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+contains all SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains key
+contains all SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName set
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains key
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName set
+expected SimpleName MethodInvocation SimpleName get
+expected SimpleName MethodInvocation SimpleName set
+get SimpleName MethodInvocation SimpleName set
+e SimpleName MethodInvocation SimpleName add all
+e SimpleName MethodInvocation MethodInvocation SimpleName expected
+e SimpleName MethodInvocation MethodInvocation SimpleName get
+e SimpleName MethodInvocation MethodInvocation SimpleName set
+add all SimpleName MethodInvocation MethodInvocation SimpleName expected
+add all SimpleName MethodInvocation MethodInvocation SimpleName get
+add all SimpleName MethodInvocation MethodInvocation SimpleName set
+set SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName combos
+set SimpleName MethodInvocation SimpleName retain all
+set SimpleName MethodInvocation SimpleName user auths
+retain all SimpleName MethodInvocation SimpleName user auths
+verify SimpleName MethodInvocation SimpleName c
+verify SimpleName MethodInvocation SimpleName table name
+verify SimpleName MethodInvocation SimpleName set
+verify SimpleName MethodInvocation SimpleName e
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName set
+c SimpleName MethodInvocation SimpleName e
+table name SimpleName MethodInvocation SimpleName set
+table name SimpleName MethodInvocation SimpleName e
+set SimpleName MethodInvocation SimpleName e
+set SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName combos
+combos SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName combos
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName query data
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName all auths
+void PrimitiveType MethodDeclaration SimpleName query data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName all auths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user auths
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all auths
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user auths
+query data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all auths
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auths
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all auths
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auths
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+all auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auths
+all auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+all auths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+user auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+user auths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName query data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all auths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName query data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all auths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user auths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

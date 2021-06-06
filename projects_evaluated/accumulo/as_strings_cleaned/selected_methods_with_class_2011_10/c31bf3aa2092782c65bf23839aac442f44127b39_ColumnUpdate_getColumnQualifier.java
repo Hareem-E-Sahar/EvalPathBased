@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get column qualifier
+public Modifier MethodDeclaration Block ReturnStatement SimpleName column qualifier
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get column qualifier
+get column qualifier SimpleName MethodDeclaration Block ReturnStatement SimpleName column qualifier
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column qualifier
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column qualifier

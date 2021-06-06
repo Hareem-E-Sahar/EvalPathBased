@@ -1,0 +1,61 @@
+ha configurationatlas server address prefix QualifiedName InfixExpression StringLiteral id
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+configuration SimpleName MethodInvocation InfixExpression StringLiteral id
+get string SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+get string SimpleName MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral . . . :
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . . . :
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . . . :
+then return SimpleName MethodInvocation StringLiteral . . . :
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation QualifiedName security propertiestls enabled
+get boolean SimpleName MethodInvocation QualifiedName security propertiestls enabled
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+when SimpleName MethodInvocation MethodInvocation QualifiedName security propertiestls enabled
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+security propertiestls enabled QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+security propertiestls enabled QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+ha configuration SimpleName MethodInvocation SimpleName get bound address for id
+ha configuration SimpleName MethodInvocation SimpleName configuration
+ha configuration SimpleName MethodInvocation StringLiteral id
+get bound address for id SimpleName MethodInvocation SimpleName configuration
+get bound address for id SimpleName MethodInvocation StringLiteral id
+configuration SimpleName MethodInvocation StringLiteral id
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha configuration
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bound address for id
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+address SimpleName VariableDeclarationFragment MethodInvocation StringLiteral id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+assert equals SimpleName MethodInvocation SimpleName address
+assert equals SimpleName MethodInvocation StringLiteral https . . . :
+address SimpleName MethodInvocation StringLiteral https . . . :
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test should return https bound address
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test should return https bound address
+void PrimitiveType MethodDeclaration SimpleName test should return https bound address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test should return https bound address
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test should return https bound address

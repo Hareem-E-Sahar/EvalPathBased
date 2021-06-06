@@ -1,0 +1,278 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cohort name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName remote server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName remote server type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName owning organization name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName remote connection
+get omrs repository connector SimpleName MethodInvocation SimpleName remote connection
+get omrs repository connector SimpleName MethodInvocation SimpleName remote server name
+get omrs repository connector SimpleName MethodInvocation SimpleName remote server type
+get omrs repository connector SimpleName MethodInvocation SimpleName owning organization name
+get omrs repository connector SimpleName MethodInvocation SimpleName metadata collection id
+remote connection SimpleName MethodInvocation SimpleName remote server name
+remote connection SimpleName MethodInvocation SimpleName remote server type
+remote connection SimpleName MethodInvocation SimpleName owning organization name
+remote connection SimpleName MethodInvocation SimpleName metadata collection id
+remote server name SimpleName MethodInvocation SimpleName remote server type
+remote server name SimpleName MethodInvocation SimpleName owning organization name
+remote server name SimpleName MethodInvocation SimpleName metadata collection id
+remote server type SimpleName MethodInvocation SimpleName owning organization name
+remote server type SimpleName MethodInvocation SimpleName metadata collection id
+owning organization name SimpleName MethodInvocation SimpleName metadata collection id
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get omrs repository connector
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote connection
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote server name
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote server type
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName owning organization name
+remote connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection id
+omrs repository connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote connector
+remote connector SimpleName MethodInvocation SimpleName get metadata collection
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+remote connector SimpleName MethodInvocation SimpleName disconnect
+method name SimpleName VariableDeclarationFragment StringLiteral add remote connection
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add remote connection
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add remote connection
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull cohort metadata collection
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull cohort metadata collection
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName cohort name
+error code SimpleName MethodInvocation SimpleName metadata collection id
+get formatted error message SimpleName MethodInvocation SimpleName cohort name
+get formatted error message SimpleName MethodInvocation SimpleName metadata collection id
+cohort name SimpleName MethodInvocation SimpleName metadata collection id
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cohort name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata collection id
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cohort name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata collection id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName cohort name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+connector checked exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+connector checked exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+connector checked exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+connector checked exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+connector checked exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+connector checked exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+connector checked exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+registered connector SimpleName SimpleType ClassInstanceCreation SimpleName cohort name
+registered connector SimpleName SimpleType ClassInstanceCreation SimpleName remote server name
+registered connector SimpleName SimpleType ClassInstanceCreation SimpleName remote server type
+registered connector SimpleName SimpleType ClassInstanceCreation SimpleName owning organization name
+registered connector SimpleName SimpleType ClassInstanceCreation SimpleName metadata collection id
+cohort name SimpleName ClassInstanceCreation SimpleName remote server name
+cohort name SimpleName ClassInstanceCreation SimpleName remote server type
+cohort name SimpleName ClassInstanceCreation SimpleName owning organization name
+cohort name SimpleName ClassInstanceCreation SimpleName metadata collection id
+cohort name SimpleName ClassInstanceCreation SimpleName remote connection
+remote server name SimpleName ClassInstanceCreation SimpleName remote server type
+remote server name SimpleName ClassInstanceCreation SimpleName owning organization name
+remote server name SimpleName ClassInstanceCreation SimpleName metadata collection id
+remote server name SimpleName ClassInstanceCreation SimpleName remote connection
+remote server type SimpleName ClassInstanceCreation SimpleName owning organization name
+remote server type SimpleName ClassInstanceCreation SimpleName metadata collection id
+remote server type SimpleName ClassInstanceCreation SimpleName remote connection
+owning organization name SimpleName ClassInstanceCreation SimpleName metadata collection id
+owning organization name SimpleName ClassInstanceCreation SimpleName remote connection
+metadata collection id SimpleName ClassInstanceCreation SimpleName remote connection
+registered remote connectors SimpleName MethodInvocation SimpleName add
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName registered connector
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName cohort name
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName remote server name
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName remote server type
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName owning organization name
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata collection id
+registered remote connectors SimpleName MethodInvocation ClassInstanceCreation SimpleName remote connection
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName registered connector
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName cohort name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName remote server name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName remote server type
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName owning organization name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata collection id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName remote connection
+registered connector consumer SimpleName SimpleType SingleVariableDeclaration SimpleName registered connector consumer
+registered connector consumer SimpleName MethodInvocation SimpleName get connector consumer
+get omrs repository connector SimpleName MethodInvocation SimpleName remote connection
+get omrs repository connector SimpleName MethodInvocation SimpleName remote server name
+get omrs repository connector SimpleName MethodInvocation SimpleName remote server type
+get omrs repository connector SimpleName MethodInvocation SimpleName owning organization name
+get omrs repository connector SimpleName MethodInvocation SimpleName metadata collection id
+remote connection SimpleName MethodInvocation SimpleName remote server name
+remote connection SimpleName MethodInvocation SimpleName remote server type
+remote connection SimpleName MethodInvocation SimpleName owning organization name
+remote connection SimpleName MethodInvocation SimpleName metadata collection id
+remote server name SimpleName MethodInvocation SimpleName remote server type
+remote server name SimpleName MethodInvocation SimpleName owning organization name
+remote server name SimpleName MethodInvocation SimpleName metadata collection id
+remote server type SimpleName MethodInvocation SimpleName owning organization name
+remote server type SimpleName MethodInvocation SimpleName metadata collection id
+owning organization name SimpleName MethodInvocation SimpleName metadata collection id
+registered connector consumer SimpleName MethodInvocation MethodInvocation SimpleName add remote connector
+get connector consumer SimpleName MethodInvocation MethodInvocation SimpleName add remote connector
+registered connector consumer SimpleName MethodInvocation MethodInvocation SimpleName metadata collection id
+get connector consumer SimpleName MethodInvocation MethodInvocation SimpleName metadata collection id
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get omrs repository connector
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote connection
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote server name
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote server type
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owning organization name
+registered connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metadata collection id
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get omrs repository connector
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote connection
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote server name
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote server type
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owning organization name
+get connector consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metadata collection id
+add remote connector SimpleName MethodInvocation SimpleName metadata collection id
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName get omrs repository connector
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName remote connection
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName remote server name
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName remote server type
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName owning organization name
+add remote connector SimpleName MethodInvocation MethodInvocation SimpleName metadata collection id
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName get omrs repository connector
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName remote connection
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName remote server name
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName remote server type
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName owning organization name
+metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName metadata collection id
+registered connector consumer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName registered connector consumers
+registered connector consumer SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName registered connector consumers
+enterprise access enabled SimpleName IfStatement Block EnhancedForStatement SimpleName registered connector consumers
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add remote connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add remote connection
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+void PrimitiveType MethodDeclaration SimpleName add remote connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add remote connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+remote server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+remote server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+remote server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+remote server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+remote server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+remote server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+remote server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+remote server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+remote server type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+remote server type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+owning organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+owning organization name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+owning organization name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+owning organization name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+remote connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+remote connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+connection checked exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName connector checked exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add remote connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add remote connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote server type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owning organization name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection checked exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connector checked exception

@@ -1,0 +1,500 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+accumulo SimpleName MethodInvocation SimpleName get instance name
+accumulo SimpleName MethodInvocation SimpleName get zookeepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName accumulo
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName accumulo
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral root
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral super secret
+root StringLiteral ClassInstanceCreation StringLiteral super secret
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+get zookeepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral super secret
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral super secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation StringLiteral table
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral table
+create SimpleName MethodInvocation StringLiteral table
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral user
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral pass
+user StringLiteral ClassInstanceCreation StringLiteral pass
+upt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user pass token
+upt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral user
+upt SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral pass
+user pass token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upt
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create user
+conn SimpleName MethodInvocation MethodInvocation SimpleName upt
+security operations SimpleName MethodInvocation MethodInvocation SimpleName upt
+create user SimpleName MethodInvocation SimpleName upt
+conn SimpleName MethodInvocation SimpleName security operations
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+conn SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+conn SimpleName MethodInvocation MethodInvocation StringLiteral user
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral user
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral a
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral b
+change user authorizations SimpleName MethodInvocation StringLiteral user
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+user StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+user StringLiteral MethodInvocation ClassInstanceCreation StringLiteral a
+user StringLiteral MethodInvocation ClassInstanceCreation StringLiteral b
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation StringLiteral user
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral user
+conn SimpleName MethodInvocation MethodInvocation StringLiteral table
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation StringLiteral user
+grant table permission SimpleName MethodInvocation StringLiteral table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+user StringLiteral MethodInvocation StringLiteral table
+user StringLiteral MethodInvocation QualifiedName table permissionwrite
+table StringLiteral MethodInvocation QualifiedName table permissionwrite
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation StringLiteral user
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral user
+conn SimpleName MethodInvocation MethodInvocation StringLiteral table
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation StringLiteral user
+grant table permission SimpleName MethodInvocation StringLiteral table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+user StringLiteral MethodInvocation StringLiteral table
+user StringLiteral MethodInvocation QualifiedName table permissionread
+table StringLiteral MethodInvocation QualifiedName table permissionread
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName summing combiner
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+summing combiner SimpleName MethodInvocation SimpleName set encoding type
+summing combiner SimpleName MethodInvocation SimpleName is
+summing combiner SimpleName MethodInvocation QualifiedName long combinertypestring
+set encoding type SimpleName MethodInvocation SimpleName is
+set encoding type SimpleName MethodInvocation QualifiedName long combinertypestring
+is SimpleName MethodInvocation QualifiedName long combinertypestring
+iterator settingcolumn QualifiedName SimpleType ClassInstanceCreation StringLiteral meta
+iterator settingcolumn QualifiedName SimpleType ClassInstanceCreation StringLiteral count
+meta StringLiteral ClassInstanceCreation StringLiteral count
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName iterator settingcolumn
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral meta
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral count
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName iterator settingcolumn
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral meta
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral count
+summing combiner SimpleName MethodInvocation SimpleName set columns
+summing combiner SimpleName MethodInvocation SimpleName is
+summing combiner SimpleName MethodInvocation MethodInvocation SimpleName collections
+summing combiner SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+summing combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral meta
+summing combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral count
+set columns SimpleName MethodInvocation SimpleName is
+set columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+set columns SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set columns SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral meta
+set columns SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral count
+is SimpleName MethodInvocation MethodInvocation SimpleName collections
+is SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+is SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral meta
+is SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral count
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation StringLiteral table
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral table
+conn SimpleName MethodInvocation MethodInvocation SimpleName is
+table operations SimpleName MethodInvocation MethodInvocation SimpleName is
+attach iterator SimpleName MethodInvocation StringLiteral table
+attach iterator SimpleName MethodInvocation SimpleName is
+table StringLiteral MethodInvocation SimpleName is
+accumulo SimpleName MethodInvocation SimpleName get instance name
+accumulo SimpleName MethodInvocation SimpleName get zookeepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName accumulo
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName accumulo
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zookeepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+get zookeepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get connector
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName upt
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName upt
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName upt
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName upt
+get zookeepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName upt
+get connector SimpleName MethodInvocation SimpleName upt
+uconn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+uconn SimpleName VariableDeclarationFragment MethodInvocation SimpleName upt
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uconn
+uconn SimpleName MethodInvocation SimpleName create batch writer
+uconn SimpleName MethodInvocation StringLiteral table
+uconn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation StringLiteral table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName uconn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName random uuid
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+uuid SimpleName MethodInvocation SimpleName to string
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uuid
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName uuid
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral meta
+m SimpleName MethodInvocation StringLiteral size
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral size
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral size
+meta StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+meta StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+meta StringLiteral MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+size StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+size StringLiteral MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral meta
+m SimpleName MethodInvocation StringLiteral crc
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral crc
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral crc
+meta StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+meta StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+meta StringLiteral MethodInvocation StringLiteral empty
+crc StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+crc StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+crc StringLiteral MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral meta
+m SimpleName MethodInvocation StringLiteral count
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral count
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral count
+meta StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+meta StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+meta StringLiteral MethodInvocation StringLiteral empty
+count StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+count StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+count StringLiteral MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral data
+m SimpleName MethodInvocation StringLiteral img
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral abcdefgh
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral img
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral abcdefgh
+data StringLiteral MethodInvocation StringLiteral img
+data StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+data StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+data StringLiteral MethodInvocation StringLiteral abcdefgh
+img StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+img StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+img StringLiteral MethodInvocation StringLiteral abcdefgh
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral abcdefgh
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral abcdefgh
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName flush
+uuid SimpleName MethodInvocation SimpleName to string
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uuid
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName uuid
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral meta
+m SimpleName MethodInvocation StringLiteral count
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral count
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral count
+meta StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+meta StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+meta StringLiteral MethodInvocation StringLiteral empty
+count StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+count StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+count StringLiteral MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral meta
+m SimpleName MethodInvocation StringLiteral crc
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral crc
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral crc
+meta StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+meta StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+meta StringLiteral MethodInvocation StringLiteral empty
+crc StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+crc StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+crc StringLiteral MethodInvocation StringLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+uconn SimpleName MethodInvocation SimpleName create scanner
+uconn SimpleName MethodInvocation StringLiteral table
+uconn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+uconn SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+create scanner SimpleName MethodInvocation StringLiteral table
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table StringLiteral MethodInvocation ClassInstanceCreation StringLiteral a
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName uconn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+scanner SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral a
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral count
+to string SimpleName MethodInvocation MethodInvocation StringLiteral count
+equals SimpleName MethodInvocation StringLiteral count
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral size
+to string SimpleName MethodInvocation MethodInvocation StringLiteral size
+equals SimpleName MethodInvocation StringLiteral size
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral crc
+to string SimpleName MethodInvocation MethodInvocation StringLiteral crc
+equals SimpleName MethodInvocation StringLiteral crc
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation BooleanLiteral false
+assert true SimpleName MethodInvocation BooleanLiteral false
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName count
+count SimpleName Assignment NumberLiteral empty
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+uconn SimpleName MethodInvocation SimpleName create scanner
+uconn SimpleName MethodInvocation StringLiteral table
+uconn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+uconn SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+uconn SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+create scanner SimpleName MethodInvocation StringLiteral table
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+create scanner SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table StringLiteral MethodInvocation ClassInstanceCreation StringLiteral a
+table StringLiteral MethodInvocation ClassInstanceCreation StringLiteral b
+scanner SimpleName Assignment MethodInvocation SimpleName uconn
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation StringLiteral table
+scanner SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral a
+scanner SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral b
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column qualifier data SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral img
+to string SimpleName MethodInvocation MethodInvocation StringLiteral img
+equals SimpleName MethodInvocation StringLiteral img
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral abcdefgh
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral abcdefgh
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+abcdefgh StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+abcdefgh StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+abcdefgh StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName count
+conn SimpleName MethodInvocation SimpleName table operations

@@ -1,0 +1,34 @@
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName accumulo standalone admin keytab key
+get SimpleName MethodInvocation SimpleName accumulo standalone admin keytab key
+keytab path SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+keytab path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+keytab path SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo standalone admin keytab key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName keytab path
+sasl is enabled but StringLiteral InfixExpression SimpleName accumulo standalone admin keytab key
+sasl is enabled but StringLiteral InfixExpression StringLiteral was not provided
+accumulo standalone admin keytab key SimpleName InfixExpression StringLiteral was not provided
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral sasl is enabled but
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName accumulo standalone admin keytab key
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral was not provided
+file SimpleName SimpleType ClassInstanceCreation SimpleName keytab path
+keytab SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+keytab SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName keytab path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName keytab
+keytab SimpleName MethodInvocation SimpleName exists
+keytab SimpleName MethodInvocation SimpleName is file
+keytab path SimpleName InfixExpression StringLiteral should be a regular file
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName keytab path
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral should be a regular file
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName get admin keytab
+public Modifier MethodDeclaration Block ReturnStatement SimpleName keytab
+file SimpleName SimpleType MethodDeclaration SimpleName get admin keytab
+get admin keytab SimpleName MethodDeclaration Block ReturnStatement SimpleName keytab
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get admin keytab
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get admin keytab

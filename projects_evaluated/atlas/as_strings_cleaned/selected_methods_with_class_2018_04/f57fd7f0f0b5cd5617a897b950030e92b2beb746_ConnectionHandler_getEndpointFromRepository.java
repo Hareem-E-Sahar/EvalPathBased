@@ -1,0 +1,332 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+omrs metadata collection SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName connection entity
+method name SimpleName VariableDeclarationFragment StringLiteral get endpoint from repository
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get endpoint from repository
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get endpoint from repository
+endpoint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint
+get entity for relationship type SimpleName MethodInvocation SimpleName user id
+get entity for relationship type SimpleName MethodInvocation SimpleName connection entity
+get entity for relationship type SimpleName MethodInvocation SimpleName connection endpoint relationship guid
+get entity for relationship type SimpleName MethodInvocation SimpleName metadata collection
+get entity for relationship type SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName connection entity
+user id SimpleName MethodInvocation SimpleName connection endpoint relationship guid
+user id SimpleName MethodInvocation SimpleName metadata collection
+user id SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName connection endpoint relationship guid
+connection entity SimpleName MethodInvocation SimpleName metadata collection
+connection entity SimpleName MethodInvocation SimpleName method name
+connection endpoint relationship guid SimpleName MethodInvocation SimpleName metadata collection
+connection endpoint relationship guid SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName MethodInvocation SimpleName method name
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity for relationship type
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection entity
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection endpoint relationship guid
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+endpoint entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint entity
+endpoint SimpleName Assignment ClassInstanceCreation SimpleType SimpleName endpoint
+connection entity SimpleName MethodInvocation SimpleName get guid
+endpoint SimpleName MethodInvocation SimpleName set guid
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+connection entity SimpleName MethodInvocation SimpleName get instance url
+endpoint SimpleName MethodInvocation SimpleName set url
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get instance url
+set url SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+set url SimpleName MethodInvocation MethodInvocation SimpleName get instance url
+get element type SimpleName MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation SimpleName set type
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get element type
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+set type SimpleName MethodInvocation MethodInvocation SimpleName get element type
+set type SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName qualified name property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName qualified name property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName qualified name property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+qualified name property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+qualified name property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+qualified name property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set qualified name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName qualified name property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName service name
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName qualified name property name
+set qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName endpoint property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName endpoint property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName endpoint property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+endpoint property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+endpoint property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set display name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName endpoint property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set display name SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set display name SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set display name SimpleName MethodInvocation MethodInvocation SimpleName service name
+set display name SimpleName MethodInvocation MethodInvocation SimpleName endpoint property name
+set display name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set display name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set display name SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName description property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName description property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName description property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+description property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+description property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+description property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set description
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName description property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set description SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set description SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set description SimpleName MethodInvocation MethodInvocation SimpleName service name
+set description SimpleName MethodInvocation MethodInvocation SimpleName description property name
+set description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set description SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName endpoint address property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName endpoint address property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName endpoint address property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+endpoint address property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint address property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+endpoint address property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set address
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName endpoint address property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set address SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set address SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set address SimpleName MethodInvocation MethodInvocation SimpleName service name
+set address SimpleName MethodInvocation MethodInvocation SimpleName endpoint address property name
+set address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set address SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName endpoint protocol property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName endpoint protocol property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName endpoint protocol property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+endpoint protocol property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint protocol property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+endpoint protocol property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set protocol
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName endpoint protocol property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set protocol SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set protocol SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set protocol SimpleName MethodInvocation MethodInvocation SimpleName service name
+set protocol SimpleName MethodInvocation MethodInvocation SimpleName endpoint protocol property name
+set protocol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set protocol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set protocol SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName get string property
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName endpoint encryption property name
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+repository helper SimpleName MethodInvocation MethodInvocation SimpleName get properties
+repository helper SimpleName MethodInvocation SimpleName method name
+get string property SimpleName MethodInvocation SimpleName service name
+get string property SimpleName MethodInvocation SimpleName endpoint encryption property name
+get string property SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get string property SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get string property SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName endpoint encryption property name
+service name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+service name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+service name SimpleName MethodInvocation SimpleName method name
+endpoint encryption property name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+endpoint encryption property name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+endpoint encryption property name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set encryption method
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get string property
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName service name
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName endpoint encryption property name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set encryption method SimpleName MethodInvocation MethodInvocation SimpleName repository helper
+set encryption method SimpleName MethodInvocation MethodInvocation SimpleName get string property
+set encryption method SimpleName MethodInvocation MethodInvocation SimpleName service name
+set encryption method SimpleName MethodInvocation MethodInvocation SimpleName endpoint encryption property name
+set encryption method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set encryption method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set encryption method SimpleName MethodInvocation MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation SimpleName get properties
+get additional properties from entity SimpleName MethodInvocation SimpleName additional properties name
+get additional properties from entity SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+get additional properties from entity SimpleName MethodInvocation MethodInvocation SimpleName get properties
+get additional properties from entity SimpleName MethodInvocation SimpleName method name
+additional properties name SimpleName MethodInvocation MethodInvocation SimpleName connection entity
+additional properties name SimpleName MethodInvocation MethodInvocation SimpleName get properties
+additional properties name SimpleName MethodInvocation SimpleName method name
+connection entity SimpleName MethodInvocation MethodInvocation SimpleName method name
+get properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+endpoint SimpleName MethodInvocation SimpleName set additional properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get additional properties from entity
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName additional properties name
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+endpoint SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName method name
+set additional properties SimpleName MethodInvocation MethodInvocation SimpleName get additional properties from entity
+set additional properties SimpleName MethodInvocation MethodInvocation SimpleName additional properties name
+set additional properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connection entity
+set additional properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+set additional properties SimpleName MethodInvocation MethodInvocation SimpleName method name
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName endpoint
+private Modifier MethodDeclaration SimpleType SimpleName endpoint
+private Modifier MethodDeclaration SimpleName get endpoint from repository
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs metadata collection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+endpoint SimpleName SimpleType MethodDeclaration SimpleName get endpoint from repository
+endpoint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+endpoint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+endpoint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+endpoint SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs metadata collection
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+get endpoint from repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+get endpoint from repository SimpleName MethodDeclaration SimpleType SimpleName property server exception
+get endpoint from repository SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get endpoint from repository SimpleName MethodDeclaration Block ReturnStatement SimpleName endpoint
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+metadata collection SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+metadata collection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+connection entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName endpoint
+public Modifier TypeDeclaration MethodDeclaration SimpleName get endpoint from repository
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName endpoint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get endpoint from repository
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception

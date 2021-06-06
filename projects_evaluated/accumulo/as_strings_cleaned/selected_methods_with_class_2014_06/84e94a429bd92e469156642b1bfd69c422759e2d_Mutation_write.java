@@ -1,0 +1,145 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+byte PrimitiveType CastExpression NumberLiteral empty
+values SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression CastExpression PrimitiveType byte
+empty NumberLiteral ConditionalExpression CastExpression NumberLiteral empty
+has values SimpleName VariableDeclarationFragment ConditionalExpression NumberLiteral empty
+has values SimpleName VariableDeclarationFragment ConditionalExpression CastExpression PrimitiveType byte
+has values SimpleName VariableDeclarationFragment ConditionalExpression CastExpression NumberLiteral empty
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has values
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression NumberLiteral empty
+replication sources SimpleName MethodInvocation SimpleName is empty
+x NumberLiteral InfixExpression SimpleName has values
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral x
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName has values
+has values SimpleName Assignment CastExpression PrimitiveType byte
+x NumberLiteral InfixExpression SimpleName has values
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral x
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName has values
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation CastExpression PrimitiveType byte
+write SimpleName MethodInvocation CastExpression PrimitiveType byte
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation QualifiedName rowlength
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation QualifiedName rowlength
+out SimpleName MethodInvocation QualifiedName rowlength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName row
+write SimpleName MethodInvocation SimpleName row
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation QualifiedName datalength
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation QualifiedName datalength
+out SimpleName MethodInvocation QualifiedName datalength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName data
+write SimpleName MethodInvocation SimpleName data
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName entries
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation SimpleName entries
+out SimpleName MethodInvocation SimpleName entries
+x NumberLiteral InfixExpression SimpleName has values
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName has values
+values SimpleName MethodInvocation SimpleName size
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation MethodInvocation SimpleName values
+writable utils SimpleName MethodInvocation MethodInvocation SimpleName size
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation MethodInvocation SimpleName values
+write v int SimpleName MethodInvocation MethodInvocation SimpleName size
+out SimpleName MethodInvocation MethodInvocation SimpleName values
+out SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+values SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName values
+i SimpleName InfixExpression MethodInvocation SimpleName size
+values SimpleName MethodInvocation SimpleName get
+values SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation QualifiedName vallength
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation QualifiedName vallength
+out SimpleName MethodInvocation QualifiedName vallength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName val
+write SimpleName MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+x NumberLiteral InfixExpression SimpleName has values
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName has values
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation NumberLiteral empty
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation NumberLiteral empty
+replication sources SimpleName MethodInvocation SimpleName size
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation MethodInvocation SimpleName replication sources
+writable utils SimpleName MethodInvocation MethodInvocation SimpleName size
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation MethodInvocation SimpleName replication sources
+write v int SimpleName MethodInvocation MethodInvocation SimpleName size
+out SimpleName MethodInvocation MethodInvocation SimpleName replication sources
+out SimpleName MethodInvocation MethodInvocation SimpleName size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source
+writable utils SimpleName MethodInvocation SimpleName write string
+writable utils SimpleName MethodInvocation SimpleName out
+writable utils SimpleName MethodInvocation SimpleName source
+write string SimpleName MethodInvocation SimpleName out
+write string SimpleName MethodInvocation SimpleName source
+out SimpleName MethodInvocation SimpleName source
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName replication sources
+source SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName replication sources
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName out
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

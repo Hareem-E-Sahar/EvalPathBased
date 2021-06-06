@@ -1,0 +1,162 @@
+groups SimpleName MemberValuePair StringLiteral glossaryupdate
+depends on groups SimpleName MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossaryupdate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+related term SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas related term header
+atlas related term header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related term
+savings account SimpleName MethodInvocation SimpleName get guid
+related term SimpleName MethodInvocation SimpleName set term guid
+related term SimpleName MethodInvocation MethodInvocation SimpleName savings account
+related term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName savings account
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+related term SimpleName MethodInvocation SimpleName set status
+related term SimpleName MethodInvocation QualifiedName atlas term relationship statusdraft
+set status SimpleName MethodInvocation QualifiedName atlas term relationship statusdraft
+related term SimpleName MethodInvocation SimpleName set steward
+related term SimpleName MethodInvocation StringLiteral ut
+set steward SimpleName MethodInvocation StringLiteral ut
+related term SimpleName MethodInvocation SimpleName set source
+related term SimpleName MethodInvocation StringLiteral ut
+set source SimpleName MethodInvocation StringLiteral ut
+related term SimpleName MethodInvocation SimpleName set expression
+related term SimpleName MethodInvocation StringLiteral na
+set expression SimpleName MethodInvocation StringLiteral na
+related term SimpleName MethodInvocation SimpleName set description
+related term SimpleName MethodInvocation StringLiteral related term
+set description SimpleName MethodInvocation StringLiteral related term
+assert not null SimpleName MethodInvocation SimpleName checking account
+checking account SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get term
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName checking account
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get term SimpleName MethodInvocation MethodInvocation SimpleName checking account
+get term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+checking account SimpleName Assignment MethodInvocation SimpleName glossary service
+checking account SimpleName Assignment MethodInvocation SimpleName get term
+checking account SimpleName Assignment MethodInvocation MethodInvocation SimpleName checking account
+checking account SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary term fetch shouldve been a success
+fail SimpleName MethodInvocation SimpleName e
+glossary term fetch shouldve been a success StringLiteral MethodInvocation SimpleName e
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName related term
+as list SimpleName MethodInvocation SimpleName related term
+checking account SimpleName MethodInvocation SimpleName set see also
+checking account SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+checking account SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+checking account SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related term
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related term
+glossary service SimpleName MethodInvocation SimpleName update term
+glossary service SimpleName MethodInvocation SimpleName checking account
+update term SimpleName MethodInvocation SimpleName checking account
+checking account SimpleName Assignment MethodInvocation SimpleName glossary service
+checking account SimpleName Assignment MethodInvocation SimpleName update term
+checking account SimpleName Assignment MethodInvocation SimpleName checking account
+checking account SimpleName MethodInvocation SimpleName get see also
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName checking account
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get see also
+checking account SimpleName MethodInvocation SimpleName get see also
+checking account SimpleName MethodInvocation MethodInvocation SimpleName size
+get see also SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName checking account
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get see also
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+checking account SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get see also SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral related term association shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+related term association shouldve succeeded StringLiteral MethodInvocation SimpleName e
+fixed rate mortgage SimpleName MethodInvocation SimpleName get guid
+related term SimpleName MethodInvocation SimpleName set term guid
+related term SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+related term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+set term guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert not null SimpleName MethodInvocation SimpleName adjustable rate mortgage
+adjustable rate mortgage SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get term
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get term SimpleName MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+get term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+adjustable rate mortgage SimpleName Assignment MethodInvocation SimpleName glossary service
+adjustable rate mortgage SimpleName Assignment MethodInvocation SimpleName get term
+adjustable rate mortgage SimpleName Assignment MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+adjustable rate mortgage SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral glossary term fetch shouldve been a success
+fail SimpleName MethodInvocation SimpleName e
+glossary term fetch shouldve been a success StringLiteral MethodInvocation SimpleName e
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName related term
+as list SimpleName MethodInvocation SimpleName related term
+adjustable rate mortgage SimpleName MethodInvocation SimpleName set see also
+adjustable rate mortgage SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+adjustable rate mortgage SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+adjustable rate mortgage SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related term
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+set see also SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related term
+glossary service SimpleName MethodInvocation SimpleName update term
+glossary service SimpleName MethodInvocation SimpleName adjustable rate mortgage
+update term SimpleName MethodInvocation SimpleName adjustable rate mortgage
+adjustable rate mortgage SimpleName Assignment MethodInvocation SimpleName glossary service
+adjustable rate mortgage SimpleName Assignment MethodInvocation SimpleName update term
+adjustable rate mortgage SimpleName Assignment MethodInvocation SimpleName adjustable rate mortgage
+adjustable rate mortgage SimpleName MethodInvocation SimpleName get see also
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get see also
+adjustable rate mortgage SimpleName MethodInvocation SimpleName get see also
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation SimpleName size
+get see also SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName adjustable rate mortgage
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get see also
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+adjustable rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get see also SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral related term association shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+related term association shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test term relation
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term relation
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term relation
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term relation
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term relation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test term relation
+void PrimitiveType MethodDeclaration SimpleName test term relation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test term relation
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test term relation

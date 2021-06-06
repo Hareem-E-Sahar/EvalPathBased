@@ -1,0 +1,81 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName db
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input tables
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input tables
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait names
+atlas entity with associations SimpleName SimpleType ClassInstanceCreation SimpleName view type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity with associations
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName view type
+atlas entity with associations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+to atlas classifications SimpleName MethodInvocation SimpleName trait names
+entity SimpleName MethodInvocation SimpleName set classifications
+entity SimpleName MethodInvocation MethodInvocation SimpleName to atlas classifications
+entity SimpleName MethodInvocation MethodInvocation SimpleName trait names
+set classifications SimpleName MethodInvocation MethodInvocation SimpleName to atlas classifications
+set classifications SimpleName MethodInvocation MethodInvocation SimpleName trait names
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral name
+entity SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation StringLiteral name
+set attribute SimpleName MethodInvocation SimpleName name
+name StringLiteral MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+entity SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation SimpleName name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral db
+entity SimpleName MethodInvocation SimpleName db
+set attribute SimpleName MethodInvocation StringLiteral db
+set attribute SimpleName MethodInvocation SimpleName db
+db StringLiteral MethodInvocation SimpleName db
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral input tables
+entity SimpleName MethodInvocation SimpleName input tables
+set attribute SimpleName MethodInvocation StringLiteral input tables
+set attribute SimpleName MethodInvocation SimpleName input tables
+input tables StringLiteral MethodInvocation SimpleName input tables
+create instance SimpleName MethodInvocation SimpleName entity
+create instance SimpleName MethodInvocation SimpleName trait names
+entity SimpleName MethodInvocation SimpleName trait names
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create view
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input tables
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait names
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input tables
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait names
+create view SimpleName MethodDeclaration SimpleType SimpleName exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input tables
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+db SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input tables
+db SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+db SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+input tables SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+input tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+trait names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create view
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create view
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

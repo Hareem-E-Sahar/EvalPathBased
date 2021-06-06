@@ -1,0 +1,293 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName instance
+final Modifier SingleVariableDeclaration SimpleName inst
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName inst
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old pass
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new pass
+inst SimpleName MethodInvocation SimpleName get zoo keepers
+inst SimpleName MethodInvocation SimpleName get zoo keepers session time out
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+zoo reader writer SimpleName SimpleType ClassInstanceCreation SimpleName old pass
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleName old pass
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation SimpleName old pass
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleName old pass
+get zoo keepers session time out SimpleName MethodInvocation ClassInstanceCreation SimpleName old pass
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo reader writer
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+orig SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName old pass
+final Modifier VariableDeclarationStatement SimpleType SimpleName zoo reader writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName orig
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName old pass
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig
+inst SimpleName MethodInvocation SimpleName get zoo keepers
+inst SimpleName MethodInvocation SimpleName get zoo keepers session time out
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+zoo reader writer SimpleName SimpleType ClassInstanceCreation SimpleName new pass
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleName new pass
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation SimpleName new pass
+inst SimpleName MethodInvocation ClassInstanceCreation SimpleName new pass
+get zoo keepers session time out SimpleName MethodInvocation ClassInstanceCreation SimpleName new pass
+new SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo reader writer
+new SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+new SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+new SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+new SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+new SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName new pass
+final Modifier VariableDeclarationStatement SimpleType SimpleName zoo reader writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName new pass
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+new instance id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName uuid
+new instance id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random uuid
+new instance id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation SimpleName inst
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo util
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName inst
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+zoo reader SimpleName SimpleType SingleVariableDeclaration SimpleName zoo
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+inst SimpleName MethodInvocation SimpleName get instance id
+path SimpleName MethodInvocation SimpleName replace
+path SimpleName MethodInvocation MethodInvocation SimpleName inst
+path SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+path SimpleName MethodInvocation SimpleName new instance id
+replace SimpleName MethodInvocation MethodInvocation SimpleName inst
+replace SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+replace SimpleName MethodInvocation SimpleName new instance id
+inst SimpleName MethodInvocation MethodInvocation SimpleName new instance id
+get instance id SimpleName MethodInvocation MethodInvocation SimpleName new instance id
+new path SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+new path SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+new path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName inst
+new path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance id
+new path SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new path
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation SimpleName path
+get data SimpleName MethodInvocation SimpleName path
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName acl
+orig SimpleName MethodInvocation SimpleName get zoo keeper
+orig SimpleName MethodInvocation MethodInvocation SimpleName get acl
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName get acl
+orig SimpleName MethodInvocation MethodInvocation SimpleName path
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName path
+get acl SimpleName MethodInvocation SimpleName path
+get acl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+acls SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName orig
+acls SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get zoo keeper
+acls SimpleName VariableDeclarationFragment MethodInvocation SimpleName get acl
+acls SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+acls SimpleName MethodInvocation SimpleName contains all
+acls SimpleName MethodInvocation QualifiedName idsread acl unsafe
+contains all SimpleName MethodInvocation QualifiedName idsread acl unsafe
+new SimpleName MethodInvocation SimpleName put persistent data
+new SimpleName MethodInvocation SimpleName new path
+new SimpleName MethodInvocation SimpleName data
+new SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation SimpleName new path
+put persistent data SimpleName MethodInvocation SimpleName data
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+new path SimpleName MethodInvocation SimpleName data
+new path SimpleName MethodInvocation QualifiedName node exists policyfail
+data SimpleName MethodInvocation QualifiedName node exists policyfail
+acls SimpleName MethodInvocation SimpleName contains
+acls SimpleName MethodInvocation QualifiedName idsopen acl unsafe
+contains SimpleName MethodInvocation QualifiedName idsopen acl unsafe
+path SimpleName MethodInvocation SimpleName split
+path SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess InfixExpression QualifiedName partslength
+parts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName equals
+partslength QualifiedName InfixExpression ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression ArrayAccess MethodInvocation SimpleName equals
+parts SimpleName ArrayAccess MethodInvocation StringLiteral users
+partslength QualifiedName InfixExpression ArrayAccess MethodInvocation StringLiteral users
+empty NumberLiteral InfixExpression ArrayAccess MethodInvocation StringLiteral users
+equals SimpleName MethodInvocation StringLiteral users
+new SimpleName MethodInvocation SimpleName put private persistent data
+new SimpleName MethodInvocation SimpleName new path
+new SimpleName MethodInvocation SimpleName data
+new SimpleName MethodInvocation QualifiedName node exists policyfail
+put private persistent data SimpleName MethodInvocation SimpleName new path
+put private persistent data SimpleName MethodInvocation SimpleName data
+put private persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+new path SimpleName MethodInvocation SimpleName data
+new path SimpleName MethodInvocation QualifiedName node exists policyfail
+data SimpleName MethodInvocation QualifiedName node exists policyfail
+new SimpleName MethodInvocation SimpleName put persistent data
+new SimpleName MethodInvocation SimpleName new path
+new SimpleName MethodInvocation SimpleName data
+new SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation SimpleName new path
+put persistent data SimpleName MethodInvocation SimpleName data
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+new path SimpleName MethodInvocation SimpleName data
+new path SimpleName MethodInvocation QualifiedName node exists policyfail
+data SimpleName MethodInvocation QualifiedName node exists policyfail
+new SimpleName MethodInvocation SimpleName put private persistent data
+new SimpleName MethodInvocation SimpleName new path
+new SimpleName MethodInvocation SimpleName data
+new SimpleName MethodInvocation QualifiedName node exists policyfail
+put private persistent data SimpleName MethodInvocation SimpleName new path
+put private persistent data SimpleName MethodInvocation SimpleName data
+put private persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+new path SimpleName MethodInvocation SimpleName data
+new path SimpleName MethodInvocation QualifiedName node exists policyfail
+data SimpleName MethodInvocation QualifiedName node exists policyfail
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+recurse SimpleName MethodInvocation SimpleName orig
+recurse SimpleName MethodInvocation SimpleName root
+recurse SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName visitor
+orig SimpleName MethodInvocation SimpleName root
+orig SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName visitor
+root SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName visitor
+inst SimpleName MethodInvocation SimpleName get instance name
+accumuloinstances StringLiteral InfixExpression MethodInvocation SimpleName inst
+accumuloinstances StringLiteral InfixExpression MethodInvocation SimpleName get instance name
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral accumuloinstances
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName inst
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+orig SimpleName MethodInvocation SimpleName recursive delete
+orig SimpleName MethodInvocation SimpleName path
+orig SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+path SimpleName MethodInvocation QualifiedName node missing policyskip
+new instance id SimpleName MethodInvocation SimpleName get bytes
+new SimpleName MethodInvocation SimpleName put persistent data
+new SimpleName MethodInvocation SimpleName path
+new SimpleName MethodInvocation MethodInvocation SimpleName new instance id
+new SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+new SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName new instance id
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+path SimpleName MethodInvocation MethodInvocation SimpleName new instance id
+path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+path SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+new instance id SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName rewrite zoo keeper instance
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inst
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old pass
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName rewrite zoo keeper instance
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName inst
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName old pass
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName new pass
+string SimpleName SimpleType MethodDeclaration SimpleName rewrite zoo keeper instance
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inst
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName old pass
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new pass
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inst
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old pass
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rewrite zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new pass
+rewrite zoo keeper instance SimpleName MethodDeclaration SimpleType SimpleName exception
+rewrite zoo keeper instance SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+rewrite zoo keeper instance SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+rewrite zoo keeper instance SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+rewrite zoo keeper instance SimpleName MethodDeclaration Block ReturnStatement SimpleName new instance id
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old pass
+inst SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old pass
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new pass
+inst SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new pass
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+inst SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+old pass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new pass
+old pass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+new pass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName rewrite zoo keeper instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inst
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old pass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new pass
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rewrite zoo keeper instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inst
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old pass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new pass
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

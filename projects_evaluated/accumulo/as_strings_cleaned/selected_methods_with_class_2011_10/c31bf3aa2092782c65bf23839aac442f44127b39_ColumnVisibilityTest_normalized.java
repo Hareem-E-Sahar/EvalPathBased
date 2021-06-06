@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName values
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName valueslength
+i SimpleName Assignment NumberLiteral empty
+values SimpleName ArrayAccess SimpleName i
+values SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+i SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cv SimpleName MethodInvocation SimpleName flatten
+i SimpleName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess InfixExpression SimpleName i
+values SimpleName ArrayAccess InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+i SimpleName InfixExpression ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral InfixExpression ArrayAccess MethodInvocation SimpleName get bytes
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName cv
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName flatten
+assert array equals SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName values
+assert array equals SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+cv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+flatten SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName valueslength
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+valueslength QualifiedName InfixExpression ForStatement Assignment SimpleName i
+valueslength QualifiedName InfixExpression ForStatement Assignment NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalized
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration SimpleName normalized
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+normalized SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+normalized SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalized
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalized
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

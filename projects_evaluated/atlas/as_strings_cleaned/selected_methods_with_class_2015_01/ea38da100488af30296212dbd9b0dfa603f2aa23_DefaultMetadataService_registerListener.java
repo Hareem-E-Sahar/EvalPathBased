@@ -1,0 +1,22 @@
+typed instance change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+typed instance change listeners SimpleName MethodInvocation SimpleName add
+typed instance change listeners SimpleName MethodInvocation SimpleName listener
+add SimpleName MethodInvocation SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName typed instance change listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName register listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName typed instance change listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+register listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName typed instance change listener
+register listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

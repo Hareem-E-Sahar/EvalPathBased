@@ -1,0 +1,59 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName type category
+assert valid type category SimpleName MethodInvocation SimpleName type category
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type entry
+types SimpleName MethodInvocation SimpleName entry set
+type entry SimpleName MethodInvocation SimpleName get key
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type entry
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+type entry SimpleName MethodInvocation SimpleName get value
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type entry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type category SimpleName MethodInvocation MethodInvocation SimpleName equals
+type SimpleName MethodInvocation MethodInvocation SimpleName type category
+get type category SimpleName MethodInvocation MethodInvocation SimpleName type category
+equals SimpleName MethodInvocation SimpleName type category
+type names SimpleName MethodInvocation SimpleName add
+type names SimpleName MethodInvocation SimpleName name
+add SimpleName MethodInvocation SimpleName name
+type entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types
+type entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get type names
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type category
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type names
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+get type names SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get type names SimpleName MethodDeclaration Block ReturnStatement SimpleName type names
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

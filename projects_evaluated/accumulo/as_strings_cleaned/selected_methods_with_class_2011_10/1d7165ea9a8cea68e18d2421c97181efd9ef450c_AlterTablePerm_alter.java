@@ -1,0 +1,500 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral task
+props SimpleName MethodInvocation StringLiteral toggle
+get property SimpleName MethodInvocation StringLiteral task
+get property SimpleName MethodInvocation StringLiteral toggle
+task StringLiteral MethodInvocation StringLiteral toggle
+action SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+action SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+action SimpleName VariableDeclarationFragment MethodInvocation StringLiteral task
+action SimpleName VariableDeclarationFragment MethodInvocation StringLiteral toggle
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral perm
+props SimpleName MethodInvocation StringLiteral random
+get property SimpleName MethodInvocation StringLiteral perm
+get property SimpleName MethodInvocation StringLiteral random
+perm StringLiteral MethodInvocation StringLiteral random
+perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+perm SimpleName VariableDeclarationFragment MethodInvocation StringLiteral perm
+perm SimpleName VariableDeclarationFragment MethodInvocation StringLiteral random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perm
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral source
+props SimpleName MethodInvocation StringLiteral system
+get property SimpleName MethodInvocation StringLiteral source
+get property SimpleName MethodInvocation StringLiteral system
+source StringLiteral MethodInvocation StringLiteral system
+source user SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+source user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+source user SimpleName VariableDeclarationFragment MethodInvocation StringLiteral source
+source user SimpleName VariableDeclarationFragment MethodInvocation StringLiteral system
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source user
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral target
+props SimpleName MethodInvocation StringLiteral table
+get property SimpleName MethodInvocation StringLiteral target
+get property SimpleName MethodInvocation StringLiteral table
+target StringLiteral MethodInvocation StringLiteral table
+target user SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+target user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+target user SimpleName VariableDeclarationFragment MethodInvocation StringLiteral target
+target user SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target user
+security helper SimpleName MethodInvocation SimpleName get table exists
+security helper SimpleName MethodInvocation SimpleName state
+get table exists SimpleName MethodInvocation SimpleName state
+tab exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName security helper
+tab exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table exists
+tab exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName security helper
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+table StringLiteral MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation SimpleName target user
+equals SimpleName MethodInvocation SimpleName target user
+security helper SimpleName MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation SimpleName state
+target SimpleName Assignment MethodInvocation SimpleName security helper
+target SimpleName Assignment MethodInvocation SimpleName get tab user name
+target SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation SimpleName state
+get sys user name SimpleName MethodInvocation SimpleName state
+target SimpleName Assignment MethodInvocation SimpleName security helper
+target SimpleName Assignment MethodInvocation SimpleName get sys user name
+target SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab user exists
+security helper SimpleName MethodInvocation SimpleName state
+get tab user exists SimpleName MethodInvocation SimpleName state
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName security helper
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tab user exists
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName security helper
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get tab user exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get table exists
+security helper SimpleName MethodInvocation SimpleName state
+get table exists SimpleName MethodInvocation SimpleName state
+table exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName security helper
+table exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table exists
+table exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName table exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName security helper
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+table permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab perm
+perm SimpleName MethodInvocation SimpleName equals
+perm SimpleName MethodInvocation StringLiteral random
+equals SimpleName MethodInvocation StringLiteral random
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+table permission SimpleName MethodInvocation SimpleName values
+table permission SimpleName MethodInvocation FieldAccess SimpleName length
+values SimpleName MethodInvocation FieldAccess SimpleName length
+r SimpleName MethodInvocation SimpleName next int
+r SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName table permission
+r SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+r SimpleName MethodInvocation FieldAccess SimpleName length
+next int SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName table permission
+next int SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+next int SimpleName MethodInvocation FieldAccess SimpleName length
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName next int
+i SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName r
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next int
+table permission SimpleName MethodInvocation SimpleName values
+table permission SimpleName MethodInvocation ArrayAccess SimpleName i
+values SimpleName MethodInvocation ArrayAccess SimpleName i
+tab perm SimpleName Assignment ArrayAccess MethodInvocation SimpleName table permission
+tab perm SimpleName Assignment ArrayAccess MethodInvocation SimpleName values
+tab perm SimpleName Assignment ArrayAccess SimpleName i
+table permission SimpleName MethodInvocation SimpleName value of
+table permission SimpleName MethodInvocation SimpleName perm
+value of SimpleName MethodInvocation SimpleName perm
+tab perm SimpleName Assignment MethodInvocation SimpleName table permission
+tab perm SimpleName Assignment MethodInvocation SimpleName value of
+tab perm SimpleName Assignment MethodInvocation SimpleName perm
+security helper SimpleName MethodInvocation SimpleName get tab perm
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName target
+security helper SimpleName MethodInvocation SimpleName tab perm
+get tab perm SimpleName MethodInvocation SimpleName state
+get tab perm SimpleName MethodInvocation SimpleName target
+get tab perm SimpleName MethodInvocation SimpleName tab perm
+state SimpleName MethodInvocation SimpleName target
+state SimpleName MethodInvocation SimpleName tab perm
+target SimpleName MethodInvocation SimpleName tab perm
+has perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName security helper
+has perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tab perm
+has perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+has perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+has perm SimpleName VariableDeclarationFragment MethodInvocation SimpleName tab perm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has perm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName security helper
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get tab perm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName target
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tab perm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName can give
+system StringLiteral MethodInvocation SimpleName equals
+system StringLiteral MethodInvocation SimpleName source user
+equals SimpleName MethodInvocation SimpleName source user
+security helper SimpleName MethodInvocation SimpleName get system connector
+security helper SimpleName MethodInvocation SimpleName state
+get system connector SimpleName MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation SimpleName security helper
+conn SimpleName Assignment MethodInvocation SimpleName get system connector
+conn SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation SimpleName state
+get sys user name SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get sys perm
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation MethodInvocation SimpleName security helper
+security helper SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation QualifiedName system permissionalter user
+get sys perm SimpleName MethodInvocation SimpleName state
+get sys perm SimpleName MethodInvocation MethodInvocation SimpleName security helper
+get sys perm SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+get sys perm SimpleName MethodInvocation MethodInvocation SimpleName state
+get sys perm SimpleName MethodInvocation QualifiedName system permissionalter user
+state SimpleName MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+state SimpleName MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation QualifiedName system permissionalter user
+security helper SimpleName MethodInvocation MethodInvocation QualifiedName system permissionalter user
+get sys user name SimpleName MethodInvocation MethodInvocation QualifiedName system permissionalter user
+state SimpleName MethodInvocation MethodInvocation QualifiedName system permissionalter user
+security helper SimpleName MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation SimpleName state
+get sys user name SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab perm
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation MethodInvocation SimpleName security helper
+security helper SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation QualifiedName table permissiongrant
+get tab perm SimpleName MethodInvocation SimpleName state
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName security helper
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName state
+get tab perm SimpleName MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation SimpleName get sys user name
+state SimpleName MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation QualifiedName table permissiongrant
+security helper SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+get sys user name SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+security helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security helper
+security helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tab perm
+security helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissiongrant
+get sys perm SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security helper
+get sys perm SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tab perm
+get sys perm SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+get sys perm SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get tab perm
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+state SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissiongrant
+system permissionalter user QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName security helper
+system permissionalter user QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get tab perm
+system permissionalter user QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName state
+system permissionalter user QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissiongrant
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName security helper
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName get sys perm
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName state
+can give SimpleName Assignment InfixExpression MethodInvocation QualifiedName system permissionalter user
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName security helper
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName get tab perm
+can give SimpleName Assignment InfixExpression MethodInvocation SimpleName state
+can give SimpleName Assignment InfixExpression MethodInvocation QualifiedName table permissiongrant
+table StringLiteral MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation SimpleName source user
+equals SimpleName MethodInvocation SimpleName source user
+state SimpleName MethodInvocation SimpleName get instance
+security helper SimpleName MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab user pass
+security helper SimpleName MethodInvocation SimpleName state
+get tab user pass SimpleName MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user name
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user pass
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user pass
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security helper
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName state
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security helper
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get tab user pass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+security helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user pass
+security helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+get tab user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user pass
+get tab user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tab user pass
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName security helper
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get tab user name
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName security helper
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get tab user pass
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab perm
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation MethodInvocation SimpleName security helper
+security helper SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation QualifiedName table permissiongrant
+get tab perm SimpleName MethodInvocation SimpleName state
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName security helper
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+get tab perm SimpleName MethodInvocation MethodInvocation SimpleName state
+get tab perm SimpleName MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation MethodInvocation SimpleName security helper
+state SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+state SimpleName MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation QualifiedName table permissiongrant
+security helper SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+get tab user name SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+can give SimpleName Assignment MethodInvocation SimpleName security helper
+can give SimpleName Assignment MethodInvocation SimpleName get tab perm
+can give SimpleName Assignment MethodInvocation SimpleName state
+can give SimpleName Assignment MethodInvocation MethodInvocation SimpleName security helper
+can give SimpleName Assignment MethodInvocation MethodInvocation SimpleName get tab user name
+can give SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+can give SimpleName Assignment MethodInvocation QualifiedName table permissiongrant
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+can give SimpleName Assignment BooleanLiteral true
+take StringLiteral MethodInvocation SimpleName equals
+take StringLiteral MethodInvocation SimpleName action
+equals SimpleName MethodInvocation SimpleName action
+give StringLiteral MethodInvocation SimpleName equals
+give StringLiteral MethodInvocation SimpleName action
+equals SimpleName MethodInvocation SimpleName action
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName res
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+security helper SimpleName MethodInvocation SimpleName get table name
+security helper SimpleName MethodInvocation SimpleName state
+get table name SimpleName MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has table permission
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+security operations SimpleName MethodInvocation MethodInvocation SimpleName target
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tab perm
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tab perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+has table permission SimpleName MethodInvocation SimpleName target
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName security helper
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName get table name
+has table permission SimpleName MethodInvocation MethodInvocation SimpleName state
+has table permission SimpleName MethodInvocation SimpleName tab perm
+target SimpleName MethodInvocation MethodInvocation SimpleName security helper
+target SimpleName MethodInvocation MethodInvocation SimpleName get table name
+target SimpleName MethodInvocation MethodInvocation SimpleName state
+target SimpleName MethodInvocation SimpleName tab perm
+security helper SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+get table name SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+state SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+res SimpleName Assignment MethodInvocation MethodInvocation SimpleName security operations
+res SimpleName Assignment MethodInvocation SimpleName has table permission
+res SimpleName Assignment MethodInvocation SimpleName target
+res SimpleName Assignment MethodInvocation MethodInvocation SimpleName security helper
+res SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+res SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+res SimpleName Assignment MethodInvocation SimpleName tab perm
+has perm SimpleName InfixExpression ParenthesizedExpression Assignment SimpleName res
+conn SimpleName MethodInvocation SimpleName whoami
+tab perm SimpleName MethodInvocation SimpleName name
+test framework and accumulo are out of sync for user StringLiteral InfixExpression MethodInvocation SimpleName conn
+test framework and accumulo are out of sync for user StringLiteral InfixExpression MethodInvocation SimpleName whoami
+test framework and accumulo are out of sync for user StringLiteral InfixExpression StringLiteral for perm
+test framework and accumulo are out of sync for user StringLiteral InfixExpression MethodInvocation SimpleName tab perm
+test framework and accumulo are out of sync for user StringLiteral InfixExpression MethodInvocation SimpleName name
+test framework and accumulo are out of sync for user StringLiteral InfixExpression StringLiteral with local vs accumulo being
+test framework and accumulo are out of sync for user StringLiteral InfixExpression SimpleName has perm
+conn SimpleName MethodInvocation InfixExpression StringLiteral for perm
+whoami SimpleName MethodInvocation InfixExpression StringLiteral for perm
+conn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tab perm
+conn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+whoami SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tab perm
+whoami SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+conn SimpleName MethodInvocation InfixExpression StringLiteral with local vs accumulo being
+whoami SimpleName MethodInvocation InfixExpression StringLiteral with local vs accumulo being
+conn SimpleName MethodInvocation InfixExpression SimpleName has perm
+whoami SimpleName MethodInvocation InfixExpression SimpleName has perm
+conn SimpleName MethodInvocation InfixExpression StringLiteral empty
+whoami SimpleName MethodInvocation InfixExpression StringLiteral empty
+for perm StringLiteral InfixExpression MethodInvocation SimpleName tab perm
+for perm StringLiteral InfixExpression MethodInvocation SimpleName name
+for perm StringLiteral InfixExpression StringLiteral with local vs accumulo being
+for perm StringLiteral InfixExpression SimpleName has perm
+for perm StringLiteral InfixExpression StringLiteral empty
+for perm StringLiteral InfixExpression SimpleName res
+tab perm SimpleName MethodInvocation InfixExpression StringLiteral with local vs accumulo being
+name SimpleName MethodInvocation InfixExpression StringLiteral with local vs accumulo being
+tab perm SimpleName MethodInvocation InfixExpression SimpleName has perm
+name SimpleName MethodInvocation InfixExpression SimpleName has perm
+tab perm SimpleName MethodInvocation InfixExpression StringLiteral empty
+name SimpleName MethodInvocation InfixExpression StringLiteral empty
+tab perm SimpleName MethodInvocation InfixExpression SimpleName res
+name SimpleName MethodInvocation InfixExpression SimpleName res
+with local vs accumulo being StringLiteral InfixExpression SimpleName has perm
+with local vs accumulo being StringLiteral InfixExpression StringLiteral empty
+with local vs accumulo being StringLiteral InfixExpression SimpleName res
+has perm SimpleName InfixExpression StringLiteral empty
+has perm SimpleName InfixExpression SimpleName res
+empty StringLiteral InfixExpression SimpleName res
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral test framework and accumulo are out of sync for user
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for perm
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral with local vs accumulo being
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName has perm
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName res
+action SimpleName Assignment StringLiteral take
+action SimpleName Assignment StringLiteral give
+has perm SimpleName IfStatement ExpressionStatement Assignment SimpleName action
+has perm SimpleName IfStatement ExpressionStatement Assignment StringLiteral take
+has perm SimpleName IfStatement ExpressionStatement Assignment SimpleName action
+has perm SimpleName IfStatement ExpressionStatement Assignment StringLiteral give
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName has perm
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+ae SimpleName MethodInvocation SimpleName get error code
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral framework and accumulo are out of sync we think user exists
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+framework and accumulo are out of sync we think user exists StringLiteral ClassInstanceCreation SimpleName ae
+exists SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral framework and accumulo are out of sync we think user exists
+exists SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+conn SimpleName MethodInvocation SimpleName whoami
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName whoami
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleName ae
+whoami SimpleName MethodInvocation ClassInstanceCreation SimpleName ae
+tab exists SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName user doesnt exist
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName user doesnt exist
+ae SimpleName MethodInvocation SwitchStatement IfStatement SimpleName exists
+get error code SimpleName MethodInvocation SwitchStatement IfStatement SimpleName exists
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table doesnt exist
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table doesnt exist
+ae SimpleName MethodInvocation SwitchStatement IfStatement SimpleName tab exists
+get error code SimpleName MethodInvocation SwitchStatement IfStatement SimpleName tab exists
+user doesnt exist SimpleName SwitchCase SwitchStatement IfStatement SimpleName exists
+user doesnt exist SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table doesnt exist
+user doesnt exist SimpleName SwitchCase SwitchStatement IfStatement SimpleName tab exists
+user doesnt exist SimpleName SwitchCase SwitchStatement ThrowStatement SimpleName ae
+exists SimpleName IfStatement SwitchStatement SwitchCase SimpleName table doesnt exist
+exists SimpleName IfStatement SwitchStatement IfStatement SimpleName tab exists
+exists SimpleName IfStatement SwitchStatement ThrowStatement SimpleName ae
+table doesnt exist SimpleName SwitchCase SwitchStatement IfStatement SimpleName tab exists
+table doesnt exist SimpleName SwitchCase SwitchStatement ThrowStatement SimpleName ae
+tab exists SimpleName IfStatement SwitchStatement ThrowStatement SimpleName ae
+take StringLiteral MethodInvocation SimpleName equals
+take StringLiteral MethodInvocation SimpleName action
+equals SimpleName MethodInvocation SimpleName action
+conn SimpleName MethodInvocation SimpleName security operations
+security helper SimpleName MethodInvocation SimpleName get table name
+security helper SimpleName MethodInvocation SimpleName state
+get table name SimpleName MethodInvocation SimpleName state
+conn SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName target
+security operations SimpleName MethodInvocation MethodInvocation SimpleName target
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security helper
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+conn SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+revoke table permission SimpleName MethodInvocation SimpleName target
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName security helper
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName get table name
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName state
+revoke table permission SimpleName MethodInvocation SimpleName tab perm
+target SimpleName MethodInvocation MethodInvocation SimpleName security helper
+target SimpleName MethodInvocation MethodInvocation SimpleName get table name
+target SimpleName MethodInvocation MethodInvocation SimpleName state
+target SimpleName MethodInvocation SimpleName tab perm
+security helper SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+get table name SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+state SimpleName MethodInvocation MethodInvocation SimpleName tab perm
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+ae SimpleName MethodInvocation SimpleName get error code
+tab perm SimpleName MethodInvocation SimpleName equals
+tab perm SimpleName MethodInvocation QualifiedName system permissiongrant
+equals SimpleName MethodInvocation QualifiedName system permissiongrant
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral test user failed to give permission when it should have worked
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+test user failed to give permission when it should have worked StringLiteral ClassInstanceCreation SimpleName ae
+can give SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral test user failed to give permission when it should have worked
+can give SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral table user doesnt exist and they should
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+table user doesnt exist and they should StringLiteral ClassInstanceCreation SimpleName ae
+exists SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral table user doesnt exist and they should
+exists SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral table doesnt exist but it should
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+table doesnt exist but it should StringLiteral ClassInstanceCreation SimpleName ae
+table exists SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral table doesnt exist but it should
+table exists SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral got unexpected exception
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+got unexpected exception StringLiteral ClassInstanceCreation SimpleName ae
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName grant invalid
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName grant invalid
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName permission denied
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName permission denied
+ae SimpleName MethodInvocation SwitchStatement IfStatement SimpleName can give
+get error code SimpleName MethodInvocation SwitchStatement IfStatement SimpleName can give
+grant invalid SimpleName SwitchCase SwitchStatement SwitchCase SimpleName permission denied
+grant invalid SimpleName SwitchCase SwitchStatement IfStatement SimpleName can give
+grant invalid SimpleName SwitchCase SwitchStatement SwitchCase SimpleName user doesnt exist
+permission denied SimpleName SwitchCase SwitchStatement IfStatement SimpleName can give
+permission denied SimpleName SwitchCase SwitchStatement SwitchCase SimpleName user doesnt exist

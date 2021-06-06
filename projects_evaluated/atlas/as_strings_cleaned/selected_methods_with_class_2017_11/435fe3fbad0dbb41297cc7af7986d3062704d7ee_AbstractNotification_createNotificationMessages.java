@@ -1,0 +1,248 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName message
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName msg json list
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName msg json list
+atlas notification message SimpleName SimpleType ParameterizedType WildcardType ?
+atlas notification message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current message version
+atlas notification message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName message
+current message version SimpleName ClassInstanceCreation SimpleName message
+current message version SimpleName ClassInstanceCreation MethodInvocation SimpleName get host address
+current message version SimpleName ClassInstanceCreation MethodInvocation SimpleName get current user
+message SimpleName ClassInstanceCreation MethodInvocation SimpleName get host address
+message SimpleName ClassInstanceCreation MethodInvocation SimpleName get current user
+get host address SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current user
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current message version
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get host address
+notification msg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get current user
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification msg
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName notification msg
+to v json SimpleName MethodInvocation SimpleName notification msg
+msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName notification msg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg json
+msg json SimpleName MethodInvocation SimpleName length
+msg json SimpleName MethodInvocation InfixExpression SimpleName max bytes per char
+length SimpleName MethodInvocation InfixExpression SimpleName max bytes per char
+max bytes per char SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName message max length bytes
+msg length exceeds limit SimpleName VariableDeclarationFragment InfixExpression SimpleName message max length bytes
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg length exceeds limit
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName message max length bytes
+atlas notification base message SimpleName MethodInvocation SimpleName get bytes utf
+atlas notification base message SimpleName MethodInvocation SimpleName msg json
+get bytes utf SimpleName MethodInvocation SimpleName msg json
+msg bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas notification base message
+msg bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes utf
+msg bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName msg json
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg bytes
+msg byteslength QualifiedName InfixExpression SimpleName message max length bytes
+msg length exceeds limit SimpleName Assignment InfixExpression QualifiedName msg byteslength
+msg length exceeds limit SimpleName Assignment InfixExpression SimpleName message max length bytes
+msg id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next message id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg id
+compression kind SimpleName VariableDeclarationFragment QualifiedName compression kindnone
+compression kind SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName compression kind
+compression kind SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName compression kindnone
+atlas notification base message SimpleName MethodInvocation SimpleName gzip compress and encode base
+atlas notification base message SimpleName MethodInvocation SimpleName msg bytes
+gzip compress and encode base SimpleName MethodInvocation SimpleName msg bytes
+encoded bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas notification base message
+encoded bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName gzip compress and encode base
+encoded bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName msg bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded bytes
+compression kind SimpleName Assignment QualifiedName compression kindgzip
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral compressed large message msg id uncompressed bytes compressed bytes
+log SimpleName MethodInvocation SimpleName msg id
+log SimpleName MethodInvocation QualifiedName msg byteslength
+log SimpleName MethodInvocation QualifiedName encoded byteslength
+info SimpleName MethodInvocation StringLiteral compressed large message msg id uncompressed bytes compressed bytes
+info SimpleName MethodInvocation SimpleName msg id
+info SimpleName MethodInvocation QualifiedName msg byteslength
+info SimpleName MethodInvocation QualifiedName encoded byteslength
+compressed large message msg id uncompressed bytes compressed bytes StringLiteral MethodInvocation SimpleName msg id
+compressed large message msg id uncompressed bytes compressed bytes StringLiteral MethodInvocation QualifiedName msg byteslength
+compressed large message msg id uncompressed bytes compressed bytes StringLiteral MethodInvocation QualifiedName encoded byteslength
+msg id SimpleName MethodInvocation QualifiedName msg byteslength
+msg id SimpleName MethodInvocation QualifiedName encoded byteslength
+msg byteslength QualifiedName MethodInvocation QualifiedName encoded byteslength
+encoded byteslength QualifiedName InfixExpression SimpleName message max length bytes
+msg length exceeds limit SimpleName Assignment InfixExpression QualifiedName encoded byteslength
+msg length exceeds limit SimpleName Assignment InfixExpression SimpleName message max length bytes
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName encoded bytes
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName msg id
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName compression kind
+encoded bytes SimpleName ClassInstanceCreation SimpleName msg id
+encoded bytes SimpleName ClassInstanceCreation SimpleName compression kind
+msg id SimpleName ClassInstanceCreation SimpleName compression kind
+compressed msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas notification string message
+compressed msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName encoded bytes
+compressed msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName msg id
+compressed msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName compression kind
+atlas notification string message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName compressed msg
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName compressed msg
+to v json SimpleName MethodInvocation SimpleName compressed msg
+msg json SimpleName Assignment MethodInvocation SimpleName atlas type
+msg json SimpleName Assignment MethodInvocation SimpleName to v json
+msg json SimpleName Assignment MethodInvocation SimpleName compressed msg
+msg bytes SimpleName Assignment SimpleName encoded bytes
+atlas notification base message SimpleName MethodInvocation SimpleName encode base
+atlas notification base message SimpleName MethodInvocation SimpleName msg bytes
+encode base SimpleName MethodInvocation SimpleName msg bytes
+message compression enabled SimpleName ConditionalExpression SimpleName msg bytes
+message compression enabled SimpleName ConditionalExpression MethodInvocation SimpleName atlas notification base message
+message compression enabled SimpleName ConditionalExpression MethodInvocation SimpleName encode base
+message compression enabled SimpleName ConditionalExpression MethodInvocation SimpleName msg bytes
+msg bytes SimpleName ConditionalExpression MethodInvocation SimpleName atlas notification base message
+msg bytes SimpleName ConditionalExpression MethodInvocation SimpleName encode base
+msg bytes SimpleName ConditionalExpression MethodInvocation SimpleName msg bytes
+encoded bytes SimpleName VariableDeclarationFragment ConditionalExpression SimpleName message compression enabled
+encoded bytes SimpleName VariableDeclarationFragment ConditionalExpression SimpleName msg bytes
+encoded bytes SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName atlas notification base message
+encoded bytes SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName encode base
+encoded bytes SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName msg bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded bytes
+encoded byteslength QualifiedName InfixExpression SimpleName message max length bytes
+split count SimpleName VariableDeclarationFragment InfixExpression QualifiedName encoded byteslength
+split count SimpleName VariableDeclarationFragment InfixExpression SimpleName message max length bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName split count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName encoded byteslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName message max length bytes
+encoded byteslength QualifiedName InfixExpression SimpleName message max length bytes
+encoded byteslength QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+message max length bytes SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName offset
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName offset
+i SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName offset
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName split count
+length SimpleName VariableDeclarationFragment SimpleName message max length bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName message max length bytes
+offset SimpleName InfixExpression SimpleName length
+offset SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName encoded byteslength
+length SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName encoded byteslength
+encoded byteslength QualifiedName InfixExpression SimpleName offset
+length SimpleName Assignment InfixExpression QualifiedName encoded byteslength
+length SimpleName Assignment InfixExpression SimpleName offset
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName encoded bytes
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName offset
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName length
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName msg id
+atlas notification string message SimpleName SimpleType ClassInstanceCreation SimpleName compression kind
+encoded bytes SimpleName ClassInstanceCreation SimpleName offset
+encoded bytes SimpleName ClassInstanceCreation SimpleName length
+encoded bytes SimpleName ClassInstanceCreation SimpleName msg id
+encoded bytes SimpleName ClassInstanceCreation SimpleName compression kind
+encoded bytes SimpleName ClassInstanceCreation SimpleName i
+offset SimpleName ClassInstanceCreation SimpleName length
+offset SimpleName ClassInstanceCreation SimpleName msg id
+offset SimpleName ClassInstanceCreation SimpleName compression kind
+offset SimpleName ClassInstanceCreation SimpleName i
+offset SimpleName ClassInstanceCreation SimpleName split count
+length SimpleName ClassInstanceCreation SimpleName msg id
+length SimpleName ClassInstanceCreation SimpleName compression kind
+length SimpleName ClassInstanceCreation SimpleName i
+length SimpleName ClassInstanceCreation SimpleName split count
+msg id SimpleName ClassInstanceCreation SimpleName compression kind
+msg id SimpleName ClassInstanceCreation SimpleName i
+msg id SimpleName ClassInstanceCreation SimpleName split count
+compression kind SimpleName ClassInstanceCreation SimpleName i
+compression kind SimpleName ClassInstanceCreation SimpleName split count
+i SimpleName ClassInstanceCreation SimpleName split count
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas notification string message
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName encoded bytes
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName offset
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName length
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName msg id
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName compression kind
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName i
+split msg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName split count
+atlas notification string message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName split msg
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName split msg
+to v json SimpleName MethodInvocation SimpleName split msg
+split msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+split msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+split msg json SimpleName VariableDeclarationFragment MethodInvocation SimpleName split msg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName split msg json
+msg json list SimpleName MethodInvocation SimpleName add
+msg json list SimpleName MethodInvocation SimpleName split msg json
+add SimpleName MethodInvocation SimpleName split msg json
+offset SimpleName Assignment SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName split count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+split count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral split large message msg id split count length bytes
+log SimpleName MethodInvocation SimpleName msg id
+log SimpleName MethodInvocation SimpleName split count
+log SimpleName MethodInvocation QualifiedName encoded byteslength
+info SimpleName MethodInvocation StringLiteral split large message msg id split count length bytes
+info SimpleName MethodInvocation SimpleName msg id
+info SimpleName MethodInvocation SimpleName split count
+info SimpleName MethodInvocation QualifiedName encoded byteslength
+split large message msg id split count length bytes StringLiteral MethodInvocation SimpleName msg id
+split large message msg id split count length bytes StringLiteral MethodInvocation SimpleName split count
+split large message msg id split count length bytes StringLiteral MethodInvocation QualifiedName encoded byteslength
+msg id SimpleName MethodInvocation SimpleName split count
+msg id SimpleName MethodInvocation QualifiedName encoded byteslength
+split count SimpleName MethodInvocation QualifiedName encoded byteslength
+msg length exceeds limit SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+message compression enabled SimpleName IfStatement Block IfStatement SimpleName msg length exceeds limit
+msg length exceeds limit SimpleName IfStatement Block IfStatement SimpleName message compression enabled
+msg length exceeds limit SimpleName IfStatement Block IfStatement SimpleName msg length exceeds limit
+msg length exceeds limit SimpleName IfStatement Block IfStatement SimpleName msg length exceeds limit
+msg json list SimpleName MethodInvocation SimpleName add
+msg json list SimpleName MethodInvocation SimpleName msg json
+add SimpleName MethodInvocation SimpleName msg json
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName msg length exceeds limit
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create notification messages
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName create notification messages
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block IfStatement SimpleName msg length exceeds limit
+void PrimitiveType MethodDeclaration SimpleName create notification messages
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName msg length exceeds limit
+create notification messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create notification messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+create notification messages SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+create notification messages SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create notification messages SimpleName MethodDeclaration Block IfStatement SimpleName msg length exceeds limit
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create notification messages
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg json list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create notification messages
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg json list

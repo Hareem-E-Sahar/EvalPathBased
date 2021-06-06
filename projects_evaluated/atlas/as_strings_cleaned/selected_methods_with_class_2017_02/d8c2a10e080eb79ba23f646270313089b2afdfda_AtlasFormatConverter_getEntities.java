@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity with associations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity with associations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity with associations
+public Modifier MethodDeclaration SimpleName get entities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entities
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+atlas entity with associations SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+get entities SimpleName MethodDeclaration Block ReturnStatement SimpleName entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entities

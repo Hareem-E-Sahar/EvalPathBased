@@ -1,0 +1,186 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName MethodInvocation SimpleName get column qualifier
+colq SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+colq SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colq
+colq SimpleName MethodInvocation SimpleName find
+colq SimpleName MethodInvocation StringLiteral \
+find SimpleName MethodInvocation StringLiteral \
+first zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName colq
+first zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName find
+first zero index SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first zero index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName colq
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral \
+first zero index SimpleName InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName to string
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName key
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName to string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad docid
+first zero index SimpleName InfixExpression NumberLiteral empty
+colq SimpleName MethodInvocation SimpleName find
+colq SimpleName MethodInvocation StringLiteral \
+colq SimpleName MethodInvocation InfixExpression SimpleName first zero index
+colq SimpleName MethodInvocation InfixExpression NumberLiteral empty
+find SimpleName MethodInvocation StringLiteral \
+find SimpleName MethodInvocation InfixExpression SimpleName first zero index
+find SimpleName MethodInvocation InfixExpression NumberLiteral empty
+\ StringLiteral MethodInvocation InfixExpression SimpleName first zero index
+\ StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+second zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName colq
+second zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName find
+second zero index SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \
+second zero index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName first zero index
+second zero index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName second zero index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName colq
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral \
+second zero index SimpleName InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName to string
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName key
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName to string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad docid
+second zero index SimpleName InfixExpression NumberLiteral empty
+colq SimpleName MethodInvocation SimpleName find
+colq SimpleName MethodInvocation StringLiteral \
+colq SimpleName MethodInvocation InfixExpression SimpleName second zero index
+colq SimpleName MethodInvocation InfixExpression NumberLiteral empty
+find SimpleName MethodInvocation StringLiteral \
+find SimpleName MethodInvocation InfixExpression SimpleName second zero index
+find SimpleName MethodInvocation InfixExpression NumberLiteral empty
+\ StringLiteral MethodInvocation InfixExpression SimpleName second zero index
+\ StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+third zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName colq
+third zero index SimpleName VariableDeclarationFragment MethodInvocation SimpleName find
+third zero index SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \
+third zero index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName second zero index
+third zero index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName third zero index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName colq
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral \
+third zero index SimpleName InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName to string
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName key
+bad docid StringLiteral InfixExpression MethodInvocation SimpleName to string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad docid
+doc id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc id
+colq SimpleName MethodInvocation SimpleName get bytes
+first zero index SimpleName InfixExpression NumberLiteral empty
+third zero index SimpleName InfixExpression NumberLiteral empty
+third zero index SimpleName InfixExpression SimpleName first zero index
+empty NumberLiteral InfixExpression SimpleName first zero index
+doc id SimpleName MethodInvocation SimpleName set
+doc id SimpleName MethodInvocation MethodInvocation SimpleName colq
+doc id SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+doc id SimpleName MethodInvocation InfixExpression SimpleName first zero index
+doc id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+doc id SimpleName MethodInvocation InfixExpression SimpleName third zero index
+doc id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+doc id SimpleName MethodInvocation InfixExpression SimpleName first zero index
+set SimpleName MethodInvocation MethodInvocation SimpleName colq
+set SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set SimpleName MethodInvocation InfixExpression SimpleName first zero index
+set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation InfixExpression SimpleName third zero index
+set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation InfixExpression SimpleName first zero index
+colq SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first zero index
+colq SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first zero index
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+colq SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName third zero index
+colq SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+colq SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first zero index
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName third zero index
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first zero index
+first zero index SimpleName InfixExpression MethodInvocation InfixExpression SimpleName third zero index
+first zero index SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+first zero index SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first zero index
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName third zero index
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName first zero index
+array index out of bounds exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+key SimpleName MethodInvocation SimpleName to string
+bad indices for docid StringLiteral InfixExpression MethodInvocation SimpleName key
+bad indices for docid StringLiteral InfixExpression MethodInvocation SimpleName to string
+bad indices for docid StringLiteral InfixExpression StringLiteral empty
+bad indices for docid StringLiteral InfixExpression SimpleName first zero index
+bad indices for docid StringLiteral InfixExpression StringLiteral empty
+bad indices for docid StringLiteral InfixExpression SimpleName second zero index
+key SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+key SimpleName MethodInvocation InfixExpression SimpleName first zero index
+to string SimpleName MethodInvocation InfixExpression SimpleName first zero index
+key SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+key SimpleName MethodInvocation InfixExpression SimpleName second zero index
+to string SimpleName MethodInvocation InfixExpression SimpleName second zero index
+key SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName first zero index
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName second zero index
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName third zero index
+first zero index SimpleName InfixExpression StringLiteral empty
+first zero index SimpleName InfixExpression SimpleName second zero index
+first zero index SimpleName InfixExpression StringLiteral empty
+first zero index SimpleName InfixExpression SimpleName third zero index
+empty StringLiteral InfixExpression SimpleName second zero index
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName third zero index
+second zero index SimpleName InfixExpression StringLiteral empty
+second zero index SimpleName InfixExpression SimpleName third zero index
+empty StringLiteral InfixExpression SimpleName third zero index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad indices for docid
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName first zero index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName second zero index
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName third zero index
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName doc id
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName parse doc id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName doc id
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName parse doc id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName doc id
+text SimpleName SimpleType MethodDeclaration SimpleName parse doc id
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+parse doc id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+parse doc id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+parse doc id SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse doc id SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse doc id SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse doc id SimpleName MethodDeclaration Block ReturnStatement SimpleName doc id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse doc id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse doc id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

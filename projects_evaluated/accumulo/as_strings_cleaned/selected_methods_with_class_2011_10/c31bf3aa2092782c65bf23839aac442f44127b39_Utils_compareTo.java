@@ -1,0 +1,28 @@
+version SimpleName SimpleType SingleVariableDeclaration SimpleName that
+major SimpleName InfixExpression QualifiedName thatmajor
+major SimpleName InfixExpression QualifiedName thatmajor
+minor SimpleName InfixExpression QualifiedName thatminor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName that
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName that
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName that
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName version
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName that
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName that

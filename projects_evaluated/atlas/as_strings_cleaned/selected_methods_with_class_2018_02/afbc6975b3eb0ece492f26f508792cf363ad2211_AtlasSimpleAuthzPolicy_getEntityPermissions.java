@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity permission
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity permission
+public Modifier MethodDeclaration SimpleName get entity permissions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity permissions
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity permissions
+atlas entity permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity permissions
+get entity permissions SimpleName MethodDeclaration Block ReturnStatement SimpleName entity permissions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity permissions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity permissions

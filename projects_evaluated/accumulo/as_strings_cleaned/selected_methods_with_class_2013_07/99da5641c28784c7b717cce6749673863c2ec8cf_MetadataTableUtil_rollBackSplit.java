@@ -1,0 +1,92 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName metadata entry
+text SimpleName SimpleType SingleVariableDeclaration SimpleName old prev end row
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName zoo lock
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName metadata entry
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName old prev end row
+metadata entry SimpleName ClassInstanceCreation SimpleName old prev end row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName metadata entry
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName old prev end row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+ke SimpleName MethodInvocation SimpleName get prev row update mutation
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prev row update mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+tablets sectiontablet column familysplit ratio column QualifiedName MethodInvocation SimpleName put delete
+tablets sectiontablet column familysplit ratio column QualifiedName MethodInvocation SimpleName m
+put delete SimpleName MethodInvocation SimpleName m
+tablets sectiontablet column familyold prev row column QualifiedName MethodInvocation SimpleName put delete
+tablets sectiontablet column familyold prev row column QualifiedName MethodInvocation SimpleName m
+put delete SimpleName MethodInvocation SimpleName m
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName metadata entry
+metadata entry SimpleName ClassInstanceCreation CastExpression SimpleType SimpleName text
+update SimpleName MethodInvocation SimpleName credentials
+update SimpleName MethodInvocation SimpleName zoo lock
+update SimpleName MethodInvocation SimpleName m
+update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+update SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata entry
+credentials SimpleName MethodInvocation SimpleName zoo lock
+credentials SimpleName MethodInvocation SimpleName m
+credentials SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+credentials SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata entry
+zoo lock SimpleName MethodInvocation SimpleName m
+zoo lock SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+zoo lock SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata entry
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+m SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata entry
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName roll back split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName roll back split
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SimpleName roll back split
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+roll back split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+old prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+old prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName roll back split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName roll back split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old prev end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo lock

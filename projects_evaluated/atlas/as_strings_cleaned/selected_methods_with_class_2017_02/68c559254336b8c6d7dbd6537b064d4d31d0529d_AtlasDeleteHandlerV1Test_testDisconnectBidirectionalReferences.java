@@ -1,0 +1,496 @@
+test utils v SimpleName MethodInvocation SimpleName create dept eg
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils v
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName create dept eg
+atlas entityatlas entities with ext info QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName hr dept
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName hr dept
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName hr dept
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+hr dept SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+hr dept creation response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+hr dept creation response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+hr dept creation response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName hr dept
+hr dept creation response SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+final Modifier VariableDeclarationStatement SimpleType SimpleName entity mutation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity store
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create or update
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept creation response
+hr dept creation response SimpleName MethodInvocation SimpleName get first created entity by type name
+hr dept creation response SimpleName MethodInvocation SimpleName department type
+get first created entity by type name SimpleName MethodInvocation SimpleName department type
+dept created SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+dept created SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first created entity by type name
+dept created SimpleName VariableDeclarationFragment MethodInvocation SimpleName department type
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity header
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName dept created
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get first created entity by type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName department type
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept created
+hr dept creation response SimpleName MethodInvocation SimpleName get created entity by type name and attribute
+hr dept creation response SimpleName MethodInvocation QualifiedName test utils v employee type
+hr dept creation response SimpleName MethodInvocation SimpleName name
+hr dept creation response SimpleName MethodInvocation StringLiteral max
+get created entity by type name and attribute SimpleName MethodInvocation QualifiedName test utils v employee type
+get created entity by type name and attribute SimpleName MethodInvocation SimpleName name
+get created entity by type name and attribute SimpleName MethodInvocation StringLiteral max
+test utils v employee type QualifiedName MethodInvocation SimpleName name
+test utils v employee type QualifiedName MethodInvocation StringLiteral max
+name SimpleName MethodInvocation StringLiteral max
+max employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+max employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+max employee SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v employee type
+max employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+max employee SimpleName VariableDeclarationFragment MethodInvocation StringLiteral max
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity header
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName max employee
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v employee type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral max
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max employee
+hr dept creation response SimpleName MethodInvocation SimpleName get created entity by type name and attribute
+hr dept creation response SimpleName MethodInvocation QualifiedName test utils v employee type
+hr dept creation response SimpleName MethodInvocation SimpleName name
+hr dept creation response SimpleName MethodInvocation StringLiteral john
+get created entity by type name and attribute SimpleName MethodInvocation QualifiedName test utils v employee type
+get created entity by type name and attribute SimpleName MethodInvocation SimpleName name
+get created entity by type name and attribute SimpleName MethodInvocation StringLiteral john
+test utils v employee type QualifiedName MethodInvocation SimpleName name
+test utils v employee type QualifiedName MethodInvocation StringLiteral john
+name SimpleName MethodInvocation StringLiteral john
+john employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+john employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+john employee SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v employee type
+john employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+john employee SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity header
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName john employee
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v employee type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral john
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john employee
+hr dept creation response SimpleName MethodInvocation SimpleName get created entity by type name and attribute
+hr dept creation response SimpleName MethodInvocation QualifiedName test utils v manager type
+hr dept creation response SimpleName MethodInvocation SimpleName name
+hr dept creation response SimpleName MethodInvocation StringLiteral jane
+get created entity by type name and attribute SimpleName MethodInvocation QualifiedName test utils v manager type
+get created entity by type name and attribute SimpleName MethodInvocation SimpleName name
+get created entity by type name and attribute SimpleName MethodInvocation StringLiteral jane
+test utils v manager type QualifiedName MethodInvocation SimpleName name
+test utils v manager type QualifiedName MethodInvocation StringLiteral jane
+name SimpleName MethodInvocation StringLiteral jane
+jane employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+jane employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+jane employee SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v manager type
+jane employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+jane employee SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jane
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity header
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName jane employee
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v manager type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral jane
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane employee
+hr dept creation response SimpleName MethodInvocation SimpleName get created entity by type name and attribute
+hr dept creation response SimpleName MethodInvocation QualifiedName test utils v manager type
+hr dept creation response SimpleName MethodInvocation SimpleName name
+hr dept creation response SimpleName MethodInvocation StringLiteral julius
+get created entity by type name and attribute SimpleName MethodInvocation QualifiedName test utils v manager type
+get created entity by type name and attribute SimpleName MethodInvocation SimpleName name
+get created entity by type name and attribute SimpleName MethodInvocation StringLiteral julius
+test utils v manager type QualifiedName MethodInvocation SimpleName name
+test utils v manager type QualifiedName MethodInvocation StringLiteral julius
+name SimpleName MethodInvocation StringLiteral julius
+julius employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+julius employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+julius employee SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v manager type
+julius employee SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+julius employee SimpleName VariableDeclarationFragment MethodInvocation StringLiteral julius
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity header
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName julius employee
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hr dept creation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get created entity by type name and attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName test utils v manager type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral julius
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName julius employee
+dept created SimpleName MethodInvocation SimpleName get guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName dept created
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName dept created
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get guid
+hr dept instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+hr dept instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+hr dept instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dept created
+hr dept instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get employee name guid map SimpleName MethodInvocation SimpleName hr dept instance
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get employee name guid map
+name guid map SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept instance
+jane employee SimpleName MethodInvocation SimpleName get guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get guid
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jane employee
+jane SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane
+jane SimpleName MethodInvocation SimpleName get
+jane SimpleName MethodInvocation StringLiteral subordinates
+get SimpleName MethodInvocation StringLiteral subordinates
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName jane
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ref value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral subordinates
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value
+ref value SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+object SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+subordinates SimpleName VariableDeclarationFragment CastExpression SimpleName ref value
+subordinates SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName subordinates
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName subordinates
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+subordinates SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+subordinate ids SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+object SimpleName SimpleType SingleVariableDeclaration SimpleName list value
+list value SimpleName InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName list value
+employee SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed referenceable instance
+employee SimpleName VariableDeclarationFragment CastExpression SimpleName list value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employee
+employee SimpleName MethodInvocation SimpleName get id
+employee SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+subordinate ids SimpleName MethodInvocation SimpleName add
+subordinate ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+subordinate ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+subordinate ids SimpleName MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName subordinates
+list value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName subordinates
+max employee SimpleName MethodInvocation SimpleName get guid
+subordinate ids SimpleName MethodInvocation SimpleName contains
+subordinate ids SimpleName MethodInvocation MethodInvocation SimpleName max employee
+subordinate ids SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contains SimpleName MethodInvocation MethodInvocation SimpleName max employee
+contains SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName subordinate ids
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max employee
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName subordinate ids
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max employee
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+max employee SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName delete by id
+entity store SimpleName MethodInvocation MethodInvocation SimpleName max employee
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+delete by id SimpleName MethodInvocation MethodInvocation SimpleName max employee
+delete by id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete by id
+entity result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName max employee
+entity result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+metadata service SimpleName MethodInvocation SimpleName get entity definition reference
+metadata service SimpleName MethodInvocation QualifiedName test utils v employee type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation StringLiteral john
+get entity definition reference SimpleName MethodInvocation QualifiedName test utils v employee type
+get entity definition reference SimpleName MethodInvocation SimpleName name
+get entity definition reference SimpleName MethodInvocation StringLiteral john
+test utils v employee type QualifiedName MethodInvocation SimpleName name
+test utils v employee type QualifiedName MethodInvocation StringLiteral john
+name SimpleName MethodInvocation StringLiteral john
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition reference
+john SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utils v employee type
+john SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+john SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName john
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entity result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+max employee SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName max employee
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max employee
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+entity result SimpleName MethodInvocation SimpleName get updated entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get updated entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get updated entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get updated entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get updated entities
+extract guids SimpleName MethodInvocation MethodInvocation SimpleName entity result
+extract guids SimpleName MethodInvocation MethodInvocation SimpleName get updated entities
+jane employee SimpleName MethodInvocation SimpleName get guid
+dept created SimpleName MethodInvocation SimpleName get guid
+john employee SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation MethodInvocation SimpleName dept created
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation MethodInvocation SimpleName john employee
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get guid
+as list SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+as list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+as list SimpleName MethodInvocation MethodInvocation SimpleName dept created
+as list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+as list SimpleName MethodInvocation MethodInvocation SimpleName john employee
+as list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+jane employee SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dept created
+jane employee SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dept created
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+jane employee SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+jane employee SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+dept created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+dept created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName extract guids
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get updated entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as list
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane employee
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dept created
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+extract guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+extract guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+max employee SimpleName MethodInvocation SimpleName get guid
+assert entity deleted SimpleName MethodInvocation MethodInvocation SimpleName max employee
+assert entity deleted SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert max for test disconnect bidirectional references SimpleName MethodInvocation SimpleName name guid map
+jane employee SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName delete by id
+entity store SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+delete by id SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+delete by id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity result SimpleName Assignment MethodInvocation SimpleName entity store
+entity result SimpleName Assignment MethodInvocation SimpleName delete by id
+entity result SimpleName Assignment MethodInvocation MethodInvocation SimpleName jane employee
+entity result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entity result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+jane employee SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jane employee
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+entity result SimpleName MethodInvocation SimpleName get updated entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get updated entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get updated entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get updated entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get updated entities
+extract guids SimpleName MethodInvocation MethodInvocation SimpleName entity result
+extract guids SimpleName MethodInvocation MethodInvocation SimpleName get updated entities
+dept created SimpleName MethodInvocation SimpleName get guid
+john employee SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName dept created
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation MethodInvocation SimpleName john employee
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get guid
+as list SimpleName MethodInvocation MethodInvocation SimpleName dept created
+as list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+as list SimpleName MethodInvocation MethodInvocation SimpleName john employee
+as list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+dept created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+dept created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName extract guids
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get updated entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as list
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dept created
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName john employee
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+extract guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+extract guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+jane employee SimpleName MethodInvocation SimpleName get guid
+assert entity deleted SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+assert entity deleted SimpleName MethodInvocation MethodInvocation SimpleName get guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition reference
+metadata service SimpleName MethodInvocation QualifiedName test utils v employee type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation StringLiteral john
+get entity definition reference SimpleName MethodInvocation QualifiedName test utils v employee type
+get entity definition reference SimpleName MethodInvocation SimpleName name
+get entity definition reference SimpleName MethodInvocation StringLiteral john
+test utils v employee type QualifiedName MethodInvocation SimpleName name
+test utils v employee type QualifiedName MethodInvocation StringLiteral john
+name SimpleName MethodInvocation StringLiteral john
+john SimpleName Assignment MethodInvocation SimpleName metadata service
+john SimpleName Assignment MethodInvocation SimpleName get entity definition reference
+john SimpleName Assignment MethodInvocation QualifiedName test utils v employee type
+john SimpleName Assignment MethodInvocation SimpleName name
+john SimpleName Assignment MethodInvocation StringLiteral john
+jane employee SimpleName MethodInvocation SimpleName get guid
+assert john for test disconnect bidirectional references SimpleName MethodInvocation SimpleName john
+assert john for test disconnect bidirectional references SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+assert john for test disconnect bidirectional references SimpleName MethodInvocation MethodInvocation SimpleName get guid
+john SimpleName MethodInvocation MethodInvocation SimpleName jane employee
+john SimpleName MethodInvocation MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test disconnect bidirectional references
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test disconnect bidirectional references
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName subordinates
+void PrimitiveType MethodDeclaration SimpleName test disconnect bidirectional references
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName subordinates
+test disconnect bidirectional references SimpleName MethodDeclaration SimpleType SimpleName exception
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test disconnect bidirectional references SimpleName MethodDeclaration Block EnhancedForStatement SimpleName subordinates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test disconnect bidirectional references
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test disconnect bidirectional references
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

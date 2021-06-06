@@ -1,0 +1,36 @@
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName search entities
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search entities
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName search entities
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+public Modifier MethodDeclaration SimpleName search entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity headeratlas entity headers QualifiedName SimpleType MethodDeclaration SimpleName search entities
+atlas entity headeratlas entity headers QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+search entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+public Modifier TypeDeclaration MethodDeclaration SimpleName search entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entity headeratlas entity headers
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

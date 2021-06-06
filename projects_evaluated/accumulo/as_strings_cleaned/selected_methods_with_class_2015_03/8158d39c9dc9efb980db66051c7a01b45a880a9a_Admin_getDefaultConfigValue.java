@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+property SimpleName MethodInvocation SimpleName get property by key
+property SimpleName MethodInvocation SimpleName key
+get property by key SimpleName MethodInvocation SimpleName key
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property by key
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName InfixExpression IfStatement ReturnStatement SimpleName default value
+default config SimpleName MethodInvocation SimpleName get
+default config SimpleName MethodInvocation SimpleName p
+get SimpleName MethodInvocation SimpleName p
+default value SimpleName Assignment MethodInvocation SimpleName default config
+default value SimpleName Assignment MethodInvocation SimpleName get
+default value SimpleName Assignment MethodInvocation SimpleName p
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get default config value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration Block ReturnStatement SimpleName default value
+string SimpleName SimpleType MethodDeclaration SimpleName get default config value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get default config value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default config value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get default config value SimpleName MethodDeclaration Block ReturnStatement SimpleName default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default config value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default config value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,44 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral printerrors
+equals SimpleName MethodInvocation StringLiteral printerrors
+print errors SimpleName Assignment BooleanLiteral true
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral printall
+equals SimpleName MethodInvocation StringLiteral printall
+print all SimpleName Assignment BooleanLiteral true
+al SimpleName MethodInvocation SimpleName add
+al SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName args
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName args
+al SimpleName MethodInvocation SimpleName size
+al SimpleName MethodInvocation SimpleName to array
+al SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName al
+al SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName al
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName process options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName args
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName process options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName args
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName process options
+process options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+process options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName process options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

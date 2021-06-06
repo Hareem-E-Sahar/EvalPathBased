@@ -1,0 +1,62 @@
+test utils SimpleName MethodInvocation SimpleName create dept eg
+test utils SimpleName MethodInvocation SimpleName type system
+create dept eg SimpleName MethodInvocation SimpleName type system
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName create dept eg
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation StringLiteral department
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral department
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral department
+dept type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+dept type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+dept type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral department
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept type
+dept type SimpleName MethodInvocation SimpleName convert
+dept type SimpleName MethodInvocation SimpleName hr dept
+dept type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName hr dept
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+hr dept SimpleName MethodInvocation QualifiedName multiplicityrequired
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName dept type
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+hr dept SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName create entity
+repository service SimpleName MethodInvocation SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName entity type
+create entity SimpleName MethodInvocation SimpleName hr dept
+create entity SimpleName MethodInvocation SimpleName entity type
+hr dept SimpleName MethodInvocation SimpleName entity type
+guid SimpleName Assignment MethodInvocation SimpleName repository service
+guid SimpleName Assignment MethodInvocation SimpleName create entity
+guid SimpleName Assignment MethodInvocation SimpleName hr dept
+guid SimpleName Assignment MethodInvocation SimpleName entity type
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName guid
+assert not null SimpleName MethodInvocation SimpleName guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test submit entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test submit entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test submit entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test submit entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test submit entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test submit entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

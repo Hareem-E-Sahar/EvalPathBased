@@ -1,0 +1,13 @@
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator scope
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator scope
+public Modifier MethodDeclaration SimpleName get scopes
+public Modifier MethodDeclaration Block ReturnStatement SimpleName scopes
+enum set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get scopes
+iterator scope SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get scopes
+get scopes SimpleName MethodDeclaration Block ReturnStatement SimpleName scopes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scopes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scopes

@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName super types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName super types
+super types SimpleName FieldAccess Assignment SimpleName super types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set super types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName super types
+void PrimitiveType MethodDeclaration SimpleName set super types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName super types
+set super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set super types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set super types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super types

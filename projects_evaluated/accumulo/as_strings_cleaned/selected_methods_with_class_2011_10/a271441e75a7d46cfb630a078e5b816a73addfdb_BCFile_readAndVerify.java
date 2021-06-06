@@ -1,0 +1,47 @@
+data input SimpleName SimpleType SingleVariableDeclaration SimpleName in
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName size
+ab magic SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+ab magic SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ab magic
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName ab magic
+read fully SimpleName MethodInvocation SimpleName ab magic
+arrays SimpleName MethodInvocation SimpleName equals
+arrays SimpleName MethodInvocation SimpleName ab magic
+arrays SimpleName MethodInvocation SimpleName ab magic bcfile
+equals SimpleName MethodInvocation SimpleName ab magic
+equals SimpleName MethodInvocation SimpleName ab magic bcfile
+ab magic SimpleName MethodInvocation SimpleName ab magic bcfile
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral not a valid bc file
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read and verify
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName read and verify
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName read and verify
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+read and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+read and verify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read and verify SimpleName MethodDeclaration SimpleType SimpleName io exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read and verify
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read and verify
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

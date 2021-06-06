@@ -1,0 +1,127 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity instance definition
+json array SimpleName SimpleType ClassInstanceCreation SimpleName entity instance definition
+referable instances SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+referable instances SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity instance definition
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referable instances
+referable instances SimpleName MethodInvocation SimpleName length
+instances SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName referable instances
+instances SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName length
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+referable instances SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName referable instances
+index SimpleName InfixExpression MethodInvocation SimpleName length
+referable instances SimpleName MethodInvocation SimpleName get string
+referable instances SimpleName MethodInvocation SimpleName index
+get string SimpleName MethodInvocation SimpleName index
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName referable instances
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName get string
+instance serialization SimpleName MethodInvocation MethodInvocation SimpleName index
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation MethodInvocation SimpleName referable instances
+from json referenceable SimpleName MethodInvocation MethodInvocation SimpleName get string
+from json referenceable SimpleName MethodInvocation MethodInvocation SimpleName index
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+referable instances SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+index SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+entity instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+entity instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json referenceable
+entity instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName referable instances
+entity instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+entity instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName index
+entity instance SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity instance
+entity instance SimpleName MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity instance
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName entity type name
+param checker SimpleName MethodInvocation StringLiteral entity type cannot be null
+not empty SimpleName MethodInvocation SimpleName entity type name
+not empty SimpleName MethodInvocation StringLiteral entity type cannot be null
+entity type name SimpleName MethodInvocation StringLiteral entity type cannot be null
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName entity type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName entity type name
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity instance SimpleName MethodInvocation SimpleName get id
+orig id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity instance
+orig id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig id
+entity instance SimpleName MethodInvocation SimpleName get type name
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity instance
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+entity instance SimpleName MethodInvocation SimpleName replace with new id
+entity instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id
+entity instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity instance
+entity instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+replace with new id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id
+replace with new id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity instance
+replace with new id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+entity type SimpleName MethodInvocation SimpleName convert
+entity type SimpleName MethodInvocation SimpleName entity instance
+entity type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName entity instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+entity instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+typed instrance SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+typed instrance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+typed instrance SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity instance
+typed instrance SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName typed instrance
+referenceable instance SimpleName SimpleType CastExpression SimpleName typed instrance
+typed instrance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName replace with new id
+typed instrance SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName orig id
+replace with new id SimpleName MethodInvocation SimpleName orig id
+instances SimpleName ArrayAccess SimpleName index
+instances SimpleName ArrayAccess Assignment SimpleName typed instrance
+index SimpleName ArrayAccess Assignment SimpleName typed instrance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+value conversion exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to deserialize json
+log SimpleName MethodInvocation SimpleName entity instance definition
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to deserialize json
+error SimpleName MethodInvocation SimpleName entity instance definition
+error SimpleName MethodInvocation SimpleName e
+unable to deserialize json StringLiteral MethodInvocation SimpleName entity instance definition
+unable to deserialize json StringLiteral MethodInvocation SimpleName e
+entity instance definition SimpleName MethodInvocation SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to deserialize json
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName deserialize class instances
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity instance definition
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i typed referenceable instance SimpleName SimpleType ArrayType MethodDeclaration SimpleName deserialize class instances
+deserialize class instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+deserialize class instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity instance definition
+deserialize class instances SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity instance definition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName deserialize class instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deserialize class instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

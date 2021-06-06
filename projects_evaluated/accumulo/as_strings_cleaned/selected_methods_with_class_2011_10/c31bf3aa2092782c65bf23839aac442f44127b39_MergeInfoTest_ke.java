@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName end row
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prev end row
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+text SimpleName SimpleType ClassInstanceCreation SimpleName end row
+end row SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName end row
+text SimpleName SimpleType ClassInstanceCreation SimpleName prev end row
+prev end row SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName prev end row
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType MethodDeclaration SimpleName ke
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end row
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end row
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+public Modifier TypeDeclaration MethodDeclaration SimpleName ke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row

@@ -1,0 +1,92 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName tablet ke
+ke SimpleName MethodInvocation SimpleName get prev end row
+tablet ke SimpleName MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet ke
+ke SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get prev end row
+get prev end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet ke
+get prev end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation SimpleName get prev end row
+tablet ke SimpleName MethodInvocation SimpleName get prev end row
+tablet ke SimpleName MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation SimpleName get prev end row
+tablet ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+tablet ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+tablet ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prev end row
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+get prev end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prev end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName ke
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get prev end row
+tablet ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+children SimpleName MethodInvocation SimpleName add
+children SimpleName MethodInvocation SimpleName tablet ke
+add SimpleName MethodInvocation SimpleName tablet ke
+ke SimpleName MethodInvocation SimpleName get end row
+tablet ke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet ke
+ke SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get end row
+get end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet ke
+get end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get end row
+tablet ke SimpleName MethodInvocation SimpleName get end row
+tablet ke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get end row
+tablet ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+tablet ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+tablet ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end row
+get end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+get end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName ke
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get end row
+tablet ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablet ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName find children
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+static Modifier MethodDeclaration SimpleName find children
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find children
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find children
+find children SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+find children SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ke
+find children SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets
+find children SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+ke SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find children
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find children
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets

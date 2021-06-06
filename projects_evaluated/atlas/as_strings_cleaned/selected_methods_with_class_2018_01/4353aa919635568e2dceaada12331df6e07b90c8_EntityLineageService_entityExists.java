@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph SimpleName MethodInvocation SimpleName query
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+graph SimpleName MethodInvocation MethodInvocation SimpleName guid
+query SimpleName MethodInvocation MethodInvocation SimpleName guid
+has SimpleName MethodInvocation QualifiedName constantsguid property key
+has SimpleName MethodInvocation SimpleName guid
+constantsguid property key QualifiedName MethodInvocation SimpleName guid
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+guid SimpleName MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantsguid property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+entity vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+entity vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+graph helper SimpleName MethodInvocation SimpleName get super type names
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get super type names SimpleName MethodInvocation SimpleName entity vertex
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get super type names
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName super types
+is not empty SimpleName MethodInvocation SimpleName super types
+super types SimpleName MethodInvocation SimpleName contains
+super types SimpleName MethodInvocation QualifiedName atlas clientdata set super type
+contains SimpleName MethodInvocation QualifiedName atlas clientdata set super type
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName super types
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName contains
+ret SimpleName Assignment InfixExpression MethodInvocation QualifiedName atlas clientdata set super type
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName entity exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName entity exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+entity exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+entity exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity exists SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+entity exists SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName entity exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entity exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

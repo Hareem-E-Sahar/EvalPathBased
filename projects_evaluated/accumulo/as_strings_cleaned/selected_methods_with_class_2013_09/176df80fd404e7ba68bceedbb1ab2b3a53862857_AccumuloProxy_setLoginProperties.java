@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName login properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName login properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName login properties
+login properties SimpleName FieldAccess Assignment SimpleName login properties
+public Modifier MethodDeclaration SimpleType SimpleName login args
+public Modifier MethodDeclaration SimpleName set login properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName login properties
+login args SimpleName SimpleType MethodDeclaration SimpleName set login properties
+login args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName login properties
+set login properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName login properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set login properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set login properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login properties

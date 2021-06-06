@@ -1,0 +1,83 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+get properties SimpleName MethodInvocation SimpleName table name
+configuration copy SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get properties
+configuration copy SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration copy
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get properties
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table name
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+locality group util SimpleName MethodInvocation SimpleName get locality groups
+locality group util SimpleName MethodInvocation SimpleName conf
+get locality groups SimpleName MethodInvocation SimpleName conf
+groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName locality group util
+groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName get locality groups
+groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+groups SimpleName MethodInvocation SimpleName entry set
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName bs
+entry SimpleName MethodInvocation SimpleName get value
+bs SimpleName MethodInvocation SimpleName to array
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bs
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+col fams SimpleName MethodInvocation SimpleName add
+col fams SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col fams SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bs
+col fams SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to array
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bs
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to array
+bs SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+bs SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+groups SimpleName MethodInvocation SimpleName put
+groups SimpleName MethodInvocation MethodInvocation SimpleName entry
+groups SimpleName MethodInvocation MethodInvocation SimpleName get key
+groups SimpleName MethodInvocation SimpleName col fams
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation SimpleName col fams
+entry SimpleName MethodInvocation MethodInvocation SimpleName col fams
+get key SimpleName MethodInvocation MethodInvocation SimpleName col fams
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName groups
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get locality groups
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get locality groups SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get locality groups SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get locality groups SimpleName MethodDeclaration Block ReturnStatement SimpleName groups
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locality groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locality groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

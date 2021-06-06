@@ -1,0 +1,39 @@
+gremlin clause SimpleName SimpleType SingleVariableDeclaration SimpleName clause
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName list
+i SimpleName InfixExpression MethodInvocation SimpleName size
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+list SimpleName MethodInvocation MethodInvocation SimpleName get clause
+get SimpleName MethodInvocation MethodInvocation SimpleName get clause
+i SimpleName MethodInvocation MethodInvocation SimpleName get clause
+list SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName clause
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName clause
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName clause
+get clause SimpleName MethodInvocation InfixExpression SimpleName clause
+clause SimpleName InfixExpression IfStatement ReturnStatement SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName has clause
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clause
+int PrimitiveType MethodDeclaration SimpleName has clause
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clause
+has clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin clause
+has clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clause
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName has clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clause
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clause

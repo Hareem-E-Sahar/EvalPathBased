@@ -1,0 +1,25 @@
+scanner base SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+sb SimpleName MethodInvocation SimpleName fetch column
+sb SimpleName MethodInvocation SimpleName colf
+sb SimpleName MethodInvocation SimpleName colq
+fetch column SimpleName MethodInvocation SimpleName colf
+fetch column SimpleName MethodInvocation SimpleName colq
+colf SimpleName MethodInvocation SimpleName colq
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fetch
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner base
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName fetch
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner base
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner base
+fetch SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fetch
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fetch
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

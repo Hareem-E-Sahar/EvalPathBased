@@ -1,0 +1,83 @@
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table id
+get root SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable state
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable state
+table id SimpleName InfixExpression QualifiedName constantsztable state
+state path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+state path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+state path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+state path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+state path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+state path SimpleName VariableDeclarationFragment InfixExpression SimpleName table id
+state path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable state
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state path
+get zoo cache SimpleName MethodInvocation SimpleName instance
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zoo cache
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+zoo cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zc
+zc SimpleName MethodInvocation SimpleName get
+zc SimpleName MethodInvocation SimpleName state path
+get SimpleName MethodInvocation SimpleName state path
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName state path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression IfStatement ReturnStatement QualifiedName table stateunknown
+string SimpleName SimpleType ClassInstanceCreation SimpleName state
+table state SimpleName MethodInvocation SimpleName value of
+table state SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+table state SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleName state
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName table state
+public Modifier MethodDeclaration SimpleName get table state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName table state
+static Modifier MethodDeclaration SimpleName get table state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+table state SimpleName SimpleType MethodDeclaration SimpleName get table state
+table state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+table state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+get table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+get table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

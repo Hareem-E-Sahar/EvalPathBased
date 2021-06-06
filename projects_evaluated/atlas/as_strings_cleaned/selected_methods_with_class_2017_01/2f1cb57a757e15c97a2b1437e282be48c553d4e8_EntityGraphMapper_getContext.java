@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation context
+public Modifier MethodDeclaration SimpleName get context
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+entity mutation context SimpleName SimpleType MethodDeclaration SimpleName get context
+get context SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get context

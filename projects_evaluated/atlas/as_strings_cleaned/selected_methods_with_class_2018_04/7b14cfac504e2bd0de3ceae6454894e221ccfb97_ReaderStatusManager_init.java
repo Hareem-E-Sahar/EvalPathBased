@@ -1,0 +1,48 @@
+graph SimpleName SimpleType SingleVariableDeclaration SimpleName graph
+graph SimpleName SimpleType SingleVariableDeclaration SimpleName bulk load graph
+bulk load graph SimpleName MethodInvocation SimpleName traversal
+fetch using type name SimpleName MethodInvocation MethodInvocation SimpleName bulk load graph
+fetch using type name SimpleName MethodInvocation MethodInvocation SimpleName traversal
+migration status SimpleName Assignment MethodInvocation SimpleName fetch using type name
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName bulk load graph
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName traversal
+create and commit SimpleName MethodInvocation SimpleName graph
+bulk load graph SimpleName MethodInvocation SimpleName traversal
+fetch using id SimpleName MethodInvocation MethodInvocation SimpleName bulk load graph
+fetch using id SimpleName MethodInvocation MethodInvocation SimpleName traversal
+migration status SimpleName Assignment MethodInvocation SimpleName fetch using id
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName bulk load graph
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName traversal
+bulk load graph SimpleName MethodInvocation SimpleName traversal
+fetch using id SimpleName MethodInvocation MethodInvocation SimpleName bulk load graph
+fetch using id SimpleName MethodInvocation MethodInvocation SimpleName traversal
+migration status SimpleName Assignment MethodInvocation SimpleName fetch using id
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName bulk load graph
+migration status SimpleName Assignment MethodInvocation MethodInvocation SimpleName traversal
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName graph
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph
+graph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bulk load graph

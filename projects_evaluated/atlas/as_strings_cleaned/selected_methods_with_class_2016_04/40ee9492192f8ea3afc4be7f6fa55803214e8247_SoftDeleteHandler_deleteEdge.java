@@ -1,0 +1,87 @@
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName state property key
+get property SimpleName MethodInvocation SimpleName state property key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName edge
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get property
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state property key
+identity state QualifiedName MethodInvocation SimpleName value of
+identity state QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+identity state QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName edge
+identity state QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get property
+identity state QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName state property key
+value of SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+value of SimpleName MethodInvocation CastExpression MethodInvocation SimpleName edge
+value of SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get property
+value of SimpleName MethodInvocation CastExpression MethodInvocation SimpleName state property key
+state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName identity state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+identity state QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName identity statedeleted
+identity statedeleted QualifiedName MethodInvocation SimpleName name
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName state property key
+graph helper SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName name
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation SimpleName state property key
+set property SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+set property SimpleName MethodInvocation MethodInvocation SimpleName name
+edge SimpleName MethodInvocation SimpleName state property key
+edge SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+edge SimpleName MethodInvocation MethodInvocation SimpleName name
+state property key SimpleName MethodInvocation MethodInvocation QualifiedName identity statedeleted
+state property key SimpleName MethodInvocation MethodInvocation SimpleName name
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName MethodInvocation MethodInvocation SimpleName get request time
+get SimpleName MethodInvocation MethodInvocation SimpleName get request time
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName modification timestamp property key
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get request time
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation SimpleName modification timestamp property key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set property SimpleName MethodInvocation MethodInvocation SimpleName get request time
+edge SimpleName MethodInvocation SimpleName modification timestamp property key
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+edge SimpleName MethodInvocation MethodInvocation SimpleName get request time
+modification timestamp property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context
+modification timestamp property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+modification timestamp property key SimpleName MethodInvocation MethodInvocation SimpleName get request time
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName delete edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+delete edge SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

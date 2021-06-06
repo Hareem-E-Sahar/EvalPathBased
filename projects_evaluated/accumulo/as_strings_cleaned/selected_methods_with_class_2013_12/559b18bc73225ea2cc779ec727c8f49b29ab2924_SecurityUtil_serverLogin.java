@@ -1,0 +1,131 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+acu conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+acu conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get site configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName accumulo configuration
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName accumulo configuration
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acu conf
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName acu conf
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acu conf
+acu conf SimpleName MethodInvocation SimpleName get
+acu conf SimpleName MethodInvocation QualifiedName propertygeneral kerberos keytab
+get SimpleName MethodInvocation QualifiedName propertygeneral kerberos keytab
+key tab SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+key tab SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+key tab SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral kerberos keytab
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key tab
+key tab SimpleName MethodInvocation SimpleName length
+key tab SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key tab SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+$ StringLiteral InfixExpression SimpleName accumulo home
+key tab SimpleName MethodInvocation SimpleName contains
+key tab SimpleName MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName MethodInvocation InfixExpression SimpleName accumulo home
+contains SimpleName MethodInvocation InfixExpression StringLiteral $
+contains SimpleName MethodInvocation InfixExpression SimpleName accumulo home
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation SimpleName accumulo home
+getenv SimpleName MethodInvocation SimpleName accumulo home
+$ StringLiteral InfixExpression SimpleName accumulo home
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation SimpleName accumulo home
+getenv SimpleName MethodInvocation SimpleName accumulo home
+key tab SimpleName MethodInvocation SimpleName replace
+key tab SimpleName MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName MethodInvocation InfixExpression SimpleName accumulo home
+key tab SimpleName MethodInvocation MethodInvocation SimpleName system
+key tab SimpleName MethodInvocation MethodInvocation SimpleName getenv
+key tab SimpleName MethodInvocation MethodInvocation SimpleName accumulo home
+replace SimpleName MethodInvocation InfixExpression StringLiteral $
+replace SimpleName MethodInvocation InfixExpression SimpleName accumulo home
+replace SimpleName MethodInvocation MethodInvocation SimpleName system
+replace SimpleName MethodInvocation MethodInvocation SimpleName getenv
+replace SimpleName MethodInvocation MethodInvocation SimpleName accumulo home
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName getenv
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName accumulo home
+accumulo home SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName system
+accumulo home SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName getenv
+accumulo home SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName accumulo home
+key tab SimpleName Assignment MethodInvocation SimpleName key tab
+key tab SimpleName Assignment MethodInvocation SimpleName replace
+key tab SimpleName Assignment MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName Assignment MethodInvocation InfixExpression SimpleName accumulo home
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName getenv
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo home
+$ StringLiteral InfixExpression SimpleName accumulo conf dir
+key tab SimpleName MethodInvocation SimpleName contains
+key tab SimpleName MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName MethodInvocation InfixExpression SimpleName accumulo conf dir
+contains SimpleName MethodInvocation InfixExpression StringLiteral $
+contains SimpleName MethodInvocation InfixExpression SimpleName accumulo conf dir
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation SimpleName accumulo conf dir
+getenv SimpleName MethodInvocation SimpleName accumulo conf dir
+$ StringLiteral InfixExpression SimpleName accumulo conf dir
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation SimpleName accumulo conf dir
+getenv SimpleName MethodInvocation SimpleName accumulo conf dir
+key tab SimpleName MethodInvocation SimpleName replace
+key tab SimpleName MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName MethodInvocation InfixExpression SimpleName accumulo conf dir
+key tab SimpleName MethodInvocation MethodInvocation SimpleName system
+key tab SimpleName MethodInvocation MethodInvocation SimpleName getenv
+key tab SimpleName MethodInvocation MethodInvocation SimpleName accumulo conf dir
+replace SimpleName MethodInvocation InfixExpression StringLiteral $
+replace SimpleName MethodInvocation InfixExpression SimpleName accumulo conf dir
+replace SimpleName MethodInvocation MethodInvocation SimpleName system
+replace SimpleName MethodInvocation MethodInvocation SimpleName getenv
+replace SimpleName MethodInvocation MethodInvocation SimpleName accumulo conf dir
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName getenv
+$ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName accumulo conf dir
+accumulo conf dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName system
+accumulo conf dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName getenv
+accumulo conf dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName accumulo conf dir
+key tab SimpleName Assignment MethodInvocation SimpleName key tab
+key tab SimpleName Assignment MethodInvocation SimpleName replace
+key tab SimpleName Assignment MethodInvocation InfixExpression StringLiteral $
+key tab SimpleName Assignment MethodInvocation InfixExpression SimpleName accumulo conf dir
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName getenv
+key tab SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo conf dir
+acu conf SimpleName MethodInvocation SimpleName get
+acu conf SimpleName MethodInvocation QualifiedName propertygeneral kerberos principal
+get SimpleName MethodInvocation QualifiedName propertygeneral kerberos principal
+principal config SimpleName VariableDeclarationFragment MethodInvocation SimpleName acu conf
+principal config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+principal config SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral kerberos principal
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal config
+principal config SimpleName MethodInvocation SimpleName length
+principal config SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+principal config SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+login SimpleName MethodInvocation SimpleName principal config
+login SimpleName MethodInvocation SimpleName key tab
+principal config SimpleName MethodInvocation SimpleName key tab
+user group information SimpleName MethodInvocation SimpleName get login user
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error starting up renewal thread this shouldnt be happenining
+log SimpleName MethodInvocation SimpleName io
+error SimpleName MethodInvocation StringLiteral error starting up renewal thread this shouldnt be happenining
+error SimpleName MethodInvocation SimpleName io
+error starting up renewal thread this shouldnt be happenining StringLiteral MethodInvocation SimpleName io
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName server login
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName server login
+void PrimitiveType MethodDeclaration SimpleName server login
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName server login
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName server login

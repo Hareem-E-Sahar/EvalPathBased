@@ -1,0 +1,35 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+type registry SimpleName MethodInvocation SimpleName get all classification defs
+classification defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all classification defs
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName classification defs
+ret SimpleName Assignment ClassInstanceCreation SimpleName classification defs
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get all classification defs
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get all classification defs
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName get all classification defs
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classification defs
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classification defs
+get all classification defs SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get all classification defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all classification defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all classification defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

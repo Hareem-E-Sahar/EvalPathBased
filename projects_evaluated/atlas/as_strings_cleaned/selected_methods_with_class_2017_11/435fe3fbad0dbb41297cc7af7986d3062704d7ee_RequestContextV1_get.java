@@ -1,0 +1,26 @@
+current context SimpleName MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName current context
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+request context v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName request context v
+current context SimpleName MethodInvocation SimpleName set
+current context SimpleName MethodInvocation SimpleName ret
+set SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName request context v
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName request context v
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+request context v SimpleName SimpleType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName request context v
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName request context v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

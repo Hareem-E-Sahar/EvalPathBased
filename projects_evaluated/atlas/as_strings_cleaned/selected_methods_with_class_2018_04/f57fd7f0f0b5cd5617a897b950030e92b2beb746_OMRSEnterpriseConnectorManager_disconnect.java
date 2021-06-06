@@ -1,0 +1,19 @@
+registered connector consumer SimpleName SimpleType SingleVariableDeclaration SimpleName registered connector consumer
+registered connector consumer SimpleName MethodInvocation SimpleName get connector consumer
+registered connector consumer SimpleName MethodInvocation MethodInvocation SimpleName disconnect all connectors
+get connector consumer SimpleName MethodInvocation MethodInvocation SimpleName disconnect all connectors
+registered connector consumer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName registered connector consumers
+registered connector consumer SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName registered connector consumers
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName disconnect
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName registered connector consumers
+void PrimitiveType MethodDeclaration SimpleName disconnect
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName registered connector consumers
+disconnect SimpleName MethodDeclaration Block EnhancedForStatement SimpleName registered connector consumers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName disconnect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName disconnect

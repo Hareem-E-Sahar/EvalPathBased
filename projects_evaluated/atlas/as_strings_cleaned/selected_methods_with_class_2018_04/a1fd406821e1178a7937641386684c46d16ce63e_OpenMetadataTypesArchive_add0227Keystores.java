@@ -1,0 +1,16 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get keystore file entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get keystore file entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get keystore collection entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get keystore collection entity
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add keystores
+void PrimitiveType MethodDeclaration SimpleName add keystores
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add keystores
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add keystores

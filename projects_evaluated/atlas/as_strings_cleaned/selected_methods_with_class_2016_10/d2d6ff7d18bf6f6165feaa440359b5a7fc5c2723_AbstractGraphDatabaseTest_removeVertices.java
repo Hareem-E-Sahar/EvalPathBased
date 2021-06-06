@@ -1,0 +1,27 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName exists
+get graph SimpleName MethodInvocation MethodInvocation SimpleName remove vertex
+get graph SimpleName MethodInvocation MethodInvocation SimpleName vertex
+remove vertex SimpleName MethodInvocation SimpleName vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new vertices
+vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new vertices
+get graph SimpleName MethodInvocation MethodInvocation SimpleName commit
+new vertices SimpleName MethodInvocation SimpleName clear
+after method SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after method SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after method SimpleName MarkerAnnotation MethodDeclaration SimpleName remove vertices
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove vertices
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName new vertices
+void PrimitiveType MethodDeclaration SimpleName remove vertices
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName new vertices
+remove vertices SimpleName MethodDeclaration Block EnhancedForStatement SimpleName new vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after method
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove vertices
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after method
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove vertices

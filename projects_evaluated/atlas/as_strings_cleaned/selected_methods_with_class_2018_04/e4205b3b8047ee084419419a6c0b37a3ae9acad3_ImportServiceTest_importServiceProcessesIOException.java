@@ -1,0 +1,75 @@
+import service SimpleName SimpleType ClassInstanceCreation SimpleName type def store
+import service SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+type def store SimpleName ClassInstanceCreation SimpleName type registry
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName import service
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type def store
+import service SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+import service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName import service
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas import request
+req SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+atlas import request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName req
+answer SimpleName SimpleType ParameterizedType SimpleType SimpleName map
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral file is read only
+answer SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName invocation on mock
+req SimpleName MethodInvocation SimpleName get file name
+when SimpleName MethodInvocation MethodInvocation SimpleName req
+when SimpleName MethodInvocation MethodInvocation SimpleName get file name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get file name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral somefilezip
+req SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral somefilezip
+get file name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral somefilezip
+then return SimpleName MethodInvocation StringLiteral somefilezip
+req SimpleName MethodInvocation SimpleName get options
+when SimpleName MethodInvocation MethodInvocation SimpleName req
+when SimpleName MethodInvocation MethodInvocation SimpleName get options
+when SimpleName MethodInvocation MethodInvocation SimpleName then answer
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+get options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then answer
+when SimpleName MethodInvocation MethodInvocation SimpleName answer
+req SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName answer
+get options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName answer
+then answer SimpleName MethodInvocation SimpleName answer
+import service SimpleName MethodInvocation SimpleName run
+import service SimpleName MethodInvocation SimpleName req
+import service SimpleName MethodInvocation StringLiteral a
+import service SimpleName MethodInvocation StringLiteral b
+import service SimpleName MethodInvocation StringLiteral c
+run SimpleName MethodInvocation SimpleName req
+run SimpleName MethodInvocation StringLiteral a
+run SimpleName MethodInvocation StringLiteral b
+run SimpleName MethodInvocation StringLiteral c
+req SimpleName MethodInvocation StringLiteral a
+req SimpleName MethodInvocation StringLiteral b
+req SimpleName MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation StringLiteral c
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get atlas error code
+ex SimpleName MethodInvocation MethodInvocation SimpleName get error code
+get atlas error code SimpleName MethodInvocation MethodInvocation SimpleName get error code
+atlas error codeinvalid parameters QualifiedName MethodInvocation SimpleName get error code
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ex
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas error code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get error code
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid parameters
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get error code
+get error code SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid parameters
+get error code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get error code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName import service processes io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import service processes io exception
+void PrimitiveType MethodDeclaration SimpleName import service processes io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import service processes io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import service processes io exception

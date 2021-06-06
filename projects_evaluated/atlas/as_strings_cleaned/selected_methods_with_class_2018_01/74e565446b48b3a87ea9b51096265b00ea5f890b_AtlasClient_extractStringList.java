@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object node SimpleName SimpleType SingleVariableDeclaration SimpleName response
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+results SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation QualifiedName atlas clientresults
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName InstanceofExpression SimpleType SimpleName array node
+results SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName results
+json node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName as text
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName node
+ret SimpleName MethodInvocation MethodInvocation SimpleName as text
+add SimpleName MethodInvocation MethodInvocation SimpleName node
+add SimpleName MethodInvocation MethodInvocation SimpleName as text
+json node SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName results
+node SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName results
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName extract string list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName extract string list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName extract string list
+extract string list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object node
+extract string list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response
+extract string list SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract string list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract string list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response

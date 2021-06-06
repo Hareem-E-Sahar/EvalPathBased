@@ -1,0 +1,34 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+map SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName o
+is assignable from SimpleName MethodInvocation MethodInvocation SimpleName get class
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is map type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is map type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is map type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+is map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+is map type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is map type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is map type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

@@ -1,0 +1,142 @@
+ha configurationatlas server address prefix QualifiedName InfixExpression StringLiteral id
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+configuration SimpleName MethodInvocation InfixExpression StringLiteral id
+get string SimpleName MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+get string SimpleName MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName ha configurationatlas server address prefix
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral id
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName host port
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host port
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host port
+then return SimpleName MethodInvocation SimpleName host port
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+then return SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+curator factory SimpleName MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName curator factory
+when SimpleName MethodInvocation MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+then return SimpleName MethodInvocation SimpleName curator framework
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName exists builder
+exists builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+exists builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exists builder
+curator framework SimpleName MethodInvocation SimpleName check exists
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName check exists
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+check exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName exists builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists builder
+check exists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists builder
+then return SimpleName MethodInvocation SimpleName exists builder
+exists builder SimpleName MethodInvocation SimpleName for path
+exists builder SimpleName MethodInvocation MethodInvocation SimpleName get path
+for path SimpleName MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName exists builder
+when SimpleName MethodInvocation MethodInvocation SimpleName for path
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+exists builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stat
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName set data builder
+set data builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+set data builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set data builder
+curator framework SimpleName MethodInvocation SimpleName set data
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName set data
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+set data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName set data builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set data builder
+set data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set data builder
+then return SimpleName MethodInvocation SimpleName set data builder
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName curator factory
+configuration SimpleName ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName active instance state
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active instance state
+active instance state SimpleName MethodInvocation SimpleName update
+active instance state SimpleName MethodInvocation StringLiteral id
+update SimpleName MethodInvocation StringLiteral id
+verify SimpleName MethodInvocation SimpleName set data builder
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+server address SimpleName MethodInvocation SimpleName get bytes
+server address SimpleName MethodInvocation MethodInvocation SimpleName charset
+server address SimpleName MethodInvocation MethodInvocation SimpleName for name
+server address SimpleName MethodInvocation MethodInvocation StringLiteral utf
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName charset
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName for name
+get bytes SimpleName MethodInvocation MethodInvocation StringLiteral utf
+verify SimpleName MethodInvocation MethodInvocation SimpleName for path
+set data builder SimpleName MethodInvocation MethodInvocation SimpleName for path
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+set data builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server address
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+set data builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server address
+set data builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+for path SimpleName MethodInvocation MethodInvocation SimpleName get path
+for path SimpleName MethodInvocation MethodInvocation SimpleName server address
+for path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName charset
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server address
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test data is updated with atlas server address
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test data is updated with atlas server address
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test data is updated with atlas server address
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test data is updated with atlas server address SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test data is updated with atlas server address
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test data is updated with atlas server address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

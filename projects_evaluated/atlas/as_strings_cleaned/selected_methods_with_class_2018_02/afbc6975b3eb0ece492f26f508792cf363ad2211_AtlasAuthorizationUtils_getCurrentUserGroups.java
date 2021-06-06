@@ -1,0 +1,38 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+security context holder SimpleName MethodInvocation SimpleName get context
+security context holder SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+get context SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security context holder
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get context
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+granted authority SimpleName SimpleType SingleVariableDeclaration SimpleName c
+auth SimpleName MethodInvocation SimpleName get authorities
+c SimpleName MethodInvocation SimpleName get authority
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName c
+ret SimpleName MethodInvocation MethodInvocation SimpleName get authority
+add SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation MethodInvocation SimpleName get authority
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName auth
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get authorities
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get current user groups
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get current user groups
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current user groups
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current user groups
+get current user groups SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current user groups
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current user groups

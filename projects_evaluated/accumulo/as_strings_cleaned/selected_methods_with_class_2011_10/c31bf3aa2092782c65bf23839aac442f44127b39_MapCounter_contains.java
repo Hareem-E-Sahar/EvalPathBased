@@ -1,0 +1,22 @@
+kt SimpleName SimpleType SingleVariableDeclaration SimpleName key
+map SimpleName MethodInvocation SimpleName contains key
+map SimpleName MethodInvocation SimpleName key
+contains key SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName contains
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SimpleName contains
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kt
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

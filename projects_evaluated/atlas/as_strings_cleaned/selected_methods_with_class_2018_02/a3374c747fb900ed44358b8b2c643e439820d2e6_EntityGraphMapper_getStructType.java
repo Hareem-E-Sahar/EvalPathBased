@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+obj type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+obj type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+obj type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj type
+obj type SimpleName InstanceofExpression SimpleType SimpleName atlas struct type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName type name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation SimpleName type name
+atlas struct type SimpleName SimpleType CastExpression SimpleName obj type
+private Modifier MethodDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SimpleName get struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas struct type SimpleName SimpleType MethodDeclaration SimpleName get struct type
+atlas struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+atlas struct type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get struct type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get struct type SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,241 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral vt
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation StringLiteral vt
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+vt StringLiteral MethodInvocation NumberLiteral l
+vt StringLiteral MethodInvocation NumberLiteral l
+vt StringLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral vt
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral empty
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral a
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral a
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral a
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral a
+cq StringLiteral MethodInvocation StringLiteral v
+a StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral b
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral b
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral b
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral b
+cq StringLiteral MethodInvocation StringLiteral v
+b StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral ab
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral ab
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral ab
+cq StringLiteral MethodInvocation StringLiteral v
+ab StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral alm
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral alm
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral alm
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral alm
+cq StringLiteral MethodInvocation StringLiteral v
+alm StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral blm
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral blm
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral blm
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral blm
+cq StringLiteral MethodInvocation StringLiteral v
+blm StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral ablm
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral ablm
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral ablm
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral ablm
+cq StringLiteral MethodInvocation StringLiteral v
+ablm StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral abl
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral abl
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral abl
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral abl
+cq StringLiteral MethodInvocation StringLiteral v
+abl StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral afoo
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral afoo
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral afoo
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral afoo
+cq StringLiteral MethodInvocation StringLiteral v
+afoo StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral afoolm
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral afoolm
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral afoolm
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral afoolm
+cq StringLiteral MethodInvocation StringLiteral v
+afoolm StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral foo
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral foo
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation StringLiteral v
+foo StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral abfoolm
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral abfoolm
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral abfoolm
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral abfoolm
+cq StringLiteral MethodInvocation StringLiteral v
+abfoolm StringLiteral MethodInvocation StringLiteral v
+mput SimpleName MethodInvocation SimpleName m
+mput SimpleName MethodInvocation StringLiteral cf
+mput SimpleName MethodInvocation StringLiteral cq
+mput SimpleName MethodInvocation StringLiteral ablmfoo
+mput SimpleName MethodInvocation StringLiteral v
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral ablmfoo
+m SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral ablmfoo
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral ablmfoo
+cq StringLiteral MethodInvocation StringLiteral v
+ablmfoo StringLiteral MethodInvocation StringLiteral v
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName insert data
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName insert data
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+insert data SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

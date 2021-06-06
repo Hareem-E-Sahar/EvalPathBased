@@ -1,0 +1,42 @@
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral error no callback handler available to gather authentication information from the user
+name callback SimpleName SimpleType ClassInstanceCreation StringLiteral username
+name callback SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName name callback
+name callback SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral username
+name callback SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name callback
+password callback SimpleName SimpleType ClassInstanceCreation StringLiteral password
+password callback SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+password StringLiteral ClassInstanceCreation BooleanLiteral false
+password callback SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName password callback
+password callback SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral password
+password callback SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+password callback SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password callback
+invoke callback handler SimpleName MethodInvocation SimpleName name callback
+invoke callback handler SimpleName MethodInvocation SimpleName password callback
+name callback SimpleName MethodInvocation SimpleName password callback
+init user name SimpleName MethodInvocation SimpleName name callback
+init password SimpleName MethodInvocation SimpleName password callback
+io exception SimpleName SimpleType UnionType SimpleType SimpleName unsupported callback exception
+io exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName ex
+unsupported callback exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName ex
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral error in callbacks
+le SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName login exception
+le SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral error in callbacks
+login exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName le
+le SimpleName MethodInvocation SimpleName init cause
+le SimpleName MethodInvocation SimpleName ex
+init cause SimpleName MethodInvocation SimpleName ex
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName obtain user and password
+private Modifier MethodDeclaration SimpleType SimpleName login exception
+void PrimitiveType MethodDeclaration SimpleName obtain user and password
+void PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+obtain user and password SimpleName MethodDeclaration SimpleType SimpleName login exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName obtain user and password
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName obtain user and password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

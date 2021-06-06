@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+get name service id SimpleName MethodInvocation SimpleName host
+get name service id SimpleName MethodInvocation SimpleName default port
+host SimpleName MethodInvocation SimpleName default port
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get name service id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+string SimpleName SimpleType MethodDeclaration SimpleName get name service id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host
+get name service id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get name service id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get name service id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get name service id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host

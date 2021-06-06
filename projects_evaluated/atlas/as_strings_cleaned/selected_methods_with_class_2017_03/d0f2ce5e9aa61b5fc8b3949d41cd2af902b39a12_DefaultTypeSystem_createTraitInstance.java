@@ -1,0 +1,144 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+struct SimpleName SimpleType ClassInstanceCreation SimpleName type name
+struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+properties SimpleName MethodInvocation SimpleName entry set
+prop entry SimpleName MethodInvocation SimpleName get key
+prop entry SimpleName MethodInvocation SimpleName get value
+struct SimpleName MethodInvocation SimpleName set
+struct SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+struct SimpleName MethodInvocation MethodInvocation SimpleName get key
+struct SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+struct SimpleName MethodInvocation MethodInvocation SimpleName get value
+set SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+set SimpleName MethodInvocation MethodInvocation SimpleName get key
+set SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+set SimpleName MethodInvocation MethodInvocation SimpleName get value
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+prop entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName properties
+prop entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+struct SimpleName MethodInvocation SimpleName set
+struct SimpleName MethodInvocation QualifiedName taxonomy resource providernamespace attribute name
+struct SimpleName MethodInvocation QualifiedName taxonomy resource providertaxonomy ns
+set SimpleName MethodInvocation QualifiedName taxonomy resource providernamespace attribute name
+set SimpleName MethodInvocation QualifiedName taxonomy resource providertaxonomy ns
+taxonomy resource providernamespace attribute name QualifiedName MethodInvocation QualifiedName taxonomy resource providertaxonomy ns
+metadata service SimpleName MethodInvocation SimpleName create trait instance
+metadata service SimpleName MethodInvocation SimpleName struct
+create trait instance SimpleName MethodInvocation SimpleName struct
+metadata service SimpleName MethodInvocation SimpleName add trait
+metadata service SimpleName MethodInvocation SimpleName guid
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName metadata service
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName create trait instance
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName struct
+add trait SimpleName MethodInvocation SimpleName guid
+add trait SimpleName MethodInvocation MethodInvocation SimpleName metadata service
+add trait SimpleName MethodInvocation MethodInvocation SimpleName create trait instance
+add trait SimpleName MethodInvocation MethodInvocation SimpleName struct
+guid SimpleName MethodInvocation MethodInvocation SimpleName metadata service
+guid SimpleName MethodInvocation MethodInvocation SimpleName create trait instance
+guid SimpleName MethodInvocation MethodInvocation SimpleName struct
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation SimpleName contains
+get message SimpleName MethodInvocation MethodInvocation SimpleName contains
+e SimpleName MethodInvocation MethodInvocation StringLiteral is already defined for entity
+get message SimpleName MethodInvocation MethodInvocation StringLiteral is already defined for entity
+contains SimpleName MethodInvocation StringLiteral is already defined for entity
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral tag s already associated with the entity
+string SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation StringLiteral tag s already associated with the entity
+format SimpleName MethodInvocation SimpleName type name
+tag s already associated with the entity StringLiteral MethodInvocation SimpleName type name
+resource already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+resource already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+resource already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral tag s already associated with the entity
+resource already exists exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type name
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unable to create trait instance s in type system s
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName e
+format SimpleName MethodInvocation StringLiteral unable to create trait instance s in type system s
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName e
+unable to create trait instance s in type system s StringLiteral MethodInvocation SimpleName type name
+unable to create trait instance s in type system s StringLiteral MethodInvocation SimpleName e
+type name SimpleName MethodInvocation SimpleName e
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unable to create trait instance s in type system s
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName type name
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+catalog runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+unable to create trait instance s in type system s StringLiteral MethodInvocation ClassInstanceCreation SimpleName e
+type name SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create trait instance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create trait instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+void PrimitiveType MethodDeclaration SimpleName create trait instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties
+void PrimitiveType MethodDeclaration SimpleType SimpleName resource already exists exception
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+create trait instance SimpleName MethodDeclaration SimpleType SimpleName resource already exists exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create trait instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create trait instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource already exists exception

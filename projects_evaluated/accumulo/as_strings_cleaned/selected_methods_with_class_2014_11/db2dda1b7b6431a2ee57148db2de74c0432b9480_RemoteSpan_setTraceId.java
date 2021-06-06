@@ -1,0 +1,23 @@
+long PrimitiveType SingleVariableDeclaration SimpleName trace id
+trace id SimpleName FieldAccess Assignment SimpleName trace id
+set trace id is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SimpleName set trace id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trace id
+remote span SimpleName SimpleType MethodDeclaration SimpleName set trace id
+remote span SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+remote span SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trace id
+set trace id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set trace id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trace id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName remote span
+public Modifier TypeDeclaration MethodDeclaration SimpleName set trace id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trace id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName remote span
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set trace id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trace id

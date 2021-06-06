@@ -1,0 +1,81 @@
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName add new type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+query params SimpleName MethodInvocation SimpleName add
+query params SimpleName MethodInvocation StringLiteral type
+query params SimpleName MethodInvocation SimpleName type name
+add SimpleName MethodInvocation StringLiteral type
+add SimpleName MethodInvocation SimpleName type name
+type StringLiteral MethodInvocation SimpleName type name
+atlas client v SimpleName MethodInvocation SimpleName call api with query params
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapi v get entity
+atlas client v SimpleName MethodInvocation SimpleName query params
+call api with query params SimpleName MethodInvocation QualifiedName atlas clientapi v get entity
+call api with query params SimpleName MethodInvocation SimpleName query params
+atlas clientapi v get entity QualifiedName MethodInvocation SimpleName query params
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with query params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapi v get entity
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName query params
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get SimpleName MethodInvocation QualifiedName atlas clientresults
+array node SimpleName SimpleType CastExpression MethodInvocation SimpleName response
+array node SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+array node SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas clientresults
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName array node
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName response
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas clientresults
+final Modifier VariableDeclarationStatement SimpleType SimpleName array node
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+array node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+list SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName list
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+list SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get entity list for no instances
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity list for no instances
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get entity list for no instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get entity list for no instances SimpleName MethodDeclaration SimpleType SimpleName exception
+test get entity list for no instances SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity list for no instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity list for no instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rhs
+rhs SimpleName MethodInvocation SimpleName replace
+rhs SimpleName MethodInvocation StringLiteral empty
+rhs SimpleName MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+rhs SimpleName MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+empty StringLiteral MethodInvocation MethodInvocation SimpleName replace
+empty StringLiteral MethodInvocation MethodInvocation SimpleName replace
+rhs SimpleName MethodInvocation MethodInvocation StringLiteral \
+replace SimpleName MethodInvocation MethodInvocation StringLiteral \
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral \
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral \
+rhs SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral \
+replace SimpleName MethodInvocation StringLiteral empty
+\ StringLiteral MethodInvocation StringLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName parse number
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rhs
+string SimpleName SimpleType MethodDeclaration SimpleName parse number
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rhs
+parse number SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse number SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rhs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse number
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse number
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhs

@@ -1,0 +1,47 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create entity
+table vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table entity vertex
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table vertex
+repository service SimpleName MethodInvocation SimpleName get type name
+repository service SimpleName MethodInvocation SimpleName table vertex
+get type name SimpleName MethodInvocation SimpleName table vertex
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName repository service
+assert SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert SimpleName MethodInvocation MethodInvocation SimpleName table vertex
+assert SimpleName MethodInvocation SimpleName table type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName repository service
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table vertex
+assert equals SimpleName MethodInvocation SimpleName table type
+repository service SimpleName MethodInvocation MethodInvocation SimpleName table type
+get type name SimpleName MethodInvocation MethodInvocation SimpleName table type
+table vertex SimpleName MethodInvocation MethodInvocation SimpleName table type
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get type name
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get type name
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get type name
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get type name
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get type name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get type name SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,81 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName accumulo configuration
+file StringLiteral InfixExpression SimpleName file name
+file StringLiteral InfixExpression StringLiteral is closed
+file name SimpleName InfixExpression StringLiteral is closed
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file name
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is closed
+path SimpleName SimpleType ClassInstanceCreation SimpleName file name
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+fs SimpleName MethodInvocation SimpleName open
+fs SimpleName MethodInvocation SimpleName path
+open SimpleName MethodInvocation SimpleName path
+fin SimpleName Assignment MethodInvocation SimpleName fs
+fin SimpleName Assignment MethodInvocation SimpleName open
+fin SimpleName Assignment MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName path
+get file status SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation MethodInvocation SimpleName get len
+get file status SimpleName MethodInvocation MethodInvocation SimpleName get len
+path SimpleName MethodInvocation MethodInvocation SimpleName get len
+init SimpleName MethodInvocation SimpleName fin
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file status
+init SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+init SimpleName MethodInvocation MethodInvocation SimpleName get len
+init SimpleName MethodInvocation SimpleName conf
+init SimpleName MethodInvocation SimpleName accumulo configuration
+fin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+fin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file status
+fin SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+fin SimpleName MethodInvocation MethodInvocation SimpleName get len
+fin SimpleName MethodInvocation SimpleName conf
+fin SimpleName MethodInvocation SimpleName accumulo configuration
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get file status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get len SimpleName MethodInvocation MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo configuration
+get file status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo configuration
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo configuration
+get len SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+conf SimpleName MethodInvocation SimpleName accumulo configuration
+closed SimpleName IfStatement Block ReturnStatement SimpleName bc
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration SimpleType QualifiedName bc filereader
+private Modifier MethodDeclaration SimpleName get bc file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration SimpleType QualifiedName bc filereader
+synchronized Modifier MethodDeclaration SimpleName get bc file
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName closed
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName bc
+bc filereader QualifiedName SimpleType MethodDeclaration SimpleName get bc file
+bc filereader QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+bc filereader QualifiedName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get bc file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get bc file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+get bc file SimpleName MethodDeclaration SimpleType SimpleName io exception
+get bc file SimpleName MethodDeclaration Block IfStatement SimpleName closed
+get bc file SimpleName MethodDeclaration Block ReturnStatement SimpleName bc
+accumulo configuration SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName bc filereader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bc file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName bc filereader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bc file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulo configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

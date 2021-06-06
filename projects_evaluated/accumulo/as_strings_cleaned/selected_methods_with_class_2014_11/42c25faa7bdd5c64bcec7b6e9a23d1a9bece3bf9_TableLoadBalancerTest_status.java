@@ -1,0 +1,60 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName config
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet server status
+tablet server status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablename
+object SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName c
+tablename SimpleName Assignment CastExpression SimpleType SimpleName string
+tablename SimpleName Assignment CastExpression SimpleName c
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName table info
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+integer SimpleName SimpleType CastExpression SimpleName c
+count SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+count SimpleName VariableDeclarationFragment CastExpression SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName c
+infoonline tablets QualifiedName Assignment SimpleName count
+infotablets QualifiedName Assignment SimpleName count
+resulttable map QualifiedName MethodInvocation SimpleName put
+resulttable map QualifiedName MethodInvocation SimpleName tablename
+resulttable map QualifiedName MethodInvocation SimpleName info
+put SimpleName MethodInvocation SimpleName tablename
+put SimpleName MethodInvocation SimpleName info
+tablename SimpleName MethodInvocation SimpleName info
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName config
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName config
+config SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration Modifier private
+static Modifier MethodDeclaration SimpleType SimpleName tablet server status
+static Modifier MethodDeclaration SimpleName status
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName config
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName tablet server status
+private Modifier MethodDeclaration SimpleName status
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName config
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+tablet server status SimpleName SimpleType MethodDeclaration SimpleName status
+tablet server status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+status SimpleName MethodDeclaration Block EnhancedForStatement SimpleName config
+status SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+public Modifier TypeDeclaration MethodDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

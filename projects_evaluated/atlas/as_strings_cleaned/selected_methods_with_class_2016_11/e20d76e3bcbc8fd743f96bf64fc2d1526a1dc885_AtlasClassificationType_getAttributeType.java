@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+all attribute types SimpleName MethodInvocation SimpleName get
+all attribute types SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName all attribute types
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get attribute type SimpleName SuperMethodInvocation SimpleName attribute name
+ret SimpleName Assignment SuperMethodInvocation SimpleName get attribute type
+ret SimpleName Assignment SuperMethodInvocation SimpleName attribute name
+atlas classification type SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName get attribute type
+super type SimpleName MethodInvocation SimpleName attribute name
+get attribute type SimpleName MethodInvocation SimpleName attribute name
+ret SimpleName Assignment MethodInvocation SimpleName super type
+ret SimpleName Assignment MethodInvocation SimpleName get attribute type
+ret SimpleName Assignment MethodInvocation SimpleName attribute name
+atlas classification type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+all attribute types SimpleName MethodInvocation SimpleName put
+all attribute types SimpleName MethodInvocation SimpleName attribute name
+all attribute types SimpleName MethodInvocation SimpleName ret
+put SimpleName MethodInvocation SimpleName attribute name
+put SimpleName MethodInvocation SimpleName ret
+attribute name SimpleName MethodInvocation SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get attribute type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SimpleName get attribute type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas type SimpleName SimpleType MethodDeclaration SimpleName get attribute type
+atlas type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get attribute type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

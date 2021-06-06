@@ -1,0 +1,131 @@
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation QualifiedName constantsmetadata table name
+connector SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+column fq SimpleName MethodInvocation SimpleName fetch
+column fq SimpleName MethodInvocation SimpleName scanner
+column fq SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+fetch SimpleName MethodInvocation SimpleName scanner
+fetch SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata prev row column
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation SimpleName get value
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entry
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get value
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+migrations SimpleName MethodInvocation SimpleName contains key
+migrations SimpleName MethodInvocation SimpleName extent
+contains key SimpleName MethodInvocation SimpleName extent
+found SimpleName MethodInvocation SimpleName add
+found SimpleName MethodInvocation SimpleName extent
+add SimpleName MethodInvocation SimpleName extent
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+migrations SimpleName MethodInvocation SimpleName key set
+not found SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName migrations
+not found SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key set
+not found SimpleName MethodInvocation SimpleName remove all
+not found SimpleName MethodInvocation SimpleName found
+remove all SimpleName MethodInvocation SimpleName found
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+migrations SimpleName MethodInvocation SimpleName get
+migrations SimpleName MethodInvocation SimpleName extent
+get SimpleName MethodInvocation SimpleName extent
+canceling migration of StringLiteral InfixExpression SimpleName extent
+canceling migration of StringLiteral InfixExpression StringLiteral to
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName migrations
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName get
+canceling migration of StringLiteral InfixExpression MethodInvocation SimpleName extent
+canceling migration of StringLiteral InfixExpression StringLiteral : tablet no longer exists probably due to a split
+extent SimpleName InfixExpression StringLiteral to
+extent SimpleName InfixExpression MethodInvocation SimpleName migrations
+extent SimpleName InfixExpression MethodInvocation SimpleName get
+extent SimpleName InfixExpression MethodInvocation SimpleName extent
+extent SimpleName InfixExpression StringLiteral : tablet no longer exists probably due to a split
+to StringLiteral InfixExpression MethodInvocation SimpleName migrations
+to StringLiteral InfixExpression MethodInvocation SimpleName get
+to StringLiteral InfixExpression MethodInvocation SimpleName extent
+to StringLiteral InfixExpression StringLiteral : tablet no longer exists probably due to a split
+migrations SimpleName MethodInvocation InfixExpression StringLiteral : tablet no longer exists probably due to a split
+get SimpleName MethodInvocation InfixExpression StringLiteral : tablet no longer exists probably due to a split
+extent SimpleName MethodInvocation InfixExpression StringLiteral : tablet no longer exists probably due to a split
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral canceling migration of
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName migrations
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral : tablet no longer exists probably due to a split
+info SimpleName MethodInvocation InfixExpression StringLiteral canceling migration of
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral to
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName migrations
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral : tablet no longer exists probably due to a split
+migrations SimpleName MethodInvocation SimpleName remove
+migrations SimpleName MethodInvocation SimpleName extent
+remove SimpleName MethodInvocation SimpleName extent
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName not found
+extent SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName not found
+scanner SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName not found
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName cleanup mutations
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+private Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName cleanup mutations
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName not found
+cleanup mutations SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+cleanup mutations SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+cleanup mutations SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+cleanup mutations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+cleanup mutations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName not found
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleanup mutations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleanup mutations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

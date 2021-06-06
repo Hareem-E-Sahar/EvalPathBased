@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName alias
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+alias map SimpleName MethodInvocation SimpleName contains key
+alias map SimpleName MethodInvocation SimpleName alias
+contains key SimpleName MethodInvocation SimpleName alias
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral duplicate alias found s for type s already present
+string SimpleName MethodInvocation SimpleName alias
+string SimpleName MethodInvocation MethodInvocation SimpleName get active entity type
+format SimpleName MethodInvocation StringLiteral duplicate alias found s for type s already present
+format SimpleName MethodInvocation SimpleName alias
+format SimpleName MethodInvocation MethodInvocation SimpleName get active entity type
+duplicate alias found s for type s already present StringLiteral MethodInvocation SimpleName alias
+duplicate alias found s for type s already present StringLiteral MethodInvocation MethodInvocation SimpleName get active entity type
+alias SimpleName MethodInvocation MethodInvocation SimpleName get active entity type
+error list SimpleName MethodInvocation SimpleName add
+error list SimpleName MethodInvocation MethodInvocation SimpleName string
+error list SimpleName MethodInvocation MethodInvocation SimpleName format
+error list SimpleName MethodInvocation MethodInvocation StringLiteral duplicate alias found s for type s already present
+error list SimpleName MethodInvocation MethodInvocation SimpleName alias
+error list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get active entity type
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation StringLiteral duplicate alias found s for type s already present
+add SimpleName MethodInvocation MethodInvocation SimpleName alias
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get active entity type
+alias map SimpleName MethodInvocation SimpleName put
+alias map SimpleName MethodInvocation SimpleName alias
+alias map SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName alias
+put SimpleName MethodInvocation SimpleName type name
+alias SimpleName MethodInvocation SimpleName type name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add alias
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleName add alias
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alias
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alias
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+alias SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add alias
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add alias
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

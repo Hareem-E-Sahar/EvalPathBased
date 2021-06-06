@@ -1,0 +1,40 @@
+auth succeeded SimpleName InfixExpression BooleanLiteral false
+subject SimpleName MethodInvocation SimpleName is read only
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral subject is readonly
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName principal
+subject SimpleName MethodInvocation SimpleName get principals
+principals SimpleName VariableDeclarationFragment MethodInvocation SimpleName subject
+principals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get principals
+principals SimpleName MethodInvocation SimpleName contains
+principals SimpleName MethodInvocation SimpleName principal
+contains SimpleName MethodInvocation SimpleName principal
+principals SimpleName MethodInvocation InfixExpression BooleanLiteral false
+contains SimpleName MethodInvocation InfixExpression BooleanLiteral false
+principal SimpleName MethodInvocation InfixExpression BooleanLiteral false
+principals SimpleName MethodInvocation SimpleName add
+principals SimpleName MethodInvocation SimpleName principal
+add SimpleName MethodInvocation SimpleName principal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName commit
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName login exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName commit
+public Modifier MethodDeclaration SimpleType SimpleName login exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName commit
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+commit SimpleName MethodDeclaration SimpleType SimpleName login exception
+commit SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

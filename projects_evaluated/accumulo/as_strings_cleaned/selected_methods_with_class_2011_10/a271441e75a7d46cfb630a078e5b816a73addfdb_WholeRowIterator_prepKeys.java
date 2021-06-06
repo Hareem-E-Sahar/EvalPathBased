@@ -1,0 +1,78 @@
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current row
+source iter SimpleName MethodInvocation SimpleName has top
+source iter SimpleName MethodInvocation InfixExpression BooleanLiteral false
+has top SimpleName MethodInvocation InfixExpression BooleanLiteral false
+source iter SimpleName MethodInvocation SimpleName get top key
+source iter SimpleName MethodInvocation MethodInvocation SimpleName get row
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+current row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+current row SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+keys SimpleName MethodInvocation SimpleName clear
+values SimpleName MethodInvocation SimpleName clear
+source iter SimpleName MethodInvocation SimpleName has top
+source iter SimpleName MethodInvocation SimpleName get top key
+source iter SimpleName MethodInvocation MethodInvocation SimpleName get row
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get row
+source iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+source iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current row
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current row
+get row SimpleName MethodInvocation MethodInvocation SimpleName current row
+equals SimpleName MethodInvocation SimpleName current row
+source iter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+source iter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current row
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current row
+source iter SimpleName MethodInvocation SimpleName get top key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName source iter
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top key
+keys SimpleName MethodInvocation SimpleName add
+keys SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+keys SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName source iter
+keys SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get top key
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName source iter
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get top key
+source iter SimpleName MethodInvocation SimpleName get top value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName source iter
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get top value
+values SimpleName MethodInvocation SimpleName add
+values SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName source iter
+values SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get top value
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName source iter
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get top value
+source iter SimpleName MethodInvocation SimpleName next
+filter SimpleName MethodInvocation SimpleName current row
+filter SimpleName MethodInvocation SimpleName keys
+filter SimpleName MethodInvocation SimpleName values
+current row SimpleName MethodInvocation SimpleName keys
+current row SimpleName MethodInvocation SimpleName values
+keys SimpleName MethodInvocation SimpleName values
+key SimpleName SimpleType ClassInstanceCreation SimpleName current row
+top key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+top key SimpleName Assignment ClassInstanceCreation SimpleName current row
+encode row SimpleName MethodInvocation SimpleName keys
+encode row SimpleName MethodInvocation SimpleName values
+keys SimpleName MethodInvocation SimpleName values
+top value SimpleName Assignment MethodInvocation SimpleName encode row
+top value SimpleName Assignment MethodInvocation SimpleName keys
+top value SimpleName Assignment MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName prep keys
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName prep keys
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+prep keys SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName prep keys
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prep keys
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

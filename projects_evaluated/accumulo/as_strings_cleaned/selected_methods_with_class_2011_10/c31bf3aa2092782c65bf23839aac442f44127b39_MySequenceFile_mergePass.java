@@ -1,0 +1,88 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName tmp dir
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral running merge pass
+debug SimpleName MethodInvocation StringLiteral running merge pass
+out file SimpleName MethodInvocation SimpleName suffix
+out file SimpleName MethodInvocation StringLiteral .
+suffix SimpleName MethodInvocation StringLiteral .
+clone file attributes SimpleName MethodInvocation MethodInvocation SimpleName out file
+clone file attributes SimpleName MethodInvocation MethodInvocation SimpleName suffix
+clone file attributes SimpleName MethodInvocation MethodInvocation StringLiteral .
+clone file attributes SimpleName MethodInvocation SimpleName out file
+out file SimpleName MethodInvocation MethodInvocation SimpleName out file
+suffix SimpleName MethodInvocation MethodInvocation SimpleName out file
+. StringLiteral MethodInvocation MethodInvocation SimpleName out file
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName clone file attributes
+writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName out file
+writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName suffix
+writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral .
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName out file
+writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+out file SimpleName MethodInvocation SimpleName suffix
+out file SimpleName MethodInvocation StringLiteral .
+suffix SimpleName MethodInvocation StringLiteral .
+out file SimpleName MethodInvocation SimpleName suffix
+out file SimpleName MethodInvocation StringLiteral . index
+suffix SimpleName MethodInvocation StringLiteral . index
+merge SimpleName MethodInvocation MethodInvocation SimpleName out file
+merge SimpleName MethodInvocation MethodInvocation SimpleName suffix
+merge SimpleName MethodInvocation MethodInvocation StringLiteral .
+merge SimpleName MethodInvocation MethodInvocation SimpleName out file
+merge SimpleName MethodInvocation MethodInvocation SimpleName suffix
+merge SimpleName MethodInvocation MethodInvocation StringLiteral . index
+merge SimpleName MethodInvocation SimpleName tmp dir
+out file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out file
+out file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName suffix
+out file SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . index
+suffix SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out file
+suffix SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName suffix
+suffix SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral . index
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName out file
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName suffix
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral . index
+out file SimpleName MethodInvocation MethodInvocation SimpleName tmp dir
+suffix SimpleName MethodInvocation MethodInvocation SimpleName tmp dir
+. StringLiteral MethodInvocation MethodInvocation SimpleName tmp dir
+out file SimpleName MethodInvocation MethodInvocation SimpleName tmp dir
+suffix SimpleName MethodInvocation MethodInvocation SimpleName tmp dir
+. index StringLiteral MethodInvocation MethodInvocation SimpleName tmp dir
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName merge
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName out file
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName suffix
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral .
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName out file
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName suffix
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral . index
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName tmp dir
+raw key value iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+write file SimpleName MethodInvocation SimpleName r
+write file SimpleName MethodInvocation SimpleName writer
+r SimpleName MethodInvocation SimpleName writer
+writer SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName merge pass
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tmp dir
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName merge pass
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tmp dir
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+merge pass SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+merge pass SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tmp dir
+merge pass SimpleName MethodDeclaration SimpleType SimpleName io exception
+merge pass SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+tmp dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName merge pass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merge pass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

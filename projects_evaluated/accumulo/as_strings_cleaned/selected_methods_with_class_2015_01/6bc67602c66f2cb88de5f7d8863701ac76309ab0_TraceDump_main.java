@@ -1,0 +1,72 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+scan opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner opts
+scanner opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan opts
+trace dump SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName scan opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName scan opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName scan opts
+args SimpleName MethodInvocation SimpleName scan opts
+code SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list spans SimpleName MethodInvocation SimpleName opts
+list spans SimpleName MethodInvocation SimpleName scan opts
+opts SimpleName MethodInvocation SimpleName scan opts
+code SimpleName Assignment MethodInvocation SimpleName list spans
+code SimpleName Assignment MethodInvocation SimpleName opts
+code SimpleName Assignment MethodInvocation SimpleName scan opts
+code SimpleName InfixExpression NumberLiteral empty
+code SimpleName InfixExpression InfixExpression QualifiedName optsdump
+empty NumberLiteral InfixExpression InfixExpression QualifiedName optsdump
+dump trace SimpleName MethodInvocation SimpleName opts
+dump trace SimpleName MethodInvocation SimpleName scan opts
+opts SimpleName MethodInvocation SimpleName scan opts
+code SimpleName Assignment MethodInvocation SimpleName dump trace
+code SimpleName Assignment MethodInvocation SimpleName opts
+code SimpleName Assignment MethodInvocation SimpleName scan opts
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation SimpleName code
+exit SimpleName MethodInvocation SimpleName code
+int PrimitiveType VariableDeclarationStatement Block IfStatement QualifiedName optslist
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block IfStatement QualifiedName optslist
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement QualifiedName optslist
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block IfStatement QualifiedName optslist
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

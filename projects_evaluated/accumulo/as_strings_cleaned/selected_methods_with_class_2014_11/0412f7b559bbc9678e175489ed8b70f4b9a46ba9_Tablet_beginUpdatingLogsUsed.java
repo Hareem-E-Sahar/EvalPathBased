@@ -1,0 +1,180 @@
+in memory map SimpleName SimpleType SingleVariableDeclaration SimpleName mem table
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName dfs logger
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName more
+dfs logger SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName more
+boolean PrimitiveType SingleVariableDeclaration SimpleName minc finish
+release lock SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName release lock
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+log lock SimpleName MethodInvocation SimpleName lock
+can not update logs of closed tablet StringLiteral InfixExpression SimpleName extent
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral can not update logs of closed tablet
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName add to other
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get min c mem table
+mem table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get tablet memory
+mem table SimpleName InfixExpression MethodInvocation SimpleName get min c mem table
+add to other SimpleName Assignment BooleanLiteral true
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get mem table
+mem table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get tablet memory
+mem table SimpleName InfixExpression MethodInvocation SimpleName get mem table
+add to other SimpleName Assignment BooleanLiteral false
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral passed in memtable that is not in use
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral adding to other logs for minc finish
+add to other SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral adding to other logs for minc finish
+other logs SimpleName MethodInvocation SimpleName size
+other logs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+expect other logs to be when min finish but its StringLiteral InfixExpression SimpleName other logs
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expect other logs to be when min finish but its
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName other logs
+current logs SimpleName MethodInvocation SimpleName size
+current logs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+minc finish SimpleName IfStatement Block IfStatement SimpleName add to other
+num added SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num added
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num contained SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num contained
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+dfs logger SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+other logs SimpleName MethodInvocation SimpleName add
+other logs SimpleName MethodInvocation SimpleName logger
+add SimpleName MethodInvocation SimpleName logger
+current logs SimpleName MethodInvocation SimpleName contains
+current logs SimpleName MethodInvocation SimpleName logger
+contains SimpleName MethodInvocation SimpleName logger
+current logs SimpleName MethodInvocation SimpleName add
+current logs SimpleName MethodInvocation SimpleName logger
+add SimpleName MethodInvocation SimpleName logger
+other logs SimpleName MethodInvocation SimpleName contains
+other logs SimpleName MethodInvocation SimpleName logger
+contains SimpleName MethodInvocation SimpleName logger
+dfs logger SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName more
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName more
+more SimpleName EnhancedForStatement Block IfStatement SimpleName add to other
+num added SimpleName InfixExpression NumberLiteral empty
+more SimpleName MethodInvocation SimpleName size
+num added SimpleName InfixExpression MethodInvocation SimpleName more
+num added SimpleName InfixExpression MethodInvocation SimpleName size
+num added SimpleName InfixExpression InfixExpression InfixExpression SimpleName num added
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num added
+added subset of logs StringLiteral InfixExpression SimpleName extent
+added subset of logs StringLiteral InfixExpression StringLiteral empty
+added subset of logs StringLiteral InfixExpression SimpleName more
+added subset of logs StringLiteral InfixExpression StringLiteral empty
+added subset of logs StringLiteral InfixExpression SimpleName current logs
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression SimpleName more
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression SimpleName current logs
+empty StringLiteral InfixExpression SimpleName more
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName current logs
+more SimpleName InfixExpression StringLiteral empty
+more SimpleName InfixExpression SimpleName current logs
+empty StringLiteral InfixExpression SimpleName current logs
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral added subset of logs
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName more
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName current logs
+num contained SimpleName InfixExpression NumberLiteral empty
+more SimpleName MethodInvocation SimpleName size
+num contained SimpleName InfixExpression MethodInvocation SimpleName more
+num contained SimpleName InfixExpression MethodInvocation SimpleName size
+num contained SimpleName InfixExpression InfixExpression InfixExpression SimpleName num contained
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num contained
+other logs contained subset of logs StringLiteral InfixExpression SimpleName extent
+other logs contained subset of logs StringLiteral InfixExpression StringLiteral empty
+other logs contained subset of logs StringLiteral InfixExpression SimpleName more
+other logs contained subset of logs StringLiteral InfixExpression StringLiteral empty
+other logs contained subset of logs StringLiteral InfixExpression SimpleName other logs
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression SimpleName more
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression SimpleName other logs
+empty StringLiteral InfixExpression SimpleName more
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName other logs
+more SimpleName InfixExpression StringLiteral empty
+more SimpleName InfixExpression SimpleName other logs
+empty StringLiteral InfixExpression SimpleName other logs
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral other logs contained subset of logs
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName more
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName other logs
+num added SimpleName InfixExpression NumberLiteral empty
+num contained SimpleName InfixExpression NumberLiteral empty
+num added SimpleName InfixExpression InfixExpression InfixExpression SimpleName num contained
+num added SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num contained
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+release lock SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName minc finish
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName more
+minc finish SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+minc finish SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+minc finish SimpleName IfStatement Block EnhancedForStatement SimpleName more
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName more
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName more
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+more SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+log lock SimpleName MethodInvocation SimpleName unlock
+release lock SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName log lock
+release lock SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName begin updating logs used
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName mem table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName more
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName begin updating logs used
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName in memory map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mem table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName more
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+boolean PrimitiveType MethodDeclaration SimpleName begin updating logs used
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName in memory map
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mem table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName more
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+begin updating logs used SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName in memory map
+begin updating logs used SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mem table
+begin updating logs used SimpleName MethodDeclaration SingleVariableDeclaration SimpleName more
+begin updating logs used SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+begin updating logs used SimpleName MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+begin updating logs used SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+mem table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more
+mem table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+mem table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+more SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+more SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName begin updating logs used
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mem table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc finish
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName begin updating logs used
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mem table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName more
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc finish

@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type definition
+create or update types SimpleName MethodInvocation SimpleName type definition
+create or update types SimpleName MethodInvocation BooleanLiteral true
+type definition SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type definition
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName update type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+json object SimpleName SimpleType MethodDeclaration SimpleName update type
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type definition
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type definition
+update type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type definition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName update type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

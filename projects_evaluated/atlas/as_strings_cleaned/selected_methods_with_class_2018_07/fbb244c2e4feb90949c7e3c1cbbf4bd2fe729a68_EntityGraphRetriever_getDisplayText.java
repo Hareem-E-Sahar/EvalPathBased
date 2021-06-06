@@ -1,0 +1,88 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName entity type name
+get entity type by name SimpleName MethodInvocation SimpleName entity type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity type SimpleName MethodInvocation SimpleName get attribute
+entity type SimpleName MethodInvocation SimpleName name
+get attribute SimpleName MethodInvocation SimpleName name
+get vertex attribute SimpleName MethodInvocation SimpleName entity vertex
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName entity type
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName name
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName entity type
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName name
+ret SimpleName Assignment MethodInvocation SimpleName get vertex attribute
+ret SimpleName Assignment MethodInvocation SimpleName entity vertex
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName name
+entity type SimpleName MethodInvocation SimpleName get attribute
+entity type SimpleName MethodInvocation SimpleName display name
+get attribute SimpleName MethodInvocation SimpleName display name
+get vertex attribute SimpleName MethodInvocation SimpleName entity vertex
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName entity type
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName display name
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName entity type
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName display name
+ret SimpleName Assignment MethodInvocation SimpleName get vertex attribute
+ret SimpleName Assignment MethodInvocation SimpleName entity vertex
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName display name
+entity type SimpleName MethodInvocation SimpleName get attribute
+entity type SimpleName MethodInvocation SimpleName qualified name
+get attribute SimpleName MethodInvocation SimpleName qualified name
+get vertex attribute SimpleName MethodInvocation SimpleName entity vertex
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName entity type
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get vertex attribute SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName entity type
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation SimpleName get vertex attribute
+ret SimpleName Assignment MethodInvocation SimpleName entity vertex
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName qualified name
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get display text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+object SimpleName SimpleType MethodDeclaration SimpleName get display text
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get display text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get display text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get display text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get display text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+get display text SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get display text SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get display text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get display text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,22 @@
+default configuration SimpleName MethodInvocation SimpleName get instance
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName default configuration
+public Modifier MethodDeclaration SimpleName get default configuration
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName default configuration
+static Modifier MethodDeclaration SimpleName get default configuration
+synchronized Modifier MethodDeclaration SimpleType SimpleName default configuration
+synchronized Modifier MethodDeclaration SimpleName get default configuration
+default configuration SimpleName SimpleType MethodDeclaration SimpleName get default configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName default configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName default configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default configuration

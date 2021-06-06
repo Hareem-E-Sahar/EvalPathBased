@@ -1,0 +1,109 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get guid SimpleName MethodInvocation SimpleName entity vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+entity ext info SimpleName MethodInvocation SimpleName get entity
+entity ext info SimpleName MethodInvocation SimpleName guid
+get entity SimpleName MethodInvocation SimpleName guid
+entity ext info SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity ext info
+entity ext info SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get entity
+entity ext info SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName guid
+entity SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName entity ext info
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity ext info
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity ext info SimpleName MethodInvocation SimpleName add referred entity
+entity ext info SimpleName MethodInvocation SimpleName guid
+entity ext info SimpleName MethodInvocation SimpleName entity
+add referred entity SimpleName MethodInvocation SimpleName guid
+add referred entity SimpleName MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation SimpleName entity
+map system attributes SimpleName MethodInvocation SimpleName entity vertex
+map system attributes SimpleName MethodInvocation SimpleName entity
+entity vertex SimpleName MethodInvocation SimpleName entity
+map classifications SimpleName MethodInvocation SimpleName entity vertex
+map classifications SimpleName MethodInvocation SimpleName entity
+entity vertex SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName get min info attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get min info attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+get vertex attribute SimpleName MethodInvocation SimpleName entity vertex
+get vertex attribute SimpleName MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation SimpleName attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName attr value
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attr value
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName map vertex to atlas entity min
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName map vertex to atlas entity min
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map vertex to atlas entity min SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map vertex to atlas entity min SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map vertex to atlas entity min SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+map vertex to atlas entity min SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+map vertex to atlas entity min SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+map vertex to atlas entity min SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map vertex to atlas entity min SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName map vertex to atlas entity min
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map vertex to atlas entity min
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

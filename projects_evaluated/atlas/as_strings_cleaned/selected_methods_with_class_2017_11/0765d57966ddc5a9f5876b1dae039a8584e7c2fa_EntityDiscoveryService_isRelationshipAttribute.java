@@ -1,0 +1,55 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression SimpleName array
+get type category SimpleName MethodInvocation InfixExpression SimpleName array
+atlas array type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get element type
+attr type SimpleName Assignment MethodInvocation SimpleName get element type
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression SimpleName map
+get type category SimpleName MethodInvocation InfixExpression SimpleName map
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+attr type SimpleName Assignment MethodInvocation SimpleName get value type
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation InfixExpression SimpleName object id type
+get type category SimpleName MethodInvocation InfixExpression SimpleName object id type
+ret SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is relationship attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is relationship attribute
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+is relationship attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+is relationship attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+is relationship attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is relationship attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is relationship attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is relationship attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

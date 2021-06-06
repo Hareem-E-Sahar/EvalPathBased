@@ -1,0 +1,212 @@
+get user SimpleName MethodInvocation NumberLiteral empty
+test user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+test user SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+root user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get admin user
+cluster user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test user
+cluster user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root user
+test user SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName root user
+test user SimpleName MethodInvocation SimpleName get principal
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName test user
+principal SimpleName VariableDeclarationFragment MethodInvocation SimpleName get principal
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+test user SimpleName MethodInvocation SimpleName get token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName test user
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName get token
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password token
+token SimpleName InstanceofExpression SimpleType SimpleName password token
+password token SimpleName SimpleType CastExpression SimpleName token
+password token SimpleName Assignment CastExpression SimpleType SimpleName password token
+password token SimpleName Assignment CastExpression SimpleName token
+login as SimpleName MethodInvocation SimpleName root user
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+c SimpleName MethodInvocation MethodInvocation SimpleName principal
+security operations SimpleName MethodInvocation MethodInvocation SimpleName principal
+c SimpleName MethodInvocation MethodInvocation SimpleName password token
+security operations SimpleName MethodInvocation MethodInvocation SimpleName password token
+create local user SimpleName MethodInvocation SimpleName principal
+create local user SimpleName MethodInvocation SimpleName password token
+principal SimpleName MethodInvocation SimpleName password token
+login as SimpleName MethodInvocation SimpleName test user
+c SimpleName MethodInvocation SimpleName get instance
+c SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+c SimpleName MethodInvocation MethodInvocation SimpleName principal
+get instance SimpleName MethodInvocation MethodInvocation SimpleName principal
+c SimpleName MethodInvocation MethodInvocation SimpleName token
+get instance SimpleName MethodInvocation MethodInvocation SimpleName token
+get connector SimpleName MethodInvocation SimpleName principal
+get connector SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName token
+test user conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName c
+test user conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+test user conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+test user conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName principal
+test user conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName token
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test user conn
+login as SimpleName MethodInvocation SimpleName root user
+c SimpleName MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation QualifiedName metadata tablename
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionread
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionalter table
+c SimpleName MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation SimpleName whoami
+c SimpleName MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation QualifiedName table permissionalter table
+c SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+metadata tablename QualifiedName MethodInvocation QualifiedName table permissionread
+metadata tablename QualifiedName MethodInvocation QualifiedName table permissionalter table
+table permissionread QualifiedName MethodInvocation QualifiedName table permissionalter table
+verify has only these table permissions SimpleName MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation SimpleName principal
+verify has only these table permissions SimpleName MethodInvocation QualifiedName metadata tablename
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName principal
+c SimpleName MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation QualifiedName table permissionread
+principal SimpleName MethodInvocation QualifiedName metadata tablename
+principal SimpleName MethodInvocation QualifiedName table permissionread
+metadata tablename QualifiedName MethodInvocation QualifiedName table permissionread
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess InfixExpression StringLiteral table permission test
+empty NumberLiteral MethodInvocation ArrayAccess InfixExpression StringLiteral table permission test
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral table permission test
+table name SimpleName VariableDeclarationFragment InfixExpression ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table permission test
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+table permission SimpleName MethodInvocation SimpleName values
+verifying the StringLiteral InfixExpression SimpleName perm
+verifying the StringLiteral InfixExpression StringLiteral permission
+perm SimpleName InfixExpression StringLiteral permission
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral verifying the
+log SimpleName MethodInvocation InfixExpression SimpleName perm
+log SimpleName MethodInvocation InfixExpression StringLiteral permission
+debug SimpleName MethodInvocation InfixExpression StringLiteral verifying the
+debug SimpleName MethodInvocation InfixExpression SimpleName perm
+debug SimpleName MethodInvocation InfixExpression StringLiteral permission
+create test table SimpleName MethodInvocation SimpleName c
+create test table SimpleName MethodInvocation SimpleName principal
+create test table SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName principal
+c SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName table name
+login as SimpleName MethodInvocation SimpleName test user
+test missing table permission SimpleName MethodInvocation SimpleName test user conn
+test missing table permission SimpleName MethodInvocation SimpleName test user
+test missing table permission SimpleName MethodInvocation SimpleName perm
+test missing table permission SimpleName MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation SimpleName test user
+test user conn SimpleName MethodInvocation SimpleName perm
+test user conn SimpleName MethodInvocation SimpleName table name
+test user SimpleName MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName table name
+perm SimpleName MethodInvocation SimpleName table name
+login as SimpleName MethodInvocation SimpleName root user
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+c SimpleName MethodInvocation MethodInvocation SimpleName principal
+security operations SimpleName MethodInvocation MethodInvocation SimpleName principal
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName perm
+grant table permission SimpleName MethodInvocation SimpleName principal
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation SimpleName perm
+principal SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName perm
+table name SimpleName MethodInvocation SimpleName perm
+verify has only these table permissions SimpleName MethodInvocation SimpleName c
+verify has only these table permissions SimpleName MethodInvocation SimpleName principal
+verify has only these table permissions SimpleName MethodInvocation SimpleName table name
+verify has only these table permissions SimpleName MethodInvocation SimpleName perm
+c SimpleName MethodInvocation SimpleName principal
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName perm
+principal SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName perm
+table name SimpleName MethodInvocation SimpleName perm
+login as SimpleName MethodInvocation SimpleName test user
+test granted table permission SimpleName MethodInvocation SimpleName test user conn
+test granted table permission SimpleName MethodInvocation SimpleName test user
+test granted table permission SimpleName MethodInvocation SimpleName perm
+test granted table permission SimpleName MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation SimpleName test user
+test user conn SimpleName MethodInvocation SimpleName perm
+test user conn SimpleName MethodInvocation SimpleName table name
+test user SimpleName MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName table name
+perm SimpleName MethodInvocation SimpleName table name
+login as SimpleName MethodInvocation SimpleName root user
+create test table SimpleName MethodInvocation SimpleName c
+create test table SimpleName MethodInvocation SimpleName principal
+create test table SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName principal
+c SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+c SimpleName MethodInvocation MethodInvocation SimpleName principal
+security operations SimpleName MethodInvocation MethodInvocation SimpleName principal
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName perm
+revoke table permission SimpleName MethodInvocation SimpleName principal
+revoke table permission SimpleName MethodInvocation SimpleName table name
+revoke table permission SimpleName MethodInvocation SimpleName perm
+principal SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName perm
+table name SimpleName MethodInvocation SimpleName perm
+verify has no table permissions SimpleName MethodInvocation SimpleName c
+verify has no table permissions SimpleName MethodInvocation SimpleName principal
+verify has no table permissions SimpleName MethodInvocation SimpleName table name
+verify has no table permissions SimpleName MethodInvocation SimpleName perm
+c SimpleName MethodInvocation SimpleName principal
+c SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName perm
+principal SimpleName MethodInvocation SimpleName table name
+principal SimpleName MethodInvocation SimpleName perm
+table name SimpleName MethodInvocation SimpleName perm
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName table permission test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName table permission test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName table permission test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+table permission test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName table permission test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName table permission test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

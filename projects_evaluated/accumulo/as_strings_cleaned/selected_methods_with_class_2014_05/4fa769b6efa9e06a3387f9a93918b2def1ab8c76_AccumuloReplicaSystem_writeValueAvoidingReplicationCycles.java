@@ -1,0 +1,126 @@
+data output stream SimpleName SimpleType SingleVariableDeclaration SimpleName out
+log file value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+mutations to send SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mutations to send
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName get replication sources
+target SimpleName MethodInvocation SimpleName get peer name
+m SimpleName MethodInvocation MethodInvocation SimpleName contains
+get replication sources SimpleName MethodInvocation MethodInvocation SimpleName contains
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer name
+get replication sources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+get replication sources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer name
+contains SimpleName MethodInvocation MethodInvocation SimpleName target
+contains SimpleName MethodInvocation MethodInvocation SimpleName get peer name
+mutation SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName valuemutations
+m SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName valuemutations
+valuemutations QualifiedName MethodInvocation SimpleName size
+valuemutations QualifiedName MethodInvocation InfixExpression SimpleName mutations to send
+size SimpleName MethodInvocation InfixExpression SimpleName mutations to send
+target SimpleName MethodInvocation SimpleName get peer name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing {} mutations from wal entry as they have already been replicated to {}
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName valuemutations
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression SimpleName mutations to send
+log SimpleName MethodInvocation MethodInvocation SimpleName target
+log SimpleName MethodInvocation MethodInvocation SimpleName get peer name
+debug SimpleName MethodInvocation StringLiteral removing {} mutations from wal entry as they have already been replicated to {}
+debug SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName valuemutations
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression SimpleName mutations to send
+debug SimpleName MethodInvocation MethodInvocation SimpleName target
+debug SimpleName MethodInvocation MethodInvocation SimpleName get peer name
+removing {} mutations from wal entry as they have already been replicated to {} StringLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName valuemutations
+removing {} mutations from wal entry as they have already been replicated to {} StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName size
+removing {} mutations from wal entry as they have already been replicated to {} StringLiteral MethodInvocation InfixExpression SimpleName mutations to send
+removing {} mutations from wal entry as they have already been replicated to {} StringLiteral MethodInvocation MethodInvocation SimpleName target
+removing {} mutations from wal entry as they have already been replicated to {} StringLiteral MethodInvocation MethodInvocation SimpleName get peer name
+mutations to send SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName target
+mutations to send SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get peer name
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName mutations to send
+write int SimpleName MethodInvocation SimpleName mutations to send
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName get replication sources
+target SimpleName MethodInvocation SimpleName get peer name
+m SimpleName MethodInvocation MethodInvocation SimpleName contains
+get replication sources SimpleName MethodInvocation MethodInvocation SimpleName contains
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+m SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer name
+get replication sources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName target
+get replication sources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer name
+contains SimpleName MethodInvocation MethodInvocation SimpleName target
+contains SimpleName MethodInvocation MethodInvocation SimpleName get peer name
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName propertyreplication name
+get SimpleName MethodInvocation QualifiedName propertyreplication name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName name
+is blank SimpleName MethodInvocation SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral local system has no replication name configured
+m SimpleName MethodInvocation SimpleName add replication source
+m SimpleName MethodInvocation SimpleName name
+add replication source SimpleName MethodInvocation SimpleName name
+m SimpleName MethodInvocation SimpleName write
+m SimpleName MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+mutation SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName valuemutations
+m SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName valuemutations
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName valuemutations
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName valuemutations
+valuemutations QualifiedName EnhancedForStatement Block EnhancedForStatement QualifiedName valuemutations
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName write value avoiding replication cycles
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleName write value avoiding replication cycles
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file value
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+write value avoiding replication cycles SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+write value avoiding replication cycles SimpleName MethodDeclaration SimpleType SimpleName io exception
+write value avoiding replication cycles SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write value avoiding replication cycles SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName valuemutations
+write value avoiding replication cycles SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName valuemutations
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+out SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write value avoiding replication cycles
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write value avoiding replication cycles
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

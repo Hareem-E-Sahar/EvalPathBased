@@ -1,0 +1,41 @@
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName server
+start SimpleName MethodInvocation SimpleName server
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start all
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName start all
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName start all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+start all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+start all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+start all SimpleName MethodDeclaration SimpleType SimpleName io exception
+server SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

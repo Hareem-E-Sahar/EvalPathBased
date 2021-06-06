@@ -1,0 +1,100 @@
+int PrimitiveType SingleVariableDeclaration SimpleName start
+int PrimitiveType SingleVariableDeclaration SimpleName end
+start SimpleName InfixExpression SimpleName end
+start SimpleName InfixExpression NumberLiteral empty
+start SimpleName InfixExpression InfixExpression InfixExpression SimpleName start
+start SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+end SimpleName InfixExpression InfixExpression InfixExpression SimpleName start
+end SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+end SimpleName InfixExpression SimpleName length
+bad start andend start = StringLiteral InfixExpression SimpleName start
+bad start andend start = StringLiteral InfixExpression StringLiteral end
+bad start andend start = StringLiteral InfixExpression SimpleName end
+bad start andend start = StringLiteral InfixExpression StringLiteral offset
+bad start andend start = StringLiteral InfixExpression SimpleName offset
+start SimpleName InfixExpression StringLiteral end
+start SimpleName InfixExpression SimpleName end
+start SimpleName InfixExpression StringLiteral offset
+start SimpleName InfixExpression SimpleName offset
+start SimpleName InfixExpression StringLiteral length
+end StringLiteral InfixExpression SimpleName end
+end StringLiteral InfixExpression StringLiteral offset
+end StringLiteral InfixExpression SimpleName offset
+end StringLiteral InfixExpression StringLiteral length
+end StringLiteral InfixExpression SimpleName length
+end SimpleName InfixExpression StringLiteral offset
+end SimpleName InfixExpression SimpleName offset
+end SimpleName InfixExpression StringLiteral length
+end SimpleName InfixExpression SimpleName length
+offset StringLiteral InfixExpression SimpleName offset
+offset StringLiteral InfixExpression StringLiteral length
+offset StringLiteral InfixExpression SimpleName length
+offset SimpleName InfixExpression StringLiteral length
+offset SimpleName InfixExpression SimpleName length
+length StringLiteral InfixExpression SimpleName length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad start andend start =
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral end
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName end
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName offset
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral length
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName length
+offset SimpleName InfixExpression SimpleName start
+end SimpleName InfixExpression SimpleName start
+array byte sequence SimpleName SimpleType ClassInstanceCreation SimpleName data
+array byte sequence SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName offset
+array byte sequence SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start
+array byte sequence SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName end
+array byte sequence SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start
+data SimpleName ClassInstanceCreation InfixExpression SimpleName offset
+data SimpleName ClassInstanceCreation InfixExpression SimpleName start
+data SimpleName ClassInstanceCreation InfixExpression SimpleName end
+data SimpleName ClassInstanceCreation InfixExpression SimpleName start
+offset SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName end
+offset SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName start
+start SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName end
+start SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName byte sequence
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName sub sequence
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier MethodDeclaration SimpleType SimpleName byte sequence
+public Modifier MethodDeclaration SimpleName sub sequence
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName start
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+byte sequence SimpleName SimpleType MethodDeclaration SimpleName sub sequence
+byte sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName start
+byte sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte sequence SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end
+sub sequence SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sub sequence SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start
+sub sequence SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sub sequence SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+start SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName byte sequence
+public Modifier TypeDeclaration MethodDeclaration SimpleName sub sequence
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName byte sequence
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sub sequence
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

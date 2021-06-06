@@ -1,0 +1,113 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName principal
+security token SimpleName SimpleType SingleVariableDeclaration SimpleName token
+token SimpleName InstanceofExpression SimpleType SimpleName password token
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeinvalid token
+principal SimpleName ClassInstanceCreation QualifiedName security error codeinvalid token
+password token SimpleName SimpleType CastExpression SimpleName token
+pt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName password token
+pt SimpleName VariableDeclarationFragment CastExpression SimpleName token
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName principal
+/ StringLiteral InfixExpression SimpleName principal
+zpath SimpleName VariableDeclarationFragment InfixExpression SimpleName zk user path
+zpath SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+zpath SimpleName VariableDeclarationFragment InfixExpression SimpleName principal
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName zpath
+get SimpleName MethodInvocation SimpleName zpath
+pass SimpleName Assignment MethodInvocation SimpleName zoo cache
+pass SimpleName Assignment MethodInvocation SimpleName get
+pass SimpleName Assignment MethodInvocation SimpleName zpath
+pt SimpleName MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName check pass
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName pt
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName pass
+check pass SimpleName MethodInvocation MethodInvocation SimpleName pt
+check pass SimpleName MethodInvocation MethodInvocation SimpleName get password
+check pass SimpleName MethodInvocation SimpleName pass
+pt SimpleName MethodInvocation MethodInvocation SimpleName pass
+get password SimpleName MethodInvocation MethodInvocation SimpleName pass
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName zk security tool
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName check pass
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pt
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get password
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName pass
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName zk security tool
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName check pass
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pass
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo cache SimpleName MethodInvocation SimpleName zpath
+clear SimpleName MethodInvocation SimpleName zpath
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName zpath
+get SimpleName MethodInvocation SimpleName zpath
+pass SimpleName Assignment MethodInvocation SimpleName zoo cache
+pass SimpleName Assignment MethodInvocation SimpleName get
+pass SimpleName Assignment MethodInvocation SimpleName zpath
+pt SimpleName MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName check pass
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName pt
+zk security tool SimpleName MethodInvocation MethodInvocation SimpleName get password
+zk security tool SimpleName MethodInvocation SimpleName pass
+check pass SimpleName MethodInvocation MethodInvocation SimpleName pt
+check pass SimpleName MethodInvocation MethodInvocation SimpleName get password
+check pass SimpleName MethodInvocation SimpleName pass
+pt SimpleName MethodInvocation MethodInvocation SimpleName pass
+get password SimpleName MethodInvocation MethodInvocation SimpleName pass
+result SimpleName Assignment MethodInvocation SimpleName zk security tool
+result SimpleName Assignment MethodInvocation SimpleName check pass
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName pt
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get password
+result SimpleName Assignment MethodInvocation SimpleName pass
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName authenticate user
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName principal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName principal
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType MethodDeclaration SimpleName authenticate user
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName principal
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName principal
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+authenticate user SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+authenticate user SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+authenticate user SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+principal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+principal SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName principal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName principal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

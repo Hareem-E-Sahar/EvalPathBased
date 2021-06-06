@@ -1,0 +1,94 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName configuration
+check not null SimpleName MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName index of
+configuration SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+empty NumberLiteral PrefixExpression InfixExpression SimpleName index
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral expected comma in configuration string
+configuration SimpleName MethodInvocation SimpleName substring
+configuration SimpleName MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation SimpleName index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName index
+instance name SimpleName Assignment MethodInvocation SimpleName configuration
+instance name SimpleName Assignment MethodInvocation SimpleName substring
+instance name SimpleName Assignment MethodInvocation NumberLiteral empty
+instance name SimpleName Assignment MethodInvocation SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+configuration SimpleName MethodInvocation SimpleName substring
+configuration SimpleName MethodInvocation InfixExpression SimpleName index
+configuration SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName index
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+zookeepers SimpleName Assignment MethodInvocation SimpleName configuration
+zookeepers SimpleName Assignment MethodInvocation SimpleName substring
+zookeepers SimpleName Assignment MethodInvocation InfixExpression SimpleName index
+zookeepers SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get instance
+conf SimpleName Assignment MethodInvocation SimpleName server configuration
+conf SimpleName Assignment MethodInvocation SimpleName get system configuration
+conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+volume manager impl SimpleName MethodInvocation SimpleName get
+volume manager impl SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName Assignment MethodInvocation SimpleName volume manager impl
+fs SimpleName Assignment MethodInvocation SimpleName get
+fs SimpleName Assignment MethodInvocation SimpleName conf
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not connect to filesystem
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral could not connect to filesystem
+error SimpleName MethodInvocation SimpleName e
+could not connect to filesystem StringLiteral MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configuration
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+configure SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration

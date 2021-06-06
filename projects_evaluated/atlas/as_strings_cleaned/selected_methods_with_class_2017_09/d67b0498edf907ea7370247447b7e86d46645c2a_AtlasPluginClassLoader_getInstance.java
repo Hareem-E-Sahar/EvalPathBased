@@ -1,0 +1,86 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName plugin type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName plugin type
+class SimpleName SimpleType ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName class
+final Modifier SingleVariableDeclaration ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration SimpleName plugin class
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName plugin class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName plugin class
+ret SimpleName VariableDeclarationFragment SimpleName me
+atlas plugin class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas plugin class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName me
+ret SimpleName Assignment SimpleName me
+privileged exception action SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas plugin class loader
+atlas plugin class loader SimpleName SimpleType ClassInstanceCreation SimpleName plugin type
+atlas plugin class loader SimpleName SimpleType ClassInstanceCreation SimpleName plugin class
+plugin type SimpleName ClassInstanceCreation SimpleName plugin class
+public Modifier MethodDeclaration SimpleType SimpleName atlas plugin class loader
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName uri syntax exception
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SimpleName run
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SimpleType SimpleName uri syntax exception
+run SimpleName MethodDeclaration SimpleType SimpleName uri syntax exception
+access controller SimpleName MethodInvocation SimpleName do privileged
+me SimpleName Assignment MethodInvocation SimpleName access controller
+me SimpleName Assignment MethodInvocation SimpleName do privileged
+ret SimpleName Assignment SimpleName me
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas plugin class loader
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+static Modifier MethodDeclaration SimpleType SimpleName atlas plugin class loader
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+static Modifier MethodDeclaration SimpleType SimpleName privileged action exception
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SimpleName get instance
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+atlas plugin class loader SimpleName SimpleType MethodDeclaration SimpleType SimpleName privileged action exception
+get instance SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+get instance SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get instance SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+get instance SimpleName MethodDeclaration SimpleType SimpleName privileged action exception
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+plugin type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+plugin type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName privileged action exception
+plugin type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName privileged action exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName privileged action exception
+plugin class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName privileged action exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas plugin class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName privileged action exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas plugin class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName plugin class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName privileged action exception

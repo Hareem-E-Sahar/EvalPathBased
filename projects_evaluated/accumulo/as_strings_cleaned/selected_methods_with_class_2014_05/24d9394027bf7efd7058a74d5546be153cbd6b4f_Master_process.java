@@ -1,0 +1,52 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get type
+next event SimpleName MethodInvocation SimpleName event
+next event SimpleName MethodInvocation StringLiteral noticed recovery changes
+next event SimpleName MethodInvocation MethodInvocation SimpleName event
+next event SimpleName MethodInvocation MethodInvocation SimpleName get type
+event SimpleName MethodInvocation StringLiteral noticed recovery changes
+event SimpleName MethodInvocation MethodInvocation SimpleName event
+event SimpleName MethodInvocation MethodInvocation SimpleName get type
+noticed recovery changes StringLiteral MethodInvocation MethodInvocation SimpleName event
+noticed recovery changes StringLiteral MethodInvocation MethodInvocation SimpleName get type
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zroot SimpleName InfixExpression QualifiedName constantszrecovery
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get children
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get children
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zroot
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszrecovery
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zroot
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszrecovery
+get children SimpleName MethodInvocation InfixExpression SimpleName zroot
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to add log recovery watcher back
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to add log recovery watcher back
+error SimpleName MethodInvocation SimpleName e
+failed to add log recovery watcher back StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

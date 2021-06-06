@@ -1,0 +1,150 @@
+create db table graph SimpleName MethodInvocation QualifiedName test utilsdatabase name
+create db table graph SimpleName MethodInvocation QualifiedName test utilstable name
+test utilsdatabase name QualifiedName MethodInvocation QualifiedName test utilstable name
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation QualifiedName test utilstable type
+repository service SimpleName MethodInvocation StringLiteral name
+repository service SimpleName MethodInvocation QualifiedName test utilstable name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable name
+test utilstable type QualifiedName MethodInvocation StringLiteral name
+test utilstable type QualifiedName MethodInvocation QualifiedName test utilstable name
+name StringLiteral MethodInvocation QualifiedName test utilstable name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+table SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable name
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName MethodInvocation SimpleName get id
+table SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+table guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table
+table guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation StringLiteral columns
+get SimpleName MethodInvocation StringLiteral columns
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral columns
+columns SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+columns SimpleName MethodInvocation MethodInvocation SimpleName get id
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get id
+columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+column guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+column guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column guid
+delete entities SimpleName MethodInvocation SimpleName column guid
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName column guid
+atlas cliententity result QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get deleted entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains
+entity result SimpleName MethodInvocation MethodInvocation SimpleName column guid
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName column guid
+contains SimpleName MethodInvocation SimpleName column guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName column guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName column guid
+entity result SimpleName MethodInvocation SimpleName get update entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName size
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get update entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity result SimpleName MethodInvocation SimpleName get update entities
+entity result SimpleName MethodInvocation MethodInvocation SimpleName contains
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName contains
+entity result SimpleName MethodInvocation MethodInvocation SimpleName table guid
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName table guid
+contains SimpleName MethodInvocation SimpleName table guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName table guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table guid
+assert entity deleted SimpleName MethodInvocation SimpleName column guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName table guid
+get entity definition SimpleName MethodInvocation SimpleName table guid
+table SimpleName Assignment MethodInvocation SimpleName repository service
+table SimpleName Assignment MethodInvocation SimpleName get entity definition
+table SimpleName Assignment MethodInvocation SimpleName table guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation StringLiteral columns
+get SimpleName MethodInvocation StringLiteral columns
+assert test disconnect unidirectional array reference from class type SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+assert test disconnect unidirectional array reference from class type SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+assert test disconnect unidirectional array reference from class type SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral columns
+assert test disconnect unidirectional array reference from class type SimpleName MethodInvocation SimpleName column guid
+table SimpleName MethodInvocation CastExpression MethodInvocation SimpleName column guid
+get SimpleName MethodInvocation CastExpression MethodInvocation SimpleName column guid
+columns StringLiteral MethodInvocation CastExpression MethodInvocation SimpleName column guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test disconnect unidirectional array reference from class type
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test disconnect unidirectional array reference from class type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test disconnect unidirectional array reference from class type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test disconnect unidirectional array reference from class type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test disconnect unidirectional array reference from class type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test disconnect unidirectional array reference from class type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

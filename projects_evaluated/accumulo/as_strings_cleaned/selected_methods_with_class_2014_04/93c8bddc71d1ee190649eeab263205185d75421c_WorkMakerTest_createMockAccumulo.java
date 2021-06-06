@@ -1,0 +1,55 @@
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mock instance
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation StringLiteral root
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName Assignment MethodInvocation SimpleName instance
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation StringLiteral root
+conn SimpleName Assignment MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+exists SimpleName MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+delete SimpleName MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+create SimpleName MethodInvocation QualifiedName replication tablename
+table confs SimpleName MethodInvocation SimpleName clear
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName create mock accumulo
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create mock accumulo
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName create mock accumulo
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create mock accumulo SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create mock accumulo
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create mock accumulo
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

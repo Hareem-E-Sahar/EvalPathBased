@@ -1,0 +1,24 @@
+get session id SimpleName MethodInvocation SimpleName get lock data zoo cache
+get session id SimpleName MethodInvocation SimpleName path
+get lock data zoo cache SimpleName MethodInvocation SimpleName path
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get session id
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+long PrimitiveType MethodDeclaration SimpleName get session id
+long PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+long PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+get session id SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+get session id SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

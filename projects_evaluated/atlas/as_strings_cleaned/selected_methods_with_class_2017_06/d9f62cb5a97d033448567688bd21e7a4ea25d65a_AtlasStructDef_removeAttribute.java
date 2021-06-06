@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+a SimpleName VariableDeclarationFragment FieldAccess SimpleName attribute defs
+has attribute SimpleName MethodInvocation SimpleName a
+has attribute SimpleName MethodInvocation SimpleName attr name
+a SimpleName MethodInvocation SimpleName attr name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName existing attr def
+existing attr def SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName existing attr def
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName attr name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName existing attr def
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation SimpleName attr name
+existing attr def SimpleName MethodInvocation MethodInvocation SimpleName attr name
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr name
+tmp list SimpleName MethodInvocation SimpleName add
+tmp list SimpleName MethodInvocation SimpleName existing attr def
+add SimpleName MethodInvocation SimpleName existing attr def
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName a
+existing attr def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName a
+attribute defs SimpleName FieldAccess Assignment SimpleName tmp list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+void PrimitiveType MethodDeclaration SimpleName remove attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+remove attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

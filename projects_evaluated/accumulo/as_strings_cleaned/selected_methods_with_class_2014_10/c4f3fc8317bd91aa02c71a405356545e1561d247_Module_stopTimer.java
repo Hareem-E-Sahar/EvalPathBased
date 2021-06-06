@@ -1,0 +1,50 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName next node
+timer SimpleName MethodInvocation SimpleName interrupt
+timer SimpleName MethodInvocation SimpleName join
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+running long SimpleName MethodInvocation SimpleName get
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName system time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName system time
+system time SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+node StringLiteral InfixExpression SimpleName next node
+node StringLiteral InfixExpression StringLiteral which was running long has now completed after
+node StringLiteral InfixExpression InfixExpression NumberLiteral .
+next node SimpleName InfixExpression StringLiteral which was running long has now completed after
+next node SimpleName InfixExpression InfixExpression NumberLiteral .
+which was running long has now completed after StringLiteral InfixExpression InfixExpression NumberLiteral .
+node StringLiteral InfixExpression InfixExpression StringLiteral seconds
+next node SimpleName InfixExpression InfixExpression StringLiteral seconds
+which was running long has now completed after StringLiteral InfixExpression InfixExpression StringLiteral seconds
+. NumberLiteral InfixExpression InfixExpression InfixExpression StringLiteral seconds
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral node
+log SimpleName MethodInvocation InfixExpression InfixExpression SimpleName next node
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral which was running long has now completed after
+log SimpleName MethodInvocation InfixExpression StringLiteral seconds
+warn SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral node
+warn SimpleName MethodInvocation InfixExpression InfixExpression SimpleName next node
+warn SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral which was running long has now completed after
+warn SimpleName MethodInvocation InfixExpression StringLiteral seconds
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName stop timer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName next node
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName timer
+void PrimitiveType MethodDeclaration SimpleName stop timer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName next node
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName timer
+stop timer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+stop timer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName next node
+stop timer SimpleName MethodDeclaration Block SynchronizedStatement SimpleName timer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop timer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next node
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop timer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next node

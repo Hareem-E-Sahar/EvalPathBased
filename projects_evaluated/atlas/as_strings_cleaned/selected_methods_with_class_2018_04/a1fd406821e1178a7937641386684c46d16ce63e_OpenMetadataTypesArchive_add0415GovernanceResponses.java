@@ -1,0 +1,28 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance policy entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance policy entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance principle entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance principle entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance obligation entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance obligation entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance approach entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance approach entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance policy link relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get governance policy link relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance response relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get governance response relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add governance responses
+void PrimitiveType MethodDeclaration SimpleName add governance responses
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add governance responses
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add governance responses

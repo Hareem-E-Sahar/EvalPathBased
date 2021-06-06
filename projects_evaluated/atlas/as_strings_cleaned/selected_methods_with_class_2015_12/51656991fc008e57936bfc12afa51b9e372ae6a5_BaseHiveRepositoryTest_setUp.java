@@ -1,0 +1,22 @@
+graph backed search indexer SimpleName SimpleType ClassInstanceCreation SimpleName graph provider
+graph provider SimpleName MethodInvocation SimpleName get
+test utils SimpleName MethodInvocation SimpleName dump graph
+test utils SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+test utils SimpleName MethodInvocation MethodInvocation SimpleName get
+dump graph SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+dump graph SimpleName MethodInvocation MethodInvocation SimpleName get
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set up
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

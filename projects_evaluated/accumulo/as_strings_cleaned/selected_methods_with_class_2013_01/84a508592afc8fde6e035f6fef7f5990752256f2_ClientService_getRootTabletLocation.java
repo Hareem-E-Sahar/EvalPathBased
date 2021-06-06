@@ -1,0 +1,39 @@
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SimpleType SimpleName get root tablet location call
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+get root tablet location call SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+get root tablet location call SimpleName SimpleType ClassInstanceCreation SimpleName result handler
+get root tablet location call SimpleName SimpleType ClassInstanceCreation SimpleName protocol factory
+get root tablet location call SimpleName SimpleType ClassInstanceCreation SimpleName transport
+result handler SimpleName ClassInstanceCreation SimpleName protocol factory
+result handler SimpleName ClassInstanceCreation SimpleName transport
+protocol factory SimpleName ClassInstanceCreation SimpleName transport
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName get root tablet location call
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName result handler
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName protocol factory
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transport
+get root tablet location call SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method call
+current method SimpleName FieldAccess Assignment SimpleName method call
+manager SimpleName MethodInvocation SimpleName call
+manager SimpleName MethodInvocation SimpleName method call
+call SimpleName MethodInvocation SimpleName method call
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get root tablet location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result handler
+public Modifier MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+void PrimitiveType MethodDeclaration SimpleName get root tablet location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result handler
+void PrimitiveType MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+get root tablet location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result handler
+get root tablet location SimpleName MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+result handler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root tablet location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root tablet location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception

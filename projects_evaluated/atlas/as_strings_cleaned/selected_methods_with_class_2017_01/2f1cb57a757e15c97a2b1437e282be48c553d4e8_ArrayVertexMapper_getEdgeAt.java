@@ -1,0 +1,67 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current elements
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current elements
+int PrimitiveType SingleVariableDeclaration SimpleName index
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName elem type
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+optional SimpleName MethodInvocation SimpleName absent
+existing edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName optional
+existing edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName absent
+atlas graph utils v SimpleName MethodInvocation SimpleName is reference
+atlas graph utils v SimpleName MethodInvocation SimpleName elem type
+is reference SimpleName MethodInvocation SimpleName elem type
+current elements SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName current elements
+index SimpleName InfixExpression MethodInvocation SimpleName size
+current elements SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+current elements SimpleName MethodInvocation SimpleName get
+current elements SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+current element SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName current elements
+current element SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+current element SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName index
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current element
+atlas edge SimpleName SimpleType CastExpression SimpleName current element
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+optional SimpleName MethodInvocation CastExpression SimpleName current element
+of SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+of SimpleName MethodInvocation CastExpression SimpleName current element
+existing edge SimpleName Assignment MethodInvocation SimpleName optional
+existing edge SimpleName Assignment MethodInvocation SimpleName of
+existing edge SimpleName Assignment MethodInvocation CastExpression SimpleName current element
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SimpleName get edge at
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName current elements
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem type
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edge at
+atlas edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edge at
+get edge at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current elements
+get edge at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get edge at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+get edge at SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get edge at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem type
+get edge at SimpleName MethodDeclaration Block ReturnStatement SimpleName existing edge
+current elements SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+current elements SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+current elements SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current elements
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current elements
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type

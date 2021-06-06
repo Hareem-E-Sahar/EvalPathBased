@@ -1,0 +1,90 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName entity type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName entity type
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName field mapping
+type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+fields SimpleName FieldAccess MethodInvocation SimpleName get
+type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName attribute name
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName attribute name
+fields SimpleName FieldAccess MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName fields
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s is not an attribute in s
+string SimpleName MethodInvocation SimpleName attribute name
+string SimpleName MethodInvocation SimpleName entity type
+format SimpleName MethodInvocation StringLiteral s is not an attribute in s
+format SimpleName MethodInvocation SimpleName attribute name
+format SimpleName MethodInvocation SimpleName entity type
+s is not an attribute in s StringLiteral MethodInvocation SimpleName attribute name
+s is not an attribute in s StringLiteral MethodInvocation SimpleName entity type
+attribute name SimpleName MethodInvocation SimpleName entity type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral s is not an attribute in s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss is not a unique attribute
+string SimpleName MethodInvocation SimpleName entity type
+string SimpleName MethodInvocation SimpleName attribute name
+format SimpleName MethodInvocation StringLiteral ss is not a unique attribute
+format SimpleName MethodInvocation SimpleName entity type
+format SimpleName MethodInvocation SimpleName attribute name
+ss is not a unique attribute StringLiteral MethodInvocation SimpleName entity type
+ss is not a unique attribute StringLiteral MethodInvocation SimpleName attribute name
+entity type SimpleName MethodInvocation SimpleName attribute name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral ss is not a unique attribute
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate unique attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName validate unique attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+validate unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+validate unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+validate unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

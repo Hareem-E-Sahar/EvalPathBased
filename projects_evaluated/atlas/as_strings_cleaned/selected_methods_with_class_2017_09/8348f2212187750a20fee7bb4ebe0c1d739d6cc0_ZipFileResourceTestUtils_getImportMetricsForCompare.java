@@ -1,0 +1,99 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+atlas import result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+result SimpleName MethodInvocation SimpleName get metrics
+result SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get metrics SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName replace
+get key SimpleName MethodInvocation MethodInvocation SimpleName replace
+entry SimpleName MethodInvocation MethodInvocation StringLiteral updated
+get key SimpleName MethodInvocation MethodInvocation StringLiteral updated
+entry SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral updated
+replace SimpleName MethodInvocation StringLiteral empty
+updated StringLiteral MethodInvocation StringLiteral empty
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+updated StringLiteral MethodInvocation MethodInvocation SimpleName replace
+empty StringLiteral MethodInvocation MethodInvocation SimpleName replace
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+replace SimpleName MethodInvocation MethodInvocation StringLiteral created
+updated StringLiteral MethodInvocation MethodInvocation StringLiteral created
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral created
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation MethodInvocation StringLiteral empty
+updated StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral created
+replace SimpleName MethodInvocation StringLiteral empty
+created StringLiteral MethodInvocation StringLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+r SimpleName MethodInvocation SimpleName put
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+r SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral updated
+r SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+r SimpleName MethodInvocation MethodInvocation SimpleName replace
+r SimpleName MethodInvocation MethodInvocation StringLiteral created
+r SimpleName MethodInvocation MethodInvocation StringLiteral empty
+r SimpleName MethodInvocation MethodInvocation SimpleName entry
+r SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+put SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral updated
+put SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName replace
+put SimpleName MethodInvocation MethodInvocation StringLiteral created
+put SimpleName MethodInvocation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+created StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+created StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+private Modifier MethodDeclaration SimpleName get import metrics for compare
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration Block ReturnStatement SimpleName r
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get import metrics for compare
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+static Modifier MethodDeclaration Block ReturnStatement SimpleName r
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get import metrics for compare
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get import metrics for compare
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get import metrics for compare
+get import metrics for compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+get import metrics for compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get import metrics for compare SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get import metrics for compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get import metrics for compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

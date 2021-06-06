@@ -1,0 +1,6 @@
+atlas cardinality SimpleName SimpleType MethodDeclaration SimpleName get cardinality
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas cardinality
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cardinality
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas cardinality
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cardinality

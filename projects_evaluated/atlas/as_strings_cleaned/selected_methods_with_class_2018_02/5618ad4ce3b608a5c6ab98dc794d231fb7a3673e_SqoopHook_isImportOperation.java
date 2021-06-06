@@ -1,0 +1,29 @@
+sqoop job data publisherdata QualifiedName SimpleType SingleVariableDeclaration SimpleName data
+data SimpleName MethodInvocation SimpleName get operation
+data SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get operation SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName equals
+data SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral import
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral import
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral import
+equals SimpleName MethodInvocation StringLiteral import
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is import operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+boolean PrimitiveType MethodDeclaration SimpleName is import operation
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+is import operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+is import operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is import operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is import operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

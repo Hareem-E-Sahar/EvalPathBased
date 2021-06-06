@@ -1,0 +1,28 @@
+closeable SimpleName SimpleType SingleVariableDeclaration SimpleName closeable
+closeable SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName closeable
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName closeable
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName closeable
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName closeable
+close SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+closeable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName closeable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,30 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+mapper SimpleName MethodInvocation SimpleName get existing id
+mapper SimpleName MethodInvocation SimpleName instance
+get existing id SimpleName MethodInvocation SimpleName instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName mapper
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get existing id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName is assigned
+guids to lookup SimpleName MethodInvocation SimpleName add
+guids to lookup SimpleName MethodInvocation SimpleName id
+add SimpleName MethodInvocation SimpleName id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add additional instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleName add additional instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+add additional instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add additional instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add additional instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add additional instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

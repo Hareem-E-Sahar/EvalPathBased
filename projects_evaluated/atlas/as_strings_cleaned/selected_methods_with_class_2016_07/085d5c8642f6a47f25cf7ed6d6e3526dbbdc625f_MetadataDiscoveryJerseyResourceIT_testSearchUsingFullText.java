@@ -1,0 +1,142 @@
+service client SimpleName MethodInvocation SimpleName search by full text
+service client SimpleName MethodInvocation SimpleName tag name
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName tag name
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+tag name SimpleName MethodInvocation NumberLiteral empty
+tag name SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by full text
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName tag name
+response SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+response SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query
+get string SimpleName MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation SimpleName tag name
+response SimpleName MethodInvocation MethodInvocation SimpleName tag name
+get string SimpleName MethodInvocation MethodInvocation SimpleName tag name
+query StringLiteral MethodInvocation MethodInvocation SimpleName tag name
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query type
+get string SimpleName MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation StringLiteral fulltext
+response SimpleName MethodInvocation MethodInvocation StringLiteral fulltext
+get string SimpleName MethodInvocation MethodInvocation StringLiteral fulltext
+query type StringLiteral MethodInvocation MethodInvocation StringLiteral fulltext
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+results SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+results StringLiteral InfixExpression SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral results
+assert equals SimpleName MethodInvocation InfixExpression SimpleName results
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral results
+results SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName results
+length SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral results
+length SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName results
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral results
+empty NumberLiteral MethodInvocation InfixExpression SimpleName results
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral guid
+get SimpleName MethodInvocation StringLiteral guid
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral guid
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral type name
+get string SimpleName MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation StringLiteral dsl test type
+row SimpleName MethodInvocation MethodInvocation StringLiteral dsl test type
+get string SimpleName MethodInvocation MethodInvocation StringLiteral dsl test type
+type name StringLiteral MethodInvocation MethodInvocation StringLiteral dsl test type
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral score
+get SimpleName MethodInvocation StringLiteral score
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral score
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral score
+response SimpleName MethodInvocation SimpleName get int
+response SimpleName MethodInvocation QualifiedName atlas clientcount
+get int SimpleName MethodInvocation QualifiedName atlas clientcount
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+num rows SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName response
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+assert equals SimpleName MethodInvocation SimpleName num rows
+assert equals SimpleName MethodInvocation NumberLiteral empty
+num rows SimpleName MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search using full text
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search using full text
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test search using full text
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test search using full text SimpleName MethodDeclaration SimpleType SimpleName exception
+test search using full text SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search using full text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search using full text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

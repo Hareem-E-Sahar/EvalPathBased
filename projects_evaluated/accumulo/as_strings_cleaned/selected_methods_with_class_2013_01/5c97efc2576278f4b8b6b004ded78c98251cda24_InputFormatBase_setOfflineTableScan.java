@@ -1,0 +1,56 @@
+job SimpleName SimpleType SingleVariableDeclaration SimpleName job
+boolean PrimitiveType SingleVariableDeclaration SimpleName enable feature
+job SimpleName MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation SimpleName set offline table scan
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName job
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation SimpleName enable feature
+set offline table scan SimpleName MethodInvocation SimpleName class
+set offline table scan SimpleName MethodInvocation MethodInvocation SimpleName job
+set offline table scan SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set offline table scan SimpleName MethodInvocation SimpleName enable feature
+class SimpleName MethodInvocation MethodInvocation SimpleName job
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation SimpleName enable feature
+job SimpleName MethodInvocation MethodInvocation SimpleName enable feature
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName enable feature
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set offline table scan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set offline table scan
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+void PrimitiveType MethodDeclaration SimpleName set offline table scan
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+set offline table scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+set offline table scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set offline table scan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set offline table scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set offline table scan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable feature
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set offline table scan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable feature

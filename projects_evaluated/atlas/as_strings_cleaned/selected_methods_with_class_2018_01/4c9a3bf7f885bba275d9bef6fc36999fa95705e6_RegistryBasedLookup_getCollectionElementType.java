@@ -1,0 +1,24 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName elem type
+elem type SimpleName MethodInvocation SimpleName get type category
+elem type SimpleName MethodInvocation InfixExpression QualifiedName type categoryobject id type
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryobject id type
+atlas built in typesatlas object id type QualifiedName SimpleType CastExpression SimpleName elem type
+elem type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get object type
+elem type SimpleName MethodInvocation SimpleName get type name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get collection element type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem type
+string SimpleName SimpleType MethodDeclaration SimpleName get collection element type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elem type
+get collection element type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get collection element type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get collection element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get collection element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type

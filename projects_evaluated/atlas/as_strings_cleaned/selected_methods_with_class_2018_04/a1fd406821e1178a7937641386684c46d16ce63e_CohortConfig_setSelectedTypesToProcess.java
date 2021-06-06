@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def summary
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName selected types to process
+type def summary SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName selected types to process
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName selected types to process
+selected types to process SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName selected types to process
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set selected types to process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selected types to process
+void PrimitiveType MethodDeclaration SimpleName set selected types to process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selected types to process
+set selected types to process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selected types to process
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set selected types to process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selected types to process
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set selected types to process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selected types to process

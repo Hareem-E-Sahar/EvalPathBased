@@ -1,0 +1,195 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName get instance
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation StringLiteral foo
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+create SimpleName MethodInvocation StringLiteral foo
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation StringLiteral foo
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation StringLiteral foo
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+foo StringLiteral MethodInvocation QualifiedName authorizationsempty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+iterables SimpleName MethodInvocation SimpleName size
+iterables SimpleName MethodInvocation SimpleName s
+size SimpleName MethodInvocation SimpleName s
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation SimpleName s
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName s
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName iterables
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName s
+inst SimpleName MethodInvocation SimpleName get zoo keepers
+inst SimpleName MethodInvocation SimpleName get zoo keepers session time out
+zoo reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inst
+zoo reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+inst SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName inst
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+zreader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo reader
+zreader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+zreader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zreader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inst
+zreader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers session time out
+zoo reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zreader
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation SimpleName inst
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+inst SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zreader SimpleName MethodInvocation SimpleName get children
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+zreader SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+tserver host SimpleName MethodInvocation SimpleName add all
+tserver host SimpleName MethodInvocation MethodInvocation SimpleName zreader
+tserver host SimpleName MethodInvocation MethodInvocation SimpleName get children
+tserver host SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztservers
+add all SimpleName MethodInvocation MethodInvocation SimpleName zreader
+add all SimpleName MethodInvocation MethodInvocation SimpleName get children
+add all SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztservers
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName host and port
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation SimpleName inst
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+inst SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+inst SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName tserver
+get root SimpleName MethodInvocation InfixExpression SimpleName tserver
+inst SimpleName MethodInvocation InfixExpression SimpleName tserver
+constantszreplication tservers QualifiedName InfixExpression StringLiteral /
+constantszreplication tservers QualifiedName InfixExpression SimpleName tserver
+/ StringLiteral InfixExpression SimpleName tserver
+zreader SimpleName MethodInvocation SimpleName get data
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zreader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+zreader SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+zreader SimpleName MethodInvocation InfixExpression StringLiteral /
+zreader SimpleName MethodInvocation InfixExpression SimpleName tserver
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+get data SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression SimpleName tserver
+port data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zreader
+port data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+port data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+port data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+port data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName tserver
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName port data
+string SimpleName SimpleType ClassInstanceCreation SimpleName port data
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+port data SimpleName ClassInstanceCreation QualifiedName standard charsetsutf
+host and port SimpleName MethodInvocation SimpleName from string
+host and port SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+host and port SimpleName MethodInvocation ClassInstanceCreation SimpleName port data
+host and port SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+from string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+from string SimpleName MethodInvocation ClassInstanceCreation SimpleName port data
+from string SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+repl address SimpleName VariableDeclarationFragment MethodInvocation SimpleName host and port
+repl address SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+repl address SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName port data
+repl address SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl address
+replication services SimpleName MethodInvocation SimpleName add
+replication services SimpleName MethodInvocation SimpleName repl address
+add SimpleName MethodInvocation SimpleName repl address
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not find port for {}
+log SimpleName MethodInvocation SimpleName tserver
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral could not find port for {}
+error SimpleName MethodInvocation SimpleName tserver
+error SimpleName MethodInvocation SimpleName e
+could not find port for {} StringLiteral MethodInvocation SimpleName tserver
+could not find port for {} StringLiteral MethodInvocation SimpleName e
+tserver SimpleName MethodInvocation SimpleName e
+did not find replication port advertisement for StringLiteral InfixExpression SimpleName tserver
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral did not find replication port advertisement for
+assert SimpleName MethodInvocation InfixExpression SimpleName tserver
+fail SimpleName MethodInvocation InfixExpression StringLiteral did not find replication port advertisement for
+fail SimpleName MethodInvocation InfixExpression SimpleName tserver
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tserver host
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tserver host
+tserver host SimpleName MethodInvocation SimpleName size
+replication services SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral expected an equal number of replication servicers and tservers
+assert SimpleName MethodInvocation MethodInvocation SimpleName tserver host
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation SimpleName replication services
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation StringLiteral expected an equal number of replication servicers and tservers
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tserver host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName replication services
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+expected an equal number of replication servicers and tservers StringLiteral MethodInvocation MethodInvocation SimpleName tserver host
+expected an equal number of replication servicers and tservers StringLiteral MethodInvocation MethodInvocation SimpleName size
+expected an equal number of replication servicers and tservers StringLiteral MethodInvocation MethodInvocation SimpleName replication services
+expected an equal number of replication servicers and tservers StringLiteral MethodInvocation MethodInvocation SimpleName size
+tserver host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replication services
+tserver host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replication services
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName tserver replication service ports are advertised
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName tserver replication service ports are advertised
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tserver host
+void PrimitiveType MethodDeclaration SimpleName tserver replication service ports are advertised
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tserver host
+tserver replication service ports are advertised SimpleName MethodDeclaration SimpleType SimpleName exception
+tserver replication service ports are advertised SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tserver host
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tserver replication service ports are advertised
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tserver replication service ports are advertised
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

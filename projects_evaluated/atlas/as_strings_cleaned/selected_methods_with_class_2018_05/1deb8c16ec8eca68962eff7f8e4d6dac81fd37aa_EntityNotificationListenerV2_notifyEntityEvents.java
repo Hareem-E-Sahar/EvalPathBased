@@ -1,0 +1,77 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+operation type SimpleName SimpleType SingleVariableDeclaration SimpleName operation type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity notification v
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName entity
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+to notification header SimpleName MethodInvocation SimpleName entity
+entity notification v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to notification header
+entity notification v SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+entity notification v SimpleName SimpleType ClassInstanceCreation SimpleName operation type
+to notification header SimpleName MethodInvocation ClassInstanceCreation SimpleName operation type
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName operation type
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity notification v
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to notification header
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleName operation type
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity notification v
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to notification header
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName operation type
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+messages SimpleName MethodInvocation SimpleName is empty
+notification interface SimpleName MethodInvocation SimpleName send
+notification interface SimpleName MethodInvocation SimpleName entities
+notification interface SimpleName MethodInvocation SimpleName messages
+send SimpleName MethodInvocation SimpleName entities
+send SimpleName MethodInvocation SimpleName messages
+entities SimpleName MethodInvocation SimpleName messages
+notification exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+operation type SimpleName MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeentity notification failed
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName operation type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codeentity notification failed QualifiedName ClassInstanceCreation SimpleName e
+atlas error codeentity notification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName operation type
+atlas error codeentity notification failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName operation type
+e SimpleName ClassInstanceCreation MethodInvocation SimpleName name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName notify entity events
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName operation type
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName notify entity events
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName operation type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entities
+notify entity events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+notify entity events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation type
+notify entity events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation type
+notify entity events SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+notify entity events SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entities
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation type
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+operation type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify entity events
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify entity events
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

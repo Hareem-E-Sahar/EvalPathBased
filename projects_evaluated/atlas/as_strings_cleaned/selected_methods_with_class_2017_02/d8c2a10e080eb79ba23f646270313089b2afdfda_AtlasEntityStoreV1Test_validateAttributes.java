@@ -1,0 +1,62 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity map
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName entity
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get guid
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+assert attributes SimpleName MethodInvocation SimpleName entity map
+assert attributes SimpleName MethodInvocation SimpleName entity
+assert attributes SimpleName MethodInvocation SimpleName instance
+entity map SimpleName MethodInvocation SimpleName entity
+entity map SimpleName MethodInvocation SimpleName instance
+entity SimpleName MethodInvocation SimpleName instance
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName validate attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+validate attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity map
+validate attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+validate attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+validate attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+validate attributes SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

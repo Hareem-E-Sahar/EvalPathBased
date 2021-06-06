@@ -1,0 +1,81 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName ranges
+get SimpleName MethodInvocation SimpleName ranges
+range path SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+range path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+range path SimpleName VariableDeclarationFragment MethodInvocation SimpleName ranges
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range path
+range path SimpleName InfixExpression IfStatement ReturnStatement SimpleName ranges
+path SimpleName SimpleType ClassInstanceCreation SimpleName range path
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName range path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+fs SimpleName MethodInvocation SimpleName open
+fs SimpleName MethodInvocation SimpleName file
+open SimpleName MethodInvocation SimpleName file
+fdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+fdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+fdis SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+fs data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fdis
+fdis SimpleName MethodInvocation SimpleName read int
+num ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName fdis
+num ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num ranges
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fdis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+num ranges SimpleName InfixExpression NumberLiteral empty
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName read fields
+r SimpleName MethodInvocation SimpleName fdis
+read fields SimpleName MethodInvocation SimpleName fdis
+ranges SimpleName MethodInvocation SimpleName add
+ranges SimpleName MethodInvocation SimpleName r
+add SimpleName MethodInvocation SimpleName r
+fdis SimpleName MethodInvocation SimpleName close
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ranges
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+protected Modifier MethodDeclaration SimpleName get ranges
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+static Modifier MethodDeclaration SimpleName get ranges
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ranges
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ranges
+range SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ranges
+get ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get ranges SimpleName MethodDeclaration SimpleType SimpleName io exception
+get ranges SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get ranges SimpleName MethodDeclaration Block ReturnStatement SimpleName ranges
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

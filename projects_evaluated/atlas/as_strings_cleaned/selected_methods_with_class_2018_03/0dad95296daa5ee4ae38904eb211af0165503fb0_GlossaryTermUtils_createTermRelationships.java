@@ -1,0 +1,125 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+atlas glossary termrelation QualifiedName SimpleType SingleVariableDeclaration SimpleName relation
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+atlas related term header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName terms
+is not empty SimpleName MethodInvocation SimpleName terms
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+existing SimpleName MethodInvocation SimpleName get related terms
+existing SimpleName MethodInvocation MethodInvocation SimpleName get
+get related terms SimpleName MethodInvocation MethodInvocation SimpleName get
+existing SimpleName MethodInvocation MethodInvocation SimpleName relation
+get related terms SimpleName MethodInvocation MethodInvocation SimpleName relation
+get SimpleName MethodInvocation SimpleName relation
+existing relations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName existing
+existing relations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get related terms
+existing relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+existing relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName relation
+atlas related term header SimpleName SimpleType SingleVariableDeclaration SimpleName term
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName existing relations
+non null SimpleName MethodInvocation SimpleName existing relations
+existing relations SimpleName MethodInvocation SimpleName contains
+existing relations SimpleName MethodInvocation SimpleName term
+contains SimpleName MethodInvocation SimpleName term
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing relations
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing relations
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+existing relations SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing relations
+existing relations SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+existing relations SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName term
+term SimpleName MethodInvocation SimpleName get term guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipping existing term relation term guid
+log SimpleName MethodInvocation MethodInvocation SimpleName term
+log SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+debug SimpleName MethodInvocation StringLiteral skipping existing term relation term guid
+debug SimpleName MethodInvocation MethodInvocation SimpleName term
+debug SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+skipping existing term relation term guid StringLiteral MethodInvocation MethodInvocation SimpleName term
+skipping existing term relation term guid StringLiteral MethodInvocation MethodInvocation SimpleName get term guid
+term SimpleName MethodInvocation SimpleName get display text
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral creating new term relation = {} terms = {}
+log SimpleName MethodInvocation SimpleName relation
+log SimpleName MethodInvocation MethodInvocation SimpleName term
+log SimpleName MethodInvocation MethodInvocation SimpleName get display text
+debug SimpleName MethodInvocation StringLiteral creating new term relation = {} terms = {}
+debug SimpleName MethodInvocation SimpleName relation
+debug SimpleName MethodInvocation MethodInvocation SimpleName term
+debug SimpleName MethodInvocation MethodInvocation SimpleName get display text
+creating new term relation = {} terms = {} StringLiteral MethodInvocation SimpleName relation
+creating new term relation = {} terms = {} StringLiteral MethodInvocation MethodInvocation SimpleName term
+creating new term relation = {} terms = {} StringLiteral MethodInvocation MethodInvocation SimpleName get display text
+relation SimpleName MethodInvocation MethodInvocation SimpleName term
+relation SimpleName MethodInvocation MethodInvocation SimpleName get display text
+relation SimpleName MethodInvocation SimpleName get relation name
+existing SimpleName MethodInvocation SimpleName get guid
+define term relation SimpleName MethodInvocation MethodInvocation SimpleName relation
+define term relation SimpleName MethodInvocation MethodInvocation SimpleName get relation name
+define term relation SimpleName MethodInvocation MethodInvocation SimpleName existing
+define term relation SimpleName MethodInvocation MethodInvocation SimpleName get guid
+define term relation SimpleName MethodInvocation SimpleName term
+relation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName existing
+relation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get relation name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName existing
+get relation name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+relation SimpleName MethodInvocation MethodInvocation SimpleName term
+get relation name SimpleName MethodInvocation MethodInvocation SimpleName term
+existing SimpleName MethodInvocation MethodInvocation SimpleName term
+get guid SimpleName MethodInvocation MethodInvocation SimpleName term
+create relationship SimpleName MethodInvocation MethodInvocation SimpleName define term relation
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relation
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relation name
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName existing
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+create relationship SimpleName MethodInvocation MethodInvocation SimpleName term
+atlas related term header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName terms
+term SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName terms
+terms SimpleName EnhancedForStatement Block IfStatement SimpleName debug enabled
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create term relationships
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName terms
+void PrimitiveType MethodDeclaration SimpleName create term relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName terms
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+create term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+create term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+create term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+create term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relation
+create term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName terms
+create term relationships SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+relation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+terms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create term relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create term relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

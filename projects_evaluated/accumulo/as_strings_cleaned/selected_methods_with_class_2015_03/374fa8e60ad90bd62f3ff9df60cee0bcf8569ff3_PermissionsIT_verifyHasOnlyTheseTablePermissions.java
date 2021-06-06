@@ -1,0 +1,138 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName root conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName perms
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName perms
+as list SimpleName MethodInvocation SimpleName perms
+perm list SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+perm list SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+perm list SimpleName VariableDeclarationFragment MethodInvocation SimpleName perms
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+table permission SimpleName MethodInvocation SimpleName values
+perm list SimpleName MethodInvocation SimpleName contains
+perm list SimpleName MethodInvocation SimpleName p
+contains SimpleName MethodInvocation SimpleName p
+root conn SimpleName MethodInvocation SimpleName security operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+root conn SimpleName MethodInvocation MethodInvocation SimpleName p
+security operations SimpleName MethodInvocation MethodInvocation SimpleName p
+has table permission SimpleName MethodInvocation SimpleName user
+has table permission SimpleName MethodInvocation SimpleName table
+has table permission SimpleName MethodInvocation SimpleName p
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation SimpleName p
+table SimpleName MethodInvocation SimpleName p
+user SimpleName InfixExpression StringLiteral should have table permission
+user SimpleName InfixExpression SimpleName p
+user SimpleName InfixExpression StringLiteral for table
+user SimpleName InfixExpression SimpleName table
+should have table permission StringLiteral InfixExpression SimpleName p
+should have table permission StringLiteral InfixExpression StringLiteral for table
+should have table permission StringLiteral InfixExpression SimpleName table
+p SimpleName InfixExpression StringLiteral for table
+p SimpleName InfixExpression SimpleName table
+for table StringLiteral InfixExpression SimpleName table
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral should have table permission
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName p
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for table
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table
+root conn SimpleName MethodInvocation SimpleName security operations
+root conn SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+root conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+root conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+root conn SimpleName MethodInvocation MethodInvocation SimpleName p
+security operations SimpleName MethodInvocation MethodInvocation SimpleName p
+has table permission SimpleName MethodInvocation SimpleName user
+has table permission SimpleName MethodInvocation SimpleName table
+has table permission SimpleName MethodInvocation SimpleName p
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation SimpleName p
+table SimpleName MethodInvocation SimpleName p
+user SimpleName InfixExpression StringLiteral should not have table permission
+user SimpleName InfixExpression SimpleName p
+user SimpleName InfixExpression StringLiteral for table
+user SimpleName InfixExpression SimpleName table
+should not have table permission StringLiteral InfixExpression SimpleName p
+should not have table permission StringLiteral InfixExpression StringLiteral for table
+should not have table permission StringLiteral InfixExpression SimpleName table
+p SimpleName InfixExpression StringLiteral for table
+p SimpleName InfixExpression SimpleName table
+for table StringLiteral InfixExpression SimpleName table
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral should not have table permission
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName p
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for table
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify has only these table permissions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName root conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleName verify has only these table permissions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perms
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root conn
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+verify has only these table permissions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perms
+verify has only these table permissions SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify has only these table permissions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify has only these table permissions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

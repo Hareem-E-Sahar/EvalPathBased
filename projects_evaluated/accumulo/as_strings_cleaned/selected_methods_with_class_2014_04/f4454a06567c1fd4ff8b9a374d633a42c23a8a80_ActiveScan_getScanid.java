@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get scanid
+abstract Modifier MethodDeclaration PrimitiveType long
+abstract Modifier MethodDeclaration SimpleName get scanid
+long PrimitiveType MethodDeclaration SimpleName get scanid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scanid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scanid

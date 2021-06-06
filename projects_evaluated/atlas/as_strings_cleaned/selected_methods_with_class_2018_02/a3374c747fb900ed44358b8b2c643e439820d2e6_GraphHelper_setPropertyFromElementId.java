@@ -1,0 +1,71 @@
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName value
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation SimpleName property name
+encode property key SimpleName MethodInvocation SimpleName property name
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual property name
+instance vertex SimpleName MethodInvocation SimpleName set property from element id
+instance vertex SimpleName MethodInvocation SimpleName actual property name
+instance vertex SimpleName MethodInvocation SimpleName value
+set property from element id SimpleName MethodInvocation SimpleName actual property name
+set property from element id SimpleName MethodInvocation SimpleName value
+actual property name SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set property from element id
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set property from element id
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set property from element id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+set property from element id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set property from element id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set property from element id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

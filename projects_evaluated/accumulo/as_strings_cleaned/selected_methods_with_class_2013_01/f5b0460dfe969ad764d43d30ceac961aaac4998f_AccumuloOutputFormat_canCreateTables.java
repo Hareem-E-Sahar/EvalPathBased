@@ -1,0 +1,39 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+output configurator SimpleName MethodInvocation SimpleName can create tables
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation SimpleName conf
+can create tables SimpleName MethodInvocation SimpleName class
+can create tables SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName conf
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName can create tables
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName can create tables
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName can create tables
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+boolean PrimitiveType MethodDeclaration SimpleName can create tables
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+can create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can create tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can create tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

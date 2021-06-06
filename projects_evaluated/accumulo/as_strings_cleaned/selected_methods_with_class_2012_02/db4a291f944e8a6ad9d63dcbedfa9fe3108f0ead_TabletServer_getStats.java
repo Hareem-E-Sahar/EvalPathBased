@@ -1,0 +1,241 @@
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scan counts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scan counts
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet server status
+tablet server status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+online tablets copy SimpleName Assignment ClassInstanceCreation FieldAccess SimpleName online tablets
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+online tablets copy SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName get table id
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table info
+tableminor QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName compacting
+tablemajor QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName compacting
+tables SimpleName MethodInvocation SimpleName put
+tables SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName table
+table id SimpleName MethodInvocation SimpleName table
+entry SimpleName MethodInvocation SimpleName get value
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+tablet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName get num entries
+recs SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet
+recs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num entries
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName recs
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tablet
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num entries
+tablerecs QualifiedName Assignment SimpleName recs
+tablet SimpleName MethodInvocation SimpleName query rate
+tablequery rate QualifiedName Assignment MethodInvocation SimpleName tablet
+tablequery rate QualifiedName Assignment MethodInvocation SimpleName query rate
+tablet SimpleName MethodInvocation SimpleName query byte rate
+tablequery byte rate QualifiedName Assignment MethodInvocation SimpleName tablet
+tablequery byte rate QualifiedName Assignment MethodInvocation SimpleName query byte rate
+tablet SimpleName MethodInvocation SimpleName ingest rate
+tableingest rate QualifiedName Assignment MethodInvocation SimpleName tablet
+tableingest rate QualifiedName Assignment MethodInvocation SimpleName ingest rate
+tablet SimpleName MethodInvocation SimpleName ingest byte rate
+tableingest byte rate QualifiedName Assignment MethodInvocation SimpleName tablet
+tableingest byte rate QualifiedName Assignment MethodInvocation SimpleName ingest byte rate
+tablet SimpleName MethodInvocation SimpleName get num entries in memory
+recs in memory SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet
+recs in memory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num entries in memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName recs in memory
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tablet
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num entries in memory
+tablerecs in memory QualifiedName Assignment SimpleName recs in memory
+tablet SimpleName MethodInvocation SimpleName minor compaction running
+tablet SimpleName MethodInvocation SimpleName minor compaction queued
+tablet SimpleName MethodInvocation SimpleName major compaction running
+tablet SimpleName MethodInvocation SimpleName major compaction queued
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName online tablets copy
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+map counter SimpleName SimpleType ParameterizedType SimpleType SimpleName scan run state
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+scan counts SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation SimpleName entry
+tables SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table info
+entry SimpleName MethodInvocation SimpleName get key
+tables SimpleName MethodInvocation SimpleName put
+tables SimpleName MethodInvocation MethodInvocation SimpleName entry
+tables SimpleName MethodInvocation MethodInvocation SimpleName get key
+tables SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation SimpleName table
+entry SimpleName MethodInvocation MethodInvocation SimpleName table
+get key SimpleName MethodInvocation MethodInvocation SimpleName table
+tablescans QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName compacting
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+entry SimpleName MethodInvocation MethodInvocation QualifiedName scan run statequeued
+get value SimpleName MethodInvocation MethodInvocation QualifiedName scan run statequeued
+get SimpleName MethodInvocation QualifiedName scan run statequeued
+tablescansqueued QualifiedName Assignment MethodInvocation MethodInvocation SimpleName entry
+tablescansqueued QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get value
+tablescansqueued QualifiedName Assignment MethodInvocation SimpleName get
+tablescansqueued QualifiedName Assignment MethodInvocation QualifiedName scan run statequeued
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+entry SimpleName MethodInvocation MethodInvocation QualifiedName scan run staterunning
+get value SimpleName MethodInvocation MethodInvocation QualifiedName scan run staterunning
+get SimpleName MethodInvocation QualifiedName scan run staterunning
+tablescansrunning QualifiedName Assignment MethodInvocation MethodInvocation SimpleName entry
+tablescansrunning QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get value
+tablescansrunning QualifiedName Assignment MethodInvocation SimpleName get
+tablescansrunning QualifiedName Assignment MethodInvocation QualifiedName scan run staterunning
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName scan counts
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+offline tablets copy SimpleName MethodInvocation SimpleName add all
+offline tablets copy SimpleName MethodInvocation FieldAccess SimpleName unopened tablets
+add all SimpleName MethodInvocation FieldAccess SimpleName unopened tablets
+offline tablets copy SimpleName MethodInvocation SimpleName add all
+offline tablets copy SimpleName MethodInvocation FieldAccess SimpleName opening tablets
+add all SimpleName MethodInvocation FieldAccess SimpleName opening tablets
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName extent
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table info
+tables SimpleName MethodInvocation SimpleName put
+tables SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName table
+table id SimpleName MethodInvocation SimpleName table
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName offline tablets copy
+extent SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName offline tablets copy
+relative time SimpleName MethodInvocation SimpleName current time millis
+resultlast contact QualifiedName Assignment MethodInvocation SimpleName relative time
+resultlast contact QualifiedName Assignment MethodInvocation SimpleName current time millis
+resulttable map QualifiedName Assignment SimpleName tables
+management factory SimpleName MethodInvocation SimpleName get operating system mx bean
+management factory SimpleName MethodInvocation MethodInvocation SimpleName get system load average
+get operating system mx bean SimpleName MethodInvocation MethodInvocation SimpleName get system load average
+resultos load QualifiedName Assignment MethodInvocation MethodInvocation SimpleName management factory
+resultos load QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get operating system mx bean
+resultos load QualifiedName Assignment MethodInvocation SimpleName get system load average
+resultname QualifiedName Assignment MethodInvocation SimpleName get client address string
+resource manager SimpleName MethodInvocation SimpleName hold time
+resulthold time QualifiedName Assignment MethodInvocation SimpleName resource manager
+resulthold time QualifiedName Assignment MethodInvocation SimpleName hold time
+scan count SimpleName MethodInvocation SimpleName get
+resultlookups QualifiedName Assignment MethodInvocation SimpleName scan count
+resultlookups QualifiedName Assignment MethodInvocation SimpleName get
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+resource manager SimpleName MethodInvocation SimpleName get index cache
+resource manager SimpleName MethodInvocation MethodInvocation SimpleName get stats
+get index cache SimpleName MethodInvocation MethodInvocation SimpleName get stats
+resource manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hit count
+get index cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hit count
+get stats SimpleName MethodInvocation MethodInvocation SimpleName get hit count
+resultindex cache hits QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get stats
+resultindex cache hits QualifiedName Assignment MethodInvocation SimpleName get hit count
+resource manager SimpleName MethodInvocation SimpleName get index cache
+resource manager SimpleName MethodInvocation MethodInvocation SimpleName get stats
+get index cache SimpleName MethodInvocation MethodInvocation SimpleName get stats
+resource manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request count
+get index cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request count
+get stats SimpleName MethodInvocation MethodInvocation SimpleName get request count
+resultindex cache request QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get stats
+resultindex cache request QualifiedName Assignment MethodInvocation SimpleName get request count
+resource manager SimpleName MethodInvocation SimpleName get data cache
+resource manager SimpleName MethodInvocation MethodInvocation SimpleName get stats
+get data cache SimpleName MethodInvocation MethodInvocation SimpleName get stats
+resource manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hit count
+get data cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hit count
+get stats SimpleName MethodInvocation MethodInvocation SimpleName get hit count
+resultdata cache hits QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get stats
+resultdata cache hits QualifiedName Assignment MethodInvocation SimpleName get hit count
+resource manager SimpleName MethodInvocation SimpleName get data cache
+resource manager SimpleName MethodInvocation MethodInvocation SimpleName get stats
+get data cache SimpleName MethodInvocation MethodInvocation SimpleName get stats
+resource manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request count
+get data cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request count
+get stats SimpleName MethodInvocation MethodInvocation SimpleName get request count
+resultdata cache request QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get stats
+resultdata cache request QualifiedName Assignment MethodInvocation SimpleName get request count
+logger SimpleName MethodInvocation SimpleName get loggers
+logger SimpleName MethodInvocation QualifiedName resultloggers
+get loggers SimpleName MethodInvocation QualifiedName resultloggers
+public Modifier MethodDeclaration SimpleType SimpleName tablet server status
+public Modifier MethodDeclaration SimpleName get stats
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan counts
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName offline tablets copy
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+tablet server status SimpleName SimpleType MethodDeclaration SimpleName get stats
+tablet server status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scan counts
+get stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan counts
+get stats SimpleName MethodDeclaration Block EnhancedForStatement SimpleName offline tablets copy
+get stats SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stats
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan counts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stats
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan counts

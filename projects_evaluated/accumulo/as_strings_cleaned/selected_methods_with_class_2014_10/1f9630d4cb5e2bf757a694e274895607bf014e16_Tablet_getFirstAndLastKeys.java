@@ -1,0 +1,149 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all files
+file ref SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all files
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all files
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+file operations SimpleName MethodInvocation SimpleName get instance
+file factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName file operations
+file factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+file operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file factory
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get tablet server
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+file ref SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+all files SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+file ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName get volume by path
+fs SimpleName MethodInvocation MethodInvocation SimpleName file
+fs SimpleName MethodInvocation MethodInvocation SimpleName path
+get volume by path SimpleName MethodInvocation MethodInvocation SimpleName file
+get volume by path SimpleName MethodInvocation MethodInvocation SimpleName path
+fs SimpleName MethodInvocation MethodInvocation SimpleName get file system
+get volume by path SimpleName MethodInvocation MethodInvocation SimpleName get file system
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file system
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get file system
+ns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+ns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get volume by path
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+file SimpleName MethodInvocation SimpleName path
+file SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+ns SimpleName MethodInvocation SimpleName get conf
+file factory SimpleName MethodInvocation SimpleName open reader
+file factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+file factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+file factory SimpleName MethodInvocation MethodInvocation SimpleName to string
+file factory SimpleName MethodInvocation BooleanLiteral true
+file factory SimpleName MethodInvocation SimpleName ns
+file factory SimpleName MethodInvocation MethodInvocation SimpleName ns
+file factory SimpleName MethodInvocation MethodInvocation SimpleName get conf
+open reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+open reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+open reader SimpleName MethodInvocation MethodInvocation SimpleName to string
+open reader SimpleName MethodInvocation BooleanLiteral true
+open reader SimpleName MethodInvocation SimpleName ns
+open reader SimpleName MethodInvocation MethodInvocation SimpleName ns
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get conf
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+file SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+path SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ns
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ns
+to string SimpleName MethodInvocation MethodInvocation SimpleName ns
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ns
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table configuration
+true BooleanLiteral MethodInvocation SimpleName ns
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName ns
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get conf
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get table configuration
+ns SimpleName MethodInvocation MethodInvocation SimpleName ns
+ns SimpleName MethodInvocation MethodInvocation SimpleName get conf
+ns SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table configuration
+get conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table configuration
+open reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName file factory
+open reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+open reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+open reader SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+open reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName ns
+open reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ns
+open reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get conf
+open reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table configuration
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName open reader
+open reader SimpleName MethodInvocation SimpleName get first key
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+open reader SimpleName MethodInvocation SimpleName get last key
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName get last key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName first
+key SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName first
+key SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName first
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName last
+key SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName last
+key SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName last
+first SimpleName ClassInstanceCreation SimpleName last
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName file
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName first
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName last
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName first
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName last
+file SimpleName MethodInvocation ClassInstanceCreation SimpleName first
+file SimpleName MethodInvocation ClassInstanceCreation SimpleName last
+open reader SimpleName MethodInvocation SimpleName close
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName all files
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file ref
+private Modifier MethodDeclaration SimpleName get first and last keys
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName all files
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get first and last keys
+file ref SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get first and last keys
+get first and last keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all files
+get first and last keys SimpleName MethodDeclaration SimpleType SimpleName io exception
+get first and last keys SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+all files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get first and last keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get first and last keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

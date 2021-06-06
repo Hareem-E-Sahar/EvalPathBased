@@ -1,0 +1,133 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+user opt SimpleName MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation SimpleName whoami
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName user opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName shell state
+cl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+cl SimpleName MethodInvocation MethodInvocation SimpleName whoami
+get option value SimpleName MethodInvocation MethodInvocation SimpleName user opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName shell state
+get option value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+get option value SimpleName MethodInvocation MethodInvocation SimpleName whoami
+user opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+get opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName user opt
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName whoami
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+clear opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName clear opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName clear opt auths
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+scan opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName cl
+cl SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get option value
+has option SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName cl
+has option SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get option value
+scan opts SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName cl
+scan opts SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName has option
+scan opts SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName cl
+scan opts SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan opts
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+create user command SimpleName MethodInvocation SimpleName parse authorizations
+create user command SimpleName MethodInvocation SimpleName scan opts
+parse authorizations SimpleName MethodInvocation SimpleName scan opts
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName change user authorizations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create user command
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse authorizations
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scan opts
+change user authorizations SimpleName MethodInvocation SimpleName user
+change user authorizations SimpleName MethodInvocation MethodInvocation SimpleName create user command
+change user authorizations SimpleName MethodInvocation MethodInvocation SimpleName parse authorizations
+change user authorizations SimpleName MethodInvocation MethodInvocation SimpleName scan opts
+user SimpleName MethodInvocation MethodInvocation SimpleName create user command
+user SimpleName MethodInvocation MethodInvocation SimpleName parse authorizations
+user SimpleName MethodInvocation MethodInvocation SimpleName scan opts
+changed recordlevel authorizations for user StringLiteral InfixExpression SimpleName user
+shelllog QualifiedName MethodInvocation SimpleName debug
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral changed recordlevel authorizations for user
+shelllog QualifiedName MethodInvocation InfixExpression SimpleName user
+debug SimpleName MethodInvocation InfixExpression StringLiteral changed recordlevel authorizations for user
+debug SimpleName MethodInvocation InfixExpression SimpleName user
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName full command
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleName execute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full command
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+execute SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

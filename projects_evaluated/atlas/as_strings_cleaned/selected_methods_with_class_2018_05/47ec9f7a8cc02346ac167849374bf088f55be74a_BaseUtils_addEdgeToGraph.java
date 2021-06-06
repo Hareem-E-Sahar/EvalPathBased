@@ -1,0 +1,64 @@
+tinker graph SimpleName SimpleType SingleVariableDeclaration SimpleName tg
+graph son utility SimpleName SimpleType SingleVariableDeclaration SimpleName gu
+mapped element cache SimpleName SimpleType SingleVariableDeclaration SimpleName cache
+json node SimpleName SimpleType SingleVariableDeclaration SimpleName nodes
+json node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+gu SimpleName MethodInvocation SimpleName edge from json
+gu SimpleName MethodInvocation SimpleName tg
+gu SimpleName MethodInvocation SimpleName cache
+gu SimpleName MethodInvocation SimpleName n
+edge from json SimpleName MethodInvocation SimpleName tg
+edge from json SimpleName MethodInvocation SimpleName cache
+edge from json SimpleName MethodInvocation SimpleName n
+tg SimpleName MethodInvocation SimpleName cache
+tg SimpleName MethodInvocation SimpleName n
+cache SimpleName MethodInvocation SimpleName n
+json node SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName nodes
+n SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName nodes
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add edge to graph
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tg
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph son utility
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName gu
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mapped element cache
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache
+void PrimitiveType MethodDeclaration SimpleName add edge to graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph son utility
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gu
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mapped element cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nodes
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tg
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph son utility
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gu
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mapped element cache
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json node
+add edge to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nodes
+add edge to graph SimpleName MethodDeclaration Block EnhancedForStatement SimpleName nodes
+tg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gu
+tg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+tg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nodes
+gu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+gu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nodes
+cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nodes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add edge to graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gu
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nodes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add edge to graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gu
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nodes

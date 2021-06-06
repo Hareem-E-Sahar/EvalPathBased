@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+formatter command SimpleName MethodInvocation SimpleName get current formatter
+formatter command SimpleName MethodInvocation SimpleName table name
+get current formatter SimpleName MethodInvocation SimpleName table name
+formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName formatter command
+formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current formatter
+formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not load the specified formatter using the default formatter
+error SimpleName MethodInvocation StringLiteral could not load the specified formatter using the default formatter
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration SimpleName get formatter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get formatter
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get formatter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get formatter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name

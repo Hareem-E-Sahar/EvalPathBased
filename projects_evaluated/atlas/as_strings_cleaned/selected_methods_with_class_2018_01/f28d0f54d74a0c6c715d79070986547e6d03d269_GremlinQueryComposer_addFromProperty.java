@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add from propertytype name attribute
+log SimpleName MethodInvocation SimpleName type name
+log SimpleName MethodInvocation SimpleName attribute
+debug SimpleName MethodInvocation StringLiteral add from propertytype name attribute
+debug SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation SimpleName attribute
+add from propertytype name attribute StringLiteral MethodInvocation SimpleName type name
+add from propertytype name attribute StringLiteral MethodInvocation SimpleName attribute
+type name SimpleName MethodInvocation SimpleName attribute
+add from SimpleName MethodInvocation SimpleName type name
+identifier helper SimpleName MethodInvocation SimpleName get qualified name
+identifier helper SimpleName MethodInvocation SimpleName lookup
+identifier helper SimpleName MethodInvocation SimpleName context
+identifier helper SimpleName MethodInvocation SimpleName attribute
+get qualified name SimpleName MethodInvocation SimpleName lookup
+get qualified name SimpleName MethodInvocation SimpleName context
+get qualified name SimpleName MethodInvocation SimpleName attribute
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName attribute
+context SimpleName MethodInvocation SimpleName attribute
+add SimpleName MethodInvocation QualifiedName gremlin clausehas property
+add SimpleName MethodInvocation MethodInvocation SimpleName identifier helper
+add SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+add SimpleName MethodInvocation MethodInvocation SimpleName lookup
+add SimpleName MethodInvocation MethodInvocation SimpleName context
+add SimpleName MethodInvocation MethodInvocation SimpleName attribute
+gremlin clausehas property QualifiedName MethodInvocation MethodInvocation SimpleName identifier helper
+gremlin clausehas property QualifiedName MethodInvocation MethodInvocation SimpleName get qualified name
+gremlin clausehas property QualifiedName MethodInvocation MethodInvocation SimpleName lookup
+gremlin clausehas property QualifiedName MethodInvocation MethodInvocation SimpleName context
+gremlin clausehas property QualifiedName MethodInvocation MethodInvocation SimpleName attribute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add from property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SimpleName add from property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+add from property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add from property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add from property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add from property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute

@@ -1,0 +1,20 @@
+boolean SimpleName SimpleType SingleVariableDeclaration SimpleName remove propagations on entity delete
+remove propagations on entity delete SimpleName FieldAccess Assignment SimpleName remove propagations on entity delete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set remove propagations on entity delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remove propagations on entity delete
+void PrimitiveType MethodDeclaration SimpleName set remove propagations on entity delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remove propagations on entity delete
+set remove propagations on entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName boolean
+set remove propagations on entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remove propagations on entity delete
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set remove propagations on entity delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remove propagations on entity delete
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set remove propagations on entity delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remove propagations on entity delete

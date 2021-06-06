@@ -1,0 +1,114 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName instance optstype
+implementing class SimpleName MethodInvocation QualifiedName instance optstype
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName instance optstype
+conf SimpleName MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get SimpleName MethodInvocation MethodInvocation QualifiedName instance optstype
+get SimpleName MethodInvocation StringLiteral empty
+enum to conf key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+implementing class SimpleName MethodInvocation MethodInvocation StringLiteral empty
+instance optstype QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum to conf key
+instance type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName implementing class
+instance type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName instance optstype
+instance type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance type
+mock instance StringLiteral MethodInvocation SimpleName equals
+mock instance StringLiteral MethodInvocation SimpleName instance type
+equals SimpleName MethodInvocation SimpleName instance type
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName instance optsname
+implementing class SimpleName MethodInvocation QualifiedName instance optsname
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName instance optsname
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get SimpleName MethodInvocation MethodInvocation QualifiedName instance optsname
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+zoo keeper instance StringLiteral MethodInvocation SimpleName equals
+zoo keeper instance StringLiteral MethodInvocation SimpleName instance type
+equals SimpleName MethodInvocation SimpleName instance type
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName instance optsname
+implementing class SimpleName MethodInvocation QualifiedName instance optsname
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName instance optsname
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get SimpleName MethodInvocation MethodInvocation QualifiedName instance optsname
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName instance optszoo keepers
+implementing class SimpleName MethodInvocation QualifiedName instance optszoo keepers
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName instance optszoo keepers
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get SimpleName MethodInvocation MethodInvocation QualifiedName instance optszoo keepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName conf
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+instance type SimpleName MethodInvocation SimpleName is empty
+implementing class SimpleName MethodInvocation SimpleName get simple name
+instance has not been configured for StringLiteral InfixExpression MethodInvocation SimpleName implementing class
+instance has not been configured for StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral instance has not been configured for
+unrecognized instance type StringLiteral InfixExpression SimpleName instance type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized instance type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName instance type
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+instance SimpleName SimpleType MethodDeclaration SimpleName get instance
+instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get instance SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

@@ -1,0 +1,93 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName element type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get list property SimpleName MethodInvocation SimpleName property name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list property
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+atlas edge SimpleName SimpleType TypeLiteral InfixExpression SimpleName element type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName input
+graph SimpleName MethodInvocation SimpleName get edge
+graph SimpleName MethodInvocation SimpleName input
+get edge SimpleName MethodInvocation SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas edge
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName apply
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+lists SimpleName MethodInvocation SimpleName transform
+lists SimpleName MethodInvocation SimpleName value
+transform SimpleName MethodInvocation SimpleName value
+atlas vertex SimpleName SimpleType TypeLiteral InfixExpression SimpleName element type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName input
+graph SimpleName MethodInvocation SimpleName get vertex
+graph SimpleName MethodInvocation SimpleName input
+get vertex SimpleName MethodInvocation SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas vertex
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName apply
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+lists SimpleName MethodInvocation SimpleName transform
+lists SimpleName MethodInvocation SimpleName value
+transform SimpleName MethodInvocation SimpleName value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+v SimpleName SimpleType ParameterizedType CastExpression SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get list property
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName get list property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+v SimpleName TypeParameter MethodDeclaration SimpleName get list property
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName element type
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get list property
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get list property
+get list property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get list property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get list property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName get list property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get list property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type

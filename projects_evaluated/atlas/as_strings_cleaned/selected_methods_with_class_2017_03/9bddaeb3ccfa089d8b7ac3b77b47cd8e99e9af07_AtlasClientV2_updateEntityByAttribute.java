@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity info
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+attributes to query params SimpleName MethodInvocation SimpleName attributes
+query params SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes to query params
+query params SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes
+call api SimpleName MethodInvocation SimpleName update entity by attribute
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity mutation response
+call api SimpleName MethodInvocation SimpleName entity info
+call api SimpleName MethodInvocation SimpleName query params
+call api SimpleName MethodInvocation SimpleName type
+update entity by attribute SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity mutation response
+update entity by attribute SimpleName MethodInvocation SimpleName entity info
+update entity by attribute SimpleName MethodInvocation SimpleName query params
+update entity by attribute SimpleName MethodInvocation SimpleName type
+entity mutation response SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity info
+entity mutation response SimpleName SimpleType TypeLiteral MethodInvocation SimpleName query params
+entity mutation response SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type
+entity info SimpleName MethodInvocation SimpleName query params
+entity info SimpleName MethodInvocation SimpleName type
+query params SimpleName MethodInvocation SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName update entity by attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity info
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName update entity by attribute
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity info
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+update entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+update entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+update entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+update entity by attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity info
+update entity by attribute SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+entity info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity by attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity by attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,103 @@
+t SimpleName TypeParameter SimpleType SimpleName hierarchical type
+t SimpleName SimpleType SingleVariableDeclaration SimpleName type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName processed
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName processed
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types by name
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types by name
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types by name
+processed SimpleName MethodInvocation SimpleName contains
+processed SimpleName MethodInvocation SimpleName type
+contains SimpleName MethodInvocation SimpleName type
+processed SimpleName MethodInvocation SimpleName add
+processed SimpleName MethodInvocation SimpleName type
+add SimpleName MethodInvocation SimpleName type
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+super type names SimpleName VariableDeclarationFragment QualifiedName typesuper types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+types by name SimpleName MethodInvocation SimpleName get
+types by name SimpleName MethodInvocation SimpleName super type name
+get SimpleName MethodInvocation SimpleName super type name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types by name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+add to result SimpleName MethodInvocation SimpleName super type
+add to result SimpleName MethodInvocation SimpleName result
+add to result SimpleName MethodInvocation SimpleName processed
+add to result SimpleName MethodInvocation SimpleName types by name
+super type SimpleName MethodInvocation SimpleName result
+super type SimpleName MethodInvocation SimpleName processed
+super type SimpleName MethodInvocation SimpleName types by name
+result SimpleName MethodInvocation SimpleName processed
+result SimpleName MethodInvocation SimpleName types by name
+processed SimpleName MethodInvocation SimpleName types by name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super type names
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super type names
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName type
+add SimpleName MethodInvocation SimpleName type
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration TypeParameter SimpleType SimpleName hierarchical type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName hierarchical type
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add to result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+t SimpleName TypeParameter MethodDeclaration PrimitiveType void
+hierarchical type SimpleName SimpleType TypeParameter MethodDeclaration PrimitiveType void
+t SimpleName TypeParameter MethodDeclaration SimpleName add to result
+hierarchical type SimpleName SimpleType TypeParameter MethodDeclaration SimpleName add to result
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName type
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName result
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName processed
+void PrimitiveType MethodDeclaration SimpleName add to result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName processed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types by name
+add to result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+add to result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+add to result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+add to result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName processed
+add to result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types by name
+add to result SimpleName MethodDeclaration Block EnhancedForStatement SimpleName super type names
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types by name
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types by name
+processed SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types by name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types by name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types by name

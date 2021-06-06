@@ -1,0 +1,70 @@
+referenceable SimpleName SimpleType ClassInstanceCreation StringLiteral d
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral d
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName set
+instance SimpleName MethodInvocation StringLiteral d
+instance SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral d
+set SimpleName MethodInvocation NumberLiteral empty
+d StringLiteral MethodInvocation NumberLiteral empty
+instance SimpleName MethodInvocation SimpleName set
+instance SimpleName MethodInvocation StringLiteral c
+instance SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral c
+set SimpleName MethodInvocation NumberLiteral empty
+c StringLiteral MethodInvocation NumberLiteral empty
+instance SimpleName MethodInvocation SimpleName set
+instance SimpleName MethodInvocation StringLiteral b
+instance SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation StringLiteral b
+set SimpleName MethodInvocation BooleanLiteral true
+b StringLiteral MethodInvocation BooleanLiteral true
+instance SimpleName MethodInvocation SimpleName set
+instance SimpleName MethodInvocation StringLiteral a
+instance SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral a
+set SimpleName MethodInvocation NumberLiteral empty
+a StringLiteral MethodInvocation NumberLiteral empty
+type system SimpleName MethodInvocation SimpleName get instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get data type
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation MethodInvocation StringLiteral d
+get instance SimpleName MethodInvocation MethodInvocation StringLiteral d
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral d
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral d
+dept type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type system
+dept type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+dept type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+dept type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral d
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept type
+dept type SimpleName MethodInvocation SimpleName convert
+dept type SimpleName MethodInvocation SimpleName instance
+dept type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName dept type
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+typed instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+typed instance SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName typed instance
+repository service SimpleName MethodInvocation SimpleName create entity
+repository service SimpleName MethodInvocation SimpleName typed instance
+create entity SimpleName MethodInvocation SimpleName typed instance
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create instances
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName create instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create instances SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

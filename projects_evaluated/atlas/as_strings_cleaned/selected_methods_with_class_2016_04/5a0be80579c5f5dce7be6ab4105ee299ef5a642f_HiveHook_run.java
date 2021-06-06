@@ -1,0 +1,180 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName hook context
+final Modifier SingleVariableDeclaration SimpleName hook context
+hook context SimpleName SimpleType SingleVariableDeclaration SimpleName hook context
+event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive event
+final Modifier VariableDeclarationStatement SimpleType SimpleName hive event
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+hive event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+hook context SimpleName MethodInvocation SimpleName get conf
+hive conf SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hook context
+hive conf SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive conf
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hook context
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+final Modifier VariableDeclarationStatement SimpleType SimpleName hive conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+hive conf SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+hook context SimpleName MethodInvocation SimpleName get inputs
+eventinputs QualifiedName Assignment MethodInvocation SimpleName hook context
+eventinputs QualifiedName Assignment MethodInvocation SimpleName get inputs
+hook context SimpleName MethodInvocation SimpleName get outputs
+eventoutputs QualifiedName Assignment MethodInvocation SimpleName hook context
+eventoutputs QualifiedName Assignment MethodInvocation SimpleName get outputs
+hook context SimpleName MethodInvocation SimpleName get user name
+hook context SimpleName MethodInvocation SimpleName get ugi
+get user SimpleName MethodInvocation MethodInvocation SimpleName hook context
+get user SimpleName MethodInvocation MethodInvocation SimpleName get user name
+get user SimpleName MethodInvocation MethodInvocation SimpleName hook context
+get user SimpleName MethodInvocation MethodInvocation SimpleName get ugi
+hook context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+hook context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ugi
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+get user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ugi
+eventuser QualifiedName Assignment MethodInvocation SimpleName get user
+eventuser QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventuser QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get user name
+eventuser QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventuser QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get ugi
+hook context SimpleName MethodInvocation SimpleName get ugi
+eventugi QualifiedName Assignment MethodInvocation SimpleName hook context
+eventugi QualifiedName Assignment MethodInvocation SimpleName get ugi
+hook context SimpleName MethodInvocation SimpleName get operation name
+operation map SimpleName MethodInvocation SimpleName get
+operation map SimpleName MethodInvocation MethodInvocation SimpleName hook context
+operation map SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+get SimpleName MethodInvocation MethodInvocation SimpleName hook context
+get SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+eventoperation QualifiedName Assignment MethodInvocation SimpleName operation map
+eventoperation QualifiedName Assignment MethodInvocation SimpleName get
+eventoperation QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventoperation QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get operation name
+hook context SimpleName MethodInvocation SimpleName get hook type
+eventhook type QualifiedName Assignment MethodInvocation SimpleName hook context
+eventhook type QualifiedName Assignment MethodInvocation SimpleName get hook type
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query id
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query id
+eventquery id QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventquery id QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get query plan
+eventquery id QualifiedName Assignment MethodInvocation SimpleName get query id
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query str
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query str
+eventquery str QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventquery str QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get query plan
+eventquery str QualifiedName Assignment MethodInvocation SimpleName get query str
+hook context SimpleName MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query start time
+eventquery start time QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventquery start time QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get query plan
+eventquery start time QualifiedName Assignment MethodInvocation SimpleName get query start time
+hook context SimpleName MethodInvocation SimpleName get conf
+hook context SimpleName MethodInvocation SimpleName get query plan
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName hook context
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get conf
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName hook context
+get query plan SimpleName MethodInvocation MethodInvocation SimpleName get query plan
+hook context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+hook context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query plan
+get conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hook context
+get conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get query plan
+eventjson plan QualifiedName Assignment MethodInvocation SimpleName get query plan
+eventjson plan QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventjson plan QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get conf
+eventjson plan QualifiedName Assignment MethodInvocation MethodInvocation SimpleName hook context
+eventjson plan QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get query plan
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName conf sync
+conf SimpleName MethodInvocation StringLiteral false
+get SimpleName MethodInvocation SimpleName conf sync
+get SimpleName MethodInvocation StringLiteral false
+conf sync SimpleName MethodInvocation StringLiteral false
+conf SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+conf sync SimpleName MethodInvocation MethodInvocation SimpleName equals
+false StringLiteral MethodInvocation MethodInvocation SimpleName equals
+conf SimpleName MethodInvocation MethodInvocation StringLiteral true
+get SimpleName MethodInvocation MethodInvocation StringLiteral true
+conf sync SimpleName MethodInvocation MethodInvocation StringLiteral true
+false StringLiteral MethodInvocation MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+sync SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+sync SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+sync SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf sync
+sync SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral false
+sync SimpleName VariableDeclarationFragment MethodInvocation SimpleName equals
+sync SimpleName VariableDeclarationFragment MethodInvocation StringLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sync
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName equals
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral true
+fire and forget SimpleName MethodInvocation SimpleName event
+fire and forget SimpleName MethodInvocation SimpleName event
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral atlas hook failed
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral atlas hook failed
+info SimpleName MethodInvocation SimpleName e
+atlas hook failed StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+executor SimpleName MethodInvocation SimpleName submit
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+submit SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName sync
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hook context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hook context
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName sync
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hook context
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName sync
+run SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook context
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hook context
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+run SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+run SimpleName MethodDeclaration Block IfStatement SimpleName sync
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+hook context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

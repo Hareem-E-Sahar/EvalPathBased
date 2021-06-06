@@ -1,0 +1,89 @@
+pr SimpleName MethodInvocation SimpleName get table name
+is meta SimpleName MethodInvocation MethodInvocation SimpleName pr
+is meta SimpleName MethodInvocation MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation SimpleName remove from zoo keeper
+pr SimpleName MethodInvocation SimpleName remove from metadata table
+pr SimpleName MethodInvocation SimpleName context
+remove from metadata table SimpleName MethodInvocation SimpleName context
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+pr SimpleName MethodInvocation SimpleName get table name
+pr SimpleName MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation SimpleName get resource
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName get table name
+failed to delete problem report StringLiteral InfixExpression StringLiteral empty
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+failed to delete problem report StringLiteral InfixExpression StringLiteral empty
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName pr
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get problem type
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+pr SimpleName MethodInvocation InfixExpression StringLiteral empty
+get problem type SimpleName MethodInvocation InfixExpression StringLiteral empty
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+empty StringLiteral InfixExpression MethodInvocation SimpleName pr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to delete problem report
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to delete problem report
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get problem type
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pr
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get resource
+error SimpleName MethodInvocation SimpleName e
+failed to delete problem report StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get problem type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+pr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get resource SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

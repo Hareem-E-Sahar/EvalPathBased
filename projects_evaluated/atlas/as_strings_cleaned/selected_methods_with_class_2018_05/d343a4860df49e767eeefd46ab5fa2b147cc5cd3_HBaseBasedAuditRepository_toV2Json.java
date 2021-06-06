@@ -1,0 +1,66 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName referenceable
+entity audit action SimpleName SimpleType SingleVariableDeclaration SimpleName action
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+action SimpleName InfixExpression SimpleName tag add
+action SimpleName InfixExpression SimpleName tag update
+action SimpleName InfixExpression InfixExpression InfixExpression SimpleName action
+action SimpleName InfixExpression InfixExpression InfixExpression SimpleName tag update
+tag add SimpleName InfixExpression InfixExpression InfixExpression SimpleName action
+tag add SimpleName InfixExpression InfixExpression InfixExpression SimpleName tag update
+action SimpleName InfixExpression SimpleName tag delete
+instance converter SimpleName MethodInvocation SimpleName to atlas classification
+instance converter SimpleName MethodInvocation SimpleName referenceable
+to atlas classification SimpleName MethodInvocation SimpleName referenceable
+classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance converter
+classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas classification
+classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenceable
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification
+atlas type SimpleName MethodInvocation SimpleName to json
+atlas type SimpleName MethodInvocation SimpleName classification
+to json SimpleName MethodInvocation SimpleName classification
+ret SimpleName Assignment MethodInvocation SimpleName atlas type
+ret SimpleName Assignment MethodInvocation SimpleName to json
+ret SimpleName Assignment MethodInvocation SimpleName classification
+to atlas entity SimpleName MethodInvocation SimpleName referenceable
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenceable
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+atlas type SimpleName MethodInvocation SimpleName to json
+atlas type SimpleName MethodInvocation SimpleName entity
+to json SimpleName MethodInvocation SimpleName entity
+ret SimpleName Assignment MethodInvocation SimpleName atlas type
+ret SimpleName Assignment MethodInvocation SimpleName to json
+ret SimpleName Assignment MethodInvocation SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to v json
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit action
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName action
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName to v json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName action
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit action
+to v json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action
+to v json SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to v json SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+action SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to v json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to v json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding vertex for {}={}
+log SimpleName MethodInvocation SimpleName property key
+log SimpleName MethodInvocation SimpleName value
+debug SimpleName MethodInvocation StringLiteral finding vertex for {}={}
+debug SimpleName MethodInvocation SimpleName property key
+debug SimpleName MethodInvocation SimpleName value
+finding vertex for {}={} StringLiteral MethodInvocation SimpleName property key
+finding vertex for {}={} StringLiteral MethodInvocation SimpleName value
+property key SimpleName MethodInvocation SimpleName value
+titan graph SimpleName MethodInvocation SimpleName query
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName property key
+query SimpleName MethodInvocation MethodInvocation SimpleName property key
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName value
+query SimpleName MethodInvocation MethodInvocation SimpleName value
+has SimpleName MethodInvocation SimpleName property key
+has SimpleName MethodInvocation SimpleName value
+property key SimpleName MethodInvocation SimpleName value
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName titan graph
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName property key
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+results SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName results
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SimpleName find vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+vertex SimpleName SimpleType MethodDeclaration SimpleName find vertex
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property key
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property key
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

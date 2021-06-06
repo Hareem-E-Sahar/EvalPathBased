@@ -1,0 +1,20 @@
+omrs event v SimpleName SimpleType SingleVariableDeclaration SimpleName event
+put event SimpleName MethodInvocation SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName send event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs event v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName send event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs event v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+send event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs event v
+send event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

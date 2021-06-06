@@ -1,0 +1,177 @@
+depends on methods SimpleName MemberValuePair ArrayInitializer StringLiteral delete classification propagate true
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair ArrayInitializer StringLiteral delete classification propagate true
+get entity SimpleName MethodInvocation SimpleName hdfs path employees
+hdfs employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+hdfs employees SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs path employees
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hdfs employees
+atlas classification SimpleName SimpleType ClassInstanceCreation StringLiteral tag
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tag
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+tag SimpleName MethodInvocation SimpleName set propagate
+tag SimpleName MethodInvocation BooleanLiteral true
+set propagate SimpleName MethodInvocation BooleanLiteral true
+hdfs employees SimpleName MethodInvocation SimpleName get guid
+tag SimpleName MethodInvocation SimpleName set entity guid
+tag SimpleName MethodInvocation MethodInvocation SimpleName hdfs employees
+tag SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName hdfs employees
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add classification SimpleName MethodInvocation SimpleName hdfs employees
+add classification SimpleName MethodInvocation SimpleName tag
+hdfs employees SimpleName MethodInvocation SimpleName tag
+get entity SimpleName MethodInvocation SimpleName employees table
+employees table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+employees table SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employees table
+atlas classification SimpleName SimpleType ClassInstanceCreation StringLiteral tag
+tag SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification
+tag SimpleName Assignment ClassInstanceCreation StringLiteral tag
+tag SimpleName MethodInvocation SimpleName set propagate
+tag SimpleName MethodInvocation BooleanLiteral true
+set propagate SimpleName MethodInvocation BooleanLiteral true
+employees table SimpleName MethodInvocation SimpleName get guid
+tag SimpleName MethodInvocation SimpleName set entity guid
+tag SimpleName MethodInvocation MethodInvocation SimpleName employees table
+tag SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName employees table
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add classification SimpleName MethodInvocation SimpleName employees table
+add classification SimpleName MethodInvocation SimpleName tag
+employees table SimpleName MethodInvocation SimpleName tag
+get entity SimpleName MethodInvocation SimpleName employees union table
+employees union table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+employees union table SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees union table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employees union table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+employees union table SimpleName MethodInvocation SimpleName get classifications
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName employees union table
+classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classifications
+assert not null SimpleName MethodInvocation SimpleName classifications
+classifications SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName classifications
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+tag SimpleName MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classifications
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tag
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tag
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+tag SimpleName MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classifications
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tag
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tag
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get entity guid
+hdfs employees SimpleName MethodInvocation SimpleName get guid
+classifications SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get entity guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs employees
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName hdfs employees
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get entity guid
+employees table SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classifications
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName employees table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employees table
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get entity guid
+employees table SimpleName MethodInvocation SimpleName get guid
+classifications SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get entity guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employees table
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName employees table
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+classifications SimpleName MethodInvocation SimpleName get
+classifications SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+classifications SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get entity guid
+hdfs employees SimpleName MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classifications
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName hdfs employees
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs employees
+get entity guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+delete classification SimpleName MethodInvocation SimpleName hdfs employees
+delete classification SimpleName MethodInvocation SimpleName tag
+hdfs employees SimpleName MethodInvocation SimpleName tag
+delete classification SimpleName MethodInvocation SimpleName employees table
+delete classification SimpleName MethodInvocation SimpleName tag
+employees table SimpleName MethodInvocation SimpleName tag
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName propagate same tag from different entities
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName propagate same tag from different entities
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName propagate same tag from different entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName propagate same tag from different entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+propagate same tag from different entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName propagate same tag from different entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName propagate same tag from different entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

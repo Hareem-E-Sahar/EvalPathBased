@@ -1,0 +1,72 @@
+data provider SimpleName MemberValuePair StringLiteral class type data
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral class type data
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+data provider SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+class type data StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+types util SimpleName MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation StringLiteral name
+create required attr def SimpleName MethodInvocation StringLiteral type
+name StringLiteral MethodInvocation StringLiteral type
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName create required attr def
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral type
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation StringLiteral super
+of SimpleName MethodInvocation StringLiteral super
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation StringLiteral super
+types util SimpleName MethodInvocation SimpleName value
+create trait type def SimpleName MethodInvocation SimpleName name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation MethodInvocation StringLiteral super
+create trait type def SimpleName MethodInvocation SimpleName value
+name SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+name SimpleName MethodInvocation MethodInvocation SimpleName of
+name SimpleName MethodInvocation MethodInvocation StringLiteral super
+name SimpleName MethodInvocation SimpleName value
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName value
+of SimpleName MethodInvocation MethodInvocation SimpleName value
+super StringLiteral MethodInvocation MethodInvocation SimpleName value
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+class type data StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+class type data StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test trait type
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test trait type
+class type data StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test trait type
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test trait type
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test trait type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName test trait type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+test trait type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test trait type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test trait type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test trait type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

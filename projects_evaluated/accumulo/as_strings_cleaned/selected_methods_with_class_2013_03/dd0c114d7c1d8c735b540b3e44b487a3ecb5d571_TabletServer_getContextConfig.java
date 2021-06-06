@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName context
+propertyvfs context classpath property QualifiedName MethodInvocation SimpleName get key
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression SimpleName context
+get key SimpleName MethodInvocation InfixExpression SimpleName context
+key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment InfixExpression SimpleName context
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uris
+pre delegate SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pre delegate
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation SimpleName key
+get key SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+entry SimpleName MethodInvocation SimpleName get value
+uris SimpleName Assignment MethodInvocation SimpleName entry
+uris SimpleName Assignment MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName InfixExpression StringLiteral delegation
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName key
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral delegation
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName key
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral delegation
+equals SimpleName MethodInvocation InfixExpression SimpleName key
+equals SimpleName MethodInvocation InfixExpression StringLiteral delegation
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName trim
+get value SimpleName MethodInvocation MethodInvocation SimpleName trim
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+trim SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+trim SimpleName MethodInvocation MethodInvocation StringLiteral post
+equals ignore case SimpleName MethodInvocation StringLiteral post
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral post
+pre delegate SimpleName Assignment BooleanLiteral false
+context config SimpleName SimpleType ClassInstanceCreation SimpleName uris
+context config SimpleName SimpleType ClassInstanceCreation SimpleName pre delegate
+uris SimpleName ClassInstanceCreation SimpleName pre delegate
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName context config
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get context config
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName context config
+public Modifier MethodDeclaration SimpleName get context config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+context config SimpleName SimpleType MethodDeclaration SimpleName get context config
+context config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get context config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get context config SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName context config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get context config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName context config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get context config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

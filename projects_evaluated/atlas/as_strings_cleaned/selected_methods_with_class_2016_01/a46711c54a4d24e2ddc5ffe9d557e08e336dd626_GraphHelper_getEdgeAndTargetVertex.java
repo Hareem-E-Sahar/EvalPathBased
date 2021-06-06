@@ -1,0 +1,49 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+edge SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+titan graph SimpleName MethodInvocation SimpleName get edge
+titan graph SimpleName MethodInvocation SimpleName edge id
+get edge SimpleName MethodInvocation SimpleName edge id
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge id
+final Modifier VariableDeclarationStatement SimpleType SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName titan graph
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName edge id
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referred vertex
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName edge
+pair SimpleName MethodInvocation SimpleName referred vertex
+of SimpleName MethodInvocation SimpleName edge
+of SimpleName MethodInvocation SimpleName referred vertex
+edge SimpleName MethodInvocation SimpleName referred vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName pair
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName edge
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex
+public Modifier MethodDeclaration SimpleName get edge and target vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edge and target vertex
+edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edge and target vertex
+vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edge and target vertex
+get edge and target vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get edge and target vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+get edge and target vertex SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge and target vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge and target vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id

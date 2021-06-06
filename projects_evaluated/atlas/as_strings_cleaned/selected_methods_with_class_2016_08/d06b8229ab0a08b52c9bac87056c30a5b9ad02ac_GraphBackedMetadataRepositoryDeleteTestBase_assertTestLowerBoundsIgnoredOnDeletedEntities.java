@@ -1,0 +1,24 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName employees
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName employees
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test lower bounds ignored on deleted entities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName employees
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName assert test lower bounds ignored on deleted entities
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName employees
+void PrimitiveType MethodDeclaration SimpleName assert test lower bounds ignored on deleted entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName employees
+assert test lower bounds ignored on deleted entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName employees
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test lower bounds ignored on deleted entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName employees
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test lower bounds ignored on deleted entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName employees

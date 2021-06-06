@@ -1,0 +1,154 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName flattened extent
+semi pos SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName semi pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+lt pos SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lt pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+flattened extent SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName flattened extent
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+flattened extent SimpleName MethodInvocation SimpleName get bytes
+flattened extent SimpleName MethodInvocation ArrayAccess SimpleName i
+get bytes SimpleName MethodInvocation ArrayAccess SimpleName i
+flattened extent SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral 
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral 
+i SimpleName ArrayAccess InfixExpression CharacterLiteral 
+semi pos SimpleName InfixExpression NumberLiteral empty
+ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName semi pos
+ CharacterLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+semi pos SimpleName Assignment SimpleName i
+flattened extent SimpleName MethodInvocation SimpleName get bytes
+flattened extent SimpleName MethodInvocation ArrayAccess SimpleName i
+get bytes SimpleName MethodInvocation ArrayAccess SimpleName i
+flattened extent SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral <
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression CharacterLiteral <
+i SimpleName ArrayAccess InfixExpression CharacterLiteral <
+lt pos SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+semi pos SimpleName InfixExpression NumberLiteral empty
+lt pos SimpleName InfixExpression NumberLiteral empty
+semi pos SimpleName InfixExpression InfixExpression InfixExpression SimpleName lt pos
+semi pos SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName lt pos
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+metadata row does not contain or < StringLiteral InfixExpression SimpleName flattened extent
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata row does not contain or <
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName flattened extent
+semi pos SimpleName InfixExpression NumberLiteral empty
+flattened extent SimpleName MethodInvocation SimpleName get length
+flattened extent SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+lt pos SimpleName InfixExpression InfixExpression MethodInvocation SimpleName flattened extent
+lt pos SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get length
+lt pos SimpleName InfixExpression InfixExpression NumberLiteral empty
+< must come at end of metadata row StringLiteral InfixExpression SimpleName flattened extent
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral < must come at end of metadata row
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName flattened extent
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+flattened extent SimpleName MethodInvocation SimpleName get bytes
+flattened extent SimpleName MethodInvocation SimpleName get length
+flattened extent SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table id SimpleName MethodInvocation SimpleName set
+table id SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+table id SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+table id SimpleName MethodInvocation NumberLiteral empty
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flattened extent
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+table id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+set SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flattened extent
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+flattened extent SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+flattened extent SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flattened extent
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+set table id SimpleName MethodInvocation SimpleName table id
+set end row SimpleName MethodInvocation BooleanLiteral false
+set end row SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+flattened extent SimpleName MethodInvocation SimpleName get bytes
+table id SimpleName MethodInvocation SimpleName set
+table id SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+table id SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+table id SimpleName MethodInvocation NumberLiteral empty
+table id SimpleName MethodInvocation SimpleName semi pos
+set SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+set SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation SimpleName semi pos
+flattened extent SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+flattened extent SimpleName MethodInvocation MethodInvocation SimpleName semi pos
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName semi pos
+empty NumberLiteral MethodInvocation SimpleName semi pos
+end row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end row
+flattened extent SimpleName MethodInvocation SimpleName get bytes
+semi pos SimpleName InfixExpression NumberLiteral empty
+flattened extent SimpleName MethodInvocation SimpleName get length
+semi pos SimpleName InfixExpression NumberLiteral empty
+end row SimpleName MethodInvocation SimpleName set
+end row SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+end row SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+end row SimpleName MethodInvocation InfixExpression SimpleName semi pos
+end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flattened extent
+end row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+set SimpleName MethodInvocation MethodInvocation SimpleName flattened extent
+set SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set SimpleName MethodInvocation InfixExpression SimpleName semi pos
+set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flattened extent
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+flattened extent SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName semi pos
+flattened extent SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName semi pos
+get bytes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+set table id SimpleName MethodInvocation SimpleName table id
+set end row SimpleName MethodInvocation SimpleName end row
+set end row SimpleName MethodInvocation BooleanLiteral false
+set end row SimpleName MethodInvocation BooleanLiteral false
+end row SimpleName MethodInvocation BooleanLiteral false
+end row SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName decode metadata row
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName flattened extent
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName decode metadata row
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName flattened extent
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+decode metadata row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+decode metadata row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flattened extent
+decode metadata row SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+decode metadata row SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode metadata row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flattened extent
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode metadata row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flattened extent

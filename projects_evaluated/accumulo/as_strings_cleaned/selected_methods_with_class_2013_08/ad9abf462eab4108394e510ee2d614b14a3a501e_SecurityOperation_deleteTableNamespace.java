@@ -1,0 +1,63 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table namespace
+can delete table SimpleName MethodInvocation SimpleName credentials
+can delete table SimpleName MethodInvocation SimpleName table namespace
+credentials SimpleName MethodInvocation SimpleName table namespace
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+perm handle SimpleName MethodInvocation SimpleName clean table namespace permissions
+perm handle SimpleName MethodInvocation SimpleName table namespace
+clean table namespace permissions SimpleName MethodInvocation SimpleName table namespace
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+credentials SimpleName MethodInvocation SimpleName get principal
+e SimpleName MethodInvocation SimpleName set user
+e SimpleName MethodInvocation MethodInvocation SimpleName credentials
+e SimpleName MethodInvocation MethodInvocation SimpleName get principal
+set user SimpleName MethodInvocation MethodInvocation SimpleName credentials
+set user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+e SimpleName MethodInvocation SimpleName as thrift exception
+table namespace not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codetable namespace doesnt exist
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable namespace doesnt exist
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codetable namespace doesnt exist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table namespace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName delete table namespace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+delete table namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+delete table namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+delete table namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+delete table namespace SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

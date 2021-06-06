@@ -1,0 +1,56 @@
+long PrimitiveType SingleVariableDeclaration SimpleName offset
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName block region
+data index SimpleName MethodInvocation SimpleName get block region list
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName data index
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block region list
+scalar long SimpleName SimpleType ClassInstanceCreation SimpleName offset
+utils SimpleName MethodInvocation SimpleName lower bound
+utils SimpleName MethodInvocation SimpleName list
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar long
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleName offset
+utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar comparator
+lower bound SimpleName MethodInvocation SimpleName list
+lower bound SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar long
+lower bound SimpleName MethodInvocation ClassInstanceCreation SimpleName offset
+lower bound SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar comparator
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar long
+list SimpleName MethodInvocation ClassInstanceCreation SimpleName offset
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scalar comparator
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName utils
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName lower bound
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+idx SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName utils
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lower bound
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName list
+list SimpleName MethodInvocation SimpleName size
+idx SimpleName InfixExpression MethodInvocation SimpleName list
+idx SimpleName InfixExpression MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName idx
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get block index near
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName idx
+int PrimitiveType MethodDeclaration SimpleName get block index near
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName idx
+get block index near SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get block index near SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+get block index near SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get block index near SimpleName MethodDeclaration Block ReturnStatement SimpleName idx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get block index near
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get block index near
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

@@ -1,0 +1,118 @@
+attribute mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get attribute def
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get is indexable
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get is indexable
+ctx SimpleName MethodInvocation SimpleName get attr type
+ctx SimpleName MethodInvocation InstanceofExpression SimpleType QualifiedName atlas built in typesatlas string type
+get attr type SimpleName MethodInvocation InstanceofExpression SimpleType QualifiedName atlas built in typesatlas string type
+is indexable str attr SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get is indexable
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is indexable str attr
+ctx SimpleName MethodInvocation SimpleName get value
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName InfixExpression InfixExpression SimpleName is indexable str attr
+ctx SimpleName MethodInvocation SimpleName get value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression SimpleName indexed str max allowed len
+length SimpleName MethodInvocation InfixExpression SimpleName indexed str max allowed len
+ctx SimpleName MethodInvocation SimpleName get attribute
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral indexedstringattribute {} exceeds {} characters trimming and appending checksum
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+log SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+log SimpleName MethodInvocation SimpleName indexed str max allowed len
+warn SimpleName MethodInvocation StringLiteral indexedstringattribute {} exceeds {} characters trimming and appending checksum
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+warn SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+warn SimpleName MethodInvocation SimpleName indexed str max allowed len
+indexedstringattribute {} exceeds {} characters trimming and appending checksum StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+indexedstringattribute {} exceeds {} characters trimming and appending checksum StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute
+indexedstringattribute {} exceeds {} characters trimming and appending checksum StringLiteral MethodInvocation MethodInvocation SimpleName get qualified name
+indexedstringattribute {} exceeds {} characters trimming and appending checksum StringLiteral MethodInvocation SimpleName indexed str max allowed len
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName indexed str max allowed len
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName indexed str max allowed len
+get qualified name SimpleName MethodInvocation MethodInvocation SimpleName indexed str max allowed len
+digest utils SimpleName MethodInvocation SimpleName sha hex
+digest utils SimpleName MethodInvocation SimpleName value
+sha hex SimpleName MethodInvocation SimpleName value
+sha hex SimpleName VariableDeclarationFragment MethodInvocation SimpleName digest utils
+sha hex SimpleName VariableDeclarationFragment MethodInvocation SimpleName sha hex
+sha hex SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sha hex
+indexed str max allowed len SimpleName InfixExpression NumberLiteral empty
+sha hex SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation SimpleName substring
+value SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sha hex
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sha hex
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName sha hex
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression StringLiteral :
+substring SimpleName MethodInvocation InfixExpression StringLiteral :
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral :
+value SimpleName MethodInvocation InfixExpression SimpleName sha hex
+substring SimpleName MethodInvocation InfixExpression SimpleName sha hex
+empty NumberLiteral MethodInvocation InfixExpression SimpleName sha hex
+: StringLiteral InfixExpression SimpleName sha hex
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName value
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+ret SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+ret SimpleName Assignment InfixExpression StringLiteral :
+ret SimpleName Assignment InfixExpression SimpleName sha hex
+ctx SimpleName MethodInvocation SimpleName get referring vertex
+ctx SimpleName MethodInvocation SimpleName get vertex property
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get vertex property
+atlas graph utils v SimpleName MethodInvocation SimpleName ret
+set property SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set property SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+set property SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set property SimpleName MethodInvocation MethodInvocation SimpleName get vertex property
+set property SimpleName MethodInvocation SimpleName ret
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property
+ctx SimpleName MethodInvocation MethodInvocation SimpleName ret
+get referring vertex SimpleName MethodInvocation MethodInvocation SimpleName ret
+ctx SimpleName MethodInvocation MethodInvocation SimpleName ret
+get vertex property SimpleName MethodInvocation MethodInvocation SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName map primitive value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute mutation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object SimpleName SimpleType MethodDeclaration SimpleName map primitive value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+map primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute mutation context
+map primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+map primitive value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+map primitive value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map primitive value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map primitive value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

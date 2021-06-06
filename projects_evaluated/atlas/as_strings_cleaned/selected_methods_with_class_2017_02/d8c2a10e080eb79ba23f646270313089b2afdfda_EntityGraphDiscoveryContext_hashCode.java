@@ -1,0 +1,30 @@
+objects SimpleName MethodInvocation SimpleName hash
+objects SimpleName MethodInvocation SimpleName root entities
+objects SimpleName MethodInvocation SimpleName resolved ids
+objects SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+objects SimpleName MethodInvocation SimpleName unresolved ids
+hash SimpleName MethodInvocation SimpleName root entities
+hash SimpleName MethodInvocation SimpleName resolved ids
+hash SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+hash SimpleName MethodInvocation SimpleName unresolved ids
+root entities SimpleName MethodInvocation SimpleName resolved ids
+root entities SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+root entities SimpleName MethodInvocation SimpleName unresolved ids
+resolved ids SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+resolved ids SimpleName MethodInvocation SimpleName unresolved ids
+unresolved ids by uniq attribs SimpleName MethodInvocation SimpleName unresolved ids
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

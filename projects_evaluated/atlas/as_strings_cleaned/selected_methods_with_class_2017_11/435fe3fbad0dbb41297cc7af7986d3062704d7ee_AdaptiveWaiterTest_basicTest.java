@@ -1,0 +1,51 @@
+pause count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pause count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName pause count
+waiter SimpleName MethodInvocation SimpleName pause
+waiter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal state exception
+pause SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal state exception
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName pause count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pause count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pause count SimpleName InfixExpression NumberLiteral empty
+pause count SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName min duration
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName min duration
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation InfixExpression SimpleName min duration
+math SimpleName MethodInvocation SimpleName max duration
+min SimpleName MethodInvocation InfixExpression SimpleName min duration
+min SimpleName MethodInvocation SimpleName max duration
+min duration SimpleName InfixExpression MethodInvocation SimpleName max duration
+assert equals SimpleName MethodInvocation QualifiedName waiterwait duration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName math
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName min
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName min duration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName max duration
+waiterwait duration QualifiedName MethodInvocation MethodInvocation SimpleName math
+waiterwait duration QualifiedName MethodInvocation MethodInvocation SimpleName min
+waiterwait duration QualifiedName MethodInvocation MethodInvocation InfixExpression SimpleName min duration
+waiterwait duration QualifiedName MethodInvocation MethodInvocation SimpleName max duration
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName basic test
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName basic test
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName basic test
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+basic test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName basic test
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName basic test

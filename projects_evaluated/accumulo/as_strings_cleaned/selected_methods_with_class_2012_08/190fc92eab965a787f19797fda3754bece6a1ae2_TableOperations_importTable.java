@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName import dir
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName import dir
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName import table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName import dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName import dir
+import table SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+import table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+import table SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import dir
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+import dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+import dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+import dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,199 @@
+path SimpleName SingleMemberAnnotation StringLiteral basic
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+search parameters SimpleName SimpleType SingleVariableDeclaration SimpleName parameters
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+discovery restsearch with parameters StringLiteral InfixExpression SimpleName parameters
+discovery restsearch with parameters StringLiteral InfixExpression StringLiteral )
+parameters SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral discovery restsearch with parameters
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName parameters
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral discovery restsearch with parameters
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName parameters
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral discovery restsearch with parameters
+perf log SimpleName MethodInvocation InfixExpression SimpleName parameters
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral discovery restsearch with parameters
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName parameters
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+parameters SimpleName MethodInvocation SimpleName get limit
+parameters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get limit SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parameters SimpleName MethodInvocation SimpleName get offset
+parameters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get offset SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral limitoffset should be nonnegative
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral limitoffset should be nonnegative
+parameters SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+parameters SimpleName MethodInvocation SimpleName get entity filters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get entity filters
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral entity filters specified without type name
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral entity filters specified without type name
+parameters SimpleName MethodInvocation SimpleName get classification
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get classification
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get classification
+parameters SimpleName MethodInvocation SimpleName get tag filters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get tag filters
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral tag filters specified without tag name
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral tag filters specified without tag name
+parameters SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+parameters SimpleName MethodInvocation SimpleName get classification
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get classification
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get classification
+parameters SimpleName MethodInvocation SimpleName get query
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get query
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get query
+parameters SimpleName MethodInvocation SimpleName get term name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get term name
+is empty SimpleName MethodInvocation MethodInvocation SimpleName parameters
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get term name
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid search params
+validate search parameters SimpleName MethodInvocation SimpleName parameters
+atlas discovery service SimpleName MethodInvocation SimpleName search with parameters
+atlas discovery service SimpleName MethodInvocation SimpleName parameters
+search with parameters SimpleName MethodInvocation SimpleName parameters
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+path SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName post
+basic StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName post
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+basic StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+basic StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+basic StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+basic StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+basic StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+basic StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+post SimpleName MarkerAnnotation MethodDeclaration SimpleName search with parameters
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search with parameters
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName search with parameters
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parameters
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parameters
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas search result
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName search with parameters
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName search with parameters
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parameters
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parameters
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas search result
+public Modifier MethodDeclaration SimpleName search with parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parameters
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas search result SimpleName SimpleType MethodDeclaration SimpleName search with parameters
+atlas search result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parameters
+atlas search result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+search with parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+search with parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parameters
+search with parameters SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+parameters SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral basic
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas search result
+public Modifier TypeDeclaration MethodDeclaration SimpleName search with parameters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral basic
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas search result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search with parameters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

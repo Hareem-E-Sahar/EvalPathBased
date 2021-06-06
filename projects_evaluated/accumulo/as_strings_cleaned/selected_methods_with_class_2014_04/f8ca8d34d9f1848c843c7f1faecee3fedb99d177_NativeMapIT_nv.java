@@ -1,0 +1,38 @@
+int PrimitiveType SingleVariableDeclaration SimpleName v
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral r d
+string SimpleName MethodInvocation SimpleName v
+format SimpleName MethodInvocation StringLiteral r d
+format SimpleName MethodInvocation SimpleName v
+r d StringLiteral MethodInvocation SimpleName v
+string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+format SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+r d StringLiteral MethodInvocation MethodInvocation SimpleName get bytes
+v SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+string SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+format SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+r d StringLiteral MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+v SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName standard charsetsutf
+private Modifier MethodDeclaration SimpleType SimpleName value
+private Modifier MethodDeclaration SimpleName nv
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+value SimpleName SimpleType MethodDeclaration SimpleName nv
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v
+nv SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+nv SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName nv
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName nv
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

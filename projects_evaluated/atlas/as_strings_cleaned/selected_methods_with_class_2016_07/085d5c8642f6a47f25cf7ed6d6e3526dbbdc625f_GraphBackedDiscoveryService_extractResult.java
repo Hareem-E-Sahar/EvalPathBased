@@ -1,0 +1,152 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName o
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+o SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType CastExpression SimpleName o
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+l SimpleName VariableDeclarationFragment CastExpression SimpleName o
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+object SimpleName SimpleType SingleVariableDeclaration SimpleName r
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+r SimpleName InstanceofExpression SimpleType SimpleName map
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType CastExpression SimpleName r
+i row SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+i row SimpleName VariableDeclarationFragment CastExpression SimpleName r
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName i row
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName i row
+mapentry QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+i row SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+e SimpleName MethodInvocation SimpleName get value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+k SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+o row SimpleName MethodInvocation SimpleName put
+o row SimpleName MethodInvocation MethodInvocation SimpleName k
+o row SimpleName MethodInvocation MethodInvocation SimpleName to string
+o row SimpleName MethodInvocation MethodInvocation SimpleName v
+o row SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName k
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName v
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+k SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName i row
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+r SimpleName InstanceofExpression SimpleType SimpleName titan vertex
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName titan property
+titan vertex SimpleName SimpleType CastExpression SimpleName r
+r SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get properties
+ps SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+titan property SimpleName SimpleType SingleVariableDeclaration SimpleName t p
+t p SimpleName MethodInvocation SimpleName get property key
+t p SimpleName MethodInvocation MethodInvocation SimpleName get name
+get property key SimpleName MethodInvocation MethodInvocation SimpleName get name
+p name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName t p
+p name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property key
+p name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p name
+titan vertex SimpleName SimpleType CastExpression SimpleName r
+r SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get property
+r SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName p name
+get property SimpleName MethodInvocation SimpleName p name
+p value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+p value SimpleName VariableDeclarationFragment MethodInvocation SimpleName p name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p value
+p value SimpleName MethodInvocation SimpleName to string
+o row SimpleName MethodInvocation SimpleName put
+o row SimpleName MethodInvocation SimpleName p name
+o row SimpleName MethodInvocation MethodInvocation SimpleName p value
+o row SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName p name
+put SimpleName MethodInvocation MethodInvocation SimpleName p value
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+p name SimpleName MethodInvocation MethodInvocation SimpleName p value
+p name SimpleName MethodInvocation MethodInvocation SimpleName to string
+titan property SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ps
+t p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ps
+r SimpleName InstanceofExpression SimpleType SimpleName string
+r SimpleName MethodInvocation SimpleName to string
+o row SimpleName MethodInvocation SimpleName put
+o row SimpleName MethodInvocation StringLiteral empty
+o row SimpleName MethodInvocation MethodInvocation SimpleName r
+o row SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName r
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation SimpleName r
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+o SimpleName MethodInvocation SimpleName to string
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cannot process result s
+string SimpleName MethodInvocation MethodInvocation SimpleName o
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation StringLiteral cannot process result s
+format SimpleName MethodInvocation MethodInvocation SimpleName o
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+cannot process result s StringLiteral MethodInvocation MethodInvocation SimpleName o
+cannot process result s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+discovery exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+discovery exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+discovery exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cannot process result s
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName o row
+add SimpleName MethodInvocation SimpleName o row
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName l
+r SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName l
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+o SimpleName MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral result
+put SimpleName MethodInvocation MethodInvocation SimpleName o
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+result StringLiteral MethodInvocation MethodInvocation SimpleName o
+result StringLiteral MethodInvocation MethodInvocation SimpleName to string
+result SimpleName MethodInvocation SimpleName add
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName extract result
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+private Modifier MethodDeclaration SimpleType SimpleName discovery exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName extract result
+extract result SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+extract result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+extract result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+extract result SimpleName MethodDeclaration SimpleType SimpleName discovery exception
+extract result SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+o SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception

@@ -1,0 +1,130 @@
+notification consumer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+consumers SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName notification consumer
+notification consumer mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+notification consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification consumer mock
+consumers SimpleName MethodInvocation SimpleName add
+consumers SimpleName MethodInvocation SimpleName notification consumer mock
+add SimpleName MethodInvocation SimpleName notification consumer mock
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+contains key SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName contains key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+get boolean SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation QualifiedName notification hook consumerconsumer threads property
+configuration SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation QualifiedName notification hook consumerconsumer threads property
+get int SimpleName MethodInvocation NumberLiteral empty
+notification hook consumerconsumer threads property QualifiedName MethodInvocation NumberLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get int
+when SimpleName MethodInvocation MethodInvocation QualifiedName notification hook consumerconsumer threads property
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+notification hook consumerconsumer threads property QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+notification hook consumerconsumer threads property QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+then return SimpleName MethodInvocation NumberLiteral empty
+notification interface SimpleName MethodInvocation SimpleName create consumers
+notification interface SimpleName MethodInvocation QualifiedName notification typehook
+notification interface SimpleName MethodInvocation NumberLiteral empty
+create consumers SimpleName MethodInvocation QualifiedName notification typehook
+create consumers SimpleName MethodInvocation NumberLiteral empty
+notification typehook QualifiedName MethodInvocation NumberLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName notification interface
+when SimpleName MethodInvocation MethodInvocation SimpleName create consumers
+when SimpleName MethodInvocation MethodInvocation QualifiedName notification typehook
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+notification interface SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+create consumers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+notification typehook QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName consumers
+notification interface SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName consumers
+create consumers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName consumers
+notification typehook QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName consumers
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName consumers
+then return SimpleName MethodInvocation SimpleName consumers
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName notification interface
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName atlas entity store
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName service state
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName instance converter
+notification hook consumer SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+notification interface SimpleName ClassInstanceCreation SimpleName atlas entity store
+notification interface SimpleName ClassInstanceCreation SimpleName service state
+notification interface SimpleName ClassInstanceCreation SimpleName instance converter
+notification interface SimpleName ClassInstanceCreation SimpleName type registry
+atlas entity store SimpleName ClassInstanceCreation SimpleName service state
+atlas entity store SimpleName ClassInstanceCreation SimpleName instance converter
+atlas entity store SimpleName ClassInstanceCreation SimpleName type registry
+service state SimpleName ClassInstanceCreation SimpleName instance converter
+service state SimpleName ClassInstanceCreation SimpleName type registry
+instance converter SimpleName ClassInstanceCreation SimpleName type registry
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName notification hook consumer
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName notification interface
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas entity store
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service state
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance converter
+notification hook consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+notification hook consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification hook consumer
+notification hook consumer SimpleName MethodInvocation SimpleName start internal
+notification hook consumer SimpleName MethodInvocation SimpleName configuration
+notification hook consumer SimpleName MethodInvocation SimpleName executor service
+start internal SimpleName MethodInvocation SimpleName configuration
+start internal SimpleName MethodInvocation SimpleName executor service
+configuration SimpleName MethodInvocation SimpleName executor service
+verify zero interactions SimpleName MethodInvocation SimpleName notification interface
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test consumers are not started if ha is enabled
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test consumers are not started if ha is enabled
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test consumers are not started if ha is enabled
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test consumers are not started if ha is enabled SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test consumers are not started if ha is enabled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test consumers are not started if ha is enabled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

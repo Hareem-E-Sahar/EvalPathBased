@@ -1,0 +1,114 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+ret SimpleName Assignment InfixExpression SimpleName val
+ret SimpleName Assignment BooleanLiteral false
+get struct from value SimpleName MethodInvocation SimpleName val
+struct val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct from value
+struct val SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct val
+ret SimpleName Assignment BooleanLiteral false
+get struct from value SimpleName MethodInvocation SimpleName val
+struct val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct from value
+struct val SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct val
+ret SimpleName Assignment BooleanLiteral false
+struct val SimpleName MethodInvocation SimpleName get type name
+struct val SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName struct val
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName struct val
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName struct val
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName struct val
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get type name
+struct val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct val
+struct val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct val
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName Assignment BooleanLiteral false
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+struct val SimpleName MethodInvocation SimpleName get attributes
+struct val SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+entry SimpleName MethodInvocation SimpleName get value
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+struct val SimpleName MethodInvocation SimpleName get attribute
+struct val SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct val
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attribute SimpleName MethodInvocation MethodInvocation SimpleName are equal values
+get attribute type SimpleName MethodInvocation MethodInvocation SimpleName are equal values
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get attribute type SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get attribute type SimpleName MethodInvocation MethodInvocation SimpleName attr value
+are equal values SimpleName MethodInvocation SimpleName attr value
+are equal values SimpleName MethodInvocation SimpleName attr value
+attr value SimpleName MethodInvocation SimpleName attr value
+ret SimpleName Assignment BooleanLiteral false
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName are equal values
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName are equal values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName are equal values
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+are equal values SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName are equal values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName are equal values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

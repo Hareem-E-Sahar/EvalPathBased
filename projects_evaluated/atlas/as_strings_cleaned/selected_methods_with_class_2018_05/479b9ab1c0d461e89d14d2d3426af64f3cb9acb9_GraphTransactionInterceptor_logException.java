@@ -1,0 +1,27 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName InstanceofExpression SimpleType SimpleName atlas base exception
+atlas base exception SimpleName SimpleType CastExpression SimpleName t
+t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get atlas error code
+get atlas error code SimpleName MethodInvocation MethodInvocation SimpleName get http code
+http code SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get atlas error code
+http code SimpleName VariableDeclarationFragment MethodInvocation SimpleName get http code
+responsestatus QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http code
+http code SimpleName InfixExpression QualifiedName responsestatusnot found
+http code SimpleName InfixExpression QualifiedName responsestatusno content
+http code SimpleName InfixExpression InfixExpression InfixExpression SimpleName http code
+http code SimpleName InfixExpression InfixExpression InfixExpression QualifiedName responsestatusno content
+responsestatusnot found QualifiedName InfixExpression InfixExpression InfixExpression SimpleName http code
+responsestatusnot found QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName responsestatusno content
+t SimpleName InstanceofExpression SimpleType SimpleName not found exception
+boolean PrimitiveType MethodDeclaration SimpleName log exception
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+log exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+log exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName log exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

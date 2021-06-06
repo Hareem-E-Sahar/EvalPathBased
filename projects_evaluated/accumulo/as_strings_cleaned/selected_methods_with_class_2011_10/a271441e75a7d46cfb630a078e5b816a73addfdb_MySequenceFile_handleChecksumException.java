@@ -1,0 +1,54 @@
+checksum exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conf SimpleName FieldAccess MethodInvocation SimpleName get boolean
+conf SimpleName FieldAccess MethodInvocation StringLiteral ioskipchecksumerrors
+conf SimpleName FieldAccess MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation StringLiteral ioskipchecksumerrors
+get boolean SimpleName MethodInvocation BooleanLiteral false
+ioskipchecksumerrors StringLiteral MethodInvocation BooleanLiteral false
+bad checksum at StringLiteral InfixExpression MethodInvocation SimpleName get position
+bad checksum at StringLiteral InfixExpression StringLiteral . skipping entries
+get position SimpleName MethodInvocation InfixExpression StringLiteral . skipping entries
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral bad checksum at
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get position
+log SimpleName MethodInvocation InfixExpression StringLiteral . skipping entries
+warn SimpleName MethodInvocation InfixExpression StringLiteral bad checksum at
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get position
+warn SimpleName MethodInvocation InfixExpression StringLiteral . skipping entries
+conf SimpleName FieldAccess MethodInvocation SimpleName get int
+conf SimpleName FieldAccess MethodInvocation StringLiteral iobytesperchecksum
+conf SimpleName FieldAccess MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation StringLiteral iobytesperchecksum
+get int SimpleName MethodInvocation NumberLiteral empty
+iobytesperchecksum StringLiteral MethodInvocation NumberLiteral empty
+get position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get int
+get position SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral iobytesperchecksum
+get position SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+sync SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get position
+sync SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get int
+sync SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral iobytesperchecksum
+sync SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName handle checksum exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName checksum exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName handle checksum exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName checksum exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+handle checksum exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName checksum exception
+handle checksum exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+handle checksum exception SimpleName MethodDeclaration SimpleType SimpleName io exception
+e SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle checksum exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle checksum exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

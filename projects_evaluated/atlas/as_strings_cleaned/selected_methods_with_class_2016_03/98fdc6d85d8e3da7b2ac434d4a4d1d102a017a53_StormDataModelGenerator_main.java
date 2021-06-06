@@ -1,0 +1,58 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+storm data model SimpleName MethodInvocation SimpleName main
+storm data model SimpleName MethodInvocation SimpleName types def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName storm data model
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types serialization SimpleName MethodInvocation SimpleName to json
+types serialization SimpleName MethodInvocation SimpleName types def
+to json SimpleName MethodInvocation SimpleName types def
+storm types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types serialization
+storm types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+storm types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storm types as json
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+model definition dump SimpleName MethodInvocation SimpleName dump model to file
+model definition dump SimpleName MethodInvocation ArrayAccess SimpleName args
+model definition dump SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+model definition dump SimpleName MethodInvocation SimpleName storm types as json
+dump model to file SimpleName MethodInvocation ArrayAccess SimpleName args
+dump model to file SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+dump model to file SimpleName MethodInvocation SimpleName storm types as json
+args SimpleName ArrayAccess MethodInvocation SimpleName storm types as json
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName storm types as json
+storm types as json = StringLiteral InfixExpression SimpleName storm types as json
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral storm types as json =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName storm types as json
+println SimpleName MethodInvocation InfixExpression StringLiteral storm types as json =
+println SimpleName MethodInvocation InfixExpression SimpleName storm types as json
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

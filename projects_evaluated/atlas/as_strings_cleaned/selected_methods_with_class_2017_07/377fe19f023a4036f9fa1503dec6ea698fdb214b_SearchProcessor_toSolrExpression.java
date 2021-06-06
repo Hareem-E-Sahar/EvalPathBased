@@ -1,0 +1,141 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+search parametersoperator QualifiedName SimpleType SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+ret SimpleName VariableDeclarationFragment SimpleName empty string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName empty string
+type SimpleName MethodInvocation SimpleName get qualified attribute name
+type SimpleName MethodInvocation SimpleName attr name
+get qualified attribute name SimpleName MethodInvocation SimpleName attr name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+operator map SimpleName MethodInvocation SimpleName get
+operator map SimpleName MethodInvocation SimpleName op
+get SimpleName MethodInvocation SimpleName op
+has offending chars SimpleName MethodInvocation SimpleName attr val
+operator map SimpleName MethodInvocation SimpleName get
+operator map SimpleName MethodInvocation SimpleName op
+get SimpleName MethodInvocation SimpleName op
+\ StringLiteral InfixExpression SimpleName attr val
+\ StringLiteral InfixExpression StringLiteral \
+attr val SimpleName InfixExpression StringLiteral \
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName operator map
+string SimpleName MethodInvocation MethodInvocation SimpleName get
+string SimpleName MethodInvocation MethodInvocation SimpleName op
+string SimpleName MethodInvocation SimpleName qualified name
+string SimpleName MethodInvocation InfixExpression StringLiteral \
+string SimpleName MethodInvocation InfixExpression SimpleName attr val
+string SimpleName MethodInvocation InfixExpression StringLiteral \
+format SimpleName MethodInvocation MethodInvocation SimpleName operator map
+format SimpleName MethodInvocation MethodInvocation SimpleName get
+format SimpleName MethodInvocation MethodInvocation SimpleName op
+format SimpleName MethodInvocation SimpleName qualified name
+format SimpleName MethodInvocation InfixExpression StringLiteral \
+format SimpleName MethodInvocation InfixExpression SimpleName attr val
+format SimpleName MethodInvocation InfixExpression StringLiteral \
+operator map SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+get SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+op SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+operator map SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+operator map SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName attr val
+operator map SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+get SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName attr val
+get SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+op SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+op SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName attr val
+op SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \
+qualified name SimpleName MethodInvocation InfixExpression StringLiteral \
+qualified name SimpleName MethodInvocation InfixExpression SimpleName attr val
+qualified name SimpleName MethodInvocation InfixExpression StringLiteral \
+ret SimpleName Assignment MethodInvocation SimpleName string
+ret SimpleName Assignment MethodInvocation SimpleName format
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName operator map
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName op
+ret SimpleName Assignment MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation InfixExpression StringLiteral \
+ret SimpleName Assignment MethodInvocation InfixExpression SimpleName attr val
+ret SimpleName Assignment MethodInvocation InfixExpression StringLiteral \
+operator map SimpleName MethodInvocation SimpleName get
+operator map SimpleName MethodInvocation SimpleName op
+get SimpleName MethodInvocation SimpleName op
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName operator map
+string SimpleName MethodInvocation MethodInvocation SimpleName get
+string SimpleName MethodInvocation MethodInvocation SimpleName op
+string SimpleName MethodInvocation SimpleName qualified name
+string SimpleName MethodInvocation SimpleName attr val
+format SimpleName MethodInvocation MethodInvocation SimpleName operator map
+format SimpleName MethodInvocation MethodInvocation SimpleName get
+format SimpleName MethodInvocation MethodInvocation SimpleName op
+format SimpleName MethodInvocation SimpleName qualified name
+format SimpleName MethodInvocation SimpleName attr val
+operator map SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+get SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+op SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+operator map SimpleName MethodInvocation MethodInvocation SimpleName attr val
+get SimpleName MethodInvocation MethodInvocation SimpleName attr val
+op SimpleName MethodInvocation MethodInvocation SimpleName attr val
+qualified name SimpleName MethodInvocation SimpleName attr val
+ret SimpleName Assignment MethodInvocation SimpleName string
+ret SimpleName Assignment MethodInvocation SimpleName format
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName operator map
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName op
+ret SimpleName Assignment MethodInvocation SimpleName qualified name
+ret SimpleName Assignment MethodInvocation SimpleName attr val
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName ex
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to solr expression
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName search parametersoperator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType MethodDeclaration SimpleName to solr expression
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName search parametersoperator
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to solr expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+to solr expression SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to solr expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to solr expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val

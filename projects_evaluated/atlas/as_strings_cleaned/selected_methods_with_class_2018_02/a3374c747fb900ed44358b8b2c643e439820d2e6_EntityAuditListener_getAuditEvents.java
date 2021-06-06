@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity audit event
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+short PrimitiveType CastExpression NumberLiteral empty
+audit repository SimpleName MethodInvocation SimpleName list events v
+audit repository SimpleName MethodInvocation SimpleName guid
+audit repository SimpleName MethodInvocation CastExpression PrimitiveType short
+audit repository SimpleName MethodInvocation CastExpression NumberLiteral empty
+list events v SimpleName MethodInvocation SimpleName guid
+list events v SimpleName MethodInvocation CastExpression PrimitiveType short
+list events v SimpleName MethodInvocation CastExpression NumberLiteral empty
+guid SimpleName MethodInvocation CastExpression PrimitiveType short
+guid SimpleName MethodInvocation CastExpression NumberLiteral empty
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity audit event
+public Modifier MethodDeclaration SimpleName get audit events
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit events
+entity audit event SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get audit events
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get audit events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get audit events SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get audit events
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get audit events
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

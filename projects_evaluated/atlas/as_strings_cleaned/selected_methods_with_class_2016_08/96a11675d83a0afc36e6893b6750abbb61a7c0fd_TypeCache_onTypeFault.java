@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+i data type SimpleName SimpleType MethodDeclaration SimpleName on type fault
+i data type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+i data type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+on type fault SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+on type fault SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+on type fault SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+public Modifier TypeDeclaration MethodDeclaration SimpleName on type fault
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on type fault
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

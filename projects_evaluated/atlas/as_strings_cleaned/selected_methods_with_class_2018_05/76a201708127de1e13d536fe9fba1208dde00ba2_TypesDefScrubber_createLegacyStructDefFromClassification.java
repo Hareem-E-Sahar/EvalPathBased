@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+get classification def by name SimpleName MethodInvocation SimpleName type name
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification def by name
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification def
+get struct def from classification def SimpleName MethodInvocation SimpleName classification def
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct def from classification def
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification def
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct def
+add struct def to types def SimpleName MethodInvocation SimpleName struct def
+classification def SimpleName MethodInvocation SimpleName get name
+struct def SimpleName MethodInvocation SimpleName get name
+classification to struct def name SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification def
+classification to struct def name SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+classification to struct def name SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName struct def
+classification to struct def name SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName struct def
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName struct def
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+private Modifier MethodDeclaration SimpleType SimpleName classification to struct def name
+private Modifier MethodDeclaration SimpleName create legacy struct def from classification
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+classification to struct def name SimpleName SimpleType MethodDeclaration SimpleName create legacy struct def from classification
+classification to struct def name SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+create legacy struct def from classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create legacy struct def from classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName classification to struct def name
+public Modifier TypeDeclaration MethodDeclaration SimpleName create legacy struct def from classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName classification to struct def name
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create legacy struct def from classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

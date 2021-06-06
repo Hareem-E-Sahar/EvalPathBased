@@ -1,0 +1,187 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName unique attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName unique attribute value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute value
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+api SimpleName VariableDeclarationFragment QualifiedName api v update entity partial
+final Modifier VariableDeclarationStatement SimpleType SimpleName api
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName api
+final Modifier VariableDeclarationStatement VariableDeclarationFragment QualifiedName api v update entity partial
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName api
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName api v update entity partial
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName entity
+to v json SimpleName MethodInvocation SimpleName entity
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+entity json SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity json
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating entity type {} attribute name {} attribute value {} entity {}
+log SimpleName MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation SimpleName unique attribute name
+log SimpleName MethodInvocation SimpleName unique attribute value
+debug SimpleName MethodInvocation StringLiteral updating entity type {} attribute name {} attribute value {} entity {}
+debug SimpleName MethodInvocation SimpleName entity type
+debug SimpleName MethodInvocation SimpleName unique attribute name
+debug SimpleName MethodInvocation SimpleName unique attribute value
+debug SimpleName MethodInvocation SimpleName entity json
+updating entity type {} attribute name {} attribute value {} entity {} StringLiteral MethodInvocation SimpleName entity type
+updating entity type {} attribute name {} attribute value {} entity {} StringLiteral MethodInvocation SimpleName unique attribute name
+updating entity type {} attribute name {} attribute value {} entity {} StringLiteral MethodInvocation SimpleName unique attribute value
+updating entity type {} attribute name {} attribute value {} entity {} StringLiteral MethodInvocation SimpleName entity json
+entity type SimpleName MethodInvocation SimpleName unique attribute name
+entity type SimpleName MethodInvocation SimpleName unique attribute value
+entity type SimpleName MethodInvocation SimpleName entity json
+unique attribute name SimpleName MethodInvocation SimpleName unique attribute value
+unique attribute name SimpleName MethodInvocation SimpleName entity json
+unique attribute value SimpleName MethodInvocation SimpleName entity json
+get resource SimpleName MethodInvocation SimpleName api
+get resource SimpleName MethodInvocation SimpleName qualified name
+api SimpleName MethodInvocation SimpleName qualified name
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName api
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName qualified name
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName type
+resource SimpleName MethodInvocation SimpleName entity type
+query param SimpleName MethodInvocation SimpleName type
+query param SimpleName MethodInvocation SimpleName entity type
+type SimpleName MethodInvocation SimpleName entity type
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName type
+resource SimpleName Assignment MethodInvocation SimpleName entity type
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute name
+resource SimpleName MethodInvocation SimpleName unique attribute name
+query param SimpleName MethodInvocation SimpleName attribute name
+query param SimpleName MethodInvocation SimpleName unique attribute name
+attribute name SimpleName MethodInvocation SimpleName unique attribute name
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute name
+resource SimpleName Assignment MethodInvocation SimpleName unique attribute name
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute value
+resource SimpleName MethodInvocation SimpleName unique attribute value
+query param SimpleName MethodInvocation SimpleName attribute value
+query param SimpleName MethodInvocation SimpleName unique attribute value
+attribute value SimpleName MethodInvocation SimpleName unique attribute value
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute value
+resource SimpleName Assignment MethodInvocation SimpleName unique attribute value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName web resource
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration SimpleType SimpleName web resource
+public Modifier MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resource
+web resource SimpleName SimpleType MethodDeclaration SimpleName create resource
+create resource SimpleName MethodDeclaration Block ReturnStatement SimpleName resource
+call api with retries SimpleName MethodInvocation SimpleName api
+call api with retries SimpleName MethodInvocation SimpleName entity json
+call api with retries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+api SimpleName MethodInvocation SimpleName entity json
+api SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+entity json SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with retries
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName api
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity json
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+extract entity result SimpleName MethodInvocation SimpleName response
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract entity result
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral update entity returned result {}
+log SimpleName MethodInvocation SimpleName result
+debug SimpleName MethodInvocation StringLiteral update entity returned result {}
+debug SimpleName MethodInvocation SimpleName result
+update entity returned result {} StringLiteral MethodInvocation SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName entity result
+public Modifier MethodDeclaration SimpleName update entity
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+entity result SimpleName SimpleType MethodDeclaration SimpleName update entity
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+entity result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+update entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+update entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+update entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+update entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+unique attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+unique attribute value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

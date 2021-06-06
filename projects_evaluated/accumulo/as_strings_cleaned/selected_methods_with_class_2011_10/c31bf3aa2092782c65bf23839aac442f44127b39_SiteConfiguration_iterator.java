@@ -1,0 +1,72 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+parent entry SimpleName MethodInvocation SimpleName get key
+parent entry SimpleName MethodInvocation SimpleName get value
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get key
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName parent
+parent SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName entries
+parent SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName put
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName site entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName site entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName site entry
+site entry SimpleName MethodInvocation SimpleName get key
+site entry SimpleName MethodInvocation SimpleName get value
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation MethodInvocation SimpleName site entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get key
+entries SimpleName MethodInvocation MethodInvocation SimpleName site entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName site entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName site entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+site entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site entry
+site entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName site entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+site entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get xml config
+entries SimpleName MethodInvocation SimpleName entry set
+entries SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName parent
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

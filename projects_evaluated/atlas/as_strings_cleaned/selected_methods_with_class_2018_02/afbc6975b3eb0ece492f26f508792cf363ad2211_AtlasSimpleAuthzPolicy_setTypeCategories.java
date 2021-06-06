@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type categories
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type categories
+type categories SimpleName FieldAccess Assignment SimpleName type categories
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set type categories
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type categories
+void PrimitiveType MethodDeclaration SimpleName set type categories
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type categories
+set type categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type categories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set type categories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type categories
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set type categories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type categories

@@ -1,0 +1,62 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+total added SimpleName InfixExpression NumberLiteral empty
+total added SimpleName InfixExpression InfixExpression PrefixExpression SimpleName added last
+empty NumberLiteral InfixExpression InfixExpression PrefixExpression SimpleName added last
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral did not call add last
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName total added
+write int SimpleName MethodInvocation SimpleName total added
+levels SimpleName MethodInvocation SimpleName size
+levels SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+levels SimpleName MethodInvocation SimpleName size
+levels SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+levels SimpleName MethodInvocation SimpleName get
+levels SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName levels
+levels SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+levels SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName levels
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+levels SimpleName MethodInvocation MethodInvocation SimpleName write
+get SimpleName MethodInvocation MethodInvocation SimpleName write
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName write
+levels SimpleName MethodInvocation MethodInvocation SimpleName out
+get SimpleName MethodInvocation MethodInvocation SimpleName out
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+index block SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+index block SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+index block SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName write
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName write
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName write
+index block SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName out
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName out
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName traits
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName traits
+struct SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName traits
+traits SimpleName FieldAccess Assignment SimpleName traits
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set traits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName traits
+void PrimitiveType MethodDeclaration SimpleName set traits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName traits
+set traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits

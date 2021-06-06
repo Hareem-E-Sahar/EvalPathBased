@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation MethodInvocation SimpleName get root username
+equals SimpleName MethodInvocation MethodInvocation SimpleName get root username
+authenticator SimpleName MethodInvocation SimpleName user exists
+authenticator SimpleName MethodInvocation SimpleName user
+user exists SimpleName MethodInvocation SimpleName user
+thrift security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+user SimpleName ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName target user exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+private Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName target user exists
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+target user exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+target user exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+target user exists SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName target user exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName target user exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

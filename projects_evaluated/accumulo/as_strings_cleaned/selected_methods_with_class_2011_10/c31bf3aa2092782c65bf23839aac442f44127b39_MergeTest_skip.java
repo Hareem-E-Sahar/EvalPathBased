@@ -1,0 +1,37 @@
+impl SimpleName MethodInvocation SimpleName has next
+impl SimpleName MethodInvocation SimpleName next
+candidate SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+candidate SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+size SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName candidate
+candidateextent QualifiedName MethodInvocation SimpleName get end row
+candidateextent QualifiedName MethodInvocation SimpleName get end row
+candidateextent QualifiedName MethodInvocation MethodInvocation SimpleName compare to
+get end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+candidateextent QualifiedName MethodInvocation MethodInvocation SimpleName start
+get end row SimpleName MethodInvocation MethodInvocation SimpleName start
+compare to SimpleName MethodInvocation SimpleName start
+candidateextent QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+start SimpleName MethodInvocation InfixExpression NumberLiteral empty
+candidateextent QualifiedName MethodInvocation SimpleName get prev end row
+candidateextent QualifiedName MethodInvocation SimpleName get prev end row
+candidateextent QualifiedName MethodInvocation MethodInvocation SimpleName compare to
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+candidateextent QualifiedName MethodInvocation MethodInvocation SimpleName end
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName end
+compare to SimpleName MethodInvocation SimpleName end
+candidateextent QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end SimpleName MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName size
+private Modifier MethodDeclaration SimpleName skip
+size SimpleName SimpleType MethodDeclaration SimpleName skip
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SimpleName skip
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skip

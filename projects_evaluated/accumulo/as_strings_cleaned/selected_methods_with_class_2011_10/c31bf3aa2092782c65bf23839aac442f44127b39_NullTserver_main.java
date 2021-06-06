@@ -1,0 +1,172 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+args SimpleName ArrayAccess NumberLiteral empty
+iname SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+iname SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iname
+args SimpleName ArrayAccess NumberLiteral empty
+keepers SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+keepers SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName keepers
+args SimpleName ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+port SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+port SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+watcher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transaction watcher
+transaction watcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName watcher
+thrift client handler SimpleName SimpleType ClassInstanceCreation SimpleName watcher
+tch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thrift client handler
+tch SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName watcher
+thrift client handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tch
+tablet client serviceprocessor QualifiedName SimpleType ClassInstanceCreation SimpleName tch
+processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName tablet client serviceprocessor
+processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tch
+tablet client serviceprocessor QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName processor
+t server utils SimpleName MethodInvocation SimpleName start t server
+t server utils SimpleName MethodInvocation SimpleName port
+t server utils SimpleName MethodInvocation SimpleName processor
+t server utils SimpleName MethodInvocation StringLiteral null t server
+t server utils SimpleName MethodInvocation StringLiteral null tserver
+start t server SimpleName MethodInvocation SimpleName port
+start t server SimpleName MethodInvocation SimpleName processor
+start t server SimpleName MethodInvocation StringLiteral null t server
+start t server SimpleName MethodInvocation StringLiteral null tserver
+start t server SimpleName MethodInvocation NumberLiteral empty
+port SimpleName MethodInvocation SimpleName processor
+port SimpleName MethodInvocation StringLiteral null t server
+port SimpleName MethodInvocation StringLiteral null tserver
+port SimpleName MethodInvocation NumberLiteral empty
+port SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation StringLiteral null t server
+processor SimpleName MethodInvocation StringLiteral null tserver
+processor SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation NumberLiteral empty
+null t server StringLiteral MethodInvocation StringLiteral null tserver
+null t server StringLiteral MethodInvocation NumberLiteral empty
+null t server StringLiteral MethodInvocation NumberLiteral empty
+null tserver StringLiteral MethodInvocation NumberLiteral empty
+null tserver StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+inet address SimpleName MethodInvocation SimpleName get local host
+inet socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inet address
+inet socket address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local host
+inet socket address SimpleName SimpleType ClassInstanceCreation SimpleName port
+inet address SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+get local host SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+addr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName inet socket address
+addr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName inet address
+addr SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get local host
+addr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName port
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName addr
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName iname
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName keepers
+iname SimpleName ClassInstanceCreation SimpleName keepers
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName iname
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName keepers
+zoo keeper instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zki
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName zki
+tables SimpleName MethodInvocation SimpleName table name
+get table id SimpleName MethodInvocation SimpleName zki
+get table id SimpleName MethodInvocation SimpleName table name
+zki SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName zki
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table range SimpleName VariableDeclarationFragment MethodInvocation SimpleName to metadata range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table range
+meta data table scanner SimpleName SimpleType ClassInstanceCreation SimpleName table range
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName meta data table scanner
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table range
+meta data table scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+random session id SimpleName VariableDeclarationFragment SimpleName port
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName random session id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+t server instance SimpleName SimpleType ClassInstanceCreation SimpleName addr
+t server instance SimpleName SimpleType ClassInstanceCreation SimpleName random session id
+addr SimpleName ClassInstanceCreation SimpleName random session id
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t server instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName addr
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName random session id
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+s SimpleName MethodInvocation SimpleName has next
+s SimpleName MethodInvocation SimpleName next
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+tablet location state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+assignment SimpleName SimpleType ClassInstanceCreation QualifiedName nextextent
+assignment SimpleName SimpleType ClassInstanceCreation SimpleName instance
+nextextent QualifiedName ClassInstanceCreation SimpleName instance
+assignments SimpleName MethodInvocation SimpleName add
+assignments SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assignment
+assignments SimpleName MethodInvocation ClassInstanceCreation QualifiedName nextextent
+assignments SimpleName MethodInvocation ClassInstanceCreation SimpleName instance
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assignment
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName nextextent
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName instance
+store SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName meta data state store
+meta data state store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store
+store SimpleName MethodInvocation SimpleName set locations
+store SimpleName MethodInvocation SimpleName assignments
+set locations SimpleName MethodInvocation SimpleName assignments
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,22 @@
+table vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table entity vertex
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table vertex
+table vertex SimpleName MethodInvocation SimpleName get property
+table vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+assert SimpleName MethodInvocation SimpleName fail
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get guid
+private Modifier MethodDeclaration Block ReturnStatement SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleName get guid
+get guid SimpleName MethodDeclaration Block ReturnStatement SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get guid

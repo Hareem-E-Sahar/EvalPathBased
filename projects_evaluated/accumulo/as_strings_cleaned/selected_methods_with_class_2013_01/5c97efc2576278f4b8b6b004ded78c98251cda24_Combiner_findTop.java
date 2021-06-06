@@ -1,0 +1,38 @@
+work key SimpleName MethodInvocation SimpleName set
+work key SimpleName MethodInvocation SuperMethodInvocation SimpleName get top key
+set SimpleName MethodInvocation SuperMethodInvocation SimpleName get top key
+combiners SimpleName MethodInvocation SimpleName contains
+combiners SimpleName MethodInvocation SimpleName work key
+contains SimpleName MethodInvocation SimpleName work key
+combine all columns SimpleName InfixExpression MethodInvocation SimpleName combiners
+combine all columns SimpleName InfixExpression MethodInvocation SimpleName contains
+combine all columns SimpleName InfixExpression MethodInvocation SimpleName work key
+work key SimpleName MethodInvocation SimpleName is deleted
+top key SimpleName Assignment SimpleName work key
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+value iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get source
+viter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value iterator
+viter SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get source
+reduce SimpleName MethodInvocation SimpleName top key
+reduce SimpleName MethodInvocation SimpleName viter
+top key SimpleName MethodInvocation SimpleName viter
+top value SimpleName Assignment MethodInvocation SimpleName reduce
+top value SimpleName Assignment MethodInvocation SimpleName top key
+top value SimpleName Assignment MethodInvocation SimpleName viter
+viter SimpleName MethodInvocation SimpleName has next
+viter SimpleName MethodInvocation SimpleName next
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName find top
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName find top
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+find top SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName find top
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find top
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

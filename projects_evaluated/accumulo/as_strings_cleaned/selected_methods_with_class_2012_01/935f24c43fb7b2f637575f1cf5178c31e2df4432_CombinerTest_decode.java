@@ -1,0 +1,24 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName decode
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName decode
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode
+decode SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

@@ -1,0 +1,157 @@
+entity mutation response SimpleName SimpleType SingleVariableDeclaration SimpleName reponse
+create update entities result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity operation
+reponse SimpleName MethodInvocation SimpleName get mutated entities
+mutated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName reponse
+mutated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mutated entities
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+reponse SimpleName MethodInvocation SimpleName get guid assignments
+guid assignments SimpleName VariableDeclarationFragment MethodInvocation SimpleName reponse
+guid assignments SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid assignments
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName create update entities result
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName guid assignments
+is not empty SimpleName MethodInvocation SimpleName guid assignments
+guid mapping SimpleName SimpleType ClassInstanceCreation SimpleName guid assignments
+ret SimpleName MethodInvocation SimpleName set guid mapping
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName guid mapping
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName guid assignments
+set guid mapping SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName guid mapping
+set guid mapping SimpleName MethodInvocation ClassInstanceCreation SimpleName guid assignments
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName mutated entities
+is not empty SimpleName MethodInvocation SimpleName mutated entities
+entity result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity result
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName entity operation
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+entity operation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+mutated entities SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationcreate
+get SimpleName MethodInvocation QualifiedName entity operationcreate
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutated entities
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+created entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity operationcreate
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName created entities
+is not empty SimpleName MethodInvocation SimpleName created entities
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName created entities
+reverse SimpleName MethodInvocation SimpleName created entities
+get guids SimpleName MethodInvocation SimpleName created entities
+entity result SimpleName MethodInvocation SimpleName set
+entity result SimpleName MethodInvocation QualifiedName entity resultop created
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get guids
+entity result SimpleName MethodInvocation MethodInvocation SimpleName created entities
+set SimpleName MethodInvocation QualifiedName entity resultop created
+set SimpleName MethodInvocation MethodInvocation SimpleName get guids
+set SimpleName MethodInvocation MethodInvocation SimpleName created entities
+entity resultop created QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+entity resultop created QualifiedName MethodInvocation MethodInvocation SimpleName created entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationupdate
+get SimpleName MethodInvocation QualifiedName entity operationupdate
+updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutated entities
+updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+updated entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity operationupdate
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName updated entities
+is not empty SimpleName MethodInvocation SimpleName updated entities
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName updated entities
+reverse SimpleName MethodInvocation SimpleName updated entities
+get guids SimpleName MethodInvocation SimpleName updated entities
+entity result SimpleName MethodInvocation SimpleName set
+entity result SimpleName MethodInvocation QualifiedName entity resultop updated
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get guids
+entity result SimpleName MethodInvocation MethodInvocation SimpleName updated entities
+set SimpleName MethodInvocation QualifiedName entity resultop updated
+set SimpleName MethodInvocation MethodInvocation SimpleName get guids
+set SimpleName MethodInvocation MethodInvocation SimpleName updated entities
+entity resultop updated QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+entity resultop updated QualifiedName MethodInvocation MethodInvocation SimpleName updated entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationpartial update
+get SimpleName MethodInvocation QualifiedName entity operationpartial update
+partial updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutated entities
+partial updated entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+partial updated entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity operationpartial update
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName partial updated entities
+is not empty SimpleName MethodInvocation SimpleName partial updated entities
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName partial updated entities
+reverse SimpleName MethodInvocation SimpleName partial updated entities
+get guids SimpleName MethodInvocation SimpleName partial updated entities
+entity result SimpleName MethodInvocation SimpleName set
+entity result SimpleName MethodInvocation QualifiedName entity resultop updated
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get guids
+entity result SimpleName MethodInvocation MethodInvocation SimpleName partial updated entities
+set SimpleName MethodInvocation QualifiedName entity resultop updated
+set SimpleName MethodInvocation MethodInvocation SimpleName get guids
+set SimpleName MethodInvocation MethodInvocation SimpleName partial updated entities
+entity resultop updated QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+entity resultop updated QualifiedName MethodInvocation MethodInvocation SimpleName partial updated entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation QualifiedName entity operationdelete
+get SimpleName MethodInvocation QualifiedName entity operationdelete
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutated entities
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity operationdelete
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName deleted entities
+is not empty SimpleName MethodInvocation SimpleName deleted entities
+collections SimpleName MethodInvocation SimpleName reverse
+collections SimpleName MethodInvocation SimpleName deleted entities
+reverse SimpleName MethodInvocation SimpleName deleted entities
+get guids SimpleName MethodInvocation SimpleName deleted entities
+entity result SimpleName MethodInvocation SimpleName set
+entity result SimpleName MethodInvocation QualifiedName entity resultop deleted
+entity result SimpleName MethodInvocation MethodInvocation SimpleName get guids
+entity result SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+set SimpleName MethodInvocation QualifiedName entity resultop deleted
+set SimpleName MethodInvocation MethodInvocation SimpleName get guids
+set SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+entity resultop deleted QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+entity resultop deleted QualifiedName MethodInvocation MethodInvocation SimpleName deleted entities
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName create
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName create
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName update
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName update
+create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update
+update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName partial update
+partial update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mutated entities
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+ret SimpleName MethodInvocation SimpleName set entity result
+ret SimpleName MethodInvocation SimpleName entity result
+set entity result SimpleName MethodInvocation SimpleName entity result
+public Modifier MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier MethodDeclaration SimpleName to create update entities result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reponse
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+create update entities result SimpleName SimpleType MethodDeclaration SimpleName to create update entities result
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reponse
+to create update entities result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation response
+to create update entities result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reponse
+to create update entities result SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier TypeDeclaration MethodDeclaration SimpleName to create update entities result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reponse
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reponse

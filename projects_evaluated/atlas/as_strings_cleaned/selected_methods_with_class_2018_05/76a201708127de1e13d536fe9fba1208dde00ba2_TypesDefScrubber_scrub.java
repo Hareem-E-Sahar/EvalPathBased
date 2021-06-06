@@ -1,0 +1,38 @@
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName types def
+types def SimpleName FieldAccess Assignment SimpleName types def
+display SimpleName MethodInvocation StringLiteral incoming
+display SimpleName MethodInvocation SimpleName types def
+incoming StringLiteral MethodInvocation SimpleName types def
+types def SimpleName MethodInvocation SimpleName get classification defs
+create classification name index map SimpleName MethodInvocation MethodInvocation SimpleName types def
+create classification name index map SimpleName MethodInvocation MethodInvocation SimpleName get classification defs
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+types def SimpleName MethodInvocation SimpleName get struct defs
+check and update SimpleName MethodInvocation SimpleName struct def
+atlas entity def SimpleName SimpleType SingleVariableDeclaration SimpleName entity def
+types def SimpleName MethodInvocation SimpleName get entity defs
+check and update SimpleName MethodInvocation SimpleName entity def
+entity def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+entity def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get entity defs
+display SimpleName MethodInvocation StringLiteral scrubbed
+display SimpleName MethodInvocation SimpleName types def
+scrubbed StringLiteral MethodInvocation SimpleName types def
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName scrub
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier MethodDeclaration Block ReturnStatement SimpleName types def
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName scrub
+atlas types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types def
+scrub SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+scrub SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types def
+scrub SimpleName MethodDeclaration Block ReturnStatement SimpleName types def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName scrub
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName scrub
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def

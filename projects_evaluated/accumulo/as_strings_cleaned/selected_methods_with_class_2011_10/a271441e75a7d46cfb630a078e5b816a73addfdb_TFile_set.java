@@ -1,0 +1,16 @@
+location SimpleName SimpleType SingleVariableDeclaration SimpleName other
+set SimpleName MethodInvocation QualifiedName otherblock index
+set SimpleName MethodInvocation QualifiedName otherrecord index
+otherblock index QualifiedName MethodInvocation QualifiedName otherrecord index
+void PrimitiveType MethodDeclaration SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName location
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

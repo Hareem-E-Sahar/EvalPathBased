@@ -1,0 +1,49 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName elements
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName elements
+json array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json array
+t SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName to string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName element
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+json array SimpleName MethodInvocation SimpleName put
+json array SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+json array SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName element
+json array SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName element
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName elements
+element SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName elements
+elements SimpleName EnhancedForStatement Block ReturnStatement SimpleName json array
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName json array
+private Modifier MethodDeclaration SimpleName get json array
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName elements
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName json array
+t SimpleName TypeParameter MethodDeclaration SimpleName get json array
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName elements
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName json exception
+json array SimpleName SimpleType MethodDeclaration SimpleName get json array
+json array SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elements
+json array SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+get json array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elements
+get json array SimpleName MethodDeclaration SimpleType SimpleName json exception
+get json array SimpleName MethodDeclaration Block EnhancedForStatement SimpleName elements
+get json array SimpleName MethodDeclaration Block ReturnStatement SimpleName json array
+elements SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+public Modifier TypeDeclaration MethodDeclaration SimpleName get json array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get json array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elements
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

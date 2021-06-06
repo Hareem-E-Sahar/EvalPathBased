@@ -1,0 +1,125 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName edge label
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas edge
+final Modifier SingleVariableDeclaration SimpleName optional edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName optional edge
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get edge for label SimpleName MethodInvocation SimpleName entity vertex
+get edge for label SimpleName MethodInvocation SimpleName edge label
+entity vertex SimpleName MethodInvocation SimpleName edge label
+edge SimpleName Assignment MethodInvocation SimpleName graph helper
+edge SimpleName Assignment MethodInvocation SimpleName get edge for label
+edge SimpleName Assignment MethodInvocation SimpleName entity vertex
+edge SimpleName Assignment MethodInvocation SimpleName edge label
+edge SimpleName Assignment SimpleName optional edge
+graph helper SimpleName MethodInvocation SimpleName element exists
+graph helper SimpleName MethodInvocation SimpleName edge
+element exists SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+graph helper SimpleName MethodInvocation SimpleName get single valued property
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation QualifiedName constantsentity type property key
+graph helper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get single valued property SimpleName MethodInvocation SimpleName reference vertex
+get single valued property SimpleName MethodInvocation QualifiedName constantsentity type property key
+get single valued property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+reference vertex SimpleName MethodInvocation QualifiedName constantsentity type property key
+reference vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsentity type property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get single valued property
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reference vertex
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsentity type property key
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas struct
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName graph helper
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get single valued property
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName reference vertex
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName constantsentity type property key
+map attributes SimpleName MethodInvocation SimpleName reference vertex
+map attributes SimpleName MethodInvocation SimpleName ret
+map attributes SimpleName MethodInvocation SimpleName entity ext info
+reference vertex SimpleName MethodInvocation SimpleName ret
+reference vertex SimpleName MethodInvocation SimpleName entity ext info
+ret SimpleName MethodInvocation SimpleName entity ext info
+private Modifier MethodDeclaration SimpleType SimpleName atlas struct
+private Modifier MethodDeclaration SimpleName map vertex to struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+atlas struct SimpleName SimpleType MethodDeclaration SimpleName map vertex to struct
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+map vertex to struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+map vertex to struct SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+optional edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+optional edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName map vertex to struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map vertex to struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName optional edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

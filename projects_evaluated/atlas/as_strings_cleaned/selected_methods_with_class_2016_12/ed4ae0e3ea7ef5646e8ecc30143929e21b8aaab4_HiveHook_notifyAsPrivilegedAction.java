@@ -1,0 +1,32 @@
+privileged exception action SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleType SimpleName hive event context
+final Modifier SingleVariableDeclaration SimpleName event
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+privileged exception action SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+event SimpleName MethodInvocation SimpleName get messages
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName event
+notify entities SimpleName MethodInvocation MethodInvocation SimpleName get messages
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName event
+object SimpleName SimpleType MethodDeclaration SimpleName run
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block ReturnStatement SimpleName event
+privileged exception action SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName notify as privileged action
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName notify as privileged action
+notify as privileged action SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+notify as privileged action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+notify as privileged action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify as privileged action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify as privileged action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

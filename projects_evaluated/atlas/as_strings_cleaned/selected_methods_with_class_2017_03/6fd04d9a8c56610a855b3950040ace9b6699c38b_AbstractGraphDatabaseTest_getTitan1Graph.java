@@ -1,0 +1,13 @@
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+atlas graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+titan graph SimpleName SimpleType CastExpression SimpleName g
+protected Modifier MethodDeclaration SimpleType SimpleName titan graph
+protected Modifier MethodDeclaration SimpleName get titan graph
+titan graph SimpleName SimpleType MethodDeclaration SimpleName get titan graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get titan graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get titan graph

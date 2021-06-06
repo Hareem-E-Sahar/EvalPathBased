@@ -1,0 +1,47 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get master state SimpleName MethodInvocation InfixExpression QualifiedName master statenormal
+get master state SimpleName MethodInvocation InfixExpression QualifiedName master stateunload metadata tablets
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation QualifiedName constantsmetadata table id
+add SimpleName MethodInvocation QualifiedName constantsmetadata table id
+table manager SimpleName MethodInvocation SimpleName get instance
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName table manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+table manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+tables SimpleName MethodInvocation SimpleName get id to name map
+tables SimpleName MethodInvocation SimpleName instance
+get id to name map SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName key set
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName key set
+instance SimpleName MethodInvocation MethodInvocation SimpleName key set
+manager SimpleName MethodInvocation SimpleName get table state
+manager SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName table id
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName table stateonline
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName table id
+add SimpleName MethodInvocation SimpleName table id
+table id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName online tables
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName online tables
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName online tables
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName online tables
+online tables SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName online tables
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName online tables

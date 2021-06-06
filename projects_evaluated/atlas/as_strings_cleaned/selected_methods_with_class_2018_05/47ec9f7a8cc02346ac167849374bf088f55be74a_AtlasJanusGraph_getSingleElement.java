@@ -1,0 +1,51 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName it
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName it
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element
+it SimpleName MethodInvocation SimpleName has next
+multiple items were found with the id StringLiteral InfixExpression SimpleName id
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple items were found with the id
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName id
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName get single element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName it
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName get single element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName it
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName get single element
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName it
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName id
+t SimpleName SimpleType MethodDeclaration SimpleName get single element
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName it
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get single element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName it
+get single element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get single element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+get single element SimpleName MethodDeclaration Block ReturnStatement SimpleName element
+it SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get single element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get single element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName it
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

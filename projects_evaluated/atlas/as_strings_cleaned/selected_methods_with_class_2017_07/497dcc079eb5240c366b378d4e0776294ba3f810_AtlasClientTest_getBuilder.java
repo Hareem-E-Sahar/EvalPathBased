@@ -1,0 +1,73 @@
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource object
+resource object SimpleName MethodInvocation SimpleName get request builder
+when SimpleName MethodInvocation MethodInvocation SimpleName resource object
+when SimpleName MethodInvocation MethodInvocation SimpleName get request builder
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get request builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName resource builder mock
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+get request builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+then return SimpleName MethodInvocation SimpleName resource builder mock
+resource object SimpleName MethodInvocation SimpleName path
+resource object SimpleName MethodInvocation MethodInvocation SimpleName any string
+path SimpleName MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName resource object
+when SimpleName MethodInvocation MethodInvocation SimpleName path
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName resource object
+resource object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource object
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource object
+then return SimpleName MethodInvocation SimpleName resource object
+resource builder mock SimpleName MethodInvocation SimpleName accept
+resource builder mock SimpleName MethodInvocation QualifiedName atlas base clientjson media type
+accept SimpleName MethodInvocation QualifiedName atlas base clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName resource builder mock
+when SimpleName MethodInvocation MethodInvocation SimpleName accept
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas base clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+resource builder mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas base clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName resource builder mock
+resource builder mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+accept SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+atlas base clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+then return SimpleName MethodInvocation SimpleName resource builder mock
+resource builder mock SimpleName MethodInvocation SimpleName type
+resource builder mock SimpleName MethodInvocation QualifiedName atlas base clientjson media type
+type SimpleName MethodInvocation QualifiedName atlas base clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName resource builder mock
+when SimpleName MethodInvocation MethodInvocation SimpleName type
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas base clientjson media type
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+resource builder mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas base clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName resource builder mock
+resource builder mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+atlas base clientjson media type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName resource builder mock
+then return SimpleName MethodInvocation SimpleName resource builder mock
+private Modifier MethodDeclaration SimpleType QualifiedName web resourcebuilder
+private Modifier MethodDeclaration SimpleName get builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource object
+private Modifier MethodDeclaration Block ReturnStatement SimpleName resource builder mock
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SimpleName get builder
+web resourcebuilder QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource object
+get builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+get builder SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource object
+get builder SimpleName MethodDeclaration Block ReturnStatement SimpleName resource builder mock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+public Modifier TypeDeclaration MethodDeclaration SimpleName get builder
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource object
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName web resourcebuilder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get builder
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource object

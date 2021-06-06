@@ -1,0 +1,58 @@
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName prop
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName prop
+get boolean SimpleName MethodInvocation SimpleName prop
+file SimpleName SimpleType ClassInstanceCreation SimpleName proc mounts
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName exists
+proc mounts SimpleName ClassInstanceCreation MethodInvocation SimpleName exists
+file system monitor SimpleName SimpleType ClassInstanceCreation SimpleName proc mounts
+file system monitor SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+proc mounts SimpleName ClassInstanceCreation NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral filesystem monitor started
+info SimpleName MethodInvocation StringLiteral filesystem monitor started
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to initialize file system monitor
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to initialize file system monitor
+error SimpleName MethodInvocation SimpleName e
+failed to initialize file system monitor StringLiteral MethodInvocation SimpleName e
+not monitoring filesystems StringLiteral InfixExpression SimpleName proc mounts
+not monitoring filesystems StringLiteral InfixExpression StringLiteral does not exists
+proc mounts SimpleName InfixExpression StringLiteral does not exists
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral not monitoring filesystems
+log SimpleName MethodInvocation InfixExpression SimpleName proc mounts
+log SimpleName MethodInvocation InfixExpression StringLiteral does not exists
+info SimpleName MethodInvocation InfixExpression StringLiteral not monitoring filesystems
+info SimpleName MethodInvocation InfixExpression SimpleName proc mounts
+info SimpleName MethodInvocation InfixExpression StringLiteral does not exists
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prop
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName start
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prop
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prop
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop

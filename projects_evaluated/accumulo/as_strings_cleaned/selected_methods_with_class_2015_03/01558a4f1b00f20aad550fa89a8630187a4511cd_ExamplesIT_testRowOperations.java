@@ -1,0 +1,93 @@
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral u
+i StringLiteral ArrayInitializer SimpleName user
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral u
+instance SimpleName ArrayInitializer SimpleName user
+instance SimpleName ArrayInitializer StringLiteral keytab
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral u
+z StringLiteral ArrayInitializer SimpleName user
+z StringLiteral ArrayInitializer StringLiteral keytab
+z StringLiteral ArrayInitializer SimpleName keytab
+keepers SimpleName ArrayInitializer StringLiteral u
+keepers SimpleName ArrayInitializer SimpleName user
+keepers SimpleName ArrayInitializer StringLiteral keytab
+keepers SimpleName ArrayInitializer SimpleName keytab
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral keytab
+u StringLiteral ArrayInitializer SimpleName keytab
+user SimpleName ArrayInitializer StringLiteral keytab
+user SimpleName ArrayInitializer SimpleName keytab
+keytab StringLiteral ArrayInitializer SimpleName keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keytab
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral u
+i StringLiteral ArrayInitializer SimpleName user
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral u
+instance SimpleName ArrayInitializer SimpleName user
+instance SimpleName ArrayInitializer StringLiteral p
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral u
+z StringLiteral ArrayInitializer SimpleName user
+z StringLiteral ArrayInitializer StringLiteral p
+z StringLiteral ArrayInitializer SimpleName passwd
+keepers SimpleName ArrayInitializer StringLiteral u
+keepers SimpleName ArrayInitializer SimpleName user
+keepers SimpleName ArrayInitializer StringLiteral p
+keepers SimpleName ArrayInitializer SimpleName passwd
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral p
+u StringLiteral ArrayInitializer SimpleName passwd
+user SimpleName ArrayInitializer StringLiteral p
+user SimpleName ArrayInitializer SimpleName passwd
+p StringLiteral ArrayInitializer SimpleName passwd
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral p
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName passwd
+good exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName row operations
+good exec SimpleName MethodInvocation SimpleName args
+row operations SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test row operations
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test row operations
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block IfStatement SimpleName sasl enabled
+void PrimitiveType MethodDeclaration SimpleName test row operations
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName sasl enabled
+test row operations SimpleName MethodDeclaration SimpleType SimpleName exception
+test row operations SimpleName MethodDeclaration Block IfStatement SimpleName sasl enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test row operations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test row operations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

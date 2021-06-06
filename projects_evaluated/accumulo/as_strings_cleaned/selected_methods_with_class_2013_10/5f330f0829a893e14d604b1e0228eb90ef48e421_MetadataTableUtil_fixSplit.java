@@ -1,0 +1,256 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName metadata entry
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+column fq SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+incomplete split StringLiteral InfixExpression SimpleName metadata entry
+incomplete split StringLiteral InfixExpression StringLiteral attempting to fix
+metadata entry SimpleName InfixExpression StringLiteral attempting to fix
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral incomplete split
+log SimpleName MethodInvocation InfixExpression SimpleName metadata entry
+log SimpleName MethodInvocation InfixExpression StringLiteral attempting to fix
+info SimpleName MethodInvocation InfixExpression StringLiteral incomplete split
+info SimpleName MethodInvocation InfixExpression SimpleName metadata entry
+info SimpleName MethodInvocation InfixExpression StringLiteral attempting to fix
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyold prev row column
+get SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyold prev row column
+oper SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+oper SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+oper SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablets sectiontablet column familyold prev row column
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oper
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectiontablet column familysplit ratio column
+get SimpleName MethodInvocation QualifiedName tablets sectiontablet column familysplit ratio column
+metadata entry does not have split ratio ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have split ratio ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have split ratio (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectiontablet column familysplit ratio column
+get SimpleName MethodInvocation QualifiedName tablets sectiontablet column familysplit ratio column
+columns SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+tablets sectiontablet column familysplit ratio column QualifiedName MethodInvocation MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+double SimpleName MethodInvocation SimpleName parse double
+double SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+double SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+parse double SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse double SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+split ratio SimpleName VariableDeclarationFragment MethodInvocation SimpleName double
+split ratio SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse double
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName split ratio
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName double
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse double
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyprev row column
+get SimpleName MethodInvocation QualifiedName tablets sectiontablet column familyprev row column
+prev end row ibw SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+prev end row ibw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+prev end row ibw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablets sectiontablet column familyprev row column
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev end row ibw
+metadata entry does not have prev row ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have prev row ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have prev row (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familytime column
+get SimpleName MethodInvocation QualifiedName tablets sectionserver column familytime column
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+time SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablets sectionserver column familytime column
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+metadata entry does not have time ( StringLiteral InfixExpression SimpleName metadata entry
+metadata entry does not have time ( StringLiteral InfixExpression StringLiteral )
+metadata entry SimpleName InfixExpression StringLiteral )
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral metadata entry does not have time (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName metadata entry
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral )
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familyflush column
+get SimpleName MethodInvocation QualifiedName tablets sectionserver column familyflush column
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+flush id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablets sectionserver column familyflush column
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush id
+init flush id SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName init flush id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+flush id SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName flush id
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse long SimpleName MethodInvocation MethodInvocation SimpleName flush id
+parse long SimpleName MethodInvocation MethodInvocation SimpleName to string
+init flush id SimpleName Assignment MethodInvocation SimpleName long
+init flush id SimpleName Assignment MethodInvocation SimpleName parse long
+init flush id SimpleName Assignment MethodInvocation MethodInvocation SimpleName flush id
+init flush id SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation QualifiedName tablets sectionserver column familycompact column
+get SimpleName MethodInvocation QualifiedName tablets sectionserver column familycompact column
+compact id SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+compact id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+compact id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablets sectionserver column familycompact column
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName compact id
+init compact id SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName init compact id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+compact id SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName compact id
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse long SimpleName MethodInvocation MethodInvocation SimpleName compact id
+parse long SimpleName MethodInvocation MethodInvocation SimpleName to string
+init compact id SimpleName Assignment MethodInvocation SimpleName long
+init compact id SimpleName Assignment MethodInvocation SimpleName parse long
+init compact id SimpleName Assignment MethodInvocation MethodInvocation SimpleName compact id
+init compact id SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+key extent SimpleName MethodInvocation SimpleName decode prev end row
+key extent SimpleName MethodInvocation SimpleName prev end row ibw
+decode prev end row SimpleName MethodInvocation SimpleName prev end row ibw
+metadata prev end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+metadata prev end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode prev end row
+metadata prev end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName prev end row ibw
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata prev end row
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName metadata entry
+metadata entry SimpleName ClassInstanceCreation CastExpression SimpleType SimpleName text
+metadata entry SimpleName ClassInstanceCreation ParenthesizedExpression MethodInvocation SimpleName get table id
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+time SimpleName MethodInvocation SimpleName to string
+fix split SimpleName MethodInvocation SimpleName table
+fix split SimpleName MethodInvocation SimpleName metadata entry
+fix split SimpleName MethodInvocation SimpleName metadata prev end row
+fix split SimpleName MethodInvocation SimpleName oper
+fix split SimpleName MethodInvocation SimpleName split ratio
+table SimpleName MethodInvocation SimpleName metadata entry
+table SimpleName MethodInvocation SimpleName metadata prev end row
+table SimpleName MethodInvocation SimpleName oper
+table SimpleName MethodInvocation SimpleName split ratio
+table SimpleName MethodInvocation SimpleName tserver
+metadata entry SimpleName MethodInvocation SimpleName metadata prev end row
+metadata entry SimpleName MethodInvocation SimpleName oper
+metadata entry SimpleName MethodInvocation SimpleName split ratio
+metadata entry SimpleName MethodInvocation SimpleName tserver
+metadata entry SimpleName MethodInvocation SimpleName credentials
+metadata prev end row SimpleName MethodInvocation SimpleName oper
+metadata prev end row SimpleName MethodInvocation SimpleName split ratio
+metadata prev end row SimpleName MethodInvocation SimpleName tserver
+metadata prev end row SimpleName MethodInvocation SimpleName credentials
+metadata prev end row SimpleName MethodInvocation MethodInvocation SimpleName time
+metadata prev end row SimpleName MethodInvocation MethodInvocation SimpleName to string
+oper SimpleName MethodInvocation SimpleName split ratio
+oper SimpleName MethodInvocation SimpleName tserver
+oper SimpleName MethodInvocation SimpleName credentials
+oper SimpleName MethodInvocation MethodInvocation SimpleName time
+oper SimpleName MethodInvocation MethodInvocation SimpleName to string
+oper SimpleName MethodInvocation SimpleName init flush id
+split ratio SimpleName MethodInvocation SimpleName tserver
+split ratio SimpleName MethodInvocation SimpleName credentials
+split ratio SimpleName MethodInvocation MethodInvocation SimpleName time
+split ratio SimpleName MethodInvocation MethodInvocation SimpleName to string
+split ratio SimpleName MethodInvocation SimpleName init flush id
+split ratio SimpleName MethodInvocation SimpleName init compact id
+tserver SimpleName MethodInvocation SimpleName credentials
+tserver SimpleName MethodInvocation MethodInvocation SimpleName time
+tserver SimpleName MethodInvocation MethodInvocation SimpleName to string
+tserver SimpleName MethodInvocation SimpleName init flush id
+tserver SimpleName MethodInvocation SimpleName init compact id
+tserver SimpleName MethodInvocation SimpleName lock
+credentials SimpleName MethodInvocation MethodInvocation SimpleName time
+credentials SimpleName MethodInvocation MethodInvocation SimpleName to string
+credentials SimpleName MethodInvocation SimpleName init flush id
+credentials SimpleName MethodInvocation SimpleName init compact id
+credentials SimpleName MethodInvocation SimpleName lock
+time SimpleName MethodInvocation MethodInvocation SimpleName init flush id
+to string SimpleName MethodInvocation MethodInvocation SimpleName init flush id
+time SimpleName MethodInvocation MethodInvocation SimpleName init compact id
+to string SimpleName MethodInvocation MethodInvocation SimpleName init compact id
+time SimpleName MethodInvocation MethodInvocation SimpleName lock
+to string SimpleName MethodInvocation MethodInvocation SimpleName lock
+init flush id SimpleName MethodInvocation SimpleName init compact id
+init flush id SimpleName MethodInvocation SimpleName lock
+init compact id SimpleName MethodInvocation SimpleName lock
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName fix split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SimpleName fix split
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+key extent SimpleName SimpleType MethodDeclaration SimpleName fix split
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName columns
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tserver
+key extent SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+fix split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+metadata entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+columns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+columns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+columns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+columns SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+columns SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+public Modifier TypeDeclaration MethodDeclaration SimpleName fix split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fix split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

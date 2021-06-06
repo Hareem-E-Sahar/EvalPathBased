@@ -1,0 +1,261 @@
+hive db StringLiteral ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer NumberLiteral empty
+hive table StringLiteral ArrayInitializer NumberLiteral empty
+hive column StringLiteral ArrayInitializer NumberLiteral empty
+hive storagedesc StringLiteral ArrayInitializer NumberLiteral empty
+manager StringLiteral ArrayInitializer NumberLiteral empty
+employee StringLiteral ArrayInitializer NumberLiteral empty
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive process
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive process
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive table
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive table
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+hive db StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive table
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive table
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+hive process StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive column
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+hive table StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral hive storagedesc
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+hive column StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive storagedesc StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+hive storagedesc StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral manager
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+hive storagedesc StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+hive storagedesc StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+manager StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+manager StringLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer StringLiteral employee
+empty NumberLiteral ArrayInitializer ArrayInitializer ArrayInitializer NumberLiteral empty
+polling attempts SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName polling attempts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+polling backoff SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName polling backoff
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName success
+attempt SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName attempt
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+attempt SimpleName InfixExpression SimpleName polling attempts
+attempt SimpleName InfixExpression NumberLiteral empty
+polling backoff SimpleName Assignment InfixExpression SimpleName attempt
+polling backoff SimpleName Assignment InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral polling -- attempt {} backoff {}
+log SimpleName MethodInvocation SimpleName attempt
+log SimpleName MethodInvocation SimpleName polling backoff
+debug SimpleName MethodInvocation StringLiteral polling -- attempt {} backoff {}
+debug SimpleName MethodInvocation SimpleName attempt
+debug SimpleName MethodInvocation SimpleName polling backoff
+polling -- attempt {} backoff {} StringLiteral MethodInvocation SimpleName attempt
+polling -- attempt {} backoff {} StringLiteral MethodInvocation SimpleName polling backoff
+attempt SimpleName MethodInvocation SimpleName polling backoff
+success SimpleName Assignment BooleanLiteral false
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName verification query
+verification query SimpleName ArrayAccess NumberLiteral empty
+string SimpleName SimpleType CastExpression ArrayAccess SimpleName verification query
+string SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+query SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+query SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName verification query
+query SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+verification query SimpleName ArrayAccess NumberLiteral empty
+int PrimitiveType CastExpression ArrayAccess SimpleName verification query
+int PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+expected SimpleName VariableDeclarationFragment CastExpression PrimitiveType int
+expected SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName verification query
+expected SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType int
+discovery service SimpleName MethodInvocation SimpleName search using dsl query
+discovery service SimpleName MethodInvocation SimpleName query
+discovery service SimpleName MethodInvocation NumberLiteral empty
+discovery service SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation SimpleName query
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName search using dsl query
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+result SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas search result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get entities
+result SimpleName MethodInvocation SimpleName get entities
+result SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get entities SimpleName MethodInvocation MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral dsl {} returned no entities
+log SimpleName MethodInvocation SimpleName query
+warn SimpleName MethodInvocation StringLiteral dsl {} returned no entities
+warn SimpleName MethodInvocation SimpleName query
+dsl {} returned no entities StringLiteral MethodInvocation SimpleName query
+success SimpleName Assignment BooleanLiteral false
+result SimpleName MethodInvocation SimpleName get entities
+result SimpleName MethodInvocation MethodInvocation SimpleName size
+get entities SimpleName MethodInvocation MethodInvocation SimpleName size
+result SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+get entities SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName expected
+size SimpleName MethodInvocation InfixExpression SimpleName expected
+result SimpleName MethodInvocation SimpleName get entities
+result SimpleName MethodInvocation MethodInvocation SimpleName size
+get entities SimpleName MethodInvocation MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral dsl {} returned unexpected number of entities expected {} actual {}
+log SimpleName MethodInvocation SimpleName query
+log SimpleName MethodInvocation SimpleName expected
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entities
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+warn SimpleName MethodInvocation StringLiteral dsl {} returned unexpected number of entities expected {} actual {}
+warn SimpleName MethodInvocation SimpleName query
+warn SimpleName MethodInvocation SimpleName expected
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entities
+warn SimpleName MethodInvocation MethodInvocation SimpleName size
+dsl {} returned unexpected number of entities expected {} actual {} StringLiteral MethodInvocation SimpleName query
+dsl {} returned unexpected number of entities expected {} actual {} StringLiteral MethodInvocation SimpleName expected
+dsl {} returned unexpected number of entities expected {} actual {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName result
+dsl {} returned unexpected number of entities expected {} actual {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get entities
+dsl {} returned unexpected number of entities expected {} actual {} StringLiteral MethodInvocation MethodInvocation SimpleName size
+query SimpleName MethodInvocation SimpleName expected
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entities
+query SimpleName MethodInvocation MethodInvocation SimpleName size
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entities
+expected SimpleName MethodInvocation MethodInvocation SimpleName size
+success SimpleName Assignment BooleanLiteral false
+success SimpleName Assignment BooleanLiteral true
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get atlas error code
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral got exception for dsl {} error code {}
+log SimpleName MethodInvocation SimpleName query
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get atlas error code
+error SimpleName MethodInvocation StringLiteral got exception for dsl {} error code {}
+error SimpleName MethodInvocation SimpleName query
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName get atlas error code
+got exception for dsl {} error code {} StringLiteral MethodInvocation SimpleName query
+got exception for dsl {} error code {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+got exception for dsl {} error code {} StringLiteral MethodInvocation MethodInvocation SimpleName get atlas error code
+query SimpleName MethodInvocation MethodInvocation SimpleName e
+query SimpleName MethodInvocation MethodInvocation SimpleName get atlas error code
+wait or bailout SimpleName MethodInvocation SimpleName polling attempts
+wait or bailout SimpleName MethodInvocation SimpleName polling backoff
+wait or bailout SimpleName MethodInvocation SimpleName attempt
+polling attempts SimpleName MethodInvocation SimpleName polling backoff
+polling attempts SimpleName MethodInvocation SimpleName attempt
+polling backoff SimpleName MethodInvocation SimpleName attempt
+verification query SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName basic verification queries
+basic verification queries SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral polling was success
+info SimpleName MethodInvocation StringLiteral polling was success
+wait or bailout SimpleName MethodInvocation SimpleName polling attempts
+wait or bailout SimpleName MethodInvocation SimpleName polling backoff
+wait or bailout SimpleName MethodInvocation SimpleName attempt
+polling attempts SimpleName MethodInvocation SimpleName polling backoff
+polling attempts SimpleName MethodInvocation SimpleName attempt
+polling backoff SimpleName MethodInvocation SimpleName attempt
+basic verification queries SimpleName EnhancedForStatement Block IfStatement SimpleName success
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName attempt
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName polling attempts
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName attempt
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName polling backoff
+attempt SimpleName InfixExpression ForStatement PostfixExpression SimpleName attempt
+polling attempts SimpleName InfixExpression ForStatement PostfixExpression SimpleName attempt
+attempt SimpleName InfixExpression ForStatement Assignment SimpleName polling backoff
+polling attempts SimpleName InfixExpression ForStatement Assignment SimpleName polling backoff
+attempt SimpleName PostfixExpression ForStatement Assignment SimpleName polling backoff
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName poll for data
+private Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName poll for data
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+poll for data SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+poll for data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+poll for data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+poll for data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName poll for data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName poll for data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

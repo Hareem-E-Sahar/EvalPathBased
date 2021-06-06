@@ -1,0 +1,53 @@
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+a SimpleName VariableDeclarationFragment FieldAccess SimpleName attribute defs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName a
+is not empty SimpleName MethodInvocation SimpleName a
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName existing attr def
+existing attr def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation MethodInvocation SimpleName existing attr def
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName existing attr def
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+existing attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+existing attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+tmp list SimpleName MethodInvocation SimpleName add
+tmp list SimpleName MethodInvocation SimpleName existing attr def
+add SimpleName MethodInvocation SimpleName existing attr def
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName a
+existing attr def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName a
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName attribute def
+tmp list SimpleName MethodInvocation SimpleName add
+tmp list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+tmp list SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+attribute defs SimpleName FieldAccess Assignment SimpleName tmp list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+void PrimitiveType MethodDeclaration SimpleName add attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+add attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+add attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def

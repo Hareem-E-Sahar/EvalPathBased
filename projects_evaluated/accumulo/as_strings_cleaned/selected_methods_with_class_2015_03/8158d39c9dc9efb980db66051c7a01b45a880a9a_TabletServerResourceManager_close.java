@@ -1,0 +1,27 @@
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral closed
+closed SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral closed
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral tired to close files while open files reserved
+open files reserved SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral tired to close files while open files reserved
+mem mgmt SimpleName MethodInvocation SimpleName tablet closed
+mem mgmt SimpleName MethodInvocation SimpleName extent
+tablet closed SimpleName MethodInvocation SimpleName extent
+memory manager SimpleName MethodInvocation SimpleName tablet closed
+memory manager SimpleName MethodInvocation SimpleName extent
+tablet closed SimpleName MethodInvocation SimpleName extent
+closed SimpleName Assignment BooleanLiteral true
+closed SimpleName IfStatement Block IfStatement SimpleName open files reserved
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

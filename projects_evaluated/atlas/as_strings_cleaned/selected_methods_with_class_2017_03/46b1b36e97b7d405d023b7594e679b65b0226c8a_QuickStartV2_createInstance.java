@@ -1,0 +1,104 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName trait names
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName entity
+atlas client v SimpleName MethodInvocation SimpleName create entity
+atlas client v SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+atlas client v SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+create entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+create entity SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName entity
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+response SimpleName MethodInvocation SimpleName get entities by operation
+response SimpleName MethodInvocation QualifiedName entity operationcreate
+get entities by operation SimpleName MethodInvocation QualifiedName entity operationcreate
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entities by operation
+entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity operationcreate
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entities
+is not empty SimpleName MethodInvocation SimpleName entities
+entities SimpleName MethodInvocation SimpleName get
+entities SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+atlas client v SimpleName MethodInvocation SimpleName get entity by guid
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity by guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities
+get entity by guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get entity by guid SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get entity by guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get by guid response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+get by guid response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity by guid
+get by guid response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName get by guid response
+get by guid response SimpleName MethodInvocation SimpleName get entity
+ret SimpleName Assignment MethodInvocation SimpleName get by guid response
+ret SimpleName Assignment MethodInvocation SimpleName get entity
+ret SimpleName MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation SimpleName get guid
+created entity of type [ StringLiteral InfixExpression MethodInvocation SimpleName ret
+created entity of type [ StringLiteral InfixExpression MethodInvocation SimpleName get type name
+created entity of type [ StringLiteral InfixExpression StringLiteral ] guid
+created entity of type [ StringLiteral InfixExpression MethodInvocation SimpleName ret
+created entity of type [ StringLiteral InfixExpression MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation InfixExpression StringLiteral ] guid
+get type name SimpleName MethodInvocation InfixExpression StringLiteral ] guid
+ret SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+get type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+] guid StringLiteral InfixExpression MethodInvocation SimpleName ret
+] guid StringLiteral InfixExpression MethodInvocation SimpleName get guid
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral created entity of type [
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get type name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ] guid
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+println SimpleName MethodInvocation InfixExpression StringLiteral created entity of type [
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type name
+println SimpleName MethodInvocation InfixExpression StringLiteral ] guid
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ret
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName create instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait names
+private Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create instance
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait names
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+create instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+create instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait names
+create instance SimpleName MethodDeclaration SimpleType SimpleName exception
+create instance SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+trait names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

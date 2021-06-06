@@ -1,0 +1,66 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName d t
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+d t SimpleName MethodInvocation SimpleName get type category
+d t SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+data typesarray type QualifiedName SimpleType CastExpression SimpleName d t
+d t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get elem type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elem type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem type
+process collection SimpleName MethodInvocation SimpleName elem type
+process collection SimpleName MethodInvocation SimpleName val
+elem type SimpleName MethodInvocation SimpleName val
+d t SimpleName MethodInvocation SimpleName get type category
+d t SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorymap
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorymap
+data typesmap type QualifiedName SimpleType CastExpression SimpleName d t
+d t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+data typesmap type QualifiedName SimpleType CastExpression SimpleName d t
+d t SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+process map SimpleName MethodInvocation SimpleName key type
+process map SimpleName MethodInvocation SimpleName value type
+process map SimpleName MethodInvocation SimpleName val
+key type SimpleName MethodInvocation SimpleName value type
+key type SimpleName MethodInvocation SimpleName val
+value type SimpleName MethodInvocation SimpleName val
+d t SimpleName MethodInvocation SimpleName get type category
+d t SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+d t SimpleName MethodInvocation SimpleName get type category
+d t SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+data typestype categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data typestype categorytrait
+process struct SimpleName MethodInvocation SimpleName val
+d t SimpleName MethodInvocation SimpleName get type category
+d t SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+process referenceable instance SimpleName MethodInvocation SimpleName val
+void PrimitiveType MethodDeclaration SimpleName process value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName d t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+process value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+process value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d t
+process value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+process value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+process value SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+d t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+d t SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

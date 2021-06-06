@@ -1,0 +1,77 @@
+current location SimpleName MethodInvocation SimpleName get block index
+cur bid SimpleName VariableDeclarationFragment MethodInvocation SimpleName current location
+cur bid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur bid
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current location
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get block index
+current location SimpleName MethodInvocation SimpleName get record index
+cur rid SimpleName VariableDeclarationFragment MethodInvocation SimpleName current location
+cur rid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record index
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur rid
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current location
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get record index
+reader SimpleName MethodInvocation SimpleName get block entry count
+reader SimpleName MethodInvocation SimpleName cur bid
+get block entry count SimpleName MethodInvocation SimpleName cur bid
+entries in block SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+entries in block SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block entry count
+entries in block SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur bid
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entries in block
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName reader
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get block entry count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cur bid
+cur rid SimpleName InfixExpression NumberLiteral empty
+cur rid SimpleName InfixExpression InfixExpression SimpleName entries in block
+empty NumberLiteral InfixExpression InfixExpression SimpleName entries in block
+cur bid SimpleName InfixExpression NumberLiteral empty
+end location SimpleName MethodInvocation SimpleName compare to
+end location SimpleName MethodInvocation InfixExpression SimpleName cur bid
+end location SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end location SimpleName MethodInvocation NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression SimpleName cur bid
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation NumberLiteral empty
+cur bid SimpleName InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+end location SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cur bid SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+cur bid SimpleName InfixExpression NumberLiteral empty
+init block SimpleName MethodInvocation InfixExpression SimpleName cur bid
+init block SimpleName MethodInvocation InfixExpression NumberLiteral empty
+in block advance SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName advance
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName advance
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+advance SimpleName MethodDeclaration SimpleType SimpleName io exception
+advance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+advance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+advance SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+advance SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName advance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName advance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

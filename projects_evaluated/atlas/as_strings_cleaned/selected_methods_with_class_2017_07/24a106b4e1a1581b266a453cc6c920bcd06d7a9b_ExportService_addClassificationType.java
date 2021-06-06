@@ -1,0 +1,57 @@
+atlas classification type SimpleName SimpleType SingleVariableDeclaration SimpleName classification type
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+classification type SimpleName MethodInvocation SimpleName get type name
+contextclassification types QualifiedName MethodInvocation SimpleName contains
+contextclassification types QualifiedName MethodInvocation MethodInvocation SimpleName classification type
+contextclassification types QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName classification type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification type SimpleName MethodInvocation SimpleName get type name
+contextclassification types QualifiedName MethodInvocation SimpleName add
+contextclassification types QualifiedName MethodInvocation MethodInvocation SimpleName classification type
+contextclassification types QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName classification type
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add attribute types SimpleName MethodInvocation SimpleName classification type
+add attribute types SimpleName MethodInvocation SimpleName context
+classification type SimpleName MethodInvocation SimpleName context
+classification type SimpleName MethodInvocation SimpleName get all super types
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName classification type
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get all super types
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName classification type
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get all super types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+classification type SimpleName MethodInvocation SimpleName get all super types
+add classification type SimpleName MethodInvocation SimpleName super type
+add classification type SimpleName MethodInvocation SimpleName context
+super type SimpleName MethodInvocation SimpleName context
+super type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName classification type
+super type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all super types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add classification type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName add classification type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+add classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification type
+add classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification type
+add classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+classification type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add classification type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add classification type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

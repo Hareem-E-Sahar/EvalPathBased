@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName get un resolved entity references
+public Modifier MethodDeclaration Block ReturnStatement SimpleName unresolved entity references
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get un resolved entity references
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get un resolved entity references
+get un resolved entity references SimpleName MethodDeclaration Block ReturnStatement SimpleName unresolved entity references
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get un resolved entity references
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get un resolved entity references

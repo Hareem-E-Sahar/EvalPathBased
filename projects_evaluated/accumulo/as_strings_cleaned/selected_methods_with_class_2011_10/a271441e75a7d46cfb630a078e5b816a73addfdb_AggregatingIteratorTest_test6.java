@@ -1,0 +1,172 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation StringLiteral empty
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation StringLiteral empty
+nkv SimpleName MethodInvocation SimpleName tm
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+nkv SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation NumberLiteral empty
+tm SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral empty
+false BooleanLiteral MethodInvocation StringLiteral empty
+ai SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName aggregating iterator
+aggregating iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ai
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+summation aggregator SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName put
+opts SimpleName MethodInvocation StringLiteral cf
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+cf StringLiteral MethodInvocation MethodInvocation SimpleName get name
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+ai SimpleName MethodInvocation SimpleName init
+ai SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+ai SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+ai SimpleName MethodInvocation SimpleName opts
+ai SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation SimpleName opts
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+sorted map iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+tm SimpleName ClassInstanceCreation MethodInvocation SimpleName opts
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName default iterator environment
+nr SimpleName MethodInvocation NumberLiteral empty
+nr SimpleName MethodInvocation NumberLiteral empty
+nr SimpleName MethodInvocation NumberLiteral empty
+nr SimpleName MethodInvocation NumberLiteral empty
+nr SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation BooleanLiteral false
+ai SimpleName MethodInvocation SimpleName seek
+ai SimpleName MethodInvocation MethodInvocation SimpleName nr
+ai SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+ai SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+ai SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+ai SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+ai SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+ai SimpleName MethodInvocation SimpleName empty col fams
+ai SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation MethodInvocation SimpleName nr
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation SimpleName empty col fams
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName empty col fams
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName empty col fams
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName empty col fams
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName empty col fams
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName empty col fams
+nr SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+ai SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName ai
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

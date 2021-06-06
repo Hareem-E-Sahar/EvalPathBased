@@ -1,0 +1,35 @@
+zookeeper entries SimpleName MethodInvocation SimpleName has next
+zookeeper entries SimpleName MethodInvocation SimpleName next
+root table entries SimpleName MethodInvocation SimpleName has next
+root table entries SimpleName MethodInvocation SimpleName next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+metadata entries SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata entries
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+entry from key value SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+entry from key value SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName log entry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName log entry
+public Modifier MethodDeclaration SimpleName next
+log entry SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName log entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName log entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

@@ -1,0 +1,223 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName database instance
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName table type
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName classification
+table type SimpleName ClassInstanceCreation SimpleName classification
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table type
+table instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName classification
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table instance
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral name
+table instance SimpleName MethodInvocation SimpleName table name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName table name
+name StringLiteral MethodInvocation SimpleName table name
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral description
+table instance SimpleName MethodInvocation StringLiteral bar table
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral bar table
+description StringLiteral MethodInvocation StringLiteral bar table
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral type
+table instance SimpleName MethodInvocation StringLiteral managed
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral managed
+type StringLiteral MethodInvocation StringLiteral managed
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral table type
+table instance SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral table type
+set SimpleName MethodInvocation NumberLiteral empty
+table type StringLiteral MethodInvocation NumberLiteral empty
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral database
+table instance SimpleName MethodInvocation SimpleName database instance
+set SimpleName MethodInvocation StringLiteral database
+set SimpleName MethodInvocation SimpleName database instance
+database StringLiteral MethodInvocation SimpleName database instance
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+column names SimpleName MethodInvocation SimpleName add
+column names SimpleName MethodInvocation StringLiteral first name
+add SimpleName MethodInvocation StringLiteral first name
+column names SimpleName MethodInvocation SimpleName add
+column names SimpleName MethodInvocation StringLiteral last name
+add SimpleName MethodInvocation StringLiteral last name
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral column names
+table instance SimpleName MethodInvocation SimpleName column names
+set SimpleName MethodInvocation StringLiteral column names
+set SimpleName MethodInvocation SimpleName column names
+column names StringLiteral MethodInvocation SimpleName column names
+table instance SimpleName MethodInvocation SimpleName get trait
+table instance SimpleName MethodInvocation SimpleName classification
+get trait SimpleName MethodInvocation SimpleName classification
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName table instance
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get trait
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName classification
+trait instance SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table instance
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get trait
+trait instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName classification
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+trait instance SimpleName MethodInvocation SimpleName set
+trait instance SimpleName MethodInvocation StringLiteral tag
+trait instance SimpleName MethodInvocation StringLiteral foundation etl
+set SimpleName MethodInvocation StringLiteral tag
+set SimpleName MethodInvocation StringLiteral foundation etl
+tag StringLiteral MethodInvocation StringLiteral foundation etl
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde instance
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral name
+serde instance SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation StringLiteral serde
+name StringLiteral MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral serde
+serde StringLiteral MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName serde instance
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation SimpleName serde instance
+serde StringLiteral MethodInvocation SimpleName serde instance
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+serde instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde instance
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral name
+serde instance SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation StringLiteral serde
+name StringLiteral MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation SimpleName set
+serde instance SimpleName MethodInvocation StringLiteral serde
+serde instance SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation StringLiteral serde
+serde StringLiteral MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral serde
+table instance SimpleName MethodInvocation SimpleName serde instance
+set SimpleName MethodInvocation StringLiteral serde
+set SimpleName MethodInvocation SimpleName serde instance
+serde StringLiteral MethodInvocation SimpleName serde instance
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+referenceable SimpleName SimpleType ClassInstanceCreation StringLiteral column type
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+column instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral column type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column instance
+column StringLiteral InfixExpression SimpleName index
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral name
+column instance SimpleName MethodInvocation InfixExpression StringLiteral column
+column instance SimpleName MethodInvocation InfixExpression SimpleName index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral column
+set SimpleName MethodInvocation InfixExpression SimpleName index
+name StringLiteral MethodInvocation InfixExpression StringLiteral column
+name StringLiteral MethodInvocation InfixExpression SimpleName index
+column instance SimpleName MethodInvocation SimpleName set
+column instance SimpleName MethodInvocation StringLiteral type
+column instance SimpleName MethodInvocation StringLiteral string
+set SimpleName MethodInvocation StringLiteral type
+set SimpleName MethodInvocation StringLiteral string
+type StringLiteral MethodInvocation StringLiteral string
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation SimpleName column instance
+add SimpleName MethodInvocation SimpleName column instance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral columns
+table instance SimpleName MethodInvocation SimpleName columns
+set SimpleName MethodInvocation StringLiteral columns
+set SimpleName MethodInvocation SimpleName columns
+columns StringLiteral MethodInvocation SimpleName columns
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+index SimpleName InfixExpression NumberLiteral empty
+struct SimpleName SimpleType ClassInstanceCreation StringLiteral partition type
+partition instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+partition instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral partition type
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition instance
+partition StringLiteral InfixExpression SimpleName index
+partition instance SimpleName MethodInvocation SimpleName set
+partition instance SimpleName MethodInvocation StringLiteral name
+partition instance SimpleName MethodInvocation InfixExpression StringLiteral partition
+partition instance SimpleName MethodInvocation InfixExpression SimpleName index
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation InfixExpression StringLiteral partition
+set SimpleName MethodInvocation InfixExpression SimpleName index
+name StringLiteral MethodInvocation InfixExpression StringLiteral partition
+name StringLiteral MethodInvocation InfixExpression SimpleName index
+partitions SimpleName MethodInvocation SimpleName add
+partitions SimpleName MethodInvocation SimpleName partition instance
+add SimpleName MethodInvocation SimpleName partition instance
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName index
+table instance SimpleName MethodInvocation SimpleName set
+table instance SimpleName MethodInvocation StringLiteral partitions
+table instance SimpleName MethodInvocation SimpleName partitions
+set SimpleName MethodInvocation StringLiteral partitions
+set SimpleName MethodInvocation SimpleName partitions
+partitions StringLiteral MethodInvocation SimpleName partitions
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName table type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName table type
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName table type
+table type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+table type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+table type SimpleName VariableDeclarationFragment MethodInvocation SimpleName table type
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table type
+table type SimpleName MethodInvocation SimpleName convert
+table type SimpleName MethodInvocation SimpleName table instance
+table type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName table instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+table instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+private Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName create hive table instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database instance
+private Modifier MethodDeclaration SimpleType SimpleName exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName create hive table instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName database instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create hive table instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database instance
+create hive table instance SimpleName MethodDeclaration SimpleType SimpleName exception
+database instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive table instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive table instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,66 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collections SimpleName MethodInvocation SimpleName empty set
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty set
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName classification name
+singleton SimpleName MethodInvocation SimpleName classification name
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName singleton
+ret SimpleName Assignment MethodInvocation SimpleName classification name
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName classification name
+get classification type by name SimpleName MethodInvocation SimpleName classification name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+classification type SimpleName MethodInvocation SimpleName get type and all super types
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName classification name
+singleton SimpleName MethodInvocation SimpleName classification name
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName classification type
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type and all super types
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName collections
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName singleton
+classification type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName classification name
+classification type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+classification type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+classification type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName classification name
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName classification name
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get classification type and all super types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification type and all super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification type and all super types
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+get classification type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+get classification type and all super types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get classification type and all super types SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification type and all super types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification type and all super types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry

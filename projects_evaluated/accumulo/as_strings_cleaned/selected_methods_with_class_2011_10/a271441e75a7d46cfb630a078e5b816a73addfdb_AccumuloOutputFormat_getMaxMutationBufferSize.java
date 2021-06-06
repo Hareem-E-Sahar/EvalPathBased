@@ -1,0 +1,36 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName get long
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get long
+job SimpleName MethodInvocation MethodInvocation SimpleName max mutation buffer size
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName max mutation buffer size
+job SimpleName MethodInvocation MethodInvocation SimpleName default max mutation buffer size
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName default max mutation buffer size
+get long SimpleName MethodInvocation SimpleName max mutation buffer size
+get long SimpleName MethodInvocation SimpleName default max mutation buffer size
+max mutation buffer size SimpleName MethodInvocation SimpleName default max mutation buffer size
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SimpleName get max mutation buffer size
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get max mutation buffer size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+long PrimitiveType MethodDeclaration SimpleName get max mutation buffer size
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+get max mutation buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get max mutation buffer size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max mutation buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max mutation buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

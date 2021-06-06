@@ -1,0 +1,51 @@
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName classification def
+classification def SimpleName MethodInvocation SimpleName get name
+get legacy type name for struct def SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get legacy type name for struct def SimpleName MethodInvocation MethodInvocation SimpleName get name
+legacy type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get legacy type name for struct def
+legacy type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification def
+legacy type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName legacy type name
+classification def SimpleName MethodInvocation SimpleName get description
+classification def SimpleName MethodInvocation SimpleName get type version
+classification def SimpleName MethodInvocation SimpleName get attribute defs
+get default attribute defs if necessary SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get default attribute defs if necessary SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+atlas struct def SimpleName SimpleType ClassInstanceCreation SimpleName legacy type name
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification def
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get description
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification def
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type version
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+legacy type name SimpleName ClassInstanceCreation MethodInvocation SimpleName classification def
+legacy type name SimpleName ClassInstanceCreation MethodInvocation SimpleName get description
+legacy type name SimpleName ClassInstanceCreation MethodInvocation SimpleName classification def
+legacy type name SimpleName ClassInstanceCreation MethodInvocation SimpleName get type version
+legacy type name SimpleName ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+legacy type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName classification def
+legacy type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get attribute defs
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification def
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+get description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName classification def
+get description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type version
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+get description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+get type version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get default attribute defs if necessary
+private Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+private Modifier MethodDeclaration SimpleName get struct def from classification def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification def
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName get struct def from classification def
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification def
+get struct def from classification def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification def
+get struct def from classification def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct def from classification def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct def from classification def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification def

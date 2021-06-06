@@ -1,0 +1,198 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+bw opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+random batch writer SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName bw opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName bw opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+args SimpleName MethodInvocation SimpleName bw opts
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType ClassInstanceCreation QualifiedName optsseed
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName random
+r SimpleName Assignment ClassInstanceCreation QualifiedName optsseed
+opts SimpleName MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+bw opts SimpleName MethodInvocation SimpleName get batch writer config
+connector SimpleName MethodInvocation SimpleName create batch writer
+connector SimpleName MethodInvocation QualifiedName optstable name
+connector SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+connector SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName optstable name
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+optstable name QualifiedName MethodInvocation MethodInvocation SimpleName bw opts
+optstable name QualifiedName MethodInvocation MethodInvocation SimpleName get batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optstable name
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bw opts
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get batch writer config
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+cv SimpleName VariableDeclarationFragment QualifiedName optsvisiblity
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName optsvisiblity
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName optsnum
+r SimpleName MethodInvocation SimpleName next long
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation MethodInvocation SimpleName r
+math SimpleName MethodInvocation MethodInvocation SimpleName next long
+abs SimpleName MethodInvocation MethodInvocation SimpleName r
+abs SimpleName MethodInvocation MethodInvocation SimpleName next long
+optsmax QualifiedName InfixExpression QualifiedName optsmin
+rowid SimpleName VariableDeclarationFragment InfixExpression QualifiedName optsmin
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rowid
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName optsmin
+create mutation SimpleName MethodInvocation SimpleName rowid
+create mutation SimpleName MethodInvocation QualifiedName optssize
+create mutation SimpleName MethodInvocation SimpleName cv
+rowid SimpleName MethodInvocation QualifiedName optssize
+rowid SimpleName MethodInvocation SimpleName cv
+optssize QualifiedName MethodInvocation SimpleName cv
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mutation
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName rowid
+m SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optssize
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName cv
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName optsnum
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+optsnum QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+bw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get authorization failures
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get authorization failures SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get authorization failures SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+e SimpleName MethodInvocation SimpleName get authorization failures
+e SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get authorization failures SimpleName MethodInvocation MethodInvocation SimpleName entry set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+ke SimpleName MethodInvocation SimpleName get key
+ke SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get SimpleName MethodInvocation MethodInvocation SimpleName to string
+sec codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+sec codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sec codes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+ke SimpleName MethodInvocation SimpleName get key
+ke SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName put
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName sec codes
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName sec codes
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sec codes
+to string SimpleName MethodInvocation MethodInvocation SimpleName sec codes
+ke SimpleName MethodInvocation SimpleName get value
+sec codes SimpleName MethodInvocation SimpleName add all
+sec codes SimpleName MethodInvocation MethodInvocation SimpleName ke
+sec codes SimpleName MethodInvocation MethodInvocation SimpleName get value
+add all SimpleName MethodInvocation MethodInvocation SimpleName ke
+add all SimpleName MethodInvocation MethodInvocation SimpleName get value
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+error : not authorized to write to tables : StringLiteral InfixExpression SimpleName tables
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error : not authorized to write to tables :
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName tables
+println SimpleName MethodInvocation InfixExpression StringLiteral error : not authorized to write to tables :
+println SimpleName MethodInvocation InfixExpression SimpleName tables
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+error : constraint violations occurred : StringLiteral InfixExpression MethodInvocation SimpleName e
+error : constraint violations occurred : StringLiteral InfixExpression MethodInvocation SimpleName get constraint violation summaries
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error : constraint violations occurred :
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get constraint violation summaries
+println SimpleName MethodInvocation InfixExpression StringLiteral error : constraint violations occurred :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get constraint violation summaries
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+main SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+main SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

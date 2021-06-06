@@ -1,0 +1,46 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName InfixExpression StringLiteral cannot be null
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot be null
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName not null
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName not null
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName not null
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName obj
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName name
+t SimpleName SimpleType MethodDeclaration SimpleName not null
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+not null SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+not null SimpleName MethodDeclaration Block ReturnStatement SimpleName obj
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName not null
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName not null
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

@@ -1,0 +1,226 @@
+tables SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName instance operations
+propertytserv majc maxconcurrent QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral empty
+instance operations SimpleName MethodInvocation MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+propertytserv majc maxconcurrent QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test ingestopts
+test ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+empty NumberLiteral InfixExpression NumberLiteral empty
+optsrows QualifiedName Assignment InfixExpression NumberLiteral empty
+optsrows QualifiedName Assignment InfixExpression NumberLiteral empty
+optscreate table QualifiedName Assignment BooleanLiteral true
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+flush SimpleName MethodInvocation StringLiteral test ingest
+flush SimpleName MethodInvocation BooleanLiteral true
+test ingest StringLiteral MethodInvocation BooleanLiteral true
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName tables
+c SimpleName MethodInvocation SimpleName table operations
+test ingest StringLiteral InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+clone SimpleName MethodInvocation StringLiteral test ingest
+clone SimpleName MethodInvocation InfixExpression StringLiteral test ingest
+clone SimpleName MethodInvocation InfixExpression SimpleName i
+clone SimpleName MethodInvocation BooleanLiteral true
+test ingest StringLiteral MethodInvocation InfixExpression StringLiteral test ingest
+test ingest StringLiteral MethodInvocation InfixExpression SimpleName i
+test ingest StringLiteral MethodInvocation BooleanLiteral true
+test ingest StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+i SimpleName InfixExpression MethodInvocation BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName tables
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+tables SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+password token SimpleName SimpleType ClassInstanceCreation SimpleName root password
+credentials SimpleName SimpleType ClassInstanceCreation StringLiteral root
+credentials SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName root password
+root StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName root password
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName credentials
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral root
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName root password
+credentials SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName creds
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName tables
+c SimpleName MethodInvocation SimpleName table operations
+test ingest StringLiteral InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation SimpleName compact
+table operations SimpleName MethodInvocation MethodInvocation SimpleName compact
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation InfixExpression StringLiteral test ingest
+compact SimpleName MethodInvocation InfixExpression SimpleName i
+compact SimpleName MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation BooleanLiteral false
+test ingest StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+i SimpleName InfixExpression MethodInvocation BooleanLiteral true
+test ingest StringLiteral InfixExpression MethodInvocation BooleanLiteral false
+i SimpleName InfixExpression MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName tables
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+tables SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+master monitor info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stats
+c SimpleName MethodInvocation SimpleName get instance
+master client SimpleName MethodInvocation SimpleName get connection with retry
+master client SimpleName MethodInvocation MethodInvocation SimpleName c
+master client SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get connection with retry SimpleName MethodInvocation MethodInvocation SimpleName c
+get connection with retry SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection with retry
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName c
+client SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+tracer SimpleName MethodInvocation SimpleName trace info
+c SimpleName MethodInvocation SimpleName get instance
+creds SimpleName MethodInvocation SimpleName to thrift
+creds SimpleName MethodInvocation MethodInvocation SimpleName c
+creds SimpleName MethodInvocation MethodInvocation SimpleName get instance
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName c
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client SimpleName MethodInvocation SimpleName get master stats
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName creds
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName creds
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+get master stats SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+stats SimpleName Assignment MethodInvocation SimpleName client
+stats SimpleName Assignment MethodInvocation SimpleName get master stats
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName tracer
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName trace info
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName creds
+stats SimpleName Assignment MethodInvocation MethodInvocation SimpleName to thrift
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName server
+table info SimpleName SimpleType SingleVariableDeclaration SimpleName table
+servertable map QualifiedName MethodInvocation SimpleName values
+count SimpleName Assignment QualifiedName tablemajorsrunning
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName servertable map
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+tablet server status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+server SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+count StringLiteral InfixExpression SimpleName count
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral count
+systemout QualifiedName MethodInvocation InfixExpression SimpleName count
+println SimpleName MethodInvocation InfixExpression StringLiteral count
+println SimpleName MethodInvocation InfixExpression SimpleName count
+count SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName statst server info
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+fail SimpleName MethodInvocation StringLiteral could not observe higher number of threads after changing the config
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

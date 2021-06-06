@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+atlas attribute def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute defs
+attribute defs SimpleName MethodInvocation SimpleName is empty
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral string
+name StringLiteral ClassInstanceCreation StringLiteral string
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral string
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral string
+attribute defs SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+attribute defs SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton list
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+is empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton list
+attribute defs SimpleName MethodInvocation ConditionalExpression SimpleName attribute defs
+is empty SimpleName MethodInvocation ConditionalExpression SimpleName attribute defs
+collections SimpleName MethodInvocation ConditionalExpression SimpleName attribute defs
+singleton list SimpleName MethodInvocation ConditionalExpression SimpleName attribute defs
+name StringLiteral ClassInstanceCreation MethodInvocation ConditionalExpression SimpleName attribute defs
+string StringLiteral ClassInstanceCreation MethodInvocation ConditionalExpression SimpleName attribute defs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SimpleName get default attribute defs if necessary
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get default attribute defs if necessary
+atlas attribute def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get default attribute defs if necessary
+get default attribute defs if necessary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default attribute defs if necessary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default attribute defs if necessary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute defs

@@ -1,0 +1,281 @@
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next range
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start row
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName range
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName get start key
+start row SimpleName Assignment MethodInvocation SimpleName get row
+start row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName start row
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName start row
+table id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName start row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+start row SimpleName ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+start row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral true
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+start row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+next range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+next range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+next range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+next range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+current extent SimpleName MethodInvocation SimpleName get end row
+current extent SimpleName MethodInvocation SimpleName get end row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+current extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName following key
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName following key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+current extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+following key SimpleName MethodInvocation QualifiedName partial keyrow
+range SimpleName MethodInvocation SimpleName after end key
+range SimpleName MethodInvocation MethodInvocation SimpleName following key
+range SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+after end key SimpleName MethodInvocation MethodInvocation SimpleName following key
+after end key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+current extent SimpleName MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current extent
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+current extent SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+current extent SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+next range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+next range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName current extent
+next range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+next range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+next range SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get tablet files SimpleName MethodInvocation SimpleName next range
+get tablet files SimpleName MethodInvocation SimpleName rel files
+next range SimpleName MethodInvocation SimpleName rel files
+eloc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tablet files
+eloc SimpleName VariableDeclarationFragment MethodInvocation SimpleName next range
+eloc SimpleName VariableDeclarationFragment MethodInvocation SimpleName rel files
+eloc SimpleName MethodInvocation SimpleName get second
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation SimpleName instance
+clear cache SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+eloc SimpleName MethodInvocation SimpleName get first
+table is online StringLiteral InfixExpression SimpleName table id
+table is online StringLiteral InfixExpression StringLiteral cannot scan tablet in offline mode
+table is online StringLiteral InfixExpression MethodInvocation SimpleName eloc
+table is online StringLiteral InfixExpression MethodInvocation SimpleName get first
+table id SimpleName InfixExpression StringLiteral cannot scan tablet in offline mode
+table id SimpleName InfixExpression MethodInvocation SimpleName eloc
+table id SimpleName InfixExpression MethodInvocation SimpleName get first
+cannot scan tablet in offline mode StringLiteral InfixExpression MethodInvocation SimpleName eloc
+cannot scan tablet in offline mode StringLiteral InfixExpression MethodInvocation SimpleName get first
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table is online
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot scan tablet in offline mode
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get tablet files SimpleName MethodInvocation SimpleName next range
+get tablet files SimpleName MethodInvocation SimpleName rel files
+next range SimpleName MethodInvocation SimpleName rel files
+eloc SimpleName Assignment MethodInvocation SimpleName get tablet files
+eloc SimpleName Assignment MethodInvocation SimpleName next range
+eloc SimpleName Assignment MethodInvocation SimpleName rel files
+eloc SimpleName MethodInvocation SimpleName get first
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName eloc
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+to string SimpleName MethodInvocation MethodInvocation SimpleName table id
+equals SimpleName MethodInvocation SimpleName table id
+did not find tablets for table StringLiteral InfixExpression SimpleName table id
+did not find tablets for table StringLiteral InfixExpression StringLiteral empty
+did not find tablets for table StringLiteral InfixExpression SimpleName extent
+table id SimpleName InfixExpression StringLiteral empty
+table id SimpleName InfixExpression SimpleName extent
+empty StringLiteral InfixExpression SimpleName extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral did not find tablets for table
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+extent SimpleName MethodInvocation SimpleName is previous extent
+extent SimpleName MethodInvocation SimpleName current extent
+is previous extent SimpleName MethodInvocation SimpleName current extent
+empty StringLiteral InfixExpression SimpleName current extent
+empty StringLiteral InfixExpression StringLiteral is not previous extent
+empty StringLiteral InfixExpression SimpleName extent
+current extent SimpleName InfixExpression StringLiteral is not previous extent
+current extent SimpleName InfixExpression SimpleName extent
+is not previous extent StringLiteral InfixExpression SimpleName extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName current extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not previous extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+constants SimpleName MethodInvocation SimpleName get tables dir
+constants SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+constants SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+get tables dir SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get tables dir SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+tables dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName constants
+tables dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tables dir
+tables dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo configuration
+tables dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tables dir
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rel path
+rel path SimpleName MethodInvocation SimpleName starts with
+rel path SimpleName MethodInvocation StringLiteral ..
+starts with SimpleName MethodInvocation StringLiteral ..
+rel path SimpleName MethodInvocation SimpleName substring
+rel path SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+tables dir SimpleName InfixExpression MethodInvocation SimpleName rel path
+tables dir SimpleName InfixExpression MethodInvocation SimpleName substring
+tables dir SimpleName InfixExpression MethodInvocation NumberLiteral empty
+abs files SimpleName MethodInvocation SimpleName add
+abs files SimpleName MethodInvocation InfixExpression SimpleName tables dir
+abs files SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rel path
+abs files SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+abs files SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation InfixExpression SimpleName tables dir
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rel path
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+add SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+tables dir SimpleName InfixExpression StringLiteral /
+tables dir SimpleName InfixExpression SimpleName table id
+tables dir SimpleName InfixExpression SimpleName rel path
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression SimpleName rel path
+table id SimpleName InfixExpression SimpleName rel path
+abs files SimpleName MethodInvocation SimpleName add
+abs files SimpleName MethodInvocation InfixExpression SimpleName tables dir
+abs files SimpleName MethodInvocation InfixExpression StringLiteral /
+abs files SimpleName MethodInvocation InfixExpression SimpleName table id
+abs files SimpleName MethodInvocation InfixExpression SimpleName rel path
+add SimpleName MethodInvocation InfixExpression SimpleName tables dir
+add SimpleName MethodInvocation InfixExpression StringLiteral /
+add SimpleName MethodInvocation InfixExpression SimpleName table id
+add SimpleName MethodInvocation InfixExpression SimpleName rel path
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName rel files
+rel path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName rel files
+create iterator SimpleName MethodInvocation SimpleName extent
+create iterator SimpleName MethodInvocation SimpleName abs files
+extent SimpleName MethodInvocation SimpleName abs files
+iter SimpleName Assignment MethodInvocation SimpleName create iterator
+iter SimpleName Assignment MethodInvocation SimpleName extent
+iter SimpleName Assignment MethodInvocation SimpleName abs files
+locality group util SimpleName MethodInvocation SimpleName families
+locality group util SimpleName MethodInvocation QualifiedName optionsfetched columns
+families SimpleName MethodInvocation QualifiedName optionsfetched columns
+optionsfetched columns QualifiedName MethodInvocation SimpleName size
+optionsfetched columns QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+optionsfetched columns QualifiedName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral false
+size SimpleName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral false
+empty NumberLiteral InfixExpression ConditionalExpression BooleanLiteral false
+optionsfetched columns QualifiedName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral true
+size SimpleName MethodInvocation InfixExpression ConditionalExpression BooleanLiteral true
+empty NumberLiteral InfixExpression ConditionalExpression BooleanLiteral true
+false BooleanLiteral ConditionalExpression BooleanLiteral true
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation SimpleName range
+iter SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+iter SimpleName MethodInvocation MethodInvocation SimpleName families
+iter SimpleName MethodInvocation MethodInvocation QualifiedName optionsfetched columns
+iter SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+iter SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+iter SimpleName MethodInvocation ConditionalExpression BooleanLiteral true
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+seek SimpleName MethodInvocation MethodInvocation SimpleName families
+seek SimpleName MethodInvocation MethodInvocation QualifiedName optionsfetched columns
+seek SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+seek SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+seek SimpleName MethodInvocation ConditionalExpression BooleanLiteral true
+range SimpleName MethodInvocation MethodInvocation SimpleName locality group util
+range SimpleName MethodInvocation MethodInvocation SimpleName families
+range SimpleName MethodInvocation MethodInvocation QualifiedName optionsfetched columns
+range SimpleName MethodInvocation ConditionalExpression InfixExpression NumberLiteral empty
+range SimpleName MethodInvocation ConditionalExpression BooleanLiteral false
+range SimpleName MethodInvocation ConditionalExpression BooleanLiteral true
+locality group util SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral false
+locality group util SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral true
+families SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral false
+families SimpleName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral true
+optionsfetched columns QualifiedName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral false
+optionsfetched columns QualifiedName MethodInvocation MethodInvocation ConditionalExpression BooleanLiteral true
+current extent SimpleName Assignment SimpleName extent
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName next tablet
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName next tablet
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName rel files
+next tablet SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+next tablet SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+next tablet SimpleName MethodDeclaration SimpleType SimpleName io exception
+next tablet SimpleName MethodDeclaration Block EnhancedForStatement SimpleName rel files
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next tablet
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next tablet
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

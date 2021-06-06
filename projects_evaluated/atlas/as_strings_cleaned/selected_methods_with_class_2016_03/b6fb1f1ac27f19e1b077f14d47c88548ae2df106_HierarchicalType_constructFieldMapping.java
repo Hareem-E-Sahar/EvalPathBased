@@ -1,0 +1,500 @@
+immutable map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName field mapping
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName super types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName super types
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName fields
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+fields map SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName linked hash map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+field pos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+field null pos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+num bools SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num bools
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num bytes SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num bytes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num shorts SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num shorts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num ints SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num ints
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num longs SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num longs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num floats SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num floats
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num doubles SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num doubles
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num big ints SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num big ints
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num big decimals SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num big decimals
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num dates SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num dates
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num strings SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num strings
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num arrays SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num arrays
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num maps SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num maps
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num structs SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num structs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+num referenceables SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num referenceables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+setup super types graph SimpleName MethodInvocation SimpleName super types
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path itr SimpleName VariableDeclarationFragment MethodInvocation SimpleName path iterator
+path itr SimpleName MethodInvocation SimpleName has next
+path itr SimpleName MethodInvocation SimpleName next
+current path SimpleName VariableDeclarationFragment MethodInvocation SimpleName path itr
+current path SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current path
+current pathtype name QualifiedName InfixExpression MethodInvocation SimpleName get name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation SimpleName super type class
+type system SimpleName MethodInvocation QualifiedName current pathtype name
+get data type SimpleName MethodInvocation SimpleName super type class
+get data type SimpleName MethodInvocation QualifiedName current pathtype name
+super type class SimpleName MethodInvocation QualifiedName current pathtype name
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName type system
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName get data type
+st SimpleName SimpleType CastExpression MethodInvocation SimpleName super type class
+st SimpleName SimpleType CastExpression MethodInvocation QualifiedName current pathtype name
+super type SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression QualifiedName current pathtype name
+st SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation SimpleName fields
+copy of SimpleName MethodInvocation SimpleName fields
+super type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName immutable list
+super type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName copy of
+super type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName fields
+super type SimpleName InfixExpression ConditionalExpression QualifiedName super typeimmediate attrs
+immutable list SimpleName MethodInvocation ConditionalExpression QualifiedName super typeimmediate attrs
+copy of SimpleName MethodInvocation ConditionalExpression QualifiedName super typeimmediate attrs
+fields SimpleName MethodInvocation ConditionalExpression QualifiedName super typeimmediate attrs
+super type fields SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName super type
+super type fields SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName immutable list
+super type fields SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName copy of
+super type fields SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName fields
+super type fields SimpleName VariableDeclarationFragment ConditionalExpression QualifiedName super typeimmediate attrs
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName i
+immediate fields SimpleName MethodInvocation SimpleName contains
+immediate fields SimpleName MethodInvocation QualifiedName iname
+contains SimpleName MethodInvocation QualifiedName iname
+struct defintion cannot contain multiple fields with the StringLiteral InfixExpression StringLiteral same name s
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral struct defintion cannot contain multiple fields with the
+string SimpleName MethodInvocation InfixExpression StringLiteral same name s
+string SimpleName MethodInvocation QualifiedName iname
+format SimpleName MethodInvocation InfixExpression StringLiteral struct defintion cannot contain multiple fields with the
+format SimpleName MethodInvocation InfixExpression StringLiteral same name s
+format SimpleName MethodInvocation QualifiedName iname
+struct defintion cannot contain multiple fields with the StringLiteral InfixExpression MethodInvocation QualifiedName iname
+same name s StringLiteral InfixExpression MethodInvocation QualifiedName iname
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName iname
+immediate fields SimpleName MethodInvocation SimpleName add
+immediate fields SimpleName MethodInvocation QualifiedName iname
+add SimpleName MethodInvocation QualifiedName iname
+attr name SimpleName VariableDeclarationFragment QualifiedName iname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName iname
+fields map SimpleName MethodInvocation SimpleName contains key
+fields map SimpleName MethodInvocation SimpleName attr name
+contains key SimpleName MethodInvocation SimpleName attr name
+current path SimpleName MethodInvocation SimpleName add override attr
+current path SimpleName MethodInvocation SimpleName attr name
+add override attr SimpleName MethodInvocation SimpleName attr name
+attr name SimpleName Assignment MethodInvocation SimpleName current path
+attr name SimpleName Assignment MethodInvocation SimpleName add override attr
+attr name SimpleName Assignment MethodInvocation SimpleName attr name
+super type SimpleName MethodInvocation SimpleName get name
+attribute name to type SimpleName MethodInvocation SimpleName put
+attribute name to type SimpleName MethodInvocation SimpleName attr name
+attribute name to type SimpleName MethodInvocation MethodInvocation SimpleName super type
+attribute name to type SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation MethodInvocation SimpleName super type
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName super type
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get name
+fields map SimpleName MethodInvocation SimpleName put
+fields map SimpleName MethodInvocation SimpleName attr name
+fields map SimpleName MethodInvocation SimpleName i
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName i
+attr name SimpleName MethodInvocation SimpleName i
+field null pos SimpleName MethodInvocation SimpleName size
+field null pos SimpleName MethodInvocation SimpleName put
+field null pos SimpleName MethodInvocation SimpleName attr name
+field null pos SimpleName MethodInvocation MethodInvocation SimpleName field null pos
+field null pos SimpleName MethodInvocation MethodInvocation SimpleName size
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation MethodInvocation SimpleName field null pos
+put SimpleName MethodInvocation MethodInvocation SimpleName size
+attr name SimpleName MethodInvocation MethodInvocation SimpleName field null pos
+attr name SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesboolean type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesboolean type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num bools
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num bools
+attr name SimpleName MethodInvocation SimpleName num bools
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbyte type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbyte type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num bytes
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num bytes
+attr name SimpleName MethodInvocation SimpleName num bytes
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesshort type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesshort type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num shorts
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num shorts
+attr name SimpleName MethodInvocation SimpleName num shorts
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesint type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesint type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num ints
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num ints
+attr name SimpleName MethodInvocation SimpleName num ints
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typeslong type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typeslong type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num longs
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num longs
+attr name SimpleName MethodInvocation SimpleName num longs
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesfloat type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesfloat type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num floats
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num floats
+attr name SimpleName MethodInvocation SimpleName num floats
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesdouble type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesdouble type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num doubles
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num doubles
+attr name SimpleName MethodInvocation SimpleName num doubles
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbiginteger type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbiginteger type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num big ints
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num big ints
+attr name SimpleName MethodInvocation SimpleName num big ints
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbigdecimal type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbigdecimal type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num big decimals
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num big decimals
+attr name SimpleName MethodInvocation SimpleName num big decimals
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesdate type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesdate type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num dates
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num dates
+attr name SimpleName MethodInvocation SimpleName num dates
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesstring type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesstring type
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num strings
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num strings
+attr name SimpleName MethodInvocation SimpleName num strings
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation QualifiedName iname
+field pos SimpleName MethodInvocation SimpleName num ints
+put SimpleName MethodInvocation QualifiedName iname
+put SimpleName MethodInvocation SimpleName num ints
+iname QualifiedName MethodInvocation SimpleName num ints
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num arrays
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num arrays
+attr name SimpleName MethodInvocation SimpleName num arrays
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorymap
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorymap
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorymap
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num maps
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num maps
+attr name SimpleName MethodInvocation SimpleName num maps
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+data typestype categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data typestype categorytrait
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num structs
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num structs
+attr name SimpleName MethodInvocation SimpleName num structs
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+field pos SimpleName MethodInvocation SimpleName put
+field pos SimpleName MethodInvocation SimpleName attr name
+field pos SimpleName MethodInvocation SimpleName num referenceables
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName num referenceables
+attr name SimpleName MethodInvocation SimpleName num referenceables
+i SimpleName MethodInvocation SimpleName data type
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unknown datatype s
+string SimpleName MethodInvocation MethodInvocation SimpleName i
+string SimpleName MethodInvocation MethodInvocation SimpleName data type
+format SimpleName MethodInvocation StringLiteral unknown datatype s
+format SimpleName MethodInvocation MethodInvocation SimpleName i
+format SimpleName MethodInvocation MethodInvocation SimpleName data type
+unknown datatype s StringLiteral MethodInvocation MethodInvocation SimpleName i
+unknown datatype s StringLiteral MethodInvocation MethodInvocation SimpleName data type
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unknown datatype s
+attribute info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super type fields
+i SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super type fields
+immutable map SimpleName MethodInvocation SimpleName copy of
+immutable map SimpleName MethodInvocation SimpleName super type paths
+copy of SimpleName MethodInvocation SimpleName super type paths
+super type paths SimpleName FieldAccess Assignment MethodInvocation SimpleName immutable map
+super type paths SimpleName FieldAccess Assignment MethodInvocation SimpleName copy of
+super type paths SimpleName FieldAccess Assignment MethodInvocation SimpleName super type paths
+immutable map SimpleName MethodInvocation SimpleName copy of
+immutable map SimpleName MethodInvocation SimpleName path name to path map
+copy of SimpleName MethodInvocation SimpleName path name to path map
+path name to path map SimpleName FieldAccess Assignment MethodInvocation SimpleName immutable map
+path name to path map SimpleName FieldAccess Assignment MethodInvocation SimpleName copy of
+path name to path map SimpleName FieldAccess Assignment MethodInvocation SimpleName path name to path map
+field mapping SimpleName SimpleType ClassInstanceCreation SimpleName fields map
+field mapping SimpleName SimpleType ClassInstanceCreation SimpleName field pos
+field mapping SimpleName SimpleType ClassInstanceCreation SimpleName field null pos
+field mapping SimpleName SimpleType ClassInstanceCreation SimpleName num bools
+field mapping SimpleName SimpleType ClassInstanceCreation SimpleName num bytes
+fields map SimpleName ClassInstanceCreation SimpleName field pos
+fields map SimpleName ClassInstanceCreation SimpleName field null pos
+fields map SimpleName ClassInstanceCreation SimpleName num bools
+fields map SimpleName ClassInstanceCreation SimpleName num bytes
+fields map SimpleName ClassInstanceCreation SimpleName num shorts
+field pos SimpleName ClassInstanceCreation SimpleName field null pos
+field pos SimpleName ClassInstanceCreation SimpleName num bools
+field pos SimpleName ClassInstanceCreation SimpleName num bytes
+field pos SimpleName ClassInstanceCreation SimpleName num shorts
+field pos SimpleName ClassInstanceCreation SimpleName num ints
+field null pos SimpleName ClassInstanceCreation SimpleName num bools
+field null pos SimpleName ClassInstanceCreation SimpleName num bytes
+field null pos SimpleName ClassInstanceCreation SimpleName num shorts
+field null pos SimpleName ClassInstanceCreation SimpleName num ints
+field null pos SimpleName ClassInstanceCreation SimpleName num longs
+num bools SimpleName ClassInstanceCreation SimpleName num bytes
+num bools SimpleName ClassInstanceCreation SimpleName num shorts
+num bools SimpleName ClassInstanceCreation SimpleName num ints
+num bools SimpleName ClassInstanceCreation SimpleName num longs
+num bools SimpleName ClassInstanceCreation SimpleName num floats
+num bytes SimpleName ClassInstanceCreation SimpleName num shorts
+num bytes SimpleName ClassInstanceCreation SimpleName num ints
+num bytes SimpleName ClassInstanceCreation SimpleName num longs
+num bytes SimpleName ClassInstanceCreation SimpleName num floats
+num bytes SimpleName ClassInstanceCreation SimpleName num doubles
+num shorts SimpleName ClassInstanceCreation SimpleName num ints
+num shorts SimpleName ClassInstanceCreation SimpleName num longs
+num shorts SimpleName ClassInstanceCreation SimpleName num floats
+num shorts SimpleName ClassInstanceCreation SimpleName num doubles
+num shorts SimpleName ClassInstanceCreation SimpleName num big ints
+num ints SimpleName ClassInstanceCreation SimpleName num longs
+num ints SimpleName ClassInstanceCreation SimpleName num floats
+num ints SimpleName ClassInstanceCreation SimpleName num doubles
+num ints SimpleName ClassInstanceCreation SimpleName num big ints
+num ints SimpleName ClassInstanceCreation SimpleName num big decimals
+num longs SimpleName ClassInstanceCreation SimpleName num floats
+num longs SimpleName ClassInstanceCreation SimpleName num doubles
+num longs SimpleName ClassInstanceCreation SimpleName num big ints
+num longs SimpleName ClassInstanceCreation SimpleName num big decimals
+num longs SimpleName ClassInstanceCreation SimpleName num dates
+num floats SimpleName ClassInstanceCreation SimpleName num doubles
+num floats SimpleName ClassInstanceCreation SimpleName num big ints
+num floats SimpleName ClassInstanceCreation SimpleName num big decimals
+num floats SimpleName ClassInstanceCreation SimpleName num dates
+num floats SimpleName ClassInstanceCreation SimpleName num strings
+num doubles SimpleName ClassInstanceCreation SimpleName num big ints
+num doubles SimpleName ClassInstanceCreation SimpleName num big decimals
+num doubles SimpleName ClassInstanceCreation SimpleName num dates
+num doubles SimpleName ClassInstanceCreation SimpleName num strings
+num doubles SimpleName ClassInstanceCreation SimpleName num arrays
+num big ints SimpleName ClassInstanceCreation SimpleName num big decimals
+num big ints SimpleName ClassInstanceCreation SimpleName num dates
+num big ints SimpleName ClassInstanceCreation SimpleName num strings
+num big ints SimpleName ClassInstanceCreation SimpleName num arrays
+num big ints SimpleName ClassInstanceCreation SimpleName num maps
+num big decimals SimpleName ClassInstanceCreation SimpleName num dates
+num big decimals SimpleName ClassInstanceCreation SimpleName num strings
+num big decimals SimpleName ClassInstanceCreation SimpleName num arrays
+num big decimals SimpleName ClassInstanceCreation SimpleName num maps
+num big decimals SimpleName ClassInstanceCreation SimpleName num structs
+num dates SimpleName ClassInstanceCreation SimpleName num strings
+num dates SimpleName ClassInstanceCreation SimpleName num arrays
+num dates SimpleName ClassInstanceCreation SimpleName num maps
+num dates SimpleName ClassInstanceCreation SimpleName num structs
+num dates SimpleName ClassInstanceCreation SimpleName num referenceables
+num strings SimpleName ClassInstanceCreation SimpleName num arrays
+num strings SimpleName ClassInstanceCreation SimpleName num maps
+num strings SimpleName ClassInstanceCreation SimpleName num structs
+num strings SimpleName ClassInstanceCreation SimpleName num referenceables
+num arrays SimpleName ClassInstanceCreation SimpleName num maps
+num arrays SimpleName ClassInstanceCreation SimpleName num structs
+num arrays SimpleName ClassInstanceCreation SimpleName num referenceables
+num maps SimpleName ClassInstanceCreation SimpleName num structs
+num maps SimpleName ClassInstanceCreation SimpleName num referenceables
+num structs SimpleName ClassInstanceCreation SimpleName num referenceables
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName field mapping
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fields map
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName field pos
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName field null pos
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num bools
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num bytes
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num shorts
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num ints
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num longs
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num floats
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num doubles
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num big ints
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num big decimals
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num dates
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num strings
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num arrays
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num maps
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num structs
+fm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName num referenceables
+field mapping SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fm
+immutable map SimpleName MethodInvocation SimpleName copy of
+immutable map SimpleName MethodInvocation SimpleName attribute name to type
+copy of SimpleName MethodInvocation SimpleName attribute name to type
+pair SimpleName SimpleType ClassInstanceCreation SimpleName fm
+pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable map
+pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName copy of
+pair SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute name to type
+fm SimpleName ClassInstanceCreation MethodInvocation SimpleName immutable map
+fm SimpleName ClassInstanceCreation MethodInvocation SimpleName copy of
+fm SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute name to type
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int

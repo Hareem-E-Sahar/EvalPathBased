@@ -1,0 +1,31 @@
+option SimpleName SimpleType SingleVariableDeclaration SimpleName add opts
+option SimpleName SimpleType SingleVariableDeclaration SimpleName opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName opt
+add option SimpleName MethodInvocation SimpleName opt
+option SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName add opts
+opt SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName add opts
+add opts SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName opts
+add opts SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add option
+add opts SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName opt
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName add opts
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName add opts
+void PrimitiveType MethodDeclaration SimpleName add options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName add opts
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName add opts
+add options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName option
+add options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName add opts
+add options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName add opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName add opts
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName add opts

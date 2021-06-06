@@ -1,0 +1,48 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table SimpleName MethodInvocation SimpleName equals
+table SimpleName MethodInvocation QualifiedName constantsmetadata table id
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table id
+table SimpleName InfixExpression InfixExpression MethodInvocation SimpleName table
+table SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+table SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName constantsmetadata table id
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszproblems
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszproblems
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zoo SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+children SimpleName Assignment MethodInvocation SimpleName zoo
+children SimpleName Assignment MethodInvocation SimpleName get children
+children SimpleName Assignment MethodInvocation InfixExpression QualifiedName constantszproblems
+collections SimpleName MethodInvocation SimpleName empty list
+children SimpleName Assignment MethodInvocation SimpleName collections
+children SimpleName Assignment MethodInvocation SimpleName empty list
+children SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName children
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get iter
+private Modifier MethodDeclaration Block ReturnStatement SimpleName iter
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iter
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iter
+get iter SimpleName MethodDeclaration Block ReturnStatement SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iter
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iter

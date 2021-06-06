@@ -1,0 +1,182 @@
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName proc
+found SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName found
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+proc SimpleName MethodInvocation SimpleName equals
+proc SimpleName MethodInvocation SimpleName master process
+equals SimpleName MethodInvocation SimpleName master process
+cluster SimpleName MethodInvocation SimpleName stop process with timeout
+cluster SimpleName MethodInvocation SimpleName master process
+cluster SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation QualifiedName time unitseconds
+stop process with timeout SimpleName MethodInvocation SimpleName master process
+stop process with timeout SimpleName MethodInvocation NumberLiteral empty
+stop process with timeout SimpleName MethodInvocation QualifiedName time unitseconds
+master process SimpleName MethodInvocation NumberLiteral empty
+master process SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral master did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral master did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+master did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral master did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral master did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+master did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+found SimpleName Assignment BooleanLiteral true
+process SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+proc SimpleName MethodInvocation SimpleName equals
+proc SimpleName MethodInvocation SimpleName tserver
+equals SimpleName MethodInvocation SimpleName tserver
+tablet server processes SimpleName MethodInvocation SimpleName remove
+tablet server processes SimpleName MethodInvocation SimpleName tserver
+remove SimpleName MethodInvocation SimpleName tserver
+cluster SimpleName MethodInvocation SimpleName stop process with timeout
+cluster SimpleName MethodInvocation SimpleName tserver
+cluster SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation QualifiedName time unitseconds
+stop process with timeout SimpleName MethodInvocation SimpleName tserver
+stop process with timeout SimpleName MethodInvocation NumberLiteral empty
+stop process with timeout SimpleName MethodInvocation QualifiedName time unitseconds
+tserver SimpleName MethodInvocation NumberLiteral empty
+tserver SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral tablet server did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral tablet server did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+tablet server did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral tablet server did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral tablet server did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+tablet server did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+found SimpleName Assignment BooleanLiteral true
+process SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablet server processes
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablet server processes
+tablet server processes SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName tablet server processes
+proc SimpleName MethodInvocation SimpleName equals
+proc SimpleName MethodInvocation SimpleName zoo keeper process
+equals SimpleName MethodInvocation SimpleName zoo keeper process
+cluster SimpleName MethodInvocation SimpleName stop process with timeout
+cluster SimpleName MethodInvocation SimpleName zoo keeper process
+cluster SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation QualifiedName time unitseconds
+stop process with timeout SimpleName MethodInvocation SimpleName zoo keeper process
+stop process with timeout SimpleName MethodInvocation NumberLiteral empty
+stop process with timeout SimpleName MethodInvocation QualifiedName time unitseconds
+zoo keeper process SimpleName MethodInvocation NumberLiteral empty
+zoo keeper process SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral zoo keeper did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral zoo keeper did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+zoo keeper did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral zoo keeper did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral zoo keeper did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+zoo keeper did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+found SimpleName Assignment BooleanLiteral true
+proc SimpleName MethodInvocation SimpleName equals
+proc SimpleName MethodInvocation SimpleName gc process
+equals SimpleName MethodInvocation SimpleName gc process
+cluster SimpleName MethodInvocation SimpleName stop process with timeout
+cluster SimpleName MethodInvocation SimpleName gc process
+cluster SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation QualifiedName time unitseconds
+stop process with timeout SimpleName MethodInvocation SimpleName gc process
+stop process with timeout SimpleName MethodInvocation NumberLiteral empty
+stop process with timeout SimpleName MethodInvocation QualifiedName time unitseconds
+gc process SimpleName MethodInvocation NumberLiteral empty
+gc process SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+execution exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral garbage collector did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral garbage collector did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+garbage collector did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+timeout exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral garbage collector did not fully stop after seconds
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral garbage collector did not fully stop after seconds
+warn SimpleName MethodInvocation SimpleName e
+garbage collector did not fully stop after seconds StringLiteral MethodInvocation SimpleName e
+found SimpleName Assignment BooleanLiteral true
+found SimpleName Assignment BooleanLiteral true
+type SimpleName SwitchStatement SwitchCase SimpleName master
+type SimpleName SwitchStatement IfStatement MethodInvocation SimpleName proc
+type SimpleName SwitchStatement IfStatement MethodInvocation SimpleName equals
+type SimpleName SwitchStatement IfStatement MethodInvocation SimpleName master process
+type SimpleName SwitchStatement SwitchCase SimpleName tablet server
+type SimpleName SwitchStatement SynchronizedStatement SimpleName tablet server processes
+master SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tablet server
+master SimpleName SwitchCase SwitchStatement SynchronizedStatement SimpleName tablet server processes
+tablet server SimpleName SwitchCase SwitchStatement SynchronizedStatement SimpleName tablet server processes
+tablet server SimpleName SwitchCase SwitchStatement SwitchCase SimpleName zookeeper
+tablet server processes SimpleName SynchronizedStatement SwitchStatement SwitchCase SimpleName zookeeper
+tablet server processes SimpleName SynchronizedStatement SwitchStatement SwitchCase SimpleName garbage collector
+zookeeper SimpleName SwitchCase SwitchStatement SwitchCase SimpleName garbage collector
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName kill process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName process reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName proc
+public Modifier MethodDeclaration SimpleType SimpleName process not found exception
+void PrimitiveType MethodDeclaration SimpleName kill process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName process reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName proc
+void PrimitiveType MethodDeclaration SimpleType SimpleName process not found exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+kill process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+kill process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+kill process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName process reference
+kill process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName proc
+kill process SimpleName MethodDeclaration SimpleType SimpleName process not found exception
+kill process SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+kill process SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+kill process SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proc
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName process not found exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+proc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName process not found exception
+proc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+process not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName kill process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName process not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName kill process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName proc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName process not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

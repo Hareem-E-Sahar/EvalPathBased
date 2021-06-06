@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+server SimpleName FieldAccess Assignment SimpleName server
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SimpleName set server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+set server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server

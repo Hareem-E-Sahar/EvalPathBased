@@ -1,0 +1,80 @@
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+attribute type def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+attribute type def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+hash map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName accumulated results
+combined results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName accumulated results
+attribute type def SimpleName MethodInvocation SimpleName get guid
+combined results SimpleName MethodInvocation SimpleName put
+combined results SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+combined results SimpleName MethodInvocation MethodInvocation SimpleName get guid
+combined results SimpleName MethodInvocation SimpleName attribute type def
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName attribute type def
+attribute type def SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+get guid SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+existing attribute type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName combined results
+existing attribute type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+existing attribute type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute type def
+existing attribute type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+existing attribute type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute type def
+attribute type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing attribute type def
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hash map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute type def
+private Modifier MethodDeclaration SimpleName add unique attribute type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+hash map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique attribute type def
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique attribute type def
+attribute type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique attribute type def
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+attribute type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+attribute type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+attribute type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName add unique attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add unique attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name

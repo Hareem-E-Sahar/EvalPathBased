@@ -1,0 +1,89 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName wal
+replication table SimpleName MethodInvocation SimpleName get scanner
+replication table SimpleName MethodInvocation SimpleName conn
+get scanner SimpleName MethodInvocation SimpleName conn
+repl scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication table
+repl scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scanner
+repl scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl scanner
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName repl scanner
+limit SimpleName MethodInvocation SimpleName repl scanner
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation SimpleName wal
+exact SimpleName MethodInvocation SimpleName wal
+repl scanner SimpleName MethodInvocation SimpleName set range
+repl scanner SimpleName MethodInvocation MethodInvocation SimpleName range
+repl scanner SimpleName MethodInvocation MethodInvocation SimpleName exact
+repl scanner SimpleName MethodInvocation MethodInvocation SimpleName wal
+set range SimpleName MethodInvocation MethodInvocation SimpleName range
+set range SimpleName MethodInvocation MethodInvocation SimpleName exact
+set range SimpleName MethodInvocation MethodInvocation SimpleName wal
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+meta scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta scanner
+replication section SimpleName MethodInvocation SimpleName get row prefix
+replication section SimpleName MethodInvocation InfixExpression SimpleName wal
+get row prefix SimpleName MethodInvocation InfixExpression SimpleName wal
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replication section
+range SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row prefix
+range SimpleName MethodInvocation InfixExpression SimpleName wal
+exact SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replication section
+exact SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row prefix
+exact SimpleName MethodInvocation InfixExpression SimpleName wal
+meta scanner SimpleName MethodInvocation SimpleName set range
+meta scanner SimpleName MethodInvocation MethodInvocation SimpleName range
+meta scanner SimpleName MethodInvocation MethodInvocation SimpleName exact
+meta scanner SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName wal
+set range SimpleName MethodInvocation MethodInvocation SimpleName range
+set range SimpleName MethodInvocation MethodInvocation SimpleName exact
+set range SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName wal
+meta scanner SimpleName MethodInvocation SimpleName fetch column family
+meta scanner SimpleName MethodInvocation QualifiedName replication sectioncolf
+fetch column family SimpleName MethodInvocation QualifiedName replication sectioncolf
+iterables SimpleName MethodInvocation SimpleName concat
+iterables SimpleName MethodInvocation SimpleName repl scanner
+iterables SimpleName MethodInvocation SimpleName meta scanner
+concat SimpleName MethodInvocation SimpleName repl scanner
+concat SimpleName MethodInvocation SimpleName meta scanner
+repl scanner SimpleName MethodInvocation SimpleName meta scanner
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+protected Modifier MethodDeclaration SimpleName get replication status for file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName wal
+protected Modifier MethodDeclaration SimpleType SimpleName table not found exception
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get replication status for file
+get replication status for file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+get replication status for file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+get replication status for file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get replication status for file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wal
+get replication status for file SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+wal SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get replication status for file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get replication status for file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

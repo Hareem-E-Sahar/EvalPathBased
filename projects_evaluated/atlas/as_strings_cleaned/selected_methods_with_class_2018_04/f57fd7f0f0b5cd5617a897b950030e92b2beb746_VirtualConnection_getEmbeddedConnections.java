@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName embedded connection
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName embedded connections
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName embedded connection
+public Modifier MethodDeclaration SimpleName get embedded connections
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get embedded connections
+embedded connection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get embedded connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get embedded connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get embedded connections

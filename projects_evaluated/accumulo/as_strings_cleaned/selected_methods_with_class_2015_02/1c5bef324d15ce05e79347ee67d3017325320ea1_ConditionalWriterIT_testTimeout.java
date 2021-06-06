@@ -1,0 +1,365 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conditional writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set timeout
+conditional writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+conditional writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitseconds
+set timeout SimpleName MethodInvocation NumberLiteral empty
+set timeout SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+conn SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+create conditional writer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create conditional writer SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+table SimpleName MethodInvocation MethodInvocation SimpleName set timeout
+table SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation MethodInvocation QualifiedName time unitseconds
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+cw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set timeout
+cw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+cw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName time unitseconds
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+conditional mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+r StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName condition
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+r StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral tx
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral seq
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral a
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral a
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral a
+x StringLiteral MethodInvocation StringLiteral a
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation QualifiedName statusaccepted
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusaccepted
+cw SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+write SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+cm SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusaccepted
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName slow iterator
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+slow iterator SimpleName MethodInvocation SimpleName set seek sleep time
+slow iterator SimpleName MethodInvocation SimpleName is
+slow iterator SimpleName MethodInvocation NumberLiteral empty
+set seek sleep time SimpleName MethodInvocation SimpleName is
+set seek sleep time SimpleName MethodInvocation NumberLiteral empty
+is SimpleName MethodInvocation NumberLiteral empty
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set value
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+tx StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+seq StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+set value SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set iterators
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set iterators
+set value SimpleName MethodInvocation MethodInvocation SimpleName set iterators
+empty StringLiteral MethodInvocation MethodInvocation SimpleName set iterators
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName is
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName is
+set value SimpleName MethodInvocation MethodInvocation SimpleName is
+empty StringLiteral MethodInvocation MethodInvocation SimpleName is
+set iterators SimpleName MethodInvocation SimpleName is
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set iterators
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is
+r StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set value
+r StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral empty
+r StringLiteral ClassInstanceCreation MethodInvocation SimpleName set iterators
+r StringLiteral ClassInstanceCreation MethodInvocation SimpleName is
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set iterators
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName is
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral b
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral b
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral b
+x StringLiteral MethodInvocation StringLiteral b
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation QualifiedName statusunknown
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusunknown
+cw SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusunknown
+write SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusunknown
+cm SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusunknown
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusunknown
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table SimpleName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column family data SimpleName MethodInvocation MethodInvocation SimpleName to string
+cf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column family data
+cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to string
+cq SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier data
+cq SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+cf SimpleName MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation StringLiteral tx
+equals SimpleName MethodInvocation StringLiteral tx
+cq SimpleName MethodInvocation SimpleName equals
+cq SimpleName MethodInvocation StringLiteral seq
+equals SimpleName MethodInvocation StringLiteral seq
+cf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cq
+cf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral seq
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cq
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName cq
+tx StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tx StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral seq
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral unexpected value in txseq
+assert SimpleName MethodInvocation StringLiteral empty
+assert SimpleName MethodInvocation SimpleName val
+assert equals SimpleName MethodInvocation StringLiteral unexpected value in txseq
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation SimpleName val
+unexpected value in txseq StringLiteral MethodInvocation StringLiteral empty
+unexpected value in txseq StringLiteral MethodInvocation SimpleName val
+empty StringLiteral MethodInvocation SimpleName val
+cf SimpleName MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation StringLiteral data
+equals SimpleName MethodInvocation StringLiteral data
+cq SimpleName MethodInvocation SimpleName equals
+cq SimpleName MethodInvocation StringLiteral x
+equals SimpleName MethodInvocation StringLiteral x
+cf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cq
+cf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+cf SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral x
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cq
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName cq
+data StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+data StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral x
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral unexpected value in datax
+assert SimpleName MethodInvocation StringLiteral a
+assert SimpleName MethodInvocation SimpleName val
+assert equals SimpleName MethodInvocation StringLiteral unexpected value in datax
+assert equals SimpleName MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation SimpleName val
+unexpected value in datax StringLiteral MethodInvocation StringLiteral a
+unexpected value in datax StringLiteral MethodInvocation SimpleName val
+a StringLiteral MethodInvocation SimpleName val
+saw unexpected column family and qualifier StringLiteral InfixExpression SimpleName entry
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral saw unexpected column family and qualifier
+assert SimpleName MethodInvocation InfixExpression SimpleName entry
+fail SimpleName MethodInvocation InfixExpression StringLiteral saw unexpected column family and qualifier
+fail SimpleName MethodInvocation InfixExpression SimpleName entry
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set value
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+tx StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+seq StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+set value SimpleName MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set value
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+r StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral tx
+r StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral seq
+r StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+r StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set value
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral b
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral b
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral b
+x StringLiteral MethodInvocation StringLiteral b
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation QualifiedName statusaccepted
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusaccepted
+cw SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+write SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+cm SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusaccepted
+get status SimpleName MethodInvocation MethodInvocation QualifiedName statusaccepted
+cw SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test timeout
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test timeout
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleName test timeout
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+test timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+test timeout SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

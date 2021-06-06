@@ -1,0 +1,49 @@
+type def patch SimpleName SimpleType SingleVariableDeclaration SimpleName patch
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName current type def
+current type def SimpleName MethodInvocation SimpleName get type version
+current version SimpleName VariableDeclarationFragment MethodInvocation SimpleName current type def
+current version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current version
+patch SimpleName MethodInvocation SimpleName get apply to version
+apply to version SimpleName VariableDeclarationFragment MethodInvocation SimpleName patch
+apply to version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get apply to version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName apply to version
+current version SimpleName MethodInvocation SimpleName equals ignore case
+current version SimpleName MethodInvocation SimpleName apply to version
+equals ignore case SimpleName MethodInvocation SimpleName apply to version
+current version SimpleName InfixExpression InfixExpression MethodInvocation SimpleName current version
+current version SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals ignore case
+current version SimpleName InfixExpression InfixExpression MethodInvocation SimpleName apply to version
+apply to version SimpleName InfixExpression StringLiteral .
+current version SimpleName MethodInvocation SimpleName starts with
+current version SimpleName MethodInvocation InfixExpression SimpleName apply to version
+current version SimpleName MethodInvocation InfixExpression StringLiteral .
+starts with SimpleName MethodInvocation InfixExpression SimpleName apply to version
+starts with SimpleName MethodInvocation InfixExpression StringLiteral .
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is patch applicable
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def patch
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName patch
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName current type def
+boolean PrimitiveType MethodDeclaration SimpleName is patch applicable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def patch
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName patch
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current type def
+is patch applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def patch
+is patch applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName patch
+is patch applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+is patch applicable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current type def
+patch SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is patch applicable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patch
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is patch applicable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName patch
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current type def

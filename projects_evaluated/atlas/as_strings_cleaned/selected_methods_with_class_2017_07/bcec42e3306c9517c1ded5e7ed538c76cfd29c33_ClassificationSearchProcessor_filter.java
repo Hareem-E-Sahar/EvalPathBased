@@ -1,0 +1,96 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity vertices SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> classification search processorfilter
+log SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral ==> classification search processorfilter
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+==> classification search processorfilter StringLiteral MethodInvocation MethodInvocation SimpleName entity vertices
+==> classification search processorfilter StringLiteral MethodInvocation MethodInvocation SimpleName size
+context SimpleName MethodInvocation SimpleName get graph
+context SimpleName MethodInvocation MethodInvocation SimpleName query
+get graph SimpleName MethodInvocation MethodInvocation SimpleName query
+get guids SimpleName MethodInvocation SimpleName entity vertices
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+query SimpleName MethodInvocation MethodInvocation SimpleName in
+context SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+get graph SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guids
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity vertices
+in SimpleName MethodInvocation QualifiedName constantsguid property key
+in SimpleName MethodInvocation MethodInvocation SimpleName get guids
+in SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName get guids
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName entity vertices
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guids
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity vertices
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+query SimpleName MethodInvocation SimpleName add conditions from
+query SimpleName MethodInvocation SimpleName filter graph query
+add conditions from SimpleName MethodInvocation SimpleName filter graph query
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+get vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices
+ret SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+filter SimpleName SuperMethodInvocation SimpleName ret
+ret SimpleName Assignment SuperMethodInvocation SimpleName filter
+ret SimpleName Assignment SuperMethodInvocation SimpleName ret
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity vertices SimpleName MethodInvocation SimpleName size
+ret SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== classification search processorfilter retsize
+log SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+log SimpleName MethodInvocation MethodInvocation SimpleName ret
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral <== classification search processorfilter retsize
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName entity vertices
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName size
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName ret
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName size
+entity vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ret
+entity vertices SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ret
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName filter
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName filter
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName filter
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+filter SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices

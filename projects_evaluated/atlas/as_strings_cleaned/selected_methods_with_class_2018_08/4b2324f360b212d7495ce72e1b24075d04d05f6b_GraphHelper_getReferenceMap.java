@@ -1,0 +1,78 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+get collection elements using relationship SimpleName MethodInvocation SimpleName instance vertex
+get collection elements using relationship SimpleName MethodInvocation SimpleName attribute
+instance vertex SimpleName MethodInvocation SimpleName attribute
+reference edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get collection elements using relationship
+reference edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+reference edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName attribute key property key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName attribute key property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+attribute key property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute key property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName key
+is not empty SimpleName MethodInvocation SimpleName key
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation SimpleName key
+ret SimpleName MethodInvocation SimpleName edge
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName edge
+key SimpleName MethodInvocation SimpleName edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName reference edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName reference edges
+reference edges SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get reference map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get reference map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName reference edges
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get reference map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get reference map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get reference map
+get reference map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get reference map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+get reference map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get reference map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get reference map SimpleName MethodDeclaration Block EnhancedForStatement SimpleName reference edges
+get reference map SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get reference map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get reference map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute

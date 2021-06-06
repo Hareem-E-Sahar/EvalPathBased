@@ -1,0 +1,92 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+table name SimpleName VariableDeclarationFragment QualifiedName metadata tablename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName metadata tablename
+table id SimpleName MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation QualifiedName metadata tableid
+equals SimpleName MethodInvocation QualifiedName metadata tableid
+table name SimpleName Assignment QualifiedName root tablename
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table name
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table name SimpleName MethodInvocation QualifiedName authorizationsempty
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create scanner
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName isolated scanner
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create scanner
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table name
+mscanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mscanner
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+mscanner SimpleName MethodInvocation SimpleName set range
+mscanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+mscanner SimpleName MethodInvocation SimpleName fetch column family
+mscanner SimpleName MethodInvocation QualifiedName data file column familyname
+fetch column family SimpleName MethodInvocation QualifiedName data file column familyname
+mscanner SimpleName MethodInvocation SimpleName fetch column family
+mscanner SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+fetch column family SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+mscanner SimpleName MethodInvocation SimpleName fetch column family
+mscanner SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+fetch column family SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+mscanner SimpleName MethodInvocation SimpleName fetch column family
+mscanner SimpleName MethodInvocation QualifiedName cloned column familyname
+fetch column family SimpleName MethodInvocation QualifiedName cloned column familyname
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName fetch
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName mscanner
+fetch SimpleName MethodInvocation SimpleName mscanner
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName fetch
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName mscanner
+fetch SimpleName MethodInvocation SimpleName mscanner
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName scanner
+private Modifier MethodDeclaration SimpleName create clone scanner
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SimpleType SimpleName scanner
+static Modifier MethodDeclaration SimpleName create clone scanner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SimpleType SimpleName table not found exception
+scanner SimpleName SimpleType MethodDeclaration SimpleName create clone scanner
+scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conn
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+create clone scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create clone scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+create clone scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+create clone scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+create clone scanner SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+create clone scanner SimpleName MethodDeclaration Block ReturnStatement SimpleName mscanner
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleName create clone scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create clone scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

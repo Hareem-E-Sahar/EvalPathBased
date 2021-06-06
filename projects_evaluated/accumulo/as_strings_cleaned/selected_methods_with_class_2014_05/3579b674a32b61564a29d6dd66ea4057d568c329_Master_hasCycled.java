@@ -1,0 +1,35 @@
+long PrimitiveType SingleVariableDeclaration SimpleName time
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration SimpleName watcher
+watcherstats QualifiedName MethodInvocation SimpleName last scan finished
+watcherstats QualifiedName MethodInvocation InfixExpression SimpleName time
+last scan finished SimpleName MethodInvocation InfixExpression SimpleName time
+time SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+watcher SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+watchers SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has cycled
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName watchers
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName has cycled
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName watchers
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+has cycled SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+has cycled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+has cycled SimpleName MethodDeclaration Block EnhancedForStatement SimpleName watchers
+has cycled SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has cycled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has cycled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

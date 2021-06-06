@@ -1,0 +1,52 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+weak reference SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+table ids SimpleName MethodInvocation SimpleName get
+table ids SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+etir SimpleName VariableDeclarationFragment MethodInvocation SimpleName table ids
+etir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+etir SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+etir SimpleName MethodInvocation SimpleName get
+eti SimpleName VariableDeclarationFragment MethodInvocation SimpleName etir
+eti SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eti
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table id SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+table id SimpleName Assignment ClassInstanceCreation SimpleName table id
+weak reference SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+weak reference SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName table id
+text SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName table id
+table ids SimpleName MethodInvocation SimpleName put
+table ids SimpleName MethodInvocation SimpleName table id
+table ids SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+table id SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+table ids SimpleName SynchronizedStatement Block ReturnStatement SimpleName table id
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SimpleName dedupe table id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+private Modifier MethodDeclaration Block SynchronizedStatement SimpleName table ids
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName dedupe table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName table ids
+text SimpleName SimpleType MethodDeclaration SimpleName dedupe table id
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+dedupe table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+dedupe table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+dedupe table id SimpleName MethodDeclaration Block SynchronizedStatement SimpleName table ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName dedupe table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dedupe table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

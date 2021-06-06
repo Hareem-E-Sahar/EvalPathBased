@@ -1,0 +1,12 @@
+data provider SimpleName MarkerAnnotation MethodDeclaration Modifier public
+data provider SimpleName MarkerAnnotation MethodDeclaration SimpleName invalid attr values
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName invalid attr values
+object SimpleName SimpleType ArrayType MethodDeclaration SimpleName invalid attr values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName data provider
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName invalid attr values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName data provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invalid attr values

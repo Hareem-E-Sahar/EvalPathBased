@@ -1,0 +1,500 @@
+s bb SimpleName MethodInvocation SimpleName secret
+client SimpleName MethodInvocation SimpleName authenticate user
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral root
+client SimpleName MethodInvocation MethodInvocation SimpleName s bb
+client SimpleName MethodInvocation MethodInvocation SimpleName secret
+authenticate user SimpleName MethodInvocation SimpleName creds
+authenticate user SimpleName MethodInvocation StringLiteral root
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName s bb
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName secret
+creds SimpleName MethodInvocation StringLiteral root
+creds SimpleName MethodInvocation MethodInvocation SimpleName s bb
+creds SimpleName MethodInvocation MethodInvocation SimpleName secret
+root StringLiteral MethodInvocation MethodInvocation SimpleName s bb
+root StringLiteral MethodInvocation MethodInvocation SimpleName secret
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+assert true SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral root
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s bb
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName secret
+s bb SimpleName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName authenticate user
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral root
+client SimpleName MethodInvocation MethodInvocation SimpleName s bb
+client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+authenticate user SimpleName MethodInvocation SimpleName creds
+authenticate user SimpleName MethodInvocation StringLiteral root
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName s bb
+authenticate user SimpleName MethodInvocation MethodInvocation StringLiteral empty
+creds SimpleName MethodInvocation StringLiteral root
+creds SimpleName MethodInvocation MethodInvocation SimpleName s bb
+creds SimpleName MethodInvocation MethodInvocation StringLiteral empty
+root StringLiteral MethodInvocation MethodInvocation SimpleName s bb
+root StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+assert false SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral root
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s bb
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+s bb SimpleName MethodInvocation StringLiteral password
+client SimpleName MethodInvocation SimpleName create user
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation MethodInvocation SimpleName s bb
+client SimpleName MethodInvocation MethodInvocation StringLiteral password
+create user SimpleName MethodInvocation SimpleName creds
+create user SimpleName MethodInvocation StringLiteral stooge
+create user SimpleName MethodInvocation MethodInvocation SimpleName s bb
+create user SimpleName MethodInvocation MethodInvocation StringLiteral password
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation MethodInvocation SimpleName s bb
+creds SimpleName MethodInvocation MethodInvocation StringLiteral password
+stooge StringLiteral MethodInvocation MethodInvocation SimpleName s bb
+stooge StringLiteral MethodInvocation MethodInvocation StringLiteral password
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client SimpleName MethodInvocation SimpleName list users
+client SimpleName MethodInvocation SimpleName creds
+list users SimpleName MethodInvocation SimpleName creds
+users SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+users SimpleName VariableDeclarationFragment MethodInvocation SimpleName list users
+users SimpleName VariableDeclarationFragment MethodInvocation SimpleName creds
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation StringLiteral root
+arrays SimpleName MethodInvocation StringLiteral stooge
+as list SimpleName MethodInvocation StringLiteral root
+as list SimpleName MethodInvocation StringLiteral stooge
+root StringLiteral MethodInvocation StringLiteral stooge
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral root
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral stooge
+assert equals SimpleName MethodInvocation SimpleName users
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName users
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName users
+root StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName users
+stooge StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName users
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+s bb SimpleName MethodInvocation StringLiteral a
+s bb SimpleName MethodInvocation StringLiteral b
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName s bb
+arrays SimpleName MethodInvocation MethodInvocation StringLiteral a
+arrays SimpleName MethodInvocation MethodInvocation SimpleName s bb
+arrays SimpleName MethodInvocation MethodInvocation StringLiteral b
+as list SimpleName MethodInvocation MethodInvocation SimpleName s bb
+as list SimpleName MethodInvocation MethodInvocation StringLiteral a
+as list SimpleName MethodInvocation MethodInvocation SimpleName s bb
+as list SimpleName MethodInvocation MethodInvocation StringLiteral b
+s bb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s bb
+s bb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName s bb
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+auths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+auths SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+client SimpleName MethodInvocation SimpleName change user authorizations
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation SimpleName auths
+change user authorizations SimpleName MethodInvocation SimpleName creds
+change user authorizations SimpleName MethodInvocation StringLiteral stooge
+change user authorizations SimpleName MethodInvocation SimpleName auths
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation SimpleName auths
+stooge StringLiteral MethodInvocation SimpleName auths
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+client SimpleName MethodInvocation SimpleName get user authorizations
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+get user authorizations SimpleName MethodInvocation SimpleName creds
+get user authorizations SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral stooge
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user authorizations
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName creds
+update SimpleName VariableDeclarationFragment MethodInvocation StringLiteral stooge
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName update
+byte buffer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName update
+assert equals SimpleName MethodInvocation SimpleName auths
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName update
+auths SimpleName MethodInvocation ClassInstanceCreation SimpleName update
+s bb SimpleName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName change user password
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation MethodInvocation SimpleName s bb
+client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+change user password SimpleName MethodInvocation SimpleName creds
+change user password SimpleName MethodInvocation StringLiteral stooge
+change user password SimpleName MethodInvocation MethodInvocation SimpleName s bb
+change user password SimpleName MethodInvocation MethodInvocation StringLiteral empty
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation MethodInvocation SimpleName s bb
+creds SimpleName MethodInvocation MethodInvocation StringLiteral empty
+stooge StringLiteral MethodInvocation MethodInvocation SimpleName s bb
+stooge StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+s bb SimpleName MethodInvocation StringLiteral empty
+client SimpleName MethodInvocation SimpleName authenticate user
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation MethodInvocation SimpleName s bb
+client SimpleName MethodInvocation MethodInvocation StringLiteral empty
+authenticate user SimpleName MethodInvocation SimpleName creds
+authenticate user SimpleName MethodInvocation StringLiteral stooge
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName s bb
+authenticate user SimpleName MethodInvocation MethodInvocation StringLiteral empty
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation MethodInvocation SimpleName s bb
+creds SimpleName MethodInvocation MethodInvocation StringLiteral empty
+stooge StringLiteral MethodInvocation MethodInvocation SimpleName s bb
+stooge StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+assert true SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s bb
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+s bb SimpleName MethodInvocation StringLiteral empty
+user pass SimpleName SimpleType ClassInstanceCreation StringLiteral stooge
+user pass SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s bb
+user pass SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+stooge StringLiteral ClassInstanceCreation MethodInvocation SimpleName s bb
+stooge StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+stooge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user pass
+stooge SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral stooge
+stooge SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName s bb
+stooge SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral empty
+user pass SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stooge
+client SimpleName MethodInvocation SimpleName create table
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral fail
+client SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName stooge
+create table SimpleName MethodInvocation StringLiteral fail
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+stooge SimpleName MethodInvocation StringLiteral fail
+stooge SimpleName MethodInvocation BooleanLiteral true
+stooge SimpleName MethodInvocation QualifiedName time typemillis
+fail StringLiteral MethodInvocation BooleanLiteral true
+fail StringLiteral MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+fail SimpleName MethodInvocation StringLiteral should not create the table
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+client SimpleName MethodInvocation SimpleName list tables
+client SimpleName MethodInvocation SimpleName creds
+list tables SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation MethodInvocation SimpleName contains
+list tables SimpleName MethodInvocation MethodInvocation SimpleName contains
+creds SimpleName MethodInvocation MethodInvocation SimpleName contains
+client SimpleName MethodInvocation MethodInvocation StringLiteral fail
+list tables SimpleName MethodInvocation MethodInvocation StringLiteral fail
+creds SimpleName MethodInvocation MethodInvocation StringLiteral fail
+contains SimpleName MethodInvocation StringLiteral fail
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list tables
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral fail
+client SimpleName MethodInvocation SimpleName has system permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission SimpleName MethodInvocation SimpleName creds
+has system permission SimpleName MethodInvocation StringLiteral stooge
+has system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation QualifiedName system permissioncreate table
+stooge StringLiteral MethodInvocation QualifiedName system permissioncreate table
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+assert false SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+client SimpleName MethodInvocation SimpleName grant system permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation QualifiedName system permissioncreate table
+grant system permission SimpleName MethodInvocation SimpleName creds
+grant system permission SimpleName MethodInvocation StringLiteral stooge
+grant system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation QualifiedName system permissioncreate table
+stooge StringLiteral MethodInvocation QualifiedName system permissioncreate table
+client SimpleName MethodInvocation SimpleName has system permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission SimpleName MethodInvocation SimpleName creds
+has system permission SimpleName MethodInvocation StringLiteral stooge
+has system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation QualifiedName system permissioncreate table
+stooge StringLiteral MethodInvocation QualifiedName system permissioncreate table
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+assert true SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+client SimpleName MethodInvocation SimpleName create table
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral success
+client SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName stooge
+create table SimpleName MethodInvocation StringLiteral success
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+stooge SimpleName MethodInvocation StringLiteral success
+stooge SimpleName MethodInvocation BooleanLiteral true
+stooge SimpleName MethodInvocation QualifiedName time typemillis
+success StringLiteral MethodInvocation BooleanLiteral true
+success StringLiteral MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+client SimpleName MethodInvocation SimpleName list tables
+client SimpleName MethodInvocation SimpleName creds
+list tables SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation MethodInvocation SimpleName contains
+list tables SimpleName MethodInvocation MethodInvocation SimpleName contains
+creds SimpleName MethodInvocation MethodInvocation SimpleName contains
+client SimpleName MethodInvocation MethodInvocation StringLiteral succcess
+list tables SimpleName MethodInvocation MethodInvocation StringLiteral succcess
+creds SimpleName MethodInvocation MethodInvocation StringLiteral succcess
+contains SimpleName MethodInvocation StringLiteral succcess
+client SimpleName MethodInvocation SimpleName revoke system permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation QualifiedName system permissioncreate table
+revoke system permission SimpleName MethodInvocation SimpleName creds
+revoke system permission SimpleName MethodInvocation StringLiteral stooge
+revoke system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation QualifiedName system permissioncreate table
+stooge StringLiteral MethodInvocation QualifiedName system permissioncreate table
+client SimpleName MethodInvocation SimpleName has system permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission SimpleName MethodInvocation SimpleName creds
+has system permission SimpleName MethodInvocation StringLiteral stooge
+has system permission SimpleName MethodInvocation QualifiedName system permissioncreate table
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation QualifiedName system permissioncreate table
+stooge StringLiteral MethodInvocation QualifiedName system permissioncreate table
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+assert false SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+client SimpleName MethodInvocation SimpleName create table
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral fail
+client SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName stooge
+create table SimpleName MethodInvocation StringLiteral fail
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+stooge SimpleName MethodInvocation StringLiteral fail
+stooge SimpleName MethodInvocation BooleanLiteral true
+stooge SimpleName MethodInvocation QualifiedName time typemillis
+fail StringLiteral MethodInvocation BooleanLiteral true
+fail StringLiteral MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+fail SimpleName MethodInvocation StringLiteral should not create the table
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+client SimpleName MethodInvocation SimpleName list tables
+client SimpleName MethodInvocation SimpleName creds
+list tables SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation MethodInvocation SimpleName contains
+list tables SimpleName MethodInvocation MethodInvocation SimpleName contains
+creds SimpleName MethodInvocation MethodInvocation SimpleName contains
+client SimpleName MethodInvocation MethodInvocation StringLiteral fail
+list tables SimpleName MethodInvocation MethodInvocation StringLiteral fail
+creds SimpleName MethodInvocation MethodInvocation StringLiteral fail
+contains SimpleName MethodInvocation StringLiteral fail
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list tables
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral fail
+client SimpleName MethodInvocation SimpleName create table
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation BooleanLiteral true
+client SimpleName MethodInvocation QualifiedName time typemillis
+create table SimpleName MethodInvocation SimpleName creds
+create table SimpleName MethodInvocation StringLiteral test
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation QualifiedName time typemillis
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation BooleanLiteral true
+creds SimpleName MethodInvocation QualifiedName time typemillis
+test StringLiteral MethodInvocation BooleanLiteral true
+test StringLiteral MethodInvocation QualifiedName time typemillis
+true BooleanLiteral MethodInvocation QualifiedName time typemillis
+client SimpleName MethodInvocation SimpleName create scanner
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral test
+create scanner SimpleName MethodInvocation SimpleName stooge
+create scanner SimpleName MethodInvocation StringLiteral test
+stooge SimpleName MethodInvocation StringLiteral test
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName stooge
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+client SimpleName MethodInvocation SimpleName next k
+client SimpleName MethodInvocation SimpleName scanner
+client SimpleName MethodInvocation NumberLiteral empty
+next k SimpleName MethodInvocation SimpleName scanner
+next k SimpleName MethodInvocation NumberLiteral empty
+scanner SimpleName MethodInvocation NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral stooge should not read table test
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+client SimpleName MethodInvocation SimpleName has table permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation SimpleName creds
+has table permission SimpleName MethodInvocation StringLiteral stooge
+has table permission SimpleName MethodInvocation StringLiteral test
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation QualifiedName table permissionread
+stooge StringLiteral MethodInvocation StringLiteral test
+stooge StringLiteral MethodInvocation QualifiedName table permissionread
+test StringLiteral MethodInvocation QualifiedName table permissionread
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert false SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral test
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+client SimpleName MethodInvocation SimpleName grant table permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation SimpleName creds
+grant table permission SimpleName MethodInvocation StringLiteral stooge
+grant table permission SimpleName MethodInvocation StringLiteral test
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation QualifiedName table permissionread
+stooge StringLiteral MethodInvocation StringLiteral test
+stooge StringLiteral MethodInvocation QualifiedName table permissionread
+test StringLiteral MethodInvocation QualifiedName table permissionread
+client SimpleName MethodInvocation SimpleName has table permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation SimpleName creds
+has table permission SimpleName MethodInvocation StringLiteral stooge
+has table permission SimpleName MethodInvocation StringLiteral test
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation QualifiedName table permissionread
+stooge StringLiteral MethodInvocation StringLiteral test
+stooge StringLiteral MethodInvocation QualifiedName table permissionread
+test StringLiteral MethodInvocation QualifiedName table permissionread
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert true SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral test
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+client SimpleName MethodInvocation SimpleName create scanner
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral test
+create scanner SimpleName MethodInvocation SimpleName stooge
+create scanner SimpleName MethodInvocation StringLiteral test
+stooge SimpleName MethodInvocation StringLiteral test
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName stooge
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+client SimpleName MethodInvocation SimpleName next k
+client SimpleName MethodInvocation SimpleName scanner
+client SimpleName MethodInvocation NumberLiteral empty
+next k SimpleName MethodInvocation SimpleName scanner
+next k SimpleName MethodInvocation NumberLiteral empty
+scanner SimpleName MethodInvocation NumberLiteral empty
+client SimpleName MethodInvocation SimpleName close scanner
+client SimpleName MethodInvocation SimpleName scanner
+close scanner SimpleName MethodInvocation SimpleName scanner
+client SimpleName MethodInvocation SimpleName revoke table permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation QualifiedName table permissionread
+revoke table permission SimpleName MethodInvocation SimpleName creds
+revoke table permission SimpleName MethodInvocation StringLiteral stooge
+revoke table permission SimpleName MethodInvocation StringLiteral test
+revoke table permission SimpleName MethodInvocation QualifiedName table permissionread
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation QualifiedName table permissionread
+stooge StringLiteral MethodInvocation StringLiteral test
+stooge StringLiteral MethodInvocation QualifiedName table permissionread
+test StringLiteral MethodInvocation QualifiedName table permissionread
+client SimpleName MethodInvocation SimpleName has table permission
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation StringLiteral test
+client SimpleName MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation SimpleName creds
+has table permission SimpleName MethodInvocation StringLiteral stooge
+has table permission SimpleName MethodInvocation StringLiteral test
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+creds SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral test
+creds SimpleName MethodInvocation QualifiedName table permissionread
+stooge StringLiteral MethodInvocation StringLiteral test
+stooge StringLiteral MethodInvocation QualifiedName table permissionread
+test StringLiteral MethodInvocation QualifiedName table permissionread
+assert false SimpleName MethodInvocation MethodInvocation SimpleName client
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert false SimpleName MethodInvocation MethodInvocation SimpleName creds
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral stooge
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral test
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+client SimpleName MethodInvocation SimpleName create scanner
+client SimpleName MethodInvocation SimpleName stooge
+client SimpleName MethodInvocation StringLiteral test
+create scanner SimpleName MethodInvocation SimpleName stooge
+create scanner SimpleName MethodInvocation StringLiteral test
+stooge SimpleName MethodInvocation StringLiteral test
+scanner SimpleName Assignment MethodInvocation SimpleName client
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation SimpleName stooge
+scanner SimpleName Assignment MethodInvocation StringLiteral test
+client SimpleName MethodInvocation SimpleName next k
+client SimpleName MethodInvocation SimpleName scanner
+client SimpleName MethodInvocation NumberLiteral empty
+next k SimpleName MethodInvocation SimpleName scanner
+next k SimpleName MethodInvocation NumberLiteral empty
+scanner SimpleName MethodInvocation NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral stooge should not read table test
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+client SimpleName MethodInvocation SimpleName drop user
+client SimpleName MethodInvocation SimpleName creds
+client SimpleName MethodInvocation StringLiteral stooge
+drop user SimpleName MethodInvocation SimpleName creds
+drop user SimpleName MethodInvocation StringLiteral stooge
+creds SimpleName MethodInvocation StringLiteral stooge
+client SimpleName MethodInvocation SimpleName list users
+client SimpleName MethodInvocation SimpleName creds

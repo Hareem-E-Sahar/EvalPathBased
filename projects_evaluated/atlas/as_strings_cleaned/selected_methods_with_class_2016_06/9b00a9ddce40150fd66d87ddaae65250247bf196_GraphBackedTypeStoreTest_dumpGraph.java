@@ -1,0 +1,55 @@
+graph provider SimpleName MethodInvocation SimpleName get
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph provider
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName v
+graph SimpleName MethodInvocation SimpleName get vertices
+graph helper SimpleName MethodInvocation SimpleName vertex string
+graph helper SimpleName MethodInvocation SimpleName v
+vertex string SimpleName MethodInvocation SimpleName v
+v = StringLiteral InfixExpression MethodInvocation SimpleName graph helper
+v = StringLiteral InfixExpression MethodInvocation SimpleName vertex string
+v = StringLiteral InfixExpression MethodInvocation SimpleName v
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral v =
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName graph helper
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName vertex string
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+println SimpleName MethodInvocation InfixExpression StringLiteral v =
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graph helper
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName vertex string
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName e
+v SimpleName MethodInvocation SimpleName get edges
+v SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation QualifiedName directionout
+graph helper SimpleName MethodInvocation SimpleName edge string
+graph helper SimpleName MethodInvocation SimpleName e
+edge string SimpleName MethodInvocation SimpleName e
+e = StringLiteral InfixExpression MethodInvocation SimpleName graph helper
+e = StringLiteral InfixExpression MethodInvocation SimpleName edge string
+e = StringLiteral InfixExpression MethodInvocation SimpleName e
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral e =
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName graph helper
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName edge string
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression StringLiteral e =
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName graph helper
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName edge string
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get edges
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName directionout
+v SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName graph
+v SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get vertices
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName dump graph
+void PrimitiveType MethodDeclaration SimpleName dump graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump graph

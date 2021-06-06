@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+read entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+inputs SimpleName FieldAccess Assignment SimpleName inputs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set inputs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName inputs
+void PrimitiveType MethodDeclaration SimpleName set inputs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName inputs
+set inputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inputs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs

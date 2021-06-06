@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity id
+call api with body and params SimpleName MethodInvocation QualifiedName apilineage inputs graph
+call api with body and params SimpleName MethodInvocation SimpleName entity id
+call api with body and params SimpleName MethodInvocation StringLiteral inputsgraph
+apilineage inputs graph QualifiedName MethodInvocation SimpleName entity id
+apilineage inputs graph QualifiedName MethodInvocation StringLiteral inputsgraph
+entity id SimpleName MethodInvocation StringLiteral inputsgraph
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apilineage inputs graph
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity id
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral inputsgraph
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get json object
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json object SimpleName MethodInvocation QualifiedName atlas clientresults
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName get input graph for entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+json object SimpleName SimpleType MethodDeclaration SimpleName get input graph for entity
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity id
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get input graph for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get input graph for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity id
+get input graph for entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+entity id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get input graph for entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get input graph for entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

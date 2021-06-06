@@ -1,0 +1,73 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName split
+s SimpleName MethodInvocation StringLiteral [ t
+split SimpleName MethodInvocation StringLiteral [ t
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral [ t
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName parts
+key SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName key
+result SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName args
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName args
+result SimpleName MethodInvocation SimpleName entry set
+result SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName make iterator
+make iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+make iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+make iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName make iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

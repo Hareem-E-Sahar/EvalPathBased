@@ -1,0 +1,32 @@
+subject SimpleName MethodInvocation SimpleName is read only
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral subject is readonly
+subject SimpleName MethodInvocation SimpleName get principals
+subject SimpleName MethodInvocation MethodInvocation SimpleName remove
+get principals SimpleName MethodInvocation MethodInvocation SimpleName remove
+subject SimpleName MethodInvocation MethodInvocation SimpleName principal
+get principals SimpleName MethodInvocation MethodInvocation SimpleName principal
+remove SimpleName MethodInvocation SimpleName principal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName logout
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName login exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName logout
+public Modifier MethodDeclaration SimpleType SimpleName login exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName logout
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+logout SimpleName MethodDeclaration SimpleType SimpleName login exception
+logout SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName logout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName logout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

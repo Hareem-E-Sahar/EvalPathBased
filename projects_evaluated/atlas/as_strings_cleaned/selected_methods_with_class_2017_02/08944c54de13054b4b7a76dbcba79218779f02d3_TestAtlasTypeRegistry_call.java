@@ -1,0 +1,97 @@
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num of types per kind
+enum type prefix SimpleName InfixExpression SimpleName i
+atlas enum def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName enum type prefix
+atlas enum def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+add type SimpleName MethodInvocation SimpleName type registry
+add type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum def
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName enum type prefix
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+type registry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum def
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName enum type prefix
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num of types per kind
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num of types per kind SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num of types per kind
+struct type prefix SimpleName InfixExpression SimpleName i
+atlas struct def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName struct type prefix
+atlas struct def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+add type SimpleName MethodInvocation SimpleName type registry
+add type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct def
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName struct type prefix
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+type registry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct def
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName struct type prefix
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num of types per kind
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num of types per kind SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num of types per kind
+classification prefix SimpleName InfixExpression SimpleName i
+atlas classification def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName classification prefix
+atlas classification def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+add type SimpleName MethodInvocation SimpleName type registry
+add type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas classification def
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName classification prefix
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+type registry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas classification def
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName classification prefix
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num of types per kind
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num of types per kind SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num of types per kind
+entity type prefix SimpleName InfixExpression SimpleName i
+atlas entity def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName entity type prefix
+atlas entity def SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName i
+add type SimpleName MethodInvocation SimpleName type registry
+add type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity def
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName entity type prefix
+add type SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+type registry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity def
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName entity type prefix
+type registry SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num of types per kind
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num of types per kind SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

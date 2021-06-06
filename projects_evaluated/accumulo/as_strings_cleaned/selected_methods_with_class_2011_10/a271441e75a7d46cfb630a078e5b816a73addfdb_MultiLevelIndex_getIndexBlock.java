@@ -1,0 +1,72 @@
+index entry SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+iblock SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName index block
+index block SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iblock
+ie SimpleName MethodInvocation SimpleName get offset
+ie SimpleName MethodInvocation SimpleName get compressed size
+ie SimpleName MethodInvocation SimpleName get raw size
+block store SimpleName MethodInvocation SimpleName get meta block
+block store SimpleName MethodInvocation MethodInvocation SimpleName ie
+block store SimpleName MethodInvocation MethodInvocation SimpleName get offset
+block store SimpleName MethodInvocation MethodInvocation SimpleName ie
+block store SimpleName MethodInvocation MethodInvocation SimpleName get compressed size
+block store SimpleName MethodInvocation MethodInvocation SimpleName ie
+block store SimpleName MethodInvocation MethodInvocation SimpleName get raw size
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName ie
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName get offset
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName ie
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName get compressed size
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName ie
+get meta block SimpleName MethodInvocation MethodInvocation SimpleName get raw size
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get compressed size
+get offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+get offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get compressed size
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw size
+get offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+get offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw size
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw size
+get compressed size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ie
+get compressed size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw size
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName block store
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName get meta block
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ie
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get offset
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ie
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get compressed size
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ie
+in SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get raw size
+a block reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+iblock SimpleName MethodInvocation SimpleName read fields
+iblock SimpleName MethodInvocation SimpleName in
+iblock SimpleName MethodInvocation SimpleName version
+read fields SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName version
+in SimpleName MethodInvocation SimpleName version
+in SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration SimpleType SimpleName index block
+private Modifier MethodDeclaration SimpleName get index block
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ie
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName iblock
+index block SimpleName SimpleType MethodDeclaration SimpleName get index block
+index block SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ie
+index block SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get index block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+get index block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ie
+get index block SimpleName MethodDeclaration SimpleType SimpleName io exception
+get index block SimpleName MethodDeclaration Block ReturnStatement SimpleName iblock
+ie SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index block
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ie
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index block
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ie
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

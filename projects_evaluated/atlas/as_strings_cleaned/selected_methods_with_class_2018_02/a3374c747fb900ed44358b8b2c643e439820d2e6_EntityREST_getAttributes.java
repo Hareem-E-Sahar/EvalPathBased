@@ -1,0 +1,81 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+request SimpleName MethodInvocation SimpleName get parameter map
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName request
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName request
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+request SimpleName MethodInvocation SimpleName get parameter map
+request SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get parameter map SimpleName MethodInvocation MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation SimpleName prefix attr
+starts with SimpleName MethodInvocation SimpleName prefix attr
+key SimpleName InfixExpression InfixExpression MethodInvocation SimpleName key
+key SimpleName InfixExpression InfixExpression MethodInvocation SimpleName starts with
+key SimpleName InfixExpression InfixExpression MethodInvocation SimpleName prefix attr
+e SimpleName MethodInvocation SimpleName get value
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+valueslength QualifiedName InfixExpression NumberLiteral empty
+values SimpleName InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+values SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess NumberLiteral empty
+value SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess SimpleName values
+value SimpleName VariableDeclarationFragment ConditionalExpression ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+prefix attr SimpleName MethodInvocation SimpleName length
+key SimpleName MethodInvocation SimpleName substring
+key SimpleName MethodInvocation MethodInvocation SimpleName prefix attr
+key SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName prefix attr
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+attributes SimpleName MethodInvocation SimpleName put
+attributes SimpleName MethodInvocation MethodInvocation SimpleName key
+attributes SimpleName MethodInvocation MethodInvocation SimpleName substring
+attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix attr
+attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+attributes SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName substring
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix attr
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation MethodInvocation SimpleName value
+substring SimpleName MethodInvocation MethodInvocation SimpleName value
+prefix attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+private Modifier MethodDeclaration Block ReturnStatement SimpleName attributes
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

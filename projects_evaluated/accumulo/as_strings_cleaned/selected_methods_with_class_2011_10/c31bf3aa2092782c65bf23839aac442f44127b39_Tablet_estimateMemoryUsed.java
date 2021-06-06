@@ -1,0 +1,13 @@
+key SimpleName MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get SimpleName MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression FieldAccess SimpleName length
+get size SimpleName MethodInvocation InfixExpression FieldAccess SimpleName length
+int PrimitiveType MethodDeclaration SimpleName estimate memory used
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName estimate memory used
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName estimate memory used

@@ -1,0 +1,86 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+files SimpleName MethodInvocation SimpleName size
+deleting StringLiteral InfixExpression MethodInvocation SimpleName files
+deleting StringLiteral InfixExpression MethodInvocation SimpleName size
+deleting StringLiteral InfixExpression StringLiteral log files
+files SimpleName MethodInvocation InfixExpression StringLiteral log files
+size SimpleName MethodInvocation InfixExpression StringLiteral log files
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName files
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral log files
+info SimpleName MethodInvocation InfixExpression StringLiteral deleting
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName files
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+info SimpleName MethodInvocation InfixExpression StringLiteral log files
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file id SimpleName MethodInvocation SimpleName get
+file id SimpleName MethodInvocation SimpleName file
+get SimpleName MethodInvocation SimpleName file
+ignoring attempt to delete open file StringLiteral InfixExpression SimpleName file
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring attempt to delete open file
+log SimpleName MethodInvocation InfixExpression SimpleName file
+warn SimpleName MethodInvocation InfixExpression StringLiteral ignoring attempt to delete open file
+warn SimpleName MethodInvocation InfixExpression SimpleName file
+find local filename SimpleName MethodInvocation SimpleName file
+log archiver SimpleName MethodInvocation SimpleName archive
+log archiver SimpleName MethodInvocation MethodInvocation SimpleName find local filename
+log archiver SimpleName MethodInvocation MethodInvocation SimpleName file
+archive SimpleName MethodInvocation MethodInvocation SimpleName find local filename
+archive SimpleName MethodInvocation MethodInvocation SimpleName file
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to delete files
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable to delete files
+error SimpleName MethodInvocation SimpleName ex
+unable to delete files StringLiteral MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName info
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+void PrimitiveType MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files

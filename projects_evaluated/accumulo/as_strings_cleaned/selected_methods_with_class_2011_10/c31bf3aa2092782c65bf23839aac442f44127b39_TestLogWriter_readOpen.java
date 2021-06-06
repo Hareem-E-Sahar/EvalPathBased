@@ -1,0 +1,77 @@
+log file SimpleName SimpleType SingleVariableDeclaration SimpleName log file
+target StringLiteral InfixExpression QualifiedName log filename
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral target
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName log filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName SimpleType ClassInstanceCreation SimpleName path
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleName path
+assert true SimpleName MethodInvocation MethodInvocation SimpleName fs
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName path
+path SimpleName SimpleType ClassInstanceCreation SimpleName path
+fs SimpleName MethodInvocation SimpleName get conf
+sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+sequence filereader QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName path
+sequence filereader QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+sequence filereader QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName path
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName fs
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName get conf
+path SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName fs
+path SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get conf
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName sequence filereader
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+result SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName path
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fs
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+sequence filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+result SimpleName MethodInvocation SimpleName next
+result SimpleName MethodInvocation SimpleName key
+result SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+assert true SimpleName MethodInvocation MethodInvocation SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName value
+keyevent QualifiedName InfixExpression QualifiedName log eventsopen
+assert true SimpleName MethodInvocation InfixExpression QualifiedName keyevent
+assert true SimpleName MethodInvocation InfixExpression QualifiedName log eventsopen
+keytid QualifiedName InfixExpression QualifiedName log file keyversion
+assert true SimpleName MethodInvocation InfixExpression QualifiedName keytid
+assert true SimpleName MethodInvocation InfixExpression QualifiedName log file keyversion
+private Modifier MethodDeclaration SimpleType QualifiedName sequence filereader
+private Modifier MethodDeclaration SimpleName read open
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName log file
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+sequence filereader QualifiedName SimpleType MethodDeclaration SimpleName read open
+sequence filereader QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName log file
+sequence filereader QualifiedName SimpleType MethodDeclaration SimpleType SimpleName exception
+read open SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file
+read open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log file
+read open SimpleName MethodDeclaration SimpleType SimpleName exception
+read open SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+log file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName sequence filereader
+public Modifier TypeDeclaration MethodDeclaration SimpleName read open
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName sequence filereader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read open
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

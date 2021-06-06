@@ -1,0 +1,155 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName class type definition
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types to test
+class type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types to test
+boolean PrimitiveType ArrayType SingleVariableDeclaration SimpleName composite expected
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+convert v to v SimpleName MethodInvocation SimpleName types to test
+converted entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert v to v
+converted entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName types to test
+create registry SimpleName MethodInvocation SimpleName converted entity defs
+registry SimpleName VariableDeclarationFragment MethodInvocation SimpleName create registry
+registry SimpleName VariableDeclarationFragment MethodInvocation SimpleName converted entity defs
+atlas type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName registry
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+converted entity defs SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName converted entity defs
+i SimpleName InfixExpression MethodInvocation SimpleName size
+converted entity defs SimpleName MethodInvocation SimpleName get
+converted entity defs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+def SimpleName VariableDeclarationFragment MethodInvocation SimpleName converted entity defs
+def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+def SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attr def
+def SimpleName MethodInvocation SimpleName get attribute defs
+composite expected SimpleName ArrayAccess SimpleName i
+convert to json and back SimpleName MethodInvocation SimpleName registry
+convert to json and back SimpleName MethodInvocation SimpleName def
+convert to json and back SimpleName MethodInvocation SimpleName attr def
+convert to json and back SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+convert to json and back SimpleName MethodInvocation ArrayAccess SimpleName i
+registry SimpleName MethodInvocation SimpleName def
+registry SimpleName MethodInvocation SimpleName attr def
+registry SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+registry SimpleName MethodInvocation ArrayAccess SimpleName i
+def SimpleName MethodInvocation SimpleName attr def
+def SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+def SimpleName MethodInvocation ArrayAccess SimpleName i
+attr def SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+attr def SimpleName MethodInvocation ArrayAccess SimpleName i
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert to json and back
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName def
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr def
+converted SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName composite expected
+converted SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName converted
+assert SimpleName MethodInvocation SimpleName attr def
+assert equals SimpleName MethodInvocation SimpleName converted
+assert equals SimpleName MethodInvocation SimpleName attr def
+converted SimpleName MethodInvocation SimpleName attr def
+attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName def
+attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName class type definition
+convert v to v SimpleName MethodInvocation SimpleName converted entity defs
+converted back type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert v to v
+converted back type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName converted entity defs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+types to test SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName types to test
+i SimpleName InfixExpression MethodInvocation SimpleName size
+converted back type defs SimpleName MethodInvocation SimpleName get
+converted back type defs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+converted back SimpleName VariableDeclarationFragment MethodInvocation SimpleName converted back type defs
+converted back SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+converted back SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted back
+types to test SimpleName MethodInvocation SimpleName get
+types to test SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName converted back
+assert SimpleName MethodInvocation MethodInvocation SimpleName types to test
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation SimpleName converted back
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName types to test
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName i
+converted back SimpleName MethodInvocation MethodInvocation SimpleName types to test
+converted back SimpleName MethodInvocation MethodInvocation SimpleName get
+converted back SimpleName MethodInvocation MethodInvocation SimpleName i
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute definition
+converted back SimpleName MethodInvocation SimpleName get attribute definitions
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation SimpleName converted back
+attribute definitions SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute definitions
+attribute definitions SimpleName MethodInvocation SimpleName size
+attribute definitions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+attribute definitions SimpleName MethodInvocation SimpleName get
+attribute definitions SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+attribute definitions SimpleName MethodInvocation MethodInvocation SimpleName get is composite
+get SimpleName MethodInvocation MethodInvocation SimpleName get is composite
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get is composite
+composite expected SimpleName ArrayAccess SimpleName i
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute definitions
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName get is composite
+assert SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+assert SimpleName MethodInvocation ArrayAccess SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute definitions
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get is composite
+assert equals SimpleName MethodInvocation ArrayAccess SimpleName composite expected
+assert equals SimpleName MethodInvocation ArrayAccess SimpleName i
+get is composite SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName composite expected
+get is composite SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test v to v to v conversion
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName types to test
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName test v to v to v conversion
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types to test
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+test v to v to v conversion SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types to test
+test v to v to v conversion SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType boolean
+test v to v to v conversion SimpleName MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+test v to v to v conversion SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+types to test SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+types to test SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+composite expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test v to v to v conversion
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types to test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test v to v to v conversion
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types to test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName composite expected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

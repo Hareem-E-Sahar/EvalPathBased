@@ -1,0 +1,123 @@
+create update entities result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+result SimpleName MethodInvocation SimpleName get entity result
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity result
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+result SimpleName MethodInvocation SimpleName get guid mapping
+mapping SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+mapping SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid mapping
+guid mapping SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapping
+servlets SimpleName MethodInvocation SimpleName get request id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation MethodInvocation SimpleName servlets
+response SimpleName MethodInvocation MethodInvocation SimpleName get request id
+put SimpleName MethodInvocation QualifiedName atlas clientrequest id
+put SimpleName MethodInvocation MethodInvocation SimpleName servlets
+put SimpleName MethodInvocation MethodInvocation SimpleName get request id
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName servlets
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName get request id
+entity result SimpleName MethodInvocation SimpleName to string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity result
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+entity result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName atlas cliententities
+entity result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName atlas cliententities
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName atlas cliententities
+get SimpleName MethodInvocation QualifiedName atlas cliententities
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas cliententities
+response SimpleName MethodInvocation MethodInvocation SimpleName get
+response SimpleName MethodInvocation MethodInvocation QualifiedName atlas cliententities
+put SimpleName MethodInvocation QualifiedName atlas cliententities
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation QualifiedName atlas cliententities
+atlas cliententities QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas cliententities QualifiedName MethodInvocation MethodInvocation QualifiedName atlas cliententities
+result SimpleName MethodInvocation SimpleName get entity result
+get sample SimpleName MethodInvocation MethodInvocation SimpleName result
+get sample SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName result
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sample entity id
+get entity json SimpleName MethodInvocation SimpleName sample entity id
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity json
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName sample entity id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity definition
+json object SimpleName SimpleType ClassInstanceCreation SimpleName entity definition
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientdefinition
+response SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+response SimpleName MethodInvocation ClassInstanceCreation SimpleName entity definition
+put SimpleName MethodInvocation QualifiedName atlas clientdefinition
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName entity definition
+atlas clientdefinition QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+atlas clientdefinition QualifiedName MethodInvocation ClassInstanceCreation SimpleName entity definition
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName mapping
+to v json SimpleName MethodInvocation SimpleName mapping
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas type
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to v json
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mapping
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+atlas type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+to v json SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+mapping SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName atlas clientguid assignments
+atlas type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName atlas clientguid assignments
+to v json SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName atlas clientguid assignments
+mapping SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName atlas clientguid assignments
+get SimpleName MethodInvocation QualifiedName atlas clientguid assignments
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientguid assignments
+response SimpleName MethodInvocation MethodInvocation SimpleName get
+response SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientguid assignments
+put SimpleName MethodInvocation QualifiedName atlas clientguid assignments
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientguid assignments
+atlas clientguid assignments QualifiedName MethodInvocation MethodInvocation SimpleName get
+atlas clientguid assignments QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientguid assignments
+private Modifier MethodDeclaration SimpleType SimpleName json object
+private Modifier MethodDeclaration SimpleName get response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName create update entities result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+json object SimpleName SimpleType MethodDeclaration SimpleName get response
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+get response SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName create update entities result
+get response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get response SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get response SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get response SimpleName MethodDeclaration SimpleType SimpleName json exception
+get response SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+atlas exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

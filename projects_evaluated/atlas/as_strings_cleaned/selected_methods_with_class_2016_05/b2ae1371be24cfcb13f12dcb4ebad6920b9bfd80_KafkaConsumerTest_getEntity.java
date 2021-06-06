@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+entity notification impl test SimpleName MethodInvocation SimpleName get entity
+entity notification impl test SimpleName MethodInvocation StringLiteral id
+get entity SimpleName MethodInvocation StringLiteral id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity notification impl test
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment MethodInvocation StringLiteral id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty map
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName string
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName object
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName empty map
+trait SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+trait SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+trait SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+trait SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty map
+i struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait
+trait info SimpleName MethodInvocation SimpleName add
+trait info SimpleName MethodInvocation SimpleName trait
+add SimpleName MethodInvocation SimpleName trait
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+get entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name

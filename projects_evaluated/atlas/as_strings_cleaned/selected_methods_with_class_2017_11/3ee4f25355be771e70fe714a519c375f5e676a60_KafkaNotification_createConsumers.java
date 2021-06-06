@@ -1,0 +1,134 @@
+notification consumer SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+notification type SimpleName SimpleType SingleVariableDeclaration SimpleName notification type
+int PrimitiveType SingleVariableDeclaration SimpleName num consumers
+boolean PrimitiveType SingleVariableDeclaration SimpleName auto commit enabled
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral ==> kafka notificationcreate consumersnotification type num consumers auto commit enabled
+log SimpleName MethodInvocation SimpleName notification type
+log SimpleName MethodInvocation SimpleName num consumers
+log SimpleName MethodInvocation SimpleName auto commit enabled
+info SimpleName MethodInvocation StringLiteral ==> kafka notificationcreate consumersnotification type num consumers auto commit enabled
+info SimpleName MethodInvocation SimpleName notification type
+info SimpleName MethodInvocation SimpleName num consumers
+info SimpleName MethodInvocation SimpleName auto commit enabled
+==> kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName notification type
+==> kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName num consumers
+==> kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName auto commit enabled
+notification type SimpleName MethodInvocation SimpleName num consumers
+notification type SimpleName MethodInvocation SimpleName auto commit enabled
+num consumers SimpleName MethodInvocation SimpleName auto commit enabled
+get consumer properties SimpleName MethodInvocation SimpleName notification type
+consumer properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get consumer properties
+consumer properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName notification type
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName consumer properties
+get kafka consumer SimpleName MethodInvocation SimpleName consumer properties
+get kafka consumer SimpleName MethodInvocation SimpleName notification type
+get kafka consumer SimpleName MethodInvocation SimpleName auto commit enabled
+consumer properties SimpleName MethodInvocation SimpleName notification type
+consumer properties SimpleName MethodInvocation SimpleName auto commit enabled
+notification type SimpleName MethodInvocation SimpleName auto commit enabled
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation SimpleName notification type
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get kafka consumer
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName consumer properties
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName notification type
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName auto commit enabled
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation SimpleName auto commit enabled
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation SimpleName poll time out ms
+notification type SimpleName ClassInstanceCreation MethodInvocation SimpleName get kafka consumer
+notification type SimpleName ClassInstanceCreation MethodInvocation SimpleName consumer properties
+notification type SimpleName ClassInstanceCreation MethodInvocation SimpleName notification type
+notification type SimpleName ClassInstanceCreation MethodInvocation SimpleName auto commit enabled
+notification type SimpleName ClassInstanceCreation SimpleName auto commit enabled
+notification type SimpleName ClassInstanceCreation SimpleName poll time out ms
+get kafka consumer SimpleName MethodInvocation ClassInstanceCreation SimpleName auto commit enabled
+consumer properties SimpleName MethodInvocation ClassInstanceCreation SimpleName auto commit enabled
+notification type SimpleName MethodInvocation ClassInstanceCreation SimpleName auto commit enabled
+auto commit enabled SimpleName MethodInvocation ClassInstanceCreation SimpleName auto commit enabled
+get kafka consumer SimpleName MethodInvocation ClassInstanceCreation SimpleName poll time out ms
+consumer properties SimpleName MethodInvocation ClassInstanceCreation SimpleName poll time out ms
+notification type SimpleName MethodInvocation ClassInstanceCreation SimpleName poll time out ms
+auto commit enabled SimpleName MethodInvocation ClassInstanceCreation SimpleName poll time out ms
+auto commit enabled SimpleName ClassInstanceCreation SimpleName poll time out ms
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas kafka consumer
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName notification type
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get kafka consumer
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName consumer properties
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName notification type
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName auto commit enabled
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName auto commit enabled
+kafka consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName poll time out ms
+atlas kafka consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kafka consumer
+notification consumer SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName kafka consumer
+singleton list SimpleName MethodInvocation SimpleName kafka consumer
+consumers SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+consumers SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton list
+consumers SimpleName VariableDeclarationFragment MethodInvocation SimpleName kafka consumer
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral <== kafka notificationcreate consumersnotification type num consumers auto commit enabled
+log SimpleName MethodInvocation SimpleName notification type
+log SimpleName MethodInvocation SimpleName num consumers
+log SimpleName MethodInvocation SimpleName auto commit enabled
+info SimpleName MethodInvocation StringLiteral <== kafka notificationcreate consumersnotification type num consumers auto commit enabled
+info SimpleName MethodInvocation SimpleName notification type
+info SimpleName MethodInvocation SimpleName num consumers
+info SimpleName MethodInvocation SimpleName auto commit enabled
+<== kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName notification type
+<== kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName num consumers
+<== kafka notificationcreate consumersnotification type num consumers auto commit enabled StringLiteral MethodInvocation SimpleName auto commit enabled
+notification type SimpleName MethodInvocation SimpleName num consumers
+notification type SimpleName MethodInvocation SimpleName auto commit enabled
+num consumers SimpleName MethodInvocation SimpleName auto commit enabled
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName create consumers
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName notification type
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName create consumers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName notification type
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+t SimpleName TypeParameter MethodDeclaration SimpleName create consumers
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName notification type
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create consumers
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName notification type
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create consumers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+create consumers SimpleName MethodDeclaration Block ReturnStatement SimpleName consumers
+notification type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+notification type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+notification type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+notification type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+num consumers SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+num consumers SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName create consumers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create consumers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName notification type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num consumers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auto commit enabled

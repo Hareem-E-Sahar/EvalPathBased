@@ -1,0 +1,57 @@
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation SimpleName property
+collections SimpleName MethodInvocation SimpleName value
+singleton map SimpleName MethodInvocation SimpleName property
+singleton map SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+atlas client SimpleName MethodInvocation SimpleName get entity by attribute
+atlas client SimpleName MethodInvocation SimpleName type name
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName property
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName value
+get entity by attribute SimpleName MethodInvocation SimpleName type name
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName collections
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName property
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName value
+type name SimpleName MethodInvocation MethodInvocation SimpleName collections
+type name SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+type name SimpleName MethodInvocation MethodInvocation SimpleName property
+type name SimpleName MethodInvocation MethodInvocation SimpleName value
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity by attribute
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton map
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property
+entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName value
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+assert not null SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get entity
+assert predicate SimpleName MethodInvocation SimpleName assert on entity
+assert predicate SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert predicate SimpleName MethodInvocation MethodInvocation SimpleName get entity
+assert on entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+assert on entity SimpleName MethodInvocation MethodInvocation SimpleName get entity
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName evaluate
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+evaluate SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

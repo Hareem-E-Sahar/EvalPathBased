@@ -1,0 +1,172 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column family column qualifier pairs
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName column family column qualifier pairs
+not null SimpleName MethodInvocation SimpleName column family column qualifier pairs
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+column family column qualifier pairs SimpleName MethodInvocation SimpleName size
+column strings SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName column family column qualifier pairs
+column strings SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName column
+column SimpleName MethodInvocation SimpleName get first
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral column family can not be null
+column SimpleName MethodInvocation SimpleName get first
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation MethodInvocation SimpleName column
+text util SimpleName MethodInvocation MethodInvocation SimpleName get first
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName column
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName get first
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName text util
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get first
+encode base SimpleName MethodInvocation MethodInvocation SimpleName text util
+encode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get first
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+col SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+col SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName base
+col SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName encode base
+col SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName charset
+col SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName for name
+col SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col
+column SimpleName MethodInvocation SimpleName get second
+column SimpleName MethodInvocation SimpleName get second
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation MethodInvocation SimpleName column
+text util SimpleName MethodInvocation MethodInvocation SimpleName get second
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName column
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName get second
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation MethodInvocation SimpleName text util
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+encode base SimpleName MethodInvocation MethodInvocation SimpleName text util
+encode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+encode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+: StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName base
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName encode base
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName charset
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName for name
+: StringLiteral InfixExpression ClassInstanceCreation MethodInvocation StringLiteral utf
+col SimpleName Assignment InfixExpression StringLiteral :
+column strings SimpleName MethodInvocation SimpleName add
+column strings SimpleName MethodInvocation SimpleName col
+add SimpleName MethodInvocation SimpleName col
+column SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName column family column qualifier pairs
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName scan optscolumns
+implementing class SimpleName MethodInvocation QualifiedName scan optscolumns
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+column strings SimpleName MethodInvocation SimpleName to array
+column strings SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+conf SimpleName MethodInvocation SimpleName set strings
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName scan optscolumns
+conf SimpleName MethodInvocation MethodInvocation SimpleName column strings
+conf SimpleName MethodInvocation MethodInvocation SimpleName to array
+conf SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+set strings SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set strings SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set strings SimpleName MethodInvocation MethodInvocation QualifiedName scan optscolumns
+set strings SimpleName MethodInvocation MethodInvocation SimpleName column strings
+set strings SimpleName MethodInvocation MethodInvocation SimpleName to array
+set strings SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+enum to conf key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column strings
+enum to conf key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+implementing class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column strings
+implementing class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+scan optscolumns QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName column strings
+scan optscolumns QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fetch columns
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName fetch columns
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+void PrimitiveType MethodDeclaration SimpleName fetch columns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName column family column qualifier pairs
+fetch columns SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+fetch columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+fetch columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+fetch columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+fetch columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+fetch columns SimpleName MethodDeclaration Block EnhancedForStatement SimpleName column family column qualifier pairs
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fetch columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fetch columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family column qualifier pairs

@@ -1,0 +1,500 @@
+name SimpleName MemberValuePair StringLiteral dsl group by queries provider
+data provider SimpleName NormalAnnotation MemberValuePair SimpleName name
+data provider SimpleName NormalAnnotation MemberValuePair StringLiteral dsl group by queries provider
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral mname
+with field names SimpleName MethodInvocation StringLiteral count
+mname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+mname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral max
+mname StringLiteral MethodInvocation MethodInvocation StringLiteral max
+count StringLiteral MethodInvocation MethodInvocation StringLiteral max
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral max
+with expected values SimpleName MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral julius
+max StringLiteral MethodInvocation MethodInvocation StringLiteral julius
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral julius
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation NumberLiteral empty
+julius StringLiteral MethodInvocation NumberLiteral empty
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral max
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation StringLiteral julius
+from person as p mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mentorname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral mentorname
+with field names SimpleName MethodInvocation StringLiteral count
+mentorname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+mentorname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral max
+mentorname StringLiteral MethodInvocation MethodInvocation StringLiteral max
+count StringLiteral MethodInvocation MethodInvocation StringLiteral max
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mentorname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral max
+with expected values SimpleName MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral julius
+max StringLiteral MethodInvocation MethodInvocation StringLiteral julius
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral julius
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation NumberLiteral empty
+julius StringLiteral MethodInvocation NumberLiteral empty
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral max
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation StringLiteral julius
+from person as p mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mentorname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral mentorname
+with field names SimpleName MethodInvocation StringLiteral count
+mentorname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+mentorname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral max
+mentorname StringLiteral MethodInvocation MethodInvocation StringLiteral max
+count StringLiteral MethodInvocation MethodInvocation StringLiteral max
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mentorname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral max
+with expected values SimpleName MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral julius
+max StringLiteral MethodInvocation MethodInvocation StringLiteral julius
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral julius
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+mentorname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation NumberLiteral empty
+julius StringLiteral MethodInvocation NumberLiteral empty
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral max
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation StringLiteral julius
+from person mentor groupbymentorname select mentorname count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral mname
+with field names SimpleName MethodInvocation StringLiteral count
+mname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+mname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral max
+mname StringLiteral MethodInvocation MethodInvocation StringLiteral max
+count StringLiteral MethodInvocation MethodInvocation StringLiteral max
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral max
+with expected values SimpleName MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral julius
+max StringLiteral MethodInvocation MethodInvocation StringLiteral julius
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral julius
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+mname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral julius
+with expected values SimpleName MethodInvocation NumberLiteral empty
+julius StringLiteral MethodInvocation NumberLiteral empty
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral max
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation StringLiteral julius
+from person mentor as m groupbymname select mname count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+from person groupby is organ donor select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person groupby is organ donor select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person groupby is organ donor select count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person groupby is organ donor select count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral personis organ donor
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral personis organ donor
+with field names SimpleName MethodInvocation StringLiteral count
+personis organ donor StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+personis organ donor StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+personis organ donor StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+count StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+personis organ donor StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation BooleanLiteral true
+with expected values SimpleName MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+personis organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+personis organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+with expected values SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+personis organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation BooleanLiteral false
+with expected values SimpleName MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation MethodInvocation BooleanLiteral true
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation BooleanLiteral false
+from person groupby is organ donor select personis organ donor count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral organ donor
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral max
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral min
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral organ donor
+with field names SimpleName MethodInvocation StringLiteral max
+with field names SimpleName MethodInvocation StringLiteral min
+with field names SimpleName MethodInvocation StringLiteral count
+organ donor StringLiteral MethodInvocation StringLiteral max
+organ donor StringLiteral MethodInvocation StringLiteral min
+organ donor StringLiteral MethodInvocation StringLiteral count
+max StringLiteral MethodInvocation StringLiteral min
+max StringLiteral MethodInvocation StringLiteral count
+min StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+organ donor StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+min StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+organ donor StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+max StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+min StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+count StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation BooleanLiteral true
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+max StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+min StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+max StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+min StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+with expected values SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+organ donor StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+max StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+min StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation BooleanLiteral false
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation MethodInvocation BooleanLiteral true
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation BooleanLiteral false
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+from person groupby is organ donor select personis organ donor as organ donor count as count maxpersonage as max minpersonage as min StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+from hive db groupby owner name select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner name select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner name select count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner name select count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral hive dbowner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral hive dbname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral hive dbowner
+with field names SimpleName MethodInvocation StringLiteral hive dbname
+with field names SimpleName MethodInvocation StringLiteral count
+hive dbowner StringLiteral MethodInvocation StringLiteral hive dbname
+hive dbowner StringLiteral MethodInvocation StringLiteral count
+hive dbname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+hive dbowner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+hive dbname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+hive dbowner StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+hive dbname StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+count StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral reporting
+hive dbowner StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+hive dbname StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+count StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+hive dbowner StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+hive dbname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation StringLiteral reporting
+jane bi StringLiteral MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+hive dbowner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+hive dbname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+hive dbowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+hive dbname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+hive dbowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+hive dbname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral logging
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral logging
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hive dbowner StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hive dbname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation StringLiteral logging
+tim etl StringLiteral MethodInvocation NumberLiteral empty
+logging StringLiteral MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral sales
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+logging StringLiteral MethodInvocation MethodInvocation NumberLiteral empty

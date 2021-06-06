@@ -1,0 +1,84 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+byte buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName bytes map
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName bytes map
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName bytes map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+byte buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+byte buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+entry SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+entry SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType ParameterizedType ArrayType PrimitiveType byte
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName bytes
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName bytes
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName bytes
+bytes map SimpleName MethodInvocation SimpleName entry set
+bytes SimpleName MethodInvocation SimpleName get key
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName bytes
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get key
+wrap SimpleName MethodInvocation MethodInvocation SimpleName bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get key
+bytes SimpleName MethodInvocation SimpleName get value
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName bytes
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get value
+wrap SimpleName MethodInvocation MethodInvocation SimpleName bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+result SimpleName MethodInvocation MethodInvocation SimpleName wrap
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+result SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+result SimpleName MethodInvocation MethodInvocation SimpleName wrap
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+put SimpleName MethodInvocation MethodInvocation SimpleName wrap
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+put SimpleName MethodInvocation MethodInvocation SimpleName wrap
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+bytes SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName bytes map
+bytes SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SimpleName convert to byte buffers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes map
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+static Modifier MethodDeclaration SimpleName convert to byte buffers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes map
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert to byte buffers
+byte buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert to byte buffers
+byte buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert to byte buffers
+convert to byte buffers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bytes map
+convert to byte buffers SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert to byte buffers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes map
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert to byte buffers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes map

@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName alias
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add as clausestep name
+log SimpleName MethodInvocation SimpleName alias
+debug SimpleName MethodInvocation StringLiteral add as clausestep name
+debug SimpleName MethodInvocation SimpleName alias
+add as clausestep name StringLiteral MethodInvocation SimpleName alias
+add SimpleName MethodInvocation QualifiedName gremlin clauseas
+add SimpleName MethodInvocation SimpleName alias
+gremlin clauseas QualifiedName MethodInvocation SimpleName alias
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add as clause
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alias
+void PrimitiveType MethodDeclaration SimpleName add as clause
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alias
+add as clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add as clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add as clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add as clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias

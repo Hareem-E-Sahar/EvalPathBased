@@ -1,0 +1,280 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+feed SimpleName SimpleType SingleVariableDeclaration SimpleName feed
+configuration store SimpleName SimpleType SingleVariableDeclaration SimpleName falcon store
+feed SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral creating feed : {}
+log SimpleName MethodInvocation MethodInvocation SimpleName feed
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+info SimpleName MethodInvocation StringLiteral creating feed : {}
+info SimpleName MethodInvocation MethodInvocation SimpleName feed
+info SimpleName MethodInvocation MethodInvocation SimpleName get name
+creating feed : {} StringLiteral MethodInvocation MethodInvocation SimpleName feed
+creating feed : {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+feed SimpleName MethodInvocation SimpleName get clusters
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+orgapachefalconentityv feedcluster QualifiedName SimpleType SingleVariableDeclaration SimpleName feed cluster
+feed SimpleName MethodInvocation SimpleName get clusters
+feed SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+get clusters SimpleName MethodInvocation MethodInvocation SimpleName get clusters
+feed cluster SimpleName MethodInvocation SimpleName get name
+falcon store SimpleName MethodInvocation SimpleName get
+falcon store SimpleName MethodInvocation QualifiedName entity typecluster
+falcon store SimpleName MethodInvocation MethodInvocation SimpleName feed cluster
+falcon store SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation QualifiedName entity typecluster
+get SimpleName MethodInvocation MethodInvocation SimpleName feed cluster
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity typecluster QualifiedName MethodInvocation MethodInvocation SimpleName feed cluster
+entity typecluster QualifiedName MethodInvocation MethodInvocation SimpleName get name
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName falcon store
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cluster SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity typecluster
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName feed cluster
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+orgapachefalconentityv clustercluster QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+cluster SimpleName MethodInvocation SimpleName get name
+cluster SimpleName MethodInvocation SimpleName get colo
+get cluster entity reference SimpleName MethodInvocation MethodInvocation SimpleName cluster
+get cluster entity reference SimpleName MethodInvocation MethodInvocation SimpleName get name
+get cluster entity reference SimpleName MethodInvocation MethodInvocation SimpleName cluster
+get cluster entity reference SimpleName MethodInvocation MethodInvocation SimpleName get colo
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get colo
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get colo
+cluster referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster entity reference
+cluster referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+cluster referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+cluster referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+cluster referenceable SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get colo
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster referenceable
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation SimpleName cluster referenceable
+add SimpleName MethodInvocation SimpleName cluster referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+get input entities SimpleName MethodInvocation SimpleName cluster
+get input entities SimpleName MethodInvocation SimpleName feed
+cluster SimpleName MethodInvocation SimpleName feed
+input referenceables SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input entities
+input referenceables SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+input referenceables SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+entities SimpleName MethodInvocation SimpleName add all
+entities SimpleName MethodInvocation SimpleName input referenceables
+add all SimpleName MethodInvocation SimpleName input referenceables
+input referenceables SimpleName MethodInvocation SimpleName size
+input referenceables SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+input referenceables SimpleName MethodInvocation SimpleName get
+input referenceables SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName input referenceables
+input referenceables SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+input referenceables SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName input referenceables
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+inputs SimpleName MethodInvocation SimpleName add
+inputs SimpleName MethodInvocation MethodInvocation SimpleName input referenceables
+inputs SimpleName MethodInvocation MethodInvocation SimpleName get
+inputs SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation MethodInvocation SimpleName input referenceables
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+create feed entity SimpleName MethodInvocation SimpleName feed
+create feed entity SimpleName MethodInvocation SimpleName cluster referenceable
+feed SimpleName MethodInvocation SimpleName cluster referenceable
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName create feed entity
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster referenceable
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed entity
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation SimpleName feed entity
+add SimpleName MethodInvocation SimpleName feed entity
+outputs SimpleName MethodInvocation SimpleName add
+outputs SimpleName MethodInvocation SimpleName feed entity
+add SimpleName MethodInvocation SimpleName feed entity
+inputs SimpleName MethodInvocation SimpleName is empty
+outputs SimpleName MethodInvocation SimpleName is empty
+falcon data typesfalcon feed creation QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed creation
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+feed create entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+feed create entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed creation
+feed create entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed create entity
+feed SimpleName MethodInvocation SimpleName get name
+cluster SimpleName MethodInvocation SimpleName get name
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName feed
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName cluster
+get feed qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+feed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get feed qualified name
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName feed
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+feed qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed qualified name
+feed SimpleName MethodInvocation SimpleName get name
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName atlas clientname
+feed create entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed create entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName feed
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation SimpleName get name
+feed creation - StringLiteral InfixExpression MethodInvocation SimpleName feed
+feed creation - StringLiteral InfixExpression MethodInvocation SimpleName get name
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName atlas clientdescription
+feed create entity SimpleName MethodInvocation InfixExpression StringLiteral feed creation -
+feed create entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName feed
+feed create entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+set SimpleName MethodInvocation QualifiedName atlas clientdescription
+set SimpleName MethodInvocation InfixExpression StringLiteral feed creation -
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName feed
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+atlas clientdescription QualifiedName MethodInvocation InfixExpression StringLiteral feed creation -
+atlas clientdescription QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName feed
+atlas clientdescription QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+feed create entity SimpleName MethodInvocation SimpleName feed qualified name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName feed qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName feed qualified name
+inputs SimpleName MethodInvocation SimpleName is empty
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName atlas clientprocess attribute inputs
+feed create entity SimpleName MethodInvocation SimpleName inputs
+set SimpleName MethodInvocation QualifiedName atlas clientprocess attribute inputs
+set SimpleName MethodInvocation SimpleName inputs
+atlas clientprocess attribute inputs QualifiedName MethodInvocation SimpleName inputs
+outputs SimpleName MethodInvocation SimpleName is empty
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName atlas clientprocess attribute outputs
+feed create entity SimpleName MethodInvocation SimpleName outputs
+set SimpleName MethodInvocation QualifiedName atlas clientprocess attribute outputs
+set SimpleName MethodInvocation SimpleName outputs
+atlas clientprocess attribute outputs QualifiedName MethodInvocation SimpleName outputs
+feed create entity SimpleName MethodInvocation SimpleName set
+feed create entity SimpleName MethodInvocation QualifiedName falcon bridgestoredin
+feed create entity SimpleName MethodInvocation SimpleName cluster referenceable
+set SimpleName MethodInvocation QualifiedName falcon bridgestoredin
+set SimpleName MethodInvocation SimpleName cluster referenceable
+falcon bridgestoredin QualifiedName MethodInvocation SimpleName cluster referenceable
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation SimpleName feed create entity
+add SimpleName MethodInvocation SimpleName feed create entity
+feed cluster SimpleName MethodInvocation SimpleName get type
+cluster typesource QualifiedName InfixExpression MethodInvocation SimpleName feed cluster
+cluster typesource QualifiedName InfixExpression MethodInvocation SimpleName get type
+replication inputs SimpleName MethodInvocation SimpleName add
+replication inputs SimpleName MethodInvocation SimpleName feed entity
+add SimpleName MethodInvocation SimpleName feed entity
+feed cluster SimpleName MethodInvocation SimpleName get type
+cluster typetarget QualifiedName InfixExpression MethodInvocation SimpleName feed cluster
+cluster typetarget QualifiedName InfixExpression MethodInvocation SimpleName get type
+replication outputs SimpleName MethodInvocation SimpleName add
+replication outputs SimpleName MethodInvocation SimpleName feed entity
+add SimpleName MethodInvocation SimpleName feed entity
+feed cluster SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get clusters
+replication inputs SimpleName MethodInvocation SimpleName is empty
+replication inputs SimpleName MethodInvocation SimpleName is empty
+falcon data typesfalcon feed replication QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed replication
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+feed replication entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+feed replication entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName falcon data typesfalcon feed replication
+feed replication entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed replication entity
+feed SimpleName MethodInvocation SimpleName get name
+feed replication entity SimpleName MethodInvocation SimpleName set
+feed replication entity SimpleName MethodInvocation QualifiedName atlas clientname
+feed replication entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed replication entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName feed
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation SimpleName get name
+feed replication entity SimpleName MethodInvocation SimpleName set
+feed replication entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+feed replication entity SimpleName MethodInvocation MethodInvocation SimpleName feed
+feed replication entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation MethodInvocation SimpleName feed
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName feed
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get name
+feed replication entity SimpleName MethodInvocation SimpleName set
+feed replication entity SimpleName MethodInvocation QualifiedName atlas clientprocess attribute inputs
+feed replication entity SimpleName MethodInvocation SimpleName replication inputs
+set SimpleName MethodInvocation QualifiedName atlas clientprocess attribute inputs
+set SimpleName MethodInvocation SimpleName replication inputs
+atlas clientprocess attribute inputs QualifiedName MethodInvocation SimpleName replication inputs
+feed replication entity SimpleName MethodInvocation SimpleName set
+feed replication entity SimpleName MethodInvocation QualifiedName atlas clientprocess attribute outputs
+feed replication entity SimpleName MethodInvocation SimpleName replication outputs
+set SimpleName MethodInvocation QualifiedName atlas clientprocess attribute outputs
+set SimpleName MethodInvocation SimpleName replication outputs
+atlas clientprocess attribute outputs QualifiedName MethodInvocation SimpleName replication outputs
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation SimpleName feed replication entity
+add SimpleName MethodInvocation SimpleName feed replication entity
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName create feed creation entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration store
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+static Modifier MethodDeclaration SimpleName create feed creation entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration store
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+static Modifier MethodDeclaration SimpleType SimpleName falcon exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create feed creation entity
+referenceable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create feed creation entity
+create feed creation entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feed
+create feed creation entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed
+create feed creation entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration store
+create feed creation entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+create feed creation entity SimpleName MethodDeclaration SimpleType SimpleName falcon exception
+create feed creation entity SimpleName MethodDeclaration SimpleType SimpleName uri syntax exception
+create feed creation entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entities
+feed SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+feed SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+feed SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName uri syntax exception
+falcon store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+falcon store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName uri syntax exception
+falcon exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName uri syntax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create feed creation entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName uri syntax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create feed creation entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falcon store
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName falcon exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName uri syntax exception

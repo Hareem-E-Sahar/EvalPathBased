@@ -1,0 +1,32 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas related object id
+final Modifier SingleVariableDeclaration SimpleName atlas object id
+atlas related object id SimpleName SimpleType SingleVariableDeclaration SimpleName atlas object id
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+assigned entities SimpleName VariableDeclarationFragment FieldAccess SimpleName assigned entities
+assigned entities SimpleName MethodInvocation SimpleName add
+assigned entities SimpleName MethodInvocation SimpleName atlas object id
+add SimpleName MethodInvocation SimpleName atlas object id
+set assigned entities SimpleName MethodInvocation SimpleName assigned entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add assigned entity
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas related object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas object id
+void PrimitiveType MethodDeclaration SimpleName add assigned entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas related object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName atlas object id
+add assigned entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add assigned entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas related object id
+add assigned entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas object id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add assigned entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas object id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add assigned entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas object id

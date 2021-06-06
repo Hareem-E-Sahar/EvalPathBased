@@ -1,0 +1,50 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entities updated
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral updating entity {}
+log SimpleName MethodInvocation SimpleName entities updated
+info SimpleName MethodInvocation StringLiteral updating entity {}
+info SimpleName MethodInvocation SimpleName entities updated
+updating entity {} StringLiteral MethodInvocation SimpleName entities updated
+typed instance to graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName graph to instance mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName typed instance to graph mapper
+instance to graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName graph to instance mapper
+typed instance to graph mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance to graph mapper
+instance to graph mapper SimpleName MethodInvocation SimpleName map typed instance to graph
+instance to graph mapper SimpleName MethodInvocation QualifiedName typed instance to graph mapperoperationupdate full
+instance to graph mapper SimpleName MethodInvocation SimpleName entities updated
+map typed instance to graph SimpleName MethodInvocation QualifiedName typed instance to graph mapperoperationupdate full
+map typed instance to graph SimpleName MethodInvocation SimpleName entities updated
+typed instance to graph mapperoperationupdate full QualifiedName MethodInvocation SimpleName entities updated
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update entities
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName update entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName update entities
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+update entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+entities updated SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities updated
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

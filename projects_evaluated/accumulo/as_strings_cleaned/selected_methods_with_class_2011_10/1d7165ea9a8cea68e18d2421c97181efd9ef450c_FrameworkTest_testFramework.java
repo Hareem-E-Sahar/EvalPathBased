@@ -1,0 +1,35 @@
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+acu home SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+acu home SimpleName VariableDeclarationFragment MethodInvocation SimpleName getenv
+acu home SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo home
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acu home
+framework SimpleName MethodInvocation SimpleName get instance
+framework SimpleName VariableDeclarationFragment MethodInvocation SimpleName framework
+framework SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+framework SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName framework
+acu home SimpleName InfixExpression StringLiteral testsystemrandomwalkconf
+conf dir SimpleName VariableDeclarationFragment InfixExpression SimpleName acu home
+conf dir SimpleName VariableDeclarationFragment InfixExpression StringLiteral testsystemrandomwalkconf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+framework SimpleName MethodInvocation SimpleName run
+framework SimpleName MethodInvocation StringLiteral unitbasicxml
+framework SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName state
+framework SimpleName MethodInvocation SimpleName conf dir
+run SimpleName MethodInvocation StringLiteral unitbasicxml
+run SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName state
+run SimpleName MethodInvocation SimpleName conf dir
+unitbasicxml StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName state
+unitbasicxml StringLiteral MethodInvocation SimpleName conf dir
+state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf dir
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test framework
+void PrimitiveType MethodDeclaration SimpleName test framework
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test framework
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test framework

@@ -1,0 +1,43 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+context SimpleName MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation SimpleName validate options
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName context
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+validate options SimpleName MethodInvocation SimpleName class
+validate options SimpleName MethodInvocation MethodInvocation SimpleName context
+validate options SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName context
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName validate options
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName validate options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName validate options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+validate options SimpleName MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

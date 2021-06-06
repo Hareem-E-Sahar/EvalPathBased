@@ -1,0 +1,108 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName old data
+old state SimpleName VariableDeclarationFragment QualifiedName table stateunknown
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old state
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName table stateunknown
+string SimpleName SimpleType ClassInstanceCreation SimpleName old data
+table state SimpleName MethodInvocation SimpleName value of
+table state SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+table state SimpleName MethodInvocation ClassInstanceCreation SimpleName old data
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+value of SimpleName MethodInvocation ClassInstanceCreation SimpleName old data
+old state SimpleName Assignment MethodInvocation SimpleName table state
+old state SimpleName Assignment MethodInvocation SimpleName value of
+old state SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName old data
+transition SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName transition
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+new state SimpleName InfixExpression QualifiedName table stateoffline
+new state SimpleName InfixExpression QualifiedName table stateonline
+new state SimpleName InfixExpression InfixExpression InfixExpression SimpleName new state
+new state SimpleName InfixExpression InfixExpression InfixExpression QualifiedName table stateonline
+table stateoffline QualifiedName InfixExpression InfixExpression InfixExpression SimpleName new state
+table stateoffline QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName table stateonline
+new state SimpleName InfixExpression QualifiedName table statenew
+transition SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName new state
+transition SimpleName Assignment ParenthesizedExpression InfixExpression QualifiedName table statenew
+transition SimpleName Assignment BooleanLiteral false
+old state SimpleName SwitchStatement SwitchCase SimpleName new
+old state SimpleName SwitchStatement ExpressionStatement Assignment SimpleName transition
+old state SimpleName SwitchStatement SwitchCase SimpleName online
+old state SimpleName SwitchStatement SwitchCase SimpleName unknown
+new SimpleName SwitchCase SwitchStatement SwitchCase SimpleName online
+new SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unknown
+new SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+online SimpleName SwitchCase SwitchStatement SwitchCase SimpleName unknown
+online SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+online SimpleName SwitchCase SwitchStatement SwitchCase SimpleName deleting
+unknown SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+unknown SimpleName SwitchCase SwitchStatement SwitchCase SimpleName deleting
+offline SimpleName SwitchCase SwitchStatement SwitchCase SimpleName deleting
+illegal table transition exception SimpleName SimpleType ClassInstanceCreation SimpleName old state
+illegal table transition exception SimpleName SimpleType ClassInstanceCreation SimpleName new state
+old state SimpleName ClassInstanceCreation SimpleName new state
+transitioning state for table StringLiteral InfixExpression SimpleName table id
+transitioning state for table StringLiteral InfixExpression StringLiteral from
+transitioning state for table StringLiteral InfixExpression SimpleName old state
+transitioning state for table StringLiteral InfixExpression StringLiteral to
+transitioning state for table StringLiteral InfixExpression SimpleName new state
+table id SimpleName InfixExpression StringLiteral from
+table id SimpleName InfixExpression SimpleName old state
+table id SimpleName InfixExpression StringLiteral to
+table id SimpleName InfixExpression SimpleName new state
+from StringLiteral InfixExpression SimpleName old state
+from StringLiteral InfixExpression StringLiteral to
+from StringLiteral InfixExpression SimpleName new state
+old state SimpleName InfixExpression StringLiteral to
+old state SimpleName InfixExpression SimpleName new state
+to StringLiteral InfixExpression SimpleName new state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral transitioning state for table
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression SimpleName old state
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName new state
+debug SimpleName MethodInvocation InfixExpression StringLiteral transitioning state for table
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation InfixExpression StringLiteral from
+debug SimpleName MethodInvocation InfixExpression SimpleName old state
+debug SimpleName MethodInvocation InfixExpression StringLiteral to
+debug SimpleName MethodInvocation InfixExpression SimpleName new state
+new state SimpleName MethodInvocation SimpleName name
+new state SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName old state
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName mutate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName old data
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName mutate
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old data
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block SwitchStatement SimpleName old state
+byte PrimitiveType ArrayType MethodDeclaration SimpleName mutate
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName old data
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+mutate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old data
+mutate SimpleName MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+mutate SimpleName MethodDeclaration Block SwitchStatement SimpleName old state
+old data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName mutate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mutate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

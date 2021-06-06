@@ -1,0 +1,500 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral b
+auths SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName authorizations
+auths SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral a
+auths SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral b
+authorizations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auths
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+conn SimpleName MethodInvocation MethodInvocation SimpleName auths
+security operations SimpleName MethodInvocation MethodInvocation SimpleName auths
+change user authorizations SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+change user authorizations SimpleName MethodInvocation SimpleName auths
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName auths
+authorizations SimpleName SimpleType ClassInstanceCreation StringLiteral a
+filtered auths SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName authorizations
+filtered auths SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral a
+authorizations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filtered auths
+conditional writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set authorizations
+conditional writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName filtered auths
+set authorizations SimpleName MethodInvocation SimpleName filtered auths
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation MethodInvocation SimpleName set authorizations
+conn SimpleName MethodInvocation MethodInvocation SimpleName filtered auths
+create conditional writer SimpleName MethodInvocation SimpleName table name
+create conditional writer SimpleName MethodInvocation MethodInvocation SimpleName set authorizations
+create conditional writer SimpleName MethodInvocation MethodInvocation SimpleName filtered auths
+table name SimpleName MethodInvocation MethodInvocation SimpleName set authorizations
+table name SimpleName MethodInvocation MethodInvocation SimpleName filtered auths
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+cw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set authorizations
+cw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName filtered auths
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral a
+cva SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+cva SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral a
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cva
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral b
+cvb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+cvb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral b
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cvb
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral c
+cvc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column visibility
+cvc SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral c
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cvc
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvb
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+set visibility SimpleName MethodInvocation SimpleName cvb
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvb
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral tx
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral seq
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set visibility
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cvb
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral last
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral doe
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral last
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral doe
+name StringLiteral MethodInvocation StringLiteral last
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral doe
+last StringLiteral MethodInvocation SimpleName cva
+last StringLiteral MethodInvocation StringLiteral doe
+cva SimpleName MethodInvocation StringLiteral doe
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral first
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral john
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral first
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral john
+name StringLiteral MethodInvocation StringLiteral first
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral john
+first StringLiteral MethodInvocation SimpleName cva
+first StringLiteral MethodInvocation StringLiteral john
+cva SimpleName MethodInvocation StringLiteral john
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation SimpleName cva
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation SimpleName cva
+seq StringLiteral MethodInvocation StringLiteral empty
+cva SimpleName MethodInvocation StringLiteral empty
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation SimpleName get status
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvb
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+set visibility SimpleName MethodInvocation SimpleName cvb
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set value
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set value
+set visibility SimpleName MethodInvocation MethodInvocation SimpleName set value
+cvb SimpleName MethodInvocation MethodInvocation SimpleName set value
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral empty
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral empty
+set visibility SimpleName MethodInvocation MethodInvocation StringLiteral empty
+cvb SimpleName MethodInvocation MethodInvocation StringLiteral empty
+set value SimpleName MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set value
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cvb
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+empty StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set value
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral last
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral doe
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral last
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral doe
+name StringLiteral MethodInvocation StringLiteral last
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral doe
+last StringLiteral MethodInvocation SimpleName cva
+last StringLiteral MethodInvocation StringLiteral doe
+cva SimpleName MethodInvocation StringLiteral doe
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral first
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral john
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral first
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral john
+name StringLiteral MethodInvocation StringLiteral first
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral john
+first StringLiteral MethodInvocation SimpleName cva
+first StringLiteral MethodInvocation StringLiteral john
+cva SimpleName MethodInvocation StringLiteral john
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation SimpleName cva
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation SimpleName cva
+seq StringLiteral MethodInvocation StringLiteral empty
+cva SimpleName MethodInvocation StringLiteral empty
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation SimpleName get status
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvc
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvc
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvc
+set visibility SimpleName MethodInvocation SimpleName cvc
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvc
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral tx
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral seq
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvc
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set visibility
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cvc
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral last
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral doe
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral last
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral doe
+name StringLiteral MethodInvocation StringLiteral last
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral doe
+last StringLiteral MethodInvocation SimpleName cva
+last StringLiteral MethodInvocation StringLiteral doe
+cva SimpleName MethodInvocation StringLiteral doe
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral first
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral john
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral first
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral john
+name StringLiteral MethodInvocation StringLiteral first
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral john
+first StringLiteral MethodInvocation SimpleName cva
+first StringLiteral MethodInvocation StringLiteral john
+cva SimpleName MethodInvocation StringLiteral john
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation SimpleName cva
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation SimpleName cva
+seq StringLiteral MethodInvocation StringLiteral empty
+cva SimpleName MethodInvocation StringLiteral empty
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation SimpleName get status
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvc
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvc
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvc
+set visibility SimpleName MethodInvocation SimpleName cvc
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set value
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set value
+set visibility SimpleName MethodInvocation MethodInvocation SimpleName set value
+cvc SimpleName MethodInvocation MethodInvocation SimpleName set value
+tx StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral empty
+seq StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral empty
+set visibility SimpleName MethodInvocation MethodInvocation StringLiteral empty
+cvc SimpleName MethodInvocation MethodInvocation StringLiteral empty
+set value SimpleName MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set value
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName cvc
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set value
+empty StringLiteral ClassInstanceCreation MethodInvocation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set value
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral empty
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral last
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral doe
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral last
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral doe
+name StringLiteral MethodInvocation StringLiteral last
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral doe
+last StringLiteral MethodInvocation SimpleName cva
+last StringLiteral MethodInvocation StringLiteral doe
+cva SimpleName MethodInvocation StringLiteral doe
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral first
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral john
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral first
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral john
+name StringLiteral MethodInvocation StringLiteral first
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral john
+first StringLiteral MethodInvocation SimpleName cva
+first StringLiteral MethodInvocation StringLiteral john
+cva SimpleName MethodInvocation StringLiteral john
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation SimpleName cva
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation SimpleName cva
+seq StringLiteral MethodInvocation StringLiteral empty
+cva SimpleName MethodInvocation StringLiteral empty
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+cw SimpleName MethodInvocation MethodInvocation SimpleName get status
+write SimpleName MethodInvocation MethodInvocation SimpleName get status
+cm SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName statusinvisible visibility
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cw
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName write
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName cm
+statusinvisible visibility QualifiedName MethodInvocation MethodInvocation SimpleName get status
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvb
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+set visibility SimpleName MethodInvocation SimpleName cvb
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral tx
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+tx StringLiteral ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+condition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cva
+tx StringLiteral ClassInstanceCreation MethodInvocation SimpleName cva
+seq StringLiteral ClassInstanceCreation MethodInvocation SimpleName cva
+set visibility SimpleName MethodInvocation SimpleName cva
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cvb
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set visibility
+conditional mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cva
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral tx
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral seq
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName cvb
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral tx
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral seq
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName set visibility
+empty StringLiteral ClassInstanceCreation MethodInvocation SimpleName cva
+set visibility SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set visibility
+set visibility SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cva
+cvb SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set visibility
+cvb SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cva
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set visibility
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cvb
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set visibility
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cva
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral last
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral doe
+put SimpleName MethodInvocation StringLiteral name
+put SimpleName MethodInvocation StringLiteral last
+put SimpleName MethodInvocation SimpleName cva
+put SimpleName MethodInvocation StringLiteral doe
+name StringLiteral MethodInvocation StringLiteral last
+name StringLiteral MethodInvocation SimpleName cva
+name StringLiteral MethodInvocation StringLiteral doe
+last StringLiteral MethodInvocation SimpleName cva
+last StringLiteral MethodInvocation StringLiteral doe
+cva SimpleName MethodInvocation StringLiteral doe
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral name
+cm SimpleName MethodInvocation StringLiteral first
+cm SimpleName MethodInvocation SimpleName cva
+cm SimpleName MethodInvocation StringLiteral john

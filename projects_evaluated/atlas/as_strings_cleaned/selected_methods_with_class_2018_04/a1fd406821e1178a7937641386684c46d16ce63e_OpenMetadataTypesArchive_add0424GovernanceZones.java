@@ -1,0 +1,19 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance zone entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance zone entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get zone governance relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get zone governance relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get zone membership relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get zone membership relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add governance zones
+void PrimitiveType MethodDeclaration SimpleName add governance zones
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add governance zones
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add governance zones

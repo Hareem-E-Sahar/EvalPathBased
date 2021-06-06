@@ -1,0 +1,33 @@
+random SimpleName SimpleType SingleVariableDeclaration SimpleName rand
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation SimpleName num words
+next int SimpleName MethodInvocation SimpleName num words
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation MethodInvocation SimpleName rand
+integer SimpleName MethodInvocation MethodInvocation SimpleName next int
+integer SimpleName MethodInvocation MethodInvocation SimpleName num words
+integer SimpleName MethodInvocation QualifiedName charactermax radix
+to string SimpleName MethodInvocation MethodInvocation SimpleName rand
+to string SimpleName MethodInvocation MethodInvocation SimpleName next int
+to string SimpleName MethodInvocation MethodInvocation SimpleName num words
+to string SimpleName MethodInvocation QualifiedName charactermax radix
+rand SimpleName MethodInvocation MethodInvocation QualifiedName charactermax radix
+next int SimpleName MethodInvocation MethodInvocation QualifiedName charactermax radix
+num words SimpleName MethodInvocation MethodInvocation QualifiedName charactermax radix
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName generate random word
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName rand
+string SimpleName SimpleType MethodDeclaration SimpleName generate random word
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rand
+generate random word SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random
+generate random word SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rand
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate random word
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rand
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate random word
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rand

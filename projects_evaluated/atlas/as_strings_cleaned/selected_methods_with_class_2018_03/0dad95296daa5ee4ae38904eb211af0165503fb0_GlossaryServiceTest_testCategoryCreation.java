@@ -1,0 +1,93 @@
+groups SimpleName MemberValuePair StringLiteral glossarycreate
+depends on methods SimpleName MemberValuePair StringLiteral test create glossary
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create glossary
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on methods
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral test create glossary
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName customer category
+arrays SimpleName MethodInvocation SimpleName mortgage category
+as list SimpleName MethodInvocation SimpleName customer category
+as list SimpleName MethodInvocation SimpleName mortgage category
+customer category SimpleName MethodInvocation SimpleName mortgage category
+glossary service SimpleName MethodInvocation SimpleName create categories
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName as list
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName customer category
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName mortgage category
+create categories SimpleName MethodInvocation MethodInvocation SimpleName arrays
+create categories SimpleName MethodInvocation MethodInvocation SimpleName as list
+create categories SimpleName MethodInvocation MethodInvocation SimpleName customer category
+create categories SimpleName MethodInvocation MethodInvocation SimpleName mortgage category
+categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName create categories
+categories SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+categories SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+categories SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName customer category
+categories SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName mortgage category
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+categories SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+customer category SimpleName MethodInvocation SimpleName set guid
+customer category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categories
+customer category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+customer category SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+customer category SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categories
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+categories SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+mortgage category SimpleName MethodInvocation SimpleName set guid
+mortgage category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categories
+mortgage category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+mortgage category SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+mortgage category SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categories
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral category creation shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+category creation shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test category creation
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test category creation
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test category creation
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test category creation
+test create glossary StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test category creation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test category creation
+void PrimitiveType MethodDeclaration SimpleName test category creation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test category creation
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test category creation

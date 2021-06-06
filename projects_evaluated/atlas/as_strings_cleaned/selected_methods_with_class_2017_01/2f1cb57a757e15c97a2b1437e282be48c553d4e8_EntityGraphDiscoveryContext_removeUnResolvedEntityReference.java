@@ -1,0 +1,29 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+unresolved entity references SimpleName MethodInvocation SimpleName remove
+unresolved entity references SimpleName MethodInvocation SimpleName entity
+remove SimpleName MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName remove un resolved entity reference
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType MethodDeclaration SimpleName remove un resolved entity reference
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+remove un resolved entity reference SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+remove un resolved entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+remove un resolved entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove un resolved entity reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove un resolved entity reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

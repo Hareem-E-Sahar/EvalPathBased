@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName annotation
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName all annotations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName annotation
+public Modifier MethodDeclaration SimpleName get annotations
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get annotations
+annotation SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get annotations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get annotations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get annotations

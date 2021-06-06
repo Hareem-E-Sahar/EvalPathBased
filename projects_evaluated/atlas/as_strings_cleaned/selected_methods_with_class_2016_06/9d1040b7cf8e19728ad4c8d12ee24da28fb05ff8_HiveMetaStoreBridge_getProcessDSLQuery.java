@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s as t where qualified name = s
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName qualified name
+format SimpleName MethodInvocation StringLiteral s as t where qualified name = s
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName qualified name
+s as t where qualified name = s StringLiteral MethodInvocation SimpleName type name
+s as t where qualified name = s StringLiteral MethodInvocation SimpleName qualified name
+type name SimpleName MethodInvocation SimpleName qualified name
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+dsl query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s as t where qualified name = s
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get process dsl query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+static Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get process dsl query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get process dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get process dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get process dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get process dsl query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+get process dsl query SimpleName MethodDeclaration SimpleType SimpleName exception
+get process dsl query SimpleName MethodDeclaration Block ReturnStatement SimpleName dsl query
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

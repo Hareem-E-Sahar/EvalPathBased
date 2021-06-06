@@ -1,0 +1,84 @@
+type system SimpleName MethodInvocation SimpleName get instance
+type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type system
+test utils SimpleName MethodInvocation SimpleName define dept employee types
+test utils SimpleName MethodInvocation SimpleName type system
+define dept employee types SimpleName MethodInvocation SimpleName type system
+test utils SimpleName MethodInvocation SimpleName create dept eg
+test utils SimpleName MethodInvocation SimpleName type system
+create dept eg SimpleName MethodInvocation SimpleName type system
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName create dept eg
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName create entities
+repository service SimpleName MethodInvocation SimpleName hr dept
+create entities SimpleName MethodInvocation SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation StringLiteral person
+repository service SimpleName MethodInvocation StringLiteral name
+repository service SimpleName MethodInvocation StringLiteral jane
+get entity definition SimpleName MethodInvocation StringLiteral person
+get entity definition SimpleName MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation StringLiteral jane
+person StringLiteral MethodInvocation StringLiteral name
+person StringLiteral MethodInvocation StringLiteral jane
+name StringLiteral MethodInvocation StringLiteral jane
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+jane SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+jane SimpleName VariableDeclarationFragment MethodInvocation StringLiteral person
+jane SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+jane SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jane
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane
+jane SimpleName MethodInvocation SimpleName get id
+jane guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName jane
+jane guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jane guid
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation StringLiteral person
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral person
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral person
+person type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+person type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+person type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral person
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName person type
+person type SimpleName MethodInvocation SimpleName create instance
+person type SimpleName MethodInvocation SimpleName jane guid
+create instance SimpleName MethodInvocation SimpleName jane guid
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName person type
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName jane guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName set
+instance SimpleName MethodInvocation StringLiteral org level
+instance SimpleName MethodInvocation StringLiteral l
+set SimpleName MethodInvocation StringLiteral org level
+set SimpleName MethodInvocation StringLiteral l
+org level StringLiteral MethodInvocation StringLiteral l
+repository service SimpleName MethodInvocation SimpleName update entities
+repository service SimpleName MethodInvocation SimpleName instance
+update entities SimpleName MethodInvocation SimpleName instance
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,23 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName set time
+set time SimpleName FieldAccess Assignment SimpleName set time
+set set time is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName import directory args
+public Modifier MethodDeclaration SimpleName set set time
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName set time
+import directory args SimpleName SimpleType MethodDeclaration SimpleName set set time
+import directory args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import directory args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName set time
+set set time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set set time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName set time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName import directory args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set set time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName import directory args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set set time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time

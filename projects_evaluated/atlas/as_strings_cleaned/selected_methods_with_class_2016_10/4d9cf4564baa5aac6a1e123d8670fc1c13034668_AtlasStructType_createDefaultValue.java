@@ -1,0 +1,35 @@
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attribute def SimpleName MethodInvocation SimpleName get name
+attr types SimpleName MethodInvocation SimpleName get
+attr types SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attr types SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr types
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute def
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName MethodInvocation SimpleName create default value
+ret SimpleName Assignment MethodInvocation SimpleName data type
+ret SimpleName Assignment MethodInvocation SimpleName create default value
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName create default value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object SimpleName SimpleType MethodDeclaration SimpleName create default value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+create default value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+create default value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+create default value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName create default value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create default value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def

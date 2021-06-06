@@ -1,0 +1,29 @@
+waiter SimpleName MethodInvocation SimpleName pause
+waiter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal state exception
+pause SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal state exception
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+waiter SimpleName MethodInvocation SimpleName pause
+waiter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal argument exception
+pause SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal argument exception
+assert equals SimpleName MethodInvocation QualifiedName waiterwait duration
+assert equals SimpleName MethodInvocation SimpleName min duration
+waiterwait duration QualifiedName MethodInvocation SimpleName min duration
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName long pause resets
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName long pause resets
+void PrimitiveType MethodDeclaration SimpleName long pause resets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName long pause resets
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName long pause resets

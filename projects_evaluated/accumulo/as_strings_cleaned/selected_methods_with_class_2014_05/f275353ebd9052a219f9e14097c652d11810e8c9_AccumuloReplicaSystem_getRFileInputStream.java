@@ -1,0 +1,25 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral not yet implemented
+protected Modifier MethodDeclaration SimpleType SimpleName data input stream
+protected Modifier MethodDeclaration SimpleName get r file input stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+data input stream SimpleName SimpleType MethodDeclaration SimpleName get r file input stream
+data input stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+data input stream SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get r file input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get r file input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+get r file input stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+p SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName data input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName get r file input stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName data input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get r file input stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

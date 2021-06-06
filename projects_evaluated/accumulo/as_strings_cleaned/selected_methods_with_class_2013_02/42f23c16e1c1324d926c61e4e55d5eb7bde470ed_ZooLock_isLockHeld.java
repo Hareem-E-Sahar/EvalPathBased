@@ -1,0 +1,86 @@
+zoo cache SimpleName SimpleType SingleVariableDeclaration SimpleName zc
+lock id SimpleName SimpleType SingleVariableDeclaration SimpleName lid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zc SimpleName MethodInvocation SimpleName get children
+zc SimpleName MethodInvocation QualifiedName lidpath
+get children SimpleName MethodInvocation QualifiedName lidpath
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lidpath
+children SimpleName MethodInvocation SimpleName size
+children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+children SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName children
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName children
+children SimpleName Assignment ClassInstanceCreation SimpleName children
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName children
+sort SimpleName MethodInvocation SimpleName children
+children SimpleName MethodInvocation SimpleName get
+children SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+lock node SimpleName VariableDeclarationFragment MethodInvocation SimpleName children
+lock node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+lock node SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock node
+lidnode QualifiedName MethodInvocation SimpleName equals
+lidnode QualifiedName MethodInvocation SimpleName lock node
+equals SimpleName MethodInvocation SimpleName lock node
+stat SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stat
+lidpath QualifiedName InfixExpression StringLiteral /
+lidpath QualifiedName InfixExpression QualifiedName lidnode
+/ StringLiteral InfixExpression QualifiedName lidnode
+zc SimpleName MethodInvocation SimpleName get
+zc SimpleName MethodInvocation InfixExpression QualifiedName lidpath
+zc SimpleName MethodInvocation InfixExpression StringLiteral /
+zc SimpleName MethodInvocation InfixExpression QualifiedName lidnode
+zc SimpleName MethodInvocation SimpleName stat
+get SimpleName MethodInvocation InfixExpression QualifiedName lidpath
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression QualifiedName lidnode
+get SimpleName MethodInvocation SimpleName stat
+lidpath QualifiedName InfixExpression MethodInvocation SimpleName stat
+/ StringLiteral InfixExpression MethodInvocation SimpleName stat
+lidnode QualifiedName InfixExpression MethodInvocation SimpleName stat
+stat SimpleName MethodInvocation SimpleName get ephemeral owner
+stat SimpleName MethodInvocation InfixExpression QualifiedName lideid
+get ephemeral owner SimpleName MethodInvocation InfixExpression QualifiedName lideid
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is lock held
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lid
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is lock held
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zc
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName lid
+boolean PrimitiveType MethodDeclaration SimpleName is lock held
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zc
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lid
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zc
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock id
+is lock held SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lid
+zc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is lock held
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is lock held
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lid

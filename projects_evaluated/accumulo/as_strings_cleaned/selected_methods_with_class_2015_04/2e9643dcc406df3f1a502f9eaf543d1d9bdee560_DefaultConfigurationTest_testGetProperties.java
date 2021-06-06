@@ -1,0 +1,48 @@
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+predicates SimpleName MethodInvocation SimpleName always true
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName predicates
+all SimpleName VariableDeclarationFragment MethodInvocation SimpleName always true
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+javautilhash map QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+javautilhash map QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+c SimpleName MethodInvocation SimpleName get properties
+c SimpleName MethodInvocation SimpleName p
+c SimpleName MethodInvocation SimpleName all
+get properties SimpleName MethodInvocation SimpleName p
+get properties SimpleName MethodInvocation SimpleName all
+p SimpleName MethodInvocation SimpleName all
+propertymaster clientport QualifiedName MethodInvocation SimpleName get default value
+propertymaster clientport QualifiedName MethodInvocation SimpleName get key
+p SimpleName MethodInvocation SimpleName get
+p SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+p SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get default value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName p
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+propertymaster clientport QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+propertymaster clientport QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get default value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get default value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get properties
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get properties
+void PrimitiveType MethodDeclaration SimpleName test get properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get properties
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get properties

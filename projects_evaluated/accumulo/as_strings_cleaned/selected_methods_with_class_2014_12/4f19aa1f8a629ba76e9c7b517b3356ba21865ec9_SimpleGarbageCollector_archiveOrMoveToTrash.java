@@ -1,0 +1,23 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+archive file SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName move to trash
+fs SimpleName MethodInvocation SimpleName path
+move to trash SimpleName MethodInvocation SimpleName path
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+boolean PrimitiveType MethodDeclaration SimpleName archive or move to trash
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+archive or move to trash SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+archive or move to trash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+archive or move to trash SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName archive or move to trash
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName archive or move to trash
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

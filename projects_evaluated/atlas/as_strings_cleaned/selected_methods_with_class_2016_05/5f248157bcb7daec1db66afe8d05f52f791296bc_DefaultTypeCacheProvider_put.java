@@ -1,0 +1,43 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+assert valid type SimpleName MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName get name
+types SimpleName MethodInvocation SimpleName put
+types SimpleName MethodInvocation MethodInvocation SimpleName type
+types SimpleName MethodInvocation MethodInvocation SimpleName get name
+types SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName type
+type SimpleName MethodInvocation MethodInvocation SimpleName type
+get name SimpleName MethodInvocation MethodInvocation SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName put
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName put
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+put SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

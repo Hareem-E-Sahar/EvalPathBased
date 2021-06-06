@@ -1,0 +1,58 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+cached configuration SimpleName MethodInvocation SimpleName get instance
+tool runner SimpleName MethodInvocation SimpleName run
+tool runner SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+tool runner SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tool runner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName continuous moru
+tool runner SimpleName MethodInvocation SimpleName args
+run SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+run SimpleName MethodInvocation MethodInvocation SimpleName get instance
+run SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName continuous moru
+run SimpleName MethodInvocation SimpleName args
+cached configuration SimpleName MethodInvocation MethodInvocation SimpleName args
+get instance SimpleName MethodInvocation MethodInvocation SimpleName args
+continuous moru SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName tool runner
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName run
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cached configuration
+res SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+res SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName res
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tool runner
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName run
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName args
+res SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation SimpleName res
+exit SimpleName MethodInvocation SimpleName res
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

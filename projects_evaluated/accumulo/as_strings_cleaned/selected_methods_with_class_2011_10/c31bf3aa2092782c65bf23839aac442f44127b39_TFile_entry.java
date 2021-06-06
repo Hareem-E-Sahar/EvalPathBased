@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration SimpleType SimpleName entry
+public Modifier MethodDeclaration SimpleName entry
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+entry SimpleName SimpleType MethodDeclaration SimpleName entry
+entry SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+entry SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName entry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

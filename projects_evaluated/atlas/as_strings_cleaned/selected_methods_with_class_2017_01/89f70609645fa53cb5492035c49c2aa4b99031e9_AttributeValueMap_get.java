@@ -1,0 +1,21 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName indexed instance
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value map SimpleName MethodInvocation SimpleName get
+value map SimpleName MethodInvocation SimpleName value
+get SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName indexed instance
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+indexed instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

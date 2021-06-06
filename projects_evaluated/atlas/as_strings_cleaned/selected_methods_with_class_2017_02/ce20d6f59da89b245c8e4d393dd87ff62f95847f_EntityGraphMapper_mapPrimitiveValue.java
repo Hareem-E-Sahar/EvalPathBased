@@ -1,0 +1,47 @@
+attribute mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get referring vertex
+ctx SimpleName MethodInvocation SimpleName get vertex property
+ctx SimpleName MethodInvocation SimpleName get value
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get vertex property
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get value
+set property SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set property SimpleName MethodInvocation MethodInvocation SimpleName get referring vertex
+set property SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set property SimpleName MethodInvocation MethodInvocation SimpleName get vertex property
+set property SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set property SimpleName MethodInvocation MethodInvocation SimpleName get value
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+get referring vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get vertex property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ctx
+get vertex property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+ctx SimpleName MethodInvocation SimpleName get value
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName map primitive value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute mutation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+object SimpleName SimpleType MethodDeclaration SimpleName map primitive value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+map primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute mutation context
+map primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map primitive value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map primitive value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,47 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+authenticate SimpleName MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation QualifiedName table permissionbulk import
+has table permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation QualifiedName table permissionbulk import
+c SimpleName MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation QualifiedName table permissionbulk import
+table id SimpleName MethodInvocation BooleanLiteral false
+table permissionbulk import QualifiedName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can bulk import
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration SimpleName can bulk import
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+can bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can bulk import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can bulk import SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can bulk import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can bulk import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

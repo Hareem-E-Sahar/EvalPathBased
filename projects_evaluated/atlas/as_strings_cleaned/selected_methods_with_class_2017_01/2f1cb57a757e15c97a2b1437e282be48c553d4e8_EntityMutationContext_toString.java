@@ -1,0 +1,61 @@
+entity mutation context StringLiteral InfixExpression StringLiteral entities created
+entity mutation context StringLiteral InfixExpression InfixExpression SimpleName entities created
+entities created StringLiteral InfixExpression InfixExpression SimpleName entities created
+entity mutation context StringLiteral InfixExpression InfixExpression StringLiteral entities updated
+entities created StringLiteral InfixExpression InfixExpression StringLiteral entities updated
+entity mutation context StringLiteral InfixExpression InfixExpression SimpleName entities updated
+entities created StringLiteral InfixExpression InfixExpression SimpleName entities updated
+entity mutation context StringLiteral InfixExpression InfixExpression StringLiteral context
+entities created StringLiteral InfixExpression InfixExpression StringLiteral context
+entity mutation context StringLiteral InfixExpression InfixExpression SimpleName context
+entities created StringLiteral InfixExpression InfixExpression SimpleName context
+entities created SimpleName InfixExpression StringLiteral entities updated
+entities created SimpleName InfixExpression SimpleName entities updated
+entities created SimpleName InfixExpression StringLiteral context
+entities created SimpleName InfixExpression SimpleName context
+entities created SimpleName InfixExpression StringLiteral entity vs type
+entities updated StringLiteral InfixExpression SimpleName entities updated
+entities updated StringLiteral InfixExpression StringLiteral context
+entities updated StringLiteral InfixExpression SimpleName context
+entities updated StringLiteral InfixExpression StringLiteral entity vs type
+entities updated StringLiteral InfixExpression SimpleName entity vs type
+entities updated SimpleName InfixExpression StringLiteral context
+entities updated SimpleName InfixExpression SimpleName context
+entities updated SimpleName InfixExpression StringLiteral entity vs type
+entities updated SimpleName InfixExpression SimpleName entity vs type
+entities updated SimpleName InfixExpression StringLiteral entity vs vertex
+context StringLiteral InfixExpression SimpleName context
+context StringLiteral InfixExpression StringLiteral entity vs type
+context StringLiteral InfixExpression SimpleName entity vs type
+context StringLiteral InfixExpression StringLiteral entity vs vertex
+context StringLiteral InfixExpression SimpleName entity vs vertex
+context SimpleName InfixExpression StringLiteral entity vs type
+context SimpleName InfixExpression SimpleName entity vs type
+context SimpleName InfixExpression StringLiteral entity vs vertex
+context SimpleName InfixExpression SimpleName entity vs vertex
+context SimpleName InfixExpression CharacterLiteral }
+entity vs type StringLiteral InfixExpression SimpleName entity vs type
+entity vs type StringLiteral InfixExpression StringLiteral entity vs vertex
+entity vs type StringLiteral InfixExpression SimpleName entity vs vertex
+entity vs type StringLiteral InfixExpression CharacterLiteral }
+entity vs type SimpleName InfixExpression StringLiteral entity vs vertex
+entity vs type SimpleName InfixExpression SimpleName entity vs vertex
+entity vs type SimpleName InfixExpression CharacterLiteral }
+entity vs vertex StringLiteral InfixExpression SimpleName entity vs vertex
+entity vs vertex StringLiteral InfixExpression CharacterLiteral }
+entity vs vertex SimpleName InfixExpression CharacterLiteral }
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

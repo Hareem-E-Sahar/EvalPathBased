@@ -1,0 +1,22 @@
+application properties SimpleName MethodInvocation SimpleName get
+app configuration SimpleName Assignment MethodInvocation SimpleName application properties
+app configuration SimpleName Assignment MethodInvocation SimpleName get
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral could not load application configuration
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral could not load application configuration
+warn SimpleName MethodInvocation SimpleName e
+could not load application configuration StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SimpleName get configuration
+private Modifier MethodDeclaration Block ReturnStatement SimpleName app configuration
+configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+get configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName app configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration

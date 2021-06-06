@@ -1,0 +1,367 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName log path
+int PrimitiveType SingleVariableDeclaration SimpleName buffer size
+short PrimitiveType SingleVariableDeclaration SimpleName replication
+long PrimitiveType SingleVariableDeclaration SimpleName block size
+get file system by path SimpleName MethodInvocation SimpleName log path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system by path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName log path
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get conf
+correct block size SimpleName MethodInvocation MethodInvocation SimpleName fs
+correct block size SimpleName MethodInvocation MethodInvocation SimpleName get conf
+correct block size SimpleName MethodInvocation SimpleName block size
+fs SimpleName MethodInvocation MethodInvocation SimpleName block size
+get conf SimpleName MethodInvocation MethodInvocation SimpleName block size
+block size SimpleName Assignment MethodInvocation SimpleName correct block size
+block size SimpleName Assignment MethodInvocation MethodInvocation SimpleName fs
+block size SimpleName Assignment MethodInvocation MethodInvocation SimpleName get conf
+block size SimpleName Assignment MethodInvocation SimpleName block size
+fs SimpleName MethodInvocation SimpleName get conf
+correct buffer size SimpleName MethodInvocation MethodInvocation SimpleName fs
+correct buffer size SimpleName MethodInvocation MethodInvocation SimpleName get conf
+correct buffer size SimpleName MethodInvocation SimpleName buffer size
+fs SimpleName MethodInvocation MethodInvocation SimpleName buffer size
+get conf SimpleName MethodInvocation MethodInvocation SimpleName buffer size
+buffer size SimpleName Assignment MethodInvocation SimpleName correct buffer size
+buffer size SimpleName Assignment MethodInvocation MethodInvocation SimpleName fs
+buffer size SimpleName Assignment MethodInvocation MethodInvocation SimpleName get conf
+buffer size SimpleName Assignment MethodInvocation SimpleName buffer size
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation StringLiteral orgapachehadoopfscreate flag
+for name SimpleName MethodInvocation StringLiteral orgapachehadoopfscreate flag
+create flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+create flags SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+create flags SimpleName VariableDeclarationFragment MethodInvocation StringLiteral orgapachehadoopfscreate flag
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName create flags
+enum SimpleName SimpleType ParameterizedType WildcardType ?
+list SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+enum SimpleName SimpleType ParameterizedType WildcardType ?
+array list SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+create flags SimpleName MethodInvocation SimpleName is enum
+object SimpleName SimpleType SingleVariableDeclaration SimpleName constant
+create flags SimpleName MethodInvocation SimpleName get enum constants
+constant SimpleName MethodInvocation SimpleName to string
+constant SimpleName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+constant SimpleName MethodInvocation MethodInvocation StringLiteral sync block
+to string SimpleName MethodInvocation MethodInvocation StringLiteral sync block
+equals SimpleName MethodInvocation StringLiteral sync block
+enum SimpleName SimpleType ParameterizedType WildcardType ?
+enum SimpleName SimpleType ParameterizedType CastExpression SimpleName constant
+? WildcardType ParameterizedType CastExpression SimpleName constant
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+flags SimpleName MethodInvocation CastExpression SimpleName constant
+add SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+add SimpleName MethodInvocation CastExpression SimpleName constant
+found synch enum StringLiteral InfixExpression SimpleName constant
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found synch enum
+log SimpleName MethodInvocation InfixExpression SimpleName constant
+debug SimpleName MethodInvocation InfixExpression StringLiteral found synch enum
+debug SimpleName MethodInvocation InfixExpression SimpleName constant
+constant SimpleName MethodInvocation SimpleName to string
+constant SimpleName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+constant SimpleName MethodInvocation MethodInvocation StringLiteral create
+to string SimpleName MethodInvocation MethodInvocation StringLiteral create
+equals SimpleName MethodInvocation StringLiteral create
+enum SimpleName SimpleType ParameterizedType WildcardType ?
+enum SimpleName SimpleType ParameterizedType CastExpression SimpleName constant
+? WildcardType ParameterizedType CastExpression SimpleName constant
+flags SimpleName MethodInvocation SimpleName add
+flags SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+flags SimpleName MethodInvocation CastExpression SimpleName constant
+add SimpleName MethodInvocation CastExpression ParameterizedType WildcardType ?
+add SimpleName MethodInvocation CastExpression SimpleName constant
+found create enum StringLiteral InfixExpression SimpleName constant
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found create enum
+log SimpleName MethodInvocation InfixExpression SimpleName constant
+debug SimpleName MethodInvocation InfixExpression StringLiteral found create enum
+debug SimpleName MethodInvocation InfixExpression SimpleName constant
+constant SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create flags
+constant SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get enum constants
+enum set SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get method
+enum set SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral of
+get method SimpleName MethodInvocation StringLiteral of
+get method SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName javalangenum
+get method SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName javalangenum
+of StringLiteral MethodInvocation TypeLiteral SimpleType QualifiedName javalangenum
+of StringLiteral MethodInvocation TypeLiteral SimpleType QualifiedName javalangenum
+flags SimpleName MethodInvocation SimpleName get
+flags SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+flags SimpleName MethodInvocation SimpleName get
+flags SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get method SimpleName MethodInvocation MethodInvocation SimpleName invoke
+of StringLiteral MethodInvocation MethodInvocation SimpleName invoke
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+of StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+invoke SimpleName MethodInvocation MethodInvocation SimpleName flags
+invoke SimpleName MethodInvocation MethodInvocation SimpleName get
+invoke SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+invoke SimpleName MethodInvocation MethodInvocation SimpleName flags
+invoke SimpleName MethodInvocation MethodInvocation SimpleName get
+invoke SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+flags SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+flags SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+flags SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName flags
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get method
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral of
+set SimpleName VariableDeclarationFragment MethodInvocation SimpleName invoke
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName flags
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName flags
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set
+create flag set StringLiteral InfixExpression SimpleName set
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral create flag set
+log SimpleName MethodInvocation InfixExpression SimpleName set
+debug SimpleName MethodInvocation InfixExpression StringLiteral create flag set
+debug SimpleName MethodInvocation InfixExpression SimpleName set
+fs SimpleName MethodInvocation SimpleName get class
+fs SimpleName MethodInvocation MethodInvocation SimpleName get method
+get class SimpleName MethodInvocation MethodInvocation SimpleName get method
+fs SimpleName MethodInvocation MethodInvocation StringLiteral create
+get class SimpleName MethodInvocation MethodInvocation StringLiteral create
+get method SimpleName MethodInvocation StringLiteral create
+get method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName path
+get method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName fs permission
+get method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName enum set
+get method SimpleName MethodInvocation QualifiedName integertype
+create StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName path
+create StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName fs permission
+create StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName enum set
+create StringLiteral MethodInvocation QualifiedName integertype
+create StringLiteral MethodInvocation QualifiedName shorttype
+path SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName integertype
+path SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName shorttype
+path SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName longtype
+fs permission SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName integertype
+fs permission SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName shorttype
+fs permission SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName longtype
+enum set SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName integertype
+enum set SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName shorttype
+enum set SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName longtype
+integertype QualifiedName MethodInvocation QualifiedName shorttype
+integertype QualifiedName MethodInvocation QualifiedName longtype
+integertype QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName progressable
+shorttype QualifiedName MethodInvocation QualifiedName longtype
+shorttype QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName progressable
+longtype QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName progressable
+create SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+create SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+create SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method
+create SimpleName VariableDeclarationFragment MethodInvocation StringLiteral create
+create SimpleName VariableDeclarationFragment MethodInvocation QualifiedName integertype
+create SimpleName VariableDeclarationFragment MethodInvocation QualifiedName shorttype
+create SimpleName VariableDeclarationFragment MethodInvocation QualifiedName longtype
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName create
+creating StringLiteral InfixExpression SimpleName log path
+creating StringLiteral InfixExpression StringLiteral with synch block flag
+log path SimpleName InfixExpression StringLiteral with synch block flag
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating
+log SimpleName MethodInvocation InfixExpression SimpleName log path
+log SimpleName MethodInvocation InfixExpression StringLiteral with synch block flag
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating
+debug SimpleName MethodInvocation InfixExpression SimpleName log path
+debug SimpleName MethodInvocation InfixExpression StringLiteral with synch block flag
+fs permission SimpleName MethodInvocation SimpleName get default
+create SimpleName MethodInvocation SimpleName invoke
+create SimpleName MethodInvocation SimpleName fs
+create SimpleName MethodInvocation SimpleName log path
+create SimpleName MethodInvocation MethodInvocation SimpleName fs permission
+create SimpleName MethodInvocation MethodInvocation SimpleName get default
+create SimpleName MethodInvocation SimpleName set
+invoke SimpleName MethodInvocation SimpleName fs
+invoke SimpleName MethodInvocation SimpleName log path
+invoke SimpleName MethodInvocation MethodInvocation SimpleName fs permission
+invoke SimpleName MethodInvocation MethodInvocation SimpleName get default
+invoke SimpleName MethodInvocation SimpleName set
+invoke SimpleName MethodInvocation SimpleName buffer size
+fs SimpleName MethodInvocation SimpleName log path
+fs SimpleName MethodInvocation MethodInvocation SimpleName fs permission
+fs SimpleName MethodInvocation MethodInvocation SimpleName get default
+fs SimpleName MethodInvocation SimpleName set
+fs SimpleName MethodInvocation SimpleName buffer size
+fs SimpleName MethodInvocation SimpleName replication
+log path SimpleName MethodInvocation MethodInvocation SimpleName fs permission
+log path SimpleName MethodInvocation MethodInvocation SimpleName get default
+log path SimpleName MethodInvocation SimpleName set
+log path SimpleName MethodInvocation SimpleName buffer size
+log path SimpleName MethodInvocation SimpleName replication
+log path SimpleName MethodInvocation SimpleName block size
+fs permission SimpleName MethodInvocation MethodInvocation SimpleName set
+get default SimpleName MethodInvocation MethodInvocation SimpleName set
+fs permission SimpleName MethodInvocation MethodInvocation SimpleName buffer size
+get default SimpleName MethodInvocation MethodInvocation SimpleName buffer size
+fs permission SimpleName MethodInvocation MethodInvocation SimpleName replication
+get default SimpleName MethodInvocation MethodInvocation SimpleName replication
+fs permission SimpleName MethodInvocation MethodInvocation SimpleName block size
+get default SimpleName MethodInvocation MethodInvocation SimpleName block size
+set SimpleName MethodInvocation SimpleName buffer size
+set SimpleName MethodInvocation SimpleName replication
+set SimpleName MethodInvocation SimpleName block size
+buffer size SimpleName MethodInvocation SimpleName replication
+buffer size SimpleName MethodInvocation SimpleName block size
+replication SimpleName MethodInvocation SimpleName block size
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName create
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName fs
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName log path
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName set
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName buffer size
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName replication
+fs data output stream SimpleName SimpleType CastExpression MethodInvocation SimpleName block size
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+fs SimpleName MethodInvocation SimpleName create
+fs SimpleName MethodInvocation SimpleName log path
+fs SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName buffer size
+fs SimpleName MethodInvocation SimpleName replication
+create SimpleName MethodInvocation SimpleName log path
+create SimpleName MethodInvocation BooleanLiteral true
+create SimpleName MethodInvocation SimpleName buffer size
+create SimpleName MethodInvocation SimpleName replication
+create SimpleName MethodInvocation SimpleName block size
+log path SimpleName MethodInvocation BooleanLiteral true
+log path SimpleName MethodInvocation SimpleName buffer size
+log path SimpleName MethodInvocation SimpleName replication
+log path SimpleName MethodInvocation SimpleName block size
+true BooleanLiteral MethodInvocation SimpleName buffer size
+true BooleanLiteral MethodInvocation SimpleName replication
+true BooleanLiteral MethodInvocation SimpleName block size
+buffer size SimpleName MethodInvocation SimpleName replication
+buffer size SimpleName MethodInvocation SimpleName block size
+replication SimpleName MethodInvocation SimpleName block size
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+fs SimpleName MethodInvocation SimpleName create
+fs SimpleName MethodInvocation SimpleName log path
+fs SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName buffer size
+fs SimpleName MethodInvocation SimpleName replication
+create SimpleName MethodInvocation SimpleName log path
+create SimpleName MethodInvocation BooleanLiteral true
+create SimpleName MethodInvocation SimpleName buffer size
+create SimpleName MethodInvocation SimpleName replication
+create SimpleName MethodInvocation SimpleName block size
+log path SimpleName MethodInvocation BooleanLiteral true
+log path SimpleName MethodInvocation SimpleName buffer size
+log path SimpleName MethodInvocation SimpleName replication
+log path SimpleName MethodInvocation SimpleName block size
+true BooleanLiteral MethodInvocation SimpleName buffer size
+true BooleanLiteral MethodInvocation SimpleName replication
+true BooleanLiteral MethodInvocation SimpleName block size
+buffer size SimpleName MethodInvocation SimpleName replication
+buffer size SimpleName MethodInvocation SimpleName block size
+replication SimpleName MethodInvocation SimpleName block size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName fs data output stream
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create syncable
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName log path
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier MethodDeclaration SimpleType SimpleName fs data output stream
+public Modifier MethodDeclaration SimpleName create syncable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName log path
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName replication
+fs data output stream SimpleName SimpleType MethodDeclaration SimpleName create syncable
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName log path
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName replication
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+fs data output stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName block size
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log path
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName replication
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create syncable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block size
+create syncable SimpleName MethodDeclaration SimpleType SimpleName io exception
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replication
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+log path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+log path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replication
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replication
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+buffer size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+replication SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+replication SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+replication SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+block size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName fs data output stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName create syncable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replication
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName fs data output stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create syncable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buffer size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replication
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

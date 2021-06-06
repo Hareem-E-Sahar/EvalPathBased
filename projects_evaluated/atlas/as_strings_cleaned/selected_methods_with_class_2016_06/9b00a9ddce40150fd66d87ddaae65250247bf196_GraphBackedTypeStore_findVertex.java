@@ -1,0 +1,62 @@
+data typestype category QualifiedName SimpleType SingleVariableDeclaration SimpleName category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral finding vertex for {}.{}
+log SimpleName MethodInvocation SimpleName category
+log SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation StringLiteral finding vertex for {}.{}
+debug SimpleName MethodInvocation SimpleName category
+debug SimpleName MethodInvocation SimpleName type name
+finding vertex for {}.{} StringLiteral MethodInvocation SimpleName category
+finding vertex for {}.{} StringLiteral MethodInvocation SimpleName type name
+category SimpleName MethodInvocation SimpleName type name
+titan graph SimpleName MethodInvocation SimpleName query
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+titan graph SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName type name
+query SimpleName MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation QualifiedName constantstypename property key
+has SimpleName MethodInvocation SimpleName type name
+constantstypename property key QualifiedName MethodInvocation SimpleName type name
+titan graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantstypename property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+type name SimpleName MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantstypename property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName results
+results SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+vertex SimpleName SimpleType CastExpression MethodInvocation SimpleName results
+vertex SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+vertex SimpleName Assignment CastExpression SimpleType SimpleName vertex
+vertex SimpleName Assignment CastExpression MethodInvocation SimpleName results
+vertex SimpleName Assignment CastExpression MethodInvocation SimpleName next
+vertex SimpleName SimpleType MethodDeclaration SimpleName find vertex
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName category
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+find vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

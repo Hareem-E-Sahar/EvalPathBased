@@ -1,0 +1,109 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+job SimpleName MethodInvocation MethodInvocation SimpleName output info has been set
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName output info has been set
+job SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName output info has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+output info has been set SimpleName MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral output info has not been set
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+job SimpleName MethodInvocation MethodInvocation SimpleName instance has been set
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName instance has been set
+job SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName instance has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+instance has been set SimpleName MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral instance info has not been set
+get instance SimpleName MethodInvocation SimpleName job
+get username SimpleName MethodInvocation SimpleName job
+get password SimpleName MethodInvocation SimpleName job
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+job SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get username
+get connector SimpleName MethodInvocation MethodInvocation SimpleName job
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get password
+get connector SimpleName MethodInvocation MethodInvocation SimpleName job
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get username
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get password
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName security operations
+get username SimpleName MethodInvocation SimpleName job
+get password SimpleName MethodInvocation SimpleName job
+c SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName authenticate user
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get username
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get username
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName job
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get password
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName job
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to authenticate user
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName check output specs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName job
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check output specs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check output specs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check output specs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+check output specs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+check output specs SimpleName MethodDeclaration SimpleType SimpleName io exception
+job SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check output specs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check output specs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

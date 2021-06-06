@@ -1,0 +1,61 @@
+in SimpleName MethodInvocation SimpleName get pos
+in SimpleName MethodInvocation InfixExpression SimpleName end
+get pos SimpleName MethodInvocation InfixExpression SimpleName end
+in SimpleName MethodInvocation SimpleName read int
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+version SimpleName InfixExpression NumberLiteral empty
+version SimpleName InfixExpression InfixExpression InfixExpression SimpleName sync
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName sync
+length SimpleName InfixExpression SimpleName sync escape
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName sync check
+read fully SimpleName MethodInvocation SimpleName sync check
+arrays SimpleName MethodInvocation SimpleName equals
+arrays SimpleName MethodInvocation SimpleName sync
+arrays SimpleName MethodInvocation SimpleName sync check
+equals SimpleName MethodInvocation SimpleName sync
+equals SimpleName MethodInvocation SimpleName sync check
+sync SimpleName MethodInvocation SimpleName sync check
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral file is corrupt
+sync seen SimpleName Assignment BooleanLiteral true
+in SimpleName MethodInvocation SimpleName get pos
+in SimpleName MethodInvocation InfixExpression SimpleName end
+get pos SimpleName MethodInvocation InfixExpression SimpleName end
+in SimpleName MethodInvocation SimpleName read int
+length SimpleName Assignment MethodInvocation SimpleName in
+length SimpleName Assignment MethodInvocation SimpleName read int
+sync seen SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName length
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName read record length
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName length
+synchronized Modifier MethodDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SimpleName read record length
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName length
+int PrimitiveType MethodDeclaration SimpleName read record length
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName length
+read record length SimpleName MethodDeclaration SimpleType SimpleName io exception
+read record length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read record length SimpleName MethodDeclaration Block ReturnStatement SimpleName length
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read record length
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read record length
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

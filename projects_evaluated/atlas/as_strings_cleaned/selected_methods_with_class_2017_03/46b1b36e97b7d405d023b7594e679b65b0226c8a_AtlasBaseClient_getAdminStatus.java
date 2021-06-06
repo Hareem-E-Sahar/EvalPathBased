@@ -1,0 +1,63 @@
+result SimpleName VariableDeclarationFragment QualifiedName atlas base clientunknown status
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName atlas base clientunknown status
+status SimpleName MethodInvocation SimpleName get path
+get resource SimpleName MethodInvocation SimpleName service
+get resource SimpleName MethodInvocation MethodInvocation SimpleName status
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get path
+service SimpleName MethodInvocation MethodInvocation SimpleName status
+service SimpleName MethodInvocation MethodInvocation SimpleName get path
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+resource SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+call api with resource SimpleName MethodInvocation SimpleName status
+call api with resource SimpleName MethodInvocation SimpleName resource
+call api with resource SimpleName MethodInvocation TypeLiteral SimpleType SimpleName json object
+status SimpleName MethodInvocation SimpleName resource
+status SimpleName MethodInvocation TypeLiteral SimpleType SimpleName json object
+resource SimpleName MethodInvocation TypeLiteral SimpleType SimpleName json object
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with resource
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral status
+get string SimpleName MethodInvocation StringLiteral status
+result SimpleName Assignment MethodInvocation SimpleName response
+result SimpleName Assignment MethodInvocation SimpleName get string
+result SimpleName Assignment MethodInvocation StringLiteral status
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+response SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while parsing admin status response returned response {}
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while parsing admin status response returned response {}
+error SimpleName MethodInvocation MethodInvocation SimpleName response
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation SimpleName e
+exception while parsing admin status response returned response {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+exception while parsing admin status response returned response {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+exception while parsing admin status response returned response {} StringLiteral MethodInvocation SimpleName e
+response SimpleName MethodInvocation MethodInvocation SimpleName e
+to string SimpleName MethodInvocation MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get admin status
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName get admin status
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get admin status SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+get admin status SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get admin status
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get admin status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

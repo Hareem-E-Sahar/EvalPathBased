@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName cache stats
+public Modifier MethodDeclaration SimpleName get stats
+cache stats SimpleName SimpleType MethodDeclaration SimpleName get stats
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cache stats
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stats
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cache stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stats

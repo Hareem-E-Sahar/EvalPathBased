@@ -1,0 +1,49 @@
+guid SimpleName VariableDeclarationFragment StringLiteral b d f - cb f f de
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral b d f - cb f f de
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral b d f - cb f f de
+description SimpleName VariableDeclarationFragment StringLiteral an array of strings
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral an array of strings
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral an array of strings
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+archive helper SimpleName MethodInvocation SimpleName get array collection def
+archive helper SimpleName MethodInvocation SimpleName guid
+archive helper SimpleName MethodInvocation SimpleName description
+archive helper SimpleName MethodInvocation SimpleName description guid
+archive helper SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+get array collection def SimpleName MethodInvocation SimpleName guid
+get array collection def SimpleName MethodInvocation SimpleName description
+get array collection def SimpleName MethodInvocation SimpleName description guid
+get array collection def SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+guid SimpleName MethodInvocation SimpleName description
+guid SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description SimpleName MethodInvocation SimpleName description guid
+description SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName collection def
+private Modifier MethodDeclaration SimpleName get array string collection def
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+collection def SimpleName SimpleType MethodDeclaration SimpleName get array string collection def
+get array string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get array string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get array string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName collection def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get array string collection def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName collection def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get array string collection def

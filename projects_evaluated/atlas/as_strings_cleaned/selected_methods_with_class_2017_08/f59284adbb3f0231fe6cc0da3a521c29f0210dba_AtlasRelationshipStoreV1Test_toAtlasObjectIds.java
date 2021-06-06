@@ -1,0 +1,83 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+object SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType WildcardType ?
+list SimpleName SimpleType CastExpression SimpleName object
+object ids SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+object ids SimpleName VariableDeclarationFragment CastExpression SimpleName object
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName object ids
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName object ids
+is not empty SimpleName MethodInvocation SimpleName object ids
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName atlas related object id
+atlas related object id SimpleName SimpleType CastExpression SimpleName obj
+related object id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas related object id
+related object id SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+atlas related object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related object id
+related object id SimpleName MethodInvocation SimpleName get guid
+related object id SimpleName MethodInvocation SimpleName get type name
+related object id SimpleName MethodInvocation SimpleName get unique attributes
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName related object id
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName related object id
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName related object id
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+related object id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+ret SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName related object id
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName object ids
+obj SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName object ids
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas object id
+protected Modifier MethodDeclaration SimpleName to atlas object ids
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas object id
+static Modifier MethodDeclaration SimpleName to atlas object ids
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas object ids
+atlas object id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas object ids
+to atlas object ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+to atlas object ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+to atlas object ids SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas object ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas object ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object

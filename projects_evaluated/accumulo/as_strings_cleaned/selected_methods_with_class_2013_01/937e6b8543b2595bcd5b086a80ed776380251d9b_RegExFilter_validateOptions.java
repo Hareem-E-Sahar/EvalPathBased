@@ -1,0 +1,168 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+validate options SimpleName SuperMethodInvocation SimpleName options
+validate options SimpleName SuperMethodInvocation InfixExpression BooleanLiteral false
+options SimpleName SuperMethodInvocation InfixExpression BooleanLiteral false
+false BooleanLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName row regex
+contains key SimpleName MethodInvocation SimpleName row regex
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName row regex
+get SimpleName MethodInvocation SimpleName row regex
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation MethodInvocation SimpleName options
+pattern SimpleName MethodInvocation MethodInvocation SimpleName get
+pattern SimpleName MethodInvocation MethodInvocation SimpleName row regex
+compile SimpleName MethodInvocation MethodInvocation SimpleName options
+compile SimpleName MethodInvocation MethodInvocation SimpleName get
+compile SimpleName MethodInvocation MethodInvocation SimpleName row regex
+pattern SimpleName MethodInvocation MethodInvocation SimpleName matcher
+compile SimpleName MethodInvocation MethodInvocation SimpleName matcher
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+row regex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+pattern SimpleName MethodInvocation MethodInvocation StringLiteral empty
+compile SimpleName MethodInvocation MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+row regex SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+matcher SimpleName MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName colf regex
+contains key SimpleName MethodInvocation SimpleName colf regex
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName colf regex
+get SimpleName MethodInvocation SimpleName colf regex
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation MethodInvocation SimpleName options
+pattern SimpleName MethodInvocation MethodInvocation SimpleName get
+pattern SimpleName MethodInvocation MethodInvocation SimpleName colf regex
+compile SimpleName MethodInvocation MethodInvocation SimpleName options
+compile SimpleName MethodInvocation MethodInvocation SimpleName get
+compile SimpleName MethodInvocation MethodInvocation SimpleName colf regex
+pattern SimpleName MethodInvocation MethodInvocation SimpleName matcher
+compile SimpleName MethodInvocation MethodInvocation SimpleName matcher
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+colf regex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+pattern SimpleName MethodInvocation MethodInvocation StringLiteral empty
+compile SimpleName MethodInvocation MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+colf regex SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+matcher SimpleName MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName colq regex
+contains key SimpleName MethodInvocation SimpleName colq regex
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName colq regex
+get SimpleName MethodInvocation SimpleName colq regex
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation MethodInvocation SimpleName options
+pattern SimpleName MethodInvocation MethodInvocation SimpleName get
+pattern SimpleName MethodInvocation MethodInvocation SimpleName colq regex
+compile SimpleName MethodInvocation MethodInvocation SimpleName options
+compile SimpleName MethodInvocation MethodInvocation SimpleName get
+compile SimpleName MethodInvocation MethodInvocation SimpleName colq regex
+pattern SimpleName MethodInvocation MethodInvocation SimpleName matcher
+compile SimpleName MethodInvocation MethodInvocation SimpleName matcher
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+colq regex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+pattern SimpleName MethodInvocation MethodInvocation StringLiteral empty
+compile SimpleName MethodInvocation MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+colq regex SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+matcher SimpleName MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName value regex
+contains key SimpleName MethodInvocation SimpleName value regex
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName value regex
+get SimpleName MethodInvocation SimpleName value regex
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation MethodInvocation SimpleName options
+pattern SimpleName MethodInvocation MethodInvocation SimpleName get
+pattern SimpleName MethodInvocation MethodInvocation SimpleName value regex
+compile SimpleName MethodInvocation MethodInvocation SimpleName options
+compile SimpleName MethodInvocation MethodInvocation SimpleName get
+compile SimpleName MethodInvocation MethodInvocation SimpleName value regex
+pattern SimpleName MethodInvocation MethodInvocation SimpleName matcher
+compile SimpleName MethodInvocation MethodInvocation SimpleName matcher
+options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+value regex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName matcher
+pattern SimpleName MethodInvocation MethodInvocation StringLiteral empty
+compile SimpleName MethodInvocation MethodInvocation StringLiteral empty
+options SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+value regex SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+matcher SimpleName MethodInvocation StringLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral bad regex
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bad regex StringLiteral ClassInstanceCreation SimpleName e
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName encoding
+contains key SimpleName MethodInvocation SimpleName encoding
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName encoding
+get SimpleName MethodInvocation SimpleName encoding
+encoding SimpleName FieldAccess Assignment MethodInvocation SimpleName options
+encoding SimpleName FieldAccess Assignment MethodInvocation SimpleName get
+encoding SimpleName FieldAccess Assignment MethodInvocation SimpleName encoding
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation FieldAccess SimpleName encoding
+equals SimpleName MethodInvocation FieldAccess SimpleName encoding
+encoding SimpleName Assignment SimpleName encoding default
+test StringLiteral MethodInvocation SimpleName get bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral test
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName encoding
+test StringLiteral MethodInvocation ClassInstanceCreation SimpleName encoding
+get bytes SimpleName MethodInvocation ClassInstanceCreation SimpleName encoding
+unsupported encoding exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+invalid encoding StringLiteral InfixExpression SimpleName encoding
+invalid encoding StringLiteral InfixExpression StringLiteral :
+invalid encoding StringLiteral InfixExpression FieldAccess SimpleName encoding
+encoding SimpleName InfixExpression StringLiteral :
+encoding SimpleName InfixExpression FieldAccess SimpleName encoding
+: StringLiteral InfixExpression FieldAccess SimpleName encoding
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid encoding
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName encoding
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+invalid encoding StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+encoding SimpleName InfixExpression ClassInstanceCreation SimpleName e
+: StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+encoding SimpleName FieldAccess InfixExpression ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate options
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName validate options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName validate options
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+validate options SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

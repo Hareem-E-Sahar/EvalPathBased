@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+updated entities SimpleName MethodInvocation SimpleName contains key
+updated entities SimpleName MethodInvocation SimpleName guid
+contains key SimpleName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is updated entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+boolean PrimitiveType MethodDeclaration SimpleName is updated entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+is updated entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is updated entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is updated entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is updated entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

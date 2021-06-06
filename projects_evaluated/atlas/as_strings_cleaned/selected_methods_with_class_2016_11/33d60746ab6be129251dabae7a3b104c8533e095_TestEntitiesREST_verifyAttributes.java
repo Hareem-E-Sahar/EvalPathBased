@@ -1,0 +1,85 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source attrs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source attrs
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source attrs
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName target attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName target attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName target attributes
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+source attrs SimpleName MethodInvocation SimpleName key set
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral verifying attribute {}
+log SimpleName MethodInvocation SimpleName name
+info SimpleName MethodInvocation StringLiteral verifying attribute {}
+info SimpleName MethodInvocation SimpleName name
+verifying attribute {} StringLiteral MethodInvocation SimpleName name
+target attributes SimpleName MethodInvocation SimpleName get
+target attributes SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+source attrs SimpleName MethodInvocation SimpleName get
+source attrs SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName target attributes
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation SimpleName name
+assert SimpleName MethodInvocation MethodInvocation SimpleName source attrs
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName target attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName source attrs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName name
+target attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName source attrs
+target attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+target attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName source attrs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName source attrs
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName source attrs
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName verify attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName verify attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+verify attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+verify attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+verify attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+source attrs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+source attrs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+target attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source attrs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

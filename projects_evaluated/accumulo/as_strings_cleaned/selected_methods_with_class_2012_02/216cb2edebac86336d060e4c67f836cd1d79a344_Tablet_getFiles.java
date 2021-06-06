@@ -1,0 +1,26 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+datafile sizes SimpleName MethodInvocation SimpleName key set
+path SimpleName MethodInvocation SimpleName to string
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation MethodInvocation SimpleName path
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName path
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName datafile sizes
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+collections SimpleName MethodInvocation SimpleName unmodifiable set
+collections SimpleName MethodInvocation SimpleName files
+unmodifiable set SimpleName MethodInvocation SimpleName files
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get files
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get files
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get files
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get files

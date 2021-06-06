@@ -1,0 +1,112 @@
+entry SimpleName InfixExpression PrefixExpression NumberLiteral empty
+parsed lock SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lock type
+parsed lock SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName user data
+lock type SimpleName MethodInvocation ClassInstanceCreation FieldAccess SimpleName user data
+parsed lock SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get lock data
+lock type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get lock data
+user data SimpleName FieldAccess ClassInstanceCreation MethodInvocation SimpleName get lock data
+qlock SimpleName MethodInvocation SimpleName add entry
+qlock SimpleName MethodInvocation MethodInvocation SimpleName get lock data
+add entry SimpleName MethodInvocation MethodInvocation SimpleName get lock data
+entry SimpleName Assignment MethodInvocation SimpleName qlock
+entry SimpleName Assignment MethodInvocation SimpleName add entry
+entry SimpleName Assignment MethodInvocation MethodInvocation SimpleName get lock data
+string SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName user data
+added lock entry StringLiteral InfixExpression SimpleName entry
+added lock entry StringLiteral InfixExpression StringLiteral user data
+added lock entry StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+added lock entry StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+added lock entry StringLiteral InfixExpression StringLiteral lock type
+added lock entry StringLiteral InfixExpression MethodInvocation SimpleName lock type
+entry SimpleName InfixExpression StringLiteral user data
+entry SimpleName InfixExpression ClassInstanceCreation SimpleType SimpleName string
+entry SimpleName InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+entry SimpleName InfixExpression StringLiteral lock type
+entry SimpleName InfixExpression MethodInvocation SimpleName lock type
+user data StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+user data StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+user data StringLiteral InfixExpression StringLiteral lock type
+user data StringLiteral InfixExpression MethodInvocation SimpleName lock type
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lock type
+user data SimpleName FieldAccess ClassInstanceCreation InfixExpression StringLiteral lock type
+lock type StringLiteral InfixExpression MethodInvocation SimpleName lock type
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral added lock entry
+log SimpleName MethodInvocation InfixExpression SimpleName entry
+log SimpleName MethodInvocation InfixExpression StringLiteral user data
+log SimpleName MethodInvocation InfixExpression StringLiteral lock type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock type
+info SimpleName MethodInvocation InfixExpression StringLiteral added lock entry
+info SimpleName MethodInvocation InfixExpression SimpleName entry
+info SimpleName MethodInvocation InfixExpression StringLiteral user data
+info SimpleName MethodInvocation InfixExpression StringLiteral lock type
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lock type
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+sorted map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+long SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+qlock SimpleName MethodInvocation SimpleName get earlier entries
+qlock SimpleName MethodInvocation SimpleName entry
+get earlier entries SimpleName MethodInvocation SimpleName entry
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName qlock
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName get earlier entries
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+long SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+entries SimpleName MethodInvocation SimpleName entry set
+entries SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entries
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+string SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName user data
+did not find our own lock in the queue StringLiteral InfixExpression FieldAccess SimpleName entry
+did not find our own lock in the queue StringLiteral InfixExpression StringLiteral user data
+did not find our own lock in the queue StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+did not find our own lock in the queue StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+did not find our own lock in the queue StringLiteral InfixExpression StringLiteral lock type
+did not find our own lock in the queue StringLiteral InfixExpression MethodInvocation SimpleName lock type
+entry SimpleName FieldAccess InfixExpression StringLiteral user data
+entry SimpleName FieldAccess InfixExpression StringLiteral lock type
+entry SimpleName FieldAccess InfixExpression MethodInvocation SimpleName lock type
+user data StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+user data StringLiteral InfixExpression ClassInstanceCreation FieldAccess SimpleName user data
+user data StringLiteral InfixExpression StringLiteral lock type
+user data StringLiteral InfixExpression MethodInvocation SimpleName lock type
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lock type
+user data SimpleName FieldAccess ClassInstanceCreation InfixExpression StringLiteral lock type
+lock type StringLiteral InfixExpression MethodInvocation SimpleName lock type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral did not find our own lock in the queue
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral user data
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lock type
+iterator SimpleName MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName get key
+next SimpleName MethodInvocation MethodInvocation SimpleName get key
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+next SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+next SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+entry SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName try lock
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName try lock
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName try lock
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+try lock SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName try lock
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName try lock

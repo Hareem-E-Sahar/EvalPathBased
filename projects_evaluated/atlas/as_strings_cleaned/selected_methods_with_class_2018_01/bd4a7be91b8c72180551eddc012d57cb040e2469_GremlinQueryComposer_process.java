@@ -1,0 +1,216 @@
+select clause composer SimpleName SimpleType SingleVariableDeclaration SimpleName scc
+log SimpleName MethodInvocation SimpleName is debug enabled
+scc SimpleName MethodInvocation SimpleName get items
+scc SimpleName MethodInvocation SimpleName get items
+scc SimpleName MethodInvocation FieldAccess SimpleName length
+get items SimpleName MethodInvocation FieldAccess SimpleName length
+scc SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+get items SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+scc SimpleName MethodInvocation FieldAccess ConditionalExpression NumberLiteral empty
+get items SimpleName MethodInvocation FieldAccess ConditionalExpression NumberLiteral empty
+length SimpleName FieldAccess ConditionalExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add selectitemslength
+log SimpleName MethodInvocation ConditionalExpression FieldAccess SimpleName length
+log SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+debug SimpleName MethodInvocation StringLiteral add selectitemslength
+debug SimpleName MethodInvocation ConditionalExpression FieldAccess SimpleName length
+debug SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+add selectitemslength StringLiteral MethodInvocation ConditionalExpression FieldAccess SimpleName length
+add selectitemslength StringLiteral MethodInvocation ConditionalExpression NumberLiteral empty
+scc SimpleName MethodInvocation SimpleName get items
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+scc SimpleName MethodInvocation SimpleName get items
+scc SimpleName MethodInvocation FieldAccess SimpleName length
+get items SimpleName MethodInvocation FieldAccess SimpleName length
+i SimpleName InfixExpression FieldAccess MethodInvocation SimpleName scc
+i SimpleName InfixExpression FieldAccess MethodInvocation SimpleName get items
+i SimpleName InfixExpression FieldAccess SimpleName length
+scc SimpleName MethodInvocation SimpleName get item
+scc SimpleName MethodInvocation SimpleName i
+get item SimpleName MethodInvocation SimpleName i
+get id metadata SimpleName MethodInvocation MethodInvocation SimpleName scc
+get id metadata SimpleName MethodInvocation MethodInvocation SimpleName get item
+get id metadata SimpleName MethodInvocation MethodInvocation SimpleName i
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id metadata
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName scc
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get item
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+identifier helperidentifier metadata QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+scc SimpleName MethodInvocation SimpleName is aggregator with argument
+scc SimpleName MethodInvocation SimpleName i
+is aggregator with argument SimpleName MethodInvocation SimpleName i
+ia SimpleName MethodInvocation SimpleName is primitive
+ia SimpleName MethodInvocation SimpleName get qualified name
+context SimpleName MethodInvocation SimpleName check
+context SimpleName MethodInvocation BooleanLiteral false
+context SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+context SimpleName MethodInvocation MethodInvocation SimpleName ia
+context SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+check SimpleName MethodInvocation BooleanLiteral false
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+check SimpleName MethodInvocation MethodInvocation SimpleName ia
+check SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+false BooleanLiteral MethodInvocation QualifiedName atlas error codeinvalid dsl select invalid agg
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName ia
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get qualified name
+atlas error codeinvalid dsl select invalid agg QualifiedName MethodInvocation MethodInvocation SimpleName ia
+atlas error codeinvalid dsl select invalid agg QualifiedName MethodInvocation MethodInvocation SimpleName get qualified name
+scc SimpleName MethodInvocation SimpleName get item
+scc SimpleName MethodInvocation SimpleName i
+get item SimpleName MethodInvocation SimpleName i
+scc SimpleName MethodInvocation SimpleName get label
+scc SimpleName MethodInvocation SimpleName i
+get label SimpleName MethodInvocation SimpleName i
+scc SimpleName MethodInvocation MethodInvocation SimpleName equals
+get item SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get label
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get label
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get label
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+equals SimpleName MethodInvocation MethodInvocation SimpleName scc
+equals SimpleName MethodInvocation MethodInvocation SimpleName get label
+equals SimpleName MethodInvocation MethodInvocation SimpleName i
+scc SimpleName MethodInvocation SimpleName get label
+scc SimpleName MethodInvocation SimpleName i
+get label SimpleName MethodInvocation SimpleName i
+get qualified name SimpleName MethodInvocation SimpleName ia
+context SimpleName MethodInvocation SimpleName add alias
+context SimpleName MethodInvocation MethodInvocation SimpleName scc
+context SimpleName MethodInvocation MethodInvocation SimpleName get label
+context SimpleName MethodInvocation MethodInvocation SimpleName i
+context SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+context SimpleName MethodInvocation MethodInvocation SimpleName ia
+add alias SimpleName MethodInvocation MethodInvocation SimpleName scc
+add alias SimpleName MethodInvocation MethodInvocation SimpleName get label
+add alias SimpleName MethodInvocation MethodInvocation SimpleName i
+add alias SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+add alias SimpleName MethodInvocation MethodInvocation SimpleName ia
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified name
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+get label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified name
+get label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified name
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+get qualified name SimpleName MethodInvocation SimpleName ia
+scc SimpleName MethodInvocation SimpleName update as applicable
+scc SimpleName MethodInvocation SimpleName i
+scc SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+scc SimpleName MethodInvocation MethodInvocation SimpleName ia
+update as applicable SimpleName MethodInvocation SimpleName i
+update as applicable SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+update as applicable SimpleName MethodInvocation MethodInvocation SimpleName ia
+i SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+i SimpleName MethodInvocation MethodInvocation SimpleName ia
+has noop condition SimpleName MethodInvocation SimpleName ia
+sccis select noop QualifiedName Assignment MethodInvocation SimpleName has noop condition
+sccis select noop QualifiedName Assignment MethodInvocation SimpleName ia
+introduce type SimpleName MethodInvocation SimpleName ia
+scc SimpleName MethodInvocation SimpleName increment types introduced
+ia SimpleName MethodInvocation SimpleName has parts
+sccis select noop QualifiedName Assignment PrefixExpression MethodInvocation SimpleName ia
+sccis select noop QualifiedName Assignment PrefixExpression MethodInvocation SimpleName has parts
+ia SimpleName MethodInvocation SimpleName has parts
+ia SimpleName MethodInvocation SimpleName get
+get id metadata SimpleName MethodInvocation MethodInvocation SimpleName ia
+get id metadata SimpleName MethodInvocation MethodInvocation SimpleName get
+get qualified name SimpleName MethodInvocation MethodInvocation SimpleName get id metadata
+get qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ia
+get qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+scc SimpleName MethodInvocation SimpleName assign
+scc SimpleName MethodInvocation SimpleName i
+scc SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+scc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id metadata
+scc SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+assign SimpleName MethodInvocation SimpleName i
+assign SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id metadata
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+i SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id metadata
+i SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+get qualified name SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline get property
+get id metadata SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName gremlin clauseinline get property
+get qualified name SimpleName MethodInvocation SimpleName ia
+scc SimpleName MethodInvocation SimpleName assign
+scc SimpleName MethodInvocation SimpleName i
+scc SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+scc SimpleName MethodInvocation MethodInvocation SimpleName ia
+scc SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+assign SimpleName MethodInvocation SimpleName i
+assign SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+assign SimpleName MethodInvocation MethodInvocation SimpleName ia
+assign SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+i SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+i SimpleName MethodInvocation MethodInvocation SimpleName ia
+i SimpleName MethodInvocation QualifiedName gremlin clauseinline get property
+get qualified name SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline get property
+ia SimpleName MethodInvocation MethodInvocation QualifiedName gremlin clauseinline get property
+scc SimpleName MethodInvocation SimpleName increment primitive type
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+scc SimpleName MethodInvocation SimpleName has multiple referred types
+scc SimpleName MethodInvocation SimpleName get introduced types count
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation MethodInvocation SimpleName scc
+integer SimpleName MethodInvocation MethodInvocation SimpleName get introduced types count
+to string SimpleName MethodInvocation MethodInvocation SimpleName scc
+to string SimpleName MethodInvocation MethodInvocation SimpleName get introduced types count
+contextvalidator QualifiedName MethodInvocation SimpleName check
+contextvalidator QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName scc
+contextvalidator QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName has multiple referred types
+contextvalidator QualifiedName MethodInvocation QualifiedName atlas error codeinvalid dsl select referred attr
+contextvalidator QualifiedName MethodInvocation MethodInvocation SimpleName integer
+contextvalidator QualifiedName MethodInvocation MethodInvocation SimpleName to string
+contextvalidator QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+contextvalidator QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get introduced types count
+check SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName scc
+check SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName has multiple referred types
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl select referred attr
+check SimpleName MethodInvocation MethodInvocation SimpleName integer
+check SimpleName MethodInvocation MethodInvocation SimpleName to string
+check SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+check SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get introduced types count
+scc SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl select referred attr
+has multiple referred types SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl select referred attr
+atlas error codeinvalid dsl select referred attr QualifiedName MethodInvocation MethodInvocation SimpleName integer
+atlas error codeinvalid dsl select referred attr QualifiedName MethodInvocation MethodInvocation SimpleName to string
+atlas error codeinvalid dsl select referred attr QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName scc
+atlas error codeinvalid dsl select referred attr QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get introduced types count
+scc SimpleName MethodInvocation SimpleName has mixed attributes
+contextvalidator QualifiedName MethodInvocation SimpleName check
+contextvalidator QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName scc
+contextvalidator QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName has mixed attributes
+contextvalidator QualifiedName MethodInvocation QualifiedName atlas error codeinvalid dsl select attr mixing
+check SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName scc
+check SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName has mixed attributes
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl select attr mixing
+scc SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl select attr mixing
+has mixed attributes SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName atlas error codeinvalid dsl select attr mixing
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scc
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scc
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName select clause composer
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scc
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scc

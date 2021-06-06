@@ -1,0 +1,6 @@
+migration status SimpleName SimpleType MethodDeclaration SimpleName get migration status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get migration status
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get migration status

@@ -1,0 +1,117 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsstate property key
+get property SimpleName MethodInvocation QualifiedName constantsstate property key
+vertex state SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+vertex state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+vertex state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsstate property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex state
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get out going edges by label SimpleName MethodInvocation SimpleName vertex
+get out going edges by label SimpleName MethodInvocation SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName edge label
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edges by label
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName latest deleted edge
+latest deleted edge time SimpleName VariableDeclarationFragment QualifiedName longmin value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName latest deleted edge time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName longmin value
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName InfixExpression InfixExpression MethodInvocation SimpleName iterator
+iterator SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsstate property key
+get property SimpleName MethodInvocation QualifiedName constantsstate property key
+edge state SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+edge state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+edge state SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsstate property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge state
+identity stateactive QualifiedName MethodInvocation SimpleName name
+identity stateactive QualifiedName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+identity stateactive QualifiedName MethodInvocation MethodInvocation SimpleName edge state
+name SimpleName MethodInvocation MethodInvocation SimpleName edge state
+equals SimpleName MethodInvocation SimpleName edge state
+edge state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+edge state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName edge state
+string SimpleName MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName edge
+debug SimpleName MethodInvocation StringLiteral found {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName edge
+found {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+found {} StringLiteral MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+get property SimpleName MethodInvocation QualifiedName constantsmodification timestamp property key
+modification time SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+modification time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+modification time SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmodification timestamp property key
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modification time
+modification time SimpleName InfixExpression SimpleName latest deleted edge time
+modification time SimpleName InfixExpression InfixExpression InfixExpression SimpleName modification time
+modification time SimpleName InfixExpression InfixExpression InfixExpression SimpleName latest deleted edge time
+latest deleted edge time SimpleName Assignment SimpleName modification time
+latest deleted edge SimpleName Assignment SimpleName edge
+identity statedeleted QualifiedName MethodInvocation SimpleName equals
+identity statedeleted QualifiedName MethodInvocation SimpleName vertex state
+equals SimpleName MethodInvocation SimpleName vertex state
+string SimpleName MethodInvocation SimpleName latest deleted edge
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral found {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName latest deleted edge
+debug SimpleName MethodInvocation StringLiteral found {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName latest deleted edge
+found {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+found {} StringLiteral MethodInvocation MethodInvocation SimpleName latest deleted edge
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName get edge for label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+static Modifier MethodDeclaration SimpleType SimpleName edge
+static Modifier MethodDeclaration SimpleName get edge for label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+edge SimpleName SimpleType MethodDeclaration SimpleName get edge for label
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+get edge for label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get edge for label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get edge for label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get edge for label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+get edge for label SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge for label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge for label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label

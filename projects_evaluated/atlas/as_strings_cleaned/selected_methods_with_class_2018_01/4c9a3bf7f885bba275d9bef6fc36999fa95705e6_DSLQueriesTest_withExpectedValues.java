@@ -1,0 +1,47 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName values
+obj SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName result object
+result object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName field nameslength
+field names SimpleName ArrayAccess SimpleName i
+values SimpleName ArrayAccess SimpleName i
+obj SimpleName MethodInvocation SimpleName set field value
+obj SimpleName MethodInvocation ArrayAccess SimpleName field names
+obj SimpleName MethodInvocation ArrayAccess SimpleName i
+obj SimpleName MethodInvocation ArrayAccess SimpleName values
+obj SimpleName MethodInvocation ArrayAccess SimpleName i
+set field value SimpleName MethodInvocation ArrayAccess SimpleName field names
+set field value SimpleName MethodInvocation ArrayAccess SimpleName i
+set field value SimpleName MethodInvocation ArrayAccess SimpleName values
+set field value SimpleName MethodInvocation ArrayAccess SimpleName i
+field names SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName values
+field names SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName values
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName field nameslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field nameslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+values SimpleName FieldAccess MethodInvocation SimpleName add
+values SimpleName FieldAccess MethodInvocation SimpleName obj
+add SimpleName MethodInvocation SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName field value validator
+public Modifier MethodDeclaration SimpleName with expected values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+field value validator SimpleName SimpleType MethodDeclaration SimpleName with expected values
+field value validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+with expected values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+with expected values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName field value validator
+public Modifier TypeDeclaration MethodDeclaration SimpleName with expected values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName field value validator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with expected values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

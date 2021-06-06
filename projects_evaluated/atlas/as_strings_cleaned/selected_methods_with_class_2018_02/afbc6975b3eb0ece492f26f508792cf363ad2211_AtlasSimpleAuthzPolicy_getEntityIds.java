@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity ids
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity ids
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity ids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity ids
+get entity ids SimpleName MethodDeclaration Block ReturnStatement SimpleName entity ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity ids

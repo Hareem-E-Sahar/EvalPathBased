@@ -1,0 +1,67 @@
+key SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName clone
+r SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName key
+r SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName clone
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName row
+arrays SimpleName MethodInvocation QualifiedName rowlength
+copy of SimpleName MethodInvocation SimpleName row
+copy of SimpleName MethodInvocation QualifiedName rowlength
+row SimpleName MethodInvocation QualifiedName rowlength
+rrow QualifiedName Assignment MethodInvocation SimpleName arrays
+rrow QualifiedName Assignment MethodInvocation SimpleName copy of
+rrow QualifiedName Assignment MethodInvocation SimpleName row
+rrow QualifiedName Assignment MethodInvocation QualifiedName rowlength
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName col family
+arrays SimpleName MethodInvocation QualifiedName col familylength
+copy of SimpleName MethodInvocation SimpleName col family
+copy of SimpleName MethodInvocation QualifiedName col familylength
+col family SimpleName MethodInvocation QualifiedName col familylength
+rcol family QualifiedName Assignment MethodInvocation SimpleName arrays
+rcol family QualifiedName Assignment MethodInvocation SimpleName copy of
+rcol family QualifiedName Assignment MethodInvocation SimpleName col family
+rcol family QualifiedName Assignment MethodInvocation QualifiedName col familylength
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName col qualifier
+arrays SimpleName MethodInvocation QualifiedName col qualifierlength
+copy of SimpleName MethodInvocation SimpleName col qualifier
+copy of SimpleName MethodInvocation QualifiedName col qualifierlength
+col qualifier SimpleName MethodInvocation QualifiedName col qualifierlength
+rcol qualifier QualifiedName Assignment MethodInvocation SimpleName arrays
+rcol qualifier QualifiedName Assignment MethodInvocation SimpleName copy of
+rcol qualifier QualifiedName Assignment MethodInvocation SimpleName col qualifier
+rcol qualifier QualifiedName Assignment MethodInvocation QualifiedName col qualifierlength
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName col visibility
+arrays SimpleName MethodInvocation QualifiedName col visibilitylength
+copy of SimpleName MethodInvocation SimpleName col visibility
+copy of SimpleName MethodInvocation QualifiedName col visibilitylength
+col visibility SimpleName MethodInvocation QualifiedName col visibilitylength
+rcol visibility QualifiedName Assignment MethodInvocation SimpleName arrays
+rcol visibility QualifiedName Assignment MethodInvocation SimpleName copy of
+rcol visibility QualifiedName Assignment MethodInvocation SimpleName col visibility
+rcol visibility QualifiedName Assignment MethodInvocation QualifiedName col visibilitylength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName clone not supported exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName clone not supported exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName r
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName clone not supported exception
+clone SimpleName MethodDeclaration SimpleType SimpleName clone not supported exception
+clone SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName clone not supported exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName clone not supported exception

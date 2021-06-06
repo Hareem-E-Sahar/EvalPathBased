@@ -1,0 +1,91 @@
+get inputs graph SimpleName MethodInvocation StringLiteral sales fact monthly mv
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs graph
+results SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales fact monthly mv
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+assert not null SimpleName MethodInvocation SimpleName results
+inputs graph = StringLiteral InfixExpression SimpleName results
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral inputs graph =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName results
+println SimpleName MethodInvocation InfixExpression StringLiteral inputs graph =
+println SimpleName MethodInvocation InfixExpression SimpleName results
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation StringLiteral values
+get json object SimpleName MethodInvocation StringLiteral values
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+values SimpleName VariableDeclarationFragment MethodInvocation StringLiteral values
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName values
+assert not null SimpleName MethodInvocation SimpleName values
+values SimpleName MethodInvocation SimpleName get json object
+values SimpleName MethodInvocation StringLiteral vertices
+get json object SimpleName MethodInvocation StringLiteral vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+vertices SimpleName VariableDeclarationFragment MethodInvocation StringLiteral vertices
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName vertices
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral vertices
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertices
+vertices SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+vertices SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation SimpleName get json object
+values SimpleName MethodInvocation StringLiteral edges
+get json object SimpleName MethodInvocation StringLiteral edges
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+edges SimpleName VariableDeclarationFragment MethodInvocation StringLiteral edges
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral edges
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+edges SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+edges SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get inputs graph
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get inputs graph
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get inputs graph
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get inputs graph SimpleName MethodDeclaration SimpleType SimpleName exception
+test get inputs graph SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get inputs graph SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get inputs graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get inputs graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

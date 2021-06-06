@@ -1,0 +1,203 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+state SimpleName MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get host name SimpleName MethodInvocation MethodInvocation SimpleName replace all
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral [-.]
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral [-.]
+replace all SimpleName MethodInvocation StringLiteral empty
+[-.] StringLiteral MethodInvocation StringLiteral empty
+hostname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get host name
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace all
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral [-.]
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+state SimpleName MethodInvocation SimpleName get pid
+system SimpleName MethodInvocation SimpleName current time millis
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral sequential s s d
+string SimpleName MethodInvocation SimpleName hostname
+string SimpleName MethodInvocation MethodInvocation SimpleName state
+string SimpleName MethodInvocation MethodInvocation SimpleName get pid
+string SimpleName MethodInvocation MethodInvocation SimpleName system
+string SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+format SimpleName MethodInvocation StringLiteral sequential s s d
+format SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation MethodInvocation SimpleName state
+format SimpleName MethodInvocation MethodInvocation SimpleName get pid
+format SimpleName MethodInvocation MethodInvocation SimpleName system
+format SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+sequential s s d StringLiteral MethodInvocation SimpleName hostname
+sequential s s d StringLiteral MethodInvocation MethodInvocation SimpleName state
+sequential s s d StringLiteral MethodInvocation MethodInvocation SimpleName get pid
+sequential s s d StringLiteral MethodInvocation MethodInvocation SimpleName system
+sequential s s d StringLiteral MethodInvocation MethodInvocation SimpleName current time millis
+hostname SimpleName MethodInvocation MethodInvocation SimpleName state
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get pid
+hostname SimpleName MethodInvocation MethodInvocation SimpleName system
+hostname SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current time millis
+get pid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system
+get pid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current time millis
+seq table name SimpleName Assignment MethodInvocation SimpleName string
+seq table name SimpleName Assignment MethodInvocation SimpleName format
+seq table name SimpleName Assignment MethodInvocation StringLiteral sequential s s d
+seq table name SimpleName Assignment MethodInvocation SimpleName hostname
+seq table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+seq table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName get pid
+seq table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+seq table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName current time millis
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral seq table name
+state SimpleName MethodInvocation SimpleName seq table name
+set SimpleName MethodInvocation StringLiteral seq table name
+set SimpleName MethodInvocation SimpleName seq table name
+seq table name StringLiteral MethodInvocation SimpleName seq table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+create SimpleName MethodInvocation SimpleName seq table name
+tables SimpleName MethodInvocation SimpleName get name to id map
+tables SimpleName MethodInvocation SimpleName instance
+get name to id map SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get
+instance SimpleName MethodInvocation MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+instance SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+get SimpleName MethodInvocation SimpleName seq table name
+created table StringLiteral InfixExpression SimpleName seq table name
+created table StringLiteral InfixExpression StringLiteral id
+created table StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tables
+created table StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get name to id map
+created table StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName instance
+created table StringLiteral InfixExpression MethodInvocation SimpleName get
+created table StringLiteral InfixExpression MethodInvocation SimpleName seq table name
+created table StringLiteral InfixExpression StringLiteral )
+seq table name SimpleName InfixExpression StringLiteral id
+seq table name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tables
+seq table name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get name to id map
+seq table name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName instance
+seq table name SimpleName InfixExpression MethodInvocation SimpleName get
+seq table name SimpleName InfixExpression MethodInvocation SimpleName seq table name
+seq table name SimpleName InfixExpression StringLiteral )
+id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tables
+id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get name to id map
+id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName instance
+id StringLiteral InfixExpression MethodInvocation SimpleName get
+id StringLiteral InfixExpression MethodInvocation SimpleName seq table name
+id StringLiteral InfixExpression StringLiteral )
+tables SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get name to id map SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get SimpleName MethodInvocation InfixExpression StringLiteral )
+seq table name SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral created table
+log SimpleName MethodInvocation InfixExpression SimpleName seq table name
+log SimpleName MethodInvocation InfixExpression StringLiteral id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName seq table name
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+debug SimpleName MethodInvocation InfixExpression StringLiteral created table
+debug SimpleName MethodInvocation InfixExpression SimpleName seq table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral id
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName seq table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral )
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+table StringLiteral InfixExpression SimpleName seq table name
+table StringLiteral InfixExpression StringLiteral already exists
+seq table name SimpleName InfixExpression StringLiteral already exists
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral table
+log SimpleName MethodInvocation InfixExpression SimpleName seq table name
+log SimpleName MethodInvocation InfixExpression StringLiteral already exists
+warn SimpleName MethodInvocation InfixExpression StringLiteral table
+warn SimpleName MethodInvocation InfixExpression SimpleName seq table name
+warn SimpleName MethodInvocation InfixExpression StringLiteral already exists
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName seq table name
+conn SimpleName MethodInvocation MethodInvocation StringLiteral tablescanmaxmemory
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral tablescanmaxmemory
+conn SimpleName MethodInvocation MethodInvocation StringLiteral k
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral k
+set property SimpleName MethodInvocation SimpleName seq table name
+set property SimpleName MethodInvocation StringLiteral tablescanmaxmemory
+set property SimpleName MethodInvocation StringLiteral k
+seq table name SimpleName MethodInvocation StringLiteral tablescanmaxmemory
+seq table name SimpleName MethodInvocation StringLiteral k
+tablescanmaxmemory StringLiteral MethodInvocation StringLiteral k
+integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral num writes
+state SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+state SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral num writes
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+set SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+num writes StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+num writes StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral total writes
+state SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+state SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set SimpleName MethodInvocation StringLiteral total writes
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+set SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+total writes StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+total writes StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set up SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName annotation type
+annotation type SimpleName FieldAccess Assignment SimpleName annotation type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set annotation type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName annotation type
+void PrimitiveType MethodDeclaration SimpleName set annotation type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName annotation type
+set annotation type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set annotation type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName annotation type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set annotation type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName annotation type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set annotation type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName annotation type

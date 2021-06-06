@@ -1,0 +1,299 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName failure dir
+boolean PrimitiveType SingleVariableDeclaration SimpleName set time
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName table name
+argument checker SimpleName MethodInvocation SimpleName dir
+argument checker SimpleName MethodInvocation SimpleName failure dir
+not null SimpleName MethodInvocation SimpleName table name
+not null SimpleName MethodInvocation SimpleName dir
+not null SimpleName MethodInvocation SimpleName failure dir
+table name SimpleName MethodInvocation SimpleName dir
+table name SimpleName MethodInvocation SimpleName failure dir
+dir SimpleName MethodInvocation SimpleName failure dir
+cached configuration SimpleName MethodInvocation SimpleName get instance
+instance SimpleName MethodInvocation SimpleName get configuration
+file util SimpleName MethodInvocation SimpleName get file system
+file util SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+file util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+file util SimpleName MethodInvocation MethodInvocation SimpleName instance
+file util SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get file system SimpleName MethodInvocation MethodInvocation SimpleName instance
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+cached configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+cached configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get configuration
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file util
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cached configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+path SimpleName SimpleType ClassInstanceCreation SimpleName dir
+fs SimpleName MethodInvocation SimpleName make qualified
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName dir
+make qualified SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+make qualified SimpleName MethodInvocation ClassInstanceCreation SimpleName dir
+dir path SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+dir path SimpleName VariableDeclarationFragment MethodInvocation SimpleName make qualified
+dir path SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir path
+path SimpleName SimpleType ClassInstanceCreation SimpleName failure dir
+fs SimpleName MethodInvocation SimpleName make qualified
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName failure dir
+make qualified SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+make qualified SimpleName MethodInvocation ClassInstanceCreation SimpleName failure dir
+fail path SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+fail path SimpleName VariableDeclarationFragment MethodInvocation SimpleName make qualified
+fail path SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName failure dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fail path
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName dir path
+exists SimpleName MethodInvocation SimpleName dir path
+bulk import directory StringLiteral InfixExpression SimpleName dir
+bulk import directory StringLiteral InfixExpression StringLiteral does not exist
+dir SimpleName InfixExpression StringLiteral does not exist
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk import directory
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName fail path
+exists SimpleName MethodInvocation SimpleName fail path
+bulk import failure directory StringLiteral InfixExpression SimpleName failure dir
+bulk import failure directory StringLiteral InfixExpression StringLiteral does not exist
+failure dir SimpleName InfixExpression StringLiteral does not exist
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk import failure directory
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName failure dir
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName fail path
+list status SimpleName MethodInvocation SimpleName fail path
+list status SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+list status SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+list status SimpleName VariableDeclarationFragment MethodInvocation SimpleName fail path
+list statuslength QualifiedName InfixExpression NumberLiteral empty
+list status SimpleName InfixExpression InfixExpression InfixExpression QualifiedName list statuslength
+list status SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+list statuslength QualifiedName InfixExpression NumberLiteral empty
+list status SimpleName ArrayAccess NumberLiteral empty
+list status SimpleName ArrayAccess MethodInvocation SimpleName is dir
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName is dir
+list statuslength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName is dir
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName is dir
+bulk import directory StringLiteral InfixExpression SimpleName fail path
+bulk import directory StringLiteral InfixExpression StringLiteral is a file
+fail path SimpleName InfixExpression StringLiteral is a file
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk import directory
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName fail path
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is a file
+bulk import failure directory StringLiteral InfixExpression SimpleName fail path
+bulk import failure directory StringLiteral InfixExpression StringLiteral is not empty
+fail path SimpleName InfixExpression StringLiteral is not empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk import failure directory
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName fail path
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+table name SimpleName MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName table name
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName table name
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+dir path SimpleName MethodInvocation SimpleName to string
+dir path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir path
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir path
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+fail path SimpleName MethodInvocation SimpleName to string
+fail path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail path
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail path
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set time SimpleName InfixExpression StringLiteral empty
+set time SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+do table operation SimpleName MethodInvocation QualifiedName table operationbulk import
+do table operation SimpleName MethodInvocation SimpleName args
+do table operation SimpleName MethodInvocation SimpleName opts
+table operationbulk import QualifiedName MethodInvocation SimpleName args
+table operationbulk import QualifiedName MethodInvocation SimpleName opts
+args SimpleName MethodInvocation SimpleName opts
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName import directory
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import directory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+void PrimitiveType MethodDeclaration SimpleName import directory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName set time
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+import directory SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName set time
+import directory SimpleName MethodDeclaration SimpleType SimpleName io exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+failure dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+set time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+set time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+set time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+set time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failure dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

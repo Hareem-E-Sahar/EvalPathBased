@@ -1,0 +1,117 @@
+t SimpleName TypeParameter SimpleType SimpleName atlas element
+t SimpleName SimpleType SingleVariableDeclaration SimpleName element
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName o
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName return type
+o SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName return type
+encode property key SimpleName MethodInvocation SimpleName property name
+element SimpleName MethodInvocation SimpleName get property
+element SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+element SimpleName MethodInvocation MethodInvocation SimpleName property name
+element SimpleName MethodInvocation SimpleName return type
+get property SimpleName MethodInvocation MethodInvocation SimpleName encode property key
+get property SimpleName MethodInvocation MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation SimpleName return type
+encode property key SimpleName MethodInvocation MethodInvocation SimpleName return type
+property name SimpleName MethodInvocation MethodInvocation SimpleName return type
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName encode property key
+property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property name
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName return type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property
+log SimpleName MethodInvocation SimpleName is debug enabled
+to string SimpleName MethodInvocation SimpleName element
+return type SimpleName MethodInvocation SimpleName cast
+return type SimpleName MethodInvocation SimpleName property
+cast SimpleName MethodInvocation SimpleName property
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral get property {}) ==> {}
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName element
+log SimpleName MethodInvocation SimpleName property name
+log SimpleName MethodInvocation MethodInvocation SimpleName return type
+log SimpleName MethodInvocation MethodInvocation SimpleName cast
+log SimpleName MethodInvocation MethodInvocation SimpleName property
+debug SimpleName MethodInvocation StringLiteral get property {}) ==> {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName element
+debug SimpleName MethodInvocation SimpleName property name
+debug SimpleName MethodInvocation MethodInvocation SimpleName return type
+debug SimpleName MethodInvocation MethodInvocation SimpleName cast
+debug SimpleName MethodInvocation MethodInvocation SimpleName property
+get property {}) ==> {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+get property {}) ==> {} StringLiteral MethodInvocation MethodInvocation SimpleName element
+get property {}) ==> {} StringLiteral MethodInvocation SimpleName property name
+get property {}) ==> {} StringLiteral MethodInvocation MethodInvocation SimpleName return type
+get property {}) ==> {} StringLiteral MethodInvocation MethodInvocation SimpleName cast
+get property {}) ==> {} StringLiteral MethodInvocation MethodInvocation SimpleName property
+to string SimpleName MethodInvocation MethodInvocation SimpleName property name
+element SimpleName MethodInvocation MethodInvocation SimpleName property name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return type
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cast
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return type
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cast
+element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+property name SimpleName MethodInvocation MethodInvocation SimpleName return type
+property name SimpleName MethodInvocation MethodInvocation SimpleName cast
+property name SimpleName MethodInvocation MethodInvocation SimpleName property
+return type SimpleName MethodInvocation SimpleName cast
+return type SimpleName MethodInvocation SimpleName property
+cast SimpleName MethodInvocation SimpleName property
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName atlas element
+public Modifier MethodDeclaration TypeParameter SimpleName o
+public Modifier MethodDeclaration SimpleType SimpleName o
+public Modifier MethodDeclaration SimpleName get property
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName atlas element
+static Modifier MethodDeclaration TypeParameter SimpleName o
+static Modifier MethodDeclaration SimpleType SimpleName o
+static Modifier MethodDeclaration SimpleName get property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+t SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName o
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName o
+t SimpleName TypeParameter MethodDeclaration SimpleName get property
+atlas element SimpleName SimpleType TypeParameter MethodDeclaration SimpleName get property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName element
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+o SimpleName TypeParameter MethodDeclaration SimpleType SimpleName o
+o SimpleName TypeParameter MethodDeclaration SimpleName get property
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName element
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+o SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName return type
+o SimpleName SimpleType MethodDeclaration SimpleName get property
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+o SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName return type
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName return type
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName return type
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName return type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName return type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName return type

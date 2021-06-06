@@ -1,0 +1,75 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName category
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation SimpleName type
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+map SimpleName MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+type SimpleName MethodInvocation MethodInvocation SimpleName put
+map SimpleName MethodInvocation MethodInvocation SimpleName category
+get SimpleName MethodInvocation MethodInvocation SimpleName category
+type SimpleName MethodInvocation MethodInvocation SimpleName category
+put SimpleName MethodInvocation SimpleName category
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+map SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+type SimpleName MethodInvocation MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation SimpleName category
+get SimpleName MethodInvocation MethodInvocation SimpleName category
+type SimpleName MethodInvocation MethodInvocation SimpleName category
+get SimpleName MethodInvocation SimpleName category
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation SimpleName add
+category SimpleName MethodInvocation MethodInvocation SimpleName add
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get SimpleName MethodInvocation MethodInvocation SimpleName property
+category SimpleName MethodInvocation MethodInvocation SimpleName property
+add SimpleName MethodInvocation SimpleName property
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get type property map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type property map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type property map
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type property map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+get type property map SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type property map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type property map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category

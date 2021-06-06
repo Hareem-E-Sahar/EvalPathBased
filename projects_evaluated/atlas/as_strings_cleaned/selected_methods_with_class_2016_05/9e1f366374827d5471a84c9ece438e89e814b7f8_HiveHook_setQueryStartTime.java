@@ -1,0 +1,20 @@
+long SimpleName SimpleType SingleVariableDeclaration SimpleName query start time
+query start time SimpleName FieldAccess Assignment SimpleName query start time
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set query start time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query start time
+void PrimitiveType MethodDeclaration SimpleName set query start time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query start time
+set query start time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+set query start time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query start time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set query start time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query start time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set query start time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query start time

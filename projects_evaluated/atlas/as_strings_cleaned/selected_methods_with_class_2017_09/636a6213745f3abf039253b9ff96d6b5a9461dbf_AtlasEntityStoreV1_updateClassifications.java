@@ -1,0 +1,143 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new classifications
+atlas classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new classifications
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating classifications for entity
+log SimpleName MethodInvocation SimpleName new classifications
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral updating classifications for entity
+debug SimpleName MethodInvocation SimpleName new classifications
+debug SimpleName MethodInvocation SimpleName guid
+updating classifications for entity StringLiteral MethodInvocation SimpleName new classifications
+updating classifications for entity StringLiteral MethodInvocation SimpleName guid
+new classifications SimpleName MethodInvocation SimpleName guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName guid
+is empty SimpleName MethodInvocation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral guid not specified
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral guid not specified
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName new classifications
+is empty SimpleName MethodInvocation SimpleName new classifications
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral classificationss not specified
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral classificationss not specified
+graph transaction interceptor SimpleName MethodInvocation SimpleName lock object and release post commit
+graph transaction interceptor SimpleName MethodInvocation SimpleName guid
+lock object and release post commit SimpleName MethodInvocation SimpleName guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName new classification
+new classification SimpleName MethodInvocation SimpleName get type name
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new classification
+classification name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification name
+get classification SimpleName MethodInvocation SimpleName guid
+get classification SimpleName MethodInvocation SimpleName classification name
+guid SimpleName MethodInvocation SimpleName classification name
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+old classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification name
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old classification
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeclassification not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName classification name
+atlas error codeclassification not found QualifiedName ClassInstanceCreation SimpleName classification name
+validate and normalize for update SimpleName MethodInvocation SimpleName new classification
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+new classification SimpleName MethodInvocation SimpleName get attributes
+new attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName new classification
+new attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName new attrs
+is not empty SimpleName MethodInvocation SimpleName new attrs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+new attrs SimpleName MethodInvocation SimpleName key set
+new attrs SimpleName MethodInvocation SimpleName get
+new attrs SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+old classification SimpleName MethodInvocation SimpleName set attribute
+old classification SimpleName MethodInvocation SimpleName attr name
+old classification SimpleName MethodInvocation MethodInvocation SimpleName new attrs
+old classification SimpleName MethodInvocation MethodInvocation SimpleName get
+old classification SimpleName MethodInvocation MethodInvocation SimpleName attr name
+set attribute SimpleName MethodInvocation SimpleName attr name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName new attrs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName new attrs
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get
+attr name SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName new attrs
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+entity graph mapper SimpleName MethodInvocation SimpleName update classification
+entity graph mapper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity mutation context
+entity graph mapper SimpleName MethodInvocation SimpleName guid
+entity graph mapper SimpleName MethodInvocation SimpleName old classification
+update classification SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName entity mutation context
+update classification SimpleName MethodInvocation SimpleName guid
+update classification SimpleName MethodInvocation SimpleName old classification
+entity mutation context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+entity mutation context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName old classification
+guid SimpleName MethodInvocation SimpleName old classification
+updated classifications SimpleName MethodInvocation SimpleName add
+updated classifications SimpleName MethodInvocation SimpleName old classification
+add SimpleName MethodInvocation SimpleName old classification
+atlas classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new classifications
+new classification SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new classifications
+entity change notifier SimpleName MethodInvocation SimpleName on classification updated to entity
+entity change notifier SimpleName MethodInvocation SimpleName guid
+entity change notifier SimpleName MethodInvocation SimpleName updated classifications
+on classification updated to entity SimpleName MethodInvocation SimpleName guid
+on classification updated to entity SimpleName MethodInvocation SimpleName updated classifications
+guid SimpleName MethodInvocation SimpleName updated classifications
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update classifications
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update classifications
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update classifications
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName update classifications
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName new classifications
+update classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+update classifications SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update classifications SimpleName MethodDeclaration Block EnhancedForStatement SimpleName new classifications
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+new classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

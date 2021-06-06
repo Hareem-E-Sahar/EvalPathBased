@@ -1,0 +1,55 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName o
+t SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName InfixExpression InfixExpression InfixExpression SimpleName o
+o SimpleName MethodInvocation SimpleName double value
+double SimpleName MethodInvocation SimpleName value of
+double SimpleName MethodInvocation MethodInvocation SimpleName o
+double SimpleName MethodInvocation MethodInvocation SimpleName double value
+value of SimpleName MethodInvocation MethodInvocation SimpleName o
+value of SimpleName MethodInvocation MethodInvocation SimpleName double value
+o SimpleName MethodInvocation SimpleName double value
+double SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+double SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+double SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+compare to SimpleName MethodInvocation MethodInvocation SimpleName o
+compare to SimpleName MethodInvocation MethodInvocation SimpleName double value
+o SimpleName InfixExpression IfStatement ReturnStatement NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

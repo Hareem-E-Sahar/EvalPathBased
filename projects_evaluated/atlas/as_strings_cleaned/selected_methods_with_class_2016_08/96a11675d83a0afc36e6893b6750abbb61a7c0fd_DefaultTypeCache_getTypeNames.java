@@ -1,0 +1,49 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+type filter SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+assert filter SimpleName MethodInvocation SimpleName filter map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+types SimpleName MethodInvocation SimpleName values
+should include type SimpleName MethodInvocation SimpleName type
+should include type SimpleName MethodInvocation SimpleName filter map
+type SimpleName MethodInvocation SimpleName filter map
+type SimpleName MethodInvocation SimpleName get name
+type names SimpleName MethodInvocation SimpleName add
+type names SimpleName MethodInvocation MethodInvocation SimpleName type
+type names SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName type
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get type names
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter map
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter map
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type names
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter map
+get type names SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get type names SimpleName MethodDeclaration Block ReturnStatement SimpleName type names
+filter map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

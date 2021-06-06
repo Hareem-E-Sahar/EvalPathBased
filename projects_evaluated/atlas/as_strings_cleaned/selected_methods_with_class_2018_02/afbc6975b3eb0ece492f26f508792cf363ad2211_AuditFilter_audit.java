@@ -1,0 +1,35 @@
+audit log SimpleName SimpleType SingleVariableDeclaration SimpleName audit log
+audit log SimpleName MethodInvocation SimpleName is info enabled
+audit log SimpleName MethodInvocation InfixExpression InfixExpression SimpleName audit log
+is info enabled SimpleName MethodInvocation InfixExpression InfixExpression SimpleName audit log
+audit log SimpleName MethodInvocation SimpleName to string
+audit log SimpleName MethodInvocation SimpleName info
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit log
+audit log SimpleName MethodInvocation MethodInvocation SimpleName to string
+info SimpleName MethodInvocation MethodInvocation SimpleName audit log
+info SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName audit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName audit log
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName audit log
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName audit
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName audit log
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName audit log
+void PrimitiveType MethodDeclaration SimpleName audit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName audit log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName audit log
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName audit log
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName audit log
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName audit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName audit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log

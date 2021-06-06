@@ -1,0 +1,170 @@
+client context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+dump config command SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output directory
+file SimpleName SimpleType ClassInstanceCreation QualifiedName optsdirectory
+output directory SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+output directory SimpleName Assignment ClassInstanceCreation QualifiedName optsdirectory
+output directory SimpleName MethodInvocation SimpleName is directory
+optsdirectory QualifiedName InfixExpression StringLiteral does not exist on the local filesystem
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName optsdirectory
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist on the local filesystem
+output directory SimpleName MethodInvocation SimpleName can write
+optsdirectory QualifiedName InfixExpression StringLiteral is not writable
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName optsdirectory
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not writable
+context SimpleName MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+default config SimpleName Assignment MethodInvocation SimpleName accumulo configuration
+default config SimpleName Assignment MethodInvocation SimpleName get default configuration
+connector SimpleName MethodInvocation SimpleName instance operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+site config SimpleName Assignment MethodInvocation MethodInvocation SimpleName connector
+site config SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance operations
+site config SimpleName Assignment MethodInvocation SimpleName get site configuration
+connector SimpleName MethodInvocation SimpleName instance operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+system config SimpleName Assignment MethodInvocation MethodInvocation SimpleName connector
+system config SimpleName Assignment MethodInvocation MethodInvocation SimpleName instance operations
+system config SimpleName Assignment MethodInvocation SimpleName get system configuration
+optsall configuration QualifiedName InfixExpression QualifiedName optsusers
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list local users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list local users
+lists SimpleName MethodInvocation SimpleName new array list
+lists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connector
+lists SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+lists SimpleName MethodInvocation MethodInvocation SimpleName list local users
+new array list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connector
+new array list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+new array list SimpleName MethodInvocation MethodInvocation SimpleName list local users
+local users SimpleName Assignment MethodInvocation SimpleName lists
+local users SimpleName Assignment MethodInvocation SimpleName new array list
+local users SimpleName Assignment MethodInvocation MethodInvocation SimpleName list local users
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName local users
+sort SimpleName MethodInvocation SimpleName local users
+print system configuration SimpleName MethodInvocation SimpleName connector
+print system configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+connector SimpleName MethodInvocation SimpleName namespace operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName list
+print name space configuration SimpleName MethodInvocation SimpleName connector
+print name space configuration SimpleName MethodInvocation SimpleName namespace
+print name space configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName namespace
+connector SimpleName MethodInvocation SimpleName output directory
+namespace SimpleName MethodInvocation SimpleName output directory
+namespace SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+table names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName connector
+table names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+print table configuration SimpleName MethodInvocation SimpleName connector
+print table configuration SimpleName MethodInvocation SimpleName table name
+print table configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName output directory
+table name SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+print user configuration SimpleName MethodInvocation SimpleName connector
+print user configuration SimpleName MethodInvocation SimpleName user
+print user configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName user
+connector SimpleName MethodInvocation SimpleName output directory
+user SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName local users
+user SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName local users
+table names SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName local users
+print system configuration SimpleName MethodInvocation SimpleName connector
+print system configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+connector SimpleName MethodInvocation SimpleName namespace operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName list
+namespace operations SimpleName MethodInvocation MethodInvocation SimpleName list
+print name space configuration SimpleName MethodInvocation SimpleName connector
+print name space configuration SimpleName MethodInvocation SimpleName namespace
+print name space configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName namespace
+connector SimpleName MethodInvocation SimpleName output directory
+namespace SimpleName MethodInvocation SimpleName output directory
+namespace SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list
+optstables QualifiedName MethodInvocation SimpleName size
+optstables QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+print table configuration SimpleName MethodInvocation SimpleName connector
+print table configuration SimpleName MethodInvocation SimpleName table name
+print table configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName output directory
+table name SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName optstables
+table name SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName optstables
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+print user configuration SimpleName MethodInvocation SimpleName connector
+print user configuration SimpleName MethodInvocation SimpleName user
+print user configuration SimpleName MethodInvocation SimpleName output directory
+connector SimpleName MethodInvocation SimpleName user
+connector SimpleName MethodInvocation SimpleName output directory
+user SimpleName MethodInvocation SimpleName output directory
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName local users
+user SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName local users
+optsusers QualifiedName IfStatement Block EnhancedForStatement SimpleName local users
+optssystem configuration QualifiedName IfStatement Block IfStatement QualifiedName optsnamespace configuration
+optssystem configuration QualifiedName IfStatement Block IfStatement QualifiedName optsusers
+optsnamespace configuration QualifiedName IfStatement Block IfStatement QualifiedName optsusers
+optsall configuration QualifiedName IfStatement Block EnhancedForStatement SimpleName table names
+optsall configuration QualifiedName IfStatement Block EnhancedForStatement SimpleName local users
+optsall configuration QualifiedName IfStatement Block IfStatement QualifiedName optssystem configuration
+optsall configuration QualifiedName IfStatement Block IfStatement QualifiedName optsnamespace configuration
+optsall configuration QualifiedName IfStatement Block IfStatement QualifiedName optsusers
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dump config command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName print config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dump config command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opts
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block IfStatement QualifiedName optsall configuration
+print config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+print config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+print config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dump config command
+print config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+print config SimpleName MethodDeclaration SimpleType SimpleName exception
+print config SimpleName MethodDeclaration Block IfStatement QualifiedName optsall configuration
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

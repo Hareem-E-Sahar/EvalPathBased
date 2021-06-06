@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+type registry SimpleName MethodInvocation SimpleName get struct def by name
+type registry SimpleName MethodInvocation SimpleName name
+get struct def by name SimpleName MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct def by name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas struct def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get struct def by name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas struct def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get struct def by name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SimpleName get struct def by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName get struct def by name
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get struct def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get struct def by name SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get struct def by name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

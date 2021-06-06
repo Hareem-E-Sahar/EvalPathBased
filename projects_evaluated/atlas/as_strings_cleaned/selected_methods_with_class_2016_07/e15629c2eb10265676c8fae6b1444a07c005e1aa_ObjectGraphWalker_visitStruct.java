@@ -1,0 +1,97 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName i struct
+i struct SimpleName SimpleType CastExpression SimpleName val
+i SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i struct
+i SimpleName VariableDeclarationFragment CastExpression SimpleName val
+i struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i constructable type
+type system SimpleName MethodInvocation MethodInvocation SimpleName i
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i constructable type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName i
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+i constructable type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+attribute info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+type SimpleName MethodInvocation SimpleName field mapping
+type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName entry set
+fields SimpleName FieldAccess MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get value
+a info SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+a info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a info
+e SimpleName MethodInvocation SimpleName get key
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+a info SimpleName MethodInvocation SimpleName data type
+a info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+a info SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+i SimpleName MethodInvocation SimpleName get
+i SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+a val SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a val
+node SimpleName SimpleType ClassInstanceCreation SimpleName i
+node SimpleName SimpleType ClassInstanceCreation SimpleName attr name
+node SimpleName SimpleType ClassInstanceCreation SimpleName a info
+node SimpleName SimpleType ClassInstanceCreation SimpleName a val
+i SimpleName ClassInstanceCreation SimpleName attr name
+i SimpleName ClassInstanceCreation SimpleName a info
+i SimpleName ClassInstanceCreation SimpleName a val
+attr name SimpleName ClassInstanceCreation SimpleName a info
+attr name SimpleName ClassInstanceCreation SimpleName a val
+a info SimpleName ClassInstanceCreation SimpleName a val
+node processor SimpleName MethodInvocation SimpleName process node
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleName attr name
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleName a info
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleName a val
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleName attr name
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleName a info
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleName a val
+a info SimpleName MethodInvocation SimpleName data type
+traverse value SimpleName MethodInvocation MethodInvocation SimpleName a info
+traverse value SimpleName MethodInvocation MethodInvocation SimpleName data type
+traverse value SimpleName MethodInvocation SimpleName a val
+a info SimpleName MethodInvocation MethodInvocation SimpleName a val
+data type SimpleName MethodInvocation MethodInvocation SimpleName a val
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+void PrimitiveType MethodDeclaration SimpleName visit struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+visit struct SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

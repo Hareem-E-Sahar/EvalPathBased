@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName classification
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName classifications
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName classification
+public Modifier MethodDeclaration SimpleName get classifications
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classifications
+classification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classifications
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classifications

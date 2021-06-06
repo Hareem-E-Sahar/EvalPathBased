@@ -1,0 +1,57 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get query string
+string utils SimpleName MethodInvocation SimpleName is none empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName request
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get query string
+is none empty SimpleName MethodInvocation MethodInvocation SimpleName request
+is none empty SimpleName MethodInvocation MethodInvocation SimpleName get query string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName name value pair
+request SimpleName MethodInvocation SimpleName get query string
+url encoded utils SimpleName MethodInvocation SimpleName parse
+url encoded utils SimpleName MethodInvocation MethodInvocation SimpleName request
+url encoded utils SimpleName MethodInvocation MethodInvocation SimpleName get query string
+url encoded utils SimpleName MethodInvocation SimpleName utf charset
+parse SimpleName MethodInvocation MethodInvocation SimpleName request
+parse SimpleName MethodInvocation MethodInvocation SimpleName get query string
+parse SimpleName MethodInvocation SimpleName utf charset
+request SimpleName MethodInvocation MethodInvocation SimpleName utf charset
+get query string SimpleName MethodInvocation MethodInvocation SimpleName utf charset
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName url encoded utils
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse
+list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get query string
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName utf charset
+name value pair SimpleName SimpleType SingleVariableDeclaration SimpleName nv
+nv SimpleName MethodInvocation SimpleName get name
+do as SimpleName MethodInvocation SimpleName equals
+do as SimpleName MethodInvocation MethodInvocation SimpleName nv
+do as SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName nv
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+nv SimpleName MethodInvocation SimpleName get value
+name value pair SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+nv SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get do as user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get do as user
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+string SimpleName SimpleType MethodDeclaration SimpleName get do as user
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+get do as user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get do as user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get do as user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get do as user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

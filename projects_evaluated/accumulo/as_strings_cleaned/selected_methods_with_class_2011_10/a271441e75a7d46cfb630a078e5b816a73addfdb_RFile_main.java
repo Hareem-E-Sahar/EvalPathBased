@@ -1,0 +1,417 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+max row SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max row
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+max cf SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max cf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+max cq SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max cq
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+path SimpleName SimpleType ClassInstanceCreation StringLiteral tmptestrf
+cachable block filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+cachable block filewriter QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+cachable block filewriter QualifiedName SimpleType ClassInstanceCreation StringLiteral gz
+cachable block filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+fs SimpleName ClassInstanceCreation StringLiteral gz
+fs SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral gz
+tmptestrf StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral gz
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+tmptestrf StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName conf
+gz StringLiteral ClassInstanceCreation SimpleName conf
+cbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName cachable block filewriter
+cbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+cbw SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+cbw SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral gz
+cbw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+cachable block filewriter QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cbw
+r filewriter QualifiedName SimpleType ClassInstanceCreation SimpleName cbw
+r filewriter QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+cbw SimpleName ClassInstanceCreation NumberLiteral empty
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName r filewriter
+w SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cbw
+w SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+r filewriter QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+w SimpleName MethodInvocation SimpleName start default locality group
+c SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max row
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral r d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral r d
+format SimpleName MethodInvocation SimpleName i
+r d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral r d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral r d
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName i
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName max cf
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cf d
+string SimpleName MethodInvocation SimpleName j
+format SimpleName MethodInvocation StringLiteral cf d
+format SimpleName MethodInvocation SimpleName j
+cf d StringLiteral MethodInvocation SimpleName j
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cf d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName j
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral cf d
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName j
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+k SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+k SimpleName InfixExpression SimpleName max cq
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cq d
+string SimpleName MethodInvocation SimpleName k
+format SimpleName MethodInvocation StringLiteral cq d
+format SimpleName MethodInvocation SimpleName k
+cq d StringLiteral MethodInvocation SimpleName k
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cq d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName k
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral cq d
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName k
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation SimpleName cf
+key SimpleName SimpleType ClassInstanceCreation SimpleName cq
+row SimpleName ClassInstanceCreation SimpleName cf
+row SimpleName ClassInstanceCreation SimpleName cq
+cf SimpleName ClassInstanceCreation SimpleName cq
+c SimpleName PostfixExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+w SimpleName MethodInvocation SimpleName append
+w SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+w SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+w SimpleName MethodInvocation ClassInstanceCreation SimpleName cf
+w SimpleName MethodInvocation ClassInstanceCreation SimpleName cq
+w SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+w SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName cf
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName cq
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max cq
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+max cq SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max cf
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+max cf SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max row
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max row SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+w SimpleName MethodInvocation SimpleName close
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+path SimpleName SimpleType ClassInstanceCreation StringLiteral tmptestrf
+fs SimpleName MethodInvocation SimpleName open
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation StringLiteral tmptestrf
+open SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+open SimpleName MethodInvocation ClassInstanceCreation StringLiteral tmptestrf
+fsin SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+fsin SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+fsin SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral tmptestrf
+fs data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsin
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+path SimpleName SimpleType ClassInstanceCreation StringLiteral tmptestrf
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+cachable block filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+fs SimpleName ClassInstanceCreation SimpleName conf
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName conf
+tmptestrf StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName conf
+cbr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName cachable block filereader
+cbr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+cbr SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral tmptestrf
+cbr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+cachable block filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cbr
+r filereader QualifiedName SimpleType ClassInstanceCreation SimpleName cbr
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName r filereader
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cbr
+r filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression SimpleName t
+open time StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+open time StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+open time StringLiteral InfixExpression StringLiteral empty
+open time StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+open time StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+empty StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral open time
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral open time
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+r SimpleName MethodInvocation SimpleName deep copy
+rd SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+rd SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep copy
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+r SimpleName MethodInvocation SimpleName deep copy
+rd SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+rd SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep copy
+random SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName r
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName r
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName r
+max cq SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName rand
+random SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rand SimpleName Assignment ClassInstanceCreation SimpleType SimpleName random
+rand SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName rd
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName rd
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName rd
+max cq SimpleName MethodInvocation SimpleName rand
+rd SimpleName MethodInvocation SimpleName rand
+random SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rand SimpleName Assignment ClassInstanceCreation SimpleType SimpleName random
+rand SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName rd
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName rd
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName rd
+max cq SimpleName MethodInvocation SimpleName rand
+rd SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName close deep copies
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName r
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName r
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName r
+max cq SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName deep copy
+rd SimpleName Assignment MethodInvocation SimpleName r
+rd SimpleName Assignment MethodInvocation SimpleName deep copy
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName rd
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName rd
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName rd
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName rd
+max cq SimpleName MethodInvocation SimpleName rand
+rd SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName close
+fsin SimpleName MethodInvocation SimpleName close
+seek randomly SimpleName MethodInvocation NumberLiteral empty
+seek randomly SimpleName MethodInvocation SimpleName max row
+seek randomly SimpleName MethodInvocation SimpleName max cf
+seek randomly SimpleName MethodInvocation SimpleName max cq
+seek randomly SimpleName MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName max row
+empty NumberLiteral MethodInvocation SimpleName max cf
+empty NumberLiteral MethodInvocation SimpleName max cq
+empty NumberLiteral MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation SimpleName rand
+max row SimpleName MethodInvocation SimpleName max cf
+max row SimpleName MethodInvocation SimpleName max cq
+max row SimpleName MethodInvocation SimpleName r
+max row SimpleName MethodInvocation SimpleName rand
+max cf SimpleName MethodInvocation SimpleName max cq
+max cf SimpleName MethodInvocation SimpleName r
+max cf SimpleName MethodInvocation SimpleName rand
+max cq SimpleName MethodInvocation SimpleName r
+max cq SimpleName MethodInvocation SimpleName rand
+r SimpleName MethodInvocation SimpleName rand
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

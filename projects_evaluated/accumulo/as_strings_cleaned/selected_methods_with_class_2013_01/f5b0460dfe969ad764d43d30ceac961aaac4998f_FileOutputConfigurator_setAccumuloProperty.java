@@ -1,0 +1,128 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+t SimpleName SimpleType SingleVariableDeclaration SimpleName value
+is supported accumulo property SimpleName MethodInvocation SimpleName property
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+property SimpleName MethodInvocation SimpleName get type
+property SimpleName MethodInvocation MethodInvocation SimpleName is valid format
+get type SimpleName MethodInvocation MethodInvocation SimpleName is valid format
+property SimpleName MethodInvocation MethodInvocation SimpleName val
+get type SimpleName MethodInvocation MethodInvocation SimpleName val
+is valid format SimpleName MethodInvocation SimpleName val
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName optsaccumulo properties
+implementing class SimpleName MethodInvocation QualifiedName optsaccumulo properties
+property SimpleName MethodInvocation SimpleName get key
+enum to conf key SimpleName MethodInvocation InfixExpression StringLiteral .
+implementing class SimpleName MethodInvocation InfixExpression StringLiteral .
+optsaccumulo properties QualifiedName MethodInvocation InfixExpression StringLiteral .
+enum to conf key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+enum to conf key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+implementing class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+implementing class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+optsaccumulo properties QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName property
+optsaccumulo properties QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+. StringLiteral InfixExpression MethodInvocation SimpleName property
+. StringLiteral InfixExpression MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName optsaccumulo properties
+conf SimpleName MethodInvocation InfixExpression StringLiteral .
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation SimpleName val
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName enum to conf key
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName implementing class
+set SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName optsaccumulo properties
+set SimpleName MethodInvocation InfixExpression StringLiteral .
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+set SimpleName MethodInvocation SimpleName val
+enum to conf key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val
+implementing class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val
+optsaccumulo properties QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName val
+. StringLiteral InfixExpression MethodInvocation SimpleName val
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val
+property SimpleName MethodInvocation SimpleName get type
+value is not appropriate for property type StringLiteral InfixExpression MethodInvocation SimpleName property
+value is not appropriate for property type StringLiteral InfixExpression MethodInvocation SimpleName get type
+value is not appropriate for property type StringLiteral InfixExpression StringLiteral empty
+property SimpleName MethodInvocation InfixExpression StringLiteral empty
+get type SimpleName MethodInvocation InfixExpression StringLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral value is not appropriate for property type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+property SimpleName MethodInvocation SimpleName get key
+unsupported configuration property StringLiteral InfixExpression MethodInvocation SimpleName property
+unsupported configuration property StringLiteral InfixExpression MethodInvocation SimpleName get key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported configuration property
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set accumulo property
+private Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set accumulo property
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+t SimpleName TypeParameter MethodDeclaration PrimitiveType void
+t SimpleName TypeParameter MethodDeclaration SimpleName set accumulo property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName conf
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SimpleName set accumulo property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+set accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set accumulo property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set accumulo property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

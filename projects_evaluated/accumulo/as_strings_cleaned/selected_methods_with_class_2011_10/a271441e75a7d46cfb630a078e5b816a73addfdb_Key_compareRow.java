@@ -1,0 +1,59 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName r
+r SimpleName MethodInvocation SimpleName get bytes
+r SimpleName MethodInvocation SimpleName get length
+writable comparator SimpleName MethodInvocation SimpleName compare bytes
+writable comparator SimpleName MethodInvocation SimpleName row
+writable comparator SimpleName MethodInvocation NumberLiteral empty
+writable comparator SimpleName MethodInvocation QualifiedName rowlength
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName r
+writable comparator SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+compare bytes SimpleName MethodInvocation SimpleName row
+compare bytes SimpleName MethodInvocation NumberLiteral empty
+compare bytes SimpleName MethodInvocation QualifiedName rowlength
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName r
+compare bytes SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+compare bytes SimpleName MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation QualifiedName rowlength
+row SimpleName MethodInvocation MethodInvocation SimpleName r
+row SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+row SimpleName MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation MethodInvocation SimpleName r
+row SimpleName MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation QualifiedName rowlength
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+rowlength QualifiedName MethodInvocation MethodInvocation SimpleName r
+rowlength QualifiedName MethodInvocation MethodInvocation SimpleName get bytes
+rowlength QualifiedName MethodInvocation NumberLiteral empty
+rowlength QualifiedName MethodInvocation MethodInvocation SimpleName r
+rowlength QualifiedName MethodInvocation MethodInvocation SimpleName get length
+r SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName r
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare row
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+int PrimitiveType MethodDeclaration SimpleName compare row
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+compare row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+compare row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

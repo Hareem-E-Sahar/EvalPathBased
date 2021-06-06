@@ -1,0 +1,32 @@
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName values
+is empty SimpleName MethodInvocation SimpleName values
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+normalize attribute value SimpleName MethodInvocation MethodInvocation SimpleName entry
+normalize attribute value SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName set value
+entry SimpleName MethodInvocation MethodInvocation SimpleName normalize attribute value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+set value SimpleName MethodInvocation MethodInvocation SimpleName normalize attribute value
+set value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+set value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normailze
+void PrimitiveType MethodDeclaration SimpleName normailze
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normailze
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normailze

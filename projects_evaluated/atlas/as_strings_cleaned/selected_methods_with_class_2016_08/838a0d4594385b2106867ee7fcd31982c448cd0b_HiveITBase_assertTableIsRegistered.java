@@ -1,0 +1,107 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+hive hook itassert predicate QualifiedName SimpleType SingleVariableDeclaration SimpleName assert predicate
+boolean PrimitiveType SingleVariableDeclaration SimpleName is temporary
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for table {}.{}
+log SimpleName MethodInvocation SimpleName db name
+log SimpleName MethodInvocation SimpleName table name
+debug SimpleName MethodInvocation StringLiteral searching for table {}.{}
+debug SimpleName MethodInvocation SimpleName db name
+debug SimpleName MethodInvocation SimpleName table name
+searching for table {}.{} StringLiteral MethodInvocation SimpleName db name
+searching for table {}.{} StringLiteral MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName table name
+hive meta store bridge SimpleName MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation SimpleName table name
+hive meta store bridge SimpleName MethodInvocation SimpleName is temporary
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation SimpleName table name
+get table qualified name SimpleName MethodInvocation SimpleName is temporary
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName is temporary
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName is temporary
+table name SimpleName MethodInvocation SimpleName is temporary
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName is temporary
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+hive data typeshive table QualifiedName MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName hive data typeshive table
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName table qualified name
+assert entity is registered SimpleName MethodInvocation SimpleName assert predicate
+hive data typeshive table QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+hive data typeshive table QualifiedName MethodInvocation MethodInvocation SimpleName table qualified name
+get name SimpleName MethodInvocation MethodInvocation SimpleName table qualified name
+hive data typeshive table QualifiedName MethodInvocation MethodInvocation SimpleName assert predicate
+get name SimpleName MethodInvocation MethodInvocation SimpleName assert predicate
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName table qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName assert predicate
+table qualified name SimpleName MethodInvocation SimpleName assert predicate
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName assert table is registered
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName hive hook itassert predicate
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+string SimpleName SimpleType MethodDeclaration SimpleName assert table is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName hive hook itassert predicate
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+assert table is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+assert table is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+assert predicate SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+assert predicate SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+assert predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+is temporary SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert table is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert table is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assert predicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is temporary
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

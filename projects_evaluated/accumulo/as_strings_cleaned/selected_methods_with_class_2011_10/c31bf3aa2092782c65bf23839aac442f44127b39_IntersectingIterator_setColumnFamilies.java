@@ -1,0 +1,49 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+text SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName columns
+intersecting iterator SimpleName MethodInvocation SimpleName encode columns
+intersecting iterator SimpleName MethodInvocation SimpleName columns
+encode columns SimpleName MethodInvocation SimpleName columns
+cfg SimpleName MethodInvocation SimpleName add option
+cfg SimpleName MethodInvocation QualifiedName intersecting iteratorcolumn families option name
+cfg SimpleName MethodInvocation MethodInvocation SimpleName intersecting iterator
+cfg SimpleName MethodInvocation MethodInvocation SimpleName encode columns
+cfg SimpleName MethodInvocation MethodInvocation SimpleName columns
+add option SimpleName MethodInvocation QualifiedName intersecting iteratorcolumn families option name
+add option SimpleName MethodInvocation MethodInvocation SimpleName intersecting iterator
+add option SimpleName MethodInvocation MethodInvocation SimpleName encode columns
+add option SimpleName MethodInvocation MethodInvocation SimpleName columns
+intersecting iteratorcolumn families option name QualifiedName MethodInvocation MethodInvocation SimpleName intersecting iterator
+intersecting iteratorcolumn families option name QualifiedName MethodInvocation MethodInvocation SimpleName encode columns
+intersecting iteratorcolumn families option name QualifiedName MethodInvocation MethodInvocation SimpleName columns
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set column families
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set column families
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+void PrimitiveType MethodDeclaration SimpleName set column families
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName columns
+set column families SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set column families SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+set column families SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set column families
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set column families
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns

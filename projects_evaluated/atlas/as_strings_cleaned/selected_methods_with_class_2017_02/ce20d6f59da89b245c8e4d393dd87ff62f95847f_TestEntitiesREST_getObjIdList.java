@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get atlas object id
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+add SimpleName MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entities SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SimpleName get obj id list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName entities
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get obj id list
+atlas object id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get obj id list
+get obj id list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+get obj id list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entities
+get obj id list SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get obj id list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get obj id list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

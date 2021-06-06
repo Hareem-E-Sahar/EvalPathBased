@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database to import
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table to import
+boolean PrimitiveType SingleVariableDeclaration SimpleName fail on error
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral importing hive metadata
+info SimpleName MethodInvocation StringLiteral importing hive metadata
+import databases SimpleName MethodInvocation SimpleName fail on error
+import databases SimpleName MethodInvocation SimpleName database to import
+import databases SimpleName MethodInvocation SimpleName table to import
+fail on error SimpleName MethodInvocation SimpleName database to import
+fail on error SimpleName MethodInvocation SimpleName table to import
+database to import SimpleName MethodInvocation SimpleName table to import
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName import hive metadata
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName database to import
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table to import
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import hive metadata
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName database to import
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table to import
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+void PrimitiveType MethodDeclaration SimpleName import hive metadata
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName database to import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table to import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database to import
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table to import
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import hive metadata SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+import hive metadata SimpleName MethodDeclaration SimpleType SimpleName exception
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+database to import SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table to import SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+table to import SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fail on error SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import hive metadata
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import hive metadata
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database to import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table to import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

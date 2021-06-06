@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName conditional writer
+conditional writer SimpleName FieldAccess Assignment SimpleName conditional writer
+public Modifier MethodDeclaration SimpleType SimpleName close conditional writer args
+public Modifier MethodDeclaration SimpleName set conditional writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conditional writer
+close conditional writer args SimpleName SimpleType MethodDeclaration SimpleName set conditional writer
+close conditional writer args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conditional writer
+set conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set conditional writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conditional writer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName close conditional writer args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set conditional writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conditional writer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName close conditional writer args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set conditional writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conditional writer

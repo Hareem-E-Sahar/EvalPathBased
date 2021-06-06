@@ -1,0 +1,102 @@
+client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+get key values SimpleName MethodInvocation SimpleName target
+get key values SimpleName MethodInvocation SimpleName input
+get key values SimpleName MethodInvocation SimpleName p
+get key values SimpleName MethodInvocation SimpleName status
+get key values SimpleName MethodInvocation SimpleName size limit
+target SimpleName MethodInvocation SimpleName input
+target SimpleName MethodInvocation SimpleName p
+target SimpleName MethodInvocation SimpleName status
+target SimpleName MethodInvocation SimpleName size limit
+input SimpleName MethodInvocation SimpleName p
+input SimpleName MethodInvocation SimpleName status
+input SimpleName MethodInvocation SimpleName size limit
+p SimpleName MethodInvocation SimpleName status
+p SimpleName MethodInvocation SimpleName size limit
+status SimpleName MethodInvocation SimpleName size limit
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key values
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+kvs SimpleName VariableDeclarationFragment MethodInvocation SimpleName size limit
+r file replication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kvs
+kvskey values QualifiedName MethodInvocation SimpleName get key values size
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName kvskey values
+empty NumberLiteral InfixExpression MethodInvocation SimpleName get key values size
+client SimpleName MethodInvocation SimpleName replicate key values
+client SimpleName MethodInvocation SimpleName remote table id
+client SimpleName MethodInvocation QualifiedName kvskey values
+client SimpleName MethodInvocation SimpleName tcreds
+replicate key values SimpleName MethodInvocation SimpleName remote table id
+replicate key values SimpleName MethodInvocation QualifiedName kvskey values
+replicate key values SimpleName MethodInvocation SimpleName tcreds
+remote table id SimpleName MethodInvocation QualifiedName kvskey values
+remote table id SimpleName MethodInvocation SimpleName tcreds
+kvskey values QualifiedName MethodInvocation SimpleName tcreds
+entries replicated SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+entries replicated SimpleName VariableDeclarationFragment MethodInvocation SimpleName replicate key values
+entries replicated SimpleName VariableDeclarationFragment MethodInvocation SimpleName remote table id
+entries replicated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName kvskey values
+entries replicated SimpleName VariableDeclarationFragment MethodInvocation SimpleName tcreds
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entries replicated
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName client
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName replicate key values
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName remote table id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName kvskey values
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tcreds
+kvskey values QualifiedName MethodInvocation SimpleName get key values size
+entries replicated SimpleName InfixExpression MethodInvocation QualifiedName kvskey values
+entries replicated SimpleName InfixExpression MethodInvocation SimpleName get key values size
+kvskey values QualifiedName MethodInvocation SimpleName get key values size
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral sent {} key value entries for replication but only {} were reported as replicated
+log SimpleName MethodInvocation MethodInvocation QualifiedName kvskey values
+log SimpleName MethodInvocation MethodInvocation SimpleName get key values size
+log SimpleName MethodInvocation SimpleName entries replicated
+warn SimpleName MethodInvocation StringLiteral sent {} key value entries for replication but only {} were reported as replicated
+warn SimpleName MethodInvocation MethodInvocation QualifiedName kvskey values
+warn SimpleName MethodInvocation MethodInvocation SimpleName get key values size
+warn SimpleName MethodInvocation SimpleName entries replicated
+sent {} key value entries for replication but only {} were reported as replicated StringLiteral MethodInvocation MethodInvocation QualifiedName kvskey values
+sent {} key value entries for replication but only {} were reported as replicated StringLiteral MethodInvocation MethodInvocation SimpleName get key values size
+sent {} key value entries for replication but only {} were reported as replicated StringLiteral MethodInvocation SimpleName entries replicated
+kvskey values QualifiedName MethodInvocation MethodInvocation SimpleName entries replicated
+get key values size SimpleName MethodInvocation MethodInvocation SimpleName entries replicated
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName kvs
+replication stats SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+replication stats SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+replication stats SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+l NumberLiteral ClassInstanceCreation NumberLiteral l
+l NumberLiteral ClassInstanceCreation NumberLiteral l
+l NumberLiteral ClassInstanceCreation NumberLiteral l
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName replication stats
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName replication stats
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+replication stats SimpleName SimpleType MethodDeclaration SimpleName execute
+replication stats SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+replication stats SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName replication stats
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName replication stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

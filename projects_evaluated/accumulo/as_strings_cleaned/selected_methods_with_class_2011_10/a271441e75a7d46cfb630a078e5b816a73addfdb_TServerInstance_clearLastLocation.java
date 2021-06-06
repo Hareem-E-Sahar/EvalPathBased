@@ -1,0 +1,25 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+m SimpleName MethodInvocation MethodInvocation SimpleName as column qualifier
+put delete SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName as column qualifier
+constantsmetadata last location column family QualifiedName MethodInvocation MethodInvocation SimpleName as column qualifier
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear last location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleName clear last location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+clear last location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+clear last location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear last location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear last location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

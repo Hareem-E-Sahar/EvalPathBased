@@ -1,0 +1,71 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName per
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+per SimpleName MethodInvocation SimpleName get length
+per SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName ArrayAccess NumberLiteral empty
+b SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+per SimpleName MethodInvocation SimpleName get bytes
+per SimpleName MethodInvocation SimpleName get length
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation MethodInvocation SimpleName per
+system SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName b
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName per
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName b
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName per
+arraycopy SimpleName MethodInvocation MethodInvocation SimpleName get length
+per SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+per SimpleName MethodInvocation MethodInvocation SimpleName b
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName b
+per SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+per SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName per
+per SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName per
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation SimpleName b
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName per
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+b SimpleName MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation MethodInvocation SimpleName per
+b SimpleName MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName per
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+value SimpleName SimpleType ClassInstanceCreation SimpleName b
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName encode prev end row
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName per
+static Modifier MethodDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SimpleName encode prev end row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName per
+value SimpleName SimpleType MethodDeclaration SimpleName encode prev end row
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName per
+encode prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+encode prev end row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName per
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode prev end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName per
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode prev end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName per

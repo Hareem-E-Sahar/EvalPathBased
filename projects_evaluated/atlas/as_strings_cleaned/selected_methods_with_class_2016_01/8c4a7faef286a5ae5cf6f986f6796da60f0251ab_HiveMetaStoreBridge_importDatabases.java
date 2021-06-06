@@ -1,0 +1,32 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hive client SimpleName MethodInvocation SimpleName get all databases
+databases SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive client
+databases SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all databases
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+register database SimpleName MethodInvocation SimpleName database name
+db reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName register database
+db reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db reference
+import tables SimpleName MethodInvocation SimpleName db reference
+import tables SimpleName MethodInvocation SimpleName database name
+db reference SimpleName MethodInvocation SimpleName database name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName databases
+database name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName databases
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName import databases
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName databases
+void PrimitiveType MethodDeclaration SimpleName import databases
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName databases
+import databases SimpleName MethodDeclaration SimpleType SimpleName exception
+import databases SimpleName MethodDeclaration Block EnhancedForStatement SimpleName databases
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import databases
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import databases
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

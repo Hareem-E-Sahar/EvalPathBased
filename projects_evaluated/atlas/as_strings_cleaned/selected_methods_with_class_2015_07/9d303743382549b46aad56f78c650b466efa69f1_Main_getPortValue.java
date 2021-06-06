@@ -1,0 +1,97 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName configuration
+string SimpleName SimpleType SingleVariableDeclaration SimpleName enable tls flag
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName app port
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName enable tls flag
+is empty SimpleName MethodInvocation SimpleName enable tls flag
+enable tls flag SimpleName MethodInvocation SimpleName equals
+enable tls flag SimpleName MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName enable tls flag
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName enable tls flag
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+enable tls flag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName enable tls flag
+enable tls flag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+enable tls flag SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral true
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation SimpleName atlas server https port
+configuration SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation SimpleName atlas server https port
+get int SimpleName MethodInvocation NumberLiteral empty
+atlas server https port SimpleName MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation SimpleName atlas server http port
+configuration SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation SimpleName atlas server http port
+get int SimpleName MethodInvocation NumberLiteral empty
+atlas server http port SimpleName MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName configuration
+configuration SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas server http port
+configuration SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName configuration
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get int
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas server http port
+get int SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+atlas server https port SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName configuration
+atlas server https port SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get int
+atlas server https port SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas server http port
+atlas server https port SimpleName MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName configuration
+empty NumberLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName get int
+empty NumberLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName atlas server http port
+empty NumberLiteral MethodInvocation ConditionalExpression MethodInvocation NumberLiteral empty
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName configuration
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get int
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName atlas server https port
+app port SimpleName Assignment ConditionalExpression MethodInvocation NumberLiteral empty
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName configuration
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get int
+app port SimpleName Assignment ConditionalExpression MethodInvocation SimpleName atlas server http port
+app port SimpleName Assignment ConditionalExpression MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName app port
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get port value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get port value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName app port
+int PrimitiveType MethodDeclaration SimpleName get port value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configuration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName app port
+get port value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get port value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configuration
+get port value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get port value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+get port value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get port value SimpleName MethodDeclaration Block ReturnStatement SimpleName app port
+configuration SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get port value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get port value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enable tls flag

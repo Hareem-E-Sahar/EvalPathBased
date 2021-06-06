@@ -1,0 +1,128 @@
+mutations rejected SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mutations rejected
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+table SimpleName VariableDeclarationFragment StringLiteral test offline table with cache table
+table SimpleName VariableDeclarationFragment StringLiteral test offline table with cache table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+test offline table with cache table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+test offline table with cache table StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral test offline table with cache table
+connector SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName mtbw
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName mtbw
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+bw SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation StringLiteral val
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral val
+col StringLiteral MethodInvocation StringLiteral empty
+col StringLiteral MethodInvocation StringLiteral val
+empty StringLiteral MethodInvocation StringLiteral val
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+tops SimpleName MethodInvocation SimpleName offline
+tops SimpleName MethodInvocation SimpleName table
+offline SimpleName MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName Assignment MethodInvocation SimpleName mtbw
+bw SimpleName Assignment MethodInvocation SimpleName get batch writer
+bw SimpleName Assignment MethodInvocation SimpleName table
+table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+mutations rejected SimpleName Assignment BooleanLiteral true
+tops SimpleName MethodInvocation SimpleName offline
+tops SimpleName MethodInvocation SimpleName table
+offline SimpleName MethodInvocation SimpleName table
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName Assignment MethodInvocation SimpleName mtbw
+bw SimpleName Assignment MethodInvocation SimpleName get batch writer
+bw SimpleName Assignment MethodInvocation SimpleName table
+table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+mutations rejected SimpleName Assignment BooleanLiteral true
+mtbw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+mutations rejected SimpleName Assignment BooleanLiteral true
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral expected mutations to be rejected
+assert SimpleName MethodInvocation SimpleName mutations rejected
+assert true SimpleName MethodInvocation StringLiteral expected mutations to be rejected
+assert true SimpleName MethodInvocation SimpleName mutations rejected
+expected mutations to be rejected StringLiteral MethodInvocation SimpleName mutations rejected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test offline table with cache
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test offline table with cache
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test offline table with cache
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test offline table with cache SimpleName MethodDeclaration SimpleType SimpleName exception
+test offline table with cache SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test offline table with cache
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test offline table with cache
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

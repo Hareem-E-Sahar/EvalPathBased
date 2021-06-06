@@ -1,0 +1,185 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName wal dir
+server constants SimpleName MethodInvocation SimpleName get wal dirs
+path SimpleName SimpleType ClassInstanceCreation SimpleName wal dir
+wal root SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+wal root SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName wal dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wal root
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName wal root
+list status SimpleName MethodInvocation SimpleName wal root
+listing SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+listing SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+listing SimpleName VariableDeclarationFragment MethodInvocation SimpleName wal root
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+status SimpleName MethodInvocation SimpleName get path
+status SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+server SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+server SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+servers SimpleName MethodInvocation SimpleName add
+servers SimpleName MethodInvocation SimpleName server
+add SimpleName MethodInvocation SimpleName server
+status SimpleName MethodInvocation SimpleName is dir
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName file
+path SimpleName SimpleType ClassInstanceCreation SimpleName wal root
+path SimpleName SimpleType ClassInstanceCreation SimpleName server
+wal root SimpleName ClassInstanceCreation SimpleName server
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName wal root
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName server
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleName wal root
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleName server
+file SimpleName MethodInvocation SimpleName get path
+file SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+is uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+is uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+is uuid SimpleName MethodInvocation MethodInvocation SimpleName get name
+file SimpleName MethodInvocation SimpleName get path
+file to server map SimpleName MethodInvocation SimpleName put
+file to server map SimpleName MethodInvocation MethodInvocation SimpleName file
+file to server map SimpleName MethodInvocation MethodInvocation SimpleName get path
+file to server map SimpleName MethodInvocation SimpleName server
+put SimpleName MethodInvocation MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation SimpleName get path
+put SimpleName MethodInvocation SimpleName server
+file SimpleName MethodInvocation MethodInvocation SimpleName server
+get path SimpleName MethodInvocation MethodInvocation SimpleName server
+file SimpleName MethodInvocation SimpleName get path
+file SimpleName MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+file SimpleName MethodInvocation SimpleName get path
+name to file map SimpleName MethodInvocation SimpleName put
+name to file map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+name to file map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+name to file map SimpleName MethodInvocation MethodInvocation SimpleName get name
+name to file map SimpleName MethodInvocation MethodInvocation SimpleName file
+name to file map SimpleName MethodInvocation MethodInvocation SimpleName get path
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation SimpleName get path
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+file SimpleName MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName file
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression StringLiteral because it doesnt look like a uuid
+file SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+get path SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+info SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+file SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list status
+is uuid SimpleName MethodInvocation SimpleName server
+status SimpleName MethodInvocation SimpleName get path
+file to server map SimpleName MethodInvocation SimpleName put
+file to server map SimpleName MethodInvocation MethodInvocation SimpleName status
+file to server map SimpleName MethodInvocation MethodInvocation SimpleName get path
+file to server map SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName status
+put SimpleName MethodInvocation MethodInvocation SimpleName get path
+put SimpleName MethodInvocation StringLiteral empty
+status SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get path SimpleName MethodInvocation MethodInvocation StringLiteral empty
+status SimpleName MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName status
+ignoring file StringLiteral InfixExpression MethodInvocation SimpleName get path
+ignoring file StringLiteral InfixExpression StringLiteral because it doesnt look like a uuid
+status SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+get path SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+log SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring file
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+info SimpleName MethodInvocation InfixExpression StringLiteral because it doesnt look like a uuid
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName listing
+status SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName listing
+wal dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server constants
+wal dir SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get wal dirs
+file to server map StringLiteral InfixExpression SimpleName file to server map
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral file to server map
+log SimpleName MethodInvocation InfixExpression SimpleName file to server map
+debug SimpleName MethodInvocation InfixExpression StringLiteral file to server map
+debug SimpleName MethodInvocation InfixExpression SimpleName file to server map
+name to file map StringLiteral InfixExpression SimpleName name to file map
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral name to file map
+log SimpleName MethodInvocation InfixExpression SimpleName name to file map
+debug SimpleName MethodInvocation InfixExpression StringLiteral name to file map
+debug SimpleName MethodInvocation InfixExpression SimpleName name to file map
+servers SimpleName MethodInvocation SimpleName size
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier private
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier private
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType int
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName scan servers
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName scan servers
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName scan servers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+private Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName scan servers
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+scan servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+scan servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+scan servers SimpleName MethodDeclaration SimpleType SimpleName exception
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+name to file map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName scan servers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName scan servers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,50 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait def
+trait type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait def
+validate super types SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+validate super types SimpleName MethodInvocation SimpleName trait def
+trait type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName trait def
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation QualifiedName trait deftype name
+trait type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName trait deftype name
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+trait type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName trait deftype name
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName setup super types graph
+trait def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trait defs
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class def
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class def
+validate super types SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+validate super types SimpleName MethodInvocation SimpleName class def
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName class def
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation QualifiedName class deftype name
+class type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName class deftype name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName class deftype name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+class type SimpleName MethodInvocation SimpleName setup super types graph
+class def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName class defs
+trait defs SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName class defs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName step
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName trait defs
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName class defs
+void PrimitiveType MethodDeclaration SimpleName step
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName trait defs
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName class defs
+step SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+step SimpleName MethodDeclaration Block EnhancedForStatement SimpleName trait defs
+step SimpleName MethodDeclaration Block EnhancedForStatement SimpleName class defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName step
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName step
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

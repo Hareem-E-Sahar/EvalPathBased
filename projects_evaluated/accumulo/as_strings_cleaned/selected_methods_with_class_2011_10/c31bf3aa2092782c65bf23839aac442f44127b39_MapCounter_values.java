@@ -1,0 +1,31 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName mutable long
+map SimpleName MethodInvocation SimpleName values
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+vals SimpleName MethodInvocation SimpleName size
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName vals
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+mutable long SimpleName SimpleType SingleVariableDeclaration SimpleName ml
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation QualifiedName mll
+add SimpleName MethodInvocation QualifiedName mll
+mutable long SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName vals
+ml SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName vals
+vals SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName values
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName vals
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName values
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName values
+values SimpleName MethodDeclaration Block EnhancedForStatement SimpleName vals
+values SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName values

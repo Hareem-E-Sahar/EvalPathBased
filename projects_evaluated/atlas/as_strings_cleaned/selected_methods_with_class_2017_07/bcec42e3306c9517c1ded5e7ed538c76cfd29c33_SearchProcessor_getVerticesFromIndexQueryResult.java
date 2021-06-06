@@ -1,0 +1,32 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+iterator SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas index queryresult
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName idx query result
+atlas index queryresult QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName idx query result
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+idx query result SimpleName MethodInvocation SimpleName has next
+idx query result SimpleName MethodInvocation SimpleName next
+idx query result SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+next SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName idx query result
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation SimpleName vertex
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+protected Modifier MethodDeclaration SimpleName get vertices from index query result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName idx query result
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices from index query result
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices from index query result
+get vertices from index query result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName idx query result
+get vertices from index query result SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices from index query result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx query result
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices from index query result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx query result

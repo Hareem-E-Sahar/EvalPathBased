@@ -1,0 +1,20 @@
+asset universe SimpleName SimpleType SingleVariableDeclaration SimpleName asset universe
+asset universe SimpleName FieldAccess Assignment SimpleName asset universe
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set asset universe
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset universe
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset universe
+void PrimitiveType MethodDeclaration SimpleName set asset universe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset universe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName asset universe
+set asset universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset universe
+set asset universe SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset universe
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set asset universe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset universe
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set asset universe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset universe

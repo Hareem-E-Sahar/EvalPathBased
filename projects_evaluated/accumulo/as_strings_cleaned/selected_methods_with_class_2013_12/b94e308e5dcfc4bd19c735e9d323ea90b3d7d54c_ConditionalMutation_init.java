@@ -1,0 +1,32 @@
+condition SimpleName SimpleType SingleVariableDeclaration SimpleName conditions
+check argument SimpleName MethodInvocation InfixExpression SimpleName conditions
+check argument SimpleName MethodInvocation StringLiteral conditions is null
+conditions SimpleName InfixExpression MethodInvocation StringLiteral conditions is null
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName conditions
+as list SimpleName MethodInvocation SimpleName conditions
+conditions SimpleName FieldAccess MethodInvocation SimpleName add all
+conditions SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName arrays
+conditions SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName as list
+conditions SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName conditions
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation SimpleName conditions
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conditions
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conditions
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conditions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conditions
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conditions

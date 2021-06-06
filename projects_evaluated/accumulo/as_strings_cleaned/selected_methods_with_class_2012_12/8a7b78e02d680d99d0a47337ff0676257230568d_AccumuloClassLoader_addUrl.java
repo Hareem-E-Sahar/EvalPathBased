@@ -1,0 +1,150 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classpath
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName urls
+url SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName urls
+classpath SimpleName MethodInvocation SimpleName trim
+classpath SimpleName Assignment MethodInvocation SimpleName classpath
+classpath SimpleName Assignment MethodInvocation SimpleName trim
+classpath SimpleName MethodInvocation SimpleName length
+classpath SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName getenv
+replace env vars SimpleName MethodInvocation SimpleName classpath
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName system
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName getenv
+classpath SimpleName MethodInvocation MethodInvocation SimpleName system
+classpath SimpleName MethodInvocation MethodInvocation SimpleName getenv
+classpath SimpleName Assignment MethodInvocation SimpleName replace env vars
+classpath SimpleName Assignment MethodInvocation SimpleName classpath
+classpath SimpleName Assignment MethodInvocation MethodInvocation SimpleName system
+classpath SimpleName Assignment MethodInvocation MethodInvocation SimpleName getenv
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+uri SimpleName SimpleType ClassInstanceCreation SimpleName classpath
+uri SimpleName Assignment ClassInstanceCreation SimpleType SimpleName uri
+uri SimpleName Assignment ClassInstanceCreation SimpleName classpath
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+uri SimpleName MethodInvocation SimpleName is absolute
+uri SimpleName MethodInvocation SimpleName get scheme
+uri SimpleName MethodInvocation SimpleName get scheme
+uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+get scheme SimpleName MethodInvocation MethodInvocation SimpleName equals
+uri SimpleName MethodInvocation MethodInvocation StringLiteral file
+get scheme SimpleName MethodInvocation MethodInvocation StringLiteral file
+equals SimpleName MethodInvocation StringLiteral file
+file SimpleName SimpleType ClassInstanceCreation SimpleName classpath
+ext dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+ext dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName classpath
+final Modifier VariableDeclarationStatement SimpleType SimpleName file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ext dir
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName classpath
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ext dir
+ext dir SimpleName MethodInvocation SimpleName is directory
+ext dir SimpleName MethodInvocation SimpleName to uri
+ext dir SimpleName MethodInvocation MethodInvocation SimpleName to url
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to url
+urls SimpleName MethodInvocation SimpleName add
+urls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ext dir
+urls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+urls SimpleName MethodInvocation MethodInvocation SimpleName to url
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ext dir
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+add SimpleName MethodInvocation MethodInvocation SimpleName to url
+ext dir SimpleName MethodInvocation SimpleName get parent file
+ext dir SimpleName MethodInvocation SimpleName get parent file
+file SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+ext dir SimpleName MethodInvocation SimpleName get name
+^ StringLiteral InfixExpression MethodInvocation SimpleName ext dir
+^ StringLiteral InfixExpression MethodInvocation SimpleName get name
+name SimpleName MethodInvocation SimpleName matches
+name SimpleName MethodInvocation InfixExpression StringLiteral ^
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ext dir
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+matches SimpleName MethodInvocation InfixExpression StringLiteral ^
+matches SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ext dir
+matches SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName accept
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration SimpleName accept
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+ext dir SimpleName MethodInvocation MethodInvocation SimpleName list files
+get parent file SimpleName MethodInvocation MethodInvocation SimpleName list files
+list files SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName filename filter
+ext jars SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ext dir
+ext jars SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parent file
+ext jars SimpleName VariableDeclarationFragment MethodInvocation SimpleName list files
+ext jarslength QualifiedName InfixExpression NumberLiteral empty
+ext jars SimpleName InfixExpression InfixExpression InfixExpression QualifiedName ext jarslength
+ext jars SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+file SimpleName SimpleType SingleVariableDeclaration SimpleName jar
+jar SimpleName MethodInvocation SimpleName to uri
+jar SimpleName MethodInvocation MethodInvocation SimpleName to url
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to url
+urls SimpleName MethodInvocation SimpleName add
+urls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jar
+urls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+urls SimpleName MethodInvocation MethodInvocation SimpleName to url
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName jar
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+add SimpleName MethodInvocation MethodInvocation SimpleName to url
+file SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ext jars
+jar SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ext jars
+ext jars SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName urls
+ext jars SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+uri SimpleName MethodInvocation SimpleName to url
+urls SimpleName MethodInvocation SimpleName add
+urls SimpleName MethodInvocation MethodInvocation SimpleName uri
+urls SimpleName MethodInvocation MethodInvocation SimpleName to url
+add SimpleName MethodInvocation MethodInvocation SimpleName uri
+add SimpleName MethodInvocation MethodInvocation SimpleName to url
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add url
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classpath
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName urls
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add url
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classpath
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName urls
+static Modifier MethodDeclaration SimpleType SimpleName malformed url exception
+void PrimitiveType MethodDeclaration SimpleName add url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classpath
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName urls
+void PrimitiveType MethodDeclaration SimpleType SimpleName malformed url exception
+add url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classpath
+add url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName urls
+add url SimpleName MethodDeclaration SimpleType SimpleName malformed url exception
+classpath SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName urls
+classpath SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+urls SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classpath
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName urls
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classpath
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName urls
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception

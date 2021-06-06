@@ -1,0 +1,270 @@
+a StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral c
+b StringLiteral ArrayInitializer StringLiteral c
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+c StringLiteral ArrayInitializer StringLiteral a
+c StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral b
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty StringLiteral ArrayInitializer StringLiteral aa
+empty StringLiteral ArrayInitializer StringLiteral bb
+empty StringLiteral ArrayInitializer StringLiteral cc
+aa StringLiteral ArrayInitializer StringLiteral bb
+aa StringLiteral ArrayInitializer StringLiteral cc
+bb StringLiteral ArrayInitializer StringLiteral cc
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+a StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral c
+b StringLiteral ArrayInitializer StringLiteral c
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+c StringLiteral ArrayInitializer StringLiteral a
+c StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral b
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty StringLiteral ArrayInitializer StringLiteral aa
+empty StringLiteral ArrayInitializer StringLiteral bb
+empty StringLiteral ArrayInitializer StringLiteral cc
+aa StringLiteral ArrayInitializer StringLiteral bb
+aa StringLiteral ArrayInitializer StringLiteral cc
+bb StringLiteral ArrayInitializer StringLiteral cc
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+a StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral c
+b StringLiteral ArrayInitializer StringLiteral c
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+c StringLiteral ArrayInitializer StringLiteral a
+c StringLiteral ArrayInitializer StringLiteral b
+a StringLiteral ArrayInitializer StringLiteral b
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral c
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral a
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral b
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty StringLiteral ArrayInitializer StringLiteral aa
+empty StringLiteral ArrayInitializer StringLiteral bb
+empty StringLiteral ArrayInitializer StringLiteral cc
+aa StringLiteral ArrayInitializer StringLiteral bb
+aa StringLiteral ArrayInitializer StringLiteral cc
+bb StringLiteral ArrayInitializer StringLiteral cc
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType int
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+check expected range bins SimpleName MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral aa
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral bb
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral cc
+empty NumberLiteral MethodInvocation ArrayCreation ArrayType PrimitiveType int
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayCreation ArrayInitializer NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test sub bins
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test sub bins
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test sub bins
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test sub bins SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test sub bins
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test sub bins
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

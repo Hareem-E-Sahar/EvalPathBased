@@ -1,0 +1,44 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName titan element class
+get graph SimpleName MethodInvocation MethodInvocation SimpleName open management
+mgmt SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph
+mgmt SimpleName VariableDeclarationFragment MethodInvocation SimpleName open management
+titan management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mgmt
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName titan graph index
+mgmt SimpleName MethodInvocation SimpleName get graph indexes
+mgmt SimpleName MethodInvocation SimpleName titan element class
+get graph indexes SimpleName MethodInvocation SimpleName titan element class
+indices SimpleName VariableDeclarationFragment MethodInvocation SimpleName mgmt
+indices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph indexes
+indices SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan element class
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+titan graph index SimpleName SimpleType SingleVariableDeclaration SimpleName index
+index SimpleName MethodInvocation SimpleName name
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName index
+result SimpleName MethodInvocation MethodInvocation SimpleName name
+add SimpleName MethodInvocation MethodInvocation SimpleName index
+add SimpleName MethodInvocation MethodInvocation SimpleName name
+titan graph index SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName indices
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName indices
+mgmt SimpleName MethodInvocation SimpleName commit
+indices SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get index keys
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName titan element class
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName indices
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get index keys
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get index keys
+get index keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName titan element class
+get index keys SimpleName MethodDeclaration Block EnhancedForStatement SimpleName indices
+get index keys SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName titan element class
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName titan element class

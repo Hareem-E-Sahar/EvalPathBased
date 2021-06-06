@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+atlas type def store SimpleName SimpleType SingleVariableDeclaration SimpleName type def store
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+get atlas types def from resource file SimpleName MethodInvocation SimpleName file name
+types from json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas types def from resource file
+types from json SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types from json
+create types as needed SimpleName MethodInvocation SimpleName types from json
+create types as needed SimpleName MethodInvocation SimpleName type def store
+create types as needed SimpleName MethodInvocation SimpleName type registry
+types from json SimpleName MethodInvocation SimpleName type def store
+types from json SimpleName MethodInvocation SimpleName type registry
+type def store SimpleName MethodInvocation SimpleName type registry
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName load model from resources json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def store
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def store
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName load model from resources json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def store
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def store
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleName load model from resources json
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type def store
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def store
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+load model from resources json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+load model from resources json SimpleName MethodDeclaration SimpleType SimpleName io exception
+load model from resources json SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type def store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+type def store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+type def store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName load model from resources json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load model from resources json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

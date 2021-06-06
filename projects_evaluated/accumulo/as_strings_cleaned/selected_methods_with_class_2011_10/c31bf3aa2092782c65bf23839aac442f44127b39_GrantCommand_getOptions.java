@@ -1,0 +1,111 @@
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+group SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option group
+option group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+option SimpleName SimpleType ClassInstanceCreation QualifiedName shelltable option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral grant a table permission on this table
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table
+shelltable option QualifiedName ClassInstanceCreation BooleanLiteral true
+shelltable option QualifiedName ClassInstanceCreation StringLiteral grant a table permission on this table
+table StringLiteral ClassInstanceCreation BooleanLiteral true
+table StringLiteral ClassInstanceCreation StringLiteral grant a table permission on this table
+true BooleanLiteral ClassInstanceCreation StringLiteral grant a table permission on this table
+table opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+table opt SimpleName Assignment ClassInstanceCreation QualifiedName shelltable option
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table
+table opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral grant a table permission on this table
+option SimpleName SimpleType ClassInstanceCreation StringLiteral s
+option SimpleName SimpleType ClassInstanceCreation StringLiteral system
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral grant a system permission
+s StringLiteral ClassInstanceCreation StringLiteral system
+s StringLiteral ClassInstanceCreation BooleanLiteral false
+s StringLiteral ClassInstanceCreation StringLiteral grant a system permission
+system StringLiteral ClassInstanceCreation BooleanLiteral false
+system StringLiteral ClassInstanceCreation StringLiteral grant a system permission
+false BooleanLiteral ClassInstanceCreation StringLiteral grant a system permission
+system opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+system opt SimpleName Assignment ClassInstanceCreation StringLiteral s
+system opt SimpleName Assignment ClassInstanceCreation StringLiteral system
+system opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+system opt SimpleName Assignment ClassInstanceCreation StringLiteral grant a system permission
+option SimpleName SimpleType ClassInstanceCreation StringLiteral p
+option SimpleName SimpleType ClassInstanceCreation StringLiteral pattern
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral regex pattern of tables to grant permissions on
+p StringLiteral ClassInstanceCreation StringLiteral pattern
+p StringLiteral ClassInstanceCreation BooleanLiteral true
+p StringLiteral ClassInstanceCreation StringLiteral regex pattern of tables to grant permissions on
+pattern StringLiteral ClassInstanceCreation BooleanLiteral true
+pattern StringLiteral ClassInstanceCreation StringLiteral regex pattern of tables to grant permissions on
+true BooleanLiteral ClassInstanceCreation StringLiteral regex pattern of tables to grant permissions on
+table pattern opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+table pattern opt SimpleName Assignment ClassInstanceCreation StringLiteral p
+table pattern opt SimpleName Assignment ClassInstanceCreation StringLiteral pattern
+table pattern opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+table pattern opt SimpleName Assignment ClassInstanceCreation StringLiteral regex pattern of tables to grant permissions on
+table pattern opt SimpleName MethodInvocation SimpleName set arg name
+table pattern opt SimpleName MethodInvocation StringLiteral pattern
+set arg name SimpleName MethodInvocation StringLiteral pattern
+table opt SimpleName MethodInvocation SimpleName set arg name
+table opt SimpleName MethodInvocation StringLiteral table
+set arg name SimpleName MethodInvocation StringLiteral table
+group SimpleName MethodInvocation SimpleName add option
+group SimpleName MethodInvocation SimpleName system opt
+add option SimpleName MethodInvocation SimpleName system opt
+group SimpleName MethodInvocation SimpleName add option
+group SimpleName MethodInvocation SimpleName table opt
+add option SimpleName MethodInvocation SimpleName table opt
+group SimpleName MethodInvocation SimpleName add option
+group SimpleName MethodInvocation SimpleName table pattern opt
+add option SimpleName MethodInvocation SimpleName table pattern opt
+group SimpleName MethodInvocation SimpleName set required
+group SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+o SimpleName MethodInvocation SimpleName add option group
+o SimpleName MethodInvocation SimpleName group
+add option group SimpleName MethodInvocation SimpleName group
+option SimpleName SimpleType ClassInstanceCreation QualifiedName shelluser option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral user
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral user to operate on
+shelluser option QualifiedName ClassInstanceCreation StringLiteral user
+shelluser option QualifiedName ClassInstanceCreation BooleanLiteral true
+shelluser option QualifiedName ClassInstanceCreation StringLiteral user to operate on
+user StringLiteral ClassInstanceCreation BooleanLiteral true
+user StringLiteral ClassInstanceCreation StringLiteral user to operate on
+true BooleanLiteral ClassInstanceCreation StringLiteral user to operate on
+user opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+user opt SimpleName Assignment ClassInstanceCreation QualifiedName shelluser option
+user opt SimpleName Assignment ClassInstanceCreation StringLiteral user
+user opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+user opt SimpleName Assignment ClassInstanceCreation StringLiteral user to operate on
+user opt SimpleName MethodInvocation SimpleName set arg name
+user opt SimpleName MethodInvocation StringLiteral username
+set arg name SimpleName MethodInvocation StringLiteral username
+user opt SimpleName MethodInvocation SimpleName set required
+user opt SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+o SimpleName MethodInvocation SimpleName add option
+o SimpleName MethodInvocation SimpleName user opt
+add option SimpleName MethodInvocation SimpleName user opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

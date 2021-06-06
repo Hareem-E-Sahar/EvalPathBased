@@ -1,0 +1,16 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+datafile manager SimpleName MethodInvocation SimpleName get datafile sizes
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+public Modifier MethodDeclaration SimpleName get datafiles
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafiles
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafiles
+data file value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafiles
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get datafiles
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get datafiles

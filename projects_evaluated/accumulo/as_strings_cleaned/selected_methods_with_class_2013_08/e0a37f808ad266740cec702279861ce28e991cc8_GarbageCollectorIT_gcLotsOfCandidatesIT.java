@@ -1,0 +1,86 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral filling metadata table with bogus delete flags
+info SimpleName MethodInvocation StringLiteral filling metadata table with bogus delete flags
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+add entries SimpleName MethodInvocation SimpleName c
+add entries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName set default memory
+get config SimpleName MethodInvocation MethodInvocation SimpleName set default memory
+cluster SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get config SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName memory unitmegabyte
+get config SimpleName MethodInvocation MethodInvocation QualifiedName memory unitmegabyte
+set default memory SimpleName MethodInvocation NumberLiteral empty
+set default memory SimpleName MethodInvocation QualifiedName memory unitmegabyte
+empty NumberLiteral MethodInvocation QualifiedName memory unitmegabyte
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+functional test utils SimpleName MethodInvocation SimpleName read all
+functional test utils SimpleName MethodInvocation SimpleName cluster
+functional test utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+functional test utils SimpleName MethodInvocation SimpleName gc
+read all SimpleName MethodInvocation SimpleName cluster
+read all SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+read all SimpleName MethodInvocation SimpleName gc
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+cluster SimpleName MethodInvocation SimpleName gc
+simple garbage collector SimpleName SimpleType TypeLiteral MethodInvocation SimpleName gc
+output SimpleName VariableDeclarationFragment MethodInvocation SimpleName functional test utils
+output SimpleName VariableDeclarationFragment MethodInvocation SimpleName read all
+output SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+output SimpleName VariableDeclarationFragment MethodInvocation SimpleName gc
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output
+gc SimpleName MethodInvocation SimpleName destroy
+output SimpleName MethodInvocation SimpleName contains
+output SimpleName MethodInvocation StringLiteral delete candidates has exceeded
+contains SimpleName MethodInvocation StringLiteral delete candidates has exceeded
+assert true SimpleName MethodInvocation MethodInvocation SimpleName output
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral delete candidates has exceeded
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName gc lots of candidates it
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName gc lots of candidates it
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName gc lots of candidates it
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName gc lots of candidates it
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+gc lots of candidates it SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName gc lots of candidates it
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gc lots of candidates it
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,121 @@
+zoo keeper SimpleName SimpleType SingleVariableDeclaration SimpleName zoo keeper
+cache SimpleName MethodInvocation SimpleName contains key
+cache SimpleName MethodInvocation SimpleName z path
+contains key SimpleName MethodInvocation SimpleName z path
+zoo keeper SimpleName MethodInvocation SimpleName exists
+zoo keeper SimpleName MethodInvocation SimpleName z path
+zoo keeper SimpleName MethodInvocation SimpleName watcher
+exists SimpleName MethodInvocation SimpleName z path
+exists SimpleName MethodInvocation SimpleName watcher
+z path SimpleName MethodInvocation SimpleName watcher
+stat SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo keeper
+stat SimpleName VariableDeclarationFragment MethodInvocation SimpleName exists
+stat SimpleName VariableDeclarationFragment MethodInvocation SimpleName z path
+stat SimpleName VariableDeclarationFragment MethodInvocation SimpleName watcher
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stat
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+log SimpleName MethodInvocation SimpleName is trace enabled
+zookeeper did not contain StringLiteral InfixExpression SimpleName z path
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral zookeeper did not contain
+log SimpleName MethodInvocation InfixExpression SimpleName z path
+trace SimpleName MethodInvocation InfixExpression StringLiteral zookeeper did not contain
+trace SimpleName MethodInvocation InfixExpression SimpleName z path
+zoo keeper SimpleName MethodInvocation SimpleName get data
+zoo keeper SimpleName MethodInvocation SimpleName z path
+zoo keeper SimpleName MethodInvocation SimpleName watcher
+zoo keeper SimpleName MethodInvocation SimpleName stat
+get data SimpleName MethodInvocation SimpleName z path
+get data SimpleName MethodInvocation SimpleName watcher
+get data SimpleName MethodInvocation SimpleName stat
+z path SimpleName MethodInvocation SimpleName watcher
+z path SimpleName MethodInvocation SimpleName stat
+watcher SimpleName MethodInvocation SimpleName stat
+data SimpleName Assignment MethodInvocation SimpleName zoo keeper
+data SimpleName Assignment MethodInvocation SimpleName get data
+data SimpleName Assignment MethodInvocation SimpleName z path
+data SimpleName Assignment MethodInvocation SimpleName watcher
+data SimpleName Assignment MethodInvocation SimpleName stat
+keeper exceptionbad version exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName is trace enabled
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+data SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName data
+data SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName utf
+zookeeper contained StringLiteral InfixExpression SimpleName z path
+zookeeper contained StringLiteral InfixExpression StringLiteral empty
+z path SimpleName InfixExpression StringLiteral empty
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral zookeeper contained
+log SimpleName MethodInvocation InfixExpression SimpleName z path
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+trace SimpleName MethodInvocation InfixExpression StringLiteral zookeeper contained
+trace SimpleName MethodInvocation InfixExpression SimpleName z path
+trace SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+data SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName data
+data SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName utf
+putting StringLiteral InfixExpression SimpleName z path
+putting StringLiteral InfixExpression StringLiteral empty
+putting StringLiteral InfixExpression StringLiteral in cache
+z path SimpleName InfixExpression StringLiteral empty
+z path SimpleName InfixExpression StringLiteral in cache
+empty StringLiteral InfixExpression StringLiteral in cache
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral putting
+log SimpleName MethodInvocation InfixExpression SimpleName z path
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression StringLiteral in cache
+trace SimpleName MethodInvocation InfixExpression StringLiteral putting
+trace SimpleName MethodInvocation InfixExpression SimpleName z path
+trace SimpleName MethodInvocation InfixExpression StringLiteral empty
+trace SimpleName MethodInvocation InfixExpression StringLiteral in cache
+put SimpleName MethodInvocation SimpleName z path
+put SimpleName MethodInvocation SimpleName data
+put SimpleName MethodInvocation SimpleName stat
+z path SimpleName MethodInvocation SimpleName data
+z path SimpleName MethodInvocation SimpleName stat
+data SimpleName MethodInvocation SimpleName stat
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo keeper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo keeper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo keeper
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+run SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+run SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+zoo keeper SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+zoo keeper SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keeper
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

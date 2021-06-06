@@ -1,0 +1,131 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lookup
+block cache SimpleName SimpleType SingleVariableDeclaration SimpleName cache
+block reader SimpleName SimpleType SingleVariableDeclaration SimpleName curr block
+string SimpleName SimpleType SingleVariableDeclaration SimpleName block
+curr block SimpleName MethodInvocation SimpleName get raw size
+cache SimpleName MethodInvocation SimpleName get max size
+curr block SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache
+curr block SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max size
+get raw size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache
+get raw size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max size
+curr block SimpleName MethodInvocation SimpleName get raw size
+block read SimpleName SimpleType ClassInstanceCreation SimpleName curr block
+block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName curr block
+block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get raw size
+curr block SimpleName ClassInstanceCreation MethodInvocation SimpleName curr block
+curr block SimpleName ClassInstanceCreation MethodInvocation SimpleName get raw size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+curr block SimpleName MethodInvocation SimpleName get raw size
+int PrimitiveType CastExpression MethodInvocation SimpleName curr block
+int PrimitiveType CastExpression MethodInvocation SimpleName get raw size
+byte PrimitiveType ArrayType ArrayCreation CastExpression PrimitiveType int
+b SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName Assignment ArrayCreation CastExpression PrimitiveType int
+curr block SimpleName MethodInvocation SimpleName read fully
+curr block SimpleName MethodInvocation SimpleName b
+read fully SimpleName MethodInvocation SimpleName b
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error full block read for file StringLiteral InfixExpression SimpleName file name
+error full block read for file StringLiteral InfixExpression StringLiteral for block
+error full block read for file StringLiteral InfixExpression SimpleName block
+file name SimpleName InfixExpression StringLiteral for block
+file name SimpleName InfixExpression SimpleName block
+for block StringLiteral InfixExpression SimpleName block
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral error full block read for file
+log SimpleName MethodInvocation InfixExpression SimpleName file name
+log SimpleName MethodInvocation InfixExpression StringLiteral for block
+log SimpleName MethodInvocation InfixExpression SimpleName block
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral error full block read for file
+debug SimpleName MethodInvocation InfixExpression SimpleName file name
+debug SimpleName MethodInvocation InfixExpression StringLiteral for block
+debug SimpleName MethodInvocation InfixExpression SimpleName block
+debug SimpleName MethodInvocation SimpleName e
+error full block read for file StringLiteral InfixExpression MethodInvocation SimpleName e
+file name SimpleName InfixExpression MethodInvocation SimpleName e
+for block StringLiteral InfixExpression MethodInvocation SimpleName e
+block SimpleName InfixExpression MethodInvocation SimpleName e
+curr block SimpleName MethodInvocation SimpleName close
+cache entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ce
+cache SimpleName MethodInvocation SimpleName cache block
+cache SimpleName MethodInvocation SimpleName lookup
+cache SimpleName MethodInvocation SimpleName b
+cache block SimpleName MethodInvocation SimpleName lookup
+cache block SimpleName MethodInvocation SimpleName b
+lookup SimpleName MethodInvocation SimpleName b
+ce SimpleName Assignment MethodInvocation SimpleName cache
+ce SimpleName Assignment MethodInvocation SimpleName cache block
+ce SimpleName Assignment MethodInvocation SimpleName lookup
+ce SimpleName Assignment MethodInvocation SimpleName b
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+already cached block StringLiteral InfixExpression SimpleName lookup
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral already cached block
+log SimpleName MethodInvocation InfixExpression SimpleName lookup
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral already cached block
+warn SimpleName MethodInvocation InfixExpression SimpleName lookup
+warn SimpleName MethodInvocation SimpleName e
+already cached block StringLiteral InfixExpression MethodInvocation SimpleName e
+lookup SimpleName InfixExpression MethodInvocation SimpleName e
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName b
+data input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName b
+block read SimpleName SimpleType ClassInstanceCreation QualifiedName blength
+data input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName blength
+b SimpleName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName blength
+ce SimpleName MethodInvocation SimpleName get buffer
+cached block read SimpleName SimpleType ClassInstanceCreation SimpleName ce
+cached block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ce
+cached block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get buffer
+ce SimpleName ClassInstanceCreation MethodInvocation SimpleName ce
+ce SimpleName ClassInstanceCreation MethodInvocation SimpleName get buffer
+private Modifier MethodDeclaration SimpleType SimpleName block read
+private Modifier MethodDeclaration SimpleName cache block
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName block cache
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName block reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr block
+block read SimpleName SimpleType MethodDeclaration SimpleName cache block
+block read SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lookup
+block read SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cache
+block read SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName curr block
+block read SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName block
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lookup
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName block cache
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName block reader
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr block
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+cache block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block
+cache block SimpleName MethodDeclaration SimpleType SimpleName io exception
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr block
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr block
+cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+cache SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+curr block SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+curr block SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+block SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block read
+public Modifier TypeDeclaration MethodDeclaration SimpleName cache block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block read
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cache block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

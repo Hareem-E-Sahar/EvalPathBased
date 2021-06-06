@@ -1,0 +1,24 @@
+peeking iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+source SimpleName FieldAccess Assignment SimpleName source
+source SimpleName MethodInvocation SimpleName has next
+source SimpleName MethodInvocation SimpleName next
+top SimpleName Assignment MethodInvocation SimpleName source
+top SimpleName Assignment MethodInvocation SimpleName next
+is initialized SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName peeking iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+peeking iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName initialize
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName initialize
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source

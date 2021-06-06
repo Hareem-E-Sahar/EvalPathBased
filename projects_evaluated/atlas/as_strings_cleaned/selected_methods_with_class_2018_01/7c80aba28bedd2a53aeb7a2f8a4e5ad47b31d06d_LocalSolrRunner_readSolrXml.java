@@ -1,0 +1,47 @@
+solr StringLiteral InfixExpression SimpleName solr xml
+res name SimpleName VariableDeclarationFragment InfixExpression StringLiteral solr
+res name SimpleName VariableDeclarationFragment InfixExpression SimpleName solr xml
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName res name
+local solr runner SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get resource as stream
+local solr runner SimpleName SimpleType TypeLiteral MethodInvocation SimpleName res name
+get resource as stream SimpleName MethodInvocation SimpleName res name
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource as stream
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName res name
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input stream
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to read solr xml
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+io utils SimpleName MethodInvocation SimpleName to string
+io utils SimpleName MethodInvocation SimpleName input stream
+io utils SimpleName MethodInvocation MethodInvocation SimpleName charset
+io utils SimpleName MethodInvocation MethodInvocation SimpleName for name
+io utils SimpleName MethodInvocation MethodInvocation StringLiteral utf
+to string SimpleName MethodInvocation SimpleName input stream
+to string SimpleName MethodInvocation MethodInvocation SimpleName charset
+to string SimpleName MethodInvocation MethodInvocation SimpleName for name
+to string SimpleName MethodInvocation MethodInvocation StringLiteral utf
+input stream SimpleName MethodInvocation MethodInvocation SimpleName charset
+input stream SimpleName MethodInvocation MethodInvocation SimpleName for name
+input stream SimpleName MethodInvocation MethodInvocation StringLiteral utf
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName read solr xml
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName read solr xml
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName read solr xml
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read solr xml SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read solr xml
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read solr xml
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,69 @@
+data input SimpleName SimpleType SingleVariableDeclaration SimpleName in
+in SimpleName MethodInvocation SimpleName read int
+sz SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+sz SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+sz SimpleName InfixExpression NumberLiteral empty
+invalid size StringLiteral InfixExpression SimpleName sz
+invalid size StringLiteral InfixExpression StringLiteral for file metadata object
+sz SimpleName InfixExpression StringLiteral for file metadata object
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid size
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName sz
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for file metadata object
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName sz
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+val SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+key SimpleName MethodInvocation SimpleName read fields
+key SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName in
+val SimpleName MethodInvocation SimpleName read fields
+val SimpleName MethodInvocation SimpleName in
+read fields SimpleName MethodInvocation SimpleName in
+the metadata SimpleName FieldAccess MethodInvocation SimpleName put
+the metadata SimpleName FieldAccess MethodInvocation SimpleName key
+the metadata SimpleName FieldAccess MethodInvocation SimpleName val
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName val
+key SimpleName MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName sz
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sz SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName read fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read fields SimpleName MethodDeclaration SimpleType SimpleName io exception
+read fields SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SimpleName get attribute defs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName attribute defs
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute defs
+atlas attribute def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute defs
+get attribute defs SimpleName MethodDeclaration Block ReturnStatement SimpleName attribute defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute defs

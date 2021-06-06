@@ -1,0 +1,34 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get master locations
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master locations
+locations SimpleName MethodInvocation SimpleName size
+locations SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+locations SimpleName MethodInvocation SimpleName get
+locations SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+host and port SimpleName MethodInvocation SimpleName from string
+host and port SimpleName MethodInvocation MethodInvocation SimpleName locations
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get
+host and port SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+from string SimpleName MethodInvocation MethodInvocation SimpleName locations
+from string SimpleName MethodInvocation MethodInvocation SimpleName get
+from string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+failed to obtain master host StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to obtain master host
+log SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to obtain master host
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SimpleName get master address
+host and port SimpleName SimpleType MethodDeclaration SimpleName get master address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+public Modifier TypeDeclaration MethodDeclaration SimpleName get master address
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get master address

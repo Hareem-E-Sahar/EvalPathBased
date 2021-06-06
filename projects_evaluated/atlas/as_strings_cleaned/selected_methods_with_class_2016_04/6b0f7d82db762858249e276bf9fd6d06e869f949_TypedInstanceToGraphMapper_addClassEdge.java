@@ -1,0 +1,67 @@
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName vertex
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName to vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+graph helper SimpleName MethodInvocation SimpleName add edge
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName to vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+add edge SimpleName MethodInvocation SimpleName instance vertex
+add edge SimpleName MethodInvocation SimpleName to vertex
+add edge SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName to vertex
+instance vertex SimpleName MethodInvocation SimpleName edge label
+to vertex SimpleName MethodInvocation SimpleName edge label
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName to vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+type utilspair QualifiedName MethodInvocation SimpleName of
+type utilspair QualifiedName MethodInvocation SimpleName to vertex
+type utilspair QualifiedName MethodInvocation SimpleName edge
+of SimpleName MethodInvocation SimpleName to vertex
+of SimpleName MethodInvocation SimpleName edge
+to vertex SimpleName MethodInvocation SimpleName edge
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName type utilspair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName edge
+private Modifier MethodDeclaration SimpleName add class edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+type utilspair QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName add class edge
+vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add class edge
+edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add class edge
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add class edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add class edge SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName add class edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add class edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

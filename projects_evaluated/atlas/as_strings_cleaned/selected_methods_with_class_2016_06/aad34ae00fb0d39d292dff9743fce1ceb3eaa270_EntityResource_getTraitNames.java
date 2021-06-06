@@ -1,0 +1,188 @@
+path SimpleName SingleMemberAnnotation StringLiteral guidtraits
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+path param SimpleName SingleMemberAnnotation StringLiteral guid
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral fetching trait names for entity
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral fetching trait names for entity
+debug SimpleName MethodInvocation SimpleName guid
+fetching trait names for entity StringLiteral MethodInvocation SimpleName guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+metadata service SimpleName MethodInvocation SimpleName get trait names
+metadata service SimpleName MethodInvocation SimpleName guid
+get trait names SimpleName MethodInvocation SimpleName guid
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName metadata service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get trait names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+servlets SimpleName MethodInvocation SimpleName get request id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation MethodInvocation SimpleName servlets
+response SimpleName MethodInvocation MethodInvocation SimpleName get request id
+put SimpleName MethodInvocation QualifiedName atlas clientrequest id
+put SimpleName MethodInvocation MethodInvocation SimpleName servlets
+put SimpleName MethodInvocation MethodInvocation SimpleName get request id
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName servlets
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName get request id
+json array SimpleName SimpleType ClassInstanceCreation SimpleName trait names
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+response SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json array
+response SimpleName MethodInvocation ClassInstanceCreation SimpleName trait names
+put SimpleName MethodInvocation QualifiedName atlas clientresults
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json array
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName trait names
+atlas clientresults QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName json array
+atlas clientresults QualifiedName MethodInvocation ClassInstanceCreation SimpleName trait names
+trait names SimpleName MethodInvocation SimpleName size
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientcount
+response SimpleName MethodInvocation MethodInvocation SimpleName trait names
+response SimpleName MethodInvocation MethodInvocation SimpleName size
+put SimpleName MethodInvocation QualifiedName atlas clientcount
+put SimpleName MethodInvocation MethodInvocation SimpleName trait names
+put SimpleName MethodInvocation MethodInvocation SimpleName size
+atlas clientcount QualifiedName MethodInvocation MethodInvocation SimpleName trait names
+atlas clientcount QualifiedName MethodInvocation MethodInvocation SimpleName size
+response SimpleName MethodInvocation SimpleName ok
+response SimpleName MethodInvocation SimpleName response
+ok SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+ok SimpleName MethodInvocation MethodInvocation SimpleName build
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral an entity with guid does not exist
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral an entity with guid does not exist
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+an entity with guid does not exist StringLiteral MethodInvocation SimpleName guid
+an entity with guid does not exist StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusnot found
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusnot found
+e SimpleName MethodInvocation QualifiedName responsestatusnot found
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusnot found
+atlas exception SimpleName SimpleType UnionType SimpleType SimpleName illegal argument exception
+atlas exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get trait names for entity {}
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get trait names for entity {}
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+unable to get trait names for entity {} StringLiteral MethodInvocation SimpleName guid
+unable to get trait names for entity {} StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get trait names for entity {}
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get trait names for entity {}
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+unable to get trait names for entity {} StringLiteral MethodInvocation SimpleName guid
+unable to get trait names for entity {} StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+e SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral guidtraits
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get trait names
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get trait names
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get trait names
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+guidtraits StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get trait names
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get trait names
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName get trait names
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+response SimpleName SimpleType MethodDeclaration SimpleName get trait names
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guidtraits
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guidtraits
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

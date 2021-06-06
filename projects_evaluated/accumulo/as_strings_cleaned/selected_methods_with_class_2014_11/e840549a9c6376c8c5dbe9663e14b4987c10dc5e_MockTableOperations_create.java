@@ -1,0 +1,119 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType SingleVariableDeclaration SimpleName versioning iter
+time type SimpleName SimpleType SingleVariableDeclaration SimpleName time type
+tables SimpleName MethodInvocation SimpleName qualify
+tables SimpleName MethodInvocation SimpleName table name
+qualify SimpleName MethodInvocation SimpleName table name
+tables SimpleName MethodInvocation MethodInvocation SimpleName get first
+qualify SimpleName MethodInvocation MethodInvocation SimpleName get first
+table name SimpleName MethodInvocation MethodInvocation SimpleName get first
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tables
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName qualify
+namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table name
+namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+table name SimpleName MethodInvocation SimpleName matches
+table name SimpleName MethodInvocation QualifiedName tablesvalid name regex
+matches SimpleName MethodInvocation QualifiedName tablesvalid name regex
+exists SimpleName MethodInvocation SimpleName table name
+table exists exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table exists exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table exists exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation SimpleName table name
+table name SimpleName ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation StringLiteral empty
+namespace exists SimpleName MethodInvocation SimpleName namespace
+namespace ( StringLiteral InfixExpression SimpleName namespace
+namespace ( StringLiteral InfixExpression StringLiteral ) does not exist create it first
+namespace SimpleName InfixExpression StringLiteral ) does not exist create it first
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral namespace (
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName namespace
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) does not exist create it first
+acu SimpleName MethodInvocation SimpleName create table
+acu SimpleName MethodInvocation SimpleName username
+acu SimpleName MethodInvocation SimpleName table name
+acu SimpleName MethodInvocation SimpleName versioning iter
+acu SimpleName MethodInvocation SimpleName time type
+create table SimpleName MethodInvocation SimpleName username
+create table SimpleName MethodInvocation SimpleName table name
+create table SimpleName MethodInvocation SimpleName versioning iter
+create table SimpleName MethodInvocation SimpleName time type
+username SimpleName MethodInvocation SimpleName table name
+username SimpleName MethodInvocation SimpleName versioning iter
+username SimpleName MethodInvocation SimpleName time type
+table name SimpleName MethodInvocation SimpleName versioning iter
+table name SimpleName MethodInvocation SimpleName time type
+versioning iter SimpleName MethodInvocation SimpleName time type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time type
+void PrimitiveType MethodDeclaration SimpleName create
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time type
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time type
+create SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+create SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+versioning iter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+versioning iter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+versioning iter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+versioning iter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName versioning iter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

@@ -1,0 +1,82 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName list
+obj SimpleName InstanceofExpression SimpleType SimpleName set
+obj SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName obj
+collection SimpleName SimpleType CastExpression SimpleName obj
+obj list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName collection
+obj list SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj list
+obj list SimpleName MethodInvocation SimpleName size
+is valid element count SimpleName MethodInvocation MethodInvocation SimpleName obj list
+is valid element count SimpleName MethodInvocation MethodInvocation SimpleName size
+object SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element type SimpleName MethodInvocation SimpleName is valid value
+element type SimpleName MethodInvocation SimpleName element
+is valid value SimpleName MethodInvocation SimpleName element
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName obj list
+element SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName obj list
+obj SimpleName MethodInvocation SimpleName get class
+obj SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName obj
+get length SimpleName MethodInvocation SimpleName obj
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName array len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName obj
+is valid element count SimpleName MethodInvocation SimpleName array len
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName array len
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName obj
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName obj
+get SimpleName MethodInvocation SimpleName i
+obj SimpleName MethodInvocation SimpleName i
+element type SimpleName MethodInvocation SimpleName is valid value
+element type SimpleName MethodInvocation MethodInvocation SimpleName array
+element type SimpleName MethodInvocation MethodInvocation SimpleName get
+element type SimpleName MethodInvocation MethodInvocation SimpleName obj
+element type SimpleName MethodInvocation MethodInvocation SimpleName i
+is valid value SimpleName MethodInvocation MethodInvocation SimpleName array
+is valid value SimpleName MethodInvocation MethodInvocation SimpleName get
+is valid value SimpleName MethodInvocation MethodInvocation SimpleName obj
+is valid value SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName array len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+array len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is valid value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is valid value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is valid value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+is valid value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+is valid value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

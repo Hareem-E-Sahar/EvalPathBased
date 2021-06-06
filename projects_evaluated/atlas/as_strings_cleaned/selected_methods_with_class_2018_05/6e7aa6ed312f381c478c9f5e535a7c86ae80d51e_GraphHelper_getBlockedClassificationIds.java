@@ -1,0 +1,66 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas graph utils v SimpleName MethodInvocation SimpleName get property
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+atlas graph utils v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+get property SimpleName MethodInvocation SimpleName edge
+get property SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+edge SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+constantsrelationshiptype blocked propagated classifications key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName list
+classification ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+classification ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+classification ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+classification ids SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classification ids
+is not empty SimpleName MethodInvocation SimpleName classification ids
+collections SimpleName MethodInvocation SimpleName empty list
+collection utils SimpleName MethodInvocation ConditionalExpression SimpleName classification ids
+is not empty SimpleName MethodInvocation ConditionalExpression SimpleName classification ids
+classification ids SimpleName MethodInvocation ConditionalExpression SimpleName classification ids
+collection utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+collection utils SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName empty list
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+is not empty SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName empty list
+classification ids SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+classification ids SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName empty list
+classification ids SimpleName ConditionalExpression MethodInvocation SimpleName collections
+classification ids SimpleName ConditionalExpression MethodInvocation SimpleName empty list
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName collection utils
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName is not empty
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName classification ids
+ret SimpleName Assignment ConditionalExpression SimpleName classification ids
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName collections
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName empty list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get blocked classification ids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get blocked classification ids
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get blocked classification ids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get blocked classification ids
+get blocked classification ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+get blocked classification ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+get blocked classification ids SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get blocked classification ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get blocked classification ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

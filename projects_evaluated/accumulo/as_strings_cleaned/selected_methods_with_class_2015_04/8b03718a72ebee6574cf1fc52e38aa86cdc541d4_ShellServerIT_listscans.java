@@ -1,0 +1,313 @@
+name SimpleName MethodInvocation SimpleName get method name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+createtable StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral createtable
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+insert StringLiteral InfixExpression SimpleName i
+insert StringLiteral InfixExpression StringLiteral cf cq value
+i SimpleName InfixExpression StringLiteral cf cq value
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral insert
+ts SimpleName MethodInvocation InfixExpression SimpleName i
+ts SimpleName MethodInvocation InfixExpression StringLiteral cf cq value
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral insert
+exec SimpleName MethodInvocation InfixExpression SimpleName i
+exec SimpleName MethodInvocation InfixExpression StringLiteral cf cq value
+exec SimpleName MethodInvocation BooleanLiteral true
+insert StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+i SimpleName InfixExpression MethodInvocation BooleanLiteral true
+cf cq value StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation SimpleName table
+connector SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table SimpleName MethodInvocation QualifiedName authorizationsempty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+final Modifier VariableDeclarationStatement SimpleType SimpleName scanner
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName connector
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create scanner
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName slow iterator
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+slow iterator SimpleName MethodInvocation SimpleName set sleep time
+slow iterator SimpleName MethodInvocation SimpleName cfg
+slow iterator SimpleName MethodInvocation NumberLiteral empty
+set sleep time SimpleName MethodInvocation SimpleName cfg
+set sleep time SimpleName MethodInvocation NumberLiteral empty
+cfg SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName add scan iterator
+s SimpleName MethodInvocation SimpleName cfg
+add scan iterator SimpleName MethodInvocation SimpleName cfg
+functional test utils SimpleName MethodInvocation SimpleName count
+functional test utils SimpleName MethodInvocation SimpleName s
+count SimpleName MethodInvocation SimpleName s
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread
+thread SimpleName MethodInvocation SimpleName start
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+scans SimpleName MethodInvocation SimpleName is empty
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName scans
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName scans
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName is empty
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation StringLiteral listscans
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral listscans
+exec SimpleName MethodInvocation BooleanLiteral true
+listscans StringLiteral MethodInvocation BooleanLiteral true
+current scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+current scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+current scans SimpleName VariableDeclarationFragment MethodInvocation StringLiteral listscans
+current scans SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current scans
+got output from listscans StringLiteral InfixExpression SimpleName current scans
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral got output from listscans
+log SimpleName MethodInvocation InfixExpression SimpleName current scans
+info SimpleName MethodInvocation InfixExpression StringLiteral got output from listscans
+info SimpleName MethodInvocation InfixExpression SimpleName current scans
+current scans SimpleName MethodInvocation SimpleName split
+current scans SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+lines SimpleName VariableDeclarationFragment MethodInvocation SimpleName current scans
+lines SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+lines SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+scan offset SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName scan offset
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+scan offset SimpleName InfixExpression QualifiedName lineslength
+lines SimpleName ArrayAccess SimpleName scan offset
+current scan SimpleName VariableDeclarationFragment ArrayAccess SimpleName lines
+current scan SimpleName VariableDeclarationFragment ArrayAccess SimpleName scan offset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current scan
+current scan SimpleName MethodInvocation SimpleName contains
+current scan SimpleName MethodInvocation SimpleName table
+contains SimpleName MethodInvocation SimpleName table
+retaining scan StringLiteral InfixExpression SimpleName current scan
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral retaining scan
+log SimpleName MethodInvocation InfixExpression SimpleName current scan
+info SimpleName MethodInvocation InfixExpression StringLiteral retaining scan
+info SimpleName MethodInvocation InfixExpression SimpleName current scan
+scans SimpleName MethodInvocation SimpleName add
+scans SimpleName MethodInvocation SimpleName current scan
+add SimpleName MethodInvocation SimpleName current scan
+ignoring scan because of wrong table StringLiteral InfixExpression SimpleName current scan
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring scan because of wrong table
+log SimpleName MethodInvocation InfixExpression SimpleName current scan
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring scan because of wrong table
+info SimpleName MethodInvocation InfixExpression SimpleName current scan
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName scan offset
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName lineslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName scan offset
+scan offset SimpleName InfixExpression ForStatement PostfixExpression SimpleName scan offset
+lineslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName scan offset
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+thread SimpleName MethodInvocation SimpleName join
+could not find any active scans over table StringLiteral InfixExpression SimpleName table
+scans SimpleName MethodInvocation SimpleName is empty
+assert false SimpleName MethodInvocation InfixExpression StringLiteral could not find any active scans over table
+assert false SimpleName MethodInvocation InfixExpression SimpleName table
+assert false SimpleName MethodInvocation MethodInvocation SimpleName scans
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is empty
+could not find any active scans over table StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName scans
+could not find any active scans over table StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName scans
+table SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName is empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName scan
+scan SimpleName MethodInvocation SimpleName contains
+scan SimpleName MethodInvocation StringLiteral running
+contains SimpleName MethodInvocation StringLiteral running
+ignoring scan because it doesnt contain running StringLiteral InfixExpression SimpleName scan
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring scan because it doesnt contain running
+log SimpleName MethodInvocation InfixExpression SimpleName scan
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring scan because it doesnt contain running
+info SimpleName MethodInvocation InfixExpression SimpleName scan
+scan SimpleName MethodInvocation SimpleName split
+scan SimpleName MethodInvocation StringLiteral \\ 
+split SimpleName MethodInvocation StringLiteral \\ 
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName scan
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\ 
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation SimpleName parts
+to string SimpleName MethodInvocation SimpleName parts
+expected colums but found StringLiteral InfixExpression QualifiedName partslength
+expected colums but found StringLiteral InfixExpression StringLiteral instead for
+expected colums but found StringLiteral InfixExpression MethodInvocation SimpleName arrays
+expected colums but found StringLiteral InfixExpression MethodInvocation SimpleName to string
+expected colums but found StringLiteral InfixExpression MethodInvocation SimpleName parts
+expected colums but found StringLiteral InfixExpression StringLiteral empty
+partslength QualifiedName InfixExpression StringLiteral instead for
+partslength QualifiedName InfixExpression MethodInvocation SimpleName arrays
+partslength QualifiedName InfixExpression MethodInvocation SimpleName to string
+partslength QualifiedName InfixExpression MethodInvocation SimpleName parts
+partslength QualifiedName InfixExpression StringLiteral empty
+instead for StringLiteral InfixExpression MethodInvocation SimpleName arrays
+instead for StringLiteral InfixExpression MethodInvocation SimpleName to string
+instead for StringLiteral InfixExpression MethodInvocation SimpleName parts
+instead for StringLiteral InfixExpression StringLiteral empty
+arrays SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+parts SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral expected colums but found
+assert equals SimpleName MethodInvocation InfixExpression QualifiedName partslength
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral instead for
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName parts
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName partslength
+expected colums but found StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+partslength QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+instead for StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+parts SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+expected colums but found StringLiteral InfixExpression MethodInvocation QualifiedName partslength
+partslength QualifiedName InfixExpression MethodInvocation QualifiedName partslength
+instead for StringLiteral InfixExpression MethodInvocation QualifiedName partslength
+arrays SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName partslength
+to string SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName partslength
+parts SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName partslength
+empty StringLiteral InfixExpression MethodInvocation QualifiedName partslength
+empty NumberLiteral MethodInvocation QualifiedName partslength
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName trim
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName trim
+tserver SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName parts
+tserver SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver
+host port pattern SimpleName VariableDeclarationFragment StringLiteral d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host port pattern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral d
+tserver SimpleName MethodInvocation SimpleName matches
+tserver SimpleName MethodInvocation SimpleName host port pattern
+matches SimpleName MethodInvocation SimpleName host port pattern
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tserver
+assert true SimpleName MethodInvocation MethodInvocation SimpleName matches
+assert true SimpleName MethodInvocation MethodInvocation SimpleName host port pattern
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get tablet servers
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get tablet servers SimpleName MethodInvocation MethodInvocation SimpleName contains
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tserver
+get tablet servers SimpleName MethodInvocation MethodInvocation SimpleName tserver
+contains SimpleName MethodInvocation SimpleName tserver
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet servers
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName tserver
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName trim
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName trim
+client SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName parts
+client SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName matches
+client SimpleName MethodInvocation SimpleName host port pattern
+matches SimpleName MethodInvocation SimpleName host port pattern
+assert true SimpleName MethodInvocation MethodInvocation SimpleName client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName matches
+assert true SimpleName MethodInvocation MethodInvocation SimpleName host port pattern
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName scans
+scan SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scans
+deletetable f StringLiteral InfixExpression SimpleName table
+ts SimpleName MethodInvocation SimpleName exec
+ts SimpleName MethodInvocation InfixExpression StringLiteral deletetable f
+ts SimpleName MethodInvocation InfixExpression SimpleName table
+ts SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable f
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation BooleanLiteral true
+deletetable f StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName listscans
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName listscans
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scans
+void PrimitiveType MethodDeclaration SimpleName listscans
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scans
+listscans SimpleName MethodDeclaration SimpleType SimpleName exception
+listscans SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+listscans SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+listscans SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scans
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName listscans
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName listscans
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,39 @@
+nm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName native map
+native map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nm
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nm SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation BooleanLiteral false
+no such element exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+insert and verify SimpleName MethodInvocation SimpleName nm
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName nm
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation BooleanLiteral false
+no such element exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+nm SimpleName MethodInvocation SimpleName delete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleName test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test

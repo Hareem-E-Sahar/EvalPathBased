@@ -1,0 +1,29 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+t server info SimpleName SimpleType SingleVariableDeclaration SimpleName c
+current SimpleName MethodInvocation SimpleName values
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation QualifiedName cinstance
+add SimpleName MethodInvocation QualifiedName cinstance
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName current
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t server instance
+public Modifier MethodDeclaration SimpleName get current servers
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t server instance
+synchronized Modifier MethodDeclaration SimpleName get current servers
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current servers
+t server instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current servers
+get current servers SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current servers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current servers

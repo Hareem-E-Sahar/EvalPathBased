@@ -1,0 +1,62 @@
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+final Modifier VariableDeclarationStatement SimpleType SimpleName options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+option SimpleName SimpleType ClassInstanceCreation StringLiteral ts
+option SimpleName SimpleType ClassInstanceCreation StringLiteral tablet server
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral tablet server to ping
+ts StringLiteral ClassInstanceCreation StringLiteral tablet server
+ts StringLiteral ClassInstanceCreation BooleanLiteral true
+ts StringLiteral ClassInstanceCreation StringLiteral tablet server to ping
+tablet server StringLiteral ClassInstanceCreation BooleanLiteral true
+tablet server StringLiteral ClassInstanceCreation StringLiteral tablet server to ping
+true BooleanLiteral ClassInstanceCreation StringLiteral tablet server to ping
+tserver option SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+tserver option SimpleName Assignment ClassInstanceCreation StringLiteral ts
+tserver option SimpleName Assignment ClassInstanceCreation StringLiteral tablet server
+tserver option SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+tserver option SimpleName Assignment ClassInstanceCreation StringLiteral tablet server to ping
+tserver option SimpleName MethodInvocation SimpleName set arg name
+tserver option SimpleName MethodInvocation StringLiteral tablet server
+set arg name SimpleName MethodInvocation StringLiteral tablet server
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName tserver option
+add option SimpleName MethodInvocation SimpleName tserver option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral np
+option SimpleName SimpleType ClassInstanceCreation StringLiteral nopagination
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral disable pagination of output
+np StringLiteral ClassInstanceCreation StringLiteral nopagination
+np StringLiteral ClassInstanceCreation BooleanLiteral false
+np StringLiteral ClassInstanceCreation StringLiteral disable pagination of output
+nopagination StringLiteral ClassInstanceCreation BooleanLiteral false
+nopagination StringLiteral ClassInstanceCreation StringLiteral disable pagination of output
+false BooleanLiteral ClassInstanceCreation StringLiteral disable pagination of output
+disable pagination opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral np
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral nopagination
+disable pagination opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+disable pagination opt SimpleName Assignment ClassInstanceCreation StringLiteral disable pagination of output
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName disable pagination opt
+add option SimpleName MethodInvocation SimpleName disable pagination opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

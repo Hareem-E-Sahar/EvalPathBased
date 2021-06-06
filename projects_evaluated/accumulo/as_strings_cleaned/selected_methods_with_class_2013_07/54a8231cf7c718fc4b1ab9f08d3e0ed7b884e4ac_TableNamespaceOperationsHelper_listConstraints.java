@@ -1,0 +1,172 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table namespace
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+get properties SimpleName MethodInvocation SimpleName table namespace
+property SimpleName MethodInvocation SimpleName get key
+propertytable constraint prefix QualifiedName MethodInvocation SimpleName to string
+property SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+property SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+starts with SimpleName MethodInvocation MethodInvocation SimpleName to string
+property SimpleName MethodInvocation SimpleName get value
+constraints SimpleName MethodInvocation SimpleName contains key
+constraints SimpleName MethodInvocation MethodInvocation SimpleName property
+constraints SimpleName MethodInvocation MethodInvocation SimpleName get value
+contains key SimpleName MethodInvocation MethodInvocation SimpleName property
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get value
+property SimpleName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName get value
+constraints SimpleName MethodInvocation SimpleName get
+constraints SimpleName MethodInvocation MethodInvocation SimpleName property
+constraints SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName property
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+property SimpleName MethodInvocation SimpleName get key
+same constraint configured twice StringLiteral InfixExpression MethodInvocation SimpleName property
+same constraint configured twice StringLiteral InfixExpression MethodInvocation SimpleName get key
+same constraint configured twice StringLiteral InfixExpression StringLiteral =
+same constraint configured twice StringLiteral InfixExpression QualifiedName propertytable constraint prefix
+same constraint configured twice StringLiteral InfixExpression MethodInvocation SimpleName constraints
+same constraint configured twice StringLiteral InfixExpression MethodInvocation SimpleName get
+same constraint configured twice StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName property
+same constraint configured twice StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+same constraint configured twice StringLiteral InfixExpression StringLiteral =
+property SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+property SimpleName MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+get key SimpleName MethodInvocation InfixExpression QualifiedName propertytable constraint prefix
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName constraints
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName constraints
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+property SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+= StringLiteral InfixExpression QualifiedName propertytable constraint prefix
+= StringLiteral InfixExpression MethodInvocation SimpleName constraints
+= StringLiteral InfixExpression MethodInvocation SimpleName get
+= StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName property
+= StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+= StringLiteral InfixExpression StringLiteral =
+= StringLiteral InfixExpression MethodInvocation SimpleName property
+= StringLiteral InfixExpression MethodInvocation SimpleName get key
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation SimpleName constraints
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation SimpleName get
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName property
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get value
+propertytable constraint prefix QualifiedName InfixExpression StringLiteral =
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation SimpleName property
+propertytable constraint prefix QualifiedName InfixExpression MethodInvocation SimpleName get key
+constraints SimpleName MethodInvocation InfixExpression StringLiteral =
+get SimpleName MethodInvocation InfixExpression StringLiteral =
+property SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral =
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral =
+constraints SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+constraints SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName property
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+= StringLiteral InfixExpression MethodInvocation SimpleName property
+= StringLiteral InfixExpression MethodInvocation SimpleName get key
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral same constraint configured twice
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName propertytable constraint prefix
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+property SimpleName MethodInvocation SimpleName get value
+property SimpleName MethodInvocation SimpleName get key
+propertytable constraint prefix QualifiedName MethodInvocation SimpleName to string
+propertytable constraint prefix QualifiedName MethodInvocation MethodInvocation SimpleName length
+to string SimpleName MethodInvocation MethodInvocation SimpleName length
+property SimpleName MethodInvocation MethodInvocation SimpleName substring
+get key SimpleName MethodInvocation MethodInvocation SimpleName substring
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable constraint prefix
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+integer SimpleName MethodInvocation MethodInvocation SimpleName substring
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+parse int SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+constraints SimpleName MethodInvocation SimpleName put
+constraints SimpleName MethodInvocation MethodInvocation SimpleName property
+constraints SimpleName MethodInvocation MethodInvocation SimpleName get value
+constraints SimpleName MethodInvocation MethodInvocation SimpleName integer
+constraints SimpleName MethodInvocation MethodInvocation SimpleName parse int
+constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+put SimpleName MethodInvocation MethodInvocation SimpleName property
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName integer
+put SimpleName MethodInvocation MethodInvocation SimpleName parse int
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse int
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse int
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+property SimpleName MethodInvocation SimpleName to string
+bad key for existing constraint StringLiteral InfixExpression MethodInvocation SimpleName property
+bad key for existing constraint StringLiteral InfixExpression MethodInvocation SimpleName to string
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad key for existing constraint
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table namespace
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list constraints
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName list constraints
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName table namespace not found exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list constraints
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list constraints
+integer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list constraints
+list constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+list constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+list constraints SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+list constraints SimpleName MethodDeclaration SimpleType SimpleName table namespace not found exception
+list constraints SimpleName MethodDeclaration Block ReturnStatement SimpleName constraints
+table namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table namespace not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list constraints
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list constraints
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception

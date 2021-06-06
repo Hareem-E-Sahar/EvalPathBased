@@ -1,0 +1,500 @@
+int PrimitiveType SingleVariableDeclaration SimpleName source id
+advanced cursor SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName advanced cursor
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName not flag
+source id SimpleName ArrayAccess FieldAccess SimpleName not flag
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName has top
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName has top
+iter SimpleName FieldAccess MethodInvocation SimpleName has top
+iter SimpleName FieldAccess MethodInvocation InfixExpression BooleanLiteral false
+has top SimpleName MethodInvocation InfixExpression BooleanLiteral false
+end compare SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+overall range SimpleName MethodInvocation SimpleName get end key
+overall range SimpleName MethodInvocation SimpleName get end key
+overall range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get end key SimpleName MethodInvocation MethodInvocation SimpleName get row
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get row
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get row
+overall range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get end key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get row
+end compare SimpleName Assignment MethodInvocation MethodInvocation SimpleName get row
+end compare SimpleName Assignment MethodInvocation SimpleName compare to
+end compare SimpleName Assignment MethodInvocation MethodInvocation SimpleName get row
+overall range SimpleName MethodInvocation SimpleName is end key inclusive
+end compare SimpleName InfixExpression NumberLiteral empty
+end compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get partition SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get partition SimpleName MethodInvocation MethodInvocation SimpleName get top key
+current partition SimpleName MethodInvocation SimpleName compare to
+current partition SimpleName MethodInvocation MethodInvocation SimpleName get partition
+current partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get partition
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+partition compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+partition compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+partition compare SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get partition
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current partition
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+partition compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current partition
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+build key SimpleName MethodInvocation FieldAccess SimpleName term
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+current partition SimpleName MethodInvocation FieldAccess SimpleName term
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build key
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+seek key SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName seek key
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral true
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+iter SimpleName FieldAccess MethodInvocation SimpleName seek column families
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+iter SimpleName FieldAccess MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName seek column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek column families
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName seek column families
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek column families SimpleName MethodInvocation SimpleName inclusive
+partition compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get term SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get term SimpleName MethodInvocation MethodInvocation SimpleName get top key
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName compare to
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName compare to
+term SimpleName FieldAccess MethodInvocation SimpleName compare to
+term SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get term
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get term
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+term compare SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+term compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+term compare SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get term
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName term compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+term compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current partition
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+build key SimpleName MethodInvocation FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current doc id
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+current partition SimpleName MethodInvocation FieldAccess SimpleName term
+current partition SimpleName MethodInvocation SimpleName current doc id
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+term SimpleName FieldAccess MethodInvocation SimpleName current doc id
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build key
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+seek key SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current doc id
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName seek key
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral true
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+iter SimpleName FieldAccess MethodInvocation SimpleName seek column families
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+iter SimpleName FieldAccess MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName seek column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek column families
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName seek column families
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek column families SimpleName MethodInvocation SimpleName inclusive
+term compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get doc id SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get doc id SimpleName MethodInvocation MethodInvocation SimpleName get top key
+doc id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get doc id
+doc id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get top key
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc id
+current doc id SimpleName MethodInvocation SimpleName compare to
+current doc id SimpleName MethodInvocation SimpleName doc id
+compare to SimpleName MethodInvocation SimpleName doc id
+doc id compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName current doc id
+doc id compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+doc id compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc id compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current doc id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName doc id
+doc id compare SimpleName InfixExpression NumberLiteral empty
+doc id compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current partition
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+build key SimpleName MethodInvocation FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current doc id
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+current partition SimpleName MethodInvocation FieldAccess SimpleName term
+current partition SimpleName MethodInvocation SimpleName current doc id
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+term SimpleName FieldAccess MethodInvocation SimpleName current doc id
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build key
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+seek key SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current doc id
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName seek key
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral true
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+iter SimpleName FieldAccess MethodInvocation SimpleName seek column families
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+iter SimpleName FieldAccess MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName seek column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek column families
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName seek column families
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek column families SimpleName MethodInvocation SimpleName inclusive
+doc id compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess NumberLiteral empty
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+empty NumberLiteral ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName next
+empty NumberLiteral ArrayAccess FieldAccess MethodInvocation SimpleName next
+iter SimpleName FieldAccess MethodInvocation SimpleName next
+advanced cursor SimpleName Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType int
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName has top
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName has top
+iter SimpleName FieldAccess MethodInvocation SimpleName has top
+iter SimpleName FieldAccess MethodInvocation InfixExpression BooleanLiteral false
+has top SimpleName MethodInvocation InfixExpression BooleanLiteral false
+end compare SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+overall range SimpleName MethodInvocation SimpleName get end key
+overall range SimpleName MethodInvocation SimpleName get end key
+overall range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get end key SimpleName MethodInvocation MethodInvocation SimpleName get row
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get row
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get row
+overall range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get end key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get row
+end compare SimpleName Assignment MethodInvocation MethodInvocation SimpleName get row
+end compare SimpleName Assignment MethodInvocation SimpleName compare to
+end compare SimpleName Assignment MethodInvocation MethodInvocation SimpleName get row
+overall range SimpleName MethodInvocation SimpleName is end key inclusive
+end compare SimpleName InfixExpression NumberLiteral empty
+end compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get partition SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get partition SimpleName MethodInvocation MethodInvocation SimpleName get top key
+current partition SimpleName MethodInvocation SimpleName compare to
+current partition SimpleName MethodInvocation MethodInvocation SimpleName get partition
+current partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get partition
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+partition compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+partition compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+partition compare SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get partition
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current partition
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+partition compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current partition
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+build key SimpleName MethodInvocation FieldAccess SimpleName term
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+current partition SimpleName MethodInvocation FieldAccess SimpleName term
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build key
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+seek key SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName seek key
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral true
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+iter SimpleName FieldAccess MethodInvocation SimpleName seek column families
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+iter SimpleName FieldAccess MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName seek column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek column families
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName seek column families
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek column families SimpleName MethodInvocation SimpleName inclusive
+partition compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get partition SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get partition SimpleName MethodInvocation MethodInvocation SimpleName get top key
+current partition SimpleName MethodInvocation SimpleName set
+current partition SimpleName MethodInvocation MethodInvocation SimpleName get partition
+current partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+set SimpleName MethodInvocation MethodInvocation SimpleName get partition
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+current doc id SimpleName MethodInvocation SimpleName set
+current doc id SimpleName MethodInvocation SimpleName empty byte array
+set SimpleName MethodInvocation SimpleName empty byte array
+advanced cursor SimpleName Assignment BooleanLiteral true
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+get term SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName iter
+get term SimpleName MethodInvocation MethodInvocation SimpleName get top key
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName compare to
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName compare to
+term SimpleName FieldAccess MethodInvocation SimpleName compare to
+term SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get term
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get term
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+term compare SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+term compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+term compare SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get term
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName term compare
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+term compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName term
+source id SimpleName ArrayAccess FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current partition
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+build key SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+build key SimpleName MethodInvocation FieldAccess SimpleName term
+build key SimpleName MethodInvocation SimpleName current doc id
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName sources
+current partition SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName source id
+current partition SimpleName MethodInvocation FieldAccess SimpleName term
+current partition SimpleName MethodInvocation SimpleName current doc id
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName current doc id
+term SimpleName FieldAccess MethodInvocation SimpleName current doc id
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build key
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current partition
+seek key SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName term
+seek key SimpleName VariableDeclarationFragment MethodInvocation SimpleName current doc id
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seek key
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+range SimpleName SimpleType ClassInstanceCreation SimpleName seek key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+seek key SimpleName ClassInstanceCreation BooleanLiteral true
+seek key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation SimpleName seek
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName seek key
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral true
+iter SimpleName FieldAccess MethodInvocation ClassInstanceCreation BooleanLiteral false
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName seek column families
+iter SimpleName FieldAccess MethodInvocation SimpleName seek column families
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName inclusive
+iter SimpleName FieldAccess MethodInvocation SimpleName inclusive
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName seek key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName seek column families
+seek SimpleName MethodInvocation SimpleName inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName seek column families
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName seek column families
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName seek column families
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek key SimpleName ClassInstanceCreation MethodInvocation SimpleName inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName inclusive
+seek column families SimpleName MethodInvocation SimpleName inclusive
+term compare SimpleName InfixExpression NumberLiteral empty
+end compare SimpleName InfixExpression NumberLiteral empty
+sources SimpleName ArrayAccess SimpleName source id
+sources SimpleName ArrayAccess FieldAccess SimpleName iter
+source id SimpleName ArrayAccess FieldAccess SimpleName iter
+sources SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key
+source id SimpleName ArrayAccess FieldAccess MethodInvocation SimpleName get top key

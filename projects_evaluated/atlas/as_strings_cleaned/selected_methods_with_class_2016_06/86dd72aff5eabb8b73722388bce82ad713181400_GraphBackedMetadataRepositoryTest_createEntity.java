@@ -1,0 +1,48 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation MethodInvocation SimpleName entity
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName entity
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName convert
+type SimpleName MethodInvocation SimpleName entity
+type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName entity
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+entity SimpleName MethodInvocation QualifiedName multiplicityrequired
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+instance SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+create entities SimpleName MethodInvocation SimpleName instance
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+create entity SimpleName MethodDeclaration SimpleType SimpleName exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

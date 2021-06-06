@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+user dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+user dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+user dir SimpleName VariableDeclarationFragment MethodInvocation StringLiteral userdir
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName user dir
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral userdir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user dir
+get file path SimpleName MethodInvocation SimpleName user dir
+get file path SimpleName MethodInvocation SimpleName file name
+user dir SimpleName MethodInvocation SimpleName file name
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get file from resources
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get file from resources
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName get file from resources
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+get file from resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file from resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get file from resources SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file from resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file from resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name

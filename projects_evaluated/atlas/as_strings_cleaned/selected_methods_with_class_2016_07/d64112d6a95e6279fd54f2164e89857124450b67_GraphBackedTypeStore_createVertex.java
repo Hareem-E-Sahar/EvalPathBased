@@ -1,0 +1,92 @@
+data typestype category QualifiedName SimpleType SingleVariableDeclaration SimpleName category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type description
+find vertex SimpleName MethodInvocation SimpleName category
+find vertex SimpleName MethodInvocation SimpleName type name
+category SimpleName MethodInvocation SimpleName type name
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName category
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral adding vertex {}{}
+log SimpleName MethodInvocation SimpleName property prefix
+log SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation StringLiteral adding vertex {}{}
+debug SimpleName MethodInvocation SimpleName property prefix
+debug SimpleName MethodInvocation SimpleName type name
+adding vertex {}{} StringLiteral MethodInvocation SimpleName property prefix
+adding vertex {}{} StringLiteral MethodInvocation SimpleName type name
+property prefix SimpleName MethodInvocation SimpleName type name
+titan graph SimpleName MethodInvocation SimpleName add vertex
+vertex SimpleName Assignment MethodInvocation SimpleName titan graph
+vertex SimpleName Assignment MethodInvocation SimpleName add vertex
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantsvertex type property key
+set property SimpleName MethodInvocation SimpleName vertex type
+vertex SimpleName MethodInvocation QualifiedName constantsvertex type property key
+vertex SimpleName MethodInvocation SimpleName vertex type
+constantsvertex type property key QualifiedName MethodInvocation SimpleName vertex type
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantstype category property key
+set property SimpleName MethodInvocation SimpleName category
+vertex SimpleName MethodInvocation QualifiedName constantstype category property key
+vertex SimpleName MethodInvocation SimpleName category
+constantstype category property key QualifiedName MethodInvocation SimpleName category
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantstypename property key
+set property SimpleName MethodInvocation SimpleName type name
+vertex SimpleName MethodInvocation QualifiedName constantstypename property key
+vertex SimpleName MethodInvocation SimpleName type name
+constantstypename property key QualifiedName MethodInvocation SimpleName type name
+get property key SimpleName MethodInvocation QualifiedName constantstypedescription property key
+old description SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property key
+old description SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstypedescription property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old description
+type description SimpleName MethodInvocation SimpleName equals
+type description SimpleName MethodInvocation SimpleName old description
+equals SimpleName MethodInvocation SimpleName old description
+set property SimpleName MethodInvocation SimpleName vertex
+set property SimpleName MethodInvocation QualifiedName constantstypedescription property key
+set property SimpleName MethodInvocation SimpleName type description
+vertex SimpleName MethodInvocation QualifiedName constantstypedescription property key
+vertex SimpleName MethodInvocation SimpleName type description
+constantstypedescription property key QualifiedName MethodInvocation SimpleName type description
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral type description is null
+debug SimpleName MethodInvocation StringLiteral type description is null
+private Modifier MethodDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SimpleName create vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type description
+vertex SimpleName SimpleType MethodDeclaration SimpleName create vertex
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName category
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type description
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type description
+create vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type description
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type description
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName create vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type description
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type description

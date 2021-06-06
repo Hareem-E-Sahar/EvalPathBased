@@ -1,0 +1,124 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+null entity from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null entity from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null entity from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+entity SimpleName MethodInvocation SimpleName get type
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+instance type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+instance type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance type
+null instance type in entity from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null instance type in entity from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null instance type in entity from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+instance type SimpleName MethodInvocation SimpleName get type def guid
+instance type SimpleName MethodInvocation SimpleName get type def name
+instance type SimpleName MethodInvocation SimpleName get type def category
+entity SimpleName MethodInvocation SimpleName get guid
+valid instance id SimpleName MethodInvocation SimpleName source name
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName instance type
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get type def category
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName entity
+valid instance id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+source name SimpleName MethodInvocation MethodInvocation SimpleName instance type
+source name SimpleName MethodInvocation MethodInvocation SimpleName get type def category
+source name SimpleName MethodInvocation MethodInvocation SimpleName entity
+source name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def name
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def name
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance type
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type def category
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+instance type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get type def category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get type def category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+null entity guid from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null entity guid from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null entity guid from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+entity SimpleName MethodInvocation SimpleName get metadata collection id
+home metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+home metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName home metadata collection id
+entity SimpleName MethodInvocation SimpleName get guid
+null home metadata collection id for entity StringLiteral InfixExpression MethodInvocation SimpleName entity
+null home metadata collection id for entity StringLiteral InfixExpression MethodInvocation SimpleName get guid
+null home metadata collection id for entity StringLiteral InfixExpression StringLiteral from
+null home metadata collection id for entity StringLiteral InfixExpression SimpleName source name
+entity SimpleName MethodInvocation InfixExpression StringLiteral from
+get guid SimpleName MethodInvocation InfixExpression StringLiteral from
+entity SimpleName MethodInvocation InfixExpression SimpleName source name
+get guid SimpleName MethodInvocation InfixExpression SimpleName source name
+from StringLiteral InfixExpression SimpleName source name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral null home metadata collection id for entity
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression SimpleName source name
+error SimpleName MethodInvocation InfixExpression StringLiteral null home metadata collection id for entity
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get guid
+error SimpleName MethodInvocation InfixExpression StringLiteral from
+error SimpleName MethodInvocation InfixExpression SimpleName source name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName valid entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+valid entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+valid entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+valid entity SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

@@ -1,0 +1,66 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+boolean PrimitiveType SingleVariableDeclaration SimpleName is min ext info
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entities with ext info
+atlas entities with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+get entity vertex SimpleName MethodInvocation SimpleName guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+map vertex to atlas entity SimpleName MethodInvocation SimpleName vertex
+map vertex to atlas entity SimpleName MethodInvocation SimpleName ret
+map vertex to atlas entity SimpleName MethodInvocation SimpleName is min ext info
+vertex SimpleName MethodInvocation SimpleName ret
+vertex SimpleName MethodInvocation SimpleName is min ext info
+ret SimpleName MethodInvocation SimpleName is min ext info
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName map vertex to atlas entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName ret
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName is min ext info
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+ret SimpleName MethodInvocation SimpleName add entity
+ret SimpleName MethodInvocation SimpleName entity
+add entity SimpleName MethodInvocation SimpleName entity
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+ret SimpleName MethodInvocation SimpleName compact
+guids SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName atlas entities with ext info
+public Modifier MethodDeclaration SimpleName to atlas entities with ext info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entities with ext info SimpleName SimpleType MethodDeclaration SimpleName to atlas entities with ext info
+atlas entities with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guids
+atlas entities with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas entities with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+atlas entities with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+to atlas entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+to atlas entities with ext info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+to atlas entities with ext info SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entities with ext info SimpleName MethodDeclaration Block EnhancedForStatement SimpleName guids
+to atlas entities with ext info SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+guids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+guids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+is min ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entities with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entities with ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entities with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entities with ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is min ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

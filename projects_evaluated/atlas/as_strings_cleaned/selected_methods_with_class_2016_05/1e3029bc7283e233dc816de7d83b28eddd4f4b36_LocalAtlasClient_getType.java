@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported in local atlas client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName types def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration SimpleType SimpleName types def
+public Modifier MethodDeclaration SimpleName get type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+types def SimpleName SimpleType MethodDeclaration SimpleName get type
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get type SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

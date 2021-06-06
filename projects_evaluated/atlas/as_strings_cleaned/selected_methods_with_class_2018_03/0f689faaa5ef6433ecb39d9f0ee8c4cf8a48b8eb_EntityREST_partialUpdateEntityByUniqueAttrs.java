@@ -1,0 +1,190 @@
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation StringLiteral unique attributetypetype name
+path param SimpleName SingleMemberAnnotation StringLiteral type name
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+type name StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName type name
+type name StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName http servlet request
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName servlet request
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName servlet request
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity info
+servlets SimpleName MethodInvocation SimpleName validate query param length
+servlets SimpleName MethodInvocation StringLiteral type name
+servlets SimpleName MethodInvocation SimpleName type name
+validate query param length SimpleName MethodInvocation StringLiteral type name
+validate query param length SimpleName MethodInvocation SimpleName type name
+type name StringLiteral MethodInvocation SimpleName type name
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+get attributes SimpleName MethodInvocation SimpleName servlet request
+unique attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+unique attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName servlet request
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+entity restpartial update entity by unique attrs StringLiteral InfixExpression SimpleName type name
+entity restpartial update entity by unique attrs StringLiteral InfixExpression StringLiteral empty
+entity restpartial update entity by unique attrs StringLiteral InfixExpression SimpleName unique attributes
+entity restpartial update entity by unique attrs StringLiteral InfixExpression StringLiteral )
+type name SimpleName InfixExpression StringLiteral empty
+type name SimpleName InfixExpression SimpleName unique attributes
+type name SimpleName InfixExpression StringLiteral )
+empty StringLiteral InfixExpression SimpleName unique attributes
+empty StringLiteral InfixExpression StringLiteral )
+unique attributes SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity restpartial update entity by unique attrs
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName type name
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName unique attributes
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral entity restpartial update entity by unique attrs
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName type name
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral empty
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName unique attributes
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral entity restpartial update entity by unique attrs
+perf log SimpleName MethodInvocation InfixExpression SimpleName type name
+perf log SimpleName MethodInvocation InfixExpression StringLiteral empty
+perf log SimpleName MethodInvocation InfixExpression SimpleName unique attributes
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral entity restpartial update entity by unique attrs
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName type name
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName unique attributes
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+ensure entity type SimpleName MethodInvocation SimpleName type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ensure entity type
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+validate unique attribute SimpleName MethodInvocation SimpleName entity type
+validate unique attribute SimpleName MethodInvocation SimpleName unique attributes
+entity type SimpleName MethodInvocation SimpleName unique attributes
+entities store SimpleName MethodInvocation SimpleName update by unique attributes
+entities store SimpleName MethodInvocation SimpleName entity type
+entities store SimpleName MethodInvocation SimpleName unique attributes
+entities store SimpleName MethodInvocation SimpleName entity info
+update by unique attributes SimpleName MethodInvocation SimpleName entity type
+update by unique attributes SimpleName MethodInvocation SimpleName unique attributes
+update by unique attributes SimpleName MethodInvocation SimpleName entity info
+entity type SimpleName MethodInvocation SimpleName unique attributes
+entity type SimpleName MethodInvocation SimpleName entity info
+unique attributes SimpleName MethodInvocation SimpleName entity info
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+put SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+put SimpleName MarkerAnnotation MethodDeclaration Modifier public
+put SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unique attributetypetype name StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+unique attributetypetype name StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+unique attributetypetype name StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName partial update entity by unique attrs
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+unique attributetypetype name StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+unique attributetypetype name StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName partial update entity by unique attrs
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity info
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName partial update entity by unique attrs
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity info
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral type name
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+partial update entity by unique attrs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity info
+partial update entity by unique attrs SimpleName MethodDeclaration SimpleType SimpleName exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName partial update entity by unique attrs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unique attributetypetype name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName partial update entity by unique attrs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

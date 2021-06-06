@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+call api with body and params SimpleName MethodInvocation QualifiedName apidelete traits
+call api with body and params SimpleName MethodInvocation SimpleName guid
+call api with body and params SimpleName MethodInvocation SimpleName traits
+call api with body and params SimpleName MethodInvocation SimpleName trait name
+apidelete traits QualifiedName MethodInvocation SimpleName guid
+apidelete traits QualifiedName MethodInvocation SimpleName traits
+apidelete traits QualifiedName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName traits
+guid SimpleName MethodInvocation SimpleName trait name
+traits SimpleName MethodInvocation SimpleName trait name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete trait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleName delete trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+delete trait SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,32 @@
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName full text results
+check not null SimpleName MethodInvocation SimpleName full text results
+full text results SimpleName MethodInvocation SimpleName size
+count SimpleName MethodInvocation MethodInvocation SimpleName full text results
+count SimpleName MethodInvocation MethodInvocation SimpleName size
+query type SimpleName MethodInvocation SimpleName query type fulltext
+response SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName build
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+response SimpleName MethodInvocation SimpleName full text results
+put SimpleName MethodInvocation QualifiedName atlas clientresults
+put SimpleName MethodInvocation SimpleName full text results
+atlas clientresults QualifiedName MethodInvocation SimpleName full text results
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object node
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName build
+public Modifier MethodDeclaration SimpleType SimpleName object node
+public Modifier MethodDeclaration SimpleName build
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+object node SimpleName SimpleType MethodDeclaration SimpleName build
+build SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build

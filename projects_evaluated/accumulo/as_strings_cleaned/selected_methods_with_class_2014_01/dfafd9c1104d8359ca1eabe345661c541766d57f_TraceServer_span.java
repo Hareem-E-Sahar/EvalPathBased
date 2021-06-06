@@ -1,0 +1,259 @@
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName s
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName strace id
+to hex string SimpleName MethodInvocation QualifiedName strace id
+id string SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+id string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hex string
+id string SimpleName VariableDeclarationFragment MethodInvocation QualifiedName strace id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id string
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName sstart
+to hex string SimpleName MethodInvocation QualifiedName sstart
+start string SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+start string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hex string
+start string SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sstart
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start string
+text SimpleName SimpleType ClassInstanceCreation SimpleName id string
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName id string
+span mutation SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+span mutation SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName id string
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span mutation
+idx StringLiteral InfixExpression QualifiedName ssvc
+idx StringLiteral InfixExpression StringLiteral :
+idx StringLiteral InfixExpression SimpleName start string
+ssvc QualifiedName InfixExpression StringLiteral :
+ssvc QualifiedName InfixExpression SimpleName start string
+: StringLiteral InfixExpression SimpleName start string
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral idx
+text SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName ssvc
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start string
+index mutation SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index mutation
+sstop QualifiedName InfixExpression QualifiedName sstart
+diff SimpleName VariableDeclarationFragment InfixExpression QualifiedName sstop
+diff SimpleName VariableDeclarationFragment InfixExpression QualifiedName sstart
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName sstop
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName sstart
+text SimpleName SimpleType ClassInstanceCreation QualifiedName sdescription
+text SimpleName SimpleType ClassInstanceCreation QualifiedName ssender
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation SimpleName diff
+to hex string SimpleName MethodInvocation SimpleName diff
+id string SimpleName InfixExpression StringLiteral :
+id string SimpleName InfixExpression MethodInvocation SimpleName long
+id string SimpleName InfixExpression MethodInvocation SimpleName to hex string
+id string SimpleName InfixExpression MethodInvocation SimpleName diff
+: StringLiteral InfixExpression MethodInvocation SimpleName long
+: StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+: StringLiteral InfixExpression MethodInvocation SimpleName diff
+id string SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+: StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+index mutation SimpleName MethodInvocation SimpleName put
+index mutation SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+index mutation SimpleName MethodInvocation ClassInstanceCreation QualifiedName sdescription
+index mutation SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+index mutation SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssender
+index mutation SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+index mutation SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName sdescription
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName ssender
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+sdescription QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName ssender
+transport SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array transport
+byte array transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transport
+t compact protocol SimpleName SimpleType ClassInstanceCreation SimpleName transport
+protocol SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t compact protocol
+protocol SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transport
+t compact protocol SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName protocol
+s SimpleName MethodInvocation SimpleName write
+s SimpleName MethodInvocation SimpleName protocol
+write SimpleName MethodInvocation SimpleName protocol
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName sparent id
+to hex string SimpleName MethodInvocation QualifiedName sparent id
+parent string SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+parent string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hex string
+parent string SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sparent id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent string
+sparent id QualifiedName InfixExpression QualifiedName spanroot span id
+parent string SimpleName Assignment StringLiteral empty
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName sspan id
+to hex string SimpleName MethodInvocation QualifiedName sspan id
+parent string SimpleName InfixExpression StringLiteral :
+parent string SimpleName InfixExpression MethodInvocation SimpleName long
+parent string SimpleName InfixExpression MethodInvocation SimpleName to hex string
+parent string SimpleName InfixExpression MethodInvocation QualifiedName sspan id
+: StringLiteral InfixExpression MethodInvocation SimpleName long
+: StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+: StringLiteral InfixExpression MethodInvocation QualifiedName sspan id
+transport SimpleName MethodInvocation SimpleName get
+transport SimpleName MethodInvocation SimpleName len
+put SimpleName MethodInvocation SimpleName span mutation
+put SimpleName MethodInvocation StringLiteral span
+put SimpleName MethodInvocation InfixExpression SimpleName parent string
+put SimpleName MethodInvocation InfixExpression StringLiteral :
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+put SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName sspan id
+put SimpleName MethodInvocation MethodInvocation SimpleName transport
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName transport
+put SimpleName MethodInvocation MethodInvocation SimpleName len
+span mutation SimpleName MethodInvocation StringLiteral span
+span mutation SimpleName MethodInvocation InfixExpression SimpleName parent string
+span mutation SimpleName MethodInvocation InfixExpression StringLiteral :
+span mutation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+span mutation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+span mutation SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName sspan id
+span mutation SimpleName MethodInvocation MethodInvocation SimpleName transport
+span mutation SimpleName MethodInvocation MethodInvocation SimpleName get
+span mutation SimpleName MethodInvocation MethodInvocation SimpleName transport
+span mutation SimpleName MethodInvocation MethodInvocation SimpleName len
+span StringLiteral MethodInvocation InfixExpression SimpleName parent string
+span StringLiteral MethodInvocation InfixExpression StringLiteral :
+span StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName long
+span StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+span StringLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName sspan id
+span StringLiteral MethodInvocation MethodInvocation SimpleName transport
+span StringLiteral MethodInvocation MethodInvocation SimpleName get
+span StringLiteral MethodInvocation MethodInvocation SimpleName transport
+span StringLiteral MethodInvocation MethodInvocation SimpleName len
+parent string SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName transport
+parent string SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName transport
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+parent string SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName transport
+parent string SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName len
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName transport
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName len
+transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time mutation
+sparent id QualifiedName InfixExpression QualifiedName spanroot span id
+start StringLiteral InfixExpression SimpleName start string
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral start
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start string
+time mutation SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+transport SimpleName MethodInvocation SimpleName get
+transport SimpleName MethodInvocation SimpleName len
+put SimpleName MethodInvocation SimpleName time mutation
+put SimpleName MethodInvocation StringLiteral id
+put SimpleName MethodInvocation SimpleName id string
+put SimpleName MethodInvocation MethodInvocation SimpleName transport
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName transport
+put SimpleName MethodInvocation MethodInvocation SimpleName len
+time mutation SimpleName MethodInvocation StringLiteral id
+time mutation SimpleName MethodInvocation SimpleName id string
+time mutation SimpleName MethodInvocation MethodInvocation SimpleName transport
+time mutation SimpleName MethodInvocation MethodInvocation SimpleName get
+time mutation SimpleName MethodInvocation MethodInvocation SimpleName transport
+time mutation SimpleName MethodInvocation MethodInvocation SimpleName len
+id StringLiteral MethodInvocation SimpleName id string
+id StringLiteral MethodInvocation MethodInvocation SimpleName transport
+id StringLiteral MethodInvocation MethodInvocation SimpleName get
+id StringLiteral MethodInvocation MethodInvocation SimpleName transport
+id StringLiteral MethodInvocation MethodInvocation SimpleName len
+id string SimpleName MethodInvocation MethodInvocation SimpleName transport
+id string SimpleName MethodInvocation MethodInvocation SimpleName get
+id string SimpleName MethodInvocation MethodInvocation SimpleName transport
+id string SimpleName MethodInvocation MethodInvocation SimpleName len
+transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+trace server SimpleName ThisExpression FieldAccess SimpleName writer
+trace server SimpleName ThisExpression FieldAccess MethodInvocation SimpleName get
+writer SimpleName FieldAccess MethodInvocation SimpleName get
+writer SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName writer
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement SimpleType SimpleName batch writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral writer is not ready discarding span
+warn SimpleName MethodInvocation StringLiteral writer is not ready discarding span
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName span mutation
+add mutation SimpleName MethodInvocation SimpleName span mutation
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName index mutation
+add mutation SimpleName MethodInvocation SimpleName index mutation
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName time mutation
+add mutation SimpleName MethodInvocation SimpleName time mutation
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+unable to write mutation to table discarding span set log level to debug for span information and stacktrace cause StringLiteral InfixExpression SimpleName exception
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to write mutation to table discarding span set log level to debug for span information and stacktrace cause
+log SimpleName MethodInvocation InfixExpression SimpleName exception
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to write mutation to table discarding span set log level to debug for span information and stacktrace cause
+warn SimpleName MethodInvocation InfixExpression SimpleName exception
+log SimpleName MethodInvocation SimpleName is debug enabled
+discarded span due to rejection of mutation StringLiteral InfixExpression SimpleName span mutation
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral discarded span due to rejection of mutation
+log SimpleName MethodInvocation InfixExpression SimpleName span mutation
+log SimpleName MethodInvocation SimpleName exception
+debug SimpleName MethodInvocation InfixExpression StringLiteral discarded span due to rejection of mutation
+debug SimpleName MethodInvocation InfixExpression SimpleName span mutation
+debug SimpleName MethodInvocation SimpleName exception
+discarded span due to rejection of mutation StringLiteral InfixExpression MethodInvocation SimpleName exception
+span mutation SimpleName InfixExpression MethodInvocation SimpleName exception
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+unable to write mutation to table discarding span set log level to debug for stacktrace cause StringLiteral InfixExpression SimpleName exception
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to write mutation to table discarding span set log level to debug for stacktrace cause
+log SimpleName MethodInvocation InfixExpression SimpleName exception
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to write mutation to table discarding span set log level to debug for stacktrace cause
+warn SimpleName MethodInvocation InfixExpression SimpleName exception
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unable to write mutation to table due to exception
+log SimpleName MethodInvocation SimpleName exception
+debug SimpleName MethodInvocation StringLiteral unable to write mutation to table due to exception
+debug SimpleName MethodInvocation SimpleName exception
+unable to write mutation to table due to exception StringLiteral MethodInvocation SimpleName exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName span
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName span
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+span SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+span SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+span SimpleName MethodDeclaration SimpleType SimpleName t exception
+span SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName span
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName span
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

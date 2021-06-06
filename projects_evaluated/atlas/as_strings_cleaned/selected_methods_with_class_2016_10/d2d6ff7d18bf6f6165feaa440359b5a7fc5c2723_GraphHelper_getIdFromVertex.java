@@ -1,0 +1,34 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleType SimpleName string
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+string SimpleName SimpleType MethodInvocation SimpleName get property
+string SimpleName SimpleType MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get id from vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get id from vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType MethodDeclaration SimpleName get id from vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

@@ -1,0 +1,60 @@
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName cv
+cv SimpleName MethodInvocation SimpleName to array
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cv
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+test vis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+test vis SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cv
+test vis SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to array
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test vis
+test vis SimpleName MethodInvocation SimpleName get length
+test vis SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral true
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName test vis
+get SimpleName MethodInvocation SimpleName test vis
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName test vis
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName InfixExpression IfStatement ReturnStatement SimpleName b
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName test vis
+ve SimpleName MethodInvocation SimpleName evaluate
+ve SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+ve SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+bb SimpleName VariableDeclarationFragment MethodInvocation SimpleName ve
+bb SimpleName VariableDeclarationFragment MethodInvocation SimpleName evaluate
+bb SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName test vis
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bb
+text SimpleName SimpleType ClassInstanceCreation SimpleName test vis
+cache SimpleName MethodInvocation SimpleName put
+cache SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+cache SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+cache SimpleName MethodInvocation SimpleName bb
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+put SimpleName MethodInvocation SimpleName bb
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bb
+test vis SimpleName ClassInstanceCreation MethodInvocation SimpleName bb
+visibility parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+bad argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is visible
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cv
+boolean PrimitiveType MethodDeclaration SimpleName is visible
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cv
+is visible SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+is visible SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cv
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is visible
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cv
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is visible
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cv

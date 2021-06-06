@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName replica system helper
+protected Modifier MethodDeclaration SimpleName get helper
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName helper
+replica system helper SimpleName SimpleType MethodDeclaration SimpleName get helper
+get helper SimpleName MethodDeclaration Block ReturnStatement SimpleName helper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName replica system helper
+public Modifier TypeDeclaration MethodDeclaration SimpleName get helper
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName replica system helper
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get helper

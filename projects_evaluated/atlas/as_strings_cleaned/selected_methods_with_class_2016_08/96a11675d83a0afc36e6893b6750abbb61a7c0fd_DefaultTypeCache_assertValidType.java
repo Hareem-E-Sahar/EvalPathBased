@@ -1,0 +1,37 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral type is null
+type SimpleName InstanceofExpression SimpleType SimpleName class type
+type SimpleName InstanceofExpression SimpleType SimpleName trait type
+type SimpleName InstanceofExpression SimpleType SimpleName enum type
+type SimpleName InstanceofExpression SimpleType SimpleName struct type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid type category
+category of the types should be one of class type StringLiteral InfixExpression StringLiteral trait type enum type struct type
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral category of the types should be one of class type 
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral trait type enum type struct type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert valid type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName assert valid type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+assert valid type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+assert valid type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+assert valid type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+assert valid type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert valid type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert valid type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

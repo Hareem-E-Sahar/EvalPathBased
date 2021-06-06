@@ -1,0 +1,64 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+data type SimpleName MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+data type SimpleName MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation InfixExpression StringLiteral .
+get name SimpleName MethodInvocation InfixExpression StringLiteral .
+data type SimpleName MethodInvocation InfixExpression SimpleName attribute name
+get name SimpleName MethodInvocation InfixExpression SimpleName attribute name
+. StringLiteral InfixExpression SimpleName attribute name
+hierarchical type SimpleName SimpleType CastExpression SimpleName data type
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get qualified name
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName attribute name
+get qualified name SimpleName MethodInvocation SimpleName attribute name
+data typestype categorystruct QualifiedName InfixExpression ConditionalExpression InfixExpression StringLiteral .
+data typestype categorystruct QualifiedName InfixExpression ConditionalExpression InfixExpression SimpleName attribute name
+data typestype categorystruct QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName get qualified name
+data typestype categorystruct QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName attribute name
+. StringLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get qualified name
+. StringLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName attribute name
+attribute name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get qualified name
+attribute name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName attribute name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get qualified name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get qualified name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get qualified name SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

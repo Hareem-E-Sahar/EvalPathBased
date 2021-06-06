@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add splits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName add splits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+add splits SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+add splits SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+add splits SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

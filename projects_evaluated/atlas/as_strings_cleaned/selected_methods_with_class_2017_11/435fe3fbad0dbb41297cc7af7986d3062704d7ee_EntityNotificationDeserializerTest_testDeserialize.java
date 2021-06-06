@@ -1,0 +1,168 @@
+entity notification test SimpleName MethodInvocation SimpleName get entity
+entity notification test SimpleName MethodInvocation StringLiteral id
+get entity SimpleName MethodInvocation StringLiteral id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity notification test
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment MethodInvocation StringLiteral id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+trait name SimpleName VariableDeclarationFragment StringLiteral my trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral my trait
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty map
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName string
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName object
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName empty map
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty map
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty map
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton list
+traits SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName trait name
+entity notification v SimpleName SimpleType ClassInstanceCreation SimpleName entity
+entity notification v SimpleName SimpleType ClassInstanceCreation QualifiedName entity notification v operation typetrait add
+entity notification v SimpleName SimpleType ClassInstanceCreation SimpleName traits
+entity SimpleName ClassInstanceCreation QualifiedName entity notification v operation typetrait add
+entity SimpleName ClassInstanceCreation SimpleName traits
+entity notification v operation typetrait add QualifiedName ClassInstanceCreation SimpleName traits
+notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity notification v
+notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity
+notification SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName entity notification v operation typetrait add
+notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName traits
+entity notification v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName notification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+abstract notification SimpleName MethodInvocation SimpleName create notification messages
+abstract notification SimpleName MethodInvocation SimpleName notification
+abstract notification SimpleName MethodInvocation SimpleName json msg list
+create notification messages SimpleName MethodInvocation SimpleName notification
+create notification messages SimpleName MethodInvocation SimpleName json msg list
+notification SimpleName MethodInvocation SimpleName json msg list
+entity notification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName deserialized notification
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json msg
+deserializer SimpleName MethodInvocation SimpleName deserialize
+deserializer SimpleName MethodInvocation SimpleName json msg
+deserialize SimpleName MethodInvocation SimpleName json msg
+deserialized notification SimpleName Assignment MethodInvocation SimpleName deserializer
+deserialized notification SimpleName Assignment MethodInvocation SimpleName deserialize
+deserialized notification SimpleName Assignment MethodInvocation SimpleName json msg
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName json msg list
+json msg SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName json msg list
+deserialized notification SimpleName InstanceofExpression SimpleType SimpleName entity notification v
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName deserialized notification
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName entity notification v
+entity notification v SimpleName SimpleType CastExpression SimpleName deserialized notification
+entity notification v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity notification v
+entity notification v SimpleName VariableDeclarationFragment CastExpression SimpleName deserialized notification
+entity notification v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity notification v
+entity notification v SimpleName MethodInvocation SimpleName get operation type
+notification SimpleName MethodInvocation SimpleName get operation type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity notification v
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get operation type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get operation type
+entity notification v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+entity notification v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation type
+get operation type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+get operation type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation type
+entity notification v SimpleName MethodInvocation SimpleName get entity
+entity notification v SimpleName MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+notification SimpleName MethodInvocation SimpleName get entity
+notification SimpleName MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity notification v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+entity notification v SimpleName MethodInvocation SimpleName get entity
+entity notification v SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+notification SimpleName MethodInvocation SimpleName get entity
+notification SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity notification v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+entity notification v SimpleName MethodInvocation SimpleName get entity
+entity notification v SimpleName MethodInvocation MethodInvocation SimpleName get traits
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get traits
+notification SimpleName MethodInvocation SimpleName get entity
+notification SimpleName MethodInvocation MethodInvocation SimpleName get traits
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get traits
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity notification v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get traits
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get traits
+get traits SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get traits
+entity notification v SimpleName MethodInvocation SimpleName get entity
+entity notification v SimpleName MethodInvocation MethodInvocation SimpleName get trait
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get trait
+entity notification v SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation SimpleName trait name
+notification SimpleName MethodInvocation SimpleName get entity
+notification SimpleName MethodInvocation MethodInvocation SimpleName get trait
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get trait
+notification SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation SimpleName trait name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity notification v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get trait
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName notification
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get trait
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get trait
+get trait SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait name
+trait name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get trait
+trait name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test deserialize
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test deserialize
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName json msg list
+void PrimitiveType MethodDeclaration SimpleName test deserialize
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName json msg list
+test deserialize SimpleName MethodDeclaration SimpleType SimpleName exception
+test deserialize SimpleName MethodDeclaration Block EnhancedForStatement SimpleName json msg list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test deserialize
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test deserialize
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

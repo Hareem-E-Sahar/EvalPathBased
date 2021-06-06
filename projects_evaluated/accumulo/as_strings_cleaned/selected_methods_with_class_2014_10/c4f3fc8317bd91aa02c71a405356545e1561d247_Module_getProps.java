@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName node id
+local props SimpleName MethodInvocation SimpleName contains key
+local props SimpleName MethodInvocation SimpleName node id
+contains key SimpleName MethodInvocation SimpleName node id
+local props SimpleName MethodInvocation SimpleName get
+local props SimpleName MethodInvocation SimpleName node id
+get SimpleName MethodInvocation SimpleName node id
+private Modifier MethodDeclaration SimpleType SimpleName properties
+private Modifier MethodDeclaration SimpleName get props
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node id
+properties SimpleName SimpleType MethodDeclaration SimpleName get props
+properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node id
+get props SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get props SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get props
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get props
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node id

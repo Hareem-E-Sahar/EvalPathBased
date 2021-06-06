@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName needs managed cluster
+abstract Modifier MethodDeclaration PrimitiveType boolean
+abstract Modifier MethodDeclaration SimpleName needs managed cluster
+boolean PrimitiveType MethodDeclaration SimpleName needs managed cluster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName needs managed cluster
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName needs managed cluster

@@ -1,0 +1,133 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName system properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName system properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName system properties
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+propertyreplication peers QualifiedName MethodInvocation SimpleName get key
+defined peers prefix SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication peers
+defined peers prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName defined peers prefix
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+system properties SimpleName MethodInvocation SimpleName entry set
+property SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation SimpleName defined peers prefix
+starts with SimpleName MethodInvocation SimpleName defined peers prefix
+propertyreplication peer user QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication peer user
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication peer user
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertyreplication peer password QualifiedName MethodInvocation SimpleName get key
+key SimpleName MethodInvocation SimpleName starts with
+key SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication peer password
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation QualifiedName propertyreplication peer password
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName get key
+defined peers prefix SimpleName MethodInvocation SimpleName length
+property SimpleName MethodInvocation MethodInvocation SimpleName substring
+get key SimpleName MethodInvocation MethodInvocation SimpleName substring
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName defined peers prefix
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName defined peers prefix
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName defined peers prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName defined peers prefix
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer name
+replica system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName replica
+property SimpleName MethodInvocation SimpleName get value
+replica system factory SimpleName MethodInvocation SimpleName get
+replica system factory SimpleName MethodInvocation MethodInvocation SimpleName property
+replica system factory SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName property
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+replica SimpleName Assignment MethodInvocation SimpleName replica system factory
+replica SimpleName Assignment MethodInvocation SimpleName get
+replica SimpleName Assignment MethodInvocation MethodInvocation SimpleName property
+replica SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+property SimpleName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral could not instantiate replica system for {} with configuration {}
+log SimpleName MethodInvocation MethodInvocation SimpleName property
+log SimpleName MethodInvocation MethodInvocation SimpleName get key
+log SimpleName MethodInvocation MethodInvocation SimpleName property
+log SimpleName MethodInvocation MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral could not instantiate replica system for {} with configuration {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName property
+warn SimpleName MethodInvocation MethodInvocation SimpleName get key
+warn SimpleName MethodInvocation MethodInvocation SimpleName property
+warn SimpleName MethodInvocation MethodInvocation SimpleName get value
+warn SimpleName MethodInvocation SimpleName e
+could not instantiate replica system for {} with configuration {} StringLiteral MethodInvocation MethodInvocation SimpleName property
+could not instantiate replica system for {} with configuration {} StringLiteral MethodInvocation MethodInvocation SimpleName get key
+could not instantiate replica system for {} with configuration {} StringLiteral MethodInvocation MethodInvocation SimpleName property
+could not instantiate replica system for {} with configuration {} StringLiteral MethodInvocation MethodInvocation SimpleName get value
+could not instantiate replica system for {} with configuration {} StringLiteral MethodInvocation SimpleName e
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+property SimpleName MethodInvocation MethodInvocation SimpleName e
+get key SimpleName MethodInvocation MethodInvocation SimpleName e
+property SimpleName MethodInvocation MethodInvocation SimpleName e
+get value SimpleName MethodInvocation MethodInvocation SimpleName e
+replica SimpleName MethodInvocation SimpleName get class
+replica SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+peers SimpleName MethodInvocation SimpleName put
+peers SimpleName MethodInvocation SimpleName peer name
+peers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replica
+peers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+peers SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName peer name
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replica
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+peer name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replica
+peer name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+peer name SimpleName MethodInvocation MethodInvocation SimpleName get name
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system properties
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get peers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName system properties
+public Modifier MethodDeclaration Block ReturnStatement SimpleName peers
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get peers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get peers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get peers
+get peers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName system properties
+get peers SimpleName MethodDeclaration Block ReturnStatement SimpleName peers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get peers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get peers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system properties

@@ -1,0 +1,218 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+args SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess Assignment StringLiteral libjars
+empty NumberLiteral ArrayAccess Assignment StringLiteral libjars
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get map reduce jars
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName state
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get map reduce jars
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName state
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get map reduce jars
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get property
+state SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName state
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get property
+args SimpleName ArrayAccess Assignment MethodInvocation StringLiteral username
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName state
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get property
+empty NumberLiteral ArrayAccess Assignment MethodInvocation StringLiteral username
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get property
+state SimpleName MethodInvocation StringLiteral password
+get property SimpleName MethodInvocation StringLiteral password
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName state
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get property
+args SimpleName ArrayAccess Assignment MethodInvocation StringLiteral password
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName state
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get property
+empty NumberLiteral ArrayAccess Assignment MethodInvocation StringLiteral password
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get string
+state SimpleName MethodInvocation StringLiteral seq table name
+get string SimpleName MethodInvocation StringLiteral seq table name
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName state
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get string
+args SimpleName ArrayAccess Assignment MethodInvocation StringLiteral seq table name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName state
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get string
+empty NumberLiteral ArrayAccess Assignment MethodInvocation StringLiteral seq table name
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get instance
+state SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get instance name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get instance name
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get property
+state SimpleName MethodInvocation StringLiteral zookeepers
+get property SimpleName MethodInvocation StringLiteral zookeepers
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName state
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName get property
+args SimpleName ArrayAccess Assignment MethodInvocation StringLiteral zookeepers
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName state
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get property
+empty NumberLiteral ArrayAccess Assignment MethodInvocation StringLiteral zookeepers
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression StringLiteral mr
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral mr
+args SimpleName ArrayAccess Assignment InfixExpression StringLiteral mr
+empty NumberLiteral ArrayAccess Assignment InfixExpression StringLiteral mr
+cached configuration SimpleName MethodInvocation SimpleName get instance
+tool runner SimpleName MethodInvocation SimpleName run
+tool runner SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+tool runner SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tool runner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName map red verify tool
+tool runner SimpleName MethodInvocation SimpleName args
+run SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+run SimpleName MethodInvocation MethodInvocation SimpleName get instance
+run SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName map red verify tool
+run SimpleName MethodInvocation SimpleName args
+cached configuration SimpleName MethodInvocation MethodInvocation SimpleName args
+get instance SimpleName MethodInvocation MethodInvocation SimpleName args
+map red verify tool SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+tool runner SimpleName MethodInvocation InfixExpression NumberLiteral empty
+run SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cached configuration SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to run mapred verify
+error SimpleName MethodInvocation StringLiteral failed to run mapred verify
+state SimpleName MethodInvocation SimpleName get connector
+args SimpleName ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+state SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+state SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+get connector SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation ArrayAccess SimpleName args
+create scanner SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+args SimpleName ArrayAccess MethodInvocation QualifiedName constantsno auths
+empty NumberLiteral ArrayAccess MethodInvocation QualifiedName constantsno auths
+output scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+output scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+output scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+output scanner SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+output scanner SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+output scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output scanner
+output scanner SimpleName MethodInvocation SimpleName set range
+output scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+last key SimpleName MethodInvocation SimpleName get column family
+current SimpleName MethodInvocation SimpleName get row
+last key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+last key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current
+last key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+equals SimpleName MethodInvocation MethodInvocation SimpleName current
+equals SimpleName MethodInvocation MethodInvocation SimpleName get row
+last key SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName entry
+log SimpleName MethodInvocation MethodInvocation SimpleName get key
+info SimpleName MethodInvocation MethodInvocation SimpleName entry
+info SimpleName MethodInvocation MethodInvocation SimpleName get key
+last key SimpleName Assignment SimpleName current
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName output scanner
+count SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral gaps in output
+error SimpleName MethodInvocation StringLiteral gaps in output
+args SimpleName ArrayAccess NumberLiteral empty
+dropping table StringLiteral InfixExpression ArrayAccess SimpleName args
+dropping table StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral dropping table
+log SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+log SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+debug SimpleName MethodInvocation InfixExpression StringLiteral dropping table
+debug SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+debug SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+args SimpleName ArrayAccess NumberLiteral empty
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+conn SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName args
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+delete SimpleName MethodInvocation ArrayAccess SimpleName args
+delete SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName output scanner
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName output scanner
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration Block EnhancedForStatement SimpleName output scanner
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

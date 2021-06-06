@@ -1,0 +1,141 @@
+short PrimitiveType CastExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral key
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral key
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+key StringLiteral MethodInvocation CastExpression PrimitiveType short
+key StringLiteral MethodInvocation CastExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected illegal argument exception
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral entity id cannot be null
+e SimpleName MethodInvocation MethodInvocation StringLiteral entity id cannot be null
+get message SimpleName MethodInvocation MethodInvocation StringLiteral entity id cannot be null
+short PrimitiveType CastExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral empty
+metadata service SimpleName MethodInvocation StringLiteral key
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral key
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+empty StringLiteral MethodInvocation StringLiteral key
+empty StringLiteral MethodInvocation CastExpression PrimitiveType short
+empty StringLiteral MethodInvocation CastExpression NumberLiteral empty
+key StringLiteral MethodInvocation CastExpression PrimitiveType short
+key StringLiteral MethodInvocation CastExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected illegal argument exception
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral entity id cannot be empty
+e SimpleName MethodInvocation MethodInvocation StringLiteral entity id cannot be empty
+get message SimpleName MethodInvocation MethodInvocation StringLiteral entity id cannot be empty
+short PrimitiveType CastExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral id
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral id
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+id StringLiteral MethodInvocation CastExpression PrimitiveType short
+id StringLiteral MethodInvocation CastExpression NumberLiteral empty
+short PrimitiveType CastExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral id
+metadata service SimpleName MethodInvocation StringLiteral empty
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral id
+get audit events SimpleName MethodInvocation StringLiteral empty
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+id StringLiteral MethodInvocation StringLiteral empty
+id StringLiteral MethodInvocation CastExpression PrimitiveType short
+id StringLiteral MethodInvocation CastExpression NumberLiteral empty
+empty StringLiteral MethodInvocation CastExpression PrimitiveType short
+empty StringLiteral MethodInvocation CastExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected illegal argument exception
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral start key cannot be empty
+e SimpleName MethodInvocation MethodInvocation StringLiteral start key cannot be empty
+get message SimpleName MethodInvocation MethodInvocation StringLiteral start key cannot be empty
+short PrimitiveType CastExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral id
+metadata service SimpleName MethodInvocation StringLiteral key
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral id
+get audit events SimpleName MethodInvocation StringLiteral key
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+id StringLiteral MethodInvocation StringLiteral key
+id StringLiteral MethodInvocation CastExpression PrimitiveType short
+id StringLiteral MethodInvocation CastExpression NumberLiteral empty
+key StringLiteral MethodInvocation CastExpression PrimitiveType short
+key StringLiteral MethodInvocation CastExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected illegal argument exception
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral count should be <= current value
+e SimpleName MethodInvocation MethodInvocation StringLiteral count should be <= current value
+get message SimpleName MethodInvocation MethodInvocation StringLiteral count should be <= current value
+short PrimitiveType CastExpression PrefixExpression NumberLiteral empty
+metadata service SimpleName MethodInvocation SimpleName get audit events
+metadata service SimpleName MethodInvocation StringLiteral id
+metadata service SimpleName MethodInvocation StringLiteral key
+metadata service SimpleName MethodInvocation CastExpression PrimitiveType short
+metadata service SimpleName MethodInvocation CastExpression PrefixExpression NumberLiteral empty
+get audit events SimpleName MethodInvocation StringLiteral id
+get audit events SimpleName MethodInvocation StringLiteral key
+get audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get audit events SimpleName MethodInvocation CastExpression PrefixExpression NumberLiteral empty
+id StringLiteral MethodInvocation StringLiteral key
+id StringLiteral MethodInvocation CastExpression PrimitiveType short
+id StringLiteral MethodInvocation CastExpression PrefixExpression NumberLiteral empty
+key StringLiteral MethodInvocation CastExpression PrimitiveType short
+key StringLiteral MethodInvocation CastExpression PrefixExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected illegal argument exception
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation StringLiteral count should be > current value -
+e SimpleName MethodInvocation MethodInvocation StringLiteral count should be > current value -
+get message SimpleName MethodInvocation MethodInvocation StringLiteral count should be > current value -
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test audit events invalid params
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test audit events invalid params
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test audit events invalid params
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test audit events invalid params SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test audit events invalid params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test audit events invalid params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

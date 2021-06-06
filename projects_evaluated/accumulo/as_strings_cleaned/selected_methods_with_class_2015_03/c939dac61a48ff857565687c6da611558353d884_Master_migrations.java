@@ -1,0 +1,28 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+migrations SimpleName MethodInvocation SimpleName key set
+migration keys SimpleName MethodInvocation SimpleName add all
+migration keys SimpleName MethodInvocation MethodInvocation SimpleName migrations
+migration keys SimpleName MethodInvocation MethodInvocation SimpleName key set
+add all SimpleName MethodInvocation MethodInvocation SimpleName migrations
+add all SimpleName MethodInvocation MethodInvocation SimpleName key set
+migrations SimpleName SynchronizedStatement Block ReturnStatement SimpleName migration keys
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName migrations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName migrations
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName migrations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName migration keys
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName migrations
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName migrations
+migrations SimpleName MethodDeclaration Block SynchronizedStatement SimpleName migrations
+migrations SimpleName MethodDeclaration Block ReturnStatement SimpleName migration keys
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName migrations
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName migrations

@@ -1,0 +1,64 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+traversal direction SimpleName SimpleType SingleVariableDeclaration SimpleName direction
+get entity guids for connected fetch SimpleName MethodInvocation SimpleName entity
+get entity guids for connected fetch SimpleName MethodInvocation SimpleName context
+get entity guids for connected fetch SimpleName MethodInvocation SimpleName direction
+entity SimpleName MethodInvocation SimpleName context
+entity SimpleName MethodInvocation SimpleName direction
+context SimpleName MethodInvocation SimpleName direction
+get entity guids for full fetch SimpleName MethodInvocation SimpleName entity
+get entity guids for full fetch SimpleName MethodInvocation SimpleName context
+entity SimpleName MethodInvocation SimpleName context
+contextfetch type QualifiedName SwitchStatement SwitchCase SimpleName connected
+contextfetch type QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName get entity guids for connected fetch
+contextfetch type QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName entity
+contextfetch type QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName context
+contextfetch type QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName direction
+contextfetch type QualifiedName SwitchStatement SwitchCase SimpleName full
+connected SimpleName SwitchCase SwitchStatement SwitchCase SimpleName full
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get connted entities based on option
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName direction
+void PrimitiveType MethodDeclaration SimpleName get connted entities based on option
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName direction
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+get connted entities based on option SimpleName MethodDeclaration SingleVariableDeclaration SimpleName direction
+get connted entities based on option SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get connted entities based on option SimpleName MethodDeclaration Block SwitchStatement QualifiedName contextfetch type
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+direction SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connted entities based on option
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connted entities based on option
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

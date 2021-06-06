@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def name
+type def category SimpleName SimpleType SingleVariableDeclaration SimpleName category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance guid
+method name SimpleName VariableDeclarationFragment StringLiteral valid instance id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid instance id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral valid instance id
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName valid instance id
+repository content manager SimpleName MethodInvocation SimpleName source name
+repository content manager SimpleName MethodInvocation SimpleName type def guid
+repository content manager SimpleName MethodInvocation SimpleName type def name
+repository content manager SimpleName MethodInvocation SimpleName category
+valid instance id SimpleName MethodInvocation SimpleName source name
+valid instance id SimpleName MethodInvocation SimpleName type def guid
+valid instance id SimpleName MethodInvocation SimpleName type def name
+valid instance id SimpleName MethodInvocation SimpleName category
+valid instance id SimpleName MethodInvocation SimpleName instance guid
+source name SimpleName MethodInvocation SimpleName type def guid
+source name SimpleName MethodInvocation SimpleName type def name
+source name SimpleName MethodInvocation SimpleName category
+source name SimpleName MethodInvocation SimpleName instance guid
+type def guid SimpleName MethodInvocation SimpleName type def name
+type def guid SimpleName MethodInvocation SimpleName category
+type def guid SimpleName MethodInvocation SimpleName instance guid
+type def name SimpleName MethodInvocation SimpleName category
+type def name SimpleName MethodInvocation SimpleName instance guid
+category SimpleName MethodInvocation SimpleName instance guid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName valid instance id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def name
+boolean PrimitiveType MethodDeclaration SimpleName valid instance id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName category
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def name
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+valid instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName valid instance id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName valid instance id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance guid

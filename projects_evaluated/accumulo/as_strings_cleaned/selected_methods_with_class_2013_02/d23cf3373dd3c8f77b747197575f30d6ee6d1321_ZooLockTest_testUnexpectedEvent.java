@@ -1,0 +1,215 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+accumulo SimpleName MethodInvocation SimpleName get zoo keepers
+zltest StringLiteral InfixExpression MethodInvocation SimpleName hash code
+zltest StringLiteral InfixExpression StringLiteral l
+zltest StringLiteral InfixExpression PostfixExpression SimpleName pd count
+hash code SimpleName MethodInvocation InfixExpression StringLiteral l
+hash code SimpleName MethodInvocation InfixExpression PostfixExpression SimpleName pd count
+l StringLiteral InfixExpression PostfixExpression SimpleName pd count
+parent SimpleName VariableDeclarationFragment InfixExpression StringLiteral zltest
+parent SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName hash code
+parent SimpleName VariableDeclarationFragment InfixExpression StringLiteral l
+parent SimpleName VariableDeclarationFragment InfixExpression PostfixExpression SimpleName pd count
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+accumulo SimpleName MethodInvocation SimpleName get zoo keepers
+zoo keeper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo keeper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo keeper SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+accumulo SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+zk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper
+zk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName accumulo
+zk SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zk SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+zoo keeper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk
+secret StringLiteral MethodInvocation SimpleName get bytes
+zk SimpleName MethodInvocation SimpleName add auth info
+zk SimpleName MethodInvocation StringLiteral digest
+zk SimpleName MethodInvocation MethodInvocation StringLiteral secret
+zk SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+add auth info SimpleName MethodInvocation StringLiteral digest
+add auth info SimpleName MethodInvocation MethodInvocation StringLiteral secret
+add auth info SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+digest StringLiteral MethodInvocation MethodInvocation StringLiteral secret
+digest StringLiteral MethodInvocation MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zk SimpleName MethodInvocation SimpleName create
+zk SimpleName MethodInvocation SimpleName parent
+zk SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zk SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zk SimpleName MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+zk SimpleName MethodInvocation QualifiedName create modepersistent
+create SimpleName MethodInvocation SimpleName parent
+create SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+create SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+create SimpleName MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+create SimpleName MethodInvocation QualifiedName create modepersistent
+parent SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+parent SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+parent SimpleName MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+parent SimpleName MethodInvocation QualifiedName create modepersistent
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName zoo defsidsopen acl unsafe
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName create modepersistent
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName create modepersistent
+zoo defsidsopen acl unsafe QualifiedName MethodInvocation QualifiedName create modepersistent
+accumulo SimpleName MethodInvocation SimpleName get zoo keepers
+secret StringLiteral MethodInvocation SimpleName get bytes
+zoo lock SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName accumulo
+zoo lock SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo lock SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+zoo lock SimpleName SimpleType ClassInstanceCreation StringLiteral digest
+zoo lock SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral secret
+zoo lock SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+zoo lock SimpleName SimpleType ClassInstanceCreation SimpleName parent
+accumulo SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+accumulo SimpleName MethodInvocation ClassInstanceCreation StringLiteral digest
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation StringLiteral digest
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral secret
+accumulo SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral secret
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+accumulo SimpleName MethodInvocation ClassInstanceCreation SimpleName parent
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation SimpleName parent
+empty NumberLiteral ClassInstanceCreation StringLiteral digest
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral secret
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get bytes
+empty NumberLiteral ClassInstanceCreation SimpleName parent
+digest StringLiteral ClassInstanceCreation MethodInvocation StringLiteral secret
+digest StringLiteral ClassInstanceCreation MethodInvocation SimpleName get bytes
+digest StringLiteral ClassInstanceCreation SimpleName parent
+secret StringLiteral MethodInvocation ClassInstanceCreation SimpleName parent
+get bytes SimpleName MethodInvocation ClassInstanceCreation SimpleName parent
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo lock
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName accumulo
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral digest
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral secret
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+zl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parent
+zoo lock SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zl
+zl SimpleName MethodInvocation SimpleName is locked
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName zl
+assert SimpleName MethodInvocation MethodInvocation SimpleName is locked
+assert false SimpleName MethodInvocation MethodInvocation SimpleName zl
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is locked
+foo StringLiteral MethodInvocation SimpleName get bytes
+zk SimpleName MethodInvocation SimpleName set data
+zk SimpleName MethodInvocation SimpleName parent
+zk SimpleName MethodInvocation MethodInvocation StringLiteral foo
+zk SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zk SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+set data SimpleName MethodInvocation SimpleName parent
+set data SimpleName MethodInvocation MethodInvocation StringLiteral foo
+set data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set data SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+parent SimpleName MethodInvocation MethodInvocation StringLiteral foo
+parent SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+parent SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+foo StringLiteral MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+lw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test alw
+test alw SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lw
+test StringLiteral MethodInvocation SimpleName get bytes
+zl SimpleName MethodInvocation SimpleName lock async
+zl SimpleName MethodInvocation SimpleName lw
+zl SimpleName MethodInvocation MethodInvocation StringLiteral test
+zl SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+lock async SimpleName MethodInvocation SimpleName lw
+lock async SimpleName MethodInvocation MethodInvocation StringLiteral test
+lock async SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+lw SimpleName MethodInvocation MethodInvocation StringLiteral test
+lw SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+lw SimpleName MethodInvocation SimpleName wait for changes
+lw SimpleName MethodInvocation NumberLiteral empty
+wait for changes SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation QualifiedName lwlocked
+assert true SimpleName MethodInvocation QualifiedName lwlocked
+zl SimpleName MethodInvocation SimpleName is locked
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName zl
+assert SimpleName MethodInvocation MethodInvocation SimpleName is locked
+assert true SimpleName MethodInvocation MethodInvocation SimpleName zl
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is locked
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation QualifiedName lwexception
+assert null SimpleName MethodInvocation QualifiedName lwexception
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation QualifiedName lwreason
+assert null SimpleName MethodInvocation QualifiedName lwreason
+zl SimpleName MethodInvocation SimpleName get lock path
+bar StringLiteral MethodInvocation SimpleName get bytes
+zk SimpleName MethodInvocation SimpleName set data
+zk SimpleName MethodInvocation MethodInvocation SimpleName zl
+zk SimpleName MethodInvocation MethodInvocation SimpleName get lock path
+zk SimpleName MethodInvocation MethodInvocation StringLiteral bar
+zk SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zk SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+set data SimpleName MethodInvocation MethodInvocation SimpleName zl
+set data SimpleName MethodInvocation MethodInvocation SimpleName get lock path
+set data SimpleName MethodInvocation MethodInvocation StringLiteral bar
+set data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set data SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+zl SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral bar
+zl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get lock path SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral bar
+get lock path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+zl SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+get lock path SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+bar StringLiteral MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+zl SimpleName MethodInvocation SimpleName get lock path
+zk SimpleName MethodInvocation SimpleName delete
+zk SimpleName MethodInvocation MethodInvocation SimpleName zl
+zk SimpleName MethodInvocation MethodInvocation SimpleName get lock path
+zk SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+delete SimpleName MethodInvocation MethodInvocation SimpleName zl
+delete SimpleName MethodInvocation MethodInvocation SimpleName get lock path
+delete SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+zl SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+get lock path SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+lw SimpleName MethodInvocation SimpleName wait for changes
+lw SimpleName MethodInvocation NumberLiteral empty
+wait for changes SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName lock loss reasonlock deleted
+assert SimpleName MethodInvocation QualifiedName lwreason
+assert equals SimpleName MethodInvocation QualifiedName lock loss reasonlock deleted
+assert equals SimpleName MethodInvocation QualifiedName lwreason
+lock loss reasonlock deleted QualifiedName MethodInvocation QualifiedName lwreason
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation QualifiedName lwexception
+assert null SimpleName MethodInvocation QualifiedName lwexception
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test unexpected event
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test unexpected event
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test unexpected event
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test unexpected event
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test unexpected event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test unexpected event SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test unexpected event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test unexpected event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

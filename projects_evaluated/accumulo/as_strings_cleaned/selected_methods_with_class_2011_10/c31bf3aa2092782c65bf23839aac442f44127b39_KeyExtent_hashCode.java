@@ -1,0 +1,51 @@
+hash code SimpleName InfixExpression NumberLiteral empty
+hash code SimpleName InfixExpression IfStatement ReturnStatement SimpleName hash code
+empty NumberLiteral InfixExpression IfStatement ReturnStatement SimpleName hash code
+prev end row hash SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev end row hash
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+end row hash SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end row hash
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation SimpleName hash code
+end row hash SimpleName Assignment MethodInvocation MethodInvocation SimpleName get end row
+end row hash SimpleName Assignment MethodInvocation SimpleName hash code
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName hash code
+prev end row hash SimpleName Assignment MethodInvocation MethodInvocation SimpleName get prev end row
+prev end row hash SimpleName Assignment MethodInvocation SimpleName hash code
+get table id SimpleName MethodInvocation MethodInvocation SimpleName hash code
+get table id SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName end row hash
+hash code SimpleName MethodInvocation InfixExpression SimpleName end row hash
+get table id SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName prev end row hash
+hash code SimpleName MethodInvocation InfixExpression SimpleName prev end row hash
+end row hash SimpleName InfixExpression SimpleName prev end row hash
+hash code SimpleName Assignment InfixExpression MethodInvocation SimpleName hash code
+hash code SimpleName Assignment InfixExpression SimpleName end row hash
+hash code SimpleName Assignment InfixExpression SimpleName prev end row hash
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName hash code
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName hash code
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName hash code
+hash code SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+hash code SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+hash code SimpleName MethodDeclaration Block ReturnStatement SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

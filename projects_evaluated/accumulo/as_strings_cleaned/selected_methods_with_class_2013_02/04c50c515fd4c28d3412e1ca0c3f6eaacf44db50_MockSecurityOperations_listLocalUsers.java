@@ -1,0 +1,27 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+acuusers QualifiedName MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list local users
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list local users
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list local users
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list local users
+list local users SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+list local users SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list local users
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list local users
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

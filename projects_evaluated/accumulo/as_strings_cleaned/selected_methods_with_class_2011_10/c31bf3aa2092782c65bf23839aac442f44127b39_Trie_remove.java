@@ -1,0 +1,15 @@
+byte sequence SimpleName SimpleType SingleVariableDeclaration SimpleName key
+root node SimpleName MethodInvocation SimpleName remove
+root node SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+vt SimpleName SimpleType MethodDeclaration SimpleName remove
+vt SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte sequence
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vt
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vt
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

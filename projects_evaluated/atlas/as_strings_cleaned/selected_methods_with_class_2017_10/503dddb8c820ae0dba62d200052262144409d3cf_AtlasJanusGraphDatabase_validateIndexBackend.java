@@ -1,0 +1,56 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName config
+config SimpleName MethodInvocation SimpleName get string
+config SimpleName MethodInvocation SimpleName index backend conf
+get string SimpleName MethodInvocation SimpleName index backend conf
+configured index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+configured index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+configured index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName index backend conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configured index backend
+get graph instance SimpleName MethodInvocation MethodInvocation SimpleName open management
+management system SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph instance
+management system SimpleName VariableDeclarationFragment MethodInvocation SimpleName open management
+janus graph management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName management system
+management system SimpleName MethodInvocation SimpleName get
+management system SimpleName MethodInvocation SimpleName index backend conf
+get SimpleName MethodInvocation SimpleName index backend conf
+current index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName management system
+current index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+current index backend SimpleName VariableDeclarationFragment MethodInvocation SimpleName index backend conf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current index backend
+management system SimpleName MethodInvocation SimpleName commit
+configured index backend SimpleName MethodInvocation SimpleName equals
+configured index backend SimpleName MethodInvocation SimpleName current index backend
+equals SimpleName MethodInvocation SimpleName current index backend
+configured index backend StringLiteral InfixExpression SimpleName configured index backend
+configured index backend StringLiteral InfixExpression StringLiteral differs from earlier configured index backend
+configured index backend StringLiteral InfixExpression SimpleName current index backend
+configured index backend StringLiteral InfixExpression StringLiteral . aborting
+configured index backend SimpleName InfixExpression StringLiteral differs from earlier configured index backend
+configured index backend SimpleName InfixExpression SimpleName current index backend
+configured index backend SimpleName InfixExpression StringLiteral . aborting
+differs from earlier configured index backend StringLiteral InfixExpression SimpleName current index backend
+differs from earlier configured index backend StringLiteral InfixExpression StringLiteral . aborting
+current index backend SimpleName InfixExpression StringLiteral . aborting
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral configured index backend
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName configured index backend
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral differs from earlier configured index backend
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName current index backend
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral . aborting
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName validate index backend
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName validate index backend
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+validate index backend SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+validate index backend SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate index backend
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate index backend
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

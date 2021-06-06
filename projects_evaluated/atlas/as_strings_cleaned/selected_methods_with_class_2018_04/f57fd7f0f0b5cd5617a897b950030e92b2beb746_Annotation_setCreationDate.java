@@ -1,0 +1,20 @@
+date SimpleName SimpleType SingleVariableDeclaration SimpleName creation date
+creation date SimpleName FieldAccess Assignment SimpleName creation date
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set creation date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName creation date
+void PrimitiveType MethodDeclaration SimpleName set creation date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName creation date
+set creation date SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+set creation date SimpleName MethodDeclaration SingleVariableDeclaration SimpleName creation date
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set creation date
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creation date
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set creation date
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName creation date

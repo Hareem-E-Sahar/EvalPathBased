@@ -1,0 +1,129 @@
+atlas export result SimpleName SimpleType SingleVariableDeclaration SimpleName export result
+atlas import result SimpleName SimpleType SingleVariableDeclaration SimpleName import result
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+get import metrics for compare SimpleName MethodInvocation SimpleName import result
+metrics for compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName get import metrics for compare
+metrics for compare SimpleName VariableDeclarationFragment MethodInvocation SimpleName import result
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+export result SimpleName MethodInvocation SimpleName get metrics
+export result SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get metrics SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+entry SimpleName MethodInvocation MethodInvocation StringLiteral entity
+get key SimpleName MethodInvocation MethodInvocation StringLiteral entity
+starts with SimpleName MethodInvocation StringLiteral entity
+entry SimpleName MethodInvocation MethodInvocation InfixExpression BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation InfixExpression BooleanLiteral false
+starts with SimpleName MethodInvocation InfixExpression BooleanLiteral false
+entity StringLiteral MethodInvocation InfixExpression BooleanLiteral false
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName contains
+get key SimpleName MethodInvocation MethodInvocation SimpleName contains
+entry SimpleName MethodInvocation MethodInvocation StringLiteral with ext info
+get key SimpleName MethodInvocation MethodInvocation StringLiteral with ext info
+contains SimpleName MethodInvocation StringLiteral with ext info
+false BooleanLiteral InfixExpression InfixExpression MethodInvocation SimpleName contains
+false BooleanLiteral InfixExpression InfixExpression MethodInvocation StringLiteral with ext info
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName contains
+get key SimpleName MethodInvocation MethodInvocation SimpleName contains
+entry SimpleName MethodInvocation MethodInvocation StringLiteral column
+get key SimpleName MethodInvocation MethodInvocation StringLiteral column
+contains SimpleName MethodInvocation StringLiteral column
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName contains
+get key SimpleName MethodInvocation MethodInvocation SimpleName contains
+entry SimpleName MethodInvocation MethodInvocation StringLiteral storage desc
+get key SimpleName MethodInvocation MethodInvocation StringLiteral storage desc
+contains SimpleName MethodInvocation StringLiteral storage desc
+entry SimpleName MethodInvocation SimpleName get key
+metrics for compare SimpleName MethodInvocation SimpleName contains key
+metrics for compare SimpleName MethodInvocation MethodInvocation SimpleName entry
+metrics for compare SimpleName MethodInvocation MethodInvocation SimpleName get key
+contains key SimpleName MethodInvocation MethodInvocation SimpleName entry
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName metrics for compare
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName get key
+metrics for compare SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+metrics for compare SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+metrics for compare SimpleName MethodInvocation SimpleName get
+metrics for compare SimpleName MethodInvocation MethodInvocation SimpleName entry
+metrics for compare SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName metrics for compare
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metrics for compare
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metrics for compare
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+metrics for compare SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+metrics for compare SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify imported metrics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName export result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName import result
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName verify imported metrics
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName export result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName import result
+void PrimitiveType MethodDeclaration SimpleName verify imported metrics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName export result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName import result
+verify imported metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas export result
+verify imported metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName export result
+verify imported metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+verify imported metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName import result
+export result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify imported metrics
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify imported metrics
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import result

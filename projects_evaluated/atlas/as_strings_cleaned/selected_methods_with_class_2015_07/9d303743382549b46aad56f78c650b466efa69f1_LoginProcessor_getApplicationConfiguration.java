@@ -1,0 +1,18 @@
+application properties SimpleName MethodInvocation SimpleName get
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error reading application configuration
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error reading application configuration
+warn SimpleName MethodInvocation SimpleName e
+error reading application configuration StringLiteral MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+protected Modifier MethodDeclaration SimpleName get application configuration
+orgapachecommonsconfigurationconfiguration QualifiedName SimpleType MethodDeclaration SimpleName get application configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get application configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachecommonsconfigurationconfiguration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get application configuration

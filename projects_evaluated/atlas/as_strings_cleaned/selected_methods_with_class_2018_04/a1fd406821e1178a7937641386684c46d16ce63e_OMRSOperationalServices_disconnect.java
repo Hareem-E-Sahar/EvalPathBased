@@ -1,0 +1,342 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName permanent
+action description SimpleName VariableDeclarationFragment StringLiteral disconnect repository operational services
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral disconnect repository operational services
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral disconnect repository operational services
+audit code SimpleName VariableDeclarationFragment QualifiedName omrs audit codeomrs disconnecting
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit code
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs audit codeomrs disconnecting
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+metadata highway manager SimpleName MethodInvocation SimpleName disconnect
+metadata highway manager SimpleName MethodInvocation SimpleName permanent
+disconnect SimpleName MethodInvocation SimpleName permanent
+enterprise omrs topic connector SimpleName MethodInvocation SimpleName disconnect
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+audit code SimpleName Assignment QualifiedName omrs audit codeenterprise topic disconnect error
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+error SimpleName MethodInvocation SimpleName get message
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation SimpleName error
+audit code SimpleName MethodInvocation MethodInvocation SimpleName get message
+get formatted log message SimpleName MethodInvocation MethodInvocation SimpleName error
+get formatted log message SimpleName MethodInvocation MethodInvocation SimpleName get message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+audit log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+audit log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+log record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+action description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+enterprise connector manager SimpleName MethodInvocation SimpleName disconnect
+local repository connector SimpleName MethodInvocation SimpleName disconnect
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+audit code SimpleName Assignment QualifiedName omrs audit codelocal repository failed to disconnect
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+error SimpleName MethodInvocation SimpleName get message
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation SimpleName error
+audit code SimpleName MethodInvocation MethodInvocation SimpleName get message
+get formatted log message SimpleName MethodInvocation MethodInvocation SimpleName error
+get formatted log message SimpleName MethodInvocation MethodInvocation SimpleName get message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+audit log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+audit log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+log record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName error
+action description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+archive manager SimpleName MethodInvocation SimpleName close
+audit code SimpleName Assignment QualifiedName omrs audit codeomrs disconnected
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName disconnect
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName permanent
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName disconnect
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName permanent
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+disconnect SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+disconnect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName permanent
+disconnect SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+disconnect SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName disconnect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permanent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName disconnect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName permanent

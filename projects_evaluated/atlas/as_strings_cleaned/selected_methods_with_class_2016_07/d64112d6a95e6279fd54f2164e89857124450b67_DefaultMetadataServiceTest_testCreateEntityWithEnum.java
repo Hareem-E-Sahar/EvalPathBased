@@ -1,0 +1,86 @@
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation SimpleName get entity definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+metadata service SimpleName MethodInvocation SimpleName name
+metadata service SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+metadata service SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation SimpleName name
+get entity definition SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation SimpleName name
+test utilstable type QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName table
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get
+test utilstable type QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName table
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName name
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table definition json SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+table definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition json
+instance serialization SimpleName MethodInvocation SimpleName from json referenceable
+instance serialization SimpleName MethodInvocation SimpleName table definition json
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json referenceable SimpleName MethodInvocation SimpleName table definition json
+from json referenceable SimpleName MethodInvocation BooleanLiteral true
+table definition json SimpleName MethodInvocation BooleanLiteral true
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json referenceable
+table definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName table definition json
+table definition SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table definition
+table definition SimpleName MethodInvocation SimpleName get
+table definition SimpleName MethodInvocation StringLiteral table type
+get SimpleName MethodInvocation StringLiteral table type
+enum value SimpleName SimpleType CastExpression MethodInvocation SimpleName table definition
+enum value SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+enum value SimpleName SimpleType CastExpression MethodInvocation StringLiteral table type
+table type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName enum value
+table type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table definition
+table type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+table type SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral table type
+enum value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table type
+enum value SimpleName SimpleType ClassInstanceCreation StringLiteral managed
+enum value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+managed StringLiteral ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName table type
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral managed
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table type SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName enum value
+table type SimpleName MethodInvocation ClassInstanceCreation StringLiteral managed
+table type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create entity with enum
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create entity with enum
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create entity with enum
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create entity with enum SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create entity with enum
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create entity with enum
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

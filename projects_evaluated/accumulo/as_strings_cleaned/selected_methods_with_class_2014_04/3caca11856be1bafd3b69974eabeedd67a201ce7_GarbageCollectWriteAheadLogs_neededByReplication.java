@@ -1,0 +1,95 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName wal
+checking replication table for StringLiteral InfixExpression SimpleName wal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral checking replication table for
+log SimpleName MethodInvocation InfixExpression SimpleName wal
+info SimpleName MethodInvocation InfixExpression StringLiteral checking replication table for
+info SimpleName MethodInvocation InfixExpression SimpleName wal
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+get replication status for file SimpleName MethodInvocation SimpleName conn
+get replication status for file SimpleName MethodInvocation SimpleName wal
+conn SimpleName MethodInvocation SimpleName wal
+iter SimpleName Assignment MethodInvocation SimpleName get replication status for file
+iter SimpleName Assignment MethodInvocation SimpleName conn
+iter SimpleName Assignment MethodInvocation SimpleName wal
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral replication table was not found
+trace SimpleName MethodInvocation StringLiteral replication table was not found
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse from
+status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+status util SimpleName MethodInvocation SimpleName is completely replicated
+status util SimpleName MethodInvocation SimpleName status
+is completely replicated SimpleName MethodInvocation SimpleName status
+invalid protocol buffer exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entry SimpleName MethodInvocation SimpleName get key
+could not deserialize status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName entry
+could not deserialize status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral could not deserialize status protobuf for
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral could not deserialize status protobuf for
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+error SimpleName MethodInvocation SimpleName e
+could not deserialize status protobuf for StringLiteral InfixExpression MethodInvocation SimpleName e
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iter
+iter SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName needed by replication
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName wal
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName iter
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName needed by replication
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wal
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName iter
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+needed by replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+needed by replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+needed by replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+needed by replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wal
+needed by replication SimpleName MethodDeclaration Block EnhancedForStatement SimpleName iter
+needed by replication SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName needed by replication
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName needed by replication
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal

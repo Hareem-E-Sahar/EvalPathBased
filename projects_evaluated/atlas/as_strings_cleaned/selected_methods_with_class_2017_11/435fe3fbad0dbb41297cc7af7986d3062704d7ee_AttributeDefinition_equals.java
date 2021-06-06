@@ -1,0 +1,75 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+attribute definition SimpleName SimpleType CastExpression SimpleName o
+that SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attribute definition
+that SimpleName VariableDeclarationFragment CastExpression SimpleName o
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName that
+is composite SimpleName InfixExpression QualifiedName thatis composite
+is unique SimpleName InfixExpression QualifiedName thatis unique
+is composite SimpleName InfixExpression InfixExpression InfixExpression SimpleName is unique
+is composite SimpleName InfixExpression InfixExpression InfixExpression QualifiedName thatis unique
+thatis composite QualifiedName InfixExpression InfixExpression InfixExpression SimpleName is unique
+thatis composite QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName thatis unique
+is indexable SimpleName InfixExpression QualifiedName thatis indexable
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName name
+objects SimpleName MethodInvocation QualifiedName thatname
+equals SimpleName MethodInvocation SimpleName name
+equals SimpleName MethodInvocation QualifiedName thatname
+name SimpleName MethodInvocation QualifiedName thatname
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName data type name
+objects SimpleName MethodInvocation QualifiedName thatdata type name
+equals SimpleName MethodInvocation SimpleName data type name
+equals SimpleName MethodInvocation QualifiedName thatdata type name
+data type name SimpleName MethodInvocation QualifiedName thatdata type name
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName multiplicity
+objects SimpleName MethodInvocation QualifiedName thatmultiplicity
+equals SimpleName MethodInvocation SimpleName multiplicity
+equals SimpleName MethodInvocation QualifiedName thatmultiplicity
+multiplicity SimpleName MethodInvocation QualifiedName thatmultiplicity
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName default value
+objects SimpleName MethodInvocation QualifiedName thatdefault value
+equals SimpleName MethodInvocation SimpleName default value
+equals SimpleName MethodInvocation QualifiedName thatdefault value
+default value SimpleName MethodInvocation QualifiedName thatdefault value
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName description
+objects SimpleName MethodInvocation QualifiedName thatdescription
+equals SimpleName MethodInvocation SimpleName description
+equals SimpleName MethodInvocation QualifiedName thatdescription
+description SimpleName MethodInvocation QualifiedName thatdescription
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName reverse attribute name
+objects SimpleName MethodInvocation QualifiedName thatreverse attribute name
+equals SimpleName MethodInvocation SimpleName reverse attribute name
+equals SimpleName MethodInvocation QualifiedName thatreverse attribute name
+reverse attribute name SimpleName MethodInvocation QualifiedName thatreverse attribute name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

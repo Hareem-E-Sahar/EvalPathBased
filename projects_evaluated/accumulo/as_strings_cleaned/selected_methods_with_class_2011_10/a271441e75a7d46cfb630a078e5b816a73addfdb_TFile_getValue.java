@@ -1,0 +1,98 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName buf
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+dis SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value stream
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+buflength QualifiedName InfixExpression SimpleName offset
+buflength QualifiedName InfixExpression SimpleName vlen
+offset SimpleName InfixExpression SimpleName vlen
+offset SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName buflength
+offset SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName offset
+offset SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName vlen
+offset SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation StringLiteral buffer too small to hold value
+dis SimpleName MethodInvocation SimpleName read fully
+dis SimpleName MethodInvocation SimpleName buf
+dis SimpleName MethodInvocation SimpleName offset
+dis SimpleName MethodInvocation SimpleName vlen
+read fully SimpleName MethodInvocation SimpleName buf
+read fully SimpleName MethodInvocation SimpleName offset
+read fully SimpleName MethodInvocation SimpleName vlen
+buf SimpleName MethodInvocation SimpleName offset
+buf SimpleName MethodInvocation SimpleName vlen
+offset SimpleName MethodInvocation SimpleName vlen
+next offset SimpleName VariableDeclarationFragment SimpleName offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+next offset SimpleName InfixExpression QualifiedName buflength
+buflength QualifiedName InfixExpression SimpleName next offset
+dis SimpleName MethodInvocation SimpleName read
+dis SimpleName MethodInvocation SimpleName buf
+dis SimpleName MethodInvocation SimpleName next offset
+dis SimpleName MethodInvocation InfixExpression QualifiedName buflength
+dis SimpleName MethodInvocation InfixExpression SimpleName next offset
+read SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation SimpleName next offset
+read SimpleName MethodInvocation InfixExpression QualifiedName buflength
+read SimpleName MethodInvocation InfixExpression SimpleName next offset
+buf SimpleName MethodInvocation SimpleName next offset
+buf SimpleName MethodInvocation InfixExpression QualifiedName buflength
+buf SimpleName MethodInvocation InfixExpression SimpleName next offset
+next offset SimpleName MethodInvocation InfixExpression QualifiedName buflength
+next offset SimpleName MethodInvocation InfixExpression SimpleName next offset
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName dis
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName buf
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName next offset
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName buflength
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName next offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next offset
+n SimpleName InfixExpression NumberLiteral empty
+next offset SimpleName Assignment SimpleName n
+dis SimpleName MethodInvocation SimpleName read
+dis SimpleName MethodInvocation InfixExpression NumberLiteral empty
+read SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation StringLiteral buffer too small to hold value
+next offset SimpleName InfixExpression SimpleName offset
+dis SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get value
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName get value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName buf
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+get value SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName buf
+get value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+get value SimpleName MethodDeclaration SimpleType SimpleName io exception
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+buf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+buf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName buf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

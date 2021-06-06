@@ -1,0 +1,122 @@
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+table operations SimpleName MethodInvocation MethodInvocation SimpleName start row
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+table operations SimpleName MethodInvocation MethodInvocation SimpleName end row
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wait
+table operations SimpleName MethodInvocation MethodInvocation SimpleName wait
+flush SimpleName MethodInvocation SimpleName table name
+flush SimpleName MethodInvocation SimpleName start row
+flush SimpleName MethodInvocation SimpleName end row
+flush SimpleName MethodInvocation SimpleName wait
+table name SimpleName MethodInvocation SimpleName start row
+table name SimpleName MethodInvocation SimpleName end row
+table name SimpleName MethodInvocation SimpleName wait
+start row SimpleName MethodInvocation SimpleName end row
+start row SimpleName MethodInvocation SimpleName wait
+end row SimpleName MethodInvocation SimpleName wait
+wait SimpleName ConditionalExpression StringLiteral completed
+wait SimpleName ConditionalExpression StringLiteral initiated
+completed StringLiteral ConditionalExpression StringLiteral initiated
+flush of table StringLiteral InfixExpression SimpleName table name
+flush of table StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName wait
+flush of table StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral completed
+flush of table StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral initiated
+table name SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName wait
+table name SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral completed
+table name SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral initiated
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral flush of table
+shelllog QualifiedName MethodInvocation InfixExpression SimpleName table name
+info SimpleName MethodInvocation InfixExpression StringLiteral flush of table
+info SimpleName MethodInvocation InfixExpression SimpleName table name
+table name SimpleName MethodInvocation SimpleName equals
+table name SimpleName MethodInvocation QualifiedName constantsmetadata table name
+equals SimpleName MethodInvocation QualifiedName constantsmetadata table name
+may need to flush StringLiteral InfixExpression QualifiedName constantsmetadata table name
+may need to flush StringLiteral InfixExpression StringLiteral table multiple times
+constantsmetadata table name QualifiedName InfixExpression StringLiteral table multiple times
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral may need to flush
+shelllog QualifiedName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral table multiple times
+info SimpleName MethodInvocation InfixExpression StringLiteral may need to flush
+info SimpleName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+info SimpleName MethodInvocation InfixExpression StringLiteral table multiple times
+flushing StringLiteral InfixExpression QualifiedName constantsmetadata table name
+flushing StringLiteral InfixExpression StringLiteral causes writes to itself and
+constantsmetadata table name QualifiedName InfixExpression StringLiteral causes writes to itself and
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral flushing
+shelllog QualifiedName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral causes writes to itself and
+info SimpleName MethodInvocation InfixExpression StringLiteral flushing
+info SimpleName MethodInvocation InfixExpression QualifiedName constantsmetadata table name
+info SimpleName MethodInvocation InfixExpression StringLiteral causes writes to itself and
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation StringLiteral minor compactions which also cause writes to itself
+info SimpleName MethodInvocation StringLiteral minor compactions which also cause writes to itself
+shelllog QualifiedName MethodInvocation SimpleName info
+shelllog QualifiedName MethodInvocation StringLiteral check the monitor web page and give it time to settle
+info SimpleName MethodInvocation StringLiteral check the monitor web page and give it time to settle
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do table op
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleName do table op
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+do table op SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+do table op SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+do table op SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do table op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do table op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

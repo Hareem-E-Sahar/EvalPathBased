@@ -1,0 +1,93 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral configuration
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral configuration
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral configuration
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral configuration
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+method name SimpleName VariableDeclarationFragment StringLiteral get current configuration
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get current configuration
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get current configuration
+validate server name SimpleName MethodInvocation SimpleName server name
+validate server name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName server name
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+get server config SimpleName MethodInvocation SimpleName server name
+get server config SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+configuration StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName omag server config
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName get current configuration
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get current configuration
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get current configuration
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get current configuration
+configuration StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName get current configuration
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SimpleType SimpleName omag server config
+public Modifier MethodDeclaration SimpleName get current configuration
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SimpleType SimpleName omag not authorized exception
+omag server config SimpleName SimpleType MethodDeclaration SimpleName get current configuration
+omag server config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+omag server config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server name
+omag server config SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag not authorized exception
+omag server config SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get current configuration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+get current configuration SimpleName MethodDeclaration SimpleType SimpleName omag not authorized exception
+get current configuration SimpleName MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+get current configuration SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+omag not authorized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag server config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current configuration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag server config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception

@@ -1,0 +1,15 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+text SimpleName SimpleType ClassInstanceCreation SimpleName key
+ceiling SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+ceiling SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+vt SimpleName SimpleType MethodDeclaration SimpleName ceiling
+vt SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+ceiling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ceiling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vt
+public Modifier TypeDeclaration MethodDeclaration SimpleName ceiling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vt
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ceiling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

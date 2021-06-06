@@ -1,0 +1,30 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get version
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get version
+ret SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName entity
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get version
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName int value
+ret SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+ret SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+int value SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get entity version
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+int PrimitiveType MethodDeclaration SimpleName get entity version
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+get entity version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get entity version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

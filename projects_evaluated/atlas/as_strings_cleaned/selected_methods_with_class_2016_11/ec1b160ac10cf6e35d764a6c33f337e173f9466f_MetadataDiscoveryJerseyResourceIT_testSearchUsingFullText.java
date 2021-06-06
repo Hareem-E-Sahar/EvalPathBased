@@ -1,0 +1,310 @@
+depends on methods SimpleName MemberValuePair StringLiteral test search dsl limits
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test search dsl limits
+atlas client v SimpleName MethodInvocation SimpleName search by full text
+atlas client v SimpleName MethodInvocation SimpleName db name
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName db name
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+db name SimpleName MethodInvocation NumberLiteral empty
+db name SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by full text
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+response SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+response SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query
+get string SimpleName MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query
+assert equals SimpleName MethodInvocation SimpleName db name
+response SimpleName MethodInvocation MethodInvocation SimpleName db name
+get string SimpleName MethodInvocation MethodInvocation SimpleName db name
+query StringLiteral MethodInvocation MethodInvocation SimpleName db name
+response SimpleName MethodInvocation SimpleName get string
+response SimpleName MethodInvocation StringLiteral query type
+get string SimpleName MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral query type
+assert equals SimpleName MethodInvocation StringLiteral fulltext
+response SimpleName MethodInvocation MethodInvocation StringLiteral fulltext
+get string SimpleName MethodInvocation MethodInvocation StringLiteral fulltext
+query type StringLiteral MethodInvocation MethodInvocation StringLiteral fulltext
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+results SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+results StringLiteral InfixExpression SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral results
+assert equals SimpleName MethodInvocation InfixExpression SimpleName results
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral results
+results SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName results
+length SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral results
+length SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName results
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral results
+empty NumberLiteral MethodInvocation InfixExpression SimpleName results
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral guid
+get SimpleName MethodInvocation StringLiteral guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral guid
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral type name
+get string SimpleName MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation SimpleName database type
+row SimpleName MethodInvocation MethodInvocation SimpleName database type
+get string SimpleName MethodInvocation MethodInvocation SimpleName database type
+type name StringLiteral MethodInvocation MethodInvocation SimpleName database type
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral score
+get SimpleName MethodInvocation StringLiteral score
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral score
+response SimpleName MethodInvocation SimpleName get int
+response SimpleName MethodInvocation QualifiedName atlas clientcount
+get int SimpleName MethodInvocation QualifiedName atlas clientcount
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+num rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get int
+num rows SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName response
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas clientcount
+assert equals SimpleName MethodInvocation SimpleName num rows
+assert equals SimpleName MethodInvocation NumberLiteral empty
+num rows SimpleName MethodInvocation NumberLiteral empty
+query SimpleName VariableDeclarationFragment SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+query params SimpleName MethodInvocation SimpleName add
+query params SimpleName MethodInvocation StringLiteral query
+query params SimpleName MethodInvocation SimpleName query
+add SimpleName MethodInvocation StringLiteral query
+add SimpleName MethodInvocation SimpleName query
+query StringLiteral MethodInvocation SimpleName query
+atlas client v SimpleName MethodInvocation SimpleName call api with query params
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapisearch full text
+atlas client v SimpleName MethodInvocation SimpleName query params
+call api with query params SimpleName MethodInvocation QualifiedName atlas clientapisearch full text
+call api with query params SimpleName MethodInvocation SimpleName query params
+atlas clientapisearch full text QualifiedName MethodInvocation SimpleName query params
+response SimpleName Assignment MethodInvocation SimpleName atlas client v
+response SimpleName Assignment MethodInvocation SimpleName call api with query params
+response SimpleName Assignment MethodInvocation QualifiedName atlas clientapisearch full text
+response SimpleName Assignment MethodInvocation SimpleName query params
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName Assignment MethodInvocation SimpleName response
+results SimpleName Assignment MethodInvocation SimpleName get json array
+results SimpleName Assignment MethodInvocation QualifiedName atlas clientresults
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation SimpleName search by full text
+atlas client v SimpleName MethodInvocation SimpleName query
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName query
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get json array
+search by full text SimpleName MethodInvocation MethodInvocation SimpleName get json array
+query SimpleName MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+atlas client v SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+search by full text SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas client v
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName search by full text
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName query
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName get json array
+results SimpleName Assignment MethodInvocation QualifiedName atlas clientresults
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation SimpleName search by full text
+atlas client v SimpleName MethodInvocation SimpleName query
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName query
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get json array
+search by full text SimpleName MethodInvocation MethodInvocation SimpleName get json array
+query SimpleName MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+atlas client v SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+search by full text SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas client v
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName search by full text
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName query
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName get json array
+results SimpleName Assignment MethodInvocation QualifiedName atlas clientresults
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation SimpleName search by full text
+atlas client v SimpleName MethodInvocation SimpleName query
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName query
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get json array
+search by full text SimpleName MethodInvocation MethodInvocation SimpleName get json array
+query SimpleName MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+atlas client v SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+search by full text SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas client v
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName search by full text
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName query
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName get json array
+results SimpleName Assignment MethodInvocation QualifiedName atlas clientresults
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation SimpleName search by full text
+atlas client v SimpleName MethodInvocation SimpleName query
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation SimpleName query
+search by full text SimpleName MethodInvocation NumberLiteral empty
+search by full text SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get json array
+search by full text SimpleName MethodInvocation MethodInvocation SimpleName get json array
+query SimpleName MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get json array
+atlas client v SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+search by full text SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas client v
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName search by full text
+results SimpleName Assignment MethodInvocation MethodInvocation SimpleName query
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName get json array
+results SimpleName Assignment MethodInvocation QualifiedName atlas clientresults
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test search dsl limits StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test search dsl limits StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test search using full text
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search using full text
+test search dsl limits StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search using full text
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search using full text
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test search using full text
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test search using full text SimpleName MethodDeclaration SimpleType SimpleName exception
+test search using full text SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search using full text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search using full text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

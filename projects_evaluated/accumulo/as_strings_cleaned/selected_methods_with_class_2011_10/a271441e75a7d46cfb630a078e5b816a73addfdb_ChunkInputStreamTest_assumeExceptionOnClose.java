@@ -1,0 +1,38 @@
+chunk input stream SimpleName SimpleType SingleVariableDeclaration SimpleName cis
+cis SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+exception StringLiteral InfixExpression MethodInvocation SimpleName e
+exception StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral exception
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation InfixExpression StringLiteral exception
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assume exception on close
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cis
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assume exception on close
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cis
+void PrimitiveType MethodDeclaration SimpleName assume exception on close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cis
+assume exception on close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName chunk input stream
+assume exception on close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cis
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assume exception on close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cis
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assume exception on close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cis

@@ -1,0 +1,72 @@
+accumulo server context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+create delete mutation SimpleName MethodInvocation SimpleName table id
+create delete mutation SimpleName MethodInvocation SimpleName path
+table id SimpleName MethodInvocation SimpleName path
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+update SimpleName MethodInvocation SimpleName context
+update SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+update SimpleName MethodInvocation MethodInvocation SimpleName table id
+update SimpleName MethodInvocation MethodInvocation SimpleName path
+update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+update SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName table id
+context SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+context SimpleName MethodInvocation MethodInvocation SimpleName table id
+context SimpleName MethodInvocation MethodInvocation SimpleName path
+context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+context SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName table id
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add delete entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add delete entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName add delete entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo server context
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add delete entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+add delete entry SimpleName MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add delete entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add delete entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

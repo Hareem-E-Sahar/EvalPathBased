@@ -1,0 +1,180 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+cif tester SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression StringLiteral instance name user pass table mapper class
+get name SimpleName MethodInvocation InfixExpression StringLiteral instance name user pass table mapper class
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral usage :
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral instance name user pass table mapper class
+args SimpleName ArrayAccess NumberLiteral empty
+instance SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+instance SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+args SimpleName ArrayAccess NumberLiteral empty
+user SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+user SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+args SimpleName ArrayAccess NumberLiteral empty
+pass SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+pass SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+args SimpleName ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+system SimpleName MethodInvocation SimpleName current time millis
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+empty StringLiteral InfixExpression MethodInvocation SimpleName system
+empty StringLiteral InfixExpression MethodInvocation SimpleName current time millis
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get conf SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName chunk input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName chunk input format
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+pass SimpleName MethodInvocation SimpleName get bytes
+pass SimpleName MethodInvocation MethodInvocation SimpleName charset
+pass SimpleName MethodInvocation MethodInvocation SimpleName for name
+pass SimpleName MethodInvocation MethodInvocation StringLiteral utf
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName charset
+get bytes SimpleName MethodInvocation MethodInvocation SimpleName for name
+get bytes SimpleName MethodInvocation MethodInvocation StringLiteral utf
+password token SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set password
+set password SimpleName MethodInvocation MethodInvocation SimpleName pass
+set password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName charset
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName for name
+set password SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral utf
+chunk input format SimpleName MethodInvocation SimpleName set connector info
+chunk input format SimpleName MethodInvocation SimpleName job
+chunk input format SimpleName MethodInvocation SimpleName user
+chunk input format SimpleName MethodInvocation MethodInvocation SimpleName set password
+chunk input format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+chunk input format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+set connector info SimpleName MethodInvocation SimpleName job
+set connector info SimpleName MethodInvocation SimpleName user
+set connector info SimpleName MethodInvocation MethodInvocation SimpleName set password
+set connector info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+set connector info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+job SimpleName MethodInvocation SimpleName user
+job SimpleName MethodInvocation MethodInvocation SimpleName set password
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation MethodInvocation SimpleName set password
+user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pass
+user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+chunk input format SimpleName MethodInvocation SimpleName set input table name
+chunk input format SimpleName MethodInvocation SimpleName job
+chunk input format SimpleName MethodInvocation SimpleName table
+set input table name SimpleName MethodInvocation SimpleName job
+set input table name SimpleName MethodInvocation SimpleName table
+job SimpleName MethodInvocation SimpleName table
+chunk input format SimpleName MethodInvocation SimpleName set scan authorizations
+chunk input format SimpleName MethodInvocation SimpleName job
+chunk input format SimpleName MethodInvocation SimpleName auths
+set scan authorizations SimpleName MethodInvocation SimpleName job
+set scan authorizations SimpleName MethodInvocation SimpleName auths
+job SimpleName MethodInvocation SimpleName auths
+chunk input format SimpleName MethodInvocation SimpleName set mock instance
+chunk input format SimpleName MethodInvocation SimpleName job
+chunk input format SimpleName MethodInvocation SimpleName instance
+set mock instance SimpleName MethodInvocation SimpleName job
+set mock instance SimpleName MethodInvocation SimpleName instance
+job SimpleName MethodInvocation SimpleName instance
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+mapper SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+args SimpleName ArrayAccess NumberLiteral empty
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation ArrayAccess SimpleName args
+class SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+for name SimpleName MethodInvocation ArrayAccess SimpleName args
+for name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+for name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName class
+for name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName for name
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName for name
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName for name
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation SimpleName for name
+set mapper class SimpleName MethodInvocation SimpleName for name
+job SimpleName MethodInvocation SimpleName set map output key class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key
+job SimpleName MethodInvocation SimpleName set map output value class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName value
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName value
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null output format
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

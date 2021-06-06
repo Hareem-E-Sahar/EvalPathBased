@@ -1,0 +1,16 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table setup
+collections SimpleName MethodInvocation SimpleName empty list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tables to create
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName table setup
+public Modifier MethodDeclaration SimpleName get tables to create
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+table setup SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tables to create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tables to create

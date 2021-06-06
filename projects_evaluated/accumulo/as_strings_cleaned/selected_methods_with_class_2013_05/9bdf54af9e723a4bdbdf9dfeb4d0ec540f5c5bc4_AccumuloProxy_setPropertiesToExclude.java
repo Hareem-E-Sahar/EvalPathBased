@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties to exclude
+properties to exclude SimpleName FieldAccess Assignment SimpleName properties to exclude
+public Modifier MethodDeclaration SimpleType SimpleName clone table args
+public Modifier MethodDeclaration SimpleName set properties to exclude
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+clone table args SimpleName SimpleType MethodDeclaration SimpleName set properties to exclude
+clone table args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+set properties to exclude SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName clone table args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set properties to exclude
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName clone table args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set properties to exclude
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties to exclude

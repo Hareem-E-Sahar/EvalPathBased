@@ -1,0 +1,45 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+table SimpleName MethodInvocation SimpleName get attributes
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+table attributes SimpleName MethodInvocation SimpleName get
+table attributes SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation QualifiedName quick start v sales fact table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+quick start v sales fact table QualifiedName MethodInvocation MethodInvocation SimpleName table attributes
+quick start v sales fact table QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick start v sales fact table QualifiedName MethodInvocation MethodInvocation StringLiteral name
+table attributes SimpleName MethodInvocation SimpleName get
+table attributes SimpleName MethodInvocation StringLiteral description
+get SimpleName MethodInvocation StringLiteral description
+assert equals SimpleName MethodInvocation StringLiteral sales fact table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName table attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral description
+sales fact table StringLiteral MethodInvocation MethodInvocation SimpleName table attributes
+sales fact table StringLiteral MethodInvocation MethodInvocation SimpleName get
+sales fact table StringLiteral MethodInvocation MethodInvocation StringLiteral description
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify simple table attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleName verify simple table attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+verify simple table attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify simple table attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify simple table attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify simple table attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table

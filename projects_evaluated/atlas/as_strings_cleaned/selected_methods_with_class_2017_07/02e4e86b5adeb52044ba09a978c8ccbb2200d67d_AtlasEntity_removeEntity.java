@@ -1,0 +1,25 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+entities SimpleName VariableDeclarationFragment FieldAccess SimpleName entities
+entity SimpleName InfixExpression InfixExpression InfixExpression SimpleName entities
+entities SimpleName MethodInvocation SimpleName remove
+entities SimpleName MethodInvocation SimpleName entity
+remove SimpleName MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName remove entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+remove entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+remove entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

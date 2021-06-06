@@ -1,0 +1,156 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name space
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName name sapce entity
+h table descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName htd
+h column descriptor SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName hcdts
+htd SimpleName MethodInvocation SimpleName get owner string
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName htd
+owner SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName name space
+get table qualified name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName name space
+cluster name SimpleName MethodInvocation SimpleName table name
+name space SimpleName MethodInvocation SimpleName table name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space
+tbl qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qualified name
+find table entity in atlas SimpleName MethodInvocation SimpleName tbl qualified name
+table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName find table entity in atlas
+table entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName tbl qualified name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity
+importing table StringLiteral InfixExpression SimpleName tbl qualified name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral importing table
+log SimpleName MethodInvocation InfixExpression SimpleName tbl qualified name
+info SimpleName MethodInvocation InfixExpression StringLiteral importing table
+info SimpleName MethodInvocation InfixExpression SimpleName tbl qualified name
+get table entity SimpleName MethodInvocation SimpleName name space
+get table entity SimpleName MethodInvocation SimpleName table name
+get table entity SimpleName MethodInvocation SimpleName owner
+get table entity SimpleName MethodInvocation SimpleName name sapce entity
+get table entity SimpleName MethodInvocation SimpleName htd
+name space SimpleName MethodInvocation SimpleName table name
+name space SimpleName MethodInvocation SimpleName owner
+name space SimpleName MethodInvocation SimpleName name sapce entity
+name space SimpleName MethodInvocation SimpleName htd
+table name SimpleName MethodInvocation SimpleName owner
+table name SimpleName MethodInvocation SimpleName name sapce entity
+table name SimpleName MethodInvocation SimpleName htd
+owner SimpleName MethodInvocation SimpleName name sapce entity
+owner SimpleName MethodInvocation SimpleName htd
+name sapce entity SimpleName MethodInvocation SimpleName htd
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName owner
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName name sapce entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName htd
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+create entity in atlas SimpleName MethodInvocation SimpleName entity
+table entity SimpleName Assignment MethodInvocation SimpleName create entity in atlas
+table entity SimpleName Assignment MethodInvocation SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+create or update column families SimpleName MethodInvocation SimpleName name space
+create or update column families SimpleName MethodInvocation SimpleName table name
+create or update column families SimpleName MethodInvocation SimpleName owner
+create or update column families SimpleName MethodInvocation SimpleName hcdts
+create or update column families SimpleName MethodInvocation SimpleName table entity
+name space SimpleName MethodInvocation SimpleName table name
+name space SimpleName MethodInvocation SimpleName owner
+name space SimpleName MethodInvocation SimpleName hcdts
+name space SimpleName MethodInvocation SimpleName table entity
+table name SimpleName MethodInvocation SimpleName owner
+table name SimpleName MethodInvocation SimpleName hcdts
+table name SimpleName MethodInvocation SimpleName table entity
+owner SimpleName MethodInvocation SimpleName hcdts
+owner SimpleName MethodInvocation SimpleName table entity
+hcdts SimpleName MethodInvocation SimpleName table entity
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update column families
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName name space
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName owner
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName hcdts
+cf entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName table entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName cf entities
+is not empty SimpleName MethodInvocation SimpleName cf entities
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName cf entity
+atlas type util SimpleName MethodInvocation SimpleName get atlas object id
+atlas type util SimpleName MethodInvocation SimpleName cf entity
+get atlas object id SimpleName MethodInvocation SimpleName cf entity
+cf i ds SimpleName MethodInvocation SimpleName add
+cf i ds SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+cf i ds SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+cf i ds SimpleName MethodInvocation MethodInvocation SimpleName cf entity
+add SimpleName MethodInvocation MethodInvocation SimpleName atlas type util
+add SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+add SimpleName MethodInvocation MethodInvocation SimpleName cf entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cf entities
+cf entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cf entities
+table entity SimpleName MethodInvocation SimpleName set attribute
+table entity SimpleName MethodInvocation SimpleName column families
+table entity SimpleName MethodInvocation SimpleName cf i ds
+set attribute SimpleName MethodInvocation SimpleName column families
+set attribute SimpleName MethodInvocation SimpleName cf i ds
+column families SimpleName MethodInvocation SimpleName cf i ds
+protected Modifier MethodDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SimpleName create or update table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name space
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create or update table
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name space
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName htd
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name space
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h table descriptor
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName htd
+create or update table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+name space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+name space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+name sapce entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+name sapce entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+name sapce entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+htd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+htd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+hcdts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create or update table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create or update table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name sapce entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName htd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hcdts
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

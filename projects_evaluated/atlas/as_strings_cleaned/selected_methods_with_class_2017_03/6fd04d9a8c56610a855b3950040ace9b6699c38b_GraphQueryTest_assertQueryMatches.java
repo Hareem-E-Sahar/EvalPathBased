@@ -1,0 +1,140 @@
+atlas graph query SimpleName SimpleType SingleVariableDeclaration SimpleName expr
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName expected results
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+expr SimpleName MethodInvocation SimpleName vertices
+to list SimpleName MethodInvocation MethodInvocation SimpleName expr
+to list SimpleName MethodInvocation MethodInvocation SimpleName vertices
+temp SimpleName VariableDeclarationFragment MethodInvocation SimpleName to list
+temp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expr
+temp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+titan vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+titan edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName input
+new vertices SimpleName MethodInvocation SimpleName contains
+new vertices SimpleName MethodInvocation SimpleName input
+contains SimpleName MethodInvocation SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+boolean PrimitiveType MethodDeclaration SimpleName apply
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName input
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+collections SimpleName MethodInvocation SimpleName filter
+collections SimpleName MethodInvocation SimpleName temp
+filter SimpleName MethodInvocation SimpleName temp
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName temp
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName expected results
+as list SimpleName MethodInvocation SimpleName expected results
+arrays SimpleName MethodInvocation MethodInvocation SimpleName to string
+as list SimpleName MethodInvocation MethodInvocation SimpleName to string
+expected results SimpleName MethodInvocation MethodInvocation SimpleName to string
+expectedfound result sizes differ expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName arrays
+expectedfound result sizes differ expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName as list
+expectedfound result sizes differ expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName expected results
+expectedfound result sizes differ expected StringLiteral InfixExpression MethodInvocation SimpleName to string
+expectedfound result sizes differ expected StringLiteral InfixExpression StringLiteral found
+expectedfound result sizes differ expected StringLiteral InfixExpression SimpleName result
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral found
+as list SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral found
+expected results SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral found
+to string SimpleName MethodInvocation InfixExpression StringLiteral found
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName result
+as list SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName result
+expected results SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName result
+to string SimpleName MethodInvocation InfixExpression SimpleName result
+found StringLiteral InfixExpression SimpleName result
+error message SimpleName VariableDeclarationFragment InfixExpression StringLiteral expectedfound result sizes differ expected
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+error message SimpleName VariableDeclarationFragment InfixExpression StringLiteral found
+error message SimpleName VariableDeclarationFragment InfixExpression SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+result SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName error message
+assert equals SimpleName MethodInvocation QualifiedName expected resultslength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+error message SimpleName MethodInvocation QualifiedName expected resultslength
+error message SimpleName MethodInvocation MethodInvocation SimpleName result
+error message SimpleName MethodInvocation MethodInvocation SimpleName size
+expected resultslength QualifiedName MethodInvocation MethodInvocation SimpleName result
+expected resultslength QualifiedName MethodInvocation MethodInvocation SimpleName size
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName v
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName v
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName v
+result SimpleName MethodInvocation SimpleName contains
+result SimpleName MethodInvocation SimpleName v
+contains SimpleName MethodInvocation SimpleName v
+assert true SimpleName MethodInvocation MethodInvocation SimpleName result
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName v
+v SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName expected results
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert query matches
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expr
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName assert query matches
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expr
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expected results
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName assert query matches
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expr
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expected results
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName assert query matches
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected results
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName expected results
+assert query matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph query
+assert query matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expr
+assert query matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+assert query matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected results
+assert query matches SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+assert query matches SimpleName MethodDeclaration Block EnhancedForStatement SimpleName expected results
+expr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected results
+expr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+expected results SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert query matches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected results
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert query matches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected results
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

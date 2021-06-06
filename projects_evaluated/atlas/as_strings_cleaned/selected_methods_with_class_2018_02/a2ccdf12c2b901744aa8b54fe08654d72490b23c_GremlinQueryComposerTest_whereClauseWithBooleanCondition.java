@@ -1,0 +1,165 @@
+query format SimpleName VariableDeclarationFragment StringLiteral table as t where name reporting or tis file = s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query format
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral table as t where name reporting or tis file = s
+expected format SimpleName VariableDeclarationFragment StringLiteral gvhas type name tableastor hastablename eqreporting hastableis file eqsdeduplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected format
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name tableastor hastablename eqreporting hastableis file eqsdeduplimit to list
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName query format
+string SimpleName MethodInvocation StringLiteral true
+format SimpleName MethodInvocation SimpleName query format
+format SimpleName MethodInvocation StringLiteral true
+query format SimpleName MethodInvocation StringLiteral true
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation StringLiteral true
+format SimpleName MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation StringLiteral true
+expected format SimpleName MethodInvocation StringLiteral true
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName query format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral true
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName expected format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral true
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName format
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName query format
+string SimpleName MethodInvocation StringLiteral false
+format SimpleName MethodInvocation SimpleName query format
+format SimpleName MethodInvocation StringLiteral false
+query format SimpleName MethodInvocation StringLiteral false
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation StringLiteral false
+format SimpleName MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation StringLiteral false
+expected format SimpleName MethodInvocation StringLiteral false
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName query format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral false
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName expected format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral false
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName format
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName query format
+string SimpleName MethodInvocation StringLiteral true
+format SimpleName MethodInvocation SimpleName query format
+format SimpleName MethodInvocation StringLiteral true
+query format SimpleName MethodInvocation StringLiteral true
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation StringLiteral true
+format SimpleName MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation StringLiteral true
+expected format SimpleName MethodInvocation StringLiteral true
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName query format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral true
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName expected format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral true
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName format
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+true StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral true
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName query format
+string SimpleName MethodInvocation StringLiteral false
+format SimpleName MethodInvocation SimpleName query format
+format SimpleName MethodInvocation StringLiteral false
+query format SimpleName MethodInvocation StringLiteral false
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation StringLiteral false
+format SimpleName MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation StringLiteral false
+expected format SimpleName MethodInvocation StringLiteral false
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName query format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral false
+verify SimpleName MethodInvocation MethodInvocation SimpleName string
+verify SimpleName MethodInvocation MethodInvocation SimpleName format
+verify SimpleName MethodInvocation MethodInvocation SimpleName expected format
+verify SimpleName MethodInvocation MethodInvocation StringLiteral false
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+query format SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName string
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName format
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected format
+false StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral false
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName where clause with boolean condition
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName where clause with boolean condition
+void PrimitiveType MethodDeclaration SimpleName where clause with boolean condition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName where clause with boolean condition
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName where clause with boolean condition

@@ -1,0 +1,88 @@
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+entity detail SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName accumulated results
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName results
+entity detail SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName results
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+hash map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName accumulated results
+combined results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName accumulated results
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName returned entity
+add unique entity SimpleName MethodInvocation SimpleName combined results
+add unique entity SimpleName MethodInvocation SimpleName returned entity
+add unique entity SimpleName MethodInvocation SimpleName server name
+add unique entity SimpleName MethodInvocation SimpleName metadata collection id
+add unique entity SimpleName MethodInvocation SimpleName method name
+combined results SimpleName MethodInvocation SimpleName returned entity
+combined results SimpleName MethodInvocation SimpleName server name
+combined results SimpleName MethodInvocation SimpleName metadata collection id
+combined results SimpleName MethodInvocation SimpleName method name
+returned entity SimpleName MethodInvocation SimpleName server name
+returned entity SimpleName MethodInvocation SimpleName metadata collection id
+returned entity SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName metadata collection id
+server name SimpleName MethodInvocation SimpleName method name
+metadata collection id SimpleName MethodInvocation SimpleName method name
+combined results SimpleName Assignment MethodInvocation SimpleName add unique entity
+combined results SimpleName Assignment MethodInvocation SimpleName combined results
+combined results SimpleName Assignment MethodInvocation SimpleName returned entity
+combined results SimpleName Assignment MethodInvocation SimpleName server name
+combined results SimpleName Assignment MethodInvocation SimpleName metadata collection id
+combined results SimpleName Assignment MethodInvocation SimpleName method name
+entity detail SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName results
+returned entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName results
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hash map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity detail
+private Modifier MethodDeclaration SimpleName add unique entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+hash map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique entities
+entity detail SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique entities
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName results
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName results
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+accumulated results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName add unique entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add unique entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulated results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name

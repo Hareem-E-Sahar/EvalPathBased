@@ -1,0 +1,20 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName access service in topic
+access service in topic SimpleName FieldAccess Assignment SimpleName access service in topic
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set access service in topic
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access service in topic
+void PrimitiveType MethodDeclaration SimpleName set access service in topic
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access service in topic
+set access service in topic SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+set access service in topic SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access service in topic
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set access service in topic
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service in topic
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set access service in topic
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service in topic

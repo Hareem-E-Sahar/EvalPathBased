@@ -1,0 +1,55 @@
+reserved types registrar SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName reserved types registrar
+reserved types registrar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reserved types registrar
+test utils SimpleName MethodInvocation SimpleName define hive types
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName define hive types
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types serialization SimpleName MethodInvocation SimpleName to json
+types serialization SimpleName MethodInvocation SimpleName types def
+to json SimpleName MethodInvocation SimpleName types def
+types json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types serialization
+types json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+types json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types json
+reserved types registrar SimpleName MethodInvocation SimpleName register type
+reserved types registrar SimpleName MethodInvocation SimpleName type system
+reserved types registrar SimpleName MethodInvocation SimpleName metadata service
+reserved types registrar SimpleName MethodInvocation StringLiteral somefilemodeljson
+reserved types registrar SimpleName MethodInvocation SimpleName types json
+register type SimpleName MethodInvocation SimpleName type system
+register type SimpleName MethodInvocation SimpleName metadata service
+register type SimpleName MethodInvocation StringLiteral somefilemodeljson
+register type SimpleName MethodInvocation SimpleName types json
+type system SimpleName MethodInvocation SimpleName metadata service
+type system SimpleName MethodInvocation StringLiteral somefilemodeljson
+type system SimpleName MethodInvocation SimpleName types json
+metadata service SimpleName MethodInvocation StringLiteral somefilemodeljson
+metadata service SimpleName MethodInvocation SimpleName types json
+somefilemodeljson StringLiteral MethodInvocation SimpleName types json
+verify SimpleName MethodInvocation SimpleName metadata service
+verify SimpleName MethodInvocation MethodInvocation SimpleName create type
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName create type
+verify SimpleName MethodInvocation MethodInvocation SimpleName types json
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName types json
+create type SimpleName MethodInvocation SimpleName types json
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test register creates types using metadata service
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test register creates types using metadata service
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test register creates types using metadata service
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test register creates types using metadata service SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test register creates types using metadata service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test register creates types using metadata service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

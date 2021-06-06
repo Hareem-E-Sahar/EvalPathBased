@@ -1,0 +1,32 @@
+hook notification SimpleName SimpleType SingleVariableDeclaration SimpleName message
+abstract notification SimpleName MethodInvocation SimpleName get message json
+abstract notification SimpleName MethodInvocation SimpleName message
+get message json SimpleName MethodInvocation SimpleName message
+failed log SimpleName MethodInvocation SimpleName error
+failed log SimpleName MethodInvocation StringLiteral dropped notification {}
+failed log SimpleName MethodInvocation MethodInvocation SimpleName abstract notification
+failed log SimpleName MethodInvocation MethodInvocation SimpleName get message json
+failed log SimpleName MethodInvocation MethodInvocation SimpleName message
+error SimpleName MethodInvocation StringLiteral dropped notification {}
+error SimpleName MethodInvocation MethodInvocation SimpleName abstract notification
+error SimpleName MethodInvocation MethodInvocation SimpleName get message json
+error SimpleName MethodInvocation MethodInvocation SimpleName message
+dropped notification {} StringLiteral MethodInvocation MethodInvocation SimpleName abstract notification
+dropped notification {} StringLiteral MethodInvocation MethodInvocation SimpleName get message json
+dropped notification {} StringLiteral MethodInvocation MethodInvocation SimpleName message
+hook notification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName failed messages
+message SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName failed messages
+failed messages SimpleName MethodInvocation SimpleName clear
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName record failed messages
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName failed messages
+void PrimitiveType MethodDeclaration SimpleName record failed messages
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName failed messages
+record failed messages SimpleName MethodDeclaration Block EnhancedForStatement SimpleName failed messages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record failed messages
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record failed messages

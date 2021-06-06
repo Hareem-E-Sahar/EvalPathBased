@@ -1,0 +1,47 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation SimpleName guid
+get trait names SimpleName MethodInvocation SimpleName guid
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName repository service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get trait names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get trait names for empty traits
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get trait names for empty traits
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get trait names for empty traits
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get trait names for empty traits SimpleName MethodDeclaration SimpleType SimpleName exception
+test get trait names for empty traits SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get trait names for empty traits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get trait names for empty traits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

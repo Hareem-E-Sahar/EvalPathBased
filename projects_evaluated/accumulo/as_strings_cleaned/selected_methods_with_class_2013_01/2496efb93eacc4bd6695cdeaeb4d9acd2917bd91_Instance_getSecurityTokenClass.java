@@ -1,0 +1,21 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get security token class
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+abstract Modifier MethodDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SimpleName get security token class
+abstract Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+string SimpleName SimpleType MethodDeclaration SimpleName get security token class
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+get security token class SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get security token class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get security token class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

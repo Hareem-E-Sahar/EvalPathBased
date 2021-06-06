@@ -1,0 +1,12 @@
+javautiliterator QualifiedName SimpleType ParameterizedType SimpleType SimpleName scan column
+columns SimpleName FieldAccess MethodInvocation SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName javautiliterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName scan column
+public Modifier MethodDeclaration SimpleName get columns iterator
+javautiliterator QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get columns iterator
+scan column SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get columns iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get columns iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get columns iterator

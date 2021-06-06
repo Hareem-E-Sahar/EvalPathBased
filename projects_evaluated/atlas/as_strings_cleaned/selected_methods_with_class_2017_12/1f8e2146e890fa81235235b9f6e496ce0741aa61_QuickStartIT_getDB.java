@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+atlas client v SimpleName MethodInvocation SimpleName get entity
+atlas client v SimpleName MethodInvocation QualifiedName quick startdatabase type
+atlas client v SimpleName MethodInvocation StringLiteral name
+atlas client v SimpleName MethodInvocation SimpleName db name
+get entity SimpleName MethodInvocation QualifiedName quick startdatabase type
+get entity SimpleName MethodInvocation StringLiteral name
+get entity SimpleName MethodInvocation SimpleName db name
+quick startdatabase type QualifiedName MethodInvocation StringLiteral name
+quick startdatabase type QualifiedName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get db
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get db SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

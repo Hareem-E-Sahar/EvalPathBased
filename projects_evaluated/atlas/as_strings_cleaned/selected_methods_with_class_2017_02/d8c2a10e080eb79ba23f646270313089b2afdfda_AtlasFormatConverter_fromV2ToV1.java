@@ -1,0 +1,34 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName v obj
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+converter context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+object SimpleName SimpleType MethodDeclaration SimpleName from v to v
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v obj
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v obj
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName converter context
+from v to v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+from v to v SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+v obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName from v to v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from v to v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

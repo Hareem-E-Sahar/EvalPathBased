@@ -1,0 +1,126 @@
+bad extents SimpleName MethodInvocation SimpleName size
+bad extents SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rw lock SimpleName MethodInvocation SimpleName is write locked by current thread
+write lock held SimpleName VariableDeclarationFragment MethodInvocation SimpleName rw lock
+write lock held SimpleName VariableDeclarationFragment MethodInvocation SimpleName is write locked by current thread
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName write lock held
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rw lock
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is write locked by current thread
+r lock SimpleName MethodInvocation SimpleName unlock
+w lock SimpleName MethodInvocation SimpleName lock
+bad extents SimpleName MethodInvocation SimpleName size
+bad extents SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+bad extents SimpleName MethodInvocation SimpleName size
+lookups SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName bad extents
+lookups SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName be
+be SimpleName MethodInvocation SimpleName to metadata range
+lookups SimpleName MethodInvocation SimpleName add
+lookups SimpleName MethodInvocation MethodInvocation SimpleName be
+lookups SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+add SimpleName MethodInvocation MethodInvocation SimpleName be
+add SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+remove overlapping SimpleName MethodInvocation SimpleName meta cache
+remove overlapping SimpleName MethodInvocation SimpleName be
+meta cache SimpleName MethodInvocation SimpleName be
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName bad extents
+be SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bad extents
+range SimpleName MethodInvocation SimpleName merge overlapping
+range SimpleName MethodInvocation SimpleName lookups
+merge overlapping SimpleName MethodInvocation SimpleName lookups
+lookups SimpleName Assignment MethodInvocation SimpleName range
+lookups SimpleName Assignment MethodInvocation SimpleName merge overlapping
+lookups SimpleName Assignment MethodInvocation SimpleName lookups
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parent SimpleName MethodInvocation SimpleName bin ranges
+parent SimpleName MethodInvocation SimpleName lookups
+parent SimpleName MethodInvocation SimpleName binned ranges
+bin ranges SimpleName MethodInvocation SimpleName lookups
+bin ranges SimpleName MethodInvocation SimpleName binned ranges
+lookups SimpleName MethodInvocation SimpleName binned ranges
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+binned ranges SimpleName MethodInvocation SimpleName key set
+tablet servers SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName binned ranges
+tablet servers SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key set
+collections SimpleName MethodInvocation SimpleName shuffle
+collections SimpleName MethodInvocation SimpleName tablet servers
+shuffle SimpleName MethodInvocation SimpleName tablet servers
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+binned ranges SimpleName MethodInvocation SimpleName get
+binned ranges SimpleName MethodInvocation SimpleName tserver
+get SimpleName MethodInvocation SimpleName tserver
+location obtainer SimpleName MethodInvocation SimpleName lookup tablets
+location obtainer SimpleName MethodInvocation SimpleName tserver
+location obtainer SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+location obtainer SimpleName MethodInvocation MethodInvocation SimpleName get
+location obtainer SimpleName MethodInvocation MethodInvocation SimpleName tserver
+location obtainer SimpleName MethodInvocation SimpleName parent
+lookup tablets SimpleName MethodInvocation SimpleName tserver
+lookup tablets SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+lookup tablets SimpleName MethodInvocation MethodInvocation SimpleName get
+lookup tablets SimpleName MethodInvocation MethodInvocation SimpleName tserver
+lookup tablets SimpleName MethodInvocation SimpleName parent
+tserver SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+tserver SimpleName MethodInvocation MethodInvocation SimpleName get
+tserver SimpleName MethodInvocation MethodInvocation SimpleName tserver
+tserver SimpleName MethodInvocation SimpleName parent
+binned ranges SimpleName MethodInvocation MethodInvocation SimpleName parent
+get SimpleName MethodInvocation MethodInvocation SimpleName parent
+tserver SimpleName MethodInvocation MethodInvocation SimpleName parent
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName location obtainer
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup tablets
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binned ranges
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+locations SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tserver
+locations SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent
+tablet location SimpleName SimpleType SingleVariableDeclaration SimpleName tablet location
+update cache SimpleName MethodInvocation SimpleName tablet location
+tablet location SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName locations
+tablet location SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName locations
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablet servers
+tserver SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablet servers
+tablet servers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName locations
+r lock SimpleName MethodInvocation SimpleName lock
+w lock SimpleName MethodInvocation SimpleName unlock
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process invalidated
+private Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+private Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName process invalidated
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+process invalidated SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+process invalidated SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+process invalidated SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+process invalidated SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process invalidated
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process invalidated
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

@@ -1,0 +1,142 @@
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral tried to use scanner after exception occurred
+saw exception SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral tried to use scanner after exception occurred
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral tried to use scanner after it was closed
+scan closed SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral tried to use scanner after it was closed
+batch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+scan data source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data source
+scan data source SimpleName SimpleType ClassInstanceCreation SimpleName options
+isolated data source SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scan data source
+isolated data source SimpleName Assignment ClassInstanceCreation SimpleName options
+data source SimpleName Assignment SimpleName isolated data source
+scan data source SimpleName SimpleType ClassInstanceCreation SimpleName options
+data source SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scan data source
+data source SimpleName Assignment ClassInstanceCreation SimpleName options
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+source switching iterator SimpleName SimpleType ClassInstanceCreation SimpleName data source
+source switching iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+data source SimpleName ClassInstanceCreation BooleanLiteral true
+isolated iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName source switching iterator
+isolated iter SimpleName Assignment ClassInstanceCreation SimpleName data source
+isolated iter SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+isolated data sourcefile manager QualifiedName MethodInvocation SimpleName reattach
+iter SimpleName Assignment SimpleName isolated iter
+source switching iterator SimpleName SimpleType ClassInstanceCreation SimpleName data source
+source switching iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+data source SimpleName ClassInstanceCreation BooleanLiteral false
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName source switching iterator
+iter SimpleName Assignment ClassInstanceCreation SimpleName data source
+iter SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+next batch SimpleName MethodInvocation SimpleName iter
+next batch SimpleName MethodInvocation SimpleName range
+next batch SimpleName MethodInvocation QualifiedName optionsnum
+next batch SimpleName MethodInvocation QualifiedName optionscolumn set
+iter SimpleName MethodInvocation SimpleName range
+iter SimpleName MethodInvocation QualifiedName optionsnum
+iter SimpleName MethodInvocation QualifiedName optionscolumn set
+range SimpleName MethodInvocation QualifiedName optionsnum
+range SimpleName MethodInvocation QualifiedName optionscolumn set
+optionsnum QualifiedName MethodInvocation QualifiedName optionscolumn set
+results SimpleName Assignment MethodInvocation SimpleName next batch
+results SimpleName Assignment MethodInvocation SimpleName iter
+results SimpleName Assignment MethodInvocation SimpleName range
+results SimpleName Assignment MethodInvocation QualifiedName optionsnum
+results SimpleName Assignment MethodInvocation QualifiedName optionscolumn set
+array list SimpleName SimpleType ParameterizedType SimpleType QualifiedName tabletkv entry
+scan batch SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+scan batch SimpleName SimpleType ClassInstanceCreation QualifiedName resultsresults
+scan batch SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+resultsresults QualifiedName ClassInstanceCreation BooleanLiteral false
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation QualifiedName resultscontinue key
+range SimpleName SimpleType ClassInstanceCreation PrefixExpression QualifiedName resultsskip continue key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+resultscontinue key QualifiedName ClassInstanceCreation PrefixExpression QualifiedName resultsskip continue key
+resultscontinue key QualifiedName ClassInstanceCreation MethodInvocation SimpleName range
+resultscontinue key QualifiedName ClassInstanceCreation MethodInvocation SimpleName get end key
+resultscontinue key QualifiedName ClassInstanceCreation MethodInvocation SimpleName range
+resultscontinue key QualifiedName ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+resultsskip continue key QualifiedName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName range
+resultsskip continue key QualifiedName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName get end key
+resultsskip continue key QualifiedName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName range
+resultsskip continue key QualifiedName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation QualifiedName resultscontinue key
+range SimpleName Assignment ClassInstanceCreation PrefixExpression QualifiedName resultsskip continue key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+scan batch SimpleName SimpleType ClassInstanceCreation QualifiedName resultsresults
+scan batch SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+resultsresults QualifiedName ClassInstanceCreation BooleanLiteral true
+iteration interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName iie
+saw exception SimpleName Assignment BooleanLiteral true
+tablet closed exception SimpleName SimpleType ClassInstanceCreation SimpleName iie
+is closed SimpleName MethodInvocation IfStatement ThrowStatement SimpleName iie
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral io exception while shutdown in progress
+log SimpleName MethodInvocation SimpleName ioe
+debug SimpleName MethodInvocation StringLiteral io exception while shutdown in progress
+debug SimpleName MethodInvocation SimpleName ioe
+io exception while shutdown in progress StringLiteral MethodInvocation SimpleName ioe
+tablet closed exception SimpleName SimpleType ClassInstanceCreation SimpleName ioe
+saw exception SimpleName Assignment BooleanLiteral true
+data source SimpleName MethodInvocation SimpleName close
+data source SimpleName MethodInvocation BooleanLiteral true
+close SimpleName MethodInvocation BooleanLiteral true
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName re
+saw exception SimpleName Assignment BooleanLiteral true
+data source SimpleName MethodInvocation SimpleName close
+data source SimpleName MethodInvocation BooleanLiteral false
+close SimpleName MethodInvocation BooleanLiteral false
+data sourcefile manager QualifiedName MethodInvocation SimpleName detach
+results SimpleName InfixExpression InfixExpression InfixExpression QualifiedName resultsresults
+resultsresults QualifiedName MethodInvocation SimpleName size
+more SimpleName VariableDeclarationFragment MethodInvocation QualifiedName resultsresults
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName more
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName resultsresults
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+query count SimpleName Assignment SimpleName more
+query bytes SimpleName Assignment QualifiedName resultsnum bytes
+saw exception SimpleName IfStatement Block IfStatement SimpleName scan closed
+saw exception SimpleName IfStatement Block IfStatement QualifiedName optionsisolated
+scan closed SimpleName IfStatement Block IfStatement QualifiedName optionsisolated
+synchronized Modifier MethodDeclaration SimpleType SimpleName scan batch
+synchronized Modifier MethodDeclaration SimpleName read
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName tablet closed exception
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName saw exception
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName scan closed
+synchronized Modifier MethodDeclaration Block IfStatement QualifiedName optionsisolated
+scan batch SimpleName SimpleType MethodDeclaration SimpleName read
+scan batch SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+scan batch SimpleName SimpleType MethodDeclaration SimpleType SimpleName tablet closed exception
+read SimpleName MethodDeclaration SimpleType SimpleName io exception
+read SimpleName MethodDeclaration SimpleType SimpleName tablet closed exception
+read SimpleName MethodDeclaration Block IfStatement SimpleName saw exception
+read SimpleName MethodDeclaration Block IfStatement SimpleName scan closed
+read SimpleName MethodDeclaration Block IfStatement QualifiedName optionsisolated
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName tablet closed exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scan batch
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet closed exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scan batch
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet closed exception

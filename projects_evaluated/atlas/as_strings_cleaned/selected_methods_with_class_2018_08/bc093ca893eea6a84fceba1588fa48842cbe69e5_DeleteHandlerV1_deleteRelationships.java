@@ -1,0 +1,85 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edges
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edges
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName force delete
+boolean PrimitiveType SingleVariableDeclaration SimpleName force delete
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName edge
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+edge SimpleName MethodInvocation SimpleName get out vertex
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName edge
+is internal type SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+is internal type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is internal type
+is internal SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is internal type
+is internal SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is internal type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is internal
+get state SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation InfixExpression SimpleName deleted
+edge SimpleName MethodInvocation InfixExpression SimpleName deleted
+is internal SimpleName PrefixExpression InfixExpression InfixExpression SimpleName deleted
+log SimpleName MethodInvocation SimpleName is debug enabled
+get id from edge SimpleName MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipping deletion of {} as it is already deleted
+log SimpleName MethodInvocation MethodInvocation SimpleName get id from edge
+log SimpleName MethodInvocation MethodInvocation SimpleName edge
+debug SimpleName MethodInvocation StringLiteral skipping deletion of {} as it is already deleted
+debug SimpleName MethodInvocation MethodInvocation SimpleName get id from edge
+debug SimpleName MethodInvocation MethodInvocation SimpleName edge
+skipping deletion of {} as it is already deleted StringLiteral MethodInvocation MethodInvocation SimpleName get id from edge
+skipping deletion of {} as it is already deleted StringLiteral MethodInvocation MethodInvocation SimpleName edge
+is internal SimpleName InfixExpression SimpleName force delete
+delete edge SimpleName MethodInvocation SimpleName edge
+delete edge SimpleName MethodInvocation InfixExpression SimpleName is internal
+delete edge SimpleName MethodInvocation InfixExpression SimpleName force delete
+edge SimpleName MethodInvocation InfixExpression SimpleName is internal
+edge SimpleName MethodInvocation InfixExpression SimpleName force delete
+atlas edge SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName edges
+edges SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete relationships
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edges
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName force delete
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName force delete
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName edges
+delete relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edges
+delete relationships SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete relationships SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName force delete
+delete relationships SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete relationships SimpleName MethodDeclaration Block EnhancedForStatement SimpleName edges
+edges SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+edges SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edges SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+edges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+force delete SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force delete
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

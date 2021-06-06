@@ -1,0 +1,81 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+graph helper SimpleName MethodInvocation SimpleName get trait names
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get trait names SimpleName MethodInvocation SimpleName instance vertex
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName MethodInvocation SimpleName instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleting traits {} for {}
+log SimpleName MethodInvocation SimpleName trait names
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+debug SimpleName MethodInvocation StringLiteral deleting traits {} for {}
+debug SimpleName MethodInvocation SimpleName trait names
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+deleting traits {} for {} StringLiteral MethodInvocation SimpleName trait names
+deleting traits {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+deleting traits {} for {} StringLiteral MethodInvocation MethodInvocation SimpleName instance vertex
+trait names SimpleName MethodInvocation MethodInvocation SimpleName string
+trait names SimpleName MethodInvocation MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+get type name SimpleName MethodInvocation SimpleName instance vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name to be deleted
+graph helper SimpleName MethodInvocation SimpleName get trait label
+graph helper SimpleName MethodInvocation SimpleName type name
+graph helper SimpleName MethodInvocation SimpleName trait name to be deleted
+get trait label SimpleName MethodInvocation SimpleName type name
+get trait label SimpleName MethodInvocation SimpleName trait name to be deleted
+type name SimpleName MethodInvocation SimpleName trait name to be deleted
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait label
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name to be deleted
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship label
+delete edge reference SimpleName MethodInvocation SimpleName instance vertex
+delete edge reference SimpleName MethodInvocation SimpleName relationship label
+delete edge reference SimpleName MethodInvocation QualifiedName data typestype categorytrait
+delete edge reference SimpleName MethodInvocation BooleanLiteral false
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation QualifiedName data typestype categorytrait
+instance vertex SimpleName MethodInvocation BooleanLiteral false
+relationship label SimpleName MethodInvocation QualifiedName data typestype categorytrait
+relationship label SimpleName MethodInvocation BooleanLiteral false
+data typestype categorytrait QualifiedName MethodInvocation BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+trait name to be deleted SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete all traits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName trait names
+void PrimitiveType MethodDeclaration SimpleName delete all traits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName trait names
+delete all traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+delete all traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+delete all traits SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+delete all traits SimpleName MethodDeclaration Block EnhancedForStatement SimpleName trait names
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete all traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete all traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

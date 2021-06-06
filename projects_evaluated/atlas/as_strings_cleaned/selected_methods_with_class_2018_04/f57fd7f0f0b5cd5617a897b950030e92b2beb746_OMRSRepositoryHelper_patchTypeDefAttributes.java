@@ -1,0 +1,65 @@
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName cloned type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+type def attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+cloned type def SimpleName MethodInvocation SimpleName get properties definition
+property definitions SimpleName VariableDeclarationFragment MethodInvocation SimpleName cloned type def
+property definitions SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties definition
+type def attribute SimpleName SimpleType SingleVariableDeclaration SimpleName new attribute
+new attribute SimpleName MethodInvocation SimpleName get attribute name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new attribute
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+new attribute SimpleName MethodInvocation SimpleName get attribute type
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName new attribute
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+attribute type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute type
+property definitions SimpleName MethodInvocation SimpleName contains
+property definitions SimpleName MethodInvocation SimpleName new attribute
+contains SimpleName MethodInvocation SimpleName new attribute
+property definitions SimpleName MethodInvocation SimpleName add
+property definitions SimpleName MethodInvocation SimpleName new attribute
+add SimpleName MethodInvocation SimpleName new attribute
+type def attribute SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type def attributes
+new attribute SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type def attributes
+property definitions SimpleName MethodInvocation SimpleName size
+property definitions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cloned type def SimpleName MethodInvocation SimpleName set properties definition
+cloned type def SimpleName MethodInvocation SimpleName property definitions
+set properties definition SimpleName MethodInvocation SimpleName property definitions
+cloned type def SimpleName MethodInvocation SimpleName set properties definition
+type def attributes SimpleName EnhancedForStatement Block ReturnStatement SimpleName cloned type def
+private Modifier MethodDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SimpleName patch type def attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+private Modifier MethodDeclaration SimpleType SimpleName patch error exception
+type def SimpleName SimpleType MethodDeclaration SimpleName patch type def attributes
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+type def SimpleName SimpleType MethodDeclaration SimpleType SimpleName patch error exception
+patch type def attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+patch type def attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+patch type def attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+patch type def attributes SimpleName MethodDeclaration SimpleType SimpleName patch error exception
+patch type def attributes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type def attributes
+patch type def attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName cloned type def
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+type def attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName patch type def attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName patch type def attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception

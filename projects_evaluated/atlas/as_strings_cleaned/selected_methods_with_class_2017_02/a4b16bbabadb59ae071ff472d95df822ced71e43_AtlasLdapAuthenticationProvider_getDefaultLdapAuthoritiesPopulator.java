@@ -1,0 +1,36 @@
+ldap context source SimpleName SimpleType SingleVariableDeclaration SimpleName ldap context source
+default ldap authorities populator SimpleName SimpleType ClassInstanceCreation SimpleName ldap context source
+default ldap authorities populator SimpleName SimpleType ClassInstanceCreation SimpleName ldap group search base
+ldap context source SimpleName ClassInstanceCreation SimpleName ldap group search base
+default ldap authorities populator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default ldap authorities populator
+default ldap authorities populator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ldap context source
+default ldap authorities populator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ldap group search base
+default ldap authorities populator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default ldap authorities populator
+default ldap authorities populator SimpleName MethodInvocation SimpleName set group role attribute
+default ldap authorities populator SimpleName MethodInvocation SimpleName ldap group role attribute
+set group role attribute SimpleName MethodInvocation SimpleName ldap group role attribute
+default ldap authorities populator SimpleName MethodInvocation SimpleName set group search filter
+default ldap authorities populator SimpleName MethodInvocation SimpleName ldap group search filter
+set group search filter SimpleName MethodInvocation SimpleName ldap group search filter
+default ldap authorities populator SimpleName MethodInvocation SimpleName set ignore partial result exception
+default ldap authorities populator SimpleName MethodInvocation BooleanLiteral true
+set ignore partial result exception SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration SimpleType SimpleName default ldap authorities populator
+private Modifier MethodDeclaration SimpleName get default ldap authorities populator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ldap context source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+private Modifier MethodDeclaration Block ReturnStatement SimpleName default ldap authorities populator
+default ldap authorities populator SimpleName SimpleType MethodDeclaration SimpleName get default ldap authorities populator
+default ldap authorities populator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+get default ldap authorities populator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ldap context source
+get default ldap authorities populator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+get default ldap authorities populator SimpleName MethodDeclaration Block ReturnStatement SimpleName default ldap authorities populator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName default ldap authorities populator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default ldap authorities populator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap context source
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName default ldap authorities populator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default ldap authorities populator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ldap context source

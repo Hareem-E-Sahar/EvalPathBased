@@ -1,0 +1,107 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr value
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName type name
+param checker SimpleName MethodInvocation StringLiteral delete candidate type name
+not empty SimpleName MethodInvocation SimpleName type name
+not empty SimpleName MethodInvocation StringLiteral delete candidate type name
+type name SimpleName MethodInvocation StringLiteral delete candidate type name
+type name SimpleName Assignment MethodInvocation SimpleName param checker
+type name SimpleName Assignment MethodInvocation SimpleName not empty
+type name SimpleName Assignment MethodInvocation SimpleName type name
+type name SimpleName Assignment MethodInvocation StringLiteral delete candidate type name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName unique attribute name
+param checker SimpleName MethodInvocation StringLiteral delete candidate unique attribute name
+not empty SimpleName MethodInvocation SimpleName unique attribute name
+not empty SimpleName MethodInvocation StringLiteral delete candidate unique attribute name
+unique attribute name SimpleName MethodInvocation StringLiteral delete candidate unique attribute name
+unique attribute name SimpleName Assignment MethodInvocation SimpleName param checker
+unique attribute name SimpleName Assignment MethodInvocation SimpleName not empty
+unique attribute name SimpleName Assignment MethodInvocation SimpleName unique attribute name
+unique attribute name SimpleName Assignment MethodInvocation StringLiteral delete candidate unique attribute name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName attr value
+param checker SimpleName MethodInvocation StringLiteral delete candidate unique attribute value
+not empty SimpleName MethodInvocation SimpleName attr value
+not empty SimpleName MethodInvocation StringLiteral delete candidate unique attribute value
+attr value SimpleName MethodInvocation StringLiteral delete candidate unique attribute value
+attr value SimpleName Assignment MethodInvocation SimpleName param checker
+attr value SimpleName Assignment MethodInvocation SimpleName not empty
+attr value SimpleName Assignment MethodInvocation SimpleName attr value
+attr value SimpleName Assignment MethodInvocation StringLiteral delete candidate unique attribute value
+get entity definition reference SimpleName MethodInvocation SimpleName type name
+get entity definition reference SimpleName MethodInvocation SimpleName unique attribute name
+get entity definition reference SimpleName MethodInvocation SimpleName attr value
+type name SimpleName MethodInvocation SimpleName unique attribute name
+type name SimpleName MethodInvocation SimpleName attr value
+unique attribute name SimpleName MethodInvocation SimpleName attr value
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition reference
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName unique attribute name
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get id
+instance id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+instance id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+final Modifier VariableDeclarationStatement SimpleType SimpleName id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+instance id SimpleName MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName instance id
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+delete guids SimpleName MethodInvocation SimpleName delete candidate guids
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas cliententity result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete entity by unique attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier MethodDeclaration SimpleName delete entity by unique attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr value
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName delete entity by unique attribute
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr value
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr value
+delete entity by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+delete entity by unique attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attr value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entity by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entity by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

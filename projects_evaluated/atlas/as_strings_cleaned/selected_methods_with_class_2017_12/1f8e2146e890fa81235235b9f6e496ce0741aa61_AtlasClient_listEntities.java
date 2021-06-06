@@ -1,0 +1,64 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+get resource SimpleName MethodInvocation QualifiedName api v list entities
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation QualifiedName api v list entities
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName type
+resource SimpleName MethodInvocation SimpleName entity type
+query param SimpleName MethodInvocation SimpleName type
+query param SimpleName MethodInvocation SimpleName entity type
+type SimpleName MethodInvocation SimpleName entity type
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName type
+resource SimpleName Assignment MethodInvocation SimpleName entity type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName web resource
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration SimpleType SimpleName web resource
+public Modifier MethodDeclaration SimpleName create resource
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resource
+web resource SimpleName SimpleType MethodDeclaration SimpleName create resource
+create resource SimpleName MethodDeclaration Block ReturnStatement SimpleName resource
+call api with retries SimpleName MethodInvocation QualifiedName api v list entities
+call api with retries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+api v list entities QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource creator
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with retries
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName api v list entities
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract results SimpleName MethodInvocation SimpleName json response
+extract results SimpleName MethodInvocation QualifiedName atlas clientresults
+json response SimpleName MethodInvocation QualifiedName atlas clientresults
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list entities
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list entities
+list entities SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+list entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+list entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+list entities SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

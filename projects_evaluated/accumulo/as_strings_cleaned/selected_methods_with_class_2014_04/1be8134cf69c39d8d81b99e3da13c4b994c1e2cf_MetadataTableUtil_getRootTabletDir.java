@@ -1,0 +1,56 @@
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName root tablezroot tablet path
+get root SimpleName MethodInvocation InfixExpression QualifiedName root tablezroot tablet path
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName root tablezroot tablet path
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName root tablezroot tablet path
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+zpath SimpleName VariableDeclarationFragment InfixExpression QualifiedName root tablezroot tablet path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation SimpleName zpath
+get data SimpleName MethodInvocation SimpleName zpath
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zpath
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+zoo SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+get data SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+zpath SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get root tablet dir
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get root tablet dir
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get root tablet dir
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get root tablet dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root tablet dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root tablet dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

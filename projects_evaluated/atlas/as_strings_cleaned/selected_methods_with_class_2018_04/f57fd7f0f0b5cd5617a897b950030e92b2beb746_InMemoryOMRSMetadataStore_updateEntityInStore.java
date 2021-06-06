@@ -1,0 +1,41 @@
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName put
+entity store SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+old entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+old entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+old entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+old entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+old entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old entity
+entity history store SimpleName MethodInvocation SimpleName add
+entity history store SimpleName MethodInvocation NumberLiteral empty
+entity history store SimpleName MethodInvocation SimpleName old entity
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName old entity
+empty NumberLiteral MethodInvocation SimpleName old entity
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update entity in store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName update entity in store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+update entity in store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+update entity in store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity in store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity in store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

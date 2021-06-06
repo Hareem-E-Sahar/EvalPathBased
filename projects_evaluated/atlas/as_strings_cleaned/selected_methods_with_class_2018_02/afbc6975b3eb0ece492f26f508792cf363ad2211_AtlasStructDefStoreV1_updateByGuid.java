@@ -1,0 +1,166 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> atlas struct def store v update by guid
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral ==> atlas struct def store v update by guid
+debug SimpleName MethodInvocation SimpleName guid
+==> atlas struct def store v update by guid StringLiteral MethodInvocation SimpleName guid
+type registry SimpleName MethodInvocation SimpleName get struct def by guid
+type registry SimpleName MethodInvocation SimpleName guid
+get struct def by guid SimpleName MethodInvocation SimpleName guid
+existing def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+existing def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct def by guid
+existing def SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing def
+atlas type access request SimpleName SimpleType ClassInstanceCreation QualifiedName atlas privilegetype update
+atlas type access request SimpleName SimpleType ClassInstanceCreation SimpleName existing def
+atlas privilegetype update QualifiedName ClassInstanceCreation SimpleName existing def
+existing def SimpleName MethodInvocation SimpleName get name
+existing def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName existing def
+existing def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get name
+existing def SimpleName InfixExpression ConditionalExpression SimpleName guid
+existing def SimpleName MethodInvocation ConditionalExpression SimpleName guid
+get name SimpleName MethodInvocation ConditionalExpression SimpleName guid
+atlas authorization utils SimpleName MethodInvocation SimpleName verify access
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas type access request
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegetype update
+atlas authorization utils SimpleName MethodInvocation ClassInstanceCreation SimpleName existing def
+atlas authorization utils SimpleName MethodInvocation StringLiteral update structdef
+atlas authorization utils SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression SimpleName guid
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas type access request
+verify access SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas privilegetype update
+verify access SimpleName MethodInvocation ClassInstanceCreation SimpleName existing def
+verify access SimpleName MethodInvocation StringLiteral update structdef
+verify access SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression SimpleName guid
+atlas type access request SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral update structdef
+atlas privilegetype update QualifiedName ClassInstanceCreation MethodInvocation StringLiteral update structdef
+existing def SimpleName ClassInstanceCreation MethodInvocation StringLiteral update structdef
+update structdef StringLiteral MethodInvocation ParenthesizedExpression ConditionalExpression SimpleName guid
+validate type SimpleName MethodInvocation SimpleName struct def
+type registry SimpleName MethodInvocation SimpleName get type by guid
+type registry SimpleName MethodInvocation SimpleName guid
+get type by guid SimpleName MethodInvocation SimpleName guid
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type by guid
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression QualifiedName orgapacheatlasmodeltype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName orgapacheatlasmodeltype categorystruct
+struct def SimpleName MethodInvocation SimpleName get name
+type categorystruct QualifiedName MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype match failed
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName struct def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName type categorystruct
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype match failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName struct def
+atlas error codetype match failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codetype match failed QualifiedName ClassInstanceCreation MethodInvocation QualifiedName type categorystruct
+atlas error codetype match failed QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+struct def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName type categorystruct
+struct def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName type categorystruct
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name
+type def store SimpleName MethodInvocation SimpleName find type vertex by guid and category
+type def store SimpleName MethodInvocation SimpleName guid
+type def store SimpleName MethodInvocation QualifiedName type categorystruct
+find type vertex by guid and category SimpleName MethodInvocation SimpleName guid
+find type vertex by guid and category SimpleName MethodInvocation QualifiedName type categorystruct
+guid SimpleName MethodInvocation QualifiedName type categorystruct
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def store
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find type vertex by guid and category
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categorystruct
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error codetype guid not found QualifiedName ClassInstanceCreation SimpleName guid
+atlas struct type SimpleName SimpleType CastExpression SimpleName type
+atlas struct def store v SimpleName MethodInvocation SimpleName update vertex pre update
+atlas struct def store v SimpleName MethodInvocation SimpleName struct def
+atlas struct def store v SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+atlas struct def store v SimpleName MethodInvocation CastExpression SimpleName type
+atlas struct def store v SimpleName MethodInvocation SimpleName vertex
+atlas struct def store v SimpleName MethodInvocation SimpleName type def store
+update vertex pre update SimpleName MethodInvocation SimpleName struct def
+update vertex pre update SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+update vertex pre update SimpleName MethodInvocation CastExpression SimpleName type
+update vertex pre update SimpleName MethodInvocation SimpleName vertex
+update vertex pre update SimpleName MethodInvocation SimpleName type def store
+struct def SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+struct def SimpleName MethodInvocation CastExpression SimpleName type
+struct def SimpleName MethodInvocation SimpleName vertex
+struct def SimpleName MethodInvocation SimpleName type def store
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+type SimpleName CastExpression MethodInvocation SimpleName vertex
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName type def store
+type SimpleName CastExpression MethodInvocation SimpleName type def store
+vertex SimpleName MethodInvocation SimpleName type def store
+atlas struct def store v SimpleName MethodInvocation SimpleName update vertex add references
+atlas struct def store v SimpleName MethodInvocation SimpleName struct def
+atlas struct def store v SimpleName MethodInvocation SimpleName vertex
+atlas struct def store v SimpleName MethodInvocation SimpleName type def store
+update vertex add references SimpleName MethodInvocation SimpleName struct def
+update vertex add references SimpleName MethodInvocation SimpleName vertex
+update vertex add references SimpleName MethodInvocation SimpleName type def store
+struct def SimpleName MethodInvocation SimpleName vertex
+struct def SimpleName MethodInvocation SimpleName type def store
+vertex SimpleName MethodInvocation SimpleName type def store
+to struct def SimpleName MethodInvocation SimpleName vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName to struct def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== atlas struct def store v update by guid {}
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== atlas struct def store v update by guid {}
+debug SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation SimpleName ret
+<== atlas struct def store v update by guid {} StringLiteral MethodInvocation SimpleName guid
+<== atlas struct def store v update by guid {} StringLiteral MethodInvocation SimpleName ret
+guid SimpleName MethodInvocation SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas struct def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update by guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SimpleName update by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName update by guid
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+update by guid SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update by guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName update by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

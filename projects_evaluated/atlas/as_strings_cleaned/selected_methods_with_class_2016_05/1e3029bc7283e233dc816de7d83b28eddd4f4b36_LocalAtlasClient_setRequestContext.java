@@ -1,0 +1,17 @@
+request context SimpleName MethodInvocation SimpleName create context
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+request context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request context
+request context SimpleName MethodInvocation SimpleName set user
+request context SimpleName MethodInvocation SimpleName user
+set user SimpleName MethodInvocation SimpleName user
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set request context
+void PrimitiveType MethodDeclaration SimpleName set request context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set request context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set request context

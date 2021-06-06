@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum value
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum values
+enum value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName enum values
+enum values SimpleName FieldAccess Assignment SimpleName enum values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set enum values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enum values
+void PrimitiveType MethodDeclaration SimpleName set enum values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enum values
+set enum values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enum values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set enum values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set enum values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enum values

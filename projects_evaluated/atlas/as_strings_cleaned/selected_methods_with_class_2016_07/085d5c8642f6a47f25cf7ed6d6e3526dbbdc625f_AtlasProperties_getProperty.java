@@ -1,0 +1,41 @@
+atlas property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+application properties SimpleName MethodInvocation SimpleName get property
+application properties SimpleName MethodInvocation QualifiedName propertyproperty name
+get property SimpleName MethodInvocation QualifiedName propertyproperty name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyproperty name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+t SimpleName SimpleType CastExpression QualifiedName propertydefault value
+t SimpleName SimpleType CastExpression SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName get property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName get property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property
+t SimpleName SimpleType MethodDeclaration SimpleName get property
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas property
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

@@ -1,0 +1,43 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+enabled SimpleName MemberValuePair BooleanLiteral false
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName enabled
+test SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName enabled
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair BooleanLiteral false
+test submit entity StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName enabled
+test submit entity StringLiteral MemberValuePair NormalAnnotation MemberValuePair BooleanLiteral false
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+false BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+false BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get entity list
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+enabled SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+false BooleanLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get entity list
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity list
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity list
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity list SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity list
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity list
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

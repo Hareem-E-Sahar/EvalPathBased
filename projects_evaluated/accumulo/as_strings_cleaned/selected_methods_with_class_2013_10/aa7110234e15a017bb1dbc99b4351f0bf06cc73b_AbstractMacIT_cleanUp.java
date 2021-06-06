@@ -1,0 +1,28 @@
+mini accumulo cluster SimpleName SimpleType SingleVariableDeclaration SimpleName cluster
+cluster SimpleName MethodInvocation SimpleName stop
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName clean up
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo cluster
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName clean up
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo cluster
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+void PrimitiveType MethodDeclaration SimpleName clean up
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cluster
+clean up SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo cluster
+clean up SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster

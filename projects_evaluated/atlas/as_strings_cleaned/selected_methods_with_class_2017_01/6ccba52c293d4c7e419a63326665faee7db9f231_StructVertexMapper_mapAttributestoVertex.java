@@ -1,0 +1,137 @@
+final Modifier SingleVariableDeclaration SimpleType QualifiedName entity mutationsentity operation
+final Modifier SingleVariableDeclaration SimpleName op
+entity mutationsentity operation QualifiedName SimpleType SingleVariableDeclaration SimpleName op
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+atlas struct SimpleName SimpleType SingleVariableDeclaration SimpleName struct
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+struct SimpleName MethodInvocation SimpleName get attributes
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate
+equals SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+struct type SimpleName MethodInvocation SimpleName get all attributes
+all attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+all attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all attributes
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName all attributes
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName struct type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get all attributes
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+all attributes SimpleName MethodInvocation SimpleName key set
+struct SimpleName MethodInvocation SimpleName get attribute
+struct SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+map attribute SimpleName MethodInvocation SimpleName op
+map attribute SimpleName MethodInvocation SimpleName struct type
+map attribute SimpleName MethodInvocation SimpleName attr name
+map attribute SimpleName MethodInvocation SimpleName value
+map attribute SimpleName MethodInvocation SimpleName vertex
+op SimpleName MethodInvocation SimpleName struct type
+op SimpleName MethodInvocation SimpleName attr name
+op SimpleName MethodInvocation SimpleName value
+op SimpleName MethodInvocation SimpleName vertex
+struct type SimpleName MethodInvocation SimpleName attr name
+struct type SimpleName MethodInvocation SimpleName value
+struct type SimpleName MethodInvocation SimpleName vertex
+attr name SimpleName MethodInvocation SimpleName value
+attr name SimpleName MethodInvocation SimpleName vertex
+value SimpleName MethodInvocation SimpleName vertex
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName all attributes
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+op SimpleName MethodInvocation SimpleName equals
+op SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+equals SimpleName MethodInvocation QualifiedName entity mutationsentity operationupdate
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+struct SimpleName MethodInvocation SimpleName get attributes
+struct SimpleName MethodInvocation MethodInvocation SimpleName key set
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName key set
+struct SimpleName MethodInvocation SimpleName get attribute
+struct SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+map attribute SimpleName MethodInvocation SimpleName op
+map attribute SimpleName MethodInvocation SimpleName struct type
+map attribute SimpleName MethodInvocation SimpleName attr name
+map attribute SimpleName MethodInvocation SimpleName value
+map attribute SimpleName MethodInvocation SimpleName vertex
+op SimpleName MethodInvocation SimpleName struct type
+op SimpleName MethodInvocation SimpleName attr name
+op SimpleName MethodInvocation SimpleName value
+op SimpleName MethodInvocation SimpleName vertex
+struct type SimpleName MethodInvocation SimpleName attr name
+struct type SimpleName MethodInvocation SimpleName value
+struct type SimpleName MethodInvocation SimpleName vertex
+attr name SimpleName MethodInvocation SimpleName value
+attr name SimpleName MethodInvocation SimpleName vertex
+value SimpleName MethodInvocation SimpleName vertex
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+update modification metadata SimpleName MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName map attributesto vertex
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entity mutationsentity operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName map attributesto vertex
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entity mutationsentity operation
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map attributesto vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+map attributesto vertex SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+struct SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+struct SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName map attributesto vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map attributesto vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

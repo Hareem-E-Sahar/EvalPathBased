@@ -1,0 +1,25 @@
+or condition SimpleName SimpleType SingleVariableDeclaration SimpleName other
+other SimpleName MethodInvocation SimpleName get and terms
+children SimpleName MethodInvocation SimpleName add all
+children SimpleName MethodInvocation MethodInvocation SimpleName other
+children SimpleName MethodInvocation MethodInvocation SimpleName get and terms
+add all SimpleName MethodInvocation MethodInvocation SimpleName other
+add all SimpleName MethodInvocation MethodInvocation SimpleName get and terms
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName or with
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+void PrimitiveType MethodDeclaration SimpleName or with
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+or with SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+or with SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName or with
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName or with
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

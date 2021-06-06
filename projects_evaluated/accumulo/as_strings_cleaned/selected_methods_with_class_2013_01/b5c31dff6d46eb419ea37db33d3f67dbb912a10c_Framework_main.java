@@ -1,0 +1,130 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+framework SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+props SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+optsconfig dir QualifiedName InfixExpression StringLiteral randomwalkconf
+file input stream SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName optsconfig dir
+file input stream SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral randomwalkconf
+fis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file input stream
+fis SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName optsconfig dir
+fis SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral randomwalkconf
+file input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fis
+props SimpleName MethodInvocation SimpleName load
+props SimpleName MethodInvocation SimpleName fis
+load SimpleName MethodInvocation SimpleName fis
+fis SimpleName MethodInvocation SimpleName close
+optslocal log path QualifiedName InfixExpression StringLiteral /
+optslocal log path QualifiedName InfixExpression QualifiedName optslog id
+/ StringLiteral InfixExpression QualifiedName optslog id
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral local log
+system SimpleName MethodInvocation InfixExpression QualifiedName optslocal log path
+system SimpleName MethodInvocation InfixExpression StringLiteral /
+system SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+set property SimpleName MethodInvocation StringLiteral local log
+set property SimpleName MethodInvocation InfixExpression QualifiedName optslocal log path
+set property SimpleName MethodInvocation InfixExpression StringLiteral /
+set property SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+local log StringLiteral MethodInvocation InfixExpression QualifiedName optslocal log path
+local log StringLiteral MethodInvocation InfixExpression StringLiteral /
+local log StringLiteral MethodInvocation InfixExpression QualifiedName optslog id
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral nfs logpath
+get property SimpleName MethodInvocation StringLiteral nfs logpath
+props SimpleName MethodInvocation InfixExpression StringLiteral /
+get property SimpleName MethodInvocation InfixExpression StringLiteral /
+nfs logpath StringLiteral MethodInvocation InfixExpression StringLiteral /
+props SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+get property SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+nfs logpath StringLiteral MethodInvocation InfixExpression QualifiedName optslog id
+/ StringLiteral InfixExpression QualifiedName optslog id
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral nfs log
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName props
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+system SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral nfs logpath
+system SimpleName MethodInvocation InfixExpression StringLiteral /
+system SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+set property SimpleName MethodInvocation StringLiteral nfs log
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName props
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+set property SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral nfs logpath
+set property SimpleName MethodInvocation InfixExpression StringLiteral /
+set property SimpleName MethodInvocation InfixExpression QualifiedName optslog id
+nfs log StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName props
+nfs log StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get property
+nfs log StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral nfs logpath
+nfs log StringLiteral MethodInvocation InfixExpression StringLiteral /
+nfs log StringLiteral MethodInvocation InfixExpression QualifiedName optslog id
+optsconfig dir QualifiedName InfixExpression StringLiteral loggerxml
+dom configurator SimpleName MethodInvocation SimpleName configure
+dom configurator SimpleName MethodInvocation InfixExpression QualifiedName optsconfig dir
+dom configurator SimpleName MethodInvocation InfixExpression StringLiteral loggerxml
+configure SimpleName MethodInvocation InfixExpression QualifiedName optsconfig dir
+configure SimpleName MethodInvocation InfixExpression StringLiteral loggerxml
+state SimpleName SimpleType ClassInstanceCreation SimpleName props
+state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName state
+state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName props
+state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName run
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName optsmodule
+get instance SimpleName MethodInvocation MethodInvocation SimpleName state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName config dir
+run SimpleName MethodInvocation QualifiedName optsmodule
+run SimpleName MethodInvocation SimpleName state
+run SimpleName MethodInvocation SimpleName config dir
+optsmodule QualifiedName MethodInvocation SimpleName state
+optsmodule QualifiedName MethodInvocation SimpleName config dir
+state SimpleName MethodInvocation SimpleName config dir
+retval SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+retval SimpleName VariableDeclarationFragment MethodInvocation SimpleName run
+retval SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsmodule
+retval SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+retval SimpleName VariableDeclarationFragment MethodInvocation SimpleName config dir
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName retval
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName run
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName optsmodule
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName state
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config dir
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation SimpleName retval
+exit SimpleName MethodInvocation SimpleName retval
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

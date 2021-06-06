@@ -1,0 +1,195 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration SimpleType SimpleName hive event context
+final Modifier SingleVariableDeclaration SimpleName event
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName referenceable
+final Modifier SingleVariableDeclaration SimpleName cols
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cols
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cols
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName old table qf name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old table qf name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName new table qf name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new table qf name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName col
+col SimpleName MethodInvocation SimpleName get
+col SimpleName MethodInvocation QualifiedName hive data model generatorname
+get SimpleName MethodInvocation QualifiedName hive data model generatorname
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName col
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName hive data model generatorname
+col name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+col name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName col
+col name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+col name SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName hive data model generatorname
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName col name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col name
+hive meta store bridge SimpleName MethodInvocation SimpleName get column qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName old table qf name
+hive meta store bridge SimpleName MethodInvocation SimpleName col name
+get column qualified name SimpleName MethodInvocation SimpleName old table qf name
+get column qualified name SimpleName MethodInvocation SimpleName col name
+old table qf name SimpleName MethodInvocation SimpleName col name
+old column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+old column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column qualified name
+old column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName old table qf name
+old column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName col name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old column qf name
+hive meta store bridge SimpleName MethodInvocation SimpleName get column qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName new table qf name
+hive meta store bridge SimpleName MethodInvocation SimpleName col name
+get column qualified name SimpleName MethodInvocation SimpleName new table qf name
+get column qualified name SimpleName MethodInvocation SimpleName col name
+new table qf name SimpleName MethodInvocation SimpleName col name
+new column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+new column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column qualified name
+new column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table qf name
+new column qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName col name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new column qf name
+col SimpleName MethodInvocation SimpleName set
+col SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+col SimpleName MethodInvocation SimpleName old column qf name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName old column qf name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName old column qf name
+hive data typeshive column QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+new col entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+new col entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+new col entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new col entity
+new col entity SimpleName MethodInvocation SimpleName set
+new col entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+new col entity SimpleName MethodInvocation SimpleName new column qf name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName new column qf name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName new column qf name
+event SimpleName MethodInvocation SimpleName get user
+hive data typeshive column QualifiedName MethodInvocation SimpleName get name
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName event
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation SimpleName old column qf name
+hook notificationentity partial update request QualifiedName SimpleType ClassInstanceCreation SimpleName new col entity
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+event SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+get user SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+event SimpleName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+event SimpleName MethodInvocation ClassInstanceCreation SimpleName new col entity
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName new col entity
+hive data typeshive column QualifiedName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+hive data typeshive column QualifiedName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+hive data typeshive column QualifiedName MethodInvocation ClassInstanceCreation SimpleName new col entity
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName new col entity
+atlas clientreferenceable attribute name QualifiedName ClassInstanceCreation SimpleName old column qf name
+atlas clientreferenceable attribute name QualifiedName ClassInstanceCreation SimpleName new col entity
+old column qf name SimpleName ClassInstanceCreation SimpleName new col entity
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity partial update request
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+messages SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleName new col entity
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity partial update request
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive column
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName old column qf name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName new col entity
+new col entities SimpleName MethodInvocation SimpleName add
+new col entities SimpleName MethodInvocation SimpleName new col entity
+add SimpleName MethodInvocation SimpleName new col entity
+referenceable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cols
+col SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cols
+cols SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+cols SimpleName EnhancedForStatement Block ReturnStatement SimpleName new col entities
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName replace column qf name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cols
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName replace column qf name
+referenceable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName replace column qf name
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cols
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+replace column qf name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+replace column qf name SimpleName MethodDeclaration Block EnhancedForStatement SimpleName cols
+replace column qf name SimpleName MethodDeclaration Block ReturnStatement SimpleName new col entities
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cols
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cols
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+old table qf name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+old table qf name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace column qf name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cols
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace column qf name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cols
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table qf name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table qf name

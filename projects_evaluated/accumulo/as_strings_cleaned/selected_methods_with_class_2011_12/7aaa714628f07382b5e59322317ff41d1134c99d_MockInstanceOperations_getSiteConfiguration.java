@@ -1,0 +1,32 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get site configuration
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get site configuration
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName acusystem properties
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get site configuration
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get site configuration
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get site configuration
+get site configuration SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get site configuration SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get site configuration SimpleName MethodDeclaration Block ReturnStatement QualifiedName acusystem properties
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get site configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get site configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

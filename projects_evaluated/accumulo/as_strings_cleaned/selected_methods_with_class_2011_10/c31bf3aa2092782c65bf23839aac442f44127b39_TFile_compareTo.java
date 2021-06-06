@@ -1,0 +1,74 @@
+raw comparable SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName MethodInvocation SimpleName buffer
+key SimpleName MethodInvocation SimpleName offset
+key SimpleName MethodInvocation SimpleName size
+reader SimpleName MethodInvocation SimpleName compare keys
+reader SimpleName MethodInvocation SimpleName key buffer
+reader SimpleName MethodInvocation NumberLiteral empty
+reader SimpleName MethodInvocation MethodInvocation SimpleName get key length
+reader SimpleName MethodInvocation MethodInvocation SimpleName key
+reader SimpleName MethodInvocation MethodInvocation SimpleName buffer
+compare keys SimpleName MethodInvocation SimpleName key buffer
+compare keys SimpleName MethodInvocation NumberLiteral empty
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName get key length
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName key
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName buffer
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName key
+compare keys SimpleName MethodInvocation MethodInvocation SimpleName offset
+key buffer SimpleName MethodInvocation NumberLiteral empty
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName get key length
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName key
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName buffer
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName key
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName offset
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName key
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName buffer
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get key length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raw comparable
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

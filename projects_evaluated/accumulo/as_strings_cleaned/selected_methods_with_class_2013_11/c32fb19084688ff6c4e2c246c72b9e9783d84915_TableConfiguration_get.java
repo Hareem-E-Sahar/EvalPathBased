@@ -1,0 +1,83 @@
+zoo cache SimpleName SimpleType SingleVariableDeclaration SimpleName zc
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance id
+get root SimpleName MethodInvocation SimpleName instance id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table
+get root SimpleName MethodInvocation InfixExpression SimpleName table
+instance id SimpleName MethodInvocation InfixExpression SimpleName table
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable conf
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName key
+/ StringLiteral InfixExpression SimpleName table
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName key
+table SimpleName InfixExpression QualifiedName constantsztable conf
+table SimpleName InfixExpression StringLiteral /
+table SimpleName InfixExpression SimpleName key
+constantsztable conf QualifiedName InfixExpression StringLiteral /
+constantsztable conf QualifiedName InfixExpression SimpleName key
+/ StringLiteral InfixExpression SimpleName key
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance id
+z path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression SimpleName table
+z path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable conf
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+zc SimpleName MethodInvocation SimpleName get
+zc SimpleName MethodInvocation SimpleName z path
+get SimpleName MethodInvocation SimpleName z path
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName z path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+string SimpleName SimpleType ClassInstanceCreation SimpleName v
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+value SimpleName Assignment ClassInstanceCreation SimpleName v
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zc
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration Block ReturnStatement SimpleName value
+string SimpleName SimpleType MethodDeclaration SimpleName get
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName zc
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zc
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+zc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

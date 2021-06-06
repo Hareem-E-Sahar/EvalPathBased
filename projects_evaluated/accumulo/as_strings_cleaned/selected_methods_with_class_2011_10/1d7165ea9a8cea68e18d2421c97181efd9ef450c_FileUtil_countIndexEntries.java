@@ -1,0 +1,391 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName acu conf
+text SimpleName SimpleType SingleVariableDeclaration SimpleName prev end row
+text SimpleName SimpleType SingleVariableDeclaration SimpleName end row
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map files
+boolean PrimitiveType SingleVariableDeclaration SimpleName use index
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers
+file skv iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers
+num keys SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num keys
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+file operations SimpleName MethodInvocation SimpleName get instance
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open index
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open index
+file operations SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+open index SimpleName MethodInvocation SimpleName path
+open index SimpleName MethodInvocation SimpleName fs
+open index SimpleName MethodInvocation SimpleName conf
+open index SimpleName MethodInvocation SimpleName acu conf
+path SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation SimpleName conf
+path SimpleName MethodInvocation SimpleName acu conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName acu conf
+conf SimpleName MethodInvocation SimpleName acu conf
+reader SimpleName Assignment MethodInvocation MethodInvocation SimpleName file operations
+reader SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+reader SimpleName Assignment MethodInvocation SimpleName open index
+reader SimpleName Assignment MethodInvocation SimpleName path
+reader SimpleName Assignment MethodInvocation SimpleName fs
+reader SimpleName Assignment MethodInvocation SimpleName conf
+reader SimpleName Assignment MethodInvocation SimpleName acu conf
+file operations SimpleName MethodInvocation SimpleName get instance
+range SimpleName SimpleType ClassInstanceCreation SimpleName prev end row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+prev end row SimpleName ClassInstanceCreation BooleanLiteral false
+prev end row SimpleName ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName path
+open reader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+open reader SimpleName MethodInvocation ClassInstanceCreation SimpleName prev end row
+open reader SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+open reader SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+open reader SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+open reader SimpleName MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+path SimpleName MethodInvocation ClassInstanceCreation SimpleName prev end row
+path SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+path SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+path SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+path SimpleName MethodInvocation BooleanLiteral false
+path SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation SimpleName conf
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+prev end row SimpleName ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+false BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+true BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+prev end row SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName fs
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName fs
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName fs
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName conf
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName conf
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName conf
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName acu conf
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName acu conf
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName acu conf
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName acu conf
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName fs
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName conf
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName acu conf
+false BooleanLiteral MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation SimpleName conf
+false BooleanLiteral MethodInvocation SimpleName acu conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName acu conf
+conf SimpleName MethodInvocation SimpleName acu conf
+reader SimpleName Assignment MethodInvocation MethodInvocation SimpleName file operations
+reader SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+reader SimpleName Assignment MethodInvocation SimpleName open reader
+reader SimpleName Assignment MethodInvocation SimpleName path
+reader SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName prev end row
+reader SimpleName Assignment MethodInvocation ClassInstanceCreation BooleanLiteral false
+reader SimpleName Assignment MethodInvocation ClassInstanceCreation BooleanLiteral true
+reader SimpleName Assignment MethodInvocation QualifiedName locality group utilempty cf set
+reader SimpleName Assignment MethodInvocation BooleanLiteral false
+reader SimpleName Assignment MethodInvocation SimpleName fs
+reader SimpleName Assignment MethodInvocation SimpleName conf
+reader SimpleName Assignment MethodInvocation SimpleName acu conf
+use index SimpleName IfStatement ExpressionStatement Assignment SimpleName reader
+use index SimpleName IfStatement ExpressionStatement Assignment SimpleName reader
+reader SimpleName MethodInvocation SimpleName has top
+reader SimpleName MethodInvocation SimpleName get top key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get top key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName compare row
+key SimpleName MethodInvocation SimpleName end row
+compare row SimpleName MethodInvocation SimpleName end row
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end row SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName compare row
+key SimpleName MethodInvocation SimpleName prev end row
+compare row SimpleName MethodInvocation SimpleName prev end row
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prev end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prev end row SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName next
+reader SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+file operations SimpleName MethodInvocation SimpleName get instance
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open index
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open index
+file operations SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+open index SimpleName MethodInvocation SimpleName path
+open index SimpleName MethodInvocation SimpleName fs
+open index SimpleName MethodInvocation SimpleName conf
+open index SimpleName MethodInvocation SimpleName acu conf
+path SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation SimpleName conf
+path SimpleName MethodInvocation SimpleName acu conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName acu conf
+conf SimpleName MethodInvocation SimpleName acu conf
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file operations
+readers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+readers SimpleName MethodInvocation MethodInvocation SimpleName open index
+readers SimpleName MethodInvocation MethodInvocation SimpleName path
+readers SimpleName MethodInvocation MethodInvocation SimpleName fs
+readers SimpleName MethodInvocation MethodInvocation SimpleName conf
+readers SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file operations
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+add SimpleName MethodInvocation MethodInvocation SimpleName open index
+add SimpleName MethodInvocation MethodInvocation SimpleName path
+add SimpleName MethodInvocation MethodInvocation SimpleName fs
+add SimpleName MethodInvocation MethodInvocation SimpleName conf
+add SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+file operations SimpleName MethodInvocation SimpleName get instance
+range SimpleName SimpleType ClassInstanceCreation SimpleName prev end row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+prev end row SimpleName ClassInstanceCreation BooleanLiteral false
+prev end row SimpleName ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName path
+get instance SimpleName MethodInvocation MethodInvocation SimpleName path
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+file operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName path
+open reader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+open reader SimpleName MethodInvocation ClassInstanceCreation SimpleName prev end row
+open reader SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+open reader SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+open reader SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+open reader SimpleName MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+path SimpleName MethodInvocation ClassInstanceCreation SimpleName prev end row
+path SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+path SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+path SimpleName MethodInvocation QualifiedName locality group utilempty cf set
+path SimpleName MethodInvocation BooleanLiteral false
+path SimpleName MethodInvocation SimpleName fs
+path SimpleName MethodInvocation SimpleName conf
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+prev end row SimpleName ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+false BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+true BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName locality group utilempty cf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+prev end row SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName fs
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName fs
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName fs
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName conf
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName conf
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName conf
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName acu conf
+prev end row SimpleName ClassInstanceCreation MethodInvocation SimpleName acu conf
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName acu conf
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName acu conf
+locality group utilempty cf set QualifiedName MethodInvocation BooleanLiteral false
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName fs
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName conf
+locality group utilempty cf set QualifiedName MethodInvocation SimpleName acu conf
+false BooleanLiteral MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation SimpleName conf
+false BooleanLiteral MethodInvocation SimpleName acu conf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName acu conf
+conf SimpleName MethodInvocation SimpleName acu conf
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file operations
+readers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+readers SimpleName MethodInvocation MethodInvocation SimpleName open reader
+readers SimpleName MethodInvocation MethodInvocation SimpleName path
+readers SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+readers SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+readers SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+readers SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+readers SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+readers SimpleName MethodInvocation MethodInvocation SimpleName fs
+readers SimpleName MethodInvocation MethodInvocation SimpleName conf
+readers SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file operations
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+add SimpleName MethodInvocation MethodInvocation SimpleName open reader
+add SimpleName MethodInvocation MethodInvocation SimpleName path
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName prev end row
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+add SimpleName MethodInvocation MethodInvocation QualifiedName locality group utilempty cf set
+add SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+add SimpleName MethodInvocation MethodInvocation SimpleName fs
+add SimpleName MethodInvocation MethodInvocation SimpleName conf
+add SimpleName MethodInvocation MethodInvocation SimpleName acu conf
+use index SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName readers
+use index SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName add
+use index SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName readers
+use index SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName add
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName map files
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName map files
+map files SimpleName EnhancedForStatement Block IfStatement SimpleName use index
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName map files
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName num keys
+map files SimpleName EnhancedForStatement Block ReturnStatement SimpleName num keys
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName count index entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName count index entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName end row
+long PrimitiveType MethodDeclaration SimpleName count index entries
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end row
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map files
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end row
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map files
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+count index entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use index
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map files
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+acu conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map files
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+prev end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map files
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+end row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+map files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+map files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+map files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+map files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+map files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+map files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+use index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+use index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+use index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+use index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+readers SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName count index entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName count index entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acu conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

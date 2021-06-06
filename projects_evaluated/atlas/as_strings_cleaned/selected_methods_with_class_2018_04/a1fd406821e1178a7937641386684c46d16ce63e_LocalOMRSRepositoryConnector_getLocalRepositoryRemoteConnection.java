@@ -1,0 +1,11 @@
+connection SimpleName SimpleType ClassInstanceCreation SuperFieldAccess SimpleName connection
+public Modifier MethodDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SimpleName get local repository remote connection
+connection SimpleName SimpleType MethodDeclaration SimpleName get local repository remote connection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get local repository remote connection
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get local repository remote connection

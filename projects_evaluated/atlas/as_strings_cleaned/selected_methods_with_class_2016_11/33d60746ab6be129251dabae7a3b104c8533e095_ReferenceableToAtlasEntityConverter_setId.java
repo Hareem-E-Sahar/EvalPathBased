@@ -1,0 +1,39 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName result
+entity SimpleName MethodInvocation SimpleName get id
+entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+result SimpleName MethodInvocation SimpleName set guid
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+result SimpleName MethodInvocation MethodInvocation SimpleName get id
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SimpleName set id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

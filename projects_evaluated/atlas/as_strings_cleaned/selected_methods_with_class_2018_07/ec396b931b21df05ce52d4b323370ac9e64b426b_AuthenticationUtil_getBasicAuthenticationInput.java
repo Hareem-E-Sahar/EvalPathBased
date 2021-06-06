@@ -1,0 +1,49 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName username
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+system SimpleName MethodInvocation SimpleName console
+console SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+console SimpleName VariableDeclarationFragment MethodInvocation SimpleName console
+console SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName console
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral couldnt get a console object for user input
+println SimpleName MethodInvocation StringLiteral couldnt get a console object for user input
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+console SimpleName MethodInvocation SimpleName read line
+console SimpleName MethodInvocation StringLiteral enter username for atlas :-
+read line SimpleName MethodInvocation StringLiteral enter username for atlas :-
+username SimpleName Assignment MethodInvocation SimpleName console
+username SimpleName Assignment MethodInvocation SimpleName read line
+username SimpleName Assignment MethodInvocation StringLiteral enter username for atlas :-
+console SimpleName MethodInvocation SimpleName read password
+console SimpleName MethodInvocation StringLiteral enter password for atlas :-
+read password SimpleName MethodInvocation StringLiteral enter password for atlas :-
+pwd char SimpleName VariableDeclarationFragment MethodInvocation SimpleName console
+pwd char SimpleName VariableDeclarationFragment MethodInvocation SimpleName read password
+pwd char SimpleName VariableDeclarationFragment MethodInvocation StringLiteral enter password for atlas :-
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pwd char
+string SimpleName SimpleType ClassInstanceCreation SimpleName pwd char
+password SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+password SimpleName Assignment ClassInstanceCreation SimpleName pwd char
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation StringLiteral error while reading user input
+print SimpleName MethodInvocation StringLiteral error while reading user input
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+username SimpleName ArrayInitializer SimpleName password
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get basic authentication input
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get basic authentication input
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get basic authentication input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get basic authentication input
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get basic authentication input

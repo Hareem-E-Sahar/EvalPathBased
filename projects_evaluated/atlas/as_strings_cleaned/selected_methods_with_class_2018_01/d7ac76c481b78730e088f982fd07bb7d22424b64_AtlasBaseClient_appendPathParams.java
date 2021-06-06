@@ -1,0 +1,36 @@
+web resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName path params
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path param
+resource SimpleName MethodInvocation SimpleName path
+resource SimpleName MethodInvocation SimpleName path param
+path SimpleName MethodInvocation SimpleName path param
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName path
+resource SimpleName Assignment MethodInvocation SimpleName path param
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName path params
+path param SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName path params
+private Modifier MethodDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SimpleName append path params
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path params
+private Modifier MethodDeclaration Block ReturnStatement SimpleName resource
+web resource SimpleName SimpleType MethodDeclaration SimpleName append path params
+web resource SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource
+web resource SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path params
+append path params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName web resource
+append path params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+append path params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path params
+append path params SimpleName MethodDeclaration Block ReturnStatement SimpleName resource
+resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName web resource
+public Modifier TypeDeclaration MethodDeclaration SimpleName append path params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path params
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName web resource
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append path params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path params

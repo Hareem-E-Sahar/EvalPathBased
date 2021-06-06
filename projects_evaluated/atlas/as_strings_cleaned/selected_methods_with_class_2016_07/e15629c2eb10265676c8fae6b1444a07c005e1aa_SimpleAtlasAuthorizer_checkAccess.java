@@ -1,0 +1,196 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName accessor
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resource types
+atlas resource types SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resource types
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer check access
+debug SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer check access
+now checking access for accessor : StringLiteral InfixExpression SimpleName accessor
+now checking access for accessor : StringLiteral InfixExpression StringLiteral resource types :
+now checking access for accessor : StringLiteral InfixExpression SimpleName resource types
+now checking access for accessor : StringLiteral InfixExpression StringLiteral resource :
+now checking access for accessor : StringLiteral InfixExpression SimpleName resource
+accessor SimpleName InfixExpression StringLiteral resource types :
+accessor SimpleName InfixExpression SimpleName resource types
+accessor SimpleName InfixExpression StringLiteral resource :
+accessor SimpleName InfixExpression SimpleName resource
+accessor SimpleName InfixExpression StringLiteral map :
+resource types : StringLiteral InfixExpression SimpleName resource types
+resource types : StringLiteral InfixExpression StringLiteral resource :
+resource types : StringLiteral InfixExpression SimpleName resource
+resource types : StringLiteral InfixExpression StringLiteral map :
+resource types : StringLiteral InfixExpression SimpleName map
+resource types SimpleName InfixExpression StringLiteral resource :
+resource types SimpleName InfixExpression SimpleName resource
+resource types SimpleName InfixExpression StringLiteral map :
+resource types SimpleName InfixExpression SimpleName map
+resource : StringLiteral InfixExpression SimpleName resource
+resource : StringLiteral InfixExpression StringLiteral map :
+resource : StringLiteral InfixExpression SimpleName map
+resource SimpleName InfixExpression StringLiteral map :
+resource SimpleName InfixExpression SimpleName map
+map : StringLiteral InfixExpression SimpleName map
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral now checking access for accessor :
+log SimpleName MethodInvocation InfixExpression SimpleName accessor
+log SimpleName MethodInvocation InfixExpression StringLiteral resource types :
+log SimpleName MethodInvocation InfixExpression SimpleName resource types
+log SimpleName MethodInvocation InfixExpression StringLiteral resource :
+log SimpleName MethodInvocation InfixExpression SimpleName resource
+log SimpleName MethodInvocation InfixExpression StringLiteral map :
+log SimpleName MethodInvocation InfixExpression SimpleName map
+debug SimpleName MethodInvocation InfixExpression StringLiteral now checking access for accessor :
+debug SimpleName MethodInvocation InfixExpression SimpleName accessor
+debug SimpleName MethodInvocation InfixExpression StringLiteral resource types :
+debug SimpleName MethodInvocation InfixExpression SimpleName resource types
+debug SimpleName MethodInvocation InfixExpression StringLiteral resource :
+debug SimpleName MethodInvocation InfixExpression SimpleName resource
+debug SimpleName MethodInvocation InfixExpression StringLiteral map :
+debug SimpleName MethodInvocation InfixExpression SimpleName map
+result SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName accessor
+get SimpleName MethodInvocation SimpleName accessor
+resc map SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+resc map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+resc map SimpleName VariableDeclarationFragment MethodInvocation SimpleName accessor
+atlas resource types SimpleName SimpleType SingleVariableDeclaration SimpleName resource type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+resc map SimpleName MethodInvocation SimpleName get
+resc map SimpleName MethodInvocation SimpleName resource type
+get SimpleName MethodInvocation SimpleName resource type
+access list SimpleName VariableDeclarationFragment MethodInvocation SimpleName resc map
+access list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+access list SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource type
+checking for resource : StringLiteral InfixExpression SimpleName resource
+checking for resource : StringLiteral InfixExpression StringLiteral in list :
+checking for resource : StringLiteral InfixExpression SimpleName access list
+checking for resource : StringLiteral InfixExpression StringLiteral empty
+resource SimpleName InfixExpression StringLiteral in list :
+resource SimpleName InfixExpression SimpleName access list
+resource SimpleName InfixExpression StringLiteral empty
+in list : StringLiteral InfixExpression SimpleName access list
+in list : StringLiteral InfixExpression StringLiteral empty
+access list SimpleName InfixExpression StringLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral checking for resource :
+log SimpleName MethodInvocation InfixExpression SimpleName resource
+log SimpleName MethodInvocation InfixExpression StringLiteral in list :
+log SimpleName MethodInvocation InfixExpression SimpleName access list
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression StringLiteral checking for resource :
+debug SimpleName MethodInvocation InfixExpression SimpleName resource
+debug SimpleName MethodInvocation InfixExpression StringLiteral in list :
+debug SimpleName MethodInvocation InfixExpression SimpleName access list
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+is match SimpleName MethodInvocation SimpleName resource
+is match SimpleName MethodInvocation SimpleName access list
+resource SimpleName MethodInvocation SimpleName access list
+result SimpleName InfixExpression MethodInvocation SimpleName is match
+result SimpleName InfixExpression MethodInvocation SimpleName resource
+result SimpleName InfixExpression MethodInvocation SimpleName access list
+result SimpleName Assignment InfixExpression SimpleName result
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName is match
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName resource
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName access list
+result SimpleName Assignment BooleanLiteral false
+atlas resource types SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName resource types
+resource type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName resource types
+resource types SimpleName EnhancedForStatement Block IfStatement SimpleName is debug enabled
+result SimpleName Assignment BooleanLiteral false
+key StringLiteral InfixExpression SimpleName accessor
+key StringLiteral InfixExpression StringLiteral missing returning with result :
+key StringLiteral InfixExpression SimpleName result
+accessor SimpleName InfixExpression StringLiteral missing returning with result :
+accessor SimpleName InfixExpression SimpleName result
+missing returning with result : StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral key
+log SimpleName MethodInvocation InfixExpression SimpleName accessor
+log SimpleName MethodInvocation InfixExpression StringLiteral missing returning with result :
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral key
+debug SimpleName MethodInvocation InfixExpression SimpleName accessor
+debug SimpleName MethodInvocation InfixExpression StringLiteral missing returning with result :
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+is debug enabled SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName log
+is debug enabled SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName debug
+check for StringLiteral InfixExpression SimpleName accessor
+check for StringLiteral InfixExpression StringLiteral ::
+check for StringLiteral InfixExpression SimpleName result
+accessor SimpleName InfixExpression StringLiteral ::
+accessor SimpleName InfixExpression SimpleName result
+:: StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral check for
+log SimpleName MethodInvocation InfixExpression SimpleName accessor
+log SimpleName MethodInvocation InfixExpression StringLiteral ::
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral check for
+debug SimpleName MethodInvocation InfixExpression SimpleName accessor
+debug SimpleName MethodInvocation InfixExpression StringLiteral ::
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== simple atlas authorizer check access
+debug SimpleName MethodInvocation StringLiteral <== simple atlas authorizer check access
+is debug enabled SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+is debug enabled SimpleName IfStatement Block IfStatement SimpleName is debug enabled
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName result
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName check access
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName accessor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+boolean PrimitiveType MethodDeclaration SimpleName check access
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName accessor
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource types
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accessor
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource types
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+check access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+check access SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+check access SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+check access SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+check access SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+accessor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource types
+accessor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+accessor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+resource types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+resource types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check access
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check access
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accessor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map

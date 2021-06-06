@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+should register SimpleName MethodInvocation SimpleName type name
+lookup SimpleName MethodInvocation SimpleName get type
+lookup SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+active type SimpleName Assignment MethodInvocation SimpleName lookup
+active type SimpleName Assignment MethodInvocation SimpleName get type
+active type SimpleName Assignment MethodInvocation SimpleName type name
+alias map SimpleName MethodInvocation SimpleName put
+alias map SimpleName MethodInvocation SimpleName type name
+alias map SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName type name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register active
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleName register active
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

@@ -1,0 +1,53 @@
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json data
+mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object mapper
+object mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapper
+mapper SimpleName MethodInvocation SimpleName read value
+mapper SimpleName MethodInvocation SimpleName json data
+mapper SimpleName MethodInvocation SimpleName clazz
+read value SimpleName MethodInvocation SimpleName json data
+read value SimpleName MethodInvocation SimpleName clazz
+json data SimpleName MethodInvocation SimpleName clazz
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral error converting file to json
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error converting file to json StringLiteral ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration TypeParameter SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName t
+private Modifier MethodDeclaration SimpleName convert from json
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName json data
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName convert from json
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName json data
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas base exception
+t SimpleName SimpleType MethodDeclaration SimpleName convert from json
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json data
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+convert from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+convert from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json data
+convert from json SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json data
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+json data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert from json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert from json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

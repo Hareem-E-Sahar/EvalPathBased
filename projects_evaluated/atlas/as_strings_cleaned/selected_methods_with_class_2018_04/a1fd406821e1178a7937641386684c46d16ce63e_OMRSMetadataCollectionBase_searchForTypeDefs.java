@@ -1,0 +1,45 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName search criteria
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def
+public Modifier MethodDeclaration SimpleName search for type defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName search for type defs
+type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName search for type defs
+search for type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search for type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+search for type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search for type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+search for type defs SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+search for type defs SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+search for type defs SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+search criteria SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+search criteria SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+search criteria SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName search for type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search for type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

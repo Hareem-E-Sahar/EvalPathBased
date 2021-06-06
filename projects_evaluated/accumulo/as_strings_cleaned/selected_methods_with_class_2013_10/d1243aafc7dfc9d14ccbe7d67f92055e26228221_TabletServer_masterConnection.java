@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation QualifiedName propertymaster clientport
+thrift util SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation QualifiedName propertymaster clientport
+get client SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+get client SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertymaster clientport
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+address SimpleName MethodInvocation QualifiedName propertymaster clientport
+address SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+address SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+propertymaster clientport QualifiedName MethodInvocation QualifiedName propertygeneral rpc timeout
+propertymaster clientport QualifiedName MethodInvocation MethodInvocation SimpleName get system configuration
+propertygeneral rpc timeout QualifiedName MethodInvocation MethodInvocation SimpleName get system configuration
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertymaster clientport
+client SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral rpc timeout
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+master client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+issue with master connection ( StringLiteral InfixExpression SimpleName address
+issue with master connection ( StringLiteral InfixExpression StringLiteral )
+issue with master connection ( StringLiteral InfixExpression SimpleName e
+address SimpleName InfixExpression StringLiteral )
+address SimpleName InfixExpression SimpleName e
+) StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral issue with master connection (
+log SimpleName MethodInvocation InfixExpression SimpleName address
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral issue with master connection (
+warn SimpleName MethodInvocation InfixExpression SimpleName address
+warn SimpleName MethodInvocation InfixExpression StringLiteral )
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation SimpleName e
+issue with master connection ( StringLiteral InfixExpression MethodInvocation SimpleName e
+address SimpleName InfixExpression MethodInvocation SimpleName e
+) StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName InfixExpression MethodInvocation SimpleName e
+private Modifier MethodDeclaration SimpleType QualifiedName master client serviceclient
+private Modifier MethodDeclaration SimpleName master connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+master client serviceclient QualifiedName SimpleType MethodDeclaration SimpleName master connection
+master client serviceclient QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+master connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+master connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+public Modifier TypeDeclaration MethodDeclaration SimpleName master connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+test SimpleName TypeDeclaration MethodDeclaration SimpleName master connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

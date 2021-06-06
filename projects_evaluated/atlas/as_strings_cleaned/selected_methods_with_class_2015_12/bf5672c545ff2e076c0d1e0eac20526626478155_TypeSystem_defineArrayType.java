@@ -1,0 +1,32 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName elem type
+define array type SimpleName SuperMethodInvocation SimpleName elem type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName data typesarray type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName define array type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName elem type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType QualifiedName data typesarray type
+public Modifier MethodDeclaration SimpleName define array type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem type
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+data typesarray type QualifiedName SimpleType MethodDeclaration SimpleName define array type
+data typesarray type QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elem type
+data typesarray type QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+define array type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+define array type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem type
+define array type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+elem type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName data typesarray type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define array type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName data typesarray type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define array type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

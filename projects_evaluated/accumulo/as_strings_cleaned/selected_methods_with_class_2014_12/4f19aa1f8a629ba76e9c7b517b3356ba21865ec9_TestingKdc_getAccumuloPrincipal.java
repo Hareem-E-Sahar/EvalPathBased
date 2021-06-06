@@ -1,0 +1,18 @@
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation SimpleName started
+preconditions SimpleName MethodInvocation StringLiteral accumulo principal is not initialized is the kdc started
+check argument SimpleName MethodInvocation SimpleName started
+check argument SimpleName MethodInvocation StringLiteral accumulo principal is not initialized is the kdc started
+started SimpleName MethodInvocation StringLiteral accumulo principal is not initialized is the kdc started
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get accumulo principal
+public Modifier MethodDeclaration Block ReturnStatement SimpleName accumulo principal
+string SimpleName SimpleType MethodDeclaration SimpleName get accumulo principal
+get accumulo principal SimpleName MethodDeclaration Block ReturnStatement SimpleName accumulo principal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accumulo principal
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accumulo principal

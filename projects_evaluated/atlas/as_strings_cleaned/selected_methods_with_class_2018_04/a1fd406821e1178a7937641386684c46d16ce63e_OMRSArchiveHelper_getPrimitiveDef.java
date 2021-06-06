@@ -1,0 +1,42 @@
+primitive def category SimpleName SimpleType SingleVariableDeclaration SimpleName primitive def category
+primitive def SimpleName SimpleType ClassInstanceCreation SimpleName primitive def category
+primitive def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName primitive def
+primitive def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName primitive def category
+primitive def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive def
+primitive def category SimpleName MethodInvocation SimpleName get guid
+primitive def SimpleName MethodInvocation SimpleName set guid
+primitive def SimpleName MethodInvocation MethodInvocation SimpleName primitive def category
+primitive def SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName primitive def category
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+primitive def category SimpleName MethodInvocation SimpleName get name
+primitive def SimpleName MethodInvocation SimpleName set name
+primitive def SimpleName MethodInvocation MethodInvocation SimpleName primitive def category
+primitive def SimpleName MethodInvocation MethodInvocation SimpleName get name
+set name SimpleName MethodInvocation MethodInvocation SimpleName primitive def category
+set name SimpleName MethodInvocation MethodInvocation SimpleName get name
+primitive def SimpleName MethodInvocation SimpleName set version
+primitive def SimpleName MethodInvocation SimpleName version number
+set version SimpleName MethodInvocation SimpleName version number
+primitive def SimpleName MethodInvocation SimpleName set version name
+primitive def SimpleName MethodInvocation SimpleName version name
+set version name SimpleName MethodInvocation SimpleName version name
+public Modifier MethodDeclaration SimpleType SimpleName primitive def
+public Modifier MethodDeclaration SimpleName get primitive def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName primitive def category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName primitive def category
+public Modifier MethodDeclaration Block ReturnStatement SimpleName primitive def
+primitive def SimpleName SimpleType MethodDeclaration SimpleName get primitive def
+primitive def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName primitive def category
+get primitive def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName primitive def category
+get primitive def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName primitive def category
+get primitive def SimpleName MethodDeclaration Block ReturnStatement SimpleName primitive def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName primitive def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive def category
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName primitive def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive def category

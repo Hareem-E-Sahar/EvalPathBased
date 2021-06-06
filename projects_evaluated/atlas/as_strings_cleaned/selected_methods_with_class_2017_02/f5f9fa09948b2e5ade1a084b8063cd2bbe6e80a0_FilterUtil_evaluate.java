@@ -1,0 +1,68 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName InstanceofExpression SimpleType SimpleName atlas type
+atlas type SimpleName SimpleType CastExpression SimpleName o
+atlas type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas type
+atlas type SimpleName VariableDeclarationFragment CastExpression SimpleName o
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas type
+type SimpleName MethodInvocation SimpleName to upper case
+atlas type SimpleName MethodInvocation SimpleName get type category
+atlas type SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+atlas type SimpleName MethodInvocation SimpleName get type category
+atlas type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+atlas type SimpleName MethodInvocation SimpleName get type category
+atlas type SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+atlas type SimpleName MethodInvocation SimpleName get type category
+atlas type SimpleName MethodInvocation InfixExpression QualifiedName type categoryenum
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryenum
+type SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral class
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral class
+type SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral entity
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral entity
+type SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral trait
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral trait
+type SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral classification
+to upper case SimpleName MethodInvocation SwitchStatement SwitchCase StringLiteral classification
+class StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral entity
+class StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral trait
+class StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification
+entity StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral trait
+entity StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification
+entity StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral struct
+trait StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral classification
+trait StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral struct
+trait StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral enum
+classification StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral struct
+classification StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral enum
+struct StringLiteral SwitchCase SwitchStatement SwitchCase StringLiteral enum
+struct StringLiteral SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+enum StringLiteral SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+evaluate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+evaluate SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName evaluate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evaluate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

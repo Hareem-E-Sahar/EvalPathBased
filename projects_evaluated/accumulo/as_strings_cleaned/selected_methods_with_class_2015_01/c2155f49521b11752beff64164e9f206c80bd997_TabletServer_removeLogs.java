@@ -1,0 +1,309 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filenames
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filenames
+myname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client address string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName myname
+myname SimpleName MethodInvocation SimpleName replace
+myname SimpleName MethodInvocation CharacterLiteral :
+myname SimpleName MethodInvocation CharacterLiteral +
+replace SimpleName MethodInvocation CharacterLiteral :
+replace SimpleName MethodInvocation CharacterLiteral +
+: CharacterLiteral MethodInvocation CharacterLiteral +
+myname SimpleName Assignment MethodInvocation SimpleName myname
+myname SimpleName Assignment MethodInvocation SimpleName replace
+myname SimpleName Assignment MethodInvocation CharacterLiteral :
+myname SimpleName Assignment MethodInvocation CharacterLiteral +
+constants SimpleName MethodInvocation SimpleName get wal directory
+constants SimpleName MethodInvocation SimpleName acu conf
+get wal directory SimpleName MethodInvocation SimpleName acu conf
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get wal directory
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName acu conf
+path SimpleName SimpleType ClassInstanceCreation SimpleName myname
+constants SimpleName MethodInvocation ClassInstanceCreation SimpleName myname
+get wal directory SimpleName MethodInvocation ClassInstanceCreation SimpleName myname
+acu conf SimpleName MethodInvocation ClassInstanceCreation SimpleName myname
+log dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+log dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName constants
+log dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get wal directory
+log dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName acu conf
+log dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName myname
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log dir
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+logger SimpleName MethodInvocation SimpleName get loggers
+logger SimpleName MethodInvocation SimpleName loggers
+get loggers SimpleName MethodInvocation SimpleName loggers
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filename
+string SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+logger SimpleName MethodInvocation SimpleName contains
+logger SimpleName MethodInvocation SimpleName filename
+contains SimpleName MethodInvocation SimpleName filename
+logger SimpleName MethodInvocation IfStatement ContinueStatement SimpleName next file
+contains SimpleName MethodInvocation IfStatement ContinueStatement SimpleName next file
+filename SimpleName MethodInvocation IfStatement ContinueStatement SimpleName next file
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName loggers
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName loggers
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+online tablets SimpleName MethodInvocation SimpleName values
+online tablets copy SimpleName MethodInvocation SimpleName add all
+online tablets copy SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+online tablets copy SimpleName MethodInvocation MethodInvocation SimpleName values
+add all SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+add all SimpleName MethodInvocation MethodInvocation SimpleName values
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+string SimpleName SimpleType SingleVariableDeclaration SimpleName current
+tablet SimpleName MethodInvocation SimpleName get current logs
+current SimpleName MethodInvocation SimpleName contains
+current SimpleName MethodInvocation SimpleName filename
+contains SimpleName MethodInvocation SimpleName filename
+tablet SimpleName MethodInvocation SimpleName get extent
+attempted to delete StringLiteral InfixExpression SimpleName filename
+attempted to delete StringLiteral InfixExpression StringLiteral from tablet
+attempted to delete StringLiteral InfixExpression MethodInvocation SimpleName tablet
+attempted to delete StringLiteral InfixExpression MethodInvocation SimpleName get extent
+filename SimpleName InfixExpression StringLiteral from tablet
+filename SimpleName InfixExpression MethodInvocation SimpleName tablet
+filename SimpleName InfixExpression MethodInvocation SimpleName get extent
+from tablet StringLiteral InfixExpression MethodInvocation SimpleName tablet
+from tablet StringLiteral InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral attempted to delete
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+log SimpleName MethodInvocation InfixExpression StringLiteral from tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+info SimpleName MethodInvocation InfixExpression StringLiteral attempted to delete
+info SimpleName MethodInvocation InfixExpression SimpleName filename
+info SimpleName MethodInvocation InfixExpression StringLiteral from tablet
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+current SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet
+current SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get current logs
+tablet SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName online tablets copy
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName online tablets copy
+log dir SimpleName InfixExpression StringLiteral /
+log dir SimpleName InfixExpression SimpleName filename
+/ StringLiteral InfixExpression SimpleName filename
+source SimpleName VariableDeclarationFragment InfixExpression SimpleName log dir
+source SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+source SimpleName VariableDeclarationFragment InfixExpression SimpleName filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+acu conf SimpleName MethodInvocation SimpleName get boolean
+acu conf SimpleName MethodInvocation QualifiedName propertytserv archive walogs
+get boolean SimpleName MethodInvocation QualifiedName propertytserv archive walogs
+constants SimpleName MethodInvocation SimpleName get base dir
+constants SimpleName MethodInvocation SimpleName acu conf
+get base dir SimpleName MethodInvocation SimpleName acu conf
+constants SimpleName MethodInvocation InfixExpression StringLiteral walog archive
+get base dir SimpleName MethodInvocation InfixExpression StringLiteral walog archive
+acu conf SimpleName MethodInvocation InfixExpression StringLiteral walog archive
+walog archive SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName constants
+walog archive SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get base dir
+walog archive SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName acu conf
+walog archive SimpleName VariableDeclarationFragment InfixExpression StringLiteral walog archive
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName walog archive
+path SimpleName SimpleType ClassInstanceCreation SimpleName walog archive
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName walog archive
+mkdirs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+mkdirs SimpleName MethodInvocation ClassInstanceCreation SimpleName walog archive
+walog archive SimpleName InfixExpression StringLiteral /
+walog archive SimpleName InfixExpression SimpleName filename
+/ StringLiteral InfixExpression SimpleName filename
+dest SimpleName VariableDeclarationFragment InfixExpression SimpleName walog archive
+dest SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+dest SimpleName VariableDeclarationFragment InfixExpression SimpleName filename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+archiving walog StringLiteral InfixExpression SimpleName source
+archiving walog StringLiteral InfixExpression StringLiteral to
+archiving walog StringLiteral InfixExpression SimpleName dest
+source SimpleName InfixExpression StringLiteral to
+source SimpleName InfixExpression SimpleName dest
+to StringLiteral InfixExpression SimpleName dest
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral archiving walog
+log SimpleName MethodInvocation InfixExpression SimpleName source
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName dest
+info SimpleName MethodInvocation InfixExpression StringLiteral archiving walog
+info SimpleName MethodInvocation InfixExpression SimpleName source
+info SimpleName MethodInvocation InfixExpression StringLiteral to
+info SimpleName MethodInvocation InfixExpression SimpleName dest
+path SimpleName SimpleType ClassInstanceCreation SimpleName source
+path SimpleName SimpleType ClassInstanceCreation SimpleName dest
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName source
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName dest
+rename SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+rename SimpleName MethodInvocation ClassInstanceCreation SimpleName source
+rename SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+rename SimpleName MethodInvocation ClassInstanceCreation SimpleName dest
+source SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation SimpleName dest
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral rename is unsuccessful
+error SimpleName MethodInvocation StringLiteral rename is unsuccessful
+deleting walog StringLiteral InfixExpression SimpleName filename
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting walog
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+info SimpleName MethodInvocation InfixExpression StringLiteral deleting walog
+info SimpleName MethodInvocation InfixExpression SimpleName filename
+fs SimpleName MethodInvocation SimpleName get conf
+trash SimpleName SimpleType ClassInstanceCreation SimpleName fs
+trash SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+trash SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName fs
+fs SimpleName ClassInstanceCreation MethodInvocation SimpleName get conf
+trash SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName trash
+trash SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fs
+trash SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fs
+trash SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+trash SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trash
+path SimpleName SimpleType ClassInstanceCreation SimpleName source
+source path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+source path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName source
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source path
+acu conf SimpleName MethodInvocation SimpleName get boolean
+acu conf SimpleName MethodInvocation QualifiedName propertygc trash ignore
+get boolean SimpleName MethodInvocation QualifiedName propertygc trash ignore
+trash SimpleName MethodInvocation SimpleName move to trash
+trash SimpleName MethodInvocation SimpleName source path
+move to trash SimpleName MethodInvocation SimpleName source path
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName source path
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName source path
+delete SimpleName MethodInvocation BooleanLiteral true
+source path SimpleName MethodInvocation BooleanLiteral true
+failed to delete walog StringLiteral InfixExpression SimpleName source
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to delete walog
+log SimpleName MethodInvocation InfixExpression SimpleName source
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to delete walog
+warn SimpleName MethodInvocation InfixExpression SimpleName source
+constants SimpleName MethodInvocation SimpleName get recovery dir
+constants SimpleName MethodInvocation SimpleName acu conf
+get recovery dir SimpleName MethodInvocation SimpleName acu conf
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get recovery dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName acu conf
+path SimpleName SimpleType ClassInstanceCreation SimpleName filename
+constants SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+get recovery dir SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+acu conf SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+recovery path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+recovery path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName constants
+recovery path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get recovery dir
+recovery path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName acu conf
+recovery path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName filename
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName recovery path
+trash SimpleName MethodInvocation SimpleName move to trash
+trash SimpleName MethodInvocation SimpleName recovery path
+move to trash SimpleName MethodInvocation SimpleName recovery path
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName recovery path
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName recovery path
+delete SimpleName MethodInvocation BooleanLiteral true
+recovery path SimpleName MethodInvocation BooleanLiteral true
+trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName delete
+trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName recovery path
+trash SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+move to trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+move to trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName delete
+move to trash SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName recovery path
+move to trash SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+recovery path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+recovery path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName delete
+recovery path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName recovery path
+recovery path SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+deleted any recovery log StringLiteral InfixExpression SimpleName filename
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted any recovery log
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+info SimpleName MethodInvocation InfixExpression StringLiteral deleted any recovery log
+info SimpleName MethodInvocation InfixExpression SimpleName filename
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error attempting to delete writeahead log StringLiteral InfixExpression SimpleName filename
+error attempting to delete writeahead log StringLiteral InfixExpression StringLiteral :
+error attempting to delete writeahead log StringLiteral InfixExpression SimpleName e
+filename SimpleName InfixExpression StringLiteral :
+filename SimpleName InfixExpression SimpleName e
+: StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral error attempting to delete writeahead log
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral error attempting to delete writeahead log
+warn SimpleName MethodInvocation InfixExpression SimpleName filename
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+loggers SimpleName EnhancedForStatement Block SynchronizedStatement SimpleName online tablets
+loggers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName online tablets copy
+online tablets SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName online tablets copy
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName filenames
+filename SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName filenames
+filenames SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName loggers
+filenames SimpleName EnhancedForStatement Block SynchronizedStatement SimpleName online tablets
+filenames SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName online tablets copy
+next file SimpleName LabeledStatement EnhancedForStatement SingleVariableDeclaration SimpleName filename
+next file SimpleName LabeledStatement EnhancedForStatement SimpleName filenames
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove logs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove logs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filenames
+void PrimitiveType MethodDeclaration SimpleName remove logs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filenames
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+remove logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+remove logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+remove logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+remove logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+remove logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filenames
+remove logs SimpleName MethodDeclaration SimpleType SimpleName t exception
+remove logs SimpleName MethodDeclaration Block LabeledStatement SimpleName next file
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filenames
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filenames
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+filenames SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filenames
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filenames
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,16 @@
+type system SimpleName MethodInvocation SimpleName get instance
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName type system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName type system
+public Modifier MethodDeclaration SimpleName get
+type system SimpleName SimpleType MethodDeclaration SimpleName get
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

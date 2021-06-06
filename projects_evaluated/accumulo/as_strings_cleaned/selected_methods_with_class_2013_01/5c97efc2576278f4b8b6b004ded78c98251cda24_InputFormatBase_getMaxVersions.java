@@ -1,0 +1,90 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+input configurator SimpleName MethodInvocation SimpleName get iterators
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation SimpleName conf
+get iterators SimpleName MethodInvocation SimpleName class
+get iterators SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName conf
+iterator settings SimpleName VariableDeclarationFragment MethodInvocation SimpleName input configurator
+iterator settings SimpleName VariableDeclarationFragment MethodInvocation SimpleName get iterators
+iterator settings SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+iterator settings SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName setting
+setting SimpleName MethodInvocation SimpleName get name
+vers StringLiteral MethodInvocation SimpleName equals
+vers StringLiteral MethodInvocation MethodInvocation SimpleName setting
+vers StringLiteral MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName setting
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+setting SimpleName MethodInvocation SimpleName get priority
+empty NumberLiteral InfixExpression MethodInvocation SimpleName setting
+empty NumberLiteral InfixExpression MethodInvocation SimpleName get priority
+vers StringLiteral MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+equals SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+versioning iterator SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+setting SimpleName MethodInvocation SimpleName get iterator class
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName setting
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iterator class
+equals SimpleName MethodInvocation MethodInvocation SimpleName setting
+equals SimpleName MethodInvocation MethodInvocation SimpleName get iterator class
+setting SimpleName MethodInvocation SimpleName get options
+setting SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get options SimpleName MethodInvocation MethodInvocation SimpleName contains key
+setting SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+get options SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+contains key SimpleName MethodInvocation StringLiteral max versions
+setting SimpleName MethodInvocation SimpleName get options
+setting SimpleName MethodInvocation MethodInvocation SimpleName get
+get options SimpleName MethodInvocation MethodInvocation SimpleName get
+setting SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+get options SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+get SimpleName MethodInvocation StringLiteral max versions
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName setting
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get options
+integer SimpleName MethodInvocation MethodInvocation SimpleName get
+integer SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName setting
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get options
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral max versions
+iterator setting SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName iterator settings
+setting SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iterator settings
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName get max versions
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName get max versions
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName iterator settings
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get max versions
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName iterator settings
+int PrimitiveType MethodDeclaration SimpleName get max versions
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName iterator settings
+get max versions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get max versions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get max versions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName iterator settings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get max versions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get max versions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

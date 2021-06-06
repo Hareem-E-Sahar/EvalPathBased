@@ -1,0 +1,208 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+argslength QualifiedName InfixExpression NumberLiteral empty
+argslength QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName argslength
+argslength QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName argslength
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral binaccumulo accumuloexampleshelloworldread data instance name zoo keepers username password tablename startkey endkey
+println SimpleName MethodInvocation StringLiteral binaccumulo accumuloexampleshelloworldread data instance name zoo keepers username password tablename startkey endkey
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+instance name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+instance name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name
+args SimpleName ArrayAccess NumberLiteral empty
+zoo keepers SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+zoo keepers SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo keepers
+args SimpleName ArrayAccess NumberLiteral empty
+user SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+user SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+pass SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+pass SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+pass SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+args SimpleName ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName zoo keepers
+instance name SimpleName ClassInstanceCreation SimpleName zoo keepers
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance name
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName zoo keepers
+zoo keeper instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation SimpleName user
+instance SimpleName MethodInvocation SimpleName pass
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation SimpleName pass
+user SimpleName MethodInvocation SimpleName pass
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName pass
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation SimpleName table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+table name SimpleName MethodInvocation QualifiedName constantsno auths
+scan SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+scan SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scan SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+scan SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+start SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+text SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+end SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+range SimpleName SimpleType ClassInstanceCreation SimpleName start
+range SimpleName SimpleType ClassInstanceCreation SimpleName end
+start SimpleName ClassInstanceCreation SimpleName end
+scan SimpleName MethodInvocation SimpleName set range
+scan SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scan SimpleName MethodInvocation ClassInstanceCreation SimpleName start
+scan SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName start
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scan SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName scan
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+colf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName e
+colf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+colf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column family
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colf
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+colq SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName e
+colq SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+colq SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colq
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+row StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+row StringLiteral InfixExpression MethodInvocation SimpleName get row
+row StringLiteral InfixExpression StringLiteral colf
+row StringLiteral InfixExpression SimpleName colf
+row StringLiteral InfixExpression StringLiteral colq
+row StringLiteral InfixExpression SimpleName colq
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral colf
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral colf
+get row SimpleName MethodInvocation InfixExpression StringLiteral colf
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName colf
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName colf
+get row SimpleName MethodInvocation InfixExpression SimpleName colf
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral colq
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral colq
+get row SimpleName MethodInvocation InfixExpression StringLiteral colq
+e SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName colq
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName colq
+get row SimpleName MethodInvocation InfixExpression SimpleName colq
+colf StringLiteral InfixExpression SimpleName colf
+colf StringLiteral InfixExpression StringLiteral colq
+colf StringLiteral InfixExpression SimpleName colq
+colf SimpleName InfixExpression StringLiteral colq
+colf SimpleName InfixExpression SimpleName colq
+colq StringLiteral InfixExpression SimpleName colq
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral row
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get row
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral colf
+systemout QualifiedName MethodInvocation InfixExpression SimpleName colf
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral colq
+systemout QualifiedName MethodInvocation InfixExpression SimpleName colq
+print SimpleName MethodInvocation InfixExpression StringLiteral row
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row
+print SimpleName MethodInvocation InfixExpression StringLiteral colf
+print SimpleName MethodInvocation InfixExpression SimpleName colf
+print SimpleName MethodInvocation InfixExpression StringLiteral colq
+print SimpleName MethodInvocation InfixExpression SimpleName colq
+e SimpleName MethodInvocation SimpleName get value
+e SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+value StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+value StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+value StringLiteral InfixExpression MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral value
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+println SimpleName MethodInvocation InfixExpression StringLiteral value
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+main SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+main SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

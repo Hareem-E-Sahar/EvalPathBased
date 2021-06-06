@@ -1,0 +1,193 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get
+atlas classification def SimpleName SimpleType ClassInstanceCreation StringLiteral test tag
+a tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification def
+a tag SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test tag
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a tag
+collections SimpleName MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct defatlas constraint def QualifiedName SimpleType MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral test attribute
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+test attribute StringLiteral ClassInstanceCreation StringLiteral string
+test attribute StringLiteral ClassInstanceCreation BooleanLiteral true
+test attribute StringLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+test attribute StringLiteral ClassInstanceCreation NumberLiteral empty
+test attribute StringLiteral ClassInstanceCreation NumberLiteral empty
+string StringLiteral ClassInstanceCreation BooleanLiteral true
+string StringLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+string StringLiteral ClassInstanceCreation NumberLiteral empty
+string StringLiteral ClassInstanceCreation NumberLiteral empty
+string StringLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation NumberLiteral empty
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation NumberLiteral empty
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation BooleanLiteral false
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation BooleanLiteral true
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleName collections
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas attribute def
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test attribute
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral string
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+attribute def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute def
+a tag SimpleName MethodInvocation SimpleName add attribute
+a tag SimpleName MethodInvocation SimpleName attribute def
+add attribute SimpleName MethodInvocation SimpleName attribute def
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName a tag
+as list SimpleName MethodInvocation SimpleName a tag
+types def SimpleName MethodInvocation SimpleName set classification defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName arrays
+types def SimpleName MethodInvocation MethodInvocation SimpleName as list
+types def SimpleName MethodInvocation MethodInvocation SimpleName a tag
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName as list
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName a tag
+type def store SimpleName MethodInvocation SimpleName create types def
+type def store SimpleName MethodInvocation SimpleName types def
+create types def SimpleName MethodInvocation SimpleName types def
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral tag creation shouldve succeeded
+type def store SimpleName MethodInvocation SimpleName delete types def
+type def store SimpleName MethodInvocation SimpleName types def
+delete types def SimpleName MethodInvocation SimpleName types def
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral tag deletion shouldve succeeded
+atlas classification def SimpleName SimpleType ClassInstanceCreation StringLiteral test tag
+a tag SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas classification def
+a tag SimpleName Assignment ClassInstanceCreation StringLiteral test tag
+collections SimpleName MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct defatlas constraint def QualifiedName SimpleType MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral test attribute
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral int
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+test attribute StringLiteral ClassInstanceCreation StringLiteral int
+test attribute StringLiteral ClassInstanceCreation BooleanLiteral true
+test attribute StringLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+test attribute StringLiteral ClassInstanceCreation NumberLiteral empty
+test attribute StringLiteral ClassInstanceCreation NumberLiteral empty
+int StringLiteral ClassInstanceCreation BooleanLiteral true
+int StringLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+int StringLiteral ClassInstanceCreation NumberLiteral empty
+int StringLiteral ClassInstanceCreation NumberLiteral empty
+int StringLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral true
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation NumberLiteral empty
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation NumberLiteral empty
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation BooleanLiteral false
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation BooleanLiteral true
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleName collections
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+atlas attribute defcardinalitysingle QualifiedName ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+attribute def SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas attribute def
+attribute def SimpleName Assignment ClassInstanceCreation StringLiteral test attribute
+attribute def SimpleName Assignment ClassInstanceCreation StringLiteral int
+attribute def SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+attribute def SimpleName Assignment ClassInstanceCreation QualifiedName atlas attribute defcardinalitysingle
+attribute def SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+attribute def SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+attribute def SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+attribute def SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+attribute def SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName collections
+attribute def SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName empty list
+a tag SimpleName MethodInvocation SimpleName add attribute
+a tag SimpleName MethodInvocation SimpleName attribute def
+add attribute SimpleName MethodInvocation SimpleName attribute def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName a tag
+as list SimpleName MethodInvocation SimpleName a tag
+types def SimpleName MethodInvocation SimpleName set classification defs
+types def SimpleName MethodInvocation MethodInvocation SimpleName arrays
+types def SimpleName MethodInvocation MethodInvocation SimpleName as list
+types def SimpleName MethodInvocation MethodInvocation SimpleName a tag
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName as list
+set classification defs SimpleName MethodInvocation MethodInvocation SimpleName a tag
+type def store SimpleName MethodInvocation SimpleName create types def
+type def store SimpleName MethodInvocation SimpleName types def
+create types def SimpleName MethodInvocation SimpleName types def
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral tag recreation shouldve succeeded
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test type deletion and recreate
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test type deletion and recreate
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test type deletion and recreate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test type deletion and recreate
+void PrimitiveType MethodDeclaration SimpleName test type deletion and recreate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test type deletion and recreate
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test type deletion and recreate

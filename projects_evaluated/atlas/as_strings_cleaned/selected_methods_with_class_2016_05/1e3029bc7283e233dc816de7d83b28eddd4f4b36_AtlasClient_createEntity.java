@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+get entities array SimpleName MethodInvocation SimpleName entities
+entity array SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entities array
+entity array SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity array
+create entity SimpleName MethodInvocation SimpleName entity array
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+create entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,100 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName list
+gremlin query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName attribute search result
+attribute search result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+option SimpleName SimpleType ParameterizedType SimpleType SimpleName select expression
+query SimpleName MethodInvocation SimpleName expr
+select expression helper SimpleName MethodInvocation SimpleName extract select expression
+select expression helper SimpleName MethodInvocation MethodInvocation SimpleName query
+select expression helper SimpleName MethodInvocation MethodInvocation SimpleName expr
+extract select expression SimpleName MethodInvocation MethodInvocation SimpleName query
+extract select expression SimpleName MethodInvocation MethodInvocation SimpleName expr
+select expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName select expression helper
+select expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract select expression
+select expr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+select expr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expr
+select expr SimpleName MethodInvocation SimpleName is defined
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName alias expression
+select expr SimpleName MethodInvocation SimpleName get
+select expr SimpleName MethodInvocation MethodInvocation SimpleName to java list
+get SimpleName MethodInvocation MethodInvocation SimpleName to java list
+aliases SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName select expr
+aliases SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+aliases SimpleName VariableDeclarationFragment MethodInvocation SimpleName to java list
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName aliases
+is not empty SimpleName MethodInvocation SimpleName aliases
+alias expression SimpleName SimpleType SingleVariableDeclaration SimpleName alias
+alias SimpleName MethodInvocation SimpleName alias
+names SimpleName MethodInvocation SimpleName add
+names SimpleName MethodInvocation MethodInvocation SimpleName alias
+names SimpleName MethodInvocation MethodInvocation SimpleName alias
+add SimpleName MethodInvocation MethodInvocation SimpleName alias
+add SimpleName MethodInvocation MethodInvocation SimpleName alias
+alias expression SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName aliases
+alias SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName aliases
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation SimpleName names
+set name SimpleName MethodInvocation SimpleName names
+object SimpleName SimpleType SingleVariableDeclaration SimpleName map obj
+map obj SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName map obj
+map obj SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName map obj
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName map
+is not empty SimpleName MethodInvocation SimpleName map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+map SimpleName MethodInvocation SimpleName key set
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vals
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName vals
+object SimpleName SimpleType ParameterizedType CastExpression SimpleName vals
+values SimpleName MethodInvocation SimpleName add
+values SimpleName MethodInvocation CastExpression SimpleName vals
+add SimpleName MethodInvocation CastExpression SimpleName vals
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+ret SimpleName MethodInvocation SimpleName set values
+ret SimpleName MethodInvocation SimpleName values
+set values SimpleName MethodInvocation SimpleName values
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+map obj SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName attribute search result
+private Modifier MethodDeclaration SimpleName to attributes result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+attribute search result SimpleName SimpleType MethodDeclaration SimpleName to attributes result
+attribute search result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName list
+attribute search result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query
+to attributes result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+to attributes result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+to attributes result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gremlin query
+to attributes result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+to attributes result SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+to attributes result SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute search result
+public Modifier TypeDeclaration MethodDeclaration SimpleName to attributes result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute search result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to attributes result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

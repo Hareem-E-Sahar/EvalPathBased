@@ -1,0 +1,290 @@
+hook notification message SimpleName SimpleType SingleVariableDeclaration SimpleName message
+message SimpleName MethodInvocation SimpleName get user
+message user SimpleName VariableDeclarationFragment MethodInvocation SimpleName message
+message user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message user
+atlas entityatlas entities with ext info QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities
+num retries SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName num retries
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+num retries SimpleName InfixExpression SimpleName max retries
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral running attempt {}
+log SimpleName MethodInvocation SimpleName num retries
+debug SimpleName MethodInvocation StringLiteral running attempt {}
+debug SimpleName MethodInvocation SimpleName num retries
+running attempt {} StringLiteral MethodInvocation SimpleName num retries
+message SimpleName MethodInvocation SimpleName get type
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral entity create via hook
+debug SimpleName MethodInvocation StringLiteral entity create via hook
+entity create request SimpleName SimpleType CastExpression SimpleName message
+create request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity create request
+create request SimpleName VariableDeclarationFragment CastExpression SimpleName message
+entity create request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName create request
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation QualifiedName atlas clientapicreate entity
+message user SimpleName MethodInvocation QualifiedName atlas clientapicreate entity
+create request SimpleName MethodInvocation SimpleName get entities
+instance converter SimpleName MethodInvocation SimpleName to atlas entities
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName create request
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName get entities
+to atlas entities SimpleName MethodInvocation MethodInvocation SimpleName create request
+to atlas entities SimpleName MethodInvocation MethodInvocation SimpleName get entities
+entities SimpleName Assignment MethodInvocation SimpleName instance converter
+entities SimpleName Assignment MethodInvocation SimpleName to atlas entities
+entities SimpleName Assignment MethodInvocation MethodInvocation SimpleName create request
+entities SimpleName Assignment MethodInvocation MethodInvocation SimpleName get entities
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation SimpleName create or update
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+entities SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral entity partial update via hook
+debug SimpleName MethodInvocation StringLiteral entity partial update via hook
+entity partial update request SimpleName SimpleType CastExpression SimpleName message
+partial update request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity partial update request
+partial update request SimpleName VariableDeclarationFragment CastExpression SimpleName message
+final Modifier VariableDeclarationStatement SimpleType SimpleName entity partial update request
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partial update request
+final Modifier VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName message
+entity partial update request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partial update request
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation QualifiedName atlas clientapiupdate entity partial
+message user SimpleName MethodInvocation QualifiedName atlas clientapiupdate entity partial
+partial update request SimpleName MethodInvocation SimpleName get entity
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName partial update request
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referenceable
+instance converter SimpleName MethodInvocation SimpleName to atlas entity
+instance converter SimpleName MethodInvocation SimpleName referenceable
+to atlas entity SimpleName MethodInvocation SimpleName referenceable
+entities SimpleName Assignment MethodInvocation SimpleName instance converter
+entities SimpleName Assignment MethodInvocation SimpleName to atlas entity
+entities SimpleName Assignment MethodInvocation SimpleName referenceable
+partial update request SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName partial update request
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName partial update request
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName partial update request
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+partial update request SimpleName MethodInvocation SimpleName get attribute
+partial update request SimpleName MethodInvocation SimpleName get attribute value
+put SimpleName MethodInvocation MethodInvocation SimpleName partial update request
+put SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+put SimpleName MethodInvocation MethodInvocation SimpleName partial update request
+put SimpleName MethodInvocation MethodInvocation SimpleName get attribute value
+partial update request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partial update request
+partial update request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partial update request
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+atlas graph utils v SimpleName MethodInvocation SimpleName get guid by unique attributes
+atlas graph utils v SimpleName MethodInvocation SimpleName entity type
+get guid by unique attributes SimpleName MethodInvocation SimpleName entity type
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid by unique attributes
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+entities SimpleName MethodInvocation SimpleName get entities
+entities SimpleName MethodInvocation MethodInvocation SimpleName get
+get entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set guid
+get entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set guid
+get SimpleName MethodInvocation MethodInvocation SimpleName set guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set guid
+entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName guid
+get entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName guid
+get SimpleName MethodInvocation MethodInvocation SimpleName guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation SimpleName create or update
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation BooleanLiteral true
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+create or update SimpleName MethodInvocation BooleanLiteral true
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+entities SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral entity delete via hook
+debug SimpleName MethodInvocation StringLiteral entity delete via hook
+entity delete request SimpleName SimpleType CastExpression SimpleName message
+delete request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity delete request
+delete request SimpleName VariableDeclarationFragment CastExpression SimpleName message
+final Modifier VariableDeclarationStatement SimpleType SimpleName entity delete request
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName delete request
+final Modifier VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName message
+entity delete request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete request
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation QualifiedName atlas clientapidelete entity
+message user SimpleName MethodInvocation QualifiedName atlas clientapidelete entity
+delete request SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName delete request
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName delete request
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName type registry
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity type
+type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+delete request SimpleName MethodInvocation SimpleName get attribute
+delete request SimpleName MethodInvocation SimpleName get attribute value
+put SimpleName MethodInvocation MethodInvocation SimpleName delete request
+put SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+put SimpleName MethodInvocation MethodInvocation SimpleName delete request
+put SimpleName MethodInvocation MethodInvocation SimpleName get attribute value
+delete request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete request
+delete request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete request
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+atlas entity store SimpleName MethodInvocation SimpleName delete by unique attributes
+atlas entity store SimpleName MethodInvocation SimpleName type
+delete by unique attributes SimpleName MethodInvocation SimpleName type
+class cast exception SimpleName SimpleType SingleVariableDeclaration SimpleName cle
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to do a partial update on entity
+error SimpleName MethodInvocation StringLiteral failed to do a partial update on entity
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral entity full update via hook
+debug SimpleName MethodInvocation StringLiteral entity full update via hook
+entity update request SimpleName SimpleType CastExpression SimpleName message
+update request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity update request
+update request SimpleName VariableDeclarationFragment CastExpression SimpleName message
+entity update request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName update request
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation QualifiedName atlas clientapiupdate entity
+message user SimpleName MethodInvocation QualifiedName atlas clientapiupdate entity
+update request SimpleName MethodInvocation SimpleName get entities
+instance converter SimpleName MethodInvocation SimpleName to atlas entities
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName update request
+instance converter SimpleName MethodInvocation MethodInvocation SimpleName get entities
+to atlas entities SimpleName MethodInvocation MethodInvocation SimpleName update request
+to atlas entities SimpleName MethodInvocation MethodInvocation SimpleName get entities
+entities SimpleName Assignment MethodInvocation SimpleName instance converter
+entities SimpleName Assignment MethodInvocation SimpleName to atlas entities
+entities SimpleName Assignment MethodInvocation MethodInvocation SimpleName update request
+entities SimpleName Assignment MethodInvocation MethodInvocation SimpleName get entities
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation SimpleName create or update
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+atlas entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+atlas entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName entities
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+entities SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral unhandled exception
+message SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity create
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity create
+entity partial update SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+entity delete SimpleName SwitchCase SwitchStatement VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement SwitchStatement SwitchCase SimpleName entity full update
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error handling message {}
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation StringLiteral error handling message {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+error handling message {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+error handling message {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral sleeping for {} ms before retry
+log SimpleName MethodInvocation SimpleName consumer retry interval
+info SimpleName MethodInvocation StringLiteral sleeping for {} ms before retry
+info SimpleName MethodInvocation SimpleName consumer retry interval
+sleeping for {} ms before retry StringLiteral MethodInvocation SimpleName consumer retry interval
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName consumer retry interval
+sleep SimpleName MethodInvocation SimpleName consumer retry interval
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral notification consumer thread sleep interrupted
+error SimpleName MethodInvocation StringLiteral notification consumer thread sleep interrupted
+max retries SimpleName InfixExpression NumberLiteral empty
+num retries SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max retries
+num retries SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral max retries exceeded for message {}
+log SimpleName MethodInvocation SimpleName message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral max retries exceeded for message {}
+warn SimpleName MethodInvocation SimpleName message
+warn SimpleName MethodInvocation SimpleName e
+max retries exceeded for message {} StringLiteral MethodInvocation SimpleName message
+max retries exceeded for message {} StringLiteral MethodInvocation SimpleName e
+message SimpleName MethodInvocation SimpleName e
+failed messages SimpleName MethodInvocation SimpleName add
+failed messages SimpleName MethodInvocation SimpleName message
+add SimpleName MethodInvocation SimpleName message
+failed messages SimpleName MethodInvocation SimpleName size
+failed messages SimpleName MethodInvocation InfixExpression SimpleName failed msg cache size
+size SimpleName MethodInvocation InfixExpression SimpleName failed msg cache size
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num retries
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max retries
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName num retries
+num retries SimpleName InfixExpression ForStatement PostfixExpression SimpleName num retries
+max retries SimpleName InfixExpression ForStatement PostfixExpression SimpleName num retries
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName handle message
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName message
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName handle message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook notification message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+handle message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook notification message
+handle message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+handle message SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+handle message SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

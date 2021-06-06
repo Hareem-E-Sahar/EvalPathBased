@@ -1,0 +1,68 @@
+depends on methods SimpleName MemberValuePair StringLiteral test delete classification
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test delete classification
+entity rest SimpleName MethodInvocation SimpleName delete by guid
+entity rest SimpleName MethodInvocation SimpleName db guid
+delete by guid SimpleName MethodInvocation SimpleName db guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete by guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName db guid
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+response SimpleName MethodInvocation SimpleName get entities by operation
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entities by operation
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity mutationsentity operationdelete
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entities mutated
+assert not null SimpleName MethodInvocation SimpleName entities mutated
+entities mutated SimpleName MethodInvocation SimpleName get
+entities mutated SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities mutated
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert SimpleName MethodInvocation SimpleName db guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entities mutated
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation SimpleName db guid
+entities mutated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db guid
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db guid
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName db guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName db guid
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test delete classification StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test delete classification StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete entity by id
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete entity by id
+test delete classification StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete entity by id
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete entity by id
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete entity by id
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete entity by id SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete entity by id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete entity by id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

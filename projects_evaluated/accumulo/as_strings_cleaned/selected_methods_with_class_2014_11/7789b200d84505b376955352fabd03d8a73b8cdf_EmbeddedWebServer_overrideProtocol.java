@@ -1,0 +1,23 @@
+ssl server socket SimpleName SimpleType SingleVariableDeclaration SimpleName socket
+socket SimpleName MethodInvocation SimpleName set enabled protocols
+socket SimpleName MethodInvocation SimpleName protocols
+set enabled protocols SimpleName MethodInvocation SimpleName protocols
+protected Modifier MethodDeclaration SimpleType SimpleName server socket
+protected Modifier MethodDeclaration SimpleName override protocol
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssl server socket
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName socket
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName socket
+server socket SimpleName SimpleType MethodDeclaration SimpleName override protocol
+server socket SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName socket
+override protocol SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssl server socket
+override protocol SimpleName MethodDeclaration SingleVariableDeclaration SimpleName socket
+override protocol SimpleName MethodDeclaration Block ReturnStatement SimpleName socket
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server socket
+public Modifier TypeDeclaration MethodDeclaration SimpleName override protocol
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server socket
+test SimpleName TypeDeclaration MethodDeclaration SimpleName override protocol
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket

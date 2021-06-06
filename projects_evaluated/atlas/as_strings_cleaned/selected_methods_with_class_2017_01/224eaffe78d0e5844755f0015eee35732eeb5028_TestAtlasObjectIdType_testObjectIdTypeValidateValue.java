@@ -1,0 +1,90 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+object id type SimpleName MethodInvocation SimpleName validate value
+object id type SimpleName MethodInvocation SimpleName value
+object id type SimpleName MethodInvocation StringLiteral test obj
+object id type SimpleName MethodInvocation SimpleName messages
+validate value SimpleName MethodInvocation SimpleName value
+validate value SimpleName MethodInvocation StringLiteral test obj
+validate value SimpleName MethodInvocation SimpleName messages
+value SimpleName MethodInvocation StringLiteral test obj
+value SimpleName MethodInvocation SimpleName messages
+test obj StringLiteral MethodInvocation SimpleName messages
+assert true SimpleName MethodInvocation MethodInvocation SimpleName object id type
+assert true SimpleName MethodInvocation MethodInvocation SimpleName validate value
+assert true SimpleName MethodInvocation MethodInvocation SimpleName value
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral test obj
+assert true SimpleName MethodInvocation MethodInvocation SimpleName messages
+messages SimpleName MethodInvocation SimpleName size
+value StringLiteral InfixExpression SimpleName value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName messages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral value
+assert equals SimpleName MethodInvocation InfixExpression SimpleName value
+messages SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+messages SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+messages SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value
+size SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+size SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral value
+empty NumberLiteral MethodInvocation InfixExpression SimpleName value
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName valid values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName valid values
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+object id type SimpleName MethodInvocation SimpleName validate value
+object id type SimpleName MethodInvocation SimpleName value
+object id type SimpleName MethodInvocation StringLiteral test obj
+object id type SimpleName MethodInvocation SimpleName messages
+validate value SimpleName MethodInvocation SimpleName value
+validate value SimpleName MethodInvocation StringLiteral test obj
+validate value SimpleName MethodInvocation SimpleName messages
+value SimpleName MethodInvocation StringLiteral test obj
+value SimpleName MethodInvocation SimpleName messages
+test obj StringLiteral MethodInvocation SimpleName messages
+assert false SimpleName MethodInvocation MethodInvocation SimpleName object id type
+assert false SimpleName MethodInvocation MethodInvocation SimpleName validate value
+assert false SimpleName MethodInvocation MethodInvocation SimpleName value
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral test obj
+assert false SimpleName MethodInvocation MethodInvocation SimpleName messages
+messages SimpleName MethodInvocation SimpleName size
+value StringLiteral InfixExpression SimpleName value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName messages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral value
+assert equals SimpleName MethodInvocation InfixExpression SimpleName value
+messages SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+messages SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+messages SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value
+size SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+size SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName value
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral value
+empty NumberLiteral MethodInvocation InfixExpression SimpleName value
+messages SimpleName MethodInvocation SimpleName clear
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid values
+valid values SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid values
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test object id type validate value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test object id type validate value
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName valid values
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName invalid values
+void PrimitiveType MethodDeclaration SimpleName test object id type validate value
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName valid values
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName invalid values
+test object id type validate value SimpleName MethodDeclaration Block EnhancedForStatement SimpleName valid values
+test object id type validate value SimpleName MethodDeclaration Block EnhancedForStatement SimpleName invalid values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test object id type validate value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test object id type validate value

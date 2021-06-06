@@ -1,0 +1,330 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+name SimpleName MethodInvocation SimpleName get method name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+folder SimpleName MethodInvocation SimpleName new folder
+folder SimpleName MethodInvocation StringLiteral import
+new folder SimpleName MethodInvocation StringLiteral import
+import dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName folder
+import dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName new folder
+import dir SimpleName VariableDeclarationFragment MethodInvocation StringLiteral import
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName import dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName import dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral evenrf
+import dir SimpleName ClassInstanceCreation StringLiteral evenrf
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+import dir SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+evenrf StringLiteral ClassInstanceCreation MethodInvocation SimpleName to string
+even SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName import dir
+even SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral evenrf
+even SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName even
+file SimpleName SimpleType ClassInstanceCreation SimpleName import dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral oddrf
+import dir SimpleName ClassInstanceCreation StringLiteral oddrf
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+import dir SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+oddrf StringLiteral ClassInstanceCreation MethodInvocation SimpleName to string
+odd SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName import dir
+odd SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral oddrf
+odd SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName odd
+folder SimpleName MethodInvocation SimpleName new folder
+folder SimpleName MethodInvocation StringLiteral errors
+new folder SimpleName MethodInvocation StringLiteral errors
+errors dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName folder
+errors dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName new folder
+errors dir SimpleName VariableDeclarationFragment MethodInvocation StringLiteral errors
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName errors dir
+errors dir SimpleName MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName errors dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName errors dir
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+mkdirs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+mkdirs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName errors dir
+mkdirs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+aconf SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+aconf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default configuration
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aconf
+file operations SimpleName MethodInvocation SimpleName get instance
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open writer
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open writer
+file operations SimpleName MethodInvocation MethodInvocation SimpleName even
+get instance SimpleName MethodInvocation MethodInvocation SimpleName even
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName aconf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName aconf
+open writer SimpleName MethodInvocation SimpleName even
+open writer SimpleName MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation SimpleName conf
+open writer SimpleName MethodInvocation SimpleName aconf
+even SimpleName MethodInvocation SimpleName fs
+even SimpleName MethodInvocation SimpleName conf
+even SimpleName MethodInvocation SimpleName aconf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName aconf
+conf SimpleName MethodInvocation SimpleName aconf
+even writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+even writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+even writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName open writer
+even writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName even
+even writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+even writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+even writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName aconf
+file skv writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName even writer
+even writer SimpleName MethodInvocation SimpleName start default locality group
+file operations SimpleName MethodInvocation SimpleName get instance
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open writer
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open writer
+file operations SimpleName MethodInvocation MethodInvocation SimpleName odd
+get instance SimpleName MethodInvocation MethodInvocation SimpleName odd
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName aconf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName aconf
+open writer SimpleName MethodInvocation SimpleName odd
+open writer SimpleName MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation SimpleName conf
+open writer SimpleName MethodInvocation SimpleName aconf
+odd SimpleName MethodInvocation SimpleName fs
+odd SimpleName MethodInvocation SimpleName conf
+odd SimpleName MethodInvocation SimpleName aconf
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName aconf
+conf SimpleName MethodInvocation SimpleName aconf
+odd writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+odd writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+odd writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName open writer
+odd writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName odd
+odd writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+odd writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+odd writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName aconf
+file skv writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName odd writer
+odd writer SimpleName MethodInvocation SimpleName start default locality group
+system SimpleName MethodInvocation SimpleName current time millis
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cf SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+cq SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cq
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+value StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral value
+value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName Assignment NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+key SimpleName SimpleType ClassInstanceCreation SimpleName cf
+key SimpleName SimpleType ClassInstanceCreation SimpleName cq
+key SimpleName SimpleType ClassInstanceCreation SimpleName ts
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName cf
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+i SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName cq
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+i SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName ts
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+i SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+cf SimpleName ClassInstanceCreation SimpleName cq
+cf SimpleName ClassInstanceCreation SimpleName ts
+cq SimpleName ClassInstanceCreation SimpleName ts
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cf
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cq
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ts
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+even writer SimpleName MethodInvocation SimpleName append
+even writer SimpleName MethodInvocation SimpleName key
+even writer SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation InfixExpression SimpleName i
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+% d StringLiteral MethodInvocation InfixExpression SimpleName i
+% d StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+key SimpleName SimpleType ClassInstanceCreation SimpleName cf
+key SimpleName SimpleType ClassInstanceCreation SimpleName cq
+key SimpleName SimpleType ClassInstanceCreation SimpleName ts
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName cf
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cf
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName cq
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName cq
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName ts
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName ts
+cf SimpleName ClassInstanceCreation SimpleName cq
+cf SimpleName ClassInstanceCreation SimpleName ts
+cq SimpleName ClassInstanceCreation SimpleName ts
+key SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName Assignment ClassInstanceCreation SimpleName cf
+key SimpleName Assignment ClassInstanceCreation SimpleName cq
+key SimpleName Assignment ClassInstanceCreation SimpleName ts
+odd writer SimpleName MethodInvocation SimpleName append
+odd writer SimpleName MethodInvocation SimpleName key
+odd writer SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+empty NumberLiteral InfixExpression ForStatement Assignment SimpleName i
+empty NumberLiteral InfixExpression ForStatement Assignment NumberLiteral empty
+even writer SimpleName MethodInvocation SimpleName close
+odd writer SimpleName MethodInvocation SimpleName close
+createtable StringLiteral InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral createtable
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+table SimpleName InfixExpression MethodInvocation BooleanLiteral true
+importdirectory StringLiteral InfixExpression SimpleName import dir
+importdirectory StringLiteral InfixExpression StringLiteral empty
+importdirectory StringLiteral InfixExpression SimpleName errors dir
+importdirectory StringLiteral InfixExpression StringLiteral true
+import dir SimpleName InfixExpression StringLiteral empty
+import dir SimpleName InfixExpression SimpleName errors dir
+import dir SimpleName InfixExpression StringLiteral true
+empty StringLiteral InfixExpression SimpleName errors dir
+empty StringLiteral InfixExpression StringLiteral true
+errors dir SimpleName InfixExpression StringLiteral true
+exec SimpleName MethodInvocation InfixExpression StringLiteral importdirectory
+exec SimpleName MethodInvocation InfixExpression SimpleName import dir
+exec SimpleName MethodInvocation InfixExpression StringLiteral empty
+exec SimpleName MethodInvocation InfixExpression SimpleName errors dir
+exec SimpleName MethodInvocation InfixExpression StringLiteral true
+exec SimpleName MethodInvocation BooleanLiteral true
+importdirectory StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+import dir SimpleName InfixExpression MethodInvocation BooleanLiteral true
+empty StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+errors dir SimpleName InfixExpression MethodInvocation BooleanLiteral true
+true StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral scan r
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral empty
+exec SimpleName MethodInvocation BooleanLiteral true
+scan r StringLiteral MethodInvocation BooleanLiteral true
+scan r StringLiteral MethodInvocation StringLiteral empty
+scan r StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral empty
+true BooleanLiteral MethodInvocation BooleanLiteral true
+empty StringLiteral MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral scan r
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral empty
+exec SimpleName MethodInvocation BooleanLiteral true
+scan r StringLiteral MethodInvocation BooleanLiteral true
+scan r StringLiteral MethodInvocation StringLiteral empty
+scan r StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral empty
+true BooleanLiteral MethodInvocation BooleanLiteral true
+empty StringLiteral MethodInvocation BooleanLiteral true
+deletetable f StringLiteral InfixExpression SimpleName table
+exec SimpleName MethodInvocation InfixExpression StringLiteral deletetable f
+exec SimpleName MethodInvocation InfixExpression SimpleName table
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName import directory
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName import directory
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName import directory
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import directory
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName import directory
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+import directory SimpleName MethodDeclaration SimpleType SimpleName exception
+import directory SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+import directory SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import directory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import directory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

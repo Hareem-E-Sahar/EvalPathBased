@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name to be deleted
+void PrimitiveType MethodDeclaration SimpleName delete trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+delete trait SimpleName MethodDeclaration SimpleType SimpleName repository exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+trait name to be deleted SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

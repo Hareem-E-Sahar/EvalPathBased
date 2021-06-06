@@ -1,0 +1,116 @@
+atlas repository configuration SimpleName MethodInvocation SimpleName reset excluded operations
+servlet request SimpleName MethodInvocation SimpleName get request url
+when SimpleName MethodInvocation MethodInvocation SimpleName servlet request
+when SimpleName MethodInvocation MethodInvocation SimpleName get request url
+string buffer SimpleName SimpleType ClassInstanceCreation StringLiteral apiatlastypes
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get request url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral apiatlastypes
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string buffer
+then return SimpleName MethodInvocation ClassInstanceCreation StringLiteral apiatlastypes
+servlet request SimpleName MethodInvocation SimpleName get method
+when SimpleName MethodInvocation MethodInvocation SimpleName servlet request
+when SimpleName MethodInvocation MethodInvocation SimpleName get method
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral get
+servlet request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral get
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral get
+then return SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName audit filter
+audit filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit filter
+audit filter SimpleName MethodInvocation SimpleName do filter
+audit filter SimpleName MethodInvocation SimpleName servlet request
+audit filter SimpleName MethodInvocation SimpleName servlet response
+audit filter SimpleName MethodInvocation SimpleName filter chain
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName servlet response
+do filter SimpleName MethodInvocation SimpleName filter chain
+servlet request SimpleName MethodInvocation SimpleName servlet response
+servlet request SimpleName MethodInvocation SimpleName filter chain
+servlet response SimpleName MethodInvocation SimpleName filter chain
+verify SimpleName MethodInvocation SimpleName filter chain
+verify SimpleName MethodInvocation MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation MethodInvocation SimpleName do filter
+verify SimpleName MethodInvocation MethodInvocation SimpleName servlet request
+filter chain SimpleName MethodInvocation MethodInvocation SimpleName servlet request
+verify SimpleName MethodInvocation MethodInvocation SimpleName servlet response
+filter chain SimpleName MethodInvocation MethodInvocation SimpleName servlet response
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName servlet response
+servlet request SimpleName MethodInvocation SimpleName servlet response
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral version
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral version
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral version
+get StringLiteral MethodInvocation SimpleName configuration
+version StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral version
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral ping
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral ping
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral ping
+get StringLiteral MethodInvocation SimpleName configuration
+ping StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral ping
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+audit filter SimpleName MethodInvocation SimpleName is operation excluded from audit
+audit filter SimpleName MethodInvocation StringLiteral get
+audit filter SimpleName MethodInvocation StringLiteral types
+audit filter SimpleName MethodInvocation SimpleName configuration
+is operation excluded from audit SimpleName MethodInvocation StringLiteral get
+is operation excluded from audit SimpleName MethodInvocation StringLiteral types
+is operation excluded from audit SimpleName MethodInvocation SimpleName configuration
+get StringLiteral MethodInvocation StringLiteral types
+get StringLiteral MethodInvocation SimpleName configuration
+types StringLiteral MethodInvocation SimpleName configuration
+assert false SimpleName MethodInvocation MethodInvocation SimpleName audit filter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is operation excluded from audit
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral get
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral types
+assert false SimpleName MethodInvocation MethodInvocation SimpleName configuration
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test audit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test audit
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+void PrimitiveType MethodDeclaration SimpleName test audit
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName servlet exception
+test audit SimpleName MethodDeclaration SimpleType SimpleName io exception
+test audit SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test audit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test audit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

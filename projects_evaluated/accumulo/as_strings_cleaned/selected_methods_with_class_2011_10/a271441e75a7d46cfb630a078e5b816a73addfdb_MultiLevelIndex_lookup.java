@@ -1,0 +1,34 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+node SimpleName SimpleType ClassInstanceCreation SimpleName root block
+node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName node
+node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root block
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName MethodInvocation SimpleName lookup
+node SimpleName MethodInvocation SimpleName key
+lookup SimpleName MethodInvocation SimpleName key
+index iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName node
+index iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lookup
+index iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName index iterator
+public Modifier MethodDeclaration SimpleName lookup
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+index iterator SimpleName SimpleType MethodDeclaration SimpleName lookup
+index iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+index iterator SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+lookup SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+lookup SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+lookup SimpleName MethodDeclaration SimpleType SimpleName io exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

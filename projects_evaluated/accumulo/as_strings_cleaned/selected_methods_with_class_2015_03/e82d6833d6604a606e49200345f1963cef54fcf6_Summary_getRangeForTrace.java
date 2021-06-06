@@ -1,0 +1,84 @@
+long PrimitiveType SingleVariableDeclaration SimpleName minutes since
+system SimpleName MethodInvocation SimpleName current time millis
+end time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+end time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+minutes since SimpleName InfixExpression NumberLiteral empty
+minutes since SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+millis since SimpleName VariableDeclarationFragment InfixExpression SimpleName minutes since
+millis since SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+millis since SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName millis since
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName minutes since
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+millis since SimpleName InfixExpression SimpleName minutes since
+millis since SimpleName Assignment SimpleName end time
+end time SimpleName InfixExpression SimpleName millis since
+start time SimpleName VariableDeclarationFragment InfixExpression SimpleName end time
+start time SimpleName VariableDeclarationFragment InfixExpression SimpleName millis since
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName end time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName millis since
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation SimpleName start time
+to hex string SimpleName MethodInvocation SimpleName start time
+start hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+start hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hex string
+start hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName start time
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation SimpleName end time
+to hex string SimpleName MethodInvocation SimpleName end time
+end hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+end hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName to hex string
+end hex time SimpleName VariableDeclarationFragment MethodInvocation SimpleName end time
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start hex time
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end hex time
+start hex time SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName end hex time
+start hex time SimpleName MethodInvocation SimpleName length
+end hex time SimpleName MethodInvocation SimpleName length
+start hex time SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName end hex time
+start hex time SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName end hex time
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty StringLiteral InfixExpression SimpleName start hex time
+start hex time SimpleName Assignment InfixExpression StringLiteral empty
+start hex time SimpleName Assignment InfixExpression SimpleName start hex time
+start StringLiteral InfixExpression SimpleName start hex time
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral start
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName start hex time
+start StringLiteral InfixExpression SimpleName end hex time
+text SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral start
+text SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName end hex time
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration SimpleType SimpleName range
+protected Modifier MethodDeclaration SimpleName get range for trace
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName minutes since
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+range SimpleName SimpleType MethodDeclaration SimpleName get range for trace
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName minutes since
+get range for trace SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get range for trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName minutes since
+get range for trace SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get range for trace SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get range for trace SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SimpleName get range for trace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minutes since
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get range for trace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minutes since

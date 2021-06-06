@@ -1,0 +1,194 @@
+final Modifier SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration SimpleName txid
+long PrimitiveType SingleVariableDeclaration SimpleName txid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable compact id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get instance id SimpleName MethodInvocation InfixExpression SimpleName table id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable compact id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable compact id
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable compact id
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable compact id
+table id SimpleName InfixExpression QualifiedName constantsztable compact id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression SimpleName table id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable compact id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z table path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName current value
+string SimpleName SimpleType ClassInstanceCreation SimpleName current value
+string SimpleName SimpleType ClassInstanceCreation QualifiedName constantsutf
+current value SimpleName ClassInstanceCreation QualifiedName constantsutf
+cvs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+cvs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current value
+cvs SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cvs
+cvs SimpleName MethodInvocation SimpleName split
+cvs SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName cvs
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+tokens SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName tokens
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+flush id SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tokens
+flush id SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation SimpleName txid
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation SimpleName txid
+% x StringLiteral MethodInvocation SimpleName txid
+txid string SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+txid string SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+txid string SimpleName VariableDeclarationFragment MethodInvocation StringLiteral % x
+txid string SimpleName VariableDeclarationFragment MethodInvocation SimpleName txid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txid string
+encoded iterators SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded iterators
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName tokenslength
+tokens SimpleName ArrayAccess SimpleName i
+tokens SimpleName ArrayAccess MethodInvocation SimpleName starts with
+i SimpleName ArrayAccess MethodInvocation SimpleName starts with
+tokens SimpleName ArrayAccess MethodInvocation SimpleName txid string
+i SimpleName ArrayAccess MethodInvocation SimpleName txid string
+starts with SimpleName MethodInvocation SimpleName txid string
+encoded iterators SimpleName MethodInvocation SimpleName append
+encoded iterators SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+tokens SimpleName ArrayAccess SimpleName i
+encoded iterators SimpleName MethodInvocation SimpleName append
+encoded iterators SimpleName MethodInvocation ArrayAccess SimpleName tokens
+encoded iterators SimpleName MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation ArrayAccess SimpleName tokens
+append SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName tokenslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+tokenslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName flush id
+to string SimpleName MethodInvocation SimpleName flush id
+long SimpleName MethodInvocation InfixExpression SimpleName encoded iterators
+to string SimpleName MethodInvocation InfixExpression SimpleName encoded iterators
+flush id SimpleName MethodInvocation InfixExpression SimpleName encoded iterators
+encoded iterators SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+encoded iterators SimpleName InfixExpression ParenthesizedExpression MethodInvocation QualifiedName constantsutf
+get bytes SimpleName MethodInvocation QualifiedName constantsutf
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName mutate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName current value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName mutate
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current value
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+byte PrimitiveType ArrayType MethodDeclaration SimpleName mutate
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName current value
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+mutate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current value
+mutate SimpleName MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+current value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+zoo SimpleName MethodInvocation SimpleName mutate
+zoo SimpleName MethodInvocation SimpleName z table path
+zoo SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+mutate SimpleName MethodInvocation SimpleName z table path
+mutate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+z table path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName remove iterators
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName txid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName remove iterators
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName txid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+remove iterators SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+remove iterators SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+remove iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txid
+remove iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+remove iterators SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+txid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+txid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove iterators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove iterators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

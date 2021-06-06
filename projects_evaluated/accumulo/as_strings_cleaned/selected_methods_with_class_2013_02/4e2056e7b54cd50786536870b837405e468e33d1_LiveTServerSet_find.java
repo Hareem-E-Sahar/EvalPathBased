@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+current SimpleName MethodInvocation SimpleName get
+current SimpleName MethodInvocation SimpleName server name
+get SimpleName MethodInvocation SimpleName server name
+server info SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+server info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+server info SimpleName VariableDeclarationFragment MethodInvocation SimpleName server name
+t server info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server info
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName t server instance
+public Modifier MethodDeclaration SimpleName find
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+synchronized Modifier MethodDeclaration SimpleType SimpleName t server instance
+synchronized Modifier MethodDeclaration SimpleName find
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+t server instance SimpleName SimpleType MethodDeclaration SimpleName find
+t server instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server name
+find SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName find
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name

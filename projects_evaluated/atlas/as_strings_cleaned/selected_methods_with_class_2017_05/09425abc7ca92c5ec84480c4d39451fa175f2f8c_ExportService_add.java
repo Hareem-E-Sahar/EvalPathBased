@@ -1,0 +1,28 @@
+t SimpleName SimpleType SingleVariableDeclaration SimpleName e
+set SimpleName MethodInvocation SimpleName contains
+set SimpleName MethodInvocation SimpleName e
+contains SimpleName MethodInvocation SimpleName e
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+set SimpleName MethodInvocation SimpleName add
+set SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

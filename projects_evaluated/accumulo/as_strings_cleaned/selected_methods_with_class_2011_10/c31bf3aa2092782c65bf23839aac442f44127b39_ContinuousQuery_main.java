@@ -1,0 +1,286 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+continuous query SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression MethodInvocation SimpleName get name
+usage : StringLiteral InfixExpression StringLiteral instance zoo keepers shard table doc word table user pass num query terms iterations
+get name SimpleName MethodInvocation InfixExpression StringLiteral instance zoo keepers shard table doc word table user pass num query terms iterations
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral usage :
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral instance zoo keepers shard table doc word table user pass num query terms iterations
+println SimpleName MethodInvocation InfixExpression StringLiteral usage :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral instance zoo keepers shard table doc word table user pass num query terms iterations
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+instance SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+instance SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+args SimpleName ArrayAccess NumberLiteral empty
+zoo keepers SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+zoo keepers SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo keepers
+args SimpleName ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+args SimpleName ArrayAccess NumberLiteral empty
+doc table SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+doc table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc table
+args SimpleName ArrayAccess NumberLiteral empty
+user SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+user SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+args SimpleName ArrayAccess NumberLiteral empty
+pass SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+pass SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pass
+args SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName args
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName args
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+num terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+num terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+num terms SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName args
+num terms SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num terms
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+iterations SimpleName VariableDeclarationFragment QualifiedName longmax value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName iterations
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName longmax value
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName args
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName args
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+iterations SimpleName Assignment MethodInvocation SimpleName long
+iterations SimpleName Assignment MethodInvocation SimpleName parse long
+iterations SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+iterations SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName instance
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation SimpleName zoo keepers
+instance SimpleName ClassInstanceCreation SimpleName zoo keepers
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName zoo keepers
+zoo keeper instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zki
+pass SimpleName MethodInvocation SimpleName get bytes
+zki SimpleName MethodInvocation SimpleName get connector
+zki SimpleName MethodInvocation SimpleName user
+zki SimpleName MethodInvocation MethodInvocation SimpleName pass
+zki SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName pass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation MethodInvocation SimpleName pass
+user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName zki
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pass
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName doc table
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation SimpleName doc table
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+doc table SimpleName MethodInvocation QualifiedName constantsno auths
+find random terms SimpleName MethodInvocation MethodInvocation SimpleName conn
+find random terms SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+find random terms SimpleName MethodInvocation MethodInvocation SimpleName doc table
+find random terms SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+find random terms SimpleName MethodInvocation SimpleName num terms
+conn SimpleName MethodInvocation MethodInvocation SimpleName num terms
+create scanner SimpleName MethodInvocation MethodInvocation SimpleName num terms
+doc table SimpleName MethodInvocation MethodInvocation SimpleName num terms
+constantsno auths QualifiedName MethodInvocation MethodInvocation SimpleName num terms
+rand terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName find random terms
+rand terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn
+rand terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create scanner
+rand terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName doc table
+rand terms SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsno auths
+rand terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName num terms
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName iterations
+i SimpleName Assignment NumberLiteral empty
+rand terms SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName rand terms
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName rand terms
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+rand terms SimpleName MethodInvocation SimpleName get
+rand terms SimpleName MethodInvocation MethodInvocation SimpleName rand
+rand terms SimpleName MethodInvocation MethodInvocation SimpleName next int
+rand terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand terms
+rand terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rand terms
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName rand terms
+columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation SimpleName table
+create batch scanner SimpleName MethodInvocation QualifiedName constantsno auths
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation QualifiedName constantsno auths
+table SimpleName MethodInvocation NumberLiteral empty
+constantsno auths QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+bs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+bs SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral ii
+empty NumberLiteral ClassInstanceCreation StringLiteral ii
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName intersecting iterator
+ii StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName intersecting iterator
+ii SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+ii SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+ii SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral ii
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ii
+intersecting iterator SimpleName MethodInvocation SimpleName set column families
+intersecting iterator SimpleName MethodInvocation SimpleName ii
+intersecting iterator SimpleName MethodInvocation SimpleName columns
+set column families SimpleName MethodInvocation SimpleName ii
+set column families SimpleName MethodInvocation SimpleName columns
+ii SimpleName MethodInvocation SimpleName columns
+bs SimpleName MethodInvocation SimpleName add scan iterator
+bs SimpleName MethodInvocation SimpleName ii
+add scan iterator SimpleName MethodInvocation SimpleName ii
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName bs
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName bs
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bs
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName columns
+as list SimpleName MethodInvocation SimpleName columns
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral s d % . f
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName arrays
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName as list
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName columns
+systemout QualifiedName MethodInvocation SimpleName count
+systemout QualifiedName MethodInvocation InfixExpression NumberLiteral .
+printf SimpleName MethodInvocation StringLiteral s d % . f
+printf SimpleName MethodInvocation MethodInvocation SimpleName arrays
+printf SimpleName MethodInvocation MethodInvocation SimpleName as list
+printf SimpleName MethodInvocation MethodInvocation SimpleName columns
+printf SimpleName MethodInvocation SimpleName count
+printf SimpleName MethodInvocation InfixExpression NumberLiteral .
+s d % . f StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+s d % . f StringLiteral MethodInvocation MethodInvocation SimpleName as list
+s d % . f StringLiteral MethodInvocation MethodInvocation SimpleName columns
+s d % . f StringLiteral MethodInvocation SimpleName count
+s d % . f StringLiteral MethodInvocation InfixExpression NumberLiteral .
+arrays SimpleName MethodInvocation MethodInvocation SimpleName count
+as list SimpleName MethodInvocation MethodInvocation SimpleName count
+columns SimpleName MethodInvocation MethodInvocation SimpleName count
+arrays SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+as list SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+columns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+count SimpleName MethodInvocation InfixExpression NumberLiteral .
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName bs
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName bs
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+bs SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName iterations
+long PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+long PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+iterations SimpleName InfixExpression ForStatement Assignment SimpleName i
+iterations SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

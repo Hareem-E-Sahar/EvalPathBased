@@ -1,0 +1,180 @@
+conn SimpleName MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+server conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server configuration factory
+server conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName conn
+server conf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server conf
+replication table SimpleName MethodInvocation SimpleName is online
+replication table SimpleName MethodInvocation SimpleName conn
+is online SimpleName MethodInvocation SimpleName conn
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral replication table is not yet online
+info SimpleName MethodInvocation StringLiteral replication table is not yet online
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral replication work maker
+start SimpleName MethodInvocation StringLiteral replication work maker
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral replication work maker
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+final Modifier VariableDeclarationStatement SimpleType SimpleName scanner
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+replication table SimpleName MethodInvocation SimpleName get scanner
+replication table SimpleName MethodInvocation SimpleName conn
+get scanner SimpleName MethodInvocation SimpleName conn
+s SimpleName Assignment MethodInvocation SimpleName replication table
+s SimpleName Assignment MethodInvocation SimpleName get scanner
+s SimpleName Assignment MethodInvocation SimpleName conn
+replication table SimpleName MethodInvocation SimpleName get batch writer
+replication table SimpleName MethodInvocation SimpleName conn
+get batch writer SimpleName MethodInvocation SimpleName conn
+set batch writer SimpleName MethodInvocation MethodInvocation SimpleName replication table
+set batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer
+set batch writer SimpleName MethodInvocation MethodInvocation SimpleName conn
+replication table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral replication table was online but not anymore
+warn SimpleName MethodInvocation StringLiteral replication table was online but not anymore
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName s
+limit SimpleName MethodInvocation SimpleName s
+table configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table conf
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+file SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+replication schemastatus section QualifiedName MethodInvocation SimpleName get file
+replication schemastatus section QualifiedName MethodInvocation MethodInvocation SimpleName entry
+replication schemastatus section QualifiedName MethodInvocation MethodInvocation SimpleName get key
+replication schemastatus section QualifiedName MethodInvocation SimpleName file
+get file SimpleName MethodInvocation MethodInvocation SimpleName entry
+get file SimpleName MethodInvocation MethodInvocation SimpleName get key
+get file SimpleName MethodInvocation SimpleName file
+entry SimpleName MethodInvocation MethodInvocation SimpleName file
+get key SimpleName MethodInvocation MethodInvocation SimpleName file
+entry SimpleName MethodInvocation SimpleName get key
+replication schemastatus section QualifiedName MethodInvocation SimpleName get table id
+replication schemastatus section QualifiedName MethodInvocation MethodInvocation SimpleName entry
+replication schemastatus section QualifiedName MethodInvocation MethodInvocation SimpleName get key
+replication schemastatus section QualifiedName MethodInvocation SimpleName table id
+get table id SimpleName MethodInvocation MethodInvocation SimpleName entry
+get table id SimpleName MethodInvocation MethodInvocation SimpleName get key
+get table id SimpleName MethodInvocation SimpleName table id
+entry SimpleName MethodInvocation MethodInvocation SimpleName table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName table id
+processing replication status record for StringLiteral InfixExpression SimpleName file
+processing replication status record for StringLiteral InfixExpression StringLiteral on table
+processing replication status record for StringLiteral InfixExpression SimpleName table id
+file SimpleName InfixExpression StringLiteral on table
+file SimpleName InfixExpression SimpleName table id
+on table StringLiteral InfixExpression SimpleName table id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral processing replication status record for
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral on table
+log SimpleName MethodInvocation InfixExpression SimpleName table id
+info SimpleName MethodInvocation InfixExpression StringLiteral processing replication status record for
+info SimpleName MethodInvocation InfixExpression SimpleName file
+info SimpleName MethodInvocation InfixExpression StringLiteral on table
+info SimpleName MethodInvocation InfixExpression SimpleName table id
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName Assignment MethodInvocation SimpleName status
+status SimpleName Assignment MethodInvocation SimpleName parse from
+status SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+invalid protocol buffer exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not parse protobuf for {} from table {}
+log SimpleName MethodInvocation SimpleName file
+log SimpleName MethodInvocation SimpleName table id
+error SimpleName MethodInvocation StringLiteral could not parse protobuf for {} from table {}
+error SimpleName MethodInvocation SimpleName file
+error SimpleName MethodInvocation SimpleName table id
+could not parse protobuf for {} from table {} StringLiteral MethodInvocation SimpleName file
+could not parse protobuf for {} from table {} StringLiteral MethodInvocation SimpleName table id
+file SimpleName MethodInvocation SimpleName table id
+should create work SimpleName MethodInvocation SimpleName status
+table id SimpleName MethodInvocation SimpleName to string
+server conf SimpleName MethodInvocation SimpleName get table configuration
+server conf SimpleName MethodInvocation MethodInvocation SimpleName table id
+server conf SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName table id
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName to string
+table conf SimpleName Assignment MethodInvocation SimpleName server conf
+table conf SimpleName Assignment MethodInvocation SimpleName get table configuration
+table conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName table id
+table conf SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get replication targets SimpleName MethodInvocation SimpleName table conf
+replication targets SimpleName VariableDeclarationFragment MethodInvocation SimpleName get replication targets
+replication targets SimpleName VariableDeclarationFragment MethodInvocation SimpleName table conf
+replication targets SimpleName MethodInvocation SimpleName is empty
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral create work mutations
+start SimpleName MethodInvocation StringLiteral create work mutations
+work span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+work span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+work span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral create work mutations
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work span
+entry SimpleName MethodInvocation SimpleName get value
+table id SimpleName MethodInvocation SimpleName to string
+add work record SimpleName MethodInvocation SimpleName file
+add work record SimpleName MethodInvocation MethodInvocation SimpleName entry
+add work record SimpleName MethodInvocation MethodInvocation SimpleName get value
+add work record SimpleName MethodInvocation SimpleName replication targets
+add work record SimpleName MethodInvocation MethodInvocation SimpleName table id
+add work record SimpleName MethodInvocation MethodInvocation SimpleName to string
+file SimpleName MethodInvocation MethodInvocation SimpleName entry
+file SimpleName MethodInvocation MethodInvocation SimpleName get value
+file SimpleName MethodInvocation SimpleName replication targets
+file SimpleName MethodInvocation MethodInvocation SimpleName table id
+file SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation MethodInvocation SimpleName replication targets
+get value SimpleName MethodInvocation MethodInvocation SimpleName replication targets
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+replication targets SimpleName MethodInvocation MethodInvocation SimpleName table id
+replication targets SimpleName MethodInvocation MethodInvocation SimpleName to string
+work span SimpleName MethodInvocation SimpleName stop
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral no configured targets for table with id {}
+log SimpleName MethodInvocation SimpleName table id
+warn SimpleName MethodInvocation StringLiteral no configured targets for table with id {}
+warn SimpleName MethodInvocation SimpleName table id
+no configured targets for table with id {} StringLiteral MethodInvocation SimpleName table id
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName s
+span SimpleName MethodInvocation SimpleName stop
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

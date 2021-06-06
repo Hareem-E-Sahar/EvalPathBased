@@ -1,0 +1,33 @@
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+instance SimpleName MethodInvocation SimpleName get instance id
+credential helper SimpleName MethodInvocation SimpleName create squelch error
+credential helper SimpleName MethodInvocation SimpleName principal
+credential helper SimpleName MethodInvocation SimpleName token
+credential helper SimpleName MethodInvocation MethodInvocation SimpleName instance
+credential helper SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+create squelch error SimpleName MethodInvocation SimpleName principal
+create squelch error SimpleName MethodInvocation SimpleName token
+create squelch error SimpleName MethodInvocation MethodInvocation SimpleName instance
+create squelch error SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation MethodInvocation SimpleName instance
+principal SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+token SimpleName MethodInvocation MethodInvocation SimpleName instance
+token SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+public Modifier MethodDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SimpleName to thrift
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+t credentials SimpleName SimpleType MethodDeclaration SimpleName to thrift
+t credentials SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+to thrift SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+to thrift SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

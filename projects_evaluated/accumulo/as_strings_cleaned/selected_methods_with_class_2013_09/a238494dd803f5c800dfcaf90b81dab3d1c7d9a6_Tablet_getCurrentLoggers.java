@@ -1,0 +1,72 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName remote logger
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName log entry
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+log entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName remote logger
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName remote logger
+log entry SimpleName SimpleType SingleVariableDeclaration SimpleName log entry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log
+log SimpleName MethodInvocation SimpleName split
+log SimpleName MethodInvocation StringLiteral /
+log SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation NumberLiteral empty
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName log
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+parts SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+remote logger SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName parts
+remote logger SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+remote logger SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName parts
+remote logger SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+parts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName parts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remote logger
+result SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName parts
+result SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+result SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName parts
+result SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remote logger
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName parts
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName parts
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+log SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+log entry SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entries
+log entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+entries SimpleName EnhancedForStatement Block EnhancedForStatement QualifiedName log entrylog set
+entries SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName remote logger
+private Modifier MethodDeclaration SimpleName get current loggers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName entries
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName remote logger
+static Modifier MethodDeclaration SimpleName get current loggers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName entries
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current loggers
+remote logger SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get current loggers
+get current loggers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+get current loggers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entries
+get current loggers SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current loggers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current loggers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries

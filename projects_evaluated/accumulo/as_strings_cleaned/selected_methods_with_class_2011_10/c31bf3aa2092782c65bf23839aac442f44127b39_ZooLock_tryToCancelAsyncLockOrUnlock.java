@@ -1,0 +1,55 @@
+del SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName del
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName async lock
+/ StringLiteral InfixExpression SimpleName async lock
+zoo keeper SimpleName MethodInvocation SimpleName recursive delete
+zoo keeper SimpleName MethodInvocation InfixExpression SimpleName path
+zoo keeper SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo keeper SimpleName MethodInvocation InfixExpression SimpleName async lock
+zoo keeper SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName path
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName async lock
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+path SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+async lock SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+del SimpleName Assignment BooleanLiteral true
+del SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName del
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName try to cancel async lock or unlock
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName try to cancel async lock or unlock
+synchronized Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName keeper exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName del
+boolean PrimitiveType MethodDeclaration SimpleName try to cancel async lock or unlock
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName del
+try to cancel async lock or unlock SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+try to cancel async lock or unlock SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+try to cancel async lock or unlock SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+try to cancel async lock or unlock SimpleName MethodDeclaration Block ReturnStatement SimpleName del
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName try to cancel async lock or unlock
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName try to cancel async lock or unlock
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception

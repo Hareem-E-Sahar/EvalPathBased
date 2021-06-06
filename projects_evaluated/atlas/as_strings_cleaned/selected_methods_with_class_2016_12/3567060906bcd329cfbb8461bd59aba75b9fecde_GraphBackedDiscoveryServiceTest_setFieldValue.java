@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+field values SimpleName MethodInvocation SimpleName put
+field values SimpleName MethodInvocation SimpleName string
+field values SimpleName MethodInvocation SimpleName object
+put SimpleName MethodInvocation SimpleName string
+put SimpleName MethodInvocation SimpleName object
+string SimpleName MethodInvocation SimpleName object
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set field value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+void PrimitiveType MethodDeclaration SimpleName set field value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set field value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+string SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set field value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set field value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object

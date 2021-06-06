@@ -1,0 +1,35 @@
+token SimpleName VariableDeclarationFragment SimpleName at
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+token SimpleName Assignment ClassInstanceCreation SimpleType SimpleName kerberos token
+get scanner SimpleName MethodInvocation SimpleName table
+get scanner SimpleName MethodInvocation SimpleName principal
+get scanner SimpleName MethodInvocation SimpleName token
+get scanner SimpleName MethodInvocation SimpleName sb
+table SimpleName MethodInvocation SimpleName principal
+table SimpleName MethodInvocation SimpleName token
+table SimpleName MethodInvocation SimpleName sb
+principal SimpleName MethodInvocation SimpleName token
+principal SimpleName MethodInvocation SimpleName sb
+token SimpleName MethodInvocation SimpleName sb
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scanner
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName scanner
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+scanner SimpleName SimpleType MethodDeclaration SimpleName run
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

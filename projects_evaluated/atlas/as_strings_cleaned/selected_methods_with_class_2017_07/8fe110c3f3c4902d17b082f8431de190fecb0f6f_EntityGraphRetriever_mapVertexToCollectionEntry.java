@@ -1,0 +1,148 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName array element
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+boolean PrimitiveType SingleVariableDeclaration SimpleName is owned attribute
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+array element SimpleName MethodInvocation SimpleName get type category
+ret SimpleName Assignment SimpleName value
+atlas edge SimpleName SimpleType CastExpression SimpleName value
+map vertex to struct SimpleName MethodInvocation SimpleName entity vertex
+map vertex to struct SimpleName MethodInvocation SimpleName edge label
+map vertex to struct SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+map vertex to struct SimpleName MethodInvocation CastExpression SimpleName value
+map vertex to struct SimpleName MethodInvocation SimpleName entity ext info
+entity vertex SimpleName MethodInvocation SimpleName edge label
+entity vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+entity vertex SimpleName MethodInvocation CastExpression SimpleName value
+entity vertex SimpleName MethodInvocation SimpleName entity ext info
+edge label SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+edge label SimpleName MethodInvocation CastExpression SimpleName value
+edge label SimpleName MethodInvocation SimpleName entity ext info
+atlas edge SimpleName SimpleType CastExpression MethodInvocation SimpleName entity ext info
+value SimpleName CastExpression MethodInvocation SimpleName entity ext info
+ret SimpleName Assignment MethodInvocation SimpleName map vertex to struct
+ret SimpleName Assignment MethodInvocation SimpleName entity vertex
+ret SimpleName Assignment MethodInvocation SimpleName edge label
+ret SimpleName Assignment MethodInvocation CastExpression SimpleName value
+ret SimpleName Assignment MethodInvocation SimpleName entity ext info
+atlas edge SimpleName SimpleType CastExpression SimpleName value
+map vertex to object id SimpleName MethodInvocation SimpleName entity vertex
+map vertex to object id SimpleName MethodInvocation SimpleName edge label
+map vertex to object id SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+map vertex to object id SimpleName MethodInvocation CastExpression SimpleName value
+map vertex to object id SimpleName MethodInvocation SimpleName entity ext info
+map vertex to object id SimpleName MethodInvocation SimpleName is owned attribute
+entity vertex SimpleName MethodInvocation SimpleName edge label
+entity vertex SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+entity vertex SimpleName MethodInvocation CastExpression SimpleName value
+entity vertex SimpleName MethodInvocation SimpleName entity ext info
+entity vertex SimpleName MethodInvocation SimpleName is owned attribute
+edge label SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas edge
+edge label SimpleName MethodInvocation CastExpression SimpleName value
+edge label SimpleName MethodInvocation SimpleName entity ext info
+edge label SimpleName MethodInvocation SimpleName is owned attribute
+atlas edge SimpleName SimpleType CastExpression MethodInvocation SimpleName entity ext info
+value SimpleName CastExpression MethodInvocation SimpleName entity ext info
+atlas edge SimpleName SimpleType CastExpression MethodInvocation SimpleName is owned attribute
+value SimpleName CastExpression MethodInvocation SimpleName is owned attribute
+entity ext info SimpleName MethodInvocation SimpleName is owned attribute
+ret SimpleName Assignment MethodInvocation SimpleName map vertex to object id
+ret SimpleName Assignment MethodInvocation SimpleName entity vertex
+ret SimpleName Assignment MethodInvocation SimpleName edge label
+ret SimpleName Assignment MethodInvocation CastExpression SimpleName value
+ret SimpleName Assignment MethodInvocation SimpleName entity ext info
+ret SimpleName Assignment MethodInvocation SimpleName is owned attribute
+array element SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+array element SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+array element SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName classification
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName classification
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName classification
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+classification SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+classification SimpleName SwitchCase SwitchStatement SwitchCase SimpleName object id type
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName object id type
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName map vertex to collection entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName array element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+object SimpleName SimpleType MethodDeclaration SimpleName map vertex to collection entry
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName array element
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName array element
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+map vertex to collection entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName array element
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+array element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+array element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+array element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+array element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+array element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+array element SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+is owned attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName map vertex to collection entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName array element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map vertex to collection entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName array element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is owned attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

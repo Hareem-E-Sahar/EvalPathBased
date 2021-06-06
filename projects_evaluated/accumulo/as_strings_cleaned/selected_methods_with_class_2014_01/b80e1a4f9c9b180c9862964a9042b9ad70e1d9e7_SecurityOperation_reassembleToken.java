@@ -1,0 +1,52 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName to auth
+to auth SimpleName MethodInvocation SimpleName get token class name
+token class SimpleName VariableDeclarationFragment MethodInvocation SimpleName to auth
+token class SimpleName VariableDeclarationFragment MethodInvocation SimpleName get token class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token class
+authenticator SimpleName MethodInvocation SimpleName valid token class
+authenticator SimpleName MethodInvocation SimpleName token class
+valid token class SimpleName MethodInvocation SimpleName token class
+to auth SimpleName MethodInvocation SimpleName get token class name
+to auth SimpleName MethodInvocation SimpleName get token
+authentication token serializer SimpleName MethodInvocation SimpleName deserialize
+authentication token serializer SimpleName MethodInvocation MethodInvocation SimpleName to auth
+authentication token serializer SimpleName MethodInvocation MethodInvocation SimpleName get token class name
+authentication token serializer SimpleName MethodInvocation MethodInvocation SimpleName to auth
+authentication token serializer SimpleName MethodInvocation MethodInvocation SimpleName get token
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName to auth
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName get token class name
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName to auth
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName get token
+to auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to auth
+to auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get token class name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to auth
+get token class name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+to auth SimpleName MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to auth
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeinvalid token
+to auth SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeinvalid token
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codeinvalid token
+private Modifier MethodDeclaration SimpleType SimpleName authentication token
+private Modifier MethodDeclaration SimpleName reassemble token
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to auth
+private Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+authentication token SimpleName SimpleType MethodDeclaration SimpleName reassemble token
+authentication token SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to auth
+authentication token SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+reassemble token SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+reassemble token SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to auth
+reassemble token SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+to auth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+public Modifier TypeDeclaration MethodDeclaration SimpleName reassemble token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reassemble token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

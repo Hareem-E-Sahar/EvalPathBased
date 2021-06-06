@@ -1,0 +1,12 @@
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get instance name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName instance name
+string SimpleName SimpleType MethodDeclaration SimpleName get instance name
+get instance name SimpleName MethodDeclaration Block ReturnStatement SimpleName instance name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance name

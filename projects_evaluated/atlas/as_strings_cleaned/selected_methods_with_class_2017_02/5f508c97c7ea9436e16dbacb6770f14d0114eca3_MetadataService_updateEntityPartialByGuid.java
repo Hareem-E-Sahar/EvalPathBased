@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+create update entities result SimpleName SimpleType MethodDeclaration SimpleName update entity partial by guid
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+create update entities result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+create update entities result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update entity partial by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity partial by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update entity partial by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+update entity partial by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+update entity partial by guid SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity partial by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create update entities result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity partial by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

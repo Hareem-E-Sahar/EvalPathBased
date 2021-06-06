@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+element position SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element position
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+guid SimpleName MethodInvocation SimpleName equals
+guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity history store SimpleName MethodInvocation SimpleName remove
+entity history store SimpleName MethodInvocation SimpleName element position
+remove SimpleName MethodInvocation SimpleName element position
+entity store SimpleName MethodInvocation SimpleName put
+entity store SimpleName MethodInvocation SimpleName guid
+entity store SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation SimpleName guid
+put SimpleName MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation SimpleName entity
+entity detail SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity history store
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity history store
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName entity history store
+protected Modifier MethodDeclaration SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SimpleName retrieve previous version of entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity detail SimpleName SimpleType MethodDeclaration SimpleName retrieve previous version of entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+retrieve previous version of entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+retrieve previous version of entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName retrieve previous version of entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retrieve previous version of entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

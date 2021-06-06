@@ -1,0 +1,149 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName table opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName table opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+table opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName table opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName table opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+table name SimpleName Assignment MethodInvocation SimpleName cl
+table name SimpleName Assignment MethodInvocation SimpleName get option value
+table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName table opt
+table name SimpleName Assignment MethodInvocation MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+shell state SimpleName MethodInvocation SimpleName check table state
+shell state SimpleName MethodInvocation SimpleName get table name
+table name SimpleName Assignment MethodInvocation SimpleName shell state
+table name SimpleName Assignment MethodInvocation SimpleName get table name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+cl SimpleName MethodInvocation SimpleName get args
+arg SimpleName MethodInvocation SimpleName split
+arg SimpleName MethodInvocation StringLiteral =
+arg SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral =
+split SimpleName MethodInvocation NumberLiteral empty
+= StringLiteral MethodInvocation NumberLiteral empty
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName arg
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+sa SimpleName VariableDeclarationFragment MethodInvocation StringLiteral =
+sa SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+salength QualifiedName InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral missing =
+sa SimpleName ArrayAccess NumberLiteral empty
+group SimpleName VariableDeclarationFragment ArrayAccess SimpleName sa
+group SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+string SimpleName SimpleType SingleVariableDeclaration SimpleName family
+sa SimpleName ArrayAccess NumberLiteral empty
+sa SimpleName ArrayAccess MethodInvocation SimpleName split
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName split
+sa SimpleName ArrayAccess MethodInvocation StringLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+text SimpleName SimpleType ClassInstanceCreation SimpleName family
+col fams SimpleName MethodInvocation SimpleName add
+col fams SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+col fams SimpleName MethodInvocation ClassInstanceCreation SimpleName family
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName family
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+groups SimpleName MethodInvocation SimpleName put
+groups SimpleName MethodInvocation SimpleName group
+groups SimpleName MethodInvocation SimpleName col fams
+put SimpleName MethodInvocation SimpleName group
+put SimpleName MethodInvocation SimpleName col fams
+group SimpleName MethodInvocation SimpleName col fams
+arg SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName cl
+arg SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get args
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set locality groups
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set locality groups
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set locality groups
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName groups
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName groups
+table operations SimpleName MethodInvocation MethodInvocation SimpleName groups
+set locality groups SimpleName MethodInvocation SimpleName table name
+set locality groups SimpleName MethodInvocation SimpleName groups
+table name SimpleName MethodInvocation SimpleName groups
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName full command
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleName execute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full command
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full command
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+full command SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+full command SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

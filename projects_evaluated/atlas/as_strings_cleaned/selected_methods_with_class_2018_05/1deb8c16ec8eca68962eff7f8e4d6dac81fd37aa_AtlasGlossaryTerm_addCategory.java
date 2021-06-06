@@ -1,0 +1,32 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas term categorization header
+final Modifier SingleVariableDeclaration SimpleName category
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration SimpleName category
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+categories SimpleName VariableDeclarationFragment FieldAccess SimpleName categories
+categories SimpleName MethodInvocation SimpleName add
+categories SimpleName MethodInvocation SimpleName category
+add SimpleName MethodInvocation SimpleName category
+set categories SimpleName MethodInvocation SimpleName categories
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add category
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas term categorization header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+void PrimitiveType MethodDeclaration SimpleName add category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas term categorization header
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName category
+add category SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas term categorization header
+add category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category

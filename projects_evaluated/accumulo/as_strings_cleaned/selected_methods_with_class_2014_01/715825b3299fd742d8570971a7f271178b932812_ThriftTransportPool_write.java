@@ -1,0 +1,30 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName arg
+wrapped transport SimpleName MethodInvocation SimpleName write
+wrapped transport SimpleName MethodInvocation SimpleName arg
+write SimpleName MethodInvocation SimpleName arg
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName tte
+saw error SimpleName MethodInvocation SimpleName tte
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName t transport exception
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName arg
+void PrimitiveType MethodDeclaration SimpleType SimpleName t transport exception
+write SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+write SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

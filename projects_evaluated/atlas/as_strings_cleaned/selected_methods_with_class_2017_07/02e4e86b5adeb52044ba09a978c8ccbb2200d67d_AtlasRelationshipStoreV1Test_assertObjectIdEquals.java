@@ -1,0 +1,44 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName obj id
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName equals
+obj id SimpleName MethodInvocation SimpleName obj id
+equals SimpleName MethodInvocation SimpleName obj id
+assert true SimpleName MethodInvocation MethodInvocation SimpleName obj id
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName obj id
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert object id equals
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert object id equals
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+void PrimitiveType MethodDeclaration SimpleName assert object id equals
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj id
+assert object id equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+assert object id equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj id
+assert object id equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+assert object id equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj id
+obj id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert object id equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert object id equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id

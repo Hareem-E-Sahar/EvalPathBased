@@ -1,0 +1,22 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get application entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get application entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get runtime for process relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get runtime for process relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get application server classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get application server classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get webserver classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get webserver classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add applications and processes
+void PrimitiveType MethodDeclaration SimpleName add applications and processes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add applications and processes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add applications and processes

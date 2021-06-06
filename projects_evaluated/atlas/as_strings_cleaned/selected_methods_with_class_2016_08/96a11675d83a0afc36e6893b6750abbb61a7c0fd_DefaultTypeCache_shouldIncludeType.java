@@ -1,0 +1,100 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+type filter SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter map
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName type filter
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type filter SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+type filter SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName filter entry
+filter map SimpleName MethodInvocation SimpleName entry set
+filter entry SimpleName MethodInvocation SimpleName get key
+filter entry SimpleName MethodInvocation SimpleName get value
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation MethodInvocation SimpleName name
+filter entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+filter entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type category
+equals SimpleName MethodInvocation MethodInvocation SimpleName name
+type SimpleName MethodInvocation SimpleName get type category
+valid supertype filter categories SimpleName MethodInvocation SimpleName contains
+valid supertype filter categories SimpleName MethodInvocation MethodInvocation SimpleName type
+valid supertype filter categories SimpleName MethodInvocation MethodInvocation SimpleName get type category
+contains SimpleName MethodInvocation MethodInvocation SimpleName type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type category
+hierarchical type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all super type names
+filter entry SimpleName MethodInvocation SimpleName get value
+get all super type names SimpleName MethodInvocation MethodInvocation SimpleName contains
+get all super type names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter entry
+get all super type names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+contains SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+contains SimpleName MethodInvocation MethodInvocation SimpleName get value
+type SimpleName MethodInvocation SimpleName get type category
+valid supertype filter categories SimpleName MethodInvocation SimpleName contains
+valid supertype filter categories SimpleName MethodInvocation MethodInvocation SimpleName type
+valid supertype filter categories SimpleName MethodInvocation MethodInvocation SimpleName get type category
+contains SimpleName MethodInvocation MethodInvocation SimpleName type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation SimpleName get name
+filter entry SimpleName MethodInvocation SimpleName get value
+type SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter entry
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter entry
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+equals SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+hierarchical type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all super type names
+filter entry SimpleName MethodInvocation SimpleName get value
+get all super type names SimpleName MethodInvocation MethodInvocation SimpleName contains
+get all super type names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter entry
+get all super type names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+contains SimpleName MethodInvocation MethodInvocation SimpleName filter entry
+contains SimpleName MethodInvocation MethodInvocation SimpleName get value
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+filter entry SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName category
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName category
+filter entry SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName supertype
+get key SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName supertype
+category SimpleName SwitchCase SwitchStatement SwitchCase SimpleName supertype
+supertype SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not supertype
+filter entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName filter map
+filter entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName should include type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter map
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName should include type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter map
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+should include type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+should include type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+should include type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter map
+should include type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName should include type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should include type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map

@@ -1,0 +1,31 @@
+table manager SimpleName MethodInvocation SimpleName get instance
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName table manager
+manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+table manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+tables SimpleName MethodInvocation SimpleName get id to name map
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName key set
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName key set
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+manager SimpleName MethodInvocation SimpleName get table state
+manager SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName table id
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+table stateoffline QualifiedName InfixExpression SimpleName state
+clear migrations SimpleName MethodInvocation SimpleName table id
+table id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName cleanup offline migrations
+void PrimitiveType MethodDeclaration SimpleName cleanup offline migrations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleanup offline migrations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleanup offline migrations

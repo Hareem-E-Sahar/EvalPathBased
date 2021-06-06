@@ -1,0 +1,77 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+map SimpleName SimpleType SingleVariableDeclaration SimpleName param
+atlas type util SimpleName MethodInvocation SimpleName create list required attr def
+atlas type util SimpleName MethodInvocation SimpleName name
+atlas type util SimpleName MethodInvocation SimpleName data type
+create list required attr def SimpleName MethodInvocation SimpleName name
+create list required attr def SimpleName MethodInvocation SimpleName data type
+name SimpleName MethodInvocation SimpleName data type
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName create list required attr def
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName data type
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas struct defatlas constraint def QualifiedName SimpleType ClassInstanceCreation SimpleName type
+atlas struct defatlas constraint def QualifiedName SimpleType ClassInstanceCreation SimpleName param
+type SimpleName ClassInstanceCreation SimpleName param
+ret SimpleName MethodInvocation SimpleName add constraint
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName atlas struct defatlas constraint def
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName param
+add constraint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName atlas struct defatlas constraint def
+add constraint SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+add constraint SimpleName MethodInvocation ClassInstanceCreation SimpleName param
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SimpleName create required list attr def with constraint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+static Modifier MethodDeclaration SimpleName create required list attr def with constraint
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName create required list attr def with constraint
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName param
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+create required list attr def with constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param
+create required list attr def with constraint SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName create required list attr def with constraint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create required list attr def with constraint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param

@@ -1,0 +1,71 @@
+user pass SimpleName SimpleType SingleVariableDeclaration SimpleName userpass
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new table name
+get connector SimpleName MethodInvocation SimpleName userpass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+userpass SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rename
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table name
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName old table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table name
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName new table name
+rename SimpleName MethodInvocation SimpleName old table name
+rename SimpleName MethodInvocation SimpleName new table name
+old table name SimpleName MethodInvocation SimpleName new table name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+translate exception SimpleName MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName rename table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName userpass
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName old table name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName rename table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new table name
+void PrimitiveType MethodDeclaration SimpleName rename table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName userpass
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName userpass
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old table name
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new table name
+rename table SimpleName MethodDeclaration SimpleType SimpleName t exception
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+old table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+old table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

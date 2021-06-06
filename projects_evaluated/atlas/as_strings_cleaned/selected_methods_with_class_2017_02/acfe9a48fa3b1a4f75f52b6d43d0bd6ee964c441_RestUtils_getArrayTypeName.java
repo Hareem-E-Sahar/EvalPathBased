@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+is array type SimpleName MethodInvocation SimpleName attr type
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas type util SimpleName MethodInvocation SimpleName get referenced type names
+atlas type util SimpleName MethodInvocation SimpleName attr type
+get referenced type names SimpleName MethodInvocation SimpleName attr type
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced type names
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr type
+type names SimpleName MethodInvocation SimpleName size
+type names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+type names SimpleName MethodInvocation SimpleName iterator
+type names SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName type names
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName iterator
+ret SimpleName Assignment MethodInvocation SimpleName next
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get array type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr type
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get array type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr type
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get array type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr type
+get array type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get array type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr type
+get array type name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get array type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get array type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type

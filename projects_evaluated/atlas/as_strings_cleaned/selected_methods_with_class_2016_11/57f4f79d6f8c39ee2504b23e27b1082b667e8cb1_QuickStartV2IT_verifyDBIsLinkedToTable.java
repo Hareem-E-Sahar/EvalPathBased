@@ -1,0 +1,68 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+get db SimpleName MethodInvocation QualifiedName quick start v sales db
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db
+db SimpleName VariableDeclarationFragment MethodInvocation QualifiedName quick start v sales db
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+table SimpleName MethodInvocation SimpleName get attributes
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+table attributes SimpleName MethodInvocation SimpleName get
+table attributes SimpleName MethodInvocation StringLiteral db
+get SimpleName MethodInvocation StringLiteral db
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName table attributes
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral db
+db from table SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+db from table SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table attributes
+db from table SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+db from table SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral db
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db from table
+db SimpleName MethodInvocation SimpleName get guid
+db from table SimpleName MethodInvocation SimpleName get
+db from table SimpleName MethodInvocation StringLiteral guid
+get SimpleName MethodInvocation StringLiteral guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName db
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName db from table
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral guid
+db SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db from table
+db SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+db SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db from table
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral guid
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify db is linked to table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName verify db is linked to table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+verify db is linked to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify db is linked to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify db is linked to table SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+verify db is linked to table SimpleName MethodDeclaration SimpleType SimpleName json exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify db is linked to table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify db is linked to table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

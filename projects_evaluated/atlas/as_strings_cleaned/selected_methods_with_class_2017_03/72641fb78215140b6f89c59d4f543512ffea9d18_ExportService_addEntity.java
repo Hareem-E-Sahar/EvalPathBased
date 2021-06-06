@@ -1,0 +1,79 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+contextsink QualifiedName MethodInvocation SimpleName add
+contextsink QualifiedName MethodInvocation SimpleName entity
+add SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral entitys
+string SimpleName MethodInvocation MethodInvocation SimpleName entity
+string SimpleName MethodInvocation MethodInvocation SimpleName get type name
+format SimpleName MethodInvocation StringLiteral entitys
+format SimpleName MethodInvocation MethodInvocation SimpleName entity
+format SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entitys StringLiteral MethodInvocation MethodInvocation SimpleName entity
+entitys StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+contextresult QualifiedName MethodInvocation SimpleName increment metics counter
+contextresult QualifiedName MethodInvocation MethodInvocation SimpleName string
+contextresult QualifiedName MethodInvocation MethodInvocation SimpleName format
+contextresult QualifiedName MethodInvocation MethodInvocation StringLiteral entitys
+contextresult QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+contextresult QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+increment metics counter SimpleName MethodInvocation MethodInvocation SimpleName string
+increment metics counter SimpleName MethodInvocation MethodInvocation SimpleName format
+increment metics counter SimpleName MethodInvocation MethodInvocation StringLiteral entitys
+increment metics counter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+increment metics counter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+contextresult QualifiedName MethodInvocation SimpleName increment metics counter
+contextresult QualifiedName MethodInvocation StringLiteral entities
+increment metics counter SimpleName MethodInvocation StringLiteral entities
+contextguids processed QualifiedName MethodInvocation SimpleName size
+contextguids processed QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+contextguids processed QualifiedName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+contextguids processed QualifiedName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral export in progress number of entities exported {}
+log SimpleName MethodInvocation MethodInvocation QualifiedName contextguids processed
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+info SimpleName MethodInvocation StringLiteral export in progress number of entities exported {}
+info SimpleName MethodInvocation MethodInvocation QualifiedName contextguids processed
+info SimpleName MethodInvocation MethodInvocation SimpleName size
+export in progress number of entities exported {} StringLiteral MethodInvocation MethodInvocation QualifiedName contextguids processed
+export in progress number of entities exported {} StringLiteral MethodInvocation MethodInvocation SimpleName size
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName add entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+add entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

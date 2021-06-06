@@ -1,0 +1,55 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName the graph
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName the graph
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName the graph
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+the graph SimpleName MethodInvocation SimpleName add vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName the graph
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+new vertices SimpleName MethodInvocation SimpleName add
+new vertices SimpleName MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation SimpleName vertex
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration TypeParameter SimpleName v
+protected Modifier MethodDeclaration TypeParameter SimpleName e
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+protected Modifier MethodDeclaration SimpleName create vertex
+final Modifier MethodDeclaration TypeParameter SimpleName v
+final Modifier MethodDeclaration TypeParameter SimpleName e
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+final Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+final Modifier MethodDeclaration SimpleName create vertex
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName the graph
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration SimpleName create vertex
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName the graph
+e SimpleName TypeParameter MethodDeclaration SimpleName create vertex
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName the graph
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create vertex
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create vertex
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create vertex
+create vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName the graph
+create vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName create vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName the graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName the graph

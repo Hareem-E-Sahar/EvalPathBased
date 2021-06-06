@@ -1,0 +1,141 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName field schema
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName field schemas
+field schema SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName field schemas
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+table id SimpleName MethodInvocation SimpleName get guid
+is known table SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table id
+is known table SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get guid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is known table
+column position SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName column position
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName field schema
+get qualified name SimpleName MethodInvocation SimpleName table
+get qualified name SimpleName MethodInvocation SimpleName field schema
+table SimpleName MethodInvocation SimpleName field schema
+col qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified name
+col qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+col qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName field schema
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col qualified name
+context SimpleName MethodInvocation SimpleName get entity
+context SimpleName MethodInvocation SimpleName col qualified name
+get entity SimpleName MethodInvocation SimpleName col qualified name
+column SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+column SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+column SimpleName VariableDeclarationFragment MethodInvocation SimpleName col qualified name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName hive type column
+column SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity
+column SimpleName Assignment ClassInstanceCreation SimpleName hive type column
+column SimpleName MethodInvocation SimpleName set guid
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute table
+column SimpleName MethodInvocation SimpleName table id
+set attribute SimpleName MethodInvocation SimpleName attribute table
+set attribute SimpleName MethodInvocation SimpleName table id
+attribute table SimpleName MethodInvocation SimpleName table id
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute qualified name
+column SimpleName MethodInvocation SimpleName col qualified name
+set attribute SimpleName MethodInvocation SimpleName attribute qualified name
+set attribute SimpleName MethodInvocation SimpleName col qualified name
+attribute qualified name SimpleName MethodInvocation SimpleName col qualified name
+field schema SimpleName MethodInvocation SimpleName get name
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute name
+column SimpleName MethodInvocation MethodInvocation SimpleName field schema
+column SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName field schema
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName field schema
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName get name
+table SimpleName MethodInvocation SimpleName get owner
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute owner
+column SimpleName MethodInvocation MethodInvocation SimpleName table
+column SimpleName MethodInvocation MethodInvocation SimpleName get owner
+set attribute SimpleName MethodInvocation SimpleName attribute owner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName table
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get owner
+attribute owner SimpleName MethodInvocation MethodInvocation SimpleName table
+attribute owner SimpleName MethodInvocation MethodInvocation SimpleName get owner
+field schema SimpleName MethodInvocation SimpleName get type
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute col type
+column SimpleName MethodInvocation MethodInvocation SimpleName field schema
+column SimpleName MethodInvocation MethodInvocation SimpleName get type
+set attribute SimpleName MethodInvocation SimpleName attribute col type
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName field schema
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get type
+attribute col type SimpleName MethodInvocation MethodInvocation SimpleName field schema
+attribute col type SimpleName MethodInvocation MethodInvocation SimpleName get type
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute col position
+column SimpleName MethodInvocation PostfixExpression SimpleName column position
+set attribute SimpleName MethodInvocation SimpleName attribute col position
+set attribute SimpleName MethodInvocation PostfixExpression SimpleName column position
+attribute col position SimpleName MethodInvocation PostfixExpression SimpleName column position
+field schema SimpleName MethodInvocation SimpleName get comment
+column SimpleName MethodInvocation SimpleName set attribute
+column SimpleName MethodInvocation SimpleName attribute comment
+column SimpleName MethodInvocation MethodInvocation SimpleName field schema
+column SimpleName MethodInvocation MethodInvocation SimpleName get comment
+set attribute SimpleName MethodInvocation SimpleName attribute comment
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName field schema
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get comment
+attribute comment SimpleName MethodInvocation MethodInvocation SimpleName field schema
+attribute comment SimpleName MethodInvocation MethodInvocation SimpleName get comment
+context SimpleName MethodInvocation SimpleName put entity
+context SimpleName MethodInvocation SimpleName col qualified name
+context SimpleName MethodInvocation SimpleName column
+put entity SimpleName MethodInvocation SimpleName col qualified name
+put entity SimpleName MethodInvocation SimpleName column
+col qualified name SimpleName MethodInvocation SimpleName column
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName column
+add SimpleName MethodInvocation SimpleName column
+field schema SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName field schemas
+field schema SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName field schemas
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName field schemas
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName field schemas
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+field schemas SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SimpleName get column entities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName field schemas
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get column entities
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get column entities
+get column entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+get column entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get column entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+get column entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+get column entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field schemas
+get column entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get column entities SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get column entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName field schemas
+get column entities SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field schemas
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field schemas
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field schemas
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field schemas

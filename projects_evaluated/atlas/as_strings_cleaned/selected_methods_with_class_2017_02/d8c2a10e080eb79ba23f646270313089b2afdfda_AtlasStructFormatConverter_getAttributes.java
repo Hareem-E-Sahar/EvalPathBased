@@ -1,0 +1,40 @@
+collection SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+collection SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categorystruct
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclassification
+type categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName type categoryclassification
+struct type SimpleName MethodInvocation SimpleName get type category
+struct type SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryentity
+struct type SimpleName MethodInvocation SimpleName get all attributes
+struct type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName struct type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get all attributes
+ret SimpleName Assignment MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName empty list
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+private Modifier MethodDeclaration SimpleName get attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+atlas struct typeatlas attribute QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get attributes
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+get attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+get attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type

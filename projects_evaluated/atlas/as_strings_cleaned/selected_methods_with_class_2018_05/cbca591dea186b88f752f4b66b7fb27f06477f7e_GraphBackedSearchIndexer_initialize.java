@@ -1,0 +1,500 @@
+atlas graph SimpleName SimpleType SingleVariableDeclaration SimpleName graph
+graph SimpleName MethodInvocation SimpleName get management system
+management SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+management SimpleName VariableDeclarationFragment MethodInvocation SimpleName get management system
+atlas graph management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName management
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral creating indexes for graph
+info SimpleName MethodInvocation StringLiteral creating indexes for graph
+management SimpleName MethodInvocation SimpleName get graph index
+management SimpleName MethodInvocation SimpleName vertex index
+get graph index SimpleName MethodInvocation SimpleName vertex index
+collections SimpleName MethodInvocation SimpleName empty list
+management SimpleName MethodInvocation SimpleName create vertex mixed index
+management SimpleName MethodInvocation SimpleName vertex index
+management SimpleName MethodInvocation SimpleName backing index
+management SimpleName MethodInvocation MethodInvocation SimpleName collections
+management SimpleName MethodInvocation MethodInvocation SimpleName empty list
+create vertex mixed index SimpleName MethodInvocation SimpleName vertex index
+create vertex mixed index SimpleName MethodInvocation SimpleName backing index
+create vertex mixed index SimpleName MethodInvocation MethodInvocation SimpleName collections
+create vertex mixed index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+vertex index SimpleName MethodInvocation SimpleName backing index
+vertex index SimpleName MethodInvocation MethodInvocation SimpleName collections
+vertex index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+backing index SimpleName MethodInvocation MethodInvocation SimpleName collections
+backing index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral created index : {}
+log SimpleName MethodInvocation SimpleName vertex index
+info SimpleName MethodInvocation StringLiteral created index : {}
+info SimpleName MethodInvocation SimpleName vertex index
+created index : {} StringLiteral MethodInvocation SimpleName vertex index
+management SimpleName MethodInvocation SimpleName get graph index
+management SimpleName MethodInvocation SimpleName edge index
+get graph index SimpleName MethodInvocation SimpleName edge index
+collections SimpleName MethodInvocation SimpleName empty list
+management SimpleName MethodInvocation SimpleName create edge mixed index
+management SimpleName MethodInvocation SimpleName edge index
+management SimpleName MethodInvocation SimpleName backing index
+management SimpleName MethodInvocation MethodInvocation SimpleName collections
+management SimpleName MethodInvocation MethodInvocation SimpleName empty list
+create edge mixed index SimpleName MethodInvocation SimpleName edge index
+create edge mixed index SimpleName MethodInvocation SimpleName backing index
+create edge mixed index SimpleName MethodInvocation MethodInvocation SimpleName collections
+create edge mixed index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+edge index SimpleName MethodInvocation SimpleName backing index
+edge index SimpleName MethodInvocation MethodInvocation SimpleName collections
+edge index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+backing index SimpleName MethodInvocation MethodInvocation SimpleName collections
+backing index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral created index : {}
+log SimpleName MethodInvocation SimpleName edge index
+info SimpleName MethodInvocation StringLiteral created index : {}
+info SimpleName MethodInvocation SimpleName edge index
+created index : {} StringLiteral MethodInvocation SimpleName edge index
+management SimpleName MethodInvocation SimpleName get graph index
+management SimpleName MethodInvocation SimpleName fulltext index
+get graph index SimpleName MethodInvocation SimpleName fulltext index
+collections SimpleName MethodInvocation SimpleName empty list
+management SimpleName MethodInvocation SimpleName create full text mixed index
+management SimpleName MethodInvocation SimpleName fulltext index
+management SimpleName MethodInvocation SimpleName backing index
+management SimpleName MethodInvocation MethodInvocation SimpleName collections
+management SimpleName MethodInvocation MethodInvocation SimpleName empty list
+create full text mixed index SimpleName MethodInvocation SimpleName fulltext index
+create full text mixed index SimpleName MethodInvocation SimpleName backing index
+create full text mixed index SimpleName MethodInvocation MethodInvocation SimpleName collections
+create full text mixed index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+fulltext index SimpleName MethodInvocation SimpleName backing index
+fulltext index SimpleName MethodInvocation MethodInvocation SimpleName collections
+fulltext index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+backing index SimpleName MethodInvocation MethodInvocation SimpleName collections
+backing index SimpleName MethodInvocation MethodInvocation SimpleName empty list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral created index : {}
+log SimpleName MethodInvocation SimpleName fulltext index
+info SimpleName MethodInvocation StringLiteral created index : {}
+info SimpleName MethodInvocation SimpleName fulltext index
+created index : {} StringLiteral MethodInvocation SimpleName fulltext index
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName guid property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName guid property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+guid property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+guid property key SimpleName MethodInvocation BooleanLiteral true
+guid property key SimpleName MethodInvocation SimpleName single
+guid property key SimpleName MethodInvocation BooleanLiteral true
+guid property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation SimpleName single
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName timestamp property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName timestamp property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral false
+timestamp property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+timestamp property key SimpleName MethodInvocation BooleanLiteral false
+timestamp property key SimpleName MethodInvocation SimpleName single
+timestamp property key SimpleName MethodInvocation BooleanLiteral false
+timestamp property key SimpleName MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName modification timestamp property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName modification timestamp property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral false
+modification timestamp property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+modification timestamp property key SimpleName MethodInvocation BooleanLiteral false
+modification timestamp property key SimpleName MethodInvocation SimpleName single
+modification timestamp property key SimpleName MethodInvocation BooleanLiteral false
+modification timestamp property key SimpleName MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName state property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName state property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral false
+state property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+state property key SimpleName MethodInvocation BooleanLiteral false
+state property key SimpleName MethodInvocation SimpleName single
+state property key SimpleName MethodInvocation BooleanLiteral false
+state property key SimpleName MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName created by key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName created by key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+created by key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+created by key SimpleName MethodInvocation BooleanLiteral false
+created by key SimpleName MethodInvocation SimpleName single
+created by key SimpleName MethodInvocation BooleanLiteral true
+created by key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName modified by key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName modified by key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+modified by key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+modified by key SimpleName MethodInvocation BooleanLiteral false
+modified by key SimpleName MethodInvocation SimpleName single
+modified by key SimpleName MethodInvocation BooleanLiteral true
+modified by key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName entity type property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName entity type property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+entity type property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+entity type property key SimpleName MethodInvocation BooleanLiteral false
+entity type property key SimpleName MethodInvocation SimpleName single
+entity type property key SimpleName MethodInvocation BooleanLiteral true
+entity type property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName super types property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName set
+management SimpleName MethodInvocation SimpleName super types property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName set
+management SimpleName MethodInvocation BooleanLiteral true
+super types property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+super types property key SimpleName MethodInvocation BooleanLiteral false
+super types property key SimpleName MethodInvocation SimpleName set
+super types property key SimpleName MethodInvocation BooleanLiteral true
+super types property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName set
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName set
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName trait names property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName set
+management SimpleName MethodInvocation SimpleName trait names property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName set
+management SimpleName MethodInvocation BooleanLiteral true
+trait names property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+trait names property key SimpleName MethodInvocation BooleanLiteral false
+trait names property key SimpleName MethodInvocation SimpleName set
+trait names property key SimpleName MethodInvocation BooleanLiteral true
+trait names property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName set
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName set
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName propagated trait names property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName list
+management SimpleName MethodInvocation SimpleName propagated trait names property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName list
+management SimpleName MethodInvocation BooleanLiteral true
+propagated trait names property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+propagated trait names property key SimpleName MethodInvocation BooleanLiteral false
+propagated trait names property key SimpleName MethodInvocation SimpleName list
+propagated trait names property key SimpleName MethodInvocation BooleanLiteral true
+propagated trait names property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName list
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName list
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+list SimpleName MethodInvocation BooleanLiteral true
+list SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName typename property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName typename property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral true
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+typename property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+typename property key SimpleName MethodInvocation BooleanLiteral true
+typename property key SimpleName MethodInvocation SimpleName single
+typename property key SimpleName MethodInvocation BooleanLiteral true
+typename property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation SimpleName single
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName vertex type property key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName vertex type property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+vertex type property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex type property key SimpleName MethodInvocation BooleanLiteral false
+vertex type property key SimpleName MethodInvocation SimpleName single
+vertex type property key SimpleName MethodInvocation BooleanLiteral true
+vertex type property key SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName classification entity guid
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName classification entity guid
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+classification entity guid SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification entity guid SimpleName MethodInvocation BooleanLiteral false
+classification entity guid SimpleName MethodInvocation SimpleName single
+classification entity guid SimpleName MethodInvocation BooleanLiteral true
+classification entity guid SimpleName MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName vertex id in import key
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+create vertex index SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName vertex id in import key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+management SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation BooleanLiteral true
+vertex id in import key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long
+vertex id in import key SimpleName MethodInvocation BooleanLiteral false
+vertex id in import key SimpleName MethodInvocation SimpleName single
+vertex id in import key SimpleName MethodInvocation BooleanLiteral true
+vertex id in import key SimpleName MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+long SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral true
+long SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation SimpleName single
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral false
+single SimpleName MethodInvocation BooleanLiteral true
+single SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+create vertex centric index SimpleName MethodInvocation SimpleName management
+create vertex centric index SimpleName MethodInvocation SimpleName classification label
+create vertex centric index SimpleName MethodInvocation QualifiedName atlas edge directionboth
+create vertex centric index SimpleName MethodInvocation SimpleName classification edge name property key
+create vertex centric index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation SimpleName classification label
+management SimpleName MethodInvocation QualifiedName atlas edge directionboth
+management SimpleName MethodInvocation SimpleName classification edge name property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation SimpleName single
+classification label SimpleName MethodInvocation QualifiedName atlas edge directionboth
+classification label SimpleName MethodInvocation SimpleName classification edge name property key
+classification label SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification label SimpleName MethodInvocation SimpleName single
+atlas edge directionboth QualifiedName MethodInvocation SimpleName classification edge name property key
+atlas edge directionboth QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+atlas edge directionboth QualifiedName MethodInvocation SimpleName single
+classification edge name property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification edge name property key SimpleName MethodInvocation SimpleName single
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+create vertex centric index SimpleName MethodInvocation SimpleName management
+create vertex centric index SimpleName MethodInvocation SimpleName classification label
+create vertex centric index SimpleName MethodInvocation QualifiedName atlas edge directionboth
+create vertex centric index SimpleName MethodInvocation SimpleName classification edge is propagated property key
+create vertex centric index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+management SimpleName MethodInvocation SimpleName classification label
+management SimpleName MethodInvocation QualifiedName atlas edge directionboth
+management SimpleName MethodInvocation SimpleName classification edge is propagated property key
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+management SimpleName MethodInvocation SimpleName single
+classification label SimpleName MethodInvocation QualifiedName atlas edge directionboth
+classification label SimpleName MethodInvocation SimpleName classification edge is propagated property key
+classification label SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+classification label SimpleName MethodInvocation SimpleName single
+atlas edge directionboth QualifiedName MethodInvocation SimpleName classification edge is propagated property key
+atlas edge directionboth QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+atlas edge directionboth QualifiedName MethodInvocation SimpleName single
+classification edge is propagated property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName boolean
+classification edge is propagated property key SimpleName MethodInvocation SimpleName single
+boolean SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName classification edge name property key
+arrays SimpleName MethodInvocation SimpleName classification edge is propagated property key
+as list SimpleName MethodInvocation SimpleName classification edge name property key
+as list SimpleName MethodInvocation SimpleName classification edge is propagated property key
+classification edge name property key SimpleName MethodInvocation SimpleName classification edge is propagated property key
+create vertex centric index SimpleName MethodInvocation SimpleName management
+create vertex centric index SimpleName MethodInvocation SimpleName classification label
+create vertex centric index SimpleName MethodInvocation QualifiedName atlas edge directionboth
+create vertex centric index SimpleName MethodInvocation MethodInvocation SimpleName arrays
+create vertex centric index SimpleName MethodInvocation MethodInvocation SimpleName as list
+create vertex centric index SimpleName MethodInvocation MethodInvocation SimpleName classification edge name property key
+create vertex centric index SimpleName MethodInvocation MethodInvocation SimpleName classification edge is propagated property key
+management SimpleName MethodInvocation SimpleName classification label
+management SimpleName MethodInvocation QualifiedName atlas edge directionboth
+management SimpleName MethodInvocation MethodInvocation SimpleName arrays
+management SimpleName MethodInvocation MethodInvocation SimpleName as list
+management SimpleName MethodInvocation MethodInvocation SimpleName classification edge name property key
+management SimpleName MethodInvocation MethodInvocation SimpleName classification edge is propagated property key
+classification label SimpleName MethodInvocation QualifiedName atlas edge directionboth
+classification label SimpleName MethodInvocation MethodInvocation SimpleName arrays
+classification label SimpleName MethodInvocation MethodInvocation SimpleName as list
+classification label SimpleName MethodInvocation MethodInvocation SimpleName classification edge name property key
+classification label SimpleName MethodInvocation MethodInvocation SimpleName classification edge is propagated property key
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName arrays
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName as list
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName classification edge name property key
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName classification edge is propagated property key
+create edge index SimpleName MethodInvocation SimpleName management
+create edge index SimpleName MethodInvocation SimpleName relationship guid property key

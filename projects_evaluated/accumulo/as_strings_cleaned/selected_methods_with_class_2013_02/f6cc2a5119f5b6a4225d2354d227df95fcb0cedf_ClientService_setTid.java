@@ -1,0 +1,23 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+tid SimpleName FieldAccess Assignment SimpleName tid
+set tid is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName is active args
+public Modifier MethodDeclaration SimpleName set tid
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+is active args SimpleName SimpleType MethodDeclaration SimpleName set tid
+is active args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+is active args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tid
+set tid SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set tid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName is active args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName is active args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

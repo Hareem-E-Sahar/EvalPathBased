@@ -1,0 +1,24 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName memory iterator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName memory iterator
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName memory iterator
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+memory iterator SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+to return SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+mem table SimpleName MethodInvocation SimpleName skv iterator
+to return SimpleName MethodInvocation SimpleName add
+to return SimpleName MethodInvocation MethodInvocation SimpleName mem table
+to return SimpleName MethodInvocation MethodInvocation SimpleName skv iterator
+add SimpleName MethodInvocation MethodInvocation SimpleName mem table
+add SimpleName MethodInvocation MethodInvocation SimpleName skv iterator
+other mem table SimpleName MethodInvocation SimpleName skv iterator
+to return SimpleName MethodInvocation SimpleName add
+to return SimpleName MethodInvocation MethodInvocation SimpleName other mem table
+to return SimpleName MethodInvocation MethodInvocation SimpleName skv iterator
+add SimpleName MethodInvocation MethodInvocation SimpleName other mem table
+add SimpleName MethodInvocation MethodInvocation SimpleName skv iterator
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+memory iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+get iterators SimpleName MethodDeclaration Block ReturnStatement SimpleName to return
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iterators
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iterators

@@ -1,0 +1,42 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+get adjacent edges by label SimpleName MethodInvocation SimpleName instance vertex
+get adjacent edges by label SimpleName MethodInvocation QualifiedName atlas edge directionin
+get adjacent edges by label SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation QualifiedName atlas edge directionin
+instance vertex SimpleName MethodInvocation SimpleName edge label
+atlas edge directionin QualifiedName MethodInvocation SimpleName edge label
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SimpleName get incoming edges by label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SimpleName get incoming edges by label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get incoming edges by label
+atlas edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get incoming edges by label
+get incoming edges by label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get incoming edges by label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+get incoming edges by label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get incoming edges by label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get incoming edges by label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get incoming edges by label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label

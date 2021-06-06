@@ -1,0 +1,19 @@
+tablet split SimpleName SimpleType SingleVariableDeclaration SimpleName split
+split SimpleName FieldAccess Assignment SimpleName split
+public Modifier MethodDeclaration SimpleType SimpleName report split extent args
+public Modifier MethodDeclaration SimpleName set split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName split
+report split extent args SimpleName SimpleType MethodDeclaration SimpleName set split
+report split extent args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName split
+set split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet split
+set split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName split
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName report split extent args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName report split extent args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split

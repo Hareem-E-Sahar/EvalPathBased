@@ -1,0 +1,38 @@
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator scope
+set SimpleName SimpleType ParameterizedType SimpleType QualifiedName orgapacheaccumuloproxythriftiterator scope
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scopes
+orgapacheaccumuloproxythriftiterator scope QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName scopes
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator scope
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+scopes SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+scopes SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+orgapacheaccumuloproxythriftiterator scope QualifiedName SimpleType SingleVariableDeclaration SimpleName scope
+get iterator scope SimpleName MethodInvocation SimpleName scope
+scopes SimpleName MethodInvocation SimpleName add
+scopes SimpleName MethodInvocation MethodInvocation SimpleName get iterator scope
+scopes SimpleName MethodInvocation MethodInvocation SimpleName scope
+add SimpleName MethodInvocation MethodInvocation SimpleName get iterator scope
+add SimpleName MethodInvocation MethodInvocation SimpleName scope
+orgapacheaccumuloproxythriftiterator scope QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName scopes
+scope SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scopes
+scopes SimpleName EnhancedForStatement Block ReturnStatement SimpleName scopes
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enum set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator scope
+private Modifier MethodDeclaration SimpleName get iterator scopes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scopes
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName scopes
+private Modifier MethodDeclaration Block ReturnStatement SimpleName scopes
+enum set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterator scopes
+iterator scope SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterator scopes
+get iterator scopes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scopes
+get iterator scopes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scopes
+get iterator scopes SimpleName MethodDeclaration Block ReturnStatement SimpleName scopes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iterator scopes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scopes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iterator scopes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scopes

@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName like
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName likes
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName like
+public Modifier MethodDeclaration SimpleName get likes
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get likes
+like SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get likes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get likes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get likes

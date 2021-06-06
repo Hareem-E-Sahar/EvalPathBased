@@ -1,0 +1,51 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName vertices
+is not empty SimpleName MethodInvocation SimpleName vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsentity type property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsentity type property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsentity type property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+entity type property SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+entity type property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+entity type property SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsentity type property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type property
+get type name SimpleName MethodInvocation SimpleName vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation MethodInvocation SimpleName vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation MethodInvocation SimpleName vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName vertices
+vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName vertices
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get type names
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertices
+get type names SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices

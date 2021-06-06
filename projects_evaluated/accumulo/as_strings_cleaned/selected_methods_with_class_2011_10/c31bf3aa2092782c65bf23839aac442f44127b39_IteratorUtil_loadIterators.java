@@ -1,0 +1,169 @@
+writable comparable SimpleName SimpleType ParameterizedType WildcardType ?
+k SimpleName TypeParameter ParameterizedType SimpleType SimpleName writable comparable
+k SimpleName TypeParameter ParameterizedType WildcardType ?
+v SimpleName TypeParameter SimpleType SimpleName writable
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+k SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+iter info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter opts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter opts
+iterator environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+prev SimpleName VariableDeclarationFragment SimpleName source
+iter info SimpleName SimpleType SingleVariableDeclaration SimpleName iter info
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation QualifiedName iter infoclass name
+accumulo class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sorted key value iterator
+load class SimpleName MethodInvocation QualifiedName iter infoclass name
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sorted key value iterator
+iter infoclass name QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName sorted key value iterator
+clazz SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName accumulo class loader
+clazz SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName iter infoclass name
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName k
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+k SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+clazz SimpleName MethodInvocation SimpleName new instance
+skvi SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+skvi SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iter opts SimpleName MethodInvocation SimpleName get
+iter opts SimpleName MethodInvocation QualifiedName iter infoiter name
+get SimpleName MethodInvocation QualifiedName iter infoiter name
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter opts
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+options SimpleName VariableDeclarationFragment MethodInvocation QualifiedName iter infoiter name
+collections SimpleName MethodInvocation SimpleName empty map
+options SimpleName Assignment MethodInvocation SimpleName collections
+options SimpleName Assignment MethodInvocation SimpleName empty map
+skvi SimpleName MethodInvocation SimpleName init
+skvi SimpleName MethodInvocation SimpleName prev
+skvi SimpleName MethodInvocation SimpleName options
+skvi SimpleName MethodInvocation SimpleName env
+init SimpleName MethodInvocation SimpleName prev
+init SimpleName MethodInvocation SimpleName options
+init SimpleName MethodInvocation SimpleName env
+prev SimpleName MethodInvocation SimpleName options
+prev SimpleName MethodInvocation SimpleName env
+options SimpleName MethodInvocation SimpleName env
+prev SimpleName Assignment SimpleName skvi
+iter info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName iters
+iter info SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iters
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+instantiation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName k
+public Modifier MethodDeclaration TypeParameter ParameterizedType WildcardType ?
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName writable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+public Modifier MethodDeclaration SimpleName load iterators
+static Modifier MethodDeclaration TypeParameter SimpleName k
+static Modifier MethodDeclaration TypeParameter ParameterizedType WildcardType ?
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName writable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName k
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+static Modifier MethodDeclaration SimpleName load iterators
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+k SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName v
+k SimpleName TypeParameter MethodDeclaration SimpleName load iterators
+? WildcardType ParameterizedType TypeParameter MethodDeclaration SimpleName load iterators
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName source
+k SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iters
+v SimpleName TypeParameter MethodDeclaration SimpleName load iterators
+writable SimpleName SimpleType TypeParameter MethodDeclaration SimpleName load iterators
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName source
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iters
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load iterators
+k SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load iterators
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load iterators
+load iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+load iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iters
+load iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+load iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+load iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+load iterators SimpleName MethodDeclaration SimpleType SimpleName io exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+iters SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+iters SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+iters SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+iter opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+iter opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleName load iterators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load iterators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

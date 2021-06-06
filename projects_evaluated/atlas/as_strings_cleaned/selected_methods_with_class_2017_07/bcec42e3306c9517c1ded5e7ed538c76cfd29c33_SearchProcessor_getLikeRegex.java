@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute value
+.* StringLiteral InfixExpression SimpleName attribute value
+.* StringLiteral InfixExpression StringLiteral .*
+attribute value SimpleName InfixExpression StringLiteral .*
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get like regex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute value
+string SimpleName SimpleType MethodDeclaration SimpleName get like regex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute value
+get like regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get like regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get like regex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get like regex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute value

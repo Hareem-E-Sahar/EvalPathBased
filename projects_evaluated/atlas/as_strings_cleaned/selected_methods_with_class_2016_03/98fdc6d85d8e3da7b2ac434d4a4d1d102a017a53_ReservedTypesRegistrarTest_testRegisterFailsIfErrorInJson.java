@@ -1,0 +1,43 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName reserved types registration exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+reserved types registrar SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName reserved types registrar
+reserved types registrar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reserved types registrar
+reserved types registrar SimpleName MethodInvocation SimpleName register type
+reserved types registrar SimpleName MethodInvocation SimpleName type system
+reserved types registrar SimpleName MethodInvocation SimpleName metadata service
+reserved types registrar SimpleName MethodInvocation StringLiteral somefilemodeljson
+reserved types registrar SimpleName MethodInvocation StringLiteral invalid json
+register type SimpleName MethodInvocation SimpleName type system
+register type SimpleName MethodInvocation SimpleName metadata service
+register type SimpleName MethodInvocation StringLiteral somefilemodeljson
+register type SimpleName MethodInvocation StringLiteral invalid json
+type system SimpleName MethodInvocation SimpleName metadata service
+type system SimpleName MethodInvocation StringLiteral somefilemodeljson
+type system SimpleName MethodInvocation StringLiteral invalid json
+metadata service SimpleName MethodInvocation StringLiteral somefilemodeljson
+metadata service SimpleName MethodInvocation StringLiteral invalid json
+somefilemodeljson StringLiteral MethodInvocation StringLiteral invalid json
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test register fails if error in json
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test register fails if error in json
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test register fails if error in json
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test register fails if error in json
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test register fails if error in json SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test register fails if error in json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test register fails if error in json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

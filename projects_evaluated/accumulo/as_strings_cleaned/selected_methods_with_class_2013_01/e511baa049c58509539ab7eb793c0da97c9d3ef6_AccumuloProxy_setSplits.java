@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName splits
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName splits
+splits SimpleName FieldAccess Assignment SimpleName splits
+public Modifier MethodDeclaration SimpleType SimpleName add splits args
+public Modifier MethodDeclaration SimpleName set splits
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName splits
+add splits args SimpleName SimpleType MethodDeclaration SimpleName set splits
+add splits args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName splits
+set splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName splits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName add splits args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName splits
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName add splits args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName splits

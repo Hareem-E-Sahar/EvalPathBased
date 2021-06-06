@@ -1,0 +1,104 @@
+garbage collection environment SimpleName SimpleType SingleVariableDeclaration SimpleName gce
+last candidate SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last candidate
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get candidates SimpleName MethodInvocation SimpleName gce
+get candidates SimpleName MethodInvocation SimpleName last candidate
+gce SimpleName MethodInvocation SimpleName last candidate
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get candidates
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName gce
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName last candidate
+candidates SimpleName MethodInvocation SimpleName size
+candidates SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+candidates SimpleName MethodInvocation SimpleName size
+candidates SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+candidates SimpleName MethodInvocation SimpleName get
+candidates SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName candidates
+candidates SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+candidates SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName candidates
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last candidate SimpleName Assignment MethodInvocation SimpleName candidates
+last candidate SimpleName Assignment MethodInvocation SimpleName get
+last candidate SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+candidates SimpleName MethodInvocation SimpleName size
+orig size SimpleName VariableDeclarationFragment MethodInvocation SimpleName candidates
+orig size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName candidates
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+gce SimpleName MethodInvocation SimpleName increment candidates stat
+gce SimpleName MethodInvocation SimpleName orig size
+increment candidates stat SimpleName MethodInvocation SimpleName orig size
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+make relative SimpleName MethodInvocation SimpleName candidates
+candidate map SimpleName VariableDeclarationFragment MethodInvocation SimpleName make relative
+candidate map SimpleName VariableDeclarationFragment MethodInvocation SimpleName candidates
+confirm deletes trace SimpleName MethodInvocation SimpleName gce
+confirm deletes trace SimpleName MethodInvocation SimpleName candidate map
+gce SimpleName MethodInvocation SimpleName candidate map
+candidate map SimpleName MethodInvocation SimpleName size
+orig size SimpleName InfixExpression MethodInvocation SimpleName candidate map
+orig size SimpleName InfixExpression MethodInvocation SimpleName size
+gce SimpleName MethodInvocation SimpleName increment in use stat
+gce SimpleName MethodInvocation InfixExpression SimpleName orig size
+gce SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName candidate map
+gce SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+increment in use stat SimpleName MethodInvocation InfixExpression SimpleName orig size
+increment in use stat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName candidate map
+increment in use stat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+delete confirmed SimpleName MethodInvocation SimpleName gce
+delete confirmed SimpleName MethodInvocation SimpleName candidate map
+gce SimpleName MethodInvocation SimpleName candidate map
+true BooleanLiteral WhileStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName collect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName gce
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleName collect
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gce
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+collect SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName garbage collection environment
+collect SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gce
+collect SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+collect SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+collect SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+collect SimpleName MethodDeclaration SimpleType SimpleName io exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+gce SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName collect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName collect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gce
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

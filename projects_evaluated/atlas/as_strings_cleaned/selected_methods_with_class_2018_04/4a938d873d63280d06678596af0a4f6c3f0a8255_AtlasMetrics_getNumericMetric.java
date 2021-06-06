@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get metric SimpleName MethodInvocation SimpleName group key
+get metric SimpleName MethodInvocation SimpleName key
+group key SimpleName MethodInvocation SimpleName key
+metric SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metric
+metric SimpleName VariableDeclarationFragment MethodInvocation SimpleName group key
+metric SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metric
+metric SimpleName InstanceofExpression SimpleType SimpleName number
+number SimpleName SimpleType CastExpression SimpleName metric
+metric SimpleName InstanceofExpression ConditionalExpression CastExpression SimpleName metric
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName number
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName get numeric metric
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName group key
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName number
+public Modifier MethodDeclaration SimpleName get numeric metric
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName group key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+number SimpleName SimpleType MethodDeclaration SimpleName get numeric metric
+number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName group key
+number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get numeric metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get numeric metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group key
+get numeric metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get numeric metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+group key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number
+public Modifier TypeDeclaration MethodDeclaration SimpleName get numeric metric
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get numeric metric
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

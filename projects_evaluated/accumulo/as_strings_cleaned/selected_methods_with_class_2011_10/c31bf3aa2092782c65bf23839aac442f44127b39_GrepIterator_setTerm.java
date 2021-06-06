@@ -1,0 +1,44 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+string SimpleName SimpleType SingleVariableDeclaration SimpleName term
+cfg SimpleName MethodInvocation SimpleName add option
+cfg SimpleName MethodInvocation StringLiteral term
+cfg SimpleName MethodInvocation SimpleName term
+add option SimpleName MethodInvocation StringLiteral term
+add option SimpleName MethodInvocation SimpleName term
+term StringLiteral MethodInvocation SimpleName term
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set term
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName term
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set term
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName term
+void PrimitiveType MethodDeclaration SimpleName set term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName term
+set term SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set term SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+set term SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set term SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term

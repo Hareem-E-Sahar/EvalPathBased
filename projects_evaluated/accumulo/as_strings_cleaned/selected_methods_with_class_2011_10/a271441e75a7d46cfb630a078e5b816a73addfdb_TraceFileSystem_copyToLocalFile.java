@@ -1,0 +1,99 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName del src
+path SimpleName SimpleType SingleVariableDeclaration SimpleName src
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dst
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral copy to local file
+start SimpleName MethodInvocation StringLiteral copy to local file
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral copy to local file
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+trace SimpleName MethodInvocation SimpleName is tracing
+src SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral src
+span SimpleName MethodInvocation MethodInvocation SimpleName src
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral src
+data SimpleName MethodInvocation MethodInvocation SimpleName src
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+src StringLiteral MethodInvocation MethodInvocation SimpleName src
+src StringLiteral MethodInvocation MethodInvocation SimpleName to string
+dst SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral dst
+span SimpleName MethodInvocation MethodInvocation SimpleName dst
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral dst
+data SimpleName MethodInvocation MethodInvocation SimpleName dst
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+dst StringLiteral MethodInvocation MethodInvocation SimpleName dst
+dst StringLiteral MethodInvocation MethodInvocation SimpleName to string
+impl SimpleName MethodInvocation SimpleName copy to local file
+impl SimpleName MethodInvocation SimpleName del src
+impl SimpleName MethodInvocation SimpleName src
+impl SimpleName MethodInvocation SimpleName dst
+copy to local file SimpleName MethodInvocation SimpleName del src
+copy to local file SimpleName MethodInvocation SimpleName src
+copy to local file SimpleName MethodInvocation SimpleName dst
+del src SimpleName MethodInvocation SimpleName src
+del src SimpleName MethodInvocation SimpleName dst
+src SimpleName MethodInvocation SimpleName dst
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName copy to local file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName del src
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName copy to local file
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName del src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SimpleName copy to local file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName del src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName del src
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+copy to local file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dst
+copy to local file SimpleName MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+del src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+del src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+del src SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+src SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+dst SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy to local file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName del src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy to local file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName del src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

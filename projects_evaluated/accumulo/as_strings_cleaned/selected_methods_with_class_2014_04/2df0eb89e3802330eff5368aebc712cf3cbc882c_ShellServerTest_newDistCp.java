@@ -1,0 +1,43 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+constructor SimpleName SimpleType ParameterizedType SimpleType SimpleName dist cp
+constructor SimpleName SimpleType ParameterizedType SimpleType SimpleName dist cp
+dist cp SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get constructors
+constructors SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get constructors
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName constructors
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName constructors
+constructor SimpleName SimpleType ParameterizedType SimpleType SimpleName dist cp
+constructor SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName constructor
+dist cp SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName constructor
+class SimpleName SimpleType ParameterizedType WildcardType ?
+constructor SimpleName MethodInvocation SimpleName get parameter types
+parameter types SimpleName VariableDeclarationFragment MethodInvocation SimpleName constructor
+parameter types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parameter types
+parameter typeslength QualifiedName InfixExpression NumberLiteral empty
+parameter types SimpleName ArrayAccess NumberLiteral empty
+parameter types SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation TypeLiteral SimpleType SimpleName configuration
+parameter typeslength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+parameter typeslength QualifiedName InfixExpression NumberLiteral empty
+constructor SimpleName MethodInvocation SimpleName new instance
+constructor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+new instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+parameter typeslength QualifiedName InfixExpression NumberLiteral empty
+constructor SimpleName MethodInvocation SimpleName new instance
+constructor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+new instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+constructor SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName constructors
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected constructors for dist cp
+private Modifier MethodDeclaration SimpleType SimpleName dist cp
+private Modifier MethodDeclaration SimpleName new dist cp
+dist cp SimpleName SimpleType MethodDeclaration SimpleName new dist cp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dist cp
+public Modifier TypeDeclaration MethodDeclaration SimpleName new dist cp
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dist cp
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new dist cp

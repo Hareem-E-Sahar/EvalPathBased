@@ -1,0 +1,61 @@
+int PrimitiveType SingleVariableDeclaration SimpleName field id
+field id SimpleName SwitchStatement SwitchCase NumberLiteral empty
+field id SimpleName SwitchStatement ReturnStatement SimpleName priority
+field id SimpleName SwitchStatement SwitchCase NumberLiteral empty
+field id SimpleName SwitchStatement ReturnStatement SimpleName name
+field id SimpleName SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName priority
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName name
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName iterator class
+priority SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+priority SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName name
+priority SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+priority SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName iterator class
+priority SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName name
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName iterator class
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName properties
+name SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+name SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName iterator class
+name SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+name SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName properties
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName iterator class
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName properties
+iterator class SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+iterator class SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName properties
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName properties
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName fields
+public Modifier MethodDeclaration SimpleName find by thrift id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field id
+public Modifier MethodDeclaration Block SwitchStatement SimpleName field id
+static Modifier MethodDeclaration SimpleType SimpleName fields
+static Modifier MethodDeclaration SimpleName find by thrift id
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName field id
+static Modifier MethodDeclaration Block SwitchStatement SimpleName field id
+fields SimpleName SimpleType MethodDeclaration SimpleName find by thrift id
+fields SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fields SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName field id
+find by thrift id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find by thrift id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field id
+find by thrift id SimpleName MethodDeclaration Block SwitchStatement SimpleName field id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName fields
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by thrift id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName fields
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by thrift id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field id

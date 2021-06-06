@@ -1,0 +1,68 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation SimpleName file auth method
+configuration SimpleName MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation SimpleName file auth method
+get boolean SimpleName MethodInvocation BooleanLiteral true
+file auth method SimpleName MethodInvocation BooleanLiteral true
+file authentication method enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName configuration
+file authentication method enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName get boolean
+file authentication method enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName file auth method
+file authentication method enabled SimpleName FieldAccess Assignment MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation SimpleName pam auth method
+configuration SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName pam auth method
+get boolean SimpleName MethodInvocation BooleanLiteral false
+pam auth method SimpleName MethodInvocation BooleanLiteral false
+pam authentication enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName configuration
+pam authentication enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName get boolean
+pam authentication enabled SimpleName FieldAccess Assignment MethodInvocation SimpleName pam auth method
+pam authentication enabled SimpleName FieldAccess Assignment MethodInvocation BooleanLiteral false
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation SimpleName ldap auth method
+configuration SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName ldap auth method
+get boolean SimpleName MethodInvocation BooleanLiteral false
+ldap auth method SimpleName MethodInvocation BooleanLiteral false
+ldap authentication enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+ldap authentication enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+ldap authentication enabled SimpleName VariableDeclarationFragment MethodInvocation SimpleName ldap auth method
+ldap authentication enabled SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ldap authentication enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ldap auth method
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName ldap type
+configuration SimpleName MethodInvocation StringLiteral none
+get string SimpleName MethodInvocation SimpleName ldap type
+get string SimpleName MethodInvocation StringLiteral none
+ldap type SimpleName MethodInvocation StringLiteral none
+ldap type SimpleName FieldAccess Assignment MethodInvocation SimpleName configuration
+ldap type SimpleName FieldAccess Assignment MethodInvocation SimpleName get string
+ldap type SimpleName FieldAccess Assignment MethodInvocation SimpleName ldap type
+ldap type SimpleName FieldAccess Assignment MethodInvocation StringLiteral none
+ldap type SimpleName FieldAccess Assignment StringLiteral none
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName ldap authentication enabled
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while getting atlasloginmethod application properties
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while getting atlasloginmethod application properties
+error SimpleName MethodInvocation SimpleName e
+error while getting atlasloginmethod application properties StringLiteral MethodInvocation SimpleName e
+post construct SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+post construct SimpleName MarkerAnnotation MethodDeclaration SimpleName set authentication method
+void PrimitiveType MethodDeclaration SimpleName set authentication method
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authentication method
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authentication method

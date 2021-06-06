@@ -1,0 +1,70 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName start key
+short PrimitiveType SingleVariableDeclaration SimpleName max results
+list events v SimpleName MethodInvocation SimpleName entity id
+list events v SimpleName MethodInvocation SimpleName start key
+list events v SimpleName MethodInvocation SimpleName max results
+entity id SimpleName MethodInvocation SimpleName start key
+entity id SimpleName MethodInvocation SimpleName max results
+start key SimpleName MethodInvocation SimpleName max results
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName list events v
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity id
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName start key
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName max results
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName events
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName events
+is empty SimpleName MethodInvocation SimpleName events
+list events v SimpleName MethodInvocation SimpleName entity id
+list events v SimpleName MethodInvocation SimpleName start key
+list events v SimpleName MethodInvocation SimpleName max results
+entity id SimpleName MethodInvocation SimpleName start key
+entity id SimpleName MethodInvocation SimpleName max results
+start key SimpleName MethodInvocation SimpleName max results
+events SimpleName Assignment MethodInvocation SimpleName list events v
+events SimpleName Assignment MethodInvocation SimpleName entity id
+events SimpleName Assignment MethodInvocation SimpleName start key
+events SimpleName Assignment MethodInvocation SimpleName max results
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list events
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName list events
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max results
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list events
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list events
+list events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+list events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity id
+list events SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+list events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start key
+list events SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+list events SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max results
+list events SimpleName MethodDeclaration Block ReturnStatement SimpleName events
+entity id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+entity id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+entity id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max results
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max results
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list events
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max results
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list events
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max results

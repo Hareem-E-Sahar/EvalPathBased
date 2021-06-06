@@ -1,0 +1,58 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName entity list
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity list
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity list
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName collection
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName values
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName val
+entity list SimpleName MethodInvocation SimpleName contains
+entity list SimpleName MethodInvocation SimpleName val
+contains SimpleName MethodInvocation SimpleName val
+entity list SimpleName MethodInvocation SimpleName add
+entity list SimpleName MethodInvocation SimpleName val
+add SimpleName MethodInvocation SimpleName val
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+val SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to entity list
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity list
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+void PrimitiveType MethodDeclaration SimpleName add to entity list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName values
+add to entity list SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add to entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity list
+add to entity list SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add to entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+add to entity list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+entity list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entity list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to entity list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to entity list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

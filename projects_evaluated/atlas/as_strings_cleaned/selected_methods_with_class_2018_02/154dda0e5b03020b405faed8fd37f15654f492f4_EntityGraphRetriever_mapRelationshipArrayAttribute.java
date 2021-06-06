@@ -1,0 +1,110 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+attribute SimpleName MethodInvocation InfixExpression SimpleName in
+get relationship edge direction SimpleName MethodInvocation InfixExpression SimpleName in
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+graph helper SimpleName MethodInvocation SimpleName get incoming edges by label
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attribute
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+get incoming edges by label SimpleName MethodInvocation SimpleName entity vertex
+get incoming edges by label SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get incoming edges by label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+edges SimpleName Assignment MethodInvocation SimpleName graph helper
+edges SimpleName Assignment MethodInvocation SimpleName get incoming edges by label
+edges SimpleName Assignment MethodInvocation SimpleName entity vertex
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName attribute
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName get relationship edge label
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+attribute SimpleName MethodInvocation InfixExpression SimpleName out
+get relationship edge direction SimpleName MethodInvocation InfixExpression SimpleName out
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attribute
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+get out going edges by label SimpleName MethodInvocation SimpleName entity vertex
+get out going edges by label SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get out going edges by label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+edges SimpleName Assignment MethodInvocation SimpleName graph helper
+edges SimpleName Assignment MethodInvocation SimpleName get out going edges by label
+edges SimpleName Assignment MethodInvocation SimpleName entity vertex
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName attribute
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName get relationship edge label
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+attribute SimpleName MethodInvocation InfixExpression SimpleName both
+get relationship edge direction SimpleName MethodInvocation InfixExpression SimpleName both
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+graph helper SimpleName MethodInvocation SimpleName get adjacent edges by label
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation QualifiedName atlas edge directionboth
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName attribute
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+get adjacent edges by label SimpleName MethodInvocation SimpleName entity vertex
+get adjacent edges by label SimpleName MethodInvocation QualifiedName atlas edge directionboth
+get adjacent edges by label SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get adjacent edges by label SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+entity vertex SimpleName MethodInvocation QualifiedName atlas edge directionboth
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get relationship edge label
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName attribute
+atlas edge directionboth QualifiedName MethodInvocation MethodInvocation SimpleName get relationship edge label
+edges SimpleName Assignment MethodInvocation SimpleName graph helper
+edges SimpleName Assignment MethodInvocation SimpleName get adjacent edges by label
+edges SimpleName Assignment MethodInvocation SimpleName entity vertex
+edges SimpleName Assignment MethodInvocation QualifiedName atlas edge directionboth
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName attribute
+edges SimpleName Assignment MethodInvocation MethodInvocation SimpleName get relationship edge label
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+relationship edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+relationship edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship edge
+map vertex to related object id SimpleName MethodInvocation SimpleName entity vertex
+map vertex to related object id SimpleName MethodInvocation SimpleName relationship edge
+entity vertex SimpleName MethodInvocation SimpleName relationship edge
+related object id SimpleName VariableDeclarationFragment MethodInvocation SimpleName map vertex to related object id
+related object id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+related object id SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship edge
+atlas related object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related object id
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName related object id
+add SimpleName MethodInvocation SimpleName related object id
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas related object id
+private Modifier MethodDeclaration SimpleName map relationship array attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map relationship array attribute
+atlas related object id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map relationship array attribute
+map relationship array attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map relationship array attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map relationship array attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+map relationship array attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+map relationship array attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map relationship array attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName map relationship array attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map relationship array attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

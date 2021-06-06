@@ -1,0 +1,90 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName from vertex
+object SimpleName SimpleType SingleVariableDeclaration SimpleName to vertex name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName vertex property key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge to find
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+from vertex SimpleName MethodInvocation SimpleName get edges
+from vertex SimpleName MethodInvocation QualifiedName directionout
+from vertex SimpleName MethodInvocation SimpleName edge label
+get edges SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation SimpleName edge label
+directionout QualifiedName MethodInvocation SimpleName edge label
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+edge SimpleName MethodInvocation MethodInvocation SimpleName get property
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get property
+directionin QualifiedName MethodInvocation MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation MethodInvocation SimpleName vertex property key
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName vertex property key
+directionin QualifiedName MethodInvocation MethodInvocation SimpleName vertex property key
+get property SimpleName MethodInvocation SimpleName vertex property key
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+directionin QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get property SimpleName MethodInvocation MethodInvocation SimpleName equals
+vertex property key SimpleName MethodInvocation MethodInvocation SimpleName equals
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to vertex name
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to vertex name
+directionin QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to vertex name
+get property SimpleName MethodInvocation MethodInvocation SimpleName to vertex name
+vertex property key SimpleName MethodInvocation MethodInvocation SimpleName to vertex name
+equals SimpleName MethodInvocation SimpleName to vertex name
+edge to find SimpleName Assignment SimpleName edge
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName from vertex
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get edges
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName directionout
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName edge label
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName find edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+static Modifier MethodDeclaration SimpleType SimpleName edge
+static Modifier MethodDeclaration SimpleName find edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+edge SimpleName SimpleType MethodDeclaration SimpleName find edge
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+find edge SimpleName MethodDeclaration Block ReturnStatement SimpleName edge to find
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+to vertex name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+to vertex name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+vertex property key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName find edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label

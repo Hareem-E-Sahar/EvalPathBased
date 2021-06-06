@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName table
+cluster name SimpleName MethodInvocation SimpleName table
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+get table created time SimpleName MethodInvocation SimpleName table
+created time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table created time
+created time SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created time
+created time SimpleName MethodInvocation SimpleName get time
+table qualified name SimpleName InfixExpression SimpleName sep
+table qualified name SimpleName InfixExpression MethodInvocation SimpleName created time
+table qualified name SimpleName InfixExpression MethodInvocation SimpleName get time
+sep SimpleName InfixExpression MethodInvocation SimpleName created time
+sep SimpleName InfixExpression MethodInvocation SimpleName get time
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get table process qualified name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get table process qualified name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType MethodDeclaration SimpleName get table process qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+get table process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get table process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+get table process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table process qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table process qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table

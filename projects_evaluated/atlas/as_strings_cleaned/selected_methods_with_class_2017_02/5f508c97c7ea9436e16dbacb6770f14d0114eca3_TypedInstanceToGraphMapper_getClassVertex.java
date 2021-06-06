@@ -1,0 +1,62 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed reference
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+get existing id SimpleName MethodInvocation SimpleName typed reference
+id SimpleName Assignment MethodInvocation SimpleName get existing id
+id SimpleName Assignment MethodInvocation SimpleName typed reference
+id to vertex map SimpleName MethodInvocation SimpleName get
+id to vertex map SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+reference vertex SimpleName Assignment MethodInvocation SimpleName id to vertex map
+reference vertex SimpleName Assignment MethodInvocation SimpleName get
+reference vertex SimpleName Assignment MethodInvocation SimpleName id
+id SimpleName MethodInvocation SimpleName is assigned
+reference vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName id
+reference vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is assigned
+graph helper SimpleName MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation QualifiedName idid
+get vertex for guid SimpleName MethodInvocation QualifiedName idid
+reference vertex SimpleName Assignment MethodInvocation SimpleName graph helper
+reference vertex SimpleName Assignment MethodInvocation SimpleName get vertex for guid
+reference vertex SimpleName Assignment MethodInvocation QualifiedName idid
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName v
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName e
+private Modifier MethodDeclaration SimpleName get class vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration SimpleName get class vertex
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+v SimpleName TypeParameter MethodDeclaration SimpleType SimpleName entity not found exception
+e SimpleName TypeParameter MethodDeclaration SimpleName get class vertex
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName entity not found exception
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get class vertex
+v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get class vertex
+e SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get class vertex
+get class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+get class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+get class vertex SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+get class vertex SimpleName MethodDeclaration Block ReturnStatement SimpleName reference vertex
+typed reference SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

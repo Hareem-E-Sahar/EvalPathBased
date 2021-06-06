@@ -1,0 +1,56 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation StringLiteral id
+singleton SimpleName MethodInvocation StringLiteral id
+request SimpleName MethodInvocation SimpleName add additional select properties
+request SimpleName MethodInvocation MethodInvocation SimpleName collections
+request SimpleName MethodInvocation MethodInvocation SimpleName singleton
+request SimpleName MethodInvocation MethodInvocation StringLiteral id
+add additional select properties SimpleName MethodInvocation MethodInvocation SimpleName collections
+add additional select properties SimpleName MethodInvocation MethodInvocation SimpleName singleton
+add additional select properties SimpleName MethodInvocation MethodInvocation StringLiteral id
+get resource by id SimpleName MethodInvocation SimpleName request
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource by id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get property maps
+result SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get property maps SimpleName MethodInvocation MethodInvocation SimpleName iterator
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+get property maps SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+next SimpleName MethodInvocation MethodInvocation SimpleName get
+iterator SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral id
+next SimpleName MethodInvocation MethodInvocation StringLiteral id
+get SimpleName MethodInvocation StringLiteral id
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+string SimpleName MethodInvocation MethodInvocation SimpleName get
+string SimpleName MethodInvocation MethodInvocation StringLiteral id
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+value of SimpleName MethodInvocation MethodInvocation SimpleName get
+value of SimpleName MethodInvocation MethodInvocation StringLiteral id
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get resource id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+private Modifier MethodDeclaration SimpleType SimpleName resource not found exception
+string SimpleName SimpleType MethodDeclaration SimpleName get resource id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource not found exception
+get resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+get resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get resource id SimpleName MethodDeclaration SimpleType SimpleName resource not found exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception

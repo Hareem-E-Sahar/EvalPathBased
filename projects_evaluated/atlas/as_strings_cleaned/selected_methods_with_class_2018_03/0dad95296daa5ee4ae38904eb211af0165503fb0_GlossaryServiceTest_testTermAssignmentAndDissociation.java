@@ -1,0 +1,210 @@
+groups SimpleName MemberValuePair StringLiteral glossaryupdate
+depends on groups SimpleName MemberValuePair StringLiteral glossarycreate
+test SimpleName NormalAnnotation MemberValuePair SimpleName groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossaryupdate
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on groups
+test SimpleName NormalAnnotation MemberValuePair StringLiteral glossarycreate
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+groups SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName depends on groups
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MemberValuePair StringLiteral glossarycreate
+atlas entity SimpleName SimpleType ClassInstanceCreation StringLiteral asset
+asset entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+asset entity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral asset
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName asset entity
+asset entity SimpleName MethodInvocation SimpleName set attribute
+asset entity SimpleName MethodInvocation StringLiteral qualified name
+asset entity SimpleName MethodInvocation StringLiteral test asset
+set attribute SimpleName MethodInvocation StringLiteral qualified name
+set attribute SimpleName MethodInvocation StringLiteral test asset
+qualified name StringLiteral MethodInvocation StringLiteral test asset
+asset entity SimpleName MethodInvocation SimpleName set attribute
+asset entity SimpleName MethodInvocation StringLiteral name
+asset entity SimpleName MethodInvocation StringLiteral test asset
+set attribute SimpleName MethodInvocation StringLiteral name
+set attribute SimpleName MethodInvocation StringLiteral test asset
+name StringLiteral MethodInvocation StringLiteral test asset
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName asset entity
+entity store SimpleName MethodInvocation SimpleName create or update
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+entity store SimpleName MethodInvocation ClassInstanceCreation SimpleName asset entity
+entity store SimpleName MethodInvocation BooleanLiteral false
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName asset entity
+create or update SimpleName MethodInvocation BooleanLiteral false
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+asset entity SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName asset entity
+response SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get first entity created
+first entity created SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+first entity created SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first entity created
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first entity created
+related object id SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas related object id
+first entity created SimpleName MethodInvocation SimpleName get guid
+related object id SimpleName MethodInvocation SimpleName set guid
+related object id SimpleName MethodInvocation MethodInvocation SimpleName first entity created
+related object id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName first entity created
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+first entity created SimpleName MethodInvocation SimpleName get type name
+related object id SimpleName MethodInvocation SimpleName set type name
+related object id SimpleName MethodInvocation MethodInvocation SimpleName first entity created
+related object id SimpleName MethodInvocation MethodInvocation SimpleName get type name
+set type name SimpleName MethodInvocation MethodInvocation SimpleName first entity created
+set type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert not null SimpleName MethodInvocation SimpleName related object id
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral entity creation shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+entity creation shouldve succeeded StringLiteral MethodInvocation SimpleName e
+fixed rate mortgage SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName related object id
+as list SimpleName MethodInvocation SimpleName related object id
+glossary service SimpleName MethodInvocation SimpleName assign term to entities
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName as list
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName related object id
+assign term to entities SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+assign term to entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+assign term to entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assign term to entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+assign term to entities SimpleName MethodInvocation MethodInvocation SimpleName related object id
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName related object id
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName related object id
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term assignment to asset shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term assignment to asset shouldve succeeded StringLiteral MethodInvocation SimpleName e
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+fixed rate mortgage SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get assigned entities
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation NumberLiteral empty
+glossary service SimpleName MethodInvocation NumberLiteral empty
+glossary service SimpleName MethodInvocation QualifiedName sort orderascending
+get assigned entities SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+get assigned entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get assigned entities SimpleName MethodInvocation NumberLiteral empty
+get assigned entities SimpleName MethodInvocation NumberLiteral empty
+get assigned entities SimpleName MethodInvocation QualifiedName sort orderascending
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get guid SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get guid SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation QualifiedName sort orderascending
+get guid SimpleName MethodInvocation MethodInvocation QualifiedName sort orderascending
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName sort orderascending
+empty NumberLiteral MethodInvocation QualifiedName sort orderascending
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get assigned entities
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+assigned entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName sort orderascending
+assert not null SimpleName MethodInvocation SimpleName assigned entities
+assigned entities SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName assigned entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assigned entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assigned entities SimpleName MethodInvocation SimpleName get
+assigned entities SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assigned entities SimpleName MethodInvocation MethodInvocation SimpleName get relationship guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get relationship guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get relationship guid
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assigned entities
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship guid
+assert not null SimpleName MethodInvocation SimpleName relationship guid
+related object id SimpleName MethodInvocation SimpleName set relationship guid
+related object id SimpleName MethodInvocation SimpleName relationship guid
+set relationship guid SimpleName MethodInvocation SimpleName relationship guid
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term fetch shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term fetch shouldve succeeded StringLiteral MethodInvocation SimpleName e
+fixed rate mortgage SimpleName MethodInvocation SimpleName get guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName related object id
+as list SimpleName MethodInvocation SimpleName related object id
+glossary service SimpleName MethodInvocation SimpleName remove term from entities
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName as list
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName related object id
+remove term from entities SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+remove term from entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+remove term from entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+remove term from entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+remove term from entities SimpleName MethodInvocation MethodInvocation SimpleName related object id
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+fixed rate mortgage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName related object id
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName related object id
+fixed rate mortgage SimpleName MethodInvocation SimpleName get guid
+glossary service SimpleName MethodInvocation SimpleName get term
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+glossary service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get term SimpleName MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+get term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+term SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary service
+term SimpleName VariableDeclarationFragment MethodInvocation SimpleName get term
+term SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fixed rate mortgage
+term SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+atlas glossary term SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName term
+assert not null SimpleName MethodInvocation SimpleName term
+term SimpleName MethodInvocation SimpleName get assigned entities
+assert null SimpleName MethodInvocation MethodInvocation SimpleName term
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get assigned entities
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral term update shouldve succeeded
+fail SimpleName MethodInvocation SimpleName e
+term update shouldve succeeded StringLiteral MethodInvocation SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test term assignment and dissociation
+groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term assignment and dissociation
+glossaryupdate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term assignment and dissociation
+depends on groups SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term assignment and dissociation
+glossarycreate StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test term assignment and dissociation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test term assignment and dissociation
+void PrimitiveType MethodDeclaration SimpleName test term assignment and dissociation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test term assignment and dissociation
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test term assignment and dissociation

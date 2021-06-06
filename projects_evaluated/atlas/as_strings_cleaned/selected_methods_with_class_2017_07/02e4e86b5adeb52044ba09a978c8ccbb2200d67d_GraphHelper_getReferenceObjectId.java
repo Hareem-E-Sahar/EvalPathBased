@@ -1,0 +1,65 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+atlas relationship edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName relationship direction
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+relationship direction SimpleName InfixExpression QualifiedName atlas relationship edge directionout
+edge SimpleName MethodInvocation SimpleName get in vertex
+get guid SimpleName MethodInvocation MethodInvocation SimpleName edge
+get guid SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+edge SimpleName MethodInvocation SimpleName get in vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas object id
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+relationship direction SimpleName InfixExpression QualifiedName atlas relationship edge directionin
+edge SimpleName MethodInvocation SimpleName get out vertex
+get guid SimpleName MethodInvocation MethodInvocation SimpleName edge
+get guid SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+edge SimpleName MethodInvocation SimpleName get out vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas object id
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SimpleName get reference object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship edge direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+static Modifier MethodDeclaration SimpleType SimpleName atlas object id
+static Modifier MethodDeclaration SimpleName get reference object id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship edge direction
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas object id SimpleName SimpleType MethodDeclaration SimpleName get reference object id
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+get reference object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+get reference object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+get reference object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship edge direction
+get reference object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+get reference object id SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get reference object id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship direction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get reference object id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship direction

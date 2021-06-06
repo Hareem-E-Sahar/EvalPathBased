@@ -1,0 +1,101 @@
+iterator scope SimpleName SimpleType SingleVariableDeclaration SimpleName scope
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parse iter conf SimpleName MethodInvocation SimpleName scope
+parse iter conf SimpleName MethodInvocation SimpleName iters
+parse iter conf SimpleName MethodInvocation SimpleName all options
+parse iter conf SimpleName MethodInvocation SimpleName conf
+scope SimpleName MethodInvocation SimpleName iters
+scope SimpleName MethodInvocation SimpleName all options
+scope SimpleName MethodInvocation SimpleName conf
+iters SimpleName MethodInvocation SimpleName all options
+iters SimpleName MethodInvocation SimpleName conf
+all options SimpleName MethodInvocation SimpleName conf
+iter info SimpleName SimpleType SingleVariableDeclaration SimpleName iter info
+iter infoclass name QualifiedName MethodInvocation SimpleName equals
+iter infoclass name QualifiedName MethodInvocation SimpleName class name
+equals SimpleName MethodInvocation SimpleName class name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+all options SimpleName MethodInvocation SimpleName get
+all options SimpleName MethodInvocation QualifiedName iter infoiter name
+get SimpleName MethodInvocation QualifiedName iter infoiter name
+tmp opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName all options
+tmp opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tmp opts SimpleName VariableDeclarationFragment MethodInvocation QualifiedName iter infoiter name
+opts SimpleName MethodInvocation SimpleName put all
+opts SimpleName MethodInvocation SimpleName tmp opts
+put all SimpleName MethodInvocation SimpleName tmp opts
+iter info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName iters
+iter info SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iters
+iters SimpleName EnhancedForStatement IfStatement MethodInvocation QualifiedName iter infoclass name
+iters SimpleName EnhancedForStatement IfStatement MethodInvocation SimpleName equals
+iters SimpleName EnhancedForStatement IfStatement MethodInvocation SimpleName class name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName find iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName find iterator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType MethodDeclaration SimpleName find iterator
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scope
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opts
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scope
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+find iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+find iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName iters
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName find iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts

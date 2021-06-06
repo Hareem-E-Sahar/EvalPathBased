@@ -1,0 +1,175 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName new val
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cur val
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+get class vertex SimpleName MethodInvocation SimpleName new val
+to vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class vertex
+to vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName new val
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to vertex
+to vertex SimpleName InfixExpression InfixExpression InfixExpression SimpleName new val
+could not find vertex for class reference StringLiteral InfixExpression SimpleName new val
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral could not find vertex for class reference
+log SimpleName MethodInvocation InfixExpression SimpleName new val
+error SimpleName MethodInvocation InfixExpression StringLiteral could not find vertex for class reference
+error SimpleName MethodInvocation InfixExpression SimpleName new val
+could not find vertex for class reference StringLiteral InfixExpression SimpleName new val
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find vertex for class reference
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new val
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+cur val SimpleName InfixExpression InfixExpression InfixExpression SimpleName new val
+remove unused reference SimpleName MethodInvocation SimpleName cur val
+remove unused reference SimpleName MethodInvocation SimpleName attribute info
+remove unused reference SimpleName MethodInvocation SimpleName element type
+cur val SimpleName MethodInvocation SimpleName attribute info
+cur val SimpleName MethodInvocation SimpleName element type
+attribute info SimpleName MethodInvocation SimpleName element type
+cur val SimpleName InfixExpression InfixExpression InfixExpression SimpleName new val
+graph helper SimpleName MethodInvocation SimpleName get out going edge by id
+graph helper SimpleName MethodInvocation SimpleName cur val
+get out going edge by id SimpleName MethodInvocation SimpleName cur val
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edge by id
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName cur val
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+get id SimpleName MethodInvocation SimpleName new val
+class ref id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+class ref id SimpleName VariableDeclarationFragment MethodInvocation SimpleName new val
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class ref id
+update class edge SimpleName MethodInvocation SimpleName class ref id
+update class edge SimpleName MethodInvocation SimpleName new val
+update class edge SimpleName MethodInvocation SimpleName instance vertex
+update class edge SimpleName MethodInvocation SimpleName edge
+update class edge SimpleName MethodInvocation SimpleName to vertex
+class ref id SimpleName MethodInvocation SimpleName new val
+class ref id SimpleName MethodInvocation SimpleName instance vertex
+class ref id SimpleName MethodInvocation SimpleName edge
+class ref id SimpleName MethodInvocation SimpleName to vertex
+class ref id SimpleName MethodInvocation SimpleName attribute info
+new val SimpleName MethodInvocation SimpleName instance vertex
+new val SimpleName MethodInvocation SimpleName edge
+new val SimpleName MethodInvocation SimpleName to vertex
+new val SimpleName MethodInvocation SimpleName attribute info
+new val SimpleName MethodInvocation SimpleName element type
+instance vertex SimpleName MethodInvocation SimpleName edge
+instance vertex SimpleName MethodInvocation SimpleName to vertex
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName element type
+instance vertex SimpleName MethodInvocation SimpleName edge label
+edge SimpleName MethodInvocation SimpleName to vertex
+edge SimpleName MethodInvocation SimpleName attribute info
+edge SimpleName MethodInvocation SimpleName element type
+edge SimpleName MethodInvocation SimpleName edge label
+edge SimpleName MethodInvocation SimpleName operation
+to vertex SimpleName MethodInvocation SimpleName attribute info
+to vertex SimpleName MethodInvocation SimpleName element type
+to vertex SimpleName MethodInvocation SimpleName edge label
+to vertex SimpleName MethodInvocation SimpleName operation
+attribute info SimpleName MethodInvocation SimpleName element type
+attribute info SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName operation
+element type SimpleName MethodInvocation SimpleName edge label
+element type SimpleName MethodInvocation SimpleName operation
+edge label SimpleName MethodInvocation SimpleName operation
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName update class edge
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName class ref id
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName new val
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName instance vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName edge
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName to vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName attribute info
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName element type
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName edge label
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName operation
+add class edge SimpleName MethodInvocation SimpleName instance vertex
+add class edge SimpleName MethodInvocation SimpleName to vertex
+add class edge SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName to vertex
+instance vertex SimpleName MethodInvocation SimpleName edge label
+to vertex SimpleName MethodInvocation SimpleName edge label
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName add class edge
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName instance vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName to vertex
+vertex edge pair SimpleName Assignment MethodInvocation SimpleName edge label
+vertex edge pair SimpleName MethodInvocation SimpleName get right
+vertex edge pair SimpleName MethodInvocation MethodInvocation SimpleName get id
+get right SimpleName MethodInvocation MethodInvocation SimpleName get id
+vertex edge pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get right SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName add or update class vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SimpleName add or update class vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new val
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new val
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add or update class vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cur val
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new val
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new val
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new val
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+element type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+new val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+new val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+new val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+new val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+cur val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update class vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update class vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cur val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

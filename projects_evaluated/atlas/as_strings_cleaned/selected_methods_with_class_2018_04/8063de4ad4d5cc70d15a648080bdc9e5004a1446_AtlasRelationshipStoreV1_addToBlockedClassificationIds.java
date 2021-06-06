@@ -1,0 +1,38 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification ids
+classification ids SimpleName MethodInvocation SimpleName is empty
+edge SimpleName MethodInvocation SimpleName remove property
+edge SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+remove property SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+edge SimpleName MethodInvocation SimpleName set list property
+edge SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+edge SimpleName MethodInvocation SimpleName classification ids
+set list property SimpleName MethodInvocation QualifiedName constantsrelationshiptype blocked propagated classifications key
+set list property SimpleName MethodInvocation SimpleName classification ids
+constantsrelationshiptype blocked propagated classifications key QualifiedName MethodInvocation SimpleName classification ids
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to blocked classification ids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification ids
+void PrimitiveType MethodDeclaration SimpleName add to blocked classification ids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification ids
+add to blocked classification ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+add to blocked classification ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+add to blocked classification ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification ids
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to blocked classification ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to blocked classification ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification ids

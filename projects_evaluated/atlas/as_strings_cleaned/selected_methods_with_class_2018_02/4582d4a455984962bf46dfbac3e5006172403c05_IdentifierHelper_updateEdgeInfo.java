@@ -1,0 +1,55 @@
+orgapacheatlasquerylookup QualifiedName SimpleType SingleVariableDeclaration SimpleName lookup
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+type name SimpleName InfixExpression SimpleName attribute name
+is primitive SimpleName PrefixExpression InfixExpression PrefixExpression SimpleName is trait
+is primitive SimpleName PrefixExpression InfixExpression InfixExpression SimpleName type name
+is primitive SimpleName PrefixExpression InfixExpression InfixExpression SimpleName attribute name
+is trait SimpleName PrefixExpression InfixExpression InfixExpression SimpleName type name
+is trait SimpleName PrefixExpression InfixExpression InfixExpression SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName get relationship edge label
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName attribute name
+get relationship edge label SimpleName MethodInvocation SimpleName context
+get relationship edge label SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName attribute name
+edge label SimpleName Assignment MethodInvocation SimpleName lookup
+edge label SimpleName Assignment MethodInvocation SimpleName get relationship edge label
+edge label SimpleName Assignment MethodInvocation SimpleName context
+edge label SimpleName Assignment MethodInvocation SimpleName attribute name
+lookup SimpleName MethodInvocation SimpleName get type from edge
+lookup SimpleName MethodInvocation SimpleName context
+lookup SimpleName MethodInvocation SimpleName attribute name
+get type from edge SimpleName MethodInvocation SimpleName context
+get type from edge SimpleName MethodInvocation SimpleName attribute name
+context SimpleName MethodInvocation SimpleName attribute name
+type name SimpleName Assignment MethodInvocation SimpleName lookup
+type name SimpleName Assignment MethodInvocation SimpleName get type from edge
+type name SimpleName Assignment MethodInvocation SimpleName context
+type name SimpleName Assignment MethodInvocation SimpleName attribute name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update edge info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lookup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleName update edge info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lookup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+update edge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheatlasquerylookup
+update edge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lookup
+update edge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+update edge info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+lookup SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update edge info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update edge info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lookup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

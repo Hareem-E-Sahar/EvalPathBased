@@ -1,0 +1,47 @@
+long PrimitiveType SingleVariableDeclaration SimpleName target pos
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral fs data input streamseek to new source
+start SimpleName MethodInvocation StringLiteral fs data input streamseek to new source
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fs data input streamseek to new source
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+impl SimpleName MethodInvocation SimpleName seek to new source
+impl SimpleName MethodInvocation SimpleName target pos
+seek to new source SimpleName MethodInvocation SimpleName target pos
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName seek to new source
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName target pos
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName seek to new source
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target pos
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName seek to new source
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target pos
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+seek to new source SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+seek to new source SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target pos
+seek to new source SimpleName MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+target pos SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName seek to new source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target pos
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName seek to new source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target pos
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

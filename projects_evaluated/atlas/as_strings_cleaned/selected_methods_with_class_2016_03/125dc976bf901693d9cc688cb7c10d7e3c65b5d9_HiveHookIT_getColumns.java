@@ -1,0 +1,50 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName db name
+assert table is registered SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName table id
+get entity SimpleName MethodInvocation SimpleName table id
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table ref
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+table ref SimpleName MethodInvocation SimpleName get
+table ref SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+get SimpleName MethodInvocation QualifiedName hive data model generatorcolumns
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get columns
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get columns
+referenceable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get columns
+get columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get columns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get columns SimpleName MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

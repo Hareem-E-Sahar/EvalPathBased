@@ -1,0 +1,33 @@
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data typestype category QualifiedName SimpleType SingleVariableDeclaration SimpleName type category
+type cache SimpleName MethodInvocation SimpleName get type names
+type cache SimpleName MethodInvocation SimpleName type category
+get type names SimpleName MethodInvocation SimpleName type category
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName type cache
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName get type names
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName type category
+copy of SimpleName MethodInvocation MethodInvocation SimpleName type cache
+copy of SimpleName MethodInvocation MethodInvocation SimpleName get type names
+copy of SimpleName MethodInvocation MethodInvocation SimpleName type category
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type names by category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+immutable list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names by category
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names by category
+get type names by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+get type names by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+get type names by category SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type names by category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type names by category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

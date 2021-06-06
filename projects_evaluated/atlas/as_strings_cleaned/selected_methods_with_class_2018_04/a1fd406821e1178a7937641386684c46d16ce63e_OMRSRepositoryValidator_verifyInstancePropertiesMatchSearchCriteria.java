@@ -1,0 +1,247 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repository name
+instance properties SimpleName SimpleType SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType SingleVariableDeclaration SimpleName search criteria
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+properties SimpleName MethodInvocation SimpleName get property names
+property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property names
+property names SimpleName MethodInvocation SimpleName has next
+property names SimpleName MethodInvocation SimpleName next
+properties SimpleName MethodInvocation SimpleName get property value
+properties SimpleName MethodInvocation MethodInvocation SimpleName property names
+properties SimpleName MethodInvocation MethodInvocation SimpleName next
+get property value SimpleName MethodInvocation MethodInvocation SimpleName property names
+get property value SimpleName MethodInvocation MethodInvocation SimpleName next
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+property value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property names
+property value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+instance property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property value
+property value SimpleName MethodInvocation SimpleName get instance property category
+primitive property value SimpleName SimpleType CastExpression SimpleName property value
+primitive property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName primitive property value
+primitive property value SimpleName VariableDeclarationFragment CastExpression SimpleName property value
+primitive property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive property value
+primitive property value SimpleName MethodInvocation SimpleName get primitive def category
+primitive property value SimpleName MethodInvocation InfixExpression QualifiedName primitive def categoryom primitive type string
+get primitive def category SimpleName MethodInvocation InfixExpression QualifiedName primitive def categoryom primitive type string
+primitive property value SimpleName MethodInvocation SimpleName get primitive value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName primitive property value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get primitive value
+string property SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+string property SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName primitive property value
+string property SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get primitive value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName string property
+string property SimpleName MethodInvocation SimpleName matches
+string property SimpleName MethodInvocation SimpleName search criteria
+matches SimpleName MethodInvocation SimpleName search criteria
+enum property value SimpleName SimpleType CastExpression SimpleName property value
+enum property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName enum property value
+enum property value SimpleName VariableDeclarationFragment CastExpression SimpleName property value
+enum property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum property value
+enum property value SimpleName MethodInvocation SimpleName get symbolic name
+enum value SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum property value
+enum value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get symbolic name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum value
+enum value SimpleName MethodInvocation SimpleName matches
+enum value SimpleName MethodInvocation SimpleName search criteria
+matches SimpleName MethodInvocation SimpleName search criteria
+struct property value SimpleName SimpleType CastExpression SimpleName property value
+struct property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct property value
+struct property value SimpleName VariableDeclarationFragment CastExpression SimpleName property value
+struct property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct property value
+struct property value SimpleName MethodInvocation SimpleName get attributes
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName repository name
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName struct property value
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName search criteria
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation MethodInvocation SimpleName struct property value
+repository name SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+repository name SimpleName MethodInvocation SimpleName search criteria
+repository name SimpleName MethodInvocation SimpleName method name
+struct property value SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+struct property value SimpleName MethodInvocation MethodInvocation SimpleName method name
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName method name
+search criteria SimpleName MethodInvocation SimpleName method name
+array property value SimpleName SimpleType CastExpression SimpleName property value
+array property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName array property value
+array property value SimpleName VariableDeclarationFragment CastExpression SimpleName property value
+array property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array property value
+array property value SimpleName MethodInvocation SimpleName get array values
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName repository name
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName array property value
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName get array values
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName search criteria
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation MethodInvocation SimpleName array property value
+repository name SimpleName MethodInvocation MethodInvocation SimpleName get array values
+repository name SimpleName MethodInvocation SimpleName search criteria
+repository name SimpleName MethodInvocation SimpleName method name
+array property value SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+get array values SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+array property value SimpleName MethodInvocation MethodInvocation SimpleName method name
+get array values SimpleName MethodInvocation MethodInvocation SimpleName method name
+search criteria SimpleName MethodInvocation SimpleName method name
+map property value SimpleName SimpleType CastExpression SimpleName property value
+map property value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map property value
+map property value SimpleName VariableDeclarationFragment CastExpression SimpleName property value
+map property value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map property value
+map property value SimpleName MethodInvocation SimpleName get map values
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName repository name
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName map property value
+verify instance properties match search criteria SimpleName MethodInvocation MethodInvocation SimpleName get map values
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName search criteria
+verify instance properties match search criteria SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation MethodInvocation SimpleName map property value
+repository name SimpleName MethodInvocation MethodInvocation SimpleName get map values
+repository name SimpleName MethodInvocation SimpleName search criteria
+repository name SimpleName MethodInvocation SimpleName method name
+map property value SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+get map values SimpleName MethodInvocation MethodInvocation SimpleName search criteria
+map property value SimpleName MethodInvocation MethodInvocation SimpleName method name
+get map values SimpleName MethodInvocation MethodInvocation SimpleName method name
+search criteria SimpleName MethodInvocation SimpleName method name
+property value SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get instance property category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+property value SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get instance property category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codebad property for instance
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codebad property for instance
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName repository name
+error code SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation SimpleName repository name
+get formatted error message SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repository name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+repository error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+repository error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get system action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get user action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName verify instance properties match search criteria
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+boolean PrimitiveType MethodDeclaration SimpleName verify instance properties match search criteria
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repository name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName properties
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName method name
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository name
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance properties
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify instance properties match search criteria SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+verify instance properties match search criteria SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+search criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+search criteria SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify instance properties match search criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify instance properties match search criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

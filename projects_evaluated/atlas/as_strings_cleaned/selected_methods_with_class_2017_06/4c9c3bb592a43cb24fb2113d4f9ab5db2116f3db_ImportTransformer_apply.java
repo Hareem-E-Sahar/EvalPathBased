@@ -1,0 +1,39 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+ret SimpleName VariableDeclarationFragment SimpleName o
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName o
+string utils SimpleName MethodInvocation SimpleName upper case
+string utils SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+string utils SimpleName MethodInvocation CastExpression SimpleName o
+upper case SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+upper case SimpleName MethodInvocation CastExpression SimpleName o
+ret SimpleName Assignment MethodInvocation SimpleName string utils
+ret SimpleName Assignment MethodInvocation SimpleName upper case
+ret SimpleName Assignment MethodInvocation CastExpression SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object SimpleName SimpleType MethodDeclaration SimpleName apply
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+apply SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

@@ -1,0 +1,191 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+extent SimpleName MethodInvocation SimpleName get table id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName extent
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation SimpleName extent
+/ StringLiteral InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression QualifiedName constantsztable compact id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+get instance id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table id
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable compact id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable compact id
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName extent
+constantsztables QualifiedName InfixExpression MethodInvocation SimpleName get table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable compact id
+/ StringLiteral InfixExpression MethodInvocation SimpleName extent
+/ StringLiteral InfixExpression MethodInvocation SimpleName get table id
+/ StringLiteral InfixExpression QualifiedName constantsztable compact id
+extent SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+get table id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable compact id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName extent
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get table id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable compact id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z table path
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get data
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName get data
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName z table path
+get retrying instance SimpleName MethodInvocation MethodInvocation SimpleName z table path
+get data SimpleName MethodInvocation SimpleName z table path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName z table path
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+zoo reader writer SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+get retrying instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+get data SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+z table path SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName split
+get data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName split
+z table path SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName split
+standard charsetsutf QualifiedName ClassInstanceCreation MethodInvocation SimpleName split
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+get data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+z table path SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+standard charsetsutf QualifiedName ClassInstanceCreation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+tokens SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+tokens SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName tokens
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName tokens
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+compact id SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+compact id SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+compact id SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tokens
+compact id SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName compact id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+iters SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName compaction iterators
+compaction iterators SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iters
+tokenslength QualifiedName InfixExpression NumberLiteral empty
+hex SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hex
+hex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hex
+tokens SimpleName ArrayAccess NumberLiteral empty
+tokens SimpleName ArrayAccess MethodInvocation SimpleName split
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName split
+tokens SimpleName ArrayAccess MethodInvocation StringLiteral =
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral =
+split SimpleName MethodInvocation StringLiteral =
+tokens SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+= StringLiteral MethodInvocation ArrayAccess NumberLiteral empty
+split SimpleName MethodInvocation ArrayAccess MethodInvocation SimpleName get bytes
+= StringLiteral MethodInvocation ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+split SimpleName MethodInvocation ArrayAccess MethodInvocation QualifiedName standard charsetsutf
+= StringLiteral MethodInvocation ArrayAccess MethodInvocation QualifiedName standard charsetsutf
+empty NumberLiteral ArrayAccess MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+hex SimpleName MethodInvocation SimpleName decode
+hex SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+hex SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+hex SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+decode SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+decode SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode SimpleName MethodInvocation MethodInvocation QualifiedName standard charsetsutf
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hex
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName decode
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hex
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName decode
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bais
+data input stream SimpleName SimpleType ClassInstanceCreation SimpleName bais
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bais
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+iters SimpleName MethodInvocation SimpleName read fields
+iters SimpleName MethodInvocation SimpleName dis
+read fields SimpleName MethodInvocation SimpleName dis
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+extent SimpleName MethodInvocation SimpleName get table id
+iters SimpleName MethodInvocation SimpleName get end row
+iters SimpleName MethodInvocation SimpleName get start row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName extent
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iters
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iters
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get start row
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+get table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+get table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start row
+get table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+get table id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start row
+iters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+iters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start row
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName iters
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get start row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get table id
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName iters
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get end row
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName iters
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get start row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+ke SimpleName MethodInvocation SimpleName overlaps
+ke SimpleName MethodInvocation SimpleName extent
+overlaps SimpleName MethodInvocation SimpleName extent
+iters SimpleName Assignment ClassInstanceCreation SimpleType SimpleName compaction iterators
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+iters SimpleName MethodInvocation SimpleName get iterators
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName compact id
+long SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName compact id
+compact id SimpleName ClassInstanceCreation MethodInvocation SimpleName iters
+compact id SimpleName ClassInstanceCreation MethodInvocation SimpleName get iterators
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName nfe
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName nfe
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+ke SimpleName InstanceofExpression SimpleType SimpleName no node exception
+no node exception SimpleName SimpleType CastExpression SimpleName ke
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ke
+decoder exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+pair SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get compaction id
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get compaction id
+get compaction id SimpleName MethodDeclaration SimpleType SimpleName no node exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get compaction id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no node exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get compaction id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no node exception

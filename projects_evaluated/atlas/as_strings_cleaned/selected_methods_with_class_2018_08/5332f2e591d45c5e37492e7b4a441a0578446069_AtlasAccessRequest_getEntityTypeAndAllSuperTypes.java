@@ -1,0 +1,72 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collections SimpleName MethodInvocation SimpleName empty set
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty set
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName entity type
+singleton SimpleName MethodInvocation SimpleName entity type
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName singleton
+ret SimpleName Assignment MethodInvocation SimpleName entity type
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName entity type
+get entity type by name SimpleName MethodInvocation SimpleName entity type
+ent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+ent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+ent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent type
+ent type SimpleName MethodInvocation SimpleName get type and all super types
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName entity type
+singleton SimpleName MethodInvocation SimpleName entity type
+ent type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName ent type
+ent type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type and all super types
+ent type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName collections
+ent type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName singleton
+ent type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity type
+ent type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+ent type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+ent type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName entity type
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName entity type
+ret SimpleName Assignment ConditionalExpression InfixExpression SimpleName ent type
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName ent type
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type and all super types
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName collections
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName singleton
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName entity type
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity type and all super types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type and all super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type and all super types
+get entity type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get entity type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+get entity type and all super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+get entity type and all super types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get entity type and all super types SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity type and all super types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity type and all super types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry

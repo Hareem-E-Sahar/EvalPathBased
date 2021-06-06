@@ -1,0 +1,66 @@
+t SimpleName TypeParameter SimpleType SimpleName atlas base model object
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName obj
+objects SimpleName MethodInvocation StringLiteral cant save a null object
+require non null SimpleName MethodInvocation SimpleName obj
+require non null SimpleName MethodInvocation StringLiteral cant save a null object
+obj SimpleName MethodInvocation StringLiteral cant save a null object
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation StringLiteral data accessmulti save
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation StringLiteral data accessmulti save
+perf log SimpleName MethodInvocation StringLiteral data accessmulti save
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation StringLiteral data accessmulti save
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+t SimpleName SimpleType SingleVariableDeclaration SimpleName o
+save SimpleName MethodInvocation SimpleName o
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName save
+ret SimpleName MethodInvocation MethodInvocation SimpleName o
+add SimpleName MethodInvocation MethodInvocation SimpleName save
+add SimpleName MethodInvocation MethodInvocation SimpleName o
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName obj
+o SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName obj
+obj SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName atlas base model object
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName save
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+t SimpleName TypeParameter MethodDeclaration SimpleName save
+atlas base model object SimpleName SimpleType TypeParameter MethodDeclaration SimpleName save
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName obj
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas base exception
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName save
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName save
+save SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+save SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName save
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

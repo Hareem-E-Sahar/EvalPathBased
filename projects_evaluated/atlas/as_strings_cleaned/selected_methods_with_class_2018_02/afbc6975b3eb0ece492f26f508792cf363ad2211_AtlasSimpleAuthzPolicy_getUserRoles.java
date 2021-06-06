@@ -1,0 +1,14 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get user roles
+public Modifier MethodDeclaration Block ReturnStatement SimpleName user roles
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get user roles
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get user roles
+get user roles SimpleName MethodDeclaration Block ReturnStatement SimpleName user roles
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user roles
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user roles

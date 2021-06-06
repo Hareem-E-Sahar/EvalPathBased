@@ -1,0 +1,106 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName registry
+entity type SimpleName MethodInvocation SimpleName get entity def
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get name
+get entity def SimpleName MethodInvocation MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity type
+type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity def
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+entity type SimpleName MethodInvocation SimpleName get entity def
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get description
+get entity def SimpleName MethodInvocation MethodInvocation SimpleName get description
+type desc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity type
+type desc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity def
+type desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type desc
+entity type SimpleName MethodInvocation SimpleName get entity def
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get type version
+get entity def SimpleName MethodInvocation MethodInvocation SimpleName get type version
+type version SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity type
+type version SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity def
+type version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type version
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type version
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity type SimpleName MethodInvocation SimpleName get entity def
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get super types
+get entity def SimpleName MethodInvocation MethodInvocation SimpleName get super types
+super types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity type
+super types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity def
+super types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get super types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute definition
+get attributes SimpleName MethodInvocation SimpleName entity type
+get attributes SimpleName MethodInvocation SimpleName registry
+entity type SimpleName MethodInvocation SimpleName registry
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry
+class type definition SimpleName SimpleType ClassInstanceCreation SimpleName type name
+class type definition SimpleName SimpleType ClassInstanceCreation SimpleName type desc
+class type definition SimpleName SimpleType ClassInstanceCreation SimpleName type version
+class type definition SimpleName SimpleType ClassInstanceCreation SimpleName attributes
+class type definition SimpleName SimpleType ClassInstanceCreation SimpleName super types
+type name SimpleName ClassInstanceCreation SimpleName type desc
+type name SimpleName ClassInstanceCreation SimpleName type version
+type name SimpleName ClassInstanceCreation SimpleName attributes
+type name SimpleName ClassInstanceCreation SimpleName super types
+type desc SimpleName ClassInstanceCreation SimpleName type version
+type desc SimpleName ClassInstanceCreation SimpleName attributes
+type desc SimpleName ClassInstanceCreation SimpleName super types
+type version SimpleName ClassInstanceCreation SimpleName attributes
+type version SimpleName ClassInstanceCreation SimpleName super types
+attributes SimpleName ClassInstanceCreation SimpleName super types
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName class type definition
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type name
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type desc
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type version
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attributes
+class type def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName super types
+class type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type def
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName class type def
+as list SimpleName MethodInvocation SimpleName class type def
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName class type def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName types def
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName class type def
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName types def
+private Modifier MethodDeclaration SimpleName entity to types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration SimpleType SimpleName types def
+static Modifier MethodDeclaration SimpleName entity to types def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+types def SimpleName SimpleType MethodDeclaration SimpleName entity to types def
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName registry
+entity to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+entity to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+entity to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registry
+entity to types def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName entity to types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entity to types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry

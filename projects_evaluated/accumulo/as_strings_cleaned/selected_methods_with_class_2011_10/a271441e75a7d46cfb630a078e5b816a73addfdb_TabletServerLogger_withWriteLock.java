@@ -1,0 +1,10 @@
+void PrimitiveType MethodDeclaration SimpleName with write lock
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+with write lock SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName with write lock
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with write lock
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,85 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+event SimpleName MethodInvocation SimpleName get outputs
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression SimpleName entity type
+get type SimpleName MethodInvocation InfixExpression SimpleName entity type
+event SimpleName MethodInvocation SimpleName get user
+create or update entities SimpleName MethodInvocation SimpleName dgi bridge
+create or update entities SimpleName MethodInvocation MethodInvocation SimpleName event
+create or update entities SimpleName MethodInvocation MethodInvocation SimpleName get user
+create or update entities SimpleName MethodInvocation SimpleName entity
+create or update entities SimpleName MethodInvocation BooleanLiteral true
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName get user
+dgi bridge SimpleName MethodInvocation SimpleName entity
+dgi bridge SimpleName MethodInvocation BooleanLiteral true
+event SimpleName MethodInvocation MethodInvocation SimpleName entity
+get user SimpleName MethodInvocation MethodInvocation SimpleName entity
+event SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get user SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+entity SimpleName MethodInvocation BooleanLiteral true
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update entities
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi bridge
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName event
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get user
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity created or updated SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity created or updated
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName entity
+pair SimpleName MethodInvocation SimpleName entity created or updated
+of SimpleName MethodInvocation SimpleName entity
+of SimpleName MethodInvocation SimpleName entity created or updated
+entity SimpleName MethodInvocation SimpleName entity created or updated
+entities created or updated SimpleName MethodInvocation SimpleName add
+entities created or updated SimpleName MethodInvocation MethodInvocation SimpleName pair
+entities created or updated SimpleName MethodInvocation MethodInvocation SimpleName of
+entities created or updated SimpleName MethodInvocation MethodInvocation SimpleName entity
+entities created or updated SimpleName MethodInvocation MethodInvocation SimpleName entity created or updated
+add SimpleName MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation SimpleName entity created or updated
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName event
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get outputs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName handle event outputs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName handle event outputs
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type
+handle event outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+handle event outputs SimpleName MethodDeclaration SimpleType SimpleName exception
+handle event outputs SimpleName MethodDeclaration Block ReturnStatement SimpleName entities created or updated
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event outputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event outputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

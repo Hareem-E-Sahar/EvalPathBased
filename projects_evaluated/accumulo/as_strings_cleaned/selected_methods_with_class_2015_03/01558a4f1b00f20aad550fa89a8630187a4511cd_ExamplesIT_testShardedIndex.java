@@ -1,0 +1,448 @@
+get unique names SimpleName MethodInvocation NumberLiteral empty
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get unique names
+names SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+names SimpleName ArrayAccess NumberLiteral empty
+shard SimpleName VariableDeclarationFragment ArrayAccess SimpleName names
+shard SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+names SimpleName ArrayAccess NumberLiteral empty
+index SimpleName VariableDeclarationFragment ArrayAccess SimpleName names
+index SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName shard
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shard
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+shard SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName shard
+table operations SimpleName MethodInvocation MethodInvocation SimpleName shard
+create SimpleName MethodInvocation SimpleName shard
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName index
+table operations SimpleName MethodInvocation MethodInvocation SimpleName index
+create SimpleName MethodInvocation SimpleName index
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation SimpleName shard
+c SimpleName MethodInvocation SimpleName bwc
+create batch writer SimpleName MethodInvocation SimpleName shard
+create batch writer SimpleName MethodInvocation SimpleName bwc
+shard SimpleName MethodInvocation SimpleName bwc
+bw SimpleName Assignment MethodInvocation SimpleName c
+bw SimpleName Assignment MethodInvocation SimpleName create batch writer
+bw SimpleName Assignment MethodInvocation SimpleName shard
+bw SimpleName Assignment MethodInvocation SimpleName bwc
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral src
+get property SimpleName MethodInvocation InfixExpression StringLiteral src
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral src
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral src
+index SimpleName MethodInvocation SimpleName index
+index SimpleName MethodInvocation NumberLiteral empty
+index SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+index SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral src
+index SimpleName MethodInvocation StringLiteral w
+index SimpleName MethodInvocation SimpleName bw
+index SimpleName MethodInvocation NumberLiteral empty
+index SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+index SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral src
+index SimpleName MethodInvocation StringLiteral w
+index SimpleName MethodInvocation SimpleName bw
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+empty NumberLiteral MethodInvocation ClassInstanceCreation InfixExpression StringLiteral src
+empty NumberLiteral MethodInvocation StringLiteral w
+empty NumberLiteral MethodInvocation SimpleName bw
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral w
+src StringLiteral InfixExpression ClassInstanceCreation MethodInvocation StringLiteral w
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bw
+src StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName bw
+w StringLiteral MethodInvocation SimpleName bw
+bw SimpleName MethodInvocation SimpleName close
+c SimpleName MethodInvocation SimpleName create batch scanner
+c SimpleName MethodInvocation SimpleName shard
+c SimpleName MethodInvocation QualifiedName authorizationsempty
+c SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation SimpleName shard
+create batch scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+shard SimpleName MethodInvocation QualifiedName authorizationsempty
+shard SimpleName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName shard
+bs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+bs SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation StringLiteral foo
+arrays SimpleName MethodInvocation StringLiteral bar
+as list SimpleName MethodInvocation StringLiteral foo
+as list SimpleName MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation StringLiteral bar
+query SimpleName MethodInvocation SimpleName query
+query SimpleName MethodInvocation SimpleName bs
+query SimpleName MethodInvocation MethodInvocation SimpleName arrays
+query SimpleName MethodInvocation MethodInvocation SimpleName as list
+query SimpleName MethodInvocation MethodInvocation StringLiteral foo
+query SimpleName MethodInvocation MethodInvocation StringLiteral bar
+query SimpleName MethodInvocation SimpleName bs
+query SimpleName MethodInvocation MethodInvocation SimpleName arrays
+query SimpleName MethodInvocation MethodInvocation SimpleName as list
+query SimpleName MethodInvocation MethodInvocation StringLiteral foo
+query SimpleName MethodInvocation MethodInvocation StringLiteral bar
+bs SimpleName MethodInvocation MethodInvocation SimpleName arrays
+bs SimpleName MethodInvocation MethodInvocation SimpleName as list
+bs SimpleName MethodInvocation MethodInvocation StringLiteral foo
+bs SimpleName MethodInvocation MethodInvocation StringLiteral bar
+found SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+found SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+found SimpleName VariableDeclarationFragment MethodInvocation SimpleName bs
+found SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+found SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+found SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral foo
+found SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral bar
+bs SimpleName MethodInvocation SimpleName close
+this file SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName this file
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file SimpleName MethodInvocation SimpleName ends with
+file SimpleName MethodInvocation StringLiteral examples itjava
+ends with SimpleName MethodInvocation StringLiteral examples itjava
+this file SimpleName Assignment BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName found
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName found
+assert true SimpleName MethodInvocation SimpleName this file
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral shard table
+i StringLiteral ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral shard table
+instance SimpleName ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral shard table
+z StringLiteral ArrayInitializer SimpleName shard
+z StringLiteral ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral shard table
+keepers SimpleName ArrayInitializer SimpleName shard
+keepers SimpleName ArrayInitializer StringLiteral doc term
+keepers SimpleName ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName shard
+shard table StringLiteral ArrayInitializer StringLiteral doc term
+shard table StringLiteral ArrayInitializer SimpleName index
+shard table StringLiteral ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral doc term
+shard SimpleName ArrayInitializer SimpleName index
+shard SimpleName ArrayInitializer StringLiteral u
+shard SimpleName ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral keytab
+doc term StringLiteral ArrayInitializer SimpleName index
+doc term StringLiteral ArrayInitializer StringLiteral u
+doc term StringLiteral ArrayInitializer SimpleName user
+doc term StringLiteral ArrayInitializer StringLiteral keytab
+doc term StringLiteral ArrayInitializer SimpleName keytab
+index SimpleName ArrayInitializer StringLiteral u
+index SimpleName ArrayInitializer SimpleName user
+index SimpleName ArrayInitializer StringLiteral keytab
+index SimpleName ArrayInitializer SimpleName keytab
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral keytab
+u StringLiteral ArrayInitializer SimpleName keytab
+user SimpleName ArrayInitializer StringLiteral keytab
+user SimpleName ArrayInitializer SimpleName keytab
+keytab StringLiteral ArrayInitializer SimpleName keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral shard table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName shard
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral doc term
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName index
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keytab
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral shard table
+i StringLiteral ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral shard table
+instance SimpleName ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral shard table
+z StringLiteral ArrayInitializer SimpleName shard
+z StringLiteral ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral shard table
+keepers SimpleName ArrayInitializer SimpleName shard
+keepers SimpleName ArrayInitializer StringLiteral doc term
+keepers SimpleName ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName shard
+shard table StringLiteral ArrayInitializer StringLiteral doc term
+shard table StringLiteral ArrayInitializer SimpleName index
+shard table StringLiteral ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer MethodInvocation SimpleName get admin principal
+shard SimpleName ArrayInitializer StringLiteral doc term
+shard SimpleName ArrayInitializer SimpleName index
+shard SimpleName ArrayInitializer StringLiteral u
+shard SimpleName ArrayInitializer MethodInvocation SimpleName get admin principal
+shard SimpleName ArrayInitializer StringLiteral p
+doc term StringLiteral ArrayInitializer SimpleName index
+doc term StringLiteral ArrayInitializer StringLiteral u
+doc term StringLiteral ArrayInitializer MethodInvocation SimpleName get admin principal
+doc term StringLiteral ArrayInitializer StringLiteral p
+doc term StringLiteral ArrayInitializer SimpleName passwd
+index SimpleName ArrayInitializer StringLiteral u
+index SimpleName ArrayInitializer MethodInvocation SimpleName get admin principal
+index SimpleName ArrayInitializer StringLiteral p
+index SimpleName ArrayInitializer SimpleName passwd
+u StringLiteral ArrayInitializer MethodInvocation SimpleName get admin principal
+u StringLiteral ArrayInitializer StringLiteral p
+u StringLiteral ArrayInitializer SimpleName passwd
+get admin principal SimpleName MethodInvocation ArrayInitializer StringLiteral p
+get admin principal SimpleName MethodInvocation ArrayInitializer SimpleName passwd
+p StringLiteral ArrayInitializer SimpleName passwd
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral shard table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName shard
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral doc term
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName index
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral p
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName passwd
+good exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reverse
+good exec SimpleName MethodInvocation SimpleName args
+reverse SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral shard table
+i StringLiteral ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral shard table
+instance SimpleName ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral shard table
+z StringLiteral ArrayInitializer SimpleName shard
+z StringLiteral ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral shard table
+keepers SimpleName ArrayInitializer SimpleName shard
+keepers SimpleName ArrayInitializer StringLiteral doc term
+keepers SimpleName ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName shard
+shard table StringLiteral ArrayInitializer StringLiteral doc term
+shard table StringLiteral ArrayInitializer SimpleName index
+shard table StringLiteral ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral doc term
+shard SimpleName ArrayInitializer SimpleName index
+shard SimpleName ArrayInitializer StringLiteral u
+shard SimpleName ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral keytab
+doc term StringLiteral ArrayInitializer SimpleName index
+doc term StringLiteral ArrayInitializer StringLiteral u
+doc term StringLiteral ArrayInitializer SimpleName user
+doc term StringLiteral ArrayInitializer StringLiteral keytab
+doc term StringLiteral ArrayInitializer SimpleName keytab
+index SimpleName ArrayInitializer StringLiteral u
+index SimpleName ArrayInitializer SimpleName user
+index SimpleName ArrayInitializer StringLiteral keytab
+index SimpleName ArrayInitializer SimpleName keytab
+index SimpleName ArrayInitializer StringLiteral terms
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral keytab
+u StringLiteral ArrayInitializer SimpleName keytab
+u StringLiteral ArrayInitializer StringLiteral terms
+u StringLiteral ArrayInitializer StringLiteral empty
+user SimpleName ArrayInitializer StringLiteral keytab
+user SimpleName ArrayInitializer SimpleName keytab
+user SimpleName ArrayInitializer StringLiteral terms
+user SimpleName ArrayInitializer StringLiteral empty
+user SimpleName ArrayInitializer StringLiteral count
+keytab StringLiteral ArrayInitializer SimpleName keytab
+keytab StringLiteral ArrayInitializer StringLiteral terms
+keytab StringLiteral ArrayInitializer StringLiteral empty
+keytab StringLiteral ArrayInitializer StringLiteral count
+keytab StringLiteral ArrayInitializer StringLiteral empty
+keytab SimpleName ArrayInitializer StringLiteral terms
+keytab SimpleName ArrayInitializer StringLiteral empty
+keytab SimpleName ArrayInitializer StringLiteral count
+keytab SimpleName ArrayInitializer StringLiteral empty
+terms StringLiteral ArrayInitializer StringLiteral empty
+terms StringLiteral ArrayInitializer StringLiteral count
+terms StringLiteral ArrayInitializer StringLiteral empty
+empty StringLiteral ArrayInitializer StringLiteral count
+empty StringLiteral ArrayInitializer StringLiteral empty
+count StringLiteral ArrayInitializer StringLiteral empty
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral shard table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName shard
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral doc term
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName index
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral terms
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral empty
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral count
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral empty
+i StringLiteral ArrayInitializer SimpleName instance
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer SimpleName keepers
+i StringLiteral ArrayInitializer StringLiteral shard table
+i StringLiteral ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral z
+instance SimpleName ArrayInitializer SimpleName keepers
+instance SimpleName ArrayInitializer StringLiteral shard table
+instance SimpleName ArrayInitializer SimpleName shard
+instance SimpleName ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName keepers
+z StringLiteral ArrayInitializer StringLiteral shard table
+z StringLiteral ArrayInitializer SimpleName shard
+z StringLiteral ArrayInitializer StringLiteral doc term
+z StringLiteral ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral shard table
+keepers SimpleName ArrayInitializer SimpleName shard
+keepers SimpleName ArrayInitializer StringLiteral doc term
+keepers SimpleName ArrayInitializer SimpleName index
+keepers SimpleName ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName shard
+shard table StringLiteral ArrayInitializer StringLiteral doc term
+shard table StringLiteral ArrayInitializer SimpleName index
+shard table StringLiteral ArrayInitializer StringLiteral u
+shard table StringLiteral ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral doc term
+shard SimpleName ArrayInitializer SimpleName index
+shard SimpleName ArrayInitializer StringLiteral u
+shard SimpleName ArrayInitializer SimpleName user
+shard SimpleName ArrayInitializer StringLiteral p
+doc term StringLiteral ArrayInitializer SimpleName index
+doc term StringLiteral ArrayInitializer StringLiteral u
+doc term StringLiteral ArrayInitializer SimpleName user
+doc term StringLiteral ArrayInitializer StringLiteral p
+doc term StringLiteral ArrayInitializer SimpleName passwd
+index SimpleName ArrayInitializer StringLiteral u
+index SimpleName ArrayInitializer SimpleName user
+index SimpleName ArrayInitializer StringLiteral p
+index SimpleName ArrayInitializer SimpleName passwd
+index SimpleName ArrayInitializer StringLiteral terms
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral p
+u StringLiteral ArrayInitializer SimpleName passwd
+u StringLiteral ArrayInitializer StringLiteral terms
+u StringLiteral ArrayInitializer StringLiteral empty
+user SimpleName ArrayInitializer StringLiteral p
+user SimpleName ArrayInitializer SimpleName passwd
+user SimpleName ArrayInitializer StringLiteral terms
+user SimpleName ArrayInitializer StringLiteral empty
+user SimpleName ArrayInitializer StringLiteral count
+p StringLiteral ArrayInitializer SimpleName passwd
+p StringLiteral ArrayInitializer StringLiteral terms
+p StringLiteral ArrayInitializer StringLiteral empty
+p StringLiteral ArrayInitializer StringLiteral count
+p StringLiteral ArrayInitializer StringLiteral empty
+passwd SimpleName ArrayInitializer StringLiteral terms
+passwd SimpleName ArrayInitializer StringLiteral empty
+passwd SimpleName ArrayInitializer StringLiteral count
+passwd SimpleName ArrayInitializer StringLiteral empty
+terms StringLiteral ArrayInitializer StringLiteral empty
+terms StringLiteral ArrayInitializer StringLiteral count
+terms StringLiteral ArrayInitializer StringLiteral empty
+empty StringLiteral ArrayInitializer StringLiteral count
+empty StringLiteral ArrayInitializer StringLiteral empty
+count StringLiteral ArrayInitializer StringLiteral empty
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName instance
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keepers
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral shard table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName shard
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral doc term
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName index
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral p
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName passwd
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral terms
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral empty
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral count
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral empty
+good exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName continuous query
+good exec SimpleName MethodInvocation SimpleName args
+continuous query SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName found
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName sasl enabled
+found SimpleName EnhancedForStatement Block IfStatement SimpleName sasl enabled
+found SimpleName EnhancedForStatement Block IfStatement SimpleName sasl enabled
+sasl enabled SimpleName IfStatement Block IfStatement SimpleName sasl enabled
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test sharded index
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test sharded index
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName found
+public Modifier MethodDeclaration Block IfStatement SimpleName sasl enabled
+public Modifier MethodDeclaration Block IfStatement SimpleName sasl enabled
+void PrimitiveType MethodDeclaration SimpleName test sharded index
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName found
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName sasl enabled
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName sasl enabled
+test sharded index SimpleName MethodDeclaration SimpleType SimpleName exception
+test sharded index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test sharded index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test sharded index SimpleName MethodDeclaration Block EnhancedForStatement SimpleName found
+test sharded index SimpleName MethodDeclaration Block IfStatement SimpleName sasl enabled
+test sharded index SimpleName MethodDeclaration Block IfStatement SimpleName sasl enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test sharded index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test sharded index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

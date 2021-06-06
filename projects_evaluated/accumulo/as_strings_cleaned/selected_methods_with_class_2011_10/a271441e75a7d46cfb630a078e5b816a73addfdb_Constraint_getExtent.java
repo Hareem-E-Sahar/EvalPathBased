@@ -1,0 +1,6 @@
+key extent SimpleName SimpleType MethodDeclaration SimpleName get extent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+public Modifier TypeDeclaration MethodDeclaration SimpleName get extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get extent

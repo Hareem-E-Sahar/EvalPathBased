@@ -1,0 +1,67 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName server type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName server type
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName server type
+references SimpleName MethodInvocation SimpleName master process
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName server typemaster
+result SimpleName MethodInvocation MethodInvocation SimpleName references
+result SimpleName MethodInvocation MethodInvocation SimpleName master process
+put SimpleName MethodInvocation QualifiedName server typemaster
+put SimpleName MethodInvocation MethodInvocation SimpleName references
+put SimpleName MethodInvocation MethodInvocation SimpleName master process
+server typemaster QualifiedName MethodInvocation MethodInvocation SimpleName references
+server typemaster QualifiedName MethodInvocation MethodInvocation SimpleName master process
+process SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+tablet server processes SimpleName MethodInvocation SimpleName to array
+tablet server processes SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+references SimpleName MethodInvocation MethodInvocation SimpleName tablet server processes
+references SimpleName MethodInvocation MethodInvocation SimpleName to array
+references SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName server typetablet server
+result SimpleName MethodInvocation MethodInvocation SimpleName references
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server processes
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+put SimpleName MethodInvocation QualifiedName server typetablet server
+put SimpleName MethodInvocation MethodInvocation SimpleName references
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server processes
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+server typetablet server QualifiedName MethodInvocation MethodInvocation SimpleName references
+server typetablet server QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server processes
+server typetablet server QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+references SimpleName MethodInvocation SimpleName zoo keeper process
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName server typezookeeper
+result SimpleName MethodInvocation MethodInvocation SimpleName references
+result SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper process
+put SimpleName MethodInvocation QualifiedName server typezookeeper
+put SimpleName MethodInvocation MethodInvocation SimpleName references
+put SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper process
+server typezookeeper QualifiedName MethodInvocation MethodInvocation SimpleName references
+server typezookeeper QualifiedName MethodInvocation MethodInvocation SimpleName zoo keeper process
+references SimpleName MethodInvocation SimpleName gc process
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName server typegarbage collector
+result SimpleName MethodInvocation MethodInvocation SimpleName references
+result SimpleName MethodInvocation MethodInvocation SimpleName gc process
+put SimpleName MethodInvocation QualifiedName server typegarbage collector
+put SimpleName MethodInvocation MethodInvocation SimpleName references
+put SimpleName MethodInvocation MethodInvocation SimpleName gc process
+server typegarbage collector QualifiedName MethodInvocation MethodInvocation SimpleName references
+server typegarbage collector QualifiedName MethodInvocation MethodInvocation SimpleName gc process
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName server type
+public Modifier MethodDeclaration SimpleName get processes
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get processes
+server type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get processes
+get processes SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get processes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get processes

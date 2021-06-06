@@ -1,0 +1,16 @@
+attribute SimpleName MethodInvocation SimpleName get attribute type
+current element type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName attribute
+current element type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get attribute type
+current element type SimpleName InfixExpression ConditionalExpression SimpleName current element type
+attribute SimpleName MethodInvocation ConditionalExpression SimpleName current element type
+get attribute type SimpleName MethodInvocation ConditionalExpression SimpleName current element type
+public Modifier MethodDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SimpleName get attr type
+atlas type SimpleName SimpleType MethodDeclaration SimpleName get attr type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attr type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attr type

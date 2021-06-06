@@ -1,0 +1,116 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pruned attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pruned attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName pruned attributes
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName pruned attributes
+is empty SimpleName MethodInvocation SimpleName pruned attributes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+entity SimpleName MethodInvocation SimpleName get values map
+entity attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get values map
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName entity attributes
+is not empty SimpleName MethodInvocation SimpleName entity attributes
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute info
+entity SimpleName MethodInvocation SimpleName field mapping
+entity SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+attribute info map SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName entity
+attribute info map SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName field mapping
+attribute info map SimpleName VariableDeclarationFragment FieldAccess SimpleName fields
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+entity attributes SimpleName MethodInvocation SimpleName key set
+entity attributes SimpleName MethodInvocation SimpleName get
+entity attributes SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity attributes
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute info map SimpleName MethodInvocation SimpleName get
+attribute info map SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+attr info SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info map
+attr info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attr info SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr info
+pruned attributes SimpleName MethodInvocation SimpleName contains key
+pruned attributes SimpleName MethodInvocation SimpleName attr name
+contains key SimpleName MethodInvocation SimpleName attr name
+pruned attributes SimpleName MethodInvocation SimpleName get
+pruned attributes SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation SimpleName attr name
+entity SimpleName MethodInvocation MethodInvocation SimpleName pruned attributes
+entity SimpleName MethodInvocation MethodInvocation SimpleName get
+entity SimpleName MethodInvocation MethodInvocation SimpleName attr name
+set SimpleName MethodInvocation SimpleName attr name
+set SimpleName MethodInvocation MethodInvocation SimpleName pruned attributes
+set SimpleName MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName pruned attributes
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get
+attr name SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr value SimpleName InstanceofExpression SimpleType SimpleName collection
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attribute entity
+collection SimpleName SimpleType CastExpression SimpleName attr value
+attribute entity SimpleName InstanceofExpression SimpleType SimpleName i typed referenceable instance
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName attribute entity
+restore attributes SimpleName MethodInvocation SimpleName pruned attributes
+restore attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed referenceable instance
+restore attributes SimpleName MethodInvocation CastExpression SimpleName attribute entity
+pruned attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed referenceable instance
+pruned attributes SimpleName MethodInvocation CastExpression SimpleName attribute entity
+attribute entity SimpleName SingleVariableDeclaration EnhancedForStatement CastExpression SimpleName attr value
+attr value SimpleName InstanceofExpression SimpleType SimpleName i typed referenceable instance
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName attr value
+restore attributes SimpleName MethodInvocation SimpleName pruned attributes
+restore attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed referenceable instance
+restore attributes SimpleName MethodInvocation CastExpression SimpleName attr value
+pruned attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName i typed referenceable instance
+pruned attributes SimpleName MethodInvocation CastExpression SimpleName attr value
+pruned attributes SimpleName MethodInvocation IfStatement IfStatement QualifiedName attr infois composite
+contains key SimpleName MethodInvocation IfStatement IfStatement QualifiedName attr infois composite
+attr name SimpleName MethodInvocation IfStatement IfStatement QualifiedName attr infois composite
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity attributes
+attr name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName restore entity attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName restore entity attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+restore entity attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+restore entity attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+restore entity attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+restore entity attributes SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+pruned attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName restore entity attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restore entity attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

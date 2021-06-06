@@ -1,0 +1,141 @@
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+compaction stats SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName maj c stats
+trace SimpleName MethodInvocation SimpleName on
+trace SimpleName MethodInvocation StringLiteral major compaction
+on SimpleName MethodInvocation StringLiteral major compaction
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName on
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral major compaction
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+major compaction queued SimpleName Assignment BooleanLiteral false
+needs major compaction SimpleName MethodInvocation SimpleName reason
+closing SimpleName InfixExpression SimpleName closed
+closing SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName needs major compaction
+closing SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName reason
+closing SimpleName InfixExpression SimpleName major compaction in progress
+closing SimpleName InfixExpression MethodInvocation SimpleName needs split
+closed SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName needs major compaction
+closed SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName reason
+closed SimpleName InfixExpression SimpleName major compaction in progress
+closed SimpleName InfixExpression MethodInvocation SimpleName needs split
+needs major compaction SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction in progress
+reason SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName major compaction in progress
+major compaction in progress SimpleName InfixExpression MethodInvocation SimpleName needs split
+major compaction in progress SimpleName Assignment BooleanLiteral true
+major compact SimpleName MethodInvocation SimpleName reason
+maj c stats SimpleName Assignment MethodInvocation SimpleName major compact
+maj c stats SimpleName Assignment MethodInvocation SimpleName reason
+reason SimpleName InfixExpression QualifiedName major compaction reasonchop
+tablet server SimpleName FieldAccess MethodInvocation SimpleName get lock
+metadata table SimpleName MethodInvocation SimpleName chopped
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get extent
+metadata table SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName tablet server
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get lock
+chopped SimpleName MethodInvocation MethodInvocation SimpleName get extent
+chopped SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName tablet server
+chopped SimpleName MethodInvocation MethodInvocation SimpleName get lock
+get extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+tablet status message SimpleName SimpleType ClassInstanceCreation QualifiedName tablet load statechopped
+tablet status message SimpleName SimpleType ClassInstanceCreation SimpleName extent
+tablet load statechopped QualifiedName ClassInstanceCreation SimpleName extent
+tablet server SimpleName MethodInvocation SimpleName enqueue master message
+tablet server SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet status message
+tablet server SimpleName MethodInvocation ClassInstanceCreation QualifiedName tablet load statechopped
+tablet server SimpleName MethodInvocation ClassInstanceCreation SimpleName extent
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet status message
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation QualifiedName tablet load statechopped
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation SimpleName extent
+compaction canceled exception SimpleName SimpleType SingleVariableDeclaration SimpleName mcce
+major compaction canceled extent = StringLiteral InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral major compaction canceled extent =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral major compaction canceled extent =
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName mcce
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+maj c failed extent = StringLiteral InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c failed extent =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+error SimpleName MethodInvocation InfixExpression StringLiteral maj c failed extent =
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+t SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+t SimpleName MethodInvocation SimpleName get message
+get name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName t
+get name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c failed message =
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral maj c failed message =
+error SimpleName MethodInvocation SimpleName t
+maj c failed message = StringLiteral InfixExpression MethodInvocation SimpleName t
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+major compaction in progress SimpleName Assignment BooleanLiteral false
+trace SimpleName MethodInvocation SimpleName current trace
+curr SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+curr SimpleName VariableDeclarationFragment MethodInvocation SimpleName current trace
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get extent
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral extent
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+data SimpleName MethodInvocation StringLiteral extent
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+extent StringLiteral MethodInvocation InfixExpression StringLiteral empty
+extent StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+maj c stats SimpleName MethodInvocation SimpleName get entries read
+empty StringLiteral InfixExpression MethodInvocation SimpleName maj c stats
+empty StringLiteral InfixExpression MethodInvocation SimpleName get entries read
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral read
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+data SimpleName MethodInvocation StringLiteral read
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+read StringLiteral MethodInvocation InfixExpression StringLiteral empty
+read StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+read StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+maj c stats SimpleName MethodInvocation SimpleName get entries written
+empty StringLiteral InfixExpression MethodInvocation SimpleName maj c stats
+empty StringLiteral InfixExpression MethodInvocation SimpleName get entries written
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral written
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+data SimpleName MethodInvocation StringLiteral written
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+written StringLiteral MethodInvocation InfixExpression StringLiteral empty
+written StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+written StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+span SimpleName MethodInvocation SimpleName stop
+private Modifier MethodDeclaration SimpleType SimpleName compaction stats
+private Modifier MethodDeclaration SimpleName major compact
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+private Modifier MethodDeclaration Block ReturnStatement SimpleName maj c stats
+compaction stats SimpleName SimpleType MethodDeclaration SimpleName major compact
+compaction stats SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reason
+major compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+major compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+major compact SimpleName MethodDeclaration Block ReturnStatement SimpleName maj c stats
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compaction stats
+public Modifier TypeDeclaration MethodDeclaration SimpleName major compact
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compaction stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleName major compact
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

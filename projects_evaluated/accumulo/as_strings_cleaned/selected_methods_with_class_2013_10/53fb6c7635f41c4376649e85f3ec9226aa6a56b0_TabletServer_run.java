@@ -1,0 +1,31 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+online tablets SimpleName MethodInvocation SimpleName values
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName online tablets
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName values
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+tablet SimpleName MethodInvocation SimpleName check constraints
+tablet SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+online tablets SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName tablets
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tablets
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tablets
+run SimpleName MethodDeclaration Block SynchronizedStatement SimpleName online tablets
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tablets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

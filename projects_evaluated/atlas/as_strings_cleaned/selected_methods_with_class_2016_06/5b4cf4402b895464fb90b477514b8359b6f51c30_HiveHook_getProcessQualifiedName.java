@@ -1,0 +1,79 @@
+hive operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName inputs
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+op SimpleName MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName op
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get operation name
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName op
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+add datasets SimpleName MethodInvocation SimpleName op
+add datasets SimpleName MethodInvocation SimpleName buffer
+add datasets SimpleName MethodInvocation SimpleName inputs
+op SimpleName MethodInvocation SimpleName buffer
+op SimpleName MethodInvocation SimpleName inputs
+buffer SimpleName MethodInvocation SimpleName inputs
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation SimpleName io sep
+append SimpleName MethodInvocation SimpleName io sep
+add datasets SimpleName MethodInvocation SimpleName op
+add datasets SimpleName MethodInvocation SimpleName buffer
+add datasets SimpleName MethodInvocation SimpleName outputs
+op SimpleName MethodInvocation SimpleName buffer
+op SimpleName MethodInvocation SimpleName outputs
+buffer SimpleName MethodInvocation SimpleName outputs
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral setting process qualified name to {}
+log SimpleName MethodInvocation SimpleName buffer
+info SimpleName MethodInvocation StringLiteral setting process qualified name to {}
+info SimpleName MethodInvocation SimpleName buffer
+setting process qualified name to {} StringLiteral MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName to string
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName get process qualified name
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName op
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName inputs
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get process qualified name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName inputs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName outputs
+string SimpleName SimpleType MethodDeclaration SimpleName get process qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName inputs
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName outputs
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive operation
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inputs
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName outputs
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs

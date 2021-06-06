@@ -1,0 +1,134 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName si
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName si
+not null SimpleName MethodInvocation SimpleName si
+server side iterator list SimpleName MethodInvocation SimpleName size
+server side iterator list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+iter info SimpleName SimpleType SingleVariableDeclaration SimpleName ii
+si SimpleName MethodInvocation SimpleName get name
+iiiter name QualifiedName MethodInvocation SimpleName equals
+iiiter name QualifiedName MethodInvocation MethodInvocation SimpleName si
+iiiter name QualifiedName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName si
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+si SimpleName MethodInvocation SimpleName get name
+iterator name is already in use StringLiteral InfixExpression MethodInvocation SimpleName si
+iterator name is already in use StringLiteral InfixExpression MethodInvocation SimpleName get name
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral iterator name is already in use
+iter info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+ii SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+server side iterator list SimpleName EnhancedForStatement IfStatement MethodInvocation QualifiedName iiiter name
+server side iterator list SimpleName EnhancedForStatement IfStatement MethodInvocation SimpleName equals
+si SimpleName MethodInvocation SimpleName get priority
+si SimpleName MethodInvocation SimpleName get iterator class
+si SimpleName MethodInvocation SimpleName get name
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName si
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get priority
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName si
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get iterator class
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName si
+iter info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+get priority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+si SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get iterator class SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+get iterator class SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+server side iterator list SimpleName MethodInvocation SimpleName add
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get priority
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+server side iterator list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get priority
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get iterator class
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName si
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+server side iterator options SimpleName MethodInvocation SimpleName size
+server side iterator options SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+si SimpleName MethodInvocation SimpleName get name
+server side iterator options SimpleName MethodInvocation SimpleName get
+server side iterator options SimpleName MethodInvocation MethodInvocation SimpleName si
+server side iterator options SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName si
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName server side iterator options
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName si
+opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+si SimpleName MethodInvocation SimpleName get name
+server side iterator options SimpleName MethodInvocation SimpleName put
+server side iterator options SimpleName MethodInvocation MethodInvocation SimpleName si
+server side iterator options SimpleName MethodInvocation MethodInvocation SimpleName get name
+server side iterator options SimpleName MethodInvocation SimpleName opts
+put SimpleName MethodInvocation MethodInvocation SimpleName si
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName opts
+si SimpleName MethodInvocation MethodInvocation SimpleName opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName opts
+si SimpleName MethodInvocation SimpleName get properties
+opts SimpleName MethodInvocation SimpleName put all
+opts SimpleName MethodInvocation MethodInvocation SimpleName si
+opts SimpleName MethodInvocation MethodInvocation SimpleName get properties
+put all SimpleName MethodInvocation MethodInvocation SimpleName si
+put all SimpleName MethodInvocation MethodInvocation SimpleName get properties
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add scan iterator
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName si
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add scan iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName si
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add scan iterator
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName si
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+void PrimitiveType MethodDeclaration SimpleName add scan iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName si
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+add scan iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+add scan iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName si
+add scan iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add scan iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName si
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add scan iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName si

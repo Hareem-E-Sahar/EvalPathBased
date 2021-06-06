@@ -1,0 +1,51 @@
+atlas edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+unrecognized direction StringLiteral InfixExpression SimpleName dir
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized direction
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+dir SimpleName SwitchStatement SwitchCase SimpleName in
+dir SimpleName SwitchStatement ReturnStatement QualifiedName directionin
+dir SimpleName SwitchStatement SwitchCase SimpleName out
+dir SimpleName SwitchStatement ReturnStatement QualifiedName directionout
+dir SimpleName SwitchStatement SwitchCase SimpleName both
+in SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionin
+in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName out
+in SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionout
+in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName both
+in SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionboth
+directionin QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName out
+directionin QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName directionout
+directionin QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName both
+directionin QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName directionboth
+out SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionout
+out SimpleName SwitchCase SwitchStatement SwitchCase SimpleName both
+out SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionboth
+directionout QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName both
+directionout QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName directionboth
+both SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName directionboth
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName direction
+public Modifier MethodDeclaration SimpleName create direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration Block SwitchStatement SimpleName dir
+static Modifier MethodDeclaration SimpleType SimpleName direction
+static Modifier MethodDeclaration SimpleName create direction
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration Block SwitchStatement SimpleName dir
+direction SimpleName SimpleType MethodDeclaration SimpleName create direction
+direction SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+create direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+create direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+create direction SimpleName MethodDeclaration Block SwitchStatement SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName direction
+public Modifier TypeDeclaration MethodDeclaration SimpleName create direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

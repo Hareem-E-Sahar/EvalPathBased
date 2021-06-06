@@ -1,0 +1,59 @@
+writable comparable SimpleName SimpleType SingleVariableDeclaration SimpleName key
+data SimpleName MethodInvocation SimpleName get position
+original position SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+original position SimpleName VariableDeclarationFragment MethodInvocation SimpleName get position
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName original position
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get position
+index infocount QualifiedName InfixExpression NumberLiteral empty
+index infocount QualifiedName InfixExpression NumberLiteral empty
+index infopositions QualifiedName ArrayAccess InfixExpression QualifiedName index infocount
+index infopositions QualifiedName ArrayAccess InfixExpression NumberLiteral empty
+data SimpleName MethodInvocation SimpleName seek
+data SimpleName MethodInvocation ArrayAccess QualifiedName index infopositions
+data SimpleName MethodInvocation ArrayAccess InfixExpression QualifiedName index infocount
+data SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+seek SimpleName MethodInvocation ArrayAccess QualifiedName index infopositions
+seek SimpleName MethodInvocation ArrayAccess InfixExpression QualifiedName index infocount
+seek SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+data SimpleName MethodInvocation SimpleName next
+data SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName key
+data SimpleName MethodInvocation SimpleName seek
+data SimpleName MethodInvocation SimpleName original position
+seek SimpleName MethodInvocation SimpleName original position
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName final key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName final key
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName final key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable comparable
+final key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+final key SimpleName MethodDeclaration SimpleType SimpleName io exception
+final key SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName final key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName final key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

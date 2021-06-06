@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get version
+public Modifier MethodDeclaration Block ReturnStatement SimpleName version
+long PrimitiveType MethodDeclaration SimpleName get version
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName version
+get version SimpleName MethodDeclaration Block ReturnStatement SimpleName version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get version

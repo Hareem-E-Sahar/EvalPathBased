@@ -1,0 +1,287 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+get struct def SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get constraints
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+is empty SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+atlas constraint def SimpleName SimpleType SingleVariableDeclaration SimpleName constraint
+attribute def SimpleName MethodInvocation SimpleName get constraints
+constraint SimpleName MethodInvocation SimpleName is constraint type
+constraint SimpleName MethodInvocation SimpleName constraint type owned ref
+is constraint type SimpleName MethodInvocation SimpleName constraint type owned ref
+attribute def SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName type registry
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName get type
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced entity type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type registry
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeconstraint owned ref attribute invalid type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type owned ref
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation SimpleName constraint type owned ref
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint owned ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type owned ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type owned ref
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type owned ref
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint type owned ref SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute def
+constraint type owned ref SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint SimpleName MethodInvocation SimpleName is constraint type
+constraint SimpleName MethodInvocation SimpleName constraint type inverse ref
+is constraint type SimpleName MethodInvocation SimpleName constraint type inverse ref
+attribute def SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName type registry
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName get type
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced entity type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type registry
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attribute def SimpleName MethodInvocation SimpleName get name
+attribute def SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeconstraint inverse ref attribute invalid type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type inverse ref
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation SimpleName constraint type inverse ref
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint inverse ref attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName attribute def
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint SimpleName MethodInvocation SimpleName get params
+atlas type util SimpleName MethodInvocation SimpleName get string value
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName constraint
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName get params
+atlas type util SimpleName MethodInvocation SimpleName constraint param attribute
+get string value SimpleName MethodInvocation MethodInvocation SimpleName constraint
+get string value SimpleName MethodInvocation MethodInvocation SimpleName get params
+get string value SimpleName MethodInvocation SimpleName constraint param attribute
+constraint SimpleName MethodInvocation MethodInvocation SimpleName constraint param attribute
+get params SimpleName MethodInvocation MethodInvocation SimpleName constraint param attribute
+inverse ref attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+inverse ref attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+inverse ref attr name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName constraint
+inverse ref attr name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get params
+inverse ref attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName constraint param attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverse ref attr name
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName inverse ref attr name
+is blank SimpleName MethodInvocation SimpleName inverse ref attr name
+attribute def SimpleName MethodInvocation SimpleName get name
+constraint SimpleName MethodInvocation SimpleName get params
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName constraint
+string SimpleName MethodInvocation MethodInvocation SimpleName get params
+value of SimpleName MethodInvocation MethodInvocation SimpleName constraint
+value of SimpleName MethodInvocation MethodInvocation SimpleName get params
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeconstraint missing params
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint param attribute
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type inverse ref
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation SimpleName constraint param attribute
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation SimpleName constraint type inverse ref
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation SimpleName string
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation SimpleName value of
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName constraint
+atlas error codeconstraint missing params QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get params
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint param attribute
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value of
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint param attribute
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint param attribute
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value of
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value of
+constraint param attribute SimpleName ClassInstanceCreation SimpleName constraint type inverse ref
+constraint param attribute SimpleName ClassInstanceCreation MethodInvocation SimpleName string
+constraint param attribute SimpleName ClassInstanceCreation MethodInvocation SimpleName value of
+constraint param attribute SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName constraint
+constraint param attribute SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get params
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName string
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName value of
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName constraint
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get params
+attr type SimpleName MethodInvocation SimpleName get struct def
+attr type SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get struct def SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+attr type SimpleName MethodInvocation MethodInvocation SimpleName inverse ref attr name
+get struct def SimpleName MethodInvocation MethodInvocation SimpleName inverse ref attr name
+get attribute SimpleName MethodInvocation SimpleName inverse ref attr name
+inverse ref attr def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr type
+inverse ref attr def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get struct def
+inverse ref attr def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+inverse ref attr def SimpleName VariableDeclarationFragment MethodInvocation SimpleName inverse ref attr name
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverse ref attr def
+attribute def SimpleName MethodInvocation SimpleName get name
+attr type SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeconstraint inverse ref inverse attribute non existing
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type inverse ref
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation SimpleName constraint type inverse ref
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation MethodInvocation SimpleName attr type
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute non existing QualifiedName ClassInstanceCreation SimpleName inverse ref attr name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName attr type
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint type inverse ref SimpleName ClassInstanceCreation SimpleName inverse ref attr name
+attr type SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+inverse ref attr def SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName inverse ref attr def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName inverse ref attr def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName type registry
+get referenced entity type SimpleName MethodInvocation MethodInvocation SimpleName get type
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName inverse ref attr def
+get referenced entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+inverse ref attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced entity type
+inverse ref attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type registry
+inverse ref attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverse ref attr type
+attribute def SimpleName MethodInvocation SimpleName get name
+attr type SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeconstraint inverse ref inverse attribute invalid type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type inverse ref
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attribute def
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation SimpleName constraint type inverse ref
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName attr type
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeconstraint inverse ref inverse attribute invalid type QualifiedName ClassInstanceCreation SimpleName inverse ref attr name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attribute def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type inverse ref
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+attribute def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr type
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+attribute def SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName attr type
+constraint type inverse ref SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint type inverse ref SimpleName ClassInstanceCreation SimpleName inverse ref attr name
+attr type SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName inverse ref attr name
+constraint SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attribute def
+constraint SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get constraints
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName resolve constraints
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve constraints
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve constraints SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve constraints
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve constraints
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

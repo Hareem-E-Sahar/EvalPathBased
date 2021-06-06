@@ -1,0 +1,47 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+utils SimpleName MethodInvocation SimpleName write v int
+utils SimpleName MethodInvocation SimpleName out
+utils SimpleName MethodInvocation QualifiedName keylength
+write v int SimpleName MethodInvocation SimpleName out
+write v int SimpleName MethodInvocation QualifiedName keylength
+out SimpleName MethodInvocation QualifiedName keylength
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName key
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation QualifiedName keylength
+write SimpleName MethodInvocation SimpleName key
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName keylength
+key SimpleName MethodInvocation NumberLiteral empty
+key SimpleName MethodInvocation QualifiedName keylength
+empty NumberLiteral MethodInvocation QualifiedName keylength
+utils SimpleName MethodInvocation SimpleName write v long
+utils SimpleName MethodInvocation SimpleName out
+utils SimpleName MethodInvocation SimpleName kv entries
+write v long SimpleName MethodInvocation SimpleName out
+write v long SimpleName MethodInvocation SimpleName kv entries
+out SimpleName MethodInvocation SimpleName kv entries
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

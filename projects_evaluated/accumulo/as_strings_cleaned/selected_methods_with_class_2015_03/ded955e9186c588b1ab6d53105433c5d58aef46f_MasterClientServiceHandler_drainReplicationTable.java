@@ -1,0 +1,190 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tfino
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs to watch
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs to watch
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+master SimpleName MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName master
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to obtain connector
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to obtain connector StringLiteral ClassInstanceCreation SimpleName e
+master SimpleName MethodInvocation SimpleName get instance
+get table id SimpleName MethodInvocation MethodInvocation SimpleName master
+get table id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get table id SimpleName MethodInvocation SimpleName table name
+master SimpleName MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName text
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral waiting for {} to be replicated for {}
+log SimpleName MethodInvocation SimpleName logs to watch
+log SimpleName MethodInvocation SimpleName table id
+trace SimpleName MethodInvocation StringLiteral waiting for {} to be replicated for {}
+trace SimpleName MethodInvocation SimpleName logs to watch
+trace SimpleName MethodInvocation SimpleName table id
+waiting for {} to be replicated for {} StringLiteral MethodInvocation SimpleName logs to watch
+waiting for {} to be replicated for {} StringLiteral MethodInvocation SimpleName table id
+logs to watch SimpleName MethodInvocation SimpleName table id
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral reading from metadata table
+trace SimpleName MethodInvocation StringLiteral reading from metadata table
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+replication section SimpleName MethodInvocation SimpleName get range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName replication section
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get range
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName replication section
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get range
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName replication section
+singleton SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get range
+range SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+range SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName range
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName collections
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName singleton
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create batch scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName Assignment MethodInvocation SimpleName conn
+bs SimpleName Assignment MethodInvocation SimpleName create batch scanner
+bs SimpleName Assignment MethodInvocation QualifiedName metadata tablename
+bs SimpleName Assignment MethodInvocation QualifiedName authorizationsempty
+bs SimpleName Assignment MethodInvocation NumberLiteral empty
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not read metadata table
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+could not read metadata table StringLiteral ClassInstanceCreation SimpleName e
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation SimpleName range
+set ranges SimpleName MethodInvocation SimpleName range
+bs SimpleName MethodInvocation SimpleName fetch column family
+bs SimpleName MethodInvocation QualifiedName replication sectioncolf
+fetch column family SimpleName MethodInvocation QualifiedName replication sectioncolf
+all references replicated SimpleName MethodInvocation SimpleName bs
+all references replicated SimpleName MethodInvocation SimpleName table id
+all references replicated SimpleName MethodInvocation SimpleName logs to watch
+bs SimpleName MethodInvocation SimpleName table id
+bs SimpleName MethodInvocation SimpleName logs to watch
+table id SimpleName MethodInvocation SimpleName logs to watch
+bs SimpleName MethodInvocation SimpleName close
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral reading from replication table
+trace SimpleName MethodInvocation StringLiteral reading from replication table
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+conn SimpleName MethodInvocation NumberLiteral empty
+create batch scanner SimpleName MethodInvocation QualifiedName replication tablename
+create batch scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch scanner SimpleName MethodInvocation NumberLiteral empty
+replication tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+replication tablename QualifiedName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+bs SimpleName Assignment MethodInvocation SimpleName conn
+bs SimpleName Assignment MethodInvocation SimpleName create batch scanner
+bs SimpleName Assignment MethodInvocation QualifiedName replication tablename
+bs SimpleName Assignment MethodInvocation QualifiedName authorizationsempty
+bs SimpleName Assignment MethodInvocation NumberLiteral empty
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral replication table was not found
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+replication table was not found StringLiteral ClassInstanceCreation SimpleName e
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton
+all references replicated SimpleName MethodInvocation SimpleName bs
+all references replicated SimpleName MethodInvocation SimpleName table id
+all references replicated SimpleName MethodInvocation SimpleName logs to watch
+bs SimpleName MethodInvocation SimpleName table id
+bs SimpleName MethodInvocation SimpleName logs to watch
+table id SimpleName MethodInvocation SimpleName logs to watch
+bs SimpleName MethodInvocation SimpleName close
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName drain replication table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tfino
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName drain replication table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tfino
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SimpleName drain replication table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tfino
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tfino
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+drain replication table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+drain replication table SimpleName MethodDeclaration SimpleType SimpleName t exception
+tfino SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+tfino SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+tfino SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+tfino SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+logs to watch SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName drain replication table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tfino
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName drain replication table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tfino
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName logs to watch
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,40 @@
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName null pointer exception
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName null pointer exception
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+null pointer exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName servlets
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get error response
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName responsestatusinternal server error
+response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get entity
+object node SimpleName SimpleType CastExpression MethodInvocation SimpleName response
+object node SimpleName SimpleType CastExpression MethodInvocation SimpleName get entity
+response entity SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName object node
+response entity SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName response
+response entity SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get entity
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response entity
+assert not null SimpleName MethodInvocation SimpleName response entity
+response entity SimpleName MethodInvocation SimpleName get
+response entity SimpleName MethodInvocation QualifiedName atlas clienterror
+get SimpleName MethodInvocation QualifiedName atlas clienterror
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response entity
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clienterror
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test empty message
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test empty message
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test empty message SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test empty message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test empty message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

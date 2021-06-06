@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation StringLiteral pii
+equals SimpleName MethodInvocation StringLiteral pii
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation StringLiteral dimension
+equals SimpleName MethodInvocation StringLiteral dimension
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral dimension
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral dimension
+pii StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName type name
+pii StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+pii StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral dimension
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas type
+type SimpleName Assignment MethodInvocation SimpleName mock
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas entity type
+type SimpleName Assignment MethodInvocation SimpleName mock
+type SimpleName MethodInvocation SimpleName get type name
+when SimpleName MethodInvocation MethodInvocation SimpleName type
+when SimpleName MethodInvocation MethodInvocation SimpleName get type name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName type name
+type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+then return SimpleName MethodInvocation SimpleName type name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SimpleName get type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type
+atlas type SimpleName SimpleType MethodDeclaration SimpleName get type
+atlas type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get type SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

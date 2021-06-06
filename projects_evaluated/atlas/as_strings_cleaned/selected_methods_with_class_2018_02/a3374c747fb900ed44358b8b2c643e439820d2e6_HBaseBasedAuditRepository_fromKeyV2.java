@@ -1,0 +1,62 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName key bytes
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName key bytes
+to string SimpleName MethodInvocation SimpleName key bytes
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName bytes
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key bytes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity audit event v
+entity audit event v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName key
+is not empty SimpleName MethodInvocation SimpleName key
+key SimpleName MethodInvocation SimpleName split
+key SimpleName MethodInvocation SimpleName field separator
+split SimpleName MethodInvocation SimpleName field separator
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName field separator
+parts SimpleName ArrayAccess NumberLiteral empty
+event SimpleName MethodInvocation SimpleName set entity id
+event SimpleName MethodInvocation ArrayAccess SimpleName parts
+event SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set entity id SimpleName MethodInvocation ArrayAccess SimpleName parts
+set entity id SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation ArrayAccess SimpleName parts
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+value of SimpleName MethodInvocation ArrayAccess SimpleName parts
+value of SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+event SimpleName MethodInvocation SimpleName set timestamp
+event SimpleName MethodInvocation MethodInvocation SimpleName long
+event SimpleName MethodInvocation MethodInvocation SimpleName value of
+event SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName parts
+event SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName long
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName value of
+set timestamp SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName parts
+set timestamp SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+event SimpleName MethodInvocation SimpleName set event key
+event SimpleName MethodInvocation SimpleName key
+set event key SimpleName MethodInvocation SimpleName key
+private Modifier MethodDeclaration SimpleType SimpleName entity audit event v
+private Modifier MethodDeclaration SimpleName from key v
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+private Modifier MethodDeclaration Block ReturnStatement SimpleName event
+entity audit event v SimpleName SimpleType MethodDeclaration SimpleName from key v
+entity audit event v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+from key v SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+from key v SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+from key v SimpleName MethodDeclaration Block ReturnStatement SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event v
+public Modifier TypeDeclaration MethodDeclaration SimpleName from key v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key bytes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from key v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key bytes

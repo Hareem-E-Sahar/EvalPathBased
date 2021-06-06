@@ -1,0 +1,48 @@
+data input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+int PrimitiveType SingleVariableDeclaration SimpleName length
+byte PrimitiveType ArrayType ArrayCreation SimpleName length
+data SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+data SimpleName Assignment ArrayCreation SimpleName length
+data size SimpleName Assignment PrefixExpression NumberLiteral empty
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation SimpleName data
+data size SimpleName Assignment QualifiedName datalength
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reset
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName length
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName length
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+reset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+reset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+reset SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+reset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName length
+reset SimpleName MethodDeclaration SimpleType SimpleName io exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+length SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

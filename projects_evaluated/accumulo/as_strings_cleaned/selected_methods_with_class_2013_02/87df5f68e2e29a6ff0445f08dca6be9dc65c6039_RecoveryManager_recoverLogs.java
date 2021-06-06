@@ -1,0 +1,324 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName walogs
+recovery needed SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName recovery needed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName logs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName walog
+walog SimpleName MethodInvocation SimpleName split
+walog SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName walog
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+parts SimpleName ArrayAccess NumberLiteral empty
+host SimpleName VariableDeclarationFragment ArrayAccess SimpleName parts
+host SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+parts SimpleName ArrayAccess NumberLiteral empty
+filename SimpleName VariableDeclarationFragment ArrayAccess SimpleName parts
+filename SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sort queued
+sorts queued SimpleName MethodInvocation SimpleName contains
+sorts queued SimpleName MethodInvocation SimpleName filename
+contains SimpleName MethodInvocation SimpleName filename
+sort queued SimpleName Assignment MethodInvocation SimpleName sorts queued
+sort queued SimpleName Assignment MethodInvocation SimpleName contains
+sort queued SimpleName Assignment MethodInvocation SimpleName filename
+master SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName master
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName master
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+master SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszrecovery
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszrecovery
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+master SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName filename
+get root SimpleName MethodInvocation InfixExpression SimpleName filename
+master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName filename
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName filename
+constantszrecovery QualifiedName InfixExpression StringLiteral /
+constantszrecovery QualifiedName InfixExpression SimpleName filename
+/ StringLiteral InfixExpression SimpleName filename
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zoo cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zoo cache SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+zoo cache SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo cache SimpleName MethodInvocation InfixExpression SimpleName filename
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get SimpleName MethodInvocation InfixExpression QualifiedName constantszrecovery
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName filename
+sort queued SimpleName InfixExpression InfixExpression MethodInvocation SimpleName zoo cache
+sort queued SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get
+sorts queued SimpleName MethodInvocation SimpleName remove
+sorts queued SimpleName MethodInvocation SimpleName filename
+remove SimpleName MethodInvocation SimpleName filename
+master SimpleName MethodInvocation SimpleName get file system
+master SimpleName MethodInvocation SimpleName get system configuration
+constants SimpleName MethodInvocation SimpleName get recovery dir
+constants SimpleName MethodInvocation MethodInvocation SimpleName master
+constants SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+get recovery dir SimpleName MethodInvocation MethodInvocation SimpleName master
+get recovery dir SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get recovery dir SimpleName MethodInvocation InfixExpression StringLiteral /
+master SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get system configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+constants SimpleName MethodInvocation InfixExpression SimpleName filename
+get recovery dir SimpleName MethodInvocation InfixExpression SimpleName filename
+master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName filename
+get system configuration SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName filename
+constants SimpleName MethodInvocation InfixExpression StringLiteral finished
+get recovery dir SimpleName MethodInvocation InfixExpression StringLiteral finished
+master SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral finished
+get system configuration SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral finished
+/ StringLiteral InfixExpression SimpleName filename
+/ StringLiteral InfixExpression StringLiteral finished
+filename SimpleName InfixExpression StringLiteral finished
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName filename
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral finished
+master SimpleName MethodInvocation MethodInvocation SimpleName exists
+get file system SimpleName MethodInvocation MethodInvocation SimpleName exists
+exists SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+exists SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+exists SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName filename
+exists SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral finished
+close tasks queued SimpleName MethodInvocation SimpleName remove
+close tasks queued SimpleName MethodInvocation SimpleName filename
+remove SimpleName MethodInvocation SimpleName filename
+recovery delay SimpleName MethodInvocation SimpleName remove
+recovery delay SimpleName MethodInvocation SimpleName filename
+remove SimpleName MethodInvocation SimpleName filename
+sorts queued SimpleName MethodInvocation SimpleName remove
+sorts queued SimpleName MethodInvocation SimpleName filename
+remove SimpleName MethodInvocation SimpleName filename
+recovery needed SimpleName Assignment BooleanLiteral true
+close tasks queued SimpleName MethodInvocation SimpleName contains
+close tasks queued SimpleName MethodInvocation SimpleName filename
+contains SimpleName MethodInvocation SimpleName filename
+sorts queued SimpleName MethodInvocation SimpleName contains
+sorts queued SimpleName MethodInvocation SimpleName filename
+contains SimpleName MethodInvocation SimpleName filename
+master SimpleName MethodInvocation SimpleName get configuration
+master SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+aconf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName master
+aconf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+aconf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aconf
+master SimpleName MethodInvocation SimpleName create instance from property name
+master SimpleName MethodInvocation SimpleName aconf
+master SimpleName MethodInvocation QualifiedName propertymaster walog closer implemetation
+master SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log closer
+master SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hadoop log closer
+create instance from property name SimpleName MethodInvocation SimpleName aconf
+create instance from property name SimpleName MethodInvocation QualifiedName propertymaster walog closer implemetation
+create instance from property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log closer
+create instance from property name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hadoop log closer
+aconf SimpleName MethodInvocation QualifiedName propertymaster walog closer implemetation
+aconf SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log closer
+aconf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hadoop log closer
+propertymaster walog closer implemetation QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName log closer
+propertymaster walog closer implemetation QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName hadoop log closer
+closer SimpleName VariableDeclarationFragment MethodInvocation SimpleName master
+closer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance from property name
+closer SimpleName VariableDeclarationFragment MethodInvocation SimpleName aconf
+closer SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertymaster walog closer implemetation
+log closer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName closer
+recovery delay SimpleName MethodInvocation SimpleName get
+recovery delay SimpleName MethodInvocation SimpleName filename
+get SimpleName MethodInvocation SimpleName filename
+delay SimpleName VariableDeclarationFragment MethodInvocation SimpleName recovery delay
+delay SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+delay SimpleName VariableDeclarationFragment MethodInvocation SimpleName filename
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delay
+master SimpleName MethodInvocation SimpleName get system configuration
+master SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+master SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster recovery delay
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster recovery delay
+get time in millis SimpleName MethodInvocation QualifiedName propertymaster recovery delay
+delay SimpleName Assignment MethodInvocation MethodInvocation SimpleName master
+delay SimpleName Assignment MethodInvocation MethodInvocation SimpleName get system configuration
+delay SimpleName Assignment MethodInvocation SimpleName get time in millis
+delay SimpleName Assignment MethodInvocation QualifiedName propertymaster recovery delay
+empty NumberLiteral InfixExpression SimpleName delay
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral l
+empty NumberLiteral InfixExpression NumberLiteral l
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression SimpleName delay
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression NumberLiteral l
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName MethodInvocation InfixExpression SimpleName delay
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName MethodInvocation InfixExpression NumberLiteral l
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral l
+delay SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+delay SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+delay SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral l
+delay SimpleName Assignment MethodInvocation SimpleName math
+delay SimpleName Assignment MethodInvocation SimpleName min
+delay SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+delay SimpleName Assignment MethodInvocation InfixExpression SimpleName delay
+delay SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+delay SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+delay SimpleName Assignment MethodInvocation InfixExpression NumberLiteral l
+delay SimpleName InfixExpression NumberLiteral empty
+starting recovery of StringLiteral InfixExpression SimpleName filename
+starting recovery of StringLiteral InfixExpression StringLiteral in :
+starting recovery of StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName delay
+starting recovery of StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+starting recovery of StringLiteral InfixExpression StringLiteral s created for
+starting recovery of StringLiteral InfixExpression SimpleName host
+filename SimpleName InfixExpression StringLiteral in :
+filename SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName delay
+filename SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+filename SimpleName InfixExpression StringLiteral s created for
+filename SimpleName InfixExpression SimpleName host
+filename SimpleName InfixExpression StringLiteral tablet
+in : StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName delay
+in : StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+in : StringLiteral InfixExpression StringLiteral s created for
+in : StringLiteral InfixExpression SimpleName host
+in : StringLiteral InfixExpression StringLiteral tablet
+in : StringLiteral InfixExpression SimpleName extent
+delay SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral s created for
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral s created for
+delay SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName host
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName host
+delay SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral tablet
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral tablet
+delay SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName extent
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName extent
+delay SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral holds a reference
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral holds a reference
+s created for StringLiteral InfixExpression SimpleName host
+s created for StringLiteral InfixExpression StringLiteral tablet
+s created for StringLiteral InfixExpression SimpleName extent
+s created for StringLiteral InfixExpression StringLiteral holds a reference
+host SimpleName InfixExpression StringLiteral tablet
+host SimpleName InfixExpression SimpleName extent
+host SimpleName InfixExpression StringLiteral holds a reference
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral holds a reference
+extent SimpleName InfixExpression StringLiteral holds a reference
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral starting recovery of
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+log SimpleName MethodInvocation InfixExpression StringLiteral in :
+log SimpleName MethodInvocation InfixExpression StringLiteral s created for
+log SimpleName MethodInvocation InfixExpression SimpleName host
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral holds a reference
+info SimpleName MethodInvocation InfixExpression StringLiteral starting recovery of
+info SimpleName MethodInvocation InfixExpression SimpleName filename
+info SimpleName MethodInvocation InfixExpression StringLiteral in :
+info SimpleName MethodInvocation InfixExpression StringLiteral s created for
+info SimpleName MethodInvocation InfixExpression SimpleName host
+info SimpleName MethodInvocation InfixExpression StringLiteral tablet
+info SimpleName MethodInvocation InfixExpression SimpleName extent
+info SimpleName MethodInvocation InfixExpression StringLiteral holds a reference
+log sort task SimpleName SimpleType ClassInstanceCreation SimpleName closer
+log sort task SimpleName SimpleType ClassInstanceCreation SimpleName host
+log sort task SimpleName SimpleType ClassInstanceCreation SimpleName filename
+closer SimpleName ClassInstanceCreation SimpleName host
+closer SimpleName ClassInstanceCreation SimpleName filename
+host SimpleName ClassInstanceCreation SimpleName filename
+executor SimpleName MethodInvocation SimpleName schedule
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName log sort task
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleName closer
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleName host
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+executor SimpleName MethodInvocation SimpleName delay
+executor SimpleName MethodInvocation QualifiedName time unitmilliseconds
+schedule SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName log sort task
+schedule SimpleName MethodInvocation ClassInstanceCreation SimpleName closer
+schedule SimpleName MethodInvocation ClassInstanceCreation SimpleName host
+schedule SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+schedule SimpleName MethodInvocation SimpleName delay
+schedule SimpleName MethodInvocation QualifiedName time unitmilliseconds
+log sort task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delay
+closer SimpleName ClassInstanceCreation MethodInvocation SimpleName delay
+host SimpleName ClassInstanceCreation MethodInvocation SimpleName delay
+filename SimpleName ClassInstanceCreation MethodInvocation SimpleName delay
+log sort task SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+closer SimpleName ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+host SimpleName ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+filename SimpleName ClassInstanceCreation MethodInvocation QualifiedName time unitmilliseconds
+delay SimpleName MethodInvocation QualifiedName time unitmilliseconds
+close tasks queued SimpleName MethodInvocation SimpleName add
+close tasks queued SimpleName MethodInvocation SimpleName filename
+add SimpleName MethodInvocation SimpleName filename
+recovery delay SimpleName MethodInvocation SimpleName put
+recovery delay SimpleName MethodInvocation SimpleName filename
+recovery delay SimpleName MethodInvocation SimpleName delay
+put SimpleName MethodInvocation SimpleName filename
+put SimpleName MethodInvocation SimpleName delay
+filename SimpleName MethodInvocation SimpleName delay
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName logs
+walog SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName logs
+logs SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+logs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName walogs
+walogs SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName logs
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName walogs
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName recovery needed
+walogs SimpleName EnhancedForStatement Block ReturnStatement SimpleName recovery needed
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName recover logs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName walogs
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName recover logs
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName walogs
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName walogs
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName recovery needed
+recover logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+recover logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+recover logs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName walogs
+recover logs SimpleName MethodDeclaration SimpleType SimpleName io exception
+recover logs SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+recover logs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName walogs
+recover logs SimpleName MethodDeclaration Block ReturnStatement SimpleName recovery needed
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName walogs
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+walogs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName recover logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName walogs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName recover logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName walogs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

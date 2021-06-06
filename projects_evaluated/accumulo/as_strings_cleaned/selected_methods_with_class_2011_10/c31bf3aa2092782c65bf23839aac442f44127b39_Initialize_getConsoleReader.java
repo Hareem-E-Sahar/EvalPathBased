@@ -1,0 +1,25 @@
+reader SimpleName Assignment ClassInstanceCreation SimpleType SimpleName console reader
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName console reader
+private Modifier MethodDeclaration SimpleName get console reader
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName reader
+static Modifier MethodDeclaration SimpleType SimpleName console reader
+static Modifier MethodDeclaration SimpleName get console reader
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName reader
+console reader SimpleName SimpleType MethodDeclaration SimpleName get console reader
+console reader SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get console reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+get console reader SimpleName MethodDeclaration Block ReturnStatement SimpleName reader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName console reader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get console reader
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName console reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get console reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

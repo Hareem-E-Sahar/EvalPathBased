@@ -1,0 +1,28 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral not starting embedded instances when ha is enabled
+info SimpleName MethodInvocation StringLiteral not starting embedded instances when ha is enabled
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to start embedded kafka
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to start embedded kafka StringLiteral ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+start SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

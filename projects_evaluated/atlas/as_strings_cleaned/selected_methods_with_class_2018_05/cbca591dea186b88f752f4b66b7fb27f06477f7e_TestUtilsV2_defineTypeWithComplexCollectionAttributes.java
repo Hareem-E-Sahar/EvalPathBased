@@ -1,0 +1,500 @@
+create required attr def SimpleName MethodInvocation SimpleName name
+create required attr def SimpleName MethodInvocation StringLiteral string
+name SimpleName MethodInvocation StringLiteral string
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+arrays SimpleName MethodInvocation MethodInvocation SimpleName name
+arrays SimpleName MethodInvocation MethodInvocation StringLiteral string
+as list SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+as list SimpleName MethodInvocation MethodInvocation SimpleName name
+as list SimpleName MethodInvocation MethodInvocation StringLiteral string
+atlas struct def SimpleName SimpleType ClassInstanceCreation SimpleName struct type
+atlas struct def SimpleName SimpleType ClassInstanceCreation StringLiteral struct type description
+atlas struct def SimpleName SimpleType ClassInstanceCreation StringLiteral .
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+atlas struct def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+struct type SimpleName ClassInstanceCreation StringLiteral struct type description
+struct type SimpleName ClassInstanceCreation StringLiteral .
+struct type SimpleName ClassInstanceCreation MethodInvocation SimpleName arrays
+struct type SimpleName ClassInstanceCreation MethodInvocation SimpleName as list
+struct type SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName create required attr def
+struct type SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName name
+struct type SimpleName ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral string
+struct type description StringLiteral ClassInstanceCreation StringLiteral .
+struct type description StringLiteral ClassInstanceCreation MethodInvocation SimpleName arrays
+struct type description StringLiteral ClassInstanceCreation MethodInvocation SimpleName as list
+struct type description StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName create required attr def
+struct type description StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName name
+struct type description StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral string
+. StringLiteral ClassInstanceCreation MethodInvocation SimpleName arrays
+. StringLiteral ClassInstanceCreation MethodInvocation SimpleName as list
+. StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName create required attr def
+. StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName name
+. StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral string
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct def
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName struct type
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral struct type description
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral .
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName arrays
+struct type SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName as list
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+collections SimpleName MethodInvocation SimpleName empty set
+create unique required attr def SimpleName MethodInvocation SimpleName name
+create unique required attr def SimpleName MethodInvocation StringLiteral string
+name SimpleName MethodInvocation StringLiteral string
+create optional attr def SimpleName MethodInvocation StringLiteral is replicated
+create optional attr def SimpleName MethodInvocation StringLiteral boolean
+is replicated StringLiteral MethodInvocation StringLiteral boolean
+create class type def SimpleName MethodInvocation SimpleName entity type
+create class type def SimpleName MethodInvocation StringLiteral entity type description
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName collections
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName empty set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName name
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral is replicated
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral boolean
+entity type SimpleName MethodInvocation StringLiteral entity type description
+entity type SimpleName MethodInvocation MethodInvocation SimpleName collections
+entity type SimpleName MethodInvocation MethodInvocation SimpleName empty set
+entity type SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+entity type SimpleName MethodInvocation MethodInvocation SimpleName name
+entity type SimpleName MethodInvocation MethodInvocation StringLiteral string
+entity type SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+entity type SimpleName MethodInvocation MethodInvocation StringLiteral is replicated
+entity type SimpleName MethodInvocation MethodInvocation StringLiteral boolean
+entity type description StringLiteral MethodInvocation MethodInvocation SimpleName collections
+entity type description StringLiteral MethodInvocation MethodInvocation SimpleName empty set
+entity type description StringLiteral MethodInvocation MethodInvocation SimpleName create unique required attr def
+entity type description StringLiteral MethodInvocation MethodInvocation SimpleName name
+entity type description StringLiteral MethodInvocation MethodInvocation StringLiteral string
+entity type description StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+entity type description StringLiteral MethodInvocation MethodInvocation StringLiteral is replicated
+entity type description StringLiteral MethodInvocation MethodInvocation StringLiteral boolean
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral is replicated
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral boolean
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral is replicated
+empty set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral boolean
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral is replicated
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral boolean
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral is replicated
+name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral boolean
+string StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+string StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral is replicated
+string StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral boolean
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+entity type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity type description
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName empty set
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create unique required attr def
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral string
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral is replicated
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral boolean
+atlas entity def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type with complex collection attr SimpleName InfixExpression StringLiteral description
+create unique required attr def SimpleName MethodInvocation StringLiteral name
+create unique required attr def SimpleName MethodInvocation StringLiteral string
+name StringLiteral MethodInvocation StringLiteral string
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation SimpleName struct type
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation SimpleName struct type
+arrays StringLiteral MethodInvocation SimpleName struct type
+collections SimpleName MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral list of structs
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral arrays
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName struct type
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+list of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+list of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+list of structs StringLiteral ClassInstanceCreation MethodInvocation StringLiteral arrays
+list of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName struct type
+list of structs StringLiteral ClassInstanceCreation BooleanLiteral true
+list of structs StringLiteral ClassInstanceCreation SimpleName list
+list of structs StringLiteral ClassInstanceCreation NumberLiteral empty
+list of structs StringLiteral ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+struct type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+arrays StringLiteral MethodInvocation ClassInstanceCreation SimpleName list
+struct type SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+struct type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+struct type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName list
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation NumberLiteral empty
+list SimpleName ClassInstanceCreation NumberLiteral empty
+list SimpleName ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation SimpleName entity type
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation SimpleName entity type
+arrays StringLiteral MethodInvocation SimpleName entity type
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+atlas constraint def SimpleName SimpleType ClassInstanceCreation SimpleName constraint type owned ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas constraint def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type owned ref
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral list of entities
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral arrays
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+list of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+list of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+list of entities StringLiteral ClassInstanceCreation MethodInvocation StringLiteral arrays
+list of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName entity type
+list of entities StringLiteral ClassInstanceCreation BooleanLiteral true
+list of entities StringLiteral ClassInstanceCreation SimpleName list
+list of entities StringLiteral ClassInstanceCreation NumberLiteral empty
+list of entities StringLiteral ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+arrays StringLiteral MethodInvocation ClassInstanceCreation SimpleName list
+entity type SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName list
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation NumberLiteral empty
+list SimpleName ClassInstanceCreation NumberLiteral empty
+list SimpleName ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation BooleanLiteral false
+list SimpleName ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral mapss
+string SimpleName MethodInvocation StringLiteral string
+string SimpleName MethodInvocation SimpleName struct type
+format SimpleName MethodInvocation StringLiteral mapss
+format SimpleName MethodInvocation StringLiteral string
+format SimpleName MethodInvocation SimpleName struct type
+mapss StringLiteral MethodInvocation StringLiteral string
+mapss StringLiteral MethodInvocation SimpleName struct type
+string StringLiteral MethodInvocation SimpleName struct type
+collections SimpleName MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral map of structs
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mapss
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName struct type
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName single
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+map of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+map of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+map of structs StringLiteral ClassInstanceCreation MethodInvocation StringLiteral mapss
+map of structs StringLiteral ClassInstanceCreation MethodInvocation StringLiteral string
+map of structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName struct type
+map of structs StringLiteral ClassInstanceCreation BooleanLiteral true
+map of structs StringLiteral ClassInstanceCreation SimpleName single
+map of structs StringLiteral ClassInstanceCreation NumberLiteral empty
+map of structs StringLiteral ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+mapss StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+string StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+struct type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+mapss StringLiteral MethodInvocation ClassInstanceCreation SimpleName single
+string StringLiteral MethodInvocation ClassInstanceCreation SimpleName single
+struct type SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+mapss StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+string StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+struct type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+mapss StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+string StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+struct type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+mapss StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+string StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName single
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation NumberLiteral empty
+single SimpleName ClassInstanceCreation NumberLiteral empty
+single SimpleName ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral mapss
+string SimpleName MethodInvocation StringLiteral string
+string SimpleName MethodInvocation SimpleName entity type
+format SimpleName MethodInvocation StringLiteral mapss
+format SimpleName MethodInvocation StringLiteral string
+format SimpleName MethodInvocation SimpleName entity type
+mapss StringLiteral MethodInvocation StringLiteral string
+mapss StringLiteral MethodInvocation SimpleName entity type
+string StringLiteral MethodInvocation SimpleName entity type
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+atlas constraint def SimpleName SimpleType ClassInstanceCreation SimpleName constraint type owned ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas constraint def
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName constraint type owned ref
+atlas attribute def SimpleName SimpleType ClassInstanceCreation StringLiteral map of entities
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mapss
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral string
+atlas attribute def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName single
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+map of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+map of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+map of entities StringLiteral ClassInstanceCreation MethodInvocation StringLiteral mapss
+map of entities StringLiteral ClassInstanceCreation MethodInvocation StringLiteral string
+map of entities StringLiteral ClassInstanceCreation MethodInvocation SimpleName entity type
+map of entities StringLiteral ClassInstanceCreation BooleanLiteral true
+map of entities StringLiteral ClassInstanceCreation SimpleName single
+map of entities StringLiteral ClassInstanceCreation NumberLiteral empty
+map of entities StringLiteral ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+mapss StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+string StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+mapss StringLiteral MethodInvocation ClassInstanceCreation SimpleName single
+string StringLiteral MethodInvocation ClassInstanceCreation SimpleName single
+entity type SimpleName MethodInvocation ClassInstanceCreation SimpleName single
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+mapss StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+string StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+format SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+mapss StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+string StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+mapss StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+string StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName single
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation NumberLiteral empty
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation NumberLiteral empty
+single SimpleName ClassInstanceCreation NumberLiteral empty
+single SimpleName ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation BooleanLiteral false
+single SimpleName ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation SimpleName entity type with complex collection attr
+create class type def SimpleName MethodInvocation InfixExpression SimpleName entity type with complex collection attr
+create class type def SimpleName MethodInvocation InfixExpression StringLiteral description
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral name
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral string
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral list of structs
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral arrays
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName struct type
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+create class type def SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+create class type def SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+entity type with complex collection attr SimpleName MethodInvocation InfixExpression SimpleName entity type with complex collection attr
+entity type with complex collection attr SimpleName MethodInvocation InfixExpression StringLiteral description
+entity type with complex collection attr SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+entity type with complex collection attr SimpleName MethodInvocation MethodInvocation StringLiteral name
+entity type with complex collection attr SimpleName MethodInvocation MethodInvocation StringLiteral string
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation StringLiteral list of structs
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral arrays
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName struct type
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute def
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation StringLiteral list of entities
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName string
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName format
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral arrays
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity type
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation SimpleName list
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName create unique required attr def
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral name
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation MethodInvocation StringLiteral string
+description StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName create unique required attr def
+description StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral name
+description StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral string
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation StringLiteral list of structs
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation SimpleName list
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation StringLiteral list of structs
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral true
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation SimpleName list
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation StringLiteral list of entities
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral true
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation SimpleName list
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+entity type with complex collection attr SimpleName InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral false
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation StringLiteral list of entities
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation BooleanLiteral true
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation SimpleName list
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty
+description StringLiteral InfixExpression MethodInvocation ClassInstanceCreation NumberLiteral empty

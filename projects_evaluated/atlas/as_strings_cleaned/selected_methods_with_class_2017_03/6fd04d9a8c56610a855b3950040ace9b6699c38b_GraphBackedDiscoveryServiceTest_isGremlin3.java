@@ -1,0 +1,16 @@
+test utils SimpleName MethodInvocation SimpleName get graph
+test utils SimpleName MethodInvocation MethodInvocation SimpleName get supported gremlin version
+get graph SimpleName MethodInvocation MethodInvocation SimpleName get supported gremlin version
+test utils SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName gremlin versionthree
+get graph SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName gremlin versionthree
+get supported gremlin version SimpleName MethodInvocation InfixExpression QualifiedName gremlin versionthree
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is gremlin
+boolean PrimitiveType MethodDeclaration SimpleName is gremlin
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is gremlin
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is gremlin

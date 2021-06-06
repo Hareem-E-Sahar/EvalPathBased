@@ -1,0 +1,163 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName new dir
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName dir
+exists SimpleName MethodInvocation SimpleName dir
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName new dir
+exists SimpleName MethodInvocation SimpleName new dir
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new dir
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new dir
+dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new dir
+fs SimpleName MethodInvocation SimpleName is directory
+fs SimpleName MethodInvocation SimpleName dir
+is directory SimpleName MethodInvocation SimpleName dir
+expected StringLiteral InfixExpression SimpleName dir
+expected StringLiteral InfixExpression StringLiteral to be a directory
+dir SimpleName InfixExpression StringLiteral to be a directory
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral to be a directory
+fs SimpleName MethodInvocation SimpleName is directory
+fs SimpleName MethodInvocation SimpleName new dir
+is directory SimpleName MethodInvocation SimpleName new dir
+expected StringLiteral InfixExpression SimpleName new dir
+expected StringLiteral InfixExpression StringLiteral to be a directory
+new dir SimpleName InfixExpression StringLiteral to be a directory
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new dir
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral to be a directory
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName dir
+list status SimpleName MethodInvocation SimpleName dir
+get file names SimpleName MethodInvocation MethodInvocation SimpleName fs
+get file names SimpleName MethodInvocation MethodInvocation SimpleName list status
+get file names SimpleName MethodInvocation MethodInvocation SimpleName dir
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file names
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName list status
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dir
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName new dir
+list status SimpleName MethodInvocation SimpleName new dir
+get file names SimpleName MethodInvocation MethodInvocation SimpleName fs
+get file names SimpleName MethodInvocation MethodInvocation SimpleName list status
+get file names SimpleName MethodInvocation MethodInvocation SimpleName new dir
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file names
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName list status
+names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new dir
+names SimpleName MethodInvocation SimpleName equals
+names SimpleName MethodInvocation SimpleName names
+equals SimpleName MethodInvocation SimpleName names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+hash SimpleName MethodInvocation SimpleName fs
+hash SimpleName MethodInvocation SimpleName dir
+hash SimpleName MethodInvocation SimpleName name
+fs SimpleName MethodInvocation SimpleName dir
+fs SimpleName MethodInvocation SimpleName name
+dir SimpleName MethodInvocation SimpleName name
+hash SimpleName MethodInvocation SimpleName fs
+hash SimpleName MethodInvocation SimpleName new dir
+hash SimpleName MethodInvocation SimpleName name
+fs SimpleName MethodInvocation SimpleName new dir
+fs SimpleName MethodInvocation SimpleName name
+new dir SimpleName MethodInvocation SimpleName name
+hash SimpleName MethodInvocation MethodInvocation SimpleName equals
+fs SimpleName MethodInvocation MethodInvocation SimpleName equals
+dir SimpleName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash
+hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new dir
+hash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new dir
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new dir
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hash
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new dir
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+equals SimpleName MethodInvocation MethodInvocation SimpleName hash
+equals SimpleName MethodInvocation MethodInvocation SimpleName fs
+equals SimpleName MethodInvocation MethodInvocation SimpleName new dir
+equals SimpleName MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+names SimpleName EnhancedForStatement IfStatement ReturnStatement BooleanLiteral false
+names SimpleName EnhancedForStatement Block ReturnStatement BooleanLiteral true
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName same
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SimpleName same
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new dir
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new dir
+same SimpleName MethodDeclaration SimpleType SimpleName file not found exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new dir
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+new dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+file not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName same
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName same
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

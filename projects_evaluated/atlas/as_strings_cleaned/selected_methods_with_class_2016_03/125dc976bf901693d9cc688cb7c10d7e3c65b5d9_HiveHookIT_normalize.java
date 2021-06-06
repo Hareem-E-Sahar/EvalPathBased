@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName str
+is empty SimpleName MethodInvocation SimpleName str
+str SimpleName MethodInvocation SimpleName to lower case
+string escape utils SimpleName MethodInvocation SimpleName escape java
+string escape utils SimpleName MethodInvocation MethodInvocation SimpleName str
+string escape utils SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+escape java SimpleName MethodInvocation MethodInvocation SimpleName str
+escape java SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName normalize
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+string SimpleName SimpleType MethodDeclaration SimpleName normalize
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName str
+normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

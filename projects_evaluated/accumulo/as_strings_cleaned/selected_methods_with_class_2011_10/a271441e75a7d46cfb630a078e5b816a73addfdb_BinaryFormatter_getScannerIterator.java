@@ -1,0 +1,13 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName get scanner iterator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName si
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get scanner iterator
+get scanner iterator SimpleName MethodDeclaration Block ReturnStatement SimpleName si
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scanner iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scanner iterator

@@ -1,0 +1,31 @@
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get guid
+relationship store SimpleName MethodInvocation SimpleName remove
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName relationship
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+remove SimpleName MethodInvocation MethodInvocation SimpleName relationship
+remove SimpleName MethodInvocation MethodInvocation SimpleName get guid
+relationship history store SimpleName MethodInvocation SimpleName add
+relationship history store SimpleName MethodInvocation NumberLiteral empty
+relationship history store SimpleName MethodInvocation SimpleName relationship
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName relationship
+empty NumberLiteral MethodInvocation SimpleName relationship
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove relationship from store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+void PrimitiveType MethodDeclaration SimpleName remove relationship from store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+remove relationship from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship
+remove relationship from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove relationship from store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove relationship from store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship

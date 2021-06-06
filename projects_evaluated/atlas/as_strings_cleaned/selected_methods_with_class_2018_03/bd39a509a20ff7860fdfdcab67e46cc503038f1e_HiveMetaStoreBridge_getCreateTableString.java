@@ -1,0 +1,117 @@
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType SingleVariableDeclaration SimpleName location
+col string SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName field schema
+table SimpleName MethodInvocation SimpleName get all cols
+col list SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+col list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all cols
+field schema SimpleName SimpleType SingleVariableDeclaration SimpleName col
+col SimpleName MethodInvocation SimpleName get name
+col SimpleName MethodInvocation SimpleName get type
+col SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+col SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col
+col SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+col SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName col
+empty StringLiteral InfixExpression MethodInvocation SimpleName get type
+empty StringLiteral InfixExpression StringLiteral empty
+col SimpleName MethodInvocation InfixExpression StringLiteral empty
+get type SimpleName MethodInvocation InfixExpression StringLiteral empty
+col string SimpleName Assignment InfixExpression MethodInvocation SimpleName col
+col string SimpleName Assignment InfixExpression MethodInvocation SimpleName get name
+col string SimpleName Assignment InfixExpression StringLiteral empty
+col string SimpleName Assignment InfixExpression MethodInvocation SimpleName col
+col string SimpleName Assignment InfixExpression MethodInvocation SimpleName get type
+col string SimpleName Assignment InfixExpression StringLiteral empty
+field schema SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName col list
+col SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName col list
+col list SimpleName MethodInvocation SimpleName size
+col list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+col string SimpleName MethodInvocation SimpleName length
+col string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+col string SimpleName MethodInvocation SimpleName substring
+col string SimpleName MethodInvocation NumberLiteral empty
+col string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col string
+col string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+col string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col string
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName col string
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+col string SimpleName Assignment MethodInvocation SimpleName col string
+col string SimpleName Assignment MethodInvocation SimpleName substring
+col string SimpleName Assignment MethodInvocation NumberLiteral empty
+col string SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+( StringLiteral InfixExpression SimpleName col string
+( StringLiteral InfixExpression StringLiteral )
+col string SimpleName InfixExpression StringLiteral )
+col string SimpleName Assignment InfixExpression StringLiteral (
+col string SimpleName Assignment InfixExpression SimpleName col string
+col string SimpleName Assignment InfixExpression StringLiteral )
+table SimpleName MethodInvocation SimpleName get table name
+create external table StringLiteral InfixExpression MethodInvocation SimpleName table
+create external table StringLiteral InfixExpression MethodInvocation SimpleName get table name
+create external table StringLiteral InfixExpression SimpleName col string
+create external table StringLiteral InfixExpression StringLiteral location
+create external table StringLiteral InfixExpression SimpleName location
+create external table StringLiteral InfixExpression StringLiteral empty
+table SimpleName MethodInvocation InfixExpression SimpleName col string
+get table name SimpleName MethodInvocation InfixExpression SimpleName col string
+table SimpleName MethodInvocation InfixExpression StringLiteral location
+get table name SimpleName MethodInvocation InfixExpression StringLiteral location
+table SimpleName MethodInvocation InfixExpression SimpleName location
+get table name SimpleName MethodInvocation InfixExpression SimpleName location
+table SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+col string SimpleName InfixExpression StringLiteral location
+col string SimpleName InfixExpression SimpleName location
+col string SimpleName InfixExpression StringLiteral empty
+location StringLiteral InfixExpression SimpleName location
+location StringLiteral InfixExpression StringLiteral empty
+location SimpleName InfixExpression StringLiteral empty
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral create external table
+query SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table
+query SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get table name
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName col string
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral location
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName location
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get create table string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName location
+private Modifier MethodDeclaration Block ReturnStatement SimpleName query
+string SimpleName SimpleType MethodDeclaration SimpleName get create table string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName location
+get create table string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+get create table string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+get create table string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get create table string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName location
+get create table string SimpleName MethodDeclaration Block ReturnStatement SimpleName query
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get create table string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get create table string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName location

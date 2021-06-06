@@ -1,0 +1,199 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas edge
+final Modifier SingleVariableDeclaration SimpleName edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName map
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas entity header
+final Modifier SingleVariableDeclaration SimpleName entities
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName lineage relation
+final Modifier SingleVariableDeclaration SimpleName relations
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName relations
+lineage relation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName relations
+edge SimpleName MethodInvocation SimpleName get in vertex
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in vertex
+edge SimpleName MethodInvocation SimpleName get out vertex
+out vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+out vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName in vertex
+get id from vertex SimpleName MethodInvocation SimpleName in vertex
+in guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+in guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+in guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName in vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in guid
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName out vertex
+get id from vertex SimpleName MethodInvocation SimpleName out vertex
+out guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+out guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+out guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName out vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out guid
+atlas graph utils v SimpleName MethodInvocation SimpleName get property
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+atlas graph utils v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName edge
+get property SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+edge SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsrelationship guid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+relation guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+relation guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+relation guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+relation guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsrelationship guid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relation guid
+edge SimpleName MethodInvocation SimpleName get label
+edge SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get label SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+edge SimpleName MethodInvocation MethodInvocation SimpleName process inputs edge
+get label SimpleName MethodInvocation MethodInvocation SimpleName process inputs edge
+equals ignore case SimpleName MethodInvocation SimpleName process inputs edge
+is input edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+is input edge SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get label
+is input edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName equals ignore case
+is input edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName process inputs edge
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is input edge
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName equals ignore case
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName process inputs edge
+entities SimpleName MethodInvocation SimpleName contains key
+entities SimpleName MethodInvocation SimpleName in guid
+contains key SimpleName MethodInvocation SimpleName in guid
+entity retriever SimpleName MethodInvocation SimpleName to atlas entity header
+entity retriever SimpleName MethodInvocation SimpleName in vertex
+to atlas entity header SimpleName MethodInvocation SimpleName in vertex
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity retriever
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName in vertex
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity header
+entities SimpleName MethodInvocation SimpleName put
+entities SimpleName MethodInvocation SimpleName in guid
+entities SimpleName MethodInvocation SimpleName entity header
+put SimpleName MethodInvocation SimpleName in guid
+put SimpleName MethodInvocation SimpleName entity header
+in guid SimpleName MethodInvocation SimpleName entity header
+entities SimpleName MethodInvocation SimpleName contains key
+entities SimpleName MethodInvocation SimpleName out guid
+contains key SimpleName MethodInvocation SimpleName out guid
+entity retriever SimpleName MethodInvocation SimpleName to atlas entity header
+entity retriever SimpleName MethodInvocation SimpleName out vertex
+to atlas entity header SimpleName MethodInvocation SimpleName out vertex
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity retriever
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName out vertex
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity header
+entities SimpleName MethodInvocation SimpleName put
+entities SimpleName MethodInvocation SimpleName out guid
+entities SimpleName MethodInvocation SimpleName entity header
+put SimpleName MethodInvocation SimpleName out guid
+put SimpleName MethodInvocation SimpleName entity header
+out guid SimpleName MethodInvocation SimpleName entity header
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName in guid
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName out guid
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName relation guid
+in guid SimpleName ClassInstanceCreation SimpleName out guid
+in guid SimpleName ClassInstanceCreation SimpleName relation guid
+out guid SimpleName ClassInstanceCreation SimpleName relation guid
+relations SimpleName MethodInvocation SimpleName add
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lineage relation
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName in guid
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName out guid
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName relation guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lineage relation
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName in guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName out guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName relation guid
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName out guid
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName in guid
+lineage relation SimpleName SimpleType ClassInstanceCreation SimpleName relation guid
+out guid SimpleName ClassInstanceCreation SimpleName in guid
+out guid SimpleName ClassInstanceCreation SimpleName relation guid
+in guid SimpleName ClassInstanceCreation SimpleName relation guid
+relations SimpleName MethodInvocation SimpleName add
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lineage relation
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName out guid
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName in guid
+relations SimpleName MethodInvocation ClassInstanceCreation SimpleName relation guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lineage relation
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName out guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName in guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName relation guid
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is input edge
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process edge
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relations
+void PrimitiveType MethodDeclaration SimpleName process edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relations
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+process edge SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+process edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+process edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+process edge SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+process edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+process edge SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+process edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relations
+process edge SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+process edge SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+process edge SimpleName MethodDeclaration Block IfStatement SimpleName is input edge
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relations SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,27 @@
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation QualifiedName constantscore package name
+get logger SimpleName MethodInvocation QualifiedName constantscore package name
+logger SimpleName MethodInvocation MethodInvocation SimpleName is trace enabled
+get logger SimpleName MethodInvocation MethodInvocation SimpleName is trace enabled
+constantscore package name QualifiedName MethodInvocation MethodInvocation SimpleName is trace enabled
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is debugging enabled
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is debugging enabled
+final Modifier MethodDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SimpleName is debugging enabled
+boolean PrimitiveType MethodDeclaration SimpleName is debugging enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is debugging enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is debugging enabled

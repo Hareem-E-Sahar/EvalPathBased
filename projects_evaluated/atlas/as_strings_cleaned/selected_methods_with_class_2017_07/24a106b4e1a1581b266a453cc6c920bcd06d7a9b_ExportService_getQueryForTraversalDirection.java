@@ -1,0 +1,33 @@
+traversal direction SimpleName SimpleType SingleVariableDeclaration SimpleName direction
+gremlin query provider SimpleName FieldAccess MethodInvocation SimpleName get query
+gremlin query provider SimpleName FieldAccess MethodInvocation QualifiedName atlas gremlin queryexport by guid connected in edge
+get query SimpleName MethodInvocation QualifiedName atlas gremlin queryexport by guid connected in edge
+gremlin query provider SimpleName FieldAccess MethodInvocation SimpleName get query
+gremlin query provider SimpleName FieldAccess MethodInvocation QualifiedName atlas gremlin queryexport by guid connected out edge
+get query SimpleName MethodInvocation QualifiedName atlas gremlin queryexport by guid connected out edge
+direction SimpleName SwitchStatement SwitchCase SimpleName inward
+direction SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName get query
+direction SimpleName SwitchStatement ReturnStatement MethodInvocation QualifiedName atlas gremlin queryexport by guid connected in edge
+direction SimpleName SwitchStatement SwitchCase SimpleName outward
+direction SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName get query
+direction SimpleName SwitchStatement ReturnStatement MethodInvocation QualifiedName atlas gremlin queryexport by guid connected out edge
+inward SimpleName SwitchCase SwitchStatement SwitchCase SimpleName outward
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get query for traversal direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName direction
+private Modifier MethodDeclaration Block SwitchStatement SimpleName direction
+string SimpleName SimpleType MethodDeclaration SimpleName get query for traversal direction
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName direction
+get query for traversal direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName traversal direction
+get query for traversal direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName direction
+get query for traversal direction SimpleName MethodDeclaration Block SwitchStatement SimpleName direction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get query for traversal direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get query for traversal direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName direction

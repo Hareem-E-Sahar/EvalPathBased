@@ -1,0 +1,14 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName entity operation
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity operation
+public Modifier MethodDeclaration SimpleName get mutated entities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mutated entities
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get mutated entities
+entity operation SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get mutated entities
+get mutated entities SimpleName MethodDeclaration Block ReturnStatement SimpleName mutated entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get mutated entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get mutated entities

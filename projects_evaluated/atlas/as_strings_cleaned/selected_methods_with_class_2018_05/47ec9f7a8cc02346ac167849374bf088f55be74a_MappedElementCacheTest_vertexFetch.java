@@ -1,0 +1,44 @@
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get col
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mapped element cache
+mapped element cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache
+tinker graph SimpleName MethodInvocation SimpleName open
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinker graph
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+tinker graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tg
+add vertex SimpleName MethodInvocation SimpleName tg
+add vertex SimpleName MethodInvocation SimpleName node
+tg SimpleName MethodInvocation SimpleName node
+cache SimpleName MethodInvocation SimpleName get mapped vertex
+cache SimpleName MethodInvocation SimpleName tg
+cache SimpleName MethodInvocation NumberLiteral empty
+get mapped vertex SimpleName MethodInvocation SimpleName tg
+get mapped vertex SimpleName MethodInvocation NumberLiteral empty
+tg SimpleName MethodInvocation NumberLiteral empty
+vx SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+vx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mapped vertex
+vx SimpleName VariableDeclarationFragment MethodInvocation SimpleName tg
+vx SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vx
+assert not null SimpleName MethodInvocation SimpleName vx
+cachelru vertex cache QualifiedName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName cachelru vertex cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+cachelru vertex cache QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName vertex fetch
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName vertex fetch
+void PrimitiveType MethodDeclaration SimpleName vertex fetch
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertex fetch
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertex fetch

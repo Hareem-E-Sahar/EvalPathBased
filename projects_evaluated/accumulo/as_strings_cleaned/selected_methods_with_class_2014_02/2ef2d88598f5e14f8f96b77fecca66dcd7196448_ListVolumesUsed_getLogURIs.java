@@ -1,0 +1,54 @@
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName volumes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName volumes
+log entry SimpleName SimpleType SingleVariableDeclaration SimpleName log entry
+get log uri SimpleName MethodInvocation QualifiedName log entryfilename
+volumes SimpleName MethodInvocation SimpleName add
+volumes SimpleName MethodInvocation MethodInvocation SimpleName get log uri
+volumes SimpleName MethodInvocation MethodInvocation QualifiedName log entryfilename
+add SimpleName MethodInvocation MethodInvocation SimpleName get log uri
+add SimpleName MethodInvocation MethodInvocation QualifiedName log entryfilename
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log set
+get log uri SimpleName MethodInvocation SimpleName log set
+volumes SimpleName MethodInvocation SimpleName add
+volumes SimpleName MethodInvocation MethodInvocation SimpleName get log uri
+volumes SimpleName MethodInvocation MethodInvocation SimpleName log set
+add SimpleName MethodInvocation MethodInvocation SimpleName get log uri
+add SimpleName MethodInvocation MethodInvocation SimpleName log set
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+log set SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName log entrylog set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get log ur is
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName volumes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName log entry
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName get log ur is
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName volumes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName log entry
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName log entrylog set
+void PrimitiveType MethodDeclaration SimpleName get log ur is
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName volumes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName log entry
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName log entrylog set
+get log ur is SimpleName MethodDeclaration SingleVariableDeclaration SimpleName volumes
+get log ur is SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+get log ur is SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log entry
+get log ur is SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName log entrylog set
+volumes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get log ur is
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName volumes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get log ur is
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName volumes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log entry

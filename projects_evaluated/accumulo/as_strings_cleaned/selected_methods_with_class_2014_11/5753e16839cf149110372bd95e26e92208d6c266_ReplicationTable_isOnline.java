@@ -1,0 +1,44 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+conn SimpleName MethodInvocation SimpleName get instance
+conn SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName mock instance
+get instance SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName mock instance
+conn SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation MethodInvocation SimpleName conn
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName id
+get table state SimpleName MethodInvocation MethodInvocation SimpleName conn
+get table state SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get table state SimpleName MethodInvocation SimpleName id
+conn SimpleName MethodInvocation MethodInvocation SimpleName id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName id
+table stateonline QualifiedName InfixExpression MethodInvocation SimpleName tables
+table stateonline QualifiedName InfixExpression MethodInvocation SimpleName get table state
+table stateonline QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName conn
+table stateonline QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+table stateonline QualifiedName InfixExpression MethodInvocation SimpleName id
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is online
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is online
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+boolean PrimitiveType MethodDeclaration SimpleName is online
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+is online SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+is online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is online
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is online
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn

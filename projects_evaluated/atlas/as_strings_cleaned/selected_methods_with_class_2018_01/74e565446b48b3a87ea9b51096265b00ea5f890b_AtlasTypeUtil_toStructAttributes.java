@@ -1,0 +1,49 @@
+map SimpleName SimpleType SingleVariableDeclaration SimpleName map
+map SimpleName MethodInvocation SimpleName contains key
+map SimpleName MethodInvocation StringLiteral type name
+contains key SimpleName MethodInvocation StringLiteral type name
+map SimpleName InfixExpression InfixExpression MethodInvocation SimpleName map
+map SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains key
+map SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral type name
+map SimpleName MethodInvocation SimpleName contains key
+map SimpleName MethodInvocation StringLiteral attributes
+contains key SimpleName MethodInvocation StringLiteral attributes
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation StringLiteral attributes
+get SimpleName MethodInvocation StringLiteral attributes
+map SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+get SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+attributes StringLiteral MethodInvocation InstanceofExpression SimpleType SimpleName map
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation StringLiteral attributes
+get SimpleName MethodInvocation StringLiteral attributes
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName map
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral attributes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SimpleName to struct attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map
+static Modifier MethodDeclaration SimpleType SimpleName map
+static Modifier MethodDeclaration SimpleName to struct attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+static Modifier MethodDeclaration Block ReturnStatement SimpleName map
+map SimpleName SimpleType MethodDeclaration SimpleName to struct attributes
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName map
+to struct attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+to struct attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+to struct attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName to struct attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to struct attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map

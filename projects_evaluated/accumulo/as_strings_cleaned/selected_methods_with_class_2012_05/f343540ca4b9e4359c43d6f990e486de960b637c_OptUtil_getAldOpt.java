@@ -1,0 +1,31 @@
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation QualifiedName adl optaddopt
+has option SimpleName MethodInvocation QualifiedName adl optaddopt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation QualifiedName adl optdeleteopt
+has option SimpleName MethodInvocation QualifiedName adl optdeleteopt
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName adl opt
+public Modifier MethodDeclaration SimpleName get ald opt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+static Modifier MethodDeclaration SimpleType SimpleName adl opt
+static Modifier MethodDeclaration SimpleName get ald opt
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+adl opt SimpleName SimpleType MethodDeclaration SimpleName get ald opt
+adl opt SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cl
+get ald opt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+get ald opt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName adl opt
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ald opt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName adl opt
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ald opt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl

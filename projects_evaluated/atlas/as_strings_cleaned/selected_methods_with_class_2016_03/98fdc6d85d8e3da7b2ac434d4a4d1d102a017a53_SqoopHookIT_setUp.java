@@ -1,0 +1,41 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation StringLiteral atlasrestaddress
+get string SimpleName MethodInvocation StringLiteral atlasrestaddress
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral atlasrestaddress
+dgi c lient SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation StringLiteral atlasrestaddress
+sqoop hook SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName register data models
+sqoop hook SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dgi c lient
+sqoop hook SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+register data models SimpleName MethodInvocation SimpleName dgi c lient
+register data models SimpleName MethodInvocation SimpleName configuration
+dgi c lient SimpleName MethodInvocation SimpleName configuration
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

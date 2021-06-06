@@ -1,0 +1,29 @@
+hive operation SimpleName SimpleType SingleVariableDeclaration SimpleName hive operation
+hive operation SimpleName MethodInvocation SimpleName values
+hive operation SimpleName MethodInvocation SimpleName get operation name
+operation map SimpleName MethodInvocation SimpleName put
+operation map SimpleName MethodInvocation MethodInvocation SimpleName hive operation
+operation map SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+operation map SimpleName MethodInvocation SimpleName hive operation
+put SimpleName MethodInvocation MethodInvocation SimpleName hive operation
+put SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+put SimpleName MethodInvocation SimpleName hive operation
+hive operation SimpleName MethodInvocation MethodInvocation SimpleName hive operation
+get operation name SimpleName MethodInvocation MethodInvocation SimpleName hive operation
+hive operation SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName hive operation
+hive operation SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup operation map
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup operation map
+void PrimitiveType MethodDeclaration SimpleName setup operation map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup operation map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup operation map

@@ -1,0 +1,69 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral userdir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral target
+system SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+get property SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+userdir StringLiteral MethodInvocation ClassInstanceCreation StringLiteral target
+target dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+target dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+target dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get property
+target dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral userdir
+target dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral target
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target dir
+could not find maven target directory StringLiteral InfixExpression SimpleName target dir
+target dir SimpleName MethodInvocation SimpleName exists
+target dir SimpleName MethodInvocation SimpleName is directory
+target dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+target dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression StringLiteral could not find maven target directory
+assert SimpleName MethodInvocation InfixExpression SimpleName target dir
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+assert true SimpleName MethodInvocation InfixExpression StringLiteral could not find maven target directory
+assert true SimpleName MethodInvocation InfixExpression SimpleName target dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName target dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+file SimpleName SimpleType ClassInstanceCreation SimpleName target dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral kerberos
+target dir SimpleName ClassInstanceCreation StringLiteral kerberos
+file SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName target dir
+file SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral kerberos
+file SimpleName SimpleType ClassInstanceCreation StringLiteral keytabs
+file SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral keytabs
+target dir SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral keytabs
+kerberos StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral keytabs
+keytab dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+keytab dir SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName target dir
+keytab dir SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral kerberos
+keytab dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral keytabs
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName keytab dir
+keytab dir SimpleName MethodInvocation SimpleName mkdirs
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName compute keytab dir
+private Modifier MethodDeclaration Block ReturnStatement SimpleName keytab dir
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName compute keytab dir
+static Modifier MethodDeclaration Block ReturnStatement SimpleName keytab dir
+file SimpleName SimpleType MethodDeclaration SimpleName compute keytab dir
+compute keytab dir SimpleName MethodDeclaration Block ReturnStatement SimpleName keytab dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute keytab dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute keytab dir

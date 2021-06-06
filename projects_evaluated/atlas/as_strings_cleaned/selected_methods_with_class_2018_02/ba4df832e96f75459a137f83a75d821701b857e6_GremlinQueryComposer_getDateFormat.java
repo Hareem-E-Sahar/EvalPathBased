@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+date format SimpleName SimpleType SingleVariableDeclaration SimpleName date format
+dsl date format SimpleName MethodInvocation SimpleName get
+date format SimpleName MethodInvocation SimpleName parse
+date format SimpleName MethodInvocation SimpleName s
+parse SimpleName MethodInvocation SimpleName s
+date format SimpleName MethodInvocation MethodInvocation SimpleName get time
+parse SimpleName MethodInvocation MethodInvocation SimpleName get time
+s SimpleName MethodInvocation MethodInvocation SimpleName get time
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ignored
+date format SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName dsl date format
+date format SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+contextvalidator QualifiedName MethodInvocation SimpleName check
+contextvalidator QualifiedName MethodInvocation BooleanLiteral false
+contextvalidator QualifiedName MethodInvocation QualifiedName atlas error codeinvalid dsl invalid date
+contextvalidator QualifiedName MethodInvocation SimpleName s
+check SimpleName MethodInvocation BooleanLiteral false
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl invalid date
+check SimpleName MethodInvocation SimpleName s
+false BooleanLiteral MethodInvocation QualifiedName atlas error codeinvalid dsl invalid date
+false BooleanLiteral MethodInvocation SimpleName s
+atlas error codeinvalid dsl invalid date QualifiedName MethodInvocation SimpleName s
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get date format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+long PrimitiveType MethodDeclaration SimpleName get date format
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+get date format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get date format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get date format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get date format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

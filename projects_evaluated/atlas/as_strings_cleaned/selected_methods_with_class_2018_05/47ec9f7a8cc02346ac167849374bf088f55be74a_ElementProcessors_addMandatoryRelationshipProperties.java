@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName props
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+props SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+constantsrelationship guid property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+constantsrelationship guid property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+constantsrelationship guid property key QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get default propagate value SimpleName MethodInvocation SimpleName label
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName get default propagate value
+string SimpleName MethodInvocation MethodInvocation SimpleName label
+value of SimpleName MethodInvocation MethodInvocation SimpleName get default propagate value
+value of SimpleName MethodInvocation MethodInvocation SimpleName label
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation SimpleName relationshiptype tag propagation key
+props SimpleName MethodInvocation MethodInvocation SimpleName string
+props SimpleName MethodInvocation MethodInvocation SimpleName value of
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default propagate value
+props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+put SimpleName MethodInvocation SimpleName relationshiptype tag propagation key
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName value of
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default propagate value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+relationshiptype tag propagation key SimpleName MethodInvocation MethodInvocation SimpleName string
+relationshiptype tag propagation key SimpleName MethodInvocation MethodInvocation SimpleName value of
+relationshiptype tag propagation key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default propagate value
+relationshiptype tag propagation key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation SimpleName state property key
+props SimpleName MethodInvocation StringLiteral active
+put SimpleName MethodInvocation SimpleName state property key
+put SimpleName MethodInvocation StringLiteral active
+state property key SimpleName MethodInvocation StringLiteral active
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add mandatory relationship properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleName add mandatory relationship properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName label
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+add mandatory relationship properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add mandatory relationship properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+add mandatory relationship properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add mandatory relationship properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add mandatory relationship properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props

@@ -1,0 +1,59 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+table type StringLiteral ArrayInitializer SimpleName database type
+table type StringLiteral ArrayInitializer SimpleName table type
+table type StringLiteral ArrayInitializer StringLiteral serde type
+table type StringLiteral ArrayInitializer StringLiteral classification
+database type SimpleName ArrayInitializer SimpleName table type
+database type SimpleName ArrayInitializer StringLiteral serde type
+database type SimpleName ArrayInitializer StringLiteral classification
+table type SimpleName ArrayInitializer StringLiteral serde type
+table type SimpleName ArrayInitializer StringLiteral classification
+serde type StringLiteral ArrayInitializer StringLiteral classification
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral table type
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName database type
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table type
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral serde type
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral classification
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral table type
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName database type
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName table type
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral serde type
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral classification
+types serialization SimpleName MethodInvocation SimpleName to json
+types serialization SimpleName MethodInvocation SimpleName type system
+types serialization SimpleName MethodInvocation MethodInvocation SimpleName arrays
+types serialization SimpleName MethodInvocation MethodInvocation SimpleName as list
+to json SimpleName MethodInvocation SimpleName type system
+to json SimpleName MethodInvocation MethodInvocation SimpleName arrays
+to json SimpleName MethodInvocation MethodInvocation SimpleName as list
+type system SimpleName MethodInvocation MethodInvocation SimpleName arrays
+type system SimpleName MethodInvocation MethodInvocation SimpleName as list
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types serialization
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+types as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+types as json SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+types as json SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName types as json
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName types as json
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types as json
+sumbit type SimpleName MethodInvocation SimpleName types as json
+sumbit type SimpleName MethodInvocation SimpleName table type
+types as json SimpleName MethodInvocation SimpleName table type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName submit types
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName submit types
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+submit types SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName submit types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName submit types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

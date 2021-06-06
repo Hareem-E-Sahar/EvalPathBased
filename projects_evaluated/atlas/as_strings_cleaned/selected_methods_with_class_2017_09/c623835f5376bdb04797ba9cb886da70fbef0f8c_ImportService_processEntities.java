@@ -1,0 +1,52 @@
+zip source SimpleName SimpleType SingleVariableDeclaration SimpleName import source
+atlas import result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+bulk importer SimpleName FieldAccess MethodInvocation SimpleName bulk import
+bulk importer SimpleName FieldAccess MethodInvocation SimpleName import source
+bulk importer SimpleName FieldAccess MethodInvocation SimpleName result
+bulk import SimpleName MethodInvocation SimpleName import source
+bulk import SimpleName MethodInvocation SimpleName result
+import source SimpleName MethodInvocation SimpleName result
+system SimpleName MethodInvocation SimpleName current time millis
+end timestamp SimpleName Assignment MethodInvocation SimpleName system
+end timestamp SimpleName Assignment MethodInvocation SimpleName current time millis
+end timestamp SimpleName FieldAccess InfixExpression FieldAccess SimpleName start timestamp
+result SimpleName MethodInvocation SimpleName increment metics counter
+result SimpleName MethodInvocation StringLiteral duration
+result SimpleName MethodInvocation CastExpression PrimitiveType int
+increment metics counter SimpleName MethodInvocation StringLiteral duration
+increment metics counter SimpleName MethodInvocation CastExpression PrimitiveType int
+duration StringLiteral MethodInvocation CastExpression PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName import source
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName process entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName import source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+process entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zip source
+process entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName import source
+process entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas import result
+process entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+process entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+import source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+import source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName import source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

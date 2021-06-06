@@ -1,0 +1,94 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> audit {})
+log SimpleName MethodInvocation SimpleName message user
+log SimpleName MethodInvocation SimpleName method
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral ==> audit {})
+debug SimpleName MethodInvocation SimpleName message user
+debug SimpleName MethodInvocation SimpleName method
+debug SimpleName MethodInvocation SimpleName path
+==> audit {}) StringLiteral MethodInvocation SimpleName message user
+==> audit {}) StringLiteral MethodInvocation SimpleName method
+==> audit {}) StringLiteral MethodInvocation SimpleName path
+message user SimpleName MethodInvocation SimpleName method
+message user SimpleName MethodInvocation SimpleName path
+method SimpleName MethodInvocation SimpleName path
+date time helper SimpleName MethodInvocation SimpleName format date utc
+date time helper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format date utc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+audit filter SimpleName MethodInvocation SimpleName audit
+audit filter SimpleName MethodInvocation SimpleName message user
+audit filter SimpleName MethodInvocation SimpleName threadname prefix
+audit filter SimpleName MethodInvocation SimpleName method
+audit filter SimpleName MethodInvocation SimpleName localhost
+audit SimpleName MethodInvocation SimpleName message user
+audit SimpleName MethodInvocation SimpleName threadname prefix
+audit SimpleName MethodInvocation SimpleName method
+audit SimpleName MethodInvocation SimpleName localhost
+audit SimpleName MethodInvocation SimpleName path
+message user SimpleName MethodInvocation SimpleName threadname prefix
+message user SimpleName MethodInvocation SimpleName method
+message user SimpleName MethodInvocation SimpleName localhost
+message user SimpleName MethodInvocation SimpleName path
+message user SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation SimpleName method
+threadname prefix SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation SimpleName path
+threadname prefix SimpleName MethodInvocation SimpleName localhost
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+threadname prefix SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+method SimpleName MethodInvocation SimpleName localhost
+method SimpleName MethodInvocation SimpleName path
+method SimpleName MethodInvocation SimpleName localhost
+method SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+method SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+localhost SimpleName MethodInvocation SimpleName path
+localhost SimpleName MethodInvocation SimpleName localhost
+localhost SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+localhost SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+path SimpleName MethodInvocation SimpleName localhost
+path SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+path SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+localhost SimpleName MethodInvocation MethodInvocation SimpleName date time helper
+localhost SimpleName MethodInvocation MethodInvocation SimpleName format date utc
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName audit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName message user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName method
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName audit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName method
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message user
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+message user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method
+message user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName audit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName audit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

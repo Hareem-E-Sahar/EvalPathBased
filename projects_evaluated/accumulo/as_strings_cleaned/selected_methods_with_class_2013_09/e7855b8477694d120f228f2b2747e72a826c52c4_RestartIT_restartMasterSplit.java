@@ -1,0 +1,164 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+create SimpleName MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation SimpleName table operations
+propertytable split threshold QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test ingest
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral k
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral k
+set property SimpleName MethodInvocation StringLiteral test ingest
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral k
+test ingest StringLiteral MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+test ingest StringLiteral MethodInvocation MethodInvocation SimpleName get key
+test ingest StringLiteral MethodInvocation StringLiteral k
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation StringLiteral k
+get key SimpleName MethodInvocation MethodInvocation StringLiteral k
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test ingest
+cluster SimpleName MethodInvocation StringLiteral u
+cluster SimpleName MethodInvocation StringLiteral root
+cluster SimpleName MethodInvocation StringLiteral p
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test ingest
+exec SimpleName MethodInvocation StringLiteral u
+exec SimpleName MethodInvocation StringLiteral root
+exec SimpleName MethodInvocation StringLiteral p
+exec SimpleName MethodInvocation SimpleName root password
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral u
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral root
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral p
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation SimpleName root password
+test ingest SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral i
+u StringLiteral MethodInvocation StringLiteral root
+u StringLiteral MethodInvocation StringLiteral p
+u StringLiteral MethodInvocation SimpleName root password
+u StringLiteral MethodInvocation StringLiteral i
+u StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+u StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+root StringLiteral MethodInvocation StringLiteral p
+root StringLiteral MethodInvocation SimpleName root password
+root StringLiteral MethodInvocation StringLiteral i
+root StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+root StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+root StringLiteral MethodInvocation StringLiteral z
+p StringLiteral MethodInvocation SimpleName root password
+p StringLiteral MethodInvocation StringLiteral i
+p StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+p StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+p StringLiteral MethodInvocation StringLiteral z
+p StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+p StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+root password SimpleName MethodInvocation StringLiteral i
+root password SimpleName MethodInvocation MethodInvocation SimpleName cluster
+root password SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+root password SimpleName MethodInvocation StringLiteral z
+root password SimpleName MethodInvocation MethodInvocation SimpleName cluster
+root password SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+i StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+i StringLiteral MethodInvocation MethodInvocation SimpleName get instance name
+i StringLiteral MethodInvocation StringLiteral z
+i StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+i StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation MethodInvocation StringLiteral z
+get instance name SimpleName MethodInvocation MethodInvocation StringLiteral z
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+z StringLiteral MethodInvocation MethodInvocation SimpleName cluster
+z StringLiteral MethodInvocation MethodInvocation SimpleName get zoo keepers
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral u
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral p
+ingest SimpleName VariableDeclarationFragment MethodInvocation SimpleName root password
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral i
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance name
+ingest SimpleName VariableDeclarationFragment MethodInvocation StringLiteral z
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+ingest SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get zoo keepers
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName master
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get
+get processes SimpleName MethodInvocation MethodInvocation SimpleName get
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName server typemaster
+get processes SimpleName MethodInvocation MethodInvocation QualifiedName server typemaster
+get SimpleName MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName master
+kill process SimpleName MethodInvocation QualifiedName server typemaster
+kill process SimpleName MethodInvocation SimpleName master
+server typemaster QualifiedName MethodInvocation SimpleName master
+master SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+master SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typemaster
+cluster SimpleName MethodInvocation SimpleName start
+ingest SimpleName MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ingest
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ingest
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation SimpleName sopts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation SimpleName sopts
+vopts SimpleName MethodInvocation SimpleName sopts
+ingest SimpleName MethodInvocation SimpleName destroy
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName restart master split
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName restart master split
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName restart master split
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName restart master split
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+restart master split SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName restart master split
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restart master split
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

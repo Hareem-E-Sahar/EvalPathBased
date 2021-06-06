@@ -1,0 +1,112 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+final Modifier VariableDeclarationStatement SimpleType SimpleName connector
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+table StringLiteral InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+create SimpleName MethodInvocation InfixExpression StringLiteral table
+create SimpleName MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+atomic reference SimpleName SimpleType ParameterizedType SimpleType SimpleName exception
+atomic reference SimpleName SimpleType ParameterizedType SimpleType SimpleName exception
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName atomic reference
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName exception
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+table StringLiteral InfixExpression SimpleName i
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table
+c SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral table
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+delete SimpleName MethodInvocation InfixExpression StringLiteral table
+delete SimpleName MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ref SimpleName MethodInvocation SimpleName set
+ref SimpleName MethodInvocation SimpleName ex
+set SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+async SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName async
+async SimpleName MethodInvocation SimpleName start
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+cluster SimpleName MethodInvocation StringLiteral stop all
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+exec SimpleName MethodInvocation StringLiteral stop all
+admin SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral stop all
+cluster SimpleName MethodInvocation MethodInvocation SimpleName wait for
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+stop all StringLiteral MethodInvocation MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+ref SimpleName MethodInvocation SimpleName get
+ref SimpleName MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName shutdown during delete table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName shutdown during delete table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName shutdown during delete table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+shutdown during delete table SimpleName MethodDeclaration SimpleType SimpleName exception
+shutdown during delete table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+shutdown during delete table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName shutdown during delete table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName shutdown during delete table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

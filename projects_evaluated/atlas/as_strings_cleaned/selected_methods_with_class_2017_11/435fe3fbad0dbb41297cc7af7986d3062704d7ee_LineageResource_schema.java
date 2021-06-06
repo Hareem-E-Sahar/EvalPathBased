@@ -1,0 +1,199 @@
+path SimpleName SingleMemberAnnotation StringLiteral guidschema
+consumes SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+path param SimpleName SingleMemberAnnotation StringLiteral guid
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path param SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+guid StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> lineage resourceschema
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral ==> lineage resourceschema
+debug SimpleName MethodInvocation SimpleName guid
+==> lineage resourceschema StringLiteral MethodInvocation SimpleName guid
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName schema response
+schema response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+lineage resourceschema StringLiteral InfixExpression SimpleName guid
+lineage resourceschema StringLiteral InfixExpression StringLiteral )
+guid SimpleName InfixExpression StringLiteral )
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral lineage resourceschema
+atlas perf tracer SimpleName MethodInvocation InfixExpression SimpleName guid
+atlas perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral lineage resourceschema
+get perf tracer SimpleName MethodInvocation InfixExpression SimpleName guid
+get perf tracer SimpleName MethodInvocation InfixExpression StringLiteral )
+perf log SimpleName MethodInvocation InfixExpression StringLiteral lineage resourceschema
+perf log SimpleName MethodInvocation InfixExpression SimpleName guid
+perf log SimpleName MethodInvocation InfixExpression StringLiteral )
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral lineage resourceschema
+perf SimpleName Assignment MethodInvocation InfixExpression SimpleName guid
+perf SimpleName Assignment MethodInvocation InfixExpression StringLiteral )
+atlas lineage service SimpleName MethodInvocation SimpleName get schema for hive table by guid
+atlas lineage service SimpleName MethodInvocation SimpleName guid
+get schema for hive table by guid SimpleName MethodInvocation SimpleName guid
+schema details SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas lineage service
+schema details SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema for hive table by guid
+schema details SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+schema responseschema details QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema details
+servlets SimpleName MethodInvocation SimpleName get request id
+ret SimpleName MethodInvocation SimpleName set request id
+ret SimpleName MethodInvocation MethodInvocation SimpleName servlets
+ret SimpleName MethodInvocation MethodInvocation SimpleName get request id
+set request id SimpleName MethodInvocation MethodInvocation SimpleName servlets
+set request id SimpleName MethodInvocation MethodInvocation SimpleName get request id
+ret SimpleName MethodInvocation SimpleName set results
+ret SimpleName MethodInvocation SimpleName schema details
+set results SimpleName MethodInvocation SimpleName schema details
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get schema for entity guid
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get schema for entity guid
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+unable to get schema for entity guid StringLiteral MethodInvocation SimpleName guid
+unable to get schema for entity guid StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get schema for entity guid
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get schema for entity guid
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+unable to get schema for entity guid StringLiteral MethodInvocation SimpleName guid
+unable to get schema for entity guid StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get schema for entity
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to get schema for entity
+error SimpleName MethodInvocation SimpleName guid
+error SimpleName MethodInvocation SimpleName e
+unable to get schema for entity StringLiteral MethodInvocation SimpleName guid
+unable to get schema for entity StringLiteral MethodInvocation SimpleName e
+guid SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+e SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== lineage resourceschema
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral <== lineage resourceschema
+debug SimpleName MethodInvocation SimpleName guid
+<== lineage resourceschema StringLiteral MethodInvocation SimpleName guid
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral guidschema
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName schema response
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName schema
+guidschema StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName schema
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName schema
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName schema
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName schema response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName schema
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName schema
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName schema response
+public Modifier MethodDeclaration SimpleName schema
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+public Modifier MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+schema response SimpleName SimpleType MethodDeclaration SimpleName schema
+schema response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+schema SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation SimpleName path param
+schema SimpleName MethodDeclaration SingleVariableDeclaration SingleMemberAnnotation StringLiteral guid
+schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guidschema
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schema response
+public Modifier TypeDeclaration MethodDeclaration SimpleName schema
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral guidschema
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schema response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schema
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

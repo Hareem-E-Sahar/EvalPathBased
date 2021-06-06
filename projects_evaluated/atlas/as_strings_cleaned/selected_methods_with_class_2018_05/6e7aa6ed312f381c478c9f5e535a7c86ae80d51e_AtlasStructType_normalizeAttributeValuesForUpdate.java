@@ -1,0 +1,51 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attr def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+attr def SimpleName MethodInvocation SimpleName get name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr def
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+obj SimpleName MethodInvocation SimpleName get
+obj SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+obj SimpleName MethodInvocation SimpleName contains key
+obj SimpleName MethodInvocation SimpleName attr name
+contains key SimpleName MethodInvocation SimpleName attr name
+get normalized value for update SimpleName MethodInvocation SimpleName attr value
+get normalized value for update SimpleName MethodInvocation SimpleName attr def
+attr value SimpleName MethodInvocation SimpleName attr def
+attr value SimpleName Assignment MethodInvocation SimpleName get normalized value for update
+attr value SimpleName Assignment MethodInvocation SimpleName attr value
+attr value SimpleName Assignment MethodInvocation SimpleName attr def
+obj SimpleName MethodInvocation SimpleName put
+obj SimpleName MethodInvocation SimpleName attr name
+obj SimpleName MethodInvocation SimpleName attr value
+put SimpleName MethodInvocation SimpleName attr name
+put SimpleName MethodInvocation SimpleName attr value
+attr name SimpleName MethodInvocation SimpleName attr value
+attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attr def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize attribute values for update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName normalize attribute values for update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+normalize attribute values for update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize attribute values for update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize attribute values for update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

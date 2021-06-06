@@ -1,0 +1,44 @@
+assert property removed SimpleName MethodInvocation SimpleName hive columns property
+assert property removed SimpleName MethodInvocation SimpleName table v
+hive columns property SimpleName MethodInvocation SimpleName table v
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+get edge label SimpleName MethodInvocation SimpleName hive columns property
+table v SimpleName MethodInvocation SimpleName edges
+table v SimpleName MethodInvocation QualifiedName directionout
+table v SimpleName MethodInvocation MethodInvocation SimpleName get edge label
+table v SimpleName MethodInvocation MethodInvocation SimpleName hive columns property
+edges SimpleName MethodInvocation QualifiedName directionout
+edges SimpleName MethodInvocation MethodInvocation SimpleName get edge label
+edges SimpleName MethodInvocation MethodInvocation SimpleName hive columns property
+directionout QualifiedName MethodInvocation MethodInvocation SimpleName get edge label
+directionout QualifiedName MethodInvocation MethodInvocation SimpleName hive columns property
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName table v
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edges SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionout
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edge label
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive columns property
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName property
+e SimpleName MethodInvocation SimpleName attribute index property key
+property SimpleName MethodInvocation SimpleName attribute index property key
+e SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+attribute index property key SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute index property key
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is present
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert incomplete
+void PrimitiveType MethodDeclaration SimpleName assert incomplete
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert incomplete
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert incomplete

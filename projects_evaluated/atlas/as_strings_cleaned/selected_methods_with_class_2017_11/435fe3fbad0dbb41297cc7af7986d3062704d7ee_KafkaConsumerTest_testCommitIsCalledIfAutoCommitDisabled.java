@@ -1,0 +1,67 @@
+topic partition SimpleName SimpleType ClassInstanceCreation StringLiteral atlas hook
+topic partition SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+atlas hook StringLiteral ClassInstanceCreation NumberLiteral empty
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName topic partition
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral atlas hook
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+topic partition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation QualifiedName notification typehook
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation SimpleName kafka consumer
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+atlas kafka consumer SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+notification typehook QualifiedName ClassInstanceCreation SimpleName kafka consumer
+notification typehook QualifiedName ClassInstanceCreation BooleanLiteral false
+notification typehook QualifiedName ClassInstanceCreation NumberLiteral l
+kafka consumer SimpleName ClassInstanceCreation BooleanLiteral false
+kafka consumer SimpleName ClassInstanceCreation NumberLiteral l
+false BooleanLiteral ClassInstanceCreation NumberLiteral l
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas kafka consumer
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName notification typehook
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName kafka consumer
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral l
+atlas kafka consumer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName consumer
+consumer SimpleName MethodInvocation SimpleName commit
+consumer SimpleName MethodInvocation SimpleName tp
+consumer SimpleName MethodInvocation NumberLiteral empty
+commit SimpleName MethodInvocation SimpleName tp
+commit SimpleName MethodInvocation NumberLiteral empty
+tp SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName kafka consumer
+offset and metadata SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation SimpleName tp
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName offset and metadata
+collections SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+singleton map SimpleName MethodInvocation SimpleName tp
+singleton map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName offset and metadata
+singleton map SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+tp SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName offset and metadata
+tp SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName commit sync
+kafka consumer SimpleName MethodInvocation MethodInvocation SimpleName commit sync
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton map
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tp
+kafka consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+kafka consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton map
+kafka consumer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tp
+commit sync SimpleName MethodInvocation MethodInvocation SimpleName collections
+commit sync SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+commit sync SimpleName MethodInvocation MethodInvocation SimpleName tp
+commit sync SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test commit is called if auto commit disabled
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test commit is called if auto commit disabled
+void PrimitiveType MethodDeclaration SimpleName test commit is called if auto commit disabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test commit is called if auto commit disabled
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test commit is called if auto commit disabled

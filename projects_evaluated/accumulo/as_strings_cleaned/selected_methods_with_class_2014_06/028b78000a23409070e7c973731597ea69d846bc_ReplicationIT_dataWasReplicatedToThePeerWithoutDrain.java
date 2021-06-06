@@ -1,0 +1,500 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+test name SimpleName FieldAccess MethodInvocation SimpleName get method name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get method name
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral peer
+get name SimpleName MethodInvocation InfixExpression StringLiteral peer
+empty StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName test name
+empty StringLiteral InfixExpression MethodInvocation SimpleName get method name
+empty StringLiteral InfixExpression StringLiteral peer
+test name SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral peer
+get method name SimpleName MethodInvocation InfixExpression StringLiteral peer
+create test dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+create test dir SimpleName MethodInvocation InfixExpression StringLiteral empty
+create test dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get method name
+create test dir SimpleName MethodInvocation InfixExpression StringLiteral peer
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create test dir
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation SimpleName root password
+create test dir SimpleName MethodInvocation ClassInstanceCreation SimpleName root password
+empty StringLiteral InfixExpression MethodInvocation ClassInstanceCreation SimpleName root password
+peer StringLiteral InfixExpression MethodInvocation ClassInstanceCreation SimpleName root password
+peer cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mini accumulo config impl
+peer cfg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create test dir
+peer cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root password
+mini accumulo config impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer cfg
+peer cfg SimpleName MethodInvocation SimpleName set num tservers
+peer cfg SimpleName MethodInvocation NumberLiteral empty
+set num tservers SimpleName MethodInvocation NumberLiteral empty
+peer cfg SimpleName MethodInvocation SimpleName set instance name
+peer cfg SimpleName MethodInvocation StringLiteral peer
+set instance name SimpleName MethodInvocation StringLiteral peer
+peer cfg SimpleName MethodInvocation SimpleName set property
+peer cfg SimpleName MethodInvocation QualifiedName propertytserv walog max size
+peer cfg SimpleName MethodInvocation StringLiteral m
+set property SimpleName MethodInvocation QualifiedName propertytserv walog max size
+set property SimpleName MethodInvocation StringLiteral m
+propertytserv walog max size QualifiedName MethodInvocation StringLiteral m
+peer cfg SimpleName MethodInvocation SimpleName set property
+peer cfg SimpleName MethodInvocation QualifiedName propertyreplication work assignment sleep
+peer cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertyreplication work assignment sleep
+set property SimpleName MethodInvocation StringLiteral s
+propertyreplication work assignment sleep QualifiedName MethodInvocation StringLiteral s
+peer cfg SimpleName MethodInvocation SimpleName set property
+peer cfg SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+peer cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+set property SimpleName MethodInvocation StringLiteral s
+propertymaster replication scan interval QualifiedName MethodInvocation StringLiteral s
+peer cfg SimpleName MethodInvocation SimpleName set property
+peer cfg SimpleName MethodInvocation QualifiedName propertyreplication name
+peer cfg SimpleName MethodInvocation StringLiteral peer
+set property SimpleName MethodInvocation QualifiedName propertyreplication name
+set property SimpleName MethodInvocation StringLiteral peer
+propertyreplication name QualifiedName MethodInvocation StringLiteral peer
+peer cfg SimpleName MethodInvocation SimpleName build
+peer cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer cfg
+peer cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+mini accumulo cluster impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer cluster
+peer cluster SimpleName MethodInvocation SimpleName start
+conn master SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn master
+peer cluster SimpleName MethodInvocation SimpleName get connector
+peer cluster SimpleName MethodInvocation StringLiteral root
+peer cluster SimpleName MethodInvocation SimpleName root password
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation SimpleName root password
+root StringLiteral MethodInvocation SimpleName root password
+conn peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer cluster
+conn peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn peer SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName root password
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn peer
+peer user name SimpleName VariableDeclarationFragment StringLiteral repl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer user name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral repl
+peer password SimpleName VariableDeclarationFragment StringLiteral passwd
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer password
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral passwd
+conn peer SimpleName MethodInvocation SimpleName security operations
+password token SimpleName SimpleType ClassInstanceCreation SimpleName peer password
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+conn peer SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName peer password
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName peer password
+create local user SimpleName MethodInvocation SimpleName peer user name
+create local user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+create local user SimpleName MethodInvocation ClassInstanceCreation SimpleName peer password
+peer user name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+peer user name SimpleName MethodInvocation ClassInstanceCreation SimpleName peer password
+peer cluster name SimpleName VariableDeclarationFragment StringLiteral peer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral peer
+conn master SimpleName MethodInvocation SimpleName instance operations
+propertyreplication peers QualifiedName MethodInvocation SimpleName get key
+propertyreplication peers QualifiedName MethodInvocation InfixExpression SimpleName peer cluster name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+peer cluster SimpleName MethodInvocation SimpleName get instance name
+peer cluster SimpleName MethodInvocation SimpleName get zoo keepers
+accumulo replica system SimpleName MethodInvocation SimpleName build configuration
+accumulo replica system SimpleName MethodInvocation MethodInvocation SimpleName peer cluster
+accumulo replica system SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+accumulo replica system SimpleName MethodInvocation MethodInvocation SimpleName peer cluster
+accumulo replica system SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+build configuration SimpleName MethodInvocation MethodInvocation SimpleName peer cluster
+build configuration SimpleName MethodInvocation MethodInvocation SimpleName get instance name
+build configuration SimpleName MethodInvocation MethodInvocation SimpleName peer cluster
+build configuration SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+peer cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+peer cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+get instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+replica system factory SimpleName MethodInvocation SimpleName get peer configuration value
+replica system factory SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo replica system
+replica system factory SimpleName MethodInvocation MethodInvocation SimpleName accumulo replica system
+replica system factory SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+replica system factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+replica system factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+replica system factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+replica system factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+get peer configuration value SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo replica system
+get peer configuration value SimpleName MethodInvocation MethodInvocation SimpleName accumulo replica system
+get peer configuration value SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+get peer configuration value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+get peer configuration value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance name
+get peer configuration value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer cluster
+get peer configuration value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers
+conn master SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+instance operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replica system factory
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer configuration value
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replica system factory
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get peer configuration value
+set property SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyreplication peers
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+set property SimpleName MethodInvocation MethodInvocation SimpleName replica system factory
+set property SimpleName MethodInvocation MethodInvocation SimpleName get peer configuration value
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo replica system
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build configuration
+peer cluster name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName replica system factory
+peer cluster name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get peer configuration value
+conn master SimpleName MethodInvocation SimpleName instance operations
+propertyreplication peer user QualifiedName MethodInvocation SimpleName get key
+propertyreplication peer user QualifiedName MethodInvocation InfixExpression SimpleName peer cluster name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+instance operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+set property SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyreplication peer user
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+set property SimpleName MethodInvocation SimpleName peer user name
+propertyreplication peer user QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName peer user name
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName peer user name
+peer cluster name SimpleName InfixExpression MethodInvocation SimpleName peer user name
+conn master SimpleName MethodInvocation SimpleName instance operations
+propertyreplication peer password QualifiedName MethodInvocation SimpleName get key
+propertyreplication peer password QualifiedName MethodInvocation InfixExpression SimpleName peer cluster name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+instance operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName peer password
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName peer password
+set property SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyreplication peer password
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+set property SimpleName MethodInvocation SimpleName peer password
+propertyreplication peer password QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName peer password
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName peer password
+peer cluster name SimpleName InfixExpression MethodInvocation SimpleName peer password
+master table SimpleName VariableDeclarationFragment StringLiteral master
+peer table SimpleName VariableDeclarationFragment StringLiteral peer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral master
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral peer
+master table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName peer table
+master table SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral peer
+master StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName peer table
+master StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral peer
+conn master SimpleName MethodInvocation SimpleName table operations
+conn master SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn master SimpleName MethodInvocation MethodInvocation SimpleName master table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName master table
+create SimpleName MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation SimpleName table operations
+conn master SimpleName MethodInvocation MethodInvocation SimpleName table id map
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table id map
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName master table
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName master table
+table id map SimpleName MethodInvocation MethodInvocation SimpleName master table
+get SimpleName MethodInvocation SimpleName master table
+master table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table id map
+master table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+master table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName master table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master table id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName master table id
+assert not null SimpleName MethodInvocation SimpleName master table id
+conn peer SimpleName MethodInvocation SimpleName table operations
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName peer table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName peer table
+create SimpleName MethodInvocation SimpleName peer table
+conn peer SimpleName MethodInvocation SimpleName table operations
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName table id map
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table id map
+conn peer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+conn peer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer table
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName peer table
+table id map SimpleName MethodInvocation MethodInvocation SimpleName peer table
+get SimpleName MethodInvocation SimpleName peer table
+peer table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table id map
+peer table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+peer table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer table id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName peer table id
+assert not null SimpleName MethodInvocation SimpleName peer table id
+conn peer SimpleName MethodInvocation SimpleName security operations
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName peer user name
+conn peer SimpleName MethodInvocation MethodInvocation SimpleName peer table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName peer table
+conn peer SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation SimpleName peer user name
+grant table permission SimpleName MethodInvocation SimpleName peer table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+peer user name SimpleName MethodInvocation SimpleName peer table
+peer user name SimpleName MethodInvocation QualifiedName table permissionwrite
+peer table SimpleName MethodInvocation QualifiedName table permissionwrite
+conn master SimpleName MethodInvocation SimpleName table operations
+propertytable replication QualifiedName MethodInvocation SimpleName get key
+conn master SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn master SimpleName MethodInvocation MethodInvocation SimpleName master table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable replication
+conn master SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable replication
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+conn master SimpleName MethodInvocation MethodInvocation StringLiteral true
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral true
+set property SimpleName MethodInvocation SimpleName master table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable replication
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral true
+master table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable replication
+master table SimpleName MethodInvocation MethodInvocation SimpleName get key
+master table SimpleName MethodInvocation StringLiteral true
+propertytable replication QualifiedName MethodInvocation MethodInvocation StringLiteral true
+get key SimpleName MethodInvocation MethodInvocation StringLiteral true
+conn master SimpleName MethodInvocation SimpleName table operations
+propertytable replication target QualifiedName MethodInvocation SimpleName get key
+propertytable replication target QualifiedName MethodInvocation InfixExpression SimpleName peer cluster name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn master SimpleName MethodInvocation MethodInvocation SimpleName master table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName peer cluster name
+conn master SimpleName MethodInvocation MethodInvocation SimpleName peer table id
+table operations SimpleName MethodInvocation MethodInvocation SimpleName peer table id
+set property SimpleName MethodInvocation SimpleName master table
+set property SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable replication target
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+set property SimpleName MethodInvocation SimpleName peer table id
+master table SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable replication target
+master table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+master table SimpleName MethodInvocation InfixExpression SimpleName peer cluster name
+master table SimpleName MethodInvocation SimpleName peer table id
+propertytable replication target QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName peer table id
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName peer table id
+peer cluster name SimpleName InfixExpression MethodInvocation SimpleName peer table id
+conn master SimpleName MethodInvocation SimpleName create batch writer
+conn master SimpleName MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName master table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+master table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn master
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName master table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+rows SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName rows
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+rows SimpleName InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName rows
+to string SimpleName MethodInvocation SimpleName rows
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName integer
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rows
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName integer
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName rows
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+cols SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cols
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+cols SimpleName InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName cols
+to string SimpleName MethodInvocation SimpleName cols
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName cols
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation SimpleName value
+m SimpleName MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation SimpleName value
+value SimpleName MethodInvocation StringLiteral empty
+value SimpleName MethodInvocation SimpleName value
+empty StringLiteral MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cols
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cols
+cols SimpleName InfixExpression ForStatement PostfixExpression SimpleName cols
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName cols
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName rows
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName rows
+rows SimpleName InfixExpression ForStatement PostfixExpression SimpleName rows
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName rows
+bw SimpleName MethodInvocation SimpleName close
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral wrote all data to master cluster
+info SimpleName MethodInvocation StringLiteral wrote all data to master cluster
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn master SimpleName MethodInvocation SimpleName replication operations
+conn master SimpleName MethodInvocation MethodInvocation SimpleName referenced files
+replication operations SimpleName MethodInvocation MethodInvocation SimpleName referenced files
+conn master SimpleName MethodInvocation MethodInvocation SimpleName master table
+replication operations SimpleName MethodInvocation MethodInvocation SimpleName master table
+referenced files SimpleName MethodInvocation SimpleName master table
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn master
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName replication operations
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName referenced files
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName master table
+process reference SimpleName SimpleType SingleVariableDeclaration SimpleName proc
+cluster SimpleName MethodInvocation SimpleName get processes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get
+get processes SimpleName MethodInvocation MethodInvocation SimpleName get
+cluster SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get processes SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+get SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName kill process
+cluster SimpleName MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName proc
+kill process SimpleName MethodInvocation QualifiedName server typetablet server
+kill process SimpleName MethodInvocation SimpleName proc
+server typetablet server QualifiedName MethodInvocation SimpleName proc
+proc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+proc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName server typetablet server
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName tablet server
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName tablet server
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName kv
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName kv
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+conn master SimpleName MethodInvocation SimpleName create scanner
+conn master SimpleName MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName master table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+master table SimpleName MethodInvocation QualifiedName authorizationsempty
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName conn master
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create scanner
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName master table
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName authorizationsempty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName kv
+conn master SimpleName MethodInvocation SimpleName create scanner
+conn master SimpleName MethodInvocation QualifiedName replication tablename
+conn master SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName replication tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+replication tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+kv SimpleName MethodInvocation SimpleName get key
+kv SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string no truncate
+kv SimpleName MethodInvocation SimpleName get value
+kv SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+status SimpleName MethodInvocation SimpleName parse from
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kv
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+status SimpleName MethodInvocation MethodInvocation SimpleName get
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName kv
+parse from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse from SimpleName MethodInvocation MethodInvocation SimpleName get
+protobuf util SimpleName MethodInvocation SimpleName to string
+protobuf util SimpleName MethodInvocation MethodInvocation SimpleName status
+protobuf util SimpleName MethodInvocation MethodInvocation SimpleName parse from
+protobuf util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation SimpleName status
+to string SimpleName MethodInvocation MethodInvocation SimpleName parse from
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+kv SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string no truncate SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string no truncate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName protobuf util
+to string no truncate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName protobuf util
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName status
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName parse from
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string no truncate
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName protobuf util
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string no truncate
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName protobuf util
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName conn master
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create scanner
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName replication tablename
+kv SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName authorizationsempty
+conn master SimpleName MethodInvocation SimpleName replication operations
+conn master SimpleName MethodInvocation MethodInvocation SimpleName drain
+replication operations SimpleName MethodInvocation MethodInvocation SimpleName drain
+conn master SimpleName MethodInvocation MethodInvocation SimpleName master table
+replication operations SimpleName MethodInvocation MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation MethodInvocation SimpleName files
+replication operations SimpleName MethodInvocation MethodInvocation SimpleName files
+drain SimpleName MethodInvocation SimpleName master table
+drain SimpleName MethodInvocation SimpleName files
+master table SimpleName MethodInvocation SimpleName files
+conn master SimpleName MethodInvocation SimpleName create scanner
+conn master SimpleName MethodInvocation SimpleName master table
+conn master SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName master table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+master table SimpleName MethodInvocation QualifiedName authorizationsempty
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn master
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName master table
+master SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+conn peer SimpleName MethodInvocation SimpleName create scanner
+conn peer SimpleName MethodInvocation SimpleName peer table
+conn peer SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName peer table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+peer table SimpleName MethodInvocation QualifiedName authorizationsempty
+peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn peer
+peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+peer SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer table

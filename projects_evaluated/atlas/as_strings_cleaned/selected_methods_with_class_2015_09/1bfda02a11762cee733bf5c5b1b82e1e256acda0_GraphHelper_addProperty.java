@@ -1,0 +1,71 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral setting property {} = \{}\ to vertex {}
+log SimpleName MethodInvocation SimpleName property name
+log SimpleName MethodInvocation SimpleName value
+log SimpleName MethodInvocation SimpleName vertex
+debug SimpleName MethodInvocation StringLiteral setting property {} = \{}\ to vertex {}
+debug SimpleName MethodInvocation SimpleName property name
+debug SimpleName MethodInvocation SimpleName value
+debug SimpleName MethodInvocation SimpleName vertex
+setting property {} = \{}\ to vertex {} StringLiteral MethodInvocation SimpleName property name
+setting property {} = \{}\ to vertex {} StringLiteral MethodInvocation SimpleName value
+setting property {} = \{}\ to vertex {} StringLiteral MethodInvocation SimpleName vertex
+property name SimpleName MethodInvocation SimpleName value
+property name SimpleName MethodInvocation SimpleName vertex
+value SimpleName MethodInvocation SimpleName vertex
+titan vertex SimpleName SimpleType CastExpression SimpleName vertex
+vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName add property
+vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName property name
+vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName value
+add property SimpleName MethodInvocation SimpleName property name
+add property SimpleName MethodInvocation SimpleName value
+property name SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName add property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

@@ -1,0 +1,133 @@
+bw defaults SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName bw defaults
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw defaults
+bw defaults SimpleName MethodInvocation SimpleName get max latency
+bw defaults SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert not equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max latency
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw defaults SimpleName MethodInvocation SimpleName get timeout
+bw defaults SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert not equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get timeout
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw defaults SimpleName MethodInvocation SimpleName get max write threads
+assert not equals SimpleName MethodInvocation NumberLiteral empty
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max write threads
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get max write threads
+bw defaults SimpleName MethodInvocation SimpleName get max memory
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max memory
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max memory
+bw config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+bw config SimpleName MethodInvocation SimpleName set max latency
+bw config SimpleName MethodInvocation NumberLiteral l
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set max latency SimpleName MethodInvocation NumberLiteral l
+set max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName set timeout
+bw config SimpleName MethodInvocation NumberLiteral l
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set timeout SimpleName MethodInvocation NumberLiteral l
+set timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName set max write threads
+bw config SimpleName MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation SimpleName set max memory
+bw config SimpleName MethodInvocation NumberLiteral l
+set max memory SimpleName MethodInvocation NumberLiteral l
+create bytes SimpleName MethodInvocation SimpleName bw config
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName create bytes
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName bw config
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+check bytes SimpleName MethodInvocation SimpleName bw config
+check bytes SimpleName MethodInvocation SimpleName bytes
+bw config SimpleName MethodInvocation SimpleName bytes
+bw config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName batch writer config
+bw config SimpleName MethodInvocation SimpleName set max write threads
+bw config SimpleName MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+create bytes SimpleName MethodInvocation SimpleName bw config
+bytes SimpleName Assignment MethodInvocation SimpleName create bytes
+bytes SimpleName Assignment MethodInvocation SimpleName bw config
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+bytes SimpleName ClassInstanceCreation SimpleName utf
+assert equals SimpleName MethodInvocation StringLiteral imax write threads
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName bytes
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+imax write threads StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+imax write threads StringLiteral MethodInvocation ClassInstanceCreation SimpleName bytes
+imax write threads StringLiteral MethodInvocation ClassInstanceCreation SimpleName utf
+check bytes SimpleName MethodInvocation SimpleName bw config
+check bytes SimpleName MethodInvocation SimpleName bytes
+bw config SimpleName MethodInvocation SimpleName bytes
+bw config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName batch writer config
+bw config SimpleName MethodInvocation SimpleName set max write threads
+bw config SimpleName MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation SimpleName set timeout
+bw config SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation QualifiedName time unitseconds
+set timeout SimpleName MethodInvocation NumberLiteral empty
+set timeout SimpleName MethodInvocation QualifiedName time unitseconds
+empty NumberLiteral MethodInvocation QualifiedName time unitseconds
+create bytes SimpleName MethodInvocation SimpleName bw config
+bytes SimpleName Assignment MethodInvocation SimpleName create bytes
+bytes SimpleName Assignment MethodInvocation SimpleName bw config
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+bytes SimpleName ClassInstanceCreation SimpleName utf
+assert equals SimpleName MethodInvocation StringLiteral vmax write threads timeout
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName bytes
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+vmax write threads timeout StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+vmax write threads timeout StringLiteral MethodInvocation ClassInstanceCreation SimpleName bytes
+vmax write threads timeout StringLiteral MethodInvocation ClassInstanceCreation SimpleName utf
+check bytes SimpleName MethodInvocation SimpleName bw config
+check bytes SimpleName MethodInvocation SimpleName bytes
+bw config SimpleName MethodInvocation SimpleName bytes
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test serialize
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test serialize
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test serialize
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test serialize SimpleName MethodDeclaration SimpleType SimpleName io exception
+test serialize SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test serialize
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test serialize
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

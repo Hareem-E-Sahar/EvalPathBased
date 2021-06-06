@@ -1,0 +1,41 @@
+text SimpleName SimpleType ClassInstanceCreation QualifiedName metadata tableid
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName metadata tableid
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+extent SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName metadata tableid
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+replication configuration util SimpleName MethodInvocation SimpleName is enabled
+replication configuration util SimpleName MethodInvocation SimpleName extent
+replication configuration util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration copy
+is enabled SimpleName MethodInvocation SimpleName extent
+is enabled SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration copy
+extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration copy
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation StringLiteral the metadata table should never be replicated
+assert SimpleName MethodInvocation MethodInvocation SimpleName replication configuration util
+assert SimpleName MethodInvocation MethodInvocation SimpleName is enabled
+assert SimpleName MethodInvocation MethodInvocation SimpleName extent
+assert false SimpleName MethodInvocation StringLiteral the metadata table should never be replicated
+assert false SimpleName MethodInvocation MethodInvocation SimpleName replication configuration util
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is enabled
+assert false SimpleName MethodInvocation MethodInvocation SimpleName extent
+the metadata table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName replication configuration util
+the metadata table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName is enabled
+the metadata table should never be replicated StringLiteral MethodInvocation MethodInvocation SimpleName extent
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName metadata table extent empty conf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName metadata table extent empty conf
+void PrimitiveType MethodDeclaration SimpleName metadata table extent empty conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName metadata table extent empty conf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName metadata table extent empty conf

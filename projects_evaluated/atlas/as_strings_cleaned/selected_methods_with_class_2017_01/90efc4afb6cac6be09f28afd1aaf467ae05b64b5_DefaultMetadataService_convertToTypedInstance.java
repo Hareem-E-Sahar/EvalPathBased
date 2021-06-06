@@ -1,0 +1,148 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName updated entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName type name
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName create instance
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+updated entity SimpleName MethodInvocation SimpleName get values map
+updated entity SimpleName MethodInvocation MethodInvocation SimpleName key set
+get values map SimpleName MethodInvocation MethodInvocation SimpleName key set
+typefield mappingfields QualifiedName MethodInvocation SimpleName get
+typefield mappingfields QualifiedName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+attribute info SimpleName VariableDeclarationFragment MethodInvocation QualifiedName typefield mappingfields
+attribute info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attribute info SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute info
+invalid property StringLiteral InfixExpression SimpleName attribute name
+invalid property StringLiteral InfixExpression StringLiteral for entity
+invalid property StringLiteral InfixExpression SimpleName updated entity
+attribute name SimpleName InfixExpression StringLiteral for entity
+attribute name SimpleName InfixExpression SimpleName updated entity
+for entity StringLiteral InfixExpression SimpleName updated entity
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid property
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName attribute name
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral for entity
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName updated entity
+attribute info SimpleName MethodInvocation SimpleName data type
+attribute info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+attr type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute info
+attr type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName data type
+attr type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+data typestype category QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type category
+updated entity SimpleName MethodInvocation SimpleName get
+updated entity SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName updated entity
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName referenceable
+new instance SimpleName MethodInvocation SimpleName set
+new instance SimpleName MethodInvocation SimpleName attribute name
+new instance SimpleName MethodInvocation SimpleName value
+set SimpleName MethodInvocation SimpleName attribute name
+set SimpleName MethodInvocation SimpleName value
+attribute name SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression SimpleName value
+attribute info SimpleName MethodInvocation SimpleName data type
+attribute info SimpleName MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation MethodInvocation SimpleName get name
+id SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName value
+id SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+string SimpleName SimpleType CastExpression ClassInstanceCreation NumberLiteral empty
+value SimpleName CastExpression ClassInstanceCreation NumberLiteral empty
+value SimpleName CastExpression ClassInstanceCreation MethodInvocation SimpleName get name
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName attribute info
+empty NumberLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName data type
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get name
+id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName id
+id SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression SimpleName value
+id SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+id SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+new instance SimpleName MethodInvocation SimpleName set
+new instance SimpleName MethodInvocation SimpleName attribute name
+new instance SimpleName MethodInvocation SimpleName id
+set SimpleName MethodInvocation SimpleName attribute name
+set SimpleName MethodInvocation SimpleName id
+attribute name SimpleName MethodInvocation SimpleName id
+new instance SimpleName MethodInvocation SimpleName set
+new instance SimpleName MethodInvocation SimpleName attribute name
+new instance SimpleName MethodInvocation SimpleName value
+set SimpleName MethodInvocation SimpleName attribute name
+set SimpleName MethodInvocation SimpleName value
+attribute name SimpleName MethodInvocation SimpleName value
+update of StringLiteral InfixExpression SimpleName attr type category
+update of StringLiteral InfixExpression StringLiteral is not supported
+attr type category SimpleName InfixExpression StringLiteral is not supported
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral update of
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName attr type category
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not supported
+attr type category SimpleName SwitchStatement SwitchCase SimpleName class
+attr type category SimpleName SwitchStatement IfStatement InfixExpression SimpleName value
+attr type category SimpleName SwitchStatement SwitchCase SimpleName enum
+attr type category SimpleName SwitchStatement SwitchCase SimpleName primitive
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+attribute name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName convert to typed instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName convert to typed instance
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+convert to typed instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+convert to typed instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+convert to typed instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert to typed instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+convert to typed instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+convert to typed instance SimpleName MethodDeclaration Block ReturnStatement SimpleName new instance
+updated entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+updated entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert to typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert to typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

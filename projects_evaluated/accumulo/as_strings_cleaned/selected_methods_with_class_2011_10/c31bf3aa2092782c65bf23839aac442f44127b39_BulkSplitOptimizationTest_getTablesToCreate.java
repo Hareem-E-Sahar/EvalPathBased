@@ -1,0 +1,52 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table setup
+propertytable majc ratio QualifiedName InfixExpression StringLiteral =
+propertytable file max QualifiedName InfixExpression StringLiteral =
+propertytable split threshold QualifiedName InfixExpression StringLiteral = g
+parse config SimpleName MethodInvocation InfixExpression QualifiedName propertytable majc ratio
+parse config SimpleName MethodInvocation InfixExpression StringLiteral =
+parse config SimpleName MethodInvocation InfixExpression QualifiedName propertytable file max
+parse config SimpleName MethodInvocation InfixExpression StringLiteral =
+parse config SimpleName MethodInvocation InfixExpression QualifiedName propertytable split threshold
+parse config SimpleName MethodInvocation InfixExpression StringLiteral = g
+propertytable majc ratio QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName propertytable file max
+propertytable majc ratio QualifiedName InfixExpression MethodInvocation InfixExpression StringLiteral =
+= StringLiteral InfixExpression MethodInvocation InfixExpression QualifiedName propertytable file max
+= StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral =
+propertytable majc ratio QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName propertytable split threshold
+propertytable majc ratio QualifiedName InfixExpression MethodInvocation InfixExpression StringLiteral = g
+= StringLiteral InfixExpression MethodInvocation InfixExpression QualifiedName propertytable split threshold
+= StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral = g
+propertytable file max QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName propertytable split threshold
+propertytable file max QualifiedName InfixExpression MethodInvocation InfixExpression StringLiteral = g
+= StringLiteral InfixExpression MethodInvocation InfixExpression QualifiedName propertytable split threshold
+= StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral = g
+table setup SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table setup SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse config
+table name SimpleName ClassInstanceCreation MethodInvocation SimpleName parse config
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName propertytable majc ratio
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral =
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName propertytable file max
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral =
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName propertytable split threshold
+table name SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral = g
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse config
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName table setup
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse config
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tables to create
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName table setup
+public Modifier MethodDeclaration SimpleName get tables to create
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+table setup SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables to create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tables to create
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tables to create

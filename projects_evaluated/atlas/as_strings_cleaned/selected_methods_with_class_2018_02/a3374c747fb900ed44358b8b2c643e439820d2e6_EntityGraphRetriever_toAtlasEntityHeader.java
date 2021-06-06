@@ -1,0 +1,82 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName type name
+get entity type by name SimpleName MethodInvocation SimpleName type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName get uniq attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get uniq attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute SimpleName MethodInvocation SimpleName get name
+unique attributes SimpleName MethodInvocation SimpleName put
+unique attributes SimpleName MethodInvocation MethodInvocation SimpleName attribute
+unique attributes SimpleName MethodInvocation MethodInvocation SimpleName get name
+unique attributes SimpleName MethodInvocation SimpleName attr value
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName attr value
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entity SimpleName MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType ClassInstanceCreation SimpleName unique attributes
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName unique attributes
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName unique attributes
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName unique attributes
+get guid SimpleName MethodInvocation ClassInstanceCreation SimpleName unique attributes
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas entity header
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entity
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entity
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName Assignment ClassInstanceCreation SimpleName unique attributes
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SimpleName to atlas entity header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleName to atlas entity header
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+to atlas entity header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+to atlas entity header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+to atlas entity header SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

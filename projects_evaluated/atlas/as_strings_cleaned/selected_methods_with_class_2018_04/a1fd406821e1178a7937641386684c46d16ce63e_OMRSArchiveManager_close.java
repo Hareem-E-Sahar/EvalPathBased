@@ -1,0 +1,18 @@
+open metadata archive store connector SimpleName SimpleType SingleVariableDeclaration SimpleName archive store
+archive store SimpleName MethodInvocation SimpleName disconnect
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+open metadata archive store connector SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName open metadata archive stores
+archive store SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName open metadata archive stores
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName open metadata archive stores
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName open metadata archive stores
+close SimpleName MethodDeclaration Block EnhancedForStatement SimpleName open metadata archive stores
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close

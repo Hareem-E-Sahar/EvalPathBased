@@ -1,0 +1,111 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+log lock SimpleName MethodInvocation SimpleName lock
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral attempted to clear logs when removal of logs in progress
+removing logs SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral attempted to clear logs when removal of logs in progress
+remote logger SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+logger SimpleName MethodInvocation SimpleName to string
+other logs copy SimpleName MethodInvocation SimpleName add
+other logs copy SimpleName MethodInvocation MethodInvocation SimpleName logger
+other logs copy SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName logger
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation SimpleName to string
+doomed SimpleName MethodInvocation SimpleName add
+doomed SimpleName MethodInvocation MethodInvocation SimpleName logger
+doomed SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName logger
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+remote logger SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName other logs
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName other logs
+remote logger SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+logger SimpleName MethodInvocation SimpleName to string
+current logs copy SimpleName MethodInvocation SimpleName add
+current logs copy SimpleName MethodInvocation MethodInvocation SimpleName logger
+current logs copy SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName logger
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation SimpleName to string
+doomed SimpleName MethodInvocation SimpleName remove
+doomed SimpleName MethodInvocation MethodInvocation SimpleName logger
+doomed SimpleName MethodInvocation MethodInvocation SimpleName to string
+remove SimpleName MethodInvocation MethodInvocation SimpleName logger
+remove SimpleName MethodInvocation MethodInvocation SimpleName to string
+remote logger SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName current logs
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName current logs
+collections SimpleName MethodInvocation SimpleName empty set
+other logs SimpleName Assignment MethodInvocation SimpleName collections
+other logs SimpleName Assignment MethodInvocation SimpleName empty set
+doomed SimpleName MethodInvocation SimpleName size
+doomed SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+removing logs SimpleName Assignment BooleanLiteral true
+removing logs SimpleName IfStatement Block EnhancedForStatement SimpleName other logs
+removing logs SimpleName IfStatement Block EnhancedForStatement SimpleName current logs
+other logs SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName current logs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+logger SimpleName MethodInvocation SimpleName to string
+logs for memory compacted StringLiteral InfixExpression MethodInvocation SimpleName get extent
+logs for memory compacted StringLiteral InfixExpression StringLiteral empty
+logs for memory compacted StringLiteral InfixExpression MethodInvocation SimpleName logger
+logs for memory compacted StringLiteral InfixExpression MethodInvocation SimpleName to string
+get extent SimpleName MethodInvocation InfixExpression StringLiteral empty
+get extent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger
+get extent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName logger
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral logs for memory compacted
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral logs for memory compacted
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName other logs copy
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName other logs copy
+string SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+logs for current memory StringLiteral InfixExpression MethodInvocation SimpleName get extent
+logs for current memory StringLiteral InfixExpression StringLiteral empty
+logs for current memory StringLiteral InfixExpression SimpleName logger
+get extent SimpleName MethodInvocation InfixExpression StringLiteral empty
+get extent SimpleName MethodInvocation InfixExpression SimpleName logger
+empty StringLiteral InfixExpression SimpleName logger
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral logs for current memory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName logger
+debug SimpleName MethodInvocation InfixExpression StringLiteral logs for current memory
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName logger
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName current logs copy
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName current logs copy
+other logs copy SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName current logs copy
+other logs copy SimpleName EnhancedForStatement Block ReturnStatement SimpleName doomed
+current logs copy SimpleName EnhancedForStatement Block ReturnStatement SimpleName doomed
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName begin clearing unused logs
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName other logs copy
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName current logs copy
+private Modifier MethodDeclaration Block ReturnStatement SimpleName doomed
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName begin clearing unused logs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName begin clearing unused logs
+begin clearing unused logs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName other logs copy
+begin clearing unused logs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName current logs copy
+begin clearing unused logs SimpleName MethodDeclaration Block ReturnStatement SimpleName doomed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName begin clearing unused logs
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName begin clearing unused logs

@@ -1,0 +1,26 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+get graph SimpleName MethodInvocation MethodInvocation SimpleName add vertex
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+graph db object factory SimpleName MethodInvocation SimpleName create vertex
+graph db object factory SimpleName MethodInvocation SimpleName result
+create vertex SimpleName MethodInvocation SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+public Modifier MethodDeclaration SimpleName add vertex
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add vertex
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add vertex
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName add vertex
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add vertex

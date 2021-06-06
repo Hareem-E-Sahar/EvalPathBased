@@ -1,0 +1,13 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+void PrimitiveType MethodDeclaration SimpleName set ranges
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ranges
+set ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ranges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges

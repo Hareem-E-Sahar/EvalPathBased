@@ -1,0 +1,112 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+atlas classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get classification names SimpleName MethodInvocation SimpleName guid
+entity classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification names
+entity classifications SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name from guid
+atlas graph utils v SimpleName MethodInvocation SimpleName guid
+get type name from guid SimpleName MethodInvocation SimpleName guid
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name from guid
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName entity type name
+get entity type by name SimpleName MethodInvocation SimpleName entity type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+classification SimpleName MethodInvocation SimpleName get type name
+new classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification
+new classification SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new classification
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entity classifications
+is not empty SimpleName MethodInvocation SimpleName entity classifications
+entity classifications SimpleName MethodInvocation SimpleName contains
+entity classifications SimpleName MethodInvocation SimpleName new classification
+contains SimpleName MethodInvocation SimpleName new classification
+collection utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity classifications
+collection utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+collection utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new classification
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity classifications
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new classification
+entity classifications SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entity classifications
+entity classifications SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+entity classifications SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new classification
+entity StringLiteral InfixExpression SimpleName guid
+entity StringLiteral InfixExpression StringLiteral already associated with classification
+entity StringLiteral InfixExpression SimpleName new classification
+guid SimpleName InfixExpression StringLiteral already associated with classification
+guid SimpleName InfixExpression SimpleName new classification
+already associated with classification StringLiteral InfixExpression SimpleName new classification
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral entity
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral already associated with classification
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new classification
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression StringLiteral entity
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression SimpleName guid
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression StringLiteral already associated with classification
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation InfixExpression SimpleName new classification
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName new classification
+get classification type by name SimpleName MethodInvocation SimpleName new classification
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification type by name
+classification type SimpleName VariableDeclarationFragment MethodInvocation SimpleName new classification
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification type
+classification type SimpleName MethodInvocation SimpleName can apply to entity type
+classification type SimpleName MethodInvocation SimpleName entity type
+can apply to entity type SimpleName MethodInvocation SimpleName entity type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid entity for classification
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName entity type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName new classification
+atlas error codeinvalid entity for classification QualifiedName ClassInstanceCreation SimpleName guid
+atlas error codeinvalid entity for classification QualifiedName ClassInstanceCreation SimpleName entity type name
+atlas error codeinvalid entity for classification QualifiedName ClassInstanceCreation SimpleName new classification
+guid SimpleName ClassInstanceCreation SimpleName entity type name
+guid SimpleName ClassInstanceCreation SimpleName new classification
+entity type name SimpleName ClassInstanceCreation SimpleName new classification
+atlas classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+classification SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate entity associations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classifications
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName validate entity associations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classifications
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName classifications
+validate entity associations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate entity associations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+validate entity associations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classifications
+validate entity associations SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+validate entity associations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName classifications
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate entity associations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate entity associations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,272 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName root conn
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName test user conn
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+confirming that the lack of the StringLiteral InfixExpression SimpleName perm
+confirming that the lack of the StringLiteral InfixExpression StringLiteral permission properly restricts the user
+perm SimpleName InfixExpression StringLiteral permission properly restricts the user
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral confirming that the lack of the
+log SimpleName MethodInvocation InfixExpression SimpleName perm
+log SimpleName MethodInvocation InfixExpression StringLiteral permission properly restricts the user
+debug SimpleName MethodInvocation InfixExpression StringLiteral confirming that the lack of the
+debug SimpleName MethodInvocation InfixExpression SimpleName perm
+debug SimpleName MethodInvocation InfixExpression StringLiteral permission properly restricts the user
+test user conn SimpleName MethodInvocation SimpleName create scanner
+test user conn SimpleName MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table name
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table name SimpleName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName Assignment MethodInvocation SimpleName test user conn
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation SimpleName table name
+scanner SimpleName Assignment MethodInvocation QualifiedName authorizationsempty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row data
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row data
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get row data SimpleName MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get row data
+empty NumberLiteral InfixExpression MethodInvocation SimpleName length
+i SimpleName Assignment InfixExpression NumberLiteral empty
+i SimpleName Assignment InfixExpression MethodInvocation SimpleName length
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement ExpressionStatement Assignment SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should not be able to read from the table
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get cause
+accumulo security exception SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+accumulo security exception SimpleName SimpleType CastExpression MethodInvocation SimpleName get cause
+se SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName accumulo security exception
+se SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+se SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get cause
+accumulo security exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName se
+se SimpleName MethodInvocation SimpleName get security error code
+se SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+get security error code SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+security error codepermission denied QualifiedName InfixExpression IfStatement ThrowStatement SimpleName se
+test user conn SimpleName MethodInvocation SimpleName create batch writer
+test user conn SimpleName MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName table name
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+writer SimpleName Assignment MethodInvocation SimpleName test user conn
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation SimpleName table name
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral a
+text SimpleName SimpleType ClassInstanceCreation StringLiteral b
+c StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral c
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral c
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral c
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+a StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral b
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+writer SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get authorization failures map
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get authorization failures map SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get authorization failures map SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test user conn SimpleName MethodInvocation SimpleName whoami
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName test user conn
+accumulo security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName whoami
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName orgapacheaccumulocoreclientimplthriftsecurity error codepermission denied
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+test user conn SimpleName MethodInvocation ClassInstanceCreation QualifiedName orgapacheaccumulocoreclientimplthriftsecurity error codepermission denied
+whoami SimpleName MethodInvocation ClassInstanceCreation QualifiedName orgapacheaccumulocoreclientimplthriftsecurity error codepermission denied
+test user conn SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+whoami SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+orgapacheaccumulocoreclientimplthriftsecurity error codepermission denied QualifiedName ClassInstanceCreation SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral should not be able to write to a table
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get security error code
+e SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+get security error code SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+security error codepermission denied QualifiedName InfixExpression IfStatement ThrowStatement SimpleName e
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ClassInstanceCreation StringLiteral t
+text SimpleName SimpleType ClassInstanceCreation StringLiteral t
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral t
+t StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral t
+groups SimpleName MethodInvocation SimpleName put
+groups SimpleName MethodInvocation StringLiteral tgroup
+groups SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+groups SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+put SimpleName MethodInvocation StringLiteral tgroup
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+tgroup StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+tgroup StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+test user conn SimpleName MethodInvocation SimpleName table operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName set locality groups
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set locality groups
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName groups
+table operations SimpleName MethodInvocation MethodInvocation SimpleName groups
+set locality groups SimpleName MethodInvocation SimpleName table name
+set locality groups SimpleName MethodInvocation SimpleName groups
+table name SimpleName MethodInvocation SimpleName groups
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral user should not be able to set locality groups
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get security error code
+e SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+get security error code SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+security error codepermission denied QualifiedName InfixExpression IfStatement ThrowStatement SimpleName e
+test user conn SimpleName MethodInvocation SimpleName table operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+delete SimpleName MethodInvocation SimpleName table name
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral user should not be able delete the table
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get security error code
+e SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+get security error code SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+security error codepermission denied QualifiedName InfixExpression IfStatement ThrowStatement SimpleName e
+test user conn SimpleName MethodInvocation SimpleName security operations
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+test user conn SimpleName MethodInvocation MethodInvocation StringLiteral root
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral root
+test user conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+test user conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissiongrant
+grant table permission SimpleName MethodInvocation StringLiteral root
+grant table permission SimpleName MethodInvocation SimpleName table name
+grant table permission SimpleName MethodInvocation QualifiedName table permissiongrant
+root StringLiteral MethodInvocation SimpleName table name
+root StringLiteral MethodInvocation QualifiedName table permissiongrant
+table name SimpleName MethodInvocation QualifiedName table permissiongrant
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral user should not be able grant permissions
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get security error code
+e SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+get security error code SimpleName MethodInvocation InfixExpression QualifiedName security error codepermission denied
+security error codepermission denied QualifiedName InfixExpression IfStatement ThrowStatement SimpleName e
+unrecognized table permission StringLiteral InfixExpression SimpleName perm
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized table permission
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName perm
+perm SimpleName SwitchStatement SwitchCase SimpleName read
+perm SimpleName SwitchStatement SwitchCase SimpleName write
+read SimpleName SwitchCase SwitchStatement SwitchCase SimpleName write
+write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName bulk import
+write SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter table
+bulk import SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alter table
+alter table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName drop table
+drop table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName grant
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test missing table permission
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName root conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName test missing table permission
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName root conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName perm
+void PrimitiveType MethodDeclaration SimpleName test missing table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName perm
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root conn
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table permission
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName perm
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test missing table permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+test missing table permission SimpleName MethodDeclaration SimpleType SimpleName exception
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+root conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test user conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+perm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+perm SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test missing table permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test missing table permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName test user conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName perm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

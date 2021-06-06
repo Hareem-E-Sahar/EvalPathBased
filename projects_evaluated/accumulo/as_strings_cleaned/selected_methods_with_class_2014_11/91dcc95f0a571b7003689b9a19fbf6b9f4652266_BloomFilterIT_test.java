@@ -1,0 +1,500 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName instance operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+propertytserv read ahead maxconcurrent QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+get system configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+read ahead SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+read ahead SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+read ahead SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+read ahead SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName read ahead
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName read ahead
+c SimpleName MethodInvocation SimpleName instance operations
+propertytserv read ahead maxconcurrent QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+instance operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+instance operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation StringLiteral empty
+instance operations SimpleName MethodInvocation MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv read ahead maxconcurrent
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+propertytserv read ahead maxconcurrent QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName get unique names
+tables SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get unique names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+c SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+propertytable indexcache enabled QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable indexcache enabled
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral false
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable indexcache enabled
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral false
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable indexcache enabled
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral false
+propertytable indexcache enabled QualifiedName MethodInvocation MethodInvocation StringLiteral false
+get key SimpleName MethodInvocation MethodInvocation StringLiteral false
+propertytable blockcache enabled QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable blockcache enabled
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral false
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable blockcache enabled
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral false
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable blockcache enabled
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral false
+propertytable blockcache enabled QualifiedName MethodInvocation MethodInvocation StringLiteral false
+get key SimpleName MethodInvocation MethodInvocation StringLiteral false
+propertytable bloom size QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom size
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom size
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom size
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral empty
+propertytable bloom size QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytable bloom errorrate QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral %
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral %
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom errorrate
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral %
+propertytable bloom errorrate QualifiedName MethodInvocation MethodInvocation StringLiteral %
+get key SimpleName MethodInvocation MethodInvocation StringLiteral %
+propertytable bloom load threshold QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom load threshold
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom load threshold
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom load threshold
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral empty
+propertytable bloom load threshold QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytable file compressed block size QualifiedName MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation SimpleName set property
+tops SimpleName MethodInvocation SimpleName table
+tops SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+tops SimpleName MethodInvocation MethodInvocation SimpleName get key
+tops SimpleName MethodInvocation StringLiteral k
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral k
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral k
+propertytable file compressed block size QualifiedName MethodInvocation MethodInvocation StringLiteral k
+get key SimpleName MethodInvocation MethodInvocation StringLiteral k
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tables
+table SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tables
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral writing
+info SimpleName MethodInvocation StringLiteral writing
+tables SimpleName ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation SimpleName c
+write SimpleName MethodInvocation ArrayAccess SimpleName tables
+write SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation SimpleName c
+write SimpleName MethodInvocation ArrayAccess SimpleName tables
+write SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation SimpleName c
+write SimpleName MethodInvocation ArrayAccess SimpleName tables
+write SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral writing complete
+info SimpleName MethodInvocation StringLiteral writing complete
+tables SimpleName ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation ArrayAccess SimpleName tables
+create batch writer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tables
+bw SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+foo StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral foo
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+empty StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+c SimpleName MethodInvocation SimpleName table operations
+tables SimpleName ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+c SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName tables
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+flush SimpleName MethodInvocation ArrayAccess SimpleName tables
+flush SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+flush SimpleName MethodInvocation BooleanLiteral true
+tables SimpleName ArrayAccess MethodInvocation BooleanLiteral true
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+tables SimpleName ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayAccess SimpleName tables
+arrays SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+arrays SimpleName MethodInvocation ArrayAccess SimpleName tables
+arrays SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+arrays SimpleName MethodInvocation ArrayAccess SimpleName tables
+arrays SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+as list SimpleName MethodInvocation ArrayAccess SimpleName tables
+as list SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+as list SimpleName MethodInvocation ArrayAccess SimpleName tables
+as list SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+as list SimpleName MethodInvocation ArrayAccess SimpleName tables
+as list SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+tables SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName tables
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName compact
+table operations SimpleName MethodInvocation MethodInvocation SimpleName compact
+c SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation SimpleName table
+compact SimpleName MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral true
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+functional test utils SimpleName MethodInvocation SimpleName check r files
+functional test utils SimpleName MethodInvocation SimpleName c
+functional test utils SimpleName MethodInvocation SimpleName table
+functional test utils SimpleName MethodInvocation NumberLiteral empty
+functional test utils SimpleName MethodInvocation NumberLiteral empty
+check r files SimpleName MethodInvocation SimpleName c
+check r files SimpleName MethodInvocation SimpleName table
+check r files SimpleName MethodInvocation NumberLiteral empty
+check r files SimpleName MethodInvocation NumberLiteral empty
+check r files SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+table SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tables
+table SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tables
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral base query
+info SimpleName MethodInvocation StringLiteral base query
+tables SimpleName ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation SimpleName c
+query SimpleName MethodInvocation ArrayAccess SimpleName tables
+query SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tables
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation SimpleName c
+query SimpleName MethodInvocation ArrayAccess SimpleName tables
+query SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName tables
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation SimpleName c
+query SimpleName MethodInvocation ArrayAccess SimpleName tables
+query SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation ArrayAccess SimpleName tables
+c SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+tables SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName query

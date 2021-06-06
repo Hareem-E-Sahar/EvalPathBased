@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get additional information
+public Modifier MethodDeclaration Block ReturnStatement SimpleName additional information
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get additional information
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get additional information
+get additional information SimpleName MethodDeclaration Block ReturnStatement SimpleName additional information
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get additional information
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get additional information

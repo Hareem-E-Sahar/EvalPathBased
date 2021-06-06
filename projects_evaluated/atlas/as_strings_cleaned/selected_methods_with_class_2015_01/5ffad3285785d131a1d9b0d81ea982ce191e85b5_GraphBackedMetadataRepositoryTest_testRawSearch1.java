@@ -1,0 +1,93 @@
+create dept eg SimpleName MethodInvocation SimpleName ts
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName create dept eg
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+ts SimpleName MethodInvocation SimpleName get data type
+ts SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+ts SimpleName MethodInvocation StringLiteral department
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation StringLiteral department
+class type SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral department
+dept type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+dept type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+dept type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral department
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dept type
+dept type SimpleName MethodInvocation SimpleName convert
+dept type SimpleName MethodInvocation SimpleName hr dept
+dept type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName hr dept
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+hr dept SimpleName MethodInvocation QualifiedName multiplicityrequired
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName dept type
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+hr dept SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+hr dept SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName create entity
+repository service SimpleName MethodInvocation SimpleName hr dept
+repository service SimpleName MethodInvocation SimpleName entity type
+create entity SimpleName MethodInvocation SimpleName hr dept
+create entity SimpleName MethodInvocation SimpleName entity type
+hr dept SimpleName MethodInvocation SimpleName entity type
+guid SimpleName Assignment MethodInvocation SimpleName repository service
+guid SimpleName Assignment MethodInvocation SimpleName create entity
+guid SimpleName Assignment MethodInvocation SimpleName hr dept
+guid SimpleName Assignment MethodInvocation SimpleName entity type
+repository service SimpleName MethodInvocation SimpleName search by gremlin
+repository service SimpleName MethodInvocation StringLiteral gvto list
+search by gremlin SimpleName MethodInvocation StringLiteral gvto list
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by gremlin
+r SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gvto list
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+repository service SimpleName MethodInvocation SimpleName search by gremlin
+repository service SimpleName MethodInvocation StringLiteral gvfilterittype name == departmentto list
+search by gremlin SimpleName MethodInvocation StringLiteral gvfilterittype name == departmentto list
+r SimpleName Assignment MethodInvocation SimpleName repository service
+r SimpleName Assignment MethodInvocation SimpleName search by gremlin
+r SimpleName Assignment MethodInvocation StringLiteral gvfilterittype name == departmentto list
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+repository service SimpleName MethodInvocation SimpleName search by gremlin
+repository service SimpleName MethodInvocation StringLiteral gvfilterittype name == personpersonnameto list
+search by gremlin SimpleName MethodInvocation StringLiteral gvfilterittype name == personpersonnameto list
+r SimpleName Assignment MethodInvocation SimpleName repository service
+r SimpleName Assignment MethodInvocation SimpleName search by gremlin
+r SimpleName Assignment MethodInvocation StringLiteral gvfilterittype name == personpersonnameto list
+search result = StringLiteral InfixExpression SimpleName r
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search result =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName r
+println SimpleName MethodInvocation InfixExpression StringLiteral search result =
+println SimpleName MethodInvocation InfixExpression SimpleName r
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test raw search
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test raw search
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test raw search
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test raw search SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test raw search
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test raw search
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

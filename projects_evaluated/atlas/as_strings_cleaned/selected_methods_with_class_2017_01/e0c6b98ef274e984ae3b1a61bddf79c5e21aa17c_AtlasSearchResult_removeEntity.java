@@ -1,0 +1,49 @@
+atlas entity header with associations SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header with associations
+entities SimpleName VariableDeclarationFragment FieldAccess SimpleName entities
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entities
+is not empty SimpleName MethodInvocation SimpleName entities
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header with associations
+entities SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName entities
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+curr entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+curr entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas entity header with associations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr entity
+curr entity SimpleName MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName curr entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName curr entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+curr entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+curr entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+iter SimpleName MethodInvocation SimpleName remove
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header with associations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName remove entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header with associations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+remove entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header with associations
+remove entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

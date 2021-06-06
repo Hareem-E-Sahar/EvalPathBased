@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+entity store SimpleName MethodInvocation SimpleName values
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SimpleName get entities
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+entity detail SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entities

@@ -1,0 +1,34 @@
+instance graph response SimpleName SimpleType SingleVariableDeclaration SimpleName rest result
+instance graph SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName instance graph
+instance graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance graph
+rest result SimpleName MethodInvocation SimpleName get entity element list
+instance graph SimpleName MethodInvocation SimpleName set entities
+instance graph SimpleName MethodInvocation MethodInvocation SimpleName rest result
+instance graph SimpleName MethodInvocation MethodInvocation SimpleName get entity element list
+set entities SimpleName MethodInvocation MethodInvocation SimpleName rest result
+set entities SimpleName MethodInvocation MethodInvocation SimpleName get entity element list
+rest result SimpleName MethodInvocation SimpleName get relationship element list
+instance graph SimpleName MethodInvocation SimpleName set relationships
+instance graph SimpleName MethodInvocation MethodInvocation SimpleName rest result
+instance graph SimpleName MethodInvocation MethodInvocation SimpleName get relationship element list
+set relationships SimpleName MethodInvocation MethodInvocation SimpleName rest result
+set relationships SimpleName MethodInvocation MethodInvocation SimpleName get relationship element list
+private Modifier MethodDeclaration SimpleType SimpleName instance graph
+private Modifier MethodDeclaration SimpleName get instance graph from rest result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance graph response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rest result
+private Modifier MethodDeclaration Block ReturnStatement SimpleName instance graph
+instance graph SimpleName SimpleType MethodDeclaration SimpleName get instance graph from rest result
+instance graph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rest result
+get instance graph from rest result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance graph response
+get instance graph from rest result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rest result
+get instance graph from rest result SimpleName MethodDeclaration Block ReturnStatement SimpleName instance graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance graph from rest result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rest result
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance graph from rest result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rest result

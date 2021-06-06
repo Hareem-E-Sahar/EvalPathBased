@@ -1,0 +1,183 @@
+text SimpleName SimpleType ClassInstanceCreation StringLiteral a
+colf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+colf SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral a
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral b
+colq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+colq SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral b
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colq
+dv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dv
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % d
+format SimpleName MethodInvocation SimpleName i
+% d StringLiteral MethodInvocation SimpleName i
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+key SimpleName SimpleType ClassInstanceCreation SimpleName colf
+key SimpleName SimpleType ClassInstanceCreation SimpleName colq
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName colf
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colf
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colf
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colf
+i SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colf
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName colq
+string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colq
+format SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colq
+% d StringLiteral MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colq
+i SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName colq
+colf SimpleName ClassInstanceCreation SimpleName colq
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName colf
+k SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName colq
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName MethodInvocation SimpleName set timestamp
+k SimpleName MethodInvocation SimpleName i
+set timestamp SimpleName MethodInvocation SimpleName i
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation SimpleName k
+tm SimpleName MethodInvocation SimpleName dv
+put SimpleName MethodInvocation SimpleName k
+put SimpleName MethodInvocation SimpleName dv
+k SimpleName MethodInvocation SimpleName dv
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+tm SimpleName MethodInvocation SimpleName size
+tm SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tm
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName age off filter
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName age off filter
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+age off filter SimpleName MethodInvocation SimpleName set ttl
+age off filter SimpleName MethodInvocation SimpleName is
+age off filter SimpleName MethodInvocation NumberLiteral l
+set ttl SimpleName MethodInvocation SimpleName is
+set ttl SimpleName MethodInvocation NumberLiteral l
+is SimpleName MethodInvocation NumberLiteral l
+age off filter SimpleName MethodInvocation SimpleName set current time
+age off filter SimpleName MethodInvocation SimpleName is
+age off filter SimpleName MethodInvocation NumberLiteral l
+set current time SimpleName MethodInvocation SimpleName is
+set current time SimpleName MethodInvocation NumberLiteral l
+is SimpleName MethodInvocation NumberLiteral l
+age off filter SimpleName MethodInvocation SimpleName set negate
+age off filter SimpleName MethodInvocation SimpleName is
+age off filter SimpleName MethodInvocation BooleanLiteral true
+set negate SimpleName MethodInvocation SimpleName is
+set negate SimpleName MethodInvocation BooleanLiteral true
+is SimpleName MethodInvocation BooleanLiteral true
+age off filter SimpleName SimpleType CastExpression SimpleName a
+is SimpleName MethodInvocation SimpleName get options
+a SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName validate options
+validate options SimpleName MethodInvocation MethodInvocation SimpleName is
+validate options SimpleName MethodInvocation MethodInvocation SimpleName get options
+assert true SimpleName MethodInvocation MethodInvocation SimpleName validate options
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get options
+age off filter SimpleName SimpleType CastExpression SimpleName a
+a SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName validate options
+a SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName empty opts
+validate options SimpleName MethodInvocation SimpleName empty opts
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+sorted map iterator SimpleName SimpleType ClassInstanceCreation SimpleName tm
+is SimpleName MethodInvocation SimpleName get options
+a SimpleName MethodInvocation SimpleName init
+a SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+a SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+a SimpleName MethodInvocation MethodInvocation SimpleName is
+a SimpleName MethodInvocation MethodInvocation SimpleName get options
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName sorted map iterator
+init SimpleName MethodInvocation ClassInstanceCreation SimpleName tm
+init SimpleName MethodInvocation MethodInvocation SimpleName is
+init SimpleName MethodInvocation MethodInvocation SimpleName get options
+tm SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName is
+tm SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get options
+a SimpleName MethodInvocation SimpleName deep copy
+a SimpleName Assignment MethodInvocation SimpleName a
+a SimpleName Assignment MethodInvocation SimpleName deep copy
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+a SimpleName MethodInvocation SimpleName deep copy
+copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep copy
+a SimpleName MethodInvocation SimpleName seek
+a SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+a SimpleName MethodInvocation SimpleName empty col fams
+a SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+size SimpleName MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+a SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+copy SimpleName MethodInvocation SimpleName seek
+copy SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+copy SimpleName MethodInvocation SimpleName empty col fams
+copy SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName empty col fams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty col fams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+empty col fams SimpleName MethodInvocation BooleanLiteral false
+size SimpleName MethodInvocation SimpleName copy
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName copy
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+copy SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

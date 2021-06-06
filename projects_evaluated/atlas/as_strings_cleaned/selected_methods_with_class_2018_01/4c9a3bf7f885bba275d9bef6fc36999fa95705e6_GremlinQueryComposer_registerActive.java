@@ -1,0 +1,44 @@
+identifier helperadvice QualifiedName SimpleType SingleVariableDeclaration SimpleName advice
+advice SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName advice
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName advice
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+advice SimpleName MethodInvocation SimpleName get type name
+register active SimpleName MethodInvocation MethodInvocation SimpleName advice
+register active SimpleName MethodInvocation MethodInvocation SimpleName get type name
+advice SimpleName MethodInvocation SimpleName get raw
+unknown identifier StringLiteral InfixExpression MethodInvocation SimpleName advice
+unknown identifier StringLiteral InfixExpression MethodInvocation SimpleName get raw
+unknown identifier StringLiteral InfixExpression StringLiteral empty
+advice SimpleName MethodInvocation InfixExpression StringLiteral empty
+get raw SimpleName MethodInvocation InfixExpression StringLiteral empty
+error list SimpleName MethodInvocation SimpleName add
+error list SimpleName MethodInvocation InfixExpression StringLiteral unknown identifier
+error list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName advice
+error list SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get raw
+error list SimpleName MethodInvocation InfixExpression StringLiteral empty
+add SimpleName MethodInvocation InfixExpression StringLiteral unknown identifier
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName advice
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get raw
+add SimpleName MethodInvocation InfixExpression StringLiteral empty
+active type SimpleName Assignment SimpleName unknown type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register active
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperadvice
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName advice
+void PrimitiveType MethodDeclaration SimpleName register active
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperadvice
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName advice
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperadvice
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName advice
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName advice
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName advice

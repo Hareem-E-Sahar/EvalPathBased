@@ -1,0 +1,81 @@
+api info SimpleName SimpleType SingleVariableDeclaration SimpleName api
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName response type
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName response type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query param key
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName query param values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName query param values
+get resource SimpleName MethodInvocation SimpleName api
+get resource SimpleName MethodInvocation SimpleName query param key
+get resource SimpleName MethodInvocation SimpleName query param values
+api SimpleName MethodInvocation SimpleName query param key
+api SimpleName MethodInvocation SimpleName query param values
+query param key SimpleName MethodInvocation SimpleName query param values
+call api with resource SimpleName MethodInvocation SimpleName api
+call api with resource SimpleName MethodInvocation MethodInvocation SimpleName get resource
+call api with resource SimpleName MethodInvocation MethodInvocation SimpleName api
+call api with resource SimpleName MethodInvocation MethodInvocation SimpleName query param key
+call api with resource SimpleName MethodInvocation MethodInvocation SimpleName query param values
+call api with resource SimpleName MethodInvocation SimpleName response type
+api SimpleName MethodInvocation MethodInvocation SimpleName get resource
+api SimpleName MethodInvocation MethodInvocation SimpleName api
+api SimpleName MethodInvocation MethodInvocation SimpleName query param key
+api SimpleName MethodInvocation MethodInvocation SimpleName query param values
+api SimpleName MethodInvocation SimpleName response type
+get resource SimpleName MethodInvocation MethodInvocation SimpleName response type
+api SimpleName MethodInvocation MethodInvocation SimpleName response type
+query param key SimpleName MethodInvocation MethodInvocation SimpleName response type
+query param values SimpleName MethodInvocation MethodInvocation SimpleName response type
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName call api
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName response type
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName call api
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName api
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName response type
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName query param key
+t SimpleName SimpleType MethodDeclaration SimpleName call api
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName response type
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query param key
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query param values
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api info
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response type
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query param key
+call api SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query param values
+call api SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response type
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param key
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param values
+api SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+response type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param key
+response type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param values
+response type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+query param key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param values
+query param key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+query param values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName call api
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call api
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query param values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

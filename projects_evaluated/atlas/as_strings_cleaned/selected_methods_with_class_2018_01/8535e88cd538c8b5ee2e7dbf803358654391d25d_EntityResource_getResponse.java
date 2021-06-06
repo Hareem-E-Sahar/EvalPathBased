@@ -1,0 +1,88 @@
+create update entities result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+result SimpleName MethodInvocation SimpleName get entity result
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity result
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+result SimpleName MethodInvocation SimpleName get guid mapping
+mapping SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+mapping SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid mapping
+guid mapping SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapping
+servlets SimpleName MethodInvocation SimpleName get request id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation MethodInvocation SimpleName servlets
+response SimpleName MethodInvocation MethodInvocation SimpleName get request id
+put SimpleName MethodInvocation QualifiedName atlas clientrequest id
+put SimpleName MethodInvocation MethodInvocation SimpleName servlets
+put SimpleName MethodInvocation MethodInvocation SimpleName get request id
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName servlets
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName get request id
+entity result SimpleName MethodInvocation SimpleName get entities
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas cliententities
+response SimpleName MethodInvocation MethodInvocation SimpleName entity result
+response SimpleName MethodInvocation MethodInvocation SimpleName get entities
+put SimpleName MethodInvocation QualifiedName atlas cliententities
+put SimpleName MethodInvocation MethodInvocation SimpleName entity result
+put SimpleName MethodInvocation MethodInvocation SimpleName get entities
+atlas cliententities QualifiedName MethodInvocation MethodInvocation SimpleName entity result
+atlas cliententities QualifiedName MethodInvocation MethodInvocation SimpleName get entities
+result SimpleName MethodInvocation SimpleName get entity result
+get sample SimpleName MethodInvocation MethodInvocation SimpleName result
+get sample SimpleName MethodInvocation MethodInvocation SimpleName get entity result
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName result
+sample entity id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sample entity id
+get entity SimpleName MethodInvocation SimpleName sample entity id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientdefinition
+response SimpleName MethodInvocation MethodInvocation SimpleName get entity
+response SimpleName MethodInvocation MethodInvocation SimpleName sample entity id
+put SimpleName MethodInvocation QualifiedName atlas clientdefinition
+put SimpleName MethodInvocation MethodInvocation SimpleName get entity
+put SimpleName MethodInvocation MethodInvocation SimpleName sample entity id
+atlas clientdefinition QualifiedName MethodInvocation MethodInvocation SimpleName get entity
+atlas clientdefinition QualifiedName MethodInvocation MethodInvocation SimpleName sample entity id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientguid assignments
+response SimpleName MethodInvocation SimpleName mapping
+put SimpleName MethodInvocation QualifiedName atlas clientguid assignments
+put SimpleName MethodInvocation SimpleName mapping
+atlas clientguid assignments QualifiedName MethodInvocation SimpleName mapping
+atlas json SimpleName MethodInvocation SimpleName to v json
+atlas json SimpleName MethodInvocation SimpleName response
+to v json SimpleName MethodInvocation SimpleName response
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName create update entities result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get response
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get response SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName create update entities result
+get response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get response SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get response SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

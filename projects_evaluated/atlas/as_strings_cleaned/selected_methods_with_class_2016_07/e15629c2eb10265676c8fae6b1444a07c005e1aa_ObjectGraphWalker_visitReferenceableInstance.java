@@ -1,0 +1,34 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName i referenceable instance
+i referenceable instance SimpleName SimpleType CastExpression SimpleName val
+ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i referenceable instance
+ref SimpleName VariableDeclarationFragment CastExpression SimpleName val
+i referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+ref SimpleName MethodInvocation SimpleName get id
+processed ids SimpleName MethodInvocation SimpleName contains
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName ref
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName get id
+contains SimpleName MethodInvocation MethodInvocation SimpleName ref
+contains SimpleName MethodInvocation MethodInvocation SimpleName get id
+ref SimpleName MethodInvocation SimpleName get id
+processed ids SimpleName MethodInvocation SimpleName add
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName ref
+processed ids SimpleName MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName ref
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+ref SimpleName InstanceofExpression SimpleType SimpleName id
+queue SimpleName MethodInvocation SimpleName add
+queue SimpleName MethodInvocation SimpleName ref
+add SimpleName MethodInvocation SimpleName ref
+void PrimitiveType MethodDeclaration SimpleName visit referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+visit referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

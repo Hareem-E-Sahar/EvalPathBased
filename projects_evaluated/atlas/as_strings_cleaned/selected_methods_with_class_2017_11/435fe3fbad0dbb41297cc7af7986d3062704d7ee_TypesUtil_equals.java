@@ -1,0 +1,54 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+pair SimpleName SimpleType CastExpression SimpleName o
+p SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName pair
+p SimpleName VariableDeclarationFragment CastExpression SimpleName o
+pair SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName left
+objects SimpleName MethodInvocation QualifiedName pleft
+equals SimpleName MethodInvocation SimpleName left
+equals SimpleName MethodInvocation QualifiedName pleft
+left SimpleName MethodInvocation QualifiedName pleft
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName right
+objects SimpleName MethodInvocation QualifiedName pright
+equals SimpleName MethodInvocation SimpleName right
+equals SimpleName MethodInvocation QualifiedName pright
+right SimpleName MethodInvocation QualifiedName pright
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName right
+objects SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName pright
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName right
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName pright
+left SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+left SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+left SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName right
+left SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName pright
+pleft QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+pleft QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+pleft QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName right
+pleft QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName pright
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

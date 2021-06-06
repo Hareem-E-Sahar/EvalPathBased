@@ -1,0 +1,325 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName partition keys
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+tablet locator SimpleName MethodInvocation SimpleName get locator
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+get locator SimpleName MethodInvocation SimpleName instance
+get locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get locator SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet locator
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get locator
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tab locator SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName table id
+tablet locator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab locator
+text SimpleName SimpleType SingleVariableDeclaration SimpleName split
+successful SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName successful
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+attempt SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName attempt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+attempt SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+tab locator SimpleName MethodInvocation SimpleName locate tablet
+tab locator SimpleName MethodInvocation SimpleName credentials
+tab locator SimpleName MethodInvocation SimpleName split
+tab locator SimpleName MethodInvocation BooleanLiteral false
+tab locator SimpleName MethodInvocation BooleanLiteral false
+locate tablet SimpleName MethodInvocation SimpleName credentials
+locate tablet SimpleName MethodInvocation SimpleName split
+locate tablet SimpleName MethodInvocation BooleanLiteral false
+locate tablet SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation SimpleName split
+credentials SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation BooleanLiteral false
+split SimpleName MethodInvocation BooleanLiteral false
+split SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName tab locator
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName locate tablet
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tl SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+tl SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+tablet location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tl
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table id SimpleName ClassInstanceCreation SimpleName table name
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table offline exception SimpleName SimpleType ClassInstanceCreation SimpleName instance
+table offline exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+instance SimpleName ClassInstanceCreation SimpleName table id
+server configuration util SimpleName MethodInvocation SimpleName get configuration
+server configuration util SimpleName MethodInvocation SimpleName instance
+get configuration SimpleName MethodInvocation SimpleName instance
+thrift util SimpleName MethodInvocation SimpleName get t server client
+thrift util SimpleName MethodInvocation QualifiedName tltablet location
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName server configuration util
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName instance
+get t server client SimpleName MethodInvocation QualifiedName tltablet location
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName server configuration util
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName instance
+tltablet location QualifiedName MethodInvocation MethodInvocation SimpleName server configuration util
+tltablet location QualifiedName MethodInvocation MethodInvocation SimpleName get configuration
+tltablet location QualifiedName MethodInvocation MethodInvocation SimpleName instance
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get t server client
+client SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tltablet location
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration util
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+op timer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op timer
+log SimpleName MethodInvocation SimpleName is trace enabled
+op timer SimpleName SimpleType ClassInstanceCreation SimpleName log
+op timer SimpleName SimpleType ClassInstanceCreation QualifiedName leveltrace
+log SimpleName ClassInstanceCreation QualifiedName leveltrace
+splitting tablet StringLiteral InfixExpression QualifiedName tltablet extent
+splitting tablet StringLiteral InfixExpression StringLiteral on
+splitting tablet StringLiteral InfixExpression QualifiedName tltablet location
+splitting tablet StringLiteral InfixExpression StringLiteral at
+splitting tablet StringLiteral InfixExpression SimpleName split
+tltablet extent QualifiedName InfixExpression StringLiteral on
+tltablet extent QualifiedName InfixExpression QualifiedName tltablet location
+tltablet extent QualifiedName InfixExpression StringLiteral at
+tltablet extent QualifiedName InfixExpression SimpleName split
+on StringLiteral InfixExpression QualifiedName tltablet location
+on StringLiteral InfixExpression StringLiteral at
+on StringLiteral InfixExpression SimpleName split
+tltablet location QualifiedName InfixExpression StringLiteral at
+tltablet location QualifiedName InfixExpression SimpleName split
+at StringLiteral InfixExpression SimpleName split
+op timer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation MethodInvocation SimpleName start
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation SimpleName start
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral splitting tablet
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName tltablet extent
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral on
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName tltablet location
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral at
+log SimpleName ClassInstanceCreation MethodInvocation InfixExpression SimpleName split
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral splitting tablet
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName tltablet extent
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral on
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression QualifiedName tltablet location
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression StringLiteral at
+leveltrace QualifiedName ClassInstanceCreation MethodInvocation InfixExpression SimpleName split
+start SimpleName MethodInvocation InfixExpression StringLiteral splitting tablet
+start SimpleName MethodInvocation InfixExpression QualifiedName tltablet extent
+start SimpleName MethodInvocation InfixExpression StringLiteral on
+start SimpleName MethodInvocation InfixExpression QualifiedName tltablet location
+start SimpleName MethodInvocation InfixExpression StringLiteral at
+start SimpleName MethodInvocation InfixExpression SimpleName split
+op timer SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName log
+op timer SimpleName Assignment MethodInvocation ClassInstanceCreation QualifiedName leveltrace
+op timer SimpleName Assignment MethodInvocation SimpleName start
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral splitting tablet
+op timer SimpleName Assignment MethodInvocation InfixExpression QualifiedName tltablet extent
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral on
+op timer SimpleName Assignment MethodInvocation InfixExpression QualifiedName tltablet location
+op timer SimpleName Assignment MethodInvocation InfixExpression StringLiteral at
+op timer SimpleName Assignment MethodInvocation InfixExpression SimpleName split
+tracer SimpleName MethodInvocation SimpleName trace info
+credentials SimpleName MethodInvocation SimpleName to thrift
+credentials SimpleName MethodInvocation SimpleName instance
+to thrift SimpleName MethodInvocation SimpleName instance
+tltablet extent QualifiedName MethodInvocation SimpleName to thrift
+text util SimpleName MethodInvocation SimpleName get byte buffer
+text util SimpleName MethodInvocation SimpleName split
+get byte buffer SimpleName MethodInvocation SimpleName split
+client SimpleName MethodInvocation SimpleName split tablet
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName credentials
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName instance
+client SimpleName MethodInvocation MethodInvocation QualifiedName tltablet extent
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName text util
+client SimpleName MethodInvocation MethodInvocation SimpleName get byte buffer
+client SimpleName MethodInvocation MethodInvocation SimpleName split
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName tracer
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName trace info
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName credentials
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName instance
+split tablet SimpleName MethodInvocation MethodInvocation QualifiedName tltablet extent
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName text util
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName get byte buffer
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName split
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tltablet extent
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tltablet extent
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tltablet extent
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tltablet extent
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tltablet extent
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+tltablet extent QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+tltablet extent QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+tltablet extent QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text util
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get byte buffer
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+tab locator SimpleName MethodInvocation SimpleName invalidate cache
+tab locator SimpleName MethodInvocation QualifiedName tltablet extent
+invalidate cache SimpleName MethodInvocation QualifiedName tltablet extent
+op timer SimpleName MethodInvocation SimpleName stop
+op timer SimpleName MethodInvocation StringLiteral split tablet in duration
+stop SimpleName MethodInvocation StringLiteral split tablet in duration
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+t application exception SimpleName SimpleType SingleVariableDeclaration SimpleName tae
+accumulo server exception SimpleName SimpleType ClassInstanceCreation QualifiedName tltablet location
+accumulo server exception SimpleName SimpleType ClassInstanceCreation SimpleName tae
+tltablet location QualifiedName ClassInstanceCreation SimpleName tae
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tab locator SimpleName MethodInvocation SimpleName invalidate cache
+tab locator SimpleName MethodInvocation QualifiedName tltablet location
+invalidate cache SimpleName MethodInvocation QualifiedName tltablet location
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation SimpleName instance
+clear cache SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table id SimpleName ClassInstanceCreation SimpleName table name
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName e
+not serving tablet exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tab locator SimpleName MethodInvocation SimpleName invalidate cache
+tab locator SimpleName MethodInvocation QualifiedName tltablet extent
+invalidate cache SimpleName MethodInvocation QualifiedName tltablet extent
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tab locator SimpleName MethodInvocation SimpleName invalidate cache
+tab locator SimpleName MethodInvocation QualifiedName tltablet location
+invalidate cache SimpleName MethodInvocation QualifiedName tltablet location
+successful SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+text SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName partition keys
+split SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName partition keys
+partition keys SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+partition keys SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add splits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleName add splits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add splits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+add splits SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+add splits SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+partition keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo server exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo server exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo server exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo server exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo server exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add splits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo server exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add splits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName partition keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo server exception

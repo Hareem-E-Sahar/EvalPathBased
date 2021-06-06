@@ -1,0 +1,108 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+ctas table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+ctas table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctas table name
+create table StringLiteral InfixExpression SimpleName ctas table name
+create table StringLiteral InfixExpression StringLiteral as select * from
+create table StringLiteral InfixExpression SimpleName table name
+ctas table name SimpleName InfixExpression StringLiteral as select * from
+ctas table name SimpleName InfixExpression SimpleName table name
+as select * from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral create table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName ctas table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral as select * from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName ctas table name
+default db SimpleName MethodInvocation SimpleName ctas table name
+assert process is registered SimpleName MethodInvocation SimpleName query
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert process is registered
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral drop table s
+string SimpleName MethodInvocation SimpleName ctas table name
+format SimpleName MethodInvocation StringLiteral drop table s
+format SimpleName MethodInvocation SimpleName ctas table name
+drop table s StringLiteral MethodInvocation SimpleName ctas table name
+drpquery SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+drpquery SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+drpquery SimpleName VariableDeclarationFragment MethodInvocation StringLiteral drop table s
+drpquery SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctas table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName drpquery
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral drop table s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctas table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName drpquery
+run command SimpleName MethodInvocation SimpleName drpquery
+assert table is not registered SimpleName MethodInvocation SimpleName default db
+assert table is not registered SimpleName MethodInvocation SimpleName ctas table name
+default db SimpleName MethodInvocation SimpleName ctas table name
+run command SimpleName MethodInvocation SimpleName query
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName ctas table name
+default db SimpleName MethodInvocation SimpleName ctas table name
+assert process is registered SimpleName MethodInvocation SimpleName query
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert process is registered
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process id
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName process id
+assert SimpleName MethodInvocation SimpleName process id
+assert equals SimpleName MethodInvocation SimpleName process id
+assert equals SimpleName MethodInvocation SimpleName process id
+process id SimpleName MethodInvocation SimpleName process id
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName process id
+get entity SimpleName MethodInvocation SimpleName process id
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+process ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName process id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process ref
+get qualified tbl name SimpleName MethodInvocation SimpleName table name
+tbl qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified tbl name
+tbl qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl qlfdname
+get qualified tbl name SimpleName MethodInvocation SimpleName ctas table name
+ctas qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified tbl name
+ctas qlfdname SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctas table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctas qlfdname
+validate input tables SimpleName MethodInvocation SimpleName process ref
+validate input tables SimpleName MethodInvocation SimpleName tbl qlfdname
+process ref SimpleName MethodInvocation SimpleName tbl qlfdname
+validate output tables SimpleName MethodInvocation SimpleName process ref
+validate output tables SimpleName MethodInvocation SimpleName ctas qlfdname
+validate output tables SimpleName MethodInvocation SimpleName ctas qlfdname
+process ref SimpleName MethodInvocation SimpleName ctas qlfdname
+process ref SimpleName MethodInvocation SimpleName ctas qlfdname
+ctas qlfdname SimpleName MethodInvocation SimpleName ctas qlfdname
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test drop and recreate ctas output
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test drop and recreate ctas output
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test drop and recreate ctas output
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test drop and recreate ctas output SimpleName MethodDeclaration SimpleType SimpleName exception
+test drop and recreate ctas output SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test drop and recreate ctas output
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test drop and recreate ctas output
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

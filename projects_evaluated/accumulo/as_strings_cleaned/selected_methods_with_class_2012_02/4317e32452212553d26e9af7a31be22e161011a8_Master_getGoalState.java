@@ -1,0 +1,107 @@
+tablet location state SimpleName SimpleType SingleVariableDeclaration SimpleName tls
+merge info SimpleName SimpleType SingleVariableDeclaration SimpleName merge info
+extent SimpleName VariableDeclarationFragment QualifiedName tlsextent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName tlsextent
+get system goal state SimpleName MethodInvocation SimpleName tls
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system goal state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName tls
+tablet goal state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName tablet goal statehosted
+servers to shutdown SimpleName MethodInvocation SimpleName contains
+servers to shutdown SimpleName MethodInvocation QualifiedName tlscurrent
+contains SimpleName MethodInvocation QualifiedName tlscurrent
+tlscurrent QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName servers to shutdown
+tlscurrent QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName contains
+tlscurrent QualifiedName InfixExpression InfixExpression MethodInvocation QualifiedName tlscurrent
+merge info SimpleName MethodInvocation SimpleName get range
+merge info SimpleName MethodInvocation SimpleName overlaps
+merge info SimpleName MethodInvocation SimpleName extent
+overlaps SimpleName MethodInvocation SimpleName extent
+merge info SimpleName MethodInvocation SimpleName get state
+tls SimpleName MethodInvocation SimpleName get state
+tls SimpleName MethodInvocation MethodInvocation SimpleName online tablet servers
+get state SimpleName MethodInvocation MethodInvocation SimpleName online tablet servers
+tls SimpleName MethodInvocation MethodInvocation SimpleName equals
+get state SimpleName MethodInvocation MethodInvocation SimpleName equals
+online tablet servers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+tls SimpleName MethodInvocation MethodInvocation QualifiedName tablet statehosted
+get state SimpleName MethodInvocation MethodInvocation QualifiedName tablet statehosted
+online tablet servers SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tablet statehosted
+equals SimpleName MethodInvocation QualifiedName tablet statehosted
+tlschopped QualifiedName IfStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tlswalogs QualifiedName MethodInvocation SimpleName is empty
+tlschopped QualifiedName InfixExpression MethodInvocation QualifiedName tlswalogs
+tlschopped QualifiedName InfixExpression MethodInvocation SimpleName is empty
+tlschopped QualifiedName InfixExpression IfStatement ReturnStatement QualifiedName tablet goal stateunassigned
+merge info SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName none
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName none
+merge info SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName complete
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName complete
+merge info SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName started
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName started
+merge info SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName splitting
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName splitting
+none SimpleName SwitchCase SwitchStatement SwitchCase SimpleName complete
+none SimpleName SwitchCase SwitchStatement SwitchCase SimpleName started
+none SimpleName SwitchCase SwitchStatement SwitchCase SimpleName splitting
+none SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+complete SimpleName SwitchCase SwitchStatement SwitchCase SimpleName started
+complete SimpleName SwitchCase SwitchStatement SwitchCase SimpleName splitting
+complete SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+complete SimpleName SwitchCase SwitchStatement SwitchCase SimpleName waiting for chopped
+started SimpleName SwitchCase SwitchStatement SwitchCase SimpleName splitting
+started SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+started SimpleName SwitchCase SwitchStatement SwitchCase SimpleName waiting for chopped
+started SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+splitting SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+splitting SimpleName SwitchCase SwitchStatement SwitchCase SimpleName waiting for chopped
+splitting SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+splitting SimpleName SwitchCase SwitchStatement SwitchCase SimpleName waiting for offline
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName waiting for chopped
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName waiting for offline
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName merging
+waiting for chopped SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+waiting for chopped SimpleName SwitchCase SwitchStatement SwitchCase SimpleName waiting for offline
+waiting for chopped SimpleName SwitchCase SwitchStatement SwitchCase SimpleName merging
+waiting for chopped SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName waiting for offline
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName merging
+tablet goal statehosted QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+waiting for offline SimpleName SwitchCase SwitchStatement SwitchCase SimpleName merging
+waiting for offline SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+merging SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+get table goal state SimpleName MethodInvocation SimpleName extent
+state SimpleName Assignment MethodInvocation SimpleName get table goal state
+state SimpleName Assignment MethodInvocation SimpleName extent
+state SimpleName InfixExpression QualifiedName tablet goal statehosted
+migrations SimpleName MethodInvocation SimpleName get
+migrations SimpleName MethodInvocation SimpleName extent
+get SimpleName MethodInvocation SimpleName extent
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName migrations
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+dest SimpleName InfixExpression InfixExpression InfixExpression QualifiedName tlscurrent
+dest SimpleName MethodInvocation SimpleName equals
+dest SimpleName MethodInvocation QualifiedName tlscurrent
+equals SimpleName MethodInvocation QualifiedName tlscurrent
+tablet goal state SimpleName SimpleType MethodDeclaration SimpleName get goal state
+tablet goal state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tls
+tablet goal state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName merge info
+get goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet location state
+get goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tls
+get goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName merge info
+get goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName merge info
+get goal state SimpleName MethodDeclaration Block ReturnStatement SimpleName state
+tls SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get goal state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get goal state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName merge info

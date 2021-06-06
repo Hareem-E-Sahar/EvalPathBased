@@ -1,0 +1,195 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName export dir
+path SimpleName SimpleType SingleVariableDeclaration SimpleName export meta file path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unique files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unique files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unique files
+path SimpleName SimpleType ClassInstanceCreation SimpleName export dir
+path SimpleName SimpleType ClassInstanceCreation StringLiteral distcptxt
+export dir SimpleName ClassInstanceCreation StringLiteral distcptxt
+fs SimpleName MethodInvocation SimpleName create
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName export dir
+fs SimpleName MethodInvocation ClassInstanceCreation StringLiteral distcptxt
+fs SimpleName MethodInvocation BooleanLiteral false
+create SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+create SimpleName MethodInvocation ClassInstanceCreation SimpleName export dir
+create SimpleName MethodInvocation ClassInstanceCreation StringLiteral distcptxt
+create SimpleName MethodInvocation BooleanLiteral false
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+export dir SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+distcptxt StringLiteral ClassInstanceCreation MethodInvocation BooleanLiteral false
+output stream writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+output stream writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create
+output stream writer SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+output stream writer SimpleName SimpleType ClassInstanceCreation SimpleName utf
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+create SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+export dir SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation SimpleName utf
+distcptxt StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation SimpleName utf
+false BooleanLiteral MethodInvocation ClassInstanceCreation SimpleName utf
+buffered writer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+distcp out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered writer
+distcp out SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName utf
+buffered writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName distcp out
+fs SimpleName MethodInvocation SimpleName get uri
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get uri
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rel path
+unique files SimpleName MethodInvocation SimpleName values
+uri SimpleName MethodInvocation SimpleName get scheme
+uri SimpleName MethodInvocation SimpleName get authority
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation InfixExpression SimpleName rel path
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName rel path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scheme
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get authority
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName rel path
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uri
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get authority
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uri
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get authority
+uri SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName rel path
+get scheme SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName rel path
+uri SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName rel path
+get authority SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName rel path
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName uri
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get scheme
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName uri
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get authority
+abs path SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName rel path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs path
+abs path SimpleName MethodInvocation SimpleName to uri
+abs path SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+distcp out SimpleName MethodInvocation SimpleName append
+distcp out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs path
+distcp out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+distcp out SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs path
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+distcp out SimpleName MethodInvocation SimpleName new line
+rel path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName unique files
+rel path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+abs emp SimpleName VariableDeclarationFragment SimpleName export meta file path
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName abs emp
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName export meta file path
+export meta file path SimpleName MethodInvocation SimpleName is absolute
+fs SimpleName MethodInvocation SimpleName get working directory
+fs SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get working directory SimpleName MethodInvocation MethodInvocation SimpleName to uri
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get working directory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+to uri SimpleName MethodInvocation MethodInvocation SimpleName get path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+path SimpleName SimpleType ClassInstanceCreation SimpleName export meta file path
+to uri SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName export meta file path
+get path SimpleName MethodInvocation ClassInstanceCreation SimpleName export meta file path
+abs emp SimpleName Assignment ClassInstanceCreation SimpleType SimpleName path
+abs emp SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get path
+abs emp SimpleName Assignment ClassInstanceCreation SimpleName export meta file path
+uri SimpleName MethodInvocation SimpleName get scheme
+uri SimpleName MethodInvocation SimpleName get authority
+abs emp SimpleName MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scheme
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uri
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get authority
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName abs emp
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uri
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get authority
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uri
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get authority
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName abs emp
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName abs emp
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName abs emp
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get authority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName abs emp
+get authority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+get scheme SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+get authority SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+abs emp SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to uri
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+distcp out SimpleName MethodInvocation SimpleName append
+distcp out SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+distcp out SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+distcp out SimpleName MethodInvocation SimpleName new line
+distcp out SimpleName MethodInvocation SimpleName close
+distcp out SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create distcp file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName export dir
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName create distcp file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName export dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+void PrimitiveType MethodDeclaration SimpleName create distcp file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName export dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unique files
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName export dir
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+create distcp file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique files
+create distcp file SimpleName MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique files
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+export dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+export dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique files
+export dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+export meta file path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique files
+export meta file path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+unique files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create distcp file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create distcp file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName export meta file path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

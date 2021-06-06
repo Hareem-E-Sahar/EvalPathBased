@@ -1,0 +1,25 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+bw config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+bw config SimpleName MethodInvocation SimpleName set max memory
+bw config SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+set max memory SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test negative max memory
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test negative max memory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test negative max memory
+void PrimitiveType MethodDeclaration SimpleName test negative max memory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test negative max memory
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test negative max memory

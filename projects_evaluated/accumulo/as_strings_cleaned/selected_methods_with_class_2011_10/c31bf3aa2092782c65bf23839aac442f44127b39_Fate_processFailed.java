@@ -1,0 +1,50 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+repo SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+repo SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName op
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName op
+undo SimpleName MethodInvocation SimpleName tid
+undo SimpleName MethodInvocation SimpleName op
+tid SimpleName MethodInvocation SimpleName op
+store SimpleName MethodInvocation SimpleName pop
+store SimpleName MethodInvocation SimpleName tid
+pop SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation SimpleName top
+store SimpleName MethodInvocation SimpleName tid
+top SimpleName MethodInvocation SimpleName tid
+op SimpleName Assignment MethodInvocation SimpleName store
+op SimpleName Assignment MethodInvocation SimpleName top
+op SimpleName Assignment MethodInvocation SimpleName tid
+store SimpleName MethodInvocation SimpleName set status
+store SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation QualifiedName t statusfailed
+set status SimpleName MethodInvocation SimpleName tid
+set status SimpleName MethodInvocation QualifiedName t statusfailed
+tid SimpleName MethodInvocation QualifiedName t statusfailed
+do clean up SimpleName MethodInvocation SimpleName tid
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process failed
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+void PrimitiveType MethodDeclaration SimpleName process failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName op
+process failed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+process failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+process failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process failed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process failed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op

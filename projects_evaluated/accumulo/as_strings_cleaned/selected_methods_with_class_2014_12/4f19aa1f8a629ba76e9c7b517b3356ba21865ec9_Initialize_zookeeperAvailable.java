@@ -1,0 +1,20 @@
+zoo SimpleName MethodInvocation SimpleName exists
+zoo SimpleName MethodInvocation StringLiteral /
+exists SimpleName MethodInvocation StringLiteral /
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName zookeeper available
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName zookeeper available
+boolean PrimitiveType MethodDeclaration SimpleName zookeeper available
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName zookeeper available
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName zookeeper available

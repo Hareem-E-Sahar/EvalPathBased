@@ -1,0 +1,132 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+get logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+logger SimpleName MethodInvocation MethodInvocation SimpleName get level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName get level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get level
+current level SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName logger
+current level SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get logger
+current level SimpleName VariableDeclarationFragment MethodInvocation SimpleName get level
+level SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current level
+configurator base SimpleName MethodInvocation SimpleName set log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation QualifiedName leveldebug
+set log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+set log level SimpleName MethodInvocation SimpleName conf
+set log level SimpleName MethodInvocation QualifiedName leveldebug
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation QualifiedName leveldebug
+conf SimpleName MethodInvocation QualifiedName leveldebug
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+get logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current level
+set level SimpleName MethodInvocation SimpleName current level
+configurator base SimpleName MethodInvocation SimpleName get log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+get log level SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation QualifiedName leveldebug
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get log level
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+leveldebug QualifiedName MethodInvocation MethodInvocation SimpleName configurator base
+leveldebug QualifiedName MethodInvocation MethodInvocation SimpleName get log level
+leveldebug QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+leveldebug QualifiedName MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName set log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation QualifiedName levelinfo
+set log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+set log level SimpleName MethodInvocation SimpleName conf
+set log level SimpleName MethodInvocation QualifiedName levelinfo
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation QualifiedName levelinfo
+conf SimpleName MethodInvocation QualifiedName levelinfo
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+get logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current level
+set level SimpleName MethodInvocation SimpleName current level
+configurator base SimpleName MethodInvocation SimpleName get log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+get log level SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation QualifiedName levelinfo
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get log level
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+levelinfo QualifiedName MethodInvocation MethodInvocation SimpleName configurator base
+levelinfo QualifiedName MethodInvocation MethodInvocation SimpleName get log level
+levelinfo QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+levelinfo QualifiedName MethodInvocation MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation SimpleName set log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+configurator base SimpleName MethodInvocation QualifiedName levelfatal
+set log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+set log level SimpleName MethodInvocation SimpleName conf
+set log level SimpleName MethodInvocation QualifiedName levelfatal
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation QualifiedName levelfatal
+conf SimpleName MethodInvocation QualifiedName levelfatal
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+get logger SimpleName MethodInvocation MethodInvocation SimpleName get class
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName current level
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current level
+set level SimpleName MethodInvocation SimpleName current level
+configurator base SimpleName MethodInvocation SimpleName get log level
+configurator base SimpleName MethodInvocation MethodInvocation SimpleName get class
+configurator base SimpleName MethodInvocation SimpleName conf
+get log level SimpleName MethodInvocation MethodInvocation SimpleName get class
+get log level SimpleName MethodInvocation SimpleName conf
+get class SimpleName MethodInvocation MethodInvocation SimpleName conf
+assert equals SimpleName MethodInvocation QualifiedName levelfatal
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName configurator base
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get log level
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName conf
+levelfatal QualifiedName MethodInvocation MethodInvocation SimpleName configurator base
+levelfatal QualifiedName MethodInvocation MethodInvocation SimpleName get log level
+levelfatal QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+levelfatal QualifiedName MethodInvocation MethodInvocation SimpleName conf
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set log level
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set log level
+void PrimitiveType MethodDeclaration SimpleName test set log level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set log level
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set log level

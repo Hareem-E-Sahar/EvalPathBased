@@ -1,0 +1,94 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reserved files
+file skv iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reserved files
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file skv iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers reserved
+file skv iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers reserved
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName readers reserved
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+linked list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName files
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName files
+files to open SimpleName Assignment ClassInstanceCreation SimpleName files
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+files to open SimpleName MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName files to open
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName open reader
+open files SimpleName MethodInvocation SimpleName get
+open files SimpleName MethodInvocation SimpleName file
+get SimpleName MethodInvocation SimpleName file
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName open files
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ofl SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+ofl SimpleName MethodInvocation SimpleName size
+ofl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ofl SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ofl SimpleName MethodInvocation SimpleName size
+ofl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ofl SimpleName MethodInvocation SimpleName remove
+ofl SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ofl
+ofl SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+ofl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+remove SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ofl
+remove SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+remove SimpleName MethodInvocation InfixExpression NumberLiteral empty
+open reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName ofl
+open reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+open reader SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+open reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName open reader
+reserved files SimpleName MethodInvocation SimpleName add
+reserved files SimpleName MethodInvocation QualifiedName open readerreader
+add SimpleName MethodInvocation QualifiedName open readerreader
+readers reserved SimpleName MethodInvocation SimpleName put
+readers reserved SimpleName MethodInvocation QualifiedName open readerreader
+readers reserved SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation QualifiedName open readerreader
+put SimpleName MethodInvocation SimpleName file
+open readerreader QualifiedName MethodInvocation SimpleName file
+ofl SimpleName MethodInvocation SimpleName size
+ofl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+open files SimpleName MethodInvocation SimpleName remove
+open files SimpleName MethodInvocation SimpleName file
+remove SimpleName MethodInvocation SimpleName file
+iterator SimpleName MethodInvocation SimpleName remove
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName take open files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName reserved files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName readers reserved
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName take open files
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName take open files
+take open files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+take open files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reserved files
+take open files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName readers reserved
+take open files SimpleName MethodDeclaration Block ReturnStatement SimpleName files to open
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reserved files
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers reserved
+reserved files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers reserved
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName take open files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reserved files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers reserved
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName take open files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reserved files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName readers reserved

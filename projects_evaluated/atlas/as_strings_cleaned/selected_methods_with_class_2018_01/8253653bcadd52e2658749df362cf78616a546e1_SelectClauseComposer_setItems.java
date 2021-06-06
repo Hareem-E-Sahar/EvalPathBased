@@ -1,0 +1,33 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName items
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName items
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName items
+arrays SimpleName MethodInvocation QualifiedName itemslength
+copy of SimpleName MethodInvocation SimpleName items
+copy of SimpleName MethodInvocation QualifiedName itemslength
+items SimpleName MethodInvocation QualifiedName itemslength
+items SimpleName FieldAccess Assignment MethodInvocation SimpleName arrays
+items SimpleName FieldAccess Assignment MethodInvocation SimpleName copy of
+items SimpleName FieldAccess Assignment MethodInvocation SimpleName items
+items SimpleName FieldAccess Assignment MethodInvocation QualifiedName itemslength
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set items
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName items
+void PrimitiveType MethodDeclaration SimpleName set items
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName items
+set items SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set items SimpleName MethodDeclaration SingleVariableDeclaration SimpleName items
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set items
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName items
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set items
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName items

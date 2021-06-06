@@ -1,0 +1,90 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance vertices
+request context v SimpleName MethodInvocation SimpleName get
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context v
+request context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+request context v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request context
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get id from vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName instance vertex
+get id from vertex SimpleName MethodInvocation SimpleName instance vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+get state SimpleName MethodInvocation SimpleName instance vertex
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+atlas entitystatus QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression SimpleName deleted
+request context SimpleName MethodInvocation SimpleName is deleted entity
+request context SimpleName MethodInvocation SimpleName guid
+is deleted entity SimpleName MethodInvocation SimpleName guid
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName request context
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is deleted entity
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName guid
+deleted SimpleName InfixExpression InfixExpression MethodInvocation SimpleName request context
+deleted SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is deleted entity
+deleted SimpleName InfixExpression InfixExpression MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipping deletion of {} as it is already deleted
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral skipping deletion of {} as it is already deleted
+debug SimpleName MethodInvocation SimpleName guid
+skipping deletion of {} as it is already deleted StringLiteral MethodInvocation SimpleName guid
+graph helpervertex info QualifiedName SimpleType SingleVariableDeclaration SimpleName vertex info
+get owned vertices SimpleName MethodInvocation SimpleName instance vertex
+vertex info SimpleName MethodInvocation SimpleName get entity
+request context SimpleName MethodInvocation SimpleName record entity delete
+request context SimpleName MethodInvocation MethodInvocation SimpleName vertex info
+request context SimpleName MethodInvocation MethodInvocation SimpleName get entity
+record entity delete SimpleName MethodInvocation MethodInvocation SimpleName vertex info
+record entity delete SimpleName MethodInvocation MethodInvocation SimpleName get entity
+vertex info SimpleName MethodInvocation SimpleName get vertex
+deletion candidate vertices SimpleName MethodInvocation SimpleName add
+deletion candidate vertices SimpleName MethodInvocation MethodInvocation SimpleName vertex info
+deletion candidate vertices SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName vertex info
+add SimpleName MethodInvocation MethodInvocation SimpleName get vertex
+vertex info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get owned vertices
+vertex info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName instance vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName instance vertices
+instance vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName instance vertices
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName deletion candidate vertex
+delete all classifications SimpleName MethodInvocation SimpleName deletion candidate vertex
+delete type vertex SimpleName MethodInvocation SimpleName deletion candidate vertex
+delete type vertex SimpleName MethodInvocation BooleanLiteral false
+deletion candidate vertex SimpleName MethodInvocation BooleanLiteral false
+atlas vertex SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName deletion candidate vertices
+deletion candidate vertex SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName deletion candidate vertices
+instance vertices SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName deletion candidate vertices
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertices
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName instance vertices
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName deletion candidate vertices
+void PrimitiveType MethodDeclaration SimpleName delete entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance vertices
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName instance vertices
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName deletion candidate vertices
+delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertices
+delete entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName instance vertices
+delete entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName deletion candidate vertices
+instance vertices SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertices
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertices
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

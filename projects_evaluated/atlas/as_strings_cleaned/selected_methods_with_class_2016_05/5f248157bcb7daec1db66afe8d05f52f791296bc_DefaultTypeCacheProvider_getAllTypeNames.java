@@ -1,0 +1,21 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+types SimpleName MethodInvocation SimpleName key set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get all type names
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get all type names
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all type names
+get all type names SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all type names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all type names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,123 @@
+local repository config SimpleName SimpleType SingleVariableDeclaration SimpleName local repository config
+local omrs repository connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local repository connector
+local repository config SimpleName MethodInvocation SimpleName get local repository remote connection
+local repository config SimpleName MethodInvocation SimpleName get event mapper connection
+get local repository event mapper SimpleName MethodInvocation MethodInvocation SimpleName local repository config
+get local repository event mapper SimpleName MethodInvocation MethodInvocation SimpleName get event mapper connection
+local repository config SimpleName MethodInvocation SimpleName get events to save rule
+local repository config SimpleName MethodInvocation SimpleName get selected types to save
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation StringLiteral local repository events to save
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation SimpleName local repository content manager
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local repository config
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local repository config
+omrs repository event exchange rule SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local repository events to save StringLiteral ClassInstanceCreation SimpleName local repository content manager
+local repository events to save StringLiteral ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository events to save StringLiteral ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+local repository events to save StringLiteral ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository events to save StringLiteral ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local repository content manager SimpleName ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository content manager SimpleName ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+local repository content manager SimpleName ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository content manager SimpleName ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local repository config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+get events to save rule SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName local repository config
+get events to save rule SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation SimpleName local metadata collection id
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local repository config
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local repository remote connection
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local repository event mapper
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation SimpleName local repository event manager
+local omrs connector provider SimpleName SimpleType ClassInstanceCreation SimpleName local repository content manager
+local metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName local repository config
+local metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get local repository remote connection
+local metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get local repository event mapper
+local metadata collection id SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName local repository config
+local metadata collection id SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get event mapper connection
+local metadata collection id SimpleName ClassInstanceCreation SimpleName local repository event manager
+local metadata collection id SimpleName ClassInstanceCreation SimpleName local repository content manager
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName omrs repository event exchange rule
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local metadata collection id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local repository config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local repository event mapper
+get local repository remote connection SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local repository event mapper
+local repository config SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository event manager
+get local repository remote connection SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository event manager
+local repository config SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+get local repository remote connection SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+local repository config SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+local repository config SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+get local repository remote connection SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+get local repository remote connection SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+get local repository event mapper SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository event manager
+local repository config SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName local repository event manager
+get event mapper connection SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName local repository event manager
+get local repository event mapper SimpleName MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+local repository config SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+get event mapper connection SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName local repository content manager
+get local repository event mapper SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+get local repository event mapper SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+local repository event manager SimpleName ClassInstanceCreation SimpleName local repository content manager
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName omrs repository event exchange rule
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository event manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName omrs repository event exchange rule
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get events to save rule
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName local repository config
+local repository content manager SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get selected types to save
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName local omrs connector provider
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local metadata collection id
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName local repository config
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get local repository remote connection
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get local repository event mapper
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local repository event manager
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local repository content manager
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral local repository events to save
+local connector provider SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName local repository content manager
+local omrs connector provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local connector provider
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local repository connection
+local repository config SimpleName MethodInvocation SimpleName get local repository local connection
+local repository config SimpleName MethodInvocation SimpleName get local repository local connection
+local repository connection SimpleName Assignment MethodInvocation SimpleName local repository config
+local repository connection SimpleName Assignment MethodInvocation SimpleName get local repository local connection
+local repository config SimpleName MethodInvocation SimpleName get local repository remote connection
+local repository connection SimpleName Assignment MethodInvocation SimpleName local repository config
+local repository connection SimpleName Assignment MethodInvocation SimpleName get local repository remote connection
+get local omrs connector SimpleName MethodInvocation SimpleName local repository connection
+get local omrs connector SimpleName MethodInvocation SimpleName local connector provider
+local repository connection SimpleName MethodInvocation SimpleName local connector provider
+local repository connector SimpleName Assignment MethodInvocation SimpleName get local omrs connector
+local repository connector SimpleName Assignment MethodInvocation SimpleName local repository connection
+local repository connector SimpleName Assignment MethodInvocation SimpleName local connector provider
+private Modifier MethodDeclaration SimpleType SimpleName local omrs repository connector
+private Modifier MethodDeclaration SimpleName initialize local repository
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local repository config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName local repository config
+private Modifier MethodDeclaration Block ReturnStatement SimpleName local repository connector
+local omrs repository connector SimpleName SimpleType MethodDeclaration SimpleName initialize local repository
+local omrs repository connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local repository config
+initialize local repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local repository config
+initialize local repository SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local repository config
+initialize local repository SimpleName MethodDeclaration Block ReturnStatement SimpleName local repository connector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName local omrs repository connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize local repository
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository config
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName local omrs repository connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize local repository
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local repository config

@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+migrations SimpleName MethodInvocation SimpleName key set
+migrations SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName migrations
+iterator SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+to string SimpleName MethodInvocation MethodInvocation SimpleName table id
+equals SimpleName MethodInvocation SimpleName table id
+iterator SimpleName MethodInvocation SimpleName remove
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear migrations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName migrations
+void PrimitiveType MethodDeclaration SimpleName clear migrations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName migrations
+clear migrations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clear migrations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+clear migrations SimpleName MethodDeclaration Block SynchronizedStatement SimpleName migrations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear migrations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear migrations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

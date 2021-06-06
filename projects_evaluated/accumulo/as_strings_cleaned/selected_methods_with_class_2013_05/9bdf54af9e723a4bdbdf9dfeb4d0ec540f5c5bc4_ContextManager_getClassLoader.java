@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName context name
+config SimpleName MethodInvocation SimpleName get context config
+config SimpleName MethodInvocation SimpleName context name
+get context config SimpleName MethodInvocation SimpleName context name
+cconfig SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+cconfig SimpleName VariableDeclarationFragment MethodInvocation SimpleName get context config
+cconfig SimpleName VariableDeclarationFragment MethodInvocation SimpleName context name
+context config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cconfig
+unknown context StringLiteral InfixExpression SimpleName context name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown context
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName context name
+context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context to close
+contexts SimpleName MethodInvocation SimpleName get
+contexts SimpleName MethodInvocation SimpleName context name
+get SimpleName MethodInvocation SimpleName context name
+context SimpleName Assignment MethodInvocation SimpleName contexts
+context SimpleName Assignment MethodInvocation SimpleName get
+context SimpleName Assignment MethodInvocation SimpleName context name
+context SimpleName SimpleType ClassInstanceCreation SimpleName cconfig
+context SimpleName Assignment ClassInstanceCreation SimpleType SimpleName context
+context SimpleName Assignment ClassInstanceCreation SimpleName cconfig
+contexts SimpleName MethodInvocation SimpleName put
+contexts SimpleName MethodInvocation SimpleName context name
+contexts SimpleName MethodInvocation SimpleName context
+put SimpleName MethodInvocation SimpleName context name
+put SimpleName MethodInvocation SimpleName context
+context name SimpleName MethodInvocation SimpleName context
+contextcconfig QualifiedName MethodInvocation SimpleName equals
+contextcconfig QualifiedName MethodInvocation SimpleName cconfig
+equals SimpleName MethodInvocation SimpleName cconfig
+context to close SimpleName Assignment SimpleName context
+context SimpleName SimpleType ClassInstanceCreation SimpleName cconfig
+context SimpleName Assignment ClassInstanceCreation SimpleType SimpleName context
+context SimpleName Assignment ClassInstanceCreation SimpleName cconfig
+contexts SimpleName MethodInvocation SimpleName put
+contexts SimpleName MethodInvocation SimpleName context name
+contexts SimpleName MethodInvocation SimpleName context
+put SimpleName MethodInvocation SimpleName context name
+put SimpleName MethodInvocation SimpleName context
+context name SimpleName MethodInvocation SimpleName context
+context to close SimpleName MethodInvocation SimpleName close
+context SimpleName MethodInvocation SimpleName get class loader
+loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName loader
+get class loader SimpleName MethodInvocation SimpleName context name
+public Modifier MethodDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName get class loader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context name
+public Modifier MethodDeclaration SimpleType SimpleName file system exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName loader
+class loader SimpleName SimpleType MethodDeclaration SimpleName get class loader
+class loader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context name
+class loader SimpleName SimpleType MethodDeclaration SimpleType SimpleName file system exception
+get class loader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get class loader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context name
+get class loader SimpleName MethodDeclaration SimpleType SimpleName file system exception
+get class loader SimpleName MethodDeclaration Block ReturnStatement SimpleName loader
+context name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName file system exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class loader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class loader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file system exception

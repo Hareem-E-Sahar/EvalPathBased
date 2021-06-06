@@ -1,0 +1,6 @@
+span SimpleName SimpleType MethodDeclaration SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName span
+public Modifier TypeDeclaration MethodDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName span
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parent

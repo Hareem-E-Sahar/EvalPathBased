@@ -1,0 +1,72 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+int PrimitiveType SingleVariableDeclaration SimpleName number of threads
+output configurator SimpleName MethodInvocation SimpleName get batch writer options
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation SimpleName conf
+get batch writer options SimpleName MethodInvocation SimpleName class
+get batch writer options SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName conf
+bw config SimpleName VariableDeclarationFragment MethodInvocation SimpleName output configurator
+bw config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer options
+bw config SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+bw config SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+bw config SimpleName MethodInvocation SimpleName set max write threads
+bw config SimpleName MethodInvocation SimpleName number of threads
+set max write threads SimpleName MethodInvocation SimpleName number of threads
+output configurator SimpleName MethodInvocation SimpleName set batch writer options
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation SimpleName conf
+output configurator SimpleName MethodInvocation SimpleName bw config
+set batch writer options SimpleName MethodInvocation SimpleName class
+set batch writer options SimpleName MethodInvocation SimpleName conf
+set batch writer options SimpleName MethodInvocation SimpleName bw config
+class SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName bw config
+conf SimpleName MethodInvocation SimpleName bw config
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set max write threads
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set max write threads
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set max write threads
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+void PrimitiveType MethodDeclaration SimpleName set max write threads
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+set max write threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set max write threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set max write threads SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set max write threads SimpleName MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set max write threads
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName number of threads
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set max write threads
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName number of threads

@@ -1,0 +1,98 @@
+cluster typestandalone QualifiedName InfixExpression MethodInvocation SimpleName get cluster type
+get connector SimpleName MethodInvocation MethodInvocation SimpleName instance operations
+iops SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+iops SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance operations
+instance operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iops
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iops SimpleName MethodInvocation SimpleName get system configuration
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName iops
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system configuration
+propertytserv majc thread maxopen QualifiedName MethodInvocation SimpleName get key
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc thread maxopen
+config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc thread maxopen
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+majc thread max open SimpleName Assignment MethodInvocation SimpleName config
+majc thread max open SimpleName Assignment MethodInvocation SimpleName get
+majc thread max open SimpleName Assignment MethodInvocation MethodInvocation QualifiedName propertytserv majc thread maxopen
+majc thread max open SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+propertytserv majc delay QualifiedName MethodInvocation SimpleName get key
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+majc delay SimpleName Assignment MethodInvocation SimpleName config
+majc delay SimpleName Assignment MethodInvocation SimpleName get
+majc delay SimpleName Assignment MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+majc delay SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+propertytserv majc maxconcurrent QualifiedName MethodInvocation SimpleName get key
+config SimpleName MethodInvocation SimpleName get
+config SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+config SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+majc max concurrent SimpleName Assignment MethodInvocation SimpleName config
+majc max concurrent SimpleName Assignment MethodInvocation SimpleName get
+majc max concurrent SimpleName Assignment MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+majc max concurrent SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+propertytserv majc thread maxopen QualifiedName MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation SimpleName set property
+iops SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc thread maxopen
+iops SimpleName MethodInvocation MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc thread maxopen
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+propertytserv majc thread maxopen QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytserv majc delay QualifiedName MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation SimpleName set property
+iops SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+iops SimpleName MethodInvocation MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc delay
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+propertytserv majc delay QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytserv majc maxconcurrent QualifiedName MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation SimpleName set property
+iops SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+iops SimpleName MethodInvocation MethodInvocation SimpleName get key
+iops SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv majc maxconcurrent
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral empty
+propertytserv majc maxconcurrent QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName stop all servers
+get cluster control SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+stop all servers SimpleName MethodInvocation QualifiedName server typetablet server
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName start all servers
+get cluster control SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+start all servers SimpleName MethodInvocation QualifiedName server typetablet server
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName alter config
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName alter config
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName alter config
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+alter config SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName alter config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName alter config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

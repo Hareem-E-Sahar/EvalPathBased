@@ -1,0 +1,95 @@
+tablet reserved readers SimpleName MethodInvocation SimpleName size
+tablet reserved readers SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file data source SimpleName SimpleType SingleVariableDeclaration SimpleName fds
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation QualifiedName fdsfile
+add SimpleName MethodInvocation QualifiedName fdsfile
+file data source SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName data sources
+fds SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName data sources
+data sources SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName files
+data sources SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+data sources SimpleName EnhancedForStatement ExpressionStatement MethodInvocation QualifiedName fdsfile
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+open files SimpleName MethodInvocation SimpleName files
+newly reserved readers SimpleName VariableDeclarationFragment MethodInvocation SimpleName open files
+newly reserved readers SimpleName VariableDeclarationFragment MethodInvocation SimpleName files
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file skv iterator SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+get reserved reade filename SimpleName MethodInvocation SimpleName reader
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get reserved reade filename
+file name SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName file name
+get SimpleName MethodInvocation SimpleName file name
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName file name
+map SimpleName MethodInvocation SimpleName list
+put SimpleName MethodInvocation SimpleName file name
+put SimpleName MethodInvocation SimpleName list
+file name SimpleName MethodInvocation SimpleName list
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+file skv iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName newly reserved readers
+reader SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName newly reserved readers
+file data source SimpleName SimpleType SingleVariableDeclaration SimpleName fds
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation QualifiedName fdsfile
+get SimpleName MethodInvocation QualifiedName fdsfile
+map SimpleName MethodInvocation MethodInvocation SimpleName remove
+get SimpleName MethodInvocation MethodInvocation SimpleName remove
+fdsfile QualifiedName MethodInvocation MethodInvocation SimpleName remove
+map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+fdsfile QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName fdsfile
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+reader SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+fds SimpleName MethodInvocation SimpleName set iterator
+fds SimpleName MethodInvocation SimpleName reader
+set iterator SimpleName MethodInvocation SimpleName reader
+file data source SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName data sources
+fds SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName data sources
+data sources SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName newly reserved readers
+data sources SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName data sources
+newly reserved readers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName data sources
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName reattach
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName data sources
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName newly reserved readers
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName data sources
+void PrimitiveType MethodDeclaration SimpleName reattach
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName data sources
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName newly reserved readers
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName data sources
+reattach SimpleName MethodDeclaration SimpleType SimpleName io exception
+reattach SimpleName MethodDeclaration Block EnhancedForStatement SimpleName data sources
+reattach SimpleName MethodDeclaration Block EnhancedForStatement SimpleName newly reserved readers
+reattach SimpleName MethodDeclaration Block EnhancedForStatement SimpleName data sources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reattach
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reattach
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

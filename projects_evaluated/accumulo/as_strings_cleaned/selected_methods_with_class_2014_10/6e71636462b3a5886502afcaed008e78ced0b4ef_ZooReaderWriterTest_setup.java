@@ -1,0 +1,108 @@
+easy mock SimpleName MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName zoo keeper
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName zoo keeper
+zk SimpleName Assignment MethodInvocation SimpleName easy mock
+zk SimpleName Assignment MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation SimpleName create mock builder
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName zoo reader writer
+create mock builder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName zoo reader writer
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName add mocked methods
+create mock builder SimpleName MethodInvocation MethodInvocation SimpleName add mocked methods
+easy mock SimpleName MethodInvocation MethodInvocation StringLiteral get retry factory
+create mock builder SimpleName MethodInvocation MethodInvocation StringLiteral get retry factory
+easy mock SimpleName MethodInvocation MethodInvocation StringLiteral get zoo keeper
+create mock builder SimpleName MethodInvocation MethodInvocation StringLiteral get zoo keeper
+add mocked methods SimpleName MethodInvocation StringLiteral get retry factory
+add mocked methods SimpleName MethodInvocation StringLiteral get zoo keeper
+get retry factory StringLiteral MethodInvocation StringLiteral get zoo keeper
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create mock
+create mock builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create mock
+add mocked methods SimpleName MethodInvocation MethodInvocation SimpleName create mock
+get retry factory StringLiteral MethodInvocation MethodInvocation SimpleName create mock
+get zoo keeper StringLiteral MethodInvocation MethodInvocation SimpleName create mock
+zrw SimpleName Assignment MethodInvocation MethodInvocation SimpleName add mocked methods
+zrw SimpleName Assignment MethodInvocation MethodInvocation StringLiteral get retry factory
+zrw SimpleName Assignment MethodInvocation MethodInvocation StringLiteral get zoo keeper
+zrw SimpleName Assignment MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName retry factory
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName retry factory
+retry factory SimpleName Assignment MethodInvocation SimpleName easy mock
+retry factory SimpleName Assignment MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation SimpleName create mock
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName retry
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName retry
+retry SimpleName Assignment MethodInvocation SimpleName easy mock
+retry SimpleName Assignment MethodInvocation SimpleName create mock
+zrw SimpleName MethodInvocation SimpleName get zoo keeper
+easy mock SimpleName MethodInvocation SimpleName expect
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName zrw
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName get zoo keeper
+expect SimpleName MethodInvocation MethodInvocation SimpleName zrw
+expect SimpleName MethodInvocation MethodInvocation SimpleName get zoo keeper
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+zrw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get zoo keeper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName zk
+expect SimpleName MethodInvocation MethodInvocation SimpleName zk
+zrw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk
+get zoo keeper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName zk
+and return SimpleName MethodInvocation SimpleName zk
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+zk SimpleName MethodInvocation MethodInvocation SimpleName any times
+zrw SimpleName MethodInvocation SimpleName get retry factory
+easy mock SimpleName MethodInvocation SimpleName expect
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName zrw
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName get retry factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName zrw
+expect SimpleName MethodInvocation MethodInvocation SimpleName get retry factory
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+zrw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get retry factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName retry factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName retry factory
+zrw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName retry factory
+get retry factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName retry factory
+and return SimpleName MethodInvocation SimpleName retry factory
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+retry factory SimpleName MethodInvocation MethodInvocation SimpleName any times
+retry factory SimpleName MethodInvocation SimpleName create
+easy mock SimpleName MethodInvocation SimpleName expect
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName retry factory
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName create
+expect SimpleName MethodInvocation MethodInvocation SimpleName retry factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName create
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+retry factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName retry
+expect SimpleName MethodInvocation MethodInvocation SimpleName retry
+retry factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName retry
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName retry
+and return SimpleName MethodInvocation SimpleName retry
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+and return SimpleName MethodInvocation MethodInvocation SimpleName any times
+retry SimpleName MethodInvocation MethodInvocation SimpleName any times
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup

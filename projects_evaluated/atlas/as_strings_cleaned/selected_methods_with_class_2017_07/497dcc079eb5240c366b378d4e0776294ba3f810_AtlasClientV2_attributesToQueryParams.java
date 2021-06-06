@@ -1,0 +1,68 @@
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName query params
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName query params
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName query params
+query params SimpleName Assignment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName attributes
+is not empty SimpleName MethodInvocation SimpleName attributes
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+attributes SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+prefix attr SimpleName InfixExpression MethodInvocation SimpleName e
+prefix attr SimpleName InfixExpression MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get value
+query params SimpleName MethodInvocation SimpleName put single
+query params SimpleName MethodInvocation InfixExpression SimpleName prefix attr
+query params SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+query params SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+query params SimpleName MethodInvocation MethodInvocation SimpleName e
+query params SimpleName MethodInvocation MethodInvocation SimpleName get value
+put single SimpleName MethodInvocation InfixExpression SimpleName prefix attr
+put single SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+put single SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+put single SimpleName MethodInvocation MethodInvocation SimpleName e
+put single SimpleName MethodInvocation MethodInvocation SimpleName get value
+prefix attr SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+prefix attr SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attributes
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName multivalued map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName attributes to query params
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query params
+private Modifier MethodDeclaration Block ReturnStatement SimpleName query params
+multivalued map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName attributes to query params
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName attributes to query params
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName attributes to query params
+attributes to query params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+attributes to query params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query params
+attributes to query params SimpleName MethodDeclaration Block ReturnStatement SimpleName query params
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName attributes to query params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attributes to query params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params

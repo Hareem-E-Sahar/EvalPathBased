@@ -1,0 +1,47 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName http servlet request
+http servlet request SimpleName MethodInvocation SimpleName get remote addr
+inet address SimpleName MethodInvocation SimpleName get by name
+inet address SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get remote addr
+get by name SimpleName MethodInvocation MethodInvocation SimpleName http servlet request
+get by name SimpleName MethodInvocation MethodInvocation SimpleName get remote addr
+inet addr SimpleName VariableDeclarationFragment MethodInvocation SimpleName inet address
+inet addr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by name
+inet addr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http servlet request
+inet addr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get remote addr
+inet address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inet addr
+inet addr SimpleName MethodInvocation SimpleName get host address
+ip SimpleName VariableDeclarationFragment MethodInvocation SimpleName inet addr
+ip SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ip
+unknown host exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error occured when retrieving ip address
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral error occured when retrieving ip address
+error SimpleName MethodInvocation SimpleName ex
+error occured when retrieving ip address StringLiteral MethodInvocation SimpleName ex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get request ip address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get request ip address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+string SimpleName SimpleType MethodDeclaration SimpleName get request ip address
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+get request ip address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get request ip address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request ip address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet request
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request ip address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http servlet request

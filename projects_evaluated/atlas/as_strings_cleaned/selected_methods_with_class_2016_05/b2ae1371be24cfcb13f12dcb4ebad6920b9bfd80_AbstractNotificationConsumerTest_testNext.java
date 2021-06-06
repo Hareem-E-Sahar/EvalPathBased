@@ -1,0 +1,169 @@
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName logger
+logger SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName logger
+test message SimpleName SimpleType ClassInstanceCreation StringLiteral s value
+test message SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+s value StringLiteral ClassInstanceCreation NumberLiteral empty
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test message
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral s value
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+test message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test message
+test message SimpleName SimpleType ClassInstanceCreation StringLiteral s value
+test message SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+s value StringLiteral ClassInstanceCreation NumberLiteral empty
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test message
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral s value
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+test message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test message
+test message SimpleName SimpleType ClassInstanceCreation StringLiteral s value
+test message SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+s value StringLiteral ClassInstanceCreation NumberLiteral empty
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test message
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral s value
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+test message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test message
+test message SimpleName SimpleType ClassInstanceCreation StringLiteral s value
+test message SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+s value StringLiteral ClassInstanceCreation NumberLiteral empty
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test message
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral s value
+test message SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+test message SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test message
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+versioned message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName test message
+. . StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName test message
+gson SimpleName MethodInvocation SimpleName to json
+gson SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+gson SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+to json SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+to json SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation MethodInvocation SimpleName gson
+json list SimpleName MethodInvocation MethodInvocation SimpleName to json
+json list SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+add SimpleName MethodInvocation MethodInvocation SimpleName gson
+add SimpleName MethodInvocation MethodInvocation SimpleName to json
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+versioned message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName test message
+. . StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName test message
+gson SimpleName MethodInvocation SimpleName to json
+gson SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+gson SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+to json SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+to json SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation MethodInvocation SimpleName gson
+json list SimpleName MethodInvocation MethodInvocation SimpleName to json
+json list SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+add SimpleName MethodInvocation MethodInvocation SimpleName gson
+add SimpleName MethodInvocation MethodInvocation SimpleName to json
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+versioned message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName test message
+. . StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName test message
+gson SimpleName MethodInvocation SimpleName to json
+gson SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+gson SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+to json SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+to json SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation MethodInvocation SimpleName gson
+json list SimpleName MethodInvocation MethodInvocation SimpleName to json
+json list SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+add SimpleName MethodInvocation MethodInvocation SimpleName gson
+add SimpleName MethodInvocation MethodInvocation SimpleName to json
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation StringLiteral . .
+versioned message SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName test message
+message version SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName test message
+. . StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName test message
+gson SimpleName MethodInvocation SimpleName to json
+gson SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+gson SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+to json SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral . .
+to json SimpleName MethodInvocation ClassInstanceCreation SimpleName test message
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation MethodInvocation SimpleName gson
+json list SimpleName MethodInvocation MethodInvocation SimpleName to json
+json list SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+add SimpleName MethodInvocation MethodInvocation SimpleName gson
+add SimpleName MethodInvocation MethodInvocation SimpleName to json
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test message
+versioned message SimpleName SimpleType ParameterizedType SimpleType SimpleName test message
+versioned message type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName versioned message type
+notification consumer SimpleName SimpleType ParameterizedType SimpleType SimpleName test message
+test notification consumer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName versioned message type
+test notification consumer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName json list
+test notification consumer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName logger
+versioned message type SimpleName ClassInstanceCreation SimpleName json list
+versioned message type SimpleName ClassInstanceCreation SimpleName logger
+json list SimpleName ClassInstanceCreation SimpleName logger
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName versioned message type
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName json list
+consumer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName logger
+consumer SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+consumer SimpleName MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation SimpleName test message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+test message SimpleName MethodInvocation MethodInvocation SimpleName consumer
+test message SimpleName MethodInvocation MethodInvocation SimpleName next
+consumer SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+consumer SimpleName MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation SimpleName test message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+test message SimpleName MethodInvocation MethodInvocation SimpleName consumer
+test message SimpleName MethodInvocation MethodInvocation SimpleName next
+consumer SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+consumer SimpleName MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation SimpleName test message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+test message SimpleName MethodInvocation MethodInvocation SimpleName consumer
+test message SimpleName MethodInvocation MethodInvocation SimpleName next
+consumer SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+consumer SimpleName MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation SimpleName test message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+test message SimpleName MethodInvocation MethodInvocation SimpleName consumer
+test message SimpleName MethodInvocation MethodInvocation SimpleName next
+consumer SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName consumer
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test next
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test next
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test next
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test next SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test next
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test next
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

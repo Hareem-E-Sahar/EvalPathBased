@@ -1,0 +1,13 @@
+script engine SimpleName SimpleType SingleVariableDeclaration SimpleName script engine
+void PrimitiveType MethodDeclaration SimpleName release gremlin script engine
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName script engine
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName script engine
+release gremlin script engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName script engine
+release gremlin script engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName script engine
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName release gremlin script engine
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script engine
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName release gremlin script engine
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script engine

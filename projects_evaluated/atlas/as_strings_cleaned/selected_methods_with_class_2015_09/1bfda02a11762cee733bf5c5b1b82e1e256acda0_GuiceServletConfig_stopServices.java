@@ -1,0 +1,20 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral stopping services
+debug SimpleName MethodInvocation StringLiteral stopping services
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName services
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName services
+services SimpleName VariableDeclarationFragment MethodInvocation SimpleName injector
+services SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+services SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName services
+services SimpleName MethodInvocation SimpleName stop
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName stop services
+void PrimitiveType MethodDeclaration SimpleName stop services
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop services
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop services

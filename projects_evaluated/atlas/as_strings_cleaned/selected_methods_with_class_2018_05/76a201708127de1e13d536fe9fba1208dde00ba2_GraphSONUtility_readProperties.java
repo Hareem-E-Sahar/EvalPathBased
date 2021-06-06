@@ -1,0 +1,55 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName json node
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName iterator
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName json node
+final Modifier SingleVariableDeclaration SimpleName list of nodes
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list of nodes
+json node SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list of nodes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName array
+list of nodes SimpleName MethodInvocation SimpleName has next
+list of nodes SimpleName MethodInvocation SimpleName next
+read property SimpleName MethodInvocation MethodInvocation SimpleName list of nodes
+read property SimpleName MethodInvocation MethodInvocation SimpleName next
+array SimpleName MethodInvocation SimpleName add
+array SimpleName MethodInvocation MethodInvocation SimpleName read property
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list of nodes
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+add SimpleName MethodInvocation MethodInvocation SimpleName read property
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list of nodes
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName array
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName read properties
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list of nodes
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName array
+static Modifier MethodDeclaration SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName read properties
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName list of nodes
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block ReturnStatement SimpleName array
+list SimpleName SimpleType MethodDeclaration SimpleName read properties
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName list of nodes
+read properties SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+read properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list of nodes
+read properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+read properties SimpleName MethodDeclaration Block ReturnStatement SimpleName array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName read properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list of nodes
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list of nodes

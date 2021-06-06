@@ -1,0 +1,226 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+is empty array value SimpleName MethodInvocation SimpleName val
+ret SimpleName Assignment MethodInvocation SimpleName is empty array value
+ret SimpleName Assignment MethodInvocation SimpleName val
+is empty array value SimpleName MethodInvocation SimpleName val
+ret SimpleName Assignment MethodInvocation SimpleName is empty array value
+ret SimpleName Assignment MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+is array SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is array
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName val
+get length SimpleName MethodInvocation SimpleName val
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName val
+get length SimpleName MethodInvocation SimpleName val
+len SimpleName InfixExpression MethodInvocation SimpleName array
+len SimpleName InfixExpression MethodInvocation SimpleName get length
+len SimpleName InfixExpression MethodInvocation SimpleName val
+ret SimpleName Assignment BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName val
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName val
+get SimpleName MethodInvocation SimpleName i
+val SimpleName MethodInvocation SimpleName i
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName val
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName val
+get SimpleName MethodInvocation SimpleName i
+val SimpleName MethodInvocation SimpleName i
+element type SimpleName MethodInvocation SimpleName are equal values
+element type SimpleName MethodInvocation MethodInvocation SimpleName array
+element type SimpleName MethodInvocation MethodInvocation SimpleName get
+element type SimpleName MethodInvocation MethodInvocation SimpleName val
+element type SimpleName MethodInvocation MethodInvocation SimpleName i
+element type SimpleName MethodInvocation MethodInvocation SimpleName array
+element type SimpleName MethodInvocation MethodInvocation SimpleName get
+element type SimpleName MethodInvocation MethodInvocation SimpleName val
+element type SimpleName MethodInvocation MethodInvocation SimpleName i
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName array
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName get
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName val
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName i
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName array
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName get
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName val
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName i
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName array
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName val
+array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName array
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName val
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName array
+val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName val
+val SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName array
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName val
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+ret SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+val SimpleName InstanceofExpression SimpleType SimpleName set
+val SimpleName InstanceofExpression SimpleType SimpleName set
+set SimpleName SimpleType CastExpression SimpleName val
+set SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName set
+set SimpleName VariableDeclarationFragment CastExpression SimpleName val
+set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set
+set SimpleName SimpleType CastExpression SimpleName val
+set SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName set
+set SimpleName VariableDeclarationFragment CastExpression SimpleName val
+set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set
+set SimpleName MethodInvocation SimpleName size
+set SimpleName MethodInvocation SimpleName size
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName set
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName set
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+ret SimpleName Assignment BooleanLiteral false
+object SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+found in set SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName found in set
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+object SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+element type SimpleName MethodInvocation SimpleName are equal values
+element type SimpleName MethodInvocation SimpleName elem
+element type SimpleName MethodInvocation SimpleName elem
+are equal values SimpleName MethodInvocation SimpleName elem
+are equal values SimpleName MethodInvocation SimpleName elem
+elem SimpleName MethodInvocation SimpleName elem
+found in set SimpleName Assignment BooleanLiteral true
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName set
+elem SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName set
+ret SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName set
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName set
+elem SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName set
+set SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+set SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName set
+get list from value SimpleName MethodInvocation SimpleName val
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list from value
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+ret SimpleName Assignment BooleanLiteral false
+get list from value SimpleName MethodInvocation SimpleName val
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get list from value
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+ret SimpleName Assignment BooleanLiteral false
+list SimpleName MethodInvocation SimpleName size
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+list SimpleName MethodInvocation SimpleName size
+len SimpleName InfixExpression MethodInvocation SimpleName list
+len SimpleName InfixExpression MethodInvocation SimpleName size
+ret SimpleName Assignment BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+element type SimpleName MethodInvocation SimpleName are equal values
+element type SimpleName MethodInvocation MethodInvocation SimpleName list
+element type SimpleName MethodInvocation MethodInvocation SimpleName get
+element type SimpleName MethodInvocation MethodInvocation SimpleName i
+element type SimpleName MethodInvocation MethodInvocation SimpleName list
+element type SimpleName MethodInvocation MethodInvocation SimpleName get
+element type SimpleName MethodInvocation MethodInvocation SimpleName i
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName list
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName get
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName i
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName list
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName get
+are equal values SimpleName MethodInvocation MethodInvocation SimpleName i
+list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+ret SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName are equal values
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName are equal values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName are equal values
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+are equal values SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName are equal values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName are equal values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

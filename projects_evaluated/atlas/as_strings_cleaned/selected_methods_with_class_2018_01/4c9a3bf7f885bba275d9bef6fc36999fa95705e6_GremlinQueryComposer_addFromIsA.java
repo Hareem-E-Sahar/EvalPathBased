@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+add from SimpleName MethodInvocation SimpleName type name
+add SimpleName MethodInvocation QualifiedName gremlin clausetrait
+add SimpleName MethodInvocation SimpleName trait name
+gremlin clausetrait QualifiedName MethodInvocation SimpleName trait name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add from is a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SimpleName add from is a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+add from is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add from is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add from is a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add from is a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name

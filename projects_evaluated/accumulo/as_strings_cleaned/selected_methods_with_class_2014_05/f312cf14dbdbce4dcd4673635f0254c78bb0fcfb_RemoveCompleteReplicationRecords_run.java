@@ -1,0 +1,110 @@
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+replication table SimpleName MethodInvocation SimpleName get batch scanner
+replication table SimpleName MethodInvocation SimpleName conn
+replication table SimpleName MethodInvocation NumberLiteral empty
+get batch scanner SimpleName MethodInvocation SimpleName conn
+get batch scanner SimpleName MethodInvocation NumberLiteral empty
+conn SimpleName MethodInvocation NumberLiteral empty
+bs SimpleName Assignment MethodInvocation SimpleName replication table
+bs SimpleName Assignment MethodInvocation SimpleName get batch scanner
+bs SimpleName Assignment MethodInvocation SimpleName conn
+bs SimpleName Assignment MethodInvocation NumberLiteral empty
+replication table SimpleName MethodInvocation SimpleName get batch writer
+replication table SimpleName MethodInvocation SimpleName conn
+get batch writer SimpleName MethodInvocation SimpleName conn
+bw SimpleName Assignment MethodInvocation SimpleName replication table
+bw SimpleName Assignment MethodInvocation SimpleName get batch writer
+bw SimpleName Assignment MethodInvocation SimpleName conn
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral not attempting to remove complete replication records as the table ({}) doesnt yet exist
+log SimpleName MethodInvocation QualifiedName replication tablename
+debug SimpleName MethodInvocation StringLiteral not attempting to remove complete replication records as the table ({}) doesnt yet exist
+debug SimpleName MethodInvocation QualifiedName replication tablename
+not attempting to remove complete replication records as the table ({}) doesnt yet exist StringLiteral MethodInvocation QualifiedName replication tablename
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+bs SimpleName MethodInvocation SimpleName set ranges
+bs SimpleName MethodInvocation MethodInvocation SimpleName collections
+bs SimpleName MethodInvocation MethodInvocation SimpleName singleton
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName whole row iterator
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName bs
+limit SimpleName MethodInvocation SimpleName bs
+work section SimpleName MethodInvocation SimpleName limit
+work section SimpleName MethodInvocation SimpleName bs
+limit SimpleName MethodInvocation SimpleName bs
+bs SimpleName MethodInvocation SimpleName add scan iterator
+bs SimpleName MethodInvocation SimpleName cfg
+add scan iterator SimpleName MethodInvocation SimpleName cfg
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+sw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stopwatch
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName stopwatch
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName stopwatch
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName sw
+deprecation StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName sw
+stopwatch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sw
+records removed SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName records removed
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+sw SimpleName MethodInvocation SimpleName start
+remove complete records SimpleName MethodInvocation SimpleName conn
+remove complete records SimpleName MethodInvocation SimpleName bs
+remove complete records SimpleName MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bs
+conn SimpleName MethodInvocation SimpleName bw
+bs SimpleName MethodInvocation SimpleName bw
+records removed SimpleName Assignment MethodInvocation SimpleName remove complete records
+records removed SimpleName Assignment MethodInvocation SimpleName conn
+records removed SimpleName Assignment MethodInvocation SimpleName bs
+records removed SimpleName Assignment MethodInvocation SimpleName bw
+bs SimpleName MethodInvocation SimpleName close
+bw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error writing mutations to {} will retry
+log SimpleName MethodInvocation QualifiedName replication tablename
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error writing mutations to {} will retry
+error SimpleName MethodInvocation QualifiedName replication tablename
+error SimpleName MethodInvocation SimpleName e
+error writing mutations to {} will retry StringLiteral MethodInvocation QualifiedName replication tablename
+error writing mutations to {} will retry StringLiteral MethodInvocation SimpleName e
+replication tablename QualifiedName MethodInvocation SimpleName e
+sw SimpleName MethodInvocation SimpleName stop
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removed {} complete replication entries from the table {}
+log SimpleName MethodInvocation SimpleName records removed
+log SimpleName MethodInvocation QualifiedName replication tablename
+info SimpleName MethodInvocation StringLiteral removed {} complete replication entries from the table {}
+info SimpleName MethodInvocation SimpleName records removed
+info SimpleName MethodInvocation QualifiedName replication tablename
+removed {} complete replication entries from the table {} StringLiteral MethodInvocation SimpleName records removed
+removed {} complete replication entries from the table {} StringLiteral MethodInvocation QualifiedName replication tablename
+records removed SimpleName MethodInvocation QualifiedName replication tablename
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

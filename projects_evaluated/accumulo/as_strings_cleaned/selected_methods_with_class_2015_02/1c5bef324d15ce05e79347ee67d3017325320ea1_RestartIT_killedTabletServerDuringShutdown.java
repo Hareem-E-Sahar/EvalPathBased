@@ -1,0 +1,79 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+opts SimpleName MethodInvocation SimpleName set table name
+opts SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+cluster SimpleName MethodInvocation SimpleName get client config
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client config
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client config
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client config SimpleName MethodInvocation SimpleName get boolean
+client config SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client config SimpleName MethodInvocation MethodInvocation SimpleName get key
+client config SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName update kerberos credentials
+opts SimpleName MethodInvocation SimpleName client config
+update kerberos credentials SimpleName MethodInvocation SimpleName client config
+opts SimpleName MethodInvocation SimpleName set principal
+opts SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+set principal SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation SimpleName bwopts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation SimpleName bwopts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation SimpleName bwopts
+opts SimpleName MethodInvocation SimpleName bwopts
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster control
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stop all servers
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName stop all servers
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName server typetablet server
+get cluster control SimpleName MethodInvocation MethodInvocation QualifiedName server typetablet server
+stop all servers SimpleName MethodInvocation QualifiedName server typetablet server
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster control
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName admin stop all
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName admin stop all
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName start
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName killed tablet server during shutdown
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName killed tablet server during shutdown
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName killed tablet server during shutdown
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+killed tablet server during shutdown SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName killed tablet server during shutdown
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName killed tablet server during shutdown
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

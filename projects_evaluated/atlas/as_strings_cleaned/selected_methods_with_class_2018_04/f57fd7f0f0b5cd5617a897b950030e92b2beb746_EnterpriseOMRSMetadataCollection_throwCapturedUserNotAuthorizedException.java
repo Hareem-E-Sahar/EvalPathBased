@@ -1,0 +1,25 @@
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName exception
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName throw captured user not authorized exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user not authorized exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName exception
+private Modifier MethodDeclaration SimpleType SimpleName user not authorized exception
+void PrimitiveType MethodDeclaration SimpleName throw captured user not authorized exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user not authorized exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName user not authorized exception
+throw captured user not authorized exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user not authorized exception
+throw captured user not authorized exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exception
+throw captured user not authorized exception SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName throw captured user not authorized exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName throw captured user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

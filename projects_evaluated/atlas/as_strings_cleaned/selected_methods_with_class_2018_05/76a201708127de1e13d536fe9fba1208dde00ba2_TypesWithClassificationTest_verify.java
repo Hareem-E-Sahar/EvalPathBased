@@ -1,0 +1,169 @@
+expected total count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected total count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entity type SimpleName VariableDeclarationFragment StringLiteral complex trait type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral complex trait type
+legacy type trait SimpleName VariableDeclarationFragment StringLiteral legacy traitprayivofx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName legacy type trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral legacy traitprayivofx
+legacy type vendor pii SimpleName VariableDeclarationFragment StringLiteral legacy vendor pii
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName legacy type vendor pii
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral legacy vendor pii
+legacy type finance SimpleName VariableDeclarationFragment StringLiteral legacy finance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName legacy type finance
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral legacy finance
+run file importer SimpleName MethodInvocation StringLiteral classification defs
+assert type count name guid SimpleName MethodInvocation SimpleName entity type
+assert type count name guid SimpleName MethodInvocation NumberLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation NumberLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation SimpleName legacy type trait
+assert type count name guid SimpleName MethodInvocation NumberLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+legacy type trait SimpleName MethodInvocation NumberLiteral empty
+legacy type trait SimpleName MethodInvocation StringLiteral empty
+legacy type trait SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation SimpleName legacy type vendor pii
+assert type count name guid SimpleName MethodInvocation NumberLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+legacy type vendor pii SimpleName MethodInvocation NumberLiteral empty
+legacy type vendor pii SimpleName MethodInvocation StringLiteral empty
+legacy type vendor pii SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation SimpleName legacy type finance
+assert type count name guid SimpleName MethodInvocation NumberLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+assert type count name guid SimpleName MethodInvocation StringLiteral empty
+legacy type finance SimpleName MethodInvocation NumberLiteral empty
+legacy type finance SimpleName MethodInvocation StringLiteral empty
+legacy type finance SimpleName MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty NumberLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation SimpleName entity type
+get vertex SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get edges
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get edges
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get edges
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edges
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges with label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation NumberLiteral empty
+assert edges with label SimpleName MethodInvocation StringLiteral complex trait typevendors
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typevendors
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typevendors
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral complex trait typevendors
+empty NumberLiteral MethodInvocation StringLiteral complex trait typevendors
+get vertex SimpleName MethodInvocation SimpleName entity type
+get vertex SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get edges
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get edges
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get edges
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edges
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges with label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation NumberLiteral empty
+assert edges with label SimpleName MethodInvocation StringLiteral complex trait typefinance
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typefinance
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typefinance
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral complex trait typefinance
+empty NumberLiteral MethodInvocation StringLiteral complex trait typefinance
+get vertex SimpleName MethodInvocation SimpleName entity type
+get vertex SimpleName MethodInvocation StringLiteral empty
+entity type SimpleName MethodInvocation StringLiteral empty
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get edges
+entity type SimpleName MethodInvocation MethodInvocation SimpleName get edges
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get edges
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+empty StringLiteral MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+get edges SimpleName MethodInvocation QualifiedName atlas edge directionout
+get vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edges
+assert edges with label SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+assert edges with label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert edges with label SimpleName MethodInvocation NumberLiteral empty
+assert edges with label SimpleName MethodInvocation StringLiteral complex trait typecomplex trait
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get edges SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typecomplex trait
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral complex trait typecomplex trait
+iterator SimpleName MethodInvocation MethodInvocation StringLiteral complex trait typecomplex trait
+empty NumberLiteral MethodInvocation StringLiteral complex trait typecomplex trait
+assert migration status SimpleName MethodInvocation SimpleName expected total count
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName verify
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName verify
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+verify SimpleName MethodDeclaration SimpleType SimpleName io exception
+verify SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+verify SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

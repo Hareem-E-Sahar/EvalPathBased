@@ -1,0 +1,500 @@
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+fence SimpleName VariableDeclarationFragment MethodInvocation SimpleName nr
+fence SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+fence SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+fence SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+fence SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fence
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral true
+c StringLiteral MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation BooleanLiteral true
+c StringLiteral MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+fence SimpleName Assignment MethodInvocation SimpleName nr
+fence SimpleName Assignment MethodInvocation StringLiteral a
+fence SimpleName Assignment MethodInvocation BooleanLiteral true
+fence SimpleName Assignment MethodInvocation StringLiteral c
+fence SimpleName Assignment MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral true
+c StringLiteral MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation SimpleName fence
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+run clip test SimpleName MethodInvocation MethodInvocation SimpleName nr
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral a
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+run clip test SimpleName MethodInvocation MethodInvocation StringLiteral c
+run clip test SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fence SimpleName MethodInvocation MethodInvocation SimpleName nr
+fence SimpleName MethodInvocation MethodInvocation StringLiteral a
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+fence SimpleName MethodInvocation MethodInvocation StringLiteral c
+fence SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+nr SimpleName MethodInvocation StringLiteral a
+nr SimpleName MethodInvocation BooleanLiteral true
+nr SimpleName MethodInvocation StringLiteral c
+nr SimpleName MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation BooleanLiteral true

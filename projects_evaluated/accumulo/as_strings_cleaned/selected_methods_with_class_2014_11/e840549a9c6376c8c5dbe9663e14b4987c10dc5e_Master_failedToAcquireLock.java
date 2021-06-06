@@ -1,0 +1,65 @@
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+failed to get master lock StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to get master lock
+log SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to get master lock
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+zoolock in unexpected state fal StringLiteral InfixExpression SimpleName acquired lock
+zoolock in unexpected state fal StringLiteral InfixExpression StringLiteral empty
+zoolock in unexpected state fal StringLiteral InfixExpression SimpleName failed to acquire lock
+acquired lock SimpleName InfixExpression StringLiteral empty
+acquired lock SimpleName InfixExpression SimpleName failed to acquire lock
+empty StringLiteral InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation InfixExpression StringLiteral zoolock in unexpected state fal
+halt SimpleName MethodInvocation InfixExpression SimpleName acquired lock
+halt SimpleName MethodInvocation InfixExpression StringLiteral empty
+halt SimpleName MethodInvocation InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation InfixExpression StringLiteral zoolock in unexpected state fal
+halt SimpleName MethodInvocation InfixExpression SimpleName acquired lock
+halt SimpleName MethodInvocation InfixExpression StringLiteral empty
+halt SimpleName MethodInvocation InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+zoolock in unexpected state fal StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+acquired lock SimpleName InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+failed to acquire lock SimpleName InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+failed to acquire lock SimpleName Assignment BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName failed to acquire lock
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName failed to acquire lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName acquired lock
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName failed to acquire lock
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName acquired lock
+void PrimitiveType MethodDeclaration SimpleName failed to acquire lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName acquired lock
+failed to acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+failed to acquire lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+failed to acquire lock SimpleName MethodDeclaration Block IfStatement SimpleName acquired lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName failed to acquire lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName failed to acquire lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,69 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+method name SimpleName VariableDeclarationFragment StringLiteral get all types
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get all types
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get all types
+url template SimpleName VariableDeclarationFragment StringLiteral { typesall
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral { typesall
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral { typesall
+rest url root SimpleName InfixExpression SimpleName url template
+call type def gallery get rest call SimpleName MethodInvocation SimpleName method name
+call type def gallery get rest call SimpleName MethodInvocation InfixExpression SimpleName rest url root
+call type def gallery get rest call SimpleName MethodInvocation InfixExpression SimpleName url template
+call type def gallery get rest call SimpleName MethodInvocation SimpleName user id
+method name SimpleName MethodInvocation InfixExpression SimpleName rest url root
+method name SimpleName MethodInvocation InfixExpression SimpleName url template
+method name SimpleName MethodInvocation SimpleName user id
+rest url root SimpleName InfixExpression MethodInvocation SimpleName user id
+url template SimpleName InfixExpression MethodInvocation SimpleName user id
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call type def gallery get rest call
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName rest url root
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName url template
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+type def gallery response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rest result
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName method name
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw repository error exception SimpleName MethodInvocation SimpleName method name
+detect and throw repository error exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+get type def gallery from rest result SimpleName MethodInvocation SimpleName rest result
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier MethodDeclaration SimpleName get all types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier MethodDeclaration SimpleType SimpleName user not authorized exception
+type def gallery SimpleName SimpleType MethodDeclaration SimpleName get all types
+type def gallery SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def gallery SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+type def gallery SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+get all types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get all types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get all types SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+get all types SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+get all types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get all types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

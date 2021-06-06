@@ -1,0 +1,20 @@
+json object SimpleName SimpleType SingleVariableDeclaration SimpleName json plan
+json plan SimpleName FieldAccess Assignment SimpleName json plan
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set json plan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json plan
+void PrimitiveType MethodDeclaration SimpleName set json plan
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName json plan
+set json plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+set json plan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json plan
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set json plan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json plan
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set json plan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json plan

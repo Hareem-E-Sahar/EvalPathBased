@@ -1,0 +1,87 @@
+client context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+client exec SimpleName SimpleType ParameterizedType SimpleType QualifiedName client serviceclient
+client exec SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName exec
+client serviceclient QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName exec
+client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName client
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName client
+server client SimpleName MethodInvocation SimpleName get connection
+server client SimpleName MethodInvocation SimpleName context
+get connection SimpleName MethodInvocation SimpleName context
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName server client
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+pair SimpleName MethodInvocation SimpleName get first
+server SimpleName Assignment MethodInvocation SimpleName pair
+server SimpleName Assignment MethodInvocation SimpleName get first
+pair SimpleName MethodInvocation SimpleName get second
+client SimpleName Assignment MethodInvocation SimpleName pair
+client SimpleName Assignment MethodInvocation SimpleName get second
+exec SimpleName MethodInvocation SimpleName execute
+exec SimpleName MethodInvocation SimpleName client
+execute SimpleName MethodInvocation SimpleName client
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName tte
+client service request failed StringLiteral InfixExpression SimpleName server
+client service request failed StringLiteral InfixExpression StringLiteral retrying ...
+server SimpleName InfixExpression StringLiteral retrying ...
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral client service request failed
+log SimpleName MethodInvocation InfixExpression SimpleName server
+log SimpleName MethodInvocation InfixExpression StringLiteral retrying ...
+log SimpleName MethodInvocation SimpleName tte
+debug SimpleName MethodInvocation InfixExpression StringLiteral client service request failed
+debug SimpleName MethodInvocation InfixExpression SimpleName server
+debug SimpleName MethodInvocation InfixExpression StringLiteral retrying ...
+debug SimpleName MethodInvocation SimpleName tte
+client service request failed StringLiteral InfixExpression MethodInvocation SimpleName tte
+server SimpleName InfixExpression MethodInvocation SimpleName tte
+retrying ... StringLiteral InfixExpression MethodInvocation SimpleName tte
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+server client SimpleName MethodInvocation SimpleName close
+server client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute raw
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exec
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName execute raw
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName exec
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName execute raw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exec
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+execute raw SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client context
+execute raw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+execute raw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exec
+execute raw SimpleName MethodDeclaration SimpleType SimpleName exception
+execute raw SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exec
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+exec SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute raw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exec
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute raw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exec
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

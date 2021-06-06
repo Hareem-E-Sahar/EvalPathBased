@@ -1,0 +1,26 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+delete handler SimpleName MethodInvocation SimpleName remove tag propagation
+delete handler SimpleName MethodInvocation SimpleName classification vertex
+remove tag propagation SimpleName MethodInvocation SimpleName classification vertex
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName remove tag propagation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove tag propagation
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove tag propagation
+remove tag propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+remove tag propagation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+remove tag propagation SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+classification vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove tag propagation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove tag propagation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

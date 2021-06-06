@@ -1,0 +1,64 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collections SimpleName MethodInvocation SimpleName empty set
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty set
+entity SimpleName MethodInvocation SimpleName get type name
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation MethodInvocation SimpleName entity
+collections SimpleName MethodInvocation MethodInvocation SimpleName get type name
+singleton SimpleName MethodInvocation MethodInvocation SimpleName entity
+singleton SimpleName MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName singleton
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get type and all super types
+entity SimpleName MethodInvocation SimpleName get type name
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation MethodInvocation SimpleName entity
+collections SimpleName MethodInvocation MethodInvocation SimpleName get type name
+singleton SimpleName MethodInvocation MethodInvocation SimpleName entity
+singleton SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity type
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type and all super types
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName collections
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName singleton
+entity type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+entity type SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName collections
+get type and all super types SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName singleton
+ret SimpleName Assignment ConditionalExpression InfixExpression SimpleName entity type
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName entity type
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type and all super types
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName collections
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName singleton
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity type and all super types
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type and all super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get entity type and all super types
+get entity type and all super types SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get entity type and all super types SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity type and all super types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity type and all super types

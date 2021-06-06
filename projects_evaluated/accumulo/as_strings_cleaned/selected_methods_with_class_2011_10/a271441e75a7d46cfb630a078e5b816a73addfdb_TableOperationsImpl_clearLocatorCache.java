@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName table name
+not null SimpleName MethodInvocation SimpleName table name
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table name
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation SimpleName table name
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tables
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+tablet locator SimpleName MethodInvocation SimpleName get instance
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation SimpleName credentials
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tables
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get table id
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table name
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet locator
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tab locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+tablet locator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab locator
+tab locator SimpleName MethodInvocation SimpleName invalidate cache
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear locator cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+void PrimitiveType MethodDeclaration SimpleName clear locator cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+clear locator cache SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear locator cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear locator cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

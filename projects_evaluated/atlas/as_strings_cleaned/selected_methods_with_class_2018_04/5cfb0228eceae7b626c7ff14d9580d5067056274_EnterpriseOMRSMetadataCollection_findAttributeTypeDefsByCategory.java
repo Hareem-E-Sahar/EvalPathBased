@@ -1,0 +1,183 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+attribute type def category SimpleName SimpleType SingleVariableDeclaration SimpleName category
+method name SimpleName VariableDeclarationFragment StringLiteral find attribute type defs by category
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral find attribute type defs by category
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral find attribute type defs by category
+category parameter name SimpleName VariableDeclarationFragment StringLiteral category
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName category parameter name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral category
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName category parameter name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral category
+validate repository connector SimpleName MethodInvocation SimpleName method name
+parent connector SimpleName MethodInvocation SimpleName validate repository is active
+parent connector SimpleName MethodInvocation SimpleName method name
+validate repository is active SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate user id
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName user id
+repository validator SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName repository name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName user id
+repository name SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate attribute type def category
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName category parameter name
+repository validator SimpleName MethodInvocation SimpleName category
+repository validator SimpleName MethodInvocation SimpleName method name
+validate attribute type def category SimpleName MethodInvocation SimpleName repository name
+validate attribute type def category SimpleName MethodInvocation SimpleName category parameter name
+validate attribute type def category SimpleName MethodInvocation SimpleName category
+validate attribute type def category SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName category parameter name
+repository name SimpleName MethodInvocation SimpleName category
+repository name SimpleName MethodInvocation SimpleName method name
+category parameter name SimpleName MethodInvocation SimpleName category
+category parameter name SimpleName MethodInvocation SimpleName method name
+category SimpleName MethodInvocation SimpleName method name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName omrs repository connector
+enterprise parent connector SimpleName MethodInvocation SimpleName get cohort connectors
+enterprise parent connector SimpleName MethodInvocation SimpleName method name
+get cohort connectors SimpleName MethodInvocation SimpleName method name
+cohort connectors SimpleName VariableDeclarationFragment MethodInvocation SimpleName enterprise parent connector
+cohort connectors SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cohort connectors
+cohort connectors SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+user not authorized exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user not authorized exception
+repository error exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repository error exception
+throwable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName another exception
+omrs repository connector SimpleName SimpleType SingleVariableDeclaration SimpleName cohort connector
+cohort connector SimpleName MethodInvocation SimpleName get metadata collection
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName cohort connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+validate metadata collection SimpleName MethodInvocation SimpleName metadata collection
+validate metadata collection SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName MethodInvocation SimpleName method name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+metadata collection SimpleName MethodInvocation SimpleName find attribute type defs by category
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation SimpleName category
+find attribute type defs by category SimpleName MethodInvocation SimpleName user id
+find attribute type defs by category SimpleName MethodInvocation SimpleName category
+user id SimpleName MethodInvocation SimpleName category
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName find attribute type defs by category
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName category
+cohort connector SimpleName MethodInvocation SimpleName get server name
+cohort connector SimpleName MethodInvocation SimpleName get metadata collection id
+add unique attribute type defs SimpleName MethodInvocation SimpleName combined results
+add unique attribute type defs SimpleName MethodInvocation SimpleName results
+add unique attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+add unique attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName get server name
+add unique attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+add unique attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+add unique attribute type defs SimpleName MethodInvocation SimpleName method name
+combined results SimpleName MethodInvocation SimpleName results
+combined results SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+combined results SimpleName MethodInvocation MethodInvocation SimpleName get server name
+combined results SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+combined results SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+combined results SimpleName MethodInvocation SimpleName method name
+results SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+results SimpleName MethodInvocation MethodInvocation SimpleName get server name
+results SimpleName MethodInvocation MethodInvocation SimpleName cohort connector
+results SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+results SimpleName MethodInvocation SimpleName method name
+cohort connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort connector
+cohort connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata collection id
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cohort connector
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get metadata collection id
+cohort connector SimpleName MethodInvocation MethodInvocation SimpleName method name
+get server name SimpleName MethodInvocation MethodInvocation SimpleName method name
+cohort connector SimpleName MethodInvocation MethodInvocation SimpleName method name
+get metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName method name
+combined results SimpleName Assignment MethodInvocation SimpleName add unique attribute type defs
+combined results SimpleName Assignment MethodInvocation SimpleName combined results
+combined results SimpleName Assignment MethodInvocation SimpleName results
+combined results SimpleName Assignment MethodInvocation MethodInvocation SimpleName cohort connector
+combined results SimpleName Assignment MethodInvocation MethodInvocation SimpleName get server name
+combined results SimpleName Assignment MethodInvocation MethodInvocation SimpleName cohort connector
+combined results SimpleName Assignment MethodInvocation MethodInvocation SimpleName get metadata collection id
+combined results SimpleName Assignment MethodInvocation SimpleName method name
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+repository error exception SimpleName Assignment SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+user not authorized exception SimpleName Assignment SimpleName error
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+another exception SimpleName Assignment SimpleName error
+omrs repository connector SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cohort connectors
+cohort connector SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cohort connectors
+validated attribute type def list results SimpleName MethodInvocation SimpleName repository name
+validated attribute type def list results SimpleName MethodInvocation SimpleName combined results
+validated attribute type def list results SimpleName MethodInvocation SimpleName user not authorized exception
+validated attribute type def list results SimpleName MethodInvocation SimpleName repository error exception
+validated attribute type def list results SimpleName MethodInvocation SimpleName another exception
+repository name SimpleName MethodInvocation SimpleName combined results
+repository name SimpleName MethodInvocation SimpleName user not authorized exception
+repository name SimpleName MethodInvocation SimpleName repository error exception
+repository name SimpleName MethodInvocation SimpleName another exception
+repository name SimpleName MethodInvocation SimpleName method name
+combined results SimpleName MethodInvocation SimpleName user not authorized exception
+combined results SimpleName MethodInvocation SimpleName repository error exception
+combined results SimpleName MethodInvocation SimpleName another exception
+combined results SimpleName MethodInvocation SimpleName method name
+user not authorized exception SimpleName MethodInvocation SimpleName repository error exception
+user not authorized exception SimpleName MethodInvocation SimpleName another exception
+user not authorized exception SimpleName MethodInvocation SimpleName method name
+repository error exception SimpleName MethodInvocation SimpleName another exception
+repository error exception SimpleName MethodInvocation SimpleName method name
+another exception SimpleName MethodInvocation SimpleName method name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute type def
+public Modifier MethodDeclaration SimpleName find attribute type defs by category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find attribute type defs by category
+attribute type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find attribute type defs by category
+find attribute type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find attribute type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+find attribute type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def category
+find attribute type defs by category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+find attribute type defs by category SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+find attribute type defs by category SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+find attribute type defs by category SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName find attribute type defs by category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find attribute type defs by category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

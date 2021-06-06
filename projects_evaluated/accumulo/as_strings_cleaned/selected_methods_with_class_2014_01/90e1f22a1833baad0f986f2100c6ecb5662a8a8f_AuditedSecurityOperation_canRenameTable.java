@@ -1,0 +1,133 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace id
+can rename table SimpleName SuperMethodInvocation SimpleName c
+can rename table SimpleName SuperMethodInvocation SimpleName table id
+can rename table SimpleName SuperMethodInvocation SimpleName old table name
+can rename table SimpleName SuperMethodInvocation SimpleName new table name
+can rename table SimpleName SuperMethodInvocation SimpleName namespace id
+c SimpleName SuperMethodInvocation SimpleName table id
+c SimpleName SuperMethodInvocation SimpleName old table name
+c SimpleName SuperMethodInvocation SimpleName new table name
+c SimpleName SuperMethodInvocation SimpleName namespace id
+table id SimpleName SuperMethodInvocation SimpleName old table name
+table id SimpleName SuperMethodInvocation SimpleName new table name
+table id SimpleName SuperMethodInvocation SimpleName namespace id
+old table name SimpleName SuperMethodInvocation SimpleName new table name
+old table name SimpleName SuperMethodInvocation SimpleName namespace id
+new table name SimpleName SuperMethodInvocation SimpleName namespace id
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName can rename table
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName c
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName table id
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName old table name
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName new table name
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName namespace id
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName can rename table
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName c
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName table id
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName old table name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName new table name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName namespace id
+audit SimpleName MethodInvocation SimpleName c
+audit SimpleName MethodInvocation SimpleName result
+audit SimpleName MethodInvocation SimpleName can rename table audit template
+audit SimpleName MethodInvocation SimpleName old table name
+audit SimpleName MethodInvocation SimpleName new table name
+c SimpleName MethodInvocation SimpleName result
+c SimpleName MethodInvocation SimpleName can rename table audit template
+c SimpleName MethodInvocation SimpleName old table name
+c SimpleName MethodInvocation SimpleName new table name
+result SimpleName MethodInvocation SimpleName can rename table audit template
+result SimpleName MethodInvocation SimpleName old table name
+result SimpleName MethodInvocation SimpleName new table name
+can rename table audit template SimpleName MethodInvocation SimpleName old table name
+can rename table audit template SimpleName MethodInvocation SimpleName new table name
+old table name SimpleName MethodInvocation SimpleName new table name
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+audit SimpleName MethodInvocation SimpleName c
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation SimpleName can rename table audit template
+audit SimpleName MethodInvocation SimpleName old table name
+audit SimpleName MethodInvocation SimpleName new table name
+c SimpleName MethodInvocation SimpleName ex
+c SimpleName MethodInvocation SimpleName can rename table audit template
+c SimpleName MethodInvocation SimpleName old table name
+c SimpleName MethodInvocation SimpleName new table name
+ex SimpleName MethodInvocation SimpleName can rename table audit template
+ex SimpleName MethodInvocation SimpleName old table name
+ex SimpleName MethodInvocation SimpleName new table name
+can rename table audit template SimpleName MethodInvocation SimpleName old table name
+can rename table audit template SimpleName MethodInvocation SimpleName new table name
+old table name SimpleName MethodInvocation SimpleName new table name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName can rename table
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName c
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can rename table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old table name
+boolean PrimitiveType MethodDeclaration SimpleName can rename table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old table name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new table name
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old table name
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new table name
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can rename table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+old table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+old table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+old table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+new table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can rename table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can rename table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

@@ -1,0 +1,60 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName argslength
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral debug
+i SimpleName ArrayAccess MethodInvocation StringLiteral debug
+equals SimpleName MethodInvocation StringLiteral debug
+args SimpleName ArrayAccess PrefixExpression SimpleName i
+debug log SimpleName Assignment ArrayAccess SimpleName args
+debug log SimpleName Assignment ArrayAccess PrefixExpression SimpleName i
+args SimpleName ArrayAccess SimpleName i
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral visibilities
+i SimpleName ArrayAccess MethodInvocation StringLiteral visibilities
+equals SimpleName MethodInvocation StringLiteral visibilities
+args SimpleName ArrayAccess PrefixExpression SimpleName i
+vis file SimpleName Assignment ArrayAccess SimpleName args
+vis file SimpleName Assignment ArrayAccess PrefixExpression SimpleName i
+args SimpleName ArrayAccess SimpleName i
+al SimpleName MethodInvocation SimpleName add
+al SimpleName MethodInvocation ArrayAccess SimpleName args
+al SimpleName MethodInvocation ArrayAccess SimpleName i
+add SimpleName MethodInvocation ArrayAccess SimpleName args
+add SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName argslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+argslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+al SimpleName MethodInvocation SimpleName size
+al SimpleName MethodInvocation SimpleName to array
+al SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName al
+al SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName al
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName process options
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName process options
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName process options
+process options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName process options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

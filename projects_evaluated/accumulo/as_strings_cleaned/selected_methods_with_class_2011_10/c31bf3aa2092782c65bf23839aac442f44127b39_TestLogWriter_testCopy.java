@@ -1,0 +1,137 @@
+writer SimpleName MethodInvocation SimpleName create
+writer SimpleName MethodInvocation SimpleName credentials
+writer SimpleName MethodInvocation StringLiteral empty
+create SimpleName MethodInvocation SimpleName credentials
+create SimpleName MethodInvocation StringLiteral empty
+credentials SimpleName MethodInvocation StringLiteral empty
+log file SimpleName VariableDeclarationFragment MethodInvocation SimpleName writer
+log file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+log file SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+log file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+log file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log file
+path SimpleName SimpleType ClassInstanceCreation StringLiteral mylog
+mylog SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+mylog SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral mylog
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mylog
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName mylog
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName mylog
+delete SimpleName MethodInvocation BooleanLiteral true
+mylog SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName mylog
+exists SimpleName MethodInvocation SimpleName mylog
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName fs
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName mylog
+writer SimpleName MethodInvocation SimpleName start copy
+writer SimpleName MethodInvocation SimpleName credentials
+writer SimpleName MethodInvocation QualifiedName log filename
+writer SimpleName MethodInvocation StringLiteral mylog
+start copy SimpleName MethodInvocation SimpleName credentials
+start copy SimpleName MethodInvocation QualifiedName log filename
+start copy SimpleName MethodInvocation StringLiteral mylog
+start copy SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation QualifiedName log filename
+credentials SimpleName MethodInvocation StringLiteral mylog
+credentials SimpleName MethodInvocation BooleanLiteral false
+log filename QualifiedName MethodInvocation StringLiteral mylog
+log filename QualifiedName MethodInvocation BooleanLiteral false
+mylog StringLiteral MethodInvocation BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName mylog
+exists SimpleName MethodInvocation SimpleName mylog
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName mylog
+exists SimpleName MethodInvocation SimpleName mylog
+assert true SimpleName MethodInvocation MethodInvocation SimpleName fs
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mylog
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+value StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation SimpleName to thrift
+writer SimpleName MethodInvocation SimpleName log
+writer SimpleName MethodInvocation QualifiedName log fileid
+writer SimpleName MethodInvocation NumberLiteral empty
+writer SimpleName MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation QualifiedName log fileid
+log SimpleName MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation MethodInvocation SimpleName m
+log SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+log fileid QualifiedName MethodInvocation NumberLiteral empty
+log fileid QualifiedName MethodInvocation NumberLiteral empty
+log fileid QualifiedName MethodInvocation MethodInvocation SimpleName m
+log fileid QualifiedName MethodInvocation MethodInvocation SimpleName to thrift
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName m
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName to thrift
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName m
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName to thrift
+fail SimpleName MethodInvocation StringLiteral writing to a log after it has been copied to hdfs should fail
+no such log id exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName mylog
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName mylog
+delete SimpleName MethodInvocation BooleanLiteral true
+mylog SimpleName MethodInvocation BooleanLiteral true
+cleanup SimpleName MethodInvocation SimpleName log file
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test copy
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test copy
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test copy
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test copy SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test copy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test copy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

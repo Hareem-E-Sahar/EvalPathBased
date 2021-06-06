@@ -1,0 +1,341 @@
+atlas graph management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+attribute def SimpleName MethodInvocation SimpleName get name
+type name SimpleName InfixExpression StringLiteral .
+type name SimpleName InfixExpression MethodInvocation SimpleName attribute def
+type name SimpleName InfixExpression MethodInvocation SimpleName get name
+. StringLiteral InfixExpression MethodInvocation SimpleName attribute def
+. StringLiteral InfixExpression MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation InfixExpression SimpleName type name
+graph helper SimpleName MethodInvocation InfixExpression StringLiteral .
+graph helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+graph helper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+encode property key SimpleName MethodInvocation InfixExpression SimpleName type name
+encode property key SimpleName MethodInvocation InfixExpression StringLiteral .
+encode property key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attribute def
+encode property key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+property name SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName type name
+property name SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral .
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName graph helper
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName encode property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+attribute def SimpleName MethodInvocation SimpleName get cardinality
+to atlas cardinality SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+to atlas cardinality SimpleName MethodInvocation MethodInvocation SimpleName get cardinality
+cardinality SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas cardinality
+cardinality SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute def
+cardinality SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cardinality
+atlas cardinality SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cardinality
+attribute def SimpleName MethodInvocation SimpleName get is unique
+is unique SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+is unique SimpleName VariableDeclarationFragment MethodInvocation SimpleName get is unique
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is unique
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attribute def
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get is unique
+attribute def SimpleName MethodInvocation SimpleName get is indexable
+is indexable SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+is indexable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get is indexable
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is indexable
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attribute def
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get is indexable
+attribute def SimpleName MethodInvocation SimpleName get type name
+attrib type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+attrib type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrib type name
+atlas type util SimpleName MethodInvocation SimpleName is built in type
+atlas type util SimpleName MethodInvocation SimpleName attrib type name
+is built in type SimpleName MethodInvocation SimpleName attrib type name
+is built in type SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+is built in type SimpleName VariableDeclarationFragment MethodInvocation SimpleName is built in type
+is built in type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is built in type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is built in type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+is array type SimpleName MethodInvocation SimpleName attrib type name
+is array type SimpleName VariableDeclarationFragment MethodInvocation SimpleName is array type
+is array type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is array type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is array type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+is map type SimpleName MethodInvocation SimpleName attrib type name
+is map type SimpleName VariableDeclarationFragment MethodInvocation SimpleName is map type
+is map type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is map type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is map type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+atlas type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+atlas type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+atlas type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas type
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName attrib type name
+get type SimpleName MethodInvocation SimpleName attrib type name
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute type
+is classification type SimpleName MethodInvocation SimpleName attribute type
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral ignoring nonindexable attribute {}
+log SimpleName MethodInvocation SimpleName attrib type name
+warn SimpleName MethodInvocation StringLiteral ignoring nonindexable attribute {}
+warn SimpleName MethodInvocation SimpleName attrib type name
+ignoring nonindexable attribute {} StringLiteral MethodInvocation SimpleName attrib type name
+create label if needed SimpleName MethodInvocation SimpleName management
+create label if needed SimpleName MethodInvocation SimpleName property name
+create label if needed SimpleName MethodInvocation SimpleName attrib type name
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation SimpleName attrib type name
+property name SimpleName MethodInvocation SimpleName attrib type name
+atlas array type SimpleName SimpleType CastExpression SimpleName attribute type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas array type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleName attribute type
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array type
+array type SimpleName MethodInvocation SimpleName get element type
+is reference SimpleName MethodInvocation MethodInvocation SimpleName array type
+is reference SimpleName MethodInvocation MethodInvocation SimpleName get element type
+is reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName is reference
+is reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName array type
+is reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get element type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is reference
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is reference
+create property key SimpleName MethodInvocation SimpleName management
+create property key SimpleName MethodInvocation SimpleName property name
+create property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName array list
+create property key SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName array list
+management SimpleName MethodInvocation SimpleName single
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName array list
+property name SimpleName MethodInvocation SimpleName single
+array list SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+is array type SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+create label if needed SimpleName MethodInvocation SimpleName management
+create label if needed SimpleName MethodInvocation SimpleName property name
+create label if needed SimpleName MethodInvocation SimpleName attrib type name
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation SimpleName attrib type name
+property name SimpleName MethodInvocation SimpleName attrib type name
+atlas map type SimpleName SimpleType CastExpression SimpleName attribute type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas map type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleName attribute type
+atlas map type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map type
+map type SimpleName MethodInvocation SimpleName get value type
+is reference SimpleName MethodInvocation MethodInvocation SimpleName map type
+is reference SimpleName MethodInvocation MethodInvocation SimpleName get value type
+is reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName is reference
+is reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map type
+is reference SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is reference
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is reference
+create property key SimpleName MethodInvocation SimpleName management
+create property key SimpleName MethodInvocation SimpleName property name
+create property key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName hash map
+create property key SimpleName MethodInvocation SimpleName single
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName hash map
+management SimpleName MethodInvocation SimpleName single
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName hash map
+property name SimpleName MethodInvocation SimpleName single
+hash map SimpleName SimpleType TypeLiteral MethodInvocation SimpleName single
+is map type SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+is entity type SimpleName MethodInvocation SimpleName attribute type
+create edge label SimpleName MethodInvocation SimpleName management
+create edge label SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation SimpleName property name
+is relationship type SimpleName MethodInvocation SimpleName atlas type
+get primitive class SimpleName MethodInvocation SimpleName attrib type name
+create edge index SimpleName MethodInvocation SimpleName management
+create edge index SimpleName MethodInvocation SimpleName property name
+create edge index SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+create edge index SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+create edge index SimpleName MethodInvocation SimpleName cardinality
+create edge index SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+management SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+management SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+property name SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+property name SimpleName MethodInvocation SimpleName cardinality
+property name SimpleName MethodInvocation BooleanLiteral false
+get primitive class SimpleName MethodInvocation MethodInvocation SimpleName cardinality
+attrib type name SimpleName MethodInvocation MethodInvocation SimpleName cardinality
+get primitive class SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+attrib type name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cardinality SimpleName MethodInvocation BooleanLiteral false
+get primitive class SimpleName MethodInvocation SimpleName attrib type name
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName property name
+create vertex index SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+create vertex index SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+create vertex index SimpleName MethodInvocation SimpleName is unique
+create vertex index SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+management SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+management SimpleName MethodInvocation SimpleName is unique
+management SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation MethodInvocation SimpleName get primitive class
+property name SimpleName MethodInvocation MethodInvocation SimpleName attrib type name
+property name SimpleName MethodInvocation SimpleName is unique
+property name SimpleName MethodInvocation SimpleName cardinality
+property name SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation SimpleName is indexable
+get primitive class SimpleName MethodInvocation MethodInvocation SimpleName is unique
+attrib type name SimpleName MethodInvocation MethodInvocation SimpleName is unique
+get primitive class SimpleName MethodInvocation MethodInvocation SimpleName cardinality
+attrib type name SimpleName MethodInvocation MethodInvocation SimpleName cardinality
+get primitive class SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+attrib type name SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get primitive class SimpleName MethodInvocation MethodInvocation SimpleName is indexable
+attrib type name SimpleName MethodInvocation MethodInvocation SimpleName is indexable
+is unique SimpleName MethodInvocation SimpleName cardinality
+is unique SimpleName MethodInvocation BooleanLiteral false
+is unique SimpleName MethodInvocation SimpleName is indexable
+cardinality SimpleName MethodInvocation BooleanLiteral false
+cardinality SimpleName MethodInvocation SimpleName is indexable
+false BooleanLiteral MethodInvocation SimpleName is indexable
+is enum type SimpleName MethodInvocation SimpleName attribute type
+is relationship type SimpleName MethodInvocation SimpleName atlas type
+create edge index SimpleName MethodInvocation SimpleName management
+create edge index SimpleName MethodInvocation SimpleName property name
+create edge index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create edge index SimpleName MethodInvocation SimpleName cardinality
+create edge index SimpleName MethodInvocation BooleanLiteral false
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property name SimpleName MethodInvocation SimpleName cardinality
+property name SimpleName MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName cardinality
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+cardinality SimpleName MethodInvocation BooleanLiteral false
+create vertex index SimpleName MethodInvocation SimpleName management
+create vertex index SimpleName MethodInvocation SimpleName property name
+create vertex index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+create vertex index SimpleName MethodInvocation SimpleName is unique
+create vertex index SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation SimpleName property name
+management SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+management SimpleName MethodInvocation SimpleName is unique
+management SimpleName MethodInvocation SimpleName cardinality
+management SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property name SimpleName MethodInvocation SimpleName is unique
+property name SimpleName MethodInvocation SimpleName cardinality
+property name SimpleName MethodInvocation BooleanLiteral false
+property name SimpleName MethodInvocation SimpleName is indexable
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is unique
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName cardinality
+string SimpleName SimpleType TypeLiteral MethodInvocation BooleanLiteral false
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is indexable
+is unique SimpleName MethodInvocation SimpleName cardinality
+is unique SimpleName MethodInvocation BooleanLiteral false
+is unique SimpleName MethodInvocation SimpleName is indexable
+cardinality SimpleName MethodInvocation BooleanLiteral false
+cardinality SimpleName MethodInvocation SimpleName is indexable
+false BooleanLiteral MethodInvocation SimpleName is indexable
+is struct type SimpleName MethodInvocation SimpleName attribute type
+type registry SimpleName MethodInvocation SimpleName get struct def by name
+type registry SimpleName MethodInvocation SimpleName attrib type name
+get struct def by name SimpleName MethodInvocation SimpleName attrib type name
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get struct def by name
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrib type name
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct def
+update index for type def SimpleName MethodInvocation SimpleName management
+update index for type def SimpleName MethodInvocation SimpleName struct def
+management SimpleName MethodInvocation SimpleName struct def
+is built in type SimpleName IfStatement IfStatement MethodInvocation SimpleName is enum type
+is built in type SimpleName IfStatement IfStatement MethodInvocation SimpleName attribute type
+is entity type SimpleName MethodInvocation IfStatement IfStatement SimpleName is built in type
+attribute type SimpleName MethodInvocation IfStatement IfStatement SimpleName is built in type
+is array type SimpleName IfStatement Block IfStatement SimpleName is map type
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral no type exists for {}
+log SimpleName MethodInvocation SimpleName attrib type name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral no type exists for {}
+error SimpleName MethodInvocation SimpleName attrib type name
+error SimpleName MethodInvocation SimpleName e
+no type exists for {} StringLiteral MethodInvocation SimpleName attrib type name
+no type exists for {} StringLiteral MethodInvocation SimpleName e
+attrib type name SimpleName MethodInvocation SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create index for attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+void PrimitiveType MethodDeclaration SimpleName create index for attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+create index for attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create index for attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+management SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create index for attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create index for attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute def

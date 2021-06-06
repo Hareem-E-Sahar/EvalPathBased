@@ -1,0 +1,54 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+atlas base type def SimpleName SimpleType SingleVariableDeclaration SimpleName type def
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+atlas transient type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ttr
+type registry SimpleName MethodInvocation SimpleName lock type registry for update
+ttr SimpleName Assignment MethodInvocation SimpleName type registry
+ttr SimpleName Assignment MethodInvocation SimpleName lock type registry for update
+ttr SimpleName MethodInvocation SimpleName add type
+ttr SimpleName MethodInvocation SimpleName type def
+add type SimpleName MethodInvocation SimpleName type def
+ret SimpleName Assignment BooleanLiteral true
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+type registry SimpleName MethodInvocation SimpleName release type registry for update
+type registry SimpleName MethodInvocation SimpleName ttr
+type registry SimpleName MethodInvocation SimpleName ret
+release type registry for update SimpleName MethodInvocation SimpleName ttr
+release type registry for update SimpleName MethodInvocation SimpleName ret
+ttr SimpleName MethodInvocation SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName add type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName add type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas base type def
+add type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def
+add type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+add type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def

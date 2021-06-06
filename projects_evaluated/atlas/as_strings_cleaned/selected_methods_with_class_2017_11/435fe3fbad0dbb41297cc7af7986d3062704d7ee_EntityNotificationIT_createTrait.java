@@ -1,0 +1,131 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super trait names
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName super trait names
+as list SimpleName MethodInvocation SimpleName super trait names
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName trait name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName super trait names
+create trait type def SimpleName MethodInvocation SimpleName trait name
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName super trait names
+trait name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName arrays
+trait name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName as list
+trait name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName super trait names
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+trait type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait def
+collections SimpleName MethodInvocation SimpleType SimpleName enum type definition
+collections SimpleName MethodInvocation SimpleName empty list
+enum type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName struct type definition
+collections SimpleName MethodInvocation SimpleName empty list
+struct type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName trait def
+singleton list SimpleName MethodInvocation SimpleName trait def
+collections SimpleName MethodInvocation SimpleType SimpleName class type definition
+collections SimpleName MethodInvocation SimpleName empty list
+class type definition SimpleName SimpleType MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName singleton list
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName trait def
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait def
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait def
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait def
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName singleton list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait def
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+trait def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+trait def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName types def
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName singleton list
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName trait def
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+types def SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName types def
+to v json SimpleName MethodInvocation SimpleName types def
+trait definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+trait definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to v json
+trait definition json SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait definition json
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral trait definition = {}
+log SimpleName MethodInvocation SimpleName trait definition json
+debug SimpleName MethodInvocation StringLiteral trait definition = {}
+debug SimpleName MethodInvocation SimpleName trait definition json
+trait definition = {} StringLiteral MethodInvocation SimpleName trait definition json
+create type SimpleName MethodInvocation SimpleName trait definition json
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName create trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+create trait SimpleName MethodDeclaration SimpleType SimpleName exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+super trait names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName super trait names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

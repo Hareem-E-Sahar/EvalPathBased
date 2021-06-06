@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+add from SimpleName MethodInvocation SimpleName type name
+get id metadata SimpleName MethodInvocation SimpleName trait name
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id metadata
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+identifier helperidentifier metadata QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+add SimpleName MethodInvocation QualifiedName gremlin clausetrait
+add SimpleName MethodInvocation SimpleName ia
+gremlin clausetrait QualifiedName MethodInvocation SimpleName ia
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add is a
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SimpleName add is a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+add is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add is a SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add is a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add is a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name

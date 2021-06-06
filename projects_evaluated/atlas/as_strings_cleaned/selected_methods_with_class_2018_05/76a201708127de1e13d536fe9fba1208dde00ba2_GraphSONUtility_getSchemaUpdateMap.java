@@ -1,0 +1,27 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName schema update
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName schema update
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName schema update
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get schema update map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName schema update
+private Modifier MethodDeclaration Block ReturnStatement SimpleName schema update
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schema update map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schema update map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schema update map
+get schema update map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName schema update
+get schema update map SimpleName MethodDeclaration Block ReturnStatement SimpleName schema update
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema update map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schema update
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema update map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schema update

@@ -1,0 +1,210 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+scan opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner opts
+scanner opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan opts
+bw opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+remove entries for missing files SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName scan opts
+opts SimpleName MethodInvocation SimpleName bw opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName scan opts
+parse args SimpleName MethodInvocation SimpleName bw opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName scan opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+args SimpleName MethodInvocation SimpleName scan opts
+args SimpleName MethodInvocation SimpleName bw opts
+scan opts SimpleName MethodInvocation SimpleName bw opts
+volume manager impl SimpleName MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName volume manager impl
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+opts SimpleName MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation QualifiedName metadata tablename
+connector SimpleName MethodInvocation QualifiedName optsauths
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName optsauths
+metadata tablename QualifiedName MethodInvocation QualifiedName optsauths
+metadata SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+metadata SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+metadata SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+metadata SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsauths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata
+metadata SimpleName MethodInvocation SimpleName set batch size
+metadata SimpleName MethodInvocation QualifiedName scan optsscan batch size
+set batch size SimpleName MethodInvocation QualifiedName scan optsscan batch size
+metadata schematablets section QualifiedName MethodInvocation SimpleName get range
+metadata SimpleName MethodInvocation SimpleName set range
+metadata SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+metadata SimpleName MethodInvocation MethodInvocation SimpleName get range
+set range SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+set range SimpleName MethodInvocation MethodInvocation SimpleName get range
+metadata SimpleName MethodInvocation SimpleName fetch column family
+metadata SimpleName MethodInvocation QualifiedName data file column familyname
+fetch column family SimpleName MethodInvocation QualifiedName data file column familyname
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+missing SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName missing
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+bw opts SimpleName MethodInvocation SimpleName get batch writer config
+connector SimpleName MethodInvocation SimpleName create batch writer
+connector SimpleName MethodInvocation QualifiedName metadata tablename
+connector SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+connector SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+metadata tablename QualifiedName MethodInvocation MethodInvocation SimpleName bw opts
+metadata tablename QualifiedName MethodInvocation MethodInvocation SimpleName get batch writer config
+writer SimpleName Assignment MethodInvocation SimpleName connector
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation QualifiedName metadata tablename
+writer SimpleName Assignment MethodInvocation MethodInvocation SimpleName bw opts
+writer SimpleName Assignment MethodInvocation MethodInvocation SimpleName get batch writer config
+optsfix QualifiedName IfStatement ExpressionStatement Assignment SimpleName writer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+fs SimpleName MethodInvocation SimpleName get full path
+fs SimpleName MethodInvocation SimpleName key
+get full path SimpleName MethodInvocation SimpleName key
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get full path
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName map
+exists SimpleName MethodInvocation SimpleName map
+file StringLiteral InfixExpression SimpleName map
+file StringLiteral InfixExpression StringLiteral is missing
+map SimpleName InfixExpression StringLiteral is missing
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral file
+log SimpleName MethodInvocation InfixExpression SimpleName map
+log SimpleName MethodInvocation InfixExpression StringLiteral is missing
+info SimpleName MethodInvocation InfixExpression StringLiteral file
+info SimpleName MethodInvocation InfixExpression SimpleName map
+info SimpleName MethodInvocation InfixExpression StringLiteral is missing
+key SimpleName MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+entry removed from metadata table StringLiteral InfixExpression SimpleName m
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral entry removed from metadata table
+log SimpleName MethodInvocation InfixExpression SimpleName m
+info SimpleName MethodInvocation InfixExpression StringLiteral entry removed from metadata table
+info SimpleName MethodInvocation InfixExpression SimpleName m
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName metadata
+missing SimpleName InfixExpression NumberLiteral empty
+writer SimpleName InfixExpression InfixExpression InfixExpression SimpleName missing
+writer SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+writer SimpleName MethodInvocation SimpleName close
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral d files of d missing
+string SimpleName MethodInvocation SimpleName missing
+string SimpleName MethodInvocation SimpleName count
+format SimpleName MethodInvocation StringLiteral d files of d missing
+format SimpleName MethodInvocation SimpleName missing
+format SimpleName MethodInvocation SimpleName count
+d files of d missing StringLiteral MethodInvocation SimpleName missing
+d files of d missing StringLiteral MethodInvocation SimpleName count
+missing SimpleName MethodInvocation SimpleName count
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral d files of d missing
+log SimpleName MethodInvocation MethodInvocation SimpleName missing
+log SimpleName MethodInvocation MethodInvocation SimpleName count
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral d files of d missing
+info SimpleName MethodInvocation MethodInvocation SimpleName missing
+info SimpleName MethodInvocation MethodInvocation SimpleName count
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block IfStatement QualifiedName optsfix
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName metadata
+int PrimitiveType VariableDeclarationStatement Block IfStatement QualifiedName optsfix
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName metadata
+optsfix QualifiedName IfStatement Block EnhancedForStatement SimpleName metadata
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block IfStatement QualifiedName optsfix
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName metadata
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement QualifiedName optsfix
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName metadata
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block IfStatement QualifiedName optsfix
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName metadata
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

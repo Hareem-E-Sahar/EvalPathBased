@@ -1,0 +1,149 @@
+nm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName native map
+native map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nm
+nk SimpleName MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nm SimpleName MethodInvocation SimpleName skv iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName skv iterator
+nk SimpleName MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+nk SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get top key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName nk
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+iter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nk
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+nm SimpleName MethodInvocation SimpleName delete
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test concurrent iter
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test concurrent iter
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test concurrent iter
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test concurrent iter SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test concurrent iter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test concurrent iter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,38 @@
+record writer SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+record writer SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName attempt
+attempt SimpleName MethodInvocation SimpleName get configuration
+accumulo record writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attempt
+accumulo record writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get record writer
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attempt
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName record writer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName mutation
+public Modifier MethodDeclaration SimpleName get record writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+record writer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get record writer
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get record writer
+mutation SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get record writer
+get record writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+get record writer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attempt
+get record writer SimpleName MethodDeclaration SimpleType SimpleName io exception
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get record writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get record writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

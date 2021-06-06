@@ -1,0 +1,41 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+source SimpleName MethodInvocation SimpleName has top
+index SimpleName SimpleType ClassInstanceCreation SimpleName source
+heap SimpleName MethodInvocation SimpleName add
+heap SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName index
+heap SimpleName MethodInvocation ClassInstanceCreation SimpleName source
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName index
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName source
+heap SimpleName MethodInvocation SimpleName size
+heap SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+heap SimpleName MethodInvocation SimpleName get
+index SimpleName SimpleType CastExpression MethodInvocation SimpleName heap
+index SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+current iter SimpleName Assignment FieldAccess SimpleName iter
+final Modifier MethodDeclaration Modifier protected
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName add source
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add source
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+void PrimitiveType MethodDeclaration SimpleName add source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source
+add source SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source

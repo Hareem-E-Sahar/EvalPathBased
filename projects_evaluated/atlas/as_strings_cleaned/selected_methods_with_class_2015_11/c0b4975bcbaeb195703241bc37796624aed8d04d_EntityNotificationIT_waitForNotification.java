@@ -1,0 +1,42 @@
+int PrimitiveType SingleVariableDeclaration SimpleName max wait
+notification consumer SimpleName MethodInvocation SimpleName get last entity notification
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration SimpleName evaluate
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+evaluate SimpleName MethodDeclaration SimpleType SimpleName exception
+wait for SimpleName MethodInvocation SimpleName max wait
+wait for SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+max wait SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName wait for notification
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName wait for notification
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+wait for notification SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+wait for notification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait
+wait for notification SimpleName MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+max wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for notification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for notification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

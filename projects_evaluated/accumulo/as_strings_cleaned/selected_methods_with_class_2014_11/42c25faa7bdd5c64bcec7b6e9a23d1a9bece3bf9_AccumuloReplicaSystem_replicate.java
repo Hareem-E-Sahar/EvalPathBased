@@ -1,0 +1,441 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName path
+final Modifier SingleVariableDeclaration SimpleName p
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+final Modifier SingleVariableDeclaration SimpleType SimpleName status
+final Modifier SingleVariableDeclaration SimpleName status
+status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+final Modifier SingleVariableDeclaration SimpleType SimpleName replication target
+final Modifier SingleVariableDeclaration SimpleName target
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+final Modifier SingleVariableDeclaration SimpleType SimpleName replica system helper
+final Modifier SingleVariableDeclaration SimpleName helper
+replica system helper SimpleName SimpleType SingleVariableDeclaration SimpleName helper
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+local instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs zoo instance
+local instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName local instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hdfs zoo instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation SimpleName local instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+local instance SimpleName ClassInstanceCreation MethodInvocation SimpleName get configuration
+local conf SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName local instance
+local conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+final Modifier VariableDeclarationStatement SimpleType SimpleName accumulo configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName local conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get configuration
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local conf
+get context for peer SimpleName MethodInvocation SimpleName local conf
+get context for peer SimpleName MethodInvocation SimpleName target
+local conf SimpleName MethodInvocation SimpleName target
+peer context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get context for peer
+peer context SimpleName VariableDeclarationFragment MethodInvocation SimpleName local conf
+peer context SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+final Modifier VariableDeclarationStatement SimpleType SimpleName client context
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName peer context
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get context for peer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName local conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName target
+client context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer context
+trace SimpleName MethodInvocation SimpleName on
+trace SimpleName MethodInvocation StringLiteral accumulo replica system
+on SimpleName MethodInvocation StringLiteral accumulo replica system
+target SimpleName MethodInvocation SimpleName get remote identifier
+remote table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+remote table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote identifier
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName remote table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName target
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get remote identifier
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote table id
+local conf SimpleName MethodInvocation SimpleName get count
+local conf SimpleName MethodInvocation QualifiedName propertyreplication work attempts
+get count SimpleName MethodInvocation QualifiedName propertyreplication work attempts
+num attempts SimpleName VariableDeclarationFragment MethodInvocation SimpleName local conf
+num attempts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get count
+num attempts SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication work attempts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num attempts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName local conf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication work attempts
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num attempts
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer tserver
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral fetch peer tserver
+start SimpleName MethodInvocation StringLiteral fetch peer tserver
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fetch peer tserver
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+client exec return SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client exec return SimpleName SimpleType ParameterizedType SimpleType QualifiedName replication coordinatorclient
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName replication coordinatorclient
+replication coordinatorclient QualifiedName SimpleType SingleVariableDeclaration SimpleName client
+peer context SimpleName MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName get servicer address
+client SimpleName MethodInvocation SimpleName remote table id
+client SimpleName MethodInvocation MethodInvocation SimpleName peer context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+get servicer address SimpleName MethodInvocation SimpleName remote table id
+get servicer address SimpleName MethodInvocation MethodInvocation SimpleName peer context
+get servicer address SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName peer context
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName replication coordinatorclient
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName execute
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName replication coordinatorclient
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+replication client SimpleName MethodInvocation SimpleName execute coordinator with return
+replication client SimpleName MethodInvocation SimpleName peer context
+execute coordinator with return SimpleName MethodInvocation SimpleName peer context
+peer tserver SimpleName Assignment MethodInvocation SimpleName replication client
+peer tserver SimpleName Assignment MethodInvocation SimpleName execute coordinator with return
+peer tserver SimpleName Assignment MethodInvocation SimpleName peer context
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not connect to master at {} cannot proceed with replication will retry
+log SimpleName MethodInvocation SimpleName target
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral could not connect to master at {} cannot proceed with replication will retry
+error SimpleName MethodInvocation SimpleName target
+error SimpleName MethodInvocation SimpleName e
+could not connect to master at {} cannot proceed with replication will retry StringLiteral MethodInvocation SimpleName target
+could not connect to master at {} cannot proceed with replication will retry StringLiteral MethodInvocation SimpleName e
+target SimpleName MethodInvocation SimpleName e
+span SimpleName MethodInvocation SimpleName stop
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral did not receive tserver from master at {} cannot proceed with replication will retry
+log SimpleName MethodInvocation SimpleName target
+warn SimpleName MethodInvocation StringLiteral did not receive tserver from master at {} cannot proceed with replication will retry
+warn SimpleName MethodInvocation SimpleName target
+did not receive tserver from master at {} cannot proceed with replication will retry StringLiteral MethodInvocation SimpleName target
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final status
+conf SimpleName MethodInvocation SimpleName get memory in bytes
+conf SimpleName MethodInvocation QualifiedName propertyreplication max unit size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertyreplication max unit size
+size limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+size limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+size limit SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication max unit size
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName size limit
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication max unit size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size limit
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication max unit size
+p SimpleName MethodInvocation SimpleName get name
+p SimpleName MethodInvocation MethodInvocation SimpleName ends with
+get name SimpleName MethodInvocation MethodInvocation SimpleName ends with
+p SimpleName MethodInvocation MethodInvocation SimpleName rfile suffix
+get name SimpleName MethodInvocation MethodInvocation SimpleName rfile suffix
+ends with SimpleName MethodInvocation SimpleName rfile suffix
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral r file replication
+start SimpleName MethodInvocation StringLiteral r file replication
+span SimpleName Assignment MethodInvocation SimpleName trace
+span SimpleName Assignment MethodInvocation SimpleName start
+span SimpleName Assignment MethodInvocation StringLiteral r file replication
+peer context SimpleName MethodInvocation SimpleName rpc creds
+replicate r files SimpleName MethodInvocation SimpleName peer context
+replicate r files SimpleName MethodInvocation SimpleName peer tserver
+replicate r files SimpleName MethodInvocation SimpleName target
+replicate r files SimpleName MethodInvocation SimpleName p
+replicate r files SimpleName MethodInvocation SimpleName status
+peer context SimpleName MethodInvocation SimpleName peer tserver
+peer context SimpleName MethodInvocation SimpleName target
+peer context SimpleName MethodInvocation SimpleName p
+peer context SimpleName MethodInvocation SimpleName status
+peer context SimpleName MethodInvocation SimpleName size limit
+peer tserver SimpleName MethodInvocation SimpleName target
+peer tserver SimpleName MethodInvocation SimpleName p
+peer tserver SimpleName MethodInvocation SimpleName status
+peer tserver SimpleName MethodInvocation SimpleName size limit
+peer tserver SimpleName MethodInvocation SimpleName remote table id
+target SimpleName MethodInvocation SimpleName p
+target SimpleName MethodInvocation SimpleName status
+target SimpleName MethodInvocation SimpleName size limit
+target SimpleName MethodInvocation SimpleName remote table id
+target SimpleName MethodInvocation MethodInvocation SimpleName peer context
+target SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+p SimpleName MethodInvocation SimpleName status
+p SimpleName MethodInvocation SimpleName size limit
+p SimpleName MethodInvocation SimpleName remote table id
+p SimpleName MethodInvocation MethodInvocation SimpleName peer context
+p SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+p SimpleName MethodInvocation SimpleName helper
+status SimpleName MethodInvocation SimpleName size limit
+status SimpleName MethodInvocation SimpleName remote table id
+status SimpleName MethodInvocation MethodInvocation SimpleName peer context
+status SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+status SimpleName MethodInvocation SimpleName helper
+size limit SimpleName MethodInvocation SimpleName remote table id
+size limit SimpleName MethodInvocation MethodInvocation SimpleName peer context
+size limit SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+size limit SimpleName MethodInvocation SimpleName helper
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName peer context
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+remote table id SimpleName MethodInvocation SimpleName helper
+peer context SimpleName MethodInvocation MethodInvocation SimpleName helper
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName helper
+final status SimpleName Assignment MethodInvocation SimpleName replicate r files
+final status SimpleName Assignment MethodInvocation SimpleName peer context
+final status SimpleName Assignment MethodInvocation SimpleName peer tserver
+final status SimpleName Assignment MethodInvocation SimpleName target
+final status SimpleName Assignment MethodInvocation SimpleName p
+final status SimpleName Assignment MethodInvocation SimpleName status
+final status SimpleName Assignment MethodInvocation SimpleName size limit
+final status SimpleName Assignment MethodInvocation SimpleName remote table id
+final status SimpleName Assignment MethodInvocation MethodInvocation SimpleName peer context
+final status SimpleName Assignment MethodInvocation MethodInvocation SimpleName rpc creds
+final status SimpleName Assignment MethodInvocation SimpleName helper
+span SimpleName MethodInvocation SimpleName stop
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral wal replication
+start SimpleName MethodInvocation StringLiteral wal replication
+span SimpleName Assignment MethodInvocation SimpleName trace
+span SimpleName Assignment MethodInvocation SimpleName start
+span SimpleName Assignment MethodInvocation StringLiteral wal replication
+peer context SimpleName MethodInvocation SimpleName rpc creds
+replicate logs SimpleName MethodInvocation SimpleName peer context
+replicate logs SimpleName MethodInvocation SimpleName peer tserver
+replicate logs SimpleName MethodInvocation SimpleName target
+replicate logs SimpleName MethodInvocation SimpleName p
+replicate logs SimpleName MethodInvocation SimpleName status
+peer context SimpleName MethodInvocation SimpleName peer tserver
+peer context SimpleName MethodInvocation SimpleName target
+peer context SimpleName MethodInvocation SimpleName p
+peer context SimpleName MethodInvocation SimpleName status
+peer context SimpleName MethodInvocation SimpleName size limit
+peer tserver SimpleName MethodInvocation SimpleName target
+peer tserver SimpleName MethodInvocation SimpleName p
+peer tserver SimpleName MethodInvocation SimpleName status
+peer tserver SimpleName MethodInvocation SimpleName size limit
+peer tserver SimpleName MethodInvocation SimpleName remote table id
+target SimpleName MethodInvocation SimpleName p
+target SimpleName MethodInvocation SimpleName status
+target SimpleName MethodInvocation SimpleName size limit
+target SimpleName MethodInvocation SimpleName remote table id
+target SimpleName MethodInvocation MethodInvocation SimpleName peer context
+target SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+p SimpleName MethodInvocation SimpleName status
+p SimpleName MethodInvocation SimpleName size limit
+p SimpleName MethodInvocation SimpleName remote table id
+p SimpleName MethodInvocation MethodInvocation SimpleName peer context
+p SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+p SimpleName MethodInvocation SimpleName helper
+status SimpleName MethodInvocation SimpleName size limit
+status SimpleName MethodInvocation SimpleName remote table id
+status SimpleName MethodInvocation MethodInvocation SimpleName peer context
+status SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+status SimpleName MethodInvocation SimpleName helper
+size limit SimpleName MethodInvocation SimpleName remote table id
+size limit SimpleName MethodInvocation MethodInvocation SimpleName peer context
+size limit SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+size limit SimpleName MethodInvocation SimpleName helper
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName peer context
+remote table id SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+remote table id SimpleName MethodInvocation SimpleName helper
+peer context SimpleName MethodInvocation MethodInvocation SimpleName helper
+rpc creds SimpleName MethodInvocation MethodInvocation SimpleName helper
+final status SimpleName Assignment MethodInvocation SimpleName replicate logs
+final status SimpleName Assignment MethodInvocation SimpleName peer context
+final status SimpleName Assignment MethodInvocation SimpleName peer tserver
+final status SimpleName Assignment MethodInvocation SimpleName target
+final status SimpleName Assignment MethodInvocation SimpleName p
+final status SimpleName Assignment MethodInvocation SimpleName status
+final status SimpleName Assignment MethodInvocation SimpleName size limit
+final status SimpleName Assignment MethodInvocation SimpleName remote table id
+final status SimpleName Assignment MethodInvocation MethodInvocation SimpleName peer context
+final status SimpleName Assignment MethodInvocation MethodInvocation SimpleName rpc creds
+final status SimpleName Assignment MethodInvocation SimpleName helper
+span SimpleName MethodInvocation SimpleName stop
+peer context SimpleName MethodInvocation SimpleName get instance
+protobuf util SimpleName MethodInvocation SimpleName to string
+protobuf util SimpleName MethodInvocation SimpleName final status
+to string SimpleName MethodInvocation SimpleName final status
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral new status for {} after replicating to {} is {}
+log SimpleName MethodInvocation SimpleName p
+log SimpleName MethodInvocation MethodInvocation SimpleName peer context
+log SimpleName MethodInvocation MethodInvocation SimpleName get instance
+log SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+log SimpleName MethodInvocation MethodInvocation SimpleName final status
+debug SimpleName MethodInvocation StringLiteral new status for {} after replicating to {} is {}
+debug SimpleName MethodInvocation SimpleName p
+debug SimpleName MethodInvocation MethodInvocation SimpleName peer context
+debug SimpleName MethodInvocation MethodInvocation SimpleName get instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName final status
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation SimpleName p
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation MethodInvocation SimpleName peer context
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation MethodInvocation SimpleName get instance
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation MethodInvocation SimpleName protobuf util
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+new status for {} after replicating to {} is {} StringLiteral MethodInvocation MethodInvocation SimpleName final status
+p SimpleName MethodInvocation MethodInvocation SimpleName peer context
+p SimpleName MethodInvocation MethodInvocation SimpleName get instance
+p SimpleName MethodInvocation MethodInvocation SimpleName protobuf util
+p SimpleName MethodInvocation MethodInvocation SimpleName to string
+p SimpleName MethodInvocation MethodInvocation SimpleName final status
+peer context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName protobuf util
+peer context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+peer context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName final status
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName protobuf util
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName final status
+t transport exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo exception
+t transport exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType UnionType SimpleType SimpleName accumulo security exception
+t transport exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral could not connect to remote server {} will retry
+log SimpleName MethodInvocation SimpleName peer tserver
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral could not connect to remote server {} will retry
+warn SimpleName MethodInvocation SimpleName peer tserver
+warn SimpleName MethodInvocation SimpleName e
+could not connect to remote server {} will retry StringLiteral MethodInvocation SimpleName peer tserver
+could not connect to remote server {} will retry StringLiteral MethodInvocation SimpleName e
+peer tserver SimpleName MethodInvocation SimpleName e
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num attempts
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num attempts SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no progress was made after {} attempts to replicate {} returning so file can be requeued
+log SimpleName MethodInvocation SimpleName num attempts
+log SimpleName MethodInvocation SimpleName p
+info SimpleName MethodInvocation StringLiteral no progress was made after {} attempts to replicate {} returning so file can be requeued
+info SimpleName MethodInvocation SimpleName num attempts
+info SimpleName MethodInvocation SimpleName p
+no progress was made after {} attempts to replicate {} returning so file can be requeued StringLiteral MethodInvocation SimpleName num attempts
+no progress was made after {} attempts to replicate {} returning so file can be requeued StringLiteral MethodInvocation SimpleName p
+num attempts SimpleName MethodInvocation SimpleName p
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName status
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName status
+trace SimpleName MethodInvocation SimpleName off
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName status
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName replicate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName p
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier MethodDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName replicate
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SimpleType MethodDeclaration SimpleName replicate
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName helper
+replicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+replicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+replicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+replicate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replica system helper
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName helper
+replicate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+replicate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+replicate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName replicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName helper

@@ -1,0 +1,500 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral attr
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+attr StringLiteral MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral struct target
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation StringLiteral struct target
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral attr
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+struct target StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+struct target StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+struct target StringLiteral MethodInvocation MethodInvocation SimpleName of
+struct target StringLiteral MethodInvocation MethodInvocation SimpleName types util
+struct target StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+struct target StringLiteral MethodInvocation MethodInvocation StringLiteral attr
+struct target StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+struct target def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+struct target def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+struct target def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral struct target
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral attr
+struct target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral attr
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+attr StringLiteral MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral trait target
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation StringLiteral trait target
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral attr
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+trait target StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+trait target StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+trait target StringLiteral MethodInvocation MethodInvocation SimpleName of
+trait target StringLiteral MethodInvocation MethodInvocation SimpleName types util
+trait target StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+trait target StringLiteral MethodInvocation MethodInvocation StringLiteral attr
+trait target StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral attr
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+trait target def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+trait target def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+trait target def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral trait target
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral attr
+trait target def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation StringLiteral struct
+types util SimpleName MethodInvocation StringLiteral test struct
+create optional attr def SimpleName MethodInvocation StringLiteral struct
+create optional attr def SimpleName MethodInvocation StringLiteral test struct
+struct StringLiteral MethodInvocation StringLiteral test struct
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral struct container
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation MethodInvocation StringLiteral struct
+types util SimpleName MethodInvocation MethodInvocation StringLiteral test struct
+create class type def SimpleName MethodInvocation StringLiteral struct container
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral struct
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral test struct
+struct container StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+struct container StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+struct container StringLiteral MethodInvocation MethodInvocation SimpleName of
+struct container StringLiteral MethodInvocation MethodInvocation SimpleName types util
+struct container StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+struct container StringLiteral MethodInvocation MethodInvocation StringLiteral struct
+struct container StringLiteral MethodInvocation MethodInvocation StringLiteral test struct
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral struct
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral test struct
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral struct
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral test struct
+struct container def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+struct container def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+struct container def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral struct container
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral struct
+struct container def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral test struct
+data types SimpleName MethodInvocation SimpleName array type name
+data types SimpleName MethodInvocation StringLiteral struct target
+array type name SimpleName MethodInvocation StringLiteral struct target
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral target
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName array type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral struct target
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+target StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+target StringLiteral ClassInstanceCreation MethodInvocation SimpleName array type name
+target StringLiteral ClassInstanceCreation MethodInvocation StringLiteral struct target
+target StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+target StringLiteral ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+array type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+struct target StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+array type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct target StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation SimpleName array type name
+data types SimpleName MethodInvocation StringLiteral nested struct
+array type name SimpleName MethodInvocation StringLiteral nested struct
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral nested structs
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName array type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral nested struct
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+nested structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+nested structs StringLiteral ClassInstanceCreation MethodInvocation SimpleName array type name
+nested structs StringLiteral ClassInstanceCreation MethodInvocation StringLiteral nested struct
+nested structs StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+nested structs StringLiteral ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+array type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+nested struct StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+array type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+nested struct StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation SimpleName create struct type def
+types util SimpleName MethodInvocation StringLiteral test struct
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral struct target
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral nested structs
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral nested struct
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create struct type def SimpleName MethodInvocation StringLiteral test struct
+create struct type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create struct type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral struct target
+create struct type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create struct type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create struct type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create struct type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral nested structs
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+create struct type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral nested struct
+create struct type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create struct type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+test struct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+test struct StringLiteral MethodInvocation ClassInstanceCreation StringLiteral target
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral struct target
+test struct StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+test struct StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+test struct StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+test struct StringLiteral MethodInvocation ClassInstanceCreation StringLiteral nested structs
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+test struct StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral nested struct
+test struct StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+test struct StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+target StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral nested structs
+target StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+target StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral nested structs
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+multiplicityoptional QualifiedName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral nested structs
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+false BooleanLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create struct type def
+struct def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test struct
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral target
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral nested structs
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+struct def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+struct type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct def
+types util SimpleName MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral attr
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+attr StringLiteral MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation SimpleName create struct type def
+types util SimpleName MethodInvocation StringLiteral nested struct
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation MethodInvocation StringLiteral attr
+types util SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create struct type def SimpleName MethodInvocation StringLiteral nested struct
+create struct type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create struct type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create struct type def SimpleName MethodInvocation MethodInvocation StringLiteral attr
+create struct type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+nested struct StringLiteral MethodInvocation MethodInvocation SimpleName types util
+nested struct StringLiteral MethodInvocation MethodInvocation SimpleName create optional attr def
+nested struct StringLiteral MethodInvocation MethodInvocation StringLiteral attr
+nested struct StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create struct type def
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral nested struct
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral attr
+nested struct def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+struct type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested struct def
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+data types SimpleName MethodInvocation SimpleName array type name
+data types SimpleName MethodInvocation StringLiteral trait target
+array type name SimpleName MethodInvocation StringLiteral trait target
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral target
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName array type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral trait target
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+target StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+target StringLiteral ClassInstanceCreation MethodInvocation SimpleName array type name
+target StringLiteral ClassInstanceCreation MethodInvocation StringLiteral trait target
+target StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+target StringLiteral ClassInstanceCreation BooleanLiteral false
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+array type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+trait target StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+array type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+trait target StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation StringLiteral test trait
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral trait target
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create trait type def SimpleName MethodInvocation StringLiteral test trait
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create trait type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral target
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+create trait type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral trait target
+create trait type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+create trait type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+test trait StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+test trait StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+test trait StringLiteral MethodInvocation MethodInvocation SimpleName of
+test trait StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+test trait StringLiteral MethodInvocation ClassInstanceCreation StringLiteral target
+test trait StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+test trait StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName array type name
+test trait StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral trait target
+test trait StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+test trait StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral target
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral target
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+trait def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test trait
+trait def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+trait def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+trait def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral target
+trait def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+trait def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable list SimpleName MethodInvocation SimpleType SimpleName enum type definition
+immutable list SimpleName MethodInvocation SimpleName of
+enum type definition SimpleName SimpleType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName struct def
+immutable list SimpleName MethodInvocation SimpleName nested struct def
+of SimpleName MethodInvocation SimpleName struct def
+of SimpleName MethodInvocation SimpleName nested struct def
+struct def SimpleName MethodInvocation SimpleName nested struct def
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName trait def
+of SimpleName MethodInvocation SimpleName trait def
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName struct target def
+immutable list SimpleName MethodInvocation SimpleName trait target def
+immutable list SimpleName MethodInvocation SimpleName struct container def
+of SimpleName MethodInvocation SimpleName struct target def
+of SimpleName MethodInvocation SimpleName trait target def
+of SimpleName MethodInvocation SimpleName struct container def
+struct target def SimpleName MethodInvocation SimpleName trait target def
+struct target def SimpleName MethodInvocation SimpleName struct container def
+trait target def SimpleName MethodInvocation SimpleName struct container def
+types util SimpleName MethodInvocation SimpleName get types def
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName struct def
+types util SimpleName MethodInvocation MethodInvocation SimpleName nested struct def
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName trait def
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName struct target def
+types util SimpleName MethodInvocation MethodInvocation SimpleName trait target def
+types util SimpleName MethodInvocation MethodInvocation SimpleName struct container def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName struct def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName nested struct def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName trait def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName struct target def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName trait target def
+get types def SimpleName MethodInvocation MethodInvocation SimpleName struct container def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested struct def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested struct def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+nested struct def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+trait def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+trait def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+trait def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct target def
+trait def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait target def
+trait def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName struct container def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName struct def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nested struct def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName trait def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName struct target def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName trait target def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName struct container def

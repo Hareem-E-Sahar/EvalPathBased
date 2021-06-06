@@ -1,0 +1,27 @@
+atlas constraint def SimpleName SimpleType SingleVariableDeclaration SimpleName constraint def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+c defs SimpleName VariableDeclarationFragment SimpleName constraint defs
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName c defs
+c defs SimpleName Assignment ClassInstanceCreation SimpleName c defs
+c defs SimpleName MethodInvocation SimpleName add
+c defs SimpleName MethodInvocation SimpleName constraint def
+add SimpleName MethodInvocation SimpleName constraint def
+constraint defs SimpleName FieldAccess Assignment SimpleName c defs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add constraint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas constraint def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName constraint def
+void PrimitiveType MethodDeclaration SimpleName add constraint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas constraint def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName constraint def
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas constraint def
+add constraint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName constraint def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add constraint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add constraint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraint def

@@ -1,0 +1,125 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral tt file block report :
+println SimpleName MethodInvocation StringLiteral tt file block report :
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+get file status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get file status SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file status
+status SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName file
+file status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+status SimpleName MethodInvocation SimpleName is dir
+file SimpleName InfixExpression StringLiteral data
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral data
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName file
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral data
+get file status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get file status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName file
+get file status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral data
+status SimpleName Assignment MethodInvocation SimpleName fs
+status SimpleName Assignment MethodInvocation SimpleName get file status
+status SimpleName MethodInvocation SimpleName get len
+fs SimpleName MethodInvocation SimpleName get file block locations
+fs SimpleName MethodInvocation SimpleName status
+fs SimpleName MethodInvocation NumberLiteral empty
+fs SimpleName MethodInvocation MethodInvocation SimpleName status
+fs SimpleName MethodInvocation MethodInvocation SimpleName get len
+get file block locations SimpleName MethodInvocation SimpleName status
+get file block locations SimpleName MethodInvocation NumberLiteral empty
+get file block locations SimpleName MethodInvocation MethodInvocation SimpleName status
+get file block locations SimpleName MethodInvocation MethodInvocation SimpleName get len
+status SimpleName MethodInvocation NumberLiteral empty
+status SimpleName MethodInvocation MethodInvocation SimpleName status
+status SimpleName MethodInvocation MethodInvocation SimpleName get len
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName status
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get len
+locs SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+locs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file block locations
+locs SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+locs SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+locs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+locs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get len
+ttt blocks for : StringLiteral InfixExpression SimpleName file
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ttt blocks for :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName file
+println SimpleName MethodInvocation InfixExpression StringLiteral ttt blocks for :
+println SimpleName MethodInvocation InfixExpression SimpleName file
+block location SimpleName SimpleType SingleVariableDeclaration SimpleName block location
+block location SimpleName MethodInvocation SimpleName get offset
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral tttt offset : % d hosts :
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName block location
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get offset
+printf SimpleName MethodInvocation StringLiteral tttt offset : % d hosts :
+printf SimpleName MethodInvocation MethodInvocation SimpleName block location
+printf SimpleName MethodInvocation MethodInvocation SimpleName get offset
+tttt offset : % d hosts : StringLiteral MethodInvocation MethodInvocation SimpleName block location
+tttt offset : % d hosts : StringLiteral MethodInvocation MethodInvocation SimpleName get offset
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+block location SimpleName MethodInvocation SimpleName get hosts
+empty StringLiteral InfixExpression SimpleName host
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName host
+print SimpleName MethodInvocation InfixExpression StringLiteral empty
+print SimpleName MethodInvocation InfixExpression SimpleName host
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName block location
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get hosts
+systemout QualifiedName MethodInvocation SimpleName println
+block location SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName locs
+block location SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName locs
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+files SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName locs
+systemout QualifiedName MethodInvocation SimpleName println
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName report hdfs block locations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName report hdfs block locations
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName files
+void PrimitiveType MethodDeclaration SimpleName report hdfs block locations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName files
+report hdfs block locations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+report hdfs block locations SimpleName MethodDeclaration SimpleType SimpleName exception
+report hdfs block locations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName files
+files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName report hdfs block locations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName report hdfs block locations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

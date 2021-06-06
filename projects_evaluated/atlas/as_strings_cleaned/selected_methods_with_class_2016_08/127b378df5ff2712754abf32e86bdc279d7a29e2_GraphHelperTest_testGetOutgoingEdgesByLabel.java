@@ -1,0 +1,74 @@
+graph provider SimpleName MethodInvocation SimpleName get
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph provider
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+titan vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+titan vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName add edge
+v SimpleName MethodInvocation StringLiteral l
+v SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral l
+add edge SimpleName MethodInvocation SimpleName v
+l StringLiteral MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName add edge
+v SimpleName MethodInvocation StringLiteral l
+v SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral l
+add edge SimpleName MethodInvocation SimpleName v
+l StringLiteral MethodInvocation SimpleName v
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName v
+graph helper SimpleName MethodInvocation StringLiteral l
+get out going edges by label SimpleName MethodInvocation SimpleName v
+get out going edges by label SimpleName MethodInvocation StringLiteral l
+v SimpleName MethodInvocation StringLiteral l
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edges by label
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+iterator SimpleName VariableDeclarationFragment MethodInvocation StringLiteral l
+iterator SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation SimpleName next
+assert null SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert null SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iterator
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get outgoing edges by label
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get outgoing edges by label
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get outgoing edges by label
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get outgoing edges by label SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get outgoing edges by label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get outgoing edges by label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,32 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+job conf SimpleName SimpleType SingleVariableDeclaration SimpleName job
+input configurator SimpleName MethodInvocation SimpleName get table query configs
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation SimpleName job
+get table query configs SimpleName MethodInvocation SimpleName class
+get table query configs SimpleName MethodInvocation SimpleName job
+class SimpleName MethodInvocation SimpleName job
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName batch scan config
+public Modifier MethodDeclaration SimpleName get table query configs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName batch scan config
+static Modifier MethodDeclaration SimpleName get table query configs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get table query configs
+batch scan config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get table query configs
+get table query configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+get table query configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table query configs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table query configs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

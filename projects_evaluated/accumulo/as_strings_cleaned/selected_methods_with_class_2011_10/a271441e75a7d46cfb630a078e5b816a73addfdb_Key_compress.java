@@ -1,0 +1,177 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key value
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName param
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key value
+param SimpleName MethodInvocation SimpleName size
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName param
+arrays SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+as list SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName param
+as list SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+tkvl SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+tkvl SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+param SimpleName MethodInvocation SimpleName size
+param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+param SimpleName MethodInvocation SimpleName get
+param SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+param SimpleName MethodInvocation FieldAccess SimpleName key
+get SimpleName MethodInvocation FieldAccess SimpleName key
+empty NumberLiteral MethodInvocation FieldAccess SimpleName key
+param SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName to thrift
+get SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName to thrift
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName to thrift
+key SimpleName FieldAccess MethodInvocation SimpleName to thrift
+param SimpleName MethodInvocation SimpleName get
+param SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+param SimpleName MethodInvocation FieldAccess SimpleName value
+get SimpleName MethodInvocation FieldAccess SimpleName value
+empty NumberLiteral MethodInvocation FieldAccess SimpleName value
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName param
+byte buffer SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+byte buffer SimpleName MethodInvocation FieldAccess MethodInvocation NumberLiteral empty
+byte buffer SimpleName MethodInvocation FieldAccess SimpleName value
+wrap SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName param
+wrap SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+wrap SimpleName MethodInvocation FieldAccess MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation FieldAccess SimpleName value
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to thrift
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+tkvl SimpleName MethodInvocation SimpleName set
+tkvl SimpleName MethodInvocation NumberLiteral empty
+tkvl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to thrift
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+set SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to thrift
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to thrift
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+param SimpleName MethodInvocation SimpleName size
+param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName param
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+param SimpleName MethodInvocation SimpleName get
+param SimpleName MethodInvocation InfixExpression SimpleName i
+param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+param SimpleName MethodInvocation FieldAccess SimpleName key
+get SimpleName MethodInvocation FieldAccess SimpleName key
+i SimpleName InfixExpression MethodInvocation FieldAccess SimpleName key
+empty NumberLiteral InfixExpression MethodInvocation FieldAccess SimpleName key
+prev key SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName param
+prev key SimpleName VariableDeclarationFragment FieldAccess MethodInvocation SimpleName get
+prev key SimpleName VariableDeclarationFragment FieldAccess SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev key
+param SimpleName MethodInvocation SimpleName get
+param SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName param
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+key value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kv
+key SimpleName VariableDeclarationFragment QualifiedName kvkey
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName kvkey
+t key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new key
+is equal SimpleName MethodInvocation QualifiedName prev keyrow
+is equal SimpleName MethodInvocation QualifiedName keyrow
+prev keyrow QualifiedName MethodInvocation QualifiedName keyrow
+key SimpleName MethodInvocation SimpleName to thrift
+new key SimpleName Assignment MethodInvocation SimpleName key
+new key SimpleName Assignment MethodInvocation SimpleName to thrift
+is equal SimpleName MethodInvocation QualifiedName prev keycol family
+is equal SimpleName MethodInvocation QualifiedName keycol family
+prev keycol family QualifiedName MethodInvocation QualifiedName keycol family
+key SimpleName MethodInvocation SimpleName to thrift
+new key SimpleName Assignment MethodInvocation SimpleName key
+new key SimpleName Assignment MethodInvocation SimpleName to thrift
+is equal SimpleName MethodInvocation QualifiedName prev keycol qualifier
+is equal SimpleName MethodInvocation QualifiedName keycol qualifier
+prev keycol qualifier QualifiedName MethodInvocation QualifiedName keycol qualifier
+key SimpleName MethodInvocation SimpleName to thrift
+new key SimpleName Assignment MethodInvocation SimpleName key
+new key SimpleName Assignment MethodInvocation SimpleName to thrift
+is equal SimpleName MethodInvocation QualifiedName prev keycol visibility
+is equal SimpleName MethodInvocation QualifiedName keycol visibility
+prev keycol visibility QualifiedName MethodInvocation QualifiedName keycol visibility
+key SimpleName MethodInvocation SimpleName to thrift
+new key SimpleName Assignment MethodInvocation SimpleName key
+new key SimpleName Assignment MethodInvocation SimpleName to thrift
+key SimpleName MethodInvocation SimpleName to thrift
+new key SimpleName Assignment MethodInvocation SimpleName key
+new key SimpleName Assignment MethodInvocation SimpleName to thrift
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation QualifiedName kvvalue
+wrap SimpleName MethodInvocation QualifiedName kvvalue
+t key value SimpleName SimpleType ClassInstanceCreation SimpleName new key
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+t key value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName kvvalue
+new key SimpleName ClassInstanceCreation MethodInvocation SimpleName byte buffer
+new key SimpleName ClassInstanceCreation MethodInvocation SimpleName wrap
+new key SimpleName ClassInstanceCreation MethodInvocation QualifiedName kvvalue
+tkvl SimpleName MethodInvocation SimpleName set
+tkvl SimpleName MethodInvocation SimpleName i
+tkvl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+tkvl SimpleName MethodInvocation ClassInstanceCreation SimpleName new key
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+tkvl SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName kvvalue
+set SimpleName MethodInvocation SimpleName i
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+set SimpleName MethodInvocation ClassInstanceCreation SimpleName new key
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName kvvalue
+i SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t key value
+i SimpleName MethodInvocation ClassInstanceCreation SimpleName new key
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName kvvalue
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t key value
+public Modifier MethodDeclaration SimpleName compress
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName param
+public Modifier MethodDeclaration Block ReturnStatement SimpleName tkvl
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t key value
+static Modifier MethodDeclaration SimpleName compress
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName param
+static Modifier MethodDeclaration Block ReturnStatement SimpleName tkvl
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName compress
+t key value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName compress
+compress SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param
+compress SimpleName MethodDeclaration Block ReturnStatement SimpleName tkvl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName compress
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compress
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param

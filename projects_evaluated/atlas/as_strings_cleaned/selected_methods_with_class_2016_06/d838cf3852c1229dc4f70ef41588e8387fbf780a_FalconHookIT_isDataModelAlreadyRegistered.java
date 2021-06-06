@@ -1,0 +1,28 @@
+falcon data typesfalcon process QualifiedName MethodInvocation SimpleName get name
+atlas client SimpleName MethodInvocation SimpleName get type
+atlas client SimpleName MethodInvocation MethodInvocation QualifiedName falcon data typesfalcon process
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type SimpleName MethodInvocation MethodInvocation QualifiedName falcon data typesfalcon process
+get type SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral hive data model is already registered
+info SimpleName MethodInvocation StringLiteral hive data model is already registered
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ase
+ase SimpleName MethodInvocation SimpleName get status
+ase SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+get status SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is data model already registered
+private Modifier MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration SimpleName is data model already registered
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+is data model already registered SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is data model already registered
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is data model already registered
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

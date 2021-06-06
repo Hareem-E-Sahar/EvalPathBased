@@ -1,0 +1,22 @@
+system SimpleName MethodInvocation SimpleName get security manager
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security manager
+security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName check permission
+sm SimpleName MethodInvocation SimpleName configuration permission
+check permission SimpleName MethodInvocation SimpleName configuration permission
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check permissions
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check permissions
+void PrimitiveType MethodDeclaration SimpleName check permissions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check permissions
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check permissions

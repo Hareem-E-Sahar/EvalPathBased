@@ -1,0 +1,92 @@
+create table SimpleName MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+file SimpleName MethodInvocation StringLiteral load
+load file SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+load file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral load
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName load file
+load data local inpath file StringLiteral InfixExpression SimpleName load file
+load data local inpath file StringLiteral InfixExpression StringLiteral into table
+load data local inpath file StringLiteral InfixExpression SimpleName table name
+load data local inpath file StringLiteral InfixExpression StringLiteral partitiondt = - - )
+load file SimpleName InfixExpression StringLiteral into table
+load file SimpleName InfixExpression SimpleName table name
+load file SimpleName InfixExpression StringLiteral partitiondt = - - )
+into table StringLiteral InfixExpression SimpleName table name
+into table StringLiteral InfixExpression StringLiteral partitiondt = - - )
+table name SimpleName InfixExpression StringLiteral partitiondt = - - )
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral load data local inpath file
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName load file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral into table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral partitiondt = - - )
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert process is registered
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process id
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName process id
+get entity SimpleName MethodInvocation SimpleName process id
+process SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+process SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+process SimpleName VariableDeclarationFragment MethodInvocation SimpleName process id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process
+process SimpleName MethodInvocation SimpleName get
+process SimpleName MethodInvocation StringLiteral inputs
+get SimpleName MethodInvocation StringLiteral inputs
+assert SimpleName MethodInvocation SimpleName assert null
+assert SimpleName MethodInvocation MethodInvocation SimpleName process
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral inputs
+assert null SimpleName MethodInvocation MethodInvocation SimpleName process
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral inputs
+process SimpleName MethodInvocation SimpleName get
+process SimpleName MethodInvocation StringLiteral outputs
+get SimpleName MethodInvocation StringLiteral outputs
+ref ops : StringLiteral InfixExpression MethodInvocation SimpleName process
+ref ops : StringLiteral InfixExpression MethodInvocation SimpleName get
+ref ops : StringLiteral InfixExpression MethodInvocation StringLiteral outputs
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ref ops :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName process
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral outputs
+println SimpleName MethodInvocation InfixExpression StringLiteral ref ops :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName process
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+println SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral outputs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+process SimpleName MethodInvocation SimpleName get
+process SimpleName MethodInvocation StringLiteral outputs
+get SimpleName MethodInvocation StringLiteral outputs
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load data into partition
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load data into partition
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test load data into partition
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test load data into partition SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load data into partition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load data into partition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

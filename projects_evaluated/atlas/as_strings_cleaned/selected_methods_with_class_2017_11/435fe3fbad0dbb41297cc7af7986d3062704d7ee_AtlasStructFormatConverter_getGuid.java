@@ -1,0 +1,49 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+obj SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName obj
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas object id
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName get guid
+ret SimpleName Assignment MethodInvocation SimpleName obj id
+ret SimpleName Assignment MethodInvocation SimpleName get guid
+obj SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName obj
+v map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+v map SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v map
+v map SimpleName MethodInvocation SimpleName get
+v map SimpleName MethodInvocation QualifiedName atlas object idkey guid
+get SimpleName MethodInvocation QualifiedName atlas object idkey guid
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName v map
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas object idkey guid
+ret SimpleName Assignment CastExpression SimpleType SimpleName string
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName v map
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName get
+ret SimpleName Assignment CastExpression MethodInvocation QualifiedName atlas object idkey guid
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+get guid SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

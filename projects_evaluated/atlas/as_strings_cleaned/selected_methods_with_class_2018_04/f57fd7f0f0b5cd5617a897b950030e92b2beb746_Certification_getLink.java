@@ -1,0 +1,11 @@
+external reference SimpleName SimpleType ClassInstanceCreation SimpleName link
+public Modifier MethodDeclaration SimpleType SimpleName external reference
+public Modifier MethodDeclaration SimpleName get link
+external reference SimpleName SimpleType MethodDeclaration SimpleName get link
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName external reference
+public Modifier TypeDeclaration MethodDeclaration SimpleName get link
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName external reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get link

@@ -1,0 +1,44 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName atlas entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName atlas entity
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+atlas entity SimpleName MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation MethodInvocation SimpleName atlas entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName atlas entity
+atlas entity SimpleName MethodInvocation MethodInvocation SimpleName atlas entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName atlas entity
+call api SimpleName MethodInvocation SimpleName create entity
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity mutation response
+create entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName create entity
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas entity
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName create entity
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atlas entity
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+create entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas entity
+create entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+atlas entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,153 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName passwd
+is connector info set SimpleName MethodInvocation SimpleName implementing class
+is connector info set SimpleName MethodInvocation SimpleName conf
+implementing class SimpleName MethodInvocation SimpleName conf
+implementing class SimpleName MethodInvocation SimpleName get simple name
+connector info for StringLiteral InfixExpression MethodInvocation SimpleName implementing class
+connector info for StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+connector info for StringLiteral InfixExpression StringLiteral can only be set once per job
+implementing class SimpleName MethodInvocation InfixExpression StringLiteral can only be set once per job
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral can only be set once per job
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral connector info for
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral can only be set once per job
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName user
+argument checker SimpleName MethodInvocation SimpleName passwd
+not null SimpleName MethodInvocation SimpleName user
+not null SimpleName MethodInvocation SimpleName passwd
+user SimpleName MethodInvocation SimpleName passwd
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName connector infois configured
+implementing class SimpleName MethodInvocation QualifiedName connector infois configured
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName connector infois configured
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set boolean SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set boolean SimpleName MethodInvocation MethodInvocation QualifiedName connector infois configured
+set boolean SimpleName MethodInvocation BooleanLiteral true
+enum to conf key SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+implementing class SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+connector infois configured QualifiedName MethodInvocation MethodInvocation BooleanLiteral true
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName connector infouser name
+implementing class SimpleName MethodInvocation QualifiedName connector infouser name
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName connector infouser name
+conf SimpleName MethodInvocation SimpleName user
+set SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set SimpleName MethodInvocation MethodInvocation QualifiedName connector infouser name
+set SimpleName MethodInvocation SimpleName user
+enum to conf key SimpleName MethodInvocation MethodInvocation SimpleName user
+implementing class SimpleName MethodInvocation MethodInvocation SimpleName user
+connector infouser name QualifiedName MethodInvocation MethodInvocation SimpleName user
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName connector infopassword
+implementing class SimpleName MethodInvocation QualifiedName connector infopassword
+base SimpleName MethodInvocation SimpleName encode base
+base SimpleName MethodInvocation SimpleName passwd
+encode base SimpleName MethodInvocation SimpleName passwd
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName encode base
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName passwd
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+encode base SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+passwd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+passwd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+passwd SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName connector infopassword
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName passwd
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+set SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+set SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+set SimpleName MethodInvocation MethodInvocation QualifiedName connector infopassword
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName base
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName encode base
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName passwd
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName charset
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName for name
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral utf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connector info
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set connector info
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleName set connector info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName passwd
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+set connector info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName passwd
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connector info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connector info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName passwd

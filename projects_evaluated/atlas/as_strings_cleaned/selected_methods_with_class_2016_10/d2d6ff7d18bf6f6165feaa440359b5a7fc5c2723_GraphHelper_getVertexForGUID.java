@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+find vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+find vertex SimpleName MethodInvocation SimpleName guid
+constantsguid property key QualifiedName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get vertex for guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get vertex for guid
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+get vertex for guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertex for guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get vertex for guid SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex for guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex for guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

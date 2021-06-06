@@ -1,0 +1,39 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uuid
+long PrimitiveType SingleVariableDeclaration SimpleName count
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+flushes SimpleName MethodInvocation SimpleName get
+flushes SimpleName MethodInvocation SimpleName uuid
+get SimpleName MethodInvocation SimpleName uuid
+tm SimpleName VariableDeclarationFragment MethodInvocation SimpleName flushes
+tm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tm SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+tm SimpleName MethodInvocation SimpleName tail map
+tm SimpleName MethodInvocation SimpleName count
+tail map SimpleName MethodInvocation SimpleName count
+tm SimpleName MethodInvocation MethodInvocation SimpleName values
+tail map SimpleName MethodInvocation MethodInvocation SimpleName values
+count SimpleName MethodInvocation MethodInvocation SimpleName values
+tm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+tail map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+values SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get times
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get times
+get times SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get times SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uuid
+get times SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get times SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+uuid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+uuid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get times
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get times
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uuid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count

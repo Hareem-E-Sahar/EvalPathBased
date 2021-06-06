@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event key
+event key SimpleName FieldAccess Assignment SimpleName event key
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set event key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event key
+void PrimitiveType MethodDeclaration SimpleName set event key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event key
+set event key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set event key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set event key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set event key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event key

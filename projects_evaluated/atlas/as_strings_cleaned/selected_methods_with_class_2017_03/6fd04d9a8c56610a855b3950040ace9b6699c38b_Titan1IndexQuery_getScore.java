@@ -1,0 +1,16 @@
+source SimpleName MethodInvocation SimpleName get score
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType double
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get score
+public Modifier MethodDeclaration PrimitiveType double
+public Modifier MethodDeclaration SimpleName get score
+double PrimitiveType MethodDeclaration SimpleName get score
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName get score
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get score

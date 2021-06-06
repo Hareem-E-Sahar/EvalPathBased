@@ -1,0 +1,131 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src
+id SimpleName MethodInvocation SimpleName equals ignore case
+id SimpleName MethodInvocation StringLiteral end
+equals ignore case SimpleName MethodInvocation StringLiteral end
+id SimpleName MethodInvocation SimpleName starts with
+id SimpleName MethodInvocation StringLiteral dummy
+starts with SimpleName MethodInvocation StringLiteral dummy
+id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id
+id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+id SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral dummy
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral dummy
+end StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName id
+end StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+end StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral dummy
+nodes SimpleName MethodInvocation SimpleName contains key
+nodes SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+nodes SimpleName MethodInvocation InfixExpression BooleanLiteral false
+contains key SimpleName MethodInvocation InfixExpression BooleanLiteral false
+id SimpleName MethodInvocation InfixExpression BooleanLiteral false
+dummy SimpleName SimpleType ClassInstanceCreation SimpleName id
+nodes SimpleName MethodInvocation SimpleName put
+nodes SimpleName MethodInvocation SimpleName id
+nodes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dummy
+nodes SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dummy
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dummy
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+nodes SimpleName MethodInvocation SimpleName get
+nodes SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+id SimpleName MethodInvocation SimpleName starts with
+id SimpleName MethodInvocation StringLiteral alias
+starts with SimpleName MethodInvocation StringLiteral alias
+nodes SimpleName MethodInvocation SimpleName contains key
+nodes SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+nodes SimpleName MethodInvocation InfixExpression BooleanLiteral false
+contains key SimpleName MethodInvocation InfixExpression BooleanLiteral false
+id SimpleName MethodInvocation InfixExpression BooleanLiteral false
+alias SimpleName SimpleType ClassInstanceCreation SimpleName id
+nodes SimpleName MethodInvocation SimpleName put
+nodes SimpleName MethodInvocation SimpleName id
+nodes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName alias
+nodes SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName alias
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName alias
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+nodes SimpleName MethodInvocation SimpleName get
+nodes SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+src SimpleName MethodInvocation SimpleName is empty
+src SimpleName InfixExpression InfixExpression MethodInvocation SimpleName src
+src SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+framework SimpleName MethodInvocation SimpleName get instance
+get full name SimpleName MethodInvocation SimpleName id
+framework SimpleName MethodInvocation MethodInvocation SimpleName get node
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get node
+framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get full name
+framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get full name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+get node SimpleName MethodInvocation MethodInvocation SimpleName get full name
+get node SimpleName MethodInvocation MethodInvocation SimpleName id
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName framework
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+node SimpleName Assignment MethodInvocation SimpleName get node
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName get full name
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName id
+framework SimpleName MethodInvocation SimpleName get instance
+get full name SimpleName MethodInvocation SimpleName src
+framework SimpleName MethodInvocation MethodInvocation SimpleName get node
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get node
+framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get full name
+framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get full name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+get node SimpleName MethodInvocation MethodInvocation SimpleName get full name
+get node SimpleName MethodInvocation MethodInvocation SimpleName src
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName framework
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+node SimpleName Assignment MethodInvocation SimpleName get node
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName get full name
+node SimpleName Assignment MethodInvocation MethodInvocation SimpleName src
+nodes SimpleName MethodInvocation SimpleName put
+nodes SimpleName MethodInvocation SimpleName id
+nodes SimpleName MethodInvocation SimpleName node
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName node
+id SimpleName MethodInvocation SimpleName node
+private Modifier MethodDeclaration SimpleType SimpleName node
+private Modifier MethodDeclaration SimpleName create node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+private Modifier MethodDeclaration SimpleType SimpleName exception
+node SimpleName SimpleType MethodDeclaration SimpleName create node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+create node SimpleName MethodDeclaration SimpleType SimpleName exception
+create node SimpleName MethodDeclaration Block ReturnStatement SimpleName node
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+src SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,92 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+s SimpleName MethodInvocation SimpleName get bytes
+sb SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+sb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName sblength
+sb SimpleName ArrayAccess SimpleName i
+sb SimpleName ArrayAccess InfixExpression CharacterLiteral %
+i SimpleName ArrayAccess InfixExpression CharacterLiteral %
+sb SimpleName ArrayAccess SimpleName i
+t SimpleName MethodInvocation SimpleName append
+t SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+t SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+sb SimpleName ArrayAccess PrefixExpression SimpleName i
+sb SimpleName ArrayAccess PrefixExpression SimpleName i
+sb SimpleName ArrayAccess ArrayInitializer ArrayAccess SimpleName sb
+hex SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName hex
+string SimpleName SimpleType ClassInstanceCreation SimpleName hex
+hs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+hs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hs
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation SimpleName hs
+integer SimpleName MethodInvocation NumberLiteral empty
+parse int SimpleName MethodInvocation SimpleName hs
+parse int SimpleName MethodInvocation NumberLiteral empty
+hs SimpleName MethodInvocation NumberLiteral empty
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName hs
+b SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+byte PrimitiveType CastExpression SimpleName b
+t SimpleName MethodInvocation SimpleName append
+t SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+t SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName sblength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sblength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SimpleName decode
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration Block ReturnStatement SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName decode
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block ReturnStatement SimpleName t
+text SimpleName SimpleType MethodDeclaration SimpleName decode
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+decode SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

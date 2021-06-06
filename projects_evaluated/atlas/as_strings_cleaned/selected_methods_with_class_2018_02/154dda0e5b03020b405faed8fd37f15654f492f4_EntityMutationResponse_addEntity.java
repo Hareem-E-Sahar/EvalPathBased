@@ -1,0 +1,103 @@
+entity operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+op SimpleName InfixExpression QualifiedName entity operationupdate
+op SimpleName InfixExpression QualifiedName entity operationpartial update
+op SimpleName InfixExpression InfixExpression InfixExpression SimpleName op
+op SimpleName InfixExpression InfixExpression InfixExpression QualifiedName entity operationpartial update
+entity operationupdate QualifiedName InfixExpression InfixExpression InfixExpression SimpleName op
+entity operationupdate QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName entity operationpartial update
+entity SimpleName MethodInvocation SimpleName get guid
+entity header exists SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+entity header exists SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity header exists SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get created entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get created entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+mutated entities SimpleName MethodInvocation SimpleName get
+mutated entities SimpleName MethodInvocation SimpleName op
+get SimpleName MethodInvocation SimpleName op
+op entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutated entities
+op entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+op entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName op
+mutated entities SimpleName MethodInvocation SimpleName put
+mutated entities SimpleName MethodInvocation SimpleName op
+mutated entities SimpleName MethodInvocation SimpleName op entities
+put SimpleName MethodInvocation SimpleName op
+put SimpleName MethodInvocation SimpleName op entities
+op SimpleName MethodInvocation SimpleName op entities
+entity SimpleName MethodInvocation SimpleName get guid
+entity header exists SimpleName MethodInvocation SimpleName op entities
+entity header exists SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity header exists SimpleName MethodInvocation MethodInvocation SimpleName get guid
+op entities SimpleName MethodInvocation MethodInvocation SimpleName entity
+op entities SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation SimpleName get unique attributes
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas entity header SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+op entities SimpleName MethodInvocation SimpleName add
+op entities SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity header
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+op entities SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity header
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get unique attributes
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName add entity
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName op
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName add entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName op
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity operation
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+add entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

@@ -1,0 +1,24 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName tmp file
+tmp file SimpleName MethodInvocation SimpleName delete
+file SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tmp files
+tmp file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tmp files
+tmp files SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName tmp files
+temp dir SimpleName MethodInvocation SimpleName delete
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName tmp files
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName tmp files
+close SimpleName MethodDeclaration Block SynchronizedStatement SimpleName tmp files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close

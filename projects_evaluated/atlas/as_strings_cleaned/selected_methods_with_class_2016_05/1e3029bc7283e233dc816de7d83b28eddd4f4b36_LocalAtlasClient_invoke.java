@@ -1,0 +1,20 @@
+entity resource SimpleName MethodInvocation SimpleName delete entities
+entity resource SimpleName MethodInvocation SimpleName entity type
+entity resource SimpleName MethodInvocation SimpleName unique attribute name
+entity resource SimpleName MethodInvocation SimpleName unique attribute value
+delete entities SimpleName MethodInvocation SimpleName entity type
+delete entities SimpleName MethodInvocation SimpleName unique attribute name
+delete entities SimpleName MethodInvocation SimpleName unique attribute value
+entity type SimpleName MethodInvocation SimpleName unique attribute name
+entity type SimpleName MethodInvocation SimpleName unique attribute value
+unique attribute name SimpleName MethodInvocation SimpleName unique attribute value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+response SimpleName SimpleType MethodDeclaration SimpleName invoke
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke

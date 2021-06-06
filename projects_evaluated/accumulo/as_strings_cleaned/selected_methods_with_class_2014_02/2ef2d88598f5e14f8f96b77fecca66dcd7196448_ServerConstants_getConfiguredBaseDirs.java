@@ -1,0 +1,105 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName propertyinstance dfs dir
+get SimpleName MethodInvocation QualifiedName propertyinstance dfs dir
+single namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+single namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+single namespace SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance dfs dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName single namespace
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation QualifiedName propertyinstance volumes
+get SimpleName MethodInvocation QualifiedName propertyinstance volumes
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ns SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance volumes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+ns SimpleName MethodInvocation SimpleName is empty
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName ns
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+ns SimpleName MethodInvocation SimpleName split
+ns SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+namespaces SimpleName VariableDeclarationFragment MethodInvocation SimpleName ns
+namespaces SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+namespaces SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType ArrayType ArrayCreation QualifiedName namespaceslength
+unescaped namespaces SimpleName VariableDeclarationFragment ArrayCreation QualifiedName namespaceslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+namespace SimpleName MethodInvocation SimpleName contains
+namespace SimpleName MethodInvocation StringLiteral :
+contains SimpleName MethodInvocation StringLiteral :
+propertyinstance volumes QualifiedName MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation QualifiedName propertyinstance volumes
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression StringLiteral got
+expected fully qualified uri for StringLiteral InfixExpression SimpleName namespace
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral got
+get key SimpleName MethodInvocation InfixExpression StringLiteral got
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression SimpleName namespace
+get key SimpleName MethodInvocation InfixExpression SimpleName namespace
+got StringLiteral InfixExpression SimpleName namespace
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected fully qualified uri for
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral got
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName namespace
+unescaped namespaces SimpleName ArrayAccess PostfixExpression SimpleName i
+uri SimpleName SimpleType ClassInstanceCreation SimpleName namespace
+path SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName namespace
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+namespace SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to string
+unescaped namespaces SimpleName ArrayAccess Assignment MethodInvocation SimpleName to string
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+propertyinstance volumes QualifiedName MethodInvocation SimpleName get key
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral contains
+get key SimpleName MethodInvocation InfixExpression StringLiteral contains
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression SimpleName namespace
+get key SimpleName MethodInvocation InfixExpression SimpleName namespace
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral which has a syntax error
+get key SimpleName MethodInvocation InfixExpression StringLiteral which has a syntax error
+contains StringLiteral InfixExpression SimpleName namespace
+contains StringLiteral InfixExpression StringLiteral which has a syntax error
+namespace SimpleName InfixExpression StringLiteral which has a syntax error
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral contains
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName namespace
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral which has a syntax error
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get key SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+contains StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+namespace SimpleName InfixExpression ClassInstanceCreation SimpleName e
+which has a syntax error StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName namespaces
+namespace SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName namespaces
+prefix SimpleName MethodInvocation SimpleName unescaped namespaces
+prefix SimpleName MethodInvocation SimpleName single namespace
+unescaped namespaces SimpleName MethodInvocation SimpleName single namespace
+configured base dirs SimpleName Assignment MethodInvocation SimpleName prefix
+configured base dirs SimpleName Assignment MethodInvocation SimpleName unescaped namespaces
+configured base dirs SimpleName Assignment MethodInvocation SimpleName single namespace
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName namespaces
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get configured base dirs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Block ReturnStatement SimpleName configured base dirs
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get configured base dirs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block ReturnStatement SimpleName configured base dirs
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get configured base dirs
+get configured base dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get configured base dirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get configured base dirs SimpleName MethodDeclaration Block ReturnStatement SimpleName configured base dirs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configured base dirs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configured base dirs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

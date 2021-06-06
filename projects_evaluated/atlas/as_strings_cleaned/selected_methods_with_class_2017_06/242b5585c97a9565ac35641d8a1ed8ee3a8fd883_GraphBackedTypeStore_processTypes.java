@@ -1,0 +1,260 @@
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+type visitor SimpleName SimpleType SingleVariableDeclaration SimpleName visitor
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation SimpleName type name
+i data type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation SimpleName get description
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral processing {}.{}.{} in type store
+log SimpleName MethodInvocation MethodInvocation SimpleName data type
+log SimpleName MethodInvocation MethodInvocation SimpleName get type category
+log SimpleName MethodInvocation MethodInvocation SimpleName data type
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation MethodInvocation SimpleName data type
+log SimpleName MethodInvocation MethodInvocation SimpleName get description
+debug SimpleName MethodInvocation StringLiteral processing {}.{}.{} in type store
+debug SimpleName MethodInvocation MethodInvocation SimpleName data type
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type category
+debug SimpleName MethodInvocation MethodInvocation SimpleName data type
+debug SimpleName MethodInvocation MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation MethodInvocation SimpleName data type
+debug SimpleName MethodInvocation MethodInvocation SimpleName get description
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName data type
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName get type category
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName data type
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName get name
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName data type
+processing {}.{}.{} in type store StringLiteral MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation SimpleName get type category
+enum type SimpleName SimpleType CastExpression SimpleName data type
+visitor SimpleName MethodInvocation SimpleName visit enumeration
+visitor SimpleName MethodInvocation CastExpression SimpleType SimpleName enum type
+visitor SimpleName MethodInvocation CastExpression SimpleName data type
+visit enumeration SimpleName MethodInvocation CastExpression SimpleType SimpleName enum type
+visit enumeration SimpleName MethodInvocation CastExpression SimpleName data type
+struct type SimpleName SimpleType CastExpression SimpleName data type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct type
+struct type SimpleName VariableDeclarationFragment CastExpression SimpleName data type
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type
+data type SimpleName MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation SimpleName get description
+struct typeinfo to name map QualifiedName MethodInvocation SimpleName key set
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation MethodInvocation QualifiedName struct typeinfo to name map
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName key set
+copy of SimpleName MethodInvocation MethodInvocation QualifiedName struct typeinfo to name map
+copy of SimpleName MethodInvocation MethodInvocation SimpleName key set
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+process type SimpleName MethodInvocation SimpleName type system
+process type SimpleName MethodInvocation MethodInvocation SimpleName data type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+process type SimpleName MethodInvocation MethodInvocation SimpleName data type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get name
+process type SimpleName MethodInvocation MethodInvocation SimpleName data type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get description
+process type SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+process type SimpleName MethodInvocation MethodInvocation SimpleName copy of
+process type SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName struct typeinfo to name map
+process type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+type system SimpleName MethodInvocation MethodInvocation SimpleName data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type category
+type system SimpleName MethodInvocation MethodInvocation SimpleName data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get name
+type system SimpleName MethodInvocation MethodInvocation SimpleName data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get description
+type system SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+type system SimpleName MethodInvocation MethodInvocation SimpleName copy of
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName struct typeinfo to name map
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+type system SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+type system SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+type system SimpleName MethodInvocation MethodInvocation SimpleName of
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+data type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get type category SimpleName MethodInvocation MethodInvocation SimpleName visitor
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+data type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get name SimpleName MethodInvocation MethodInvocation SimpleName visitor
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+get description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+get description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy of
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+get description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+get description SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+data type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get description SimpleName MethodInvocation MethodInvocation SimpleName visitor
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+copy of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+copy of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName visitor
+copy of SimpleName MethodInvocation MethodInvocation SimpleName visitor
+struct typeinfo to name map QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName visitor
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName visitor
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName visitor
+string SimpleName SimpleType MethodInvocation MethodInvocation SimpleName visitor
+of SimpleName MethodInvocation MethodInvocation SimpleName visitor
+hierarchical type SimpleName SimpleType CastExpression SimpleName data type
+type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName hierarchical type
+type SimpleName VariableDeclarationFragment CastExpression SimpleName data type
+hierarchical type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+data type SimpleName MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation SimpleName get name
+type SimpleName MethodInvocation SimpleName get description
+process type SimpleName MethodInvocation SimpleName type system
+process type SimpleName MethodInvocation MethodInvocation SimpleName data type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+process type SimpleName MethodInvocation MethodInvocation SimpleName data type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get name
+process type SimpleName MethodInvocation MethodInvocation SimpleName type
+process type SimpleName MethodInvocation MethodInvocation SimpleName get description
+process type SimpleName MethodInvocation QualifiedName typeimmediate attrs
+type system SimpleName MethodInvocation MethodInvocation SimpleName data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type category
+type system SimpleName MethodInvocation MethodInvocation SimpleName data type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get name
+type system SimpleName MethodInvocation MethodInvocation SimpleName type
+type system SimpleName MethodInvocation MethodInvocation SimpleName get description
+type system SimpleName MethodInvocation QualifiedName typeimmediate attrs
+type system SimpleName MethodInvocation QualifiedName typesuper types
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+get type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+get type category SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+data type SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+get type category SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+data type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get type category SimpleName MethodInvocation MethodInvocation SimpleName visitor
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+data type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get description
+data type SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+get name SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+data type SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+get name SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+data type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get name SimpleName MethodInvocation MethodInvocation SimpleName visitor
+type SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+get description SimpleName MethodInvocation MethodInvocation QualifiedName typeimmediate attrs
+type SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+get description SimpleName MethodInvocation MethodInvocation QualifiedName typesuper types
+type SimpleName MethodInvocation MethodInvocation SimpleName visitor
+get description SimpleName MethodInvocation MethodInvocation SimpleName visitor
+typeimmediate attrs QualifiedName MethodInvocation QualifiedName typesuper types
+typeimmediate attrs QualifiedName MethodInvocation SimpleName visitor
+typesuper types QualifiedName MethodInvocation SimpleName visitor
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName trait
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+trait SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type names
+type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type visitor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName visitor
+void PrimitiveType MethodDeclaration SimpleName process types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type visitor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName visitor
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+process types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type names
+process types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+process types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+process types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type visitor
+process types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName visitor
+process types SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+process types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type names
+type names SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+type names SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+type names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+visitor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

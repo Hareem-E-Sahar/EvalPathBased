@@ -1,0 +1,56 @@
+array node SimpleName SimpleType SingleVariableDeclaration SimpleName json array
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+json array SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName json array
+index SimpleName InfixExpression MethodInvocation SimpleName size
+json array SimpleName MethodInvocation SimpleName get
+json array SimpleName MethodInvocation SimpleName index
+get SimpleName MethodInvocation SimpleName index
+json array SimpleName MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation SimpleName as text
+index SimpleName MethodInvocation MethodInvocation SimpleName as text
+results list SimpleName MethodInvocation SimpleName add
+results list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName json array
+results list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+results list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+results list SimpleName MethodInvocation MethodInvocation SimpleName as text
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName json array
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index
+add SimpleName MethodInvocation MethodInvocation SimpleName as text
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName results list
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName results list
+join SimpleName MethodInvocation StringLiteral empty
+results list SimpleName MethodInvocation StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json array
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName json array
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json array
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json array
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json array

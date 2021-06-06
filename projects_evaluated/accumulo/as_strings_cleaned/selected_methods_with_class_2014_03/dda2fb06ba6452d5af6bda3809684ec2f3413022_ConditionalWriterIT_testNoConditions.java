@@ -1,0 +1,109 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+timeout SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName create conditional writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+create conditional writer SimpleName MethodInvocation SimpleName table
+create conditional writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName conditional writer config
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create conditional writer
+cw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+conditional writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cw
+conditional mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral tx
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral tx
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation StringLiteral empty
+tx StringLiteral MethodInvocation StringLiteral seq
+tx StringLiteral MethodInvocation StringLiteral empty
+seq StringLiteral MethodInvocation StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation StringLiteral x
+cm SimpleName MethodInvocation StringLiteral a
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation StringLiteral x
+put SimpleName MethodInvocation StringLiteral a
+data StringLiteral MethodInvocation StringLiteral x
+data StringLiteral MethodInvocation StringLiteral a
+x StringLiteral MethodInvocation StringLiteral a
+cw SimpleName MethodInvocation SimpleName write
+cw SimpleName MethodInvocation SimpleName cm
+write SimpleName MethodInvocation SimpleName cm
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test no conditions
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test no conditions
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test no conditions
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no conditions
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName test no conditions
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+test no conditions SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test no conditions SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+test no conditions SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+test no conditions SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no conditions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no conditions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType QualifiedName atlas entitystatus
+public Modifier MethodDeclaration SimpleName get entity status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity status
+atlas entitystatus QualifiedName SimpleType MethodDeclaration SimpleName get entity status
+get entity status SimpleName MethodDeclaration Block ReturnStatement SimpleName entity status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entitystatus
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entitystatus
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity status

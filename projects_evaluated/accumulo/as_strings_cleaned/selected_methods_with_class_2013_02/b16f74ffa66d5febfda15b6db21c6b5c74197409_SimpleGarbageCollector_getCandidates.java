@@ -1,0 +1,219 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+check for bulk processing files SimpleName Assignment BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName valid extension
+file operations SimpleName MethodInvocation SimpleName get valid extensions
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName stat
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation InfixExpression StringLiteral *.
+get tables dir SimpleName MethodInvocation InfixExpression StringLiteral *.
+server constants SimpleName MethodInvocation InfixExpression SimpleName valid extension
+get tables dir SimpleName MethodInvocation InfixExpression SimpleName valid extension
+*. StringLiteral InfixExpression SimpleName valid extension
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral *.
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName valid extension
+fs SimpleName MethodInvocation SimpleName glob status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral *.
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName valid extension
+glob status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral *.
+glob status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName valid extension
+stat SimpleName MethodInvocation SimpleName get path
+stat SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get path SimpleName MethodInvocation MethodInvocation SimpleName to uri
+stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+get path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+to uri SimpleName MethodInvocation MethodInvocation SimpleName get path
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to uri
+cand SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cand
+server constants SimpleName MethodInvocation SimpleName get root tablet dir
+cand SimpleName MethodInvocation SimpleName contains
+cand SimpleName MethodInvocation MethodInvocation SimpleName server constants
+cand SimpleName MethodInvocation MethodInvocation SimpleName get root tablet dir
+contains SimpleName MethodInvocation MethodInvocation SimpleName server constants
+contains SimpleName MethodInvocation MethodInvocation SimpleName get root tablet dir
+server constants SimpleName MethodInvocation SimpleName get tables dir
+server constants SimpleName MethodInvocation MethodInvocation SimpleName length
+get tables dir SimpleName MethodInvocation MethodInvocation SimpleName length
+cand SimpleName MethodInvocation SimpleName substring
+cand SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+cand SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tables dir
+cand SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server constants
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tables dir
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+candidates SimpleName MethodInvocation SimpleName add
+candidates SimpleName MethodInvocation MethodInvocation SimpleName cand
+candidates SimpleName MethodInvocation MethodInvocation SimpleName substring
+candidates SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+add SimpleName MethodInvocation MethodInvocation SimpleName cand
+add SimpleName MethodInvocation MethodInvocation SimpleName substring
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+offline candidate StringLiteral InfixExpression SimpleName cand
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral offline candidate
+log SimpleName MethodInvocation InfixExpression SimpleName cand
+debug SimpleName MethodInvocation InfixExpression StringLiteral offline candidate
+debug SimpleName MethodInvocation InfixExpression SimpleName cand
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName fs
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName glob status
+valid extension SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file operations
+valid extension SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get valid extensions
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to check the filesystem for offline candidates removing all candidates for deletion to be safe
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to check the filesystem for offline candidates removing all candidates for deletion to be safe
+error SimpleName MethodInvocation SimpleName e
+unable to check the filesystem for offline candidates removing all candidates for deletion to be safe StringLiteral MethodInvocation SimpleName e
+candidates SimpleName MethodInvocation SimpleName clear
+offline SimpleName IfStatement Block ReturnStatement SimpleName candidates
+credentials SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get token
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get principal
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+instance SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+instance SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+instance SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+constantsmetadata deletes keyspace QualifiedName MethodInvocation SimpleName get end key
+constantsmetadata deletes keyspace QualifiedName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation SimpleName continue key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+continue key SimpleName ClassInstanceCreation BooleanLiteral true
+continue key SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+continue key SimpleName ClassInstanceCreation MethodInvocation SimpleName get end key
+continue key SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+continue key SimpleName ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+constantsmetadata deletes keyspace QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+constantsmetadata deletes keyspace QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName continue key
+scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName continue key
+set range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata deletes keyspace
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata deletes keyspace
+set range SimpleName MethodInvocation QualifiedName constantsmetadata deletes keyspace
+check for bulk processing files SimpleName Assignment BooleanLiteral false
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+constantsmetadata delete flag prefix QualifiedName MethodInvocation SimpleName length
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata delete flag prefix
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata delete flag prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+cand SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName constantsmetadata delete flag prefix
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cand
+candidates SimpleName MethodInvocation SimpleName add
+candidates SimpleName MethodInvocation SimpleName cand
+add SimpleName MethodInvocation SimpleName cand
+cand SimpleName MethodInvocation SimpleName to lower case
+cand SimpleName MethodInvocation QualifiedName localeenglish
+to lower case SimpleName MethodInvocation QualifiedName localeenglish
+cand SimpleName MethodInvocation MethodInvocation SimpleName contains
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName contains
+localeenglish QualifiedName MethodInvocation MethodInvocation SimpleName contains
+cand SimpleName MethodInvocation MethodInvocation QualifiedName constantsbulk prefix
+to lower case SimpleName MethodInvocation MethodInvocation QualifiedName constantsbulk prefix
+localeenglish QualifiedName MethodInvocation MethodInvocation QualifiedName constantsbulk prefix
+contains SimpleName MethodInvocation QualifiedName constantsbulk prefix
+check for bulk processing files SimpleName Assignment MethodInvocation MethodInvocation SimpleName cand
+check for bulk processing files SimpleName Assignment MethodInvocation MethodInvocation SimpleName to lower case
+check for bulk processing files SimpleName Assignment MethodInvocation MethodInvocation QualifiedName localeenglish
+check for bulk processing files SimpleName Assignment MethodInvocation SimpleName contains
+check for bulk processing files SimpleName Assignment MethodInvocation QualifiedName constantsbulk prefix
+candidate mem exceeded SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral list of delete candidates has exceeded the memory threshold attempting to delete what has been gathered so far
+info SimpleName MethodInvocation StringLiteral list of delete candidates has exceeded the memory threshold attempting to delete what has been gathered so far
+entry SimpleName MethodInvocation SimpleName get key
+continue key SimpleName Assignment MethodInvocation SimpleName entry
+continue key SimpleName Assignment MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+offline SimpleName IfStatement Block EnhancedForStatement SimpleName scanner
+offline SimpleName IfStatement Block ReturnStatement SimpleName candidates
+scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName candidates
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+get candidates SimpleName MethodDeclaration SimpleType SimpleName exception
+get candidates SimpleName MethodDeclaration Block IfStatement SimpleName offline
+get candidates SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+get candidates SimpleName MethodDeclaration Block ReturnStatement SimpleName candidates
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get candidates
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get candidates
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,150 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+key SimpleName MethodInvocation SimpleName get class
+key SimpleName MethodInvocation InfixExpression SimpleName key class
+get class SimpleName MethodInvocation InfixExpression SimpleName key class
+wrong key class StringLiteral InfixExpression SimpleName key
+wrong key class StringLiteral InfixExpression StringLiteral is not
+wrong key class StringLiteral InfixExpression SimpleName key class
+key SimpleName InfixExpression StringLiteral is not
+key SimpleName InfixExpression SimpleName key class
+is not StringLiteral InfixExpression SimpleName key class
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral wrong key class
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key class
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation InfixExpression SimpleName val class
+get class SimpleName MethodInvocation InfixExpression SimpleName val class
+wrong value class StringLiteral InfixExpression SimpleName val
+wrong value class StringLiteral InfixExpression StringLiteral is not
+wrong value class StringLiteral InfixExpression SimpleName val class
+val SimpleName InfixExpression StringLiteral is not
+val SimpleName InfixExpression SimpleName val class
+is not StringLiteral InfixExpression SimpleName val class
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral wrong value class
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName val
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName val class
+key buffer SimpleName MethodInvocation SimpleName get length
+old key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName key buffer
+old key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName key buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+key serializer SimpleName MethodInvocation SimpleName serialize
+key serializer SimpleName MethodInvocation SimpleName key
+serialize SimpleName MethodInvocation SimpleName key
+key buffer SimpleName MethodInvocation SimpleName get length
+key buffer SimpleName MethodInvocation InfixExpression SimpleName old key length
+get length SimpleName MethodInvocation InfixExpression SimpleName old key length
+key length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName key buffer
+key length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+key length SimpleName VariableDeclarationFragment InfixExpression SimpleName old key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName old key length
+key length SimpleName InfixExpression NumberLiteral empty
+negative length keys not allowed StringLiteral InfixExpression SimpleName key
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral negative length keys not allowed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName key
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName key len buffer
+writable utils SimpleName MethodInvocation SimpleName key length
+write v int SimpleName MethodInvocation SimpleName key len buffer
+write v int SimpleName MethodInvocation SimpleName key length
+key len buffer SimpleName MethodInvocation SimpleName key length
+val buffer SimpleName MethodInvocation SimpleName get length
+old val length SimpleName VariableDeclarationFragment MethodInvocation SimpleName val buffer
+old val length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old val length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+uncompressed val serializer SimpleName MethodInvocation SimpleName serialize
+uncompressed val serializer SimpleName MethodInvocation SimpleName val
+serialize SimpleName MethodInvocation SimpleName val
+val buffer SimpleName MethodInvocation SimpleName get length
+val buffer SimpleName MethodInvocation InfixExpression SimpleName old val length
+get length SimpleName MethodInvocation InfixExpression SimpleName old val length
+val length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName val buffer
+val length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+val length SimpleName VariableDeclarationFragment InfixExpression SimpleName old val length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName old val length
+writable utils SimpleName MethodInvocation SimpleName write v int
+writable utils SimpleName MethodInvocation SimpleName val len buffer
+writable utils SimpleName MethodInvocation SimpleName val length
+write v int SimpleName MethodInvocation SimpleName val len buffer
+write v int SimpleName MethodInvocation SimpleName val length
+val len buffer SimpleName MethodInvocation SimpleName val length
+key buffer SimpleName MethodInvocation SimpleName get length
+val buffer SimpleName MethodInvocation SimpleName get length
+key buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val buffer
+key buffer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName val buffer
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+current block size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName key buffer
+current block size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+current block size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName val buffer
+current block size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current block size
+current block size SimpleName InfixExpression SimpleName compression block size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName append
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName append
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+append SimpleName MethodDeclaration SimpleType SimpleName io exception
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+append SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,53 @@
+default type cache provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+default cache provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName default cache provider
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default cache provider
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache provider class
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName cache provider class property
+application properties SimpleName MethodInvocation SimpleName default cache provider
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i type cache provider
+get class SimpleName MethodInvocation SimpleName cache provider class property
+get class SimpleName MethodInvocation SimpleName default cache provider
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i type cache provider
+cache provider class property SimpleName MethodInvocation SimpleName default cache provider
+cache provider class property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i type cache provider
+default cache provider SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i type cache provider
+cache provider class SimpleName Assignment MethodInvocation SimpleName application properties
+cache provider class SimpleName Assignment MethodInvocation SimpleName get class
+cache provider class SimpleName Assignment MethodInvocation SimpleName cache provider class property
+cache provider class SimpleName Assignment MethodInvocation SimpleName default cache provider
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral error getting type cache provider implementation class
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error getting type cache provider implementation class StringLiteral ClassInstanceCreation SimpleName e
+cache provider class SimpleName MethodInvocation SimpleName new instance
+i type cache provider SimpleName SimpleType CastExpression MethodInvocation SimpleName cache provider class
+i type cache provider SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+type cache SimpleName Assignment CastExpression SimpleType SimpleName i type cache provider
+type cache SimpleName Assignment CastExpression MethodInvocation SimpleName cache provider class
+type cache SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cache provider class SimpleName MethodInvocation SimpleName get name
+error creating instance of type cache provider implementation class StringLiteral InfixExpression MethodInvocation SimpleName cache provider class
+error creating instance of type cache provider implementation class StringLiteral InfixExpression MethodInvocation SimpleName get name
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral error creating instance of type cache provider implementation class
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error creating instance of type cache provider implementation class StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+cache provider class SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+get name SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init cache provider
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName init cache provider
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+init cache provider SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init cache provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init cache provider

@@ -1,0 +1,23 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tbl qualified name
+known tables SimpleName InfixExpression InfixExpression InfixExpression SimpleName tbl qualified name
+known tables SimpleName MethodInvocation SimpleName remove
+known tables SimpleName MethodInvocation SimpleName tbl qualified name
+remove SimpleName MethodInvocation SimpleName tbl qualified name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove from known table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+void PrimitiveType MethodDeclaration SimpleName remove from known table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+remove from known table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove from known table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove from known table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove from known table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tbl qualified name

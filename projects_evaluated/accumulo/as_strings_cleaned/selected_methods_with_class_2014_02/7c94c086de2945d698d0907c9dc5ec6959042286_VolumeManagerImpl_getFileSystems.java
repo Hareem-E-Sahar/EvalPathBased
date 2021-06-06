@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName volume
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName volume
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName volume
+private Modifier MethodDeclaration SimpleName get file systems
+private Modifier MethodDeclaration Block ReturnStatement SimpleName volumes by name
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file systems
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file systems
+volume SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get file systems
+get file systems SimpleName MethodDeclaration Block ReturnStatement SimpleName volumes by name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file systems
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file systems

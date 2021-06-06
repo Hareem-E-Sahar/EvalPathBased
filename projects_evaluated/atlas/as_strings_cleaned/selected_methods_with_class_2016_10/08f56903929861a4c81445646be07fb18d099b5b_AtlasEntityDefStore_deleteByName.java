@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName pre delete result
+void PrimitiveType MethodDeclaration SimpleName delete by name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pre delete result
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+delete by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+delete by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pre delete result
+delete by name SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pre delete result
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+pre delete result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pre delete result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pre delete result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

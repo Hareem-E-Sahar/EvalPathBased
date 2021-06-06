@@ -1,0 +1,13 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get controlled glossary term entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get controlled glossary term entity
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add controlled glossary development
+void PrimitiveType MethodDeclaration SimpleName add controlled glossary development
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add controlled glossary development
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add controlled glossary development

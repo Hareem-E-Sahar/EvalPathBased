@@ -1,0 +1,194 @@
+db StringLiteral InfixExpression MethodInvocation SimpleName random
+db name SimpleName VariableDeclarationFragment InfixExpression StringLiteral db
+db name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+create database StringLiteral InfixExpression SimpleName db name
+create database StringLiteral InfixExpression StringLiteral with dbproperties p v )
+db name SimpleName InfixExpression StringLiteral with dbproperties p v )
+run command SimpleName MethodInvocation InfixExpression StringLiteral create database
+run command SimpleName MethodInvocation InfixExpression SimpleName db name
+run command SimpleName MethodInvocation InfixExpression StringLiteral with dbproperties p v )
+num tables SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName num tables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num tables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType ArrayType ArrayCreation SimpleName num tables
+table names SimpleName VariableDeclarationFragment ArrayCreation SimpleName num tables
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num tables
+table names SimpleName ArrayAccess SimpleName i
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+table names SimpleName ArrayAccess Assignment MethodInvocation SimpleName create table
+table names SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral true
+table names SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral true
+table names SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral false
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName create table
+i SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral true
+i SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral true
+i SimpleName ArrayAccess Assignment MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num tables
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num tables SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral drop database s cascade
+string SimpleName MethodInvocation SimpleName db name
+format SimpleName MethodInvocation StringLiteral drop database s cascade
+format SimpleName MethodInvocation SimpleName db name
+drop database s cascade StringLiteral MethodInvocation SimpleName db name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral drop database s cascade
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral drop database s cascade
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+table names SimpleName ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation ArrayAccess SimpleName table names
+hive meta store bridge SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation ArrayAccess SimpleName table names
+get table qualified name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation ArrayAccess SimpleName table names
+cluster name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+db name SimpleName MethodInvocation ArrayAccess SimpleName table names
+db name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation SimpleName get column qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName table names
+hive meta store bridge SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation StringLiteral id
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName get table qualified name
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName db name
+get column qualified name SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName table names
+get column qualified name SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get column qualified name SimpleName MethodInvocation StringLiteral id
+hive meta store bridge SimpleName MethodInvocation MethodInvocation StringLiteral id
+get table qualified name SimpleName MethodInvocation MethodInvocation StringLiteral id
+cluster name SimpleName MethodInvocation MethodInvocation StringLiteral id
+db name SimpleName MethodInvocation MethodInvocation StringLiteral id
+table names SimpleName ArrayAccess MethodInvocation MethodInvocation StringLiteral id
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation StringLiteral id
+assert column is not registered SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+assert column is not registered SimpleName MethodInvocation MethodInvocation SimpleName get column qualified name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive meta store bridge
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table qualified name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db name
+assert column is not registered SimpleName MethodInvocation MethodInvocation StringLiteral id
+table names SimpleName ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation ArrayAccess SimpleName table names
+hive meta store bridge SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation ArrayAccess SimpleName table names
+get table qualified name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation ArrayAccess SimpleName table names
+cluster name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+db name SimpleName MethodInvocation ArrayAccess SimpleName table names
+db name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation SimpleName get column qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get table qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName db name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName table names
+hive meta store bridge SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+hive meta store bridge SimpleName MethodInvocation QualifiedName hive data model generatorname
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName get table qualified name
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+get column qualified name SimpleName MethodInvocation MethodInvocation SimpleName db name
+get column qualified name SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName table names
+get column qualified name SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get column qualified name SimpleName MethodInvocation QualifiedName hive data model generatorname
+hive meta store bridge SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+get table qualified name SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+cluster name SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+db name SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+table names SimpleName ArrayAccess MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+assert column is not registered SimpleName MethodInvocation MethodInvocation SimpleName hive meta store bridge
+assert column is not registered SimpleName MethodInvocation MethodInvocation SimpleName get column qualified name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive meta store bridge
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table qualified name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+assert column is not registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db name
+assert column is not registered SimpleName MethodInvocation MethodInvocation QualifiedName hive data model generatorname
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num tables
+table names SimpleName ArrayAccess SimpleName i
+assert table is not registered SimpleName MethodInvocation SimpleName db name
+assert table is not registered SimpleName MethodInvocation ArrayAccess SimpleName table names
+assert table is not registered SimpleName MethodInvocation ArrayAccess SimpleName i
+db name SimpleName MethodInvocation ArrayAccess SimpleName table names
+db name SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num tables
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num tables SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+assert db is not registered SimpleName MethodInvocation SimpleName db name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test drop database with cascade
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test drop database with cascade
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test drop database with cascade
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test drop database with cascade SimpleName MethodDeclaration SimpleType SimpleName exception
+test drop database with cascade SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test drop database with cascade SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test drop database with cascade SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test drop database with cascade
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test drop database with cascade
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

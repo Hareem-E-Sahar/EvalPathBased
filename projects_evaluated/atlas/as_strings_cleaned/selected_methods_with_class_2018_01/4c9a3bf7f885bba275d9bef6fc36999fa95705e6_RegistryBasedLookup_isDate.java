@@ -1,0 +1,55 @@
+gremlin query composercontext QualifiedName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+context SimpleName MethodInvocation SimpleName get active entity type
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName get active entity type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName get attribute type
+et SimpleName MethodInvocation SimpleName attribute name
+get attribute type SimpleName MethodInvocation SimpleName attribute name
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName et
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get type name
+attr SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type name SimpleName MethodInvocation MethodInvocation SimpleName equals
+attr SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type date
+get type name SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type date
+equals SimpleName MethodInvocation QualifiedName atlas base type defatlas type date
+attr SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+attr SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName atlas base type defatlas type date
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is date
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is date
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+boolean PrimitiveType MethodDeclaration SimpleName is date
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+is date SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName gremlin query composercontext
+is date SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+is date SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is date SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is date
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is date
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

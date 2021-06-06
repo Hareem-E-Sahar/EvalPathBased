@@ -1,0 +1,61 @@
+int PrimitiveType SingleVariableDeclaration SimpleName l
+offset SimpleName InfixExpression SimpleName l
+offset SimpleName InfixExpression InfixExpression QualifiedName datalength
+l SimpleName InfixExpression InfixExpression QualifiedName datalength
+datalength QualifiedName InfixExpression NumberLiteral empty
+new size SimpleName VariableDeclarationFragment InfixExpression QualifiedName datalength
+new size SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+offset SimpleName InfixExpression SimpleName l
+new size SimpleName InfixExpression InfixExpression SimpleName offset
+new size SimpleName InfixExpression InfixExpression SimpleName l
+new size SimpleName InfixExpression NumberLiteral empty
+new size SimpleName Assignment InfixExpression SimpleName new size
+new size SimpleName Assignment InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation SimpleName new size
+new data SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+new data SimpleName VariableDeclarationFragment ArrayCreation SimpleName new size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName new data
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName new data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName new data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName offset
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName new data
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName new data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName offset
+new data SimpleName MethodInvocation NumberLiteral empty
+new data SimpleName MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName offset
+data SimpleName Assignment SimpleName new data
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reserve
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName reserve
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+reserve SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+reserve SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reserve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reserve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName time boundary
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName time boundary
+public Modifier MethodDeclaration SimpleName get validity periods
+public Modifier MethodDeclaration Block ReturnStatement SimpleName validity periods
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get validity periods
+time boundary SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get validity periods
+get validity periods SimpleName MethodDeclaration Block ReturnStatement SimpleName validity periods
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get validity periods
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get validity periods

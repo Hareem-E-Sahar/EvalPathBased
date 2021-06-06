@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName sandbox name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName directory
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlasdata
+get property SimpleName MethodInvocation StringLiteral atlasdata
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+get property SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+atlasdata StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator char
+system SimpleName MethodInvocation InfixExpression SimpleName sandbox name
+get property SimpleName MethodInvocation InfixExpression SimpleName sandbox name
+atlasdata StringLiteral MethodInvocation InfixExpression SimpleName sandbox name
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+get property SimpleName MethodInvocation InfixExpression QualifiedName fileseparator char
+atlasdata StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator char
+system SimpleName MethodInvocation InfixExpression SimpleName directory
+get property SimpleName MethodInvocation InfixExpression SimpleName directory
+atlasdata StringLiteral MethodInvocation InfixExpression SimpleName directory
+fileseparator char QualifiedName InfixExpression SimpleName sandbox name
+fileseparator char QualifiedName InfixExpression QualifiedName fileseparator char
+fileseparator char QualifiedName InfixExpression SimpleName directory
+sandbox name SimpleName InfixExpression QualifiedName fileseparator char
+sandbox name SimpleName InfixExpression SimpleName directory
+fileseparator char QualifiedName InfixExpression SimpleName directory
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get storage dir
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName directory
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get storage dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName directory
+string SimpleName SimpleType MethodDeclaration SimpleName get storage dir
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName directory
+get storage dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get storage dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+get storage dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get storage dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName directory
+sandbox name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName directory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get storage dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName directory
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get storage dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sandbox name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName directory

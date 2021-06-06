@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+match all classification SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation SimpleName classification name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName match all classification
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals SimpleName MethodInvocation SimpleName classification name
+equals SimpleName MethodInvocation MethodInvocation SimpleName match all classification
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification name SimpleName MethodInvocation MethodInvocation SimpleName match all classification
+classification name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName Assignment SimpleName match all classification
+type registry SimpleName MethodInvocation SimpleName get classification type by name
+type registry SimpleName MethodInvocation SimpleName classification name
+get classification type by name SimpleName MethodInvocation SimpleName classification name
+ret SimpleName Assignment MethodInvocation SimpleName type registry
+ret SimpleName Assignment MethodInvocation SimpleName get classification type by name
+ret SimpleName Assignment MethodInvocation SimpleName classification name
+private Modifier MethodDeclaration SimpleType SimpleName atlas classification type
+private Modifier MethodDeclaration SimpleName get classification type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification type SimpleName SimpleType MethodDeclaration SimpleName get classification type
+atlas classification type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classification type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification name
+get classification type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification name

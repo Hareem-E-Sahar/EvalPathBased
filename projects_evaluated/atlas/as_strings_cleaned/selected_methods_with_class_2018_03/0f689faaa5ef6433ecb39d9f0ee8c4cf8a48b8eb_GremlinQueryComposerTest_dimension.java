@@ -1,0 +1,27 @@
+expected SimpleName VariableDeclarationFragment StringLiteral gvhas type name tableout eclassified ashas name withindimensionhas state activeout vdeduplimit to list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral gvhas type name tableout eclassified ashas name withindimensionhas state activeout vdeduplimit to list
+verify SimpleName MethodInvocation StringLiteral table isa dimension
+verify SimpleName MethodInvocation SimpleName expected
+table isa dimension StringLiteral MethodInvocation SimpleName expected
+verify SimpleName MethodInvocation StringLiteral table is dimension
+verify SimpleName MethodInvocation SimpleName expected
+table is dimension StringLiteral MethodInvocation SimpleName expected
+verify SimpleName MethodInvocation StringLiteral table where table is dimension
+verify SimpleName MethodInvocation SimpleName expected
+table where table is dimension StringLiteral MethodInvocation SimpleName expected
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName dimension
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dimension
+void PrimitiveType MethodDeclaration SimpleName dimension
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dimension
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dimension

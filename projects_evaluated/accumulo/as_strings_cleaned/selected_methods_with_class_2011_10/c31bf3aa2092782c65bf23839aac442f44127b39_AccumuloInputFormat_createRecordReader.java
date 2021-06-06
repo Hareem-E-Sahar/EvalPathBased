@@ -1,0 +1,116 @@
+record reader SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+record reader SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+input split SimpleName SimpleType SingleVariableDeclaration SimpleName split
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+get log level SimpleName MethodInvocation SimpleName context
+log SimpleName MethodInvocation SimpleName set level
+log SimpleName MethodInvocation MethodInvocation SimpleName get log level
+log SimpleName MethodInvocation MethodInvocation SimpleName context
+set level SimpleName MethodInvocation MethodInvocation SimpleName get log level
+set level SimpleName MethodInvocation MethodInvocation SimpleName context
+record reader base SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+record reader base SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner iterator SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner iterator SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner iterator
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+current key SimpleName Assignment MethodInvocation SimpleName entry
+current key SimpleName Assignment MethodInvocation SimpleName get key
+current k SimpleName Assignment Assignment SimpleName current key
+current k SimpleName Assignment Assignment MethodInvocation SimpleName entry
+current k SimpleName Assignment Assignment MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+current value SimpleName Assignment MethodInvocation SimpleName entry
+current value SimpleName Assignment MethodInvocation SimpleName get value
+current v SimpleName Assignment Assignment SimpleName current value
+current v SimpleName Assignment Assignment MethodInvocation SimpleName entry
+current v SimpleName Assignment Assignment MethodInvocation SimpleName get value
+log SimpleName MethodInvocation SimpleName is trace enabled
+default formatter SimpleName MethodInvocation SimpleName format entry
+default formatter SimpleName MethodInvocation SimpleName entry
+default formatter SimpleName MethodInvocation BooleanLiteral true
+format entry SimpleName MethodInvocation SimpleName entry
+format entry SimpleName MethodInvocation BooleanLiteral true
+entry SimpleName MethodInvocation BooleanLiteral true
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName default formatter
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName format entry
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation SimpleName entry
+processing keyvalue pair StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral processing keyvalue pair
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName default formatter
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+trace SimpleName MethodInvocation InfixExpression StringLiteral processing keyvalue pair
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName default formatter
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format entry
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+trace SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next key value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName next key value
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName next key value
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+next key value SimpleName MethodDeclaration SimpleType SimpleName io exception
+next key value SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+next key value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create record reader
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName split
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName record reader
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName create record reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+record reader SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create record reader
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create record reader
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create record reader
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName split
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+create record reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+create record reader SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+split SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create record reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create record reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

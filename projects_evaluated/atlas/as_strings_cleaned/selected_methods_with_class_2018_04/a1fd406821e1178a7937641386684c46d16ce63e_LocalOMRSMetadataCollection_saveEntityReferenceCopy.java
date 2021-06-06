@@ -1,0 +1,105 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+method name SimpleName VariableDeclarationFragment StringLiteral save entity reference copy
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral save entity reference copy
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral save entity reference copy
+validate repository SimpleName MethodInvocation SimpleName method name
+real metadata collection SimpleName MethodInvocation SimpleName save entity reference copy
+real metadata collection SimpleName MethodInvocation SimpleName server name
+real metadata collection SimpleName MethodInvocation SimpleName entity
+save entity reference copy SimpleName MethodInvocation SimpleName server name
+save entity reference copy SimpleName MethodInvocation SimpleName entity
+server name SimpleName MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName save entity reference copy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+void PrimitiveType MethodDeclaration SimpleName save entity reference copy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid parameter exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository error exception
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+save entity reference copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+save entity reference copy SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+save entity reference copy SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+save entity reference copy SimpleName MethodDeclaration SimpleType SimpleName type error exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property error exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName home entity exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName home entity exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity conflict exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName home entity exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity conflict exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid entity exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property error exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName home entity exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity conflict exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid entity exception
+type error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName home entity exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity conflict exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid entity exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+property error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+home entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity conflict exception
+home entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid entity exception
+home entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+home entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+entity conflict exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid entity exception
+entity conflict exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+entity conflict exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName function not supported exception
+invalid entity exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+function not supported exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save entity reference copy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName home entity exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity conflict exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid entity exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save entity reference copy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName home entity exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity conflict exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid entity exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

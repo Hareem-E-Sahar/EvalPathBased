@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get foreign key constraint SimpleName MethodInvocation SimpleName attribute name
+fk constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get foreign key constraint
+fk constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas constraint def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fk constraint
+fk constraint SimpleName MethodInvocation SimpleName get params
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName fk constraint
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get params
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName fk constraint
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get params
+fk constraint SimpleName InfixExpression InfixExpression MethodInvocation SimpleName map utils
+fk constraint SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+fk constraint SimpleName MethodInvocation SimpleName get params
+fk constraint SimpleName MethodInvocation MethodInvocation SimpleName get
+get params SimpleName MethodInvocation MethodInvocation SimpleName get
+fk constraint SimpleName MethodInvocation MethodInvocation QualifiedName atlas constraint defconstraint param on delete
+get params SimpleName MethodInvocation MethodInvocation QualifiedName atlas constraint defconstraint param on delete
+get SimpleName MethodInvocation QualifiedName atlas constraint defconstraint param on delete
+on delete action SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fk constraint
+on delete action SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get params
+on delete action SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+on delete action SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas constraint defconstraint param on delete
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName on delete action
+on delete action SimpleName MethodInvocation SimpleName to string
+ret SimpleName Assignment MethodInvocation SimpleName on delete action
+ret SimpleName Assignment MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get foreign key on delete action
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get foreign key on delete action
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get foreign key on delete action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get foreign key on delete action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get foreign key on delete action SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get foreign key on delete action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get foreign key on delete action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

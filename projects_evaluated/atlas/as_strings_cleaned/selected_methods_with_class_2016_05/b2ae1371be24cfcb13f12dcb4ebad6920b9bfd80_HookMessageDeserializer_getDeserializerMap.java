@@ -1,0 +1,35 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+collections SimpleName MethodInvocation SimpleType SimpleName type
+collections SimpleName MethodInvocation SimpleType SimpleName json deserializer
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation QualifiedName notification interfacehook notification class
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hook notification
+type SimpleName SimpleType MethodInvocation SimpleType SimpleName json deserializer
+type SimpleName SimpleType MethodInvocation SimpleName singleton map
+type SimpleName SimpleType MethodInvocation QualifiedName notification interfacehook notification class
+json deserializer SimpleName SimpleType MethodInvocation SimpleName singleton map
+json deserializer SimpleName SimpleType MethodInvocation QualifiedName notification interfacehook notification class
+singleton map SimpleName MethodInvocation QualifiedName notification interfacehook notification class
+singleton map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hook notification
+notification interfacehook notification class QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName hook notification
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName json deserializer
+private Modifier MethodDeclaration SimpleName get deserializer map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName json deserializer
+static Modifier MethodDeclaration SimpleName get deserializer map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deserializer map
+type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deserializer map
+json deserializer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get deserializer map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get deserializer map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get deserializer map

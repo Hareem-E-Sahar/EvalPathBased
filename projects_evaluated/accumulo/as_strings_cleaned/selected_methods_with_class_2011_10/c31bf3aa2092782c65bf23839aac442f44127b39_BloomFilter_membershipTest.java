@@ -1,0 +1,52 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral key cannot be null
+hash SimpleName MethodInvocation SimpleName hash
+hash SimpleName MethodInvocation SimpleName key
+hash SimpleName MethodInvocation SimpleName key
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName hash
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+hash SimpleName MethodInvocation SimpleName clear
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName nb hash
+h SimpleName ArrayAccess SimpleName i
+bits SimpleName MethodInvocation SimpleName get
+bits SimpleName MethodInvocation ArrayAccess SimpleName h
+bits SimpleName MethodInvocation ArrayAccess SimpleName i
+get SimpleName MethodInvocation ArrayAccess SimpleName h
+get SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nb hash
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+nb hash SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName membership test
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName membership test
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName membership test
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+membership test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+membership test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+membership test SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName membership test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName membership test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str path
+str path SimpleName MethodInvocation SimpleName starts with
+str path SimpleName MethodInvocation SimpleName s scheme
+starts with SimpleName MethodInvocation SimpleName s scheme
+str path SimpleName MethodInvocation SimpleName starts with
+str path SimpleName MethodInvocation SimpleName s a scheme
+starts with SimpleName MethodInvocation SimpleName s a scheme
+str path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str path
+str path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+str path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s a scheme
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str path
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s a scheme
+s scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str path
+s scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+s scheme SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s a scheme
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is s path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName str path
+boolean PrimitiveType MethodDeclaration SimpleName is s path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str path
+is s path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is s path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is s path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is s path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str path

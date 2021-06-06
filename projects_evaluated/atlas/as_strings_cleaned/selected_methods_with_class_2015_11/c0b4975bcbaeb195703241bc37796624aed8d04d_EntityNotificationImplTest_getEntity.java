@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+i struct SimpleName SimpleType SingleVariableDeclaration SimpleName traits
+type name SimpleName VariableDeclarationFragment StringLiteral type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral type name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+i struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+trait SimpleName MethodInvocation SimpleName get type name
+trait name SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait
+trait name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+trait names SimpleName MethodInvocation SimpleName add
+trait names SimpleName MethodInvocation SimpleName trait name
+add SimpleName MethodInvocation SimpleName trait name
+trait map SimpleName MethodInvocation SimpleName put
+trait map SimpleName MethodInvocation SimpleName trait name
+trait map SimpleName MethodInvocation SimpleName trait
+put SimpleName MethodInvocation SimpleName trait name
+put SimpleName MethodInvocation SimpleName trait
+trait name SimpleName MethodInvocation SimpleName trait
+i struct SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName id
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName type name
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName values
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName trait names
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName trait map
+id SimpleName ClassInstanceCreation SimpleName type name
+id SimpleName ClassInstanceCreation SimpleName values
+id SimpleName ClassInstanceCreation SimpleName trait names
+id SimpleName ClassInstanceCreation SimpleName trait map
+type name SimpleName ClassInstanceCreation SimpleName values
+type name SimpleName ClassInstanceCreation SimpleName trait names
+type name SimpleName ClassInstanceCreation SimpleName trait map
+values SimpleName ClassInstanceCreation SimpleName trait names
+values SimpleName ClassInstanceCreation SimpleName trait map
+trait names SimpleName ClassInstanceCreation SimpleName trait map
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName traits
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName traits
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName traits
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i struct
+get entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName traits
+get entity SimpleName MethodDeclaration Block EnhancedForStatement SimpleName traits
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits

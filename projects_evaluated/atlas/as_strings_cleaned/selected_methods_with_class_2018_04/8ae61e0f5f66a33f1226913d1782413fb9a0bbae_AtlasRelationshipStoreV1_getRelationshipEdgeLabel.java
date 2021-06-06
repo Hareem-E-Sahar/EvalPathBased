@@ -1,0 +1,90 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship type name
+type registry SimpleName MethodInvocation SimpleName get relationship type by name
+type registry SimpleName MethodInvocation SimpleName relationship type name
+get relationship type by name SimpleName MethodInvocation SimpleName relationship type name
+relationship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+relationship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship type by name
+relationship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type name
+atlas relationship type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship type
+relationship type SimpleName MethodInvocation SimpleName get relationship def
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship def
+atlas relationship def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship def
+relationship type SimpleName MethodInvocation SimpleName get end type
+end type SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type
+end type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end type
+relationship type SimpleName MethodInvocation SimpleName get end type
+end type SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type
+end type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end type
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get type and all super types SimpleName MethodInvocation SimpleName type name
+vertex types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type and all super types
+vertex types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+end type SimpleName MethodInvocation SimpleName get type name
+vertex types SimpleName MethodInvocation SimpleName contains
+vertex types SimpleName MethodInvocation MethodInvocation SimpleName end type
+vertex types SimpleName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName end type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation MethodInvocation SimpleName get name
+get end def SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship def
+attribute name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end def
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+end type SimpleName MethodInvocation SimpleName get attribute
+end type SimpleName MethodInvocation SimpleName attribute name
+get attribute SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName end type
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get attribute
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName attribute name
+end type SimpleName MethodInvocation SimpleName get type name
+vertex types SimpleName MethodInvocation SimpleName contains
+vertex types SimpleName MethodInvocation MethodInvocation SimpleName end type
+vertex types SimpleName MethodInvocation MethodInvocation SimpleName get type name
+contains SimpleName MethodInvocation MethodInvocation SimpleName end type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation MethodInvocation SimpleName get name
+get end def SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship def
+attribute name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get end def
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+end type SimpleName MethodInvocation SimpleName get attribute
+end type SimpleName MethodInvocation SimpleName attribute name
+get attribute SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName end type
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get attribute
+attribute SimpleName Assignment ConditionalExpression MethodInvocation SimpleName attribute name
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get relationship edge label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship type name
+string SimpleName SimpleType MethodDeclaration SimpleName get relationship edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship type name
+get relationship edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get relationship edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship type name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type name

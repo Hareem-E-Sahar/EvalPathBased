@@ -1,0 +1,27 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName table configuration
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table configuration
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance map
+table configuration SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName instance map
+table configs SimpleName MethodInvocation SimpleName values
+table configuration SimpleName SimpleType SingleVariableDeclaration SimpleName c
+instance map SimpleName MethodInvocation SimpleName values
+c SimpleName MethodInvocation SimpleName expire all observers
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName instance map
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+instance map SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table configs
+instance map SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName expire all table observers
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName table configs
+void PrimitiveType MethodDeclaration SimpleName expire all table observers
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName table configs
+expire all table observers SimpleName MethodDeclaration Block SynchronizedStatement SimpleName table configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expire all table observers
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expire all table observers

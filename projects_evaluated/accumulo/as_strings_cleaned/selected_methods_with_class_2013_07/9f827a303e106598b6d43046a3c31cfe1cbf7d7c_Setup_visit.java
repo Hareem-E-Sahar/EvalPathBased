@@ -1,0 +1,206 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral rand
+state SimpleName MethodInvocation SimpleName rand
+set SimpleName MethodInvocation StringLiteral rand
+set SimpleName MethodInvocation SimpleName rand
+rand StringLiteral MethodInvocation SimpleName rand
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral num tables
+props SimpleName MethodInvocation StringLiteral empty
+get property SimpleName MethodInvocation StringLiteral num tables
+get property SimpleName MethodInvocation StringLiteral empty
+num tables StringLiteral MethodInvocation StringLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName props
+integer SimpleName MethodInvocation MethodInvocation SimpleName get property
+integer SimpleName MethodInvocation MethodInvocation StringLiteral num tables
+integer SimpleName MethodInvocation MethodInvocation StringLiteral empty
+parse int SimpleName MethodInvocation MethodInvocation SimpleName props
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral num tables
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral empty
+num tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+num tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+num tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+num tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+num tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral num tables
+num tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num tables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+num tables = StringLiteral InfixExpression SimpleName num tables
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral num tables =
+log SimpleName MethodInvocation InfixExpression SimpleName num tables
+debug SimpleName MethodInvocation InfixExpression StringLiteral num tables =
+debug SimpleName MethodInvocation InfixExpression SimpleName num tables
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+num tables SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName num tables
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ctt % d
+string SimpleName MethodInvocation SimpleName i
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral ctt % d
+format SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation SimpleName i
+ctt % d StringLiteral MethodInvocation SimpleName i
+ctt % d StringLiteral MethodInvocation SimpleName i
+i SimpleName MethodInvocation SimpleName i
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation MethodInvocation SimpleName string
+tables SimpleName MethodInvocation MethodInvocation SimpleName format
+tables SimpleName MethodInvocation MethodInvocation StringLiteral ctt % d
+tables SimpleName MethodInvocation MethodInvocation SimpleName i
+tables SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation StringLiteral ctt % d
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num tables SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral nspacectt % d
+string SimpleName MethodInvocation InfixExpression SimpleName num tables
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation StringLiteral nspacectt % d
+format SimpleName MethodInvocation InfixExpression SimpleName num tables
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nspacectt % d StringLiteral MethodInvocation InfixExpression SimpleName num tables
+nspacectt % d StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation MethodInvocation SimpleName string
+tables SimpleName MethodInvocation MethodInvocation SimpleName format
+tables SimpleName MethodInvocation MethodInvocation StringLiteral nspacectt % d
+tables SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num tables
+tables SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation StringLiteral nspacectt % d
+add SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num tables
+add SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral tables
+state SimpleName MethodInvocation SimpleName tables
+set SimpleName MethodInvocation StringLiteral tables
+set SimpleName MethodInvocation SimpleName tables
+tables StringLiteral MethodInvocation SimpleName tables
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral num users
+props SimpleName MethodInvocation StringLiteral empty
+get property SimpleName MethodInvocation StringLiteral num users
+get property SimpleName MethodInvocation StringLiteral empty
+num users StringLiteral MethodInvocation StringLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName props
+integer SimpleName MethodInvocation MethodInvocation SimpleName get property
+integer SimpleName MethodInvocation MethodInvocation StringLiteral num users
+integer SimpleName MethodInvocation MethodInvocation StringLiteral empty
+parse int SimpleName MethodInvocation MethodInvocation SimpleName props
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral num users
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral empty
+num users SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+num users SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+num users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+num users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+num users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral num users
+num users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num users
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+num users = StringLiteral InfixExpression SimpleName num users
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral num users =
+log SimpleName MethodInvocation InfixExpression SimpleName num users
+debug SimpleName MethodInvocation InfixExpression StringLiteral num users =
+debug SimpleName MethodInvocation InfixExpression SimpleName num users
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num users
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral user d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral user d
+format SimpleName MethodInvocation SimpleName i
+user d StringLiteral MethodInvocation SimpleName i
+users SimpleName MethodInvocation SimpleName add
+users SimpleName MethodInvocation MethodInvocation SimpleName string
+users SimpleName MethodInvocation MethodInvocation SimpleName format
+users SimpleName MethodInvocation MethodInvocation StringLiteral user d
+users SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation StringLiteral user d
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num users
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num users SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral users
+state SimpleName MethodInvocation SimpleName users
+set SimpleName MethodInvocation StringLiteral users
+set SimpleName MethodInvocation SimpleName users
+users StringLiteral MethodInvocation SimpleName users
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

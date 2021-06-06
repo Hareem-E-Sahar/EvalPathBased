@@ -1,0 +1,79 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+entity type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName entity
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName get relationship attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get relationship attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+map vertex to relationship attribute SimpleName MethodInvocation SimpleName entity vertex
+map vertex to relationship attribute SimpleName MethodInvocation SimpleName entity type
+map vertex to relationship attribute SimpleName MethodInvocation SimpleName attribute
+entity vertex SimpleName MethodInvocation SimpleName entity type
+entity vertex SimpleName MethodInvocation SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName map vertex to relationship attribute
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName set relationship attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName attr value
+set relationship attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute
+set relationship attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+set relationship attribute SimpleName MethodInvocation SimpleName attr value
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName map relationship attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName map relationship attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+map relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+map relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+map relationship attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map relationship attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map relationship attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

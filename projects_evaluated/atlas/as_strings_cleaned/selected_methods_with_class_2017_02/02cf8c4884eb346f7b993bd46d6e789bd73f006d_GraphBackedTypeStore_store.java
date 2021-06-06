@@ -1,0 +1,71 @@
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get or create type vertices SimpleName MethodInvocation SimpleName type system
+get or create type vertices SimpleName MethodInvocation SimpleName type names
+type system SimpleName MethodInvocation SimpleName type names
+type vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get or create type vertices
+type vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName type names
+type persistence visitor SimpleName SimpleType ClassInstanceCreation SimpleName type vertices
+type persistence visitor SimpleName SimpleType ClassInstanceCreation SimpleName type system
+type vertices SimpleName ClassInstanceCreation SimpleName type system
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type persistence visitor
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type vertices
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+type persistence visitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName visitor
+process types SimpleName MethodInvocation SimpleName type names
+process types SimpleName MethodInvocation SimpleName type system
+process types SimpleName MethodInvocation SimpleName visitor
+type names SimpleName MethodInvocation SimpleName type system
+type names SimpleName MethodInvocation SimpleName visitor
+type system SimpleName MethodInvocation SimpleName visitor
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName store
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type system
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName store
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type system
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName store
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type names
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type names
+store SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

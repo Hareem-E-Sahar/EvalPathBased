@@ -1,0 +1,15 @@
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName user
+is empty SimpleName MethodInvocation SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get user
+public Modifier MethodDeclaration Block ReturnStatement SimpleName user
+string SimpleName SimpleType MethodDeclaration SimpleName get user
+get user SimpleName MethodDeclaration Block ReturnStatement SimpleName user
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user

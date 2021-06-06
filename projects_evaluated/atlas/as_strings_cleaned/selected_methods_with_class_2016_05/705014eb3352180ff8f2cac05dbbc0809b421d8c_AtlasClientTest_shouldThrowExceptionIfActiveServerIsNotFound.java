@@ -1,0 +1,133 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+uri builder SimpleName MethodInvocation SimpleName from uri
+uri builder SimpleName MethodInvocation StringLiteral httplocalhost
+from uri SimpleName MethodInvocation StringLiteral httplocalhost
+uri builder SimpleName MethodInvocation MethodInvocation SimpleName build
+from uri SimpleName MethodInvocation MethodInvocation SimpleName build
+httplocalhost StringLiteral MethodInvocation MethodInvocation SimpleName build
+client SimpleName MethodInvocation SimpleName resource
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri builder
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from uri
+client SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral httplocalhost
+client SimpleName MethodInvocation MethodInvocation SimpleName build
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uri builder
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from uri
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral httplocalhost
+resource SimpleName MethodInvocation MethodInvocation SimpleName build
+when SimpleName MethodInvocation MethodInvocation SimpleName client
+when SimpleName MethodInvocation MethodInvocation SimpleName resource
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName service
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+then return SimpleName MethodInvocation SimpleName service
+setup builder SimpleName MethodInvocation QualifiedName atlas clientapistatus
+setup builder SimpleName MethodInvocation SimpleName service
+atlas clientapistatus QualifiedName MethodInvocation SimpleName service
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup builder
+builder SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapistatus
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+web resourcebuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get status
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+when SimpleName MethodInvocation MethodInvocation SimpleName get status
+responsestatusok QualifiedName MethodInvocation SimpleName get status code
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+then return SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusok
+then return SimpleName MethodInvocation MethodInvocation SimpleName get status code
+response SimpleName MethodInvocation SimpleName get entity
+response SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+when SimpleName MethodInvocation MethodInvocation SimpleName get entity
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral statusbecoming active
+response SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral statusbecoming active
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral statusbecoming active
+then return SimpleName MethodInvocation StringLiteral statusbecoming active
+atlas clientapistatus QualifiedName MethodInvocation SimpleName get method
+builder SimpleName MethodInvocation SimpleName method
+builder SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientapistatus
+builder SimpleName MethodInvocation MethodInvocation SimpleName get method
+builder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+method SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientapistatus
+method SimpleName MethodInvocation MethodInvocation SimpleName get method
+method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+when SimpleName MethodInvocation MethodInvocation SimpleName builder
+when SimpleName MethodInvocation MethodInvocation SimpleName method
+when SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientapistatus
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get method
+client handler exception SimpleName SimpleType ClassInstanceCreation StringLiteral simulating connection exception
+when SimpleName MethodInvocation MethodInvocation SimpleName then throw
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral simulating connection exception
+then throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName client handler exception
+then throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral simulating connection exception
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then throw SimpleName MethodInvocation MethodInvocation SimpleName then return
+simulating connection exception StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+then throw SimpleName MethodInvocation MethodInvocation SimpleName response
+simulating connection exception StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName response
+then return SimpleName MethodInvocation SimpleName response
+then throw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation SimpleName then return
+then throw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+then return SimpleName MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation SimpleName response
+then return SimpleName MethodInvocation SimpleName response
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName service
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+service SimpleName ClassInstanceCreation SimpleName configuration
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+httplocalhost StringLiteral ArrayInitializer StringLiteral httplocalhost
+atlas client SimpleName MethodInvocation SimpleName determine active service url
+atlas client SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+atlas client SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+atlas client SimpleName MethodInvocation SimpleName client
+determine active service url SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+determine active service url SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral httplocalhost
+determine active service url SimpleName MethodInvocation SimpleName client
+httplocalhost StringLiteral ArrayInitializer ArrayCreation MethodInvocation SimpleName client
+httplocalhost StringLiteral ArrayInitializer ArrayCreation MethodInvocation SimpleName client
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName determine active service url
+service url SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service url
+assert null SimpleName MethodInvocation SimpleName service url
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName should throw exception if active server is not found
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName should throw exception if active server is not found
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should throw exception if active server is not found
+void PrimitiveType MethodDeclaration SimpleName should throw exception if active server is not found
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should throw exception if active server is not found
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should throw exception if active server is not found

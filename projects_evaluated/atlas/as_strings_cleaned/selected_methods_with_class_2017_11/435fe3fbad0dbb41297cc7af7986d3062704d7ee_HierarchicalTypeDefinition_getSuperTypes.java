@@ -1,0 +1,13 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get super types
+public Modifier MethodDeclaration Block ReturnStatement SimpleName super types
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super types
+get super types SimpleName MethodDeclaration Block ReturnStatement SimpleName super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get super types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get super types

@@ -1,0 +1,67 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName types registry
+idx struct def SimpleName MethodInvocation SimpleName get and increment
+struct def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx struct def
+struct def idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and increment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct def idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName idx struct def
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get and increment
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct def
+atlas struct def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+prefix struct def SimpleName InfixExpression SimpleName struct def idx
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation InfixExpression SimpleName prefix struct def
+ret SimpleName MethodInvocation InfixExpression SimpleName struct def idx
+set name SimpleName MethodInvocation InfixExpression SimpleName prefix struct def
+set name SimpleName MethodInvocation InfixExpression SimpleName struct def idx
+ret SimpleName MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation SimpleName set description
+ret SimpleName MethodInvocation MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation MethodInvocation SimpleName get name
+set description SimpleName MethodInvocation MethodInvocation SimpleName ret
+set description SimpleName MethodInvocation MethodInvocation SimpleName get name
+new attribute defs with all built in types SimpleName MethodInvocation SimpleName prefix attribute name
+ret SimpleName MethodInvocation SimpleName set attribute defs
+ret SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+ret SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName new attribute defs with all built in types
+set attribute defs SimpleName MethodInvocation MethodInvocation SimpleName prefix attribute name
+types registry SimpleName MethodInvocation SimpleName add type
+types registry SimpleName MethodInvocation SimpleName ret
+add type SimpleName MethodInvocation SimpleName ret
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to create structdef
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral failed to create structdef
+error SimpleName MethodInvocation SimpleName excp
+failed to create structdef StringLiteral MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SimpleName new struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SimpleName new struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName new struct def
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new struct def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+new struct def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new struct def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+new struct def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName new struct def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new struct def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry

@@ -1,0 +1,121 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+long PrimitiveType SingleVariableDeclaration SimpleName id
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+logs SimpleName MethodInvocation SimpleName remove
+logs SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName logs
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+out SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral io exception occurred closing file
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral io exception occurred closing file
+error SimpleName MethodInvocation SimpleName ex
+io exception occurred closing file StringLiteral MethodInvocation SimpleName ex
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+file id SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation SimpleName id
+get value SimpleName MethodInvocation MethodInvocation SimpleName id
+equals SimpleName MethodInvocation SimpleName id
+entry SimpleName MethodInvocation SimpleName get key
+file id SimpleName MethodInvocation SimpleName remove
+file id SimpleName MethodInvocation MethodInvocation SimpleName entry
+file id SimpleName MethodInvocation MethodInvocation SimpleName get key
+remove SimpleName MethodInvocation MethodInvocation SimpleName entry
+remove SimpleName MethodInvocation MethodInvocation SimpleName get key
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+metrics SimpleName MethodInvocation SimpleName is enabled
+t SimpleName InfixExpression SimpleName t
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName log writer metricsclose
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation QualifiedName log writer metricsclose
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricsclose QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricsclose QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file id
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected failure to find a filename matching an id
+long PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName logs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName info
+synchronized Modifier MethodDeclaration Modifier public
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName close
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration SimpleType SimpleName no such log id exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleType SimpleName no such log id exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName logs
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+close SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+close SimpleName MethodDeclaration SimpleType SimpleName no such log id exception
+close SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+close SimpleName MethodDeclaration Block SynchronizedStatement SimpleName logs
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such log id exception

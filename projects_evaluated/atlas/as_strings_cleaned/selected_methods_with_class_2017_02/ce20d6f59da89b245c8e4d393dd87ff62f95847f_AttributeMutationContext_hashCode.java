@@ -1,0 +1,45 @@
+objects SimpleName MethodInvocation SimpleName hash
+objects SimpleName MethodInvocation SimpleName op
+objects SimpleName MethodInvocation SimpleName referring vertex
+objects SimpleName MethodInvocation SimpleName attribute
+objects SimpleName MethodInvocation SimpleName value
+hash SimpleName MethodInvocation SimpleName op
+hash SimpleName MethodInvocation SimpleName referring vertex
+hash SimpleName MethodInvocation SimpleName attribute
+hash SimpleName MethodInvocation SimpleName value
+hash SimpleName MethodInvocation SimpleName vertex property
+op SimpleName MethodInvocation SimpleName referring vertex
+op SimpleName MethodInvocation SimpleName attribute
+op SimpleName MethodInvocation SimpleName value
+op SimpleName MethodInvocation SimpleName vertex property
+op SimpleName MethodInvocation SimpleName current element type
+referring vertex SimpleName MethodInvocation SimpleName attribute
+referring vertex SimpleName MethodInvocation SimpleName value
+referring vertex SimpleName MethodInvocation SimpleName vertex property
+referring vertex SimpleName MethodInvocation SimpleName current element type
+referring vertex SimpleName MethodInvocation SimpleName existing edge
+attribute SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName vertex property
+attribute SimpleName MethodInvocation SimpleName current element type
+attribute SimpleName MethodInvocation SimpleName existing edge
+value SimpleName MethodInvocation SimpleName vertex property
+value SimpleName MethodInvocation SimpleName current element type
+value SimpleName MethodInvocation SimpleName existing edge
+vertex property SimpleName MethodInvocation SimpleName current element type
+vertex property SimpleName MethodInvocation SimpleName existing edge
+current element type SimpleName MethodInvocation SimpleName existing edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

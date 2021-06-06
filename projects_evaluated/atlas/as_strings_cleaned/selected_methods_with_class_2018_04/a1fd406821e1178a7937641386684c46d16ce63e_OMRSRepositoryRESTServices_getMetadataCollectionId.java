@@ -1,0 +1,49 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral metadatacollectionid
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral metadatacollectionid
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral metadatacollectionid
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral metadatacollectionid
+method name SimpleName VariableDeclarationFragment StringLiteral get metadata collection id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get metadata collection id
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName get metadata collection id
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+metadatacollectionid StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName string
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName get metadata collection id
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get metadata collection id
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get metadata collection id
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get metadata collection id
+metadatacollectionid StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName get metadata collection id
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get metadata collection id
+public Modifier MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName get metadata collection id
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+get metadata collection id SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+get metadata collection id SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

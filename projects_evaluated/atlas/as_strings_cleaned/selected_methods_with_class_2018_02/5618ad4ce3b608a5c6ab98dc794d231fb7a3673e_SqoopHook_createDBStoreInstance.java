@@ -1,0 +1,135 @@
+sqoop job data publisherdata QualifiedName SimpleType SingleVariableDeclaration SimpleName data
+data SimpleName MethodInvocation SimpleName get store table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get store table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+data SimpleName MethodInvocation SimpleName get store query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get store query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName table
+is blank SimpleName MethodInvocation SimpleName table
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName query
+is blank SimpleName MethodInvocation SimpleName query
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query
+is blank SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is blank SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is blank
+is blank SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is blank
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query
+import exception SimpleName SimpleType ClassInstanceCreation StringLiteral both table and query cannot be empty for db store instance
+table SimpleName InfixExpression ConditionalExpression StringLiteral table
+table SimpleName InfixExpression ConditionalExpression StringLiteral query
+table StringLiteral ConditionalExpression StringLiteral query
+usage SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName table
+usage SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral table
+usage SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName usage
+table SimpleName InfixExpression ConditionalExpression SimpleName table
+table SimpleName InfixExpression ConditionalExpression SimpleName query
+table SimpleName ConditionalExpression SimpleName query
+source SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName table
+source SimpleName VariableDeclarationFragment ConditionalExpression SimpleName table
+source SimpleName VariableDeclarationFragment ConditionalExpression SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+get sqoop db store name SimpleName MethodInvocation SimpleName data
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sqoop db store name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+sqoop data typessqoop dbdatastore QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName sqoop data typessqoop dbdatastore
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ent db store SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+ent db store SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName sqoop data typessqoop dbdatastore
+ent db store SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent db store
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName atlas clientname
+ent db store SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientname
+set attribute SimpleName MethodInvocation SimpleName name
+atlas clientname QualifiedName MethodInvocation SimpleName name
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ent db store SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set attribute SimpleName MethodInvocation SimpleName name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName name
+data SimpleName MethodInvocation SimpleName get store type
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName sqoop hookdb store type
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName data
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName get store type
+set attribute SimpleName MethodInvocation QualifiedName sqoop hookdb store type
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName data
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get store type
+sqoop hookdb store type QualifiedName MethodInvocation MethodInvocation SimpleName data
+sqoop hookdb store type QualifiedName MethodInvocation MethodInvocation SimpleName get store type
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName sqoop hookdb store usage
+ent db store SimpleName MethodInvocation SimpleName usage
+set attribute SimpleName MethodInvocation QualifiedName sqoop hookdb store usage
+set attribute SimpleName MethodInvocation SimpleName usage
+sqoop hookdb store usage QualifiedName MethodInvocation SimpleName usage
+data SimpleName MethodInvocation SimpleName get url
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName sqoop hookstore uri
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName data
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName get url
+set attribute SimpleName MethodInvocation QualifiedName sqoop hookstore uri
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName data
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get url
+sqoop hookstore uri QualifiedName MethodInvocation MethodInvocation SimpleName data
+sqoop hookstore uri QualifiedName MethodInvocation MethodInvocation SimpleName get url
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName sqoop hooksource
+ent db store SimpleName MethodInvocation SimpleName source
+set attribute SimpleName MethodInvocation QualifiedName sqoop hooksource
+set attribute SimpleName MethodInvocation SimpleName source
+sqoop hooksource QualifiedName MethodInvocation SimpleName source
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName sqoop hookdescription
+ent db store SimpleName MethodInvocation StringLiteral empty
+set attribute SimpleName MethodInvocation QualifiedName sqoop hookdescription
+set attribute SimpleName MethodInvocation StringLiteral empty
+sqoop hookdescription QualifiedName MethodInvocation StringLiteral empty
+data SimpleName MethodInvocation SimpleName get user
+ent db store SimpleName MethodInvocation SimpleName set attribute
+ent db store SimpleName MethodInvocation QualifiedName atlas clientowner
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName data
+ent db store SimpleName MethodInvocation MethodInvocation SimpleName get user
+set attribute SimpleName MethodInvocation QualifiedName atlas clientowner
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName data
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get user
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName data
+atlas clientowner QualifiedName MethodInvocation MethodInvocation SimpleName get user
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName create db store instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+private Modifier MethodDeclaration SimpleType SimpleName import exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ent db store
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create db store instance
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName import exception
+create db store instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName sqoop job data publisherdata
+create db store instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+create db store instance SimpleName MethodDeclaration SimpleType SimpleName import exception
+create db store instance SimpleName MethodDeclaration Block ReturnStatement SimpleName ent db store
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName import exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create db store instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName import exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create db store instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName import exception

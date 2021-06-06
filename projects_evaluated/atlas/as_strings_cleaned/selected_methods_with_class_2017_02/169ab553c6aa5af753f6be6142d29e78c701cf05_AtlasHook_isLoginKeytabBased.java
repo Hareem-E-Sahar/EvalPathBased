@@ -1,0 +1,37 @@
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+user group information SimpleName MethodInvocation SimpleName is login keytab based
+ret SimpleName Assignment MethodInvocation SimpleName user group information
+ret SimpleName Assignment MethodInvocation SimpleName is login keytab based
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error in determining whether to use ticketcache or keytab for kafka client jaas configuration
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral error in determining whether to use ticketcache or keytab for kafka client jaas configuration
+error SimpleName MethodInvocation SimpleName excp
+error in determining whether to use ticketcache or keytab for kafka client jaas configuration StringLiteral MethodInvocation SimpleName excp
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is login keytab based
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is login keytab based
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is login keytab based
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is login keytab based SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is login keytab based SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is login keytab based
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is login keytab based

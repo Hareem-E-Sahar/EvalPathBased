@@ -1,0 +1,316 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName c
+accumulo cluster SimpleName SimpleType SingleVariableDeclaration SimpleName cluster
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName password
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName keytab
+vopts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName verify ingestopts
+verify ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vopts
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test ingestopts
+test ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+vopts SimpleName MethodInvocation SimpleName set table name
+vopts SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+opts SimpleName MethodInvocation SimpleName set table name
+opts SimpleName MethodInvocation SimpleName table name
+set table name SimpleName MethodInvocation SimpleName table name
+optsrows QualifiedName Assignment NumberLiteral empty
+voptsrows QualifiedName Assignment Assignment QualifiedName optsrows
+voptsrows QualifiedName Assignment Assignment NumberLiteral empty
+optscols QualifiedName Assignment NumberLiteral empty
+voptscols QualifiedName Assignment Assignment QualifiedName optscols
+voptscols QualifiedName Assignment Assignment NumberLiteral empty
+optsrandom QualifiedName Assignment NumberLiteral empty
+voptsrandom QualifiedName Assignment Assignment QualifiedName optsrandom
+voptsrandom QualifiedName Assignment Assignment NumberLiteral empty
+assert null SimpleName MethodInvocation StringLiteral given password expected null keytab
+assert null SimpleName MethodInvocation SimpleName keytab
+given password expected null keytab StringLiteral MethodInvocation SimpleName keytab
+password SimpleName SimpleType ClassInstanceCreation SimpleName password
+passwd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName password
+passwd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName password
+password SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName passwd
+opts SimpleName MethodInvocation SimpleName set password
+opts SimpleName MethodInvocation SimpleName passwd
+set password SimpleName MethodInvocation SimpleName passwd
+opts SimpleName MethodInvocation SimpleName set principal
+opts SimpleName MethodInvocation SimpleName user
+set principal SimpleName MethodInvocation SimpleName user
+vopts SimpleName MethodInvocation SimpleName set password
+vopts SimpleName MethodInvocation SimpleName passwd
+set password SimpleName MethodInvocation SimpleName passwd
+vopts SimpleName MethodInvocation SimpleName set principal
+vopts SimpleName MethodInvocation SimpleName user
+set principal SimpleName MethodInvocation SimpleName user
+assert null SimpleName MethodInvocation StringLiteral given keytab expect null password
+assert null SimpleName MethodInvocation SimpleName password
+given keytab expect null password StringLiteral MethodInvocation SimpleName password
+cluster SimpleName MethodInvocation SimpleName get client config
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+client config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client config
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client config
+opts SimpleName MethodInvocation SimpleName update kerberos credentials
+opts SimpleName MethodInvocation SimpleName client config
+update kerberos credentials SimpleName MethodInvocation SimpleName client config
+vopts SimpleName MethodInvocation SimpleName update kerberos credentials
+vopts SimpleName MethodInvocation SimpleName client config
+update kerberos credentials SimpleName MethodInvocation SimpleName client config
+fail SimpleName MethodInvocation StringLiteral expected one of password or keytab
+bwopts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bwopts
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation SimpleName bwopts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation SimpleName bwopts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation SimpleName bwopts
+opts SimpleName MethodInvocation SimpleName bwopts
+assert null SimpleName MethodInvocation StringLiteral given password expected null keytab
+assert null SimpleName MethodInvocation SimpleName keytab
+given password expected null keytab StringLiteral MethodInvocation SimpleName keytab
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral p
+u StringLiteral ArrayInitializer SimpleName password
+u StringLiteral ArrayInitializer StringLiteral i
+u StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+u StringLiteral ArrayInitializer MethodInvocation SimpleName get instance name
+user SimpleName ArrayInitializer StringLiteral p
+user SimpleName ArrayInitializer SimpleName password
+user SimpleName ArrayInitializer StringLiteral i
+user SimpleName ArrayInitializer MethodInvocation SimpleName cluster
+user SimpleName ArrayInitializer MethodInvocation SimpleName get instance name
+user SimpleName ArrayInitializer StringLiteral z
+p StringLiteral ArrayInitializer SimpleName password
+p StringLiteral ArrayInitializer StringLiteral i
+p StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+p StringLiteral ArrayInitializer MethodInvocation SimpleName get instance name
+p StringLiteral ArrayInitializer StringLiteral z
+p StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+p StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+password SimpleName ArrayInitializer StringLiteral i
+password SimpleName ArrayInitializer MethodInvocation SimpleName cluster
+password SimpleName ArrayInitializer MethodInvocation SimpleName get instance name
+password SimpleName ArrayInitializer StringLiteral z
+password SimpleName ArrayInitializer MethodInvocation SimpleName cluster
+password SimpleName ArrayInitializer MethodInvocation SimpleName get zoo keepers
+password SimpleName ArrayInitializer StringLiteral table
+i StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+i StringLiteral ArrayInitializer MethodInvocation SimpleName get instance name
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+i StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+i StringLiteral ArrayInitializer StringLiteral table
+i StringLiteral ArrayInitializer SimpleName table name
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral z
+get instance name SimpleName MethodInvocation ArrayInitializer StringLiteral z
+cluster SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral table
+get instance name SimpleName MethodInvocation ArrayInitializer StringLiteral table
+cluster SimpleName MethodInvocation ArrayInitializer SimpleName table name
+get instance name SimpleName MethodInvocation ArrayInitializer SimpleName table name
+z StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+z StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+z StringLiteral ArrayInitializer StringLiteral table
+z StringLiteral ArrayInitializer SimpleName table name
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral table
+get zoo keepers SimpleName MethodInvocation ArrayInitializer StringLiteral table
+cluster SimpleName MethodInvocation ArrayInitializer SimpleName table name
+get zoo keepers SimpleName MethodInvocation ArrayInitializer SimpleName table name
+table StringLiteral ArrayInitializer SimpleName table name
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral p
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName password
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName table name
+assert null SimpleName MethodInvocation StringLiteral given keytab expect null password
+assert null SimpleName MethodInvocation SimpleName password
+given keytab expect null password StringLiteral MethodInvocation SimpleName password
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+u StringLiteral ArrayInitializer SimpleName user
+u StringLiteral ArrayInitializer StringLiteral i
+u StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+u StringLiteral ArrayInitializer MethodInvocation SimpleName get instance name
+u StringLiteral ArrayInitializer StringLiteral z
+u StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+u StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+user SimpleName ArrayInitializer StringLiteral i
+user SimpleName ArrayInitializer MethodInvocation SimpleName cluster
+user SimpleName ArrayInitializer MethodInvocation SimpleName get instance name
+user SimpleName ArrayInitializer StringLiteral z
+user SimpleName ArrayInitializer MethodInvocation SimpleName cluster
+user SimpleName ArrayInitializer MethodInvocation SimpleName get zoo keepers
+user SimpleName ArrayInitializer StringLiteral table
+i StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+i StringLiteral ArrayInitializer MethodInvocation SimpleName get instance name
+i StringLiteral ArrayInitializer StringLiteral z
+i StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+i StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+i StringLiteral ArrayInitializer StringLiteral table
+i StringLiteral ArrayInitializer SimpleName table name
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral z
+get instance name SimpleName MethodInvocation ArrayInitializer StringLiteral z
+cluster SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral table
+get instance name SimpleName MethodInvocation ArrayInitializer StringLiteral table
+cluster SimpleName MethodInvocation ArrayInitializer SimpleName table name
+get instance name SimpleName MethodInvocation ArrayInitializer SimpleName table name
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral keytab
+get instance name SimpleName MethodInvocation ArrayInitializer StringLiteral keytab
+z StringLiteral ArrayInitializer MethodInvocation SimpleName cluster
+z StringLiteral ArrayInitializer MethodInvocation SimpleName get zoo keepers
+z StringLiteral ArrayInitializer StringLiteral table
+z StringLiteral ArrayInitializer SimpleName table name
+z StringLiteral ArrayInitializer StringLiteral keytab
+z StringLiteral ArrayInitializer SimpleName keytab
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral table
+get zoo keepers SimpleName MethodInvocation ArrayInitializer StringLiteral table
+cluster SimpleName MethodInvocation ArrayInitializer SimpleName table name
+get zoo keepers SimpleName MethodInvocation ArrayInitializer SimpleName table name
+cluster SimpleName MethodInvocation ArrayInitializer StringLiteral keytab
+get zoo keepers SimpleName MethodInvocation ArrayInitializer StringLiteral keytab
+cluster SimpleName MethodInvocation ArrayInitializer SimpleName keytab
+get zoo keepers SimpleName MethodInvocation ArrayInitializer SimpleName keytab
+table StringLiteral ArrayInitializer SimpleName table name
+table StringLiteral ArrayInitializer StringLiteral keytab
+table StringLiteral ArrayInitializer SimpleName keytab
+table name SimpleName ArrayInitializer StringLiteral keytab
+table name SimpleName ArrayInitializer SimpleName keytab
+keytab StringLiteral ArrayInitializer SimpleName keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral u
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName user
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral z
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral table
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName table name
+args SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral keytab
+args SimpleName Assignment ArrayCreation ArrayInitializer SimpleName keytab
+fail SimpleName MethodInvocation StringLiteral expected one of password or keytab
+cluster SimpleName MethodInvocation SimpleName get cluster control
+cluster SimpleName MethodInvocation MethodInvocation SimpleName exec
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation MethodInvocation SimpleName args
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName args
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test random deletes
+exec SimpleName MethodInvocation SimpleName args
+test random deletes SimpleName SimpleType TypeLiteral MethodInvocation SimpleName args
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster control
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName exec
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName args
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster control
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName exec
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName args
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation SimpleName bwopts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation SimpleName bwopts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation SimpleName bwopts
+opts SimpleName MethodInvocation SimpleName bwopts
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+vopts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete test
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName delete test
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo cluster
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleName delete test
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName password
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo cluster
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName password
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+password SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+password SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+keytab SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keytab
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

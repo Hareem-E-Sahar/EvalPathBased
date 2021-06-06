@@ -1,0 +1,37 @@
+graph SimpleName Assignment ClassInstanceCreation SimpleType SimpleName titan graph
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation SimpleName get subset configuration
+application properties SimpleName MethodInvocation MethodInvocation SimpleName application properties
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation QualifiedName titan graph databasegraph prefix
+get subset configuration SimpleName MethodInvocation MethodInvocation SimpleName application properties
+get subset configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get subset configuration SimpleName MethodInvocation QualifiedName titan graph databasegraph prefix
+application properties SimpleName MethodInvocation MethodInvocation QualifiedName titan graph databasegraph prefix
+get SimpleName MethodInvocation MethodInvocation QualifiedName titan graph databasegraph prefix
+configuration SimpleName Assignment MethodInvocation SimpleName application properties
+configuration SimpleName Assignment MethodInvocation SimpleName get subset configuration
+configuration SimpleName Assignment MethodInvocation MethodInvocation SimpleName application properties
+configuration SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+configuration SimpleName Assignment MethodInvocation QualifiedName titan graph databasegraph prefix
+before test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before test SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+set up SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

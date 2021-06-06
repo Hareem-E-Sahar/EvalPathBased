@@ -1,0 +1,43 @@
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation StringLiteral or condition and exprs
+append SimpleName MethodInvocation StringLiteral or condition and exprs
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName and condition
+children SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName children
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+and expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+and expr SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+and condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName and expr
+and expr SimpleName MethodInvocation SimpleName to string
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation MethodInvocation SimpleName and expr
+builder SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName and expr
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+it SimpleName MethodInvocation SimpleName has next
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+builder SimpleName MethodInvocation SimpleName append
+builder SimpleName MethodInvocation StringLiteral ]
+append SimpleName MethodInvocation StringLiteral ]
+builder SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

@@ -1,0 +1,31 @@
+create db and table SimpleName MethodInvocation SimpleName database name
+create db and table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+db and table SimpleName VariableDeclarationFragment MethodInvocation SimpleName create db and table
+db and table SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+db and table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+type utilspair QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db and table
+assert not null SimpleName MethodInvocation SimpleName db and table
+assert not null SimpleName MethodInvocation QualifiedName db and tableleft
+assert not null SimpleName MethodInvocation QualifiedName db and tableright
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test submit entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test submit entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test submit entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test submit entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test submit entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test submit entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,49 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+get relationship def SimpleName MethodInvocation SimpleName entity vertex
+get relationship def SimpleName MethodInvocation SimpleName entity type
+get relationship def SimpleName MethodInvocation SimpleName attribute name
+entity vertex SimpleName MethodInvocation SimpleName entity type
+entity vertex SimpleName MethodInvocation SimpleName attribute name
+entity type SimpleName MethodInvocation SimpleName attribute name
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship def
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+relationship def SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas relationship def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship def
+relationship def SimpleName MethodInvocation SimpleName get name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get relationship def name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType MethodDeclaration SimpleName get relationship def name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship def name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

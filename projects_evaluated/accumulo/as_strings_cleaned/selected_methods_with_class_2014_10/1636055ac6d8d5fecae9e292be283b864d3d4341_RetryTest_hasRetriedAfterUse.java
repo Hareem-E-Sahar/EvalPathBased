@@ -1,0 +1,28 @@
+retry SimpleName MethodInvocation SimpleName has retried
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert SimpleName MethodInvocation MethodInvocation SimpleName has retried
+assert false SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has retried
+retry SimpleName MethodInvocation SimpleName use retry
+retry SimpleName MethodInvocation SimpleName has retried
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert SimpleName MethodInvocation MethodInvocation SimpleName has retried
+assert true SimpleName MethodInvocation MethodInvocation SimpleName retry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has retried
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName has retried after use
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName has retried after use
+void PrimitiveType MethodDeclaration SimpleName has retried after use
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName has retried after use
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has retried after use

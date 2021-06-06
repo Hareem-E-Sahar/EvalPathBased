@@ -1,0 +1,133 @@
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName master monitor info
+final Modifier VariableDeclarationStatement SimpleType SimpleName master monitor info
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+master monitor info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+default map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+default map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName server entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName server entry
+tablet server status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName server entry
+tserver status SimpleName MethodInvocation SimpleName entry set
+server entry SimpleName MethodInvocation SimpleName get value
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName server entry
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+final Modifier VariableDeclarationStatement SimpleType SimpleName tablet server status
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName server entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+tablet server status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+resultt server info QualifiedName MethodInvocation SimpleName add
+resultt server info QualifiedName MethodInvocation SimpleName status
+add SimpleName MethodInvocation SimpleName status
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+table info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+statustable map QualifiedName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+resulttable map QualifiedName MethodInvocation SimpleName get
+resulttable map QualifiedName MethodInvocation MethodInvocation SimpleName entry
+resulttable map QualifiedName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+table info util SimpleName MethodInvocation SimpleName add
+table info util SimpleName MethodInvocation MethodInvocation QualifiedName resulttable map
+table info util SimpleName MethodInvocation MethodInvocation SimpleName get
+table info util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table info util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table info util SimpleName MethodInvocation MethodInvocation SimpleName entry
+table info util SimpleName MethodInvocation MethodInvocation SimpleName get value
+add SimpleName MethodInvocation MethodInvocation QualifiedName resulttable map
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation MethodInvocation SimpleName get value
+resulttable map QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+resulttable map QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName statustable map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+server entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tserver status
+server entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName byte
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName bad
+bad servers SimpleName MethodInvocation SimpleName key set
+bad SimpleName MethodInvocation SimpleName host port
+tablet server stateunresponsive QualifiedName MethodInvocation SimpleName get id
+resultbad t servers QualifiedName MethodInvocation SimpleName put
+resultbad t servers QualifiedName MethodInvocation MethodInvocation SimpleName bad
+resultbad t servers QualifiedName MethodInvocation MethodInvocation SimpleName host port
+resultbad t servers QualifiedName MethodInvocation MethodInvocation QualifiedName tablet server stateunresponsive
+resultbad t servers QualifiedName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName bad
+put SimpleName MethodInvocation MethodInvocation SimpleName host port
+put SimpleName MethodInvocation MethodInvocation QualifiedName tablet server stateunresponsive
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+bad SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tablet server stateunresponsive
+bad SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+host port SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tablet server stateunresponsive
+host port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+bad SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName bad servers
+bad SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+resultstate QualifiedName Assignment MethodInvocation SimpleName get master state
+resultgoal state QualifiedName Assignment MethodInvocation SimpleName get master goal state
+resultunassigned tablets QualifiedName Assignment MethodInvocation SimpleName display unassigned
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName server
+server SimpleName MethodInvocation SimpleName host port
+resultservers shutting down QualifiedName MethodInvocation SimpleName add
+resultservers shutting down QualifiedName MethodInvocation MethodInvocation SimpleName server
+resultservers shutting down QualifiedName MethodInvocation MethodInvocation SimpleName host port
+add SimpleName MethodInvocation MethodInvocation SimpleName server
+add SimpleName MethodInvocation MethodInvocation SimpleName host port
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName servers to shutdown
+server SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName servers to shutdown
+servers to shutdown SimpleName EnhancedForStatement ExpressionStatement MethodInvocation QualifiedName resultservers shutting down
+servers to shutdown SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+servers to shutdown SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName servers to shutdown
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszdeadtservers
+dead server list SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantszdeadtservers
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dead server list
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantszdeadtservers
+dead server list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obit
+obit SimpleName MethodInvocation SimpleName get list
+resultdead tablet servers QualifiedName Assignment MethodInvocation SimpleName obit
+resultdead tablet servers QualifiedName Assignment MethodInvocation SimpleName get list
+final Modifier VariableDeclarationStatement Block SynchronizedStatement SimpleName bad servers
+bad servers SimpleName SynchronizedStatement Block SynchronizedStatement SimpleName servers to shutdown
+servers to shutdown SimpleName SynchronizedStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName master monitor info
+public Modifier MethodDeclaration SimpleName get master monitor info
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName servers to shutdown
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+master monitor info SimpleName SimpleType MethodDeclaration SimpleName get master monitor info
+get master monitor info SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get master monitor info SimpleName MethodDeclaration Block SynchronizedStatement SimpleName bad servers
+get master monitor info SimpleName MethodDeclaration Block SynchronizedStatement SimpleName servers to shutdown
+get master monitor info SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName master monitor info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get master monitor info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName master monitor info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get master monitor info

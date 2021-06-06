@@ -1,0 +1,125 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName entity
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName type registry
+atlas entity type SimpleName SimpleType CastExpression MethodInvocation SimpleName get type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity type
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas struct typeatlas attribute QualifiedName SimpleType SingleVariableDeclaration SimpleName attr
+entity type SimpleName MethodInvocation SimpleName get all attributes
+entity type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attr SimpleName MethodInvocation SimpleName get attribute def
+attr SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get is unique
+attr SimpleName MethodInvocation SimpleName get attribute def
+attr SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute def
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+get attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute def
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+attr val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr val
+attr SimpleName MethodInvocation SimpleName get qualified attribute name
+qualified attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+qualified attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified attr name
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+entity type SimpleName MethodInvocation SimpleName get type name
+atlas entitystatusactive QualifiedName MethodInvocation SimpleName name
+graph helper SimpleName MethodInvocation SimpleName find vertex
+graph helper SimpleName MethodInvocation SimpleName qualified attr name
+graph helper SimpleName MethodInvocation SimpleName attr val
+graph helper SimpleName MethodInvocation QualifiedName constantsentity type property key
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName entity type
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get type name
+find vertex SimpleName MethodInvocation SimpleName qualified attr name
+find vertex SimpleName MethodInvocation SimpleName attr val
+find vertex SimpleName MethodInvocation QualifiedName constantsentity type property key
+find vertex SimpleName MethodInvocation MethodInvocation SimpleName entity type
+find vertex SimpleName MethodInvocation MethodInvocation SimpleName get type name
+find vertex SimpleName MethodInvocation QualifiedName constantsstate property key
+qualified attr name SimpleName MethodInvocation SimpleName attr val
+qualified attr name SimpleName MethodInvocation QualifiedName constantsentity type property key
+qualified attr name SimpleName MethodInvocation MethodInvocation SimpleName entity type
+qualified attr name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+qualified attr name SimpleName MethodInvocation QualifiedName constantsstate property key
+qualified attr name SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+qualified attr name SimpleName MethodInvocation MethodInvocation SimpleName name
+attr val SimpleName MethodInvocation QualifiedName constantsentity type property key
+attr val SimpleName MethodInvocation MethodInvocation SimpleName entity type
+attr val SimpleName MethodInvocation MethodInvocation SimpleName get type name
+attr val SimpleName MethodInvocation QualifiedName constantsstate property key
+attr val SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+attr val SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName entity type
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName get type name
+constantsentity type property key QualifiedName MethodInvocation QualifiedName constantsstate property key
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+get type name SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+vertex SimpleName Assignment MethodInvocation SimpleName graph helper
+vertex SimpleName Assignment MethodInvocation SimpleName find vertex
+vertex SimpleName Assignment MethodInvocation SimpleName qualified attr name
+vertex SimpleName Assignment MethodInvocation SimpleName attr val
+vertex SimpleName Assignment MethodInvocation QualifiedName constantsentity type property key
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName get type name
+vertex SimpleName Assignment MethodInvocation QualifiedName constantsstate property key
+vertex SimpleName Assignment MethodInvocation MethodInvocation QualifiedName atlas entitystatusactive
+vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName name
+log SimpleName MethodInvocation SimpleName is debug enabled
+found vertex by unique attribute : StringLiteral InfixExpression SimpleName qualified attr name
+found vertex by unique attribute : StringLiteral InfixExpression StringLiteral =
+found vertex by unique attribute : StringLiteral InfixExpression SimpleName attr val
+qualified attr name SimpleName InfixExpression StringLiteral =
+qualified attr name SimpleName InfixExpression SimpleName attr val
+= StringLiteral InfixExpression SimpleName attr val
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral found vertex by unique attribute :
+log SimpleName MethodInvocation InfixExpression SimpleName qualified attr name
+log SimpleName MethodInvocation InfixExpression StringLiteral =
+log SimpleName MethodInvocation InfixExpression SimpleName attr val
+debug SimpleName MethodInvocation InfixExpression StringLiteral found vertex by unique attribute :
+debug SimpleName MethodInvocation InfixExpression SimpleName qualified attr name
+debug SimpleName MethodInvocation InfixExpression StringLiteral =
+debug SimpleName MethodInvocation InfixExpression SimpleName attr val
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName vertex
+of SimpleName MethodInvocation SimpleName vertex
+entity not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+optional SimpleName MethodInvocation SimpleName absent
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve by unique attribute
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName resolve by unique attribute
+resolve by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+resolve by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+resolve by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

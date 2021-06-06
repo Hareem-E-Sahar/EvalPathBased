@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName guid
+param checker SimpleName MethodInvocation StringLiteral entity id
+not empty SimpleName MethodInvocation SimpleName guid
+not empty SimpleName MethodInvocation StringLiteral entity id
+guid SimpleName MethodInvocation StringLiteral entity id
+guid SimpleName Assignment MethodInvocation SimpleName param checker
+guid SimpleName Assignment MethodInvocation SimpleName not empty
+guid SimpleName Assignment MethodInvocation SimpleName guid
+guid SimpleName Assignment MethodInvocation StringLiteral entity id
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName guid
+get entity definition SimpleName MethodInvocation SimpleName guid
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName i typed referenceable instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName repository
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation SimpleName instance
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName instance
+to json SimpleName MethodInvocation BooleanLiteral true
+instance SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity definition json
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity definition json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName get entity definition json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get entity definition json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity definition json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity definition json SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get entity definition json SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity definition json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity definition json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

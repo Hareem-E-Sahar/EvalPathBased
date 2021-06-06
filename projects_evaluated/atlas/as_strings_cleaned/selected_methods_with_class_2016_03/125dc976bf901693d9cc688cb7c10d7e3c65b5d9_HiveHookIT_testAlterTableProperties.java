@@ -1,0 +1,109 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+put SimpleName MethodInvocation StringLiteral test prop key
+put SimpleName MethodInvocation StringLiteral test prop value
+test prop key StringLiteral MethodInvocation StringLiteral test prop value
+put SimpleName MethodInvocation StringLiteral comment
+put SimpleName MethodInvocation StringLiteral test comment
+comment StringLiteral MethodInvocation StringLiteral test comment
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected props
+fmt query SimpleName VariableDeclarationFragment StringLiteral alter table s set tblproperties s
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter table s set tblproperties s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmt query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral alter table s set tblproperties s
+get serialized props SimpleName MethodInvocation SimpleName expected props
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+string SimpleName MethodInvocation MethodInvocation SimpleName expected props
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+format SimpleName MethodInvocation MethodInvocation SimpleName expected props
+fmt query SimpleName MethodInvocation SimpleName table name
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+table name SimpleName MethodInvocation MethodInvocation SimpleName expected props
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName fmt query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get serialized props
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expected props
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+verify table properties SimpleName MethodInvocation SimpleName table name
+verify table properties SimpleName MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation SimpleName expected props
+expected props SimpleName MethodInvocation SimpleName put
+expected props SimpleName MethodInvocation StringLiteral test prop key
+expected props SimpleName MethodInvocation StringLiteral test prop value
+put SimpleName MethodInvocation StringLiteral test prop key
+put SimpleName MethodInvocation StringLiteral test prop value
+test prop key StringLiteral MethodInvocation StringLiteral test prop value
+get serialized props SimpleName MethodInvocation SimpleName expected props
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+string SimpleName MethodInvocation MethodInvocation SimpleName expected props
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+format SimpleName MethodInvocation MethodInvocation SimpleName expected props
+fmt query SimpleName MethodInvocation SimpleName table name
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+table name SimpleName MethodInvocation MethodInvocation SimpleName expected props
+query SimpleName Assignment MethodInvocation SimpleName string
+query SimpleName Assignment MethodInvocation SimpleName format
+query SimpleName Assignment MethodInvocation SimpleName fmt query
+query SimpleName Assignment MethodInvocation SimpleName table name
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName get serialized props
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName expected props
+run command SimpleName MethodInvocation SimpleName query
+verify table properties SimpleName MethodInvocation SimpleName table name
+verify table properties SimpleName MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation SimpleName expected props
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter table properties
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter table properties
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test alter table properties
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter table properties SimpleName MethodDeclaration SimpleType SimpleName exception
+test alter table properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter table properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter table properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter table properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

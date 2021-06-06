@@ -1,0 +1,134 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+uuid SimpleName SimpleType SingleVariableDeclaration SimpleName iid
+get master SimpleName MethodInvocation SimpleName iid
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName iid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+instance name SimpleName Assignment StringLiteral empty
+master SimpleName Assignment StringLiteral empty
+% StringLiteral InfixExpression SimpleName name width
+% StringLiteral InfixExpression StringLiteral s %
+% StringLiteral InfixExpression SimpleName uuid width
+% StringLiteral InfixExpression StringLiteral s %
+% StringLiteral InfixExpression SimpleName master width
+name width SimpleName InfixExpression StringLiteral s %
+name width SimpleName InfixExpression SimpleName uuid width
+name width SimpleName InfixExpression StringLiteral s %
+name width SimpleName InfixExpression SimpleName master width
+name width SimpleName InfixExpression StringLiteral s
+s % StringLiteral InfixExpression SimpleName uuid width
+s % StringLiteral InfixExpression StringLiteral s %
+s % StringLiteral InfixExpression SimpleName master width
+s % StringLiteral InfixExpression StringLiteral s
+uuid width SimpleName InfixExpression StringLiteral s %
+uuid width SimpleName InfixExpression SimpleName master width
+uuid width SimpleName InfixExpression StringLiteral s
+s % StringLiteral InfixExpression SimpleName master width
+s % StringLiteral InfixExpression StringLiteral s
+master width SimpleName InfixExpression StringLiteral s
+\ StringLiteral InfixExpression SimpleName instance name
+\ StringLiteral InfixExpression StringLiteral \
+instance name SimpleName InfixExpression StringLiteral \
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral %
+systemout QualifiedName MethodInvocation InfixExpression SimpleName name width
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral s %
+systemout QualifiedName MethodInvocation InfixExpression SimpleName uuid width
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral s %
+systemout QualifiedName MethodInvocation InfixExpression SimpleName master width
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral s
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral \
+systemout QualifiedName MethodInvocation InfixExpression SimpleName instance name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral \
+systemout QualifiedName MethodInvocation SimpleName iid
+systemout QualifiedName MethodInvocation SimpleName master
+printf SimpleName MethodInvocation InfixExpression StringLiteral %
+printf SimpleName MethodInvocation InfixExpression SimpleName name width
+printf SimpleName MethodInvocation InfixExpression StringLiteral s %
+printf SimpleName MethodInvocation InfixExpression SimpleName uuid width
+printf SimpleName MethodInvocation InfixExpression StringLiteral s %
+printf SimpleName MethodInvocation InfixExpression SimpleName master width
+printf SimpleName MethodInvocation InfixExpression StringLiteral s
+printf SimpleName MethodInvocation InfixExpression StringLiteral \
+printf SimpleName MethodInvocation InfixExpression SimpleName instance name
+printf SimpleName MethodInvocation InfixExpression StringLiteral \
+printf SimpleName MethodInvocation SimpleName iid
+printf SimpleName MethodInvocation SimpleName master
+% StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+% StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName instance name
+% StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+name width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+name width SimpleName InfixExpression MethodInvocation InfixExpression SimpleName instance name
+name width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+s % StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+s % StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName instance name
+s % StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+uuid width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+uuid width SimpleName InfixExpression MethodInvocation InfixExpression SimpleName instance name
+uuid width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+s % StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+s % StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName instance name
+s % StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+master width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+master width SimpleName InfixExpression MethodInvocation InfixExpression SimpleName instance name
+master width SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral \
+s StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+s StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName instance name
+s StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral \
+% StringLiteral InfixExpression MethodInvocation SimpleName iid
+name width SimpleName InfixExpression MethodInvocation SimpleName iid
+s % StringLiteral InfixExpression MethodInvocation SimpleName iid
+uuid width SimpleName InfixExpression MethodInvocation SimpleName iid
+s % StringLiteral InfixExpression MethodInvocation SimpleName iid
+master width SimpleName InfixExpression MethodInvocation SimpleName iid
+s StringLiteral InfixExpression MethodInvocation SimpleName iid
+% StringLiteral InfixExpression MethodInvocation SimpleName master
+name width SimpleName InfixExpression MethodInvocation SimpleName master
+s % StringLiteral InfixExpression MethodInvocation SimpleName master
+uuid width SimpleName InfixExpression MethodInvocation SimpleName master
+s % StringLiteral InfixExpression MethodInvocation SimpleName master
+master width SimpleName InfixExpression MethodInvocation SimpleName master
+s StringLiteral InfixExpression MethodInvocation SimpleName master
+\ StringLiteral InfixExpression MethodInvocation SimpleName iid
+instance name SimpleName InfixExpression MethodInvocation SimpleName iid
+\ StringLiteral InfixExpression MethodInvocation SimpleName iid
+\ StringLiteral InfixExpression MethodInvocation SimpleName master
+instance name SimpleName InfixExpression MethodInvocation SimpleName master
+\ StringLiteral InfixExpression MethodInvocation SimpleName master
+iid SimpleName MethodInvocation SimpleName master
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName print instance info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName iid
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName print instance info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iid
+void PrimitiveType MethodDeclaration SimpleName print instance info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iid
+print instance info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print instance info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance name
+print instance info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+print instance info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iid
+instance name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print instance info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print instance info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iid

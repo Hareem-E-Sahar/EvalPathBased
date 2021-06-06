@@ -1,0 +1,103 @@
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName attempt
+mutations written StringLiteral InfixExpression SimpleName mut count
+mutations written StringLiteral InfixExpression StringLiteral values written
+mutations written StringLiteral InfixExpression SimpleName val count
+mut count SimpleName InfixExpression StringLiteral values written
+mut count SimpleName InfixExpression SimpleName val count
+values written StringLiteral InfixExpression SimpleName val count
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral mutations written
+log SimpleName MethodInvocation InfixExpression SimpleName mut count
+log SimpleName MethodInvocation InfixExpression StringLiteral values written
+log SimpleName MethodInvocation InfixExpression SimpleName val count
+debug SimpleName MethodInvocation InfixExpression StringLiteral mutations written
+debug SimpleName MethodInvocation InfixExpression SimpleName mut count
+debug SimpleName MethodInvocation InfixExpression StringLiteral values written
+debug SimpleName MethodInvocation InfixExpression SimpleName val count
+mtbw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get authorization failures
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get authorization failures SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get authorization failures SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+e SimpleName MethodInvocation SimpleName get authorization failures
+ke SimpleName MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ke
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName e
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get authorization failures
+not authorized to write to tables : StringLiteral InfixExpression SimpleName tables
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral not authorized to write to tables :
+log SimpleName MethodInvocation InfixExpression SimpleName tables
+error SimpleName MethodInvocation InfixExpression StringLiteral not authorized to write to tables :
+error SimpleName MethodInvocation InfixExpression SimpleName tables
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation SimpleName size
+constraint violations : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+constraint violations : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get constraint violation summaries
+constraint violations : StringLiteral InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral constraint violations :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+error SimpleName MethodInvocation InfixExpression StringLiteral constraint violations :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attempt
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attempt
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName simulate
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attempt
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+close SimpleName MethodDeclaration Block IfStatement SimpleName simulate
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

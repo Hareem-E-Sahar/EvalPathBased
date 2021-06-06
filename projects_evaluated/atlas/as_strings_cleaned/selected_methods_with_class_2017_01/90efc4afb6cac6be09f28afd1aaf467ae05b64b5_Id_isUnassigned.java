@@ -1,0 +1,22 @@
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName id
+parse long SimpleName MethodInvocation SimpleName id
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName id
+l SimpleName InfixExpression NumberLiteral empty
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName ne
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is unassigned
+boolean PrimitiveType MethodDeclaration SimpleName is unassigned
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is unassigned
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is unassigned

@@ -1,0 +1,155 @@
+text SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+table name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+table name SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName nrl
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nr
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral g
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral g
+create locators SimpleName MethodInvocation StringLiteral foo
+create locators SimpleName MethodInvocation MethodInvocation SimpleName nke
+create locators SimpleName MethodInvocation MethodInvocation StringLiteral foo
+create locators SimpleName MethodInvocation MethodInvocation StringLiteral g
+create locators SimpleName MethodInvocation StringLiteral l
+create locators SimpleName MethodInvocation MethodInvocation SimpleName nke
+create locators SimpleName MethodInvocation MethodInvocation StringLiteral foo
+create locators SimpleName MethodInvocation MethodInvocation StringLiteral g
+create locators SimpleName MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation SimpleName nke
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation SimpleName nke
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral l
+nke SimpleName MethodInvocation MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral l
+g StringLiteral MethodInvocation MethodInvocation StringLiteral l
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+nke SimpleName MethodInvocation MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral l
+g StringLiteral MethodInvocation MethodInvocation StringLiteral l
+l StringLiteral MethodInvocation MethodInvocation SimpleName nke
+l StringLiteral MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation StringLiteral g
+l StringLiteral MethodInvocation StringLiteral l
+nke SimpleName MethodInvocation MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation StringLiteral l
+g StringLiteral MethodInvocation MethodInvocation StringLiteral l
+meta cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName create locators
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nke
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral foo
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral g
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral l
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nke
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral foo
+meta cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral g
+meta cache SimpleName VariableDeclarationFragment MethodInvocation StringLiteral l
+tablet locator impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta cache
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral g
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nol SimpleName MethodInvocation MethodInvocation SimpleName nke
+nol SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nol SimpleName MethodInvocation MethodInvocation StringLiteral g
+nol SimpleName MethodInvocation MethodInvocation SimpleName nrl
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+nke SimpleName MethodInvocation StringLiteral foo
+nke SimpleName MethodInvocation StringLiteral g
+foo StringLiteral MethodInvocation StringLiteral g
+nrl SimpleName MethodInvocation MethodInvocation SimpleName nr
+nol SimpleName MethodInvocation MethodInvocation SimpleName nke
+nol SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nol SimpleName MethodInvocation MethodInvocation StringLiteral g
+nol SimpleName MethodInvocation MethodInvocation SimpleName nrl
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nr
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+create expected binnings SimpleName MethodInvocation StringLiteral l
+create expected binnings SimpleName MethodInvocation MethodInvocation SimpleName nol
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+create expected binnings SimpleName MethodInvocation StringLiteral l
+create expected binnings SimpleName MethodInvocation MethodInvocation SimpleName nol
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+create expected binnings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+l StringLiteral MethodInvocation MethodInvocation SimpleName nol
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+l StringLiteral MethodInvocation StringLiteral l
+l StringLiteral MethodInvocation MethodInvocation SimpleName nol
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+nol SimpleName MethodInvocation MethodInvocation StringLiteral l
+nke SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+foo StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+g StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+nrl SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral l
+nol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nol
+l StringLiteral MethodInvocation MethodInvocation SimpleName nol
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nke
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral g
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nrl
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName create expected binnings
+expected SimpleName VariableDeclarationFragment MethodInvocation StringLiteral l
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nol
+expected SimpleName VariableDeclarationFragment MethodInvocation StringLiteral l
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName nol
+run test SimpleName MethodInvocation SimpleName table name
+run test SimpleName MethodInvocation SimpleName ranges
+run test SimpleName MethodInvocation SimpleName meta cache
+run test SimpleName MethodInvocation SimpleName expected
+table name SimpleName MethodInvocation SimpleName ranges
+table name SimpleName MethodInvocation SimpleName meta cache
+table name SimpleName MethodInvocation SimpleName expected
+ranges SimpleName MethodInvocation SimpleName meta cache
+ranges SimpleName MethodInvocation SimpleName expected
+meta cache SimpleName MethodInvocation SimpleName expected
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bin ranges
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test bin ranges
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test bin ranges SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bin ranges
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bin ranges
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

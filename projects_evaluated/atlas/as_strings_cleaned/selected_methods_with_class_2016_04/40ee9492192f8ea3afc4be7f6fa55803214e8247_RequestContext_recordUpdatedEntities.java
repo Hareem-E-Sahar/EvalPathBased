@@ -1,0 +1,21 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName updated entity ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName updated entity ids
+updated entity ids SimpleName FieldAccess MethodInvocation SimpleName add all
+updated entity ids SimpleName FieldAccess MethodInvocation SimpleName updated entity ids
+add all SimpleName MethodInvocation SimpleName updated entity ids
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName record updated entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName updated entity ids
+void PrimitiveType MethodDeclaration SimpleName record updated entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName updated entity ids
+record updated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated entity ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record updated entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record updated entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity ids

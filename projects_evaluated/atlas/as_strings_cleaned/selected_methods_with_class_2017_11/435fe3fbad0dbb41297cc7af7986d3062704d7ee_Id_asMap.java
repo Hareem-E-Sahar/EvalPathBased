@@ -1,0 +1,20 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+static Modifier MethodDeclaration SimpleType SimpleName map
+static Modifier MethodDeclaration SimpleName as map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+map SimpleName SimpleType MethodDeclaration SimpleName as map
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+as map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+as map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName as map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,135 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+children SimpleName MethodInvocation SimpleName size
+children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+children SimpleName MethodInvocation SimpleName size
+children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+children SimpleName MethodInvocation SimpleName first
+children SimpleName MethodInvocation MethodInvocation SimpleName equals
+first SimpleName MethodInvocation MethodInvocation SimpleName equals
+children SimpleName MethodInvocation MethodInvocation SimpleName ke
+first SimpleName MethodInvocation MethodInvocation SimpleName ke
+equals SimpleName MethodInvocation SimpleName ke
+children SimpleName MethodInvocation SimpleName first
+children SimpleName MethodInvocation MethodInvocation SimpleName get prev end row
+first SimpleName MethodInvocation MethodInvocation SimpleName get prev end row
+per SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName children
+per SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName first
+per SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prev end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName per
+children SimpleName MethodInvocation SimpleName last
+children SimpleName MethodInvocation MethodInvocation SimpleName get end row
+last SimpleName MethodInvocation MethodInvocation SimpleName get end row
+er SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName children
+er SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName last
+er SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName er
+ke SimpleName MethodInvocation SimpleName get prev end row
+per SimpleName InfixExpression MethodInvocation SimpleName ke
+per SimpleName InfixExpression MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+ke SimpleName MethodInvocation MethodInvocation SimpleName per
+get prev end row SimpleName MethodInvocation MethodInvocation SimpleName per
+compare to SimpleName MethodInvocation SimpleName per
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get prev end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+per SimpleName MethodInvocation InfixExpression NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName per equal
+ke SimpleName MethodInvocation SimpleName get end row
+er SimpleName InfixExpression MethodInvocation SimpleName ke
+er SimpleName InfixExpression MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get end row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+ke SimpleName MethodInvocation MethodInvocation SimpleName er
+get end row SimpleName MethodInvocation MethodInvocation SimpleName er
+compare to SimpleName MethodInvocation SimpleName er
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+er SimpleName MethodInvocation InfixExpression NumberLiteral empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName er equal
+per equal SimpleName PrefixExpression InfixExpression PrefixExpression SimpleName er equal
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+children SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName children
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation MethodInvocation SimpleName get end row
+next SimpleName MethodInvocation MethodInvocation SimpleName get end row
+last end row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iter
+last end row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next
+last end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last end row
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+cke SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+cke SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cke
+cke SimpleName MethodInvocation SimpleName get prev end row
+per SimpleName Assignment MethodInvocation SimpleName cke
+per SimpleName Assignment MethodInvocation SimpleName get prev end row
+per SimpleName InfixExpression InfixExpression InfixExpression SimpleName last end row
+per SimpleName MethodInvocation SimpleName compare to
+per SimpleName MethodInvocation SimpleName last end row
+compare to SimpleName MethodInvocation SimpleName last end row
+per SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+cke SimpleName MethodInvocation SimpleName get end row
+last end row SimpleName Assignment MethodInvocation SimpleName cke
+last end row SimpleName Assignment MethodInvocation SimpleName get end row
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is contiguous range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName children
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is contiguous range
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ke
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName children
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is contiguous range
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ke
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName children
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is contiguous range SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+is contiguous range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ke
+is contiguous range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName children
+is contiguous range SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is contiguous range SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is contiguous range SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+ke SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is contiguous range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is contiguous range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children

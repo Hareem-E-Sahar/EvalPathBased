@@ -1,0 +1,24 @@
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get headers
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enumeration
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get headers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+enumeration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get headers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get headers
+get headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get headers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get headers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get headers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

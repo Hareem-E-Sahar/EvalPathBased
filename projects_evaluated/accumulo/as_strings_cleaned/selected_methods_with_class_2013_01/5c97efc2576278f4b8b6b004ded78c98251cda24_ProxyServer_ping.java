@@ -1,0 +1,35 @@
+user pass SimpleName SimpleType SingleVariableDeclaration SimpleName userpass
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName ping
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName userpass
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName ping
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName ping
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName userpass
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+ping SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+ping SimpleName MethodDeclaration SingleVariableDeclaration SimpleName userpass
+ping SimpleName MethodDeclaration SimpleType SimpleName t exception
+ping SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName ping
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ping
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

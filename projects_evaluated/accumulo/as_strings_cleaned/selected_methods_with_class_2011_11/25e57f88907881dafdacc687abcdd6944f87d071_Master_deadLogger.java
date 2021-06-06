@@ -1,0 +1,79 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+dead server list SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantszdeadloggers
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dead server list
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantszdeadloggers
+dead server list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obit
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation SimpleName address
+address util SimpleName MethodInvocation QualifiedName propertylogger port
+parse address SimpleName MethodInvocation SimpleName address
+parse address SimpleName MethodInvocation QualifiedName propertylogger port
+address SimpleName MethodInvocation QualifiedName propertylogger port
+parse address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address util
+parse address SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse address
+parse address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+parse address SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertylogger port
+inet socket address SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parse address
+cause SimpleName VariableDeclarationFragment SimpleName i dont know why
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cause
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i dont know why
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName server
+server SimpleName MethodInvocation SimpleName get location
+server SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get location SimpleName MethodInvocation MethodInvocation SimpleName get host name
+parse address SimpleName MethodInvocation SimpleName get host name
+server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get host name SimpleName MethodInvocation MethodInvocation SimpleName equals
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse address
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+equals SimpleName MethodInvocation MethodInvocation SimpleName parse address
+equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+cause SimpleName Assignment StringLiteral clean shutdown
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName servers to shutdown
+server SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName servers to shutdown
+obit SimpleName MethodInvocation SimpleName post
+obit SimpleName MethodInvocation SimpleName address
+obit SimpleName MethodInvocation SimpleName cause
+post SimpleName MethodInvocation SimpleName address
+post SimpleName MethodInvocation SimpleName cause
+address SimpleName MethodInvocation SimpleName cause
+noticed logger went away StringLiteral InfixExpression SimpleName address
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral noticed logger went away
+log SimpleName MethodInvocation InfixExpression SimpleName address
+info SimpleName MethodInvocation InfixExpression StringLiteral noticed logger went away
+info SimpleName MethodInvocation InfixExpression SimpleName address
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName dead logger
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dead logger
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName servers to shutdown
+void PrimitiveType MethodDeclaration SimpleName dead logger
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName servers to shutdown
+dead logger SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dead logger SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+dead logger SimpleName MethodDeclaration Block EnhancedForStatement SimpleName servers to shutdown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dead logger
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dead logger
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

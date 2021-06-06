@@ -1,0 +1,379 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+final Modifier SingleVariableDeclaration SimpleType SimpleName security token
+final Modifier SingleVariableDeclaration SimpleName token
+security token SimpleName SimpleType SingleVariableDeclaration SimpleName token
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName failures
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName failures
+entry SimpleName MethodInvocation SimpleName get key
+thrift util SimpleName MethodInvocation SimpleName get t server client
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName entry
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get key
+thrift util SimpleName MethodInvocation SimpleName conf
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName entry
+get t server client SimpleName MethodInvocation MethodInvocation SimpleName get key
+get t server client SimpleName MethodInvocation SimpleName conf
+entry SimpleName MethodInvocation MethodInvocation SimpleName conf
+get key SimpleName MethodInvocation MethodInvocation SimpleName conf
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get t server client
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+client SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+tablet client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+instance token wrapper SimpleName SimpleType ClassInstanceCreation SimpleName token
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance id
+token SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+token SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance
+token SimpleName ClassInstanceCreation MethodInvocation SimpleName get instance id
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName instance token wrapper
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName token
+st SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance id
+instance token wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t range
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName key extent
+entry SimpleName MethodInvocation SimpleName get value
+key extent SimpleName MethodInvocation SimpleName get end row
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+key extent SimpleName MethodInvocation SimpleName get prev end row
+row SimpleName Assignment MethodInvocation SimpleName key extent
+row SimpleName Assignment MethodInvocation SimpleName get prev end row
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation SimpleName row
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral a
+row SimpleName MethodInvocation SimpleName append
+row SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+row SimpleName MethodInvocation ArrayCreation ArrayInitializer CharacterLiteral a
+row SimpleName MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation ArrayCreation ArrayInitializer CharacterLiteral a
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+a CharacterLiteral ArrayInitializer ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+a CharacterLiteral ArrayInitializer ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation StringLiteral empty
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation SimpleName row
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer CharacterLiteral !
+row SimpleName MethodInvocation SimpleName append
+row SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+row SimpleName MethodInvocation ArrayCreation ArrayInitializer CharacterLiteral !
+row SimpleName MethodInvocation NumberLiteral empty
+row SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+append SimpleName MethodInvocation ArrayCreation ArrayInitializer CharacterLiteral !
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+! CharacterLiteral ArrayInitializer ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+! CharacterLiteral ArrayInitializer ArrayCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation SimpleName row
+text SimpleName SimpleType ClassInstanceCreation SimpleName row
+row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName Assignment ClassInstanceCreation SimpleName row
+row SimpleName MethodInvocation SimpleName get bytes
+row SimpleName MethodInvocation SimpleName get length
+row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation SimpleName get bytes
+row SimpleName MethodInvocation SimpleName get length
+row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+row SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+get bytes SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+range SimpleName SimpleType ClassInstanceCreation SimpleName row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation SimpleName row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+row SimpleName ClassInstanceCreation BooleanLiteral true
+row SimpleName ClassInstanceCreation SimpleName row
+row SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation SimpleName row
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+row SimpleName ClassInstanceCreation BooleanLiteral false
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+r SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+r SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+key extent SimpleName MethodInvocation SimpleName to thrift
+r SimpleName MethodInvocation SimpleName to thrift
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation MethodInvocation SimpleName r
+collections SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName r
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+batch SimpleName MethodInvocation SimpleName put
+batch SimpleName MethodInvocation MethodInvocation SimpleName key extent
+batch SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+batch SimpleName MethodInvocation MethodInvocation SimpleName collections
+batch SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+batch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+batch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+put SimpleName MethodInvocation MethodInvocation SimpleName key extent
+put SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+put SimpleName MethodInvocation MethodInvocation SimpleName collections
+put SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+key extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton list
+key extent SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+key extent SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+tracer SimpleName MethodInvocation SimpleName trace info
+tinfo SimpleName VariableDeclarationFragment MethodInvocation SimpleName tracer
+tinfo SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace info
+t info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tinfo
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName empty map
+empty map s map ss SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+empty map s map ss SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+collections SimpleName MethodInvocation SimpleName empty list
+empty list iter info SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+empty list iter info SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t column
+collections SimpleName MethodInvocation SimpleName empty list
+empty list column SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+empty list column SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+initial multi scan SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+st SimpleName MethodInvocation SimpleName to thrift
+constantsno auths QualifiedName MethodInvocation SimpleName get authorizations bb
+client SimpleName MethodInvocation SimpleName start multi scan
+client SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation MethodInvocation SimpleName st
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation SimpleName batch
+client SimpleName MethodInvocation SimpleName empty list column
+start multi scan SimpleName MethodInvocation SimpleName tinfo
+start multi scan SimpleName MethodInvocation MethodInvocation SimpleName st
+start multi scan SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+start multi scan SimpleName MethodInvocation SimpleName batch
+start multi scan SimpleName MethodInvocation SimpleName empty list column
+start multi scan SimpleName MethodInvocation SimpleName empty list iter info
+tinfo SimpleName MethodInvocation MethodInvocation SimpleName st
+tinfo SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+tinfo SimpleName MethodInvocation SimpleName batch
+tinfo SimpleName MethodInvocation SimpleName empty list column
+tinfo SimpleName MethodInvocation SimpleName empty list iter info
+tinfo SimpleName MethodInvocation SimpleName empty map s map ss
+st SimpleName MethodInvocation MethodInvocation SimpleName batch
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName batch
+st SimpleName MethodInvocation MethodInvocation SimpleName empty list column
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName empty list column
+st SimpleName MethodInvocation MethodInvocation SimpleName empty list iter info
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName empty list iter info
+st SimpleName MethodInvocation MethodInvocation SimpleName empty map s map ss
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName empty map s map ss
+st SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+st SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get authorizations bb
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get authorizations bb
+batch SimpleName MethodInvocation SimpleName empty list column
+batch SimpleName MethodInvocation SimpleName empty list iter info
+batch SimpleName MethodInvocation SimpleName empty map s map ss
+batch SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+batch SimpleName MethodInvocation MethodInvocation SimpleName get authorizations bb
+batch SimpleName MethodInvocation BooleanLiteral false
+empty list column SimpleName MethodInvocation SimpleName empty list iter info
+empty list column SimpleName MethodInvocation SimpleName empty map s map ss
+empty list column SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+empty list column SimpleName MethodInvocation MethodInvocation SimpleName get authorizations bb
+empty list column SimpleName MethodInvocation BooleanLiteral false
+empty list iter info SimpleName MethodInvocation SimpleName empty map s map ss
+empty list iter info SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+empty list iter info SimpleName MethodInvocation MethodInvocation SimpleName get authorizations bb
+empty list iter info SimpleName MethodInvocation BooleanLiteral false
+empty map s map ss SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+empty map s map ss SimpleName MethodInvocation MethodInvocation SimpleName get authorizations bb
+empty map s map ss SimpleName MethodInvocation BooleanLiteral false
+constantsno auths QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get authorizations bb SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+is SimpleName Assignment MethodInvocation SimpleName client
+is SimpleName Assignment MethodInvocation SimpleName start multi scan
+is SimpleName Assignment MethodInvocation SimpleName tinfo
+is SimpleName Assignment MethodInvocation MethodInvocation SimpleName st
+is SimpleName Assignment MethodInvocation MethodInvocation SimpleName to thrift
+is SimpleName Assignment MethodInvocation SimpleName batch
+is SimpleName Assignment MethodInvocation SimpleName empty list column
+is SimpleName Assignment MethodInvocation SimpleName empty list iter info
+is SimpleName Assignment MethodInvocation SimpleName empty map s map ss
+is SimpleName Assignment MethodInvocation MethodInvocation QualifiedName constantsno auths
+is SimpleName Assignment MethodInvocation MethodInvocation SimpleName get authorizations bb
+is SimpleName Assignment MethodInvocation BooleanLiteral false
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+client SimpleName MethodInvocation SimpleName continue multi scan
+client SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation QualifiedName isscan id
+continue multi scan SimpleName MethodInvocation SimpleName tinfo
+continue multi scan SimpleName MethodInvocation QualifiedName isscan id
+tinfo SimpleName MethodInvocation QualifiedName isscan id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName continue multi scan
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinfo
+result SimpleName VariableDeclarationFragment MethodInvocation QualifiedName isscan id
+multi scan result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+entry SimpleName MethodInvocation SimpleName get key
+check failures SimpleName MethodInvocation MethodInvocation SimpleName entry
+check failures SimpleName MethodInvocation MethodInvocation SimpleName get key
+check failures SimpleName MethodInvocation SimpleName failures
+check failures SimpleName MethodInvocation SimpleName result
+entry SimpleName MethodInvocation MethodInvocation SimpleName failures
+get key SimpleName MethodInvocation MethodInvocation SimpleName failures
+entry SimpleName MethodInvocation MethodInvocation SimpleName result
+get key SimpleName MethodInvocation MethodInvocation SimpleName result
+failures SimpleName MethodInvocation SimpleName result
+client SimpleName MethodInvocation SimpleName continue multi scan
+client SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation QualifiedName isscan id
+continue multi scan SimpleName MethodInvocation SimpleName tinfo
+continue multi scan SimpleName MethodInvocation QualifiedName isscan id
+tinfo SimpleName MethodInvocation QualifiedName isscan id
+result SimpleName Assignment MethodInvocation SimpleName client
+result SimpleName Assignment MethodInvocation SimpleName continue multi scan
+result SimpleName Assignment MethodInvocation SimpleName tinfo
+result SimpleName Assignment MethodInvocation QualifiedName isscan id
+entry SimpleName MethodInvocation SimpleName get key
+check failures SimpleName MethodInvocation MethodInvocation SimpleName entry
+check failures SimpleName MethodInvocation MethodInvocation SimpleName get key
+check failures SimpleName MethodInvocation SimpleName failures
+check failures SimpleName MethodInvocation SimpleName result
+entry SimpleName MethodInvocation MethodInvocation SimpleName failures
+get key SimpleName MethodInvocation MethodInvocation SimpleName failures
+entry SimpleName MethodInvocation MethodInvocation SimpleName result
+get key SimpleName MethodInvocation MethodInvocation SimpleName result
+failures SimpleName MethodInvocation SimpleName result
+isresultmore QualifiedName IfStatement Block WhileStatement QualifiedName resultmore
+client SimpleName MethodInvocation SimpleName close multi scan
+client SimpleName MethodInvocation SimpleName tinfo
+client SimpleName MethodInvocation QualifiedName isscan id
+close multi scan SimpleName MethodInvocation SimpleName tinfo
+close multi scan SimpleName MethodInvocation QualifiedName isscan id
+tinfo SimpleName MethodInvocation QualifiedName isscan id
+t service client SimpleName SimpleType CastExpression SimpleName client
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation CastExpression SimpleType SimpleName t service client
+thrift util SimpleName MethodInvocation CastExpression SimpleName client
+return client SimpleName MethodInvocation CastExpression SimpleType SimpleName t service client
+return client SimpleName MethodInvocation CastExpression SimpleName client
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check tablet server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check tablet server
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry
+void PrimitiveType MethodDeclaration SimpleName check tablet server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName failures
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry
+check tablet server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName failures
+check tablet server SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+token SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+token SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+token SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+failures SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+failures SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+failures SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName no such scan id exception
+t exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName no such scan id exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check tablet server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check tablet server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failures
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such scan id exception

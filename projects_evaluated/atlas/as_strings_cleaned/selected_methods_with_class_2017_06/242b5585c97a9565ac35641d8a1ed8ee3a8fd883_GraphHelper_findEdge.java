@@ -1,0 +1,30 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+find element SimpleName MethodInvocation BooleanLiteral false
+find element SimpleName MethodInvocation SimpleName args
+false BooleanLiteral MethodInvocation SimpleName args
+atlas edge SimpleName SimpleType CastExpression MethodInvocation SimpleName find element
+atlas edge SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral false
+atlas edge SimpleName SimpleType CastExpression MethodInvocation SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SimpleName find edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName find edge
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+atlas edge SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+find edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+find edge SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName find edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

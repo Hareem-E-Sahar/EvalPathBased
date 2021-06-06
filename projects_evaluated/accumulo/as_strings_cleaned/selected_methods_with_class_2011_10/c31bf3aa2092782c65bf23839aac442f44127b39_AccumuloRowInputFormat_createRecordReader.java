@@ -1,0 +1,136 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+record reader SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+input split SimpleName SimpleType SingleVariableDeclaration SimpleName split
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+record reader base SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+row iterator SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName row iterator
+input split SimpleName SimpleType SingleVariableDeclaration SimpleName in split
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName attempt
+initialize SimpleName SuperMethodInvocation SimpleName in split
+initialize SimpleName SuperMethodInvocation SimpleName attempt
+in split SimpleName SuperMethodInvocation SimpleName attempt
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName scanner iterator
+row iterator SimpleName Assignment ClassInstanceCreation SimpleType SimpleName row iterator
+row iterator SimpleName Assignment ClassInstanceCreation SimpleName scanner iterator
+current k SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName in split
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in split
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attempt
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in split
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attempt
+initialize SimpleName MethodDeclaration SimpleType SimpleName io exception
+in split SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+in split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+row iterator SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row iterator SimpleName MethodInvocation SimpleName next
+current v SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName row iterator
+current v SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName next
+row iterator SimpleName MethodInvocation SimpleName get kv count
+num keys read SimpleName Assignment MethodInvocation SimpleName row iterator
+num keys read SimpleName Assignment MethodInvocation SimpleName get kv count
+current v SimpleName MethodInvocation SimpleName peek
+current v SimpleName MethodInvocation MethodInvocation SimpleName get key
+peek SimpleName MethodInvocation MethodInvocation SimpleName get key
+current key SimpleName Assignment MethodInvocation MethodInvocation SimpleName current v
+current key SimpleName Assignment MethodInvocation MethodInvocation SimpleName peek
+current key SimpleName Assignment MethodInvocation SimpleName get key
+current key SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current key
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+current k SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+current k SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName current key
+current k SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next key value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName next key value
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName next key value
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+next key value SimpleName MethodDeclaration SimpleType SimpleName io exception
+next key value SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+next key value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next key value
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next key value
+initialize SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+initialize SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+initialize SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName next key value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create record reader
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName split
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName record reader
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName create record reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+record reader SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create record reader
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create record reader
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName split
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+create record reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+create record reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+create record reader SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+split SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create record reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create record reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

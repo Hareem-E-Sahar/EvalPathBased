@@ -1,0 +1,95 @@
+memory management actions SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mma
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet state
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet state
+tablet reports SimpleName MethodInvocation SimpleName values
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName tablet reports
+tablets SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName values
+memory manger SimpleName MethodInvocation SimpleName get memory management actions
+memory manger SimpleName MethodInvocation SimpleName tablets
+get memory management actions SimpleName MethodInvocation SimpleName tablets
+mma SimpleName Assignment MethodInvocation SimpleName memory manger
+mma SimpleName Assignment MethodInvocation SimpleName get memory management actions
+mma SimpleName Assignment MethodInvocation SimpleName tablets
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get message
+memory manager failed StringLiteral InfixExpression MethodInvocation SimpleName t
+memory manager failed StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral memory manager failed
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral memory manager failed
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName t
+memory manager failed StringLiteral InfixExpression MethodInvocation SimpleName t
+t SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+mma SimpleName InfixExpression InfixExpression InfixExpression QualifiedName mmatablets to minor compact
+mmatablets to minor compact QualifiedName MethodInvocation SimpleName size
+mmatablets to minor compact QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName key extent
+tablet reports SimpleName MethodInvocation SimpleName get
+tablet reports SimpleName MethodInvocation SimpleName key extent
+get SimpleName MethodInvocation SimpleName key extent
+tablet report SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet reports
+tablet report SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tablet report SimpleName VariableDeclarationFragment MethodInvocation SimpleName key extent
+tablet state impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet report
+memory manager asked to compact nonexistant tablet StringLiteral InfixExpression SimpleName key extent
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral memory manager asked to compact nonexistant tablet
+log SimpleName MethodInvocation InfixExpression SimpleName key extent
+warn SimpleName MethodInvocation InfixExpression StringLiteral memory manager asked to compact nonexistant tablet
+warn SimpleName MethodInvocation InfixExpression SimpleName key extent
+tablet report SimpleName MethodInvocation SimpleName get tablet
+tablet report SimpleName MethodInvocation MethodInvocation SimpleName initiate minor compaction
+get tablet SimpleName MethodInvocation MethodInvocation SimpleName initiate minor compaction
+tablet report SimpleName MethodInvocation SimpleName get tablet
+tablet report SimpleName MethodInvocation MethodInvocation SimpleName is closed
+get tablet SimpleName MethodInvocation MethodInvocation SimpleName is closed
+tablet report SimpleName MethodInvocation SimpleName get extent
+tablet reports SimpleName MethodInvocation SimpleName remove
+tablet reports SimpleName MethodInvocation MethodInvocation SimpleName tablet report
+tablet reports SimpleName MethodInvocation MethodInvocation SimpleName get extent
+remove SimpleName MethodInvocation MethodInvocation SimpleName tablet report
+remove SimpleName MethodInvocation MethodInvocation SimpleName get extent
+ignoring memory manager recommendation not minor compacting closed tablet StringLiteral InfixExpression SimpleName key extent
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring memory manager recommendation not minor compacting closed tablet
+log SimpleName MethodInvocation InfixExpression SimpleName key extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral ignoring memory manager recommendation not minor compacting closed tablet
+debug SimpleName MethodInvocation InfixExpression SimpleName key extent
+ignoring memory manager recommendation not minor compacting StringLiteral InfixExpression SimpleName key extent
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral ignoring memory manager recommendation not minor compacting
+log SimpleName MethodInvocation InfixExpression SimpleName key extent
+info SimpleName MethodInvocation InfixExpression StringLiteral ignoring memory manager recommendation not minor compacting
+info SimpleName MethodInvocation InfixExpression SimpleName key extent
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName mmatablets to minor compact
+key extent SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName mmatablets to minor compact
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral minor compactions for memory managment failed
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral minor compactions for memory managment failed
+error SimpleName MethodInvocation SimpleName t
+minor compactions for memory managment failed StringLiteral MethodInvocation SimpleName t
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName manage memory
+private Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName manage memory
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+manage memory SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName manage memory
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName manage memory

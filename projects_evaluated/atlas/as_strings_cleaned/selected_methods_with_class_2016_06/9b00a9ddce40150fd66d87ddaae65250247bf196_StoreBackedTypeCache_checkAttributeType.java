@@ -1,0 +1,76 @@
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName attr def
+context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+type names to lookup SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+type utils SimpleName MethodInvocation SimpleName parse as array type
+type utils SimpleName MethodInvocation QualifiedName attr defdata type name
+parse as array type SimpleName MethodInvocation QualifiedName attr defdata type name
+element type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+element type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as array type
+element type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attr defdata type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type name
+type names to lookup SimpleName MethodInvocation SimpleName add
+type names to lookup SimpleName MethodInvocation SimpleName element type name
+add SimpleName MethodInvocation SimpleName element type name
+type utils SimpleName MethodInvocation SimpleName parse as map type
+type utils SimpleName MethodInvocation QualifiedName attr defdata type name
+parse as map type SimpleName MethodInvocation QualifiedName attr defdata type name
+map type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+map type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as map type
+map type names SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attr defdata type name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName map type names
+as list SimpleName MethodInvocation SimpleName map type names
+type names to lookup SimpleName MethodInvocation SimpleName add all
+type names to lookup SimpleName MethodInvocation MethodInvocation SimpleName arrays
+type names to lookup SimpleName MethodInvocation MethodInvocation SimpleName as list
+type names to lookup SimpleName MethodInvocation MethodInvocation SimpleName map type names
+add all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+add all SimpleName MethodInvocation MethodInvocation SimpleName as list
+add all SimpleName MethodInvocation MethodInvocation SimpleName map type names
+type names to lookup SimpleName MethodInvocation SimpleName add
+type names to lookup SimpleName MethodInvocation QualifiedName attr defdata type name
+add SimpleName MethodInvocation QualifiedName attr defdata type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+get type from cache or store SimpleName MethodInvocation SimpleName type name
+get type from cache or store SimpleName MethodInvocation SimpleName context
+type name SimpleName MethodInvocation SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type names to lookup
+type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type names to lookup
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check attribute type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName check attribute type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName type names to lookup
+check attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+check attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr def
+check attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+check attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+check attribute type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+check attribute type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type names to lookup
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+attr def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check attribute type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check attribute type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

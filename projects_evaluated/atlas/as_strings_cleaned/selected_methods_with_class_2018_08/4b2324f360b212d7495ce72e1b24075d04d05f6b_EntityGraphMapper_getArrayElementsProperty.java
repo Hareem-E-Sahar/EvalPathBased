@@ -1,0 +1,61 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName vertex property name
+is reference SimpleName MethodInvocation SimpleName element type
+vertex SimpleName MethodInvocation SimpleName get list property
+vertex SimpleName MethodInvocation SimpleName vertex property name
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas edge
+get list property SimpleName MethodInvocation SimpleName vertex property name
+get list property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas edge
+vertex property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas edge
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get list property
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex property name
+vertex SimpleName MethodInvocation SimpleName get list property
+vertex SimpleName MethodInvocation SimpleName vertex property name
+get list property SimpleName MethodInvocation SimpleName vertex property name
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get list property
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName vertex property name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get array elements property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get array elements property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex property name
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get array elements property
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get array elements property
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get array elements property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex property name
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+element type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property name
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get array elements property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get array elements property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex property name

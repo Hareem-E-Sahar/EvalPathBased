@@ -1,0 +1,294 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName volume
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName volume
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+volume SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+get file systems SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+volume name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+volume name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName volume name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName volume name
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get file system
+get value SimpleName MethodInvocation MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+view fs utils SimpleName MethodInvocation SimpleName is view fs
+view fs utils SimpleName MethodInvocation SimpleName fs
+is view fs SimpleName MethodInvocation SimpleName fs
+path SimpleName SimpleType ClassInstanceCreation StringLiteral /
+view fs utils SimpleName MethodInvocation SimpleName resolve path
+view fs utils SimpleName MethodInvocation SimpleName fs
+view fs utils SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+view fs utils SimpleName MethodInvocation ClassInstanceCreation StringLiteral /
+resolve path SimpleName MethodInvocation SimpleName fs
+resolve path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+resolve path SimpleName MethodInvocation ClassInstanceCreation StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation StringLiteral /
+fs SimpleName MethodInvocation SimpleName get conf
+view fs utils SimpleName MethodInvocation MethodInvocation SimpleName get file system
+resolve path SimpleName MethodInvocation MethodInvocation SimpleName get file system
+fs SimpleName MethodInvocation MethodInvocation SimpleName get file system
+/ StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get file system
+view fs utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+view fs utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+resolve path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+resolve path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+get file system SimpleName MethodInvocation MethodInvocation SimpleName fs
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get conf
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName view fs utils
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resolve path
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+resolved fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolved fs
+fs SimpleName MethodInvocation SimpleName get uri
+resolved fs SimpleName MethodInvocation SimpleName get uri
+resolved StringLiteral InfixExpression MethodInvocation SimpleName fs
+resolved StringLiteral InfixExpression MethodInvocation SimpleName get uri
+resolved StringLiteral InfixExpression StringLiteral to
+resolved StringLiteral InfixExpression MethodInvocation SimpleName resolved fs
+resolved StringLiteral InfixExpression MethodInvocation SimpleName get uri
+resolved StringLiteral InfixExpression StringLiteral for sync check
+fs SimpleName MethodInvocation InfixExpression StringLiteral to
+get uri SimpleName MethodInvocation InfixExpression StringLiteral to
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved fs
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+get uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved fs
+get uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+fs SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+get uri SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+to StringLiteral InfixExpression MethodInvocation SimpleName resolved fs
+to StringLiteral InfixExpression MethodInvocation SimpleName get uri
+to StringLiteral InfixExpression StringLiteral for sync check
+resolved fs SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+get uri SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral resolved
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved fs
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+debug SimpleName MethodInvocation InfixExpression StringLiteral resolved
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+debug SimpleName MethodInvocation InfixExpression StringLiteral to
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved fs
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+debug SimpleName MethodInvocation InfixExpression StringLiteral for sync check
+fs SimpleName Assignment SimpleName resolved fs
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fs SimpleName MethodInvocation SimpleName get uri
+failed to resolve StringLiteral InfixExpression MethodInvocation SimpleName fs
+failed to resolve StringLiteral InfixExpression MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to resolve
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to resolve
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fs
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uri
+warn SimpleName MethodInvocation SimpleName e
+failed to resolve StringLiteral InfixExpression MethodInvocation SimpleName e
+fs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+fs SimpleName InstanceofExpression SimpleType SimpleName distributed file system
+dfs durable sync SimpleName VariableDeclarationFragment StringLiteral dfsdurablesync
+dfs support append SimpleName VariableDeclarationFragment StringLiteral dfssupportappend
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs durable sync
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfsdurablesync
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfssupportappend
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs durable sync
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfsdurablesync
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfssupportappend
+dfs durable sync SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append
+dfs durable sync SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfssupportappend
+dfsdurablesync StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append
+dfsdurablesync StringLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment StringLiteral dfssupportappend
+ticket message SimpleName VariableDeclarationFragment StringLiteral see accumulo and accumulo for more details
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ticket message
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral see accumulo and accumulo for more details
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ticket message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral see accumulo and accumulo for more details
+config keys SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dfs config keys
+dfs config keys SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config keys
+config keys SimpleName MethodInvocation SimpleName get class
+config keys SimpleName MethodInvocation MethodInvocation SimpleName get field
+get class SimpleName MethodInvocation MethodInvocation SimpleName get field
+config keys SimpleName MethodInvocation MethodInvocation StringLiteral dfs support append default
+get class SimpleName MethodInvocation MethodInvocation StringLiteral dfs support append default
+get field SimpleName MethodInvocation StringLiteral dfs support append default
+dfs support append default field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config keys
+dfs support append default field SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+dfs support append default field SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field
+dfs support append default field SimpleName VariableDeclarationFragment MethodInvocation StringLiteral dfs support append default
+field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append default field
+dfs support append default field SimpleName MethodInvocation SimpleName get boolean
+dfs support append default field SimpleName MethodInvocation SimpleName config keys
+get boolean SimpleName MethodInvocation SimpleName config keys
+dfs support append default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName dfs support append default field
+dfs support append default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get boolean
+dfs support append default value SimpleName VariableDeclarationFragment MethodInvocation SimpleName config keys
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs support append default value
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dfs support append default field
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get boolean
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName config keys
+fs SimpleName MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get conf SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+fs SimpleName MethodInvocation MethodInvocation SimpleName dfs support append
+get conf SimpleName MethodInvocation MethodInvocation SimpleName dfs support append
+fs SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get conf SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName dfs support append
+get boolean SimpleName MethodInvocation BooleanLiteral false
+dfs support append SimpleName MethodInvocation BooleanLiteral false
+accumulo requires that dfssupportappend to true StringLiteral InfixExpression SimpleName ticket message
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral accumulo requires that dfssupportappend to true
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName ticket message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation SimpleName msg
+fatal SimpleName MethodInvocation SimpleName msg
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+no such field exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error while checking for StringLiteral InfixExpression SimpleName dfs support append
+error while checking for StringLiteral InfixExpression StringLiteral on volume
+error while checking for StringLiteral InfixExpression SimpleName volume name
+error while checking for StringLiteral InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+error while checking for StringLiteral InfixExpression SimpleName ticket message
+dfs support append SimpleName InfixExpression StringLiteral on volume
+dfs support append SimpleName InfixExpression SimpleName volume name
+dfs support append SimpleName InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+dfs support append SimpleName InfixExpression SimpleName ticket message
+on volume StringLiteral InfixExpression SimpleName volume name
+on volume StringLiteral InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+on volume StringLiteral InfixExpression SimpleName ticket message
+volume name SimpleName InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+volume name SimpleName InfixExpression SimpleName ticket message
+. the user should ensure that hadoop is configured to properly supports append and sync StringLiteral InfixExpression SimpleName ticket message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral error while checking for
+log SimpleName MethodInvocation InfixExpression SimpleName dfs support append
+log SimpleName MethodInvocation InfixExpression StringLiteral on volume
+log SimpleName MethodInvocation InfixExpression SimpleName volume name
+log SimpleName MethodInvocation InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+log SimpleName MethodInvocation InfixExpression SimpleName ticket message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral error while checking for
+warn SimpleName MethodInvocation InfixExpression SimpleName dfs support append
+warn SimpleName MethodInvocation InfixExpression StringLiteral on volume
+warn SimpleName MethodInvocation InfixExpression SimpleName volume name
+warn SimpleName MethodInvocation InfixExpression StringLiteral . the user should ensure that hadoop is configured to properly supports append and sync
+warn SimpleName MethodInvocation InfixExpression SimpleName ticket message
+warn SimpleName MethodInvocation SimpleName e
+error while checking for StringLiteral InfixExpression MethodInvocation SimpleName e
+dfs support append SimpleName InfixExpression MethodInvocation SimpleName e
+on volume StringLiteral InfixExpression MethodInvocation SimpleName e
+volume name SimpleName InfixExpression MethodInvocation SimpleName e
+. the user should ensure that hadoop is configured to properly supports append and sync StringLiteral InfixExpression MethodInvocation SimpleName e
+ticket message SimpleName InfixExpression MethodInvocation SimpleName e
+fs SimpleName MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get conf SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+fs SimpleName MethodInvocation MethodInvocation SimpleName dfs support append
+get conf SimpleName MethodInvocation MethodInvocation SimpleName dfs support append
+fs SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get conf SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation SimpleName dfs support append
+get boolean SimpleName MethodInvocation BooleanLiteral true
+dfs support append SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get conf SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+fs SimpleName MethodInvocation MethodInvocation SimpleName dfs durable sync
+get conf SimpleName MethodInvocation MethodInvocation SimpleName dfs durable sync
+fs SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get conf SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation SimpleName dfs durable sync
+get boolean SimpleName MethodInvocation BooleanLiteral true
+dfs durable sync SimpleName MethodInvocation BooleanLiteral true
+accumulo requires that StringLiteral InfixExpression SimpleName dfs support append
+accumulo requires that StringLiteral InfixExpression StringLiteral and
+accumulo requires that StringLiteral InfixExpression SimpleName dfs durable sync
+accumulo requires that StringLiteral InfixExpression StringLiteral not be configured as false
+accumulo requires that StringLiteral InfixExpression SimpleName ticket message
+dfs support append SimpleName InfixExpression StringLiteral and
+dfs support append SimpleName InfixExpression SimpleName dfs durable sync
+dfs support append SimpleName InfixExpression StringLiteral not be configured as false
+dfs support append SimpleName InfixExpression SimpleName ticket message
+and StringLiteral InfixExpression SimpleName dfs durable sync
+and StringLiteral InfixExpression StringLiteral not be configured as false
+and StringLiteral InfixExpression SimpleName ticket message
+dfs durable sync SimpleName InfixExpression StringLiteral not be configured as false
+dfs durable sync SimpleName InfixExpression SimpleName ticket message
+not be configured as false StringLiteral InfixExpression SimpleName ticket message
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral accumulo requires that
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName dfs support append
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral and
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName dfs durable sync
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral not be configured as false
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName ticket message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation SimpleName msg
+fatal SimpleName MethodInvocation SimpleName msg
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation StringLiteral orgapachehadoophdfsdfs config keys
+for name SimpleName MethodInvocation StringLiteral orgapachehadoophdfsdfs config keys
+dfs config keys clz SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+dfs config keys clz SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+dfs config keys clz SimpleName VariableDeclarationFragment MethodInvocation StringLiteral orgapachehadoophdfsdfs config keys
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs config keys clz
+dfs config keys clz SimpleName MethodInvocation SimpleName get declared field
+dfs config keys clz SimpleName MethodInvocation StringLiteral dfs datanode synconclose key
+get declared field SimpleName MethodInvocation StringLiteral dfs datanode synconclose key
+fs SimpleName MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get conf SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+fs SimpleName MethodInvocation MethodInvocation StringLiteral dfsdatanodesynconclose
+get conf SimpleName MethodInvocation MethodInvocation StringLiteral dfsdatanodesynconclose
+fs SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get conf SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation StringLiteral dfsdatanodesynconclose
+get boolean SimpleName MethodInvocation BooleanLiteral false
+dfsdatanodesynconclose StringLiteral MethodInvocation BooleanLiteral false
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral dfsdatanodesynconclose set to false in hdfssitexml data loss is possible on system reset or power loss
+warn SimpleName MethodInvocation StringLiteral dfsdatanodesynconclose set to false in hdfssitexml data loss is possible on system reset or power loss
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+no such field exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName ensure sync is enabled
+void PrimitiveType MethodDeclaration SimpleName ensure sync is enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure sync is enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure sync is enabled

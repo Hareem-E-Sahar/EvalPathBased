@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json serializer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get serializer
+protected Modifier MethodDeclaration SimpleType SimpleName json serializer
+protected Modifier MethodDeclaration SimpleName get serializer
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName test serializer
+json serializer SimpleName SimpleType MethodDeclaration SimpleName get serializer
+get serializer SimpleName MethodDeclaration Block ReturnStatement SimpleName test serializer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json serializer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get serializer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json serializer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get serializer

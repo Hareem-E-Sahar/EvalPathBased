@@ -1,0 +1,84 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string utils SimpleName MethodInvocation SimpleName is not blank
+string utils SimpleName MethodInvocation SimpleName name
+is not blank SimpleName MethodInvocation SimpleName name
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName string utils
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName is not blank
+preconditions SimpleName MethodInvocation MethodInvocation SimpleName name
+preconditions SimpleName MethodInvocation StringLiteral need to specify name
+check argument SimpleName MethodInvocation MethodInvocation SimpleName string utils
+check argument SimpleName MethodInvocation MethodInvocation SimpleName is not blank
+check argument SimpleName MethodInvocation MethodInvocation SimpleName name
+check argument SimpleName MethodInvocation StringLiteral need to specify name
+string utils SimpleName MethodInvocation MethodInvocation StringLiteral need to specify name
+is not blank SimpleName MethodInvocation MethodInvocation StringLiteral need to specify name
+name SimpleName MethodInvocation MethodInvocation StringLiteral need to specify name
+char PrimitiveType SingleVariableDeclaration SimpleName c
+name SimpleName MethodInvocation SimpleName index of
+name SimpleName MethodInvocation SimpleName c
+index of SimpleName MethodInvocation SimpleName c
+name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+preconditions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation StringLiteral name can not contains reserved character s s
+preconditions SimpleName MethodInvocation SimpleName c
+preconditions SimpleName MethodInvocation SimpleName name
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+check argument SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check argument SimpleName MethodInvocation StringLiteral name can not contains reserved character s s
+check argument SimpleName MethodInvocation SimpleName c
+check argument SimpleName MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name can not contains reserved character s s
+index of SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name can not contains reserved character s s
+c SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral name can not contains reserved character s s
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral name can not contains reserved character s s
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+empty NumberLiteral InfixExpression MethodInvocation SimpleName c
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+empty NumberLiteral InfixExpression MethodInvocation SimpleName name
+name can not contains reserved character s s StringLiteral MethodInvocation SimpleName c
+name can not contains reserved character s s StringLiteral MethodInvocation SimpleName name
+c SimpleName MethodInvocation SimpleName name
+char PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName reserved chars
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName reserved chars
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName reserved chars
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName reserved chars
+void PrimitiveType MethodDeclaration SimpleName check name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName reserved chars
+check name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+check name SimpleName MethodDeclaration Block EnhancedForStatement SimpleName reserved chars
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

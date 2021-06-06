@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+type name SimpleName MethodInvocation SimpleName starts with
+type name SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+starts with SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+type name SimpleName InfixExpression InfixExpression MethodInvocation SimpleName type name
+type name SimpleName InfixExpression InfixExpression MethodInvocation SimpleName starts with
+type name SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName constantsinternal property key prefix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is internal type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is internal type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleName is internal type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+is internal type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is internal type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is internal type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is internal type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName owner
+owner SimpleName FieldAccess Assignment SimpleName owner
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set owner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName owner
+void PrimitiveType MethodDeclaration SimpleName set owner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName owner
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName owner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName owner

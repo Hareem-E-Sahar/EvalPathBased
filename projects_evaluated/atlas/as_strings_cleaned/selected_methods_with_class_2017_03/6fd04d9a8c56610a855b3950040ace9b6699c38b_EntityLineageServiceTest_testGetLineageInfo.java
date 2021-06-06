@@ -1,0 +1,109 @@
+test utils SimpleName MethodInvocation SimpleName skip for gremlin enabled graph db
+get entity id SimpleName MethodInvocation SimpleName hive table type
+get entity id SimpleName MethodInvocation StringLiteral name
+get entity id SimpleName MethodInvocation StringLiteral sales fact monthly mv
+hive table type SimpleName MethodInvocation StringLiteral name
+hive table type SimpleName MethodInvocation StringLiteral sales fact monthly mv
+name StringLiteral MethodInvocation StringLiteral sales fact monthly mv
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity id
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table type
+entity guid SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+entity guid SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales fact monthly mv
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid
+get both lineage info SimpleName MethodInvocation SimpleName entity guid
+get both lineage info SimpleName MethodInvocation NumberLiteral empty
+entity guid SimpleName MethodInvocation NumberLiteral empty
+both lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get both lineage info
+both lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+both lineage SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName both lineage
+assert not null SimpleName MethodInvocation SimpleName both lineage
+both lineage = StringLiteral InfixExpression SimpleName both lineage
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral both lineage =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName both lineage
+println SimpleName MethodInvocation InfixExpression StringLiteral both lineage =
+println SimpleName MethodInvocation InfixExpression SimpleName both lineage
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+both lineage SimpleName MethodInvocation SimpleName get guid entity map
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName both lineage
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid entity map
+assert not null SimpleName MethodInvocation SimpleName entities
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName lineage relation
+both lineage SimpleName MethodInvocation SimpleName get relations
+relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName both lineage
+relations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relations
+assert not null SimpleName MethodInvocation SimpleName relations
+entities SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+relations SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName relations
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relations
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+relations SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+both lineage SimpleName MethodInvocation SimpleName get lineage depth
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+assert SimpleName MethodInvocation MethodInvocation SimpleName get lineage depth
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get lineage depth
+assert equals SimpleName MethodInvocation NumberLiteral empty
+both lineage SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get lineage depth SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+both lineage SimpleName MethodInvocation SimpleName get lineage direction
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+assert SimpleName MethodInvocation MethodInvocation SimpleName get lineage direction
+assert SimpleName MethodInvocation QualifiedName atlas lineage infolineage directionboth
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get lineage direction
+assert equals SimpleName MethodInvocation QualifiedName atlas lineage infolineage directionboth
+both lineage SimpleName MethodInvocation MethodInvocation QualifiedName atlas lineage infolineage directionboth
+get lineage direction SimpleName MethodInvocation MethodInvocation QualifiedName atlas lineage infolineage directionboth
+both lineage SimpleName MethodInvocation SimpleName get base entity guid
+entities SimpleName MethodInvocation SimpleName contains key
+entities SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+entities SimpleName MethodInvocation MethodInvocation SimpleName get base entity guid
+contains key SimpleName MethodInvocation MethodInvocation SimpleName both lineage
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get base entity guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName both lineage
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get base entity guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get lineage info
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get lineage info
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get lineage info
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get lineage info SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get lineage info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get lineage info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

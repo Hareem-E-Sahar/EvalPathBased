@@ -1,0 +1,20 @@
+part entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName read entity
+read entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName part entity
+part entity SimpleName MethodInvocation SimpleName set name
+part entity SimpleName MethodInvocation SimpleName part file
+set name SimpleName MethodInvocation SimpleName part file
+part entity SimpleName MethodInvocation SimpleName set typ
+part entity SimpleName MethodInvocation QualifiedName entitytypepartition
+set typ SimpleName MethodInvocation QualifiedName entitytypepartition
+private Modifier MethodDeclaration SimpleType SimpleName read entity
+private Modifier MethodDeclaration SimpleName get partition input
+private Modifier MethodDeclaration Block ReturnStatement SimpleName part entity
+read entity SimpleName SimpleType MethodDeclaration SimpleName get partition input
+get partition input SimpleName MethodDeclaration Block ReturnStatement SimpleName part entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName read entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partition input
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName read entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partition input

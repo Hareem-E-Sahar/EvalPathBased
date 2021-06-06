@@ -1,0 +1,71 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName hadoop core site
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+propertytable split threshold QualifiedName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation StringLiteral empty
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytserv maxmem QualifiedName MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation SimpleName put
+site config SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv maxmem
+site config SimpleName MethodInvocation MethodInvocation SimpleName get key
+site config SimpleName MethodInvocation StringLiteral m
+put SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv maxmem
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation StringLiteral m
+propertytserv maxmem QualifiedName MethodInvocation MethodInvocation StringLiteral m
+get key SimpleName MethodInvocation MethodInvocation StringLiteral m
+cfg SimpleName MethodInvocation SimpleName set default memory
+cfg SimpleName MethodInvocation NumberLiteral empty
+cfg SimpleName MethodInvocation QualifiedName memory unitmegabyte
+set default memory SimpleName MethodInvocation NumberLiteral empty
+set default memory SimpleName MethodInvocation QualifiedName memory unitmegabyte
+empty NumberLiteral MethodInvocation QualifiedName memory unitmegabyte
+cfg SimpleName MethodInvocation SimpleName set site config
+cfg SimpleName MethodInvocation SimpleName site config
+set site config SimpleName MethodInvocation SimpleName site config
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cfg
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site

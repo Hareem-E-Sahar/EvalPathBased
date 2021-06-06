@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get key pattern description
+public Modifier MethodDeclaration Block ReturnStatement SimpleName key pattern description
+string SimpleName SimpleType MethodDeclaration SimpleName get key pattern description
+get key pattern description SimpleName MethodDeclaration Block ReturnStatement SimpleName key pattern description
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key pattern description
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key pattern description

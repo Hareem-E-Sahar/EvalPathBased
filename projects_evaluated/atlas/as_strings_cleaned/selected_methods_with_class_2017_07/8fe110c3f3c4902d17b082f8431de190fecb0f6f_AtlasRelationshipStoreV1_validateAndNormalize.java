@@ -1,0 +1,86 @@
+atlas relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+relationship SimpleName MethodInvocation SimpleName get guid
+atlas type util SimpleName MethodInvocation SimpleName is valid guid
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName relationship
+atlas type util SimpleName MethodInvocation MethodInvocation SimpleName get guid
+is valid guid SimpleName MethodInvocation MethodInvocation SimpleName relationship
+is valid guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas error coderelationship guid not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas error coderelationship guid not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get relationship type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName relationship
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship type by name
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas relationship type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type categoryrelationship QualifiedName MethodInvocation SimpleName name
+relationship SimpleName MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName type categoryrelationship
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation QualifiedName type categoryrelationship
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName relationship
+atlas error codetype name invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+type categoryrelationship QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName relationship
+type categoryrelationship QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName relationship
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName get type name
+type SimpleName MethodInvocation SimpleName validate value
+type SimpleName MethodInvocation SimpleName relationship
+type SimpleName MethodInvocation MethodInvocation SimpleName relationship
+type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName MethodInvocation SimpleName messages
+validate value SimpleName MethodInvocation SimpleName relationship
+validate value SimpleName MethodInvocation MethodInvocation SimpleName relationship
+validate value SimpleName MethodInvocation MethodInvocation SimpleName get type name
+validate value SimpleName MethodInvocation SimpleName messages
+relationship SimpleName MethodInvocation MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation SimpleName messages
+relationship SimpleName MethodInvocation MethodInvocation SimpleName messages
+get type name SimpleName MethodInvocation MethodInvocation SimpleName messages
+messages SimpleName MethodInvocation SimpleName is empty
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationship crud invalid params
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName messages
+atlas error coderelationship crud invalid params QualifiedName ClassInstanceCreation SimpleName messages
+type SimpleName MethodInvocation SimpleName get normalized value
+type SimpleName MethodInvocation SimpleName relationship
+get normalized value SimpleName MethodInvocation SimpleName relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate and normalize
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName validate and normalize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+validate and normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+validate and normalize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+validate and normalize SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+relationship SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate and normalize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate and normalize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName tid
+to string SimpleName MethodInvocation SimpleName tid
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName type
+get root SimpleName MethodInvocation InfixExpression SimpleName type
+instance SimpleName MethodInvocation InfixExpression SimpleName type
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tid
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tid
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tid
+/ StringLiteral InfixExpression SimpleName type
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation SimpleName long
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression MethodInvocation SimpleName tid
+type SimpleName InfixExpression StringLiteral /
+type SimpleName InfixExpression MethodInvocation SimpleName long
+type SimpleName InfixExpression MethodInvocation SimpleName to string
+type SimpleName InfixExpression MethodInvocation SimpleName tid
+/ StringLiteral InfixExpression MethodInvocation SimpleName long
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression MethodInvocation SimpleName tid
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName type
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName long
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+rdr SimpleName MethodInvocation SimpleName sync
+rdr SimpleName MethodInvocation SimpleName path
+sync SimpleName MethodInvocation SimpleName path
+rdr SimpleName MethodInvocation SimpleName exists
+rdr SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName transaction alive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName transaction alive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration SimpleName transaction alive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+transaction alive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+transaction alive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+transaction alive SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+transaction alive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+transaction alive SimpleName MethodDeclaration SimpleType SimpleName exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName transaction alive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transaction alive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

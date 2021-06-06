@@ -1,0 +1,121 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName MethodInvocation SimpleName set num tservers
+cfg SimpleName MethodInvocation NumberLiteral empty
+set num tservers SimpleName MethodInvocation NumberLiteral empty
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertytserv walog max size
+cfg SimpleName MethodInvocation StringLiteral m
+set property SimpleName MethodInvocation QualifiedName propertytserv walog max size
+set property SimpleName MethodInvocation StringLiteral m
+propertytserv walog max size QualifiedName MethodInvocation StringLiteral m
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertygc cycle start
+cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertygc cycle start
+set property SimpleName MethodInvocation StringLiteral s
+propertygc cycle start QualifiedName MethodInvocation StringLiteral s
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertygc cycle delay
+cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertygc cycle delay
+set property SimpleName MethodInvocation StringLiteral s
+propertygc cycle delay QualifiedName MethodInvocation StringLiteral s
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyreplication work assignment sleep
+cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertyreplication work assignment sleep
+set property SimpleName MethodInvocation StringLiteral s
+propertyreplication work assignment sleep QualifiedName MethodInvocation StringLiteral s
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertymaster replication scan interval
+set property SimpleName MethodInvocation StringLiteral s
+propertymaster replication scan interval QualifiedName MethodInvocation StringLiteral s
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyreplication max unit size
+cfg SimpleName MethodInvocation StringLiteral m
+set property SimpleName MethodInvocation QualifiedName propertyreplication max unit size
+set property SimpleName MethodInvocation StringLiteral m
+propertyreplication max unit size QualifiedName MethodInvocation StringLiteral m
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyreplication name
+cfg SimpleName MethodInvocation StringLiteral master
+set property SimpleName MethodInvocation QualifiedName propertyreplication name
+set property SimpleName MethodInvocation StringLiteral master
+propertyreplication name QualifiedName MethodInvocation StringLiteral master
+sequential work assigner SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyreplication work assigner
+cfg SimpleName MethodInvocation MethodInvocation SimpleName get name
+set property SimpleName MethodInvocation QualifiedName propertyreplication work assigner
+set property SimpleName MethodInvocation MethodInvocation SimpleName get name
+propertyreplication work assigner QualifiedName MethodInvocation MethodInvocation SimpleName get name
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertytserv total mutation queue max
+cfg SimpleName MethodInvocation StringLiteral m
+set property SimpleName MethodInvocation QualifiedName propertytserv total mutation queue max
+set property SimpleName MethodInvocation StringLiteral m
+propertytserv total mutation queue max QualifiedName MethodInvocation StringLiteral m
+cfg SimpleName MethodInvocation SimpleName set memory
+cfg SimpleName MethodInvocation QualifiedName server typemaster
+cfg SimpleName MethodInvocation NumberLiteral empty
+cfg SimpleName MethodInvocation QualifiedName memory unitgigabyte
+set memory SimpleName MethodInvocation QualifiedName server typemaster
+set memory SimpleName MethodInvocation NumberLiteral empty
+set memory SimpleName MethodInvocation QualifiedName memory unitgigabyte
+server typemaster QualifiedName MethodInvocation NumberLiteral empty
+server typemaster QualifiedName MethodInvocation QualifiedName memory unitgigabyte
+empty NumberLiteral MethodInvocation QualifiedName memory unitgigabyte
+cfg SimpleName MethodInvocation SimpleName set memory
+cfg SimpleName MethodInvocation QualifiedName server typetablet server
+cfg SimpleName MethodInvocation NumberLiteral empty
+cfg SimpleName MethodInvocation QualifiedName memory unitmegabyte
+set memory SimpleName MethodInvocation QualifiedName server typetablet server
+set memory SimpleName MethodInvocation NumberLiteral empty
+set memory SimpleName MethodInvocation QualifiedName memory unitmegabyte
+server typetablet server QualifiedName MethodInvocation NumberLiteral empty
+server typetablet server QualifiedName MethodInvocation QualifiedName memory unitmegabyte
+empty NumberLiteral MethodInvocation QualifiedName memory unitmegabyte
+raw local file system SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+hadoop core site SimpleName MethodInvocation SimpleName set
+hadoop core site SimpleName MethodInvocation StringLiteral fsfileimpl
+hadoop core site SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral fsfileimpl
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+fsfileimpl StringLiteral MethodInvocation MethodInvocation SimpleName get name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cfg
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site

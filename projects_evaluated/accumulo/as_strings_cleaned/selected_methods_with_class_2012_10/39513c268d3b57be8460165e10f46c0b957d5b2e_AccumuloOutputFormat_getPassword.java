@@ -1,0 +1,46 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName password
+conf SimpleName MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation SimpleName password
+get SimpleName MethodInvocation StringLiteral empty
+password SimpleName MethodInvocation StringLiteral empty
+conf SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation SimpleName decode base
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+base SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+decode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+decode base SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password
+decode base SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName get password
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName get password
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get password
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

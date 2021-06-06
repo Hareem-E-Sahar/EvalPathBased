@@ -1,0 +1,28 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName shell execution thread
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName shell execution thread
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName shell execution thread
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName shell execution thread
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName shell execution thread
+private Modifier MethodDeclaration SimpleName user shells
+private Modifier MethodDeclaration Block ReturnStatement SimpleName user shells
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName shell execution thread
+synchronized Modifier MethodDeclaration SimpleName user shells
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName user shells
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName user shells
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName user shells
+shell execution thread SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName user shells
+user shells SimpleName MethodDeclaration Block ReturnStatement SimpleName user shells
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName user shells
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName user shells

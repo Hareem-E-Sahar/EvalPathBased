@@ -1,0 +1,65 @@
+javaniobyte buffer QualifiedName MethodInvocation SimpleName wrap
+javaniobyte buffer QualifiedName MethodInvocation SimpleName row
+wrap SimpleName MethodInvocation SimpleName row
+javaniobyte buffer QualifiedName MethodInvocation SimpleName wrap
+javaniobyte buffer QualifiedName MethodInvocation SimpleName data
+wrap SimpleName MethodInvocation SimpleName data
+byte buffer util SimpleName MethodInvocation SimpleName to byte buffers
+byte buffer util SimpleName MethodInvocation SimpleName values
+to byte buffers SimpleName MethodInvocation SimpleName values
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName javaniobyte buffer
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName row
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName javaniobyte buffer
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+t mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName values
+t mutation SimpleName SimpleType ClassInstanceCreation SimpleName entries
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName javaniobyte buffer
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName javaniobyte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName javaniobyte buffer
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation SimpleName entries
+wrap SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+row SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte buffers
+data SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName values
+javaniobyte buffer QualifiedName MethodInvocation ClassInstanceCreation SimpleName entries
+wrap SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+data SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+byte buffer util SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+to byte buffers SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+values SimpleName MethodInvocation ClassInstanceCreation SimpleName entries
+public Modifier MethodDeclaration SimpleType SimpleName t mutation
+public Modifier MethodDeclaration SimpleName to thrift
+t mutation SimpleName SimpleType MethodDeclaration SimpleName to thrift
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift

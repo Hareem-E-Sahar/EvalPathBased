@@ -1,0 +1,89 @@
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral meta
+condition SimpleName SimpleType ClassInstanceCreation StringLiteral seq
+meta StringLiteral ClassInstanceCreation StringLiteral seq
+cond SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName condition
+cond SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral meta
+cond SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral seq
+condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cond
+seq SimpleName InfixExpression NumberLiteral empty
+seq SimpleName InfixExpression StringLiteral empty
+cond SimpleName MethodInvocation SimpleName set value
+cond SimpleName MethodInvocation InfixExpression SimpleName seq
+cond SimpleName MethodInvocation InfixExpression StringLiteral empty
+set value SimpleName MethodInvocation InfixExpression SimpleName seq
+set value SimpleName MethodInvocation InfixExpression StringLiteral empty
+conditional mutation SimpleName SimpleType ClassInstanceCreation SimpleName row
+conditional mutation SimpleName SimpleType ClassInstanceCreation SimpleName cond
+row SimpleName ClassInstanceCreation SimpleName cond
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName conditional mutation
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cond
+conditional mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+seq SimpleName InfixExpression NumberLiteral empty
+seq SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral meta
+cm SimpleName MethodInvocation StringLiteral seq
+cm SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral seq
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral seq
+meta StringLiteral MethodInvocation InfixExpression StringLiteral empty
+seq StringLiteral MethodInvocation InfixExpression StringLiteral empty
+sum SimpleName ParenthesizedExpression InfixExpression StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral meta
+cm SimpleName MethodInvocation StringLiteral sum
+cm SimpleName MethodInvocation InfixExpression ParenthesizedExpression SimpleName sum
+cm SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation StringLiteral meta
+put SimpleName MethodInvocation StringLiteral sum
+put SimpleName MethodInvocation InfixExpression ParenthesizedExpression SimpleName sum
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+meta StringLiteral MethodInvocation StringLiteral sum
+meta StringLiteral MethodInvocation InfixExpression ParenthesizedExpression SimpleName sum
+meta StringLiteral MethodInvocation InfixExpression StringLiteral empty
+sum StringLiteral MethodInvocation InfixExpression ParenthesizedExpression SimpleName sum
+sum StringLiteral MethodInvocation InfixExpression StringLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName datalength
+i SimpleName InfixExpression StringLiteral empty
+data SimpleName ArrayAccess SimpleName i
+data SimpleName ArrayAccess InfixExpression StringLiteral empty
+i SimpleName ArrayAccess InfixExpression StringLiteral empty
+cm SimpleName MethodInvocation SimpleName put
+cm SimpleName MethodInvocation StringLiteral data
+cm SimpleName MethodInvocation InfixExpression SimpleName i
+cm SimpleName MethodInvocation InfixExpression StringLiteral empty
+cm SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName data
+cm SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName i
+cm SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation StringLiteral data
+put SimpleName MethodInvocation InfixExpression SimpleName i
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+put SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName data
+put SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName i
+put SimpleName MethodInvocation InfixExpression StringLiteral empty
+data StringLiteral MethodInvocation InfixExpression SimpleName i
+data StringLiteral MethodInvocation InfixExpression StringLiteral empty
+data StringLiteral MethodInvocation InfixExpression ArrayAccess SimpleName data
+data StringLiteral MethodInvocation InfixExpression ArrayAccess SimpleName i
+data StringLiteral MethodInvocation InfixExpression StringLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+datalength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+conditional mutation SimpleName SimpleType MethodDeclaration SimpleName to mutation
+to mutation SimpleName MethodDeclaration Block ReturnStatement SimpleName cm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName conditional mutation
+public Modifier TypeDeclaration MethodDeclaration SimpleName to mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName conditional mutation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to mutation

@@ -1,0 +1,96 @@
+data provider SimpleName MemberValuePair StringLiteral dsl explicit limit queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral dsl explicit limit queries provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName expected num rows
+int PrimitiveType SingleVariableDeclaration SimpleName limit
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+run query SimpleName MethodInvocation SimpleName dsl query
+run query SimpleName MethodInvocation SimpleName expected num rows
+run query SimpleName MethodInvocation SimpleName limit
+run query SimpleName MethodInvocation SimpleName offset
+dsl query SimpleName MethodInvocation SimpleName expected num rows
+dsl query SimpleName MethodInvocation SimpleName limit
+dsl query SimpleName MethodInvocation SimpleName offset
+expected num rows SimpleName MethodInvocation SimpleName limit
+expected num rows SimpleName MethodInvocation SimpleName offset
+limit SimpleName MethodInvocation SimpleName offset
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+dsl explicit limit queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+dsl explicit limit queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test search by dsl queries with explicit limit
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search by dsl queries with explicit limit
+dsl explicit limit queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search by dsl queries with explicit limit
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search by dsl queries with explicit limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+void PrimitiveType MethodDeclaration SimpleName test search by dsl queries with explicit limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+test search by dsl queries with explicit limit SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+expected num rows SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+limit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search by dsl queries with explicit limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search by dsl queries with explicit limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected num rows
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

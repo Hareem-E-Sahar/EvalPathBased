@@ -1,0 +1,48 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+cluster SimpleName MethodInvocation StringLiteral stop all
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+exec SimpleName MethodInvocation StringLiteral stop all
+admin SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral stop all
+cluster SimpleName MethodInvocation MethodInvocation SimpleName wait for
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+stop all StringLiteral MethodInvocation MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName stop during start
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName stop during start
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stop during start
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName stop during start
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+stop during start SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stop during start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stop during start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

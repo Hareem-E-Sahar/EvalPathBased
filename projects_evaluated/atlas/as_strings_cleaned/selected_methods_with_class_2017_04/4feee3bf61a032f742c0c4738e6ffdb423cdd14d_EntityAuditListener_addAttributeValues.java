@@ -1,0 +1,60 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes map
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes map
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName attributes map
+is not empty SimpleName MethodInvocation SimpleName attributes map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+attributes map SimpleName MethodInvocation SimpleName key set
+attributes map SimpleName MethodInvocation SimpleName get
+attributes map SimpleName MethodInvocation SimpleName attr
+get SimpleName MethodInvocation SimpleName attr
+entity SimpleName MethodInvocation SimpleName set
+entity SimpleName MethodInvocation SimpleName attr
+entity SimpleName MethodInvocation MethodInvocation SimpleName attributes map
+entity SimpleName MethodInvocation MethodInvocation SimpleName get
+entity SimpleName MethodInvocation MethodInvocation SimpleName attr
+set SimpleName MethodInvocation SimpleName attr
+set SimpleName MethodInvocation MethodInvocation SimpleName attributes map
+set SimpleName MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation SimpleName attributes map
+attr SimpleName MethodInvocation MethodInvocation SimpleName get
+attr SimpleName MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attributes map
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add attribute values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName add attribute values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+add attribute values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add attribute values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+add attribute values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+add attribute values SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attributes map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add attribute values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add attribute values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

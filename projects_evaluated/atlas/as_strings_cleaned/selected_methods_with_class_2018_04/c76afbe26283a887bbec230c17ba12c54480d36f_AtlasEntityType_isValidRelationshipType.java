@@ -1,0 +1,37 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+attribute type SimpleName InstanceofExpression SimpleType SimpleName atlas array type
+atlas array type SimpleName SimpleType CastExpression SimpleName attribute type
+attribute type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get element type
+attribute type SimpleName Assignment MethodInvocation SimpleName get element type
+attribute type SimpleName InstanceofExpression SimpleType SimpleName atlas object id type
+attribute type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+attribute type SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName attribute type
+ret SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is valid relationship type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is valid relationship type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is valid relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+is valid relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+is valid relationship type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is valid relationship type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid relationship type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid relationship type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type

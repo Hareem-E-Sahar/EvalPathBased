@@ -1,0 +1,72 @@
+nm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName native map
+native map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nm
+insert and verify SimpleName MethodInvocation SimpleName nm
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+insert and verify SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+nm SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName nm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName next
+nm SimpleName MethodInvocation SimpleName delete
+nk SimpleName MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName put
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation MethodInvocation SimpleName nv
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nk
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation SimpleName nv
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+nk SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName get
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName nk
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+nm SimpleName MethodInvocation SimpleName iterator
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+nk SimpleName MethodInvocation NumberLiteral empty
+nm SimpleName MethodInvocation SimpleName iterator
+nm SimpleName MethodInvocation MethodInvocation SimpleName nk
+nm SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+iterator SimpleName MethodInvocation MethodInvocation SimpleName nk
+iterator SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+nm SimpleName MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+iter SimpleName MethodInvocation SimpleName next
+assert true SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleName test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test

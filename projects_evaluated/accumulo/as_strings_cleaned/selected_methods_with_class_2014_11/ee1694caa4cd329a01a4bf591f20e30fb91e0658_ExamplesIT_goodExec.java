@@ -1,0 +1,106 @@
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName the class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName the class
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tool SimpleName SimpleType TypeLiteral MethodInvocation SimpleName is assignable from
+tool SimpleName SimpleType TypeLiteral MethodInvocation SimpleName the class
+is assignable from SimpleName MethodInvocation SimpleName the class
+cluster typestandalone QualifiedName InfixExpression MethodInvocation SimpleName get cluster type
+is assignable from SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName cluster typestandalone
+the class SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName cluster typestandalone
+standalone cluster control SimpleName SimpleType CastExpression MethodInvocation SimpleName get cluster control
+control SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName standalone cluster control
+control SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get cluster control
+standalone cluster control SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName control
+control SimpleName MethodInvocation SimpleName exec mapreduce with stdout
+control SimpleName MethodInvocation SimpleName the class
+control SimpleName MethodInvocation SimpleName args
+exec mapreduce with stdout SimpleName MethodInvocation SimpleName the class
+exec mapreduce with stdout SimpleName MethodInvocation SimpleName args
+the class SimpleName MethodInvocation SimpleName args
+pair SimpleName Assignment MethodInvocation SimpleName control
+pair SimpleName Assignment MethodInvocation SimpleName exec mapreduce with stdout
+pair SimpleName Assignment MethodInvocation SimpleName the class
+pair SimpleName Assignment MethodInvocation SimpleName args
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName exec with stdout
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName the class
+get cluster control SimpleName MethodInvocation MethodInvocation SimpleName args
+exec with stdout SimpleName MethodInvocation SimpleName the class
+exec with stdout SimpleName MethodInvocation SimpleName args
+the class SimpleName MethodInvocation SimpleName args
+pair SimpleName Assignment MethodInvocation MethodInvocation SimpleName get cluster control
+pair SimpleName Assignment MethodInvocation SimpleName exec with stdout
+pair SimpleName Assignment MethodInvocation SimpleName the class
+pair SimpleName Assignment MethodInvocation SimpleName args
+pair SimpleName MethodInvocation SimpleName get value
+stdout StringLiteral InfixExpression MethodInvocation SimpleName pair
+stdout StringLiteral InfixExpression MethodInvocation SimpleName get value
+pair SimpleName MethodInvocation SimpleName get key
+pair SimpleName MethodInvocation MethodInvocation SimpleName int value
+get key SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression StringLiteral stdout
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pair
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert SimpleName MethodInvocation MethodInvocation SimpleName int value
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral stdout
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pair
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName int value
+stdout StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+pair SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+stdout StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName int value
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName int value
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName good exec
+private Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName the class
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName good exec
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName the class
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+good exec SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+good exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName the class
+good exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+good exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+good exec SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+good exec SimpleName MethodDeclaration SimpleType SimpleName io exception
+the class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+the class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+the class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName good exec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName the class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName good exec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName the class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

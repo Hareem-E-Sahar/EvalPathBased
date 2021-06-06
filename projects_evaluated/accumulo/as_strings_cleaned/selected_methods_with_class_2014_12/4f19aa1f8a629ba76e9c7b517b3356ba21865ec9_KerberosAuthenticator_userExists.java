@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+user SimpleName MethodInvocation SimpleName get bytes
+user SimpleName MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+base SimpleName MethodInvocation SimpleName encode base string
+base SimpleName MethodInvocation MethodInvocation SimpleName user
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation MethodInvocation SimpleName utf
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName user
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+encode base string SimpleName MethodInvocation MethodInvocation SimpleName utf
+user SimpleName Assignment MethodInvocation SimpleName base
+user SimpleName Assignment MethodInvocation SimpleName encode base string
+user SimpleName Assignment MethodInvocation MethodInvocation SimpleName user
+user SimpleName Assignment MethodInvocation MethodInvocation SimpleName get bytes
+user SimpleName Assignment MethodInvocation MethodInvocation SimpleName utf
+zk authenticator SimpleName MethodInvocation SimpleName user exists
+zk authenticator SimpleName MethodInvocation SimpleName user
+user exists SimpleName MethodInvocation SimpleName user
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName user exists
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName user exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName user exists
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+synchronized Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType MethodDeclaration SimpleName user exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+user exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+user exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+user exists SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName user exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName user exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

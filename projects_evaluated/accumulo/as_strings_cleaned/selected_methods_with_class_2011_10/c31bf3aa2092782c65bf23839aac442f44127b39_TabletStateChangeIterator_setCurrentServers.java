@@ -1,0 +1,70 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName good servers
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName good servers
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName server
+server SimpleName MethodInvocation SimpleName to string
+servers SimpleName MethodInvocation SimpleName add
+servers SimpleName MethodInvocation MethodInvocation SimpleName server
+servers SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName server
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName good servers
+server SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName good servers
+good servers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName servers
+good servers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation SimpleName servers
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation SimpleName servers
+join SimpleName MethodInvocation StringLiteral empty
+servers SimpleName MethodInvocation StringLiteral empty
+cfg SimpleName MethodInvocation SimpleName add option
+cfg SimpleName MethodInvocation SimpleName servers option
+cfg SimpleName MethodInvocation MethodInvocation SimpleName string util
+cfg SimpleName MethodInvocation MethodInvocation SimpleName join
+cfg SimpleName MethodInvocation MethodInvocation SimpleName servers
+cfg SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add option SimpleName MethodInvocation SimpleName servers option
+add option SimpleName MethodInvocation MethodInvocation SimpleName string util
+add option SimpleName MethodInvocation MethodInvocation SimpleName join
+add option SimpleName MethodInvocation MethodInvocation SimpleName servers
+add option SimpleName MethodInvocation MethodInvocation StringLiteral empty
+servers option SimpleName MethodInvocation MethodInvocation SimpleName string util
+servers option SimpleName MethodInvocation MethodInvocation SimpleName join
+servers option SimpleName MethodInvocation MethodInvocation SimpleName servers
+servers option SimpleName MethodInvocation MethodInvocation StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set current servers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName good servers
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set current servers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName good servers
+void PrimitiveType MethodDeclaration SimpleName set current servers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName good servers
+set current servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set current servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+set current servers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName good servers
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName good servers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set current servers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName good servers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set current servers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName good servers

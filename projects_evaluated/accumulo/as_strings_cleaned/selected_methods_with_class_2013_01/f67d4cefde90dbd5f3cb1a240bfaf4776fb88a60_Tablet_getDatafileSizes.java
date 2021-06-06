@@ -1,0 +1,54 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType QualifiedName metadata tabledata file value
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName metadata tabledata file value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+datafile sizes SimpleName MethodInvocation SimpleName entry set
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName datafile sizes
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get value
+files SimpleName MethodInvocation SimpleName put
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+files SimpleName MethodInvocation MethodInvocation SimpleName entry
+files SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+collections SimpleName MethodInvocation SimpleName unmodifiable sorted map
+collections SimpleName MethodInvocation SimpleName files
+unmodifiable sorted map SimpleName MethodInvocation SimpleName files
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+public Modifier MethodDeclaration SimpleName get datafile sizes
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafile sizes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafile sizes
+data file value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get datafile sizes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get datafile sizes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get datafile sizes

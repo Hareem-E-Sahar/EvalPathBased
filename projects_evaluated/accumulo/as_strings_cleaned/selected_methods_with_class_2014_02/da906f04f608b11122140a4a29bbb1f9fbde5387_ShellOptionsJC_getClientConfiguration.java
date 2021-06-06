@@ -1,0 +1,32 @@
+properties configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get client config file
+client config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client configuration
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client config
+client config SimpleName MethodInvocation SimpleName set property
+client config SimpleName MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+client config SimpleName MethodInvocation StringLiteral true
+set property SimpleName MethodInvocation QualifiedName client propertyinstance rpc ssl enabled
+set property SimpleName MethodInvocation StringLiteral true
+client propertyinstance rpc ssl enabled QualifiedName MethodInvocation StringLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName client configuration
+public Modifier MethodDeclaration SimpleName get client configuration
+public Modifier MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName client config
+client configuration SimpleName SimpleType MethodDeclaration SimpleName get client configuration
+client configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName configuration exception
+client configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName file not found exception
+get client configuration SimpleName MethodDeclaration SimpleType SimpleName configuration exception
+get client configuration SimpleName MethodDeclaration SimpleType SimpleName file not found exception
+get client configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName client config
+configuration exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception

@@ -1,0 +1,97 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+rand SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName secure random
+secure random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+path SimpleName MethodInvocation SimpleName get parent
+path SimpleName MethodInvocation SimpleName get name
+system SimpleName MethodInvocation SimpleName current time millis
+rand SimpleName MethodInvocation SimpleName next int
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation MethodInvocation SimpleName rand
+math SimpleName MethodInvocation MethodInvocation SimpleName next int
+abs SimpleName MethodInvocation MethodInvocation SimpleName rand
+abs SimpleName MethodInvocation MethodInvocation SimpleName next int
+path SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+path SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs
+path SimpleName MethodInvocation InfixExpression StringLiteral bak
+get name SimpleName MethodInvocation InfixExpression StringLiteral bak
+empty StringLiteral InfixExpression MethodInvocation SimpleName system
+empty StringLiteral InfixExpression MethodInvocation SimpleName current time millis
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation SimpleName abs
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rand
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next int
+empty StringLiteral InfixExpression StringLiteral bak
+system SimpleName MethodInvocation InfixExpression StringLiteral empty
+current time millis SimpleName MethodInvocation InfixExpression StringLiteral empty
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs
+system SimpleName MethodInvocation InfixExpression StringLiteral bak
+current time millis SimpleName MethodInvocation InfixExpression StringLiteral bak
+empty StringLiteral InfixExpression MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation SimpleName abs
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName rand
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next int
+empty StringLiteral InfixExpression StringLiteral bak
+math SimpleName MethodInvocation InfixExpression StringLiteral bak
+abs SimpleName MethodInvocation InfixExpression StringLiteral bak
+rand SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral bak
+next int SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral bak
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get parent
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bak
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral bak
+get parent SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+get parent SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+get parent SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral bak
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SimpleName get backup name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SimpleName get backup name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+path SimpleName SimpleType MethodDeclaration SimpleName get backup name
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+get backup name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+get backup name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+get backup name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get backup name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName get backup name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get backup name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

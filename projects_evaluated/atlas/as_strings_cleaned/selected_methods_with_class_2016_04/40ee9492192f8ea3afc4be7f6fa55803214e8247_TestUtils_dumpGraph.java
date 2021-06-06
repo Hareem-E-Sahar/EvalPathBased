@@ -1,0 +1,67 @@
+titan graph SimpleName SimpleType SingleVariableDeclaration SimpleName titan graph
+file SimpleName MethodInvocation SimpleName create temp file
+file SimpleName MethodInvocation StringLiteral graph
+file SimpleName MethodInvocation StringLiteral gson
+create temp file SimpleName MethodInvocation StringLiteral graph
+create temp file SimpleName MethodInvocation StringLiteral gson
+graph StringLiteral MethodInvocation StringLiteral gson
+temp file SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+temp file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp file
+temp file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral graph
+temp file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gson
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp file
+temp file SimpleName MethodInvocation SimpleName get path
+temp fileget path = StringLiteral InfixExpression MethodInvocation SimpleName temp file
+temp fileget path = StringLiteral InfixExpression MethodInvocation SimpleName get path
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral temp fileget path =
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName temp file
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+println SimpleName MethodInvocation InfixExpression StringLiteral temp fileget path =
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName temp file
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+temp file SimpleName MethodInvocation SimpleName get path
+graph son writer SimpleName MethodInvocation SimpleName output graph
+graph son writer SimpleName MethodInvocation SimpleName titan graph
+graph son writer SimpleName MethodInvocation MethodInvocation SimpleName temp file
+graph son writer SimpleName MethodInvocation MethodInvocation SimpleName get path
+output graph SimpleName MethodInvocation SimpleName titan graph
+output graph SimpleName MethodInvocation MethodInvocation SimpleName temp file
+output graph SimpleName MethodInvocation MethodInvocation SimpleName get path
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName temp file
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName get path
+graph helper SimpleName MethodInvocation SimpleName dump to log
+graph helper SimpleName MethodInvocation SimpleName titan graph
+dump to log SimpleName MethodInvocation SimpleName titan graph
+temp file SimpleName MethodInvocation SimpleName get path
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName dump graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName dump graph
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan graph
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+static Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName dump graph
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+dump graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan graph
+dump graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+dump graph SimpleName MethodDeclaration SimpleType SimpleName exception
+titan graph SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName titan graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,39 @@
+i typed referenceable instance SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName entity instance definitions
+repository SimpleName MethodInvocation SimpleName update entities
+repository SimpleName MethodInvocation SimpleName entity instance definitions
+update entities SimpleName MethodInvocation SimpleName entity instance definitions
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName update entities
+entity result SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity instance definitions
+atlas cliententity result QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity result
+on entities added updated SimpleName MethodInvocation SimpleName entity result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas cliententity result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier MethodDeclaration SimpleName update entities
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity result
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName update entities
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+update entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+update entities SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+update entities SimpleName MethodDeclaration Block ReturnStatement SimpleName entity result
+entity instance definitions SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity instance definitions
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

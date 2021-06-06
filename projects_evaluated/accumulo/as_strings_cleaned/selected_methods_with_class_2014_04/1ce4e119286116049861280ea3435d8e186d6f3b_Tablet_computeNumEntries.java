@@ -1,0 +1,47 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+datafile manager SimpleName MethodInvocation SimpleName get datafile sizes
+datafile manager SimpleName MethodInvocation MethodInvocation SimpleName values
+get datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName values
+vals SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName datafile manager
+vals SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get datafile sizes
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+num entries SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num entries
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+data file value SimpleName SimpleType SingleVariableDeclaration SimpleName table value
+table value SimpleName MethodInvocation SimpleName get num entries
+num entries SimpleName Assignment MethodInvocation SimpleName table value
+num entries SimpleName Assignment MethodInvocation SimpleName get num entries
+data file value SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName vals
+table value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName vals
+tablet memory SimpleName MethodInvocation SimpleName get num entries
+num entries in memory SimpleName FieldAccess Assignment MethodInvocation SimpleName tablet memory
+num entries in memory SimpleName FieldAccess Assignment MethodInvocation SimpleName get num entries
+tablet memory SimpleName MethodInvocation SimpleName get num entries
+num entries SimpleName Assignment MethodInvocation SimpleName tablet memory
+num entries SimpleName Assignment MethodInvocation SimpleName get num entries
+num entries SimpleName FieldAccess Assignment SimpleName num entries
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName vals
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName compute num entries
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName vals
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName compute num entries
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName vals
+void PrimitiveType MethodDeclaration SimpleName compute num entries
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName vals
+compute num entries SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+compute num entries SimpleName MethodDeclaration Block EnhancedForStatement SimpleName vals
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute num entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute num entries

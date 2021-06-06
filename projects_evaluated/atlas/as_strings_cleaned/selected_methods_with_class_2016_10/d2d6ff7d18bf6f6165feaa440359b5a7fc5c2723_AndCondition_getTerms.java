@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName query predicate
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName query predicate
+public Modifier MethodDeclaration SimpleName get terms
+public Modifier MethodDeclaration Block ReturnStatement SimpleName children
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get terms
+query predicate SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get terms
+get terms SimpleName MethodDeclaration Block ReturnStatement SimpleName children
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get terms
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get terms

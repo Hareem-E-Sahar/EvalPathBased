@@ -1,0 +1,128 @@
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+my metadata table SimpleName VariableDeclarationFragment StringLiteral mymetadata
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName my metadata table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral mymetadata
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator scope
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName iterator scopemajc
+enum set SimpleName MethodInvocation QualifiedName iterator scopeminc
+enum set SimpleName MethodInvocation QualifiedName iterator scopescan
+of SimpleName MethodInvocation QualifiedName iterator scopemajc
+of SimpleName MethodInvocation QualifiedName iterator scopeminc
+of SimpleName MethodInvocation QualifiedName iterator scopescan
+iterator scopemajc QualifiedName MethodInvocation QualifiedName iterator scopeminc
+iterator scopemajc QualifiedName MethodInvocation QualifiedName iterator scopescan
+iterator scopeminc QualifiedName MethodInvocation QualifiedName iterator scopescan
+iterators SimpleName MethodInvocation SimpleName put
+iterators SimpleName MethodInvocation StringLiteral vers
+iterators SimpleName MethodInvocation MethodInvocation SimpleName enum set
+iterators SimpleName MethodInvocation MethodInvocation SimpleName of
+iterators SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopemajc
+iterators SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopeminc
+iterators SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+put SimpleName MethodInvocation StringLiteral vers
+put SimpleName MethodInvocation MethodInvocation SimpleName enum set
+put SimpleName MethodInvocation MethodInvocation SimpleName of
+put SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopemajc
+put SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopeminc
+put SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+vers StringLiteral MethodInvocation MethodInvocation SimpleName enum set
+vers StringLiteral MethodInvocation MethodInvocation SimpleName of
+vers StringLiteral MethodInvocation MethodInvocation QualifiedName iterator scopemajc
+vers StringLiteral MethodInvocation MethodInvocation QualifiedName iterator scopeminc
+vers StringLiteral MethodInvocation MethodInvocation QualifiedName iterator scopescan
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral replcombiner
+empty NumberLiteral ClassInstanceCreation StringLiteral replcombiner
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName status combiner
+replcombiner StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName status combiner
+combiner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+combiner SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+combiner SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral replcombiner
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName combiner
+column SimpleName SimpleType ClassInstanceCreation QualifiedName replication sectioncolf
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName replication sectioncolf
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+singleton list SimpleName MethodInvocation ClassInstanceCreation QualifiedName replication sectioncolf
+combiner SimpleName MethodInvocation SimpleName set columns
+combiner SimpleName MethodInvocation SimpleName combiner
+combiner SimpleName MethodInvocation MethodInvocation SimpleName collections
+combiner SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName replication sectioncolf
+set columns SimpleName MethodInvocation SimpleName combiner
+set columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+set columns SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set columns SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName replication sectioncolf
+combiner SimpleName MethodInvocation MethodInvocation SimpleName collections
+combiner SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName replication sectioncolf
+conn SimpleName MethodInvocation SimpleName table operations
+expect SimpleName MethodInvocation MethodInvocation SimpleName conn
+expect SimpleName MethodInvocation MethodInvocation SimpleName table operations
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName tops
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tops
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tops
+and return SimpleName MethodInvocation SimpleName tops
+tops SimpleName MethodInvocation SimpleName list iterators
+tops SimpleName MethodInvocation SimpleName my metadata table
+list iterators SimpleName MethodInvocation SimpleName my metadata table
+expect SimpleName MethodInvocation MethodInvocation SimpleName tops
+expect SimpleName MethodInvocation MethodInvocation SimpleName list iterators
+expect SimpleName MethodInvocation MethodInvocation SimpleName my metadata table
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+tops SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+list iterators SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+my metadata table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName iterators
+tops SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterators
+list iterators SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterators
+my metadata table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterators
+and return SimpleName MethodInvocation SimpleName iterators
+tops SimpleName MethodInvocation SimpleName attach iterator
+tops SimpleName MethodInvocation SimpleName my metadata table
+tops SimpleName MethodInvocation SimpleName combiner
+attach iterator SimpleName MethodInvocation SimpleName my metadata table
+attach iterator SimpleName MethodInvocation SimpleName combiner
+my metadata table SimpleName MethodInvocation SimpleName combiner
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName once
+replay SimpleName MethodInvocation SimpleName conn
+replay SimpleName MethodInvocation SimpleName tops
+conn SimpleName MethodInvocation SimpleName tops
+replication table util SimpleName MethodInvocation SimpleName configure metadata table
+replication table util SimpleName MethodInvocation SimpleName conn
+replication table util SimpleName MethodInvocation SimpleName my metadata table
+configure metadata table SimpleName MethodInvocation SimpleName conn
+configure metadata table SimpleName MethodInvocation SimpleName my metadata table
+conn SimpleName MethodInvocation SimpleName my metadata table
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName sets combiner on metadata correctly
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName sets combiner on metadata correctly
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName sets combiner on metadata correctly
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+sets combiner on metadata correctly SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sets combiner on metadata correctly
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sets combiner on metadata correctly
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

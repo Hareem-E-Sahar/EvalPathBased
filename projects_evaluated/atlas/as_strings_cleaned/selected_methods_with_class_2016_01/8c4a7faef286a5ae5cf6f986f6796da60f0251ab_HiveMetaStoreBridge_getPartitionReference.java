@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+join partition values SimpleName MethodInvocation SimpleName values
+values str SimpleName VariableDeclarationFragment MethodInvocation SimpleName join partition values
+values str SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName values str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral getting reference for partition for {}.{} with values {}
+log SimpleName MethodInvocation SimpleName db name
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName values str
+debug SimpleName MethodInvocation StringLiteral getting reference for partition for {}.{} with values {}
+debug SimpleName MethodInvocation SimpleName db name
+debug SimpleName MethodInvocation SimpleName table name
+debug SimpleName MethodInvocation SimpleName values str
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName db name
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName table name
+getting reference for partition for {}.{} with values {} StringLiteral MethodInvocation SimpleName values str
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName values str
+table name SimpleName MethodInvocation SimpleName values str
+get table qualified name SimpleName MethodInvocation SimpleName cluster name
+get table qualified name SimpleName MethodInvocation SimpleName db name
+get table qualified name SimpleName MethodInvocation SimpleName table name
+cluster name SimpleName MethodInvocation SimpleName db name
+cluster name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName table name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table qualified name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+table entity name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table entity name
+get partition gremlin query SimpleName MethodInvocation SimpleName values str
+get partition gremlin query SimpleName MethodInvocation SimpleName table entity name
+values str SimpleName MethodInvocation SimpleName table entity name
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get partition gremlin query
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName values str
+gremlin query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table entity name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin query
+hive data typeshive partition QualifiedName MethodInvocation SimpleName get name
+get entity reference from gremlin SimpleName MethodInvocation MethodInvocation QualifiedName hive data typeshive partition
+get entity reference from gremlin SimpleName MethodInvocation MethodInvocation SimpleName get name
+get entity reference from gremlin SimpleName MethodInvocation SimpleName gremlin query
+hive data typeshive partition QualifiedName MethodInvocation MethodInvocation SimpleName gremlin query
+get name SimpleName MethodInvocation MethodInvocation SimpleName gremlin query
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get partition reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get partition reference
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db name
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get partition reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+get partition reference SimpleName MethodDeclaration SimpleType SimpleName exception
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+db name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+values SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partition reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partition reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

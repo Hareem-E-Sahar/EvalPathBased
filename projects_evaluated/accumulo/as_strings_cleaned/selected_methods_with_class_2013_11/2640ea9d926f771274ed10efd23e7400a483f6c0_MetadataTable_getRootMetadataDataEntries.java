@@ -1,0 +1,157 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+column SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+extent SimpleName MethodInvocation SimpleName get metadata entry
+metadata entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+metadata entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start row
+get batch from root tablet SimpleName MethodInvocation SimpleName credentials
+get batch from root tablet SimpleName MethodInvocation SimpleName metadata entry
+get batch from root tablet SimpleName MethodInvocation SimpleName entries
+get batch from root tablet SimpleName MethodInvocation SimpleName columns
+get batch from root tablet SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation SimpleName metadata entry
+credentials SimpleName MethodInvocation SimpleName entries
+credentials SimpleName MethodInvocation SimpleName columns
+credentials SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation QualifiedName constantsscan batch size
+metadata entry SimpleName MethodInvocation SimpleName entries
+metadata entry SimpleName MethodInvocation SimpleName columns
+metadata entry SimpleName MethodInvocation BooleanLiteral false
+metadata entry SimpleName MethodInvocation QualifiedName constantsscan batch size
+entries SimpleName MethodInvocation SimpleName columns
+entries SimpleName MethodInvocation BooleanLiteral false
+entries SimpleName MethodInvocation QualifiedName constantsscan batch size
+columns SimpleName MethodInvocation BooleanLiteral false
+columns SimpleName MethodInvocation QualifiedName constantsscan batch size
+false BooleanLiteral MethodInvocation QualifiedName constantsscan batch size
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch from root tablet
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata entry
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+more SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+more SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsscan batch size
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName more
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get batch from root tablet
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName credentials
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName metadata entry
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entries
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName columns
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName constantsscan batch size
+entries SimpleName MethodInvocation SimpleName last key
+entries SimpleName MethodInvocation MethodInvocation SimpleName get row
+last key SimpleName MethodInvocation MethodInvocation SimpleName get row
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName entries
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName last key
+start row SimpleName Assignment MethodInvocation SimpleName get row
+get batch from root tablet SimpleName MethodInvocation SimpleName credentials
+get batch from root tablet SimpleName MethodInvocation SimpleName start row
+get batch from root tablet SimpleName MethodInvocation SimpleName entries
+get batch from root tablet SimpleName MethodInvocation SimpleName columns
+get batch from root tablet SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation SimpleName start row
+credentials SimpleName MethodInvocation SimpleName entries
+credentials SimpleName MethodInvocation SimpleName columns
+credentials SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation QualifiedName constantsscan batch size
+start row SimpleName MethodInvocation SimpleName entries
+start row SimpleName MethodInvocation SimpleName columns
+start row SimpleName MethodInvocation BooleanLiteral false
+start row SimpleName MethodInvocation QualifiedName constantsscan batch size
+entries SimpleName MethodInvocation SimpleName columns
+entries SimpleName MethodInvocation BooleanLiteral false
+entries SimpleName MethodInvocation QualifiedName constantsscan batch size
+columns SimpleName MethodInvocation BooleanLiteral false
+columns SimpleName MethodInvocation QualifiedName constantsscan batch size
+false BooleanLiteral MethodInvocation QualifiedName constantsscan batch size
+more SimpleName Assignment MethodInvocation SimpleName get batch from root tablet
+more SimpleName Assignment MethodInvocation SimpleName credentials
+more SimpleName Assignment MethodInvocation SimpleName start row
+more SimpleName Assignment MethodInvocation SimpleName entries
+more SimpleName Assignment MethodInvocation SimpleName columns
+more SimpleName Assignment MethodInvocation BooleanLiteral false
+more SimpleName Assignment MethodInvocation QualifiedName constantsscan batch size
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entries SimpleName MethodInvocation SimpleName key set
+entries SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entries
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName compare row
+key SimpleName MethodInvocation SimpleName metadata entry
+compare row SimpleName MethodInvocation SimpleName metadata entry
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+metadata entry SimpleName MethodInvocation InfixExpression NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName remove
+boolean PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName more
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName entries
+more SimpleName WhileStatement Block ReturnStatement SimpleName entries
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unauthorized access
+warn SimpleName MethodInvocation StringLiteral unauthorized access
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+private Modifier MethodDeclaration SimpleName get root metadata data entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+static Modifier MethodDeclaration SimpleName get root metadata data entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get root metadata data entries
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get root metadata data entries
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get root metadata data entries
+get root metadata data entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+get root metadata data entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+get root metadata data entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+get root metadata data entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+get root metadata data entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+columns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root metadata data entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root metadata data entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials

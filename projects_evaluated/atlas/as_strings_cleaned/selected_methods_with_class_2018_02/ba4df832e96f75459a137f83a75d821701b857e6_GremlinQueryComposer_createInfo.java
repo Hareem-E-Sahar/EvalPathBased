@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName actual type name
+identifier helper SimpleName MethodInvocation SimpleName create
+identifier helper SimpleName MethodInvocation SimpleName context
+identifier helper SimpleName MethodInvocation SimpleName lookup
+identifier helper SimpleName MethodInvocation SimpleName actual type name
+create SimpleName MethodInvocation SimpleName context
+create SimpleName MethodInvocation SimpleName lookup
+create SimpleName MethodInvocation SimpleName actual type name
+context SimpleName MethodInvocation SimpleName lookup
+context SimpleName MethodInvocation SimpleName actual type name
+lookup SimpleName MethodInvocation SimpleName actual type name
+private Modifier MethodDeclaration SimpleType QualifiedName identifier helperinfo
+private Modifier MethodDeclaration SimpleName create info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual type name
+identifier helperinfo QualifiedName SimpleType MethodDeclaration SimpleName create info
+identifier helperinfo QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName actual type name
+create info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName identifier helperinfo
+public Modifier TypeDeclaration MethodDeclaration SimpleName create info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName identifier helperinfo
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual type name

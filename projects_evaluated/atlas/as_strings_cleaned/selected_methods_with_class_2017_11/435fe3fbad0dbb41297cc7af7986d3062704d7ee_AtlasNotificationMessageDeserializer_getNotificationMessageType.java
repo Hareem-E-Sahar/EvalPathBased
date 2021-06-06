@@ -1,0 +1,11 @@
+atlas notification message SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type reference
+public Modifier MethodDeclaration SimpleName get notification message type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName notification message type
+type reference SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get notification message type
+get notification message type SimpleName MethodDeclaration Block ReturnStatement SimpleName notification message type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get notification message type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get notification message type

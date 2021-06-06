@@ -1,0 +1,21 @@
+queue SimpleName MethodInvocation SimpleName is empty
+queue SimpleName MethodInvocation SimpleName poll
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName queue
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName poll
+i referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+process referenceable instance SimpleName MethodInvocation SimpleName r
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName walk
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName walk
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+walk SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName walk
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName walk
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

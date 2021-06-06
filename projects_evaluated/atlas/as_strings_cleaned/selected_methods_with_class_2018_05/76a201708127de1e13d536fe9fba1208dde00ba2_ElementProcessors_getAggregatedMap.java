@@ -1,0 +1,81 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType SingleVariableDeclaration SimpleName list entry
+string SimpleName SimpleType CastExpression SimpleName list entry
+key SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+key SimpleName VariableDeclarationFragment CastExpression SimpleName list entry
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+get map key SimpleName MethodInvocation SimpleName property
+get map key SimpleName MethodInvocation SimpleName key
+property SimpleName MethodInvocation SimpleName key
+value key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map key
+value key SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+value key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value key
+vertex properties SimpleName MethodInvocation SimpleName contains key
+vertex properties SimpleName MethodInvocation SimpleName value key
+contains key SimpleName MethodInvocation SimpleName value key
+get value from properties SimpleName MethodInvocation SimpleName value key
+get value from properties SimpleName MethodInvocation SimpleName vertex properties
+value key SimpleName MethodInvocation SimpleName vertex properties
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value from properties
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value key
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex properties
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+vertex properties SimpleName MethodInvocation SimpleName remove
+vertex properties SimpleName MethodInvocation SimpleName value key
+remove SimpleName MethodInvocation SimpleName value key
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName key
+map SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+list entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement Block ReturnStatement SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get aggregated map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get aggregated map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get aggregated map
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get aggregated map
+get aggregated map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+get aggregated map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get aggregated map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get aggregated map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+get aggregated map SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+get aggregated map SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+vertex properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+vertex properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get aggregated map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get aggregated map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

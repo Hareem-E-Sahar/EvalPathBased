@@ -1,0 +1,63 @@
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName server
+unhandled server type StringLiteral InfixExpression SimpleName server
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unhandled server type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName server
+server SimpleName SwitchStatement SwitchCase SimpleName tablet server
+server SimpleName SwitchStatement ReturnStatement StringLiteral tserver
+server SimpleName SwitchStatement SwitchCase SimpleName garbage collector
+server SimpleName SwitchStatement ReturnStatement StringLiteral gc
+server SimpleName SwitchStatement SwitchCase SimpleName master
+tablet server SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral tserver
+tablet server SimpleName SwitchCase SwitchStatement SwitchCase SimpleName garbage collector
+tablet server SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral gc
+tablet server SimpleName SwitchCase SwitchStatement SwitchCase SimpleName master
+tablet server SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral master
+tserver StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName garbage collector
+tserver StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral gc
+tserver StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName master
+tserver StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral master
+tserver StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName tracer
+garbage collector SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral gc
+garbage collector SimpleName SwitchCase SwitchStatement SwitchCase SimpleName master
+garbage collector SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral master
+garbage collector SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tracer
+garbage collector SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral tracer
+gc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName master
+gc StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral master
+gc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName tracer
+gc StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral tracer
+gc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName monitor
+master SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral master
+master SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tracer
+master SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral tracer
+master SimpleName SwitchCase SwitchStatement SwitchCase SimpleName monitor
+master SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral monitor
+master StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName tracer
+master StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral tracer
+master StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName monitor
+master StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral monitor
+tracer SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral tracer
+tracer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName monitor
+tracer SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral monitor
+tracer StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName monitor
+tracer StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral monitor
+monitor SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral monitor
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get process string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName server
+string SimpleName SimpleType MethodDeclaration SimpleName get process string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server
+get process string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+get process string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+get process string SimpleName MethodDeclaration Block SwitchStatement SimpleName server
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server

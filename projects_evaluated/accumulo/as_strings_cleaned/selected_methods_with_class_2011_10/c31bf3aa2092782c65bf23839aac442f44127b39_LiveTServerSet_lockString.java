@@ -1,0 +1,33 @@
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName mlock
+mlock SimpleName MethodInvocation SimpleName get lock id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+mlock SimpleName MethodInvocation MethodInvocation SimpleName serialize
+get lock id SimpleName MethodInvocation MethodInvocation SimpleName serialize
+mlock SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster lock
+get lock id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster lock
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+serialize SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+serialize SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster lock
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName lock string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName mlock
+string SimpleName SimpleType MethodDeclaration SimpleName lock string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mlock
+lock string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+lock string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mlock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName lock string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mlock
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lock string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mlock

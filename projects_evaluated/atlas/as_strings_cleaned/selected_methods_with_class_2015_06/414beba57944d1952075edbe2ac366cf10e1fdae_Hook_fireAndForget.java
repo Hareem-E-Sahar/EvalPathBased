@@ -1,0 +1,410 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+hive lineage SimpleName SimpleType SingleVariableDeclaration SimpleName hook data
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral httpsss
+string SimpleName MethodInvocation SimpleName metadata host
+string SimpleName MethodInvocation SimpleName metadata port
+string SimpleName MethodInvocation SimpleName metadata path
+format SimpleName MethodInvocation StringLiteral httpsss
+format SimpleName MethodInvocation SimpleName metadata host
+format SimpleName MethodInvocation SimpleName metadata port
+format SimpleName MethodInvocation SimpleName metadata path
+httpsss StringLiteral MethodInvocation SimpleName metadata host
+httpsss StringLiteral MethodInvocation SimpleName metadata port
+httpsss StringLiteral MethodInvocation SimpleName metadata path
+metadata host SimpleName MethodInvocation SimpleName metadata port
+metadata host SimpleName MethodInvocation SimpleName metadata path
+metadata port SimpleName MethodInvocation SimpleName metadata path
+post uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+post uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+post uri SimpleName VariableDeclarationFragment MethodInvocation StringLiteral httpsss
+post uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata host
+post uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata port
+post uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName post uri
+conf SimpleName MethodInvocation SimpleName get trimmed
+conf SimpleName MethodInvocation StringLiteral atlashivehookuri
+get trimmed SimpleName MethodInvocation StringLiteral atlashivehookuri
+conf SimpleName MethodInvocation SimpleName get trimmed
+conf SimpleName MethodInvocation StringLiteral atlashivehookuri
+get trimmed SimpleName MethodInvocation StringLiteral atlashivehookuri
+post uri SimpleName Assignment MethodInvocation SimpleName conf
+post uri SimpleName Assignment MethodInvocation SimpleName get trimmed
+post uri SimpleName Assignment MethodInvocation StringLiteral atlashivehookuri
+gson SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gson
+gson SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gson
+gson SimpleName MethodInvocation SimpleName to json
+gson SimpleName MethodInvocation SimpleName hook data
+to json SimpleName MethodInvocation SimpleName hook data
+gson string SimpleName VariableDeclarationFragment MethodInvocation SimpleName gson
+gson string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+gson string SimpleName VariableDeclarationFragment MethodInvocation SimpleName hook data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gson string
+gson string StringLiteral InfixExpression SimpleName gson string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral gson string
+log SimpleName MethodInvocation InfixExpression SimpleName gson string
+debug SimpleName MethodInvocation InfixExpression StringLiteral gson string
+debug SimpleName MethodInvocation InfixExpression SimpleName gson string
+url encoder SimpleName MethodInvocation SimpleName encode
+url encoder SimpleName MethodInvocation SimpleName gson string
+url encoder SimpleName MethodInvocation StringLiteral utf
+encode SimpleName MethodInvocation SimpleName gson string
+encode SimpleName MethodInvocation StringLiteral utf
+gson string SimpleName MethodInvocation StringLiteral utf
+encoded gson query SimpleName VariableDeclarationFragment MethodInvocation SimpleName url encoder
+encoded gson query SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode
+encoded gson query SimpleName VariableDeclarationFragment MethodInvocation SimpleName gson string
+encoded gson query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded gson query
+url encoder SimpleName MethodInvocation SimpleName encode
+url encoder SimpleName MethodInvocation SimpleName query id
+url encoder SimpleName MethodInvocation StringLiteral utf
+encode SimpleName MethodInvocation SimpleName query id
+encode SimpleName MethodInvocation StringLiteral utf
+query id SimpleName MethodInvocation StringLiteral utf
+encoded query id SimpleName VariableDeclarationFragment MethodInvocation SimpleName url encoder
+encoded query id SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode
+encoded query id SimpleName VariableDeclarationFragment MethodInvocation SimpleName query id
+encoded query id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded query id
+hookdata StringLiteral InfixExpression SimpleName encoded gson query
+hookdata StringLiteral InfixExpression StringLiteral queryid
+hookdata StringLiteral InfixExpression SimpleName encoded query id
+encoded gson query SimpleName InfixExpression StringLiteral queryid
+encoded gson query SimpleName InfixExpression SimpleName encoded query id
+queryid StringLiteral InfixExpression SimpleName encoded query id
+post data SimpleName VariableDeclarationFragment InfixExpression StringLiteral hookdata
+post data SimpleName VariableDeclarationFragment InfixExpression SimpleName encoded gson query
+post data SimpleName VariableDeclarationFragment InfixExpression StringLiteral queryid
+post data SimpleName VariableDeclarationFragment InfixExpression SimpleName encoded query id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName post data
+post uri SimpleName MethodInvocation SimpleName contains
+post uri SimpleName MethodInvocation StringLiteral https
+contains SimpleName MethodInvocation StringLiteral https
+public Modifier MethodDeclaration ArrayType SimpleType QualifiedName javasecuritycertx certificate
+public Modifier MethodDeclaration SimpleName get accepted issuers
+javasecuritycertx certificate QualifiedName SimpleType ArrayType MethodDeclaration SimpleName get accepted issuers
+javasecuritycertx certificate QualifiedName SimpleType ArrayType SingleVariableDeclaration SimpleName certs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName auth type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check client trusted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName certs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth type
+void PrimitiveType MethodDeclaration SimpleName check client trusted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName certs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName auth type
+check client trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName certs
+check client trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check client trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth type
+certs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth type
+javasecuritycertx certificate QualifiedName SimpleType ArrayType SingleVariableDeclaration SimpleName certs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName auth type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check server trusted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName certs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName auth type
+void PrimitiveType MethodDeclaration SimpleName check server trusted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName certs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName auth type
+check server trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName certs
+check server trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check server trusted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auth type
+certs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auth type
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check client trusted
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check client trusted
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check server trusted
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get accepted issuers SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check server trusted
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check server trusted
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check server trusted
+check client trusted SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+check client trusted SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+check client trusted SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName check server trusted
+ssl context SimpleName MethodInvocation SimpleName get instance
+ssl context SimpleName MethodInvocation StringLiteral ssl
+get instance SimpleName MethodInvocation StringLiteral ssl
+sc SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssl context
+sc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+sc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral ssl
+ssl context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sc
+sc SimpleName MethodInvocation SimpleName init
+sc SimpleName MethodInvocation SimpleName trust all certs
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javasecuritysecure random
+init SimpleName MethodInvocation SimpleName trust all certs
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javasecuritysecure random
+trust all certs SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javasecuritysecure random
+sc SimpleName MethodInvocation SimpleName get socket factory
+https url connection SimpleName MethodInvocation SimpleName set default ssl socket factory
+https url connection SimpleName MethodInvocation MethodInvocation SimpleName sc
+https url connection SimpleName MethodInvocation MethodInvocation SimpleName get socket factory
+set default ssl socket factory SimpleName MethodInvocation MethodInvocation SimpleName sc
+set default ssl socket factory SimpleName MethodInvocation MethodInvocation SimpleName get socket factory
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+url SimpleName SimpleType ClassInstanceCreation SimpleName post uri
+url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName url
+url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName post uri
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+post uri StringLiteral InfixExpression SimpleName post uri
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral post uri
+log SimpleName MethodInvocation InfixExpression SimpleName post uri
+debug SimpleName MethodInvocation InfixExpression StringLiteral post uri
+debug SimpleName MethodInvocation InfixExpression SimpleName post uri
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+post uri SimpleName MethodInvocation SimpleName contains
+post uri SimpleName MethodInvocation StringLiteral https
+contains SimpleName MethodInvocation StringLiteral https
+https url connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName urlcon
+url SimpleName MethodInvocation SimpleName open connection
+https url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName url
+https url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName open connection
+urlcon SimpleName Assignment CastExpression SimpleType SimpleName https url connection
+urlcon SimpleName Assignment CastExpression MethodInvocation SimpleName url
+urlcon SimpleName Assignment CastExpression MethodInvocation SimpleName open connection
+urlcon SimpleName MethodInvocation SimpleName set request method
+urlcon SimpleName MethodInvocation StringLiteral post
+set request method SimpleName MethodInvocation StringLiteral post
+urlcon SimpleName MethodInvocation SimpleName set request property
+urlcon SimpleName MethodInvocation StringLiteral xrequestedby
+urlcon SimpleName MethodInvocation StringLiteral hive hook
+set request property SimpleName MethodInvocation StringLiteral xrequestedby
+set request property SimpleName MethodInvocation StringLiteral hive hook
+xrequestedby StringLiteral MethodInvocation StringLiteral hive hook
+urlcon SimpleName MethodInvocation SimpleName set request property
+urlcon SimpleName MethodInvocation StringLiteral contenttype
+urlcon SimpleName MethodInvocation StringLiteral applicationxwwwformurlencoded
+set request property SimpleName MethodInvocation StringLiteral contenttype
+set request property SimpleName MethodInvocation StringLiteral applicationxwwwformurlencoded
+contenttype StringLiteral MethodInvocation StringLiteral applicationxwwwformurlencoded
+urlcon SimpleName MethodInvocation SimpleName set use caches
+urlcon SimpleName MethodInvocation BooleanLiteral false
+set use caches SimpleName MethodInvocation BooleanLiteral false
+urlcon SimpleName MethodInvocation SimpleName set do input
+urlcon SimpleName MethodInvocation BooleanLiteral true
+set do input SimpleName MethodInvocation BooleanLiteral true
+urlcon SimpleName MethodInvocation SimpleName set do output
+urlcon SimpleName MethodInvocation BooleanLiteral true
+set do output SimpleName MethodInvocation BooleanLiteral true
+urlcon SimpleName MethodInvocation SimpleName get output stream
+data output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName urlcon
+data output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get output stream
+wr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName data output stream
+wr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName urlcon
+wr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get output stream
+post string StringLiteral InfixExpression SimpleName post data
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral post string
+log SimpleName MethodInvocation InfixExpression SimpleName post data
+debug SimpleName MethodInvocation InfixExpression StringLiteral post string
+debug SimpleName MethodInvocation InfixExpression SimpleName post data
+post data SimpleName MethodInvocation SimpleName get bytes
+wr SimpleName MethodInvocation SimpleName write
+wr SimpleName MethodInvocation MethodInvocation SimpleName post data
+wr SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName post data
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wr SimpleName MethodInvocation SimpleName flush
+wr SimpleName MethodInvocation SimpleName close
+urlcon SimpleName MethodInvocation SimpleName get input stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName urlcon
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input stream
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName is
+isr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName input stream reader
+isr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is
+input stream reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName isr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num chars read
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+char array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+char array SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName char array
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+isr SimpleName MethodInvocation SimpleName read
+isr SimpleName MethodInvocation SimpleName char array
+read SimpleName MethodInvocation SimpleName char array
+num chars read SimpleName Assignment MethodInvocation SimpleName isr
+num chars read SimpleName Assignment MethodInvocation SimpleName read
+num chars read SimpleName Assignment MethodInvocation SimpleName char array
+num chars read SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName char array
+sb SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName num chars read
+append SimpleName MethodInvocation SimpleName char array
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation SimpleName num chars read
+char array SimpleName MethodInvocation NumberLiteral empty
+char array SimpleName MethodInvocation SimpleName num chars read
+empty NumberLiteral MethodInvocation SimpleName num chars read
+sb SimpleName MethodInvocation SimpleName to string
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+post response StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral post response
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral post response
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+isr SimpleName MethodInvocation SimpleName close
+is SimpleName MethodInvocation SimpleName close
+urlcon SimpleName MethodInvocation SimpleName disconnect
+http url connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName urlcon
+url SimpleName MethodInvocation SimpleName open connection
+http url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName url
+http url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName open connection
+urlcon SimpleName Assignment CastExpression SimpleType SimpleName http url connection
+urlcon SimpleName Assignment CastExpression MethodInvocation SimpleName url
+urlcon SimpleName Assignment CastExpression MethodInvocation SimpleName open connection
+urlcon SimpleName MethodInvocation SimpleName set request method
+urlcon SimpleName MethodInvocation StringLiteral post
+set request method SimpleName MethodInvocation StringLiteral post
+urlcon SimpleName MethodInvocation SimpleName set request property
+urlcon SimpleName MethodInvocation StringLiteral xrequestedby
+urlcon SimpleName MethodInvocation StringLiteral hive hook
+set request property SimpleName MethodInvocation StringLiteral xrequestedby
+set request property SimpleName MethodInvocation StringLiteral hive hook
+xrequestedby StringLiteral MethodInvocation StringLiteral hive hook
+urlcon SimpleName MethodInvocation SimpleName set request property
+urlcon SimpleName MethodInvocation StringLiteral contenttype
+urlcon SimpleName MethodInvocation StringLiteral applicationxwwwformurlencoded
+set request property SimpleName MethodInvocation StringLiteral contenttype
+set request property SimpleName MethodInvocation StringLiteral applicationxwwwformurlencoded
+contenttype StringLiteral MethodInvocation StringLiteral applicationxwwwformurlencoded
+urlcon SimpleName MethodInvocation SimpleName set use caches
+urlcon SimpleName MethodInvocation BooleanLiteral false
+set use caches SimpleName MethodInvocation BooleanLiteral false
+urlcon SimpleName MethodInvocation SimpleName set do input
+urlcon SimpleName MethodInvocation BooleanLiteral true
+set do input SimpleName MethodInvocation BooleanLiteral true
+urlcon SimpleName MethodInvocation SimpleName set do output
+urlcon SimpleName MethodInvocation BooleanLiteral true
+set do output SimpleName MethodInvocation BooleanLiteral true
+urlcon SimpleName MethodInvocation SimpleName get output stream
+data output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName urlcon
+data output stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get output stream
+wr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName data output stream
+wr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName urlcon
+wr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get output stream
+post string StringLiteral InfixExpression SimpleName post data
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral post string
+log SimpleName MethodInvocation InfixExpression SimpleName post data
+debug SimpleName MethodInvocation InfixExpression StringLiteral post string
+debug SimpleName MethodInvocation InfixExpression SimpleName post data
+post data SimpleName MethodInvocation SimpleName get bytes
+wr SimpleName MethodInvocation SimpleName write
+wr SimpleName MethodInvocation MethodInvocation SimpleName post data
+wr SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+write SimpleName MethodInvocation MethodInvocation SimpleName post data
+write SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wr SimpleName MethodInvocation SimpleName flush
+wr SimpleName MethodInvocation SimpleName close
+urlcon SimpleName MethodInvocation SimpleName get input stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName urlcon
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get input stream
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName is
+isr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName input stream reader
+isr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is
+input stream reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName isr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num chars read
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+char array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+char array SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName char array
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+isr SimpleName MethodInvocation SimpleName read
+isr SimpleName MethodInvocation SimpleName char array
+read SimpleName MethodInvocation SimpleName char array
+num chars read SimpleName Assignment MethodInvocation SimpleName isr
+num chars read SimpleName Assignment MethodInvocation SimpleName read
+num chars read SimpleName Assignment MethodInvocation SimpleName char array
+num chars read SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName char array
+sb SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName num chars read
+append SimpleName MethodInvocation SimpleName char array
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation SimpleName num chars read
+char array SimpleName MethodInvocation NumberLiteral empty
+char array SimpleName MethodInvocation SimpleName num chars read
+empty NumberLiteral MethodInvocation SimpleName num chars read
+sb SimpleName MethodInvocation SimpleName to string
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+post response StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral post response
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral post response
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+isr SimpleName MethodInvocation SimpleName close
+is SimpleName MethodInvocation SimpleName close
+urlcon SimpleName MethodInvocation SimpleName disconnect
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fire and forget
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive lineage
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hook data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query id
+void PrimitiveType MethodDeclaration SimpleName fire and forget
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive lineage
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hook data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query id
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive lineage
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hook data
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query id
+fire and forget SimpleName MethodDeclaration SimpleType SimpleName exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook data
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+hook data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id
+hook data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+query id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire and forget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire and forget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

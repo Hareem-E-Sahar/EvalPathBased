@@ -1,0 +1,163 @@
+method SimpleName MemberValuePair QualifiedName request methodpatch
+path SimpleName MemberValuePair StringLiteral user idtypestypedeforiginal type def guididentifier
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpatch
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idtypestypedeforiginal type def guididentifier
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypestypedeforiginal type def guididentifier
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypestypedeforiginal type def guididentifier
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName original type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def guid
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName original type def name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName original type def name
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName new type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new type def guid
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName new type def name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new type def name
+method name SimpleName VariableDeclarationFragment StringLiteral re identify type def
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral re identify type def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral re identify type def
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type def response
+type def response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName re identify type def
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName original type def guid
+local metadata collection SimpleName MethodInvocation SimpleName original type def name
+local metadata collection SimpleName MethodInvocation SimpleName new type def guid
+re identify type def SimpleName MethodInvocation SimpleName user id
+re identify type def SimpleName MethodInvocation SimpleName original type def guid
+re identify type def SimpleName MethodInvocation SimpleName original type def name
+re identify type def SimpleName MethodInvocation SimpleName new type def guid
+re identify type def SimpleName MethodInvocation SimpleName new type def name
+user id SimpleName MethodInvocation SimpleName original type def guid
+user id SimpleName MethodInvocation SimpleName original type def name
+user id SimpleName MethodInvocation SimpleName new type def guid
+user id SimpleName MethodInvocation SimpleName new type def name
+original type def guid SimpleName MethodInvocation SimpleName original type def name
+original type def guid SimpleName MethodInvocation SimpleName new type def guid
+original type def guid SimpleName MethodInvocation SimpleName new type def name
+original type def name SimpleName MethodInvocation SimpleName new type def guid
+original type def name SimpleName MethodInvocation SimpleName new type def name
+new type def guid SimpleName MethodInvocation SimpleName new type def name
+response SimpleName MethodInvocation SimpleName set type def
+response SimpleName MethodInvocation MethodInvocation SimpleName local metadata collection
+response SimpleName MethodInvocation MethodInvocation SimpleName re identify type def
+response SimpleName MethodInvocation MethodInvocation SimpleName user id
+response SimpleName MethodInvocation MethodInvocation SimpleName original type def guid
+response SimpleName MethodInvocation MethodInvocation SimpleName original type def name
+response SimpleName MethodInvocation MethodInvocation SimpleName new type def guid
+response SimpleName MethodInvocation MethodInvocation SimpleName new type def name
+set type def SimpleName MethodInvocation MethodInvocation SimpleName local metadata collection
+set type def SimpleName MethodInvocation MethodInvocation SimpleName re identify type def
+set type def SimpleName MethodInvocation MethodInvocation SimpleName user id
+set type def SimpleName MethodInvocation MethodInvocation SimpleName original type def guid
+set type def SimpleName MethodInvocation MethodInvocation SimpleName original type def name
+set type def SimpleName MethodInvocation MethodInvocation SimpleName new type def guid
+set type def SimpleName MethodInvocation MethodInvocation SimpleName new type def name
+function not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture function not supported exception SimpleName MethodInvocation SimpleName response
+capture function not supported exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+type def not known exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture type def not known exception SimpleName MethodInvocation SimpleName response
+capture type def not known exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idtypestypedeforiginal type def guididentifier StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName type def response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName re identify type def
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName re identify type def
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName re identify type def
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName re identify type def
+user idtypestypedeforiginal type def guididentifier StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName re identify type def
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier MethodDeclaration SimpleType SimpleName type def response
+public Modifier MethodDeclaration SimpleName re identify type def
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+type def response SimpleName SimpleType MethodDeclaration SimpleName re identify type def
+type def response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+type def response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+type def response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+re identify type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+original type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+original type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+new type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def response
+public Modifier TypeDeclaration MethodDeclaration SimpleName re identify type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re identify type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type def name

@@ -1,0 +1,61 @@
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName put
+entity store SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+existing entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity store
+existing entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+existing entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+existing entity SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+existing entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing entity
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName set guid
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+entity SimpleName MethodInvocation MethodInvocation SimpleName to string
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+set guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName put
+entity store SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+existing entity SimpleName Assignment MethodInvocation SimpleName entity store
+existing entity SimpleName Assignment MethodInvocation SimpleName put
+existing entity SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity
+existing entity SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+existing entity SimpleName Assignment MethodInvocation SimpleName entity
+protected Modifier MethodDeclaration SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SimpleName create entity in store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+entity detail SimpleName SimpleType MethodDeclaration SimpleName create entity in store
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+create entity in store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+create entity in store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+create entity in store SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity in store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity in store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

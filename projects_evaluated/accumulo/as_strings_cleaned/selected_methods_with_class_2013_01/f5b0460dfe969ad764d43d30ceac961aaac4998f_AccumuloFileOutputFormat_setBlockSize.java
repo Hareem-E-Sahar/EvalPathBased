@@ -1,0 +1,58 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+int PrimitiveType SingleVariableDeclaration SimpleName block size
+file output configurator SimpleName MethodInvocation SimpleName set data block size
+file output configurator SimpleName MethodInvocation SimpleName class
+file output configurator SimpleName MethodInvocation SimpleName conf
+file output configurator SimpleName MethodInvocation SimpleName block size
+set data block size SimpleName MethodInvocation SimpleName class
+set data block size SimpleName MethodInvocation SimpleName conf
+set data block size SimpleName MethodInvocation SimpleName block size
+class SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName block size
+conf SimpleName MethodInvocation SimpleName block size
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set block size
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set block size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName block size
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set block size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName block size
+void PrimitiveType MethodDeclaration SimpleName set block size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName block size
+set block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set block size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set block size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block size
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set block size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set block size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block size

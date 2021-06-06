@@ -1,0 +1,36 @@
+state SimpleName MethodInvocation SimpleName equals
+state SimpleName MethodInvocation QualifiedName merge statenone
+equals SimpleName MethodInvocation QualifiedName merge statenone
+operation SimpleName MethodInvocation SimpleName to string
+merge StringLiteral InfixExpression MethodInvocation SimpleName operation
+merge StringLiteral InfixExpression MethodInvocation SimpleName to string
+merge StringLiteral InfixExpression StringLiteral of
+merge StringLiteral InfixExpression SimpleName range
+merge StringLiteral InfixExpression StringLiteral state
+merge StringLiteral InfixExpression SimpleName state
+operation SimpleName MethodInvocation InfixExpression StringLiteral of
+to string SimpleName MethodInvocation InfixExpression StringLiteral of
+operation SimpleName MethodInvocation InfixExpression SimpleName range
+to string SimpleName MethodInvocation InfixExpression SimpleName range
+operation SimpleName MethodInvocation InfixExpression StringLiteral state
+to string SimpleName MethodInvocation InfixExpression StringLiteral state
+operation SimpleName MethodInvocation InfixExpression SimpleName state
+to string SimpleName MethodInvocation InfixExpression SimpleName state
+of StringLiteral InfixExpression SimpleName range
+of StringLiteral InfixExpression StringLiteral state
+of StringLiteral InfixExpression SimpleName state
+range SimpleName InfixExpression StringLiteral state
+range SimpleName InfixExpression SimpleName state
+state StringLiteral InfixExpression SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block ReturnStatement StringLiteral no merge in progress
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block ReturnStatement StringLiteral no merge in progress
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

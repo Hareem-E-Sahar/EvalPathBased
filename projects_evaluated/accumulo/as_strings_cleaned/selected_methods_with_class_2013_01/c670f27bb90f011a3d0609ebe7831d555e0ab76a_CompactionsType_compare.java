@@ -1,0 +1,60 @@
+table info SimpleName SimpleType SingleVariableDeclaration SimpleName o
+table info SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName InfixExpression IfStatement ReturnStatement NumberLiteral empty
+c SimpleName VariableDeclarationFragment QualifiedName o majors
+compacting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+compacting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName o majors
+c SimpleName VariableDeclarationFragment QualifiedName o majors
+compacting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+compacting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName o majors
+field name SimpleName MethodInvocation SimpleName equals
+field name SimpleName MethodInvocation StringLiteral minor
+equals SimpleName MethodInvocation StringLiteral minor
+c SimpleName Assignment QualifiedName o minors
+c SimpleName Assignment QualifiedName o minors
+field name SimpleName MethodInvocation SimpleName equals
+field name SimpleName MethodInvocation StringLiteral scans
+equals SimpleName MethodInvocation StringLiteral scans
+c SimpleName Assignment QualifiedName o scans
+c SimpleName Assignment QualifiedName o scans
+c SimpleName InfixExpression IfStatement ReturnStatement NumberLiteral empty
+c running QualifiedName InfixExpression QualifiedName c queued
+c running QualifiedName InfixExpression InfixExpression QualifiedName c running
+c queued QualifiedName InfixExpression InfixExpression QualifiedName c running
+c running QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName c queued
+c queued QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName c queued
+c running QualifiedName InfixExpression InfixExpression QualifiedName c queued
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table info
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

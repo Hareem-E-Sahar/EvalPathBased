@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get session key
+public Modifier MethodDeclaration Block ReturnStatement SimpleName session key
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get session key
+get session key SimpleName MethodDeclaration Block ReturnStatement SimpleName session key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get session key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get session key

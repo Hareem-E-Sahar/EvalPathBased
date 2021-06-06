@@ -1,0 +1,158 @@
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+authorizations SimpleName SimpleType SingleVariableDeclaration SimpleName authorizations
+has system permission SimpleName MethodInvocation SimpleName credentials
+has system permission SimpleName MethodInvocation QualifiedName credentialsuser
+has system permission SimpleName MethodInvocation QualifiedName system permissionalter user
+credentials SimpleName MethodInvocation QualifiedName credentialsuser
+credentials SimpleName MethodInvocation QualifiedName system permissionalter user
+credentialsuser QualifiedName MethodInvocation QualifiedName system permissionalter user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codepermission denied
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation QualifiedName security constantssystem username
+equals SimpleName MethodInvocation QualifiedName security constantssystem username
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName credentialsuser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentialsuser QualifiedName ClassInstanceCreation QualifiedName security error codepermission denied
+user exists SimpleName MethodInvocation SimpleName user
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user auths
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user auths
+user SimpleName InfixExpression SimpleName zk user auths
+tool SimpleName MethodInvocation SimpleName convert authorizations
+tool SimpleName MethodInvocation SimpleName authorizations
+convert authorizations SimpleName MethodInvocation SimpleName authorizations
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user auths
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user path
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName user
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk user auths
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName convert authorizations
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName authorizations
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tool
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName convert authorizations
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName authorizations
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user auths
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName tool
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName convert authorizations
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName authorizations
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authorizations
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName authorizations
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authorizations
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName authorizations
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+zk user auths SimpleName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+convert authorizations SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+authorizations SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+changed authorizations for user StringLiteral InfixExpression SimpleName user
+changed authorizations for user StringLiteral InfixExpression StringLiteral at the request of user
+changed authorizations for user StringLiteral InfixExpression QualifiedName credentialsuser
+user SimpleName InfixExpression StringLiteral at the request of user
+user SimpleName InfixExpression QualifiedName credentialsuser
+at the request of user StringLiteral InfixExpression QualifiedName credentialsuser
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral changed authorizations for user
+log SimpleName MethodInvocation InfixExpression SimpleName user
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression QualifiedName credentialsuser
+info SimpleName MethodInvocation InfixExpression StringLiteral changed authorizations for user
+info SimpleName MethodInvocation InfixExpression SimpleName user
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression QualifiedName credentialsuser
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeconnection error
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+user SimpleName ClassInstanceCreation QualifiedName security error codeconnection error
+user SimpleName ClassInstanceCreation SimpleName e
+security error codeconnection error QualifiedName ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName user
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+user SimpleName ClassInstanceCreation QualifiedName security error codeuser doesnt exist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change authorizations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+void PrimitiveType MethodDeclaration SimpleName change authorizations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName auth info
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+change authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+change authorizations SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+authorizations SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change authorizations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change authorizations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

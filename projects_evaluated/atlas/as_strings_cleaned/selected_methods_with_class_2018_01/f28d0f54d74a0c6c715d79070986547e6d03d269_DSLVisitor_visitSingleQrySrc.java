@@ -1,0 +1,35 @@
+single qry src context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+has visited rule SimpleName MethodInvocation SimpleName rule where clause
+ctx SimpleName MethodInvocation SimpleName from expression
+ctx SimpleName MethodInvocation SimpleName expr
+gremlin query composer SimpleName MethodInvocation SimpleName has from clause
+ctx SimpleName MethodInvocation SimpleName expr
+process expr SimpleName MethodInvocation MethodInvocation SimpleName ctx
+process expr SimpleName MethodInvocation MethodInvocation SimpleName expr
+process expr SimpleName MethodInvocation SimpleName gremlin query composer
+ctx SimpleName MethodInvocation MethodInvocation SimpleName gremlin query composer
+expr SimpleName MethodInvocation MethodInvocation SimpleName gremlin query composer
+visit single qry src SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit single qry src
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit single qry src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName single qry src context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit single qry src
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit single qry src SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName single qry src context
+visit single qry src SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit single qry src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit single qry src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

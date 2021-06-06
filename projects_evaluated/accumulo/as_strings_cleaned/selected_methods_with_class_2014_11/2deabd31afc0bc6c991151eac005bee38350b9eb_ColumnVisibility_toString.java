@@ -1,0 +1,25 @@
+string SimpleName SimpleType ClassInstanceCreation SimpleName expression
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+expression SimpleName ClassInstanceCreation SimpleName utf
+[ StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+[ StringLiteral InfixExpression ClassInstanceCreation SimpleName expression
+[ StringLiteral InfixExpression ClassInstanceCreation SimpleName utf
+[ StringLiteral InfixExpression StringLiteral ]
+string SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ]
+expression SimpleName ClassInstanceCreation InfixExpression StringLiteral ]
+utf SimpleName ClassInstanceCreation InfixExpression StringLiteral ]
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

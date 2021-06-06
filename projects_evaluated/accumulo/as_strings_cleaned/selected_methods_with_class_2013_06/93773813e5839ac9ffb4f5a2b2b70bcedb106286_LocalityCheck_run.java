@@ -1,0 +1,224 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client opts
+client opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+locality check SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+cached configuration SimpleName MethodInvocation SimpleName get instance
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+file system SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+get SimpleName MethodInvocation MethodInvocation SimpleName get instance
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cached configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+opts SimpleName MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation QualifiedName metadata tablename
+connector SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName metadata tablecurrent location column family
+fetch column family SimpleName MethodInvocation QualifiedName metadata tablecurrent location column family
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName metadata tabledatafile column family
+fetch column family SimpleName MethodInvocation QualifiedName metadata tabledatafile column family
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation QualifiedName metadata tablekeyspace
+set range SimpleName MethodInvocation QualifiedName metadata tablekeyspace
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName compare column family
+key SimpleName MethodInvocation QualifiedName metadata tablecurrent location column family
+compare column family SimpleName MethodInvocation QualifiedName metadata tablecurrent location column family
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare column family SimpleName MethodInvocation InfixExpression NumberLiteral empty
+metadata tablecurrent location column family QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+location SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName MethodInvocation SimpleName split
+location SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName location
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+parts SimpleName ArrayAccess NumberLiteral empty
+host SimpleName VariableDeclarationFragment ArrayAccess SimpleName parts
+host SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+add blocks SimpleName MethodInvocation SimpleName fs
+add blocks SimpleName MethodInvocation SimpleName host
+add blocks SimpleName MethodInvocation SimpleName files
+add blocks SimpleName MethodInvocation SimpleName total blocks
+add blocks SimpleName MethodInvocation SimpleName local blocks
+fs SimpleName MethodInvocation SimpleName host
+fs SimpleName MethodInvocation SimpleName files
+fs SimpleName MethodInvocation SimpleName total blocks
+fs SimpleName MethodInvocation SimpleName local blocks
+host SimpleName MethodInvocation SimpleName files
+host SimpleName MethodInvocation SimpleName total blocks
+host SimpleName MethodInvocation SimpleName local blocks
+files SimpleName MethodInvocation SimpleName total blocks
+files SimpleName MethodInvocation SimpleName local blocks
+total blocks SimpleName MethodInvocation SimpleName local blocks
+files SimpleName MethodInvocation SimpleName clear
+key SimpleName MethodInvocation SimpleName compare column family
+key SimpleName MethodInvocation QualifiedName metadata tabledatafile column family
+compare column family SimpleName MethodInvocation QualifiedName metadata tabledatafile column family
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare column family SimpleName MethodInvocation InfixExpression NumberLiteral empty
+metadata tabledatafile column family QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName get row
+key extent SimpleName MethodInvocation SimpleName table of metadata row
+key extent SimpleName MethodInvocation MethodInvocation SimpleName key
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get row
+table of metadata row SimpleName MethodInvocation MethodInvocation SimpleName key
+table of metadata row SimpleName MethodInvocation MethodInvocation SimpleName get row
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table of metadata row
+key SimpleName MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+slash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+slash SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+slash SimpleName MethodInvocation MethodInvocation SimpleName to string
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName slash
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName slash
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral server local total blocks
+println SimpleName MethodInvocation StringLiteral server local total blocks
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+total blocks SimpleName MethodInvocation SimpleName key set
+local blocks SimpleName MethodInvocation SimpleName get
+local blocks SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+local blocks SimpleName MethodInvocation InfixExpression NumberLiteral .
+get SimpleName MethodInvocation InfixExpression NumberLiteral .
+host SimpleName MethodInvocation InfixExpression NumberLiteral .
+total blocks SimpleName MethodInvocation SimpleName get
+total blocks SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+total blocks SimpleName MethodInvocation SimpleName get
+total blocks SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % s % . f % d
+string SimpleName MethodInvocation SimpleName host
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName total blocks
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+string SimpleName MethodInvocation MethodInvocation SimpleName total blocks
+string SimpleName MethodInvocation MethodInvocation SimpleName get
+string SimpleName MethodInvocation MethodInvocation SimpleName host
+format SimpleName MethodInvocation StringLiteral % s % . f % d
+format SimpleName MethodInvocation SimpleName host
+format SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName total blocks
+format SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+format SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+format SimpleName MethodInvocation MethodInvocation SimpleName total blocks
+format SimpleName MethodInvocation MethodInvocation SimpleName get
+format SimpleName MethodInvocation MethodInvocation SimpleName host
+% s % . f % d StringLiteral MethodInvocation SimpleName host
+% s % . f % d StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName total blocks
+% s % . f % d StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get
+% s % . f % d StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName host
+% s % . f % d StringLiteral MethodInvocation MethodInvocation SimpleName total blocks
+% s % . f % d StringLiteral MethodInvocation MethodInvocation SimpleName get
+% s % . f % d StringLiteral MethodInvocation MethodInvocation SimpleName host
+host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName total blocks
+host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+host SimpleName MethodInvocation MethodInvocation SimpleName total blocks
+host SimpleName MethodInvocation MethodInvocation SimpleName get
+host SimpleName MethodInvocation MethodInvocation SimpleName host
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format
+systemout QualifiedName MethodInvocation MethodInvocation StringLiteral % s % . f % d
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName host
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName total blocks
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+println SimpleName MethodInvocation MethodInvocation SimpleName string
+println SimpleName MethodInvocation MethodInvocation SimpleName format
+println SimpleName MethodInvocation MethodInvocation StringLiteral % s % . f % d
+println SimpleName MethodInvocation MethodInvocation SimpleName host
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName total blocks
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName total blocks
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+scanner SimpleName EnhancedForStatement Block ReturnStatement NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+run SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

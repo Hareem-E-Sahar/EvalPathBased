@@ -1,0 +1,19 @@
+log manager SimpleName MethodInvocation SimpleName reset configuration
+log manager SimpleName MethodInvocation SimpleName get logger repository
+dom configurator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName do configure
+dom configurator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName filename
+do configure SimpleName MethodInvocation SimpleName filename
+do configure SimpleName MethodInvocation MethodInvocation SimpleName log manager
+do configure SimpleName MethodInvocation MethodInvocation SimpleName get logger repository
+filename SimpleName MethodInvocation MethodInvocation SimpleName log manager
+filename SimpleName MethodInvocation MethodInvocation SimpleName get logger repository
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reset logger
+void PrimitiveType MethodDeclaration SimpleName reset logger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset logger
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset logger

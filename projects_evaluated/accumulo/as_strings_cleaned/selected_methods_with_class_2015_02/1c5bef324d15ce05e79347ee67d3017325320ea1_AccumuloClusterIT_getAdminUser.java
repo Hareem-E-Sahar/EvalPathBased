@@ -1,0 +1,43 @@
+password token SimpleName SimpleType CastExpression MethodInvocation SimpleName get admin token
+password token SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName password token
+password token SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get admin token
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password token
+password token SimpleName MethodInvocation SimpleName get password
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName password token
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get password
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+password token SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+get password SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+cluster user SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get admin principal
+cluster user SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+get admin principal SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName utf
+krb SimpleName MethodInvocation SimpleName get root user
+standalone accumulo cluster configuration SimpleName SimpleType CastExpression SimpleName cluster conf
+cluster conf SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get admin keytab
+cluster user SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get admin principal
+cluster user SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get admin keytab
+get admin principal SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get admin keytab
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unknown cluster type
+type SimpleName SwitchStatement SwitchCase SimpleName mini
+type SimpleName SwitchStatement IfStatement InfixExpression SimpleName krb
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName krb
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName get root user
+type SimpleName SwitchStatement SwitchCase SimpleName standalone
+mini SimpleName SwitchCase SwitchStatement SwitchCase SimpleName standalone
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cluster user
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get admin user
+public Modifier MethodDeclaration SimpleType SimpleName cluster user
+public Modifier MethodDeclaration SimpleName get admin user
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+cluster user SimpleName SimpleType MethodDeclaration SimpleName get admin user
+get admin user SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster user
+public Modifier TypeDeclaration MethodDeclaration SimpleName get admin user
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster user
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get admin user

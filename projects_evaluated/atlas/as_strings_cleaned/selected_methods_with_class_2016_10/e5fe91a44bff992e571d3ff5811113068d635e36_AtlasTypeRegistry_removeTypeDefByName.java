@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+type def name map SimpleName MethodInvocation SimpleName get
+type def name map SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type def name map
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName name
+type def SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName name
+type def SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type def name map
+type def SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+type def SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName name
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+type def SimpleName MethodInvocation SimpleName get guid
+type def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type def
+type def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName type def
+guid SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type def
+guid SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+type def guid map SimpleName MethodInvocation SimpleName remove
+type def guid map SimpleName MethodInvocation SimpleName guid
+remove SimpleName MethodInvocation SimpleName guid
+type registry SimpleName MethodInvocation SimpleName unregister type by name
+type registry SimpleName MethodInvocation SimpleName name
+unregister type by name SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove type def by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName remove type def by name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+remove type def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove type def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove type def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove type def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

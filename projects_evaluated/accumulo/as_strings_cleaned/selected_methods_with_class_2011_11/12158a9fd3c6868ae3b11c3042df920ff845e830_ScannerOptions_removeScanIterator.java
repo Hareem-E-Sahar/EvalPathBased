@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName iterator name
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName iterator name
+not null SimpleName MethodInvocation SimpleName iterator name
+server side iterator list SimpleName MethodInvocation SimpleName size
+server side iterator list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+iter info SimpleName SimpleType SingleVariableDeclaration SimpleName ii
+iiiter name QualifiedName MethodInvocation SimpleName equals
+iiiter name QualifiedName MethodInvocation SimpleName iterator name
+equals SimpleName MethodInvocation SimpleName iterator name
+server side iterator list SimpleName MethodInvocation SimpleName remove
+server side iterator list SimpleName MethodInvocation SimpleName ii
+remove SimpleName MethodInvocation SimpleName ii
+iter info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+ii SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+server side iterator options SimpleName MethodInvocation SimpleName remove
+server side iterator options SimpleName MethodInvocation SimpleName iterator name
+remove SimpleName MethodInvocation SimpleName iterator name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove scan iterator
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove scan iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName remove scan iterator
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+void PrimitiveType MethodDeclaration SimpleName remove scan iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+remove scan iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove scan iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+remove scan iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove scan iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iterator name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove scan iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iterator name

@@ -1,0 +1,349 @@
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+table SimpleName VariableDeclarationFragment StringLiteral table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+propertytable replication QualifiedName MethodInvocation SimpleName get key
+conn SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable replication
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable replication
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+conn SimpleName MethodInvocation MethodInvocation StringLiteral true
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral true
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable replication
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral true
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable replication
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral true
+propertytable replication QualifiedName MethodInvocation MethodInvocation StringLiteral true
+get key SimpleName MethodInvocation MethodInvocation StringLiteral true
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName i
+to string SimpleName MethodInvocation SimpleName i
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName integer
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName integer
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName i
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+m SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+m SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+m SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+m SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+m SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation MethodInvocation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation MethodInvocation ArrayCreation NumberLiteral empty
+empty NumberLiteral ArrayCreation MethodInvocation ArrayCreation NumberLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+bw SimpleName MethodInvocation SimpleName close
+replication table SimpleName MethodInvocation SimpleName is online
+replication table SimpleName MethodInvocation SimpleName conn
+is online SimpleName MethodInvocation SimpleName conn
+online SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication table
+online SimpleName VariableDeclarationFragment MethodInvocation SimpleName is online
+online SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName online
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName replication table
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is online
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conn
+attempts SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName attempts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+replication table SimpleName MethodInvocation SimpleName is online
+replication table SimpleName MethodInvocation SimpleName conn
+is online SimpleName MethodInvocation SimpleName conn
+online SimpleName Assignment MethodInvocation SimpleName replication table
+online SimpleName Assignment MethodInvocation SimpleName is online
+online SimpleName Assignment MethodInvocation SimpleName conn
+attempts SimpleName InfixExpression NumberLiteral empty
+online SimpleName PrefixExpression InfixExpression InfixExpression SimpleName attempts
+online SimpleName PrefixExpression InfixExpression InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral replication table was not online
+assert SimpleName MethodInvocation SimpleName online
+assert true SimpleName MethodInvocation StringLiteral replication table was not online
+assert true SimpleName MethodInvocation SimpleName online
+replication table was not online StringLiteral MethodInvocation SimpleName online
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+conn SimpleName MethodInvocation MethodInvocation StringLiteral root
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral root
+conn SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation StringLiteral root
+has table permission SimpleName MethodInvocation QualifiedName replication tablename
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+root StringLiteral MethodInvocation QualifiedName replication tablename
+root StringLiteral MethodInvocation QualifiedName table permissionread
+replication tablename QualifiedName MethodInvocation QualifiedName table permissionread
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral could not read replication table waiting and will retry
+info SimpleName MethodInvocation StringLiteral could not read replication table waiting and will retry
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+conn SimpleName MethodInvocation MethodInvocation StringLiteral root
+security operations SimpleName MethodInvocation MethodInvocation StringLiteral root
+conn SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation StringLiteral root
+has table permission SimpleName MethodInvocation QualifiedName replication tablename
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+root StringLiteral MethodInvocation QualifiedName replication tablename
+root StringLiteral MethodInvocation QualifiedName table permissionread
+replication tablename QualifiedName MethodInvocation QualifiedName table permissionread
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral root user could not read the replication table
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert SimpleName MethodInvocation MethodInvocation StringLiteral root
+assert SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+assert true SimpleName MethodInvocation StringLiteral root user could not read the replication table
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has table permission
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral root
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName replication tablename
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation SimpleName has table permission
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation StringLiteral root
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation QualifiedName replication tablename
+root user could not read the replication table StringLiteral MethodInvocation MethodInvocation QualifiedName table permissionread
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sets SimpleName MethodInvocation SimpleName new hash set
+repl rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName sets
+repl rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName new hash set
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+attempts SimpleName Assignment NumberLiteral empty
+repl rows SimpleName MethodInvocation SimpleName is empty
+attempts SimpleName InfixExpression NumberLiteral empty
+repl rows SimpleName MethodInvocation InfixExpression InfixExpression SimpleName attempts
+repl rows SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+is empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName attempts
+is empty SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+replication table SimpleName MethodInvocation SimpleName get scanner
+replication table SimpleName MethodInvocation SimpleName conn
+get scanner SimpleName MethodInvocation SimpleName conn
+scanner SimpleName Assignment MethodInvocation SimpleName replication table
+scanner SimpleName Assignment MethodInvocation SimpleName get scanner
+scanner SimpleName Assignment MethodInvocation SimpleName conn
+status section SimpleName MethodInvocation SimpleName limit
+status section SimpleName MethodInvocation SimpleName scanner
+limit SimpleName MethodInvocation SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName MethodInvocation SimpleName get row
+k SimpleName MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+file uri SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName k
+file uri SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+file uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file uri
+uri SimpleName SimpleType ClassInstanceCreation SimpleName file uri
+uri syntax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+expected a valid uri StringLiteral InfixExpression SimpleName file uri
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral expected a valid uri
+assert SimpleName MethodInvocation InfixExpression SimpleName file uri
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected a valid uri
+fail SimpleName MethodInvocation InfixExpression SimpleName file uri
+repl rows SimpleName MethodInvocation SimpleName add
+repl rows SimpleName MethodInvocation SimpleName file uri
+add SimpleName MethodInvocation SimpleName file uri
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sets SimpleName MethodInvocation SimpleName new hash set
+wals SimpleName VariableDeclarationFragment MethodInvocation SimpleName sets
+wals SimpleName VariableDeclarationFragment MethodInvocation SimpleName new hash set
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+attempts SimpleName Assignment NumberLiteral empty
+wals SimpleName MethodInvocation SimpleName is empty
+attempts SimpleName InfixExpression NumberLiteral empty
+wals SimpleName MethodInvocation InfixExpression InfixExpression SimpleName attempts
+wals SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+is empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName attempts
+is empty SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+s SimpleName Assignment MethodInvocation SimpleName conn
+s SimpleName Assignment MethodInvocation SimpleName create scanner
+s SimpleName Assignment MethodInvocation QualifiedName metadata tablename
+s SimpleName Assignment MethodInvocation QualifiedName authorizationsempty
+s SimpleName MethodInvocation SimpleName fetch column family
+s SimpleName MethodInvocation QualifiedName metadata schematablets sectionlog column familyname
+fetch column family SimpleName MethodInvocation QualifiedName metadata schematablets sectionlog column familyname
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+log entry SimpleName MethodInvocation SimpleName from key value
+log entry SimpleName MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName MethodInvocation MethodInvocation SimpleName get key
+log entry SimpleName MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName MethodInvocation MethodInvocation SimpleName get value
+from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+from key value SimpleName MethodInvocation MethodInvocation SimpleName get key
+from key value SimpleName MethodInvocation MethodInvocation SimpleName entry
+from key value SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+log entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName log entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName from key value
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+log entry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+log entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log entry
+path SimpleName SimpleType ClassInstanceCreation QualifiedName log entryfilename
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+log entryfilename QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+wals SimpleName MethodInvocation SimpleName add
+wals SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName log entryfilename
+wals SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName log entryfilename
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+rows found StringLiteral InfixExpression SimpleName repl rows
+repl rows SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression StringLiteral rows found
+assert SimpleName MethodInvocation InfixExpression SimpleName repl rows
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName repl rows
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral rows found
+assert equals SimpleName MethodInvocation InfixExpression SimpleName repl rows
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName repl rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+rows found StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+repl rows SimpleName InfixExpression MethodInvocation NumberLiteral empty
+rows found StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName repl rows
+rows found StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName size
+repl rows SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName repl rows
+repl rows SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName repl rows
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName repl rows
+assert SimpleName MethodInvocation SimpleName wals
+assert equals SimpleName MethodInvocation SimpleName repl rows
+assert equals SimpleName MethodInvocation SimpleName wals
+repl rows SimpleName MethodInvocation SimpleName wals
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName correct records complete file
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName correct records complete file
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName correct records complete file
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+correct records complete file SimpleName MethodDeclaration SimpleType SimpleName exception
+correct records complete file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+correct records complete file SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName correct records complete file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName correct records complete file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

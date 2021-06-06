@@ -1,0 +1,21 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def summary
+method name SimpleName VariableDeclarationFragment StringLiteral get local type defs
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get local type defs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get local type defs
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName get local type defs
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def summary
+public Modifier MethodDeclaration SimpleName get local type defs
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+array list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get local type defs
+type def summary SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get local type defs
+get local type defs SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get local type defs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get local type defs

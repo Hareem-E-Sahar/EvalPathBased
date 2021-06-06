@@ -1,0 +1,134 @@
+long PrimitiveType SingleVariableDeclaration SimpleName flush id
+minor compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName minc reason
+minor compaction task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mct
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log message
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName Assignment MethodInvocation SimpleName system
+t SimpleName Assignment MethodInvocation SimpleName current time millis
+major compaction state SimpleName InfixExpression QualifiedName compaction statewaiting to start
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is closed
+is closing SimpleName MethodInvocation InfixExpression InfixExpression SimpleName major compaction state
+is closing SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName compaction statewaiting to start
+is closed SimpleName MethodInvocation InfixExpression InfixExpression SimpleName major compaction state
+is closed SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName compaction statewaiting to start
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName memory reserved for min c
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get mem table
+get tablet memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num entries
+get mem table SimpleName MethodInvocation MethodInvocation SimpleName get num entries
+get mem table SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName updating flush id
+log message SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+extent SimpleName MethodInvocation SimpleName to string
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation MethodInvocation SimpleName extent
+log message SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName extent
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+close state StringLiteral InfixExpression SimpleName close state
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation InfixExpression StringLiteral close state
+log message SimpleName MethodInvocation InfixExpression SimpleName close state
+append SimpleName MethodInvocation InfixExpression StringLiteral close state
+append SimpleName MethodInvocation InfixExpression SimpleName close state
+major compaction state StringLiteral InfixExpression SimpleName major compaction state
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation InfixExpression StringLiteral major compaction state
+log message SimpleName MethodInvocation InfixExpression SimpleName major compaction state
+append SimpleName MethodInvocation InfixExpression StringLiteral major compaction state
+append SimpleName MethodInvocation InfixExpression SimpleName major compaction state
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName memory reserved for min c
+tablet memorymemory reserved for min c StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get tablet memory
+tablet memorymemory reserved for min c StringLiteral InfixExpression MethodInvocation SimpleName memory reserved for min c
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation InfixExpression StringLiteral tablet memorymemory reserved for min c
+log message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName memory reserved for min c
+append SimpleName MethodInvocation InfixExpression StringLiteral tablet memorymemory reserved for min c
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName memory reserved for min c
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get mem table
+get tablet memory SimpleName MethodInvocation MethodInvocation SimpleName get mem table
+get tablet memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num entries
+get mem table SimpleName MethodInvocation MethodInvocation SimpleName get num entries
+tablet memoryget mem tableget num entries StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get mem table
+tablet memoryget mem tableget num entries StringLiteral InfixExpression MethodInvocation SimpleName get num entries
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation InfixExpression StringLiteral tablet memoryget mem tableget num entries
+log message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get num entries
+append SimpleName MethodInvocation InfixExpression StringLiteral tablet memoryget mem tableget num entries
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get num entries
+updating flush id StringLiteral InfixExpression SimpleName updating flush id
+log message SimpleName MethodInvocation SimpleName append
+log message SimpleName MethodInvocation InfixExpression StringLiteral updating flush id
+log message SimpleName MethodInvocation InfixExpression SimpleName updating flush id
+append SimpleName MethodInvocation InfixExpression StringLiteral updating flush id
+append SimpleName MethodInvocation InfixExpression SimpleName updating flush id
+prepare for min c SimpleName MethodInvocation SimpleName flush id
+prepare for min c SimpleName MethodInvocation SimpleName minc reason
+flush id SimpleName MethodInvocation SimpleName minc reason
+mct SimpleName Assignment MethodInvocation SimpleName prepare for min c
+mct SimpleName Assignment MethodInvocation SimpleName flush id
+mct SimpleName Assignment MethodInvocation SimpleName minc reason
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName Assignment MethodInvocation SimpleName system
+t SimpleName Assignment MethodInvocation SimpleName current time millis
+log SimpleName MethodInvocation SimpleName is debug enabled
+log message SimpleName InfixExpression InfixExpression MethodInvocation SimpleName log
+log message SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName log message
+debug SimpleName MethodInvocation SimpleName log message
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral min c initiate lock %. f secs
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation StringLiteral min c initiate lock %. f secs
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+min c initiate lock %. f secs StringLiteral MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral min c initiate lock %. f secs
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral min c initiate lock %. f secs
+debug SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName mct
+private Modifier MethodDeclaration SimpleType SimpleName minor compaction task
+private Modifier MethodDeclaration SimpleName create minor compaction task
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName flush id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName minor compaction reason
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block ReturnStatement SimpleName mct
+minor compaction task SimpleName SimpleType MethodDeclaration SimpleName create minor compaction task
+minor compaction task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+minor compaction task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flush id
+minor compaction task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+create minor compaction task SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create minor compaction task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flush id
+create minor compaction task SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName minor compaction reason
+create minor compaction task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+create minor compaction task SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+create minor compaction task SimpleName MethodDeclaration Block ReturnStatement SimpleName mct
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+flush id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName minor compaction task
+public Modifier TypeDeclaration MethodDeclaration SimpleName create minor compaction task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName minor compaction task
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create minor compaction task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName minc reason

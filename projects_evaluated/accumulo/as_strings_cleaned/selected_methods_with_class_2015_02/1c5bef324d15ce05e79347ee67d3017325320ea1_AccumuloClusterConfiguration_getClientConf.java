@@ -1,0 +1,6 @@
+client configuration SimpleName SimpleType MethodDeclaration SimpleName get client conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client conf

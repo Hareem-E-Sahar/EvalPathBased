@@ -1,0 +1,118 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+boolean PrimitiveType SingleVariableDeclaration SimpleName force
+graph helper SimpleName MethodInvocation SimpleName remove edge
+graph helper SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+atlas graph utils v SimpleName MethodInvocation SimpleName get state
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation SimpleName edge
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+atlas entitystatus QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName atlas entitystatusdeleted
+atlas entitystatusdeleted QualifiedName MethodInvocation SimpleName name
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName state property key
+graph helper SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusdeleted
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName name
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation SimpleName state property key
+set property SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusdeleted
+set property SimpleName MethodInvocation MethodInvocation SimpleName name
+edge SimpleName MethodInvocation SimpleName state property key
+edge SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusdeleted
+edge SimpleName MethodInvocation MethodInvocation SimpleName name
+state property key SimpleName MethodInvocation MethodInvocation QualifiedName atlas entitystatusdeleted
+state property key SimpleName MethodInvocation MethodInvocation SimpleName name
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName get request time
+get SimpleName MethodInvocation MethodInvocation SimpleName get request time
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName modification timestamp property key
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get request time
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation SimpleName modification timestamp property key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set property SimpleName MethodInvocation MethodInvocation SimpleName get request time
+edge SimpleName MethodInvocation SimpleName modification timestamp property key
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+edge SimpleName MethodInvocation MethodInvocation SimpleName get request time
+modification timestamp property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+modification timestamp property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+modification timestamp property key SimpleName MethodInvocation MethodInvocation SimpleName get request time
+request context v SimpleName MethodInvocation SimpleName get
+request context v SimpleName MethodInvocation MethodInvocation SimpleName get user
+get SimpleName MethodInvocation MethodInvocation SimpleName get user
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName modified by key
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+graph helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get user
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation SimpleName modified by key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set property SimpleName MethodInvocation MethodInvocation SimpleName get user
+edge SimpleName MethodInvocation SimpleName modified by key
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+edge SimpleName MethodInvocation MethodInvocation SimpleName get user
+modified by key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context v
+modified by key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+modified by key SimpleName MethodInvocation MethodInvocation SimpleName get user
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName force
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName delete edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName force
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName force
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName force
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName force
+delete edge SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete edge SimpleName MethodDeclaration Block IfStatement SimpleName force
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+force SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName force
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

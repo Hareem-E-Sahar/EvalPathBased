@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+result checker SimpleName SimpleType SingleVariableDeclaration SimpleName checker
+run and validate query SimpleName MethodInvocation SimpleName dsl query
+run and validate query SimpleName MethodInvocation SimpleName checker
+dsl query SimpleName MethodInvocation SimpleName checker
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run count group by query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName checker
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run count group by query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName checker
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run count group by query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run count group by query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+run count group by query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result checker
+run count group by query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName checker
+run count group by query SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+checker SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run count group by query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run count group by query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName checker
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

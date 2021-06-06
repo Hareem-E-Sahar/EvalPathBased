@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+serde lib SimpleName VariableDeclarationFragment StringLiteral orgapachehadoophiveserde lazylazy simple ser de
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName serde lib
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral orgapachehadoophiveserde lazylazy simple ser de
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde lib
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral orgapachehadoophiveserde lazylazy simple ser de
+get serialized props SimpleName MethodInvocation SimpleName expected props
+serialized props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get serialized props
+serialized props SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected props
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName serialized props
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get serialized props
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName expected props
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serialized props
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral alter table s set serde s with serdeproperties s
+string SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation SimpleName serde lib
+string SimpleName MethodInvocation SimpleName serialized props
+format SimpleName MethodInvocation StringLiteral alter table s set serde s with serdeproperties s
+format SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation SimpleName serde lib
+format SimpleName MethodInvocation SimpleName serialized props
+alter table s set serde s with serdeproperties s StringLiteral MethodInvocation SimpleName table name
+alter table s set serde s with serdeproperties s StringLiteral MethodInvocation SimpleName serde lib
+alter table s set serde s with serdeproperties s StringLiteral MethodInvocation SimpleName serialized props
+table name SimpleName MethodInvocation SimpleName serde lib
+table name SimpleName MethodInvocation SimpleName serialized props
+serde lib SimpleName MethodInvocation SimpleName serialized props
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral alter table s set serde s with serdeproperties s
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName serde lib
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName serialized props
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+verify table sd properties SimpleName MethodInvocation SimpleName table name
+verify table sd properties SimpleName MethodInvocation SimpleName serde lib
+verify table sd properties SimpleName MethodInvocation SimpleName expected props
+table name SimpleName MethodInvocation SimpleName serde lib
+table name SimpleName MethodInvocation SimpleName expected props
+serde lib SimpleName MethodInvocation SimpleName expected props
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run serde props query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected props
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName run serde props query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+run serde props query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run serde props query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+run serde props query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected props
+run serde props query SimpleName MethodDeclaration SimpleType SimpleName exception
+run serde props query SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+run serde props query SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run serde props query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run serde props query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

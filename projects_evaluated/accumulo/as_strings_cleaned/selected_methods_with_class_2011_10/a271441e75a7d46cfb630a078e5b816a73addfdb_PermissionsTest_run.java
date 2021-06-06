@@ -1,0 +1,190 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+test pass SimpleName MethodInvocation SimpleName get bytes
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create user
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName test user
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test pass
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsno auths
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create user SimpleName MethodInvocation SimpleName test user
+create user SimpleName MethodInvocation MethodInvocation SimpleName test pass
+create user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+create user SimpleName MethodInvocation QualifiedName constantsno auths
+test user SimpleName MethodInvocation MethodInvocation SimpleName test pass
+test user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+test user SimpleName MethodInvocation QualifiedName constantsno auths
+test pass SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+test pass SimpleName MethodInvocation SimpleName get bytes
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName test user
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test pass
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get connector SimpleName MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test pass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+test user SimpleName MethodInvocation MethodInvocation SimpleName test pass
+test user SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+test user conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+test user conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+test user conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName test user
+test user conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName test pass
+test user conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test user conn
+get connector SimpleName MethodInvocation MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation QualifiedName constantsmetadata table name
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionread
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionalter table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table permissionread
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table permissionalter table
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName table permissionread
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName table permissionalter table
+table permissionread QualifiedName MethodInvocation QualifiedName table permissionalter table
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation SimpleName test user
+verify has only these table permissions SimpleName MethodInvocation QualifiedName constantsmetadata table name
+verify has only these table permissions SimpleName MethodInvocation QualifiedName table permissionread
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata table name
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+test user SimpleName MethodInvocation QualifiedName constantsmetadata table name
+test user SimpleName MethodInvocation QualifiedName table permissionread
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName table permissionread
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+table permission SimpleName MethodInvocation SimpleName values
+verifying the StringLiteral InfixExpression SimpleName perm
+verifying the StringLiteral InfixExpression StringLiteral permission
+perm SimpleName InfixExpression StringLiteral permission
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral verifying the
+log SimpleName MethodInvocation InfixExpression SimpleName perm
+log SimpleName MethodInvocation InfixExpression StringLiteral permission
+debug SimpleName MethodInvocation InfixExpression StringLiteral verifying the
+debug SimpleName MethodInvocation InfixExpression SimpleName perm
+debug SimpleName MethodInvocation InfixExpression StringLiteral permission
+test missing table permission SimpleName MethodInvocation MethodInvocation SimpleName get connector
+test missing table permission SimpleName MethodInvocation SimpleName test user conn
+test missing table permission SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user conn
+get connector SimpleName MethodInvocation MethodInvocation SimpleName perm
+test user conn SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName perm
+grant table permission SimpleName MethodInvocation SimpleName test user
+grant table permission SimpleName MethodInvocation SimpleName test table
+grant table permission SimpleName MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName test table
+test user SimpleName MethodInvocation SimpleName perm
+test table SimpleName MethodInvocation SimpleName perm
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation SimpleName test user
+verify has only these table permissions SimpleName MethodInvocation SimpleName test table
+verify has only these table permissions SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName test table
+test user SimpleName MethodInvocation SimpleName perm
+test table SimpleName MethodInvocation SimpleName perm
+test granted table permission SimpleName MethodInvocation MethodInvocation SimpleName get connector
+test granted table permission SimpleName MethodInvocation SimpleName test user conn
+test granted table permission SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user conn
+get connector SimpleName MethodInvocation MethodInvocation SimpleName perm
+test user conn SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName perm
+revoke table permission SimpleName MethodInvocation SimpleName test user
+revoke table permission SimpleName MethodInvocation SimpleName test table
+revoke table permission SimpleName MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName test table
+test user SimpleName MethodInvocation SimpleName perm
+test table SimpleName MethodInvocation SimpleName perm
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has no table permissions SimpleName MethodInvocation SimpleName test user
+verify has no table permissions SimpleName MethodInvocation SimpleName test table
+verify has no table permissions SimpleName MethodInvocation SimpleName perm
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName perm
+test user SimpleName MethodInvocation SimpleName test table
+test user SimpleName MethodInvocation SimpleName perm
+test table SimpleName MethodInvocation SimpleName perm
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+run SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+run SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+run SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+run SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+run SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

@@ -1,0 +1,79 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+boolean PrimitiveType SingleVariableDeclaration SimpleName is propagated
+add edge SimpleName MethodInvocation SimpleName entity vertex
+add edge SimpleName MethodInvocation SimpleName classification vertex
+add edge SimpleName MethodInvocation SimpleName classification label
+entity vertex SimpleName MethodInvocation SimpleName classification vertex
+entity vertex SimpleName MethodInvocation SimpleName classification label
+classification vertex SimpleName MethodInvocation SimpleName classification label
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get type name SimpleName MethodInvocation SimpleName classification vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName ret
+atlas graph utils v SimpleName MethodInvocation SimpleName classification edge name property key
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+set property SimpleName MethodInvocation SimpleName ret
+set property SimpleName MethodInvocation SimpleName classification edge name property key
+set property SimpleName MethodInvocation MethodInvocation SimpleName get type name
+set property SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation SimpleName classification edge name property key
+ret SimpleName MethodInvocation MethodInvocation SimpleName get type name
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+classification edge name property key SimpleName MethodInvocation MethodInvocation SimpleName get type name
+classification edge name property key SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName ret
+atlas graph utils v SimpleName MethodInvocation SimpleName classification edge is propagated property key
+atlas graph utils v SimpleName MethodInvocation SimpleName is propagated
+set property SimpleName MethodInvocation SimpleName ret
+set property SimpleName MethodInvocation SimpleName classification edge is propagated property key
+set property SimpleName MethodInvocation SimpleName is propagated
+ret SimpleName MethodInvocation SimpleName classification edge is propagated property key
+ret SimpleName MethodInvocation SimpleName is propagated
+classification edge is propagated property key SimpleName MethodInvocation SimpleName is propagated
+public Modifier MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SimpleName add classification edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName add classification edge
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+add classification edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+add classification edge SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+classification vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+classification vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName add classification edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is propagated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add classification edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is propagated

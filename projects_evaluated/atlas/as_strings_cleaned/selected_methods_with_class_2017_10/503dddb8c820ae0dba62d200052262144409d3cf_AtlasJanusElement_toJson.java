@@ -1,0 +1,37 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property keys
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property keys
+atlas graph son utility SimpleName MethodInvocation SimpleName json from element
+atlas graph son utility SimpleName MethodInvocation SimpleName property keys
+atlas graph son utility SimpleName MethodInvocation QualifiedName atlas graph son modenormal
+json from element SimpleName MethodInvocation SimpleName property keys
+json from element SimpleName MethodInvocation QualifiedName atlas graph son modenormal
+property keys SimpleName MethodInvocation QualifiedName atlas graph son modenormal
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to json
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property keys
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName to json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property keys
+public Modifier MethodDeclaration SimpleType SimpleName json exception
+json object SimpleName SimpleType MethodDeclaration SimpleName to json
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property keys
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+to json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property keys
+to json SimpleName MethodDeclaration SimpleType SimpleName json exception
+property keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName to json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property keys
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

@@ -1,0 +1,91 @@
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+instance formatters SimpleName MethodInvocation SimpleName get converter
+instance formatters SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+instance formatters SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+instance formatters SimpleName MethodInvocation QualifiedName type categoryclassification
+get converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+get converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+get converter SimpleName MethodInvocation QualifiedName type categoryclassification
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName atlas format convertersversion v
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName type categoryclassification
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName type categoryclassification
+formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance formatters
+formatter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get converter
+formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas format convertersversion v
+formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas format convertersversion v
+formatter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName type categoryclassification
+atlas format adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName formatter
+classification SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName classification
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName classification
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+cls type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+cls type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+cls type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification
+cls type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cls type
+formatter SimpleName MethodInvocation SimpleName convert
+formatter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+formatter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+formatter SimpleName MethodInvocation SimpleName cls type
+formatter SimpleName MethodInvocation SimpleName classification
+convert SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+convert SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+convert SimpleName MethodInvocation SimpleName cls type
+convert SimpleName MethodInvocation SimpleName classification
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName atlas format convertersversion v
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName cls type
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName classification
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName cls type
+atlas format convertersversion v QualifiedName MethodInvocation SimpleName classification
+cls type SimpleName MethodInvocation SimpleName classification
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName formatter
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName convert
+struct SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+struct SimpleName SimpleType CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName cls type
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName classification
+ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName formatter
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName convert
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName atlas format convertersversion v
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName cls type
+ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName classification
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+metadata service SimpleName MethodInvocation SimpleName create trait instance
+metadata service SimpleName MethodInvocation SimpleName ref
+create trait instance SimpleName MethodInvocation SimpleName ref
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral exception while getting a typed reference for the entity
+error SimpleName MethodInvocation SimpleName e
+exception while getting a typed reference for the entity StringLiteral MethodInvocation SimpleName e
+to atlas base exception SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier MethodDeclaration SimpleName get trait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+i typed struct SimpleName SimpleType MethodDeclaration SimpleName get trait
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification
+i typed struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+get trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification
+get trait SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+classification SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,71 @@
+get entity SimpleName MethodInvocation StringLiteral id
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment MethodInvocation StringLiteral id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+trait name SimpleName VariableDeclarationFragment StringLiteral my trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral my trait
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+collections SimpleName MethodInvocation SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleType SimpleName object
+collections SimpleName MethodInvocation SimpleName empty map
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName object
+string SimpleName SimpleType MethodInvocation SimpleName empty map
+object SimpleName SimpleType MethodInvocation SimpleName empty map
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty map
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName string
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName object
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName empty map
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty map
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+singleton list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty map
+trait info SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+trait info SimpleName VariableDeclarationFragment MethodInvocation SimpleName singleton list
+trait info SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName trait name
+entity notification v SimpleName SimpleType ClassInstanceCreation SimpleName entity
+entity notification v SimpleName SimpleType ClassInstanceCreation QualifiedName operation typetrait add
+entity notification v SimpleName SimpleType ClassInstanceCreation SimpleName trait info
+entity SimpleName ClassInstanceCreation QualifiedName operation typetrait add
+entity SimpleName ClassInstanceCreation SimpleName trait info
+operation typetrait add QualifiedName ClassInstanceCreation SimpleName trait info
+entity notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity notification v
+entity notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity
+entity notification SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName operation typetrait add
+entity notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait info
+entity notification v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity notification
+entity notification SimpleName MethodInvocation SimpleName get all traits
+assert equals SimpleName MethodInvocation SimpleName trait info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entity notification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get all traits
+trait info SimpleName MethodInvocation MethodInvocation SimpleName entity notification
+trait info SimpleName MethodInvocation MethodInvocation SimpleName get all traits
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get all traits
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get all traits
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get all traits
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get all traits SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get all traits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get all traits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

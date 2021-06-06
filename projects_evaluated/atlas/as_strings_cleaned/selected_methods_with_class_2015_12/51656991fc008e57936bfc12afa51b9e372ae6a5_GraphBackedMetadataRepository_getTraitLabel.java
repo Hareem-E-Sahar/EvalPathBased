@@ -1,0 +1,46 @@
+i data type SimpleName SimpleType ParameterizedType WildcardType ?
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+data type SimpleName MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation SimpleName get trait label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName data type
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation SimpleName trait name
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName data type
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName get name
+get trait label SimpleName MethodInvocation SimpleName trait name
+data type SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get name SimpleName MethodInvocation MethodInvocation SimpleName trait name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get trait label
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get trait label
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+string SimpleName SimpleType MethodDeclaration SimpleName get trait label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+get trait label SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get trait label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+get trait label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name

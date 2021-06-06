@@ -1,0 +1,25 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+atlas zookeeper security properties SimpleName MethodInvocation SimpleName parse acl
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas zookeeper security properties
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse acl
+acl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acl
+fail SimpleName MethodInvocation StringLiteral should have thrown exception for null acl string
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName should throw exception for null acl
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName should throw exception for null acl
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should throw exception for null acl
+void PrimitiveType MethodDeclaration SimpleName should throw exception for null acl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should throw exception for null acl
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should throw exception for null acl

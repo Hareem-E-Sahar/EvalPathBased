@@ -1,0 +1,76 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName use pooled connection
+use pooled connection SimpleName InfixExpression BooleanLiteral true
+thrift util SimpleName MethodInvocation SimpleName create transport
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName conf
+create transport SimpleName MethodInvocation SimpleName address
+create transport SimpleName MethodInvocation SimpleName conf
+address SimpleName MethodInvocation SimpleName conf
+transport SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+transport SimpleName VariableDeclarationFragment MethodInvocation SimpleName create transport
+transport SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+transport SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+t transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transport
+thrift util SimpleName MethodInvocation SimpleName create client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName transport
+create client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+create client SimpleName MethodInvocation SimpleName transport
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName transport
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName create client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName transport
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+client SimpleName MethodInvocation SimpleName get tablet server status
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+client SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+get tablet server status SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get tablet server status SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get tablet server status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+get tablet server status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get tablet server status SimpleName MethodInvocation MethodInvocation SimpleName get as thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get as thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get as thrift
+transport SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName tablet server status
+public Modifier MethodDeclaration SimpleName get table map
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName use pooled connection
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+tablet server status SimpleName SimpleType MethodDeclaration SimpleName get table map
+tablet server status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tablet server status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName use pooled connection
+tablet server status SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+tablet server status SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift security exception
+get table map SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get table map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use pooled connection
+get table map SimpleName MethodDeclaration SimpleType SimpleName t exception
+get table map SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+use pooled connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+use pooled connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+t exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use pooled connection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet server status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use pooled connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

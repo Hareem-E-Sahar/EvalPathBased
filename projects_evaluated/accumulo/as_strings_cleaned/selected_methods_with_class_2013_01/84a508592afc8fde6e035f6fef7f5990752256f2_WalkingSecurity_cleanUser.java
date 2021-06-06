@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName tp
+table permission SimpleName MethodInvocation SimpleName values
+revoke table permission SimpleName MethodInvocation SimpleName user
+revoke table permission SimpleName MethodInvocation MethodInvocation SimpleName get table name
+revoke table permission SimpleName MethodInvocation SimpleName tp
+user SimpleName MethodInvocation MethodInvocation SimpleName get table name
+user SimpleName MethodInvocation SimpleName tp
+get table name SimpleName MethodInvocation MethodInvocation SimpleName tp
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName sp
+system permission SimpleName MethodInvocation SimpleName values
+revoke system permission SimpleName MethodInvocation SimpleName user
+revoke system permission SimpleName MethodInvocation SimpleName sp
+user SimpleName MethodInvocation SimpleName sp
+sp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+sp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clean user
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clean user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName clean user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+clean user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clean user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+clean user SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,27 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName term
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas related object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleName on term deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term
+on term deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+on term deleted SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+term SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on term deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on term deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,84 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName zoo keepers
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName instance has been set
+get boolean SimpleName MethodInvocation BooleanLiteral false
+instance has been set SimpleName MethodInvocation BooleanLiteral false
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral instance info can only be set once per job
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName instance has been set
+set boolean SimpleName MethodInvocation BooleanLiteral true
+instance has been set SimpleName MethodInvocation BooleanLiteral true
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName instance name
+argument checker SimpleName MethodInvocation SimpleName zoo keepers
+not null SimpleName MethodInvocation SimpleName instance name
+not null SimpleName MethodInvocation SimpleName zoo keepers
+instance name SimpleName MethodInvocation SimpleName zoo keepers
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+instance name SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName zookeepers
+conf SimpleName MethodInvocation SimpleName zoo keepers
+set SimpleName MethodInvocation SimpleName zookeepers
+set SimpleName MethodInvocation SimpleName zoo keepers
+zookeepers SimpleName MethodInvocation SimpleName zoo keepers
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set zoo keeper instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set zoo keeper instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+void PrimitiveType MethodDeclaration SimpleName set zoo keeper instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance name
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set zoo keeper instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+instance name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set zoo keeper instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set zoo keeper instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers

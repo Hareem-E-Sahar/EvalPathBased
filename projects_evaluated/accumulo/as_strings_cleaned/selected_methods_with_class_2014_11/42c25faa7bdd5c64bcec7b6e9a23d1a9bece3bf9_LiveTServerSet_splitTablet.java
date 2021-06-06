@@ -1,0 +1,160 @@
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+text SimpleName SimpleType SingleVariableDeclaration SimpleName split point
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName context
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation SimpleName context
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName context
+address SimpleName MethodInvocation SimpleName context
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+context SimpleName MethodInvocation SimpleName rpc creds
+extent SimpleName MethodInvocation SimpleName to thrift
+split point SimpleName MethodInvocation SimpleName get bytes
+split point SimpleName MethodInvocation SimpleName get length
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName split point
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation NumberLiteral empty
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName split point
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get length
+wrap SimpleName MethodInvocation MethodInvocation SimpleName split point
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation NumberLiteral empty
+wrap SimpleName MethodInvocation MethodInvocation SimpleName split point
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get length
+split point SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get bytes SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+split point SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+split point SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName split point
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+client SimpleName MethodInvocation SimpleName split tablet
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation MethodInvocation SimpleName extent
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+client SimpleName MethodInvocation MethodInvocation SimpleName wrap
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+client SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName tracer
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName trace info
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName context
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName extent
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+split tablet SimpleName MethodInvocation MethodInvocation SimpleName wrap
+split tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+split tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+split tablet SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+split tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split point
+split tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+rpc creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+rpc creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+context SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+context SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+rpc creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+rpc creds SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+rpc creds SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName split tablet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName split point
+void PrimitiveType MethodDeclaration SimpleName split tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName split point
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+split tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName split point
+split tablet SimpleName MethodDeclaration SimpleType SimpleName t exception
+split tablet SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+lock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split point
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split point
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+split point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+split point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+split point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+t exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift security exception
+t exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName not serving tablet exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName not serving tablet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName split tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split point
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName split point
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName not serving tablet exception

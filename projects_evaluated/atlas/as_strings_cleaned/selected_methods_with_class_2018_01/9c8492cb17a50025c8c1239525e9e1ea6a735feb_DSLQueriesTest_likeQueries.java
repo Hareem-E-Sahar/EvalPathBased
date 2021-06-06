@@ -1,0 +1,98 @@
+data provider SimpleName MemberValuePair StringLiteral like queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral like queries provider
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+int PrimitiveType SingleVariableDeclaration SimpleName expected
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName query
+debug SimpleName MethodInvocation SimpleName query
+query assert SimpleName MethodInvocation SimpleName query
+query assert SimpleName MethodInvocation SimpleName expected
+query assert SimpleName MethodInvocation SimpleName default limit
+query assert SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName expected
+query SimpleName MethodInvocation SimpleName default limit
+query SimpleName MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName default limit
+expected SimpleName MethodInvocation NumberLiteral empty
+default limit SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName replace
+query SimpleName MethodInvocation StringLiteral where
+query SimpleName MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral where
+replace SimpleName MethodInvocation StringLiteral empty
+where StringLiteral MethodInvocation StringLiteral empty
+query assert SimpleName MethodInvocation MethodInvocation SimpleName query
+query assert SimpleName MethodInvocation MethodInvocation SimpleName replace
+query assert SimpleName MethodInvocation MethodInvocation StringLiteral where
+query assert SimpleName MethodInvocation MethodInvocation StringLiteral empty
+query assert SimpleName MethodInvocation SimpleName expected
+query assert SimpleName MethodInvocation SimpleName default limit
+query assert SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation MethodInvocation SimpleName expected
+replace SimpleName MethodInvocation MethodInvocation SimpleName expected
+where StringLiteral MethodInvocation MethodInvocation SimpleName expected
+empty StringLiteral MethodInvocation MethodInvocation SimpleName expected
+query SimpleName MethodInvocation MethodInvocation SimpleName default limit
+replace SimpleName MethodInvocation MethodInvocation SimpleName default limit
+where StringLiteral MethodInvocation MethodInvocation SimpleName default limit
+empty StringLiteral MethodInvocation MethodInvocation SimpleName default limit
+query SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+replace SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+where StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+expected SimpleName MethodInvocation SimpleName default limit
+expected SimpleName MethodInvocation NumberLiteral empty
+default limit SimpleName MethodInvocation NumberLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+like queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+like queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName like queries
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName like queries
+like queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName like queries
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName like queries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName like queries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+like queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+like queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+like queries SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+like queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+like queries SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName like queries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName like queries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

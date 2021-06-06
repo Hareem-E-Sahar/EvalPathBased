@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName native lib
+system SimpleName MethodInvocation SimpleName load
+system SimpleName MethodInvocation SimpleName native lib
+load SimpleName MethodInvocation SimpleName native lib
+loaded native map shared library StringLiteral InfixExpression SimpleName native lib
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral loaded native map shared library
+log SimpleName MethodInvocation InfixExpression SimpleName native lib
+info SimpleName MethodInvocation InfixExpression StringLiteral loaded native map shared library
+info SimpleName MethodInvocation InfixExpression SimpleName native lib
+loaded native libraries SimpleName Assignment BooleanLiteral true
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+failed to load native map library StringLiteral InfixExpression SimpleName native lib
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to load native map library
+log SimpleName MethodInvocation InfixExpression SimpleName native lib
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to load native map library
+error SimpleName MethodInvocation InfixExpression SimpleName native lib
+error SimpleName MethodInvocation SimpleName t
+failed to load native map library StringLiteral InfixExpression MethodInvocation SimpleName t
+native lib SimpleName InfixExpression MethodInvocation SimpleName t
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName load native lib
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName native lib
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName load native lib
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName native lib
+void PrimitiveType MethodDeclaration SimpleName load native lib
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName native lib
+load native lib SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load native lib SimpleName MethodDeclaration SingleVariableDeclaration SimpleName native lib
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName load native lib
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName native lib
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load native lib
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName native lib

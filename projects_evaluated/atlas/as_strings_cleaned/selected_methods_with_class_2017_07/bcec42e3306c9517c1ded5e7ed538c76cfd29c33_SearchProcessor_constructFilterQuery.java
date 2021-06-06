@@ -1,0 +1,103 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName solr query
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr attributes
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral processing filters
+debug SimpleName MethodInvocation StringLiteral processing filters
+to solr query SimpleName MethodInvocation SimpleName type
+to solr query SimpleName MethodInvocation SimpleName filter criteria
+to solr query SimpleName MethodInvocation SimpleName solr attributes
+type SimpleName MethodInvocation SimpleName filter criteria
+type SimpleName MethodInvocation SimpleName solr attributes
+filter criteria SimpleName MethodInvocation SimpleName solr attributes
+filter query SimpleName VariableDeclarationFragment MethodInvocation SimpleName to solr query
+filter query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+filter query SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+filter query SimpleName VariableDeclarationFragment MethodInvocation SimpleName solr attributes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName filter query
+is not empty SimpleName MethodInvocation SimpleName filter query
+solr query SimpleName MethodInvocation SimpleName append
+solr query SimpleName MethodInvocation SimpleName and str
+append SimpleName MethodInvocation SimpleName and str
+solr query SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+and str SimpleName MethodInvocation MethodInvocation SimpleName append
+solr query SimpleName MethodInvocation MethodInvocation SimpleName filter query
+append SimpleName MethodInvocation MethodInvocation SimpleName filter query
+and str SimpleName MethodInvocation MethodInvocation SimpleName filter query
+append SimpleName MethodInvocation SimpleName filter query
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+context SimpleName MethodInvocation SimpleName get search parameters
+context SimpleName MethodInvocation MethodInvocation SimpleName get exclude deleted entities
+get search parameters SimpleName MethodInvocation MethodInvocation SimpleName get exclude deleted entities
+type SimpleName InstanceofExpression InfixExpression MethodInvocation SimpleName get exclude deleted entities
+solr query SimpleName MethodInvocation SimpleName append
+solr query SimpleName MethodInvocation SimpleName and str
+append SimpleName MethodInvocation SimpleName and str
+solr query SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+and str SimpleName MethodInvocation MethodInvocation SimpleName append
+solr query SimpleName MethodInvocation MethodInvocation StringLiteral v state
+append SimpleName MethodInvocation MethodInvocation StringLiteral v state
+and str SimpleName MethodInvocation MethodInvocation StringLiteral v state
+append SimpleName MethodInvocation StringLiteral v state
+solr query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+and str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+v state StringLiteral MethodInvocation MethodInvocation SimpleName append
+solr query SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral active
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral active
+and str SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral active
+append SimpleName MethodInvocation MethodInvocation StringLiteral active
+v state StringLiteral MethodInvocation MethodInvocation StringLiteral active
+append SimpleName MethodInvocation StringLiteral active
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName construct filter query
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName solr query
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+void PrimitiveType MethodDeclaration SimpleName construct filter query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName solr query
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName solr query
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+construct filter query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+solr query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+solr query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+solr query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct filter query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct filter query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes

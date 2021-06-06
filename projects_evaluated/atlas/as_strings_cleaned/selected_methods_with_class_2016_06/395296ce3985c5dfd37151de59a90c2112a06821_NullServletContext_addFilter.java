@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filter name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+public Modifier MethodDeclaration SimpleType SimpleName dynamic
+public Modifier MethodDeclaration SimpleName add filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+dynamic SimpleName SimpleType MethodDeclaration SimpleName add filter
+dynamic SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filter name
+dynamic SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class name
+add filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter name
+add filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+filter name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dynamic
+public Modifier TypeDeclaration MethodDeclaration SimpleName add filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dynamic
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name

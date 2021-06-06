@@ -1,0 +1,358 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ranges
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get instance SimpleName MethodInvocation SimpleName conf
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+get username SimpleName MethodInvocation SimpleName conf
+get password SimpleName MethodInvocation SimpleName conf
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName get username
+instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+instance SimpleName MethodInvocation MethodInvocation SimpleName get password
+instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get username
+get connector SimpleName MethodInvocation MethodInvocation SimpleName conf
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get password
+get connector SimpleName MethodInvocation MethodInvocation SimpleName conf
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+get username SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get username
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get password
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table name
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation SimpleName instance
+clear cache SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table is online StringLiteral InfixExpression SimpleName table name
+table is online StringLiteral InfixExpression StringLiteral (
+table is online StringLiteral InfixExpression SimpleName table id
+table is online StringLiteral InfixExpression StringLiteral ) cannot scan table in offline mode
+table name SimpleName InfixExpression StringLiteral (
+table name SimpleName InfixExpression SimpleName table id
+table name SimpleName InfixExpression StringLiteral ) cannot scan table in offline mode
+( StringLiteral InfixExpression SimpleName table id
+( StringLiteral InfixExpression StringLiteral ) cannot scan table in offline mode
+table id SimpleName InfixExpression StringLiteral ) cannot scan table in offline mode
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral table is online
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table name
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral (
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) cannot scan table in offline mode
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start row
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName range
+start row SimpleName Assignment MethodInvocation MethodInvocation SimpleName get start key
+start row SimpleName Assignment MethodInvocation SimpleName get row
+start row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName start row
+text SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName start row
+table id SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName start row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+start row SimpleName ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+start row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral true
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+start row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+metadata range SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+metadata range SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+metadata range SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+metadata range SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata range
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName constantsmetadata table name
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsmetadata table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName fetch
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName scanner
+fetch SimpleName MethodInvocation SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata current location column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata current location column family
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata future location column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata future location column family
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName metadata range
+set range SimpleName MethodInvocation SimpleName metadata range
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+row iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName row iterator
+row iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName scanner
+row iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row iter
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last extent
+row iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row iter SimpleName MethodInvocation SimpleName next
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName row iter
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+last SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+row SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName row
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+key SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+last SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+last SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+last SimpleName Assignment MethodInvocation SimpleName to string
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+key SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata current location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata current location column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata current location column family
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+key SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata future location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata future location column family
+equals SimpleName MethodInvocation QualifiedName constantsmetadata future location column family
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName constantsmetadata future location column family
+constantsmetadata current location column family QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+constantsmetadata current location column family QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName constantsmetadata future location column family
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+location SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+location SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+location SimpleName Assignment MethodInvocation SimpleName to string
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName has columns
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName key
+has columns SimpleName MethodInvocation SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation SimpleName get value
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+extent SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key extent
+extent SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+extent SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+extent SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entry
+extent SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get value
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table id
+to string SimpleName MethodInvocation MethodInvocation SimpleName table id
+equals SimpleName MethodInvocation SimpleName table id
+saw unexpected table id StringLiteral InfixExpression SimpleName table id
+saw unexpected table id StringLiteral InfixExpression StringLiteral empty
+saw unexpected table id StringLiteral InfixExpression SimpleName extent
+table id SimpleName InfixExpression StringLiteral empty
+table id SimpleName InfixExpression SimpleName extent
+empty StringLiteral InfixExpression SimpleName extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral saw unexpected table id
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName table id
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+extent SimpleName MethodInvocation SimpleName is previous extent
+extent SimpleName MethodInvocation SimpleName last extent
+is previous extent SimpleName MethodInvocation SimpleName last extent
+empty StringLiteral InfixExpression SimpleName last extent
+empty StringLiteral InfixExpression StringLiteral is not previous extent
+empty StringLiteral InfixExpression SimpleName extent
+last extent SimpleName InfixExpression StringLiteral is not previous extent
+last extent SimpleName InfixExpression SimpleName extent
+is not previous extent StringLiteral InfixExpression SimpleName extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName last extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is not previous extent
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+binned ranges SimpleName MethodInvocation SimpleName get
+binned ranges SimpleName MethodInvocation SimpleName last
+get SimpleName MethodInvocation SimpleName last
+tablet ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName binned ranges
+tablet ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tablet ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName last
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+binned ranges SimpleName MethodInvocation SimpleName put
+binned ranges SimpleName MethodInvocation SimpleName last
+binned ranges SimpleName MethodInvocation SimpleName tablet ranges
+put SimpleName MethodInvocation SimpleName last
+put SimpleName MethodInvocation SimpleName tablet ranges
+last SimpleName MethodInvocation SimpleName tablet ranges
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+tablet ranges SimpleName MethodInvocation SimpleName get
+tablet ranges SimpleName MethodInvocation SimpleName extent
+get SimpleName MethodInvocation SimpleName extent
+range list SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet ranges
+range list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+range list SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+tablet ranges SimpleName MethodInvocation SimpleName put
+tablet ranges SimpleName MethodInvocation SimpleName extent
+tablet ranges SimpleName MethodInvocation SimpleName range list
+put SimpleName MethodInvocation SimpleName extent
+put SimpleName MethodInvocation SimpleName range list
+extent SimpleName MethodInvocation SimpleName range list
+range list SimpleName MethodInvocation SimpleName add
+range list SimpleName MethodInvocation SimpleName range
+add SimpleName MethodInvocation SimpleName range
+extent SimpleName MethodInvocation SimpleName get end row
+extent SimpleName MethodInvocation SimpleName get end row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName following key
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName following key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+get end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+following key SimpleName MethodInvocation QualifiedName partial keyrow
+range SimpleName MethodInvocation SimpleName after end key
+range SimpleName MethodInvocation MethodInvocation SimpleName following key
+range SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+after end key SimpleName MethodInvocation MethodInvocation SimpleName following key
+after end key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+last extent SimpleName Assignment SimpleName extent
+range SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ranges
+range SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ranges
+ranges SimpleName EnhancedForStatement Block ReturnStatement SimpleName binned ranges
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName bin offline table
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName bin offline table
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+bin offline table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ranges
+bin offline table SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+bin offline table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName bin offline table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bin offline table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ranges
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

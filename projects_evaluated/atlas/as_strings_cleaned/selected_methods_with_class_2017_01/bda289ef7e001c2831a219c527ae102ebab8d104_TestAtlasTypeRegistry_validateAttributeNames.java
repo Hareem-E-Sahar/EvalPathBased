@@ -1,0 +1,65 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attribute names
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+type SimpleName Assignment MethodInvocation SimpleName type registry
+type SimpleName Assignment MethodInvocation SimpleName get type
+type SimpleName Assignment MethodInvocation SimpleName type name
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas struct typeatlas attribute
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all attributes
+attributes SimpleName Assignment MethodInvocation SimpleName get all attributes
+type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get all attributes
+attributes SimpleName Assignment MethodInvocation SimpleName get all attributes
+assert not null SimpleName MethodInvocation SimpleName attributes
+attributes SimpleName MethodInvocation SimpleName key set
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName key set
+assert equals SimpleName MethodInvocation SimpleName attribute names
+attributes SimpleName MethodInvocation MethodInvocation SimpleName attribute names
+key set SimpleName MethodInvocation MethodInvocation SimpleName attribute names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate attribute names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+void PrimitiveType MethodDeclaration SimpleName validate attribute names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+validate attribute names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+validate attribute names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+validate attribute names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate attribute names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+validate attribute names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate attribute names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute names
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate attribute names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute names

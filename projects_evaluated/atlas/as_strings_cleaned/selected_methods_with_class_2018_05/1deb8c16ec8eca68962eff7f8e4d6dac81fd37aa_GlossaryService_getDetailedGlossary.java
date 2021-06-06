@@ -1,0 +1,157 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName glossary guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary serviceget glossary
+log SimpleName MethodInvocation SimpleName glossary guid
+debug SimpleName MethodInvocation StringLiteral ==> glossary serviceget glossary
+debug SimpleName MethodInvocation SimpleName glossary guid
+==> glossary serviceget glossary StringLiteral MethodInvocation SimpleName glossary guid
+objects SimpleName MethodInvocation SimpleName is null
+objects SimpleName MethodInvocation SimpleName glossary guid
+is null SimpleName MethodInvocation SimpleName glossary guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral glossary guid is nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral glossary guid is nullempty
+get glossary skeleton SimpleName MethodInvocation SimpleName glossary guid
+atlas glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glossary skeleton
+atlas glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary guid
+atlas glossary SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas glossary
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName atlas glossary
+load SimpleName MethodInvocation SimpleName atlas glossary
+glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName data access
+glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName load
+glossary SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas glossary
+atlas glossary SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glossary
+atlas glossaryatlas glossary ext info QualifiedName SimpleType ClassInstanceCreation SimpleName glossary
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName atlas glossaryatlas glossary ext info
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName glossary
+atlas glossaryatlas glossary ext info QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName get terms
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName ret
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get terms
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName ret
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get terms
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+ret SimpleName MethodInvocation SimpleName get terms
+ret SimpleName MethodInvocation MethodInvocation SimpleName stream
+get terms SimpleName MethodInvocation MethodInvocation SimpleName stream
+id SimpleName MethodInvocation SimpleName get term guid
+get atlas glossary term skeleton SimpleName MethodInvocation MethodInvocation SimpleName id
+get atlas glossary term skeleton SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+id SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get atlas glossary term skeleton
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+get terms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName id
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get atlas glossary term skeleton
+collectors SimpleName MethodInvocation SimpleName to list
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+terms to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+terms to load SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+terms to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+terms to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to list
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary term
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName terms to load
+load SimpleName MethodInvocation SimpleName terms to load
+glossary terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName data access
+glossary terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName load
+glossary terms SimpleName VariableDeclarationFragment MethodInvocation SimpleName terms to load
+ret SimpleName ExpressionMethodReference SimpleName add term info
+glossary terms SimpleName MethodInvocation SimpleName for each
+glossary terms SimpleName MethodInvocation ExpressionMethodReference SimpleName ret
+glossary terms SimpleName MethodInvocation ExpressionMethodReference SimpleName add term info
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName ret
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName add term info
+ret SimpleName MethodInvocation SimpleName get categories
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName ret
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get categories
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName ret
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get categories
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+ret SimpleName MethodInvocation SimpleName get categories
+ret SimpleName MethodInvocation MethodInvocation SimpleName stream
+get categories SimpleName MethodInvocation MethodInvocation SimpleName stream
+id SimpleName MethodInvocation SimpleName get category guid
+get atlas glossary category skeleton SimpleName MethodInvocation MethodInvocation SimpleName id
+get atlas glossary category skeleton SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+id SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get atlas glossary category skeleton
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+get categories SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName id
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get atlas glossary category skeleton
+collectors SimpleName MethodInvocation SimpleName to list
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+categories to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+categories to load SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+categories to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+categories to load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to list
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName categories to load
+load SimpleName MethodInvocation SimpleName categories to load
+glossary categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName data access
+glossary categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName load
+glossary categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName categories to load
+ret SimpleName ExpressionMethodReference SimpleName add category info
+glossary categories SimpleName MethodInvocation SimpleName for each
+glossary categories SimpleName MethodInvocation ExpressionMethodReference SimpleName ret
+glossary categories SimpleName MethodInvocation ExpressionMethodReference SimpleName add category info
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName ret
+for each SimpleName MethodInvocation ExpressionMethodReference SimpleName add category info
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary serviceget glossary : {}
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== glossary serviceget glossary : {}
+debug SimpleName MethodInvocation SimpleName ret
+<== glossary serviceget glossary : {} StringLiteral MethodInvocation SimpleName ret
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName ret
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType QualifiedName atlas glossaryatlas glossary ext info
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get detailed glossary
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType QualifiedName atlas glossaryatlas glossary ext info
+public Modifier MethodDeclaration SimpleName get detailed glossary
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas glossaryatlas glossary ext info QualifiedName SimpleType MethodDeclaration SimpleName get detailed glossary
+atlas glossaryatlas glossary ext info QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+atlas glossaryatlas glossary ext info QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get detailed glossary SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get detailed glossary SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+get detailed glossary SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get detailed glossary SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+get detailed glossary SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+get detailed glossary SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+glossary guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas glossaryatlas glossary ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get detailed glossary
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas glossaryatlas glossary ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get detailed glossary
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

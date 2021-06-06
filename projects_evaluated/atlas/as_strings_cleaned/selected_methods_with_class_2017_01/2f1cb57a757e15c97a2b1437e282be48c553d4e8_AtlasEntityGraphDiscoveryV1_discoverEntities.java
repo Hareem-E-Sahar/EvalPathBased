@@ -1,0 +1,44 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName list
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas entity
+final Modifier SingleVariableDeclaration SimpleName entities
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+discover SimpleName MethodInvocation SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity graph discovery context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName discover entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SimpleName discover entities
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName discovered entities
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleName discover entities
+entity graph discovery context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+entity graph discovery context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entities
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+discover entities SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+discover entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+discover entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+discover entities SimpleName MethodDeclaration Block ReturnStatement SimpleName discovered entities
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName discover entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName discover entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

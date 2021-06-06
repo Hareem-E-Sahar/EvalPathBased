@@ -1,0 +1,32 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName category guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName category guid
+glossary category SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas glossary category
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glossary category
+glossary category SimpleName MethodInvocation SimpleName set guid
+glossary category SimpleName MethodInvocation SimpleName category guid
+set guid SimpleName MethodInvocation SimpleName category guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas glossary category
+private Modifier MethodDeclaration SimpleName get atlas glossary category skeleton
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName category guid
+private Modifier MethodDeclaration Block ReturnStatement SimpleName glossary category
+atlas glossary category SimpleName SimpleType MethodDeclaration SimpleName get atlas glossary category skeleton
+atlas glossary category SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas glossary category SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName category guid
+get atlas glossary category skeleton SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get atlas glossary category skeleton SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get atlas glossary category skeleton SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category guid
+get atlas glossary category skeleton SimpleName MethodDeclaration Block ReturnStatement SimpleName glossary category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary category
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas glossary category skeleton
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary category
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas glossary category skeleton
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid

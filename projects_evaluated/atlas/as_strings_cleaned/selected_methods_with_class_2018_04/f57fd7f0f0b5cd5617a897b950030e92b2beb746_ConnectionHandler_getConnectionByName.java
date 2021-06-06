@@ -1,0 +1,461 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+method name SimpleName VariableDeclarationFragment StringLiteral get connection by name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by name
+name parameter SimpleName VariableDeclarationFragment StringLiteral name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral name
+error handler SimpleName MethodInvocation SimpleName validate user id
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate name
+error handler SimpleName MethodInvocation SimpleName name
+error handler SimpleName MethodInvocation SimpleName name parameter
+error handler SimpleName MethodInvocation SimpleName method name
+validate name SimpleName MethodInvocation SimpleName name
+validate name SimpleName MethodInvocation SimpleName name parameter
+validate name SimpleName MethodInvocation SimpleName method name
+name SimpleName MethodInvocation SimpleName name parameter
+name SimpleName MethodInvocation SimpleName method name
+name parameter SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate repository connector
+error handler SimpleName MethodInvocation SimpleName method name
+validate repository connector SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName error handler
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate repository connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+instance properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName add string property to instance
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName qualified name property name
+repository helper SimpleName MethodInvocation SimpleName name
+add string property to instance SimpleName MethodInvocation SimpleName service name
+add string property to instance SimpleName MethodInvocation SimpleName properties
+add string property to instance SimpleName MethodInvocation SimpleName qualified name property name
+add string property to instance SimpleName MethodInvocation SimpleName name
+add string property to instance SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName properties
+service name SimpleName MethodInvocation SimpleName qualified name property name
+service name SimpleName MethodInvocation SimpleName name
+service name SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName qualified name property name
+properties SimpleName MethodInvocation SimpleName name
+properties SimpleName MethodInvocation SimpleName method name
+qualified name property name SimpleName MethodInvocation SimpleName name
+qualified name property name SimpleName MethodInvocation SimpleName method name
+name SimpleName MethodInvocation SimpleName method name
+properties SimpleName Assignment MethodInvocation SimpleName repository helper
+properties SimpleName Assignment MethodInvocation SimpleName add string property to instance
+properties SimpleName Assignment MethodInvocation SimpleName service name
+properties SimpleName Assignment MethodInvocation SimpleName properties
+properties SimpleName Assignment MethodInvocation SimpleName qualified name property name
+properties SimpleName Assignment MethodInvocation SimpleName name
+properties SimpleName Assignment MethodInvocation SimpleName method name
+repository helper SimpleName MethodInvocation SimpleName add string property to instance
+repository helper SimpleName MethodInvocation SimpleName service name
+repository helper SimpleName MethodInvocation SimpleName properties
+repository helper SimpleName MethodInvocation SimpleName display name property name
+repository helper SimpleName MethodInvocation SimpleName name
+add string property to instance SimpleName MethodInvocation SimpleName service name
+add string property to instance SimpleName MethodInvocation SimpleName properties
+add string property to instance SimpleName MethodInvocation SimpleName display name property name
+add string property to instance SimpleName MethodInvocation SimpleName name
+add string property to instance SimpleName MethodInvocation SimpleName method name
+service name SimpleName MethodInvocation SimpleName properties
+service name SimpleName MethodInvocation SimpleName display name property name
+service name SimpleName MethodInvocation SimpleName name
+service name SimpleName MethodInvocation SimpleName method name
+properties SimpleName MethodInvocation SimpleName display name property name
+properties SimpleName MethodInvocation SimpleName name
+properties SimpleName MethodInvocation SimpleName method name
+display name property name SimpleName MethodInvocation SimpleName name
+display name property name SimpleName MethodInvocation SimpleName method name
+name SimpleName MethodInvocation SimpleName method name
+properties SimpleName Assignment MethodInvocation SimpleName repository helper
+properties SimpleName Assignment MethodInvocation SimpleName add string property to instance
+properties SimpleName Assignment MethodInvocation SimpleName service name
+properties SimpleName Assignment MethodInvocation SimpleName properties
+properties SimpleName Assignment MethodInvocation SimpleName display name property name
+properties SimpleName Assignment MethodInvocation SimpleName name
+properties SimpleName Assignment MethodInvocation SimpleName method name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity detail
+metadata collection SimpleName MethodInvocation SimpleName find entities by property
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation SimpleName connection type guid
+metadata collection SimpleName MethodInvocation SimpleName properties
+metadata collection SimpleName MethodInvocation QualifiedName match criteriaany
+find entities by property SimpleName MethodInvocation SimpleName user id
+find entities by property SimpleName MethodInvocation SimpleName connection type guid
+find entities by property SimpleName MethodInvocation SimpleName properties
+find entities by property SimpleName MethodInvocation QualifiedName match criteriaany
+find entities by property SimpleName MethodInvocation NumberLiteral empty
+user id SimpleName MethodInvocation SimpleName connection type guid
+user id SimpleName MethodInvocation SimpleName properties
+user id SimpleName MethodInvocation QualifiedName match criteriaany
+user id SimpleName MethodInvocation NumberLiteral empty
+connection type guid SimpleName MethodInvocation SimpleName properties
+connection type guid SimpleName MethodInvocation QualifiedName match criteriaany
+connection type guid SimpleName MethodInvocation NumberLiteral empty
+properties SimpleName MethodInvocation QualifiedName match criteriaany
+properties SimpleName MethodInvocation NumberLiteral empty
+match criteriaany QualifiedName MethodInvocation NumberLiteral empty
+connections SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+connections SimpleName VariableDeclarationFragment MethodInvocation SimpleName find entities by property
+connections SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+connections SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection type guid
+connections SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+connections SimpleName VariableDeclarationFragment MethodInvocation QualifiedName match criteriaany
+connections SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+connections SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName name
+error code SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+name SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+connections SimpleName MethodInvocation SimpleName is empty
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName name
+error code SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+name SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+connections SimpleName MethodInvocation SimpleName size
+connections SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codetoo many connections
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codetoo many connections
+error code SimpleName MethodInvocation SimpleName get error message id
+connections SimpleName MethodInvocation SimpleName size
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation MethodInvocation SimpleName connections
+integer SimpleName MethodInvocation MethodInvocation SimpleName size
+to string SimpleName MethodInvocation MethodInvocation SimpleName connections
+to string SimpleName MethodInvocation MethodInvocation SimpleName size
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName name
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation MethodInvocation SimpleName integer
+error code SimpleName MethodInvocation MethodInvocation SimpleName to string
+error code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connections
+error code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get formatted error message SimpleName MethodInvocation SimpleName name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName integer
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName to string
+get formatted error message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connections
+get formatted error message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+name SimpleName MethodInvocation SimpleName server name
+name SimpleName MethodInvocation MethodInvocation SimpleName integer
+name SimpleName MethodInvocation MethodInvocation SimpleName to string
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connections
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+server name SimpleName MethodInvocation MethodInvocation SimpleName integer
+server name SimpleName MethodInvocation MethodInvocation SimpleName to string
+server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName connections
+server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+ambiguous connection name exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+connections SimpleName MethodInvocation SimpleName get
+connections SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get connection from repository SimpleName MethodInvocation SimpleName user id
+get connection from repository SimpleName MethodInvocation SimpleName metadata collection
+get connection from repository SimpleName MethodInvocation MethodInvocation SimpleName connections
+get connection from repository SimpleName MethodInvocation MethodInvocation SimpleName get
+get connection from repository SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+user id SimpleName MethodInvocation SimpleName metadata collection
+user id SimpleName MethodInvocation MethodInvocation SimpleName connections
+user id SimpleName MethodInvocation MethodInvocation SimpleName get
+user id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName connections
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName get
+metadata collection SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+orgapacheatlasomrsffdcexceptionuser not authorized exception QualifiedName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle unauthorized user
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle unauthorized user SimpleName MethodInvocation SimpleName user id
+handle unauthorized user SimpleName MethodInvocation SimpleName method name
+handle unauthorized user SimpleName MethodInvocation SimpleName server name
+handle unauthorized user SimpleName MethodInvocation SimpleName service name
+user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+ambiguous connection name exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+unrecognized connection name exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle repository error
+error handler SimpleName MethodInvocation SimpleName error
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle repository error SimpleName MethodInvocation SimpleName error
+handle repository error SimpleName MethodInvocation SimpleName method name
+handle repository error SimpleName MethodInvocation SimpleName server name
+handle repository error SimpleName MethodInvocation SimpleName service name
+error SimpleName MethodInvocation SimpleName method name
+error SimpleName MethodInvocation SimpleName server name
+error SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+connection SimpleName SimpleType MethodDeclaration SimpleName get connection by name
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get connection by name SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get connection by name SimpleName MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+get connection by name SimpleName MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+unrecognized connection name exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+unrecognized connection name exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+unrecognized connection name exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+ambiguous connection name exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+ambiguous connection name exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection name exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambiguous connection name exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

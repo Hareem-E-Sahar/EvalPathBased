@@ -1,0 +1,74 @@
+class type SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+atlas vertex SimpleName SimpleType CastExpression SimpleName value
+class vertex SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas vertex
+class vertex SimpleName VariableDeclarationFragment CastExpression SimpleName value
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class vertex
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation SimpleName class vertex
+get id from vertex SimpleName MethodInvocation SimpleName class vertex
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+class type SimpleName MethodInvocation SimpleName create instance
+class type SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+class type SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+class type SimpleName MethodInvocation MethodInvocation SimpleName class vertex
+class type SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+create instance SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+create instance SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+create instance SimpleName MethodInvocation MethodInvocation SimpleName class vertex
+create instance SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+graph helper SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+get id from vertex SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+class vertex SimpleName MethodInvocation MethodInvocation ArrayCreation NumberLiteral empty
+class instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+class instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+class instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph helper
+class instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id from vertex
+class instance SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName class vertex
+class instance SimpleName VariableDeclarationFragment MethodInvocation ArrayCreation NumberLiteral empty
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class instance
+class type SimpleName MethodInvocation SimpleName convert
+class type SimpleName MethodInvocation SimpleName class instance
+class type SimpleName MethodInvocation QualifiedName multiplicityoptional
+convert SimpleName MethodInvocation SimpleName class instance
+convert SimpleName MethodInvocation QualifiedName multiplicityoptional
+class instance SimpleName MethodInvocation QualifiedName multiplicityoptional
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while constructing an instance
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while constructing an instance
+error SimpleName MethodInvocation SimpleName e
+error while constructing an instance StringLiteral MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i typed referenceable instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName construct class instance id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName class type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName construct class instance id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName construct class instance id
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class type
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+construct class instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+construct class instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type
+construct class instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+construct class instance id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+class type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct class instance id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct class instance id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

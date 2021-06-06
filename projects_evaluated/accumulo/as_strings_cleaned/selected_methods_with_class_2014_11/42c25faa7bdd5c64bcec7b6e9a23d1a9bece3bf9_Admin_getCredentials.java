@@ -1,0 +1,24 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName credentials
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get credentials
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName credentials
+public Modifier MethodDeclaration SimpleName get credentials
+public Modifier MethodDeclaration Block ReturnStatement SimpleName user creds
+synchronized Modifier MethodDeclaration SimpleType SimpleName credentials
+synchronized Modifier MethodDeclaration SimpleName get credentials
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName user creds
+credentials SimpleName SimpleType MethodDeclaration SimpleName get credentials
+get credentials SimpleName MethodDeclaration Block ReturnStatement SimpleName user creds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleName get credentials
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get credentials

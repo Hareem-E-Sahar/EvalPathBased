@@ -1,0 +1,76 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName equals
+path SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+path SimpleName MethodInvocation SimpleName starts with
+path SimpleName MethodInvocation StringLiteral /
+starts with SimpleName MethodInvocation StringLiteral /
+path SimpleName InfixExpression StringLiteral does not start with /
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not start with /
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName exists
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName path
+get zoo keeper SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+exists SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation BooleanLiteral false
+path SimpleName MethodInvocation BooleanLiteral false
+path SimpleName MethodInvocation SimpleName last index of
+path SimpleName MethodInvocation StringLiteral /
+last index of SimpleName MethodInvocation StringLiteral /
+path SimpleName MethodInvocation SimpleName substring
+path SimpleName MethodInvocation NumberLiteral empty
+path SimpleName MethodInvocation MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName last index of
+path SimpleName MethodInvocation MethodInvocation StringLiteral /
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation SimpleName path
+substring SimpleName MethodInvocation MethodInvocation SimpleName last index of
+substring SimpleName MethodInvocation MethodInvocation StringLiteral /
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName path
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName last index of
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral /
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+parent SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+parent SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName path
+parent SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName last index of
+parent SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral /
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+mkdirs SimpleName MethodInvocation SimpleName parent
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+path SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mkdirs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName mkdirs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+mkdirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+mkdirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+mkdirs SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+mkdirs SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mkdirs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mkdirs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

@@ -1,0 +1,54 @@
+native map SimpleName MethodInvocation SimpleName loaded native libraries
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral userdir
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName system
+f SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get property
+f SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral userdir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+native map SimpleName MethodInvocation SimpleName get native lib path
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName native map
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get native lib path
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName native map
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName get native lib path
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName f
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName native map
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get native lib path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName native lib
+native lib SimpleName MethodInvocation SimpleName exists
+f SimpleName MethodInvocation SimpleName get parent file
+f SimpleName Assignment MethodInvocation SimpleName f
+f SimpleName Assignment MethodInvocation SimpleName get parent file
+native map SimpleName MethodInvocation SimpleName get native lib path
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName native map
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get native lib path
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName native map
+f SimpleName ClassInstanceCreation MethodInvocation SimpleName get native lib path
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName f
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName native map
+native lib SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get native lib path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName native lib
+native lib SimpleName MethodInvocation SimpleName to string
+native map SimpleName MethodInvocation SimpleName load native lib
+native map SimpleName MethodInvocation MethodInvocation SimpleName native lib
+native map SimpleName MethodInvocation MethodInvocation SimpleName to string
+load native lib SimpleName MethodInvocation MethodInvocation SimpleName native lib
+load native lib SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

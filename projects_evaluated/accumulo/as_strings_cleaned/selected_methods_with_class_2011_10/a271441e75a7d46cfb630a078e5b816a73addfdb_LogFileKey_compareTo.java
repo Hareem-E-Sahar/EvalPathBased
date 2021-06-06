@@ -1,0 +1,40 @@
+log file key SimpleName SimpleType SingleVariableDeclaration SimpleName o
+event type SimpleName MethodInvocation FieldAccess SimpleName event
+event type SimpleName MethodInvocation QualifiedName oevent
+event type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event type
+event type SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName oevent
+event type SimpleName MethodInvocation FieldAccess SimpleName event
+event type SimpleName MethodInvocation QualifiedName oevent
+event type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event type
+event type SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName oevent
+event SimpleName FieldAccess InfixExpression SimpleName open
+open SimpleName InfixExpression IfStatement ReturnStatement NumberLiteral empty
+tid SimpleName FieldAccess InfixExpression QualifiedName otid
+tid SimpleName FieldAccess InfixExpression QualifiedName otid
+seq SimpleName FieldAccess InfixExpression QualifiedName oseq
+sign SimpleName MethodInvocation InfixExpression FieldAccess SimpleName seq
+sign SimpleName MethodInvocation InfixExpression QualifiedName oseq
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log file key
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

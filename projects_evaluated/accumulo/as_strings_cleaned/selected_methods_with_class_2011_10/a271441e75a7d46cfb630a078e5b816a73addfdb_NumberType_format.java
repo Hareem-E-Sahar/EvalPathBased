@@ -1,0 +1,271 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+t SimpleName SimpleType CastExpression SimpleName obj
+number SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t
+number SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName number
+s SimpleName VariableDeclarationFragment StringLiteral -
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral -
+number SimpleName InstanceofExpression SimpleType SimpleName double
+number SimpleName InstanceofExpression SimpleType SimpleName float
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+warn min SimpleName InfixExpression InfixExpression InfixExpression SimpleName warn max
+number SimpleName MethodInvocation SimpleName double value
+warn min SimpleName MethodInvocation SimpleName double value
+warn max SimpleName MethodInvocation SimpleName double value
+err min SimpleName MethodInvocation SimpleName double value
+err max SimpleName MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName warn min
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName warn max
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err min
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err max
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn min
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName warn min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName warn max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+err min SimpleName InfixExpression InfixExpression InfixExpression SimpleName err max
+number SimpleName MethodInvocation SimpleName double value
+err min SimpleName MethodInvocation SimpleName double value
+err max SimpleName MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err min
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err max
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+double value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+number SimpleName MethodInvocation SimpleName double value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName double value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName double value
+number SimpleName InstanceofExpression SimpleType SimpleName long
+number SimpleName InstanceofExpression SimpleType SimpleName integer
+number SimpleName InstanceofExpression SimpleType SimpleName short
+number SimpleName InstanceofExpression SimpleType SimpleName byte
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+number SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName number
+warn min SimpleName InfixExpression InfixExpression InfixExpression SimpleName warn max
+number SimpleName MethodInvocation SimpleName long value
+warn min SimpleName MethodInvocation SimpleName long value
+warn max SimpleName MethodInvocation SimpleName long value
+err min SimpleName MethodInvocation SimpleName long value
+err max SimpleName MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName warn min
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName warn max
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err min
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err max
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn min
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName warn max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+warn min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+warn max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName warn min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName warn max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+err min SimpleName InfixExpression InfixExpression InfixExpression SimpleName err max
+number SimpleName MethodInvocation SimpleName long value
+err min SimpleName MethodInvocation SimpleName long value
+err max SimpleName MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err min
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName err max
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err min
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+number SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+err min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName err max
+long value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err min
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName err max
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+number SimpleName MethodInvocation SimpleName long value
+commas SimpleName MethodInvocation MethodInvocation SimpleName number
+commas SimpleName MethodInvocation MethodInvocation SimpleName long value
+s SimpleName Assignment MethodInvocation SimpleName commas
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName long value
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName number
+value of SimpleName MethodInvocation SimpleName number
+s SimpleName Assignment MethodInvocation SimpleName string
+s SimpleName Assignment MethodInvocation SimpleName value of
+s SimpleName Assignment MethodInvocation SimpleName number
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName format
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName format
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName format
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

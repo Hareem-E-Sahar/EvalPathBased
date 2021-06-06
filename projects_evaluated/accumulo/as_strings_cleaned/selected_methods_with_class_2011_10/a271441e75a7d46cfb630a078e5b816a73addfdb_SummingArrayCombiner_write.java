@@ -1,0 +1,46 @@
+data output stream SimpleName SimpleType SingleVariableDeclaration SimpleName dos
+long SimpleName SimpleType SingleVariableDeclaration SimpleName v
+dos SimpleName MethodInvocation SimpleName write long
+dos SimpleName MethodInvocation SimpleName v
+write long SimpleName MethodInvocation SimpleName v
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dos
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dos
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dos
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dos
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+dos SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+dos SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dos
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dos
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

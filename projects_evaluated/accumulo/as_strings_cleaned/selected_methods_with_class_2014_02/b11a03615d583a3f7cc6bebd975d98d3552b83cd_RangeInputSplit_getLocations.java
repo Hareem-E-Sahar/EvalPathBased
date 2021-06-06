@@ -1,0 +1,23 @@
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName locations
+arrays SimpleName MethodInvocation QualifiedName locationslength
+copy of SimpleName MethodInvocation SimpleName locations
+copy of SimpleName MethodInvocation QualifiedName locationslength
+locations SimpleName MethodInvocation QualifiedName locationslength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get locations
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get locations
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get locations
+get locations SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

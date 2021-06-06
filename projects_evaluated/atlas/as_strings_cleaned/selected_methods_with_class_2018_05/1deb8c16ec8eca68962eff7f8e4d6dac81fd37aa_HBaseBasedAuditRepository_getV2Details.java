@@ -1,0 +1,116 @@
+result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get result string SimpleName MethodInvocation SimpleName result
+get result string SimpleName MethodInvocation SimpleName column detail
+result SimpleName MethodInvocation SimpleName column detail
+v details with prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get result string
+v details with prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+v details with prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName column detail
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v details with prefix
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName v details with prefix
+is not empty SimpleName MethodInvocation SimpleName v details with prefix
+get result string SimpleName MethodInvocation SimpleName result
+get result string SimpleName MethodInvocation SimpleName column action
+result SimpleName MethodInvocation SimpleName column action
+entity audit action SimpleName MethodInvocation SimpleName from string
+entity audit action SimpleName MethodInvocation MethodInvocation SimpleName get result string
+entity audit action SimpleName MethodInvocation MethodInvocation SimpleName result
+entity audit action SimpleName MethodInvocation MethodInvocation SimpleName column action
+from string SimpleName MethodInvocation MethodInvocation SimpleName get result string
+from string SimpleName MethodInvocation MethodInvocation SimpleName result
+from string SimpleName MethodInvocation MethodInvocation SimpleName column action
+v audit action SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity audit action
+v audit action SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+v audit action SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get result string
+v audit action SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName result
+v audit action SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column action
+entity audit action SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v audit action
+v audit action SimpleName InfixExpression SimpleName term add
+v audit action SimpleName InfixExpression SimpleName term delete
+v audit action SimpleName InfixExpression InfixExpression InfixExpression SimpleName v audit action
+v audit action SimpleName InfixExpression InfixExpression InfixExpression SimpleName term delete
+term add SimpleName InfixExpression InfixExpression InfixExpression SimpleName v audit action
+term add SimpleName InfixExpression InfixExpression InfixExpression SimpleName term delete
+ret SimpleName Assignment SimpleName v details with prefix
+entity audit listener SimpleName MethodInvocation SimpleName get v audit prefix
+entity audit listener SimpleName MethodInvocation SimpleName v audit action
+get v audit prefix SimpleName MethodInvocation SimpleName v audit action
+v audit prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity audit listener
+v audit prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get v audit prefix
+v audit prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName v audit action
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v audit prefix
+v details with prefix SimpleName MethodInvocation SimpleName split
+v details with prefix SimpleName MethodInvocation SimpleName v audit prefix
+split SimpleName MethodInvocation SimpleName v audit prefix
+split SimpleName VariableDeclarationFragment MethodInvocation SimpleName v details with prefix
+split SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+split SimpleName VariableDeclarationFragment MethodInvocation SimpleName v audit prefix
+array utils SimpleName MethodInvocation SimpleName is not empty
+array utils SimpleName MethodInvocation SimpleName split
+is not empty SimpleName MethodInvocation SimpleName split
+splitlength QualifiedName InfixExpression NumberLiteral empty
+array utils SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName splitlength
+array utils SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+is not empty SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName splitlength
+is not empty SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+split SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName splitlength
+split SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+split SimpleName ArrayAccess NumberLiteral empty
+v audit details SimpleName VariableDeclarationFragment ArrayAccess SimpleName split
+v audit details SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v audit details
+atlas type SimpleName MethodInvocation SimpleName from v json
+atlas type SimpleName MethodInvocation SimpleName v audit details
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName referenceable
+from v json SimpleName MethodInvocation SimpleName v audit details
+from v json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName referenceable
+v audit details SimpleName MethodInvocation TypeLiteral SimpleType SimpleName referenceable
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName from v json
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName v audit details
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referenceable
+to v json SimpleName MethodInvocation SimpleName referenceable
+to v json SimpleName MethodInvocation SimpleName v audit action
+referenceable SimpleName MethodInvocation SimpleName v audit action
+referenceable SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName v audit details
+to v json SimpleName MethodInvocation ConditionalExpression SimpleName v audit details
+referenceable SimpleName MethodInvocation ConditionalExpression SimpleName v audit details
+v audit action SimpleName MethodInvocation ConditionalExpression SimpleName v audit details
+v json SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to v json
+v json SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName referenceable
+v json SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName v audit action
+v json SimpleName VariableDeclarationFragment ConditionalExpression SimpleName v audit details
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v json
+get v audit prefix SimpleName MethodInvocation SimpleName v audit action
+get v audit prefix SimpleName MethodInvocation InfixExpression SimpleName v json
+v audit action SimpleName MethodInvocation InfixExpression SimpleName v json
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName get v audit prefix
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName v audit action
+ret SimpleName Assignment InfixExpression SimpleName v json
+ret SimpleName Assignment SimpleName v details with prefix
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get v details
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get v details
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get v details SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+get v details SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get v details SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get v details SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get v details
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get v details
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

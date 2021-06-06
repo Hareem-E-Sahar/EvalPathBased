@@ -1,0 +1,201 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+data model generator SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sqoop data model generator
+sqoop data model generator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data model generator
+data model generator SimpleName MethodInvocation SimpleName get model as json
+model as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName data model generator
+model as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName get model as json
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName model as json
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+model definition dump SimpleName MethodInvocation SimpleName dump model to file
+model definition dump SimpleName MethodInvocation ArrayAccess SimpleName args
+model definition dump SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+model definition dump SimpleName MethodInvocation SimpleName model as json
+dump model to file SimpleName MethodInvocation ArrayAccess SimpleName args
+dump model to file SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+dump model to file SimpleName MethodInvocation SimpleName model as json
+args SimpleName ArrayAccess MethodInvocation SimpleName model as json
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName model as json
+sqoop data model as json = StringLiteral InfixExpression SimpleName model as json
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral sqoop data model as json =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName model as json
+println SimpleName MethodInvocation InfixExpression StringLiteral sqoop data model as json =
+println SimpleName MethodInvocation InfixExpression SimpleName model as json
+data model generator SimpleName MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName data model generator
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+enum type definition SimpleName SimpleType SingleVariableDeclaration SimpleName enum type
+types def SimpleName MethodInvocation SimpleName enum types as java list
+enum type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation QualifiedName enum typeenum values
+to string SimpleName MethodInvocation QualifiedName enum typeenum values
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss - values s
+string SimpleName MethodInvocation QualifiedName enum typename
+string SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+string SimpleName MethodInvocation MethodInvocation SimpleName arrays
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation MethodInvocation QualifiedName enum typeenum values
+format SimpleName MethodInvocation StringLiteral ss - values s
+format SimpleName MethodInvocation QualifiedName enum typename
+format SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation QualifiedName enum typeenum values
+ss - values s StringLiteral MethodInvocation QualifiedName enum typename
+ss - values s StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+ss - values s StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+ss - values s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+ss - values s StringLiteral MethodInvocation MethodInvocation QualifiedName enum typeenum values
+enum typename QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+enum typename QualifiedName MethodInvocation MethodInvocation SimpleName arrays
+enum typename QualifiedName MethodInvocation MethodInvocation SimpleName to string
+enum typename QualifiedName MethodInvocation MethodInvocation QualifiedName enum typeenum values
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName enum typeenum values
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format
+systemout QualifiedName MethodInvocation MethodInvocation StringLiteral ss - values s
+systemout QualifiedName MethodInvocation MethodInvocation QualifiedName enum typename
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName enum typeenum values
+println SimpleName MethodInvocation MethodInvocation SimpleName string
+println SimpleName MethodInvocation MethodInvocation SimpleName format
+println SimpleName MethodInvocation MethodInvocation StringLiteral ss - values s
+println SimpleName MethodInvocation MethodInvocation QualifiedName enum typename
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+println SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName enum typeenum values
+enum type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+enum type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName enum types as java list
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+types def SimpleName MethodInvocation SimpleName class types as java list
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation QualifiedName class typesuper types
+string utils SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation QualifiedName class typesuper types
+join SimpleName MethodInvocation StringLiteral empty
+class typesuper types QualifiedName MethodInvocation StringLiteral empty
+arrays SimpleName MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation QualifiedName class typeattribute definitions
+to string SimpleName MethodInvocation QualifiedName class typeattribute definitions
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss - super types s - attributes s
+string SimpleName MethodInvocation QualifiedName class typetype name
+string SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+string SimpleName MethodInvocation MethodInvocation SimpleName string utils
+string SimpleName MethodInvocation MethodInvocation SimpleName join
+string SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+format SimpleName MethodInvocation StringLiteral ss - super types s - attributes s
+format SimpleName MethodInvocation QualifiedName class typetype name
+format SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+format SimpleName MethodInvocation MethodInvocation SimpleName string utils
+format SimpleName MethodInvocation MethodInvocation SimpleName join
+format SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+format SimpleName MethodInvocation MethodInvocation StringLiteral empty
+format SimpleName MethodInvocation MethodInvocation SimpleName arrays
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+ss - super types s - attributes s StringLiteral MethodInvocation QualifiedName class typetype name
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation SimpleName string utils
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation SimpleName join
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation QualifiedName class typesuper types
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation SimpleName to string
+ss - super types s - attributes s StringLiteral MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+class typetype name QualifiedName MethodInvocation MethodInvocation SimpleName get simple name
+class typetype name QualifiedName MethodInvocation MethodInvocation SimpleName string utils
+class typetype name QualifiedName MethodInvocation MethodInvocation SimpleName join
+class typetype name QualifiedName MethodInvocation MethodInvocation QualifiedName class typesuper types
+class typetype name QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+class typetype name QualifiedName MethodInvocation MethodInvocation SimpleName arrays
+class typetype name QualifiedName MethodInvocation MethodInvocation SimpleName to string
+class typetype name QualifiedName MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string utils
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+join SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+class typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+class typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+class typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format
+systemout QualifiedName MethodInvocation MethodInvocation StringLiteral ss - super types s - attributes s
+systemout QualifiedName MethodInvocation MethodInvocation QualifiedName class typetype name
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName string utils
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName join
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+println SimpleName MethodInvocation MethodInvocation SimpleName string
+println SimpleName MethodInvocation MethodInvocation SimpleName format
+println SimpleName MethodInvocation MethodInvocation StringLiteral ss - super types s - attributes s
+println SimpleName MethodInvocation MethodInvocation QualifiedName class typetype name
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string utils
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName join
+println SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+println SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+println SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typeattribute definitions
+class type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+class type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName class types as java list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

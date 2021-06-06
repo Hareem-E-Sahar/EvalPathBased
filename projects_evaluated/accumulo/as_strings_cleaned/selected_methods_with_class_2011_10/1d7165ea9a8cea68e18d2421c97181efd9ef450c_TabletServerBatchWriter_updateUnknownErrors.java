@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+something failed SimpleName Assignment BooleanLiteral true
+last unknown error SimpleName FieldAccess Assignment SimpleName t
+t SimpleName InstanceofExpression SimpleType SimpleName table deleted exception
+t SimpleName InstanceofExpression SimpleType SimpleName table offline exception
+t SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName t
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName msg
+log SimpleName MethodInvocation SimpleName t
+debug SimpleName MethodInvocation SimpleName msg
+debug SimpleName MethodInvocation SimpleName t
+msg SimpleName MethodInvocation SimpleName t
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName msg
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation SimpleName msg
+error SimpleName MethodInvocation SimpleName t
+msg SimpleName MethodInvocation SimpleName t
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update unknown errors
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName update unknown errors
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleName update unknown errors
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName msg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+update unknown errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update unknown errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg
+update unknown errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+update unknown errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+msg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update unknown errors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update unknown errors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

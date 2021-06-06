@@ -1,0 +1,152 @@
+t SimpleName TypeParameter SimpleType SimpleName atlas base model object
+t SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType SingleVariableDeclaration SimpleName load deleted
+objects SimpleName MethodInvocation SimpleName require non null
+objects SimpleName MethodInvocation SimpleName obj
+objects SimpleName MethodInvocation StringLiteral cant load a null object
+require non null SimpleName MethodInvocation SimpleName obj
+require non null SimpleName MethodInvocation StringLiteral cant load a null object
+obj SimpleName MethodInvocation StringLiteral cant load a null object
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation StringLiteral data accessload
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation StringLiteral data accessload
+perf log SimpleName MethodInvocation StringLiteral data accessload
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation StringLiteral data accessload
+data transfer object SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+data transfer object SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+obj SimpleName MethodInvocation SimpleName get class
+dto registry SimpleName MethodInvocation SimpleName get
+dto registry SimpleName MethodInvocation MethodInvocation SimpleName obj
+dto registry SimpleName MethodInvocation MethodInvocation SimpleName get class
+get SimpleName MethodInvocation MethodInvocation SimpleName obj
+get SimpleName MethodInvocation MethodInvocation SimpleName get class
+dto SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName dto registry
+dto SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with ext info
+obj SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName obj
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName obj
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral load using guid
+debug SimpleName MethodInvocation StringLiteral load using guid
+obj SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName get by id
+entity store SimpleName MethodInvocation MethodInvocation SimpleName obj
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get by id SimpleName MethodInvocation MethodInvocation SimpleName obj
+get by id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity with ext info SimpleName Assignment MethodInvocation SimpleName entity store
+entity with ext info SimpleName Assignment MethodInvocation SimpleName get by id
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName obj
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral load using unique attributes
+debug SimpleName MethodInvocation StringLiteral load using unique attributes
+dto SimpleName MethodInvocation SimpleName get entity type
+dto SimpleName MethodInvocation SimpleName get unique attributes
+dto SimpleName MethodInvocation SimpleName obj
+get unique attributes SimpleName MethodInvocation SimpleName obj
+entity store SimpleName MethodInvocation SimpleName get by unique attributes
+entity store SimpleName MethodInvocation MethodInvocation SimpleName dto
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get entity type
+entity store SimpleName MethodInvocation MethodInvocation SimpleName dto
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get unique attributes
+entity store SimpleName MethodInvocation MethodInvocation SimpleName obj
+get by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName dto
+get by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName get entity type
+get by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName dto
+get by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName get unique attributes
+get by unique attributes SimpleName MethodInvocation MethodInvocation SimpleName obj
+dto SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dto
+dto SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get unique attributes
+dto SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obj
+get entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dto
+get entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get unique attributes
+get entity type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName obj
+entity with ext info SimpleName Assignment MethodInvocation SimpleName entity store
+entity with ext info SimpleName Assignment MethodInvocation SimpleName get by unique attributes
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName dto
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName get entity type
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName dto
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName get unique attributes
+entity with ext info SimpleName Assignment MethodInvocation MethodInvocation SimpleName obj
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName get status
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get status
+entity with ext info SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName atlas entitystatusdeleted
+get entity SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName atlas entitystatusdeleted
+get status SimpleName MethodInvocation InfixExpression QualifiedName atlas entitystatusdeleted
+load deleted SimpleName PrefixExpression InfixExpression InfixExpression QualifiedName atlas entitystatusdeleted
+obj SimpleName MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance guid deleted
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName obj
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas error codeinstance guid deleted QualifiedName ClassInstanceCreation MethodInvocation SimpleName obj
+atlas error codeinstance guid deleted QualifiedName ClassInstanceCreation MethodInvocation SimpleName get guid
+dto SimpleName MethodInvocation SimpleName from
+dto SimpleName MethodInvocation SimpleName entity with ext info
+from SimpleName MethodInvocation SimpleName entity with ext info
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName atlas base model object
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName load
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName load
+atlas base model object SimpleName SimpleType TypeParameter MethodDeclaration SimpleName load
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName obj
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName atlas base exception
+t SimpleName SimpleType MethodDeclaration SimpleName load
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t
+load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+load SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+load SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+load deleted SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName load deleted
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

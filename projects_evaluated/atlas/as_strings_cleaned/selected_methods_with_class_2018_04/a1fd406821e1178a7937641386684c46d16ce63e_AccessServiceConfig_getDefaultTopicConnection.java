@@ -1,0 +1,145 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName connection name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName topic name
+connection name SimpleName InfixExpression StringLiteral for
+connection name SimpleName InfixExpression SimpleName access service name
+for StringLiteral InfixExpression SimpleName access service name
+description SimpleName VariableDeclarationFragment InfixExpression SimpleName connection name
+description SimpleName VariableDeclarationFragment InfixExpression StringLiteral for
+description SimpleName VariableDeclarationFragment InfixExpression SimpleName access service name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+endpoint guid SimpleName VariableDeclarationFragment StringLiteral f e aed - b - c b a d
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral f e aed - b - c b a d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral f e aed - b - c b a d
+connector type guid SimpleName VariableDeclarationFragment StringLiteral db a - f f b - b f caba
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral db a - f f b - b f caba
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral db a - f f b - b f caba
+connection guid SimpleName VariableDeclarationFragment StringLiteral bb ca ce - b b a d
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName connection guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral bb ca ce - b b a d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral bb ca ce - b b a d
+endpoint description SimpleName VariableDeclarationFragment StringLiteral omrs default cohort registry endpoint
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral omrs default cohort registry endpoint
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral omrs default cohort registry endpoint
+endpoint SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName endpoint
+endpoint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName endpoint
+endpoint SimpleName MethodInvocation SimpleName set type
+endpoint SimpleName MethodInvocation MethodInvocation SimpleName get endpoint type
+set type SimpleName MethodInvocation MethodInvocation SimpleName get endpoint type
+endpoint SimpleName MethodInvocation SimpleName set guid
+endpoint SimpleName MethodInvocation SimpleName endpoint guid
+set guid SimpleName MethodInvocation SimpleName endpoint guid
+endpoint SimpleName MethodInvocation SimpleName set qualified name
+endpoint SimpleName MethodInvocation SimpleName topic name
+set qualified name SimpleName MethodInvocation SimpleName topic name
+endpoint SimpleName MethodInvocation SimpleName set display name
+endpoint SimpleName MethodInvocation SimpleName topic name
+set display name SimpleName MethodInvocation SimpleName topic name
+endpoint SimpleName MethodInvocation SimpleName set description
+endpoint SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+endpoint SimpleName MethodInvocation SimpleName set address
+endpoint SimpleName MethodInvocation SimpleName topic name
+set address SimpleName MethodInvocation SimpleName topic name
+kafka omrs topic provider SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+connector type java class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type java class name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type java class name
+connector type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector type
+connector type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector type
+connector type SimpleName MethodInvocation SimpleName set type
+connector type SimpleName MethodInvocation MethodInvocation SimpleName get connector type type
+set type SimpleName MethodInvocation MethodInvocation SimpleName get connector type type
+connector type SimpleName MethodInvocation SimpleName set guid
+connector type SimpleName MethodInvocation SimpleName connector type guid
+set guid SimpleName MethodInvocation SimpleName connector type guid
+connector type SimpleName MethodInvocation SimpleName set qualified name
+connector type SimpleName MethodInvocation SimpleName topic name
+set qualified name SimpleName MethodInvocation SimpleName topic name
+connector type SimpleName MethodInvocation SimpleName set display name
+connector type SimpleName MethodInvocation SimpleName topic name
+set display name SimpleName MethodInvocation SimpleName topic name
+connector type SimpleName MethodInvocation SimpleName set description
+connector type SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+connector type SimpleName MethodInvocation SimpleName set connector provider class name
+connector type SimpleName MethodInvocation SimpleName connector type java class name
+set connector provider class name SimpleName MethodInvocation SimpleName connector type java class name
+connection SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connection
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName set type
+connection SimpleName MethodInvocation MethodInvocation SimpleName get connection type
+set type SimpleName MethodInvocation MethodInvocation SimpleName get connection type
+connection SimpleName MethodInvocation SimpleName set guid
+connection SimpleName MethodInvocation SimpleName connection guid
+set guid SimpleName MethodInvocation SimpleName connection guid
+connection SimpleName MethodInvocation SimpleName set qualified name
+connection SimpleName MethodInvocation SimpleName connection name
+set qualified name SimpleName MethodInvocation SimpleName connection name
+connection SimpleName MethodInvocation SimpleName set display name
+connection SimpleName MethodInvocation SimpleName connection name
+set display name SimpleName MethodInvocation SimpleName connection name
+connection SimpleName MethodInvocation SimpleName set description
+connection SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+connection SimpleName MethodInvocation SimpleName set endpoint
+connection SimpleName MethodInvocation SimpleName endpoint
+set endpoint SimpleName MethodInvocation SimpleName endpoint
+connection SimpleName MethodInvocation SimpleName set connector type
+connection SimpleName MethodInvocation SimpleName connector type
+set connector type SimpleName MethodInvocation SimpleName connector type
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SimpleName get default topic connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName topic name
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName connection
+connection SimpleName SimpleType MethodDeclaration SimpleName get default topic connection
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection name
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName topic name
+get default topic connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default topic connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection name
+get default topic connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default topic connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName topic name
+get default topic connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get default topic connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get default topic connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get default topic connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get default topic connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get default topic connection SimpleName MethodDeclaration Block ReturnStatement SimpleName connection
+connection name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName topic name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default topic connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName topic name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default topic connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName topic name

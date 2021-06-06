@@ -1,0 +1,222 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+server counts SimpleName SimpleType SingleVariableDeclaration SimpleName too much
+server counts SimpleName SimpleType SingleVariableDeclaration SimpleName too little
+int PrimitiveType SingleVariableDeclaration SimpleName count
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet migration
+count SimpleName InfixExpression NumberLiteral empty
+count SimpleName InfixExpression IfStatement ReturnStatement SimpleName result
+empty NumberLiteral InfixExpression IfStatement ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tablet counts per table SimpleName MethodInvocation QualifiedName too muchstatus
+too much map SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet counts per table
+too much map SimpleName VariableDeclarationFragment MethodInvocation QualifiedName too muchstatus
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tablet counts per table SimpleName MethodInvocation QualifiedName too littlestatus
+too little map SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet counts per table
+too little map SimpleName VariableDeclarationFragment MethodInvocation QualifiedName too littlestatus
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName too little count
+biggest difference SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName biggest difference
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName biggest difference table
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table entry
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table entry
+too much map SimpleName MethodInvocation SimpleName entry set
+table entry SimpleName MethodInvocation SimpleName get key
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table entry
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+too little map SimpleName MethodInvocation SimpleName get
+too little map SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+too little map SimpleName MethodInvocation SimpleName put
+too little map SimpleName MethodInvocation SimpleName table id
+too little map SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation NumberLiteral empty
+table id SimpleName MethodInvocation NumberLiteral empty
+table entry SimpleName MethodInvocation SimpleName get value
+too little map SimpleName MethodInvocation SimpleName get
+too little map SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+table entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName too little map
+table entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+table entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName too little map
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table entry
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get value
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName too little map
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName table id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName diff
+diff SimpleName InfixExpression SimpleName biggest difference
+biggest difference SimpleName Assignment SimpleName diff
+biggest difference table SimpleName Assignment SimpleName table id
+table entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName too much map
+table entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+biggest difference SimpleName InfixExpression NumberLiteral empty
+busiest SimpleName MethodInvocation QualifiedName too muchstatustable map
+table SimpleName Assignment MethodInvocation SimpleName busiest
+table SimpleName Assignment MethodInvocation QualifiedName too muchstatustable map
+table SimpleName Assignment SimpleName biggest difference table
+table SimpleName Assignment SimpleName table to balance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+online tablets SimpleName MethodInvocation SimpleName get
+online tablets SimpleName MethodInvocation SimpleName table
+get SimpleName MethodInvocation SimpleName table
+online tablets for table SimpleName VariableDeclarationFragment MethodInvocation SimpleName online tablets
+online tablets for table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+online tablets for table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+tablet stats SimpleName SimpleType SingleVariableDeclaration SimpleName stat
+get online tablets for table SimpleName MethodInvocation QualifiedName too muchserver
+get online tablets for table SimpleName MethodInvocation SimpleName table
+too muchserver QualifiedName MethodInvocation SimpleName table
+key extent SimpleName SimpleType ClassInstanceCreation QualifiedName statextent
+online tablets for table SimpleName MethodInvocation SimpleName put
+online tablets for table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+online tablets for table SimpleName MethodInvocation ClassInstanceCreation QualifiedName statextent
+online tablets for table SimpleName MethodInvocation SimpleName stat
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+put SimpleName MethodInvocation ClassInstanceCreation QualifiedName statextent
+put SimpleName MethodInvocation SimpleName stat
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName stat
+statextent QualifiedName ClassInstanceCreation MethodInvocation SimpleName stat
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get online tablets for table
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName too muchserver
+stat SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table
+online tablets SimpleName MethodInvocation SimpleName put
+online tablets SimpleName MethodInvocation SimpleName table
+online tablets SimpleName MethodInvocation SimpleName online tablets for table
+put SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName online tablets for table
+table SimpleName MethodInvocation SimpleName online tablets for table
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to select a tablet to move
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable to select a tablet to move
+error SimpleName MethodInvocation SimpleName ex
+unable to select a tablet to move StringLiteral MethodInvocation SimpleName ex
+select tablet SimpleName MethodInvocation QualifiedName too muchserver
+select tablet SimpleName MethodInvocation SimpleName online tablets for table
+too muchserver QualifiedName MethodInvocation SimpleName online tablets for table
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName select tablet
+extent SimpleName VariableDeclarationFragment MethodInvocation QualifiedName too muchserver
+extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName online tablets for table
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extent
+online tablets for table SimpleName MethodInvocation SimpleName remove
+online tablets for table SimpleName MethodInvocation SimpleName extent
+remove SimpleName MethodInvocation SimpleName extent
+extent SimpleName InfixExpression IfStatement ReturnStatement SimpleName result
+too much map SimpleName MethodInvocation SimpleName get
+too much map SimpleName MethodInvocation SimpleName table
+get SimpleName MethodInvocation SimpleName table
+too much map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+too much map SimpleName MethodInvocation SimpleName put
+too much map SimpleName MethodInvocation SimpleName table
+too much map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName too much map
+too much map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+too much map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+too much map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName too much map
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+put SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+put SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName too much map
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+too little map SimpleName MethodInvocation SimpleName get
+too little map SimpleName MethodInvocation SimpleName table
+get SimpleName MethodInvocation SimpleName table
+too little count SimpleName Assignment MethodInvocation SimpleName too little map
+too little count SimpleName Assignment MethodInvocation SimpleName get
+too little count SimpleName Assignment MethodInvocation SimpleName table
+too little count SimpleName Assignment NumberLiteral empty
+too little count SimpleName InfixExpression NumberLiteral empty
+too little map SimpleName MethodInvocation SimpleName put
+too little map SimpleName MethodInvocation SimpleName table
+too little map SimpleName MethodInvocation InfixExpression SimpleName too little count
+too little map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+put SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation InfixExpression SimpleName too little count
+put SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table SimpleName MethodInvocation InfixExpression SimpleName too little count
+table SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet migration SimpleName SimpleType ClassInstanceCreation SimpleName extent
+tablet migration SimpleName SimpleType ClassInstanceCreation QualifiedName too muchserver
+tablet migration SimpleName SimpleType ClassInstanceCreation QualifiedName too littleserver
+extent SimpleName ClassInstanceCreation QualifiedName too muchserver
+extent SimpleName ClassInstanceCreation QualifiedName too littleserver
+too muchserver QualifiedName ClassInstanceCreation QualifiedName too littleserver
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet migration
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName extent
+result SimpleName MethodInvocation ClassInstanceCreation QualifiedName too muchserver
+result SimpleName MethodInvocation ClassInstanceCreation QualifiedName too littleserver
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet migration
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName extent
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName too muchserver
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName too littleserver
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName move
+tablet migration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName move
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server counts
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleName too much
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server counts
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleName too little
+move SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+move SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+move SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+too much SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName too little
+too much SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+too much SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+too little SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+too little SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName move
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName too much
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName too little
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName too much
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName too little
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count

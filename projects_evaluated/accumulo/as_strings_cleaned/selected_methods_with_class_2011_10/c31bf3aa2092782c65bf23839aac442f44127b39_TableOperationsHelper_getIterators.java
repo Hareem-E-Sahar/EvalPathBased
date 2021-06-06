@@ -1,0 +1,116 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator scope SimpleName SimpleType SingleVariableDeclaration SimpleName scope
+iterator scope SimpleName MethodInvocation SimpleName values
+scope SimpleName MethodInvocation SimpleName name
+scope SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+lifecycles SimpleName MethodInvocation SimpleName add
+lifecycles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scope
+lifecycles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+lifecycles SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scope
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+add SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+scope SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName iterator scope
+scope SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property
+get properties SimpleName MethodInvocation SimpleName table name
+property SimpleName MethodInvocation SimpleName get key
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+name SimpleName MethodInvocation SimpleName split
+name SimpleName MethodInvocation StringLiteral \\.
+split SimpleName MethodInvocation StringLiteral \\.
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\.
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+parts SimpleName ArrayAccess MethodInvocation StringLiteral table
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+parts SimpleName ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+parts SimpleName ArrayAccess MethodInvocation StringLiteral iterator
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral iterator
+equals SimpleName MethodInvocation StringLiteral iterator
+parts SimpleName ArrayAccess NumberLiteral empty
+lifecycles SimpleName MethodInvocation SimpleName contains
+lifecycles SimpleName MethodInvocation ArrayAccess SimpleName parts
+lifecycles SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+contains SimpleName MethodInvocation ArrayAccess SimpleName parts
+contains SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral iterator
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral iterator
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lifecycles
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName lifecycles
+table StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lifecycles
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+iterator StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName lifecycles
+iterator StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName contains
+parts SimpleName ArrayAccess NumberLiteral empty
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ArrayAccess SimpleName parts
+result SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+add SimpleName MethodInvocation ArrayAccess SimpleName parts
+add SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get iterators
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get iterators
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+get iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get iterators SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get iterators SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get iterators SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get iterators SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iterators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iterators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

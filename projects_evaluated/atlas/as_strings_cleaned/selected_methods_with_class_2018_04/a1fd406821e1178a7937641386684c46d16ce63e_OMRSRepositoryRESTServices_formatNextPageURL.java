@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName url template
+object SimpleName SimpleType SingleVariableDeclaration SimpleName parameters
+message format SimpleName SimpleType ClassInstanceCreation SimpleName url template
+mf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName message format
+mf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName url template
+message format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mf
+mf SimpleName MethodInvocation SimpleName format
+mf SimpleName MethodInvocation SimpleName parameters
+format SimpleName MethodInvocation SimpleName parameters
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName format next page url
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName url template
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName parameters
+string SimpleName SimpleType MethodDeclaration SimpleName format next page url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName url template
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parameters
+format next page url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+format next page url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url template
+format next page url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format next page url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parameters
+url template SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format next page url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url template
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format next page url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url template
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parameters

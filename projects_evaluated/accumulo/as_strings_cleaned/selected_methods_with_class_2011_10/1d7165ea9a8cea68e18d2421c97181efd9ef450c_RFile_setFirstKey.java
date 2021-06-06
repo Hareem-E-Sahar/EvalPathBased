@@ -1,0 +1,21 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName SimpleType ClassInstanceCreation SimpleName key
+first key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName key
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set first key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleName set first key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+set first key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+set first key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set first key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set first key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

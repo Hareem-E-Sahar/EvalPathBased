@@ -1,0 +1,19 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName additional information
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName additional information
+additional information SimpleName FieldAccess Assignment SimpleName additional information
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set additional information
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName additional information
+void PrimitiveType MethodDeclaration SimpleName set additional information
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName additional information
+set additional information SimpleName MethodDeclaration SingleVariableDeclaration SimpleName additional information
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set additional information
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set additional information
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName additional information

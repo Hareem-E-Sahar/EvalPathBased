@@ -1,0 +1,66 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName key type name
+get type SimpleName MethodInvocation SimpleName key type name
+key type SimpleName FieldAccess Assignment MethodInvocation SimpleName type registry
+key type SimpleName FieldAccess Assignment MethodInvocation SimpleName get type
+key type SimpleName FieldAccess Assignment MethodInvocation SimpleName key type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName value type name
+get type SimpleName MethodInvocation SimpleName value type name
+value type SimpleName FieldAccess Assignment MethodInvocation SimpleName type registry
+value type SimpleName FieldAccess Assignment MethodInvocation SimpleName get type
+value type SimpleName FieldAccess Assignment MethodInvocation SimpleName value type name
+key type name SimpleName InfixExpression StringLiteral : unknown keytype for map
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName key type name
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral : unknown keytype for map
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName msg
+error SimpleName MethodInvocation SimpleName msg
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+value type name SimpleName InfixExpression StringLiteral : unknown valuetype for map
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName value type name
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral : unknown valuetype for map
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName msg
+error SimpleName MethodInvocation SimpleName msg
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+key type SimpleName MethodInvocation SimpleName resolve references
+key type SimpleName MethodInvocation SimpleName type registry
+resolve references SimpleName MethodInvocation SimpleName type registry
+value type SimpleName MethodInvocation SimpleName resolve references
+value type SimpleName MethodInvocation SimpleName type registry
+resolve references SimpleName MethodInvocation SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resolve references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

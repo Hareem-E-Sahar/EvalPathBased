@@ -1,0 +1,24 @@
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+add declared fields SimpleName MethodInvocation MethodInvocation SimpleName get class
+add declared fields SimpleName MethodInvocation SimpleName entity
+get class SimpleName MethodInvocation MethodInvocation SimpleName entity
+public Modifier MethodDeclaration SimpleType SimpleName struct
+public Modifier MethodDeclaration SimpleName to struct
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+struct SimpleName SimpleType MethodDeclaration SimpleName to struct
+struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+to struct SimpleName MethodDeclaration SimpleType SimpleName exception
+to struct SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName to struct
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

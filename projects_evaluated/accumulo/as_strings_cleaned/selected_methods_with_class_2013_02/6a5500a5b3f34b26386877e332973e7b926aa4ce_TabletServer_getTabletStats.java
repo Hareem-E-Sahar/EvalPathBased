@@ -1,0 +1,129 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+credential SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName online tablets
+key extent SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName online tablets
+tablet SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName online tablets
+online tablets copy SimpleName Assignment ClassInstanceCreation SimpleName online tablets
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet stats
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table id
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName text
+text SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+start SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+start SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName text
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+online tablets copy SimpleName MethodInvocation SimpleName tail map
+online tablets copy SimpleName MethodInvocation SimpleName start
+tail map SimpleName MethodInvocation SimpleName start
+online tablets copy SimpleName MethodInvocation MethodInvocation SimpleName entry set
+tail map SimpleName MethodInvocation MethodInvocation SimpleName entry set
+start SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+ke SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+ke SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+ke SimpleName MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get table id SimpleName MethodInvocation MethodInvocation SimpleName compare to
+ke SimpleName MethodInvocation MethodInvocation SimpleName text
+get table id SimpleName MethodInvocation MethodInvocation SimpleName text
+compare to SimpleName MethodInvocation SimpleName text
+ke SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get table id SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text SimpleName MethodInvocation InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+tablet SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+tablet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet
+tablettimer QualifiedName MethodInvocation SimpleName get tablet stats
+stats SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tablettimer
+stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tablet stats
+tablet stats SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stats
+ke SimpleName MethodInvocation SimpleName to thrift
+statsextent QualifiedName Assignment MethodInvocation SimpleName ke
+statsextent QualifiedName Assignment MethodInvocation SimpleName to thrift
+tablet SimpleName MethodInvocation SimpleName ingest rate
+statsingest rate QualifiedName Assignment MethodInvocation SimpleName tablet
+statsingest rate QualifiedName Assignment MethodInvocation SimpleName ingest rate
+tablet SimpleName MethodInvocation SimpleName query rate
+statsquery rate QualifiedName Assignment MethodInvocation SimpleName tablet
+statsquery rate QualifiedName Assignment MethodInvocation SimpleName query rate
+tablet SimpleName MethodInvocation SimpleName get split creation time
+statssplit creation time QualifiedName Assignment MethodInvocation SimpleName tablet
+statssplit creation time QualifiedName Assignment MethodInvocation SimpleName get split creation time
+tablet SimpleName MethodInvocation SimpleName get num entries
+statsnum entries QualifiedName Assignment MethodInvocation SimpleName tablet
+statsnum entries QualifiedName Assignment MethodInvocation SimpleName get num entries
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName stats
+add SimpleName MethodInvocation SimpleName stats
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+online tablets SimpleName SynchronizedStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tablet stats
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet stats
+public Modifier MethodDeclaration SimpleName get tablet stats
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet stats
+tablet stats SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet stats
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credential
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+get tablet stats SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+get tablet stats SimpleName MethodDeclaration SimpleType SimpleName t exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet stats
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet stats
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

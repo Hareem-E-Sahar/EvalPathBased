@@ -1,0 +1,19 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName setting
+setting SimpleName FieldAccess Assignment SimpleName setting
+public Modifier MethodDeclaration SimpleType SimpleName check iterator conflicts args
+public Modifier MethodDeclaration SimpleName set setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName setting
+check iterator conflicts args SimpleName SimpleType MethodDeclaration SimpleName set setting
+check iterator conflicts args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName setting
+set setting SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set setting SimpleName MethodDeclaration SingleVariableDeclaration SimpleName setting
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName check iterator conflicts args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set setting
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName setting
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName check iterator conflicts args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set setting
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName setting

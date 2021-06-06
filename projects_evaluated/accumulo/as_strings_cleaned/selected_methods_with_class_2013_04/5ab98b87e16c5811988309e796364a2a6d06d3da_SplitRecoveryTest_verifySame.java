@@ -1,0 +1,123 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName datafile sizes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName datafile sizes
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName datafile sizes
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fixed datafile sizes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fixed datafile sizes
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName fixed datafile sizes
+datafile sizes SimpleName MethodInvocation SimpleName key set
+fixed datafile sizes SimpleName MethodInvocation SimpleName key set
+datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName contains all
+key set SimpleName MethodInvocation MethodInvocation SimpleName contains all
+datafile sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fixed datafile sizes
+datafile sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fixed datafile sizes
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+contains all SimpleName MethodInvocation MethodInvocation SimpleName fixed datafile sizes
+contains all SimpleName MethodInvocation MethodInvocation SimpleName key set
+fixed datafile sizes SimpleName MethodInvocation SimpleName key set
+datafile sizes SimpleName MethodInvocation SimpleName key set
+fixed datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName contains all
+key set SimpleName MethodInvocation MethodInvocation SimpleName contains all
+fixed datafile sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName datafile sizes
+fixed datafile sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName datafile sizes
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+contains all SimpleName MethodInvocation MethodInvocation SimpleName datafile sizes
+contains all SimpleName MethodInvocation MethodInvocation SimpleName key set
+datafile sizes SimpleName MethodInvocation SimpleName key set
+fixed datafile sizes SimpleName MethodInvocation SimpleName key set
+key sets not the same StringLiteral InfixExpression MethodInvocation SimpleName datafile sizes
+key sets not the same StringLiteral InfixExpression MethodInvocation SimpleName key set
+key sets not the same StringLiteral InfixExpression StringLiteral !=
+key sets not the same StringLiteral InfixExpression MethodInvocation SimpleName fixed datafile sizes
+key sets not the same StringLiteral InfixExpression MethodInvocation SimpleName key set
+datafile sizes SimpleName MethodInvocation InfixExpression StringLiteral !=
+key set SimpleName MethodInvocation InfixExpression StringLiteral !=
+datafile sizes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fixed datafile sizes
+datafile sizes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key set
+key set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fixed datafile sizes
+key set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key set
+!= StringLiteral InfixExpression MethodInvocation SimpleName fixed datafile sizes
+!= StringLiteral InfixExpression MethodInvocation SimpleName key set
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral key sets not the same
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral !=
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+datafile sizes SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+dfv SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+dfv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+data file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfv
+entry SimpleName MethodInvocation SimpleName get key
+fixed datafile sizes SimpleName MethodInvocation SimpleName get
+fixed datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName entry
+fixed datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+other dfv SimpleName VariableDeclarationFragment MethodInvocation SimpleName fixed datafile sizes
+other dfv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+other dfv SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+other dfv SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+data file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other dfv
+dfv SimpleName MethodInvocation SimpleName equals
+dfv SimpleName MethodInvocation SimpleName other dfv
+equals SimpleName MethodInvocation SimpleName other dfv
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation InfixExpression StringLiteral dfv not equal
+get key SimpleName MethodInvocation InfixExpression StringLiteral dfv not equal
+entry SimpleName MethodInvocation InfixExpression SimpleName dfv
+get key SimpleName MethodInvocation InfixExpression SimpleName dfv
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression SimpleName other dfv
+get key SimpleName MethodInvocation InfixExpression SimpleName other dfv
+dfv not equal StringLiteral InfixExpression SimpleName dfv
+dfv not equal StringLiteral InfixExpression StringLiteral empty
+dfv not equal StringLiteral InfixExpression SimpleName other dfv
+dfv SimpleName InfixExpression StringLiteral empty
+dfv SimpleName InfixExpression SimpleName other dfv
+empty StringLiteral InfixExpression SimpleName other dfv
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral dfv not equal
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dfv
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName other dfv
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName datafile sizes
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify same
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName datafile sizes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName verify same
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName datafile sizes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+verify same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName datafile sizes
+verify same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+verify same SimpleName MethodDeclaration SimpleType SimpleName exception
+datafile sizes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+datafile sizes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fixed datafile sizes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify same
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName datafile sizes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify same
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName datafile sizes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fixed datafile sizes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,54 @@
+guid SimpleName VariableDeclarationFragment StringLiteral c c ac - beed b f
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral c c ac - beed b f
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral c c ac - beed b f
+description SimpleName VariableDeclarationFragment StringLiteral a map from string to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral a map from string to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral a map from string to string
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+archive helper SimpleName MethodInvocation SimpleName get map collection def
+archive helper SimpleName MethodInvocation SimpleName guid
+archive helper SimpleName MethodInvocation SimpleName description
+archive helper SimpleName MethodInvocation SimpleName description guid
+archive helper SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+get map collection def SimpleName MethodInvocation SimpleName guid
+get map collection def SimpleName MethodInvocation SimpleName description
+get map collection def SimpleName MethodInvocation SimpleName description guid
+get map collection def SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+get map collection def SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+guid SimpleName MethodInvocation SimpleName description
+guid SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description SimpleName MethodInvocation SimpleName description guid
+description SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+description guid SimpleName MethodInvocation QualifiedName primitive def categoryom primitive type string
+primitive def categoryom primitive type string QualifiedName MethodInvocation QualifiedName primitive def categoryom primitive type string
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName collection def
+private Modifier MethodDeclaration SimpleName get map string string collection def
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+collection def SimpleName SimpleType MethodDeclaration SimpleName get map string string collection def
+get map string string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get map string string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get map string string collection def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName collection def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get map string string collection def
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName collection def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get map string string collection def

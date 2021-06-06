@@ -1,0 +1,181 @@
+is partitioned table SimpleName VariableDeclarationFragment BooleanLiteral true
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName is partitioned table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is partitioned table
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+create table SimpleName MethodInvocation SimpleName is partitioned table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName is partitioned table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create table SimpleName MethodInvocation SimpleName is partitioned table
+insert table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+insert table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName is partitioned table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName insert table name
+insert into StringLiteral InfixExpression SimpleName insert table name
+insert into StringLiteral InfixExpression StringLiteral partitiondt =
+insert into StringLiteral InfixExpression SimpleName part file
+insert into StringLiteral InfixExpression StringLiteral ) select id name from
+insert into StringLiteral InfixExpression SimpleName table name
+insert table name SimpleName InfixExpression StringLiteral partitiondt =
+insert table name SimpleName InfixExpression SimpleName part file
+insert table name SimpleName InfixExpression StringLiteral ) select id name from
+insert table name SimpleName InfixExpression SimpleName table name
+insert table name SimpleName InfixExpression StringLiteral where dt =
+partitiondt = StringLiteral InfixExpression SimpleName part file
+partitiondt = StringLiteral InfixExpression StringLiteral ) select id name from
+partitiondt = StringLiteral InfixExpression SimpleName table name
+partitiondt = StringLiteral InfixExpression StringLiteral where dt =
+partitiondt = StringLiteral InfixExpression SimpleName part file
+part file SimpleName InfixExpression StringLiteral ) select id name from
+part file SimpleName InfixExpression SimpleName table name
+part file SimpleName InfixExpression StringLiteral where dt =
+part file SimpleName InfixExpression SimpleName part file
+part file SimpleName InfixExpression StringLiteral empty
+) select id name from StringLiteral InfixExpression SimpleName table name
+) select id name from StringLiteral InfixExpression StringLiteral where dt =
+) select id name from StringLiteral InfixExpression SimpleName part file
+) select id name from StringLiteral InfixExpression StringLiteral empty
+table name SimpleName InfixExpression StringLiteral where dt =
+table name SimpleName InfixExpression SimpleName part file
+table name SimpleName InfixExpression StringLiteral empty
+where dt = StringLiteral InfixExpression SimpleName part file
+where dt = StringLiteral InfixExpression StringLiteral empty
+part file SimpleName InfixExpression StringLiteral empty
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral insert into
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName insert table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral partitiondt =
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName part file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral ) select id name from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral where dt =
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName part file
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName table name
+get inputs SimpleName MethodInvocation QualifiedName entitytypetable
+table name SimpleName MethodInvocation QualifiedName entitytypetable
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+inputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+inputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName insert table name
+get outputs SimpleName MethodInvocation QualifiedName entitytypetable
+insert table name SimpleName MethodInvocation QualifiedName entitytypetable
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+outputs SimpleName VariableDeclarationFragment MethodInvocation SimpleName insert table name
+outputs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName insert table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+outputs SimpleName MethodInvocation SimpleName iterator
+outputs SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+write entity SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+set write type SimpleName MethodInvocation QualifiedName write entitywrite typeinsert
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+linked hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+add all SimpleName MethodInvocation SimpleName inputs
+add SimpleName MethodInvocation MethodInvocation SimpleName get partition input
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition ips
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+linked hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+add all SimpleName MethodInvocation SimpleName outputs
+add SimpleName MethodInvocation MethodInvocation SimpleName get partition output
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partition ops
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationquery
+construct event SimpleName MethodInvocation SimpleName partition ips
+construct event SimpleName MethodInvocation SimpleName partition ops
+query SimpleName MethodInvocation QualifiedName hive operationquery
+query SimpleName MethodInvocation SimpleName partition ips
+query SimpleName MethodInvocation SimpleName partition ops
+hive operationquery QualifiedName MethodInvocation SimpleName partition ips
+hive operationquery QualifiedName MethodInvocation SimpleName partition ops
+partition ips SimpleName MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation MethodInvocation SimpleName construct event
+validate process SimpleName MethodInvocation MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation MethodInvocation QualifiedName hive operationquery
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ips
+validate process SimpleName MethodInvocation MethodInvocation SimpleName partition ops
+validate process SimpleName MethodInvocation SimpleName inputs
+validate process SimpleName MethodInvocation SimpleName outputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName inputs
+query SimpleName MethodInvocation MethodInvocation SimpleName inputs
+hive operationquery QualifiedName MethodInvocation MethodInvocation SimpleName inputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName inputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName inputs
+construct event SimpleName MethodInvocation MethodInvocation SimpleName outputs
+query SimpleName MethodInvocation MethodInvocation SimpleName outputs
+hive operationquery QualifiedName MethodInvocation MethodInvocation SimpleName outputs
+partition ips SimpleName MethodInvocation MethodInvocation SimpleName outputs
+partition ops SimpleName MethodInvocation MethodInvocation SimpleName outputs
+inputs SimpleName MethodInvocation SimpleName outputs
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName insert table name
+default db SimpleName MethodInvocation SimpleName insert table name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test insert into partition
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test insert into partition
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test insert into partition
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into partition SimpleName MethodDeclaration SimpleType SimpleName exception
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test insert into partition SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test insert into partition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test insert into partition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

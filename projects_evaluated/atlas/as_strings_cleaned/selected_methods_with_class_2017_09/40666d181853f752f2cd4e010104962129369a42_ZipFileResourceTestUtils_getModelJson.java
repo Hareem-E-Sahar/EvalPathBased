@@ -1,0 +1,94 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral addonsmodels
+get property SimpleName MethodInvocation InfixExpression StringLiteral addonsmodels
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral addonsmodels
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral addonsmodels
+top models dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+top models dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral addonsmodels
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName top models dir
+top models dir SimpleName MethodInvocation SimpleName exists
+top models dir SimpleName MethodInvocation SimpleName list files
+top models dir SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName top models dir
+top models dir SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName list files
+exists SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName top models dir
+exists SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName list files
+top models dir contents SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName top models dir
+top models dir contents SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName exists
+top models dir contents SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName top models dir
+top models dir contents SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName list files
+top models dir SimpleName MethodInvocation SimpleName get absolute path
+top models dir SimpleName MethodInvocation InfixExpression StringLiteral : unable to findread directory
+get absolute path SimpleName MethodInvocation InfixExpression StringLiteral : unable to findread directory
+assert true SimpleName MethodInvocation InfixExpression SimpleName top models dir contents
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName top models dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get absolute path
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : unable to findread directory
+top models dir contents SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral : unable to findread directory
+arrays SimpleName MethodInvocation SimpleName sort
+arrays SimpleName MethodInvocation SimpleName top models dir contents
+sort SimpleName MethodInvocation SimpleName top models dir contents
+file SimpleName SimpleType SingleVariableDeclaration SimpleName model dir
+model dir SimpleName MethodInvocation SimpleName exists
+model dir SimpleName MethodInvocation SimpleName is directory
+model dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName model dir
+model dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName model dir
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+get file contents SimpleName MethodInvocation SimpleName model dir
+get file contents SimpleName MethodInvocation SimpleName file name
+model dir SimpleName MethodInvocation SimpleName file name
+ret SimpleName Assignment MethodInvocation SimpleName get file contents
+ret SimpleName Assignment MethodInvocation SimpleName model dir
+ret SimpleName Assignment MethodInvocation SimpleName file name
+file SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName top models dir contents
+model dir SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName top models dir contents
+get file contents SimpleName MethodInvocation SimpleName top models dir
+get file contents SimpleName MethodInvocation SimpleName file name
+top models dir SimpleName MethodInvocation SimpleName file name
+ret SimpleName Assignment MethodInvocation SimpleName get file contents
+ret SimpleName Assignment MethodInvocation SimpleName top models dir
+ret SimpleName Assignment MethodInvocation SimpleName file name
+file name SimpleName InfixExpression StringLiteral : unable to find model file
+assert true SimpleName MethodInvocation InfixExpression SimpleName ret
+assert true SimpleName MethodInvocation InfixExpression SimpleName file name
+assert true SimpleName MethodInvocation InfixExpression StringLiteral : unable to find model file
+ret SimpleName InfixExpression MethodInvocation InfixExpression SimpleName file name
+ret SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral : unable to find model file
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to retrieve model contents
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get model json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get model json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get model json
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get model json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get model json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get model json SimpleName MethodDeclaration SimpleType SimpleName io exception
+get model json SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get model json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get model json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

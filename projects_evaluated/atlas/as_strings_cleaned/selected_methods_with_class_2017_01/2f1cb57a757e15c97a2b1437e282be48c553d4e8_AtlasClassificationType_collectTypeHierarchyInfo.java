@@ -1,0 +1,181 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all super type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all super type names
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all attributes
+atlas attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all attributes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName visited types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName visited types
+classification def SimpleName MethodInvocation SimpleName get name
+visited types SimpleName MethodInvocation SimpleName contains
+visited types SimpleName MethodInvocation MethodInvocation SimpleName classification def
+visited types SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains SimpleName MethodInvocation MethodInvocation SimpleName classification def
+contains SimpleName MethodInvocation MethodInvocation SimpleName get name
+classification def SimpleName MethodInvocation SimpleName get name
+visited types SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codecircular reference
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName visited types
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codecircular reference QualifiedName ClassInstanceCreation MethodInvocation SimpleName classification def
+atlas error codecircular reference QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codecircular reference QualifiedName ClassInstanceCreation MethodInvocation SimpleName visited types
+atlas error codecircular reference QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName visited types
+classification def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName visited types
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+classification def SimpleName MethodInvocation SimpleName get super types
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName classification def
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get super types
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName classification def
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get super types
+classification def SimpleName MethodInvocation SimpleName get name
+visited types SimpleName MethodInvocation SimpleName add
+visited types SimpleName MethodInvocation MethodInvocation SimpleName classification def
+visited types SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName classification def
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+classification def SimpleName MethodInvocation SimpleName get super types
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName super type name
+get type SimpleName MethodInvocation SimpleName super type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+atlas classification type SimpleName SimpleType CastExpression SimpleName type
+super type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas classification type
+super type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas classification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+super type SimpleName MethodInvocation SimpleName collect type hierarchy info
+super type SimpleName MethodInvocation SimpleName type registry
+super type SimpleName MethodInvocation SimpleName all super type names
+super type SimpleName MethodInvocation SimpleName all attributes
+super type SimpleName MethodInvocation SimpleName visited types
+collect type hierarchy info SimpleName MethodInvocation SimpleName type registry
+collect type hierarchy info SimpleName MethodInvocation SimpleName all super type names
+collect type hierarchy info SimpleName MethodInvocation SimpleName all attributes
+collect type hierarchy info SimpleName MethodInvocation SimpleName visited types
+type registry SimpleName MethodInvocation SimpleName all super type names
+type registry SimpleName MethodInvocation SimpleName all attributes
+type registry SimpleName MethodInvocation SimpleName visited types
+all super type names SimpleName MethodInvocation SimpleName all attributes
+all super type names SimpleName MethodInvocation SimpleName visited types
+all attributes SimpleName MethodInvocation SimpleName visited types
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName classification def
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get super types
+classification def SimpleName MethodInvocation SimpleName get name
+visited types SimpleName MethodInvocation SimpleName remove
+visited types SimpleName MethodInvocation MethodInvocation SimpleName classification def
+visited types SimpleName MethodInvocation MethodInvocation SimpleName get name
+remove SimpleName MethodInvocation MethodInvocation SimpleName classification def
+remove SimpleName MethodInvocation MethodInvocation SimpleName get name
+classification def SimpleName MethodInvocation SimpleName get super types
+all super type names SimpleName MethodInvocation SimpleName add all
+all super type names SimpleName MethodInvocation MethodInvocation SimpleName classification def
+all super type names SimpleName MethodInvocation MethodInvocation SimpleName get super types
+add all SimpleName MethodInvocation MethodInvocation SimpleName classification def
+add all SimpleName MethodInvocation MethodInvocation SimpleName get super types
+classification def SimpleName MethodInvocation SimpleName get attribute defs
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName classification def
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName classification def
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+classification def SimpleName MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+attribute def SimpleName MethodInvocation SimpleName get name
+atlas attribute SimpleName SimpleType ClassInstanceCreation SimpleName classification def
+atlas attribute SimpleName SimpleType ClassInstanceCreation SimpleName attribute def
+atlas attribute SimpleName SimpleType ClassInstanceCreation SimpleName type
+classification def SimpleName ClassInstanceCreation SimpleName attribute def
+classification def SimpleName ClassInstanceCreation SimpleName type
+attribute def SimpleName ClassInstanceCreation SimpleName type
+all attributes SimpleName MethodInvocation SimpleName put
+all attributes SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+all attributes SimpleName MethodInvocation MethodInvocation SimpleName get name
+all attributes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute
+all attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName classification def
+all attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+all attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas attribute
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName classification def
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName attribute def
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+attribute def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName classification def
+attribute def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName attribute def
+attribute def SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName type
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName classification def
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName attribute def
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName type
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName classification def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName collect type hierarchy info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+void PrimitiveType MethodDeclaration SimpleName collect type hierarchy info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName visited types
+collect type hierarchy info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+collect type hierarchy info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+collect type hierarchy info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+collect type hierarchy info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+collect type hierarchy info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName visited types
+collect type hierarchy info SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visited types
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+all super type names SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+all super type names SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visited types
+all super type names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+all attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visited types
+all attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+visited types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName collect type hierarchy info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visited types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName collect type hierarchy info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all super type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visited types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

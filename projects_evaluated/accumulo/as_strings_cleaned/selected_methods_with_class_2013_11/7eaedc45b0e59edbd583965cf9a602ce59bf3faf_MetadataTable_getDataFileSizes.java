@@ -1,0 +1,152 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsno auths
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsno auths
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsno auths
+credentials SimpleName ClassInstanceCreation QualifiedName constantsmetadata table id
+credentials SimpleName ClassInstanceCreation QualifiedName constantsno auths
+constantsmetadata table id QualifiedName ClassInstanceCreation QualifiedName constantsno auths
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner impl
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName credentials
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsmetadata table id
+md scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName md scanner
+md scanner SimpleName MethodInvocation SimpleName fetch column family
+md scanner SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata datafile column family
+extent SimpleName MethodInvocation SimpleName get metadata entry
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName extent
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata datafile column family
+key SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+row SimpleName ClassInstanceCreation QualifiedName constantsmetadata datafile column family
+row SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+row SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+constantsmetadata datafile column family QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+constantsmetadata datafile column family QualifiedName ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+end key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+end key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName row
+end key SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsmetadata datafile column family
+end key SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end key
+end key SimpleName MethodInvocation SimpleName following key
+end key SimpleName MethodInvocation QualifiedName partial keyrow colfam
+following key SimpleName MethodInvocation QualifiedName partial keyrow colfam
+end key SimpleName Assignment MethodInvocation SimpleName end key
+end key SimpleName Assignment MethodInvocation SimpleName following key
+end key SimpleName Assignment MethodInvocation QualifiedName partial keyrow colfam
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName row
+range SimpleName SimpleType ClassInstanceCreation SimpleName end key
+key SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName end key
+row SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName end key
+md scanner SimpleName MethodInvocation SimpleName set range
+md scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+md scanner SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName row
+md scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName end key
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName row
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName end key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get row SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName row
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName row
+get row SimpleName MethodInvocation MethodInvocation SimpleName row
+equals SimpleName MethodInvocation SimpleName row
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+data file value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data file value
+dfv SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get
+data file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfv
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+sizes SimpleName MethodInvocation SimpleName put
+sizes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+sizes SimpleName MethodInvocation MethodInvocation SimpleName to string
+sizes SimpleName MethodInvocation SimpleName dfv
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName dfv
+get column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dfv
+to string SimpleName MethodInvocation MethodInvocation SimpleName dfv
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName md scanner
+md scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName sizes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+public Modifier MethodDeclaration SimpleName get data file sizes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName data file value
+static Modifier MethodDeclaration SimpleName get data file sizes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName md scanner
+static Modifier MethodDeclaration Block ReturnStatement SimpleName sizes
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get data file sizes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get data file sizes
+data file value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get data file sizes
+get data file sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+get data file sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+get data file sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+get data file sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+get data file sizes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName md scanner
+get data file sizes SimpleName MethodDeclaration Block ReturnStatement SimpleName sizes
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get data file sizes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get data file sizes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials

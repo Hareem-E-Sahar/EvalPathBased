@@ -1,0 +1,87 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+attr type SimpleName InfixExpression InfixExpression InfixExpression SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+atlas array type SimpleName SimpleType CastExpression SimpleName attr type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas array type
+array type SimpleName VariableDeclarationFragment CastExpression SimpleName attr type
+atlas array type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array type
+array type SimpleName MethodInvocation SimpleName get element type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName array type
+elem type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem type
+visit collection references SimpleName MethodInvocation SimpleName elem type
+visit collection references SimpleName MethodInvocation SimpleName val
+elem type SimpleName MethodInvocation SimpleName val
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key type
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+visit map references SimpleName MethodInvocation SimpleName key type
+visit map references SimpleName MethodInvocation SimpleName value type
+visit map references SimpleName MethodInvocation SimpleName val
+key type SimpleName MethodInvocation SimpleName value type
+key type SimpleName MethodInvocation SimpleName val
+value type SimpleName MethodInvocation SimpleName val
+atlas struct type SimpleName SimpleType CastExpression SimpleName attr type
+visit struct SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas struct type
+visit struct SimpleName MethodInvocation CastExpression SimpleName attr type
+visit struct SimpleName MethodInvocation SimpleName val
+atlas struct type SimpleName SimpleType CastExpression MethodInvocation SimpleName val
+attr type SimpleName CastExpression MethodInvocation SimpleName val
+atlas object id type SimpleName SimpleType CastExpression SimpleName attr type
+visit reference SimpleName MethodInvocation CastExpression SimpleType SimpleName atlas object id type
+visit reference SimpleName MethodInvocation CastExpression SimpleName attr type
+visit reference SimpleName MethodInvocation SimpleName val
+atlas object id type SimpleName SimpleType CastExpression MethodInvocation SimpleName val
+attr type SimpleName CastExpression MethodInvocation SimpleName val
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type SimpleName MethodInvocation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype category invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName attr type
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get type category
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+attr type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName primitive
+attr type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName enum
+attr type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+primitive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName object id type
+void PrimitiveType MethodDeclaration SimpleName visit attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr type
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+visit attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+attr type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

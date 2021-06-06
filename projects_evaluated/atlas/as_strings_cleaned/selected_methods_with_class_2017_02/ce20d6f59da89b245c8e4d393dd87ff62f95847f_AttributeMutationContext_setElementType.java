@@ -1,0 +1,27 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas type
+final Modifier SingleVariableDeclaration SimpleName attr type
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+current element type SimpleName FieldAccess Assignment SimpleName attr type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set element type
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr type
+void PrimitiveType MethodDeclaration SimpleName set element type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr type
+set element type SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set element type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+set element type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set element type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set element type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr type

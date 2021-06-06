@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dbid
+entity audit evententity audit action QualifiedName SimpleType SingleVariableDeclaration SimpleName audit action
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity audit event
+short PrimitiveType CastExpression NumberLiteral empty
+service client SimpleName MethodInvocation SimpleName get entity audit events
+service client SimpleName MethodInvocation SimpleName dbid
+service client SimpleName MethodInvocation CastExpression PrimitiveType short
+service client SimpleName MethodInvocation CastExpression NumberLiteral empty
+get entity audit events SimpleName MethodInvocation SimpleName dbid
+get entity audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get entity audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+dbid SimpleName MethodInvocation CastExpression PrimitiveType short
+dbid SimpleName MethodInvocation CastExpression NumberLiteral empty
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity audit events
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName dbid
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType short
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression NumberLiteral empty
+entity audit event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get action
+event SimpleName MethodInvocation InfixExpression SimpleName audit action
+get action SimpleName MethodInvocation InfixExpression SimpleName audit action
+entity audit event SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName events
+event SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName events
+expected audit event with action = StringLiteral InfixExpression SimpleName audit action
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected audit event with action =
+fail SimpleName MethodInvocation InfixExpression SimpleName audit action
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert entity audit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dbid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entity audit evententity audit action
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName audit action
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert entity audit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dbid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entity audit evententity audit action
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName audit action
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName events
+assert entity audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dbid
+assert entity audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entity audit evententity audit action
+assert entity audit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName audit action
+assert entity audit SimpleName MethodDeclaration SimpleType SimpleName exception
+assert entity audit SimpleName MethodDeclaration Block EnhancedForStatement SimpleName events
+dbid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit action
+dbid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+audit action SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert entity audit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dbid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit action
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert entity audit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dbid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit action
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

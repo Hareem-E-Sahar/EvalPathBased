@@ -1,0 +1,14 @@
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+index entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName index entry
+public Modifier MethodDeclaration SimpleName peek
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+index entry SimpleName SimpleType MethodDeclaration SimpleName peek
+peek SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName peek
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName peek

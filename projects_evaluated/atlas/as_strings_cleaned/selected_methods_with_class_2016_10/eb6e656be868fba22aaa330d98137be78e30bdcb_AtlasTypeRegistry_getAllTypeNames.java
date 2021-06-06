@@ -1,0 +1,17 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type name map SimpleName MethodInvocation SimpleName key set
+collections SimpleName MethodInvocation SimpleName unmodifiable collection
+collections SimpleName MethodInvocation MethodInvocation SimpleName type name map
+collections SimpleName MethodInvocation MethodInvocation SimpleName key set
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName type name map
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get all type names
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all type names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all type names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all type names

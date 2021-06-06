@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query id
+query id SimpleName FieldAccess Assignment SimpleName query id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set query id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query id
+void PrimitiveType MethodDeclaration SimpleName set query id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query id
+set query id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set query id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set query id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set query id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query id

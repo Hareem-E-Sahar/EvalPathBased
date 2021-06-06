@@ -1,0 +1,383 @@
+max size SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+calculate block size SimpleName MethodInvocation SimpleName max size
+calculate block size SimpleName MethodInvocation NumberLiteral empty
+max size SimpleName MethodInvocation NumberLiteral empty
+block size SimpleName VariableDeclarationFragment MethodInvocation SimpleName calculate block size
+block size SimpleName VariableDeclarationFragment MethodInvocation SimpleName max size
+block size SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName block size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName calculate block size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+. NumberLiteral InfixExpression SimpleName max size
+. NumberLiteral InfixExpression InfixExpression SimpleName block size
+max size SimpleName InfixExpression InfixExpression SimpleName block size
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max size
+math SimpleName MethodInvocation InfixExpression SimpleName block size
+ceil SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max size
+ceil SimpleName MethodInvocation InfixExpression SimpleName block size
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName ceil
+int PrimitiveType CastExpression MethodInvocation InfixExpression SimpleName block size
+lru block cache SimpleName SimpleType ClassInstanceCreation SimpleName max size
+lru block cache SimpleName SimpleType ClassInstanceCreation SimpleName block size
+lru block cache SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+lru block cache SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+lru block cache SimpleName SimpleType ClassInstanceCreation QualifiedName lru block cachedefault load factor
+max size SimpleName ClassInstanceCreation SimpleName block size
+max size SimpleName ClassInstanceCreation BooleanLiteral false
+max size SimpleName ClassInstanceCreation CastExpression PrimitiveType int
+max size SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName math
+max size SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName ceil
+max size SimpleName ClassInstanceCreation QualifiedName lru block cachedefault load factor
+max size SimpleName ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+block size SimpleName ClassInstanceCreation BooleanLiteral false
+block size SimpleName ClassInstanceCreation CastExpression PrimitiveType int
+block size SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName math
+block size SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName ceil
+block size SimpleName ClassInstanceCreation QualifiedName lru block cachedefault load factor
+block size SimpleName ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+block size SimpleName ClassInstanceCreation NumberLiteral . f
+false BooleanLiteral ClassInstanceCreation CastExpression PrimitiveType int
+false BooleanLiteral ClassInstanceCreation CastExpression MethodInvocation SimpleName math
+false BooleanLiteral ClassInstanceCreation CastExpression MethodInvocation SimpleName ceil
+false BooleanLiteral ClassInstanceCreation QualifiedName lru block cachedefault load factor
+false BooleanLiteral ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+false BooleanLiteral ClassInstanceCreation NumberLiteral . f
+false BooleanLiteral ClassInstanceCreation NumberLiteral . f
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName lru block cachedefault load factor
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName lru block cachedefault load factor
+ceil SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName lru block cachedefault load factor
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+ceil SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+int PrimitiveType CastExpression ClassInstanceCreation NumberLiteral . f
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+ceil SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+int PrimitiveType CastExpression ClassInstanceCreation NumberLiteral . f
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+ceil SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+int PrimitiveType CastExpression ClassInstanceCreation NumberLiteral . f
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+ceil SimpleName MethodInvocation CastExpression ClassInstanceCreation NumberLiteral . f
+lru block cachedefault load factor QualifiedName ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+lru block cachedefault load factor QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault load factor QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault load factor QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault load factor QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault concurrency level QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault concurrency level QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault concurrency level QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault concurrency level QualifiedName ClassInstanceCreation NumberLiteral . f
+lru block cachedefault concurrency level QualifiedName ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+. f NumberLiteral ClassInstanceCreation NumberLiteral . f
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName lru block cache
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName max size
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName block size
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression PrimitiveType int
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName lru block cachedefault load factor
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName lru block cachedefault concurrency level
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral . f
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral . f
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral . f
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral . f
+cache SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral . f
+lru block cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache
+generate fixed blocks SimpleName MethodInvocation NumberLiteral empty
+generate fixed blocks SimpleName MethodInvocation SimpleName block size
+generate fixed blocks SimpleName MethodInvocation StringLiteral single
+empty NumberLiteral MethodInvocation SimpleName block size
+empty NumberLiteral MethodInvocation StringLiteral single
+block size SimpleName MethodInvocation StringLiteral single
+single blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate fixed blocks
+single blocks SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+single blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName block size
+single blocks SimpleName VariableDeclarationFragment MethodInvocation StringLiteral single
+generate fixed blocks SimpleName MethodInvocation NumberLiteral empty
+generate fixed blocks SimpleName MethodInvocation SimpleName block size
+generate fixed blocks SimpleName MethodInvocation StringLiteral multi
+empty NumberLiteral MethodInvocation SimpleName block size
+empty NumberLiteral MethodInvocation StringLiteral multi
+block size SimpleName MethodInvocation StringLiteral multi
+multi blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate fixed blocks
+multi blocks SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+multi blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName block size
+multi blocks SimpleName VariableDeclarationFragment MethodInvocation StringLiteral multi
+generate fixed blocks SimpleName MethodInvocation NumberLiteral empty
+generate fixed blocks SimpleName MethodInvocation SimpleName block size
+generate fixed blocks SimpleName MethodInvocation StringLiteral memory
+empty NumberLiteral MethodInvocation SimpleName block size
+empty NumberLiteral MethodInvocation StringLiteral memory
+block size SimpleName MethodInvocation StringLiteral memory
+memory blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate fixed blocks
+memory blocks SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+memory blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName block size
+memory blocks SimpleName VariableDeclarationFragment MethodInvocation StringLiteral memory
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+single blocks SimpleName ArrayAccess SimpleName i
+single blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+single blocks SimpleName ArrayAccess SimpleName i
+single blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+cache SimpleName MethodInvocation SimpleName cache block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName buf
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName block name
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName buf
+block name SimpleName FieldAccess MethodInvocation FieldAccess SimpleName buf
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+cache SimpleName MethodInvocation SimpleName cache block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName buf
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName block name
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName buf
+block name SimpleName FieldAccess MethodInvocation FieldAccess SimpleName buf
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+memory blocks SimpleName ArrayAccess SimpleName i
+memory blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+memory blocks SimpleName ArrayAccess SimpleName i
+memory blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+cache SimpleName MethodInvocation SimpleName cache block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName buf
+cache SimpleName MethodInvocation BooleanLiteral true
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName block name
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache block SimpleName MethodInvocation FieldAccess SimpleName buf
+cache block SimpleName MethodInvocation BooleanLiteral true
+block name SimpleName FieldAccess MethodInvocation FieldAccess SimpleName buf
+memory blocks SimpleName ArrayAccess FieldAccess MethodInvocation BooleanLiteral true
+i SimpleName ArrayAccess FieldAccess MethodInvocation BooleanLiteral true
+block name SimpleName FieldAccess MethodInvocation BooleanLiteral true
+memory blocks SimpleName ArrayAccess FieldAccess MethodInvocation BooleanLiteral true
+i SimpleName ArrayAccess FieldAccess MethodInvocation BooleanLiteral true
+buf SimpleName FieldAccess MethodInvocation BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+cache SimpleName MethodInvocation SimpleName get eviction count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get eviction count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName cache
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get eviction count
+max size SimpleName InfixExpression NumberLiteral . f
+long PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName max size
+long PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+cache SimpleName MethodInvocation SimpleName set max size
+cache SimpleName MethodInvocation CastExpression PrimitiveType long
+set max size SimpleName MethodInvocation CastExpression PrimitiveType long
+cache SimpleName MethodInvocation SimpleName get eviction count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get eviction count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName cache
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get eviction count
+cache SimpleName MethodInvocation SimpleName get evicted count
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get evicted count
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName cache
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get evicted count
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+single blocks SimpleName ArrayAccess SimpleName i
+single blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+memory blocks SimpleName ArrayAccess SimpleName i
+memory blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+single blocks SimpleName ArrayAccess SimpleName i
+single blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+single blocks SimpleName ArrayAccess SimpleName i
+single blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName single blocks
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+assert equals SimpleName MethodInvocation FieldAccess SimpleName buf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName cache
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get block
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+multi blocks SimpleName ArrayAccess SimpleName i
+multi blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName multi blocks
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+assert equals SimpleName MethodInvocation FieldAccess SimpleName buf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName cache
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get block
+memory blocks SimpleName ArrayAccess SimpleName i
+memory blocks SimpleName ArrayAccess FieldAccess SimpleName buf
+i SimpleName ArrayAccess FieldAccess SimpleName buf
+memory blocks SimpleName ArrayAccess SimpleName i
+memory blocks SimpleName ArrayAccess FieldAccess SimpleName block name
+i SimpleName ArrayAccess FieldAccess SimpleName block name
+cache SimpleName MethodInvocation SimpleName get block
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+cache SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+cache SimpleName MethodInvocation FieldAccess SimpleName block name
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+get block SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+get block SimpleName MethodInvocation FieldAccess SimpleName block name
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName memory blocks
+assert equals SimpleName MethodInvocation FieldAccess ArrayAccess SimpleName i
+assert equals SimpleName MethodInvocation FieldAccess SimpleName buf
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get block
+assert equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName block name
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName cache
+buf SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get block
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resize block cache
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test resize block cache
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test resize block cache SimpleName MethodDeclaration SimpleType SimpleName exception
+test resize block cache SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test resize block cache SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resize block cache
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resize block cache
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

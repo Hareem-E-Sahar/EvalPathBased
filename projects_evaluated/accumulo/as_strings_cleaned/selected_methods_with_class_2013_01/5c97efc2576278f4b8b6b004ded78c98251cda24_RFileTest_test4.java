@@ -1,0 +1,304 @@
+trf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test r file
+test r file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trf
+trf SimpleName MethodInvocation SimpleName open writer
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+nk SimpleName MethodInvocation StringLiteral r
+nk SimpleName MethodInvocation StringLiteral cf
+nk SimpleName MethodInvocation StringLiteral cq
+nk SimpleName MethodInvocation StringLiteral l
+nk SimpleName MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation StringLiteral cf
+r StringLiteral MethodInvocation StringLiteral cq
+r StringLiteral MethodInvocation StringLiteral l
+r StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral l
+cf StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral l
+cq StringLiteral MethodInvocation NumberLiteral empty
+l StringLiteral MethodInvocation NumberLiteral empty
+nv SimpleName MethodInvocation StringLiteral foo
+trfwriter QualifiedName MethodInvocation SimpleName append
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nk
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral r
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cf
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral cq
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral l
+trfwriter QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+trfwriter QualifiedName MethodInvocation MethodInvocation SimpleName nv
+trfwriter QualifiedName MethodInvocation MethodInvocation StringLiteral foo
+append SimpleName MethodInvocation MethodInvocation SimpleName nk
+append SimpleName MethodInvocation MethodInvocation StringLiteral r
+append SimpleName MethodInvocation MethodInvocation StringLiteral cf
+append SimpleName MethodInvocation MethodInvocation StringLiteral cq
+append SimpleName MethodInvocation MethodInvocation StringLiteral l
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName nv
+append SimpleName MethodInvocation MethodInvocation StringLiteral foo
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+nk SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+l StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName nv
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+assert false SimpleName MethodInvocation BooleanLiteral true
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+test SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

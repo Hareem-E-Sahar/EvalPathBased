@@ -1,0 +1,42 @@
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName key
+query SimpleName MethodInvocation SimpleName value
+has SimpleName MethodInvocation SimpleName key
+has SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+public Modifier MethodDeclaration SimpleName has
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+atlas vertex query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName has
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName has
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName has
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName has
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

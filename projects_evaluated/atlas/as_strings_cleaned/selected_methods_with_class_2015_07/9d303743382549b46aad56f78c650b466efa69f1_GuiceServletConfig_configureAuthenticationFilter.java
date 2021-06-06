@@ -1,0 +1,40 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation SimpleName http authentication enabled
+get string SimpleName MethodInvocation SimpleName http authentication enabled
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName configuration
+boolean SimpleName MethodInvocation MethodInvocation SimpleName get string
+boolean SimpleName MethodInvocation MethodInvocation SimpleName http authentication enabled
+value of SimpleName MethodInvocation MethodInvocation SimpleName configuration
+value of SimpleName MethodInvocation MethodInvocation SimpleName get string
+value of SimpleName MethodInvocation MethodInvocation SimpleName http authentication enabled
+filter SimpleName MethodInvocation StringLiteral /*
+filter SimpleName MethodInvocation MethodInvocation SimpleName through
+/* StringLiteral MethodInvocation MethodInvocation SimpleName through
+through SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas authentication filter
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral error loading configuration and initializing authentication filter
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral error loading configuration and initializing authentication filter
+warn SimpleName MethodInvocation SimpleName e
+error loading configuration and initializing authentication filter StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName configure authentication filter
+private Modifier MethodDeclaration SimpleType SimpleName configuration exception
+void PrimitiveType MethodDeclaration SimpleName configure authentication filter
+void PrimitiveType MethodDeclaration SimpleType SimpleName configuration exception
+configure authentication filter SimpleName MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure authentication filter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure authentication filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception

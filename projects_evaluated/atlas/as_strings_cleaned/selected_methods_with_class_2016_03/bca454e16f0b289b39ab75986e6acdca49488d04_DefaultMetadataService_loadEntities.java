@@ -1,0 +1,46 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName guid
+get entity definition SimpleName MethodInvocation SimpleName guid
+entities SimpleName MethodInvocation SimpleName add
+entities SimpleName MethodInvocation MethodInvocation SimpleName repository
+entities SimpleName MethodInvocation MethodInvocation SimpleName get entity definition
+entities SimpleName MethodInvocation MethodInvocation SimpleName guid
+add SimpleName MethodInvocation MethodInvocation SimpleName repository
+add SimpleName MethodInvocation MethodInvocation SimpleName get entity definition
+add SimpleName MethodInvocation MethodInvocation SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName guids
+guids SimpleName EnhancedForStatement Block ReturnStatement SimpleName entities
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName load entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+private Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+private Modifier MethodDeclaration SimpleType SimpleName repository exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load entities
+i typed referenceable instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load entities
+load entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+load entities SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+load entities SimpleName MethodDeclaration SimpleType SimpleName repository exception
+load entities SimpleName MethodDeclaration Block EnhancedForStatement SimpleName guids
+load entities SimpleName MethodDeclaration Block ReturnStatement SimpleName entities
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+guids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+entity not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName load entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

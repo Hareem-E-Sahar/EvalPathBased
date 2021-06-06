@@ -1,0 +1,29 @@
+term source SimpleName SimpleType SingleVariableDeclaration SimpleName o
+iter SimpleName FieldAccess MethodInvocation SimpleName get top key
+oiter QualifiedName MethodInvocation SimpleName get top key
+oiter QualifiedName MethodInvocation MethodInvocation SimpleName get column qualifier
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+iter SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName compare column qualifier
+get top key SimpleName MethodInvocation MethodInvocation SimpleName compare column qualifier
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+compare column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName oiter
+compare column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+compare column qualifier SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName term source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName term source
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName term source
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

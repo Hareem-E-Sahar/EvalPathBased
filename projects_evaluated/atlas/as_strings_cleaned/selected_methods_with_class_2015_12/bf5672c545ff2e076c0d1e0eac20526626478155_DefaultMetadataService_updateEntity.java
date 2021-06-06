@@ -1,0 +1,88 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName guid
+param checker SimpleName MethodInvocation StringLiteral guid cannot be null
+not empty SimpleName MethodInvocation SimpleName guid
+not empty SimpleName MethodInvocation StringLiteral guid cannot be null
+guid SimpleName MethodInvocation StringLiteral guid cannot be null
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName property
+param checker SimpleName MethodInvocation StringLiteral property cannot be null
+not empty SimpleName MethodInvocation SimpleName property
+not empty SimpleName MethodInvocation StringLiteral property cannot be null
+property SimpleName MethodInvocation StringLiteral property cannot be null
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName value
+param checker SimpleName MethodInvocation StringLiteral property value cannot be null
+not empty SimpleName MethodInvocation SimpleName value
+not empty SimpleName MethodInvocation StringLiteral property value cannot be null
+value SimpleName MethodInvocation StringLiteral property value cannot be null
+repository SimpleName MethodInvocation SimpleName update entity
+repository SimpleName MethodInvocation SimpleName guid
+repository SimpleName MethodInvocation SimpleName property
+repository SimpleName MethodInvocation SimpleName value
+update entity SimpleName MethodInvocation SimpleName guid
+update entity SimpleName MethodInvocation SimpleName property
+update entity SimpleName MethodInvocation SimpleName value
+guid SimpleName MethodInvocation SimpleName property
+guid SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName guid
+get entity definition SimpleName MethodInvocation SimpleName guid
+on entity updated SimpleName MethodInvocation MethodInvocation SimpleName repository
+on entity updated SimpleName MethodInvocation MethodInvocation SimpleName get entity definition
+on entity updated SimpleName MethodInvocation MethodInvocation SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName update entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+update entity SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

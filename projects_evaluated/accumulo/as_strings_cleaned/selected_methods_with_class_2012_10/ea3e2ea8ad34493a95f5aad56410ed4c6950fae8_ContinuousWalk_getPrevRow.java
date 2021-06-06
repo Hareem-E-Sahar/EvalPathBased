@@ -1,0 +1,37 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+get prev row offset SimpleName MethodInvocation SimpleName val
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prev row offset
+offset SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get prev row offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val
+offset SimpleName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName val
+string SimpleName SimpleType ClassInstanceCreation SimpleName offset
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+val SimpleName ClassInstanceCreation SimpleName offset
+val SimpleName ClassInstanceCreation NumberLiteral empty
+offset SimpleName ClassInstanceCreation NumberLiteral empty
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get prev row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get prev row
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+get prev row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+get prev row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+get prev row SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get prev row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get prev row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

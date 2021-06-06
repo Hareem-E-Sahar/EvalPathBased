@@ -1,0 +1,27 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+get table configuration SimpleName MethodInvocation SimpleName tablet
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table configuration
+acu table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acu table conf
+acu table conf SimpleName MethodInvocation SimpleName get boolean
+acu table conf SimpleName MethodInvocation QualifiedName propertytable walog enabled
+get boolean SimpleName MethodInvocation QualifiedName propertytable walog enabled
+log id generator SimpleName MethodInvocation SimpleName increment and get
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName create log id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet
+int PrimitiveType MethodDeclaration SimpleName create log id
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet
+create log id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+create log id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName create log id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create log id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet

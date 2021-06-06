@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName configured principal
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get canonical host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get canonical host name
+orgapachehadoopsecuritysecurity util QualifiedName MethodInvocation SimpleName get server principal
+orgapachehadoopsecuritysecurity util QualifiedName MethodInvocation SimpleName configured principal
+orgapachehadoopsecuritysecurity util QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName inet address
+orgapachehadoopsecuritysecurity util QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get local host
+orgapachehadoopsecuritysecurity util QualifiedName MethodInvocation MethodInvocation SimpleName get canonical host name
+get server principal SimpleName MethodInvocation SimpleName configured principal
+get server principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName inet address
+get server principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local host
+get server principal SimpleName MethodInvocation MethodInvocation SimpleName get canonical host name
+configured principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName inet address
+configured principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local host
+configured principal SimpleName MethodInvocation MethodInvocation SimpleName get canonical host name
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+could not convert configured server principal StringLiteral InfixExpression SimpleName configured principal
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not convert configured server principal
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName configured principal
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+could not convert configured server principal StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+configured principal SimpleName InfixExpression ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get server principal
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configured principal
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get server principal
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configured principal
+string SimpleName SimpleType MethodDeclaration SimpleName get server principal
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName configured principal
+get server principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get server principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configured principal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server principal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configured principal
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server principal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configured principal

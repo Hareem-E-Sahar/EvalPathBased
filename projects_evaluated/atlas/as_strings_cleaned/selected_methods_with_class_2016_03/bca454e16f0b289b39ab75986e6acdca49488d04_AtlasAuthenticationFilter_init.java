@@ -1,0 +1,38 @@
+filter config SimpleName SimpleType SingleVariableDeclaration SimpleName filter config
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral atlas authentication filter initialization started
+info SimpleName MethodInvocation StringLiteral atlas authentication filter initialization started
+init SimpleName SuperMethodInvocation SimpleName filter config
+options servlet SimpleName Assignment ClassInstanceCreation SimpleType SimpleName http servlet
+options servlet SimpleName MethodInvocation SimpleName init
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter config
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter config
+public Modifier MethodDeclaration SimpleType SimpleName servlet exception
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter config
+void PrimitiveType MethodDeclaration SimpleType SimpleName servlet exception
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter config
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter config
+init SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+filter config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

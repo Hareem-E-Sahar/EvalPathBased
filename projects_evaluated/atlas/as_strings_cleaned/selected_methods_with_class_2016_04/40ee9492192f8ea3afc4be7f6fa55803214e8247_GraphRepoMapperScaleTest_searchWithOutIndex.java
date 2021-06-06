@@ -1,0 +1,125 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+graph provider SimpleName MethodInvocation SimpleName get
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph provider
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+system SimpleName MethodInvocation SimpleName current time millis
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+graph SimpleName MethodInvocation SimpleName query
+graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+graph SimpleName MethodInvocation MethodInvocation SimpleName key
+query SimpleName MethodInvocation MethodInvocation SimpleName key
+graph SimpleName MethodInvocation MethodInvocation QualifiedName compareequal
+query SimpleName MethodInvocation MethodInvocation QualifiedName compareequal
+graph SimpleName MethodInvocation MethodInvocation SimpleName value
+query SimpleName MethodInvocation MethodInvocation SimpleName value
+has SimpleName MethodInvocation SimpleName key
+has SimpleName MethodInvocation QualifiedName compareequal
+has SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation QualifiedName compareequal
+key SimpleName MethodInvocation SimpleName value
+compareequal QualifiedName MethodInvocation SimpleName value
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName compareequal
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName ignored
+query SimpleName MethodInvocation SimpleName vertices
+ignored SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName query
+ignored SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName vertices
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start
+search on [ StringLiteral InfixExpression SimpleName key
+search on [ StringLiteral InfixExpression StringLiteral =
+search on [ StringLiteral InfixExpression SimpleName value
+search on [ StringLiteral InfixExpression StringLiteral ] returned results
+search on [ StringLiteral InfixExpression SimpleName count
+key SimpleName InfixExpression StringLiteral =
+key SimpleName InfixExpression SimpleName value
+key SimpleName InfixExpression StringLiteral ] returned results
+key SimpleName InfixExpression SimpleName count
+key SimpleName InfixExpression StringLiteral took
+= StringLiteral InfixExpression SimpleName value
+= StringLiteral InfixExpression StringLiteral ] returned results
+= StringLiteral InfixExpression SimpleName count
+= StringLiteral InfixExpression StringLiteral took
+= StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName start
+value SimpleName InfixExpression StringLiteral ] returned results
+value SimpleName InfixExpression SimpleName count
+value SimpleName InfixExpression StringLiteral took
+value SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName start
+value SimpleName InfixExpression StringLiteral ms
+] returned results StringLiteral InfixExpression SimpleName count
+] returned results StringLiteral InfixExpression StringLiteral took
+] returned results StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName start
+] returned results StringLiteral InfixExpression StringLiteral ms
+count SimpleName InfixExpression StringLiteral took
+count SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName start
+count SimpleName InfixExpression StringLiteral ms
+took StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName start
+took StringLiteral InfixExpression StringLiteral ms
+start SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ms
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral search on [
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ] returned results
+systemout QualifiedName MethodInvocation InfixExpression SimpleName count
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral took
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ms
+println SimpleName MethodInvocation InfixExpression StringLiteral search on [
+println SimpleName MethodInvocation InfixExpression SimpleName key
+println SimpleName MethodInvocation InfixExpression StringLiteral =
+println SimpleName MethodInvocation InfixExpression SimpleName value
+println SimpleName MethodInvocation InfixExpression StringLiteral ] returned results
+println SimpleName MethodInvocation InfixExpression SimpleName count
+println SimpleName MethodInvocation InfixExpression StringLiteral took
+println SimpleName MethodInvocation InfixExpression StringLiteral ms
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName search with out index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName search with out index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+search with out index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search with out index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+search with out index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search with out index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+search with out index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+search with out index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName search with out index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search with out index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

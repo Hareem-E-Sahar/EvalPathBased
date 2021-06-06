@@ -1,0 +1,78 @@
+data output stream SimpleName SimpleType SingleVariableDeclaration SimpleName out stream
+raw data SimpleName Assignment ClassInstanceCreation SimpleType SimpleName data input buffer
+codec SimpleName MethodInvocation SimpleName create input stream
+codec SimpleName MethodInvocation SimpleName raw data
+create input stream SimpleName MethodInvocation SimpleName raw data
+decompressed stream SimpleName Assignment MethodInvocation SimpleName codec
+decompressed stream SimpleName Assignment MethodInvocation SimpleName create input stream
+decompressed stream SimpleName Assignment MethodInvocation SimpleName raw data
+decompressed stream SimpleName MethodInvocation SimpleName reset state
+raw data SimpleName MethodInvocation SimpleName reset
+raw data SimpleName MethodInvocation SimpleName data
+raw data SimpleName MethodInvocation NumberLiteral empty
+raw data SimpleName MethodInvocation SimpleName data size
+reset SimpleName MethodInvocation SimpleName data
+reset SimpleName MethodInvocation NumberLiteral empty
+reset SimpleName MethodInvocation SimpleName data size
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName data size
+empty NumberLiteral MethodInvocation SimpleName data size
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+bytes read SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+decompressed stream SimpleName MethodInvocation SimpleName read
+decompressed stream SimpleName MethodInvocation SimpleName buffer
+decompressed stream SimpleName MethodInvocation NumberLiteral empty
+decompressed stream SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+bytes read SimpleName Assignment MethodInvocation SimpleName decompressed stream
+bytes read SimpleName Assignment MethodInvocation SimpleName read
+bytes read SimpleName Assignment MethodInvocation SimpleName buffer
+bytes read SimpleName Assignment MethodInvocation NumberLiteral empty
+bytes read SimpleName Assignment MethodInvocation NumberLiteral empty
+out stream SimpleName MethodInvocation SimpleName write
+out stream SimpleName MethodInvocation SimpleName buffer
+out stream SimpleName MethodInvocation NumberLiteral empty
+out stream SimpleName MethodInvocation SimpleName bytes read
+write SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName bytes read
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName bytes read
+empty NumberLiteral MethodInvocation SimpleName bytes read
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write uncompressed bytes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out stream
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName write uncompressed bytes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out stream
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write uncompressed bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output stream
+write uncompressed bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out stream
+write uncompressed bytes SimpleName MethodDeclaration SimpleType SimpleName io exception
+write uncompressed bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+out stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write uncompressed bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write uncompressed bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

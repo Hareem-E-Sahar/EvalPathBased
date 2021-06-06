@@ -1,0 +1,80 @@
+zoo reader writer SimpleName SimpleType SingleVariableDeclaration SimpleName zoo
+string SimpleName SimpleType SingleVariableDeclaration SimpleName loggers path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation SimpleName loggers path
+get children SimpleName MethodInvocation SimpleName loggers path
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName loggers path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+deleting StringLiteral InfixExpression SimpleName loggers path
+deleting StringLiteral InfixExpression StringLiteral /
+deleting StringLiteral InfixExpression SimpleName child
+deleting StringLiteral InfixExpression StringLiteral from zookeeper
+loggers path SimpleName InfixExpression StringLiteral /
+loggers path SimpleName InfixExpression SimpleName child
+loggers path SimpleName InfixExpression StringLiteral from zookeeper
+/ StringLiteral InfixExpression SimpleName child
+/ StringLiteral InfixExpression StringLiteral from zookeeper
+child SimpleName InfixExpression StringLiteral from zookeeper
+message SimpleName MethodInvocation InfixExpression StringLiteral deleting
+message SimpleName MethodInvocation InfixExpression SimpleName loggers path
+message SimpleName MethodInvocation InfixExpression StringLiteral /
+message SimpleName MethodInvocation InfixExpression SimpleName child
+message SimpleName MethodInvocation InfixExpression StringLiteral from zookeeper
+loggers path SimpleName InfixExpression StringLiteral /
+loggers path SimpleName InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName loggers path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName child
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName loggers path
+recursive delete SimpleName MethodInvocation InfixExpression StringLiteral /
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName child
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+loggers path SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node missing policyskip
+child SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName children
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName children
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName zap directory
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName zap directory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+void PrimitiveType MethodDeclaration SimpleName zap directory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zoo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+zap directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+zap directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo
+zap directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+zap directory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName zap directory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loggers path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName zap directory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName loggers path

@@ -1,0 +1,73 @@
+comgoogleprotobufcoded output stream QualifiedName SimpleType SingleVariableDeclaration SimpleName output
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+output SimpleName MethodInvocation SimpleName write int
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName begin
+write int SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation SimpleName begin
+empty NumberLiteral MethodInvocation SimpleName begin
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+output SimpleName MethodInvocation SimpleName write int
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName end
+write int SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation SimpleName end
+empty NumberLiteral MethodInvocation SimpleName end
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+output SimpleName MethodInvocation SimpleName write bool
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName infinite end
+write bool SimpleName MethodInvocation NumberLiteral empty
+write bool SimpleName MethodInvocation SimpleName infinite end
+empty NumberLiteral MethodInvocation SimpleName infinite end
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+output SimpleName MethodInvocation SimpleName write bool
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName closed
+write bool SimpleName MethodInvocation NumberLiteral empty
+write bool SimpleName MethodInvocation SimpleName closed
+empty NumberLiteral MethodInvocation SimpleName closed
+bit field SimpleName InfixExpression NumberLiteral x
+bit field SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+output SimpleName MethodInvocation SimpleName write int
+output SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName created time
+write int SimpleName MethodInvocation NumberLiteral empty
+write int SimpleName MethodInvocation SimpleName created time
+empty NumberLiteral MethodInvocation SimpleName created time
+get unknown fields SimpleName MethodInvocation MethodInvocation SimpleName write to
+get unknown fields SimpleName MethodInvocation MethodInvocation SimpleName output
+write to SimpleName MethodInvocation SimpleName output
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName comgoogleprotobufcoded output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName output
+public Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+void PrimitiveType MethodDeclaration SimpleName write to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName comgoogleprotobufcoded output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName output
+void PrimitiveType MethodDeclaration SimpleType QualifiedName javaioio exception
+write to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName comgoogleprotobufcoded output stream
+write to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output
+write to SimpleName MethodDeclaration SimpleType QualifiedName javaioio exception
+output SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception

@@ -1,0 +1,172 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas edge
+final Modifier SingleVariableDeclaration SimpleName edge
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas term assignment header
+atlas term assignment header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+edge SimpleName MethodInvocation SimpleName get out vertex
+term vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+term vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName term vertex
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName term vertex
+get guid SimpleName MethodInvocation SimpleName term vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName term vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+ret SimpleName MethodInvocation SimpleName set term guid
+ret SimpleName MethodInvocation SimpleName guid
+set term guid SimpleName MethodInvocation SimpleName guid
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsrelationship guid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+relation guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+relation guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+relation guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsrelationship guid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relation guid
+ret SimpleName MethodInvocation SimpleName set relation guid
+ret SimpleName MethodInvocation SimpleName relation guid
+set relation guid SimpleName MethodInvocation SimpleName relation guid
+graph helper SimpleName MethodInvocation SimpleName get property
+graph helper SimpleName MethodInvocation SimpleName term vertex
+graph helper SimpleName MethodInvocation SimpleName glossary term display name attr
+get property SimpleName MethodInvocation SimpleName term vertex
+get property SimpleName MethodInvocation SimpleName glossary term display name attr
+term vertex SimpleName MethodInvocation SimpleName glossary term display name attr
+display name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+display name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+display name SimpleName VariableDeclarationFragment MethodInvocation SimpleName term vertex
+display name SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary term display name attr
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName display name
+display name SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName display name
+ret SimpleName MethodInvocation SimpleName set display text
+ret SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+ret SimpleName MethodInvocation CastExpression SimpleName display name
+set display text SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set display text SimpleName MethodInvocation CastExpression SimpleName display name
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr description
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr description
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr description SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+description SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+description SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+description SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+ret SimpleName MethodInvocation SimpleName set description
+ret SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr expression
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr expression
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr expression SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr expression
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expression
+ret SimpleName MethodInvocation SimpleName set expression
+ret SimpleName MethodInvocation SimpleName expression
+set expression SimpleName MethodInvocation SimpleName expression
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr status
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr status
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr status SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+status SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr status
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+atlas term assignment status SimpleName MethodInvocation SimpleName value of
+atlas term assignment status SimpleName MethodInvocation SimpleName status
+value of SimpleName MethodInvocation SimpleName status
+assignment status SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas term assignment status
+assignment status SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+assignment status SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+atlas term assignment status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName assignment status
+ret SimpleName MethodInvocation SimpleName set status
+ret SimpleName MethodInvocation SimpleName assignment status
+set status SimpleName MethodInvocation SimpleName assignment status
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr confidence
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+get property SimpleName MethodInvocation SimpleName term assignment attr confidence
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+term assignment attr confidence SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+confidence SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+confidence SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+confidence SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr confidence
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName confidence
+ret SimpleName MethodInvocation SimpleName set confidence
+ret SimpleName MethodInvocation SimpleName confidence
+set confidence SimpleName MethodInvocation SimpleName confidence
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr created by
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr created by
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr created by SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+created by SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+created by SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+created by SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr created by
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created by
+ret SimpleName MethodInvocation SimpleName set created by
+ret SimpleName MethodInvocation SimpleName created by
+set created by SimpleName MethodInvocation SimpleName created by
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr steward
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr steward
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr steward SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+steward SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+steward SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+steward SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr steward
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName steward
+ret SimpleName MethodInvocation SimpleName set steward
+ret SimpleName MethodInvocation SimpleName steward
+set steward SimpleName MethodInvocation SimpleName steward
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName term assignment attr source
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName term assignment attr source
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+term assignment attr source SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName term assignment attr source
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+ret SimpleName MethodInvocation SimpleName set source
+ret SimpleName MethodInvocation SimpleName source
+set source SimpleName MethodInvocation SimpleName source
+private Modifier MethodDeclaration SimpleType SimpleName atlas term assignment header
+private Modifier MethodDeclaration SimpleName to term assignment header
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas term assignment header SimpleName SimpleType MethodDeclaration SimpleName to term assignment header
+atlas term assignment header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas term assignment header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+to term assignment header SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+to term assignment header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+to term assignment header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+to term assignment header SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas term assignment header
+public Modifier TypeDeclaration MethodDeclaration SimpleName to term assignment header
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas term assignment header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to term assignment header
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

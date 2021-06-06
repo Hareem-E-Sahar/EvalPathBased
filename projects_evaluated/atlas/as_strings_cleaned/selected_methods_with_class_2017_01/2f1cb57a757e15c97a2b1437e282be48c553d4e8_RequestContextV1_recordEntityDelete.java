@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity id
+deleted entity ids SimpleName MethodInvocation SimpleName add
+deleted entity ids SimpleName MethodInvocation SimpleName entity id
+add SimpleName MethodInvocation SimpleName entity id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName record entity delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity id
+void PrimitiveType MethodDeclaration SimpleName record entity delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity id
+record entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+record entity delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName record entity delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName record entity delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id

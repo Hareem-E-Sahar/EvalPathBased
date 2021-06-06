@@ -1,0 +1,295 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+get unique names SimpleName MethodInvocation NumberLiteral empty
+get unique names SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get unique names
+table SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+flush SimpleName MethodInvocation SimpleName table
+flush SimpleName MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation BooleanLiteral true
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName metadata tablename
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+grant table permission SimpleName MethodInvocation MethodInvocation SimpleName whoami
+grant table permission SimpleName MethodInvocation QualifiedName metadata tablename
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName metadata tablename
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName table permissionwrite
+whoami SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+metadata tablename QualifiedName MethodInvocation QualifiedName table permissionwrite
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+metadata tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral test del
+create del mutation SimpleName MethodInvocation StringLiteral test
+create del mutation SimpleName MethodInvocation StringLiteral value test
+empty StringLiteral MethodInvocation StringLiteral test del
+empty StringLiteral MethodInvocation StringLiteral test
+empty StringLiteral MethodInvocation StringLiteral value test
+test del StringLiteral MethodInvocation StringLiteral test
+test del StringLiteral MethodInvocation StringLiteral value test
+test StringLiteral MethodInvocation StringLiteral value test
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral test del
+bw SimpleName MethodInvocation MethodInvocation StringLiteral test
+bw SimpleName MethodInvocation MethodInvocation StringLiteral value test
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral test del
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral test
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral value test
+create del mutation SimpleName MethodInvocation StringLiteral /
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+create del mutation SimpleName MethodInvocation StringLiteral empty
+/ StringLiteral MethodInvocation StringLiteral empty
+/ StringLiteral MethodInvocation StringLiteral empty
+/ StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+bw SimpleName MethodInvocation MethodInvocation StringLiteral /
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create del mutation
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral /
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+add mutation SimpleName MethodInvocation MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName close
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc
+output SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+output SimpleName MethodInvocation SimpleName contains
+output SimpleName MethodInvocation StringLiteral ingoring invalid deletion candidate
+contains SimpleName MethodInvocation StringLiteral ingoring invalid deletion candidate
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+functional test utils SimpleName MethodInvocation SimpleName read all
+functional test utils SimpleName MethodInvocation SimpleName cluster
+functional test utils SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+functional test utils SimpleName MethodInvocation SimpleName gc
+read all SimpleName MethodInvocation SimpleName cluster
+read all SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+read all SimpleName MethodInvocation SimpleName gc
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName simple garbage collector
+cluster SimpleName MethodInvocation SimpleName gc
+simple garbage collector SimpleName SimpleType TypeLiteral MethodInvocation SimpleName gc
+output SimpleName Assignment MethodInvocation SimpleName functional test utils
+output SimpleName Assignment MethodInvocation SimpleName read all
+output SimpleName Assignment MethodInvocation SimpleName cluster
+output SimpleName Assignment MethodInvocation SimpleName gc
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+ioe SimpleName MethodInvocation SimpleName print stack trace
+gc SimpleName MethodInvocation SimpleName destroy
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table SimpleName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+scanner SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral r
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral r
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+r StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+r StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column family SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral cf
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral cf
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+cf StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+cf StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral cq
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral cq
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+cq StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+cq StringLiteral MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral v
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+v StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+v StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+v StringLiteral MethodInvocation MethodInvocation SimpleName to string
+iter SimpleName MethodInvocation SimpleName has next
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert SimpleName MethodInvocation MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test invalid delete
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test invalid delete
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test invalid delete
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test invalid delete
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test invalid delete SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test invalid delete
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test invalid delete
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

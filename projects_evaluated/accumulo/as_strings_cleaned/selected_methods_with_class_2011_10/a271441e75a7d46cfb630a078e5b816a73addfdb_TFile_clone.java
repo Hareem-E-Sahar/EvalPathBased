@@ -1,0 +1,18 @@
+location SimpleName SimpleType ClassInstanceCreation SimpleName block index
+location SimpleName SimpleType ClassInstanceCreation SimpleName record index
+block index SimpleName ClassInstanceCreation SimpleName record index
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName location
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+protected Modifier MethodDeclaration SimpleType SimpleName location
+protected Modifier MethodDeclaration SimpleName clone
+location SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName location
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName location
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

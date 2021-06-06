@@ -1,0 +1,138 @@
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral true
+create table SimpleName MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create test dfs path SimpleName MethodInvocation StringLiteral test base dir
+test path SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs path
+test path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test base dir
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName test path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create test dfs path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test base dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test path
+alter table StringLiteral InfixExpression SimpleName table name
+alter table StringLiteral InfixExpression StringLiteral set location
+alter table StringLiteral InfixExpression SimpleName test path
+alter table StringLiteral InfixExpression StringLiteral empty
+table name SimpleName InfixExpression StringLiteral set location
+table name SimpleName InfixExpression SimpleName test path
+table name SimpleName InfixExpression StringLiteral empty
+set location StringLiteral InfixExpression SimpleName test path
+set location StringLiteral InfixExpression StringLiteral empty
+test path SimpleName InfixExpression StringLiteral empty
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral alter table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral set location
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName test path
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table ref
+table ref SimpleName MethodInvocation SimpleName get
+table ref SimpleName MethodInvocation QualifiedName hive data model generatorstorage desc
+get SimpleName MethodInvocation QualifiedName hive data model generatorstorage desc
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName table ref
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+referenceable SimpleName SimpleType CastExpression MethodInvocation QualifiedName hive data model generatorstorage desc
+sd ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName referenceable
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table ref
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName hive data model generatorstorage desc
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd ref
+sd ref SimpleName MethodInvocation SimpleName get
+sd ref SimpleName MethodInvocation StringLiteral location
+get SimpleName MethodInvocation StringLiteral location
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName sd ref
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral location
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation SimpleName test path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+test path SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test path
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName test path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert on entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table ref
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert on entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table ref
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert on entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table ref
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+assert on entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table ref
+assert on entity SimpleName MethodDeclaration SimpleType SimpleName exception
+table ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+assert table is registered SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+default db SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+table name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assert predicate
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation NumberLiteral empty
+validate process SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+process reference SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName test path
+validate hdfs paths SimpleName MethodInvocation SimpleName inputs
+process reference SimpleName MethodInvocation SimpleName test path
+process reference SimpleName MethodInvocation SimpleName inputs
+test path SimpleName MethodInvocation SimpleName inputs
+validate output tables SimpleName MethodInvocation SimpleName process reference
+validate output tables SimpleName MethodInvocation SimpleName table id
+process reference SimpleName MethodInvocation SimpleName table id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter table location
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter table location
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test alter table location
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter table location SimpleName MethodDeclaration SimpleType SimpleName exception
+test alter table location SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter table location
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter table location
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

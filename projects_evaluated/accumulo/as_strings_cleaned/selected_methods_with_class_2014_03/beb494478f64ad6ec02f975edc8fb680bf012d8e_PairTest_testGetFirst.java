@@ -1,0 +1,38 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation StringLiteral twentyfive
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation StringLiteral twentyfive
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation StringLiteral twentyfive
+empty NumberLiteral ClassInstanceCreation StringLiteral twentyfive
+pair SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+pair SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral twentyfive
+integer SimpleName SimpleType CastExpression NumberLiteral empty
+pair SimpleName MethodInvocation SimpleName get first
+assert equals SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+assert equals SimpleName MethodInvocation CastExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName pair
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get first
+empty NumberLiteral CastExpression MethodInvocation MethodInvocation SimpleName pair
+empty NumberLiteral CastExpression MethodInvocation MethodInvocation SimpleName get first
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get first
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get first
+void PrimitiveType MethodDeclaration SimpleName test get first
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get first
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get first

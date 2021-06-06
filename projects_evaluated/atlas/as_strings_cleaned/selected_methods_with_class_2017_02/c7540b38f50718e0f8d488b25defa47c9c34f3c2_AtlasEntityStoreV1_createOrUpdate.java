@@ -1,0 +1,79 @@
+entity stream SimpleName SimpleType SingleVariableDeclaration SimpleName entity stream
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> create or update
+debug SimpleName MethodInvocation StringLiteral ==> create or update
+entity stream SimpleName MethodInvocation SimpleName has next
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral no entities to createupdate
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral no entities to createupdate
+entity graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName delete handler
+entity graph mapper SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+delete handler SimpleName ClassInstanceCreation SimpleName type registry
+entity graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity graph mapper
+entity graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName delete handler
+entity graph mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type registry
+entity graph mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity graph mapper
+pre create or update SimpleName MethodInvocation SimpleName entity stream
+pre create or update SimpleName MethodInvocation SimpleName entity graph mapper
+entity stream SimpleName MethodInvocation SimpleName entity graph mapper
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName pre create or update
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity stream
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity graph mapper
+entity mutation context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+entity graph mapper SimpleName MethodInvocation SimpleName map attributes
+entity graph mapper SimpleName MethodInvocation SimpleName context
+map attributes SimpleName MethodInvocation SimpleName context
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity graph mapper
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName map attributes
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+context SimpleName MethodInvocation SimpleName get guid assignments
+ret SimpleName MethodInvocation SimpleName set guid assignments
+ret SimpleName MethodInvocation MethodInvocation SimpleName context
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid assignments
+set guid assignments SimpleName MethodInvocation MethodInvocation SimpleName context
+set guid assignments SimpleName MethodInvocation MethodInvocation SimpleName get guid assignments
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== create or update
+debug SimpleName MethodInvocation StringLiteral <== create or update
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create or update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName create or update
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName create or update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName create or update
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+create or update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity stream
+create or update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+create or update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+create or update SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName create or update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create or update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

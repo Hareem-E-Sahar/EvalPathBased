@@ -1,0 +1,34 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing vertex {}
+log SimpleName MethodInvocation SimpleName vertex
+debug SimpleName MethodInvocation StringLiteral removing vertex {}
+debug SimpleName MethodInvocation SimpleName vertex
+removing vertex {} StringLiteral MethodInvocation SimpleName vertex
+titan graph SimpleName MethodInvocation SimpleName remove vertex
+titan graph SimpleName MethodInvocation SimpleName vertex
+remove vertex SimpleName MethodInvocation SimpleName vertex
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removed vertex {}
+log SimpleName MethodInvocation SimpleName vertex
+info SimpleName MethodInvocation StringLiteral removed vertex {}
+info SimpleName MethodInvocation SimpleName vertex
+removed vertex {} StringLiteral MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName remove vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+remove vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+remove vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

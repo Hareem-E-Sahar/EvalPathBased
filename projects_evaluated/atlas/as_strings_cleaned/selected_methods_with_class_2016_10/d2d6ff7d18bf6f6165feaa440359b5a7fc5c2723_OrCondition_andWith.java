@@ -1,0 +1,42 @@
+or condition SimpleName SimpleType SingleVariableDeclaration SimpleName other
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName and condition
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName and condition
+and condition SimpleName SimpleType SingleVariableDeclaration SimpleName other expr term
+other SimpleName MethodInvocation SimpleName get and terms
+and condition SimpleName SimpleType SingleVariableDeclaration SimpleName current expr
+current expr SimpleName MethodInvocation SimpleName copy
+current and condition copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName current expr
+current and condition copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy
+and condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current and condition copy
+other expr term SimpleName MethodInvocation SimpleName get terms
+current and condition copy SimpleName MethodInvocation SimpleName and with
+current and condition copy SimpleName MethodInvocation MethodInvocation SimpleName other expr term
+current and condition copy SimpleName MethodInvocation MethodInvocation SimpleName get terms
+and with SimpleName MethodInvocation MethodInvocation SimpleName other expr term
+and with SimpleName MethodInvocation MethodInvocation SimpleName get terms
+expanded expression children SimpleName MethodInvocation SimpleName add
+expanded expression children SimpleName MethodInvocation SimpleName current and condition copy
+add SimpleName MethodInvocation SimpleName current and condition copy
+and condition SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName children
+current expr SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName children
+other expr term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName other
+other expr term SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get and terms
+children SimpleName Assignment SimpleName expanded expression children
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName and with
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+void PrimitiveType MethodDeclaration SimpleName and with
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+and with SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName or condition
+and with SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName and with
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName and with
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

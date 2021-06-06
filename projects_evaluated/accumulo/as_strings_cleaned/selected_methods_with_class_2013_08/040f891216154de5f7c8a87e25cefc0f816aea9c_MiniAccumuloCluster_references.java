@@ -1,0 +1,25 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+process SimpleName SimpleType SingleVariableDeclaration SimpleName procs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName process reference
+process SimpleName SimpleType SingleVariableDeclaration SimpleName proc
+process reference SimpleName SimpleType ClassInstanceCreation SimpleName proc
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName process reference
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName proc
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName process reference
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName proc
+process SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName procs
+proc SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName procs
+procs SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName references
+process reference SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName references
+references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName process
+references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName procs
+references SimpleName MethodDeclaration Block EnhancedForStatement SimpleName procs
+references SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName procs
+test SimpleName TypeDeclaration MethodDeclaration SimpleName references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName procs

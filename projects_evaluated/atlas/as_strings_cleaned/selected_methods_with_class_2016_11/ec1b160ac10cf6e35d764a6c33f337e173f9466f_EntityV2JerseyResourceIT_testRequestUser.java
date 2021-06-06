@@ -1,0 +1,68 @@
+create hive db SimpleName MethodInvocation SimpleName database name
+hive db instance v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive db
+hive db instance v SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive db instance v
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName entity audit event
+hive db instance v SimpleName MethodInvocation SimpleName get guid
+short PrimitiveType CastExpression NumberLiteral empty
+atlas client v SimpleName MethodInvocation SimpleName get entity audit events
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName hive db instance v
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas client v SimpleName MethodInvocation CastExpression PrimitiveType short
+atlas client v SimpleName MethodInvocation CastExpression NumberLiteral empty
+get entity audit events SimpleName MethodInvocation MethodInvocation SimpleName hive db instance v
+get entity audit events SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity audit events SimpleName MethodInvocation CastExpression PrimitiveType short
+get entity audit events SimpleName MethodInvocation CastExpression NumberLiteral empty
+hive db instance v SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType short
+hive db instance v SimpleName MethodInvocation MethodInvocation CastExpression NumberLiteral empty
+get guid SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType short
+get guid SimpleName MethodInvocation MethodInvocation CastExpression NumberLiteral empty
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+events SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity audit events
+events SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hive db instance v
+events SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType short
+events SimpleName VariableDeclarationFragment MethodInvocation CastExpression NumberLiteral empty
+events SimpleName MethodInvocation SimpleName size
+events SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName events
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+events SimpleName MethodInvocation SimpleName get
+events SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+events SimpleName MethodInvocation MethodInvocation SimpleName get user
+get SimpleName MethodInvocation MethodInvocation SimpleName get user
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get user
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName events
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get user
+assert equals SimpleName MethodInvocation StringLiteral admin
+events SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral admin
+get user SimpleName MethodInvocation MethodInvocation StringLiteral admin
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test request user
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test request user
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test request user
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test request user SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test request user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test request user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

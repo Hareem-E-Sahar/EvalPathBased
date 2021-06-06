@@ -1,0 +1,112 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName relationship edge
+atlas relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get relationship type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName relationship
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relation type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+relation type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship type by name
+relation type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+relation type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas relationship type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relation type
+relationship SimpleName MethodInvocation SimpleName get propagate tags
+relationship SimpleName MethodInvocation MethodInvocation SimpleName name
+get propagate tags SimpleName MethodInvocation MethodInvocation SimpleName name
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName relationship edge
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+atlas graph utils v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get propagate tags
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName name
+set property SimpleName MethodInvocation SimpleName relationship edge
+set property SimpleName MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get propagate tags
+set property SimpleName MethodInvocation MethodInvocation SimpleName name
+relationship edge SimpleName MethodInvocation QualifiedName constantsrelationshiptype tag propagation key
+relationship edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+relationship edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get propagate tags
+relationship edge SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsrelationshiptype tag propagation key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName relationship
+constantsrelationshiptype tag propagation key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get propagate tags
+constantsrelationshiptype tag propagation key QualifiedName MethodInvocation MethodInvocation SimpleName name
+relation type SimpleName MethodInvocation SimpleName get all attributes
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation MethodInvocation SimpleName relation type
+map utils SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName relation type
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get all attributes
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+relation type SimpleName MethodInvocation SimpleName get all attributes
+relation type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attr SimpleName MethodInvocation SimpleName get name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+attr SimpleName MethodInvocation SimpleName get vertex property name
+attr vertex property SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+attr vertex property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr vertex property
+relationship SimpleName MethodInvocation SimpleName has attribute
+relationship SimpleName MethodInvocation SimpleName attr name
+has attribute SimpleName MethodInvocation SimpleName attr name
+relationship SimpleName MethodInvocation SimpleName get attribute
+relationship SimpleName MethodInvocation SimpleName attr name
+get attribute SimpleName MethodInvocation SimpleName attr name
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName relationship edge
+atlas graph utils v SimpleName MethodInvocation SimpleName attr vertex property
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName relationship
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName attr name
+set property SimpleName MethodInvocation SimpleName relationship edge
+set property SimpleName MethodInvocation SimpleName attr vertex property
+set property SimpleName MethodInvocation MethodInvocation SimpleName relationship
+set property SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+set property SimpleName MethodInvocation MethodInvocation SimpleName attr name
+relationship edge SimpleName MethodInvocation SimpleName attr vertex property
+relationship edge SimpleName MethodInvocation MethodInvocation SimpleName relationship
+relationship edge SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+relationship edge SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr vertex property SimpleName MethodInvocation MethodInvocation SimpleName relationship
+attr vertex property SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+attr vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr name
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entity retriever SimpleName MethodInvocation SimpleName map edge to atlas relationship
+entity retriever SimpleName MethodInvocation SimpleName relationship edge
+map edge to atlas relationship SimpleName MethodInvocation SimpleName relationship edge
+private Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SimpleName update relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName update relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship edge
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship edge
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship
+update relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+relationship edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+relationship edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relationship SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName update relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

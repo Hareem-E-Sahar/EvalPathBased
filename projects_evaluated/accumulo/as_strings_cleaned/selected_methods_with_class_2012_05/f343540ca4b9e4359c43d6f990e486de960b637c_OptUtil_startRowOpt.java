@@ -1,0 +1,37 @@
+option SimpleName SimpleType ClassInstanceCreation SimpleName start row opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral beginrow
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral begin row inclusive
+start row opt SimpleName ClassInstanceCreation StringLiteral beginrow
+start row opt SimpleName ClassInstanceCreation BooleanLiteral true
+start row opt SimpleName ClassInstanceCreation StringLiteral begin row inclusive
+beginrow StringLiteral ClassInstanceCreation BooleanLiteral true
+beginrow StringLiteral ClassInstanceCreation StringLiteral begin row inclusive
+true BooleanLiteral ClassInstanceCreation StringLiteral begin row inclusive
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+o SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName start row opt
+o SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral beginrow
+o SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+o SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral begin row inclusive
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName MethodInvocation SimpleName set arg name
+o SimpleName MethodInvocation StringLiteral beginrow
+set arg name SimpleName MethodInvocation StringLiteral beginrow
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName option
+public Modifier MethodDeclaration SimpleName start row opt
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+static Modifier MethodDeclaration SimpleType SimpleName option
+static Modifier MethodDeclaration SimpleName start row opt
+static Modifier MethodDeclaration Block ReturnStatement SimpleName o
+option SimpleName SimpleType MethodDeclaration SimpleName start row opt
+start row opt SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName option
+public Modifier TypeDeclaration MethodDeclaration SimpleName start row opt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName option
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start row opt

@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path uri
+hdfs path SimpleName MethodInvocation SimpleName to string
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs path
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs path
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+ref SimpleName MethodInvocation SimpleName set
+ref SimpleName MethodInvocation StringLiteral path
+ref SimpleName MethodInvocation SimpleName path uri
+set SimpleName MethodInvocation StringLiteral path
+set SimpleName MethodInvocation SimpleName path uri
+path StringLiteral MethodInvocation SimpleName path uri
+path SimpleName SimpleType ClassInstanceCreation SimpleName path uri
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName path uri
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+path SimpleName MethodInvocation SimpleName get path without scheme and authority
+path SimpleName MethodInvocation SimpleName path
+get path without scheme and authority SimpleName MethodInvocation SimpleName path
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path without scheme and authority SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get path without scheme and authority SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+ref SimpleName MethodInvocation SimpleName set
+ref SimpleName MethodInvocation QualifiedName atlas clientname
+ref SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+ref SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+atlas clientname QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName to lower case
+ref SimpleName MethodInvocation SimpleName set
+ref SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+ref SimpleName MethodInvocation SimpleName path uri
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName path uri
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName path uri
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName fill hdfs data set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path uri
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ref
+referenceable SimpleName SimpleType MethodDeclaration SimpleName fill hdfs data set
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path uri
+fill hdfs data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fill hdfs data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path uri
+fill hdfs data set SimpleName MethodDeclaration Block ReturnStatement SimpleName ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName fill hdfs data set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fill hdfs data set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path uri

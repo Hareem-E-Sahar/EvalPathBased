@@ -1,0 +1,87 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for topology {}
+log SimpleName MethodInvocation SimpleName topology name
+debug SimpleName MethodInvocation StringLiteral searching for topology {}
+debug SimpleName MethodInvocation SimpleName topology name
+searching for topology {} StringLiteral MethodInvocation SimpleName topology name
+storm data typesstorm topology QualifiedName MethodInvocation SimpleName get name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral from s where name = s
+string SimpleName MethodInvocation MethodInvocation QualifiedName storm data typesstorm topology
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+string SimpleName MethodInvocation SimpleName topology name
+format SimpleName MethodInvocation StringLiteral from s where name = s
+format SimpleName MethodInvocation MethodInvocation QualifiedName storm data typesstorm topology
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation SimpleName topology name
+from s where name = s StringLiteral MethodInvocation MethodInvocation QualifiedName storm data typesstorm topology
+from s where name = s StringLiteral MethodInvocation MethodInvocation SimpleName get name
+from s where name = s StringLiteral MethodInvocation SimpleName topology name
+storm data typesstorm topology QualifiedName MethodInvocation MethodInvocation SimpleName topology name
+get name SimpleName MethodInvocation MethodInvocation SimpleName topology name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral from s where name = s
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName storm data typesstorm topology
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName topology name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+atlas client SimpleName MethodInvocation SimpleName search
+atlas client SimpleName MethodInvocation SimpleName query
+atlas client SimpleName MethodInvocation NumberLiteral empty
+atlas client SimpleName MethodInvocation NumberLiteral empty
+search SimpleName MethodInvocation SimpleName query
+search SimpleName MethodInvocation NumberLiteral empty
+search SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+results SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+results SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+array node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+row SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName has
+row SimpleName MethodInvocation StringLiteral id
+has SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral id
+get SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+id StringLiteral MethodInvocation MethodInvocation SimpleName get
+row SimpleName MethodInvocation MethodInvocation StringLiteral id
+get SimpleName MethodInvocation MethodInvocation StringLiteral id
+id StringLiteral MethodInvocation MethodInvocation StringLiteral id
+get SimpleName MethodInvocation StringLiteral id
+row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as text
+id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation SimpleName as text
+id StringLiteral MethodInvocation MethodInvocation SimpleName as text
+row SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName as text
+has SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName as text
+id StringLiteral MethodInvocation ConditionalExpression MethodInvocation SimpleName as text
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get topology guid
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get topology guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get topology guid SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get topology guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get topology guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

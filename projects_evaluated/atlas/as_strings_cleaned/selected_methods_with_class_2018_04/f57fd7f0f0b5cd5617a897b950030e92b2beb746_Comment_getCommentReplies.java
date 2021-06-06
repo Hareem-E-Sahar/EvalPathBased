@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName comment
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName comment replies
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName comment
+public Modifier MethodDeclaration SimpleName get comment replies
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get comment replies
+comment SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get comment replies
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get comment replies
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get comment replies

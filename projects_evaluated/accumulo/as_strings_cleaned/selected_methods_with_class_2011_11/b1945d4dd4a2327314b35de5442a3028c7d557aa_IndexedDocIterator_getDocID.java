@@ -1,0 +1,25 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+parse doc id SimpleName MethodInvocation SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName text
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get doc id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+protected Modifier MethodDeclaration SimpleType SimpleName text
+protected Modifier MethodDeclaration SimpleName get doc id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+text SimpleName SimpleType MethodDeclaration SimpleName get doc id
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get doc id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+get doc id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName get doc id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get doc id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

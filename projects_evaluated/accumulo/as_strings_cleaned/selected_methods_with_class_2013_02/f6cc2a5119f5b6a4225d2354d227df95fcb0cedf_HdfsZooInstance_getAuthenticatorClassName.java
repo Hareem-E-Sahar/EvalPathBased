@@ -1,0 +1,35 @@
+client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+master client SimpleName MethodInvocation SimpleName get connection with retry
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection with retry
+client SimpleName MethodInvocation SimpleName get authenticator class name
+t transport exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get authenticator class name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get authenticator class name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+string SimpleName SimpleType MethodDeclaration SimpleName get authenticator class name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+get authenticator class name SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authenticator class name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authenticator class name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

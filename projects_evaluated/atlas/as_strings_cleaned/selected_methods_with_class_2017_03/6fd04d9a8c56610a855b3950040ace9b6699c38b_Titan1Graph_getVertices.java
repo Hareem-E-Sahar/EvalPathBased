@@ -1,0 +1,43 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas graph query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation SimpleName key
+query SimpleName MethodInvocation SimpleName value
+has SimpleName MethodInvocation SimpleName key
+has SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+query SimpleName MethodInvocation SimpleName vertices
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get vertices
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName get vertices
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get vertices
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

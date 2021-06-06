@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repository name
+repository name SimpleName FieldAccess Assignment SimpleName repository name
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set repository name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository name
+void PrimitiveType MethodDeclaration SimpleName set repository name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repository name
+set repository name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set repository name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set repository name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set repository name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name

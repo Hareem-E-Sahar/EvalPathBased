@@ -1,0 +1,80 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas full text result
+atlas index query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+query params SimpleName SimpleType SingleVariableDeclaration SimpleName params
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas full text result
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName result
+query SimpleName MethodInvocation SimpleName vertices
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+iter SimpleName MethodInvocation SimpleName has next
+ret SimpleName MethodInvocation SimpleName size
+params SimpleName MethodInvocation SimpleName limit
+ret SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName params
+ret SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName limit
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName params
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName limit
+iter SimpleName MethodInvocation SimpleName next
+idx query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+idx query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx query result
+idx query result SimpleName MethodInvocation SimpleName get vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx query result
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantsguid property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName vertex
+vertex SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get property
+vertex SimpleName InfixExpression ConditionalExpression MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName vertex
+guid SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName vertex
+guid SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+to atlas entity header SimpleName MethodInvocation SimpleName vertex
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+idx query result SimpleName MethodInvocation SimpleName get score
+score SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx query result
+score SimpleName VariableDeclarationFragment MethodInvocation SimpleName get score
+double SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName score
+atlas full text result SimpleName SimpleType ClassInstanceCreation SimpleName entity
+atlas full text result SimpleName SimpleType ClassInstanceCreation SimpleName score
+entity SimpleName ClassInstanceCreation SimpleName score
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas full text result
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName score
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas full text result
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName entity
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName score
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas full text result
+private Modifier MethodDeclaration SimpleName get index query results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas index query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query params
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get index query results
+atlas full text result SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get index query results
+get index query results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas index query
+get index query results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+get index query results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query params
+get index query results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+get index query results SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index query results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index query results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

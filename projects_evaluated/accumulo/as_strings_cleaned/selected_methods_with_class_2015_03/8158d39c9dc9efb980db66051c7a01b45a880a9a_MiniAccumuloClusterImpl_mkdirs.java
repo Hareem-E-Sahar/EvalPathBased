@@ -1,0 +1,33 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+dir SimpleName MethodInvocation SimpleName mkdirs
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to create {}
+log SimpleName MethodInvocation SimpleName dir
+warn SimpleName MethodInvocation StringLiteral unable to create {}
+warn SimpleName MethodInvocation SimpleName dir
+unable to create {} StringLiteral MethodInvocation SimpleName dir
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName mkdirs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName mkdirs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SimpleName mkdirs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+mkdirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+mkdirs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mkdirs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mkdirs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

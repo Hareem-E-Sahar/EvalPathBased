@@ -1,0 +1,225 @@
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName hive event
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source list
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName target list
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName target list
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive process
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+process referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+process referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive process
+process referenceable SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process referenceable
+hive event SimpleName MethodInvocation SimpleName get query str
+query str SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive event
+query str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get query str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query str
+is create op SimpleName MethodInvocation SimpleName hive event
+normalize SimpleName MethodInvocation SimpleName query str
+query str SimpleName Assignment MethodInvocation SimpleName normalize
+query str SimpleName Assignment MethodInvocation SimpleName query str
+get process qualified name SimpleName MethodInvocation SimpleName query str
+get process qualified name SimpleName MethodInvocation SimpleName source list
+get process qualified name SimpleName MethodInvocation SimpleName target list
+query str SimpleName MethodInvocation SimpleName source list
+query str SimpleName MethodInvocation SimpleName target list
+source list SimpleName MethodInvocation SimpleName target list
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get process qualified name
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName query str
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName source list
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName target list
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation MethodInvocation SimpleName get process qualified name
+set SimpleName MethodInvocation MethodInvocation SimpleName query str
+set SimpleName MethodInvocation MethodInvocation SimpleName source list
+set SimpleName MethodInvocation MethodInvocation SimpleName target list
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get process qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName query str
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName source list
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName target list
+lower SimpleName MethodInvocation SimpleName query str
+query str SimpleName Assignment MethodInvocation SimpleName lower
+query str SimpleName Assignment MethodInvocation SimpleName query str
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+process referenceable SimpleName MethodInvocation SimpleName query str
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName query str
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName query str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral registering query {}
+log SimpleName MethodInvocation SimpleName query str
+debug SimpleName MethodInvocation StringLiteral registering query {}
+debug SimpleName MethodInvocation SimpleName query str
+registering query {} StringLiteral MethodInvocation SimpleName query str
+source list SimpleName MethodInvocation SimpleName is empty
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral inputs
+process referenceable SimpleName MethodInvocation SimpleName source list
+set SimpleName MethodInvocation StringLiteral inputs
+set SimpleName MethodInvocation SimpleName source list
+inputs StringLiteral MethodInvocation SimpleName source list
+target list SimpleName MethodInvocation SimpleName is empty
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral outputs
+process referenceable SimpleName MethodInvocation SimpleName target list
+set SimpleName MethodInvocation StringLiteral outputs
+set SimpleName MethodInvocation SimpleName target list
+outputs StringLiteral MethodInvocation SimpleName target list
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation QualifiedName atlas clientname
+process referenceable SimpleName MethodInvocation SimpleName query str
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation SimpleName query str
+atlas clientname QualifiedName MethodInvocation SimpleName query str
+hive event SimpleName MethodInvocation SimpleName get operation
+hive event SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+get operation SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral operation type
+process referenceable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive event
+process referenceable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+set SimpleName MethodInvocation StringLiteral operation type
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive event
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation
+set SimpleName MethodInvocation MethodInvocation SimpleName get operation name
+operation type StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hive event
+operation type StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get operation
+operation type StringLiteral MethodInvocation MethodInvocation SimpleName get operation name
+hive event SimpleName MethodInvocation SimpleName get query start time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hive event
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get query start time
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral start time
+process referenceable SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+process referenceable SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hive event
+process referenceable SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get query start time
+set SimpleName MethodInvocation StringLiteral start time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hive event
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get query start time
+start time StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+start time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName hive event
+start time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get query start time
+hive event SimpleName MethodInvocation SimpleName get user
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral user name
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName hive event
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get user
+set SimpleName MethodInvocation StringLiteral user name
+set SimpleName MethodInvocation MethodInvocation SimpleName hive event
+set SimpleName MethodInvocation MethodInvocation SimpleName get user
+user name StringLiteral MethodInvocation MethodInvocation SimpleName hive event
+user name StringLiteral MethodInvocation MethodInvocation SimpleName get user
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral query text
+process referenceable SimpleName MethodInvocation SimpleName query str
+set SimpleName MethodInvocation StringLiteral query text
+set SimpleName MethodInvocation SimpleName query str
+query text StringLiteral MethodInvocation SimpleName query str
+hive event SimpleName MethodInvocation SimpleName get query id
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral query id
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName hive event
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get query id
+set SimpleName MethodInvocation StringLiteral query id
+set SimpleName MethodInvocation MethodInvocation SimpleName hive event
+set SimpleName MethodInvocation MethodInvocation SimpleName get query id
+query id StringLiteral MethodInvocation MethodInvocation SimpleName hive event
+query id StringLiteral MethodInvocation MethodInvocation SimpleName get query id
+hive event SimpleName MethodInvocation SimpleName get json plan
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral query plan
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName hive event
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get json plan
+set SimpleName MethodInvocation StringLiteral query plan
+set SimpleName MethodInvocation MethodInvocation SimpleName hive event
+set SimpleName MethodInvocation MethodInvocation SimpleName get json plan
+query plan StringLiteral MethodInvocation MethodInvocation SimpleName hive event
+query plan StringLiteral MethodInvocation MethodInvocation SimpleName get json plan
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+process referenceable SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+set SimpleName MethodInvocation QualifiedName atlas constantscluster name attribute
+set SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+set SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName dgi bridge
+atlas constantscluster name attribute QualifiedName MethodInvocation MethodInvocation SimpleName get cluster name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+recent queries SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+hive event SimpleName MethodInvocation SimpleName get query str
+recent queries SimpleName MethodInvocation SimpleName add
+recent queries SimpleName MethodInvocation MethodInvocation SimpleName hive event
+recent queries SimpleName MethodInvocation MethodInvocation SimpleName get query str
+add SimpleName MethodInvocation MethodInvocation SimpleName hive event
+add SimpleName MethodInvocation MethodInvocation SimpleName get query str
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral recent queries
+process referenceable SimpleName MethodInvocation SimpleName recent queries
+set SimpleName MethodInvocation StringLiteral recent queries
+set SimpleName MethodInvocation SimpleName recent queries
+recent queries StringLiteral MethodInvocation SimpleName recent queries
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+process referenceable SimpleName MethodInvocation SimpleName set
+process referenceable SimpleName MethodInvocation StringLiteral end time
+process referenceable SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+process referenceable SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+process referenceable SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation StringLiteral end time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+end time StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+end time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+end time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get process referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName source list
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get process referenceable
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive event
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source list
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target list
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive event
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source list
+get process referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target list
+get process referenceable SimpleName MethodDeclaration Block ReturnStatement SimpleName process referenceable
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive event
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source list
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target list
+hive event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source list
+hive event SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target list
+source list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target list

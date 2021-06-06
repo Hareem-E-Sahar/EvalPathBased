@@ -1,0 +1,173 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName acuconf
+acuconf SimpleName MethodInvocation SimpleName get count
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom size
+get count SimpleName MethodInvocation QualifiedName propertytable bloom size
+num keys SimpleName Assignment MethodInvocation SimpleName acuconf
+num keys SimpleName Assignment MethodInvocation SimpleName get count
+num keys SimpleName Assignment MethodInvocation QualifiedName propertytable bloom size
+acuconf SimpleName MethodInvocation SimpleName get fraction
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom errorrate
+get fraction SimpleName MethodInvocation QualifiedName propertytable bloom errorrate
+error rate SimpleName VariableDeclarationFragment MethodInvocation SimpleName acuconf
+error rate SimpleName VariableDeclarationFragment MethodInvocation SimpleName get fraction
+error rate SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytable bloom errorrate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName error rate
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName acuconf
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get fraction
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertytable bloom errorrate
+hash count SimpleName PrefixExpression InfixExpression SimpleName num keys
+. NumberLiteral InfixExpression SimpleName hash count
+math SimpleName MethodInvocation SimpleName pow
+math SimpleName MethodInvocation SimpleName error rate
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression SimpleName hash count
+pow SimpleName MethodInvocation SimpleName error rate
+pow SimpleName MethodInvocation InfixExpression NumberLiteral .
+pow SimpleName MethodInvocation InfixExpression SimpleName hash count
+error rate SimpleName MethodInvocation InfixExpression NumberLiteral .
+error rate SimpleName MethodInvocation InfixExpression SimpleName hash count
+. NumberLiteral InfixExpression MethodInvocation SimpleName math
+. NumberLiteral InfixExpression MethodInvocation SimpleName pow
+. NumberLiteral InfixExpression MethodInvocation SimpleName error rate
+. NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName hash count
+math SimpleName MethodInvocation SimpleName log
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pow
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error rate
+log SimpleName MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pow
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error rate
+num keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName math
+num keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName log
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName num keys
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName log
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName num keys
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName log
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName ceil
+vector size SimpleName Assignment CastExpression PrimitiveType int
+vector size SimpleName Assignment CastExpression MethodInvocation SimpleName math
+vector size SimpleName Assignment CastExpression MethodInvocation SimpleName ceil
+acuconf SimpleName MethodInvocation SimpleName get
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom hashtype
+get SimpleName MethodInvocation QualifiedName propertytable bloom hashtype
+hash SimpleName MethodInvocation SimpleName parse hash type
+hash SimpleName MethodInvocation MethodInvocation SimpleName acuconf
+hash SimpleName MethodInvocation MethodInvocation SimpleName get
+hash SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom hashtype
+parse hash type SimpleName MethodInvocation MethodInvocation SimpleName acuconf
+parse hash type SimpleName MethodInvocation MethodInvocation SimpleName get
+parse hash type SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom hashtype
+dynamic bloom filter SimpleName SimpleType ClassInstanceCreation SimpleName vector size
+dynamic bloom filter SimpleName SimpleType ClassInstanceCreation SimpleName hash count
+dynamic bloom filter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hash
+dynamic bloom filter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse hash type
+dynamic bloom filter SimpleName SimpleType ClassInstanceCreation SimpleName num keys
+vector size SimpleName ClassInstanceCreation SimpleName hash count
+vector size SimpleName ClassInstanceCreation MethodInvocation SimpleName hash
+vector size SimpleName ClassInstanceCreation MethodInvocation SimpleName parse hash type
+vector size SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName acuconf
+vector size SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+vector size SimpleName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName propertytable bloom hashtype
+vector size SimpleName ClassInstanceCreation SimpleName num keys
+hash count SimpleName ClassInstanceCreation MethodInvocation SimpleName hash
+hash count SimpleName ClassInstanceCreation MethodInvocation SimpleName parse hash type
+hash count SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName acuconf
+hash count SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+hash count SimpleName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName propertytable bloom hashtype
+hash count SimpleName ClassInstanceCreation SimpleName num keys
+hash SimpleName MethodInvocation ClassInstanceCreation SimpleName num keys
+parse hash type SimpleName MethodInvocation ClassInstanceCreation SimpleName num keys
+acuconf SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName num keys
+get SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName num keys
+propertytable bloom hashtype QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName num keys
+bloom filter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName dynamic bloom filter
+bloom filter SimpleName Assignment ClassInstanceCreation SimpleName vector size
+bloom filter SimpleName Assignment ClassInstanceCreation SimpleName hash count
+bloom filter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName hash
+bloom filter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName parse hash type
+bloom filter SimpleName Assignment ClassInstanceCreation SimpleName num keys
+acuconf SimpleName MethodInvocation SimpleName get
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+get SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+accumulo vfs class loader SimpleName MethodInvocation SimpleName load class
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName acuconf
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName get
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom key functor
+accumulo vfs class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key functor
+load class SimpleName MethodInvocation MethodInvocation SimpleName acuconf
+load class SimpleName MethodInvocation MethodInvocation SimpleName get
+load class SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom key functor
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key functor
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo vfs class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName acuconf
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+clazz SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertytable bloom key functor
+clazz SimpleName MethodInvocation SimpleName new instance
+transformer SimpleName Assignment MethodInvocation SimpleName clazz
+transformer SimpleName Assignment MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+acuconf SimpleName MethodInvocation SimpleName get
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+get SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+failed to find key functor StringLiteral InfixExpression MethodInvocation SimpleName acuconf
+failed to find key functor StringLiteral InfixExpression MethodInvocation SimpleName get
+failed to find key functor StringLiteral InfixExpression MethodInvocation QualifiedName propertytable bloom key functor
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to find key functor
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName acuconf
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+log SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable bloom key functor
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to find key functor
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName acuconf
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+error SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable bloom key functor
+error SimpleName MethodInvocation SimpleName e
+failed to find key functor StringLiteral InfixExpression MethodInvocation SimpleName e
+acuconf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+propertytable bloom key functor QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+acuconf SimpleName MethodInvocation SimpleName get
+acuconf SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+get SimpleName MethodInvocation QualifiedName propertytable bloom key functor
+failed to find key functor StringLiteral InfixExpression MethodInvocation SimpleName acuconf
+failed to find key functor StringLiteral InfixExpression MethodInvocation SimpleName get
+failed to find key functor StringLiteral InfixExpression MethodInvocation QualifiedName propertytable bloom key functor
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to find key functor
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init bloom filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName init bloom filter
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration SimpleName init bloom filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+init bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+init bloom filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+init bloom filter SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init bloom filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init bloom filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acuconf

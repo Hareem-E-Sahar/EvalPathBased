@@ -1,0 +1,83 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map owner guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName map owner guid
+get entity definition SimpleName MethodInvocation SimpleName map owner guid
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner instance
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+assert null SimpleName MethodInvocation MethodInvocation SimpleName map owner instance
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral map
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral bi map
+get SimpleName MethodInvocation StringLiteral bi map
+assert null SimpleName MethodInvocation MethodInvocation SimpleName map owner instance
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral bi map
+graph helper SimpleName MethodInvocation SimpleName get instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+get vertex for guid SimpleName MethodInvocation SimpleName map owner guid
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph helper
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner vertex
+map owner vertex SimpleName MethodInvocation SimpleName get property
+map owner vertex SimpleName MethodInvocation StringLiteral map ownermapvalue
+map owner vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation StringLiteral map ownermapvalue
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+map ownermapvalue StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName string
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner vertex
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+object SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map ownermapvalue
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object
+assert null SimpleName MethodInvocation SimpleName object
+map owner vertex SimpleName MethodInvocation SimpleName get property
+map owner vertex SimpleName MethodInvocation StringLiteral map ownerbi mapvalue
+map owner vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation StringLiteral map ownerbi mapvalue
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+map ownerbi mapvalue StringLiteral MethodInvocation TypeLiteral SimpleType SimpleName string
+object SimpleName Assignment MethodInvocation SimpleName map owner vertex
+object SimpleName Assignment MethodInvocation SimpleName get property
+object SimpleName Assignment MethodInvocation StringLiteral map ownerbi mapvalue
+assert null SimpleName MethodInvocation SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert test disconnect map reference from class type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test disconnect map reference from class type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert test disconnect map reference from class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert test disconnect map reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert test disconnect map reference from class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+assert test disconnect map reference from class type SimpleName MethodDeclaration SimpleType SimpleName exception
+map owner guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test disconnect map reference from class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test disconnect map reference from class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map owner guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,68 @@
+scanner SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+key StringLiteral InfixExpression MethodInvocation SimpleName to string
+key StringLiteral InfixExpression StringLiteral value
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+key StringLiteral InfixExpression MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral value
+to string SimpleName MethodInvocation InfixExpression StringLiteral value
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+value StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+value StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+value StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral value
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+info SimpleName MethodInvocation InfixExpression StringLiteral key
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+info SimpleName MethodInvocation InfixExpression StringLiteral value
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName log
+scanner SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName info
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName print row
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName print row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleName print row
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+print row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+print row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+print row SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner

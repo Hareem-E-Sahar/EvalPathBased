@@ -1,0 +1,53 @@
+federated connector SimpleName SimpleType SingleVariableDeclaration SimpleName federated connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+federated connector SimpleName MethodInvocation SimpleName get connector
+connector SimpleName Assignment MethodInvocation SimpleName federated connector
+connector SimpleName Assignment MethodInvocation SimpleName get connector
+connector SimpleName MethodInvocation SimpleName disconnect
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+federated connector SimpleName MethodInvocation SimpleName get metadata collection id
+error SimpleName MethodInvocation SimpleName get message
+exception from disconnect of connector to metadata collection StringLiteral InfixExpression MethodInvocation SimpleName federated connector
+exception from disconnect of connector to metadata collection StringLiteral InfixExpression MethodInvocation SimpleName get metadata collection id
+exception from disconnect of connector to metadata collection StringLiteral InfixExpression StringLiteral error message was
+exception from disconnect of connector to metadata collection StringLiteral InfixExpression MethodInvocation SimpleName error
+exception from disconnect of connector to metadata collection StringLiteral InfixExpression MethodInvocation SimpleName get message
+federated connector SimpleName MethodInvocation InfixExpression StringLiteral error message was
+get metadata collection id SimpleName MethodInvocation InfixExpression StringLiteral error message was
+federated connector SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+federated connector SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+get metadata collection id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+get metadata collection id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error message was StringLiteral InfixExpression MethodInvocation SimpleName error
+error message was StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral exception from disconnect of connector to metadata collection
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName federated connector
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get metadata collection id
+log SimpleName MethodInvocation InfixExpression StringLiteral error message was
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation InfixExpression StringLiteral exception from disconnect of connector to metadata collection
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName federated connector
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get metadata collection id
+error SimpleName MethodInvocation InfixExpression StringLiteral error message was
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName disconnect connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName federated connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName federated connector
+void PrimitiveType MethodDeclaration SimpleName disconnect connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName federated connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName federated connector
+disconnect connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName federated connector
+disconnect connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName federated connector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName disconnect connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName federated connector
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName disconnect connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName federated connector

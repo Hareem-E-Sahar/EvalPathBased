@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex properties
+vertex properties SimpleName MethodInvocation SimpleName contains key
+vertex properties SimpleName MethodInvocation SimpleName key
+contains key SimpleName MethodInvocation SimpleName key
+vertex properties SimpleName MethodInvocation SimpleName get
+vertex properties SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get value from properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+object SimpleName SimpleType MethodDeclaration SimpleName get value from properties
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+get value from properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get value from properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get value from properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value from properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value from properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex properties

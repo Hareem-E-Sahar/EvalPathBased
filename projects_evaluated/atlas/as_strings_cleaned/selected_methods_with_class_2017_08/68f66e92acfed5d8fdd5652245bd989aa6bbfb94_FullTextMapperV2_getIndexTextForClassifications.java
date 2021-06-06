@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+atlas classification SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classifications
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get and cache entity SimpleName MethodInvocation SimpleName guid
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and cache entity
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with ext info
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classifications
+is not empty SimpleName MethodInvocation SimpleName classifications
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+classification SimpleName MethodInvocation SimpleName get type name
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName classification
+sb SimpleName MethodInvocation MethodInvocation SimpleName get type name
+append SimpleName MethodInvocation MethodInvocation SimpleName classification
+append SimpleName MethodInvocation MethodInvocation SimpleName get type name
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation MethodInvocation SimpleName full text delimiter
+classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName full text delimiter
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName full text delimiter
+append SimpleName MethodInvocation SimpleName full text delimiter
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+classification SimpleName MethodInvocation SimpleName get type name
+get exclude attributes for index text SimpleName MethodInvocation MethodInvocation SimpleName classification
+get exclude attributes for index text SimpleName MethodInvocation MethodInvocation SimpleName get type name
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exclude attributes for index text
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+classification SimpleName MethodInvocation SimpleName get attributes
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map attributes SimpleName MethodInvocation MethodInvocation SimpleName classification
+map attributes SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+map attributes SimpleName MethodInvocation SimpleName entity with ext info
+map attributes SimpleName MethodInvocation SimpleName sb
+map attributes SimpleName MethodInvocation SimpleName exclude attributes
+classification SimpleName MethodInvocation MethodInvocation SimpleName entity with ext info
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName entity with ext info
+classification SimpleName MethodInvocation MethodInvocation SimpleName sb
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName sb
+classification SimpleName MethodInvocation MethodInvocation SimpleName exclude attributes
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName exclude attributes
+entity with ext info SimpleName MethodInvocation SimpleName sb
+entity with ext info SimpleName MethodInvocation SimpleName exclude attributes
+sb SimpleName MethodInvocation SimpleName exclude attributes
+atlas classification SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+classification SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classifications
+sb SimpleName MethodInvocation SimpleName to string
+ret SimpleName Assignment MethodInvocation SimpleName sb
+ret SimpleName Assignment MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral full text mapper v map {}
+log SimpleName MethodInvocation SimpleName guid
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral full text mapper v map {}
+debug SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation SimpleName ret
+full text mapper v map {} StringLiteral MethodInvocation SimpleName guid
+full text mapper v map {} StringLiteral MethodInvocation SimpleName ret
+guid SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get index text for classifications
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classifications
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName get index text for classifications
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classifications
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get index text for classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get index text for classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get index text for classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classifications
+get index text for classifications SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get index text for classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+classifications SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index text for classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index text for classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

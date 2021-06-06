@@ -1,0 +1,44 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+long PrimitiveType SingleVariableDeclaration SimpleName update id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+t key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName t constraint violation summary
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName t key extent
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName update errors
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName update id
+public Modifier MethodDeclaration SimpleType SimpleName update errors
+public Modifier MethodDeclaration SimpleName close update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName update id
+update errors SimpleName SimpleType MethodDeclaration SimpleName close update
+update errors SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+update errors SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+update errors SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName update id
+close update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+close update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+close update SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+close update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName update id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName update id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName update errors
+public Modifier TypeDeclaration MethodDeclaration SimpleName close update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName update id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName update errors
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName update id

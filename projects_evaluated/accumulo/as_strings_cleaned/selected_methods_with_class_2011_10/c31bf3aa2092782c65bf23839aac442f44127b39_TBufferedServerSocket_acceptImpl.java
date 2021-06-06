@@ -1,0 +1,30 @@
+impl SimpleName MethodInvocation SimpleName accept impl public
+sock SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+sock SimpleName VariableDeclarationFragment MethodInvocation SimpleName accept impl public
+t socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sock
+t buffered socket SimpleName SimpleType ClassInstanceCreation SimpleName sock
+t buffered socket SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName buffer size
+sock SimpleName ClassInstanceCreation FieldAccess SimpleName buffer size
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+t transport exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t transport
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName accept impl
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t transport exception
+protected Modifier MethodDeclaration SimpleType SimpleName t transport
+protected Modifier MethodDeclaration SimpleName accept impl
+protected Modifier MethodDeclaration SimpleType SimpleName t transport exception
+t transport SimpleName SimpleType MethodDeclaration SimpleName accept impl
+t transport SimpleName SimpleType MethodDeclaration SimpleType SimpleName t transport exception
+accept impl SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport
+public Modifier TypeDeclaration MethodDeclaration SimpleName accept impl
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport
+test SimpleName TypeDeclaration MethodDeclaration SimpleName accept impl
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

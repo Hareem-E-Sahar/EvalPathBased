@@ -1,0 +1,191 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName uniq attributes
+entity type SimpleName MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral retrieving entity with type and attributes values
+log SimpleName MethodInvocation SimpleName entity type name
+log SimpleName MethodInvocation SimpleName uniq attributes
+debug SimpleName MethodInvocation StringLiteral retrieving entity with type and attributes values
+debug SimpleName MethodInvocation SimpleName entity type name
+debug SimpleName MethodInvocation SimpleName uniq attributes
+retrieving entity with type and attributes values StringLiteral MethodInvocation SimpleName entity type name
+retrieving entity with type and attributes values StringLiteral MethodInvocation SimpleName uniq attributes
+entity type name SimpleName MethodInvocation SimpleName uniq attributes
+graph SimpleName MethodInvocation SimpleName query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+uniq attributes SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+e SimpleName MethodInvocation SimpleName get value
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+entity type SimpleName MethodInvocation SimpleName get qualified attribute name
+entity type SimpleName MethodInvocation SimpleName attr name
+get qualified attribute name SimpleName MethodInvocation SimpleName attr name
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName entity type
+query SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute name
+query SimpleName MethodInvocation MethodInvocation SimpleName attr name
+query SimpleName MethodInvocation SimpleName attr value
+has SimpleName MethodInvocation MethodInvocation SimpleName entity type
+has SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute name
+has SimpleName MethodInvocation MethodInvocation SimpleName attr name
+has SimpleName MethodInvocation SimpleName attr value
+entity type SimpleName MethodInvocation MethodInvocation SimpleName attr value
+get qualified attribute name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+attr name SimpleName MethodInvocation MethodInvocation SimpleName attr value
+query SimpleName Assignment MethodInvocation SimpleName query
+query SimpleName Assignment MethodInvocation SimpleName has
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName get qualified attribute name
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName attr name
+query SimpleName Assignment MethodInvocation SimpleName attr value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName uniq attributes
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+query SimpleName MethodInvocation SimpleName has
+query SimpleName MethodInvocation QualifiedName constantsentity type property key
+query SimpleName MethodInvocation SimpleName entity type name
+has SimpleName MethodInvocation QualifiedName constantsentity type property key
+has SimpleName MethodInvocation SimpleName entity type name
+constantsentity type property key QualifiedName MethodInvocation SimpleName entity type name
+statusactive QualifiedName MethodInvocation SimpleName name
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+entity type name SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+entity type name SimpleName MethodInvocation MethodInvocation QualifiedName constantsstate property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusactive
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusactive
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusactive
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+entity type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName statusactive
+entity type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation QualifiedName constantsstate property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName statusactive
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+constantsstate property key QualifiedName MethodInvocation MethodInvocation QualifiedName statusactive
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName name
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+entity type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantsstate property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+statusactive QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantsstate property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+result SimpleName MethodInvocation SimpleName has next
+result SimpleName MethodInvocation SimpleName next
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName result
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName result
+has next SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName next
+entity vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName result
+entity vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName has next
+entity vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName result
+entity vertex SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity vertex
+uniq attributes SimpleName MethodInvocation SimpleName key set
+uniq attributes SimpleName MethodInvocation MethodInvocation SimpleName to string
+key set SimpleName MethodInvocation MethodInvocation SimpleName to string
+uniq attributes SimpleName MethodInvocation SimpleName values
+uniq attributes SimpleName MethodInvocation MethodInvocation SimpleName to string
+values SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance by unique attribute not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName entity type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation SimpleName entity type name
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName uniq attributes
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName key set
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName uniq attributes
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName values
+atlas error codeinstance by unique attribute not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+entity type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName uniq attributes
+entity type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName key set
+entity type name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+entity type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName uniq attributes
+entity type name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName values
+entity type name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get guid SimpleName MethodInvocation SimpleName entity vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+entity mapper SimpleName MethodInvocation SimpleName to atlas entity
+entity mapper SimpleName MethodInvocation SimpleName guid
+entity mapper SimpleName MethodInvocation BooleanLiteral true
+to atlas entity SimpleName MethodInvocation SimpleName guid
+to atlas entity SimpleName MethodInvocation BooleanLiteral true
+guid SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas entity with ext info
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get by unique attribute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier MethodDeclaration SimpleName get by unique attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName get by unique attribute
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get by unique attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+get by unique attribute SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+uniq attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get by unique attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get by unique attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uniq attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

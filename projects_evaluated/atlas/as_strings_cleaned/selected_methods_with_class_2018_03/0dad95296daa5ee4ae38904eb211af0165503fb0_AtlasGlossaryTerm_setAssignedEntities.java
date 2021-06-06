@@ -1,0 +1,27 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related object id
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas related object id
+final Modifier SingleVariableDeclaration SimpleName assigned entities
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName assigned entities
+atlas related object id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName assigned entities
+assigned entities SimpleName FieldAccess Assignment SimpleName assigned entities
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set assigned entities
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName assigned entities
+void PrimitiveType MethodDeclaration SimpleName set assigned entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName assigned entities
+set assigned entities SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set assigned entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assigned entities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set assigned entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assigned entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set assigned entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assigned entities

@@ -1,0 +1,37 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+user pass SimpleName SimpleType SingleVariableDeclaration SimpleName userpass
+get connector SimpleName MethodInvocation SimpleName userpass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+userpass SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list users
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list users
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+translate exception SimpleName MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list users
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName userpass
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list users
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list users
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list users
+list users SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+list users SimpleName MethodDeclaration SingleVariableDeclaration SimpleName userpass
+list users SimpleName MethodDeclaration SimpleType SimpleName t exception
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list users
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list users
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

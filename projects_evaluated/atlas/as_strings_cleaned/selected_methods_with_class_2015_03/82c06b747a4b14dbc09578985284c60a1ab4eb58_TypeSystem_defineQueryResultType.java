@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName attr defs
+attribute info SimpleName SimpleType ArrayType ArrayCreation QualifiedName attr defslength
+infos SimpleName VariableDeclarationFragment ArrayCreation QualifiedName attr defslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName attr defslength
+infos SimpleName ArrayAccess SimpleName i
+attr defs SimpleName ArrayAccess SimpleName i
+attribute info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName attr defs
+attribute info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName attr defslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+attr defslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+struct type SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName type system
+struct type SimpleName SimpleType ClassInstanceCreation SimpleName name
+struct type SimpleName SimpleType ClassInstanceCreation SimpleName infos
+type system SimpleName ThisExpression ClassInstanceCreation SimpleName name
+type system SimpleName ThisExpression ClassInstanceCreation SimpleName infos
+name SimpleName ClassInstanceCreation SimpleName infos
+type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct type
+type SimpleName VariableDeclarationFragment ClassInstanceCreation ThisExpression SimpleName type system
+type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName name
+type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName infos
+struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName struct type
+public Modifier MethodDeclaration SimpleName define query result type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+public Modifier MethodDeclaration SimpleType SimpleName metadata exception
+struct type SimpleName SimpleType MethodDeclaration SimpleName define query result type
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+struct type SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+define query result type SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+define query result type SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+attr defs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define query result type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define query result type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

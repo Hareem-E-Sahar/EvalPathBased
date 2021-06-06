@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName claimed owner
+atlas user saved search SimpleName SimpleType SingleVariableDeclaration SimpleName saved search
+saved search SimpleName MethodInvocation SimpleName get owner name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName saved search
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get owner name
+string utils SimpleName MethodInvocation SimpleName claimed owner
+equals SimpleName MethodInvocation MethodInvocation SimpleName saved search
+equals SimpleName MethodInvocation MethodInvocation SimpleName get owner name
+equals SimpleName MethodInvocation SimpleName claimed owner
+saved search SimpleName MethodInvocation MethodInvocation SimpleName claimed owner
+get owner name SimpleName MethodInvocation MethodInvocation SimpleName claimed owner
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid data
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral invalid data
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check saved search ownership
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName claimed owner
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas user saved search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName saved search
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName check saved search ownership
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName claimed owner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas user saved search
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName saved search
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+check saved search ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check saved search ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName claimed owner
+check saved search ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas user saved search
+check saved search ownership SimpleName MethodDeclaration SingleVariableDeclaration SimpleName saved search
+check saved search ownership SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+claimed owner SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName saved search
+claimed owner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+saved search SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check saved search ownership
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName claimed owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName saved search
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check saved search ownership
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName claimed owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName saved search
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

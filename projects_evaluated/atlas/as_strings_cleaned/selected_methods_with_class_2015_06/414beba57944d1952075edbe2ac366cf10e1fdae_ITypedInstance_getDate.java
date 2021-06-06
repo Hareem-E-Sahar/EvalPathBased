@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+date SimpleName SimpleType MethodDeclaration SimpleName get date
+date SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+date SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+get date SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get date SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get date SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName date
+public Modifier TypeDeclaration MethodDeclaration SimpleName get date
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName date
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get date
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

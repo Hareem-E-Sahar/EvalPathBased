@@ -1,0 +1,74 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName atlas server uri
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName atlas server uri
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName provided user name password
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName provided user name password
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+authentication util SimpleName MethodInvocation SimpleName is kerberos authentication enabled
+provided user name passwordlength QualifiedName InfixExpression NumberLiteral empty
+provided user name password SimpleName InfixExpression InfixExpression InfixExpression QualifiedName provided user name passwordlength
+provided user name password SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+authentication util SimpleName MethodInvocation SimpleName get basic authentication input
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName authentication util
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get basic authentication input
+atlas server uri SimpleName ClassInstanceCreation MethodInvocation SimpleName authentication util
+atlas server uri SimpleName ClassInstanceCreation MethodInvocation SimpleName get basic authentication input
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName authentication util
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get basic authentication input
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName provided user name password
+atlas server uri SimpleName ClassInstanceCreation SimpleName provided user name password
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName provided user name password
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName atlas server uri
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas server uri
+private Modifier MethodDeclaration SimpleType SimpleName atlas client
+private Modifier MethodDeclaration SimpleName init atlas client
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas server uri
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+atlas client SimpleName SimpleType MethodDeclaration SimpleName init atlas client
+atlas client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atlas server uri
+atlas client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas client SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+atlas client SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+init atlas client SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+init atlas client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas server uri
+init atlas client SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+init atlas client SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+init atlas client SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+init atlas client SimpleName MethodDeclaration Block ReturnStatement SimpleName atlas client
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+atlas server uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+atlas server uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+atlas server uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+provided user name password SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas client
+public Modifier TypeDeclaration MethodDeclaration SimpleName init atlas client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas server uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas client
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init atlas client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas server uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provided user name password
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

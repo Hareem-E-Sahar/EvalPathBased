@@ -1,0 +1,78 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+offsetslength QualifiedName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression InfixExpression QualifiedName offsetslength
+index SimpleName InfixExpression InfixExpression NumberLiteral empty
+offsets SimpleName ArrayAccess SimpleName index
+datalength QualifiedName InfixExpression ArrayAccess SimpleName offsets
+datalength QualifiedName InfixExpression ArrayAccess SimpleName index
+len SimpleName Assignment InfixExpression QualifiedName datalength
+len SimpleName Assignment InfixExpression ArrayAccess SimpleName offsets
+len SimpleName Assignment InfixExpression ArrayAccess SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+offsets SimpleName ArrayAccess InfixExpression SimpleName index
+offsets SimpleName ArrayAccess InfixExpression NumberLiteral empty
+offsets SimpleName ArrayAccess SimpleName index
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName offsets
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName index
+len SimpleName Assignment InfixExpression ArrayAccess SimpleName offsets
+len SimpleName Assignment InfixExpression ArrayAccess SimpleName offsets
+len SimpleName Assignment InfixExpression ArrayAccess SimpleName index
+offsets SimpleName ArrayAccess SimpleName index
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName data
+byte array input stream SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName offsets
+byte array input stream SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName index
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName len
+data SimpleName ClassInstanceCreation ArrayAccess SimpleName offsets
+data SimpleName ClassInstanceCreation ArrayAccess SimpleName index
+data SimpleName ClassInstanceCreation SimpleName len
+offsets SimpleName ArrayAccess ClassInstanceCreation SimpleName len
+index SimpleName ArrayAccess ClassInstanceCreation SimpleName len
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName offsets
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName index
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName len
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bais
+data input stream SimpleName SimpleType ClassInstanceCreation SimpleName bais
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bais
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName read fields
+key SimpleName MethodInvocation SimpleName dis
+read fields SimpleName MethodInvocation SimpleName dis
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName key
+key SimpleName SimpleType MethodDeclaration SimpleName get
+key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+get SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+get SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

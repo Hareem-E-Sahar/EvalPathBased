@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is file created
+public Modifier MethodDeclaration Block ReturnStatement SimpleName file created
+boolean PrimitiveType MethodDeclaration SimpleName is file created
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName file created
+is file created SimpleName MethodDeclaration Block ReturnStatement SimpleName file created
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is file created
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is file created

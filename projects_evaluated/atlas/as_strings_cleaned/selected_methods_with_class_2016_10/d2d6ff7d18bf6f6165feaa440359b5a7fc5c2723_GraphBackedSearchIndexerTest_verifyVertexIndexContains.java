@@ -1,0 +1,61 @@
+atlas graph management SimpleName SimpleType SingleVariableDeclaration SimpleName management system
+string SimpleName SimpleType SingleVariableDeclaration SimpleName index name
+management system SimpleName MethodInvocation SimpleName get graph index
+management system SimpleName MethodInvocation QualifiedName constantsvertex index
+get graph index SimpleName MethodInvocation QualifiedName constantsvertex index
+vertex index SimpleName VariableDeclarationFragment MethodInvocation SimpleName management system
+vertex index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph index
+vertex index SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsvertex index
+atlas graph index SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex index
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas property key
+vertex index SimpleName MethodInvocation SimpleName get field keys
+field keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex index
+field keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field keys
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName field keys
+as list SimpleName MethodInvocation SimpleName field keys
+management system SimpleName MethodInvocation SimpleName get property key
+management system SimpleName MethodInvocation SimpleName index name
+get property key SimpleName MethodInvocation SimpleName index name
+arrays SimpleName MethodInvocation MethodInvocation SimpleName contains
+as list SimpleName MethodInvocation MethodInvocation SimpleName contains
+field keys SimpleName MethodInvocation MethodInvocation SimpleName contains
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName management system
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property key
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName management system
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property key
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index name
+field keys SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName management system
+field keys SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property key
+field keys SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index name
+contains SimpleName MethodInvocation MethodInvocation SimpleName management system
+contains SimpleName MethodInvocation MethodInvocation SimpleName get property key
+contains SimpleName MethodInvocation MethodInvocation SimpleName index name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify vertex index contains
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName management system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index name
+void PrimitiveType MethodDeclaration SimpleName verify vertex index contains
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index name
+verify vertex index contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas graph management
+verify vertex index contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management system
+verify vertex index contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify vertex index contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index name
+management system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify vertex index contains
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify vertex index contains
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index name

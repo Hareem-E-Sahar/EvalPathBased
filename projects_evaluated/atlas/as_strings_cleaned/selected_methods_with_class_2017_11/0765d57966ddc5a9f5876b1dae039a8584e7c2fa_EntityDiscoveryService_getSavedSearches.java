@@ -1,0 +1,65 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas user saved search
+string SimpleName SimpleType SingleVariableDeclaration SimpleName current user
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName user name
+is empty SimpleName MethodInvocation SimpleName user name
+user name SimpleName Assignment SimpleName current user
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation SimpleName current user
+string utils SimpleName MethodInvocation SimpleName user name
+equals SimpleName MethodInvocation SimpleName current user
+equals SimpleName MethodInvocation SimpleName user name
+current user SimpleName MethodInvocation SimpleName user name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid data
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral invalid data
+user profile service SimpleName MethodInvocation SimpleName get saved searches
+user profile service SimpleName MethodInvocation SimpleName user name
+get saved searches SimpleName MethodInvocation SimpleName user name
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral get saved searches
+log SimpleName MethodInvocation SimpleName user name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral get saved searches
+error SimpleName MethodInvocation SimpleName user name
+error SimpleName MethodInvocation SimpleName e
+get saved searches StringLiteral MethodInvocation SimpleName user name
+get saved searches StringLiteral MethodInvocation SimpleName e
+user name SimpleName MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get saved searches
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName current user
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas user saved search
+public Modifier MethodDeclaration SimpleName get saved searches
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get saved searches
+atlas user saved search SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get saved searches
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current user
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get saved searches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+get saved searches SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+current user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+current user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get saved searches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get saved searches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

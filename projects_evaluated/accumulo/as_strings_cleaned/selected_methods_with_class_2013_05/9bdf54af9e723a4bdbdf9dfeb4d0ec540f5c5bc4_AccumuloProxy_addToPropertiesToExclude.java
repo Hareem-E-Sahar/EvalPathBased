@@ -1,0 +1,23 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+properties to exclude SimpleName FieldAccess MethodInvocation SimpleName add
+properties to exclude SimpleName FieldAccess MethodInvocation SimpleName elem
+add SimpleName MethodInvocation SimpleName elem
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to properties to exclude
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem
+void PrimitiveType MethodDeclaration SimpleName add to properties to exclude
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elem
+add to properties to exclude SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add to properties to exclude SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to properties to exclude
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to properties to exclude
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem

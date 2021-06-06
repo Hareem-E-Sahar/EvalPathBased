@@ -1,0 +1,20 @@
+analysis SimpleName SimpleType SingleVariableDeclaration SimpleName analysis
+analysis SimpleName FieldAccess Assignment SimpleName analysis
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set analysis
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName analysis
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName analysis
+void PrimitiveType MethodDeclaration SimpleName set analysis
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName analysis
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName analysis
+set analysis SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName analysis
+set analysis SimpleName MethodDeclaration SingleVariableDeclaration SimpleName analysis
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set analysis
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName analysis
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set analysis
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName analysis

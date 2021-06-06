@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName embedded connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName embedded connections
+embedded connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName embedded connections
+embedded connections SimpleName FieldAccess Assignment SimpleName embedded connections
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set embedded connections
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName embedded connections
+void PrimitiveType MethodDeclaration SimpleName set embedded connections
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName embedded connections
+set embedded connections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName embedded connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set embedded connections
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName embedded connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set embedded connections
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName embedded connections

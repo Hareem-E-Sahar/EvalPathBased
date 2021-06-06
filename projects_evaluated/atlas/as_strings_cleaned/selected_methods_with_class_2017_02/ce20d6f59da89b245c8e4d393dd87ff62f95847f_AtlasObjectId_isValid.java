@@ -1,0 +1,34 @@
+is assigned guid SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is un assigned guid
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName type name
+is not empty SimpleName MethodInvocation SimpleName type name
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName unique attributes
+is not empty SimpleName MethodInvocation SimpleName unique attributes
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unique attributes
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unique attributes
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName map utils
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unique attributes
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName is valid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is valid
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is valid SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid

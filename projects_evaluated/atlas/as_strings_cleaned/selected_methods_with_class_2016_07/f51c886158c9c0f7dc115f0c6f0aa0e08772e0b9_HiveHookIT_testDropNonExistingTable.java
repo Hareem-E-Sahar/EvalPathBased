@@ -1,0 +1,58 @@
+table name SimpleName VariableDeclarationFragment StringLiteral nonexistingtable
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral nonexistingtable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral nonexistingtable
+assert table is not registered SimpleName MethodInvocation SimpleName default db
+assert table is not registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral drop table if exists s
+string SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation StringLiteral drop table if exists s
+format SimpleName MethodInvocation SimpleName table name
+drop table if exists s StringLiteral MethodInvocation SimpleName table name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral drop table if exists s
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral drop table if exists s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert table is not registered SimpleName MethodInvocation SimpleName default db
+assert table is not registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test drop non existing table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test drop non existing table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test drop non existing table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test drop non existing table SimpleName MethodDeclaration SimpleType SimpleName exception
+test drop non existing table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test drop non existing table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test drop non existing table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test drop non existing table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

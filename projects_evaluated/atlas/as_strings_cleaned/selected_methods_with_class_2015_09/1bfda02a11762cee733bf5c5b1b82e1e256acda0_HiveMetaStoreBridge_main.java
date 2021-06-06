@@ -1,0 +1,43 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName argv
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation QualifiedName application propertiesclient properties
+get SimpleName MethodInvocation QualifiedName application propertiesclient properties
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation QualifiedName application propertiesclient properties
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas conf
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName atlas conf
+hive conf SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName atlas conf
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive meta store bridge
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas conf
+hive meta store bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive meta store bridge
+hive meta store bridge SimpleName MethodInvocation SimpleName register hive data model
+hive meta store bridge SimpleName MethodInvocation SimpleName import hive metadata
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName argv
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName argv
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName argv
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName argv
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+argv SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argv
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argv
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

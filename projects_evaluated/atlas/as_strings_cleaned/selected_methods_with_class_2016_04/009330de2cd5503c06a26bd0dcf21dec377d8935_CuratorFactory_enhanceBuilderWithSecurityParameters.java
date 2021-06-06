@@ -1,0 +1,103 @@
+ha configurationzookeeper properties QualifiedName SimpleType SingleVariableDeclaration SimpleName zookeeper properties
+curator framework factorybuilder QualifiedName SimpleType SingleVariableDeclaration SimpleName builder
+get acl provider SimpleName MethodInvocation SimpleName zookeeper properties
+acl provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName get acl provider
+acl provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName zookeeper properties
+acl provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acl provider
+auth info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth info
+zookeeper properties SimpleName MethodInvocation SimpleName has auth
+zookeeper properties SimpleName MethodInvocation SimpleName get auth
+atlas zookeeper security properties SimpleName MethodInvocation SimpleName parse auth
+atlas zookeeper security properties SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+atlas zookeeper security properties SimpleName MethodInvocation MethodInvocation SimpleName get auth
+parse auth SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+parse auth SimpleName MethodInvocation MethodInvocation SimpleName get auth
+auth info SimpleName Assignment MethodInvocation SimpleName atlas zookeeper security properties
+auth info SimpleName Assignment MethodInvocation SimpleName parse auth
+auth info SimpleName Assignment MethodInvocation MethodInvocation SimpleName zookeeper properties
+auth info SimpleName Assignment MethodInvocation MethodInvocation SimpleName get auth
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral setting up acl provider
+info SimpleName MethodInvocation StringLiteral setting up acl provider
+builder SimpleName MethodInvocation SimpleName acl provider
+builder SimpleName MethodInvocation SimpleName acl provider
+acl provider SimpleName MethodInvocation SimpleName acl provider
+auth info SimpleName MethodInvocation SimpleName get auth
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth info
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName get auth
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+auth info SimpleName MethodInvocation SimpleName get scheme
+auth info SimpleName MethodInvocation SimpleName get scheme
+string SimpleName SimpleType ClassInstanceCreation SimpleName auth
+string SimpleName SimpleType ClassInstanceCreation QualifiedName charsetsutf
+auth SimpleName ClassInstanceCreation QualifiedName charsetsutf
+get id for logging SimpleName MethodInvocation MethodInvocation SimpleName auth info
+get id for logging SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+get id for logging SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+get id for logging SimpleName MethodInvocation ClassInstanceCreation SimpleName auth
+get id for logging SimpleName MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+auth info SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName auth
+auth info SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+get scheme SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName auth
+get scheme SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral setting up auth provider with scheme {} and id {}
+log SimpleName MethodInvocation MethodInvocation SimpleName auth info
+log SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+log SimpleName MethodInvocation MethodInvocation SimpleName get id for logging
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth info
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get scheme
+log SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName auth
+log SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+info SimpleName MethodInvocation StringLiteral setting up auth provider with scheme {} and id {}
+info SimpleName MethodInvocation MethodInvocation SimpleName auth info
+info SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+info SimpleName MethodInvocation MethodInvocation SimpleName get id for logging
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth info
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get scheme
+info SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName auth
+info SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation SimpleName auth info
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation SimpleName get scheme
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation SimpleName get id for logging
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName auth info
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get scheme
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation SimpleName auth
+setting up auth provider with scheme {} and id {} StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName charsetsutf
+auth info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id for logging
+get scheme SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id for logging
+auth info SimpleName MethodInvocation SimpleName get scheme
+builder SimpleName MethodInvocation SimpleName authorization
+builder SimpleName MethodInvocation MethodInvocation SimpleName auth info
+builder SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+builder SimpleName MethodInvocation SimpleName auth
+authorization SimpleName MethodInvocation MethodInvocation SimpleName auth info
+authorization SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+authorization SimpleName MethodInvocation SimpleName auth
+auth info SimpleName MethodInvocation MethodInvocation SimpleName auth
+get scheme SimpleName MethodInvocation MethodInvocation SimpleName auth
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName enhance builder with security parameters
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName zookeeper properties
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName builder
+void PrimitiveType MethodDeclaration SimpleName enhance builder with security parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName ha configurationzookeeper properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zookeeper properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName curator framework factorybuilder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName builder
+enhance builder with security parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName ha configurationzookeeper properties
+enhance builder with security parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zookeeper properties
+enhance builder with security parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName curator framework factorybuilder
+enhance builder with security parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName builder
+zookeeper properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName builder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName enhance builder with security parameters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zookeeper properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName builder
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName enhance builder with security parameters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zookeeper properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName builder

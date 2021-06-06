@@ -1,0 +1,42 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName obj id
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add resolved id
+log SimpleName MethodInvocation SimpleName obj id
+debug SimpleName MethodInvocation StringLiteral add resolved id
+debug SimpleName MethodInvocation SimpleName obj id
+add resolved id StringLiteral MethodInvocation SimpleName obj id
+resolved ids SimpleName MethodInvocation SimpleName put
+resolved ids SimpleName MethodInvocation SimpleName obj id
+resolved ids SimpleName MethodInvocation SimpleName vertex
+put SimpleName MethodInvocation SimpleName obj id
+put SimpleName MethodInvocation SimpleName vertex
+obj id SimpleName MethodInvocation SimpleName vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add resolved id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName add resolved id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+add resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+add resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj id
+add resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add resolved id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+obj id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add resolved id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add resolved id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

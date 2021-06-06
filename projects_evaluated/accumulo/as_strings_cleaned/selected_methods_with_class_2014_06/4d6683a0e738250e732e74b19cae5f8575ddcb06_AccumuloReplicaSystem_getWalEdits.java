@@ -1,0 +1,198 @@
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+data input stream SimpleName SimpleType SingleVariableDeclaration SimpleName wal
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+long PrimitiveType SingleVariableDeclaration SimpleName size limit
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName desired tids
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName desired tids
+edits SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wal edits
+wal edits SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edits
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+size SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+entries consumed SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entries consumed
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+num updates SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num updates
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file key
+log file key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log file value
+log file value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+size SimpleName InfixExpression SimpleName size limit
+key SimpleName MethodInvocation SimpleName read fields
+key SimpleName MethodInvocation SimpleName wal
+read fields SimpleName MethodInvocation SimpleName wal
+value SimpleName MethodInvocation SimpleName read fields
+value SimpleName MethodInvocation SimpleName wal
+read fields SimpleName MethodInvocation SimpleName wal
+eof exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral caught eof exception reading {}
+log SimpleName MethodInvocation SimpleName p
+debug SimpleName MethodInvocation StringLiteral caught eof exception reading {}
+debug SimpleName MethodInvocation SimpleName p
+caught eof exception reading {} StringLiteral MethodInvocation SimpleName p
+status SimpleName MethodInvocation SimpleName get infinite end
+status SimpleName MethodInvocation SimpleName get closed
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get closed
+get infinite end SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+get infinite end SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get closed
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} is closed and has unknown length assuming entire file has been consumed
+log SimpleName MethodInvocation SimpleName p
+debug SimpleName MethodInvocation StringLiteral {} is closed and has unknown length assuming entire file has been consumed
+debug SimpleName MethodInvocation SimpleName p
+{} is closed and has unknown length assuming entire file has been consumed StringLiteral MethodInvocation SimpleName p
+entries consumed SimpleName Assignment QualifiedName longmax value
+target SimpleName MethodInvocation SimpleName get source table id
+keytablet QualifiedName MethodInvocation SimpleName get table id
+keytablet QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+target SimpleName MethodInvocation MethodInvocation SimpleName equals
+get source table id SimpleName MethodInvocation MethodInvocation SimpleName equals
+target SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get source table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName keytablet
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+desired tids SimpleName MethodInvocation SimpleName add
+desired tids SimpleName MethodInvocation QualifiedName keytid
+add SimpleName MethodInvocation QualifiedName keytid
+desired tids SimpleName MethodInvocation SimpleName contains
+desired tids SimpleName MethodInvocation QualifiedName keytid
+contains SimpleName MethodInvocation QualifiedName keytid
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+key SimpleName MethodInvocation SimpleName write
+key SimpleName MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+write value avoiding replication cycles SimpleName MethodInvocation SimpleName out
+write value avoiding replication cycles SimpleName MethodInvocation SimpleName value
+write value avoiding replication cycles SimpleName MethodInvocation SimpleName target
+out SimpleName MethodInvocation SimpleName value
+out SimpleName MethodInvocation SimpleName target
+value SimpleName MethodInvocation SimpleName target
+num updates SimpleName Assignment MethodInvocation SimpleName write value avoiding replication cycles
+num updates SimpleName Assignment MethodInvocation SimpleName out
+num updates SimpleName Assignment MethodInvocation SimpleName value
+num updates SimpleName Assignment MethodInvocation SimpleName target
+out SimpleName MethodInvocation SimpleName flush
+baos SimpleName MethodInvocation SimpleName to byte array
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName baos
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+size SimpleName Assignment QualifiedName datalength
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName data
+wrap SimpleName MethodInvocation SimpleName data
+edits SimpleName MethodInvocation SimpleName add to edits
+edits SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+edits SimpleName MethodInvocation MethodInvocation SimpleName wrap
+edits SimpleName MethodInvocation MethodInvocation SimpleName data
+add to edits SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+add to edits SimpleName MethodInvocation MethodInvocation SimpleName wrap
+add to edits SimpleName MethodInvocation MethodInvocation SimpleName data
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral ignorning wal entry which doesnt contain mutations
+trace SimpleName MethodInvocation StringLiteral ignorning wal entry which doesnt contain mutations
+keyevent QualifiedName SwitchStatement SwitchCase SimpleName define tablet
+keyevent QualifiedName SwitchStatement IfStatement MethodInvocation SimpleName equals
+keyevent QualifiedName SwitchStatement SwitchCase SimpleName mutation
+keyevent QualifiedName SwitchStatement SwitchCase SimpleName many mutations
+define tablet SimpleName SwitchCase SwitchStatement SwitchCase SimpleName mutation
+define tablet SimpleName SwitchCase SwitchStatement SwitchCase SimpleName many mutations
+mutation SimpleName SwitchCase SwitchStatement SwitchCase SimpleName many mutations
+wal replication SimpleName SimpleType ClassInstanceCreation SimpleName edits
+wal replication SimpleName SimpleType ClassInstanceCreation SimpleName size
+wal replication SimpleName SimpleType ClassInstanceCreation SimpleName entries consumed
+wal replication SimpleName SimpleType ClassInstanceCreation SimpleName num updates
+edits SimpleName ClassInstanceCreation SimpleName size
+edits SimpleName ClassInstanceCreation SimpleName entries consumed
+edits SimpleName ClassInstanceCreation SimpleName num updates
+size SimpleName ClassInstanceCreation SimpleName entries consumed
+size SimpleName ClassInstanceCreation SimpleName num updates
+entries consumed SimpleName ClassInstanceCreation SimpleName num updates
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration SimpleType SimpleName wal replication
+protected Modifier MethodDeclaration SimpleName get wal edits
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName wal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+wal replication SimpleName SimpleType MethodDeclaration SimpleName get wal edits
+wal replication SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+wal replication SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName wal
+wal replication SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+wal replication SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wal
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get wal edits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size limit
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+wal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+wal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+wal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+wal SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+wal SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+p SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+status SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+size limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+size limit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+desired tids SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName wal replication
+public Modifier TypeDeclaration MethodDeclaration SimpleName get wal edits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName wal replication
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get wal edits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desired tids
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

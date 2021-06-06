@@ -1,0 +1,99 @@
+entity mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName inverse attribute name
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName inverse vertex
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+context SimpleName MethodInvocation SimpleName is import
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName inverse vertex
+get guid SimpleName MethodInvocation SimpleName inverse vertex
+parent guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+parent guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+parent guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName inverse vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName parent guid
+is empty SimpleName MethodInvocation SimpleName parent guid
+context SimpleName MethodInvocation SimpleName get created or updated entity
+context SimpleName MethodInvocation SimpleName parent guid
+get created or updated entity SimpleName MethodInvocation SimpleName parent guid
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created or updated entity
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get relationship attribute
+entity SimpleName MethodInvocation SimpleName inverse attribute name
+get relationship attribute SimpleName MethodInvocation SimpleName inverse attribute name
+get relationship guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+get relationship guid SimpleName MethodInvocation MethodInvocation SimpleName get relationship attribute
+get relationship guid SimpleName MethodInvocation MethodInvocation SimpleName inverse attribute name
+parent relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship guid
+parent relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+parent relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relationship attribute
+parent relationship guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName inverse attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent relationship guid
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName parent relationship guid
+is empty SimpleName MethodInvocation SimpleName parent relationship guid
+atlas graph utils v SimpleName MethodInvocation SimpleName set property
+atlas graph utils v SimpleName MethodInvocation SimpleName edge
+atlas graph utils v SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+atlas graph utils v SimpleName MethodInvocation SimpleName parent relationship guid
+set property SimpleName MethodInvocation SimpleName edge
+set property SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+set property SimpleName MethodInvocation SimpleName parent relationship guid
+edge SimpleName MethodInvocation QualifiedName constantsrelationship guid property key
+edge SimpleName MethodInvocation SimpleName parent relationship guid
+constantsrelationship guid property key QualifiedName MethodInvocation SimpleName parent relationship guid
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update relationship guid for import
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+void PrimitiveType MethodDeclaration SimpleName update relationship guid for import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+update relationship guid for import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+update relationship guid for import SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+inverse attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+inverse attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+inverse attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+inverse vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+inverse vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update relationship guid for import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update relationship guid for import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName inverse vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

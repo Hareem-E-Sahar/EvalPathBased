@@ -1,0 +1,40 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName referenceable
+referenceable SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get id
+val SimpleName MethodInvocation SimpleName get class
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cannot get id from class s
+string SimpleName MethodInvocation MethodInvocation SimpleName val
+string SimpleName MethodInvocation MethodInvocation SimpleName get class
+format SimpleName MethodInvocation StringLiteral cannot get id from class s
+format SimpleName MethodInvocation MethodInvocation SimpleName val
+format SimpleName MethodInvocation MethodInvocation SimpleName get class
+cannot get id from class s StringLiteral MethodInvocation MethodInvocation SimpleName val
+cannot get id from class s StringLiteral MethodInvocation MethodInvocation SimpleName get class
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cannot get id from class s
+protected Modifier MethodDeclaration SimpleType SimpleName id
+protected Modifier MethodDeclaration SimpleName get id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+id SimpleName SimpleType MethodDeclaration SimpleName get id
+id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+id SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get id SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

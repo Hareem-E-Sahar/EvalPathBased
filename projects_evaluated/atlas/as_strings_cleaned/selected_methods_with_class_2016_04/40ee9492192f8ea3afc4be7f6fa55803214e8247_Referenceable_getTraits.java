@@ -1,0 +1,70 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i struct
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+instance SimpleName MethodInvocation SimpleName get traits
+instance SimpleName MethodInvocation SimpleName get trait
+instance SimpleName MethodInvocation SimpleName trait name
+get trait SimpleName MethodInvocation SimpleName trait name
+instance SimpleName MethodInvocation MethodInvocation SimpleName get values map
+get trait SimpleName MethodInvocation MethodInvocation SimpleName get values map
+trait name SimpleName MethodInvocation MethodInvocation SimpleName get values map
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get values map
+trait name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName instance
+trait name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get trait
+trait name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName trait name
+trait name SimpleName ClassInstanceCreation MethodInvocation SimpleName get values map
+traits SimpleName MethodInvocation SimpleName put
+traits SimpleName MethodInvocation SimpleName trait name
+traits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+traits SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+traits SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values map
+put SimpleName MethodInvocation SimpleName trait name
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values map
+trait name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName struct
+trait name SimpleName MethodInvocation ClassInstanceCreation SimpleName trait name
+trait name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values map
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName instance
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get traits
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i struct
+private Modifier MethodDeclaration SimpleName get traits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i struct
+static Modifier MethodDeclaration SimpleName get traits
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName traits
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get traits
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get traits
+i struct SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get traits
+get traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+get traits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get traits SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get traits SimpleName MethodDeclaration Block ReturnStatement SimpleName traits
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get traits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get traits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

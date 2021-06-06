@@ -1,0 +1,117 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName falks
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName falks
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+files SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+falks SimpleName MethodInvocation SimpleName get
+falks SimpleName MethodInvocation SimpleName file
+get SimpleName MethodInvocation SimpleName file
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName falks
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get size
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName file
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+result SimpleName MethodInvocation MethodInvocation SimpleName get size
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName get size
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+file SimpleName MethodInvocation MethodInvocation SimpleName get size
+pair SimpleName MethodInvocation SimpleName get first
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName pair
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+pair SimpleName MethodInvocation SimpleName get second
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName pair
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName get second
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last
+first SimpleName InfixExpression InfixExpression InfixExpression SimpleName last
+first SimpleName MethodInvocation SimpleName get row
+extent SimpleName FieldAccess MethodInvocation SimpleName contains
+extent SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName first
+extent SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get row
+contains SimpleName MethodInvocation MethodInvocation SimpleName first
+contains SimpleName MethodInvocation MethodInvocation SimpleName get row
+last SimpleName MethodInvocation SimpleName get row
+extent SimpleName FieldAccess MethodInvocation SimpleName contains
+extent SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName last
+extent SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get row
+contains SimpleName MethodInvocation MethodInvocation SimpleName last
+contains SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get size
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName file
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+result SimpleName MethodInvocation MethodInvocation SimpleName get size
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName get size
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+file SimpleName MethodInvocation MethodInvocation SimpleName get size
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName files
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+private Modifier MethodDeclaration SimpleName find chop files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName falks
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find chop files
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find chop files
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find chop files
+find chop files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+find chop files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName falks
+find chop files SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName find chop files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falks
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find chop files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName falks

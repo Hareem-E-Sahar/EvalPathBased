@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full path
+full path SimpleName MethodInvocation SimpleName ends with
+full path SimpleName MethodInvocation StringLiteral archiving
+ends with SimpleName MethodInvocation StringLiteral archiving
+static Modifier MethodDeclaration Modifier public
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is archive
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName full path
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is archive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full path
+boolean PrimitiveType MethodDeclaration SimpleName is archive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName full path
+is archive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is archive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName full path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is archive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full path
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is archive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName full path

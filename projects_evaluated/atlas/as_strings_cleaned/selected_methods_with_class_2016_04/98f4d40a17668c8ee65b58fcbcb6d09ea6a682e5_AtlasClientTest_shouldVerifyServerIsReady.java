@@ -1,0 +1,84 @@
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName service
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+service SimpleName ClassInstanceCreation SimpleName configuration
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+setup builder SimpleName MethodInvocation QualifiedName atlas clientapiversion
+setup builder SimpleName MethodInvocation SimpleName service
+atlas clientapiversion QualifiedName MethodInvocation SimpleName service
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName setup builder
+builder SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapiversion
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+web resourcebuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+client response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get status
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+when SimpleName MethodInvocation MethodInvocation SimpleName get status
+responsestatusok QualifiedName MethodInvocation SimpleName get status code
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusok
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+then return SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusok
+then return SimpleName MethodInvocation MethodInvocation SimpleName get status code
+response SimpleName MethodInvocation SimpleName get entity
+response SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get entity SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+when SimpleName MethodInvocation MethodInvocation SimpleName get entity
+versionversionrreleasenameapacheatlas StringLiteral InfixExpression StringLiteral descriptionmetadata management and data governance platform over hadoop
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral versionversionrreleasenameapacheatlas
+when SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral descriptionmetadata management and data governance platform over hadoop
+then return SimpleName MethodInvocation InfixExpression StringLiteral versionversionrreleasenameapacheatlas
+then return SimpleName MethodInvocation InfixExpression StringLiteral descriptionmetadata management and data governance platform over hadoop
+atlas clientapiversion QualifiedName MethodInvocation SimpleName get method
+builder SimpleName MethodInvocation SimpleName method
+builder SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientapiversion
+builder SimpleName MethodInvocation MethodInvocation SimpleName get method
+builder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+method SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientapiversion
+method SimpleName MethodInvocation MethodInvocation SimpleName get method
+method SimpleName MethodInvocation TypeLiteral SimpleType SimpleName client response
+when SimpleName MethodInvocation MethodInvocation SimpleName builder
+when SimpleName MethodInvocation MethodInvocation SimpleName method
+when SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientapiversion
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get method
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+then return SimpleName MethodInvocation SimpleName response
+atlas client SimpleName MethodInvocation SimpleName is server ready
+assert true SimpleName MethodInvocation MethodInvocation SimpleName atlas client
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is server ready
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName should verify server is ready
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should verify server is ready
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleName should verify server is ready
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+should verify server is ready SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should verify server is ready
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should verify server is ready
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

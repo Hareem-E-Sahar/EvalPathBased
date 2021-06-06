@@ -1,0 +1,50 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName current
+string SimpleName SimpleType ClassInstanceCreation SimpleName current
+current name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+current name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName current name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName current
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current name
+current name SimpleName MethodInvocation SimpleName equals
+current name SimpleName MethodInvocation SimpleName new table name
+equals SimpleName MethodInvocation SimpleName new table name
+current name SimpleName MethodInvocation SimpleName equals
+current name SimpleName MethodInvocation SimpleName old table name
+equals SimpleName MethodInvocation SimpleName old table name
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName old table name
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationrename
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typenotfound
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral name changed while processing
+old table name SimpleName ClassInstanceCreation QualifiedName table operationrename
+old table name SimpleName ClassInstanceCreation QualifiedName table operation exception typenotfound
+old table name SimpleName ClassInstanceCreation StringLiteral name changed while processing
+table operationrename QualifiedName ClassInstanceCreation QualifiedName table operation exception typenotfound
+table operationrename QualifiedName ClassInstanceCreation StringLiteral name changed while processing
+table operation exception typenotfound QualifiedName ClassInstanceCreation StringLiteral name changed while processing
+new table name SimpleName MethodInvocation SimpleName get bytes
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName mutate
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+byte PrimitiveType ArrayType MethodDeclaration SimpleName mutate
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName current
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+mutate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current
+mutate SimpleName MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+current SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName mutate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mutate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

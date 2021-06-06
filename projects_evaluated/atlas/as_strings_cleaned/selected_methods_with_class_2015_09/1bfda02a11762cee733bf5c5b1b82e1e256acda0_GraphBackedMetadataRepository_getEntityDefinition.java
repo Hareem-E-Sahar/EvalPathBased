@@ -1,0 +1,110 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral retrieving entity with type and {}={}
+log SimpleName MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation SimpleName attribute
+log SimpleName MethodInvocation SimpleName value
+info SimpleName MethodInvocation StringLiteral retrieving entity with type and {}={}
+info SimpleName MethodInvocation SimpleName entity type
+info SimpleName MethodInvocation SimpleName attribute
+info SimpleName MethodInvocation SimpleName value
+retrieving entity with type and {}={} StringLiteral MethodInvocation SimpleName entity type
+retrieving entity with type and {}={} StringLiteral MethodInvocation SimpleName attribute
+retrieving entity with type and {}={} StringLiteral MethodInvocation SimpleName value
+entity type SimpleName MethodInvocation SimpleName attribute
+entity type SimpleName MethodInvocation SimpleName value
+attribute SimpleName MethodInvocation SimpleName value
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName entity type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation SimpleName entity type
+i data type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+get field name in vertex SimpleName MethodInvocation SimpleName type
+get field name in vertex SimpleName MethodInvocation SimpleName attribute
+type SimpleName MethodInvocation SimpleName attribute
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field name in vertex
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property key
+get vertex for property SimpleName MethodInvocation SimpleName property key
+get vertex for property SimpleName MethodInvocation SimpleName value
+property key SimpleName MethodInvocation SimpleName value
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for property
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName property key
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+instance vertex SimpleName MethodInvocation SimpleName get property
+instance vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+graph to instance mapper SimpleName MethodInvocation SimpleName map graph to typed instance
+graph to instance mapper SimpleName MethodInvocation SimpleName guid
+graph to instance mapper SimpleName MethodInvocation SimpleName instance vertex
+map graph to typed instance SimpleName MethodInvocation SimpleName guid
+map graph to typed instance SimpleName MethodInvocation SimpleName instance vertex
+guid SimpleName MethodInvocation SimpleName instance vertex
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i typed referenceable instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity definition
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i typed referenceable instance
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get entity definition
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName get entity definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleName get entity definition
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+i typed referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+get entity definition SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

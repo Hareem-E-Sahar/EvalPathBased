@@ -1,0 +1,32 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName term guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName term guid
+glossary term SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas glossary term
+atlas glossary term SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glossary term
+glossary term SimpleName MethodInvocation SimpleName set guid
+glossary term SimpleName MethodInvocation SimpleName term guid
+set guid SimpleName MethodInvocation SimpleName term guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas glossary term
+private Modifier MethodDeclaration SimpleName get atlas glossary term skeleton
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName term guid
+private Modifier MethodDeclaration Block ReturnStatement SimpleName glossary term
+atlas glossary term SimpleName SimpleType MethodDeclaration SimpleName get atlas glossary term skeleton
+atlas glossary term SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas glossary term SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName term guid
+get atlas glossary term skeleton SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get atlas glossary term skeleton SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get atlas glossary term skeleton SimpleName MethodDeclaration SingleVariableDeclaration SimpleName term guid
+get atlas glossary term skeleton SimpleName MethodDeclaration Block ReturnStatement SimpleName glossary term
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary term
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas glossary term skeleton
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary term
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas glossary term skeleton
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName term guid

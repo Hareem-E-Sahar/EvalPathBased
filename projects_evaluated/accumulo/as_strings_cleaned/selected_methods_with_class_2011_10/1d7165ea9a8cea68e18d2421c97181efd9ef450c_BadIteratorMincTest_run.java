@@ -1,0 +1,192 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral foo
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral l
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation StringLiteral foo
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral l
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral l
+foo StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+bw SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+text SimpleName SimpleType ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral r
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral acf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+empty StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral acf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral foo
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral acf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral foo
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+acf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral foo
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName flush
+table operations SimpleName MethodInvocation MethodInvocation SimpleName flush
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+flush SimpleName MethodInvocation StringLiteral foo
+flush SimpleName MethodInvocation BooleanLiteral false
+foo StringLiteral MethodInvocation BooleanLiteral false
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation StringLiteral foo
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation StringLiteral foo
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation StringLiteral foo
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+foo StringLiteral MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+count SimpleName InfixExpression NumberLiteral empty
+did not see expected # entries StringLiteral InfixExpression SimpleName count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral did not see expected # entries
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable iterator prefix QualifiedName MethodInvocation SimpleName get key
+propertytable iterator prefix QualifiedName MethodInvocation InfixExpression StringLiteral mincbadi
+get key SimpleName MethodInvocation InfixExpression StringLiteral mincbadi
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral foo
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral foo
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral mincbadi
+remove property SimpleName MethodInvocation StringLiteral foo
+remove property SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable iterator prefix
+remove property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+remove property SimpleName MethodInvocation InfixExpression StringLiteral mincbadi
+foo StringLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable iterator prefix
+foo StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get key
+foo StringLiteral MethodInvocation InfixExpression StringLiteral mincbadi
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation StringLiteral foo
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+check map files SimpleName MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+foo StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+count SimpleName Assignment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName entry
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+count SimpleName InfixExpression NumberLiteral empty
+did not see expected # entries StringLiteral InfixExpression SimpleName count
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral did not see expected # entries
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+run SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

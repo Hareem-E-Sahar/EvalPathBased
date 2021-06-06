@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName end time
+end time SimpleName FieldAccess Assignment SimpleName end time
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set end time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end time
+void PrimitiveType MethodDeclaration SimpleName set end time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end time
+set end time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set end time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set end time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set end time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end time

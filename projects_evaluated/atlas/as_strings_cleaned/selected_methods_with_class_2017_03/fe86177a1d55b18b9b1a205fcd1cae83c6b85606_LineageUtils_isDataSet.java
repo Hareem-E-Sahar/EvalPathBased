@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName registry
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+registry SimpleName MethodInvocation SimpleName get type
+registry SimpleName MethodInvocation SimpleName type name
+get type SimpleName MethodInvocation SimpleName type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas entity type
+entity type SimpleName VariableDeclarationFragment CastExpression SimpleName type
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+entity type SimpleName MethodInvocation SimpleName get all super types
+entity type SimpleName MethodInvocation MethodInvocation SimpleName contains
+get all super types SimpleName MethodInvocation MethodInvocation SimpleName contains
+entity type SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type dataset
+get all super types SimpleName MethodInvocation MethodInvocation QualifiedName atlas base type defatlas type dataset
+contains SimpleName MethodInvocation QualifiedName atlas base type defatlas type dataset
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName entity type
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get all super types
+ret SimpleName Assignment MethodInvocation SimpleName contains
+ret SimpleName Assignment MethodInvocation QualifiedName atlas base type defatlas type dataset
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is data set
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is data set
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType MethodDeclaration SimpleName is data set
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName registry
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+is data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+is data set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registry
+is data set SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+is data set SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is data set SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is data set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is data set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

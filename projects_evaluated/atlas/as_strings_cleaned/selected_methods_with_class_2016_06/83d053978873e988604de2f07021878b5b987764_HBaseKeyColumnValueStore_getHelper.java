@@ -1,0 +1,252 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName static buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+static buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName static buffer
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+static buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName keys
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName get filter
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName get
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName get
+keys SimpleName MethodInvocation SimpleName size
+requests SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName keys
+requests SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+static buffer SimpleName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName MethodInvocation SimpleName as
+key SimpleName MethodInvocation QualifiedName static bufferarray factory
+as SimpleName MethodInvocation QualifiedName static bufferarray factory
+get SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+get SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as
+get SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName static bufferarray factory
+get SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName add family
+key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add family
+as SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add family
+static bufferarray factory QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add family
+get SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column family bytes
+key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName column family bytes
+as SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName column family bytes
+static bufferarray factory QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName column family bytes
+add family SimpleName MethodInvocation SimpleName column family bytes
+add family SimpleName MethodInvocation MethodInvocation SimpleName set filter
+column family bytes SimpleName MethodInvocation MethodInvocation SimpleName set filter
+add family SimpleName MethodInvocation MethodInvocation SimpleName get filter
+column family bytes SimpleName MethodInvocation MethodInvocation SimpleName get filter
+set filter SimpleName MethodInvocation SimpleName get filter
+g SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName add family
+g SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName column family bytes
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName set filter
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get filter
+get SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName set time range
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation QualifiedName longmax value
+set time range SimpleName MethodInvocation NumberLiteral empty
+set time range SimpleName MethodInvocation QualifiedName longmax value
+empty NumberLiteral MethodInvocation QualifiedName longmax value
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+permanent backend exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+requests SimpleName MethodInvocation SimpleName add
+requests SimpleName MethodInvocation SimpleName g
+add SimpleName MethodInvocation SimpleName g
+static buffer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName static buffer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+static buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName static buffer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+static buffer SimpleName SimpleType ParameterizedType SimpleType SimpleName entry list
+keys SimpleName MethodInvocation SimpleName size
+result map SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName keys
+result map SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+table mask SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+cnx SimpleName MethodInvocation SimpleName get table
+cnx SimpleName MethodInvocation SimpleName table name
+get table SimpleName MethodInvocation SimpleName table name
+table SimpleName Assignment MethodInvocation SimpleName cnx
+table SimpleName Assignment MethodInvocation SimpleName get table
+table SimpleName Assignment MethodInvocation SimpleName table name
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName column family bytes
+to string SimpleName MethodInvocation SimpleName column family bytes
+requests SimpleName MethodInvocation SimpleName size
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral get requests {} {}
+logger SimpleName MethodInvocation MethodInvocation SimpleName bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation MethodInvocation SimpleName column family bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName requests
+logger SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral get requests {} {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName column family bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName requests
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+get requests {} {} StringLiteral MethodInvocation MethodInvocation SimpleName bytes
+get requests {} {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+get requests {} {} StringLiteral MethodInvocation MethodInvocation SimpleName column family bytes
+get requests {} {} StringLiteral MethodInvocation MethodInvocation SimpleName requests
+get requests {} {} StringLiteral MethodInvocation MethodInvocation SimpleName size
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+column family bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+column family bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName requests
+get SimpleName MethodInvocation SimpleName requests
+results SimpleName Assignment MethodInvocation SimpleName table
+results SimpleName Assignment MethodInvocation SimpleName get
+results SimpleName Assignment MethodInvocation SimpleName requests
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName column family bytes
+to string SimpleName MethodInvocation SimpleName column family bytes
+requests SimpleName MethodInvocation SimpleName size
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral get requests finished {} {}
+logger SimpleName MethodInvocation MethodInvocation SimpleName bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation MethodInvocation SimpleName column family bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName requests
+logger SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral get requests finished {} {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName column family bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName requests
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+get requests finished {} {} StringLiteral MethodInvocation MethodInvocation SimpleName bytes
+get requests finished {} {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+get requests finished {} {} StringLiteral MethodInvocation MethodInvocation SimpleName column family bytes
+get requests finished {} {} StringLiteral MethodInvocation MethodInvocation SimpleName requests
+get requests finished {} {} StringLiteral MethodInvocation MethodInvocation SimpleName size
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+column family bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName requests
+column family bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName table
+close quietly SimpleName MethodInvocation SimpleName table
+kcvs util SimpleName MethodInvocation SimpleName empty results
+kcvs util SimpleName MethodInvocation SimpleName keys
+empty results SimpleName MethodInvocation SimpleName keys
+keys SimpleName MethodInvocation SimpleName size
+resultslength QualifiedName InfixExpression MethodInvocation SimpleName keys
+resultslength QualifiedName InfixExpression MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName resultslength
+results SimpleName ArrayAccess SimpleName i
+result SimpleName VariableDeclarationFragment ArrayAccess SimpleName results
+result SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+navigable map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+long SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+result SimpleName MethodInvocation SimpleName get map
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map
+keys SimpleName MethodInvocation SimpleName get
+keys SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+result map SimpleName MethodInvocation SimpleName put
+result map SimpleName MethodInvocation MethodInvocation SimpleName keys
+result map SimpleName MethodInvocation MethodInvocation SimpleName get
+result map SimpleName MethodInvocation MethodInvocation SimpleName i
+result map SimpleName MethodInvocation QualifiedName entry listempty list
+put SimpleName MethodInvocation MethodInvocation SimpleName keys
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName i
+put SimpleName MethodInvocation QualifiedName entry listempty list
+keys SimpleName MethodInvocation MethodInvocation QualifiedName entry listempty list
+get SimpleName MethodInvocation MethodInvocation QualifiedName entry listempty list
+i SimpleName MethodInvocation MethodInvocation QualifiedName entry listempty list
+navigable map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+long SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+navigable map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+f SimpleName MethodInvocation SimpleName get
+f SimpleName MethodInvocation SimpleName column family bytes
+get SimpleName MethodInvocation SimpleName column family bytes
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName column family bytes
+keys SimpleName MethodInvocation SimpleName get
+keys SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+r SimpleName MethodInvocation SimpleName entry set
+static array entry list SimpleName MethodInvocation SimpleName of bytes
+static array entry list SimpleName MethodInvocation MethodInvocation SimpleName r
+static array entry list SimpleName MethodInvocation MethodInvocation SimpleName entry set
+static array entry list SimpleName MethodInvocation SimpleName entry getter
+of bytes SimpleName MethodInvocation MethodInvocation SimpleName r
+of bytes SimpleName MethodInvocation MethodInvocation SimpleName entry set
+of bytes SimpleName MethodInvocation SimpleName entry getter
+r SimpleName MethodInvocation MethodInvocation SimpleName entry getter
+entry set SimpleName MethodInvocation MethodInvocation SimpleName entry getter
+r SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName entry listempty list
+entry listempty list QualifiedName ConditionalExpression MethodInvocation SimpleName static array entry list
+entry listempty list QualifiedName ConditionalExpression MethodInvocation SimpleName of bytes
+entry listempty list QualifiedName ConditionalExpression MethodInvocation MethodInvocation SimpleName r
+entry listempty list QualifiedName ConditionalExpression MethodInvocation MethodInvocation SimpleName entry set
+entry listempty list QualifiedName ConditionalExpression MethodInvocation SimpleName entry getter
+result map SimpleName MethodInvocation SimpleName put
+result map SimpleName MethodInvocation MethodInvocation SimpleName keys
+result map SimpleName MethodInvocation MethodInvocation SimpleName get
+result map SimpleName MethodInvocation MethodInvocation SimpleName i
+result map SimpleName MethodInvocation ConditionalExpression QualifiedName entry listempty list
+result map SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName static array entry list
+result map SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of bytes
+result map SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName entry getter
+put SimpleName MethodInvocation MethodInvocation SimpleName keys
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName i
+put SimpleName MethodInvocation ConditionalExpression QualifiedName entry listempty list
+put SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName static array entry list
+put SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName of bytes
+put SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName entry getter
+keys SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName entry listempty list
+get SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName entry listempty list
+i SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName entry listempty list
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName resultslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+resultslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+temporary backend exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName static buffer
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName entry list
+private Modifier MethodDeclaration SimpleName get helper
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName keys
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName get filter
+private Modifier MethodDeclaration SimpleType SimpleName backend exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get helper
+static buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get helper
+entry list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get helper
+get helper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName keys
+get helper SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+get helper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName get filter
+get helper SimpleName MethodDeclaration SimpleType SimpleName backend exception
+keys SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName get filter
+keys SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+get filter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get helper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName get filter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get helper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName get filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception

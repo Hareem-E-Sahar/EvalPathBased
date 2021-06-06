@@ -1,0 +1,61 @@
+api v SimpleName SimpleType SingleVariableDeclaration SimpleName api v
+object SimpleName SimpleType SingleVariableDeclaration SimpleName request object
+string SimpleName SimpleType SingleVariableDeclaration SimpleName params
+call api SimpleName MethodInvocation SimpleName api v
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object node
+call api SimpleName MethodInvocation SimpleName request object
+call api SimpleName MethodInvocation SimpleName params
+api v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object node
+api v SimpleName MethodInvocation SimpleName request object
+api v SimpleName MethodInvocation SimpleName params
+object node SimpleName SimpleType TypeLiteral MethodInvocation SimpleName request object
+object node SimpleName SimpleType TypeLiteral MethodInvocation SimpleName params
+request object SimpleName MethodInvocation SimpleName params
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object node
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName call api with body and params
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName api v
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request object
+public Modifier MethodDeclaration SimpleType SimpleName object node
+public Modifier MethodDeclaration SimpleName call api with body and params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName api v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+object node SimpleName SimpleType MethodDeclaration SimpleName call api with body and params
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api v
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request object
+object node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+object node SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api v
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api v
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request object
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+call api with body and params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+call api with body and params SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+api v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+api v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+api v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+request object SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+request object SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+public Modifier TypeDeclaration MethodDeclaration SimpleName call api with body and params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call api with body and params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

@@ -1,0 +1,25 @@
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get z path
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get z path
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName encode
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName encode
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get z path
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName encode
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+get z path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName encode
+get z path SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+encode SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+void PrimitiveType MethodDeclaration SimpleName save to zoo keeper
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+save to zoo keeper SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save to zoo keeper
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save to zoo keeper
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

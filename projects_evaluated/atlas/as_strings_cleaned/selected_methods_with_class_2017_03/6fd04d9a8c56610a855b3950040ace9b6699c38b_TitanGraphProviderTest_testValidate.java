@@ -1,0 +1,59 @@
+titan graph database SimpleName MethodInvocation SimpleName validate index backend
+titan graph database SimpleName MethodInvocation SimpleName configuration
+validate index backend SimpleName MethodInvocation SimpleName configuration
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral unexpected exception
+assert SimpleName MethodInvocation SimpleName e
+fail SimpleName MethodInvocation StringLiteral unexpected exception
+fail SimpleName MethodInvocation SimpleName e
+unexpected exception StringLiteral MethodInvocation SimpleName e
+configuration SimpleName MethodInvocation SimpleName set property
+configuration SimpleName MethodInvocation QualifiedName titan graph databaseindex backend conf
+configuration SimpleName MethodInvocation QualifiedName titan graph databaseindex backend lucene
+set property SimpleName MethodInvocation QualifiedName titan graph databaseindex backend conf
+set property SimpleName MethodInvocation QualifiedName titan graph databaseindex backend lucene
+titan graph databaseindex backend conf QualifiedName MethodInvocation QualifiedName titan graph databaseindex backend lucene
+titan graph database SimpleName MethodInvocation SimpleName validate index backend
+titan graph database SimpleName MethodInvocation SimpleName configuration
+validate index backend SimpleName MethodInvocation SimpleName configuration
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral expected exception
+fail SimpleName MethodInvocation StringLiteral expected exception
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+configured index backend lucene differs from earlier configured StringLiteral InfixExpression StringLiteral index backend elasticsearch aborting
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName e
+assert SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert SimpleName MethodInvocation InfixExpression StringLiteral configured index backend lucene differs from earlier configured
+assert SimpleName MethodInvocation InfixExpression StringLiteral index backend elasticsearch aborting
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral configured index backend lucene differs from earlier configured
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral index backend elasticsearch aborting
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral configured index backend lucene differs from earlier configured
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral index backend elasticsearch aborting
+get message SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral configured index backend lucene differs from earlier configured
+get message SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral index backend elasticsearch aborting
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test validate
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test validate
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test validate
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test validate SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test validate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test validate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

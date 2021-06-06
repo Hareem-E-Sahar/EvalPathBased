@@ -1,0 +1,111 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+bw opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+file data ingest SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName bw opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName bw opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+args SimpleName MethodInvocation SimpleName bw opts
+opts SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+exists SimpleName MethodInvocation QualifiedName optstable name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+create SimpleName MethodInvocation QualifiedName optstable name
+conn SimpleName MethodInvocation SimpleName table operations
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName chunk combiner
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName optstable name
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+attach iterator SimpleName MethodInvocation QualifiedName optstable name
+attach iterator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+attach iterator SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+optstable name QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator setting
+optstable name QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+bw opts SimpleName MethodInvocation SimpleName get batch writer config
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName optstable name
+conn SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+conn SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName optstable name
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+create batch writer SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+optstable name QualifiedName MethodInvocation MethodInvocation SimpleName bw opts
+optstable name QualifiedName MethodInvocation MethodInvocation SimpleName get batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optstable name
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bw opts
+bw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get batch writer config
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+file data ingest SimpleName SimpleType ClassInstanceCreation QualifiedName optschunk size
+file data ingest SimpleName SimpleType ClassInstanceCreation QualifiedName optsvisibility
+optschunk size QualifiedName ClassInstanceCreation QualifiedName optsvisibility
+fdi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file data ingest
+fdi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName optschunk size
+fdi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName optsvisibility
+file data ingest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fdi
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filename
+fdi SimpleName MethodInvocation SimpleName insert file data
+fdi SimpleName MethodInvocation SimpleName filename
+fdi SimpleName MethodInvocation SimpleName bw
+insert file data SimpleName MethodInvocation SimpleName filename
+insert file data SimpleName MethodInvocation SimpleName bw
+filename SimpleName MethodInvocation SimpleName bw
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName optsfiles
+filename SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName optsfiles
+bw SimpleName MethodInvocation SimpleName close
+opts SimpleName MethodInvocation SimpleName stop tracing
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName optsfiles
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

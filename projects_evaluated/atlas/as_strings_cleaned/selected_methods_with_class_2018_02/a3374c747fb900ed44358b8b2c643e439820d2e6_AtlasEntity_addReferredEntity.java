@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+r SimpleName VariableDeclarationFragment FieldAccess SimpleName referred entities
+referred entities SimpleName FieldAccess Assignment SimpleName r
+r SimpleName MethodInvocation SimpleName put
+r SimpleName MethodInvocation SimpleName guid
+r SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation SimpleName guid
+put SimpleName MethodInvocation SimpleName entity
+guid SimpleName MethodInvocation SimpleName entity
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier final
+json ignore SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName add referred entity
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add referred entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName add referred entity
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName add referred entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+add referred entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add referred entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+add referred entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+add referred entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add referred entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add referred entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

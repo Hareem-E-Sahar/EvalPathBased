@@ -1,0 +1,138 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName http request
+x forwarded proto SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x forwarded proto
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+x forwarded host SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x forwarded host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+x forwarded context SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x forwarded context
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+http request SimpleName MethodInvocation SimpleName get header names
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header names
+names SimpleName MethodInvocation SimpleName has more elements
+names SimpleName MethodInvocation SimpleName next element
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName names
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next element
+name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName names
+name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+http request SimpleName MethodInvocation SimpleName get headers
+http request SimpleName MethodInvocation SimpleName name
+get headers SimpleName MethodInvocation SimpleName name
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get headers
+values SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+value SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+values SimpleName MethodInvocation SimpleName has more elements
+values SimpleName MethodInvocation SimpleName next element
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName values
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next element
+value SimpleName Assignment CastExpression SimpleType SimpleName string
+value SimpleName Assignment CastExpression MethodInvocation SimpleName values
+value SimpleName Assignment CastExpression MethodInvocation SimpleName next element
+string utils SimpleName MethodInvocation SimpleName trim to null
+string utils SimpleName MethodInvocation SimpleName name
+trim to null SimpleName MethodInvocation SimpleName name
+string utils SimpleName MethodInvocation SimpleName trim to null
+string utils SimpleName MethodInvocation SimpleName value
+trim to null SimpleName MethodInvocation SimpleName value
+name SimpleName MethodInvocation SimpleName equals ignore case
+name SimpleName MethodInvocation StringLiteral xforwardedproto
+equals ignore case SimpleName MethodInvocation StringLiteral xforwardedproto
+x forwarded proto SimpleName Assignment SimpleName value
+name SimpleName MethodInvocation SimpleName equals ignore case
+name SimpleName MethodInvocation StringLiteral xforwardedhost
+equals ignore case SimpleName MethodInvocation StringLiteral xforwardedhost
+x forwarded host SimpleName Assignment SimpleName value
+name SimpleName MethodInvocation SimpleName equals ignore case
+name SimpleName MethodInvocation StringLiteral xforwardedcontext
+equals ignore case SimpleName MethodInvocation StringLiteral xforwardedcontext
+x forwarded context SimpleName Assignment SimpleName value
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName x forwarded proto
+is not empty SimpleName MethodInvocation SimpleName x forwarded proto
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName x forwarded host
+is not empty SimpleName MethodInvocation SimpleName x forwarded host
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName x forwarded context
+is not empty SimpleName MethodInvocation SimpleName x forwarded context
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded host
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded host
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded host
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+x forwarded proto SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+is not empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+x forwarded host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+x forwarded host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is not empty
+x forwarded host SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x forwarded context
+x fwd header map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+x fwd header map SimpleName MethodInvocation SimpleName put
+x fwd header map SimpleName MethodInvocation StringLiteral xforwardedproto
+x fwd header map SimpleName MethodInvocation SimpleName x forwarded proto
+put SimpleName MethodInvocation StringLiteral xforwardedproto
+put SimpleName MethodInvocation SimpleName x forwarded proto
+xforwardedproto StringLiteral MethodInvocation SimpleName x forwarded proto
+x fwd header map SimpleName MethodInvocation SimpleName put
+x fwd header map SimpleName MethodInvocation StringLiteral xforwardedhost
+x fwd header map SimpleName MethodInvocation SimpleName x forwarded host
+put SimpleName MethodInvocation StringLiteral xforwardedhost
+put SimpleName MethodInvocation SimpleName x forwarded host
+xforwardedhost StringLiteral MethodInvocation SimpleName x forwarded host
+x fwd header map SimpleName MethodInvocation SimpleName put
+x fwd header map SimpleName MethodInvocation StringLiteral xforwardedcontext
+x fwd header map SimpleName MethodInvocation SimpleName x forwarded context
+put SimpleName MethodInvocation StringLiteral xforwardedcontext
+put SimpleName MethodInvocation SimpleName x forwarded context
+xforwardedcontext StringLiteral MethodInvocation SimpleName x forwarded context
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName parse x forward header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName http request
+private Modifier MethodDeclaration Block ReturnStatement SimpleName x fwd header map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse x forward header
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse x forward header
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parse x forward header
+parse x forward header SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+parse x forward header SimpleName MethodDeclaration SingleVariableDeclaration SimpleName http request
+parse x forward header SimpleName MethodDeclaration Block ReturnStatement SimpleName x fwd header map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse x forward header
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http request
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse x forward header
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName http request

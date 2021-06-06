@@ -1,0 +1,57 @@
+data provider SimpleName MemberValuePair StringLiteral error queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral error queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+data provider SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+error queries provider StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query
+discovery service SimpleName MethodInvocation SimpleName search using dsl query
+discovery service SimpleName MethodInvocation SimpleName query
+discovery service SimpleName MethodInvocation NumberLiteral empty
+discovery service SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation SimpleName query
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+search using dsl query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+error queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+error queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName error queries
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName error queries
+error queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName error queries
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName error queries
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName error queries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName error queries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName query
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+error queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+error queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+error queries SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName error queries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName error queries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

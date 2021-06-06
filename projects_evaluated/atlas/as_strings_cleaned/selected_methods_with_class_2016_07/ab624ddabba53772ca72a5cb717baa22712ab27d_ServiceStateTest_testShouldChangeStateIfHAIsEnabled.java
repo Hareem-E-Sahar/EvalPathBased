@@ -1,0 +1,56 @@
+configuration SimpleName MethodInvocation SimpleName contains key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+contains key SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName contains key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation SimpleName get boolean
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+get boolean SimpleName MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha enabled key
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+ha configurationatlas server ha enabled key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+service state SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+service state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service state
+service state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+service state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service state
+service state SimpleName MethodInvocation SimpleName becoming passive
+service state SimpleName MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName service stateservice state valuebecoming passive
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName service state
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+service stateservice state valuebecoming passive QualifiedName MethodInvocation MethodInvocation SimpleName service state
+service stateservice state valuebecoming passive QualifiedName MethodInvocation MethodInvocation SimpleName get state
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test should change state if ha is enabled
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test should change state if ha is enabled
+void PrimitiveType MethodDeclaration SimpleName test should change state if ha is enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test should change state if ha is enabled
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test should change state if ha is enabled

@@ -1,0 +1,34 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName parts
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName to string
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName obj
+result SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName obj
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName parts
+obj SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName parts
+parts SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName parts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName parts
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName parts
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parts
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName parts
+parts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+parts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parts
+parts SimpleName MethodDeclaration Block EnhancedForStatement SimpleName parts
+parts SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName parts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parts
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parts

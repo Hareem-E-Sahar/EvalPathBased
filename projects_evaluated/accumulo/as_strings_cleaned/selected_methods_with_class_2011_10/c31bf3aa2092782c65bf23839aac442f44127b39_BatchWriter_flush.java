@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName flush
+public Modifier MethodDeclaration SimpleType SimpleName mutations rejected exception
+void PrimitiveType MethodDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SimpleType SimpleName mutations rejected exception
+flush SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName flush
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flush
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

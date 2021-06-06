@@ -1,0 +1,23 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName primitive value
+validate value against type SimpleName MethodInvocation SimpleName primitive def category
+validate value against type SimpleName MethodInvocation SimpleName primitive value
+primitive def category SimpleName MethodInvocation SimpleName primitive value
+primitive value SimpleName FieldAccess Assignment SimpleName primitive value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set primitive value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName primitive value
+void PrimitiveType MethodDeclaration SimpleName set primitive value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName primitive value
+set primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set primitive value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName primitive value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set primitive value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set primitive value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName primitive value

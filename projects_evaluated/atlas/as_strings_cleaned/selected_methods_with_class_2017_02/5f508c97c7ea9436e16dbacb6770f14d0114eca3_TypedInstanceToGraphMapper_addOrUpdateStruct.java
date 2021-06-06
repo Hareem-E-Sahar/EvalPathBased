@@ -1,0 +1,102 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName instance vertex
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName new attribute value
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName current edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new edge
+graph helper SimpleName MethodInvocation SimpleName element exists
+graph helper SimpleName MethodInvocation SimpleName current edge
+element exists SimpleName MethodInvocation SimpleName current edge
+graph helper SimpleName MethodInvocation InfixExpression InfixExpression SimpleName new attribute value
+element exists SimpleName MethodInvocation InfixExpression InfixExpression SimpleName new attribute value
+current edge SimpleName MethodInvocation InfixExpression InfixExpression SimpleName new attribute value
+update struct vertex SimpleName MethodInvocation SimpleName new attribute value
+update struct vertex SimpleName MethodInvocation SimpleName current edge
+update struct vertex SimpleName MethodInvocation SimpleName operation
+new attribute value SimpleName MethodInvocation SimpleName current edge
+new attribute value SimpleName MethodInvocation SimpleName operation
+current edge SimpleName MethodInvocation SimpleName operation
+new edge SimpleName Assignment SimpleName current edge
+graph helper SimpleName MethodInvocation SimpleName element exists
+graph helper SimpleName MethodInvocation SimpleName current edge
+element exists SimpleName MethodInvocation SimpleName current edge
+add struct vertex SimpleName MethodInvocation SimpleName new attribute value
+add struct vertex SimpleName MethodInvocation SimpleName instance vertex
+add struct vertex SimpleName MethodInvocation SimpleName attribute info
+add struct vertex SimpleName MethodInvocation SimpleName edge label
+new attribute value SimpleName MethodInvocation SimpleName instance vertex
+new attribute value SimpleName MethodInvocation SimpleName attribute info
+new attribute value SimpleName MethodInvocation SimpleName edge label
+instance vertex SimpleName MethodInvocation SimpleName attribute info
+instance vertex SimpleName MethodInvocation SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName edge label
+new edge SimpleName Assignment MethodInvocation SimpleName add struct vertex
+new edge SimpleName Assignment MethodInvocation SimpleName new attribute value
+new edge SimpleName Assignment MethodInvocation SimpleName instance vertex
+new edge SimpleName Assignment MethodInvocation SimpleName attribute info
+new edge SimpleName Assignment MethodInvocation SimpleName edge label
+private Modifier MethodDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SimpleName add or update struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName add or update struct
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName current edge
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current edge
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add or update struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+attribute info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+new attribute value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName add or update struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add or update struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

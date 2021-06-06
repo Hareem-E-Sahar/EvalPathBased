@@ -1,0 +1,126 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName get class
+obj SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+entity graph discovery context SimpleName SimpleType CastExpression SimpleName obj
+ctx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName entity graph discovery context
+ctx SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+entity graph discovery context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get root entities
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName root entities
+objects SimpleName MethodInvocation MethodInvocation SimpleName ctx
+objects SimpleName MethodInvocation MethodInvocation SimpleName get root entities
+equals SimpleName MethodInvocation SimpleName root entities
+equals SimpleName MethodInvocation MethodInvocation SimpleName ctx
+equals SimpleName MethodInvocation MethodInvocation SimpleName get root entities
+root entities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+root entities SimpleName MethodInvocation MethodInvocation SimpleName get root entities
+ctx SimpleName MethodInvocation SimpleName get resolved ids
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName resolved ids
+objects SimpleName MethodInvocation MethodInvocation SimpleName ctx
+objects SimpleName MethodInvocation MethodInvocation SimpleName get resolved ids
+equals SimpleName MethodInvocation SimpleName resolved ids
+equals SimpleName MethodInvocation MethodInvocation SimpleName ctx
+equals SimpleName MethodInvocation MethodInvocation SimpleName get resolved ids
+resolved ids SimpleName MethodInvocation MethodInvocation SimpleName ctx
+resolved ids SimpleName MethodInvocation MethodInvocation SimpleName get resolved ids
+ctx SimpleName MethodInvocation SimpleName get unresolved ids by uniq attribs
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+objects SimpleName MethodInvocation MethodInvocation SimpleName ctx
+objects SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids by uniq attribs
+equals SimpleName MethodInvocation SimpleName unresolved ids by uniq attribs
+equals SimpleName MethodInvocation MethodInvocation SimpleName ctx
+equals SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids by uniq attribs
+unresolved ids by uniq attribs SimpleName MethodInvocation MethodInvocation SimpleName ctx
+unresolved ids by uniq attribs SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids by uniq attribs
+ctx SimpleName MethodInvocation SimpleName get unresolved ids
+objects SimpleName MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation SimpleName unresolved ids
+objects SimpleName MethodInvocation MethodInvocation SimpleName ctx
+objects SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids
+equals SimpleName MethodInvocation SimpleName unresolved ids
+equals SimpleName MethodInvocation MethodInvocation SimpleName ctx
+equals SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids
+unresolved ids SimpleName MethodInvocation MethodInvocation SimpleName ctx
+unresolved ids SimpleName MethodInvocation MethodInvocation SimpleName get unresolved ids
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved ids
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved ids
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName resolved ids
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+root entities SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids by uniq attribs
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+resolved ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+unresolved ids by uniq attribs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName objects
+unresolved ids by uniq attribs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+unresolved ids by uniq attribs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unresolved ids
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

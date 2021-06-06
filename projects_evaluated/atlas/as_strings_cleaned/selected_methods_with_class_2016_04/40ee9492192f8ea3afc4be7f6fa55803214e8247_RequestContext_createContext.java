@@ -1,0 +1,26 @@
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName request context
+request context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+system SimpleName MethodInvocation SimpleName current time millis
+contextrequest time QualifiedName Assignment MethodInvocation SimpleName system
+contextrequest time QualifiedName Assignment MethodInvocation SimpleName current time millis
+current context SimpleName MethodInvocation SimpleName set
+current context SimpleName MethodInvocation SimpleName context
+set SimpleName MethodInvocation SimpleName context
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName request context
+public Modifier MethodDeclaration SimpleName create context
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName request context
+static Modifier MethodDeclaration SimpleName create context
+static Modifier MethodDeclaration Block ReturnStatement SimpleName context
+request context SimpleName SimpleType MethodDeclaration SimpleName create context
+create context SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName request context
+public Modifier TypeDeclaration MethodDeclaration SimpleName create context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName request context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create context

@@ -1,0 +1,40 @@
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+node SimpleName SimpleType ClassInstanceCreation SimpleName ref
+node processor SimpleName MethodInvocation SimpleName process node
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node
+node processor SimpleName MethodInvocation ClassInstanceCreation SimpleName ref
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node
+process node SimpleName MethodInvocation ClassInstanceCreation SimpleName ref
+visit struct SimpleName MethodInvocation SimpleName ref
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ref SimpleName MethodInvocation SimpleName get traits
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName get traits
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+ref SimpleName MethodInvocation SimpleName get trait
+ref SimpleName MethodInvocation SimpleName trait
+get trait SimpleName MethodInvocation SimpleName trait
+visit struct SimpleName MethodInvocation MethodInvocation SimpleName ref
+visit struct SimpleName MethodInvocation MethodInvocation SimpleName get trait
+visit struct SimpleName MethodInvocation MethodInvocation SimpleName trait
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+void PrimitiveType MethodDeclaration SimpleName process referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ref
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName traits
+process referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+process referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+process referenceable instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+process referenceable instance SimpleName MethodDeclaration Block EnhancedForStatement SimpleName traits
+ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

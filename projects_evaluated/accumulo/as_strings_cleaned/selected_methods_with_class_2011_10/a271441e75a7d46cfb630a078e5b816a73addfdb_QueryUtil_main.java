@@ -1,0 +1,171 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral search
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral search
+equals SimpleName MethodInvocation StringLiteral search
+query util SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+usage StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+usage StringLiteral InfixExpression StringLiteral instance zookeepers user pass table auths path search
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral instance zookeepers user pass table auths path search
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral usage
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral instance zookeepers user pass table auths path search
+println SimpleName MethodInvocation InfixExpression StringLiteral usage
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+println SimpleName MethodInvocation InfixExpression StringLiteral instance zookeepers user pass table auths path search
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName split
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName split
+args SimpleName ArrayAccess MethodInvocation StringLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName split
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral empty
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+query util SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+args SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName args
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+q SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName query util
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+q SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+query util SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+argslength QualifiedName InfixExpression NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+args SimpleName ArrayAccess NumberLiteral empty
+q SimpleName MethodInvocation SimpleName single wild card search
+q SimpleName MethodInvocation ArrayAccess SimpleName args
+q SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+single wild card search SimpleName MethodInvocation ArrayAccess SimpleName args
+single wild card search SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get column qualifier
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+println SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName q
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName single wild card search
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+args SimpleName ArrayAccess NumberLiteral empty
+q SimpleName MethodInvocation SimpleName get dir list
+q SimpleName MethodInvocation ArrayAccess SimpleName args
+q SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get dir list SimpleName MethodInvocation ArrayAccess SimpleName args
+get dir list SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+q SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get dir list SimpleName MethodInvocation MethodInvocation SimpleName entry set
+args SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName entry set
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName entry set
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName e
+println SimpleName MethodInvocation SimpleName e
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

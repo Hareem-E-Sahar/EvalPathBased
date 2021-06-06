@@ -1,0 +1,22 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName omrs event v
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName omrs event v
+received events SimpleName VariableDeclarationFragment SimpleName in memory omrs topic
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName omrs event v
+private Modifier MethodDeclaration SimpleName get events
+private Modifier MethodDeclaration Block ReturnStatement SimpleName received events
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName omrs event v
+synchronized Modifier MethodDeclaration SimpleName get events
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName received events
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get events
+omrs event v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get events
+get events SimpleName MethodDeclaration Block ReturnStatement SimpleName received events
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get events
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get events

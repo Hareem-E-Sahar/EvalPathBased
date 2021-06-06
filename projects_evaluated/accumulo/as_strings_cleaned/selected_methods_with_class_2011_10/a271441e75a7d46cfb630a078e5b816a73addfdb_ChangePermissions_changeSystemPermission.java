@@ -1,0 +1,180 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+random SimpleName SimpleType SingleVariableDeclaration SimpleName rand
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user name
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+enum set SimpleName MethodInvocation SimpleName none of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName system permission
+none of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName system permission
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+perms SimpleName VariableDeclarationFragment MethodInvocation SimpleName none of
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+system permission SimpleName MethodInvocation SimpleName values
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user name
+conn SimpleName MethodInvocation MethodInvocation SimpleName p
+security operations SimpleName MethodInvocation MethodInvocation SimpleName p
+has system permission SimpleName MethodInvocation SimpleName user name
+has system permission SimpleName MethodInvocation SimpleName p
+user name SimpleName MethodInvocation SimpleName p
+perms SimpleName MethodInvocation SimpleName add
+perms SimpleName MethodInvocation SimpleName p
+add SimpleName MethodInvocation SimpleName p
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName system permission
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName system permission
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum set
+more SimpleName VariableDeclarationFragment MethodInvocation SimpleName all of
+more SimpleName MethodInvocation SimpleName remove all
+more SimpleName MethodInvocation SimpleName perms
+remove all SimpleName MethodInvocation SimpleName perms
+more SimpleName MethodInvocation SimpleName remove
+more SimpleName MethodInvocation QualifiedName system permissiongrant
+remove SimpleName MethodInvocation QualifiedName system permissiongrant
+rand SimpleName MethodInvocation SimpleName next boolean
+more SimpleName MethodInvocation SimpleName size
+more SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rand SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+next boolean SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName more
+system permission SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName more
+more list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName more
+more list SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName more list
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName more list
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+more list SimpleName MethodInvocation SimpleName get
+more list SimpleName MethodInvocation MethodInvocation SimpleName rand
+more list SimpleName MethodInvocation MethodInvocation SimpleName next int
+more list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName more list
+more list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName more list
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName more list
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+choice SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+choice SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+system permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName choice
+adding permission StringLiteral InfixExpression SimpleName choice
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral adding permission
+log SimpleName MethodInvocation InfixExpression SimpleName choice
+debug SimpleName MethodInvocation InfixExpression StringLiteral adding permission
+debug SimpleName MethodInvocation InfixExpression SimpleName choice
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant system permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant system permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user name
+conn SimpleName MethodInvocation MethodInvocation SimpleName choice
+security operations SimpleName MethodInvocation MethodInvocation SimpleName choice
+grant system permission SimpleName MethodInvocation SimpleName user name
+grant system permission SimpleName MethodInvocation SimpleName choice
+user name SimpleName MethodInvocation SimpleName choice
+perms SimpleName MethodInvocation SimpleName size
+perms SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName perms
+system permission SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName perms
+perm list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName perms
+perm list SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName perm list
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName perm list
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+perm list SimpleName MethodInvocation SimpleName get
+perm list SimpleName MethodInvocation MethodInvocation SimpleName rand
+perm list SimpleName MethodInvocation MethodInvocation SimpleName next int
+perm list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perm list
+perm list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName perm list
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName perm list
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+choice SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+choice SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+system permission SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName choice
+removing permission StringLiteral InfixExpression SimpleName choice
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing permission
+log SimpleName MethodInvocation InfixExpression SimpleName choice
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing permission
+debug SimpleName MethodInvocation InfixExpression SimpleName choice
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user name
+conn SimpleName MethodInvocation MethodInvocation SimpleName choice
+security operations SimpleName MethodInvocation MethodInvocation SimpleName choice
+revoke system permission SimpleName MethodInvocation SimpleName user name
+revoke system permission SimpleName MethodInvocation SimpleName choice
+user name SimpleName MethodInvocation SimpleName choice
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName change system permission
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rand
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user name
+void PrimitiveType MethodDeclaration SimpleName change system permission
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rand
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName random
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rand
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+change system permission SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user name
+change system permission SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+change system permission SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rand
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+rand SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+rand SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+rand SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change system permission
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rand
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change system permission
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rand
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

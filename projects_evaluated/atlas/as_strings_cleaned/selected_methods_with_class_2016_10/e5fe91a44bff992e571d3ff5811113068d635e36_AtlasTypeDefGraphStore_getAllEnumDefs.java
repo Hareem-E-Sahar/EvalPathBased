@@ -1,0 +1,35 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum def
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum def
+type registry SimpleName MethodInvocation SimpleName get all enum defs
+enum defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+enum defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all enum defs
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName enum defs
+ret SimpleName Assignment ClassInstanceCreation SimpleName enum defs
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get all enum defs
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get all enum defs
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas enum def
+public Modifier MethodDeclaration SimpleName get all enum defs
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all enum defs
+atlas enum def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all enum defs
+get all enum defs SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get all enum defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all enum defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all enum defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

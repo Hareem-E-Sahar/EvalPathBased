@@ -1,0 +1,63 @@
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get client conf file
+get config SimpleName MethodInvocation MethodInvocation SimpleName get client conf file
+properties configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get client conf file
+directory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance one path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName directory
+mini accumulo instance SimpleName MethodInvocation SimpleName get config properties
+mini accumulo instance SimpleName MethodInvocation SimpleName directory
+get config properties SimpleName MethodInvocation SimpleName directory
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName mini accumulo instance
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get config properties
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName directory
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with instance
+mini accumulo instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName with instance
+get config properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName with instance
+directory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName with instance
+client configuration SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance name
+mini accumulo instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name
+get config properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name
+directory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name
+with instance SimpleName MethodInvocation SimpleName instance name
+mini accumulo instance SimpleName MethodInvocation SimpleName get zoo keepers from dir
+mini accumulo instance SimpleName MethodInvocation SimpleName directory
+get zoo keepers from dir SimpleName MethodInvocation SimpleName directory
+with instance SimpleName MethodInvocation MethodInvocation SimpleName with zk hosts
+instance name SimpleName MethodInvocation MethodInvocation SimpleName with zk hosts
+with instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mini accumulo instance
+with instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers from dir
+with instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName directory
+instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mini accumulo instance
+instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers from dir
+instance name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName directory
+with zk hosts SimpleName MethodInvocation MethodInvocation SimpleName mini accumulo instance
+with zk hosts SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers from dir
+with zk hosts SimpleName MethodInvocation MethodInvocation SimpleName directory
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName client configuration
+protected Modifier MethodDeclaration SimpleName get client config
+protected Modifier MethodDeclaration SimpleType SimpleName file not found exception
+protected Modifier MethodDeclaration SimpleType SimpleName configuration exception
+static Modifier MethodDeclaration SimpleType SimpleName client configuration
+static Modifier MethodDeclaration SimpleName get client config
+static Modifier MethodDeclaration SimpleType SimpleName file not found exception
+static Modifier MethodDeclaration SimpleType SimpleName configuration exception
+client configuration SimpleName SimpleType MethodDeclaration SimpleName get client config
+client configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName file not found exception
+client configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName configuration exception
+get client config SimpleName MethodDeclaration SimpleType SimpleName file not found exception
+get client config SimpleName MethodDeclaration SimpleType SimpleName configuration exception
+file not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get client config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get client config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception

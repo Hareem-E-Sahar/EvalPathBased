@@ -1,0 +1,180 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName continue point
+metadata schemadeletes section QualifiedName MethodInvocation SimpleName get range
+range SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata schemadeletes section
+range SimpleName VariableDeclarationFragment MethodInvocation SimpleName get range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+continue point SimpleName MethodInvocation SimpleName is empty
+metadata schemadeletes section QualifiedName MethodInvocation SimpleName get row prefix
+metadata schemadeletes section QualifiedName MethodInvocation InfixExpression SimpleName continue point
+get row prefix SimpleName MethodInvocation InfixExpression SimpleName continue point
+continue row SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName metadata schemadeletes section
+continue row SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get row prefix
+continue row SimpleName VariableDeclarationFragment InfixExpression SimpleName continue point
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName continue row
+key SimpleName SimpleType ClassInstanceCreation SimpleName continue row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+continue row SimpleName ClassInstanceCreation MethodInvocation SimpleName following key
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+continue row SimpleName ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+following key SimpleName MethodInvocation QualifiedName partial keyrow
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation SimpleName is end key inclusive
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName following key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+continue row SimpleName ClassInstanceCreation MethodInvocation ClassInstanceCreation BooleanLiteral true
+following key SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation BooleanLiteral true
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end key
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+following key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+partial keyrow QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end key
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName range
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName range
+get end key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+range SimpleName Assignment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName following key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName partial keyrow
+range SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get end key
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName range
+range SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is end key inclusive
+credentials SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get token
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get principal
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+instance SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create scanner
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create scanner
+instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authorizationsempty
+credentials SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get token SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName table name
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+table name SimpleName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+scanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName range
+set range SimpleName MethodInvocation SimpleName range
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+metadata schemadeletes section QualifiedName MethodInvocation SimpleName get row prefix
+metadata schemadeletes section QualifiedName MethodInvocation MethodInvocation SimpleName length
+get row prefix SimpleName MethodInvocation MethodInvocation SimpleName length
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation SimpleName substring
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName metadata schemadeletes section
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+cand SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+cand SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cand
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName cand
+add SimpleName MethodInvocation SimpleName cand
+runtime SimpleName MethodInvocation SimpleName get runtime
+almost out of memory SimpleName MethodInvocation MethodInvocation SimpleName runtime
+almost out of memory SimpleName MethodInvocation MethodInvocation SimpleName get runtime
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral list of delete candidates has exceeded the memory threshold attempting to delete what has been gathered so far
+info SimpleName MethodInvocation StringLiteral list of delete candidates has exceeded the memory threshold attempting to delete what has been gathered so far
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get candidates
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName continue point
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get candidates
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName continue point
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get candidates
+get candidates SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get candidates SimpleName MethodDeclaration SingleVariableDeclaration SimpleName continue point
+get candidates SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get candidates SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get candidates SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get candidates SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+get candidates SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+continue point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+continue point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+continue point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get candidates
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue point
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get candidates
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue point
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

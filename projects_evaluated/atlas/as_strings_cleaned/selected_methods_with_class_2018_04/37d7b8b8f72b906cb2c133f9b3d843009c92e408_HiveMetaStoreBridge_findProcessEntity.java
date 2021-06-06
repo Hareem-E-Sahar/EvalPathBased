@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching atlas for process {}
+log SimpleName MethodInvocation SimpleName qualified name
+debug SimpleName MethodInvocation StringLiteral searching atlas for process {}
+debug SimpleName MethodInvocation SimpleName qualified name
+searching atlas for process {} StringLiteral MethodInvocation SimpleName qualified name
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive process
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+find entity SimpleName MethodInvocation SimpleName type name
+find entity SimpleName MethodInvocation SimpleName qualified name
+type name SimpleName MethodInvocation SimpleName qualified name
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SimpleName find process entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName find process entity
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+find process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+find process entity SimpleName MethodDeclaration SimpleType SimpleName exception
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName find process entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find process entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,27 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName in
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+in SimpleName InfixExpression IfStatement ReturnStatement SimpleName in
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName de nullify
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName de nullify
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+byte PrimitiveType ArrayType MethodDeclaration SimpleName de nullify
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName in
+de nullify SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+de nullify SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName de nullify
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName de nullify
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in

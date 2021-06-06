@@ -1,0 +1,131 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation QualifiedName constantsentity type property key
+property SimpleName MethodInvocation QualifiedName constantsentity type property key
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName is present
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation QualifiedName constantsentity type property key
+property SimpleName MethodInvocation QualifiedName constantsentity type property key
+v SimpleName MethodInvocation MethodInvocation SimpleName value
+property SimpleName MethodInvocation MethodInvocation SimpleName value
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+type name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+type name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+post process map SimpleName MethodInvocation SimpleName contains key
+post process map SimpleName MethodInvocation SimpleName type name
+contains key SimpleName MethodInvocation SimpleName type name
+post process map SimpleName MethodInvocation SimpleName get
+post process map SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+post process map SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+type name SimpleName MethodInvocation MethodInvocation SimpleName contains key
+post process map SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+get SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+type name SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+contains key SimpleName MethodInvocation SimpleName non primitive map category
+string utils SimpleName MethodInvocation SimpleName remove
+string utils SimpleName MethodInvocation SimpleName label
+string utils SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+remove SimpleName MethodInvocation SimpleName label
+remove SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+label SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName label
+property name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsinternal property key prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+post process map SimpleName MethodInvocation SimpleName get
+post process map SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+post process map SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+type name SimpleName MethodInvocation MethodInvocation SimpleName get
+post process map SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+get SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+type name SimpleName MethodInvocation MethodInvocation SimpleName non primitive map category
+get SimpleName MethodInvocation SimpleName non primitive map category
+properties SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName post process map
+properties SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+properties SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type name
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName non primitive map category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName p
+property name SimpleName MethodInvocation SimpleName starts with
+property name SimpleName MethodInvocation SimpleName p
+starts with SimpleName MethodInvocation SimpleName p
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+string SimpleName MethodInvocation SimpleName p
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+format SimpleName MethodInvocation SimpleName p
+ss StringLiteral MethodInvocation QualifiedName constantsinternal property key prefix
+ss StringLiteral MethodInvocation SimpleName p
+constantsinternal property key prefix QualifiedName MethodInvocation SimpleName p
+string utils SimpleName MethodInvocation SimpleName remove
+string utils SimpleName MethodInvocation SimpleName property name
+string utils SimpleName MethodInvocation SimpleName p
+remove SimpleName MethodInvocation SimpleName property name
+remove SimpleName MethodInvocation SimpleName p
+property name SimpleName MethodInvocation SimpleName p
+string utils SimpleName MethodInvocation MethodInvocation SimpleName substring
+remove SimpleName MethodInvocation MethodInvocation SimpleName substring
+property name SimpleName MethodInvocation MethodInvocation SimpleName substring
+p SimpleName MethodInvocation MethodInvocation SimpleName substring
+string utils SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+property name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+p SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+substring SimpleName MethodInvocation MethodInvocation SimpleName trim
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName trim
+get label key pair SimpleName MethodInvocation MethodInvocation SimpleName string
+get label key pair SimpleName MethodInvocation MethodInvocation SimpleName format
+get label key pair SimpleName MethodInvocation MethodInvocation StringLiteral ss
+get label key pair SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+get label key pair SimpleName MethodInvocation MethodInvocation SimpleName p
+get label key pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName substring
+get label key pair SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get label key pair SimpleName MethodInvocation MethodInvocation SimpleName trim
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+constantsinternal property key prefix QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trim
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName properties
+p SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName properties
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get non primitive map key from label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName properties
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get non primitive map key from label
+get non primitive map key from label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get non primitive map key from label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+get non primitive map key from label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get non primitive map key from label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+get non primitive map key from label SimpleName MethodDeclaration Block EnhancedForStatement SimpleName properties
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get non primitive map key from label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get non primitive map key from label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label

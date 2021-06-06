@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName limit
+string SimpleName SimpleType SingleVariableDeclaration SimpleName offset
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add limitlimit offset
+log SimpleName MethodInvocation SimpleName limit
+log SimpleName MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral add limitlimit offset
+debug SimpleName MethodInvocation SimpleName limit
+debug SimpleName MethodInvocation SimpleName offset
+add limitlimit offset StringLiteral MethodInvocation SimpleName limit
+add limitlimit offset StringLiteral MethodInvocation SimpleName offset
+limit SimpleName MethodInvocation SimpleName offset
+offset SimpleName MethodInvocation SimpleName equals ignore case
+offset SimpleName MethodInvocation StringLiteral empty
+equals ignore case SimpleName MethodInvocation StringLiteral empty
+add SimpleName MethodInvocation QualifiedName gremlin clauselimit
+add SimpleName MethodInvocation SimpleName limit
+gremlin clauselimit QualifiedName MethodInvocation SimpleName limit
+add range clause SimpleName MethodInvocation SimpleName offset
+add range clause SimpleName MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation SimpleName limit
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SimpleName add limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName limit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+add limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+add limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

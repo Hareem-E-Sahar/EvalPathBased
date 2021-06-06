@@ -1,0 +1,106 @@
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName response
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName http servlet request
+mock entity resource SimpleName MethodInvocation SimpleName submit
+mock entity resource SimpleName MethodInvocation MethodInvocation SimpleName any
+submit SimpleName MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName mock entity resource
+when SimpleName MethodInvocation MethodInvocation SimpleName submit
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+mock entity resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+submit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+mock entity resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+submit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+then return SimpleName MethodInvocation SimpleName response
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName random
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+response SimpleName MethodInvocation SimpleName get entity
+when SimpleName MethodInvocation MethodInvocation SimpleName response
+when SimpleName MethodInvocation MethodInvocation SimpleName get entity
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName guid
+as list SimpleName MethodInvocation SimpleName guid
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName arrays
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName as list
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName guid
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+json object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entities
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entities
+get SimpleName MethodInvocation SimpleName entities
+put SimpleName MethodInvocation SimpleName entities
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName entities
+entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entities SimpleName MethodInvocation MethodInvocation SimpleName entities
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+local atlas client SimpleName SimpleType ClassInstanceCreation SimpleName service state
+local atlas client SimpleName SimpleType ClassInstanceCreation SimpleName mock entity resource
+service state SimpleName ClassInstanceCreation SimpleName mock entity resource
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName local atlas client
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service state
+atlas client SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mock entity resource
+local atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName random
+atlas client SimpleName MethodInvocation SimpleName create entity
+atlas client SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName referenceable
+atlas client SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName random
+create entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName referenceable
+create entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName random
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+results SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get
+results SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName guid
+results SimpleName MethodInvocation MethodInvocation SimpleName guid
+get SimpleName MethodInvocation MethodInvocation SimpleName guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test create entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test create entity SimpleName MethodDeclaration SimpleType SimpleName exception
+test create entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,41 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk usage
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get disk usage
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tables
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName disk usage
+public Modifier MethodDeclaration SimpleName get disk usage
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tables
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get disk usage
+disk usage SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get disk usage
+get disk usage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tables
+get disk usage SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get disk usage SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get disk usage SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+tables SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get disk usage
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get disk usage
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

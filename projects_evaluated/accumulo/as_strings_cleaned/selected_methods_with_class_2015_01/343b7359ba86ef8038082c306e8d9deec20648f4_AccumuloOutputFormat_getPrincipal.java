@@ -1,0 +1,40 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+hadoop compat util SimpleName MethodInvocation SimpleName get configuration
+hadoop compat util SimpleName MethodInvocation SimpleName context
+get configuration SimpleName MethodInvocation SimpleName context
+output configurator SimpleName MethodInvocation SimpleName get principal
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+output configurator SimpleName MethodInvocation MethodInvocation SimpleName context
+get principal SimpleName MethodInvocation SimpleName class
+get principal SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+get principal SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+get principal SimpleName MethodInvocation MethodInvocation SimpleName context
+class SimpleName MethodInvocation MethodInvocation SimpleName hadoop compat util
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName context
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get principal
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get principal
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType MethodDeclaration SimpleName get principal
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get principal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get principal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get principal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

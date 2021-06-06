@@ -1,0 +1,80 @@
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName cloned type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+type def attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+cloned type def SimpleName MethodInvocation SimpleName set description
+cloned type def SimpleName MethodInvocation SimpleName description
+set description SimpleName MethodInvocation SimpleName description
+cloned type def SimpleName MethodInvocation SimpleName set description guid
+cloned type def SimpleName MethodInvocation SimpleName description guid
+set description guid SimpleName MethodInvocation SimpleName description guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+cloned type def SimpleName MethodInvocation SimpleName get properties definition
+properties definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName cloned type def
+properties definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties definition
+type def attribute SimpleName SimpleType SingleVariableDeclaration SimpleName patch type def attribute
+patch type def attribute SimpleName MethodInvocation SimpleName get attribute name
+patch type def attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName patch type def attribute
+patch type def attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName patch type def attribute name
+type def attribute SimpleName SimpleType SingleVariableDeclaration SimpleName existing property
+existing property SimpleName MethodInvocation SimpleName get attribute name
+patch type def attribute name SimpleName MethodInvocation SimpleName equals
+patch type def attribute name SimpleName MethodInvocation MethodInvocation SimpleName existing property
+patch type def attribute name SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+equals SimpleName MethodInvocation MethodInvocation SimpleName existing property
+equals SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+type def attribute SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName properties definition
+existing property SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName properties definition
+type def attribute SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type def attributes
+patch type def attribute SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type def attributes
+private Modifier MethodDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SimpleName patch type def new descriptions
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName description
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName description guid
+type def SimpleName SimpleType MethodDeclaration SimpleName patch type def new descriptions
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName description
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName description guid
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description guid
+patch type def new descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+patch type def new descriptions SimpleName MethodDeclaration SimpleType SimpleName patch error exception
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+description SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+description guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+description guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+type def attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName patch type def new descriptions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName patch type def new descriptions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception

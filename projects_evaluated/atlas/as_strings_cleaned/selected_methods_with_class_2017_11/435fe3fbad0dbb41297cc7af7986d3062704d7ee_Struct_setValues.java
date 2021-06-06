@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+values SimpleName FieldAccess Assignment SimpleName values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration SimpleName set values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

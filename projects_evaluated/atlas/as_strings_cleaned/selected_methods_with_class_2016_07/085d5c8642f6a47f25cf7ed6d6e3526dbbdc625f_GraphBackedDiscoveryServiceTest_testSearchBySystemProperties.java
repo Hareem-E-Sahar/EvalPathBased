@@ -1,0 +1,116 @@
+dsl query SimpleName VariableDeclarationFragment StringLiteral from department select guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral from department select guid
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json results
+assert not null SimpleName MethodInvocation SimpleName json results
+json object SimpleName SimpleType ClassInstanceCreation SimpleName json results
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName json results
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+rows SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rows
+assert not null SimpleName MethodInvocation SimpleName rows
+rows SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation SimpleName get json object
+rows SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get string
+rows SimpleName MethodInvocation MethodInvocation StringLiteral guid
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral guid
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral guid
+get string SimpleName MethodInvocation StringLiteral guid
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rows
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get json object
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral guid
+rows SimpleName MethodInvocation SimpleName get json object
+rows SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get string
+rows SimpleName MethodInvocation MethodInvocation StringLiteral guid
+get json object SimpleName MethodInvocation MethodInvocation StringLiteral guid
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral guid
+get string SimpleName MethodInvocation StringLiteral guid
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rows
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get json object
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+guid SimpleName VariableDeclarationFragment MethodInvocation StringLiteral guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+department where guid = StringLiteral InfixExpression SimpleName guid
+department where guid = StringLiteral InfixExpression StringLiteral and state = active
+guid SimpleName InfixExpression StringLiteral and state = active
+dsl query SimpleName Assignment InfixExpression StringLiteral department where guid =
+dsl query SimpleName Assignment InfixExpression SimpleName guid
+dsl query SimpleName Assignment InfixExpression StringLiteral and state = active
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+json results SimpleName Assignment MethodInvocation SimpleName search by dsl
+json results SimpleName Assignment MethodInvocation SimpleName dsl query
+assert not null SimpleName MethodInvocation SimpleName json results
+json object SimpleName SimpleType ClassInstanceCreation SimpleName json results
+results SimpleName Assignment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName Assignment ClassInstanceCreation SimpleName json results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+rows SimpleName Assignment MethodInvocation SimpleName results
+rows SimpleName Assignment MethodInvocation SimpleName get json array
+rows SimpleName Assignment MethodInvocation StringLiteral rows
+assert not null SimpleName MethodInvocation SimpleName rows
+rows SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search by system properties
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search by system properties
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search by system properties
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search by system properties SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search by system properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search by system properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

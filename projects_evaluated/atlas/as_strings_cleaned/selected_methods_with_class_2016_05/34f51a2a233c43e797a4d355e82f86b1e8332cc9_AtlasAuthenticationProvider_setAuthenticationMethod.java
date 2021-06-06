@@ -1,0 +1,31 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation StringLiteral atlasloginmethod
+configuration SimpleName MethodInvocation StringLiteral unknown
+get string SimpleName MethodInvocation StringLiteral atlasloginmethod
+get string SimpleName MethodInvocation StringLiteral unknown
+atlasloginmethod StringLiteral MethodInvocation StringLiteral unknown
+atlas authentication method SimpleName FieldAccess Assignment MethodInvocation SimpleName configuration
+atlas authentication method SimpleName FieldAccess Assignment MethodInvocation SimpleName get string
+atlas authentication method SimpleName FieldAccess Assignment MethodInvocation StringLiteral atlasloginmethod
+atlas authentication method SimpleName FieldAccess Assignment MethodInvocation StringLiteral unknown
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while getting atlasloginmethod application properties
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while getting atlasloginmethod application properties
+error SimpleName MethodInvocation SimpleName e
+error while getting atlasloginmethod application properties StringLiteral MethodInvocation SimpleName e
+post construct SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+post construct SimpleName MarkerAnnotation MethodDeclaration SimpleName set authentication method
+void PrimitiveType MethodDeclaration SimpleName set authentication method
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authentication method
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post construct
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authentication method

@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName connection guid
+public Modifier MethodDeclaration SimpleType SimpleName asset universe
+public Modifier MethodDeclaration SimpleName get asset properties by connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleName get asset properties by connection
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+get asset properties by connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties by connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get asset properties by connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties by connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+get asset properties by connection SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get asset properties by connection SimpleName MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+get asset properties by connection SimpleName MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+connection guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+connection guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+connection guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+unrecognized connection guid exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+public Modifier TypeDeclaration MethodDeclaration SimpleName get asset properties by connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get asset properties by connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception

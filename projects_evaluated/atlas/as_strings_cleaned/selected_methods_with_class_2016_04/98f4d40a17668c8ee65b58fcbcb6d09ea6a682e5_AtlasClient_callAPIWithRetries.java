@@ -1,0 +1,117 @@
+api SimpleName SimpleType SingleVariableDeclaration SimpleName api
+object SimpleName SimpleType SingleVariableDeclaration SimpleName request object
+resource creator SimpleName SimpleType SingleVariableDeclaration SimpleName resource creator
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get number of retries
+resource creator SimpleName MethodInvocation SimpleName create resource
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource creator
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName create resource
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral using resource {} for {} times
+log SimpleName MethodInvocation MethodInvocation SimpleName resource
+log SimpleName MethodInvocation MethodInvocation SimpleName get uri
+log SimpleName MethodInvocation SimpleName i
+info SimpleName MethodInvocation StringLiteral using resource {} for {} times
+info SimpleName MethodInvocation MethodInvocation SimpleName resource
+info SimpleName MethodInvocation MethodInvocation SimpleName get uri
+info SimpleName MethodInvocation SimpleName i
+using resource {} for {} times StringLiteral MethodInvocation MethodInvocation SimpleName resource
+using resource {} for {} times StringLiteral MethodInvocation MethodInvocation SimpleName get uri
+using resource {} for {} times StringLiteral MethodInvocation SimpleName i
+resource SimpleName MethodInvocation MethodInvocation SimpleName i
+get uri SimpleName MethodInvocation MethodInvocation SimpleName i
+call api with resource SimpleName MethodInvocation SimpleName api
+call api with resource SimpleName MethodInvocation SimpleName resource
+call api with resource SimpleName MethodInvocation SimpleName request object
+api SimpleName MethodInvocation SimpleName resource
+api SimpleName MethodInvocation SimpleName request object
+resource SimpleName MethodInvocation SimpleName request object
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with resource
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName api
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName request object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+client handler exception SimpleName SimpleType SingleVariableDeclaration SimpleName che
+get number of retries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+api SimpleName MethodInvocation SimpleName get path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral handled exception in calling api {}
+log SimpleName MethodInvocation MethodInvocation SimpleName api
+log SimpleName MethodInvocation MethodInvocation SimpleName get path
+log SimpleName MethodInvocation SimpleName che
+warn SimpleName MethodInvocation StringLiteral handled exception in calling api {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName api
+warn SimpleName MethodInvocation MethodInvocation SimpleName get path
+warn SimpleName MethodInvocation SimpleName che
+handled exception in calling api {} StringLiteral MethodInvocation MethodInvocation SimpleName api
+handled exception in calling api {} StringLiteral MethodInvocation MethodInvocation SimpleName get path
+handled exception in calling api {} StringLiteral MethodInvocation SimpleName che
+api SimpleName MethodInvocation MethodInvocation SimpleName che
+get path SimpleName MethodInvocation MethodInvocation SimpleName che
+che SimpleName MethodInvocation SimpleName get cause
+che SimpleName MethodInvocation MethodInvocation SimpleName get class
+get cause SimpleName MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral exceptions cause {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName che
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+log SimpleName MethodInvocation MethodInvocation SimpleName get class
+warn SimpleName MethodInvocation StringLiteral exceptions cause {}
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName che
+warn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+warn SimpleName MethodInvocation MethodInvocation SimpleName get class
+exceptions cause {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName che
+exceptions cause {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get cause
+exceptions cause {} StringLiteral MethodInvocation MethodInvocation SimpleName get class
+handle client handler exception SimpleName MethodInvocation SimpleName che
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not get response after retries
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName api
+atlas service exception SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral could not get response after retries
+api SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName runtime exception
+api SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral could not get response after retries
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName call api with retries
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName api
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request object
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+json object SimpleName SimpleType MethodDeclaration SimpleName call api with retries
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName api
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request object
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName api
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName api
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request object
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource creator
+call api with retries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+call api with retries SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+api SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+api SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+request object SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+request object SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+resource creator SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call api with retries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call api with retries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName api
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource creator
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

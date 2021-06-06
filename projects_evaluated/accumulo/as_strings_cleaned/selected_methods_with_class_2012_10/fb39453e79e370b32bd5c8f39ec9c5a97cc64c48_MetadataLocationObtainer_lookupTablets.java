@@ -1,0 +1,260 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets ranges
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets ranges
+tablet locator SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName tree map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName key
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+results SimpleName MethodInvocation SimpleName put
+results SimpleName MethodInvocation MethodInvocation SimpleName entry
+results SimpleName MethodInvocation MethodInvocation SimpleName get key
+results SimpleName MethodInvocation MethodInvocation SimpleName entry
+results SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entries
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName receive
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName receive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName entries
+void PrimitiveType MethodDeclaration SimpleName receive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entries
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entries
+receive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+receive SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entries
+rr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName result receiver
+result receiver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rr
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner options
+scanner options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+optsfetched columns QualifiedName Assignment SimpleName loc cols
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+instance SimpleName MethodInvocation SimpleName get configuration
+tablet server batch reader iterator SimpleName MethodInvocation SimpleName do lookup
+tablet server batch reader iterator SimpleName MethodInvocation SimpleName tserver
+tablet server batch reader iterator SimpleName MethodInvocation SimpleName tablets ranges
+tablet server batch reader iterator SimpleName MethodInvocation SimpleName failures
+tablet server batch reader iterator SimpleName MethodInvocation SimpleName unscanned
+do lookup SimpleName MethodInvocation SimpleName tserver
+do lookup SimpleName MethodInvocation SimpleName tablets ranges
+do lookup SimpleName MethodInvocation SimpleName failures
+do lookup SimpleName MethodInvocation SimpleName unscanned
+do lookup SimpleName MethodInvocation SimpleName rr
+tserver SimpleName MethodInvocation SimpleName tablets ranges
+tserver SimpleName MethodInvocation SimpleName failures
+tserver SimpleName MethodInvocation SimpleName unscanned
+tserver SimpleName MethodInvocation SimpleName rr
+tserver SimpleName MethodInvocation SimpleName columns
+tablets ranges SimpleName MethodInvocation SimpleName failures
+tablets ranges SimpleName MethodInvocation SimpleName unscanned
+tablets ranges SimpleName MethodInvocation SimpleName rr
+tablets ranges SimpleName MethodInvocation SimpleName columns
+tablets ranges SimpleName MethodInvocation SimpleName credentials
+failures SimpleName MethodInvocation SimpleName unscanned
+failures SimpleName MethodInvocation SimpleName rr
+failures SimpleName MethodInvocation SimpleName columns
+failures SimpleName MethodInvocation SimpleName credentials
+failures SimpleName MethodInvocation SimpleName opts
+unscanned SimpleName MethodInvocation SimpleName rr
+unscanned SimpleName MethodInvocation SimpleName columns
+unscanned SimpleName MethodInvocation SimpleName credentials
+unscanned SimpleName MethodInvocation SimpleName opts
+unscanned SimpleName MethodInvocation QualifiedName constantsno auths
+rr SimpleName MethodInvocation SimpleName columns
+rr SimpleName MethodInvocation SimpleName credentials
+rr SimpleName MethodInvocation SimpleName opts
+rr SimpleName MethodInvocation QualifiedName constantsno auths
+rr SimpleName MethodInvocation MethodInvocation SimpleName instance
+rr SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+columns SimpleName MethodInvocation SimpleName credentials
+columns SimpleName MethodInvocation SimpleName opts
+columns SimpleName MethodInvocation QualifiedName constantsno auths
+columns SimpleName MethodInvocation MethodInvocation SimpleName instance
+columns SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+credentials SimpleName MethodInvocation SimpleName opts
+credentials SimpleName MethodInvocation QualifiedName constantsno auths
+credentials SimpleName MethodInvocation MethodInvocation SimpleName instance
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+opts SimpleName MethodInvocation QualifiedName constantsno auths
+opts SimpleName MethodInvocation MethodInvocation SimpleName instance
+opts SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+constantsno auths QualifiedName MethodInvocation MethodInvocation SimpleName instance
+constantsno auths QualifiedName MethodInvocation MethodInvocation SimpleName get configuration
+failures SimpleName MethodInvocation SimpleName size
+failures SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+failures SimpleName MethodInvocation SimpleName size
+lookup tablets failed for StringLiteral InfixExpression MethodInvocation SimpleName failures
+lookup tablets failed for StringLiteral InfixExpression MethodInvocation SimpleName size
+lookup tablets failed for StringLiteral InfixExpression StringLiteral extents
+failures SimpleName MethodInvocation InfixExpression StringLiteral extents
+size SimpleName MethodInvocation InfixExpression StringLiteral extents
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed for
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName failures
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral extents
+trace SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed for
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName failures
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+trace SimpleName MethodInvocation InfixExpression StringLiteral extents
+failures SimpleName MethodInvocation SimpleName key set
+parent SimpleName MethodInvocation SimpleName invalidate cache
+parent SimpleName MethodInvocation MethodInvocation SimpleName failures
+parent SimpleName MethodInvocation MethodInvocation SimpleName key set
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName failures
+invalidate cache SimpleName MethodInvocation MethodInvocation SimpleName key set
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+lookup tablets failed server StringLiteral InfixExpression SimpleName tserver
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed server
+log SimpleName MethodInvocation InfixExpression SimpleName tserver
+log SimpleName MethodInvocation SimpleName e
+trace SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed server
+trace SimpleName MethodInvocation InfixExpression SimpleName tserver
+trace SimpleName MethodInvocation SimpleName e
+lookup tablets failed server StringLiteral InfixExpression MethodInvocation SimpleName e
+tserver SimpleName InfixExpression MethodInvocation SimpleName e
+parent SimpleName MethodInvocation SimpleName invalidate cache
+parent SimpleName MethodInvocation SimpleName tserver
+invalidate cache SimpleName MethodInvocation SimpleName tserver
+accumulo server exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+lookup tablets failed server StringLiteral InfixExpression SimpleName tserver
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed server
+log SimpleName MethodInvocation InfixExpression SimpleName tserver
+log SimpleName MethodInvocation SimpleName e
+trace SimpleName MethodInvocation InfixExpression StringLiteral lookup tablets failed server
+trace SimpleName MethodInvocation InfixExpression SimpleName tserver
+trace SimpleName MethodInvocation SimpleName e
+lookup tablets failed server StringLiteral InfixExpression MethodInvocation SimpleName e
+tserver SimpleName InfixExpression MethodInvocation SimpleName e
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+metadata table SimpleName MethodInvocation SimpleName get metadata location entries
+metadata table SimpleName MethodInvocation SimpleName results
+get metadata location entries SimpleName MethodInvocation SimpleName results
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get first
+get metadata location entries SimpleName MethodInvocation MethodInvocation SimpleName get first
+results SimpleName MethodInvocation MethodInvocation SimpleName get first
+metadata SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName metadata table
+metadata SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get metadata location entries
+metadata SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName results
+metadata SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+metadata SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+tablet location SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+tablet location SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+tablet location SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet location
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet location
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName metadata
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName lookup tablets
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tserver
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet location
+public Modifier MethodDeclaration SimpleName lookup tablets
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet locator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName lookup tablets
+tablet location SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName lookup tablets
+lookup tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+lookup tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+lookup tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+lookup tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet locator
+lookup tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+lookup tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+lookup tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tablets ranges SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+tablets ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+tablets ranges SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+parent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+parent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup tablets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup tablets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

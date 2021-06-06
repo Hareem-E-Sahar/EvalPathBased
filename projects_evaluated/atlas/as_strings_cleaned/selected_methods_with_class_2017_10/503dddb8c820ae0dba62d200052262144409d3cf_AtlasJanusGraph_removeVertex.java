@@ -1,0 +1,35 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+atlas janus vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+atlas janus edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get v
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get wrapped element
+get v SimpleName MethodInvocation MethodInvocation SimpleName get wrapped element
+wrapped SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex
+wrapped SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get v
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName get wrapped element
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wrapped
+wrapped SimpleName MethodInvocation SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove vertex
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName remove vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+remove vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

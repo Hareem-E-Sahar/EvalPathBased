@@ -1,0 +1,54 @@
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+search params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+search params SimpleName MethodInvocation SimpleName clear
+search params SimpleName MethodInvocation SimpleName add
+search params SimpleName MethodInvocation QualifiedName search filterparam name
+search params SimpleName MethodInvocation SimpleName type name
+add SimpleName MethodInvocation QualifiedName search filterparam name
+add SimpleName MethodInvocation SimpleName type name
+search filterparam name QualifiedName MethodInvocation SimpleName type name
+search filter SimpleName SimpleType ClassInstanceCreation SimpleName search params
+search filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName search filter
+search filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName search params
+search filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search filter
+types client SimpleName MethodInvocation SimpleName get all type defs
+types client SimpleName MethodInvocation SimpleName search filter
+get all type defs SimpleName MethodInvocation SimpleName search filter
+search defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName types client
+search defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all type defs
+search defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName search filter
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search defs
+search defs SimpleName MethodInvocation SimpleName is empty
+created type [ StringLiteral InfixExpression SimpleName type name
+created type [ StringLiteral InfixExpression StringLiteral ]
+type name SimpleName InfixExpression StringLiteral ]
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral created type [
+systemout QualifiedName MethodInvocation InfixExpression SimpleName type name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ]
+println SimpleName MethodInvocation InfixExpression StringLiteral created type [
+println SimpleName MethodInvocation InfixExpression SimpleName type name
+println SimpleName MethodInvocation InfixExpression StringLiteral ]
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify types created
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+void PrimitiveType MethodDeclaration SimpleName verify types created
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName types
+verify types created SimpleName MethodDeclaration SimpleType SimpleName exception
+verify types created SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify types created
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify types created
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

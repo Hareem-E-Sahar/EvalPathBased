@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+sum SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sum
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+list SimpleName MethodInvocation SimpleName size
+sum SimpleName Assignment MethodInvocation SimpleName list
+sum SimpleName Assignment MethodInvocation SimpleName size
+list SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName values
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName sum
+values SimpleName EnhancedForStatement Block ReturnStatement SimpleName sum
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName sum sizes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+static Modifier MethodDeclaration Block ReturnStatement SimpleName sum
+int PrimitiveType MethodDeclaration SimpleName sum sizes
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName values
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName sum
+sum sizes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+sum sizes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+sum sizes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+sum sizes SimpleName MethodDeclaration Block ReturnStatement SimpleName sum
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName sum sizes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sum sizes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

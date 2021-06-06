@@ -1,0 +1,98 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table
+hive SimpleName SimpleType SingleVariableDeclaration SimpleName hive client
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table names
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName table
+hive client SimpleName MethodInvocation SimpleName get all tables
+hive client SimpleName MethodInvocation SimpleName database name
+get all tables SimpleName MethodInvocation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get all tables
+when SimpleName MethodInvocation MethodInvocation SimpleName database name
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName table names
+as list SimpleName MethodInvocation SimpleName table names
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table names
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation SimpleName table names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+create test table SimpleName MethodInvocation SimpleName database name
+create test table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test table
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+test table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test table
+hive client SimpleName MethodInvocation SimpleName get table
+hive client SimpleName MethodInvocation SimpleName database name
+hive client SimpleName MethodInvocation SimpleName table name
+get table SimpleName MethodInvocation SimpleName database name
+get table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+when SimpleName MethodInvocation MethodInvocation SimpleName hive client
+when SimpleName MethodInvocation MethodInvocation SimpleName get table
+when SimpleName MethodInvocation MethodInvocation SimpleName database name
+when SimpleName MethodInvocation MethodInvocation SimpleName table name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName test table
+hive client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+database name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+then return SimpleName MethodInvocation SimpleName test table
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation SimpleName test table
+add SimpleName MethodInvocation SimpleName test table
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table names
+table names SimpleName EnhancedForStatement Block ReturnStatement SimpleName tables
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName table
+private Modifier MethodDeclaration SimpleName setup tables
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table names
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName setup tables
+table SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName setup tables
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive client
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database name
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+setup tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table names
+setup tables SimpleName MethodDeclaration SimpleType SimpleName hive exception
+setup tables SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table names
+setup tables SimpleName MethodDeclaration Block ReturnStatement SimpleName tables
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table names
+hive client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table names
+database name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+table names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

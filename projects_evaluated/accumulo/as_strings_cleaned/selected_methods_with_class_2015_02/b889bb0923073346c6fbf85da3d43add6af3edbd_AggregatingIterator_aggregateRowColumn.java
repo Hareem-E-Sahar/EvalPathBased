@@ -1,0 +1,76 @@
+orgapacheaccumulocoreiteratorsaggregationaggregator QualifiedName SimpleType SingleVariableDeclaration SimpleName aggr
+iterator SimpleName MethodInvocation SimpleName get top key
+iterator SimpleName MethodInvocation MethodInvocation SimpleName is deleted
+get top key SimpleName MethodInvocation MethodInvocation SimpleName is deleted
+iterator SimpleName MethodInvocation SimpleName get top key
+work key SimpleName MethodInvocation SimpleName set
+work key SimpleName MethodInvocation MethodInvocation SimpleName iterator
+work key SimpleName MethodInvocation MethodInvocation SimpleName get top key
+set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+set SimpleName MethodInvocation MethodInvocation SimpleName get top key
+key to aggregate SimpleName VariableDeclarationFragment SimpleName work key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key to aggregate
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work key
+aggr SimpleName MethodInvocation SimpleName reset
+iterator SimpleName MethodInvocation SimpleName get top value
+aggr SimpleName MethodInvocation SimpleName collect
+aggr SimpleName MethodInvocation MethodInvocation SimpleName iterator
+aggr SimpleName MethodInvocation MethodInvocation SimpleName get top value
+collect SimpleName MethodInvocation MethodInvocation SimpleName iterator
+collect SimpleName MethodInvocation MethodInvocation SimpleName get top value
+iterator SimpleName MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation SimpleName has top
+iterator SimpleName MethodInvocation SimpleName get top key
+iterator SimpleName MethodInvocation MethodInvocation SimpleName is deleted
+get top key SimpleName MethodInvocation MethodInvocation SimpleName is deleted
+iterator SimpleName MethodInvocation SimpleName get top key
+iterator SimpleName MethodInvocation MethodInvocation SimpleName equals
+get top key SimpleName MethodInvocation MethodInvocation SimpleName equals
+iterator SimpleName MethodInvocation MethodInvocation SimpleName key to aggregate
+get top key SimpleName MethodInvocation MethodInvocation SimpleName key to aggregate
+iterator SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+get top key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+equals SimpleName MethodInvocation SimpleName key to aggregate
+equals SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+key to aggregate SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+iterator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+iterator SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key to aggregate
+iterator SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key to aggregate
+has top SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName partial keyrow colfam colqual colvis
+iterator SimpleName MethodInvocation SimpleName get top value
+aggr SimpleName MethodInvocation SimpleName collect
+aggr SimpleName MethodInvocation MethodInvocation SimpleName iterator
+aggr SimpleName MethodInvocation MethodInvocation SimpleName get top value
+collect SimpleName MethodInvocation MethodInvocation SimpleName iterator
+collect SimpleName MethodInvocation MethodInvocation SimpleName get top value
+iterator SimpleName MethodInvocation SimpleName next
+aggr key SimpleName Assignment SimpleName work key
+aggr SimpleName MethodInvocation SimpleName aggregate
+aggr value SimpleName Assignment MethodInvocation SimpleName aggr
+aggr value SimpleName Assignment MethodInvocation SimpleName aggregate
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName aggregate row column
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoreiteratorsaggregationaggregator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName aggr
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName aggregate row column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoreiteratorsaggregationaggregator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName aggr
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+aggregate row column SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoreiteratorsaggregationaggregator
+aggregate row column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aggr
+aggregate row column SimpleName MethodDeclaration SimpleType SimpleName io exception
+aggr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName aggregate row column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName aggregate row column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

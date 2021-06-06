@@ -1,0 +1,116 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName audit log store connection
+connector broker SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connector broker
+connector broker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector broker
+connector broker SimpleName MethodInvocation SimpleName get connector
+connector broker SimpleName MethodInvocation SimpleName audit log store connection
+get connector SimpleName MethodInvocation SimpleName audit log store connection
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector broker
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName audit log store connection
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+omrs audit log store SimpleName SimpleType CastExpression SimpleName connector
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+method name SimpleName VariableDeclarationFragment StringLiteral get audit log store
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get audit log store
+log SimpleName MethodInvocation SimpleName is debug enabled
+error SimpleName MethodInvocation SimpleName to string
+unable to create audit log store connector StringLiteral InfixExpression MethodInvocation SimpleName error
+unable to create audit log store connector StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create audit log store connector
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral unable to create audit log store connector
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull audit log store
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull audit log store
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName local server name
+get formatted error message SimpleName MethodInvocation SimpleName local server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName local server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs config error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs config error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs config error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs config error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs config error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs config error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs config error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get system action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+get user action SimpleName MethodInvocation ClassInstanceCreation SimpleName error
+private Modifier MethodDeclaration SimpleType SimpleName omrs audit log store
+private Modifier MethodDeclaration SimpleName get audit log store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName audit log store connection
+omrs audit log store SimpleName SimpleType MethodDeclaration SimpleName get audit log store
+omrs audit log store SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName audit log store connection
+get audit log store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+get audit log store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName audit log store connection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs audit log store
+public Modifier TypeDeclaration MethodDeclaration SimpleName get audit log store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log store connection
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs audit log store
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get audit log store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log store connection

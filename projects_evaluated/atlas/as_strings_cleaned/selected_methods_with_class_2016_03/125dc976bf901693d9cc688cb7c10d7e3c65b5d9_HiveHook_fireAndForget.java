@@ -1,0 +1,156 @@
+hive event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+eventhook type QualifiedName InfixExpression QualifiedName hook contexthook typepost exec hook
+eventhook type QualifiedName InfixExpression AssertStatement StringLiteral nonpost exec hook not supported
+hook contexthook typepost exec hook QualifiedName InfixExpression AssertStatement StringLiteral nonpost exec hook not supported
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral entered atlas hook for hook type {} operation {}
+log SimpleName MethodInvocation QualifiedName eventhook type
+log SimpleName MethodInvocation QualifiedName eventoperation
+info SimpleName MethodInvocation StringLiteral entered atlas hook for hook type {} operation {}
+info SimpleName MethodInvocation QualifiedName eventhook type
+info SimpleName MethodInvocation QualifiedName eventoperation
+entered atlas hook for hook type {} operation {} StringLiteral MethodInvocation QualifiedName eventhook type
+entered atlas hook for hook type {} operation {} StringLiteral MethodInvocation QualifiedName eventoperation
+eventhook type QualifiedName MethodInvocation QualifiedName eventoperation
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName hive conf
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName atlas properties
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation QualifiedName eventuser
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation QualifiedName eventugi
+hive conf SimpleName ClassInstanceCreation SimpleName atlas properties
+hive conf SimpleName ClassInstanceCreation QualifiedName eventuser
+hive conf SimpleName ClassInstanceCreation QualifiedName eventugi
+atlas properties SimpleName ClassInstanceCreation QualifiedName eventuser
+atlas properties SimpleName ClassInstanceCreation QualifiedName eventugi
+eventuser QualifiedName ClassInstanceCreation QualifiedName eventugi
+dgi bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive meta store bridge
+dgi bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive conf
+dgi bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas properties
+dgi bridge SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName eventuser
+dgi bridge SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName eventugi
+hive meta store bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dgi bridge
+handle event outputs SimpleName MethodInvocation SimpleName dgi bridge
+handle event outputs SimpleName MethodInvocation SimpleName event
+handle event outputs SimpleName MethodInvocation QualifiedName typedatabase
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation QualifiedName typedatabase
+event SimpleName MethodInvocation QualifiedName typedatabase
+handle event outputs SimpleName MethodInvocation SimpleName dgi bridge
+handle event outputs SimpleName MethodInvocation SimpleName event
+handle event outputs SimpleName MethodInvocation QualifiedName typetable
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation QualifiedName typetable
+event SimpleName MethodInvocation QualifiedName typetable
+register process SimpleName MethodInvocation SimpleName dgi bridge
+register process SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName event
+rename table SimpleName MethodInvocation SimpleName dgi bridge
+rename table SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName event
+alter table SimpleName MethodInvocation SimpleName dgi bridge
+alter table SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName event
+alter table SimpleName MethodInvocation SimpleName dgi bridge
+alter table SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName event
+eventoperation QualifiedName SwitchStatement SwitchCase SimpleName createdatabase
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName handle event outputs
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName dgi bridge
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName event
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation QualifiedName typedatabase
+eventoperation QualifiedName SwitchStatement SwitchCase SimpleName createtable
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName handle event outputs
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName dgi bridge
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation SimpleName event
+eventoperation QualifiedName SwitchStatement ExpressionStatement MethodInvocation QualifiedName typetable
+createdatabase SimpleName SwitchCase SwitchStatement SwitchCase SimpleName createtable
+createtable SimpleName SwitchCase SwitchStatement SwitchCase SimpleName createtable as select
+createtable SimpleName SwitchCase SwitchStatement SwitchCase SimpleName createview
+createtable SimpleName SwitchCase SwitchStatement SwitchCase SimpleName load
+createtable as select SimpleName SwitchCase SwitchStatement SwitchCase SimpleName createview
+createtable as select SimpleName SwitchCase SwitchStatement SwitchCase SimpleName load
+createtable as select SimpleName SwitchCase SwitchStatement SwitchCase SimpleName export
+createtable as select SimpleName SwitchCase SwitchStatement SwitchCase SimpleName import
+createtable as select SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query
+createview SimpleName SwitchCase SwitchStatement SwitchCase SimpleName load
+createview SimpleName SwitchCase SwitchStatement SwitchCase SimpleName export
+createview SimpleName SwitchCase SwitchStatement SwitchCase SimpleName import
+createview SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query
+load SimpleName SwitchCase SwitchStatement SwitchCase SimpleName export
+load SimpleName SwitchCase SwitchStatement SwitchCase SimpleName import
+load SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query
+export SimpleName SwitchCase SwitchStatement SwitchCase SimpleName import
+export SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query
+export SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+import SimpleName SwitchCase SwitchStatement SwitchCase SimpleName query
+import SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+import SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+query SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable rename
+query SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview rename
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable fileformat
+altertable rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+alterview rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable fileformat
+alterview rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+alterview rename SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable cluster sort
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable location
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable cluster sort
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable bucketnum
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable fileformat SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable cluster sort
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable bucketnum
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable location SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable bucketnum
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable cluster sort SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable properties
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable bucketnum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serdeproperties
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable properties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable serializer
+altertable serdeproperties SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName alterview as
+altertable serializer SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+alterview as SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable addcols
+alterview as SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+alterview as SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable replacecols
+altertable addcols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+altertable replacecols SimpleName SwitchCase SwitchStatement SwitchCase SimpleName altertable renamecol
+notify entities SimpleName MethodInvocation SimpleName messages
+nonpost exec hook not supported StringLiteral AssertStatement Block SwitchStatement QualifiedName eventoperation
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName fire and forget
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block AssertStatement StringLiteral nonpost exec hook not supported
+private Modifier MethodDeclaration Block SwitchStatement QualifiedName eventoperation
+void PrimitiveType MethodDeclaration SimpleName fire and forget
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block AssertStatement StringLiteral nonpost exec hook not supported
+void PrimitiveType MethodDeclaration Block SwitchStatement QualifiedName eventoperation
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event
+fire and forget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+fire and forget SimpleName MethodDeclaration SimpleType SimpleName exception
+fire and forget SimpleName MethodDeclaration Block AssertStatement StringLiteral nonpost exec hook not supported
+fire and forget SimpleName MethodDeclaration Block SwitchStatement QualifiedName eventoperation
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire and forget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire and forget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

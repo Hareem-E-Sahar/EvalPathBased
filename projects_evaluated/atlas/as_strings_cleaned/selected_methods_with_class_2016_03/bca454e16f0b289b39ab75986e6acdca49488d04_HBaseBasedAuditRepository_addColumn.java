@@ -1,0 +1,64 @@
+put SimpleName SimpleType SingleVariableDeclaration SimpleName put
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName column name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName column value
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName column value
+is not empty SimpleName MethodInvocation SimpleName column value
+bytes SimpleName MethodInvocation SimpleName to bytes
+bytes SimpleName MethodInvocation SimpleName column value
+to bytes SimpleName MethodInvocation SimpleName column value
+put SimpleName MethodInvocation SimpleName add column
+put SimpleName MethodInvocation SimpleName column family
+put SimpleName MethodInvocation SimpleName column name
+put SimpleName MethodInvocation MethodInvocation SimpleName bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+put SimpleName MethodInvocation MethodInvocation SimpleName column value
+add column SimpleName MethodInvocation SimpleName column family
+add column SimpleName MethodInvocation SimpleName column name
+add column SimpleName MethodInvocation MethodInvocation SimpleName bytes
+add column SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+add column SimpleName MethodInvocation MethodInvocation SimpleName column value
+column family SimpleName MethodInvocation SimpleName column name
+column family SimpleName MethodInvocation MethodInvocation SimpleName bytes
+column family SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+column family SimpleName MethodInvocation MethodInvocation SimpleName column value
+column name SimpleName MethodInvocation MethodInvocation SimpleName bytes
+column name SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+column name SimpleName MethodInvocation MethodInvocation SimpleName column value
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add column
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName put
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName put
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName column name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName column value
+void PrimitiveType MethodDeclaration SimpleName add column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName put
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName put
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName column value
+add column SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName put
+add column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName put
+add column SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+add column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column name
+add column SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column value
+put SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+put SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column value
+column name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column value

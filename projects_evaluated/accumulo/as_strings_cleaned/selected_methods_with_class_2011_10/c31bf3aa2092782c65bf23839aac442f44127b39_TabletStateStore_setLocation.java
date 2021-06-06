@@ -1,0 +1,49 @@
+assignment SimpleName SimpleType SingleVariableDeclaration SimpleName assignment
+tablet state store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store
+assignmenttablet QualifiedName MethodInvocation SimpleName equals
+assignmenttablet QualifiedName MethodInvocation QualifiedName constantsroot tablet extent
+equals SimpleName MethodInvocation QualifiedName constantsroot tablet extent
+store SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo tablet state store
+store SimpleName Assignment ClassInstanceCreation SimpleType SimpleName meta data state store
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName assignment
+singleton list SimpleName MethodInvocation SimpleName assignment
+store SimpleName MethodInvocation SimpleName set locations
+store SimpleName MethodInvocation MethodInvocation SimpleName collections
+store SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+store SimpleName MethodInvocation MethodInvocation SimpleName assignment
+set locations SimpleName MethodInvocation MethodInvocation SimpleName collections
+set locations SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set locations SimpleName MethodInvocation MethodInvocation SimpleName assignment
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assignment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName assignment
+public Modifier MethodDeclaration SimpleType SimpleName distributed store exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set location
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assignment
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName assignment
+static Modifier MethodDeclaration SimpleType SimpleName distributed store exception
+void PrimitiveType MethodDeclaration SimpleName set location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assignment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName assignment
+void PrimitiveType MethodDeclaration SimpleType SimpleName distributed store exception
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName assignment
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName assignment
+set location SimpleName MethodDeclaration SimpleType SimpleName distributed store exception
+assignment SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName assignment
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName distributed store exception

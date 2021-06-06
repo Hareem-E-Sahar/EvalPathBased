@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName e
+public Modifier MethodDeclaration SimpleName peek
+public Modifier MethodDeclaration Block ReturnStatement SimpleName top
+e SimpleName SimpleType MethodDeclaration SimpleName peek
+peek SimpleName MethodDeclaration Block ReturnStatement SimpleName top
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleName peek
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleName peek

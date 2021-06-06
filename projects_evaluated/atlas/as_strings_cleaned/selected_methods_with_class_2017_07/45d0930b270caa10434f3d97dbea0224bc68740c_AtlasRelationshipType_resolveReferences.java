@@ -1,0 +1,83 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName SuperMethodInvocation SimpleName type registry
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid value
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral relationship def is null
+atlas error codeinvalid value QualifiedName ClassInstanceCreation StringLiteral relationship def is null
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation MethodInvocation SimpleName get type
+get end def SimpleName MethodInvocation MethodInvocation SimpleName get type
+end type name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end type name
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation SimpleName get end def
+relationship def SimpleName MethodInvocation MethodInvocation SimpleName get type
+get end def SimpleName MethodInvocation MethodInvocation SimpleName get type
+end type name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName end type name
+get type SimpleName MethodInvocation SimpleName end type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName end type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName end type name
+get type SimpleName MethodInvocation SimpleName end type name
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName end type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+end type SimpleName Assignment CastExpression SimpleType SimpleName atlas entity type
+end type SimpleName Assignment CastExpression SimpleName type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationshipdef invalid end type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName end type name
+atlas error coderelationshipdef invalid end type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error coderelationshipdef invalid end type QualifiedName ClassInstanceCreation SimpleName end type name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName end type name
+type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName type
+end type SimpleName Assignment CastExpression SimpleType SimpleName atlas entity type
+end type SimpleName Assignment CastExpression SimpleName type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error coderelationshipdef invalid end type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName end type name
+atlas error coderelationshipdef invalid end type QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error coderelationshipdef invalid end type QualifiedName ClassInstanceCreation SimpleName end type name
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName end type name
+validate atlas relationship def SimpleName MethodInvocation FieldAccess SimpleName relationship def
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resolve references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

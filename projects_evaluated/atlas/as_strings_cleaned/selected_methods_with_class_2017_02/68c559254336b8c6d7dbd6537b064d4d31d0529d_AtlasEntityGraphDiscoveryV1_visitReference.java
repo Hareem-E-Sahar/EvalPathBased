@@ -1,0 +1,70 @@
+atlas object id type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+type SimpleName InfixExpression InfixExpression InfixExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName val
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas object id
+obj id SimpleName VariableDeclarationFragment CastExpression SimpleName val
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName is valid
+obj id SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid object id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+record object reference SimpleName MethodInvocation SimpleName obj id
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+atlas object id SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName val
+obj id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+obj id SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression SimpleName val
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName is valid
+obj id SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid object id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+record object reference SimpleName MethodInvocation SimpleName obj id
+val SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid object id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName val
+atlas error codeinvalid object id QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName visit reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName visit reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+visit reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+visit reference SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

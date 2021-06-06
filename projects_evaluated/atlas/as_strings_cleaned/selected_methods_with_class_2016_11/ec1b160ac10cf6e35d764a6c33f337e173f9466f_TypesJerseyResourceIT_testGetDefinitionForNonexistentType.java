@@ -1,0 +1,37 @@
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName atlas service exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+atlas client v SimpleName MethodInvocation SimpleName call api with body and params
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapilist types
+atlas client v SimpleName MethodInvocation StringLiteral blah
+call api with body and params SimpleName MethodInvocation QualifiedName atlas clientapilist types
+call api with body and params SimpleName MethodInvocation StringLiteral blah
+atlas clientapilist types QualifiedName MethodInvocation StringLiteral blah
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapilist types
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral blah
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get definition for nonexistent type
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get definition for nonexistent type
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get definition for nonexistent type
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get definition for nonexistent type
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get definition for nonexistent type SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get definition for nonexistent type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get definition for nonexistent type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

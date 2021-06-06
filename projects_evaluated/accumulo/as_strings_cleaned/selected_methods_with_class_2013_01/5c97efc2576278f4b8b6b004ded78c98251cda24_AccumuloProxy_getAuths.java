@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SimpleName get auths
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get auths
+byte buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get auths
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get auths

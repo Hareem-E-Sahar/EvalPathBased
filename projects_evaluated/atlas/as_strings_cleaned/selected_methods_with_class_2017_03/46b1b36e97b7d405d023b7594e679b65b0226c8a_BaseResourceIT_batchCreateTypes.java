@@ -1,0 +1,151 @@
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName types def
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName enum def
+types def SimpleName MethodInvocation SimpleName get enum defs
+atlas client v SimpleName MethodInvocation SimpleName create enum def
+atlas client v SimpleName MethodInvocation SimpleName enum def
+create enum def SimpleName MethodInvocation SimpleName enum def
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+enum def SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral enum def creation failed for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName enum def
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation StringLiteral enum def creation failed for {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName enum def
+warn SimpleName MethodInvocation MethodInvocation SimpleName get name
+enum def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName enum def
+enum def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+enum def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+enum def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get enum defs
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+types def SimpleName MethodInvocation SimpleName get struct defs
+atlas client v SimpleName MethodInvocation SimpleName create struct def
+atlas client v SimpleName MethodInvocation SimpleName struct def
+create struct def SimpleName MethodInvocation SimpleName struct def
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+struct def SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral struct def creation failed for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName struct def
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation StringLiteral struct def creation failed for {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName struct def
+warn SimpleName MethodInvocation MethodInvocation SimpleName get name
+struct def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName struct def
+struct def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+struct def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+struct def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get struct defs
+collections SimpleName MethodInvocation SimpleType SimpleName atlas enum def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas enum def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas struct def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas classification def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas classification def SimpleName SimpleType MethodInvocation SimpleName empty list
+types def SimpleName MethodInvocation SimpleName get entity defs
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName types def
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName types def
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get entity defs
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName types def
+entity defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get entity defs
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity defs
+atlas client v SimpleName MethodInvocation SimpleName create atlas type defs
+atlas client v SimpleName MethodInvocation SimpleName entity defs
+create atlas type defs SimpleName MethodInvocation SimpleName entity defs
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+types def SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral type creation failed for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName types def
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+warn SimpleName MethodInvocation StringLiteral type creation failed for {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName types def
+warn SimpleName MethodInvocation MethodInvocation SimpleName to string
+type creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName types def
+type creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName classification def
+types def SimpleName MethodInvocation SimpleName get classification defs
+atlas client v SimpleName MethodInvocation SimpleName create classification def
+atlas client v SimpleName MethodInvocation SimpleName classification def
+create classification def SimpleName MethodInvocation SimpleName classification def
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+classification def SimpleName MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral classification def creation failed for {}
+log SimpleName MethodInvocation MethodInvocation SimpleName classification def
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation StringLiteral classification def creation failed for {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName classification def
+warn SimpleName MethodInvocation MethodInvocation SimpleName get name
+classification def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName classification def
+classification def creation failed for {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+classification def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName types def
+classification def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get classification defs
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName batch create types
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName types def
+protected Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleName batch create types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types def
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+batch create types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+batch create types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types def
+batch create types SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+types def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName batch create types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName batch create types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

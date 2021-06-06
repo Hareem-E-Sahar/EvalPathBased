@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+transient types SimpleName MethodInvocation SimpleName contains key
+transient types SimpleName MethodInvocation SimpleName name
+contains key SimpleName MethodInvocation SimpleName name
+transient types SimpleName MethodInvocation SimpleName get
+transient types SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+type system SimpleName ThisExpression FieldAccess SimpleName types
+type system SimpleName ThisExpression FieldAccess MethodInvocation SimpleName get
+types SimpleName FieldAccess MethodInvocation SimpleName get
+type system SimpleName ThisExpression FieldAccess MethodInvocation SimpleName name
+types SimpleName FieldAccess MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName i data type
+private Modifier MethodDeclaration SimpleName data type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i data type SimpleName SimpleType MethodDeclaration SimpleName data type
+i data type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+i data type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+data type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+data type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+public Modifier TypeDeclaration MethodDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i data type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

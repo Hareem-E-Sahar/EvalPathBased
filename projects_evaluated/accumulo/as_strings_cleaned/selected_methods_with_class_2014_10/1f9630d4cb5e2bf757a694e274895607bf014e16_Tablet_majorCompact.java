@@ -1,0 +1,179 @@
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+long PrimitiveType SingleVariableDeclaration SimpleName queued
+compaction stats SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName maj c stats
+success SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName success
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+system SimpleName MethodInvocation SimpleName current time millis
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+trace SimpleName MethodInvocation SimpleName on
+trace SimpleName MethodInvocation StringLiteral major compaction
+on SimpleName MethodInvocation StringLiteral major compaction
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName on
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral major compaction
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+timer SimpleName MethodInvocation SimpleName increment status major
+major compaction queued SimpleName MethodInvocation SimpleName remove
+major compaction queued SimpleName MethodInvocation SimpleName reason
+remove SimpleName MethodInvocation SimpleName reason
+needs major compaction SimpleName MethodInvocation SimpleName reason
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is closed
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName needs split
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName needs split
+is major compaction running SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName needs split
+major compaction state SimpleName Assignment QualifiedName compaction statewaiting to start
+major compact SimpleName MethodInvocation SimpleName reason
+maj c stats SimpleName Assignment MethodInvocation SimpleName major compact
+maj c stats SimpleName Assignment MethodInvocation SimpleName reason
+reason SimpleName InfixExpression QualifiedName major compaction reasonchop
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName get lock
+metadata table util SimpleName MethodInvocation SimpleName chopped
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get extent
+metadata table util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get lock
+chopped SimpleName MethodInvocation MethodInvocation SimpleName get extent
+chopped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+chopped SimpleName MethodInvocation MethodInvocation SimpleName get lock
+get extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+tablet status message SimpleName SimpleType ClassInstanceCreation QualifiedName tablet load statechopped
+tablet status message SimpleName SimpleType ClassInstanceCreation SimpleName extent
+tablet load statechopped QualifiedName ClassInstanceCreation SimpleName extent
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName enqueue master message
+get tablet server SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName tablet load statechopped
+get tablet server SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName extent
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tablet status message
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation QualifiedName tablet load statechopped
+enqueue master message SimpleName MethodInvocation ClassInstanceCreation SimpleName extent
+success SimpleName Assignment BooleanLiteral true
+compaction canceled exception SimpleName SimpleType SingleVariableDeclaration SimpleName mcce
+major compaction canceled extent = StringLiteral InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral major compaction canceled extent =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral major compaction canceled extent =
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+maj c failed extent = StringLiteral InfixExpression MethodInvocation SimpleName get extent
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c failed extent =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+error SimpleName MethodInvocation InfixExpression StringLiteral maj c failed extent =
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+t SimpleName MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName get class
+t SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+t SimpleName MethodInvocation SimpleName get message
+get name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName t
+get name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c failed message =
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral maj c failed message =
+error SimpleName MethodInvocation SimpleName t
+maj c failed message = StringLiteral InfixExpression MethodInvocation SimpleName t
+trace SimpleName MethodInvocation SimpleName current trace
+curr SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+curr SimpleName VariableDeclarationFragment MethodInvocation SimpleName current trace
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get extent
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral extent
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+data SimpleName MethodInvocation StringLiteral extent
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+extent StringLiteral MethodInvocation InfixExpression StringLiteral empty
+extent StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get extent
+maj c stats SimpleName MethodInvocation SimpleName get entries read
+empty StringLiteral InfixExpression MethodInvocation SimpleName maj c stats
+empty StringLiteral InfixExpression MethodInvocation SimpleName get entries read
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral read
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+data SimpleName MethodInvocation StringLiteral read
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+read StringLiteral MethodInvocation InfixExpression StringLiteral empty
+read StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+read StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get entries read
+maj c stats SimpleName MethodInvocation SimpleName get entries written
+empty StringLiteral InfixExpression MethodInvocation SimpleName maj c stats
+empty StringLiteral InfixExpression MethodInvocation SimpleName get entries written
+curr SimpleName MethodInvocation SimpleName data
+curr SimpleName MethodInvocation StringLiteral written
+curr SimpleName MethodInvocation InfixExpression StringLiteral empty
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+curr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+data SimpleName MethodInvocation StringLiteral written
+data SimpleName MethodInvocation InfixExpression StringLiteral empty
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+written StringLiteral MethodInvocation InfixExpression StringLiteral empty
+written StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName maj c stats
+written StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get entries written
+span SimpleName MethodInvocation SimpleName stop
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+maj c stats SimpleName MethodInvocation SimpleName get entries read
+count SimpleName Assignment MethodInvocation SimpleName maj c stats
+count SimpleName Assignment MethodInvocation SimpleName get entries read
+timer SimpleName MethodInvocation SimpleName update time
+timer SimpleName MethodInvocation QualifiedName operationmajor
+timer SimpleName MethodInvocation SimpleName queued
+timer SimpleName MethodInvocation SimpleName start
+timer SimpleName MethodInvocation SimpleName count
+update time SimpleName MethodInvocation QualifiedName operationmajor
+update time SimpleName MethodInvocation SimpleName queued
+update time SimpleName MethodInvocation SimpleName start
+update time SimpleName MethodInvocation SimpleName count
+update time SimpleName MethodInvocation PrefixExpression SimpleName success
+operationmajor QualifiedName MethodInvocation SimpleName queued
+operationmajor QualifiedName MethodInvocation SimpleName start
+operationmajor QualifiedName MethodInvocation SimpleName count
+operationmajor QualifiedName MethodInvocation PrefixExpression SimpleName success
+queued SimpleName MethodInvocation SimpleName start
+queued SimpleName MethodInvocation SimpleName count
+queued SimpleName MethodInvocation PrefixExpression SimpleName success
+start SimpleName MethodInvocation SimpleName count
+start SimpleName MethodInvocation PrefixExpression SimpleName success
+count SimpleName MethodInvocation PrefixExpression SimpleName success
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName maj c stats
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName maj c stats
+compaction stats SimpleName SimpleType MethodDeclaration SimpleName major compact
+compaction stats SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reason
+compaction stats SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+compaction stats SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName queued
+major compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+major compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+major compact SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+major compact SimpleName MethodDeclaration SingleVariableDeclaration SimpleName queued
+major compact SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+major compact SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+major compact SimpleName MethodDeclaration Block ReturnStatement SimpleName maj c stats
+reason SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+reason SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queued
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compaction stats
+public Modifier TypeDeclaration MethodDeclaration SimpleName major compact
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queued
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compaction stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleName major compact
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName queued

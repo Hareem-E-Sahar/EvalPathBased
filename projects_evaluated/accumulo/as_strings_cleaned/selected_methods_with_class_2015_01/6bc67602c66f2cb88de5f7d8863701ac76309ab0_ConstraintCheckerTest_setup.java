@@ -1,0 +1,65 @@
+create mock builder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName constraint checker
+create mock builder SimpleName MethodInvocation MethodInvocation SimpleName add mocked method
+create mock builder SimpleName MethodInvocation MethodInvocation StringLiteral get constraints
+add mocked method SimpleName MethodInvocation StringLiteral get constraints
+create mock builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create mock
+add mocked method SimpleName MethodInvocation MethodInvocation SimpleName create mock
+get constraints StringLiteral MethodInvocation MethodInvocation SimpleName create mock
+cc SimpleName Assignment MethodInvocation MethodInvocation SimpleName add mocked method
+cc SimpleName Assignment MethodInvocation MethodInvocation StringLiteral get constraints
+cc SimpleName Assignment MethodInvocation SimpleName create mock
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName constraint
+cc SimpleName MethodInvocation SimpleName get constraints
+expect SimpleName MethodInvocation MethodInvocation SimpleName cc
+expect SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName constraints
+cc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName constraints
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName constraints
+and return SimpleName MethodInvocation SimpleName constraints
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName environment
+env SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName key extent
+extent SimpleName Assignment MethodInvocation SimpleName create mock
+env SimpleName MethodInvocation SimpleName get extent
+expect SimpleName MethodInvocation MethodInvocation SimpleName env
+expect SimpleName MethodInvocation MethodInvocation SimpleName get extent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName extent
+env SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+and return SimpleName MethodInvocation SimpleName extent
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+m SimpleName Assignment MethodInvocation SimpleName create mock
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName no such method exception
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName no such method exception
+public Modifier MethodDeclaration SimpleType SimpleName security exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName no such method exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName security exception
+setup SimpleName MethodDeclaration SimpleType SimpleName no such method exception
+setup SimpleName MethodDeclaration SimpleType SimpleName security exception
+no such method exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such method exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such method exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName security exception

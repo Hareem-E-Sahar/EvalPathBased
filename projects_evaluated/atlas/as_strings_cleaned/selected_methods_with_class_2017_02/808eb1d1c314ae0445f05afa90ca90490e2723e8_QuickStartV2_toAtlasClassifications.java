@@ -1,0 +1,38 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName trait names
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation SimpleName trait names
+copy of SimpleName MethodInvocation SimpleName trait names
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait names
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName traits
+is not empty SimpleName MethodInvocation SimpleName traits
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+atlas classification SimpleName SimpleType ClassInstanceCreation SimpleName trait
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName trait
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas classification
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName trait
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification
+private Modifier MethodDeclaration SimpleName to atlas classifications
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait names
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas classifications
+atlas classification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to atlas classifications
+to atlas classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait names
+to atlas classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names

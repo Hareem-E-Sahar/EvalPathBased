@@ -1,0 +1,31 @@
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation SimpleName colf
+get bytes SimpleName MethodInvocation SimpleName colf
+text util SimpleName MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation SimpleName colq
+get bytes SimpleName MethodInvocation SimpleName colq
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName text util
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName colf
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName text util
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+column SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName colq
+text util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName text util
+text util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+text util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName colq
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName text util
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName colq
+colf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName text util
+colf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+colf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName colq
+public Modifier MethodDeclaration SimpleType SimpleName column
+public Modifier MethodDeclaration SimpleName to column
+column SimpleName SimpleType MethodDeclaration SimpleName to column
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName column
+public Modifier TypeDeclaration MethodDeclaration SimpleName to column
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName column
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to column

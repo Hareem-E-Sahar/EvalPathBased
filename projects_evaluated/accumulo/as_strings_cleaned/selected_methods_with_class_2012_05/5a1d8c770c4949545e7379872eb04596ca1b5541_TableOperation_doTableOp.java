@@ -1,0 +1,45 @@
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do table op
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName do table op
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+abstract Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName do table op
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+do table op SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+do table op SimpleName MethodDeclaration SimpleType SimpleName exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do table op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do table op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

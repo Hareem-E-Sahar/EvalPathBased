@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName alias
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+alias map SimpleName MethodInvocation SimpleName contains key
+alias map SimpleName MethodInvocation SimpleName alias
+contains key SimpleName MethodInvocation SimpleName alias
+check SimpleName MethodInvocation BooleanLiteral false
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl duplicate alias
+check SimpleName MethodInvocation SimpleName alias
+check SimpleName MethodInvocation MethodInvocation SimpleName get active type name
+false BooleanLiteral MethodInvocation QualifiedName atlas error codeinvalid dsl duplicate alias
+false BooleanLiteral MethodInvocation SimpleName alias
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get active type name
+atlas error codeinvalid dsl duplicate alias QualifiedName MethodInvocation SimpleName alias
+atlas error codeinvalid dsl duplicate alias QualifiedName MethodInvocation MethodInvocation SimpleName get active type name
+alias SimpleName MethodInvocation MethodInvocation SimpleName get active type name
+alias map SimpleName MethodInvocation SimpleName put
+alias map SimpleName MethodInvocation SimpleName alias
+alias map SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName alias
+put SimpleName MethodInvocation SimpleName type name
+alias SimpleName MethodInvocation SimpleName type name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add alias
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleName add alias
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alias
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alias
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add alias SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+alias SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add alias
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add alias
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alias
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

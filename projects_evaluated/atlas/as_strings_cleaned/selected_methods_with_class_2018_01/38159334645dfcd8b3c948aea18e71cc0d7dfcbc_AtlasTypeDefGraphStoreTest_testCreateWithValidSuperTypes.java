@@ -1,0 +1,171 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+test utils v SimpleName MethodInvocation SimpleName get classification with valid super type
+classification defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils v
+classification defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification with valid super type
+collections SimpleName MethodInvocation SimpleType SimpleName atlas enum def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas enum def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas struct def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas entity def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas entity def SimpleName SimpleType MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation SimpleName classification defs
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName classification defs
+atlas enum def SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName classification defs
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName classification defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName classification defs
+atlas struct def SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName classification defs
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName classification defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+classification defs SimpleName ClassInstanceCreation MethodInvocation SimpleName collections
+classification defs SimpleName ClassInstanceCreation MethodInvocation SimpleType SimpleName atlas entity def
+classification defs SimpleName ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas types def
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName classification defs
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to create
+type def store SimpleName MethodInvocation SimpleName create types def
+type def store SimpleName MethodInvocation SimpleName to create
+create types def SimpleName MethodInvocation SimpleName to create
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def store
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName create types def
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName to create
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created
+created SimpleName MethodInvocation SimpleName get classification defs
+to create SimpleName MethodInvocation SimpleName get classification defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName created
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get classification defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to create
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get classification defs
+assert equals SimpleName MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to create
+created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification defs
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to create
+get classification defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification defs
+created SimpleName MethodInvocation MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+get classification defs SimpleName MethodInvocation MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+to create SimpleName MethodInvocation MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+get classification defs SimpleName MethodInvocation MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral classification creation with valid supertype shouldve succeeded
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+test utils v SimpleName MethodInvocation SimpleName get entity with valid super type
+entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils v
+entity defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity with valid super type
+collections SimpleName MethodInvocation SimpleType SimpleName atlas enum def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas enum def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas struct def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct def SimpleName SimpleType MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation SimpleType SimpleName atlas classification def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas classification def SimpleName SimpleType MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collections
+atlas types def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName empty list
+atlas types def SimpleName SimpleType ClassInstanceCreation SimpleName entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+atlas enum def SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName collections
+empty list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName empty list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+atlas struct def SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+atlas classification def SimpleName SimpleType MethodInvocation ClassInstanceCreation SimpleName entity defs
+empty list SimpleName MethodInvocation ClassInstanceCreation SimpleName entity defs
+to create SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas types def
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName collections
+to create SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName empty list
+to create SimpleName Assignment ClassInstanceCreation SimpleName entity defs
+type def store SimpleName MethodInvocation SimpleName create types def
+type def store SimpleName MethodInvocation SimpleName to create
+create types def SimpleName MethodInvocation SimpleName to create
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def store
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName create types def
+created SimpleName VariableDeclarationFragment MethodInvocation SimpleName to create
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created
+created SimpleName MethodInvocation SimpleName get entity defs
+to create SimpleName MethodInvocation SimpleName get entity defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName created
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to create
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get entity defs
+assert equals SimpleName MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to create
+created SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity defs
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to create
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity defs
+created SimpleName MethodInvocation MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+get entity defs SimpleName MethodInvocation MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+to create SimpleName MethodInvocation MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+get entity defs SimpleName MethodInvocation MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral entity creation with valid supertype shouldve succeeded
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test create with valid super types
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test create with valid super types
+test get StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test create with valid super types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create with valid super types
+void PrimitiveType MethodDeclaration SimpleName test create with valid super types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create with valid super types
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create with valid super types

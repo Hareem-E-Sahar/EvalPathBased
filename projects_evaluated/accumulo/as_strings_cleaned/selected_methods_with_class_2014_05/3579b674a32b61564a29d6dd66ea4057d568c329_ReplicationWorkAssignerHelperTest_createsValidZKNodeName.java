@@ -1,0 +1,51 @@
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName random uuid
+accumulowalstserverport StringLiteral InfixExpression MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral accumulowalstserverport
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral accumulowalstserverport
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral cluster
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral table
+cluster StringLiteral ClassInstanceCreation StringLiteral table
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+target SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cluster
+target SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+p SimpleName MethodInvocation SimpleName to string
+replication work assigner helper SimpleName MethodInvocation SimpleName get queue key
+replication work assigner helper SimpleName MethodInvocation MethodInvocation SimpleName p
+replication work assigner helper SimpleName MethodInvocation MethodInvocation SimpleName to string
+replication work assigner helper SimpleName MethodInvocation SimpleName target
+get queue key SimpleName MethodInvocation MethodInvocation SimpleName p
+get queue key SimpleName MethodInvocation MethodInvocation SimpleName to string
+get queue key SimpleName MethodInvocation SimpleName target
+p SimpleName MethodInvocation MethodInvocation SimpleName target
+to string SimpleName MethodInvocation MethodInvocation SimpleName target
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName replication work assigner helper
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get queue key
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName p
+key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+path utils SimpleName MethodInvocation SimpleName validate path
+path utils SimpleName MethodInvocation SimpleName key
+validate path SimpleName MethodInvocation SimpleName key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName creates valid zk node name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName creates valid zk node name
+void PrimitiveType MethodDeclaration SimpleName creates valid zk node name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName creates valid zk node name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName creates valid zk node name

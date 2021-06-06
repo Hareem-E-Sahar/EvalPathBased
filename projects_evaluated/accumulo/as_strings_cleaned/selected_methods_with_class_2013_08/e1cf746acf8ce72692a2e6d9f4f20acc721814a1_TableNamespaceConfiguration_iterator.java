@@ -1,0 +1,123 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName parent entry
+namespace id SimpleName FieldAccess MethodInvocation SimpleName equals
+namespace id SimpleName FieldAccess MethodInvocation QualifiedName constantssystem table namespace id
+equals SimpleName MethodInvocation QualifiedName constantssystem table namespace id
+is iter const SimpleName MethodInvocation SimpleName parent entry
+parent entry SimpleName MethodInvocation SimpleName get key
+parent entry SimpleName MethodInvocation SimpleName get value
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get key
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName MethodInvocation SimpleName get key
+parent entry SimpleName MethodInvocation SimpleName get value
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get key
+entries SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName parent entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+parent entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parent entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parent entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName parent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+inst SimpleName MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName inst
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get root SimpleName MethodInvocation MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+inst SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespaces
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+inst SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace id
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+inst SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+constantsznamespaces QualifiedName InfixExpression StringLiteral /
+constantsznamespaces QualifiedName InfixExpression MethodInvocation SimpleName get namespace id
+constantsznamespaces QualifiedName InfixExpression QualifiedName constantsznamespace conf
+/ StringLiteral InfixExpression MethodInvocation SimpleName get namespace id
+/ StringLiteral InfixExpression QualifiedName constantsznamespace conf
+get namespace id SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get prop cache SimpleName MethodInvocation MethodInvocation SimpleName get children
+get prop cache SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get prop cache SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get prop cache SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get children SimpleName MethodInvocation InfixExpression StringLiteral /
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace id
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+children SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get prop cache
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsznamespaces
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+get SimpleName MethodInvocation SimpleName child
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName child
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+child SimpleName InfixExpression InfixExpression InfixExpression SimpleName value
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation SimpleName child
+entries SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName child
+put SimpleName MethodInvocation SimpleName value
+child SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName children
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName children
+entries SimpleName MethodInvocation SimpleName entry set
+entries SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName parent
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

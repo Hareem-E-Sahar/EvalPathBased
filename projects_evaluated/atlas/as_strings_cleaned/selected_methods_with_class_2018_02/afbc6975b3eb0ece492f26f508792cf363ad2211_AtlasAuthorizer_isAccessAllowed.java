@@ -1,0 +1,18 @@
+atlas type access request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+boolean PrimitiveType MethodDeclaration SimpleName is access allowed
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type access request
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas authorization exception
+is access allowed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type access request
+is access allowed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+is access allowed SimpleName MethodDeclaration SimpleType SimpleName atlas authorization exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas authorization exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is access allowed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorization exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is access allowed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas authorization exception

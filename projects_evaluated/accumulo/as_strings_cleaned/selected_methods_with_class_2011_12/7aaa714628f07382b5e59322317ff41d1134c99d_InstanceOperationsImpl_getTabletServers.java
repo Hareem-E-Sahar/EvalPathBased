@@ -1,0 +1,139 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+instance SimpleName MethodInvocation SimpleName get zoo keepers
+instance SimpleName MethodInvocation SimpleName get zoo keepers session time out
+zoo cache SimpleName MethodInvocation SimpleName get instance
+zoo cache SimpleName MethodInvocation MethodInvocation SimpleName instance
+zoo cache SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+zoo cache SimpleName MethodInvocation MethodInvocation SimpleName instance
+zoo cache SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+get instance SimpleName MethodInvocation MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers
+get instance SimpleName MethodInvocation MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+get zoo keepers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+get zoo keepers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo cache
+cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get zoo keepers
+cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+cache SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get zoo keepers session time out
+zoo cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztservers
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName candidate
+cache SimpleName MethodInvocation SimpleName get children
+cache SimpleName MethodInvocation SimpleName path
+get children SimpleName MethodInvocation SimpleName path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName candidate
+/ StringLiteral InfixExpression SimpleName candidate
+cache SimpleName MethodInvocation SimpleName get children
+cache SimpleName MethodInvocation InfixExpression SimpleName path
+cache SimpleName MethodInvocation InfixExpression StringLiteral /
+cache SimpleName MethodInvocation InfixExpression SimpleName candidate
+get children SimpleName MethodInvocation InfixExpression SimpleName path
+get children SimpleName MethodInvocation InfixExpression StringLiteral /
+get children SimpleName MethodInvocation InfixExpression SimpleName candidate
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName path
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+children SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName candidate
+children SimpleName MethodInvocation SimpleName size
+children SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+children SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName children
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName children
+copy SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName children
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName copy
+sort SimpleName MethodInvocation SimpleName copy
+copy SimpleName MethodInvocation SimpleName get
+copy SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName candidate
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression MethodInvocation SimpleName copy
+path SimpleName InfixExpression MethodInvocation SimpleName get
+path SimpleName InfixExpression MethodInvocation NumberLiteral empty
+/ StringLiteral InfixExpression SimpleName candidate
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression MethodInvocation SimpleName copy
+/ StringLiteral InfixExpression MethodInvocation SimpleName get
+/ StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+candidate SimpleName InfixExpression StringLiteral /
+candidate SimpleName InfixExpression MethodInvocation SimpleName copy
+candidate SimpleName InfixExpression MethodInvocation SimpleName get
+candidate SimpleName InfixExpression MethodInvocation NumberLiteral empty
+/ StringLiteral InfixExpression MethodInvocation SimpleName copy
+/ StringLiteral InfixExpression MethodInvocation SimpleName get
+/ StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation InfixExpression SimpleName path
+cache SimpleName MethodInvocation InfixExpression StringLiteral /
+cache SimpleName MethodInvocation InfixExpression SimpleName candidate
+cache SimpleName MethodInvocation InfixExpression StringLiteral /
+cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName copy
+cache SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+cache SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName path
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName candidate
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName copy
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName path
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName candidate
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+master StringLiteral MethodInvocation SimpleName equals
+master StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+master StringLiteral MethodInvocation ClassInstanceCreation SimpleName data
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+equals SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+results SimpleName MethodInvocation SimpleName add
+results SimpleName MethodInvocation SimpleName candidate
+add SimpleName MethodInvocation SimpleName candidate
+candidate SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName cache
+candidate SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+candidate SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tablet servers
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get tablet servers
+public Modifier MethodDeclaration Block ReturnStatement SimpleName results
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet servers
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet servers
+get tablet servers SimpleName MethodDeclaration Block ReturnStatement SimpleName results
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet servers
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet servers

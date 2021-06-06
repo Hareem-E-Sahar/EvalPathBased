@@ -1,0 +1,500 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName old datafiles
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName old datafiles
+path SimpleName SimpleType SingleVariableDeclaration SimpleName tmp datafile
+path SimpleName SimpleType SingleVariableDeclaration SimpleName new datafile
+long SimpleName SimpleType SingleVariableDeclaration SimpleName compaction id
+data file value SimpleName SimpleType SingleVariableDeclaration SimpleName dfv
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+extent SimpleName MethodInvocation SimpleName is root tablet
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName new datafile
+exists SimpleName MethodInvocation SimpleName new datafile
+target map file already exist StringLiteral InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral target map file already exist
+log SimpleName MethodInvocation InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+error SimpleName MethodInvocation InfixExpression StringLiteral target map file already exist
+error SimpleName MethodInvocation InfixExpression SimpleName new datafile
+error SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+target map file already exist StringLiteral InfixExpression SimpleName new datafile
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral target map file already exist
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new datafile
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation SimpleName tmp datafile
+fs SimpleName MethodInvocation SimpleName new datafile
+rename SimpleName MethodInvocation SimpleName tmp datafile
+rename SimpleName MethodInvocation SimpleName new datafile
+tmp datafile SimpleName MethodInvocation SimpleName new datafile
+rename of StringLiteral InfixExpression SimpleName tmp datafile
+rename of StringLiteral InfixExpression StringLiteral to
+rename of StringLiteral InfixExpression SimpleName new datafile
+rename of StringLiteral InfixExpression StringLiteral returned false
+tmp datafile SimpleName InfixExpression StringLiteral to
+tmp datafile SimpleName InfixExpression SimpleName new datafile
+tmp datafile SimpleName InfixExpression StringLiteral returned false
+to StringLiteral InfixExpression SimpleName new datafile
+to StringLiteral InfixExpression StringLiteral returned false
+new datafile SimpleName InfixExpression StringLiteral returned false
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral rename of
+log SimpleName MethodInvocation InfixExpression SimpleName tmp datafile
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation InfixExpression StringLiteral returned false
+warn SimpleName MethodInvocation InfixExpression StringLiteral rename of
+warn SimpleName MethodInvocation InfixExpression SimpleName tmp datafile
+warn SimpleName MethodInvocation InfixExpression StringLiteral to
+warn SimpleName MethodInvocation InfixExpression SimpleName new datafile
+warn SimpleName MethodInvocation InfixExpression StringLiteral returned false
+dfv SimpleName MethodInvocation SimpleName get num entries
+dfv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName new datafile
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName new datafile
+delete SimpleName MethodInvocation BooleanLiteral true
+new datafile SimpleName MethodInvocation BooleanLiteral true
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last location
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName Assignment MethodInvocation SimpleName system
+t SimpleName Assignment MethodInvocation SimpleName current time millis
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get retrying instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+data source deletions SimpleName MethodInvocation SimpleName increment and get
+extent SimpleName MethodInvocation SimpleName is root tablet
+wait for scans to finish SimpleName MethodInvocation SimpleName old datafiles
+wait for scans to finish SimpleName MethodInvocation BooleanLiteral true
+wait for scans to finish SimpleName MethodInvocation QualifiedName longmax value
+old datafiles SimpleName MethodInvocation BooleanLiteral true
+old datafiles SimpleName MethodInvocation QualifiedName longmax value
+true BooleanLiteral MethodInvocation QualifiedName longmax value
+tablet server SimpleName MethodInvocation SimpleName get lock
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName get lock id
+get lock SimpleName MethodInvocation MethodInvocation SimpleName get lock id
+zoo SimpleName MethodInvocation SimpleName is lock held
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+zoo SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get lock id
+is lock held SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+is lock held SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+is lock held SimpleName MethodInvocation MethodInvocation SimpleName get lock id
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral can not bring major compaction online lock not held
+illegal state exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+can not bring major compaction online lock not held StringLiteral ClassInstanceCreation SimpleName e
+new datafile SimpleName MethodInvocation SimpleName get name
+compact name SimpleName VariableDeclarationFragment MethodInvocation SimpleName new datafile
+compact name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName compact name
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName get name
+location SimpleName InfixExpression StringLiteral delete
+location SimpleName InfixExpression SimpleName compact name
+location SimpleName InfixExpression StringLiteral +
+location SimpleName InfixExpression MethodInvocation SimpleName path
+location SimpleName InfixExpression MethodInvocation SimpleName get name
+delete StringLiteral InfixExpression SimpleName compact name
+delete StringLiteral InfixExpression StringLiteral +
+delete StringLiteral InfixExpression MethodInvocation SimpleName path
+delete StringLiteral InfixExpression MethodInvocation SimpleName get name
+compact name SimpleName InfixExpression StringLiteral +
+compact name SimpleName InfixExpression MethodInvocation SimpleName path
+compact name SimpleName InfixExpression MethodInvocation SimpleName get name
++ StringLiteral InfixExpression MethodInvocation SimpleName path
++ StringLiteral InfixExpression MethodInvocation SimpleName get name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName location
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral delete
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName compact name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral +
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName location
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral delete
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName compact name
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral +
+rename SimpleName MethodInvocation SimpleName path
+rename SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+rename SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName location
+rename SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral delete
+rename SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName compact name
+rename SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral +
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName location
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral delete
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName compact name
+path SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral +
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName new datafile
+exists SimpleName MethodInvocation SimpleName new datafile
+target map file already exist StringLiteral InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral target map file already exist
+log SimpleName MethodInvocation InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+error SimpleName MethodInvocation InfixExpression StringLiteral target map file already exist
+error SimpleName MethodInvocation InfixExpression SimpleName new datafile
+error SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+target map file already exist StringLiteral InfixExpression SimpleName new datafile
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral target map file already exist
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName new datafile
+fs SimpleName MethodInvocation SimpleName rename
+fs SimpleName MethodInvocation SimpleName tmp datafile
+fs SimpleName MethodInvocation SimpleName new datafile
+rename SimpleName MethodInvocation SimpleName tmp datafile
+rename SimpleName MethodInvocation SimpleName new datafile
+tmp datafile SimpleName MethodInvocation SimpleName new datafile
+rename of StringLiteral InfixExpression SimpleName tmp datafile
+rename of StringLiteral InfixExpression StringLiteral to
+rename of StringLiteral InfixExpression SimpleName new datafile
+rename of StringLiteral InfixExpression StringLiteral returned false
+tmp datafile SimpleName InfixExpression StringLiteral to
+tmp datafile SimpleName InfixExpression SimpleName new datafile
+tmp datafile SimpleName InfixExpression StringLiteral returned false
+to StringLiteral InfixExpression SimpleName new datafile
+to StringLiteral InfixExpression StringLiteral returned false
+new datafile SimpleName InfixExpression StringLiteral returned false
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral rename of
+log SimpleName MethodInvocation InfixExpression SimpleName tmp datafile
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation InfixExpression StringLiteral returned false
+warn SimpleName MethodInvocation InfixExpression StringLiteral rename of
+warn SimpleName MethodInvocation InfixExpression SimpleName tmp datafile
+warn SimpleName MethodInvocation InfixExpression StringLiteral to
+warn SimpleName MethodInvocation InfixExpression SimpleName new datafile
+warn SimpleName MethodInvocation InfixExpression StringLiteral returned false
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName get name
+location SimpleName InfixExpression StringLiteral delete
+location SimpleName InfixExpression SimpleName compact name
+location SimpleName InfixExpression StringLiteral +
+location SimpleName InfixExpression MethodInvocation SimpleName path
+location SimpleName InfixExpression MethodInvocation SimpleName get name
+delete StringLiteral InfixExpression SimpleName compact name
+delete StringLiteral InfixExpression StringLiteral +
+delete StringLiteral InfixExpression MethodInvocation SimpleName path
+delete StringLiteral InfixExpression MethodInvocation SimpleName get name
+compact name SimpleName InfixExpression StringLiteral +
+compact name SimpleName InfixExpression MethodInvocation SimpleName path
+compact name SimpleName InfixExpression MethodInvocation SimpleName get name
++ StringLiteral InfixExpression MethodInvocation SimpleName path
++ StringLiteral InfixExpression MethodInvocation SimpleName get name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName location
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral delete
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName compact name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral +
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName location
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral delete
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName compact name
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral +
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName location
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral delete
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName compact name
+delete SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral +
+delete SimpleName MethodInvocation BooleanLiteral true
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+location SimpleName InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
+delete StringLiteral InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
+compact name SimpleName InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
++ StringLiteral InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+old datafiles SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName old datafiles
+path SimpleName SimpleType SingleVariableDeclaration SimpleName old datafile
+datafile sizes SimpleName MethodInvocation SimpleName contains key
+datafile sizes SimpleName MethodInvocation SimpleName old datafile
+contains key SimpleName MethodInvocation SimpleName old datafile
+file does not exist in set StringLiteral InfixExpression SimpleName old datafile
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral file does not exist in set
+log SimpleName MethodInvocation InfixExpression SimpleName old datafile
+error SimpleName MethodInvocation InfixExpression StringLiteral file does not exist in set
+error SimpleName MethodInvocation InfixExpression SimpleName old datafile
+datafile sizes SimpleName MethodInvocation SimpleName remove
+datafile sizes SimpleName MethodInvocation SimpleName old datafile
+remove SimpleName MethodInvocation SimpleName old datafile
+major compacting files SimpleName MethodInvocation SimpleName remove
+major compacting files SimpleName MethodInvocation SimpleName old datafile
+remove SimpleName MethodInvocation SimpleName old datafile
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+old datafile SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName old datafiles
+datafile sizes SimpleName MethodInvocation SimpleName contains key
+datafile sizes SimpleName MethodInvocation SimpleName new datafile
+contains key SimpleName MethodInvocation SimpleName new datafile
+adding file that is already in set StringLiteral InfixExpression SimpleName new datafile
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral adding file that is already in set
+log SimpleName MethodInvocation InfixExpression SimpleName new datafile
+error SimpleName MethodInvocation InfixExpression StringLiteral adding file that is already in set
+error SimpleName MethodInvocation InfixExpression SimpleName new datafile
+dfv SimpleName MethodInvocation SimpleName get num entries
+dfv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression NumberLiteral empty
+datafile sizes SimpleName MethodInvocation SimpleName put
+datafile sizes SimpleName MethodInvocation SimpleName new datafile
+datafile sizes SimpleName MethodInvocation SimpleName dfv
+put SimpleName MethodInvocation SimpleName new datafile
+put SimpleName MethodInvocation SimpleName dfv
+new datafile SimpleName MethodInvocation SimpleName dfv
+major compacting files SimpleName MethodInvocation SimpleName add
+major compacting files SimpleName MethodInvocation SimpleName new datafile
+add SimpleName MethodInvocation SimpleName new datafile
+tablet SimpleName ThisExpression FieldAccess SimpleName last location
+last location SimpleName Assignment FieldAccess ThisExpression SimpleName tablet
+last location SimpleName Assignment FieldAccess SimpleName last location
+tablet SimpleName ThisExpression FieldAccess SimpleName last location
+last compact id SimpleName Assignment SimpleName compaction id
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName Assignment MethodInvocation SimpleName system
+t SimpleName Assignment MethodInvocation SimpleName current time millis
+extent SimpleName MethodInvocation SimpleName is root tablet
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+wait for scans to finish SimpleName MethodInvocation SimpleName old datafiles
+wait for scans to finish SimpleName MethodInvocation BooleanLiteral false
+wait for scans to finish SimpleName MethodInvocation NumberLiteral empty
+old datafiles SimpleName MethodInvocation BooleanLiteral false
+old datafiles SimpleName MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation NumberLiteral empty
+files in use by scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for scans to finish
+files in use by scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName old datafiles
+files in use by scans SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+files in use by scans SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+files in use by scans SimpleName MethodInvocation SimpleName size
+files in use by scans SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+abs rel SimpleName MethodInvocation SimpleName files in use by scans
+adding scan refs to metadata StringLiteral InfixExpression SimpleName extent
+adding scan refs to metadata StringLiteral InfixExpression StringLiteral empty
+adding scan refs to metadata StringLiteral InfixExpression MethodInvocation SimpleName abs rel
+adding scan refs to metadata StringLiteral InfixExpression MethodInvocation SimpleName files in use by scans
+extent SimpleName InfixExpression StringLiteral empty
+extent SimpleName InfixExpression MethodInvocation SimpleName abs rel
+extent SimpleName InfixExpression MethodInvocation SimpleName files in use by scans
+empty StringLiteral InfixExpression MethodInvocation SimpleName abs rel
+empty StringLiteral InfixExpression MethodInvocation SimpleName files in use by scans
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral adding scan refs to metadata
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName files in use by scans
+debug SimpleName MethodInvocation InfixExpression StringLiteral adding scan refs to metadata
+debug SimpleName MethodInvocation InfixExpression SimpleName extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName files in use by scans
+abs rel SimpleName MethodInvocation SimpleName old datafiles
+abs rel SimpleName MethodInvocation SimpleName files in use by scans
+abs rel SimpleName MethodInvocation SimpleName new datafile
+security constants SimpleName MethodInvocation SimpleName get system credentials
+tablet server SimpleName MethodInvocation SimpleName get client address string
+tablet server SimpleName MethodInvocation SimpleName get lock
+metadata table SimpleName MethodInvocation SimpleName replace datafiles
+metadata table SimpleName MethodInvocation SimpleName extent
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName old datafiles
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName files in use by scans
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName new datafile
+replace datafiles SimpleName MethodInvocation SimpleName extent
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName old datafiles
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName files in use by scans
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+replace datafiles SimpleName MethodInvocation MethodInvocation SimpleName new datafile
+replace datafiles SimpleName MethodInvocation SimpleName compaction id
+extent SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+extent SimpleName MethodInvocation MethodInvocation SimpleName old datafiles
+extent SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+extent SimpleName MethodInvocation MethodInvocation SimpleName files in use by scans
+extent SimpleName MethodInvocation MethodInvocation SimpleName abs rel
+extent SimpleName MethodInvocation MethodInvocation SimpleName new datafile
+extent SimpleName MethodInvocation SimpleName compaction id
+extent SimpleName MethodInvocation SimpleName dfv
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName files in use by scans
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName files in use by scans
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new datafile
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new datafile
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+old datafiles SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName dfv
+old datafiles SimpleName MethodInvocation MethodInvocation SimpleName dfv
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+old datafiles SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new datafile
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName abs rel
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new datafile
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName dfv
+files in use by scans SimpleName MethodInvocation MethodInvocation SimpleName dfv
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+files in use by scans SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+new datafile SimpleName MethodInvocation MethodInvocation SimpleName compaction id
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName dfv
+new datafile SimpleName MethodInvocation MethodInvocation SimpleName dfv
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+new datafile SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+new datafile SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+abs rel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+new datafile SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+new datafile SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+abs rel SimpleName MethodInvocation MethodInvocation SimpleName last location
+new datafile SimpleName MethodInvocation MethodInvocation SimpleName last location
+compaction id SimpleName MethodInvocation SimpleName dfv
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName security constants
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+compaction id SimpleName MethodInvocation SimpleName last location
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName get lock
+dfv SimpleName MethodInvocation MethodInvocation SimpleName security constants
+dfv SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+dfv SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+dfv SimpleName MethodInvocation MethodInvocation SimpleName get client address string
+dfv SimpleName MethodInvocation SimpleName last location
+dfv SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+dfv SimpleName MethodInvocation MethodInvocation SimpleName get lock
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get client address string
+security constants SimpleName MethodInvocation MethodInvocation SimpleName last location
+get system credentials SimpleName MethodInvocation MethodInvocation SimpleName last location
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName last location
+get client address string SimpleName MethodInvocation MethodInvocation SimpleName last location
+tablet server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+tablet server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+get client address string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tablet server
+get client address string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+last location SimpleName MethodInvocation MethodInvocation SimpleName tablet server
+last location SimpleName MethodInvocation MethodInvocation SimpleName get lock
+remove files after scan SimpleName MethodInvocation SimpleName files in use by scans
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral maj c finish lock %. f secs
+string SimpleName MethodInvocation InfixExpression NumberLiteral .
+format SimpleName MethodInvocation StringLiteral maj c finish lock %. f secs
+format SimpleName MethodInvocation InfixExpression NumberLiteral .
+maj c finish lock %. f secs StringLiteral MethodInvocation InfixExpression NumberLiteral .
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral maj c finish lock %. f secs
+log SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName format
+debug SimpleName MethodInvocation MethodInvocation StringLiteral maj c finish lock %. f secs
+debug SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral .
+abs rel SimpleName MethodInvocation SimpleName old datafiles
+abs rel SimpleName MethodInvocation SimpleName new datafile
+extent SimpleName InfixExpression StringLiteral maj c
+extent SimpleName InfixExpression MethodInvocation SimpleName abs rel
+extent SimpleName InfixExpression MethodInvocation SimpleName old datafiles
+extent SimpleName InfixExpression StringLiteral -->
+extent SimpleName InfixExpression MethodInvocation SimpleName abs rel
+extent SimpleName InfixExpression MethodInvocation SimpleName new datafile
+maj c StringLiteral InfixExpression MethodInvocation SimpleName abs rel
+maj c StringLiteral InfixExpression MethodInvocation SimpleName old datafiles
+maj c StringLiteral InfixExpression StringLiteral -->
+maj c StringLiteral InfixExpression MethodInvocation SimpleName abs rel
+maj c StringLiteral InfixExpression MethodInvocation SimpleName new datafile
+abs rel SimpleName MethodInvocation InfixExpression StringLiteral -->
+old datafiles SimpleName MethodInvocation InfixExpression StringLiteral -->
+abs rel SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+abs rel SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new datafile
+old datafiles SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+old datafiles SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new datafile
+--> StringLiteral InfixExpression MethodInvocation SimpleName abs rel
+--> StringLiteral InfixExpression MethodInvocation SimpleName new datafile
+log SimpleName MethodInvocation SimpleName log
+log SimpleName MethodInvocation QualifiedName t leveltablet hist
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName old datafiles
+log SimpleName MethodInvocation InfixExpression StringLiteral -->
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new datafile
+log SimpleName MethodInvocation QualifiedName t leveltablet hist
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral maj c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName old datafiles
+log SimpleName MethodInvocation InfixExpression StringLiteral -->
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new datafile
+t leveltablet hist QualifiedName MethodInvocation InfixExpression SimpleName extent
+t leveltablet hist QualifiedName MethodInvocation InfixExpression StringLiteral maj c
+t leveltablet hist QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+t leveltablet hist QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName old datafiles
+t leveltablet hist QualifiedName MethodInvocation InfixExpression StringLiteral -->
+t leveltablet hist QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName abs rel
+t leveltablet hist QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName new datafile
+void PrimitiveType MethodDeclaration SimpleName bring major compaction online
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old datafiles
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tmp datafile
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old datafiles
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tmp datafile
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data file value
+bring major compaction online SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dfv
+old datafiles SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp datafile
+old datafiles SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+old datafiles SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+old datafiles SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+old datafiles SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tmp datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new datafile
+tmp datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+tmp datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dfv
+tmp datafile SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+new datafile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction id

@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tables
+tables SimpleName FieldAccess Assignment SimpleName tables
+public Modifier MethodDeclaration SimpleType SimpleName get disk usage args
+public Modifier MethodDeclaration SimpleName set tables
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tables
+get disk usage args SimpleName SimpleType MethodDeclaration SimpleName set tables
+get disk usage args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tables
+set tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tables
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get disk usage args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get disk usage args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tables

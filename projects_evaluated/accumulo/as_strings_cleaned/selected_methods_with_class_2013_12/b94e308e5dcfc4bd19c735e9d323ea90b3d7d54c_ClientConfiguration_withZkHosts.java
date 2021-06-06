@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName zoo keepers
+check argument SimpleName MethodInvocation InfixExpression SimpleName zoo keepers
+check argument SimpleName MethodInvocation StringLiteral zoo keepers is null
+zoo keepers SimpleName InfixExpression MethodInvocation StringLiteral zoo keepers is null
+with SimpleName MethodInvocation QualifiedName client propertyinstance zk host
+with SimpleName MethodInvocation SimpleName zoo keepers
+client propertyinstance zk host QualifiedName MethodInvocation SimpleName zoo keepers
+public Modifier MethodDeclaration SimpleType SimpleName client configuration
+public Modifier MethodDeclaration SimpleName with zk hosts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+client configuration SimpleName SimpleType MethodDeclaration SimpleName with zk hosts
+client configuration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+with zk hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+with zk hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName with zk hosts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName client configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with zk hosts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo keepers

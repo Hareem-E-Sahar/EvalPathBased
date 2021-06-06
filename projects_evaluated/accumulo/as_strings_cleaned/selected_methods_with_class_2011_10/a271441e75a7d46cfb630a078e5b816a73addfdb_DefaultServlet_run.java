@@ -1,0 +1,56 @@
+a home SimpleName InfixExpression SimpleName path
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName a home
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName a home
+file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get absolute path
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+file input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+data SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file input stream
+data SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName file
+data SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get absolute path
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+resp SimpleName MethodInvocation SimpleName get output stream
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName resp
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName get output stream
+servlet output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+data SimpleName MethodInvocation SimpleName read
+data SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+n SimpleName Assignment MethodInvocation SimpleName data
+n SimpleName Assignment MethodInvocation SimpleName read
+n SimpleName Assignment MethodInvocation SimpleName buffer
+n SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+out SimpleName MethodInvocation SimpleName write
+out SimpleName MethodInvocation SimpleName buffer
+out SimpleName MethodInvocation NumberLiteral empty
+out SimpleName MethodInvocation SimpleName n
+write SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName n
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName n
+empty NumberLiteral MethodInvocation SimpleName n
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleName run
+io exception SimpleName SimpleType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

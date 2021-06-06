@@ -1,0 +1,16 @@
+graph persistence strategiesclass SimpleName MethodInvocation SimpleName get supported gremlin version
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName gremlin version
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get supported gremlin version
+public Modifier MethodDeclaration SimpleType SimpleName gremlin version
+public Modifier MethodDeclaration SimpleName get supported gremlin version
+gremlin version SimpleName SimpleType MethodDeclaration SimpleName get supported gremlin version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gremlin version
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported gremlin version
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gremlin version
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported gremlin version

@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName label
+relationship lookup SimpleName MethodInvocation SimpleName contains key
+relationship lookup SimpleName MethodInvocation SimpleName label
+contains key SimpleName MethodInvocation SimpleName label
+relationship lookup SimpleName MethodInvocation SimpleName get
+relationship lookup SimpleName MethodInvocation SimpleName label
+get SimpleName MethodInvocation SimpleName label
+relationship lookup SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+get SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+label SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+relationship lookup SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get propagate tags
+contains key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get propagate tags
+label SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get propagate tags
+relationship lookup SimpleName MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+contains key SimpleName MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+label SimpleName MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+relationship lookup SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+get SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+label SimpleName MethodInvocation MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+get propagate tags SimpleName MethodInvocation ConditionalExpression QualifiedName atlas relationship defpropagate tagsnone
+private Modifier MethodDeclaration SimpleType SimpleName propagate tags
+private Modifier MethodDeclaration SimpleName get default propagate value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+propagate tags SimpleName SimpleType MethodDeclaration SimpleName get default propagate value
+propagate tags SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName label
+get default propagate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get default propagate value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default propagate value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default propagate value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label

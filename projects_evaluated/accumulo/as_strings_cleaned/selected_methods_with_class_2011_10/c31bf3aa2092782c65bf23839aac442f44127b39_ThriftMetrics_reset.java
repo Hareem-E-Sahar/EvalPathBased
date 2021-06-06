@@ -1,0 +1,12 @@
+create metric SimpleName MethodInvocation SimpleName idle
+create metric SimpleName MethodInvocation SimpleName execute
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

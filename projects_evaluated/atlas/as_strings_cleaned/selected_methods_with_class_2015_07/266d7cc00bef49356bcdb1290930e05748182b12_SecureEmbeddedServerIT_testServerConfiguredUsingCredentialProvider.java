@@ -1,0 +1,98 @@
+configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties configuration
+final Modifier VariableDeclarationStatement SimpleType SimpleName properties configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+properties configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName set property
+configuration SimpleName MethodInvocation SimpleName cert stores credential provider path
+configuration SimpleName MethodInvocation SimpleName provider url
+set property SimpleName MethodInvocation SimpleName cert stores credential provider path
+set property SimpleName MethodInvocation SimpleName provider url
+cert stores credential provider path SimpleName MethodInvocation SimpleName provider url
+secure embedded server SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName secure embedded server
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get war path
+get property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get war path
+userdir StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get war path
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get property
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral userdir
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get war path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName properties configuration
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get configuration
+protected Modifier MethodDeclaration SimpleType SimpleName properties configuration
+protected Modifier MethodDeclaration SimpleName get configuration
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName configuration
+properties configuration SimpleName SimpleType MethodDeclaration SimpleName get configuration
+get configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName configuration
+secure embedded server SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+secure embedded server SimpleName SimpleType ClassInstanceCreation SimpleName app path
+empty NumberLiteral ClassInstanceCreation SimpleName app path
+empty NumberLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+empty NumberLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+app path SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+app path SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get configuration
+secure embedded server SimpleName Assignment ClassInstanceCreation SimpleType SimpleName secure embedded server
+secure embedded server SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+secure embedded server SimpleName Assignment ClassInstanceCreation SimpleName app path
+secure embedded serverserver QualifiedName MethodInvocation SimpleName start
+url SimpleName SimpleType ClassInstanceCreation StringLiteral httpslocalhost /
+url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName url
+url SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral httpslocalhost /
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName open connection
+http url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName url
+http url connection SimpleName SimpleType CastExpression MethodInvocation SimpleName open connection
+connection SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http url connection
+connection SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName url
+connection SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName open connection
+http url connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName set request method
+connection SimpleName MethodInvocation StringLiteral get
+set request method SimpleName MethodInvocation StringLiteral get
+connection SimpleName MethodInvocation SimpleName connect
+connection SimpleName MethodInvocation SimpleName get response code
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName connection
+assert SimpleName MethodInvocation MethodInvocation SimpleName get response code
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName connection
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get response code
+assert equals SimpleName MethodInvocation NumberLiteral empty
+connection SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get response code SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral war deploy failed
+assert SimpleName MethodInvocation SimpleName e
+fail SimpleName MethodInvocation StringLiteral war deploy failed
+fail SimpleName MethodInvocation SimpleName e
+war deploy failed StringLiteral MethodInvocation SimpleName e
+secure embedded serverserver QualifiedName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test server configured using credential provider
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test server configured using credential provider
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test server configured using credential provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test server configured using credential provider SimpleName MethodDeclaration SimpleType SimpleName exception
+test server configured using credential provider SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test server configured using credential provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test server configured using credential provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

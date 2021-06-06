@@ -1,0 +1,471 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+bs opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch scanner opts
+batch scanner opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs opts
+undefined analyzer SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName opts
+args SimpleName MethodInvocation SimpleName opts
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName undefined node
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName undefined node
+input stream reader SimpleName SimpleType ClassInstanceCreation QualifiedName systemin
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName utf
+systemin QualifiedName ClassInstanceCreation SimpleName utf
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName systemin
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName utf
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+reader SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName reader
+line SimpleName Assignment MethodInvocation SimpleName read line
+line SimpleName MethodInvocation SimpleName split
+line SimpleName MethodInvocation StringLiteral s
+split SimpleName MethodInvocation StringLiteral s
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+tokens SimpleName ArrayAccess NumberLiteral empty
+undef SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+undef SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName undef
+tokens SimpleName ArrayAccess NumberLiteral empty
+ref SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+ref SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+undefined node SimpleName SimpleType ClassInstanceCreation SimpleName undef
+undefined node SimpleName SimpleType ClassInstanceCreation SimpleName ref
+undef SimpleName ClassInstanceCreation SimpleName ref
+undefs SimpleName MethodInvocation SimpleName add
+undefs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName undefined node
+undefs SimpleName MethodInvocation ClassInstanceCreation SimpleName undef
+undefs SimpleName MethodInvocation ClassInstanceCreation SimpleName ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName undefined node
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName undef
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName ref
+opts SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+opts SimpleName MethodInvocation SimpleName get table name
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation MethodInvocation SimpleName opts
+conn SimpleName MethodInvocation MethodInvocation SimpleName get table name
+conn SimpleName MethodInvocation QualifiedName optsauths
+conn SimpleName MethodInvocation QualifiedName bs optsscan threads
+create batch scanner SimpleName MethodInvocation MethodInvocation SimpleName opts
+create batch scanner SimpleName MethodInvocation MethodInvocation SimpleName get table name
+create batch scanner SimpleName MethodInvocation QualifiedName optsauths
+create batch scanner SimpleName MethodInvocation QualifiedName bs optsscan threads
+opts SimpleName MethodInvocation MethodInvocation QualifiedName optsauths
+get table name SimpleName MethodInvocation MethodInvocation QualifiedName optsauths
+opts SimpleName MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+get table name SimpleName MethodInvocation MethodInvocation QualifiedName bs optsscan threads
+optsauths QualifiedName MethodInvocation QualifiedName bs optsscan threads
+bscanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bscanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch scanner
+bscanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+bscanner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+bscanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsauths
+bscanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName bs optsscan threads
+batch scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bscanner
+bscanner SimpleName MethodInvocation SimpleName set timeout
+bscanner SimpleName MethodInvocation QualifiedName bs optsscan timeout
+bscanner SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set timeout SimpleName MethodInvocation QualifiedName bs optsscan timeout
+set timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+bs optsscan timeout QualifiedName MethodInvocation QualifiedName time unitmilliseconds
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+undefined node SimpleName SimpleType SingleVariableDeclaration SimpleName undefined node
+text SimpleName SimpleType ClassInstanceCreation QualifiedName undefined noderef
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName undefined noderef
+refs SimpleName MethodInvocation SimpleName add
+refs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+refs SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName undefined noderef
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName undefined noderef
+undefined node SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName undefs
+undefined node SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName undefs
+undefs SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName refs
+undefs SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+bscanner SimpleName MethodInvocation SimpleName set ranges
+bscanner SimpleName MethodInvocation SimpleName refs
+set ranges SimpleName MethodInvocation SimpleName refs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation MethodInvocation SimpleName to string
+ref SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get row
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ref info SimpleName MethodInvocation SimpleName get
+ref info SimpleName MethodInvocation SimpleName ref
+get SimpleName MethodInvocation SimpleName ref
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref info
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ref info SimpleName MethodInvocation SimpleName put
+ref info SimpleName MethodInvocation SimpleName ref
+ref info SimpleName MethodInvocation SimpleName vals
+put SimpleName MethodInvocation SimpleName ref
+put SimpleName MethodInvocation SimpleName vals
+ref SimpleName MethodInvocation SimpleName vals
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+vals SimpleName MethodInvocation SimpleName add
+vals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+vals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+vals SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bscanner
+bscanner SimpleName MethodInvocation SimpleName close
+ingest info SimpleName SimpleType ClassInstanceCreation QualifiedName optslog dir
+ingest info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName ingest info
+ingest info SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName optslog dir
+ingest info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ingest info
+conn SimpleName MethodInvocation SimpleName get instance
+opts SimpleName MethodInvocation SimpleName get table name
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName conn
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName opts
+tables SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get table id SimpleName MethodInvocation MethodInvocation SimpleName conn
+get table id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get table id SimpleName MethodInvocation MethodInvocation SimpleName opts
+get table id SimpleName MethodInvocation MethodInvocation SimpleName get table name
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+tablet history SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tables
+tablet history SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+tablet history SimpleName SimpleType ClassInstanceCreation QualifiedName optslog dir
+tables SimpleName MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+get table id SimpleName MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+opts SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+get table name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName optslog dir
+tablet history SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet history
+tablet history SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName tables
+tablet history SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get table id
+tablet history SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName optslog dir
+tablet history SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet history
+simple date format SimpleName SimpleType ClassInstanceCreation StringLiteral yyyymmdd hhmmss
+sdf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple date format
+sdf SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral yyyymmdd hhmmss
+simple date format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sdf
+undefined node SimpleName SimpleType SingleVariableDeclaration SimpleName undefined node
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ref info SimpleName MethodInvocation SimpleName get
+ref info SimpleName MethodInvocation QualifiedName undefined noderef
+get SimpleName MethodInvocation QualifiedName undefined noderef
+ref vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref info
+ref vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ref vals SimpleName VariableDeclarationFragment MethodInvocation QualifiedName undefined noderef
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ref val
+tablet assignment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ta
+ref val SimpleName MethodInvocation SimpleName split
+ref val SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref val
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+tokens SimpleName ArrayAccess NumberLiteral empty
+uuid SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+uuid SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+tokens SimpleName ArrayAccess NumberLiteral empty
+count SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+count SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+t SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+t SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName count
+long SimpleName MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation SimpleName count
+parse long SimpleName MethodInvocation NumberLiteral empty
+count SimpleName MethodInvocation NumberLiteral empty
+ingest info SimpleName MethodInvocation SimpleName get times
+ingest info SimpleName MethodInvocation SimpleName uuid
+ingest info SimpleName MethodInvocation MethodInvocation SimpleName long
+ingest info SimpleName MethodInvocation MethodInvocation SimpleName parse long
+ingest info SimpleName MethodInvocation MethodInvocation SimpleName count
+ingest info SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get times SimpleName MethodInvocation SimpleName uuid
+get times SimpleName MethodInvocation MethodInvocation SimpleName long
+get times SimpleName MethodInvocation MethodInvocation SimpleName parse long
+get times SimpleName MethodInvocation MethodInvocation SimpleName count
+get times SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+uuid SimpleName MethodInvocation MethodInvocation SimpleName long
+uuid SimpleName MethodInvocation MethodInvocation SimpleName parse long
+uuid SimpleName MethodInvocation MethodInvocation SimpleName count
+uuid SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+times SimpleName VariableDeclarationFragment MethodInvocation SimpleName ingest info
+times SimpleName VariableDeclarationFragment MethodInvocation SimpleName get times
+times SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+times SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName long
+times SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parse long
+times SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName count
+times SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+times SimpleName MethodInvocation SimpleName has next
+times SimpleName MethodInvocation SimpleName next
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName times
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName times
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+date SimpleName SimpleType ClassInstanceCreation SimpleName time
+sdf SimpleName MethodInvocation SimpleName format
+sdf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+sdf SimpleName MethodInvocation ClassInstanceCreation SimpleName time
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName time
+t SimpleName Assignment MethodInvocation SimpleName sdf
+t SimpleName Assignment MethodInvocation SimpleName format
+t SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName time
+times SimpleName MethodInvocation SimpleName has next
+times SimpleName MethodInvocation SimpleName next
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName times
+time SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName times
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+date SimpleName SimpleType ClassInstanceCreation SimpleName time
+sdf SimpleName MethodInvocation SimpleName format
+sdf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+sdf SimpleName MethodInvocation ClassInstanceCreation SimpleName time
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName time
+t SimpleName Assignment MethodInvocation SimpleName sdf
+t SimpleName Assignment MethodInvocation SimpleName format
+t SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName time
+tablet history SimpleName MethodInvocation SimpleName find most recent assignment
+tablet history SimpleName MethodInvocation QualifiedName undefined nodeundef
+tablet history SimpleName MethodInvocation SimpleName time
+tablet history SimpleName MethodInvocation SimpleName time
+find most recent assignment SimpleName MethodInvocation QualifiedName undefined nodeundef
+find most recent assignment SimpleName MethodInvocation SimpleName time
+find most recent assignment SimpleName MethodInvocation SimpleName time
+undefined nodeundef QualifiedName MethodInvocation SimpleName time
+undefined nodeundef QualifiedName MethodInvocation SimpleName time
+time SimpleName MethodInvocation SimpleName time
+ta SimpleName Assignment MethodInvocation SimpleName tablet history
+ta SimpleName Assignment MethodInvocation SimpleName find most recent assignment
+ta SimpleName Assignment MethodInvocation QualifiedName undefined nodeundef
+ta SimpleName Assignment MethodInvocation SimpleName time
+ta SimpleName Assignment MethodInvocation SimpleName time
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+undefined nodeundef QualifiedName InfixExpression QualifiedName undefined noderef
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+undefined nodeundef QualifiedName InfixExpression SimpleName uuid
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName undefined noderef
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName uuid
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+undefined noderef QualifiedName InfixExpression SimpleName uuid
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+undefined noderef QualifiedName InfixExpression SimpleName t
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName uuid
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+uuid SimpleName InfixExpression StringLiteral empty
+uuid SimpleName InfixExpression SimpleName t
+uuid SimpleName InfixExpression StringLiteral empty
+uuid SimpleName InfixExpression SimpleName t
+empty StringLiteral InfixExpression SimpleName t
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+t SimpleName InfixExpression StringLiteral empty
+t SimpleName InfixExpression SimpleName t
+empty StringLiteral InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined noderef
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName uuid
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName t
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined noderef
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName uuid
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName t
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName t
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+undefined nodeundef QualifiedName InfixExpression QualifiedName undefined noderef
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+undefined nodeundef QualifiedName InfixExpression QualifiedName tatablet
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName undefined noderef
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tatablet
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName taserver
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+undefined noderef QualifiedName InfixExpression QualifiedName tatablet
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+undefined noderef QualifiedName InfixExpression QualifiedName taserver
+undefined noderef QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tatablet
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName taserver
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName uuid
+tatablet QualifiedName InfixExpression StringLiteral empty
+tatablet QualifiedName InfixExpression QualifiedName taserver
+tatablet QualifiedName InfixExpression StringLiteral empty
+tatablet QualifiedName InfixExpression SimpleName uuid
+tatablet QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName taserver
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName uuid
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+taserver QualifiedName InfixExpression StringLiteral empty
+taserver QualifiedName InfixExpression SimpleName uuid
+taserver QualifiedName InfixExpression StringLiteral empty
+taserver QualifiedName InfixExpression SimpleName t
+taserver QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName uuid
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+uuid SimpleName InfixExpression StringLiteral empty
+uuid SimpleName InfixExpression SimpleName t
+uuid SimpleName InfixExpression StringLiteral empty
+uuid SimpleName InfixExpression SimpleName t
+empty StringLiteral InfixExpression SimpleName t
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName t
+t SimpleName InfixExpression StringLiteral empty
+t SimpleName InfixExpression SimpleName t
+empty StringLiteral InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined noderef
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName tatablet
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName taserver
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName uuid
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName t
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression SimpleName t
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined noderef
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName tatablet
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName taserver
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName uuid
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName t
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ref vals
+ref val SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ref vals
+undefined nodeundef QualifiedName InfixExpression StringLiteral empty
+undefined nodeundef QualifiedName InfixExpression QualifiedName undefined noderef
+empty StringLiteral InfixExpression QualifiedName undefined noderef
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName undefined noderef
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined nodeundef
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression QualifiedName undefined noderef
+undefined node SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName undefs
+undefined node SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName undefs
+undefs SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName bscanner
+bscanner SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName undefs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName undefs
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName bscanner
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName undefs
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName undefs
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName bscanner
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName undefs
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName undefs
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bscanner
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName undefs
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

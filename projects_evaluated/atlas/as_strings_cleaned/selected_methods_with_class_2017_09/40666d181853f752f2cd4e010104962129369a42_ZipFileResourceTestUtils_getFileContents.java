@@ -1,0 +1,65 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+dir SimpleName MethodInvocation SimpleName exists
+dir SimpleName MethodInvocation SimpleName is directory
+dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dir
+dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dir
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+file SimpleName SimpleType ClassInstanceCreation SimpleName dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName file name
+dir SimpleName ClassInstanceCreation SimpleName file name
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dir
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName exists
+file SimpleName MethodInvocation SimpleName is file
+file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+file SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is file
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file
+exists SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is file
+file utils SimpleName MethodInvocation SimpleName read file to string
+file utils SimpleName MethodInvocation SimpleName file
+read file to string SimpleName MethodInvocation SimpleName file
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get file contents
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get file contents
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get file contents
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get file contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+get file contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+get file contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get file contents SimpleName MethodDeclaration SimpleType SimpleName io exception
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file contents
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file contents
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

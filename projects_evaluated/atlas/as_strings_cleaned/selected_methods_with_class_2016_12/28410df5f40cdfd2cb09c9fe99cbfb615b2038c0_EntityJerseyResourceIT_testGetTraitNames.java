@@ -1,0 +1,94 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+table id SimpleName MethodInvocation SimpleName get id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+service client SimpleName MethodInvocation SimpleName call api with body and params
+service client SimpleName MethodInvocation QualifiedName atlas clientapilist traits
+service client SimpleName MethodInvocation SimpleName guid
+service client SimpleName MethodInvocation SimpleName traits
+call api with body and params SimpleName MethodInvocation QualifiedName atlas clientapilist traits
+call api with body and params SimpleName MethodInvocation SimpleName guid
+call api with body and params SimpleName MethodInvocation SimpleName traits
+atlas clientapilist traits QualifiedName MethodInvocation SimpleName guid
+atlas clientapilist traits QualifiedName MethodInvocation SimpleName traits
+guid SimpleName MethodInvocation SimpleName traits
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapilist traits
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName traits
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+get SimpleName MethodInvocation QualifiedName atlas clientrequest id
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation SimpleName get json array
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json array SimpleName MethodInvocation QualifiedName atlas clientresults
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+list SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+final Modifier VariableDeclarationStatement SimpleType SimpleName json array
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json array
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas clientresults
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+list SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName list
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName list
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+list SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get trait names
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait names
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait names
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get trait names
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get trait names
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get trait names SimpleName MethodDeclaration SimpleType SimpleName exception
+test get trait names SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get trait names SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get trait names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get trait names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

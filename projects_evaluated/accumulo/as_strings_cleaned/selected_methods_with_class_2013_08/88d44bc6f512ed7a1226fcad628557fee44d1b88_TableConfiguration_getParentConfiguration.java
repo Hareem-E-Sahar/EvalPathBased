@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName table namespace configuration
+public Modifier MethodDeclaration SimpleName get parent configuration
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parent
+table namespace configuration SimpleName SimpleType MethodDeclaration SimpleName get parent configuration
+get parent configuration SimpleName MethodDeclaration Block ReturnStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent configuration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent configuration

@@ -1,0 +1,65 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master address
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get master address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral could not fetch master address
+warn SimpleName MethodInvocation StringLiteral could not fetch master address
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+thrift util SimpleName MethodInvocation SimpleName conf
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName master client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+get client SimpleName MethodInvocation SimpleName conf
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName propertygeneral rpc timeout
+master client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+address SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+address SimpleName MethodInvocation SimpleName conf
+propertygeneral rpc timeout QualifiedName MethodInvocation SimpleName conf
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+issue with master connection ( StringLiteral InfixExpression SimpleName address
+issue with master connection ( StringLiteral InfixExpression StringLiteral )
+issue with master connection ( StringLiteral InfixExpression SimpleName e
+address SimpleName InfixExpression StringLiteral )
+address SimpleName InfixExpression SimpleName e
+) StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral issue with master connection (
+log SimpleName MethodInvocation InfixExpression SimpleName address
+log SimpleName MethodInvocation InfixExpression StringLiteral )
+log SimpleName MethodInvocation InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral issue with master connection (
+warn SimpleName MethodInvocation InfixExpression SimpleName address
+warn SimpleName MethodInvocation InfixExpression StringLiteral )
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation SimpleName e
+issue with master connection ( StringLiteral InfixExpression MethodInvocation SimpleName e
+address SimpleName InfixExpression MethodInvocation SimpleName e
+) StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName InfixExpression MethodInvocation SimpleName e
+private Modifier MethodDeclaration SimpleType QualifiedName master client serviceclient
+private Modifier MethodDeclaration SimpleName get master connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+master client serviceclient QualifiedName SimpleType MethodDeclaration SimpleName get master connection
+master client serviceclient QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get master connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get master connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get master connection SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+public Modifier TypeDeclaration MethodDeclaration SimpleName get master connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceclient
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get master connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

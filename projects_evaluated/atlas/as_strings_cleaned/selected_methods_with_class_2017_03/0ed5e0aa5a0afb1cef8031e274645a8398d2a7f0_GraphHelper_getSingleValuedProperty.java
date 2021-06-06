@@ -1,0 +1,81 @@
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation SimpleName property name
+encode property key SimpleName MethodInvocation SimpleName property name
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual property name
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName MethodInvocation SimpleName element
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral reading property {} from {}
+log SimpleName MethodInvocation SimpleName actual property name
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName element
+debug SimpleName MethodInvocation StringLiteral reading property {} from {}
+debug SimpleName MethodInvocation SimpleName actual property name
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName element
+reading property {} from {} StringLiteral MethodInvocation SimpleName actual property name
+reading property {} from {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+reading property {} from {} StringLiteral MethodInvocation MethodInvocation SimpleName element
+actual property name SimpleName MethodInvocation MethodInvocation SimpleName string
+actual property name SimpleName MethodInvocation MethodInvocation SimpleName element
+element SimpleName MethodInvocation SimpleName get property
+element SimpleName MethodInvocation SimpleName actual property name
+element SimpleName MethodInvocation SimpleName clazz
+get property SimpleName MethodInvocation SimpleName actual property name
+get property SimpleName MethodInvocation SimpleName clazz
+actual property name SimpleName MethodInvocation SimpleName clazz
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get single valued property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName get single valued property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName get single valued property
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName element
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SimpleName get single valued property
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+get single valued property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+get single valued property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get single valued property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get single valued property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+get single valued property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get single valued property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get single valued property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz

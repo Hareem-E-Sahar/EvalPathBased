@@ -1,0 +1,75 @@
+user logins SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user logins
+user logins SimpleName MethodInvocation SimpleName put
+user logins SimpleName MethodInvocation StringLiteral admin
+user logins SimpleName MethodInvocation StringLiteral adminadmin
+put SimpleName MethodInvocation StringLiteral admin
+put SimpleName MethodInvocation StringLiteral adminadmin
+admin StringLiteral MethodInvocation StringLiteral adminadmin
+user SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user dao
+user dao SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+user SimpleName MethodInvocation SimpleName set user logins
+user SimpleName MethodInvocation SimpleName user logins
+set user logins SimpleName MethodInvocation SimpleName user logins
+user SimpleName MethodInvocation SimpleName load user by username
+user SimpleName MethodInvocation StringLiteral admin
+load user by username SimpleName MethodInvocation StringLiteral admin
+user bean SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+user bean SimpleName VariableDeclarationFragment MethodInvocation SimpleName load user by username
+user bean SimpleName VariableDeclarationFragment MethodInvocation StringLiteral admin
+user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user bean
+user bean SimpleName MethodInvocation SimpleName get password
+user bean SimpleName MethodInvocation MethodInvocation SimpleName equals
+get password SimpleName MethodInvocation MethodInvocation SimpleName equals
+user bean SimpleName MethodInvocation MethodInvocation StringLiteral admin
+get password SimpleName MethodInvocation MethodInvocation StringLiteral admin
+equals SimpleName MethodInvocation StringLiteral admin
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user bean
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation StringLiteral admin
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user bean
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get password
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral admin
+user bean SimpleName MethodInvocation SimpleName get authorities
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName user bean
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authorities
+role SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName role
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+granted authority SimpleName SimpleType SingleVariableDeclaration SimpleName gauth
+gauth SimpleName MethodInvocation SimpleName get authority
+role SimpleName Assignment MethodInvocation SimpleName gauth
+role SimpleName Assignment MethodInvocation SimpleName get authority
+granted authority SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+gauth SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+admin StringLiteral MethodInvocation SimpleName equals
+admin StringLiteral MethodInvocation SimpleName role
+equals SimpleName MethodInvocation SimpleName role
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation StringLiteral admin
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName role
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral admin
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName role
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test user daowith valid user login and password
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test user daowith valid user login and password
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName authorities
+void PrimitiveType MethodDeclaration SimpleName test user daowith valid user login and password
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName authorities
+test user daowith valid user login and password SimpleName MethodDeclaration Block EnhancedForStatement SimpleName authorities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test user daowith valid user login and password
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test user daowith valid user login and password

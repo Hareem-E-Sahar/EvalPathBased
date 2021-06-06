@@ -1,0 +1,11 @@
+titan graph database SimpleName MethodInvocation SimpleName get graph instance
+protected Modifier MethodDeclaration SimpleType SimpleName titan graph
+protected Modifier MethodDeclaration SimpleName get graph
+titan graph SimpleName SimpleType MethodDeclaration SimpleName get graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph

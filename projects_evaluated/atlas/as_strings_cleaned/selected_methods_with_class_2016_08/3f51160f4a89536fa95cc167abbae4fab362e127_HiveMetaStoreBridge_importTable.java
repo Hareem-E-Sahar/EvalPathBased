@@ -1,0 +1,288 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName database referenceable
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+final Modifier SingleVariableDeclaration PrimitiveType boolean
+final Modifier SingleVariableDeclaration SimpleName fail on error
+boolean PrimitiveType SingleVariableDeclaration SimpleName fail on error
+hive client SimpleName MethodInvocation SimpleName get table
+hive client SimpleName MethodInvocation SimpleName database name
+hive client SimpleName MethodInvocation SimpleName table name
+get table SimpleName MethodInvocation SimpleName database name
+get table SimpleName MethodInvocation SimpleName table name
+database name SimpleName MethodInvocation SimpleName table name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive client
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName database name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+register table SimpleName MethodInvocation SimpleName database referenceable
+register table SimpleName MethodInvocation SimpleName table
+database referenceable SimpleName MethodInvocation SimpleName table
+table referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName register table
+table referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName database referenceable
+table referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table referenceable
+table SimpleName MethodInvocation SimpleName get table type
+table SimpleName MethodInvocation InfixExpression QualifiedName table typeexternal table
+get table type SimpleName MethodInvocation InfixExpression QualifiedName table typeexternal table
+get table process qualified name SimpleName MethodInvocation SimpleName cluster name
+get table process qualified name SimpleName MethodInvocation SimpleName table
+cluster name SimpleName MethodInvocation SimpleName table
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table process qualified name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+table qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table qualified name
+get process reference SimpleName MethodInvocation SimpleName table qualified name
+process SimpleName VariableDeclarationFragment MethodInvocation SimpleName get process reference
+process SimpleName VariableDeclarationFragment MethodInvocation SimpleName table qualified name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral attempting to register create table process for {}
+log SimpleName MethodInvocation SimpleName table qualified name
+info SimpleName MethodInvocation StringLiteral attempting to register create table process for {}
+info SimpleName MethodInvocation SimpleName table qualified name
+attempting to register create table process for {} StringLiteral MethodInvocation SimpleName table qualified name
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive process
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+lineage process SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+lineage process SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive process
+lineage process SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lineage process
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+table SimpleName MethodInvocation SimpleName get data location
+table SimpleName MethodInvocation MethodInvocation SimpleName to string
+get data location SimpleName MethodInvocation MethodInvocation SimpleName to string
+table location SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table
+table location SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data location
+table location SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table location
+fill hdfs data set SimpleName MethodInvocation SimpleName table location
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName fill hdfs data set
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName table location
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+get create table string SimpleName MethodInvocation SimpleName table
+get create table string SimpleName MethodInvocation SimpleName table location
+table SimpleName MethodInvocation SimpleName table location
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get create table string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table location
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+source list SimpleName MethodInvocation SimpleName add
+source list SimpleName MethodInvocation SimpleName path
+add SimpleName MethodInvocation SimpleName path
+target list SimpleName MethodInvocation SimpleName add
+target list SimpleName MethodInvocation SimpleName table referenceable
+add SimpleName MethodInvocation SimpleName table referenceable
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral inputs
+lineage process SimpleName MethodInvocation SimpleName source list
+set SimpleName MethodInvocation StringLiteral inputs
+set SimpleName MethodInvocation SimpleName source list
+inputs StringLiteral MethodInvocation SimpleName source list
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral outputs
+lineage process SimpleName MethodInvocation SimpleName target list
+set SimpleName MethodInvocation StringLiteral outputs
+set SimpleName MethodInvocation SimpleName target list
+outputs StringLiteral MethodInvocation SimpleName target list
+table SimpleName MethodInvocation SimpleName get owner
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral user name
+lineage process SimpleName MethodInvocation MethodInvocation SimpleName table
+lineage process SimpleName MethodInvocation MethodInvocation SimpleName get owner
+set SimpleName MethodInvocation StringLiteral user name
+set SimpleName MethodInvocation MethodInvocation SimpleName table
+set SimpleName MethodInvocation MethodInvocation SimpleName get owner
+user name StringLiteral MethodInvocation MethodInvocation SimpleName table
+user name StringLiteral MethodInvocation MethodInvocation SimpleName get owner
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral start time
+lineage process SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+lineage process SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+lineage process SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation StringLiteral start time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+start time StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+start time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+start time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation SimpleName current time millis
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral end time
+lineage process SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+lineage process SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+lineage process SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation StringLiteral end time
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+end time StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+end time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+end time StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral operation type
+lineage process SimpleName MethodInvocation StringLiteral createtable
+set SimpleName MethodInvocation StringLiteral operation type
+set SimpleName MethodInvocation StringLiteral createtable
+operation type StringLiteral MethodInvocation StringLiteral createtable
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral query text
+lineage process SimpleName MethodInvocation SimpleName query
+set SimpleName MethodInvocation StringLiteral query text
+set SimpleName MethodInvocation SimpleName query
+query text StringLiteral MethodInvocation SimpleName query
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral query id
+lineage process SimpleName MethodInvocation SimpleName query
+set SimpleName MethodInvocation StringLiteral query id
+set SimpleName MethodInvocation SimpleName query
+query id StringLiteral MethodInvocation SimpleName query
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral query plan
+lineage process SimpleName MethodInvocation StringLiteral {}
+set SimpleName MethodInvocation StringLiteral query plan
+set SimpleName MethodInvocation StringLiteral {}
+query plan StringLiteral MethodInvocation StringLiteral {}
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral cluster name
+lineage process SimpleName MethodInvocation SimpleName cluster name
+set SimpleName MethodInvocation StringLiteral cluster name
+set SimpleName MethodInvocation SimpleName cluster name
+cluster name StringLiteral MethodInvocation SimpleName cluster name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+recent queries SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+recent queries SimpleName MethodInvocation SimpleName add
+recent queries SimpleName MethodInvocation SimpleName query
+add SimpleName MethodInvocation SimpleName query
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation StringLiteral recent queries
+lineage process SimpleName MethodInvocation SimpleName recent queries
+set SimpleName MethodInvocation StringLiteral recent queries
+set SimpleName MethodInvocation SimpleName recent queries
+recent queries StringLiteral MethodInvocation SimpleName recent queries
+get table process qualified name SimpleName MethodInvocation SimpleName cluster name
+get table process qualified name SimpleName MethodInvocation SimpleName table
+cluster name SimpleName MethodInvocation SimpleName table
+process qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table process qualified name
+process qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+process qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process qualified name
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+lineage process SimpleName MethodInvocation SimpleName process qualified name
+set SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+set SimpleName MethodInvocation SimpleName process qualified name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName process qualified name
+lineage process SimpleName MethodInvocation SimpleName set
+lineage process SimpleName MethodInvocation QualifiedName atlas clientname
+lineage process SimpleName MethodInvocation SimpleName query
+set SimpleName MethodInvocation QualifiedName atlas clientname
+set SimpleName MethodInvocation SimpleName query
+atlas clientname QualifiedName MethodInvocation SimpleName query
+register instance SimpleName MethodInvocation SimpleName lineage process
+process SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral process {} is already registered
+log SimpleName MethodInvocation MethodInvocation SimpleName process
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+info SimpleName MethodInvocation StringLiteral process {} is already registered
+info SimpleName MethodInvocation MethodInvocation SimpleName process
+info SimpleName MethodInvocation MethodInvocation SimpleName to string
+process {} is already registered StringLiteral MethodInvocation MethodInvocation SimpleName process
+process {} is already registered StringLiteral MethodInvocation MethodInvocation SimpleName to string
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral import failed for hive table {}
+log SimpleName MethodInvocation SimpleName table name
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral import failed for hive table {}
+error SimpleName MethodInvocation SimpleName table name
+error SimpleName MethodInvocation SimpleName e
+import failed for hive table {} StringLiteral MethodInvocation SimpleName table name
+import failed for hive table {} StringLiteral MethodInvocation SimpleName e
+table name SimpleName MethodInvocation SimpleName e
+fail on error SimpleName IfStatement Block ThrowStatement SimpleName e
+fail on error SimpleName IfStatement Block ReturnStatement NumberLiteral empty
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName import table
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName import table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+int PrimitiveType MethodDeclaration SimpleName import table
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName database name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database name
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+import table SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+import table SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+import table SimpleName MethodDeclaration SimpleType SimpleName exception
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+database referenceable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+database name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+database name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fail on error SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName import table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fail on error
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

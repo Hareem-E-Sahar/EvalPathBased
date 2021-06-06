@@ -1,0 +1,12 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+value map SimpleName MethodInvocation SimpleName key set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get attribute values
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute values
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get attribute values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute values

@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName col name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation SimpleName table qualified name
+string SimpleName MethodInvocation SimpleName col name
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation SimpleName table qualified name
+format SimpleName MethodInvocation SimpleName col name
+ss StringLiteral MethodInvocation SimpleName table qualified name
+ss StringLiteral MethodInvocation SimpleName col name
+table qualified name SimpleName MethodInvocation SimpleName col name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get column qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName col name
+string SimpleName SimpleType MethodDeclaration SimpleName get column qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName col name
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get column qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col name
+table qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col name

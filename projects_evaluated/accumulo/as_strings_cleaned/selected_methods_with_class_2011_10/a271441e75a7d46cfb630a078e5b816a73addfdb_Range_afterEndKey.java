@@ -1,0 +1,40 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+infinite stop key SimpleName IfStatement ReturnStatement BooleanLiteral false
+stop SimpleName MethodInvocation SimpleName compare to
+stop SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+stop SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+stop key inclusive SimpleName IfStatement ReturnStatement InfixExpression NumberLiteral empty
+stop SimpleName MethodInvocation SimpleName compare to
+stop SimpleName MethodInvocation SimpleName key
+compare to SimpleName MethodInvocation SimpleName key
+stop SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+infinite stop key SimpleName IfStatement Block IfStatement SimpleName stop key inclusive
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName after end key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block IfStatement SimpleName infinite stop key
+public Modifier MethodDeclaration Block IfStatement SimpleName stop key inclusive
+boolean PrimitiveType MethodDeclaration SimpleName after end key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName infinite stop key
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName stop key inclusive
+after end key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+after end key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+after end key SimpleName MethodDeclaration Block IfStatement SimpleName infinite stop key
+after end key SimpleName MethodDeclaration Block IfStatement SimpleName stop key inclusive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName after end key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName after end key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

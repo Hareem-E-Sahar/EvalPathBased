@@ -1,0 +1,167 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index entries
+a block reader SimpleName SimpleType SingleVariableDeclaration SimpleName cache block
+index entry SimpleName SimpleType SingleVariableDeclaration SimpleName index entry
+cache block SimpleName MethodInvocation SimpleName seek
+cache block SimpleName MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation NumberLiteral empty
+rk SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName relative key
+relative key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rk
+val SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+index entry SimpleName MethodInvocation SimpleName get num entries
+index entry SimpleName MethodInvocation InfixExpression SimpleName index entries
+get num entries SimpleName MethodInvocation InfixExpression SimpleName index entries
+interval SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName index entry
+interval SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get num entries
+interval SimpleName VariableDeclarationFragment InfixExpression SimpleName index entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName interval
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName index entries
+interval SimpleName InfixExpression NumberLiteral empty
+block index SimpleName FieldAccess FieldAccess SimpleName length
+index entries SimpleName InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression InfixExpression SimpleName index entries
+length SimpleName FieldAccess InfixExpression InfixExpression NumberLiteral empty
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName block index entry
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName block index entry
+index entries SimpleName InfixExpression NumberLiteral empty
+index SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName index entries
+index SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+index entry SimpleName MethodInvocation SimpleName get num entries
+index entry SimpleName MethodInvocation InfixExpression SimpleName interval
+get num entries SimpleName MethodInvocation InfixExpression SimpleName interval
+index entry SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get num entries SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+interval SimpleName InfixExpression InfixExpression NumberLiteral empty
+count SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+rk SimpleName MethodInvocation SimpleName get key
+my prev key SimpleName VariableDeclarationFragment MethodInvocation SimpleName rk
+my prev key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName my prev key
+cache block SimpleName MethodInvocation SimpleName get position
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache block
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get position
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cache block
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get position
+rk SimpleName MethodInvocation SimpleName read fields
+rk SimpleName MethodInvocation SimpleName cache block
+read fields SimpleName MethodInvocation SimpleName cache block
+val SimpleName MethodInvocation SimpleName read fields
+val SimpleName MethodInvocation SimpleName cache block
+read fields SimpleName MethodInvocation SimpleName cache block
+count SimpleName InfixExpression NumberLiteral empty
+count SimpleName InfixExpression SimpleName interval
+count SimpleName InfixExpression InfixExpression NumberLiteral empty
+interval SimpleName InfixExpression InfixExpression NumberLiteral empty
+count SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+index entry SimpleName MethodInvocation SimpleName get num entries
+index entry SimpleName MethodInvocation InfixExpression SimpleName count
+get num entries SimpleName MethodInvocation InfixExpression SimpleName count
+rk SimpleName MethodInvocation SimpleName get key
+block index entry SimpleName SimpleType ClassInstanceCreation SimpleName pos
+block index entry SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+block index entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rk
+block index entry SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+block index entry SimpleName SimpleType ClassInstanceCreation SimpleName my prev key
+pos SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName index entry
+pos SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get num entries
+pos SimpleName ClassInstanceCreation InfixExpression SimpleName count
+pos SimpleName ClassInstanceCreation MethodInvocation SimpleName rk
+pos SimpleName ClassInstanceCreation MethodInvocation SimpleName get key
+pos SimpleName ClassInstanceCreation SimpleName my prev key
+count SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName rk
+count SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get key
+index entry SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName my prev key
+get num entries SimpleName MethodInvocation InfixExpression ClassInstanceCreation SimpleName my prev key
+count SimpleName InfixExpression ClassInstanceCreation SimpleName my prev key
+rk SimpleName MethodInvocation ClassInstanceCreation SimpleName my prev key
+get key SimpleName MethodInvocation ClassInstanceCreation SimpleName my prev key
+index SimpleName MethodInvocation SimpleName add
+index SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName block index entry
+index SimpleName MethodInvocation ClassInstanceCreation SimpleName pos
+index SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName count
+index SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rk
+index SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+index SimpleName MethodInvocation ClassInstanceCreation SimpleName my prev key
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName block index entry
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName pos
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName count
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rk
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName my prev key
+index SimpleName MethodInvocation SimpleName size
+index SimpleName MethodInvocation SimpleName to array
+index SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName index
+index SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName index
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+block index SimpleName FieldAccess Assignment MethodInvocation SimpleName index
+block index SimpleName FieldAccess Assignment MethodInvocation SimpleName to array
+cache block SimpleName MethodInvocation SimpleName seek
+cache block SimpleName MethodInvocation NumberLiteral empty
+seek SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName build index
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index entries
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache block
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName build index
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName index entries
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache block
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName index entry
+void PrimitiveType MethodDeclaration SimpleName build index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index entries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cache block
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index entry
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+build index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+build index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index entries
+build index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName a block reader
+build index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache block
+build index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName index entry
+build index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index entry
+build index SimpleName MethodDeclaration SimpleType SimpleName io exception
+build index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+index entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+index entries SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+index entries SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cache block SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+cache block SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+index entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

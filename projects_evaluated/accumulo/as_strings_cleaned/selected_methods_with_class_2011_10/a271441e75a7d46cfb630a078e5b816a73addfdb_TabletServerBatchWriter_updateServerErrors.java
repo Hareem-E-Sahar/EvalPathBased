@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+something failed SimpleName Assignment BooleanLiteral true
+server side errors SimpleName FieldAccess MethodInvocation SimpleName add
+server side errors SimpleName FieldAccess MethodInvocation SimpleName server
+add SimpleName MethodInvocation SimpleName server
+server side error on StringLiteral InfixExpression SimpleName server
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral server side error on
+log SimpleName MethodInvocation InfixExpression SimpleName server
+error SimpleName MethodInvocation InfixExpression StringLiteral server side error on
+error SimpleName MethodInvocation InfixExpression SimpleName server
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update server errors
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName update server errors
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName update server errors
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+update server errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update server errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+update server errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+update server errors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+server SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update server errors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update server errors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

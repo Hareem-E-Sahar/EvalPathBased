@@ -1,0 +1,25 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sep SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sep
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cvs
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName sep
+append SimpleName MethodInvocation SimpleName sep
+sep SimpleName Assignment StringLiteral 
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName cvs
+append SimpleName MethodInvocation SimpleName cvs
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName visibilities
+cvs SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName visibilities
+sb SimpleName MethodInvocation SimpleName to string
+sb SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType MethodDeclaration SimpleName get
+get SimpleName MethodDeclaration Block EnhancedForStatement SimpleName visibilities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

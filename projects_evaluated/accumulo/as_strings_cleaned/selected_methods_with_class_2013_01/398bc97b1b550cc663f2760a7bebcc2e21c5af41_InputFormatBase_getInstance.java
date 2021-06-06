@@ -1,0 +1,65 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation SimpleName mock
+conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName mock
+get boolean SimpleName MethodInvocation BooleanLiteral false
+mock SimpleName MethodInvocation BooleanLiteral false
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName instance name
+get SimpleName MethodInvocation SimpleName instance name
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+mock instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName instance name
+get SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation SimpleName zookeepers
+get SimpleName MethodInvocation SimpleName zookeepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zookeepers
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName conf
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zookeepers
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName conf
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zookeepers
+instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName conf
+instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zookeepers
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName instance
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName get instance
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName instance
+protected Modifier MethodDeclaration SimpleName get instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+instance SimpleName SimpleType MethodDeclaration SimpleName get instance
+instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

@@ -1,0 +1,106 @@
+repo SimpleName SimpleType ParameterizedType SimpleType SimpleName master
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+master SimpleName SimpleType SingleVariableDeclaration SimpleName env
+ts SimpleName VariableDeclarationFragment QualifiedName table stateonline
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName table stateonline
+top SimpleName InfixExpression QualifiedName table operationoffline
+ts SimpleName Assignment QualifiedName table stateoffline
+table manager SimpleName MethodInvocation SimpleName get instance
+table manager SimpleName MethodInvocation MethodInvocation SimpleName transition table state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName transition table state
+table manager SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+table manager SimpleName MethodInvocation MethodInvocation SimpleName ts
+get instance SimpleName MethodInvocation MethodInvocation SimpleName ts
+transition table state SimpleName MethodInvocation SimpleName table id
+transition table state SimpleName MethodInvocation SimpleName ts
+table id SimpleName MethodInvocation SimpleName ts
+utils SimpleName MethodInvocation SimpleName unreserve table
+utils SimpleName MethodInvocation SimpleName table id
+utils SimpleName MethodInvocation SimpleName tid
+utils SimpleName MethodInvocation BooleanLiteral true
+unreserve table SimpleName MethodInvocation SimpleName table id
+unreserve table SimpleName MethodInvocation SimpleName tid
+unreserve table SimpleName MethodInvocation BooleanLiteral true
+table id SimpleName MethodInvocation SimpleName tid
+table id SimpleName MethodInvocation BooleanLiteral true
+tid SimpleName MethodInvocation BooleanLiteral true
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName change table state
+get logger SimpleName MethodInvocation TypeLiteral SimpleType SimpleName change table state
+changed table state StringLiteral InfixExpression SimpleName table id
+changed table state StringLiteral InfixExpression StringLiteral empty
+changed table state StringLiteral InfixExpression SimpleName ts
+table id SimpleName InfixExpression StringLiteral empty
+table id SimpleName InfixExpression SimpleName ts
+empty StringLiteral InfixExpression SimpleName ts
+logger SimpleName MethodInvocation MethodInvocation SimpleName debug
+get logger SimpleName MethodInvocation MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral changed table state
+logger SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+logger SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName ts
+get logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral changed table state
+get logger SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get logger SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get logger SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName ts
+debug SimpleName MethodInvocation InfixExpression StringLiteral changed table state
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName ts
+env SimpleName MethodInvocation SimpleName get event coordinator
+env SimpleName MethodInvocation MethodInvocation SimpleName event
+get event coordinator SimpleName MethodInvocation MethodInvocation SimpleName event
+env SimpleName MethodInvocation MethodInvocation StringLiteral set table state of s to s
+get event coordinator SimpleName MethodInvocation MethodInvocation StringLiteral set table state of s to s
+env SimpleName MethodInvocation MethodInvocation SimpleName table id
+get event coordinator SimpleName MethodInvocation MethodInvocation SimpleName table id
+env SimpleName MethodInvocation MethodInvocation SimpleName ts
+get event coordinator SimpleName MethodInvocation MethodInvocation SimpleName ts
+event SimpleName MethodInvocation StringLiteral set table state of s to s
+event SimpleName MethodInvocation SimpleName table id
+event SimpleName MethodInvocation SimpleName ts
+set table state of s to s StringLiteral MethodInvocation SimpleName table id
+set table state of s to s StringLiteral MethodInvocation SimpleName ts
+table id SimpleName MethodInvocation SimpleName ts
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName repo
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName master
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SimpleType SimpleName exception
+repo SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call
+master SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call
+call SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

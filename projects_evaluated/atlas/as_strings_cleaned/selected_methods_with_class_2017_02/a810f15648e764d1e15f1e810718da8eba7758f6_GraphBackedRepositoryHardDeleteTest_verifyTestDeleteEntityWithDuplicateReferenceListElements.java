@@ -1,0 +1,35 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName columns property value
+columns property value SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName columns property value
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns property value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+columns property value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName verify test delete entity with duplicate reference list elements
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName columns property value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName verify test delete entity with duplicate reference list elements
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns property value
+void PrimitiveType MethodDeclaration SimpleName verify test delete entity with duplicate reference list elements
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName columns property value
+verify test delete entity with duplicate reference list elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+verify test delete entity with duplicate reference list elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns property value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify test delete entity with duplicate reference list elements
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns property value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify test delete entity with duplicate reference list elements
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns property value

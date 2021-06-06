@@ -1,0 +1,20 @@
+rewriter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName literal rewriter
+ast rewriter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rewriter
+rewriters SimpleName MethodInvocation SimpleName add
+rewriters SimpleName MethodInvocation SimpleName rewriter
+add SimpleName MethodInvocation SimpleName rewriter
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set up rewriters
+private Modifier MethodDeclaration SimpleType SimpleName rewrite exception
+void PrimitiveType MethodDeclaration SimpleName set up rewriters
+void PrimitiveType MethodDeclaration SimpleType SimpleName rewrite exception
+set up rewriters SimpleName MethodDeclaration SimpleType SimpleName rewrite exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up rewriters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rewrite exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up rewriters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rewrite exception

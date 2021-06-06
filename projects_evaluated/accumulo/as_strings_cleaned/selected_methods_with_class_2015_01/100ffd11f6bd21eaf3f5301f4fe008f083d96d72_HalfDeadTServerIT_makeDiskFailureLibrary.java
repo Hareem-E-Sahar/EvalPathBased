@@ -1,0 +1,144 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+root SimpleName VariableDeclarationFragment MethodInvocation StringLiteral userdir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName InfixExpression StringLiteral srctestcfake disk failurec
+source SimpleName VariableDeclarationFragment InfixExpression SimpleName root
+source SimpleName VariableDeclarationFragment InfixExpression StringLiteral srctestcfake disk failurec
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+root SimpleName InfixExpression StringLiteral targetfake disk failureso
+lib SimpleName VariableDeclarationFragment InfixExpression SimpleName root
+lib SimpleName VariableDeclarationFragment InfixExpression StringLiteral targetfake disk failureso
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lib
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral osname
+get property SimpleName MethodInvocation StringLiteral osname
+platform SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+platform SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+platform SimpleName VariableDeclarationFragment MethodInvocation StringLiteral osname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName platform
+platform SimpleName MethodInvocation SimpleName equals
+platform SimpleName MethodInvocation StringLiteral darwin
+equals SimpleName MethodInvocation StringLiteral darwin
+gcc StringLiteral ArrayInitializer StringLiteral arch
+gcc StringLiteral ArrayInitializer StringLiteral x
+gcc StringLiteral ArrayInitializer StringLiteral arch
+gcc StringLiteral ArrayInitializer StringLiteral i
+gcc StringLiteral ArrayInitializer StringLiteral dynamiclib
+arch StringLiteral ArrayInitializer StringLiteral x
+arch StringLiteral ArrayInitializer StringLiteral arch
+arch StringLiteral ArrayInitializer StringLiteral i
+arch StringLiteral ArrayInitializer StringLiteral dynamiclib
+arch StringLiteral ArrayInitializer StringLiteral o
+x StringLiteral ArrayInitializer StringLiteral arch
+x StringLiteral ArrayInitializer StringLiteral i
+x StringLiteral ArrayInitializer StringLiteral dynamiclib
+x StringLiteral ArrayInitializer StringLiteral o
+x StringLiteral ArrayInitializer StringLiteral f pic
+arch StringLiteral ArrayInitializer StringLiteral i
+arch StringLiteral ArrayInitializer StringLiteral dynamiclib
+arch StringLiteral ArrayInitializer StringLiteral o
+arch StringLiteral ArrayInitializer StringLiteral f pic
+arch StringLiteral ArrayInitializer SimpleName source
+i StringLiteral ArrayInitializer StringLiteral dynamiclib
+i StringLiteral ArrayInitializer StringLiteral o
+i StringLiteral ArrayInitializer StringLiteral f pic
+i StringLiteral ArrayInitializer SimpleName source
+i StringLiteral ArrayInitializer StringLiteral o
+dynamiclib StringLiteral ArrayInitializer StringLiteral o
+dynamiclib StringLiteral ArrayInitializer StringLiteral f pic
+dynamiclib StringLiteral ArrayInitializer SimpleName source
+dynamiclib StringLiteral ArrayInitializer StringLiteral o
+dynamiclib StringLiteral ArrayInitializer SimpleName lib
+o StringLiteral ArrayInitializer StringLiteral f pic
+o StringLiteral ArrayInitializer SimpleName source
+o StringLiteral ArrayInitializer StringLiteral o
+o StringLiteral ArrayInitializer SimpleName lib
+f pic StringLiteral ArrayInitializer SimpleName source
+f pic StringLiteral ArrayInitializer StringLiteral o
+f pic StringLiteral ArrayInitializer SimpleName lib
+source SimpleName ArrayInitializer StringLiteral o
+source SimpleName ArrayInitializer SimpleName lib
+o StringLiteral ArrayInitializer SimpleName lib
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral gcc
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral arch
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral x
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral arch
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral i
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral dynamiclib
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral o
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral f pic
+cmd SimpleName Assignment ArrayCreation ArrayInitializer SimpleName source
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral o
+cmd SimpleName Assignment ArrayCreation ArrayInitializer SimpleName lib
+gcc StringLiteral ArrayInitializer StringLiteral d gnu source
+gcc StringLiteral ArrayInitializer StringLiteral wall
+gcc StringLiteral ArrayInitializer StringLiteral f pic
+gcc StringLiteral ArrayInitializer SimpleName source
+gcc StringLiteral ArrayInitializer StringLiteral shared
+d gnu source StringLiteral ArrayInitializer StringLiteral wall
+d gnu source StringLiteral ArrayInitializer StringLiteral f pic
+d gnu source StringLiteral ArrayInitializer SimpleName source
+d gnu source StringLiteral ArrayInitializer StringLiteral shared
+d gnu source StringLiteral ArrayInitializer StringLiteral o
+wall StringLiteral ArrayInitializer StringLiteral f pic
+wall StringLiteral ArrayInitializer SimpleName source
+wall StringLiteral ArrayInitializer StringLiteral shared
+wall StringLiteral ArrayInitializer StringLiteral o
+wall StringLiteral ArrayInitializer SimpleName lib
+f pic StringLiteral ArrayInitializer SimpleName source
+f pic StringLiteral ArrayInitializer StringLiteral shared
+f pic StringLiteral ArrayInitializer StringLiteral o
+f pic StringLiteral ArrayInitializer SimpleName lib
+f pic StringLiteral ArrayInitializer StringLiteral ldl
+source SimpleName ArrayInitializer StringLiteral shared
+source SimpleName ArrayInitializer StringLiteral o
+source SimpleName ArrayInitializer SimpleName lib
+source SimpleName ArrayInitializer StringLiteral ldl
+shared StringLiteral ArrayInitializer StringLiteral o
+shared StringLiteral ArrayInitializer SimpleName lib
+shared StringLiteral ArrayInitializer StringLiteral ldl
+o StringLiteral ArrayInitializer SimpleName lib
+o StringLiteral ArrayInitializer StringLiteral ldl
+lib SimpleName ArrayInitializer StringLiteral ldl
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral gcc
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral d gnu source
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral wall
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral f pic
+cmd SimpleName Assignment ArrayCreation ArrayInitializer SimpleName source
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral shared
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral o
+cmd SimpleName Assignment ArrayCreation ArrayInitializer SimpleName lib
+cmd SimpleName Assignment ArrayCreation ArrayInitializer StringLiteral ldl
+runtime SimpleName MethodInvocation SimpleName get runtime
+runtime SimpleName MethodInvocation MethodInvocation SimpleName exec
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName exec
+runtime SimpleName MethodInvocation MethodInvocation SimpleName cmd
+get runtime SimpleName MethodInvocation MethodInvocation SimpleName cmd
+exec SimpleName MethodInvocation SimpleName cmd
+gcc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName runtime
+gcc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get runtime
+gcc SimpleName VariableDeclarationFragment MethodInvocation SimpleName exec
+gcc SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+process SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gcc
+gcc SimpleName MethodInvocation SimpleName wait for
+gcc SimpleName MethodInvocation InfixExpression NumberLiteral empty
+wait for SimpleName MethodInvocation InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName make disk failure library
+private Modifier MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType MethodDeclaration SimpleName make disk failure library
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName exception
+make disk failure library SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName make disk failure library
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make disk failure library
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

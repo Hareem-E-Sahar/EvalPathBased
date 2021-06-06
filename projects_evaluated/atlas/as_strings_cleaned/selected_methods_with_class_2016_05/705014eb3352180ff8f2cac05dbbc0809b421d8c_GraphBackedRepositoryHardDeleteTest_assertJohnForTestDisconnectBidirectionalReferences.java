@@ -1,0 +1,49 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName john
+string SimpleName SimpleType SingleVariableDeclaration SimpleName jane guid
+john SimpleName MethodInvocation SimpleName get
+john SimpleName MethodInvocation StringLiteral manager
+get SimpleName MethodInvocation StringLiteral manager
+assert null SimpleName MethodInvocation MethodInvocation SimpleName john
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral manager
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert john for test disconnect bidirectional references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName john
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert john for test disconnect bidirectional references
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName john
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert john for test disconnect bidirectional references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName john
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert john for test disconnect bidirectional references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+assert john for test disconnect bidirectional references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName john
+assert john for test disconnect bidirectional references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert john for test disconnect bidirectional references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+assert john for test disconnect bidirectional references SimpleName MethodDeclaration SimpleType SimpleName exception
+john SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+john SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+jane guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert john for test disconnect bidirectional references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName john
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert john for test disconnect bidirectional references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName john
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jane guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

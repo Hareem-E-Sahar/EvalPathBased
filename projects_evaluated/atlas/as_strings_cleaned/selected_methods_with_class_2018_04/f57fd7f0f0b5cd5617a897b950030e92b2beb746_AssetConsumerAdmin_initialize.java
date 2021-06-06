@@ -1,0 +1,343 @@
+access service config SimpleName SimpleType SingleVariableDeclaration SimpleName access service configuration properties
+omrs topic connector SimpleName SimpleType SingleVariableDeclaration SimpleName enterprise omrs topic connector
+omrs repository connector SimpleName SimpleType SingleVariableDeclaration SimpleName enterprise omrs repository connector
+omrs audit log SimpleName SimpleType SingleVariableDeclaration SimpleName audit log
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server user name
+action description SimpleName VariableDeclarationFragment StringLiteral initialize
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize
+asset consumer audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit code
+audit code SimpleName Assignment QualifiedName asset consumer audit codeservice initializing
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+repository connector SimpleName FieldAccess Assignment SimpleName enterprise omrs repository connector
+access service configuration properties SimpleName MethodInvocation SimpleName get access service name
+asset consumer rest services SimpleName MethodInvocation SimpleName set repository connector
+asset consumer rest services SimpleName MethodInvocation MethodInvocation SimpleName access service configuration properties
+asset consumer rest services SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+asset consumer rest services SimpleName MethodInvocation SimpleName repository connector
+set repository connector SimpleName MethodInvocation MethodInvocation SimpleName access service configuration properties
+set repository connector SimpleName MethodInvocation MethodInvocation SimpleName get access service name
+set repository connector SimpleName MethodInvocation SimpleName repository connector
+access service configuration properties SimpleName MethodInvocation MethodInvocation SimpleName repository connector
+get access service name SimpleName MethodInvocation MethodInvocation SimpleName repository connector
+access service config SimpleName FieldAccess Assignment SimpleName access service configuration properties
+omrs topic connector SimpleName FieldAccess Assignment SimpleName enterprise omrs topic connector
+audit code SimpleName Assignment QualifiedName asset consumer audit codeservice registered with topic
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+access service config SimpleName MethodInvocation SimpleName get access service out topic
+repository connector SimpleName MethodInvocation SimpleName get repository helper
+repository connector SimpleName MethodInvocation SimpleName get repository validator
+access service config SimpleName MethodInvocation SimpleName get access service name
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName access service config
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get access service out topic
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName repository connector
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get repository helper
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName repository connector
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get repository validator
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName access service config
+asset consumer omrs topic listener SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get access service name
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository helper
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository helper
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository validator
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository validator
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+access service config SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+get access service out topic SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository validator
+get repository helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName repository connector
+get repository helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get repository validator
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+get repository helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+get repository helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+repository connector SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+get repository validator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName access service config
+get repository validator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get access service name
+omrs topic listener SimpleName Assignment ClassInstanceCreation SimpleType SimpleName asset consumer omrs topic listener
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName access service config
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get access service out topic
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName repository connector
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get repository helper
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName repository connector
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get repository validator
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName access service config
+omrs topic listener SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get access service name
+omrs topic connector SimpleName MethodInvocation SimpleName register listener
+omrs topic connector SimpleName MethodInvocation SimpleName omrs topic listener
+register listener SimpleName MethodInvocation SimpleName omrs topic listener
+audit log SimpleName FieldAccess Assignment SimpleName audit log
+server user name SimpleName FieldAccess Assignment SimpleName server user name
+audit code SimpleName Assignment QualifiedName asset consumer audit codeservice initialized
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access service configuration properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs topic connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access service configuration properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs topic connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName audit log
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service config
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access service configuration properties
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs topic connector
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName audit log
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server user name
+access service configuration properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+access service configuration properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+access service configuration properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+access service configuration properties SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+access service configuration properties SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+enterprise omrs topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+enterprise omrs topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+enterprise omrs topic connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+enterprise omrs topic connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+enterprise omrs repository connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+enterprise omrs repository connector SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+enterprise omrs repository connector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+audit log SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+audit log SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+server user name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service configuration properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service configuration properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs topic connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise omrs repository connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server user name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag configuration error exception

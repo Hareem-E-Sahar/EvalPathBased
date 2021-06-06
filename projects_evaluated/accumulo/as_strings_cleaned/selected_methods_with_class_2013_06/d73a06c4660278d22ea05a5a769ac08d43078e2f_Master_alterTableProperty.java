@@ -1,0 +1,161 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+table operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+check table id SimpleName MethodInvocation SimpleName table name
+check table id SimpleName MethodInvocation SimpleName op
+table name SimpleName MethodInvocation SimpleName op
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName check table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName op
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName check table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName op
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+security SimpleName MethodInvocation SimpleName can alter table
+security SimpleName MethodInvocation SimpleName c
+security SimpleName MethodInvocation SimpleName table id
+can alter table SimpleName MethodInvocation SimpleName c
+can alter table SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+c SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+table prop util SimpleName MethodInvocation SimpleName remove table property
+table prop util SimpleName MethodInvocation SimpleName table id
+table prop util SimpleName MethodInvocation SimpleName property
+remove table property SimpleName MethodInvocation SimpleName table id
+remove table property SimpleName MethodInvocation SimpleName property
+table id SimpleName MethodInvocation SimpleName property
+table prop util SimpleName MethodInvocation SimpleName set table property
+table prop util SimpleName MethodInvocation SimpleName table id
+table prop util SimpleName MethodInvocation SimpleName property
+table prop util SimpleName MethodInvocation SimpleName value
+set table property SimpleName MethodInvocation SimpleName table id
+set table property SimpleName MethodInvocation SimpleName property
+set table property SimpleName MethodInvocation SimpleName value
+table id SimpleName MethodInvocation SimpleName property
+table id SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid table property
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+check table id SimpleName MethodInvocation SimpleName table name
+check table id SimpleName MethodInvocation SimpleName op
+table name SimpleName MethodInvocation SimpleName op
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral error altering table property
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral error altering table property
+info SimpleName MethodInvocation SimpleName e
+error altering table property StringLiteral MethodInvocation SimpleName e
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName op
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral problem altering table property
+table id SimpleName ClassInstanceCreation SimpleName table name
+table id SimpleName ClassInstanceCreation SimpleName op
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table id SimpleName ClassInstanceCreation StringLiteral problem altering table property
+table name SimpleName ClassInstanceCreation SimpleName op
+table name SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table name SimpleName ClassInstanceCreation StringLiteral problem altering table property
+op SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+op SimpleName ClassInstanceCreation StringLiteral problem altering table property
+table operation exception typeother QualifiedName ClassInstanceCreation StringLiteral problem altering table property
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral problem altering table property
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral problem altering table property
+error SimpleName MethodInvocation SimpleName e
+problem altering table property StringLiteral MethodInvocation SimpleName e
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName op
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral problem altering table property
+table id SimpleName ClassInstanceCreation SimpleName table name
+table id SimpleName ClassInstanceCreation SimpleName op
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table id SimpleName ClassInstanceCreation StringLiteral problem altering table property
+table name SimpleName ClassInstanceCreation SimpleName op
+table name SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table name SimpleName ClassInstanceCreation StringLiteral problem altering table property
+op SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+op SimpleName ClassInstanceCreation StringLiteral problem altering table property
+table operation exception typeother QualifiedName ClassInstanceCreation StringLiteral problem altering table property
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName alter table property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SimpleName alter table property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operation
+alter table property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName alter table property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName alter table property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception

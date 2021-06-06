@@ -1,0 +1,97 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repository name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName combined attribute type def results
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName combined attribute type def results
+attribute type def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName combined attribute type def results
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName user not authorized exception
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName repository error exception
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName another exception
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+combined attribute type def results SimpleName MethodInvocation SimpleName is empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName attribute type def
+combined attribute type def results SimpleName MethodInvocation SimpleName values
+attribute type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName combined attribute type def results
+attribute type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName values
+repository validator SimpleName MethodInvocation SimpleName validate enterprise attribute type defs
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName attribute type defs
+repository validator SimpleName MethodInvocation SimpleName method name
+validate enterprise attribute type defs SimpleName MethodInvocation SimpleName repository name
+validate enterprise attribute type defs SimpleName MethodInvocation SimpleName attribute type defs
+validate enterprise attribute type defs SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName attribute type defs
+repository name SimpleName MethodInvocation SimpleName method name
+attribute type defs SimpleName MethodInvocation SimpleName method name
+throw captured user not authorized exception SimpleName MethodInvocation SimpleName user not authorized exception
+throw captured repository error exception SimpleName MethodInvocation SimpleName repository error exception
+throw captured throwable exception SimpleName MethodInvocation SimpleName another exception
+throw captured throwable exception SimpleName MethodInvocation SimpleName method name
+another exception SimpleName MethodInvocation SimpleName method name
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName attribute type def
+private Modifier MethodDeclaration SimpleName validated attribute type def list results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName combined attribute type def results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user not authorized exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validated attribute type def list results
+attribute type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName validated attribute type def list results
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository name
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName combined attribute type def results
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user not authorized exception
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName repository error exception
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+validated attribute type def list results SimpleName MethodDeclaration SingleVariableDeclaration SimpleName another exception
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName combined attribute type def results
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+combined attribute type def results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+combined attribute type def results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+combined attribute type def results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+combined attribute type def results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+combined attribute type def results SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user not authorized exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+user not authorized exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+user not authorized exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+user not authorized exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+user not authorized exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+repository error exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+repository error exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+repository error exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+another exception SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+another exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+another exception SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+repository error exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName validated attribute type def list results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName combined attribute type def results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validated attribute type def list results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName combined attribute type def results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName another exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

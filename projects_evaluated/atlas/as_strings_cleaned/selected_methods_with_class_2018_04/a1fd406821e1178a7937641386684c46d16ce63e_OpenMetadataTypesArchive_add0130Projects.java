@@ -1,0 +1,34 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get project entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project hierarchy relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get project hierarchy relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project dependency relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get project dependency relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project team relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get project team relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project resources relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get project resources relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get project scope relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get project scope relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get task classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get task classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get campaign classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get campaign classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add projects
+void PrimitiveType MethodDeclaration SimpleName add projects
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add projects
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add projects

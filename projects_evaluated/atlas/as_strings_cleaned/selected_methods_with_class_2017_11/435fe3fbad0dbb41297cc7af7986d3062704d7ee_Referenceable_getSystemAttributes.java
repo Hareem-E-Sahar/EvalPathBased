@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas system attributes
+public Modifier MethodDeclaration SimpleName get system attributes
+public Modifier MethodDeclaration Block ReturnStatement SimpleName system attributes
+atlas system attributes SimpleName SimpleType MethodDeclaration SimpleName get system attributes
+get system attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName system attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas system attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleName get system attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas system attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get system attributes

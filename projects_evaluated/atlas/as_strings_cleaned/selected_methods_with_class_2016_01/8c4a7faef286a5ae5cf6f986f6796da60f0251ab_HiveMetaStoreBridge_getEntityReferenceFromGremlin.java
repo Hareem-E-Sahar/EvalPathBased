@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName gremlin query
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas client
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+client SimpleName MethodInvocation SimpleName search by gremlin
+client SimpleName MethodInvocation SimpleName gremlin query
+search by gremlin SimpleName MethodInvocation SimpleName gremlin query
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by gremlin
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName gremlin query
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+results SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+results SimpleName MethodInvocation SimpleName get json object
+results SimpleName MethodInvocation NumberLiteral empty
+get json object SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation SimpleName get string
+get json object SimpleName MethodInvocation MethodInvocation SimpleName get string
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get string
+results SimpleName MethodInvocation MethodInvocation SimpleName search entry guid attr
+get json object SimpleName MethodInvocation MethodInvocation SimpleName search entry guid attr
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName search entry guid attr
+get string SimpleName MethodInvocation SimpleName search entry guid attr
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName results
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get json object
+guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName search entry guid attr
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName guid
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName type name
+guid SimpleName ClassInstanceCreation SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get entity reference from gremlin
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get entity reference from gremlin
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+get entity reference from gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference from gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get entity reference from gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity reference from gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+get entity reference from gremlin SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+get entity reference from gremlin SimpleName MethodDeclaration SimpleType SimpleName json exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+gremlin query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+gremlin query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity reference from gremlin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity reference from gremlin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

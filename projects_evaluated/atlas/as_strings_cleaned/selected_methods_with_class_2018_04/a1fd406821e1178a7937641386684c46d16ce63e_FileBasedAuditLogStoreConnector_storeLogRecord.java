@@ -1,0 +1,35 @@
+omrs audit log record SimpleName SimpleType SingleVariableDeclaration SimpleName log record
+log SimpleName MethodInvocation SimpleName is debug enabled
+log record SimpleName MethodInvocation SimpleName to string
+audit log record StringLiteral InfixExpression MethodInvocation SimpleName log record
+audit log record StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral audit log record
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName log record
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral audit log record
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName log record
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName store log record
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName log record
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+string SimpleName SimpleType MethodDeclaration SimpleName store log record
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName log record
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+store log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record
+store log record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log record
+store log record SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+log record SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName store log record
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log record
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName store log record
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log record
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception

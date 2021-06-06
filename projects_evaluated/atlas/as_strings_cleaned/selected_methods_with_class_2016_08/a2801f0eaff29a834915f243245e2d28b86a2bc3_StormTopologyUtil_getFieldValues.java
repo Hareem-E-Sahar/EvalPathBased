@@ -1,0 +1,382 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+boolean PrimitiveType SingleVariableDeclaration SimpleName prepend class name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName objects to skip
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName objects to skip
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+objects to skip SimpleName MethodInvocation SimpleName add
+objects to skip SimpleName MethodInvocation SimpleName instance
+add SimpleName MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation SimpleName get class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+class SimpleName SimpleType ParameterizedType WildcardType ?
+c SimpleName VariableDeclarationFragment SimpleName clazz
+? WildcardType ParameterizedType VariableDeclarationExpression VariableDeclarationFragment SimpleName c
+? WildcardType ParameterizedType VariableDeclarationExpression VariableDeclarationFragment SimpleName clazz
+c SimpleName MethodInvocation SimpleName get superclass
+c SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName Assignment MethodInvocation SimpleName get superclass
+c SimpleName MethodInvocation SimpleName get declared fields
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName get declared fields
+field SimpleName SimpleType SingleVariableDeclaration SimpleName field
+field SimpleName MethodInvocation SimpleName get modifiers
+javalangreflectmodifier QualifiedName MethodInvocation SimpleName is static
+javalangreflectmodifier QualifiedName MethodInvocation MethodInvocation SimpleName field
+javalangreflectmodifier QualifiedName MethodInvocation MethodInvocation SimpleName get modifiers
+is static SimpleName MethodInvocation MethodInvocation SimpleName field
+is static SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+clazz SimpleName MethodInvocation SimpleName get simple name
+field SimpleName MethodInvocation SimpleName get name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation MethodInvocation SimpleName clazz
+string SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+string SimpleName MethodInvocation MethodInvocation SimpleName field
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation MethodInvocation SimpleName clazz
+format SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+format SimpleName MethodInvocation MethodInvocation SimpleName field
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+ss StringLiteral MethodInvocation MethodInvocation SimpleName clazz
+ss StringLiteral MethodInvocation MethodInvocation SimpleName get simple name
+ss StringLiteral MethodInvocation MethodInvocation SimpleName field
+ss StringLiteral MethodInvocation MethodInvocation SimpleName get name
+clazz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName field
+clazz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName field
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+key SimpleName Assignment MethodInvocation SimpleName string
+key SimpleName Assignment MethodInvocation SimpleName format
+key SimpleName Assignment MethodInvocation StringLiteral ss
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName clazz
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName get simple name
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName field
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name
+field SimpleName MethodInvocation SimpleName get name
+key SimpleName Assignment MethodInvocation SimpleName field
+key SimpleName Assignment MethodInvocation SimpleName get name
+field SimpleName MethodInvocation SimpleName is accessible
+accessible SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+accessible SimpleName VariableDeclarationFragment MethodInvocation SimpleName is accessible
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName accessible
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName field
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is accessible
+field SimpleName MethodInvocation SimpleName set accessible
+field SimpleName MethodInvocation BooleanLiteral true
+set accessible SimpleName MethodInvocation BooleanLiteral true
+field SimpleName MethodInvocation SimpleName get
+field SimpleName MethodInvocation SimpleName instance
+get SimpleName MethodInvocation SimpleName instance
+field val SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+field val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+field val SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName field val
+field val SimpleName MethodInvocation SimpleName get class
+field val SimpleName MethodInvocation MethodInvocation SimpleName is primitive
+get class SimpleName MethodInvocation MethodInvocation SimpleName is primitive
+field val SimpleName MethodInvocation SimpleName get class
+is wrapper type SimpleName MethodInvocation MethodInvocation SimpleName field val
+is wrapper type SimpleName MethodInvocation MethodInvocation SimpleName get class
+is primitive SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is wrapper type
+to string SimpleName MethodInvocation SimpleName field val
+to string SimpleName MethodInvocation BooleanLiteral false
+field val SimpleName MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation MethodInvocation SimpleName is empty
+field val SimpleName MethodInvocation MethodInvocation SimpleName is empty
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName is empty
+to string SimpleName MethodInvocation SimpleName field val
+to string SimpleName MethodInvocation BooleanLiteral false
+field val SimpleName MethodInvocation BooleanLiteral false
+output SimpleName MethodInvocation SimpleName put
+output SimpleName MethodInvocation SimpleName key
+output SimpleName MethodInvocation MethodInvocation SimpleName to string
+output SimpleName MethodInvocation MethodInvocation SimpleName field val
+output SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName field val
+put SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+key SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation MethodInvocation SimpleName field val
+key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+field val SimpleName MethodInvocation SimpleName get class
+is map type SimpleName MethodInvocation MethodInvocation SimpleName field val
+is map type SimpleName MethodInvocation MethodInvocation SimpleName get class
+map SimpleName SimpleType CastExpression SimpleName field val
+map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+map SimpleName VariableDeclarationFragment CastExpression SimpleName field val
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+object SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+map SimpleName MethodInvocation SimpleName entry set
+mapentry QualifiedName SimpleType CastExpression SimpleName entry
+entry SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key
+map key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map key
+mapentry QualifiedName SimpleType CastExpression SimpleName entry
+entry SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value
+map val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map val
+get string SimpleName MethodInvocation SimpleName map key
+get string SimpleName MethodInvocation BooleanLiteral false
+get string SimpleName MethodInvocation SimpleName objects to skip
+map key SimpleName MethodInvocation BooleanLiteral false
+map key SimpleName MethodInvocation SimpleName objects to skip
+false BooleanLiteral MethodInvocation SimpleName objects to skip
+key str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+key str SimpleName VariableDeclarationFragment MethodInvocation SimpleName map key
+key str SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+key str SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects to skip
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key str
+get string SimpleName MethodInvocation SimpleName map val
+get string SimpleName MethodInvocation BooleanLiteral false
+get string SimpleName MethodInvocation SimpleName objects to skip
+map val SimpleName MethodInvocation BooleanLiteral false
+map val SimpleName MethodInvocation SimpleName objects to skip
+false BooleanLiteral MethodInvocation SimpleName objects to skip
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName map val
+val str SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+val str SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects to skip
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val str
+val str SimpleName MethodInvocation SimpleName is empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation SimpleName key
+string SimpleName MethodInvocation SimpleName key str
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation SimpleName key
+format SimpleName MethodInvocation SimpleName key str
+ss StringLiteral MethodInvocation SimpleName key
+ss StringLiteral MethodInvocation SimpleName key str
+key SimpleName MethodInvocation SimpleName key str
+output SimpleName MethodInvocation SimpleName put
+output SimpleName MethodInvocation MethodInvocation SimpleName string
+output SimpleName MethodInvocation MethodInvocation SimpleName format
+output SimpleName MethodInvocation MethodInvocation StringLiteral ss
+output SimpleName MethodInvocation MethodInvocation SimpleName key
+output SimpleName MethodInvocation MethodInvocation SimpleName key str
+output SimpleName MethodInvocation SimpleName val str
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral ss
+put SimpleName MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName key str
+put SimpleName MethodInvocation SimpleName val str
+string SimpleName MethodInvocation MethodInvocation SimpleName val str
+format SimpleName MethodInvocation MethodInvocation SimpleName val str
+ss StringLiteral MethodInvocation MethodInvocation SimpleName val str
+key SimpleName MethodInvocation MethodInvocation SimpleName val str
+key str SimpleName MethodInvocation MethodInvocation SimpleName val str
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+field val SimpleName MethodInvocation SimpleName get class
+is collection type SimpleName MethodInvocation MethodInvocation SimpleName field val
+is collection type SimpleName MethodInvocation MethodInvocation SimpleName get class
+collection SimpleName SimpleType CastExpression SimpleName field val
+collection SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName collection
+collection SimpleName VariableDeclarationFragment CastExpression SimpleName field val
+collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName collection
+collection SimpleName MethodInvocation SimpleName size
+collection SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+get string SimpleName MethodInvocation SimpleName o
+get string SimpleName MethodInvocation BooleanLiteral false
+get string SimpleName MethodInvocation SimpleName objects to skip
+o SimpleName MethodInvocation BooleanLiteral false
+o SimpleName MethodInvocation SimpleName objects to skip
+false BooleanLiteral MethodInvocation SimpleName objects to skip
+get string SimpleName MethodInvocation InfixExpression StringLiteral empty
+o SimpleName MethodInvocation InfixExpression StringLiteral empty
+false BooleanLiteral MethodInvocation InfixExpression StringLiteral empty
+objects to skip SimpleName MethodInvocation InfixExpression StringLiteral empty
+out str SimpleName Assignment InfixExpression MethodInvocation SimpleName get string
+out str SimpleName Assignment InfixExpression MethodInvocation SimpleName o
+out str SimpleName Assignment InfixExpression MethodInvocation BooleanLiteral false
+out str SimpleName Assignment InfixExpression MethodInvocation SimpleName objects to skip
+out str SimpleName Assignment InfixExpression StringLiteral empty
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName collection
+o SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName collection
+out str SimpleName MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName MethodInvocation SimpleName substring
+out str SimpleName MethodInvocation NumberLiteral empty
+out str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName out str
+out str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+out str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName out str
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName out str
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+out str SimpleName Assignment MethodInvocation SimpleName out str
+out str SimpleName Assignment MethodInvocation SimpleName substring
+out str SimpleName Assignment MethodInvocation NumberLiteral empty
+out str SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s
+string SimpleName MethodInvocation SimpleName out str
+format SimpleName MethodInvocation StringLiteral s
+format SimpleName MethodInvocation SimpleName out str
+s StringLiteral MethodInvocation SimpleName out str
+output SimpleName MethodInvocation SimpleName put
+output SimpleName MethodInvocation SimpleName key
+output SimpleName MethodInvocation MethodInvocation SimpleName string
+output SimpleName MethodInvocation MethodInvocation SimpleName format
+output SimpleName MethodInvocation MethodInvocation StringLiteral s
+output SimpleName MethodInvocation MethodInvocation SimpleName out str
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral s
+put SimpleName MethodInvocation MethodInvocation SimpleName out str
+key SimpleName MethodInvocation MethodInvocation SimpleName string
+key SimpleName MethodInvocation MethodInvocation SimpleName format
+key SimpleName MethodInvocation MethodInvocation StringLiteral s
+key SimpleName MethodInvocation MethodInvocation SimpleName out str
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get field values SimpleName MethodInvocation SimpleName field val
+get field values SimpleName MethodInvocation BooleanLiteral false
+get field values SimpleName MethodInvocation SimpleName objects to skip
+field val SimpleName MethodInvocation BooleanLiteral false
+field val SimpleName MethodInvocation SimpleName objects to skip
+false BooleanLiteral MethodInvocation SimpleName objects to skip
+nested field values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get field values
+nested field values SimpleName VariableDeclarationFragment MethodInvocation SimpleName field val
+nested field values SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+nested field values SimpleName VariableDeclarationFragment MethodInvocation SimpleName objects to skip
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+nested field values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ss
+string SimpleName MethodInvocation SimpleName key
+string SimpleName MethodInvocation MethodInvocation SimpleName entry
+string SimpleName MethodInvocation MethodInvocation SimpleName get key
+format SimpleName MethodInvocation StringLiteral ss
+format SimpleName MethodInvocation SimpleName key
+format SimpleName MethodInvocation MethodInvocation SimpleName entry
+format SimpleName MethodInvocation MethodInvocation SimpleName get key
+ss StringLiteral MethodInvocation SimpleName key
+ss StringLiteral MethodInvocation MethodInvocation SimpleName entry
+ss StringLiteral MethodInvocation MethodInvocation SimpleName get key
+key SimpleName MethodInvocation MethodInvocation SimpleName entry
+key SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+output SimpleName MethodInvocation SimpleName put
+output SimpleName MethodInvocation MethodInvocation SimpleName string
+output SimpleName MethodInvocation MethodInvocation SimpleName format
+output SimpleName MethodInvocation MethodInvocation StringLiteral ss
+output SimpleName MethodInvocation MethodInvocation SimpleName key
+output SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+output SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+output SimpleName MethodInvocation MethodInvocation SimpleName entry
+output SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName string
+put SimpleName MethodInvocation MethodInvocation SimpleName format
+put SimpleName MethodInvocation MethodInvocation StringLiteral ss
+put SimpleName MethodInvocation MethodInvocation SimpleName key
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+ss StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName nested field values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+field SimpleName MethodInvocation SimpleName set accessible
+field SimpleName MethodInvocation BooleanLiteral false
+set accessible SimpleName MethodInvocation BooleanLiteral false
+prepend class name SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+field SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fields
+field SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fields
+fields SimpleName EnhancedForStatement Block IfStatement SimpleName prepend class name
+fields SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+c SimpleName InfixExpression ForStatement Assignment SimpleName c
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get field values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get field values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get field values
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get field values
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get field values
+get field values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get field values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get field values SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get field values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+get field values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+get field values SimpleName MethodDeclaration SimpleType SimpleName illegal access exception
+get field values SimpleName MethodDeclaration Block ReturnStatement SimpleName output
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+prepend class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+prepend class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+objects to skip SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prepend class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects to skip
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception

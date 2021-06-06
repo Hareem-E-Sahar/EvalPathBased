@@ -1,0 +1,65 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName reserved
+reserved SimpleName FieldAccess Assignment SimpleName reserved
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+io thread name SimpleName Assignment MethodInvocation MethodInvocation SimpleName thread
+io thread name SimpleName Assignment MethodInvocation MethodInvocation SimpleName current thread
+io thread name SimpleName Assignment MethodInvocation SimpleName get name
+io count SimpleName Assignment NumberLiteral empty
+last io count SimpleName Assignment PrefixExpression NumberLiteral empty
+io count SimpleName InfixExpression NumberLiteral empty
+io count SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+connection returned to thrift connection pool that may still be in use StringLiteral InfixExpression SimpleName io thread name
+connection returned to thrift connection pool that may still be in use StringLiteral InfixExpression StringLiteral empty
+connection returned to thrift connection pool that may still be in use StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+connection returned to thrift connection pool that may still be in use StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+connection returned to thrift connection pool that may still be in use StringLiteral InfixExpression MethodInvocation SimpleName get name
+io thread name SimpleName InfixExpression StringLiteral empty
+io thread name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName thread
+io thread name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+io thread name SimpleName InfixExpression MethodInvocation SimpleName get name
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+empty StringLiteral InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral connection returned to thrift connection pool that may still be in use
+log SimpleName MethodInvocation InfixExpression SimpleName io thread name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+warn SimpleName MethodInvocation InfixExpression StringLiteral connection returned to thrift connection pool that may still be in use
+warn SimpleName MethodInvocation InfixExpression SimpleName io thread name
+warn SimpleName MethodInvocation InfixExpression StringLiteral empty
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+warn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+io count SimpleName Assignment NumberLiteral empty
+last io count SimpleName Assignment PrefixExpression NumberLiteral empty
+check for stuck io SimpleName MethodInvocation SimpleName stuck threshold
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName set reserved
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName reserved
+final Modifier MethodDeclaration Block IfStatement SimpleName reserved
+void PrimitiveType MethodDeclaration SimpleName set reserved
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reserved
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName reserved
+set reserved SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set reserved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reserved
+set reserved SimpleName MethodDeclaration Block IfStatement SimpleName reserved
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set reserved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reserved
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set reserved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reserved

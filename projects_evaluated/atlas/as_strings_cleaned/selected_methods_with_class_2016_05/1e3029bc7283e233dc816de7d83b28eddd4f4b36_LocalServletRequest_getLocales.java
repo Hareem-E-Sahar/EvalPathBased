@@ -1,0 +1,16 @@
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName locale
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get locales
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enumeration
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName locale
+public Modifier MethodDeclaration SimpleName get locales
+enumeration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locales
+locale SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locales
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locales
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locales

@@ -1,0 +1,22 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unnamed option descriptions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unnamed option descriptions
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName unnamed option descriptions
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName unnamed option descriptions
+unnamed option descriptions SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName unnamed option descriptions
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set unnamed option descriptions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unnamed option descriptions
+void PrimitiveType MethodDeclaration SimpleName set unnamed option descriptions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unnamed option descriptions
+set unnamed option descriptions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unnamed option descriptions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set unnamed option descriptions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unnamed option descriptions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set unnamed option descriptions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unnamed option descriptions

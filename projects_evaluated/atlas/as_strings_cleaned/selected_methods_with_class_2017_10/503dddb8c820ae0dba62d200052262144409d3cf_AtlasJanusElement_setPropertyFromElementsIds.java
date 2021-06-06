@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas element
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+atlas element SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+values SimpleName MethodInvocation SimpleName size
+property value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName values
+property value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get id
+value SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+property value SimpleName MethodInvocation SimpleName add
+property value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+property value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+property value SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas element SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName values
+set property SimpleName MethodInvocation SimpleName property name
+set property SimpleName MethodInvocation SimpleName property value
+property name SimpleName MethodInvocation SimpleName property value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set property from elements ids
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName property name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set property from elements ids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName values
+void PrimitiveType MethodDeclaration SimpleName set property from elements ids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName values
+set property from elements ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property from elements ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+set property from elements ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+set property from elements ids SimpleName MethodDeclaration Block EnhancedForStatement SimpleName values
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set property from elements ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set property from elements ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

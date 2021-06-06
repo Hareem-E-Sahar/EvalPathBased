@@ -1,0 +1,53 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+types SimpleName MethodInvocation SimpleName get
+types SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName MethodInvocation SimpleName get type category
+type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName data type
+type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+final Modifier VariableDeclarationStatement SimpleType QualifiedName data typestype category
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName type category
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type category
+data typestype category QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type category
+type categories to type names map SimpleName MethodInvocation SimpleName get
+type categories to type names map SimpleName MethodInvocation SimpleName type category
+get SimpleName MethodInvocation SimpleName type category
+type categories to type names map SimpleName MethodInvocation MethodInvocation SimpleName remove
+get SimpleName MethodInvocation MethodInvocation SimpleName remove
+type category SimpleName MethodInvocation MethodInvocation SimpleName remove
+type categories to type names map SimpleName MethodInvocation MethodInvocation SimpleName type name
+get SimpleName MethodInvocation MethodInvocation SimpleName type name
+type category SimpleName MethodInvocation MethodInvocation SimpleName type name
+remove SimpleName MethodInvocation SimpleName type name
+types SimpleName MethodInvocation SimpleName remove
+types SimpleName MethodInvocation SimpleName type name
+remove SimpleName MethodInvocation SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type names
+type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type names
+type names SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName type names
+void PrimitiveType MethodDeclaration SimpleName remove types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type names
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName type names
+remove types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type names
+remove types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName type names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names

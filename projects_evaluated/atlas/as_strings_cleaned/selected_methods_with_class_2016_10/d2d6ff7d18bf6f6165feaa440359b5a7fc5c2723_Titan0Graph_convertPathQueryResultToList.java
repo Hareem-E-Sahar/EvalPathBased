@@ -1,0 +1,21 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType SingleVariableDeclaration SimpleName raw value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName raw value
+object SimpleName SimpleType ParameterizedType CastExpression SimpleName raw value
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName convert path query result to list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName raw value
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert path query result to list
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName convert path query result to list
+convert path query result to list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+convert path query result to list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName raw value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert path query result to list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert path query result to list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw value

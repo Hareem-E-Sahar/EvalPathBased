@@ -1,0 +1,89 @@
+rpc wrapper SimpleName MethodInvocation SimpleName service
+rpc wrapper SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thrift client handler
+service SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName thrift client handler
+rpc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpc wrapper
+rpc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+iface SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rpc proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName processor
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName iface
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName processor
+thrift server typesasl QualifiedName InfixExpression MethodInvocation SimpleName get thrift server type
+t credentials updating wrapper SimpleName MethodInvocation SimpleName service
+t credentials updating wrapper SimpleName MethodInvocation SimpleName rpc proxy
+t credentials updating wrapper SimpleName MethodInvocation TypeLiteral SimpleType SimpleName thrift client handler
+service SimpleName MethodInvocation SimpleName rpc proxy
+service SimpleName MethodInvocation TypeLiteral SimpleType SimpleName thrift client handler
+rpc proxy SimpleName MethodInvocation TypeLiteral SimpleType SimpleName thrift client handler
+tcred proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName t credentials updating wrapper
+tcred proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+tcred proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpc proxy
+iface SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tcred proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+processor SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName tcred proxy
+iface SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName tcred proxy
+processor SimpleName Assignment ClassInstanceCreation SimpleName tcred proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+processor SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rpc proxy
+iface SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rpc proxy
+processor SimpleName Assignment ClassInstanceCreation SimpleName rpc proxy
+get server configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+client address SimpleName MethodInvocation SimpleName get host text
+start server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server configuration factory
+start server SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+start server SimpleName MethodInvocation MethodInvocation SimpleName client address
+start server SimpleName MethodInvocation MethodInvocation SimpleName get host text
+start server SimpleName MethodInvocation QualifiedName propertytserv clientport
+start server SimpleName MethodInvocation SimpleName processor
+start server SimpleName MethodInvocation StringLiteral thrift client server
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName client address
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host text
+get server configuration factory SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+get server configuration factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName processor
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName processor
+get server configuration factory SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral thrift client server
+get configuration SimpleName MethodInvocation MethodInvocation StringLiteral thrift client server
+client address SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+get host text SimpleName MethodInvocation MethodInvocation QualifiedName propertytserv clientport
+client address SimpleName MethodInvocation MethodInvocation SimpleName processor
+get host text SimpleName MethodInvocation MethodInvocation SimpleName processor
+client address SimpleName MethodInvocation MethodInvocation StringLiteral thrift client server
+get host text SimpleName MethodInvocation MethodInvocation StringLiteral thrift client server
+propertytserv clientport QualifiedName MethodInvocation SimpleName processor
+propertytserv clientport QualifiedName MethodInvocation StringLiteral thrift client server
+processor SimpleName MethodInvocation StringLiteral thrift client server
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName start server
+address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName client address
+address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get host text
+address SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytserv clientport
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName processor
+address SimpleName VariableDeclarationFragment MethodInvocation StringLiteral thrift client server
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+address = StringLiteral InfixExpression SimpleName address
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral address =
+log SimpleName MethodInvocation InfixExpression SimpleName address
+info SimpleName MethodInvocation InfixExpression StringLiteral address =
+info SimpleName MethodInvocation InfixExpression SimpleName address
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName address
+private Modifier MethodDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SimpleName start tablet client service
+private Modifier MethodDeclaration SimpleType SimpleName unknown host exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName address
+host and port SimpleName SimpleType MethodDeclaration SimpleName start tablet client service
+host and port SimpleName SimpleType MethodDeclaration SimpleType SimpleName unknown host exception
+start tablet client service SimpleName MethodDeclaration SimpleType SimpleName unknown host exception
+start tablet client service SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+start tablet client service SimpleName MethodDeclaration Block ReturnStatement SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+public Modifier TypeDeclaration MethodDeclaration SimpleName start tablet client service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start tablet client service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception

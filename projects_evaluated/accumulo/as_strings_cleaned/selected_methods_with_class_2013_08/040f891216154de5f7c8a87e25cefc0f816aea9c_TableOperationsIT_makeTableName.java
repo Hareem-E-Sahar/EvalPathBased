@@ -1,0 +1,9 @@
+table counter SimpleName MethodInvocation SimpleName get and increment
+table StringLiteral InfixExpression MethodInvocation SimpleName table counter
+table StringLiteral InfixExpression MethodInvocation SimpleName get and increment
+string SimpleName SimpleType MethodDeclaration SimpleName make table name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName make table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make table name

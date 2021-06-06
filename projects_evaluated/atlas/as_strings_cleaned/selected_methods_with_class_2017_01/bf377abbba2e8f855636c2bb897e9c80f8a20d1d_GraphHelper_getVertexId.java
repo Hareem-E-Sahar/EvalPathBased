@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+get vertex for guid SimpleName MethodInvocation SimpleName guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+instance vertex SimpleName MethodInvocation SimpleName get id
+instance vertex id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+instance vertex id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex id
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get vertex id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName instance vertex id
+object SimpleName SimpleType MethodDeclaration SimpleName get vertex id
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName entity not found exception
+get vertex id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get vertex id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get vertex id SimpleName MethodDeclaration SimpleType SimpleName entity not found exception
+get vertex id SimpleName MethodDeclaration Block ReturnStatement SimpleName instance vertex id
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get vertex id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get vertex id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity not found exception

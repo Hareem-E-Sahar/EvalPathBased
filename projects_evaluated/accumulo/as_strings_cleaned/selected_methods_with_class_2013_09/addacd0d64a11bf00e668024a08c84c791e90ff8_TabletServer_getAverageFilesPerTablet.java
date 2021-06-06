@@ -1,0 +1,46 @@
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet SimpleName SimpleType SingleVariableDeclaration SimpleName tablet
+online tablets SimpleName MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName unmodifiable collection
+collections SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+collections SimpleName MethodInvocation MethodInvocation SimpleName values
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName online tablets
+unmodifiable collection SimpleName MethodInvocation MethodInvocation SimpleName values
+tablet SimpleName MethodInvocation SimpleName get datafiles
+tablet SimpleName MethodInvocation MethodInvocation SimpleName size
+get datafiles SimpleName MethodInvocation MethodInvocation SimpleName size
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName tablet
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName get datafiles
+result SimpleName Assignment MethodInvocation SimpleName size
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName collections
+tablet SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName unmodifiable collection
+count SimpleName InfixExpression NumberLiteral empty
+count SimpleName InfixExpression IfStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement NumberLiteral empty
+double PrimitiveType CastExpression SimpleName count
+result SimpleName InfixExpression CastExpression PrimitiveType double
+result SimpleName InfixExpression CastExpression SimpleName count
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType double
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get average files per tablet
+public Modifier MethodDeclaration PrimitiveType double
+public Modifier MethodDeclaration SimpleName get average files per tablet
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+double PrimitiveType MethodDeclaration SimpleName get average files per tablet
+double PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+get average files per tablet SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName get average files per tablet
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get average files per tablet

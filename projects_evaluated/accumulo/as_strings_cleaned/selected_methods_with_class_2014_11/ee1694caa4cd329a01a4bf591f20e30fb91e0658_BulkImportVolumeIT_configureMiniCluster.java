@@ -1,0 +1,109 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName MethodInvocation SimpleName get dir
+base dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName cfg
+base dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral volumes
+base dir SimpleName ClassInstanceCreation StringLiteral volumes
+vol dir base SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+vol dir base SimpleName Assignment ClassInstanceCreation SimpleName base dir
+vol dir base SimpleName Assignment ClassInstanceCreation StringLiteral volumes
+file SimpleName SimpleType ClassInstanceCreation SimpleName vol dir base
+file SimpleName SimpleType ClassInstanceCreation StringLiteral v
+vol dir base SimpleName ClassInstanceCreation StringLiteral v
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vol dir base
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral v
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v f
+file SimpleName SimpleType ClassInstanceCreation SimpleName vol dir base
+file SimpleName SimpleType ClassInstanceCreation StringLiteral v
+vol dir base SimpleName ClassInstanceCreation StringLiteral v
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vol dir base
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral v
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v f
+v f SimpleName MethodInvocation SimpleName mkdir
+v f SimpleName MethodInvocation SimpleName mkdir
+v f SimpleName MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression MethodInvocation SimpleName v f
+file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file
+v SimpleName Assignment ClassInstanceCreation SimpleType SimpleName path
+v SimpleName Assignment ClassInstanceCreation InfixExpression StringLiteral file
+v f SimpleName MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression MethodInvocation SimpleName v f
+file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file
+v SimpleName Assignment ClassInstanceCreation SimpleType SimpleName path
+v SimpleName Assignment ClassInstanceCreation InfixExpression StringLiteral file
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyinstance volumes
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+cfg SimpleName MethodInvocation InfixExpression StringLiteral empty
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+cfg SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation QualifiedName propertyinstance volumes
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation InfixExpression StringLiteral empty
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral empty
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName v
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+raw local file system SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+hadoop core site SimpleName MethodInvocation SimpleName set
+hadoop core site SimpleName MethodInvocation StringLiteral fsfileimpl
+hadoop core site SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral fsfileimpl
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+fsfileimpl StringLiteral MethodInvocation MethodInvocation SimpleName get name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure mini cluster
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cfg
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure mini cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+void PrimitiveType MethodDeclaration SimpleName configure mini cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure mini cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure mini cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site

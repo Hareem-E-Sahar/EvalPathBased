@@ -1,0 +1,152 @@
+host and port SimpleName SimpleType SingleVariableDeclaration SimpleName address
+t processor SimpleName SimpleType SingleVariableDeclaration SimpleName processor
+long PrimitiveType SingleVariableDeclaration SimpleName socket timeout
+ssl connection params SimpleName SimpleType SingleVariableDeclaration SimpleName ssl params
+t server socket SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transport
+address SimpleName MethodInvocation SimpleName get port
+int PrimitiveType CastExpression SimpleName socket timeout
+address SimpleName MethodInvocation SimpleName get host text
+inet address SimpleName MethodInvocation SimpleName get by name
+inet address SimpleName MethodInvocation MethodInvocation SimpleName address
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host text
+get by name SimpleName MethodInvocation MethodInvocation SimpleName address
+get by name SimpleName MethodInvocation MethodInvocation SimpleName get host text
+get ssl server socket SimpleName MethodInvocation MethodInvocation SimpleName address
+get ssl server socket SimpleName MethodInvocation MethodInvocation SimpleName get port
+get ssl server socket SimpleName MethodInvocation CastExpression PrimitiveType int
+get ssl server socket SimpleName MethodInvocation CastExpression SimpleName socket timeout
+get ssl server socket SimpleName MethodInvocation MethodInvocation SimpleName inet address
+get ssl server socket SimpleName MethodInvocation MethodInvocation SimpleName get by name
+get ssl server socket SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName address
+get ssl server socket SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host text
+get ssl server socket SimpleName MethodInvocation SimpleName ssl params
+address SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+address SimpleName MethodInvocation MethodInvocation CastExpression SimpleName socket timeout
+get port SimpleName MethodInvocation MethodInvocation CastExpression PrimitiveType int
+get port SimpleName MethodInvocation MethodInvocation CastExpression SimpleName socket timeout
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName inet address
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get by name
+get port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName inet address
+get port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get by name
+address SimpleName MethodInvocation MethodInvocation SimpleName ssl params
+get port SimpleName MethodInvocation MethodInvocation SimpleName ssl params
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName inet address
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get by name
+socket timeout SimpleName CastExpression MethodInvocation MethodInvocation SimpleName inet address
+socket timeout SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get by name
+int PrimitiveType CastExpression MethodInvocation SimpleName ssl params
+socket timeout SimpleName CastExpression MethodInvocation SimpleName ssl params
+inet address SimpleName MethodInvocation MethodInvocation SimpleName ssl params
+get by name SimpleName MethodInvocation MethodInvocation SimpleName ssl params
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssl params
+get host text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ssl params
+transport SimpleName Assignment MethodInvocation SimpleName get ssl server socket
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName address
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName get port
+transport SimpleName Assignment MethodInvocation CastExpression PrimitiveType int
+transport SimpleName Assignment MethodInvocation CastExpression SimpleName socket timeout
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName inet address
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName get by name
+transport SimpleName Assignment MethodInvocation SimpleName ssl params
+unknown host exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+t transport exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+address SimpleName MethodInvocation SimpleName get port
+address SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get port SimpleName MethodInvocation InfixExpression NumberLiteral empty
+address SimpleName MethodInvocation SimpleName get host text
+transport SimpleName MethodInvocation SimpleName get server socket
+transport SimpleName MethodInvocation MethodInvocation SimpleName get local port
+get server socket SimpleName MethodInvocation MethodInvocation SimpleName get local port
+host and port SimpleName MethodInvocation SimpleName from parts
+host and port SimpleName MethodInvocation MethodInvocation SimpleName address
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get host text
+host and port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+host and port SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server socket
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get local port
+from parts SimpleName MethodInvocation MethodInvocation SimpleName address
+from parts SimpleName MethodInvocation MethodInvocation SimpleName get host text
+from parts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transport
+from parts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server socket
+from parts SimpleName MethodInvocation MethodInvocation SimpleName get local port
+address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local port
+get host text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local port
+address SimpleName Assignment MethodInvocation SimpleName host and port
+address SimpleName Assignment MethodInvocation SimpleName from parts
+address SimpleName Assignment MethodInvocation MethodInvocation SimpleName address
+address SimpleName Assignment MethodInvocation MethodInvocation SimpleName get host text
+address SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local port
+create thread pool server SimpleName MethodInvocation SimpleName transport
+create thread pool server SimpleName MethodInvocation SimpleName processor
+transport SimpleName MethodInvocation SimpleName processor
+server address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create thread pool server
+server address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName transport
+server address SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName processor
+server address SimpleName SimpleType ClassInstanceCreation SimpleName address
+create thread pool server SimpleName MethodInvocation ClassInstanceCreation SimpleName address
+transport SimpleName MethodInvocation ClassInstanceCreation SimpleName address
+processor SimpleName MethodInvocation ClassInstanceCreation SimpleName address
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName server address
+public Modifier MethodDeclaration SimpleName create ssl thread pool server
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t processor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName processor
+static Modifier MethodDeclaration SimpleType SimpleName server address
+static Modifier MethodDeclaration SimpleName create ssl thread pool server
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t processor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName processor
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+server address SimpleName SimpleType MethodDeclaration SimpleName create ssl thread pool server
+server address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName address
+server address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName processor
+server address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+server address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+server address SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t processor
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName processor
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssl connection params
+create ssl thread pool server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+create ssl thread pool server SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processor
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+address SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+address SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+processor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+processor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+processor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+processor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+socket timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+socket timeout SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+ssl params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName server address
+public Modifier TypeDeclaration MethodDeclaration SimpleName create ssl thread pool server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName server address
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create ssl thread pool server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName processor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName socket timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ssl params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

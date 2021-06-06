@@ -1,0 +1,96 @@
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attrib def
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName attrib type
+attrib def SimpleName MethodInvocation SimpleName get constraint defs
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName attrib def
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get constraint defs
+is empty SimpleName MethodInvocation MethodInvocation SimpleName attrib def
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get constraint defs
+attrib def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+attrib def SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+atlas constraint def SimpleName SimpleType SingleVariableDeclaration SimpleName constraint def
+attrib def SimpleName MethodInvocation SimpleName get constraint defs
+constraint def SimpleName MethodInvocation SimpleName get type
+constraint def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName constraint def
+constraint def SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type
+constraint type SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName constraint def
+constraint type SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName constraint def
+constraint type SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName constraint type
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation SimpleName constraint type
+is blank SimpleName MethodInvocation SimpleName constraint type
+resolve foreign key constraint SimpleName MethodInvocation SimpleName attrib def
+resolve foreign key constraint SimpleName MethodInvocation SimpleName constraint def
+resolve foreign key constraint SimpleName MethodInvocation SimpleName attrib type
+attrib def SimpleName MethodInvocation SimpleName constraint def
+attrib def SimpleName MethodInvocation SimpleName attrib type
+constraint def SimpleName MethodInvocation SimpleName attrib type
+resolve mapped from ref constraint SimpleName MethodInvocation SimpleName attrib def
+resolve mapped from ref constraint SimpleName MethodInvocation SimpleName constraint def
+resolve mapped from ref constraint SimpleName MethodInvocation SimpleName attrib type
+attrib def SimpleName MethodInvocation SimpleName constraint def
+attrib def SimpleName MethodInvocation SimpleName attrib type
+constraint def SimpleName MethodInvocation SimpleName attrib type
+attrib def SimpleName MethodInvocation SimpleName get name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeunknown constraint
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName constraint type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attrib def
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas error codeunknown constraint QualifiedName ClassInstanceCreation SimpleName constraint type
+atlas error codeunknown constraint QualifiedName ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas error codeunknown constraint QualifiedName ClassInstanceCreation MethodInvocation SimpleName attrib def
+atlas error codeunknown constraint QualifiedName ClassInstanceCreation MethodInvocation SimpleName get name
+constraint type SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+constraint type SimpleName ClassInstanceCreation MethodInvocation SimpleName attrib def
+constraint type SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attrib def
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+constraint type SimpleName SwitchStatement SwitchCase QualifiedName atlas constraint defconstraint type foreign key
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName resolve foreign key constraint
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attrib def
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName constraint def
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attrib type
+constraint type SimpleName SwitchStatement SwitchCase SimpleName constraint type mapped from ref
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName resolve mapped from ref constraint
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attrib def
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName constraint def
+constraint type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName attrib type
+atlas constraint defconstraint type foreign key QualifiedName SwitchCase SwitchStatement SwitchCase SimpleName constraint type mapped from ref
+constraint def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName attrib def
+constraint def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get constraint defs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName resolve constraints
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrib def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve constraints
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrib def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute def
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrib def
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+resolve constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+resolve constraints SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+attrib def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+attrib def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attrib type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve constraints
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve constraints
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,165 @@
+data SimpleName SimpleType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+data SimpleName MethodInvocation SimpleName get operation
+data SimpleName MethodInvocation SimpleName get url
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral sqoop s connect s
+string SimpleName MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation SimpleName get operation
+string SimpleName MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation SimpleName get url
+format SimpleName MethodInvocation StringLiteral sqoop s connect s
+format SimpleName MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation SimpleName get operation
+format SimpleName MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation SimpleName get url
+sqoop s connect s StringLiteral MethodInvocation MethodInvocation SimpleName data
+sqoop s connect s StringLiteral MethodInvocation MethodInvocation SimpleName get operation
+sqoop s connect s StringLiteral MethodInvocation MethodInvocation SimpleName data
+sqoop s connect s StringLiteral MethodInvocation MethodInvocation SimpleName get url
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral sqoop s connect s
+name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+name SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral sqoop s connect s
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+data SimpleName MethodInvocation SimpleName get store table
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName data
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get store table
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName data
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get store table
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+data SimpleName MethodInvocation SimpleName get store table
+name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+table StringLiteral MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+table StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get store table
+append SimpleName MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation SimpleName get store table
+data SimpleName MethodInvocation SimpleName get store query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName data
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get store query
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName data
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get store query
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation StringLiteral query
+append SimpleName MethodInvocation StringLiteral query
+data SimpleName MethodInvocation SimpleName get store query
+name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+query StringLiteral MethodInvocation MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+query StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+query StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get store query
+append SimpleName MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation SimpleName get store query
+data SimpleName MethodInvocation SimpleName get operation
+data SimpleName MethodInvocation SimpleName get hive db
+data SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get hive db SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+data SimpleName MethodInvocation SimpleName get hive table
+data SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get hive table SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral hives hivedatabase s hivetable s hivecluster s
+string SimpleName MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation SimpleName get operation
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive table
+string SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+format SimpleName MethodInvocation StringLiteral hives hivedatabase s hivetable s hivecluster s
+format SimpleName MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation SimpleName get operation
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+format SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hive table
+format SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+format SimpleName MethodInvocation SimpleName cluster name
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation SimpleName data
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation SimpleName get operation
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get hive db
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation SimpleName to lower case
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName data
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get hive table
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation MethodInvocation SimpleName to lower case
+hives hivedatabase s hivetable s hivecluster s StringLiteral MethodInvocation SimpleName cluster name
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get operation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+data SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+get operation SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+get hive db SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+get hive table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster name
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+name SimpleName MethodInvocation SimpleName append
+name SimpleName MethodInvocation MethodInvocation SimpleName string
+name SimpleName MethodInvocation MethodInvocation SimpleName format
+name SimpleName MethodInvocation MethodInvocation StringLiteral hives hivedatabase s hivetable s hivecluster s
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+name SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral hives hivedatabase s hivetable s hivecluster s
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operation
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+append SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+name SimpleName MethodInvocation SimpleName to string
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get sqoop process name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType MethodDeclaration SimpleName get sqoop process name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get sqoop process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data
+get sqoop process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+get sqoop process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get sqoop process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sqoop process name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sqoop process name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name

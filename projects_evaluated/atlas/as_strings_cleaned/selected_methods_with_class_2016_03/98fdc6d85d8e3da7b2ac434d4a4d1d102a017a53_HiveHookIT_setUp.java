@@ -1,0 +1,77 @@
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive conf
+hive conf SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+driver SimpleName SimpleType ClassInstanceCreation SimpleName conf
+driver SimpleName Assignment ClassInstanceCreation SimpleType SimpleName driver
+driver SimpleName Assignment ClassInstanceCreation SimpleName conf
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral username
+get property SimpleName MethodInvocation StringLiteral username
+session state SimpleName SimpleType ClassInstanceCreation SimpleName conf
+session state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+session state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get property
+session state SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral username
+conf SimpleName ClassInstanceCreation MethodInvocation SimpleName system
+conf SimpleName ClassInstanceCreation MethodInvocation SimpleName get property
+conf SimpleName ClassInstanceCreation MethodInvocation StringLiteral username
+ss SimpleName Assignment ClassInstanceCreation SimpleType SimpleName session state
+ss SimpleName Assignment ClassInstanceCreation SimpleName conf
+ss SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName system
+ss SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get property
+ss SimpleName Assignment ClassInstanceCreation MethodInvocation StringLiteral username
+session state SimpleName MethodInvocation SimpleName start
+session state SimpleName MethodInvocation SimpleName ss
+start SimpleName MethodInvocation SimpleName ss
+ss SimpleName Assignment MethodInvocation SimpleName session state
+ss SimpleName Assignment MethodInvocation SimpleName start
+ss SimpleName Assignment MethodInvocation SimpleName ss
+session state SimpleName MethodInvocation SimpleName set current session state
+session state SimpleName MethodInvocation SimpleName ss
+set current session state SimpleName MethodInvocation SimpleName ss
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName conf
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+conf SimpleName ClassInstanceCreation SimpleName configuration
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive meta store bridge
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+hive meta store bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive meta store bridge
+hive meta store bridge SimpleName MethodInvocation SimpleName register hive data model
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+configuration SimpleName MethodInvocation SimpleName dgi url
+get string SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+get string SimpleName MethodInvocation SimpleName dgi url
+hive meta store bridgeatlas endpoint QualifiedName MethodInvocation SimpleName dgi url
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dgi url
+dgi c lient SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+dgi c lient SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName dgi url
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,39 @@
+integer SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName version parts
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName InfixExpression QualifiedName version partslength
+version parts SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression ConditionalExpression ArrayAccess SimpleName version parts
+i SimpleName InfixExpression ConditionalExpression ArrayAccess SimpleName i
+version partslength QualifiedName InfixExpression ConditionalExpression ArrayAccess SimpleName version parts
+version partslength QualifiedName InfixExpression ConditionalExpression ArrayAccess SimpleName i
+i SimpleName InfixExpression ConditionalExpression NumberLiteral empty
+version partslength QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+version parts SimpleName ArrayAccess ConditionalExpression NumberLiteral empty
+i SimpleName ArrayAccess ConditionalExpression NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName integer
+private Modifier MethodDeclaration SimpleName get version part
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName version parts
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+integer SimpleName SimpleType MethodDeclaration SimpleName get version part
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version parts
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName i
+get version part SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version parts
+get version part SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get version part SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+version parts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+version parts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get version part
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version parts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get version part
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version parts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

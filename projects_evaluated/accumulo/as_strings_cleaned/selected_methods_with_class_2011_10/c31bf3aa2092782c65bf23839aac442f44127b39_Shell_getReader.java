@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName console reader
+public Modifier MethodDeclaration SimpleName get reader
+public Modifier MethodDeclaration Block ReturnStatement SimpleName reader
+console reader SimpleName SimpleType MethodDeclaration SimpleName get reader
+get reader SimpleName MethodDeclaration Block ReturnStatement SimpleName reader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName console reader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get reader
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName console reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get reader

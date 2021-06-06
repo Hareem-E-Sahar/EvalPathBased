@@ -1,0 +1,124 @@
+zookeeper properties SimpleName MethodInvocation SimpleName has acl
+when SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+when SimpleName MethodInvocation MethodInvocation SimpleName has acl
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+has acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+has acl SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+zookeeper properties SimpleName MethodInvocation SimpleName get acl
+when SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+when SimpleName MethodInvocation MethodInvocation SimpleName get acl
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral saslmyclientexamplecom
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral saslmyclientexamplecom
+get acl SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral saslmyclientexamplecom
+then return SimpleName MethodInvocation StringLiteral saslmyclientexamplecom
+zookeeper properties SimpleName MethodInvocation SimpleName has auth
+when SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+when SimpleName MethodInvocation MethodInvocation SimpleName has auth
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+has auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has auth SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+then return SimpleName MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize curator framework
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize curator framework
+void PrimitiveType MethodDeclaration SimpleName initialize curator framework
+curator factory SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName initialize curator framework
+curator factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName curator factory
+curator factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+curator factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curator factory
+curator factory SimpleName MethodInvocation SimpleName enhance builder with security parameters
+curator factory SimpleName MethodInvocation SimpleName zookeeper properties
+curator factory SimpleName MethodInvocation SimpleName builder
+enhance builder with security parameters SimpleName MethodInvocation SimpleName zookeeper properties
+enhance builder with security parameters SimpleName MethodInvocation SimpleName builder
+zookeeper properties SimpleName MethodInvocation SimpleName builder
+verify SimpleName MethodInvocation SimpleName builder
+argument matcher SimpleName SimpleType ParameterizedType SimpleType SimpleName acl provider
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+acl provider SimpleName SimpleType CastExpression SimpleName o
+acl provider SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName acl provider
+acl provider SimpleName VariableDeclarationFragment CastExpression SimpleName o
+acl provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acl provider
+acl provider SimpleName MethodInvocation SimpleName get default acl
+acl provider SimpleName MethodInvocation MethodInvocation SimpleName get
+get default acl SimpleName MethodInvocation MethodInvocation SimpleName get
+acl provider SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get default acl SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+acl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName acl provider
+acl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get default acl
+acl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+acl SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+acl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acl
+acl SimpleName MethodInvocation SimpleName get id
+acl SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get id SimpleName MethodInvocation MethodInvocation SimpleName equals
+acl SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral myclientexamplecom
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral myclientexamplecom
+get id SimpleName MethodInvocation MethodInvocation StringLiteral myclientexamplecom
+equals SimpleName MethodInvocation StringLiteral myclientexamplecom
+acl SimpleName MethodInvocation SimpleName get id
+acl SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+get id SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get scheme SimpleName MethodInvocation MethodInvocation SimpleName equals
+acl SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sasl
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sasl
+get scheme SimpleName MethodInvocation MethodInvocation StringLiteral sasl
+equals SimpleName MethodInvocation StringLiteral sasl
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral sasl
+myclientexamplecom StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+myclientexamplecom StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral sasl
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName matches
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName matches
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SimpleName matches
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+verify SimpleName MethodInvocation MethodInvocation SimpleName acl provider
+builder SimpleName MethodInvocation MethodInvocation SimpleName acl provider
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arg that
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arg that
+acl provider SimpleName MethodInvocation MethodInvocation SimpleName arg that
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName should add acl provider with right acl
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should add acl provider with right acl
+void PrimitiveType MethodDeclaration SimpleName should add acl provider with right acl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should add acl provider with right acl
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should add acl provider with right acl

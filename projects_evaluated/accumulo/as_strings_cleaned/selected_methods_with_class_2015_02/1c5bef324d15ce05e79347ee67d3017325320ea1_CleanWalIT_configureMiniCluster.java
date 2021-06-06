@@ -1,0 +1,52 @@
+mini accumulo config impl SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName MethodInvocation SimpleName set property
+cfg SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+cfg SimpleName MethodInvocation StringLiteral s
+set property SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+set property SimpleName MethodInvocation StringLiteral s
+propertyinstance zk timeout QualifiedName MethodInvocation StringLiteral s
+cfg SimpleName MethodInvocation SimpleName set num tservers
+cfg SimpleName MethodInvocation NumberLiteral empty
+set num tservers SimpleName MethodInvocation NumberLiteral empty
+raw local file system SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+hadoop core site SimpleName MethodInvocation SimpleName set
+hadoop core site SimpleName MethodInvocation StringLiteral fsfileimpl
+hadoop core site SimpleName MethodInvocation MethodInvocation SimpleName get name
+set SimpleName MethodInvocation StringLiteral fsfileimpl
+set SimpleName MethodInvocation MethodInvocation SimpleName get name
+fsfileimpl StringLiteral MethodInvocation MethodInvocation SimpleName get name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure mini cluster
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cfg
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName configure mini cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+void PrimitiveType MethodDeclaration SimpleName configure mini cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mini accumulo config impl
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+configure mini cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure mini cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure mini cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hadoop core site

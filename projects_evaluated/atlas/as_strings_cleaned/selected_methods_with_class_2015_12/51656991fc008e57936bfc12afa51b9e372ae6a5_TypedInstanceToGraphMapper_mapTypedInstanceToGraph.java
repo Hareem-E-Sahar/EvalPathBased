@@ -1,0 +1,78 @@
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instances
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i referenceable instance
+walk class instances SimpleName MethodInvocation SimpleName typed instance
+new instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName walk class instances
+new instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+create vertices and discover instances SimpleName MethodInvocation SimpleName new instances
+instances pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertices and discover instances
+instances pair SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instances
+instances pair SimpleName MethodInvocation SimpleName get left
+add or update attributes and traits SimpleName MethodInvocation SimpleName operation
+add or update attributes and traits SimpleName MethodInvocation MethodInvocation SimpleName instances pair
+add or update attributes and traits SimpleName MethodInvocation MethodInvocation SimpleName get left
+operation SimpleName MethodInvocation MethodInvocation SimpleName instances pair
+operation SimpleName MethodInvocation MethodInvocation SimpleName get left
+instances pair SimpleName MethodInvocation SimpleName get left
+add full text property SimpleName MethodInvocation MethodInvocation SimpleName instances pair
+add full text property SimpleName MethodInvocation MethodInvocation SimpleName get left
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+instances pair SimpleName MethodInvocation SimpleName get left
+instances for update SimpleName VariableDeclarationFragment MethodInvocation SimpleName instances pair
+instances for update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get left
+instances pair SimpleName MethodInvocation SimpleName get right
+instances for update SimpleName MethodInvocation SimpleName add all
+instances for update SimpleName MethodInvocation MethodInvocation SimpleName instances pair
+instances for update SimpleName MethodInvocation MethodInvocation SimpleName get right
+add all SimpleName MethodInvocation MethodInvocation SimpleName instances pair
+add all SimpleName MethodInvocation MethodInvocation SimpleName get right
+add or update attributes and traits SimpleName MethodInvocation SimpleName operation
+add or update attributes and traits SimpleName MethodInvocation SimpleName instances for update
+operation SimpleName MethodInvocation SimpleName instances for update
+add full text property SimpleName MethodInvocation SimpleName instances for update
+not handled - StringLiteral InfixExpression SimpleName operation
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not handled -
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName operation
+operation SimpleName SwitchStatement SwitchCase SimpleName create
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName add or update attributes and traits
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName operation
+operation SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName add full text property
+operation SimpleName SwitchStatement SwitchCase SimpleName update full
+create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update full
+create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update partial
+update full SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update partial
+add to guids SimpleName MethodInvocation SimpleName typed instance
+add to guids SimpleName MethodInvocation SimpleName guids
+typed instance SimpleName MethodInvocation SimpleName guids
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName typed instances
+typed instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName typed instances
+typed instances SimpleName EnhancedForStatement Block SwitchStatement SimpleName operation
+guids SimpleName MethodInvocation SimpleName size
+guids SimpleName MethodInvocation SimpleName to array
+guids SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName guids
+guids SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName guids
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName map typed instance to graph
+map typed instance to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+map typed instance to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+map typed instance to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+map typed instance to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+map typed instance to graph SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+map typed instance to graph SimpleName MethodDeclaration Block EnhancedForStatement SimpleName typed instances
+operation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName map typed instance to graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map typed instance to graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

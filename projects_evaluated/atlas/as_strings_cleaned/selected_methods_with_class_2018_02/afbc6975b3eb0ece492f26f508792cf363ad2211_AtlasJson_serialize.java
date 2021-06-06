@@ -1,0 +1,101 @@
+atlas full text result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+json generator SimpleName SimpleType SingleVariableDeclaration SimpleName jgen
+serializer provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+result SimpleName MethodInvocation SimpleName get entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+result SimpleName MethodInvocation SimpleName get entity
+result SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+value map SimpleName MethodInvocation SimpleName put
+value map SimpleName MethodInvocation SimpleName v key guid
+value map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+value map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+value map SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName v key guid
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+v key guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+v key guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+v key guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+result SimpleName MethodInvocation SimpleName get entity
+result SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+value map SimpleName MethodInvocation SimpleName put
+value map SimpleName MethodInvocation SimpleName v key typename
+value map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+value map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+value map SimpleName MethodInvocation MethodInvocation SimpleName get type name
+put SimpleName MethodInvocation SimpleName v key typename
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+v key typename SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName result
+v key typename SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+v key typename SimpleName MethodInvocation MethodInvocation SimpleName get type name
+result SimpleName MethodInvocation SimpleName get score
+value map SimpleName MethodInvocation SimpleName put
+value map SimpleName MethodInvocation SimpleName v key score
+value map SimpleName MethodInvocation MethodInvocation SimpleName result
+value map SimpleName MethodInvocation MethodInvocation SimpleName get score
+put SimpleName MethodInvocation SimpleName v key score
+put SimpleName MethodInvocation MethodInvocation SimpleName result
+put SimpleName MethodInvocation MethodInvocation SimpleName get score
+v key score SimpleName MethodInvocation MethodInvocation SimpleName result
+v key score SimpleName MethodInvocation MethodInvocation SimpleName get score
+jgen SimpleName MethodInvocation SimpleName write object
+jgen SimpleName MethodInvocation SimpleName value map
+write object SimpleName MethodInvocation SimpleName value map
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName serialize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName jgen
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName serialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas full text result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json generator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName jgen
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName serializer provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+void PrimitiveType MethodDeclaration SimpleName serialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas full text result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json generator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName jgen
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName serializer provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas full text result
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json generator
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName jgen
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName serializer provider
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+serialize SimpleName MethodDeclaration SimpleType SimpleName io exception
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jgen
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+jgen SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+jgen SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName serialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jgen
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName serialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jgen
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

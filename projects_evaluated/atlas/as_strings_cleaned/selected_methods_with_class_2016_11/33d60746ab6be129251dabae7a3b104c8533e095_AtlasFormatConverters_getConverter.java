@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source version
+string SimpleName SimpleType SingleVariableDeclaration SimpleName target version
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName type category
+get key SimpleName MethodInvocation SimpleName source version
+get key SimpleName MethodInvocation SimpleName target version
+get key SimpleName MethodInvocation SimpleName type category
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation SimpleName type category
+target version SimpleName MethodInvocation SimpleName type category
+registry SimpleName MethodInvocation SimpleName contains key
+registry SimpleName MethodInvocation MethodInvocation SimpleName get key
+registry SimpleName MethodInvocation MethodInvocation SimpleName source version
+registry SimpleName MethodInvocation MethodInvocation SimpleName target version
+registry SimpleName MethodInvocation MethodInvocation SimpleName type category
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get key
+contains key SimpleName MethodInvocation MethodInvocation SimpleName source version
+contains key SimpleName MethodInvocation MethodInvocation SimpleName target version
+contains key SimpleName MethodInvocation MethodInvocation SimpleName type category
+get key SimpleName MethodInvocation SimpleName source version
+get key SimpleName MethodInvocation SimpleName target version
+get key SimpleName MethodInvocation SimpleName type category
+source version SimpleName MethodInvocation SimpleName target version
+source version SimpleName MethodInvocation SimpleName type category
+target version SimpleName MethodInvocation SimpleName type category
+registry SimpleName MethodInvocation SimpleName get
+registry SimpleName MethodInvocation MethodInvocation SimpleName get key
+registry SimpleName MethodInvocation MethodInvocation SimpleName source version
+registry SimpleName MethodInvocation MethodInvocation SimpleName target version
+registry SimpleName MethodInvocation MethodInvocation SimpleName type category
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName source version
+get SimpleName MethodInvocation MethodInvocation SimpleName target version
+get SimpleName MethodInvocation MethodInvocation SimpleName type category
+could not find the converter for this type StringLiteral InfixExpression SimpleName type category
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinternal error
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find the converter for this type
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type category
+atlas error codeinternal error QualifiedName ClassInstanceCreation InfixExpression StringLiteral could not find the converter for this type
+atlas error codeinternal error QualifiedName ClassInstanceCreation InfixExpression SimpleName type category
+public Modifier MethodDeclaration SimpleType SimpleName atlas format adapter
+public Modifier MethodDeclaration SimpleName get converter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type category
+atlas format adapter SimpleName SimpleType MethodDeclaration SimpleName get converter
+atlas format adapter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source version
+atlas format adapter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target version
+atlas format adapter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type category
+atlas format adapter SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source version
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target version
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+get converter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+get converter SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+source version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+source version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+target version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+target version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas format adapter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get converter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas format adapter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get converter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,24 @@
+tls server socket factory SimpleName SimpleType ClassInstanceCreation SuperMethodInvocation SimpleName create factory
+tls server socket factory SimpleName SimpleType ClassInstanceCreation SimpleName protocols
+create factory SimpleName SuperMethodInvocation ClassInstanceCreation SimpleName protocols
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ssl server socket factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create factory
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName ssl server socket factory
+protected Modifier MethodDeclaration SimpleName create factory
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+ssl server socket factory SimpleName SimpleType MethodDeclaration SimpleName create factory
+ssl server socket factory SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create factory SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ssl server socket factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName create factory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ssl server socket factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

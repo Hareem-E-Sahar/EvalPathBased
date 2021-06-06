@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName parent guid
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName coll
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName coll
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get guid
+e SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get guid SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+e SimpleName MethodInvocation MethodInvocation SimpleName parent guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName parent guid
+equals ignore case SimpleName MethodInvocation SimpleName parent guid
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName coll
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName coll
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get from collection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName coll
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName coll
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get from collection
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName coll
+get from collection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get from collection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+get from collection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName coll
+get from collection SimpleName MethodDeclaration Block EnhancedForStatement SimpleName coll
+parent guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coll
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get from collection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coll
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get from collection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coll

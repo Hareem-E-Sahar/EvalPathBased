@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+pii trait StringLiteral InfixExpression MethodInvocation SimpleName random
+trait name SimpleName VariableDeclarationFragment InfixExpression StringLiteral pii trait
+trait name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+atlas client SimpleName MethodInvocation SimpleName create trait type
+atlas client SimpleName MethodInvocation SimpleName trait name
+create trait type SimpleName MethodInvocation SimpleName trait name
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+atlas client SimpleName MethodInvocation SimpleName add trait
+atlas client SimpleName MethodInvocation SimpleName guid
+atlas client SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation SimpleName guid
+add trait SimpleName MethodInvocation SimpleName trait instance
+guid SimpleName MethodInvocation SimpleName trait instance
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName trait name
+string SimpleName SimpleType MethodDeclaration SimpleName create trait
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+create trait SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+create trait SimpleName MethodDeclaration Block ReturnStatement SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

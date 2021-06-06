@@ -1,0 +1,11 @@
+parent SimpleName MethodInvocation SimpleName get previous
+node SimpleName SimpleType MethodDeclaration SimpleName get previous node
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get previous node SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get previous node
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get previous node
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

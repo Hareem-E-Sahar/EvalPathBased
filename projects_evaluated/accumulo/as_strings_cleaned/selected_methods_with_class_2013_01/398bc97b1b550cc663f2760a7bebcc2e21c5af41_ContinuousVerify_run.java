@@ -1,0 +1,252 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+system SimpleName MethodInvocation SimpleName current time millis
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+empty StringLiteral InfixExpression MethodInvocation SimpleName system
+empty StringLiteral InfixExpression MethodInvocation SimpleName current time millis
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get conf SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+opts SimpleName MethodInvocation SimpleName get table name
+clone SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+clone SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clone
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+random SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName random
+opts SimpleName MethodInvocation SimpleName get table name
+random SimpleName MethodInvocation SimpleName next long
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation MethodInvocation SimpleName random
+math SimpleName MethodInvocation MethodInvocation SimpleName next long
+abs SimpleName MethodInvocation MethodInvocation SimpleName random
+abs SimpleName MethodInvocation MethodInvocation SimpleName next long
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation MethodInvocation SimpleName math
+string SimpleName MethodInvocation MethodInvocation SimpleName abs
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next long
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation MethodInvocation SimpleName math
+format SimpleName MethodInvocation MethodInvocation SimpleName abs
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next long
+% x StringLiteral MethodInvocation MethodInvocation SimpleName math
+% x StringLiteral MethodInvocation MethodInvocation SimpleName abs
+% x StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName random
+% x StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName next long
+opts SimpleName MethodInvocation InfixExpression StringLiteral empty
+get table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+opts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+opts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+opts SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral % x
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+get table name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral % x
+empty StringLiteral InfixExpression MethodInvocation SimpleName string
+empty StringLiteral InfixExpression MethodInvocation SimpleName format
+empty StringLiteral InfixExpression MethodInvocation StringLiteral % x
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName abs
+clone SimpleName Assignment InfixExpression MethodInvocation SimpleName opts
+clone SimpleName Assignment InfixExpression MethodInvocation SimpleName get table name
+clone SimpleName Assignment InfixExpression StringLiteral empty
+clone SimpleName Assignment InfixExpression MethodInvocation SimpleName string
+clone SimpleName Assignment InfixExpression MethodInvocation SimpleName format
+clone SimpleName Assignment InfixExpression MethodInvocation StringLiteral % x
+opts SimpleName MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName opts
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName MethodInvocation SimpleName table operations
+opts SimpleName MethodInvocation SimpleName get table name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+conn SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+clone SimpleName MethodInvocation MethodInvocation SimpleName opts
+clone SimpleName MethodInvocation MethodInvocation SimpleName get table name
+clone SimpleName MethodInvocation SimpleName clone
+clone SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation MethodInvocation SimpleName clone
+get table name SimpleName MethodInvocation MethodInvocation SimpleName clone
+opts SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get table name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+clone SimpleName MethodInvocation BooleanLiteral true
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName offline
+table operations SimpleName MethodInvocation MethodInvocation SimpleName offline
+conn SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+offline SimpleName MethodInvocation SimpleName clone
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+opts SimpleName MethodInvocation SimpleName set accumulo configs
+opts SimpleName MethodInvocation SimpleName job
+set accumulo configs SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName set offline table scan
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation QualifiedName optsscan offline
+set offline table scan SimpleName MethodInvocation SimpleName job
+set offline table scan SimpleName MethodInvocation QualifiedName optsscan offline
+job SimpleName MethodInvocation QualifiedName optsscan offline
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+opts SimpleName MethodInvocation SimpleName get connector
+opts SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+opts SimpleName MethodInvocation SimpleName get table name
+opts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split range by tablets
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split range by tablets
+table operations SimpleName MethodInvocation MethodInvocation SimpleName split range by tablets
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+opts SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optsmax maps
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optsmax maps
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+split range by tablets SimpleName MethodInvocation MethodInvocation SimpleName opts
+split range by tablets SimpleName MethodInvocation MethodInvocation SimpleName get table name
+split range by tablets SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+split range by tablets SimpleName MethodInvocation QualifiedName optsmax maps
+opts SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+get table name SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName optsmax maps
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName split range by tablets
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+ranges SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsmax maps
+accumulo input format SimpleName MethodInvocation SimpleName set ranges
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName ranges
+set ranges SimpleName MethodInvocation SimpleName job
+set ranges SimpleName MethodInvocation SimpleName ranges
+job SimpleName MethodInvocation SimpleName ranges
+accumulo input format SimpleName MethodInvocation SimpleName set auto adjust ranges
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation BooleanLiteral false
+set auto adjust ranges SimpleName MethodInvocation SimpleName job
+set auto adjust ranges SimpleName MethodInvocation BooleanLiteral false
+job SimpleName MethodInvocation BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c mapper
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c mapper
+job SimpleName MethodInvocation SimpleName set map output key class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+set map output key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+job SimpleName MethodInvocation SimpleName set map output value class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName v long writable
+set map output value class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName v long writable
+job SimpleName MethodInvocation SimpleName set reducer class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c reducer
+set reducer class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c reducer
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation QualifiedName optsreducers
+set num reduce tasks SimpleName MethodInvocation QualifiedName optsreducers
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName text output format
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName set boolean
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName set boolean
+job SimpleName MethodInvocation MethodInvocation StringLiteral mapredmaptasksspeculativeexecution
+get configuration SimpleName MethodInvocation MethodInvocation StringLiteral mapredmaptasksspeculativeexecution
+job SimpleName MethodInvocation MethodInvocation QualifiedName optsscan offline
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName optsscan offline
+set boolean SimpleName MethodInvocation StringLiteral mapredmaptasksspeculativeexecution
+set boolean SimpleName MethodInvocation QualifiedName optsscan offline
+mapredmaptasksspeculativeexecution StringLiteral MethodInvocation QualifiedName optsscan offline
+path SimpleName SimpleType ClassInstanceCreation QualifiedName optsoutput dir
+text output format SimpleName MethodInvocation SimpleName set output path
+text output format SimpleName MethodInvocation SimpleName job
+text output format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+text output format SimpleName MethodInvocation ClassInstanceCreation QualifiedName optsoutput dir
+set output path SimpleName MethodInvocation SimpleName job
+set output path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+set output path SimpleName MethodInvocation ClassInstanceCreation QualifiedName optsoutput dir
+job SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+job SimpleName MethodInvocation ClassInstanceCreation QualifiedName optsoutput dir
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+delete SimpleName MethodInvocation SimpleName clone
+opts SimpleName MethodInvocation SimpleName stop tracing
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block IfStatement QualifiedName optsscan offline
+public Modifier MethodDeclaration Block IfStatement QualifiedName optsscan offline
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration Block IfStatement QualifiedName optsscan offline
+int PrimitiveType MethodDeclaration Block IfStatement QualifiedName optsscan offline
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration Block IfStatement QualifiedName optsscan offline
+run SimpleName MethodDeclaration Block IfStatement QualifiedName optsscan offline
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

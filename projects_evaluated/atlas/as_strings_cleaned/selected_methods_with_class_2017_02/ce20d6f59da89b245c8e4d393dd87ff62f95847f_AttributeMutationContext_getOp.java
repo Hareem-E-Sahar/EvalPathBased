@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName entity operation
+public Modifier MethodDeclaration SimpleName get op
+public Modifier MethodDeclaration Block ReturnStatement SimpleName op
+entity operation SimpleName SimpleType MethodDeclaration SimpleName get op
+get op SimpleName MethodDeclaration Block ReturnStatement SimpleName op
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity operation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get op
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get op

@@ -1,0 +1,70 @@
+object graph walkernode QualifiedName SimpleType SingleVariableDeclaration SimpleName nd
+i referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+i referenceable instance SimpleName SimpleType CastExpression QualifiedName ndinstance
+ref SimpleName Assignment CastExpression SimpleType SimpleName i referenceable instance
+ref SimpleName Assignment CastExpression QualifiedName ndinstance
+ref SimpleName MethodInvocation SimpleName get id
+id SimpleName Assignment MethodInvocation SimpleName ref
+id SimpleName Assignment MethodInvocation SimpleName get id
+nda info QualifiedName MethodInvocation SimpleName data type
+nda info QualifiedName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+nda info QualifiedName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+ndvalue QualifiedName InstanceofExpression SimpleType SimpleName id
+id SimpleName SimpleType CastExpression QualifiedName ndvalue
+id SimpleName Assignment CastExpression SimpleType SimpleName id
+id SimpleName Assignment CastExpression QualifiedName ndvalue
+id SimpleName MethodInvocation SimpleName is unassigned
+id to instance map SimpleName MethodInvocation SimpleName contains key
+id to instance map SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unexpected internal error id s processed again
+string SimpleName MethodInvocation SimpleName id
+format SimpleName MethodInvocation StringLiteral unexpected internal error id s processed again
+format SimpleName MethodInvocation SimpleName id
+unexpected internal error id s processed again StringLiteral MethodInvocation SimpleName id
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unexpected internal error id s processed again
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName id
+id to instance map SimpleName MethodInvocation SimpleName put
+id to instance map SimpleName MethodInvocation SimpleName id
+id to instance map SimpleName MethodInvocation SimpleName ref
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName ref
+id SimpleName MethodInvocation SimpleName ref
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process node
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName nd
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName object graph walkernode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName nd
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName process node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName object graph walkernode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nd
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+process node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName object graph walkernode
+process node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nd
+process node SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+nd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nd
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nd
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

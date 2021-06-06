@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName access service options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName access service options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName access service options
+access service options SimpleName FieldAccess Assignment SimpleName access service options
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set access service options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access service options
+void PrimitiveType MethodDeclaration SimpleName set access service options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access service options
+set access service options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access service options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set access service options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service options
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set access service options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service options

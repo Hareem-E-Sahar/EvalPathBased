@@ -1,0 +1,33 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName attributes
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName attributes
+arrays SimpleName MethodInvocation QualifiedName attributeslength
+copy of SimpleName MethodInvocation SimpleName attributes
+copy of SimpleName MethodInvocation QualifiedName attributeslength
+attributes SimpleName MethodInvocation QualifiedName attributeslength
+attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName arrays
+attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName copy of
+attributes SimpleName FieldAccess Assignment MethodInvocation SimpleName attributes
+attributes SimpleName FieldAccess Assignment MethodInvocation QualifiedName attributeslength
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attributes
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SimpleName set attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

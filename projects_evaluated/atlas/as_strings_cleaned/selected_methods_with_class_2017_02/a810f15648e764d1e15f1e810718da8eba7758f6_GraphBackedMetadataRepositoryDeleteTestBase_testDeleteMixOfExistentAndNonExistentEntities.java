@@ -1,0 +1,143 @@
+composite map value type SimpleName MethodInvocation SimpleName create instance
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName composite map value type
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+composite map value type SimpleName MethodInvocation SimpleName create instance
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName composite map value type
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName create entities
+repository service SimpleName MethodInvocation SimpleName entity
+repository service SimpleName MethodInvocation SimpleName entity
+create entities SimpleName MethodInvocation SimpleName entity
+create entities SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation SimpleName entity
+create entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+create entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entities
+create entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+create entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+create entities result SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+create entities result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+create entities result SimpleName MethodInvocation SimpleName get
+create entities result SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+create entities result SimpleName MethodInvocation SimpleName get
+create entities result SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get
+arrays SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation StringLiteral nonexistentguid
+arrays SimpleName MethodInvocation StringLiteral nonexistentguid
+arrays SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get
+arrays SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+as list SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+as list SimpleName MethodInvocation MethodInvocation SimpleName get
+as list SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+as list SimpleName MethodInvocation StringLiteral nonexistentguid
+as list SimpleName MethodInvocation StringLiteral nonexistentguid
+as list SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+as list SimpleName MethodInvocation MethodInvocation SimpleName get
+as list SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create entities result SimpleName MethodInvocation MethodInvocation StringLiteral nonexistentguid
+get SimpleName MethodInvocation MethodInvocation StringLiteral nonexistentguid
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral nonexistentguid
+create entities result SimpleName MethodInvocation MethodInvocation StringLiteral nonexistentguid
+get SimpleName MethodInvocation MethodInvocation StringLiteral nonexistentguid
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral nonexistentguid
+create entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create entities result
+create entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+create entities result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create entities result
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create entities result
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+nonexistentguid StringLiteral MethodInvocation StringLiteral nonexistentguid
+nonexistentguid StringLiteral MethodInvocation MethodInvocation SimpleName create entities result
+nonexistentguid StringLiteral MethodInvocation MethodInvocation SimpleName get
+nonexistentguid StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+nonexistentguid StringLiteral MethodInvocation MethodInvocation SimpleName create entities result
+nonexistentguid StringLiteral MethodInvocation MethodInvocation SimpleName get
+nonexistentguid StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create entities result
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+guids SimpleName VariableDeclarationFragment MethodInvocation StringLiteral nonexistentguid
+guids SimpleName VariableDeclarationFragment MethodInvocation StringLiteral nonexistentguid
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create entities result
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+guids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+repository service SimpleName MethodInvocation SimpleName delete entities
+repository service SimpleName MethodInvocation SimpleName guids
+delete entities SimpleName MethodInvocation SimpleName guids
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName guids
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete entities result
+delete entities result SimpleName MethodInvocation SimpleName get deleted entities
+delete entities result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+delete entities result SimpleName MethodInvocation SimpleName get deleted entities
+delete entities result SimpleName MethodInvocation MethodInvocation SimpleName contains all
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains all
+delete entities result SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+contains all SimpleName MethodInvocation SimpleName create entities result
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert true SimpleName MethodInvocation MethodInvocation SimpleName create entities result
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete mix of existent and non existent entities
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete mix of existent and non existent entities
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete mix of existent and non existent entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete mix of existent and non existent entities SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete mix of existent and non existent entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete mix of existent and non existent entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

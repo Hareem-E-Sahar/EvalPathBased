@@ -1,0 +1,64 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+/ CharacterLiteral InfixExpression SimpleName dir
+path SimpleName MethodInvocation SimpleName index of
+path SimpleName MethodInvocation InfixExpression CharacterLiteral /
+path SimpleName MethodInvocation InfixExpression SimpleName dir
+index of SimpleName MethodInvocation InfixExpression CharacterLiteral /
+index of SimpleName MethodInvocation InfixExpression SimpleName dir
+dir index SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+dir index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+dir index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression CharacterLiteral /
+dir index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName dir
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName path
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+dir index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName contains
+path SimpleName MethodInvocation StringLiteral :
+contains SimpleName MethodInvocation StringLiteral :
+path SimpleName InfixExpression StringLiteral is absolute but does not contain
+path SimpleName InfixExpression SimpleName dir
+is absolute but does not contain StringLiteral InfixExpression SimpleName dir
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName path
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is absolute but does not contain
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName end of volume index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName end of volume index
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName end of volume index
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+end of volume index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end of volume index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+end of volume index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end of volume index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+end of volume index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName end of volume index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end of volume index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

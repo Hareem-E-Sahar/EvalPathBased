@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName database name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching atlas for database {}
+log SimpleName MethodInvocation SimpleName database name
+debug SimpleName MethodInvocation StringLiteral searching atlas for database {}
+debug SimpleName MethodInvocation SimpleName database name
+searching atlas for database {} StringLiteral MethodInvocation SimpleName database name
+hive data typeshive db QualifiedName MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive db
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+get db qualified name SimpleName MethodInvocation SimpleName cluster name
+get db qualified name SimpleName MethodInvocation SimpleName database name
+cluster name SimpleName MethodInvocation SimpleName database name
+find entity SimpleName MethodInvocation SimpleName type name
+find entity SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+find entity SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+find entity SimpleName MethodInvocation MethodInvocation SimpleName database name
+type name SimpleName MethodInvocation MethodInvocation SimpleName get db qualified name
+type name SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+type name SimpleName MethodInvocation MethodInvocation SimpleName database name
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SimpleName find database
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName database name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName find database
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName database name
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+find database SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find database SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+find database SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find database SimpleName MethodDeclaration SingleVariableDeclaration SimpleName database name
+find database SimpleName MethodDeclaration SimpleType SimpleName exception
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+database name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName find database
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find database
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName database name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

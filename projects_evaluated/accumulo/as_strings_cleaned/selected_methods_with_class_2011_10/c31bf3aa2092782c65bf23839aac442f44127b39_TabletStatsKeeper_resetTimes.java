@@ -1,0 +1,13 @@
+major SimpleName Assignment ClassInstanceCreation SimpleType SimpleName action stats
+split SimpleName Assignment ClassInstanceCreation SimpleType SimpleName action stats
+minor SimpleName Assignment ClassInstanceCreation SimpleType SimpleName action stats
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName reset times
+void PrimitiveType MethodDeclaration SimpleName reset times
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset times
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset times

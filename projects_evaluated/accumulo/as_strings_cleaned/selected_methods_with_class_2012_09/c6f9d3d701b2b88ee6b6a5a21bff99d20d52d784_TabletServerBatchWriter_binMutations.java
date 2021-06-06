@@ -1,0 +1,177 @@
+mutation set SimpleName SimpleType SingleVariableDeclaration SimpleName mutations to process
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mutations to process SimpleName MethodInvocation SimpleName get mutations
+mutations to process SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get mutations SimpleName MethodInvocation MethodInvocation SimpleName entry set
+es SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName mutations to process
+es SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get mutations
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+tablet locator SimpleName MethodInvocation SimpleName get instance
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation SimpleName credentials
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+tablet locator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+get instance SimpleName MethodInvocation SimpleName instance
+get instance SimpleName MethodInvocation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+instance SimpleName MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+credentials SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet locator
+locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+locator SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+tablet locator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName locator
+entry SimpleName MethodInvocation SimpleName get key
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+entry SimpleName MethodInvocation SimpleName get value
+table mutations SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+table mutations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+locator SimpleName MethodInvocation SimpleName bin mutations
+locator SimpleName MethodInvocation SimpleName table mutations
+locator SimpleName MethodInvocation SimpleName binned mutations
+locator SimpleName MethodInvocation SimpleName table failures
+bin mutations SimpleName MethodInvocation SimpleName table mutations
+bin mutations SimpleName MethodInvocation SimpleName binned mutations
+bin mutations SimpleName MethodInvocation SimpleName table failures
+table mutations SimpleName MethodInvocation SimpleName binned mutations
+table mutations SimpleName MethodInvocation SimpleName table failures
+binned mutations SimpleName MethodInvocation SimpleName table failures
+table failures SimpleName MethodInvocation SimpleName size
+table failures SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+failed mutations SimpleName MethodInvocation SimpleName add
+failed mutations SimpleName MethodInvocation SimpleName table
+failed mutations SimpleName MethodInvocation SimpleName table failures
+add SimpleName MethodInvocation SimpleName table
+add SimpleName MethodInvocation SimpleName table failures
+table SimpleName MethodInvocation SimpleName table failures
+table failures SimpleName MethodInvocation SimpleName size
+table mutations SimpleName MethodInvocation SimpleName size
+table failures SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table mutations
+table failures SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table mutations
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+entry SimpleName MethodInvocation SimpleName get key
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName entry
+tables SimpleName MethodInvocation MethodInvocation SimpleName get key
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation MethodInvocation SimpleName entry
+exists SimpleName MethodInvocation MethodInvocation SimpleName get key
+instance SimpleName MethodInvocation MethodInvocation SimpleName entry
+instance SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+table deleted exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+table deleted exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table
+instance SimpleName MethodInvocation SimpleName table
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+entry SimpleName MethodInvocation SimpleName get key
+table offline exception SimpleName SimpleType ClassInstanceCreation SimpleName instance
+table offline exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+table offline exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName entry
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName es
+accumulo server exception SimpleName SimpleType SingleVariableDeclaration SimpleName ase
+ase SimpleName MethodInvocation SimpleName get server
+update server errors SimpleName MethodInvocation MethodInvocation SimpleName ase
+update server errors SimpleName MethodInvocation MethodInvocation SimpleName get server
+update server errors SimpleName MethodInvocation SimpleName ase
+ase SimpleName MethodInvocation MethodInvocation SimpleName ase
+get server SimpleName MethodInvocation MethodInvocation SimpleName ase
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+failed mutations SimpleName MethodInvocation SimpleName add
+failed mutations SimpleName MethodInvocation SimpleName mutations to process
+add SimpleName MethodInvocation SimpleName mutations to process
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+text SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName constantsmetadata table id
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+collections SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName constantsmetadata table id
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+singleton list SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName constantsmetadata table id
+update authorization failures SimpleName MethodInvocation MethodInvocation SimpleName collections
+update authorization failures SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+table deleted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName e
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+table offline exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName e
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName e
+update unknown errors SimpleName MethodInvocation MethodInvocation SimpleName get message
+update unknown errors SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+binned mutations SimpleName MethodInvocation SimpleName clear
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName bin mutations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutations to process
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+void PrimitiveType MethodDeclaration SimpleName bin mutations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mutations to process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+bin mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+bin mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutations to process
+bin mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+mutations to process SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bin mutations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations to process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bin mutations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations to process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations

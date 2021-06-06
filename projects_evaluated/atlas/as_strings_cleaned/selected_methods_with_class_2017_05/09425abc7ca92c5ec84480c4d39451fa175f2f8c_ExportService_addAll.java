@@ -1,0 +1,33 @@
+unique list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+unique list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unique list
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName unique list
+t SimpleName SimpleType SingleVariableDeclaration SimpleName item
+set SimpleName MethodInvocation SimpleName contains
+set SimpleName MethodInvocation SimpleName item
+contains SimpleName MethodInvocation SimpleName item
+set SimpleName MethodInvocation SimpleName add
+set SimpleName MethodInvocation SimpleName item
+add SimpleName MethodInvocation SimpleName item
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName item
+add SimpleName MethodInvocation SimpleName item
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName unique listlist
+item SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName unique listlist
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique list
+public Modifier MethodDeclaration Block EnhancedForStatement QualifiedName unique listlist
+void PrimitiveType MethodDeclaration SimpleName add all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unique list
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName unique listlist
+add all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique list
+add all SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName unique listlist
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique list

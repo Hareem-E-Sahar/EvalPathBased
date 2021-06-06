@@ -1,0 +1,35 @@
+gs SimpleName Assignment ClassInstanceCreation SimpleType SimpleName titan graph service
+graph backed metadata repository SimpleName SimpleType ClassInstanceCreation SimpleName gs
+repository SimpleName Assignment ClassInstanceCreation SimpleType SimpleName graph backed metadata repository
+repository SimpleName Assignment ClassInstanceCreation SimpleName gs
+hive type system SimpleName MethodInvocation SimpleName get instance
+hts SimpleName Assignment MethodInvocation SimpleName hive type system
+hts SimpleName Assignment MethodInvocation SimpleName get instance
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName configuration exception
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier MethodDeclaration SimpleType SimpleName metadata exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName configuration exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+setup SimpleName MethodDeclaration SimpleType SimpleName configuration exception
+setup SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+configuration exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

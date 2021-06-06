@@ -1,0 +1,49 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+zookeeper properties SimpleName SimpleType CastExpression SimpleName o
+that SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName zookeeper properties
+that SimpleName VariableDeclarationFragment CastExpression SimpleName o
+zookeeper properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName that
+retries sleep time millis SimpleName InfixExpression QualifiedName thatretries sleep time millis
+num retries SimpleName InfixExpression QualifiedName thatnum retries
+session timeout SimpleName InfixExpression QualifiedName thatsession timeout
+connect string SimpleName MethodInvocation SimpleName equals
+connect string SimpleName MethodInvocation QualifiedName thatconnect string
+equals SimpleName MethodInvocation QualifiedName thatconnect string
+zk root SimpleName MethodInvocation SimpleName equals
+zk root SimpleName MethodInvocation QualifiedName thatzk root
+equals SimpleName MethodInvocation QualifiedName thatzk root
+acl SimpleName MethodInvocation SimpleName equals
+acl SimpleName MethodInvocation QualifiedName thatacl
+equals SimpleName MethodInvocation QualifiedName thatacl
+acl SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thatacl
+auth SimpleName MethodInvocation SimpleName equals
+auth SimpleName MethodInvocation QualifiedName thatauth
+equals SimpleName MethodInvocation QualifiedName thatauth
+auth SimpleName InfixExpression ConditionalExpression InfixExpression QualifiedName thatauth
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

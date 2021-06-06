@@ -1,0 +1,68 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+select * from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral select * from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+pid SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert process is registered
+pid SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pid
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName pid
+get entity SimpleName MethodInvocation SimpleName pid
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+process entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName pid
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process entity
+process entity SimpleName MethodInvocation SimpleName get
+process entity SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+query SimpleName MethodInvocation SimpleName to lower case
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName process entity
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation MethodInvocation SimpleName query
+assert SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName process entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName query
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+process entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+process entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName query
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+table name SimpleName MethodInvocation SimpleName to upper case
+select * from StringLiteral InfixExpression MethodInvocation SimpleName table name
+select * from StringLiteral InfixExpression MethodInvocation SimpleName to upper case
+query SimpleName Assignment InfixExpression StringLiteral select * from
+query SimpleName Assignment InfixExpression MethodInvocation SimpleName table name
+query SimpleName Assignment InfixExpression MethodInvocation SimpleName to upper case
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test select
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test select
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test select
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test select SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test select
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test select
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

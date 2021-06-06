@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName relationships
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName relationship
+public Modifier MethodDeclaration SimpleName get relationships
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships
+relationship SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationships
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationships

@@ -1,0 +1,57 @@
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+needs major compaction SimpleName MethodInvocation SimpleName reason
+major compaction queued SimpleName MethodInvocation SimpleName contains
+major compaction queued SimpleName MethodInvocation SimpleName reason
+contains SimpleName MethodInvocation SimpleName reason
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is closed
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName major compaction queued
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reason
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName major compaction queued
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reason
+is major compaction running SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName major compaction queued
+is major compaction running SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is major compaction running SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reason
+major compaction queued SimpleName MethodInvocation SimpleName add
+major compaction queued SimpleName MethodInvocation SimpleName reason
+add SimpleName MethodInvocation SimpleName reason
+compaction runner SimpleName SimpleType ClassInstanceCreation SimpleName reason
+get tablet resources SimpleName MethodInvocation MethodInvocation SimpleName execute major compaction
+get tablet resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get extent
+get tablet resources SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reason
+execute major compaction SimpleName MethodInvocation MethodInvocation SimpleName get extent
+execute major compaction SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compaction runner
+execute major compaction SimpleName MethodInvocation ClassInstanceCreation SimpleName reason
+get extent SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reason
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName initiate major compaction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName initiate major compaction
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+synchronized Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName initiate major compaction
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+initiate major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+initiate major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+initiate major compaction SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName initiate major compaction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initiate major compaction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

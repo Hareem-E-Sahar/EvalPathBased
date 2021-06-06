@@ -1,0 +1,233 @@
+iterator scope SimpleName SimpleType SingleVariableDeclaration SimpleName scope
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+iter info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all options
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+iterator scope SimpleName MethodInvocation SimpleName get property
+iterator scope SimpleName MethodInvocation SimpleName scope
+get property SimpleName MethodInvocation SimpleName scope
+scope property SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator scope
+scope property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+scope property SimpleName VariableDeclarationFragment MethodInvocation SimpleName scope
+final Modifier VariableDeclarationStatement SimpleType SimpleName property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName scope property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName iterator scope
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scope
+property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scope property
+scope property SimpleName MethodInvocation SimpleName get key
+scope property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName scope property
+scope property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName scope property key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scope property
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scope property key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+conf SimpleName MethodInvocation SimpleName get all properties with prefix
+conf SimpleName MethodInvocation SimpleName scope property
+get all properties with prefix SimpleName MethodInvocation SimpleName scope property
+conf SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get all properties with prefix SimpleName MethodInvocation MethodInvocation SimpleName entry set
+scope property SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+scope property key SimpleName MethodInvocation SimpleName length
+entry SimpleName MethodInvocation MethodInvocation SimpleName substring
+get key SimpleName MethodInvocation MethodInvocation SimpleName substring
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scope property key
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scope property key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName scope property key
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+suffix SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+suffix SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+suffix SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+suffix SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName scope property key
+suffix SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName suffix
+suffix SimpleName MethodInvocation SimpleName split
+suffix SimpleName MethodInvocation StringLiteral \\.
+suffix SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral \\.
+split SimpleName MethodInvocation NumberLiteral empty
+\\. StringLiteral MethodInvocation NumberLiteral empty
+suffix split SimpleName VariableDeclarationFragment MethodInvocation SimpleName suffix
+suffix split SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+suffix split SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\.
+suffix split SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+suffix splitlength QualifiedName InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName split
+get value SimpleName MethodInvocation MethodInvocation SimpleName split
+entry SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get value SimpleName MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+sa SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+sa SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+sa SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+sa SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation ArrayAccess SimpleName sa
+integer SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse int SimpleName MethodInvocation ArrayAccess SimpleName sa
+parse int SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+prio SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+prio SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+prio SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName sa
+prio SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prio
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+sa SimpleName ArrayAccess NumberLiteral empty
+class name SimpleName VariableDeclarationFragment ArrayAccess SimpleName sa
+class name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+suffix split SimpleName ArrayAccess NumberLiteral empty
+iter info SimpleName SimpleType ClassInstanceCreation SimpleName prio
+iter info SimpleName SimpleType ClassInstanceCreation SimpleName class name
+iter info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName suffix split
+iter info SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+prio SimpleName ClassInstanceCreation SimpleName class name
+prio SimpleName ClassInstanceCreation ArrayAccess SimpleName suffix split
+prio SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+class name SimpleName ClassInstanceCreation ArrayAccess SimpleName suffix split
+class name SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+iters SimpleName MethodInvocation SimpleName add
+iters SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+iters SimpleName MethodInvocation ClassInstanceCreation SimpleName prio
+iters SimpleName MethodInvocation ClassInstanceCreation SimpleName class name
+iters SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName suffix split
+iters SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName prio
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName class name
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName suffix split
+add SimpleName MethodInvocation ClassInstanceCreation ArrayAccess NumberLiteral empty
+suffix splitlength QualifiedName InfixExpression NumberLiteral empty
+suffix split SimpleName ArrayAccess NumberLiteral empty
+suffix split SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+suffix split SimpleName ArrayAccess MethodInvocation StringLiteral opt
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral opt
+equals SimpleName MethodInvocation StringLiteral opt
+suffix splitlength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName equals
+suffix splitlength QualifiedName InfixExpression InfixExpression MethodInvocation StringLiteral opt
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation StringLiteral opt
+suffix split SimpleName ArrayAccess NumberLiteral empty
+iter name SimpleName VariableDeclarationFragment ArrayAccess SimpleName suffix split
+iter name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter name
+suffix split SimpleName ArrayAccess NumberLiteral empty
+opt name SimpleName VariableDeclarationFragment ArrayAccess SimpleName suffix split
+opt name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opt name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+all options SimpleName MethodInvocation SimpleName get
+all options SimpleName MethodInvocation SimpleName iter name
+get SimpleName MethodInvocation SimpleName iter name
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName all options
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+options SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+all options SimpleName MethodInvocation SimpleName put
+all options SimpleName MethodInvocation SimpleName iter name
+all options SimpleName MethodInvocation SimpleName options
+put SimpleName MethodInvocation SimpleName iter name
+put SimpleName MethodInvocation SimpleName options
+iter name SimpleName MethodInvocation SimpleName options
+entry SimpleName MethodInvocation SimpleName get value
+options SimpleName MethodInvocation SimpleName put
+options SimpleName MethodInvocation SimpleName opt name
+options SimpleName MethodInvocation MethodInvocation SimpleName entry
+options SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName opt name
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+opt name SimpleName MethodInvocation MethodInvocation SimpleName entry
+opt name SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+unrecognizable option StringLiteral InfixExpression MethodInvocation SimpleName entry
+unrecognizable option StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unrecognizable option
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+warn SimpleName MethodInvocation InfixExpression StringLiteral unrecognizable option
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName iters
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info comparator
+sort SimpleName MethodInvocation SimpleName iters
+sort SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info comparator
+iters SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iter info comparator
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse iter conf
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName iters
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName parse iter conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iters
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName all options
+void PrimitiveType MethodDeclaration SimpleName parse iter conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scope
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName all options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator scope
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scope
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iters
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all options
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+parse iter conf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+parse iter conf SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+parse iter conf SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all options
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+iters SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all options
+iters SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+all options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse iter conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse iter conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

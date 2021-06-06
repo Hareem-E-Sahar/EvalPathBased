@@ -1,0 +1,183 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName z master loc
+string SimpleName SimpleType SingleVariableDeclaration SimpleName z master loc
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral trying to get master lock
+info SimpleName MethodInvocation StringLiteral trying to get master lock
+lock loss reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+master lock in zookeeper lost reason = StringLiteral InfixExpression SimpleName reason
+master lock in zookeeper lost reason = StringLiteral InfixExpression StringLiteral ) exiting
+reason SimpleName InfixExpression StringLiteral ) exiting
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation InfixExpression StringLiteral master lock in zookeeper lost reason =
+halt SimpleName MethodInvocation InfixExpression SimpleName reason
+halt SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation InfixExpression StringLiteral master lock in zookeeper lost reason =
+halt SimpleName MethodInvocation InfixExpression SimpleName reason
+halt SimpleName MethodInvocation InfixExpression StringLiteral ) exiting
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+master lock in zookeeper lost reason = StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+reason SimpleName InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+) exiting StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lost lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration SimpleName lost lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+master lock watcher SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName zoo locklock watcher
+lock watcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master lock watcher
+system SimpleName MethodInvocation SimpleName current time millis
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance zk timeout
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance zk timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertyinstance zk timeout
+wait time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+wait time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+wait time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+wait time SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName wait time
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance zk timeout
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertymaster clientport
+get port SimpleName MethodInvocation QualifiedName propertymaster clientport
+hostname SimpleName InfixExpression StringLiteral :
+hostname SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName server configuration
+hostname SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get system configuration
+hostname SimpleName InfixExpression MethodInvocation SimpleName get port
+hostname SimpleName InfixExpression MethodInvocation QualifiedName propertymaster clientport
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName server configuration
+: StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get system configuration
+: StringLiteral InfixExpression MethodInvocation SimpleName get port
+: StringLiteral InfixExpression MethodInvocation QualifiedName propertymaster clientport
+master client address SimpleName VariableDeclarationFragment InfixExpression SimpleName hostname
+master client address SimpleName VariableDeclarationFragment InfixExpression StringLiteral :
+master client address SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get port
+master client address SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertymaster clientport
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName master client address
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName hostname
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral :
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master client address
+locked SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName locked
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName current
+current time millis SimpleName MethodInvocation InfixExpression SimpleName current
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName wait time
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName wait time
+current SimpleName InfixExpression InfixExpression SimpleName wait time
+zoo lock SimpleName SimpleType ClassInstanceCreation SimpleName z master loc
+master lock SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo lock
+master lock SimpleName Assignment ClassInstanceCreation SimpleName z master loc
+master client address SimpleName MethodInvocation SimpleName get bytes
+master lock SimpleName MethodInvocation SimpleName try lock
+master lock SimpleName MethodInvocation SimpleName master lock watcher
+master lock SimpleName MethodInvocation MethodInvocation SimpleName master client address
+master lock SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+try lock SimpleName MethodInvocation SimpleName master lock watcher
+try lock SimpleName MethodInvocation MethodInvocation SimpleName master client address
+try lock SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+master lock watcher SimpleName MethodInvocation MethodInvocation SimpleName master client address
+master lock watcher SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+locked SimpleName Assignment BooleanLiteral true
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation SimpleName time to wait between lock checks
+sleep SimpleName MethodInvocation SimpleName time to wait between lock checks
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral failed to get master lock even after waiting for session timeout becoming backup server
+info SimpleName MethodInvocation StringLiteral failed to get master lock even after waiting for session timeout becoming backup server
+zoo lock SimpleName SimpleType ClassInstanceCreation SimpleName z master loc
+master lock SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo lock
+master lock SimpleName Assignment ClassInstanceCreation SimpleName z master loc
+master client address SimpleName MethodInvocation SimpleName get bytes
+master lock SimpleName MethodInvocation SimpleName try lock
+master lock SimpleName MethodInvocation SimpleName master lock watcher
+master lock SimpleName MethodInvocation MethodInvocation SimpleName master client address
+master lock SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+try lock SimpleName MethodInvocation SimpleName master lock watcher
+try lock SimpleName MethodInvocation MethodInvocation SimpleName master client address
+try lock SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+master lock watcher SimpleName MethodInvocation MethodInvocation SimpleName master client address
+master lock watcher SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation SimpleName time to wait between lock checks
+sleep SimpleName MethodInvocation SimpleName time to wait between lock checks
+set master state SimpleName MethodInvocation QualifiedName master statehave lock
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get master lock
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName z master loc
+private Modifier MethodDeclaration SimpleType SimpleName keeper exception
+private Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName get master lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName z master loc
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get master lock SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get master lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get master lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName z master loc
+get master lock SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+get master lock SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+get master lock SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get master lock SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get master lock SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get master lock SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get master lock SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+z master loc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+z master loc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get master lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName z master loc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get master lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName z master loc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

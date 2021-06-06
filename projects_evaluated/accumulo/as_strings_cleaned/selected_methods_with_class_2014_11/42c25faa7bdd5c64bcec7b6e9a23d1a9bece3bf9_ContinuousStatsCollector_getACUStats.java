@@ -1,0 +1,282 @@
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+opts SimpleName MethodInvocation SimpleName get instance
+opts SimpleName MethodInvocation SimpleName get token
+credentials SimpleName SimpleType ClassInstanceCreation QualifiedName optsprincipal
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get token
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName opts
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName get token
+opts SimpleName MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+server configuration factory SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get configuration
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get configuration
+client context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+client context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+client context SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName optsprincipal
+client context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+opts SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName optsprincipal
+get instance SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation QualifiedName optsprincipal
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get configuration
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get configuration
+optsprincipal QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get configuration
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName client context
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName opts
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+context SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName optsprincipal
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get configuration
+client context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+master client SimpleName MethodInvocation SimpleName get connection with retry
+master client SimpleName MethodInvocation SimpleName context
+get connection with retry SimpleName MethodInvocation SimpleName context
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection with retry
+client SimpleName Assignment MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation SimpleName trace info
+context SimpleName MethodInvocation SimpleName rpc creds
+client SimpleName MethodInvocation SimpleName get master stats
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName context
+client SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName context
+get master stats SimpleName MethodInvocation MethodInvocation SimpleName rpc creds
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rpc creds
+stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName client
+stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master stats
+stats SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tracer
+stats SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName trace info
+stats SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+stats SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rpc creds
+master monitor info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stats
+all SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName table info
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName all
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName server
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName table info
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName info
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName info
+table info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName info
+servertable map QualifiedName MethodInvocation SimpleName entry set
+info SimpleName MethodInvocation SimpleName get key
+table summaries SimpleName MethodInvocation SimpleName get
+table summaries SimpleName MethodInvocation MethodInvocation SimpleName info
+table summaries SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName info
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+table summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName table summaries
+table summary SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table summary SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName info
+table summary SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table summary
+table summary SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table info
+info SimpleName MethodInvocation SimpleName get key
+table summaries SimpleName MethodInvocation SimpleName put
+table summaries SimpleName MethodInvocation MethodInvocation SimpleName info
+table summaries SimpleName MethodInvocation MethodInvocation SimpleName get key
+table summaries SimpleName MethodInvocation SimpleName table summary
+put SimpleName MethodInvocation MethodInvocation SimpleName info
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation SimpleName table summary
+info SimpleName MethodInvocation MethodInvocation SimpleName table summary
+get key SimpleName MethodInvocation MethodInvocation SimpleName table summary
+info SimpleName MethodInvocation SimpleName get value
+table info util SimpleName MethodInvocation SimpleName add
+table info util SimpleName MethodInvocation SimpleName table summary
+table info util SimpleName MethodInvocation MethodInvocation SimpleName info
+table info util SimpleName MethodInvocation MethodInvocation SimpleName get value
+add SimpleName MethodInvocation SimpleName table summary
+add SimpleName MethodInvocation MethodInvocation SimpleName info
+add SimpleName MethodInvocation MethodInvocation SimpleName get value
+table summary SimpleName MethodInvocation MethodInvocation SimpleName info
+table summary SimpleName MethodInvocation MethodInvocation SimpleName get value
+info SimpleName MethodInvocation SimpleName get value
+table info util SimpleName MethodInvocation SimpleName add
+table info util SimpleName MethodInvocation SimpleName all
+table info util SimpleName MethodInvocation MethodInvocation SimpleName info
+table info util SimpleName MethodInvocation MethodInvocation SimpleName get value
+add SimpleName MethodInvocation SimpleName all
+add SimpleName MethodInvocation MethodInvocation SimpleName info
+add SimpleName MethodInvocation MethodInvocation SimpleName get value
+all SimpleName MethodInvocation MethodInvocation SimpleName info
+all SimpleName MethodInvocation MethodInvocation SimpleName get value
+info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName servertable map
+info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+tablet server status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+server SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName statst server info
+table summaries SimpleName MethodInvocation SimpleName get
+table summaries SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+ti SimpleName VariableDeclarationFragment MethodInvocation SimpleName table summaries
+ti SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ti SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ti
+statst server info QualifiedName MethodInvocation SimpleName size
+long PrimitiveType CastExpression QualifiedName allingest rate
+long PrimitiveType CastExpression QualifiedName allquery rate
+long PrimitiveType CastExpression QualifiedName tiingest rate
+long PrimitiveType CastExpression QualifiedName tiquery rate
+empty StringLiteral InfixExpression MethodInvocation QualifiedName statst server info
+empty StringLiteral InfixExpression MethodInvocation SimpleName size
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName allrecs
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allingest rate
+statst server info QualifiedName MethodInvocation InfixExpression StringLiteral empty
+size SimpleName MethodInvocation InfixExpression StringLiteral empty
+statst server info QualifiedName MethodInvocation InfixExpression QualifiedName allrecs
+size SimpleName MethodInvocation InfixExpression QualifiedName allrecs
+statst server info QualifiedName MethodInvocation InfixExpression StringLiteral empty
+size SimpleName MethodInvocation InfixExpression StringLiteral empty
+statst server info QualifiedName MethodInvocation InfixExpression CastExpression PrimitiveType long
+statst server info QualifiedName MethodInvocation InfixExpression CastExpression QualifiedName allingest rate
+size SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType long
+size SimpleName MethodInvocation InfixExpression CastExpression QualifiedName allingest rate
+statst server info QualifiedName MethodInvocation InfixExpression StringLiteral empty
+size SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName allrecs
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allingest rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allquery rate
+allrecs QualifiedName InfixExpression StringLiteral empty
+allrecs QualifiedName InfixExpression CastExpression PrimitiveType long
+allrecs QualifiedName InfixExpression CastExpression QualifiedName allingest rate
+allrecs QualifiedName InfixExpression StringLiteral empty
+allrecs QualifiedName InfixExpression CastExpression PrimitiveType long
+allrecs QualifiedName InfixExpression CastExpression QualifiedName allquery rate
+allrecs QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allingest rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allquery rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression CastExpression PrimitiveType long
+long PrimitiveType CastExpression InfixExpression CastExpression QualifiedName allquery rate
+allingest rate QualifiedName CastExpression InfixExpression CastExpression PrimitiveType long
+allingest rate QualifiedName CastExpression InfixExpression CastExpression QualifiedName allquery rate
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName tirecs
+allingest rate QualifiedName CastExpression InfixExpression QualifiedName tirecs
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName allquery rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs in memory
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allquery rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName tirecs
+allquery rate QualifiedName CastExpression InfixExpression QualifiedName tirecs
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allquery rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName tirecs in memory
+allquery rate QualifiedName CastExpression InfixExpression QualifiedName tirecs in memory
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+allquery rate QualifiedName CastExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs in memory
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiingest rate
+tirecs QualifiedName InfixExpression StringLiteral empty
+tirecs QualifiedName InfixExpression QualifiedName tirecs in memory
+tirecs QualifiedName InfixExpression StringLiteral empty
+tirecs QualifiedName InfixExpression CastExpression PrimitiveType long
+tirecs QualifiedName InfixExpression CastExpression QualifiedName tiingest rate
+tirecs QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tirecs in memory
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiingest rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiquery rate
+tirecs in memory QualifiedName InfixExpression StringLiteral empty
+tirecs in memory QualifiedName InfixExpression CastExpression PrimitiveType long
+tirecs in memory QualifiedName InfixExpression CastExpression QualifiedName tiingest rate
+tirecs in memory QualifiedName InfixExpression StringLiteral empty
+tirecs in memory QualifiedName InfixExpression CastExpression PrimitiveType long
+tirecs in memory QualifiedName InfixExpression CastExpression QualifiedName tiquery rate
+tirecs in memory QualifiedName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiingest rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiquery rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName titablets
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+tiingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression CastExpression PrimitiveType long
+long PrimitiveType CastExpression InfixExpression CastExpression QualifiedName tiquery rate
+tiingest rate QualifiedName CastExpression InfixExpression CastExpression PrimitiveType long
+tiingest rate QualifiedName CastExpression InfixExpression CastExpression QualifiedName tiquery rate
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+tiingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName titablets
+tiingest rate QualifiedName CastExpression InfixExpression QualifiedName titablets
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+tiingest rate QualifiedName CastExpression InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression CastExpression PrimitiveType long
+empty StringLiteral InfixExpression CastExpression QualifiedName tiquery rate
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName titablets
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tionline tablets
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+tiquery rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName titablets
+tiquery rate QualifiedName CastExpression InfixExpression QualifiedName titablets
+long PrimitiveType CastExpression InfixExpression StringLiteral empty
+tiquery rate QualifiedName CastExpression InfixExpression StringLiteral empty
+long PrimitiveType CastExpression InfixExpression QualifiedName tionline tablets
+tiquery rate QualifiedName CastExpression InfixExpression QualifiedName tionline tablets
+empty StringLiteral InfixExpression QualifiedName titablets
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression QualifiedName tionline tablets
+titablets QualifiedName InfixExpression StringLiteral empty
+titablets QualifiedName InfixExpression QualifiedName tionline tablets
+empty StringLiteral InfixExpression QualifiedName tionline tablets
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get acu stats
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get acu stats
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get acu stats SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get acu stats
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get acu stats
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

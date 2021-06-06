@@ -1,0 +1,41 @@
+int PrimitiveType SingleVariableDeclaration SimpleName field id
+find by thrift id SimpleName MethodInvocation SimpleName field id
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by thrift id
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName field id
+fields SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fields
+field StringLiteral InfixExpression SimpleName field id
+field StringLiteral InfixExpression StringLiteral doesnt exist
+field id SimpleName InfixExpression StringLiteral doesnt exist
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral field
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName field id
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral doesnt exist
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName fields
+public Modifier MethodDeclaration SimpleName find by thrift id or throw
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName field id
+public Modifier MethodDeclaration Block ReturnStatement SimpleName fields
+static Modifier MethodDeclaration SimpleType SimpleName fields
+static Modifier MethodDeclaration SimpleName find by thrift id or throw
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName field id
+static Modifier MethodDeclaration Block ReturnStatement SimpleName fields
+fields SimpleName SimpleType MethodDeclaration SimpleName find by thrift id or throw
+fields SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fields SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName field id
+find by thrift id or throw SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find by thrift id or throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field id
+find by thrift id or throw SimpleName MethodDeclaration Block ReturnStatement SimpleName fields
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName fields
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by thrift id or throw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName fields
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by thrift id or throw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field id

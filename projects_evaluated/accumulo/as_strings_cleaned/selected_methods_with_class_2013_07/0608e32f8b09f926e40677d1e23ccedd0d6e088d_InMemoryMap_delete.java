@@ -1,0 +1,231 @@
+long PrimitiveType SingleVariableDeclaration SimpleName wait time
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral double delete
+deleted SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral double delete
+deleted SimpleName Assignment BooleanLiteral true
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+active iters SimpleName MethodInvocation SimpleName size
+active iters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName t
+current time millis SimpleName MethodInvocation InfixExpression SimpleName t
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName wait time
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName wait time
+t SimpleName InfixExpression InfixExpression SimpleName wait time
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName wait time
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+active iters SimpleName MethodInvocation SimpleName size
+active iters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get local
+file system SimpleName MethodInvocation SimpleName conf
+get local SimpleName MethodInvocation SimpleName conf
+trace file system SimpleName MethodInvocation SimpleName wrap
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName file system
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName get local
+trace file system SimpleName MethodInvocation MethodInvocation SimpleName conf
+wrap SimpleName MethodInvocation MethodInvocation SimpleName file system
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get local
+wrap SimpleName MethodInvocation MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName wrap
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get local
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+uuid SimpleName MethodInvocation SimpleName random uuid
+mem dump dir SimpleName InfixExpression StringLiteral mem dump
+mem dump dir SimpleName InfixExpression MethodInvocation SimpleName uuid
+mem dump dir SimpleName InfixExpression MethodInvocation SimpleName random uuid
+mem dump dir SimpleName InfixExpression StringLiteral .
+mem dump dir SimpleName InfixExpression QualifiedName r fileextension
+mem dump StringLiteral InfixExpression MethodInvocation SimpleName uuid
+mem dump StringLiteral InfixExpression MethodInvocation SimpleName random uuid
+mem dump StringLiteral InfixExpression StringLiteral .
+mem dump StringLiteral InfixExpression QualifiedName r fileextension
+uuid SimpleName MethodInvocation InfixExpression StringLiteral .
+random uuid SimpleName MethodInvocation InfixExpression StringLiteral .
+uuid SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+random uuid SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+. StringLiteral InfixExpression QualifiedName r fileextension
+tmp file SimpleName VariableDeclarationFragment InfixExpression SimpleName mem dump dir
+tmp file SimpleName VariableDeclarationFragment InfixExpression StringLiteral mem dump
+tmp file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName uuid
+tmp file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random uuid
+tmp file SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+tmp file SimpleName VariableDeclarationFragment InfixExpression QualifiedName r fileextension
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp file
+configuration SimpleName SimpleType ClassInstanceCreation SimpleName conf
+new conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+new conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName conf
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new conf
+new conf SimpleName MethodInvocation SimpleName set int
+new conf SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+new conf SimpleName MethodInvocation NumberLiteral empty
+set int SimpleName MethodInvocation StringLiteral ioseqfilecompressblocksize
+set int SimpleName MethodInvocation NumberLiteral empty
+ioseqfilecompressblocksize StringLiteral MethodInvocation NumberLiteral empty
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+r file operations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open writer
+r file operations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tmp file
+r file operations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fs
+r file operations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new conf
+open writer SimpleName MethodInvocation SimpleName tmp file
+open writer SimpleName MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation SimpleName new conf
+open writer SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+open writer SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+tmp file SimpleName MethodInvocation SimpleName fs
+tmp file SimpleName MethodInvocation SimpleName new conf
+tmp file SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+tmp file SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+fs SimpleName MethodInvocation SimpleName new conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+new conf SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+new conf SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName open writer
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName tmp file
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName new conf
+out SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+out SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+file skv writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+map SimpleName MethodInvocation SimpleName skv iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName skv iterator
+interruptible iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+lggroups SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+allfams SimpleName MethodInvocation SimpleName add all
+allfams SimpleName MethodInvocation MethodInvocation SimpleName entry
+allfams SimpleName MethodInvocation MethodInvocation SimpleName get value
+add all SimpleName MethodInvocation MethodInvocation SimpleName entry
+add all SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+out SimpleName MethodInvocation SimpleName start new locality group
+out SimpleName MethodInvocation MethodInvocation SimpleName entry
+out SimpleName MethodInvocation MethodInvocation SimpleName get key
+out SimpleName MethodInvocation MethodInvocation SimpleName entry
+out SimpleName MethodInvocation MethodInvocation SimpleName get value
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName entry
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName get key
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName entry
+start new locality group SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get value
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+iter SimpleName MethodInvocation MethodInvocation SimpleName entry
+iter SimpleName MethodInvocation MethodInvocation SimpleName get value
+iter SimpleName MethodInvocation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation MethodInvocation SimpleName entry
+seek SimpleName MethodInvocation MethodInvocation SimpleName get value
+seek SimpleName MethodInvocation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+entry SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get value SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+dump locality group SimpleName MethodInvocation SimpleName out
+dump locality group SimpleName MethodInvocation SimpleName iter
+out SimpleName MethodInvocation SimpleName iter
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName lggroups
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+out SimpleName MethodInvocation SimpleName start default locality group
+iter SimpleName MethodInvocation SimpleName seek
+iter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+iter SimpleName MethodInvocation SimpleName allfams
+iter SimpleName MethodInvocation BooleanLiteral false
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation SimpleName allfams
+seek SimpleName MethodInvocation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName allfams
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+allfams SimpleName MethodInvocation BooleanLiteral false
+dump locality group SimpleName MethodInvocation SimpleName out
+dump locality group SimpleName MethodInvocation SimpleName iter
+out SimpleName MethodInvocation SimpleName iter
+out SimpleName MethodInvocation SimpleName close
+created mem dump file StringLiteral InfixExpression SimpleName tmp file
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral created mem dump file
+log SimpleName MethodInvocation InfixExpression SimpleName tmp file
+debug SimpleName MethodInvocation InfixExpression StringLiteral created mem dump file
+debug SimpleName MethodInvocation InfixExpression SimpleName tmp file
+mem dump file SimpleName Assignment SimpleName tmp file
+memory iterator SimpleName SimpleType SingleVariableDeclaration SimpleName mi
+mi SimpleName MethodInvocation SimpleName switch now
+memory iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName active iters
+mi SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName active iters
+active iters SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName active iters
+path SimpleName SimpleType ClassInstanceCreation SimpleName mem dump file
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleName mem dump file
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+delete SimpleName MethodInvocation ClassInstanceCreation SimpleName mem dump file
+delete SimpleName MethodInvocation BooleanLiteral true
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+mem dump file SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to create mem dump file
+log SimpleName MethodInvocation SimpleName ioe
+error SimpleName MethodInvocation StringLiteral failed to create mem dump file
+error SimpleName MethodInvocation SimpleName ioe
+failed to create mem dump file StringLiteral MethodInvocation SimpleName ioe
+active iters SimpleName MethodInvocation SimpleName size
+active iters SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+tmp map SimpleName VariableDeclarationFragment SimpleName map
+simple map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp map
+simple map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+tmp map SimpleName MethodInvocation SimpleName delete
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName wait time
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wait time
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+delete SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wait time
+delete SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait time

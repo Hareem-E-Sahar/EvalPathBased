@@ -1,0 +1,30 @@
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+visit struct SimpleName MethodInvocation SimpleName type
+visit struct SimpleName MethodInvocation SimpleName entity
+type SimpleName MethodInvocation SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName walk entity graph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+walk entity graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+walk entity graph SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName walk entity graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName walk entity graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

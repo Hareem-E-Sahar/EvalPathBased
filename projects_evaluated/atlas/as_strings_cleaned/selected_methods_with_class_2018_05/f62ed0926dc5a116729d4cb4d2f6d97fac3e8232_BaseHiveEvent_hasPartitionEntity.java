@@ -1,0 +1,25 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypepartition
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypepartition
+entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName has partition entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName has partition entity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+has partition entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+has partition entity SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has partition entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has partition entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

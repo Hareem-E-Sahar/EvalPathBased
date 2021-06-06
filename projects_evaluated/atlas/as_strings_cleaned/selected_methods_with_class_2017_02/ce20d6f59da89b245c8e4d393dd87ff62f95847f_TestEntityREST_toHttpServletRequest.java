@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr value
+mockito SimpleName MethodInvocation SimpleName mock
+mockito SimpleName MethodInvocation TypeLiteral SimpleType SimpleName http servlet request
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName http servlet request
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName mockito
+request SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+http servlet request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName request
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity restprefix attr QualifiedName InfixExpression SimpleName attr name
+to parameters map SimpleName MethodInvocation InfixExpression QualifiedName entity restprefix attr
+to parameters map SimpleName MethodInvocation InfixExpression SimpleName attr name
+to parameters map SimpleName MethodInvocation SimpleName attr value
+entity restprefix attr QualifiedName InfixExpression MethodInvocation SimpleName attr value
+attr name SimpleName InfixExpression MethodInvocation SimpleName attr value
+params map SimpleName VariableDeclarationFragment MethodInvocation SimpleName to parameters map
+params map SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName entity restprefix attr
+params map SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName attr name
+params map SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr value
+request SimpleName MethodInvocation SimpleName get parameter map
+mockito SimpleName MethodInvocation SimpleName when
+mockito SimpleName MethodInvocation MethodInvocation SimpleName request
+mockito SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+when SimpleName MethodInvocation MethodInvocation SimpleName request
+when SimpleName MethodInvocation MethodInvocation SimpleName get parameter map
+mockito SimpleName MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get parameter map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+mockito SimpleName MethodInvocation MethodInvocation SimpleName params map
+when SimpleName MethodInvocation MethodInvocation SimpleName params map
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params map
+get parameter map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params map
+then return SimpleName MethodInvocation SimpleName params map
+private Modifier MethodDeclaration SimpleType SimpleName http servlet request
+private Modifier MethodDeclaration SimpleName to http servlet request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr value
+private Modifier MethodDeclaration Block ReturnStatement SimpleName request
+http servlet request SimpleName SimpleType MethodDeclaration SimpleName to http servlet request
+http servlet request SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+http servlet request SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr value
+to http servlet request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to http servlet request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+to http servlet request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to http servlet request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr value
+to http servlet request SimpleName MethodDeclaration Block ReturnStatement SimpleName request
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName http servlet request
+public Modifier TypeDeclaration MethodDeclaration SimpleName to http servlet request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName http servlet request
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to http servlet request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr value

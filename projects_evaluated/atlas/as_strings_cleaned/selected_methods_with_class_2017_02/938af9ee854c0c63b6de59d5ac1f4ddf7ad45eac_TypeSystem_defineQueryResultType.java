@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName temp types
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName temp types
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName temp types
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName attr defs
+attribute info SimpleName SimpleType ArrayType ArrayCreation QualifiedName attr defslength
+infos SimpleName VariableDeclarationFragment ArrayCreation QualifiedName attr defslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName attr defslength
+infos SimpleName ArrayAccess SimpleName i
+attr defs SimpleName ArrayAccess SimpleName i
+attribute info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName attr defs
+attribute info SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+attribute info SimpleName SimpleType ClassInstanceCreation SimpleName temp types
+attr defs SimpleName ArrayAccess ClassInstanceCreation SimpleName temp types
+i SimpleName ArrayAccess ClassInstanceCreation SimpleName temp types
+infos SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName temp types
+i SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName temp types
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName attr defslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+attr defslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+struct type SimpleName SimpleType ClassInstanceCreation SimpleName name
+struct type SimpleName SimpleType ClassInstanceCreation SimpleName infos
+name SimpleName ClassInstanceCreation SimpleName infos
+public Modifier MethodDeclaration SimpleType SimpleName struct type
+public Modifier MethodDeclaration SimpleName define query result type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName temp types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+struct type SimpleName SimpleType MethodDeclaration SimpleName define query result type
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName temp types
+struct type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+struct type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName temp types
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+define query result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+define query result type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName temp types
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+temp types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+temp types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attr defs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SimpleName define query result type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName temp types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define query result type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName temp types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

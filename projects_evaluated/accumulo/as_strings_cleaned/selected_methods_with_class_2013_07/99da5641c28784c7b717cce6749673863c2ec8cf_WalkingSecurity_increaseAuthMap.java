@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+int PrimitiveType SingleVariableDeclaration SimpleName increment
+get auths map SimpleName MethodInvocation MethodInvocation SimpleName get
+get auths map SimpleName MethodInvocation MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+cur val SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get auths map
+cur val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cur val SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur val
+integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+cur val SimpleName Assignment ClassInstanceCreation SimpleType SimpleName integer
+cur val SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+get auths map SimpleName MethodInvocation MethodInvocation SimpleName put
+get auths map SimpleName MethodInvocation MethodInvocation SimpleName s
+get auths map SimpleName MethodInvocation MethodInvocation SimpleName cur val
+put SimpleName MethodInvocation SimpleName s
+put SimpleName MethodInvocation SimpleName cur val
+s SimpleName MethodInvocation SimpleName cur val
+cur val SimpleName Assignment SimpleName increment
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName increase auth map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName increment
+void PrimitiveType MethodDeclaration SimpleName increase auth map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName increment
+increase auth map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+increase auth map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+increase auth map SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+increase auth map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName increment
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName increment
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName increase auth map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName increment
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName increase auth map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName increment

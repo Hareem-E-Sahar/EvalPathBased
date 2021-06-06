@@ -1,0 +1,30 @@
+objects SimpleName MethodInvocation SimpleName hash
+objects SimpleName MethodInvocation SimpleName root entities
+objects SimpleName MethodInvocation SimpleName repository resolved references
+objects SimpleName MethodInvocation SimpleName unresolved entity references
+objects SimpleName MethodInvocation SimpleName unresolved id references
+hash SimpleName MethodInvocation SimpleName root entities
+hash SimpleName MethodInvocation SimpleName repository resolved references
+hash SimpleName MethodInvocation SimpleName unresolved entity references
+hash SimpleName MethodInvocation SimpleName unresolved id references
+root entities SimpleName MethodInvocation SimpleName repository resolved references
+root entities SimpleName MethodInvocation SimpleName unresolved entity references
+root entities SimpleName MethodInvocation SimpleName unresolved id references
+repository resolved references SimpleName MethodInvocation SimpleName unresolved entity references
+repository resolved references SimpleName MethodInvocation SimpleName unresolved id references
+unresolved entity references SimpleName MethodInvocation SimpleName unresolved id references
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

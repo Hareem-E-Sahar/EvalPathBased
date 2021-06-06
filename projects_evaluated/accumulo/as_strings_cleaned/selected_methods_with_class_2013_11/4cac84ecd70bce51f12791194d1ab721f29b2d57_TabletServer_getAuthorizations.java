@@ -1,0 +1,25 @@
+security SimpleName MethodInvocation SimpleName get user authorizations
+security SimpleName MethodInvocation SimpleName credentials
+get user authorizations SimpleName MethodInvocation SimpleName credentials
+auths SimpleName FieldAccess Assignment MethodInvocation SimpleName security
+auths SimpleName FieldAccess Assignment MethodInvocation SimpleName get user authorizations
+auths SimpleName FieldAccess Assignment MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName authorizations
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get authorizations
+public Modifier MethodDeclaration SimpleType SimpleName authorizations
+public Modifier MethodDeclaration SimpleName get authorizations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName auths
+authorizations SimpleName SimpleType MethodDeclaration SimpleName get authorizations
+get authorizations SimpleName MethodDeclaration Block ReturnStatement SimpleName auths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authorizations
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authorizations

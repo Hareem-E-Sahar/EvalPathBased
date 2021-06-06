@@ -1,0 +1,41 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+view name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view name
+create view StringLiteral InfixExpression SimpleName view name
+create view StringLiteral InfixExpression StringLiteral as select * from
+create view StringLiteral InfixExpression SimpleName table name
+view name SimpleName InfixExpression StringLiteral as select * from
+view name SimpleName InfixExpression SimpleName table name
+as select * from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral create view
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName view name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral as select * from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation SimpleName query
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName view name
+default db SimpleName MethodInvocation SimpleName view name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create view
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create view
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create view
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create view SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create view
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create view
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,249 @@
+servletsjson media type QualifiedName ArrayInitializer QualifiedName media typeapplication json
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation ArrayInitializer QualifiedName media typeapplication json
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName http servlet request
+context SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName request
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> types resourcesubmit
+debug SimpleName MethodInvocation StringLiteral ==> types resourcesubmit
+atlas perf tracer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName perf
+atlas perf tracer SimpleName MethodInvocation SimpleName is perf trace enabled
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+is perf trace enabled SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation SimpleName get perf tracer
+atlas perf tracer SimpleName MethodInvocation SimpleName perf log
+atlas perf tracer SimpleName MethodInvocation StringLiteral types resourcesubmit
+get perf tracer SimpleName MethodInvocation SimpleName perf log
+get perf tracer SimpleName MethodInvocation StringLiteral types resourcesubmit
+perf log SimpleName MethodInvocation StringLiteral types resourcesubmit
+perf SimpleName Assignment MethodInvocation SimpleName atlas perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName get perf tracer
+perf SimpleName Assignment MethodInvocation SimpleName perf log
+perf SimpleName Assignment MethodInvocation StringLiteral types resourcesubmit
+resource context SimpleName MethodInvocation SimpleName get resource
+resource context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName types rest
+get resource SimpleName MethodInvocation TypeLiteral SimpleType SimpleName types rest
+types rest SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource context
+types rest SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+types rest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types rest
+types response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types response
+servlets SimpleName MethodInvocation SimpleName get request payload
+servlets SimpleName MethodInvocation SimpleName request
+get request payload SimpleName MethodInvocation SimpleName request
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName servlets
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get request payload
+type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName type definition
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName servlets
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get request payload
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName request
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type definition
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral creating type with definition {}
+log SimpleName MethodInvocation SimpleName type definition
+debug SimpleName MethodInvocation StringLiteral creating type with definition {}
+debug SimpleName MethodInvocation SimpleName type definition
+creating type with definition {} StringLiteral MethodInvocation SimpleName type definition
+rest utils SimpleName MethodInvocation SimpleName to atlas types def
+rest utils SimpleName MethodInvocation SimpleName type definition
+rest utils SimpleName MethodInvocation SimpleName type registry
+to atlas types def SimpleName MethodInvocation SimpleName type definition
+to atlas types def SimpleName MethodInvocation SimpleName type registry
+type definition SimpleName MethodInvocation SimpleName type registry
+create types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName rest utils
+create types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas types def
+create types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type definition
+create types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName create types def
+types rest SimpleName MethodInvocation SimpleName create atlas type defs
+types rest SimpleName MethodInvocation SimpleName create types def
+create atlas type defs SimpleName MethodInvocation SimpleName create types def
+created types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types rest
+created types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create atlas type defs
+created types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create types def
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created types def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+rest utils SimpleName MethodInvocation SimpleName get type names
+rest utils SimpleName MethodInvocation SimpleName created types def
+get type names SimpleName MethodInvocation SimpleName created types def
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName rest utils
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type names
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName created types def
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+type names SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName type names
+i SimpleName InfixExpression MethodInvocation SimpleName size
+type names SimpleName MethodInvocation SimpleName get
+type names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type names
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+put SimpleName MethodInvocation QualifiedName atlas clientname
+put SimpleName MethodInvocation SimpleName name
+atlas clientname QualifiedName MethodInvocation SimpleName name
+types response SimpleName MethodInvocation SimpleName put
+types response SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName json object
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+servlets SimpleName MethodInvocation SimpleName get request id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clientrequest id
+response SimpleName MethodInvocation MethodInvocation SimpleName servlets
+response SimpleName MethodInvocation MethodInvocation SimpleName get request id
+put SimpleName MethodInvocation QualifiedName atlas clientrequest id
+put SimpleName MethodInvocation MethodInvocation SimpleName servlets
+put SimpleName MethodInvocation MethodInvocation SimpleName get request id
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName servlets
+atlas clientrequest id QualifiedName MethodInvocation MethodInvocation SimpleName get request id
+response SimpleName MethodInvocation SimpleName put
+response SimpleName MethodInvocation QualifiedName atlas clienttypes
+response SimpleName MethodInvocation SimpleName types response
+put SimpleName MethodInvocation QualifiedName atlas clienttypes
+put SimpleName MethodInvocation SimpleName types response
+atlas clienttypes QualifiedName MethodInvocation SimpleName types response
+response SimpleName MethodInvocation SimpleName status
+response SimpleName MethodInvocation QualifiedName client responsestatuscreated
+status SimpleName MethodInvocation QualifiedName client responsestatuscreated
+response SimpleName MethodInvocation MethodInvocation SimpleName entity
+status SimpleName MethodInvocation MethodInvocation SimpleName entity
+client responsestatuscreated QualifiedName MethodInvocation MethodInvocation SimpleName entity
+response SimpleName MethodInvocation MethodInvocation SimpleName response
+status SimpleName MethodInvocation MethodInvocation SimpleName response
+client responsestatuscreated QualifiedName MethodInvocation MethodInvocation SimpleName response
+entity SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+client responsestatuscreated QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+entity SimpleName MethodInvocation MethodInvocation SimpleName build
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral type creation failed
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral type creation failed
+error SimpleName MethodInvocation SimpleName e
+type creation failed StringLiteral MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to persist types
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to persist types
+error SimpleName MethodInvocation SimpleName e
+unable to persist types StringLiteral MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusbad request
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusbad request
+e SimpleName MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusbad request
+web application exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to persist types
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to persist types
+error SimpleName MethodInvocation SimpleName e
+unable to persist types StringLiteral MethodInvocation SimpleName e
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to persist types
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to persist types
+error SimpleName MethodInvocation SimpleName e
+unable to persist types StringLiteral MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation SimpleName get error response
+servlets SimpleName MethodInvocation SimpleName e
+servlets SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+get error response SimpleName MethodInvocation SimpleName e
+get error response SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+e SimpleName MethodInvocation QualifiedName responsestatusinternal server error
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName servlets
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get error response
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+web application exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName responsestatusinternal server error
+atlas perf tracer SimpleName MethodInvocation SimpleName log
+atlas perf tracer SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName perf
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== types resourcesubmit
+debug SimpleName MethodInvocation StringLiteral <== types resourcesubmit
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName consumes
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+post SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+post SimpleName MarkerAnnotation MethodDeclaration Modifier public
+post SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+post SimpleName MarkerAnnotation MethodDeclaration SimpleName submit
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+consumes SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration Modifier public
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SimpleName submit
+servletsjson media type QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName submit
+media typeapplication json QualifiedName ArrayInitializer SingleMemberAnnotation MethodDeclaration SimpleName submit
+consumes SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName submit
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName submit
+produces SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName submit
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+response SimpleName SimpleType MethodDeclaration SimpleName submit
+response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+submit SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName context
+submit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+submit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName submit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName post
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName consumes
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName submit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

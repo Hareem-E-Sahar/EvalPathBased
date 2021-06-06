@@ -1,0 +1,24 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName constraints
+atlas constraint def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName constraints
+constraints SimpleName FieldAccess InfixExpression SimpleName constraints
+collection utils SimpleName MethodInvocation SimpleName is empty
+collection utils SimpleName MethodInvocation SimpleName constraints
+is empty SimpleName MethodInvocation SimpleName constraints
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName constraints
+constraints SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName constraints
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set constraints
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName constraints
+void PrimitiveType MethodDeclaration SimpleName set constraints
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName constraints
+set constraints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName constraints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set constraints
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraints
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set constraints
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName constraints

@@ -1,0 +1,20 @@
+asset SimpleName SimpleType SingleVariableDeclaration SimpleName asset
+asset SimpleName FieldAccess Assignment SimpleName asset
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set asset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset
+void PrimitiveType MethodDeclaration SimpleName set asset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName asset
+set asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName asset
+set asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set asset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set asset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset

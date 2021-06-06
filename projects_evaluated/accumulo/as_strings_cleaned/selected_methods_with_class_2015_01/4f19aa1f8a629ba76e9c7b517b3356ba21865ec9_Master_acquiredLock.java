@@ -1,0 +1,47 @@
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral acquired master lock
+debug SimpleName MethodInvocation StringLiteral acquired master lock
+acquired lock SimpleName InfixExpression SimpleName failed to acquire lock
+zoolock in unexpected state al StringLiteral InfixExpression SimpleName acquired lock
+zoolock in unexpected state al StringLiteral InfixExpression StringLiteral empty
+zoolock in unexpected state al StringLiteral InfixExpression SimpleName failed to acquire lock
+acquired lock SimpleName InfixExpression StringLiteral empty
+acquired lock SimpleName InfixExpression SimpleName failed to acquire lock
+empty StringLiteral InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation SimpleName halt
+halt SimpleName MethodInvocation InfixExpression StringLiteral zoolock in unexpected state al
+halt SimpleName MethodInvocation InfixExpression SimpleName acquired lock
+halt SimpleName MethodInvocation InfixExpression StringLiteral empty
+halt SimpleName MethodInvocation InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+halt SimpleName MethodInvocation InfixExpression StringLiteral zoolock in unexpected state al
+halt SimpleName MethodInvocation InfixExpression SimpleName acquired lock
+halt SimpleName MethodInvocation InfixExpression StringLiteral empty
+halt SimpleName MethodInvocation InfixExpression SimpleName failed to acquire lock
+halt SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+zoolock in unexpected state al StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+acquired lock SimpleName InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+failed to acquire lock SimpleName InfixExpression MethodInvocation PrefixExpression NumberLiteral empty
+acquired lock SimpleName Assignment BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName acquired lock
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName acquired lock
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName acquired lock
+void PrimitiveType MethodDeclaration SimpleName acquired lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName acquired lock
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName acquired lock

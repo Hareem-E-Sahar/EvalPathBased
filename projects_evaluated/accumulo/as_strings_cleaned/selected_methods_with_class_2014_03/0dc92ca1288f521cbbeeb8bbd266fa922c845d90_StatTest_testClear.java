@@ -1,0 +1,115 @@
+zero SimpleName MethodInvocation SimpleName clear
+stat SimpleName MethodInvocation SimpleName clear
+zero SimpleName MethodInvocation SimpleName get max
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName zero
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get max
+zero SimpleName MethodInvocation SimpleName get max
+stat SimpleName MethodInvocation SimpleName get max
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stat
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max
+get max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+get max SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max
+zero SimpleName MethodInvocation SimpleName get min
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get min
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName zero
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get min
+zero SimpleName MethodInvocation SimpleName get min
+stat SimpleName MethodInvocation SimpleName get min
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get min
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stat
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get min
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min
+get min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+get min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min
+zero SimpleName MethodInvocation SimpleName get sum
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get sum
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName zero
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get sum
+zero SimpleName MethodInvocation SimpleName get sum
+stat SimpleName MethodInvocation SimpleName get sum
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get sum
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stat
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get sum
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get sum
+get sum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+get sum SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get sum
+zero SimpleName MethodInvocation SimpleName get average
+assert equals SimpleName MethodInvocation QualifiedName doublena n
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get average
+assert equals SimpleName MethodInvocation NumberLiteral empty
+doublena n QualifiedName MethodInvocation MethodInvocation SimpleName zero
+doublena n QualifiedName MethodInvocation MethodInvocation SimpleName get average
+doublena n QualifiedName MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get average SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation SimpleName get average
+stat SimpleName MethodInvocation SimpleName get average
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get average
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stat
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get average
+assert equals SimpleName MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get average
+get average SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+get average SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get average
+zero SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get average SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+stat SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get average SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation SimpleName get std dev
+assert equals SimpleName MethodInvocation QualifiedName doublena n
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get std dev
+assert equals SimpleName MethodInvocation NumberLiteral empty
+doublena n QualifiedName MethodInvocation MethodInvocation SimpleName zero
+doublena n QualifiedName MethodInvocation MethodInvocation SimpleName get std dev
+doublena n QualifiedName MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get std dev SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation SimpleName get std dev
+stat SimpleName MethodInvocation SimpleName get std dev
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName zero
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get std dev
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stat
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get std dev
+assert equals SimpleName MethodInvocation NumberLiteral empty
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+zero SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get std dev
+get std dev SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stat
+get std dev SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get std dev
+zero SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get std dev SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+stat SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get std dev SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test clear
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test clear
+void PrimitiveType MethodDeclaration SimpleName test clear
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test clear
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test clear

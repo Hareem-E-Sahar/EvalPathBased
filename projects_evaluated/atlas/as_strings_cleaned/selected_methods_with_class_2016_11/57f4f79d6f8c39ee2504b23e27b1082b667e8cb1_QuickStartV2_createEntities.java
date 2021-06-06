@@ -1,0 +1,500 @@
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral creating sample entities
+println SimpleName MethodInvocation StringLiteral creating sample entities
+create database SimpleName MethodInvocation SimpleName sales db
+create database SimpleName MethodInvocation StringLiteral sales database
+create database SimpleName MethodInvocation StringLiteral john etl
+create database SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+sales db SimpleName MethodInvocation StringLiteral sales database
+sales db SimpleName MethodInvocation StringLiteral john etl
+sales db SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+sales database StringLiteral MethodInvocation StringLiteral john etl
+sales database StringLiteral MethodInvocation StringLiteral hdfshost appswarehousesales
+john etl StringLiteral MethodInvocation StringLiteral hdfshost appswarehousesales
+sales db SimpleName VariableDeclarationFragment MethodInvocation SimpleName create database
+sales db SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales database
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral john etl
+sales db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehousesales
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sales db
+create database SimpleName MethodInvocation SimpleName reporting db
+create database SimpleName MethodInvocation StringLiteral reporting database
+create database SimpleName MethodInvocation StringLiteral jane bi
+create database SimpleName MethodInvocation StringLiteral hdfshost appswarehousereporting
+reporting db SimpleName MethodInvocation StringLiteral reporting database
+reporting db SimpleName MethodInvocation StringLiteral jane bi
+reporting db SimpleName MethodInvocation StringLiteral hdfshost appswarehousereporting
+reporting database StringLiteral MethodInvocation StringLiteral jane bi
+reporting database StringLiteral MethodInvocation StringLiteral hdfshost appswarehousereporting
+jane bi StringLiteral MethodInvocation StringLiteral hdfshost appswarehousereporting
+reporting db SimpleName VariableDeclarationFragment MethodInvocation SimpleName create database
+reporting db SimpleName VariableDeclarationFragment MethodInvocation SimpleName reporting db
+reporting db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral reporting database
+reporting db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jane bi
+reporting db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehousereporting
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reporting db
+create database SimpleName MethodInvocation SimpleName logging db
+create database SimpleName MethodInvocation StringLiteral logging database
+create database SimpleName MethodInvocation StringLiteral tim etl
+create database SimpleName MethodInvocation StringLiteral hdfshost appswarehouselogging
+logging db SimpleName MethodInvocation StringLiteral logging database
+logging db SimpleName MethodInvocation StringLiteral tim etl
+logging db SimpleName MethodInvocation StringLiteral hdfshost appswarehouselogging
+logging database StringLiteral MethodInvocation StringLiteral tim etl
+logging database StringLiteral MethodInvocation StringLiteral hdfshost appswarehouselogging
+tim etl StringLiteral MethodInvocation StringLiteral hdfshost appswarehouselogging
+log db SimpleName VariableDeclarationFragment MethodInvocation SimpleName create database
+log db SimpleName VariableDeclarationFragment MethodInvocation SimpleName logging db
+log db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral logging database
+log db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tim etl
+log db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehouselogging
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log db
+create storage descriptor SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+create storage descriptor SimpleName MethodInvocation StringLiteral text input format
+create storage descriptor SimpleName MethodInvocation StringLiteral text output format
+create storage descriptor SimpleName MethodInvocation BooleanLiteral true
+hdfshost appswarehousesales StringLiteral MethodInvocation StringLiteral text input format
+hdfshost appswarehousesales StringLiteral MethodInvocation StringLiteral text output format
+hdfshost appswarehousesales StringLiteral MethodInvocation BooleanLiteral true
+text input format StringLiteral MethodInvocation StringLiteral text output format
+text input format StringLiteral MethodInvocation BooleanLiteral true
+text output format StringLiteral MethodInvocation BooleanLiteral true
+storage desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName create storage descriptor
+storage desc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehousesales
+storage desc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral text input format
+storage desc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral text output format
+storage desc SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage desc
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+create column SimpleName MethodInvocation SimpleName time id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral time id
+time id column SimpleName MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation StringLiteral time id
+int StringLiteral MethodInvocation StringLiteral time id
+create column SimpleName MethodInvocation SimpleName product id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral product id
+product id column SimpleName MethodInvocation StringLiteral int
+product id column SimpleName MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation SimpleName customer id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral customer id
+create column SimpleName MethodInvocation SimpleName pii classification
+customer id column SimpleName MethodInvocation StringLiteral int
+customer id column SimpleName MethodInvocation StringLiteral customer id
+customer id column SimpleName MethodInvocation SimpleName pii classification
+int StringLiteral MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation SimpleName pii classification
+customer id StringLiteral MethodInvocation SimpleName pii classification
+create column SimpleName MethodInvocation SimpleName sales column
+create column SimpleName MethodInvocation StringLiteral double
+create column SimpleName MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation SimpleName metric classification
+sales column SimpleName MethodInvocation StringLiteral double
+sales column SimpleName MethodInvocation StringLiteral product id
+sales column SimpleName MethodInvocation SimpleName metric classification
+double StringLiteral MethodInvocation StringLiteral product id
+double StringLiteral MethodInvocation SimpleName metric classification
+product id StringLiteral MethodInvocation SimpleName metric classification
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName time id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName product id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName customer id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName pii classification
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName sales column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral double
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName metric classification
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName time id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName product id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral product id
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName customer id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral customer id
+of SimpleName MethodInvocation MethodInvocation SimpleName pii classification
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName sales column
+of SimpleName MethodInvocation MethodInvocation StringLiteral double
+of SimpleName MethodInvocation MethodInvocation StringLiteral product id
+of SimpleName MethodInvocation MethodInvocation SimpleName metric classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName product id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName product id column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName product id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName product id column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName customer id column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral customer id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName pii classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+product id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+product id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+customer id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+customer id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+customer id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+customer id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+customer id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+customer id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+pii classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+pii classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sales column
+pii classification SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral double
+pii classification SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral product id
+pii classification SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName metric classification
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName time id column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName product id column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral product id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName customer id column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral customer id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pii classification
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sales column
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral double
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral product id
+sales fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName metric classification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+create column SimpleName MethodInvocation SimpleName time id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral time id
+time id column SimpleName MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation StringLiteral time id
+int StringLiteral MethodInvocation StringLiteral time id
+create column SimpleName MethodInvocation SimpleName app id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral app id
+app id column SimpleName MethodInvocation StringLiteral int
+app id column SimpleName MethodInvocation StringLiteral app id
+int StringLiteral MethodInvocation StringLiteral app id
+create column SimpleName MethodInvocation SimpleName machine id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral machine id
+machine id column SimpleName MethodInvocation StringLiteral int
+machine id column SimpleName MethodInvocation StringLiteral machine id
+int StringLiteral MethodInvocation StringLiteral machine id
+create column SimpleName MethodInvocation SimpleName log column
+create column SimpleName MethodInvocation StringLiteral string
+create column SimpleName MethodInvocation StringLiteral log data
+create column SimpleName MethodInvocation SimpleName logdata classification
+log column SimpleName MethodInvocation StringLiteral string
+log column SimpleName MethodInvocation StringLiteral log data
+log column SimpleName MethodInvocation SimpleName logdata classification
+string StringLiteral MethodInvocation StringLiteral log data
+string StringLiteral MethodInvocation SimpleName logdata classification
+log data StringLiteral MethodInvocation SimpleName logdata classification
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName time id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName app id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral app id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName machine id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral machine id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName log column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral string
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral log data
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName logdata classification
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName time id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName app id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral app id
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName machine id column
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral machine id
+of SimpleName MethodInvocation MethodInvocation SimpleName create column
+of SimpleName MethodInvocation MethodInvocation SimpleName log column
+of SimpleName MethodInvocation MethodInvocation StringLiteral string
+of SimpleName MethodInvocation MethodInvocation StringLiteral log data
+of SimpleName MethodInvocation MethodInvocation SimpleName logdata classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName app id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral app id
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName app id column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral app id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName app id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral app id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName app id column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral app id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+time id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+time id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName machine id column
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral machine id
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+app id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+app id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+create column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+machine id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+machine id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+machine id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+machine id column SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+machine id column SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+int StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+machine id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create column
+machine id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName log column
+machine id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral string
+machine id StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral log data
+machine id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName logdata classification
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName time id column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral time id
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName app id column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral app id
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName machine id column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral int
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral machine id
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName log column
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral string
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral log data
+log fact columns SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName logdata classification
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+create column SimpleName MethodInvocation SimpleName product id column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral product id
+product id column SimpleName MethodInvocation StringLiteral int
+product id column SimpleName MethodInvocation StringLiteral product id
+int StringLiteral MethodInvocation StringLiteral product id
+create column SimpleName MethodInvocation SimpleName product name column
+create column SimpleName MethodInvocation StringLiteral string
+create column SimpleName MethodInvocation StringLiteral product name
+product name column SimpleName MethodInvocation StringLiteral string
+product name column SimpleName MethodInvocation StringLiteral product name
+string StringLiteral MethodInvocation StringLiteral product name
+create column SimpleName MethodInvocation SimpleName brand name column
+create column SimpleName MethodInvocation StringLiteral int
+create column SimpleName MethodInvocation StringLiteral brand name
+brand name column SimpleName MethodInvocation StringLiteral int
+brand name column SimpleName MethodInvocation StringLiteral brand name
+int StringLiteral MethodInvocation StringLiteral brand name
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName product id column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product id
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName product name column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral string
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral product name
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName create column
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName brand name column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int

@@ -1,0 +1,168 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+string SimpleName SimpleType SingleVariableDeclaration SimpleName category guid
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+int PrimitiveType SingleVariableDeclaration SimpleName limit
+sort order SimpleName SimpleType SingleVariableDeclaration SimpleName sort order
+objects SimpleName MethodInvocation SimpleName is null
+objects SimpleName MethodInvocation SimpleName category guid
+is null SimpleName MethodInvocation SimpleName category guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral category guid is nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral category guid is nullempty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary serviceget category terms {} {} {})
+log SimpleName MethodInvocation SimpleName category guid
+log SimpleName MethodInvocation SimpleName offset
+log SimpleName MethodInvocation SimpleName limit
+debug SimpleName MethodInvocation StringLiteral ==> glossary serviceget category terms {} {} {})
+debug SimpleName MethodInvocation SimpleName category guid
+debug SimpleName MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation SimpleName limit
+debug SimpleName MethodInvocation SimpleName sort order
+==> glossary serviceget category terms {} {} {}) StringLiteral MethodInvocation SimpleName category guid
+==> glossary serviceget category terms {} {} {}) StringLiteral MethodInvocation SimpleName offset
+==> glossary serviceget category terms {} {} {}) StringLiteral MethodInvocation SimpleName limit
+==> glossary serviceget category terms {} {} {}) StringLiteral MethodInvocation SimpleName sort order
+category guid SimpleName MethodInvocation SimpleName offset
+category guid SimpleName MethodInvocation SimpleName limit
+category guid SimpleName MethodInvocation SimpleName sort order
+offset SimpleName MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation SimpleName sort order
+limit SimpleName MethodInvocation SimpleName sort order
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+get category SimpleName MethodInvocation SimpleName category guid
+glossary category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get category
+glossary category SimpleName VariableDeclarationFragment MethodInvocation SimpleName category guid
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glossary category
+glossary category SimpleName MethodInvocation SimpleName get terms
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get terms
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get terms
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+glossary category SimpleName MethodInvocation SimpleName get terms
+terms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glossary category
+terms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get terms
+sort order SimpleName InfixExpression QualifiedName sort orderascending
+o SimpleName MethodInvocation SimpleName get display text
+o SimpleName MethodInvocation SimpleName get display text
+o SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get display text SimpleName MethodInvocation MethodInvocation SimpleName compare to
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+get display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+compare to SimpleName MethodInvocation MethodInvocation SimpleName o
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get display text
+o SimpleName MethodInvocation SimpleName get display text
+o SimpleName MethodInvocation SimpleName get display text
+o SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get display text SimpleName MethodInvocation MethodInvocation SimpleName compare to
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+o SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+get display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+get display text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+compare to SimpleName MethodInvocation MethodInvocation SimpleName o
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get display text
+sort order SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName compare to
+sort orderascending QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName compare to
+sort order SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName compare to
+sort orderascending QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName compare to
+compare to SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName compare to
+o SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName o
+terms SimpleName MethodInvocation SimpleName sort
+terms SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName o
+terms SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName o
+sort SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName o
+sort SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName o
+pagination helper SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName terms
+pagination helper SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName offset
+pagination helper SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName limit
+terms SimpleName ClassInstanceCreation SimpleName offset
+terms SimpleName ClassInstanceCreation SimpleName limit
+offset SimpleName ClassInstanceCreation SimpleName limit
+terms SimpleName ClassInstanceCreation MethodInvocation SimpleName get paginated list
+offset SimpleName ClassInstanceCreation MethodInvocation SimpleName get paginated list
+limit SimpleName ClassInstanceCreation MethodInvocation SimpleName get paginated list
+ret SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName terms
+ret SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName offset
+ret SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName limit
+ret SimpleName Assignment MethodInvocation SimpleName get paginated list
+collections SimpleName MethodInvocation SimpleName empty list
+ret SimpleName Assignment MethodInvocation SimpleName collections
+ret SimpleName Assignment MethodInvocation SimpleName empty list
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary serviceget category terms : {}
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== glossary serviceget category terms : {}
+debug SimpleName MethodInvocation SimpleName ret
+<== glossary serviceget category terms : {} StringLiteral MethodInvocation SimpleName ret
+debug enabled SimpleName IfStatement Block IfStatement SimpleName debug enabled
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName ret
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName ret
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get category terms
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName category guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas related term header
+public Modifier MethodDeclaration SimpleName get category terms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category guid
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get category terms
+atlas related term header SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get category terms
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category guid
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sort order
+get category terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sort order
+get category terms SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+limit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+limit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+sort order SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get category terms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get category terms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sort order
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,49 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName from type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+get qualified attribute property key SimpleName MethodInvocation SimpleName from type
+get qualified attribute property key SimpleName MethodInvocation SimpleName attribute name
+from type SimpleName MethodInvocation SimpleName attribute name
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute property key
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName from type
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName attribute name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get attribute edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get attribute edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName get attribute edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName from type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get attribute edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+get attribute edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from type
+get attribute edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get attribute edge label SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+from type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+from type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

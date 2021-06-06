@@ -1,0 +1,51 @@
+store backed type cache SimpleName MethodInvocation SimpleName is cached in memory
+store backed type cache SimpleName MethodInvocation StringLiteral manager
+is cached in memory SimpleName MethodInvocation StringLiteral manager
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName store backed type cache
+assert SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert SimpleName MethodInvocation MethodInvocation StringLiteral manager
+assert false SimpleName MethodInvocation MethodInvocation SimpleName store backed type cache
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral manager
+metadata service SimpleName MethodInvocation SimpleName get type definition
+metadata service SimpleName MethodInvocation StringLiteral manager
+get type definition SimpleName MethodInvocation StringLiteral manager
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName metadata service
+assert SimpleName MethodInvocation MethodInvocation SimpleName get type definition
+assert SimpleName MethodInvocation MethodInvocation StringLiteral manager
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName metadata service
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get type definition
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral manager
+store backed type cache SimpleName MethodInvocation SimpleName is cached in memory
+store backed type cache SimpleName MethodInvocation StringLiteral manager
+is cached in memory SimpleName MethodInvocation StringLiteral manager
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName store backed type cache
+assert SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert SimpleName MethodInvocation MethodInvocation StringLiteral manager
+assert true SimpleName MethodInvocation MethodInvocation SimpleName store backed type cache
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is cached in memory
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral manager
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get type definition
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get type definition
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get type definition
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get type definition SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

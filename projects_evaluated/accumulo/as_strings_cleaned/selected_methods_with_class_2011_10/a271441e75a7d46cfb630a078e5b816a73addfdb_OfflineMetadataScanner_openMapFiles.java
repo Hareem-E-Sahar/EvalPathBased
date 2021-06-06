@@ -1,0 +1,98 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file operations SimpleName MethodInvocation SimpleName get instance
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName file
+get instance SimpleName MethodInvocation MethodInvocation SimpleName file
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation SimpleName file
+open reader SimpleName MethodInvocation BooleanLiteral true
+open reader SimpleName MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+file SimpleName MethodInvocation BooleanLiteral true
+file SimpleName MethodInvocation SimpleName fs
+file SimpleName MethodInvocation SimpleName conf
+file SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+file SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+true BooleanLiteral MethodInvocation SimpleName fs
+true BooleanLiteral MethodInvocation SimpleName conf
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName server configuration
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get system configuration
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName server configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get system configuration
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+reader SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+readers SimpleName MethodInvocation SimpleName add
+readers SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files
+files SimpleName EnhancedForStatement Block ReturnStatement SimpleName readers
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName open map files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName open map files
+open map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+open map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+open map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+open map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+open map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+open map files SimpleName MethodDeclaration SimpleType SimpleName io exception
+open map files SimpleName MethodDeclaration Block EnhancedForStatement SimpleName files
+open map files SimpleName MethodDeclaration Block ReturnStatement SimpleName readers
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+fs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName open map files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open map files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,16 @@
+type cache SimpleName MethodInvocation SimpleName clear
+interface audienceprivate QualifiedName MarkerAnnotation MethodDeclaration Modifier public
+interface audienceprivate QualifiedName MarkerAnnotation MethodDeclaration SimpleType SimpleName type system
+interface audienceprivate QualifiedName MarkerAnnotation MethodDeclaration SimpleName reset
+public Modifier MethodDeclaration SimpleType SimpleName type system
+public Modifier MethodDeclaration SimpleName reset
+type system SimpleName SimpleType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation QualifiedName interface audienceprivate
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation QualifiedName interface audienceprivate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

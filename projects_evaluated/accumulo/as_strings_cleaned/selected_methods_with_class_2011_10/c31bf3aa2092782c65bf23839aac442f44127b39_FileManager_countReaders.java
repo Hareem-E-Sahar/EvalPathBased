@@ -1,0 +1,46 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName open reader
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName open reader
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+open reader SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+files SimpleName MethodInvocation SimpleName values
+list SimpleName MethodInvocation SimpleName size
+count SimpleName Assignment MethodInvocation SimpleName list
+count SimpleName Assignment MethodInvocation SimpleName size
+list SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName files
+list SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName count readers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName count
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName count readers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName count
+int PrimitiveType MethodDeclaration SimpleName count readers
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName count
+count readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+count readers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+count readers SimpleName MethodDeclaration Block ReturnStatement SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName count readers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName count readers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files

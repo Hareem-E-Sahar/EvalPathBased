@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName expected category
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName entity type
+is empty SimpleName MethodInvocation SimpleName entity type
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype name invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+atlas error codetype name invalid QualifiedName ClassInstanceCreation SimpleName entity type
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation SimpleName entity type
+get type SimpleName MethodInvocation SimpleName entity type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation InfixExpression SimpleName expected category
+get type category SimpleName MethodInvocation InfixExpression SimpleName expected category
+type SimpleName MethodInvocation SimpleName get type category
+type SimpleName MethodInvocation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation MethodInvocation SimpleName name
+expected category SimpleName MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codetype category invalid
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName expected category
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName type
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get type category
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName expected category
+atlas error codetype category invalid QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName expected category
+name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName atlas type
+private Modifier MethodDeclaration SimpleName validate type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected category
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas type SimpleName SimpleType MethodDeclaration SimpleName validate type
+atlas type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+atlas type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName expected category
+atlas type SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+validate type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+validate type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+validate type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected category
+validate type SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+validate type SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected category
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+expected category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

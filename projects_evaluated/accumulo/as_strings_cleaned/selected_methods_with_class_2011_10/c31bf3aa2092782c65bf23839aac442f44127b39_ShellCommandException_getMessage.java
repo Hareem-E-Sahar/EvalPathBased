@@ -1,0 +1,21 @@
+( StringLiteral InfixExpression SimpleName command
+( StringLiteral InfixExpression StringLiteral )
+command SimpleName InfixExpression StringLiteral )
+command SimpleName InfixExpression ConditionalExpression InfixExpression StringLiteral (
+command SimpleName InfixExpression ConditionalExpression InfixExpression SimpleName command
+command SimpleName InfixExpression ConditionalExpression InfixExpression StringLiteral )
+command SimpleName InfixExpression ConditionalExpression StringLiteral empty
+( StringLiteral InfixExpression ConditionalExpression StringLiteral empty
+command SimpleName InfixExpression ConditionalExpression StringLiteral empty
+) StringLiteral InfixExpression ConditionalExpression StringLiteral empty
+code SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get message
+string SimpleName SimpleType MethodDeclaration SimpleName get message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message

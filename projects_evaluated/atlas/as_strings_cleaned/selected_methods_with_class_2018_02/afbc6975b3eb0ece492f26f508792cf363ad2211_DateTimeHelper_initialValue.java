@@ -1,0 +1,31 @@
+simple date format SimpleName SimpleType ClassInstanceCreation SimpleName iso format
+date format SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple date format
+date format SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName iso format
+date format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName date format
+time zone SimpleName MethodInvocation SimpleName get time zone
+time zone SimpleName MethodInvocation StringLiteral utc
+get time zone SimpleName MethodInvocation StringLiteral utc
+date format SimpleName MethodInvocation SimpleName set time zone
+date format SimpleName MethodInvocation MethodInvocation SimpleName time zone
+date format SimpleName MethodInvocation MethodInvocation SimpleName get time zone
+date format SimpleName MethodInvocation MethodInvocation StringLiteral utc
+set time zone SimpleName MethodInvocation MethodInvocation SimpleName time zone
+set time zone SimpleName MethodInvocation MethodInvocation SimpleName get time zone
+set time zone SimpleName MethodInvocation MethodInvocation StringLiteral utc
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName date format
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initial value
+public Modifier MethodDeclaration SimpleType SimpleName date format
+public Modifier MethodDeclaration SimpleName initial value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName date format
+date format SimpleName SimpleType MethodDeclaration SimpleName initial value
+initial value SimpleName MethodDeclaration Block ReturnStatement SimpleName date format
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName date format
+public Modifier TypeDeclaration MethodDeclaration SimpleName initial value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName date format
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initial value

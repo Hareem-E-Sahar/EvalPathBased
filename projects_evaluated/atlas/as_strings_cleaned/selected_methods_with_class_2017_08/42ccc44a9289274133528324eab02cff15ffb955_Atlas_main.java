@@ -1,0 +1,232 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+parse args SimpleName MethodInvocation SimpleName args
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse args
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+properties configuration SimpleName SimpleType ClassInstanceCreation StringLiteral atlasbuildinfoproperties
+build configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties configuration
+build configuration SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral atlasbuildinfoproperties
+properties configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName build configuration
+get project version SimpleName MethodInvocation SimpleName build configuration
+webapptargetatlaswebapp StringLiteral InfixExpression MethodInvocation SimpleName get project version
+webapptargetatlaswebapp StringLiteral InfixExpression MethodInvocation SimpleName build configuration
+app path SimpleName VariableDeclarationFragment InfixExpression StringLiteral webapptargetatlaswebapp
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get project version
+app path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName build configuration
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app path
+cmd SimpleName MethodInvocation SimpleName has option
+cmd SimpleName MethodInvocation SimpleName app path
+has option SimpleName MethodInvocation SimpleName app path
+cmd SimpleName MethodInvocation SimpleName get option value
+cmd SimpleName MethodInvocation SimpleName app path
+get option value SimpleName MethodInvocation SimpleName app path
+app path SimpleName Assignment MethodInvocation SimpleName cmd
+app path SimpleName Assignment MethodInvocation SimpleName get option value
+app path SimpleName Assignment MethodInvocation SimpleName app path
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName security propertiestls enabled
+get string SimpleName MethodInvocation QualifiedName security propertiestls enabled
+enable tls flag SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+enable tls flag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+enable tls flag SimpleName VariableDeclarationFragment MethodInvocation QualifiedName security propertiestls enabled
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName enable tls flag
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName security propertiestls enabled
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enable tls flag
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName security propertiesbind address
+configuration SimpleName MethodInvocation QualifiedName embedded serveratlas default bind address
+get string SimpleName MethodInvocation QualifiedName security propertiesbind address
+get string SimpleName MethodInvocation QualifiedName embedded serveratlas default bind address
+security propertiesbind address QualifiedName MethodInvocation QualifiedName embedded serveratlas default bind address
+app host SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+app host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+app host SimpleName VariableDeclarationFragment MethodInvocation QualifiedName security propertiesbind address
+app host SimpleName VariableDeclarationFragment MethodInvocation QualifiedName embedded serveratlas default bind address
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName app host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName security propertiesbind address
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName embedded serveratlas default bind address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app host
+inet address SimpleName MethodInvocation SimpleName get by name
+inet address SimpleName MethodInvocation SimpleName app host
+get by name SimpleName MethodInvocation SimpleName app host
+is local address SimpleName MethodInvocation MethodInvocation SimpleName inet address
+is local address SimpleName MethodInvocation MethodInvocation SimpleName get by name
+is local address SimpleName MethodInvocation MethodInvocation SimpleName app host
+failed to start atlas server address StringLiteral InfixExpression SimpleName app host
+failed to start atlas server address StringLiteral InfixExpression StringLiteral does not belong to this host correct configuration parameter
+failed to start atlas server address StringLiteral InfixExpression QualifiedName security propertiesbind address
+app host SimpleName InfixExpression StringLiteral does not belong to this host correct configuration parameter
+app host SimpleName InfixExpression QualifiedName security propertiesbind address
+does not belong to this host correct configuration parameter StringLiteral InfixExpression QualifiedName security propertiesbind address
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral failed to start atlas server address
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName app host
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral does not belong to this host correct configuration parameter
+msg SimpleName VariableDeclarationFragment InfixExpression QualifiedName security propertiesbind address
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName msg
+error SimpleName MethodInvocation SimpleName msg
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+get application port SimpleName MethodInvocation SimpleName cmd
+get application port SimpleName MethodInvocation SimpleName enable tls flag
+get application port SimpleName MethodInvocation SimpleName configuration
+cmd SimpleName MethodInvocation SimpleName enable tls flag
+cmd SimpleName MethodInvocation SimpleName configuration
+enable tls flag SimpleName MethodInvocation SimpleName configuration
+app port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get application port
+app port SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+app port SimpleName VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+app port SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName app port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get application port
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cmd
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName app port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get application port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cmd
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName configuration
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName app port
+value of SimpleName MethodInvocation SimpleName app port
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation QualifiedName atlas constantssystem property app port
+system SimpleName MethodInvocation MethodInvocation SimpleName string
+system SimpleName MethodInvocation MethodInvocation SimpleName value of
+system SimpleName MethodInvocation MethodInvocation SimpleName app port
+set property SimpleName MethodInvocation QualifiedName atlas constantssystem property app port
+set property SimpleName MethodInvocation MethodInvocation SimpleName string
+set property SimpleName MethodInvocation MethodInvocation SimpleName value of
+set property SimpleName MethodInvocation MethodInvocation SimpleName app port
+atlas constantssystem property app port QualifiedName MethodInvocation MethodInvocation SimpleName string
+atlas constantssystem property app port QualifiedName MethodInvocation MethodInvocation SimpleName value of
+atlas constantssystem property app port QualifiedName MethodInvocation MethodInvocation SimpleName app port
+is tls enabled SimpleName MethodInvocation SimpleName enable tls flag
+is tls enabled SimpleName MethodInvocation SimpleName app port
+enable tls flag SimpleName MethodInvocation SimpleName app port
+enable tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName is tls enabled
+enable tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+enable tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName app port
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName enable tls
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is tls enabled
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName app port
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName enable tls
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is tls enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName enable tls flag
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName app port
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName enable tls
+value of SimpleName MethodInvocation SimpleName enable tls
+configuration SimpleName MethodInvocation SimpleName set property
+configuration SimpleName MethodInvocation QualifiedName security propertiestls enabled
+configuration SimpleName MethodInvocation MethodInvocation SimpleName string
+configuration SimpleName MethodInvocation MethodInvocation SimpleName value of
+configuration SimpleName MethodInvocation MethodInvocation SimpleName enable tls
+set property SimpleName MethodInvocation QualifiedName security propertiestls enabled
+set property SimpleName MethodInvocation MethodInvocation SimpleName string
+set property SimpleName MethodInvocation MethodInvocation SimpleName value of
+set property SimpleName MethodInvocation MethodInvocation SimpleName enable tls
+security propertiestls enabled QualifiedName MethodInvocation MethodInvocation SimpleName string
+security propertiestls enabled QualifiedName MethodInvocation MethodInvocation SimpleName value of
+security propertiestls enabled QualifiedName MethodInvocation MethodInvocation SimpleName enable tls
+show startup info SimpleName MethodInvocation SimpleName build configuration
+show startup info SimpleName MethodInvocation SimpleName enable tls
+show startup info SimpleName MethodInvocation SimpleName app port
+build configuration SimpleName MethodInvocation SimpleName enable tls
+build configuration SimpleName MethodInvocation SimpleName app port
+enable tls SimpleName MethodInvocation SimpleName app port
+embedded server SimpleName MethodInvocation SimpleName new server
+embedded server SimpleName MethodInvocation SimpleName app host
+embedded server SimpleName MethodInvocation SimpleName app port
+embedded server SimpleName MethodInvocation SimpleName app path
+embedded server SimpleName MethodInvocation SimpleName enable tls
+new server SimpleName MethodInvocation SimpleName app host
+new server SimpleName MethodInvocation SimpleName app port
+new server SimpleName MethodInvocation SimpleName app path
+new server SimpleName MethodInvocation SimpleName enable tls
+app host SimpleName MethodInvocation SimpleName app port
+app host SimpleName MethodInvocation SimpleName app path
+app host SimpleName MethodInvocation SimpleName enable tls
+app port SimpleName MethodInvocation SimpleName app path
+app port SimpleName MethodInvocation SimpleName enable tls
+app path SimpleName MethodInvocation SimpleName enable tls
+server SimpleName Assignment MethodInvocation SimpleName embedded server
+server SimpleName Assignment MethodInvocation SimpleName new server
+server SimpleName Assignment MethodInvocation SimpleName app host
+server SimpleName Assignment MethodInvocation SimpleName app port
+server SimpleName Assignment MethodInvocation SimpleName app path
+server SimpleName Assignment MethodInvocation SimpleName enable tls
+server SimpleName MethodInvocation SimpleName start
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

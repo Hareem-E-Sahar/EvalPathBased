@@ -1,0 +1,33 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName typed instances
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName typed instances
+entity change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+listener SimpleName MethodInvocation SimpleName on entity added
+listener SimpleName MethodInvocation SimpleName typed instances
+on entity added SimpleName MethodInvocation SimpleName typed instances
+entity change listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entity change listeners
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName on entity added to repo
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName entity change listeners
+void PrimitiveType MethodDeclaration SimpleName on entity added to repo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entity change listeners
+on entity added to repo SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+on entity added to repo SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+on entity added to repo SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entity change listeners
+typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entity added to repo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entity added to repo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

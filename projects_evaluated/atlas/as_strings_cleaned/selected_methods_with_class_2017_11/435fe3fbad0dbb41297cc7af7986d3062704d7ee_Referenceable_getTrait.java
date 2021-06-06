@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+traits SimpleName MethodInvocation SimpleName get
+traits SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+traits SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName traits
+traits SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+traits SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName name
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName struct
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName get trait
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName struct
+public Modifier MethodDeclaration SimpleName get trait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+struct SimpleName SimpleType MethodDeclaration SimpleName get trait
+struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

@@ -1,0 +1,32 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+string SimpleName SimpleType SingleVariableDeclaration SimpleName anchor entity guid
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName related to entity
+relationship SimpleName MethodInvocation SimpleName anchor entity guid
+related to entity SimpleName MethodInvocation SimpleName anchor entity guid
+relationship SimpleName SimpleType ClassInstanceCreation SimpleName relationship
+matching relationships SimpleName MethodInvocation SimpleName add
+matching relationships SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName relationship
+matching relationships SimpleName MethodInvocation ClassInstanceCreation SimpleName relationship
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName relationship
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName relationship
+relationship SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName relationship element list
+relationship SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName relationship element list
+matching relationships SimpleName MethodInvocation SimpleName is empty
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName relationship
+public Modifier MethodDeclaration SimpleName get relationships for entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships for entity
+relationship SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationships for entity
+get relationships for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationships for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationships for entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationships for entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity guid

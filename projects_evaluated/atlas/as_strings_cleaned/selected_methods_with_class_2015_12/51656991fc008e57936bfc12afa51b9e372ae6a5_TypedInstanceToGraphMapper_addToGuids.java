@@ -1,0 +1,49 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName guids
+typed instance SimpleName MethodInvocation SimpleName get id
+id to vertex map SimpleName MethodInvocation SimpleName get
+id to vertex map SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+id to vertex map SimpleName MethodInvocation MethodInvocation SimpleName get id
+get SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName id to vertex map
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+instance vertex SimpleName MethodInvocation SimpleName get property
+instance vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+guids SimpleName MethodInvocation SimpleName add
+guids SimpleName MethodInvocation SimpleName guid
+add SimpleName MethodInvocation SimpleName guid
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to guids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guids
+void PrimitiveType MethodDeclaration SimpleName add to guids
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guids
+add to guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+add to guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+add to guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guids
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guids

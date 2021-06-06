@@ -1,0 +1,39 @@
+request context SimpleName SimpleType SingleVariableDeclaration SimpleName request context
+request context SimpleName MethodInvocation SimpleName get created entity ids
+request context SimpleName MethodInvocation SimpleName get updated entity ids
+request context SimpleName MethodInvocation SimpleName get deleted entity ids
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName request context
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get created entity ids
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName request context
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get updated entity ids
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName request context
+atlas cliententity result QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get deleted entity ids
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get updated entity ids
+get created entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+get created entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get updated entity ids
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleted entity ids
+get created entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+get created entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleted entity ids
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+request context SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleted entity ids
+get updated entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName request context
+get updated entity ids SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleted entity ids
+private Modifier MethodDeclaration SimpleType QualifiedName atlas cliententity result
+private Modifier MethodDeclaration SimpleName create entity result from context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request context
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SimpleName create entity result from context
+atlas cliententity result QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request context
+create entity result from context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request context
+create entity result from context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity result from context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas cliententity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity result from context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request context

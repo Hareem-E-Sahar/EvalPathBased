@@ -1,0 +1,19 @@
+native tinkerpop query factory SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+native tinkerpop query factory SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get query factory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName native tinkerpop query factory
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+protected Modifier MethodDeclaration SimpleName get query factory
+native tinkerpop query factory SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get query factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get query factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get query factory

@@ -1,0 +1,39 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+new ssl conn configurator SimpleName MethodInvocation SimpleName default socket timeout
+new ssl conn configurator SimpleName MethodInvocation SimpleName conf
+default socket timeout SimpleName MethodInvocation SimpleName conf
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cannot load customized ssl related configuration StringLiteral InfixExpression StringLiteral fallback to systemgeneric settings
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral cannot load customized ssl related configuration
+log SimpleName MethodInvocation InfixExpression StringLiteral fallback to systemgeneric settings
+log SimpleName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral cannot load customized ssl related configuration
+debug SimpleName MethodInvocation InfixExpression StringLiteral fallback to systemgeneric settings
+debug SimpleName MethodInvocation SimpleName e
+cannot load customized ssl related configuration StringLiteral InfixExpression MethodInvocation SimpleName e
+fallback to systemgeneric settings StringLiteral InfixExpression MethodInvocation SimpleName e
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName connection configurator
+private Modifier MethodDeclaration SimpleName new conn configurator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName connection configurator
+static Modifier MethodDeclaration SimpleName new conn configurator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+connection configurator SimpleName SimpleType MethodDeclaration SimpleName new conn configurator
+connection configurator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+new conn configurator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+new conn configurator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection configurator
+public Modifier TypeDeclaration MethodDeclaration SimpleName new conn configurator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection configurator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new conn configurator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

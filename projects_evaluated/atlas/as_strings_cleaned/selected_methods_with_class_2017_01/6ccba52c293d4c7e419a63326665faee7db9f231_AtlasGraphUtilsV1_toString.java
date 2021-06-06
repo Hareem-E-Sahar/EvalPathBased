@@ -1,0 +1,42 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+log SimpleName MethodInvocation SimpleName is debug enabled
+get edge details SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get id
+edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral edgeids
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+string SimpleName MethodInvocation MethodInvocation SimpleName to string
+format SimpleName MethodInvocation StringLiteral edgeids
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+format SimpleName MethodInvocation MethodInvocation SimpleName to string
+edgeids StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+edgeids StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+edgeids StringLiteral MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

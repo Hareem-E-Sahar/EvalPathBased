@@ -1,0 +1,151 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+clean zookeeper SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+usage StringLiteral InfixExpression MethodInvocation SimpleName get name
+usage StringLiteral InfixExpression StringLiteral hostnameport
+get name SimpleName MethodInvocation InfixExpression StringLiteral hostnameport
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral usage
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral hostnameport
+println SimpleName MethodInvocation InfixExpression StringLiteral usage
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral hostnameport
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+root SimpleName VariableDeclarationFragment QualifiedName constantszroot
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName constantszroot
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zk SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+zk SimpleName MethodInvocation SimpleName get children
+zk SimpleName MethodInvocation SimpleName root
+get children SimpleName MethodInvocation SimpleName root
+/ StringLiteral InfixExpression SimpleName child
+constantszinstances QualifiedName MethodInvocation SimpleName equals
+constantszinstances QualifiedName MethodInvocation InfixExpression StringLiteral /
+constantszinstances QualifiedName MethodInvocation InfixExpression SimpleName child
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression SimpleName child
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+root SimpleName InfixExpression QualifiedName constantszinstances
+zk SimpleName MethodInvocation SimpleName get children
+zk SimpleName MethodInvocation InfixExpression SimpleName root
+zk SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+get children SimpleName MethodInvocation InfixExpression SimpleName root
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+root SimpleName InfixExpression QualifiedName constantszinstances
+root SimpleName InfixExpression StringLiteral /
+root SimpleName InfixExpression SimpleName instance name
+constantszinstances QualifiedName InfixExpression StringLiteral /
+constantszinstances QualifiedName InfixExpression SimpleName instance name
+/ StringLiteral InfixExpression SimpleName instance name
+instance name path SimpleName VariableDeclarationFragment InfixExpression SimpleName root
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszinstances
+instance name path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+instance name path SimpleName VariableDeclarationFragment InfixExpression SimpleName instance name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name path
+zk SimpleName MethodInvocation SimpleName get data
+zk SimpleName MethodInvocation SimpleName instance name path
+get data SimpleName MethodInvocation SimpleName instance name path
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName zk
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance name path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+string SimpleName SimpleType ClassInstanceCreation SimpleName id
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName equals
+id SimpleName ClassInstanceCreation MethodInvocation SimpleName equals
+id SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance id
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+equals SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+zk SimpleName MethodInvocation SimpleName recursive delete
+zk SimpleName MethodInvocation SimpleName instance name path
+zk SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName instance name path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+instance name path SimpleName MethodInvocation QualifiedName node missing policyskip
+keeper exceptionno auth exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+unable to delete StringLiteral InfixExpression SimpleName instance name path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+log SimpleName MethodInvocation InfixExpression SimpleName instance name path
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+warn SimpleName MethodInvocation InfixExpression SimpleName instance name path
+instance name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zk
+instance name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+child SimpleName MethodInvocation SimpleName equals
+child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+child SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance
+equals SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+root SimpleName InfixExpression StringLiteral /
+root SimpleName InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName root
+path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+path SimpleName VariableDeclarationFragment InfixExpression SimpleName child
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+zk SimpleName MethodInvocation SimpleName recursive delete
+zk SimpleName MethodInvocation SimpleName path
+zk SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation SimpleName path
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+path SimpleName MethodInvocation QualifiedName node missing policyskip
+keeper exceptionno auth exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+unable to delete StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+log SimpleName MethodInvocation InfixExpression SimpleName path
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to delete
+warn SimpleName MethodInvocation InfixExpression SimpleName path
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zk
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName root
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+error occurred StringLiteral InfixExpression SimpleName ex
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral error occurred
+systemout QualifiedName MethodInvocation InfixExpression SimpleName ex
+println SimpleName MethodInvocation InfixExpression StringLiteral error occurred
+println SimpleName MethodInvocation InfixExpression SimpleName ex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

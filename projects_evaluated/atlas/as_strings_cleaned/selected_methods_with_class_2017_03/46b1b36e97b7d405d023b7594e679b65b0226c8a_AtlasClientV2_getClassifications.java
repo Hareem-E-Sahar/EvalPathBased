@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+update path parameters SimpleName MethodInvocation SimpleName get classifications
+update path parameters SimpleName MethodInvocation SimpleName guid
+get classifications SimpleName MethodInvocation SimpleName guid
+call api SimpleName MethodInvocation MethodInvocation SimpleName update path parameters
+call api SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+call api SimpleName MethodInvocation MethodInvocation SimpleName guid
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas classifications
+public Modifier MethodDeclaration SimpleType SimpleName atlas classifications
+public Modifier MethodDeclaration SimpleName get classifications
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+atlas classifications SimpleName SimpleType MethodDeclaration SimpleName get classifications
+atlas classifications SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas classifications SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get classifications SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classifications
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classifications
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

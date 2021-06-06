@@ -1,0 +1,144 @@
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName database type v
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type v
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral name
+db SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation StringLiteral name
+set attribute SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation SimpleName name
+db SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName db name
+name SimpleName MethodInvocation SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral cluster name
+db SimpleName MethodInvocation MethodInvocation SimpleName random string
+set attribute SimpleName MethodInvocation StringLiteral cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random string
+cluster name StringLiteral MethodInvocation MethodInvocation SimpleName random string
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral description
+db SimpleName MethodInvocation MethodInvocation SimpleName random string
+set attribute SimpleName MethodInvocation StringLiteral description
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random string
+description StringLiteral MethodInvocation MethodInvocation SimpleName random string
+create entity SimpleName MethodInvocation SimpleName db
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity header
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName database type v
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type v
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral name
+db SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation StringLiteral name
+set attribute SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation SimpleName name
+db SimpleName MethodInvocation SimpleName db name
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName db name
+name SimpleName MethodInvocation SimpleName db name
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral cluster name
+db SimpleName MethodInvocation MethodInvocation SimpleName random string
+set attribute SimpleName MethodInvocation StringLiteral cluster name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random string
+cluster name StringLiteral MethodInvocation MethodInvocation SimpleName random string
+db SimpleName MethodInvocation SimpleName set attribute
+db SimpleName MethodInvocation StringLiteral description
+db SimpleName MethodInvocation MethodInvocation SimpleName random string
+set attribute SimpleName MethodInvocation StringLiteral description
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random string
+description StringLiteral MethodInvocation MethodInvocation SimpleName random string
+create entity SimpleName MethodInvocation SimpleName db
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+entity header SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity header
+entity header SimpleName MethodInvocation SimpleName get guid
+entity header SimpleName MethodInvocation SimpleName get guid
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName entity header
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName entity header
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName get guid
+of SimpleName MethodInvocation MethodInvocation SimpleName entity header
+of SimpleName MethodInvocation MethodInvocation SimpleName get guid
+of SimpleName MethodInvocation MethodInvocation SimpleName entity header
+of SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+entity header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas client v SimpleName MethodInvocation SimpleName delete entities by guids
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName of
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+atlas client v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+delete entities by guids SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+delete entities by guids SimpleName MethodInvocation MethodInvocation SimpleName of
+delete entities by guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+delete entities by guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+delete entities by guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity header
+delete entities by guids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+delete response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+delete response SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities by guids
+delete response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+delete response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete response
+assert not null SimpleName MethodInvocation SimpleName delete response
+delete response SimpleName MethodInvocation SimpleName get entities by operation
+delete response SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName delete response
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get entities by operation
+assert not null SimpleName MethodInvocation MethodInvocation QualifiedName entity mutationsentity operationdelete
+delete response SimpleName MethodInvocation SimpleName get entities by operation
+delete response SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+delete response SimpleName MethodInvocation MethodInvocation SimpleName size
+get entities by operation SimpleName MethodInvocation MethodInvocation SimpleName size
+entity mutationsentity operationdelete QualifiedName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete response
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entities by operation
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName entity mutationsentity operationdelete
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+delete response SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get entities by operation SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+entity mutationsentity operationdelete QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete entities
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete entities
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete entities SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

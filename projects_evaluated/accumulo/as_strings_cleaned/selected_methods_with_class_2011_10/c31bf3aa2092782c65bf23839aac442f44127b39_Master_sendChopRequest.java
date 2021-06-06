@@ -1,0 +1,92 @@
+merge info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+tablet state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+tablet location state SimpleName SimpleType SingleVariableDeclaration SimpleName tls
+info SimpleName MethodInvocation SimpleName get state
+info SimpleName MethodInvocation MethodInvocation SimpleName equals
+get state SimpleName MethodInvocation MethodInvocation SimpleName equals
+info SimpleName MethodInvocation MethodInvocation QualifiedName merge statewaiting for chopped
+get state SimpleName MethodInvocation MethodInvocation QualifiedName merge statewaiting for chopped
+equals SimpleName MethodInvocation QualifiedName merge statewaiting for chopped
+state SimpleName MethodInvocation SimpleName equals
+state SimpleName MethodInvocation QualifiedName tablet statehosted
+equals SimpleName MethodInvocation QualifiedName tablet statehosted
+info SimpleName MethodInvocation SimpleName needs to be chopped
+info SimpleName MethodInvocation QualifiedName tlsextent
+needs to be chopped SimpleName MethodInvocation QualifiedName tlsextent
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+tserver set SimpleName MethodInvocation SimpleName get connection
+tserver set SimpleName MethodInvocation QualifiedName tlscurrent
+get connection SimpleName MethodInvocation QualifiedName tlscurrent
+conn SimpleName Assignment MethodInvocation SimpleName tserver set
+conn SimpleName Assignment MethodInvocation SimpleName get connection
+conn SimpleName Assignment MethodInvocation QualifiedName tlscurrent
+asking StringLiteral InfixExpression QualifiedName tlscurrent
+asking StringLiteral InfixExpression StringLiteral to chop
+asking StringLiteral InfixExpression QualifiedName tlsextent
+tlscurrent QualifiedName InfixExpression StringLiteral to chop
+tlscurrent QualifiedName InfixExpression QualifiedName tlsextent
+to chop StringLiteral InfixExpression QualifiedName tlsextent
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral asking
+log SimpleName MethodInvocation InfixExpression QualifiedName tlscurrent
+log SimpleName MethodInvocation InfixExpression StringLiteral to chop
+log SimpleName MethodInvocation InfixExpression QualifiedName tlsextent
+info SimpleName MethodInvocation InfixExpression StringLiteral asking
+info SimpleName MethodInvocation InfixExpression QualifiedName tlscurrent
+info SimpleName MethodInvocation InfixExpression StringLiteral to chop
+info SimpleName MethodInvocation InfixExpression QualifiedName tlsextent
+conn SimpleName MethodInvocation SimpleName chop
+conn SimpleName MethodInvocation SimpleName master lock
+conn SimpleName MethodInvocation QualifiedName tlsextent
+chop SimpleName MethodInvocation SimpleName master lock
+chop SimpleName MethodInvocation QualifiedName tlsextent
+master lock SimpleName MethodInvocation QualifiedName tlsextent
+could not connect to server StringLiteral InfixExpression QualifiedName tlscurrent
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral could not connect to server
+log SimpleName MethodInvocation InfixExpression QualifiedName tlscurrent
+warn SimpleName MethodInvocation InfixExpression StringLiteral could not connect to server
+warn SimpleName MethodInvocation InfixExpression QualifiedName tlscurrent
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral communications error asking tablet server to chop a tablet
+warn SimpleName MethodInvocation StringLiteral communications error asking tablet server to chop a tablet
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName send chop request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName merge info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet location state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tls
+void PrimitiveType MethodDeclaration SimpleName send chop request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName merge info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet location state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tls
+void PrimitiveType MethodDeclaration Block IfStatement QualifiedName tlschopped
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName merge info
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet state
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tablet location state
+send chop request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tls
+send chop request SimpleName MethodDeclaration Block IfStatement QualifiedName tlschopped
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send chop request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send chop request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tls

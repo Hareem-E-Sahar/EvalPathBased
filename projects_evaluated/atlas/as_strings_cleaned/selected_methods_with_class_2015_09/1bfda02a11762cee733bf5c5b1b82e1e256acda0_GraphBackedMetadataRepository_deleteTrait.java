@@ -1,0 +1,149 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name to be deleted
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral deleting trait from entity
+log SimpleName MethodInvocation SimpleName trait name to be deleted
+log SimpleName MethodInvocation SimpleName guid
+info SimpleName MethodInvocation StringLiteral deleting trait from entity
+info SimpleName MethodInvocation SimpleName trait name to be deleted
+info SimpleName MethodInvocation SimpleName guid
+deleting trait from entity StringLiteral MethodInvocation SimpleName trait name to be deleted
+deleting trait from entity StringLiteral MethodInvocation SimpleName guid
+trait name to be deleted SimpleName MethodInvocation SimpleName guid
+get vertex for guid SimpleName MethodInvocation SimpleName guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get trait names SimpleName MethodInvocation SimpleName instance vertex
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation SimpleName trait name to be deleted
+contains SimpleName MethodInvocation SimpleName trait name to be deleted
+could not find trait StringLiteral InfixExpression SimpleName trait name to be deleted
+could not find trait StringLiteral InfixExpression StringLiteral in the repository for entity
+could not find trait StringLiteral InfixExpression SimpleName guid
+trait name to be deleted SimpleName InfixExpression StringLiteral in the repository for entity
+trait name to be deleted SimpleName InfixExpression SimpleName guid
+in the repository for entity StringLiteral InfixExpression SimpleName guid
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not find trait
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName trait name to be deleted
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral in the repository for entity
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName guid
+get type name SimpleName MethodInvocation SimpleName instance vertex
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+get edge label SimpleName MethodInvocation SimpleName entity type name
+get edge label SimpleName MethodInvocation SimpleName trait name to be deleted
+entity type name SimpleName MethodInvocation SimpleName trait name to be deleted
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name to be deleted
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship label
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+instance vertex SimpleName MethodInvocation SimpleName get edges
+instance vertex SimpleName MethodInvocation QualifiedName directionout
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+get edges SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation SimpleName relationship label
+directionout QualifiedName MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+relationship label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance vertex
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName directionout
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship label
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+results SimpleName MethodInvocation SimpleName has next
+results SimpleName MethodInvocation SimpleName next
+trait edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+trait edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+final Modifier VariableDeclarationStatement SimpleType SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName results
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait edge
+trait edge SimpleName MethodInvocation SimpleName get vertex
+trait edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait edge
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+trait vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+final Modifier VariableDeclarationStatement SimpleType SimpleName vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName trait edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait vertex
+titan graph SimpleName MethodInvocation SimpleName remove edge
+titan graph SimpleName MethodInvocation SimpleName trait edge
+remove edge SimpleName MethodInvocation SimpleName trait edge
+titan graph SimpleName MethodInvocation SimpleName remove vertex
+titan graph SimpleName MethodInvocation SimpleName trait vertex
+remove vertex SimpleName MethodInvocation SimpleName trait vertex
+trait names SimpleName MethodInvocation SimpleName remove
+trait names SimpleName MethodInvocation SimpleName trait name to be deleted
+remove SimpleName MethodInvocation SimpleName trait name to be deleted
+update traits SimpleName MethodInvocation SimpleName instance vertex
+update traits SimpleName MethodInvocation SimpleName trait names
+instance vertex SimpleName MethodInvocation SimpleName trait names
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+repository exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete trait
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete trait
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete trait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+void PrimitiveType MethodDeclaration SimpleName delete trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+delete trait SimpleName MethodDeclaration SimpleType SimpleName repository exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+trait name to be deleted SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name to be deleted
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

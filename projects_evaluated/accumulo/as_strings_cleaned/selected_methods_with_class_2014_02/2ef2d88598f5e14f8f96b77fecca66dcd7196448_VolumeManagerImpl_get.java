@@ -1,0 +1,113 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file system
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName file system
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName file system
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName file system
+cached configuration SimpleName MethodInvocation SimpleName get instance
+hadoop conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+hadoop conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hadoop conf
+file util SimpleName MethodInvocation SimpleName get file system
+file util SimpleName MethodInvocation SimpleName hadoop conf
+file util SimpleName MethodInvocation SimpleName conf
+get file system SimpleName MethodInvocation SimpleName hadoop conf
+get file system SimpleName MethodInvocation SimpleName conf
+hadoop conf SimpleName MethodInvocation SimpleName conf
+file systems SimpleName MethodInvocation SimpleName put
+file systems SimpleName MethodInvocation SimpleName default
+file systems SimpleName MethodInvocation MethodInvocation SimpleName file util
+file systems SimpleName MethodInvocation MethodInvocation SimpleName get file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+file systems SimpleName MethodInvocation MethodInvocation SimpleName conf
+put SimpleName MethodInvocation SimpleName default
+put SimpleName MethodInvocation MethodInvocation SimpleName file util
+put SimpleName MethodInvocation MethodInvocation SimpleName get file system
+put SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+put SimpleName MethodInvocation MethodInvocation SimpleName conf
+default SimpleName MethodInvocation MethodInvocation SimpleName file util
+default SimpleName MethodInvocation MethodInvocation SimpleName get file system
+default SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+default SimpleName MethodInvocation MethodInvocation SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName space
+server constants SimpleName MethodInvocation SimpleName get configured base dirs
+server constants SimpleName MethodInvocation SimpleName conf
+get configured base dirs SimpleName MethodInvocation SimpleName conf
+space SimpleName MethodInvocation SimpleName equals
+space SimpleName MethodInvocation SimpleName default
+equals SimpleName MethodInvocation SimpleName default
+space SimpleName MethodInvocation SimpleName contains
+space SimpleName MethodInvocation StringLiteral :
+contains SimpleName MethodInvocation StringLiteral :
+path SimpleName SimpleType ClassInstanceCreation SimpleName space
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get file system
+space SimpleName ClassInstanceCreation MethodInvocation SimpleName get file system
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hadoop conf
+space SimpleName ClassInstanceCreation MethodInvocation SimpleName hadoop conf
+get file system SimpleName MethodInvocation SimpleName hadoop conf
+file systems SimpleName MethodInvocation SimpleName put
+file systems SimpleName MethodInvocation SimpleName space
+file systems SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName space
+file systems SimpleName MethodInvocation MethodInvocation SimpleName get file system
+file systems SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+put SimpleName MethodInvocation SimpleName space
+put SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName space
+put SimpleName MethodInvocation MethodInvocation SimpleName get file system
+put SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+space SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName space
+space SimpleName MethodInvocation MethodInvocation SimpleName get file system
+space SimpleName MethodInvocation MethodInvocation SimpleName hadoop conf
+propertyinstance volumes QualifiedName MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation QualifiedName propertyinstance volumes
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression StringLiteral got
+expected fully qualified uri for StringLiteral InfixExpression SimpleName space
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression StringLiteral got
+get key SimpleName MethodInvocation InfixExpression StringLiteral got
+propertyinstance volumes QualifiedName MethodInvocation InfixExpression SimpleName space
+get key SimpleName MethodInvocation InfixExpression SimpleName space
+got StringLiteral InfixExpression SimpleName space
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected fully qualified uri for
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral got
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName space
+space SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server constants
+space SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get configured base dirs
+space SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName conf
+volume manager impl SimpleName SimpleType ClassInstanceCreation SimpleName file systems
+volume manager impl SimpleName SimpleType ClassInstanceCreation SimpleName default
+volume manager impl SimpleName SimpleType ClassInstanceCreation SimpleName conf
+file systems SimpleName ClassInstanceCreation SimpleName default
+file systems SimpleName ClassInstanceCreation SimpleName conf
+default SimpleName ClassInstanceCreation SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName volume manager
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName volume manager
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+volume manager SimpleName SimpleType MethodDeclaration SimpleName get
+volume manager SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+volume manager SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get SimpleName MethodDeclaration SimpleType SimpleName io exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName volume manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName volume manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

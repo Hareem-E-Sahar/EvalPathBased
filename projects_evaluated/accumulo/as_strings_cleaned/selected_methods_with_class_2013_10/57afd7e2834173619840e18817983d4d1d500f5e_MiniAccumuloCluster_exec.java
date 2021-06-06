@@ -1,0 +1,91 @@
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+server type SimpleName SimpleType SingleVariableDeclaration SimpleName server type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName args
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+config SimpleName MethodInvocation SimpleName get memory
+config SimpleName MethodInvocation SimpleName server type
+get memory SimpleName MethodInvocation SimpleName server type
+xmx StringLiteral InfixExpression MethodInvocation SimpleName config
+xmx StringLiteral InfixExpression MethodInvocation SimpleName get memory
+xmx StringLiteral InfixExpression MethodInvocation SimpleName server type
+jvm opts SimpleName MethodInvocation SimpleName add
+jvm opts SimpleName MethodInvocation InfixExpression StringLiteral xmx
+jvm opts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName config
+jvm opts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get memory
+jvm opts SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server type
+add SimpleName MethodInvocation InfixExpression StringLiteral xmx
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName config
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get memory
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server type
+config SimpleName MethodInvocation SimpleName is jdwp enabled
+port utils SimpleName MethodInvocation SimpleName get random free port
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName port utils
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get random free port
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+build remote debug params SimpleName MethodInvocation SimpleName port
+jvm opts SimpleName MethodInvocation SimpleName add all
+jvm opts SimpleName MethodInvocation MethodInvocation SimpleName build remote debug params
+jvm opts SimpleName MethodInvocation MethodInvocation SimpleName port
+add all SimpleName MethodInvocation MethodInvocation SimpleName build remote debug params
+add all SimpleName MethodInvocation MethodInvocation SimpleName port
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName server type
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+server type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName server type
+server type SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName server type
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName server type
+pair SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName port
+server type SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName port
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName port
+server type SimpleName ClassInstanceCreation SimpleName port
+debug ports SimpleName MethodInvocation SimpleName add
+debug ports SimpleName MethodInvocation ClassInstanceCreation SimpleName server type
+debug ports SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName server type
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName port
+exec SimpleName MethodInvocation SimpleName clazz
+exec SimpleName MethodInvocation SimpleName jvm opts
+exec SimpleName MethodInvocation SimpleName args
+clazz SimpleName MethodInvocation SimpleName jvm opts
+clazz SimpleName MethodInvocation SimpleName args
+jvm opts SimpleName MethodInvocation SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName process
+private Modifier MethodDeclaration SimpleName exec
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName clazz
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+process SimpleName SimpleType MethodDeclaration SimpleName exec
+process SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+process SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server type
+process SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+process SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server type
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server type
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+exec SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+exec SimpleName MethodDeclaration SimpleType SimpleName io exception
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server type
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+clazz SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+server type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+server type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SimpleName exec
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SimpleName exec
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clazz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

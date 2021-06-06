@@ -1,0 +1,71 @@
+entity node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get col
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity node
+tinker graph SimpleName MethodInvocation SimpleName open
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinker graph
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+tinker graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tg
+graph son utility SimpleName SimpleType ClassInstanceCreation SimpleName empty relationship cache
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName graph son utility
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName empty relationship cache
+graph son utility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gu
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+gu SimpleName MethodInvocation SimpleName vertex from json
+gu SimpleName MethodInvocation SimpleName tg
+gu SimpleName MethodInvocation SimpleName entity node
+vertex from json SimpleName MethodInvocation SimpleName tg
+vertex from json SimpleName MethodInvocation SimpleName entity node
+tg SimpleName MethodInvocation SimpleName entity node
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName gu
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex from json
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName tg
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity node
+assert null SimpleName MethodInvocation SimpleName map
+tg SimpleName MethodInvocation SimpleName traversal
+tg SimpleName MethodInvocation MethodInvocation SimpleName v
+traversal SimpleName MethodInvocation MethodInvocation SimpleName v
+tg SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count
+traversal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName count
+v SimpleName MethodInvocation MethodInvocation SimpleName count
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+count SimpleName MethodInvocation MethodInvocation SimpleName next
+long PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName count
+long PrimitiveType CastExpression MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation CastExpression PrimitiveType long
+assert equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation NumberLiteral l
+long PrimitiveType CastExpression MethodInvocation NumberLiteral l
+next SimpleName MethodInvocation CastExpression MethodInvocation NumberLiteral l
+tg SimpleName MethodInvocation SimpleName vertices
+tg SimpleName MethodInvocation MethodInvocation SimpleName next
+vertices SimpleName MethodInvocation MethodInvocation SimpleName next
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tg
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName vertex id in import key
+property SimpleName MethodInvocation SimpleName vertex id in import key
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+vertex id in import key SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex id in import key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName data node read and vertex added to graph
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName data node read and vertex added to graph
+void PrimitiveType MethodDeclaration SimpleName data node read and vertex added to graph
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName data node read and vertex added to graph
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName data node read and vertex added to graph

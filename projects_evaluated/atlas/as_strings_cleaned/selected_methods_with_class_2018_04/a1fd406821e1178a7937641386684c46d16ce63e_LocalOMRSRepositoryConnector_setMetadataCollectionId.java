@@ -1,0 +1,97 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+set metadata collection id SimpleName SuperMethodInvocation SimpleName metadata collection id
+real local connector SimpleName MethodInvocation SimpleName set metadata collection id
+real local connector SimpleName MethodInvocation SimpleName metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName metadata collection id
+real event mapper SimpleName MethodInvocation SimpleName set metadata collection id
+real event mapper SimpleName MethodInvocation SimpleName metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName metadata collection id
+local omrs instance event processor SimpleName SimpleType ClassInstanceCreation SimpleName metadata collection id
+local omrs instance event processor SimpleName SimpleType ClassInstanceCreation SuperFieldAccess SimpleName server name
+local omrs instance event processor SimpleName SimpleType ClassInstanceCreation SimpleName real local connector
+local omrs instance event processor SimpleName SimpleType ClassInstanceCreation SuperFieldAccess SimpleName repository helper
+local omrs instance event processor SimpleName SimpleType ClassInstanceCreation SuperFieldAccess SimpleName repository validator
+metadata collection id SimpleName ClassInstanceCreation SuperFieldAccess SimpleName server name
+metadata collection id SimpleName ClassInstanceCreation SimpleName real local connector
+metadata collection id SimpleName ClassInstanceCreation SuperFieldAccess SimpleName repository helper
+metadata collection id SimpleName ClassInstanceCreation SuperFieldAccess SimpleName repository validator
+metadata collection id SimpleName ClassInstanceCreation SimpleName save exchange rule
+server name SimpleName SuperFieldAccess ClassInstanceCreation SimpleName real local connector
+server name SimpleName SuperFieldAccess ClassInstanceCreation SuperFieldAccess SimpleName repository helper
+server name SimpleName SuperFieldAccess ClassInstanceCreation SuperFieldAccess SimpleName repository validator
+server name SimpleName SuperFieldAccess ClassInstanceCreation SimpleName save exchange rule
+server name SimpleName SuperFieldAccess ClassInstanceCreation SimpleName outbound repository event processor
+real local connector SimpleName ClassInstanceCreation SuperFieldAccess SimpleName repository helper
+real local connector SimpleName ClassInstanceCreation SuperFieldAccess SimpleName repository validator
+real local connector SimpleName ClassInstanceCreation SimpleName save exchange rule
+real local connector SimpleName ClassInstanceCreation SimpleName outbound repository event processor
+repository helper SimpleName SuperFieldAccess ClassInstanceCreation SuperFieldAccess SimpleName repository validator
+repository helper SimpleName SuperFieldAccess ClassInstanceCreation SimpleName save exchange rule
+repository helper SimpleName SuperFieldAccess ClassInstanceCreation SimpleName outbound repository event processor
+repository validator SimpleName SuperFieldAccess ClassInstanceCreation SimpleName save exchange rule
+repository validator SimpleName SuperFieldAccess ClassInstanceCreation SimpleName outbound repository event processor
+save exchange rule SimpleName ClassInstanceCreation SimpleName outbound repository event processor
+incoming instance event processor SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName metadata collection id
+incoming instance event processor SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName real local connector
+incoming instance event processor SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName save exchange rule
+incoming instance event processor SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName outbound repository event processor
+real local connector SimpleName MethodInvocation SimpleName get metadata collection
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation SimpleName metadata collection id
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local server name
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get local server type
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get organization name
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName real local connector
+local omrs metadata collection SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get local server name
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get local server type
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get organization name
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName real local connector
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+metadata collection id SimpleName ClassInstanceCreation SimpleName outbound repository event processor
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get local server type
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName real local connector
+get local server name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+get local server name SimpleName MethodInvocation ClassInstanceCreation SimpleName outbound repository event processor
+get local server name SimpleName MethodInvocation ClassInstanceCreation SimpleName repository content manager
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get organization name
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName real local connector
+get local server type SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+get local server type SimpleName MethodInvocation ClassInstanceCreation SimpleName outbound repository event processor
+get local server type SimpleName MethodInvocation ClassInstanceCreation SimpleName repository content manager
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName real local connector
+get organization name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+get organization name SimpleName MethodInvocation ClassInstanceCreation SimpleName outbound repository event processor
+get organization name SimpleName MethodInvocation ClassInstanceCreation SimpleName repository content manager
+real local connector SimpleName MethodInvocation ClassInstanceCreation SimpleName outbound repository event processor
+get metadata collection SimpleName MethodInvocation ClassInstanceCreation SimpleName outbound repository event processor
+real local connector SimpleName MethodInvocation ClassInstanceCreation SimpleName repository content manager
+get metadata collection SimpleName MethodInvocation ClassInstanceCreation SimpleName repository content manager
+outbound repository event processor SimpleName ClassInstanceCreation SimpleName repository content manager
+metadata collection SimpleName Assignment ClassInstanceCreation SimpleType SimpleName local omrs metadata collection
+metadata collection SimpleName Assignment ClassInstanceCreation SimpleName metadata collection id
+metadata collection SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get local server name
+metadata collection SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get local server type
+metadata collection SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get organization name
+metadata collection SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName real local connector
+metadata collection SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+metadata collection SimpleName Assignment ClassInstanceCreation SimpleName outbound repository event processor
+metadata collection SimpleName Assignment ClassInstanceCreation SimpleName repository content manager
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set metadata collection id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+void PrimitiveType MethodDeclaration SimpleName set metadata collection id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+set metadata collection id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set metadata collection id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id

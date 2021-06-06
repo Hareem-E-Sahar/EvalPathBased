@@ -1,0 +1,17 @@
+atlas entity def SimpleName SimpleType SingleVariableDeclaration SimpleName entity def
+atlas entity def SimpleName SimpleType MethodDeclaration SimpleName update
+atlas entity def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity def
+atlas entity def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity def
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity def
+update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

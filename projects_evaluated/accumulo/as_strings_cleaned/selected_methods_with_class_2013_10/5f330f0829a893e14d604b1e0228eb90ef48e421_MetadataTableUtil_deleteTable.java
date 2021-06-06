@@ -1,0 +1,333 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType SingleVariableDeclaration SimpleName insert deletes
+credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName metadata tableid
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName authorizationsempty
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName authorizationsempty
+credentials SimpleName ClassInstanceCreation QualifiedName metadata tableid
+credentials SimpleName ClassInstanceCreation QualifiedName authorizationsempty
+metadata tableid QualifiedName ClassInstanceCreation QualifiedName authorizationsempty
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner impl
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName credentials
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName metadata tableid
+ms SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ms
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table id text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+table id text SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table id
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id text
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+batch writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set max memory
+batch writer config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+set max memory SimpleName MethodInvocation NumberLiteral empty
+set max memory SimpleName MethodInvocation MethodInvocation SimpleName set max latency
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set max latency
+set max memory SimpleName MethodInvocation MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral l
+set max memory SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+set max latency SimpleName MethodInvocation NumberLiteral l
+set max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+set max memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set max write threads
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set max write threads
+set max latency SimpleName MethodInvocation MethodInvocation SimpleName set max write threads
+l NumberLiteral MethodInvocation MethodInvocation SimpleName set max write threads
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation SimpleName set max write threads
+set max memory SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set max latency SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+batch writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+batch writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+batch writer impl SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+batch writer impl SimpleName SimpleType ClassInstanceCreation QualifiedName metadata tableid
+batch writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set max write threads
+batch writer impl SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName metadata tableid
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set max write threads
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName set max write threads
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+credentials SimpleName ClassInstanceCreation QualifiedName metadata tableid
+credentials SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set max latency
+credentials SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral l
+credentials SimpleName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+credentials SimpleName ClassInstanceCreation MethodInvocation SimpleName set max write threads
+credentials SimpleName ClassInstanceCreation MethodInvocation NumberLiteral empty
+metadata tableid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set max latency
+metadata tableid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral l
+metadata tableid QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+metadata tableid QualifiedName ClassInstanceCreation MethodInvocation SimpleName set max write threads
+metadata tableid QualifiedName ClassInstanceCreation MethodInvocation NumberLiteral empty
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer impl
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName credentials
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName metadata tableid
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName set max write threads
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName table id text
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id text SimpleName ClassInstanceCreation MethodInvocation SimpleName to metadata range
+ms SimpleName MethodInvocation SimpleName set range
+ms SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName table id text
+ms SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName table id text
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+ms SimpleName MethodInvocation SimpleName fetch column family
+ms SimpleName MethodInvocation QualifiedName data file column familyname
+fetch column family SimpleName MethodInvocation QualifiedName data file column familyname
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName fetch
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName ms
+fetch SimpleName MethodInvocation SimpleName ms
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+cell SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName cell
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+key SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+equals SimpleName MethodInvocation QualifiedName data file column familyname
+volume manager impl SimpleName MethodInvocation SimpleName get
+file ref SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName volume manager impl
+file ref SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+file ref SimpleName SimpleType ClassInstanceCreation SimpleName key
+volume manager impl SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+get SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file ref
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName volume manager impl
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get
+ref SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key
+file ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+ref SimpleName MethodInvocation SimpleName meta
+ref SimpleName MethodInvocation MethodInvocation SimpleName to string
+meta SimpleName MethodInvocation MethodInvocation SimpleName to string
+create delete mutation SimpleName MethodInvocation SimpleName table id
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ref
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName meta
+create delete mutation SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ref
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName meta
+table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName table id
+bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName table id
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName has columns
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName key
+has columns SimpleName MethodInvocation SimpleName key
+cell SimpleName MethodInvocation SimpleName get value
+cell SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+create delete mutation SimpleName MethodInvocation SimpleName table id
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cell
+create delete mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+create delete mutation SimpleName MethodInvocation MethodInvocation SimpleName to string
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cell
+table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+bw SimpleName MethodInvocation MethodInvocation SimpleName table id
+bw SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName create delete mutation
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName table id
+add mutation SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+cell SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ms
+bw SimpleName MethodInvocation SimpleName flush
+ms SimpleName MethodInvocation SimpleName clear columns
+insert deletes SimpleName IfStatement Block EnhancedForStatement SimpleName ms
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cell
+cell SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName cell
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+put lock id SimpleName MethodInvocation SimpleName lock
+put lock id SimpleName MethodInvocation SimpleName m
+lock SimpleName MethodInvocation SimpleName m
+key SimpleName MethodInvocation SimpleName get row
+m SimpleName MethodInvocation SimpleName get row
+m SimpleName MethodInvocation SimpleName get row
+m SimpleName MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation FieldAccess SimpleName length
+key SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m
+get row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+key SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+compare to SimpleName MethodInvocation MethodInvocation SimpleName m
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get row
+compare to SimpleName MethodInvocation NumberLiteral empty
+compare to SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName m
+compare to SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get row
+compare to SimpleName MethodInvocation FieldAccess SimpleName length
+m SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+m SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get row SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName m
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get row
+empty NumberLiteral MethodInvocation FieldAccess SimpleName length
+key SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+m SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName FieldAccess MethodInvocation InfixExpression NumberLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+key SimpleName MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+put lock id SimpleName MethodInvocation SimpleName lock
+put lock id SimpleName MethodInvocation SimpleName m
+lock SimpleName MethodInvocation SimpleName m
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+cell SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ms
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+insert deletes SimpleName IfStatement Block EnhancedForStatement SimpleName ms
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName delete table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SimpleName delete table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+delete table SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName credentials
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+delete table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+insert deletes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+insert deletes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+insert deletes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+insert deletes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName insert deletes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

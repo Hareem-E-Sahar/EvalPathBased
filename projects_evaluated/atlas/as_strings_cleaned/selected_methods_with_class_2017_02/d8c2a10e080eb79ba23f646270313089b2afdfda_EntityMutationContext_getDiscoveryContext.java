@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SimpleName get discovery context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleName get discovery context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get discovery context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get discovery context

@@ -1,0 +1,74 @@
+atlas glossary termrelation QualifiedName SimpleType SingleVariableDeclaration SimpleName relation
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+atlas related term header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName terms
+is not empty SimpleName MethodInvocation SimpleName terms
+atlas related term header SimpleName SimpleType SingleVariableDeclaration SimpleName term
+term SimpleName MethodInvocation SimpleName get display text
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating term relation = {} terms = {}
+log SimpleName MethodInvocation SimpleName relation
+log SimpleName MethodInvocation MethodInvocation SimpleName term
+log SimpleName MethodInvocation MethodInvocation SimpleName get display text
+debug SimpleName MethodInvocation StringLiteral updating term relation = {} terms = {}
+debug SimpleName MethodInvocation SimpleName relation
+debug SimpleName MethodInvocation MethodInvocation SimpleName term
+debug SimpleName MethodInvocation MethodInvocation SimpleName get display text
+updating term relation = {} terms = {} StringLiteral MethodInvocation SimpleName relation
+updating term relation = {} terms = {} StringLiteral MethodInvocation MethodInvocation SimpleName term
+updating term relation = {} terms = {} StringLiteral MethodInvocation MethodInvocation SimpleName get display text
+relation SimpleName MethodInvocation MethodInvocation SimpleName term
+relation SimpleName MethodInvocation MethodInvocation SimpleName get display text
+term SimpleName MethodInvocation SimpleName get relation guid
+relationship store SimpleName MethodInvocation SimpleName get by id
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName term
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+get by id SimpleName MethodInvocation MethodInvocation SimpleName term
+get by id SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship store
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by id
+relationship SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName term
+relationship SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relation guid
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+update relationship attributes SimpleName MethodInvocation SimpleName relationship
+update relationship attributes SimpleName MethodInvocation SimpleName term
+relationship SimpleName MethodInvocation SimpleName term
+relationship store SimpleName MethodInvocation SimpleName update
+relationship store SimpleName MethodInvocation SimpleName relationship
+update SimpleName MethodInvocation SimpleName relationship
+atlas related term header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName terms
+term SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName terms
+terms SimpleName EnhancedForStatement Block IfStatement SimpleName debug enabled
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update term relationships
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName terms
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName update term relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName relation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName terms
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+update term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+update term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relation
+update term relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName terms
+update term relationships SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+relation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+relation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+terms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update term relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update term relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,186 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+field mappingfields QualifiedName MethodInvocation SimpleName get
+field mappingfields QualifiedName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+i SimpleName VariableDeclarationFragment MethodInvocation QualifiedName field mappingfields
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+attribute info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unknown field s for struct s
+string SimpleName MethodInvocation SimpleName attr name
+string SimpleName MethodInvocation MethodInvocation SimpleName get type name
+format SimpleName MethodInvocation StringLiteral unknown field s for struct s
+format SimpleName MethodInvocation SimpleName attr name
+format SimpleName MethodInvocation MethodInvocation SimpleName get type name
+unknown field s for struct s StringLiteral MethodInvocation SimpleName attr name
+unknown field s for struct s StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+attr name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unknown field s for struct s
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr name
+field mappingfield pos QualifiedName MethodInvocation SimpleName get
+field mappingfield pos QualifiedName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+pos SimpleName VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield pos
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr name
+field mappingfield null pos QualifiedName MethodInvocation SimpleName get
+field mappingfield null pos QualifiedName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+null pos SimpleName VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield null pos
+null pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+null pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName null pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName field mappingfield null pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr name
+null flags SimpleName ArrayAccess SimpleName null pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryprimitive
+i SimpleName MethodInvocation SimpleName data type
+data typesprimitive type QualifiedName SimpleType CastExpression MethodInvocation SimpleName i
+data typesprimitive type QualifiedName SimpleType CastExpression MethodInvocation SimpleName data type
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesboolean type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesboolean type
+bools SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbyte type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbyte type
+bytes SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesshort type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesshort type
+shorts SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesint type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesint type
+ints SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typeslong type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typeslong type
+longs SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesfloat type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesfloat type
+floats SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesdouble type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesdouble type
+doubles SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbiginteger type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbiginteger type
+big integers SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesbigdecimal type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesbigdecimal type
+big decimals SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesdate type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesdate type
+dates SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation InfixExpression QualifiedName data typesstring type
+data type SimpleName MethodInvocation InfixExpression QualifiedName data typesstring type
+strings SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryenum
+i SimpleName MethodInvocation SimpleName data type
+enum type SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+enum type SimpleName SimpleType CastExpression MethodInvocation SimpleName data type
+ints SimpleName ArrayAccess SimpleName pos
+from ordinal SimpleName MethodInvocation ArrayAccess SimpleName ints
+from ordinal SimpleName MethodInvocation ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryarray
+arrays SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorymap
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorymap
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorymap
+maps SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorystruct
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+data typestype categorystruct QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data typestype categorytrait
+structs SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+i SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+i SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+data type SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categoryclass
+ids SimpleName ArrayAccess SimpleName pos
+ids SimpleName ArrayAccess SimpleName pos
+referenceables SimpleName ArrayAccess SimpleName pos
+i SimpleName MethodInvocation SimpleName data type
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral unknown datatype s
+string SimpleName MethodInvocation MethodInvocation SimpleName i
+string SimpleName MethodInvocation MethodInvocation SimpleName data type
+format SimpleName MethodInvocation StringLiteral unknown datatype s
+format SimpleName MethodInvocation MethodInvocation SimpleName i
+format SimpleName MethodInvocation MethodInvocation SimpleName data type
+unknown datatype s StringLiteral MethodInvocation MethodInvocation SimpleName i
+unknown datatype s StringLiteral MethodInvocation MethodInvocation SimpleName data type
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+atlas exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unknown datatype s
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SimpleName get
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

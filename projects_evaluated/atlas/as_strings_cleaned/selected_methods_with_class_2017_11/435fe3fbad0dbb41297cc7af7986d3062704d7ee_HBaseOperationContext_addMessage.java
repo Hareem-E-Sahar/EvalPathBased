@@ -1,0 +1,22 @@
+hook notification SimpleName SimpleType SingleVariableDeclaration SimpleName message
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation SimpleName message
+add SimpleName MethodInvocation SimpleName message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook notification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SimpleName add message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook notification
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+add message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hook notification
+add message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

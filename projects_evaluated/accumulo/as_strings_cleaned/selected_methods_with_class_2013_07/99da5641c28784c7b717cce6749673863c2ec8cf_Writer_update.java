@@ -1,0 +1,199 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName m
+not null SimpleName MethodInvocation SimpleName m
+m SimpleName MethodInvocation SimpleName size
+m SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral can not add empty mutations
+tablet locator SimpleName MethodInvocation SimpleName get locator
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation SimpleName table
+get locator SimpleName MethodInvocation SimpleName instance
+get locator SimpleName MethodInvocation SimpleName table
+instance SimpleName MethodInvocation SimpleName table
+m SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+tablet locator SimpleName MethodInvocation MethodInvocation SimpleName locate tablet
+get locator SimpleName MethodInvocation MethodInvocation SimpleName locate tablet
+instance SimpleName MethodInvocation MethodInvocation SimpleName locate tablet
+table SimpleName MethodInvocation MethodInvocation SimpleName locate tablet
+tablet locator SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get locator SimpleName MethodInvocation MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName credentials
+table SimpleName MethodInvocation MethodInvocation SimpleName credentials
+tablet locator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get locator SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+tablet locator SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get locator SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+instance SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+locate tablet SimpleName MethodInvocation SimpleName credentials
+locate tablet SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+locate tablet SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+locate tablet SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get row
+locate tablet SimpleName MethodInvocation BooleanLiteral false
+locate tablet SimpleName MethodInvocation BooleanLiteral true
+credentials SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+credentials SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get row
+credentials SimpleName MethodInvocation BooleanLiteral false
+credentials SimpleName MethodInvocation BooleanLiteral true
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation BooleanLiteral false
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation BooleanLiteral false
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation BooleanLiteral true
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation BooleanLiteral true
+tab loc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tablet locator
+tab loc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get locator
+tab loc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+tab loc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table
+tab loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName locate tablet
+tab loc SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+tab loc SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+tab loc SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+tablet location SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab loc
+m SimpleName MethodInvocation SimpleName get row
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+no tablet location found for row StringLiteral InfixExpression ClassInstanceCreation SimpleType SimpleName string
+no tablet location found for row StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName m
+no tablet location found for row StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName get row
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral no tablet location found for row
+trace SimpleName MethodInvocation InfixExpression StringLiteral no tablet location found for row
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+instance SimpleName MethodInvocation SimpleName get configuration
+update server SimpleName MethodInvocation SimpleName instance
+update server SimpleName MethodInvocation SimpleName m
+update server SimpleName MethodInvocation QualifiedName tab loctablet extent
+update server SimpleName MethodInvocation QualifiedName tab loctablet location
+update server SimpleName MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation SimpleName m
+instance SimpleName MethodInvocation QualifiedName tab loctablet extent
+instance SimpleName MethodInvocation QualifiedName tab loctablet location
+instance SimpleName MethodInvocation SimpleName credentials
+instance SimpleName MethodInvocation MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+m SimpleName MethodInvocation QualifiedName tab loctablet extent
+m SimpleName MethodInvocation QualifiedName tab loctablet location
+m SimpleName MethodInvocation SimpleName credentials
+m SimpleName MethodInvocation MethodInvocation SimpleName instance
+m SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+tab loctablet extent QualifiedName MethodInvocation QualifiedName tab loctablet location
+tab loctablet extent QualifiedName MethodInvocation SimpleName credentials
+tab loctablet extent QualifiedName MethodInvocation MethodInvocation SimpleName instance
+tab loctablet extent QualifiedName MethodInvocation MethodInvocation SimpleName get configuration
+tab loctablet location QualifiedName MethodInvocation SimpleName credentials
+tab loctablet location QualifiedName MethodInvocation MethodInvocation SimpleName instance
+tab loctablet location QualifiedName MethodInvocation MethodInvocation SimpleName get configuration
+credentials SimpleName MethodInvocation MethodInvocation SimpleName instance
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+not serving tablet exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+not serving tablet server = StringLiteral InfixExpression QualifiedName tab loctablet location
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral not serving tablet server =
+log SimpleName MethodInvocation InfixExpression QualifiedName tab loctablet location
+trace SimpleName MethodInvocation InfixExpression StringLiteral not serving tablet server =
+trace SimpleName MethodInvocation InfixExpression QualifiedName tab loctablet location
+tablet locator SimpleName MethodInvocation SimpleName get locator
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation SimpleName table
+get locator SimpleName MethodInvocation SimpleName instance
+get locator SimpleName MethodInvocation SimpleName table
+instance SimpleName MethodInvocation SimpleName table
+tablet locator SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+get locator SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+instance SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+table SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+tablet locator SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+get locator SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+instance SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+table SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+invalidate cache SimpleName MethodInvocation QualifiedName tab loctablet extent
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error sending update to StringLiteral InfixExpression QualifiedName tab loctablet location
+error sending update to StringLiteral InfixExpression StringLiteral :
+error sending update to StringLiteral InfixExpression SimpleName e
+tab loctablet location QualifiedName InfixExpression StringLiteral :
+tab loctablet location QualifiedName InfixExpression SimpleName e
+: StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral error sending update to
+log SimpleName MethodInvocation InfixExpression QualifiedName tab loctablet location
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral error sending update to
+error SimpleName MethodInvocation InfixExpression QualifiedName tab loctablet location
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression SimpleName e
+tablet locator SimpleName MethodInvocation SimpleName get locator
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation SimpleName table
+get locator SimpleName MethodInvocation SimpleName instance
+get locator SimpleName MethodInvocation SimpleName table
+instance SimpleName MethodInvocation SimpleName table
+tablet locator SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+get locator SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+instance SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+table SimpleName MethodInvocation MethodInvocation SimpleName invalidate cache
+tablet locator SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+get locator SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+instance SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+table SimpleName MethodInvocation MethodInvocation QualifiedName tab loctablet extent
+invalidate cache SimpleName MethodInvocation QualifiedName tab loctablet extent
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName constraint violation exception
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+update SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+update SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+update SimpleName MethodDeclaration SimpleType SimpleName constraint violation exception
+update SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception
+m SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName constraint violation exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+constraint violation exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName constraint violation exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

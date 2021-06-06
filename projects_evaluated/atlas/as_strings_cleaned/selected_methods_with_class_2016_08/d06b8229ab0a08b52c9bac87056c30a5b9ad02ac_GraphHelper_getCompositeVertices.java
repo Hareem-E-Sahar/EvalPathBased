@@ -1,0 +1,262 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex info
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex info
+stack SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+vertices SimpleName MethodInvocation SimpleName push
+vertices SimpleName MethodInvocation SimpleName entity vertex
+push SimpleName MethodInvocation SimpleName entity vertex
+vertices SimpleName MethodInvocation SimpleName size
+vertices SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+vertices SimpleName MethodInvocation SimpleName pop
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName pop
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName vertex
+get type name SimpleName MethodInvocation SimpleName vertex
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+graph helper SimpleName MethodInvocation SimpleName get state
+graph helper SimpleName MethodInvocation SimpleName vertex
+get state SimpleName MethodInvocation SimpleName vertex
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+identity state QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+state SimpleName InfixExpression QualifiedName identity statedeleted
+vertex info SimpleName SimpleType ClassInstanceCreation SimpleName guid
+vertex info SimpleName SimpleType ClassInstanceCreation SimpleName vertex
+vertex info SimpleName SimpleType ClassInstanceCreation SimpleName type name
+guid SimpleName ClassInstanceCreation SimpleName vertex
+guid SimpleName ClassInstanceCreation SimpleName type name
+vertex SimpleName ClassInstanceCreation SimpleName type name
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName vertex info
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName vertex
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName type name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName vertex info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName guid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName vertex
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName type name
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName type name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName field mapping
+class type SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+class type SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName values
+fields SimpleName FieldAccess MethodInvocation SimpleName values
+graph helper SimpleName MethodInvocation SimpleName get edge label
+graph helper SimpleName MethodInvocation SimpleName class type
+graph helper SimpleName MethodInvocation SimpleName attribute info
+get edge label SimpleName MethodInvocation SimpleName class type
+get edge label SimpleName MethodInvocation SimpleName attribute info
+class type SimpleName MethodInvocation SimpleName attribute info
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute info
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+attribute info SimpleName MethodInvocation SimpleName data type
+attribute info SimpleName MethodInvocation MethodInvocation SimpleName get type category
+data type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get edge for label SimpleName MethodInvocation SimpleName vertex
+get edge for label SimpleName MethodInvocation SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName edge label
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for label
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get state
+graph helper SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+get state SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName InfixExpression InfixExpression InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName composite vertex
+vertices SimpleName MethodInvocation SimpleName push
+vertices SimpleName MethodInvocation SimpleName composite vertex
+push SimpleName MethodInvocation SimpleName composite vertex
+attribute info SimpleName MethodInvocation SimpleName data type
+data typesarray type QualifiedName SimpleType CastExpression MethodInvocation SimpleName attribute info
+data typesarray type QualifiedName SimpleType CastExpression MethodInvocation SimpleName data type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elem type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+element type SimpleName MethodInvocation SimpleName get type category
+element type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName element type
+element type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+data typestype category QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type category
+element type category SimpleName InfixExpression QualifiedName type categoryclass
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get out going edges by label SimpleName MethodInvocation SimpleName vertex
+get out going edges by label SimpleName MethodInvocation SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName edge label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edges by label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+edge SimpleName Assignment MethodInvocation SimpleName edges
+edge SimpleName Assignment MethodInvocation SimpleName next
+graph helper SimpleName MethodInvocation SimpleName get state
+graph helper SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+get state SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName InfixExpression InfixExpression InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName composite vertex
+vertices SimpleName MethodInvocation SimpleName push
+vertices SimpleName MethodInvocation SimpleName composite vertex
+push SimpleName MethodInvocation SimpleName composite vertex
+attribute info SimpleName MethodInvocation SimpleName data type
+data typesmap type QualifiedName SimpleType CastExpression MethodInvocation SimpleName attribute info
+data typesmap type QualifiedName SimpleType CastExpression MethodInvocation SimpleName data type
+map type SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName data typesmap type
+map type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attribute info
+map type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName data type
+data typesmap type QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map type
+map type SimpleName MethodInvocation SimpleName get value type
+map type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+get value type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+value type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map type
+value type category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value type
+value type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+data typestype category QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type category
+value type category SimpleName InfixExpression QualifiedName type categoryclass
+graph helper SimpleName MethodInvocation SimpleName get qualified field name
+graph helper SimpleName MethodInvocation SimpleName class type
+graph helper SimpleName MethodInvocation QualifiedName attribute infoname
+get qualified field name SimpleName MethodInvocation SimpleName class type
+get qualified field name SimpleName MethodInvocation QualifiedName attribute infoname
+class type SimpleName MethodInvocation QualifiedName attribute infoname
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified field name
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+property name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName attribute infoname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation SimpleName property name
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+graph helper SimpleName MethodInvocation SimpleName get qualified name for map key
+graph helper SimpleName MethodInvocation SimpleName edge label
+graph helper SimpleName MethodInvocation SimpleName key
+get qualified name for map key SimpleName MethodInvocation SimpleName edge label
+get qualified name for map key SimpleName MethodInvocation SimpleName key
+edge label SimpleName MethodInvocation SimpleName key
+map edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+map edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified name for map key
+map edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+map edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map edge label
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName map edge label
+get edge for label SimpleName MethodInvocation SimpleName vertex
+get edge for label SimpleName MethodInvocation SimpleName map edge label
+vertex SimpleName MethodInvocation SimpleName map edge label
+edge SimpleName Assignment MethodInvocation SimpleName graph helper
+edge SimpleName Assignment MethodInvocation SimpleName get edge for label
+edge SimpleName Assignment MethodInvocation SimpleName vertex
+edge SimpleName Assignment MethodInvocation SimpleName map edge label
+graph helper SimpleName MethodInvocation SimpleName get state
+graph helper SimpleName MethodInvocation SimpleName edge
+get state SimpleName MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+get state SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation InfixExpression QualifiedName identity stateactive
+edge SimpleName InfixExpression InfixExpression InfixExpression QualifiedName identity stateactive
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+composite vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName composite vertex
+vertices SimpleName MethodInvocation SimpleName push
+vertices SimpleName MethodInvocation SimpleName composite vertex
+push SimpleName MethodInvocation SimpleName composite vertex
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName class
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName array
+attribute info SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex info
+public Modifier MethodDeclaration SimpleName get composite vertices
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex info
+static Modifier MethodDeclaration SimpleName get composite vertices
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get composite vertices
+vertex info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get composite vertices
+get composite vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get composite vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get composite vertices SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get composite vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get composite vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get composite vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

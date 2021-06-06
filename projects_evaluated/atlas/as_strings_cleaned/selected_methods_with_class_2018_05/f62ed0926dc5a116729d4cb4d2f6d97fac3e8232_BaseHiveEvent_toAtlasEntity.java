@@ -1,0 +1,101 @@
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas entity ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity ext info
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation SimpleName get database
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get database SimpleName MethodInvocation MethodInvocation SimpleName get name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get database
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get database SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get database SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get database
+get database SimpleName MethodInvocation MethodInvocation SimpleName get name
+db SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hive
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName get database
+db SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+database SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+to db entity SimpleName MethodInvocation SimpleName db
+ret SimpleName Assignment MethodInvocation SimpleName to db entity
+ret SimpleName Assignment MethodInvocation SimpleName db
+entity SimpleName MethodInvocation SimpleName get table
+entity SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+entity SimpleName MethodInvocation SimpleName get table
+entity SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hive
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get db name
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+to table entity SimpleName MethodInvocation SimpleName table
+to table entity SimpleName MethodInvocation SimpleName entity ext info
+table SimpleName MethodInvocation SimpleName entity ext info
+ret SimpleName Assignment MethodInvocation SimpleName to table entity
+ret SimpleName Assignment MethodInvocation SimpleName table
+ret SimpleName Assignment MethodInvocation SimpleName entity ext info
+entity SimpleName MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+uri SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+entity SimpleName MethodInvocation SimpleName get location
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get location
+get hdfs path entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get hdfs path entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity
+get hdfs path entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get location
+ret SimpleName Assignment MethodInvocation SimpleName get hdfs path entity
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName database
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName database
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table
+entity SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName partition
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName partition
+database SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table
+database SimpleName SwitchCase SwitchStatement SwitchCase SimpleName partition
+table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName partition
+table SimpleName SwitchCase SwitchStatement SwitchCase SimpleName dfs dir
+partition SimpleName SwitchCase SwitchStatement SwitchCase SimpleName dfs dir
+protected Modifier MethodDeclaration SimpleType SimpleName atlas entity
+protected Modifier MethodDeclaration SimpleName to atlas entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName to atlas entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity ext info
+to atlas entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+to atlas entity SimpleName MethodDeclaration SimpleType SimpleName exception
+to atlas entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

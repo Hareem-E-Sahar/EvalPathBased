@@ -1,0 +1,75 @@
+atlas cliententity result QualifiedName SimpleType SingleVariableDeclaration SimpleName result
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity mutation response
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+result SimpleName MethodInvocation SimpleName get created entities
+header SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity header
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header
+header SimpleName MethodInvocation SimpleName set guid
+header SimpleName MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+response SimpleName MethodInvocation SimpleName add entity
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+response SimpleName MethodInvocation SimpleName header
+add entity SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+add entity SimpleName MethodInvocation SimpleName header
+entity mutationsentity operationcreate or update QualifiedName MethodInvocation SimpleName header
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName result
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get created entities
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+result SimpleName MethodInvocation SimpleName get update entities
+header SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity header
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header
+header SimpleName MethodInvocation SimpleName set guid
+header SimpleName MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+response SimpleName MethodInvocation SimpleName add entity
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+response SimpleName MethodInvocation SimpleName header
+add entity SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+add entity SimpleName MethodInvocation SimpleName header
+entity mutationsentity operationcreate or update QualifiedName MethodInvocation SimpleName header
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName result
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get update entities
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+result SimpleName MethodInvocation SimpleName get deleted entities
+header SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity header
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName header
+header SimpleName MethodInvocation SimpleName set guid
+header SimpleName MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+response SimpleName MethodInvocation SimpleName add entity
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+response SimpleName MethodInvocation SimpleName header
+add entity SimpleName MethodInvocation QualifiedName entity mutationsentity operationdelete
+add entity SimpleName MethodInvocation SimpleName header
+entity mutationsentity operationdelete QualifiedName MethodInvocation SimpleName header
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName result
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get deleted entities
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName to entity mutation response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+static Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+static Modifier MethodDeclaration SimpleName to entity mutation response
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+static Modifier MethodDeclaration Block ReturnStatement SimpleName response
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName to entity mutation response
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+to entity mutation response SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+to entity mutation response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+to entity mutation response SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName to entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

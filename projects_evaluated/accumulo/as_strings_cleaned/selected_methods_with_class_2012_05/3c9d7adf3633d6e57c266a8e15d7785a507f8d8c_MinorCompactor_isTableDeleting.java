@@ -1,0 +1,54 @@
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table state SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get table state SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get table state SimpleName MethodInvocation MethodInvocation SimpleName to string
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation InfixExpression QualifiedName table statedeleting
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table statedeleting
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName table statedeleting
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName table statedeleting
+to string SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName table statedeleting
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+extent SimpleName MethodInvocation SimpleName get table id
+failed to determine if table StringLiteral InfixExpression MethodInvocation SimpleName extent
+failed to determine if table StringLiteral InfixExpression MethodInvocation SimpleName get table id
+failed to determine if table StringLiteral InfixExpression StringLiteral was deleting
+extent SimpleName MethodInvocation InfixExpression StringLiteral was deleting
+get table id SimpleName MethodInvocation InfixExpression StringLiteral was deleting
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to determine if table
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table id
+log SimpleName MethodInvocation InfixExpression StringLiteral was deleting
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to determine if table
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extent
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table id
+warn SimpleName MethodInvocation InfixExpression StringLiteral was deleting
+warn SimpleName MethodInvocation SimpleName e
+failed to determine if table StringLiteral InfixExpression MethodInvocation SimpleName e
+extent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+was deleting StringLiteral InfixExpression MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is table deleting
+boolean PrimitiveType MethodDeclaration SimpleName is table deleting
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is table deleting
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is table deleting

@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName store name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for db store {}
+log SimpleName MethodInvocation SimpleName store name
+debug SimpleName MethodInvocation StringLiteral searching for db store {}
+debug SimpleName MethodInvocation SimpleName store name
+searching for db store {} StringLiteral MethodInvocation SimpleName store name
+sqoop data typessqoop dbdatastore QualifiedName MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName sqoop data typessqoop dbdatastore
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName store name
+sqoop data typessqoop dbdatastore QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+sqoop data typessqoop dbdatastore QualifiedName MethodInvocation MethodInvocation SimpleName store name
+get name SimpleName MethodInvocation MethodInvocation SimpleName store name
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName store name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert db store is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName store name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert db store is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName store name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert db store is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert db store is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store name
+assert db store is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+store name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert db store is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert db store is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

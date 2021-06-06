@@ -1,0 +1,25 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation QualifiedName mini cluster harnessuse kerberos for it option
+get property SimpleName MethodInvocation QualifiedName mini cluster harnessuse kerberos for it option
+shared mini cluster ittrue QualifiedName MethodInvocation SimpleName equals
+shared mini cluster ittrue QualifiedName MethodInvocation MethodInvocation SimpleName system
+shared mini cluster ittrue QualifiedName MethodInvocation MethodInvocation SimpleName get property
+shared mini cluster ittrue QualifiedName MethodInvocation MethodInvocation QualifiedName mini cluster harnessuse kerberos for it option
+equals SimpleName MethodInvocation MethodInvocation SimpleName system
+equals SimpleName MethodInvocation MethodInvocation SimpleName get property
+equals SimpleName MethodInvocation MethodInvocation QualifiedName mini cluster harnessuse kerberos for it option
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is kerberos enabled
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is kerberos enabled
+boolean PrimitiveType MethodDeclaration SimpleName is kerberos enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is kerberos enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is kerberos enabled

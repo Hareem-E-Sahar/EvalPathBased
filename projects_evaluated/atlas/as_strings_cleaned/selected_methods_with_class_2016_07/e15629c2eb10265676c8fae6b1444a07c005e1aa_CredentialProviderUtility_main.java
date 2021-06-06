@@ -1,0 +1,112 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+get credential provider SimpleName MethodInvocation SimpleName text device
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName get credential provider
+provider SimpleName VariableDeclarationFragment MethodInvocation SimpleName text device
+credential provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cred
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get password SimpleName MethodInvocation SimpleName text device
+get password SimpleName MethodInvocation SimpleName key
+text device SimpleName MethodInvocation SimpleName key
+cred SimpleName Assignment MethodInvocation SimpleName get password
+cred SimpleName Assignment MethodInvocation SimpleName text device
+cred SimpleName Assignment MethodInvocation SimpleName key
+overwrite SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName overwrite
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+provider SimpleName MethodInvocation SimpleName get credential entry
+provider SimpleName MethodInvocation SimpleName key
+get credential entry SimpleName MethodInvocation SimpleName key
+text device SimpleName MethodInvocation SimpleName read line
+text device SimpleName MethodInvocation StringLiteral entry for s already exists overwrite yn y
+text device SimpleName MethodInvocation SimpleName key
+read line SimpleName MethodInvocation StringLiteral entry for s already exists overwrite yn y
+read line SimpleName MethodInvocation SimpleName key
+entry for s already exists overwrite yn y StringLiteral MethodInvocation SimpleName key
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName text device
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+choice SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entry for s already exists overwrite yn y
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName choice
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName choice
+is empty SimpleName MethodInvocation SimpleName choice
+choice SimpleName MethodInvocation SimpleName equals ignore case
+choice SimpleName MethodInvocation StringLiteral y
+equals ignore case SimpleName MethodInvocation StringLiteral y
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName choice
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral y
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName choice
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+is empty SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral y
+choice SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName choice
+choice SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+choice SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral y
+overwrite SimpleName Assignment InfixExpression MethodInvocation SimpleName string utils
+overwrite SimpleName Assignment InfixExpression MethodInvocation SimpleName is empty
+overwrite SimpleName Assignment InfixExpression MethodInvocation SimpleName choice
+overwrite SimpleName Assignment InfixExpression MethodInvocation SimpleName choice
+overwrite SimpleName Assignment InfixExpression MethodInvocation SimpleName equals ignore case
+overwrite SimpleName Assignment InfixExpression MethodInvocation StringLiteral y
+provider SimpleName MethodInvocation SimpleName delete credential entry
+provider SimpleName MethodInvocation SimpleName key
+delete credential entry SimpleName MethodInvocation SimpleName key
+provider SimpleName MethodInvocation SimpleName flush
+provider SimpleName MethodInvocation SimpleName create credential entry
+provider SimpleName MethodInvocation SimpleName key
+provider SimpleName MethodInvocation SimpleName cred
+create credential entry SimpleName MethodInvocation SimpleName key
+create credential entry SimpleName MethodInvocation SimpleName cred
+key SimpleName MethodInvocation SimpleName cred
+provider SimpleName MethodInvocation SimpleName flush
+text device SimpleName MethodInvocation SimpleName printf
+text device SimpleName MethodInvocation StringLiteral entry for s was overwritten with the new value
+text device SimpleName MethodInvocation SimpleName key
+printf SimpleName MethodInvocation StringLiteral entry for s was overwritten with the new value
+printf SimpleName MethodInvocation SimpleName key
+entry for s was overwritten with the new value StringLiteral MethodInvocation SimpleName key
+text device SimpleName MethodInvocation SimpleName printf
+text device SimpleName MethodInvocation StringLiteral entry for s was not overwritten
+text device SimpleName MethodInvocation SimpleName key
+printf SimpleName MethodInvocation StringLiteral entry for s was not overwritten
+printf SimpleName MethodInvocation SimpleName key
+entry for s was not overwritten StringLiteral MethodInvocation SimpleName key
+provider SimpleName MethodInvocation SimpleName create credential entry
+provider SimpleName MethodInvocation SimpleName key
+provider SimpleName MethodInvocation SimpleName cred
+create credential entry SimpleName MethodInvocation SimpleName key
+create credential entry SimpleName MethodInvocation SimpleName cred
+key SimpleName MethodInvocation SimpleName cred
+provider SimpleName MethodInvocation SimpleName flush
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName keys
+keys SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

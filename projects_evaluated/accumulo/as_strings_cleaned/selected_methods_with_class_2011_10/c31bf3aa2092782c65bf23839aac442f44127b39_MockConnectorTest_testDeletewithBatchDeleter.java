@@ -1,0 +1,228 @@
+mock connector SimpleName SimpleType ClassInstanceCreation StringLiteral root
+c SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock connector
+c SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral root
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+exists SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+delete SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+create SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation SimpleName create batch deleter
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation QualifiedName constantsno auths
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral l
+create batch deleter SimpleName MethodInvocation StringLiteral test
+create batch deleter SimpleName MethodInvocation QualifiedName constantsno auths
+create batch deleter SimpleName MethodInvocation NumberLiteral empty
+create batch deleter SimpleName MethodInvocation NumberLiteral l
+create batch deleter SimpleName MethodInvocation NumberLiteral l
+test StringLiteral MethodInvocation QualifiedName constantsno auths
+test StringLiteral MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral l
+test StringLiteral MethodInvocation NumberLiteral l
+test StringLiteral MethodInvocation NumberLiteral empty
+constantsno auths QualifiedName MethodInvocation NumberLiteral empty
+constantsno auths QualifiedName MethodInvocation NumberLiteral l
+constantsno auths QualifiedName MethodInvocation NumberLiteral l
+constantsno auths QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral l
+empty NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral l
+l NumberLiteral MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation NumberLiteral empty
+deleter SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+deleter SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch deleter
+deleter SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+deleter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+deleter SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+deleter SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+deleter SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral l
+deleter SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch deleter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName deleter
+range SimpleName SimpleType ClassInstanceCreation ParenthesizedExpression StringLiteral r
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+deleter SimpleName MethodInvocation SimpleName set ranges
+deleter SimpleName MethodInvocation MethodInvocation SimpleName collections
+deleter SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+deleter SimpleName MethodInvocation SimpleName delete
+check remaining SimpleName MethodInvocation SimpleName c
+check remaining SimpleName MethodInvocation StringLiteral test
+check remaining SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation StringLiteral test
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+writer SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+writer SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+writer SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+writer SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral fam
+m SimpleName MethodInvocation StringLiteral qual
+m SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation StringLiteral fam
+put SimpleName MethodInvocation StringLiteral qual
+put SimpleName MethodInvocation StringLiteral value
+fam StringLiteral MethodInvocation StringLiteral qual
+fam StringLiteral MethodInvocation StringLiteral value
+qual StringLiteral MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+writer SimpleName MethodInvocation SimpleName flush
+writer SimpleName MethodInvocation SimpleName close
+range SimpleName SimpleType ClassInstanceCreation ParenthesizedExpression StringLiteral r
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+deleter SimpleName MethodInvocation SimpleName set ranges
+deleter SimpleName MethodInvocation MethodInvocation SimpleName collections
+deleter SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+deleter SimpleName MethodInvocation SimpleName delete
+check remaining SimpleName MethodInvocation SimpleName c
+check remaining SimpleName MethodInvocation StringLiteral test
+check remaining SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation StringLiteral test
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+create batch writer SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation SimpleName c
+writer SimpleName Assignment MethodInvocation SimpleName create batch writer
+writer SimpleName Assignment MethodInvocation StringLiteral test
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+writer SimpleName Assignment MethodInvocation NumberLiteral empty
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation StringLiteral r
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral fam
+m SimpleName MethodInvocation StringLiteral qual
+m SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation StringLiteral fam
+put SimpleName MethodInvocation StringLiteral qual
+put SimpleName MethodInvocation StringLiteral value
+fam StringLiteral MethodInvocation StringLiteral qual
+fam StringLiteral MethodInvocation StringLiteral value
+qual StringLiteral MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral r
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral r
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral fam
+m SimpleName MethodInvocation StringLiteral qual
+m SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation StringLiteral fam
+put SimpleName MethodInvocation StringLiteral qual
+put SimpleName MethodInvocation StringLiteral value
+fam StringLiteral MethodInvocation StringLiteral qual
+fam StringLiteral MethodInvocation StringLiteral value
+qual StringLiteral MethodInvocation StringLiteral value
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+writer SimpleName MethodInvocation SimpleName flush
+writer SimpleName MethodInvocation SimpleName close
+range SimpleName SimpleType ClassInstanceCreation ParenthesizedExpression StringLiteral r
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+collections SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation ParenthesizedExpression StringLiteral r
+deleter SimpleName MethodInvocation SimpleName set ranges
+deleter SimpleName MethodInvocation MethodInvocation SimpleName collections
+deleter SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+deleter SimpleName MethodInvocation SimpleName delete
+check remaining SimpleName MethodInvocation SimpleName c
+check remaining SimpleName MethodInvocation StringLiteral test
+check remaining SimpleName MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test deletewith batch deleter
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test deletewith batch deleter
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test deletewith batch deleter
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test deletewith batch deleter SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test deletewith batch deleter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test deletewith batch deleter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

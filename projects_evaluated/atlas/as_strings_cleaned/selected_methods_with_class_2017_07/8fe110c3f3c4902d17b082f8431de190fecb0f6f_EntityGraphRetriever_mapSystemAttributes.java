@@ -1,0 +1,135 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mapping system attributes for type {}
+log SimpleName MethodInvocation MethodInvocation SimpleName entity
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral mapping system attributes for type {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+mapping system attributes for type {} StringLiteral MethodInvocation MethodInvocation SimpleName entity
+mapping system attributes for type {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get guid SimpleName MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set guid SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get type name SimpleName MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set type name
+entity SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set type name SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+set type name SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get status
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get status SimpleName MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set status
+entity SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation SimpleName get status
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set status SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set status SimpleName MethodInvocation MethodInvocation SimpleName get status
+set status SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get version
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get version SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName long value
+get version SimpleName MethodInvocation MethodInvocation SimpleName long value
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName long value
+entity SimpleName MethodInvocation SimpleName set version
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation MethodInvocation SimpleName long value
+set version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+set version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version
+set version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity vertex
+set version SimpleName MethodInvocation MethodInvocation SimpleName long value
+graph helper SimpleName MethodInvocation SimpleName get created by as string
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get created by as string SimpleName MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set created by
+entity SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation SimpleName get created by as string
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set created by SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set created by SimpleName MethodInvocation MethodInvocation SimpleName get created by as string
+set created by SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get modified by as string
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get modified by as string SimpleName MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set updated by
+entity SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation MethodInvocation SimpleName get modified by as string
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName get modified by as string
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get created time
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get created time SimpleName MethodInvocation SimpleName entity vertex
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get created time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set create time
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get created time
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity vertex
+set create time SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get created time
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName get modified time
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+get modified time SimpleName MethodInvocation SimpleName entity vertex
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modified time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity vertex
+entity SimpleName MethodInvocation SimpleName set update time
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modified time
+entity SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity vertex
+set update time SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modified time
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName map system attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName map system attributes
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+map system attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName map system attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map system attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

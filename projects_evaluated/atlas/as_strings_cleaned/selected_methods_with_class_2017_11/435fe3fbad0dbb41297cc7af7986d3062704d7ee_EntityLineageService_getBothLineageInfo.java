@@ -1,0 +1,88 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+int PrimitiveType SingleVariableDeclaration SimpleName depth
+get lineage info SimpleName MethodInvocation SimpleName guid
+get lineage info SimpleName MethodInvocation QualifiedName lineage directioninput
+get lineage info SimpleName MethodInvocation SimpleName depth
+guid SimpleName MethodInvocation QualifiedName lineage directioninput
+guid SimpleName MethodInvocation SimpleName depth
+lineage directioninput QualifiedName MethodInvocation SimpleName depth
+input lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get lineage info
+input lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+input lineage SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lineage directioninput
+input lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName depth
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input lineage
+get lineage info SimpleName MethodInvocation SimpleName guid
+get lineage info SimpleName MethodInvocation QualifiedName lineage directionoutput
+get lineage info SimpleName MethodInvocation SimpleName depth
+guid SimpleName MethodInvocation QualifiedName lineage directionoutput
+guid SimpleName MethodInvocation SimpleName depth
+lineage directionoutput QualifiedName MethodInvocation SimpleName depth
+output lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get lineage info
+output lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+output lineage SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lineage directionoutput
+output lineage SimpleName VariableDeclarationFragment MethodInvocation SimpleName depth
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output lineage
+ret SimpleName VariableDeclarationFragment SimpleName input lineage
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas lineage info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input lineage
+ret SimpleName MethodInvocation SimpleName get relations
+output lineage SimpleName MethodInvocation SimpleName get relations
+ret SimpleName MethodInvocation MethodInvocation SimpleName add all
+get relations SimpleName MethodInvocation MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output lineage
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relations
+get relations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output lineage
+get relations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get relations
+add all SimpleName MethodInvocation MethodInvocation SimpleName output lineage
+add all SimpleName MethodInvocation MethodInvocation SimpleName get relations
+ret SimpleName MethodInvocation SimpleName get guid entity map
+output lineage SimpleName MethodInvocation SimpleName get guid entity map
+ret SimpleName MethodInvocation MethodInvocation SimpleName put all
+get guid entity map SimpleName MethodInvocation MethodInvocation SimpleName put all
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output lineage
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid entity map
+get guid entity map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output lineage
+get guid entity map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid entity map
+put all SimpleName MethodInvocation MethodInvocation SimpleName output lineage
+put all SimpleName MethodInvocation MethodInvocation SimpleName get guid entity map
+ret SimpleName MethodInvocation SimpleName set lineage direction
+ret SimpleName MethodInvocation QualifiedName lineage directionboth
+set lineage direction SimpleName MethodInvocation QualifiedName lineage directionboth
+private Modifier MethodDeclaration SimpleType SimpleName atlas lineage info
+private Modifier MethodDeclaration SimpleName get both lineage info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName depth
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas lineage info SimpleName SimpleType MethodDeclaration SimpleName get both lineage info
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+atlas lineage info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName depth
+atlas lineage info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get both lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get both lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get both lineage info SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get both lineage info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName depth
+get both lineage info SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get both lineage info SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+depth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas lineage info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get both lineage info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas lineage info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get both lineage info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName depth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

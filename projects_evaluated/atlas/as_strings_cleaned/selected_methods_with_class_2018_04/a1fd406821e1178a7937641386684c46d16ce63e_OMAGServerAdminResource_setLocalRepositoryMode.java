@@ -1,0 +1,264 @@
+method SimpleName MemberValuePair QualifiedName request methodpost
+path SimpleName MemberValuePair StringLiteral localrepositorymode
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpost
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral localrepositorymode
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral localrepositorymode
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral localrepositorymode
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName local repository mode
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName repository mode
+local repository mode SimpleName SimpleType SingleVariableDeclaration SimpleName repository mode
+method name SimpleName VariableDeclarationFragment StringLiteral set local repository mode
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral set local repository mode
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral set local repository mode
+validate server name SimpleName MethodInvocation SimpleName server name
+validate server name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName server name
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+get server config SimpleName MethodInvocation SimpleName server name
+get server config SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server config
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName server name
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+omag server config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server config
+error code SimpleName VariableDeclarationFragment QualifiedName omag error codenull local repository mode
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omag error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omag error codenull local repository mode
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omag invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+local repository config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local repository config
+configuration factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs configuration factory
+omrs configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration factory
+server config SimpleName MethodInvocation SimpleName get local server name
+server config SimpleName MethodInvocation SimpleName get local server url
+configuration factory SimpleName MethodInvocation SimpleName get in memory local repository config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+get in memory local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get in memory local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+get in memory local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get in memory local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+local repository config SimpleName Assignment MethodInvocation SimpleName configuration factory
+local repository config SimpleName Assignment MethodInvocation SimpleName get in memory local repository config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server name
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server url
+server config SimpleName MethodInvocation SimpleName get local server name
+server config SimpleName MethodInvocation SimpleName get local server url
+configuration factory SimpleName MethodInvocation SimpleName get local graph local repository config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+get local graph local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get local graph local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+get local graph local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get local graph local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+local repository config SimpleName Assignment MethodInvocation SimpleName configuration factory
+local repository config SimpleName Assignment MethodInvocation SimpleName get local graph local repository config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server name
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server url
+server config SimpleName MethodInvocation SimpleName get local server name
+server config SimpleName MethodInvocation SimpleName get local server url
+configuration factory SimpleName MethodInvocation SimpleName get repository proxy local repository config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+get repository proxy local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get repository proxy local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+get repository proxy local repository config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get repository proxy local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local server url
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+server config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName server config
+get local server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get local server url
+local repository config SimpleName Assignment MethodInvocation SimpleName configuration factory
+local repository config SimpleName Assignment MethodInvocation SimpleName get repository proxy local repository config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server name
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+local repository config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server url
+repository mode SimpleName SwitchStatement SwitchCase SimpleName no local repository
+repository mode SimpleName SwitchStatement ExpressionStatement Assignment SimpleName local repository config
+repository mode SimpleName SwitchStatement SwitchCase SimpleName in memory repository
+repository mode SimpleName SwitchStatement ExpressionStatement Assignment SimpleName local repository config
+no local repository SimpleName SwitchCase SwitchStatement SwitchCase SimpleName in memory repository
+in memory repository SimpleName SwitchCase SwitchStatement SwitchCase SimpleName local graph repository
+local graph repository SimpleName SwitchCase SwitchStatement SwitchCase SimpleName repository proxy
+set local repository config SimpleName MethodInvocation SimpleName user id
+set local repository config SimpleName MethodInvocation SimpleName server name
+set local repository config SimpleName MethodInvocation SimpleName local repository config
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName local repository config
+server name SimpleName MethodInvocation SimpleName local repository config
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+localrepositorymode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+localrepositorymode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName set local repository mode
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set local repository mode
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set local repository mode
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set local repository mode
+localrepositorymode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName set local repository mode
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set local repository mode
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local repository mode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+void PrimitiveType MethodDeclaration SimpleName set local repository mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local repository mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+void PrimitiveType MethodDeclaration SimpleType SimpleName omag not authorized exception
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName local repository mode
+set local repository mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+set local repository mode SimpleName MethodDeclaration SimpleType SimpleName omag not authorized exception
+set local repository mode SimpleName MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+repository mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+repository mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+omag not authorized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set local repository mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set local repository mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception

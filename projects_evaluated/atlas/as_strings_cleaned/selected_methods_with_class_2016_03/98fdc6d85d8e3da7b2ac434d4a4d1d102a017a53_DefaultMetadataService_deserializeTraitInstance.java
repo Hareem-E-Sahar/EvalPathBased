@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait instance definition
+instance serialization SimpleName MethodInvocation SimpleName from json struct
+instance serialization SimpleName MethodInvocation SimpleName trait instance definition
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+from json struct SimpleName MethodInvocation SimpleName trait instance definition
+from json struct SimpleName MethodInvocation BooleanLiteral true
+trait instance definition SimpleName MethodInvocation BooleanLiteral true
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json struct
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait instance definition
+trait instance SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+trait instance SimpleName MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait instance
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName trait instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName entity type name
+param checker SimpleName MethodInvocation StringLiteral entity type cannot be null
+not empty SimpleName MethodInvocation SimpleName entity type name
+not empty SimpleName MethodInvocation StringLiteral entity type cannot be null
+entity type name SimpleName MethodInvocation StringLiteral entity type cannot be null
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+type system SimpleName MethodInvocation SimpleName entity type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation SimpleName entity type name
+trait type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type name
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName convert
+trait type SimpleName MethodInvocation SimpleName trait instance
+trait type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName trait instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+trait instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+type not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral error deserializing trait instance
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error deserializing trait instance StringLiteral ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SimpleName deserialize trait instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait instance definition
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i typed struct SimpleName SimpleType MethodDeclaration SimpleName deserialize trait instance
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait instance definition
+i typed struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+deserialize trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+deserialize trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait instance definition
+deserialize trait instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+trait instance definition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName deserialize trait instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deserialize trait instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

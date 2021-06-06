@@ -1,0 +1,139 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+get unique names SimpleName MethodInvocation NumberLiteral empty
+names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get unique names
+names SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+names SimpleName ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+c SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+create SimpleName MethodInvocation ArrayAccess SimpleName names
+create SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test ingestopts
+test ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+names SimpleName ArrayAccess NumberLiteral empty
+opts SimpleName MethodInvocation SimpleName set table name
+opts SimpleName MethodInvocation ArrayAccess SimpleName names
+opts SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set table name SimpleName MethodInvocation ArrayAccess SimpleName names
+set table name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName get client config
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+client conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client config
+client configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client conf
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation SimpleName get boolean
+client conf SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName update kerberos credentials
+opts SimpleName MethodInvocation SimpleName client conf
+update kerberos credentials SimpleName MethodInvocation SimpleName client conf
+opts SimpleName MethodInvocation SimpleName set principal
+opts SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+set principal SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+test ingest SimpleName MethodInvocation SimpleName ingest
+test ingest SimpleName MethodInvocation SimpleName c
+test ingest SimpleName MethodInvocation SimpleName opts
+test ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+ingest SimpleName MethodInvocation SimpleName c
+ingest SimpleName MethodInvocation SimpleName opts
+ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+c SimpleName MethodInvocation SimpleName opts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+opts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer opts
+cluster SimpleName MethodInvocation SimpleName get cluster control
+control SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+control SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster control
+cluster control SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName control
+control SimpleName MethodInvocation SimpleName stop all servers
+control SimpleName MethodInvocation QualifiedName server typemaster
+stop all servers SimpleName MethodInvocation QualifiedName server typemaster
+control SimpleName MethodInvocation SimpleName start all servers
+control SimpleName MethodInvocation QualifiedName server typemaster
+start all servers SimpleName MethodInvocation QualifiedName server typemaster
+c SimpleName MethodInvocation SimpleName table operations
+names SimpleName ArrayAccess NumberLiteral empty
+names SimpleName ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+c SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+c SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+c SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+c SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName names
+table operations SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+rename SimpleName MethodInvocation ArrayAccess SimpleName names
+rename SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+rename SimpleName MethodInvocation ArrayAccess SimpleName names
+rename SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+names SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName names
+names SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName names
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vopts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName verify ingestopts
+verify ingestopts QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vopts
+names SimpleName ArrayAccess NumberLiteral empty
+vopts SimpleName MethodInvocation SimpleName set table name
+vopts SimpleName MethodInvocation ArrayAccess SimpleName names
+vopts SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set table name SimpleName MethodInvocation ArrayAccess SimpleName names
+set table name SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation SimpleName get boolean
+client conf SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+client conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+client conf SimpleName MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation MethodInvocation QualifiedName client propertyinstance rpc sasl enabled
+get boolean SimpleName MethodInvocation MethodInvocation SimpleName get key
+get boolean SimpleName MethodInvocation BooleanLiteral false
+client propertyinstance rpc sasl enabled QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+vopts SimpleName MethodInvocation SimpleName update kerberos credentials
+vopts SimpleName MethodInvocation SimpleName client conf
+update kerberos credentials SimpleName MethodInvocation SimpleName client conf
+vopts SimpleName MethodInvocation SimpleName set principal
+vopts SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+set principal SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+verify ingest SimpleName MethodInvocation SimpleName verify ingest
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+verify ingest SimpleName MethodInvocation SimpleName c
+verify ingest SimpleName MethodInvocation SimpleName vopts
+verify ingest SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+c SimpleName MethodInvocation SimpleName vopts
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+vopts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scanner opts
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

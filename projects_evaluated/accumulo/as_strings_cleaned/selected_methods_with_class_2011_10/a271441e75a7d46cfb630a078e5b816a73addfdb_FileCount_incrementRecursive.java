@@ -1,0 +1,21 @@
+count value SimpleName SimpleType SingleVariableDeclaration SimpleName other
+recursive dir count SimpleName Assignment QualifiedName otherrecursive dir count
+recusive file count SimpleName Assignment QualifiedName otherrecusive file count
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName increment recursive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName count value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+void PrimitiveType MethodDeclaration SimpleName increment recursive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName count value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+increment recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName count value
+increment recursive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName increment recursive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName increment recursive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

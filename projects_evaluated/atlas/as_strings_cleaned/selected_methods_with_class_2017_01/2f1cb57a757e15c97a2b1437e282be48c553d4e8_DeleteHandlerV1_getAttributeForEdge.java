@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+atlas edge label SimpleName SimpleType ClassInstanceCreation SimpleName edge label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas edge label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName edge label
+atlas edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas edge label
+atlas edge label SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get type SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+parent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+parent type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+parent type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas edge label
+parent type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent type
+atlas struct type SimpleName SimpleType CastExpression SimpleName parent type
+parent struct type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas struct type
+parent struct type SimpleName VariableDeclarationFragment CastExpression SimpleName parent type
+atlas struct type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent struct type
+atlas edge label SimpleName MethodInvocation SimpleName get attribute name
+parent struct type SimpleName MethodInvocation SimpleName get attribute def
+parent struct type SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+parent struct type SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+protected Modifier MethodDeclaration SimpleType QualifiedName atlas struct defatlas attribute def
+protected Modifier MethodDeclaration SimpleName get attribute for edge
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+protected Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas struct defatlas attribute def QualifiedName SimpleType MethodDeclaration SimpleName get attribute for edge
+atlas struct defatlas attribute def QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+atlas struct defatlas attribute def QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get attribute for edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute for edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+get attribute for edge SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+edge label SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas struct defatlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute for edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas struct defatlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute for edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

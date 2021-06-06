@@ -1,0 +1,102 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get graph
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName add vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName MethodInvocation SimpleName add edge
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation StringLiteral knows
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation SimpleName v
+add edge SimpleName MethodInvocation StringLiteral knows
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation StringLiteral knows
+v SimpleName MethodInvocation StringLiteral knows
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+edge SimpleName VariableDeclarationFragment MethodInvocation StringLiteral knows
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+edge SimpleName MethodInvocation SimpleName get id
+edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+graph SimpleName MethodInvocation SimpleName get edge
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+graph SimpleName MethodInvocation MethodInvocation SimpleName to string
+get edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+get edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+edge copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+edge copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge
+edge copy SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+assert not null SimpleName MethodInvocation SimpleName edge copy
+assert equals SimpleName MethodInvocation SimpleName edge copy
+assert equals SimpleName MethodInvocation SimpleName edge
+edge copy SimpleName MethodInvocation SimpleName edge
+graph SimpleName MethodInvocation SimpleName remove edge
+graph SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get id
+edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+graph SimpleName MethodInvocation SimpleName get edge
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+graph SimpleName MethodInvocation MethodInvocation SimpleName to string
+get edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+get edge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+edge copy SimpleName Assignment MethodInvocation SimpleName graph
+edge copy SimpleName Assignment MethodInvocation SimpleName get edge
+edge copy SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+assert null SimpleName MethodInvocation SimpleName edge copy
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test remove edge
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test remove edge
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName test remove edge
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test remove edge
+void PrimitiveType MethodDeclaration SimpleName test remove edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test remove edge
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test remove edge

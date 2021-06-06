@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName memory iterator
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+memory iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iters
+memory iterator SimpleName SimpleType SingleVariableDeclaration SimpleName iter
+iter SimpleName MethodInvocation SimpleName close
+memory iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName iters
+iter SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName iters
+void PrimitiveType MethodDeclaration SimpleName return iterators
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iters
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName iters
+return iterators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iters
+return iterators SimpleName MethodDeclaration Block EnhancedForStatement SimpleName iters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName return iterators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName return iterators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iters

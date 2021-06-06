@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event string
+gson SimpleName MethodInvocation SimpleName from json
+gson SimpleName MethodInvocation SimpleName event string
+gson SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit event
+from json SimpleName MethodInvocation SimpleName event string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit event
+event string SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity audit event
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName entity audit event
+public Modifier MethodDeclaration SimpleName from string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event string
+static Modifier MethodDeclaration SimpleType SimpleName entity audit event
+static Modifier MethodDeclaration SimpleName from string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName event string
+entity audit event SimpleName SimpleType MethodDeclaration SimpleName from string
+entity audit event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event
+public Modifier TypeDeclaration MethodDeclaration SimpleName from string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event string

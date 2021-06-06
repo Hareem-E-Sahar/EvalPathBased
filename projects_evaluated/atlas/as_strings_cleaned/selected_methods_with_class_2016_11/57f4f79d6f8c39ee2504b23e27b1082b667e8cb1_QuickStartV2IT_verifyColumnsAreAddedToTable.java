@@ -1,0 +1,91 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+table SimpleName MethodInvocation SimpleName get attributes
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+table attributes SimpleName MethodInvocation SimpleName get
+table attributes SimpleName MethodInvocation StringLiteral columns
+get SimpleName MethodInvocation StringLiteral columns
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table attributes
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral columns
+columns SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName columns
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName columns
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+column SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+column SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName columns
+column SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+column SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+column SimpleName MethodInvocation SimpleName get
+column SimpleName MethodInvocation StringLiteral attributes
+get SimpleName MethodInvocation StringLiteral attributes
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName column
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation StringLiteral attributes
+column attributes SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+column attributes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName column
+column attributes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+column attributes SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral attributes
+column attributes SimpleName MethodInvocation SimpleName get
+column attributes SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation QualifiedName quick start v time id column
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName column attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+quick start v time id column QualifiedName MethodInvocation MethodInvocation SimpleName column attributes
+quick start v time id column QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick start v time id column QualifiedName MethodInvocation MethodInvocation StringLiteral name
+column attributes SimpleName MethodInvocation SimpleName get
+column attributes SimpleName MethodInvocation StringLiteral data type
+get SimpleName MethodInvocation StringLiteral data type
+assert equals SimpleName MethodInvocation StringLiteral int
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName column attributes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral data type
+int StringLiteral MethodInvocation MethodInvocation SimpleName column attributes
+int StringLiteral MethodInvocation MethodInvocation SimpleName get
+int StringLiteral MethodInvocation MethodInvocation StringLiteral data type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify columns are added to table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName verify columns are added to table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify columns are added to table SimpleName MethodDeclaration SimpleType SimpleName json exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

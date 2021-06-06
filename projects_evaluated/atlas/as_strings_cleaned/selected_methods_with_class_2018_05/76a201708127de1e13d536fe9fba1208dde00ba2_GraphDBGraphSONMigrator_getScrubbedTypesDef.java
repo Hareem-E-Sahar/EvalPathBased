@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json str
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation SimpleName json str
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas types def
+from json SimpleName MethodInvocation SimpleName json str
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas types def
+json str SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas types def
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName json str
+atlas types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def strubber for migration import SimpleName MethodInvocation SimpleName scrub
+types def strubber for migration import SimpleName MethodInvocation SimpleName types def
+scrub SimpleName MethodInvocation SimpleName types def
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas types def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get scrubbed types def
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json str
+public Modifier MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SimpleName get scrubbed types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json str
+atlas types def SimpleName SimpleType MethodDeclaration SimpleName get scrubbed types def
+atlas types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json str
+get scrubbed types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get scrubbed types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scrubbed types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json str
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scrubbed types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json str

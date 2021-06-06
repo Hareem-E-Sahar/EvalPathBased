@@ -1,0 +1,222 @@
+easy mock SimpleName MethodInvocation SimpleName create nice mock
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName writer
+create nice mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName writer
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName easy mock
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create nice mock
+writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+easy mock SimpleName MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+any object SimpleName MethodInvocation TypeLiteral SimpleType SimpleName mutation
+writer SimpleName MethodInvocation SimpleName update
+writer SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+writer SimpleName MethodInvocation MethodInvocation SimpleName any object
+update SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+update SimpleName MethodInvocation MethodInvocation SimpleName any object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName mutation
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName mutations
+easy mock SimpleName MethodInvocation SimpleName expect last call
+i answer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+easy mock SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get current arguments SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+mutation SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+mutations SimpleName MethodInvocation SimpleName add
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName answer
+object SimpleName SimpleType MethodDeclaration SimpleName answer
+easy mock SimpleName MethodInvocation MethodInvocation SimpleName and answer
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and answer
+easy mock SimpleName MethodInvocation SimpleName replay
+easy mock SimpleName MethodInvocation SimpleName writer
+replay SimpleName MethodInvocation SimpleName writer
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+credentials SimpleName SimpleType ClassInstanceCreation StringLiteral root
+credentials SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName credentials
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral root
+creds SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+credentials SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName creds
+replication table util SimpleName MethodInvocation SimpleName add writer
+replication table util SimpleName MethodInvocation SimpleName creds
+replication table util SimpleName MethodInvocation SimpleName writer
+add writer SimpleName MethodInvocation SimpleName creds
+add writer SimpleName MethodInvocation SimpleName writer
+creds SimpleName MethodInvocation SimpleName writer
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName random uuid
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+filehomeuseraccumulowalserverport StringLiteral InfixExpression SimpleName uuid
+my file SimpleName VariableDeclarationFragment InfixExpression StringLiteral filehomeuseraccumulowalserverport
+my file SimpleName VariableDeclarationFragment InfixExpression SimpleName uuid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName my file
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName my file
+singleton SimpleName MethodInvocation SimpleName my file
+status util SimpleName MethodInvocation SimpleName new file
+replication table util SimpleName MethodInvocation SimpleName update files
+replication table util SimpleName MethodInvocation SimpleName creds
+replication table util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+replication table util SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+replication table util SimpleName MethodInvocation MethodInvocation SimpleName collections
+replication table util SimpleName MethodInvocation MethodInvocation SimpleName singleton
+replication table util SimpleName MethodInvocation MethodInvocation SimpleName my file
+replication table util SimpleName MethodInvocation MethodInvocation SimpleName status util
+replication table util SimpleName MethodInvocation MethodInvocation SimpleName new file
+update files SimpleName MethodInvocation SimpleName creds
+update files SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+update files SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+update files SimpleName MethodInvocation MethodInvocation SimpleName collections
+update files SimpleName MethodInvocation MethodInvocation SimpleName singleton
+update files SimpleName MethodInvocation MethodInvocation SimpleName my file
+update files SimpleName MethodInvocation MethodInvocation SimpleName status util
+update files SimpleName MethodInvocation MethodInvocation SimpleName new file
+creds SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key extent
+creds SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+creds SimpleName MethodInvocation MethodInvocation SimpleName collections
+creds SimpleName MethodInvocation MethodInvocation SimpleName singleton
+creds SimpleName MethodInvocation MethodInvocation SimpleName my file
+creds SimpleName MethodInvocation MethodInvocation SimpleName status util
+creds SimpleName MethodInvocation MethodInvocation SimpleName new file
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new file
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+singleton SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new file
+my file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName status util
+my file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new file
+mutations SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName mutations
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName mutations
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName mutations
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+mutations SimpleName MethodInvocation SimpleName get
+mutations SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutations
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+m SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+metadata schemareplication section QualifiedName MethodInvocation SimpleName get row prefix
+metadata schemareplication section QualifiedName MethodInvocation InfixExpression StringLiteral filehomeuseraccumulowalserverport
+get row prefix SimpleName MethodInvocation InfixExpression StringLiteral filehomeuseraccumulowalserverport
+metadata schemareplication section QualifiedName MethodInvocation InfixExpression SimpleName uuid
+get row prefix SimpleName MethodInvocation InfixExpression SimpleName uuid
+filehomeuseraccumulowalserverport StringLiteral InfixExpression SimpleName uuid
+m SimpleName MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName metadata schemareplication section
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row prefix
+assert SimpleName MethodInvocation InfixExpression StringLiteral filehomeuseraccumulowalserverport
+assert SimpleName MethodInvocation InfixExpression SimpleName uuid
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName metadata schemareplication section
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get row prefix
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral filehomeuseraccumulowalserverport
+assert equals SimpleName MethodInvocation InfixExpression SimpleName uuid
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+filehomeuseraccumulowalserverport StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+uuid SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+m SimpleName MethodInvocation SimpleName get updates
+updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updates
+updates SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName updates
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName updates
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName updates
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+updates SimpleName MethodInvocation SimpleName get
+updates SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName updates
+update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+update SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+column update SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName update
+update SimpleName MethodInvocation SimpleName get column family
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName metadata schemareplication sectioncolf
+assert SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+assert SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+assert SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+assert equals SimpleName MethodInvocation QualifiedName metadata schemareplication sectioncolf
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+metadata schemareplication sectioncolf QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+metadata schemareplication sectioncolf QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+metadata schemareplication sectioncolf QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+update SimpleName MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+update SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+status util SimpleName MethodInvocation SimpleName new file value
+update SimpleName MethodInvocation SimpleName get value
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName status util
+assert SimpleName MethodInvocation MethodInvocation SimpleName new file value
+assert SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+assert SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+assert SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName status util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName new file value
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName proper path in row
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName proper path in row
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName proper path in row
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+proper path in row SimpleName MethodDeclaration SimpleType SimpleName exception
+proper path in row SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName proper path in row
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName proper path in row
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

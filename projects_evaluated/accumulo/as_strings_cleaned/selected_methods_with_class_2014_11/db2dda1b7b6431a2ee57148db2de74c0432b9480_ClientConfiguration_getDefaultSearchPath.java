@@ -1,0 +1,149 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo client conf path
+getenv SimpleName MethodInvocation StringLiteral accumulo client conf path
+client conf search path SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+client conf search path SimpleName VariableDeclarationFragment MethodInvocation SimpleName getenv
+client conf search path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulo client conf path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client conf search path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client conf search path SimpleName MethodInvocation SimpleName split
+client conf search path SimpleName MethodInvocation QualifiedName filepath separator
+split SimpleName MethodInvocation QualifiedName filepath separator
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName client conf search path
+arrays SimpleName MethodInvocation MethodInvocation SimpleName split
+arrays SimpleName MethodInvocation MethodInvocation QualifiedName filepath separator
+as list SimpleName MethodInvocation MethodInvocation SimpleName client conf search path
+as list SimpleName MethodInvocation MethodInvocation SimpleName split
+as list SimpleName MethodInvocation MethodInvocation QualifiedName filepath separator
+client conf paths SimpleName Assignment MethodInvocation SimpleName arrays
+client conf paths SimpleName Assignment MethodInvocation SimpleName as list
+client conf paths SimpleName Assignment MethodInvocation MethodInvocation SimpleName client conf search path
+client conf paths SimpleName Assignment MethodInvocation MethodInvocation SimpleName split
+client conf paths SimpleName Assignment MethodInvocation MethodInvocation QualifiedName filepath separator
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userhome
+get property SimpleName MethodInvocation StringLiteral userhome
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get property SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+userhome StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression SimpleName user accumulo dir name
+get property SimpleName MethodInvocation InfixExpression SimpleName user accumulo dir name
+userhome StringLiteral MethodInvocation InfixExpression SimpleName user accumulo dir name
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get property SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+userhome StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression SimpleName user conf filename
+get property SimpleName MethodInvocation InfixExpression SimpleName user conf filename
+userhome StringLiteral MethodInvocation InfixExpression SimpleName user conf filename
+fileseparator QualifiedName InfixExpression SimpleName user accumulo dir name
+fileseparator QualifiedName InfixExpression QualifiedName fileseparator
+fileseparator QualifiedName InfixExpression SimpleName user conf filename
+user accumulo dir name SimpleName InfixExpression QualifiedName fileseparator
+user accumulo dir name SimpleName InfixExpression SimpleName user conf filename
+fileseparator QualifiedName InfixExpression SimpleName user conf filename
+client conf paths SimpleName MethodInvocation SimpleName add
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userhome
+client conf paths SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+client conf paths SimpleName MethodInvocation InfixExpression SimpleName user accumulo dir name
+client conf paths SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+client conf paths SimpleName MethodInvocation InfixExpression SimpleName user conf filename
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+add SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userhome
+add SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+add SimpleName MethodInvocation InfixExpression SimpleName user accumulo dir name
+add SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+add SimpleName MethodInvocation InfixExpression SimpleName user conf filename
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo conf dir
+getenv SimpleName MethodInvocation StringLiteral accumulo conf dir
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo conf dir
+getenv SimpleName MethodInvocation StringLiteral accumulo conf dir
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+getenv SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+accumulo conf dir StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+getenv SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+accumulo conf dir StringLiteral MethodInvocation InfixExpression SimpleName global conf filename
+fileseparator QualifiedName InfixExpression SimpleName global conf filename
+client conf paths SimpleName MethodInvocation SimpleName add
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName getenv
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral accumulo conf dir
+client conf paths SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+client conf paths SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName getenv
+add SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral accumulo conf dir
+add SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+add SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+getenv SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+accumulo home StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression StringLiteral conf
+getenv SimpleName MethodInvocation InfixExpression StringLiteral conf
+accumulo home StringLiteral MethodInvocation InfixExpression StringLiteral conf
+system SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+getenv SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+accumulo home StringLiteral MethodInvocation InfixExpression QualifiedName fileseparator
+system SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+getenv SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+accumulo home StringLiteral MethodInvocation InfixExpression SimpleName global conf filename
+fileseparator QualifiedName InfixExpression StringLiteral conf
+fileseparator QualifiedName InfixExpression QualifiedName fileseparator
+fileseparator QualifiedName InfixExpression SimpleName global conf filename
+conf StringLiteral InfixExpression QualifiedName fileseparator
+conf StringLiteral InfixExpression SimpleName global conf filename
+fileseparator QualifiedName InfixExpression SimpleName global conf filename
+client conf paths SimpleName MethodInvocation SimpleName add
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName getenv
+client conf paths SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral accumulo home
+client conf paths SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+client conf paths SimpleName MethodInvocation InfixExpression StringLiteral conf
+client conf paths SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+client conf paths SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName getenv
+add SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral accumulo home
+add SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+add SimpleName MethodInvocation InfixExpression StringLiteral conf
+add SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+add SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+etcaccumulo StringLiteral InfixExpression SimpleName global conf filename
+client conf paths SimpleName MethodInvocation SimpleName add
+client conf paths SimpleName MethodInvocation InfixExpression StringLiteral etcaccumulo
+client conf paths SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+add SimpleName MethodInvocation InfixExpression StringLiteral etcaccumulo
+add SimpleName MethodInvocation InfixExpression SimpleName global conf filename
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get default search path
+private Modifier MethodDeclaration Block ReturnStatement SimpleName client conf paths
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get default search path
+static Modifier MethodDeclaration Block ReturnStatement SimpleName client conf paths
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get default search path
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get default search path
+get default search path SimpleName MethodDeclaration Block ReturnStatement SimpleName client conf paths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default search path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default search path

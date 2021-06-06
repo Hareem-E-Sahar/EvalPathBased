@@ -1,0 +1,39 @@
+test utils SimpleName MethodInvocation SimpleName define hive types
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName define hive types
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+metadata service SimpleName MethodInvocation SimpleName get type definition
+metadata service SimpleName MethodInvocation QualifiedName test utilstable type
+get type definition SimpleName MethodInvocation QualifiedName test utilstable type
+type not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+types serialization SimpleName MethodInvocation SimpleName to json
+types serialization SimpleName MethodInvocation SimpleName types def
+to json SimpleName MethodInvocation SimpleName types def
+metadata service SimpleName MethodInvocation SimpleName create type
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName types serialization
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName to json
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName types def
+create type SimpleName MethodInvocation MethodInvocation SimpleName types serialization
+create type SimpleName MethodInvocation MethodInvocation SimpleName to json
+create type SimpleName MethodInvocation MethodInvocation SimpleName types def
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,134 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> process entity
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral ==> process entity
+debug SimpleName MethodInvocation SimpleName guid
+==> process entity StringLiteral MethodInvocation SimpleName guid
+contextguids processed QualifiedName MethodInvocation SimpleName contains
+contextguids processed QualifiedName MethodInvocation SimpleName guid
+contains SimpleName MethodInvocation SimpleName guid
+contextguid direction QualifiedName MethodInvocation SimpleName get
+contextguid direction QualifiedName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+direction SimpleName VariableDeclarationFragment MethodInvocation QualifiedName contextguid direction
+direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+traversal direction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName direction
+entity graph retriever SimpleName MethodInvocation SimpleName to atlas entity with ext info
+entity graph retriever SimpleName MethodInvocation SimpleName guid
+to atlas entity with ext info SimpleName MethodInvocation SimpleName guid
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity graph retriever
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity with ext info
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with ext info
+contextresult QualifiedName MethodInvocation SimpleName get data
+contextresult QualifiedName MethodInvocation MethodInvocation SimpleName get entity creation order
+get data SimpleName MethodInvocation MethodInvocation SimpleName get entity creation order
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contextresult QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get entity creation order SimpleName MethodInvocation MethodInvocation SimpleName add
+get entity creation order SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add entity SimpleName MethodInvocation SimpleName entity with ext info
+add entity SimpleName MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+add types SimpleName MethodInvocation MethodInvocation SimpleName entity with ext info
+add types SimpleName MethodInvocation MethodInvocation SimpleName get entity
+add types SimpleName MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName context
+get entity SimpleName MethodInvocation MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+contextguids processed QualifiedName MethodInvocation SimpleName add
+contextguids processed QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+contextguids processed QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+contextguids processed QualifiedName MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+get connted entities based on option SimpleName MethodInvocation MethodInvocation SimpleName entity with ext info
+get connted entities based on option SimpleName MethodInvocation MethodInvocation SimpleName get entity
+get connted entities based on option SimpleName MethodInvocation SimpleName context
+get connted entities based on option SimpleName MethodInvocation SimpleName direction
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName context
+get entity SimpleName MethodInvocation MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName direction
+get entity SimpleName MethodInvocation MethodInvocation SimpleName direction
+context SimpleName MethodInvocation SimpleName direction
+entity with ext info SimpleName MethodInvocation SimpleName get referred entities
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entity with ext info SimpleName MethodInvocation SimpleName get referred entities
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName values
+get referred entities SimpleName MethodInvocation MethodInvocation SimpleName values
+add types SimpleName MethodInvocation SimpleName e
+add types SimpleName MethodInvocation SimpleName context
+e SimpleName MethodInvocation SimpleName context
+get connted entities based on option SimpleName MethodInvocation SimpleName e
+get connted entities based on option SimpleName MethodInvocation SimpleName context
+get connted entities based on option SimpleName MethodInvocation SimpleName direction
+e SimpleName MethodInvocation SimpleName context
+e SimpleName MethodInvocation SimpleName direction
+context SimpleName MethodInvocation SimpleName direction
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entity with ext info SimpleName MethodInvocation SimpleName get referred entities
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName key set
+get referred entities SimpleName MethodInvocation MethodInvocation SimpleName key set
+contextguids processed QualifiedName MethodInvocation SimpleName add all
+contextguids processed QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+contextguids processed QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get referred entities
+contextguids processed QualifiedName MethodInvocation MethodInvocation SimpleName key set
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get referred entities
+add all SimpleName MethodInvocation MethodInvocation SimpleName key set
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== process entity
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral <== process entity
+debug SimpleName MethodInvocation SimpleName guid
+<== process entity StringLiteral MethodInvocation SimpleName guid
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName process entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+process entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+process entity SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

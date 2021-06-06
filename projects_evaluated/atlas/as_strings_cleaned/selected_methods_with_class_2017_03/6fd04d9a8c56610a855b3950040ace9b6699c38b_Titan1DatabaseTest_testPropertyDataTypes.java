@@ -1,0 +1,305 @@
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas graph SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral boolean property
+test property SimpleName MethodInvocation QualifiedName booleantrue
+graph SimpleName MethodInvocation StringLiteral boolean property
+graph SimpleName MethodInvocation QualifiedName booleantrue
+boolean property StringLiteral MethodInvocation QualifiedName booleantrue
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral boolean property
+test property SimpleName MethodInvocation QualifiedName booleanfalse
+graph SimpleName MethodInvocation StringLiteral boolean property
+graph SimpleName MethodInvocation QualifiedName booleanfalse
+boolean property StringLiteral MethodInvocation QualifiedName booleanfalse
+boolean SimpleName SimpleType ClassInstanceCreation QualifiedName booleantrue
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral boolean property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName booleantrue
+graph SimpleName MethodInvocation StringLiteral boolean property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName booleantrue
+boolean property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+boolean property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName booleantrue
+boolean SimpleName SimpleType ClassInstanceCreation QualifiedName booleanfalse
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral boolean property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName booleanfalse
+graph SimpleName MethodInvocation StringLiteral boolean property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName booleanfalse
+boolean property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName boolean
+boolean property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName booleanfalse
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral byte property
+test property SimpleName MethodInvocation QualifiedName bytemax value
+graph SimpleName MethodInvocation StringLiteral byte property
+graph SimpleName MethodInvocation QualifiedName bytemax value
+byte property StringLiteral MethodInvocation QualifiedName bytemax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral byte property
+test property SimpleName MethodInvocation QualifiedName bytemin value
+graph SimpleName MethodInvocation StringLiteral byte property
+graph SimpleName MethodInvocation QualifiedName bytemin value
+byte property StringLiteral MethodInvocation QualifiedName bytemin value
+byte SimpleName SimpleType ClassInstanceCreation QualifiedName bytemax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral byte property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+graph SimpleName MethodInvocation StringLiteral byte property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+byte property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+byte property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName bytemax value
+byte SimpleName SimpleType ClassInstanceCreation QualifiedName bytemin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral byte property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemin value
+graph SimpleName MethodInvocation StringLiteral byte property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytemin value
+byte property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName byte
+byte property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName bytemin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral short property
+test property SimpleName MethodInvocation QualifiedName shortmax value
+graph SimpleName MethodInvocation StringLiteral short property
+graph SimpleName MethodInvocation QualifiedName shortmax value
+short property StringLiteral MethodInvocation QualifiedName shortmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral short property
+test property SimpleName MethodInvocation QualifiedName shortmin value
+graph SimpleName MethodInvocation StringLiteral short property
+graph SimpleName MethodInvocation QualifiedName shortmin value
+short property StringLiteral MethodInvocation QualifiedName shortmin value
+short SimpleName SimpleType ClassInstanceCreation QualifiedName shortmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral short property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+graph SimpleName MethodInvocation StringLiteral short property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+short property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+short property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName shortmax value
+short SimpleName SimpleType ClassInstanceCreation QualifiedName shortmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral short property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmin value
+graph SimpleName MethodInvocation StringLiteral short property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName shortmin value
+short property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName short
+short property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName shortmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral int property
+test property SimpleName MethodInvocation QualifiedName integermax value
+graph SimpleName MethodInvocation StringLiteral int property
+graph SimpleName MethodInvocation QualifiedName integermax value
+int property StringLiteral MethodInvocation QualifiedName integermax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral int property
+test property SimpleName MethodInvocation QualifiedName integermin value
+graph SimpleName MethodInvocation StringLiteral int property
+graph SimpleName MethodInvocation QualifiedName integermin value
+int property StringLiteral MethodInvocation QualifiedName integermin value
+integer SimpleName SimpleType ClassInstanceCreation QualifiedName integermax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral int property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+graph SimpleName MethodInvocation StringLiteral int property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+int property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+int property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName integermax value
+integer SimpleName SimpleType ClassInstanceCreation QualifiedName integermin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral int property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermin value
+graph SimpleName MethodInvocation StringLiteral int property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermin value
+int property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+int property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName integermin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral long property
+test property SimpleName MethodInvocation QualifiedName longmin value
+graph SimpleName MethodInvocation StringLiteral long property
+graph SimpleName MethodInvocation QualifiedName longmin value
+long property StringLiteral MethodInvocation QualifiedName longmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral long property
+test property SimpleName MethodInvocation QualifiedName longmax value
+graph SimpleName MethodInvocation StringLiteral long property
+graph SimpleName MethodInvocation QualifiedName longmax value
+long property StringLiteral MethodInvocation QualifiedName longmax value
+long SimpleName SimpleType ClassInstanceCreation QualifiedName longmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral long property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmin value
+graph SimpleName MethodInvocation StringLiteral long property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmin value
+long property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+long property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName longmin value
+long SimpleName SimpleType ClassInstanceCreation QualifiedName longmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral long property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+graph SimpleName MethodInvocation StringLiteral long property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+long property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName long
+long property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName longmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral double property
+test property SimpleName MethodInvocation QualifiedName doublemax value
+graph SimpleName MethodInvocation StringLiteral double property
+graph SimpleName MethodInvocation QualifiedName doublemax value
+double property StringLiteral MethodInvocation QualifiedName doublemax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral double property
+test property SimpleName MethodInvocation QualifiedName doublemin value
+graph SimpleName MethodInvocation StringLiteral double property
+graph SimpleName MethodInvocation QualifiedName doublemin value
+double property StringLiteral MethodInvocation QualifiedName doublemin value
+double SimpleName SimpleType ClassInstanceCreation QualifiedName doublemax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral double property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName doublemax value
+graph SimpleName MethodInvocation StringLiteral double property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName doublemax value
+double property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+double property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName doublemax value
+double SimpleName SimpleType ClassInstanceCreation QualifiedName doublemin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral double property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName doublemin value
+graph SimpleName MethodInvocation StringLiteral double property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName doublemin value
+double property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName double
+double property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName doublemin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral float property
+test property SimpleName MethodInvocation QualifiedName floatmax value
+graph SimpleName MethodInvocation StringLiteral float property
+graph SimpleName MethodInvocation QualifiedName floatmax value
+float property StringLiteral MethodInvocation QualifiedName floatmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral float property
+test property SimpleName MethodInvocation QualifiedName floatmin value
+graph SimpleName MethodInvocation StringLiteral float property
+graph SimpleName MethodInvocation QualifiedName floatmin value
+float property StringLiteral MethodInvocation QualifiedName floatmin value
+float SimpleName SimpleType ClassInstanceCreation QualifiedName floatmax value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral float property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName floatmax value
+graph SimpleName MethodInvocation StringLiteral float property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName floatmax value
+float property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+float property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName floatmax value
+float SimpleName SimpleType ClassInstanceCreation QualifiedName floatmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral float property
+test property SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+test property SimpleName MethodInvocation ClassInstanceCreation QualifiedName floatmin value
+graph SimpleName MethodInvocation StringLiteral float property
+graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+graph SimpleName MethodInvocation ClassInstanceCreation QualifiedName floatmin value
+float property StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+float property StringLiteral MethodInvocation ClassInstanceCreation QualifiedName floatmin value
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral type category property
+test property SimpleName MethodInvocation QualifiedName type categoryclass
+graph SimpleName MethodInvocation StringLiteral type category property
+graph SimpleName MethodInvocation QualifiedName type categoryclass
+type category property StringLiteral MethodInvocation QualifiedName type categoryclass
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation QualifiedName longmax value
+value of SimpleName MethodInvocation QualifiedName longmax value
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value of
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName longmax value
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName multiply
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName multiply
+value of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName multiply
+longmax value QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName multiply
+big integer SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName big integerten
+string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName big integerten
+value of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName big integerten
+longmax value QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName big integerten
+multiply SimpleName MethodInvocation QualifiedName big integerten
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral big integer property
+test property SimpleName MethodInvocation MethodInvocation SimpleName multiply
+test property SimpleName MethodInvocation MethodInvocation QualifiedName big integerten
+graph SimpleName MethodInvocation StringLiteral big integer property
+graph SimpleName MethodInvocation MethodInvocation SimpleName multiply
+graph SimpleName MethodInvocation MethodInvocation QualifiedName big integerten
+big integer property StringLiteral MethodInvocation MethodInvocation SimpleName multiply
+big integer property StringLiteral MethodInvocation MethodInvocation QualifiedName big integerten
+big decimal SimpleName SimpleType ClassInstanceCreation QualifiedName doublemax value
+big decimal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName big decimal
+big decimal SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName doublemax value
+big decimal SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName big decimal
+big decimal SimpleName MethodInvocation SimpleName multiply
+big decimal SimpleName MethodInvocation SimpleName big decimal
+multiply SimpleName MethodInvocation SimpleName big decimal
+test property SimpleName MethodInvocation SimpleName graph
+test property SimpleName MethodInvocation StringLiteral big decimal property
+test property SimpleName MethodInvocation MethodInvocation SimpleName big decimal
+test property SimpleName MethodInvocation MethodInvocation SimpleName multiply
+test property SimpleName MethodInvocation MethodInvocation SimpleName big decimal
+graph SimpleName MethodInvocation StringLiteral big decimal property
+graph SimpleName MethodInvocation MethodInvocation SimpleName big decimal
+graph SimpleName MethodInvocation MethodInvocation SimpleName multiply
+graph SimpleName MethodInvocation MethodInvocation SimpleName big decimal
+big decimal property StringLiteral MethodInvocation MethodInvocation SimpleName big decimal
+big decimal property StringLiteral MethodInvocation MethodInvocation SimpleName multiply
+big decimal property StringLiteral MethodInvocation MethodInvocation SimpleName big decimal
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test property data types
+public Modifier MethodDeclaration TypeParameter SimpleName v
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test property data types
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName test property data types
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName test property data types
+void PrimitiveType MethodDeclaration SimpleName test property data types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test property data types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test property data types

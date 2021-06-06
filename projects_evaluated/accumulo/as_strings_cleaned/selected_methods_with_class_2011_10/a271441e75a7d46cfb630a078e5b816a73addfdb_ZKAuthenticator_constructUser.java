@@ -1,0 +1,243 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName pass
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sys perms
+system permission SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sys perms
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table perms
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName table perms
+authorizations SimpleName SimpleType SingleVariableDeclaration SimpleName auths
+zoo cache SimpleName MethodInvocation SimpleName clear
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName user
+zoo SimpleName MethodInvocation SimpleName put private persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName user
+zoo SimpleName MethodInvocation SimpleName pass
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put private persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put private persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put private persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put private persistent data SimpleName MethodInvocation SimpleName pass
+put private persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation SimpleName pass
+/ StringLiteral InfixExpression MethodInvocation SimpleName pass
+user SimpleName InfixExpression MethodInvocation SimpleName pass
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+pass SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user auths
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user auths
+user SimpleName InfixExpression SimpleName zk user auths
+tool SimpleName MethodInvocation SimpleName convert authorizations
+tool SimpleName MethodInvocation SimpleName auths
+convert authorizations SimpleName MethodInvocation SimpleName auths
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName user
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user auths
+zoo SimpleName MethodInvocation MethodInvocation SimpleName tool
+zoo SimpleName MethodInvocation MethodInvocation SimpleName convert authorizations
+zoo SimpleName MethodInvocation MethodInvocation SimpleName auths
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user auths
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName tool
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName convert authorizations
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName auths
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auths
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName auths
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auths
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert authorizations
+zk user auths SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName auths
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk user auths SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+convert authorizations SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+auths SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user sys perms
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user sys perms
+user SimpleName InfixExpression SimpleName zk user sys perms
+tool SimpleName MethodInvocation SimpleName convert system permissions
+tool SimpleName MethodInvocation SimpleName sys perms
+convert system permissions SimpleName MethodInvocation SimpleName sys perms
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName user
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+zoo SimpleName MethodInvocation MethodInvocation SimpleName tool
+zoo SimpleName MethodInvocation MethodInvocation SimpleName convert system permissions
+zoo SimpleName MethodInvocation MethodInvocation SimpleName sys perms
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName tool
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName convert system permissions
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName sys perms
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sys perms
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName sys perms
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sys perms
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tool
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName sys perms
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk user sys perms SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+convert system permissions SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+sys perms SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName user
+zk user path SimpleName InfixExpression SimpleName zk user table perms
+/ StringLiteral InfixExpression SimpleName user
+/ StringLiteral InfixExpression SimpleName zk user table perms
+user SimpleName InfixExpression SimpleName zk user table perms
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName user
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user table perms
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName user
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user table perms
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+/ StringLiteral InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+user SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk user table perms SimpleName InfixExpression MethodInvocation ArrayCreation NumberLiteral empty
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+user SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk user table perms SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyfail
+empty NumberLiteral ArrayCreation MethodInvocation QualifiedName node exists policyfail
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+table perms SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+create table perm SimpleName MethodInvocation SimpleName user
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName entry
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName get key
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName entry
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName get value
+user SimpleName MethodInvocation MethodInvocation SimpleName entry
+user SimpleName MethodInvocation MethodInvocation SimpleName get key
+user SimpleName MethodInvocation MethodInvocation SimpleName entry
+user SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table perms
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName construct user
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pass
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+void PrimitiveType MethodDeclaration SimpleName construct user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pass
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table perms
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+construct user SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pass
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table perms
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authorizations
+construct user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auths
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table perms
+user SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+pass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+pass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table perms
+pass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+pass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+pass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+sys perms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table perms
+sys perms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+sys perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+sys perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+table perms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+table perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+table perms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+auths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+auths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName construct user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table perms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName construct user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sys perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table perms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

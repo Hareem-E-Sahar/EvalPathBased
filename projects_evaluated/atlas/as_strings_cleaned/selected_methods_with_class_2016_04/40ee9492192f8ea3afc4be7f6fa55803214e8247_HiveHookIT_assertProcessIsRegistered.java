@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName query str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for process with query {}
+log SimpleName MethodInvocation SimpleName query str
+debug SimpleName MethodInvocation StringLiteral searching for process with query {}
+debug SimpleName MethodInvocation SimpleName query str
+searching for process with query {} StringLiteral MethodInvocation SimpleName query str
+hive data typeshive process QualifiedName MethodInvocation SimpleName get name
+normalize SimpleName MethodInvocation SimpleName query str
+assert entity is registered SimpleName MethodInvocation MethodInvocation QualifiedName hive data typeshive process
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientname
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName normalize
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName query str
+hive data typeshive process QualifiedName MethodInvocation MethodInvocation QualifiedName atlas clientname
+get name SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientname
+hive data typeshive process QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName normalize
+hive data typeshive process QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName query str
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName normalize
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query str
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName normalize
+atlas clientname QualifiedName MethodInvocation MethodInvocation SimpleName query str
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert process is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query str
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert process is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query str
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert process is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query str
+assert process is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+query str SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert process is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert process is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query str
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

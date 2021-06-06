@@ -1,0 +1,147 @@
+process input key SimpleName VariableDeclarationFragment StringLiteral processinputs
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName process input key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral processinputs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process input key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral processinputs
+process output key SimpleName VariableDeclarationFragment StringLiteral processoutputs
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName process output key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral processoutputs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process output key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral processoutputs
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType QualifiedName relationship cache generatortype info
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName relationship cache generatortype info
+relationship cache generator SimpleName MethodInvocation SimpleName get
+relationship cache generator SimpleName MethodInvocation SimpleName type registry
+get SimpleName MethodInvocation SimpleName type registry
+cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship cache generator
+cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cache SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+cache SimpleName MethodInvocation SimpleName size
+get legacy attribute count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get legacy attribute count
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cache SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType QualifiedName relationship cache generatortype info
+string SimpleName SimpleType ParameterizedType SimpleType QualifiedName relationship cache generatortype info
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+relationship cache generatortype info QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+cache SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entry
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get key
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName entry
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName string utils
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is not empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+entry SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+get key SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+starts with SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+entry SimpleName MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+assert true SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert true SimpleName MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+starts with SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+constantsinternal property key prefix QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+constantsinternal property key prefix QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName cache
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName process input key
+get SimpleName MethodInvocation SimpleName process input key
+cache SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+process input key SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process input key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation StringLiteral dataset process inputs
+cache SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dataset process inputs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dataset process inputs
+process input key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dataset process inputs
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral dataset process inputs
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName process input key
+get SimpleName MethodInvocation SimpleName process input key
+cache SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+get SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+process input key SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process input key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+assert equals SimpleName MethodInvocation SimpleName two to one
+cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName two to one
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName two to one
+process input key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName two to one
+get propagate tags SimpleName MethodInvocation MethodInvocation SimpleName two to one
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName process output key
+get SimpleName MethodInvocation SimpleName process output key
+cache SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+process output key SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process output key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation StringLiteral process dataset outputs
+cache SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral process dataset outputs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral process dataset outputs
+process output key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral process dataset outputs
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral process dataset outputs
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName process output key
+get SimpleName MethodInvocation SimpleName process output key
+cache SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+get SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+process output key SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName process output key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+assert equals SimpleName MethodInvocation SimpleName one to two
+cache SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one to two
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one to two
+process output key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one to two
+get propagate tags SimpleName MethodInvocation MethodInvocation SimpleName one to two
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName create lookup
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create lookup
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName create lookup
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+create lookup SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create lookup SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create lookup
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create lookup

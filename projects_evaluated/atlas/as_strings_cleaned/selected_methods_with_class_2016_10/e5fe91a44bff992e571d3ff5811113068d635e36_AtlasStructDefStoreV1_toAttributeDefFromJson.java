@@ -1,0 +1,187 @@
+map SimpleName SimpleType SingleVariableDeclaration SimpleName attrib info
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas attribute def
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+attrib info SimpleName MethodInvocation SimpleName get
+attrib info SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attrib info
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral name
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+ret SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+set name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+set name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+set name SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+attrib info SimpleName MethodInvocation SimpleName get
+attrib info SimpleName MethodInvocation StringLiteral data type
+get SimpleName MethodInvocation StringLiteral data type
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attrib info
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral data type
+ret SimpleName MethodInvocation SimpleName set type name
+ret SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+ret SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral data type
+set type name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set type name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+set type name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+set type name SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral data type
+attrib info SimpleName MethodInvocation SimpleName get
+attrib info SimpleName MethodInvocation StringLiteral is unique
+get SimpleName MethodInvocation StringLiteral is unique
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName attrib info
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is unique
+ret SimpleName MethodInvocation SimpleName set unique
+ret SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+ret SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is unique
+set unique SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+set unique SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+set unique SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+set unique SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is unique
+attrib info SimpleName MethodInvocation SimpleName get
+attrib info SimpleName MethodInvocation StringLiteral is indexable
+get SimpleName MethodInvocation StringLiteral is indexable
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName attrib info
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is indexable
+ret SimpleName MethodInvocation SimpleName set indexable
+ret SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+ret SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+ret SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is indexable
+set indexable SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+set indexable SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+set indexable SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+set indexable SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral is indexable
+attrib info SimpleName MethodInvocation SimpleName get
+attrib info SimpleName MethodInvocation StringLiteral multiplicity
+get SimpleName MethodInvocation StringLiteral multiplicity
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attrib info
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral multiplicity
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+atlas type SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+atlas type SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+atlas type SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral multiplicity
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+from json SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+from json SimpleName MethodInvocation CastExpression MethodInvocation SimpleName attrib info
+from json SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+from json SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral multiplicity
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+multiplicity SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+multiplicity SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName multiplicity
+multiplicity SimpleName MethodInvocation SimpleName get
+multiplicity SimpleName MethodInvocation StringLiteral lower
+get SimpleName MethodInvocation StringLiteral lower
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName multiplicity
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+number SimpleName SimpleType CastExpression MethodInvocation StringLiteral lower
+min count SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName number
+min count SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName multiplicity
+min count SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+min count SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral lower
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName min count
+multiplicity SimpleName MethodInvocation SimpleName get
+multiplicity SimpleName MethodInvocation StringLiteral upper
+get SimpleName MethodInvocation StringLiteral upper
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName multiplicity
+number SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+number SimpleName SimpleType CastExpression MethodInvocation StringLiteral upper
+max count SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName number
+max count SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName multiplicity
+max count SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+max count SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral upper
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName max count
+multiplicity SimpleName MethodInvocation SimpleName get
+multiplicity SimpleName MethodInvocation StringLiteral is unique
+get SimpleName MethodInvocation StringLiteral is unique
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName multiplicity
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation StringLiteral is unique
+is unique SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName boolean
+is unique SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName multiplicity
+is unique SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+is unique SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral is unique
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is unique
+min count SimpleName MethodInvocation SimpleName int value
+min count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min count SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set optional
+ret SimpleName MethodInvocation BooleanLiteral true
+set optional SimpleName MethodInvocation BooleanLiteral true
+ret SimpleName MethodInvocation SimpleName set values min count
+ret SimpleName MethodInvocation NumberLiteral empty
+set values min count SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set optional
+ret SimpleName MethodInvocation BooleanLiteral false
+set optional SimpleName MethodInvocation BooleanLiteral false
+min count SimpleName MethodInvocation SimpleName int value
+ret SimpleName MethodInvocation SimpleName set values min count
+ret SimpleName MethodInvocation MethodInvocation SimpleName min count
+ret SimpleName MethodInvocation MethodInvocation SimpleName int value
+set values min count SimpleName MethodInvocation MethodInvocation SimpleName min count
+set values min count SimpleName MethodInvocation MethodInvocation SimpleName int value
+max count SimpleName MethodInvocation SimpleName int value
+max count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+max count SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName atlas attribute defcardinalitysingle
+set cardinality SimpleName MethodInvocation QualifiedName atlas attribute defcardinalitysingle
+ret SimpleName MethodInvocation SimpleName set values max count
+ret SimpleName MethodInvocation NumberLiteral empty
+set values max count SimpleName MethodInvocation NumberLiteral empty
+is unique SimpleName InfixExpression QualifiedName booleanfalse
+is unique SimpleName InfixExpression InfixExpression InfixExpression SimpleName is unique
+is unique SimpleName InfixExpression InfixExpression InfixExpression QualifiedName booleanfalse
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName atlas attribute defcardinalitylist
+set cardinality SimpleName MethodInvocation QualifiedName atlas attribute defcardinalitylist
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName atlas attribute defcardinalityset
+set cardinality SimpleName MethodInvocation QualifiedName atlas attribute defcardinalityset
+max count SimpleName MethodInvocation SimpleName int value
+ret SimpleName MethodInvocation SimpleName set values max count
+ret SimpleName MethodInvocation MethodInvocation SimpleName max count
+ret SimpleName MethodInvocation MethodInvocation SimpleName int value
+set values max count SimpleName MethodInvocation MethodInvocation SimpleName max count
+set values max count SimpleName MethodInvocation MethodInvocation SimpleName int value
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SimpleName to attribute def from json
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrib info
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+static Modifier MethodDeclaration SimpleName to attribute def from json
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrib info
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName to attribute def from json
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrib info
+to attribute def from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+to attribute def from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrib info
+to attribute def from json SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName to attribute def from json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib info
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to attribute def from json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib info

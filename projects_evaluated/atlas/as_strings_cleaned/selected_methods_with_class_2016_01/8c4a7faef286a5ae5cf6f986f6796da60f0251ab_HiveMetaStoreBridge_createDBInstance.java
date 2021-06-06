@@ -1,0 +1,25 @@
+database SimpleName SimpleType SingleVariableDeclaration SimpleName hive db
+create or update db instance SimpleName MethodInvocation SimpleName hive db
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName create db instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName database
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hive db
+public Modifier MethodDeclaration SimpleType SimpleName hive exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create db instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hive db
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName hive exception
+create db instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName database
+create db instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive db
+create db instance SimpleName MethodDeclaration SimpleType SimpleName hive exception
+hive db SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create db instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive db
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create db instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive db
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

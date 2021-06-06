@@ -1,0 +1,58 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+int PrimitiveType SingleVariableDeclaration SimpleName query threads
+conn SimpleName MethodInvocation SimpleName create batch scanner
+conn SimpleName MethodInvocation SimpleName name
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+conn SimpleName MethodInvocation SimpleName query threads
+create batch scanner SimpleName MethodInvocation SimpleName name
+create batch scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create batch scanner SimpleName MethodInvocation SimpleName query threads
+name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+name SimpleName MethodInvocation SimpleName query threads
+authorizations SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName query threads
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName batch scanner
+public Modifier MethodDeclaration SimpleName get batch scanner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query threads
+static Modifier MethodDeclaration SimpleType SimpleName batch scanner
+static Modifier MethodDeclaration SimpleName get batch scanner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName query threads
+static Modifier MethodDeclaration SimpleType SimpleName table not found exception
+batch scanner SimpleName SimpleType MethodDeclaration SimpleName get batch scanner
+batch scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conn
+batch scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+batch scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query threads
+batch scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+get batch scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+get batch scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+get batch scanner SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get batch scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query threads
+get batch scanner SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query threads
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+query threads SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName batch scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleName get batch scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query threads
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName batch scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get batch scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query threads
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

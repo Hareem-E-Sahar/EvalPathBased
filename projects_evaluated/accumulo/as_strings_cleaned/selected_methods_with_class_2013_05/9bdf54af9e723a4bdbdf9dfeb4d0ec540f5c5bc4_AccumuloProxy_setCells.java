@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cells
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cells
+cells SimpleName FieldAccess Assignment SimpleName cells
+public Modifier MethodDeclaration SimpleType SimpleName update args
+public Modifier MethodDeclaration SimpleName set cells
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cells
+update args SimpleName SimpleType MethodDeclaration SimpleName set cells
+update args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cells
+set cells SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cells
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName update args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cells
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cells
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName update args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cells
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cells

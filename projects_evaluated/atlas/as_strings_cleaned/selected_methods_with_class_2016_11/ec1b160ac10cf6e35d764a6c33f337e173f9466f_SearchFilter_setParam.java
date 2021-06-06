@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName values
+params SimpleName Assignment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation SimpleName name
+params SimpleName MethodInvocation SimpleName values
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName values
+name SimpleName MethodInvocation SimpleName values
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration SimpleName set param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+set param SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set param
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set param
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

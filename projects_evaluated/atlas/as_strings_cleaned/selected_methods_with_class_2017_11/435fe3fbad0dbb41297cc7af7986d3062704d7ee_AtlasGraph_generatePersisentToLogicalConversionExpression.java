@@ -1,0 +1,19 @@
+groovy expression SimpleName SimpleType SingleVariableDeclaration SimpleName value expr
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+groovy expression SimpleName SimpleType MethodDeclaration SimpleName generate persisent to logical conversion expression
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value expr
+groovy expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+generate persisent to logical conversion expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName groovy expression
+generate persisent to logical conversion expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value expr
+generate persisent to logical conversion expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+generate persisent to logical conversion expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+value expr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName generate persisent to logical conversion expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value expr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName groovy expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName generate persisent to logical conversion expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value expr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

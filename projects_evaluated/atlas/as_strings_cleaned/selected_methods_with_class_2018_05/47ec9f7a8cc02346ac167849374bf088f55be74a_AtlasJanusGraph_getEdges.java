@@ -1,0 +1,20 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+get graph SimpleName MethodInvocation MethodInvocation SimpleName edges
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graph
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+wrap edges SimpleName MethodInvocation SimpleName edges
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get edges
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName get edges
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edges
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edges

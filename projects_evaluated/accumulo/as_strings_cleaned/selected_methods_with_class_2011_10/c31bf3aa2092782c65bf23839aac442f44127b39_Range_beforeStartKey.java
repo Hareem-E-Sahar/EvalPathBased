@@ -1,0 +1,40 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+infinite start key SimpleName IfStatement Block ReturnStatement BooleanLiteral false
+key SimpleName MethodInvocation SimpleName compare to
+key SimpleName MethodInvocation SimpleName start
+compare to SimpleName MethodInvocation SimpleName start
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+start SimpleName MethodInvocation InfixExpression NumberLiteral empty
+start key inclusive SimpleName IfStatement ReturnStatement InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName compare to
+key SimpleName MethodInvocation SimpleName start
+compare to SimpleName MethodInvocation SimpleName start
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+start SimpleName MethodInvocation InfixExpression NumberLiteral empty
+infinite start key SimpleName IfStatement Block IfStatement SimpleName start key inclusive
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName before start key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block IfStatement SimpleName infinite start key
+public Modifier MethodDeclaration Block IfStatement SimpleName start key inclusive
+boolean PrimitiveType MethodDeclaration SimpleName before start key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName infinite start key
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName start key inclusive
+before start key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+before start key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+before start key SimpleName MethodDeclaration Block IfStatement SimpleName infinite start key
+before start key SimpleName MethodDeclaration Block IfStatement SimpleName start key inclusive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName before start key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName before start key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

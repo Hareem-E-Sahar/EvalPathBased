@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName as type name
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName as type name
+for name SimpleName MethodInvocation SimpleName as type name
+accumulo vfs class loader SimpleName MethodInvocation SimpleName load class
+accumulo vfs class loader SimpleName MethodInvocation SimpleName class name
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName class
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName for name
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName as type name
+load class SimpleName MethodInvocation SimpleName class name
+load class SimpleName MethodInvocation MethodInvocation SimpleName class
+load class SimpleName MethodInvocation MethodInvocation SimpleName for name
+load class SimpleName MethodInvocation MethodInvocation SimpleName as type name
+class name SimpleName MethodInvocation MethodInvocation SimpleName class
+class name SimpleName MethodInvocation MethodInvocation SimpleName for name
+class name SimpleName MethodInvocation MethodInvocation SimpleName as type name
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName test class load
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName class name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName as type name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName test class load
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName as type name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType MethodDeclaration SimpleName test class load
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as type name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test class load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test class load SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test class load SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+test class load SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+class name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+class name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+as type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName test class load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test class load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

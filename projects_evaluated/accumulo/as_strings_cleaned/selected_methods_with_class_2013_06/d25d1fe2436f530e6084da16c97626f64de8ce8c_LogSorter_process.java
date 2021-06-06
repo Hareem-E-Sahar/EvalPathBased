@@ -1,0 +1,94 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+server constants SimpleName MethodInvocation SimpleName get recovery dir
+server constants SimpleName MethodInvocation InfixExpression StringLiteral /
+get recovery dir SimpleName MethodInvocation InfixExpression StringLiteral /
+server constants SimpleName MethodInvocation InfixExpression SimpleName child
+get recovery dir SimpleName MethodInvocation InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+dest SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server constants
+dest SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get recovery dir
+dest SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+dest SimpleName VariableDeclarationFragment InfixExpression SimpleName child
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+src SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+src SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+path SimpleName SimpleType ClassInstanceCreation SimpleName src
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+src SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName src
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+current work SimpleName MethodInvocation SimpleName contains key
+current work SimpleName MethodInvocation SimpleName name
+contains key SimpleName MethodInvocation SimpleName name
+current work SimpleName MethodInvocation SimpleName put
+current work SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName name
+copying StringLiteral InfixExpression SimpleName src
+copying StringLiteral InfixExpression StringLiteral to
+copying StringLiteral InfixExpression SimpleName dest
+src SimpleName InfixExpression StringLiteral to
+src SimpleName InfixExpression SimpleName dest
+to StringLiteral InfixExpression SimpleName dest
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral copying
+log SimpleName MethodInvocation InfixExpression SimpleName src
+log SimpleName MethodInvocation InfixExpression StringLiteral to
+log SimpleName MethodInvocation InfixExpression SimpleName dest
+info SimpleName MethodInvocation InfixExpression StringLiteral copying
+info SimpleName MethodInvocation InfixExpression SimpleName src
+info SimpleName MethodInvocation InfixExpression StringLiteral to
+info SimpleName MethodInvocation InfixExpression SimpleName dest
+path SimpleName SimpleType ClassInstanceCreation SimpleName src
+sort SimpleName MethodInvocation SimpleName name
+sort SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+sort SimpleName MethodInvocation ClassInstanceCreation SimpleName src
+sort SimpleName MethodInvocation SimpleName dest
+name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+name SimpleName MethodInvocation ClassInstanceCreation SimpleName src
+name SimpleName MethodInvocation SimpleName dest
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dest
+src SimpleName ClassInstanceCreation MethodInvocation SimpleName dest
+current work SimpleName MethodInvocation SimpleName remove
+current work SimpleName MethodInvocation SimpleName name
+remove SimpleName MethodInvocation SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName child
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName child
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName current work
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName child
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName current work
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child
+process SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+process SimpleName MethodDeclaration Block SynchronizedStatement SimpleName current work
+child SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

@@ -1,0 +1,29 @@
+json object SimpleName SimpleType SingleVariableDeclaration SimpleName json
+json SimpleName MethodInvocation SimpleName get string
+json SimpleName MethodInvocation SimpleName request id
+get string SimpleName MethodInvocation SimpleName request id
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get request id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+string SimpleName SimpleType MethodDeclaration SimpleName get request id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get request id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json object
+get request id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json
+get request id SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+json SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

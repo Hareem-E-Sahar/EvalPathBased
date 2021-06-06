@@ -1,0 +1,23 @@
+connection name SimpleName VariableDeclarationFragment StringLiteral unknown
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unknown
+qualified name SimpleName MethodInvocation SimpleName equals
+qualified name SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+connection name SimpleName Assignment SimpleName qualified name
+display name SimpleName MethodInvocation SimpleName equals
+display name SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+connection name SimpleName Assignment SimpleName display name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get connection name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName connection name
+string SimpleName SimpleType MethodDeclaration SimpleName get connection name
+get connection name SimpleName MethodDeclaration Block ReturnStatement SimpleName connection name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection name

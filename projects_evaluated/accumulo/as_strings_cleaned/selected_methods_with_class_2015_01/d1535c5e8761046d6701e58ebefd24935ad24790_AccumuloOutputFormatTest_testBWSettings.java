@@ -1,0 +1,218 @@
+job SimpleName MethodInvocation SimpleName get instance
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+bw defaults SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName bw defaults
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw defaults
+bw defaults SimpleName MethodInvocation SimpleName get max latency
+bw defaults SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert not equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max latency
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw defaults SimpleName MethodInvocation SimpleName get timeout
+bw defaults SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert not equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get timeout
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw defaults SimpleName MethodInvocation SimpleName get max write threads
+assert not equals SimpleName MethodInvocation NumberLiteral empty
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max write threads
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get max write threads
+bw defaults SimpleName MethodInvocation SimpleName get max memory
+assert not equals SimpleName MethodInvocation NumberLiteral l
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName bw defaults
+assert not equals SimpleName MethodInvocation MethodInvocation SimpleName get max memory
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw defaults
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max memory
+bw config SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement SimpleType SimpleName batch writer config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw config
+bw config SimpleName MethodInvocation SimpleName set max latency
+bw config SimpleName MethodInvocation NumberLiteral l
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set max latency SimpleName MethodInvocation NumberLiteral l
+set max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName set timeout
+bw config SimpleName MethodInvocation NumberLiteral l
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+set timeout SimpleName MethodInvocation NumberLiteral l
+set timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName set max write threads
+bw config SimpleName MethodInvocation NumberLiteral empty
+set max write threads SimpleName MethodInvocation NumberLiteral empty
+bw config SimpleName MethodInvocation SimpleName set max memory
+bw config SimpleName MethodInvocation NumberLiteral l
+set max memory SimpleName MethodInvocation NumberLiteral l
+accumulo output format SimpleName MethodInvocation SimpleName set batch writer options
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation SimpleName bw config
+set batch writer options SimpleName MethodInvocation SimpleName job
+set batch writer options SimpleName MethodInvocation SimpleName bw config
+job SimpleName MethodInvocation SimpleName bw config
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+get batch writer options SimpleName MethodInvocation SimpleName job
+bw opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get batch writer options
+bw opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+bw config SimpleName MethodInvocation SimpleName get max latency
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+bw opts SimpleName MethodInvocation SimpleName get max latency
+bw opts SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max latency
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+get max latency SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max latency
+get max latency SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get max latency
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName get timeout
+bw config SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+bw opts SimpleName MethodInvocation SimpleName get timeout
+bw opts SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timeout
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+get timeout SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timeout
+get timeout SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get timeout
+time unitmilliseconds QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw config SimpleName MethodInvocation SimpleName get max write threads
+bw opts SimpleName MethodInvocation SimpleName get max write threads
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max write threads
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max write threads
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max write threads
+get max write threads SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+get max write threads SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max write threads
+bw config SimpleName MethodInvocation SimpleName get max memory
+bw opts SimpleName MethodInvocation SimpleName get max memory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max memory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max memory
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+bw config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max memory
+get max memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bw opts
+get max memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max memory
+bw opts SimpleName MethodInvocation SimpleName get max latency
+bw opts SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get max latency SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max latency
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw opts
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max latency
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw opts SimpleName MethodInvocation SimpleName get timeout
+bw opts SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get timeout SimpleName MethodInvocation QualifiedName time unitmilliseconds
+assert equals SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw opts
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get timeout
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+bw opts SimpleName MethodInvocation SimpleName get max write threads
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max write threads
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName bw opts
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get max write threads
+bw opts SimpleName MethodInvocation SimpleName get max memory
+assert equals SimpleName MethodInvocation NumberLiteral l
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get max memory
+l NumberLiteral MethodInvocation MethodInvocation SimpleName bw opts
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get max memory
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName check output specs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName job
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check output specs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check output specs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check output specs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+check output specs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+check output specs SimpleName MethodDeclaration SimpleType SimpleName io exception
+job SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+my aof SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName accumulo output format
+accumulo output format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName my aof
+my aof SimpleName MethodInvocation SimpleName check output specs
+my aof SimpleName MethodInvocation SimpleName job
+check output specs SimpleName MethodInvocation SimpleName job
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test bw settings
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bw settings
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test bw settings
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test bw settings SimpleName MethodDeclaration SimpleType SimpleName io exception
+test bw settings SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test bw settings SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bw settings
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bw settings
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

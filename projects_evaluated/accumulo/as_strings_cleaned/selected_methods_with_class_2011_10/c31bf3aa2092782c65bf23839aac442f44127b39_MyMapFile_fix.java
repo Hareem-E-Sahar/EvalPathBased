@@ -1,0 +1,379 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+path SimpleName SimpleType SingleVariableDeclaration SimpleName dir
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName key class
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName value class
+boolean PrimitiveType SingleVariableDeclaration SimpleName dryrun
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+dryrun SimpleName ConditionalExpression StringLiteral dry run ]
+dryrun SimpleName ConditionalExpression StringLiteral empty
+dry run ] StringLiteral ConditionalExpression StringLiteral empty
+dr SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression SimpleName dryrun
+dr SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression StringLiteral dry run ]
+dr SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dr
+path SimpleName SimpleType ClassInstanceCreation SimpleName dir
+path SimpleName SimpleType ClassInstanceCreation SimpleName data file name
+dir SimpleName ClassInstanceCreation SimpleName data file name
+data SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+data SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dir
+data SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName data file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+path SimpleName SimpleType ClassInstanceCreation SimpleName dir
+path SimpleName SimpleType ClassInstanceCreation SimpleName index file name
+dir SimpleName ClassInstanceCreation SimpleName index file name
+index SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+index SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dir
+index SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName index file name
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+index interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index interval
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index interval
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get index interval
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName data
+exists SimpleName MethodInvocation SimpleName data
+dr SimpleName InfixExpression StringLiteral missing data file in
+dr SimpleName InfixExpression SimpleName dir
+dr SimpleName InfixExpression StringLiteral impossible to fix this
+missing data file in StringLiteral InfixExpression SimpleName dir
+missing data file in StringLiteral InfixExpression StringLiteral impossible to fix this
+dir SimpleName InfixExpression StringLiteral impossible to fix this
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dr
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral missing data file in
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral impossible to fix this
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName index
+exists SimpleName MethodInvocation SimpleName index
+my sequence filereader QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data reader
+my sequence filewriter QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index writer
+cnt SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cnt
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+my sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName fs
+my sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName data
+my sequence filereader QualifiedName SimpleType ClassInstanceCreation SimpleName conf
+fs SimpleName ClassInstanceCreation SimpleName data
+fs SimpleName ClassInstanceCreation SimpleName conf
+data SimpleName ClassInstanceCreation SimpleName conf
+data reader SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName my sequence filereader
+data reader SimpleName Assignment ClassInstanceCreation SimpleName fs
+data reader SimpleName Assignment ClassInstanceCreation SimpleName data
+data reader SimpleName Assignment ClassInstanceCreation SimpleName conf
+data reader SimpleName MethodInvocation SimpleName get key class
+data reader SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key class SimpleName MethodInvocation MethodInvocation SimpleName equals
+data reader SimpleName MethodInvocation MethodInvocation SimpleName key class
+get key class SimpleName MethodInvocation MethodInvocation SimpleName key class
+equals SimpleName MethodInvocation SimpleName key class
+key class SimpleName MethodInvocation SimpleName get name
+data reader SimpleName MethodInvocation SimpleName get key class
+data reader SimpleName MethodInvocation MethodInvocation SimpleName get name
+get key class SimpleName MethodInvocation MethodInvocation SimpleName get name
+dr SimpleName InfixExpression StringLiteral wrong key class in
+dr SimpleName InfixExpression SimpleName dir
+dr SimpleName InfixExpression StringLiteral expected
+dr SimpleName InfixExpression MethodInvocation SimpleName key class
+dr SimpleName InfixExpression MethodInvocation SimpleName get name
+dr SimpleName InfixExpression StringLiteral got
+wrong key class in StringLiteral InfixExpression SimpleName dir
+wrong key class in StringLiteral InfixExpression StringLiteral expected
+wrong key class in StringLiteral InfixExpression MethodInvocation SimpleName key class
+wrong key class in StringLiteral InfixExpression MethodInvocation SimpleName get name
+wrong key class in StringLiteral InfixExpression StringLiteral got
+wrong key class in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+wrong key class in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key class
+wrong key class in StringLiteral InfixExpression MethodInvocation SimpleName get name
+dir SimpleName InfixExpression StringLiteral expected
+dir SimpleName InfixExpression MethodInvocation SimpleName key class
+dir SimpleName InfixExpression MethodInvocation SimpleName get name
+dir SimpleName InfixExpression StringLiteral got
+dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get key class
+dir SimpleName InfixExpression MethodInvocation SimpleName get name
+expected StringLiteral InfixExpression MethodInvocation SimpleName key class
+expected StringLiteral InfixExpression MethodInvocation SimpleName get name
+expected StringLiteral InfixExpression StringLiteral got
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key class
+expected StringLiteral InfixExpression MethodInvocation SimpleName get name
+key class SimpleName MethodInvocation InfixExpression StringLiteral got
+get name SimpleName MethodInvocation InfixExpression StringLiteral got
+key class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+got StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+got StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key class
+got StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dr
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral wrong key class in
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral got
+data reader SimpleName MethodInvocation SimpleName get value class
+data reader SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value class SimpleName MethodInvocation MethodInvocation SimpleName equals
+data reader SimpleName MethodInvocation MethodInvocation SimpleName value class
+get value class SimpleName MethodInvocation MethodInvocation SimpleName value class
+equals SimpleName MethodInvocation SimpleName value class
+value class SimpleName MethodInvocation SimpleName get name
+data reader SimpleName MethodInvocation SimpleName get value class
+data reader SimpleName MethodInvocation MethodInvocation SimpleName get name
+get value class SimpleName MethodInvocation MethodInvocation SimpleName get name
+dr SimpleName InfixExpression StringLiteral wrong value class in
+dr SimpleName InfixExpression SimpleName dir
+dr SimpleName InfixExpression StringLiteral expected
+dr SimpleName InfixExpression MethodInvocation SimpleName value class
+dr SimpleName InfixExpression MethodInvocation SimpleName get name
+dr SimpleName InfixExpression StringLiteral got
+wrong value class in StringLiteral InfixExpression SimpleName dir
+wrong value class in StringLiteral InfixExpression StringLiteral expected
+wrong value class in StringLiteral InfixExpression MethodInvocation SimpleName value class
+wrong value class in StringLiteral InfixExpression MethodInvocation SimpleName get name
+wrong value class in StringLiteral InfixExpression StringLiteral got
+wrong value class in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+wrong value class in StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value class
+wrong value class in StringLiteral InfixExpression MethodInvocation SimpleName get name
+dir SimpleName InfixExpression StringLiteral expected
+dir SimpleName InfixExpression MethodInvocation SimpleName value class
+dir SimpleName InfixExpression MethodInvocation SimpleName get name
+dir SimpleName InfixExpression StringLiteral got
+dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+dir SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get value class
+dir SimpleName InfixExpression MethodInvocation SimpleName get name
+expected StringLiteral InfixExpression MethodInvocation SimpleName value class
+expected StringLiteral InfixExpression MethodInvocation SimpleName get name
+expected StringLiteral InfixExpression StringLiteral got
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+expected StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value class
+expected StringLiteral InfixExpression MethodInvocation SimpleName get name
+value class SimpleName MethodInvocation InfixExpression StringLiteral got
+get name SimpleName MethodInvocation InfixExpression StringLiteral got
+value class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+got StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName data reader
+got StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value class
+got StringLiteral InfixExpression MethodInvocation SimpleName get name
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dr
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral wrong value class in
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral got
+reflection utils SimpleName MethodInvocation SimpleName new instance
+reflection utils SimpleName MethodInvocation SimpleName key class
+reflection utils SimpleName MethodInvocation SimpleName conf
+new instance SimpleName MethodInvocation SimpleName key class
+new instance SimpleName MethodInvocation SimpleName conf
+key class SimpleName MethodInvocation SimpleName conf
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName reflection utils
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName key class
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+writable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+reflection utils SimpleName MethodInvocation SimpleName new instance
+reflection utils SimpleName MethodInvocation SimpleName value class
+reflection utils SimpleName MethodInvocation SimpleName conf
+new instance SimpleName MethodInvocation SimpleName value class
+new instance SimpleName MethodInvocation SimpleName conf
+value class SimpleName MethodInvocation SimpleName conf
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName reflection utils
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value class
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+writable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+my sequence file SimpleName MethodInvocation SimpleName create writer
+my sequence file SimpleName MethodInvocation SimpleName fs
+my sequence file SimpleName MethodInvocation SimpleName conf
+my sequence file SimpleName MethodInvocation SimpleName index
+my sequence file SimpleName MethodInvocation SimpleName key class
+create writer SimpleName MethodInvocation SimpleName fs
+create writer SimpleName MethodInvocation SimpleName conf
+create writer SimpleName MethodInvocation SimpleName index
+create writer SimpleName MethodInvocation SimpleName key class
+create writer SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation SimpleName index
+fs SimpleName MethodInvocation SimpleName key class
+fs SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+conf SimpleName MethodInvocation SimpleName index
+conf SimpleName MethodInvocation SimpleName key class
+conf SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+index SimpleName MethodInvocation SimpleName key class
+index SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+key class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName long writable
+index writer SimpleName Assignment MethodInvocation SimpleName my sequence file
+index writer SimpleName Assignment MethodInvocation SimpleName create writer
+index writer SimpleName Assignment MethodInvocation SimpleName fs
+index writer SimpleName Assignment MethodInvocation SimpleName conf
+index writer SimpleName Assignment MethodInvocation SimpleName index
+index writer SimpleName Assignment MethodInvocation SimpleName key class
+current pos SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current pos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+last pos SimpleName VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last pos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+position SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName long writable
+long writable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName position
+data reader SimpleName MethodInvocation SimpleName get position
+last pos SimpleName Assignment MethodInvocation SimpleName data reader
+last pos SimpleName Assignment MethodInvocation SimpleName get position
+data reader SimpleName MethodInvocation SimpleName is block compressed
+block compressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName data reader
+block compressed SimpleName VariableDeclarationFragment MethodInvocation SimpleName is block compressed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName block compressed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data reader
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is block compressed
+current pos SimpleName Assignment SimpleName last pos
+data reader SimpleName MethodInvocation SimpleName next
+data reader SimpleName MethodInvocation SimpleName key
+data reader SimpleName MethodInvocation SimpleName value
+next SimpleName MethodInvocation SimpleName key
+next SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+cnt SimpleName InfixExpression NumberLiteral empty
+data reader SimpleName MethodInvocation SimpleName get position
+current pos SimpleName Assignment MethodInvocation SimpleName data reader
+current pos SimpleName Assignment MethodInvocation SimpleName get position
+data reader SimpleName MethodInvocation SimpleName get position
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName data reader
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get position
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data reader
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get position
+pos SimpleName InfixExpression SimpleName current pos
+last pos SimpleName Assignment SimpleName current pos
+current pos SimpleName Assignment SimpleName pos
+cnt SimpleName InfixExpression NumberLiteral empty
+position SimpleName MethodInvocation SimpleName get
+position SimpleName MethodInvocation InfixExpression SimpleName last pos
+get SimpleName MethodInvocation InfixExpression SimpleName last pos
+cnt SimpleName InfixExpression InfixExpression InfixExpression SimpleName last pos
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName last pos
+position SimpleName MethodInvocation SimpleName set
+position SimpleName MethodInvocation SimpleName last pos
+set SimpleName MethodInvocation SimpleName last pos
+index writer SimpleName MethodInvocation SimpleName append
+index writer SimpleName MethodInvocation SimpleName key
+index writer SimpleName MethodInvocation SimpleName position
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName position
+key SimpleName MethodInvocation SimpleName position
+cnt SimpleName InfixExpression SimpleName index interval
+cnt SimpleName InfixExpression InfixExpression NumberLiteral empty
+index interval SimpleName InfixExpression InfixExpression NumberLiteral empty
+position SimpleName MethodInvocation SimpleName set
+position SimpleName MethodInvocation SimpleName current pos
+set SimpleName MethodInvocation SimpleName current pos
+index writer SimpleName MethodInvocation SimpleName append
+index writer SimpleName MethodInvocation SimpleName key
+index writer SimpleName MethodInvocation SimpleName position
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName position
+key SimpleName MethodInvocation SimpleName position
+data reader SimpleName MethodInvocation SimpleName get position
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName data reader
+pos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get position
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data reader
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get position
+pos SimpleName InfixExpression SimpleName current pos
+last pos SimpleName Assignment SimpleName current pos
+current pos SimpleName Assignment SimpleName pos
+block compressed SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+exception when trying to fix map file StringLiteral InfixExpression SimpleName dir
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral exception when trying to fix map file
+log SimpleName MethodInvocation InfixExpression SimpleName dir
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation InfixExpression StringLiteral exception when trying to fix map file
+error SimpleName MethodInvocation InfixExpression SimpleName dir
+error SimpleName MethodInvocation SimpleName t
+exception when trying to fix map file StringLiteral InfixExpression MethodInvocation SimpleName t
+dir SimpleName InfixExpression MethodInvocation SimpleName t
+data reader SimpleName MethodInvocation SimpleName close
+index writer SimpleName MethodInvocation SimpleName close
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cnt
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName fix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName fix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key class
+long PrimitiveType MethodDeclaration SimpleName fix
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key class
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value class
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key class
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value class
+fix SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+fix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key class
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value class
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+fs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key class
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value class
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+dir SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+key class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value class
+key class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+key class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+key class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+key class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+value class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+value class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+value class SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+dryrun SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+dryrun SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName fix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dryrun
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

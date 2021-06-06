@@ -1,0 +1,28 @@
+security context holder SimpleName MethodInvocation SimpleName get context
+security context holder SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+get context SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security context holder
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get context
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+auth SimpleName MethodInvocation SimpleName get name
+auth SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName auth
+auth SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get name
+auth SimpleName InfixExpression ConditionalExpression StringLiteral empty
+auth SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+get name SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get current user name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get current user name
+string SimpleName SimpleType MethodDeclaration SimpleName get current user name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current user name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current user name

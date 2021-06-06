@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName schema attribute
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName schema attributes
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName schema attribute
+public Modifier MethodDeclaration SimpleName get schema attributes
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schema attributes
+schema attribute SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schema attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema attributes

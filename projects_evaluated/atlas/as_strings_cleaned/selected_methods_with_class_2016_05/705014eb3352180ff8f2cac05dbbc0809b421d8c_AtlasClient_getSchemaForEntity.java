@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dataset id
+call api SimpleName MethodInvocation QualifiedName apilineage outputs graph
+call api SimpleName MethodInvocation SimpleName dataset id
+call api SimpleName MethodInvocation StringLiteral schema
+apilineage outputs graph QualifiedName MethodInvocation SimpleName dataset id
+apilineage outputs graph QualifiedName MethodInvocation StringLiteral schema
+dataset id SimpleName MethodInvocation StringLiteral schema
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apilineage outputs graph
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName dataset id
+response SimpleName VariableDeclarationFragment MethodInvocation StringLiteral schema
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get json object
+response SimpleName MethodInvocation QualifiedName atlas clientresults
+get json object SimpleName MethodInvocation QualifiedName atlas clientresults
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName get schema for entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dataset id
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+json object SimpleName SimpleType MethodDeclaration SimpleName get schema for entity
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dataset id
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+get schema for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema for entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dataset id
+get schema for entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+dataset id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema for entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema for entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

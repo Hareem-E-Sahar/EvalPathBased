@@ -1,0 +1,38 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName columns
+get attribute SimpleName MethodInvocation SimpleName columns
+column objs SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+column objs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+column objs SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column objs
+column objs SimpleName InstanceofExpression SimpleType SimpleName list
+object SimpleName SimpleType SingleVariableDeclaration SimpleName pk obj
+list SimpleName SimpleType CastExpression SimpleName column objs
+pk obj SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName pk obj
+pk obj SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+pk obj SimpleName SingleVariableDeclaration EnhancedForStatement CastExpression SimpleName column objs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get column ids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get column ids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get column ids
+get column ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+get column ids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get column ids SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

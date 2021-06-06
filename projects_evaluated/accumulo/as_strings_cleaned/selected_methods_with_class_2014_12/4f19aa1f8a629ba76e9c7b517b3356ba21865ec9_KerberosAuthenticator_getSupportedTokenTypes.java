@@ -1,0 +1,14 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get supported token types
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration SimpleName get supported token types
+public Modifier MethodDeclaration Block ReturnStatement SimpleName supported tokens
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get supported token types
+get supported token types SimpleName MethodDeclaration Block ReturnStatement SimpleName supported tokens
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get supported token types
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get supported token types

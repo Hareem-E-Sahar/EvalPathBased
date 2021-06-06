@@ -1,0 +1,19 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+data SimpleName ArrayAccess SimpleName i
+simple object SimpleName SimpleType ClassInstanceCreation SimpleName i
+data SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName i
+i SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName i
+void PrimitiveType MethodDeclaration SimpleName add entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+add entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+add entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

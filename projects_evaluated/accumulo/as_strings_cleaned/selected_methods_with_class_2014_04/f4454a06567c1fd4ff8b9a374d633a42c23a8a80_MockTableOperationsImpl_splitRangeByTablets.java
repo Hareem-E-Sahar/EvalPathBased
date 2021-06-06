@@ -1,0 +1,78 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+int PrimitiveType SingleVariableDeclaration SimpleName max splits
+exists SimpleName MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation SimpleName table name
+table name SimpleName ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation StringLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName range
+singleton SimpleName MethodInvocation SimpleName range
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName split range by tablets
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+public Modifier MethodDeclaration SimpleName split range by tablets
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max splits
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName split range by tablets
+range SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName split range by tablets
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max splits
+split range by tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+split range by tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName split range by tablets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split range by tablets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

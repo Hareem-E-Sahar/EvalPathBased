@@ -1,0 +1,57 @@
+data output SimpleName SimpleType SingleVariableDeclaration SimpleName out
+write SimpleName SuperMethodInvocation SimpleName out
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName nr
+write int SimpleName MethodInvocation SimpleName nr
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation SimpleName current nb record
+write int SimpleName MethodInvocation SimpleName current nb record
+out SimpleName MethodInvocation SimpleName write int
+out SimpleName MethodInvocation QualifiedName matrixlength
+write int SimpleName MethodInvocation QualifiedName matrixlength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName matrixlength
+matrix SimpleName ArrayAccess SimpleName i
+matrix SimpleName ArrayAccess MethodInvocation SimpleName write
+i SimpleName ArrayAccess MethodInvocation SimpleName write
+matrix SimpleName ArrayAccess MethodInvocation SimpleName out
+i SimpleName ArrayAccess MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName matrixlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+matrixlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName out
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data output
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+write SimpleName MethodDeclaration SimpleType SimpleName io exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

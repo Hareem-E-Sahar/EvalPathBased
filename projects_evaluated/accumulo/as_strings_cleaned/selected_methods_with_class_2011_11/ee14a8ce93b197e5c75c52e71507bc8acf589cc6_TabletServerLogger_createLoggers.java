@@ -1,0 +1,102 @@
+log set lock SimpleName MethodInvocation SimpleName is write locked by current thread
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral create loggers should be called with write lock held
+loggers SimpleName MethodInvocation SimpleName size
+loggers SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+loggers SimpleName MethodInvocation SimpleName size
+create loggers should not be called when loggerssize is StringLiteral InfixExpression MethodInvocation SimpleName loggers
+create loggers should not be called when loggerssize is StringLiteral InfixExpression MethodInvocation SimpleName size
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral create loggers should not be called when loggerssize is
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tserver SimpleName MethodInvocation SimpleName get loggers
+logger addresses SimpleName VariableDeclarationFragment MethodInvocation SimpleName tserver
+logger addresses SimpleName VariableDeclarationFragment MethodInvocation SimpleName get loggers
+logger addresses SimpleName MethodInvocation SimpleName is empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName logger
+uuid SimpleName MethodInvocation SimpleName random uuid
+remote logger SimpleName SimpleType ClassInstanceCreation SimpleName logger
+remote logger SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uuid
+remote logger SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName random uuid
+logger SimpleName ClassInstanceCreation MethodInvocation SimpleName uuid
+logger SimpleName ClassInstanceCreation MethodInvocation SimpleName random uuid
+loggers SimpleName MethodInvocation SimpleName add
+loggers SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remote logger
+loggers SimpleName MethodInvocation ClassInstanceCreation SimpleName logger
+loggers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+loggers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName random uuid
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName remote logger
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName logger
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName random uuid
+logger closed exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+unable to connect to StringLiteral InfixExpression SimpleName logger
+unable to connect to StringLiteral InfixExpression StringLiteral :
+unable to connect to StringLiteral InfixExpression SimpleName t
+logger SimpleName InfixExpression StringLiteral :
+logger SimpleName InfixExpression SimpleName t
+: StringLiteral InfixExpression SimpleName t
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to connect to
+log SimpleName MethodInvocation InfixExpression SimpleName logger
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName t
+warn SimpleName MethodInvocation InfixExpression StringLiteral unable to connect to
+warn SimpleName MethodInvocation InfixExpression SimpleName logger
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression SimpleName t
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName logger addresses
+logger SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName logger addresses
+loggers SimpleName MethodInvocation SimpleName size
+logger addresses SimpleName MethodInvocation SimpleName size
+loggers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger addresses
+loggers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger addresses
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+loggers SimpleName MethodInvocation SimpleName size
+loggers SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+loggers SimpleName MethodInvocation SimpleName size
+logger addresses SimpleName MethodInvocation SimpleName size
+unexpected number of loggers StringLiteral InfixExpression MethodInvocation SimpleName loggers
+unexpected number of loggers StringLiteral InfixExpression MethodInvocation SimpleName size
+unexpected number of loggers StringLiteral InfixExpression StringLiteral empty
+unexpected number of loggers StringLiteral InfixExpression MethodInvocation SimpleName logger addresses
+unexpected number of loggers StringLiteral InfixExpression MethodInvocation SimpleName size
+loggers SimpleName MethodInvocation InfixExpression StringLiteral empty
+size SimpleName MethodInvocation InfixExpression StringLiteral empty
+loggers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger addresses
+loggers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName logger addresses
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+empty StringLiteral InfixExpression MethodInvocation SimpleName logger addresses
+empty StringLiteral InfixExpression MethodInvocation SimpleName size
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unexpected number of loggers
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+log set id SimpleName MethodInvocation SimpleName increment and get
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName t
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+synchronized Modifier MethodDeclaration Modifier private
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName create loggers
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create loggers
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName create loggers
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+create loggers SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create loggers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create loggers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

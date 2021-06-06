@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral fatal {}
+log SimpleName MethodInvocation SimpleName msg
+error SimpleName MethodInvocation StringLiteral fatal {}
+error SimpleName MethodInvocation SimpleName msg
+fatal {} StringLiteral MethodInvocation SimpleName msg
+sanity check exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName fatal
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName fatal
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+void PrimitiveType MethodDeclaration SimpleName fatal
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName msg
+fatal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fatal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fatal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fatal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg

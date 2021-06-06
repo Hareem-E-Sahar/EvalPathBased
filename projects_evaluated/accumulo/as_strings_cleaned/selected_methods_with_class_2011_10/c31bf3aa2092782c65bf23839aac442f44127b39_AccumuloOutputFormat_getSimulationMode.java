@@ -1,0 +1,36 @@
+job context SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get configuration
+job SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+job SimpleName MethodInvocation MethodInvocation SimpleName simulate
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName simulate
+job SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get configuration SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get boolean SimpleName MethodInvocation SimpleName simulate
+get boolean SimpleName MethodInvocation BooleanLiteral false
+simulate SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName get simulation mode
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get simulation mode
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+boolean PrimitiveType MethodDeclaration SimpleName get simulation mode
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+get simulation mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job context
+get simulation mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simulation mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simulation mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

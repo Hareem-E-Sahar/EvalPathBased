@@ -1,0 +1,54 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration SimpleName watcher
+watcher SimpleName MethodInvocation SimpleName get stats
+watcher SimpleName MethodInvocation SimpleName table id
+get stats SimpleName MethodInvocation SimpleName table id
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName watcher
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get stats
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table counts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+count SimpleName MethodInvocation SimpleName hosted
+count SimpleName MethodInvocation SimpleName assigned
+count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName count
+count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assigned
+hosted SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName count
+hosted SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assigned
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName count
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName hosted
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName count
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName assigned
+tablet group watcher SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+watcher SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName watchers
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName watchers
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+watchers SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName assigned or hosted
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName watchers
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName assigned or hosted
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName watchers
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+assigned or hosted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+assigned or hosted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+assigned or hosted SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+assigned or hosted SimpleName MethodDeclaration Block EnhancedForStatement SimpleName watchers
+assigned or hosted SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName assigned or hosted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assigned or hosted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

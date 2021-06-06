@@ -1,0 +1,106 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName serde lib
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected props
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName table id
+get entity SimpleName MethodInvocation SimpleName table id
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+table ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table ref
+table ref SimpleName MethodInvocation SimpleName get
+table ref SimpleName MethodInvocation QualifiedName hive data model generatorstorage desc
+get SimpleName MethodInvocation QualifiedName hive data model generatorstorage desc
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName table ref
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+referenceable SimpleName SimpleType CastExpression MethodInvocation QualifiedName hive data model generatorstorage desc
+sd ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName referenceable
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table ref
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+sd ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName hive data model generatorstorage desc
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd ref
+sd ref SimpleName MethodInvocation SimpleName get
+sd ref SimpleName MethodInvocation StringLiteral serde info
+get SimpleName MethodInvocation StringLiteral serde info
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName sd ref
+struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+struct SimpleName SimpleType CastExpression MethodInvocation StringLiteral serde info
+serde info SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct
+serde info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName sd ref
+serde info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+serde info SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral serde info
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info
+serde info SimpleName MethodInvocation SimpleName get
+serde info SimpleName MethodInvocation StringLiteral serialization lib
+get SimpleName MethodInvocation StringLiteral serialization lib
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName serde info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral serialization lib
+assert SimpleName MethodInvocation SimpleName serde lib
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName serde info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral serialization lib
+assert equals SimpleName MethodInvocation SimpleName serde lib
+serde info SimpleName MethodInvocation MethodInvocation SimpleName serde lib
+get SimpleName MethodInvocation MethodInvocation SimpleName serde lib
+serialization lib StringLiteral MethodInvocation MethodInvocation SimpleName serde lib
+verify properties SimpleName MethodInvocation SimpleName serde info
+verify properties SimpleName MethodInvocation SimpleName expected props
+verify properties SimpleName MethodInvocation BooleanLiteral false
+serde info SimpleName MethodInvocation SimpleName expected props
+serde info SimpleName MethodInvocation BooleanLiteral false
+expected props SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify table sd properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected props
+void PrimitiveType MethodDeclaration SimpleName verify table sd properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+verify table sd properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify table sd properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+verify table sd properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+verify table sd properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+verify table sd properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected props
+verify table sd properties SimpleName MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+serde lib SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+serde lib SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify table sd properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify table sd properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName serde lib
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

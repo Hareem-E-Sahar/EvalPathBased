@@ -1,0 +1,252 @@
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event context
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName sorted set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName read entity
+final Modifier SingleVariableDeclaration SimpleName sorted hive inputs
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted hive inputs
+read entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted hive inputs
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName sorted set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName write entity
+final Modifier SingleVariableDeclaration SimpleName sorted hive outputs
+sorted set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted hive outputs
+write entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted hive outputs
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+read entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive inputs map
+read entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive inputs map
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive inputs map
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+write entity SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive outputs map
+write entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive outputs map
+referenceable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hive outputs map
+event context SimpleName MethodInvocation SimpleName get operation
+op SimpleName VariableDeclarationFragment MethodInvocation SimpleName event context
+op SimpleName VariableDeclarationFragment MethodInvocation SimpleName get operation
+hive operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+is create op SimpleName MethodInvocation SimpleName event context
+get entity by type SimpleName MethodInvocation SimpleName sorted hive outputs
+get entity by type SimpleName MethodInvocation QualifiedName typetable
+sorted hive outputs SimpleName MethodInvocation QualifiedName typetable
+get entity by type SimpleName MethodInvocation MethodInvocation SimpleName get table
+sorted hive outputs SimpleName MethodInvocation MethodInvocation SimpleName get table
+typetable QualifiedName MethodInvocation MethodInvocation SimpleName get table
+out table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity by type
+out table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sorted hive outputs
+out table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName typetable
+out table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out table
+out table SimpleName MethodInvocation SimpleName get db name
+out table SimpleName MethodInvocation SimpleName get table name
+dgi bridgehive client QualifiedName MethodInvocation SimpleName get table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName out table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName get db name
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName out table
+dgi bridgehive client QualifiedName MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName out table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName out table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+out table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out table
+out table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out table
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+out table SimpleName Assignment MethodInvocation QualifiedName dgi bridgehive client
+out table SimpleName Assignment MethodInvocation SimpleName get table
+out table SimpleName Assignment MethodInvocation MethodInvocation SimpleName out table
+out table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get db name
+out table SimpleName Assignment MethodInvocation MethodInvocation SimpleName out table
+out table SimpleName Assignment MethodInvocation MethodInvocation SimpleName get table name
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName get table process qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+hive meta store bridge SimpleName MethodInvocation SimpleName out table
+get table process qualified name SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+get table process qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get table process qualified name SimpleName MethodInvocation SimpleName out table
+dgi bridge SimpleName MethodInvocation MethodInvocation SimpleName out table
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName out table
+op SimpleName MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName op
+string builder SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get operation name
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName op
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get operation name
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+ignore hdfs pathsin qf name SimpleName MethodInvocation SimpleName op
+ignore hdfs pathsin qf name SimpleName MethodInvocation SimpleName sorted hive inputs
+ignore hdfs pathsin qf name SimpleName MethodInvocation SimpleName sorted hive outputs
+op SimpleName MethodInvocation SimpleName sorted hive inputs
+op SimpleName MethodInvocation SimpleName sorted hive outputs
+sorted hive inputs SimpleName MethodInvocation SimpleName sorted hive outputs
+ignore hdfs pathsin qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ignore hdfs pathsin qf name
+ignore hdfs pathsin qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName op
+ignore hdfs pathsin qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted hive inputs
+ignore hdfs pathsin qf name SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted hive outputs
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ignore hdfs pathsin qf name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ignore hdfs pathsin qf name
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName op
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sorted hive inputs
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sorted hive outputs
+log SimpleName MethodInvocation SimpleName is debug enabled
+ignore hdfs pathsin qf name SimpleName InfixExpression MethodInvocation SimpleName log
+ignore hdfs pathsin qf name SimpleName InfixExpression MethodInvocation SimpleName is debug enabled
+event context SimpleName MethodInvocation SimpleName get query str
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ignoring hdfs paths in qualified name for {} {}
+log SimpleName MethodInvocation SimpleName op
+log SimpleName MethodInvocation MethodInvocation SimpleName event context
+log SimpleName MethodInvocation MethodInvocation SimpleName get query str
+debug SimpleName MethodInvocation StringLiteral ignoring hdfs paths in qualified name for {} {}
+debug SimpleName MethodInvocation SimpleName op
+debug SimpleName MethodInvocation MethodInvocation SimpleName event context
+debug SimpleName MethodInvocation MethodInvocation SimpleName get query str
+ignoring hdfs paths in qualified name for {} {} StringLiteral MethodInvocation SimpleName op
+ignoring hdfs paths in qualified name for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName event context
+ignoring hdfs paths in qualified name for {} {} StringLiteral MethodInvocation MethodInvocation SimpleName get query str
+op SimpleName MethodInvocation MethodInvocation SimpleName event context
+op SimpleName MethodInvocation MethodInvocation SimpleName get query str
+add inputs SimpleName MethodInvocation SimpleName dgi bridge
+add inputs SimpleName MethodInvocation SimpleName op
+add inputs SimpleName MethodInvocation SimpleName sorted hive inputs
+add inputs SimpleName MethodInvocation SimpleName buffer
+add inputs SimpleName MethodInvocation SimpleName hive inputs map
+dgi bridge SimpleName MethodInvocation SimpleName op
+dgi bridge SimpleName MethodInvocation SimpleName sorted hive inputs
+dgi bridge SimpleName MethodInvocation SimpleName buffer
+dgi bridge SimpleName MethodInvocation SimpleName hive inputs map
+dgi bridge SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+op SimpleName MethodInvocation SimpleName sorted hive inputs
+op SimpleName MethodInvocation SimpleName buffer
+op SimpleName MethodInvocation SimpleName hive inputs map
+op SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+sorted hive inputs SimpleName MethodInvocation SimpleName buffer
+sorted hive inputs SimpleName MethodInvocation SimpleName hive inputs map
+sorted hive inputs SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+buffer SimpleName MethodInvocation SimpleName hive inputs map
+buffer SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+hive inputs map SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation SimpleName io sep
+append SimpleName MethodInvocation SimpleName io sep
+add outputs SimpleName MethodInvocation SimpleName dgi bridge
+add outputs SimpleName MethodInvocation SimpleName op
+add outputs SimpleName MethodInvocation SimpleName sorted hive outputs
+add outputs SimpleName MethodInvocation SimpleName buffer
+add outputs SimpleName MethodInvocation SimpleName hive outputs map
+dgi bridge SimpleName MethodInvocation SimpleName op
+dgi bridge SimpleName MethodInvocation SimpleName sorted hive outputs
+dgi bridge SimpleName MethodInvocation SimpleName buffer
+dgi bridge SimpleName MethodInvocation SimpleName hive outputs map
+dgi bridge SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+op SimpleName MethodInvocation SimpleName sorted hive outputs
+op SimpleName MethodInvocation SimpleName buffer
+op SimpleName MethodInvocation SimpleName hive outputs map
+op SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+sorted hive outputs SimpleName MethodInvocation SimpleName buffer
+sorted hive outputs SimpleName MethodInvocation SimpleName hive outputs map
+sorted hive outputs SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+buffer SimpleName MethodInvocation SimpleName hive outputs map
+buffer SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+hive outputs map SimpleName MethodInvocation SimpleName ignore hdfs pathsin qf name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral setting process qualified name to {}
+log SimpleName MethodInvocation SimpleName buffer
+info SimpleName MethodInvocation StringLiteral setting process qualified name to {}
+info SimpleName MethodInvocation SimpleName buffer
+setting process qualified name to {} StringLiteral MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation SimpleName to string
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName get process qualified name
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event context
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get process qualified name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName event context
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+string SimpleName SimpleType MethodDeclaration SimpleName get process qualified name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event context
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event context
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+get process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event context
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+event context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+event context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+sorted hive inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+sorted hive inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+sorted hive inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+sorted hive inputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+sorted hive inputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+sorted hive outputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+sorted hive outputs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+sorted hive outputs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+hive inputs map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+hive inputs map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+hive outputs map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName hive exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get process qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get process qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive inputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted hive outputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive inputs map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hive outputs map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive exception

@@ -1,0 +1,38 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+titan property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+titan vertex SimpleName SimpleType CastExpression SimpleName entity vertex
+entity vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get properties
+entity vertex SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName constantstrait names property key
+get properties SimpleName MethodInvocation QualifiedName constantstrait names property key
+property SimpleName MethodInvocation SimpleName get value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName property
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+traits SimpleName MethodInvocation SimpleName add
+traits SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+traits SimpleName MethodInvocation CastExpression MethodInvocation SimpleName property
+traits SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+add SimpleName MethodInvocation CastExpression MethodInvocation SimpleName property
+add SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get value
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName constantstrait names property key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get trait names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration Block ReturnStatement SimpleName traits
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get trait names SimpleName MethodDeclaration Block ReturnStatement SimpleName traits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex

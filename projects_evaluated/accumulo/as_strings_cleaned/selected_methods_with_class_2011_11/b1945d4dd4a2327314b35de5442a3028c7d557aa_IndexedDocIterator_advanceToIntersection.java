@@ -1,0 +1,104 @@
+log SimpleName MethodInvocation SimpleName is trace enabled
+top key SimpleName MethodInvocation SimpleName to string
+using top key to seek for doc StringLiteral InfixExpression MethodInvocation SimpleName top key
+using top key to seek for doc StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral using top key to seek for doc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName top key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+trace SimpleName MethodInvocation InfixExpression StringLiteral using top key to seek for doc
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName top key
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+doc key SimpleName VariableDeclarationFragment MethodInvocation SimpleName build doc key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc key
+range SimpleName SimpleType ClassInstanceCreation SimpleName doc key
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+doc key SimpleName ClassInstanceCreation BooleanLiteral true
+doc key SimpleName ClassInstanceCreation BooleanLiteral false
+true BooleanLiteral ClassInstanceCreation BooleanLiteral false
+doc source SimpleName MethodInvocation SimpleName seek
+doc source SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+doc source SimpleName MethodInvocation ClassInstanceCreation SimpleName doc key
+doc source SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+doc source SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+doc source SimpleName MethodInvocation SimpleName doc colf set
+doc source SimpleName MethodInvocation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleName doc key
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+seek SimpleName MethodInvocation SimpleName doc colf set
+seek SimpleName MethodInvocation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName doc colf set
+doc key SimpleName ClassInstanceCreation MethodInvocation SimpleName doc colf set
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName doc colf set
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName doc colf set
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+doc key SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+true BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation MethodInvocation BooleanLiteral true
+doc colf set SimpleName MethodInvocation BooleanLiteral true
+doc source SimpleName MethodInvocation SimpleName get top key
+doc source SimpleName MethodInvocation MethodInvocation SimpleName to string
+get top key SimpleName MethodInvocation MethodInvocation SimpleName to string
+got doc key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName doc source
+got doc key StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get top key
+got doc key StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral got doc key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral got doc key
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+doc source SimpleName MethodInvocation SimpleName has top
+doc source SimpleName MethodInvocation SimpleName get top key
+doc key SimpleName MethodInvocation SimpleName compare to
+doc key SimpleName MethodInvocation MethodInvocation SimpleName doc source
+doc key SimpleName MethodInvocation MethodInvocation SimpleName get top key
+doc key SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual
+compare to SimpleName MethodInvocation MethodInvocation SimpleName doc source
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get top key
+compare to SimpleName MethodInvocation QualifiedName partial keyrow colfam colqual
+doc source SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual
+get top key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam colqual
+doc key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+doc source SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get top key SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+partial keyrow colfam colqual QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+doc source SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+has top SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+doc source SimpleName MethodInvocation SimpleName get top value
+value SimpleName Assignment MethodInvocation SimpleName doc source
+value SimpleName Assignment MethodInvocation SimpleName get top value
+value SimpleName MethodInvocation SimpleName to string
+got doc value StringLiteral InfixExpression MethodInvocation SimpleName value
+got doc value StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral got doc value
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral got doc value
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName advance to intersection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName advance to intersection
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName advance to intersection
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+advance to intersection SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName advance to intersection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName advance to intersection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

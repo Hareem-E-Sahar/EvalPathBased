@@ -1,0 +1,113 @@
+iterator setting SimpleName SimpleType SingleVariableDeclaration SimpleName si
+string SimpleName SimpleType SingleVariableDeclaration SimpleName row term
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cf term
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cq term
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value term
+boolean PrimitiveType SingleVariableDeclaration SimpleName or fields
+si SimpleName MethodInvocation SimpleName add option
+si SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+si SimpleName MethodInvocation SimpleName row term
+add option SimpleName MethodInvocation QualifiedName reg ex filterrow regex
+add option SimpleName MethodInvocation SimpleName row term
+reg ex filterrow regex QualifiedName MethodInvocation SimpleName row term
+si SimpleName MethodInvocation SimpleName add option
+si SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+si SimpleName MethodInvocation SimpleName cf term
+add option SimpleName MethodInvocation QualifiedName reg ex filtercolf regex
+add option SimpleName MethodInvocation SimpleName cf term
+reg ex filtercolf regex QualifiedName MethodInvocation SimpleName cf term
+si SimpleName MethodInvocation SimpleName add option
+si SimpleName MethodInvocation QualifiedName reg ex filtercolq regex
+si SimpleName MethodInvocation SimpleName cq term
+add option SimpleName MethodInvocation QualifiedName reg ex filtercolq regex
+add option SimpleName MethodInvocation SimpleName cq term
+reg ex filtercolq regex QualifiedName MethodInvocation SimpleName cq term
+si SimpleName MethodInvocation SimpleName add option
+si SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+si SimpleName MethodInvocation SimpleName value term
+add option SimpleName MethodInvocation QualifiedName reg ex filtervalue regex
+add option SimpleName MethodInvocation SimpleName value term
+reg ex filtervalue regex QualifiedName MethodInvocation SimpleName value term
+si SimpleName MethodInvocation SimpleName add option
+si SimpleName MethodInvocation QualifiedName reg ex filteror fields
+si SimpleName MethodInvocation StringLiteral true
+add option SimpleName MethodInvocation QualifiedName reg ex filteror fields
+add option SimpleName MethodInvocation StringLiteral true
+reg ex filteror fields QualifiedName MethodInvocation StringLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set regexs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName si
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName row term
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set regexs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName si
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName row term
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cf term
+void PrimitiveType MethodDeclaration SimpleName set regexs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName si
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName row term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cf term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cq term
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator setting
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName si
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row term
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cf term
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cq term
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set regexs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value term
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row term
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf term
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cq term
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+si SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+row term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf term
+row term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cq term
+row term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+row term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+row term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+cf term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cq term
+cf term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+cf term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+cf term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+cq term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+cq term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+cq term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+value term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value term SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set regexs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName si
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cq term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set regexs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName si
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cq term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value term
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName or fields

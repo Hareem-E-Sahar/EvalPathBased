@@ -1,0 +1,55 @@
+job SimpleName SimpleType SingleVariableDeclaration SimpleName job
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+batch scan config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+check not null SimpleName MethodInvocation SimpleName configs
+get configuration SimpleName MethodInvocation SimpleName job
+input configurator SimpleName MethodInvocation SimpleName set batch scan configs
+input configurator SimpleName MethodInvocation SimpleName class
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+input configurator SimpleName MethodInvocation MethodInvocation SimpleName job
+input configurator SimpleName MethodInvocation SimpleName configs
+set batch scan configs SimpleName MethodInvocation SimpleName class
+set batch scan configs SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+set batch scan configs SimpleName MethodInvocation MethodInvocation SimpleName job
+set batch scan configs SimpleName MethodInvocation SimpleName configs
+class SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+class SimpleName MethodInvocation MethodInvocation SimpleName job
+class SimpleName MethodInvocation SimpleName configs
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName configs
+job SimpleName MethodInvocation MethodInvocation SimpleName configs
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set batch scan configs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configs
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set batch scan configs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName configs
+void PrimitiveType MethodDeclaration SimpleName set batch scan configs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configs
+set batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+set batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+set batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configs
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set batch scan configs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set batch scan configs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs

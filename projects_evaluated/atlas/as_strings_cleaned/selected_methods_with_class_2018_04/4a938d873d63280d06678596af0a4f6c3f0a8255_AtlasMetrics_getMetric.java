@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data SimpleName VariableDeclarationFragment FieldAccess SimpleName data
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+data SimpleName MethodInvocation SimpleName get
+data SimpleName MethodInvocation SimpleName group key
+get SimpleName MethodInvocation SimpleName group key
+metric map SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+metric map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+metric map SimpleName VariableDeclarationFragment MethodInvocation SimpleName group key
+metric map SimpleName MethodInvocation SimpleName is empty
+metric map SimpleName MethodInvocation SimpleName get
+metric map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+ret SimpleName Assignment MethodInvocation SimpleName metric map
+ret SimpleName Assignment MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation SimpleName key
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName get metric
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName group key
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get metric
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName group key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+object SimpleName SimpleType MethodDeclaration SimpleName get metric
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName group key
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group key
+get metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get metric SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+group key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metric
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metric
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

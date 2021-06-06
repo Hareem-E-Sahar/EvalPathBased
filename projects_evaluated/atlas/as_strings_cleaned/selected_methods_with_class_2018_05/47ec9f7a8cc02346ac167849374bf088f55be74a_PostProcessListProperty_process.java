@@ -1,0 +1,65 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+does not have property SimpleName MethodInvocation SimpleName v
+does not have property SimpleName MethodInvocation SimpleName type name
+v SimpleName MethodInvocation SimpleName type name
+has property SimpleName MethodInvocation SimpleName v
+has property SimpleName MethodInvocation SimpleName property name
+v SimpleName MethodInvocation SimpleName property name
+remove property SimpleName MethodInvocation SimpleName v
+remove property SimpleName MethodInvocation SimpleName property name
+v SimpleName MethodInvocation SimpleName property name
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+v SimpleName MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral process illegal argument exception v error
+log SimpleName MethodInvocation MethodInvocation SimpleName v
+log SimpleName MethodInvocation MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral process illegal argument exception v error
+error SimpleName MethodInvocation MethodInvocation SimpleName v
+error SimpleName MethodInvocation MethodInvocation SimpleName id
+error SimpleName MethodInvocation SimpleName ex
+process illegal argument exception v error StringLiteral MethodInvocation MethodInvocation SimpleName v
+process illegal argument exception v error StringLiteral MethodInvocation MethodInvocation SimpleName id
+process illegal argument exception v error StringLiteral MethodInvocation SimpleName ex
+v SimpleName MethodInvocation MethodInvocation SimpleName ex
+id SimpleName MethodInvocation MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

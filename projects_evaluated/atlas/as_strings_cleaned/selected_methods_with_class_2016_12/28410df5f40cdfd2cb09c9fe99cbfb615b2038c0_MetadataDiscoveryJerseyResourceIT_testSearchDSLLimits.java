@@ -1,0 +1,231 @@
+from StringLiteral InfixExpression SimpleName database type
+from StringLiteral InfixExpression StringLiteral qualified name
+from StringLiteral InfixExpression SimpleName db name
+from StringLiteral InfixExpression StringLiteral \
+database type SimpleName InfixExpression StringLiteral qualified name
+database type SimpleName InfixExpression SimpleName db name
+database type SimpleName InfixExpression StringLiteral \
+qualified name StringLiteral InfixExpression SimpleName db name
+qualified name StringLiteral InfixExpression StringLiteral \
+db name SimpleName InfixExpression StringLiteral \
+dsl query SimpleName VariableDeclarationFragment InfixExpression StringLiteral from
+dsl query SimpleName VariableDeclarationFragment InfixExpression SimpleName database type
+dsl query SimpleName VariableDeclarationFragment InfixExpression StringLiteral qualified name
+dsl query SimpleName VariableDeclarationFragment InfixExpression SimpleName db name
+dsl query SimpleName VariableDeclarationFragment InfixExpression StringLiteral \
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+multivalued map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+query params SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multivalued map impl
+query params SimpleName MethodInvocation SimpleName add
+query params SimpleName MethodInvocation StringLiteral query
+query params SimpleName MethodInvocation SimpleName dsl query
+add SimpleName MethodInvocation StringLiteral query
+add SimpleName MethodInvocation SimpleName dsl query
+query StringLiteral MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation SimpleName call api with query params
+service client SimpleName MethodInvocation QualifiedName atlas clientapisearch dsl
+service client SimpleName MethodInvocation SimpleName query params
+call api with query params SimpleName MethodInvocation QualifiedName atlas clientapisearch dsl
+call api with query params SimpleName MethodInvocation SimpleName query params
+atlas clientapisearch dsl QualifiedName MethodInvocation SimpleName query params
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with query params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapisearch dsl
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName query params
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+results SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+results SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+service client SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+search by dsl SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+dsl query SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+dsl query SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+empty NumberLiteral PrefixExpression MethodInvocation PrefixExpression NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName service client
+results SimpleName Assignment MethodInvocation SimpleName search by dsl
+results SimpleName Assignment MethodInvocation SimpleName dsl query
+results SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+results SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName service client
+results SimpleName Assignment MethodInvocation SimpleName search by dsl
+results SimpleName Assignment MethodInvocation SimpleName dsl query
+results SimpleName Assignment MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation SimpleName service client
+results SimpleName Assignment MethodInvocation SimpleName search by dsl
+results SimpleName Assignment MethodInvocation SimpleName dsl query
+results SimpleName Assignment MethodInvocation NumberLiteral empty
+results SimpleName Assignment MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName results
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+results SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected bad request
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation SimpleName get status
+got StringLiteral InfixExpression MethodInvocation SimpleName e
+got StringLiteral InfixExpression MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName client responsestatusbad request
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral got
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+e SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+get status SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+get status SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation QualifiedName integermax value
+service client SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation QualifiedName integermax value
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation QualifiedName integermax value
+dsl query SimpleName MethodInvocation NumberLiteral empty
+integermax value QualifiedName MethodInvocation NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected bad request
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation SimpleName get status
+got StringLiteral InfixExpression MethodInvocation SimpleName e
+got StringLiteral InfixExpression MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName client responsestatusbad request
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral got
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+e SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+get status SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+get status SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+service client SimpleName MethodInvocation SimpleName search by dsl
+service client SimpleName MethodInvocation SimpleName dsl query
+service client SimpleName MethodInvocation NumberLiteral empty
+service client SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+search by dsl SimpleName MethodInvocation NumberLiteral empty
+search by dsl SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+dsl query SimpleName MethodInvocation NumberLiteral empty
+dsl query SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation PrefixExpression NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral expected bad request
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation SimpleName get status
+got StringLiteral InfixExpression MethodInvocation SimpleName e
+got StringLiteral InfixExpression MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName client responsestatusbad request
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral got
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+e SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+get status SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+e SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+get status SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression StringLiteral got
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+client responsestatusbad request QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get status
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search dsl limits
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search dsl limits
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search dsl limits
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search dsl limits SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search dsl limits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search dsl limits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

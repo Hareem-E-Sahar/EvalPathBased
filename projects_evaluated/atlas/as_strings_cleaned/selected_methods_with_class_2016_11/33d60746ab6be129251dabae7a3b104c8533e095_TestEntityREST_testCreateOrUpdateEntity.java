@@ -1,0 +1,89 @@
+entity rest SimpleName MethodInvocation SimpleName create or update
+entity rest SimpleName MethodInvocation SimpleName db entity
+create or update SimpleName MethodInvocation SimpleName db entity
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName create or update
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName db entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName entity mutation response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity rest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create or update
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName db entity
+entity mutation response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+response SimpleName MethodInvocation SimpleName get entities by operation
+response SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+get entities by operation SimpleName MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entities by operation
+entities mutated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity mutationsentity operationcreate or update
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName entities mutated
+assert not null SimpleName MethodInvocation SimpleName entities mutated
+entities mutated SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation SimpleName get
+entities mutated SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert not null SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation SimpleName get
+entities mutated SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get SimpleName MethodInvocation MethodInvocation SimpleName get guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get guid
+db guid SimpleName Assignment MethodInvocation MethodInvocation SimpleName entities mutated
+db guid SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+db guid SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+db guid SimpleName Assignment MethodInvocation SimpleName get guid
+entities mutated SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entities mutated
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+entities mutated SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create or update entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create or update entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test create or update entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test create or update entity SimpleName MethodDeclaration SimpleType SimpleName exception
+test create or update entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create or update entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create or update entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

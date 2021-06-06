@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+registry SimpleName MethodInvocation SimpleName put
+registry SimpleName MethodInvocation SimpleName name
+registry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName metric
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName metric
+name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName metric
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create metric
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleName create metric
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+create metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create metric SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create metric
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create metric
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

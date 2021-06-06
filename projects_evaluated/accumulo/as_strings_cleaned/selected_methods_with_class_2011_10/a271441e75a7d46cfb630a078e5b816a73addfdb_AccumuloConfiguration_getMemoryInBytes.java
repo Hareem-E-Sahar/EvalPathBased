@@ -1,0 +1,89 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+multiplier SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName multiplier
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+str SimpleName MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str SimpleName MethodInvocation SimpleName char at
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+multiplier SimpleName Assignment NumberLiteral empty
+str SimpleName MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str SimpleName MethodInvocation SimpleName substring
+str SimpleName MethodInvocation NumberLiteral empty
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName str
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName str
+long SimpleName MethodInvocation MethodInvocation SimpleName substring
+long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+long SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation SimpleName str
+parse long SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse long SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+long SimpleName MethodInvocation InfixExpression SimpleName multiplier
+parse long SimpleName MethodInvocation InfixExpression SimpleName multiplier
+str SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+substring SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression SimpleName multiplier
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName str
+parse long SimpleName MethodInvocation SimpleName str
+str SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+str SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+str SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral k
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral k
+g CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+g CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral k
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral k
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+k CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+static Modifier MethodDeclaration Modifier public
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get memory in bytes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get memory in bytes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType MethodDeclaration SimpleName get memory in bytes
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get memory in bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get memory in bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+get memory in bytes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get memory in bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get memory in bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

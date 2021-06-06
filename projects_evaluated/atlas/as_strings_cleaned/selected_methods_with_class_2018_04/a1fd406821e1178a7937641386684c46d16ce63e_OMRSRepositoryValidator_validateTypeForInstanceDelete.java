@@ -1,0 +1,194 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repository name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def name
+instance header SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+validate instance type SimpleName MethodInvocation SimpleName repository name
+validate instance type SimpleName MethodInvocation SimpleName instance
+repository name SimpleName MethodInvocation SimpleName instance
+instance SimpleName MethodInvocation SimpleName get type
+instance SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+type def guid SimpleName MethodInvocation SimpleName equals
+type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+type def guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+type def guid SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type def guid
+instance SimpleName MethodInvocation SimpleName get type
+instance SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+get type SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+type def name SimpleName MethodInvocation SimpleName equals
+type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+type def name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+type def name SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type def name
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codebad typedef ids for delete
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codebad typedef ids for delete
+error code SimpleName MethodInvocation SimpleName get error message id
+instance SimpleName MethodInvocation SimpleName get guid
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName type def name
+error code SimpleName MethodInvocation SimpleName type def guid
+error code SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation MethodInvocation SimpleName instance
+error code SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get formatted error message SimpleName MethodInvocation SimpleName type def name
+get formatted error message SimpleName MethodInvocation SimpleName type def guid
+get formatted error message SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName instance
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get formatted error message SimpleName MethodInvocation SimpleName repository name
+type def name SimpleName MethodInvocation SimpleName type def guid
+type def name SimpleName MethodInvocation SimpleName method name
+type def name SimpleName MethodInvocation MethodInvocation SimpleName instance
+type def name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+type def name SimpleName MethodInvocation SimpleName repository name
+type def guid SimpleName MethodInvocation SimpleName method name
+type def guid SimpleName MethodInvocation MethodInvocation SimpleName instance
+type def guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+type def guid SimpleName MethodInvocation SimpleName repository name
+method name SimpleName MethodInvocation MethodInvocation SimpleName instance
+method name SimpleName MethodInvocation MethodInvocation SimpleName get guid
+method name SimpleName MethodInvocation SimpleName repository name
+instance SimpleName MethodInvocation MethodInvocation SimpleName repository name
+get guid SimpleName MethodInvocation MethodInvocation SimpleName repository name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def guid
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type def guid
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName type def name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName type def guid
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repository name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+invalid parameter exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName validate type for instance delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def name
+void PrimitiveType MethodDeclaration SimpleName validate type for instance delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repository name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type def name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repository name
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def name
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate type for instance delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+repository name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate type for instance delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate type for instance delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repository name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

@@ -1,0 +1,21 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported in local atlas client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName list types
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName list types
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName list types
+list types SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName list types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName list types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

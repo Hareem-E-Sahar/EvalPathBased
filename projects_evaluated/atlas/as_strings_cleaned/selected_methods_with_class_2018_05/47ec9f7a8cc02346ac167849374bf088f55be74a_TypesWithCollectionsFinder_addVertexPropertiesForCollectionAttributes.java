@@ -1,0 +1,59 @@
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type attr map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type attr map
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get vertex properties for collection attributes SimpleName MethodInvocation SimpleName type
+collection properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex properties for collection attributes
+collection properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+collection properties SimpleName MethodInvocation SimpleName size
+collection properties SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collection properties SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+type SimpleName MethodInvocation SimpleName get type name
+type attr map SimpleName MethodInvocation SimpleName put
+type attr map SimpleName MethodInvocation MethodInvocation SimpleName type
+type attr map SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type attr map SimpleName MethodInvocation SimpleName collection properties
+put SimpleName MethodInvocation MethodInvocation SimpleName type
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+put SimpleName MethodInvocation SimpleName collection properties
+type SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+get type name SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+atlas struct type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add vertex properties for collection attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add vertex properties for collection attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+void PrimitiveType MethodDeclaration SimpleName add vertex properties for collection attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName types
+add vertex properties for collection attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+add vertex properties for collection attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+add vertex properties for collection attributes SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add vertex properties for collection attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type attr map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add vertex properties for collection attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type attr map

@@ -1,0 +1,55 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+level SimpleName SimpleType SingleVariableDeclaration SimpleName level
+output configurator SimpleName MethodInvocation SimpleName set log level
+output configurator SimpleName MethodInvocation SimpleName class
+output configurator SimpleName MethodInvocation SimpleName conf
+output configurator SimpleName MethodInvocation SimpleName level
+set log level SimpleName MethodInvocation SimpleName class
+set log level SimpleName MethodInvocation SimpleName conf
+set log level SimpleName MethodInvocation SimpleName level
+class SimpleName MethodInvocation SimpleName conf
+class SimpleName MethodInvocation SimpleName level
+conf SimpleName MethodInvocation SimpleName level
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set log level
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set log level
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set log level
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+void PrimitiveType MethodDeclaration SimpleName set log level
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName level
+set log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName level
+set log level SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set log level
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set log level
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level

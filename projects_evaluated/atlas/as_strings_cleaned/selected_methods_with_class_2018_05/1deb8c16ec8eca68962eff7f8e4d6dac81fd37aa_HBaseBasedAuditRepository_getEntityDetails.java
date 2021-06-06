@@ -1,0 +1,39 @@
+result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get audit type SimpleName MethodInvocation SimpleName result
+get audit type SimpleName MethodInvocation InfixExpression SimpleName entity audit v
+result SimpleName MethodInvocation InfixExpression SimpleName entity audit v
+get result string SimpleName MethodInvocation SimpleName result
+get result string SimpleName MethodInvocation SimpleName column detail
+result SimpleName MethodInvocation SimpleName column detail
+ret SimpleName Assignment MethodInvocation SimpleName get result string
+ret SimpleName Assignment MethodInvocation SimpleName result
+ret SimpleName Assignment MethodInvocation SimpleName column detail
+get v details SimpleName MethodInvocation SimpleName result
+ret SimpleName Assignment MethodInvocation SimpleName get v details
+ret SimpleName Assignment MethodInvocation SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get entity details
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get entity details
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get entity details SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+get entity details SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get entity details SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get entity details SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity details
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity details
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

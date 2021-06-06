@@ -1,0 +1,22 @@
+request context SimpleName MethodInvocation SimpleName clear
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName MethodInvocation MethodInvocation SimpleName set user
+get SimpleName MethodInvocation MethodInvocation SimpleName set user
+request context SimpleName MethodInvocation MethodInvocation QualifiedName test utils v test user
+get SimpleName MethodInvocation MethodInvocation QualifiedName test utils v test user
+set user SimpleName MethodInvocation QualifiedName test utils v test user
+before test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before test SimpleName MarkerAnnotation MethodDeclaration SimpleName setup test
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup test
+void PrimitiveType MethodDeclaration SimpleName setup test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup test
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup test

@@ -1,0 +1,18 @@
+v SimpleName SimpleType SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName encode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+byte PrimitiveType ArrayType MethodDeclaration SimpleName encode
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName v
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName v
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

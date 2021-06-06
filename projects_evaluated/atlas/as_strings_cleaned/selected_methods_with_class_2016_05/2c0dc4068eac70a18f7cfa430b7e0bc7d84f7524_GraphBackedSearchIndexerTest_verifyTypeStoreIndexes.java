@@ -1,0 +1,41 @@
+graph provider SimpleName MethodInvocation SimpleName get
+titan graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph provider
+titan graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName titan graph
+titan graph SimpleName MethodInvocation SimpleName get management system
+management system SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph
+management system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get management system
+titan management SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName management system
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantstypename property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral true
+management system SimpleName MethodInvocation QualifiedName constantstypename property key
+management system SimpleName MethodInvocation BooleanLiteral true
+constantstypename property key QualifiedName MethodInvocation BooleanLiteral true
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantstypename property key
+management system SimpleName MethodInvocation QualifiedName constantstypename property key
+verify system composite index SimpleName MethodInvocation SimpleName management system
+verify system composite index SimpleName MethodInvocation QualifiedName constantsvertex type property key
+verify system composite index SimpleName MethodInvocation BooleanLiteral false
+management system SimpleName MethodInvocation QualifiedName constantsvertex type property key
+management system SimpleName MethodInvocation BooleanLiteral false
+constantsvertex type property key QualifiedName MethodInvocation BooleanLiteral false
+verify vertex index contains SimpleName MethodInvocation SimpleName management system
+verify vertex index contains SimpleName MethodInvocation QualifiedName constantsvertex type property key
+management system SimpleName MethodInvocation QualifiedName constantsvertex type property key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName verify type store indexes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify type store indexes
+void PrimitiveType MethodDeclaration SimpleName verify type store indexes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify type store indexes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify type store indexes

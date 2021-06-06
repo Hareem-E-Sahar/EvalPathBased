@@ -1,0 +1,74 @@
+long PrimitiveType SingleVariableDeclaration SimpleName entry
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s d
+string SimpleName MethodInvocation SimpleName prefix
+string SimpleName MethodInvocation SimpleName entry
+format SimpleName MethodInvocation StringLiteral s d
+format SimpleName MethodInvocation SimpleName prefix
+format SimpleName MethodInvocation SimpleName entry
+s d StringLiteral MethodInvocation SimpleName prefix
+s d StringLiteral MethodInvocation SimpleName entry
+prefix SimpleName MethodInvocation SimpleName entry
+path SimpleName InfixExpression MethodInvocation SimpleName string
+path SimpleName InfixExpression MethodInvocation SimpleName format
+path SimpleName InfixExpression MethodInvocation StringLiteral s d
+path SimpleName InfixExpression MethodInvocation SimpleName prefix
+path SimpleName InfixExpression MethodInvocation SimpleName entry
+zoo SimpleName MethodInvocation SimpleName recursive delete
+zoo SimpleName MethodInvocation InfixExpression SimpleName path
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s d
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+zoo SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+zoo SimpleName MethodInvocation QualifiedName node missing policyskip
+recursive delete SimpleName MethodInvocation InfixExpression SimpleName path
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral s d
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+recursive delete SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+recursive delete SimpleName MethodInvocation QualifiedName node missing policyskip
+path SimpleName InfixExpression MethodInvocation QualifiedName node missing policyskip
+string SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+format SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+s d StringLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+prefix SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+entry SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node missing policyskip
+zoo SimpleName MethodInvocation SimpleName delete
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+delete SimpleName MethodInvocation SimpleName path
+delete SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+path SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+not empty exception SimpleName SimpleType SingleVariableDeclaration SimpleName nee
+no node exception SimpleName SimpleType SingleVariableDeclaration SimpleName nne
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove entry
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove entry
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry
+void PrimitiveType MethodDeclaration SimpleName remove entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entry
+remove entry SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+remove entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry

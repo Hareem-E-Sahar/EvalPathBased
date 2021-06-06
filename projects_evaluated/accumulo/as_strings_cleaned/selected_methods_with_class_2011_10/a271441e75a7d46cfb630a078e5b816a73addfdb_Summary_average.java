@@ -1,0 +1,7 @@
+total SimpleName InfixExpression SimpleName count
+long PrimitiveType MethodDeclaration SimpleName average
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName average
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName average

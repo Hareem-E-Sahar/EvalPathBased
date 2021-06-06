@@ -1,0 +1,500 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName full command
+string SimpleName SimpleType SingleVariableDeclaration SimpleName full command
+final Modifier SingleVariableDeclaration SimpleType SimpleName command line
+final Modifier SingleVariableDeclaration SimpleName cl
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+final Modifier SingleVariableDeclaration SimpleType SimpleName shell
+final Modifier SingleVariableDeclaration SimpleName shell state
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+test table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName cl
+test table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get args
+test table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName test table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test table name
+test table name SimpleName MethodInvocation SimpleName matches
+test table name SimpleName MethodInvocation QualifiedName constantsvalid table name regex
+matches SimpleName MethodInvocation QualifiedName constantsvalid table name regex
+shell state SimpleName MethodInvocation SimpleName get reader
+shell state SimpleName MethodInvocation MethodInvocation SimpleName println
+get reader SimpleName MethodInvocation MethodInvocation SimpleName println
+shell state SimpleName MethodInvocation MethodInvocation StringLiteral only letters numbers and underscores are allowed for use in table names
+get reader SimpleName MethodInvocation MethodInvocation StringLiteral only letters numbers and underscores are allowed for use in table names
+println SimpleName MethodInvocation StringLiteral only letters numbers and underscores are allowed for use in table names
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get args SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName cl
+table name SimpleName VariableDeclarationFragment ArrayAccess MethodInvocation SimpleName get args
+table name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+table exists exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName sorted set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName text
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName partitions
+base opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName base opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName base opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+decode SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+decode SimpleName VariableDeclarationFragment MethodInvocation SimpleName has option
+decode SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName base opt
+decode SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName decode
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName has option
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName decode
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName has option
+create table opt split SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt split
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt split
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+create table opt split SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt split
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName create table opt split
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create table opt split
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+file SimpleName SimpleType ClassInstanceCreation SimpleName f
+scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName f
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner
+file SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName f
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName has next line
+file SimpleName MethodInvocation SimpleName next line
+line SimpleName Assignment MethodInvocation SimpleName file
+line SimpleName Assignment MethodInvocation SimpleName next line
+line SimpleName MethodInvocation SimpleName is empty
+line SimpleName MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation SimpleName decode base
+base SimpleName MethodInvocation MethodInvocation SimpleName line
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation SimpleName line
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName decode base
+text SimpleName SimpleType ClassInstanceCreation SimpleName line
+decode SimpleName ConditionalExpression ClassInstanceCreation SimpleType SimpleName text
+decode SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName base
+decode SimpleName ConditionalExpression ClassInstanceCreation MethodInvocation SimpleName decode base
+decode SimpleName ConditionalExpression ClassInstanceCreation SimpleType SimpleName text
+decode SimpleName ConditionalExpression ClassInstanceCreation SimpleName line
+partitions SimpleName MethodInvocation SimpleName add
+partitions SimpleName MethodInvocation ConditionalExpression SimpleName decode
+partitions SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation SimpleName line
+add SimpleName MethodInvocation ConditionalExpression SimpleName decode
+add SimpleName MethodInvocation ConditionalExpression ClassInstanceCreation SimpleName line
+create table opt copy splits SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy splits
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy splits
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+create table opt copy splits SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy splits
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy splits
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create table opt copy splits
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName old table
+exists SimpleName MethodInvocation SimpleName old table
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName old table
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list splits
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list splits
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName old table
+list splits SimpleName MethodInvocation SimpleName old table
+partitions SimpleName MethodInvocation SimpleName add all
+partitions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+partitions SimpleName MethodInvocation MethodInvocation SimpleName list splits
+partitions SimpleName MethodInvocation MethodInvocation SimpleName old table
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+add all SimpleName MethodInvocation MethodInvocation SimpleName list splits
+add all SimpleName MethodInvocation MethodInvocation SimpleName old table
+create table opt copy config SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+create table opt copy config SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+old table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create table opt copy config
+old table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName old table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName old table
+exists SimpleName MethodInvocation SimpleName old table
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName old table
+time type SimpleName VariableDeclarationFragment QualifiedName time typemillis
+time type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time type
+time type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName time typemillis
+create table opt time logical SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt time logical
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt time logical
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+time type SimpleName Assignment QualifiedName time typelogical
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time type
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time type
+table operations SimpleName MethodInvocation MethodInvocation SimpleName time type
+create SimpleName MethodInvocation SimpleName table name
+create SimpleName MethodInvocation BooleanLiteral true
+create SimpleName MethodInvocation SimpleName time type
+table name SimpleName MethodInvocation BooleanLiteral true
+table name SimpleName MethodInvocation SimpleName time type
+true BooleanLiteral MethodInvocation SimpleName time type
+partitions SimpleName MethodInvocation SimpleName size
+partitions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add splits
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName add splits
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partitions
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partitions
+table operations SimpleName MethodInvocation MethodInvocation SimpleName partitions
+add splits SimpleName MethodInvocation SimpleName table name
+add splits SimpleName MethodInvocation SimpleName partitions
+table name SimpleName MethodInvocation SimpleName partitions
+tables SimpleName MethodInvocation SimpleName extract namespace
+tables SimpleName MethodInvocation SimpleName table name
+extract namespace SimpleName MethodInvocation SimpleName table name
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract namespace
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+table SimpleName VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+n SimpleName MethodInvocation SimpleName equals
+n SimpleName MethodInvocation QualifiedName constantsdefault table namespace
+equals SimpleName MethodInvocation QualifiedName constantsdefault table namespace
+n SimpleName MethodInvocation SimpleName equals
+n SimpleName MethodInvocation QualifiedName constantssystem table namespace
+equals SimpleName MethodInvocation QualifiedName constantssystem table namespace
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+n SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName constantssystem table namespace
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName constantssystem table namespace
+constantsdefault table namespace QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+constantsdefault table namespace QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+constantsdefault table namespace QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName constantssystem table namespace
+tables SimpleName MethodInvocation SimpleName extract table name
+tables SimpleName MethodInvocation SimpleName table name
+extract table name SimpleName MethodInvocation SimpleName table name
+table SimpleName Assignment MethodInvocation SimpleName tables
+table SimpleName Assignment MethodInvocation SimpleName extract table name
+table SimpleName Assignment MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation SimpleName set table name
+shell state SimpleName MethodInvocation SimpleName table
+set table name SimpleName MethodInvocation SimpleName table
+create table no default iters SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table no default iters
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table no default iters
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+iterator util SimpleName MethodInvocation SimpleName generate initial table properties
+iterator util SimpleName MethodInvocation BooleanLiteral true
+generate initial table properties SimpleName MethodInvocation BooleanLiteral true
+iterator util SimpleName MethodInvocation MethodInvocation SimpleName key set
+generate initial table properties SimpleName MethodInvocation MethodInvocation SimpleName key set
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName key set
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+table operations SimpleName MethodInvocation MethodInvocation SimpleName key
+remove property SimpleName MethodInvocation SimpleName table name
+remove property SimpleName MethodInvocation SimpleName key
+table name SimpleName MethodInvocation SimpleName key
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+create table opt copy config SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+create table opt copy config SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName create table opt copy config
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cl
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get option value
+get properties SimpleName MethodInvocation MethodInvocation SimpleName cl
+get properties SimpleName MethodInvocation MethodInvocation SimpleName get option value
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create table opt copy config
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+configuration SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cl
+configuration SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get option value
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName iterable
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get properties
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName is valid table property key
+property SimpleName MethodInvocation MethodInvocation SimpleName entry
+property SimpleName MethodInvocation MethodInvocation SimpleName get key
+is valid table property key SimpleName MethodInvocation MethodInvocation SimpleName entry
+is valid table property key SimpleName MethodInvocation MethodInvocation SimpleName get key
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set property SimpleName MethodInvocation MethodInvocation SimpleName get value
+table name SimpleName MethodInvocation MethodInvocation SimpleName entry
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation MethodInvocation SimpleName entry
+table name SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName configuration
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName configuration
+create table opt evc SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt evc
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt evc
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+visibility constraint SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add constraint
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add constraint
+table operations SimpleName MethodInvocation MethodInvocation SimpleName add constraint
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add constraint SimpleName MethodInvocation SimpleName table name
+add constraint SimpleName MethodInvocation MethodInvocation SimpleName get name
+table name SimpleName MethodInvocation MethodInvocation SimpleName get name
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation InfixExpression StringLiteral while setting visibility constraint but table was created
+get message SimpleName MethodInvocation InfixExpression StringLiteral while setting visibility constraint but table was created
+shelllog QualifiedName MethodInvocation SimpleName warn
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+shelllog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+shelllog QualifiedName MethodInvocation InfixExpression StringLiteral while setting visibility constraint but table was created
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation InfixExpression StringLiteral while setting visibility constraint but table was created
+create table opt formatter SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt formatter
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName create table opt formatter
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+create table opt formatter SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName create table opt formatter
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName create table opt formatter
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+formatter class SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+formatter class SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+formatter class SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create table opt formatter
+formatter class SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName formatter class
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get option value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName formatter class
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable formatter class QualifiedName MethodInvocation SimpleName to string
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable formatter class
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter class
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter class
+table operations SimpleName MethodInvocation MethodInvocation SimpleName formatter class
+set property SimpleName MethodInvocation SimpleName table name
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable formatter class
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation SimpleName formatter class
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable formatter class
+table name SimpleName MethodInvocation MethodInvocation SimpleName to string
+table name SimpleName MethodInvocation SimpleName formatter class
+propertytable formatter class QualifiedName MethodInvocation MethodInvocation SimpleName formatter class
+to string SimpleName MethodInvocation MethodInvocation SimpleName formatter class
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName full command
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName full command
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line

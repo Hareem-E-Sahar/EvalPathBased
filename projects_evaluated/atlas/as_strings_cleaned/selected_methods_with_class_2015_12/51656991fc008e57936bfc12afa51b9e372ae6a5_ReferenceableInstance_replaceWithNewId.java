@@ -1,0 +1,20 @@
+id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+id SimpleName FieldAccess Assignment SimpleName id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName replace with new id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName replace with new id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+replace with new id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName id
+replace with new id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace with new id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace with new id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

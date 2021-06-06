@@ -1,0 +1,20 @@
+omrs audit log reporting component SimpleName SimpleType SingleVariableDeclaration SimpleName reporting component
+reporting component SimpleName FieldAccess Assignment SimpleName reporting component
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set reporting component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log reporting component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reporting component
+void PrimitiveType MethodDeclaration SimpleName set reporting component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log reporting component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reporting component
+set reporting component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log reporting component
+set reporting component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reporting component
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set reporting component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reporting component
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set reporting component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reporting component

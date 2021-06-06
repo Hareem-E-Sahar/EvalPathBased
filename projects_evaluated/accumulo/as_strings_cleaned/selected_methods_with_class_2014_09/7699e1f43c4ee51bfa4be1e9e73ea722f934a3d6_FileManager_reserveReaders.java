@@ -1,0 +1,318 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+boolean PrimitiveType SingleVariableDeclaration SimpleName continue on failure
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation InfixExpression SimpleName max open
+size SimpleName MethodInvocation InfixExpression SimpleName max open
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral requested files exceeds max open
+files SimpleName MethodInvocation SimpleName size
+files SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+collections SimpleName MethodInvocation SimpleName empty list
+files to close SimpleName VariableDeclarationFragment MethodInvocation SimpleName collections
+files to close SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file skv iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file skv iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+files SimpleName MethodInvocation SimpleName size
+file permits SimpleName MethodInvocation SimpleName acquire uninterruptibly
+file permits SimpleName MethodInvocation MethodInvocation SimpleName files
+file permits SimpleName MethodInvocation MethodInvocation SimpleName size
+acquire uninterruptibly SimpleName MethodInvocation MethodInvocation SimpleName files
+acquire uninterruptibly SimpleName MethodInvocation MethodInvocation SimpleName size
+take open files SimpleName MethodInvocation SimpleName files
+take open files SimpleName MethodInvocation SimpleName reserved files
+take open files SimpleName MethodInvocation SimpleName readers reserved
+files SimpleName MethodInvocation SimpleName reserved files
+files SimpleName MethodInvocation SimpleName readers reserved
+reserved files SimpleName MethodInvocation SimpleName readers reserved
+files to open SimpleName Assignment MethodInvocation SimpleName take open files
+files to open SimpleName Assignment MethodInvocation SimpleName files
+files to open SimpleName Assignment MethodInvocation SimpleName reserved files
+files to open SimpleName Assignment MethodInvocation SimpleName readers reserved
+count readers SimpleName MethodInvocation SimpleName open files
+num open SimpleName VariableDeclarationFragment MethodInvocation SimpleName count readers
+num open SimpleName VariableDeclarationFragment MethodInvocation SimpleName open files
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num open
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count readers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName open files
+files to open SimpleName MethodInvocation SimpleName size
+reserved readers SimpleName MethodInvocation SimpleName size
+files to open SimpleName MethodInvocation InfixExpression SimpleName num open
+size SimpleName MethodInvocation InfixExpression SimpleName num open
+files to open SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reserved readers
+files to open SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reserved readers
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+num open SimpleName InfixExpression MethodInvocation SimpleName reserved readers
+num open SimpleName InfixExpression MethodInvocation SimpleName size
+files to open SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max open
+size SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max open
+num open SimpleName InfixExpression InfixExpression SimpleName max open
+reserved readers SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max open
+size SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max open
+files to open SimpleName MethodInvocation SimpleName size
+reserved readers SimpleName MethodInvocation SimpleName size
+files to open SimpleName MethodInvocation InfixExpression SimpleName num open
+size SimpleName MethodInvocation InfixExpression SimpleName num open
+files to open SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reserved readers
+files to open SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName reserved readers
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+num open SimpleName InfixExpression MethodInvocation SimpleName reserved readers
+num open SimpleName InfixExpression MethodInvocation SimpleName size
+num open SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName max open
+take lru open files SimpleName MethodInvocation InfixExpression SimpleName max open
+files to close SimpleName Assignment MethodInvocation SimpleName take lru open files
+files to close SimpleName Assignment MethodInvocation InfixExpression SimpleName max open
+close readers SimpleName MethodInvocation SimpleName files to close
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+file operations SimpleName MethodInvocation SimpleName get instance
+fs SimpleName MethodInvocation SimpleName get conf
+table SimpleName MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation SimpleName get table configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName table
+conf SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName table
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName to string
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open reader
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open reader
+file operations SimpleName MethodInvocation MethodInvocation SimpleName file
+get instance SimpleName MethodInvocation MethodInvocation SimpleName file
+file operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+open reader SimpleName MethodInvocation SimpleName file
+open reader SimpleName MethodInvocation BooleanLiteral false
+open reader SimpleName MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation MethodInvocation SimpleName fs
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get conf
+open reader SimpleName MethodInvocation MethodInvocation SimpleName conf
+open reader SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+open reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+open reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+file SimpleName MethodInvocation BooleanLiteral false
+file SimpleName MethodInvocation SimpleName fs
+file SimpleName MethodInvocation MethodInvocation SimpleName fs
+file SimpleName MethodInvocation MethodInvocation SimpleName get conf
+file SimpleName MethodInvocation MethodInvocation SimpleName conf
+file SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+file SimpleName MethodInvocation SimpleName data cache
+false BooleanLiteral MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName fs
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get conf
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName conf
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName get table configuration
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName table
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+false BooleanLiteral MethodInvocation SimpleName data cache
+false BooleanLiteral MethodInvocation SimpleName index cache
+fs SimpleName MethodInvocation MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName data cache
+fs SimpleName MethodInvocation SimpleName index cache
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table configuration
+get conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conf
+get conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName data cache
+get conf SimpleName MethodInvocation MethodInvocation SimpleName data cache
+fs SimpleName MethodInvocation MethodInvocation SimpleName index cache
+get conf SimpleName MethodInvocation MethodInvocation SimpleName index cache
+conf SimpleName MethodInvocation MethodInvocation SimpleName data cache
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName data cache
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data cache
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName data cache
+conf SimpleName MethodInvocation MethodInvocation SimpleName index cache
+get table configuration SimpleName MethodInvocation MethodInvocation SimpleName index cache
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index cache
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName index cache
+data cache SimpleName MethodInvocation SimpleName index cache
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName open reader
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+reader SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get conf
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conf
+reader SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table configuration
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName data cache
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName index cache
+file skv iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+reserved files SimpleName MethodInvocation SimpleName add
+reserved files SimpleName MethodInvocation SimpleName reader
+add SimpleName MethodInvocation SimpleName reader
+readers reserved SimpleName MethodInvocation SimpleName put
+readers reserved SimpleName MethodInvocation SimpleName reader
+readers reserved SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation SimpleName reader
+put SimpleName MethodInvocation SimpleName file
+reader SimpleName MethodInvocation SimpleName file
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+problem reports SimpleName MethodInvocation SimpleName get instance
+table SimpleName MethodInvocation SimpleName to string
+problem report SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table
+problem report SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+problem report SimpleName SimpleType ClassInstanceCreation QualifiedName problem typefile read
+problem report SimpleName SimpleType ClassInstanceCreation SimpleName file
+problem report SimpleName SimpleType ClassInstanceCreation SimpleName e
+table SimpleName MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+to string SimpleName MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+table SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+table SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+problem typefile read QualifiedName ClassInstanceCreation SimpleName file
+problem typefile read QualifiedName ClassInstanceCreation SimpleName e
+file SimpleName ClassInstanceCreation SimpleName e
+problem reports SimpleName MethodInvocation MethodInvocation SimpleName report
+get instance SimpleName MethodInvocation MethodInvocation SimpleName report
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName file
+problem reports SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName file
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName e
+report SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName problem report
+report SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table
+report SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+report SimpleName MethodInvocation ClassInstanceCreation QualifiedName problem typefile read
+report SimpleName MethodInvocation ClassInstanceCreation SimpleName file
+report SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+file permits SimpleName MethodInvocation SimpleName release
+file permits SimpleName MethodInvocation NumberLiteral empty
+release SimpleName MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get message
+failed to open file StringLiteral InfixExpression SimpleName file
+failed to open file StringLiteral InfixExpression StringLiteral empty
+failed to open file StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to open file StringLiteral InfixExpression MethodInvocation SimpleName get message
+failed to open file StringLiteral InfixExpression StringLiteral continuing
+file SimpleName InfixExpression StringLiteral empty
+file SimpleName InfixExpression MethodInvocation SimpleName e
+file SimpleName InfixExpression MethodInvocation SimpleName get message
+file SimpleName InfixExpression StringLiteral continuing
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression StringLiteral continuing
+e SimpleName MethodInvocation InfixExpression StringLiteral continuing
+get message SimpleName MethodInvocation InfixExpression StringLiteral continuing
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to open file
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation InfixExpression StringLiteral continuing
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to open file
+warn SimpleName MethodInvocation InfixExpression SimpleName file
+warn SimpleName MethodInvocation InfixExpression StringLiteral empty
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation InfixExpression StringLiteral continuing
+close readers SimpleName MethodInvocation SimpleName reserved files
+files SimpleName MethodInvocation SimpleName size
+file permits SimpleName MethodInvocation SimpleName release
+file permits SimpleName MethodInvocation MethodInvocation SimpleName files
+file permits SimpleName MethodInvocation MethodInvocation SimpleName size
+release SimpleName MethodInvocation MethodInvocation SimpleName files
+release SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation SimpleName get message
+failed to open file StringLiteral InfixExpression SimpleName file
+failed to open file StringLiteral InfixExpression StringLiteral empty
+failed to open file StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to open file StringLiteral InfixExpression MethodInvocation SimpleName get message
+file SimpleName InfixExpression StringLiteral empty
+file SimpleName InfixExpression MethodInvocation SimpleName e
+file SimpleName InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to open file
+log SimpleName MethodInvocation InfixExpression SimpleName file
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to open file
+error SimpleName MethodInvocation InfixExpression SimpleName file
+error SimpleName MethodInvocation InfixExpression StringLiteral empty
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+failed to open StringLiteral InfixExpression SimpleName file
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed to open
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName file
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to open StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+file SimpleName InfixExpression ClassInstanceCreation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files to open
+file SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files to open
+reserved readers SimpleName MethodInvocation SimpleName put all
+reserved readers SimpleName MethodInvocation SimpleName readers reserved
+put all SimpleName MethodInvocation SimpleName readers reserved
+files to open SimpleName EnhancedForStatement Block ReturnStatement SimpleName reserved files
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName file skv iterator
+private Modifier MethodDeclaration SimpleName reserve readers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve readers
+file skv iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve readers
+reserve readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+reserve readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+reserve readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+reserve readers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+reserve readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+reserve readers SimpleName MethodDeclaration SimpleType SimpleName io exception
+reserve readers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName files to open
+reserve readers SimpleName MethodDeclaration Block ReturnStatement SimpleName reserved files
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+continue on failure SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName reserve readers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reserve readers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName continue on failure
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,421 @@
+crypto module parameters SimpleName SimpleType SingleVariableDeclaration SimpleName params
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral about to initialize decryption stream new style
+trace SimpleName MethodInvocation StringLiteral about to initialize decryption stream new style
+params SimpleName MethodInvocation SimpleName get record parameters to stream
+params SimpleName MethodInvocation SimpleName get encrypted input stream
+data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+data input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+data in SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+data in SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName params
+data in SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data in
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral about to read encryption parameters from underlying stream
+trace SimpleName MethodInvocation StringLiteral about to read encryption parameters from underlying stream
+data in SimpleName MethodInvocation SimpleName read utf
+marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker
+marker SimpleName MethodInvocation SimpleName equals
+marker SimpleName MethodInvocation SimpleName encryption header marker v
+equals SimpleName MethodInvocation SimpleName encryption header marker v
+marker SimpleName MethodInvocation SimpleName equals
+marker SimpleName MethodInvocation SimpleName encryption header marker v
+equals SimpleName MethodInvocation SimpleName encryption header marker v
+marker SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker
+marker SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+marker SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encryption header marker v
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encryption header marker v
+encryption header marker v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker
+encryption header marker v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+encryption header marker v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encryption header marker v
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data in SimpleName MethodInvocation SimpleName read int
+params count SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+params count SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName params count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName params count
+data in SimpleName MethodInvocation SimpleName read utf
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+data in SimpleName MethodInvocation SimpleName read utf
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+params from file SimpleName MethodInvocation SimpleName put
+params from file SimpleName MethodInvocation SimpleName key
+params from file SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName params count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+params count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+data in SimpleName MethodInvocation SimpleName read utf
+cipher suite from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+cipher suite from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cipher suite from file
+data in SimpleName MethodInvocation SimpleName read utf
+algorithm name from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+algorithm name from file SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName algorithm name from file
+parse cipher suite SimpleName MethodInvocation SimpleName cipher suite from file
+cipher suite parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse cipher suite
+cipher suite parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName cipher suite from file
+params SimpleName MethodInvocation SimpleName set algorithm name
+params SimpleName MethodInvocation SimpleName algorithm name from file
+set algorithm name SimpleName MethodInvocation SimpleName algorithm name from file
+cipher suite parts SimpleName ArrayAccess NumberLiteral empty
+params SimpleName MethodInvocation SimpleName set encryption mode
+params SimpleName MethodInvocation ArrayAccess SimpleName cipher suite parts
+params SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set encryption mode SimpleName MethodInvocation ArrayAccess SimpleName cipher suite parts
+set encryption mode SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+cipher suite parts SimpleName ArrayAccess NumberLiteral empty
+params SimpleName MethodInvocation SimpleName set padding
+params SimpleName MethodInvocation ArrayAccess SimpleName cipher suite parts
+params SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+set padding SimpleName MethodInvocation ArrayAccess SimpleName cipher suite parts
+set padding SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+data in SimpleName MethodInvocation SimpleName read int
+init vector length SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+init vector length SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName init vector length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+byte PrimitiveType ArrayType ArrayCreation SimpleName init vector length
+init vector SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+init vector SimpleName VariableDeclarationFragment ArrayCreation SimpleName init vector length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName init vector
+data in SimpleName MethodInvocation SimpleName read fully
+data in SimpleName MethodInvocation SimpleName init vector
+read fully SimpleName MethodInvocation SimpleName init vector
+params SimpleName MethodInvocation SimpleName set initialization vector
+params SimpleName MethodInvocation SimpleName init vector
+set initialization vector SimpleName MethodInvocation SimpleName init vector
+data in SimpleName MethodInvocation SimpleName read utf
+opaque id SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+opaque id SimpleName VariableDeclarationFragment MethodInvocation SimpleName read utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opaque id
+params SimpleName MethodInvocation SimpleName set opaque key encryption key id
+params SimpleName MethodInvocation SimpleName opaque id
+set opaque key encryption key id SimpleName MethodInvocation SimpleName opaque id
+data in SimpleName MethodInvocation SimpleName read int
+encrypted secret key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName data in
+encrypted secret key length SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName encrypted secret key length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+byte PrimitiveType ArrayType ArrayCreation SimpleName encrypted secret key length
+encrypted secret key SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+encrypted secret key SimpleName VariableDeclarationFragment ArrayCreation SimpleName encrypted secret key length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName encrypted secret key
+data in SimpleName MethodInvocation SimpleName read fully
+data in SimpleName MethodInvocation SimpleName encrypted secret key
+read fully SimpleName MethodInvocation SimpleName encrypted secret key
+params SimpleName MethodInvocation SimpleName set encrypted key
+params SimpleName MethodInvocation SimpleName encrypted secret key
+set encrypted key SimpleName MethodInvocation SimpleName encrypted secret key
+params SimpleName MethodInvocation SimpleName get override streams secret key encryption strategy
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+params from file SimpleName MethodInvocation SimpleName key set
+propertycrypto secret key encryption strategy class QualifiedName MethodInvocation SimpleName get key
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+name SimpleName MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+params SimpleName MethodInvocation SimpleName get all options
+params from file SimpleName MethodInvocation SimpleName get
+params from file SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+params SimpleName MethodInvocation MethodInvocation SimpleName put
+get all options SimpleName MethodInvocation MethodInvocation SimpleName put
+params SimpleName MethodInvocation MethodInvocation SimpleName name
+get all options SimpleName MethodInvocation MethodInvocation SimpleName name
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params from file
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+get all options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params from file
+get all options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get all options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation MethodInvocation SimpleName params from file
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName MethodInvocation MethodInvocation SimpleName params from file
+name SimpleName MethodInvocation MethodInvocation SimpleName get
+name SimpleName MethodInvocation MethodInvocation SimpleName name
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName params from file
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+params SimpleName MethodInvocation SimpleName get all options
+propertycrypto secret key encryption strategy class QualifiedName MethodInvocation SimpleName get key
+params SimpleName MethodInvocation MethodInvocation SimpleName get
+get all options SimpleName MethodInvocation MethodInvocation SimpleName get
+params SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get all options SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+get all options SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+params SimpleName MethodInvocation SimpleName set key encryption strategy class
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get all options
+params SimpleName MethodInvocation MethodInvocation SimpleName get
+params SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+set key encryption strategy class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName params
+set key encryption strategy class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get all options
+set key encryption strategy class SimpleName MethodInvocation MethodInvocation SimpleName get
+set key encryption strategy class SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertycrypto secret key encryption strategy class
+set key encryption strategy class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+crypto module factory SimpleName MethodInvocation SimpleName fill params object from string map
+crypto module factory SimpleName MethodInvocation SimpleName params
+crypto module factory SimpleName MethodInvocation SimpleName params from file
+fill params object from string map SimpleName MethodInvocation SimpleName params
+fill params object from string map SimpleName MethodInvocation SimpleName params from file
+params SimpleName MethodInvocation SimpleName params from file
+params SimpleName Assignment MethodInvocation SimpleName crypto module factory
+params SimpleName Assignment MethodInvocation SimpleName fill params object from string map
+params SimpleName Assignment MethodInvocation SimpleName params
+params SimpleName Assignment MethodInvocation SimpleName params from file
+params SimpleName MethodInvocation SimpleName get key encryption strategy class
+crypto module factory SimpleName MethodInvocation SimpleName get secret key encryption strategy
+crypto module factory SimpleName MethodInvocation MethodInvocation SimpleName params
+crypto module factory SimpleName MethodInvocation MethodInvocation SimpleName get key encryption strategy class
+get secret key encryption strategy SimpleName MethodInvocation MethodInvocation SimpleName params
+get secret key encryption strategy SimpleName MethodInvocation MethodInvocation SimpleName get key encryption strategy class
+key encryption strategy SimpleName VariableDeclarationFragment MethodInvocation SimpleName crypto module factory
+key encryption strategy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get secret key encryption strategy
+key encryption strategy SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName params
+key encryption strategy SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key encryption strategy class
+secret key encryption strategy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key encryption strategy
+key encryption strategy SimpleName MethodInvocation SimpleName decrypt secret key
+key encryption strategy SimpleName MethodInvocation SimpleName params
+decrypt secret key SimpleName MethodInvocation SimpleName params
+params SimpleName Assignment MethodInvocation SimpleName key encryption strategy
+params SimpleName Assignment MethodInvocation SimpleName decrypt secret key
+params SimpleName Assignment MethodInvocation SimpleName params
+marker SimpleName MethodInvocation SimpleName equals
+marker SimpleName MethodInvocation SimpleName encryption header marker v
+equals SimpleName MethodInvocation SimpleName encryption header marker v
+data in SimpleName MethodInvocation SimpleName read int
+params SimpleName MethodInvocation SimpleName set block stream size
+params SimpleName MethodInvocation MethodInvocation SimpleName data in
+params SimpleName MethodInvocation MethodInvocation SimpleName read int
+set block stream size SimpleName MethodInvocation MethodInvocation SimpleName data in
+set block stream size SimpleName MethodInvocation MethodInvocation SimpleName read int
+params SimpleName MethodInvocation SimpleName set block stream size
+params SimpleName MethodInvocation NumberLiteral empty
+set block stream size SimpleName MethodInvocation NumberLiteral empty
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral read something off of the encrypted input stream that was not the encryption header marker so pushing back bytes and returning the given stream
+trace SimpleName MethodInvocation StringLiteral read something off of the encrypted input stream that was not the encryption header marker so pushing back bytes and returning the given stream
+temp byte out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp byte out
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName temp byte out
+temp out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+temp out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName temp byte out
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp out
+temp out SimpleName MethodInvocation SimpleName write utf
+temp out SimpleName MethodInvocation SimpleName marker
+write utf SimpleName MethodInvocation SimpleName marker
+temp byte out SimpleName MethodInvocation SimpleName to byte array
+bytes to put back SimpleName VariableDeclarationFragment MethodInvocation SimpleName temp byte out
+bytes to put back SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes to put back
+params SimpleName MethodInvocation SimpleName get encrypted input stream
+pushback input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+pushback input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+pushback input stream SimpleName SimpleType ClassInstanceCreation QualifiedName bytes to put backlength
+params SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytes to put backlength
+get encrypted input stream SimpleName MethodInvocation ClassInstanceCreation QualifiedName bytes to put backlength
+pushback stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pushback input stream
+pushback stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName params
+pushback stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+pushback stream SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName bytes to put backlength
+pushback input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pushback stream
+pushback stream SimpleName MethodInvocation SimpleName unread
+pushback stream SimpleName MethodInvocation SimpleName bytes to put back
+unread SimpleName MethodInvocation SimpleName bytes to put back
+params SimpleName MethodInvocation SimpleName set plaintext input stream
+params SimpleName MethodInvocation SimpleName pushback stream
+set plaintext input stream SimpleName MethodInvocation SimpleName pushback stream
+validate params object SimpleName MethodInvocation SimpleName params
+validate params object SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+params SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+all params ok SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate params object
+all params ok SimpleName VariableDeclarationFragment MethodInvocation SimpleName params
+all params ok SimpleName VariableDeclarationFragment MethodInvocation QualifiedName cipherdecrypt mode
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName all params ok
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName validate params object
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName params
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName cipherdecrypt mode
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral crypto module parameters object failed validation for decrypt
+error SimpleName MethodInvocation StringLiteral crypto module parameters object failed validation for decrypt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral crypto module parameters object failed validation for decrypt
+get cipher transformation SimpleName MethodInvocation SimpleName params
+default crypto module utils SimpleName MethodInvocation SimpleName get cipher
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName get cipher transformation
+default crypto module utils SimpleName MethodInvocation MethodInvocation SimpleName params
+get cipher SimpleName MethodInvocation MethodInvocation SimpleName get cipher transformation
+get cipher SimpleName MethodInvocation MethodInvocation SimpleName params
+cipher SimpleName VariableDeclarationFragment MethodInvocation SimpleName default crypto module utils
+cipher SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cipher
+cipher SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cipher transformation
+cipher SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName params
+cipher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cipher
+params SimpleName MethodInvocation SimpleName get plaintext key
+params SimpleName MethodInvocation SimpleName get algorithm name
+secret key spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+secret key spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get plaintext key
+secret key spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+secret key spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+params SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+params SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+get plaintext key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+get plaintext key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+params SimpleName MethodInvocation SimpleName get initialization vector
+iv parameter spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+iv parameter spec SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get initialization vector
+cipher SimpleName MethodInvocation SimpleName init
+cipher SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+cipher SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secret key spec
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get plaintext key
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+cipher SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iv parameter spec
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get initialization vector
+init SimpleName MethodInvocation QualifiedName cipherdecrypt mode
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName secret key spec
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get plaintext key
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+init SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iv parameter spec
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+init SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get initialization vector
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName secret key spec
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get plaintext key
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get algorithm name
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName iv parameter spec
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipherdecrypt mode QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get initialization vector
+invalid key exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error when trying to initialize cipher with secret key
+error SimpleName MethodInvocation StringLiteral error when trying to initialize cipher with secret key
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+invalid algorithm parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error when trying to initialize cipher with initialization vector
+error SimpleName MethodInvocation StringLiteral error when trying to initialize cipher with initialization vector
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+params SimpleName MethodInvocation SimpleName get encrypted input stream
+cipher input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+cipher input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+cipher input stream SimpleName SimpleType ClassInstanceCreation SimpleName cipher
+params SimpleName MethodInvocation ClassInstanceCreation SimpleName cipher
+get encrypted input stream SimpleName MethodInvocation ClassInstanceCreation SimpleName cipher
+blocked decrypting input stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cipher input stream
+blocked decrypting input stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName params
+blocked decrypting input stream SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get encrypted input stream
+blocked decrypting input stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cipher
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName blocked decrypting input stream
+params SimpleName MethodInvocation SimpleName get block stream size
+params SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get block stream size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cipher SimpleName MethodInvocation SimpleName get block size
+params SimpleName MethodInvocation SimpleName get block stream size
+blocked input stream SimpleName SimpleType ClassInstanceCreation SimpleName blocked decrypting input stream
+blocked input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cipher
+blocked input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get block size
+blocked input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName params
+blocked input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get block stream size
+blocked decrypting input stream SimpleName ClassInstanceCreation MethodInvocation SimpleName cipher
+blocked decrypting input stream SimpleName ClassInstanceCreation MethodInvocation SimpleName get block size
+blocked decrypting input stream SimpleName ClassInstanceCreation MethodInvocation SimpleName params
+blocked decrypting input stream SimpleName ClassInstanceCreation MethodInvocation SimpleName get block stream size
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+cipher SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get block stream size
+get block size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName params
+get block size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get block stream size
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation SimpleType SimpleName blocked input stream
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation SimpleName blocked decrypting input stream
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName cipher
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get block size
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName params
+blocked decrypting input stream SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get block stream size
+get cipher transformation SimpleName MethodInvocation SimpleName params
+initialized cipher input stream with transformation [ StringLiteral InfixExpression MethodInvocation SimpleName get cipher transformation
+initialized cipher input stream with transformation [ StringLiteral InfixExpression MethodInvocation SimpleName params
+initialized cipher input stream with transformation [ StringLiteral InfixExpression StringLiteral ]
+get cipher transformation SimpleName MethodInvocation InfixExpression StringLiteral ]
+params SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral initialized cipher input stream with transformation [
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cipher transformation
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName params
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+trace SimpleName MethodInvocation InfixExpression StringLiteral initialized cipher input stream with transformation [
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cipher transformation
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName params
+trace SimpleName MethodInvocation InfixExpression StringLiteral ]
+params SimpleName MethodInvocation SimpleName set plaintext input stream
+params SimpleName MethodInvocation SimpleName blocked decrypting input stream
+set plaintext input stream SimpleName MethodInvocation SimpleName blocked decrypting input stream
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName crypto module parameters
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get decrypting input stream
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName params
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName crypto module parameters
+public Modifier MethodDeclaration SimpleName get decrypting input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crypto module parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName params
+crypto module parameters SimpleName SimpleType MethodDeclaration SimpleName get decrypting input stream
+crypto module parameters SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+crypto module parameters SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get decrypting input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crypto module parameters
+get decrypting input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+get decrypting input stream SimpleName MethodDeclaration SimpleType SimpleName io exception
+get decrypting input stream SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get decrypting input stream SimpleName MethodDeclaration Block ReturnStatement SimpleName params
+params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName crypto module parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleName get decrypting input stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName crypto module parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get decrypting input stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

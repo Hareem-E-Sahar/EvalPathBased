@@ -1,0 +1,71 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification defs
+atlas classification def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName classification defs
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> atlas classification def store v update
+log SimpleName MethodInvocation SimpleName classification defs
+debug SimpleName MethodInvocation StringLiteral ==> atlas classification def store v update
+debug SimpleName MethodInvocation SimpleName classification defs
+==> atlas classification def store v update StringLiteral MethodInvocation SimpleName classification defs
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification def
+atlas classification def SimpleName SimpleType SingleVariableDeclaration SimpleName classification def
+classification def SimpleName MethodInvocation SimpleName get name
+update by name SimpleName MethodInvocation MethodInvocation SimpleName classification def
+update by name SimpleName MethodInvocation MethodInvocation SimpleName get name
+update by name SimpleName MethodInvocation SimpleName classification def
+classification def SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get name SimpleName MethodInvocation MethodInvocation SimpleName classification def
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName update by name
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification def
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification def
+add SimpleName MethodInvocation MethodInvocation SimpleName update by name
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification def
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName classification def
+atlas classification def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classification defs
+classification def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classification defs
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== atlas classification def store v update {}
+log SimpleName MethodInvocation SimpleName classification defs
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== atlas classification def store v update {}
+debug SimpleName MethodInvocation SimpleName classification defs
+debug SimpleName MethodInvocation SimpleName ret
+<== atlas classification def store v update {} StringLiteral MethodInvocation SimpleName classification defs
+<== atlas classification def store v update {} StringLiteral MethodInvocation SimpleName ret
+classification defs SimpleName MethodInvocation SimpleName ret
+classification defs SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification def
+public Modifier MethodDeclaration SimpleName update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName classification defs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update
+atlas classification def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName update
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration Block EnhancedForStatement SimpleName classification defs
+update SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification defs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

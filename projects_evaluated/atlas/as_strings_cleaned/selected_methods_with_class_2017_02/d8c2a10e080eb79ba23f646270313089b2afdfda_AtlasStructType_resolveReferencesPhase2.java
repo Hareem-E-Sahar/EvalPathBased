@@ -1,0 +1,66 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+resolve references phase SimpleName SuperMethodInvocation SimpleName type registry
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas constraint def
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+atlas constraint def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+foreign key attributes SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get key
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+get attribute SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+e SimpleName MethodInvocation SimpleName get value
+constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+atlas constraint def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName constraint
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attribute type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute type
+attribute type SimpleName InstanceofExpression SimpleType SimpleName atlas entity type
+atlas entity type SimpleName SimpleType CastExpression SimpleName attribute type
+attribute type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName add foreign key reference
+attribute type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName attribute
+attribute type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName constraint
+add foreign key reference SimpleName MethodInvocation SimpleName attribute
+add foreign key reference SimpleName MethodInvocation SimpleName constraint
+attribute SimpleName MethodInvocation SimpleName constraint
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName foreign key attributes
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references phase
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resolve references phase
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName resolve references phase
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references phase SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references phase SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references phase SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references phase
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references phase
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

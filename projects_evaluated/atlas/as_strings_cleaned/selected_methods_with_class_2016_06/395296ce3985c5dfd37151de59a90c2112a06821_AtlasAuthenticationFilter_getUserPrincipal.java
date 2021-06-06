@@ -1,0 +1,18 @@
+auth token SimpleName InfixExpression QualifiedName authentication tokenanonymous
+auth token SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName auth token
+authentication tokenanonymous QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName auth token
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName principal
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get user principal
+public Modifier MethodDeclaration SimpleType SimpleName principal
+public Modifier MethodDeclaration SimpleName get user principal
+principal SimpleName SimpleType MethodDeclaration SimpleName get user principal
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName principal
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user principal
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName principal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user principal

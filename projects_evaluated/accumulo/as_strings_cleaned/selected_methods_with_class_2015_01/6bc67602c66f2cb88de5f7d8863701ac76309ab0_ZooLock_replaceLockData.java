@@ -1,0 +1,55 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+zoo keeper SimpleName MethodInvocation SimpleName get zoo keeper
+zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName set data
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName set data
+zoo keeper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock path
+get zoo keeper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock path
+zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName b
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName b
+zoo keeper SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+get zoo keeper SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+set data SimpleName MethodInvocation MethodInvocation SimpleName get lock path
+set data SimpleName MethodInvocation SimpleName b
+set data SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+get lock path SimpleName MethodInvocation MethodInvocation SimpleName b
+get lock path SimpleName MethodInvocation MethodInvocation PrefixExpression NumberLiteral empty
+b SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName replace lock data
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration SimpleType SimpleName keeper exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName replace lock data
+synchronized Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+synchronized Modifier MethodDeclaration SimpleType SimpleName keeper exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName replace lock data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+replace lock data SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+replace lock data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+replace lock data SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+replace lock data SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+b SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+b SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace lock data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace lock data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

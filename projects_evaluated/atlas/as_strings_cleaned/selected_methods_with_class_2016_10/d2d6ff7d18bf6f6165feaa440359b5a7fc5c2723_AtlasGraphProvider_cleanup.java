@@ -1,0 +1,22 @@
+get graph database SimpleName MethodInvocation MethodInvocation SimpleName cleanup
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName cleanup
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cleanup
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName cleanup
+void PrimitiveType MethodDeclaration SimpleName cleanup
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleanup
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleanup

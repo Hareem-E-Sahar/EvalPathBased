@@ -1,0 +1,56 @@
+int PrimitiveType SingleVariableDeclaration SimpleName count
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName pointers
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName pointers copy
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName pointers
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName pointers copy
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName count
+pointers SimpleName MethodInvocation NumberLiteral empty
+pointers SimpleName MethodInvocation SimpleName pointers copy
+pointers SimpleName MethodInvocation NumberLiteral empty
+pointers SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName pointers copy
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName count
+pointers copy SimpleName MethodInvocation NumberLiteral empty
+pointers copy SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName count
+merge sort SimpleName MethodInvocation SimpleName merge sort
+merge sort SimpleName MethodInvocation SimpleName pointers copy
+merge sort SimpleName MethodInvocation SimpleName pointers
+merge sort SimpleName MethodInvocation NumberLiteral empty
+merge sort SimpleName MethodInvocation SimpleName count
+merge sort SimpleName MethodInvocation SimpleName pointers copy
+merge sort SimpleName MethodInvocation SimpleName pointers
+merge sort SimpleName MethodInvocation NumberLiteral empty
+merge sort SimpleName MethodInvocation SimpleName count
+pointers copy SimpleName MethodInvocation SimpleName pointers
+pointers copy SimpleName MethodInvocation NumberLiteral empty
+pointers copy SimpleName MethodInvocation SimpleName count
+pointers SimpleName MethodInvocation NumberLiteral empty
+pointers SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName count
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName sort
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName count
+void PrimitiveType MethodDeclaration SimpleName sort
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName count
+sort SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sort SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sort
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sort
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count

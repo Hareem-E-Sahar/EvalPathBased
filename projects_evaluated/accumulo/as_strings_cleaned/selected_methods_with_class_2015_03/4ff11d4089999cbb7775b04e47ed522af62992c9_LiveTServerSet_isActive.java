@@ -1,0 +1,56 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName conf
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation SimpleName conf
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+address SimpleName MethodInvocation SimpleName conf
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation SimpleName is active
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation SimpleName tid
+is active SimpleName MethodInvocation MethodInvocation SimpleName tracer
+is active SimpleName MethodInvocation MethodInvocation SimpleName trace info
+is active SimpleName MethodInvocation SimpleName tid
+tracer SimpleName MethodInvocation MethodInvocation SimpleName tid
+trace info SimpleName MethodInvocation MethodInvocation SimpleName tid
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is active
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+boolean PrimitiveType MethodDeclaration SimpleName is active
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+is active SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+is active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+is active SimpleName MethodDeclaration SimpleType SimpleName t exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,114 @@
+table operations SimpleName SimpleType SingleVariableDeclaration SimpleName tops
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected value
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tops SimpleName MethodInvocation SimpleName get properties
+tops SimpleName MethodInvocation SimpleName table name
+get properties SimpleName MethodInvocation SimpleName table name
+entry SimpleName MethodInvocation SimpleName get key
+expected key SimpleName MethodInvocation SimpleName equals
+expected key SimpleName MethodInvocation MethodInvocation SimpleName entry
+expected key SimpleName MethodInvocation MethodInvocation SimpleName get key
+equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation SimpleName expected value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+expected value SimpleName MethodInvocation MethodInvocation SimpleName entry
+expected value SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tops
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table name
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+failed to find expected property on StringLiteral InfixExpression SimpleName table name
+failed to find expected property on StringLiteral InfixExpression StringLiteral :
+failed to find expected property on StringLiteral InfixExpression SimpleName expected key
+failed to find expected property on StringLiteral InfixExpression StringLiteral =
+failed to find expected property on StringLiteral InfixExpression SimpleName expected value
+table name SimpleName InfixExpression StringLiteral :
+table name SimpleName InfixExpression SimpleName expected key
+table name SimpleName InfixExpression StringLiteral =
+table name SimpleName InfixExpression SimpleName expected value
+: StringLiteral InfixExpression SimpleName expected key
+: StringLiteral InfixExpression StringLiteral =
+: StringLiteral InfixExpression SimpleName expected value
+expected key SimpleName InfixExpression StringLiteral =
+expected key SimpleName InfixExpression SimpleName expected value
+= StringLiteral InfixExpression SimpleName expected value
+fail SimpleName MethodInvocation InfixExpression StringLiteral failed to find expected property on
+fail SimpleName MethodInvocation InfixExpression SimpleName table name
+fail SimpleName MethodInvocation InfixExpression StringLiteral :
+fail SimpleName MethodInvocation InfixExpression SimpleName expected key
+fail SimpleName MethodInvocation InfixExpression StringLiteral =
+fail SimpleName MethodInvocation InfixExpression SimpleName expected value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check table for property
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tops
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected key
+void PrimitiveType MethodDeclaration SimpleName check table for property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tops
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected value
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tops
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected key
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check table for property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected value
+check table for property SimpleName MethodDeclaration SimpleType SimpleName exception
+tops SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+tops SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected key
+tops SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+tops SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected key
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+expected key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+expected value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check table for property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tops
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check table for property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tops
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

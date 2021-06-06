@@ -1,0 +1,36 @@
+system SimpleName MethodInvocation SimpleName current time millis
+conf SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+conf SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get time in millis
+system SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertygeneral rpc timeout
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get time in millis
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertygeneral rpc timeout
+timeout SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+timeout SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+timeout SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get time in millis
+timeout SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertygeneral rpc timeout
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName timeout
+current time millis SimpleName MethodInvocation InfixExpression SimpleName timeout
+hold timeout exception SimpleName SimpleType ClassInstanceCreation StringLiteral commits are held
+commit hold SimpleName MethodInvocation SimpleName wait
+commit hold SimpleName MethodInvocation NumberLiteral empty
+wait SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+commit hold SimpleName SynchronizedStatement Block WhileStatement SimpleName hold commits
+long PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName commit hold
+hold commits SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+hold commits SimpleName IfStatement Block SynchronizedStatement SimpleName commit hold
+void PrimitiveType MethodDeclaration SimpleName wait until commits are enabled
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName hold commits
+wait until commits are enabled SimpleName MethodDeclaration Block IfStatement SimpleName hold commits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait until commits are enabled
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait until commits are enabled

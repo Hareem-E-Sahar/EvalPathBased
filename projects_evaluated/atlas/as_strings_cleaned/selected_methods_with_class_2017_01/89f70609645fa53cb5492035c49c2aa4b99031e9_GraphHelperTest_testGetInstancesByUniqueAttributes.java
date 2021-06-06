@@ -1,0 +1,125 @@
+graph helper SimpleName MethodInvocation SimpleName get instance
+helper SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+helper SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+graph helper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName helper
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName get instance
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+ts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+ts SimpleName MethodInvocation SimpleName get data type
+ts SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+ts SimpleName MethodInvocation QualifiedName test utilsdatabase type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation QualifiedName test utilsdatabase type
+class type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName test utilsdatabase type
+db type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+db type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+db type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilsdatabase type
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db type
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+test utils SimpleName MethodInvocation SimpleName create db entity
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName test utils
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName create db entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+create instance SimpleName MethodInvocation SimpleName db
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+convert SimpleName MethodInvocation SimpleName db
+convert SimpleName MethodInvocation SimpleName db type
+db SimpleName MethodInvocation SimpleName db type
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName db type
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instances SimpleName MethodInvocation SimpleName add
+instances SimpleName MethodInvocation SimpleName instance
+add SimpleName MethodInvocation SimpleName instance
+guids SimpleName MethodInvocation SimpleName add
+guids SimpleName MethodInvocation SimpleName guid
+add SimpleName MethodInvocation SimpleName guid
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+helper SimpleName MethodInvocation SimpleName get vertices for instances by unique attribute
+helper SimpleName MethodInvocation SimpleName db type
+helper SimpleName MethodInvocation SimpleName instances
+get vertices for instances by unique attribute SimpleName MethodInvocation SimpleName db type
+get vertices for instances by unique attribute SimpleName MethodInvocation SimpleName instances
+db type SimpleName MethodInvocation SimpleName instances
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName helper
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices for instances by unique attribute
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName db type
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName instances
+instances SimpleName MethodInvocation SimpleName size
+vertices SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName instances
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName vertices
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+instances SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+instances SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+instances SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName instances
+i SimpleName InfixExpression MethodInvocation SimpleName size
+guids SimpleName MethodInvocation SimpleName get
+guids SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName guids
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+vertices SimpleName MethodInvocation SimpleName get
+vertices SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+found vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+found vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+found vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName found vertex
+helper SimpleName MethodInvocation SimpleName get vertex for guid
+helper SimpleName MethodInvocation SimpleName guid
+get vertex for guid SimpleName MethodInvocation SimpleName guid
+expected vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName helper
+expected vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+expected vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected vertex
+assert equals SimpleName MethodInvocation SimpleName found vertex
+assert equals SimpleName MethodInvocation SimpleName expected vertex
+found vertex SimpleName MethodInvocation SimpleName expected vertex
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get instances by unique attributes
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get instances by unique attributes
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get instances by unique attributes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get instances by unique attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get instances by unique attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get instances by unique attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

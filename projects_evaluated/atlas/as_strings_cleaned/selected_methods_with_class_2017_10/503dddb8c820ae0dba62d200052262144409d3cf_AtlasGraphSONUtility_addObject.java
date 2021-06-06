@@ -1,0 +1,136 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName array node
+final Modifier SingleVariableDeclaration SimpleName json list
+array node SimpleName SimpleType SingleVariableDeclaration SimpleName json list
+final Modifier SingleVariableDeclaration SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleName value
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName json node
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName json node
+value SimpleName MethodInvocation SimpleName get class
+boolean SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName boolean
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+long SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName long
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName long
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+integer SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName integer
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+float SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName float
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName float
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+double SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName double
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+byte SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName byte
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName byte
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+short SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName short
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName short
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName get class
+string SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName object node
+object node SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName object node
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName object node
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName array node
+array node SimpleName SimpleType CastExpression SimpleName value
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation CastExpression SimpleType SimpleName array node
+json list SimpleName MethodInvocation CastExpression SimpleName value
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName array node
+add SimpleName MethodInvocation CastExpression SimpleName value
+value SimpleName MethodInvocation SimpleName to string
+json list SimpleName MethodInvocation SimpleName add
+json list SimpleName MethodInvocation MethodInvocation SimpleName value
+json list SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName value
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add object
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName json list
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add object
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName json list
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName add object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName json list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+add object SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName array node
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json list
+add object SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+json list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+json list SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

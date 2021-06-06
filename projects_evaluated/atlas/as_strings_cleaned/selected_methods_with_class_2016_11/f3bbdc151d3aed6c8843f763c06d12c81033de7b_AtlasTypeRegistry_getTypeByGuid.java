@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+type guid map SimpleName MethodInvocation SimpleName get
+type guid map SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type guid map
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+guid SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName guid
+ret SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName guid
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type guid map
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName guid
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName atlas type
+public Modifier MethodDeclaration SimpleName get type by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas type SimpleName SimpleType MethodDeclaration SimpleName get type by guid
+atlas type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get type by guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

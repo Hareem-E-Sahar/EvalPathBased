@@ -1,0 +1,134 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+iterator environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+init SimpleName SuperMethodInvocation SimpleName source
+init SimpleName SuperMethodInvocation SimpleName options
+init SimpleName SuperMethodInvocation SimpleName env
+source SimpleName SuperMethodInvocation SimpleName options
+source SimpleName SuperMethodInvocation SimpleName env
+options SimpleName SuperMethodInvocation SimpleName env
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+parse options SimpleName MethodInvocation SimpleName options
+classes to options SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse options
+classes to options SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName filter
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName filter
+classes to options SimpleName MethodInvocation SimpleName size
+new filters SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName classes to options
+new filters SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+classes to options SimpleName MethodInvocation SimpleName key set
+classes SimpleName VariableDeclarationFragment MethodInvocation SimpleName classes to options
+classes SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filter class
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation SimpleName filter class
+accumulo class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName filter
+load class SimpleName MethodInvocation SimpleName filter class
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName filter
+filter class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName filter
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo class loader
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName load class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter class
+clazz SimpleName MethodInvocation SimpleName new instance
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+classes to options SimpleName MethodInvocation SimpleName get
+classes to options SimpleName MethodInvocation SimpleName filter class
+get SimpleName MethodInvocation SimpleName filter class
+f SimpleName MethodInvocation SimpleName init
+f SimpleName MethodInvocation MethodInvocation SimpleName classes to options
+f SimpleName MethodInvocation MethodInvocation SimpleName get
+f SimpleName MethodInvocation MethodInvocation SimpleName filter class
+init SimpleName MethodInvocation MethodInvocation SimpleName classes to options
+init SimpleName MethodInvocation MethodInvocation SimpleName get
+init SimpleName MethodInvocation MethodInvocation SimpleName filter class
+new filters SimpleName MethodInvocation SimpleName add
+new filters SimpleName MethodInvocation SimpleName f
+add SimpleName MethodInvocation SimpleName f
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName classes
+filter class SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName classes
+filters SimpleName Assignment SimpleName new filters
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+instantiation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName env
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+init SimpleName MethodDeclaration SimpleType SimpleName io exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+source SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+options SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+options SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+env SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

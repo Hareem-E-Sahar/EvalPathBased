@@ -1,0 +1,65 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName glossary category
+atlas glossary category SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName glossary category
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary servicecreate categories
+log SimpleName MethodInvocation SimpleName glossary category
+debug SimpleName MethodInvocation StringLiteral ==> glossary servicecreate categories
+debug SimpleName MethodInvocation SimpleName glossary category
+==> glossary servicecreate categories StringLiteral MethodInvocation SimpleName glossary category
+objects SimpleName MethodInvocation SimpleName is null
+objects SimpleName MethodInvocation SimpleName glossary category
+is null SimpleName MethodInvocation SimpleName glossary category
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral glossary category is nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral glossary category is nullempty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName category
+create category SimpleName MethodInvocation SimpleName category
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName create category
+ret SimpleName MethodInvocation MethodInvocation SimpleName category
+add SimpleName MethodInvocation MethodInvocation SimpleName create category
+add SimpleName MethodInvocation MethodInvocation SimpleName category
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName glossary category
+category SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName glossary category
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary servicecreate categories : {}
+log SimpleName MethodInvocation SimpleName ret
+debug SimpleName MethodInvocation StringLiteral <== glossary servicecreate categories : {}
+debug SimpleName MethodInvocation SimpleName ret
+<== glossary servicecreate categories : {} StringLiteral MethodInvocation SimpleName ret
+debug enabled SimpleName IfStatement Block EnhancedForStatement SimpleName glossary category
+debug enabled SimpleName IfStatement Block IfStatement SimpleName debug enabled
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName ret
+glossary category SimpleName EnhancedForStatement Block IfStatement SimpleName debug enabled
+glossary category SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas glossary category
+public Modifier MethodDeclaration SimpleName create categories
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName glossary category
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create categories
+atlas glossary category SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create categories
+create categories SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+create categories SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+create categories SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+create categories SimpleName MethodDeclaration Block EnhancedForStatement SimpleName glossary category
+create categories SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+create categories SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+glossary category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName create categories
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create categories
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

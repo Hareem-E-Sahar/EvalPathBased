@@ -1,0 +1,46 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName cells
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName prepare row
+table row SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+columns SimpleName MethodInvocation SimpleName size
+cellslength QualifiedName InfixExpression MethodInvocation SimpleName columns
+cellslength QualifiedName InfixExpression MethodInvocation SimpleName size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral argument length not equal to the number of columns
+object SimpleName SimpleType SingleVariableDeclaration SimpleName cell
+row SimpleName MethodInvocation SimpleName add
+row SimpleName MethodInvocation SimpleName cell
+add SimpleName MethodInvocation SimpleName cell
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cells
+cell SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cells
+cells SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName row
+cells SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+cells SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName cell
+add row SimpleName MethodInvocation SimpleName row
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add row
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cells
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName cells
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add row
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cells
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName cells
+void PrimitiveType MethodDeclaration SimpleName add row
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cells
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName cells
+add row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cells
+add row SimpleName MethodDeclaration Block EnhancedForStatement SimpleName cells
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cells
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cells

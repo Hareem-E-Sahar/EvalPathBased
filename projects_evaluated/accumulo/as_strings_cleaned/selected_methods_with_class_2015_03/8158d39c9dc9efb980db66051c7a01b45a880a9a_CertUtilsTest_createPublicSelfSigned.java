@@ -1,0 +1,134 @@
+cert utils SimpleName VariableDeclarationFragment MethodInvocation SimpleName get utils
+cert utils SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cert utils
+folder SimpleName MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName folder
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation StringLiteral rootjks
+folder SimpleName MethodInvocation ClassInstanceCreation StringLiteral rootjks
+get root SimpleName MethodInvocation ClassInstanceCreation StringLiteral rootjks
+root key store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+root key store file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName folder
+root key store file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get root
+root key store file SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral rootjks
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root key store file
+cert utils SimpleName MethodInvocation SimpleName create self signed cert
+cert utils SimpleName MethodInvocation SimpleName root key store file
+cert utils SimpleName MethodInvocation StringLiteral test
+cert utils SimpleName MethodInvocation SimpleName password
+create self signed cert SimpleName MethodInvocation SimpleName root key store file
+create self signed cert SimpleName MethodInvocation StringLiteral test
+create self signed cert SimpleName MethodInvocation SimpleName password
+root key store file SimpleName MethodInvocation StringLiteral test
+root key store file SimpleName MethodInvocation SimpleName password
+test StringLiteral MethodInvocation SimpleName password
+folder SimpleName MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName folder
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root
+file SimpleName SimpleType ClassInstanceCreation StringLiteral publicjks
+folder SimpleName MethodInvocation ClassInstanceCreation StringLiteral publicjks
+get root SimpleName MethodInvocation ClassInstanceCreation StringLiteral publicjks
+public key store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+public key store file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName folder
+public key store file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get root
+public key store file SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral publicjks
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName public key store file
+root key store file SimpleName MethodInvocation SimpleName get absolute path
+cert utils SimpleName MethodInvocation SimpleName create public cert
+cert utils SimpleName MethodInvocation SimpleName public key store file
+cert utils SimpleName MethodInvocation StringLiteral test
+cert utils SimpleName MethodInvocation MethodInvocation SimpleName root key store file
+cert utils SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+cert utils SimpleName MethodInvocation SimpleName password
+create public cert SimpleName MethodInvocation SimpleName public key store file
+create public cert SimpleName MethodInvocation StringLiteral test
+create public cert SimpleName MethodInvocation MethodInvocation SimpleName root key store file
+create public cert SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+create public cert SimpleName MethodInvocation SimpleName password
+create public cert SimpleName MethodInvocation StringLiteral empty
+public key store file SimpleName MethodInvocation StringLiteral test
+public key store file SimpleName MethodInvocation MethodInvocation SimpleName root key store file
+public key store file SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+public key store file SimpleName MethodInvocation SimpleName password
+public key store file SimpleName MethodInvocation StringLiteral empty
+test StringLiteral MethodInvocation MethodInvocation SimpleName root key store file
+test StringLiteral MethodInvocation MethodInvocation SimpleName get absolute path
+test StringLiteral MethodInvocation SimpleName password
+test StringLiteral MethodInvocation StringLiteral empty
+root key store file SimpleName MethodInvocation MethodInvocation SimpleName password
+get absolute path SimpleName MethodInvocation MethodInvocation SimpleName password
+root key store file SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get absolute path SimpleName MethodInvocation MethodInvocation StringLiteral empty
+password SimpleName MethodInvocation StringLiteral empty
+key store SimpleName MethodInvocation SimpleName get instance
+key store SimpleName MethodInvocation SimpleName keystore type
+get instance SimpleName MethodInvocation SimpleName keystore type
+key store SimpleName VariableDeclarationFragment MethodInvocation SimpleName key store
+key store SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+key store SimpleName VariableDeclarationFragment MethodInvocation SimpleName keystore type
+key store SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key store
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName public key store file
+fis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file input stream
+fis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName public key store file
+file input stream SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName fis
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+key store SimpleName MethodInvocation SimpleName load
+key store SimpleName MethodInvocation SimpleName fis
+key store SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType char
+key store SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+load SimpleName MethodInvocation SimpleName fis
+load SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType char
+load SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+fis SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType char
+fis SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+cert utils SimpleName MethodInvocation SimpleName find private key
+cert utils SimpleName MethodInvocation SimpleName key store
+cert utils SimpleName MethodInvocation SimpleName password chars
+find private key SimpleName MethodInvocation SimpleName key store
+find private key SimpleName MethodInvocation SimpleName password chars
+key store SimpleName MethodInvocation SimpleName password chars
+fail SimpleName MethodInvocation StringLiteral expected not to find private key in keystore
+key store exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+e SimpleName MethodInvocation MethodInvocation SimpleName contains
+get message SimpleName MethodInvocation MethodInvocation SimpleName contains
+e SimpleName MethodInvocation MethodInvocation StringLiteral private key
+get message SimpleName MethodInvocation MethodInvocation StringLiteral private key
+contains SimpleName MethodInvocation StringLiteral private key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral private key
+cert utils SimpleName MethodInvocation SimpleName find cert
+cert utils SimpleName MethodInvocation SimpleName key store
+find cert SimpleName MethodInvocation SimpleName key store
+cert SimpleName VariableDeclarationFragment MethodInvocation SimpleName cert utils
+cert SimpleName VariableDeclarationFragment MethodInvocation SimpleName find cert
+cert SimpleName VariableDeclarationFragment MethodInvocation SimpleName key store
+certificate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cert
+cert SimpleName MethodInvocation SimpleName get public key
+cert SimpleName MethodInvocation SimpleName verify
+cert SimpleName MethodInvocation MethodInvocation SimpleName cert
+cert SimpleName MethodInvocation MethodInvocation SimpleName get public key
+verify SimpleName MethodInvocation MethodInvocation SimpleName cert
+verify SimpleName MethodInvocation MethodInvocation SimpleName get public key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName create public self signed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create public self signed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName create public self signed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create public self signed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create public self signed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create public self signed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

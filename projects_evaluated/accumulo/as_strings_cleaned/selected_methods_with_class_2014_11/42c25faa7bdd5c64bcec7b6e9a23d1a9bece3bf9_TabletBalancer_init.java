@@ -1,0 +1,22 @@
+server configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+server configuration factory SimpleName SimpleType CastExpression SimpleName conf
+init SimpleName MethodInvocation CastExpression SimpleType SimpleName server configuration factory
+init SimpleName MethodInvocation CastExpression SimpleName conf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName server configuration
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

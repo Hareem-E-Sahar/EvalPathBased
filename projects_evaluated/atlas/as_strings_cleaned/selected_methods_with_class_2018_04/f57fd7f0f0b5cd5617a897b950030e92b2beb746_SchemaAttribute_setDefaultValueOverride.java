@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName default value override
+default value override SimpleName FieldAccess Assignment SimpleName default value override
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set default value override
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default value override
+void PrimitiveType MethodDeclaration SimpleName set default value override
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default value override
+set default value override SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set default value override SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value override
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default value override
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default value override
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value override

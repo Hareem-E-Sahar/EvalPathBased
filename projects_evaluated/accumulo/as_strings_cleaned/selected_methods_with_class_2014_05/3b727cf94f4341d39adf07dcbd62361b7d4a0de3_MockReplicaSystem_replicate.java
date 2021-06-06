@@ -1,0 +1,125 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName p
+status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new status
+status SimpleName MethodInvocation SimpleName get closed
+status SimpleName MethodInvocation SimpleName get infinite end
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get infinite end
+get closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName status
+get closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get infinite end
+status SimpleName MethodInvocation SimpleName new builder
+status SimpleName MethodInvocation SimpleName status
+new builder SimpleName MethodInvocation SimpleName status
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName status
+statusbuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+status SimpleName MethodInvocation SimpleName get infinite end
+builder SimpleName MethodInvocation SimpleName set begin
+builder SimpleName MethodInvocation QualifiedName longmax value
+set begin SimpleName MethodInvocation QualifiedName longmax value
+status SimpleName MethodInvocation SimpleName get end
+builder SimpleName MethodInvocation SimpleName set begin
+builder SimpleName MethodInvocation MethodInvocation SimpleName status
+builder SimpleName MethodInvocation MethodInvocation SimpleName get end
+set begin SimpleName MethodInvocation MethodInvocation SimpleName status
+set begin SimpleName MethodInvocation MethodInvocation SimpleName get end
+builder SimpleName MethodInvocation SimpleName build
+new status SimpleName Assignment MethodInvocation SimpleName builder
+new status SimpleName Assignment MethodInvocation SimpleName build
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral {} with status {} is not closed and with infinite length ignoring
+info SimpleName MethodInvocation StringLiteral {} with status {} is not closed and with infinite length ignoring
+new status SimpleName Assignment SimpleName status
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName sleep
+sleep SimpleName MethodInvocation SimpleName sleep
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral interrupted while sleeping will report no progress
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral interrupted while sleeping will report no progress
+error SimpleName MethodInvocation SimpleName e
+interrupted while sleeping will report no progress StringLiteral MethodInvocation SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+text format SimpleName MethodInvocation SimpleName short debug string
+text format SimpleName MethodInvocation SimpleName status
+short debug string SimpleName MethodInvocation SimpleName status
+text format SimpleName MethodInvocation SimpleName short debug string
+text format SimpleName MethodInvocation SimpleName new status
+short debug string SimpleName MethodInvocation SimpleName new status
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral received {} returned {}
+log SimpleName MethodInvocation MethodInvocation SimpleName text format
+log SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+log SimpleName MethodInvocation MethodInvocation SimpleName status
+log SimpleName MethodInvocation MethodInvocation SimpleName text format
+log SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+log SimpleName MethodInvocation MethodInvocation SimpleName new status
+info SimpleName MethodInvocation StringLiteral received {} returned {}
+info SimpleName MethodInvocation MethodInvocation SimpleName text format
+info SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+info SimpleName MethodInvocation MethodInvocation SimpleName status
+info SimpleName MethodInvocation MethodInvocation SimpleName text format
+info SimpleName MethodInvocation MethodInvocation SimpleName short debug string
+info SimpleName MethodInvocation MethodInvocation SimpleName new status
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName text format
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName short debug string
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName status
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName text format
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName short debug string
+received {} returned {} StringLiteral MethodInvocation MethodInvocation SimpleName new status
+text format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text format
+text format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName short debug string
+text format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new status
+short debug string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text format
+short debug string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName short debug string
+short debug string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new status
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName text format
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName short debug string
+status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new status
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName status
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName replicate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName p
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier MethodDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName replicate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SimpleType MethodDeclaration SimpleName replicate
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName status
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName status
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+replicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+replicate SimpleName MethodDeclaration Block ReturnStatement SimpleName new status
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+status SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName replicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

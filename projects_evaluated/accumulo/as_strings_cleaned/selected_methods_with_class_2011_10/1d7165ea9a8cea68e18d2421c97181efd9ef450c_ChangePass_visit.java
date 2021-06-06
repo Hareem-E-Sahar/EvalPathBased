@@ -1,0 +1,270 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral target
+get property SimpleName MethodInvocation StringLiteral target
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+target SimpleName VariableDeclarationFragment MethodInvocation StringLiteral target
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral source
+get property SimpleName MethodInvocation StringLiteral source
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+source SimpleName VariableDeclarationFragment MethodInvocation StringLiteral source
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source user
+source SimpleName MethodInvocation SimpleName equals
+source SimpleName MethodInvocation StringLiteral system
+equals SimpleName MethodInvocation StringLiteral system
+security helper SimpleName MethodInvocation SimpleName get system connector
+security helper SimpleName MethodInvocation SimpleName state
+get system connector SimpleName MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation SimpleName security helper
+conn SimpleName Assignment MethodInvocation SimpleName get system connector
+conn SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation SimpleName state
+get sys user name SimpleName MethodInvocation SimpleName state
+source user SimpleName Assignment MethodInvocation SimpleName security helper
+source user SimpleName Assignment MethodInvocation SimpleName get sys user name
+source user SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation SimpleName state
+source user SimpleName Assignment MethodInvocation SimpleName security helper
+source user SimpleName Assignment MethodInvocation SimpleName get tab user name
+source user SimpleName Assignment MethodInvocation SimpleName state
+state SimpleName MethodInvocation SimpleName get instance
+security helper SimpleName MethodInvocation SimpleName get tab user pass
+security helper SimpleName MethodInvocation SimpleName state
+get tab user pass SimpleName MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName source user
+get instance SimpleName MethodInvocation MethodInvocation SimpleName source user
+get connector SimpleName MethodInvocation SimpleName source user
+get connector SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName security helper
+get connector SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName get tab user pass
+get connector SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName state
+source user SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName security helper
+source user SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName get tab user pass
+source user SimpleName MethodInvocation ParenthesizedExpression MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName state
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName source user
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+ae SimpleName MethodInvocation SimpleName get error code
+ae SimpleName MethodInvocation MethodInvocation SimpleName equals
+get error code SimpleName MethodInvocation MethodInvocation SimpleName equals
+ae SimpleName MethodInvocation MethodInvocation QualifiedName security error codebad credentials
+get error code SimpleName MethodInvocation MethodInvocation QualifiedName security error codebad credentials
+equals SimpleName MethodInvocation QualifiedName security error codebad credentials
+security helper SimpleName MethodInvocation SimpleName get tab user exists
+security helper SimpleName MethodInvocation SimpleName state
+get tab user exists SimpleName MethodInvocation SimpleName state
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral got a security exception when the user should have existed
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+got a security exception when the user should have existed StringLiteral ClassInstanceCreation SimpleName ae
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral unexpected exception
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+unexpected exception StringLiteral ClassInstanceCreation SimpleName ae
+has perm SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has perm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+source SimpleName MethodInvocation SimpleName equals
+source SimpleName MethodInvocation SimpleName target
+equals SimpleName MethodInvocation SimpleName target
+security helper SimpleName MethodInvocation SimpleName get sys perm
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName source user
+security helper SimpleName MethodInvocation QualifiedName system permissionalter user
+get sys perm SimpleName MethodInvocation SimpleName state
+get sys perm SimpleName MethodInvocation SimpleName source user
+get sys perm SimpleName MethodInvocation QualifiedName system permissionalter user
+state SimpleName MethodInvocation SimpleName source user
+state SimpleName MethodInvocation QualifiedName system permissionalter user
+source user SimpleName MethodInvocation QualifiedName system permissionalter user
+has perm SimpleName Assignment MethodInvocation SimpleName security helper
+has perm SimpleName Assignment MethodInvocation SimpleName get sys perm
+has perm SimpleName Assignment MethodInvocation SimpleName state
+has perm SimpleName Assignment MethodInvocation SimpleName source user
+has perm SimpleName Assignment MethodInvocation QualifiedName system permissionalter user
+target exists SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName target exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+target system SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName target system
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+target SimpleName MethodInvocation SimpleName equals
+target SimpleName MethodInvocation StringLiteral table
+equals SimpleName MethodInvocation StringLiteral table
+target system SimpleName Assignment BooleanLiteral false
+security helper SimpleName MethodInvocation SimpleName get tab user exists
+security helper SimpleName MethodInvocation SimpleName state
+get tab user exists SimpleName MethodInvocation SimpleName state
+target exists SimpleName Assignment BooleanLiteral false
+security helper SimpleName MethodInvocation SimpleName get tab user name
+security helper SimpleName MethodInvocation SimpleName state
+get tab user name SimpleName MethodInvocation SimpleName state
+target SimpleName Assignment MethodInvocation SimpleName security helper
+target SimpleName Assignment MethodInvocation SimpleName get tab user name
+target SimpleName Assignment MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName get sys user name
+security helper SimpleName MethodInvocation SimpleName state
+get sys user name SimpleName MethodInvocation SimpleName state
+target SimpleName Assignment MethodInvocation SimpleName security helper
+target SimpleName Assignment MethodInvocation SimpleName get sys user name
+target SimpleName Assignment MethodInvocation SimpleName state
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName random
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName next int
+r SimpleName MethodInvocation NumberLiteral empty
+next int SimpleName MethodInvocation NumberLiteral empty
+r SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+new pass SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+new pass SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName new pass
+r SimpleName MethodInvocation SimpleName next bytes
+r SimpleName MethodInvocation SimpleName new pass
+next bytes SimpleName MethodInvocation SimpleName new pass
+big integer SimpleName SimpleType ClassInstanceCreation SimpleName new pass
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName big integer
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName new pass
+big integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+bi SimpleName MethodInvocation SimpleName to string
+bi SimpleName MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation NumberLiteral empty
+bi SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get bytes
+new pass SimpleName Assignment MethodInvocation MethodInvocation SimpleName bi
+new pass SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+new pass SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+new pass SimpleName Assignment MethodInvocation SimpleName get bytes
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName change user password
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user password
+conn SimpleName MethodInvocation MethodInvocation SimpleName target
+security operations SimpleName MethodInvocation MethodInvocation SimpleName target
+conn SimpleName MethodInvocation MethodInvocation SimpleName new pass
+security operations SimpleName MethodInvocation MethodInvocation SimpleName new pass
+change user password SimpleName MethodInvocation SimpleName target
+change user password SimpleName MethodInvocation SimpleName new pass
+target SimpleName MethodInvocation SimpleName new pass
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ae
+ae SimpleName MethodInvocation SimpleName get error code
+change failed when it should have succeeded to change StringLiteral InfixExpression SimpleName target
+change failed when it should have succeeded to change StringLiteral InfixExpression StringLiteral s password
+target SimpleName InfixExpression StringLiteral s password
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral change failed when it should have succeeded to change
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral s password
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+change failed when it should have succeeded to change StringLiteral InfixExpression ClassInstanceCreation SimpleName ae
+target SimpleName InfixExpression ClassInstanceCreation SimpleName ae
+s password StringLiteral InfixExpression ClassInstanceCreation SimpleName ae
+has perm SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+user StringLiteral InfixExpression SimpleName target
+user StringLiteral InfixExpression StringLiteral doesnt exist and they should
+target SimpleName InfixExpression StringLiteral doesnt exist and they should
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral user
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName target
+accumulo exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral doesnt exist and they should
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+user StringLiteral InfixExpression ClassInstanceCreation SimpleName ae
+target SimpleName InfixExpression ClassInstanceCreation SimpleName ae
+doesnt exist and they should StringLiteral InfixExpression ClassInstanceCreation SimpleName ae
+target exists SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName ae
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral got unexpected exception
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName ae
+got unexpected exception StringLiteral ClassInstanceCreation SimpleName ae
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName permission denied
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName permission denied
+ae SimpleName MethodInvocation SwitchStatement IfStatement SimpleName has perm
+get error code SimpleName MethodInvocation SwitchStatement IfStatement SimpleName has perm
+ae SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName user doesnt exist
+get error code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName user doesnt exist
+ae SimpleName MethodInvocation SwitchStatement IfStatement SimpleName target exists
+get error code SimpleName MethodInvocation SwitchStatement IfStatement SimpleName target exists
+permission denied SimpleName SwitchCase SwitchStatement IfStatement SimpleName has perm
+permission denied SimpleName SwitchCase SwitchStatement SwitchCase SimpleName user doesnt exist
+permission denied SimpleName SwitchCase SwitchStatement IfStatement SimpleName target exists
+has perm SimpleName IfStatement SwitchStatement SwitchCase SimpleName user doesnt exist
+has perm SimpleName IfStatement SwitchStatement IfStatement SimpleName target exists
+user doesnt exist SimpleName SwitchCase SwitchStatement IfStatement SimpleName target exists
+security helper SimpleName MethodInvocation SimpleName set sys user pass
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName new pass
+set sys user pass SimpleName MethodInvocation SimpleName state
+set sys user pass SimpleName MethodInvocation SimpleName new pass
+state SimpleName MethodInvocation SimpleName new pass
+security helper SimpleName MethodInvocation SimpleName set tab user pass
+security helper SimpleName MethodInvocation SimpleName state
+security helper SimpleName MethodInvocation SimpleName new pass
+set tab user pass SimpleName MethodInvocation SimpleName state
+set tab user pass SimpleName MethodInvocation SimpleName new pass
+state SimpleName MethodInvocation SimpleName new pass
+target system SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName security helper
+target system SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set tab user pass
+target system SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName state
+target system SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName new pass
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral password change succeeded when it should have failed
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName target system
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+visit SimpleName MethodDeclaration Block IfStatement SimpleName target system
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

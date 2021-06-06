@@ -1,0 +1,89 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+graph helper SimpleName MethodInvocation SimpleName element exists
+graph helper SimpleName MethodInvocation SimpleName edge
+element exists SimpleName MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+reference vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reference vertex
+get id from vertex SimpleName MethodInvocation SimpleName reference vertex
+get id from vertex SimpleName MethodInvocation SimpleName entity vertex
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName reference vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName reference vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity vertex
+reference vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+reference vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity vertex
+edge SimpleName MethodInvocation SimpleName get out vertex
+reference vertex SimpleName Assignment MethodInvocation SimpleName edge
+reference vertex SimpleName Assignment MethodInvocation SimpleName get out vertex
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+get guid SimpleName MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName reference vertex
+get type name SimpleName MethodInvocation SimpleName reference vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reference vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reference vertex
+graph helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+graph helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reference vertex
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reference vertex
+reference vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+reference vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+reference vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reference vertex
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas object id
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName graph helper
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get guid
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName reference vertex
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName graph helper
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName reference vertex
+private Modifier MethodDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SimpleName map related vertex to object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas object id SimpleName SimpleType MethodDeclaration SimpleName map related vertex to object id
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas object id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas object id SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map related vertex to object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+map related vertex to object id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map related vertex to object id SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+public Modifier TypeDeclaration MethodDeclaration SimpleName map related vertex to object id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas object id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map related vertex to object id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

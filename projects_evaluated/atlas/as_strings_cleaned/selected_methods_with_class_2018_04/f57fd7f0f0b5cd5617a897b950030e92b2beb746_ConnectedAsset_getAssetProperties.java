@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName asset guid
+public Modifier MethodDeclaration SimpleType SimpleName asset universe
+public Modifier MethodDeclaration SimpleName get asset properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleName get asset properties
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+asset universe SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset universe SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get asset properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName property server exception
+get asset properties SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+public Modifier TypeDeclaration MethodDeclaration SimpleName get asset properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName asset universe
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get asset properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

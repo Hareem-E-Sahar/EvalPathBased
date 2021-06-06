@@ -1,0 +1,64 @@
+is kerberos authication enabled SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is kerberos authication enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+application properties SimpleName MethodInvocation SimpleName get
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas conf
+atlas conf SimpleName MethodInvocation SimpleName get string
+atlas conf SimpleName MethodInvocation StringLiteral atlashttpauthenticationenabled
+get string SimpleName MethodInvocation StringLiteral atlashttpauthenticationenabled
+true StringLiteral MethodInvocation SimpleName equals ignore case
+true StringLiteral MethodInvocation MethodInvocation SimpleName atlas conf
+true StringLiteral MethodInvocation MethodInvocation SimpleName get string
+true StringLiteral MethodInvocation MethodInvocation StringLiteral atlashttpauthenticationenabled
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName atlas conf
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get string
+equals ignore case SimpleName MethodInvocation MethodInvocation StringLiteral atlashttpauthenticationenabled
+atlas conf SimpleName MethodInvocation SimpleName get string
+atlas conf SimpleName MethodInvocation StringLiteral atlashttpauthenticationtype
+get string SimpleName MethodInvocation StringLiteral atlashttpauthenticationtype
+kerberos StringLiteral MethodInvocation SimpleName equals ignore case
+kerberos StringLiteral MethodInvocation MethodInvocation SimpleName atlas conf
+kerberos StringLiteral MethodInvocation MethodInvocation SimpleName get string
+kerberos StringLiteral MethodInvocation MethodInvocation StringLiteral atlashttpauthenticationtype
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName atlas conf
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get string
+equals ignore case SimpleName MethodInvocation MethodInvocation StringLiteral atlashttpauthenticationtype
+true StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral kerberos
+true StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral kerberos
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals ignore case
+is kerberos authication enabled SimpleName Assignment BooleanLiteral true
+is kerberos authication enabled SimpleName Assignment BooleanLiteral false
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while is kerberos authication enabled
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error while is kerberos authication enabled
+error SimpleName MethodInvocation SimpleName e
+error while is kerberos authication enabled StringLiteral MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is kerberos authication enabled
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is kerberos authication enabled
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is kerberos authication enabled
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is kerberos authication enabled
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName is kerberos authication enabled
+boolean PrimitiveType MethodDeclaration SimpleName is kerberos authication enabled
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is kerberos authication enabled
+is kerberos authication enabled SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is kerberos authication enabled SimpleName MethodDeclaration Block ReturnStatement SimpleName is kerberos authication enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is kerberos authication enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is kerberos authication enabled

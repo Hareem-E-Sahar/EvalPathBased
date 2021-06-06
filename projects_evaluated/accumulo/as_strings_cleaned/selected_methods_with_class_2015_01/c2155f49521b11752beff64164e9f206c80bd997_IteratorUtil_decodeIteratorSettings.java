@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName enc
+tdser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName t deserializer
+t deserializer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdser
+ic SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator config
+iterator config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ic
+tdser SimpleName MethodInvocation SimpleName deserialize
+tdser SimpleName MethodInvocation SimpleName ic
+tdser SimpleName MethodInvocation SimpleName enc
+deserialize SimpleName MethodInvocation SimpleName ic
+deserialize SimpleName MethodInvocation SimpleName enc
+ic SimpleName MethodInvocation SimpleName enc
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+to iterator settings SimpleName MethodInvocation SimpleName ic
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SimpleName decode iterator settings
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator setting
+static Modifier MethodDeclaration SimpleName decode iterator settings
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode iterator settings
+iterator setting SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName decode iterator settings
+decode iterator settings SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode iterator settings SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode iterator settings
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode iterator settings
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc

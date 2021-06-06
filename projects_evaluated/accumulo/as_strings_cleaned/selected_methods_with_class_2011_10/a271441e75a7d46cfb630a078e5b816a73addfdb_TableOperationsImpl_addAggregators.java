@@ -1,0 +1,137 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName aggregators
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName table name
+argument checker SimpleName MethodInvocation SimpleName aggregators
+not null SimpleName MethodInvocation SimpleName table name
+not null SimpleName MethodInvocation SimpleName aggregators
+table name SimpleName MethodInvocation SimpleName aggregators
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+master client SimpleName MethodInvocation SimpleName get connection
+master client SimpleName MethodInvocation SimpleName instance
+get connection SimpleName MethodInvocation SimpleName instance
+client SimpleName Assignment MethodInvocation SimpleName master client
+client SimpleName Assignment MethodInvocation SimpleName get connection
+client SimpleName Assignment MethodInvocation SimpleName instance
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+iterator util SimpleName MethodInvocation SimpleName generate initial table properties
+iterator util SimpleName MethodInvocation SimpleName aggregators
+generate initial table properties SimpleName MethodInvocation SimpleName aggregators
+iterator util SimpleName MethodInvocation MethodInvocation SimpleName entry set
+generate initial table properties SimpleName MethodInvocation MethodInvocation SimpleName entry set
+aggregators SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+client SimpleName MethodInvocation SimpleName set table property
+client SimpleName MethodInvocation SimpleName credentials
+client SimpleName MethodInvocation SimpleName table name
+client SimpleName MethodInvocation MethodInvocation SimpleName entry
+client SimpleName MethodInvocation MethodInvocation SimpleName get key
+set table property SimpleName MethodInvocation SimpleName credentials
+set table property SimpleName MethodInvocation SimpleName table name
+set table property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set table property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set table property SimpleName MethodInvocation MethodInvocation SimpleName entry
+set table property SimpleName MethodInvocation MethodInvocation SimpleName get value
+credentials SimpleName MethodInvocation SimpleName table name
+credentials SimpleName MethodInvocation MethodInvocation SimpleName entry
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get key
+credentials SimpleName MethodInvocation MethodInvocation SimpleName entry
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get value
+table name SimpleName MethodInvocation MethodInvocation SimpleName entry
+table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+table name SimpleName MethodInvocation MethodInvocation SimpleName entry
+table name SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName e
+thrift table operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get type
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName exists
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName exists
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName other
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName other
+exists SimpleName SwitchCase SwitchStatement SwitchCase SimpleName other
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+master client SimpleName MethodInvocation SimpleName close
+master client SimpleName MethodInvocation SimpleName client
+close SimpleName MethodInvocation SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add aggregators
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add aggregators
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName add aggregators
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+add aggregators SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add aggregators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add aggregators SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+add aggregators SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+add aggregators SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+add aggregators SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+aggregators SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+aggregators SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+aggregators SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add aggregators
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add aggregators
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggregators
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

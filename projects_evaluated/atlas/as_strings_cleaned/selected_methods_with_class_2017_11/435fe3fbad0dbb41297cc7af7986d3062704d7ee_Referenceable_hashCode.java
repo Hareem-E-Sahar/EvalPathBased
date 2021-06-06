@@ -1,0 +1,30 @@
+objects SimpleName MethodInvocation SimpleName hash
+objects SimpleName MethodInvocation SimpleName id
+objects SimpleName MethodInvocation SimpleName traits
+objects SimpleName MethodInvocation SimpleName trait names
+objects SimpleName MethodInvocation SimpleName system attributes
+hash SimpleName MethodInvocation SimpleName id
+hash SimpleName MethodInvocation SimpleName traits
+hash SimpleName MethodInvocation SimpleName trait names
+hash SimpleName MethodInvocation SimpleName system attributes
+id SimpleName MethodInvocation SimpleName traits
+id SimpleName MethodInvocation SimpleName trait names
+id SimpleName MethodInvocation SimpleName system attributes
+traits SimpleName MethodInvocation SimpleName trait names
+traits SimpleName MethodInvocation SimpleName system attributes
+trait names SimpleName MethodInvocation SimpleName system attributes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName hash code
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName hash code
+int PrimitiveType MethodDeclaration SimpleName hash code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName hash code
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hash code

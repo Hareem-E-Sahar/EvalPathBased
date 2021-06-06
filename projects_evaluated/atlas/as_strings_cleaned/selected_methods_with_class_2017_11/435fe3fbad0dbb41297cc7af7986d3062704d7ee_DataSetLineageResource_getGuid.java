@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName table name
+is empty SimpleName MethodInvocation SimpleName table name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+lookup attributes SimpleName MethodInvocation SimpleName put
+lookup attributes SimpleName MethodInvocation StringLiteral qualified name
+lookup attributes SimpleName MethodInvocation SimpleName table name
+put SimpleName MethodInvocation StringLiteral qualified name
+put SimpleName MethodInvocation SimpleName table name
+qualified name StringLiteral MethodInvocation SimpleName table name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation StringLiteral hive table
+get entity type by name SimpleName MethodInvocation StringLiteral hive table
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hive table
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+atlas entity store SimpleName MethodInvocation SimpleName get by unique attributes
+atlas entity store SimpleName MethodInvocation SimpleName entity type
+atlas entity store SimpleName MethodInvocation SimpleName lookup attributes
+get by unique attributes SimpleName MethodInvocation SimpleName entity type
+get by unique attributes SimpleName MethodInvocation SimpleName lookup attributes
+entity type SimpleName MethodInvocation SimpleName lookup attributes
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas entity store
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by unique attributes
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+hive table SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup attributes
+atlas entityatlas entity with ext info QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive table
+hive table SimpleName MethodInvocation SimpleName get entity
+hive table SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+atlas error codeinstance not found QualifiedName ClassInstanceCreation SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName get guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get guid SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

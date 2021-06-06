@@ -1,0 +1,111 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classpath
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName env
+pattern SimpleName MethodInvocation SimpleName compile
+pattern SimpleName MethodInvocation StringLiteral azazaz az - ]*
+compile SimpleName MethodInvocation StringLiteral azazaz az - ]*
+env pat SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+env pat SimpleName VariableDeclarationFragment MethodInvocation SimpleName compile
+env pat SimpleName VariableDeclarationFragment MethodInvocation StringLiteral azazaz az - ]*
+pattern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName env pat
+env pat SimpleName MethodInvocation SimpleName matcher
+env pat SimpleName MethodInvocation SimpleName classpath
+matcher SimpleName MethodInvocation SimpleName classpath
+env matcher SimpleName VariableDeclarationFragment MethodInvocation SimpleName env pat
+env matcher SimpleName VariableDeclarationFragment MethodInvocation SimpleName matcher
+env matcher SimpleName VariableDeclarationFragment MethodInvocation SimpleName classpath
+matcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName env matcher
+env matcher SimpleName MethodInvocation SimpleName find
+env matcher SimpleName MethodInvocation NumberLiteral empty
+find SimpleName MethodInvocation NumberLiteral empty
+env matcher SimpleName MethodInvocation SimpleName group
+env matcher SimpleName MethodInvocation MethodInvocation SimpleName substring
+group SimpleName MethodInvocation MethodInvocation SimpleName substring
+env matcher SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+group SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+var name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName env matcher
+var name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName group
+var name SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+var name SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName var name
+env SimpleName MethodInvocation SimpleName get
+env SimpleName MethodInvocation SimpleName var name
+get SimpleName MethodInvocation SimpleName var name
+var value SimpleName VariableDeclarationFragment MethodInvocation SimpleName env
+var value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+var value SimpleName VariableDeclarationFragment MethodInvocation SimpleName var name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName var value
+var value SimpleName Assignment StringLiteral empty
+env matcher SimpleName MethodInvocation SimpleName start
+classpath SimpleName MethodInvocation SimpleName substring
+classpath SimpleName MethodInvocation NumberLiteral empty
+classpath SimpleName MethodInvocation MethodInvocation SimpleName env matcher
+classpath SimpleName MethodInvocation MethodInvocation SimpleName start
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation SimpleName env matcher
+substring SimpleName MethodInvocation MethodInvocation SimpleName start
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName env matcher
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName start
+env matcher SimpleName MethodInvocation SimpleName end
+classpath SimpleName MethodInvocation SimpleName substring
+classpath SimpleName MethodInvocation MethodInvocation SimpleName env matcher
+classpath SimpleName MethodInvocation MethodInvocation SimpleName end
+substring SimpleName MethodInvocation MethodInvocation SimpleName env matcher
+substring SimpleName MethodInvocation MethodInvocation SimpleName end
+classpath SimpleName MethodInvocation InfixExpression SimpleName var value
+substring SimpleName MethodInvocation InfixExpression SimpleName var value
+empty NumberLiteral MethodInvocation InfixExpression SimpleName var value
+env matcher SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName var value
+start SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName var value
+classpath SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName classpath
+classpath SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName classpath
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName classpath
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+var value SimpleName InfixExpression MethodInvocation SimpleName classpath
+var value SimpleName InfixExpression MethodInvocation SimpleName substring
+var value SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName env matcher
+var value SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName end
+classpath SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName var value
+env matcher SimpleName MethodInvocation SimpleName reset
+env matcher SimpleName MethodInvocation SimpleName classpath
+reset SimpleName MethodInvocation SimpleName classpath
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName replace env vars
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classpath
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName replace env vars
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName classpath
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+static Modifier MethodDeclaration Block ReturnStatement SimpleName classpath
+string SimpleName SimpleType MethodDeclaration SimpleName replace env vars
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classpath
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName env
+replace env vars SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+replace env vars SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classpath
+replace env vars SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+replace env vars SimpleName MethodDeclaration Block ReturnStatement SimpleName classpath
+classpath SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace env vars
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classpath
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace env vars
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classpath
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env

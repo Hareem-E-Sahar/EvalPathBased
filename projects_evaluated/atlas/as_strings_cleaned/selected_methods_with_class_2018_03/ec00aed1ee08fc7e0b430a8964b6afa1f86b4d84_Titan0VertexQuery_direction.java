@@ -1,0 +1,37 @@
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+atlas edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName query direction
+titan object factory SimpleName MethodInvocation SimpleName create direction
+titan object factory SimpleName MethodInvocation SimpleName query direction
+create direction SimpleName MethodInvocation SimpleName query direction
+vertex query SimpleName MethodInvocation SimpleName direction
+vertex query SimpleName MethodInvocation MethodInvocation SimpleName titan object factory
+vertex query SimpleName MethodInvocation MethodInvocation SimpleName create direction
+vertex query SimpleName MethodInvocation MethodInvocation SimpleName query direction
+direction SimpleName MethodInvocation MethodInvocation SimpleName titan object factory
+direction SimpleName MethodInvocation MethodInvocation SimpleName create direction
+direction SimpleName MethodInvocation MethodInvocation SimpleName query direction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName direction
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query direction
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex query
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan edge
+public Modifier MethodDeclaration SimpleName direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query direction
+atlas vertex query SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName direction
+titan vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName direction
+titan edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName direction
+direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge direction
+direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query direction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query direction
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query direction

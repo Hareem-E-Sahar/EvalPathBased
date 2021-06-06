@@ -1,0 +1,62 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity with associations
+entity rest SimpleName MethodInvocation SimpleName get by id
+entity rest SimpleName MethodInvocation SimpleName db guid
+get by id SimpleName MethodInvocation SimpleName db guid
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity rest
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by id
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName db guid
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName atlas entity with associations
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity rest
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get by id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName db guid
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+get SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get attributes
+db entity SimpleName MethodInvocation SimpleName get attributes
+test entities rest SimpleName MethodInvocation SimpleName verify attributes
+test entities rest SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+test entities rest SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+test entities rest SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+test entities rest SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+test entities rest SimpleName MethodInvocation MethodInvocation SimpleName db entity
+test entities rest SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+verify attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+verify attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+verify attributes SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+verify attributes SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+verify attributes SimpleName MethodInvocation MethodInvocation SimpleName db entity
+verify attributes SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+get attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db entity
+get attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attributes
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get entity by id
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity by id
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get entity by id
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get entity by id SimpleName MethodDeclaration SimpleType SimpleName exception
+test get entity by id SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity by id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity by id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

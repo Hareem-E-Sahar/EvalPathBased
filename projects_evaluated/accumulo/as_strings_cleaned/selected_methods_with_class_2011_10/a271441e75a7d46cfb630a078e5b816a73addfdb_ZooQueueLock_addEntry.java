@@ -1,0 +1,109 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new path
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName prefix
+/ StringLiteral InfixExpression SimpleName prefix
+zoo SimpleName MethodInvocation SimpleName put ephemeral sequential
+zoo SimpleName MethodInvocation InfixExpression SimpleName path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName prefix
+zoo SimpleName MethodInvocation SimpleName data
+put ephemeral sequential SimpleName MethodInvocation InfixExpression SimpleName path
+put ephemeral sequential SimpleName MethodInvocation InfixExpression StringLiteral /
+put ephemeral sequential SimpleName MethodInvocation InfixExpression SimpleName prefix
+put ephemeral sequential SimpleName MethodInvocation SimpleName data
+path SimpleName InfixExpression MethodInvocation SimpleName data
+/ StringLiteral InfixExpression MethodInvocation SimpleName data
+prefix SimpleName InfixExpression MethodInvocation SimpleName data
+new path SimpleName Assignment MethodInvocation SimpleName zoo
+new path SimpleName Assignment MethodInvocation SimpleName put ephemeral sequential
+new path SimpleName Assignment MethodInvocation InfixExpression SimpleName path
+new path SimpleName Assignment MethodInvocation InfixExpression StringLiteral /
+new path SimpleName Assignment MethodInvocation InfixExpression SimpleName prefix
+new path SimpleName Assignment MethodInvocation SimpleName data
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName prefix
+/ StringLiteral InfixExpression SimpleName prefix
+zoo SimpleName MethodInvocation SimpleName put persistent sequential
+zoo SimpleName MethodInvocation InfixExpression SimpleName path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName prefix
+zoo SimpleName MethodInvocation SimpleName data
+put persistent sequential SimpleName MethodInvocation InfixExpression SimpleName path
+put persistent sequential SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent sequential SimpleName MethodInvocation InfixExpression SimpleName prefix
+put persistent sequential SimpleName MethodInvocation SimpleName data
+path SimpleName InfixExpression MethodInvocation SimpleName data
+/ StringLiteral InfixExpression MethodInvocation SimpleName data
+prefix SimpleName InfixExpression MethodInvocation SimpleName data
+new path SimpleName Assignment MethodInvocation SimpleName zoo
+new path SimpleName Assignment MethodInvocation SimpleName put persistent sequential
+new path SimpleName Assignment MethodInvocation InfixExpression SimpleName path
+new path SimpleName Assignment MethodInvocation InfixExpression StringLiteral /
+new path SimpleName Assignment MethodInvocation InfixExpression SimpleName prefix
+new path SimpleName Assignment MethodInvocation SimpleName data
+new path SimpleName MethodInvocation SimpleName split
+new path SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation StringLiteral /
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName new path
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+partslength QualifiedName InfixExpression NumberLiteral empty
+parts SimpleName ArrayAccess InfixExpression QualifiedName partslength
+parts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+last SimpleName VariableDeclarationFragment ArrayAccess SimpleName parts
+last SimpleName VariableDeclarationFragment ArrayAccess InfixExpression QualifiedName partslength
+last SimpleName VariableDeclarationFragment ArrayAccess InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last
+prefix SimpleName MethodInvocation SimpleName length
+last SimpleName MethodInvocation SimpleName substring
+last SimpleName MethodInvocation MethodInvocation SimpleName prefix
+last SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName last
+long SimpleName MethodInvocation MethodInvocation SimpleName substring
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+parse long SimpleName MethodInvocation MethodInvocation SimpleName last
+parse long SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prefix
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+no node exception SimpleName SimpleType SingleVariableDeclaration SimpleName nne
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName path
+zoo SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+zoo SimpleName MethodInvocation QualifiedName node exists policyskip
+put persistent data SimpleName MethodInvocation SimpleName path
+put persistent data SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyskip
+path SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType byte
+path SimpleName MethodInvocation QualifiedName node exists policyskip
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation QualifiedName node exists policyskip
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add entry
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName add entry
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+long PrimitiveType MethodDeclaration SimpleName add entry
+long PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+add entry SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+add entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

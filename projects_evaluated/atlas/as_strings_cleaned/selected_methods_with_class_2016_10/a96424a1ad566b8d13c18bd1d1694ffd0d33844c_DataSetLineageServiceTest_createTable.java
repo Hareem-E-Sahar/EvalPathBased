@@ -1,0 +1,476 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+int PrimitiveType SingleVariableDeclaration SimpleName num cols
+boolean PrimitiveType SingleVariableDeclaration SimpleName create lineage
+get entity id SimpleName MethodInvocation SimpleName database type
+get entity id SimpleName MethodInvocation StringLiteral name
+get entity id SimpleName MethodInvocation StringLiteral sales
+database type SimpleName MethodInvocation StringLiteral name
+database type SimpleName MethodInvocation StringLiteral sales
+name StringLiteral MethodInvocation StringLiteral sales
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity id
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName database type
+db id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+db id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db id
+id SimpleName SimpleType ClassInstanceCreation SimpleName db id
+id SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+id SimpleName SimpleType ClassInstanceCreation SimpleName database type
+db id SimpleName ClassInstanceCreation NumberLiteral empty
+db id SimpleName ClassInstanceCreation SimpleName database type
+empty NumberLiteral ClassInstanceCreation SimpleName database type
+sales db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName id
+sales db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName db id
+sales db SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+sales db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sales db
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+columns SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array stack
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num cols
+col StringLiteral InfixExpression MethodInvocation SimpleName random
+column SimpleName MethodInvocation InfixExpression StringLiteral col
+column SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral column descr
+col StringLiteral InfixExpression MethodInvocation StringLiteral int
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral int
+col StringLiteral InfixExpression MethodInvocation StringLiteral column descr
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral column descr
+int StringLiteral MethodInvocation StringLiteral column descr
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation MethodInvocation SimpleName column
+columns SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral col
+columns SimpleName MethodInvocation MethodInvocation StringLiteral int
+columns SimpleName MethodInvocation MethodInvocation StringLiteral column descr
+add SimpleName MethodInvocation MethodInvocation SimpleName column
+add SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral col
+add SimpleName MethodInvocation MethodInvocation StringLiteral int
+add SimpleName MethodInvocation MethodInvocation StringLiteral column descr
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num cols
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num cols SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+column SimpleName MethodInvocation StringLiteral time id
+column SimpleName MethodInvocation StringLiteral int
+column SimpleName MethodInvocation StringLiteral time id
+time id StringLiteral MethodInvocation StringLiteral int
+time id StringLiteral MethodInvocation StringLiteral time id
+int StringLiteral MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName column
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral int
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation SimpleName column
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+of SimpleName MethodInvocation MethodInvocation StringLiteral int
+of SimpleName MethodInvocation MethodInvocation StringLiteral time id
+storage descriptor SimpleName MethodInvocation StringLiteral hdfshost appswarehousesales
+storage descriptor SimpleName MethodInvocation StringLiteral text input format
+storage descriptor SimpleName MethodInvocation StringLiteral text output format
+storage descriptor SimpleName MethodInvocation BooleanLiteral true
+storage descriptor SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+storage descriptor SimpleName MethodInvocation MethodInvocation SimpleName of
+storage descriptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName column
+storage descriptor SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+storage descriptor SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+storage descriptor SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+hdfshost appswarehousesales StringLiteral MethodInvocation StringLiteral text input format
+hdfshost appswarehousesales StringLiteral MethodInvocation StringLiteral text output format
+hdfshost appswarehousesales StringLiteral MethodInvocation BooleanLiteral true
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation SimpleName of
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+hdfshost appswarehousesales StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+text input format StringLiteral MethodInvocation StringLiteral text output format
+text input format StringLiteral MethodInvocation BooleanLiteral true
+text input format StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+text input format StringLiteral MethodInvocation MethodInvocation SimpleName of
+text input format StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+text input format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+text input format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+text input format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+text output format StringLiteral MethodInvocation BooleanLiteral true
+text output format StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+text output format StringLiteral MethodInvocation MethodInvocation SimpleName of
+text output format StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+text output format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+text output format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+text output format StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName immutable list
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName of
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName column
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral int
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral time id
+sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage descriptor
+sd SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hdfshost appswarehousesales
+sd SimpleName VariableDeclarationFragment MethodInvocation StringLiteral text input format
+sd SimpleName VariableDeclarationFragment MethodInvocation StringLiteral text output format
+sd SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+sd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+sd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd
+table SimpleName MethodInvocation SimpleName table name
+table SimpleName MethodInvocation StringLiteral test table
+table SimpleName MethodInvocation SimpleName sales db
+table SimpleName MethodInvocation SimpleName sd
+table SimpleName MethodInvocation StringLiteral fetl
+table name SimpleName MethodInvocation StringLiteral test table
+table name SimpleName MethodInvocation SimpleName sales db
+table name SimpleName MethodInvocation SimpleName sd
+table name SimpleName MethodInvocation StringLiteral fetl
+table name SimpleName MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName sales db
+test table StringLiteral MethodInvocation SimpleName sd
+test table StringLiteral MethodInvocation StringLiteral fetl
+test table StringLiteral MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName columns
+sales db SimpleName MethodInvocation SimpleName sd
+sales db SimpleName MethodInvocation StringLiteral fetl
+sales db SimpleName MethodInvocation StringLiteral external
+sales db SimpleName MethodInvocation SimpleName columns
+sd SimpleName MethodInvocation StringLiteral fetl
+sd SimpleName MethodInvocation StringLiteral external
+sd SimpleName MethodInvocation SimpleName columns
+fetl StringLiteral MethodInvocation StringLiteral external
+fetl StringLiteral MethodInvocation SimpleName columns
+external StringLiteral MethodInvocation SimpleName columns
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sd
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fetl
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral external
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+table SimpleName MethodInvocation InfixExpression StringLiteral table
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+table SimpleName MethodInvocation StringLiteral test table
+table SimpleName MethodInvocation SimpleName sales db
+table SimpleName MethodInvocation SimpleName sd
+table SimpleName MethodInvocation StringLiteral fetl
+table StringLiteral InfixExpression MethodInvocation StringLiteral test table
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral test table
+table StringLiteral InfixExpression MethodInvocation SimpleName sales db
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sales db
+table StringLiteral InfixExpression MethodInvocation SimpleName sd
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sd
+table StringLiteral InfixExpression MethodInvocation StringLiteral fetl
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral fetl
+table StringLiteral InfixExpression MethodInvocation StringLiteral external
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName sales db
+test table StringLiteral MethodInvocation SimpleName sd
+test table StringLiteral MethodInvocation StringLiteral fetl
+test table StringLiteral MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName columns
+sales db SimpleName MethodInvocation SimpleName sd
+sales db SimpleName MethodInvocation StringLiteral fetl
+sales db SimpleName MethodInvocation StringLiteral external
+sales db SimpleName MethodInvocation SimpleName columns
+sd SimpleName MethodInvocation StringLiteral fetl
+sd SimpleName MethodInvocation StringLiteral external
+sd SimpleName MethodInvocation SimpleName columns
+fetl StringLiteral MethodInvocation StringLiteral external
+fetl StringLiteral MethodInvocation SimpleName columns
+external StringLiteral MethodInvocation SimpleName columns
+in table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+in table SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral table
+in table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test table
+in table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db
+in table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sd
+in table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fetl
+in table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral external
+in table SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in table
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+table SimpleName MethodInvocation InfixExpression StringLiteral table
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+table SimpleName MethodInvocation StringLiteral test table
+table SimpleName MethodInvocation SimpleName sales db
+table SimpleName MethodInvocation SimpleName sd
+table SimpleName MethodInvocation StringLiteral fetl
+table StringLiteral InfixExpression MethodInvocation StringLiteral test table
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral test table
+table StringLiteral InfixExpression MethodInvocation SimpleName sales db
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sales db
+table StringLiteral InfixExpression MethodInvocation SimpleName sd
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sd
+table StringLiteral InfixExpression MethodInvocation StringLiteral fetl
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral fetl
+table StringLiteral InfixExpression MethodInvocation StringLiteral external
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName sales db
+test table StringLiteral MethodInvocation SimpleName sd
+test table StringLiteral MethodInvocation StringLiteral fetl
+test table StringLiteral MethodInvocation StringLiteral external
+test table StringLiteral MethodInvocation SimpleName columns
+sales db SimpleName MethodInvocation SimpleName sd
+sales db SimpleName MethodInvocation StringLiteral fetl
+sales db SimpleName MethodInvocation StringLiteral external
+sales db SimpleName MethodInvocation SimpleName columns
+sd SimpleName MethodInvocation StringLiteral fetl
+sd SimpleName MethodInvocation StringLiteral external
+sd SimpleName MethodInvocation SimpleName columns
+fetl StringLiteral MethodInvocation StringLiteral external
+fetl StringLiteral MethodInvocation SimpleName columns
+external StringLiteral MethodInvocation SimpleName columns
+out table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+out table SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral table
+out table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test table
+out table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sales db
+out table SimpleName VariableDeclarationFragment MethodInvocation SimpleName sd
+out table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fetl
+out table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral external
+out table SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out table
+process StringLiteral InfixExpression MethodInvocation SimpleName random
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName in table
+of SimpleName MethodInvocation SimpleName in table
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName table
+of SimpleName MethodInvocation SimpleName table
+load process SimpleName MethodInvocation InfixExpression StringLiteral process
+load process SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+load process SimpleName MethodInvocation StringLiteral hive query for monthly summary
+load process SimpleName MethodInvocation StringLiteral tim etl
+load process SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+load process SimpleName MethodInvocation MethodInvocation SimpleName of
+load process SimpleName MethodInvocation MethodInvocation SimpleName in table
+load process SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+load process SimpleName MethodInvocation MethodInvocation SimpleName of
+load process SimpleName MethodInvocation MethodInvocation SimpleName table
+process StringLiteral InfixExpression MethodInvocation StringLiteral hive query for monthly summary
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral hive query for monthly summary
+process StringLiteral InfixExpression MethodInvocation StringLiteral tim etl
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral tim etl
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName immutable list
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName of
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName in table
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName immutable list
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName of
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName table
+process StringLiteral InfixExpression MethodInvocation StringLiteral create table as select
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral create table as select
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral tim etl
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName of
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName in table
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName of
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName table
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral create table as select
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral plan
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName of
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName in table
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName of
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName table
+tim etl StringLiteral MethodInvocation StringLiteral create table as select
+tim etl StringLiteral MethodInvocation StringLiteral plan
+tim etl StringLiteral MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+in table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+in table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+in table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+of SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+in table SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral plan
+of SimpleName MethodInvocation MethodInvocation StringLiteral plan
+in table SimpleName MethodInvocation MethodInvocation StringLiteral plan
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral id
+of SimpleName MethodInvocation MethodInvocation StringLiteral id
+in table SimpleName MethodInvocation MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral graph
+of SimpleName MethodInvocation MethodInvocation StringLiteral graph
+in table SimpleName MethodInvocation MethodInvocation StringLiteral graph
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+of SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+table SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral plan
+of SimpleName MethodInvocation MethodInvocation StringLiteral plan
+table SimpleName MethodInvocation MethodInvocation StringLiteral plan
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral id
+of SimpleName MethodInvocation MethodInvocation StringLiteral id
+table SimpleName MethodInvocation MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral graph
+of SimpleName MethodInvocation MethodInvocation StringLiteral graph
+table SimpleName MethodInvocation MethodInvocation StringLiteral graph
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral etl
+of SimpleName MethodInvocation MethodInvocation StringLiteral etl
+table SimpleName MethodInvocation MethodInvocation StringLiteral etl
+create table as select StringLiteral MethodInvocation StringLiteral plan
+create table as select StringLiteral MethodInvocation StringLiteral id
+create table as select StringLiteral MethodInvocation StringLiteral graph
+create table as select StringLiteral MethodInvocation StringLiteral etl
+plan StringLiteral MethodInvocation StringLiteral id
+plan StringLiteral MethodInvocation StringLiteral graph
+plan StringLiteral MethodInvocation StringLiteral etl
+id StringLiteral MethodInvocation StringLiteral graph
+id StringLiteral MethodInvocation StringLiteral etl
+graph StringLiteral MethodInvocation StringLiteral etl
+process StringLiteral InfixExpression MethodInvocation SimpleName random
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName table
+of SimpleName MethodInvocation SimpleName table
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName out table
+of SimpleName MethodInvocation SimpleName out table
+load process SimpleName MethodInvocation InfixExpression StringLiteral process
+load process SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName random
+load process SimpleName MethodInvocation StringLiteral hive query for monthly summary
+load process SimpleName MethodInvocation StringLiteral tim etl
+load process SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+load process SimpleName MethodInvocation MethodInvocation SimpleName of
+load process SimpleName MethodInvocation MethodInvocation SimpleName table
+load process SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+load process SimpleName MethodInvocation MethodInvocation SimpleName of
+load process SimpleName MethodInvocation MethodInvocation SimpleName out table
+process StringLiteral InfixExpression MethodInvocation StringLiteral hive query for monthly summary
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral hive query for monthly summary
+process StringLiteral InfixExpression MethodInvocation StringLiteral tim etl
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral tim etl
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName immutable list
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName of
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName table
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName immutable list
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName of
+process StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName out table
+process StringLiteral InfixExpression MethodInvocation StringLiteral create table as select
+random SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral create table as select
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral tim etl
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName of
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName table
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName of
+hive query for monthly summary StringLiteral MethodInvocation MethodInvocation SimpleName out table
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral create table as select
+hive query for monthly summary StringLiteral MethodInvocation StringLiteral plan
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName of
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName table
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName of
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName out table
+tim etl StringLiteral MethodInvocation StringLiteral create table as select
+tim etl StringLiteral MethodInvocation StringLiteral plan
+tim etl StringLiteral MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out table
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out table
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName out table
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+of SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+table SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral plan
+of SimpleName MethodInvocation MethodInvocation StringLiteral plan
+table SimpleName MethodInvocation MethodInvocation StringLiteral plan
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral id
+of SimpleName MethodInvocation MethodInvocation StringLiteral id
+table SimpleName MethodInvocation MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral graph
+of SimpleName MethodInvocation MethodInvocation StringLiteral graph
+table SimpleName MethodInvocation MethodInvocation StringLiteral graph
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+of SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+out table SimpleName MethodInvocation MethodInvocation StringLiteral create table as select
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral plan
+of SimpleName MethodInvocation MethodInvocation StringLiteral plan
+out table SimpleName MethodInvocation MethodInvocation StringLiteral plan
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral id
+of SimpleName MethodInvocation MethodInvocation StringLiteral id
+out table SimpleName MethodInvocation MethodInvocation StringLiteral id
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral graph
+of SimpleName MethodInvocation MethodInvocation StringLiteral graph
+out table SimpleName MethodInvocation MethodInvocation StringLiteral graph
+immutable list SimpleName MethodInvocation MethodInvocation StringLiteral etl
+of SimpleName MethodInvocation MethodInvocation StringLiteral etl
+out table SimpleName MethodInvocation MethodInvocation StringLiteral etl
+create table as select StringLiteral MethodInvocation StringLiteral plan
+create table as select StringLiteral MethodInvocation StringLiteral id
+create table as select StringLiteral MethodInvocation StringLiteral graph
+create table as select StringLiteral MethodInvocation StringLiteral etl
+plan StringLiteral MethodInvocation StringLiteral id
+plan StringLiteral MethodInvocation StringLiteral graph
+plan StringLiteral MethodInvocation StringLiteral etl
+id StringLiteral MethodInvocation StringLiteral graph
+id StringLiteral MethodInvocation StringLiteral etl
+graph StringLiteral MethodInvocation StringLiteral etl
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName num cols
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+void PrimitiveType MethodDeclaration SimpleName create table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName num cols
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create table SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num cols
+create table SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+create table SimpleName MethodDeclaration SimpleType SimpleName exception
+create table SimpleName MethodDeclaration Block IfStatement SimpleName create lineage
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num cols
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+num cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+num cols SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+num cols SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+create lineage SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num cols
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num cols
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create lineage
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

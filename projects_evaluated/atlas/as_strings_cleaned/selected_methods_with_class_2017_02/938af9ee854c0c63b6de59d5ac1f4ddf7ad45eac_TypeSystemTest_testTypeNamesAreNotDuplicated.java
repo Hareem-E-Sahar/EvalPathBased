@@ -1,0 +1,131 @@
+type system SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type system
+type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type system
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName get type names by category
+type system SimpleName MethodInvocation QualifiedName data typestype categorytrait
+get type names by category SimpleName MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type names by category
+trait names SimpleName VariableDeclarationFragment MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName MethodInvocation SimpleName size
+num traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait names
+num traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num traits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName trait names
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+dup type test StringLiteral InfixExpression MethodInvocation SimpleName random
+trait name SimpleName VariableDeclarationFragment InfixExpression StringLiteral dup type test
+trait name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+trait type SimpleName SimpleType ClassInstanceCreation SimpleName type system
+trait type SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+trait type SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+type system SimpleName ClassInstanceCreation SimpleName trait name
+type system SimpleName ClassInstanceCreation NumberLiteral empty
+trait name SimpleName ClassInstanceCreation NumberLiteral empty
+trait type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName trait type
+trait type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+trait type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+trait type SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+types added SimpleName MethodInvocation SimpleName put
+types added SimpleName MethodInvocation SimpleName trait name
+types added SimpleName MethodInvocation SimpleName trait type
+put SimpleName MethodInvocation SimpleName trait name
+put SimpleName MethodInvocation SimpleName trait type
+trait name SimpleName MethodInvocation SimpleName trait type
+type system SimpleName MethodInvocation SimpleName commit types
+type system SimpleName MethodInvocation SimpleName types added
+commit types SimpleName MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation SimpleName get type names by category
+type system SimpleName MethodInvocation QualifiedName data typestype categorytrait
+get type names by category SimpleName MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName Assignment MethodInvocation SimpleName type system
+trait names SimpleName Assignment MethodInvocation SimpleName get type names by category
+trait names SimpleName Assignment MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName MethodInvocation SimpleName size
+num traits SimpleName InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression SimpleName num traits
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression SimpleName num traits
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num traits
+trait names SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num traits
+size SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+dup type test StringLiteral InfixExpression MethodInvocation SimpleName random
+trait name SimpleName Assignment InfixExpression StringLiteral dup type test
+trait name SimpleName Assignment InfixExpression MethodInvocation SimpleName random
+trait type SimpleName SimpleType ClassInstanceCreation SimpleName type system
+trait type SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+trait type SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+type system SimpleName ClassInstanceCreation SimpleName trait name
+type system SimpleName ClassInstanceCreation NumberLiteral empty
+trait name SimpleName ClassInstanceCreation NumberLiteral empty
+trait type new SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName trait type
+trait type new SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+trait type new SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+trait type new SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type new
+types added SimpleName MethodInvocation SimpleName put
+types added SimpleName MethodInvocation SimpleName trait name
+types added SimpleName MethodInvocation SimpleName trait type new
+put SimpleName MethodInvocation SimpleName trait name
+put SimpleName MethodInvocation SimpleName trait type new
+trait name SimpleName MethodInvocation SimpleName trait type new
+type system SimpleName MethodInvocation SimpleName commit types
+type system SimpleName MethodInvocation SimpleName types added
+commit types SimpleName MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation SimpleName get type names by category
+type system SimpleName MethodInvocation QualifiedName data typestype categorytrait
+get type names by category SimpleName MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName Assignment MethodInvocation SimpleName type system
+trait names SimpleName Assignment MethodInvocation SimpleName get type names by category
+trait names SimpleName Assignment MethodInvocation QualifiedName data typestype categorytrait
+trait names SimpleName MethodInvocation SimpleName size
+num traits SimpleName InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation InfixExpression SimpleName num traits
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation InfixExpression SimpleName num traits
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num traits
+trait names SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num traits
+size SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test type names are not duplicated
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test type names are not duplicated
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test type names are not duplicated
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test type names are not duplicated SimpleName MethodDeclaration SimpleType SimpleName exception
+test type names are not duplicated SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test type names are not duplicated
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test type names are not duplicated
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

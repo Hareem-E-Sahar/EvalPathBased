@@ -1,0 +1,500 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName collect options
+final Modifier VariableDeclarationStatement SimpleType SimpleName collect options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+collect options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+scan opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner opts
+final Modifier VariableDeclarationStatement SimpleType SimpleName scanner opts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName scan opts
+scanner opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan opts
+collect tablet stats SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName scan opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName scan opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName scan opts
+args SimpleName MethodInvocation SimpleName scan opts
+optscolumns QualifiedName MethodInvocation SimpleName split
+optscolumns QualifiedName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+columns tmp SimpleName Assignment MethodInvocation QualifiedName optscolumns
+columns tmp SimpleName Assignment MethodInvocation SimpleName split
+columns tmp SimpleName Assignment MethodInvocation StringLiteral empty
+columns SimpleName VariableDeclarationFragment SimpleName columns tmp
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName columns
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName columns tmp
+volume manager impl SimpleName MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName volume manager impl
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement SimpleType SimpleName volume manager
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName volume manager impl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+volume manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+opts SimpleName MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+server configuration SimpleName SimpleType ClassInstanceCreation SimpleName instance
+sconf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server configuration
+sconf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName server configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sconf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName instance
+server configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sconf
+tables SimpleName MethodInvocation SimpleName get name to id map
+tables SimpleName MethodInvocation SimpleName instance
+get name to id map SimpleName MethodInvocation SimpleName instance
+opts SimpleName MethodInvocation SimpleName get table name
+tables SimpleName MethodInvocation MethodInvocation SimpleName get
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get
+instance SimpleName MethodInvocation MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get name to id map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+get name to id map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get SimpleName MethodInvocation MethodInvocation SimpleName opts
+get SimpleName MethodInvocation MethodInvocation SimpleName get table name
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tables
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name to id map
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName instance
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+opts SimpleName MethodInvocation SimpleName get table name
+unable to find table named StringLiteral InfixExpression MethodInvocation SimpleName opts
+unable to find table named StringLiteral InfixExpression MethodInvocation SimpleName get table name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to find table named
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opts
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to find table named
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opts
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+opts SimpleName MethodInvocation SimpleName get token
+credentials SimpleName SimpleType ClassInstanceCreation QualifiedName optsprincipal
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get token
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName opts
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName get token
+opts SimpleName MethodInvocation SimpleName get table name
+find tablets SimpleName MethodInvocation PrefixExpression QualifiedName optsselect far tablets
+find tablets SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+find tablets SimpleName MethodInvocation ClassInstanceCreation QualifiedName optsprincipal
+find tablets SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName opts
+find tablets SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get token
+find tablets SimpleName MethodInvocation MethodInvocation SimpleName opts
+find tablets SimpleName MethodInvocation MethodInvocation SimpleName get table name
+find tablets SimpleName MethodInvocation SimpleName instance
+find tablets SimpleName MethodInvocation SimpleName tablet locations
+optsselect far tablets QualifiedName PrefixExpression MethodInvocation ClassInstanceCreation QualifiedName optsprincipal
+optsselect far tablets QualifiedName PrefixExpression MethodInvocation MethodInvocation SimpleName opts
+optsselect far tablets QualifiedName PrefixExpression MethodInvocation MethodInvocation SimpleName get table name
+optsselect far tablets QualifiedName PrefixExpression MethodInvocation SimpleName instance
+optsselect far tablets QualifiedName PrefixExpression MethodInvocation SimpleName tablet locations
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName opts
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get table name
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName instance
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+get token SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tablet locations
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName tablet locations
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tablet locations
+get token SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tablet locations
+opts SimpleName MethodInvocation MethodInvocation SimpleName instance
+get table name SimpleName MethodInvocation MethodInvocation SimpleName instance
+opts SimpleName MethodInvocation MethodInvocation SimpleName tablet locations
+get table name SimpleName MethodInvocation MethodInvocation SimpleName tablet locations
+instance SimpleName MethodInvocation SimpleName tablet locations
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName find tablets
+candidates SimpleName VariableDeclarationFragment MethodInvocation PrefixExpression QualifiedName optsselect far tablets
+candidates SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName optsprincipal
+candidates SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+candidates SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+candidates SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet locations
+candidates SimpleName MethodInvocation SimpleName size
+candidates SimpleName MethodInvocation InfixExpression QualifiedName optsnum threads
+size SimpleName MethodInvocation InfixExpression QualifiedName optsnum threads
+optsselect far tablets QualifiedName ConditionalExpression StringLiteral far
+optsselect far tablets QualifiedName ConditionalExpression StringLiteral local
+far StringLiteral ConditionalExpression StringLiteral local
+error : unable to find StringLiteral InfixExpression QualifiedName optsnum threads
+error : unable to find StringLiteral InfixExpression StringLiteral empty
+error : unable to find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName optsselect far tablets
+error : unable to find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral far
+error : unable to find StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral local
+error : unable to find StringLiteral InfixExpression StringLiteral tablets
+optsnum threads QualifiedName InfixExpression StringLiteral empty
+optsnum threads QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName optsselect far tablets
+optsnum threads QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral far
+optsnum threads QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral local
+optsnum threads QualifiedName InfixExpression StringLiteral tablets
+empty StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName optsselect far tablets
+empty StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral far
+empty StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral local
+empty StringLiteral InfixExpression StringLiteral tablets
+optsselect far tablets QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral tablets
+far StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral tablets
+local StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral tablets
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error : unable to find
+systemerr QualifiedName MethodInvocation InfixExpression QualifiedName optsnum threads
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral tablets
+println SimpleName MethodInvocation InfixExpression StringLiteral error : unable to find
+println SimpleName MethodInvocation InfixExpression QualifiedName optsnum threads
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral tablets
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+select random tablets SimpleName MethodInvocation QualifiedName optsnum threads
+select random tablets SimpleName MethodInvocation SimpleName candidates
+optsnum threads QualifiedName MethodInvocation SimpleName candidates
+tablets to test SimpleName VariableDeclarationFragment MethodInvocation SimpleName select random tablets
+tablets to test SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsnum threads
+tablets to test SimpleName VariableDeclarationFragment MethodInvocation SimpleName candidates
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+opts SimpleName MethodInvocation SimpleName get token
+credentials SimpleName SimpleType ClassInstanceCreation QualifiedName optsprincipal
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get token
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName opts
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName get token
+opts SimpleName MethodInvocation SimpleName get instance
+get tablet files SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName credentials
+get tablet files SimpleName MethodInvocation ClassInstanceCreation QualifiedName optsprincipal
+get tablet files SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName opts
+get tablet files SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get token
+get tablet files SimpleName MethodInvocation MethodInvocation SimpleName opts
+get tablet files SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get tablet files SimpleName MethodInvocation SimpleName table id
+get tablet files SimpleName MethodInvocation SimpleName ke
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName opts
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get instance
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName table id
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table id
+get token SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table id
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ke
+optsprincipal QualifiedName ClassInstanceCreation MethodInvocation SimpleName ke
+opts SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+get token SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+opts SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+opts SimpleName MethodInvocation MethodInvocation SimpleName ke
+get instance SimpleName MethodInvocation MethodInvocation SimpleName ke
+table id SimpleName MethodInvocation SimpleName ke
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tablet files
+files SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName optsprincipal
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+tablet files SimpleName MethodInvocation SimpleName put
+tablet files SimpleName MethodInvocation SimpleName ke
+tablet files SimpleName MethodInvocation SimpleName files
+put SimpleName MethodInvocation SimpleName ke
+put SimpleName MethodInvocation SimpleName files
+ke SimpleName MethodInvocation SimpleName files
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+systemout QualifiedName MethodInvocation SimpleName println
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host address
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host address
+run location : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName inet address
+run location : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get local host
+run location : StringLiteral InfixExpression MethodInvocation SimpleName get host name
+run location : StringLiteral InfixExpression StringLiteral /
+run location : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName inet address
+run location : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get local host
+run location : StringLiteral InfixExpression MethodInvocation SimpleName get host address
+inet address SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get local host SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get host name SimpleName MethodInvocation InfixExpression StringLiteral /
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host address
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName inet address
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get local host
+/ StringLiteral InfixExpression MethodInvocation SimpleName get host address
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral run location :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral /
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get host address
+println SimpleName MethodInvocation InfixExpression StringLiteral run location :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+println SimpleName MethodInvocation InfixExpression StringLiteral /
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host address
+num threads : StringLiteral InfixExpression QualifiedName optsnum threads
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral num threads :
+systemout QualifiedName MethodInvocation InfixExpression QualifiedName optsnum threads
+println SimpleName MethodInvocation InfixExpression StringLiteral num threads :
+println SimpleName MethodInvocation InfixExpression QualifiedName optsnum threads
+opts SimpleName MethodInvocation SimpleName get table name
+table : StringLiteral InfixExpression MethodInvocation SimpleName opts
+table : StringLiteral InfixExpression MethodInvocation SimpleName get table name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral table :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName opts
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+println SimpleName MethodInvocation InfixExpression StringLiteral table :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName opts
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get table name
+table id : StringLiteral InfixExpression SimpleName table id
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral table id :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName table id
+println SimpleName MethodInvocation InfixExpression StringLiteral table id :
+println SimpleName MethodInvocation InfixExpression SimpleName table id
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+ke SimpleName MethodInvocation SimpleName get uuid
+t *** information about tablet StringLiteral InfixExpression MethodInvocation SimpleName ke
+t *** information about tablet StringLiteral InfixExpression MethodInvocation SimpleName get uuid
+t *** information about tablet StringLiteral InfixExpression StringLiteral ***
+ke SimpleName MethodInvocation InfixExpression StringLiteral ***
+get uuid SimpleName MethodInvocation InfixExpression StringLiteral ***
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral t *** information about tablet
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get uuid
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ***
+println SimpleName MethodInvocation InfixExpression StringLiteral t *** information about tablet
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uuid
+println SimpleName MethodInvocation InfixExpression StringLiteral ***
+tablet files SimpleName MethodInvocation SimpleName get
+tablet files SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+tablet files SimpleName MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName size
+ke SimpleName MethodInvocation MethodInvocation SimpleName size
+tt files in tablet : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName tablet files
+tt files in tablet : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+tt files in tablet : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ke
+tt files in tablet : StringLiteral InfixExpression MethodInvocation SimpleName size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral tt files in tablet :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+println SimpleName MethodInvocation InfixExpression StringLiteral tt files in tablet :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+tablet locations SimpleName MethodInvocation SimpleName get
+tablet locations SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+tttablet location : StringLiteral InfixExpression MethodInvocation SimpleName tablet locations
+tttablet location : StringLiteral InfixExpression MethodInvocation SimpleName get
+tttablet location : StringLiteral InfixExpression MethodInvocation SimpleName ke
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral tttablet location :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName tablet locations
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+println SimpleName MethodInvocation InfixExpression StringLiteral tttablet location :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tablet locations
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+tablet files SimpleName MethodInvocation SimpleName get
+tablet files SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+report hdfs block locations SimpleName MethodInvocation MethodInvocation SimpleName tablet files
+report hdfs block locations SimpleName MethodInvocation MethodInvocation SimpleName get
+report hdfs block locations SimpleName MethodInvocation MethodInvocation SimpleName ke
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral n running test n
+println SimpleName MethodInvocation StringLiteral n running test n
+executors SimpleName MethodInvocation SimpleName new fixed thread pool
+executors SimpleName MethodInvocation QualifiedName optsnum threads
+new fixed thread pool SimpleName MethodInvocation QualifiedName optsnum threads
+thread pool SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+thread pool SimpleName VariableDeclarationFragment MethodInvocation SimpleName new fixed thread pool
+thread pool SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsnum threads
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread pool
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName optsiterations
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName test
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName test
+final Modifier SingleVariableDeclaration SimpleType SimpleName key extent
+final Modifier SingleVariableDeclaration SimpleName ke
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+tablet files SimpleName MethodInvocation SimpleName get
+tablet files SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet files
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName file ref
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName files
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tablet files
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ke
+sconf SimpleName MethodInvocation SimpleName get configuration
+read files SimpleName MethodInvocation SimpleName fs
+read files SimpleName MethodInvocation MethodInvocation SimpleName sconf
+read files SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+read files SimpleName MethodInvocation SimpleName files
+read files SimpleName MethodInvocation SimpleName ke
+read files SimpleName MethodInvocation SimpleName columns
+fs SimpleName MethodInvocation MethodInvocation SimpleName sconf
+fs SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+fs SimpleName MethodInvocation SimpleName files
+fs SimpleName MethodInvocation SimpleName ke
+fs SimpleName MethodInvocation SimpleName columns
+sconf SimpleName MethodInvocation MethodInvocation SimpleName files
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName files
+sconf SimpleName MethodInvocation MethodInvocation SimpleName ke
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName ke
+sconf SimpleName MethodInvocation MethodInvocation SimpleName columns
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName columns
+files SimpleName MethodInvocation SimpleName ke
+files SimpleName MethodInvocation SimpleName columns
+ke SimpleName MethodInvocation SimpleName columns
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run test
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run test
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName SimpleType ClassInstanceCreation SimpleName ke
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName run test
+test SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test
+test SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ke
+test SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test
+tests SimpleName MethodInvocation SimpleName add
+tests SimpleName MethodInvocation SimpleName test
+add SimpleName MethodInvocation SimpleName test
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+tablets to test SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+run test SimpleName MethodInvocation StringLiteral read files
+run test SimpleName MethodInvocation SimpleName tests
+run test SimpleName MethodInvocation QualifiedName optsnum threads
+run test SimpleName MethodInvocation SimpleName thread pool
+read files StringLiteral MethodInvocation SimpleName tests
+read files StringLiteral MethodInvocation QualifiedName optsnum threads
+read files StringLiteral MethodInvocation SimpleName thread pool
+tests SimpleName MethodInvocation QualifiedName optsnum threads
+tests SimpleName MethodInvocation SimpleName thread pool
+optsnum threads QualifiedName MethodInvocation SimpleName thread pool
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName optsiterations
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+optsiterations QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName optsiterations
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName test
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName test
+final Modifier SingleVariableDeclaration SimpleType SimpleName key extent
+final Modifier SingleVariableDeclaration SimpleName ke
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+tablet files SimpleName MethodInvocation SimpleName get
+tablet files SimpleName MethodInvocation SimpleName ke
+get SimpleName MethodInvocation SimpleName ke
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet files
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName file ref
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName files
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tablet files
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ke
+read files using iter stack SimpleName MethodInvocation SimpleName fs
+read files using iter stack SimpleName MethodInvocation SimpleName sconf
+read files using iter stack SimpleName MethodInvocation SimpleName files
+read files using iter stack SimpleName MethodInvocation QualifiedName optsauths
+read files using iter stack SimpleName MethodInvocation SimpleName ke
+fs SimpleName MethodInvocation SimpleName sconf
+fs SimpleName MethodInvocation SimpleName files
+fs SimpleName MethodInvocation QualifiedName optsauths
+fs SimpleName MethodInvocation SimpleName ke
+fs SimpleName MethodInvocation SimpleName columns
+sconf SimpleName MethodInvocation SimpleName files
+sconf SimpleName MethodInvocation QualifiedName optsauths
+sconf SimpleName MethodInvocation SimpleName ke
+sconf SimpleName MethodInvocation SimpleName columns
+sconf SimpleName MethodInvocation BooleanLiteral false
+files SimpleName MethodInvocation QualifiedName optsauths
+files SimpleName MethodInvocation SimpleName ke
+files SimpleName MethodInvocation SimpleName columns
+files SimpleName MethodInvocation BooleanLiteral false
+optsauths QualifiedName MethodInvocation SimpleName ke
+optsauths QualifiedName MethodInvocation SimpleName columns
+optsauths QualifiedName MethodInvocation BooleanLiteral false
+ke SimpleName MethodInvocation SimpleName columns
+ke SimpleName MethodInvocation BooleanLiteral false
+columns SimpleName MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run test
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType MethodDeclaration SimpleName run test
+int PrimitiveType MethodDeclaration SimpleType SimpleName exception
+run test SimpleName MethodDeclaration SimpleType SimpleName exception
+test SimpleName SimpleType ClassInstanceCreation SimpleName ke
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+ke SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName run test
+test SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test
+test SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ke
+test SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test
+tests SimpleName MethodInvocation SimpleName add
+tests SimpleName MethodInvocation SimpleName test
+add SimpleName MethodInvocation SimpleName test
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+ke SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets to test
+tablets to test SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+run test SimpleName MethodInvocation StringLiteral read tablet files w system iter stack
+run test SimpleName MethodInvocation SimpleName tests
+run test SimpleName MethodInvocation QualifiedName optsnum threads
+run test SimpleName MethodInvocation SimpleName thread pool

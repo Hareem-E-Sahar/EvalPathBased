@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName description
+description SimpleName FieldAccess Assignment SimpleName description
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set description
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName description
+void PrimitiveType MethodDeclaration SimpleName set description
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName description
+set description SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set description SimpleName MethodDeclaration SingleVariableDeclaration SimpleName description
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set description
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set description
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName description

@@ -1,0 +1,28 @@
+weak reference SimpleName SimpleType ParameterizedType SimpleType SimpleName default file system manager
+weak reference SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vfs instance
+default file system manager SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vfs instance
+vfs instance SimpleName MethodInvocation SimpleName get
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName vfs instance
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+default file system manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+ref SimpleName MethodInvocation SimpleName close
+vfs instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName vfs instances
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName vfs instances
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName close
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName vfs instances
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName vfs instances
+close SimpleName MethodDeclaration Block EnhancedForStatement SimpleName vfs instances
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close

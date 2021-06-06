@@ -1,0 +1,302 @@
+get table names SimpleName MethodInvocation NumberLiteral empty
+table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table names
+table names SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance id
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+get zoo keepers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+table names SimpleName ArrayAccess NumberLiteral empty
+verify volumes used SimpleName MethodInvocation ArrayAccess SimpleName table names
+verify volumes used SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+verify volumes used SimpleName MethodInvocation BooleanLiteral false
+verify volumes used SimpleName MethodInvocation SimpleName v
+verify volumes used SimpleName MethodInvocation SimpleName v
+table names SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+table names SimpleName ArrayAccess MethodInvocation SimpleName v
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName v
+table names SimpleName ArrayAccess MethodInvocation SimpleName v
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName v
+false BooleanLiteral MethodInvocation SimpleName v
+false BooleanLiteral MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+cluster SimpleName MethodInvocation StringLiteral stop all
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName admin
+exec SimpleName MethodInvocation StringLiteral stop all
+admin SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral stop all
+cluster SimpleName MethodInvocation MethodInvocation SimpleName wait for
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+stop all StringLiteral MethodInvocation MethodInvocation SimpleName wait for
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+assert SimpleName MethodInvocation MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral stop all
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+cluster SimpleName MethodInvocation SimpleName stop
+configuration SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get conf dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get conf dir
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+get config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+get conf dir SimpleName MethodInvocation MethodInvocation SimpleName to uri
+get conf dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation StringLiteral accumulositexml
+to uri SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+to string SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+conf SimpleName MethodInvocation SimpleName add resource
+conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+conf SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+add resource SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+add resource SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+add resource SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+file SimpleName SimpleType ClassInstanceCreation SimpleName vol dir base
+file SimpleName SimpleType ClassInstanceCreation StringLiteral v
+vol dir base SimpleName ClassInstanceCreation StringLiteral v
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vol dir base
+v f SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral v
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v f
+v f SimpleName MethodInvocation SimpleName mkdir
+v f SimpleName MethodInvocation SimpleName get absolute path
+file StringLiteral InfixExpression MethodInvocation SimpleName v f
+file StringLiteral InfixExpression MethodInvocation SimpleName get absolute path
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+v SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+propertyinstance volumes QualifiedName MethodInvocation SimpleName get key
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation SimpleName to string
+v SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+v SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+v SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName v
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance volumes
+conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation InfixExpression StringLiteral empty
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation InfixExpression StringLiteral empty
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+conf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance volumes
+set SimpleName MethodInvocation MethodInvocation SimpleName get key
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set SimpleName MethodInvocation InfixExpression StringLiteral empty
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyinstance volumes QualifiedName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+propertyinstance volumes QualifiedName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+cluster SimpleName MethodInvocation SimpleName get config
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get conf dir
+get config SimpleName MethodInvocation MethodInvocation SimpleName get conf dir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral accumulositexml
+cluster SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+get config SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+get conf dir SimpleName MethodInvocation ClassInstanceCreation StringLiteral accumulositexml
+file output stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral accumulositexml
+fos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered output stream
+buffered output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fos
+conf SimpleName MethodInvocation SimpleName write xml
+conf SimpleName MethodInvocation SimpleName fos
+write xml SimpleName MethodInvocation SimpleName fos
+fos SimpleName MethodInvocation SimpleName close
+cluster SimpleName MethodInvocation SimpleName exec
+cluster SimpleName MethodInvocation TypeLiteral SimpleType SimpleName initialize
+cluster SimpleName MethodInvocation StringLiteral addvolumes
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName initialize
+exec SimpleName MethodInvocation StringLiteral addvolumes
+initialize SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral addvolumes
+cluster SimpleName MethodInvocation MethodInvocation SimpleName wait for
+exec SimpleName MethodInvocation MethodInvocation SimpleName wait for
+addvolumes StringLiteral MethodInvocation MethodInvocation SimpleName wait for
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral addvolumes
+assert SimpleName MethodInvocation MethodInvocation SimpleName wait for
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral addvolumes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName wait for
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cluster
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName exec
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral addvolumes
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName wait for
+path SimpleName SimpleType SingleVariableDeclaration SimpleName volume path
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName v
+arrays SimpleName MethodInvocation SimpleName v
+arrays SimpleName MethodInvocation SimpleName v
+as list SimpleName MethodInvocation SimpleName v
+as list SimpleName MethodInvocation SimpleName v
+as list SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+cached configuration SimpleName MethodInvocation SimpleName get instance
+volume path SimpleName MethodInvocation SimpleName get file system
+volume path SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+volume path SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get file system SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get instance
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName volume path
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file system
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cached configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+path SimpleName SimpleType ClassInstanceCreation SimpleName volume path
+path SimpleName SimpleType ClassInstanceCreation StringLiteral accumulo
+volume path SimpleName ClassInstanceCreation StringLiteral accumulo
+vp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+vp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName volume path
+vp SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral accumulo
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vp
+path SimpleName SimpleType ClassInstanceCreation SimpleName vp
+path SimpleName SimpleType ClassInstanceCreation QualifiedName server constantsinstance id dir
+vp SimpleName ClassInstanceCreation QualifiedName server constantsinstance id dir
+vpi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+vpi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vp
+vpi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName server constantsinstance id dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vpi
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName vpi
+list status SimpleName MethodInvocation SimpleName vpi
+iids SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+iids SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+iids SimpleName VariableDeclarationFragment MethodInvocation SimpleName vpi
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName iidslength
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName iidslength
+empty NumberLiteral MethodInvocation QualifiedName iidslength
+iids SimpleName ArrayAccess NumberLiteral empty
+iids SimpleName ArrayAccess MethodInvocation SimpleName get path
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get path
+iids SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get name
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName uuid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+assert SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName uuid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+uuid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+uuid SimpleName MethodInvocation MethodInvocation SimpleName get name
+volume path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName arrays
+volume path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as list
+volume path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+volume path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+volume path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+cluster SimpleName MethodInvocation SimpleName start
+table names SimpleName ArrayAccess NumberLiteral empty
+verify volumes used SimpleName MethodInvocation ArrayAccess SimpleName table names
+verify volumes used SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+verify volumes used SimpleName MethodInvocation BooleanLiteral false
+verify volumes used SimpleName MethodInvocation SimpleName v
+verify volumes used SimpleName MethodInvocation SimpleName v
+verify volumes used SimpleName MethodInvocation SimpleName v
+table names SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+empty NumberLiteral ArrayAccess MethodInvocation BooleanLiteral false
+table names SimpleName ArrayAccess MethodInvocation SimpleName v
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName v
+table names SimpleName ArrayAccess MethodInvocation SimpleName v
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName v
+table names SimpleName ArrayAccess MethodInvocation SimpleName v
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName v
+false BooleanLiteral MethodInvocation SimpleName v
+false BooleanLiteral MethodInvocation SimpleName v
+false BooleanLiteral MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add volumes
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add volumes
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test add volumes
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test add volumes SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add volumes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add volumes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

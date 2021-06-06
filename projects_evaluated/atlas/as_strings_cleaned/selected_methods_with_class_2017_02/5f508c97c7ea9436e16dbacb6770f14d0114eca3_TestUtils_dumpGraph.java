@@ -1,0 +1,75 @@
+atlas graph SimpleName SimpleType ParameterizedType WildcardType ?
+atlas graph SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas graph SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName graph
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName graph
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName graph
+file SimpleName MethodInvocation SimpleName create temp file
+file SimpleName MethodInvocation StringLiteral graph
+file SimpleName MethodInvocation StringLiteral gson
+create temp file SimpleName MethodInvocation StringLiteral graph
+create temp file SimpleName MethodInvocation StringLiteral gson
+graph StringLiteral MethodInvocation StringLiteral gson
+temp file SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+temp file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp file
+temp file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral graph
+temp file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gson
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp file
+temp file SimpleName MethodInvocation SimpleName get path
+temp fileget path = StringLiteral InfixExpression MethodInvocation SimpleName temp file
+temp fileget path = StringLiteral InfixExpression MethodInvocation SimpleName get path
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral temp fileget path =
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName temp file
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+println SimpleName MethodInvocation InfixExpression StringLiteral temp fileget path =
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName temp file
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get path
+graph helper SimpleName MethodInvocation SimpleName dump to log
+graph helper SimpleName MethodInvocation SimpleName graph
+dump to log SimpleName MethodInvocation SimpleName graph
+file output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName os
+file output stream SimpleName SimpleType ClassInstanceCreation SimpleName temp file
+os SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file output stream
+os SimpleName Assignment ClassInstanceCreation SimpleName temp file
+graph SimpleName MethodInvocation SimpleName export to gson
+graph SimpleName MethodInvocation SimpleName os
+export to gson SimpleName MethodInvocation SimpleName os
+os SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+temp file SimpleName MethodInvocation SimpleName get path
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName dump graph
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName dump graph
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName graph
+static Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName dump graph
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName graph
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+dump graph SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+dump graph SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+dump graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName graph
+dump graph SimpleName MethodDeclaration SimpleType SimpleName exception
+graph SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

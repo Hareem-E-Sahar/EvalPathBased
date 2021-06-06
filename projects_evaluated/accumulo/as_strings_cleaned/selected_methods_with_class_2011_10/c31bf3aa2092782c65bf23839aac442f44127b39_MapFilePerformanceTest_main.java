@@ -1,0 +1,426 @@
+final Modifier SingleVariableDeclaration ArrayType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+cached configuration SimpleName MethodInvocation SimpleName get instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName conf
+get SimpleName MethodInvocation SimpleName conf
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName array list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName keys
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+blocksizes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+blocksizes SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName blocksizes
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+empty NumberLiteral ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+num map files SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName num map files
+executors SimpleName MethodInvocation SimpleName new fixed thread pool
+executors SimpleName MethodInvocation NumberLiteral empty
+new fixed thread pool SimpleName MethodInvocation NumberLiteral empty
+tp SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+tp SimpleName VariableDeclarationFragment MethodInvocation SimpleName new fixed thread pool
+tp SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+args SimpleName ArrayAccess NumberLiteral empty
+select random keys SimpleName MethodInvocation ArrayAccess SimpleName args
+select random keys SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+select random keys SimpleName MethodInvocation NumberLiteral .
+select random keys SimpleName MethodInvocation SimpleName keys
+args SimpleName ArrayAccess MethodInvocation NumberLiteral .
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral .
+args SimpleName ArrayAccess MethodInvocation SimpleName keys
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName keys
+. NumberLiteral MethodInvocation SimpleName keys
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+select keys task SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName select keys task
+tp SimpleName MethodInvocation SimpleName submit
+tp SimpleName MethodInvocation SimpleName select keys task
+submit SimpleName MethodInvocation SimpleName select keys task
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName integer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName tests
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName num
+int PrimitiveType SingleVariableDeclaration SimpleName num
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName blocksize
+int PrimitiveType SingleVariableDeclaration SimpleName blocksize
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+thread StringLiteral InfixExpression MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression StringLiteral creating map files blocksize =
+thread StringLiteral InfixExpression SimpleName blocksize
+thread StringLiteral InfixExpression StringLiteral num =
+thread StringLiteral InfixExpression SimpleName num
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral creating map files blocksize =
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral creating map files blocksize =
+get name SimpleName MethodInvocation InfixExpression StringLiteral creating map files blocksize =
+thread SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName blocksize
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName blocksize
+get name SimpleName MethodInvocation InfixExpression SimpleName blocksize
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral num =
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral num =
+get name SimpleName MethodInvocation InfixExpression StringLiteral num =
+thread SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName num
+get name SimpleName MethodInvocation InfixExpression SimpleName num
+creating map files blocksize = StringLiteral InfixExpression SimpleName blocksize
+creating map files blocksize = StringLiteral InfixExpression StringLiteral num =
+creating map files blocksize = StringLiteral InfixExpression SimpleName num
+blocksize SimpleName InfixExpression StringLiteral num =
+blocksize SimpleName InfixExpression SimpleName num
+num = StringLiteral InfixExpression SimpleName num
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral thread
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral creating map files blocksize =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName blocksize
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral num =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName num
+println SimpleName MethodInvocation InfixExpression StringLiteral thread
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral creating map files blocksize =
+println SimpleName MethodInvocation InfixExpression SimpleName blocksize
+println SimpleName MethodInvocation InfixExpression StringLiteral num =
+println SimpleName MethodInvocation InfixExpression SimpleName num
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression StringLiteral /
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral /
+args SimpleName ArrayAccess InfixExpression QualifiedName my map fileextension
+empty NumberLiteral ArrayAccess InfixExpression QualifiedName my map fileextension
+args SimpleName ArrayAccess InfixExpression StringLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral empty
+args SimpleName ArrayAccess InfixExpression SimpleName blocksize
+empty NumberLiteral ArrayAccess InfixExpression SimpleName blocksize
+/ StringLiteral InfixExpression QualifiedName my map fileextension
+/ StringLiteral InfixExpression StringLiteral empty
+/ StringLiteral InfixExpression SimpleName blocksize
+my map fileextension QualifiedName InfixExpression StringLiteral empty
+my map fileextension QualifiedName InfixExpression SimpleName blocksize
+empty StringLiteral InfixExpression SimpleName blocksize
+create map files SimpleName MethodInvocation ArrayAccess SimpleName args
+create map files SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+create map files SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+create map files SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+create map files SimpleName MethodInvocation InfixExpression StringLiteral /
+create map files SimpleName MethodInvocation InfixExpression QualifiedName my map fileextension
+create map files SimpleName MethodInvocation InfixExpression StringLiteral empty
+create map files SimpleName MethodInvocation InfixExpression SimpleName blocksize
+create map files SimpleName MethodInvocation SimpleName blocksize
+create map files SimpleName MethodInvocation SimpleName num
+args SimpleName ArrayAccess MethodInvocation InfixExpression StringLiteral /
+args SimpleName ArrayAccess MethodInvocation InfixExpression QualifiedName my map fileextension
+args SimpleName ArrayAccess MethodInvocation InfixExpression StringLiteral empty
+args SimpleName ArrayAccess MethodInvocation InfixExpression SimpleName blocksize
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression StringLiteral /
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression QualifiedName my map fileextension
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression SimpleName blocksize
+args SimpleName ArrayAccess MethodInvocation SimpleName blocksize
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName blocksize
+args SimpleName ArrayAccess MethodInvocation SimpleName num
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName num
+args SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName blocksize
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName blocksize
+/ StringLiteral InfixExpression MethodInvocation SimpleName blocksize
+my map fileextension QualifiedName InfixExpression MethodInvocation SimpleName blocksize
+empty StringLiteral InfixExpression MethodInvocation SimpleName blocksize
+blocksize SimpleName InfixExpression MethodInvocation SimpleName blocksize
+args SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName num
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName num
+/ StringLiteral InfixExpression MethodInvocation SimpleName num
+my map fileextension QualifiedName InfixExpression MethodInvocation SimpleName num
+empty StringLiteral InfixExpression MethodInvocation SimpleName num
+blocksize SimpleName InfixExpression MethodInvocation SimpleName num
+blocksize SimpleName MethodInvocation SimpleName num
+filenames SimpleName Assignment MethodInvocation SimpleName create map files
+filenames SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+filenames SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+filenames SimpleName Assignment MethodInvocation InfixExpression StringLiteral /
+filenames SimpleName Assignment MethodInvocation InfixExpression QualifiedName my map fileextension
+filenames SimpleName Assignment MethodInvocation InfixExpression StringLiteral empty
+filenames SimpleName Assignment MethodInvocation InfixExpression SimpleName blocksize
+filenames SimpleName Assignment MethodInvocation SimpleName blocksize
+filenames SimpleName Assignment MethodInvocation SimpleName num
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tests SimpleName MethodInvocation SimpleName get
+tests SimpleName MethodInvocation SimpleName num
+get SimpleName MethodInvocation SimpleName num
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName tests
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName num
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tests SimpleName MethodInvocation SimpleName put
+tests SimpleName MethodInvocation SimpleName num
+tests SimpleName MethodInvocation SimpleName map
+put SimpleName MethodInvocation SimpleName num
+put SimpleName MethodInvocation SimpleName map
+num SimpleName MethodInvocation SimpleName map
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName blocksize
+map SimpleName MethodInvocation SimpleName filenames
+put SimpleName MethodInvocation SimpleName blocksize
+put SimpleName MethodInvocation SimpleName filenames
+blocksize SimpleName MethodInvocation SimpleName filenames
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+thread StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+thread StringLiteral InfixExpression MethodInvocation SimpleName get name
+thread StringLiteral InfixExpression StringLiteral finished creating map files
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral finished creating map files
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral finished creating map files
+get name SimpleName MethodInvocation InfixExpression StringLiteral finished creating map files
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral thread
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral finished creating map files
+println SimpleName MethodInvocation InfixExpression StringLiteral thread
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral finished creating map files
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+tp SimpleName MethodInvocation SimpleName execute
+tp SimpleName MethodInvocation SimpleName r
+execute SimpleName MethodInvocation SimpleName r
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName blocksizes
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName blocksizes
+blocksize SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName blocksizes
+final Modifier SingleVariableDeclaration EnhancedForStatement SimpleName num map files
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName num map files
+num SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName num map files
+num map files SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName blocksizes
+tp SimpleName MethodInvocation SimpleName shutdown
+tp SimpleName MethodInvocation SimpleName is terminated
+tp SimpleName MethodInvocation SimpleName await termination
+tp SimpleName MethodInvocation NumberLiteral empty
+tp SimpleName MethodInvocation QualifiedName time unitdays
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unitdays
+empty NumberLiteral MethodInvocation QualifiedName time unitdays
+int PrimitiveType SingleVariableDeclaration SimpleName num
+int PrimitiveType SingleVariableDeclaration SimpleName blocksize
+tests SimpleName MethodInvocation SimpleName get
+tests SimpleName MethodInvocation SimpleName num
+get SimpleName MethodInvocation SimpleName num
+tests SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+num SimpleName MethodInvocation MethodInvocation SimpleName get
+tests SimpleName MethodInvocation MethodInvocation SimpleName blocksize
+get SimpleName MethodInvocation MethodInvocation SimpleName blocksize
+num SimpleName MethodInvocation MethodInvocation SimpleName blocksize
+get SimpleName MethodInvocation SimpleName blocksize
+filenames SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tests
+filenames SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+filenames SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName num
+filenames SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+filenames SimpleName VariableDeclarationFragment MethodInvocation SimpleName blocksize
+len SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName filename
+filename SimpleName InfixExpression StringLiteral /
+filename SimpleName InfixExpression QualifiedName map filedata file name
+/ StringLiteral InfixExpression QualifiedName map filedata file name
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName filename
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral /
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName filename
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+get file status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+get file status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName filename
+get file status SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral /
+get file status SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName map filedata file name
+fs SimpleName MethodInvocation MethodInvocation SimpleName get len
+get file status SimpleName MethodInvocation MethodInvocation SimpleName get len
+len SimpleName Assignment MethodInvocation MethodInvocation SimpleName fs
+len SimpleName Assignment MethodInvocation MethodInvocation SimpleName get file status
+len SimpleName Assignment MethodInvocation SimpleName get len
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName filenames
+filename SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName filenames
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+string SimpleName MethodInvocation SimpleName blocksize
+string SimpleName MethodInvocation SimpleName len
+string SimpleName MethodInvocation SimpleName num
+format SimpleName MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+format SimpleName MethodInvocation SimpleName blocksize
+format SimpleName MethodInvocation SimpleName len
+format SimpleName MethodInvocation SimpleName num
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName blocksize
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName len
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName num
+blocksize SimpleName MethodInvocation SimpleName len
+blocksize SimpleName MethodInvocation SimpleName num
+len SimpleName MethodInvocation SimpleName num
+run test SimpleName MethodInvocation MethodInvocation SimpleName string
+run test SimpleName MethodInvocation MethodInvocation SimpleName format
+run test SimpleName MethodInvocation MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+run test SimpleName MethodInvocation MethodInvocation SimpleName blocksize
+run test SimpleName MethodInvocation MethodInvocation SimpleName len
+run test SimpleName MethodInvocation MethodInvocation SimpleName num
+run test SimpleName MethodInvocation SimpleName filenames
+run test SimpleName MethodInvocation SimpleName keys
+string SimpleName MethodInvocation MethodInvocation SimpleName filenames
+format SimpleName MethodInvocation MethodInvocation SimpleName filenames
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation MethodInvocation SimpleName filenames
+blocksize SimpleName MethodInvocation MethodInvocation SimpleName filenames
+len SimpleName MethodInvocation MethodInvocation SimpleName filenames
+num SimpleName MethodInvocation MethodInvocation SimpleName filenames
+string SimpleName MethodInvocation MethodInvocation SimpleName keys
+format SimpleName MethodInvocation MethodInvocation SimpleName keys
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation MethodInvocation SimpleName keys
+blocksize SimpleName MethodInvocation MethodInvocation SimpleName keys
+len SimpleName MethodInvocation MethodInvocation SimpleName keys
+num SimpleName MethodInvocation MethodInvocation SimpleName keys
+filenames SimpleName MethodInvocation SimpleName keys
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+string SimpleName MethodInvocation SimpleName blocksize
+string SimpleName MethodInvocation SimpleName len
+string SimpleName MethodInvocation SimpleName num
+format SimpleName MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+format SimpleName MethodInvocation SimpleName blocksize
+format SimpleName MethodInvocation SimpleName len
+format SimpleName MethodInvocation SimpleName num
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName blocksize
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName len
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation SimpleName num
+blocksize SimpleName MethodInvocation SimpleName len
+blocksize SimpleName MethodInvocation SimpleName num
+len SimpleName MethodInvocation SimpleName num
+run test SimpleName MethodInvocation MethodInvocation SimpleName string
+run test SimpleName MethodInvocation MethodInvocation SimpleName format
+run test SimpleName MethodInvocation MethodInvocation StringLiteral bs = % d fs = % d nmf = d
+run test SimpleName MethodInvocation MethodInvocation SimpleName blocksize
+run test SimpleName MethodInvocation MethodInvocation SimpleName len
+run test SimpleName MethodInvocation MethodInvocation SimpleName num
+run test SimpleName MethodInvocation SimpleName filenames
+run test SimpleName MethodInvocation SimpleName keys
+string SimpleName MethodInvocation MethodInvocation SimpleName filenames
+format SimpleName MethodInvocation MethodInvocation SimpleName filenames
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation MethodInvocation SimpleName filenames
+blocksize SimpleName MethodInvocation MethodInvocation SimpleName filenames
+len SimpleName MethodInvocation MethodInvocation SimpleName filenames
+num SimpleName MethodInvocation MethodInvocation SimpleName filenames
+string SimpleName MethodInvocation MethodInvocation SimpleName keys
+format SimpleName MethodInvocation MethodInvocation SimpleName keys
+bs = % d fs = % d nmf = d StringLiteral MethodInvocation MethodInvocation SimpleName keys
+blocksize SimpleName MethodInvocation MethodInvocation SimpleName keys
+len SimpleName MethodInvocation MethodInvocation SimpleName keys
+num SimpleName MethodInvocation MethodInvocation SimpleName keys
+filenames SimpleName MethodInvocation SimpleName keys
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName filenames
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName blocksizes
+blocksize SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName blocksizes
+blocksizes SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+blocksizes SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName filenames
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName num map files
+num SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName num map files
+num map files SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName blocksizes
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName num map files
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName num map files
+num map files SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName num map files
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName num map files
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName num map files
+main SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName io exception
+main SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName num map files
+main SimpleName MethodDeclaration Block EnhancedForStatement SimpleName num map files
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

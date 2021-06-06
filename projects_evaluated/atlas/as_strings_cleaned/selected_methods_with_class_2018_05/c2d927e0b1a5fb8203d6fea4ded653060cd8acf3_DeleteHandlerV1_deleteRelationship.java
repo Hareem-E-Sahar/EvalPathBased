@@ -1,0 +1,31 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName edge
+singleton SimpleName MethodInvocation SimpleName edge
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName collections
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName singleton
+delete relationships SimpleName MethodInvocation MethodInvocation SimpleName edge
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete relationship
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+delete relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+delete relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

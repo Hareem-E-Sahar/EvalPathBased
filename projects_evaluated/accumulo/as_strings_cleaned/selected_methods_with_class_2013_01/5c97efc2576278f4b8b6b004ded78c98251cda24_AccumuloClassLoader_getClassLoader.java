@@ -1,0 +1,122 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+urls SimpleName VariableDeclarationFragment MethodInvocation SimpleName find accumulo ur ls
+class loader SimpleName MethodInvocation SimpleName get system class loader
+parent class loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName class loader
+parent class loader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent class loader
+urls SimpleName MethodInvocation SimpleName to string
+create nd tier class loader using ur ls StringLiteral InfixExpression MethodInvocation SimpleName urls
+create nd tier class loader using ur ls StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral create nd tier class loader using ur ls
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName urls
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral create nd tier class loader using ur ls
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName urls
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+urls SimpleName MethodInvocation SimpleName size
+urls SimpleName MethodInvocation SimpleName to array
+urls SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName urls
+urls SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName urls
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+class SimpleName SimpleType ParameterizedType WildcardType ?
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName resolve
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation StringLiteral orgapacheaccumulostartclassloadervfs
+starts with SimpleName MethodInvocation StringLiteral orgapacheaccumulostartclassloadervfs
+class SimpleName SimpleType ParameterizedType WildcardType ?
+find loaded class SimpleName MethodInvocation SimpleName name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName find loaded class
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+find class SimpleName MethodInvocation SimpleName name
+c SimpleName Assignment MethodInvocation SimpleName find class
+c SimpleName Assignment MethodInvocation SimpleName name
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+load class SimpleName SuperMethodInvocation SimpleName name
+load class SimpleName SuperMethodInvocation SimpleName resolve
+name SimpleName SuperMethodInvocation SimpleName resolve
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName load class
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+protected Modifier MethodDeclaration ParameterizedType WildcardType ?
+protected Modifier MethodDeclaration SimpleName load class
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolve
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+synchronized Modifier MethodDeclaration ParameterizedType WildcardType ?
+synchronized Modifier MethodDeclaration SimpleName load class
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolve
+synchronized Modifier MethodDeclaration SimpleType SimpleName class not found exception
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName load class
+? WildcardType ParameterizedType MethodDeclaration SimpleName load class
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName name
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+? WildcardType ParameterizedType MethodDeclaration SingleVariableDeclaration SimpleName resolve
+? WildcardType ParameterizedType MethodDeclaration SimpleType SimpleName class not found exception
+load class SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+load class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+load class SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+load class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolve
+load class SimpleName MethodDeclaration SimpleType SimpleName class not found exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolve
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+resolve SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+url class loader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName urls
+url class loader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+url class loader SimpleName SimpleType ClassInstanceCreation SimpleName parent class loader
+urls SimpleName MethodInvocation ClassInstanceCreation SimpleName parent class loader
+to array SimpleName MethodInvocation ClassInstanceCreation SimpleName parent class loader
+parent class loader SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+parent class loader SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier synchronized
+parent class loader SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName load class
+a class loader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName url class loader
+a class loader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName urls
+a class loader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to array
+a class loader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parent class loader
+url class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a class loader
+classloader SimpleName Assignment SimpleName a class loader
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName class loader
+public Modifier MethodDeclaration SimpleName get class loader
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName class loader
+static Modifier MethodDeclaration SimpleName get class loader
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName classloader
+synchronized Modifier MethodDeclaration SimpleType SimpleName class loader
+synchronized Modifier MethodDeclaration SimpleName get class loader
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName classloader
+class loader SimpleName SimpleType MethodDeclaration SimpleName get class loader
+class loader SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get class loader SimpleName MethodDeclaration SimpleType SimpleName io exception
+get class loader SimpleName MethodDeclaration Block ReturnStatement SimpleName classloader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class loader
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class loader
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

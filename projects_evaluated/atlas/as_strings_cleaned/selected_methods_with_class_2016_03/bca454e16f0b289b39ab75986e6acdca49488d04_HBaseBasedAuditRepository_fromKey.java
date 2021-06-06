@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity audit event
+entity audit event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName key
+is not empty SimpleName MethodInvocation SimpleName key
+key SimpleName MethodInvocation SimpleName split
+key SimpleName MethodInvocation SimpleName field separator
+split SimpleName MethodInvocation SimpleName field separator
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName field separator
+parts SimpleName ArrayAccess NumberLiteral empty
+evententity id QualifiedName Assignment ArrayAccess SimpleName parts
+evententity id QualifiedName Assignment ArrayAccess NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation ArrayAccess SimpleName parts
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+value of SimpleName MethodInvocation ArrayAccess SimpleName parts
+value of SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+eventtimestamp QualifiedName Assignment MethodInvocation SimpleName long
+eventtimestamp QualifiedName Assignment MethodInvocation SimpleName value of
+eventtimestamp QualifiedName Assignment MethodInvocation ArrayAccess SimpleName parts
+eventtimestamp QualifiedName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName entity audit event
+private Modifier MethodDeclaration SimpleName from key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration Block ReturnStatement SimpleName event
+entity audit event SimpleName SimpleType MethodDeclaration SimpleName from key
+entity audit event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+from key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+from key SimpleName MethodDeclaration Block ReturnStatement SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event
+public Modifier TypeDeclaration MethodDeclaration SimpleName from key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity audit event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

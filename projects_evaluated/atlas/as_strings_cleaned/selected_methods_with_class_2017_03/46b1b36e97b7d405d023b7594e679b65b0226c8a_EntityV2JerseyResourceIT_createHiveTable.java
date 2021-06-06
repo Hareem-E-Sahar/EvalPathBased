@@ -1,0 +1,72 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName db instance v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+create hive table instance v SimpleName MethodInvocation SimpleName db instance v
+create hive table instance v SimpleName MethodInvocation SimpleName table name
+db instance v SimpleName MethodInvocation SimpleName table name
+hive table instance v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive table instance v
+hive table instance v SimpleName VariableDeclarationFragment MethodInvocation SimpleName db instance v
+hive table instance v SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive table instance v
+create entity SimpleName MethodInvocation SimpleName hive table instance v
+created header SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+created header SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table instance v
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created header
+assert not null SimpleName MethodInvocation SimpleName created header
+created header SimpleName MethodInvocation SimpleName get guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName created header
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get guid
+created header SimpleName MethodInvocation SimpleName get guid
+hive table instance v SimpleName MethodInvocation SimpleName set guid
+hive table instance v SimpleName MethodInvocation MethodInvocation SimpleName created header
+hive table instance v SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName created header
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+created header SimpleName MethodInvocation SimpleName get guid
+hive table instance v SimpleName MethodInvocation SimpleName get classifications
+atlas client v SimpleName MethodInvocation SimpleName add classifications
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName created header
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName hive table instance v
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName created header
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName hive table instance v
+add classifications SimpleName MethodInvocation MethodInvocation SimpleName get classifications
+created header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table instance v
+created header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classifications
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table instance v
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classifications
+table entity SimpleName Assignment SimpleName hive table instance v
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName create hive table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db instance v
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create hive table
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName db instance v
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create hive table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+create hive table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db instance v
+create hive table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create hive table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create hive table SimpleName MethodDeclaration SimpleType SimpleName exception
+create hive table SimpleName MethodDeclaration Block ReturnStatement SimpleName hive table instance v
+db instance v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+db instance v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hive table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db instance v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hive table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db instance v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

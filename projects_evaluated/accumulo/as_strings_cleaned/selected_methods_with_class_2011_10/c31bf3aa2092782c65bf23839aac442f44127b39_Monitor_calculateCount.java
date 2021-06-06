@@ -1,0 +1,52 @@
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+prev samples SimpleName MethodInvocation SimpleName entry set
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName MethodInvocation SimpleName get value
+prev sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+prev sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName MethodInvocation SimpleName get key
+samples SimpleName MethodInvocation SimpleName get
+samples SimpleName MethodInvocation MethodInvocation SimpleName entry
+samples SimpleName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName samples
+sample SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sample SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+sample SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+sample SimpleName MethodInvocation SimpleName get second
+prev sample SimpleName MethodInvocation SimpleName get second
+sample SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prev sample
+sample SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+get second SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prev sample
+get second SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+count SimpleName Assignment InfixExpression MethodInvocation SimpleName sample
+count SimpleName Assignment InfixExpression MethodInvocation SimpleName get second
+count SimpleName Assignment InfixExpression MethodInvocation SimpleName prev sample
+count SimpleName Assignment InfixExpression MethodInvocation SimpleName get second
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName prev samples
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+long PrimitiveType MethodDeclaration SimpleName calculate count
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName count
+calculate count SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+calculate count SimpleName MethodDeclaration Block ReturnStatement SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName calculate count
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calculate count

@@ -1,0 +1,56 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+class instance SimpleName SimpleType SingleVariableDeclaration SimpleName contained instance
+contained instance SimpleName MethodInvocation SimpleName to referenceable
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName contained instance
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName to referenceable
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+type system SimpleName MethodInvocation SimpleName get instance
+entity SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation MethodInvocation SimpleName get data type
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName entity
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type system
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName convert
+type SimpleName MethodInvocation SimpleName entity
+type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName entity
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+entity SimpleName MethodInvocation QualifiedName multiplicityrequired
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+converted SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+converted SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName converted
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName converted
+add SimpleName MethodInvocation SimpleName converted
+contained instance SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all instances
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i typed referenceable instance
+public Modifier MethodDeclaration SimpleName get typed referencebles
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get typed referencebles
+i typed referenceable instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get typed referencebles
+get typed referencebles SimpleName MethodDeclaration SimpleType SimpleName exception
+get typed referencebles SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get typed referencebles
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get typed referencebles
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

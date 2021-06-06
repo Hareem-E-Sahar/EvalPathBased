@@ -1,0 +1,25 @@
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName tc
+tc SimpleName InfixExpression QualifiedName type categoryprimitive
+tc SimpleName InfixExpression QualifiedName type categoryenum
+tc SimpleName InfixExpression InfixExpression InfixExpression SimpleName tc
+tc SimpleName InfixExpression InfixExpression InfixExpression QualifiedName type categoryenum
+type categoryprimitive QualifiedName InfixExpression InfixExpression InfixExpression SimpleName tc
+type categoryprimitive QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName type categoryenum
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is primitive using type category
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tc
+boolean PrimitiveType MethodDeclaration SimpleName is primitive using type category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tc
+is primitive using type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+is primitive using type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is primitive using type category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tc
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is primitive using type category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tc

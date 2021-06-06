@@ -1,0 +1,77 @@
+security token SimpleName SimpleType SingleVariableDeclaration SimpleName user
+user pass token SimpleName SimpleType CastExpression SimpleName user
+upt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName user pass token
+upt SimpleName VariableDeclarationFragment CastExpression SimpleName user
+user pass token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upt
+upt SimpleName MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation InfixExpression SimpleName user pass
+get principal SimpleName MethodInvocation InfixExpression SimpleName user pass
+upt SimpleName MethodInvocation SimpleName get password
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+state SimpleName MethodInvocation InfixExpression SimpleName user pass
+state SimpleName MethodInvocation MethodInvocation SimpleName upt
+state SimpleName MethodInvocation MethodInvocation SimpleName get password
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+set SimpleName MethodInvocation InfixExpression SimpleName user pass
+set SimpleName MethodInvocation MethodInvocation SimpleName upt
+set SimpleName MethodInvocation MethodInvocation SimpleName get password
+user pass SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName upt
+user pass SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get password
+upt SimpleName MethodInvocation SimpleName get principal
+upt SimpleName MethodInvocation InfixExpression SimpleName user pass
+get principal SimpleName MethodInvocation InfixExpression SimpleName user pass
+upt SimpleName MethodInvocation InfixExpression StringLiteral time
+get principal SimpleName MethodInvocation InfixExpression StringLiteral time
+user pass SimpleName InfixExpression StringLiteral time
+system SimpleName MethodInvocation SimpleName current time millis
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+state SimpleName MethodInvocation InfixExpression SimpleName user pass
+state SimpleName MethodInvocation InfixExpression StringLiteral time
+state SimpleName MethodInvocation MethodInvocation SimpleName system
+state SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upt
+set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+set SimpleName MethodInvocation InfixExpression SimpleName user pass
+set SimpleName MethodInvocation InfixExpression StringLiteral time
+set SimpleName MethodInvocation MethodInvocation SimpleName system
+set SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+user pass SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName system
+user pass SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+time StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName system
+time StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current time millis
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName change password
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName security token
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+change password SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

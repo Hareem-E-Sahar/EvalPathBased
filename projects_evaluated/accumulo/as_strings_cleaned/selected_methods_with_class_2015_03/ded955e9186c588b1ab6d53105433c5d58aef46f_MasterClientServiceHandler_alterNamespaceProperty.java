@@ -1,0 +1,182 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+table operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace id
+master SimpleName MethodInvocation SimpleName get instance
+client service handler SimpleName MethodInvocation SimpleName check namespace id
+client service handler SimpleName MethodInvocation MethodInvocation SimpleName master
+client service handler SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client service handler SimpleName MethodInvocation SimpleName namespace
+client service handler SimpleName MethodInvocation SimpleName op
+check namespace id SimpleName MethodInvocation MethodInvocation SimpleName master
+check namespace id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+check namespace id SimpleName MethodInvocation SimpleName namespace
+check namespace id SimpleName MethodInvocation SimpleName op
+master SimpleName MethodInvocation MethodInvocation SimpleName namespace
+get instance SimpleName MethodInvocation MethodInvocation SimpleName namespace
+master SimpleName MethodInvocation MethodInvocation SimpleName op
+get instance SimpleName MethodInvocation MethodInvocation SimpleName op
+namespace SimpleName MethodInvocation SimpleName op
+namespace id SimpleName Assignment MethodInvocation SimpleName client service handler
+namespace id SimpleName Assignment MethodInvocation SimpleName check namespace id
+namespace id SimpleName Assignment MethodInvocation MethodInvocation SimpleName master
+namespace id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get instance
+namespace id SimpleName Assignment MethodInvocation SimpleName namespace
+namespace id SimpleName Assignment MethodInvocation SimpleName op
+mastersecurity QualifiedName MethodInvocation SimpleName can alter namespace
+mastersecurity QualifiedName MethodInvocation SimpleName c
+mastersecurity QualifiedName MethodInvocation SimpleName namespace id
+can alter namespace SimpleName MethodInvocation SimpleName c
+can alter namespace SimpleName MethodInvocation SimpleName namespace id
+c SimpleName MethodInvocation SimpleName namespace id
+c SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+c SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+namespace prop util SimpleName MethodInvocation SimpleName remove namespace property
+namespace prop util SimpleName MethodInvocation SimpleName namespace id
+namespace prop util SimpleName MethodInvocation SimpleName property
+remove namespace property SimpleName MethodInvocation SimpleName namespace id
+remove namespace property SimpleName MethodInvocation SimpleName property
+namespace id SimpleName MethodInvocation SimpleName property
+namespace prop util SimpleName MethodInvocation SimpleName set namespace property
+namespace prop util SimpleName MethodInvocation SimpleName namespace id
+namespace prop util SimpleName MethodInvocation SimpleName property
+namespace prop util SimpleName MethodInvocation SimpleName value
+set namespace property SimpleName MethodInvocation SimpleName namespace id
+set namespace property SimpleName MethodInvocation SimpleName property
+set namespace property SimpleName MethodInvocation SimpleName value
+namespace id SimpleName MethodInvocation SimpleName property
+namespace id SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+master SimpleName MethodInvocation SimpleName get instance
+client service handler SimpleName MethodInvocation SimpleName check namespace id
+client service handler SimpleName MethodInvocation MethodInvocation SimpleName master
+client service handler SimpleName MethodInvocation MethodInvocation SimpleName get instance
+client service handler SimpleName MethodInvocation SimpleName namespace id
+client service handler SimpleName MethodInvocation SimpleName op
+check namespace id SimpleName MethodInvocation MethodInvocation SimpleName master
+check namespace id SimpleName MethodInvocation MethodInvocation SimpleName get instance
+check namespace id SimpleName MethodInvocation SimpleName namespace id
+check namespace id SimpleName MethodInvocation SimpleName op
+master SimpleName MethodInvocation MethodInvocation SimpleName namespace id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName namespace id
+master SimpleName MethodInvocation MethodInvocation SimpleName op
+get instance SimpleName MethodInvocation MethodInvocation SimpleName op
+namespace id SimpleName MethodInvocation SimpleName op
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral error altering namespace property
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation StringLiteral error altering namespace property
+info SimpleName MethodInvocation SimpleName e
+error altering namespace property StringLiteral MethodInvocation SimpleName e
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName namespace id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName namespace
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName op
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral problem altering namespaceproperty
+namespace id SimpleName ClassInstanceCreation SimpleName namespace
+namespace id SimpleName ClassInstanceCreation SimpleName op
+namespace id SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+namespace id SimpleName ClassInstanceCreation StringLiteral problem altering namespaceproperty
+namespace SimpleName ClassInstanceCreation SimpleName op
+namespace SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+namespace SimpleName ClassInstanceCreation StringLiteral problem altering namespaceproperty
+op SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+op SimpleName ClassInstanceCreation StringLiteral problem altering namespaceproperty
+table operation exception typeother QualifiedName ClassInstanceCreation StringLiteral problem altering namespaceproperty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral problem altering namespace property
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral problem altering namespace property
+error SimpleName MethodInvocation SimpleName e
+problem altering namespace property StringLiteral MethodInvocation SimpleName e
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName namespace id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName namespace
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName op
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral problem altering namespace property
+namespace id SimpleName ClassInstanceCreation SimpleName namespace
+namespace id SimpleName ClassInstanceCreation SimpleName op
+namespace id SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+namespace id SimpleName ClassInstanceCreation StringLiteral problem altering namespace property
+namespace SimpleName ClassInstanceCreation SimpleName op
+namespace SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+namespace SimpleName ClassInstanceCreation StringLiteral problem altering namespace property
+op SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+op SimpleName ClassInstanceCreation StringLiteral problem altering namespace property
+table operation exception typeother QualifiedName ClassInstanceCreation StringLiteral problem altering namespace property
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName alter namespace property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SimpleName alter namespace property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operation
+alter namespace property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName alter namespace property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName alter namespace property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception

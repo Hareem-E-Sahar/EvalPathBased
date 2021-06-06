@@ -1,0 +1,43 @@
+long PrimitiveType SingleVariableDeclaration SimpleName timeout
+time unit SimpleName SimpleType SingleVariableDeclaration SimpleName time unit
+timeout SimpleName InfixExpression NumberLiteral empty
+negative timeout not allowed StringLiteral InfixExpression SimpleName timeout
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral negative timeout not allowed
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName timeout
+timeout SimpleName InfixExpression NumberLiteral empty
+timeout SimpleName Assignment QualifiedName longmax value
+time unit SimpleName MethodInvocation SimpleName to millis
+time unit SimpleName MethodInvocation SimpleName timeout
+to millis SimpleName MethodInvocation SimpleName timeout
+timeout SimpleName FieldAccess Assignment MethodInvocation SimpleName time unit
+timeout SimpleName FieldAccess Assignment MethodInvocation SimpleName to millis
+timeout SimpleName FieldAccess Assignment MethodInvocation SimpleName timeout
+public Modifier MethodDeclaration SimpleType SimpleName batch writer config
+public Modifier MethodDeclaration SimpleName set timeout
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time unit
+batch writer config SimpleName SimpleType MethodDeclaration SimpleName set timeout
+batch writer config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+batch writer config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName timeout
+batch writer config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time unit
+set timeout SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName timeout
+set timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time unit
+set timeout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time unit
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time unit
+timeout SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time unit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName batch writer config
+public Modifier TypeDeclaration MethodDeclaration SimpleName set timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time unit
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName batch writer config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName timeout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time unit

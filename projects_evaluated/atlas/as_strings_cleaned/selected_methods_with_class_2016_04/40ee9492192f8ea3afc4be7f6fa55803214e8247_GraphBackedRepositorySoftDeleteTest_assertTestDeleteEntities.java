@@ -1,0 +1,72 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName expected
+expected SimpleName MethodInvocation SimpleName get id
+expected SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+repository service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get id
+get entity definition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+get entity definition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get id
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation QualifiedName test utilscolumns attr name
+get SimpleName MethodInvocation QualifiedName test utilscolumns attr name
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName test utilscolumns attr name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation QualifiedName test utilscolumns attr name
+get SimpleName MethodInvocation QualifiedName test utilscolumns attr name
+expected columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table
+expected columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+expected columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName test utilscolumns attr name
+columns SimpleName MethodInvocation SimpleName size
+expected columns SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected columns
+columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected columns
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert test delete entities
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName expected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test delete entities
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert test delete entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert test delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+assert test delete entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert test delete entities SimpleName MethodDeclaration SimpleType SimpleName exception
+expected SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test delete entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test delete entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

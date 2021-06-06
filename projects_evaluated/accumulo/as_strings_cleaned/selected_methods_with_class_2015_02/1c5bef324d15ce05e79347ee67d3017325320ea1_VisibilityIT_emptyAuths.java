@@ -1,0 +1,33 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName security operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+security operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+get user authorizations SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+orig auths SimpleName Assignment MethodInvocation MethodInvocation SimpleName c
+orig auths SimpleName Assignment MethodInvocation MethodInvocation SimpleName security operations
+orig auths SimpleName Assignment MethodInvocation SimpleName get user authorizations
+orig auths SimpleName Assignment MethodInvocation MethodInvocation SimpleName get admin principal
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName empty auths
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName empty auths
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName empty auths
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+empty auths SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName empty auths
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName empty auths
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

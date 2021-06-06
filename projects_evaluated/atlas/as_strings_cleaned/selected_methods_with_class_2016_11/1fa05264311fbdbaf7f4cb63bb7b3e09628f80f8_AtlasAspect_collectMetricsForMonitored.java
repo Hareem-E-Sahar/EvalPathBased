@@ -1,0 +1,84 @@
+around SimpleName SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectmonitored && execution *(..))
+proceeding join point SimpleName SimpleType SingleVariableDeclaration SimpleName join point
+join point SimpleName MethodInvocation SimpleName get signature
+method sign SimpleName VariableDeclarationFragment MethodInvocation SimpleName join point
+method sign SimpleName VariableDeclarationFragment MethodInvocation SimpleName get signature
+signature SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method sign
+request context SimpleName MethodInvocation SimpleName get metrics
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName request context
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metrics
+metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+method sign SimpleName MethodInvocation SimpleName get declaring type
+method sign SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get declaring type SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+method sign SimpleName MethodInvocation SimpleName get name
+method sign SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get declaring type SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral .
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method sign
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+. StringLiteral InfixExpression MethodInvocation SimpleName method sign
+. StringLiteral InfixExpression MethodInvocation SimpleName get name
+metric name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get simple name
+metric name SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+metric name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method sign
+metric name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metric name
+system SimpleName MethodInvocation SimpleName current time millis
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+join point SimpleName MethodInvocation SimpleName proceed
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName join point
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName proceed
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start
+metrics SimpleName MethodInvocation SimpleName record
+metrics SimpleName MethodInvocation SimpleName metric name
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName start
+record SimpleName MethodInvocation SimpleName metric name
+record SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName start
+metric name SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName start
+around SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+annotationorgapacheatlasaspectmonitored && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName object
+annotationorgapacheatlasaspectmonitored && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName object
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleName collect metrics for monitored
+annotationorgapacheatlasaspectmonitored && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName collect metrics for monitored
+around SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName join point
+annotationorgapacheatlasaspectmonitored && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName join point
+around SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName throwable
+annotationorgapacheatlasaspectmonitored && execution *(..)) StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName collect metrics for monitored
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName proceeding join point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName join point
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+object SimpleName SimpleType MethodDeclaration SimpleName collect metrics for monitored
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName join point
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+collect metrics for monitored SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName proceeding join point
+collect metrics for monitored SimpleName MethodDeclaration SingleVariableDeclaration SimpleName join point
+collect metrics for monitored SimpleName MethodDeclaration SimpleType SimpleName throwable
+collect metrics for monitored SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+join point SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName around
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectmonitored && execution *(..))
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName collect metrics for monitored
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName join point
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName around
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral annotationorgapacheatlasaspectmonitored && execution *(..))
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName collect metrics for monitored
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName join point
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

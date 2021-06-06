@@ -1,0 +1,116 @@
+cache provider SimpleName MethodInvocation SimpleName clear
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+get SimpleName MethodInvocation SimpleName classtype customer
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName classtype customer
+cache provider SimpleName MethodInvocation SimpleName has
+cache provider SimpleName MethodInvocation SimpleName classtype customer
+has SimpleName MethodInvocation SimpleName classtype customer
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has
+assert false SimpleName MethodInvocation MethodInvocation SimpleName classtype customer
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName structtype address
+get SimpleName MethodInvocation SimpleName structtype address
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName structtype address
+cache provider SimpleName MethodInvocation SimpleName has
+cache provider SimpleName MethodInvocation SimpleName structtype address
+has SimpleName MethodInvocation SimpleName structtype address
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has
+assert false SimpleName MethodInvocation MethodInvocation SimpleName structtype address
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName traittype privileged
+get SimpleName MethodInvocation SimpleName traittype privileged
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName traittype privileged
+cache provider SimpleName MethodInvocation SimpleName has
+cache provider SimpleName MethodInvocation SimpleName traittype privileged
+has SimpleName MethodInvocation SimpleName traittype privileged
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has
+assert false SimpleName MethodInvocation MethodInvocation SimpleName traittype privileged
+cache provider SimpleName MethodInvocation SimpleName get
+cache provider SimpleName MethodInvocation SimpleName enumtype shipping
+get SimpleName MethodInvocation SimpleName enumtype shipping
+assert null SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation SimpleName enumtype shipping
+cache provider SimpleName MethodInvocation SimpleName has
+cache provider SimpleName MethodInvocation SimpleName enumtype shipping
+has SimpleName MethodInvocation SimpleName enumtype shipping
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cache provider
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has
+assert false SimpleName MethodInvocation MethodInvocation SimpleName enumtype shipping
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categoryclass
+get type names SimpleName MethodInvocation QualifiedName type categoryclass
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+type categoryclass QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type names
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categoryclass
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categorystruct
+get type names SimpleName MethodInvocation QualifiedName type categorystruct
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+type categorystruct QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type names
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categorystruct
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categorytrait
+get type names SimpleName MethodInvocation QualifiedName type categorytrait
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+type categorytrait QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type names
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categorytrait
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categoryenum
+get type names SimpleName MethodInvocation QualifiedName type categoryenum
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+type categoryenum QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type names
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categoryenum
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+cache provider SimpleName MethodInvocation SimpleName get all type names
+cache provider SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get all type names SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache provider
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get all type names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cache clear
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cache clear
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cache clear
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cache clear SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cache clear
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cache clear
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

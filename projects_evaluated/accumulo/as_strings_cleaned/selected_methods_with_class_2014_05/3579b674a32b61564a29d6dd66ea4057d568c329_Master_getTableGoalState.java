@@ -1,0 +1,49 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+table manager SimpleName MethodInvocation SimpleName get instance
+extent SimpleName MethodInvocation SimpleName get table id
+extent SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table manager SimpleName MethodInvocation MethodInvocation SimpleName get table state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get table state
+table manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get table state SimpleName MethodInvocation MethodInvocation SimpleName to string
+table state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table manager
+table state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+table state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table state
+table state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table state
+table state SimpleName InfixExpression IfStatement ReturnStatement QualifiedName tablet goal statedeleted
+table state SimpleName SwitchStatement SwitchCase SimpleName deleting
+table state SimpleName SwitchStatement ReturnStatement QualifiedName tablet goal statedeleted
+table state SimpleName SwitchStatement SwitchCase SimpleName offline
+table state SimpleName SwitchStatement SwitchCase SimpleName new
+table state SimpleName SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+deleting SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statedeleted
+deleting SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+deleting SimpleName SwitchCase SwitchStatement SwitchCase SimpleName new
+deleting SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal statedeleted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName offline
+tablet goal statedeleted QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName new
+tablet goal statedeleted QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+tablet goal statedeleted QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+offline SimpleName SwitchCase SwitchStatement SwitchCase SimpleName new
+offline SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+offline SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+new SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal stateunassigned
+new SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+tablet goal stateunassigned QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName tablet goal statehosted
+tablet goal state SimpleName SimpleType MethodDeclaration SimpleName get table goal state
+tablet goal state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extent
+get table goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+get table goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+get table goal state SimpleName MethodDeclaration Block SwitchStatement SimpleName table state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table goal state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet goal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table goal state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent

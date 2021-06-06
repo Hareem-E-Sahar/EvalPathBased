@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName values str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table entity name
+hive data typeshive partition QualifiedName MethodInvocation SimpleName get name
+type name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive partition
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+dataset type SimpleName VariableDeclarationFragment QualifiedName atlas clientdata set super type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dataset type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName atlas clientdata set super type
+gvhas type name shassvalues sasp StringLiteral InfixExpression StringLiteral out stablehassname sbackpto list
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral gvhas type name shassvalues sasp
+string SimpleName MethodInvocation InfixExpression StringLiteral out stablehassname sbackpto list
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName values str
+format SimpleName MethodInvocation InfixExpression StringLiteral gvhas type name shassvalues sasp
+format SimpleName MethodInvocation InfixExpression StringLiteral out stablehassname sbackpto list
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName values str
+format SimpleName MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName values str
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName values str
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName type name
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName type name
+gvhas type name shassvalues sasp StringLiteral InfixExpression MethodInvocation SimpleName dataset type
+out stablehassname sbackpto list StringLiteral InfixExpression MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName values str
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+type name SimpleName MethodInvocation SimpleName values str
+type name SimpleName MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+values str SimpleName MethodInvocation SimpleName type name
+values str SimpleName MethodInvocation SimpleName dataset type
+values str SimpleName MethodInvocation SimpleName table entity name
+type name SimpleName MethodInvocation SimpleName dataset type
+type name SimpleName MethodInvocation SimpleName table entity name
+dataset type SimpleName MethodInvocation SimpleName table entity name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get partition gremlin query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName values str
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table entity name
+string SimpleName SimpleType MethodDeclaration SimpleName get partition gremlin query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName values str
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table entity name
+get partition gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values str
+get partition gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get partition gremlin query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table entity name
+values str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table entity name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get partition gremlin query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table entity name
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get partition gremlin query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table entity name

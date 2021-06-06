@@ -1,0 +1,23 @@
+condition SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName condition
+conditions SimpleName FieldAccess MethodInvocation SimpleName add
+conditions SimpleName FieldAccess MethodInvocation SimpleName elem
+add SimpleName MethodInvocation SimpleName elem
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to conditions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem
+void PrimitiveType MethodDeclaration SimpleName add to conditions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elem
+add to conditions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+add to conditions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to conditions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to conditions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem

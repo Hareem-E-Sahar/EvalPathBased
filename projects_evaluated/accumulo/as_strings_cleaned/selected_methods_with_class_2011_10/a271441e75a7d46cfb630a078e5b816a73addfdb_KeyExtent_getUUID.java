@@ -1,0 +1,26 @@
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dos
+write SimpleName MethodInvocation SimpleName dos
+dos SimpleName MethodInvocation SimpleName close
+baos SimpleName MethodInvocation SimpleName to byte array
+uuid SimpleName MethodInvocation SimpleName name uuid from bytes
+uuid SimpleName MethodInvocation MethodInvocation SimpleName baos
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+name uuid from bytes SimpleName MethodInvocation MethodInvocation SimpleName baos
+name uuid from bytes SimpleName MethodInvocation MethodInvocation SimpleName to byte array
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName uuid
+public Modifier MethodDeclaration SimpleName get uuid
+uuid SimpleName SimpleType MethodDeclaration SimpleName get uuid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName uuid
+public Modifier TypeDeclaration MethodDeclaration SimpleName get uuid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName uuid
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get uuid

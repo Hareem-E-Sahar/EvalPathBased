@@ -1,0 +1,28 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName get string
+state SimpleName MethodInvocation SimpleName table name
+get string SimpleName MethodInvocation SimpleName table name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get table name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+string SimpleName SimpleType MethodDeclaration SimpleName get table name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName state
+get table name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+get table name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

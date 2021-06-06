@@ -1,0 +1,153 @@
+producer SimpleName SimpleType SingleVariableDeclaration SimpleName p
+notification type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName messages
+topic map SimpleName MethodInvocation SimpleName get
+topic map SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName topic map
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName topic
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName message context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName topic
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName message
+topic SimpleName ClassInstanceCreation SimpleName message
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName producer record
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName topic
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+producer record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName record
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sending message for topic {}: {}
+log SimpleName MethodInvocation SimpleName topic
+log SimpleName MethodInvocation SimpleName message
+debug SimpleName MethodInvocation StringLiteral sending message for topic {}: {}
+debug SimpleName MethodInvocation SimpleName topic
+debug SimpleName MethodInvocation SimpleName message
+sending message for topic {}: {} StringLiteral MethodInvocation SimpleName topic
+sending message for topic {}: {} StringLiteral MethodInvocation SimpleName message
+topic SimpleName MethodInvocation SimpleName message
+p SimpleName MethodInvocation SimpleName send
+p SimpleName MethodInvocation SimpleName record
+send SimpleName MethodInvocation SimpleName record
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName send
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName record
+future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+message context SimpleName SimpleType ClassInstanceCreation SimpleName future
+message context SimpleName SimpleType ClassInstanceCreation SimpleName message
+future SimpleName ClassInstanceCreation SimpleName message
+message contexts SimpleName MethodInvocation SimpleName add
+message contexts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName message context
+message contexts SimpleName MethodInvocation ClassInstanceCreation SimpleName future
+message contexts SimpleName MethodInvocation ClassInstanceCreation SimpleName message
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName message context
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName future
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName message
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName messages
+message SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName messages
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last failure exception
+message context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+context SimpleName MethodInvocation SimpleName get future
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+get future SimpleName MethodInvocation MethodInvocation SimpleName get
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get future
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+record metadata SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+log SimpleName MethodInvocation SimpleName is debug enabled
+response SimpleName MethodInvocation SimpleName topic
+response SimpleName MethodInvocation SimpleName partition
+response SimpleName MethodInvocation SimpleName offset
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sent message for topic - {} partition - {} offset - {}
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName topic
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName partition
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral sent message for topic - {} partition - {} offset - {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName topic
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName partition
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName offset
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName topic
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName partition
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName offset
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+last failure exception SimpleName Assignment SimpleName e
+context SimpleName MethodInvocation SimpleName get message
+failed messages SimpleName MethodInvocation SimpleName add
+failed messages SimpleName MethodInvocation MethodInvocation SimpleName context
+failed messages SimpleName MethodInvocation MethodInvocation SimpleName get message
+add SimpleName MethodInvocation MethodInvocation SimpleName context
+add SimpleName MethodInvocation MethodInvocation SimpleName get message
+message context SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName message contexts
+context SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName message contexts
+notification exception SimpleName SimpleType ClassInstanceCreation SimpleName last failure exception
+notification exception SimpleName SimpleType ClassInstanceCreation SimpleName failed messages
+last failure exception SimpleName ClassInstanceCreation SimpleName failed messages
+messages SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName message contexts
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName send internal to producer
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName p
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName messages
+void PrimitiveType MethodDeclaration SimpleName send internal to producer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName producer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName messages
+void PrimitiveType MethodDeclaration SimpleType SimpleName notification exception
+send internal to producer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName producer
+send internal to producer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+send internal to producer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+send internal to producer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+send internal to producer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName messages
+send internal to producer SimpleName MethodDeclaration SimpleType SimpleName notification exception
+send internal to producer SimpleName MethodDeclaration Block EnhancedForStatement SimpleName messages
+send internal to producer SimpleName MethodDeclaration Block EnhancedForStatement SimpleName message contexts
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+p SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+messages SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send internal to producer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send internal to producer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception

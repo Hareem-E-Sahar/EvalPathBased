@@ -1,0 +1,154 @@
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral table info
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table info
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+first SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral recs
+append SimpleName MethodInvocation StringLiteral recs
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName recs
+append SimpleName MethodInvocation FieldAccess SimpleName recs
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral recs in memory
+append SimpleName MethodInvocation StringLiteral recs in memory
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName recs in memory
+append SimpleName MethodInvocation FieldAccess SimpleName recs in memory
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tablets
+append SimpleName MethodInvocation StringLiteral tablets
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName tablets
+append SimpleName MethodInvocation FieldAccess SimpleName tablets
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral online tablets
+append SimpleName MethodInvocation StringLiteral online tablets
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName online tablets
+append SimpleName MethodInvocation FieldAccess SimpleName online tablets
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ingest rate
+append SimpleName MethodInvocation StringLiteral ingest rate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName ingest rate
+append SimpleName MethodInvocation FieldAccess SimpleName ingest rate
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ingest byte rate
+append SimpleName MethodInvocation StringLiteral ingest byte rate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName ingest byte rate
+append SimpleName MethodInvocation FieldAccess SimpleName ingest byte rate
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral query rate
+append SimpleName MethodInvocation StringLiteral query rate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName query rate
+append SimpleName MethodInvocation FieldAccess SimpleName query rate
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral query byte rate
+append SimpleName MethodInvocation StringLiteral query byte rate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName query byte rate
+append SimpleName MethodInvocation FieldAccess SimpleName query byte rate
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral minors
+append SimpleName MethodInvocation StringLiteral minors
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName minors
+append SimpleName MethodInvocation FieldAccess SimpleName minors
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral majors
+append SimpleName MethodInvocation StringLiteral majors
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName majors
+append SimpleName MethodInvocation FieldAccess SimpleName majors
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral scans
+append SimpleName MethodInvocation StringLiteral scans
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral null
+append SimpleName MethodInvocation StringLiteral null
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName scans
+append SimpleName MethodInvocation FieldAccess SimpleName scans
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral scan rate
+append SimpleName MethodInvocation StringLiteral scan rate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation FieldAccess SimpleName scan rate
+append SimpleName MethodInvocation FieldAccess SimpleName scan rate
+first SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral )
+append SimpleName MethodInvocation StringLiteral )
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

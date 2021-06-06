@@ -1,0 +1,83 @@
+order by expr context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral => dsl visitorvisit order by expr
+log SimpleName MethodInvocation SimpleName ctx
+debug SimpleName MethodInvocation StringLiteral => dsl visitorvisit order by expr
+debug SimpleName MethodInvocation SimpleName ctx
+=> dsl visitorvisit order by expr StringLiteral MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName expr
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get text
+expr SimpleName MethodInvocation MethodInvocation SimpleName get text
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+get text SimpleName MethodInvocation MethodInvocation SimpleName replace
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral (
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral (
+get text SimpleName MethodInvocation MethodInvocation StringLiteral (
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+expr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get text SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral (
+replace SimpleName MethodInvocation StringLiteral empty
+( StringLiteral MethodInvocation StringLiteral empty
+get text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+( StringLiteral MethodInvocation MethodInvocation SimpleName replace
+empty StringLiteral MethodInvocation MethodInvocation SimpleName replace
+get text SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral )
+replace SimpleName MethodInvocation MethodInvocation StringLiteral )
+( StringLiteral MethodInvocation MethodInvocation StringLiteral )
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral )
+get text SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation MethodInvocation StringLiteral empty
+( StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral )
+replace SimpleName MethodInvocation StringLiteral empty
+) StringLiteral MethodInvocation StringLiteral empty
+text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName replace
+text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral (
+text SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+text SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+text SimpleName VariableDeclarationFragment MethodInvocation StringLiteral )
+text SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+ctx SimpleName MethodInvocation SimpleName sort order
+ctx SimpleName MethodInvocation SimpleName sort order
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get text
+sort order SimpleName MethodInvocation MethodInvocation SimpleName get text
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+sort order SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals ignore case
+get text SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral desc
+sort order SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral desc
+get text SimpleName MethodInvocation MethodInvocation StringLiteral desc
+equals ignore case SimpleName MethodInvocation StringLiteral desc
+gremlin query composer SimpleName MethodInvocation SimpleName add order by
+gremlin query composer SimpleName MethodInvocation SimpleName text
+add order by SimpleName MethodInvocation SimpleName text
+visit order by expr SimpleName SuperMethodInvocation SimpleName ctx
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit order by expr
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName visit order by expr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName order by expr context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void SimpleName SimpleType MethodDeclaration SimpleName visit order by expr
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+visit order by expr SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName order by expr context
+visit order by expr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit order by expr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit order by expr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

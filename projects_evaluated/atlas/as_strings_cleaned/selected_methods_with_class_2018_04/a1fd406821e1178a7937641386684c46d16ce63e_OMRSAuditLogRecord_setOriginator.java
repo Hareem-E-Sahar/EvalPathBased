@@ -1,0 +1,20 @@
+omrs audit log record originator SimpleName SimpleType SingleVariableDeclaration SimpleName originator
+originator SimpleName FieldAccess Assignment SimpleName originator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set originator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record originator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName originator
+void PrimitiveType MethodDeclaration SimpleName set originator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record originator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName originator
+set originator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs audit log record originator
+set originator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName originator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set originator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set originator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName originator

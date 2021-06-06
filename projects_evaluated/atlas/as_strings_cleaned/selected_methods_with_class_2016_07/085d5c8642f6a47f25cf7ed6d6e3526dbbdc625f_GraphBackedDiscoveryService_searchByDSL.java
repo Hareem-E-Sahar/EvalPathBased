@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+query params SimpleName SimpleType SingleVariableDeclaration SimpleName query params
+evaluate SimpleName MethodInvocation SimpleName dsl query
+evaluate SimpleName MethodInvocation SimpleName query params
+dsl query SimpleName MethodInvocation SimpleName query params
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName evaluate
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl query
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query params
+gremlin query result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query result
+query result SimpleName MethodInvocation SimpleName to json
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName search by dsl
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName search by dsl
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName query params
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName search by dsl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName query params
+public Modifier MethodDeclaration SimpleType SimpleName discovery exception
+string SimpleName SimpleType MethodDeclaration SimpleName search by dsl
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName query params
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName discovery exception
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName query params
+search by dsl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query params
+search by dsl SimpleName MethodDeclaration SimpleType SimpleName discovery exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+query params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName search by dsl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search by dsl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception

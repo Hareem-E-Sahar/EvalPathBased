@@ -1,0 +1,94 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+dataset schema query prefix SimpleName InfixExpression SimpleName type name
+properties conf SimpleName MethodInvocation SimpleName get string
+properties conf SimpleName MethodInvocation InfixExpression SimpleName dataset schema query prefix
+properties conf SimpleName MethodInvocation InfixExpression SimpleName type name
+get string SimpleName MethodInvocation InfixExpression SimpleName dataset schema query prefix
+get string SimpleName MethodInvocation InfixExpression SimpleName type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName properties conf
+string SimpleName MethodInvocation MethodInvocation SimpleName get string
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName dataset schema query prefix
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName type name
+string SimpleName MethodInvocation SimpleName guid
+format SimpleName MethodInvocation MethodInvocation SimpleName properties conf
+format SimpleName MethodInvocation MethodInvocation SimpleName get string
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName dataset schema query prefix
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName type name
+format SimpleName MethodInvocation SimpleName guid
+properties conf SimpleName MethodInvocation MethodInvocation SimpleName guid
+get string SimpleName MethodInvocation MethodInvocation SimpleName guid
+dataset schema query prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName guid
+type name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName guid
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+schema query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName properties conf
+schema query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName schema query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema query
+atlas properties SimpleName MethodInvocation SimpleName get property
+atlas properties SimpleName MethodInvocation QualifiedName atlas propertiesatlas propertysearch max limit
+get property SimpleName MethodInvocation QualifiedName atlas propertiesatlas propertysearch max limit
+limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+limit SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+limit SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas propertiesatlas propertysearch max limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atlas properties
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName atlas propertiesatlas propertysearch max limit
+query params SimpleName SimpleType ClassInstanceCreation SimpleName limit
+query params SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+limit SimpleName ClassInstanceCreation NumberLiteral empty
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation SimpleName schema query
+discovery service SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+discovery service SimpleName MethodInvocation ClassInstanceCreation SimpleName limit
+discovery service SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+search by dsl SimpleName MethodInvocation SimpleName schema query
+search by dsl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+search by dsl SimpleName MethodInvocation ClassInstanceCreation SimpleName limit
+search by dsl SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+schema query SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+schema query SimpleName MethodInvocation ClassInstanceCreation SimpleName limit
+schema query SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get schema for id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+private Modifier MethodDeclaration SimpleType SimpleName discovery exception
+string SimpleName SimpleType MethodDeclaration SimpleName get schema for id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName discovery exception
+get schema for id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema for id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get schema for id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema for id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get schema for id SimpleName MethodDeclaration SimpleType SimpleName discovery exception
+get schema for id SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get schema for id SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema for id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema for id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception

@@ -1,0 +1,37 @@
+atlas cliententity result QualifiedName SimpleType SingleVariableDeclaration SimpleName entity result
+entity result SimpleName MethodInvocation SimpleName get created entities
+on entities added SimpleName MethodInvocation MethodInvocation SimpleName entity result
+on entities added SimpleName MethodInvocation MethodInvocation SimpleName get created entities
+entity result SimpleName MethodInvocation SimpleName get update entities
+on entities updated SimpleName MethodInvocation MethodInvocation SimpleName entity result
+on entities updated SimpleName MethodInvocation MethodInvocation SimpleName get update entities
+request context SimpleName MethodInvocation SimpleName get
+request context SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+get SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+on entities deleted SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request context
+on entities deleted SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+on entities deleted SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName on entities added updated
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity result
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName on entities added updated
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity result
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+on entities added updated SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas cliententity result
+on entities added updated SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity result
+on entities added updated SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entities added updated
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entities added updated
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

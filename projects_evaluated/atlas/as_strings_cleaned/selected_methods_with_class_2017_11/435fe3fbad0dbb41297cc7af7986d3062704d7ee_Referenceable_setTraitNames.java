@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait names
+trait names SimpleName FieldAccess Assignment SimpleName trait names
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set trait names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait names
+void PrimitiveType MethodDeclaration SimpleName set trait names
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait names
+set trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names

@@ -1,0 +1,163 @@
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration ArrayType PrimitiveType byte
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName start key
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName start key
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration ArrayType PrimitiveType byte
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName end key
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName end key
+filter list SimpleName SimpleType SingleVariableDeclaration SimpleName filters
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName slice query
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName column slice
+slice query SimpleName SimpleType SingleVariableDeclaration SimpleName column slice
+scan SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName add family
+scan SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName column family bytes
+add family SimpleName MethodInvocation SimpleName column family bytes
+scan SimpleName VariableDeclarationFragment MethodInvocation SimpleName add family
+scan SimpleName VariableDeclarationFragment MethodInvocation SimpleName column family bytes
+scan SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scan
+scan SimpleName MethodInvocation SimpleName set time range
+scan SimpleName MethodInvocation NumberLiteral empty
+scan SimpleName MethodInvocation QualifiedName longmax value
+set time range SimpleName MethodInvocation NumberLiteral empty
+set time range SimpleName MethodInvocation QualifiedName longmax value
+empty NumberLiteral MethodInvocation QualifiedName longmax value
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+permanent backend exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+scan SimpleName MethodInvocation SimpleName set start row
+scan SimpleName MethodInvocation SimpleName start key
+set start row SimpleName MethodInvocation SimpleName start key
+scan SimpleName MethodInvocation SimpleName set stop row
+scan SimpleName MethodInvocation SimpleName end key
+set stop row SimpleName MethodInvocation SimpleName end key
+get filter SimpleName MethodInvocation SimpleName column slice
+filters SimpleName MethodInvocation SimpleName add filter
+filters SimpleName MethodInvocation MethodInvocation SimpleName get filter
+filters SimpleName MethodInvocation MethodInvocation SimpleName column slice
+add filter SimpleName MethodInvocation MethodInvocation SimpleName get filter
+add filter SimpleName MethodInvocation MethodInvocation SimpleName column slice
+table mask SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName start key
+to string SimpleName MethodInvocation SimpleName start key
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName end key
+to string SimpleName MethodInvocation SimpleName end key
+logger SimpleName MethodInvocation SimpleName debug
+logger SimpleName MethodInvocation StringLiteral scan for row keys {} {}
+logger SimpleName MethodInvocation MethodInvocation SimpleName bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation MethodInvocation SimpleName start key
+logger SimpleName MethodInvocation MethodInvocation SimpleName bytes
+logger SimpleName MethodInvocation MethodInvocation SimpleName to string
+logger SimpleName MethodInvocation MethodInvocation SimpleName end key
+debug SimpleName MethodInvocation StringLiteral scan for row keys {} {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName start key
+debug SimpleName MethodInvocation MethodInvocation SimpleName bytes
+debug SimpleName MethodInvocation MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation MethodInvocation SimpleName end key
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName bytes
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName start key
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName bytes
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName to string
+scan for row keys {} {} StringLiteral MethodInvocation MethodInvocation SimpleName end key
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end key
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end key
+start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bytes
+start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+start key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end key
+cnx SimpleName MethodInvocation SimpleName get table
+cnx SimpleName MethodInvocation SimpleName table name
+get table SimpleName MethodInvocation SimpleName table name
+table SimpleName Assignment MethodInvocation SimpleName cnx
+table SimpleName Assignment MethodInvocation SimpleName get table
+table SimpleName Assignment MethodInvocation SimpleName table name
+scan SimpleName MethodInvocation SimpleName set filter
+scan SimpleName MethodInvocation SimpleName filters
+set filter SimpleName MethodInvocation SimpleName filters
+table SimpleName MethodInvocation SimpleName get scanner
+table SimpleName MethodInvocation MethodInvocation SimpleName scan
+table SimpleName MethodInvocation MethodInvocation SimpleName set filter
+table SimpleName MethodInvocation MethodInvocation SimpleName filters
+get scanner SimpleName MethodInvocation MethodInvocation SimpleName scan
+get scanner SimpleName MethodInvocation MethodInvocation SimpleName set filter
+get scanner SimpleName MethodInvocation MethodInvocation SimpleName filters
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName table
+row iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table
+row iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scanner
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName column family bytes
+table SimpleName ClassInstanceCreation MethodInvocation SimpleName table
+table SimpleName ClassInstanceCreation MethodInvocation SimpleName get scanner
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName scan
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set filter
+table SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName filters
+table SimpleName ClassInstanceCreation SimpleName column family bytes
+table SimpleName MethodInvocation ClassInstanceCreation SimpleName column family bytes
+get scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName column family bytes
+scan SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName column family bytes
+set filter SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName column family bytes
+filters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName column family bytes
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io utils SimpleName MethodInvocation SimpleName close quietly
+io utils SimpleName MethodInvocation SimpleName table
+close quietly SimpleName MethodInvocation SimpleName table
+permanent backend exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName key iterator
+private Modifier MethodDeclaration SimpleName execute key slice query
+private Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start key
+private Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filters
+key iterator SimpleName SimpleType MethodDeclaration SimpleName execute key slice query
+key iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName start key
+key iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end key
+key iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filters
+key iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName column slice
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start key
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end key
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter list
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filters
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slice query
+execute key slice query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column slice
+execute key slice query SimpleName MethodDeclaration SimpleType SimpleName backend exception
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end key
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filters
+start key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column slice
+start key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+end key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filters
+end key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column slice
+end key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+filters SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column slice
+filters SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+column slice SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName backend exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute key slice query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column slice
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute key slice query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column slice
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName backend exception

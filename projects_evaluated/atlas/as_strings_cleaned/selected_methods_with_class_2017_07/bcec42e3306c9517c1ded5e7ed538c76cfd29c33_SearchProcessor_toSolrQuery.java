@@ -1,0 +1,182 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName criteria
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr attributes
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+criteria SimpleName MethodInvocation SimpleName get condition
+criteria SimpleName MethodInvocation SimpleName get criterion
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName criteria
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get criterion
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName criteria
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get criterion
+nested expression SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested expression
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+criteria SimpleName MethodInvocation SimpleName get criterion
+to solr query SimpleName MethodInvocation SimpleName type
+to solr query SimpleName MethodInvocation SimpleName filter criteria
+to solr query SimpleName MethodInvocation SimpleName solr attributes
+type SimpleName MethodInvocation SimpleName filter criteria
+type SimpleName MethodInvocation SimpleName solr attributes
+filter criteria SimpleName MethodInvocation SimpleName solr attributes
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName to solr query
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+nested query SimpleName VariableDeclarationFragment MethodInvocation SimpleName solr attributes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nested query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName nested query
+is not empty SimpleName MethodInvocation SimpleName nested query
+nested expression SimpleName MethodInvocation SimpleName length
+nested expression SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+nested expression SimpleName MethodInvocation SimpleName append
+nested expression SimpleName MethodInvocation SimpleName space string
+append SimpleName MethodInvocation SimpleName space string
+criteria SimpleName MethodInvocation SimpleName get condition
+nested expression SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+space string SimpleName MethodInvocation MethodInvocation SimpleName append
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get condition
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get condition
+space string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+space string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get condition
+append SimpleName MethodInvocation MethodInvocation SimpleName criteria
+append SimpleName MethodInvocation MethodInvocation SimpleName get condition
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+space string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get condition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName space string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName space string
+space string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName space string
+append SimpleName MethodInvocation MethodInvocation SimpleName space string
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName space string
+get condition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName space string
+append SimpleName MethodInvocation SimpleName space string
+nested expression SimpleName MethodInvocation SimpleName append
+nested expression SimpleName MethodInvocation SimpleName nested query
+append SimpleName MethodInvocation SimpleName nested query
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName criteria
+filter criteria SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get criterion
+nested expression SimpleName MethodInvocation SimpleName length
+nested expression SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName brace open str
+append SimpleName MethodInvocation SimpleName brace open str
+nested expression SimpleName MethodInvocation SimpleName to string
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+brace open str SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested expression
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested expression
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+brace open str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nested expression
+brace open str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName nested expression
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+brace open str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName brace close str
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName brace close str
+brace open str SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName brace close str
+append SimpleName MethodInvocation MethodInvocation SimpleName brace close str
+nested expression SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName brace close str
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName brace close str
+append SimpleName MethodInvocation SimpleName brace close str
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+brace close str SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+nested expression SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName empty string
+length SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName empty string
+empty NumberLiteral InfixExpression ConditionalExpression SimpleName empty string
+append SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName empty string
+brace close str SimpleName MethodInvocation MethodInvocation ConditionalExpression SimpleName empty string
+to string SimpleName MethodInvocation ConditionalExpression SimpleName empty string
+criteria SimpleName MethodInvocation SimpleName get attribute name
+solr attributes SimpleName MethodInvocation SimpleName contains
+solr attributes SimpleName MethodInvocation MethodInvocation SimpleName criteria
+solr attributes SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+contains SimpleName MethodInvocation MethodInvocation SimpleName criteria
+contains SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+criteria SimpleName MethodInvocation SimpleName get attribute name
+criteria SimpleName MethodInvocation SimpleName get operator
+criteria SimpleName MethodInvocation SimpleName get attribute value
+to solr expression SimpleName MethodInvocation SimpleName type
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName criteria
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName criteria
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName get operator
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName criteria
+to solr expression SimpleName MethodInvocation MethodInvocation SimpleName get attribute value
+type SimpleName MethodInvocation MethodInvocation SimpleName criteria
+type SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+type SimpleName MethodInvocation MethodInvocation SimpleName criteria
+type SimpleName MethodInvocation MethodInvocation SimpleName get operator
+type SimpleName MethodInvocation MethodInvocation SimpleName criteria
+type SimpleName MethodInvocation MethodInvocation SimpleName get attribute value
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operator
+get attribute name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+get attribute name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get operator
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+get attribute name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+get attribute name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+criteria SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+get operator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName criteria
+get operator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute value
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName to solr query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName criteria
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+string SimpleName SimpleType MethodDeclaration SimpleName to solr query
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName criteria
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName criteria
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+to solr query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+solr attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to solr query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to solr query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

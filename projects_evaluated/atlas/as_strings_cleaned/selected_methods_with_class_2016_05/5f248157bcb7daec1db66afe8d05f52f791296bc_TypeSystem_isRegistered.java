@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+is core type SimpleName MethodInvocation SimpleName type name
+type cache SimpleName MethodInvocation SimpleName has
+type cache SimpleName MethodInvocation SimpleName type name
+has SimpleName MethodInvocation SimpleName type name
+is core type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type cache
+is core type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has
+is core type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type cache
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is registered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+boolean PrimitiveType MethodDeclaration SimpleName is registered
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+is registered SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

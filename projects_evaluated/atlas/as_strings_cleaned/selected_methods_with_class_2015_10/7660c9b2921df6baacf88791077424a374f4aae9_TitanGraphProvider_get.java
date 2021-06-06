@@ -1,0 +1,28 @@
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName singleton
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName provides
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+singleton SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName provides
+singleton SimpleName MarkerAnnotation MethodDeclaration Modifier public
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+provides SimpleName MarkerAnnotation MethodDeclaration Modifier public
+provides SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName titan graph
+provides SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName titan graph
+public Modifier MethodDeclaration SimpleName get
+titan graph SimpleName SimpleType MethodDeclaration SimpleName get
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName titan graph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

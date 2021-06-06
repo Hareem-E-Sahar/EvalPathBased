@@ -1,0 +1,45 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+dtf SimpleName MethodInvocation SimpleName new thread
+dtf SimpleName MethodInvocation SimpleName r
+new thread SimpleName MethodInvocation SimpleName r
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName dtf
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName new thread
+thread SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread
+batch scanner StringLiteral InfixExpression SimpleName batch reader instance
+batch scanner StringLiteral InfixExpression StringLiteral -
+batch scanner StringLiteral InfixExpression PostfixExpression SimpleName thread num
+batch reader instance SimpleName InfixExpression StringLiteral -
+batch reader instance SimpleName InfixExpression PostfixExpression SimpleName thread num
+- StringLiteral InfixExpression PostfixExpression SimpleName thread num
+thread SimpleName MethodInvocation SimpleName set name
+thread SimpleName MethodInvocation InfixExpression StringLiteral batch scanner
+thread SimpleName MethodInvocation InfixExpression SimpleName batch reader instance
+thread SimpleName MethodInvocation InfixExpression StringLiteral -
+thread SimpleName MethodInvocation InfixExpression PostfixExpression SimpleName thread num
+set name SimpleName MethodInvocation InfixExpression StringLiteral batch scanner
+set name SimpleName MethodInvocation InfixExpression SimpleName batch reader instance
+set name SimpleName MethodInvocation InfixExpression StringLiteral -
+set name SimpleName MethodInvocation InfixExpression PostfixExpression SimpleName thread num
+thread SimpleName MethodInvocation SimpleName set daemon
+thread SimpleName MethodInvocation BooleanLiteral true
+set daemon SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName thread
+public Modifier MethodDeclaration SimpleName new thread
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration Block ReturnStatement SimpleName thread
+thread SimpleName SimpleType MethodDeclaration SimpleName new thread
+thread SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+new thread SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+new thread SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+new thread SimpleName MethodDeclaration Block ReturnStatement SimpleName thread
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thread
+public Modifier TypeDeclaration MethodDeclaration SimpleName new thread
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thread
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new thread
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

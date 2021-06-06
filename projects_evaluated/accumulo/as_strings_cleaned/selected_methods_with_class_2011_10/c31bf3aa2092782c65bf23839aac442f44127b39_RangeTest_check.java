@@ -1,0 +1,65 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName rl
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName rl
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rl
+range SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rl
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rl
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName expected
+range SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName expected
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName expected
+got : StringLiteral InfixExpression SimpleName rl
+got : StringLiteral InfixExpression StringLiteral expected :
+got : StringLiteral InfixExpression SimpleName expected
+rl SimpleName InfixExpression StringLiteral expected :
+rl SimpleName InfixExpression SimpleName expected
+expected : StringLiteral InfixExpression SimpleName expected
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+assert true SimpleName MethodInvocation InfixExpression StringLiteral got :
+assert true SimpleName MethodInvocation InfixExpression SimpleName rl
+assert true SimpleName MethodInvocation InfixExpression StringLiteral expected :
+assert true SimpleName MethodInvocation InfixExpression SimpleName expected
+assert true SimpleName MethodInvocation MethodInvocation SimpleName s
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation SimpleName s
+got : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+got : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName equals
+got : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+rl SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+rl SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName equals
+rl SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+expected : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+expected : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName equals
+expected : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName equals
+expected SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName s
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rl
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName check
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rl
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+rl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected

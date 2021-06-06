@@ -1,0 +1,92 @@
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table guid
+new table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral alter table s rename to s
+string SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation SimpleName new table name
+format SimpleName MethodInvocation StringLiteral alter table s rename to s
+format SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation SimpleName new table name
+alter table s rename to s StringLiteral MethodInvocation SimpleName table name
+alter table s rename to s StringLiteral MethodInvocation SimpleName new table name
+table name SimpleName MethodInvocation SimpleName new table name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral alter table s rename to s
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName new table name
+default db SimpleName MethodInvocation SimpleName new table name
+new table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+new table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+new table guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName new table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table guid
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName new table guid
+get entity SimpleName MethodInvocation SimpleName new table guid
+atlas client SimpleName MethodInvocation MethodInvocation SimpleName get values map
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get values map
+new table guid SimpleName MethodInvocation MethodInvocation SimpleName get values map
+value map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atlas client
+value map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity
+value map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new table guid
+value map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get values map
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+value map SimpleName MethodInvocation SimpleName get
+value map SimpleName MethodInvocation StringLiteral aliases
+get SimpleName MethodInvocation StringLiteral aliases
+alias list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName value map
+alias list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+alias list SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral aliases
+alias list SimpleName MethodInvocation SimpleName iterator
+alias list SimpleName MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+alias table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName alias list
+alias table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+alias table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName alias table name
+table name SimpleName MethodInvocation SimpleName to lower case
+table name SimpleName MethodInvocation MethodInvocation SimpleName equals
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName equals
+table name SimpleName MethodInvocation MethodInvocation SimpleName alias table name
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName alias table name
+equals SimpleName MethodInvocation SimpleName alias table name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test alter table rename alias registered
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test alter table rename alias registered
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test alter table rename alias registered
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test alter table rename alias registered SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter table rename alias registered
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter table rename alias registered
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,116 @@
+orgapacheaccumulocoredatakey QualifiedName SimpleType SingleVariableDeclaration SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get row SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get column family SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName MethodInvocation SimpleName get column visibility
+key SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get column visibility SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wrap
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName byte buffer
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName wrap
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName byte buffer
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName wrap
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName byte buffer
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName wrap
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName byte buffer
+pkey SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName wrap
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pkey
+key SimpleName MethodInvocation SimpleName get timestamp
+pkey SimpleName MethodInvocation SimpleName set timestamp
+pkey SimpleName MethodInvocation MethodInvocation SimpleName key
+pkey SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName key
+set timestamp SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SimpleName to thrift
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoredatakey
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pkey
+static Modifier MethodDeclaration SimpleType SimpleName key
+static Modifier MethodDeclaration SimpleName to thrift
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoredatakey
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration Block ReturnStatement SimpleName pkey
+key SimpleName SimpleType MethodDeclaration SimpleName to thrift
+key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+to thrift SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapacheaccumulocoredatakey
+to thrift SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+to thrift SimpleName MethodDeclaration Block ReturnStatement SimpleName pkey
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

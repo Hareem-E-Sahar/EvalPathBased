@@ -1,0 +1,260 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+range SimpleName SimpleType SingleVariableDeclaration SimpleName range
+int PrimitiveType SingleVariableDeclaration SimpleName max splits
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName table name
+argument checker SimpleName MethodInvocation SimpleName range
+not null SimpleName MethodInvocation SimpleName table name
+not null SimpleName MethodInvocation SimpleName range
+table name SimpleName MethodInvocation SimpleName range
+max splits SimpleName InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral maximum splits must be >=
+max splits SimpleName InfixExpression NumberLiteral empty
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName range
+singleton SimpleName MethodInvocation SimpleName range
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table name
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation SimpleName table name
+instance SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+tablet locator SimpleName MethodInvocation SimpleName get locator
+tablet locator SimpleName MethodInvocation SimpleName instance
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+tablet locator SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+get locator SimpleName MethodInvocation SimpleName instance
+get locator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get locator SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet locator
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get locator
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+tl SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName table id
+tablet locator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tl
+tl SimpleName MethodInvocation SimpleName invalidate cache
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation SimpleName range
+singleton list SimpleName MethodInvocation SimpleName range
+tl SimpleName MethodInvocation SimpleName bin ranges
+tl SimpleName MethodInvocation SimpleName credentials
+tl SimpleName MethodInvocation MethodInvocation SimpleName collections
+tl SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+tl SimpleName MethodInvocation MethodInvocation SimpleName range
+tl SimpleName MethodInvocation SimpleName binned ranges
+bin ranges SimpleName MethodInvocation SimpleName credentials
+bin ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+bin ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+bin ranges SimpleName MethodInvocation MethodInvocation SimpleName range
+bin ranges SimpleName MethodInvocation SimpleName binned ranges
+credentials SimpleName MethodInvocation MethodInvocation SimpleName collections
+credentials SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+credentials SimpleName MethodInvocation MethodInvocation SimpleName range
+credentials SimpleName MethodInvocation SimpleName binned ranges
+collections SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+singleton list SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+range SimpleName MethodInvocation MethodInvocation SimpleName binned ranges
+tl SimpleName MethodInvocation MethodInvocation SimpleName is empty
+bin ranges SimpleName MethodInvocation MethodInvocation SimpleName is empty
+credentials SimpleName MethodInvocation MethodInvocation SimpleName is empty
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+singleton list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+binned ranges SimpleName MethodInvocation MethodInvocation SimpleName is empty
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+exists SimpleName MethodInvocation SimpleName instance
+exists SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+table deleted exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+tables SimpleName MethodInvocation SimpleName get table state
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get table state SimpleName MethodInvocation SimpleName instance
+get table state SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+tables SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+get table state SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+instance SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table id SimpleName MethodInvocation InfixExpression QualifiedName table stateoffline
+table offline exception SimpleName SimpleType ClassInstanceCreation SimpleName instance
+table offline exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+instance SimpleName ClassInstanceCreation SimpleName table id
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to locate bins for specified range retrying
+warn SimpleName MethodInvocation StringLiteral unable to locate bins for specified range retrying
+math SimpleName MethodInvocation SimpleName random
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+random SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression CastExpression PrimitiveType int
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression CastExpression PrimitiveType int
+binned ranges SimpleName MethodInvocation SimpleName clear
+tl SimpleName MethodInvocation SimpleName invalidate cache
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+binned ranges SimpleName MethodInvocation SimpleName values
+map SimpleName MethodInvocation SimpleName key set
+unmerged extents SimpleName MethodInvocation SimpleName add all
+unmerged extents SimpleName MethodInvocation MethodInvocation SimpleName map
+unmerged extents SimpleName MethodInvocation MethodInvocation SimpleName key set
+add all SimpleName MethodInvocation MethodInvocation SimpleName map
+add all SimpleName MethodInvocation MethodInvocation SimpleName key set
+map SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName binned ranges
+map SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName unmerged extents
+sort SimpleName MethodInvocation SimpleName unmerged extents
+unmerged extents SimpleName MethodInvocation SimpleName size
+merged extents SimpleName MethodInvocation SimpleName size
+unmerged extents SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName merged extents
+unmerged extents SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName merged extents
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+unmerged extents SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max splits
+size SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max splits
+merged extents SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max splits
+size SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max splits
+unmerged extents SimpleName MethodInvocation SimpleName size
+unmerged extents SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unmerged extents SimpleName MethodInvocation SimpleName remove first
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName unmerged extents
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove first
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+unmerged extents SimpleName MethodInvocation SimpleName remove first
+second SimpleName VariableDeclarationFragment MethodInvocation SimpleName unmerged extents
+second SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove first
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName second
+second SimpleName MethodInvocation SimpleName get end row
+first SimpleName MethodInvocation SimpleName set end row
+first SimpleName MethodInvocation MethodInvocation SimpleName second
+first SimpleName MethodInvocation MethodInvocation SimpleName get end row
+set end row SimpleName MethodInvocation MethodInvocation SimpleName second
+set end row SimpleName MethodInvocation MethodInvocation SimpleName get end row
+merged extents SimpleName MethodInvocation SimpleName add
+merged extents SimpleName MethodInvocation SimpleName first
+add SimpleName MethodInvocation SimpleName first
+merged extents SimpleName MethodInvocation SimpleName add all
+merged extents SimpleName MethodInvocation SimpleName unmerged extents
+add all SimpleName MethodInvocation SimpleName unmerged extents
+unmerged extents SimpleName MethodInvocation SimpleName clear
+unmerged extents SimpleName MethodInvocation SimpleName add all
+unmerged extents SimpleName MethodInvocation SimpleName merged extents
+add all SimpleName MethodInvocation SimpleName merged extents
+merged extents SimpleName MethodInvocation SimpleName clear
+merged extents SimpleName MethodInvocation SimpleName add all
+merged extents SimpleName MethodInvocation SimpleName unmerged extents
+add all SimpleName MethodInvocation SimpleName unmerged extents
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName k
+k SimpleName MethodInvocation SimpleName to data range
+k SimpleName MethodInvocation MethodInvocation SimpleName clip
+to data range SimpleName MethodInvocation MethodInvocation SimpleName clip
+k SimpleName MethodInvocation MethodInvocation SimpleName range
+to data range SimpleName MethodInvocation MethodInvocation SimpleName range
+clip SimpleName MethodInvocation SimpleName range
+ranges SimpleName MethodInvocation SimpleName add
+ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+ranges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to data range
+ranges SimpleName MethodInvocation MethodInvocation SimpleName clip
+ranges SimpleName MethodInvocation MethodInvocation SimpleName range
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName k
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to data range
+add SimpleName MethodInvocation MethodInvocation SimpleName clip
+add SimpleName MethodInvocation MethodInvocation SimpleName range
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName merged extents
+k SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName merged extents
+merged extents SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName ranges
+merged extents SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+merged extents SimpleName EnhancedForStatement Block ReturnStatement SimpleName ranges
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName split range by tablets
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+public Modifier MethodDeclaration SimpleName split range by tablets
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max splits
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName split range by tablets
+range SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName split range by tablets
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName range
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+split range by tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max splits
+split range by tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+split range by tablets SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+max splits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName split range by tablets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split range by tablets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max splits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

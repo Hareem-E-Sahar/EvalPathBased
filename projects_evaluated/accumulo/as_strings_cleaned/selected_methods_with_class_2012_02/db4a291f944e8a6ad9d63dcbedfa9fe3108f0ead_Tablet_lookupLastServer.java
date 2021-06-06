@@ -1,0 +1,69 @@
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablets key values
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablets key values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get column family SimpleName MethodInvocation MethodInvocation SimpleName compare to
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata last location column family
+compare to SimpleName MethodInvocation QualifiedName constantsmetadata last location column family
+get column family SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+constantsmetadata last location column family QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablets key values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName t server instance
+private Modifier MethodDeclaration SimpleName lookup last server
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+static Modifier MethodDeclaration SimpleType SimpleName t server instance
+static Modifier MethodDeclaration SimpleName lookup last server
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+t server instance SimpleName SimpleType MethodDeclaration SimpleName lookup last server
+t server instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extent
+t server instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+lookup last server SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+lookup last server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+lookup last server SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+extent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup last server
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup last server
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablets key values

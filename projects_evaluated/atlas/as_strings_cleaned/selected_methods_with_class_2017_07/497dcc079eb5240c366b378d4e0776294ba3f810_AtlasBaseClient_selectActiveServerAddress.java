@@ -1,0 +1,67 @@
+client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+atlas server ensemble SimpleName SimpleType SingleVariableDeclaration SimpleName server ensemble
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+server ensemble SimpleName MethodInvocation SimpleName get members
+server instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName server ensemble
+server instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName get members
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active server address
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server instance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral trying with address {}
+log SimpleName MethodInvocation SimpleName server instance
+info SimpleName MethodInvocation StringLiteral trying with address {}
+info SimpleName MethodInvocation SimpleName server instance
+trying with address {} StringLiteral MethodInvocation SimpleName server instance
+get address if active SimpleName MethodInvocation SimpleName client
+get address if active SimpleName MethodInvocation SimpleName server instance
+client SimpleName MethodInvocation SimpleName server instance
+active server address SimpleName Assignment MethodInvocation SimpleName get address if active
+active server address SimpleName Assignment MethodInvocation SimpleName client
+active server address SimpleName Assignment MethodInvocation SimpleName server instance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral found service {} as active service
+log SimpleName MethodInvocation SimpleName server instance
+info SimpleName MethodInvocation StringLiteral found service {} as active service
+info SimpleName MethodInvocation SimpleName server instance
+found service {} as active service StringLiteral MethodInvocation SimpleName server instance
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName server instances
+server instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName server instances
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not find any active instance
+atlas service exception SimpleName SimpleType ClassInstanceCreation SimpleName status
+atlas service exception SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral could not find any active instance
+status SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName runtime exception
+status SimpleName ClassInstanceCreation ClassInstanceCreation StringLiteral could not find any active instance
+active server address SimpleName InfixExpression IfStatement ReturnStatement SimpleName active server address
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName select active server address
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas server ensemble
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+string SimpleName SimpleType MethodDeclaration SimpleName select active server address
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+select active server address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+select active server address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+select active server address SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas server ensemble
+select active server address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+select active server address SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+select active server address SimpleName MethodDeclaration Block EnhancedForStatement SimpleName server instances
+client SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+server ensemble SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName select active server address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName select active server address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server ensemble
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

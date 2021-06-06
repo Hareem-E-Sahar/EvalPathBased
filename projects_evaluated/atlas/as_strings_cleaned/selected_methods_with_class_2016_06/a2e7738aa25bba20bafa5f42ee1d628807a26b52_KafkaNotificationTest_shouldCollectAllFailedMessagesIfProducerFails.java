@@ -1,0 +1,201 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName properties
+config properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config properties
+kafka notification SimpleName SimpleType ClassInstanceCreation SimpleName config properties
+kafka notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName kafka notification
+kafka notification SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName config properties
+kafka notification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kafka notification
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName producer
+producer SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+producer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName producer
+kafka notification SimpleName MethodInvocation SimpleName get topic name
+kafka notification SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+get topic name SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+topic name SimpleName VariableDeclarationFragment MethodInvocation SimpleName kafka notification
+topic name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get topic name
+topic name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName notification interfacenotification typehook
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName topic name
+message SimpleName VariableDeclarationFragment StringLiteral this is a test message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral this is a test message
+message SimpleName VariableDeclarationFragment StringLiteral this is a test message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral this is a test message
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName future
+return value SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName return value
+return value SimpleName MethodInvocation SimpleName get
+when SimpleName MethodInvocation MethodInvocation SimpleName return value
+when SimpleName MethodInvocation MethodInvocation SimpleName get
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral simulating exception
+when SimpleName MethodInvocation MethodInvocation SimpleName then throw
+return value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral simulating exception
+then throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runtime exception
+then throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral simulating exception
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName future
+return value SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+future SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName return value
+return value SimpleName MethodInvocation SimpleName get
+when SimpleName MethodInvocation MethodInvocation SimpleName return value
+when SimpleName MethodInvocation MethodInvocation SimpleName get
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral simulating exception
+when SimpleName MethodInvocation MethodInvocation SimpleName then throw
+return value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+when SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral simulating exception
+then throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runtime exception
+then throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral simulating exception
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName topic name
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName message
+topic name SimpleName ClassInstanceCreation SimpleName message
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName producer record
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName topic name
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+producer record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected record
+producer SimpleName MethodInvocation SimpleName send
+producer SimpleName MethodInvocation SimpleName expected record
+send SimpleName MethodInvocation SimpleName expected record
+when SimpleName MethodInvocation MethodInvocation SimpleName producer
+when SimpleName MethodInvocation MethodInvocation SimpleName send
+when SimpleName MethodInvocation MethodInvocation SimpleName expected record
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+producer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+send SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+expected record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName return value
+producer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+send SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+expected record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+then return SimpleName MethodInvocation SimpleName return value
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName topic name
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName message
+topic name SimpleName ClassInstanceCreation SimpleName message
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName producer record
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName topic name
+expected record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+producer record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected record
+producer SimpleName MethodInvocation SimpleName send
+producer SimpleName MethodInvocation SimpleName expected record
+send SimpleName MethodInvocation SimpleName expected record
+when SimpleName MethodInvocation MethodInvocation SimpleName producer
+when SimpleName MethodInvocation MethodInvocation SimpleName send
+when SimpleName MethodInvocation MethodInvocation SimpleName expected record
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+producer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+send SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+expected record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName return value
+producer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+send SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+expected record SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName return value
+then return SimpleName MethodInvocation SimpleName return value
+message SimpleName ArrayInitializer SimpleName message
+kafka notification SimpleName MethodInvocation SimpleName send internal to producer
+kafka notification SimpleName MethodInvocation SimpleName producer
+kafka notification SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+kafka notification SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+kafka notification SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+send internal to producer SimpleName MethodInvocation SimpleName producer
+send internal to producer SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+send internal to producer SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+send internal to producer SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+producer SimpleName MethodInvocation QualifiedName notification interfacenotification typehook
+producer SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+producer SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+notification interfacenotification typehook QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+notification interfacenotification typehook QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName message
+fail SimpleName MethodInvocation StringLiteral should have thrown notification exception
+notification exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get failed messages
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get failed messages SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get failed messages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get failed messages SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get failed messages
+e SimpleName MethodInvocation MethodInvocation SimpleName get
+get failed messages SimpleName MethodInvocation MethodInvocation SimpleName get
+e SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get failed messages SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get failed messages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral this is a test message
+e SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral this is a test message
+get failed messages SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral this is a test message
+get SimpleName MethodInvocation MethodInvocation StringLiteral this is a test message
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral this is a test message
+e SimpleName MethodInvocation SimpleName get failed messages
+e SimpleName MethodInvocation MethodInvocation SimpleName get
+get failed messages SimpleName MethodInvocation MethodInvocation SimpleName get
+e SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get failed messages SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get failed messages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral this is a test message
+e SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral this is a test message
+get failed messages SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral this is a test message
+get SimpleName MethodInvocation MethodInvocation StringLiteral this is a test message
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral this is a test message
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName should collect all failed messages if producer fails
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName notification exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName should collect all failed messages if producer fails
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName should collect all failed messages if producer fails
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName notification exception
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName notification exception
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName execution exception
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName execution exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should collect all failed messages if producer fails
+public Modifier MethodDeclaration SimpleType SimpleName notification exception
+public Modifier MethodDeclaration SimpleType SimpleName execution exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName should collect all failed messages if producer fails
+void PrimitiveType MethodDeclaration SimpleType SimpleName notification exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName execution exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+should collect all failed messages if producer fails SimpleName MethodDeclaration SimpleType SimpleName notification exception
+should collect all failed messages if producer fails SimpleName MethodDeclaration SimpleType SimpleName execution exception
+should collect all failed messages if producer fails SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+notification exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName execution exception
+notification exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+execution exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should collect all failed messages if producer fails
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName execution exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should collect all failed messages if producer fails
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName execution exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

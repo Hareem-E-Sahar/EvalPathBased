@@ -1,0 +1,86 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+k SimpleName MethodInvocation SimpleName get column visibility
+k SimpleName MethodInvocation SimpleName tmp vis
+get column visibility SimpleName MethodInvocation SimpleName tmp vis
+test vis SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+test vis SimpleName VariableDeclarationFragment MethodInvocation SimpleName get column visibility
+test vis SimpleName VariableDeclarationFragment MethodInvocation SimpleName tmp vis
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test vis
+test vis SimpleName MethodInvocation SimpleName get length
+test vis SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+default visibility SimpleName MethodInvocation SimpleName get length
+default visibility SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+test vis SimpleName MethodInvocation SimpleName get length
+test vis SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+test vis SimpleName Assignment SimpleName default visibility
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName test vis
+get SimpleName MethodInvocation SimpleName test vis
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName cache
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName test vis
+b SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName boolean
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName cache
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName test vis
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName InfixExpression IfStatement ReturnStatement SimpleName b
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName test vis
+ve SimpleName MethodInvocation SimpleName evaluate
+ve SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+ve SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+bb SimpleName VariableDeclarationFragment MethodInvocation SimpleName ve
+bb SimpleName VariableDeclarationFragment MethodInvocation SimpleName evaluate
+bb SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName test vis
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bb
+text SimpleName SimpleType ClassInstanceCreation SimpleName test vis
+cache SimpleName MethodInvocation SimpleName put
+cache SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+cache SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+cache SimpleName MethodInvocation SimpleName bb
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName test vis
+put SimpleName MethodInvocation SimpleName bb
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bb
+test vis SimpleName ClassInstanceCreation MethodInvocation SimpleName bb
+visibility parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral parse error
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral parse error
+error SimpleName MethodInvocation SimpleName e
+parse error StringLiteral MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName accept
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName accept
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName accept
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName accept
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

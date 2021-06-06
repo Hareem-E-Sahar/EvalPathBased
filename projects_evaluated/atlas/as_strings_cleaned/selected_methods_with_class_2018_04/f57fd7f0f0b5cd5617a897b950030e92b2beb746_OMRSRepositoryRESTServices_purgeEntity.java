@@ -1,0 +1,133 @@
+method SimpleName MemberValuePair QualifiedName request methodpatch
+path SimpleName MemberValuePair StringLiteral user idinstancesentitydeleted entity guidpurge
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpatch
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idinstancesentitydeleted entity guidpurge
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentitydeleted entity guidpurge
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idinstancesentitydeleted entity guidpurge
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def guid
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName type def name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type def name
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName deleted entity guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName deleted entity guid
+method name SimpleName VariableDeclarationFragment StringLiteral purge entity
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral purge entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral purge entity
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName void response
+void response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName purge entity
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName type def guid
+local metadata collection SimpleName MethodInvocation SimpleName type def name
+local metadata collection SimpleName MethodInvocation SimpleName deleted entity guid
+purge entity SimpleName MethodInvocation SimpleName user id
+purge entity SimpleName MethodInvocation SimpleName type def guid
+purge entity SimpleName MethodInvocation SimpleName type def name
+purge entity SimpleName MethodInvocation SimpleName deleted entity guid
+user id SimpleName MethodInvocation SimpleName type def guid
+user id SimpleName MethodInvocation SimpleName type def name
+user id SimpleName MethodInvocation SimpleName deleted entity guid
+type def guid SimpleName MethodInvocation SimpleName type def name
+type def guid SimpleName MethodInvocation SimpleName deleted entity guid
+type def name SimpleName MethodInvocation SimpleName deleted entity guid
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+entity not deleted exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture entity not deleted exception SimpleName MethodInvocation SimpleName response
+capture entity not deleted exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+entity not known exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture entity not known exception SimpleName MethodInvocation SimpleName response
+capture entity not known exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idinstancesentitydeleted entity guidpurge StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName void response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName purge entity
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName purge entity
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName purge entity
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName purge entity
+user idinstancesentitydeleted entity guidpurge StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName purge entity
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier MethodDeclaration SimpleType SimpleName void response
+public Modifier MethodDeclaration SimpleName purge entity
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def name
+void response SimpleName SimpleType MethodDeclaration SimpleName purge entity
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def name
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def name
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+purge entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+purge entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+purge entity SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+type def name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+public Modifier TypeDeclaration MethodDeclaration SimpleName purge entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName purge entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted entity guid

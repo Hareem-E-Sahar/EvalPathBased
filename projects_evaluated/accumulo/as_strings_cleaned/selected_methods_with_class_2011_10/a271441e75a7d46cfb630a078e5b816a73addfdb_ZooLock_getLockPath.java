@@ -1,0 +1,18 @@
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName lock
+/ StringLiteral InfixExpression SimpleName lock
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get lock path
+synchronized Modifier MethodDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get lock path
+string SimpleName SimpleType MethodDeclaration SimpleName get lock path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get lock path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get lock path

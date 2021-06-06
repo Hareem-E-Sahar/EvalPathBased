@@ -1,0 +1,70 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName hierarchical type definition
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName class type
+final Modifier SingleVariableDeclaration SimpleName ref type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ref type
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ref type
+referenceable SimpleName SimpleType ClassInstanceCreation QualifiedName ref typetype name
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName referenceable
+instance serialization SimpleName MethodInvocation ClassInstanceCreation QualifiedName ref typetype name
+instance serialization SimpleName MethodInvocation BooleanLiteral false
+to json SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName referenceable
+to json SimpleName MethodInvocation ClassInstanceCreation QualifiedName ref typetype name
+to json SimpleName MethodInvocation BooleanLiteral false
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+ref typetype name QualifiedName ClassInstanceCreation MethodInvocation BooleanLiteral false
+json SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+json SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName ref typetype name
+json SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json
+[ StringLiteral InfixExpression SimpleName json
+[ StringLiteral InfixExpression StringLiteral ]
+json SimpleName InfixExpression StringLiteral ]
+metadata service SimpleName MethodInvocation SimpleName create entities
+metadata service SimpleName MethodInvocation InfixExpression StringLiteral [
+metadata service SimpleName MethodInvocation InfixExpression SimpleName json
+metadata service SimpleName MethodInvocation InfixExpression StringLiteral ]
+create entities SimpleName MethodInvocation InfixExpression StringLiteral [
+create entities SimpleName MethodInvocation InfixExpression SimpleName json
+create entities SimpleName MethodInvocation InfixExpression StringLiteral ]
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entities
+entities SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral [
+entities SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName json
+entities SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral ]
+create update entities result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities
+entities SimpleName MethodInvocation SimpleName get created entities
+entities SimpleName MethodInvocation MethodInvocation SimpleName get
+get created entities SimpleName MethodInvocation MethodInvocation SimpleName get
+entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get created entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create basic entity
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref type
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName create basic entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref type
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+create basic entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create basic entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref type
+create basic entity SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+ref type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create basic entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create basic entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

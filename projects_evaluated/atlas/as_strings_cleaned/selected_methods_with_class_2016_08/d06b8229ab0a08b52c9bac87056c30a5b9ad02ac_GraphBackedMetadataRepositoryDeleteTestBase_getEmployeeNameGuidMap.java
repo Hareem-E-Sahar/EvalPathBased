@@ -1,0 +1,120 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+final Modifier SingleVariableDeclaration SimpleName hr dept
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName hr dept
+hr dept SimpleName MethodInvocation SimpleName get
+hr dept SimpleName MethodInvocation StringLiteral employees
+get SimpleName MethodInvocation StringLiteral employees
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName hr dept
+ref value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ref value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral employees
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value
+ref value SimpleName InstanceofExpression SimpleType SimpleName list
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName ref value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+object SimpleName SimpleType ParameterizedType CastExpression SimpleName ref value
+employees SimpleName VariableDeclarationFragment CastExpression SimpleName ref value
+employees SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName employees
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+employees SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hr dept SimpleName MethodInvocation SimpleName get id
+hr dept SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation StringLiteral hr
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hr dept
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+hr StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hr dept
+hr StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+hr StringLiteral MethodInvocation MethodInvocation SimpleName get id
+object SimpleName SimpleType SingleVariableDeclaration SimpleName list value
+list value SimpleName InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName list value
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName i typed referenceable instance
+i typed referenceable instance SimpleName SimpleType CastExpression SimpleName list value
+employee SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed referenceable instance
+employee SimpleName VariableDeclarationFragment CastExpression SimpleName list value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName employee
+employee SimpleName MethodInvocation SimpleName get
+employee SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName employee
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral name
+employee SimpleName MethodInvocation SimpleName get id
+employee SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+name guid map SimpleName MethodInvocation SimpleName put
+name guid map SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+name guid map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName employee
+name guid map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+name guid map SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+name guid map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+name guid map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+name guid map SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName employee
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+put SimpleName MethodInvocation CastExpression MethodInvocation StringLiteral name
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName employee
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName employees
+list value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName employees
+employees SimpleName EnhancedForStatement Block ReturnStatement SimpleName name guid map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get employee name guid map
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hr dept
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName employees
+private Modifier MethodDeclaration Block ReturnStatement SimpleName name guid map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get employee name guid map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get employee name guid map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get employee name guid map
+get employee name guid map SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get employee name guid map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+get employee name guid map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hr dept
+get employee name guid map SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get employee name guid map SimpleName MethodDeclaration Block EnhancedForStatement SimpleName employees
+get employee name guid map SimpleName MethodDeclaration Block ReturnStatement SimpleName name guid map
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+hr dept SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get employee name guid map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hr dept
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get employee name guid map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hr dept
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

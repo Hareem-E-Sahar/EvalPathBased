@@ -1,0 +1,37 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance classification status enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get governance classification status enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get confidentiality level enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get confidentiality level enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get confidence level enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get confidence level enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get retention basis enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get retention basis enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get criticality level enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get criticality level enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get confidentiality classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get confidentiality classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get confidence classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get confidence classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get retention classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get retention classification
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add classification def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get criticality classification
+add classification def SimpleName MethodInvocation MethodInvocation SimpleName get criticality classification
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add governance action classifications
+void PrimitiveType MethodDeclaration SimpleName add governance action classifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add governance action classifications
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add governance action classifications

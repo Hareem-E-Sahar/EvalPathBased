@@ -1,0 +1,33 @@
+normalize SimpleName MethodInvocation SimpleName node
+normalize SimpleName MethodInvocation SimpleName expression
+node SimpleName MethodInvocation SimpleName expression
+norm root SimpleName VariableDeclarationFragment MethodInvocation SimpleName normalize
+norm root SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+norm root SimpleName VariableDeclarationFragment MethodInvocation SimpleName expression
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName norm root
+string builder SimpleName SimpleType ClassInstanceCreation QualifiedName expressionlength
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName expressionlength
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+stringify SimpleName MethodInvocation SimpleName norm root
+stringify SimpleName MethodInvocation SimpleName expression
+stringify SimpleName MethodInvocation SimpleName builder
+norm root SimpleName MethodInvocation SimpleName expression
+norm root SimpleName MethodInvocation SimpleName builder
+expression SimpleName MethodInvocation SimpleName builder
+builder SimpleName MethodInvocation SimpleName to string
+builder SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+builder SimpleName MethodInvocation MethodInvocation SimpleName utf
+to string SimpleName MethodInvocation MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName flatten
+byte PrimitiveType ArrayType MethodDeclaration SimpleName flatten
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName flatten
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flatten

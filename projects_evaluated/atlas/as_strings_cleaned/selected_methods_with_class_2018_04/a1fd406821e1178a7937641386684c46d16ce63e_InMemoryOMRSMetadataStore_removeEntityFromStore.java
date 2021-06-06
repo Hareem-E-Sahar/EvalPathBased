@@ -1,0 +1,31 @@
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName remove
+entity store SimpleName MethodInvocation MethodInvocation SimpleName entity
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+remove SimpleName MethodInvocation MethodInvocation SimpleName entity
+remove SimpleName MethodInvocation MethodInvocation SimpleName get guid
+entity history store SimpleName MethodInvocation SimpleName add
+entity history store SimpleName MethodInvocation NumberLiteral empty
+entity history store SimpleName MethodInvocation SimpleName entity
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName entity
+empty NumberLiteral MethodInvocation SimpleName entity
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove entity from store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName remove entity from store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+remove entity from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+remove entity from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove entity from store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove entity from store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

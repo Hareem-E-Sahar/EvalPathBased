@@ -1,0 +1,41 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName other
+other SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral true
+other SimpleName InstanceofExpression SimpleType SimpleName entry
+entry SimpleName SimpleType CastExpression SimpleName other
+other SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName compare to
+other SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName key buffer
+other SimpleName CastExpression ParenthesizedExpression MethodInvocation NumberLiteral empty
+compare to SimpleName MethodInvocation SimpleName key buffer
+compare to SimpleName MethodInvocation NumberLiteral empty
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get key length
+key buffer SimpleName MethodInvocation NumberLiteral empty
+key buffer SimpleName MethodInvocation MethodInvocation SimpleName get key length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get key length
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+get key length SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName equals
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

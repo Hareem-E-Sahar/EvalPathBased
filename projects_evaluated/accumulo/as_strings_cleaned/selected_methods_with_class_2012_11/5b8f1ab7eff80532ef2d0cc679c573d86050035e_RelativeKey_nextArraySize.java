@@ -1,0 +1,51 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression IfStatement ReturnStatement QualifiedName integermax value
+i SimpleName InfixExpression NumberLiteral empty
+ret SimpleName VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression NumberLiteral empty
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName next array size
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType MethodDeclaration SimpleName next array size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+next array size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+next array size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+next array size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next array size SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next array size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next array size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

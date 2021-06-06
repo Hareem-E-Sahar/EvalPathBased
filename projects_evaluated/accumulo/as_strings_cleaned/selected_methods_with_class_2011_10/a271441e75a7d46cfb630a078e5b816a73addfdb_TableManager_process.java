@@ -1,0 +1,278 @@
+watched event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+log SimpleName MethodInvocation SimpleName is trace enabled
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation SimpleName event
+trace SimpleName MethodInvocation SimpleName event
+event SimpleName MethodInvocation SimpleName get path
+z path SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+z path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName event
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+event SimpleName MethodInvocation SimpleName get type
+z type SimpleName VariableDeclarationFragment MethodInvocation SimpleName event
+z type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+final Modifier VariableDeclarationStatement SimpleType SimpleName event type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName z type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName event
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type
+event type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z type
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+tables prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+tables prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+tables prefix SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+tables prefix SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tables prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+tables prefix SimpleName InfixExpression StringLiteral /
+z path SimpleName MethodInvocation SimpleName starts with
+z path SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+z path SimpleName MethodInvocation InfixExpression StringLiteral /
+starts with SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+starts with SimpleName MethodInvocation InfixExpression StringLiteral /
+z path SimpleName InfixExpression InfixExpression MethodInvocation SimpleName z path
+z path SimpleName InfixExpression InfixExpression MethodInvocation SimpleName starts with
+tables prefix SimpleName MethodInvocation SimpleName length
+tables prefix SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+z path SimpleName MethodInvocation SimpleName substring
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tables prefix
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+z path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tables prefix
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+suffix SimpleName VariableDeclarationFragment MethodInvocation SimpleName z path
+suffix SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+suffix SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName suffix
+suffix SimpleName MethodInvocation SimpleName contains
+suffix SimpleName MethodInvocation StringLiteral /
+contains SimpleName MethodInvocation StringLiteral /
+suffix SimpleName MethodInvocation SimpleName split
+suffix SimpleName MethodInvocation StringLiteral /
+suffix SimpleName MethodInvocation NumberLiteral empty
+split SimpleName MethodInvocation StringLiteral /
+split SimpleName MethodInvocation NumberLiteral empty
+/ StringLiteral MethodInvocation NumberLiteral empty
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName suffix
+sa SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+sa SimpleName VariableDeclarationFragment MethodInvocation StringLiteral /
+sa SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+sa SimpleName ArrayAccess NumberLiteral empty
+/ StringLiteral InfixExpression ArrayAccess SimpleName sa
+/ StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+constantsztable state QualifiedName MethodInvocation SimpleName equals
+constantsztable state QualifiedName MethodInvocation InfixExpression StringLiteral /
+constantsztable state QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName sa
+constantsztable state QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName sa
+equals SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+sa SimpleName ArrayAccess NumberLiteral empty
+table id SimpleName Assignment ArrayAccess SimpleName sa
+table id SimpleName Assignment ArrayAccess NumberLiteral empty
+unknown path in StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unknown path in
+log SimpleName MethodInvocation InfixExpression SimpleName event
+warn SimpleName MethodInvocation InfixExpression StringLiteral unknown path in
+warn SimpleName MethodInvocation InfixExpression SimpleName event
+z path SimpleName MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation SimpleName tables prefix
+equals SimpleName MethodInvocation SimpleName tables prefix
+z path SimpleName InfixExpression InfixExpression MethodInvocation SimpleName z path
+z path SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+z path SimpleName InfixExpression InfixExpression MethodInvocation SimpleName tables prefix
+unexpected path StringLiteral InfixExpression SimpleName z path
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unexpected path
+log SimpleName MethodInvocation InfixExpression SimpleName z path
+warn SimpleName MethodInvocation InfixExpression StringLiteral unexpected path
+warn SimpleName MethodInvocation InfixExpression SimpleName z path
+update table state cache SimpleName MethodInvocation SimpleName table id
+t state SimpleName VariableDeclarationFragment MethodInvocation SimpleName update table state cache
+t state SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+table state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t state
+state transition to StringLiteral InfixExpression SimpleName t state
+state transition to StringLiteral InfixExpression StringLiteral @
+state transition to StringLiteral InfixExpression SimpleName event
+t state SimpleName InfixExpression StringLiteral @
+t state SimpleName InfixExpression SimpleName event
+@ StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral state transition to
+log SimpleName MethodInvocation InfixExpression SimpleName t state
+log SimpleName MethodInvocation InfixExpression StringLiteral @
+log SimpleName MethodInvocation InfixExpression SimpleName event
+debug SimpleName MethodInvocation InfixExpression StringLiteral state transition to
+debug SimpleName MethodInvocation InfixExpression SimpleName t state
+debug SimpleName MethodInvocation InfixExpression StringLiteral @
+debug SimpleName MethodInvocation InfixExpression SimpleName event
+table observer SimpleName SimpleType SingleVariableDeclaration SimpleName to
+to SimpleName MethodInvocation SimpleName state changed
+to SimpleName MethodInvocation SimpleName table id
+to SimpleName MethodInvocation SimpleName t state
+state changed SimpleName MethodInvocation SimpleName table id
+state changed SimpleName MethodInvocation SimpleName t state
+table id SimpleName MethodInvocation SimpleName t state
+table observer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName observers
+to SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName observers
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName to
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName state changed
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName table id
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName t state
+observers SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName observers
+z path SimpleName InfixExpression InfixExpression InfixExpression SimpleName table id
+tables prefix SimpleName InfixExpression StringLiteral /
+tables prefix SimpleName InfixExpression SimpleName table id
+tables prefix SimpleName InfixExpression QualifiedName constantsztable state
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable state
+table id SimpleName InfixExpression QualifiedName constantsztable state
+z path SimpleName MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+z path SimpleName MethodInvocation InfixExpression StringLiteral /
+z path SimpleName MethodInvocation InfixExpression SimpleName table id
+z path SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+equals SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression SimpleName table id
+equals SimpleName MethodInvocation InfixExpression QualifiedName constantsztable state
+tables prefix SimpleName InfixExpression StringLiteral /
+tables prefix SimpleName InfixExpression SimpleName table id
+tables prefix SimpleName InfixExpression QualifiedName constantsztable conf
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable conf
+table id SimpleName InfixExpression QualifiedName constantsztable conf
+z path SimpleName MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+z path SimpleName MethodInvocation InfixExpression StringLiteral /
+z path SimpleName MethodInvocation InfixExpression SimpleName table id
+z path SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+equals SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression SimpleName table id
+equals SimpleName MethodInvocation InfixExpression QualifiedName constantsztable conf
+tables prefix SimpleName InfixExpression StringLiteral /
+tables prefix SimpleName InfixExpression SimpleName table id
+tables prefix SimpleName InfixExpression QualifiedName constantsztable name
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable name
+table id SimpleName InfixExpression QualifiedName constantsztable name
+z path SimpleName MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+z path SimpleName MethodInvocation InfixExpression StringLiteral /
+z path SimpleName MethodInvocation InfixExpression SimpleName table id
+z path SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+equals SimpleName MethodInvocation InfixExpression SimpleName tables prefix
+equals SimpleName MethodInvocation InfixExpression StringLiteral /
+equals SimpleName MethodInvocation InfixExpression SimpleName table id
+equals SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+z path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName z path
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table state cache SimpleName MethodInvocation SimpleName remove
+table state cache SimpleName MethodInvocation SimpleName table id
+remove SimpleName MethodInvocation SimpleName table id
+event SimpleName MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName is trace enabled
+session expired StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral session expired
+log SimpleName MethodInvocation InfixExpression SimpleName event
+trace SimpleName MethodInvocation InfixExpression StringLiteral session expired
+trace SimpleName MethodInvocation InfixExpression SimpleName event
+table observer SimpleName SimpleType SingleVariableDeclaration SimpleName to
+to SimpleName MethodInvocation SimpleName session expired
+table observer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName observers
+to SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName observers
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName to
+observers SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName session expired
+observers SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName observers
+log SimpleName MethodInvocation SimpleName is trace enabled
+ignored StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral ignored
+log SimpleName MethodInvocation InfixExpression SimpleName event
+trace SimpleName MethodInvocation InfixExpression StringLiteral ignored
+trace SimpleName MethodInvocation InfixExpression SimpleName event
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName expired
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName expired
+event SimpleName MethodInvocation SwitchStatement SynchronizedStatement SimpleName observers
+get state SimpleName MethodInvocation SwitchStatement SynchronizedStatement SimpleName observers
+event SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName sync connected
+get state SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName sync connected
+expired SimpleName SwitchCase SwitchStatement SynchronizedStatement SimpleName observers
+expired SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sync connected
+observers SimpleName SynchronizedStatement SwitchStatement SwitchCase SimpleName sync connected
+unandled StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral unandled
+log SimpleName MethodInvocation InfixExpression SimpleName event
+warn SimpleName MethodInvocation InfixExpression StringLiteral unandled
+warn SimpleName MethodInvocation InfixExpression SimpleName event
+z type SimpleName SwitchStatement SwitchCase SimpleName node children changed
+z type SimpleName SwitchStatement SwitchCase SimpleName node created
+z type SimpleName SwitchStatement SwitchCase SimpleName node data changed
+node children changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node created
+node children changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node data changed
+node created SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node data changed
+node created SimpleName SwitchCase SwitchStatement SynchronizedStatement SimpleName observers
+node data changed SimpleName SwitchCase SwitchStatement SynchronizedStatement SimpleName observers
+node data changed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName node deleted
+observers SimpleName SynchronizedStatement SwitchStatement SwitchCase SimpleName node deleted
+observers SimpleName SynchronizedStatement SwitchStatement SwitchCase SimpleName none
+node deleted SimpleName SwitchCase SwitchStatement SwitchCase SimpleName none
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName z type
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName z type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block SwitchStatement SimpleName z type
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName z type
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName watched event
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+process SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+process SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+process SimpleName MethodDeclaration Block SwitchStatement SimpleName z type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

@@ -1,0 +1,197 @@
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation NumberLiteral empty
+next array size SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName relative key
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName next array size
+integermax value QualifiedName InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation InfixExpression QualifiedName integermax value
+relative key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next array size SimpleName MethodInvocation InfixExpression QualifiedName integermax value
+next array size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName integermax value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName integermax value
+assert equals SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+integermax value QualifiedName MethodInvocation MethodInvocation SimpleName relative key
+integermax value QualifiedName MethodInvocation MethodInvocation SimpleName next array size
+integermax value QualifiedName MethodInvocation MethodInvocation InfixExpression QualifiedName integermax value
+integermax value QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+relative key SimpleName MethodInvocation SimpleName next array size
+relative key SimpleName MethodInvocation QualifiedName integermax value
+next array size SimpleName MethodInvocation QualifiedName integermax value
+assert equals SimpleName MethodInvocation QualifiedName integermax value
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName relative key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next array size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName integermax value
+integermax value QualifiedName MethodInvocation MethodInvocation SimpleName relative key
+integermax value QualifiedName MethodInvocation MethodInvocation SimpleName next array size
+integermax value QualifiedName MethodInvocation MethodInvocation QualifiedName integermax value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleName test
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test

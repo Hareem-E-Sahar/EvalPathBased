@@ -1,0 +1,103 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+get type name SimpleName MethodInvocation SimpleName classification vertex
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas classification SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName classification vertex
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas classification
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName classification vertex
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas graph utils v SimpleName MethodInvocation SimpleName get property
+atlas graph utils v SimpleName MethodInvocation SimpleName classification vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName classification entity guid
+atlas graph utils v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName classification vertex
+get property SimpleName MethodInvocation SimpleName classification entity guid
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification vertex SimpleName MethodInvocation SimpleName classification entity guid
+classification vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification entity guid SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+ret SimpleName MethodInvocation SimpleName set entity guid
+ret SimpleName MethodInvocation MethodInvocation SimpleName atlas graph utils v
+ret SimpleName MethodInvocation MethodInvocation SimpleName get property
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification entity guid
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName atlas graph utils v
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName get property
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+set entity guid SimpleName MethodInvocation MethodInvocation SimpleName classification entity guid
+get classification entity status SimpleName MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation SimpleName set entity status
+ret SimpleName MethodInvocation MethodInvocation SimpleName get classification entity status
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+set entity status SimpleName MethodInvocation MethodInvocation SimpleName get classification entity status
+set entity status SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+is propagation enabled SimpleName MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation SimpleName set propagate
+ret SimpleName MethodInvocation MethodInvocation SimpleName is propagation enabled
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+set propagate SimpleName MethodInvocation MethodInvocation SimpleName is propagation enabled
+set propagate SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+get remove propagations SimpleName MethodInvocation SimpleName classification vertex
+ret SimpleName MethodInvocation SimpleName set remove propagations on entity delete
+ret SimpleName MethodInvocation MethodInvocation SimpleName get remove propagations
+ret SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+set remove propagations on entity delete SimpleName MethodInvocation MethodInvocation SimpleName get remove propagations
+set remove propagations on entity delete SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get property
+atlas graph utils v SimpleName MethodInvocation SimpleName classification vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName classification validity periods key
+atlas graph utils v SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName classification vertex
+get property SimpleName MethodInvocation SimpleName classification validity periods key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification vertex SimpleName MethodInvocation SimpleName classification validity periods key
+classification vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+classification validity periods key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+str validity periods SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+str validity periods SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+str validity periods SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+str validity periods SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification validity periods key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str validity periods
+atlas json SimpleName MethodInvocation SimpleName from json
+atlas json SimpleName MethodInvocation SimpleName str validity periods
+atlas json SimpleName MethodInvocation SimpleName time boundaries list type
+from json SimpleName MethodInvocation SimpleName str validity periods
+from json SimpleName MethodInvocation SimpleName time boundaries list type
+str validity periods SimpleName MethodInvocation SimpleName time boundaries list type
+ret SimpleName MethodInvocation SimpleName set validity periods
+ret SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+ret SimpleName MethodInvocation MethodInvocation SimpleName from json
+ret SimpleName MethodInvocation MethodInvocation SimpleName str validity periods
+ret SimpleName MethodInvocation MethodInvocation SimpleName time boundaries list type
+set validity periods SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+set validity periods SimpleName MethodInvocation MethodInvocation SimpleName from json
+set validity periods SimpleName MethodInvocation MethodInvocation SimpleName str validity periods
+set validity periods SimpleName MethodInvocation MethodInvocation SimpleName time boundaries list type
+map attributes SimpleName MethodInvocation SimpleName classification vertex
+map attributes SimpleName MethodInvocation SimpleName ret
+classification vertex SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName to atlas classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas classification SimpleName SimpleType MethodDeclaration SimpleName to atlas classification
+atlas classification SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+atlas classification SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+to atlas classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+to atlas classification SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas classification SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

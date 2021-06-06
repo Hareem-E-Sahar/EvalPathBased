@@ -1,0 +1,32 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+state SimpleName MethodInvocation SimpleName compare and set
+state SimpleName MethodInvocation SimpleName initial
+state SimpleName MethodInvocation SimpleName added
+compare and set SimpleName MethodInvocation SimpleName initial
+compare and set SimpleName MethodInvocation SimpleName added
+initial SimpleName MethodInvocation SimpleName added
+result queue SimpleName MethodInvocation SimpleName add
+result queue SimpleName MethodInvocation SimpleName o
+add SimpleName MethodInvocation SimpleName o
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation InfixExpression SimpleName added
+get SimpleName MethodInvocation InfixExpression SimpleName added
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral tried to add more than one result
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add result
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName add result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+add result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

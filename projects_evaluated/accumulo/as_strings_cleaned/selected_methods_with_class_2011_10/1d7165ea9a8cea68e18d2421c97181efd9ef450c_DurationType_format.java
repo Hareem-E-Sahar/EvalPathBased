@@ -1,0 +1,39 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InfixExpression IfStatement ReturnStatement StringLiteral -
+long SimpleName SimpleType CastExpression SimpleName obj
+millis SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+millis SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName millis
+err min SimpleName InfixExpression InfixExpression InfixExpression SimpleName err max
+seconds SimpleName MethodInvocation SimpleName millis
+seconds SimpleName MethodInvocation SimpleName err min
+seconds SimpleName MethodInvocation SimpleName err max
+millis SimpleName MethodInvocation SimpleName err min
+millis SimpleName MethodInvocation SimpleName err max
+err min SimpleName MethodInvocation SimpleName err max
+duration SimpleName MethodInvocation SimpleName format
+duration SimpleName MethodInvocation SimpleName millis
+format SimpleName MethodInvocation SimpleName millis
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName format
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

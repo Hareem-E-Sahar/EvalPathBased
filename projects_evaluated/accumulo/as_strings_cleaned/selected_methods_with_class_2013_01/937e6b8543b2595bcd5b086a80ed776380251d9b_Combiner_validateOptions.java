@@ -1,0 +1,107 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName all option
+contains key SimpleName MethodInvocation SimpleName all option
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName all option
+get SimpleName MethodInvocation SimpleName all option
+boolean SimpleName MethodInvocation SimpleName parse boolean
+boolean SimpleName MethodInvocation MethodInvocation SimpleName options
+boolean SimpleName MethodInvocation MethodInvocation SimpleName get
+boolean SimpleName MethodInvocation MethodInvocation SimpleName all option
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName options
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName get
+parse boolean SimpleName MethodInvocation MethodInvocation SimpleName all option
+combine all columns SimpleName Assignment MethodInvocation SimpleName boolean
+combine all columns SimpleName Assignment MethodInvocation SimpleName parse boolean
+combine all columns SimpleName Assignment MethodInvocation MethodInvocation SimpleName options
+combine all columns SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+combine all columns SimpleName Assignment MethodInvocation MethodInvocation SimpleName all option
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName all option
+get SimpleName MethodInvocation SimpleName all option
+bad boolean StringLiteral InfixExpression SimpleName all option
+bad boolean StringLiteral InfixExpression StringLiteral :
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName options
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName get
+bad boolean StringLiteral InfixExpression MethodInvocation SimpleName all option
+all option SimpleName InfixExpression StringLiteral :
+all option SimpleName InfixExpression MethodInvocation SimpleName options
+all option SimpleName InfixExpression MethodInvocation SimpleName get
+all option SimpleName InfixExpression MethodInvocation SimpleName all option
+: StringLiteral InfixExpression MethodInvocation SimpleName options
+: StringLiteral InfixExpression MethodInvocation SimpleName get
+: StringLiteral InfixExpression MethodInvocation SimpleName all option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad boolean
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName all option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral :
+combine all columns SimpleName IfStatement ReturnStatement BooleanLiteral true
+options SimpleName MethodInvocation SimpleName contains key
+options SimpleName MethodInvocation SimpleName columns option
+contains key SimpleName MethodInvocation SimpleName columns option
+options must include StringLiteral InfixExpression SimpleName all option
+options must include StringLiteral InfixExpression StringLiteral or
+options must include StringLiteral InfixExpression SimpleName columns option
+all option SimpleName InfixExpression StringLiteral or
+all option SimpleName InfixExpression SimpleName columns option
+or StringLiteral InfixExpression SimpleName columns option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral options must include
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName all option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral or
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName columns option
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName columns option
+get SimpleName MethodInvocation SimpleName columns option
+encoded columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+encoded columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+encoded columns SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns option
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName encoded columns
+encoded columns SimpleName MethodInvocation SimpleName length
+encoded columns SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty columns specified in option StringLiteral InfixExpression SimpleName columns option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty columns specified in option
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName columns option
+string SimpleName SimpleType SingleVariableDeclaration SimpleName columns
+encoded columns SimpleName MethodInvocation SimpleName split
+encoded columns SimpleName MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+column set SimpleName MethodInvocation SimpleName is valid encoding
+column set SimpleName MethodInvocation SimpleName columns
+is valid encoding SimpleName MethodInvocation SimpleName columns
+invalid column encoding StringLiteral InfixExpression SimpleName encoded columns
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid column encoding
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName encoded columns
+columns SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName encoded columns
+columns SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+columns SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate options
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName validate options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName validate options
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+validate options SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

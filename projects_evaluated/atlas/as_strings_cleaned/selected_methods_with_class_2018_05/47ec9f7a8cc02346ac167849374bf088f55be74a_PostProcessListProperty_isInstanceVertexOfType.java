@@ -1,0 +1,51 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation QualifiedName constantsentity type property key
+property SimpleName MethodInvocation QualifiedName constantsentity type property key
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName is present
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation QualifiedName constantsentity type property key
+property SimpleName MethodInvocation QualifiedName constantsentity type property key
+v SimpleName MethodInvocation MethodInvocation SimpleName value
+property SimpleName MethodInvocation MethodInvocation SimpleName value
+constantsentity type property key QualifiedName MethodInvocation MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName type name
+equals SimpleName MethodInvocation SimpleName type name
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is instance vertex of type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is instance vertex of type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is instance vertex of type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+is instance vertex of type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+is instance vertex of type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is instance vertex of type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+is instance vertex of type SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is instance vertex of type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is instance vertex of type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

@@ -1,0 +1,164 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName map file info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName map file info
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file map
+map file info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file map
+boolean PrimitiveType SingleVariableDeclaration SimpleName set time
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file map SimpleName MethodInvocation SimpleName size
+entries SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName file map
+entries SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName map file info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName map file info
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+map file info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+file map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation FieldAccess SimpleName estimated size
+get value SimpleName MethodInvocation FieldAccess SimpleName estimated size
+data file value SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName estimated size
+data file value SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+entry SimpleName MethodInvocation FieldAccess ClassInstanceCreation NumberLiteral l
+get value SimpleName MethodInvocation FieldAccess ClassInstanceCreation NumberLiteral l
+estimated size SimpleName FieldAccess ClassInstanceCreation NumberLiteral l
+entries SimpleName MethodInvocation SimpleName put
+entries SimpleName MethodInvocation MethodInvocation SimpleName entry
+entries SimpleName MethodInvocation MethodInvocation SimpleName get key
+entries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data file value
+entries SimpleName MethodInvocation ClassInstanceCreation FieldAccess SimpleName estimated size
+entries SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data file value
+put SimpleName MethodInvocation ClassInstanceCreation FieldAccess SimpleName estimated size
+put SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+entry SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l
+get key SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral is closed
+extent SimpleName InfixExpression StringLiteral is closed
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tablet
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extent
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is closed
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName now
+current time millis SimpleName MethodInvocation InfixExpression SimpleName now
+lock wait SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+lock wait SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+lock wait SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lock wait
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+tablet server SimpleName MethodInvocation SimpleName get system configuration
+tablet server SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+tablet server SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral rpc timeout
+get time in millis SimpleName MethodInvocation QualifiedName propertygeneral rpc timeout
+lock wait SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName tablet server
+lock wait SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get system configuration
+lock wait SimpleName InfixExpression MethodInvocation SimpleName get time in millis
+lock wait SimpleName InfixExpression MethodInvocation QualifiedName propertygeneral rpc timeout
+lock wait SimpleName InfixExpression NumberLiteral .
+timeout waiting StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName lock wait
+timeout waiting StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+timeout waiting StringLiteral InfixExpression StringLiteral seconds to get tablet lock
+lock wait SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral seconds to get tablet lock
+. NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral seconds to get tablet lock
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral timeout waiting
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral seconds to get tablet lock
+writes in progress SimpleName InfixExpression NumberLiteral empty
+writes in progress < StringLiteral InfixExpression SimpleName writes in progress
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral writes in progress <
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName writes in progress
+closed SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType long
+datafile manager SimpleName MethodInvocation SimpleName import map files
+datafile manager SimpleName MethodInvocation SimpleName tid
+datafile manager SimpleName MethodInvocation SimpleName entries
+datafile manager SimpleName MethodInvocation SimpleName set time
+import map files SimpleName MethodInvocation SimpleName tid
+import map files SimpleName MethodInvocation SimpleName entries
+import map files SimpleName MethodInvocation SimpleName set time
+tid SimpleName MethodInvocation SimpleName entries
+tid SimpleName MethodInvocation SimpleName set time
+entries SimpleName MethodInvocation SimpleName set time
+system SimpleName MethodInvocation SimpleName current time millis
+last map file import time SimpleName Assignment MethodInvocation SimpleName system
+last map file import time SimpleName Assignment MethodInvocation SimpleName current time millis
+tablet server SimpleName MethodInvocation SimpleName execute split
+initiate major compaction SimpleName MethodInvocation QualifiedName major compaction reasonnormal
+writes in progress SimpleName InfixExpression NumberLiteral empty
+writes in progress < StringLiteral InfixExpression SimpleName writes in progress
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral writes in progress <
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName writes in progress
+writes in progress SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import map files
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file map
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName set time
+void PrimitiveType MethodDeclaration SimpleName import map files
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName set time
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+import map files SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+import map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+import map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file map
+import map files SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+import map files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName set time
+import map files SimpleName MethodDeclaration SimpleType SimpleName io exception
+import map files SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file map
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file map
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+file map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+set time SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import map files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import map files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set time
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

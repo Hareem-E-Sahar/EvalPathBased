@@ -1,0 +1,31 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+object output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+oos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object output stream
+oos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+object output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oos
+oos SimpleName MethodInvocation SimpleName write object
+oos SimpleName MethodInvocation SimpleName o
+write object SimpleName MethodInvocation SimpleName o
+oos SimpleName MethodInvocation SimpleName close
+baos SimpleName MethodInvocation SimpleName to byte array
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SimpleName serialize
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+byte PrimitiveType ArrayType MethodDeclaration SimpleName serialize
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName o
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName serialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName serialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

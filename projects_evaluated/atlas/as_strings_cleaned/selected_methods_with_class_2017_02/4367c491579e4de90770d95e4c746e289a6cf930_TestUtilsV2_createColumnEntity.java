@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName column type
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName column type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+random string utils SimpleName MethodInvocation SimpleName random alphanumeric
+random string utils SimpleName MethodInvocation NumberLiteral empty
+random alphanumeric SimpleName MethodInvocation NumberLiteral empty
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation MethodInvocation SimpleName random string utils
+entity SimpleName MethodInvocation MethodInvocation SimpleName random alphanumeric
+entity SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random string utils
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName random alphanumeric
+set attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+name SimpleName MethodInvocation MethodInvocation SimpleName random string utils
+name SimpleName MethodInvocation MethodInvocation SimpleName random alphanumeric
+name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral type
+entity SimpleName MethodInvocation StringLiteral varchar )
+set attribute SimpleName MethodInvocation StringLiteral type
+set attribute SimpleName MethodInvocation StringLiteral varchar )
+type StringLiteral MethodInvocation StringLiteral varchar )
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName table type
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName table id
+table type SimpleName ClassInstanceCreation SimpleName table id
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral table
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName table type
+entity SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+set attribute SimpleName MethodInvocation StringLiteral table
+set attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+set attribute SimpleName MethodInvocation ClassInstanceCreation SimpleName table type
+set attribute SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleName table type
+table StringLiteral MethodInvocation ClassInstanceCreation SimpleName table id
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName create column entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+static Modifier MethodDeclaration SimpleType SimpleName atlas entity
+static Modifier MethodDeclaration SimpleName create column entity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration Block ReturnStatement SimpleName entity
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName create column entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+create column entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create column entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+create column entity SimpleName MethodDeclaration Block ReturnStatement SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName create column entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create column entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id

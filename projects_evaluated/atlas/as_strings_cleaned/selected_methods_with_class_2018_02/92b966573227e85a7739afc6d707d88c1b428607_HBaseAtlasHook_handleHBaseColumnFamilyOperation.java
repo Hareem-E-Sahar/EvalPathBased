@@ -1,0 +1,129 @@
+h column descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName h column descriptor
+table name SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName column family
+operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> h base atlas hookhandle h base column family operation
+debug SimpleName MethodInvocation StringLiteral ==> h base atlas hookhandle h base column family operation
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ugi
+user group information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ugi
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get active user
+user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+user SimpleName MethodInvocation SimpleName get short name
+user name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName user
+user name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get short name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+owner SimpleName VariableDeclarationFragment SimpleName user name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+table name SimpleName MethodInvocation SimpleName get namespace as string
+table name space SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table name space SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace as string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name space
+table name SimpleName MethodInvocation SimpleName get name with namespace incl as string
+table name space SimpleName Assignment MethodInvocation SimpleName table name
+table name space SimpleName Assignment MethodInvocation SimpleName get name with namespace incl as string
+h column descriptor SimpleName MethodInvocation SimpleName get configuration
+hbase conf SimpleName Assignment MethodInvocation SimpleName h column descriptor
+hbase conf SimpleName Assignment MethodInvocation SimpleName get configuration
+h base operation context SimpleName SimpleType ClassInstanceCreation SimpleName table name space
+h base operation context SimpleName SimpleType ClassInstanceCreation SimpleName table name
+h base operation context SimpleName SimpleType ClassInstanceCreation SimpleName h column descriptor
+h base operation context SimpleName SimpleType ClassInstanceCreation SimpleName column family
+h base operation context SimpleName SimpleType ClassInstanceCreation SimpleName operation
+table name space SimpleName ClassInstanceCreation SimpleName table name
+table name space SimpleName ClassInstanceCreation SimpleName h column descriptor
+table name space SimpleName ClassInstanceCreation SimpleName column family
+table name space SimpleName ClassInstanceCreation SimpleName operation
+table name space SimpleName ClassInstanceCreation SimpleName ugi
+table name SimpleName ClassInstanceCreation SimpleName h column descriptor
+table name SimpleName ClassInstanceCreation SimpleName column family
+table name SimpleName ClassInstanceCreation SimpleName operation
+table name SimpleName ClassInstanceCreation SimpleName ugi
+table name SimpleName ClassInstanceCreation SimpleName user name
+h column descriptor SimpleName ClassInstanceCreation SimpleName column family
+h column descriptor SimpleName ClassInstanceCreation SimpleName operation
+h column descriptor SimpleName ClassInstanceCreation SimpleName ugi
+h column descriptor SimpleName ClassInstanceCreation SimpleName user name
+h column descriptor SimpleName ClassInstanceCreation SimpleName owner
+column family SimpleName ClassInstanceCreation SimpleName operation
+column family SimpleName ClassInstanceCreation SimpleName ugi
+column family SimpleName ClassInstanceCreation SimpleName user name
+column family SimpleName ClassInstanceCreation SimpleName owner
+column family SimpleName ClassInstanceCreation SimpleName hbase conf
+operation SimpleName ClassInstanceCreation SimpleName ugi
+operation SimpleName ClassInstanceCreation SimpleName user name
+operation SimpleName ClassInstanceCreation SimpleName owner
+operation SimpleName ClassInstanceCreation SimpleName hbase conf
+ugi SimpleName ClassInstanceCreation SimpleName user name
+ugi SimpleName ClassInstanceCreation SimpleName owner
+ugi SimpleName ClassInstanceCreation SimpleName hbase conf
+user name SimpleName ClassInstanceCreation SimpleName owner
+user name SimpleName ClassInstanceCreation SimpleName hbase conf
+owner SimpleName ClassInstanceCreation SimpleName hbase conf
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName h base operation context
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table name space
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table name
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName h column descriptor
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName column family
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName operation
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ugi
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user name
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName owner
+hbase operation context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hbase conf
+h base operation context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hbase operation context
+create atlas instances SimpleName MethodInvocation SimpleName hbase operation context
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== h base atlas hookhandle h base column family operation {}
+log SimpleName MethodInvocation SimpleName hbase operation context
+debug SimpleName MethodInvocation StringLiteral <== h base atlas hookhandle h base column family operation {}
+debug SimpleName MethodInvocation SimpleName hbase operation context
+<== h base atlas hookhandle h base column family operation {} StringLiteral MethodInvocation SimpleName hbase operation context
+private Modifier MethodDeclaration SimpleType SimpleName h base operation context
+private Modifier MethodDeclaration SimpleName handle h base column family operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h column descriptor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName h column descriptor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName column family
+h base operation context SimpleName SimpleType MethodDeclaration SimpleName handle h base column family operation
+h base operation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName h column descriptor
+h base operation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+h base operation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName column family
+h base operation context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName operation
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName h column descriptor
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h column descriptor
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table name
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column family
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName operation
+handle h base column family operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+handle h base column family operation SimpleName MethodDeclaration Block ReturnStatement SimpleName hbase operation context
+h column descriptor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+h column descriptor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family
+h column descriptor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+column family SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName h base operation context
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle h base column family operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h column descriptor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName h base operation context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle h base column family operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h column descriptor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column family
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation

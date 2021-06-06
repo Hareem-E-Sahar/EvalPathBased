@@ -1,0 +1,55 @@
+identifier helperinfo QualifiedName SimpleType SingleVariableDeclaration SimpleName info
+info SimpleName MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName info
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName info
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+info SimpleName MethodInvocation SimpleName get raw
+validator SimpleName MethodInvocation SimpleName check
+validator SimpleName MethodInvocation MethodInvocation SimpleName string utils
+validator SimpleName MethodInvocation MethodInvocation SimpleName is not empty
+validator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+validator SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+validator SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+validator SimpleName MethodInvocation MethodInvocation SimpleName info
+validator SimpleName MethodInvocation MethodInvocation SimpleName get raw
+check SimpleName MethodInvocation MethodInvocation SimpleName string utils
+check SimpleName MethodInvocation MethodInvocation SimpleName is not empty
+check SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+check SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+check SimpleName MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+check SimpleName MethodInvocation MethodInvocation SimpleName info
+check SimpleName MethodInvocation MethodInvocation SimpleName get raw
+string utils SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+is not empty SimpleName MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+info SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas error codeinvalid dsl unknown type
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+is not empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+is not empty SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raw
+atlas error codeinvalid dsl unknown type QualifiedName MethodInvocation MethodInvocation SimpleName info
+atlas error codeinvalid dsl unknown type QualifiedName MethodInvocation MethodInvocation SimpleName get raw
+info SimpleName MethodInvocation SimpleName get type name
+register active SimpleName MethodInvocation MethodInvocation SimpleName info
+register active SimpleName MethodInvocation MethodInvocation SimpleName get type name
+active type SimpleName Assignment SimpleName unknown type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register active
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+void PrimitiveType MethodDeclaration SimpleName register active
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName info
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identifier helperinfo
+register active SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register active
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register active
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info

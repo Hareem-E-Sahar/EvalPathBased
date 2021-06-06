@@ -1,0 +1,14 @@
+readahead in progress SimpleName Assignment BooleanLiteral true
+readahead pool SimpleName MethodInvocation SimpleName execute
+readahead pool SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName reader
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName reader
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName initiate read ahead
+void PrimitiveType MethodDeclaration SimpleName initiate read ahead
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initiate read ahead
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initiate read ahead

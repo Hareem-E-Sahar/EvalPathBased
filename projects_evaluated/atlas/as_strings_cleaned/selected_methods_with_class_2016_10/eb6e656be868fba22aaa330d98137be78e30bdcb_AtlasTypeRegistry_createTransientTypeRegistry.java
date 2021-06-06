@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas transient type registry
+public Modifier MethodDeclaration SimpleName create transient type registry
+atlas transient type registry SimpleName SimpleType MethodDeclaration SimpleName create transient type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas transient type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transient type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas transient type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transient type registry

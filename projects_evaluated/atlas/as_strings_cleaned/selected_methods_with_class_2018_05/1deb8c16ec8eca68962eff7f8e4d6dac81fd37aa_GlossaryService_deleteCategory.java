@@ -1,0 +1,78 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName category guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary servicedelete category
+log SimpleName MethodInvocation SimpleName category guid
+debug SimpleName MethodInvocation StringLiteral ==> glossary servicedelete category
+debug SimpleName MethodInvocation SimpleName category guid
+==> glossary servicedelete category StringLiteral MethodInvocation SimpleName category guid
+objects SimpleName MethodInvocation SimpleName is null
+objects SimpleName MethodInvocation SimpleName category guid
+is null SimpleName MethodInvocation SimpleName category guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral category guid is nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral category guid is nullempty
+get atlas glossary category skeleton SimpleName MethodInvocation SimpleName category guid
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation MethodInvocation SimpleName get atlas glossary category skeleton
+data access SimpleName MethodInvocation MethodInvocation SimpleName category guid
+load SimpleName MethodInvocation MethodInvocation SimpleName get atlas glossary category skeleton
+load SimpleName MethodInvocation MethodInvocation SimpleName category guid
+store object SimpleName VariableDeclarationFragment MethodInvocation SimpleName data access
+store object SimpleName VariableDeclarationFragment MethodInvocation SimpleName load
+store object SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get atlas glossary category skeleton
+store object SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName category guid
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store object
+glossary category utils SimpleName MethodInvocation SimpleName process category relations
+glossary category utils SimpleName MethodInvocation SimpleName store object
+glossary category utils SimpleName MethodInvocation SimpleName store object
+glossary category utils SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationdelete
+process category relations SimpleName MethodInvocation SimpleName store object
+process category relations SimpleName MethodInvocation SimpleName store object
+process category relations SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationdelete
+store object SimpleName MethodInvocation SimpleName store object
+store object SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationdelete
+store object SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationdelete
+data access SimpleName MethodInvocation SimpleName delete
+data access SimpleName MethodInvocation SimpleName category guid
+delete SimpleName MethodInvocation SimpleName category guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary servicedelete category
+debug SimpleName MethodInvocation StringLiteral <== glossary servicedelete category
+debug enabled SimpleName IfStatement Block IfStatement SimpleName debug enabled
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName delete category
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName category guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+void PrimitiveType MethodDeclaration SimpleName delete category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName category guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug enabled
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug enabled
+delete category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category guid
+delete category SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+delete category SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+delete category SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+category guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

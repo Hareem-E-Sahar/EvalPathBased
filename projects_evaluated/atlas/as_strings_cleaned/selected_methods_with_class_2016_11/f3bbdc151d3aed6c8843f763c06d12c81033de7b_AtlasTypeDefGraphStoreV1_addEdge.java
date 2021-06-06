@@ -1,0 +1,44 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName out vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName in vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+atlas graph SimpleName MethodInvocation SimpleName add edge
+atlas graph SimpleName MethodInvocation SimpleName out vertex
+atlas graph SimpleName MethodInvocation SimpleName in vertex
+atlas graph SimpleName MethodInvocation SimpleName edge label
+add edge SimpleName MethodInvocation SimpleName out vertex
+add edge SimpleName MethodInvocation SimpleName in vertex
+add edge SimpleName MethodInvocation SimpleName edge label
+out vertex SimpleName MethodInvocation SimpleName in vertex
+out vertex SimpleName MethodInvocation SimpleName edge label
+in vertex SimpleName MethodInvocation SimpleName edge label
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName add edge
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName out vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName in vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName add edge
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName out vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName in vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in vertex
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+add edge SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+out vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in vertex
+out vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+in vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName add edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label

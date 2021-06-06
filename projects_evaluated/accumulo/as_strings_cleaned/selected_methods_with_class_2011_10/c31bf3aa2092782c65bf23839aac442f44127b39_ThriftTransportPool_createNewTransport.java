@@ -1,0 +1,167 @@
+thrift transport key SimpleName SimpleType SingleVariableDeclaration SimpleName cache key
+t transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transport
+cache key SimpleName MethodInvocation SimpleName get timeout
+cache key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get timeout SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cache key SimpleName MethodInvocation SimpleName get location
+cache key SimpleName MethodInvocation SimpleName get port
+address util SimpleName MethodInvocation SimpleName create t socket
+address util SimpleName MethodInvocation MethodInvocation SimpleName cache key
+address util SimpleName MethodInvocation MethodInvocation SimpleName get location
+address util SimpleName MethodInvocation MethodInvocation SimpleName cache key
+address util SimpleName MethodInvocation MethodInvocation SimpleName get port
+create t socket SimpleName MethodInvocation MethodInvocation SimpleName cache key
+create t socket SimpleName MethodInvocation MethodInvocation SimpleName get location
+create t socket SimpleName MethodInvocation MethodInvocation SimpleName cache key
+create t socket SimpleName MethodInvocation MethodInvocation SimpleName get port
+cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+transport SimpleName Assignment MethodInvocation SimpleName address util
+transport SimpleName Assignment MethodInvocation SimpleName create t socket
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName cache key
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName get location
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName cache key
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName get port
+cache key SimpleName MethodInvocation SimpleName get location
+cache key SimpleName MethodInvocation SimpleName get port
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation MethodInvocation SimpleName cache key
+address util SimpleName MethodInvocation MethodInvocation SimpleName get location
+address util SimpleName MethodInvocation MethodInvocation SimpleName cache key
+address util SimpleName MethodInvocation MethodInvocation SimpleName get port
+parse address SimpleName MethodInvocation MethodInvocation SimpleName cache key
+parse address SimpleName MethodInvocation MethodInvocation SimpleName get location
+parse address SimpleName MethodInvocation MethodInvocation SimpleName cache key
+parse address SimpleName MethodInvocation MethodInvocation SimpleName get port
+cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+cache key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+get location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+cache key SimpleName MethodInvocation SimpleName get timeout
+t timeout transport SimpleName MethodInvocation SimpleName create
+t timeout transport SimpleName MethodInvocation MethodInvocation SimpleName address util
+t timeout transport SimpleName MethodInvocation MethodInvocation SimpleName parse address
+t timeout transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+t timeout transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get location
+t timeout transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+t timeout transport SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+t timeout transport SimpleName MethodInvocation MethodInvocation SimpleName cache key
+t timeout transport SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+create SimpleName MethodInvocation MethodInvocation SimpleName address util
+create SimpleName MethodInvocation MethodInvocation SimpleName parse address
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get location
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+create SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get port
+create SimpleName MethodInvocation MethodInvocation SimpleName cache key
+create SimpleName MethodInvocation MethodInvocation SimpleName get timeout
+address util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+address util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timeout
+parse address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cache key
+parse address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timeout
+transport SimpleName Assignment MethodInvocation SimpleName t timeout transport
+transport SimpleName Assignment MethodInvocation SimpleName create
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName address util
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName parse address
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName cache key
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName get timeout
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+t transport exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+thrift util SimpleName MethodInvocation SimpleName transport factory
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName get transport
+transport factory SimpleName MethodInvocation MethodInvocation SimpleName get transport
+thrift util SimpleName MethodInvocation MethodInvocation SimpleName transport
+transport factory SimpleName MethodInvocation MethodInvocation SimpleName transport
+get transport SimpleName MethodInvocation SimpleName transport
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName thrift util
+transport SimpleName Assignment MethodInvocation MethodInvocation SimpleName transport factory
+transport SimpleName Assignment MethodInvocation SimpleName get transport
+transport SimpleName Assignment MethodInvocation SimpleName transport
+transport SimpleName MethodInvocation SimpleName open
+log SimpleName MethodInvocation SimpleName is trace enabled
+cache key SimpleName MethodInvocation SimpleName get location
+cache key SimpleName MethodInvocation SimpleName get port
+creating new connection to connection to StringLiteral InfixExpression MethodInvocation SimpleName cache key
+creating new connection to connection to StringLiteral InfixExpression MethodInvocation SimpleName get location
+creating new connection to connection to StringLiteral InfixExpression StringLiteral :
+creating new connection to connection to StringLiteral InfixExpression MethodInvocation SimpleName cache key
+creating new connection to connection to StringLiteral InfixExpression MethodInvocation SimpleName get port
+cache key SimpleName MethodInvocation InfixExpression StringLiteral :
+get location SimpleName MethodInvocation InfixExpression StringLiteral :
+cache key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+cache key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+get location SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+get location SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+: StringLiteral InfixExpression MethodInvocation SimpleName cache key
+: StringLiteral InfixExpression MethodInvocation SimpleName get port
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation InfixExpression StringLiteral creating new connection to connection to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get location
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+trace SimpleName MethodInvocation InfixExpression StringLiteral creating new connection to connection to
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get location
+trace SimpleName MethodInvocation InfixExpression StringLiteral :
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cache key
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get port
+cached t transport SimpleName SimpleType ClassInstanceCreation SimpleName transport
+cached t transport SimpleName SimpleType ClassInstanceCreation SimpleName cache key
+transport SimpleName ClassInstanceCreation SimpleName cache key
+tsc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cached t transport
+tsc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transport
+tsc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cache key
+cached t transport SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tsc
+cached connection SimpleName SimpleType ClassInstanceCreation SimpleName tsc
+cc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cached connection
+cc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName tsc
+cached connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cc
+cc SimpleName MethodInvocation SimpleName set reserved
+cc SimpleName MethodInvocation BooleanLiteral true
+set reserved SimpleName MethodInvocation BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+cache SimpleName MethodInvocation SimpleName get
+cache SimpleName MethodInvocation SimpleName cache key
+get SimpleName MethodInvocation SimpleName cache key
+ccl SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+ccl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ccl SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache key
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+cache SimpleName MethodInvocation SimpleName put
+cache SimpleName MethodInvocation SimpleName cache key
+cache SimpleName MethodInvocation SimpleName ccl
+put SimpleName MethodInvocation SimpleName cache key
+put SimpleName MethodInvocation SimpleName ccl
+cache key SimpleName MethodInvocation SimpleName ccl
+ccl SimpleName MethodInvocation SimpleName add
+ccl SimpleName MethodInvocation SimpleName cc
+add SimpleName MethodInvocation SimpleName cc
+private Modifier MethodDeclaration SimpleType SimpleName t transport
+private Modifier MethodDeclaration SimpleName create new transport
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thrift transport key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache key
+private Modifier MethodDeclaration SimpleType SimpleName t transport exception
+private Modifier MethodDeclaration Block ReturnStatement QualifiedName cctransport
+t transport SimpleName SimpleType MethodDeclaration SimpleName create new transport
+t transport SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cache key
+t transport SimpleName SimpleType MethodDeclaration SimpleType SimpleName t transport exception
+create new transport SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName thrift transport key
+create new transport SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache key
+create new transport SimpleName MethodDeclaration SimpleType SimpleName t transport exception
+create new transport SimpleName MethodDeclaration Block ReturnStatement QualifiedName cctransport
+cache key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport
+public Modifier TypeDeclaration MethodDeclaration SimpleName create new transport
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create new transport
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t transport exception

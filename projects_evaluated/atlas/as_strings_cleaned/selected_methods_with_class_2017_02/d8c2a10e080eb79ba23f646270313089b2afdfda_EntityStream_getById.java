@@ -1,0 +1,12 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get by id
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+get by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

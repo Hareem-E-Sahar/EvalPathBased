@@ -1,0 +1,128 @@
+namespace SimpleName VariableDeclarationFragment StringLiteral renamed
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral renamed
+namespace SimpleName VariableDeclarationFragment StringLiteral cloned
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral cloned
+table name SimpleName VariableDeclarationFragment StringLiteral table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral table
+table name SimpleName VariableDeclarationFragment StringLiteral renamedtable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral renamedtable
+table name SimpleName VariableDeclarationFragment StringLiteral clonedtable
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral clonedtable
+accumulo SimpleName MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation StringLiteral root
+accumulo SimpleName MethodInvocation SimpleName secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation SimpleName secret
+root StringLiteral MethodInvocation SimpleName secret
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+create SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName namespace
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName namespace
+create SimpleName MethodInvocation SimpleName namespace
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+rename SimpleName MethodInvocation SimpleName table name
+rename SimpleName MethodInvocation SimpleName table name
+table name SimpleName MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+clone SimpleName MethodInvocation SimpleName table name
+clone SimpleName MethodInvocation SimpleName table name
+clone SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName MethodInvocation SimpleName table name
+table name SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table operations
+assert true SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test rename and clone table to new namespace
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test rename and clone table to new namespace
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test rename and clone table to new namespace
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test rename and clone table to new namespace SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test rename and clone table to new namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test rename and clone table to new namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

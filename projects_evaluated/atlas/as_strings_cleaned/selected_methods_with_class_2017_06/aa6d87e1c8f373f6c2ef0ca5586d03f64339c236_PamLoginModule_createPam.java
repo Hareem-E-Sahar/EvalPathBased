@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service
+pam SimpleName SimpleType ClassInstanceCreation SimpleName service
+pam SimpleName Assignment ClassInstanceCreation SimpleType SimpleName pam
+pam SimpleName Assignment ClassInstanceCreation SimpleName service
+pam exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral error initializing pam
+le SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName login exception
+le SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral error initializing pam
+login exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName le
+le SimpleName MethodInvocation SimpleName init cause
+le SimpleName MethodInvocation SimpleName ex
+init cause SimpleName MethodInvocation SimpleName ex
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create pam
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+private Modifier MethodDeclaration SimpleType SimpleName login exception
+void PrimitiveType MethodDeclaration SimpleName create pam
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service
+void PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+create pam SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create pam SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+create pam SimpleName MethodDeclaration SimpleType SimpleName login exception
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName login exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create pam
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create pam
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

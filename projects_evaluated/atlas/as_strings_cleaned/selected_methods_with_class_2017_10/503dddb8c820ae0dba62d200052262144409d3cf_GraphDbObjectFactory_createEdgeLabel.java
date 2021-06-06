@@ -1,0 +1,26 @@
+edge label SimpleName SimpleType SingleVariableDeclaration SimpleName label
+atlas janus edge label SimpleName SimpleType ClassInstanceCreation SimpleName label
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas janus edge label
+public Modifier MethodDeclaration SimpleName create edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+static Modifier MethodDeclaration SimpleType SimpleName atlas janus edge label
+static Modifier MethodDeclaration SimpleName create edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName label
+atlas janus edge label SimpleName SimpleType MethodDeclaration SimpleName create edge label
+atlas janus edge label SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName label
+create edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge label
+create edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas janus edge label
+public Modifier TypeDeclaration MethodDeclaration SimpleName create edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas janus edge label
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName label

@@ -1,0 +1,90 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral deprecation
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+fake option SimpleName MethodInvocation SimpleName get long opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName fake option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName fake option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral fake
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName Assignment ClassInstanceCreation StringLiteral fake
+hdfs zoo instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+instance SimpleName Assignment MethodInvocation SimpleName get default instance
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo configuration
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName get site configuration
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+zoo keeper instance SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option values
+cl SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option values SimpleName MethodInvocation MethodInvocation SimpleName zoo keeper instance
+get option values SimpleName MethodInvocation MethodInvocation SimpleName get opt
+zk opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+zk opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option values
+zk opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zoo keeper instance
+zk opts SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+zk opts SimpleName ArrayAccess NumberLiteral empty
+zk opts SimpleName ArrayAccess NumberLiteral empty
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName zk opts
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName zk opts
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+zk opts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName zk opts
+zk opts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName zk opts
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName zk opts
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName zk opts
+instance SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+accumulo configuration SimpleName MethodInvocation SimpleName get site configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get default instance SimpleName MethodInvocation MethodInvocation SimpleName get site configuration
+instance SimpleName Assignment MethodInvocation SimpleName get default instance
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName accumulo configuration
+instance SimpleName Assignment MethodInvocation MethodInvocation SimpleName get site configuration
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier protected
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier protected
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName set instance
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName set instance
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+deprecation StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cl
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+void PrimitiveType MethodDeclaration SimpleName set instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+set instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+set instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral deprecation
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl

@@ -1,0 +1,79 @@
+depends on methods SimpleName MemberValuePair StringLiteral test submit entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test submit entity
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation SimpleName table type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation SimpleName table type
+class type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName table type
+repository service SimpleName MethodInvocation SimpleName get trait label
+repository service SimpleName MethodInvocation MethodInvocation SimpleName type system
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get data type
+repository service SimpleName MethodInvocation MethodInvocation SimpleName table type
+repository service SimpleName MethodInvocation SimpleName classification
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName type system
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName get data type
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName table type
+get trait label SimpleName MethodInvocation SimpleName classification
+type system SimpleName MethodInvocation MethodInvocation SimpleName classification
+get data type SimpleName MethodInvocation MethodInvocation SimpleName classification
+table type SimpleName MethodInvocation MethodInvocation SimpleName classification
+table type SimpleName InfixExpression StringLiteral .
+table type SimpleName InfixExpression SimpleName classification
+. StringLiteral InfixExpression SimpleName classification
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName repository service
+assert SimpleName MethodInvocation MethodInvocation SimpleName get trait label
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type system
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data type
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table type
+assert SimpleName MethodInvocation MethodInvocation SimpleName classification
+assert SimpleName MethodInvocation InfixExpression SimpleName table type
+assert SimpleName MethodInvocation InfixExpression StringLiteral .
+assert SimpleName MethodInvocation InfixExpression SimpleName classification
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName repository service
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get trait label
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type system
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data type
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName classification
+assert equals SimpleName MethodInvocation InfixExpression SimpleName table type
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral .
+assert equals SimpleName MethodInvocation InfixExpression SimpleName classification
+repository service SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table type
+repository service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+repository service SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName classification
+get trait label SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table type
+get trait label SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+get trait label SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName classification
+classification SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table type
+classification SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral .
+classification SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName classification
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get trait label
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait label
+test submit entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait label
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get trait label
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get trait label
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get trait label SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get trait label
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get trait label
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,32 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName collection
+collection SimpleName MethodInvocation SimpleName is empty
+collection SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection
+collection SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation InfixExpression InfixExpression SimpleName collection
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName collection
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert empty
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName collection
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert empty
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName collection
+void PrimitiveType MethodDeclaration SimpleName assert empty
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName collection
+assert empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+assert empty SimpleName MethodDeclaration SingleVariableDeclaration SimpleName collection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert empty
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName collection
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert empty
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName collection

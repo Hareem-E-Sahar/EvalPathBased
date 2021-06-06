@@ -1,0 +1,80 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+atlas type SimpleName SimpleType SingleVariableDeclaration SimpleName element type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+atlas graph utils v SimpleName MethodInvocation SimpleName is reference
+atlas graph utils v SimpleName MethodInvocation SimpleName element type
+is reference SimpleName MethodInvocation SimpleName element type
+attribute SimpleName MethodInvocation SimpleName get relationship edge direction
+edge direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+edge direction SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship edge direction
+atlas relationship edge direction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge direction
+attribute SimpleName MethodInvocation SimpleName get relationship edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship edge label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+graph helper SimpleName MethodInvocation SimpleName get edges for label
+graph helper SimpleName MethodInvocation SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+graph helper SimpleName MethodInvocation SimpleName edge direction
+get edges for label SimpleName MethodInvocation SimpleName vertex
+get edges for label SimpleName MethodInvocation SimpleName edge label
+get edges for label SimpleName MethodInvocation SimpleName edge direction
+vertex SimpleName MethodInvocation SimpleName edge label
+vertex SimpleName MethodInvocation SimpleName edge direction
+edge label SimpleName MethodInvocation SimpleName edge direction
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edges for label
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edges for label SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge direction
+iterator utils SimpleName MethodInvocation SimpleName to list
+iterator utils SimpleName MethodInvocation SimpleName edges for label
+to list SimpleName MethodInvocation SimpleName edges for label
+ret SimpleName Assignment MethodInvocation SimpleName iterator utils
+ret SimpleName Assignment MethodInvocation SimpleName to list
+ret SimpleName Assignment MethodInvocation SimpleName edges for label
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get array elements using relationship
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get array elements using relationship
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element type
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get array elements using relationship
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get array elements using relationship
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type
+get array elements using relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element type
+get array elements using relationship SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get array elements using relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get array elements using relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element type

@@ -1,0 +1,19 @@
+check state SimpleName MethodInvocation SimpleName si
+check state SimpleName MethodInvocation BooleanLiteral true
+si SimpleName MethodInvocation BooleanLiteral true
+si SimpleName MethodInvocation SimpleName next
+format entry SimpleName MethodInvocation MethodInvocation SimpleName si
+format entry SimpleName MethodInvocation MethodInvocation SimpleName next
+format entry SimpleName MethodInvocation SimpleName do timestamps
+si SimpleName MethodInvocation MethodInvocation SimpleName do timestamps
+next SimpleName MethodInvocation MethodInvocation SimpleName do timestamps
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName next
+string SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

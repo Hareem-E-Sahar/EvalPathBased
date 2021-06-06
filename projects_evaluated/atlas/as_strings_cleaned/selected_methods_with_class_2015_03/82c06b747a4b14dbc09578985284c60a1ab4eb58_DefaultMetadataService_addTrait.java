@@ -1,0 +1,106 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait instance
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName guid
+preconditions SimpleName MethodInvocation StringLiteral entity guid cannot be null
+check not null SimpleName MethodInvocation SimpleName guid
+check not null SimpleName MethodInvocation StringLiteral entity guid cannot be null
+guid SimpleName MethodInvocation StringLiteral entity guid cannot be null
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName trait name
+preconditions SimpleName MethodInvocation StringLiteral trait name cannot be null
+check not null SimpleName MethodInvocation SimpleName trait name
+check not null SimpleName MethodInvocation StringLiteral trait name cannot be null
+trait name SimpleName MethodInvocation StringLiteral trait name cannot be null
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName trait instance
+preconditions SimpleName MethodInvocation StringLiteral trait instance cannot be null
+check not null SimpleName MethodInvocation SimpleName trait instance
+check not null SimpleName MethodInvocation StringLiteral trait instance cannot be null
+trait instance SimpleName MethodInvocation StringLiteral trait instance cannot be null
+type system SimpleName MethodInvocation SimpleName is registered
+type system SimpleName MethodInvocation SimpleName trait name
+is registered SimpleName MethodInvocation SimpleName trait name
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName type system
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is registered
+preconditions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName trait name
+preconditions SimpleName MethodInvocation StringLiteral traits should be defined in type system before it can be added
+preconditions SimpleName MethodInvocation SimpleName trait name
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName type system
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is registered
+check argument SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName trait name
+check argument SimpleName MethodInvocation StringLiteral traits should be defined in type system before it can be added
+check argument SimpleName MethodInvocation SimpleName trait name
+type system SimpleName MethodInvocation PrefixExpression MethodInvocation StringLiteral traits should be defined in type system before it can be added
+is registered SimpleName MethodInvocation PrefixExpression MethodInvocation StringLiteral traits should be defined in type system before it can be added
+trait name SimpleName MethodInvocation PrefixExpression MethodInvocation StringLiteral traits should be defined in type system before it can be added
+type system SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName trait name
+is registered SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName trait name
+trait name SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName trait name
+traits should be defined in type system before it can be added StringLiteral MethodInvocation SimpleName trait name
+repository SimpleName MethodInvocation SimpleName add trait
+repository SimpleName MethodInvocation SimpleName guid
+repository SimpleName MethodInvocation SimpleName trait name
+repository SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation SimpleName guid
+add trait SimpleName MethodInvocation SimpleName trait name
+add trait SimpleName MethodInvocation SimpleName trait instance
+guid SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait instance
+trait name SimpleName MethodInvocation SimpleName trait instance
+on trait added to entity SimpleName MethodInvocation SimpleName guid
+on trait added to entity SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add trait
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add trait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+void PrimitiveType MethodDeclaration SimpleName add trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+add trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+add trait SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

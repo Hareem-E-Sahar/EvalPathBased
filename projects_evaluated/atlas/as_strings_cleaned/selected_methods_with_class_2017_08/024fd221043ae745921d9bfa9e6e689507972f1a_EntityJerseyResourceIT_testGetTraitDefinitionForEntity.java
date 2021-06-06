@@ -1,0 +1,177 @@
+db StringLiteral InfixExpression MethodInvocation SimpleName random string
+db name SimpleName VariableDeclarationFragment InfixExpression StringLiteral db
+db name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+table StringLiteral InfixExpression MethodInvocation SimpleName random string
+table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+create hive db instance built in SimpleName MethodInvocation SimpleName db name
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive db instance built in
+hive db instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive db instance
+create instance SimpleName MethodInvocation SimpleName hive db instance
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive db instance
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db id
+create hive table instance built in SimpleName MethodInvocation SimpleName db name
+create hive table instance built in SimpleName MethodInvocation SimpleName table name
+create hive table instance built in SimpleName MethodInvocation SimpleName db id
+db name SimpleName MethodInvocation SimpleName table name
+db name SimpleName MethodInvocation SimpleName db id
+table name SimpleName MethodInvocation SimpleName db id
+hive table instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create hive table instance built in
+hive table instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+hive table instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+hive table instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName db id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive table instance
+create instance SimpleName MethodInvocation SimpleName hive table instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive table instance
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName get id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation SimpleName guid
+from string SimpleName MethodInvocation SimpleName guid
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName uuid
+assert SimpleName MethodInvocation MethodInvocation SimpleName from string
+assert SimpleName MethodInvocation MethodInvocation SimpleName guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName uuid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName from string
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName guid
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+response is not a guid StringLiteral InfixExpression SimpleName guid
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral response is not a guid
+assert SimpleName MethodInvocation InfixExpression SimpleName guid
+fail SimpleName MethodInvocation InfixExpression StringLiteral response is not a guid
+fail SimpleName MethodInvocation InfixExpression SimpleName guid
+pii trait StringLiteral InfixExpression MethodInvocation SimpleName random string
+trait name SimpleName VariableDeclarationFragment InfixExpression StringLiteral pii trait
+trait name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName trait name
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName trait name
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+trait name SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+trait name SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+trait name SimpleName MethodInvocation MethodInvocation SimpleName of
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types serializationmodule QualifiedName MethodInvocation SimpleName to json
+types serializationmodule QualifiedName MethodInvocation SimpleName pii trait
+types serializationmodule QualifiedName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName pii trait
+to json SimpleName MethodInvocation BooleanLiteral true
+pii trait SimpleName MethodInvocation BooleanLiteral true
+trait definition as json SimpleName VariableDeclarationFragment MethodInvocation QualifiedName types serializationmodule
+trait definition as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+trait definition as json SimpleName VariableDeclarationFragment MethodInvocation SimpleName pii trait
+trait definition as json SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait definition as json
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral trait definition as json = {}
+log SimpleName MethodInvocation SimpleName trait definition as json
+debug SimpleName MethodInvocation StringLiteral trait definition as json = {}
+debug SimpleName MethodInvocation SimpleName trait definition as json
+trait definition as json = {} StringLiteral MethodInvocation SimpleName trait definition as json
+create type SimpleName MethodInvocation SimpleName trait definition as json
+struct SimpleName SimpleType ClassInstanceCreation SimpleName trait name
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+trait instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName trait name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+atlas client v SimpleName MethodInvocation SimpleName add trait
+atlas client v SimpleName MethodInvocation SimpleName guid
+atlas client v SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation SimpleName guid
+add trait SimpleName MethodInvocation SimpleName trait instance
+guid SimpleName MethodInvocation SimpleName trait instance
+atlas client v SimpleName MethodInvocation SimpleName get trait definition
+atlas client v SimpleName MethodInvocation SimpleName guid
+atlas client v SimpleName MethodInvocation SimpleName trait name
+get trait definition SimpleName MethodInvocation SimpleName guid
+get trait definition SimpleName MethodInvocation SimpleName trait name
+guid SimpleName MethodInvocation SimpleName trait name
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait definition
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+trait def SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait name
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait def
+trait def SimpleName MethodInvocation SimpleName get type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait def
+assert SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert SimpleName MethodInvocation SimpleName trait name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait def
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation SimpleName trait name
+trait def SimpleName MethodInvocation MethodInvocation SimpleName trait name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName trait name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct
+atlas client v SimpleName MethodInvocation SimpleName list trait definitions
+atlas client v SimpleName MethodInvocation SimpleName guid
+list trait definitions SimpleName MethodInvocation SimpleName guid
+all trait defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+all trait defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName list trait definitions
+all trait defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+all trait defs SimpleName MethodInvocation SimpleName to string
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName all trait defs
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName to string
+println SimpleName MethodInvocation MethodInvocation SimpleName all trait defs
+println SimpleName MethodInvocation MethodInvocation SimpleName to string
+all trait defs SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName all trait defs
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName all trait defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+all trait defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get trait definition for entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get trait definition for entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get trait definition for entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get trait definition for entity SimpleName MethodDeclaration SimpleType SimpleName exception
+test get trait definition for entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get trait definition for entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get trait definition for entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

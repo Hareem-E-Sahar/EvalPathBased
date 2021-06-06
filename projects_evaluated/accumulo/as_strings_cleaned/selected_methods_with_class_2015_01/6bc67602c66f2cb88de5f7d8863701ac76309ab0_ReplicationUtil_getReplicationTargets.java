@@ -1,0 +1,133 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName replication target
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName replication target
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName replication target
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName all configured targets
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+context SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get name to id map
+tables SimpleName MethodInvocation MethodInvocation SimpleName context
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName context
+get name to id map SimpleName MethodInvocation MethodInvocation SimpleName get instance
+table name to id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table name to id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name to id map
+table name to id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+table name to id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table name to id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get name to id map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table name to id SimpleName MethodInvocation SimpleName key set
+metadata tablename QualifiedName MethodInvocation SimpleName equals
+metadata tablename QualifiedName MethodInvocation SimpleName table
+equals SimpleName MethodInvocation SimpleName table
+root tablename QualifiedName MethodInvocation SimpleName equals
+root tablename QualifiedName MethodInvocation SimpleName table
+equals SimpleName MethodInvocation SimpleName table
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+table SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+table name to id SimpleName MethodInvocation SimpleName get
+table name to id SimpleName MethodInvocation SimpleName table
+get SimpleName MethodInvocation SimpleName table
+local id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name to id
+local id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+local id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local id
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral could not determine id for {}
+log SimpleName MethodInvocation SimpleName table
+trace SimpleName MethodInvocation StringLiteral could not determine id for {}
+trace SimpleName MethodInvocation SimpleName table
+could not determine id for {} StringLiteral MethodInvocation SimpleName table
+context SimpleName MethodInvocation SimpleName get server configuration factory
+context SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+get server configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get table configuration
+context SimpleName MethodInvocation MethodInvocation SimpleName local id
+get server configuration factory SimpleName MethodInvocation MethodInvocation SimpleName local id
+get table configuration SimpleName MethodInvocation SimpleName local id
+table conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+table conf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get server configuration factory
+table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table configuration
+table conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName local id
+table configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table conf
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+table conf SimpleName MethodInvocation SimpleName get all properties with prefix
+table conf SimpleName MethodInvocation QualifiedName propertytable replication target
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertytable replication target
+table conf SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get all properties with prefix SimpleName MethodInvocation MethodInvocation SimpleName entry set
+propertytable replication target QualifiedName MethodInvocation MethodInvocation SimpleName entry set
+prop SimpleName MethodInvocation SimpleName get key
+propertytable replication target QualifiedName MethodInvocation SimpleName get key
+propertytable replication target QualifiedName MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation SimpleName length
+prop SimpleName MethodInvocation MethodInvocation SimpleName substring
+get key SimpleName MethodInvocation MethodInvocation SimpleName substring
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable replication target
+substring SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prop
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+peer name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer name
+prop SimpleName MethodInvocation SimpleName get value
+remote identifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName prop
+remote identifier SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote identifier
+replication target SimpleName SimpleType ClassInstanceCreation SimpleName peer name
+replication target SimpleName SimpleType ClassInstanceCreation SimpleName remote identifier
+replication target SimpleName SimpleType ClassInstanceCreation SimpleName local id
+peer name SimpleName ClassInstanceCreation SimpleName remote identifier
+peer name SimpleName ClassInstanceCreation SimpleName local id
+remote identifier SimpleName ClassInstanceCreation SimpleName local id
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName peer name
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName remote identifier
+target SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName local id
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+all configured targets SimpleName MethodInvocation SimpleName add
+all configured targets SimpleName MethodInvocation SimpleName target
+add SimpleName MethodInvocation SimpleName target
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table name to id
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName all configured targets
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName all configured targets
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName replication target
+public Modifier MethodDeclaration SimpleName get replication targets
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName all configured targets
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get replication targets
+replication target SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get replication targets
+get replication targets SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get replication targets SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get replication targets SimpleName MethodDeclaration Block ReturnStatement SimpleName all configured targets
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get replication targets
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get replication targets

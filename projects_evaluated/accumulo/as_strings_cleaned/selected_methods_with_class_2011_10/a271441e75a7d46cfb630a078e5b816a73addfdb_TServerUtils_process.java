@@ -1,0 +1,82 @@
+t protocol SimpleName SimpleType SingleVariableDeclaration SimpleName in
+t protocol SimpleName SimpleType SingleVariableDeclaration SimpleName out
+now SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+metrics SimpleName MethodInvocation SimpleName is enabled
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName Assignment MethodInvocation SimpleName system
+now SimpleName Assignment MethodInvocation SimpleName current time millis
+now SimpleName InfixExpression SimpleName idle start
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName thrift metricsidle
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName now
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName idle start
+add SimpleName MethodInvocation QualifiedName thrift metricsidle
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName now
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName idle start
+thrift metricsidle QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName now
+thrift metricsidle QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName idle start
+other SimpleName MethodInvocation SimpleName process
+other SimpleName MethodInvocation SimpleName in
+other SimpleName MethodInvocation SimpleName out
+process SimpleName MethodInvocation SimpleName in
+process SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName out
+metrics SimpleName MethodInvocation SimpleName is enabled
+system SimpleName MethodInvocation SimpleName current time millis
+idle start SimpleName Assignment MethodInvocation SimpleName system
+idle start SimpleName Assignment MethodInvocation SimpleName current time millis
+idle start SimpleName InfixExpression SimpleName now
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName thrift metricsexecute
+metrics SimpleName MethodInvocation InfixExpression SimpleName idle start
+metrics SimpleName MethodInvocation InfixExpression SimpleName now
+add SimpleName MethodInvocation QualifiedName thrift metricsexecute
+add SimpleName MethodInvocation InfixExpression SimpleName idle start
+add SimpleName MethodInvocation InfixExpression SimpleName now
+thrift metricsexecute QualifiedName MethodInvocation InfixExpression SimpleName idle start
+thrift metricsexecute QualifiedName MethodInvocation InfixExpression SimpleName now
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName in
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+boolean PrimitiveType MethodDeclaration SimpleName process
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t protocol
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+process SimpleName MethodDeclaration SimpleType SimpleName t exception
+process SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

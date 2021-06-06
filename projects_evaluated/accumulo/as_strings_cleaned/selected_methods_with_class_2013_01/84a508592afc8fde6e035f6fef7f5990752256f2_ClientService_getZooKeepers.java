@@ -1,0 +1,39 @@
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SimpleType SimpleName get zoo keepers call
+orgapachethriftasyncasync method callback QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+get zoo keepers call SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result handler
+get zoo keepers call SimpleName SimpleType ClassInstanceCreation SimpleName result handler
+get zoo keepers call SimpleName SimpleType ClassInstanceCreation SimpleName protocol factory
+get zoo keepers call SimpleName SimpleType ClassInstanceCreation SimpleName transport
+result handler SimpleName ClassInstanceCreation SimpleName protocol factory
+result handler SimpleName ClassInstanceCreation SimpleName transport
+protocol factory SimpleName ClassInstanceCreation SimpleName transport
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName get zoo keepers call
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName result handler
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName protocol factory
+method call SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transport
+get zoo keepers call SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method call
+current method SimpleName FieldAccess Assignment SimpleName method call
+manager SimpleName MethodInvocation SimpleName call
+manager SimpleName MethodInvocation SimpleName method call
+call SimpleName MethodInvocation SimpleName method call
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get zoo keepers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result handler
+public Modifier MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+void PrimitiveType MethodDeclaration SimpleName get zoo keepers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result handler
+void PrimitiveType MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+get zoo keepers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result handler
+get zoo keepers SimpleName MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+result handler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zoo keepers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zoo keepers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachethriftt exception

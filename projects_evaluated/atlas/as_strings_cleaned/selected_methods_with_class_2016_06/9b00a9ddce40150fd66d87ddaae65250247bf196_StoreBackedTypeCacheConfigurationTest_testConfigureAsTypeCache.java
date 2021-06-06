@@ -1,0 +1,27 @@
+type cache SimpleName InstanceofExpression SimpleType SimpleName store backed type cache
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName type cache
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName store backed type cache
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName type cache
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName store backed type cache
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test configure as type cache
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test configure as type cache
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test configure as type cache
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test configure as type cache SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test configure as type cache
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test configure as type cache
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

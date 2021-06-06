@@ -1,0 +1,43 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+check type SimpleName MethodInvocation SimpleName property
+check type SimpleName MethodInvocation QualifiedName property typeprefix
+property SimpleName MethodInvocation QualifiedName property typeprefix
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName MethodInvocation SimpleName get key
+prefix filter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName property
+prefix filter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+get properties SimpleName MethodInvocation SimpleName prop map
+get properties SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName prefix filter
+get properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName property
+get properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+prop map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName prefix filter
+prop map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName property
+prop map SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get all properties with prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration Block ReturnStatement SimpleName prop map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+get all properties with prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+get all properties with prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get all properties with prefix SimpleName MethodDeclaration Block ReturnStatement SimpleName prop map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all properties with prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all properties with prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

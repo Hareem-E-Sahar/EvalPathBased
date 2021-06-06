@@ -1,0 +1,252 @@
+entitytype QualifiedName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName fmt query
+set op SimpleName VariableDeclarationFragment StringLiteral set
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName set op
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral set
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName set op
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral set
+unset op SimpleName VariableDeclarationFragment StringLiteral unset
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName unset op
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral unset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unset op
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unset
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+put SimpleName MethodInvocation StringLiteral test prop key
+put SimpleName MethodInvocation StringLiteral test prop value
+test prop key StringLiteral MethodInvocation StringLiteral test prop value
+put SimpleName MethodInvocation StringLiteral comment
+put SimpleName MethodInvocation StringLiteral test comment
+comment StringLiteral MethodInvocation StringLiteral test comment
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected props
+get serialized props SimpleName MethodInvocation SimpleName expected props
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName entity name
+string SimpleName MethodInvocation SimpleName set op
+string SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+string SimpleName MethodInvocation MethodInvocation SimpleName expected props
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName entity name
+format SimpleName MethodInvocation SimpleName set op
+format SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+format SimpleName MethodInvocation MethodInvocation SimpleName expected props
+fmt query SimpleName MethodInvocation SimpleName entity name
+fmt query SimpleName MethodInvocation SimpleName set op
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName expected props
+entity name SimpleName MethodInvocation SimpleName set op
+entity name SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+entity name SimpleName MethodInvocation MethodInvocation SimpleName expected props
+set op SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+set op SimpleName MethodInvocation MethodInvocation SimpleName expected props
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName fmt query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity name
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName set op
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get serialized props
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expected props
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+verify entity properties SimpleName MethodInvocation SimpleName entity type
+verify entity properties SimpleName MethodInvocation SimpleName entity name
+verify entity properties SimpleName MethodInvocation SimpleName expected props
+verify entity properties SimpleName MethodInvocation BooleanLiteral false
+entity type SimpleName MethodInvocation SimpleName entity name
+entity type SimpleName MethodInvocation SimpleName expected props
+entity type SimpleName MethodInvocation BooleanLiteral false
+entity name SimpleName MethodInvocation SimpleName expected props
+entity name SimpleName MethodInvocation BooleanLiteral false
+expected props SimpleName MethodInvocation BooleanLiteral false
+expected props SimpleName MethodInvocation SimpleName put
+expected props SimpleName MethodInvocation StringLiteral test prop key
+expected props SimpleName MethodInvocation StringLiteral test prop value
+put SimpleName MethodInvocation StringLiteral test prop key
+put SimpleName MethodInvocation StringLiteral test prop value
+test prop key StringLiteral MethodInvocation StringLiteral test prop value
+get serialized props SimpleName MethodInvocation SimpleName expected props
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName entity name
+string SimpleName MethodInvocation SimpleName set op
+string SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+string SimpleName MethodInvocation MethodInvocation SimpleName expected props
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName entity name
+format SimpleName MethodInvocation SimpleName set op
+format SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+format SimpleName MethodInvocation MethodInvocation SimpleName expected props
+fmt query SimpleName MethodInvocation SimpleName entity name
+fmt query SimpleName MethodInvocation SimpleName set op
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName expected props
+entity name SimpleName MethodInvocation SimpleName set op
+entity name SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+entity name SimpleName MethodInvocation MethodInvocation SimpleName expected props
+set op SimpleName MethodInvocation MethodInvocation SimpleName get serialized props
+set op SimpleName MethodInvocation MethodInvocation SimpleName expected props
+query SimpleName Assignment MethodInvocation SimpleName string
+query SimpleName Assignment MethodInvocation SimpleName format
+query SimpleName Assignment MethodInvocation SimpleName fmt query
+query SimpleName Assignment MethodInvocation SimpleName entity name
+query SimpleName Assignment MethodInvocation SimpleName set op
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName get serialized props
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName expected props
+run command SimpleName MethodInvocation SimpleName query
+verify entity properties SimpleName MethodInvocation SimpleName entity type
+verify entity properties SimpleName MethodInvocation SimpleName entity name
+verify entity properties SimpleName MethodInvocation SimpleName expected props
+verify entity properties SimpleName MethodInvocation BooleanLiteral false
+entity type SimpleName MethodInvocation SimpleName entity name
+entity type SimpleName MethodInvocation SimpleName expected props
+entity type SimpleName MethodInvocation BooleanLiteral false
+entity name SimpleName MethodInvocation SimpleName expected props
+entity name SimpleName MethodInvocation BooleanLiteral false
+expected props SimpleName MethodInvocation BooleanLiteral false
+entity type SimpleName InfixExpression QualifiedName entitytypedatabase
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+joiner SimpleName MethodInvocation MethodInvocation SimpleName skip nulls
+on SimpleName MethodInvocation MethodInvocation SimpleName skip nulls
+empty StringLiteral MethodInvocation MethodInvocation SimpleName skip nulls
+expected props SimpleName MethodInvocation SimpleName key set
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+skip nulls SimpleName MethodInvocation MethodInvocation SimpleName append to
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+skip nulls SimpleName MethodInvocation MethodInvocation SimpleName sb
+skip nulls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected props
+skip nulls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+append to SimpleName MethodInvocation SimpleName sb
+append to SimpleName MethodInvocation MethodInvocation SimpleName expected props
+append to SimpleName MethodInvocation MethodInvocation SimpleName key set
+sb SimpleName MethodInvocation MethodInvocation SimpleName expected props
+sb SimpleName MethodInvocation MethodInvocation SimpleName key set
+skip nulls SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append to SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+expected props SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+skip nulls SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+append to SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+sb SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+expected props SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+append SimpleName MethodInvocation CharacterLiteral \
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt query
+string SimpleName MethodInvocation SimpleName entity name
+string SimpleName MethodInvocation SimpleName unset op
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+string SimpleName MethodInvocation MethodInvocation SimpleName append
+string SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+format SimpleName MethodInvocation SimpleName fmt query
+format SimpleName MethodInvocation SimpleName entity name
+format SimpleName MethodInvocation SimpleName unset op
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+format SimpleName MethodInvocation MethodInvocation SimpleName append
+format SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+fmt query SimpleName MethodInvocation SimpleName entity name
+fmt query SimpleName MethodInvocation SimpleName unset op
+fmt query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+fmt query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+fmt query SimpleName MethodInvocation MethodInvocation SimpleName append
+fmt query SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+entity name SimpleName MethodInvocation SimpleName unset op
+entity name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+entity name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+entity name SimpleName MethodInvocation MethodInvocation SimpleName append
+entity name SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+unset op SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append to
+unset op SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+unset op SimpleName MethodInvocation MethodInvocation SimpleName append
+unset op SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+query SimpleName Assignment MethodInvocation SimpleName string
+query SimpleName Assignment MethodInvocation SimpleName format
+query SimpleName Assignment MethodInvocation SimpleName fmt query
+query SimpleName Assignment MethodInvocation SimpleName entity name
+query SimpleName Assignment MethodInvocation SimpleName unset op
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName append
+query SimpleName Assignment MethodInvocation MethodInvocation CharacterLiteral \
+run command SimpleName MethodInvocation SimpleName query
+verify entity properties SimpleName MethodInvocation SimpleName entity type
+verify entity properties SimpleName MethodInvocation SimpleName entity name
+verify entity properties SimpleName MethodInvocation SimpleName expected props
+verify entity properties SimpleName MethodInvocation BooleanLiteral true
+entity type SimpleName MethodInvocation SimpleName entity name
+entity type SimpleName MethodInvocation SimpleName expected props
+entity type SimpleName MethodInvocation BooleanLiteral true
+entity name SimpleName MethodInvocation SimpleName expected props
+entity name SimpleName MethodInvocation BooleanLiteral true
+expected props SimpleName MethodInvocation BooleanLiteral true
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test alter properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+void PrimitiveType MethodDeclaration SimpleName test alter properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName entitytype
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity name
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test alter properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+test alter properties SimpleName MethodDeclaration SimpleType SimpleName exception
+test alter properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test alter properties SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+entity name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+entity name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+fmt query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test alter properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test alter properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

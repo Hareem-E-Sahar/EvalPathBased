@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type defs
+type def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type defs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName validate enterprise type defs
+repository content manager SimpleName MethodInvocation SimpleName source name
+repository content manager SimpleName MethodInvocation SimpleName type defs
+repository content manager SimpleName MethodInvocation SimpleName method name
+validate enterprise type defs SimpleName MethodInvocation SimpleName source name
+validate enterprise type defs SimpleName MethodInvocation SimpleName type defs
+validate enterprise type defs SimpleName MethodInvocation SimpleName method name
+source name SimpleName MethodInvocation SimpleName type defs
+source name SimpleName MethodInvocation SimpleName method name
+type defs SimpleName MethodInvocation SimpleName method name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName validate enterprise type defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type defs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+void PrimitiveType MethodDeclaration SimpleName validate enterprise type defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type defs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName method name
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository error exception
+validate enterprise type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate enterprise type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+validate enterprise type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type defs
+validate enterprise type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate enterprise type defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+validate enterprise type defs SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type defs
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+type defs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+type defs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate enterprise type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate enterprise type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

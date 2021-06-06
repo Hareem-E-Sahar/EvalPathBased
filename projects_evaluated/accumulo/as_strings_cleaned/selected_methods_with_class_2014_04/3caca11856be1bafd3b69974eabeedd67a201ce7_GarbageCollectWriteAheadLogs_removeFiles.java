@@ -1,0 +1,316 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName server to file map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName server to file map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted wa logs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted wa logs
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName sorted wa logs
+final Modifier SingleVariableDeclaration SimpleType SimpleName gc status
+final Modifier SingleVariableDeclaration SimpleName status
+gc status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation SimpleName instance
+get system configuration SimpleName MethodInvocation SimpleName instance
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName server configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get system configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+accumulo configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+server to file map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get key SimpleName MethodInvocation MethodInvocation SimpleName is empty
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+entry SimpleName MethodInvocation SimpleName get value
+removing oldstyle wal StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing oldstyle wal
+log SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing oldstyle wal
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+fs SimpleName MethodInvocation SimpleName move to trash
+fs SimpleName MethodInvocation SimpleName path
+move to trash SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName delete recursively
+fs SimpleName MethodInvocation SimpleName path
+delete recursively SimpleName MethodInvocation SimpleName path
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+unable to delete wal StringLiteral InfixExpression SimpleName path
+unable to delete wal StringLiteral InfixExpression StringLiteral :
+unable to delete wal StringLiteral InfixExpression SimpleName ex
+path SimpleName InfixExpression StringLiteral :
+path SimpleName InfixExpression SimpleName ex
+: StringLiteral InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete wal
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to delete wal
+error SimpleName MethodInvocation InfixExpression SimpleName path
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression SimpleName ex
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+address util SimpleName MethodInvocation SimpleName parse address
+address util SimpleName MethodInvocation MethodInvocation SimpleName entry
+address util SimpleName MethodInvocation MethodInvocation SimpleName get key
+address util SimpleName MethodInvocation BooleanLiteral false
+parse address SimpleName MethodInvocation MethodInvocation SimpleName entry
+parse address SimpleName MethodInvocation MethodInvocation SimpleName get key
+parse address SimpleName MethodInvocation BooleanLiteral false
+entry SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get key SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName address util
+address SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse address
+address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+address SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+address SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName address
+holds lock SimpleName MethodInvocation SimpleName address
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+entry SimpleName MethodInvocation SimpleName get value
+removing wal for offline server StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing wal for offline server
+log SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing wal for offline server
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+fs SimpleName MethodInvocation SimpleName move to trash
+fs SimpleName MethodInvocation SimpleName path
+move to trash SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName delete recursively
+fs SimpleName MethodInvocation SimpleName path
+delete recursively SimpleName MethodInvocation SimpleName path
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+unable to delete wal StringLiteral InfixExpression SimpleName path
+unable to delete wal StringLiteral InfixExpression StringLiteral :
+unable to delete wal StringLiteral InfixExpression SimpleName ex
+path SimpleName InfixExpression StringLiteral :
+path SimpleName InfixExpression SimpleName ex
+: StringLiteral InfixExpression SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete wal
+log SimpleName MethodInvocation InfixExpression SimpleName path
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to delete wal
+error SimpleName MethodInvocation InfixExpression SimpleName path
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression SimpleName ex
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName conf
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation SimpleName conf
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+address SimpleName MethodInvocation SimpleName conf
+tserver SimpleName Assignment MethodInvocation SimpleName thrift util
+tserver SimpleName Assignment MethodInvocation SimpleName get client
+tserver SimpleName Assignment MethodInvocation SimpleName address
+tserver SimpleName Assignment MethodInvocation SimpleName conf
+tracer SimpleName MethodInvocation SimpleName trace info
+system credentials SimpleName MethodInvocation SimpleName get
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+system credentials SimpleName MethodInvocation MethodInvocation SimpleName instance
+get SimpleName MethodInvocation MethodInvocation SimpleName instance
+to thrift SimpleName MethodInvocation SimpleName instance
+entry SimpleName MethodInvocation SimpleName get value
+paths strings SimpleName MethodInvocation MethodInvocation SimpleName entry
+paths strings SimpleName MethodInvocation MethodInvocation SimpleName get value
+tserver SimpleName MethodInvocation SimpleName remove logs
+tserver SimpleName MethodInvocation MethodInvocation SimpleName tracer
+tserver SimpleName MethodInvocation MethodInvocation SimpleName trace info
+tserver SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+tserver SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tserver SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+tserver SimpleName MethodInvocation MethodInvocation SimpleName instance
+tserver SimpleName MethodInvocation MethodInvocation SimpleName paths strings
+tserver SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+tserver SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+remove logs SimpleName MethodInvocation MethodInvocation SimpleName tracer
+remove logs SimpleName MethodInvocation MethodInvocation SimpleName trace info
+remove logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName system credentials
+remove logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+remove logs SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+remove logs SimpleName MethodInvocation MethodInvocation SimpleName instance
+remove logs SimpleName MethodInvocation MethodInvocation SimpleName paths strings
+remove logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+remove logs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName paths strings
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName paths strings
+to thrift SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName paths strings
+instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName paths strings
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+deleted StringLiteral InfixExpression MethodInvocation SimpleName entry
+deleted StringLiteral InfixExpression MethodInvocation SimpleName get value
+deleted StringLiteral InfixExpression StringLiteral from
+deleted StringLiteral InfixExpression MethodInvocation SimpleName entry
+deleted StringLiteral InfixExpression MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation InfixExpression StringLiteral from
+get value SimpleName MethodInvocation InfixExpression StringLiteral from
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+from StringLiteral InfixExpression MethodInvocation SimpleName entry
+from StringLiteral InfixExpression MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+log SimpleName MethodInvocation InfixExpression StringLiteral from
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleted
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+debug SimpleName MethodInvocation InfixExpression StringLiteral from
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName size
+get value SimpleName MethodInvocation MethodInvocation SimpleName size
+statuscurrent logdeleted QualifiedName Assignment MethodInvocation MethodInvocation SimpleName entry
+statuscurrent logdeleted QualifiedName Assignment MethodInvocation MethodInvocation SimpleName get value
+statuscurrent logdeleted QualifiedName Assignment MethodInvocation SimpleName size
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error talking to StringLiteral InfixExpression SimpleName address
+error talking to StringLiteral InfixExpression StringLiteral :
+error talking to StringLiteral InfixExpression SimpleName e
+address SimpleName InfixExpression StringLiteral :
+address SimpleName InfixExpression SimpleName e
+: StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral error talking to
+log SimpleName MethodInvocation InfixExpression SimpleName address
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral error talking to
+warn SimpleName MethodInvocation InfixExpression SimpleName address
+warn SimpleName MethodInvocation InfixExpression StringLiteral :
+warn SimpleName MethodInvocation InfixExpression SimpleName e
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName tserver
+return client SimpleName MethodInvocation SimpleName tserver
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName server to file map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+path SimpleName SimpleType SingleVariableDeclaration SimpleName swalog
+sorted wa logs SimpleName MethodInvocation SimpleName values
+removing sorted wal StringLiteral InfixExpression SimpleName swalog
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral removing sorted wal
+log SimpleName MethodInvocation InfixExpression SimpleName swalog
+debug SimpleName MethodInvocation InfixExpression StringLiteral removing sorted wal
+debug SimpleName MethodInvocation InfixExpression SimpleName swalog
+fs SimpleName MethodInvocation SimpleName move to trash
+fs SimpleName MethodInvocation SimpleName swalog
+move to trash SimpleName MethodInvocation SimpleName swalog
+fs SimpleName MethodInvocation SimpleName delete recursively
+fs SimpleName MethodInvocation SimpleName swalog
+delete recursively SimpleName MethodInvocation SimpleName swalog
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName swalog
+exists SimpleName MethodInvocation SimpleName swalog
+unable to delete sorted walog StringLiteral InfixExpression SimpleName swalog
+unable to delete sorted walog StringLiteral InfixExpression StringLiteral :
+unable to delete sorted walog StringLiteral InfixExpression SimpleName ioe
+swalog SimpleName InfixExpression StringLiteral :
+swalog SimpleName InfixExpression SimpleName ioe
+: StringLiteral InfixExpression SimpleName ioe
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to delete sorted walog
+log SimpleName MethodInvocation InfixExpression SimpleName swalog
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName ioe
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to delete sorted walog
+error SimpleName MethodInvocation InfixExpression SimpleName swalog
+error SimpleName MethodInvocation InfixExpression StringLiteral :
+error SimpleName MethodInvocation InfixExpression SimpleName ioe
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+unable to check for the existence of StringLiteral InfixExpression SimpleName swalog
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to check for the existence of
+log SimpleName MethodInvocation InfixExpression SimpleName swalog
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation InfixExpression StringLiteral unable to check for the existence of
+error SimpleName MethodInvocation InfixExpression SimpleName swalog
+error SimpleName MethodInvocation SimpleName ex
+unable to check for the existence of StringLiteral InfixExpression MethodInvocation SimpleName ex
+swalog SimpleName InfixExpression MethodInvocation SimpleName ex
+swalog SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sorted wa logs
+swalog SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName remove files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+int PrimitiveType MethodDeclaration SimpleName remove files
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+int PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName status
+remove files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+remove files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+remove files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+remove files SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+remove files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gc status
+remove files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName status
+remove files SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+name to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+name to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+name to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+name to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+server to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+server to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+server to file map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+sorted wa logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+sorted wa logs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server to file map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sorted wa logs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName status

@@ -1,0 +1,16 @@
+iterator SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+immutable list SimpleName MethodInvocation SimpleName iterator
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName iterator
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+byte PrimitiveType ArrayType ParameterizedType MethodDeclaration SimpleName iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

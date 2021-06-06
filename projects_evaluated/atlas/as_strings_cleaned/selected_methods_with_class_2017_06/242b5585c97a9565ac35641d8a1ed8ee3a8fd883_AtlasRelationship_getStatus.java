@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration Block ReturnStatement SimpleName status
+status SimpleName SimpleType MethodDeclaration SimpleName get status
+get status SimpleName MethodDeclaration Block ReturnStatement SimpleName status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status

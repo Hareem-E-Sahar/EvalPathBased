@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName k
+string SimpleName SimpleType SingleVariableDeclaration SimpleName k
+text SimpleName SimpleType ClassInstanceCreation SimpleName k
+k SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName k
+text SimpleName SimpleType ClassInstanceCreation SimpleName k
+k SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName k
+static Modifier MethodDeclaration SimpleType SimpleName range
+static Modifier MethodDeclaration SimpleName nr
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+range SimpleName SimpleType MethodDeclaration SimpleName nr
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName k
+range SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName k
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+nr SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName range
+public Modifier TypeDeclaration MethodDeclaration SimpleName nr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName range
+test SimpleName TypeDeclaration MethodDeclaration SimpleName nr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

@@ -1,0 +1,44 @@
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName final authenticator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation SimpleName conn configurator
+final authenticator SimpleName ClassInstanceCreation SimpleName conn configurator
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open connection
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName open connection
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName url
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName token
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName token
+delegation token authenticated url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName final do as user
+final authenticator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+conn configurator SimpleName ClassInstanceCreation MethodInvocation SimpleName final do as user
+open connection SimpleName MethodInvocation SimpleName url
+open connection SimpleName MethodInvocation SimpleName token
+open connection SimpleName MethodInvocation SimpleName final do as user
+url SimpleName MethodInvocation SimpleName token
+url SimpleName MethodInvocation SimpleName final do as user
+token SimpleName MethodInvocation SimpleName final do as user
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName exception
+http url connection SimpleName SimpleType MethodDeclaration SimpleName run
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,11 @@
+datafile managerdatafile sizes QualifiedName MethodInvocation SimpleName size
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get num files
+int PrimitiveType MethodDeclaration SimpleName get num files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get num files
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get num files

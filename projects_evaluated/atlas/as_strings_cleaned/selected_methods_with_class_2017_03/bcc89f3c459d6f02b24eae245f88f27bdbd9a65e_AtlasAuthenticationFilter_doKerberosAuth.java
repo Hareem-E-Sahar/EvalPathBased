@@ -1,0 +1,416 @@
+servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName response
+filter chain SimpleName SimpleType SingleVariableDeclaration SimpleName filter chain wrapper
+filter chain SimpleName SimpleType SingleVariableDeclaration SimpleName filter chain
+unauthorized response SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName unauthorized response
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+err code SimpleName VariableDeclarationFragment QualifiedName http servlet responsesc unauthorized
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName err code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName http servlet responsesc unauthorized
+authentication exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authentication ex
+http servlet request SimpleName SimpleType CastExpression SimpleName request
+http request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http servlet request
+http request SimpleName VariableDeclarationFragment CastExpression SimpleName request
+http servlet request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http request
+http servlet response SimpleName SimpleType CastExpression SimpleName response
+http response SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http servlet response
+http response SimpleName VariableDeclarationFragment CastExpression SimpleName response
+http servlet response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http response
+http request SimpleName MethodInvocation SimpleName get scheme
+https StringLiteral MethodInvocation SimpleName equals
+https StringLiteral MethodInvocation MethodInvocation SimpleName http request
+https StringLiteral MethodInvocation MethodInvocation SimpleName get scheme
+equals SimpleName MethodInvocation MethodInvocation SimpleName http request
+equals SimpleName MethodInvocation MethodInvocation SimpleName get scheme
+is https SimpleName VariableDeclarationFragment MethodInvocation StringLiteral https
+is https SimpleName VariableDeclarationFragment MethodInvocation SimpleName equals
+is https SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName http request
+is https SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get scheme
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is https
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral https
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName equals
+auth handler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authentication handler
+authentication handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth handler
+new token SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new token
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+get token SimpleName MethodInvocation SimpleName http request
+token SimpleName Assignment MethodInvocation SimpleName get token
+token SimpleName Assignment MethodInvocation SimpleName http request
+authentication exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral authentication token ignored {}
+log SimpleName MethodInvocation MethodInvocation SimpleName ex
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation StringLiteral authentication token ignored {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+authentication token ignored {} StringLiteral MethodInvocation MethodInvocation SimpleName ex
+authentication token ignored {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+authentication ex SimpleName Assignment SimpleName ex
+auth handler SimpleName MethodInvocation SimpleName management operation
+auth handler SimpleName MethodInvocation SimpleName token
+auth handler SimpleName MethodInvocation SimpleName http request
+auth handler SimpleName MethodInvocation SimpleName http response
+management operation SimpleName MethodInvocation SimpleName token
+management operation SimpleName MethodInvocation SimpleName http request
+management operation SimpleName MethodInvocation SimpleName http response
+token SimpleName MethodInvocation SimpleName http request
+token SimpleName MethodInvocation SimpleName http response
+http request SimpleName MethodInvocation SimpleName http response
+log SimpleName MethodInvocation SimpleName is debug enabled
+get request url SimpleName MethodInvocation SimpleName http request
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral request [{}] triggering authentication
+log SimpleName MethodInvocation MethodInvocation SimpleName get request url
+log SimpleName MethodInvocation MethodInvocation SimpleName http request
+debug SimpleName MethodInvocation StringLiteral request [{}] triggering authentication
+debug SimpleName MethodInvocation MethodInvocation SimpleName get request url
+debug SimpleName MethodInvocation MethodInvocation SimpleName http request
+request [{}] triggering authentication StringLiteral MethodInvocation MethodInvocation SimpleName get request url
+request [{}] triggering authentication StringLiteral MethodInvocation MethodInvocation SimpleName http request
+auth handler SimpleName MethodInvocation SimpleName authenticate
+auth handler SimpleName MethodInvocation SimpleName http request
+auth handler SimpleName MethodInvocation SimpleName http response
+authenticate SimpleName MethodInvocation SimpleName http request
+authenticate SimpleName MethodInvocation SimpleName http response
+http request SimpleName MethodInvocation SimpleName http response
+token SimpleName Assignment MethodInvocation SimpleName auth handler
+token SimpleName Assignment MethodInvocation SimpleName authenticate
+token SimpleName Assignment MethodInvocation SimpleName http request
+token SimpleName Assignment MethodInvocation SimpleName http response
+token SimpleName MethodInvocation SimpleName get expires
+token SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get expires SimpleName MethodInvocation InfixExpression NumberLiteral empty
+token SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+token SimpleName InfixExpression QualifiedName authentication tokenanonymous
+system SimpleName MethodInvocation SimpleName current time millis
+get validity SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+token SimpleName MethodInvocation SimpleName set expires
+token SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+token SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+token SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+set expires SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+set expires SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+set expires SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+new token SimpleName Assignment BooleanLiteral true
+unauthorized response SimpleName Assignment BooleanLiteral false
+log SimpleName MethodInvocation SimpleName is debug enabled
+get request url SimpleName MethodInvocation SimpleName http request
+token SimpleName MethodInvocation SimpleName get user name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral request [{}] user [{}] authenticated
+log SimpleName MethodInvocation MethodInvocation SimpleName get request url
+log SimpleName MethodInvocation MethodInvocation SimpleName http request
+log SimpleName MethodInvocation MethodInvocation SimpleName token
+log SimpleName MethodInvocation MethodInvocation SimpleName get user name
+debug SimpleName MethodInvocation StringLiteral request [{}] user [{}] authenticated
+debug SimpleName MethodInvocation MethodInvocation SimpleName get request url
+debug SimpleName MethodInvocation MethodInvocation SimpleName http request
+debug SimpleName MethodInvocation MethodInvocation SimpleName token
+debug SimpleName MethodInvocation MethodInvocation SimpleName get user name
+request [{}] user [{}] authenticated StringLiteral MethodInvocation MethodInvocation SimpleName get request url
+request [{}] user [{}] authenticated StringLiteral MethodInvocation MethodInvocation SimpleName http request
+request [{}] user [{}] authenticated StringLiteral MethodInvocation MethodInvocation SimpleName token
+request [{}] user [{}] authenticated StringLiteral MethodInvocation MethodInvocation SimpleName get user name
+get request url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+get request url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user name
+http request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+http request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user name
+auth token SimpleName VariableDeclarationFragment SimpleName token
+final Modifier VariableDeclarationStatement SimpleType SimpleName authentication token
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName auth token
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth token
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+auth token SimpleName MethodInvocation SimpleName get type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get auth type
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get auth type
+string SimpleName SimpleType MethodDeclaration SimpleName get auth type
+auth token SimpleName MethodInvocation SimpleName get user name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get remote user
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get remote user
+string SimpleName SimpleType MethodDeclaration SimpleName get remote user
+auth token SimpleName InfixExpression QualifiedName authentication tokenanonymous
+auth token SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName auth token
+authentication tokenanonymous QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName auth token
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName principal
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get user principal
+public Modifier MethodDeclaration SimpleType SimpleName principal
+public Modifier MethodDeclaration SimpleName get user principal
+principal SimpleName SimpleType MethodDeclaration SimpleName get user principal
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get remote user
+get auth type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get auth type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get remote user
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get user principal
+get auth type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get auth type SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get user principal
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get user principal
+get remote user SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get remote user SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get user principal
+http servlet request wrapper SimpleName SimpleType ClassInstanceCreation SimpleName http request
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get auth type
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get remote user
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+http request SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get user principal
+http request SimpleName Assignment ClassInstanceCreation SimpleType SimpleName http servlet request wrapper
+http request SimpleName Assignment ClassInstanceCreation SimpleName http request
+token SimpleName MethodInvocation SimpleName is expired
+token SimpleName InfixExpression QualifiedName authentication tokenanonymous
+new token SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName token
+new token SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName is expired
+new token SimpleName InfixExpression InfixExpression SimpleName token
+new token SimpleName InfixExpression InfixExpression QualifiedName authentication tokenanonymous
+token SimpleName MethodInvocation SimpleName to string
+signer SimpleName MethodInvocation SimpleName sign
+signer SimpleName MethodInvocation MethodInvocation SimpleName token
+signer SimpleName MethodInvocation MethodInvocation SimpleName to string
+sign SimpleName MethodInvocation MethodInvocation SimpleName token
+sign SimpleName MethodInvocation MethodInvocation SimpleName to string
+signed token SimpleName VariableDeclarationFragment MethodInvocation SimpleName signer
+signed token SimpleName VariableDeclarationFragment MethodInvocation SimpleName sign
+signed token SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName token
+signed token SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName signed token
+token SimpleName MethodInvocation SimpleName get expires
+create auth cookie SimpleName MethodInvocation SimpleName http response
+create auth cookie SimpleName MethodInvocation SimpleName signed token
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName get cookie domain
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName get cookie path
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName token
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName get expires
+http response SimpleName MethodInvocation SimpleName signed token
+http response SimpleName MethodInvocation MethodInvocation SimpleName get cookie domain
+http response SimpleName MethodInvocation MethodInvocation SimpleName get cookie path
+http response SimpleName MethodInvocation MethodInvocation SimpleName token
+http response SimpleName MethodInvocation MethodInvocation SimpleName get expires
+http response SimpleName MethodInvocation SimpleName is https
+signed token SimpleName MethodInvocation MethodInvocation SimpleName get cookie domain
+signed token SimpleName MethodInvocation MethodInvocation SimpleName get cookie path
+signed token SimpleName MethodInvocation MethodInvocation SimpleName token
+signed token SimpleName MethodInvocation MethodInvocation SimpleName get expires
+signed token SimpleName MethodInvocation SimpleName is https
+get cookie domain SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cookie path
+get cookie domain SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+get cookie domain SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get expires
+get cookie domain SimpleName MethodInvocation MethodInvocation SimpleName is https
+get cookie path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName token
+get cookie path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get expires
+get cookie path SimpleName MethodInvocation MethodInvocation SimpleName is https
+token SimpleName MethodInvocation MethodInvocation SimpleName is https
+get expires SimpleName MethodInvocation MethodInvocation SimpleName is https
+filter chain wrapper SimpleName MethodInvocation SimpleName do filter
+filter chain wrapper SimpleName MethodInvocation SimpleName http request
+filter chain wrapper SimpleName MethodInvocation SimpleName http response
+do filter SimpleName MethodInvocation SimpleName http request
+do filter SimpleName MethodInvocation SimpleName http response
+http request SimpleName MethodInvocation SimpleName http response
+unauthorized response SimpleName Assignment BooleanLiteral false
+authentication exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+err code SimpleName Assignment QualifiedName http servlet responsesc forbidden
+authentication ex SimpleName Assignment SimpleName ex
+ex SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral authentication exception {}
+log SimpleName MethodInvocation MethodInvocation SimpleName ex
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral authentication exception {}
+warn SimpleName MethodInvocation MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName ex
+authentication exception {} StringLiteral MethodInvocation MethodInvocation SimpleName ex
+authentication exception {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+authentication exception {} StringLiteral MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation MethodInvocation SimpleName ex
+get message SimpleName MethodInvocation MethodInvocation SimpleName ex
+http response SimpleName MethodInvocation SimpleName is committed
+create auth cookie SimpleName MethodInvocation SimpleName http response
+create auth cookie SimpleName MethodInvocation StringLiteral empty
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName get cookie domain
+create auth cookie SimpleName MethodInvocation MethodInvocation SimpleName get cookie path
+create auth cookie SimpleName MethodInvocation NumberLiteral empty
+http response SimpleName MethodInvocation StringLiteral empty
+http response SimpleName MethodInvocation MethodInvocation SimpleName get cookie domain
+http response SimpleName MethodInvocation MethodInvocation SimpleName get cookie path
+http response SimpleName MethodInvocation NumberLiteral empty
+http response SimpleName MethodInvocation SimpleName is https
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get cookie domain
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get cookie path
+empty StringLiteral MethodInvocation NumberLiteral empty
+empty StringLiteral MethodInvocation SimpleName is https
+get cookie domain SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cookie path
+get cookie domain SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get cookie domain SimpleName MethodInvocation MethodInvocation SimpleName is https
+get cookie path SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get cookie path SimpleName MethodInvocation MethodInvocation SimpleName is https
+empty NumberLiteral MethodInvocation SimpleName is https
+err code SimpleName InfixExpression QualifiedName http servlet responsesc unauthorized
+http response SimpleName MethodInvocation SimpleName contains header
+http response SimpleName MethodInvocation QualifiedName kerberos authenticatorwww authenticate
+contains header SimpleName MethodInvocation QualifiedName kerberos authenticatorwww authenticate
+err code SimpleName Assignment QualifiedName http servlet responsesc forbidden
+http request SimpleName MethodInvocation SimpleName get header
+http request SimpleName MethodInvocation StringLiteral useragent
+get header SimpleName MethodInvocation StringLiteral useragent
+is browser SimpleName MethodInvocation MethodInvocation SimpleName http request
+is browser SimpleName MethodInvocation MethodInvocation SimpleName get header
+is browser SimpleName MethodInvocation MethodInvocation StringLiteral useragent
+support key tab browser login SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName is browser
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName request
+filter chain SimpleName MethodInvocation SimpleName response
+do filter SimpleName MethodInvocation SimpleName request
+do filter SimpleName MethodInvocation SimpleName response
+request SimpleName MethodInvocation SimpleName response
+chk SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName chk
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+http response SimpleName MethodInvocation SimpleName get header names
+header names SimpleName VariableDeclarationFragment MethodInvocation SimpleName http response
+header names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header names
+string SimpleName SimpleType SingleVariableDeclaration SimpleName header name
+http response SimpleName MethodInvocation SimpleName get header
+http response SimpleName MethodInvocation SimpleName header name
+get header SimpleName MethodInvocation SimpleName header name
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName http response
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName header name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+header name SimpleName MethodInvocation SimpleName equals ignore case
+header name SimpleName MethodInvocation StringLiteral setcookie
+equals ignore case SimpleName MethodInvocation StringLiteral setcookie
+value SimpleName MethodInvocation SimpleName starts with
+value SimpleName MethodInvocation StringLiteral atlassessionid
+starts with SimpleName MethodInvocation StringLiteral atlassessionid
+header name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+header name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+header name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral atlassessionid
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+equals ignore case SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral atlassessionid
+setcookie StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName value
+setcookie StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+setcookie StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral atlassessionid
+chk SimpleName Assignment BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName header names
+header name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName header names
+http request SimpleName MethodInvocation SimpleName get header
+http request SimpleName MethodInvocation StringLiteral authorization
+get header SimpleName MethodInvocation StringLiteral authorization
+auth header SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+auth header SimpleName VariableDeclarationFragment MethodInvocation SimpleName get header
+auth header SimpleName VariableDeclarationFragment MethodInvocation StringLiteral authorization
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth header
+auth header SimpleName InfixExpression InfixExpression SimpleName chk
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName request
+filter chain SimpleName MethodInvocation SimpleName response
+do filter SimpleName MethodInvocation SimpleName request
+do filter SimpleName MethodInvocation SimpleName response
+request SimpleName MethodInvocation SimpleName response
+auth header SimpleName MethodInvocation SimpleName starts with
+auth header SimpleName MethodInvocation StringLiteral basic
+starts with SimpleName MethodInvocation StringLiteral basic
+auth header SimpleName InfixExpression InfixExpression MethodInvocation SimpleName auth header
+auth header SimpleName InfixExpression InfixExpression MethodInvocation SimpleName starts with
+auth header SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral basic
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName request
+filter chain SimpleName MethodInvocation SimpleName response
+do filter SimpleName MethodInvocation SimpleName request
+do filter SimpleName MethodInvocation SimpleName response
+request SimpleName MethodInvocation SimpleName response
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName header names
+authentication ex SimpleName MethodInvocation SimpleName get message
+http response SimpleName MethodInvocation SimpleName send error
+http response SimpleName MethodInvocation SimpleName err code
+http response SimpleName MethodInvocation MethodInvocation SimpleName authentication ex
+http response SimpleName MethodInvocation MethodInvocation SimpleName get message
+send error SimpleName MethodInvocation SimpleName err code
+send error SimpleName MethodInvocation MethodInvocation SimpleName authentication ex
+send error SimpleName MethodInvocation MethodInvocation SimpleName get message
+err code SimpleName MethodInvocation MethodInvocation SimpleName authentication ex
+err code SimpleName MethodInvocation MethodInvocation SimpleName get message
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName unauthorized response
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do kerberos auth
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+void PrimitiveType MethodDeclaration SimpleName do kerberos auth
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+do kerberos auth SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+do kerberos auth SimpleName MethodDeclaration SimpleType SimpleName io exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+filter chain wrapper SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+filter chain wrapper SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter chain wrapper SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do kerberos auth
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do kerberos auth
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain wrapper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

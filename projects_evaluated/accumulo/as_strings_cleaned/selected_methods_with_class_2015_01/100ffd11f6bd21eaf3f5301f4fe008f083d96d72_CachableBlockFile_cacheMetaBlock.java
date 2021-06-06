@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName block name
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName b
+file name SimpleName InfixExpression StringLiteral m
+file name SimpleName InfixExpression SimpleName block name
+m StringLiteral InfixExpression SimpleName block name
+lookup SimpleName VariableDeclarationFragment InfixExpression SimpleName file name
+lookup SimpleName VariableDeclarationFragment InfixExpression StringLiteral m
+lookup SimpleName VariableDeclarationFragment InfixExpression SimpleName block name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+i cache SimpleName MethodInvocation SimpleName cache block
+i cache SimpleName MethodInvocation SimpleName lookup
+i cache SimpleName MethodInvocation SimpleName b
+cache block SimpleName MethodInvocation SimpleName lookup
+cache block SimpleName MethodInvocation SimpleName b
+lookup SimpleName MethodInvocation SimpleName b
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+already cached block StringLiteral InfixExpression SimpleName lookup
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral already cached block
+log SimpleName MethodInvocation InfixExpression SimpleName lookup
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation InfixExpression StringLiteral already cached block
+warn SimpleName MethodInvocation InfixExpression SimpleName lookup
+warn SimpleName MethodInvocation SimpleName e
+already cached block StringLiteral InfixExpression MethodInvocation SimpleName e
+lookup SimpleName InfixExpression MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cache meta block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName block name
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleName cache meta block
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName block name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+cache meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+cache meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block name
+cache meta block SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+cache meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+block name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cache meta block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cache meta block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

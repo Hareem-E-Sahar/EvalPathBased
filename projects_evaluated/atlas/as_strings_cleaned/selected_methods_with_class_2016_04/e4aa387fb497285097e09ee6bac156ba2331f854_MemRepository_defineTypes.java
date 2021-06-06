@@ -1,0 +1,78 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName hierarchical type
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+hierarchical type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type SimpleName SimpleType SingleVariableDeclaration SimpleName h
+h SimpleName MethodInvocation SimpleName get type category
+h SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+get type category SimpleName MethodInvocation InfixExpression QualifiedName data typestype categorytrait
+trait type SimpleName SimpleType CastExpression SimpleName h
+t types SimpleName MethodInvocation SimpleName add
+t types SimpleName MethodInvocation CastExpression SimpleType SimpleName trait type
+t types SimpleName MethodInvocation CastExpression SimpleName h
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName trait type
+add SimpleName MethodInvocation CastExpression SimpleName h
+class type SimpleName SimpleType CastExpression SimpleName h
+c types SimpleName MethodInvocation SimpleName add
+c types SimpleName MethodInvocation CastExpression SimpleType SimpleName class type
+c types SimpleName MethodInvocation CastExpression SimpleName h
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName class type
+add SimpleName MethodInvocation CastExpression SimpleName h
+hierarchical type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+h SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+hierarchical type dependency sorter SimpleName MethodInvocation SimpleName sort types
+hierarchical type dependency sorter SimpleName MethodInvocation SimpleName t types
+sort types SimpleName MethodInvocation SimpleName t types
+t types SimpleName Assignment MethodInvocation SimpleName hierarchical type dependency sorter
+t types SimpleName Assignment MethodInvocation SimpleName sort types
+t types SimpleName Assignment MethodInvocation SimpleName t types
+hierarchical type dependency sorter SimpleName MethodInvocation SimpleName sort types
+hierarchical type dependency sorter SimpleName MethodInvocation SimpleName c types
+sort types SimpleName MethodInvocation SimpleName c types
+c types SimpleName Assignment MethodInvocation SimpleName hierarchical type dependency sorter
+c types SimpleName Assignment MethodInvocation SimpleName sort types
+c types SimpleName Assignment MethodInvocation SimpleName c types
+trait type SimpleName SimpleType SingleVariableDeclaration SimpleName t t
+define trait SimpleName MethodInvocation SimpleName t t
+trait type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName t types
+t t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName t types
+class type SimpleName SimpleType SingleVariableDeclaration SimpleName c t
+define class SimpleName MethodInvocation SimpleName c t
+class type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName c types
+c t SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName c types
+types SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName t types
+types SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName c types
+t types SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName c types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName define types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier MethodDeclaration SimpleType SimpleName repository exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName t types
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName c types
+void PrimitiveType MethodDeclaration SimpleName define types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName types
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName types
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName t types
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName c types
+define types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+define types SimpleName MethodDeclaration SimpleType SimpleName repository exception
+define types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+define types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName t types
+define types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName c types
+types SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName define types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

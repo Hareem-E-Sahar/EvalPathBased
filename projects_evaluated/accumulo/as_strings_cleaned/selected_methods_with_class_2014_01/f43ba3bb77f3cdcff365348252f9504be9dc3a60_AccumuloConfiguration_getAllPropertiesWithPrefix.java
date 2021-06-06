@@ -1,0 +1,64 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+check type SimpleName MethodInvocation SimpleName property
+check type SimpleName MethodInvocation QualifiedName property typeprefix
+property SimpleName MethodInvocation QualifiedName property typeprefix
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+property SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get key SimpleName MethodInvocation MethodInvocation SimpleName starts with
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+starts with SimpleName MethodInvocation MethodInvocation SimpleName property
+starts with SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+prop map SimpleName MethodInvocation SimpleName put
+prop map SimpleName MethodInvocation MethodInvocation SimpleName entry
+prop map SimpleName MethodInvocation MethodInvocation SimpleName get key
+prop map SimpleName MethodInvocation MethodInvocation SimpleName entry
+prop map SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get all properties with prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier MethodDeclaration Block ReturnStatement SimpleName prop map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all properties with prefix
+get all properties with prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+get all properties with prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+get all properties with prefix SimpleName MethodDeclaration Block ReturnStatement SimpleName prop map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all properties with prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all properties with prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

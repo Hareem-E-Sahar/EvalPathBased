@@ -1,0 +1,20 @@
+method name SimpleName VariableDeclarationFragment StringLiteral get active type def gallery
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get active type def gallery
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get active type def gallery
+validate repository content manager SimpleName MethodInvocation SimpleName method name
+repository content manager SimpleName MethodInvocation SimpleName get active type def gallery
+public Modifier MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier MethodDeclaration SimpleName get active type def gallery
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+type def gallery SimpleName SimpleType MethodDeclaration SimpleName get active type def gallery
+get active type def gallery SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active type def gallery
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active type def gallery

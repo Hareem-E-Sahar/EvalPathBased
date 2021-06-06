@@ -1,0 +1,83 @@
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName new type
+validate update SimpleName SuperMethodInvocation SimpleName new type
+enum type SimpleName SimpleType CastExpression SimpleName new type
+enum type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName enum type
+enum type SimpleName VariableDeclarationFragment CastExpression SimpleName new type
+enum type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum type
+enum value SimpleName SimpleType SingleVariableDeclaration SimpleName enum value
+enum typevalue map QualifiedName MethodInvocation SimpleName contains key
+enum typevalue map QualifiedName MethodInvocation QualifiedName enum valuevalue
+contains key SimpleName MethodInvocation QualifiedName enum valuevalue
+value StringLiteral InfixExpression QualifiedName enum valuevalue
+value StringLiteral InfixExpression StringLiteral is missing in new type
+enum valuevalue QualifiedName InfixExpression StringLiteral is missing in new type
+type update exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral value
+type update exception SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName enum valuevalue
+type update exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is missing in new type
+enum typevalue map QualifiedName MethodInvocation SimpleName get
+enum typevalue map QualifiedName MethodInvocation QualifiedName enum valuevalue
+get SimpleName MethodInvocation QualifiedName enum valuevalue
+new enum value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName enum typevalue map
+new enum value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+new enum value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName enum valuevalue
+enum value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new enum value
+enum valueordinal QualifiedName InfixExpression QualifiedName new enum valueordinal
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ordinal mismatch ss != ss
+string SimpleName MethodInvocation QualifiedName enum valuevalue
+string SimpleName MethodInvocation QualifiedName enum valueordinal
+string SimpleName MethodInvocation QualifiedName new enum valuevalue
+format SimpleName MethodInvocation StringLiteral ordinal mismatch ss != ss
+format SimpleName MethodInvocation QualifiedName enum valuevalue
+format SimpleName MethodInvocation QualifiedName enum valueordinal
+format SimpleName MethodInvocation QualifiedName new enum valuevalue
+format SimpleName MethodInvocation QualifiedName new enum valueordinal
+ordinal mismatch ss != ss StringLiteral MethodInvocation QualifiedName enum valuevalue
+ordinal mismatch ss != ss StringLiteral MethodInvocation QualifiedName enum valueordinal
+ordinal mismatch ss != ss StringLiteral MethodInvocation QualifiedName new enum valuevalue
+ordinal mismatch ss != ss StringLiteral MethodInvocation QualifiedName new enum valueordinal
+enum valuevalue QualifiedName MethodInvocation QualifiedName enum valueordinal
+enum valuevalue QualifiedName MethodInvocation QualifiedName new enum valuevalue
+enum valuevalue QualifiedName MethodInvocation QualifiedName new enum valueordinal
+enum valueordinal QualifiedName MethodInvocation QualifiedName new enum valuevalue
+enum valueordinal QualifiedName MethodInvocation QualifiedName new enum valueordinal
+new enum valuevalue QualifiedName MethodInvocation QualifiedName new enum valueordinal
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral ordinal mismatch ss != ss
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName enum valuevalue
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName enum valueordinal
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName new enum valuevalue
+type update exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName new enum valueordinal
+enum value SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate update
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new type
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName type update exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName validate update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new type
+public Modifier MethodDeclaration SimpleType SimpleName type update exception
+void PrimitiveType MethodDeclaration SimpleName validate update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new type
+void PrimitiveType MethodDeclaration SimpleType SimpleName type update exception
+validate update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i data type
+validate update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new type
+validate update SimpleName MethodDeclaration SimpleType SimpleName type update exception
+new type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type update exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type update exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type update exception

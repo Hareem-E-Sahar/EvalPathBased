@@ -1,0 +1,65 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+o SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType CastExpression SimpleName o
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+list SimpleName VariableDeclarationFragment CastExpression SimpleName o
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName list
+i SimpleName InfixExpression MethodInvocation SimpleName size
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName list
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName i
+to string SimpleName MethodInvocation SimpleName i
+list map SimpleName MethodInvocation SimpleName put
+list map SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+list map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName list
+list map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+list map SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+list map SimpleName MethodInvocation MethodInvocation SimpleName integer
+list map SimpleName MethodInvocation MethodInvocation SimpleName to string
+list map SimpleName MethodInvocation MethodInvocation SimpleName i
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName list
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+put SimpleName MethodInvocation MethodInvocation SimpleName integer
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get updated edge list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+private Modifier MethodDeclaration Block ReturnStatement SimpleName list map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated edge list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated edge list
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get updated edge list
+get updated edge list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get updated edge list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+get updated edge list SimpleName MethodDeclaration Block ReturnStatement SimpleName list map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get updated edge list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get updated edge list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

@@ -1,0 +1,92 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName to change
+to change SimpleName MethodInvocation SimpleName get principal
+can change password SimpleName MethodInvocation SimpleName credentials
+can change password SimpleName MethodInvocation MethodInvocation SimpleName to change
+can change password SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation MethodInvocation SimpleName to change
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName credentials
+thrift security exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get principal
+thrift security exception SimpleName SimpleType ClassInstanceCreation QualifiedName security error codepermission denied
+credentials SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+get principal SimpleName MethodInvocation ClassInstanceCreation QualifiedName security error codepermission denied
+reassemble token SimpleName MethodInvocation SimpleName to change
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName reassemble token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName to change
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+to change SimpleName MethodInvocation SimpleName get principal
+authenticator SimpleName MethodInvocation SimpleName change password
+authenticator SimpleName MethodInvocation MethodInvocation SimpleName to change
+authenticator SimpleName MethodInvocation MethodInvocation SimpleName get principal
+authenticator SimpleName MethodInvocation SimpleName token
+change password SimpleName MethodInvocation MethodInvocation SimpleName to change
+change password SimpleName MethodInvocation MethodInvocation SimpleName get principal
+change password SimpleName MethodInvocation SimpleName token
+to change SimpleName MethodInvocation MethodInvocation SimpleName token
+get principal SimpleName MethodInvocation MethodInvocation SimpleName token
+to change SimpleName MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName get principal
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName to change
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+changed password for user StringLiteral InfixExpression StringLiteral at the request of user
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+changed password for user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+to change SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+get principal SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+to change SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+to change SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+get principal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName credentials
+at the request of user StringLiteral InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to change
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+log SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral changed password for user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to change
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+info SimpleName MethodInvocation InfixExpression StringLiteral at the request of user
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName credentials
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get principal
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change password
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to change
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName change password
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to change
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+change password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to change
+change password SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to change
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+to change SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to change
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to change
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

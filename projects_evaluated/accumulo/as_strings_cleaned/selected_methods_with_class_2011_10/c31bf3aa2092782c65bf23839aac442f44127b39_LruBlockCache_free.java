@@ -1,0 +1,50 @@
+long PrimitiveType SingleVariableDeclaration SimpleName to free
+queue SimpleName MethodInvocation SimpleName get
+blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName queue
+blocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+freed bytes SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName freed bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName blockslength
+blocks SimpleName ArrayAccess SimpleName i
+evict block SimpleName MethodInvocation ArrayAccess SimpleName blocks
+evict block SimpleName MethodInvocation ArrayAccess SimpleName i
+freed bytes SimpleName Assignment MethodInvocation SimpleName evict block
+freed bytes SimpleName Assignment MethodInvocation ArrayAccess SimpleName blocks
+freed bytes SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+freed bytes SimpleName InfixExpression SimpleName to free
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName blockslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+blockslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName freed bytes
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName free
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to free
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block ReturnStatement SimpleName freed bytes
+long PrimitiveType MethodDeclaration SimpleName free
+long PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to free
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName freed bytes
+free SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+free SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to free
+free SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+free SimpleName MethodDeclaration Block ReturnStatement SimpleName freed bytes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName free
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to free
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName free
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to free

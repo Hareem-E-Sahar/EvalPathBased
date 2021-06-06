@@ -1,0 +1,39 @@
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+major compaction in progress SimpleName IfStatement ReturnStatement BooleanLiteral false
+reason SimpleName InfixExpression QualifiedName major compaction reasonchop
+reason SimpleName InfixExpression QualifiedName major compaction reasonuser
+reason SimpleName InfixExpression InfixExpression InfixExpression SimpleName reason
+reason SimpleName InfixExpression InfixExpression InfixExpression QualifiedName major compaction reasonuser
+major compaction reasonchop QualifiedName InfixExpression InfixExpression InfixExpression SimpleName reason
+major compaction reasonchop QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName major compaction reasonuser
+datafile manager SimpleName MethodInvocation SimpleName get datafile sizes
+tablet resources SimpleName MethodInvocation SimpleName needs major compaction
+tablet resources SimpleName MethodInvocation MethodInvocation SimpleName datafile manager
+tablet resources SimpleName MethodInvocation MethodInvocation SimpleName get datafile sizes
+tablet resources SimpleName MethodInvocation SimpleName reason
+needs major compaction SimpleName MethodInvocation MethodInvocation SimpleName datafile manager
+needs major compaction SimpleName MethodInvocation MethodInvocation SimpleName get datafile sizes
+needs major compaction SimpleName MethodInvocation SimpleName reason
+datafile manager SimpleName MethodInvocation MethodInvocation SimpleName reason
+get datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName reason
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName needs major compaction
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration Block IfStatement SimpleName major compaction in progress
+boolean PrimitiveType MethodDeclaration SimpleName needs major compaction
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName major compaction in progress
+needs major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+needs major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+needs major compaction SimpleName MethodDeclaration Block IfStatement SimpleName major compaction in progress
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName needs major compaction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName needs major compaction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

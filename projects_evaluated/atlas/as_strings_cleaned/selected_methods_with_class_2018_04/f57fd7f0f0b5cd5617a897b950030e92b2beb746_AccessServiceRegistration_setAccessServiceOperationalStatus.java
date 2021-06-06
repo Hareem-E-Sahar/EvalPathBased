@@ -1,0 +1,20 @@
+access service operational status SimpleName SimpleType SingleVariableDeclaration SimpleName access service operational status
+access service operational status SimpleName FieldAccess Assignment SimpleName access service operational status
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set access service operational status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service operational status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access service operational status
+void PrimitiveType MethodDeclaration SimpleName set access service operational status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service operational status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access service operational status
+set access service operational status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service operational status
+set access service operational status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access service operational status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set access service operational status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service operational status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set access service operational status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access service operational status

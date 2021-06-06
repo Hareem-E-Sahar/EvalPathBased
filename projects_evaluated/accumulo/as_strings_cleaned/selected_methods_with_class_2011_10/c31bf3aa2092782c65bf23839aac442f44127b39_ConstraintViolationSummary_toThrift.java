@@ -1,0 +1,20 @@
+t constraint violation summary SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName constrain class
+t constraint violation summary SimpleName SimpleType ClassInstanceCreation SimpleName violation code
+t constraint violation summary SimpleName SimpleType ClassInstanceCreation SimpleName violation description
+t constraint violation summary SimpleName SimpleType ClassInstanceCreation SimpleName number of violating mutations
+constrain class SimpleName FieldAccess ClassInstanceCreation SimpleName violation code
+constrain class SimpleName FieldAccess ClassInstanceCreation SimpleName violation description
+constrain class SimpleName FieldAccess ClassInstanceCreation SimpleName number of violating mutations
+violation code SimpleName ClassInstanceCreation SimpleName violation description
+violation code SimpleName ClassInstanceCreation SimpleName number of violating mutations
+violation description SimpleName ClassInstanceCreation SimpleName number of violating mutations
+public Modifier MethodDeclaration SimpleType SimpleName t constraint violation summary
+public Modifier MethodDeclaration SimpleName to thrift
+t constraint violation summary SimpleName SimpleType MethodDeclaration SimpleName to thrift
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t constraint violation summary
+public Modifier TypeDeclaration MethodDeclaration SimpleName to thrift
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t constraint violation summary
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to thrift

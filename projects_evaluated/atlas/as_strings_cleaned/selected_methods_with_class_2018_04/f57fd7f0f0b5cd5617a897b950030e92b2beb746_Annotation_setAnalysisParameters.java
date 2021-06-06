@@ -1,0 +1,20 @@
+additional properties SimpleName SimpleType SingleVariableDeclaration SimpleName analysis parameters
+analysis parameters SimpleName FieldAccess Assignment SimpleName analysis parameters
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set analysis parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName analysis parameters
+void PrimitiveType MethodDeclaration SimpleName set analysis parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName analysis parameters
+set analysis parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+set analysis parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName analysis parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set analysis parameters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName analysis parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set analysis parameters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName analysis parameters

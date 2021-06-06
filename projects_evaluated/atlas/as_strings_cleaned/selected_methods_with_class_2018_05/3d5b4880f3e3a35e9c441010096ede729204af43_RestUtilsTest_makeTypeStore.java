@@ -1,0 +1,178 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName reg
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas type def graph store v
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+atlas type def graph store v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+reg SimpleName MethodInvocation SimpleName get all entity types
+type SimpleName MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas vertex
+type vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type vertex
+eq SimpleName MethodInvocation SimpleName type vertex
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type category
+result SimpleName MethodInvocation SimpleName is type vertex
+result SimpleName MethodInvocation MethodInvocation SimpleName eq
+result SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+result SimpleName MethodInvocation MethodInvocation SimpleName any
+is type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+is type vertex SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+is type vertex SimpleName MethodInvocation MethodInvocation SimpleName any
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName result
+when SimpleName MethodInvocation MethodInvocation SimpleName is type vertex
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type vertex
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+is type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+result SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+is type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+then return SimpleName MethodInvocation BooleanLiteral true
+eq SimpleName MethodInvocation QualifiedName constantstype category property key
+eq SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type category
+type vertex SimpleName MethodInvocation SimpleName get property
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+type vertex SimpleName MethodInvocation MethodInvocation QualifiedName constantstype category property key
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation QualifiedName constantstype category property key
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+constantstype category property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+when SimpleName MethodInvocation MethodInvocation SimpleName get property
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstype category property key
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName type categoryclass
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categoryclass
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName type categoryclass
+then return SimpleName MethodInvocation QualifiedName type categoryclass
+atlas graph utils v SimpleName MethodInvocation SimpleName get type def property key
+atlas graph utils v SimpleName MethodInvocation SimpleName type name
+get type def property key SimpleName MethodInvocation SimpleName type name
+attribute list property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+attribute list property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type def property key
+attribute list property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute list property key
+eq SimpleName MethodInvocation SimpleName attribute list property key
+eq SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+type vertex SimpleName MethodInvocation SimpleName get property
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute list property key
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation SimpleName attribute list property key
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+attribute list property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+when SimpleName MethodInvocation MethodInvocation SimpleName get property
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute list property key
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+type SimpleName MethodInvocation SimpleName get all attributes
+type SimpleName MethodInvocation MethodInvocation SimpleName key set
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName key set
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key set
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+type SimpleName MethodInvocation SimpleName get all attributes
+type SimpleName MethodInvocation MethodInvocation SimpleName values
+get all attributes SimpleName MethodInvocation MethodInvocation SimpleName values
+attribute SimpleName MethodInvocation SimpleName get name
+atlas graph utils v SimpleName MethodInvocation SimpleName get type def property key
+atlas graph utils v SimpleName MethodInvocation SimpleName type name
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName attribute
+atlas graph utils v SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type def property key SimpleName MethodInvocation SimpleName type name
+get type def property key SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get type def property key SimpleName MethodInvocation MethodInvocation SimpleName get name
+type name SimpleName MethodInvocation MethodInvocation SimpleName attribute
+type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute def property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+attribute def property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type def property key
+attribute def property key SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+attribute def property key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute
+attribute def property key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute def property key
+atlas struct def store v SimpleName MethodInvocation SimpleName to json from attribute
+atlas struct def store v SimpleName MethodInvocation SimpleName attribute
+to json from attribute SimpleName MethodInvocation SimpleName attribute
+attribute json SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas struct def store v
+attribute json SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json from attribute
+attribute json SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute json
+eq SimpleName MethodInvocation SimpleName attribute def property key
+eq SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+type vertex SimpleName MethodInvocation SimpleName get property
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute def property key
+type vertex SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+get property SimpleName MethodInvocation MethodInvocation SimpleName attribute def property key
+get property SimpleName MethodInvocation MethodInvocation SimpleName eq
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+attribute def property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+when SimpleName MethodInvocation MethodInvocation SimpleName get property
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def property key
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName attribute json
+type vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute json
+get property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute json
+then return SimpleName MethodInvocation SimpleName attribute json
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+eq SimpleName MethodInvocation SimpleName type name
+result SimpleName MethodInvocation SimpleName find type vertex by name
+result SimpleName MethodInvocation MethodInvocation SimpleName eq
+result SimpleName MethodInvocation MethodInvocation SimpleName type name
+find type vertex by name SimpleName MethodInvocation MethodInvocation SimpleName eq
+find type vertex by name SimpleName MethodInvocation MethodInvocation SimpleName type name
+when SimpleName MethodInvocation MethodInvocation SimpleName result
+when SimpleName MethodInvocation MethodInvocation SimpleName find type vertex by name
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+find type vertex by name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName type vertex
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type vertex
+find type vertex by name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type vertex
+then return SimpleName MethodInvocation SimpleName type vertex
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName reg
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all entity types
+private Modifier MethodDeclaration SimpleType SimpleName atlas type def graph store v
+private Modifier MethodDeclaration SimpleName make type store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName reg
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+atlas type def graph store v SimpleName SimpleType MethodDeclaration SimpleName make type store
+atlas type def graph store v SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reg
+make type store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+make type store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reg
+make type store SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type def graph store v
+public Modifier TypeDeclaration MethodDeclaration SimpleName make type store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reg
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type def graph store v
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make type store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reg

@@ -1,0 +1,51 @@
+app configuration entry SimpleName SimpleType ClassInstanceCreation SimpleName login module name
+app configuration entry SimpleName SimpleType ClassInstanceCreation SimpleName control flag
+app configuration entry SimpleName SimpleType ClassInstanceCreation SimpleName options
+login module name SimpleName ClassInstanceCreation SimpleName control flag
+login module name SimpleName ClassInstanceCreation SimpleName options
+control flag SimpleName ClassInstanceCreation SimpleName options
+app configuration entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName app configuration entry
+app configuration entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName login module name
+app configuration entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName control flag
+app configuration entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName options
+app configuration entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app configuration entry
+app configuration entries SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer SimpleName app configuration entry
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+app configuration entries options SimpleName MethodInvocation SimpleName put
+app configuration entries options SimpleName MethodInvocation StringLiteral springsecurity
+app configuration entries options SimpleName MethodInvocation SimpleName app configuration entries
+put SimpleName MethodInvocation StringLiteral springsecurity
+put SimpleName MethodInvocation SimpleName app configuration entries
+springsecurity StringLiteral MethodInvocation SimpleName app configuration entries
+in memory configuration SimpleName SimpleType ClassInstanceCreation SimpleName app configuration entries options
+configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName in memory configuration
+configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName app configuration entries options
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+jaas authentication provider SimpleName MethodInvocation SimpleName set configuration
+jaas authentication provider SimpleName MethodInvocation SimpleName configuration
+set configuration SimpleName MethodInvocation SimpleName configuration
+authority granter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user authority granter
+user authority granter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authority granter
+authority granters SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer SimpleName authority granter
+jaas authentication provider SimpleName MethodInvocation SimpleName set authority granters
+jaas authentication provider SimpleName MethodInvocation SimpleName authority granters
+set authority granters SimpleName MethodInvocation SimpleName authority granters
+jaas authentication provider SimpleName MethodInvocation SimpleName after properties set
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral failed to init pam authentication
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral failed to init pam authentication
+error SimpleName MethodInvocation SimpleName e
+failed to init pam authentication StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SimpleName init
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init

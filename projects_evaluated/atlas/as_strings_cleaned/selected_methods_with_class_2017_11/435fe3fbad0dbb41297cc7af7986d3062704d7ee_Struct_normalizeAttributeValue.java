@@ -1,0 +1,73 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName value
+map value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+map value SimpleName VariableDeclarationFragment CastExpression SimpleName value
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value
+map value SimpleName MethodInvocation SimpleName get
+map value SimpleName MethodInvocation StringLiteral json class
+get SimpleName MethodInvocation StringLiteral json class
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName map value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral json class
+json class SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+json class SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName map value
+json class SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+json class SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral json class
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json class
+idjson class id QualifiedName MethodInvocation SimpleName equals
+idjson class id QualifiedName MethodInvocation SimpleName json class
+equals SimpleName MethodInvocation SimpleName json class
+id SimpleName SimpleType ClassInstanceCreation SimpleName map value
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName id
+value SimpleName Assignment ClassInstanceCreation SimpleName map value
+structjson class struct QualifiedName MethodInvocation SimpleName equals
+structjson class struct QualifiedName MethodInvocation SimpleName json class
+equals SimpleName MethodInvocation SimpleName json class
+struct SimpleName SimpleType ClassInstanceCreation SimpleName map value
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName struct
+value SimpleName Assignment ClassInstanceCreation SimpleName map value
+referenceablejson class reference QualifiedName MethodInvocation SimpleName equals
+referenceablejson class reference QualifiedName MethodInvocation SimpleName json class
+equals SimpleName MethodInvocation SimpleName json class
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName map value
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName referenceable
+value SimpleName Assignment ClassInstanceCreation SimpleName map value
+value SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list SimpleName SimpleType CastExpression SimpleName value
+list value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+list value SimpleName VariableDeclarationFragment CastExpression SimpleName value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+list value SimpleName MethodInvocation SimpleName size
+normalized value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName list value
+normalized value SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+normalize attribute value SimpleName MethodInvocation SimpleName val
+normalized value SimpleName MethodInvocation SimpleName add
+normalized value SimpleName MethodInvocation MethodInvocation SimpleName normalize attribute value
+normalized value SimpleName MethodInvocation MethodInvocation SimpleName val
+add SimpleName MethodInvocation MethodInvocation SimpleName normalize attribute value
+add SimpleName MethodInvocation MethodInvocation SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list value
+val SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list value
+value SimpleName Assignment SimpleName normalized value
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName normalize attribute value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+private Modifier MethodDeclaration Block ReturnStatement SimpleName value
+object SimpleName SimpleType MethodDeclaration SimpleName normalize attribute value
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+normalize attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+normalize attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+normalize attribute value SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

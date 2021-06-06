@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName related asset properties
+public Modifier MethodDeclaration SimpleName get related asset properties
+related asset properties SimpleName SimpleType MethodDeclaration SimpleName get related asset properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName related asset properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get related asset properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName related asset properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get related asset properties

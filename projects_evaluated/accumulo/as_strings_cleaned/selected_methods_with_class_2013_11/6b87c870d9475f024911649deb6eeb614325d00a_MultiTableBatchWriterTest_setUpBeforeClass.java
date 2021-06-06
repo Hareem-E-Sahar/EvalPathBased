@@ -1,0 +1,47 @@
+folder SimpleName MethodInvocation SimpleName create
+folder SimpleName MethodInvocation SimpleName new folder
+folder SimpleName MethodInvocation StringLiteral mini accumulo
+new folder SimpleName MethodInvocation StringLiteral mini accumulo
+password SimpleName MethodInvocation SimpleName get password
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName password
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get password
+mini accumulo config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName folder
+mini accumulo config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new folder
+mini accumulo config SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral mini accumulo
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mini accumulo config
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName folder
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName new folder
+cfg SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral mini accumulo
+mini accumulo config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation SimpleName cfg
+cluster SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mini accumulo cluster
+cluster SimpleName Assignment ClassInstanceCreation SimpleName cfg
+cluster SimpleName MethodInvocation SimpleName start
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up before class
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up before class
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set up before class
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up before class
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up before class SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up before class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up before class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

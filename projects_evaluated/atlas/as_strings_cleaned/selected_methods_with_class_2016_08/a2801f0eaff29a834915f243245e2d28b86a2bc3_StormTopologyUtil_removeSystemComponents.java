@@ -1,0 +1,40 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName components
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName components
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName component
+is system component SimpleName MethodInvocation SimpleName component
+user components SimpleName MethodInvocation SimpleName add
+user components SimpleName MethodInvocation SimpleName component
+add SimpleName MethodInvocation SimpleName component
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName components
+component SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName components
+components SimpleName EnhancedForStatement Block ReturnStatement SimpleName user components
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName remove system components
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName components
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName components
+public Modifier MethodDeclaration Block ReturnStatement SimpleName user components
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName remove system components
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName components
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName components
+static Modifier MethodDeclaration Block ReturnStatement SimpleName user components
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove system components
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove system components
+remove system components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName components
+remove system components SimpleName MethodDeclaration Block EnhancedForStatement SimpleName components
+remove system components SimpleName MethodDeclaration Block ReturnStatement SimpleName user components
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove system components
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName components
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove system components
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName components

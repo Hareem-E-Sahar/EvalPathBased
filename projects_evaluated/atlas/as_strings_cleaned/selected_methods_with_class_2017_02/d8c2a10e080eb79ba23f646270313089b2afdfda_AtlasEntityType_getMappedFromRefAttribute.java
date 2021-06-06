@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attrib name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+atlas attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+mapped from ref attributes SimpleName MethodInvocation SimpleName entry set
+e SimpleName MethodInvocation SimpleName get value
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attribute SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get struct type
+attribute SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get struct type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct type
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get type name
+string utils SimpleName MethodInvocation SimpleName type name
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct type
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals SimpleName MethodInvocation SimpleName type name
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+get struct type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName type name
+attribute SimpleName MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName attribute
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+string utils SimpleName MethodInvocation SimpleName attrib name
+equals SimpleName MethodInvocation MethodInvocation SimpleName attribute
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation SimpleName attrib name
+attribute SimpleName MethodInvocation MethodInvocation SimpleName attrib name
+get name SimpleName MethodInvocation MethodInvocation SimpleName attrib name
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attrib name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attrib name
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attrib name
+e SimpleName MethodInvocation SimpleName get key
+ret SimpleName Assignment MethodInvocation SimpleName e
+ret SimpleName Assignment MethodInvocation SimpleName get key
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mapped from ref attributes
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get mapped from ref attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrib name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName get mapped from ref attribute
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrib name
+get mapped from ref attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get mapped from ref attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get mapped from ref attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get mapped from ref attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrib name
+get mapped from ref attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get mapped from ref attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get mapped from ref attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrib name

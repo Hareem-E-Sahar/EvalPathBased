@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName block name
+file name SimpleName InfixExpression StringLiteral m
+file name SimpleName InfixExpression SimpleName block name
+m StringLiteral InfixExpression SimpleName block name
+lookup SimpleName VariableDeclarationFragment InfixExpression SimpleName file name
+lookup SimpleName VariableDeclarationFragment InfixExpression StringLiteral m
+lookup SimpleName VariableDeclarationFragment InfixExpression SimpleName block name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+i cache SimpleName MethodInvocation SimpleName get block
+i cache SimpleName MethodInvocation SimpleName lookup
+get block SimpleName MethodInvocation SimpleName lookup
+cache entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName i cache
+cache entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get block
+cache entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup
+cache entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cache entry
+cache entry SimpleName MethodInvocation SimpleName get buffer
+cached block read SimpleName SimpleType ClassInstanceCreation SimpleName cache entry
+cached block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cache entry
+cached block read SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get buffer
+cache entry SimpleName ClassInstanceCreation MethodInvocation SimpleName cache entry
+cache entry SimpleName ClassInstanceCreation MethodInvocation SimpleName get buffer
+public Modifier MethodDeclaration SimpleType SimpleName block read
+public Modifier MethodDeclaration SimpleName get cached meta block
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName block name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+block read SimpleName SimpleType MethodDeclaration SimpleName get cached meta block
+block read SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName block name
+block read SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get cached meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get cached meta block SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block name
+get cached meta block SimpleName MethodDeclaration SimpleType SimpleName io exception
+block name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block read
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cached meta block
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block read
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cached meta block
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

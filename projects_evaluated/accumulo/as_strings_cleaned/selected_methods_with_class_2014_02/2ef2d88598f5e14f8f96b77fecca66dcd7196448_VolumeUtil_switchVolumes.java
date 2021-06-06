@@ -1,0 +1,88 @@
+log entry SimpleName SimpleType SingleVariableDeclaration SimpleName le
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName replacements
+switch volume SimpleName MethodInvocation QualifiedName lefilename
+switch volume SimpleName MethodInvocation QualifiedName file typewal
+switch volume SimpleName MethodInvocation SimpleName replacements
+lefilename QualifiedName MethodInvocation QualifiedName file typewal
+lefilename QualifiedName MethodInvocation SimpleName replacements
+file typewal QualifiedName MethodInvocation SimpleName replacements
+switched path SimpleName VariableDeclarationFragment MethodInvocation SimpleName switch volume
+switched path SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lefilename
+switched path SimpleName VariableDeclarationFragment MethodInvocation QualifiedName file typewal
+switched path SimpleName VariableDeclarationFragment MethodInvocation SimpleName replacements
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName switched path
+num switched SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num switched
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+switched path SimpleName Assignment QualifiedName lefilename
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName log
+switch volume SimpleName MethodInvocation QualifiedName lefilename
+switch volume SimpleName MethodInvocation QualifiedName file typewal
+switch volume SimpleName MethodInvocation SimpleName replacements
+lefilename QualifiedName MethodInvocation QualifiedName file typewal
+lefilename QualifiedName MethodInvocation SimpleName replacements
+file typewal QualifiedName MethodInvocation SimpleName replacements
+switched log SimpleName VariableDeclarationFragment MethodInvocation SimpleName switch volume
+switched log SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lefilename
+switched log SimpleName VariableDeclarationFragment MethodInvocation QualifiedName file typewal
+switched log SimpleName VariableDeclarationFragment MethodInvocation SimpleName replacements
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName switched log
+switched logs SimpleName MethodInvocation SimpleName add
+switched logs SimpleName MethodInvocation SimpleName switched log
+add SimpleName MethodInvocation SimpleName switched log
+switched logs SimpleName MethodInvocation SimpleName add
+switched logs SimpleName MethodInvocation SimpleName log
+add SimpleName MethodInvocation SimpleName log
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName lelog set
+log SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName lelog set
+num switched SimpleName InfixExpression NumberLiteral empty
+log entry SimpleName SimpleType ClassInstanceCreation SimpleName le
+new log entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName log entry
+new log entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName le
+log entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new log entry
+new log entryfilename QualifiedName Assignment SimpleName switched path
+new log entrylog set QualifiedName Assignment SimpleName switched logs
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement QualifiedName lelog set
+lelog set QualifiedName EnhancedForStatement Block ReturnStatement SimpleName new log entry
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName log entry
+private Modifier MethodDeclaration SimpleName switch volumes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName le
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName replacements
+static Modifier MethodDeclaration SimpleType SimpleName log entry
+static Modifier MethodDeclaration SimpleName switch volumes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName le
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName replacements
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block EnhancedForStatement QualifiedName lelog set
+static Modifier MethodDeclaration Block ReturnStatement SimpleName new log entry
+log entry SimpleName SimpleType MethodDeclaration SimpleName switch volumes
+log entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName le
+log entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName replacements
+switch volumes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName log entry
+switch volumes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName le
+switch volumes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName replacements
+switch volumes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+switch volumes SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName lelog set
+switch volumes SimpleName MethodDeclaration Block ReturnStatement SimpleName new log entry
+le SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replacements
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName log entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName switch volumes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName le
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replacements
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName log entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName switch volumes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName le
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName replacements

@@ -1,0 +1,38 @@
+pam SimpleName MethodInvocation SimpleName authenticate
+pam SimpleName MethodInvocation SimpleName username
+pam SimpleName MethodInvocation SimpleName password
+authenticate SimpleName MethodInvocation SimpleName username
+authenticate SimpleName MethodInvocation SimpleName password
+username SimpleName MethodInvocation SimpleName password
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName pam
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName authenticate
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName username
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+unix user SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+pam principal SimpleName SimpleType ClassInstanceCreation SimpleName user
+principal SimpleName Assignment ClassInstanceCreation SimpleType SimpleName pam principal
+principal SimpleName Assignment ClassInstanceCreation SimpleName user
+auth succeeded SimpleName Assignment BooleanLiteral true
+pam exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+failed login exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid username or password
+le SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName failed login exception
+le SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral invalid username or password
+login exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName le
+le SimpleName MethodInvocation SimpleName init cause
+le SimpleName MethodInvocation SimpleName ex
+init cause SimpleName MethodInvocation SimpleName ex
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName perform login
+private Modifier MethodDeclaration SimpleType SimpleName login exception
+boolean PrimitiveType MethodDeclaration SimpleName perform login
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+perform login SimpleName MethodDeclaration SimpleType SimpleName login exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName perform login
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName perform login
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

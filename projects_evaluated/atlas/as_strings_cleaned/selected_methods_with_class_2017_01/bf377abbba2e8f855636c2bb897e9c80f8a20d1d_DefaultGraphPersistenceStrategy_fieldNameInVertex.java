@@ -1,0 +1,44 @@
+i data type SimpleName SimpleType ParameterizedType WildcardType ?
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName data type
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName a info
+metadata repository SimpleName MethodInvocation SimpleName get field name in vertex
+metadata repository SimpleName MethodInvocation SimpleName data type
+metadata repository SimpleName MethodInvocation SimpleName a info
+get field name in vertex SimpleName MethodInvocation SimpleName data type
+get field name in vertex SimpleName MethodInvocation SimpleName a info
+data type SimpleName MethodInvocation SimpleName a info
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName field name in vertex
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName a info
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName field name in vertex
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a info
+string SimpleName SimpleType MethodDeclaration SimpleName field name in vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName a info
+field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a info
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName field name in vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName field name in vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info

@@ -1,0 +1,146 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName anchor entity
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship type guid
+omrs metadata collection SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+anchor entity SimpleName MethodInvocation SimpleName get guid
+metadata collection SimpleName MethodInvocation SimpleName get relationships for entity
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName anchor entity
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName get guid
+metadata collection SimpleName MethodInvocation SimpleName relationship type guid
+metadata collection SimpleName MethodInvocation NumberLiteral empty
+get relationships for entity SimpleName MethodInvocation SimpleName user id
+get relationships for entity SimpleName MethodInvocation MethodInvocation SimpleName anchor entity
+get relationships for entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get relationships for entity SimpleName MethodInvocation SimpleName relationship type guid
+get relationships for entity SimpleName MethodInvocation NumberLiteral empty
+user id SimpleName MethodInvocation MethodInvocation SimpleName anchor entity
+user id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+user id SimpleName MethodInvocation SimpleName relationship type guid
+user id SimpleName MethodInvocation NumberLiteral empty
+anchor entity SimpleName MethodInvocation MethodInvocation SimpleName relationship type guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName relationship type guid
+anchor entity SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get guid SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+relationship type guid SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+relationships SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata collection
+relationships SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationships for entity
+relationships SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+relationships SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName anchor entity
+relationships SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+relationships SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type guid
+relationships SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+relationships SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+relationships SimpleName MethodInvocation SimpleName size
+relationships SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+relationships SimpleName MethodInvocation SimpleName get
+relationships SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationships
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+relationship SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get entity one proxy
+required end SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+required end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity one proxy
+entity proxy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName required end
+anchor entity SimpleName MethodInvocation SimpleName get guid
+required end SimpleName MethodInvocation SimpleName get guid
+anchor entity SimpleName MethodInvocation MethodInvocation SimpleName equals
+get guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+anchor entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName required end
+anchor entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName required end
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName required end
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation SimpleName get entity two proxy
+required end SimpleName Assignment MethodInvocation SimpleName relationship
+required end SimpleName Assignment MethodInvocation SimpleName get entity two proxy
+required end SimpleName MethodInvocation SimpleName get guid
+metadata collection SimpleName MethodInvocation SimpleName get entity detail
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName required end
+metadata collection SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity detail SimpleName MethodInvocation SimpleName user id
+get entity detail SimpleName MethodInvocation MethodInvocation SimpleName required end
+get entity detail SimpleName MethodInvocation MethodInvocation SimpleName get guid
+user id SimpleName MethodInvocation MethodInvocation SimpleName required end
+user id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle repository error
+error handler SimpleName MethodInvocation SimpleName error
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle repository error SimpleName MethodInvocation SimpleName error
+handle repository error SimpleName MethodInvocation SimpleName method name
+handle repository error SimpleName MethodInvocation SimpleName server name
+handle repository error SimpleName MethodInvocation SimpleName service name
+error SimpleName MethodInvocation SimpleName method name
+error SimpleName MethodInvocation SimpleName server name
+error SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+private Modifier MethodDeclaration SimpleType SimpleName entity detail
+private Modifier MethodDeclaration SimpleName get entity for relationship type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+entity detail SimpleName SimpleType MethodDeclaration SimpleName get entity for relationship type
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+entity detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs metadata collection
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity for relationship type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+anchor entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+anchor entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+anchor entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+anchor entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+relationship type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+relationship type guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+relationship type guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+metadata collection SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+metadata collection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity for relationship type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity for relationship type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anchor entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship type guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception

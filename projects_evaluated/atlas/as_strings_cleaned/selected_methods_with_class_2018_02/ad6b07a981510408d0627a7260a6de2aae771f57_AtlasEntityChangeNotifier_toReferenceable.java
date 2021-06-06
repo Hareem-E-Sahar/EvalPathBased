@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName entity id
+is not empty SimpleName MethodInvocation SimpleName entity id
+instance converter SimpleName MethodInvocation SimpleName get referenceable
+instance converter SimpleName MethodInvocation SimpleName entity id
+get referenceable SimpleName MethodInvocation SimpleName entity id
+ret SimpleName Assignment MethodInvocation SimpleName instance converter
+ret SimpleName Assignment MethodInvocation SimpleName get referenceable
+ret SimpleName Assignment MethodInvocation SimpleName entity id
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName to referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity id
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+referenceable SimpleName SimpleType MethodDeclaration SimpleName to referenceable
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity id
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to referenceable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity id
+to referenceable SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to referenceable SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName to referenceable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to referenceable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

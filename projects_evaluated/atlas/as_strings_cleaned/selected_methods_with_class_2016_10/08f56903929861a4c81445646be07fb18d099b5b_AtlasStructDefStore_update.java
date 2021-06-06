@@ -1,0 +1,17 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleName update
+atlas struct def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+atlas struct def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+update SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,56 @@
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get client config
+verify SimpleName MethodInvocation SimpleName connector
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+verify SimpleName MethodInvocation MethodInvocation SimpleName get client config
+verify SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+verify SimpleName MethodInvocation SimpleName chunksize
+verify SimpleName MethodInvocation NumberLiteral empty
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+connector SimpleName MethodInvocation MethodInvocation SimpleName get client config
+connector SimpleName MethodInvocation MethodInvocation SimpleName get admin principal
+connector SimpleName MethodInvocation SimpleName chunksize
+connector SimpleName MethodInvocation NumberLiteral empty
+connector SimpleName MethodInvocation NumberLiteral empty
+get client config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get admin principal
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName chunksize
+get client config SimpleName MethodInvocation MethodInvocation SimpleName chunksize
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get client config SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get client config SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start
+get client config SimpleName MethodInvocation MethodInvocation SimpleName start
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName chunksize
+get admin principal SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get admin principal SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName start
+get admin principal SimpleName MethodInvocation MethodInvocation SimpleName table name
+chunksize SimpleName MethodInvocation NumberLiteral empty
+chunksize SimpleName MethodInvocation NumberLiteral empty
+chunksize SimpleName MethodInvocation SimpleName start
+chunksize SimpleName MethodInvocation SimpleName table name
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName start
+empty NumberLiteral MethodInvocation SimpleName table name
+empty NumberLiteral MethodInvocation SimpleName start
+empty NumberLiteral MethodInvocation SimpleName table name
+start SimpleName MethodInvocation SimpleName table name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+fail SimpleName MethodInvocation SimpleName set
+fail SimpleName MethodInvocation BooleanLiteral true
+set SimpleName MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

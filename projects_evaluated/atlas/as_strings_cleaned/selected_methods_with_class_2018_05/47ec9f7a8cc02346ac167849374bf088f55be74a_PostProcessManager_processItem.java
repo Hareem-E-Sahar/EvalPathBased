@@ -1,0 +1,113 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName vertex id
+bulk load graph SimpleName MethodInvocation SimpleName traversal
+bulk load graph SimpleName MethodInvocation MethodInvocation SimpleName v
+traversal SimpleName MethodInvocation MethodInvocation SimpleName v
+bulk load graph SimpleName MethodInvocation MethodInvocation SimpleName vertex id
+traversal SimpleName MethodInvocation MethodInvocation SimpleName vertex id
+v SimpleName MethodInvocation SimpleName vertex id
+bulk load graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+traversal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+v SimpleName MethodInvocation MethodInvocation SimpleName next
+vertex id SimpleName MethodInvocation MethodInvocation SimpleName next
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName v
+vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex id
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName property
+vertex SimpleName MethodInvocation SimpleName typename property key
+property SimpleName MethodInvocation SimpleName typename property key
+vertex SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+typename property key SimpleName MethodInvocation MethodInvocation SimpleName is present
+is type vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex
+is type vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property
+is type vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typename property key
+is type vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName is present
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is type vertex
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is present
+vertex SimpleName MethodInvocation SimpleName property
+vertex SimpleName MethodInvocation SimpleName entity type property key
+property SimpleName MethodInvocation SimpleName entity type property key
+type name property SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+type name property SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+type name property SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type property key
+vertex property SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name property
+type name property SimpleName MethodInvocation SimpleName is present
+is type vertex SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName type name property
+is type vertex SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName is present
+type name property SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName type name property
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+type name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+type name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName type name property
+type name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+type properties map SimpleName MethodInvocation SimpleName contains key
+type properties map SimpleName MethodInvocation SimpleName type name
+contains key SimpleName MethodInvocation SimpleName type name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type properties map SimpleName MethodInvocation SimpleName get
+type properties map SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+collection type properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName type properties map
+collection type properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+collection type properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+collection type properties SimpleName MethodInvocation SimpleName contains key
+collection type properties SimpleName MethodInvocation SimpleName key
+contains key SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+collection type properties SimpleName MethodInvocation SimpleName get
+collection type properties SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+processor SimpleName MethodInvocation SimpleName process
+processor SimpleName MethodInvocation SimpleName vertex
+processor SimpleName MethodInvocation SimpleName type name
+processor SimpleName MethodInvocation SimpleName property name
+process SimpleName MethodInvocation SimpleName vertex
+process SimpleName MethodInvocation SimpleName type name
+process SimpleName MethodInvocation SimpleName property name
+vertex SimpleName MethodInvocation SimpleName type name
+vertex SimpleName MethodInvocation SimpleName property name
+type name SimpleName MethodInvocation SimpleName property name
+property name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName collection type properties
+property name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+property name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName non primitive category keys
+key SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName non primitive category keys
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral process item v error
+log SimpleName MethodInvocation SimpleName vertex id
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral process item v error
+error SimpleName MethodInvocation SimpleName vertex id
+error SimpleName MethodInvocation SimpleName ex
+process item v error StringLiteral MethodInvocation SimpleName vertex id
+process item v error StringLiteral MethodInvocation SimpleName ex
+vertex id SimpleName MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process item
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+void PrimitiveType MethodDeclaration SimpleName process item
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+process item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+process item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id

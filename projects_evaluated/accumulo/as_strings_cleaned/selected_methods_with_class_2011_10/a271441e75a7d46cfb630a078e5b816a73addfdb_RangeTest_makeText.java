@@ -1,0 +1,29 @@
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+text SimpleName SimpleType ClassInstanceCreation SimpleName b
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName make text
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName make text
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+text SimpleName SimpleType MethodDeclaration SimpleName make text
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName b
+make text SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+make text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName make text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

@@ -1,0 +1,108 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+simulating adding table StringLiteral InfixExpression SimpleName table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral simulating adding table
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+info SimpleName MethodInvocation InfixExpression StringLiteral simulating adding table
+info SimpleName MethodInvocation InfixExpression SimpleName table name
+adding table StringLiteral InfixExpression SimpleName table name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral adding table
+log SimpleName MethodInvocation InfixExpression SimpleName table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral adding table
+debug SimpleName MethodInvocation InfixExpression SimpleName table name
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+table name SimpleName MethodInvocation SimpleName to string
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+exists SimpleName MethodInvocation SimpleName table
+create tables SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName exists
+create tables SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security violation creating StringLiteral InfixExpression SimpleName table
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral accumulo security violation creating
+log SimpleName MethodInvocation InfixExpression SimpleName table
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral accumulo security violation creating
+error SimpleName MethodInvocation InfixExpression SimpleName table
+error SimpleName MethodInvocation SimpleName e
+accumulo security violation creating StringLiteral InfixExpression MethodInvocation SimpleName e
+table SimpleName InfixExpression MethodInvocation SimpleName e
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+mtbw SimpleName MethodInvocation SimpleName get batch writer
+mtbw SimpleName MethodInvocation SimpleName table
+get batch writer SimpleName MethodInvocation SimpleName table
+bw SimpleName Assignment MethodInvocation SimpleName mtbw
+bw SimpleName Assignment MethodInvocation SimpleName get batch writer
+bw SimpleName Assignment MethodInvocation SimpleName table
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo table StringLiteral InfixExpression SimpleName table
+accumulo table StringLiteral InfixExpression StringLiteral doesnt exist and cannot be created
+table SimpleName InfixExpression StringLiteral doesnt exist and cannot be created
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral accumulo table
+log SimpleName MethodInvocation InfixExpression SimpleName table
+log SimpleName MethodInvocation InfixExpression StringLiteral doesnt exist and cannot be created
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral accumulo table
+error SimpleName MethodInvocation InfixExpression SimpleName table
+error SimpleName MethodInvocation InfixExpression StringLiteral doesnt exist and cannot be created
+error SimpleName MethodInvocation SimpleName e
+accumulo table StringLiteral InfixExpression MethodInvocation SimpleName e
+table SimpleName InfixExpression MethodInvocation SimpleName e
+doesnt exist and cannot be created StringLiteral InfixExpression MethodInvocation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+bws SimpleName MethodInvocation SimpleName put
+bws SimpleName MethodInvocation SimpleName table name
+bws SimpleName MethodInvocation SimpleName bw
+put SimpleName MethodInvocation SimpleName table name
+put SimpleName MethodInvocation SimpleName bw
+table name SimpleName MethodInvocation SimpleName bw
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName add table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName simulate
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+add table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+add table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+add table SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+add table SimpleName MethodDeclaration Block IfStatement SimpleName simulate
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

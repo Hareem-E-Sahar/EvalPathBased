@@ -1,0 +1,35 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+top level iterators SimpleName MethodInvocation SimpleName is empty
+top level iterators SimpleName MethodInvocation IfStatement ReturnStatement SimpleName iter
+is empty SimpleName MethodInvocation IfStatement ReturnStatement SimpleName iter
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName top level iterators
+all iters SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName top level iterators
+all iters SimpleName MethodInvocation SimpleName add
+all iters SimpleName MethodInvocation SimpleName iter
+add SimpleName MethodInvocation SimpleName iter
+multi iterator SimpleName SimpleType ClassInstanceCreation SimpleName all iters
+multi iterator SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+all iters SimpleName ClassInstanceCreation BooleanLiteral false
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get top level iterator
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get top level iterator
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get top level iterator
+get top level iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get top level iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get top level iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter

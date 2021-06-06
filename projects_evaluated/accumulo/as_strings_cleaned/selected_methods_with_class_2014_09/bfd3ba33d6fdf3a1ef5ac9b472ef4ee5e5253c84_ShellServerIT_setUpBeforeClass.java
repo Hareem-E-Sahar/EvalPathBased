@@ -1,0 +1,83 @@
+get mini cluster dir SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+root path SimpleName Assignment MethodInvocation MethodInvocation SimpleName get mini cluster dir
+root path SimpleName Assignment MethodInvocation SimpleName get absolute path
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral home
+system SimpleName MethodInvocation SimpleName root path
+set property SimpleName MethodInvocation StringLiteral home
+set property SimpleName MethodInvocation SimpleName root path
+home StringLiteral MethodInvocation SimpleName root path
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral targethadooptmp
+get property SimpleName MethodInvocation InfixExpression StringLiteral targethadooptmp
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral targethadooptmp
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation StringLiteral hadooptmpdir
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+system SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral targethadooptmp
+set property SimpleName MethodInvocation StringLiteral hadooptmpdir
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+set property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get property
+set property SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+set property SimpleName MethodInvocation InfixExpression StringLiteral targethadooptmp
+hadooptmpdir StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName system
+hadooptmpdir StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get property
+hadooptmpdir StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral userdir
+hadooptmpdir StringLiteral MethodInvocation InfixExpression StringLiteral targethadooptmp
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName exec
+exec SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trace server
+trace process SimpleName Assignment MethodInvocation MethodInvocation SimpleName get cluster
+trace process SimpleName Assignment MethodInvocation SimpleName exec
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get connector
+get cluster SimpleName MethodInvocation MethodInvocation StringLiteral root
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get token
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get token
+root StringLiteral MethodInvocation MethodInvocation SimpleName get token
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get token
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+tops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tops
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation StringLiteral trace
+exists SimpleName MethodInvocation StringLiteral trace
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up before class
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up before class
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set up before class
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up before class
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up before class SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up before class
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up before class
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

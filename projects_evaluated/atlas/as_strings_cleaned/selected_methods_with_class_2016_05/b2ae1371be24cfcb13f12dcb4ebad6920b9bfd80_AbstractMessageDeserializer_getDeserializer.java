@@ -1,0 +1,78 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deserializer map
+type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deserializer map
+json deserializer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName deserializer map
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gson builder
+gson builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName type
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+json deserializer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+deserializer map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+builder SimpleName MethodInvocation SimpleName register type adapter
+builder SimpleName MethodInvocation MethodInvocation SimpleName entry
+builder SimpleName MethodInvocation MethodInvocation SimpleName get key
+builder SimpleName MethodInvocation MethodInvocation SimpleName entry
+builder SimpleName MethodInvocation MethodInvocation SimpleName get value
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName entry
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName get key
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName entry
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName deserializer map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName type
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+type SimpleName SimpleType ParameterizedType SimpleType SimpleName json deserializer
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+json deserializer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+deserializer map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+builder SimpleName MethodInvocation SimpleName register type adapter
+builder SimpleName MethodInvocation MethodInvocation SimpleName entry
+builder SimpleName MethodInvocation MethodInvocation SimpleName get key
+builder SimpleName MethodInvocation MethodInvocation SimpleName entry
+builder SimpleName MethodInvocation MethodInvocation SimpleName get value
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName entry
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName get key
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName entry
+register type adapter SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName deserializer map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+builder SimpleName MethodInvocation SimpleName create
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName gson
+private Modifier MethodDeclaration SimpleName get deserializer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName deserializer map
+static Modifier MethodDeclaration SimpleType SimpleName gson
+static Modifier MethodDeclaration SimpleName get deserializer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName deserializer map
+gson SimpleName SimpleType MethodDeclaration SimpleName get deserializer
+gson SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName deserializer map
+get deserializer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deserializer map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gson
+public Modifier TypeDeclaration MethodDeclaration SimpleName get deserializer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deserializer map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gson
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get deserializer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deserializer map

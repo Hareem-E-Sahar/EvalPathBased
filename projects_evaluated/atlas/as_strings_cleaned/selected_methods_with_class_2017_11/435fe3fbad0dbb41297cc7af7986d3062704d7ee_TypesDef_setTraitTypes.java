@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type definition
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait types
+trait type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait types
+trait types SimpleName FieldAccess Assignment SimpleName trait types
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set trait types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait types
+void PrimitiveType MethodDeclaration SimpleName set trait types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait types
+set trait types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set trait types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set trait types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait types

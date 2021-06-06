@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+prop SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName file name
+is SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file input stream
+is SimpleName Assignment ClassInstanceCreation SimpleName file name
+prop SimpleName MethodInvocation SimpleName load
+prop SimpleName MethodInvocation SimpleName is
+load SimpleName MethodInvocation SimpleName is
+is SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName properties
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName convert
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SimpleName convert
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName prop
+properties SimpleName SimpleType MethodDeclaration SimpleName convert
+properties SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+convert SimpleName MethodDeclaration Block ReturnStatement SimpleName prop
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name

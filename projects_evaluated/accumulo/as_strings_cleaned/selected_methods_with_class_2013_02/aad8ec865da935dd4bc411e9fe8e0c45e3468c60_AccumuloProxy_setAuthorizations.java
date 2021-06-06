@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorizations
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName authorizations
+authorizations SimpleName FieldAccess Assignment SimpleName authorizations
+public Modifier MethodDeclaration SimpleType SimpleName change user authorizations args
+public Modifier MethodDeclaration SimpleName set authorizations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+change user authorizations args SimpleName SimpleType MethodDeclaration SimpleName set authorizations
+change user authorizations args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+set authorizations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName change user authorizations args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set authorizations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName change user authorizations args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set authorizations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName authorizations

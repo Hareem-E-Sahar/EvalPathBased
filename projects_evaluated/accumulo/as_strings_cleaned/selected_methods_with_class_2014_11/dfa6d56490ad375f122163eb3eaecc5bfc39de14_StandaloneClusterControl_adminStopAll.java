@@ -1,0 +1,49 @@
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get conf dir
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf dir
+file SimpleName SimpleType ClassInstanceCreation StringLiteral masters
+conf dir SimpleName ClassInstanceCreation StringLiteral masters
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+get hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName conf dir
+get hosts SimpleName MethodInvocation ClassInstanceCreation StringLiteral masters
+get hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+conf dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+masters StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+get hosts SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conf dir SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+masters StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+master SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hosts
+master SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+master SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master
+admin SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+accumulo path SimpleName ArrayInitializer MethodInvocation SimpleName get name
+accumulo path SimpleName ArrayInitializer StringLiteral stop all
+get name SimpleName MethodInvocation ArrayInitializer StringLiteral stop all
+cmd SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer SimpleName accumulo path
+cmd SimpleName VariableDeclarationFragment ArrayCreation ArrayInitializer StringLiteral stop all
+exec SimpleName MethodInvocation SimpleName master
+exec SimpleName MethodInvocation SimpleName cmd
+master SimpleName MethodInvocation SimpleName cmd
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName admin stop all
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName admin stop all
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName admin stop all
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+admin stop all SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName admin stop all
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName admin stop all
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

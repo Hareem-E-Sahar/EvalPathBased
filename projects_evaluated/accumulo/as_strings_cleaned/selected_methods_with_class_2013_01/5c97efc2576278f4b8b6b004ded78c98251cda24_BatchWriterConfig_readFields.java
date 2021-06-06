@@ -1,0 +1,206 @@
+data input SimpleName SimpleType SingleVariableDeclaration SimpleName in
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+len SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+len SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName len
+read fully SimpleName MethodInvocation SimpleName len
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation SimpleName len
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+len SimpleName ClassInstanceCreation MethodInvocation SimpleName charset
+len SimpleName ClassInstanceCreation MethodInvocation SimpleName for name
+len SimpleName ClassInstanceCreation MethodInvocation StringLiteral utf
+str len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+str len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName len
+str len SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName charset
+str len SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName for name
+str len SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str len
+str len SimpleName MethodInvocation SimpleName ends with
+str len SimpleName MethodInvocation StringLiteral #
+ends with SimpleName MethodInvocation StringLiteral #
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral length was not encoded correctly
+str len SimpleName MethodInvocation SimpleName last index of
+str len SimpleName MethodInvocation CharacterLiteral empty
+last index of SimpleName MethodInvocation CharacterLiteral empty
+str len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty CharacterLiteral MethodInvocation InfixExpression NumberLiteral empty
+str len SimpleName MethodInvocation SimpleName length
+str len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str len SimpleName MethodInvocation SimpleName substring
+str len SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str len
+str len SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName last index of
+str len SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+str len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+str len SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str len
+str len SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+str len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str len
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName last index of
+substring SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName str len
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName str len
+integer SimpleName MethodInvocation MethodInvocation SimpleName substring
+integer SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation NumberLiteral empty
+parse int SimpleName MethodInvocation MethodInvocation SimpleName str len
+parse int SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse int SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+parse int SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+parse int SimpleName MethodInvocation NumberLiteral empty
+str len SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName integer
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName parse int
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation NumberLiteral empty
+bytes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+bytes SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName integer
+bytes SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName parse int
+bytes SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+in SimpleName MethodInvocation SimpleName read fully
+in SimpleName MethodInvocation SimpleName bytes
+read fully SimpleName MethodInvocation SimpleName bytes
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+string SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName charset
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for name
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+bytes SimpleName ClassInstanceCreation MethodInvocation SimpleName charset
+bytes SimpleName ClassInstanceCreation MethodInvocation SimpleName for name
+bytes SimpleName ClassInstanceCreation MethodInvocation StringLiteral utf
+str fields SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+str fields SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bytes
+str fields SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName charset
+str fields SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName for name
+str fields SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str fields
+string utils SimpleName MethodInvocation SimpleName split
+string utils SimpleName MethodInvocation SimpleName str fields
+string utils SimpleName MethodInvocation CharacterLiteral \\
+string utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName str fields
+split SimpleName MethodInvocation CharacterLiteral \\
+split SimpleName MethodInvocation CharacterLiteral empty
+str fields SimpleName MethodInvocation CharacterLiteral \\
+str fields SimpleName MethodInvocation CharacterLiteral empty
+\\ CharacterLiteral MethodInvocation CharacterLiteral empty
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName str fields
+fields SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral \\
+fields SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName field
+string utils SimpleName MethodInvocation SimpleName split
+string utils SimpleName MethodInvocation SimpleName field
+string utils SimpleName MethodInvocation CharacterLiteral \\
+string utils SimpleName MethodInvocation CharacterLiteral =
+split SimpleName MethodInvocation SimpleName field
+split SimpleName MethodInvocation CharacterLiteral \\
+split SimpleName MethodInvocation CharacterLiteral =
+field SimpleName MethodInvocation CharacterLiteral \\
+field SimpleName MethodInvocation CharacterLiteral =
+\\ CharacterLiteral MethodInvocation CharacterLiteral =
+key value SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+key value SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+key value SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+key value SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral \\
+key value SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral =
+key value SimpleName ArrayAccess NumberLiteral empty
+key SimpleName VariableDeclarationFragment ArrayAccess SimpleName key value
+key SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key value SimpleName ArrayAccess NumberLiteral empty
+value SimpleName VariableDeclarationFragment ArrayAccess SimpleName key value
+value SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+max memory StringLiteral MethodInvocation SimpleName equals
+max memory StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+max memory SimpleName Assignment MethodInvocation SimpleName long
+max memory SimpleName Assignment MethodInvocation SimpleName value of
+max memory SimpleName Assignment MethodInvocation SimpleName value
+max latency StringLiteral MethodInvocation SimpleName equals
+max latency StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+max latency SimpleName Assignment MethodInvocation SimpleName long
+max latency SimpleName Assignment MethodInvocation SimpleName value of
+max latency SimpleName Assignment MethodInvocation SimpleName value
+max write threads StringLiteral MethodInvocation SimpleName equals
+max write threads StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+max write threads SimpleName Assignment MethodInvocation SimpleName integer
+max write threads SimpleName Assignment MethodInvocation SimpleName value of
+max write threads SimpleName Assignment MethodInvocation SimpleName value
+timeout StringLiteral MethodInvocation SimpleName equals
+timeout StringLiteral MethodInvocation SimpleName key
+equals SimpleName MethodInvocation SimpleName key
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation SimpleName value
+value of SimpleName MethodInvocation SimpleName value
+timeout SimpleName Assignment MethodInvocation SimpleName long
+timeout SimpleName Assignment MethodInvocation SimpleName value of
+timeout SimpleName Assignment MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName fields
+field SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName fields
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read fields
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName in
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName fields
+void PrimitiveType MethodDeclaration SimpleName read fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName fields
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read fields SimpleName MethodDeclaration SimpleType SimpleName io exception
+read fields SimpleName MethodDeclaration Block EnhancedForStatement SimpleName fields
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

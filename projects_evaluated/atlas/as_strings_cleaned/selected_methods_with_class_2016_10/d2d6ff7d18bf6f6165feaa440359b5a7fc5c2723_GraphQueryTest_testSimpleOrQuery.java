@@ -1,0 +1,179 @@
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get titan graph
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+create vertex SimpleName MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral name
+v SimpleName MethodInvocation StringLiteral fred
+set property SimpleName MethodInvocation StringLiteral name
+set property SimpleName MethodInvocation StringLiteral fred
+name StringLiteral MethodInvocation StringLiteral fred
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral size
+v SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation StringLiteral size
+set property SimpleName MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation StringLiteral empty
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+create vertex SimpleName MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral name
+v SimpleName MethodInvocation StringLiteral fred
+set property SimpleName MethodInvocation StringLiteral name
+set property SimpleName MethodInvocation StringLiteral fred
+name StringLiteral MethodInvocation StringLiteral fred
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+create vertex SimpleName MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral size
+v SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation StringLiteral size
+set property SimpleName MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation StringLiteral empty
+graph SimpleName MethodInvocation SimpleName commit
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+create vertex SimpleName MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral name
+v SimpleName MethodInvocation StringLiteral fred
+set property SimpleName MethodInvocation StringLiteral name
+set property SimpleName MethodInvocation StringLiteral fred
+name StringLiteral MethodInvocation StringLiteral fred
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral size
+v SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation StringLiteral size
+set property SimpleName MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation StringLiteral empty
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+create vertex SimpleName MethodInvocation SimpleName graph
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral name
+v SimpleName MethodInvocation StringLiteral george
+set property SimpleName MethodInvocation StringLiteral name
+set property SimpleName MethodInvocation StringLiteral george
+name StringLiteral MethodInvocation StringLiteral george
+v SimpleName MethodInvocation SimpleName set property
+v SimpleName MethodInvocation StringLiteral size
+v SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation StringLiteral size
+set property SimpleName MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation StringLiteral empty
+graph SimpleName MethodInvocation SimpleName query
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+q SimpleName MethodInvocation SimpleName create child query
+q SimpleName MethodInvocation MethodInvocation SimpleName has
+create child query SimpleName MethodInvocation MethodInvocation SimpleName has
+q SimpleName MethodInvocation MethodInvocation StringLiteral name
+create child query SimpleName MethodInvocation MethodInvocation StringLiteral name
+q SimpleName MethodInvocation MethodInvocation StringLiteral fred
+create child query SimpleName MethodInvocation MethodInvocation StringLiteral fred
+has SimpleName MethodInvocation StringLiteral name
+has SimpleName MethodInvocation StringLiteral fred
+name StringLiteral MethodInvocation StringLiteral fred
+inner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName q
+inner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create child query
+inner SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+inner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+inner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral fred
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inner
+q SimpleName MethodInvocation SimpleName create child query
+q SimpleName MethodInvocation MethodInvocation SimpleName has
+create child query SimpleName MethodInvocation MethodInvocation SimpleName has
+q SimpleName MethodInvocation MethodInvocation StringLiteral size
+create child query SimpleName MethodInvocation MethodInvocation StringLiteral size
+q SimpleName MethodInvocation MethodInvocation StringLiteral empty
+create child query SimpleName MethodInvocation MethodInvocation StringLiteral empty
+has SimpleName MethodInvocation StringLiteral size
+has SimpleName MethodInvocation StringLiteral empty
+size StringLiteral MethodInvocation StringLiteral empty
+inner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName q
+inner SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create child query
+inner SimpleName VariableDeclarationFragment MethodInvocation SimpleName has
+inner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral size
+inner SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+atlas graph query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inner
+to list SimpleName MethodInvocation SimpleName inner
+to list SimpleName MethodInvocation SimpleName inner
+inner SimpleName MethodInvocation SimpleName inner
+q SimpleName MethodInvocation SimpleName or
+q SimpleName MethodInvocation MethodInvocation SimpleName to list
+q SimpleName MethodInvocation MethodInvocation SimpleName inner
+q SimpleName MethodInvocation MethodInvocation SimpleName inner
+or SimpleName MethodInvocation MethodInvocation SimpleName to list
+or SimpleName MethodInvocation MethodInvocation SimpleName inner
+or SimpleName MethodInvocation MethodInvocation SimpleName inner
+assert query matches SimpleName MethodInvocation SimpleName q
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+graph SimpleName MethodInvocation SimpleName commit
+assert query matches SimpleName MethodInvocation SimpleName q
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+assert query matches SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+q SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+v SimpleName MethodInvocation SimpleName v
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test simple or query
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test simple or query
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName test simple or query
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+test simple or query SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test simple or query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test simple or query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,94 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new instances
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new instances
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+typed instance SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName typed instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+final Modifier VariableDeclarationStatement SimpleType SimpleName id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName typed instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id to vertex map SimpleName MethodInvocation SimpleName contains key
+id to vertex map SimpleName MethodInvocation SimpleName id
+contains key SimpleName MethodInvocation SimpleName id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+id SimpleName MethodInvocation SimpleName is assigned
+graph helper SimpleName MethodInvocation SimpleName find vertex by guid
+graph helper SimpleName MethodInvocation SimpleName titan graph
+graph helper SimpleName MethodInvocation QualifiedName idid
+find vertex by guid SimpleName MethodInvocation SimpleName titan graph
+find vertex by guid SimpleName MethodInvocation QualifiedName idid
+titan graph SimpleName MethodInvocation QualifiedName idid
+instance vertex SimpleName Assignment MethodInvocation SimpleName graph helper
+instance vertex SimpleName Assignment MethodInvocation SimpleName find vertex by guid
+instance vertex SimpleName Assignment MethodInvocation SimpleName titan graph
+instance vertex SimpleName Assignment MethodInvocation QualifiedName idid
+typed instance SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+class type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+class type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class type
+class type SimpleName MethodInvocation SimpleName get all super type names
+graph helper SimpleName MethodInvocation SimpleName create vertex with identity
+graph helper SimpleName MethodInvocation SimpleName titan graph
+graph helper SimpleName MethodInvocation SimpleName typed instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName class type
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get all super type names
+create vertex with identity SimpleName MethodInvocation SimpleName titan graph
+create vertex with identity SimpleName MethodInvocation SimpleName typed instance
+create vertex with identity SimpleName MethodInvocation MethodInvocation SimpleName class type
+create vertex with identity SimpleName MethodInvocation MethodInvocation SimpleName get all super type names
+titan graph SimpleName MethodInvocation SimpleName typed instance
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName class type
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName get all super type names
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName class type
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName get all super type names
+instance vertex SimpleName Assignment MethodInvocation SimpleName graph helper
+instance vertex SimpleName Assignment MethodInvocation SimpleName create vertex with identity
+instance vertex SimpleName Assignment MethodInvocation SimpleName titan graph
+instance vertex SimpleName Assignment MethodInvocation SimpleName typed instance
+instance vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName class type
+instance vertex SimpleName Assignment MethodInvocation MethodInvocation SimpleName get all super type names
+id to vertex map SimpleName MethodInvocation SimpleName put
+id to vertex map SimpleName MethodInvocation SimpleName id
+id to vertex map SimpleName MethodInvocation SimpleName instance vertex
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName instance vertex
+id SimpleName MethodInvocation SimpleName instance vertex
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName new instances
+typed instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName new instances
+new instances SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create vertices for class types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new instances
+public Modifier MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName new instances
+void PrimitiveType MethodDeclaration SimpleName create vertices for class types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName metadata exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName new instances
+create vertices for class types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new instances
+create vertices for class types SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+create vertices for class types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName new instances
+new instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create vertices for class types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create vertices for class types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

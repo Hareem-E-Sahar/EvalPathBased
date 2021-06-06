@@ -1,0 +1,15 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+system properties SimpleName MethodInvocation SimpleName remove
+system properties SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType MethodDeclaration SimpleName remove property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,58 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName fmt
+object SimpleName SimpleType SingleVariableDeclaration SimpleName args
+shell state SimpleName MethodInvocation SimpleName get reader
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt
+string SimpleName MethodInvocation SimpleName args
+format SimpleName MethodInvocation SimpleName fmt
+format SimpleName MethodInvocation SimpleName args
+fmt SimpleName MethodInvocation SimpleName args
+shell state SimpleName MethodInvocation MethodInvocation SimpleName print string
+get reader SimpleName MethodInvocation MethodInvocation SimpleName print string
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fmt
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+get reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+get reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+get reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fmt
+get reader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName args
+print string SimpleName MethodInvocation MethodInvocation SimpleName string
+print string SimpleName MethodInvocation MethodInvocation SimpleName format
+print string SimpleName MethodInvocation MethodInvocation SimpleName fmt
+print string SimpleName MethodInvocation MethodInvocation SimpleName args
+shell state SimpleName MethodInvocation SimpleName get reader
+shell state SimpleName MethodInvocation MethodInvocation SimpleName print newline
+get reader SimpleName MethodInvocation MethodInvocation SimpleName print newline
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName message
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName fmt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+protected Modifier MethodDeclaration Block IfStatement SimpleName final verbose
+void PrimitiveType MethodDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fmt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName final verbose
+message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fmt
+message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+message SimpleName MethodDeclaration Block IfStatement SimpleName final verbose
+fmt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fmt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

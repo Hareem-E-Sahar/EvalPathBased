@@ -1,0 +1,22 @@
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached block
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached block
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached block
+queue SimpleName MethodInvocation SimpleName is empty
+queue SimpleName MethodInvocation SimpleName poll
+blocks SimpleName MethodInvocation SimpleName add first
+blocks SimpleName MethodInvocation MethodInvocation SimpleName queue
+blocks SimpleName MethodInvocation MethodInvocation SimpleName poll
+add first SimpleName MethodInvocation MethodInvocation SimpleName queue
+add first SimpleName MethodInvocation MethodInvocation SimpleName poll
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName linked list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName cached block
+public Modifier MethodDeclaration SimpleName get list
+public Modifier MethodDeclaration Block ReturnStatement SimpleName blocks
+linked list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get list
+cached block SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get list
+get list SimpleName MethodDeclaration Block ReturnStatement SimpleName blocks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get list

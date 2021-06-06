@@ -1,0 +1,15 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+data typestype category QualifiedName SimpleType SingleVariableDeclaration SimpleName type category
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type names
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName data typestype category
+get type names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+get type names SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+has SimpleName MethodInvocation SimpleName key
+has SimpleName MethodInvocation QualifiedName cmpequal
+has SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation QualifiedName cmpequal
+key SimpleName MethodInvocation SimpleName value
+cmpequal QualifiedName MethodInvocation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName graph centric query builder
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName graph centric query builder
+public Modifier MethodDeclaration SimpleName has
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+graph centric query builder SimpleName SimpleType MethodDeclaration SimpleName has
+graph centric query builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+graph centric query builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+has SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graph centric query builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName has
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graph centric query builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

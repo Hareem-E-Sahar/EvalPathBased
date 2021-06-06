@@ -1,0 +1,88 @@
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation SimpleName whoami
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName shell state
+user SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName whoami
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName security operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName security operations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user authorizations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName get user authorizations
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+get user authorizations SimpleName MethodInvocation SimpleName user
+auths SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security operations
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user authorizations
+auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+authorizations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auths
+scan opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+scan opt auths SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName scan opt auths
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+create user command SimpleName MethodInvocation SimpleName parse authorizations
+create user command SimpleName MethodInvocation MethodInvocation SimpleName cl
+create user command SimpleName MethodInvocation MethodInvocation SimpleName get option value
+create user command SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scan opt auths
+create user command SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+parse authorizations SimpleName MethodInvocation MethodInvocation SimpleName cl
+parse authorizations SimpleName MethodInvocation MethodInvocation SimpleName get option value
+parse authorizations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scan opt auths
+parse authorizations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+auths SimpleName Assignment MethodInvocation SimpleName create user command
+auths SimpleName Assignment MethodInvocation SimpleName parse authorizations
+auths SimpleName Assignment MethodInvocation MethodInvocation SimpleName cl
+auths SimpleName Assignment MethodInvocation MethodInvocation SimpleName get option value
+protected Modifier MethodDeclaration SimpleType SimpleName authorizations
+protected Modifier MethodDeclaration SimpleName get auths
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+protected Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+authorizations SimpleName SimpleType MethodDeclaration SimpleName get auths
+authorizations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cl
+authorizations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+authorizations SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+authorizations SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+get auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+get auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+get auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+get auths SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+get auths SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get auths SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get auths SimpleName MethodDeclaration Block ReturnStatement SimpleName auths
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+public Modifier TypeDeclaration MethodDeclaration SimpleName get auths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authorizations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get auths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

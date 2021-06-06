@@ -1,0 +1,71 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add fromtype name
+log SimpleName MethodInvocation SimpleName type name
+debug SimpleName MethodInvocation StringLiteral add fromtype name
+debug SimpleName MethodInvocation SimpleName type name
+add fromtype name StringLiteral MethodInvocation SimpleName type name
+create info SimpleName MethodInvocation SimpleName type name
+type info SimpleName VariableDeclarationFragment MethodInvocation SimpleName create info
+type info SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+identifier helperinfo QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type info
+type info SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName should register
+context SimpleName MethodInvocation MethodInvocation SimpleName type info
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+should register SimpleName MethodInvocation MethodInvocation SimpleName type info
+should register SimpleName MethodInvocation MethodInvocation SimpleName get
+type info SimpleName MethodInvocation SimpleName get
+context SimpleName MethodInvocation SimpleName register active
+context SimpleName MethodInvocation MethodInvocation SimpleName type info
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+register active SimpleName MethodInvocation MethodInvocation SimpleName type info
+register active SimpleName MethodInvocation MethodInvocation SimpleName get
+type info SimpleName MethodInvocation SimpleName get
+create info SimpleName MethodInvocation MethodInvocation SimpleName type info
+create info SimpleName MethodInvocation MethodInvocation SimpleName get
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName create info
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type info
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+identifier helperinfo QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+ia SimpleName MethodInvocation SimpleName is trait
+add SimpleName MethodInvocation QualifiedName gremlin clausetrait
+add SimpleName MethodInvocation SimpleName ia
+gremlin clausetrait QualifiedName MethodInvocation SimpleName ia
+ia SimpleName MethodInvocation SimpleName has subtypes
+ia SimpleName MethodInvocation SimpleName get sub types
+add SimpleName MethodInvocation QualifiedName gremlin clausehas type within
+add SimpleName MethodInvocation MethodInvocation SimpleName ia
+add SimpleName MethodInvocation MethodInvocation SimpleName get sub types
+gremlin clausehas type within QualifiedName MethodInvocation MethodInvocation SimpleName ia
+gremlin clausehas type within QualifiedName MethodInvocation MethodInvocation SimpleName get sub types
+add SimpleName MethodInvocation QualifiedName gremlin clausehas type
+add SimpleName MethodInvocation SimpleName ia
+gremlin clausehas type QualifiedName MethodInvocation SimpleName ia
+type info SimpleName MethodInvocation SimpleName get
+create info SimpleName MethodInvocation MethodInvocation SimpleName type info
+create info SimpleName MethodInvocation MethodInvocation SimpleName get
+ia SimpleName VariableDeclarationFragment MethodInvocation SimpleName create info
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type info
+ia SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+identifier helperinfo QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ia
+introduce type SimpleName MethodInvocation SimpleName ia
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SimpleName add from
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+add from SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add from SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

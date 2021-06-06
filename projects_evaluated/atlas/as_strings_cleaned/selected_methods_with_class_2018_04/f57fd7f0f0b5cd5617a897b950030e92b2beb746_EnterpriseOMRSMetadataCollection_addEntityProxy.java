@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+entity proxy SimpleName SimpleType SingleVariableDeclaration SimpleName entity proxy
+method name SimpleName VariableDeclarationFragment StringLiteral add entity proxy
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity proxy
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add entity proxy
+throw not enterprise function SimpleName MethodInvocation SimpleName method name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add entity proxy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity proxy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+public Modifier MethodDeclaration SimpleType SimpleName function not supported exception
+void PrimitiveType MethodDeclaration SimpleName add entity proxy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity proxy
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+void PrimitiveType MethodDeclaration SimpleType SimpleName function not supported exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+add entity proxy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add entity proxy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add entity proxy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity proxy
+add entity proxy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+add entity proxy SimpleName MethodDeclaration SimpleType SimpleName function not supported exception
+add entity proxy SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+entity proxy SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity proxy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity proxy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity proxy
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception

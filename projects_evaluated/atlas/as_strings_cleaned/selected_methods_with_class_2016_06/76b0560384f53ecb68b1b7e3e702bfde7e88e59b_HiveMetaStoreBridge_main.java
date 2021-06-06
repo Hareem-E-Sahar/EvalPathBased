@@ -1,0 +1,106 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+application properties SimpleName MethodInvocation SimpleName get
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+atlas conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas conf
+atlas conf SimpleName MethodInvocation SimpleName get string
+atlas conf SimpleName MethodInvocation SimpleName atlas endpoint
+atlas conf SimpleName MethodInvocation SimpleName default dgi url
+get string SimpleName MethodInvocation SimpleName atlas endpoint
+get string SimpleName MethodInvocation SimpleName default dgi url
+atlas endpoint SimpleName MethodInvocation SimpleName default dgi url
+atlas endpoint SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas conf
+atlas endpoint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+atlas endpoint SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas endpoint
+atlas endpoint SimpleName VariableDeclarationFragment MethodInvocation SimpleName default dgi url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas endpoint
+atlas client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client
+authentication util SimpleName MethodInvocation SimpleName is kerberos authentication enabled
+authentication util SimpleName MethodInvocation SimpleName get basic authentication input
+basic auth username password SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication util
+basic auth username password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get basic authentication input
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName basic auth username password
+atlas endpoint SimpleName ArrayInitializer ArrayCreation ClassInstanceCreation SimpleName basic auth username password
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName basic auth username password
+user group information SimpleName MethodInvocation SimpleName get current user
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName user group information
+ugi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current user
+user group information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ugi
+ugi SimpleName MethodInvocation SimpleName get short user name
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName ugi
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ugi
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get short user name
+atlas client SimpleName SimpleType ClassInstanceCreation SimpleName atlas endpoint
+ugi SimpleName ClassInstanceCreation MethodInvocation SimpleName ugi
+ugi SimpleName ClassInstanceCreation MethodInvocation SimpleName get short user name
+ugi SimpleName ClassInstanceCreation SimpleName atlas endpoint
+ugi SimpleName MethodInvocation ClassInstanceCreation SimpleName atlas endpoint
+get short user name SimpleName MethodInvocation ClassInstanceCreation SimpleName atlas endpoint
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName ugi
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName ugi
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get short user name
+atlas client SimpleName Assignment ClassInstanceCreation SimpleName atlas endpoint
+options SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName options
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName basic parser
+command line parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+parser SimpleName MethodInvocation SimpleName parse
+parser SimpleName MethodInvocation SimpleName options
+parser SimpleName MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName options
+parse SimpleName MethodInvocation SimpleName args
+options SimpleName MethodInvocation SimpleName args
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName parser
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName options
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName args
+command line SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+fail on error SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fail on error
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+cmd SimpleName MethodInvocation SimpleName has option
+cmd SimpleName MethodInvocation StringLiteral fail on error
+has option SimpleName MethodInvocation StringLiteral fail on error
+fail on error SimpleName Assignment BooleanLiteral true
+hive meta store bridge SimpleName SimpleType ClassInstanceCreation SimpleName atlas client
+hive conf SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName atlas client
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive meta store bridge
+hive meta store bridge SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName atlas client
+hive meta store bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive meta store bridge
+hive meta store bridge SimpleName MethodInvocation SimpleName register hive data model
+hive meta store bridge SimpleName MethodInvocation SimpleName import hive metadata
+hive meta store bridge SimpleName MethodInvocation SimpleName fail on error
+import hive metadata SimpleName MethodInvocation SimpleName fail on error
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

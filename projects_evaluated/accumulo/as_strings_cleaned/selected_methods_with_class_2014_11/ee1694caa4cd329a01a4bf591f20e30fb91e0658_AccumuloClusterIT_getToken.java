@@ -1,0 +1,19 @@
+preconditions SimpleName MethodInvocation SimpleName check state
+preconditions SimpleName MethodInvocation SimpleName initialized
+check state SimpleName MethodInvocation SimpleName initialized
+cluster conf SimpleName MethodInvocation SimpleName get token
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName authentication token
+public Modifier MethodDeclaration SimpleName get token
+static Modifier MethodDeclaration SimpleType SimpleName authentication token
+static Modifier MethodDeclaration SimpleName get token
+authentication token SimpleName SimpleType MethodDeclaration SimpleName get token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+public Modifier TypeDeclaration MethodDeclaration SimpleName get token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName authentication token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get token

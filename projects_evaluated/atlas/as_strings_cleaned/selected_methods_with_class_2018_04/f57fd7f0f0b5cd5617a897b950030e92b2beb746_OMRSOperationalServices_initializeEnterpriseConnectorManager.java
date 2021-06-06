@@ -1,0 +1,187 @@
+enterprise access config SimpleName SimpleType SingleVariableDeclaration SimpleName enterprise access config
+int PrimitiveType SingleVariableDeclaration SimpleName max page size
+omrs enterprise connector manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enterprise connector manager
+omrs enterprise connector manager SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+omrs enterprise connector manager SimpleName SimpleType ClassInstanceCreation SimpleName max page size
+false BooleanLiteral ClassInstanceCreation SimpleName max page size
+enterprise connector manager SimpleName Assignment ClassInstanceCreation SimpleType SimpleName omrs enterprise connector manager
+enterprise connector manager SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+enterprise connector manager SimpleName Assignment ClassInstanceCreation SimpleName max page size
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName initialize
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName enterprise connector manager
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local repository content manager
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local server name
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local server type
+initialize SimpleName MethodInvocation SimpleName enterprise connector manager
+initialize SimpleName MethodInvocation SimpleName local repository content manager
+initialize SimpleName MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName local server type
+initialize SimpleName MethodInvocation SimpleName local organization name
+enterprise connector manager SimpleName MethodInvocation SimpleName local repository content manager
+enterprise connector manager SimpleName MethodInvocation SimpleName local server name
+enterprise connector manager SimpleName MethodInvocation SimpleName local server type
+enterprise connector manager SimpleName MethodInvocation SimpleName local organization name
+local repository content manager SimpleName MethodInvocation SimpleName local server name
+local repository content manager SimpleName MethodInvocation SimpleName local server type
+local repository content manager SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation SimpleName local organization name
+action description SimpleName VariableDeclarationFragment StringLiteral initialize repository operational services
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize repository operational services
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral initialize repository operational services
+audit code SimpleName VariableDeclarationFragment QualifiedName omrs audit codeenterprise access initializing
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit code
+omrs audit code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs audit codeenterprise access initializing
+audit code SimpleName MethodInvocation SimpleName get log message id
+audit code SimpleName MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation SimpleName get user action
+audit log SimpleName MethodInvocation SimpleName log record
+audit log SimpleName MethodInvocation SimpleName action description
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get severity
+audit log SimpleName MethodInvocation MethodInvocation SimpleName audit code
+audit log SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+log record SimpleName MethodInvocation SimpleName action description
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get severity
+log record SimpleName MethodInvocation MethodInvocation SimpleName audit code
+log record SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get log message id
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get severity
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get formatted log message
+action description SimpleName MethodInvocation MethodInvocation SimpleName audit code
+action description SimpleName MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get severity
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get log message id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get formatted log message
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get severity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get formatted log message SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+audit code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName audit code
+get system action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user action
+omrs enterprise connector manager SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+omrs enterprise connector manager SimpleName SimpleType ClassInstanceCreation SimpleName max page size
+true BooleanLiteral ClassInstanceCreation SimpleName max page size
+enterprise connector manager SimpleName Assignment ClassInstanceCreation SimpleType SimpleName omrs enterprise connector manager
+enterprise connector manager SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+enterprise connector manager SimpleName Assignment ClassInstanceCreation SimpleName max page size
+enterprise access config SimpleName MethodInvocation SimpleName get enterprise metadata collection id
+enterprise access config SimpleName MethodInvocation SimpleName get enterprise metadata collection name
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName initialize
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName enterprise connector manager
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local repository content manager
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local server name
+enterprise omrs connector provider SimpleName MethodInvocation SimpleName local server type
+initialize SimpleName MethodInvocation SimpleName enterprise connector manager
+initialize SimpleName MethodInvocation SimpleName local repository content manager
+initialize SimpleName MethodInvocation SimpleName local server name
+initialize SimpleName MethodInvocation SimpleName local server type
+initialize SimpleName MethodInvocation SimpleName local organization name
+enterprise connector manager SimpleName MethodInvocation SimpleName local repository content manager
+enterprise connector manager SimpleName MethodInvocation SimpleName local server name
+enterprise connector manager SimpleName MethodInvocation SimpleName local server type
+enterprise connector manager SimpleName MethodInvocation SimpleName local organization name
+enterprise connector manager SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+enterprise connector manager SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection id
+local repository content manager SimpleName MethodInvocation SimpleName local server name
+local repository content manager SimpleName MethodInvocation SimpleName local server type
+local repository content manager SimpleName MethodInvocation SimpleName local organization name
+local repository content manager SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local repository content manager SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection id
+local repository content manager SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local repository content manager SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+local server name SimpleName MethodInvocation SimpleName local server type
+local server name SimpleName MethodInvocation SimpleName local organization name
+local server name SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local server name SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection id
+local server name SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local server name SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+local server type SimpleName MethodInvocation SimpleName local organization name
+local server type SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local server type SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection id
+local server type SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local server type SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection id
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName enterprise access config
+local organization name SimpleName MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+enterprise access config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enterprise access config
+enterprise access config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+get enterprise metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enterprise access config
+get enterprise metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get enterprise metadata collection name
+private Modifier MethodDeclaration SimpleType SimpleName omrs enterprise connector manager
+private Modifier MethodDeclaration SimpleName initialize enterprise connector manager
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enterprise access config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName max page size
+private Modifier MethodDeclaration Block ReturnStatement SimpleName enterprise connector manager
+omrs enterprise connector manager SimpleName SimpleType MethodDeclaration SimpleName initialize enterprise connector manager
+omrs enterprise connector manager SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+omrs enterprise connector manager SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+omrs enterprise connector manager SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName max page size
+initialize enterprise connector manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName enterprise access config
+initialize enterprise connector manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+initialize enterprise connector manager SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+initialize enterprise connector manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max page size
+initialize enterprise connector manager SimpleName MethodDeclaration Block ReturnStatement SimpleName enterprise connector manager
+enterprise access config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+enterprise access config SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max page size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs enterprise connector manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize enterprise connector manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max page size
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs enterprise connector manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize enterprise connector manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enterprise access config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max page size

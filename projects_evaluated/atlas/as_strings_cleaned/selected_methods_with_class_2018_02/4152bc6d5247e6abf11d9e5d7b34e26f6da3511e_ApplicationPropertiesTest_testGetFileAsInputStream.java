@@ -1,0 +1,174 @@
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName MethodInvocation StringLiteral testproperties
+get SimpleName MethodInvocation StringLiteral testproperties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+props SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testproperties
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in str
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+props SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral jaaspropertiesfile
+assert not null SimpleName MethodInvocation SimpleName in str
+in str SimpleName MethodInvocation SimpleName close
+props SimpleName MethodInvocation SimpleName set property
+props SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+props SimpleName MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+set property SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+set property SimpleName MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+jaaspropertiesfile StringLiteral MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+props SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral jaaspropertiesfile
+assert not null SimpleName MethodInvocation SimpleName in str
+in str SimpleName MethodInvocation SimpleName close
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+application properties SimpleName MethodInvocation StringLiteral atlasjaasproperties
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+get file as input stream SimpleName MethodInvocation StringLiteral atlasjaasproperties
+props SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+props SimpleName MethodInvocation StringLiteral atlasjaasproperties
+propertynotspecifiedinconfig StringLiteral MethodInvocation StringLiteral atlasjaasproperties
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral propertynotspecifiedinconfig
+in str SimpleName Assignment MethodInvocation StringLiteral atlasjaasproperties
+assert not null SimpleName MethodInvocation SimpleName in str
+in str SimpleName MethodInvocation SimpleName close
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+application properties SimpleName MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+get file as input stream SimpleName MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+props SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+props SimpleName MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+propertynotspecifiedinconfig StringLiteral MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral propertynotspecifiedinconfig
+in str SimpleName Assignment MethodInvocation StringLiteral srctestresourcesatlasjaasproperties
+assert not null SimpleName MethodInvocation SimpleName in str
+in str SimpleName MethodInvocation SimpleName close
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+system SimpleName MethodInvocation StringLiteral srctestresources
+set property SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+set property SimpleName MethodInvocation StringLiteral srctestresources
+application propertiesatlas configuration directory property QualifiedName MethodInvocation StringLiteral srctestresources
+original conf dir setting SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+original conf dir setting SimpleName VariableDeclarationFragment MethodInvocation SimpleName set property
+original conf dir setting SimpleName VariableDeclarationFragment MethodInvocation QualifiedName application propertiesatlas configuration directory property
+original conf dir setting SimpleName VariableDeclarationFragment MethodInvocation StringLiteral srctestresources
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName original conf dir setting
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+application properties SimpleName MethodInvocation StringLiteral atlasjaasproperties
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+get file as input stream SimpleName MethodInvocation StringLiteral atlasjaasproperties
+props SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+props SimpleName MethodInvocation StringLiteral atlasjaasproperties
+propertynotspecifiedinconfig StringLiteral MethodInvocation StringLiteral atlasjaasproperties
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral propertynotspecifiedinconfig
+in str SimpleName Assignment MethodInvocation StringLiteral atlasjaasproperties
+assert not null SimpleName MethodInvocation SimpleName in str
+in str SimpleName MethodInvocation SimpleName close
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+system SimpleName MethodInvocation SimpleName original conf dir setting
+set property SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+set property SimpleName MethodInvocation SimpleName original conf dir setting
+application propertiesatlas configuration directory property QualifiedName MethodInvocation SimpleName original conf dir setting
+system SimpleName MethodInvocation SimpleName clear property
+system SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+clear property SimpleName MethodInvocation QualifiedName application propertiesatlas configuration directory property
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+props SimpleName MethodInvocation StringLiteral propertynotspecifiedinconfig
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral propertynotspecifiedinconfig
+atlas exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+expected StringLiteral InfixExpression StringLiteral but none thrown
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral but none thrown
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+fail SimpleName MethodInvocation InfixExpression StringLiteral but none thrown
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+in str SimpleName MethodInvocation SimpleName close
+props SimpleName MethodInvocation SimpleName set property
+props SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+props SimpleName MethodInvocation StringLiteral does not existtxt
+set property SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+set property SimpleName MethodInvocation StringLiteral does not existtxt
+jaaspropertiesfile StringLiteral MethodInvocation StringLiteral does not existtxt
+application properties SimpleName MethodInvocation SimpleName get file as input stream
+application properties SimpleName MethodInvocation SimpleName props
+application properties SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+get file as input stream SimpleName MethodInvocation SimpleName props
+get file as input stream SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+props SimpleName MethodInvocation StringLiteral jaaspropertiesfile
+in str SimpleName Assignment MethodInvocation SimpleName application properties
+in str SimpleName Assignment MethodInvocation SimpleName get file as input stream
+in str SimpleName Assignment MethodInvocation SimpleName props
+in str SimpleName Assignment MethodInvocation StringLiteral jaaspropertiesfile
+atlas exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+expected StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+expected StringLiteral InfixExpression StringLiteral but none thrown
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral but none thrown
+fail SimpleName MethodInvocation InfixExpression StringLiteral expected
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+fail SimpleName MethodInvocation InfixExpression StringLiteral but none thrown
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+in str SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get file as input stream
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get file as input stream
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get file as input stream
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get file as input stream SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get file as input stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get file as input stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

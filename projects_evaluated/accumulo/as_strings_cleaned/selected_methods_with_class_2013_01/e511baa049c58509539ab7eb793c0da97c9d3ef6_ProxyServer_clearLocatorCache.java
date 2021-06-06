@@ -1,0 +1,55 @@
+user pass SimpleName SimpleType SingleVariableDeclaration SimpleName userpass
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+get connector SimpleName MethodInvocation SimpleName userpass
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+userpass SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clear locator cache
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clear locator cache
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clear locator cache
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+userpass SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+clear locator cache SimpleName MethodInvocation SimpleName table name
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+translate exception SimpleName MethodInvocation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clear locator cache
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName userpass
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear locator cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName clear locator cache
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName userpass
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user pass
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName userpass
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+clear locator cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+clear locator cache SimpleName MethodDeclaration SimpleType SimpleName t exception
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+userpass SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear locator cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear locator cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName userpass
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

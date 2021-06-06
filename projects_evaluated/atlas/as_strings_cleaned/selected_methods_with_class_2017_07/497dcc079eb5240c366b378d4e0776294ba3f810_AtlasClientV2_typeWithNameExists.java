@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+call api SimpleName MethodInvocation SimpleName get typedef by name
+call api SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+call api SimpleName MethodInvocation SimpleName name
+get typedef by name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get typedef by name SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType TypeLiteral MethodInvocation SimpleName name
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName type with name exists
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName type with name exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+type with name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+type with name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+type with name exists SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName type with name exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type with name exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

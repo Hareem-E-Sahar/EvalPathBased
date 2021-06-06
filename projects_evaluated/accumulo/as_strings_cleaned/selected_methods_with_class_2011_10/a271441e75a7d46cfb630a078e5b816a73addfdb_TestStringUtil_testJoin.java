@@ -1,0 +1,115 @@
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation MethodInvocation SimpleName parts
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName parts
+join SimpleName MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral empty
+string util SimpleName MethodInvocation MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation StringLiteral a
+parts SimpleName MethodInvocation StringLiteral b
+parts SimpleName MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation StringLiteral c
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation MethodInvocation SimpleName parts
+string util SimpleName MethodInvocation MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation MethodInvocation StringLiteral b
+string util SimpleName MethodInvocation MethodInvocation StringLiteral c
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName parts
+join SimpleName MethodInvocation MethodInvocation StringLiteral a
+join SimpleName MethodInvocation MethodInvocation StringLiteral b
+join SimpleName MethodInvocation MethodInvocation StringLiteral c
+join SimpleName MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation MethodInvocation StringLiteral empty
+a StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+b StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+c StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral abc
+string util SimpleName MethodInvocation MethodInvocation StringLiteral abc
+join SimpleName MethodInvocation MethodInvocation StringLiteral abc
+parts SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral abc
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral abc
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral abc
+c StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral abc
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral abc
+parts SimpleName MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation MethodInvocation SimpleName parts
+string util SimpleName MethodInvocation MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName parts
+join SimpleName MethodInvocation MethodInvocation StringLiteral a
+join SimpleName MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation MethodInvocation StringLiteral empty
+a StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation MethodInvocation StringLiteral a
+join SimpleName MethodInvocation MethodInvocation StringLiteral a
+parts SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral a
+parts SimpleName MethodInvocation StringLiteral a
+parts SimpleName MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation MethodInvocation SimpleName parts
+string util SimpleName MethodInvocation MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation MethodInvocation StringLiteral a
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName parts
+join SimpleName MethodInvocation MethodInvocation StringLiteral a
+join SimpleName MethodInvocation MethodInvocation StringLiteral a
+join SimpleName MethodInvocation StringLiteral empty
+parts SimpleName MethodInvocation MethodInvocation StringLiteral empty
+a StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+a StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string util
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName join
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parts
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral empty
+assert equals SimpleName MethodInvocation StringLiteral aa
+string util SimpleName MethodInvocation MethodInvocation StringLiteral aa
+join SimpleName MethodInvocation MethodInvocation StringLiteral aa
+parts SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral aa
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral aa
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral aa
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral aa
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test join
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test join
+void PrimitiveType MethodDeclaration SimpleName test join
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test join
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test join

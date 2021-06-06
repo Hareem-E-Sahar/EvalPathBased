@@ -1,0 +1,220 @@
+fate operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName args
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName args
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName opts
+boolean PrimitiveType SingleVariableDeclaration SimpleName wait
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opid
+opid SimpleName Assignment MethodInvocation SimpleName begin fate operation
+execute fate operation SimpleName MethodInvocation SimpleName opid
+execute fate operation SimpleName MethodInvocation SimpleName op
+execute fate operation SimpleName MethodInvocation SimpleName args
+execute fate operation SimpleName MethodInvocation SimpleName opts
+execute fate operation SimpleName MethodInvocation PrefixExpression SimpleName wait
+opid SimpleName MethodInvocation SimpleName op
+opid SimpleName MethodInvocation SimpleName args
+opid SimpleName MethodInvocation SimpleName opts
+opid SimpleName MethodInvocation PrefixExpression SimpleName wait
+op SimpleName MethodInvocation SimpleName args
+op SimpleName MethodInvocation SimpleName opts
+op SimpleName MethodInvocation PrefixExpression SimpleName wait
+args SimpleName MethodInvocation SimpleName opts
+args SimpleName MethodInvocation PrefixExpression SimpleName wait
+opts SimpleName MethodInvocation PrefixExpression SimpleName wait
+wait for fate operation SimpleName MethodInvocation SimpleName opid
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName wait for fate operation
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName opid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+args SimpleName MethodInvocation SimpleName get
+args SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName args
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName args
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName args
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+e SimpleName MethodInvocation SimpleName get code
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral target table does not exist
+table name SimpleName ClassInstanceCreation StringLiteral target table does not exist
+namespace not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+namespace not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral target namespace does not exist
+table name SimpleName ClassInstanceCreation StringLiteral target namespace does not exist
+context SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get printable table info from name
+tables SimpleName MethodInvocation MethodInvocation SimpleName context
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName table name
+get printable table info from name SimpleName MethodInvocation MethodInvocation SimpleName context
+get printable table info from name SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get printable table info from name SimpleName MethodInvocation SimpleName table name
+context SimpleName MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get printable table info from name
+table info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+table info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+table info SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table info
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName euser
+accumulo security exception SimpleName SimpleType ClassInstanceCreation QualifiedName ecode
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName table info
+accumulo security exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+euser QualifiedName ClassInstanceCreation QualifiedName ecode
+euser QualifiedName ClassInstanceCreation SimpleName table info
+euser QualifiedName ClassInstanceCreation SimpleName e
+ecode QualifiedName ClassInstanceCreation SimpleName table info
+ecode QualifiedName ClassInstanceCreation SimpleName e
+table info SimpleName ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table doesnt exist
+get code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName table doesnt exist
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace doesnt exist
+get code SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace doesnt exist
+table doesnt exist SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace doesnt exist
+thrift table operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get type
+table exists exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+namespace exists exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+namespace not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+context SimpleName MethodInvocation SimpleName get instance
+table offline exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName context
+table offline exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+accumulo exception SimpleName SimpleType ClassInstanceCreation QualifiedName edescription
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+edescription QualifiedName ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName exists
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName exists
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace exists
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName namespace exists
+exists SimpleName SwitchCase SwitchStatement SwitchCase SimpleName notfound
+exists SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace exists
+notfound SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace exists
+notfound SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace notfound
+namespace exists SimpleName SwitchCase SwitchStatement SwitchCase SimpleName namespace notfound
+namespace exists SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+namespace notfound SimpleName SwitchCase SwitchStatement SwitchCase SimpleName offline
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+context SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName clear cache
+tables SimpleName MethodInvocation MethodInvocation SimpleName context
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+clear cache SimpleName MethodInvocation MethodInvocation SimpleName context
+clear cache SimpleName MethodInvocation MethodInvocation SimpleName get instance
+finish fate operation SimpleName MethodInvocation SimpleName opid
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+string SimpleName SimpleType MethodDeclaration SimpleName do fate operation
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName wait
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fate operation
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+do fate operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wait
+do fate operation SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+op SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+args SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName namespace exists exception
+wait SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName namespace exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace exists exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace exists exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+namespace exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName namespace not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName do fate operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName namespace exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do fate operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName namespace exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName namespace not found exception

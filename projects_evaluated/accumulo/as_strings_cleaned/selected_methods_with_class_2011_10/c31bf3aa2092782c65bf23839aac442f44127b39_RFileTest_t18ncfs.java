@@ -1,0 +1,40 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+int PrimitiveType SingleVariableDeclaration SimpleName col fams
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+int PrimitiveType SingleVariableDeclaration SimpleName i
+t ncf SimpleName MethodInvocation SimpleName i
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName t ncf
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName i
+cfs SimpleName MethodInvocation SimpleName add
+cfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+cfs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName t ncf
+cfs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName i
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName t ncf
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName i
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement SimpleName col fams
+i SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName col fams
+col fams SimpleName EnhancedForStatement Block ReturnStatement SimpleName cfs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte sequence
+private Modifier MethodDeclaration SimpleName t ncfs
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName col fams
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName col fams
+private Modifier MethodDeclaration Block ReturnStatement SimpleName cfs
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName t ncfs
+byte sequence SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName t ncfs
+t ncfs SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+t ncfs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col fams
+t ncfs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName col fams
+t ncfs SimpleName MethodDeclaration Block ReturnStatement SimpleName cfs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName t ncfs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col fams
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName t ncfs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col fams

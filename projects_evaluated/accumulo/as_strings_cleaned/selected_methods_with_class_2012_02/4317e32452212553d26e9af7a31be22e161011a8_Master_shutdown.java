@@ -1,0 +1,34 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName stop tablet servers
+set master goal state SimpleName MethodInvocation QualifiedName master goal stateclean stop
+next event SimpleName MethodInvocation SimpleName get listener
+event listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName next event
+event listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get listener
+event coordinatorlistener QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event listener
+wait around SimpleName MethodInvocation SimpleName event listener
+tserver set SimpleName MethodInvocation SimpleName size
+tserver set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set master state SimpleName MethodInvocation QualifiedName master statestop
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName shutdown
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+private Modifier MethodDeclaration Block IfStatement SimpleName stop tablet servers
+void PrimitiveType MethodDeclaration SimpleName shutdown
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName stop tablet servers
+shutdown SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+shutdown SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+shutdown SimpleName MethodDeclaration Block IfStatement SimpleName stop tablet servers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName shutdown
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName shutdown
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stop tablet servers

@@ -1,0 +1,500 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+monitor SimpleName MethodInvocation SimpleName get mmi
+gc status SimpleName VariableDeclarationFragment StringLiteral waiting
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc status
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral waiting
+monitor SimpleName MethodInvocation SimpleName get gc status
+start SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+label SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName label
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName current
+get gc status SimpleName MethodInvocation FieldAccess SimpleName current
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+current SimpleName FieldAccess FieldAccess SimpleName started
+current SimpleName FieldAccess FieldAccess InfixExpression NumberLiteral empty
+started SimpleName FieldAccess InfixExpression NumberLiteral empty
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName current log
+get gc status SimpleName MethodInvocation FieldAccess SimpleName current log
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+current log SimpleName FieldAccess FieldAccess SimpleName started
+current log SimpleName FieldAccess FieldAccess InfixExpression NumberLiteral empty
+started SimpleName FieldAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName current
+get gc status SimpleName MethodInvocation FieldAccess SimpleName current
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+current SimpleName FieldAccess FieldAccess SimpleName started
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName current log
+get gc status SimpleName MethodInvocation FieldAccess SimpleName current log
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName started
+current log SimpleName FieldAccess FieldAccess SimpleName started
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation FieldAccess FieldAccess SimpleName current
+math SimpleName MethodInvocation FieldAccess SimpleName started
+math SimpleName MethodInvocation FieldAccess FieldAccess SimpleName current log
+math SimpleName MethodInvocation FieldAccess SimpleName started
+max SimpleName MethodInvocation FieldAccess FieldAccess SimpleName current
+max SimpleName MethodInvocation FieldAccess SimpleName started
+max SimpleName MethodInvocation FieldAccess FieldAccess SimpleName current log
+max SimpleName MethodInvocation FieldAccess SimpleName started
+started SimpleName FieldAccess MethodInvocation FieldAccess SimpleName started
+start SimpleName Assignment MethodInvocation SimpleName math
+start SimpleName Assignment MethodInvocation SimpleName max
+start SimpleName Assignment MethodInvocation FieldAccess SimpleName started
+start SimpleName Assignment MethodInvocation FieldAccess SimpleName started
+label SimpleName Assignment StringLiteral running
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName last log
+get gc status SimpleName MethodInvocation FieldAccess SimpleName last log
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName finished
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName finished
+last log SimpleName FieldAccess FieldAccess SimpleName finished
+last log SimpleName FieldAccess FieldAccess InfixExpression NumberLiteral empty
+finished SimpleName FieldAccess InfixExpression NumberLiteral empty
+monitor SimpleName MethodInvocation SimpleName get gc status
+monitor SimpleName MethodInvocation FieldAccess SimpleName last log
+get gc status SimpleName MethodInvocation FieldAccess SimpleName last log
+monitor SimpleName MethodInvocation FieldAccess FieldAccess SimpleName finished
+get gc status SimpleName MethodInvocation FieldAccess FieldAccess SimpleName finished
+last log SimpleName FieldAccess FieldAccess SimpleName finished
+start SimpleName Assignment FieldAccess FieldAccess SimpleName last log
+start SimpleName Assignment FieldAccess SimpleName finished
+start SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+diff SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+diff SimpleName VariableDeclarationFragment InfixExpression SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName start
+date format SimpleName MethodInvocation SimpleName get instance
+date SimpleName SimpleType ClassInstanceCreation SimpleName start
+date format SimpleName MethodInvocation MethodInvocation SimpleName format
+get instance SimpleName MethodInvocation MethodInvocation SimpleName format
+date format SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName start
+get instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName start
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName start
+label SimpleName InfixExpression StringLiteral empty
+label SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName date format
+label SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+label SimpleName InfixExpression MethodInvocation SimpleName format
+label SimpleName InfixExpression MethodInvocation ClassInstanceCreation SimpleName start
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName date format
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+empty StringLiteral InfixExpression MethodInvocation SimpleName format
+empty StringLiteral InfixExpression MethodInvocation ClassInstanceCreation SimpleName start
+gc status SimpleName Assignment InfixExpression SimpleName label
+gc status SimpleName Assignment InfixExpression StringLiteral empty
+gc status SimpleName Assignment InfixExpression MethodInvocation SimpleName format
+gc status SimpleName MethodInvocation SimpleName replace
+gc status SimpleName MethodInvocation StringLiteral empty
+gc status SimpleName MethodInvocation StringLiteral nbsp
+replace SimpleName MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral nbsp
+empty StringLiteral MethodInvocation StringLiteral nbsp
+gc status SimpleName Assignment MethodInvocation SimpleName gc status
+gc status SimpleName Assignment MethodInvocation SimpleName replace
+gc status SimpleName Assignment MethodInvocation StringLiteral empty
+gc status SimpleName Assignment MethodInvocation StringLiteral nbsp
+server configuration SimpleName MethodInvocation SimpleName get system configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+get system configuration SimpleName MethodInvocation MethodInvocation SimpleName get time in millis
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle delay
+get system configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle delay
+get time in millis SimpleName MethodInvocation QualifiedName propertygc cycle delay
+normal delay SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+normal delay SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get system configuration
+normal delay SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+normal delay SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygc cycle delay
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName normal delay
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertygc cycle delay
+normal delay SimpleName InfixExpression NumberLiteral empty
+diff SimpleName InfixExpression InfixExpression SimpleName normal delay
+diff SimpleName InfixExpression InfixExpression NumberLiteral empty
+span classwarning StringLiteral InfixExpression SimpleName gc status
+span classwarning StringLiteral InfixExpression StringLiteral span
+gc status SimpleName InfixExpression StringLiteral span
+gc status SimpleName Assignment InfixExpression StringLiteral span classwarning
+gc status SimpleName Assignment InfixExpression SimpleName gc status
+gc status SimpleName Assignment InfixExpression StringLiteral span
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+gc status SimpleName Assignment StringLiteral span classerrordownspan
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName state
+get mmi SimpleName MethodInvocation FieldAccess SimpleName state
+monitor SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName master statenormal
+get mmi SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName master statenormal
+state SimpleName FieldAccess InfixExpression QualifiedName master statenormal
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName state
+get mmi SimpleName MethodInvocation FieldAccess SimpleName state
+monitor SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName name
+get mmi SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName name
+state SimpleName FieldAccess MethodInvocation SimpleName name
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName goal state
+get mmi SimpleName MethodInvocation FieldAccess SimpleName goal state
+monitor SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName name
+get mmi SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName name
+goal state SimpleName FieldAccess MethodInvocation SimpleName name
+span classwarningmaster state StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName state
+span classwarningmaster state StringLiteral InfixExpression MethodInvocation SimpleName name
+span classwarningmaster state StringLiteral InfixExpression StringLiteral goal
+span classwarningmaster state StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName goal state
+span classwarningmaster state StringLiteral InfixExpression MethodInvocation SimpleName name
+span classwarningmaster state StringLiteral InfixExpression StringLiteral span
+state SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral goal
+name SimpleName MethodInvocation InfixExpression StringLiteral goal
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+state SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral span
+name SimpleName MethodInvocation InfixExpression StringLiteral span
+goal StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName goal state
+goal StringLiteral InfixExpression MethodInvocation SimpleName name
+goal StringLiteral InfixExpression StringLiteral span
+goal state SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral span
+name SimpleName MethodInvocation InfixExpression StringLiteral span
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral span classwarningmaster state
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+sb SimpleName MethodInvocation InfixExpression StringLiteral goal
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+sb SimpleName MethodInvocation InfixExpression StringLiteral span
+append SimpleName MethodInvocation InfixExpression StringLiteral span classwarningmaster state
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+append SimpleName MethodInvocation InfixExpression StringLiteral goal
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+append SimpleName MethodInvocation InfixExpression StringLiteral span
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+get mmi SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+get mmi SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+monitor SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName size
+get mmi SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName size
+servers shutting down SimpleName FieldAccess MethodInvocation SimpleName size
+servers shutting down SimpleName FieldAccess MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName state
+get mmi SimpleName MethodInvocation FieldAccess SimpleName state
+monitor SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName master statenormal
+get mmi SimpleName MethodInvocation FieldAccess InfixExpression QualifiedName master statenormal
+state SimpleName FieldAccess InfixExpression QualifiedName master statenormal
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+get mmi SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+string util SimpleName MethodInvocation SimpleName join
+string util SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName monitor
+string util SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get mmi
+string util SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+string util SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName monitor
+join SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get mmi
+join SimpleName MethodInvocation FieldAccess SimpleName servers shutting down
+join SimpleName MethodInvocation StringLiteral empty
+monitor SimpleName MethodInvocation FieldAccess MethodInvocation StringLiteral empty
+get mmi SimpleName MethodInvocation FieldAccess MethodInvocation StringLiteral empty
+servers shutting down SimpleName FieldAccess MethodInvocation StringLiteral empty
+span classwarningservers being stopped StringLiteral InfixExpression MethodInvocation SimpleName string util
+span classwarningservers being stopped StringLiteral InfixExpression MethodInvocation SimpleName join
+span classwarningservers being stopped StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName servers shutting down
+span classwarningservers being stopped StringLiteral InfixExpression MethodInvocation StringLiteral empty
+span classwarningservers being stopped StringLiteral InfixExpression StringLiteral span
+string util SimpleName MethodInvocation InfixExpression StringLiteral span
+join SimpleName MethodInvocation InfixExpression StringLiteral span
+servers shutting down SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral span
+empty StringLiteral MethodInvocation InfixExpression StringLiteral span
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral span classwarningservers being stopped
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string util
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+sb SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+sb SimpleName MethodInvocation InfixExpression StringLiteral span
+append SimpleName MethodInvocation InfixExpression StringLiteral span classwarningservers being stopped
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string util
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+append SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation InfixExpression StringLiteral span
+management factory SimpleName MethodInvocation SimpleName get operating system mx bean
+management factory SimpleName MethodInvocation MethodInvocation SimpleName get available processors
+get operating system mx bean SimpleName MethodInvocation MethodInvocation SimpleName get available processors
+guess high load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName management factory
+guess high load SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get operating system mx bean
+guess high load SimpleName VariableDeclarationFragment MethodInvocation SimpleName get available processors
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName guess high load
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get available processors
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tablet server status SimpleName SimpleType SingleVariableDeclaration SimpleName up
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName t server info
+get mmi SimpleName MethodInvocation FieldAccess SimpleName t server info
+slaves SimpleName MethodInvocation SimpleName add
+slaves SimpleName MethodInvocation QualifiedName upname
+add SimpleName MethodInvocation QualifiedName upname
+up SimpleName SingleVariableDeclaration EnhancedForStatement FieldAccess SimpleName t server info
+dead server SimpleName SimpleType SingleVariableDeclaration SimpleName down
+monitor SimpleName MethodInvocation SimpleName get mmi
+monitor SimpleName MethodInvocation FieldAccess SimpleName dead tablet servers
+get mmi SimpleName MethodInvocation FieldAccess SimpleName dead tablet servers
+slaves SimpleName MethodInvocation SimpleName add
+slaves SimpleName MethodInvocation QualifiedName downserver
+add SimpleName MethodInvocation QualifiedName downserver
+down SimpleName SingleVariableDeclaration EnhancedForStatement FieldAccess SimpleName dead tablet servers
+table SimpleName SimpleType ClassInstanceCreation StringLiteral master status
+table SimpleName SimpleType ClassInstanceCreation StringLiteral masternbspstatus
+master status StringLiteral ClassInstanceCreation StringLiteral masternbspstatus
+master status SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName table
+master status SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral master status
+master status SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral masternbspstatus
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master status
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+slaves SimpleName MethodInvocation SimpleName size
+slaves SimpleName MethodInvocation InfixExpression NumberLiteral .
+size SimpleName MethodInvocation InfixExpression NumberLiteral .
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral .
+slaves SimpleName MethodInvocation SimpleName size
+slaves SimpleName MethodInvocation SimpleName size
+slaves SimpleName MethodInvocation InfixExpression NumberLiteral .
+size SimpleName MethodInvocation InfixExpression NumberLiteral .
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral .
+slaves SimpleName MethodInvocation SimpleName size
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName slaves
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName size
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName slaves
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName size
+slaves SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+size SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+slaves SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+slaves SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName slaves
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName size
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral nbsponlinebr tabletnbspservers
+master status SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+master status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+master status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+master status SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+master status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+master status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+master status SimpleName MethodInvocation StringLiteral number of tablet servers currently available
+add sortable column SimpleName MethodInvocation StringLiteral nbsponlinebr tabletnbspservers
+add sortable column SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+add sortable column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+add sortable column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+add sortable column SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+add sortable column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+add sortable column SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+add sortable column SimpleName MethodInvocation StringLiteral number of tablet servers currently available
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName slaves
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName size
+nbsponlinebr tabletnbspservers StringLiteral MethodInvocation StringLiteral number of tablet servers currently available
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+slaves SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+slaves SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+size SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral number of tablet servers currently available
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral nbsptotalbr tabletnbspservers
+master status SimpleName MethodInvocation StringLiteral the total number of tablet servers configured
+add sortable column SimpleName MethodInvocation StringLiteral nbsptotalbr tabletnbspservers
+add sortable column SimpleName MethodInvocation StringLiteral the total number of tablet servers configured
+nbsptotalbr tabletnbspservers StringLiteral MethodInvocation StringLiteral the total number of tablet servers configured
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+slaves SimpleName MethodInvocation SimpleName size
+slaves SimpleName MethodInvocation InfixExpression NumberLiteral .
+size SimpleName MethodInvocation InfixExpression NumberLiteral .
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral .
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName integermax value
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName integermax value
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName integermax value
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName integermax value
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName integermax value
+int PrimitiveType CastExpression ClassInstanceCreation NumberLiteral empty
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName integermax value
+integermax value QualifiedName ClassInstanceCreation NumberLiteral empty
+integermax value QualifiedName ClassInstanceCreation QualifiedName integermax value
+empty NumberLiteral ClassInstanceCreation QualifiedName integermax value
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral loggers
+master status SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+master status SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+master status SimpleName MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+add sortable column SimpleName MethodInvocation StringLiteral loggers
+add sortable column SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+add sortable column SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation ClassInstanceCreation QualifiedName integermax value
+add sortable column SimpleName MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+loggers StringLiteral MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+loggers StringLiteral MethodInvocation ClassInstanceCreation QualifiedName integermax value
+loggers StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+loggers StringLiteral MethodInvocation ClassInstanceCreation QualifiedName integermax value
+loggers StringLiteral MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+integermax value QualifiedName ClassInstanceCreation MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+integermax value QualifiedName ClassInstanceCreation MethodInvocation StringLiteral the number of writeahead loggers this should be approximately the same as the number of tablet servers and greater than zero
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral lastnbspgc
+master status SimpleName MethodInvocation StringLiteral the last time files were cleanedup from hdfs
+add sortable column SimpleName MethodInvocation StringLiteral lastnbspgc
+add sortable column SimpleName MethodInvocation StringLiteral the last time files were cleanedup from hdfs
+lastnbspgc StringLiteral MethodInvocation StringLiteral the last time files were cleanedup from hdfs
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral nbsptablets
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation StringLiteral nbsptablets
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbsptablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbsptablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbsptablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbsptablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral nbspunassignedbr tablets
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation StringLiteral nbspunassignedbr tablets
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbspunassignedbr tablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+nbspunassignedbr tablets StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral entries
+master status SimpleName MethodInvocation StringLiteral the total number of keyvalue pairs in accumulo
+add sortable column SimpleName MethodInvocation StringLiteral entries
+add sortable column SimpleName MethodInvocation StringLiteral the total number of keyvalue pairs in accumulo
+entries StringLiteral MethodInvocation StringLiteral the total number of keyvalue pairs in accumulo
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+the number of keyvalue pairs inserted per second StringLiteral InfixExpression StringLiteral note that deleted records are inserted and will make the ingest
+the number of keyvalue pairs inserted per second StringLiteral InfixExpression StringLiteral rate increase in the nearterm
+note that deleted records are inserted and will make the ingest StringLiteral InfixExpression StringLiteral rate increase in the nearterm
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral ingest
+master status SimpleName MethodInvocation InfixExpression StringLiteral the number of keyvalue pairs inserted per second
+master status SimpleName MethodInvocation InfixExpression StringLiteral note that deleted records are inserted and will make the ingest
+master status SimpleName MethodInvocation InfixExpression StringLiteral rate increase in the nearterm
+add sortable column SimpleName MethodInvocation StringLiteral ingest
+add sortable column SimpleName MethodInvocation InfixExpression StringLiteral the number of keyvalue pairs inserted per second
+add sortable column SimpleName MethodInvocation InfixExpression StringLiteral note that deleted records are inserted and will make the ingest
+add sortable column SimpleName MethodInvocation InfixExpression StringLiteral rate increase in the nearterm
+ingest StringLiteral MethodInvocation InfixExpression StringLiteral the number of keyvalue pairs inserted per second
+ingest StringLiteral MethodInvocation InfixExpression StringLiteral note that deleted records are inserted and will make the ingest
+ingest StringLiteral MethodInvocation InfixExpression StringLiteral rate increase in the nearterm
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral query
+master status SimpleName MethodInvocation StringLiteral the total number of keyvalue pairs returned as a result of scans
+add sortable column SimpleName MethodInvocation StringLiteral query
+add sortable column SimpleName MethodInvocation StringLiteral the total number of keyvalue pairs returned as a result of scans
+query StringLiteral MethodInvocation StringLiteral the total number of keyvalue pairs returned as a result of scans
+duration type SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+duration type SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+l NumberLiteral ClassInstanceCreation NumberLiteral l
+the maximum amount of time that ingest has been held StringLiteral InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral holdnbsptime
+master status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName duration type
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+master status SimpleName MethodInvocation InfixExpression StringLiteral the maximum amount of time that ingest has been held
+master status SimpleName MethodInvocation InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+add sortable column SimpleName MethodInvocation StringLiteral holdnbsptime
+add sortable column SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName duration type
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+add sortable column SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+add sortable column SimpleName MethodInvocation InfixExpression StringLiteral the maximum amount of time that ingest has been held
+add sortable column SimpleName MethodInvocation InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+holdnbsptime StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName duration type
+holdnbsptime StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral l
+holdnbsptime StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral l
+holdnbsptime StringLiteral MethodInvocation InfixExpression StringLiteral the maximum amount of time that ingest has been held
+holdnbsptime StringLiteral MethodInvocation InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+l NumberLiteral ClassInstanceCreation MethodInvocation InfixExpression StringLiteral the maximum amount of time that ingest has been held
+l NumberLiteral ClassInstanceCreation MethodInvocation InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+l NumberLiteral ClassInstanceCreation MethodInvocation InfixExpression StringLiteral the maximum amount of time that ingest has been held
+l NumberLiteral ClassInstanceCreation MethodInvocation InfixExpression StringLiteral across all servers due to a lack of memory to store the records
+number type SimpleName SimpleType ParameterizedType SimpleType SimpleName double
+guess high load SimpleName InfixExpression NumberLiteral .
+guess high load SimpleName InfixExpression NumberLiteral .
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral .
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral .
+number type SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral .
+double SimpleName SimpleType ParameterizedType ClassInstanceCreation NumberLiteral .
+. NumberLiteral ClassInstanceCreation InfixExpression SimpleName guess high load
+. NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral .
+. NumberLiteral ClassInstanceCreation NumberLiteral .
+. NumberLiteral ClassInstanceCreation InfixExpression SimpleName guess high load
+. NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral .
+guess high load SimpleName InfixExpression ClassInstanceCreation NumberLiteral .
+. NumberLiteral InfixExpression ClassInstanceCreation NumberLiteral .
+guess high load SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName guess high load
+guess high load SimpleName InfixExpression ClassInstanceCreation InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression ClassInstanceCreation InfixExpression SimpleName guess high load
+. NumberLiteral InfixExpression ClassInstanceCreation InfixExpression NumberLiteral .
+. NumberLiteral ClassInstanceCreation InfixExpression SimpleName guess high load
+. NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral .
+master status SimpleName MethodInvocation SimpleName add sortable column
+master status SimpleName MethodInvocation StringLiteral osnbspload
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral .
+master status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName guess high load
+master status SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral .
+master status SimpleName MethodInvocation ClassInstanceCreation NumberLiteral .
+master status SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName guess high load

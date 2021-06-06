@@ -1,0 +1,19 @@
+application properties SimpleName MethodInvocation SimpleName get
+application properties SimpleName Assignment MethodInvocation SimpleName application properties
+application properties SimpleName Assignment MethodInvocation SimpleName get
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init application properties
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName init application properties
+void PrimitiveType MethodDeclaration SimpleName init application properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init application properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init application properties

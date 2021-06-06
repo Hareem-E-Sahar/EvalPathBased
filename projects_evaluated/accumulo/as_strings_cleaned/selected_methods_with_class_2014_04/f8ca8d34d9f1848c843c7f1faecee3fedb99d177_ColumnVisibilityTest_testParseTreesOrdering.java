@@ -1,0 +1,91 @@
+bcdamyzef StringLiteral MethodInvocation SimpleName get bytes
+bcdamyzef StringLiteral MethodInvocation QualifiedName standard charsetsutf
+get bytes SimpleName MethodInvocation QualifiedName standard charsetsutf
+expression SimpleName VariableDeclarationFragment MethodInvocation StringLiteral bcdamyzef
+expression SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+expression SimpleName VariableDeclarationFragment MethodInvocation QualifiedName standard charsetsutf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName expression
+column visibility SimpleName SimpleType ClassInstanceCreation SimpleName expression
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName flatten
+expression SimpleName ClassInstanceCreation MethodInvocation SimpleName flatten
+flattened SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName expression
+flattened SimpleName VariableDeclarationFragment MethodInvocation SimpleName flatten
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName flattened
+string SimpleName SimpleType ClassInstanceCreation SimpleName flattened
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+flattened SimpleName ClassInstanceCreation QualifiedName standard charsetsutf
+flat SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+flat SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName flattened
+flat SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName standard charsetsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName flat
+flat SimpleName MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation CharacterLiteral e
+index of SimpleName MethodInvocation CharacterLiteral e
+flat SimpleName MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation CharacterLiteral 
+index of SimpleName MethodInvocation CharacterLiteral 
+flat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+flat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral 
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+index of SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral 
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral 
+assert true SimpleName MethodInvocation StringLiteral shortest expressions sort first
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral 
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+shortest expressions sort first StringLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral 
+flat SimpleName MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation CharacterLiteral b
+index of SimpleName MethodInvocation CharacterLiteral b
+flat SimpleName MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation CharacterLiteral a
+index of SimpleName MethodInvocation CharacterLiteral a
+flat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+flat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+flat SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+index of SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+b CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+b CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+b CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+assert true SimpleName MethodInvocation StringLiteral shortest children sort first
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral b
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flat
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral b
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName flat
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+shortest children sort first StringLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test parse trees ordering
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test parse trees ordering
+void PrimitiveType MethodDeclaration SimpleName test parse trees ordering
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test parse trees ordering
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test parse trees ordering

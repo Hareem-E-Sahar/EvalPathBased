@@ -1,0 +1,84 @@
+param SimpleName VariableDeclarationFragment StringLiteral cl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName param
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral cl
+param SimpleName VariableDeclarationFragment StringLiteral cl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName param
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral cl
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral sss
+string SimpleName MethodInvocation StringLiteral replace
+string SimpleName MethodInvocation SimpleName param
+string SimpleName MethodInvocation SimpleName param
+format SimpleName MethodInvocation StringLiteral sss
+format SimpleName MethodInvocation StringLiteral replace
+format SimpleName MethodInvocation SimpleName param
+format SimpleName MethodInvocation SimpleName param
+sss StringLiteral MethodInvocation StringLiteral replace
+sss StringLiteral MethodInvocation SimpleName param
+sss StringLiteral MethodInvocation SimpleName param
+replace StringLiteral MethodInvocation SimpleName param
+replace StringLiteral MethodInvocation SimpleName param
+param SimpleName MethodInvocation SimpleName param
+import transformer SimpleName MethodInvocation SimpleName get transformer
+import transformer SimpleName MethodInvocation MethodInvocation SimpleName string
+import transformer SimpleName MethodInvocation MethodInvocation SimpleName format
+import transformer SimpleName MethodInvocation MethodInvocation StringLiteral sss
+import transformer SimpleName MethodInvocation MethodInvocation StringLiteral replace
+import transformer SimpleName MethodInvocation MethodInvocation SimpleName param
+import transformer SimpleName MethodInvocation MethodInvocation SimpleName param
+get transformer SimpleName MethodInvocation MethodInvocation SimpleName string
+get transformer SimpleName MethodInvocation MethodInvocation SimpleName format
+get transformer SimpleName MethodInvocation MethodInvocation StringLiteral sss
+get transformer SimpleName MethodInvocation MethodInvocation StringLiteral replace
+get transformer SimpleName MethodInvocation MethodInvocation SimpleName param
+get transformer SimpleName MethodInvocation MethodInvocation SimpleName param
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName import transformer
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transformer
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName string
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName format
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral sss
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral replace
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName param
+e SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName param
+import transformer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InstanceofExpression SimpleType QualifiedName import transformerreplace
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName e
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType QualifiedName import transformerreplace
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get to find str
+assert equals SimpleName MethodInvocation SimpleName param
+get to find str SimpleName MethodInvocation MethodInvocation SimpleName param
+import transformerreplace QualifiedName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get replace str
+assert equals SimpleName MethodInvocation SimpleName param
+get replace str SimpleName MethodInvocation MethodInvocation SimpleName param
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName create with correct parameters
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create with correct parameters
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName illegal access exception
+void PrimitiveType MethodDeclaration SimpleName create with correct parameters
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName illegal access exception
+create with correct parameters SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+create with correct parameters SimpleName MethodDeclaration SimpleType SimpleName illegal access exception
+atlas base exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal access exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create with correct parameters
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create with correct parameters
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal access exception

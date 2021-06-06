@@ -1,0 +1,73 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName classification vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get classification entity guid SimpleName MethodInvocation SimpleName classification vertex
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification entity guid
+entity guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid
+classification vertex SimpleName MethodInvocation SimpleName get id for display
+classification id SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+classification id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id for display
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get all propagated entity vertices SimpleName MethodInvocation SimpleName classification vertex
+impacted entity vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all propagated entity vertices
+impacted entity vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get impacted vertices with restrictions SimpleName MethodInvocation SimpleName entity guid
+get impacted vertices with restrictions SimpleName MethodInvocation SimpleName classification id
+entity guid SimpleName MethodInvocation SimpleName classification id
+impacted entity vertices with restrictions SimpleName VariableDeclarationFragment MethodInvocation SimpleName get impacted vertices with restrictions
+impacted entity vertices with restrictions SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity guid
+impacted entity vertices with restrictions SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification id
+impacted entity vertices SimpleName MethodInvocation SimpleName size
+impacted entity vertices with restrictions SimpleName MethodInvocation SimpleName size
+impacted entity vertices SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName impacted entity vertices with restrictions
+impacted entity vertices SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName impacted entity vertices with restrictions
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+collection utils SimpleName MethodInvocation SimpleName subtract
+collection utils SimpleName MethodInvocation SimpleName impacted entity vertices
+collection utils SimpleName MethodInvocation SimpleName impacted entity vertices with restrictions
+subtract SimpleName MethodInvocation SimpleName impacted entity vertices
+subtract SimpleName MethodInvocation SimpleName impacted entity vertices with restrictions
+impacted entity vertices SimpleName MethodInvocation SimpleName impacted entity vertices with restrictions
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName collection utils
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName subtract
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName impacted entity vertices
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName impacted entity vertices with restrictions
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+collection utils SimpleName MethodInvocation SimpleName subtract
+collection utils SimpleName MethodInvocation SimpleName impacted entity vertices with restrictions
+collection utils SimpleName MethodInvocation SimpleName impacted entity vertices
+subtract SimpleName MethodInvocation SimpleName impacted entity vertices with restrictions
+subtract SimpleName MethodInvocation SimpleName impacted entity vertices
+impacted entity vertices with restrictions SimpleName MethodInvocation SimpleName impacted entity vertices
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName collection utils
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName subtract
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName impacted entity vertices with restrictions
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName impacted entity vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get propagated entity vertices
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entity vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get propagated entity vertices
+get propagated entity vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get propagated entity vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+get propagated entity vertices SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get propagated entity vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+classification vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get propagated entity vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get propagated entity vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

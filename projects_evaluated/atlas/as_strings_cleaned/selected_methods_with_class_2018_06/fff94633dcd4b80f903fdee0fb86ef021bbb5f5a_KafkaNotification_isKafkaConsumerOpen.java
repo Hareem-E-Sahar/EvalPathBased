@@ -1,0 +1,38 @@
+kafka consumer SimpleName SimpleType SingleVariableDeclaration SimpleName consumer
+ret SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+consumer SimpleName MethodInvocation SimpleName list topics
+illegal state exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get message
+ex SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get message SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+ex SimpleName MethodInvocation MethodInvocation SimpleName consumer closed error msg
+get message SimpleName MethodInvocation MethodInvocation SimpleName consumer closed error msg
+equals ignore case SimpleName MethodInvocation SimpleName consumer closed error msg
+ret SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is kafka consumer open
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kafka consumer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName consumer
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName is kafka consumer open
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kafka consumer
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName consumer
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is kafka consumer open SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName kafka consumer
+is kafka consumer open SimpleName MethodDeclaration SingleVariableDeclaration SimpleName consumer
+is kafka consumer open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is kafka consumer open SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is kafka consumer open
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName consumer
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is kafka consumer open
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName consumer

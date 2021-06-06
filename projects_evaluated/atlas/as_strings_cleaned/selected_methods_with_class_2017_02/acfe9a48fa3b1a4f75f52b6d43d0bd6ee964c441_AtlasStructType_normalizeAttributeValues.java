@@ -1,0 +1,65 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName obj
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+obj SimpleName MethodInvocation SimpleName contains key
+obj SimpleName MethodInvocation SimpleName attribute name
+contains key SimpleName MethodInvocation SimpleName attribute name
+obj SimpleName MethodInvocation SimpleName get
+obj SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName obj
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName get
+get normalized value SimpleName MethodInvocation MethodInvocation SimpleName attribute name
+get normalized value SimpleName MethodInvocation SimpleName attribute def
+obj SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName obj
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+attribute value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attribute name
+attribute value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute def
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute value
+obj SimpleName MethodInvocation SimpleName put
+obj SimpleName MethodInvocation SimpleName attribute name
+obj SimpleName MethodInvocation SimpleName attribute value
+put SimpleName MethodInvocation SimpleName attribute name
+put SimpleName MethodInvocation SimpleName attribute value
+attribute name SimpleName MethodInvocation SimpleName attribute value
+attribute def SimpleName MethodInvocation SimpleName get is optional
+create default value SimpleName MethodInvocation SimpleName attribute def
+obj SimpleName MethodInvocation SimpleName put
+obj SimpleName MethodInvocation SimpleName attribute name
+obj SimpleName MethodInvocation MethodInvocation SimpleName create default value
+obj SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+put SimpleName MethodInvocation SimpleName attribute name
+put SimpleName MethodInvocation MethodInvocation SimpleName create default value
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName create default value
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize attribute values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName normalize attribute values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+normalize attribute values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize attribute values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize attribute values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

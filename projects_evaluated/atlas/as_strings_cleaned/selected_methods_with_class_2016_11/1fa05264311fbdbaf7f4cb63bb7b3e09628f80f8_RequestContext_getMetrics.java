@@ -1,0 +1,16 @@
+get SimpleName MethodInvocation FieldAccess SimpleName metrics
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName metrics
+public Modifier MethodDeclaration SimpleName get metrics
+static Modifier MethodDeclaration SimpleType SimpleName metrics
+static Modifier MethodDeclaration SimpleName get metrics
+metrics SimpleName SimpleType MethodDeclaration SimpleName get metrics
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metrics
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metrics

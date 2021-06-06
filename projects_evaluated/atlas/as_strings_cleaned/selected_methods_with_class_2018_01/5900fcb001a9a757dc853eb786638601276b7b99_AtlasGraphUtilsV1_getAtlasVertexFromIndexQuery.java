@@ -1,0 +1,143 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+object SimpleName SimpleType SingleVariableDeclaration SimpleName attr val
+attribute SimpleName MethodInvocation SimpleName get vertex property name
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property name
+attr val SimpleName MethodInvocation SimpleName to string
+get index query SimpleName MethodInvocation SimpleName entity type
+get index query SimpleName MethodInvocation SimpleName property name
+get index query SimpleName MethodInvocation MethodInvocation SimpleName attr val
+get index query SimpleName MethodInvocation MethodInvocation SimpleName to string
+entity type SimpleName MethodInvocation SimpleName property name
+entity type SimpleName MethodInvocation MethodInvocation SimpleName attr val
+entity type SimpleName MethodInvocation MethodInvocation SimpleName to string
+property name SimpleName MethodInvocation MethodInvocation SimpleName attr val
+property name SimpleName MethodInvocation MethodInvocation SimpleName to string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index query
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr val
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+atlas index query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+iterator SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas index queryresult
+query SimpleName MethodInvocation SimpleName vertices
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas index queryresult QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get vertex
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get property keys
+vertex SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property keys SimpleName MethodInvocation MethodInvocation SimpleName contains
+vertex SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+get property keys SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+contains SimpleName MethodInvocation QualifiedName constantsguid property key
+get type name SimpleName MethodInvocation SimpleName vertex
+type name in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+type name in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name in vertex
+entity type SimpleName MethodInvocation SimpleName get type and all sub types
+entity type SimpleName MethodInvocation MethodInvocation SimpleName contains
+get type and all sub types SimpleName MethodInvocation MethodInvocation SimpleName contains
+entity type SimpleName MethodInvocation MethodInvocation SimpleName type name in vertex
+get type and all sub types SimpleName MethodInvocation MethodInvocation SimpleName type name in vertex
+contains SimpleName MethodInvocation SimpleName type name in vertex
+entity type SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral incorrect vertex type from indexquery expected found
+log SimpleName MethodInvocation MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName type name in vertex
+warn SimpleName MethodInvocation StringLiteral incorrect vertex type from indexquery expected found
+warn SimpleName MethodInvocation MethodInvocation SimpleName entity type
+warn SimpleName MethodInvocation MethodInvocation SimpleName get type name
+warn SimpleName MethodInvocation SimpleName type name in vertex
+incorrect vertex type from indexquery expected found StringLiteral MethodInvocation MethodInvocation SimpleName entity type
+incorrect vertex type from indexquery expected found StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+incorrect vertex type from indexquery expected found StringLiteral MethodInvocation SimpleName type name in vertex
+entity type SimpleName MethodInvocation MethodInvocation SimpleName type name in vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName type name in vertex
+attr val SimpleName MethodInvocation SimpleName get class
+string SimpleName SimpleType CastExpression SimpleName attr val
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment CastExpression SimpleName attr val
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property name
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property SimpleName MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex val SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+vertex val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+vertex val SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex val
+s SimpleName MethodInvocation SimpleName equals ignore case
+s SimpleName MethodInvocation SimpleName vertex val
+equals ignore case SimpleName MethodInvocation SimpleName vertex val
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral incorrect match from indexquery for property {}: expected found
+log SimpleName MethodInvocation SimpleName property name
+log SimpleName MethodInvocation SimpleName s
+log SimpleName MethodInvocation SimpleName vertex val
+warn SimpleName MethodInvocation StringLiteral incorrect match from indexquery for property {}: expected found
+warn SimpleName MethodInvocation SimpleName property name
+warn SimpleName MethodInvocation SimpleName s
+warn SimpleName MethodInvocation SimpleName vertex val
+incorrect match from indexquery for property {}: expected found StringLiteral MethodInvocation SimpleName property name
+incorrect match from indexquery for property {}: expected found StringLiteral MethodInvocation SimpleName s
+incorrect match from indexquery for property {}: expected found StringLiteral MethodInvocation SimpleName vertex val
+property name SimpleName MethodInvocation SimpleName s
+property name SimpleName MethodInvocation SimpleName vertex val
+s SimpleName MethodInvocation SimpleName vertex val
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName get atlas vertex from index query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration SimpleType SimpleName atlas vertex
+static Modifier MethodDeclaration SimpleName get atlas vertex from index query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr val
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName get atlas vertex from index query
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr val
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get atlas vertex from index query SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr val
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas vertex from index query
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas vertex from index query
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr val

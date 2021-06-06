@@ -1,0 +1,115 @@
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zoo reader writer SimpleName SimpleType SingleVariableDeclaration SimpleName zoo
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+get SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName configuration
+server constants SimpleName MethodInvocation SimpleName get tables dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get tables dir
+file system SimpleName MethodInvocation MethodInvocation SimpleName list status
+get SimpleName MethodInvocation MethodInvocation SimpleName list status
+list status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+list status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server constants
+list status SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get tables dir
+tables status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file system
+tables status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+tables status SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+file status SimpleName SimpleType SingleVariableDeclaration SimpleName fstat
+fstat SimpleName MethodInvocation SimpleName get path
+fstat SimpleName MethodInvocation MethodInvocation SimpleName to string
+get path SimpleName MethodInvocation MethodInvocation SimpleName to string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fstat
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get path
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table name SimpleName MethodInvocation SimpleName last index of
+table name SimpleName MethodInvocation CharacterLiteral /
+last index of SimpleName MethodInvocation CharacterLiteral /
+table name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+/ CharacterLiteral MethodInvocation InfixExpression NumberLiteral empty
+table name SimpleName MethodInvocation SimpleName substring
+table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table name
+table name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName last index of
+table name SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral /
+table name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table name
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName last index of
+substring SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral /
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+table name SimpleName Assignment MethodInvocation SimpleName table name
+table name SimpleName Assignment MethodInvocation SimpleName substring
+table name SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+table names SimpleName MethodInvocation SimpleName add
+table names SimpleName MethodInvocation SimpleName table name
+add SimpleName MethodInvocation SimpleName table name
+file status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tables status
+fstat SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tables status
+zk instance root SimpleName InfixExpression SimpleName old table conf dir
+zoo SimpleName MethodInvocation SimpleName exists
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old table conf dir
+exists SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+exists SimpleName MethodInvocation InfixExpression SimpleName old table conf dir
+zk instance root SimpleName InfixExpression SimpleName old table conf dir
+zoo SimpleName MethodInvocation SimpleName get children
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+zoo SimpleName MethodInvocation InfixExpression SimpleName old table conf dir
+get children SimpleName MethodInvocation InfixExpression SimpleName zk instance root
+get children SimpleName MethodInvocation InfixExpression SimpleName old table conf dir
+table names SimpleName MethodInvocation SimpleName add all
+table names SimpleName MethodInvocation MethodInvocation SimpleName zoo
+table names SimpleName MethodInvocation MethodInvocation SimpleName get children
+table names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk instance root
+table names SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName old table conf dir
+add all SimpleName MethodInvocation MethodInvocation SimpleName zoo
+add all SimpleName MethodInvocation MethodInvocation SimpleName get children
+add all SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName zk instance root
+add all SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName old table conf dir
+tables status SimpleName EnhancedForStatement Block ReturnStatement SimpleName table names
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get old table names
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get old table names
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName keeper exception
+sorted set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get old table names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get old table names
+get old table names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo reader writer
+get old table names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo
+get old table names SimpleName MethodDeclaration SimpleType SimpleName io exception
+get old table names SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+get old table names SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+get old table names SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tables status
+get old table names SimpleName MethodDeclaration Block ReturnStatement SimpleName table names
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+zoo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName keeper exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get old table names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get old table names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

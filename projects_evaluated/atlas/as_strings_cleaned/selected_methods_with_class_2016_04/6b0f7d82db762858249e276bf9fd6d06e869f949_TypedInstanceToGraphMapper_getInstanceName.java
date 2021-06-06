@@ -1,0 +1,63 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName referencing vertex
+i constructable type SimpleName SimpleType SingleVariableDeclaration SimpleName referencing type
+referencing type SimpleName MethodInvocation SimpleName get type category
+referencing type SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+get type category SimpleName MethodInvocation InfixExpression QualifiedName type categoryclass
+referencing type SimpleName MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName referencing type
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get name
+graph helper SimpleName MethodInvocation SimpleName referencing vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName referencing type
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName get name
+get id from vertex SimpleName MethodInvocation SimpleName referencing vertex
+referencing type SimpleName MethodInvocation MethodInvocation SimpleName referencing vertex
+get name SimpleName MethodInvocation MethodInvocation SimpleName referencing vertex
+id from vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+id from vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+id from vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName referencing type
+id from vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+id from vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName referencing vertex
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id from vertex
+referencing type SimpleName MethodInvocation SimpleName get name
+id from vertex SimpleName MethodInvocation SimpleName get id
+referencing type SimpleName MethodInvocation InfixExpression StringLiteral :
+get name SimpleName MethodInvocation InfixExpression StringLiteral :
+referencing type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id from vertex
+referencing type SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id from vertex
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+: StringLiteral InfixExpression MethodInvocation SimpleName id from vertex
+: StringLiteral InfixExpression MethodInvocation SimpleName get id
+instance id SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName referencing type
+instance id SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get name
+instance id SimpleName VariableDeclarationFragment InfixExpression StringLiteral :
+instance id SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName id from vertex
+instance id SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance id
+referencing type SimpleName MethodInvocation SimpleName get name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get instance name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i constructable type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName referencing type
+string SimpleName SimpleType MethodDeclaration SimpleName get instance name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName referencing type
+get instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+get instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i constructable type
+get instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referencing type
+referencing vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing type

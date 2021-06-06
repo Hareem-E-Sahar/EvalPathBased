@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName omrs repository helper
+public Modifier MethodDeclaration SimpleName get repository helper
+omrs repository helper SimpleName SimpleType MethodDeclaration SimpleName get repository helper
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs repository helper
+public Modifier TypeDeclaration MethodDeclaration SimpleName get repository helper
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs repository helper
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get repository helper

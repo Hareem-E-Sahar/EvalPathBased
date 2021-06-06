@@ -1,0 +1,82 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType CastExpression SimpleName obj
+struct obj SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName atlas struct
+struct obj SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct obj
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get name
+struct obj SimpleName MethodInvocation SimpleName get attribute
+struct obj SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+struct obj SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+is assignable value SimpleName MethodInvocation MethodInvocation SimpleName struct obj
+is assignable value SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+is assignable value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+is assignable value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+is assignable value SimpleName MethodInvocation SimpleName attribute def
+struct obj SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+obj SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName obj
+atlas type util SimpleName MethodInvocation SimpleName to struct attributes
+atlas type util SimpleName MethodInvocation CastExpression SimpleType SimpleName map
+atlas type util SimpleName MethodInvocation CastExpression SimpleName obj
+to struct attributes SimpleName MethodInvocation CastExpression SimpleType SimpleName map
+to struct attributes SimpleName MethodInvocation CastExpression SimpleName obj
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type util
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName to struct attributes
+map SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName obj
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+atlas attribute def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute def
+struct def SimpleName MethodInvocation SimpleName get attribute defs
+attribute def SimpleName MethodInvocation SimpleName get name
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+map SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+is assignable value SimpleName MethodInvocation MethodInvocation SimpleName map
+is assignable value SimpleName MethodInvocation MethodInvocation SimpleName get
+is assignable value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+is assignable value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+is assignable value SimpleName MethodInvocation SimpleName attribute def
+map SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+get SimpleName MethodInvocation MethodInvocation SimpleName attribute def
+attribute def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName struct def
+attribute def SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get attribute defs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is valid value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is valid value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is valid value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+is valid value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+is valid value SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

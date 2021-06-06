@@ -1,0 +1,84 @@
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertex
+vertex SimpleName MethodInvocation SimpleName get property values
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantstrait names property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+vertex SimpleName MethodInvocation MethodInvocation SimpleName size
+get property values SimpleName MethodInvocation MethodInvocation SimpleName size
+constantstrait names property key QualifiedName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property values
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get property values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+vertex SimpleName MethodInvocation SimpleName get property keys
+vertex SimpleName MethodInvocation MethodInvocation SimpleName contains
+get property keys SimpleName MethodInvocation MethodInvocation SimpleName contains
+vertex SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+get property keys SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+contains SimpleName MethodInvocation QualifiedName constantstrait names property key
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertex
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property keys
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName constantstrait names property key
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+vertex SimpleName MethodInvocation SimpleName get property values
+vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantstrait names property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property values
+trait names SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstrait names property key
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation StringLiteral trait
+contains SimpleName MethodInvocation StringLiteral trait
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral trait
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation StringLiteral trait
+contains SimpleName MethodInvocation StringLiteral trait
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral trait
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate duplicate property vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName validate duplicate property vertex
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName vertex
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName validate duplicate property vertex
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SimpleName validate duplicate property vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+validate duplicate property vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate duplicate property vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate duplicate property vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

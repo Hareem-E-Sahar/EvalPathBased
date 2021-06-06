@@ -1,0 +1,132 @@
+notification type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName messages
+topic map SimpleName MethodInvocation SimpleName get
+topic map SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName topic map
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+topic SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName topic
+future SimpleName SimpleType ParameterizedType SimpleType SimpleName record metadata
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName topic
+producer record SimpleName SimpleType ClassInstanceCreation SimpleName message
+topic SimpleName ClassInstanceCreation SimpleName message
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName producer record
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName topic
+record SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName message
+producer record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName record
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sending message for topic {}: {}
+log SimpleName MethodInvocation SimpleName topic
+log SimpleName MethodInvocation SimpleName message
+debug SimpleName MethodInvocation StringLiteral sending message for topic {}: {}
+debug SimpleName MethodInvocation SimpleName topic
+debug SimpleName MethodInvocation SimpleName message
+sending message for topic {}: {} StringLiteral MethodInvocation SimpleName topic
+sending message for topic {}: {} StringLiteral MethodInvocation SimpleName message
+topic SimpleName MethodInvocation SimpleName message
+producer SimpleName MethodInvocation SimpleName send
+producer SimpleName MethodInvocation SimpleName record
+send SimpleName MethodInvocation SimpleName record
+futures SimpleName MethodInvocation SimpleName add
+futures SimpleName MethodInvocation MethodInvocation SimpleName producer
+futures SimpleName MethodInvocation MethodInvocation SimpleName send
+futures SimpleName MethodInvocation MethodInvocation SimpleName record
+add SimpleName MethodInvocation MethodInvocation SimpleName producer
+add SimpleName MethodInvocation MethodInvocation SimpleName send
+add SimpleName MethodInvocation MethodInvocation SimpleName record
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName messages
+message SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName messages
+future SimpleName SimpleType ParameterizedType SimpleType SimpleName record metadata
+future SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName future
+record metadata SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName future
+future SimpleName MethodInvocation SimpleName get
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName future
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+record metadata SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName topic
+response SimpleName MethodInvocation SimpleName partition
+response SimpleName MethodInvocation SimpleName offset
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sent message for topic - {} partition - {} offset - {}
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName topic
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName partition
+log SimpleName MethodInvocation MethodInvocation SimpleName response
+log SimpleName MethodInvocation MethodInvocation SimpleName offset
+debug SimpleName MethodInvocation StringLiteral sent message for topic - {} partition - {} offset - {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName topic
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName partition
+debug SimpleName MethodInvocation MethodInvocation SimpleName response
+debug SimpleName MethodInvocation MethodInvocation SimpleName offset
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName topic
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName partition
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName response
+sent message for topic - {} partition - {} offset - {} StringLiteral MethodInvocation MethodInvocation SimpleName offset
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName partition
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+topic SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+partition SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offset
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+notification exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+future SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName futures
+messages SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName futures
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName send internal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName send internal
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier MethodDeclaration SimpleType SimpleName notification exception
+void PrimitiveType MethodDeclaration SimpleName send internal
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName messages
+void PrimitiveType MethodDeclaration SimpleType SimpleName notification exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName messages
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName futures
+send internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName notification type
+send internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+send internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+send internal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName messages
+send internal SimpleName MethodDeclaration SimpleType SimpleName notification exception
+send internal SimpleName MethodDeclaration Block EnhancedForStatement SimpleName messages
+send internal SimpleName MethodDeclaration Block EnhancedForStatement SimpleName futures
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+messages SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName notification exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName send internal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName send internal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName messages
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName notification exception

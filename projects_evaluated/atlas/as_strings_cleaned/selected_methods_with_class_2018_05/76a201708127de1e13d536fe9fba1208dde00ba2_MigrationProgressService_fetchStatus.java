@@ -1,0 +1,25 @@
+system SimpleName MethodInvocation SimpleName current time millis
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+reset cache SimpleName MethodInvocation SimpleName current time
+migrator SimpleName MethodInvocation SimpleName get migration status
+cached status SimpleName Assignment MethodInvocation SimpleName migrator
+cached status SimpleName Assignment MethodInvocation SimpleName get migration status
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cached status
+private Modifier MethodDeclaration SimpleType SimpleName migration status
+private Modifier MethodDeclaration SimpleName fetch status
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block ReturnStatement SimpleName cached status
+migration status SimpleName SimpleType MethodDeclaration SimpleName fetch status
+fetch status SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+fetch status SimpleName MethodDeclaration Block ReturnStatement SimpleName cached status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+public Modifier TypeDeclaration MethodDeclaration SimpleName fetch status
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName migration status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fetch status

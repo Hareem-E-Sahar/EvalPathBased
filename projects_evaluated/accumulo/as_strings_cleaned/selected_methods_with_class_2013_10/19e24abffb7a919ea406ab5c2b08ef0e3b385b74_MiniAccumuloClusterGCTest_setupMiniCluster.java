@@ -1,0 +1,138 @@
+tmp dir SimpleName MethodInvocation SimpleName create
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+get logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName levelerror
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName levelerror
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation QualifiedName levelerror
+set level SimpleName MethodInvocation QualifiedName levelerror
+tmp dir SimpleName MethodInvocation SimpleName get root
+mini accumulo config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tmp dir
+mini accumulo config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root
+mini accumulo config SimpleName SimpleType ClassInstanceCreation SimpleName passwd
+tmp dir SimpleName MethodInvocation ClassInstanceCreation SimpleName passwd
+get root SimpleName MethodInvocation ClassInstanceCreation SimpleName passwd
+mac config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mini accumulo config
+mac config SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName tmp dir
+mac config SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get root
+mac config SimpleName Assignment ClassInstanceCreation SimpleName passwd
+mac config SimpleName MethodInvocation SimpleName set num tservers
+mac config SimpleName MethodInvocation NumberLiteral empty
+set num tservers SimpleName MethodInvocation NumberLiteral empty
+mac config SimpleName MethodInvocation SimpleName run gc
+mac config SimpleName MethodInvocation BooleanLiteral true
+run gc SimpleName MethodInvocation BooleanLiteral true
+port utils SimpleName MethodInvocation SimpleName get random free port
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation MethodInvocation SimpleName port utils
+integer SimpleName MethodInvocation MethodInvocation SimpleName get random free port
+to string SimpleName MethodInvocation MethodInvocation SimpleName port utils
+to string SimpleName MethodInvocation MethodInvocation SimpleName get random free port
+gc port SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+gc port SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+gc port SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName port utils
+gc port SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get random free port
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc port
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+propertygc cycle delay QualifiedName MethodInvocation SimpleName get key
+propertygc cycle start QualifiedName MethodInvocation SimpleName get key
+propertygc port QualifiedName MethodInvocation SimpleName get key
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle delay
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName get key
+immutable map SimpleName MethodInvocation StringLiteral s
+immutable map SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName get key
+immutable map SimpleName MethodInvocation StringLiteral s
+of SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle delay
+of SimpleName MethodInvocation MethodInvocation SimpleName get key
+of SimpleName MethodInvocation StringLiteral s
+of SimpleName MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+of SimpleName MethodInvocation MethodInvocation SimpleName get key
+of SimpleName MethodInvocation StringLiteral s
+of SimpleName MethodInvocation MethodInvocation QualifiedName propertygc port
+of SimpleName MethodInvocation MethodInvocation SimpleName get key
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation StringLiteral s
+get key SimpleName MethodInvocation MethodInvocation StringLiteral s
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation StringLiteral s
+get key SimpleName MethodInvocation MethodInvocation StringLiteral s
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc port
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc port
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+propertygc cycle delay QualifiedName MethodInvocation MethodInvocation SimpleName gc port
+get key SimpleName MethodInvocation MethodInvocation SimpleName gc port
+s StringLiteral MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+s StringLiteral MethodInvocation MethodInvocation SimpleName get key
+s StringLiteral MethodInvocation StringLiteral s
+s StringLiteral MethodInvocation MethodInvocation QualifiedName propertygc port
+s StringLiteral MethodInvocation MethodInvocation SimpleName get key
+s StringLiteral MethodInvocation SimpleName gc port
+propertygc cycle start QualifiedName MethodInvocation MethodInvocation StringLiteral s
+get key SimpleName MethodInvocation MethodInvocation StringLiteral s
+propertygc cycle start QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc port
+propertygc cycle start QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygc port
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+propertygc cycle start QualifiedName MethodInvocation MethodInvocation SimpleName gc port
+get key SimpleName MethodInvocation MethodInvocation SimpleName gc port
+s StringLiteral MethodInvocation MethodInvocation QualifiedName propertygc port
+s StringLiteral MethodInvocation MethodInvocation SimpleName get key
+s StringLiteral MethodInvocation SimpleName gc port
+propertygc port QualifiedName MethodInvocation MethodInvocation SimpleName gc port
+get key SimpleName MethodInvocation MethodInvocation SimpleName gc port
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable map
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertygc cycle delay
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+config SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertygc cycle start
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+config SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertygc port
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName gc port
+mac config SimpleName MethodInvocation SimpleName set site config
+mac config SimpleName MethodInvocation SimpleName config
+set site config SimpleName MethodInvocation SimpleName config
+mini accumulo cluster SimpleName SimpleType ClassInstanceCreation SimpleName mac config
+accumulo SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mini accumulo cluster
+accumulo SimpleName Assignment ClassInstanceCreation SimpleName mac config
+accumulo SimpleName MethodInvocation SimpleName start
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup mini cluster
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup mini cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup mini cluster
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup mini cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup mini cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

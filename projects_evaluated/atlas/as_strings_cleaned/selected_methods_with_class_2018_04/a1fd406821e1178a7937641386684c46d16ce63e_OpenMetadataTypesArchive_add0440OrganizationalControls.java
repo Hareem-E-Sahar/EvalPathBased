@@ -1,0 +1,34 @@
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add enum def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get business capability type enum
+add enum def SimpleName MethodInvocation MethodInvocation SimpleName get business capability type enum
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get organization entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get organization entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get business capability entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get business capability entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance responsibility entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance responsibility entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add entity def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get governance procedure entity
+add entity def SimpleName MethodInvocation MethodInvocation SimpleName get governance procedure entity
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get organization capability relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get organization capability relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get responsibility staff contact relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get responsibility staff contact relationship
+archive builder SimpleName FieldAccess MethodInvocation SimpleName add relationship def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get business capability responsibility relationship
+add relationship def SimpleName MethodInvocation MethodInvocation SimpleName get business capability responsibility relationship
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add organizational controls
+void PrimitiveType MethodDeclaration SimpleName add organizational controls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add organizational controls
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add organizational controls

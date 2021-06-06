@@ -1,0 +1,146 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName interruptible iterator
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files
+boolean PrimitiveType SingleVariableDeclaration SimpleName detachable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+files SimpleName MethodInvocation SimpleName key set
+open files SimpleName MethodInvocation MethodInvocation SimpleName files
+open files SimpleName MethodInvocation MethodInvocation SimpleName key set
+newly reserved readers SimpleName VariableDeclarationFragment MethodInvocation SimpleName open files
+newly reserved readers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName files
+newly reserved readers SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName interruptible iterator
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName interruptible iterator
+file skv iterator SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+get reserved reade filename SimpleName MethodInvocation SimpleName reader
+filename SimpleName VariableDeclarationFragment MethodInvocation SimpleName get reserved reade filename
+filename SimpleName VariableDeclarationFragment MethodInvocation SimpleName reader
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+interruptible iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+file data source SimpleName SimpleType ClassInstanceCreation SimpleName filename
+file data source SimpleName SimpleType ClassInstanceCreation SimpleName reader
+filename SimpleName ClassInstanceCreation SimpleName reader
+fds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file data source
+fds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName filename
+fds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName reader
+file data source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fds
+data sources SimpleName MethodInvocation SimpleName add
+data sources SimpleName MethodInvocation SimpleName fds
+add SimpleName MethodInvocation SimpleName fds
+source switching iterator SimpleName SimpleType ClassInstanceCreation SimpleName fds
+ssi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName source switching iterator
+ssi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fds
+source switching iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssi
+tablet SimpleName MethodInvocation SimpleName get table id
+tablet SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName filename
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName continue on failure
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName ssi
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName filename
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName filename
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName continue on failure
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName continue on failure
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName continue on failure
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName ssi
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName ssi
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName ssi
+filename SimpleName ClassInstanceCreation SimpleName continue on failure
+filename SimpleName ClassInstanceCreation SimpleName ssi
+continue on failure SimpleName ClassInstanceCreation SimpleName ssi
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName problem reporting iterator
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+iter SimpleName Assignment ClassInstanceCreation SimpleName filename
+iter SimpleName Assignment ClassInstanceCreation SimpleName continue on failure
+iter SimpleName Assignment ClassInstanceCreation SimpleName ssi
+tablet SimpleName MethodInvocation SimpleName get table id
+tablet SimpleName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName filename
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName continue on failure
+problem reporting iterator SimpleName SimpleType ClassInstanceCreation SimpleName reader
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName filename
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName filename
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName continue on failure
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName continue on failure
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName continue on failure
+tablet SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reader
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName reader
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName reader
+filename SimpleName ClassInstanceCreation SimpleName continue on failure
+filename SimpleName ClassInstanceCreation SimpleName reader
+continue on failure SimpleName ClassInstanceCreation SimpleName reader
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName problem reporting iterator
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+iter SimpleName Assignment ClassInstanceCreation SimpleName filename
+iter SimpleName Assignment ClassInstanceCreation SimpleName continue on failure
+iter SimpleName Assignment ClassInstanceCreation SimpleName reader
+files SimpleName MethodInvocation SimpleName get
+files SimpleName MethodInvocation SimpleName filename
+get SimpleName MethodInvocation SimpleName filename
+files SimpleName MethodInvocation MethodInvocation SimpleName is time set
+get SimpleName MethodInvocation MethodInvocation SimpleName is time set
+filename SimpleName MethodInvocation MethodInvocation SimpleName is time set
+files SimpleName MethodInvocation SimpleName get
+files SimpleName MethodInvocation SimpleName filename
+get SimpleName MethodInvocation SimpleName filename
+files SimpleName MethodInvocation MethodInvocation SimpleName get time
+get SimpleName MethodInvocation MethodInvocation SimpleName get time
+filename SimpleName MethodInvocation MethodInvocation SimpleName get time
+time setting iterator SimpleName SimpleType ClassInstanceCreation SimpleName iter
+time setting iterator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get time
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName files
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get
+iter SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName filename
+iter SimpleName ClassInstanceCreation MethodInvocation SimpleName get time
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName time setting iterator
+iter SimpleName Assignment ClassInstanceCreation SimpleName iter
+iter SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get time
+iters SimpleName MethodInvocation SimpleName add
+iters SimpleName MethodInvocation SimpleName iter
+add SimpleName MethodInvocation SimpleName iter
+file skv iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName newly reserved readers
+reader SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName newly reserved readers
+newly reserved readers SimpleName EnhancedForStatement Block IfStatement SimpleName detachable
+newly reserved readers SimpleName EnhancedForStatement Block ReturnStatement SimpleName iters
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName interruptible iterator
+synchronized Modifier MethodDeclaration SimpleName open files
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName files
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName detachable
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName open files
+interruptible iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName open files
+open files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files
+open files SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+open files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName detachable
+open files SimpleName MethodDeclaration SimpleType SimpleName io exception
+open files SimpleName MethodDeclaration Block EnhancedForStatement SimpleName newly reserved readers
+open files SimpleName MethodDeclaration Block ReturnStatement SimpleName iters
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detachable
+files SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+detachable SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName open files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detachable
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detachable
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName asset repository url
+asset repository url SimpleName FieldAccess Assignment SimpleName asset repository url
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set asset repository url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset repository url
+void PrimitiveType MethodDeclaration SimpleName set asset repository url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName asset repository url
+set asset repository url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set asset repository url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset repository url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set asset repository url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset repository url
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set asset repository url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset repository url

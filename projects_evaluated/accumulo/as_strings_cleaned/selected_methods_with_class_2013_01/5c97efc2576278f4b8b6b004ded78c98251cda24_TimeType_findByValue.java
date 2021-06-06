@@ -1,0 +1,41 @@
+int PrimitiveType SingleVariableDeclaration SimpleName value
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName logical
+value SimpleName SwitchStatement SwitchCase NumberLiteral empty
+value SimpleName SwitchStatement ReturnStatement SimpleName millis
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName logical
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName millis
+logical SimpleName ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+logical SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName millis
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement SimpleName millis
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName time type
+public Modifier MethodDeclaration SimpleName find by value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block SwitchStatement SimpleName value
+static Modifier MethodDeclaration SimpleType SimpleName time type
+static Modifier MethodDeclaration SimpleName find by value
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block SwitchStatement SimpleName value
+time type SimpleName SimpleType MethodDeclaration SimpleName find by value
+time type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+time type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+find by value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+find by value SimpleName MethodDeclaration Block SwitchStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName time type
+public Modifier TypeDeclaration MethodDeclaration SimpleName find by value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName time type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find by value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

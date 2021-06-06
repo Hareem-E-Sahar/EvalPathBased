@@ -1,0 +1,32 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName number
+number SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName int value
+val SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName val
+integer SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse int SimpleName MethodInvocation MethodInvocation SimpleName val
+parse int SimpleName MethodInvocation MethodInvocation SimpleName to string
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName as int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName as int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+as int SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+as int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+as int SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName as int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,41 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName gremlin query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName gremlin query
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral not supported in local atlas client
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json array
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName search by gremlin
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration SimpleType SimpleName json array
+public Modifier MethodDeclaration SimpleName search by gremlin
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+json array SimpleName SimpleType MethodDeclaration SimpleName search by gremlin
+json array SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+json array SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+json array SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+search by gremlin SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+search by gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+search by gremlin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+search by gremlin SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+gremlin query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+public Modifier TypeDeclaration MethodDeclaration SimpleName search by gremlin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json array
+test SimpleName TypeDeclaration MethodDeclaration SimpleName search by gremlin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

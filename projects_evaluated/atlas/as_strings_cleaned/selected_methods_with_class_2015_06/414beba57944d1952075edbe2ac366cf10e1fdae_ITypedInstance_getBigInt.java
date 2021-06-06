@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+big integer SimpleName SimpleType MethodDeclaration SimpleName get big int
+big integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+big integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+get big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get big int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get big int SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get big int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get big int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

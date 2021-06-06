@@ -1,0 +1,33 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map file name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reserve map file reader
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName map file name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName reserve map file reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map file name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map file name
+reserve map file reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+map file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName reserve map file reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reserve map file reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

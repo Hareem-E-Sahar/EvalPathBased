@@ -1,0 +1,36 @@
+query params SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+query params SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation QualifiedName test utilstable type
+discovery service SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+discovery service SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+discovery service SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+search by dsl SimpleName MethodInvocation QualifiedName test utilstable type
+search by dsl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+search by dsl SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+search by dsl SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+test utilstable type QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+test utilstable type QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+test utilstable type QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

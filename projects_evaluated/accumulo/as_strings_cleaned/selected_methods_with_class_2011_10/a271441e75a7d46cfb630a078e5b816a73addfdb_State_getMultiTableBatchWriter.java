@@ -1,0 +1,84 @@
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral max mem
+get property SimpleName MethodInvocation StringLiteral max mem
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation SimpleName props
+long SimpleName MethodInvocation MethodInvocation SimpleName get property
+long SimpleName MethodInvocation MethodInvocation StringLiteral max mem
+parse long SimpleName MethodInvocation MethodInvocation SimpleName props
+parse long SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse long SimpleName MethodInvocation MethodInvocation StringLiteral max mem
+max mem SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+max mem SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+max mem SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+max mem SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+max mem SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral max mem
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max mem
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral max latency
+get property SimpleName MethodInvocation StringLiteral max latency
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName props
+integer SimpleName MethodInvocation MethodInvocation SimpleName get property
+integer SimpleName MethodInvocation MethodInvocation StringLiteral max latency
+parse int SimpleName MethodInvocation MethodInvocation SimpleName props
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral max latency
+max latency SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+max latency SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+max latency SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+max latency SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+max latency SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral max latency
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max latency
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation StringLiteral num threads
+get property SimpleName MethodInvocation StringLiteral num threads
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName props
+integer SimpleName MethodInvocation MethodInvocation SimpleName get property
+integer SimpleName MethodInvocation MethodInvocation StringLiteral num threads
+parse int SimpleName MethodInvocation MethodInvocation SimpleName props
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get property
+parse int SimpleName MethodInvocation MethodInvocation StringLiteral num threads
+num threads SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+num threads SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+num threads SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName props
+num threads SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get property
+num threads SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral num threads
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num threads
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+connector SimpleName MethodInvocation SimpleName create multi table batch writer
+connector SimpleName MethodInvocation SimpleName max mem
+connector SimpleName MethodInvocation SimpleName max latency
+connector SimpleName MethodInvocation SimpleName num threads
+create multi table batch writer SimpleName MethodInvocation SimpleName max mem
+create multi table batch writer SimpleName MethodInvocation SimpleName max latency
+create multi table batch writer SimpleName MethodInvocation SimpleName num threads
+max mem SimpleName MethodInvocation SimpleName max latency
+max mem SimpleName MethodInvocation SimpleName num threads
+max latency SimpleName MethodInvocation SimpleName num threads
+mtbw SimpleName Assignment MethodInvocation SimpleName connector
+mtbw SimpleName Assignment MethodInvocation SimpleName create multi table batch writer
+mtbw SimpleName Assignment MethodInvocation SimpleName max mem
+mtbw SimpleName Assignment MethodInvocation SimpleName max latency
+mtbw SimpleName Assignment MethodInvocation SimpleName num threads
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName multi table batch writer
+public Modifier MethodDeclaration SimpleName get multi table batch writer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mtbw
+multi table batch writer SimpleName SimpleType MethodDeclaration SimpleName get multi table batch writer
+get multi table batch writer SimpleName MethodDeclaration Block ReturnStatement SimpleName mtbw
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName multi table batch writer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get multi table batch writer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName multi table batch writer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get multi table batch writer

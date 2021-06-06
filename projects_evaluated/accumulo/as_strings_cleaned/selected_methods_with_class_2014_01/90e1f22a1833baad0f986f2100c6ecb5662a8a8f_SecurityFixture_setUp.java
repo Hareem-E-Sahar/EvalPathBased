@@ -1,0 +1,335 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sec table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName system user name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table user name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sec namespace name
+sec table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName system user name
+sec table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table user name
+sec table name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName sec namespace name
+system user name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName table user name
+system user name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName sec namespace name
+table user name SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName sec namespace name
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+get host name SimpleName MethodInvocation MethodInvocation SimpleName replace all
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral [-.]
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral [-.]
+inet address SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get local host SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get host name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral [-.]
+replace all SimpleName MethodInvocation StringLiteral empty
+[-.] StringLiteral MethodInvocation StringLiteral empty
+hostname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get host name
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace all
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral [-.]
+hostname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral system s
+string SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation StringLiteral system s
+format SimpleName MethodInvocation SimpleName hostname
+system s StringLiteral MethodInvocation SimpleName hostname
+system user name SimpleName Assignment MethodInvocation SimpleName string
+system user name SimpleName Assignment MethodInvocation SimpleName format
+system user name SimpleName Assignment MethodInvocation StringLiteral system s
+system user name SimpleName Assignment MethodInvocation SimpleName hostname
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral table s
+string SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation StringLiteral table s
+format SimpleName MethodInvocation SimpleName hostname
+table s StringLiteral MethodInvocation SimpleName hostname
+table user name SimpleName Assignment MethodInvocation SimpleName string
+table user name SimpleName Assignment MethodInvocation SimpleName format
+table user name SimpleName Assignment MethodInvocation StringLiteral table s
+table user name SimpleName Assignment MethodInvocation SimpleName hostname
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral security s
+string SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation StringLiteral security s
+format SimpleName MethodInvocation SimpleName hostname
+security s StringLiteral MethodInvocation SimpleName hostname
+sec table name SimpleName Assignment MethodInvocation SimpleName string
+sec table name SimpleName Assignment MethodInvocation SimpleName format
+sec table name SimpleName Assignment MethodInvocation StringLiteral security s
+sec table name SimpleName Assignment MethodInvocation SimpleName hostname
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral security ns s
+string SimpleName MethodInvocation SimpleName hostname
+format SimpleName MethodInvocation StringLiteral security ns s
+format SimpleName MethodInvocation SimpleName hostname
+security ns s StringLiteral MethodInvocation SimpleName hostname
+sec namespace name SimpleName Assignment MethodInvocation SimpleName string
+sec namespace name SimpleName Assignment MethodInvocation SimpleName format
+sec namespace name SimpleName Assignment MethodInvocation StringLiteral security ns s
+sec namespace name SimpleName Assignment MethodInvocation SimpleName hostname
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+conn SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+exists SimpleName MethodInvocation SimpleName sec table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+delete SimpleName MethodInvocation SimpleName sec table name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName list local users
+security operations SimpleName MethodInvocation MethodInvocation SimpleName list local users
+users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn
+users SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security operations
+users SimpleName VariableDeclarationFragment MethodInvocation SimpleName list local users
+users SimpleName MethodInvocation SimpleName contains
+users SimpleName MethodInvocation SimpleName table user name
+contains SimpleName MethodInvocation SimpleName table user name
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table user name
+drop local user SimpleName MethodInvocation SimpleName table user name
+users SimpleName MethodInvocation SimpleName contains
+users SimpleName MethodInvocation SimpleName system user name
+contains SimpleName MethodInvocation SimpleName system user name
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName drop local user
+conn SimpleName MethodInvocation MethodInvocation SimpleName system user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName system user name
+drop local user SimpleName MethodInvocation SimpleName system user name
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral sys user
+sys user pass SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName password token
+sys user pass SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral sys user
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sys user pass
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create local user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName create local user
+conn SimpleName MethodInvocation MethodInvocation SimpleName system user name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName system user name
+conn SimpleName MethodInvocation MethodInvocation SimpleName sys user pass
+security operations SimpleName MethodInvocation MethodInvocation SimpleName sys user pass
+create local user SimpleName MethodInvocation SimpleName system user name
+create local user SimpleName MethodInvocation SimpleName sys user pass
+system user name SimpleName MethodInvocation SimpleName sys user pass
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName set table name
+get SimpleName MethodInvocation MethodInvocation SimpleName set table name
+state SimpleName MethodInvocation MethodInvocation SimpleName set table name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+get SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+state SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+set table name SimpleName MethodInvocation SimpleName sec table name
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName set namespace name
+get SimpleName MethodInvocation MethodInvocation SimpleName set namespace name
+state SimpleName MethodInvocation MethodInvocation SimpleName set namespace name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sec namespace name
+get SimpleName MethodInvocation MethodInvocation SimpleName sec namespace name
+state SimpleName MethodInvocation MethodInvocation SimpleName sec namespace name
+set namespace name SimpleName MethodInvocation SimpleName sec namespace name
+state SimpleName MethodInvocation SimpleName get credentials
+state SimpleName MethodInvocation MethodInvocation SimpleName get token
+get credentials SimpleName MethodInvocation MethodInvocation SimpleName get token
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation StringLiteral root user pass
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get credentials
+state SimpleName MethodInvocation MethodInvocation SimpleName get token
+set SimpleName MethodInvocation StringLiteral root user pass
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get credentials
+set SimpleName MethodInvocation MethodInvocation SimpleName get token
+root user pass StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName state
+root user pass StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get credentials
+root user pass StringLiteral MethodInvocation MethodInvocation SimpleName get token
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName set sys user name
+get SimpleName MethodInvocation MethodInvocation SimpleName set sys user name
+state SimpleName MethodInvocation MethodInvocation SimpleName set sys user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName system user name
+get SimpleName MethodInvocation MethodInvocation SimpleName system user name
+state SimpleName MethodInvocation MethodInvocation SimpleName system user name
+set sys user name SimpleName MethodInvocation SimpleName system user name
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName create user
+get SimpleName MethodInvocation MethodInvocation SimpleName create user
+state SimpleName MethodInvocation MethodInvocation SimpleName create user
+walking security SimpleName MethodInvocation MethodInvocation SimpleName system user name
+get SimpleName MethodInvocation MethodInvocation SimpleName system user name
+state SimpleName MethodInvocation MethodInvocation SimpleName system user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sys user pass
+get SimpleName MethodInvocation MethodInvocation SimpleName sys user pass
+state SimpleName MethodInvocation MethodInvocation SimpleName sys user pass
+create user SimpleName MethodInvocation SimpleName system user name
+create user SimpleName MethodInvocation SimpleName sys user pass
+system user name SimpleName MethodInvocation SimpleName sys user pass
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+password token SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+walking security SimpleName MethodInvocation MethodInvocation SimpleName change password
+get SimpleName MethodInvocation MethodInvocation SimpleName change password
+state SimpleName MethodInvocation MethodInvocation SimpleName change password
+walking security SimpleName MethodInvocation MethodInvocation SimpleName table user name
+get SimpleName MethodInvocation MethodInvocation SimpleName table user name
+state SimpleName MethodInvocation MethodInvocation SimpleName table user name
+change password SimpleName MethodInvocation SimpleName table user name
+change password SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+change password SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+table user name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+table user name SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName set tab user name
+get SimpleName MethodInvocation MethodInvocation SimpleName set tab user name
+state SimpleName MethodInvocation MethodInvocation SimpleName set tab user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName table user name
+get SimpleName MethodInvocation MethodInvocation SimpleName table user name
+state SimpleName MethodInvocation MethodInvocation SimpleName table user name
+set tab user name SimpleName MethodInvocation SimpleName table user name
+table permission SimpleName SimpleType SingleVariableDeclaration SimpleName tp
+table permission SimpleName MethodInvocation SimpleName values
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+get SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+state SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+walking security SimpleName MethodInvocation MethodInvocation SimpleName system user name
+get SimpleName MethodInvocation MethodInvocation SimpleName system user name
+state SimpleName MethodInvocation MethodInvocation SimpleName system user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+get SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+state SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName tp
+get SimpleName MethodInvocation MethodInvocation SimpleName tp
+state SimpleName MethodInvocation MethodInvocation SimpleName tp
+revoke table permission SimpleName MethodInvocation SimpleName system user name
+revoke table permission SimpleName MethodInvocation SimpleName sec table name
+revoke table permission SimpleName MethodInvocation SimpleName tp
+system user name SimpleName MethodInvocation SimpleName sec table name
+system user name SimpleName MethodInvocation SimpleName tp
+sec table name SimpleName MethodInvocation SimpleName tp
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+get SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+state SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+walking security SimpleName MethodInvocation MethodInvocation SimpleName table user name
+get SimpleName MethodInvocation MethodInvocation SimpleName table user name
+state SimpleName MethodInvocation MethodInvocation SimpleName table user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+get SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+state SimpleName MethodInvocation MethodInvocation SimpleName sec table name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName tp
+get SimpleName MethodInvocation MethodInvocation SimpleName tp
+state SimpleName MethodInvocation MethodInvocation SimpleName tp
+revoke table permission SimpleName MethodInvocation SimpleName table user name
+revoke table permission SimpleName MethodInvocation SimpleName sec table name
+revoke table permission SimpleName MethodInvocation SimpleName tp
+table user name SimpleName MethodInvocation SimpleName sec table name
+table user name SimpleName MethodInvocation SimpleName tp
+sec table name SimpleName MethodInvocation SimpleName tp
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table permission
+tp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName sp
+system permission SimpleName MethodInvocation SimpleName values
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+get SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+state SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+walking security SimpleName MethodInvocation MethodInvocation SimpleName system user name
+get SimpleName MethodInvocation MethodInvocation SimpleName system user name
+state SimpleName MethodInvocation MethodInvocation SimpleName system user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sp
+get SimpleName MethodInvocation MethodInvocation SimpleName sp
+state SimpleName MethodInvocation MethodInvocation SimpleName sp
+revoke system permission SimpleName MethodInvocation SimpleName system user name
+revoke system permission SimpleName MethodInvocation SimpleName sp
+system user name SimpleName MethodInvocation SimpleName sp
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+get SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+state SimpleName MethodInvocation MethodInvocation SimpleName revoke system permission
+walking security SimpleName MethodInvocation MethodInvocation SimpleName table user name
+get SimpleName MethodInvocation MethodInvocation SimpleName table user name
+state SimpleName MethodInvocation MethodInvocation SimpleName table user name
+walking security SimpleName MethodInvocation MethodInvocation SimpleName sp
+get SimpleName MethodInvocation MethodInvocation SimpleName sp
+state SimpleName MethodInvocation MethodInvocation SimpleName sp
+revoke system permission SimpleName MethodInvocation SimpleName table user name
+revoke system permission SimpleName MethodInvocation SimpleName sp
+table user name SimpleName MethodInvocation SimpleName sp
+sp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+sp SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+walking security SimpleName MethodInvocation SimpleName get
+walking security SimpleName MethodInvocation SimpleName state
+get SimpleName MethodInvocation SimpleName state
+walking security SimpleName MethodInvocation MethodInvocation SimpleName change authorizations
+get SimpleName MethodInvocation MethodInvocation SimpleName change authorizations
+state SimpleName MethodInvocation MethodInvocation SimpleName change authorizations
+walking security SimpleName MethodInvocation MethodInvocation SimpleName table user name
+get SimpleName MethodInvocation MethodInvocation SimpleName table user name
+state SimpleName MethodInvocation MethodInvocation SimpleName table user name
+change authorizations SimpleName MethodInvocation SimpleName table user name
+change authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table user name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set up SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,203 @@
+rpc wrapper SimpleName MethodInvocation SimpleName service
+rpc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpc wrapper
+rpc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+iface SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rpc proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName processor
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName iface
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName processor
+thrift server typesasl QualifiedName InfixExpression MethodInvocation SimpleName get thrift server type
+t credentials updating wrapper SimpleName MethodInvocation SimpleName service
+t credentials updating wrapper SimpleName MethodInvocation SimpleName rpc proxy
+t credentials updating wrapper SimpleName MethodInvocation MethodInvocation SimpleName get class
+service SimpleName MethodInvocation SimpleName rpc proxy
+service SimpleName MethodInvocation MethodInvocation SimpleName get class
+rpc proxy SimpleName MethodInvocation MethodInvocation SimpleName get class
+tc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName t credentials updating wrapper
+tc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+tc proxy SimpleName VariableDeclarationFragment MethodInvocation SimpleName rpc proxy
+tc proxy SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+iface SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tc proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+processor SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName tc proxy
+iface SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName tc proxy
+processor SimpleName Assignment ClassInstanceCreation SimpleName tc proxy
+processor SimpleName SimpleType ParameterizedType SimpleType SimpleName iface
+processor SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rpc proxy
+iface SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName rpc proxy
+processor SimpleName Assignment ClassInstanceCreation SimpleName rpc proxy
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get port
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygc port
+get port SimpleName MethodInvocation QualifiedName propertygc port
+port SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+port SimpleName VariableDeclarationFragment MethodInvocation SimpleName get port
+port SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygc port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get port
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertygc port
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get memory in bytes
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral max message size
+get memory in bytes SimpleName MethodInvocation QualifiedName propertygeneral max message size
+max message size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get configuration
+max message size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+max message size SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral max message size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max message size
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get memory in bytes
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName propertygeneral max message size
+opts SimpleName MethodInvocation SimpleName get address
+host and port SimpleName MethodInvocation SimpleName from parts
+host and port SimpleName MethodInvocation MethodInvocation SimpleName opts
+host and port SimpleName MethodInvocation MethodInvocation SimpleName get address
+host and port SimpleName MethodInvocation SimpleName port
+from parts SimpleName MethodInvocation MethodInvocation SimpleName opts
+from parts SimpleName MethodInvocation MethodInvocation SimpleName get address
+from parts SimpleName MethodInvocation SimpleName port
+opts SimpleName MethodInvocation MethodInvocation SimpleName port
+get address SimpleName MethodInvocation MethodInvocation SimpleName port
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName host and port
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName from parts
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get address
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName port
+host and port SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+starting garbage collector listening on StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral starting garbage collector listening on
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral starting garbage collector listening on
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get count
+get configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+get count SimpleName MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+t server utils SimpleName MethodInvocation SimpleName start t server
+t server utils SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+t server utils SimpleName MethodInvocation SimpleName result
+t server utils SimpleName MethodInvocation MethodInvocation SimpleName get thrift server type
+t server utils SimpleName MethodInvocation SimpleName processor
+start t server SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+start t server SimpleName MethodInvocation SimpleName result
+start t server SimpleName MethodInvocation MethodInvocation SimpleName get thrift server type
+start t server SimpleName MethodInvocation SimpleName processor
+start t server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+start t server SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName result
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get thrift server type
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName processor
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+get configuration SimpleName MethodInvocation MethodInvocation StringLiteral gc monitor service
+result SimpleName MethodInvocation MethodInvocation SimpleName get thrift server type
+result SimpleName MethodInvocation SimpleName processor
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+result SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+result SimpleName MethodInvocation StringLiteral gc monitor service
+result SimpleName MethodInvocation NumberLiteral empty
+get thrift server type SimpleName MethodInvocation MethodInvocation SimpleName processor
+get thrift server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get simple name
+get thrift server type SimpleName MethodInvocation MethodInvocation StringLiteral gc monitor service
+get thrift server type SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get thrift server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get count
+get thrift server type SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+processor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+processor SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+processor SimpleName MethodInvocation StringLiteral gc monitor service
+processor SimpleName MethodInvocation NumberLiteral empty
+processor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get configuration
+processor SimpleName MethodInvocation MethodInvocation SimpleName get count
+processor SimpleName MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+processor SimpleName MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral gc monitor service
+get simple name SimpleName MethodInvocation MethodInvocation StringLiteral gc monitor service
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get count
+get simple name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get simple name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max message size
+get simple name SimpleName MethodInvocation MethodInvocation SimpleName max message size
+gc monitor service StringLiteral MethodInvocation NumberLiteral empty
+gc monitor service StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get configuration
+gc monitor service StringLiteral MethodInvocation MethodInvocation SimpleName get count
+gc monitor service StringLiteral MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+gc monitor service StringLiteral MethodInvocation NumberLiteral empty
+gc monitor service StringLiteral MethodInvocation SimpleName max message size
+gc monitor service StringLiteral MethodInvocation MethodInvocation SimpleName get server ssl params
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get configuration
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get count
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName propertygeneral simpletimer threadpool size
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName max message size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get server ssl params
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get server sasl params
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get count SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max message size
+get count SimpleName MethodInvocation MethodInvocation SimpleName max message size
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation SimpleName max message size
+get count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server ssl params
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get server ssl params
+get count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server sasl params
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get server sasl params
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get count SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName max message size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get server ssl params
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get server sasl params
+empty NumberLiteral MethodInvocation NumberLiteral empty
+max message size SimpleName MethodInvocation MethodInvocation SimpleName get server ssl params
+max message size SimpleName MethodInvocation MethodInvocation SimpleName get server sasl params
+max message size SimpleName MethodInvocation NumberLiteral empty
+get server ssl params SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server sasl params
+get server ssl params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get server sasl params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+t server utils SimpleName MethodInvocation FieldAccess SimpleName address
+start t server SimpleName MethodInvocation FieldAccess SimpleName address
+get configuration SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+result SimpleName MethodInvocation FieldAccess SimpleName address
+get thrift server type SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+processor SimpleName MethodInvocation FieldAccess SimpleName address
+get simple name SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+gc monitor service StringLiteral MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+get count SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+propertygeneral simpletimer threadpool size QualifiedName MethodInvocation MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+max message size SimpleName MethodInvocation FieldAccess SimpleName address
+get server ssl params SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+get server sasl params SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName address
+empty NumberLiteral MethodInvocation FieldAccess SimpleName address
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+fatal SimpleName MethodInvocation SimpleName ex
+fatal SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration SimpleType SimpleName host and port
+private Modifier MethodDeclaration SimpleName start stats service
+private Modifier MethodDeclaration SimpleType SimpleName unknown host exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+host and port SimpleName SimpleType MethodDeclaration SimpleName start stats service
+host and port SimpleName SimpleType MethodDeclaration SimpleType SimpleName unknown host exception
+start stats service SimpleName MethodDeclaration SimpleType SimpleName unknown host exception
+start stats service SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+start stats service SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+start stats service SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+public Modifier TypeDeclaration MethodDeclaration SimpleName start stats service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host and port
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start stats service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown host exception

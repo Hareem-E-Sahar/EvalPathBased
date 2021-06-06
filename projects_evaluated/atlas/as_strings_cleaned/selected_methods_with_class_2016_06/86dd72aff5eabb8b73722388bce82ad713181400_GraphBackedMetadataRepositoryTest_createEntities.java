@@ -1,0 +1,27 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instances
+request context SimpleName MethodInvocation SimpleName create context
+repository service SimpleName MethodInvocation SimpleName create entities
+repository service SimpleName MethodInvocation SimpleName instances
+create entities SimpleName MethodInvocation SimpleName instances
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instances
+private Modifier MethodDeclaration SimpleType SimpleName exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entities
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entities
+create entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+create entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instances
+create entities SimpleName MethodDeclaration SimpleType SimpleName exception
+instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

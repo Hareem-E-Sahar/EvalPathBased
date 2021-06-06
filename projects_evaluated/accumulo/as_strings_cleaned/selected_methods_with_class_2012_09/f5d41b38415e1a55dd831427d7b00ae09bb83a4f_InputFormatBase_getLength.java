@@ -1,0 +1,125 @@
+range SimpleName MethodInvocation SimpleName is infinite start key
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer QualifiedName bytemin value
+range SimpleName MethodInvocation SimpleName get start key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get start key SimpleName MethodInvocation MethodInvocation SimpleName get row
+range SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get row
+is infinite start key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get row
+start row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName range
+start row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is infinite start key
+start row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start row
+range SimpleName MethodInvocation SimpleName is infinite stop key
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer QualifiedName bytemax value
+range SimpleName MethodInvocation SimpleName get end key
+range SimpleName MethodInvocation MethodInvocation SimpleName get row
+get end key SimpleName MethodInvocation MethodInvocation SimpleName get row
+range SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get row
+is infinite stop key SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get row
+stop row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName range
+stop row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is infinite stop key
+stop row SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop row
+start row SimpleName MethodInvocation SimpleName get length
+stop row SimpleName MethodInvocation SimpleName get length
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName start row
+math SimpleName MethodInvocation MethodInvocation SimpleName get length
+math SimpleName MethodInvocation MethodInvocation SimpleName stop row
+math SimpleName MethodInvocation MethodInvocation SimpleName get length
+min SimpleName MethodInvocation MethodInvocation SimpleName start row
+min SimpleName MethodInvocation MethodInvocation SimpleName get length
+min SimpleName MethodInvocation MethodInvocation SimpleName stop row
+min SimpleName MethodInvocation MethodInvocation SimpleName get length
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stop row
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stop row
+get length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation MethodInvocation SimpleName math
+math SimpleName MethodInvocation MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stop row
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+min SimpleName MethodInvocation NumberLiteral empty
+min SimpleName MethodInvocation MethodInvocation SimpleName math
+min SimpleName MethodInvocation MethodInvocation SimpleName min
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stop row
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName math
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName min
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName start row
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName stop row
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+max common SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+max common SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+max common SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+max common SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName math
+max common SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max common
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+diff SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName diff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+start row SimpleName MethodInvocation SimpleName get bytes
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName start row
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+stop row SimpleName MethodInvocation SimpleName get bytes
+stop SimpleName VariableDeclarationFragment MethodInvocation SimpleName stop row
+stop SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max common
+start SimpleName ArrayAccess SimpleName i
+stop SimpleName ArrayAccess SimpleName i
+start SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName stop
+start SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName i
+i SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName stop
+i SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName i
+diff SimpleName Assignment InfixExpression NumberLiteral xff
+diff SimpleName Assignment QualifiedName bytesize
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max common
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+max common SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+start row SimpleName MethodInvocation SimpleName get length
+stop row SimpleName MethodInvocation SimpleName get length
+start row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stop row
+start row SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stop row
+get length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get length
+diff SimpleName Assignment NumberLiteral xff
+diff SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get length
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration SimpleName get length
+long PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get length SimpleName MethodDeclaration SimpleType SimpleName io exception
+get length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

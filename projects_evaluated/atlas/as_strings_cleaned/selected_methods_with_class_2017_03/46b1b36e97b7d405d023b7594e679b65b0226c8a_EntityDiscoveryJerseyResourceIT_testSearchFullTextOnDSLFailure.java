@@ -1,0 +1,44 @@
+query SimpleName VariableDeclarationFragment StringLiteral *
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral *
+atlas client v SimpleName MethodInvocation SimpleName full text search
+atlas client v SimpleName MethodInvocation SimpleName query
+full text search SimpleName MethodInvocation SimpleName query
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName full text search
+search result SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+atlas search result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search result
+assert not null SimpleName MethodInvocation SimpleName search result
+search result SimpleName MethodInvocation SimpleName get query text
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName search result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get query text
+assert equals SimpleName MethodInvocation SimpleName query
+search result SimpleName MethodInvocation MethodInvocation SimpleName query
+get query text SimpleName MethodInvocation MethodInvocation SimpleName query
+search result SimpleName MethodInvocation SimpleName get query type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName search result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get query type
+assert equals SimpleName MethodInvocation QualifiedName atlas query typefull text
+search result SimpleName MethodInvocation MethodInvocation QualifiedName atlas query typefull text
+get query type SimpleName MethodInvocation MethodInvocation QualifiedName atlas query typefull text
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test search full text on dsl failure
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search full text on dsl failure
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search full text on dsl failure
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search full text on dsl failure SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search full text on dsl failure
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search full text on dsl failure
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,199 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+create SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation StringLiteral test
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+test StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral col
+m SimpleName MethodInvocation StringLiteral test
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral col
+put SimpleName MethodInvocation StringLiteral test
+cf StringLiteral MethodInvocation StringLiteral col
+cf StringLiteral MethodInvocation StringLiteral test
+col StringLiteral MethodInvocation StringLiteral test
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+scan check SimpleName MethodInvocation SimpleName c
+scan check SimpleName MethodInvocation StringLiteral test
+c SimpleName MethodInvocation StringLiteral test
+cached configuration SimpleName MethodInvocation SimpleName get instance
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+file system SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get SimpleName MethodInvocation MethodInvocation SimpleName cached configuration
+get SimpleName MethodInvocation MethodInvocation SimpleName get instance
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName file system
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cached configuration
+fs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+root path SimpleName MethodInvocation InfixExpression StringLiteral libtestjar
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral libtestjar
+jar path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+jar path SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral libtestjar
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jar path
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral systemautotest combiner xjar
+get property SimpleName MethodInvocation InfixExpression StringLiteral systemautotest combiner xjar
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral systemautotest combiner xjar
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner xjar
+fs SimpleName MethodInvocation SimpleName copy from local file
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner xjar
+fs SimpleName MethodInvocation SimpleName jar path
+copy from local file SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+copy from local file SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner xjar
+copy from local file SimpleName MethodInvocation SimpleName jar path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName jar path
+systemautotest combiner xjar StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName jar path
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral test combiner
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral orgapacheaccumulotestfunctionaltest combiner
+empty NumberLiteral ClassInstanceCreation StringLiteral test combiner
+empty NumberLiteral ClassInstanceCreation StringLiteral orgapacheaccumulotestfunctionaltest combiner
+test combiner StringLiteral ClassInstanceCreation StringLiteral orgapacheaccumulotestfunctionaltest combiner
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+is SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+is SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test combiner
+is SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral orgapacheaccumulotestfunctionaltest combiner
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+iterator settingcolumn QualifiedName SimpleType ClassInstanceCreation StringLiteral cf
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName iterator settingcolumn
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName iterator settingcolumn
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+combiner SimpleName MethodInvocation SimpleName set columns
+combiner SimpleName MethodInvocation SimpleName is
+combiner SimpleName MethodInvocation MethodInvocation SimpleName collections
+combiner SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+set columns SimpleName MethodInvocation SimpleName is
+set columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+set columns SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set columns SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+is SimpleName MethodInvocation MethodInvocation SimpleName collections
+is SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+is SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral cf
+c SimpleName MethodInvocation SimpleName table operations
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation QualifiedName iterator scopescan
+of SimpleName MethodInvocation QualifiedName iterator scopescan
+c SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+c SimpleName MethodInvocation MethodInvocation StringLiteral test
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral test
+c SimpleName MethodInvocation MethodInvocation SimpleName is
+table operations SimpleName MethodInvocation MethodInvocation SimpleName is
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName iterator scopescan
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName iterator scopescan
+attach iterator SimpleName MethodInvocation StringLiteral test
+attach iterator SimpleName MethodInvocation SimpleName is
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName enum set
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName of
+attach iterator SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+test StringLiteral MethodInvocation SimpleName is
+test StringLiteral MethodInvocation MethodInvocation SimpleName enum set
+test StringLiteral MethodInvocation MethodInvocation SimpleName of
+test StringLiteral MethodInvocation MethodInvocation QualifiedName iterator scopescan
+is SimpleName MethodInvocation MethodInvocation SimpleName enum set
+is SimpleName MethodInvocation MethodInvocation SimpleName of
+is SimpleName MethodInvocation MethodInvocation QualifiedName iterator scopescan
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+scan check SimpleName MethodInvocation SimpleName c
+scan check SimpleName MethodInvocation StringLiteral test x
+c SimpleName MethodInvocation StringLiteral test x
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName jar path
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName jar path
+delete SimpleName MethodInvocation BooleanLiteral true
+jar path SimpleName MethodInvocation BooleanLiteral true
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral systemautotest combiner yjar
+get property SimpleName MethodInvocation InfixExpression StringLiteral systemautotest combiner yjar
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral systemautotest combiner yjar
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner yjar
+fs SimpleName MethodInvocation SimpleName copy from local file
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner yjar
+fs SimpleName MethodInvocation SimpleName jar path
+copy from local file SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+copy from local file SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral systemautotest combiner yjar
+copy from local file SimpleName MethodInvocation SimpleName jar path
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName jar path
+systemautotest combiner yjar StringLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName jar path
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+scan check SimpleName MethodInvocation SimpleName c
+scan check SimpleName MethodInvocation StringLiteral test y
+c SimpleName MethodInvocation StringLiteral test y
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

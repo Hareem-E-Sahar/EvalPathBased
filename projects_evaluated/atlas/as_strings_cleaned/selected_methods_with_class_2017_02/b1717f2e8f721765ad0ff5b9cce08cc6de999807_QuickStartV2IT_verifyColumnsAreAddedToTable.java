@@ -1,0 +1,68 @@
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+table SimpleName MethodInvocation SimpleName get attributes
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+table attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName map
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName map
+table attributes SimpleName MethodInvocation SimpleName get
+table attributes SimpleName MethodInvocation StringLiteral columns
+get SimpleName MethodInvocation StringLiteral columns
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table attributes
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral columns
+columns SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName columns
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+map SimpleName SimpleType SingleVariableDeclaration SimpleName col map
+col map SimpleName MethodInvocation SimpleName get
+col map SimpleName MethodInvocation StringLiteral guid
+get SimpleName MethodInvocation StringLiteral guid
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName col map
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral guid
+col guid SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+col guid SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName col map
+col guid SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+col guid SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col guid
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation SimpleName col guid
+from string SimpleName MethodInvocation SimpleName col guid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName uuid
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName from string
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName col guid
+map SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns
+col map SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify columns are added to table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName columns
+void PrimitiveType MethodDeclaration SimpleName verify columns are added to table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName columns
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify columns are added to table SimpleName MethodDeclaration SimpleType SimpleName json exception
+verify columns are added to table SimpleName MethodDeclaration Block EnhancedForStatement SimpleName columns
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

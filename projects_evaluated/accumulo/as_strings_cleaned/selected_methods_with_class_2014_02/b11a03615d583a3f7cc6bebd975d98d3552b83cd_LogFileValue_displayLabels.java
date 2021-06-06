@@ -1,0 +1,55 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName labels
+string SimpleName SimpleType ClassInstanceCreation SimpleName labels
+string SimpleName SimpleType ClassInstanceCreation QualifiedName constantsutf
+labels SimpleName ClassInstanceCreation QualifiedName constantsutf
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName labels
+s SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsutf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName replace
+s SimpleName MethodInvocation StringLiteral &
+s SimpleName MethodInvocation StringLiteral &
+replace SimpleName MethodInvocation StringLiteral &
+replace SimpleName MethodInvocation StringLiteral &
+& StringLiteral MethodInvocation StringLiteral &
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName replace
+s SimpleName Assignment MethodInvocation StringLiteral &
+s SimpleName Assignment MethodInvocation StringLiteral &
+s SimpleName MethodInvocation SimpleName replace
+s SimpleName MethodInvocation StringLiteral 
+s SimpleName MethodInvocation StringLiteral 
+replace SimpleName MethodInvocation StringLiteral 
+replace SimpleName MethodInvocation StringLiteral 
+ StringLiteral MethodInvocation StringLiteral 
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName replace
+s SimpleName Assignment MethodInvocation StringLiteral 
+s SimpleName Assignment MethodInvocation StringLiteral 
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName display labels
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName labels
+private Modifier MethodDeclaration Block ReturnStatement SimpleName s
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName display labels
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName labels
+static Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName display labels
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName labels
+display labels SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+display labels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName labels
+display labels SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName display labels
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName labels
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display labels
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName labels

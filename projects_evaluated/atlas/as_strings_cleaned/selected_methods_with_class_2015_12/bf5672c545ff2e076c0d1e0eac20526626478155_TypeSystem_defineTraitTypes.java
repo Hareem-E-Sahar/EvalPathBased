@@ -1,0 +1,93 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait defs
+trait type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait defs
+immutable list SimpleName MethodInvocation SimpleType SimpleName enum type definition
+immutable list SimpleName MethodInvocation SimpleName of
+enum type definition SimpleName SimpleType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleType SimpleName struct type definition
+immutable list SimpleName MethodInvocation SimpleName of
+struct type definition SimpleName SimpleType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation SimpleName trait defs
+copy of SimpleName MethodInvocation SimpleName trait defs
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName hierarchical type definition
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+class type SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName copy of
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName trait defs
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient type system SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait defs
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy of
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait defs
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait defs
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy of
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName trait defs
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+copy of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+copy of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+trait defs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable list
+trait defs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transient type system
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName of
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName of
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName copy of
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName trait defs
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName immutable list
+transient types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName of
+transient type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transient types
+transient types SimpleName MethodInvocation SimpleName define types
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i data type
+public Modifier MethodDeclaration SimpleName define trait types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait defs
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName define trait types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName define trait types
+i data type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName define trait types
+define trait types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait defs
+define trait types SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+trait defs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName define trait types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait defs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define trait types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait defs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

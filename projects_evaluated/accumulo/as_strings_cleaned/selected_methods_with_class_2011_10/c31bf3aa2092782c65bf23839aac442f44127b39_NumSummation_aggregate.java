@@ -1,0 +1,18 @@
+num summation SimpleName MethodInvocation SimpleName long to bytes
+num summation SimpleName MethodInvocation SimpleName sum
+long to bytes SimpleName MethodInvocation SimpleName sum
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName num summation
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName long to bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName sum
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName aggregate
+value SimpleName SimpleType MethodDeclaration SimpleName aggregate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName aggregate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName aggregate

@@ -1,0 +1,76 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName json array
+final Modifier SingleVariableDeclaration SimpleName entities
+json array SimpleName SimpleType SingleVariableDeclaration SimpleName entities
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral creating entities {}
+log SimpleName MethodInvocation SimpleName entities
+debug SimpleName MethodInvocation StringLiteral creating entities {}
+debug SimpleName MethodInvocation SimpleName entities
+creating entities {} StringLiteral MethodInvocation SimpleName entities
+entities SimpleName MethodInvocation SimpleName to string
+local servlet request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entities
+local servlet request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+entity resource SimpleName MethodInvocation SimpleName submit
+entity resource SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName local servlet request
+entity resource SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entities
+entity resource SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+submit SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName local servlet request
+submit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entities
+submit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName invoke
+response SimpleName SimpleType MethodDeclaration SimpleName invoke
+entity operation SimpleName SimpleType ClassInstanceCreation QualifiedName apicreate entity
+apicreate entity QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName invoke
+entity operation SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity operation
+entity operation SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName apicreate entity
+entity operation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity operation
+entity operation SimpleName MethodInvocation SimpleName run
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity operation
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName run
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+extract entity result SimpleName MethodInvocation SimpleName response
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract entity result
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName response
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral create entities returned results {}
+log SimpleName MethodInvocation SimpleName results
+debug SimpleName MethodInvocation StringLiteral create entities returned results {}
+debug SimpleName MethodInvocation SimpleName results
+create entities returned results {} StringLiteral MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName get created entities
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName create entity
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json array
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+protected Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create entity
+create entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json array
+create entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+create entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

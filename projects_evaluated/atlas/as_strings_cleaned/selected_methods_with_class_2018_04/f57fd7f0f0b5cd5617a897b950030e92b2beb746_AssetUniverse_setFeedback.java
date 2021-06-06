@@ -1,0 +1,20 @@
+feedback SimpleName SimpleType SingleVariableDeclaration SimpleName feedback
+feedback SimpleName FieldAccess Assignment SimpleName feedback
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set feedback
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feedback
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName feedback
+void PrimitiveType MethodDeclaration SimpleName set feedback
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feedback
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName feedback
+set feedback SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName feedback
+set feedback SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feedback
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set feedback
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feedback
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set feedback
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feedback

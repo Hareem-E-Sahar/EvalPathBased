@@ -1,0 +1,26 @@
+entity detail SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+get asset type SimpleName MethodInvocation SimpleName entity
+asset type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get asset type
+asset type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName asset type
+get asset SimpleName MethodInvocation SimpleName entity
+process deleted asset SimpleName MethodInvocation MethodInvocation SimpleName get asset
+process deleted asset SimpleName MethodInvocation MethodInvocation SimpleName entity
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process deleted entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SimpleName process deleted entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+process deleted entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity detail
+process deleted entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process deleted entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process deleted entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity

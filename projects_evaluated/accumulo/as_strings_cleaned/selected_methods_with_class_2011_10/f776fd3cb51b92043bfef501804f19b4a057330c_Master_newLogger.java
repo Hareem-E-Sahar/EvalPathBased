@@ -1,0 +1,84 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName address
+remote logger SimpleName SimpleType ClassInstanceCreation SimpleName address
+remote SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName remote logger
+remote SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName address
+remote logger SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName remote
+string SimpleName SimpleType SingleVariableDeclaration SimpleName on disk
+remote SimpleName MethodInvocation SimpleName get closed logs
+server constants SimpleName MethodInvocation SimpleName get recovery dir
+on disk SimpleName InfixExpression StringLiteral failed
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get recovery dir
+path SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName on disk
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failed
+server constants SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName on disk
+server constants SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral failed
+get recovery dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName on disk
+get recovery dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral failed
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get recovery dir
+path SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName on disk
+path SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral failed
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+fs SimpleName MethodInvocation SimpleName exists
+fs SimpleName MethodInvocation SimpleName path
+exists SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName path
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName path
+delete SimpleName MethodInvocation BooleanLiteral true
+path SimpleName MethodInvocation BooleanLiteral true
+on disk SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName remote
+on disk SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get closed logs
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unexpected error clearing failed recovery markers for new logger
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral unexpected error clearing failed recovery markers for new logger
+warn SimpleName MethodInvocation SimpleName ex
+unexpected error clearing failed recovery markers for new logger StringLiteral MethodInvocation SimpleName ex
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantszdeadloggers
+dead server list SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantszdeadloggers
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dead server list
+obit SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantszdeadloggers
+dead server list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obit
+obit SimpleName MethodInvocation SimpleName delete
+obit SimpleName MethodInvocation SimpleName address
+delete SimpleName MethodInvocation SimpleName address
+next event SimpleName MethodInvocation SimpleName event
+next event SimpleName MethodInvocation StringLiteral added logger s
+next event SimpleName MethodInvocation SimpleName address
+event SimpleName MethodInvocation StringLiteral added logger s
+event SimpleName MethodInvocation SimpleName address
+added logger s StringLiteral MethodInvocation SimpleName address
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new logger
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName new logger
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName address
+void PrimitiveType MethodDeclaration SimpleName new logger
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName address
+new logger SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+new logger SimpleName MethodDeclaration SingleVariableDeclaration SimpleName address
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName new logger
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new logger
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName address

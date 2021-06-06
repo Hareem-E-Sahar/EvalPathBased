@@ -1,0 +1,30 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+trash SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+trash SimpleName MethodInvocation SimpleName move to trash
+trash SimpleName MethodInvocation SimpleName path
+move to trash SimpleName MethodInvocation SimpleName path
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName move to trash
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName move to trash
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+move to trash SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+move to trash SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+move to trash SimpleName MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName move to trash
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move to trash
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

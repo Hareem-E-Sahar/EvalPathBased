@@ -1,0 +1,19 @@
+type category SimpleName SimpleType SingleVariableDeclaration SimpleName type category
+type category SimpleName InfixExpression QualifiedName type categoryprimitive
+type category SimpleName InfixExpression QualifiedName type categoryenum
+type category SimpleName InfixExpression InfixExpression InfixExpression SimpleName type category
+type category SimpleName InfixExpression InfixExpression InfixExpression QualifiedName type categoryenum
+type categoryprimitive QualifiedName InfixExpression InfixExpression InfixExpression SimpleName type category
+type categoryprimitive QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName type categoryenum
+boolean PrimitiveType MethodDeclaration SimpleName is primitive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type category
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type category
+is primitive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is primitive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is primitive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type category

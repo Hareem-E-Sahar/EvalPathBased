@@ -1,0 +1,173 @@
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName glossary category
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary serviceupdate category
+log SimpleName MethodInvocation SimpleName glossary category
+debug SimpleName MethodInvocation StringLiteral ==> glossary serviceupdate category
+debug SimpleName MethodInvocation SimpleName glossary category
+==> glossary serviceupdate category StringLiteral MethodInvocation SimpleName glossary category
+objects SimpleName MethodInvocation SimpleName is null
+objects SimpleName MethodInvocation SimpleName glossary category
+is null SimpleName MethodInvocation SimpleName glossary category
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral glossary category is nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral glossary category is nullempty
+glossary category SimpleName MethodInvocation SimpleName get display name
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get display name
+is empty SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get display name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codebad request
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral display name cant be nullempty
+atlas error codebad request QualifiedName ClassInstanceCreation StringLiteral display name cant be nullempty
+glossary category SimpleName MethodInvocation SimpleName get display name
+is name invalid SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+is name invalid SimpleName MethodInvocation MethodInvocation SimpleName get display name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid display name
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName glossary category
+load SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName VariableDeclarationFragment MethodInvocation SimpleName data access
+store object SimpleName VariableDeclarationFragment MethodInvocation SimpleName load
+store object SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary category
+atlas glossary category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName store object
+store object SimpleName MethodInvocation SimpleName equals
+store object SimpleName MethodInvocation SimpleName glossary category
+equals SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName MethodInvocation SimpleName get guid
+glossary category SimpleName MethodInvocation SimpleName set guid
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName store object
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName get guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName store object
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get guid
+store object SimpleName MethodInvocation SimpleName get qualified name
+glossary category SimpleName MethodInvocation SimpleName set qualified name
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName store object
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName store object
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+data access SimpleName MethodInvocation SimpleName save
+data access SimpleName MethodInvocation SimpleName glossary category
+save SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName Assignment MethodInvocation SimpleName data access
+store object SimpleName Assignment MethodInvocation SimpleName save
+store object SimpleName Assignment MethodInvocation SimpleName glossary category
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral no immediate attribute update exception {}
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+debug SimpleName MethodInvocation StringLiteral no immediate attribute update exception {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName e
+debug SimpleName MethodInvocation MethodInvocation SimpleName get message
+no immediate attribute update exception {} StringLiteral MethodInvocation MethodInvocation SimpleName e
+no immediate attribute update exception {} StringLiteral MethodInvocation MethodInvocation SimpleName get message
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas glossary category
+glossary category utils SimpleName MethodInvocation SimpleName process category relations
+glossary category utils SimpleName MethodInvocation SimpleName store object
+glossary category utils SimpleName MethodInvocation SimpleName glossary category
+glossary category utils SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationupdate
+process category relations SimpleName MethodInvocation SimpleName store object
+process category relations SimpleName MethodInvocation SimpleName glossary category
+process category relations SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationupdate
+store object SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationupdate
+glossary category SimpleName MethodInvocation QualifiedName glossary utilsrelationship operationupdate
+impacted categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary category utils
+impacted categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName process category relations
+impacted categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName store object
+impacted categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName glossary category
+impacted categories SimpleName VariableDeclarationFragment MethodInvocation QualifiedName glossary utilsrelationship operationupdate
+glossary category SimpleName MethodInvocation SimpleName get qualified name
+store object SimpleName MethodInvocation SimpleName get qualified name
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+string utils SimpleName MethodInvocation MethodInvocation SimpleName store object
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+equals SimpleName MethodInvocation MethodInvocation SimpleName glossary category
+equals SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+equals SimpleName MethodInvocation MethodInvocation SimpleName store object
+equals SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+glossary category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store object
+glossary category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified name
+get qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store object
+get qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get qualified name
+data access SimpleName MethodInvocation SimpleName load
+data access SimpleName MethodInvocation SimpleName glossary category
+load SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName Assignment MethodInvocation SimpleName data access
+store object SimpleName Assignment MethodInvocation SimpleName load
+store object SimpleName Assignment MethodInvocation SimpleName glossary category
+store object SimpleName MethodInvocation SimpleName get qualified name
+glossary category SimpleName MethodInvocation SimpleName set qualified name
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName store object
+glossary category SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName store object
+set qualified name SimpleName MethodInvocation MethodInvocation SimpleName get qualified name
+category exists SimpleName MethodInvocation SimpleName glossary category
+glossary category SimpleName MethodInvocation SimpleName get qualified name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeglossary category already exists
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName glossary category
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get qualified name
+atlas error codeglossary category already exists QualifiedName ClassInstanceCreation MethodInvocation SimpleName glossary category
+atlas error codeglossary category already exists QualifiedName ClassInstanceCreation MethodInvocation SimpleName get qualified name
+data access SimpleName MethodInvocation SimpleName save
+data access SimpleName MethodInvocation SimpleName glossary category
+save SimpleName MethodInvocation SimpleName glossary category
+store object SimpleName Assignment MethodInvocation SimpleName data access
+store object SimpleName Assignment MethodInvocation SimpleName save
+store object SimpleName Assignment MethodInvocation SimpleName glossary category
+impacted categories SimpleName MethodInvocation SimpleName values
+data access SimpleName MethodInvocation SimpleName save
+data access SimpleName MethodInvocation MethodInvocation SimpleName impacted categories
+data access SimpleName MethodInvocation MethodInvocation SimpleName values
+save SimpleName MethodInvocation MethodInvocation SimpleName impacted categories
+save SimpleName MethodInvocation MethodInvocation SimpleName values
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary serviceupdate category : {}
+log SimpleName MethodInvocation SimpleName store object
+debug SimpleName MethodInvocation StringLiteral <== glossary serviceupdate category : {}
+debug SimpleName MethodInvocation SimpleName store object
+<== glossary serviceupdate category : {} StringLiteral MethodInvocation SimpleName store object
+set info for relations SimpleName MethodInvocation SimpleName store object
+debug enabled SimpleName IfStatement Block ReturnStatement SimpleName store object
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas glossary category
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update category
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas glossary category
+public Modifier MethodDeclaration SimpleName update category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName store object
+atlas glossary category SimpleName SimpleType MethodDeclaration SimpleName update category
+atlas glossary category SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+atlas glossary category SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+update category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+update category SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update category SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+update category SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+update category SimpleName MethodDeclaration Block ReturnStatement SimpleName store object
+glossary category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary category
+public Modifier TypeDeclaration MethodDeclaration SimpleName update category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas glossary category
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glossary category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

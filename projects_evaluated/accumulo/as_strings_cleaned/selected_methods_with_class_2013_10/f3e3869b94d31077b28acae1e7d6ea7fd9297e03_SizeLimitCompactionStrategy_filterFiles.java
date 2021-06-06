@@ -1,0 +1,63 @@
+major compaction request SimpleName SimpleType SingleVariableDeclaration SimpleName mcr
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName file ref
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+file ref SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+file ref SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+mcr SimpleName MethodInvocation SimpleName get files
+mcr SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get files SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get size
+get value SimpleName MethodInvocation MethodInvocation SimpleName get size
+entry SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName limit
+get value SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName limit
+get size SimpleName MethodInvocation InfixExpression SimpleName limit
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+filtered files SimpleName MethodInvocation SimpleName put
+filtered files SimpleName MethodInvocation MethodInvocation SimpleName entry
+filtered files SimpleName MethodInvocation MethodInvocation SimpleName get key
+filtered files SimpleName MethodInvocation MethodInvocation SimpleName entry
+filtered files SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+major compaction request SimpleName SimpleType ClassInstanceCreation SimpleName mcr
+mcr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName major compaction request
+mcr SimpleName Assignment ClassInstanceCreation SimpleName mcr
+mcr SimpleName MethodInvocation SimpleName set files
+mcr SimpleName MethodInvocation SimpleName filtered files
+set files SimpleName MethodInvocation SimpleName filtered files
+private Modifier MethodDeclaration SimpleType SimpleName major compaction request
+private Modifier MethodDeclaration SimpleName filter files
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName mcr
+private Modifier MethodDeclaration Block ReturnStatement SimpleName mcr
+major compaction request SimpleName SimpleType MethodDeclaration SimpleName filter files
+major compaction request SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mcr
+filter files SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction request
+filter files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mcr
+filter files SimpleName MethodDeclaration Block ReturnStatement SimpleName mcr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName major compaction request
+public Modifier TypeDeclaration MethodDeclaration SimpleName filter files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mcr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName major compaction request
+test SimpleName TypeDeclaration MethodDeclaration SimpleName filter files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mcr

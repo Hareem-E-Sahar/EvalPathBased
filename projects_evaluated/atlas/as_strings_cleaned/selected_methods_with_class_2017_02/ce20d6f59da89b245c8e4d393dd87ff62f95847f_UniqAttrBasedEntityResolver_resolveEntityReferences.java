@@ -1,0 +1,60 @@
+entity graph discovery context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinternal error
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral uniq attr based entity resolverresolve entity references context is null
+atlas error codeinternal error QualifiedName ClassInstanceCreation StringLiteral uniq attr based entity resolverresolve entity references context is null
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName obj id
+context SimpleName MethodInvocation SimpleName get referenced by uniq attribs
+resolve by unique attribute SimpleName MethodInvocation SimpleName obj id
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve by unique attribute
+vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj id
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex
+context SimpleName MethodInvocation SimpleName add resolved id by uniq attribs
+context SimpleName MethodInvocation SimpleName obj id
+context SimpleName MethodInvocation SimpleName vertex
+add resolved id by uniq attribs SimpleName MethodInvocation SimpleName obj id
+add resolved id by uniq attribs SimpleName MethodInvocation SimpleName vertex
+obj id SimpleName MethodInvocation SimpleName vertex
+resolved references SimpleName MethodInvocation SimpleName add
+resolved references SimpleName MethodInvocation SimpleName obj id
+add SimpleName MethodInvocation SimpleName obj id
+obj id SimpleName MethodInvocation SimpleName to string
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codereferenced entity not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+atlas error codereferenced entity not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName obj id
+atlas error codereferenced entity not found QualifiedName ClassInstanceCreation MethodInvocation SimpleName to string
+obj id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName context
+obj id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get referenced by uniq attribs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity graph discovery context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve entity references
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName context
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SimpleName resolve entity references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleName resolve entity references
+entity graph discovery context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+entity graph discovery context SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery context
+resolve entity references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+resolve entity references SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+resolve entity references SimpleName MethodDeclaration Block ReturnStatement SimpleName context
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve entity references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity graph discovery context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve entity references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

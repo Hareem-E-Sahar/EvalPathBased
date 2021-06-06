@@ -1,0 +1,81 @@
+model test util SimpleName MethodInvocation SimpleName get classification def
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName model test util
+classification def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get classification def
+atlas classification def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification def
+model test util SimpleName MethodInvocation SimpleName get types registry
+type registry SimpleName VariableDeclarationFragment MethodInvocation SimpleName model test util
+type registry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types registry
+atlas type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type registry
+classification def SimpleName MethodInvocation SimpleName get name
+type registry SimpleName MethodInvocation SimpleName get type
+type registry SimpleName MethodInvocation MethodInvocation SimpleName classification def
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type SimpleName MethodInvocation MethodInvocation SimpleName classification def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification def
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName InstanceofExpression SimpleType SimpleName atlas classification type
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName data type
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName atlas classification type
+model test util SimpleName MethodInvocation SimpleName new classification
+model test util SimpleName MethodInvocation SimpleName classification def
+model test util SimpleName MethodInvocation SimpleName type registry
+new classification SimpleName MethodInvocation SimpleName classification def
+new classification SimpleName MethodInvocation SimpleName type registry
+classification def SimpleName MethodInvocation SimpleName type registry
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName model test util
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName new classification
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification def
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent
+atlas type SimpleName MethodInvocation SimpleName to json
+atlas type SimpleName MethodInvocation SimpleName ent
+to json SimpleName MethodInvocation SimpleName ent
+json string SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+json string SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+json string SimpleName VariableDeclarationFragment MethodInvocation SimpleName ent
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json string
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation SimpleName json string
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas classification
+from json SimpleName MethodInvocation SimpleName json string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas classification
+json string SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas classification
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas type
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName from json
+ent SimpleName VariableDeclarationFragment MethodInvocation SimpleName json string
+atlas classification SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ent
+atlas classification type SimpleName SimpleType CastExpression SimpleName data type
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName normalize attribute values
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ent
+normalize attribute values SimpleName MethodInvocation SimpleName ent
+assert equals SimpleName MethodInvocation SimpleName ent
+assert equals SimpleName MethodInvocation SimpleName ent
+assert equals SimpleName MethodInvocation StringLiteral incorrect serializationdeserialization of atlas classification
+ent SimpleName MethodInvocation SimpleName ent
+ent SimpleName MethodInvocation StringLiteral incorrect serializationdeserialization of atlas classification
+ent SimpleName MethodInvocation StringLiteral incorrect serializationdeserialization of atlas classification
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test classification ser de
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test classification ser de
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName test classification ser de
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+test classification ser de SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test classification ser de
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test classification ser de
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

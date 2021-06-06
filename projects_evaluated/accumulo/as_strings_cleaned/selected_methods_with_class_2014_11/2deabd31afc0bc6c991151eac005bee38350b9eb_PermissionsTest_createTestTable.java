@@ -1,0 +1,131 @@
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName exists
+table operations SimpleName MethodInvocation MethodInvocation SimpleName exists
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName test table
+exists SimpleName MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName test table
+create SimpleName MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test table
+create batch writer SimpleName MethodInvocation SimpleName test table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+test table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+writer SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+writer SimpleName VariableDeclarationFragment MethodInvocation SimpleName test table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName writer
+text SimpleName SimpleType ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral row
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral row
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cf
+text SimpleName SimpleType ClassInstanceCreation StringLiteral cq
+val StringLiteral MethodInvocation SimpleName get bytes
+val StringLiteral MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral val
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName utf
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral val
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cf
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral val
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName utf
+cf StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral cq
+writer SimpleName MethodInvocation SimpleName add mutation
+writer SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+writer SimpleName MethodInvocation SimpleName close
+get connector SimpleName MethodInvocation MethodInvocation SimpleName whoami
+table permission SimpleName MethodInvocation SimpleName values
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get connector
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName whoami
+verify has only these table permissions SimpleName MethodInvocation SimpleName test table
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName table permission
+verify has only these table permissions SimpleName MethodInvocation MethodInvocation SimpleName values
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName whoami
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table permission
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test table
+whoami SimpleName MethodInvocation MethodInvocation SimpleName test table
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table permission
+whoami SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+test table SimpleName MethodInvocation MethodInvocation SimpleName table permission
+test table SimpleName MethodInvocation MethodInvocation SimpleName values
+table permission SimpleName MethodInvocation SimpleName values
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName get connector
+verify has no table permissions SimpleName MethodInvocation SimpleName test user
+verify has no table permissions SimpleName MethodInvocation SimpleName test table
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName table permission
+verify has no table permissions SimpleName MethodInvocation MethodInvocation SimpleName values
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName test table
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table permission
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+test user SimpleName MethodInvocation SimpleName test table
+test user SimpleName MethodInvocation MethodInvocation SimpleName table permission
+test user SimpleName MethodInvocation MethodInvocation SimpleName values
+test table SimpleName MethodInvocation MethodInvocation SimpleName table permission
+test table SimpleName MethodInvocation MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create test table
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+private Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+private Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName create test table
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+create test table SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create test table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create test table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

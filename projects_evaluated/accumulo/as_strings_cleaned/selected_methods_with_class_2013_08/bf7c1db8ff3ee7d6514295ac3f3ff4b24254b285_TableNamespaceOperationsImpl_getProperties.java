@@ -1,0 +1,121 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName namespace
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName namespace
+not null SimpleName MethodInvocation SimpleName namespace
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client exec return SimpleName SimpleType ParameterizedType SimpleType QualifiedName client serviceclient
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+client serviceclient QualifiedName SimpleType SingleVariableDeclaration SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+credentials SimpleName MethodInvocation SimpleName to thrift
+credentials SimpleName MethodInvocation SimpleName instance
+to thrift SimpleName MethodInvocation SimpleName instance
+client SimpleName MethodInvocation SimpleName get table namespace configuration
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName credentials
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation MethodInvocation SimpleName instance
+client SimpleName MethodInvocation SimpleName namespace
+get table namespace configuration SimpleName MethodInvocation MethodInvocation SimpleName tracer
+get table namespace configuration SimpleName MethodInvocation MethodInvocation SimpleName trace info
+get table namespace configuration SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get table namespace configuration SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get table namespace configuration SimpleName MethodInvocation MethodInvocation SimpleName instance
+get table namespace configuration SimpleName MethodInvocation SimpleName namespace
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName credentials
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance
+tracer SimpleName MethodInvocation MethodInvocation SimpleName namespace
+trace info SimpleName MethodInvocation MethodInvocation SimpleName namespace
+credentials SimpleName MethodInvocation MethodInvocation SimpleName namespace
+to thrift SimpleName MethodInvocation MethodInvocation SimpleName namespace
+instance SimpleName MethodInvocation MethodInvocation SimpleName namespace
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier MethodDeclaration SimpleType SimpleName exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName execute
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName client serviceclient
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+execute SimpleName MethodDeclaration SimpleType SimpleName exception
+client SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+server client SimpleName MethodInvocation SimpleName execute raw
+server client SimpleName MethodInvocation SimpleName instance
+execute raw SimpleName MethodInvocation SimpleName instance
+server client SimpleName MethodInvocation MethodInvocation SimpleName entry set
+execute raw SimpleName MethodInvocation MethodInvocation SimpleName entry set
+instance SimpleName MethodInvocation MethodInvocation SimpleName entry set
+thrift table operation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get type
+table namespace not found exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation QualifiedName edescription
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+edescription QualifiedName ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notfound
+e SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName other
+get type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName other
+notfound SimpleName SwitchCase SwitchStatement SwitchCase SimpleName other
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get properties
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName namespace
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration SimpleName get properties
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName table namespace not found exception
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+get properties SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace
+get properties SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get properties SimpleName MethodDeclaration SimpleType SimpleName table namespace not found exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table namespace not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table namespace not found exception

@@ -1,0 +1,224 @@
+path SimpleName SingleMemberAnnotation StringLiteral session
+produces SimpleName SingleMemberAnnotation QualifiedName servletsjson media type
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> admin resourceget user profile
+debug SimpleName MethodInvocation StringLiteral ==> admin resourceget user profile
+response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+is entity update access allowed SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is entity update access allowed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+is entity create access allowed SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is entity create access allowed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+security context holder SimpleName MethodInvocation SimpleName get context
+security context holder SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+get context SimpleName MethodInvocation MethodInvocation SimpleName get authentication
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName security context holder
+auth SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get context
+auth SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName auth
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+auth SimpleName MethodInvocation SimpleName get name
+user name SimpleName Assignment MethodInvocation SimpleName auth
+user name SimpleName Assignment MethodInvocation SimpleName get name
+auth SimpleName MethodInvocation SimpleName get authorities
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName auth
+authorities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authorities
+granted authority SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get authority
+groups SimpleName MethodInvocation SimpleName add
+groups SimpleName MethodInvocation MethodInvocation SimpleName c
+groups SimpleName MethodInvocation MethodInvocation SimpleName get authority
+add SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation MethodInvocation SimpleName get authority
+granted authority SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName authorities
+atlas authorization utils SimpleName MethodInvocation SimpleName is access allowed
+atlas authorization utils SimpleName MethodInvocation QualifiedName atlas resource typesentity
+atlas authorization utils SimpleName MethodInvocation QualifiedName atlas action typesupdate
+atlas authorization utils SimpleName MethodInvocation SimpleName user name
+atlas authorization utils SimpleName MethodInvocation SimpleName groups
+is access allowed SimpleName MethodInvocation QualifiedName atlas resource typesentity
+is access allowed SimpleName MethodInvocation QualifiedName atlas action typesupdate
+is access allowed SimpleName MethodInvocation SimpleName user name
+is access allowed SimpleName MethodInvocation SimpleName groups
+is access allowed SimpleName MethodInvocation SimpleName http servlet request
+atlas resource typesentity QualifiedName MethodInvocation QualifiedName atlas action typesupdate
+atlas resource typesentity QualifiedName MethodInvocation SimpleName user name
+atlas resource typesentity QualifiedName MethodInvocation SimpleName groups
+atlas resource typesentity QualifiedName MethodInvocation SimpleName http servlet request
+atlas action typesupdate QualifiedName MethodInvocation SimpleName user name
+atlas action typesupdate QualifiedName MethodInvocation SimpleName groups
+atlas action typesupdate QualifiedName MethodInvocation SimpleName http servlet request
+user name SimpleName MethodInvocation SimpleName groups
+user name SimpleName MethodInvocation SimpleName http servlet request
+groups SimpleName MethodInvocation SimpleName http servlet request
+is entity update access allowed SimpleName Assignment MethodInvocation SimpleName atlas authorization utils
+is entity update access allowed SimpleName Assignment MethodInvocation SimpleName is access allowed
+is entity update access allowed SimpleName Assignment MethodInvocation QualifiedName atlas resource typesentity
+is entity update access allowed SimpleName Assignment MethodInvocation QualifiedName atlas action typesupdate
+is entity update access allowed SimpleName Assignment MethodInvocation SimpleName user name
+is entity update access allowed SimpleName Assignment MethodInvocation SimpleName groups
+is entity update access allowed SimpleName Assignment MethodInvocation SimpleName http servlet request
+atlas authorization utils SimpleName MethodInvocation SimpleName is access allowed
+atlas authorization utils SimpleName MethodInvocation QualifiedName atlas resource typesentity
+atlas authorization utils SimpleName MethodInvocation QualifiedName atlas action typescreate
+atlas authorization utils SimpleName MethodInvocation SimpleName user name
+atlas authorization utils SimpleName MethodInvocation SimpleName groups
+is access allowed SimpleName MethodInvocation QualifiedName atlas resource typesentity
+is access allowed SimpleName MethodInvocation QualifiedName atlas action typescreate
+is access allowed SimpleName MethodInvocation SimpleName user name
+is access allowed SimpleName MethodInvocation SimpleName groups
+is access allowed SimpleName MethodInvocation SimpleName http servlet request
+atlas resource typesentity QualifiedName MethodInvocation QualifiedName atlas action typescreate
+atlas resource typesentity QualifiedName MethodInvocation SimpleName user name
+atlas resource typesentity QualifiedName MethodInvocation SimpleName groups
+atlas resource typesentity QualifiedName MethodInvocation SimpleName http servlet request
+atlas action typescreate QualifiedName MethodInvocation SimpleName user name
+atlas action typescreate QualifiedName MethodInvocation SimpleName groups
+atlas action typescreate QualifiedName MethodInvocation SimpleName http servlet request
+user name SimpleName MethodInvocation SimpleName groups
+user name SimpleName MethodInvocation SimpleName http servlet request
+groups SimpleName MethodInvocation SimpleName http servlet request
+is entity create access allowed SimpleName Assignment MethodInvocation SimpleName atlas authorization utils
+is entity create access allowed SimpleName Assignment MethodInvocation SimpleName is access allowed
+is entity create access allowed SimpleName Assignment MethodInvocation QualifiedName atlas resource typesentity
+is entity create access allowed SimpleName Assignment MethodInvocation QualifiedName atlas action typescreate
+is entity create access allowed SimpleName Assignment MethodInvocation SimpleName user name
+is entity create access allowed SimpleName Assignment MethodInvocation SimpleName groups
+is entity create access allowed SimpleName Assignment MethodInvocation SimpleName http servlet request
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName is csrf enabled
+response data SimpleName MethodInvocation QualifiedName atlas csrf prevention filteris csrf enabled
+put SimpleName MethodInvocation SimpleName is csrf enabled
+put SimpleName MethodInvocation QualifiedName atlas csrf prevention filteris csrf enabled
+is csrf enabled SimpleName MethodInvocation QualifiedName atlas csrf prevention filteris csrf enabled
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName browser user agent param
+response data SimpleName MethodInvocation QualifiedName atlas csrf prevention filterbrowser user agents default
+put SimpleName MethodInvocation SimpleName browser user agent param
+put SimpleName MethodInvocation QualifiedName atlas csrf prevention filterbrowser user agents default
+browser user agent param SimpleName MethodInvocation QualifiedName atlas csrf prevention filterbrowser user agents default
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName custom methods to ignore param
+response data SimpleName MethodInvocation QualifiedName atlas csrf prevention filtermethods to ignore default
+put SimpleName MethodInvocation SimpleName custom methods to ignore param
+put SimpleName MethodInvocation QualifiedName atlas csrf prevention filtermethods to ignore default
+custom methods to ignore param SimpleName MethodInvocation QualifiedName atlas csrf prevention filtermethods to ignore default
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName custom header param
+response data SimpleName MethodInvocation QualifiedName atlas csrf prevention filterheader default
+put SimpleName MethodInvocation SimpleName custom header param
+put SimpleName MethodInvocation QualifiedName atlas csrf prevention filterheader default
+custom header param SimpleName MethodInvocation QualifiedName atlas csrf prevention filterheader default
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName is entity update allowed
+response data SimpleName MethodInvocation SimpleName is entity update access allowed
+put SimpleName MethodInvocation SimpleName is entity update allowed
+put SimpleName MethodInvocation SimpleName is entity update access allowed
+is entity update allowed SimpleName MethodInvocation SimpleName is entity update access allowed
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName is entity create allowed
+response data SimpleName MethodInvocation SimpleName is entity create access allowed
+put SimpleName MethodInvocation SimpleName is entity create allowed
+put SimpleName MethodInvocation SimpleName is entity create access allowed
+is entity create allowed SimpleName MethodInvocation SimpleName is entity create access allowed
+get editable entity types SimpleName MethodInvocation SimpleName atlas properties
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation SimpleName editable entity types
+response data SimpleName MethodInvocation MethodInvocation SimpleName get editable entity types
+response data SimpleName MethodInvocation MethodInvocation SimpleName atlas properties
+put SimpleName MethodInvocation SimpleName editable entity types
+put SimpleName MethodInvocation MethodInvocation SimpleName get editable entity types
+put SimpleName MethodInvocation MethodInvocation SimpleName atlas properties
+editable entity types SimpleName MethodInvocation MethodInvocation SimpleName get editable entity types
+editable entity types SimpleName MethodInvocation MethodInvocation SimpleName atlas properties
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation StringLiteral user name
+response data SimpleName MethodInvocation SimpleName user name
+put SimpleName MethodInvocation StringLiteral user name
+put SimpleName MethodInvocation SimpleName user name
+user name StringLiteral MethodInvocation SimpleName user name
+response data SimpleName MethodInvocation SimpleName put
+response data SimpleName MethodInvocation StringLiteral groups
+response data SimpleName MethodInvocation SimpleName groups
+put SimpleName MethodInvocation StringLiteral groups
+put SimpleName MethodInvocation SimpleName groups
+groups StringLiteral MethodInvocation SimpleName groups
+atlas json SimpleName MethodInvocation SimpleName to v json
+atlas json SimpleName MethodInvocation SimpleName response data
+to v json SimpleName MethodInvocation SimpleName response data
+response SimpleName MethodInvocation SimpleName ok
+response SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+response SimpleName MethodInvocation MethodInvocation SimpleName to v json
+response SimpleName MethodInvocation MethodInvocation SimpleName response data
+ok SimpleName MethodInvocation MethodInvocation SimpleName atlas json
+ok SimpleName MethodInvocation MethodInvocation SimpleName to v json
+ok SimpleName MethodInvocation MethodInvocation SimpleName response data
+response SimpleName MethodInvocation MethodInvocation SimpleName build
+ok SimpleName MethodInvocation MethodInvocation SimpleName build
+atlas json SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+to v json SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+response data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+response SimpleName Assignment MethodInvocation MethodInvocation SimpleName response
+response SimpleName Assignment MethodInvocation MethodInvocation SimpleName ok
+response SimpleName Assignment MethodInvocation SimpleName build
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== admin resourceget user profile
+debug SimpleName MethodInvocation StringLiteral <== admin resourceget user profile
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName path
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation StringLiteral session
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+get SimpleName MarkerAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+get SimpleName MarkerAnnotation MethodDeclaration Modifier public
+get SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName response
+get SimpleName MarkerAnnotation MethodDeclaration SimpleName get user profile
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+path SimpleName SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+session StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation SimpleName produces
+session StringLiteral SingleMemberAnnotation MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+path SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+session StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+session StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+path SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get user profile
+session StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get user profile
+produces SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration Modifier public
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName response
+produces SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get user profile
+servletsjson media type QualifiedName SingleMemberAnnotation MethodDeclaration SimpleName get user profile
+public Modifier MethodDeclaration SimpleType SimpleName response
+public Modifier MethodDeclaration SimpleName get user profile
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+response SimpleName SimpleType MethodDeclaration SimpleName get user profile
+get user profile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get user profile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get user profile SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral session
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user profile
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral session
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName produces
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation QualifiedName servletsjson media type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user profile

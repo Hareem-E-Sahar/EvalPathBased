@@ -1,0 +1,21 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName MethodInvocation SimpleName to string
+val SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName val
+val SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName as string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+string SimpleName SimpleType MethodDeclaration SimpleName as string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName as string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName as string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

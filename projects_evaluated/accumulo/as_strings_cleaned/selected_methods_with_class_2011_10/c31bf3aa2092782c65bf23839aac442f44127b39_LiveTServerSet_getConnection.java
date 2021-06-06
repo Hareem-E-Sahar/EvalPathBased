@@ -1,0 +1,50 @@
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName server
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+server SimpleName MethodInvocation SimpleName host port
+current SimpleName MethodInvocation SimpleName get
+current SimpleName MethodInvocation MethodInvocation SimpleName server
+current SimpleName MethodInvocation MethodInvocation SimpleName host port
+get SimpleName MethodInvocation MethodInvocation SimpleName server
+get SimpleName MethodInvocation MethodInvocation SimpleName host port
+server info SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+server info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+server info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server
+server info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName host port
+t server info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server info
+server infoinstance QualifiedName MethodInvocation SimpleName equals
+server infoinstance QualifiedName MethodInvocation SimpleName server
+equals SimpleName MethodInvocation SimpleName server
+result SimpleName Assignment QualifiedName server infoconnection
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName t server connection
+public Modifier MethodDeclaration SimpleName get connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName t server connection
+synchronized Modifier MethodDeclaration SimpleName get connection
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName server
+synchronized Modifier MethodDeclaration SimpleType SimpleName t exception
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName result
+t server connection SimpleName SimpleType MethodDeclaration SimpleName get connection
+t server connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName server
+t server connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t server instance
+get connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server
+get connection SimpleName MethodDeclaration SimpleType SimpleName t exception
+get connection SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+server SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t server connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t server connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

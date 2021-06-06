@@ -1,0 +1,280 @@
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName auths
+int PrimitiveType SingleVariableDeclaration SimpleName batch size
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName ke
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName columns
+authorizations SimpleName SimpleType ClassInstanceCreation SimpleName auths
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleName auths
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName auths
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table SimpleName MethodInvocation ClassInstanceCreation SimpleName auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName set batch size
+scanner SimpleName MethodInvocation SimpleName batch size
+set batch size SimpleName MethodInvocation SimpleName batch size
+ke SimpleName MethodInvocation SimpleName get prev end row
+ke SimpleName MethodInvocation SimpleName get end row
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ke
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get prev end row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ke
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+range SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+ke SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get prev end row SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+ke SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+ke SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+get prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+get prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+ke SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get prev end row SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName ke
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get end row
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+ke SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+get end row SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get prev end row
+scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+scanner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+scanner SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get prev end row
+set range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ke
+set range SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+set range SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+string SimpleName SimpleType SingleVariableDeclaration SimpleName c
+text SimpleName SimpleType ClassInstanceCreation SimpleName c
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName c
+fetch column family SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+fetch column family SimpleName MethodInvocation ClassInstanceCreation SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName columns
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName columns
+row len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row len
+cf len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf len
+cq len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq len
+cv len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv len
+val len SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val len
+cols per row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stat
+stat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cols per row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last row
+cols per row count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cols per row count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+last row SimpleName Assignment SimpleName row
+last row SimpleName MethodInvocation SimpleName equals
+last row SimpleName MethodInvocation SimpleName row
+equals SimpleName MethodInvocation SimpleName row
+cols per row SimpleName MethodInvocation SimpleName add stat
+cols per row SimpleName MethodInvocation SimpleName cols per row count
+add stat SimpleName MethodInvocation SimpleName cols per row count
+last row SimpleName Assignment SimpleName row
+cols per row count SimpleName Assignment NumberLiteral empty
+row SimpleName MethodInvocation SimpleName get length
+row len SimpleName MethodInvocation SimpleName add stat
+row len SimpleName MethodInvocation MethodInvocation SimpleName row
+row len SimpleName MethodInvocation MethodInvocation SimpleName get length
+add stat SimpleName MethodInvocation MethodInvocation SimpleName row
+add stat SimpleName MethodInvocation MethodInvocation SimpleName get length
+key SimpleName MethodInvocation SimpleName get column family data
+key SimpleName MethodInvocation MethodInvocation SimpleName length
+get column family data SimpleName MethodInvocation MethodInvocation SimpleName length
+cf len SimpleName MethodInvocation SimpleName add stat
+cf len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cf len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+cf len SimpleName MethodInvocation MethodInvocation SimpleName length
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+add stat SimpleName MethodInvocation MethodInvocation SimpleName length
+key SimpleName MethodInvocation SimpleName get column qualifier data
+key SimpleName MethodInvocation MethodInvocation SimpleName length
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName length
+cq len SimpleName MethodInvocation SimpleName add stat
+cq len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cq len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier data
+cq len SimpleName MethodInvocation MethodInvocation SimpleName length
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier data
+add stat SimpleName MethodInvocation MethodInvocation SimpleName length
+key SimpleName MethodInvocation SimpleName get column visibility data
+key SimpleName MethodInvocation MethodInvocation SimpleName length
+get column visibility data SimpleName MethodInvocation MethodInvocation SimpleName length
+cv len SimpleName MethodInvocation SimpleName add stat
+cv len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+cv len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility data
+cv len SimpleName MethodInvocation MethodInvocation SimpleName length
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+add stat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column visibility data
+add stat SimpleName MethodInvocation MethodInvocation SimpleName length
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+get value SimpleName MethodInvocation MethodInvocation SimpleName get
+entry SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get value SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get SimpleName MethodInvocation FieldAccess SimpleName length
+val len SimpleName MethodInvocation SimpleName add stat
+val len SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+val len SimpleName MethodInvocation FieldAccess SimpleName length
+add stat SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+add stat SimpleName MethodInvocation FieldAccess SimpleName length
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral empty
+println SimpleName MethodInvocation StringLiteral empty
+ke SimpleName MethodInvocation SimpleName get uuid
+t tablet StringLiteral InfixExpression MethodInvocation SimpleName ke
+t tablet StringLiteral InfixExpression MethodInvocation SimpleName get uuid
+t tablet StringLiteral InfixExpression StringLiteral statistics :
+ke SimpleName MethodInvocation InfixExpression StringLiteral statistics :
+get uuid SimpleName MethodInvocation InfixExpression StringLiteral statistics :
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral t tablet
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get uuid
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral statistics :
+println SimpleName MethodInvocation InfixExpression StringLiteral t tablet
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ke
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get uuid
+println SimpleName MethodInvocation InfixExpression StringLiteral statistics :
+print stat SimpleName MethodInvocation StringLiteral row length
+print stat SimpleName MethodInvocation SimpleName row len
+row length StringLiteral MethodInvocation SimpleName row len
+print stat SimpleName MethodInvocation StringLiteral column family length
+print stat SimpleName MethodInvocation SimpleName cf len
+column family length StringLiteral MethodInvocation SimpleName cf len
+print stat SimpleName MethodInvocation StringLiteral column qualifier length
+print stat SimpleName MethodInvocation SimpleName cq len
+column qualifier length StringLiteral MethodInvocation SimpleName cq len
+print stat SimpleName MethodInvocation StringLiteral column visibility length
+print stat SimpleName MethodInvocation SimpleName cv len
+column visibility length StringLiteral MethodInvocation SimpleName cv len
+print stat SimpleName MethodInvocation StringLiteral value length
+print stat SimpleName MethodInvocation SimpleName val len
+value length StringLiteral MethodInvocation SimpleName val len
+print stat SimpleName MethodInvocation StringLiteral columns per row
+print stat SimpleName MethodInvocation SimpleName cols per row
+columns per row StringLiteral MethodInvocation SimpleName cols per row
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral empty
+println SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName scanner
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement QualifiedName systemout
+scanner SimpleName EnhancedForStatement Block SynchronizedStatement QualifiedName systemout
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName calc tablet stats
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName calc tablet stats
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName auths
+void PrimitiveType MethodDeclaration SimpleName calc tablet stats
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName auths
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName batch size
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName auths
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName batch size
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+calc tablet stats SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ke
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName batch size
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+conn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName batch size
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName batch size
+auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+auths SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+auths SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+batch size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+batch size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+batch size SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+ke SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+ke SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+columns SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName calc tablet stats
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName batch size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calc tablet stats
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName auths
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName batch size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

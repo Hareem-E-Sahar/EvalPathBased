@@ -1,0 +1,44 @@
+ret SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+in SimpleName MethodInvocation SimpleName read
+in SimpleName MethodInvocation SimpleName b
+in SimpleName MethodInvocation SimpleName off
+in SimpleName MethodInvocation SimpleName n
+read SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName off
+read SimpleName MethodInvocation SimpleName n
+b SimpleName MethodInvocation SimpleName off
+b SimpleName MethodInvocation SimpleName n
+off SimpleName MethodInvocation SimpleName n
+ret SimpleName Assignment MethodInvocation SimpleName in
+ret SimpleName Assignment MethodInvocation SimpleName read
+ret SimpleName Assignment MethodInvocation SimpleName b
+ret SimpleName Assignment MethodInvocation SimpleName off
+ret SimpleName Assignment MethodInvocation SimpleName n
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName integer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+integer SimpleName SimpleType MethodDeclaration SimpleName run
+integer SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+run SimpleName MethodDeclaration SimpleType SimpleName io exception
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

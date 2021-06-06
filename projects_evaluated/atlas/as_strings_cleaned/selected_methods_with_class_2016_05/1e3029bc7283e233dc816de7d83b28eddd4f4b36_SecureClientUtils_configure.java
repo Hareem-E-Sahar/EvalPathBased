@@ -1,0 +1,47 @@
+http url connection SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+conn SimpleName InstanceofExpression SimpleType SimpleName https url connection
+https url connection SimpleName SimpleType CastExpression SimpleName conn
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName https url connection
+c SimpleName VariableDeclarationFragment CastExpression SimpleName conn
+https url connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName set ssl socket factory
+c SimpleName MethodInvocation SimpleName sf
+set ssl socket factory SimpleName MethodInvocation SimpleName sf
+c SimpleName MethodInvocation SimpleName set hostname verifier
+c SimpleName MethodInvocation SimpleName hv
+set hostname verifier SimpleName MethodInvocation SimpleName hv
+set timeouts SimpleName MethodInvocation SimpleName conn
+set timeouts SimpleName MethodInvocation SimpleName timeout
+conn SimpleName MethodInvocation SimpleName timeout
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName http url connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conn
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SimpleName configure
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http url connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName conn
+http url connection SimpleName SimpleType MethodDeclaration SimpleName configure
+http url connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conn
+http url connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http url connection
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+configure SimpleName MethodDeclaration SimpleType SimpleName io exception
+configure SimpleName MethodDeclaration Block ReturnStatement SimpleName conn
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName http url connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

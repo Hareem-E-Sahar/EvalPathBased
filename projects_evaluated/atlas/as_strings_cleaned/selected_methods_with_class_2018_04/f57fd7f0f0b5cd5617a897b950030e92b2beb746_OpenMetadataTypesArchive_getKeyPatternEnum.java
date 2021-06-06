@@ -1,0 +1,500 @@
+guid SimpleName VariableDeclarationFragment StringLiteral df f aca de - abd ef aadba
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral df f aca de - abd ef aadba
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral df f aca de - abd ef aadba
+name SimpleName VariableDeclarationFragment StringLiteral key pattern
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key pattern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key pattern
+description SimpleName VariableDeclarationFragment StringLiteral defines the type of identifier used for an asset
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral defines the type of identifier used for an asset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral defines the type of identifier used for an asset
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName description guid
+archive helper SimpleName MethodInvocation SimpleName get empty enum def
+archive helper SimpleName MethodInvocation SimpleName guid
+archive helper SimpleName MethodInvocation SimpleName name
+archive helper SimpleName MethodInvocation SimpleName description
+archive helper SimpleName MethodInvocation SimpleName description guid
+get empty enum def SimpleName MethodInvocation SimpleName guid
+get empty enum def SimpleName MethodInvocation SimpleName name
+get empty enum def SimpleName MethodInvocation SimpleName description
+get empty enum def SimpleName MethodInvocation SimpleName description guid
+guid SimpleName MethodInvocation SimpleName name
+guid SimpleName MethodInvocation SimpleName description
+guid SimpleName MethodInvocation SimpleName description guid
+name SimpleName MethodInvocation SimpleName description
+name SimpleName MethodInvocation SimpleName description guid
+description SimpleName MethodInvocation SimpleName description guid
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName archive helper
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get empty enum def
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName description
+enum def SimpleName VariableDeclarationFragment MethodInvocation SimpleName description guid
+enum def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum element def
+enum element def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral local key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral local key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral local key
+element description SimpleName VariableDeclarationFragment StringLiteral unique key allocated and used within the scope of a single system
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral unique key allocated and used within the scope of a single system
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unique key allocated and used within the scope of a single system
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral recycled key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral recycled key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral recycled key
+element description SimpleName VariableDeclarationFragment StringLiteral key allocated and used within the scope of a single system that is periodically reused for different records
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key allocated and used within the scope of a single system that is periodically reused for different records
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key allocated and used within the scope of a single system that is periodically reused for different records
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral natural key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral natural key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral natural key
+element description SimpleName VariableDeclarationFragment StringLiteral key derived from an attribute of the entity such as email address passport number
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key derived from an attribute of the entity such as email address passport number
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key derived from an attribute of the entity such as email address passport number
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral mirror key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral mirror key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral mirror key
+element description SimpleName VariableDeclarationFragment StringLiteral key value copied from another system
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key value copied from another system
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key value copied from another system
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral aggregate key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral aggregate key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral aggregate key
+element description SimpleName VariableDeclarationFragment StringLiteral key formed by combining keys from multiple systems
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key formed by combining keys from multiple systems
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key formed by combining keys from multiple systems
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral callers key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral callers key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral callers key
+element description SimpleName VariableDeclarationFragment StringLiteral key from another system can bey used if system name provided
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key from another system can bey used if system name provided
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key from another system can bey used if system name provided
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral stable key
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral stable key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral stable key
+element description SimpleName VariableDeclarationFragment StringLiteral key value will remain active even if records are merged
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral key value will remain active even if records are merged
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral key value will remain active even if records are merged
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+element ordinal SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element ordinal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element value SimpleName VariableDeclarationFragment StringLiteral other
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral other
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral other
+element description SimpleName VariableDeclarationFragment StringLiteral another key pattern
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral another key pattern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral another key pattern
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element description guid
+archive helper SimpleName MethodInvocation SimpleName get enum element def
+archive helper SimpleName MethodInvocation SimpleName element ordinal
+archive helper SimpleName MethodInvocation SimpleName element value
+archive helper SimpleName MethodInvocation SimpleName element description
+archive helper SimpleName MethodInvocation SimpleName element description guid
+get enum element def SimpleName MethodInvocation SimpleName element ordinal
+get enum element def SimpleName MethodInvocation SimpleName element value
+get enum element def SimpleName MethodInvocation SimpleName element description
+get enum element def SimpleName MethodInvocation SimpleName element description guid
+element ordinal SimpleName MethodInvocation SimpleName element value
+element ordinal SimpleName MethodInvocation SimpleName element description
+element ordinal SimpleName MethodInvocation SimpleName element description guid
+element value SimpleName MethodInvocation SimpleName element description
+element value SimpleName MethodInvocation SimpleName element description guid
+element description SimpleName MethodInvocation SimpleName element description guid
+element def SimpleName Assignment MethodInvocation SimpleName archive helper
+element def SimpleName Assignment MethodInvocation SimpleName get enum element def
+element def SimpleName Assignment MethodInvocation SimpleName element ordinal
+element def SimpleName Assignment MethodInvocation SimpleName element value
+element def SimpleName Assignment MethodInvocation SimpleName element description
+element def SimpleName Assignment MethodInvocation SimpleName element description guid
+element defs SimpleName MethodInvocation SimpleName add
+element defs SimpleName MethodInvocation SimpleName element def
+add SimpleName MethodInvocation SimpleName element def
+enum def SimpleName MethodInvocation SimpleName set element defs
+enum def SimpleName MethodInvocation SimpleName element defs
+set element defs SimpleName MethodInvocation SimpleName element defs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final

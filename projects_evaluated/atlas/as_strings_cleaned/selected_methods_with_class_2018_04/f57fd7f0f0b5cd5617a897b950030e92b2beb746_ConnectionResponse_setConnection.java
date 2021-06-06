@@ -1,0 +1,20 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName connection
+connection SimpleName FieldAccess Assignment SimpleName connection
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection
+void PrimitiveType MethodDeclaration SimpleName set connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connection
+set connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+set connection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection

@@ -1,0 +1,99 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName list
+obj SimpleName InstanceofExpression SimpleType SimpleName set
+obj SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName obj
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+collection SimpleName SimpleType CastExpression SimpleName obj
+obj list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName collection
+obj list SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj list
+obj list SimpleName MethodInvocation SimpleName size
+is valid element count SimpleName MethodInvocation MethodInvocation SimpleName obj list
+is valid element count SimpleName MethodInvocation MethodInvocation SimpleName size
+object SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element type SimpleName MethodInvocation SimpleName get normalized value
+element type SimpleName MethodInvocation SimpleName element
+get normalized value SimpleName MethodInvocation SimpleName element
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element type
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized value
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName normalized value
+add SimpleName MethodInvocation SimpleName normalized value
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName element
+add SimpleName MethodInvocation SimpleName element
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName obj list
+element SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName obj list
+obj list SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+obj SimpleName MethodInvocation SimpleName get class
+obj SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName obj
+get length SimpleName MethodInvocation SimpleName obj
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+array len SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName array len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName obj
+is valid element count SimpleName MethodInvocation SimpleName array len
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName array len
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName obj
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName obj
+get SimpleName MethodInvocation SimpleName i
+obj SimpleName MethodInvocation SimpleName i
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+element SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element
+element type SimpleName MethodInvocation SimpleName get normalized value
+element type SimpleName MethodInvocation SimpleName element
+get normalized value SimpleName MethodInvocation SimpleName element
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element type
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+normalized value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName normalized value
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName normalized value
+add SimpleName MethodInvocation SimpleName normalized value
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName element
+add SimpleName MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName array len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+array len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get normalized value
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName collection
+public Modifier MethodDeclaration SimpleName get normalized value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+collection SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get normalized value
+get normalized value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get normalized value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get normalized value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get normalized value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

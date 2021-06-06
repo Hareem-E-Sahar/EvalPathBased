@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type guid
+known type def gui ds SimpleName MethodInvocation SimpleName get
+known type def gui ds SimpleName MethodInvocation SimpleName type guid
+get SimpleName MethodInvocation SimpleName type guid
+known attribute type def gui ds SimpleName MethodInvocation SimpleName get
+known attribute type def gui ds SimpleName MethodInvocation SimpleName type guid
+get SimpleName MethodInvocation SimpleName type guid
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is known type id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type guid
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is known type id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type guid
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is known type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is known type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+is known type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is known type id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type guid
+is known type id SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is known type id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is known type id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid

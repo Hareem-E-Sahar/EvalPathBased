@@ -1,0 +1,360 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+graph SimpleName SimpleType SingleVariableDeclaration SimpleName g
+mapped element cache SimpleName SimpleType SingleVariableDeclaration SimpleName cache
+final Modifier SingleVariableDeclaration SimpleType SimpleName json node
+final Modifier SingleVariableDeclaration SimpleName json
+json node SimpleName SimpleType SingleVariableDeclaration SimpleName json
+json SimpleName MethodInvocation SimpleName get
+json SimpleName MethodInvocation QualifiedName graph son tokens tp . label
+get SimpleName MethodInvocation QualifiedName graph son tokens tp . label
+node label SimpleName VariableDeclarationFragment MethodInvocation SimpleName json
+node label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+node label SimpleName VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . label
+final Modifier VariableDeclarationStatement SimpleType SimpleName json node
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName node label
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName json
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . label
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node label
+node label SimpleName MethodInvocation SimpleName text value
+node label SimpleName InfixExpression ConditionalExpression SimpleName empty string
+node label SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName node label
+node label SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName text value
+empty string SimpleName ConditionalExpression MethodInvocation SimpleName node label
+empty string SimpleName ConditionalExpression MethodInvocation SimpleName text value
+label SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName node label
+label SimpleName VariableDeclarationFragment ConditionalExpression SimpleName empty string
+label SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName node label
+label SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName text value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName label
+label SimpleName MethodInvocation SimpleName starts with
+label SimpleName MethodInvocation StringLiteral type
+starts with SimpleName MethodInvocation StringLiteral type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge id
+get mapped vertex SimpleName MethodInvocation SimpleName g
+get mapped vertex SimpleName MethodInvocation SimpleName cache
+get mapped vertex SimpleName MethodInvocation SimpleName json
+get mapped vertex SimpleName MethodInvocation QualifiedName graph son tokens tp . in v
+g SimpleName MethodInvocation SimpleName cache
+g SimpleName MethodInvocation SimpleName json
+g SimpleName MethodInvocation QualifiedName graph son tokens tp . in v
+cache SimpleName MethodInvocation SimpleName json
+cache SimpleName MethodInvocation QualifiedName graph son tokens tp . in v
+json SimpleName MethodInvocation QualifiedName graph son tokens tp . in v
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mapped vertex
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName g
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName json
+in SimpleName VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . in v
+final Modifier VariableDeclarationStatement SimpleType SimpleName vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get mapped vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName g
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cache
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName json
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . in v
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+get mapped vertex SimpleName MethodInvocation SimpleName g
+get mapped vertex SimpleName MethodInvocation SimpleName cache
+get mapped vertex SimpleName MethodInvocation SimpleName json
+get mapped vertex SimpleName MethodInvocation QualifiedName graph son tokens tp . out v
+g SimpleName MethodInvocation SimpleName cache
+g SimpleName MethodInvocation SimpleName json
+g SimpleName MethodInvocation QualifiedName graph son tokens tp . out v
+cache SimpleName MethodInvocation SimpleName json
+cache SimpleName MethodInvocation QualifiedName graph son tokens tp . out v
+json SimpleName MethodInvocation QualifiedName graph son tokens tp . out v
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName get mapped vertex
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName g
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName cache
+out SimpleName VariableDeclarationFragment MethodInvocation SimpleName json
+out SimpleName VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . out v
+final Modifier VariableDeclarationStatement SimpleType SimpleName vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get mapped vertex
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName g
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cache
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName json
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName graph son tokens tp . out v
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+in SimpleName InfixExpression InfixExpression InfixExpression SimpleName out
+json SimpleName MethodInvocation SimpleName get
+json SimpleName MethodInvocation QualifiedName graph son tokens tp . id
+get SimpleName MethodInvocation QualifiedName graph son tokens tp . id
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName json
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName get
+get typed value from json node SimpleName MethodInvocation MethodInvocation QualifiedName graph son tokens tp . id
+edge id SimpleName Assignment MethodInvocation SimpleName get typed value from json node
+edge id SimpleName Assignment MethodInvocation MethodInvocation SimpleName json
+edge id SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+edge id SimpleName Assignment MethodInvocation MethodInvocation QualifiedName graph son tokens tp . id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+graph son utility SimpleName MethodInvocation SimpleName read properties
+graph son utility SimpleName MethodInvocation SimpleName json
+read properties SimpleName MethodInvocation SimpleName json
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph son utility
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName read properties
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName json
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName graph son utility
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read properties
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName json
+edge id SimpleName MethodInvocation SimpleName to string
+props SimpleName MethodInvocation SimpleName put
+props SimpleName MethodInvocation QualifiedName constantsedge id in import key
+props SimpleName MethodInvocation MethodInvocation SimpleName edge id
+props SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation QualifiedName constantsedge id in import key
+put SimpleName MethodInvocation MethodInvocation SimpleName edge id
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+constantsedge id in import key QualifiedName MethodInvocation MethodInvocation SimpleName edge id
+constantsedge id in import key QualifiedName MethodInvocation MethodInvocation SimpleName to string
+element processors SimpleName MethodInvocation SimpleName update edge
+element processors SimpleName MethodInvocation SimpleName in
+element processors SimpleName MethodInvocation SimpleName out
+element processors SimpleName MethodInvocation SimpleName edge id
+element processors SimpleName MethodInvocation SimpleName label
+update edge SimpleName MethodInvocation SimpleName in
+update edge SimpleName MethodInvocation SimpleName out
+update edge SimpleName MethodInvocation SimpleName edge id
+update edge SimpleName MethodInvocation SimpleName label
+update edge SimpleName MethodInvocation SimpleName props
+in SimpleName MethodInvocation SimpleName out
+in SimpleName MethodInvocation SimpleName edge id
+in SimpleName MethodInvocation SimpleName label
+in SimpleName MethodInvocation SimpleName props
+out SimpleName MethodInvocation SimpleName edge id
+out SimpleName MethodInvocation SimpleName label
+out SimpleName MethodInvocation SimpleName props
+edge id SimpleName MethodInvocation SimpleName label
+edge id SimpleName MethodInvocation SimpleName props
+label SimpleName MethodInvocation SimpleName props
+label SimpleName Assignment MethodInvocation SimpleName element processors
+label SimpleName Assignment MethodInvocation SimpleName update edge
+label SimpleName Assignment MethodInvocation SimpleName in
+label SimpleName Assignment MethodInvocation SimpleName out
+label SimpleName Assignment MethodInvocation SimpleName edge id
+label SimpleName Assignment MethodInvocation SimpleName label
+label SimpleName Assignment MethodInvocation SimpleName props
+g SimpleName MethodInvocation SimpleName features
+g SimpleName MethodInvocation MethodInvocation SimpleName edge
+features SimpleName MethodInvocation MethodInvocation SimpleName edge
+edge features SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName g
+edge features SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName features
+edge features SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+edge features SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge features
+edge features SimpleName MethodInvocation SimpleName will allow id
+edge features SimpleName MethodInvocation SimpleName edge id
+will allow id SimpleName MethodInvocation SimpleName edge id
+out SimpleName MethodInvocation SimpleName add edge
+out SimpleName MethodInvocation SimpleName label
+out SimpleName MethodInvocation SimpleName in
+out SimpleName MethodInvocation QualifiedName tid
+out SimpleName MethodInvocation SimpleName edge id
+add edge SimpleName MethodInvocation SimpleName label
+add edge SimpleName MethodInvocation SimpleName in
+add edge SimpleName MethodInvocation QualifiedName tid
+add edge SimpleName MethodInvocation SimpleName edge id
+label SimpleName MethodInvocation SimpleName in
+label SimpleName MethodInvocation QualifiedName tid
+label SimpleName MethodInvocation SimpleName edge id
+in SimpleName MethodInvocation QualifiedName tid
+in SimpleName MethodInvocation SimpleName edge id
+tid QualifiedName MethodInvocation SimpleName edge id
+out SimpleName MethodInvocation SimpleName add edge
+out SimpleName MethodInvocation SimpleName label
+out SimpleName MethodInvocation SimpleName in
+add edge SimpleName MethodInvocation SimpleName label
+add edge SimpleName MethodInvocation SimpleName in
+label SimpleName MethodInvocation SimpleName in
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName tid
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName edge id
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName tid
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName edge id
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation QualifiedName tid
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName edge id
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+edge features SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+will allow id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+out SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+out SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+out SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+out SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+add edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+add edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+add edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+add edge SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+label SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+label SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+label SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+label SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+in SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+in SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+in SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+in SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+tid QualifiedName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+tid QualifiedName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+tid QualifiedName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+tid QualifiedName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName out
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName add edge
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName label
+edge id SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName in
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName edge features
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName will allow id
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName edge id
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName out
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName add edge
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName label
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName in
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation QualifiedName tid
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName edge id
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName out
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName add edge
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName label
+edge SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName in
+final Modifier VariableDeclarationStatement SimpleType SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+props SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+edge SimpleName MethodInvocation SimpleName property
+edge SimpleName MethodInvocation MethodInvocation SimpleName entry
+edge SimpleName MethodInvocation MethodInvocation SimpleName get key
+edge SimpleName MethodInvocation MethodInvocation SimpleName entry
+edge SimpleName MethodInvocation MethodInvocation SimpleName get value
+property SimpleName MethodInvocation MethodInvocation SimpleName entry
+property SimpleName MethodInvocation MethodInvocation SimpleName get key
+property SimpleName MethodInvocation MethodInvocation SimpleName entry
+property SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+get schema update map SimpleName MethodInvocation SimpleName schema update
+schema update SimpleName Assignment MethodInvocation SimpleName get schema update map
+schema update SimpleName Assignment MethodInvocation SimpleName schema update
+schema update SimpleName MethodInvocation SimpleName contains key
+schema update SimpleName MethodInvocation StringLiteral id
+contains key SimpleName MethodInvocation StringLiteral id
+edge SimpleName MethodInvocation SimpleName id
+schema update SimpleName MethodInvocation SimpleName put
+schema update SimpleName MethodInvocation StringLiteral id
+schema update SimpleName MethodInvocation MethodInvocation SimpleName edge
+schema update SimpleName MethodInvocation MethodInvocation SimpleName id
+put SimpleName MethodInvocation StringLiteral id
+put SimpleName MethodInvocation MethodInvocation SimpleName edge
+put SimpleName MethodInvocation MethodInvocation SimpleName id
+id StringLiteral MethodInvocation MethodInvocation SimpleName edge
+id StringLiteral MethodInvocation MethodInvocation SimpleName id
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+schema update SimpleName MethodInvocation SimpleName put
+schema update SimpleName MethodInvocation MethodInvocation SimpleName entry
+schema update SimpleName MethodInvocation MethodInvocation SimpleName get key
+schema update SimpleName MethodInvocation MethodInvocation SimpleName entry
+schema update SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName props
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+get schema update map SimpleName MethodInvocation SimpleName schema update
+schema update SimpleName Assignment MethodInvocation SimpleName get schema update map
+schema update SimpleName Assignment MethodInvocation SimpleName schema update
+schema update SimpleName MethodInvocation SimpleName put
+schema update SimpleName MethodInvocation StringLiteral oid
+schema update SimpleName MethodInvocation SimpleName edge id
+put SimpleName MethodInvocation StringLiteral oid
+put SimpleName MethodInvocation SimpleName edge id
+oid StringLiteral MethodInvocation SimpleName edge id
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName edge from json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mapped element cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cache
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName edge from json
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName edge from json
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName edge from json
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graph
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mapped element cache
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cache
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json node
+edge from json SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json
+edge from json SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+edge from json SimpleName MethodDeclaration Block ReturnStatement SimpleName schema update
+g SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+g SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+g SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName edge from json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edge from json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json

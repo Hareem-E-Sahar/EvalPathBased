@@ -1,0 +1,192 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName itw
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rootuser
+zoo reader writer SimpleName MethodInvocation SimpleName get retrying instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get retrying instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName system permission
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName p
+system permission SimpleName MethodInvocation SimpleName values
+root perms SimpleName MethodInvocation SimpleName add
+root perms SimpleName MethodInvocation SimpleName p
+add SimpleName MethodInvocation SimpleName p
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation QualifiedName table permissionalter table
+singleton SimpleName MethodInvocation QualifiedName table permissionalter table
+table perms SimpleName MethodInvocation SimpleName put
+table perms SimpleName MethodInvocation QualifiedName root tableid
+table perms SimpleName MethodInvocation MethodInvocation SimpleName collections
+table perms SimpleName MethodInvocation MethodInvocation SimpleName singleton
+table perms SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+put SimpleName MethodInvocation QualifiedName root tableid
+put SimpleName MethodInvocation MethodInvocation SimpleName collections
+put SimpleName MethodInvocation MethodInvocation SimpleName singleton
+put SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName collections
+root tableid QualifiedName MethodInvocation MethodInvocation SimpleName singleton
+root tableid QualifiedName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation QualifiedName table permissionalter table
+singleton SimpleName MethodInvocation QualifiedName table permissionalter table
+table perms SimpleName MethodInvocation SimpleName put
+table perms SimpleName MethodInvocation QualifiedName metadata tableid
+table perms SimpleName MethodInvocation MethodInvocation SimpleName collections
+table perms SimpleName MethodInvocation MethodInvocation SimpleName singleton
+table perms SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+put SimpleName MethodInvocation QualifiedName metadata tableid
+put SimpleName MethodInvocation MethodInvocation SimpleName collections
+put SimpleName MethodInvocation MethodInvocation SimpleName singleton
+put SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName collections
+metadata tableid QualifiedName MethodInvocation MethodInvocation SimpleName singleton
+metadata tableid QualifiedName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+zoo SimpleName MethodInvocation SimpleName exists
+zoo SimpleName MethodInvocation SimpleName zk user path
+exists SimpleName MethodInvocation SimpleName zk user path
+rootuser SimpleName MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation SimpleName zk user path
+zoo SimpleName MethodInvocation MethodInvocation SimpleName rootuser
+zoo SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation SimpleName zk user path
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName rootuser
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName MethodInvocation MethodInvocation SimpleName rootuser
+zk user path SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zk user path SimpleName MethodInvocation QualifiedName node exists policyfail
+rootuser SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+init user SimpleName MethodInvocation SimpleName rootuser
+zk user path SimpleName InfixExpression StringLiteral /
+zk user path SimpleName InfixExpression SimpleName rootuser
+zk user path SimpleName InfixExpression SimpleName zk user sys perms
+/ StringLiteral InfixExpression SimpleName rootuser
+/ StringLiteral InfixExpression SimpleName zk user sys perms
+rootuser SimpleName InfixExpression SimpleName zk user sys perms
+zk security tool SimpleName MethodInvocation SimpleName convert system permissions
+zk security tool SimpleName MethodInvocation SimpleName root perms
+convert system permissions SimpleName MethodInvocation SimpleName root perms
+zoo SimpleName MethodInvocation SimpleName put persistent data
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName rootuser
+zoo SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+zoo SimpleName MethodInvocation MethodInvocation SimpleName zk security tool
+zoo SimpleName MethodInvocation MethodInvocation SimpleName convert system permissions
+zoo SimpleName MethodInvocation MethodInvocation SimpleName root perms
+zoo SimpleName MethodInvocation QualifiedName node exists policyfail
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user path
+put persistent data SimpleName MethodInvocation InfixExpression StringLiteral /
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName rootuser
+put persistent data SimpleName MethodInvocation InfixExpression SimpleName zk user sys perms
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName zk security tool
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName convert system permissions
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName root perms
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyfail
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+zk user path SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName root perms
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName root perms
+rootuser SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+rootuser SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+rootuser SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName root perms
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName zk security tool
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName convert system permissions
+zk user sys perms SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName root perms
+zk user path SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+/ StringLiteral InfixExpression MethodInvocation QualifiedName node exists policyfail
+rootuser SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk user sys perms SimpleName InfixExpression MethodInvocation QualifiedName node exists policyfail
+zk security tool SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+convert system permissions SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+root perms SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyfail
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName table permission
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+table perms SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+create table perm SimpleName MethodInvocation SimpleName rootuser
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName entry
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName get key
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName entry
+create table perm SimpleName MethodInvocation MethodInvocation SimpleName get value
+rootuser SimpleName MethodInvocation MethodInvocation SimpleName entry
+rootuser SimpleName MethodInvocation MethodInvocation SimpleName get key
+rootuser SimpleName MethodInvocation MethodInvocation SimpleName entry
+rootuser SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName table perms
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize security
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName itw
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize security
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName itw
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName initialize security
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName itw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName itw
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initialize security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+initialize security SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+itw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+itw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+rootuser SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize security
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName itw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize security
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName itw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rootuser
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,49 @@
+master goal state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+state SimpleName MethodInvocation SimpleName name
+state SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+get instance SimpleName MethodInvocation MethodInvocation SimpleName put persistent data
+zoo reader writer SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+zoo reader writer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+zoo reader writer SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get instance SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+put persistent data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+put persistent data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+put persistent data SimpleName MethodInvocation InfixExpression QualifiedName constantszmaster goal state
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+put persistent data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+put persistent data SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+put persistent data SimpleName MethodInvocation QualifiedName node exists policyoverwrite
+constantszmaster goal state QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get bytes
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+get root SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+constantszmaster goal state QualifiedName InfixExpression MethodInvocation QualifiedName node exists policyoverwrite
+state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+get bytes SimpleName MethodInvocation MethodInvocation QualifiedName node exists policyoverwrite
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to set master goal state in zookeeper
+error SimpleName MethodInvocation StringLiteral unable to set master goal state in zookeeper
+void PrimitiveType MethodDeclaration SimpleName set master goal state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master goal state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+set master goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName master goal state
+set master goal state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set master goal state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set master goal state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

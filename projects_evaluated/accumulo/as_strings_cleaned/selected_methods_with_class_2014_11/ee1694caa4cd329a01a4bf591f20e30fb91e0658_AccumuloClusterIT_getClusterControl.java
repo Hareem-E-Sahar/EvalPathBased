@@ -1,0 +1,19 @@
+preconditions SimpleName MethodInvocation SimpleName check state
+preconditions SimpleName MethodInvocation SimpleName initialized
+check state SimpleName MethodInvocation SimpleName initialized
+cluster SimpleName MethodInvocation SimpleName get cluster control
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName cluster control
+public Modifier MethodDeclaration SimpleName get cluster control
+static Modifier MethodDeclaration SimpleType SimpleName cluster control
+static Modifier MethodDeclaration SimpleName get cluster control
+cluster control SimpleName SimpleType MethodDeclaration SimpleName get cluster control
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster control
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster control
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster control
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster control

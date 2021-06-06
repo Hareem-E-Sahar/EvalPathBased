@@ -1,0 +1,34 @@
+lock loss reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+reason SimpleName FieldAccess Assignment SimpleName reason
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName lost lock
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lost lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName lost lock
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName reason
+void PrimitiveType MethodDeclaration SimpleName lost lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lock loss reason
+lost lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName lost lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lost lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

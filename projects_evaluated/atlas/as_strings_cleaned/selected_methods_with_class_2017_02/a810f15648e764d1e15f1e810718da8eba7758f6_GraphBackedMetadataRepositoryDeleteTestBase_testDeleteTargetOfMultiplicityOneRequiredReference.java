@@ -1,0 +1,92 @@
+create db table graph SimpleName MethodInvocation StringLiteral db
+create db table graph SimpleName MethodInvocation StringLiteral table
+db StringLiteral MethodInvocation StringLiteral table
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation QualifiedName test utilsdatabase type
+repository service SimpleName MethodInvocation StringLiteral name
+repository service SimpleName MethodInvocation StringLiteral db
+get entity definition SimpleName MethodInvocation QualifiedName test utilsdatabase type
+get entity definition SimpleName MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation StringLiteral db
+test utilsdatabase type QualifiedName MethodInvocation StringLiteral name
+test utilsdatabase type QualifiedName MethodInvocation StringLiteral db
+name StringLiteral MethodInvocation StringLiteral db
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+db SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilsdatabase type
+db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+db SimpleName VariableDeclarationFragment MethodInvocation StringLiteral db
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+db SimpleName MethodInvocation SimpleName get id
+db SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+null required attribute exception SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get simple name
+lower bound on attribute hive tabledatabase was not enforced - StringLiteral InfixExpression MethodInvocation SimpleName get simple name
+lower bound on attribute hive tabledatabase was not enforced - StringLiteral InfixExpression StringLiteral was expected but none thrown
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation InfixExpression StringLiteral lower bound on attribute hive tabledatabase was not enforced -
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+assert SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+fail SimpleName MethodInvocation InfixExpression StringLiteral lower bound on attribute hive tabledatabase was not enforced -
+fail SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get simple name
+fail SimpleName MethodInvocation InfixExpression StringLiteral was expected but none thrown
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+verify exception thrown SimpleName MethodInvocation SimpleName e
+verify exception thrown SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null required attribute exception
+e SimpleName MethodInvocation TypeLiteral SimpleType SimpleName null required attribute exception
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation QualifiedName test utilstable type
+repository service SimpleName MethodInvocation StringLiteral name
+repository service SimpleName MethodInvocation StringLiteral table
+get entity definition SimpleName MethodInvocation QualifiedName test utilstable type
+get entity definition SimpleName MethodInvocation StringLiteral name
+get entity definition SimpleName MethodInvocation StringLiteral table
+test utilstable type QualifiedName MethodInvocation StringLiteral name
+test utilstable type QualifiedName MethodInvocation StringLiteral table
+name StringLiteral MethodInvocation StringLiteral table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+table SimpleName VariableDeclarationFragment MethodInvocation QualifiedName test utilstable type
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+table SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName table
+assert not null SimpleName MethodInvocation SimpleName table
+table SimpleName MethodInvocation SimpleName get id
+table SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+db SimpleName MethodInvocation SimpleName get id
+db SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db
+delete entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete target of multiplicity one required reference
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete target of multiplicity one required reference
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete target of multiplicity one required reference
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete target of multiplicity one required reference SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete target of multiplicity one required reference
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete target of multiplicity one required reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string utils SimpleName MethodInvocation SimpleName starts with
+string utils SimpleName MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation StringLiteral `
+starts with SimpleName MethodInvocation SimpleName type name
+starts with SimpleName MethodInvocation StringLiteral `
+type name SimpleName MethodInvocation StringLiteral `
+string utils SimpleName MethodInvocation SimpleName ends with
+string utils SimpleName MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation StringLiteral `
+ends with SimpleName MethodInvocation SimpleName type name
+ends with SimpleName MethodInvocation StringLiteral `
+type name SimpleName MethodInvocation StringLiteral `
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral `
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral `
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral `
+` StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+` StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+` StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName type name
+` StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral `
+ret SimpleName Assignment SimpleName type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral s
+string SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation StringLiteral s
+format SimpleName MethodInvocation SimpleName type name
+s StringLiteral MethodInvocation SimpleName type name
+ret SimpleName Assignment MethodInvocation SimpleName string
+ret SimpleName Assignment MethodInvocation SimpleName format
+ret SimpleName Assignment MethodInvocation StringLiteral s
+ret SimpleName Assignment MethodInvocation SimpleName type name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName escape type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName escape type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+escape type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+escape type name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+escape type name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName escape type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName escape type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

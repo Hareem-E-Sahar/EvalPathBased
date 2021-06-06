@@ -1,0 +1,126 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+repository SimpleName MethodInvocation SimpleName create
+repository SimpleName MethodInvocation SimpleName ref
+create SimpleName MethodInvocation SimpleName ref
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName repository
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName create
+referenceable SimpleName SimpleType CastExpression MethodInvocation SimpleName ref
+ref SimpleName MethodInvocation SimpleName get type name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+hive type system SimpleName MethodInvocation SimpleName get data type
+hive type system SimpleName MethodInvocation SimpleName type name
+get data type SimpleName MethodInvocation SimpleName type name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive type system
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+creating instance of type StringLiteral InfixExpression SimpleName type name
+creating instance of type StringLiteral InfixExpression StringLiteral data type
+creating instance of type StringLiteral InfixExpression SimpleName data type
+type name SimpleName InfixExpression StringLiteral data type
+type name SimpleName InfixExpression SimpleName data type
+data type StringLiteral InfixExpression SimpleName data type
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating instance of type
+log SimpleName MethodInvocation InfixExpression SimpleName type name
+log SimpleName MethodInvocation InfixExpression StringLiteral data type
+log SimpleName MethodInvocation InfixExpression SimpleName data type
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating instance of type
+debug SimpleName MethodInvocation InfixExpression SimpleName type name
+debug SimpleName MethodInvocation InfixExpression StringLiteral data type
+debug SimpleName MethodInvocation InfixExpression SimpleName data type
+data type SimpleName MethodInvocation SimpleName convert
+data type SimpleName MethodInvocation SimpleName ref
+data type SimpleName MethodInvocation QualifiedName multiplicityoptional
+convert SimpleName MethodInvocation SimpleName ref
+convert SimpleName MethodInvocation QualifiedName multiplicityoptional
+ref SimpleName MethodInvocation QualifiedName multiplicityoptional
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName data type
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName convert
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName ref
+i typed referenceable instance SimpleName SimpleType CastExpression MethodInvocation QualifiedName multiplicityoptional
+instance SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed referenceable instance
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName data type
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName convert
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ref
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName multiplicityoptional
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+graph repository SimpleName MethodInvocation SimpleName create entity
+graph repository SimpleName MethodInvocation SimpleName instance
+graph repository SimpleName MethodInvocation SimpleName type name
+create entity SimpleName MethodInvocation SimpleName instance
+create entity SimpleName MethodInvocation SimpleName type name
+instance SimpleName MethodInvocation SimpleName type name
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph repository
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entity
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+creating instance of type StringLiteral InfixExpression SimpleName type name
+creating instance of type StringLiteral InfixExpression StringLiteral data type
+creating instance of type StringLiteral InfixExpression SimpleName data type
+creating instance of type StringLiteral InfixExpression StringLiteral guid
+creating instance of type StringLiteral InfixExpression SimpleName guid
+type name SimpleName InfixExpression StringLiteral data type
+type name SimpleName InfixExpression SimpleName data type
+type name SimpleName InfixExpression StringLiteral guid
+type name SimpleName InfixExpression SimpleName guid
+data type StringLiteral InfixExpression SimpleName data type
+data type StringLiteral InfixExpression StringLiteral guid
+data type StringLiteral InfixExpression SimpleName guid
+data type SimpleName InfixExpression StringLiteral guid
+data type SimpleName InfixExpression SimpleName guid
+guid StringLiteral InfixExpression SimpleName guid
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral creating instance of type
+systemout QualifiedName MethodInvocation InfixExpression SimpleName type name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral data type
+systemout QualifiedName MethodInvocation InfixExpression SimpleName data type
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral guid
+systemout QualifiedName MethodInvocation InfixExpression SimpleName guid
+println SimpleName MethodInvocation InfixExpression StringLiteral creating instance of type
+println SimpleName MethodInvocation InfixExpression SimpleName type name
+println SimpleName MethodInvocation InfixExpression StringLiteral data type
+println SimpleName MethodInvocation InfixExpression SimpleName data type
+println SimpleName MethodInvocation InfixExpression StringLiteral guid
+println SimpleName MethodInvocation InfixExpression SimpleName guid
+ref SimpleName MethodInvocation SimpleName get type name
+ref SimpleName MethodInvocation SimpleName get values map
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName guid
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ref
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ref
+referenceable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get values map
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName ref
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get type name
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName ref
+guid SimpleName ClassInstanceCreation MethodInvocation SimpleName get values map
+ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ref
+ref SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values map
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ref
+get type name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get values map
+private Modifier MethodDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName create instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+private Modifier MethodDeclaration SimpleType SimpleName metadata exception
+referenceable SimpleName SimpleType MethodDeclaration SimpleName create instance
+referenceable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref
+referenceable SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+create instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+create instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+create instance SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName create instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

@@ -1,0 +1,74 @@
+manager SimpleName MethodInvocation SimpleName resolve file
+manager SimpleName MethodInvocation SimpleName test dir
+resolve file SimpleName MethodInvocation SimpleName test dir
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+fo SimpleName VariableDeclarationFragment MethodInvocation SimpleName test dir
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fo
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName fo
+assert not null SimpleName MethodInvocation SimpleName fo
+fo SimpleName MethodInvocation SimpleName exists
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert SimpleName MethodInvocation MethodInvocation SimpleName exists
+assert false SimpleName MethodInvocation MethodInvocation SimpleName fo
+assert false SimpleName MethodInvocation MethodInvocation SimpleName exists
+create test file SimpleName MethodInvocation SimpleName hdfs
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test file
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName hdfs
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName get parent
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+dir SimpleName MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName dir
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+childrenlength QualifiedName InfixExpression NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InfixExpression QualifiedName childrenlength
+assert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression QualifiedName childrenlength
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+children SimpleName ArrayAccess NumberLiteral empty
+children SimpleName ArrayAccess MethodInvocation SimpleName get name
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get name
+file SimpleName MethodInvocation SimpleName get name
+children SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+equals SimpleName MethodInvocation MethodInvocation SimpleName file
+equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test do list children
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test do list children
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test do list children
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test do list children SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test do list children
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test do list children
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName msg
+msg SimpleName FieldAccess Assignment SimpleName msg
+public Modifier MethodDeclaration SimpleType SimpleName unknown writer
+public Modifier MethodDeclaration SimpleName set msg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName msg
+unknown writer SimpleName SimpleType MethodDeclaration SimpleName set msg
+unknown writer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName msg
+set msg SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set msg SimpleName MethodDeclaration SingleVariableDeclaration SimpleName msg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown writer
+public Modifier TypeDeclaration MethodDeclaration SimpleName set msg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown writer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set msg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName msg

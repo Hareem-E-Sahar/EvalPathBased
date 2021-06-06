@@ -1,0 +1,36 @@
+titan management SimpleName SimpleType SingleVariableDeclaration SimpleName management
+management SimpleName MethodInvocation SimpleName commit
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral index commit failed
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral index commit failed
+error SimpleName MethodInvocation SimpleName e
+index commit failed StringLiteral MethodInvocation SimpleName e
+index exception SimpleName SimpleType ClassInstanceCreation StringLiteral index commit failed
+index exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+index commit failed StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName commit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier MethodDeclaration SimpleType SimpleName index exception
+void PrimitiveType MethodDeclaration SimpleName commit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName management
+void PrimitiveType MethodDeclaration SimpleType SimpleName index exception
+commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan management
+commit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName management
+commit SimpleName MethodDeclaration SimpleType SimpleName index exception
+management SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName index exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName index exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName management
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName index exception

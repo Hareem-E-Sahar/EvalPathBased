@@ -1,0 +1,93 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current results
+type def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName current results
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName returned type def
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source metadata collection id
+returned type def SimpleName MethodInvocation SimpleName get guid
+returned type def guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName returned type def
+returned type def guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName returned type def guid
+returned type def SimpleName MethodInvocation SimpleName get name
+returned type def name SimpleName VariableDeclarationFragment MethodInvocation SimpleName returned type def
+returned type def name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName returned type def name
+returned type def SimpleName MethodInvocation SimpleName get version
+returned type def version SimpleName VariableDeclarationFragment MethodInvocation SimpleName returned type def
+returned type def version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get version
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName returned type def version
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName returned type def
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get version
+is unique SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is unique
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName current type def
+current type def SimpleName MethodInvocation SimpleName get guid
+current type def SimpleName MethodInvocation MethodInvocation SimpleName equals
+get guid SimpleName MethodInvocation MethodInvocation SimpleName equals
+current type def SimpleName MethodInvocation MethodInvocation SimpleName returned type def guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName returned type def guid
+equals SimpleName MethodInvocation SimpleName returned type def guid
+current type def SimpleName MethodInvocation SimpleName get name
+current type def SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+current type def SimpleName MethodInvocation MethodInvocation SimpleName returned type def name
+get name SimpleName MethodInvocation MethodInvocation SimpleName returned type def name
+equals SimpleName MethodInvocation SimpleName returned type def name
+current type def SimpleName MethodInvocation SimpleName get version
+current type def SimpleName MethodInvocation InfixExpression SimpleName returned type def version
+get version SimpleName MethodInvocation InfixExpression SimpleName returned type def version
+current type def SimpleName MethodInvocation SimpleName equals
+current type def SimpleName MethodInvocation SimpleName returned type def
+equals SimpleName MethodInvocation SimpleName returned type def
+is unique SimpleName Assignment BooleanLiteral false
+current type def SimpleName MethodInvocation SimpleName get name
+current type def SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+current type def SimpleName MethodInvocation MethodInvocation SimpleName returned type def name
+get name SimpleName MethodInvocation MethodInvocation SimpleName returned type def name
+equals SimpleName MethodInvocation SimpleName returned type def name
+type def SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName current results
+current type def SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName current results
+current results SimpleName MethodInvocation SimpleName add
+current results SimpleName MethodInvocation SimpleName returned type def
+add SimpleName MethodInvocation SimpleName returned type def
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName current results
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is unique
+current results SimpleName EnhancedForStatement Block IfStatement SimpleName is unique
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def
+private Modifier MethodDeclaration SimpleName add unique type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName current results
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName returned type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique type def
+type def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName add unique type def
+add unique type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current results
+add unique type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+add unique type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName returned type def
+add unique type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add unique type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+add unique type def SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+add unique type def SimpleName MethodDeclaration Block ReturnStatement SimpleName current results
+current results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName returned type def
+current results SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+current results SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+returned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+returned type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+source metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName add unique type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current results
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName returned type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add unique type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current results
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName returned type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

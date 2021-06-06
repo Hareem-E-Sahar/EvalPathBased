@@ -1,0 +1,48 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class defs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName class defs
+is not empty SimpleName MethodInvocation SimpleName class defs
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class typetype name QualifiedName MethodInvocation SimpleName equals ignore case
+class typetype name QualifiedName MethodInvocation SimpleName type name
+equals ignore case SimpleName MethodInvocation SimpleName type name
+ret SimpleName Assignment SimpleName class type
+class type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName class defs
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hierarchical type definition
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class type
+private Modifier MethodDeclaration SimpleName find class type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hierarchical type definition
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class type
+static Modifier MethodDeclaration SimpleName find class type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName class defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find class type
+class type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find class type
+find class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class defs
+find class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find class type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+find class type SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+class defs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

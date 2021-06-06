@@ -1,0 +1,124 @@
+finished SimpleName Assignment BooleanLiteral true
+store SimpleName MethodInvocation SimpleName get
+store SimpleName MethodInvocation QualifiedName constantszroot tablet future location
+get SimpleName MethodInvocation QualifiedName constantszroot tablet future location
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+future SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+future SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantszroot tablet future location
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName future
+store SimpleName MethodInvocation SimpleName get
+store SimpleName MethodInvocation QualifiedName constantszroot tablet location
+get SimpleName MethodInvocation QualifiedName constantszroot tablet location
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+current SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+current SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantszroot tablet location
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+store SimpleName MethodInvocation SimpleName get
+store SimpleName MethodInvocation QualifiedName constantszroot tablet last location
+get SimpleName MethodInvocation QualifiedName constantszroot tablet last location
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+last SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+last SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantszroot tablet last location
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName last
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current session
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName future session
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last session
+parse SimpleName MethodInvocation SimpleName future
+future session SimpleName Assignment MethodInvocation SimpleName parse
+future session SimpleName Assignment MethodInvocation SimpleName future
+parse SimpleName MethodInvocation SimpleName last
+last session SimpleName Assignment MethodInvocation SimpleName parse
+last session SimpleName Assignment MethodInvocation SimpleName last
+parse SimpleName MethodInvocation SimpleName current
+current session SimpleName Assignment MethodInvocation SimpleName parse
+current session SimpleName Assignment MethodInvocation SimpleName current
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+store SimpleName MethodInvocation SimpleName get children
+store SimpleName MethodInvocation QualifiedName constantszroot tablet walogs
+get children SimpleName MethodInvocation QualifiedName constantszroot tablet walogs
+constantszroot tablet walogs QualifiedName InfixExpression StringLiteral /
+constantszroot tablet walogs QualifiedName InfixExpression SimpleName entry
+/ StringLiteral InfixExpression SimpleName entry
+store SimpleName MethodInvocation SimpleName get
+store SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+store SimpleName MethodInvocation InfixExpression StringLiteral /
+store SimpleName MethodInvocation InfixExpression SimpleName entry
+get SimpleName MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName entry
+log info SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+log info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+log info SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantszroot tablet walogs
+log info SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+log info SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName entry
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName log info
+log entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName metadata tablelog entry
+metadata tablelog entry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log entry
+log entry SimpleName MethodInvocation SimpleName from bytes
+log entry SimpleName MethodInvocation SimpleName log info
+from bytes SimpleName MethodInvocation SimpleName log info
+logs SimpleName MethodInvocation SimpleName add
+logs SimpleName MethodInvocation QualifiedName log entrylog set
+add SimpleName MethodInvocation QualifiedName log entrylog set
+root tablet log set StringLiteral InfixExpression QualifiedName log entrylog set
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral root tablet log set
+log SimpleName MethodInvocation InfixExpression QualifiedName log entrylog set
+debug SimpleName MethodInvocation InfixExpression StringLiteral root tablet log set
+debug SimpleName MethodInvocation InfixExpression QualifiedName log entrylog set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName store
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName constantszroot tablet walogs
+tablet location state SimpleName SimpleType ClassInstanceCreation QualifiedName constantsroot tablet extent
+tablet location state SimpleName SimpleType ClassInstanceCreation SimpleName future session
+tablet location state SimpleName SimpleType ClassInstanceCreation SimpleName current session
+tablet location state SimpleName SimpleType ClassInstanceCreation SimpleName last session
+tablet location state SimpleName SimpleType ClassInstanceCreation SimpleName logs
+constantsroot tablet extent QualifiedName ClassInstanceCreation SimpleName future session
+constantsroot tablet extent QualifiedName ClassInstanceCreation SimpleName current session
+constantsroot tablet extent QualifiedName ClassInstanceCreation SimpleName last session
+constantsroot tablet extent QualifiedName ClassInstanceCreation SimpleName logs
+constantsroot tablet extent QualifiedName ClassInstanceCreation BooleanLiteral false
+future session SimpleName ClassInstanceCreation SimpleName current session
+future session SimpleName ClassInstanceCreation SimpleName last session
+future session SimpleName ClassInstanceCreation SimpleName logs
+future session SimpleName ClassInstanceCreation BooleanLiteral false
+current session SimpleName ClassInstanceCreation SimpleName last session
+current session SimpleName ClassInstanceCreation SimpleName logs
+current session SimpleName ClassInstanceCreation BooleanLiteral false
+last session SimpleName ClassInstanceCreation SimpleName logs
+last session SimpleName ClassInstanceCreation BooleanLiteral false
+logs SimpleName ClassInstanceCreation BooleanLiteral false
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName tablet location state
+result SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsroot tablet extent
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName future session
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current session
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName last session
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName logs
+result SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+tablet location state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+returning root tablet state StringLiteral InfixExpression SimpleName result
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral returning root tablet state
+log SimpleName MethodInvocation InfixExpression SimpleName result
+debug SimpleName MethodInvocation InfixExpression StringLiteral returning root tablet state
+debug SimpleName MethodInvocation InfixExpression SimpleName result
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName tablet location state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName tablet location state
+public Modifier MethodDeclaration SimpleName next
+tablet location state SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet location state
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet location state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

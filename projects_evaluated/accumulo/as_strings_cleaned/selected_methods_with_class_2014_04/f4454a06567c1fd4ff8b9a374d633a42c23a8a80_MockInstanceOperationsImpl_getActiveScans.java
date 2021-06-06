@@ -1,0 +1,36 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName active scan
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tserver
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName active scan
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get active scans
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tserver
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName active scan
+public Modifier MethodDeclaration SimpleName get active scans
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans
+active scan SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get active scans
+get active scans SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active scans SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tserver
+get active scans SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get active scans SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tserver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active scans
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active scans
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tserver
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

@@ -1,0 +1,95 @@
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get site configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance dfs dir
+get site configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance dfs dir
+get SimpleName MethodInvocation QualifiedName propertyinstance dfs dir
+single namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+single namespace SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+single namespace SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+single namespace SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance dfs dir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName single namespace
+server configuration SimpleName MethodInvocation SimpleName get site configuration
+server configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+get site configuration SimpleName MethodInvocation MethodInvocation SimpleName get
+server configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance dfs uri
+get site configuration SimpleName MethodInvocation MethodInvocation QualifiedName propertyinstance dfs uri
+get SimpleName MethodInvocation QualifiedName propertyinstance dfs uri
+dfs uri SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server configuration
+dfs uri SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get site configuration
+dfs uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+dfs uri SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyinstance dfs uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dfs uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base dir
+dfs uri SimpleName MethodInvocation SimpleName is empty
+dfs uri SimpleName InfixExpression InfixExpression MethodInvocation SimpleName dfs uri
+dfs uri SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+cached configuration SimpleName MethodInvocation SimpleName get instance
+hadoop config SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached configuration
+hadoop config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hadoop config
+file system SimpleName MethodInvocation SimpleName get
+file system SimpleName MethodInvocation SimpleName hadoop config
+get SimpleName MethodInvocation SimpleName hadoop config
+file system SimpleName MethodInvocation MethodInvocation SimpleName get uri
+get SimpleName MethodInvocation MethodInvocation SimpleName get uri
+hadoop config SimpleName MethodInvocation MethodInvocation SimpleName get uri
+file system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+hadoop config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+get uri SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName single namespace
+to string SimpleName MethodInvocation InfixExpression SimpleName single namespace
+base dir SimpleName Assignment InfixExpression MethodInvocation SimpleName to string
+base dir SimpleName Assignment InfixExpression SimpleName single namespace
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+dfs uri SimpleName MethodInvocation SimpleName contains
+dfs uri SimpleName MethodInvocation StringLiteral :
+contains SimpleName MethodInvocation StringLiteral :
+propertyinstance dfs uri QualifiedName MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation QualifiedName propertyinstance dfs uri
+expected fully qualified uri for StringLiteral InfixExpression MethodInvocation SimpleName get key
+expected fully qualified uri for StringLiteral InfixExpression StringLiteral got
+expected fully qualified uri for StringLiteral InfixExpression SimpleName dfs uri
+propertyinstance dfs uri QualifiedName MethodInvocation InfixExpression StringLiteral got
+get key SimpleName MethodInvocation InfixExpression StringLiteral got
+propertyinstance dfs uri QualifiedName MethodInvocation InfixExpression SimpleName dfs uri
+get key SimpleName MethodInvocation InfixExpression SimpleName dfs uri
+got StringLiteral InfixExpression SimpleName dfs uri
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral expected fully qualified uri for
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral got
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dfs uri
+dfs uri SimpleName InfixExpression SimpleName single namespace
+base dir SimpleName Assignment InfixExpression SimpleName dfs uri
+base dir SimpleName Assignment InfixExpression SimpleName single namespace
+path SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+base dir SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+default base dir SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName base dir
+default base dir SimpleName Assignment MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get default base dir
+public Modifier MethodDeclaration Block ReturnStatement SimpleName default base dir
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get default base dir
+static Modifier MethodDeclaration Block ReturnStatement SimpleName default base dir
+synchronized Modifier MethodDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get default base dir
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName default base dir
+string SimpleName SimpleType MethodDeclaration SimpleName get default base dir
+get default base dir SimpleName MethodDeclaration Block ReturnStatement SimpleName default base dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default base dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default base dir

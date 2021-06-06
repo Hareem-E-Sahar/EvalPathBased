@@ -1,0 +1,71 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data version
+server constants SimpleName MethodInvocation SimpleName get data version location
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation SimpleName get data version location
+list status SimpleName MethodInvocation MethodInvocation SimpleName server constants
+list status SimpleName MethodInvocation MethodInvocation SimpleName get data version location
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName server constants
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data version location
+fileslength QualifiedName InfixExpression NumberLiteral empty
+files SimpleName InfixExpression InfixExpression InfixExpression QualifiedName fileslength
+files SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+data version SimpleName Assignment PrefixExpression NumberLiteral empty
+files SimpleName ArrayAccess NumberLiteral empty
+files SimpleName ArrayAccess MethodInvocation SimpleName get path
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get path
+files SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName get name
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName get name
+get path SimpleName MethodInvocation MethodInvocation SimpleName get name
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+integer SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get name
+data version SimpleName Assignment MethodInvocation SimpleName integer
+data version SimpleName Assignment MethodInvocation SimpleName parse int
+data version SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to read accumulo version an error occurred
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unable to read accumulo version an error occurred StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get accumulo persistent version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get accumulo persistent version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SimpleName get accumulo persistent version
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get accumulo persistent version
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fs
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get accumulo persistent version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file system
+get accumulo persistent version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs
+get accumulo persistent version SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get accumulo persistent version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get accumulo persistent version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs

@@ -1,0 +1,12 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName properties definition
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName type def attribute
+public Modifier MethodDeclaration SimpleName get properties definition
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties definition
+type def attribute SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties definition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties definition

@@ -1,0 +1,66 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+key SimpleName SimpleType SingleVariableDeclaration SimpleName k
+k SimpleName MethodInvocation SimpleName compare to
+k SimpleName MethodInvocation SimpleName k
+compare to SimpleName MethodInvocation SimpleName k
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName compare to
+cmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName k
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName compare to
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName k
+cmp SimpleName InfixExpression NumberLiteral empty
+k SimpleName InstanceofExpression SimpleType SimpleName mem key
+k SimpleName InstanceofExpression SimpleType SimpleName mem key
+mem key SimpleName SimpleType CastExpression SimpleName k
+k SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName mutation count
+mem key SimpleName SimpleType CastExpression SimpleName k
+k SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName mutation count
+mutation count SimpleName FieldAccess InfixExpression FieldAccess SimpleName mutation count
+cmp SimpleName Assignment InfixExpression FieldAccess SimpleName mutation count
+cmp SimpleName Assignment InfixExpression FieldAccess SimpleName mutation count
+cmp SimpleName Assignment NumberLiteral empty
+k SimpleName InstanceofExpression SimpleType SimpleName mem key
+cmp SimpleName Assignment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cmp
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName k
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cmp
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName k
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName cmp
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName k
+compare SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare SimpleName MethodDeclaration Block ReturnStatement SimpleName cmp
+k SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName k

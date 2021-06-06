@@ -1,0 +1,82 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+inst SimpleName MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName inst
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get root SimpleName MethodInvocation MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespaces
+inst SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespaces
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespaces
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+inst SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace id
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+inst SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+inst SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+constantsznamespaces QualifiedName InfixExpression StringLiteral /
+constantsznamespaces QualifiedName InfixExpression MethodInvocation SimpleName get namespace id
+constantsznamespaces QualifiedName InfixExpression QualifiedName constantsznamespace conf
+constantsznamespaces QualifiedName InfixExpression StringLiteral /
+constantsznamespaces QualifiedName InfixExpression SimpleName key
+/ StringLiteral InfixExpression MethodInvocation SimpleName get namespace id
+/ StringLiteral InfixExpression QualifiedName constantsznamespace conf
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName key
+get namespace id SimpleName MethodInvocation InfixExpression QualifiedName constantsznamespace conf
+get namespace id SimpleName MethodInvocation InfixExpression StringLiteral /
+get namespace id SimpleName MethodInvocation InfixExpression SimpleName key
+constantsznamespace conf QualifiedName InfixExpression StringLiteral /
+constantsznamespace conf QualifiedName InfixExpression SimpleName key
+/ StringLiteral InfixExpression SimpleName key
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+z path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsznamespaces
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get namespace id
+z path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsznamespace conf
+z path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z path SimpleName VariableDeclarationFragment InfixExpression SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z path
+get prop cache SimpleName MethodInvocation MethodInvocation SimpleName get
+get prop cache SimpleName MethodInvocation MethodInvocation SimpleName z path
+get SimpleName MethodInvocation SimpleName z path
+v SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get prop cache
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName z path
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+string SimpleName SimpleType ClassInstanceCreation SimpleName v
+string SimpleName SimpleType ClassInstanceCreation QualifiedName constantsutf
+v SimpleName ClassInstanceCreation QualifiedName constantsutf
+value SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+value SimpleName Assignment ClassInstanceCreation SimpleName v
+value SimpleName Assignment ClassInstanceCreation QualifiedName constantsutf
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+private Modifier MethodDeclaration Block ReturnStatement SimpleName value
+string SimpleName SimpleType MethodDeclaration SimpleName get
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

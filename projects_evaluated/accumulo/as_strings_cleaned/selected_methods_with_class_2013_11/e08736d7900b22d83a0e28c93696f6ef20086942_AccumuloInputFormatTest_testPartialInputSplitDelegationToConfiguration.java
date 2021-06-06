@@ -1,0 +1,245 @@
+user SimpleName VariableDeclarationFragment StringLiteral test partial input split user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral test partial input split user
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+password SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName password token
+password SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+password token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral test partial input split delegation to configuration
+mock instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral test partial input split delegation to configuration
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mock instance
+mock instance SimpleName MethodInvocation SimpleName get connector
+mock instance SimpleName MethodInvocation SimpleName user
+mock instance SimpleName MethodInvocation SimpleName password
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation SimpleName password
+user SimpleName MethodInvocation SimpleName password
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock instance
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation StringLiteral testtable
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral testtable
+create SimpleName MethodInvocation StringLiteral testtable
+c SimpleName MethodInvocation SimpleName create batch writer
+c SimpleName MethodInvocation StringLiteral testtable
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation StringLiteral testtable
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+testtable StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testtable
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation InfixExpression SimpleName i
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation InfixExpression SimpleName i
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+% x StringLiteral MethodInvocation InfixExpression SimpleName i
+% x StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral % x
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation SimpleName i
+% x StringLiteral MethodInvocation SimpleName i
+string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+format SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+% x StringLiteral MethodInvocation MethodInvocation SimpleName get bytes
+i SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+bw SimpleName MethodInvocation SimpleName close
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test mapper
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName test mapper
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+accumulo input format SimpleName MethodInvocation SimpleName set connector info
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName user
+accumulo input format SimpleName MethodInvocation SimpleName password
+set connector info SimpleName MethodInvocation SimpleName job
+set connector info SimpleName MethodInvocation SimpleName user
+set connector info SimpleName MethodInvocation SimpleName password
+job SimpleName MethodInvocation SimpleName user
+job SimpleName MethodInvocation SimpleName password
+user SimpleName MethodInvocation SimpleName password
+accumulo input format SimpleName MethodInvocation SimpleName set input table name
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation StringLiteral testtable
+set input table name SimpleName MethodInvocation SimpleName job
+set input table name SimpleName MethodInvocation StringLiteral testtable
+job SimpleName MethodInvocation StringLiteral testtable
+accumulo input format SimpleName MethodInvocation SimpleName set scan authorizations
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+set scan authorizations SimpleName MethodInvocation SimpleName job
+set scan authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+job SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+accumulo input format SimpleName MethodInvocation SimpleName set mock instance
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation StringLiteral test partial input split delegation to configuration
+set mock instance SimpleName MethodInvocation SimpleName job
+set mock instance SimpleName MethodInvocation StringLiteral test partial input split delegation to configuration
+job SimpleName MethodInvocation StringLiteral test partial input split delegation to configuration
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName accumulo input format
+accumulo input format SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName input split
+input SimpleName MethodInvocation SimpleName get splits
+input SimpleName MethodInvocation SimpleName job
+get splits SimpleName MethodInvocation SimpleName job
+splits SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+splits SimpleName VariableDeclarationFragment MethodInvocation SimpleName get splits
+splits SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+splits SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName splits
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+splits SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName get mapper class
+job SimpleName MethodInvocation MethodInvocation SimpleName new instance
+get mapper class SimpleName MethodInvocation MethodInvocation SimpleName new instance
+test mapper SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+mapper SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName test mapper
+mapper SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new instance
+test mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mapper
+empty split SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range input split
+range input split SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName empty split
+id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName task attempt id
+task attempt id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+job SimpleName MethodInvocation SimpleName get configuration
+task attempt context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName job
+task attempt context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+task attempt context SimpleName SimpleType ClassInstanceCreation SimpleName id
+job SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+get configuration SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+attempt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName task attempt context
+attempt SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName job
+attempt SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get configuration
+attempt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName id
+task attempt context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attempt
+record reader SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+record reader SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+input SimpleName MethodInvocation SimpleName create record reader
+input SimpleName MethodInvocation SimpleName empty split
+input SimpleName MethodInvocation SimpleName attempt
+create record reader SimpleName MethodInvocation SimpleName empty split
+create record reader SimpleName MethodInvocation SimpleName attempt
+empty split SimpleName MethodInvocation SimpleName attempt
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName create record reader
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName empty split
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName attempt
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+mapper SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+value SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+value SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+mapper SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+key SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+value SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+key SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+value SimpleName SimpleType ParameterizedType QualifiedType SimpleName context
+job SimpleName MethodInvocation SimpleName get configuration
+mapper SimpleName ClassInstanceCreation SimpleType SimpleName context
+mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName job
+mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName get configuration
+mapper SimpleName ClassInstanceCreation SimpleName id
+mapper SimpleName ClassInstanceCreation SimpleName reader
+context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName job
+context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get configuration
+context SimpleName SimpleType ClassInstanceCreation SimpleName id
+context SimpleName SimpleType ClassInstanceCreation SimpleName reader
+job SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+get configuration SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+job SimpleName MethodInvocation ClassInstanceCreation SimpleName reader
+get configuration SimpleName MethodInvocation ClassInstanceCreation SimpleName reader
+id SimpleName ClassInstanceCreation SimpleName reader
+id SimpleName ClassInstanceCreation SimpleName empty split
+reader SimpleName ClassInstanceCreation SimpleName empty split
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName mapper
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName context
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName job
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get configuration
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName id
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName reader
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName empty split
+context SimpleName QualifiedType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+reader SimpleName MethodInvocation SimpleName initialize
+reader SimpleName MethodInvocation SimpleName empty split
+reader SimpleName MethodInvocation SimpleName context
+initialize SimpleName MethodInvocation SimpleName empty split
+initialize SimpleName MethodInvocation SimpleName context
+empty split SimpleName MethodInvocation SimpleName context
+mapper SimpleName MethodInvocation SimpleName run
+mapper SimpleName MethodInvocation SimpleName context
+run SimpleName MethodInvocation SimpleName context
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test partial input split delegation to configuration
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test partial input split delegation to configuration
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test partial input split delegation to configuration
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test partial input split delegation to configuration SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test partial input split delegation to configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test partial input split delegation to configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

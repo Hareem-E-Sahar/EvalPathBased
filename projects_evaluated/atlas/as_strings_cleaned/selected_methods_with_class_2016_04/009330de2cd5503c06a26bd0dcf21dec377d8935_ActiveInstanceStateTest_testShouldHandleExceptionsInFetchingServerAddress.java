@@ -1,0 +1,85 @@
+curator factory SimpleName MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName curator factory
+when SimpleName MethodInvocation MethodInvocation SimpleName client instance
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+curator factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+client instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curator framework
+then return SimpleName MethodInvocation SimpleName curator framework
+configuration SimpleName MethodInvocation SimpleName get string
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+configuration SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+get string SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server ha zk root key
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server ha zk root key QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+ha configurationatlas server zk root default QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName ha configurationatlas server zk root default
+then return SimpleName MethodInvocation QualifiedName ha configurationatlas server zk root default
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName get data builder
+get data builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+get data builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName get data builder
+curator framework SimpleName MethodInvocation SimpleName get data
+when SimpleName MethodInvocation MethodInvocation SimpleName curator framework
+when SimpleName MethodInvocation MethodInvocation SimpleName get data
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName get data builder
+curator framework SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data builder
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data builder
+then return SimpleName MethodInvocation SimpleName get data builder
+get data builder SimpleName MethodInvocation SimpleName for path
+get data builder SimpleName MethodInvocation MethodInvocation SimpleName get path
+for path SimpleName MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName get data builder
+when SimpleName MethodInvocation MethodInvocation SimpleName for path
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get path
+when SimpleName MethodInvocation MethodInvocation SimpleName then throw
+get data builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+for path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then throw
+then throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName exception
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+active instance state SimpleName SimpleType ClassInstanceCreation SimpleName curator factory
+configuration SimpleName ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName active instance state
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+active instance state SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName curator factory
+active instance state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active instance state
+active instance state SimpleName MethodInvocation SimpleName get active server address
+assert null SimpleName MethodInvocation MethodInvocation SimpleName active instance state
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get active server address
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test should handle exceptions in fetching server address
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test should handle exceptions in fetching server address
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test should handle exceptions in fetching server address
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test should handle exceptions in fetching server address SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test should handle exceptions in fetching server address
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test should handle exceptions in fetching server address
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

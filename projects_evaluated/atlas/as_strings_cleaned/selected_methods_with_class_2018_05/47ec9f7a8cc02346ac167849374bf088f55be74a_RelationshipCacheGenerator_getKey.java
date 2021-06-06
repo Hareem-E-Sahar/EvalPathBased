@@ -1,0 +1,54 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is legacy
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rel end name
+get key SimpleName MethodInvocation SimpleName entity type name
+get key SimpleName MethodInvocation SimpleName rel end name
+entity type name SimpleName MethodInvocation SimpleName rel end name
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get key
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get key
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+string SimpleName SimpleType MethodDeclaration SimpleName get key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+get key SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+is legacy SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+is legacy SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+entity type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel end name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is legacy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rel end name

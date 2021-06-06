@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType MethodDeclaration SimpleName get entity url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get entity url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+get entity url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get entity url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

@@ -1,0 +1,177 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categoryclass
+get type names SimpleName MethodInvocation QualifiedName type categoryclass
+class types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cache provider
+class types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type names
+class types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName type categoryclass
+expected classtype count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected classtype count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected classtype count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+class types SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName class types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName expected classtype count
+class types SimpleName MethodInvocation MethodInvocation SimpleName expected classtype count
+size SimpleName MethodInvocation MethodInvocation SimpleName expected classtype count
+class types SimpleName MethodInvocation SimpleName get
+class types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName classtype customer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName class types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+classtype customer SimpleName MethodInvocation MethodInvocation SimpleName class types
+classtype customer SimpleName MethodInvocation MethodInvocation SimpleName get
+classtype customer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categorystruct
+get type names SimpleName MethodInvocation QualifiedName type categorystruct
+struct types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cache provider
+struct types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type names
+struct types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName type categorystruct
+expected structtype count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected structtype count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected structtype count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+struct types SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName struct types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName expected structtype count
+struct types SimpleName MethodInvocation MethodInvocation SimpleName expected structtype count
+size SimpleName MethodInvocation MethodInvocation SimpleName expected structtype count
+struct types SimpleName MethodInvocation SimpleName get
+struct types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName structtype address
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName struct types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+structtype address SimpleName MethodInvocation MethodInvocation SimpleName struct types
+structtype address SimpleName MethodInvocation MethodInvocation SimpleName get
+structtype address SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categorytrait
+get type names SimpleName MethodInvocation QualifiedName type categorytrait
+trait types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cache provider
+trait types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type names
+trait types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName type categorytrait
+expected traittype count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected traittype count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected traittype count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+trait types SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName expected traittype count
+trait types SimpleName MethodInvocation MethodInvocation SimpleName expected traittype count
+size SimpleName MethodInvocation MethodInvocation SimpleName expected traittype count
+trait types SimpleName MethodInvocation SimpleName get
+trait types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName traittype privileged
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+traittype privileged SimpleName MethodInvocation MethodInvocation SimpleName trait types
+traittype privileged SimpleName MethodInvocation MethodInvocation SimpleName get
+traittype privileged SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+cache provider SimpleName MethodInvocation SimpleName get type names
+cache provider SimpleName MethodInvocation QualifiedName type categoryenum
+get type names SimpleName MethodInvocation QualifiedName type categoryenum
+enum types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cache provider
+enum types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type names
+enum types SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName type categoryenum
+expected enumtype count SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected enumtype count
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected enumtype count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+enum types SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName enum types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName expected enumtype count
+enum types SimpleName MethodInvocation MethodInvocation SimpleName expected enumtype count
+size SimpleName MethodInvocation MethodInvocation SimpleName expected enumtype count
+enum types SimpleName MethodInvocation SimpleName get
+enum types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName enumtype shipping
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName enum types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+enumtype shipping SimpleName MethodInvocation MethodInvocation SimpleName enum types
+enumtype shipping SimpleName MethodInvocation MethodInvocation SimpleName get
+enumtype shipping SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cache get type names by category
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cache get type names by category
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test cache get type names by category
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test cache get type names by category SimpleName MethodDeclaration SimpleType SimpleName exception
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test cache get type names by category SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cache get type names by category
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cache get type names by category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

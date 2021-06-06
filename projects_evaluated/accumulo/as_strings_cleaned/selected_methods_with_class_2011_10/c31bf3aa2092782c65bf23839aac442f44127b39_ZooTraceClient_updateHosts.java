@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+scanning trace hosts in zookeeper StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral scanning trace hosts in zookeeper
+log SimpleName MethodInvocation InfixExpression SimpleName path
+debug SimpleName MethodInvocation InfixExpression StringLiteral scanning trace hosts in zookeeper
+debug SimpleName MethodInvocation InfixExpression SimpleName path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName child
+path SimpleName InfixExpression StringLiteral /
+path SimpleName InfixExpression SimpleName child
+/ StringLiteral InfixExpression SimpleName child
+zoo SimpleName MethodInvocation SimpleName get data
+zoo SimpleName MethodInvocation InfixExpression SimpleName path
+zoo SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo SimpleName MethodInvocation InfixExpression SimpleName child
+get data SimpleName MethodInvocation InfixExpression SimpleName path
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression SimpleName child
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName path
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName child
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+hosts SimpleName MethodInvocation SimpleName add
+hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName children
+child SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName children
+hosts SimpleName FieldAccess MethodInvocation SimpleName clear
+hosts SimpleName FieldAccess MethodInvocation SimpleName add all
+hosts SimpleName FieldAccess MethodInvocation SimpleName hosts
+add all SimpleName MethodInvocation SimpleName hosts
+trace hosts StringLiteral InfixExpression FieldAccess SimpleName hosts
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral trace hosts
+log SimpleName MethodInvocation InfixExpression FieldAccess SimpleName hosts
+debug SimpleName MethodInvocation InfixExpression StringLiteral trace hosts
+debug SimpleName MethodInvocation InfixExpression FieldAccess SimpleName hosts
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to get destination hosts in zookeeper
+log SimpleName MethodInvocation SimpleName ex
+error SimpleName MethodInvocation StringLiteral unable to get destination hosts in zookeeper
+error SimpleName MethodInvocation SimpleName ex
+unable to get destination hosts in zookeeper StringLiteral MethodInvocation SimpleName ex
+synchronized Modifier MethodDeclaration Modifier private
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName update hosts
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName children
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update hosts
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName children
+void PrimitiveType MethodDeclaration SimpleName update hosts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName children
+update hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+update hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName children
+path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update hosts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update hosts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children

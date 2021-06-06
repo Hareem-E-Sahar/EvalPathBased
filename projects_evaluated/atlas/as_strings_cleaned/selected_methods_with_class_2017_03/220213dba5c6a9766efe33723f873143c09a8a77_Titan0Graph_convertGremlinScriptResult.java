@@ -1,0 +1,54 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is path
+object SimpleName SimpleType SingleVariableDeclaration SimpleName result
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+convert path query result to list SimpleName MethodInvocation SimpleName result
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert path query result to list
+path SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+path SimpleName MethodInvocation SimpleName size
+converted result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName path
+converted result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+convert gremlin value SimpleName MethodInvocation SimpleName o
+converted result SimpleName MethodInvocation SimpleName add
+converted result SimpleName MethodInvocation MethodInvocation SimpleName convert gremlin value
+converted result SimpleName MethodInvocation MethodInvocation SimpleName o
+add SimpleName MethodInvocation MethodInvocation SimpleName convert gremlin value
+add SimpleName MethodInvocation MethodInvocation SimpleName o
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName path
+o SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName path
+path SimpleName EnhancedForStatement Block ReturnStatement SimpleName converted result
+convert gremlin value SimpleName MethodInvocation SimpleName result
+is path SimpleName IfStatement Block EnhancedForStatement SimpleName path
+is path SimpleName IfStatement Block ReturnStatement SimpleName converted result
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName convert gremlin script result
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+private Modifier MethodDeclaration Block IfStatement SimpleName is path
+object SimpleName SimpleType MethodDeclaration SimpleName convert gremlin script result
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is path
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+convert gremlin script result SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+convert gremlin script result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is path
+convert gremlin script result SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+convert gremlin script result SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+convert gremlin script result SimpleName MethodDeclaration Block IfStatement SimpleName is path
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+is path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert gremlin script result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert gremlin script result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

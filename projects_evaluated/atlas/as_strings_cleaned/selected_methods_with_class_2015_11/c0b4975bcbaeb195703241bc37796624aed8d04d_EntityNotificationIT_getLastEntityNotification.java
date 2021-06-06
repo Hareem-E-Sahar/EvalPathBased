@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName entity notification
+public Modifier MethodDeclaration SimpleName get last entity notification
+public Modifier MethodDeclaration Block ReturnStatement SimpleName entity notification
+entity notification SimpleName SimpleType MethodDeclaration SimpleName get last entity notification
+get last entity notification SimpleName MethodDeclaration Block ReturnStatement SimpleName entity notification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity notification
+public Modifier TypeDeclaration MethodDeclaration SimpleName get last entity notification
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity notification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get last entity notification

@@ -1,0 +1,15 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName skv iterator
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName skv iterator
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName skv iterator
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName skv iterator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName skv iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skv iterator

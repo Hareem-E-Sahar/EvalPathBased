@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+big decimal SimpleName SimpleType MethodDeclaration SimpleName get big decimal
+big decimal SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+big decimal SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+get big decimal SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get big decimal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get big decimal SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName big decimal
+public Modifier TypeDeclaration MethodDeclaration SimpleName get big decimal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName big decimal
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get big decimal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

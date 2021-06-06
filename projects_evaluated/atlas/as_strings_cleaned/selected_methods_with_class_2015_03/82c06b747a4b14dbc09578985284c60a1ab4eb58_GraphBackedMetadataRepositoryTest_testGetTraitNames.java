@@ -1,0 +1,67 @@
+depends on methods SimpleName MemberValuePair StringLiteral test create entity
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test create entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get trait names SimpleName MethodInvocation MethodInvocation SimpleName get guid
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName list
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait names
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName repository service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName classification
+as list SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName classification
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assert SimpleName MethodInvocation MethodInvocation SimpleName as list
+assert equals SimpleName MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName arrays
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as list
+trait names SimpleName MethodInvocation MethodInvocation SimpleName arrays
+trait names SimpleName MethodInvocation MethodInvocation SimpleName as list
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get trait names
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait names
+test create entity StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get trait names
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get trait names
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test get trait names
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test get trait names SimpleName MethodDeclaration SimpleType SimpleName exception
+test get trait names SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get trait names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get trait names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

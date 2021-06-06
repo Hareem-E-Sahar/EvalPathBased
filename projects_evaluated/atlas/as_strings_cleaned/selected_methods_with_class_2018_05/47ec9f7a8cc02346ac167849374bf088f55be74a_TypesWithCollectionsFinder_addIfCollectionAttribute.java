@@ -1,0 +1,116 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName collection properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName collection properties
+attr SimpleName MethodInvocation SimpleName get attribute type
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute type
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+attr type SimpleName MethodInvocation SimpleName get type category
+attr type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr type
+attr type category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type category
+atlas array type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get element type
+get element type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+array element type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get element type
+array element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array element type
+non primitives SimpleName MethodInvocation SimpleName contains
+non primitives SimpleName MethodInvocation SimpleName array element type
+contains SimpleName MethodInvocation SimpleName array element type
+attr type category SimpleName MethodInvocation SimpleName to string
+attr SimpleName MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr type category
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName to string
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation SimpleName collection properties
+attr type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+attr type category SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+to string SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+attr SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+get vertex property name SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+atlas map type SimpleName SimpleType CastExpression SimpleName attr type
+attr type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get value type
+get value type SimpleName MethodInvocation MethodInvocation SimpleName get type category
+map value type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value type
+map value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type category
+type category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value type
+non primitives SimpleName MethodInvocation SimpleName contains
+non primitives SimpleName MethodInvocation SimpleName map value type
+contains SimpleName MethodInvocation SimpleName map value type
+attr type category SimpleName MethodInvocation SimpleName to string
+attr SimpleName MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr type category
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName to string
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation SimpleName collection properties
+attr type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr type category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get vertex property name
+attr type category SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+to string SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+attr SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+get vertex property name SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+attr type category SimpleName MethodInvocation SimpleName to string
+attr type category SimpleName MethodInvocation InfixExpression StringLiteral primitive
+to string SimpleName MethodInvocation InfixExpression StringLiteral primitive
+attr SimpleName MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr type category
+add vertex property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+add vertex property SimpleName MethodInvocation InfixExpression StringLiteral primitive
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName attr
+add vertex property SimpleName MethodInvocation MethodInvocation SimpleName get vertex property name
+add vertex property SimpleName MethodInvocation SimpleName collection properties
+primitive StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName attr
+primitive StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get vertex property name
+attr type category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName collection properties
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName collection properties
+primitive StringLiteral InfixExpression MethodInvocation SimpleName collection properties
+attr SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+get vertex property name SimpleName MethodInvocation MethodInvocation SimpleName collection properties
+attr type category SimpleName SwitchStatement SwitchCase SimpleName array
+attr type category SimpleName SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add if collection attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add if collection attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+static Modifier MethodDeclaration Block SwitchStatement SimpleName attr type category
+void PrimitiveType MethodDeclaration SimpleName add if collection attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName attr type category
+add if collection attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+add if collection attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr
+add if collection attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+add if collection attribute SimpleName MethodDeclaration Block SwitchStatement SimpleName attr type category
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add if collection attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName collection properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add if collection attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName collection properties

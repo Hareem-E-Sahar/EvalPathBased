@@ -1,0 +1,174 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+username opt SimpleName MethodInvocation SimpleName set required
+username opt SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+password opt SimpleName MethodInvocation SimpleName set required
+password opt SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName options
+add options SimpleName MethodInvocation SimpleName instance opt
+add options SimpleName MethodInvocation SimpleName zoo keepers opt
+add options SimpleName MethodInvocation SimpleName username opt
+add options SimpleName MethodInvocation SimpleName password opt
+add options SimpleName MethodInvocation SimpleName scan auths opt
+instance opt SimpleName MethodInvocation SimpleName zoo keepers opt
+instance opt SimpleName MethodInvocation SimpleName username opt
+instance opt SimpleName MethodInvocation SimpleName password opt
+instance opt SimpleName MethodInvocation SimpleName scan auths opt
+instance opt SimpleName MethodInvocation SimpleName table name opt
+zoo keepers opt SimpleName MethodInvocation SimpleName username opt
+zoo keepers opt SimpleName MethodInvocation SimpleName password opt
+zoo keepers opt SimpleName MethodInvocation SimpleName scan auths opt
+zoo keepers opt SimpleName MethodInvocation SimpleName table name opt
+zoo keepers opt SimpleName MethodInvocation SimpleName createtable opt
+username opt SimpleName MethodInvocation SimpleName password opt
+username opt SimpleName MethodInvocation SimpleName scan auths opt
+username opt SimpleName MethodInvocation SimpleName table name opt
+username opt SimpleName MethodInvocation SimpleName createtable opt
+username opt SimpleName MethodInvocation SimpleName deletetable opt
+password opt SimpleName MethodInvocation SimpleName scan auths opt
+password opt SimpleName MethodInvocation SimpleName table name opt
+password opt SimpleName MethodInvocation SimpleName createtable opt
+password opt SimpleName MethodInvocation SimpleName deletetable opt
+password opt SimpleName MethodInvocation SimpleName create entries opt
+scan auths opt SimpleName MethodInvocation SimpleName table name opt
+scan auths opt SimpleName MethodInvocation SimpleName createtable opt
+scan auths opt SimpleName MethodInvocation SimpleName deletetable opt
+scan auths opt SimpleName MethodInvocation SimpleName create entries opt
+scan auths opt SimpleName MethodInvocation SimpleName delete entries opt
+table name opt SimpleName MethodInvocation SimpleName createtable opt
+table name opt SimpleName MethodInvocation SimpleName deletetable opt
+table name opt SimpleName MethodInvocation SimpleName create entries opt
+table name opt SimpleName MethodInvocation SimpleName delete entries opt
+table name opt SimpleName MethodInvocation SimpleName read entries opt
+createtable opt SimpleName MethodInvocation SimpleName deletetable opt
+createtable opt SimpleName MethodInvocation SimpleName create entries opt
+createtable opt SimpleName MethodInvocation SimpleName delete entries opt
+createtable opt SimpleName MethodInvocation SimpleName read entries opt
+createtable opt SimpleName MethodInvocation SimpleName debug opt
+deletetable opt SimpleName MethodInvocation SimpleName create entries opt
+deletetable opt SimpleName MethodInvocation SimpleName delete entries opt
+deletetable opt SimpleName MethodInvocation SimpleName read entries opt
+deletetable opt SimpleName MethodInvocation SimpleName debug opt
+create entries opt SimpleName MethodInvocation SimpleName delete entries opt
+create entries opt SimpleName MethodInvocation SimpleName read entries opt
+create entries opt SimpleName MethodInvocation SimpleName debug opt
+delete entries opt SimpleName MethodInvocation SimpleName read entries opt
+delete entries opt SimpleName MethodInvocation SimpleName debug opt
+read entries opt SimpleName MethodInvocation SimpleName debug opt
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName opts
+basic parser SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+parse SimpleName MethodInvocation SimpleName opts
+parse SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName args
+cl SimpleName Assignment MethodInvocation SimpleName parse
+cl SimpleName Assignment MethodInvocation SimpleName opts
+cl SimpleName Assignment MethodInvocation SimpleName args
+cl SimpleName MethodInvocation SimpleName get args
+cl SimpleName MethodInvocation FieldAccess SimpleName length
+get args SimpleName MethodInvocation FieldAccess SimpleName length
+cl SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+get args SimpleName MethodInvocation FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+cl SimpleName MethodInvocation SimpleName get arg list
+unrecognized options StringLiteral InfixExpression MethodInvocation SimpleName cl
+unrecognized options StringLiteral InfixExpression MethodInvocation SimpleName get arg list
+parse exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unrecognized options
+has opt SimpleName MethodInvocation SimpleName debug opt
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation QualifiedName constantscore package name
+get logger SimpleName MethodInvocation QualifiedName constantscore package name
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+constantscore package name QualifiedName MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName leveltrace
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName leveltrace
+constantscore package name QualifiedName MethodInvocation MethodInvocation QualifiedName leveltrace
+set level SimpleName MethodInvocation QualifiedName leveltrace
+get opt SimpleName MethodInvocation SimpleName instance opt
+get opt SimpleName MethodInvocation SimpleName default instance name
+instance opt SimpleName MethodInvocation SimpleName default instance name
+get opt SimpleName MethodInvocation SimpleName zoo keepers opt
+get opt SimpleName MethodInvocation SimpleName default zookeepers
+zoo keepers opt SimpleName MethodInvocation SimpleName default zookeepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get opt
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance opt
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get opt
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo keepers opt
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default zookeepers
+get opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get opt
+get opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo keepers opt
+get opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default zookeepers
+instance opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get opt
+instance opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo keepers opt
+instance opt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default zookeepers
+default instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get opt
+default instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo keepers opt
+default instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default zookeepers
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get opt
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName instance opt
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName default instance name
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get opt
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName zoo keepers opt
+inst SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName default zookeepers
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+get required opt SimpleName MethodInvocation SimpleName username opt
+get required opt SimpleName MethodInvocation SimpleName password opt
+get required opt SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+password opt SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+inst SimpleName MethodInvocation SimpleName get connector
+inst SimpleName MethodInvocation MethodInvocation SimpleName get required opt
+inst SimpleName MethodInvocation MethodInvocation SimpleName username opt
+inst SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get required opt
+inst SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password opt
+inst SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get required opt
+get connector SimpleName MethodInvocation MethodInvocation SimpleName username opt
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get required opt
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName password opt
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get required opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+username opt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+conn SimpleName Assignment MethodInvocation SimpleName inst
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get required opt
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName username opt
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get bytes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName configure
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+private Modifier MethodDeclaration SimpleType SimpleName parse exception
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+configure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+configure SimpleName MethodDeclaration SimpleType SimpleName parse exception
+configure SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+configure SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

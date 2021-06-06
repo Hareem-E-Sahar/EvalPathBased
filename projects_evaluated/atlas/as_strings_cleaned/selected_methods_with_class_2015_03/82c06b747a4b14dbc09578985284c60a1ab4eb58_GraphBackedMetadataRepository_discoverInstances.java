@@ -1,0 +1,101 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+entity processor SimpleName SimpleType SingleVariableDeclaration SimpleName entity processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName transient instance
+entity processorid to instance map QualifiedName MethodInvocation SimpleName values
+transient instance SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral discovered instance {}
+log SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral discovered instance {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+discovered instance {} StringLiteral MethodInvocation MethodInvocation SimpleName transient instance
+discovered instance {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+transient instance SimpleName MethodInvocation SimpleName get type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+type system SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+get data type SimpleName MethodInvocation MethodInvocation SimpleName get type name
+c t SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+c t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+c t SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName transient instance
+c t SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c t
+c t SimpleName MethodInvocation SimpleName convert
+c t SimpleName MethodInvocation SimpleName transient instance
+c t SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName transient instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+transient instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName c t
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert
+new instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName transient instance
+new instance SimpleName VariableDeclarationFragment MethodInvocation QualifiedName multiplicityrequired
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new instance
+new typed instances SimpleName MethodInvocation SimpleName add
+new typed instances SimpleName MethodInvocation SimpleName new instance
+add SimpleName MethodInvocation SimpleName new instance
+map ids SimpleName SimpleType ClassInstanceCreation QualifiedName entity processorid to new id map
+map ids SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName map ids
+map ids SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName entity processorid to new id map
+map ids SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map ids
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName type system
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName map ids
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName new typed instances
+type system SimpleName ClassInstanceCreation SimpleName map ids
+type system SimpleName ClassInstanceCreation SimpleName new typed instances
+map ids SimpleName ClassInstanceCreation SimpleName new typed instances
+object graph walker SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName walk
+type system SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+map ids SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+new typed instances SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+metadata exception SimpleName SimpleType SingleVariableDeclaration SimpleName me
+transient instance SimpleName MethodInvocation SimpleName get id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral failed to create instanceid = s
+string SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+string SimpleName MethodInvocation MethodInvocation SimpleName get id
+format SimpleName MethodInvocation StringLiteral failed to create instanceid = s
+format SimpleName MethodInvocation MethodInvocation SimpleName transient instance
+format SimpleName MethodInvocation MethodInvocation SimpleName get id
+failed to create instanceid = s StringLiteral MethodInvocation MethodInvocation SimpleName transient instance
+failed to create instanceid = s StringLiteral MethodInvocation MethodInvocation SimpleName get id
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+repository exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral failed to create instanceid = s
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName me
+string SimpleName MethodInvocation ClassInstanceCreation SimpleName me
+format SimpleName MethodInvocation ClassInstanceCreation SimpleName me
+failed to create instanceid = s StringLiteral MethodInvocation ClassInstanceCreation SimpleName me
+transient instance SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName me
+get id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName me
+transient instance SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName entity processorid to instance map
+transient instance SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SimpleName discover instances
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity processor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+private Modifier MethodDeclaration SimpleType SimpleName repository exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName new typed instances
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName discover instances
+i typed referenceable instance SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName discover instances
+discover instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity processor
+discover instances SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+discover instances SimpleName MethodDeclaration SimpleType SimpleName repository exception
+discover instances SimpleName MethodDeclaration Block ReturnStatement SimpleName new typed instances
+entity processor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName discover instances
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName discover instances
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity processor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository exception

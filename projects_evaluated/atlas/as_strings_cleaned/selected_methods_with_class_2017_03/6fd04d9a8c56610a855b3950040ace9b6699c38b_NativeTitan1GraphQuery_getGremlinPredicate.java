@@ -1,0 +1,53 @@
+comparision operator SimpleName SimpleType SingleVariableDeclaration SimpleName op
+unsupported comparison operator StringLiteral InfixExpression SimpleName op
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported comparison operator
+runtime exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName op
+op SimpleName SwitchStatement SwitchCase SimpleName equal
+op SimpleName SwitchStatement ReturnStatement QualifiedName compareeq
+op SimpleName SwitchStatement SwitchCase SimpleName greater than equal
+op SimpleName SwitchStatement ReturnStatement QualifiedName comparegte
+op SimpleName SwitchStatement SwitchCase SimpleName less than equal
+equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName compareeq
+equal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName greater than equal
+equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName comparegte
+equal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName less than equal
+equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName comparelte
+compareeq QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName greater than equal
+compareeq QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName comparegte
+compareeq QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName less than equal
+compareeq QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName comparelte
+compareeq QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName not equal
+greater than equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName comparegte
+greater than equal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName less than equal
+greater than equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName comparelte
+greater than equal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not equal
+greater than equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName compareneq
+comparegte QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName less than equal
+comparegte QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName comparelte
+comparegte QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName not equal
+comparegte QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName compareneq
+less than equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName comparelte
+less than equal SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not equal
+less than equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName compareneq
+comparelte QualifiedName ReturnStatement SwitchStatement SwitchCase SimpleName not equal
+comparelte QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName compareneq
+not equal SimpleName SwitchCase SwitchStatement ReturnStatement QualifiedName compareneq
+private Modifier MethodDeclaration SimpleType SimpleName compare
+private Modifier MethodDeclaration SimpleName get gremlin predicate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName comparision operator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+private Modifier MethodDeclaration Block SwitchStatement SimpleName op
+compare SimpleName SimpleType MethodDeclaration SimpleName get gremlin predicate
+compare SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName op
+get gremlin predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName comparision operator
+get gremlin predicate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+get gremlin predicate SimpleName MethodDeclaration Block SwitchStatement SimpleName op
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compare
+public Modifier TypeDeclaration MethodDeclaration SimpleName get gremlin predicate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compare
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get gremlin predicate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op

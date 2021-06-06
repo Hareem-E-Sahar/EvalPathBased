@@ -1,0 +1,13 @@
+system SimpleName MethodInvocation SimpleName current time millis
+start time SimpleName Assignment MethodInvocation SimpleName system
+start time SimpleName Assignment MethodInvocation SimpleName current time millis
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start timer
+void PrimitiveType MethodDeclaration SimpleName start timer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start timer
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start timer

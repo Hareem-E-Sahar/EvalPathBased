@@ -1,0 +1,22 @@
+int PrimitiveType SingleVariableDeclaration SimpleName col
+count column SimpleName Assignment SimpleName col
+public Modifier MethodDeclaration SimpleType SimpleName count only validator
+public Modifier MethodDeclaration SimpleName with count column
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName col
+count only validator SimpleName SimpleType MethodDeclaration SimpleName with count column
+count only validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+count only validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName col
+with count column SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+with count column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName count only validator
+public Modifier TypeDeclaration MethodDeclaration SimpleName with count column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName count only validator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName with count column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col

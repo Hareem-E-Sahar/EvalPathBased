@@ -1,0 +1,72 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edges it
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+to list SimpleName MethodInvocation SimpleName edges it
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName to list
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges it
+edges SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation QualifiedName expectedlength
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+expectedlength QualifiedName MethodInvocation MethodInvocation SimpleName edges
+expectedlength QualifiedName MethodInvocation MethodInvocation SimpleName size
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+v SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+edges SimpleName MethodInvocation SimpleName contains
+edges SimpleName MethodInvocation SimpleName edge
+contains SimpleName MethodInvocation SimpleName edge
+assert true SimpleName MethodInvocation MethodInvocation SimpleName edges
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName expected
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert edges match
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edges it
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration PrimitiveType void
+v SimpleName TypeParameter MethodDeclaration SimpleName assert edges match
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName edges it
+v SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expected
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName assert edges match
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName edges it
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName assert edges match
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edges it
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName expected
+assert edges match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edges it
+assert edges match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert edges match SimpleName MethodDeclaration Block EnhancedForStatement SimpleName expected
+edges it SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert edges match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges it
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert edges match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges it
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected

@@ -1,0 +1,54 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+monitor SimpleName MethodInvocation SimpleName get problem summary
+monitor SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get problem summary SimpleName MethodInvocation MethodInvocation SimpleName entry set
+monitor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get problem summary SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+entry set SimpleName MethodInvocation MethodInvocation SimpleName size
+num problems SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+num problems SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num problems
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+num problems SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral a hrefproblemstable problems d totala
+string SimpleName MethodInvocation SimpleName num problems
+format SimpleName MethodInvocation StringLiteral a hrefproblemstable problems d totala
+format SimpleName MethodInvocation SimpleName num problems
+a hrefproblemstable problems d totala StringLiteral MethodInvocation SimpleName num problems
+banner SimpleName MethodInvocation SimpleName sb
+banner SimpleName MethodInvocation StringLiteral error
+banner SimpleName MethodInvocation MethodInvocation SimpleName string
+banner SimpleName MethodInvocation MethodInvocation SimpleName format
+banner SimpleName MethodInvocation MethodInvocation StringLiteral a hrefproblemstable problems d totala
+banner SimpleName MethodInvocation MethodInvocation SimpleName num problems
+sb SimpleName MethodInvocation StringLiteral error
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral a hrefproblemstable problems d totala
+sb SimpleName MethodInvocation MethodInvocation SimpleName num problems
+error StringLiteral MethodInvocation MethodInvocation SimpleName string
+error StringLiteral MethodInvocation MethodInvocation SimpleName format
+error StringLiteral MethodInvocation MethodInvocation StringLiteral a hrefproblemstable problems d totala
+error StringLiteral MethodInvocation MethodInvocation SimpleName num problems
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName do problems banner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName do problems banner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+do problems banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+do problems banner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+do problems banner SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do problems banner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do problems banner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

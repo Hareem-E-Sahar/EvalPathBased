@@ -1,0 +1,54 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName data file value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet files
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet files
+data file value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet files
+major compaction reason SimpleName SimpleType SingleVariableDeclaration SimpleName reason
+closed SimpleName IfStatement ReturnStatement BooleanLiteral false
+reason SimpleName InfixExpression QualifiedName major compaction reasonuser
+reason SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral true
+major compaction reasonuser QualifiedName InfixExpression IfStatement ReturnStatement BooleanLiteral true
+reason SimpleName InfixExpression QualifiedName major compaction reasonidle
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idle time
+last reported commit time SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName creation time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName creation time
+idle time SimpleName Assignment InfixExpression MethodInvocation SimpleName system
+idle time SimpleName Assignment InfixExpression MethodInvocation SimpleName current time millis
+idle time SimpleName Assignment InfixExpression SimpleName creation time
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName last reported commit time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName last reported commit time
+idle time SimpleName Assignment InfixExpression MethodInvocation SimpleName system
+idle time SimpleName Assignment InfixExpression MethodInvocation SimpleName current time millis
+idle time SimpleName Assignment InfixExpression SimpleName last reported commit time
+table conf SimpleName MethodInvocation SimpleName get time in millis
+table conf SimpleName MethodInvocation QualifiedName propertytable majc compactall idletime
+get time in millis SimpleName MethodInvocation QualifiedName propertytable majc compactall idletime
+idle time SimpleName InfixExpression MethodInvocation SimpleName table conf
+idle time SimpleName InfixExpression MethodInvocation SimpleName get time in millis
+idle time SimpleName InfixExpression MethodInvocation QualifiedName propertytable majc compactall idletime
+find map files to compact SimpleName MethodInvocation SimpleName tablet files
+find map files to compact SimpleName MethodInvocation SimpleName reason
+tablet files SimpleName MethodInvocation SimpleName reason
+boolean PrimitiveType MethodDeclaration SimpleName needs major compaction
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reason
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName closed
+needs major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+needs major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName major compaction reason
+needs major compaction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reason
+needs major compaction SimpleName MethodDeclaration Block IfStatement SimpleName closed
+tablet files SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName needs major compaction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName needs major compaction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reason

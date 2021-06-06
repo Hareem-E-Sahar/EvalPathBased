@@ -1,0 +1,23 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName start inclusive
+start inclusive SimpleName FieldAccess Assignment SimpleName start inclusive
+set start inclusive is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName get max row args
+public Modifier MethodDeclaration SimpleName set start inclusive
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName start inclusive
+get max row args SimpleName SimpleType MethodDeclaration SimpleName set start inclusive
+get max row args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get max row args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName start inclusive
+set start inclusive SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set start inclusive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start inclusive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName get max row args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set start inclusive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start inclusive
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName get max row args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set start inclusive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start inclusive

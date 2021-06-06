@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName parent guid
+get created entity SimpleName MethodInvocation SimpleName parent guid
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get created entity
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent guid
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+get updated entity SimpleName MethodInvocation SimpleName parent guid
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SimpleName get created or updated entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+public Modifier MethodDeclaration Block ReturnStatement SimpleName e
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get created or updated entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+get created or updated entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get created or updated entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+get created or updated entity SimpleName MethodDeclaration Block ReturnStatement SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get created or updated entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get created or updated entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent guid

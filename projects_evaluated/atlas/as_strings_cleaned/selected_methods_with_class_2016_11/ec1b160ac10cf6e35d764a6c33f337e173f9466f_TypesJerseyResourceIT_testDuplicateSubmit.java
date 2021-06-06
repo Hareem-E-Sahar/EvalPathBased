@@ -1,0 +1,170 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation SimpleName name
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create unique required attr def SimpleName MethodInvocation SimpleName name
+create unique required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name SimpleName MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation MethodInvocation SimpleName random string
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName types util
+types util SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation MethodInvocation SimpleName name
+types util SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName random string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+random string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName random string
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create unique required attr def
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation SimpleType SimpleName enum type definition
+immutable list SimpleName MethodInvocation SimpleName of
+enum type definition SimpleName SimpleType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleType SimpleName struct type definition
+immutable list SimpleName MethodInvocation SimpleName of
+struct type definition SimpleName SimpleType MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName hierarchical type definition
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation SimpleName of
+hierarchical type definition SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+trait type SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName type
+of SimpleName MethodInvocation SimpleName type
+types util SimpleName MethodInvocation SimpleName get types def
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName struct type definition
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation MethodInvocation SimpleName type
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName enum type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName struct type definition
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+get types def SimpleName MethodInvocation MethodInvocation SimpleName of
+get types def SimpleName MethodInvocation MethodInvocation SimpleName type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get types def
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+types def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+atlas client v SimpleName MethodInvocation SimpleName create type
+atlas client v SimpleName MethodInvocation SimpleName types def
+create type SimpleName MethodInvocation SimpleName types def
+atlas client v SimpleName MethodInvocation SimpleName create type
+atlas client v SimpleName MethodInvocation SimpleName types def
+create type SimpleName MethodInvocation SimpleName types def
+fail SimpleName MethodInvocation StringLiteral expected
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation MethodInvocation SimpleName get status code
+get status SimpleName MethodInvocation MethodInvocation SimpleName get status code
+responsestatusconflict QualifiedName MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName responsestatusconflict
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status code
+get status code SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName responsestatusconflict
+get status code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test duplicate submit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test duplicate submit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test duplicate submit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test duplicate submit SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test duplicate submit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test duplicate submit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,60 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName titan property
+titan vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+string SimpleName MethodInvocation SimpleName vertex
+element str SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+element str SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element str
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation SimpleName property name
+encode property key SimpleName MethodInvocation SimpleName property name
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual property name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral reading property {} from {}
+log SimpleName MethodInvocation SimpleName actual property name
+log SimpleName MethodInvocation SimpleName element str
+debug SimpleName MethodInvocation StringLiteral reading property {} from {}
+debug SimpleName MethodInvocation SimpleName actual property name
+debug SimpleName MethodInvocation SimpleName element str
+reading property {} from {} StringLiteral MethodInvocation SimpleName actual property name
+reading property {} from {} StringLiteral MethodInvocation SimpleName element str
+actual property name SimpleName MethodInvocation SimpleName element str
+vertex SimpleName MethodInvocation SimpleName get properties
+vertex SimpleName MethodInvocation SimpleName actual property name
+get properties SimpleName MethodInvocation SimpleName actual property name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan property
+public Modifier MethodDeclaration SimpleName get properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName titan property
+static Modifier MethodDeclaration SimpleName get properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+titan property SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName titan vertex
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

@@ -1,0 +1,19 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+write entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName outputs
+outputs SimpleName FieldAccess Assignment SimpleName outputs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set outputs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName outputs
+void PrimitiveType MethodDeclaration SimpleName set outputs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName outputs
+set outputs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName outputs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set outputs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set outputs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName outputs

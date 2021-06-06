@@ -1,0 +1,44 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation SimpleName master conn
+state SimpleName MethodInvocation SimpleName conn
+set SimpleName MethodInvocation SimpleName master conn
+set SimpleName MethodInvocation SimpleName conn
+master conn SimpleName MethodInvocation SimpleName conn
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set system connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set system connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SimpleName set system connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+set system connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set system connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set system connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+set system connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set system connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set system connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn

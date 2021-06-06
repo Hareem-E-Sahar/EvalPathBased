@@ -1,0 +1,141 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+empty StringLiteral MethodInvocation SimpleName split
+empty StringLiteral MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+text SimpleName SimpleType ClassInstanceCreation SimpleName id
+splits SimpleName MethodInvocation SimpleName add
+splits SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+splits SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName add splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName add splits
+c SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation MethodInvocation SimpleName splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName splits
+add splits SimpleName MethodInvocation QualifiedName metadata tablename
+add splits SimpleName MethodInvocation SimpleName splits
+metadata tablename QualifiedName MethodInvocation SimpleName splits
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+a a a a a StringLiteral MethodInvocation SimpleName split
+a a a a a StringLiteral MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+table name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral a a a a a
+table name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+table name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName merge
+table operations SimpleName MethodInvocation MethodInvocation SimpleName merge
+c SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+merge SimpleName MethodInvocation QualifiedName metadata tablename
+empty NumberLiteral InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sleep SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName create scanner
+c SimpleName MethodInvocation QualifiedName root tablename
+c SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName root tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+root tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName root tablename
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+metadata schemadeletes section QualifiedName MethodInvocation SimpleName get range
+s SimpleName MethodInvocation SimpleName set range
+s SimpleName MethodInvocation MethodInvocation QualifiedName metadata schemadeletes section
+s SimpleName MethodInvocation MethodInvocation SimpleName get range
+set range SimpleName MethodInvocation MethodInvocation QualifiedName metadata schemadeletes section
+set range SimpleName MethodInvocation MethodInvocation SimpleName get range
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName e
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName e
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName s
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName s
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+count SimpleName InfixExpression NumberLiteral empty
+assert true SimpleName MethodInvocation InfixExpression SimpleName count
+assert true SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list splits
+c SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+list splits SimpleName MethodInvocation QualifiedName metadata tablename
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+list splits SimpleName MethodInvocation MethodInvocation SimpleName size
+metadata tablename QualifiedName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName list splits
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName metadata tablename
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName list splits
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName metadata tablename
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName s
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName merge meta
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName merge meta
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName merge meta
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName s
+void PrimitiveType MethodDeclaration SimpleName merge meta
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName s
+merge meta SimpleName MethodDeclaration SimpleType SimpleName exception
+merge meta SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+merge meta SimpleName MethodDeclaration Block EnhancedForStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName merge meta
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merge meta
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

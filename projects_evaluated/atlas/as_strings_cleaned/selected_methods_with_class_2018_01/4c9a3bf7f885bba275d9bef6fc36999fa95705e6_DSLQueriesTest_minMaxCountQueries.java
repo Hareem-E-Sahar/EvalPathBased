@@ -1,0 +1,500 @@
+name SimpleName MemberValuePair StringLiteral min max count provider
+data provider SimpleName NormalAnnotation MemberValuePair SimpleName name
+data provider SimpleName NormalAnnotation MemberValuePair StringLiteral min max count provider
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral owner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral name
+with field names SimpleName MethodInvocation StringLiteral owner
+with field names SimpleName MethodInvocation StringLiteral name
+owner StringLiteral MethodInvocation StringLiteral name
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+owner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+name StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+owner StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+name StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral reporting
+owner StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+name StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation StringLiteral reporting
+jane bi StringLiteral MethodInvocation StringLiteral reporting
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+owner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral sales
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation StringLiteral sales
+john etl StringLiteral MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+john etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+sales StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+john etl StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+sales StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral logging
+john etl StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+sales StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation StringLiteral logging
+tim etl StringLiteral MethodInvocation StringLiteral logging
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral john etl
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral sales
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation StringLiteral tim etl
+from hive db groupby owner select owner name orderby owner StringLiteral ArrayInitializer MethodInvocation StringLiteral logging
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral assetowner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral assetname
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral assetowner
+with field names SimpleName MethodInvocation StringLiteral assetname
+with field names SimpleName MethodInvocation StringLiteral count
+assetowner StringLiteral MethodInvocation StringLiteral assetname
+assetowner StringLiteral MethodInvocation StringLiteral count
+assetname StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+assetname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+assetname StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+count StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral reporting
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+assetname StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+count StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+assetname StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation StringLiteral reporting
+jane bi StringLiteral MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+assetname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+assetname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+assetname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral logging
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral logging
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assetname StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation StringLiteral logging
+tim etl StringLiteral MethodInvocation NumberLiteral empty
+logging StringLiteral MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral sales
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+reporting StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+logging StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation NumberLiteral empty
+john etl StringLiteral MethodInvocation StringLiteral sales
+john etl StringLiteral MethodInvocation NumberLiteral empty
+sales StringLiteral MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral tim etl
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral logging
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation StringLiteral john etl
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation StringLiteral sales
+from hive db groupby owner select assetowner assetname count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral assetowner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral assetowner
+with field names SimpleName MethodInvocation StringLiteral count
+assetowner StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+count StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation NumberLiteral empty
+john etl StringLiteral MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral tim etl
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation StringLiteral john etl
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral assetowner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral assetowner
+with field names SimpleName MethodInvocation StringLiteral count
+assetowner StringLiteral MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+count StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation NumberLiteral empty
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+count StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+jane bi StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tim etl StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+with expected values SimpleName MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation NumberLiteral empty
+john etl StringLiteral MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral tim etl
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation MethodInvocation NumberLiteral empty
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation StringLiteral john etl
+from hive db groupby owner select assetowner count StringLiteral ArrayInitializer MethodInvocation NumberLiteral empty
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral assetowner
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral maxassetname
+with field names SimpleName MethodInvocation StringLiteral assetowner
+with field names SimpleName MethodInvocation StringLiteral maxassetname
+assetowner StringLiteral MethodInvocation StringLiteral maxassetname
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+maxassetname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral tim etl
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+maxassetname StringLiteral MethodInvocation MethodInvocation StringLiteral tim etl
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral logging
+assetowner StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+maxassetname StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation StringLiteral tim etl
+with expected values SimpleName MethodInvocation StringLiteral logging
+tim etl StringLiteral MethodInvocation StringLiteral logging
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+maxassetname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral jane bi
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral jane bi
+maxassetname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral jane bi
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral jane bi
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral reporting
+assetowner StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral reporting
+maxassetname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral reporting
+tim etl StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation StringLiteral jane bi
+with expected values SimpleName MethodInvocation StringLiteral reporting
+jane bi StringLiteral MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+tim etl StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+jane bi StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+tim etl StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+logging StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral john etl
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+tim etl StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+logging StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral sales
+jane bi StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation StringLiteral john etl
+with expected values SimpleName MethodInvocation StringLiteral sales
+john etl StringLiteral MethodInvocation StringLiteral sales
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral jane bi
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation MethodInvocation StringLiteral reporting
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation SimpleName with expected values
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation StringLiteral john etl
+from hive db groupby owner select assetowner maxassetname StringLiteral ArrayInitializer MethodInvocation StringLiteral sales
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral maxassetname
+with field names SimpleName MethodInvocation StringLiteral maxassetname
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+maxassetname StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation StringLiteral logging
+maxassetname StringLiteral MethodInvocation MethodInvocation StringLiteral logging
+with expected values SimpleName MethodInvocation StringLiteral logging
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+maxassetname StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral reporting
+maxassetname StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral reporting
+logging StringLiteral MethodInvocation MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation StringLiteral reporting
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+logging StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+reporting StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with expected values SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+logging StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation MethodInvocation StringLiteral sales
+reporting StringLiteral MethodInvocation MethodInvocation StringLiteral sales
+with expected values SimpleName MethodInvocation StringLiteral sales
+from hive db groupby owner select maxassetname StringLiteral ArrayInitializer MethodInvocation MethodInvocation SimpleName with expected values

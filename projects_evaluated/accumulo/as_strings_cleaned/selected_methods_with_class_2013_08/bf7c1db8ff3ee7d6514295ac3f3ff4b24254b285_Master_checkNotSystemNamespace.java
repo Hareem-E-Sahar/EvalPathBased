@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace
+table operation SimpleName SimpleType SingleVariableDeclaration SimpleName operation
+constantssystem table namespace QualifiedName MethodInvocation SimpleName equals
+constantssystem table namespace QualifiedName MethodInvocation SimpleName namespace
+equals SimpleName MethodInvocation SimpleName namespace
+table namespaces cannot be == StringLiteral InfixExpression QualifiedName constantssystem table namespace
+why SimpleName VariableDeclarationFragment InfixExpression StringLiteral table namespaces cannot be ==
+why SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantssystem table namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName why
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation SimpleName why
+warn SimpleName MethodInvocation SimpleName why
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName namespace
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName operation
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName why
+namespace SimpleName ClassInstanceCreation SimpleName operation
+namespace SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+namespace SimpleName ClassInstanceCreation SimpleName why
+operation SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+operation SimpleName ClassInstanceCreation SimpleName why
+table operation exception typeother QualifiedName ClassInstanceCreation SimpleName why
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check not system namespace
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName operation
+private Modifier MethodDeclaration SimpleType SimpleName thrift table operation exception
+void PrimitiveType MethodDeclaration SimpleName check not system namespace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName operation
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift table operation exception
+check not system namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check not system namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace
+check not system namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operation
+check not system namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName operation
+check not system namespace SimpleName MethodDeclaration SimpleType SimpleName thrift table operation exception
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+namespace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+operation SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check not system namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check not system namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName operation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception

@@ -1,0 +1,34 @@
+application properties SimpleName MethodInvocation SimpleName get
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+soft delete handler v SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation SimpleName get class
+application properties SimpleName MethodInvocation SimpleName config
+application properties SimpleName MethodInvocation SimpleName delete handler v implementation property
+application properties SimpleName MethodInvocation MethodInvocation SimpleName get name
+application properties SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler v
+get class SimpleName MethodInvocation SimpleName config
+get class SimpleName MethodInvocation SimpleName delete handler v implementation property
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler v
+config SimpleName MethodInvocation SimpleName delete handler v implementation property
+config SimpleName MethodInvocation MethodInvocation SimpleName get name
+config SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler v
+delete handler v implementation property SimpleName MethodInvocation MethodInvocation SimpleName get name
+delete handler v implementation property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delete handler v
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+public Modifier MethodDeclaration SimpleName get delete handler v impl
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+static Modifier MethodDeclaration SimpleName get delete handler v impl
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get delete handler v impl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delete handler v impl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delete handler v impl

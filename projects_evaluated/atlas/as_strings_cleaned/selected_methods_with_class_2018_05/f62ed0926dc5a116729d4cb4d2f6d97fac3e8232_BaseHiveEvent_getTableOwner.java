@@ -1,0 +1,31 @@
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table SimpleName MethodInvocation SimpleName get t table
+table SimpleName MethodInvocation SimpleName get owner
+table SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+get t table SimpleName MethodInvocation InfixExpression ConditionalExpression StringLiteral empty
+table SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression StringLiteral empty
+get owner SimpleName MethodInvocation ParenthesizedExpression ConditionalExpression StringLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get table owner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get table owner
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType MethodDeclaration SimpleName get table owner
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+get table owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+get table owner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table owner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table owner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table

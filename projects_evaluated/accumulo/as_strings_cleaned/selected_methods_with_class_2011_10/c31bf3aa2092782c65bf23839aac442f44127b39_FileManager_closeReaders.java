@@ -1,0 +1,41 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName file skv iterator
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files to close
+file skv iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName files to close
+file skv iterator SimpleName SimpleType SingleVariableDeclaration SimpleName reader
+reader SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+failed to close file StringLiteral InfixExpression MethodInvocation SimpleName e
+failed to close file StringLiteral InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to close file
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to close file
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName e
+failed to close file StringLiteral InfixExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get message SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+file skv iterator SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName files to close
+reader SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName files to close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close readers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName files to close
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName files to close
+void PrimitiveType MethodDeclaration SimpleName close readers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName files to close
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName files to close
+close readers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName files to close
+close readers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName files to close
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close readers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files to close
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close readers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName files to close

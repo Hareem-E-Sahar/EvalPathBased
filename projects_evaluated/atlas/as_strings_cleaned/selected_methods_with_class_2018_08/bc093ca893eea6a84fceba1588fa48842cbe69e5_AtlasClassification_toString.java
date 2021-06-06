@@ -1,0 +1,100 @@
+string builder SimpleName SimpleType ClassInstanceCreation StringLiteral atlas classification
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral atlas classification
+final Modifier VariableDeclarationStatement SimpleType SimpleName string builder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral atlas classification
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+to string SimpleName SuperMethodInvocation SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral entity guid
+append SimpleName MethodInvocation StringLiteral entity guid
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+entity guid StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+append SimpleName MethodInvocation MethodInvocation SimpleName entity guid
+entity guid StringLiteral MethodInvocation MethodInvocation SimpleName entity guid
+append SimpleName MethodInvocation SimpleName entity guid
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+entity guid StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+entity guid SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+append SimpleName MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+entity guid StringLiteral MethodInvocation MethodInvocation MethodInvocation CharacterLiteral \
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+entity guid SimpleName MethodInvocation MethodInvocation CharacterLiteral \
+append SimpleName MethodInvocation CharacterLiteral \
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral entity status
+append SimpleName MethodInvocation StringLiteral entity status
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+entity status StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName entity status
+append SimpleName MethodInvocation MethodInvocation SimpleName entity status
+entity status StringLiteral MethodInvocation MethodInvocation SimpleName entity status
+append SimpleName MethodInvocation SimpleName entity status
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral propagate
+append SimpleName MethodInvocation StringLiteral propagate
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+propagate StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName propagate
+append SimpleName MethodInvocation MethodInvocation SimpleName propagate
+propagate StringLiteral MethodInvocation MethodInvocation SimpleName propagate
+append SimpleName MethodInvocation SimpleName propagate
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral remove propagations on entity delete
+append SimpleName MethodInvocation StringLiteral remove propagations on entity delete
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+remove propagations on entity delete StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName remove propagations on entity delete
+append SimpleName MethodInvocation MethodInvocation SimpleName remove propagations on entity delete
+remove propagations on entity delete StringLiteral MethodInvocation MethodInvocation SimpleName remove propagations on entity delete
+append SimpleName MethodInvocation SimpleName remove propagations on entity delete
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral validity periods
+append SimpleName MethodInvocation StringLiteral validity periods
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+validity periods StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName validity periods
+append SimpleName MethodInvocation MethodInvocation SimpleName validity periods
+validity periods StringLiteral MethodInvocation MethodInvocation SimpleName validity periods
+append SimpleName MethodInvocation SimpleName validity periods
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral validity periods
+append SimpleName MethodInvocation StringLiteral validity periods
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+validity periods StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName validity periods
+append SimpleName MethodInvocation MethodInvocation SimpleName validity periods
+validity periods StringLiteral MethodInvocation MethodInvocation SimpleName validity periods
+append SimpleName MethodInvocation SimpleName validity periods
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral }
+append SimpleName MethodInvocation CharacterLiteral }
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

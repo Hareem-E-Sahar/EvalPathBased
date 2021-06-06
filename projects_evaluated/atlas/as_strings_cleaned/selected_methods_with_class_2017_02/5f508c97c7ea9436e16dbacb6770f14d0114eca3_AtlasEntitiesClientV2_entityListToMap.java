@@ -1,0 +1,49 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName atlas entities
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+atlas entities SimpleName MethodInvocation SimpleName size
+to send SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas entities
+to send SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+to send SimpleName MethodInvocation SimpleName put
+to send SimpleName MethodInvocation MethodInvocation SimpleName entity
+to send SimpleName MethodInvocation MethodInvocation SimpleName get guid
+to send SimpleName MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName entity
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName entity
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity
+get guid SimpleName MethodInvocation MethodInvocation SimpleName entity
+atlas entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName atlas entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName atlas entities
+atlas entities SimpleName EnhancedForStatement Block ReturnStatement SimpleName to send
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName entity list to map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName atlas entities
+private Modifier MethodDeclaration Block ReturnStatement SimpleName to send
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName entity list to map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName entity list to map
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName entity list to map
+entity list to map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+entity list to map SimpleName MethodDeclaration Block EnhancedForStatement SimpleName atlas entities
+entity list to map SimpleName MethodDeclaration Block ReturnStatement SimpleName to send
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName entity list to map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName entity list to map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas entities

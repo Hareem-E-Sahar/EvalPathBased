@@ -1,0 +1,52 @@
+basic test SimpleName MethodInvocation SimpleName reg table name
+basic test SimpleName MethodInvocation NumberLiteral empty
+reg table name SimpleName MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable split threshold QualifiedName MethodInvocation SimpleName get key
+empty StringLiteral InfixExpression SimpleName split thresh
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reg table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName reg table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+table operations SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName split thresh
+set property SimpleName MethodInvocation SimpleName reg table name
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation InfixExpression StringLiteral empty
+set property SimpleName MethodInvocation InfixExpression SimpleName split thresh
+reg table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable split threshold
+reg table name SimpleName MethodInvocation MethodInvocation SimpleName get key
+reg table name SimpleName MethodInvocation InfixExpression StringLiteral empty
+reg table name SimpleName MethodInvocation InfixExpression SimpleName split thresh
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+propertytable split threshold QualifiedName MethodInvocation MethodInvocation InfixExpression SimpleName split thresh
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName split thresh
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+check splits SimpleName MethodInvocation SimpleName reg table name
+check splits SimpleName MethodInvocation NumberLiteral empty
+check splits SimpleName MethodInvocation NumberLiteral empty
+reg table name SimpleName MethodInvocation NumberLiteral empty
+reg table name SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName reg table name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName test
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

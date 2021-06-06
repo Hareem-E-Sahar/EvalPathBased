@@ -1,0 +1,161 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName current edge
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas vertex
+final Modifier SingleVariableDeclaration SimpleName new entity vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName new entity vertex
+atlas relationship edge direction SimpleName SimpleType SingleVariableDeclaration SimpleName edge direction
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+log SimpleName MethodInvocation SimpleName is debug enabled
+get type name SimpleName MethodInvocation SimpleName new entity vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating entity reference using relationship {} for reference attribute {}
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation MethodInvocation SimpleName new entity vertex
+debug SimpleName MethodInvocation StringLiteral updating entity reference using relationship {} for reference attribute {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation MethodInvocation SimpleName new entity vertex
+updating entity reference using relationship {} for reference attribute {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+updating entity reference using relationship {} for reference attribute {} StringLiteral MethodInvocation MethodInvocation SimpleName new entity vertex
+edge direction SimpleName InfixExpression SimpleName in
+current edge SimpleName MethodInvocation SimpleName get out vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName current edge
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+current edge SimpleName MethodInvocation SimpleName get in vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName current edge
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+get id from vertex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get id from vertex
+current entity id SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get id from vertex
+current entity id SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get id from vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current entity id
+get id from vertex SimpleName MethodInvocation SimpleName new entity vertex
+new entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id from vertex
+new entity id SimpleName VariableDeclarationFragment MethodInvocation SimpleName new entity vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new entity id
+ret SimpleName VariableDeclarationFragment SimpleName current edge
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current edge
+current entity id SimpleName MethodInvocation SimpleName equals
+current entity id SimpleName MethodInvocation SimpleName new entity id
+equals SimpleName MethodInvocation SimpleName new entity id
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName current edge
+get type name SimpleName MethodInvocation SimpleName current edge
+relationship name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+relationship name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+relationship name SimpleName VariableDeclarationFragment MethodInvocation SimpleName current edge
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship name
+current edge SimpleName MethodInvocation SimpleName get label
+relationship name SimpleName Assignment MethodInvocation SimpleName current edge
+relationship name SimpleName Assignment MethodInvocation SimpleName get label
+edge direction SimpleName InfixExpression SimpleName in
+current edge SimpleName MethodInvocation SimpleName get in vertex
+get or create relationship SimpleName MethodInvocation SimpleName new entity vertex
+get or create relationship SimpleName MethodInvocation MethodInvocation SimpleName current edge
+get or create relationship SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+get or create relationship SimpleName MethodInvocation SimpleName relationship name
+get or create relationship SimpleName MethodInvocation SimpleName attribute
+new entity vertex SimpleName MethodInvocation MethodInvocation SimpleName current edge
+new entity vertex SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+new entity vertex SimpleName MethodInvocation SimpleName relationship name
+new entity vertex SimpleName MethodInvocation SimpleName attribute
+current edge SimpleName MethodInvocation MethodInvocation SimpleName relationship name
+get in vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship name
+current edge SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get in vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+relationship name SimpleName MethodInvocation SimpleName attribute
+current edge SimpleName MethodInvocation SimpleName get out vertex
+get or create relationship SimpleName MethodInvocation MethodInvocation SimpleName current edge
+get or create relationship SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+get or create relationship SimpleName MethodInvocation SimpleName new entity vertex
+get or create relationship SimpleName MethodInvocation SimpleName relationship name
+get or create relationship SimpleName MethodInvocation SimpleName attribute
+current edge SimpleName MethodInvocation MethodInvocation SimpleName new entity vertex
+get out vertex SimpleName MethodInvocation MethodInvocation SimpleName new entity vertex
+current edge SimpleName MethodInvocation MethodInvocation SimpleName relationship name
+get out vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship name
+current edge SimpleName MethodInvocation MethodInvocation SimpleName attribute
+get out vertex SimpleName MethodInvocation MethodInvocation SimpleName attribute
+new entity vertex SimpleName MethodInvocation SimpleName relationship name
+new entity vertex SimpleName MethodInvocation SimpleName attribute
+relationship name SimpleName MethodInvocation SimpleName attribute
+get or create relationship SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get or create relationship
+get or create relationship SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new entity vertex
+get or create relationship SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName relationship name
+get or create relationship SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName attribute
+new entity vertex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get or create relationship
+new entity vertex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new entity vertex
+new entity vertex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName relationship name
+new entity vertex SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName attribute
+relationship name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get or create relationship
+relationship name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new entity vertex
+relationship name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName relationship name
+relationship name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName attribute
+attribute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get or create relationship
+attribute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName new entity vertex
+attribute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName relationship name
+attribute SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName attribute
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get or create relationship
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName new entity vertex
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName relationship name
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName attribute
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get or create relationship
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName new entity vertex
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName relationship name
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName attribute
+private Modifier MethodDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SimpleName update relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName current edge
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship edge direction
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName update relationship
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName current edge
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current edge
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship edge direction
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+update relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+update relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+current edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+new entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+new entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+new entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+edge direction SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+edge direction SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName update relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

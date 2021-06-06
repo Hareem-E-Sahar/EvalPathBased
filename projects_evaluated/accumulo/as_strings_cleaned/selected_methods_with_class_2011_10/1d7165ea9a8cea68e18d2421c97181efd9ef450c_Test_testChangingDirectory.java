@@ -1,0 +1,260 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral orgapacheaccumuloconfigfile
+system SimpleName MethodInvocation StringLiteral accumulositexml
+get property SimpleName MethodInvocation StringLiteral orgapacheaccumuloconfigfile
+get property SimpleName MethodInvocation StringLiteral accumulositexml
+orgapacheaccumuloconfigfile StringLiteral MethodInvocation StringLiteral accumulositexml
+config file SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+config file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+config file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral orgapacheaccumuloconfigfile
+config file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral accumulositexml
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config file
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+system SimpleName MethodInvocation InfixExpression StringLiteral conf
+getenv SimpleName MethodInvocation InfixExpression StringLiteral conf
+accumulo home StringLiteral MethodInvocation InfixExpression StringLiteral conf
+system SimpleName MethodInvocation InfixExpression SimpleName config file
+getenv SimpleName MethodInvocation InfixExpression SimpleName config file
+accumulo home StringLiteral MethodInvocation InfixExpression SimpleName config file
+conf StringLiteral InfixExpression SimpleName config file
+site conf SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+site conf SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName getenv
+site conf SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral accumulo home
+site conf SimpleName VariableDeclarationFragment InfixExpression StringLiteral conf
+site conf SimpleName VariableDeclarationFragment InfixExpression SimpleName config file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName site conf
+file SimpleName SimpleType ClassInstanceCreation SimpleName site conf
+old conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+old conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName site conf
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old conf
+old conf SimpleName MethodInvocation SimpleName exists
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName old conf
+exists SimpleName VariableDeclarationFragment MethodInvocation SimpleName exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exists
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName old conf
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName exists
+site conf SimpleName InfixExpression StringLiteral bkp
+site bkp SimpleName VariableDeclarationFragment InfixExpression SimpleName site conf
+site bkp SimpleName VariableDeclarationFragment InfixExpression StringLiteral bkp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName site bkp
+old conf SimpleName MethodInvocation SimpleName exists
+file SimpleName SimpleType ClassInstanceCreation SimpleName site bkp
+old conf SimpleName MethodInvocation SimpleName rename to
+old conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+old conf SimpleName MethodInvocation ClassInstanceCreation SimpleName site bkp
+rename to SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+rename to SimpleName MethodInvocation ClassInstanceCreation SimpleName site bkp
+file SimpleName SimpleType ClassInstanceCreation SimpleName site bkp
+old conf SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+old conf SimpleName Assignment ClassInstanceCreation SimpleName site bkp
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation StringLiteral accumulo home
+getenv SimpleName MethodInvocation StringLiteral accumulo home
+random SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName next int
+system SimpleName MethodInvocation InfixExpression StringLiteral libnot ext
+getenv SimpleName MethodInvocation InfixExpression StringLiteral libnot ext
+accumulo home StringLiteral MethodInvocation InfixExpression StringLiteral libnot ext
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next int
+getenv SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next int
+accumulo home StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName next int
+libnot ext StringLiteral InfixExpression MethodInvocation SimpleName next int
+random folder SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+random folder SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName getenv
+random folder SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral accumulo home
+random folder SimpleName VariableDeclarationFragment InfixExpression StringLiteral libnot ext
+random folder SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName next int
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName random folder
+file SimpleName SimpleType ClassInstanceCreation SimpleName random folder
+rf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+rf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName random folder
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rf
+rf SimpleName MethodInvocation SimpleName mkdirs
+document builder factory SimpleName MethodInvocation SimpleName new instance
+dbf SimpleName VariableDeclarationFragment MethodInvocation SimpleName document builder factory
+dbf SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+document builder factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dbf
+dbf SimpleName MethodInvocation SimpleName new document builder
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName dbf
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName new document builder
+document builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+db SimpleName MethodInvocation SimpleName parse
+db SimpleName MethodInvocation SimpleName site bkp
+parse SimpleName MethodInvocation SimpleName site bkp
+d SimpleName Assignment MethodInvocation SimpleName db
+d SimpleName Assignment MethodInvocation SimpleName parse
+d SimpleName Assignment MethodInvocation SimpleName site bkp
+site conf SimpleName InfixExpression StringLiteral example
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName site conf
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral example
+db SimpleName MethodInvocation SimpleName parse
+db SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+db SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName site conf
+db SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral example
+parse SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+parse SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName site conf
+parse SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral example
+d SimpleName Assignment MethodInvocation SimpleName db
+d SimpleName Assignment MethodInvocation SimpleName parse
+exists SimpleName IfStatement ExpressionStatement Assignment SimpleName d
+exists SimpleName IfStatement ExpressionStatement Assignment SimpleName d
+d SimpleName MethodInvocation SimpleName get elements by tag name
+d SimpleName MethodInvocation StringLiteral property
+get elements by tag name SimpleName MethodInvocation StringLiteral property
+pnodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName d
+pnodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elements by tag name
+pnodes SimpleName VariableDeclarationFragment MethodInvocation StringLiteral property
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pnodes
+pnodes SimpleName MethodInvocation SimpleName get length
+pnodes SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName pnodes
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+pnodes SimpleName MethodInvocation SimpleName item
+pnodes SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName pnodes
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+current property SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+current property SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName pnodes
+current property SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+current property SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current property
+current property SimpleName MethodInvocation SimpleName get elements by tag name
+current property SimpleName MethodInvocation StringLiteral name
+get elements by tag name SimpleName MethodInvocation StringLiteral name
+current property SimpleName MethodInvocation MethodInvocation SimpleName item
+get elements by tag name SimpleName MethodInvocation MethodInvocation SimpleName item
+name StringLiteral MethodInvocation MethodInvocation SimpleName item
+current property SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get elements by tag name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+name StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+cname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current property
+cname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get elements by tag name
+cname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral name
+cname SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+cname SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cname
+cname SimpleName MethodInvocation SimpleName get text content
+cname SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get text content SimpleName MethodInvocation MethodInvocation SimpleName compare to
+cname SimpleName MethodInvocation MethodInvocation QualifiedName accumulo class loaderdynamic classpath property name
+get text content SimpleName MethodInvocation MethodInvocation QualifiedName accumulo class loaderdynamic classpath property name
+compare to SimpleName MethodInvocation QualifiedName accumulo class loaderdynamic classpath property name
+cname SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get text content SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+accumulo class loaderdynamic classpath property name QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+cname SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+current property SimpleName MethodInvocation SimpleName get elements by tag name
+current property SimpleName MethodInvocation StringLiteral value
+get elements by tag name SimpleName MethodInvocation StringLiteral value
+current property SimpleName MethodInvocation MethodInvocation SimpleName item
+get elements by tag name SimpleName MethodInvocation MethodInvocation SimpleName item
+value StringLiteral MethodInvocation MethodInvocation SimpleName item
+current property SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get elements by tag name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+value StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+cvalue SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current property
+cvalue SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get elements by tag name
+cvalue SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral value
+cvalue SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+cvalue SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cvalue
+random folder SimpleName InfixExpression StringLiteral /.*
+cvalue SimpleName MethodInvocation SimpleName set text content
+cvalue SimpleName MethodInvocation InfixExpression SimpleName random folder
+cvalue SimpleName MethodInvocation InfixExpression StringLiteral /.*
+set text content SimpleName MethodInvocation InfixExpression SimpleName random folder
+set text content SimpleName MethodInvocation InfixExpression StringLiteral /.*
+d SimpleName MethodInvocation SimpleName create element
+d SimpleName MethodInvocation StringLiteral value
+create element SimpleName MethodInvocation StringLiteral value
+cvalue SimpleName Assignment MethodInvocation SimpleName d
+cvalue SimpleName Assignment MethodInvocation SimpleName create element
+cvalue SimpleName Assignment MethodInvocation StringLiteral value
+random folder SimpleName InfixExpression StringLiteral /.*
+cvalue SimpleName MethodInvocation SimpleName set text content
+cvalue SimpleName MethodInvocation InfixExpression SimpleName random folder
+cvalue SimpleName MethodInvocation InfixExpression StringLiteral /.*
+set text content SimpleName MethodInvocation InfixExpression SimpleName random folder
+set text content SimpleName MethodInvocation InfixExpression StringLiteral /.*
+current property SimpleName MethodInvocation SimpleName append child
+current property SimpleName MethodInvocation SimpleName cvalue
+append child SimpleName MethodInvocation SimpleName cvalue
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+transformer factory SimpleName MethodInvocation SimpleName new instance
+cybertron SimpleName VariableDeclarationFragment MethodInvocation SimpleName transformer factory
+cybertron SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+transformer factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cybertron
+cybertron SimpleName MethodInvocation SimpleName new transformer
+optimus prime SimpleName VariableDeclarationFragment MethodInvocation SimpleName cybertron
+optimus prime SimpleName VariableDeclarationFragment MethodInvocation SimpleName new transformer
+transformer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName optimus prime
+file SimpleName SimpleType ClassInstanceCreation SimpleName site conf
+stream result SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName site conf
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stream result
+result SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName site conf
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+dom source SimpleName SimpleType ClassInstanceCreation SimpleName d
+optimus prime SimpleName MethodInvocation SimpleName transform
+optimus prime SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dom source
+optimus prime SimpleName MethodInvocation ClassInstanceCreation SimpleName d
+optimus prime SimpleName MethodInvocation SimpleName result
+transform SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dom source
+transform SimpleName MethodInvocation ClassInstanceCreation SimpleName d
+transform SimpleName MethodInvocation SimpleName result
+dom source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName result
+d SimpleName ClassInstanceCreation MethodInvocation SimpleName result
+file SimpleName SimpleType ClassInstanceCreation SimpleName site conf
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName delete
+site conf SimpleName ClassInstanceCreation MethodInvocation SimpleName delete
+file SimpleName SimpleType ClassInstanceCreation SimpleName site conf
+old conf SimpleName MethodInvocation SimpleName rename to
+old conf SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+old conf SimpleName MethodInvocation ClassInstanceCreation SimpleName site conf
+rename to SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file
+rename to SimpleName MethodInvocation ClassInstanceCreation SimpleName site conf
+exists SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName old conf
+exists SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName rename to
+file SimpleName SimpleType SingleVariableDeclaration SimpleName delete me
+rf SimpleName MethodInvocation SimpleName list files
+delete me SimpleName MethodInvocation SimpleName delete
+delete me SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName rf
+delete me SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list files
+rf SimpleName MethodInvocation SimpleName delete
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName exists
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test changing directory
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName exists
+void PrimitiveType MethodDeclaration SimpleName test changing directory
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName exists
+test changing directory SimpleName MethodDeclaration SimpleType SimpleName exception
+test changing directory SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test changing directory SimpleName MethodDeclaration Block IfStatement SimpleName exists
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test changing directory
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test changing directory
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

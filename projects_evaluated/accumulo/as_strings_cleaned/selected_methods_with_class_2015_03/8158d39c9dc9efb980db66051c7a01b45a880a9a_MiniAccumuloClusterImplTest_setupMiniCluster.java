@@ -1,0 +1,152 @@
+logger SimpleName MethodInvocation SimpleName get logger
+logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+get logger SimpleName MethodInvocation StringLiteral orgapachezookeeper
+logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+get logger SimpleName MethodInvocation MethodInvocation SimpleName set level
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation SimpleName set level
+logger SimpleName MethodInvocation MethodInvocation QualifiedName levelerror
+get logger SimpleName MethodInvocation MethodInvocation QualifiedName levelerror
+orgapachezookeeper StringLiteral MethodInvocation MethodInvocation QualifiedName levelerror
+set level SimpleName MethodInvocation QualifiedName levelerror
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral userdir
+get property SimpleName MethodInvocation StringLiteral userdir
+system SimpleName MethodInvocation InfixExpression StringLiteral targetminitests
+get property SimpleName MethodInvocation InfixExpression StringLiteral targetminitests
+userdir StringLiteral MethodInvocation InfixExpression StringLiteral targetminitests
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral targetminitests
+base dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+base dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral targetminitests
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base dir
+base dir SimpleName MethodInvocation SimpleName mkdirs
+base dir SimpleName MethodInvocation SimpleName is directory
+base dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base dir
+base dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+mkdirs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base dir
+mkdirs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName mkdirs
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName base dir
+assert true SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is directory
+mini accumulo cluster impl test SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+file SimpleName SimpleType ClassInstanceCreation SimpleName base dir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+base dir SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+test dir SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+test dir SimpleName Assignment ClassInstanceCreation SimpleName base dir
+test dir SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+file utils SimpleName MethodInvocation SimpleName delete quietly
+file utils SimpleName MethodInvocation SimpleName test dir
+delete quietly SimpleName MethodInvocation SimpleName test dir
+test dir SimpleName MethodInvocation SimpleName mkdir
+assert true SimpleName MethodInvocation MethodInvocation SimpleName test dir
+assert true SimpleName MethodInvocation MethodInvocation SimpleName mkdir
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation SimpleName test dir
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation StringLiteral super secret
+test dir SimpleName ClassInstanceCreation StringLiteral super secret
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set jdwp enabled
+test dir SimpleName ClassInstanceCreation MethodInvocation SimpleName set jdwp enabled
+super secret StringLiteral ClassInstanceCreation MethodInvocation SimpleName set jdwp enabled
+mini accumulo config impl SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+test dir SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+super secret StringLiteral ClassInstanceCreation MethodInvocation BooleanLiteral true
+set jdwp enabled SimpleName MethodInvocation BooleanLiteral true
+config SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName test dir
+config SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral super secret
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName set jdwp enabled
+config SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+mini accumulo config impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+config SimpleName MethodInvocation SimpleName set num tservers
+config SimpleName MethodInvocation SimpleName num tservers
+set num tservers SimpleName MethodInvocation SimpleName num tservers
+mini accumulo cluster impl SimpleName SimpleType ClassInstanceCreation SimpleName config
+accumulo SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mini accumulo cluster impl
+accumulo SimpleName Assignment ClassInstanceCreation SimpleName config
+accumulo SimpleName MethodInvocation SimpleName start
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral super secret
+accumulo SimpleName MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation StringLiteral root
+accumulo SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+accumulo SimpleName MethodInvocation ClassInstanceCreation StringLiteral super secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral super secret
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral MethodInvocation ClassInstanceCreation StringLiteral super secret
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral super secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+tableops SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+tableops SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tableops
+tableops SimpleName MethodInvocation SimpleName create
+tableops SimpleName MethodInvocation SimpleName test table
+create SimpleName MethodInvocation SimpleName test table
+tableops SimpleName MethodInvocation SimpleName table id map
+tableops SimpleName MethodInvocation MethodInvocation SimpleName get
+table id map SimpleName MethodInvocation MethodInvocation SimpleName get
+tableops SimpleName MethodInvocation MethodInvocation SimpleName test table
+table id map SimpleName MethodInvocation MethodInvocation SimpleName test table
+get SimpleName MethodInvocation SimpleName test table
+test table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName tableops
+test table id SimpleName Assignment MethodInvocation MethodInvocation SimpleName table id map
+test table id SimpleName Assignment MethodInvocation SimpleName get
+test table id SimpleName Assignment MethodInvocation SimpleName test table
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName test table
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation SimpleName test table
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+test table SimpleName MethodInvocation QualifiedName authorizationsempty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName test table
+s SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unused
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration SimpleName e
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration SimpleName e
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+suppress warnings SimpleName SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName s
+unused StringLiteral SingleMemberAnnotation SingleVariableDeclaration EnhancedForStatement SimpleName s
+e SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName s
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier static
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup mini cluster
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup mini cluster
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName s
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName setup mini cluster
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName s
+void PrimitiveType MethodDeclaration SimpleName setup mini cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName s
+setup mini cluster SimpleName MethodDeclaration SimpleType SimpleName exception
+setup mini cluster SimpleName MethodDeclaration Block EnhancedForStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup mini cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,122 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName destination namespace id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName src namespace id
+authenticate SimpleName MethodInvocation SimpleName c
+has system permission with namespace id SimpleName MethodInvocation SimpleName c
+has system permission with namespace id SimpleName MethodInvocation QualifiedName system permissioncreate table
+has system permission with namespace id SimpleName MethodInvocation SimpleName destination namespace id
+has system permission with namespace id SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation SimpleName destination namespace id
+c SimpleName MethodInvocation BooleanLiteral false
+system permissioncreate table QualifiedName MethodInvocation SimpleName destination namespace id
+system permissioncreate table QualifiedName MethodInvocation BooleanLiteral false
+destination namespace id SimpleName MethodInvocation BooleanLiteral false
+has table permission SimpleName MethodInvocation SimpleName c
+has table permission SimpleName MethodInvocation SimpleName table id
+has table permission SimpleName MethodInvocation SimpleName src namespace id
+has table permission SimpleName MethodInvocation QualifiedName table permissionread
+has table permission SimpleName MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName src namespace id
+c SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation BooleanLiteral false
+table id SimpleName MethodInvocation SimpleName src namespace id
+table id SimpleName MethodInvocation QualifiedName table permissionread
+table id SimpleName MethodInvocation BooleanLiteral false
+src namespace id SimpleName MethodInvocation QualifiedName table permissionread
+src namespace id SimpleName MethodInvocation BooleanLiteral false
+table permissionread QualifiedName MethodInvocation BooleanLiteral false
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src namespace id
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+has system permission with namespace id SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src namespace id
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName src namespace id
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src namespace id
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+destination namespace id SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName has table permission
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName c
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName table id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation SimpleName src namespace id
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+false BooleanLiteral MethodInvocation InfixExpression MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can clone table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SimpleName can clone table
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+can clone table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+destination namespace id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+destination namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+src namespace id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can clone table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can clone table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName destination namespace id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src namespace id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

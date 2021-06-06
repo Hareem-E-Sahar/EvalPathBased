@@ -1,0 +1,36 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName compaction info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName compaction info
+array list SimpleName SimpleType ParameterizedType SimpleType QualifiedName compactorcompaction info
+compactor SimpleName SimpleType SingleVariableDeclaration SimpleName compactor
+compaction info SimpleName SimpleType ClassInstanceCreation SimpleName compactor
+compactions SimpleName MethodInvocation SimpleName add
+compactions SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compaction info
+compactions SimpleName MethodInvocation ClassInstanceCreation SimpleName compactor
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName compaction info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName compactor
+compactor SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName running compactions
+compactor SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName running compactions
+running compactions SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName running compactions
+running compactions SimpleName SynchronizedStatement Block ReturnStatement SimpleName compactions
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName compaction info
+public Modifier MethodDeclaration SimpleName get running compactions
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName running compactions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName compactions
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName compaction info
+static Modifier MethodDeclaration SimpleName get running compactions
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName running compactions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName compactions
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get running compactions
+compaction info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get running compactions
+get running compactions SimpleName MethodDeclaration Block SynchronizedStatement SimpleName running compactions
+get running compactions SimpleName MethodDeclaration Block ReturnStatement SimpleName compactions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get running compactions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get running compactions

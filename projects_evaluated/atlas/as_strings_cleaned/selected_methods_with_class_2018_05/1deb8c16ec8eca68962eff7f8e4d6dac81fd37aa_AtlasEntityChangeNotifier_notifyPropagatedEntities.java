@@ -1,0 +1,82 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity propagation map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity propagation map
+entity audit action v SimpleName SimpleType SingleVariableDeclaration SimpleName action
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName entity propagation map
+is empty SimpleName MethodInvocation SimpleName entity propagation map
+map utils SimpleName MethodInvocation InfixExpression InfixExpression SimpleName action
+is empty SimpleName MethodInvocation InfixExpression InfixExpression SimpleName action
+entity propagation map SimpleName MethodInvocation InfixExpression InfixExpression SimpleName action
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+entity propagation map SimpleName MethodInvocation SimpleName key set
+instance converter SimpleName MethodInvocation SimpleName get and cache entity
+instance converter SimpleName MethodInvocation SimpleName guid
+get and cache entity SimpleName MethodInvocation SimpleName guid
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance converter
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and cache entity
+entity with ext info SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity with ext info
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity with ext info SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity with ext info
+entity with ext info SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get entity
+entity SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName entity with ext info
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity with ext info
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+action SimpleName InfixExpression SimpleName propagated classification add
+entity propagation map SimpleName MethodInvocation SimpleName get
+entity propagation map SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+on classification added to entity SimpleName MethodInvocation SimpleName entity
+on classification added to entity SimpleName MethodInvocation MethodInvocation SimpleName entity propagation map
+on classification added to entity SimpleName MethodInvocation MethodInvocation SimpleName get
+on classification added to entity SimpleName MethodInvocation MethodInvocation SimpleName guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity propagation map
+entity SimpleName MethodInvocation MethodInvocation SimpleName get
+entity SimpleName MethodInvocation MethodInvocation SimpleName guid
+action SimpleName InfixExpression SimpleName propagated classification delete
+entity propagation map SimpleName MethodInvocation SimpleName get
+entity propagation map SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+on classification deleted from entity SimpleName MethodInvocation SimpleName entity
+on classification deleted from entity SimpleName MethodInvocation MethodInvocation SimpleName entity propagation map
+on classification deleted from entity SimpleName MethodInvocation MethodInvocation SimpleName get
+on classification deleted from entity SimpleName MethodInvocation MethodInvocation SimpleName guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName entity propagation map
+entity SimpleName MethodInvocation MethodInvocation SimpleName get
+entity SimpleName MethodInvocation MethodInvocation SimpleName guid
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entity propagation map
+guid SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName notify propagated entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity propagation map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit action v
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName action
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName notify propagated entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity propagation map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit action v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName action
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+notify propagated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity propagation map
+notify propagated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity audit action v
+notify propagated entities SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action
+notify propagated entities SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity propagation map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+entity propagation map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+action SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify propagated entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity propagation map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify propagated entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity propagation map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

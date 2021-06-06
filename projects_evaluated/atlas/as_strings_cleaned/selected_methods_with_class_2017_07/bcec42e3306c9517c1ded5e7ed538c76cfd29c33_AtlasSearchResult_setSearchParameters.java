@@ -1,0 +1,20 @@
+search parameters SimpleName SimpleType SingleVariableDeclaration SimpleName search parameters
+search parameters SimpleName FieldAccess Assignment SimpleName search parameters
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set search parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName search parameters
+void PrimitiveType MethodDeclaration SimpleName set search parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName search parameters
+set search parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName search parameters
+set search parameters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName search parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set search parameters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set search parameters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName search parameters

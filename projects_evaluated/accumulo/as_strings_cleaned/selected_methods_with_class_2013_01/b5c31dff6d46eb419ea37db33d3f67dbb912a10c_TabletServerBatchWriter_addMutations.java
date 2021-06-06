@@ -1,0 +1,180 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName binned mutations
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server mutations
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet server mutations SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+binned mutations SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+servers mutations SimpleName MethodInvocation SimpleName get
+servers mutations SimpleName MethodInvocation SimpleName server
+get SimpleName MethodInvocation SimpleName server
+current mutations SimpleName VariableDeclarationFragment MethodInvocation SimpleName servers mutations
+current mutations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+current mutations SimpleName VariableDeclarationFragment MethodInvocation SimpleName server
+tablet server mutations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current mutations
+entry SimpleName MethodInvocation SimpleName get value
+servers mutations SimpleName MethodInvocation SimpleName put
+servers mutations SimpleName MethodInvocation SimpleName server
+servers mutations SimpleName MethodInvocation MethodInvocation SimpleName entry
+servers mutations SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName server
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+server SimpleName MethodInvocation MethodInvocation SimpleName entry
+server SimpleName MethodInvocation MethodInvocation SimpleName get value
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get mutations
+get value SimpleName MethodInvocation MethodInvocation SimpleName get mutations
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+get mutations SimpleName MethodInvocation MethodInvocation SimpleName entry set
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+current mutations SimpleName MethodInvocation SimpleName add mutation
+current mutations SimpleName MethodInvocation MethodInvocation SimpleName entry
+current mutations SimpleName MethodInvocation MethodInvocation SimpleName get key
+current mutations SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName entry
+add mutation SimpleName MethodInvocation MethodInvocation SimpleName get key
+add mutation SimpleName MethodInvocation SimpleName m
+entry SimpleName MethodInvocation MethodInvocation SimpleName m
+get key SimpleName MethodInvocation MethodInvocation SimpleName m
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+m SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+log SimpleName MethodInvocation SimpleName is trace enabled
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get mutations
+get value SimpleName MethodInvocation MethodInvocation SimpleName get mutations
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+get mutations SimpleName MethodInvocation MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName size
+get value SimpleName MethodInvocation MethodInvocation SimpleName size
+count SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+count SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+count SimpleName Assignment MethodInvocation SimpleName size
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName binned mutations
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+count SimpleName InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName is trace enabled
+count SimpleName InfixExpression InfixExpression MethodInvocation SimpleName log
+count SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is trace enabled
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName log
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName is trace enabled
+binned mutations SimpleName MethodInvocation SimpleName key set
+binned mutations SimpleName MethodInvocation MethodInvocation SimpleName size
+key set SimpleName MethodInvocation MethodInvocation SimpleName size
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral started sending d mutations to d tablet servers
+string SimpleName MethodInvocation SimpleName count
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName binned mutations
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+string SimpleName MethodInvocation MethodInvocation SimpleName size
+format SimpleName MethodInvocation StringLiteral started sending d mutations to d tablet servers
+format SimpleName MethodInvocation SimpleName count
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName binned mutations
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+format SimpleName MethodInvocation MethodInvocation SimpleName size
+started sending d mutations to d tablet servers StringLiteral MethodInvocation SimpleName count
+started sending d mutations to d tablet servers StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName binned mutations
+started sending d mutations to d tablet servers StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+started sending d mutations to d tablet servers StringLiteral MethodInvocation MethodInvocation SimpleName size
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName binned mutations
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+count SimpleName MethodInvocation MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral started sending d mutations to d tablet servers
+log SimpleName MethodInvocation MethodInvocation SimpleName count
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName format
+trace SimpleName MethodInvocation MethodInvocation StringLiteral started sending d mutations to d tablet servers
+trace SimpleName MethodInvocation MethodInvocation SimpleName count
+trace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+binned mutations SimpleName MethodInvocation SimpleName key set
+servers SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName binned mutations
+servers SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key set
+collections SimpleName MethodInvocation SimpleName shuffle
+collections SimpleName MethodInvocation SimpleName servers
+shuffle SimpleName MethodInvocation SimpleName servers
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server
+queued SimpleName MethodInvocation SimpleName contains
+queued SimpleName MethodInvocation SimpleName server
+contains SimpleName MethodInvocation SimpleName server
+send task SimpleName SimpleType ClassInstanceCreation SimpleName server
+trace SimpleName MethodInvocation SimpleName wrap
+trace SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName send task
+trace SimpleName MethodInvocation ClassInstanceCreation SimpleName server
+wrap SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName send task
+wrap SimpleName MethodInvocation ClassInstanceCreation SimpleName server
+send thread pool SimpleName MethodInvocation SimpleName submit
+send thread pool SimpleName MethodInvocation MethodInvocation SimpleName trace
+send thread pool SimpleName MethodInvocation MethodInvocation SimpleName wrap
+send thread pool SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName server
+submit SimpleName MethodInvocation MethodInvocation SimpleName trace
+submit SimpleName MethodInvocation MethodInvocation SimpleName wrap
+submit SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName server
+queued SimpleName MethodInvocation SimpleName add
+queued SimpleName MethodInvocation SimpleName server
+add SimpleName MethodInvocation SimpleName server
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName servers
+server SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName servers
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName servers
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add mutations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName servers
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add mutations
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName servers
+void PrimitiveType MethodDeclaration SimpleName add mutations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName servers
+add mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+add mutations SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+add mutations SimpleName MethodDeclaration Block EnhancedForStatement SimpleName servers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add mutations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add mutations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binned mutations

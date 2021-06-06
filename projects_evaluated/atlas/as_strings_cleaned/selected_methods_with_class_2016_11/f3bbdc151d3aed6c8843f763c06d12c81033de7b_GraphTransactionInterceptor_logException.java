@@ -1,0 +1,17 @@
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName InstanceofExpression SimpleType SimpleName schema not found exception
+t SimpleName InstanceofExpression SimpleType SimpleName entity not found exception
+boolean PrimitiveType MethodDeclaration SimpleName log exception
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+log exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName throwable
+log exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+log exception SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName log exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

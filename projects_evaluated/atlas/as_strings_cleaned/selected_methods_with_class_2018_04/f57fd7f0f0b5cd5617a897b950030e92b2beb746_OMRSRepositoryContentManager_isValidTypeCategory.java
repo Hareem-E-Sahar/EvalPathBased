@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+type def category SimpleName SimpleType SingleVariableDeclaration SimpleName category
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+known types SimpleName MethodInvocation SimpleName get
+known types SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName known types
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+type def SimpleName MethodInvocation SimpleName get category
+retrieved type def category SimpleName VariableDeclarationFragment MethodInvocation SimpleName type def
+retrieved type def category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get category
+type def category SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName retrieved type def category
+category SimpleName MethodInvocation SimpleName get type code
+retrieved type def category SimpleName MethodInvocation SimpleName get type code
+category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retrieved type def category
+category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type code
+get type code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retrieved type def category
+get type code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type code
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid type category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleName is valid type category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName category
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName type error exception
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def category
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName category
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid type category SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+is valid type category SimpleName MethodDeclaration SimpleType SimpleName type error exception
+is valid type category SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid type category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid type category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception

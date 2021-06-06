@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+cluster SimpleName MethodInvocation SimpleName get instance name
+cluster SimpleName MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance name
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+zoo keeper instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+get instance name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zoo keeper instance
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance name
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+zki SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get zoo keepers
+zoo keeper instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zki
+password token SimpleName SimpleType ClassInstanceCreation SimpleName secret
+zki SimpleName MethodInvocation SimpleName get connector
+zki SimpleName MethodInvocation StringLiteral root
+zki SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+zki SimpleName MethodInvocation ClassInstanceCreation SimpleName secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleName secret
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+root StringLiteral MethodInvocation ClassInstanceCreation SimpleName secret
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName zki
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName table id map
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table id map
+name to id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName conn
+name to id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+name to id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id map
+name to id SimpleName MethodInvocation SimpleName contains key
+name to id SimpleName MethodInvocation SimpleName table name
+contains key SimpleName MethodInvocation SimpleName table name
+name to id SimpleName MethodInvocation SimpleName get
+name to id SimpleName MethodInvocation SimpleName table name
+get SimpleName MethodInvocation SimpleName table name
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+could not find id for table StringLiteral InfixExpression SimpleName table name
+fail SimpleName MethodInvocation InfixExpression StringLiteral could not find id for table
+fail SimpleName MethodInvocation InfixExpression SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get table id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName get table id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+get table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get table id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get table id SimpleName MethodDeclaration SimpleType SimpleName exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

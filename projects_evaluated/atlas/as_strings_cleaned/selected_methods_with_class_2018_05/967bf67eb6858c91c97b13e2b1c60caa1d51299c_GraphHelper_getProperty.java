@@ -1,0 +1,73 @@
+atlas edge SimpleName SimpleType ParameterizedType WildcardType ?
+atlas edge SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName edge
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName edge
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+graph helper SimpleName MethodInvocation SimpleName encode property key
+graph helper SimpleName MethodInvocation SimpleName property name
+encode property key SimpleName MethodInvocation SimpleName property name
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode property key
+actual property name SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual property name
+log SimpleName MethodInvocation SimpleName is trace enabled
+string SimpleName MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral reading property {} from {}
+log SimpleName MethodInvocation SimpleName actual property name
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName edge
+trace SimpleName MethodInvocation StringLiteral reading property {} from {}
+trace SimpleName MethodInvocation SimpleName actual property name
+trace SimpleName MethodInvocation MethodInvocation SimpleName string
+trace SimpleName MethodInvocation MethodInvocation SimpleName edge
+reading property {} from {} StringLiteral MethodInvocation SimpleName actual property name
+reading property {} from {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+reading property {} from {} StringLiteral MethodInvocation MethodInvocation SimpleName edge
+actual property name SimpleName MethodInvocation MethodInvocation SimpleName string
+actual property name SimpleName MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation SimpleName actual property name
+edge SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+get property SimpleName MethodInvocation SimpleName actual property name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+actual property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get property
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+static Modifier MethodDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get property
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+object SimpleName SimpleType MethodDeclaration SimpleName get property
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get property SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

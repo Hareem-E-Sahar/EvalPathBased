@@ -1,0 +1,206 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+security SimpleName MethodInvocation SimpleName can flush
+security SimpleName MethodInvocation SimpleName c
+security SimpleName MethodInvocation SimpleName table id
+can flush SimpleName MethodInvocation SimpleName c
+can flush SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName table id
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+constantszroot QualifiedName InfixExpression MethodInvocation SimpleName get instance id
+constantszroot QualifiedName InfixExpression QualifiedName constantsztables
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName table id
+/ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get instance
+/ StringLiteral InfixExpression MethodInvocation SimpleName get instance id
+/ StringLiteral InfixExpression QualifiedName constantsztables
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable flush id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztables
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance id SimpleName MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName table id
+get instance id SimpleName MethodInvocation InfixExpression SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantsztable flush id
+get instance id SimpleName MethodInvocation InfixExpression QualifiedName constantsztable flush id
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable flush id
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable flush id
+table id SimpleName InfixExpression QualifiedName constantsztable flush id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get instance id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztables
+z table path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+z table path SimpleName VariableDeclarationFragment InfixExpression SimpleName table id
+z table path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztable flush id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName z table path
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zoo SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+i zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoo
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName fid
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName current value
+string SimpleName SimpleType ClassInstanceCreation SimpleName current value
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+current value SimpleName ClassInstanceCreation SimpleName utf
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName current value
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName current value
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+flush id SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+flush id SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName current value
+flush id SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName utf
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName flush id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName long
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName flush id
+to string SimpleName MethodInvocation SimpleName flush id
+long SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+flush id SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+long SimpleName MethodInvocation MethodInvocation SimpleName utf
+to string SimpleName MethodInvocation MethodInvocation SimpleName utf
+flush id SimpleName MethodInvocation MethodInvocation SimpleName utf
+get bytes SimpleName MethodInvocation SimpleName utf
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName mutate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName current value
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName mutate
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current value
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+byte PrimitiveType ArrayType MethodDeclaration SimpleName mutate
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName current value
+byte PrimitiveType ArrayType MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+mutate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current value
+mutate SimpleName MethodDeclaration SimpleType SimpleName exception
+mutate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+current value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+zoo SimpleName MethodInvocation SimpleName mutate
+zoo SimpleName MethodInvocation SimpleName z table path
+zoo SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+mutate SimpleName MethodInvocation SimpleName z table path
+mutate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+z table path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mutator
+fid SimpleName Assignment MethodInvocation SimpleName zoo
+fid SimpleName Assignment MethodInvocation SimpleName mutate
+fid SimpleName Assignment MethodInvocation SimpleName z table path
+no node exception SimpleName SimpleType SingleVariableDeclaration SimpleName nne
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationflush
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typenotfound
+table id SimpleName ClassInstanceCreation QualifiedName table operationflush
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typenotfound
+table operationflush QualifiedName ClassInstanceCreation QualifiedName table operation exception typenotfound
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationflush
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+table id SimpleName ClassInstanceCreation QualifiedName table operationflush
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table operationflush QualifiedName ClassInstanceCreation QualifiedName table operation exception typeother
+string SimpleName SimpleType ClassInstanceCreation SimpleName fid
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+fid SimpleName ClassInstanceCreation SimpleName utf
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName fid
+long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName fid
+parse long SimpleName MethodInvocation ClassInstanceCreation SimpleName utf
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initiate flush
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName initiate flush
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+long PrimitiveType MethodDeclaration SimpleName initiate flush
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+long PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+initiate flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+initiate flush SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+initiate flush SimpleName MethodDeclaration SimpleType SimpleName thrift table operation exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName thrift table operation exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+thrift table operation exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName initiate flush
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initiate flush
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

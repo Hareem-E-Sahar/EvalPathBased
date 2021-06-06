@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+relationship store SimpleName MethodInvocation SimpleName get
+relationship store SimpleName MethodInvocation SimpleName guid
+get SimpleName MethodInvocation SimpleName guid
+protected Modifier MethodDeclaration SimpleType SimpleName relationship
+protected Modifier MethodDeclaration SimpleName get relationship
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+relationship SimpleName SimpleType MethodDeclaration SimpleName get relationship
+relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

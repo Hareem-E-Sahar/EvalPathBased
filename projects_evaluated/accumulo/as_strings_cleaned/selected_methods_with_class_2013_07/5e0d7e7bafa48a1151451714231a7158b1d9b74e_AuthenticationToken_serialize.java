@@ -1,0 +1,50 @@
+authentication token SimpleName SimpleType SingleVariableDeclaration SimpleName token
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+token SimpleName MethodInvocation SimpleName write
+token SimpleName MethodInvocation SimpleName out
+write SimpleName MethodInvocation SimpleName out
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral bug found in serialization code
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bug found in serialization code StringLiteral ClassInstanceCreation SimpleName e
+baos SimpleName MethodInvocation SimpleName to byte array
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName baos
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+out SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral shouldnt happen with byte array output stream
+illegal state exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+shouldnt happen with byte array output stream StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName serialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication token
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bytes
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName serialize
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication token
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName token
+static Modifier MethodDeclaration Block ReturnStatement SimpleName bytes
+byte PrimitiveType ArrayType MethodDeclaration SimpleName serialize
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName token
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication token
+serialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName token
+serialize SimpleName MethodDeclaration Block ReturnStatement SimpleName bytes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName serialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName serialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName token

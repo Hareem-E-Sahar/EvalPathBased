@@ -1,0 +1,46 @@
+signed jwt SimpleName SimpleType SingleVariableDeclaration SimpleName jwt token
+validate signature SimpleName MethodInvocation SimpleName jwt token
+is valid SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate signature
+is valid SimpleName VariableDeclarationFragment MethodInvocation SimpleName jwt token
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is valid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName validate signature
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName jwt token
+validate expiration SimpleName MethodInvocation SimpleName jwt token
+is valid SimpleName Assignment MethodInvocation SimpleName validate expiration
+is valid SimpleName Assignment MethodInvocation SimpleName jwt token
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral expiration time validation of jwt token failed
+warn SimpleName MethodInvocation StringLiteral expiration time validation of jwt token failed
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral signature of jwt token could not be verified please check the public key
+warn SimpleName MethodInvocation StringLiteral signature of jwt token could not be verified please check the public key
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is valid
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is valid
+is valid SimpleName IfStatement Block ReturnStatement SimpleName is valid
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName validate token
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block IfStatement SimpleName is valid
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName is valid
+boolean PrimitiveType MethodDeclaration SimpleName validate token
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName is valid
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is valid
+validate token SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+validate token SimpleName MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+validate token SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+validate token SimpleName MethodDeclaration Block IfStatement SimpleName is valid
+validate token SimpleName MethodDeclaration Block ReturnStatement SimpleName is valid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token

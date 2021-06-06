@@ -1,0 +1,52 @@
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation QualifiedName atlas clientatlas client ha retries key
+configuration SimpleName MethodInvocation QualifiedName atlas clientdefault num retries
+get int SimpleName MethodInvocation QualifiedName atlas clientatlas client ha retries key
+get int SimpleName MethodInvocation QualifiedName atlas clientdefault num retries
+atlas clientatlas client ha retries key QualifiedName MethodInvocation QualifiedName atlas clientdefault num retries
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get int
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientatlas client ha retries key
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdefault num retries
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientatlas client ha retries key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientdefault num retries QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientatlas client ha retries key QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientdefault num retries QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+then return SimpleName MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation SimpleName get int
+configuration SimpleName MethodInvocation QualifiedName atlas clientatlas client ha sleep interval ms key
+configuration SimpleName MethodInvocation QualifiedName atlas clientdefault sleep between retries ms
+get int SimpleName MethodInvocation QualifiedName atlas clientatlas client ha sleep interval ms key
+get int SimpleName MethodInvocation QualifiedName atlas clientdefault sleep between retries ms
+atlas clientatlas client ha sleep interval ms key QualifiedName MethodInvocation QualifiedName atlas clientdefault sleep between retries ms
+when SimpleName MethodInvocation MethodInvocation SimpleName configuration
+when SimpleName MethodInvocation MethodInvocation SimpleName get int
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientatlas client ha sleep interval ms key
+when SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdefault sleep between retries ms
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientatlas client ha sleep interval ms key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+atlas clientdefault sleep between retries ms QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+configuration SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientatlas client ha sleep interval ms key QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+atlas clientdefault sleep between retries ms QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+then return SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup retry params
+void PrimitiveType MethodDeclaration SimpleName setup retry params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup retry params
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup retry params

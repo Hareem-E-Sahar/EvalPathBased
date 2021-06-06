@@ -1,0 +1,70 @@
+retry SimpleName SimpleType SingleVariableDeclaration SimpleName retry
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral saw possibly transient exception communicating with zoo keeper
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral saw possibly transient exception communicating with zoo keeper
+warn SimpleName MethodInvocation SimpleName e
+saw possibly transient exception communicating with zoo keeper StringLiteral MethodInvocation SimpleName e
+retry SimpleName MethodInvocation SimpleName can retry
+retry SimpleName MethodInvocation SimpleName use retry
+retry SimpleName MethodInvocation SimpleName retries completed
+retry attempts ( StringLiteral InfixExpression MethodInvocation SimpleName retry
+retry attempts ( StringLiteral InfixExpression MethodInvocation SimpleName retries completed
+retry attempts ( StringLiteral InfixExpression StringLiteral ) exceeded trying to communicate with zoo keeper
+retry SimpleName MethodInvocation InfixExpression StringLiteral ) exceeded trying to communicate with zoo keeper
+retries completed SimpleName MethodInvocation InfixExpression StringLiteral ) exceeded trying to communicate with zoo keeper
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral retry attempts (
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retry
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retries completed
+log SimpleName MethodInvocation InfixExpression StringLiteral ) exceeded trying to communicate with zoo keeper
+error SimpleName MethodInvocation InfixExpression StringLiteral retry attempts (
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retry
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName retries completed
+error SimpleName MethodInvocation InfixExpression StringLiteral ) exceeded trying to communicate with zoo keeper
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName retry or throw
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName retry
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName retry
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName keeper exception
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName retry or throw
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName retry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName retry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName keeper exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SimpleName retry or throw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName retry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName retry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+void PrimitiveType MethodDeclaration Block ThrowStatement SimpleName e
+retry or throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName retry
+retry or throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName retry
+retry or throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName keeper exception
+retry or throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+retry or throw SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+retry or throw SimpleName MethodDeclaration Block ThrowStatement SimpleName e
+retry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+retry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+e SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName retry or throw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retry or throw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName retry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception

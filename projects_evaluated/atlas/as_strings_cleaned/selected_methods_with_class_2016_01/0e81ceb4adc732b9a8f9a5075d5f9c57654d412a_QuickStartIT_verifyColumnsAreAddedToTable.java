@@ -1,0 +1,66 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName table
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation QualifiedName quick startcolumns attribute
+get SimpleName MethodInvocation QualifiedName quick startcolumns attribute
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+columns SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName quick startcolumns attribute
+columns SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName columns
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName columns
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+columns SimpleName MethodInvocation SimpleName get
+columns SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+column SimpleName VariableDeclarationFragment MethodInvocation SimpleName columns
+column SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+column SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName column
+column SimpleName MethodInvocation SimpleName get
+column SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation QualifiedName quick starttime id column
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName column
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+quick starttime id column QualifiedName MethodInvocation MethodInvocation SimpleName column
+quick starttime id column QualifiedName MethodInvocation MethodInvocation SimpleName get
+quick starttime id column QualifiedName MethodInvocation MethodInvocation StringLiteral name
+column SimpleName MethodInvocation SimpleName get
+column SimpleName MethodInvocation StringLiteral data type
+get SimpleName MethodInvocation StringLiteral data type
+assert equals SimpleName MethodInvocation StringLiteral int
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName column
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral data type
+int StringLiteral MethodInvocation MethodInvocation SimpleName column
+int StringLiteral MethodInvocation MethodInvocation SimpleName get
+int StringLiteral MethodInvocation MethodInvocation StringLiteral data type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify columns are added to table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName verify columns are added to table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+verify columns are added to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+verify columns are added to table SimpleName MethodDeclaration SimpleType SimpleName json exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify columns are added to table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

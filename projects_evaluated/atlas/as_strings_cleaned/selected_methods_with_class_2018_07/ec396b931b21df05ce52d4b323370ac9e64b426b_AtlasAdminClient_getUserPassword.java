@@ -1,0 +1,46 @@
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName command line
+credentials SimpleName MethodInvocation SimpleName get opt
+command line SimpleName MethodInvocation SimpleName has option
+command line SimpleName MethodInvocation MethodInvocation SimpleName credentials
+command line SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName credentials
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+credentials SimpleName MethodInvocation SimpleName get opt
+command line SimpleName MethodInvocation SimpleName get option value
+command line SimpleName MethodInvocation MethodInvocation SimpleName credentials
+command line SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName credentials
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName command line
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option value
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName credentials
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get opt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName split
+value SimpleName MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+basic auth username password SimpleName Assignment MethodInvocation SimpleName value
+basic auth username password SimpleName Assignment MethodInvocation SimpleName split
+basic auth username password SimpleName Assignment MethodInvocation StringLiteral :
+basic auth username passwordlength QualifiedName InfixExpression NumberLiteral empty
+basic auth username password SimpleName InfixExpression InfixExpression InfixExpression QualifiedName basic auth username passwordlength
+basic auth username password SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral invalid credentials format userpassword
+println SimpleName MethodInvocation StringLiteral invalid credentials format userpassword
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get user password
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName command line
+private Modifier MethodDeclaration Block ReturnStatement SimpleName basic auth username password
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get user password
+get user password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+get user password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName command line
+get user password SimpleName MethodDeclaration Block ReturnStatement SimpleName basic auth username password
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command line
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName command line

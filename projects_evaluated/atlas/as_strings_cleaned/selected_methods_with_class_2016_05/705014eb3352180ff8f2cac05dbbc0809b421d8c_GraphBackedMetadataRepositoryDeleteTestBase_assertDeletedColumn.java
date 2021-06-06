@@ -1,0 +1,33 @@
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName table instance
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert deleted column
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table instance
+protected Modifier MethodDeclaration SimpleType SimpleName atlas exception
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName assert deleted column
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName table instance
+abstract Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName assert deleted column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+assert deleted column SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+assert deleted column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table instance
+assert deleted column SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+table instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert deleted column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert deleted column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

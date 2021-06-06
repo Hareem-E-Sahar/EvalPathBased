@@ -1,0 +1,46 @@
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation StringLiteral jump to
+println SimpleName MethodInvocation StringLiteral jump to
+delimiter SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delimiter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+property SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+prefix SimpleName MethodInvocation SimpleName is experimental
+prefix SimpleName MethodInvocation SimpleName name
+delimiter SimpleName InfixExpression StringLiteral <<
+delimiter SimpleName InfixExpression MethodInvocation SimpleName prefix
+delimiter SimpleName InfixExpression MethodInvocation SimpleName name
+delimiter SimpleName InfixExpression StringLiteral >>
+<< StringLiteral InfixExpression MethodInvocation SimpleName prefix
+<< StringLiteral InfixExpression MethodInvocation SimpleName name
+<< StringLiteral InfixExpression StringLiteral >>
+prefix SimpleName MethodInvocation InfixExpression StringLiteral >>
+name SimpleName MethodInvocation InfixExpression StringLiteral >>
+doc SimpleName MethodInvocation SimpleName print
+doc SimpleName MethodInvocation InfixExpression SimpleName delimiter
+doc SimpleName MethodInvocation InfixExpression StringLiteral <<
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+doc SimpleName MethodInvocation InfixExpression StringLiteral >>
+print SimpleName MethodInvocation InfixExpression SimpleName delimiter
+print SimpleName MethodInvocation InfixExpression StringLiteral <<
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+print SimpleName MethodInvocation InfixExpression StringLiteral >>
+delimiter SimpleName Assignment StringLiteral 
+property SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName prefixes
+prefix SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName prefixes
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation SimpleName println
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName property quick links
+void PrimitiveType MethodDeclaration SimpleName property quick links
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName prefixes
+property quick links SimpleName MethodDeclaration Block EnhancedForStatement SimpleName prefixes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property quick links
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property quick links

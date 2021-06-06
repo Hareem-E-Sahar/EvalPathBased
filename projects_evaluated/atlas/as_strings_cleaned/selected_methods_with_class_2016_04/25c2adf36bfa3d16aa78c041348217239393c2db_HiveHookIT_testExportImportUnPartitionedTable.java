@@ -1,0 +1,120 @@
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+table name SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert table is registered
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+mkdir SimpleName MethodInvocation StringLiteral export
+pfile StringLiteral InfixExpression MethodInvocation SimpleName mkdir
+pfile StringLiteral InfixExpression MethodInvocation StringLiteral export
+filename SimpleName VariableDeclarationFragment InfixExpression StringLiteral pfile
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mkdir
+filename SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral export
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+export table StringLiteral InfixExpression SimpleName table name
+export table StringLiteral InfixExpression StringLiteral to \
+export table StringLiteral InfixExpression SimpleName filename
+export table StringLiteral InfixExpression StringLiteral \
+table name SimpleName InfixExpression StringLiteral to \
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral \
+to \ StringLiteral InfixExpression SimpleName filename
+to \ StringLiteral InfixExpression StringLiteral \
+filename SimpleName InfixExpression StringLiteral \
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral export table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral to \
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName filename
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral \
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation NumberLiteral empty
+validate process SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate process
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+process reference SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+process reference SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName filename
+validate hdfs paths SimpleName MethodInvocation SimpleName outputs
+process reference SimpleName MethodInvocation SimpleName filename
+process reference SimpleName MethodInvocation SimpleName outputs
+filename SimpleName MethodInvocation SimpleName outputs
+validate input tables SimpleName MethodInvocation SimpleName process reference
+validate input tables SimpleName MethodInvocation SimpleName table id
+process reference SimpleName MethodInvocation SimpleName table id
+create table SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName Assignment MethodInvocation SimpleName create table
+table name SimpleName Assignment MethodInvocation BooleanLiteral false
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation SimpleName table name
+table id SimpleName Assignment MethodInvocation SimpleName assert table is registered
+table id SimpleName Assignment MethodInvocation SimpleName default db
+table id SimpleName Assignment MethodInvocation SimpleName table name
+import table StringLiteral InfixExpression SimpleName table name
+import table StringLiteral InfixExpression StringLiteral from
+import table StringLiteral InfixExpression SimpleName filename
+import table StringLiteral InfixExpression StringLiteral empty
+table name SimpleName InfixExpression StringLiteral from
+table name SimpleName InfixExpression SimpleName filename
+table name SimpleName InfixExpression StringLiteral empty
+from StringLiteral InfixExpression SimpleName filename
+from StringLiteral InfixExpression StringLiteral empty
+filename SimpleName InfixExpression StringLiteral empty
+query SimpleName Assignment InfixExpression StringLiteral import table
+query SimpleName Assignment InfixExpression SimpleName table name
+query SimpleName Assignment InfixExpression StringLiteral from
+query SimpleName Assignment InfixExpression SimpleName filename
+query SimpleName Assignment InfixExpression StringLiteral empty
+run command SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation SimpleName query
+validate process SimpleName MethodInvocation NumberLiteral empty
+validate process SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+process reference SimpleName Assignment MethodInvocation SimpleName validate process
+process reference SimpleName Assignment MethodInvocation SimpleName query
+process reference SimpleName Assignment MethodInvocation NumberLiteral empty
+process reference SimpleName Assignment MethodInvocation NumberLiteral empty
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName filename
+validate hdfs paths SimpleName MethodInvocation SimpleName inputs
+process reference SimpleName MethodInvocation SimpleName filename
+process reference SimpleName MethodInvocation SimpleName inputs
+filename SimpleName MethodInvocation SimpleName inputs
+validate output tables SimpleName MethodInvocation SimpleName process reference
+validate output tables SimpleName MethodInvocation SimpleName table id
+process reference SimpleName MethodInvocation SimpleName table id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test export import un partitioned table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test export import un partitioned table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test export import un partitioned table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test export import un partitioned table SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test export import un partitioned table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test export import un partitioned table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

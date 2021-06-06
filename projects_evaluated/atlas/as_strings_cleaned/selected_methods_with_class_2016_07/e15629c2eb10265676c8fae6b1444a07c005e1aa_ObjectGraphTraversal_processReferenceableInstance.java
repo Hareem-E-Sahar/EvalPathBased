@@ -1,0 +1,60 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName i referenceable instance
+val SimpleName InstanceofExpression SimpleType SimpleName id
+val SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName id
+id SimpleName SimpleType CastExpression SimpleName val
+id SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName id
+id SimpleName VariableDeclarationFragment CastExpression SimpleName val
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName is unassigned
+add SimpleName MethodInvocation SimpleName id
+i referenceable instance SimpleName SimpleType CastExpression SimpleName val
+ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i referenceable instance
+ref SimpleName VariableDeclarationFragment CastExpression SimpleName val
+i referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+ref SimpleName MethodInvocation SimpleName get id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName is unassigned
+add SimpleName MethodInvocation SimpleName id
+add SimpleName MethodInvocation SimpleName ref
+id SimpleName MethodInvocation SimpleName ref
+processed ids SimpleName MethodInvocation SimpleName contains
+processed ids SimpleName MethodInvocation SimpleName id
+contains SimpleName MethodInvocation SimpleName id
+processed ids SimpleName MethodInvocation SimpleName add
+processed ids SimpleName MethodInvocation SimpleName id
+add SimpleName MethodInvocation SimpleName id
+process struct SimpleName MethodInvocation SimpleName val
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+ref SimpleName MethodInvocation SimpleName get traits
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+traits SimpleName VariableDeclarationFragment MethodInvocation SimpleName get traits
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+ref SimpleName MethodInvocation SimpleName get trait
+ref SimpleName MethodInvocation SimpleName trait
+get trait SimpleName MethodInvocation SimpleName trait
+process struct SimpleName MethodInvocation MethodInvocation SimpleName ref
+process struct SimpleName MethodInvocation MethodInvocation SimpleName get trait
+process struct SimpleName MethodInvocation MethodInvocation SimpleName trait
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+void PrimitiveType MethodDeclaration SimpleName process referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+process referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+process referenceable instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+process referenceable instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

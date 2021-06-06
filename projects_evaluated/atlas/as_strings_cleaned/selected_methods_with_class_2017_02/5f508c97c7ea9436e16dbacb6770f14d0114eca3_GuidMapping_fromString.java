@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName json
+gson SimpleName MethodInvocation SimpleName from json
+gson SimpleName MethodInvocation SimpleName json
+gson SimpleName MethodInvocation TypeLiteral SimpleType SimpleName guid mapping
+from json SimpleName MethodInvocation SimpleName json
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName guid mapping
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName guid mapping
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier public
+json ignore SimpleName MarkerAnnotation MethodDeclaration Modifier static
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName guid mapping
+json ignore SimpleName MarkerAnnotation MethodDeclaration SimpleName from string
+json ignore SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName guid mapping
+public Modifier MethodDeclaration SimpleName from string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+static Modifier MethodDeclaration SimpleType SimpleName guid mapping
+static Modifier MethodDeclaration SimpleName from string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+guid mapping SimpleName SimpleType MethodDeclaration SimpleName from string
+guid mapping SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName guid mapping
+public Modifier TypeDeclaration MethodDeclaration SimpleName from string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName json ignore
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName guid mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json

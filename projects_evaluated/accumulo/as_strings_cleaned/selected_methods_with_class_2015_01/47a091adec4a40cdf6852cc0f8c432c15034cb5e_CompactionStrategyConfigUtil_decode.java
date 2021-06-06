@@ -1,0 +1,36 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName encoded csc
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName encoded csc
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName encoded csc
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bais
+data input stream SimpleName SimpleType ClassInstanceCreation SimpleName bais
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input stream
+dis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bais
+data input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dis
+decode SimpleName MethodInvocation SimpleName dis
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ioe
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName compaction strategy config
+public Modifier MethodDeclaration SimpleName decode
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName encoded csc
+static Modifier MethodDeclaration SimpleType SimpleName compaction strategy config
+static Modifier MethodDeclaration SimpleName decode
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName encoded csc
+compaction strategy config SimpleName SimpleType MethodDeclaration SimpleName decode
+compaction strategy config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName encoded csc
+decode SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName encoded csc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName compaction strategy config
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName encoded csc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName compaction strategy config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName encoded csc

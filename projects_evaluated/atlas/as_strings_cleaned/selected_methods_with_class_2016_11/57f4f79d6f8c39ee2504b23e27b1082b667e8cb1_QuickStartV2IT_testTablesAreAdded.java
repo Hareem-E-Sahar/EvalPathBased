@@ -1,0 +1,36 @@
+get table SimpleName MethodInvocation QualifiedName quick startsales fact table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation QualifiedName quick startsales fact table
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+verify simple table attributes SimpleName MethodInvocation SimpleName table
+verify db is linked to table SimpleName MethodInvocation SimpleName table
+verify columns are added to table SimpleName MethodInvocation SimpleName table
+verify trait SimpleName MethodInvocation SimpleName table
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test tables are added
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test tables are added
+public Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName test tables are added
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas service exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+test tables are added SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+test tables are added SimpleName MethodDeclaration SimpleType SimpleName json exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test tables are added
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test tables are added
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

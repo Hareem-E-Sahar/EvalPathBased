@@ -1,0 +1,128 @@
+authentication token identifier SimpleName SimpleType SingleVariableDeclaration SimpleName identifier
+identifier SimpleName MethodInvocation SimpleName get config
+cfg SimpleName VariableDeclarationFragment MethodInvocation SimpleName identifier
+cfg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get config
+delegation token config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfg
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+final Modifier VariableDeclarationStatement SimpleType SimpleName authentication key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName secret key
+authentication key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName secret key
+secret key SimpleName Assignment SimpleName current key
+secret key SimpleName MethodInvocation SimpleName get key id
+identifier SimpleName MethodInvocation SimpleName set key id
+identifier SimpleName MethodInvocation MethodInvocation SimpleName secret key
+identifier SimpleName MethodInvocation MethodInvocation SimpleName get key id
+set key id SimpleName MethodInvocation MethodInvocation SimpleName secret key
+set key id SimpleName MethodInvocation MethodInvocation SimpleName get key id
+identifier SimpleName MethodInvocation SimpleName set issue date
+identifier SimpleName MethodInvocation SimpleName now
+set issue date SimpleName MethodInvocation SimpleName now
+now SimpleName InfixExpression SimpleName token max lifetime
+expiration SimpleName VariableDeclarationFragment InfixExpression SimpleName now
+expiration SimpleName VariableDeclarationFragment InfixExpression SimpleName token max lifetime
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expiration
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName token max lifetime
+expiration SimpleName InfixExpression SimpleName now
+expiration SimpleName Assignment QualifiedName longmax value
+identifier SimpleName MethodInvocation SimpleName set expiration date
+identifier SimpleName MethodInvocation SimpleName expiration
+set expiration date SimpleName MethodInvocation SimpleName expiration
+cfg SimpleName MethodInvocation SimpleName get token lifetime
+cfg SimpleName MethodInvocation QualifiedName time unitmilliseconds
+get token lifetime SimpleName MethodInvocation QualifiedName time unitmilliseconds
+requested lifetime SimpleName VariableDeclarationFragment MethodInvocation SimpleName cfg
+requested lifetime SimpleName VariableDeclarationFragment MethodInvocation SimpleName get token lifetime
+requested lifetime SimpleName VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName requested lifetime
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cfg
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get token lifetime
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName time unitmilliseconds
+empty NumberLiteral InfixExpression SimpleName requested lifetime
+identifier SimpleName MethodInvocation SimpleName get issue date
+identifier SimpleName MethodInvocation InfixExpression SimpleName requested lifetime
+get issue date SimpleName MethodInvocation InfixExpression SimpleName requested lifetime
+requested expiration date SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName identifier
+requested expiration date SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get issue date
+requested expiration date SimpleName VariableDeclarationFragment InfixExpression SimpleName requested lifetime
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName requested expiration date
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName requested lifetime
+identifier SimpleName MethodInvocation SimpleName get issue date
+requested expiration date SimpleName InfixExpression MethodInvocation SimpleName identifier
+requested expiration date SimpleName InfixExpression MethodInvocation SimpleName get issue date
+requested expiration date SimpleName Assignment QualifiedName longmax value
+identifier SimpleName MethodInvocation SimpleName get expiration date
+requested expiration date SimpleName InfixExpression MethodInvocation SimpleName identifier
+requested expiration date SimpleName InfixExpression MethodInvocation SimpleName get expiration date
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral requested token lifetime exceeds configured maximum
+identifier SimpleName MethodInvocation SimpleName get expiration date
+log SimpleName MethodInvocation SimpleName trace
+log SimpleName MethodInvocation StringLiteral overriding token expiration date from {} to {}
+log SimpleName MethodInvocation MethodInvocation SimpleName identifier
+log SimpleName MethodInvocation MethodInvocation SimpleName get expiration date
+log SimpleName MethodInvocation SimpleName requested expiration date
+trace SimpleName MethodInvocation StringLiteral overriding token expiration date from {} to {}
+trace SimpleName MethodInvocation MethodInvocation SimpleName identifier
+trace SimpleName MethodInvocation MethodInvocation SimpleName get expiration date
+trace SimpleName MethodInvocation SimpleName requested expiration date
+overriding token expiration date from {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName identifier
+overriding token expiration date from {} to {} StringLiteral MethodInvocation MethodInvocation SimpleName get expiration date
+overriding token expiration date from {} to {} StringLiteral MethodInvocation SimpleName requested expiration date
+identifier SimpleName MethodInvocation MethodInvocation SimpleName requested expiration date
+get expiration date SimpleName MethodInvocation MethodInvocation SimpleName requested expiration date
+identifier SimpleName MethodInvocation SimpleName set expiration date
+identifier SimpleName MethodInvocation SimpleName requested expiration date
+set expiration date SimpleName MethodInvocation SimpleName requested expiration date
+instance SimpleName MethodInvocation SimpleName get instance id
+identifier SimpleName MethodInvocation SimpleName set instance id
+identifier SimpleName MethodInvocation MethodInvocation SimpleName instance
+identifier SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+set instance id SimpleName MethodInvocation MethodInvocation SimpleName instance
+set instance id SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+identifier SimpleName MethodInvocation SimpleName get bytes
+secret key SimpleName MethodInvocation SimpleName get key
+create password SimpleName MethodInvocation MethodInvocation SimpleName identifier
+create password SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+create password SimpleName MethodInvocation MethodInvocation SimpleName secret key
+create password SimpleName MethodInvocation MethodInvocation SimpleName get key
+identifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName secret key
+identifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName secret key
+get bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration ArrayType PrimitiveType byte
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create password
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName identifier
+protected Modifier MethodDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SimpleName create password
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication token identifier
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName identifier
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+protected Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+byte PrimitiveType ArrayType MethodDeclaration SimpleName create password
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName identifier
+create password SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName authentication token identifier
+create password SimpleName MethodDeclaration SingleVariableDeclaration SimpleName identifier
+create password SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+create password SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create password SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName create password
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create password
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier

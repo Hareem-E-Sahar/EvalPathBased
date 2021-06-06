@@ -1,0 +1,76 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName fs output file
+path SimpleName SimpleType SingleVariableDeclaration SimpleName tmp local file
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral start local output
+start SimpleName MethodInvocation StringLiteral start local output
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral start local output
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+trace SimpleName MethodInvocation SimpleName is tracing
+fs output file SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral out
+span SimpleName MethodInvocation MethodInvocation SimpleName fs output file
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral out
+data SimpleName MethodInvocation MethodInvocation SimpleName fs output file
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+out StringLiteral MethodInvocation MethodInvocation SimpleName fs output file
+out StringLiteral MethodInvocation MethodInvocation SimpleName to string
+tmp local file SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral local
+span SimpleName MethodInvocation MethodInvocation SimpleName tmp local file
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral local
+data SimpleName MethodInvocation MethodInvocation SimpleName tmp local file
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+local StringLiteral MethodInvocation MethodInvocation SimpleName tmp local file
+local StringLiteral MethodInvocation MethodInvocation SimpleName to string
+impl SimpleName MethodInvocation SimpleName start local output
+impl SimpleName MethodInvocation SimpleName fs output file
+impl SimpleName MethodInvocation SimpleName tmp local file
+start local output SimpleName MethodInvocation SimpleName fs output file
+start local output SimpleName MethodInvocation SimpleName tmp local file
+fs output file SimpleName MethodInvocation SimpleName tmp local file
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start local output
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+public Modifier MethodDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SimpleName start local output
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+path SimpleName SimpleType MethodDeclaration SimpleName start local output
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+path SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+path SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+start local output SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+start local output SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+start local output SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+start local output SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+start local output SimpleName MethodDeclaration SimpleType SimpleName io exception
+fs output file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+fs output file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+tmp local file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleName start local output
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start local output
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fs output file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tmp local file
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

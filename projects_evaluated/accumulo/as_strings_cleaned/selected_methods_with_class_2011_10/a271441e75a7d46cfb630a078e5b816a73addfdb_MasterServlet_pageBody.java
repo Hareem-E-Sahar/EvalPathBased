@@ -1,0 +1,87 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName response
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName get id to name map
+tables SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get id to name map SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tid to name map SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+tid to name map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id to name map
+tid to name map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+tid to name map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+do log event banner SimpleName MethodInvocation SimpleName sb
+tables servlet SimpleName MethodInvocation SimpleName do problems banner
+tables servlet SimpleName MethodInvocation SimpleName sb
+do problems banner SimpleName MethodInvocation SimpleName sb
+do master status SimpleName MethodInvocation SimpleName req
+do master status SimpleName MethodInvocation SimpleName sb
+req SimpleName MethodInvocation SimpleName sb
+do recovery list SimpleName MethodInvocation SimpleName req
+do recovery list SimpleName MethodInvocation SimpleName sb
+req SimpleName MethodInvocation SimpleName sb
+tables servlet SimpleName MethodInvocation SimpleName do table list
+tables servlet SimpleName MethodInvocation SimpleName req
+tables servlet SimpleName MethodInvocation SimpleName sb
+tables servlet SimpleName MethodInvocation SimpleName tid to name map
+do table list SimpleName MethodInvocation SimpleName req
+do table list SimpleName MethodInvocation SimpleName sb
+do table list SimpleName MethodInvocation SimpleName tid to name map
+req SimpleName MethodInvocation SimpleName sb
+req SimpleName MethodInvocation SimpleName tid to name map
+sb SimpleName MethodInvocation SimpleName tid to name map
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName page body
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName req
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName response
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName page body
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName req
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName response
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleName page body
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet response
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+page body SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+page body SimpleName MethodDeclaration SimpleType SimpleName io exception
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+req SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+req SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+sb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName page body
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName page body
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

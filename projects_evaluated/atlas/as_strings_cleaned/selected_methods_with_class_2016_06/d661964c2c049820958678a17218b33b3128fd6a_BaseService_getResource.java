@@ -1,0 +1,39 @@
+resource provider SimpleName SimpleType SingleVariableDeclaration SimpleName provider
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+provider SimpleName MethodInvocation SimpleName get resource by id
+provider SimpleName MethodInvocation SimpleName request
+get resource by id SimpleName MethodInvocation SimpleName request
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+wrap runtime exception SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration SimpleType SimpleName result
+protected Modifier MethodDeclaration SimpleName get resource
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+protected Modifier MethodDeclaration SimpleType SimpleName resource not found exception
+result SimpleName SimpleType MethodDeclaration SimpleName get resource
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName provider
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+result SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource not found exception
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource provider
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName provider
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+get resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get resource SimpleName MethodDeclaration SimpleType SimpleName resource not found exception
+provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception

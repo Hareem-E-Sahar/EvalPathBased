@@ -1,0 +1,41 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName abstract file name
+final Modifier SingleVariableDeclaration SimpleName name
+abstract file name SimpleName SimpleType SingleVariableDeclaration SimpleName name
+file system exception SimpleName SimpleType ClassInstanceCreation StringLiteral operation not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName file object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create file
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration SimpleType SimpleName file object
+protected Modifier MethodDeclaration SimpleName create file
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract file name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+file object SimpleName SimpleType MethodDeclaration SimpleName create file
+file object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+file object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+file object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+create file SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract file name
+create file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create file SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file object
+public Modifier TypeDeclaration MethodDeclaration SimpleName create file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,57 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName actual
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName actual
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName expected
+actual SimpleName MethodInvocation SimpleName size
+expected SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName actual
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+actual SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+checker SimpleName MethodInvocation SimpleName add all
+checker SimpleName MethodInvocation SimpleName expected
+add all SimpleName MethodInvocation SimpleName expected
+checker SimpleName MethodInvocation SimpleName remove all
+checker SimpleName MethodInvocation SimpleName actual
+remove all SimpleName MethodInvocation SimpleName actual
+checker SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName checker
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+checker SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assert contents same
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName assert contents same
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName actual
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName expected
+void PrimitiveType MethodDeclaration SimpleName assert contents same
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName actual
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName expected
+assert contents same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName actual
+assert contents same SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected
+actual SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert contents same
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert contents same
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName actual
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected

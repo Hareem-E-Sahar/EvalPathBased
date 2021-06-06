@@ -1,0 +1,83 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge id
+boolean PrimitiveType SingleVariableDeclaration SimpleName cascade
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral removing edge with id {}
+log SimpleName MethodInvocation SimpleName edge id
+debug SimpleName MethodInvocation StringLiteral removing edge with id {}
+debug SimpleName MethodInvocation SimpleName edge id
+removing edge with id {} StringLiteral MethodInvocation SimpleName edge id
+titan graph SimpleName MethodInvocation SimpleName get edge
+titan graph SimpleName MethodInvocation SimpleName edge id
+get edge SimpleName MethodInvocation SimpleName edge id
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName titan graph
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge id
+final Modifier VariableDeclarationStatement SimpleType SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName titan graph
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get edge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName edge id
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+titan graph SimpleName MethodInvocation SimpleName remove edge
+titan graph SimpleName MethodInvocation SimpleName edge
+remove edge SimpleName MethodInvocation SimpleName edge
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removed edge {}
+log SimpleName MethodInvocation SimpleName edge
+info SimpleName MethodInvocation StringLiteral removed edge {}
+info SimpleName MethodInvocation SimpleName edge
+removed edge {} StringLiteral MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex
+referred vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName directionin
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referred vertex
+titan graph SimpleName MethodInvocation SimpleName remove vertex
+titan graph SimpleName MethodInvocation SimpleName referred vertex
+remove vertex SimpleName MethodInvocation SimpleName referred vertex
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral removed vertex {}
+log SimpleName MethodInvocation SimpleName referred vertex
+info SimpleName MethodInvocation StringLiteral removed vertex {}
+info SimpleName MethodInvocation SimpleName referred vertex
+removed vertex {} StringLiteral MethodInvocation SimpleName referred vertex
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName cascade
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName edge
+cascade SimpleName IfStatement Block ReturnStatement SimpleName edge
+public Modifier MethodDeclaration SimpleType SimpleName edge
+public Modifier MethodDeclaration SimpleName remove relation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cascade
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block IfStatement SimpleName cascade
+public Modifier MethodDeclaration Block ReturnStatement SimpleName edge
+edge SimpleName SimpleType MethodDeclaration SimpleName remove relation
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge id
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cascade
+remove relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge id
+remove relation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+remove relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cascade
+remove relation SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+remove relation SimpleName MethodDeclaration Block IfStatement SimpleName cascade
+remove relation SimpleName MethodDeclaration Block ReturnStatement SimpleName edge
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cascade
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove relation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cascade
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove relation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cascade

@@ -1,0 +1,23 @@
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName recoveries over time
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get recoveries over time
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName recoveries over time
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName get recoveries over time
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName recoveries over time
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get recoveries over time
+get recoveries over time SimpleName MethodDeclaration Block SynchronizedStatement SimpleName recoveries over time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get recoveries over time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get recoveries over time

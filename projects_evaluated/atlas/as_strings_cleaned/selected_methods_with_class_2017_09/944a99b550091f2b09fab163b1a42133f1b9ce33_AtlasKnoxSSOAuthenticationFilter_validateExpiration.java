@@ -1,0 +1,56 @@
+signed jwt SimpleName SimpleType SingleVariableDeclaration SimpleName jwt token
+valid SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+jwt token SimpleName MethodInvocation SimpleName get jwt claims set
+jwt token SimpleName MethodInvocation MethodInvocation SimpleName get expiration time
+get jwt claims set SimpleName MethodInvocation MethodInvocation SimpleName get expiration time
+expires SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jwt token
+expires SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get jwt claims set
+expires SimpleName VariableDeclarationFragment MethodInvocation SimpleName get expiration time
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expires
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName before
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName expires
+before SimpleName MethodInvocation SimpleName expires
+expires SimpleName InfixExpression InfixExpression MethodInvocation SimpleName before
+expires SimpleName InfixExpression InfixExpression MethodInvocation SimpleName expires
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral sso token expiration date has been successfully validated
+debug SimpleName MethodInvocation StringLiteral sso token expiration date has been successfully validated
+valid SimpleName Assignment BooleanLiteral true
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral sso expiration date validation failed
+warn SimpleName MethodInvocation StringLiteral sso expiration date validation failed
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral sso expiration date validation failed
+log SimpleName MethodInvocation SimpleName pe
+warn SimpleName MethodInvocation StringLiteral sso expiration date validation failed
+warn SimpleName MethodInvocation SimpleName pe
+sso expiration date validation failed StringLiteral MethodInvocation SimpleName pe
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName valid
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName validate expiration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName valid
+boolean PrimitiveType MethodDeclaration SimpleName validate expiration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName valid
+validate expiration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName signed jwt
+validate expiration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+validate expiration SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+validate expiration SimpleName MethodDeclaration Block ReturnStatement SimpleName valid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate expiration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate expiration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName jwt token

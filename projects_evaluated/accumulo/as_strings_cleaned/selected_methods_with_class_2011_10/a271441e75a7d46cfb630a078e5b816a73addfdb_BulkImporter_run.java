@@ -1,0 +1,111 @@
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName path size
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map files
+path size SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map files
+assignments per tablet SimpleName MethodInvocation SimpleName values
+path size SimpleName SimpleType SingleVariableDeclaration SimpleName ps
+uniq map files SimpleName MethodInvocation SimpleName add
+uniq map files SimpleName MethodInvocation QualifiedName pspath
+add SimpleName MethodInvocation QualifiedName pspath
+path size SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName map files
+ps SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName map files
+map files SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName uniq map files
+map files SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+map files SimpleName EnhancedForStatement ExpressionStatement MethodInvocation QualifiedName pspath
+map files SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName assignments per tablet
+map files SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+map files SimpleName SingleVariableDeclaration EnhancedForStatement EnhancedForStatement SimpleName map files
+assignments per tablet SimpleName MethodInvocation EnhancedForStatement EnhancedForStatement SimpleName map files
+values SimpleName MethodInvocation EnhancedForStatement EnhancedForStatement SimpleName map files
+uniq map files SimpleName MethodInvocation SimpleName size
+assignments per tablet SimpleName MethodInvocation SimpleName size
+assigning StringLiteral InfixExpression MethodInvocation SimpleName uniq map files
+assigning StringLiteral InfixExpression MethodInvocation SimpleName size
+assigning StringLiteral InfixExpression StringLiteral map files to
+assigning StringLiteral InfixExpression MethodInvocation SimpleName assignments per tablet
+assigning StringLiteral InfixExpression MethodInvocation SimpleName size
+assigning StringLiteral InfixExpression StringLiteral tablets at
+assigning StringLiteral InfixExpression SimpleName location
+uniq map files SimpleName MethodInvocation InfixExpression StringLiteral map files to
+size SimpleName MethodInvocation InfixExpression StringLiteral map files to
+uniq map files SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assignments per tablet
+uniq map files SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assignments per tablet
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+uniq map files SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+size SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+uniq map files SimpleName MethodInvocation InfixExpression SimpleName location
+size SimpleName MethodInvocation InfixExpression SimpleName location
+map files to StringLiteral InfixExpression MethodInvocation SimpleName assignments per tablet
+map files to StringLiteral InfixExpression MethodInvocation SimpleName size
+map files to StringLiteral InfixExpression StringLiteral tablets at
+map files to StringLiteral InfixExpression SimpleName location
+assignments per tablet SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+size SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+assignments per tablet SimpleName MethodInvocation InfixExpression SimpleName location
+size SimpleName MethodInvocation InfixExpression SimpleName location
+tablets at StringLiteral InfixExpression SimpleName location
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral assigning
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName uniq map files
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral map files to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assignments per tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+log SimpleName MethodInvocation InfixExpression SimpleName location
+debug SimpleName MethodInvocation InfixExpression StringLiteral assigning
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName uniq map files
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral map files to
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assignments per tablet
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+debug SimpleName MethodInvocation InfixExpression StringLiteral tablets at
+debug SimpleName MethodInvocation InfixExpression SimpleName location
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+assign map files SimpleName MethodInvocation SimpleName credentials
+assign map files SimpleName MethodInvocation SimpleName location
+assign map files SimpleName MethodInvocation SimpleName assignments per tablet
+credentials SimpleName MethodInvocation SimpleName location
+credentials SimpleName MethodInvocation SimpleName assignments per tablet
+location SimpleName MethodInvocation SimpleName assignments per tablet
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName assign map files
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName credentials
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName location
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName assignments per tablet
+handle failures SimpleName MethodInvocation SimpleName failures
+handle failures SimpleName MethodInvocation StringLiteral not serving tablet
+failures SimpleName MethodInvocation StringLiteral not serving tablet
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assignments per tablet SimpleName MethodInvocation SimpleName key set
+e SimpleName MethodInvocation SimpleName get message
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName assignments per tablet
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName key set
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName e
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName get message
+assignments per tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assignments per tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+assignments per tablet SimpleName MethodInvocation SimpleName key set
+e SimpleName MethodInvocation SimpleName get message
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName assignments per tablet
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName key set
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName e
+handle failures SimpleName MethodInvocation MethodInvocation SimpleName get message
+assignments per tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assignments per tablet SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

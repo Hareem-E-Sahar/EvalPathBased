@@ -1,0 +1,37 @@
+access service registration SimpleName SimpleType SingleVariableDeclaration SimpleName registration
+access service registration list SimpleName MethodInvocation SimpleName add
+access service registration list SimpleName MethodInvocation SimpleName registration
+add SimpleName MethodInvocation SimpleName registration
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register access service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service registration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName registration
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName register access service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service registration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName registration
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName register access service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service registration
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName registration
+void PrimitiveType MethodDeclaration SimpleName register access service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service registration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName registration
+register access service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName access service registration
+register access service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register access service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register access service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registration

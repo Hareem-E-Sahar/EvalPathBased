@@ -1,0 +1,33 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity header
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName entities
+is not empty SimpleName MethodInvocation SimpleName entities
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get guid
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation MethodInvocation SimpleName get guid
+add SimpleName MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation SimpleName get guid
+atlas entity header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get guids
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get guids
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get guids
+get guids SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+get guids SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get guids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get guids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities

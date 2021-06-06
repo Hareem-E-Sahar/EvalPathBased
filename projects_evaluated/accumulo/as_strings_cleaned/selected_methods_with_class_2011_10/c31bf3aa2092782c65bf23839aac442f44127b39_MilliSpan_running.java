@@ -1,0 +1,21 @@
+start SimpleName InfixExpression NumberLiteral empty
+stop SimpleName InfixExpression NumberLiteral empty
+start SimpleName InfixExpression InfixExpression InfixExpression SimpleName stop
+start SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName stop
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName running
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName running
+boolean PrimitiveType MethodDeclaration SimpleName running
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName running
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName running

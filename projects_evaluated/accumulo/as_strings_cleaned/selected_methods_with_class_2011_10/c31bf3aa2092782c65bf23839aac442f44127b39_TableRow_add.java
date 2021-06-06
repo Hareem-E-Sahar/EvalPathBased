@@ -1,0 +1,26 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+row SimpleName MethodInvocation SimpleName size
+row SimpleName MethodInvocation InfixExpression SimpleName size
+size SimpleName MethodInvocation InfixExpression SimpleName size
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral row is full
+row SimpleName MethodInvocation SimpleName add
+row SimpleName MethodInvocation SimpleName obj
+add SimpleName MethodInvocation SimpleName obj
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName add
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

@@ -1,0 +1,49 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+table not found exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation SimpleName table name
+table name SimpleName ClassInstanceCreation StringLiteral empty
+table name SimpleName ClassInstanceCreation StringLiteral empty
+acutables QualifiedName MethodInvocation SimpleName get
+acutables QualifiedName MethodInvocation SimpleName table name
+get SimpleName MethodInvocation SimpleName table name
+acutables QualifiedName MethodInvocation MethodInvocation SimpleName get locality groups
+get SimpleName MethodInvocation MethodInvocation SimpleName get locality groups
+table name SimpleName MethodInvocation MethodInvocation SimpleName get locality groups
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get locality groups
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get locality groups
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName table not found exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get locality groups SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get locality groups SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locality groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locality groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

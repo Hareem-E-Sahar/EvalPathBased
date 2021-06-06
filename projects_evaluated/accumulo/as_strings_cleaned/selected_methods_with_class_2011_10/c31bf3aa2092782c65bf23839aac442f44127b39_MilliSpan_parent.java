@@ -1,0 +1,17 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName span
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName parent
+public Modifier MethodDeclaration SimpleType SimpleName span
+public Modifier MethodDeclaration SimpleName parent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parent
+span SimpleName SimpleType MethodDeclaration SimpleName parent
+parent SimpleName MethodDeclaration Block ReturnStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName span
+public Modifier TypeDeclaration MethodDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName span
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parent

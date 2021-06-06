@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+export fetch type SimpleName SimpleType SingleVariableDeclaration SimpleName b
+export fetch type SimpleName MethodInvocation SimpleName values
+bstr QualifiedName MethodInvocation SimpleName equals ignore case
+bstr QualifiedName MethodInvocation SimpleName s
+equals ignore case SimpleName MethodInvocation SimpleName s
+b SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName export fetch type
+b SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName export fetch type
+public Modifier MethodDeclaration SimpleName from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName export fetch type
+static Modifier MethodDeclaration SimpleName from
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block ReturnStatement SimpleName full
+final Modifier MethodDeclaration SimpleType SimpleName export fetch type
+final Modifier MethodDeclaration SimpleName from
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+final Modifier MethodDeclaration Block ReturnStatement SimpleName full
+export fetch type SimpleName SimpleType MethodDeclaration SimpleName from
+export fetch type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+from SimpleName MethodDeclaration Block ReturnStatement SimpleName full
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName export fetch type
+public Modifier TypeDeclaration MethodDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName export fetch type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

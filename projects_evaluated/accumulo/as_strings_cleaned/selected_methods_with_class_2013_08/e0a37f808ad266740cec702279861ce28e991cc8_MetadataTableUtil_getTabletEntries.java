@@ -1,0 +1,114 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet key values
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet key values
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tablet key values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+column fq SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName columns
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+hash set SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName columns
+column fq SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName columns
+col set SimpleName Assignment ClassInstanceCreation SimpleName columns
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet key values SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+col set SimpleName MethodInvocation SimpleName contains
+col set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+col set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+col set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+contains SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+contains SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+row SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tablet entries SimpleName MethodInvocation SimpleName get
+tablet entries SimpleName MethodInvocation SimpleName row
+get SimpleName MethodInvocation SimpleName row
+col vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet entries
+col vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+col vals SimpleName VariableDeclarationFragment MethodInvocation SimpleName row
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName column fq
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+column fq SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tablet entries SimpleName MethodInvocation SimpleName put
+tablet entries SimpleName MethodInvocation SimpleName row
+tablet entries SimpleName MethodInvocation SimpleName col vals
+put SimpleName MethodInvocation SimpleName row
+put SimpleName MethodInvocation SimpleName col vals
+row SimpleName MethodInvocation SimpleName col vals
+entry SimpleName MethodInvocation SimpleName get key
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+column fq SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+col vals SimpleName MethodInvocation SimpleName put
+col vals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+col vals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+col vals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+col vals SimpleName MethodInvocation MethodInvocation SimpleName entry
+col vals SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column fq
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tablet key values
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName get tablet entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet key values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName get tablet entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet key values
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName columns
+static Modifier MethodDeclaration Block ReturnStatement SimpleName tablet entries
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet entries
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tablet entries
+get tablet entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet key values
+get tablet entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName columns
+get tablet entries SimpleName MethodDeclaration Block ReturnStatement SimpleName tablet entries
+tablet key values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tablet entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet key values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tablet entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet key values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName columns

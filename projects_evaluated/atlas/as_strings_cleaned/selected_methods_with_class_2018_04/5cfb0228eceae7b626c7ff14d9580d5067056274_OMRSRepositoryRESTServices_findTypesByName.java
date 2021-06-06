@@ -1,0 +1,109 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral user idtypesbyname
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idtypesbyname
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypesbyname
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypesbyname
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+method name SimpleName VariableDeclarationFragment StringLiteral find types by name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by name
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type def gallery response
+type def gallery response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+local metadata collection SimpleName MethodInvocation SimpleName find types by name
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName name
+find types by name SimpleName MethodInvocation SimpleName user id
+find types by name SimpleName MethodInvocation SimpleName name
+user id SimpleName MethodInvocation SimpleName name
+type def gallery SimpleName VariableDeclarationFragment MethodInvocation SimpleName local metadata collection
+type def gallery SimpleName VariableDeclarationFragment MethodInvocation SimpleName find types by name
+type def gallery SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+type def gallery SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+type def gallery SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def gallery
+type def gallery SimpleName MethodInvocation SimpleName get attribute type defs
+response SimpleName MethodInvocation SimpleName set attribute type defs
+response SimpleName MethodInvocation MethodInvocation SimpleName type def gallery
+response SimpleName MethodInvocation MethodInvocation SimpleName get attribute type defs
+set attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName type def gallery
+set attribute type defs SimpleName MethodInvocation MethodInvocation SimpleName get attribute type defs
+type def gallery SimpleName MethodInvocation SimpleName get type defs
+response SimpleName MethodInvocation SimpleName set type defs
+response SimpleName MethodInvocation MethodInvocation SimpleName type def gallery
+response SimpleName MethodInvocation MethodInvocation SimpleName get type defs
+set type defs SimpleName MethodInvocation MethodInvocation SimpleName type def gallery
+set type defs SimpleName MethodInvocation MethodInvocation SimpleName get type defs
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idtypesbyname StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName type def gallery response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName find types by name
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by name
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by name
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by name
+user idtypesbyname StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by name
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName type def gallery response
+public Modifier MethodDeclaration SimpleName find types by name
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+type def gallery response SimpleName SimpleType MethodDeclaration SimpleName find types by name
+type def gallery response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def gallery response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+find types by name SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+find types by name SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery response
+public Modifier TypeDeclaration MethodDeclaration SimpleName find types by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def gallery response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find types by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

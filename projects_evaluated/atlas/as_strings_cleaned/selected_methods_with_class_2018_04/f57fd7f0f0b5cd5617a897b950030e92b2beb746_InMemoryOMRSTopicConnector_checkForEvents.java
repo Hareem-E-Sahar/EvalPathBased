@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName omrs event v
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName omrs event v
+protected Modifier MethodDeclaration SimpleName check for events
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check for events
+omrs event v SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check for events
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName check for events
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check for events

@@ -1,0 +1,78 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+dropping tables StringLiteral InfixExpression SimpleName image table name
+dropping tables StringLiteral InfixExpression StringLiteral empty
+dropping tables StringLiteral InfixExpression SimpleName index table name
+image table name SimpleName InfixExpression StringLiteral empty
+image table name SimpleName InfixExpression SimpleName index table name
+empty StringLiteral InfixExpression SimpleName index table name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral dropping tables
+log SimpleName MethodInvocation InfixExpression SimpleName image table name
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+log SimpleName MethodInvocation InfixExpression SimpleName index table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral dropping tables
+debug SimpleName MethodInvocation InfixExpression SimpleName image table name
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression SimpleName index table name
+state SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName image table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName image table name
+delete SimpleName MethodInvocation SimpleName image table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName index table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName index table name
+delete SimpleName MethodInvocation SimpleName index table name
+state SimpleName MethodInvocation SimpleName get integer
+state SimpleName MethodInvocation StringLiteral total writes
+get integer SimpleName MethodInvocation StringLiteral total writes
+final total of writes StringLiteral InfixExpression MethodInvocation SimpleName state
+final total of writes StringLiteral InfixExpression MethodInvocation SimpleName get integer
+final total of writes StringLiteral InfixExpression MethodInvocation StringLiteral total writes
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral final total of writes
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get integer
+log SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral total writes
+debug SimpleName MethodInvocation InfixExpression StringLiteral final total of writes
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName state
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get integer
+debug SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral total writes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName tear down
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName tear down
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName tear down
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+tear down SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+tear down SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+tear down SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tear down
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tear down
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

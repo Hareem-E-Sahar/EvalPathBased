@@ -1,0 +1,81 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute description
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute description guid
+attribute SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type def attribute
+type def attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName set attribute name
+attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute name SimpleName MethodInvocation SimpleName attribute name
+attribute SimpleName MethodInvocation SimpleName set attribute description
+attribute SimpleName MethodInvocation SimpleName attribute description
+set attribute description SimpleName MethodInvocation SimpleName attribute description
+attribute SimpleName MethodInvocation SimpleName set attribute description guid
+attribute SimpleName MethodInvocation SimpleName attribute description guid
+set attribute description guid SimpleName MethodInvocation SimpleName attribute description guid
+primitive def categoryom primitive type int QualifiedName MethodInvocation SimpleName get name
+archive builder SimpleName FieldAccess MethodInvocation SimpleName get primitive def
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation QualifiedName primitive def categoryom primitive type int
+archive builder SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get name
+get primitive def SimpleName MethodInvocation MethodInvocation QualifiedName primitive def categoryom primitive type int
+get primitive def SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute SimpleName MethodInvocation SimpleName set attribute type
+attribute SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+attribute SimpleName MethodInvocation MethodInvocation SimpleName get primitive def
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName primitive def categoryom primitive type int
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+set attribute type SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName archive builder
+set attribute type SimpleName MethodInvocation MethodInvocation SimpleName get primitive def
+set attribute type SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName primitive def categoryom primitive type int
+set attribute type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attribute SimpleName MethodInvocation SimpleName set attribute cardinality
+attribute SimpleName MethodInvocation QualifiedName attribute cardinalityat most one
+set attribute cardinality SimpleName MethodInvocation QualifiedName attribute cardinalityat most one
+attribute SimpleName MethodInvocation SimpleName set values min count
+attribute SimpleName MethodInvocation NumberLiteral empty
+set values min count SimpleName MethodInvocation NumberLiteral empty
+attribute SimpleName MethodInvocation SimpleName set values max count
+attribute SimpleName MethodInvocation NumberLiteral empty
+set values max count SimpleName MethodInvocation NumberLiteral empty
+attribute SimpleName MethodInvocation SimpleName set indexable
+attribute SimpleName MethodInvocation BooleanLiteral true
+set indexable SimpleName MethodInvocation BooleanLiteral true
+attribute SimpleName MethodInvocation SimpleName set unique
+attribute SimpleName MethodInvocation BooleanLiteral false
+set unique SimpleName MethodInvocation BooleanLiteral false
+attribute SimpleName MethodInvocation SimpleName set default value
+attribute SimpleName MethodInvocation SimpleName set external standard mappings
+public Modifier MethodDeclaration SimpleType SimpleName type def attribute
+public Modifier MethodDeclaration SimpleName get int type def attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+type def attribute SimpleName SimpleType MethodDeclaration SimpleName get int type def attribute
+type def attribute SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+type def attribute SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+type def attribute SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get int type def attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+get int type def attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName attribute
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+attribute description SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleName get int type def attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get int type def attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute description guid

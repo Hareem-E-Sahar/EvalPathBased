@@ -1,0 +1,79 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName start index
+string SimpleName SimpleType SingleVariableDeclaration SimpleName end index
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral add range clausestart index end index
+log SimpleName MethodInvocation SimpleName start index
+log SimpleName MethodInvocation SimpleName end index
+debug SimpleName MethodInvocation StringLiteral add range clausestart index end index
+debug SimpleName MethodInvocation SimpleName start index
+debug SimpleName MethodInvocation SimpleName end index
+add range clausestart index end index StringLiteral MethodInvocation SimpleName start index
+add range clausestart index end index StringLiteral MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName end index
+query metadata SimpleName MethodInvocation SimpleName has select
+query clauses SimpleName MethodInvocation SimpleName size
+query clauses SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName query clauses
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+add SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation QualifiedName gremlin clauserange
+add SimpleName MethodInvocation SimpleName start index
+add SimpleName MethodInvocation SimpleName start index
+add SimpleName MethodInvocation SimpleName end index
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName gremlin clauserange
+size SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName gremlin clauserange
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName gremlin clauserange
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start index
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start index
+empty NumberLiteral InfixExpression MethodInvocation SimpleName start index
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start index
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start index
+empty NumberLiteral InfixExpression MethodInvocation SimpleName start index
+query clauses SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName end index
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName end index
+empty NumberLiteral InfixExpression MethodInvocation SimpleName end index
+gremlin clauserange QualifiedName MethodInvocation SimpleName start index
+gremlin clauserange QualifiedName MethodInvocation SimpleName start index
+gremlin clauserange QualifiedName MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName start index
+start index SimpleName MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName end index
+add SimpleName MethodInvocation QualifiedName gremlin clauserange
+add SimpleName MethodInvocation SimpleName start index
+add SimpleName MethodInvocation SimpleName start index
+add SimpleName MethodInvocation SimpleName end index
+gremlin clauserange QualifiedName MethodInvocation SimpleName start index
+gremlin clauserange QualifiedName MethodInvocation SimpleName start index
+gremlin clauserange QualifiedName MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName start index
+start index SimpleName MethodInvocation SimpleName end index
+start index SimpleName MethodInvocation SimpleName end index
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add range clause
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start index
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end index
+void PrimitiveType MethodDeclaration SimpleName add range clause
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end index
+add range clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add range clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start index
+add range clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add range clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end index
+start index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add range clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add range clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index

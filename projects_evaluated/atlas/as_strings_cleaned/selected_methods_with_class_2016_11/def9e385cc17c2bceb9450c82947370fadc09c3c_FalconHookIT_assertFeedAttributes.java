@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName feed id
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName feed id
+get entity SimpleName MethodInvocation SimpleName feed id
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+feed entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed entity
+feed entity SimpleName MethodInvocation SimpleName get
+feed entity SimpleName MethodInvocation QualifiedName atlas clientowner
+get SimpleName MethodInvocation QualifiedName atlas clientowner
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName feed entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientowner
+assert equals SimpleName MethodInvocation StringLiteral testuser
+feed entity SimpleName MethodInvocation MethodInvocation StringLiteral testuser
+get SimpleName MethodInvocation MethodInvocation StringLiteral testuser
+atlas clientowner QualifiedName MethodInvocation MethodInvocation StringLiteral testuser
+feed entity SimpleName MethodInvocation SimpleName get
+feed entity SimpleName MethodInvocation QualifiedName falcon bridgefrequency
+get SimpleName MethodInvocation QualifiedName falcon bridgefrequency
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName feed entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName falcon bridgefrequency
+assert equals SimpleName MethodInvocation StringLiteral hours )
+feed entity SimpleName MethodInvocation MethodInvocation StringLiteral hours )
+get SimpleName MethodInvocation MethodInvocation StringLiteral hours )
+falcon bridgefrequency QualifiedName MethodInvocation MethodInvocation StringLiteral hours )
+feed entity SimpleName MethodInvocation SimpleName get
+feed entity SimpleName MethodInvocation QualifiedName atlas clientdescription
+get SimpleName MethodInvocation QualifiedName atlas clientdescription
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName feed entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientdescription
+assert equals SimpleName MethodInvocation StringLiteral test input
+feed entity SimpleName MethodInvocation MethodInvocation StringLiteral test input
+get SimpleName MethodInvocation MethodInvocation StringLiteral test input
+atlas clientdescription QualifiedName MethodInvocation MethodInvocation StringLiteral test input
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert feed attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed id
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert feed attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName feed id
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert feed attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert feed attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed id
+assert feed attributes SimpleName MethodDeclaration SimpleType SimpleName exception
+feed id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert feed attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert feed attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

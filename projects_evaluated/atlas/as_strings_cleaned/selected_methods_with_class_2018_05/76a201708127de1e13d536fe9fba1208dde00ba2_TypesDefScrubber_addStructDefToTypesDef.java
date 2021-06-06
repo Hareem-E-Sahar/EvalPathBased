@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+classification to struct def name SimpleName SimpleType SingleVariableDeclaration SimpleName pair
+get edge label SimpleName MethodInvocation SimpleName type name
+get edge label SimpleName MethodInvocation SimpleName attribute name
+type name SimpleName MethodInvocation SimpleName attribute name
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+edge label to classification to struct def map SimpleName MethodInvocation SimpleName put
+edge label to classification to struct def map SimpleName MethodInvocation SimpleName key
+edge label to classification to struct def map SimpleName MethodInvocation SimpleName pair
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName pair
+key SimpleName MethodInvocation SimpleName pair
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add struct def to types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName classification to struct def name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pair
+void PrimitiveType MethodDeclaration SimpleName add struct def to types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName classification to struct def name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pair
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName classification to struct def name
+add struct def to types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pair
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pair
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pair
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add struct def to types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pair
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add struct def to types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pair

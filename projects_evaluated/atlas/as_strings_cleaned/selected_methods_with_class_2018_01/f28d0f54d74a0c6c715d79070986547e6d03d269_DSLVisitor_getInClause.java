@@ -1,0 +1,63 @@
+atom e context SimpleName SimpleType SingleVariableDeclaration SimpleName atom e context
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+atom e context SimpleName MethodInvocation SimpleName literal
+atom e context SimpleName MethodInvocation MethodInvocation SimpleName value array
+literal SimpleName MethodInvocation MethodInvocation SimpleName value array
+value array context SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName atom e context
+value array context SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName literal
+value array context SimpleName VariableDeclarationFragment MethodInvocation SimpleName value array
+value array context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value array context
+start idx SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+value array contextchildren QualifiedName MethodInvocation SimpleName size
+value array contextchildren QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName value array contextchildren
+end idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+end idx SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment SimpleName start idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start idx
+i SimpleName InfixExpression SimpleName end idx
+value array context SimpleName MethodInvocation SimpleName get child
+value array context SimpleName MethodInvocation SimpleName i
+get child SimpleName MethodInvocation SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName value array context
+sb SimpleName MethodInvocation MethodInvocation SimpleName get child
+sb SimpleName MethodInvocation MethodInvocation SimpleName i
+append SimpleName MethodInvocation MethodInvocation SimpleName value array context
+append SimpleName MethodInvocation MethodInvocation SimpleName get child
+append SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end idx
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+end idx SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get in clause
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atom e context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName atom e context
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get in clause
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName atom e context
+get in clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atom e context
+get in clause SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atom e context
+get in clause SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get in clause SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get in clause
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atom e context
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get in clause
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atom e context

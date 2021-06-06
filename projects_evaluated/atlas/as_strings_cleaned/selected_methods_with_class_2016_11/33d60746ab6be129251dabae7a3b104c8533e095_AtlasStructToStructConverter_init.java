@@ -1,0 +1,39 @@
+atlas format converters SimpleName SimpleType SingleVariableDeclaration SimpleName registry
+registry SimpleName FieldAccess Assignment SimpleName registry
+registry SimpleName MethodInvocation SimpleName register converter
+registry SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+registry SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+register converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+register converter SimpleName MethodInvocation QualifiedName atlas format convertersversion v
+atlas format convertersversion v QualifiedName MethodInvocation QualifiedName atlas format convertersversion v
+inject SimpleName MarkerAnnotation MethodDeclaration Modifier public
+inject SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+inject SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+inject SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName registry
+inject SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas format converters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas format converters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas format converters
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName registry
+init SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName inject
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName inject
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

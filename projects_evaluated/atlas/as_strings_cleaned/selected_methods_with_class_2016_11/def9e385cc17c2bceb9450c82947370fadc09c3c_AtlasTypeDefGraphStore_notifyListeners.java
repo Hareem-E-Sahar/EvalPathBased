@@ -1,0 +1,79 @@
+atlas transient type registry SimpleName SimpleType SingleVariableDeclaration SimpleName ttr
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName type def change listeners
+is not empty SimpleName MethodInvocation SimpleName type def change listeners
+ttr SimpleName MethodInvocation SimpleName get added types
+ttr SimpleName MethodInvocation SimpleName get updated types
+ttr SimpleName MethodInvocation SimpleName get deleteed types
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get added types
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get updated types
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get updated types
+get added types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+get added types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get updated types
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+get added types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+get added types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+ttr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+get updated types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ttr
+get updated types SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName changed type defs
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get added types
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get updated types
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ttr
+changed type defs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get deleteed types
+changed type defs SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName changed type defs
+type def change listener SimpleName SimpleType SingleVariableDeclaration SimpleName change listener
+change listener SimpleName MethodInvocation SimpleName on change
+change listener SimpleName MethodInvocation SimpleName changed type defs
+on change SimpleName MethodInvocation SimpleName changed type defs
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+change listener SimpleName MethodInvocation SimpleName get class
+change listener SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral on change failed for listener {}
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName change listener
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+log SimpleName MethodInvocation MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName t
+error SimpleName MethodInvocation StringLiteral on change failed for listener {}
+error SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName change listener
+error SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+error SimpleName MethodInvocation MethodInvocation SimpleName get name
+error SimpleName MethodInvocation SimpleName t
+on change failed for listener {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName change listener
+on change failed for listener {} StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+on change failed for listener {} StringLiteral MethodInvocation MethodInvocation SimpleName get name
+on change failed for listener {} StringLiteral MethodInvocation SimpleName t
+change listener SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName t
+get name SimpleName MethodInvocation MethodInvocation SimpleName t
+type def change listener SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName type def change listeners
+change listener SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName type def change listeners
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName notify listeners
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ttr
+void PrimitiveType MethodDeclaration SimpleName notify listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ttr
+notify listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+notify listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ttr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ttr
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ttr

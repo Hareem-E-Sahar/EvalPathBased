@@ -1,0 +1,66 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+date SimpleName SimpleType SingleVariableDeclaration SimpleName new value
+vertex SimpleName MethodInvocation SimpleName get property
+vertex SimpleName MethodInvocation SimpleName property name
+vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName number
+get property SimpleName MethodInvocation SimpleName property name
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName number
+property name SimpleName MethodInvocation TypeLiteral SimpleType SimpleName number
+curr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex
+curr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+curr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr value
+new value SimpleName MethodInvocation SimpleName get time
+curr value SimpleName MethodInvocation SimpleName equals
+curr value SimpleName MethodInvocation MethodInvocation SimpleName new value
+curr value SimpleName MethodInvocation MethodInvocation SimpleName get time
+equals SimpleName MethodInvocation MethodInvocation SimpleName new value
+equals SimpleName MethodInvocation MethodInvocation SimpleName get time
+new value SimpleName MethodInvocation SimpleName get time
+vertex SimpleName MethodInvocation SimpleName set property
+vertex SimpleName MethodInvocation SimpleName property name
+vertex SimpleName MethodInvocation MethodInvocation SimpleName new value
+vertex SimpleName MethodInvocation MethodInvocation SimpleName get time
+set property SimpleName MethodInvocation SimpleName property name
+set property SimpleName MethodInvocation MethodInvocation SimpleName new value
+set property SimpleName MethodInvocation MethodInvocation SimpleName get time
+property name SimpleName MethodInvocation MethodInvocation SimpleName new value
+property name SimpleName MethodInvocation MethodInvocation SimpleName get time
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update vertex property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new value
+void PrimitiveType MethodDeclaration SimpleName update vertex property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new value
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+update vertex property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new value
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update vertex property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update vertex property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value

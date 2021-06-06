@@ -1,0 +1,16 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get ssio
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ssio
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ssio
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ssio
+get ssio SimpleName MethodDeclaration Block ReturnStatement SimpleName ssio
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ssio
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ssio

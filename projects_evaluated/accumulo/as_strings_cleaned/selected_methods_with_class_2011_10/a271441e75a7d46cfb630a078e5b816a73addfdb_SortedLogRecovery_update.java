@@ -1,0 +1,23 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new session
+last start SimpleName FieldAccess Assignment PrefixExpression NumberLiteral empty
+last finish SimpleName FieldAccess Assignment PrefixExpression NumberLiteral empty
+compaction status SimpleName FieldAccess Assignment QualifiedName statusinitial
+tserver session SimpleName FieldAccess Assignment SimpleName new session
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new session
+void PrimitiveType MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new session
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new session
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new session
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new session

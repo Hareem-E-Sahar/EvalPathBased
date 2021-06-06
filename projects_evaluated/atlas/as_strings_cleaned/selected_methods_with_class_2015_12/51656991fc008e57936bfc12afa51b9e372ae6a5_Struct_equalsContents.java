@@ -1,0 +1,41 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName MethodInvocation SimpleName get class
+o SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get class
+struct SimpleName SimpleType CastExpression SimpleName o
+obj SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName struct
+obj SimpleName VariableDeclarationFragment CastExpression SimpleName o
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj
+obj SimpleName MethodInvocation SimpleName get type name
+type name SimpleName MethodInvocation SimpleName equals
+type name SimpleName MethodInvocation MethodInvocation SimpleName obj
+type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+equals SimpleName MethodInvocation MethodInvocation SimpleName obj
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+obj SimpleName MethodInvocation SimpleName get values map
+values SimpleName MethodInvocation SimpleName equals
+values SimpleName MethodInvocation MethodInvocation SimpleName obj
+values SimpleName MethodInvocation MethodInvocation SimpleName get values map
+equals SimpleName MethodInvocation MethodInvocation SimpleName obj
+equals SimpleName MethodInvocation MethodInvocation SimpleName get values map
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals contents
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName equals contents
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+equals contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+equals contents SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals contents
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals contents
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

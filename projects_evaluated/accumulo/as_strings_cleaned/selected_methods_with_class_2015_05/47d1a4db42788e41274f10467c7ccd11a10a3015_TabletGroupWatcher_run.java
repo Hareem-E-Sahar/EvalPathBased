@@ -1,0 +1,500 @@
+thread SimpleName MethodInvocation SimpleName current thread
+store SimpleName MethodInvocation SimpleName name
+watching StringLiteral InfixExpression MethodInvocation SimpleName store
+watching StringLiteral InfixExpression MethodInvocation SimpleName name
+thread SimpleName MethodInvocation MethodInvocation SimpleName set name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName set name
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral watching
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral watching
+set name SimpleName MethodInvocation InfixExpression StringLiteral watching
+set name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName store
+set name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+tablet state SimpleName MethodInvocation SimpleName values
+tablet state SimpleName MethodInvocation FieldAccess SimpleName length
+values SimpleName MethodInvocation FieldAccess SimpleName length
+int PrimitiveType ArrayType ArrayCreation FieldAccess SimpleName length
+old counts SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+old counts SimpleName VariableDeclarationFragment ArrayCreation FieldAccess SimpleName length
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName old counts
+master SimpleName FieldAccess FieldAccess SimpleName next event
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get listener
+next event SimpleName FieldAccess MethodInvocation SimpleName get listener
+event listener SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName next event
+event listener SimpleName VariableDeclarationFragment MethodInvocation SimpleName get listener
+event coordinatorlistener QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event listener
+master SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName master
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+wal state manager SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+master SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+master SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+get instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wal state manager
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName master
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName zoo reader writer
+wals SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+wal state manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wals
+master SimpleName FieldAccess MethodInvocation SimpleName still master
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+master SimpleName MethodInvocation SimpleName get master state
+master state SimpleName Assignment MethodInvocation SimpleName master
+master state SimpleName Assignment MethodInvocation SimpleName get master state
+total unloaded SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total unloaded
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+unloaded SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName unloaded
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+closable iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location state
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName merge stats
+merge info SimpleName SimpleType SingleVariableDeclaration SimpleName merge
+master SimpleName MethodInvocation SimpleName merges
+merge SimpleName MethodInvocation SimpleName get extent
+merge SimpleName MethodInvocation SimpleName get extent
+merge SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get extent SimpleName MethodInvocation MethodInvocation SimpleName get table id
+merge stats SimpleName SimpleType ClassInstanceCreation SimpleName merge
+current merges SimpleName MethodInvocation SimpleName put
+current merges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName merge
+current merges SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get extent
+current merges SimpleName MethodInvocation MethodInvocation SimpleName get table id
+current merges SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName merge stats
+current merges SimpleName MethodInvocation ClassInstanceCreation SimpleName merge
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName merge
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get extent
+put SimpleName MethodInvocation MethodInvocation SimpleName get table id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName merge stats
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName merge
+get table id SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName merge
+merge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName master
+merge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName merges
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+master SimpleName FieldAccess FieldAccess SimpleName tserver set
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get current servers
+tserver set SimpleName FieldAccess MethodInvocation SimpleName get current servers
+master SimpleName FieldAccess FieldAccess SimpleName tserver status
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get
+tserver status SimpleName FieldAccess MethodInvocation SimpleName get
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName entry
+tserver status SimpleName FieldAccess MethodInvocation SimpleName entry
+get SimpleName MethodInvocation SimpleName entry
+current t servers SimpleName MethodInvocation SimpleName put
+current t servers SimpleName MethodInvocation SimpleName entry
+current t servers SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName tserver status
+current t servers SimpleName MethodInvocation MethodInvocation SimpleName get
+current t servers SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName tserver status
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName tserver status
+entry SimpleName MethodInvocation MethodInvocation SimpleName get
+entry SimpleName MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get current servers
+current t servers SimpleName MethodInvocation SimpleName size
+current t servers SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+event listener SimpleName MethodInvocation SimpleName wait for events
+event listener SimpleName MethodInvocation QualifiedName mastertime to wait between scans
+wait for events SimpleName MethodInvocation QualifiedName mastertime to wait between scans
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+t server instance SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current t servers
+t server instance SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current t servers
+tablet server status SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName current t servers
+destinations SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current t servers
+destinations SimpleName MethodInvocation SimpleName key set
+master SimpleName FieldAccess FieldAccess SimpleName servers to shutdown
+destinations SimpleName MethodInvocation MethodInvocation SimpleName remove all
+key set SimpleName MethodInvocation MethodInvocation SimpleName remove all
+destinations SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName servers to shutdown
+key set SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName servers to shutdown
+remove all SimpleName MethodInvocation FieldAccess FieldAccess SimpleName master
+remove all SimpleName MethodInvocation FieldAccess SimpleName servers to shutdown
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName assignment
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location state
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location state
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+master SimpleName MethodInvocation SimpleName get master state
+master state SimpleName VariableDeclarationFragment MethodInvocation SimpleName master
+master state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get master state
+master state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName master state
+tablet state SimpleName MethodInvocation SimpleName values
+tablet state SimpleName MethodInvocation FieldAccess SimpleName length
+values SimpleName MethodInvocation FieldAccess SimpleName length
+int PrimitiveType ArrayType ArrayCreation FieldAccess SimpleName length
+counts SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+counts SimpleName VariableDeclarationFragment ArrayCreation FieldAccess SimpleName length
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName counts
+stats SimpleName MethodInvocation SimpleName begin
+store SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName store
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+tls SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+tablet location state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tls
+store SimpleName MethodInvocation SimpleName name
+store SimpleName MethodInvocation InfixExpression StringLiteral location state
+name SimpleName MethodInvocation InfixExpression StringLiteral location state
+store SimpleName MethodInvocation InfixExpression SimpleName tls
+name SimpleName MethodInvocation InfixExpression SimpleName tls
+location state StringLiteral InfixExpression SimpleName tls
+masterlog QualifiedName MethodInvocation SimpleName debug
+masterlog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName store
+masterlog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName name
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral location state
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName tls
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName store
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral location state
+debug SimpleName MethodInvocation InfixExpression SimpleName tls
+table manager SimpleName MethodInvocation SimpleName get instance
+tlsextent QualifiedName MethodInvocation SimpleName get table id
+tlsextent QualifiedName MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+table manager SimpleName MethodInvocation MethodInvocation SimpleName get table state
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get table state
+table manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tlsextent
+get table state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get table state SimpleName MethodInvocation MethodInvocation SimpleName to string
+masterlog QualifiedName MethodInvocation SimpleName is trace enabled
+tlswalogs QualifiedName MethodInvocation SimpleName size
+tls SimpleName InfixExpression StringLiteral walogs
+tls SimpleName InfixExpression MethodInvocation QualifiedName tlswalogs
+tls SimpleName InfixExpression MethodInvocation SimpleName size
+walogs StringLiteral InfixExpression MethodInvocation QualifiedName tlswalogs
+walogs StringLiteral InfixExpression MethodInvocation SimpleName size
+masterlog QualifiedName MethodInvocation SimpleName trace
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName tls
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral walogs
+masterlog QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName tlswalogs
+masterlog QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+trace SimpleName MethodInvocation InfixExpression SimpleName tls
+trace SimpleName MethodInvocation InfixExpression StringLiteral walogs
+trace SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName tlswalogs
+trace SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+unassigned SimpleName MethodInvocation SimpleName size
+unassigned SimpleName MethodInvocation InfixExpression SimpleName unloaded
+size SimpleName MethodInvocation InfixExpression SimpleName unloaded
+current t servers SimpleName MethodInvocation SimpleName size
+mastermax tserver work chunk QualifiedName InfixExpression MethodInvocation SimpleName current t servers
+mastermax tserver work chunk QualifiedName InfixExpression MethodInvocation SimpleName size
+unloaded SimpleName InfixExpression InfixExpression InfixExpression QualifiedName mastermax tserver work chunk
+flush changes SimpleName MethodInvocation SimpleName destinations
+flush changes SimpleName MethodInvocation SimpleName assignments
+flush changes SimpleName MethodInvocation SimpleName assigned
+flush changes SimpleName MethodInvocation SimpleName assigned to dead servers
+flush changes SimpleName MethodInvocation SimpleName logs for dead servers
+destinations SimpleName MethodInvocation SimpleName assignments
+destinations SimpleName MethodInvocation SimpleName assigned
+destinations SimpleName MethodInvocation SimpleName assigned to dead servers
+destinations SimpleName MethodInvocation SimpleName logs for dead servers
+destinations SimpleName MethodInvocation SimpleName unassigned
+assignments SimpleName MethodInvocation SimpleName assigned
+assignments SimpleName MethodInvocation SimpleName assigned to dead servers
+assignments SimpleName MethodInvocation SimpleName logs for dead servers
+assignments SimpleName MethodInvocation SimpleName unassigned
+assigned SimpleName MethodInvocation SimpleName assigned to dead servers
+assigned SimpleName MethodInvocation SimpleName logs for dead servers
+assigned SimpleName MethodInvocation SimpleName unassigned
+assigned to dead servers SimpleName MethodInvocation SimpleName logs for dead servers
+assigned to dead servers SimpleName MethodInvocation SimpleName unassigned
+logs for dead servers SimpleName MethodInvocation SimpleName unassigned
+assignments SimpleName MethodInvocation SimpleName clear
+assigned SimpleName MethodInvocation SimpleName clear
+assigned to dead servers SimpleName MethodInvocation SimpleName clear
+unassigned SimpleName MethodInvocation SimpleName clear
+unloaded SimpleName Assignment NumberLiteral empty
+event listener SimpleName MethodInvocation SimpleName wait for events
+event listener SimpleName MethodInvocation QualifiedName mastertime to wait between scans
+wait for events SimpleName MethodInvocation QualifiedName mastertime to wait between scans
+tlsextent QualifiedName MethodInvocation SimpleName get table id
+table id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tlsextent
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table id
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+merge stats cache SimpleName MethodInvocation SimpleName get
+merge stats cache SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+merge stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName merge stats cache
+merge stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+merge stats SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+merge stats SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName merge stats
+current merges SimpleName MethodInvocation SimpleName get
+current merges SimpleName MethodInvocation SimpleName table id
+get SimpleName MethodInvocation SimpleName table id
+merge stats SimpleName Assignment MethodInvocation SimpleName current merges
+merge stats SimpleName Assignment MethodInvocation SimpleName get
+merge stats SimpleName Assignment MethodInvocation SimpleName table id
+merge stats SimpleName Assignment ClassInstanceCreation SimpleType SimpleName merge stats
+merge stats cache SimpleName MethodInvocation SimpleName put
+merge stats cache SimpleName MethodInvocation SimpleName table id
+merge stats cache SimpleName MethodInvocation SimpleName merge stats
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation SimpleName merge stats
+table id SimpleName MethodInvocation SimpleName merge stats
+merge stats SimpleName MethodInvocation SimpleName get merge info
+master SimpleName FieldAccess MethodInvocation SimpleName get goal state
+master SimpleName FieldAccess MethodInvocation SimpleName tls
+master SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName merge stats
+master SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get merge info
+get goal state SimpleName MethodInvocation SimpleName tls
+get goal state SimpleName MethodInvocation MethodInvocation SimpleName merge stats
+get goal state SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+tls SimpleName MethodInvocation MethodInvocation SimpleName merge stats
+tls SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+goal SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName master
+goal SimpleName VariableDeclarationFragment MethodInvocation SimpleName get goal state
+goal SimpleName VariableDeclarationFragment MethodInvocation SimpleName tls
+goal SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName merge stats
+goal SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get merge info
+tablet goal state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName goal
+tls SimpleName MethodInvocation SimpleName get server
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName tls
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+current t servers SimpleName MethodInvocation SimpleName key set
+tls SimpleName MethodInvocation SimpleName get state
+tls SimpleName MethodInvocation MethodInvocation SimpleName current t servers
+tls SimpleName MethodInvocation MethodInvocation SimpleName key set
+get state SimpleName MethodInvocation MethodInvocation SimpleName current t servers
+get state SimpleName MethodInvocation MethodInvocation SimpleName key set
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName tls
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName current t servers
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+tablet state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+masterlog QualifiedName MethodInvocation SimpleName is trace enabled
+goal state StringLiteral InfixExpression SimpleName goal
+goal state StringLiteral InfixExpression StringLiteral current
+goal state StringLiteral InfixExpression SimpleName state
+goal state StringLiteral InfixExpression StringLiteral for
+goal state StringLiteral InfixExpression QualifiedName tlsextent
+goal SimpleName InfixExpression StringLiteral current
+goal SimpleName InfixExpression SimpleName state
+goal SimpleName InfixExpression StringLiteral for
+goal SimpleName InfixExpression QualifiedName tlsextent
+current StringLiteral InfixExpression SimpleName state
+current StringLiteral InfixExpression StringLiteral for
+current StringLiteral InfixExpression QualifiedName tlsextent
+state SimpleName InfixExpression StringLiteral for
+state SimpleName InfixExpression QualifiedName tlsextent
+for StringLiteral InfixExpression QualifiedName tlsextent
+masterlog QualifiedName MethodInvocation SimpleName trace
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral goal state
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName goal
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral current
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName state
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral for
+masterlog QualifiedName MethodInvocation InfixExpression QualifiedName tlsextent
+trace SimpleName MethodInvocation InfixExpression StringLiteral goal state
+trace SimpleName MethodInvocation InfixExpression SimpleName goal
+trace SimpleName MethodInvocation InfixExpression StringLiteral current
+trace SimpleName MethodInvocation InfixExpression SimpleName state
+trace SimpleName MethodInvocation InfixExpression StringLiteral for
+trace SimpleName MethodInvocation InfixExpression QualifiedName tlsextent
+stats SimpleName MethodInvocation SimpleName update
+stats SimpleName MethodInvocation SimpleName table id
+stats SimpleName MethodInvocation SimpleName state
+update SimpleName MethodInvocation SimpleName table id
+update SimpleName MethodInvocation SimpleName state
+table id SimpleName MethodInvocation SimpleName state
+tlswalogs QualifiedName MethodInvocation SimpleName is empty
+merge stats SimpleName MethodInvocation SimpleName update
+merge stats SimpleName MethodInvocation QualifiedName tlsextent
+merge stats SimpleName MethodInvocation SimpleName state
+merge stats SimpleName MethodInvocation QualifiedName tlschopped
+merge stats SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName tlswalogs
+merge stats SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+update SimpleName MethodInvocation QualifiedName tlsextent
+update SimpleName MethodInvocation SimpleName state
+update SimpleName MethodInvocation QualifiedName tlschopped
+update SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName tlswalogs
+update SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+tlsextent QualifiedName MethodInvocation SimpleName state
+tlsextent QualifiedName MethodInvocation QualifiedName tlschopped
+tlsextent QualifiedName MethodInvocation PrefixExpression MethodInvocation QualifiedName tlswalogs
+tlsextent QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+state SimpleName MethodInvocation QualifiedName tlschopped
+state SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName tlswalogs
+state SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+tlschopped QualifiedName MethodInvocation PrefixExpression MethodInvocation QualifiedName tlswalogs
+tlschopped QualifiedName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+merge stats SimpleName MethodInvocation SimpleName get merge info
+send chop request SimpleName MethodInvocation MethodInvocation SimpleName merge stats
+send chop request SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+send chop request SimpleName MethodInvocation SimpleName state
+send chop request SimpleName MethodInvocation SimpleName tls
+merge stats SimpleName MethodInvocation MethodInvocation SimpleName state
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName state
+merge stats SimpleName MethodInvocation MethodInvocation SimpleName tls
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName tls
+state SimpleName MethodInvocation SimpleName tls
+merge stats SimpleName MethodInvocation SimpleName get merge info
+send split request SimpleName MethodInvocation MethodInvocation SimpleName merge stats
+send split request SimpleName MethodInvocation MethodInvocation SimpleName get merge info
+send split request SimpleName MethodInvocation SimpleName state
+send split request SimpleName MethodInvocation SimpleName tls
+merge stats SimpleName MethodInvocation MethodInvocation SimpleName state
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName state
+merge stats SimpleName MethodInvocation MethodInvocation SimpleName tls
+get merge info SimpleName MethodInvocation MethodInvocation SimpleName tls
+state SimpleName MethodInvocation SimpleName tls
+state SimpleName InfixExpression QualifiedName tablet stateassigned
+goal SimpleName Assignment QualifiedName tablet goal statehosted
+goal SimpleName InfixExpression QualifiedName tablet goal stateunassigned
+state SimpleName InfixExpression QualifiedName tablet statehosted
+goal SimpleName InfixExpression InfixExpression InfixExpression SimpleName state
+goal SimpleName InfixExpression InfixExpression InfixExpression QualifiedName tablet statehosted
+tablet goal stateunassigned QualifiedName InfixExpression InfixExpression InfixExpression SimpleName state
+tablet goal stateunassigned QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName tablet statehosted
+master SimpleName FieldAccess FieldAccess SimpleName servers to shutdown
+current t servers SimpleName MethodInvocation SimpleName key set
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName equals
+servers to shutdown SimpleName FieldAccess MethodInvocation SimpleName equals
+servers to shutdown SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName current t servers
+servers to shutdown SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName key set
+equals SimpleName MethodInvocation MethodInvocation SimpleName current t servers
+equals SimpleName MethodInvocation MethodInvocation SimpleName key set
+dependent watcher SimpleName MethodInvocation SimpleName assigned or hosted
+dependent watcher SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assigned or hosted SimpleName MethodInvocation InfixExpression NumberLiteral empty
+dependent watcher SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+goal SimpleName Assignment QualifiedName tablet goal statehosted
+goal SimpleName InfixExpression QualifiedName tablet goal statehosted
+state SimpleName InfixExpression QualifiedName tablet statehosted
+tlswalogs QualifiedName MethodInvocation SimpleName is empty
+master SimpleName FieldAccess FieldAccess SimpleName recovery manager
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName recover logs
+recovery manager SimpleName FieldAccess MethodInvocation SimpleName recover logs
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+recovery manager SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlswalogs
+recovery manager SimpleName FieldAccess MethodInvocation QualifiedName tlswalogs
+recover logs SimpleName MethodInvocation QualifiedName tlsextent
+recover logs SimpleName MethodInvocation QualifiedName tlswalogs
+tlsextent QualifiedName MethodInvocation QualifiedName tlswalogs
+master SimpleName FieldAccess FieldAccess SimpleName migrations
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get
+migrations SimpleName FieldAccess MethodInvocation SimpleName get
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+migrations SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+get SimpleName MethodInvocation QualifiedName tlsextent
+server SimpleName MethodInvocation SimpleName equals
+server SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName migrations
+server SimpleName MethodInvocation MethodInvocation SimpleName get
+server SimpleName MethodInvocation MethodInvocation QualifiedName tlsextent
+equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName migrations
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation QualifiedName tlsextent
+master SimpleName FieldAccess FieldAccess SimpleName migrations
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName remove
+migrations SimpleName FieldAccess MethodInvocation SimpleName remove
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+migrations SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+remove SimpleName MethodInvocation QualifiedName tlsextent
+assigned to dead servers SimpleName MethodInvocation SimpleName add
+assigned to dead servers SimpleName MethodInvocation SimpleName tls
+add SimpleName MethodInvocation SimpleName tls
+master SimpleName FieldAccess FieldAccess SimpleName migrations
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get
+migrations SimpleName FieldAccess MethodInvocation SimpleName get
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+migrations SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+get SimpleName MethodInvocation QualifiedName tlsextent
+server SimpleName MethodInvocation SimpleName equals
+server SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName migrations
+server SimpleName MethodInvocation MethodInvocation SimpleName get
+server SimpleName MethodInvocation MethodInvocation QualifiedName tlsextent
+equals SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName migrations
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation QualifiedName tlsextent
+master SimpleName FieldAccess FieldAccess SimpleName migrations
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName remove
+migrations SimpleName FieldAccess MethodInvocation SimpleName remove
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+migrations SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+remove SimpleName MethodInvocation QualifiedName tlsextent
+tls SimpleName MethodInvocation SimpleName future or current
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName tls
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName future or current
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver
+logs for dead servers SimpleName MethodInvocation SimpleName contains key
+logs for dead servers SimpleName MethodInvocation SimpleName tserver
+contains key SimpleName MethodInvocation SimpleName tserver
+wals SimpleName MethodInvocation SimpleName get wals in use
+wals SimpleName MethodInvocation SimpleName tserver
+get wals in use SimpleName MethodInvocation SimpleName tserver
+logs for dead servers SimpleName MethodInvocation SimpleName put
+logs for dead servers SimpleName MethodInvocation SimpleName tserver
+logs for dead servers SimpleName MethodInvocation MethodInvocation SimpleName wals
+logs for dead servers SimpleName MethodInvocation MethodInvocation SimpleName get wals in use
+logs for dead servers SimpleName MethodInvocation MethodInvocation SimpleName tserver
+put SimpleName MethodInvocation SimpleName tserver
+put SimpleName MethodInvocation MethodInvocation SimpleName wals
+put SimpleName MethodInvocation MethodInvocation SimpleName get wals in use
+put SimpleName MethodInvocation MethodInvocation SimpleName tserver
+tserver SimpleName MethodInvocation MethodInvocation SimpleName wals
+tserver SimpleName MethodInvocation MethodInvocation SimpleName get wals in use
+tserver SimpleName MethodInvocation MethodInvocation SimpleName tserver
+master SimpleName FieldAccess FieldAccess SimpleName migrations
+master SimpleName FieldAccess FieldAccess MethodInvocation SimpleName get
+migrations SimpleName FieldAccess MethodInvocation SimpleName get
+master SimpleName FieldAccess FieldAccess MethodInvocation QualifiedName tlsextent
+migrations SimpleName FieldAccess MethodInvocation QualifiedName tlsextent
+get SimpleName MethodInvocation QualifiedName tlsextent
+dest SimpleName VariableDeclarationFragment MethodInvocation FieldAccess SimpleName migrations
+dest SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+dest SimpleName VariableDeclarationFragment MethodInvocation QualifiedName tlsextent
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+destinations SimpleName MethodInvocation SimpleName key set
+destinations SimpleName MethodInvocation MethodInvocation SimpleName contains
+key set SimpleName MethodInvocation MethodInvocation SimpleName contains
+destinations SimpleName MethodInvocation MethodInvocation SimpleName dest
+key set SimpleName MethodInvocation MethodInvocation SimpleName dest
+contains SimpleName MethodInvocation SimpleName dest
+assignment SimpleName SimpleType ClassInstanceCreation QualifiedName tlsextent
+assignment SimpleName SimpleType ClassInstanceCreation SimpleName dest
+tlsextent QualifiedName ClassInstanceCreation SimpleName dest
+assignments SimpleName MethodInvocation SimpleName add
+assignments SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName assignment

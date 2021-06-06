@@ -1,0 +1,74 @@
+t SimpleName TypeParameter SimpleType SimpleName hierarchical type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+t SimpleName SimpleType SingleVariableDeclaration SimpleName type
+types by name SimpleName MethodInvocation SimpleName put
+types by name SimpleName MethodInvocation QualifiedName typename
+types by name SimpleName MethodInvocation SimpleName type
+put SimpleName MethodInvocation QualifiedName typename
+put SimpleName MethodInvocation SimpleName type
+typename QualifiedName MethodInvocation SimpleName type
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+types SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName types
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+t SimpleName SimpleType SingleVariableDeclaration SimpleName type
+add to result SimpleName MethodInvocation SimpleName type
+add to result SimpleName MethodInvocation SimpleName result
+add to result SimpleName MethodInvocation SimpleName processed
+add to result SimpleName MethodInvocation SimpleName types by name
+type SimpleName MethodInvocation SimpleName result
+type SimpleName MethodInvocation SimpleName processed
+type SimpleName MethodInvocation SimpleName types by name
+result SimpleName MethodInvocation SimpleName processed
+result SimpleName MethodInvocation SimpleName types by name
+processed SimpleName MethodInvocation SimpleName types by name
+t SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName types
+type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName types
+types SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName types
+types SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+types SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName hierarchical type
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName sort types
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+static Modifier MethodDeclaration TypeParameter SimpleName t
+static Modifier MethodDeclaration TypeParameter SimpleType SimpleName hierarchical type
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+static Modifier MethodDeclaration SimpleName sort types
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName types
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+t SimpleName TypeParameter MethodDeclaration SimpleName sort types
+hierarchical type SimpleName SimpleType TypeParameter MethodDeclaration SimpleName sort types
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName types
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName sort types
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName sort types
+sort types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types
+sort types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+sort types SimpleName MethodDeclaration Block EnhancedForStatement SimpleName types
+sort types SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName sort types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sort types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types

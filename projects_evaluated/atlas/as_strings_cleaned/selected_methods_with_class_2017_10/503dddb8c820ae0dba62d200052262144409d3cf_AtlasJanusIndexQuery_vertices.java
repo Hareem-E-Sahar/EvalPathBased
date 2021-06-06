@@ -1,0 +1,115 @@
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+int PrimitiveType SingleVariableDeclaration SimpleName limit
+offset SimpleName InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation InfixExpression SimpleName offset
+preconditions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation StringLiteral index offset should be greater than or equals to
+check argument SimpleName MethodInvocation InfixExpression SimpleName offset
+check argument SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check argument SimpleName MethodInvocation StringLiteral index offset should be greater than or equals to
+offset SimpleName InfixExpression MethodInvocation StringLiteral index offset should be greater than or equals to
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral index offset should be greater than or equals to
+limit SimpleName InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation SimpleName check argument
+preconditions SimpleName MethodInvocation InfixExpression SimpleName limit
+preconditions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation StringLiteral index limit should be greater than or equals to
+check argument SimpleName MethodInvocation InfixExpression SimpleName limit
+check argument SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check argument SimpleName MethodInvocation StringLiteral index limit should be greater than or equals to
+limit SimpleName InfixExpression MethodInvocation StringLiteral index limit should be greater than or equals to
+empty NumberLiteral InfixExpression MethodInvocation StringLiteral index limit should be greater than or equals to
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName janus graph vertex
+query SimpleName MethodInvocation SimpleName offset
+query SimpleName MethodInvocation SimpleName offset
+offset SimpleName MethodInvocation SimpleName offset
+query SimpleName MethodInvocation MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation MethodInvocation SimpleName limit
+query SimpleName MethodInvocation MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation MethodInvocation SimpleName limit
+offset SimpleName MethodInvocation MethodInvocation SimpleName limit
+limit SimpleName MethodInvocation SimpleName limit
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+offset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+limit SimpleName MethodInvocation MethodInvocation SimpleName vertices
+limit SimpleName MethodInvocation MethodInvocation SimpleName vertices
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+results SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName janus graph vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName janus graph vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus vertex
+result SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+atlas janus vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas janus edge
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SimpleType SimpleName janus graph vertex
+janus graph index queryresult QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+janus graph vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName source
+result impl SimpleName SimpleType ClassInstanceCreation SimpleName source
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName result
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas janus edge
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+result SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+atlas janus vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+atlas janus edge SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+iterators SimpleName MethodInvocation SimpleName transform
+iterators SimpleName MethodInvocation SimpleName results
+iterators SimpleName MethodInvocation SimpleName function
+transform SimpleName MethodInvocation SimpleName results
+transform SimpleName MethodInvocation SimpleName function
+results SimpleName MethodInvocation SimpleName function
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName vertices
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName offset
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName vertices
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName vertices
+vertices SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+vertices SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit

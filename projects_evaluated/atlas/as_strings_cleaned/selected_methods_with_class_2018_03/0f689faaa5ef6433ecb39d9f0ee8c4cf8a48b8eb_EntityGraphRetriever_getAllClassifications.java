@@ -1,0 +1,88 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas classification
+entity vertex SimpleName MethodInvocation SimpleName query
+entity vertex SimpleName MethodInvocation MethodInvocation SimpleName direction
+query SimpleName MethodInvocation MethodInvocation SimpleName direction
+entity vertex SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+query SimpleName MethodInvocation MethodInvocation QualifiedName atlas edge directionout
+direction SimpleName MethodInvocation QualifiedName atlas edge directionout
+entity vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName label
+direction SimpleName MethodInvocation MethodInvocation SimpleName label
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName label
+entity vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification label
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification label
+direction SimpleName MethodInvocation MethodInvocation SimpleName classification label
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation SimpleName classification label
+label SimpleName MethodInvocation SimpleName classification label
+active SimpleName MethodInvocation SimpleName name
+direction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+label SimpleName MethodInvocation MethodInvocation SimpleName has
+classification label SimpleName MethodInvocation MethodInvocation SimpleName has
+direction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification edge state property key
+atlas edge directionout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName classification edge state property key
+label SimpleName MethodInvocation MethodInvocation SimpleName classification edge state property key
+classification label SimpleName MethodInvocation MethodInvocation SimpleName classification edge state property key
+label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+classification label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+classification label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+has SimpleName MethodInvocation SimpleName classification edge state property key
+has SimpleName MethodInvocation MethodInvocation SimpleName active
+has SimpleName MethodInvocation MethodInvocation SimpleName name
+classification edge state property key SimpleName MethodInvocation MethodInvocation SimpleName active
+classification edge state property key SimpleName MethodInvocation MethodInvocation SimpleName name
+label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+classification label SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+has SimpleName MethodInvocation MethodInvocation SimpleName edges
+classification edge state property key SimpleName MethodInvocation MethodInvocation SimpleName edges
+active SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edges
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName has
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification edge state property key
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+iterable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edges
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+edges SimpleName MethodInvocation SimpleName iterator
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+iterator SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+to atlas classification SimpleName MethodInvocation MethodInvocation SimpleName edge
+to atlas classification SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName to atlas classification
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get in vertex
+add SimpleName MethodInvocation MethodInvocation SimpleName to atlas classification
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get in vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName get all classifications
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classifications
+atlas classification SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all classifications
+get all classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get all classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get all classifications SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get all classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

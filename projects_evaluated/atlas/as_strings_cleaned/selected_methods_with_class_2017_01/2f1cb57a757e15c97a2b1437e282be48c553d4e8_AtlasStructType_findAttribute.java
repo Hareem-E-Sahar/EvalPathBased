@@ -1,0 +1,60 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+atlas attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+atlas attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName attributes
+is not empty SimpleName MethodInvocation SimpleName attributes
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+attribute SimpleName MethodInvocation SimpleName get attribute def
+attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute def SimpleName MethodInvocation MethodInvocation SimpleName get name
+orgapachehadooputilstring utils QualifiedName MethodInvocation SimpleName equals ignore case
+orgapachehadooputilstring utils QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+orgapachehadooputilstring utils QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute def
+orgapachehadooputilstring utils QualifiedName MethodInvocation MethodInvocation SimpleName get name
+orgapachehadooputilstring utils QualifiedName MethodInvocation SimpleName attr name
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute
+equals ignore case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute def
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName get name
+equals ignore case SimpleName MethodInvocation SimpleName attr name
+attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+get attribute def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr name
+get name SimpleName MethodInvocation MethodInvocation SimpleName attr name
+ret SimpleName Assignment SimpleName attribute
+atlas attribute SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attributes
+attribute SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attributes
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SimpleName find attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SimpleName find attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas attribute SimpleName SimpleType MethodDeclaration SimpleName find attribute
+atlas attribute SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+atlas attribute SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+find attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleName find attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

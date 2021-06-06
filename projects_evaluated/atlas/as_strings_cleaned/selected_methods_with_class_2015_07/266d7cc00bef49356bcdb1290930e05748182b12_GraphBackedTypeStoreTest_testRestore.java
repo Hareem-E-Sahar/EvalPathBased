@@ -1,0 +1,217 @@
+depends on methods SimpleName MemberValuePair StringLiteral test store
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test store
+type store SimpleName MethodInvocation SimpleName restore
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type store
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName restore
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName enum type definition
+types SimpleName MethodInvocation SimpleName enum types as java list
+enum types SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+enum types SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum types as java list
+enum types SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName enum types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName enum types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName enum types
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+enum types SimpleName MethodInvocation SimpleName get
+enum types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+org level SimpleName VariableDeclarationFragment MethodInvocation SimpleName enum types
+org level SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+org level SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+enum type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName org level
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName org levelname
+assert SimpleName MethodInvocation StringLiteral org level
+assert equals SimpleName MethodInvocation QualifiedName org levelname
+assert equals SimpleName MethodInvocation StringLiteral org level
+org levelname QualifiedName MethodInvocation StringLiteral org level
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName org levelenum valueslength
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName org levelenum valueslength
+assert equals SimpleName MethodInvocation NumberLiteral empty
+org levelenum valueslength QualifiedName MethodInvocation NumberLiteral empty
+org levelenum values QualifiedName ArrayAccess NumberLiteral empty
+enum value SimpleName VariableDeclarationFragment ArrayAccess QualifiedName org levelenum values
+enum value SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+enum value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum value
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName enum valuevalue
+assert SimpleName MethodInvocation StringLiteral l
+assert equals SimpleName MethodInvocation QualifiedName enum valuevalue
+assert equals SimpleName MethodInvocation StringLiteral l
+enum valuevalue QualifiedName MethodInvocation StringLiteral l
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName enum valueordinal
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName enum valueordinal
+assert equals SimpleName MethodInvocation NumberLiteral empty
+enum valueordinal QualifiedName MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct type definition
+types SimpleName MethodInvocation SimpleName struct types as java list
+struct types SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+struct types SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct types as java list
+struct types SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName struct types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName struct types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName struct types
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+cls type found SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cls type found
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+types SimpleName MethodInvocation SimpleName class types as java list
+class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName class types as java list
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName class type
+class typetype name QualifiedName MethodInvocation SimpleName equals
+class typetype name QualifiedName MethodInvocation StringLiteral manager
+equals SimpleName MethodInvocation StringLiteral manager
+ts SimpleName MethodInvocation SimpleName get data type
+ts SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+ts SimpleName MethodInvocation QualifiedName class typetype name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName class type
+get data type SimpleName MethodInvocation QualifiedName class typetype name
+class type SimpleName SimpleType TypeLiteral MethodInvocation QualifiedName class typetype name
+expected type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+expected type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+expected type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName class typetype name
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected type
+expected typeimmediate attrs QualifiedName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation QualifiedName expected typeimmediate attrs
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation QualifiedName class typeattribute definitionslength
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName expected typeimmediate attrs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation QualifiedName class typeattribute definitionslength
+expected typeimmediate attrs QualifiedName MethodInvocation MethodInvocation QualifiedName class typeattribute definitionslength
+size SimpleName MethodInvocation MethodInvocation QualifiedName class typeattribute definitionslength
+expected typesuper types QualifiedName MethodInvocation SimpleName size
+class typesuper types QualifiedName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation QualifiedName expected typesuper types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName expected typesuper types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName class typesuper types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+expected typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+expected typesuper types QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName class typesuper types
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+cls type found SimpleName Assignment BooleanLiteral true
+class type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName class types
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral manager type not restored
+assert SimpleName MethodInvocation SimpleName cls type found
+assert true SimpleName MethodInvocation StringLiteral manager type not restored
+assert true SimpleName MethodInvocation SimpleName cls type found
+manager type not restored StringLiteral MethodInvocation SimpleName cls type found
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+types SimpleName MethodInvocation SimpleName trait types as java list
+trait types SimpleName VariableDeclarationFragment MethodInvocation SimpleName types
+trait types SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait types as java list
+trait types SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait types
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait types
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName trait types
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+trait types SimpleName MethodInvocation SimpleName get
+trait types SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait types
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+trait SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral security clearance
+assert SimpleName MethodInvocation QualifiedName traittype name
+assert equals SimpleName MethodInvocation StringLiteral security clearance
+assert equals SimpleName MethodInvocation QualifiedName traittype name
+security clearance StringLiteral MethodInvocation QualifiedName traittype name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation QualifiedName traitattribute definitionslength
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation QualifiedName traitattribute definitionslength
+empty NumberLiteral MethodInvocation QualifiedName traitattribute definitionslength
+traitattribute definitions QualifiedName ArrayAccess NumberLiteral empty
+attribute SimpleName VariableDeclarationFragment ArrayAccess QualifiedName traitattribute definitions
+attribute SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+attribute definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral level
+assert SimpleName MethodInvocation QualifiedName attributename
+assert equals SimpleName MethodInvocation StringLiteral level
+assert equals SimpleName MethodInvocation QualifiedName attributename
+level StringLiteral MethodInvocation QualifiedName attributename
+data typesint type QualifiedName MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation QualifiedName data typesint type
+assert SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation QualifiedName attributedata type name
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName data typesint type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation QualifiedName attributedata type name
+data typesint type QualifiedName MethodInvocation MethodInvocation QualifiedName attributedata type name
+get name SimpleName MethodInvocation MethodInvocation QualifiedName attributedata type name
+ts SimpleName MethodInvocation SimpleName reset
+ts SimpleName MethodInvocation SimpleName define types
+ts SimpleName MethodInvocation SimpleName types
+define types SimpleName MethodInvocation SimpleName types
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName class types
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test restore
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test restore
+test store StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test restore
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test restore
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName class types
+void PrimitiveType MethodDeclaration SimpleName test restore
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName class types
+test restore SimpleName MethodDeclaration SimpleType SimpleName exception
+test restore SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test restore SimpleName MethodDeclaration Block EnhancedForStatement SimpleName class types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test restore
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test restore
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,500 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+auth info SimpleName SimpleType SingleVariableDeclaration SimpleName c
+long PrimitiveType SingleVariableDeclaration SimpleName opid
+orgapacheaccumulocoremasterthrifttable operation QualifiedName SimpleType SingleVariableDeclaration SimpleName op
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName arguments
+byte buffer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName arguments
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+boolean PrimitiveType SingleVariableDeclaration SimpleName auto cleanup
+authenticate SimpleName MethodInvocation SimpleName c
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+check SimpleName MethodInvocation SimpleName c
+check SimpleName MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation QualifiedName system permissioncreate table
+verify SimpleName MethodInvocation SimpleName c
+verify SimpleName MethodInvocation MethodInvocation SimpleName check
+verify SimpleName MethodInvocation MethodInvocation SimpleName c
+verify SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation MethodInvocation SimpleName check
+c SimpleName MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation QualifiedName system permissioncreate table
+check not metadata table SimpleName MethodInvocation SimpleName table name
+check not metadata table SimpleName MethodInvocation QualifiedName table operationcreate
+table name SimpleName MethodInvocation QualifiedName table operationcreate
+check table name SimpleName MethodInvocation SimpleName table name
+check table name SimpleName MethodInvocation QualifiedName table operationcreate
+table name SimpleName MethodInvocation QualifiedName table operationcreate
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation SimpleName value of
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation MethodInvocation SimpleName byte buffer util
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation MethodInvocation SimpleName to string
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName arguments
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+orgapacheaccumulocoreclientadmintime type QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+value of SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+value of SimpleName MethodInvocation MethodInvocation SimpleName to string
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arguments
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+time type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName orgapacheaccumulocoreclientadmintime type
+time type SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+time type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer util
+time type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+orgapacheaccumulocoreclientadmintime type QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time type
+create table SimpleName SimpleType ClassInstanceCreation QualifiedName cuser
+create table SimpleName SimpleType ClassInstanceCreation SimpleName table name
+create table SimpleName SimpleType ClassInstanceCreation SimpleName time type
+create table SimpleName SimpleType ClassInstanceCreation SimpleName options
+cuser QualifiedName ClassInstanceCreation SimpleName table name
+cuser QualifiedName ClassInstanceCreation SimpleName time type
+cuser QualifiedName ClassInstanceCreation SimpleName options
+table name SimpleName ClassInstanceCreation SimpleName time type
+table name SimpleName ClassInstanceCreation SimpleName options
+time type SimpleName ClassInstanceCreation SimpleName options
+fate SimpleName MethodInvocation SimpleName seed transaction
+fate SimpleName MethodInvocation SimpleName opid
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+fate SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName time type
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName options
+fate SimpleName MethodInvocation SimpleName auto cleanup
+seed transaction SimpleName MethodInvocation SimpleName opid
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+seed transaction SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName time type
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName options
+seed transaction SimpleName MethodInvocation SimpleName auto cleanup
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName create table
+opid SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName time type
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName options
+opid SimpleName MethodInvocation SimpleName auto cleanup
+create table SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+cuser QualifiedName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+table name SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+time type SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+options SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+old table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+old table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+old table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+old table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+old table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old table name
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+new table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+new table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+new table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+new table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new table name
+check table id SimpleName MethodInvocation SimpleName old table name
+check table id SimpleName MethodInvocation QualifiedName table operationrename
+old table name SimpleName MethodInvocation QualifiedName table operationrename
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName check table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName old table name
+table id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName table operationrename
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+check not metadata table SimpleName MethodInvocation SimpleName old table name
+check not metadata table SimpleName MethodInvocation QualifiedName table operationrename
+old table name SimpleName MethodInvocation QualifiedName table operationrename
+check not metadata table SimpleName MethodInvocation SimpleName new table name
+check not metadata table SimpleName MethodInvocation QualifiedName table operationrename
+new table name SimpleName MethodInvocation QualifiedName table operationrename
+check table name SimpleName MethodInvocation SimpleName new table name
+check table name SimpleName MethodInvocation QualifiedName table operationrename
+new table name SimpleName MethodInvocation QualifiedName table operationrename
+check SimpleName MethodInvocation SimpleName c
+check SimpleName MethodInvocation SimpleName table id
+check SimpleName MethodInvocation QualifiedName table permissionalter table
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation QualifiedName table permissionalter table
+table id SimpleName MethodInvocation QualifiedName table permissionalter table
+check SimpleName MethodInvocation SimpleName c
+check SimpleName MethodInvocation QualifiedName system permissionalter table
+c SimpleName MethodInvocation QualifiedName system permissionalter table
+check SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+check SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+check SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table permissionalter table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+verify SimpleName MethodInvocation SimpleName c
+verify SimpleName MethodInvocation SimpleName table id
+verify SimpleName MethodInvocation QualifiedName table operationrename
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+verify SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+verify SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation QualifiedName table operationrename
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+table id SimpleName MethodInvocation QualifiedName table operationrename
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table id
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionalter table
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table operationrename QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissionalter table
+rename table SimpleName SimpleType ClassInstanceCreation SimpleName table id
+rename table SimpleName SimpleType ClassInstanceCreation SimpleName old table name
+rename table SimpleName SimpleType ClassInstanceCreation SimpleName new table name
+table id SimpleName ClassInstanceCreation SimpleName old table name
+table id SimpleName ClassInstanceCreation SimpleName new table name
+old table name SimpleName ClassInstanceCreation SimpleName new table name
+fate SimpleName MethodInvocation SimpleName seed transaction
+fate SimpleName MethodInvocation SimpleName opid
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName old table name
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName new table name
+fate SimpleName MethodInvocation SimpleName auto cleanup
+seed transaction SimpleName MethodInvocation SimpleName opid
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName old table name
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName new table name
+seed transaction SimpleName MethodInvocation SimpleName auto cleanup
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName rename table
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName table id
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName old table name
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName new table name
+opid SimpleName MethodInvocation SimpleName auto cleanup
+rename table SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+table id SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+old table name SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+new table name SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+src table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+src table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+src table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+src table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src table id
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+check not metadata table SimpleName MethodInvocation SimpleName table name
+check not metadata table SimpleName MethodInvocation QualifiedName table operationclone
+table name SimpleName MethodInvocation QualifiedName table operationclone
+check table name SimpleName MethodInvocation SimpleName table name
+check table name SimpleName MethodInvocation QualifiedName table operationclone
+table name SimpleName MethodInvocation QualifiedName table operationclone
+check SimpleName MethodInvocation SimpleName c
+check SimpleName MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation QualifiedName system permissioncreate table
+check SimpleName MethodInvocation SimpleName c
+check SimpleName MethodInvocation SimpleName src table id
+check SimpleName MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName src table id
+c SimpleName MethodInvocation QualifiedName table permissionread
+src table id SimpleName MethodInvocation QualifiedName table permissionread
+check SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+check SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+check SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+check SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+system permissioncreate table QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+verify SimpleName MethodInvocation SimpleName c
+verify SimpleName MethodInvocation SimpleName src table id
+verify SimpleName MethodInvocation QualifiedName table operationclone
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+verify SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissioncreate table
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+verify SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+verify SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+c SimpleName MethodInvocation SimpleName src table id
+c SimpleName MethodInvocation QualifiedName table operationclone
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissioncreate table
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+c SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+src table id SimpleName MethodInvocation QualifiedName table operationclone
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissioncreate table
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+src table id SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName system permissioncreate table
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName c
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName src table id
+table operationclone QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName table permissionread
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+options SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+properties to exclude SimpleName MethodInvocation SimpleName add
+properties to exclude SimpleName MethodInvocation MethodInvocation SimpleName entry
+properties to exclude SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+table prop util SimpleName MethodInvocation SimpleName is property valid
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName entry
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName get key
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName entry
+table prop util SimpleName MethodInvocation MethodInvocation SimpleName get value
+is property valid SimpleName MethodInvocation MethodInvocation SimpleName entry
+is property valid SimpleName MethodInvocation MethodInvocation SimpleName get key
+is property valid SimpleName MethodInvocation MethodInvocation SimpleName entry
+is property valid SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+property or value not valid StringLiteral InfixExpression MethodInvocation SimpleName entry
+property or value not valid StringLiteral InfixExpression MethodInvocation SimpleName get key
+property or value not valid StringLiteral InfixExpression StringLiteral =
+property or value not valid StringLiteral InfixExpression MethodInvocation SimpleName entry
+property or value not valid StringLiteral InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName entry
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table name
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationclone
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typeother
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral property or value not valid
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral =
+table name SimpleName ClassInstanceCreation QualifiedName table operationclone
+table name SimpleName ClassInstanceCreation QualifiedName table operation exception typeother
+table name SimpleName ClassInstanceCreation InfixExpression StringLiteral property or value not valid
+table name SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table name SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get key
+table name SimpleName ClassInstanceCreation InfixExpression StringLiteral =
+table name SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table name SimpleName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get value
+table operationclone QualifiedName ClassInstanceCreation QualifiedName table operation exception typeother
+table operationclone QualifiedName ClassInstanceCreation InfixExpression StringLiteral property or value not valid
+table operationclone QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table operationclone QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get key
+table operationclone QualifiedName ClassInstanceCreation InfixExpression StringLiteral =
+table operationclone QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table operationclone QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get value
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression StringLiteral property or value not valid
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get key
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression StringLiteral =
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName entry
+table operation exception typeother QualifiedName ClassInstanceCreation InfixExpression MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+properties to set SimpleName MethodInvocation SimpleName put
+properties to set SimpleName MethodInvocation MethodInvocation SimpleName entry
+properties to set SimpleName MethodInvocation MethodInvocation SimpleName get key
+properties to set SimpleName MethodInvocation MethodInvocation SimpleName entry
+properties to set SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName options
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+clone table SimpleName SimpleType ClassInstanceCreation QualifiedName cuser
+clone table SimpleName SimpleType ClassInstanceCreation SimpleName src table id
+clone table SimpleName SimpleType ClassInstanceCreation SimpleName table name
+clone table SimpleName SimpleType ClassInstanceCreation SimpleName properties to set
+clone table SimpleName SimpleType ClassInstanceCreation SimpleName properties to exclude
+cuser QualifiedName ClassInstanceCreation SimpleName src table id
+cuser QualifiedName ClassInstanceCreation SimpleName table name
+cuser QualifiedName ClassInstanceCreation SimpleName properties to set
+cuser QualifiedName ClassInstanceCreation SimpleName properties to exclude
+src table id SimpleName ClassInstanceCreation SimpleName table name
+src table id SimpleName ClassInstanceCreation SimpleName properties to set
+src table id SimpleName ClassInstanceCreation SimpleName properties to exclude
+table name SimpleName ClassInstanceCreation SimpleName properties to set
+table name SimpleName ClassInstanceCreation SimpleName properties to exclude
+properties to set SimpleName ClassInstanceCreation SimpleName properties to exclude
+fate SimpleName MethodInvocation SimpleName seed transaction
+fate SimpleName MethodInvocation SimpleName opid
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+fate SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName src table id
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to set
+fate SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to exclude
+fate SimpleName MethodInvocation SimpleName auto cleanup
+seed transaction SimpleName MethodInvocation SimpleName opid
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+seed transaction SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName src table id
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to set
+seed transaction SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to exclude
+seed transaction SimpleName MethodInvocation SimpleName auto cleanup
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clone table
+opid SimpleName MethodInvocation ClassInstanceCreation QualifiedName cuser
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName src table id
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName table name
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to set
+opid SimpleName MethodInvocation ClassInstanceCreation SimpleName properties to exclude
+opid SimpleName MethodInvocation SimpleName auto cleanup
+clone table SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+cuser QualifiedName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+src table id SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+table name SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+properties to set SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+properties to exclude SimpleName ClassInstanceCreation MethodInvocation SimpleName auto cleanup
+arguments SimpleName MethodInvocation SimpleName get
+arguments SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to string
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName arguments
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName get
+byte buffer util SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation MethodInvocation SimpleName arguments
+to string SimpleName MethodInvocation MethodInvocation SimpleName get
+to string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arguments
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+table name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+check table id SimpleName MethodInvocation SimpleName table name
+check table id SimpleName MethodInvocation QualifiedName table operationdelete
+table name SimpleName MethodInvocation QualifiedName table operationdelete
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName check table id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+table id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName table operationdelete
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName check table id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName table operationdelete

@@ -1,0 +1,91 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName policy resource
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName policy resource
+is match any SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is match any
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer resource match helper
+debug SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer resource match helper
+opt wild card SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opt wild card
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+is wild card present SimpleName VariableDeclarationFragment PrefixExpression SimpleName opt wild card
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is wild card present
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression SimpleName opt wild card
+string SimpleName SimpleType SingleVariableDeclaration SimpleName policy value
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation SimpleName policy value
+is empty SimpleName MethodInvocation SimpleName policy value
+string utils SimpleName MethodInvocation SimpleName contains only
+string utils SimpleName MethodInvocation SimpleName policy value
+string utils SimpleName MethodInvocation SimpleName wildcard asterisk
+contains only SimpleName MethodInvocation SimpleName policy value
+contains only SimpleName MethodInvocation SimpleName wildcard asterisk
+policy value SimpleName MethodInvocation SimpleName wildcard asterisk
+is match any SimpleName Assignment BooleanLiteral true
+string utils SimpleName MethodInvocation SimpleName contains any
+string utils SimpleName MethodInvocation SimpleName policy value
+string utils SimpleName MethodInvocation SimpleName wildcards
+contains any SimpleName MethodInvocation SimpleName policy value
+contains any SimpleName MethodInvocation SimpleName wildcards
+policy value SimpleName MethodInvocation SimpleName wildcards
+is wild card present SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName string utils
+is wild card present SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName contains any
+is wild card present SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName policy value
+is wild card present SimpleName PrefixExpression InfixExpression MethodInvocation SimpleName wildcards
+is wild card present SimpleName Assignment BooleanLiteral true
+policy values SimpleName MethodInvocation SimpleName add
+policy values SimpleName MethodInvocation SimpleName policy value
+add SimpleName MethodInvocation SimpleName policy value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName policy resource
+policy value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName policy resource
+opt wild card SimpleName InfixExpression SimpleName is wild card present
+opt wild card SimpleName Assignment InfixExpression SimpleName opt wild card
+opt wild card SimpleName Assignment InfixExpression SimpleName is wild card present
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName policy resource
+is match any SimpleName Assignment BooleanLiteral false
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== simple atlas authorizer resource match helper
+debug SimpleName MethodInvocation StringLiteral <== simple atlas authorizer resource match helper
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+is debug enabled SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+is debug enabled SimpleName IfStatement Block IfStatement SimpleName is debug enabled
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName is match any
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is match any
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName is match any
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName resource match helper
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName policy resource
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block IfStatement SimpleName is debug enabled
+private Modifier MethodDeclaration Block ReturnStatement SimpleName is match any
+boolean PrimitiveType MethodDeclaration SimpleName resource match helper
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName policy resource
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is match any
+resource match helper SimpleName MethodDeclaration SingleVariableDeclaration SimpleName policy resource
+resource match helper SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+resource match helper SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+resource match helper SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+resource match helper SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+resource match helper SimpleName MethodDeclaration Block ReturnStatement SimpleName is match any
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName resource match helper
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName policy resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resource match helper
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName policy resource

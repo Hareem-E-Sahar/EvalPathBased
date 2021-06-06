@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration SimpleName get authorization failures
+public Modifier MethodDeclaration Block ReturnStatement SimpleName af
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get authorization failures
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get authorization failures
+get authorization failures SimpleName MethodDeclaration Block ReturnStatement SimpleName af
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authorization failures
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authorization failures

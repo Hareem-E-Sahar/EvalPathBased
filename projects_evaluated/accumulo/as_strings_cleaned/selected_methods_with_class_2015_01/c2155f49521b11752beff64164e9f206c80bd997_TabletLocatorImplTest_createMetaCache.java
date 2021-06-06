@@ -1,0 +1,79 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+object SimpleName SimpleType SingleVariableDeclaration SimpleName data
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+create meta cache ke SimpleName MethodInvocation SimpleName data
+mcke SimpleName VariableDeclarationFragment MethodInvocation SimpleName create meta cache ke
+mcke SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+tree map SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName tablet locator implend row comparator
+text SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName tablet locator implend row comparator
+tablet location SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName tablet locator implend row comparator
+mc SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName tablet locator implend row comparator
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet location
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+tablet location SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+mcke SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get end row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get end row
+entry SimpleName MethodInvocation SimpleName get value
+mc SimpleName MethodInvocation SimpleName put
+mc SimpleName MethodInvocation QualifiedName tablet locator implmax text
+mc SimpleName MethodInvocation MethodInvocation SimpleName entry
+mc SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation QualifiedName tablet locator implmax text
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+tablet locator implmax text QualifiedName MethodInvocation MethodInvocation SimpleName entry
+tablet locator implmax text QualifiedName MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get end row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get end row
+entry SimpleName MethodInvocation SimpleName get value
+mc SimpleName MethodInvocation SimpleName put
+mc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+mc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+mc SimpleName MethodInvocation MethodInvocation SimpleName get end row
+mc SimpleName MethodInvocation MethodInvocation SimpleName entry
+mc SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName get end row
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+get end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get end row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName mcke
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tablet location
+static Modifier MethodDeclaration SimpleName create meta cache
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration Block ReturnStatement SimpleName mc
+tree map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache
+tablet location SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName create meta cache
+create meta cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create meta cache SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+create meta cache SimpleName MethodDeclaration Block ReturnStatement SimpleName mc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName create meta cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create meta cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

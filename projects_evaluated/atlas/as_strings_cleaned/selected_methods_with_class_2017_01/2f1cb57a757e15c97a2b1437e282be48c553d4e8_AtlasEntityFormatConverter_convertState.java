@@ -1,0 +1,36 @@
+entity state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+status SimpleName VariableDeclarationFragment QualifiedName statusactive
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName statusactive
+state SimpleName MethodInvocation SimpleName equals
+state SimpleName MethodInvocation QualifiedName entity statedeleted
+equals SimpleName MethodInvocation QualifiedName entity statedeleted
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName state
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+state SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName entity statedeleted
+status SimpleName Assignment QualifiedName statusdeleted
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral setting state to {}
+log SimpleName MethodInvocation SimpleName state
+debug SimpleName MethodInvocation StringLiteral setting state to {}
+debug SimpleName MethodInvocation SimpleName state
+setting state to {} StringLiteral MethodInvocation SimpleName state
+private Modifier MethodDeclaration SimpleType QualifiedName atlas entitystatus
+private Modifier MethodDeclaration SimpleName convert state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+private Modifier MethodDeclaration Block ReturnStatement SimpleName status
+atlas entitystatus QualifiedName SimpleType MethodDeclaration SimpleName convert state
+atlas entitystatus QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName state
+convert state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity state
+convert state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+convert state SimpleName MethodDeclaration Block ReturnStatement SimpleName status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entitystatus
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas entitystatus
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

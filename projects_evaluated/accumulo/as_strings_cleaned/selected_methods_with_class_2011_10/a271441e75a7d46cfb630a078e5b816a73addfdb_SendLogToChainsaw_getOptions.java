@@ -1,0 +1,220 @@
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+option SimpleName SimpleType ClassInstanceCreation StringLiteral d
+option SimpleName SimpleType ClassInstanceCreation StringLiteral log directory
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral accumulo log directory path
+d StringLiteral ClassInstanceCreation StringLiteral log directory
+d StringLiteral ClassInstanceCreation BooleanLiteral true
+d StringLiteral ClassInstanceCreation StringLiteral accumulo log directory path
+log directory StringLiteral ClassInstanceCreation BooleanLiteral true
+log directory StringLiteral ClassInstanceCreation StringLiteral accumulo log directory path
+true BooleanLiteral ClassInstanceCreation StringLiteral accumulo log directory path
+dir option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+dir option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral d
+dir option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral log directory
+dir option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+dir option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral accumulo log directory path
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir option
+dir option SimpleName MethodInvocation SimpleName set arg name
+dir option SimpleName MethodInvocation StringLiteral dir
+set arg name SimpleName MethodInvocation StringLiteral dir
+dir option SimpleName MethodInvocation SimpleName set required
+dir option SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName dir option
+add option SimpleName MethodInvocation SimpleName dir option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral f
+option SimpleName SimpleType ClassInstanceCreation StringLiteral file filter
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral filter to apply to names of logs
+f StringLiteral ClassInstanceCreation StringLiteral file filter
+f StringLiteral ClassInstanceCreation BooleanLiteral true
+f StringLiteral ClassInstanceCreation StringLiteral filter to apply to names of logs
+file filter StringLiteral ClassInstanceCreation BooleanLiteral true
+file filter StringLiteral ClassInstanceCreation StringLiteral filter to apply to names of logs
+true BooleanLiteral ClassInstanceCreation StringLiteral filter to apply to names of logs
+file filter option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+file filter option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral f
+file filter option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral file filter
+file filter option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+file filter option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral filter to apply to names of logs
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file filter option
+file filter option SimpleName MethodInvocation SimpleName set arg name
+file filter option SimpleName MethodInvocation StringLiteral filter
+set arg name SimpleName MethodInvocation StringLiteral filter
+file filter option SimpleName MethodInvocation SimpleName set required
+file filter option SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName file filter option
+add option SimpleName MethodInvocation SimpleName file filter option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral h
+option SimpleName SimpleType ClassInstanceCreation StringLiteral host
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral host where chainsaw is running
+h StringLiteral ClassInstanceCreation StringLiteral host
+h StringLiteral ClassInstanceCreation BooleanLiteral true
+h StringLiteral ClassInstanceCreation StringLiteral host where chainsaw is running
+host StringLiteral ClassInstanceCreation BooleanLiteral true
+host StringLiteral ClassInstanceCreation StringLiteral host where chainsaw is running
+true BooleanLiteral ClassInstanceCreation StringLiteral host where chainsaw is running
+host option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+host option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral h
+host option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral host
+host option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+host option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral host where chainsaw is running
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host option
+host option SimpleName MethodInvocation SimpleName set arg name
+host option SimpleName MethodInvocation StringLiteral hostname
+set arg name SimpleName MethodInvocation StringLiteral hostname
+host option SimpleName MethodInvocation SimpleName set required
+host option SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName host option
+add option SimpleName MethodInvocation SimpleName host option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral p
+option SimpleName SimpleType ClassInstanceCreation StringLiteral port
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral port where xml socket receiver is listening
+p StringLiteral ClassInstanceCreation StringLiteral port
+p StringLiteral ClassInstanceCreation BooleanLiteral true
+p StringLiteral ClassInstanceCreation StringLiteral port where xml socket receiver is listening
+port StringLiteral ClassInstanceCreation BooleanLiteral true
+port StringLiteral ClassInstanceCreation StringLiteral port where xml socket receiver is listening
+true BooleanLiteral ClassInstanceCreation StringLiteral port where xml socket receiver is listening
+port option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+port option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral p
+port option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral port
+port option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+port option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral port where xml socket receiver is listening
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName port option
+port option SimpleName MethodInvocation SimpleName set arg name
+port option SimpleName MethodInvocation StringLiteral portnum
+set arg name SimpleName MethodInvocation StringLiteral portnum
+port option SimpleName MethodInvocation SimpleName set required
+port option SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName port option
+add option SimpleName MethodInvocation SimpleName port option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral s
+option SimpleName SimpleType ClassInstanceCreation StringLiteral start
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral start date filter yyyy m mdd h hmmss
+s StringLiteral ClassInstanceCreation StringLiteral start
+s StringLiteral ClassInstanceCreation BooleanLiteral true
+s StringLiteral ClassInstanceCreation StringLiteral start date filter yyyy m mdd h hmmss
+start StringLiteral ClassInstanceCreation BooleanLiteral true
+start StringLiteral ClassInstanceCreation StringLiteral start date filter yyyy m mdd h hmmss
+true BooleanLiteral ClassInstanceCreation StringLiteral start date filter yyyy m mdd h hmmss
+start option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+start option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral s
+start option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral start
+start option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+start option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral start date filter yyyy m mdd h hmmss
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start option
+start option SimpleName MethodInvocation SimpleName set arg name
+start option SimpleName MethodInvocation StringLiteral date
+set arg name SimpleName MethodInvocation StringLiteral date
+start option SimpleName MethodInvocation SimpleName set required
+start option SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName start option
+add option SimpleName MethodInvocation SimpleName start option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral e
+option SimpleName SimpleType ClassInstanceCreation StringLiteral end
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral end date filter yyyy m mdd h hmmss
+e StringLiteral ClassInstanceCreation StringLiteral end
+e StringLiteral ClassInstanceCreation BooleanLiteral true
+e StringLiteral ClassInstanceCreation StringLiteral end date filter yyyy m mdd h hmmss
+end StringLiteral ClassInstanceCreation BooleanLiteral true
+end StringLiteral ClassInstanceCreation StringLiteral end date filter yyyy m mdd h hmmss
+true BooleanLiteral ClassInstanceCreation StringLiteral end date filter yyyy m mdd h hmmss
+end option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+end option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral e
+end option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral end
+end option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+end option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral end date filter yyyy m mdd h hmmss
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end option
+end option SimpleName MethodInvocation SimpleName set arg name
+end option SimpleName MethodInvocation StringLiteral date
+set arg name SimpleName MethodInvocation StringLiteral date
+end option SimpleName MethodInvocation SimpleName set required
+end option SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName end option
+add option SimpleName MethodInvocation SimpleName end option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral l
+option SimpleName SimpleType ClassInstanceCreation StringLiteral level
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral filter log level
+l StringLiteral ClassInstanceCreation StringLiteral level
+l StringLiteral ClassInstanceCreation BooleanLiteral true
+l StringLiteral ClassInstanceCreation StringLiteral filter log level
+level StringLiteral ClassInstanceCreation BooleanLiteral true
+level StringLiteral ClassInstanceCreation StringLiteral filter log level
+true BooleanLiteral ClassInstanceCreation StringLiteral filter log level
+level option SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+level option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral l
+level option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral level
+level option SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+level option SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral filter log level
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName level option
+level option SimpleName MethodInvocation SimpleName set arg name
+level option SimpleName MethodInvocation StringLiteral level
+set arg name SimpleName MethodInvocation StringLiteral level
+level option SimpleName MethodInvocation SimpleName set required
+level option SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName level option
+add option SimpleName MethodInvocation SimpleName level option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral m
+option SimpleName SimpleType ClassInstanceCreation StringLiteral message filter
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral regex filter for log messages
+m StringLiteral ClassInstanceCreation StringLiteral message filter
+m StringLiteral ClassInstanceCreation BooleanLiteral true
+m StringLiteral ClassInstanceCreation StringLiteral regex filter for log messages
+message filter StringLiteral ClassInstanceCreation BooleanLiteral true
+message filter StringLiteral ClassInstanceCreation StringLiteral regex filter for log messages
+true BooleanLiteral ClassInstanceCreation StringLiteral regex filter for log messages
+msg filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName option
+msg filter SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral m
+msg filter SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral message filter
+msg filter SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral true
+msg filter SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral regex filter for log messages
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg filter
+msg filter SimpleName MethodInvocation SimpleName set arg name
+msg filter SimpleName MethodInvocation StringLiteral regex
+set arg name SimpleName MethodInvocation StringLiteral regex
+msg filter SimpleName MethodInvocation SimpleName set required
+msg filter SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName msg filter
+add option SimpleName MethodInvocation SimpleName msg filter
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName options
+private Modifier MethodDeclaration SimpleName get options
+private Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+static Modifier MethodDeclaration SimpleType SimpleName options
+static Modifier MethodDeclaration SimpleName get options
+static Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

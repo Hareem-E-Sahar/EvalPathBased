@@ -1,0 +1,121 @@
+long PrimitiveType SingleVariableDeclaration SimpleName t
+long PrimitiveType SingleVariableDeclaration SimpleName t
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+. NumberLiteral InfixExpression InfixExpression SimpleName t
+improvement SimpleName VariableDeclarationFragment InfixExpression InfixExpression NumberLiteral .
+improvement SimpleName VariableDeclarationFragment InfixExpression SimpleName t
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName improvement
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName t
+improvement SimpleName InfixExpression NumberLiteral .
+improvement SimpleName InfixExpression NumberLiteral empty
+queries had less than % improvement old StringLiteral InfixExpression SimpleName t
+queries had less than % improvement old StringLiteral InfixExpression StringLiteral new
+queries had less than % improvement old StringLiteral InfixExpression SimpleName t
+queries had less than % improvement old StringLiteral InfixExpression StringLiteral improvement
+queries had less than % improvement old StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName improvement
+queries had less than % improvement old StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+t SimpleName InfixExpression StringLiteral new
+t SimpleName InfixExpression SimpleName t
+t SimpleName InfixExpression StringLiteral improvement
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName improvement
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+t SimpleName InfixExpression StringLiteral %)
+new StringLiteral InfixExpression SimpleName t
+new StringLiteral InfixExpression StringLiteral improvement
+new StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName improvement
+new StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+new StringLiteral InfixExpression StringLiteral %)
+t SimpleName InfixExpression StringLiteral improvement
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName improvement
+t SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+t SimpleName InfixExpression StringLiteral %)
+improvement StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName improvement
+improvement StringLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+improvement StringLiteral InfixExpression StringLiteral %)
+improvement SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral %)
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression StringLiteral %)
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral queries had less than % improvement old
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName t
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral new
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName t
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral improvement
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral %)
+improvement SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral improvement %. f d vs d
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName improvement
+string SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName t
+string SimpleName MethodInvocation SimpleName t
+format SimpleName MethodInvocation StringLiteral improvement %. f d vs d
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName improvement
+format SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation SimpleName t
+format SimpleName MethodInvocation SimpleName t
+improvement %. f d vs d StringLiteral MethodInvocation ParenthesizedExpression InfixExpression SimpleName improvement
+improvement %. f d vs d StringLiteral MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+improvement %. f d vs d StringLiteral MethodInvocation SimpleName t
+improvement %. f d vs d StringLiteral MethodInvocation SimpleName t
+improvement SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName t
+empty NumberLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName t
+improvement SimpleName InfixExpression ParenthesizedExpression MethodInvocation SimpleName t
+empty NumberLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName t
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral improvement %. f d vs d
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+log SimpleName MethodInvocation MethodInvocation SimpleName t
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral improvement %. f d vs d
+info SimpleName MethodInvocation MethodInvocation SimpleName t
+info SimpleName MethodInvocation MethodInvocation SimpleName t
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName time check
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName time check
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+time check SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+time check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+time check SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+time check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+time check SimpleName MethodDeclaration SimpleType SimpleName exception
+time check SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+t SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+t SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName time check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName time check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

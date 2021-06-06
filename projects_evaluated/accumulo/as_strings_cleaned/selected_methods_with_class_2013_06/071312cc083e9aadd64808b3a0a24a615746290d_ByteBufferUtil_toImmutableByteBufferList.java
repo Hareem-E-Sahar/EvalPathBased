@@ -1,0 +1,46 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+collection SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName bytes list
+byte PrimitiveType ArrayType ParameterizedType SingleVariableDeclaration SimpleName bytes list
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName bytes
+wrap SimpleName MethodInvocation SimpleName bytes
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+result SimpleName MethodInvocation MethodInvocation SimpleName wrap
+result SimpleName MethodInvocation MethodInvocation SimpleName bytes
+add SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+add SimpleName MethodInvocation MethodInvocation SimpleName wrap
+add SimpleName MethodInvocation MethodInvocation SimpleName bytes
+byte PrimitiveType ArrayType SingleVariableDeclaration EnhancedForStatement SimpleName bytes list
+bytes SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName bytes list
+collections SimpleName MethodInvocation SimpleName unmodifiable list
+collections SimpleName MethodInvocation SimpleName result
+unmodifiable list SimpleName MethodInvocation SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SimpleName to immutable byte buffer list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes list
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName bytes list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName byte buffer
+static Modifier MethodDeclaration SimpleName to immutable byte buffer list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes list
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName bytes list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to immutable byte buffer list
+byte buffer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName to immutable byte buffer list
+to immutable byte buffer list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bytes list
+to immutable byte buffer list SimpleName MethodDeclaration Block EnhancedForStatement SimpleName bytes list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName to immutable byte buffer list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to immutable byte buffer list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes list

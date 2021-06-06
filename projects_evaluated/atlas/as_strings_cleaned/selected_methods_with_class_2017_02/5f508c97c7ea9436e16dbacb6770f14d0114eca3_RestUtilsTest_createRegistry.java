@@ -1,0 +1,41 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity def
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to convert
+atlas entity def SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to convert
+reg SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas type registry
+atlas type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reg
+reg SimpleName MethodInvocation SimpleName lock type registry for update
+tmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName reg
+tmp SimpleName VariableDeclarationFragment MethodInvocation SimpleName lock type registry for update
+atlas transient type registry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+tmp SimpleName MethodInvocation SimpleName add types
+tmp SimpleName MethodInvocation SimpleName to convert
+add types SimpleName MethodInvocation SimpleName to convert
+reg SimpleName MethodInvocation SimpleName release type registry for update
+reg SimpleName MethodInvocation SimpleName tmp
+reg SimpleName MethodInvocation BooleanLiteral true
+release type registry for update SimpleName MethodInvocation SimpleName tmp
+release type registry for update SimpleName MethodInvocation BooleanLiteral true
+tmp SimpleName MethodInvocation BooleanLiteral true
+private Modifier MethodDeclaration SimpleType SimpleName atlas type registry
+private Modifier MethodDeclaration SimpleName create registry
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to convert
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName reg
+atlas type registry SimpleName SimpleType MethodDeclaration SimpleName create registry
+atlas type registry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to convert
+atlas type registry SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+create registry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to convert
+create registry SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+create registry SimpleName MethodDeclaration Block ReturnStatement SimpleName reg
+to convert SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleName create registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to convert
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to convert
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

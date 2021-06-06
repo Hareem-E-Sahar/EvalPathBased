@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation SimpleName scanner
+from string SimpleName MethodInvocation SimpleName scanner
+uuid SimpleName Assignment MethodInvocation SimpleName uuid
+uuid SimpleName Assignment MethodInvocation SimpleName from string
+uuid SimpleName Assignment MethodInvocation SimpleName scanner
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+unknown scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+unknown scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+scanner cache SimpleName MethodInvocation SimpleName as map
+scanner cache SimpleName MethodInvocation MethodInvocation SimpleName remove
+as map SimpleName MethodInvocation MethodInvocation SimpleName remove
+scanner cache SimpleName MethodInvocation MethodInvocation SimpleName uuid
+as map SimpleName MethodInvocation MethodInvocation SimpleName uuid
+remove SimpleName MethodInvocation SimpleName uuid
+unknown scanner SimpleName SimpleType ClassInstanceCreation StringLiteral scanner never existed or no longer exists
+unknown scanner SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName to string
+t exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+t exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close scanner
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName scanner
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName unknown scanner
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close scanner
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier MethodDeclaration SimpleType SimpleName unknown scanner
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName close scanner
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleType SimpleName unknown scanner
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+close scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+close scanner SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+close scanner SimpleName MethodDeclaration SimpleType SimpleName unknown scanner
+close scanner SimpleName MethodDeclaration SimpleType SimpleName t exception
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unknown scanner
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+unknown scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close scanner
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unknown scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close scanner
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unknown scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,41 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+entity type SimpleName MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entity type
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName id
+entity type SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+get type name SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+unresolved id references SimpleName FieldAccess MethodInvocation SimpleName add
+unresolved id references SimpleName FieldAccess MethodInvocation ClassInstanceCreation SimpleName id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName entity type
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add un resolved id reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName add un resolved id reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+add un resolved id reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+add un resolved id reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+add un resolved id reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add un resolved id reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add un resolved id reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add un resolved id reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

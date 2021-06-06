@@ -1,0 +1,17 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+types def SimpleName SimpleType MethodDeclaration SimpleName restore type
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+restore type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+restore type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+restore type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName restore type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restore type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

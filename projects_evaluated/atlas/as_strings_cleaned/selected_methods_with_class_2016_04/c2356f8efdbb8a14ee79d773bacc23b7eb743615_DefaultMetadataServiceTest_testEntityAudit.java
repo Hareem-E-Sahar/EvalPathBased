@@ -1,0 +1,93 @@
+entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName create db entity
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+create instance SimpleName MethodInvocation SimpleName entity
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+assert audit events SimpleName MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity create
+id SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity create
+struct SimpleName SimpleType ClassInstanceCreation QualifiedName test utilspii
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct
+tag SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName test utilspii
+struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation SimpleName tag
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName tag
+to json SimpleName MethodInvocation BooleanLiteral true
+tag SimpleName MethodInvocation BooleanLiteral true
+metadata service SimpleName MethodInvocation SimpleName add trait
+metadata service SimpleName MethodInvocation SimpleName id
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName instance serialization
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName to json
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName tag
+metadata service SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+add trait SimpleName MethodInvocation SimpleName id
+add trait SimpleName MethodInvocation MethodInvocation SimpleName instance serialization
+add trait SimpleName MethodInvocation MethodInvocation SimpleName to json
+add trait SimpleName MethodInvocation MethodInvocation SimpleName tag
+add trait SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+id SimpleName MethodInvocation MethodInvocation SimpleName instance serialization
+id SimpleName MethodInvocation MethodInvocation SimpleName to json
+id SimpleName MethodInvocation MethodInvocation SimpleName tag
+id SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+assert audit events SimpleName MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag add
+id SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag add
+metadata service SimpleName MethodInvocation SimpleName delete trait
+metadata service SimpleName MethodInvocation SimpleName id
+metadata service SimpleName MethodInvocation QualifiedName test utilspii
+delete trait SimpleName MethodInvocation SimpleName id
+delete trait SimpleName MethodInvocation QualifiedName test utilspii
+id SimpleName MethodInvocation QualifiedName test utilspii
+assert audit events SimpleName MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag delete
+id SimpleName MethodInvocation QualifiedName entity audit evententity audit actiontag delete
+metadata service SimpleName MethodInvocation SimpleName update entity attribute by guid
+metadata service SimpleName MethodInvocation SimpleName id
+metadata service SimpleName MethodInvocation StringLiteral description
+metadata service SimpleName MethodInvocation StringLiteral new description
+update entity attribute by guid SimpleName MethodInvocation SimpleName id
+update entity attribute by guid SimpleName MethodInvocation StringLiteral description
+update entity attribute by guid SimpleName MethodInvocation StringLiteral new description
+id SimpleName MethodInvocation StringLiteral description
+id SimpleName MethodInvocation StringLiteral new description
+description StringLiteral MethodInvocation StringLiteral new description
+assert audit events SimpleName MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity update
+id SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity update
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName id
+as list SimpleName MethodInvocation SimpleName id
+metadata service SimpleName MethodInvocation SimpleName delete entities
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName as list
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName id
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation SimpleName id
+assert audit events SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity delete
+id SimpleName MethodInvocation QualifiedName entity audit evententity audit actionentity delete
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test entity audit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test entity audit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test entity audit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test entity audit SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test entity audit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test entity audit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

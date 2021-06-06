@@ -1,0 +1,49 @@
+zookeeper properties SimpleName MethodInvocation SimpleName has acl
+when SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+when SimpleName MethodInvocation MethodInvocation SimpleName has acl
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+has acl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has acl SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+then return SimpleName MethodInvocation BooleanLiteral false
+zookeeper properties SimpleName MethodInvocation SimpleName has auth
+when SimpleName MethodInvocation MethodInvocation SimpleName zookeeper properties
+when SimpleName MethodInvocation MethodInvocation SimpleName has auth
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+has auth SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+zookeeper properties SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has auth SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+then return SimpleName MethodInvocation BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName initialize curator framework
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize curator framework
+void PrimitiveType MethodDeclaration SimpleName initialize curator framework
+curator factory SimpleName SimpleType ClassInstanceCreation SimpleName configuration
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+configuration SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName initialize curator framework
+curator factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName curator factory
+curator factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName configuration
+curator factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curator factory
+verify zero interactions SimpleName MethodInvocation SimpleName builder
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName should not add any secure parameters
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName should not add any secure parameters
+void PrimitiveType MethodDeclaration SimpleName should not add any secure parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should not add any secure parameters
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should not add any secure parameters

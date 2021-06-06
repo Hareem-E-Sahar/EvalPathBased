@@ -1,0 +1,50 @@
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output buffer
+data output buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+expected SimpleName MethodInvocation SimpleName write
+expected SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data input buffer
+data input buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+buffer SimpleName MethodInvocation SimpleName get data
+buffer SimpleName MethodInvocation SimpleName get length
+input SimpleName MethodInvocation SimpleName reset
+input SimpleName MethodInvocation MethodInvocation SimpleName buffer
+input SimpleName MethodInvocation MethodInvocation SimpleName get data
+input SimpleName MethodInvocation MethodInvocation SimpleName buffer
+input SimpleName MethodInvocation MethodInvocation SimpleName get length
+reset SimpleName MethodInvocation MethodInvocation SimpleName buffer
+reset SimpleName MethodInvocation MethodInvocation SimpleName get data
+reset SimpleName MethodInvocation MethodInvocation SimpleName buffer
+reset SimpleName MethodInvocation MethodInvocation SimpleName get length
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+actual SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual
+actual SimpleName MethodInvocation SimpleName read fields
+actual SimpleName MethodInvocation SimpleName input
+read fields SimpleName MethodInvocation SimpleName input
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName writable out with nulls
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName writable out with nulls
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName writable out with nulls
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+writable out with nulls SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName writable out with nulls
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName writable out with nulls
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

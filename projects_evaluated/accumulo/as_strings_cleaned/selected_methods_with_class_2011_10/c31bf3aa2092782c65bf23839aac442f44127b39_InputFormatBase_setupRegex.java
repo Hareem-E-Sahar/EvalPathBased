@@ -1,0 +1,98 @@
+task attempt context SimpleName SimpleType SingleVariableDeclaration SimpleName attempt
+scanner SimpleName SimpleType SingleVariableDeclaration SimpleName scanner
+get regex SimpleName MethodInvocation SimpleName attempt
+get regex SimpleName MethodInvocation QualifiedName regex typerow
+attempt SimpleName MethodInvocation QualifiedName regex typerow
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName get regex
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName attempt
+check and enable regex SimpleName MethodInvocation MethodInvocation QualifiedName regex typerow
+check and enable regex SimpleName MethodInvocation SimpleName scanner
+check and enable regex SimpleName MethodInvocation StringLiteral set row regex
+get regex SimpleName MethodInvocation MethodInvocation SimpleName scanner
+attempt SimpleName MethodInvocation MethodInvocation SimpleName scanner
+regex typerow QualifiedName MethodInvocation MethodInvocation SimpleName scanner
+get regex SimpleName MethodInvocation MethodInvocation StringLiteral set row regex
+attempt SimpleName MethodInvocation MethodInvocation StringLiteral set row regex
+regex typerow QualifiedName MethodInvocation MethodInvocation StringLiteral set row regex
+scanner SimpleName MethodInvocation StringLiteral set row regex
+get regex SimpleName MethodInvocation SimpleName attempt
+get regex SimpleName MethodInvocation QualifiedName regex typecolumn family
+attempt SimpleName MethodInvocation QualifiedName regex typecolumn family
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName get regex
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName attempt
+check and enable regex SimpleName MethodInvocation MethodInvocation QualifiedName regex typecolumn family
+check and enable regex SimpleName MethodInvocation SimpleName scanner
+check and enable regex SimpleName MethodInvocation StringLiteral set column family regex
+get regex SimpleName MethodInvocation MethodInvocation SimpleName scanner
+attempt SimpleName MethodInvocation MethodInvocation SimpleName scanner
+regex typecolumn family QualifiedName MethodInvocation MethodInvocation SimpleName scanner
+get regex SimpleName MethodInvocation MethodInvocation StringLiteral set column family regex
+attempt SimpleName MethodInvocation MethodInvocation StringLiteral set column family regex
+regex typecolumn family QualifiedName MethodInvocation MethodInvocation StringLiteral set column family regex
+scanner SimpleName MethodInvocation StringLiteral set column family regex
+get regex SimpleName MethodInvocation SimpleName attempt
+get regex SimpleName MethodInvocation QualifiedName regex typecolumn qualifier
+attempt SimpleName MethodInvocation QualifiedName regex typecolumn qualifier
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName get regex
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName attempt
+check and enable regex SimpleName MethodInvocation MethodInvocation QualifiedName regex typecolumn qualifier
+check and enable regex SimpleName MethodInvocation SimpleName scanner
+check and enable regex SimpleName MethodInvocation StringLiteral set column qualifier regex
+get regex SimpleName MethodInvocation MethodInvocation SimpleName scanner
+attempt SimpleName MethodInvocation MethodInvocation SimpleName scanner
+regex typecolumn qualifier QualifiedName MethodInvocation MethodInvocation SimpleName scanner
+get regex SimpleName MethodInvocation MethodInvocation StringLiteral set column qualifier regex
+attempt SimpleName MethodInvocation MethodInvocation StringLiteral set column qualifier regex
+regex typecolumn qualifier QualifiedName MethodInvocation MethodInvocation StringLiteral set column qualifier regex
+scanner SimpleName MethodInvocation StringLiteral set column qualifier regex
+get regex SimpleName MethodInvocation SimpleName attempt
+get regex SimpleName MethodInvocation QualifiedName regex typevalue
+attempt SimpleName MethodInvocation QualifiedName regex typevalue
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName get regex
+check and enable regex SimpleName MethodInvocation MethodInvocation SimpleName attempt
+check and enable regex SimpleName MethodInvocation MethodInvocation QualifiedName regex typevalue
+check and enable regex SimpleName MethodInvocation SimpleName scanner
+check and enable regex SimpleName MethodInvocation StringLiteral set value regex
+get regex SimpleName MethodInvocation MethodInvocation SimpleName scanner
+attempt SimpleName MethodInvocation MethodInvocation SimpleName scanner
+regex typevalue QualifiedName MethodInvocation MethodInvocation SimpleName scanner
+get regex SimpleName MethodInvocation MethodInvocation StringLiteral set value regex
+attempt SimpleName MethodInvocation MethodInvocation StringLiteral set value regex
+regex typevalue QualifiedName MethodInvocation MethodInvocation StringLiteral set value regex
+scanner SimpleName MethodInvocation StringLiteral set value regex
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+accumulo exception SimpleName SimpleType ClassInstanceCreation StringLiteral cant set up regex for scanner
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName setup regex
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attempt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName scanner
+protected Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType MethodDeclaration SimpleName setup regex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attempt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scanner
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+setup regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task attempt context
+setup regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attempt
+setup regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scanner
+setup regex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scanner
+setup regex SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+attempt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+scanner SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup regex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup regex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attempt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception

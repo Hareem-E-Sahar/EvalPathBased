@@ -1,0 +1,29 @@
+attribute type def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type def
+attribute type def SimpleName MethodInvocation SimpleName get guid
+attribute type def store SimpleName MethodInvocation SimpleName put
+attribute type def store SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+attribute type def store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+attribute type def store SimpleName MethodInvocation SimpleName attribute type def
+put SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName attribute type def
+attribute type def SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+get guid SimpleName MethodInvocation MethodInvocation SimpleName attribute type def
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName put attribute type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+void PrimitiveType MethodDeclaration SimpleName put attribute type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+put attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+put attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def

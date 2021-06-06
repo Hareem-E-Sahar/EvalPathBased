@@ -1,0 +1,39 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type permission
+string SimpleName SimpleType SingleVariableDeclaration SimpleName role name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas type permission
+authz policy SimpleName InfixExpression InfixExpression InfixExpression SimpleName role name
+authz policy SimpleName MethodInvocation SimpleName get roles
+authz policy SimpleName MethodInvocation MethodInvocation SimpleName get
+get roles SimpleName MethodInvocation MethodInvocation SimpleName get
+authz policy SimpleName MethodInvocation MethodInvocation SimpleName role name
+get roles SimpleName MethodInvocation MethodInvocation SimpleName role name
+get SimpleName MethodInvocation SimpleName role name
+role SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName authz policy
+role SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get roles
+role SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+role SimpleName VariableDeclarationFragment MethodInvocation SimpleName role name
+atlas authz role SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName role
+role SimpleName MethodInvocation SimpleName get type permissions
+role SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName role
+role SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get type permissions
+ret SimpleName Assignment ConditionalExpression InfixExpression SimpleName role
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName role
+ret SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get type permissions
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas type permission
+private Modifier MethodDeclaration SimpleName get type permissions for role
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName role name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type permissions for role
+atlas type permission SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get type permissions for role
+get type permissions for role SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type permissions for role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName role name
+get type permissions for role SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type permissions for role
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type permissions for role
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role name

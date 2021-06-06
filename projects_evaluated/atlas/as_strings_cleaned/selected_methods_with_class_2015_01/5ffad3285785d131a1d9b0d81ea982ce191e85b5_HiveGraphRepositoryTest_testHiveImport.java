@@ -1,0 +1,173 @@
+hive importer SimpleName SimpleType ClassInstanceCreation SimpleName repository
+hive importer SimpleName SimpleType ClassInstanceCreation SimpleName hts
+repository SimpleName ClassInstanceCreation SimpleName hts
+repository SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName hive meta store client
+hts SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName hive meta store client
+h importer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hive importer
+h importer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName repository
+h importer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hts
+hive importer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h importer
+h importer SimpleName MethodInvocation SimpleName import hive metadata
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral defined db instances
+info SimpleName MethodInvocation StringLiteral defined db instances
+file writer SimpleName SimpleType ClassInstanceCreation StringLiteral hiveobjstxt
+fw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file writer
+fw SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hiveobjstxt
+file writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+buffered writer SimpleName SimpleType ClassInstanceCreation SimpleName fw
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered writer
+bw SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fw
+buffered writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hive type systemdefined typeshive db QualifiedName MethodInvocation SimpleName name
+repository SimpleName MethodInvocation SimpleName get entity list
+repository SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive db
+repository SimpleName MethodInvocation MethodInvocation SimpleName name
+get entity list SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive db
+get entity list SimpleName MethodInvocation MethodInvocation SimpleName name
+id list SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+id list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity list
+id list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive db
+id list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName id
+get entity definition SimpleName MethodInvocation SimpleName id
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName write
+bw SimpleName MethodInvocation MethodInvocation SimpleName instance
+bw SimpleName MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName instance
+write SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName id list
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName id list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral defined table instances
+info SimpleName MethodInvocation StringLiteral defined table instances
+hive type systemdefined typeshive table QualifiedName MethodInvocation SimpleName name
+repository SimpleName MethodInvocation SimpleName get entity list
+repository SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive table
+repository SimpleName MethodInvocation MethodInvocation SimpleName name
+get entity list SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive table
+get entity list SimpleName MethodInvocation MethodInvocation SimpleName name
+id list SimpleName Assignment MethodInvocation SimpleName repository
+id list SimpleName Assignment MethodInvocation SimpleName get entity list
+id list SimpleName Assignment MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive table
+id list SimpleName Assignment MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName id
+get entity definition SimpleName MethodInvocation SimpleName id
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName write
+bw SimpleName MethodInvocation MethodInvocation SimpleName instance
+bw SimpleName MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName instance
+write SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName id list
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName id list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral defined partition instances
+info SimpleName MethodInvocation StringLiteral defined partition instances
+hive type systemdefined typeshive partition QualifiedName MethodInvocation SimpleName name
+repository SimpleName MethodInvocation SimpleName get entity list
+repository SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive partition
+repository SimpleName MethodInvocation MethodInvocation SimpleName name
+get entity list SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive partition
+get entity list SimpleName MethodInvocation MethodInvocation SimpleName name
+id list SimpleName Assignment MethodInvocation SimpleName repository
+id list SimpleName Assignment MethodInvocation SimpleName get entity list
+id list SimpleName Assignment MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive partition
+id list SimpleName Assignment MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName id
+get entity definition SimpleName MethodInvocation SimpleName id
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName write
+bw SimpleName MethodInvocation MethodInvocation SimpleName instance
+bw SimpleName MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName instance
+write SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName id list
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName id list
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral defined column instances
+info SimpleName MethodInvocation StringLiteral defined column instances
+hive type systemdefined typeshive column QualifiedName MethodInvocation SimpleName name
+repository SimpleName MethodInvocation SimpleName get entity list
+repository SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive column
+repository SimpleName MethodInvocation MethodInvocation SimpleName name
+get entity list SimpleName MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive column
+get entity list SimpleName MethodInvocation MethodInvocation SimpleName name
+id list SimpleName Assignment MethodInvocation SimpleName repository
+id list SimpleName Assignment MethodInvocation SimpleName get entity list
+id list SimpleName Assignment MethodInvocation MethodInvocation QualifiedName hive type systemdefined typeshive column
+id list SimpleName Assignment MethodInvocation MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+repository SimpleName MethodInvocation SimpleName get entity definition
+repository SimpleName MethodInvocation SimpleName id
+get entity definition SimpleName MethodInvocation SimpleName id
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+instance SimpleName MethodInvocation SimpleName to string
+bw SimpleName MethodInvocation SimpleName write
+bw SimpleName MethodInvocation MethodInvocation SimpleName instance
+bw SimpleName MethodInvocation MethodInvocation SimpleName to string
+write SimpleName MethodInvocation MethodInvocation SimpleName instance
+write SimpleName MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName id list
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName id list
+bw SimpleName MethodInvocation SimpleName flush
+bw SimpleName MethodInvocation SimpleName close
+id list SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName id list
+id list SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName id list
+id list SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName id list
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test hive import
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test hive import
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName id list
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName id list
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName id list
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName id list
+void PrimitiveType MethodDeclaration SimpleName test hive import
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName id list
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName id list
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName id list
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName id list
+test hive import SimpleName MethodDeclaration SimpleType SimpleName exception
+test hive import SimpleName MethodDeclaration Block EnhancedForStatement SimpleName id list
+test hive import SimpleName MethodDeclaration Block EnhancedForStatement SimpleName id list
+test hive import SimpleName MethodDeclaration Block EnhancedForStatement SimpleName id list
+test hive import SimpleName MethodDeclaration Block EnhancedForStatement SimpleName id list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test hive import
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test hive import
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

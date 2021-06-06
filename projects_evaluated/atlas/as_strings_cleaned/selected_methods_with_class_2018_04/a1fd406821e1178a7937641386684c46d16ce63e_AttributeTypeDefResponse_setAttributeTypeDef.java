@@ -1,0 +1,20 @@
+attribute type def SimpleName SimpleType SingleVariableDeclaration SimpleName attribute type def
+attribute type def SimpleName FieldAccess Assignment SimpleName attribute type def
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+void PrimitiveType MethodDeclaration SimpleName set attribute type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+set attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute type def
+set attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute type def

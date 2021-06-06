@@ -1,0 +1,144 @@
+data input SimpleName SimpleType SingleVariableDeclaration SimpleName in
+in SimpleName MethodInvocation SimpleName read byte
+fields same SimpleName Assignment MethodInvocation SimpleName in
+fields same SimpleName Assignment MethodInvocation SimpleName read byte
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+row SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cf
+row SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+row SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cf SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cq
+cf SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cq SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+fields same SimpleName InfixExpression SimpleName row same
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+row same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+read SimpleName MethodInvocation SimpleName in
+row SimpleName Assignment MethodInvocation SimpleName read
+row SimpleName Assignment MethodInvocation SimpleName in
+prev key SimpleName MethodInvocation SimpleName get row data
+prev key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get row data SimpleName MethodInvocation MethodInvocation SimpleName to array
+row SimpleName Assignment MethodInvocation MethodInvocation SimpleName prev key
+row SimpleName Assignment MethodInvocation MethodInvocation SimpleName get row data
+row SimpleName Assignment MethodInvocation SimpleName to array
+fields same SimpleName InfixExpression SimpleName cf same
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cf same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+read SimpleName MethodInvocation SimpleName in
+cf SimpleName Assignment MethodInvocation SimpleName read
+cf SimpleName Assignment MethodInvocation SimpleName in
+prev key SimpleName MethodInvocation SimpleName get column family data
+prev key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column family data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cf SimpleName Assignment MethodInvocation MethodInvocation SimpleName prev key
+cf SimpleName Assignment MethodInvocation MethodInvocation SimpleName get column family data
+cf SimpleName Assignment MethodInvocation SimpleName to array
+fields same SimpleName InfixExpression SimpleName cq same
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cq same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+read SimpleName MethodInvocation SimpleName in
+cq SimpleName Assignment MethodInvocation SimpleName read
+cq SimpleName Assignment MethodInvocation SimpleName in
+prev key SimpleName MethodInvocation SimpleName get column qualifier data
+prev key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column qualifier data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cq SimpleName Assignment MethodInvocation MethodInvocation SimpleName prev key
+cq SimpleName Assignment MethodInvocation MethodInvocation SimpleName get column qualifier data
+cq SimpleName Assignment MethodInvocation SimpleName to array
+fields same SimpleName InfixExpression SimpleName cv same
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cv same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+read SimpleName MethodInvocation SimpleName in
+cv SimpleName Assignment MethodInvocation SimpleName read
+cv SimpleName Assignment MethodInvocation SimpleName in
+prev key SimpleName MethodInvocation SimpleName get column visibility data
+prev key SimpleName MethodInvocation MethodInvocation SimpleName to array
+get column visibility data SimpleName MethodInvocation MethodInvocation SimpleName to array
+cv SimpleName Assignment MethodInvocation MethodInvocation SimpleName prev key
+cv SimpleName Assignment MethodInvocation MethodInvocation SimpleName get column visibility data
+cv SimpleName Assignment MethodInvocation SimpleName to array
+fields same SimpleName InfixExpression SimpleName ts same
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ts same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+writable utils SimpleName MethodInvocation SimpleName read v long
+writable utils SimpleName MethodInvocation SimpleName in
+read v long SimpleName MethodInvocation SimpleName in
+ts SimpleName Assignment MethodInvocation SimpleName writable utils
+ts SimpleName Assignment MethodInvocation SimpleName read v long
+ts SimpleName Assignment MethodInvocation SimpleName in
+prev key SimpleName MethodInvocation SimpleName get timestamp
+ts SimpleName Assignment MethodInvocation SimpleName prev key
+ts SimpleName Assignment MethodInvocation SimpleName get timestamp
+fields same SimpleName InfixExpression SimpleName deleted
+fields same SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+deleted SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation SimpleName cf
+key SimpleName SimpleType ClassInstanceCreation SimpleName cq
+key SimpleName SimpleType ClassInstanceCreation SimpleName cv
+key SimpleName SimpleType ClassInstanceCreation SimpleName ts
+row SimpleName ClassInstanceCreation SimpleName cf
+row SimpleName ClassInstanceCreation SimpleName cq
+row SimpleName ClassInstanceCreation SimpleName cv
+row SimpleName ClassInstanceCreation SimpleName ts
+row SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+cf SimpleName ClassInstanceCreation SimpleName cq
+cf SimpleName ClassInstanceCreation SimpleName cv
+cf SimpleName ClassInstanceCreation SimpleName ts
+cf SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+cf SimpleName ClassInstanceCreation BooleanLiteral false
+cq SimpleName ClassInstanceCreation SimpleName cv
+cq SimpleName ClassInstanceCreation SimpleName ts
+cq SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+cq SimpleName ClassInstanceCreation BooleanLiteral false
+cv SimpleName ClassInstanceCreation SimpleName ts
+cv SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+cv SimpleName ClassInstanceCreation BooleanLiteral false
+ts SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+ts SimpleName ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral InfixExpression ClassInstanceCreation BooleanLiteral false
+key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName row
+key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName cf
+key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName cq
+key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName cv
+key SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName ts
+key SimpleName FieldAccess Assignment ClassInstanceCreation BooleanLiteral false
+prev key SimpleName FieldAccess Assignment FieldAccess SimpleName key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read fields
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName in
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read fields
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName read fields
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input
+read fields SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+read fields SimpleName MethodDeclaration SimpleType SimpleName io exception
+read fields SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read fields
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read fields
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

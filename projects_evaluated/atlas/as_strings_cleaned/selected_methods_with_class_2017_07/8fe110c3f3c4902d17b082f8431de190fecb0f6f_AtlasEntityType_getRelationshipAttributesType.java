@@ -1,0 +1,14 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas relationship type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get relationship attributes type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName relationship attributes type
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attributes type
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attributes type
+get relationship attributes type SimpleName MethodDeclaration Block ReturnStatement SimpleName relationship attributes type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship attributes type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship attributes type

@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName error dir
+error dir SimpleName FieldAccess Assignment SimpleName error dir
+public Modifier MethodDeclaration SimpleType SimpleName bulk import files args
+public Modifier MethodDeclaration SimpleName set error dir
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName error dir
+bulk import files args SimpleName SimpleType MethodDeclaration SimpleName set error dir
+bulk import files args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName error dir
+set error dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set error dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName error dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bulk import files args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set error dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bulk import files args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set error dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error dir

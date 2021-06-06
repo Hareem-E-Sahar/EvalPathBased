@@ -1,0 +1,84 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data type
+collections SimpleName MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+collections SimpleName MethodInvocation SimpleName empty list
+atlas struct defatlas constraint def QualifiedName SimpleType MethodInvocation SimpleName empty list
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName name
+atlas attribute def SimpleName SimpleType ClassInstanceCreation SimpleName data type
+atlas attribute def SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+atlas attribute def SimpleName SimpleType ClassInstanceCreation QualifiedName cardinalitylist
+atlas attribute def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+name SimpleName ClassInstanceCreation SimpleName data type
+name SimpleName ClassInstanceCreation BooleanLiteral false
+name SimpleName ClassInstanceCreation QualifiedName cardinalitylist
+name SimpleName ClassInstanceCreation NumberLiteral empty
+name SimpleName ClassInstanceCreation QualifiedName integermax value
+data type SimpleName ClassInstanceCreation BooleanLiteral false
+data type SimpleName ClassInstanceCreation QualifiedName cardinalitylist
+data type SimpleName ClassInstanceCreation NumberLiteral empty
+data type SimpleName ClassInstanceCreation QualifiedName integermax value
+data type SimpleName ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation QualifiedName cardinalitylist
+false BooleanLiteral ClassInstanceCreation NumberLiteral empty
+false BooleanLiteral ClassInstanceCreation QualifiedName integermax value
+false BooleanLiteral ClassInstanceCreation BooleanLiteral false
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+cardinalitylist QualifiedName ClassInstanceCreation NumberLiteral empty
+cardinalitylist QualifiedName ClassInstanceCreation QualifiedName integermax value
+cardinalitylist QualifiedName ClassInstanceCreation BooleanLiteral false
+cardinalitylist QualifiedName ClassInstanceCreation BooleanLiteral true
+cardinalitylist QualifiedName ClassInstanceCreation MethodInvocation SimpleName collections
+cardinalitylist QualifiedName ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+cardinalitylist QualifiedName ClassInstanceCreation MethodInvocation SimpleName empty list
+empty NumberLiteral ClassInstanceCreation QualifiedName integermax value
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+integermax value QualifiedName ClassInstanceCreation BooleanLiteral false
+integermax value QualifiedName ClassInstanceCreation BooleanLiteral true
+integermax value QualifiedName ClassInstanceCreation MethodInvocation SimpleName collections
+integermax value QualifiedName ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+integermax value QualifiedName ClassInstanceCreation MethodInvocation SimpleName empty list
+false BooleanLiteral ClassInstanceCreation BooleanLiteral true
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName collections
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleType QualifiedName atlas struct defatlas constraint def
+true BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName empty list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SimpleName create list required attr def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+static Modifier MethodDeclaration SimpleName create list required attr def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName create list required attr def
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+create list required attr def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create list required attr def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create list required attr def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create list required attr def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName create list required attr def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create list required attr def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type

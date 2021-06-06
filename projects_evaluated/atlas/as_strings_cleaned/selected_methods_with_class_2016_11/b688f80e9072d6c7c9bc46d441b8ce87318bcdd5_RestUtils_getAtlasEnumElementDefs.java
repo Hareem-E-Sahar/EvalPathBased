@@ -1,0 +1,45 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum element def
+enum value SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName enums
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum element def
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum element def
+enum value SimpleName SimpleType SingleVariableDeclaration SimpleName enum elem
+atlas enum element def SimpleName SimpleType ClassInstanceCreation QualifiedName enum elemvalue
+atlas enum element def SimpleName SimpleType ClassInstanceCreation QualifiedName enum elemordinal
+enum elemvalue QualifiedName ClassInstanceCreation QualifiedName enum elemordinal
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+ret SimpleName MethodInvocation ClassInstanceCreation QualifiedName enum elemvalue
+ret SimpleName MethodInvocation ClassInstanceCreation QualifiedName enum elemordinal
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName enum elemvalue
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName enum elemordinal
+enum value SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName enums
+enum elem SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName enums
+enums SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas enum element def
+private Modifier MethodDeclaration SimpleName get atlas enum element defs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName enums
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName enums
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas enum element def
+static Modifier MethodDeclaration SimpleName get atlas enum element defs
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enums
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName enums
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get atlas enum element defs
+atlas enum element def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get atlas enum element defs
+get atlas enum element defs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enums
+get atlas enum element defs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName enums
+get atlas enum element defs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get atlas enum element defs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enums
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get atlas enum element defs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enums

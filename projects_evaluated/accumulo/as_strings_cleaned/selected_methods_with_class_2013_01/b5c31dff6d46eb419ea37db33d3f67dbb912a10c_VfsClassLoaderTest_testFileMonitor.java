@@ -1,0 +1,133 @@
+listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName my file monitor
+my file monitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+default file monitor SimpleName SimpleType ClassInstanceCreation SimpleName listener
+monitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default file monitor
+monitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName listener
+default file monitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName monitor
+monitor SimpleName MethodInvocation SimpleName set recursive
+monitor SimpleName MethodInvocation BooleanLiteral true
+set recursive SimpleName MethodInvocation BooleanLiteral true
+test dir SimpleName MethodInvocation SimpleName to uri
+test dir SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+vfs SimpleName MethodInvocation SimpleName resolve file
+vfs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test dir
+vfs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+vfs SimpleName MethodInvocation MethodInvocation SimpleName to string
+resolve file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName test dir
+resolve file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to uri
+resolve file SimpleName MethodInvocation MethodInvocation SimpleName to string
+test dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName vfs
+test dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve file
+test dir SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+file object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test dir
+monitor SimpleName MethodInvocation SimpleName add file
+monitor SimpleName MethodInvocation SimpleName test dir
+add file SimpleName MethodInvocation SimpleName test dir
+monitor SimpleName MethodInvocation SimpleName start
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral hello worldjar
+get resource SimpleName MethodInvocation StringLiteral hello worldjar
+jar path SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+jar path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+jar path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral hello worldjar
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jar path
+jar path SimpleName MethodInvocation SimpleName to uri
+jar path SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+src SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+src SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+path SimpleName SimpleType ClassInstanceCreation SimpleName test dir
+path SimpleName SimpleType ClassInstanceCreation StringLiteral hello world jar
+test dir SimpleName ClassInstanceCreation StringLiteral hello world jar
+dst SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+dst SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName test dir
+dst SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hello world jar
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst
+hdfs SimpleName FieldAccess MethodInvocation SimpleName copy from local file
+hdfs SimpleName FieldAccess MethodInvocation SimpleName src
+hdfs SimpleName FieldAccess MethodInvocation SimpleName dst
+copy from local file SimpleName MethodInvocation SimpleName src
+copy from local file SimpleName MethodInvocation SimpleName dst
+src SimpleName MethodInvocation SimpleName dst
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+listener SimpleName MethodInvocation SimpleName is file created
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert SimpleName MethodInvocation MethodInvocation SimpleName is file created
+assert true SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is file created
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral hello worldjar
+get resource SimpleName MethodInvocation StringLiteral hello worldjar
+jar path SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+jar path SimpleName Assignment MethodInvocation SimpleName get resource
+jar path SimpleName Assignment MethodInvocation StringLiteral hello worldjar
+jar path SimpleName MethodInvocation SimpleName to uri
+jar path SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+src SimpleName Assignment ClassInstanceCreation SimpleType SimpleName path
+src SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation SimpleName test dir
+path SimpleName SimpleType ClassInstanceCreation StringLiteral hello world jar
+test dir SimpleName ClassInstanceCreation StringLiteral hello world jar
+dst SimpleName Assignment ClassInstanceCreation SimpleType SimpleName path
+dst SimpleName Assignment ClassInstanceCreation SimpleName test dir
+dst SimpleName Assignment ClassInstanceCreation StringLiteral hello world jar
+hdfs SimpleName FieldAccess MethodInvocation SimpleName copy from local file
+hdfs SimpleName FieldAccess MethodInvocation SimpleName src
+hdfs SimpleName FieldAccess MethodInvocation SimpleName dst
+copy from local file SimpleName MethodInvocation SimpleName src
+copy from local file SimpleName MethodInvocation SimpleName dst
+src SimpleName MethodInvocation SimpleName dst
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+listener SimpleName MethodInvocation SimpleName is file changed
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert SimpleName MethodInvocation MethodInvocation SimpleName is file changed
+assert true SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is file changed
+hdfs SimpleName FieldAccess MethodInvocation SimpleName delete
+hdfs SimpleName FieldAccess MethodInvocation SimpleName dst
+hdfs SimpleName FieldAccess MethodInvocation BooleanLiteral false
+delete SimpleName MethodInvocation SimpleName dst
+delete SimpleName MethodInvocation BooleanLiteral false
+dst SimpleName MethodInvocation BooleanLiteral false
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+listener SimpleName MethodInvocation SimpleName is file deleted
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert SimpleName MethodInvocation MethodInvocation SimpleName is file deleted
+assert true SimpleName MethodInvocation MethodInvocation SimpleName listener
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is file deleted
+monitor SimpleName MethodInvocation SimpleName stop
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test file monitor
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test file monitor
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test file monitor
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test file monitor SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test file monitor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test file monitor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,92 @@
+long PrimitiveType SingleVariableDeclaration SimpleName row id
+padded row id string SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName padded row id string
+int PrimitiveType CastExpression SimpleName row id
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation CastExpression PrimitiveType int
+integer SimpleName MethodInvocation CastExpression SimpleName row id
+to string SimpleName MethodInvocation CastExpression PrimitiveType int
+to string SimpleName MethodInvocation CastExpression SimpleName row id
+integer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+to string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get bytes
+row id SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get bytes
+rowid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName integer
+rowid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+rowid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName rowid
+empty NumberLiteral InfixExpression QualifiedName rowidlength
+pad space SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+pad space SimpleName VariableDeclarationFragment InfixExpression QualifiedName rowidlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pad space
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName rowidlength
+pad space SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression QualifiedName rowidlength
+padded row id string SimpleName MethodInvocation SimpleName append
+padded row id string SimpleName MethodInvocation SimpleName spaces
+padded row id string SimpleName MethodInvocation NumberLiteral empty
+padded row id string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+padded row id string SimpleName MethodInvocation InfixExpression QualifiedName rowidlength
+append SimpleName MethodInvocation SimpleName spaces
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation InfixExpression QualifiedName rowidlength
+spaces SimpleName MethodInvocation NumberLiteral empty
+spaces SimpleName MethodInvocation InfixExpression NumberLiteral empty
+spaces SimpleName MethodInvocation InfixExpression QualifiedName rowidlength
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName rowidlength
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation QualifiedName rowidlength
+math SimpleName MethodInvocation NumberLiteral empty
+min SimpleName MethodInvocation QualifiedName rowidlength
+min SimpleName MethodInvocation NumberLiteral empty
+rowidlength QualifiedName MethodInvocation NumberLiteral empty
+padded row id string SimpleName MethodInvocation SimpleName append
+padded row id string SimpleName MethodInvocation SimpleName rowid
+padded row id string SimpleName MethodInvocation NumberLiteral empty
+padded row id string SimpleName MethodInvocation MethodInvocation SimpleName math
+padded row id string SimpleName MethodInvocation MethodInvocation SimpleName min
+padded row id string SimpleName MethodInvocation MethodInvocation QualifiedName rowidlength
+padded row id string SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation SimpleName rowid
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName math
+append SimpleName MethodInvocation MethodInvocation SimpleName min
+append SimpleName MethodInvocation MethodInvocation QualifiedName rowidlength
+append SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rowid SimpleName MethodInvocation NumberLiteral empty
+rowid SimpleName MethodInvocation MethodInvocation SimpleName math
+rowid SimpleName MethodInvocation MethodInvocation SimpleName min
+rowid SimpleName MethodInvocation MethodInvocation QualifiedName rowidlength
+rowid SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName math
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName min
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName rowidlength
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName padded row id string
+private Modifier MethodDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SimpleName get row id string
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName row id
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName padded row id string
+text SimpleName SimpleType MethodDeclaration SimpleName get row id string
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row id
+get row id string SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get row id string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row id
+get row id string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get row id string SimpleName MethodDeclaration Block ReturnStatement SimpleName padded row id string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName get row id string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get row id string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row id

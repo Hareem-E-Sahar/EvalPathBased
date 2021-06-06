@@ -1,0 +1,33 @@
+int PrimitiveType SingleVariableDeclaration SimpleName max size
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral heap already exist
+max size SimpleName InfixExpression NumberLiteral empty
+max size SimpleName InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression NumberLiteral empty
+max size SimpleName InfixExpression ConditionalExpression SimpleName max size
+empty NumberLiteral InfixExpression ConditionalExpression SimpleName max size
+empty NumberLiteral ConditionalExpression SimpleName max size
+priority buffer SimpleName SimpleType ClassInstanceCreation ConditionalExpression NumberLiteral empty
+priority buffer SimpleName SimpleType ClassInstanceCreation ConditionalExpression SimpleName max size
+heap SimpleName Assignment ClassInstanceCreation SimpleType SimpleName priority buffer
+heap SimpleName Assignment ClassInstanceCreation ConditionalExpression NumberLiteral empty
+heap SimpleName Assignment ClassInstanceCreation ConditionalExpression SimpleName max size
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName create heap
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName max size
+void PrimitiveType MethodDeclaration SimpleName create heap
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max size
+create heap SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create heap SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create heap
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max size
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create heap
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max size

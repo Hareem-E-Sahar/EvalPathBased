@@ -1,0 +1,79 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName table not found exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral root
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+connector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral root
+connector SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connector
+connector SimpleName MethodInvocation SimpleName table operations
+table operations SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+table operations SimpleName VariableDeclarationFragment MethodInvocation SimpleName table operations
+table operations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table operations
+test files SimpleName VariableDeclarationFragment MethodInvocation SimpleName prepare test files
+import test files and data SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName test files
+test filesimport path QualifiedName MethodInvocation SimpleName to string
+test filesfailure path QualifiedName MethodInvocation SimpleName to string
+table operations SimpleName MethodInvocation SimpleName import directory
+table operations SimpleName MethodInvocation StringLiteral doesnt exist table
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName test filesimport path
+table operations SimpleName MethodInvocation MethodInvocation SimpleName to string
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName test filesfailure path
+table operations SimpleName MethodInvocation MethodInvocation SimpleName to string
+table operations SimpleName MethodInvocation BooleanLiteral false
+import directory SimpleName MethodInvocation StringLiteral doesnt exist table
+import directory SimpleName MethodInvocation MethodInvocation QualifiedName test filesimport path
+import directory SimpleName MethodInvocation MethodInvocation SimpleName to string
+import directory SimpleName MethodInvocation MethodInvocation QualifiedName test filesfailure path
+import directory SimpleName MethodInvocation MethodInvocation SimpleName to string
+import directory SimpleName MethodInvocation BooleanLiteral false
+doesnt exist table StringLiteral MethodInvocation MethodInvocation QualifiedName test filesimport path
+doesnt exist table StringLiteral MethodInvocation MethodInvocation SimpleName to string
+doesnt exist table StringLiteral MethodInvocation MethodInvocation QualifiedName test filesfailure path
+doesnt exist table StringLiteral MethodInvocation MethodInvocation SimpleName to string
+doesnt exist table StringLiteral MethodInvocation BooleanLiteral false
+test filesimport path QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName test filesfailure path
+test filesimport path QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName test filesfailure path
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+test filesimport path QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+test filesfailure path QualifiedName MethodInvocation MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test fails with no table
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test fails with no table
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test fails with no table
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+void PrimitiveType MethodDeclaration SimpleName test fails with no table
+void PrimitiveType MethodDeclaration SimpleType SimpleName throwable
+test fails with no table SimpleName MethodDeclaration SimpleType SimpleName throwable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test fails with no table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName throwable
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test fails with no table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName throwable

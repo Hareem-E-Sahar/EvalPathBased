@@ -1,0 +1,32 @@
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+stat type SimpleName SimpleType SingleVariableDeclaration SimpleName st
+stat type SimpleName MethodInvocation SimpleName values
+st SimpleName MethodInvocation SimpleName is derived
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName stat type
+st SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName count
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName num derived
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName count
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName num derived
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName count
+int PrimitiveType MethodDeclaration SimpleName num derived
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName count
+num derived SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+num derived SimpleName MethodDeclaration Block ReturnStatement SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName num derived
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName num derived

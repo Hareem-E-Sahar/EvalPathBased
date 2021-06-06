@@ -1,0 +1,13 @@
+titan graph provider SimpleName MethodInvocation SimpleName get graph instance
+titan graph provider SimpleName MethodInvocation MethodInvocation SimpleName rollback
+get graph instance SimpleName MethodInvocation MethodInvocation SimpleName rollback
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize graph transaction
+void PrimitiveType MethodDeclaration SimpleName initialize graph transaction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize graph transaction

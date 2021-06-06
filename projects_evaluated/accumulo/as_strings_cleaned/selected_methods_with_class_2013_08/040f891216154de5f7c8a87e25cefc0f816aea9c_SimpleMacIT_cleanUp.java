@@ -1,0 +1,49 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName list
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list
+table SimpleName MethodInvocation SimpleName equals
+table SimpleName MethodInvocation QualifiedName metadata tablename
+equals SimpleName MethodInvocation QualifiedName metadata tablename
+table SimpleName MethodInvocation SimpleName equals
+table SimpleName MethodInvocation QualifiedName root tablename
+equals SimpleName MethodInvocation QualifiedName root tablename
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+table SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+table SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName table
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+metadata tablename QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName root tablename
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+c SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+delete SimpleName MethodInvocation SimpleName table
+table SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName list
+after SimpleName MarkerAnnotation MethodDeclaration Modifier public
+after SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+after SimpleName MarkerAnnotation MethodDeclaration SimpleName clean up
+after SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clean up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName clean up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+clean up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clean up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName after
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clean up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user
+user SimpleName InfixExpression SimpleName user exists
+boolean SimpleName MethodInvocation SimpleName to string
+boolean SimpleName MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation BooleanLiteral false
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression SimpleName user
+state SimpleName MethodInvocation InfixExpression SimpleName user exists
+state SimpleName MethodInvocation MethodInvocation SimpleName boolean
+state SimpleName MethodInvocation MethodInvocation SimpleName to string
+state SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+set SimpleName MethodInvocation InfixExpression SimpleName user
+set SimpleName MethodInvocation InfixExpression SimpleName user exists
+set SimpleName MethodInvocation MethodInvocation SimpleName boolean
+set SimpleName MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+user SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+user SimpleName InfixExpression MethodInvocation MethodInvocation BooleanLiteral false
+user exists SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName boolean
+user exists SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName to string
+user exists SimpleName InfixExpression MethodInvocation MethodInvocation BooleanLiteral false
+clean user SimpleName MethodInvocation SimpleName user
+user SimpleName MethodInvocation SimpleName equals
+user SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+equals SimpleName MethodInvocation MethodInvocation SimpleName get tab user name
+table StringLiteral InfixExpression SimpleName connector
+state SimpleName MethodInvocation SimpleName set
+state SimpleName MethodInvocation InfixExpression StringLiteral table
+state SimpleName MethodInvocation InfixExpression SimpleName connector
+set SimpleName MethodInvocation InfixExpression StringLiteral table
+set SimpleName MethodInvocation InfixExpression SimpleName connector
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName drop user
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName drop user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName drop user
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+drop user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+drop user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+drop user SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+user SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName drop user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName drop user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

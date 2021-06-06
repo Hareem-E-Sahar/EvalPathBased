@@ -1,0 +1,80 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to update
+atlas term categorization header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to update
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName to update
+is not empty SimpleName MethodInvocation SimpleName to update
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration SimpleName categorization header
+existing SimpleName MethodInvocation SimpleName get guid
+categorization header SimpleName MethodInvocation SimpleName get display text
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating relation between term = {} and category = {}
+log SimpleName MethodInvocation MethodInvocation SimpleName existing
+log SimpleName MethodInvocation MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+log SimpleName MethodInvocation MethodInvocation SimpleName get display text
+debug SimpleName MethodInvocation StringLiteral updating relation between term = {} and category = {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName existing
+debug SimpleName MethodInvocation MethodInvocation SimpleName get guid
+debug SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+debug SimpleName MethodInvocation MethodInvocation SimpleName get display text
+updating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName existing
+updating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+updating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName categorization header
+updating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName get display text
+existing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categorization header
+existing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categorization header
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+categorization header SimpleName MethodInvocation SimpleName get relation guid
+relationship store SimpleName MethodInvocation SimpleName get by id
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+relationship store SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+get by id SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+get by id SimpleName MethodInvocation MethodInvocation SimpleName get relation guid
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship store
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get by id
+relationship SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName categorization header
+relationship SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get relation guid
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+update relationship attributes SimpleName MethodInvocation SimpleName relationship
+update relationship attributes SimpleName MethodInvocation SimpleName categorization header
+relationship SimpleName MethodInvocation SimpleName categorization header
+relationship store SimpleName MethodInvocation SimpleName update
+relationship store SimpleName MethodInvocation SimpleName relationship
+update SimpleName MethodInvocation SimpleName relationship
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName to update
+categorization header SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName to update
+to update SimpleName EnhancedForStatement Block IfStatement SimpleName debug enabled
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update term categorization relationships
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to update
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName update term categorization relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to update
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+update term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+update term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+update term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to update
+update term categorization relationships SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to update
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+to update SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update term categorization relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to update
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update term categorization relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to update
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

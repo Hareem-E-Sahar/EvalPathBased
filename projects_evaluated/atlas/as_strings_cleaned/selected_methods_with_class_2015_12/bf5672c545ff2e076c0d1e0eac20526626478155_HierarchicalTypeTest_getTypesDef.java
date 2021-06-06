@@ -1,0 +1,24 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+hierarchical type definition SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type definitions
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type definitions
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName types def
+protected Modifier MethodDeclaration SimpleName get types def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definitions
+abstract Modifier MethodDeclaration SimpleType SimpleName types def
+abstract Modifier MethodDeclaration SimpleName get types def
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definitions
+types def SimpleName SimpleType MethodDeclaration SimpleName get types def
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type definitions
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type definitions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definitions
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definitions

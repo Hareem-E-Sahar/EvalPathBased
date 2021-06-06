@@ -1,0 +1,95 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName candidates
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta
+context SimpleName MethodInvocation SimpleName get connector
+context SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+context SimpleName MethodInvocation MethodInvocation QualifiedName root tablename
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName root tablename
+create batch writer SimpleName MethodInvocation QualifiedName root tablename
+root SimpleName Assignment MethodInvocation MethodInvocation SimpleName context
+root SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+root SimpleName Assignment MethodInvocation SimpleName create batch writer
+root SimpleName Assignment MethodInvocation QualifiedName root tablename
+context SimpleName MethodInvocation SimpleName get connector
+context SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch writer
+context SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+meta SimpleName Assignment MethodInvocation MethodInvocation SimpleName context
+meta SimpleName Assignment MethodInvocation MethodInvocation SimpleName get connector
+meta SimpleName Assignment MethodInvocation SimpleName create batch writer
+meta SimpleName Assignment MethodInvocation QualifiedName metadata tablename
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+t server instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+candidates SimpleName MethodInvocation SimpleName entry set
+current logs section SimpleName MethodInvocation SimpleName get row prefix
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string
+current logs section SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get row prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+entry SimpleName MethodInvocation SimpleName get value
+path SimpleName MethodInvocation SimpleName to string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName path
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation QualifiedName current logs sectioncolf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName path
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+put delete SimpleName MethodInvocation QualifiedName current logs sectioncolf
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName path
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+current logs sectioncolf QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+current logs sectioncolf QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName path
+current logs sectioncolf QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+path SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+root SimpleName MethodInvocation SimpleName add mutation
+root SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+meta SimpleName MethodInvocation SimpleName add mutation
+meta SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName candidates
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+meta SimpleName MethodInvocation SimpleName close
+root SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName remove tablet server markers
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName candidates
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+long PrimitiveType MethodDeclaration SimpleName remove tablet server markers
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName candidates
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+remove tablet server markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName candidates
+remove tablet server markers SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+remove tablet server markers SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove tablet server markers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove tablet server markers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName candidates

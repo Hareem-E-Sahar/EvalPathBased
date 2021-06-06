@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file
+path SimpleName SimpleType ClassInstanceCreation SimpleName file
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+my map fileextension QualifiedName InfixExpression StringLiteral empty
+name SimpleName MethodInvocation SimpleName starts with
+name SimpleName MethodInvocation InfixExpression QualifiedName my map fileextension
+name SimpleName MethodInvocation InfixExpression StringLiteral empty
+starts with SimpleName MethodInvocation InfixExpression QualifiedName my map fileextension
+starts with SimpleName MethodInvocation InfixExpression StringLiteral empty
+name SimpleName MethodInvocation SimpleName split
+name SimpleName MethodInvocation StringLiteral \\.
+split SimpleName MethodInvocation StringLiteral \\.
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+sp SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\.
+splength QualifiedName InfixExpression NumberLiteral empty
+file name StringLiteral InfixExpression SimpleName name
+file name StringLiteral InfixExpression StringLiteral has no extension
+name SimpleName InfixExpression StringLiteral has no extension
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral has no extension
+sp SimpleName ArrayAccess NumberLiteral empty
+extension SimpleName VariableDeclarationFragment ArrayAccess SimpleName sp
+extension SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extension
+extension SimpleName MethodInvocation SimpleName equals
+extension SimpleName MethodInvocation QualifiedName my map fileextension
+equals SimpleName MethodInvocation QualifiedName my map fileextension
+my map fileextension QualifiedName InfixExpression StringLiteral tmp
+extension SimpleName MethodInvocation SimpleName equals
+extension SimpleName MethodInvocation InfixExpression QualifiedName my map fileextension
+extension SimpleName MethodInvocation InfixExpression StringLiteral tmp
+equals SimpleName MethodInvocation InfixExpression QualifiedName my map fileextension
+equals SimpleName MethodInvocation InfixExpression StringLiteral tmp
+extension SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+extension SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+my map fileextension QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+my map fileextension QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+extension SimpleName MethodInvocation SimpleName equals
+extension SimpleName MethodInvocation QualifiedName r fileextension
+equals SimpleName MethodInvocation QualifiedName r fileextension
+r fileextension QualifiedName InfixExpression StringLiteral tmp
+extension SimpleName MethodInvocation SimpleName equals
+extension SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+extension SimpleName MethodInvocation InfixExpression StringLiteral tmp
+equals SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+equals SimpleName MethodInvocation InfixExpression StringLiteral tmp
+extension SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+extension SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+r fileextension QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName extension
+r fileextension QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+file type StringLiteral InfixExpression SimpleName extension
+file type StringLiteral InfixExpression StringLiteral not supported
+extension SimpleName InfixExpression StringLiteral not supported
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral file type
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName extension
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not supported
+private Modifier MethodDeclaration SimpleType SimpleName file operations
+private Modifier MethodDeclaration SimpleName find file factory
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+file operations SimpleName SimpleType MethodDeclaration SimpleName find file factory
+file operations SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file
+find file factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find file factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file operations
+public Modifier TypeDeclaration MethodDeclaration SimpleName find file factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file operations
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find file factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file

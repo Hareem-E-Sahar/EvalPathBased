@@ -1,0 +1,22 @@
+int PrimitiveType SingleVariableDeclaration SimpleName confidence level
+confidence level SimpleName FieldAccess Assignment SimpleName confidence level
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set confidence
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName confidence level
+void PrimitiveType MethodDeclaration SimpleName set confidence
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName confidence level
+set confidence SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set confidence SimpleName MethodDeclaration SingleVariableDeclaration SimpleName confidence level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set confidence
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName confidence level
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set confidence
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName confidence level

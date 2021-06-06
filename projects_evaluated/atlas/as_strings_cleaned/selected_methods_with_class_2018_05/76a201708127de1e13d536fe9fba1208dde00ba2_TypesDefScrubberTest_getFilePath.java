@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+paths SimpleName MethodInvocation SimpleName get
+paths SimpleName MethodInvocation SimpleName resource dir
+paths SimpleName MethodInvocation SimpleName file name
+get SimpleName MethodInvocation SimpleName resource dir
+get SimpleName MethodInvocation SimpleName file name
+resource dir SimpleName MethodInvocation SimpleName file name
+paths SimpleName MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation SimpleName to string
+resource dir SimpleName MethodInvocation MethodInvocation SimpleName to string
+file name SimpleName MethodInvocation MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get file path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+string SimpleName SimpleType MethodDeclaration SimpleName get file path
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+get file path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name

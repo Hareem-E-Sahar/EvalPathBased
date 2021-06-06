@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get default remove propagations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName remove propagations
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get default remove propagations
+static Modifier MethodDeclaration Block ReturnStatement SimpleName remove propagations
+boolean PrimitiveType MethodDeclaration SimpleName get default remove propagations
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName remove propagations
+get default remove propagations SimpleName MethodDeclaration Block ReturnStatement SimpleName remove propagations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default remove propagations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default remove propagations

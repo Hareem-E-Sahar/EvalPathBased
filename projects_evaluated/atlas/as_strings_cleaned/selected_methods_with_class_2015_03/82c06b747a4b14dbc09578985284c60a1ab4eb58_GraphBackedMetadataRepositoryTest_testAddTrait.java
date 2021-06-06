@@ -1,0 +1,159 @@
+depends on methods SimpleName MemberValuePair StringLiteral test get trait names
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair StringLiteral test get trait names
+a guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation SimpleName a guid
+get trait names SimpleName MethodInvocation SimpleName a guid
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait names
+trait names SimpleName VariableDeclarationFragment MethodInvocation SimpleName a guid
+trait names = StringLiteral InfixExpression SimpleName trait names
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral trait names =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName trait names
+println SimpleName MethodInvocation InfixExpression StringLiteral trait names =
+println SimpleName MethodInvocation InfixExpression SimpleName trait names
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation SimpleName classification
+contains SimpleName MethodInvocation SimpleName classification
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName classification
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName classification
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation SimpleName pii
+contains SimpleName MethodInvocation SimpleName pii
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName pii
+assert false SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation SimpleName pii
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName trait type
+immutable list SimpleName MethodInvocation SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+types util SimpleName MethodInvocation SimpleName create trait type def
+types util SimpleName MethodInvocation SimpleName pii
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+create trait type def SimpleName MethodInvocation SimpleName pii
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create trait type def SimpleName MethodInvocation MethodInvocation SimpleName of
+pii SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+pii SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+pii SimpleName MethodInvocation MethodInvocation SimpleName of
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName create trait type def
+pii trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName pii
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+pii trait SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+type system SimpleName MethodInvocation SimpleName define trait type
+type system SimpleName MethodInvocation SimpleName pii trait
+define trait type SimpleName MethodInvocation SimpleName pii trait
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName define trait type
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName pii trait
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName create instance
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait type
+trait instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance
+repository service SimpleName MethodInvocation SimpleName add trait
+repository service SimpleName MethodInvocation SimpleName a guid
+repository service SimpleName MethodInvocation SimpleName pii
+repository service SimpleName MethodInvocation SimpleName trait instance
+add trait SimpleName MethodInvocation SimpleName a guid
+add trait SimpleName MethodInvocation SimpleName pii
+add trait SimpleName MethodInvocation SimpleName trait instance
+a guid SimpleName MethodInvocation SimpleName pii
+a guid SimpleName MethodInvocation SimpleName trait instance
+pii SimpleName MethodInvocation SimpleName trait instance
+repository service SimpleName MethodInvocation SimpleName get trait names
+repository service SimpleName MethodInvocation SimpleName a guid
+get trait names SimpleName MethodInvocation SimpleName a guid
+trait names SimpleName Assignment MethodInvocation SimpleName repository service
+trait names SimpleName Assignment MethodInvocation SimpleName get trait names
+trait names SimpleName Assignment MethodInvocation SimpleName a guid
+trait names SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation SimpleName pii
+contains SimpleName MethodInvocation SimpleName pii
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName pii
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName pii
+trait names SimpleName MethodInvocation SimpleName contains
+trait names SimpleName MethodInvocation SimpleName classification
+contains SimpleName MethodInvocation SimpleName classification
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName classification
+assert true SimpleName MethodInvocation MethodInvocation SimpleName trait names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName classification
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add trait
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait
+test get trait names StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add trait
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add trait
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test add trait
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test add trait SimpleName MethodDeclaration SimpleType SimpleName exception
+test add trait SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add trait
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add trait
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

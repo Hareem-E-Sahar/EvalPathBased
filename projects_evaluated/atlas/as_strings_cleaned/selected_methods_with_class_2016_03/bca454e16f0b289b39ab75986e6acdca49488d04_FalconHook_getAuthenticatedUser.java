@@ -1,0 +1,19 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+current user SimpleName MethodInvocation SimpleName get authenticated user
+user SimpleName Assignment MethodInvocation SimpleName current user
+user SimpleName Assignment MethodInvocation SimpleName get authenticated user
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to get user from current userget authenticated user
+warn SimpleName MethodInvocation StringLiteral failed to get user from current userget authenticated user
+get user SimpleName MethodInvocation SimpleName user
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get authenticated user
+string SimpleName SimpleType MethodDeclaration SimpleName get authenticated user
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get authenticated user
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get authenticated user

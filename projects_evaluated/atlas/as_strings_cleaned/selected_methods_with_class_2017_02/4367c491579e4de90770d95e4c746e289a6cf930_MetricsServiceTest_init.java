@@ -1,0 +1,228 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+a mock map SimpleName MethodInvocation SimpleName put
+a mock map SimpleName MethodInvocation StringLiteral key
+a mock map SimpleName MethodInvocation StringLiteral a
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation StringLiteral a
+key StringLiteral MethodInvocation StringLiteral a
+a mock map SimpleName MethodInvocation SimpleName put
+a mock map SimpleName MethodInvocation StringLiteral value
+a mock map SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation NumberLiteral empty
+value StringLiteral MethodInvocation NumberLiteral empty
+b mock map SimpleName MethodInvocation SimpleName put
+b mock map SimpleName MethodInvocation StringLiteral key
+b mock map SimpleName MethodInvocation StringLiteral b
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation StringLiteral b
+key StringLiteral MethodInvocation StringLiteral b
+b mock map SimpleName MethodInvocation SimpleName put
+b mock map SimpleName MethodInvocation StringLiteral value
+b mock map SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation NumberLiteral empty
+value StringLiteral MethodInvocation NumberLiteral empty
+c mock map SimpleName MethodInvocation SimpleName put
+c mock map SimpleName MethodInvocation StringLiteral key
+c mock map SimpleName MethodInvocation StringLiteral c
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation StringLiteral c
+key StringLiteral MethodInvocation StringLiteral c
+c mock map SimpleName MethodInvocation SimpleName put
+c mock map SimpleName MethodInvocation StringLiteral value
+c mock map SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral value
+put SimpleName MethodInvocation NumberLiteral empty
+value StringLiteral MethodInvocation NumberLiteral empty
+mock map list SimpleName MethodInvocation SimpleName add
+mock map list SimpleName MethodInvocation SimpleName a mock map
+add SimpleName MethodInvocation SimpleName a mock map
+mock map list SimpleName MethodInvocation SimpleName add
+mock map list SimpleName MethodInvocation SimpleName b mock map
+add SimpleName MethodInvocation SimpleName b mock map
+mock map list SimpleName MethodInvocation SimpleName add
+mock map list SimpleName MethodInvocation SimpleName c mock map
+add SimpleName MethodInvocation SimpleName c mock map
+mock config SimpleName MethodInvocation SimpleName get int
+mock config SimpleName MethodInvocation MethodInvocation SimpleName any string
+mock config SimpleName MethodInvocation MethodInvocation SimpleName any int
+get int SimpleName MethodInvocation MethodInvocation SimpleName any string
+get int SimpleName MethodInvocation MethodInvocation SimpleName any int
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+when SimpleName MethodInvocation MethodInvocation SimpleName mock config
+when SimpleName MethodInvocation MethodInvocation SimpleName get int
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any int
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+mock config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+mock config SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+then return SimpleName MethodInvocation NumberLiteral empty
+mock config SimpleName MethodInvocation SimpleName get string
+mock config SimpleName MethodInvocation MethodInvocation SimpleName any string
+mock config SimpleName MethodInvocation MethodInvocation SimpleName any string
+get string SimpleName MethodInvocation MethodInvocation SimpleName any string
+get string SimpleName MethodInvocation MethodInvocation SimpleName any string
+any string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName mock config
+when SimpleName MethodInvocation MethodInvocation SimpleName get string
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+mock config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+mock config SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test querycount
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation StringLiteral dummy test querycount
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation SimpleName then return
+dummy test querycount StringLiteral MethodInvocation MethodInvocation SimpleName then return
+then return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test query
+dummy test querycount StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral dummy test query
+then return SimpleName MethodInvocation MethodInvocation StringLiteral dummy test query
+dummy test querycount StringLiteral MethodInvocation MethodInvocation StringLiteral dummy test query
+then return SimpleName MethodInvocation StringLiteral dummy test query
+mock config SimpleName MethodInvocation SimpleName get int
+mock config SimpleName MethodInvocation StringLiteral test
+mock config SimpleName MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation StringLiteral test
+get int SimpleName MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName mock config
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get int
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral test
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation NumberLiteral empty
+mock config SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get int SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+mock type registry SimpleName MethodInvocation SimpleName get all entity def names
+when SimpleName MethodInvocation MethodInvocation SimpleName mock type registry
+when SimpleName MethodInvocation MethodInvocation SimpleName get all entity def names
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation StringLiteral a
+arrays SimpleName MethodInvocation StringLiteral b
+arrays SimpleName MethodInvocation StringLiteral c
+as list SimpleName MethodInvocation StringLiteral a
+as list SimpleName MethodInvocation StringLiteral b
+as list SimpleName MethodInvocation StringLiteral c
+a StringLiteral MethodInvocation StringLiteral b
+a StringLiteral MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation StringLiteral c
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+mock type registry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get all entity def names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+when SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+when SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+when SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral c
+then return SimpleName MethodInvocation MethodInvocation SimpleName arrays
+then return SimpleName MethodInvocation MethodInvocation SimpleName as list
+then return SimpleName MethodInvocation MethodInvocation StringLiteral a
+then return SimpleName MethodInvocation MethodInvocation StringLiteral b
+then return SimpleName MethodInvocation MethodInvocation StringLiteral c
+metrics service SimpleName SimpleType ClassInstanceCreation SimpleName mock config
+metrics service SimpleName SimpleType ClassInstanceCreation SimpleName mock graph
+metrics service SimpleName SimpleType ClassInstanceCreation SimpleName mock type registry
+mock config SimpleName ClassInstanceCreation SimpleName mock graph
+mock config SimpleName ClassInstanceCreation SimpleName mock type registry
+mock graph SimpleName ClassInstanceCreation SimpleName mock type registry
+metrics service SimpleName Assignment ClassInstanceCreation SimpleType SimpleName metrics service
+metrics service SimpleName Assignment ClassInstanceCreation SimpleName mock config
+metrics service SimpleName Assignment ClassInstanceCreation SimpleName mock graph
+metrics service SimpleName Assignment ClassInstanceCreation SimpleName mock type registry
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName init
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName script exception
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SimpleType SimpleName script exception
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SimpleType SimpleName script exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+init SimpleName MethodDeclaration SimpleType SimpleName script exception
+init SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+script exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName script exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName script exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,13 @@
+current SimpleName Assignment BooleanLiteral false
+file data source SimpleName SimpleType SingleVariableDeclaration SimpleName fds
+fdscurrent QualifiedName Assignment BooleanLiteral false
+file data source SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+fds SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName deep copies
+void PrimitiveType MethodDeclaration SimpleName unset iterator
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+unset iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName deep copies
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unset iterator
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unset iterator

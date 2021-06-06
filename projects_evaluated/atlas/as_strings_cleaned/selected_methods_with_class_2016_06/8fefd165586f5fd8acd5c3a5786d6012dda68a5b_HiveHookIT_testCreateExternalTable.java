@@ -1,0 +1,129 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+col name SimpleName VariableDeclarationFragment MethodInvocation SimpleName column name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col name
+create test dfs path SimpleName MethodInvocation StringLiteral parent path
+p file SimpleName VariableDeclarationFragment MethodInvocation SimpleName create test dfs path
+p file SimpleName VariableDeclarationFragment MethodInvocation StringLiteral parent path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p file
+col name SimpleName InfixExpression StringLiteral int
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral create temporary external table ss s s location s
+string SimpleName MethodInvocation SimpleName default db
+string SimpleName MethodInvocation SimpleName table name
+string SimpleName MethodInvocation InfixExpression SimpleName col name
+string SimpleName MethodInvocation InfixExpression StringLiteral int
+format SimpleName MethodInvocation StringLiteral create temporary external table ss s s location s
+format SimpleName MethodInvocation SimpleName default db
+format SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation InfixExpression SimpleName col name
+format SimpleName MethodInvocation InfixExpression StringLiteral int
+format SimpleName MethodInvocation StringLiteral name string
+create temporary external table ss s s location s StringLiteral MethodInvocation SimpleName default db
+create temporary external table ss s s location s StringLiteral MethodInvocation SimpleName table name
+create temporary external table ss s s location s StringLiteral MethodInvocation InfixExpression SimpleName col name
+create temporary external table ss s s location s StringLiteral MethodInvocation InfixExpression StringLiteral int
+create temporary external table ss s s location s StringLiteral MethodInvocation StringLiteral name string
+create temporary external table ss s s location s StringLiteral MethodInvocation SimpleName p file
+default db SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation InfixExpression SimpleName col name
+default db SimpleName MethodInvocation InfixExpression StringLiteral int
+default db SimpleName MethodInvocation StringLiteral name string
+default db SimpleName MethodInvocation SimpleName p file
+table name SimpleName MethodInvocation InfixExpression SimpleName col name
+table name SimpleName MethodInvocation InfixExpression StringLiteral int
+table name SimpleName MethodInvocation StringLiteral name string
+table name SimpleName MethodInvocation SimpleName p file
+col name SimpleName InfixExpression MethodInvocation StringLiteral name string
+int StringLiteral InfixExpression MethodInvocation StringLiteral name string
+col name SimpleName InfixExpression MethodInvocation SimpleName p file
+int StringLiteral InfixExpression MethodInvocation SimpleName p file
+name string StringLiteral MethodInvocation SimpleName p file
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral create temporary external table ss s s location s
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName default db
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+query SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName col name
+query SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral int
+query SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName p file
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral create temporary external table ss s s location s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName default db
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral name string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName p file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName table name
+assert table is registered SimpleName MethodInvocation BooleanLiteral true
+default db SimpleName MethodInvocation SimpleName table name
+default db SimpleName MethodInvocation BooleanLiteral true
+table name SimpleName MethodInvocation BooleanLiteral true
+assert process is registered SimpleName MethodInvocation SimpleName query
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert process is registered
+process id SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process id
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName process id
+get entity SimpleName MethodInvocation SimpleName process id
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+process reference SimpleName VariableDeclarationFragment MethodInvocation SimpleName process id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName process reference
+process reference SimpleName MethodInvocation SimpleName get
+process reference SimpleName MethodInvocation StringLiteral user name
+get SimpleName MethodInvocation StringLiteral user name
+user group information SimpleName MethodInvocation SimpleName get current user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get short user name
+get current user SimpleName MethodInvocation MethodInvocation SimpleName get short user name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName process reference
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral user name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user group information
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get current user
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get short user name
+process reference SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get short user name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get short user name
+user name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get short user name
+verify timestamps SimpleName MethodInvocation SimpleName process reference
+verify timestamps SimpleName MethodInvocation StringLiteral start time
+process reference SimpleName MethodInvocation StringLiteral start time
+verify timestamps SimpleName MethodInvocation SimpleName process reference
+verify timestamps SimpleName MethodInvocation StringLiteral end time
+process reference SimpleName MethodInvocation StringLiteral end time
+validate hdfs paths SimpleName MethodInvocation SimpleName process reference
+validate hdfs paths SimpleName MethodInvocation SimpleName inputs
+validate hdfs paths SimpleName MethodInvocation SimpleName p file
+process reference SimpleName MethodInvocation SimpleName inputs
+process reference SimpleName MethodInvocation SimpleName p file
+inputs SimpleName MethodInvocation SimpleName p file
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create external table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create external table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test create external table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test create external table SimpleName MethodDeclaration SimpleType SimpleName exception
+test create external table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create external table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create external table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

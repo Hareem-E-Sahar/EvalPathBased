@@ -1,0 +1,63 @@
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+store SimpleName MethodInvocation SimpleName reserve
+store SimpleName MethodInvocation SimpleName tid
+reserve SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation SimpleName get status
+store SimpleName MethodInvocation SimpleName tid
+get status SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation InfixExpression QualifiedName t statusfailed
+get status SimpleName MethodInvocation InfixExpression QualifiedName t statusfailed
+tid SimpleName MethodInvocation InfixExpression QualifiedName t statusfailed
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral % x
+string SimpleName MethodInvocation SimpleName tid
+format SimpleName MethodInvocation StringLiteral % x
+format SimpleName MethodInvocation SimpleName tid
+% x StringLiteral MethodInvocation SimpleName tid
+tried to get exception when transaction StringLiteral InfixExpression MethodInvocation SimpleName string
+tried to get exception when transaction StringLiteral InfixExpression MethodInvocation SimpleName format
+tried to get exception when transaction StringLiteral InfixExpression MethodInvocation StringLiteral % x
+tried to get exception when transaction StringLiteral InfixExpression MethodInvocation SimpleName tid
+tried to get exception when transaction StringLiteral InfixExpression StringLiteral not in failed state
+string SimpleName MethodInvocation InfixExpression StringLiteral not in failed state
+format SimpleName MethodInvocation InfixExpression StringLiteral not in failed state
+% x StringLiteral MethodInvocation InfixExpression StringLiteral not in failed state
+tid SimpleName MethodInvocation InfixExpression StringLiteral not in failed state
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tried to get exception when transaction
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not in failed state
+store SimpleName MethodInvocation SimpleName get property
+store SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation SimpleName exception prop
+get property SimpleName MethodInvocation SimpleName tid
+get property SimpleName MethodInvocation SimpleName exception prop
+tid SimpleName MethodInvocation SimpleName exception prop
+exception SimpleName SimpleType CastExpression MethodInvocation SimpleName store
+exception SimpleName SimpleType CastExpression MethodInvocation SimpleName get property
+exception SimpleName SimpleType CastExpression MethodInvocation SimpleName tid
+exception SimpleName SimpleType CastExpression MethodInvocation SimpleName exception prop
+store SimpleName MethodInvocation SimpleName unreserve
+store SimpleName MethodInvocation SimpleName tid
+store SimpleName MethodInvocation NumberLiteral empty
+unreserve SimpleName MethodInvocation SimpleName tid
+unreserve SimpleName MethodInvocation NumberLiteral empty
+tid SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleName get exception
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tid
+exception SimpleName SimpleType MethodDeclaration SimpleName get exception
+exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tid
+get exception SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName get exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

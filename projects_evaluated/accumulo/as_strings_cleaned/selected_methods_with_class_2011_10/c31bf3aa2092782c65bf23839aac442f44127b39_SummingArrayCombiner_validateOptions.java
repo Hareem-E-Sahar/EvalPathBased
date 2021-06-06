@@ -1,0 +1,44 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName options
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation QualifiedName long combinertype
+get SimpleName MethodInvocation QualifiedName long combinertype
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation QualifiedName long combinertype
+get SimpleName MethodInvocation QualifiedName long combinertype
+type SimpleName MethodInvocation SimpleName value of
+type SimpleName MethodInvocation MethodInvocation SimpleName options
+type SimpleName MethodInvocation MethodInvocation SimpleName get
+type SimpleName MethodInvocation MethodInvocation QualifiedName long combinertype
+value of SimpleName MethodInvocation MethodInvocation SimpleName options
+value of SimpleName MethodInvocation MethodInvocation SimpleName get
+value of SimpleName MethodInvocation MethodInvocation QualifiedName long combinertype
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName validate options
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName validate options
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName options
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName validate options
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName options
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+validate options SimpleName MethodDeclaration SingleVariableDeclaration SimpleName options
+validate options SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate options
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate options
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName options

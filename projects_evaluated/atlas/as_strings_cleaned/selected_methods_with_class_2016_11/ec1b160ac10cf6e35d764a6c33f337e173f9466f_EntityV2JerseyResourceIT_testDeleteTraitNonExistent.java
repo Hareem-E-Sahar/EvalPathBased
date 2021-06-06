@@ -1,0 +1,47 @@
+trait name SimpleName VariableDeclarationFragment StringLiteral blah trait
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral blah trait
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral blah trait
+entities client v SimpleName MethodInvocation SimpleName delete classification
+entities client v SimpleName MethodInvocation StringLiteral random
+entities client v SimpleName MethodInvocation SimpleName trait name
+delete classification SimpleName MethodInvocation StringLiteral random
+delete classification SimpleName MethodInvocation SimpleName trait name
+random StringLiteral MethodInvocation SimpleName trait name
+fail SimpleName MethodInvocation StringLiteral deletion for bogus names shouldnt have succeeded
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName get status
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName ex
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get status
+ex SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ex
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName client responsestatusbad request
+ex SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+get status SimpleName MethodInvocation MethodInvocation QualifiedName client responsestatusbad request
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete trait non existent
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete trait non existent
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test delete trait non existent
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test delete trait non existent SimpleName MethodDeclaration SimpleType SimpleName exception
+test delete trait non existent SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete trait non existent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete trait non existent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

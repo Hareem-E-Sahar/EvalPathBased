@@ -1,0 +1,18 @@
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+soft delete handler SimpleName SimpleType ClassInstanceCreation SimpleName type system
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName delete handler
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get delete handler
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type system
+delete handler SimpleName SimpleType MethodDeclaration SimpleName get delete handler
+delete handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type system
+get delete handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+get delete handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName delete handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delete handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName delete handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delete handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system

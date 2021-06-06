@@ -1,0 +1,231 @@
+method SimpleName MemberValuePair QualifiedName request methodpost
+path SimpleName MemberValuePair StringLiteral user idassetsguidlogrecord
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpost
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idassetsguidlogrecord
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idassetsguidlogrecord
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idassetsguidlogrecord
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+required SimpleName MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation MemberValuePair SimpleName required
+request param SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleName connector instance id
+required SimpleName MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connector instance id
+false BooleanLiteral MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connector instance id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName connector instance id
+required SimpleName MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation MemberValuePair SimpleName required
+request param SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleName connection name
+required SimpleName MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connection name
+false BooleanLiteral MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connection name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName connection name
+required SimpleName MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation MemberValuePair SimpleName required
+request param SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleName connector type
+required SimpleName MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connector type
+false BooleanLiteral MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName connector type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName connector type
+required SimpleName MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation MemberValuePair SimpleName required
+request param SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleName context id
+required SimpleName MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName context id
+false BooleanLiteral MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName context id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName context id
+required SimpleName MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation MemberValuePair SimpleName required
+request param SimpleName NormalAnnotation MemberValuePair BooleanLiteral false
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName NormalAnnotation SingleVariableDeclaration SimpleName message
+required SimpleName MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName message
+false BooleanLiteral MemberValuePair NormalAnnotation SingleVariableDeclaration SimpleName message
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+method name SimpleName VariableDeclarationFragment StringLiteral add log message to asset
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add log message to asset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add log message to asset
+log SimpleName MethodInvocation SimpleName is debug enabled
+calling method StringLiteral InfixExpression SimpleName method name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral calling method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral calling method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName void response
+void response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate initialization SimpleName MethodInvocation SimpleName method name
+audit log handler SimpleName SimpleType ClassInstanceCreation SimpleName access service name
+audit log handler SimpleName SimpleType ClassInstanceCreation SimpleName repository connector
+access service name SimpleName ClassInstanceCreation SimpleName repository connector
+audit log handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName audit log handler
+audit log handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName access service name
+audit log handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName repository connector
+audit log handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName audit log handler
+audit log handler SimpleName MethodInvocation SimpleName add log message to asset
+audit log handler SimpleName MethodInvocation SimpleName user id
+audit log handler SimpleName MethodInvocation SimpleName guid
+audit log handler SimpleName MethodInvocation SimpleName connector instance id
+audit log handler SimpleName MethodInvocation SimpleName connection name
+add log message to asset SimpleName MethodInvocation SimpleName user id
+add log message to asset SimpleName MethodInvocation SimpleName guid
+add log message to asset SimpleName MethodInvocation SimpleName connector instance id
+add log message to asset SimpleName MethodInvocation SimpleName connection name
+add log message to asset SimpleName MethodInvocation SimpleName connector type
+user id SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation SimpleName connector instance id
+user id SimpleName MethodInvocation SimpleName connection name
+user id SimpleName MethodInvocation SimpleName connector type
+user id SimpleName MethodInvocation SimpleName context id
+guid SimpleName MethodInvocation SimpleName connector instance id
+guid SimpleName MethodInvocation SimpleName connection name
+guid SimpleName MethodInvocation SimpleName connector type
+guid SimpleName MethodInvocation SimpleName context id
+guid SimpleName MethodInvocation SimpleName message
+connector instance id SimpleName MethodInvocation SimpleName connection name
+connector instance id SimpleName MethodInvocation SimpleName connector type
+connector instance id SimpleName MethodInvocation SimpleName context id
+connector instance id SimpleName MethodInvocation SimpleName message
+connection name SimpleName MethodInvocation SimpleName connector type
+connection name SimpleName MethodInvocation SimpleName context id
+connection name SimpleName MethodInvocation SimpleName message
+connector type SimpleName MethodInvocation SimpleName context id
+connector type SimpleName MethodInvocation SimpleName message
+context id SimpleName MethodInvocation SimpleName message
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+property server exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture property server exception SimpleName MethodInvocation SimpleName response
+capture property server exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+response SimpleName MethodInvocation SimpleName to string
+returning from method StringLiteral InfixExpression SimpleName method name
+returning from method StringLiteral InfixExpression StringLiteral with response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName to string
+method name SimpleName InfixExpression StringLiteral with response
+method name SimpleName InfixExpression MethodInvocation SimpleName response
+method name SimpleName InfixExpression MethodInvocation SimpleName to string
+with response StringLiteral InfixExpression MethodInvocation SimpleName response
+with response StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+log SimpleName MethodInvocation InfixExpression StringLiteral with response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral with response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idassetsguidlogrecord StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName void response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName add log message to asset
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName add log message to asset
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName add log message to asset
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName add log message to asset
+user idassetsguidlogrecord StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName add log message to asset
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName void response
+public Modifier MethodDeclaration SimpleName add log message to asset
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration NormalAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+void response SimpleName SimpleType MethodDeclaration SimpleName add log message to asset
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName connection name
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration NormalAnnotation SimpleName request param
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration NormalAnnotation SimpleName request param
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection name
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration NormalAnnotation SimpleName request param
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add log message to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connector type
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+connector instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+connector instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+connector instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+connector instance id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+connection name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+connection name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+connection name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+connector type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+connector type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+context id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+public Modifier TypeDeclaration MethodDeclaration SimpleName add log message to asset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add log message to asset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector instance id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connector type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

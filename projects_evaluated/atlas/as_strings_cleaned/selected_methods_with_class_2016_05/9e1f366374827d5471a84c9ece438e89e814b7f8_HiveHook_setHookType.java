@@ -1,0 +1,20 @@
+hook contexthook type QualifiedName SimpleType SingleVariableDeclaration SimpleName hook type
+hook type SimpleName FieldAccess Assignment SimpleName hook type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set hook type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName hook contexthook type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hook type
+void PrimitiveType MethodDeclaration SimpleName set hook type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName hook contexthook type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hook type
+set hook type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName hook contexthook type
+set hook type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hook type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set hook type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set hook type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hook type

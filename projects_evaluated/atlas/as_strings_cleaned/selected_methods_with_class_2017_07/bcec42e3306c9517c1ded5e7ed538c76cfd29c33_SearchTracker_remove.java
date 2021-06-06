@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+active searches SimpleName MethodInvocation SimpleName remove
+active searches SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+public Modifier MethodDeclaration SimpleType SimpleName search context
+public Modifier MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+search context SimpleName SimpleType MethodDeclaration SimpleName remove
+search context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName search context
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName search context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

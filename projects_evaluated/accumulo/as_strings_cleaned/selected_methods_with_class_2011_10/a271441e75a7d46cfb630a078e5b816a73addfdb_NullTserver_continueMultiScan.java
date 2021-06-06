@@ -1,0 +1,39 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+long PrimitiveType SingleVariableDeclaration SimpleName scan id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName multi scan result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName continue multi scan
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName scan id
+public Modifier MethodDeclaration SimpleType SimpleName multi scan result
+public Modifier MethodDeclaration SimpleName continue multi scan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan id
+multi scan result SimpleName SimpleType MethodDeclaration SimpleName continue multi scan
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+multi scan result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scan id
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+continue multi scan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName multi scan result
+public Modifier TypeDeclaration MethodDeclaration SimpleName continue multi scan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName multi scan result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName continue multi scan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan id

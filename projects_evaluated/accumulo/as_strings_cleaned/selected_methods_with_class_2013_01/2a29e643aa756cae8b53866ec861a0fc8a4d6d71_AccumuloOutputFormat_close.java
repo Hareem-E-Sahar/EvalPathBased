@@ -1,0 +1,130 @@
+reporter SimpleName SimpleType SingleVariableDeclaration SimpleName reporter
+mutations written StringLiteral InfixExpression SimpleName mut count
+mutations written StringLiteral InfixExpression StringLiteral values written
+mutations written StringLiteral InfixExpression SimpleName val count
+mut count SimpleName InfixExpression StringLiteral values written
+mut count SimpleName InfixExpression SimpleName val count
+values written StringLiteral InfixExpression SimpleName val count
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral mutations written
+log SimpleName MethodInvocation InfixExpression SimpleName mut count
+log SimpleName MethodInvocation InfixExpression StringLiteral values written
+log SimpleName MethodInvocation InfixExpression SimpleName val count
+debug SimpleName MethodInvocation InfixExpression StringLiteral mutations written
+debug SimpleName MethodInvocation InfixExpression SimpleName mut count
+debug SimpleName MethodInvocation InfixExpression StringLiteral values written
+debug SimpleName MethodInvocation InfixExpression SimpleName val count
+mtbw SimpleName MethodInvocation SimpleName close
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get authorization failures
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get authorization failures SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get authorization failures SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ke
+e SimpleName MethodInvocation SimpleName get authorization failures
+e SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get authorization failures SimpleName MethodInvocation MethodInvocation SimpleName entry set
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+ke SimpleName MethodInvocation SimpleName get key
+ke SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName get
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+get SimpleName MethodInvocation MethodInvocation SimpleName to string
+sec codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+sec codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+sec codes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName security error code
+ke SimpleName MethodInvocation SimpleName get key
+ke SimpleName MethodInvocation MethodInvocation SimpleName get table id
+get key SimpleName MethodInvocation MethodInvocation SimpleName get table id
+ke SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table id SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName put
+tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation MethodInvocation SimpleName to string
+tables SimpleName MethodInvocation SimpleName sec codes
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table id
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName sec codes
+get table id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sec codes
+to string SimpleName MethodInvocation MethodInvocation SimpleName sec codes
+ke SimpleName MethodInvocation SimpleName get value
+sec codes SimpleName MethodInvocation SimpleName add all
+sec codes SimpleName MethodInvocation MethodInvocation SimpleName ke
+sec codes SimpleName MethodInvocation MethodInvocation SimpleName get value
+add all SimpleName MethodInvocation MethodInvocation SimpleName ke
+add all SimpleName MethodInvocation MethodInvocation SimpleName get value
+ke SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+not authorized to write to tables : StringLiteral InfixExpression SimpleName tables
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral not authorized to write to tables :
+log SimpleName MethodInvocation InfixExpression SimpleName tables
+error SimpleName MethodInvocation InfixExpression StringLiteral not authorized to write to tables :
+error SimpleName MethodInvocation InfixExpression SimpleName tables
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get constraint violation summaries
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get constraint violation summaries SimpleName MethodInvocation MethodInvocation SimpleName size
+constraint violations : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+constraint violations : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get constraint violation summaries
+constraint violations : StringLiteral InfixExpression MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral constraint violations :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+error SimpleName MethodInvocation InfixExpression StringLiteral constraint violations :
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName close
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName reporter
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reporter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reporter
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block IfStatement SimpleName simulate
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reporter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reporter
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName simulate
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reporter
+close SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reporter
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration Block IfStatement SimpleName simulate
+reporter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reporter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reporter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

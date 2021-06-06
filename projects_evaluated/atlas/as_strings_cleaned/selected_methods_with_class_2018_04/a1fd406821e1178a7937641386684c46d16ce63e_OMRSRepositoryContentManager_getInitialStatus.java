@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+known types SimpleName MethodInvocation SimpleName get
+known types SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName known types
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+type def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type def
+type def SimpleName MethodInvocation SimpleName get initial status
+public Modifier MethodDeclaration SimpleType SimpleName instance status
+public Modifier MethodDeclaration SimpleName get initial status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName type error exception
+instance status SimpleName SimpleType MethodDeclaration SimpleName get initial status
+instance status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source name
+instance status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+instance status SimpleName SimpleType MethodDeclaration SimpleType SimpleName type error exception
+get initial status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get initial status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source name
+get initial status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get initial status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get initial status SimpleName MethodDeclaration SimpleType SimpleName type error exception
+source name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+source name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName type error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName instance status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get initial status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName instance status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get initial status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type error exception

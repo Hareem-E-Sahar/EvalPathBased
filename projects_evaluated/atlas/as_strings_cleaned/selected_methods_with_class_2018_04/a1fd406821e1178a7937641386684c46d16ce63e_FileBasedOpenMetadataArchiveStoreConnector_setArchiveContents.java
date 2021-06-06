@@ -1,0 +1,58 @@
+open metadata archive SimpleName SimpleType SingleVariableDeclaration SimpleName archive contents
+file SimpleName SimpleType ClassInstanceCreation SimpleName archive store name
+archive store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+archive store file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName archive store name
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName archive store file
+log SimpleName MethodInvocation SimpleName is debug enabled
+writing open metadata archive store properties StringLiteral InfixExpression SimpleName archive contents
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral writing open metadata archive store properties
+log SimpleName MethodInvocation InfixExpression SimpleName archive contents
+debug SimpleName MethodInvocation InfixExpression StringLiteral writing open metadata archive store properties
+debug SimpleName MethodInvocation InfixExpression SimpleName archive contents
+archive store file SimpleName MethodInvocation SimpleName delete
+object mapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object mapper
+object mapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object mapper
+object mapper SimpleName MethodInvocation SimpleName write value as string
+object mapper SimpleName MethodInvocation SimpleName archive contents
+write value as string SimpleName MethodInvocation SimpleName archive contents
+archive store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName object mapper
+archive store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName write value as string
+archive store file contents SimpleName VariableDeclarationFragment MethodInvocation SimpleName archive contents
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName archive store file contents
+file utils SimpleName MethodInvocation SimpleName write string to file
+file utils SimpleName MethodInvocation SimpleName archive store file
+file utils SimpleName MethodInvocation SimpleName archive store file contents
+file utils SimpleName MethodInvocation BooleanLiteral false
+write string to file SimpleName MethodInvocation SimpleName archive store file
+write string to file SimpleName MethodInvocation SimpleName archive store file contents
+write string to file SimpleName MethodInvocation BooleanLiteral false
+archive store file SimpleName MethodInvocation SimpleName archive store file contents
+archive store file SimpleName MethodInvocation BooleanLiteral false
+archive store file contents SimpleName MethodInvocation BooleanLiteral false
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io exception
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral unusable server config store :(
+log SimpleName MethodInvocation SimpleName io exception
+debug SimpleName MethodInvocation StringLiteral unusable server config store :(
+debug SimpleName MethodInvocation SimpleName io exception
+unusable server config store :( StringLiteral MethodInvocation SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set archive contents
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open metadata archive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName archive contents
+void PrimitiveType MethodDeclaration SimpleName set archive contents
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open metadata archive
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName archive contents
+set archive contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName open metadata archive
+set archive contents SimpleName MethodDeclaration SingleVariableDeclaration SimpleName archive contents
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set archive contents
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName archive contents
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set archive contents
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName archive contents

@@ -1,0 +1,219 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName process qualified name
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore hdfs paths
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entities
+sorted entities SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entities
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName sorted entities
+collections SimpleName MethodInvocation SimpleName entity comparator
+sort SimpleName MethodInvocation SimpleName sorted entities
+sort SimpleName MethodInvocation SimpleName entity comparator
+sorted entities SimpleName MethodInvocation SimpleName entity comparator
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get type
+entitytypedfs dir QualifiedName MethodInvocation SimpleName equals
+entitytypedfs dir QualifiedName MethodInvocation MethodInvocation SimpleName entity
+entitytypedfs dir QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation SimpleName get type
+entitytypelocal dir QualifiedName MethodInvocation SimpleName equals
+entitytypelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName entity
+entitytypelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+entitytypedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName entitytypelocal dir
+entitytypedfs dir QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName entitytypelocal dir
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+create time SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName create time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypepartition
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypepartition
+entity SimpleName MethodInvocation SimpleName get type
+entity SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+get type SimpleName MethodInvocation InfixExpression QualifiedName entitytypetable
+entitytypepartition QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName entitytypetable
+entity SimpleName MethodInvocation SimpleName get table
+entity SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+entity SimpleName MethodInvocation SimpleName get table
+entity SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get hive SimpleName MethodInvocation MethodInvocation SimpleName get table
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get db name
+get hive SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get db name
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+get table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+get table SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get db name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hive
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get db name
+table SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+get table create time SimpleName MethodInvocation SimpleName table
+create time SimpleName Assignment MethodInvocation SimpleName get table create time
+create time SimpleName Assignment MethodInvocation SimpleName table
+get qualified name SimpleName MethodInvocation SimpleName table
+qualified name SimpleName Assignment MethodInvocation SimpleName get qualified name
+qualified name SimpleName Assignment MethodInvocation SimpleName table
+get qualified name SimpleName MethodInvocation SimpleName entity
+qualified name SimpleName Assignment MethodInvocation SimpleName get qualified name
+qualified name SimpleName Assignment MethodInvocation SimpleName entity
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error while computing qualified name for process
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral error while computing qualified name for process
+error SimpleName MethodInvocation SimpleName excp
+error while computing qualified name for process StringLiteral MethodInvocation SimpleName excp
+data sets processed SimpleName MethodInvocation SimpleName add
+data sets processed SimpleName MethodInvocation SimpleName qualified name
+add SimpleName MethodInvocation SimpleName qualified name
+entity SimpleName InstanceofExpression SimpleType SimpleName write entity
+write entity SimpleName SimpleType CastExpression SimpleName entity
+write entity SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName write entity
+write entity SimpleName VariableDeclarationFragment CastExpression SimpleName entity
+write entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName write entity
+write entity SimpleName MethodInvocation SimpleName get write type
+context SimpleName MethodInvocation SimpleName get hive operation
+hive operationquery QualifiedName MethodInvocation SimpleName equals
+hive operationquery QualifiedName MethodInvocation MethodInvocation SimpleName context
+hive operationquery QualifiedName MethodInvocation MethodInvocation SimpleName get hive operation
+equals SimpleName MethodInvocation MethodInvocation SimpleName context
+equals SimpleName MethodInvocation MethodInvocation SimpleName get hive operation
+add write type SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName add write type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+write entity SimpleName SimpleType CastExpression SimpleName entity
+entity SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get write type
+add write type SimpleName Assignment BooleanLiteral true
+entity SimpleName MethodInvocation SimpleName get type
+entitytypelocal dir QualifiedName MethodInvocation SimpleName equals
+entitytypelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName entity
+entitytypelocal dir QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+add write type SimpleName Assignment PrefixExpression MethodInvocation QualifiedName entitytypelocal dir
+add write type SimpleName Assignment PrefixExpression MethodInvocation SimpleName equals
+get write type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName insert
+get write type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName insert overwrite
+get write type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName update
+get write type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName delete
+insert SimpleName SwitchCase SwitchStatement SwitchCase SimpleName insert overwrite
+insert SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update
+insert SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+insert overwrite SimpleName SwitchCase SwitchStatement SwitchCase SimpleName update
+insert overwrite SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+insert overwrite SimpleName SwitchCase SwitchStatement SwitchCase SimpleName path write
+update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName path write
+delete SimpleName SwitchCase SwitchStatement SwitchCase SimpleName path write
+process qualified name SimpleName MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation SimpleName qname sep process
+append SimpleName MethodInvocation SimpleName qname sep process
+write entity SimpleName MethodInvocation SimpleName get write type
+write entity SimpleName MethodInvocation MethodInvocation SimpleName name
+get write type SimpleName MethodInvocation MethodInvocation SimpleName name
+process qualified name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+qname sep process SimpleName MethodInvocation MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+qname sep process SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName write entity
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get write type
+append SimpleName MethodInvocation MethodInvocation SimpleName name
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName add write type
+process qualified name SimpleName MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation SimpleName qname sep process
+append SimpleName MethodInvocation SimpleName qname sep process
+qualified name SimpleName MethodInvocation SimpleName to lower case
+qualified name SimpleName MethodInvocation MethodInvocation SimpleName replace all
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName replace all
+qualified name SimpleName MethodInvocation MethodInvocation StringLiteral /
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral /
+qualified name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+to lower case SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace all SimpleName MethodInvocation StringLiteral /
+replace all SimpleName MethodInvocation StringLiteral empty
+/ StringLiteral MethodInvocation StringLiteral empty
+process qualified name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+qname sep process SimpleName MethodInvocation MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral /
+process qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral /
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+qname sep process SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace all
+qname sep process SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral /
+qname sep process SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName qualified name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+append SimpleName MethodInvocation MethodInvocation SimpleName replace all
+append SimpleName MethodInvocation MethodInvocation StringLiteral /
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+create time SimpleName InfixExpression NumberLiteral empty
+process qualified name SimpleName MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation SimpleName qname sep process
+append SimpleName MethodInvocation SimpleName qname sep process
+process qualified name SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+qname sep process SimpleName MethodInvocation MethodInvocation SimpleName append
+process qualified name SimpleName MethodInvocation MethodInvocation SimpleName create time
+append SimpleName MethodInvocation MethodInvocation SimpleName create time
+qname sep process SimpleName MethodInvocation MethodInvocation SimpleName create time
+append SimpleName MethodInvocation SimpleName create time
+entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName sorted entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName sorted entities
+sorted entities SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to process qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName process qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+void PrimitiveType MethodDeclaration SimpleName add to process qualified name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName process qualified name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName sorted entities
+add to process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+add to process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName process qualified name
+add to process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+add to process qualified name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+add to process qualified name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+add to process qualified name SimpleName MethodDeclaration Block EnhancedForStatement SimpleName sorted entities
+process qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+process qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+process qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to process qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to process qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName process qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore hdfs paths

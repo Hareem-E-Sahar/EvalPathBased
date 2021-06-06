@@ -1,0 +1,47 @@
+test utils SimpleName MethodInvocation SimpleName skip for gremlin enabled graph db
+event repository SimpleName Assignment ClassInstanceCreation SimpleType SimpleName h base based audit repository
+h base test utils SimpleName MethodInvocation SimpleName start cluster
+h base based audit repository SimpleName SimpleType CastExpression SimpleName event repository
+event repository SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName start
+application properties SimpleName MethodInvocation SimpleName get
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+properties SimpleName MethodInvocation SimpleName get string
+properties SimpleName MethodInvocation QualifiedName h base based audit repositoryconfig table name
+properties SimpleName MethodInvocation QualifiedName h base based audit repositorydefault table name
+get string SimpleName MethodInvocation QualifiedName h base based audit repositoryconfig table name
+get string SimpleName MethodInvocation QualifiedName h base based audit repositorydefault table name
+h base based audit repositoryconfig table name QualifiedName MethodInvocation QualifiedName h base based audit repositorydefault table name
+table name str SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+table name str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+table name str SimpleName VariableDeclarationFragment MethodInvocation QualifiedName h base based audit repositoryconfig table name
+table name str SimpleName VariableDeclarationFragment MethodInvocation QualifiedName h base based audit repositorydefault table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name str
+table name SimpleName MethodInvocation SimpleName value of
+table name SimpleName MethodInvocation SimpleName table name str
+value of SimpleName MethodInvocation SimpleName table name str
+table name SimpleName Assignment MethodInvocation SimpleName table name
+table name SimpleName Assignment MethodInvocation SimpleName value of
+table name SimpleName Assignment MethodInvocation SimpleName table name str
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+setup SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

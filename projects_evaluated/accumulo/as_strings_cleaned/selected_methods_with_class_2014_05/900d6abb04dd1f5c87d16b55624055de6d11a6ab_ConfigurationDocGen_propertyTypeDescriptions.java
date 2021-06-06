@@ -1,0 +1,37 @@
+property type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+property type SimpleName MethodInvocation SimpleName values
+type SimpleName InfixExpression QualifiedName property typeprefix
+type SimpleName MethodInvocation SimpleName to string
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName type
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName to string
+==== StringLiteral InfixExpression MethodInvocation SimpleName sanitize
+==== StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName type
+==== StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation InfixExpression StringLiteral ====
+doc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+println SimpleName MethodInvocation InfixExpression StringLiteral ====
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+type SimpleName MethodInvocation SimpleName get format description
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName type
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName get format description
+doc SimpleName MethodInvocation SimpleName println
+doc SimpleName MethodInvocation MethodInvocation SimpleName sanitize
+doc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+doc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get format description
+println SimpleName MethodInvocation MethodInvocation SimpleName sanitize
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get format description
+doc SimpleName MethodInvocation SimpleName println
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName property type
+type SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName property type descriptions
+void PrimitiveType MethodDeclaration SimpleName property type descriptions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property type descriptions
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property type descriptions

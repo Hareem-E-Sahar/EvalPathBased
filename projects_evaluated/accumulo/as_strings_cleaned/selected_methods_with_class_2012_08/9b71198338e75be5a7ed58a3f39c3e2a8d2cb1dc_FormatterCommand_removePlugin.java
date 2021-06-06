@@ -1,0 +1,83 @@
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+remove plugin SimpleName SuperMethodInvocation SimpleName cl
+remove plugin SimpleName SuperMethodInvocation SimpleName shell state
+remove plugin SimpleName SuperMethodInvocation SimpleName table name
+cl SimpleName SuperMethodInvocation SimpleName shell state
+cl SimpleName SuperMethodInvocation SimpleName table name
+shell state SimpleName SuperMethodInvocation SimpleName table name
+interpeter option SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName interpeter option
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName interpeter option
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+shell state SimpleName MethodInvocation SimpleName get connector
+shell state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+propertytable interpreter class QualifiedName MethodInvocation SimpleName to string
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+shell state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable interpreter class
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+remove property SimpleName MethodInvocation SimpleName table name
+remove property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable interpreter class
+remove property SimpleName MethodInvocation MethodInvocation SimpleName to string
+table name SimpleName MethodInvocation MethodInvocation QualifiedName propertytable interpreter class
+table name SimpleName MethodInvocation MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove plugin
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleName remove plugin
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shell state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove plugin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+remove plugin SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+remove plugin SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove plugin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove plugin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception

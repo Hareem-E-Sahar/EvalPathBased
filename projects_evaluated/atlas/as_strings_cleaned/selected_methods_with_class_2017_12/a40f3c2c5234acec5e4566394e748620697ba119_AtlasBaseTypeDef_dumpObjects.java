@@ -1,0 +1,92 @@
+map SimpleName SimpleType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName objects
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName objects
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName objects
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+sb SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string builder
+map utils SimpleName MethodInvocation SimpleName is not empty
+map utils SimpleName MethodInvocation SimpleName objects
+is not empty SimpleName MethodInvocation SimpleName objects
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+mapentry QualifiedName SimpleType ParameterizedType WildcardType ?
+mapentry QualifiedName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName e
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName e
+objects SimpleName MethodInvocation SimpleName entry set
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+e SimpleName MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName e
+sb SimpleName MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation MethodInvocation StringLiteral :
+e SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+e SimpleName MethodInvocation SimpleName get value
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+: StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+append SimpleName MethodInvocation MethodInvocation SimpleName e
+append SimpleName MethodInvocation MethodInvocation SimpleName get value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName objects
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SimpleName dump objects
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName objects
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SimpleName dump objects
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName objects
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration Block ReturnStatement SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SimpleName dump objects
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName objects
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+dump objects SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+dump objects SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+dump objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName objects
+dump objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+dump objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+dump objects SimpleName MethodDeclaration Block ReturnStatement SimpleName sb
+objects SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump objects
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump objects
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName objects
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb

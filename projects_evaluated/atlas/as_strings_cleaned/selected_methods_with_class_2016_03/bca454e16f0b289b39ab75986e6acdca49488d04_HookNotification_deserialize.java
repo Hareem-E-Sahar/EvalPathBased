@@ -1,0 +1,105 @@
+json element SimpleName SimpleType SingleVariableDeclaration SimpleName json
+type SimpleName SimpleType SingleVariableDeclaration SimpleName type of t
+json deserialization context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+json object SimpleName SimpleType CastExpression SimpleName json
+json SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get
+json SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral type
+get SimpleName MethodInvocation StringLiteral type
+context SimpleName MethodInvocation SimpleName deserialize
+context SimpleName MethodInvocation MethodInvocation SimpleName get
+context SimpleName MethodInvocation MethodInvocation StringLiteral type
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName hook notification type
+deserialize SimpleName MethodInvocation MethodInvocation SimpleName get
+deserialize SimpleName MethodInvocation MethodInvocation StringLiteral type
+deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName hook notification type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName deserialize
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral type
+hook notification type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+context SimpleName MethodInvocation SimpleName deserialize
+context SimpleName MethodInvocation SimpleName json
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity create request
+deserialize SimpleName MethodInvocation SimpleName json
+deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity create request
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity create request
+context SimpleName MethodInvocation SimpleName deserialize
+context SimpleName MethodInvocation SimpleName json
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity update request
+deserialize SimpleName MethodInvocation SimpleName json
+deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity update request
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity update request
+context SimpleName MethodInvocation SimpleName deserialize
+context SimpleName MethodInvocation SimpleName json
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity partial update request
+deserialize SimpleName MethodInvocation SimpleName json
+deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity partial update request
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName entity partial update request
+context SimpleName MethodInvocation SimpleName deserialize
+context SimpleName MethodInvocation SimpleName json
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type request
+deserialize SimpleName MethodInvocation SimpleName json
+deserialize SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type request
+json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName type request
+unhandled type StringLiteral InfixExpression SimpleName type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unhandled type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+type SimpleName SwitchStatement SwitchCase SimpleName entity create
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName context
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName deserialize
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName json
+type SimpleName SwitchStatement SwitchCase SimpleName entity full update
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName context
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName deserialize
+type SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName json
+type SimpleName SwitchStatement SwitchCase SimpleName entity partial update
+entity create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity full update
+entity create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity partial update
+entity full update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity partial update
+entity full update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName type create
+entity full update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName type update
+entity partial update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName type create
+entity partial update SimpleName SwitchCase SwitchStatement SwitchCase SimpleName type update
+type create SimpleName SwitchCase SwitchStatement SwitchCase SimpleName type update
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName hook notification message
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName deserialize
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName json
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type of t
+public Modifier MethodDeclaration SimpleType SimpleName hook notification message
+public Modifier MethodDeclaration SimpleName deserialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type of t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json deserialization context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+hook notification message SimpleName SimpleType MethodDeclaration SimpleName deserialize
+hook notification message SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName json
+hook notification message SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type of t
+hook notification message SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json element
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName json
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type of t
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName json deserialization context
+deserialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+deserialize SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+json SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type of t
+json SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+type of t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hook notification message
+public Modifier TypeDeclaration MethodDeclaration SimpleName deserialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type of t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hook notification message
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deserialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName json
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type of t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

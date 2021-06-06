@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+type def name map SimpleName MethodInvocation SimpleName get
+type def name map SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type def name map
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get
+name SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName name
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type def name map
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName name
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get type def by name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+t SimpleName SimpleType MethodDeclaration SimpleName get type def by name
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get type def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type def by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get type def by name SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type def by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type def by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

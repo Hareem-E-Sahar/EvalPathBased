@@ -1,0 +1,108 @@
+atlas glossary termrelation QualifiedName SimpleType SingleVariableDeclaration SimpleName relation
+string SimpleName SimpleType SingleVariableDeclaration SimpleName end term guid
+atlas related term header SimpleName SimpleType SingleVariableDeclaration SimpleName end related term
+relation SimpleName MethodInvocation SimpleName get name
+type registry SimpleName MethodInvocation SimpleName get relationship type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName relation
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName relation
+get relationship type by name SimpleName MethodInvocation MethodInvocation SimpleName get name
+relationship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+relationship type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship type by name
+relationship type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relation
+relationship type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas relationship type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship type
+relationship type SimpleName MethodInvocation SimpleName create default value
+default attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship type
+default attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create default value
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default attrs
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+relation SimpleName MethodInvocation SimpleName is end attr
+relation SimpleName MethodInvocation SimpleName get name
+end related term SimpleName MethodInvocation SimpleName get term guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end related term
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get term guid
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName end term guid
+default attrs SimpleName MethodInvocation SimpleName get attributes
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName relation
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas relationship SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default attrs
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attributes
+relation SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+get name SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+relation SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default attrs
+relation SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default attrs
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+end term guid SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName default attrs
+end term guid SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get attributes
+relationship SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas relationship
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName relation
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+relationship SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName default attrs
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get attributes
+relation SimpleName MethodInvocation SimpleName get name
+atlas object id SimpleName SimpleType ClassInstanceCreation SimpleName end term guid
+end related term SimpleName MethodInvocation SimpleName get term guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end related term
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get term guid
+default attrs SimpleName MethodInvocation SimpleName get attributes
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName relation
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+atlas relationship SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName default attrs
+atlas relationship SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attributes
+relation SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+get name SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+relation SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default attrs
+relation SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName default attrs
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+end term guid SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName default attrs
+end term guid SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get attributes
+relationship SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas relationship
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName relation
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get name
+relationship SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName end term guid
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName default attrs
+relationship SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get attributes
+update relationship attributes SimpleName MethodInvocation SimpleName relationship
+update relationship attributes SimpleName MethodInvocation SimpleName end related term
+relationship SimpleName MethodInvocation SimpleName end related term
+private Modifier MethodDeclaration SimpleType SimpleName atlas relationship
+private Modifier MethodDeclaration SimpleName define term relation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas related term header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end related term
+atlas relationship SimpleName SimpleType MethodDeclaration SimpleName define term relation
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relation
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+atlas relationship SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end related term
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas glossary termrelation
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relation
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas related term header
+define term relation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end related term
+define term relation SimpleName MethodDeclaration Block ReturnStatement SimpleName relationship
+relation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+relation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end related term
+end term guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end related term
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName define term relation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end related term
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName define term relation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end term guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end related term

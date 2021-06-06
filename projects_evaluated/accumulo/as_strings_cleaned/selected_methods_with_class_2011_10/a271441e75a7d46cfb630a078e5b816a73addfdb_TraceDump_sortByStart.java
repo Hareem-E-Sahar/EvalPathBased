@@ -1,0 +1,63 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName spans
+remote span SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName spans
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName spans
+remote span SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName spans
+span list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName spans
+comparator SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName o
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o start QualifiedName InfixExpression QualifiedName o start
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName o start
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName o start
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+compare SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName span list
+sort SimpleName MethodInvocation SimpleName span list
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName remote span
+public Modifier MethodDeclaration SimpleName sort by start
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName spans
+public Modifier MethodDeclaration Block ReturnStatement SimpleName span list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName remote span
+static Modifier MethodDeclaration SimpleName sort by start
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName spans
+static Modifier MethodDeclaration Block ReturnStatement SimpleName span list
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName sort by start
+remote span SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName sort by start
+sort by start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName spans
+sort by start SimpleName MethodDeclaration Block ReturnStatement SimpleName span list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName sort by start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spans
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sort by start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spans

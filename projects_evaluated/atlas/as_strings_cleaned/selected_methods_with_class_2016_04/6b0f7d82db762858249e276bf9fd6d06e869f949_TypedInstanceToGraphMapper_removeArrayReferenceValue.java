@@ -1,0 +1,95 @@
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName boolean
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+atlas edge label SimpleName SimpleType SingleVariableDeclaration SimpleName atlas edge label
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName referencing vertex
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new ref values
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new ref values
+edge SimpleName MethodInvocation SimpleName get id
+edge SimpleName MethodInvocation MethodInvocation SimpleName to string
+get id SimpleName MethodInvocation MethodInvocation SimpleName to string
+ref value to remove SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+ref value to remove SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+ref value to remove SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value to remove
+new ref values SimpleName MethodInvocation SimpleName remove
+new ref values SimpleName MethodInvocation SimpleName ref value to remove
+remove SimpleName MethodInvocation SimpleName ref value to remove
+value removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName new ref values
+value removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+value removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref value to remove
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value removed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new ref values
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName remove
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ref value to remove
+atlas edge label SimpleName MethodInvocation SimpleName get qualified attribute name
+graph helper SimpleName MethodInvocation SimpleName set property
+graph helper SimpleName MethodInvocation SimpleName referencing vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute name
+graph helper SimpleName MethodInvocation SimpleName new ref values
+set property SimpleName MethodInvocation SimpleName referencing vertex
+set property SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+set property SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute name
+set property SimpleName MethodInvocation SimpleName new ref values
+referencing vertex SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+referencing vertex SimpleName MethodInvocation MethodInvocation SimpleName get qualified attribute name
+referencing vertex SimpleName MethodInvocation SimpleName new ref values
+atlas edge label SimpleName MethodInvocation MethodInvocation SimpleName new ref values
+get qualified attribute name SimpleName MethodInvocation MethodInvocation SimpleName new ref values
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+type utilspair QualifiedName SimpleType ParameterizedType SimpleType SimpleName boolean
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName boolean
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation SimpleName value removed
+value of SimpleName MethodInvocation SimpleName value removed
+type utilspair QualifiedName SimpleType ParameterizedType ClassInstanceCreation SimpleName ref value to remove
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ref value to remove
+boolean SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName ref value to remove
+ref value to remove SimpleName ClassInstanceCreation MethodInvocation SimpleName boolean
+ref value to remove SimpleName ClassInstanceCreation MethodInvocation SimpleName value of
+ref value to remove SimpleName ClassInstanceCreation MethodInvocation SimpleName value removed
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName value removed
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName type utilspair
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName boolean
+private Modifier MethodDeclaration SimpleName remove array reference value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas edge label
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+type utilspair QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName remove array reference value
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove array reference value
+boolean SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName remove array reference value
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge label
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas edge label
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName edge
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+remove array reference value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new ref values
+remove array reference value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+remove array reference value SimpleName MethodDeclaration Block IfStatement SimpleName value removed
+atlas edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+atlas edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas edge label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new ref values
+referencing vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+referencing vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new ref values
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new ref values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove array reference value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new ref values
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove array reference value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName referencing vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new ref values

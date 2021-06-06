@@ -1,0 +1,86 @@
+long PrimitiveType SingleVariableDeclaration SimpleName compaction id
+update metadata SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName update metadata
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+last compact id SimpleName InfixExpression SimpleName compaction id
+compaction wait infocompaction id QualifiedName InfixExpression SimpleName compaction id
+last flush id SimpleName InfixExpression QualifiedName compaction wait infoflush id
+compaction wait infocompaction id QualifiedName Assignment SimpleName compaction id
+compaction wait infoflush id QualifiedName Assignment SimpleName last flush id
+major compaction queued SimpleName MethodInvocation SimpleName contains
+major compaction queued SimpleName MethodInvocation QualifiedName major compaction reasonuser
+contains SimpleName MethodInvocation QualifiedName major compaction reasonuser
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is closed
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName major compaction queued
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName major compaction reasonuser
+is closing SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName major compaction queued
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName major compaction reasonuser
+is closed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+major compaction queued SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+major compaction reasonuser QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName is major compaction running
+get datafile manager SimpleName MethodInvocation MethodInvocation SimpleName get datafile sizes
+get datafile manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get datafile sizes SimpleName MethodInvocation MethodInvocation SimpleName size
+get datafile sizes SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+major compaction state SimpleName Assignment QualifiedName compaction statein progress
+update metadata SimpleName Assignment BooleanLiteral true
+last compact id SimpleName Assignment SimpleName compaction id
+initiate major compaction SimpleName MethodInvocation QualifiedName major compaction reasonuser
+system credentials SimpleName MethodInvocation SimpleName get
+get tablet server SimpleName MethodInvocation MethodInvocation SimpleName get lock
+metadata table util SimpleName MethodInvocation SimpleName update tablet compact id
+metadata table util SimpleName MethodInvocation SimpleName extent
+metadata table util SimpleName MethodInvocation SimpleName compaction id
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName system credentials
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get
+metadata table util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+metadata table util SimpleName MethodInvocation MethodInvocation SimpleName get lock
+update tablet compact id SimpleName MethodInvocation SimpleName extent
+update tablet compact id SimpleName MethodInvocation SimpleName compaction id
+update tablet compact id SimpleName MethodInvocation MethodInvocation SimpleName system credentials
+update tablet compact id SimpleName MethodInvocation MethodInvocation SimpleName get
+update tablet compact id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+update tablet compact id SimpleName MethodInvocation MethodInvocation SimpleName get lock
+extent SimpleName MethodInvocation SimpleName compaction id
+extent SimpleName MethodInvocation MethodInvocation SimpleName system credentials
+extent SimpleName MethodInvocation MethodInvocation SimpleName get
+extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+extent SimpleName MethodInvocation MethodInvocation SimpleName get lock
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName system credentials
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName get
+compaction id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tablet server
+compaction id SimpleName MethodInvocation MethodInvocation SimpleName get lock
+system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get lock
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName update metadata
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName compact all
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName update metadata
+void PrimitiveType MethodDeclaration SimpleName compact all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName update metadata
+compact all SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+compact all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+compact all SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+compact all SimpleName MethodDeclaration Block IfStatement SimpleName update metadata
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compact all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compact all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compaction id

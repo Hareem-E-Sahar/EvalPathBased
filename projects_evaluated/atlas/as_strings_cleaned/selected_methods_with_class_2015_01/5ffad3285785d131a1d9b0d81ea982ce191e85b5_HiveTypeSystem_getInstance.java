@@ -1,0 +1,43 @@
+hs SimpleName VariableDeclarationFragment QualifiedName holderinstance
+hive type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hs
+hive type system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName holderinstance
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral returning preinitialized hive type system singleton
+info SimpleName MethodInvocation StringLiteral returning preinitialized hive type system singleton
+hsvalid QualifiedName IfStatement Block ReturnStatement SimpleName hs
+hs SimpleName MethodInvocation SimpleName initialize
+hsvalid QualifiedName IfStatement Block ReturnStatement SimpleName hs
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName hive type system
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration SimpleType SimpleName metadata exception
+synchronized Modifier MethodDeclaration Modifier static
+synchronized Modifier MethodDeclaration SimpleType SimpleName hive type system
+synchronized Modifier MethodDeclaration SimpleName get instance
+synchronized Modifier MethodDeclaration SimpleType SimpleName metadata exception
+synchronized Modifier MethodDeclaration Block IfStatement QualifiedName hsvalid
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName hs
+static Modifier MethodDeclaration SimpleType SimpleName hive type system
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration SimpleType SimpleName metadata exception
+static Modifier MethodDeclaration Block IfStatement QualifiedName hsvalid
+static Modifier MethodDeclaration Block ReturnStatement SimpleName hs
+hive type system SimpleName SimpleType MethodDeclaration SimpleName get instance
+hive type system SimpleName SimpleType MethodDeclaration SimpleType SimpleName metadata exception
+get instance SimpleName MethodDeclaration SimpleType SimpleName metadata exception
+get instance SimpleName MethodDeclaration Block IfStatement QualifiedName hsvalid
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName hs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName hive type system
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName hive type system
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

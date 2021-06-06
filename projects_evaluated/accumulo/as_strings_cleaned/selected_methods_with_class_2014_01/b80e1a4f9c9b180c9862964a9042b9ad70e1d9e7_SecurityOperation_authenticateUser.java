@@ -1,0 +1,64 @@
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName to auth
+to auth SimpleName MethodInvocation SimpleName get principal
+can ask about user SimpleName MethodInvocation SimpleName credentials
+can ask about user SimpleName MethodInvocation MethodInvocation SimpleName to auth
+can ask about user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation MethodInvocation SimpleName to auth
+credentials SimpleName MethodInvocation MethodInvocation SimpleName get principal
+credentials SimpleName MethodInvocation SimpleName equals
+credentials SimpleName MethodInvocation SimpleName to auth
+equals SimpleName MethodInvocation SimpleName to auth
+credentials SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+equals SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+to auth SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+reassemble token SimpleName MethodInvocation SimpleName to auth
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName reassemble token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName to auth
+authentication token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+to auth SimpleName MethodInvocation SimpleName get principal
+authenticator SimpleName MethodInvocation SimpleName authenticate user
+authenticator SimpleName MethodInvocation MethodInvocation SimpleName to auth
+authenticator SimpleName MethodInvocation MethodInvocation SimpleName get principal
+authenticator SimpleName MethodInvocation SimpleName token
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName to auth
+authenticate user SimpleName MethodInvocation MethodInvocation SimpleName get principal
+authenticate user SimpleName MethodInvocation SimpleName token
+to auth SimpleName MethodInvocation MethodInvocation SimpleName token
+get principal SimpleName MethodInvocation MethodInvocation SimpleName token
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName as thrift exception
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName authenticate user
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to auth
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+boolean PrimitiveType MethodDeclaration SimpleName authenticate user
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to auth
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+authenticate user SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to auth
+authenticate user SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to auth
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+to auth SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName authenticate user
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to auth
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName authenticate user
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to auth
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

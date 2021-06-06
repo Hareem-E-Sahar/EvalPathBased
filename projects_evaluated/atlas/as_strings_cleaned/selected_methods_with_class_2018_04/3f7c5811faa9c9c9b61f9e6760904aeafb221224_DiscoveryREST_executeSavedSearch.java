@@ -1,0 +1,92 @@
+atlas user saved search SimpleName SimpleType SingleVariableDeclaration SimpleName saved search
+saved search SimpleName MethodInvocation SimpleName get search parameters
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName saved search
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get search parameters
+search parameters SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+saved search SimpleName MethodInvocation SimpleName get search type
+saved search SimpleName MethodInvocation InfixExpression QualifiedName atlas user saved searchsaved search typeadvanced
+get search type SimpleName MethodInvocation InfixExpression QualifiedName atlas user saved searchsaved search typeadvanced
+sp SimpleName MethodInvocation SimpleName get query
+sp SimpleName MethodInvocation SimpleName get type name
+sp SimpleName MethodInvocation SimpleName get classification
+atlas discovery service SimpleName MethodInvocation SimpleName get dsl query using type name classification
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName sp
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get query
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName sp
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get type name
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName sp
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get classification
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName sp
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName get query
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName sp
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName sp
+get dsl query using type name classification SimpleName MethodInvocation MethodInvocation SimpleName get classification
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+get query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification
+get query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+get query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get classification
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas discovery service
+dsl query SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dsl query using type name classification
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sp
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get query
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sp
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sp
+dsl query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get classification
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl query
+sp SimpleName MethodInvocation SimpleName get limit
+sp SimpleName MethodInvocation SimpleName get offset
+atlas discovery service SimpleName MethodInvocation SimpleName search using dsl query
+atlas discovery service SimpleName MethodInvocation SimpleName dsl query
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName sp
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get limit
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName sp
+atlas discovery service SimpleName MethodInvocation MethodInvocation SimpleName get offset
+search using dsl query SimpleName MethodInvocation SimpleName dsl query
+search using dsl query SimpleName MethodInvocation MethodInvocation SimpleName sp
+search using dsl query SimpleName MethodInvocation MethodInvocation SimpleName get limit
+search using dsl query SimpleName MethodInvocation MethodInvocation SimpleName sp
+search using dsl query SimpleName MethodInvocation MethodInvocation SimpleName get offset
+dsl query SimpleName MethodInvocation MethodInvocation SimpleName sp
+dsl query SimpleName MethodInvocation MethodInvocation SimpleName get limit
+dsl query SimpleName MethodInvocation MethodInvocation SimpleName sp
+dsl query SimpleName MethodInvocation MethodInvocation SimpleName get offset
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+sp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offset
+get limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sp
+get limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offset
+atlas discovery service SimpleName MethodInvocation SimpleName search with parameters
+atlas discovery service SimpleName MethodInvocation SimpleName sp
+search with parameters SimpleName MethodInvocation SimpleName sp
+private Modifier MethodDeclaration SimpleType SimpleName atlas search result
+private Modifier MethodDeclaration SimpleName execute saved search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas user saved search
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName saved search
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas search result SimpleName SimpleType MethodDeclaration SimpleName execute saved search
+atlas search result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName saved search
+atlas search result SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+execute saved search SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas user saved search
+execute saved search SimpleName MethodDeclaration SingleVariableDeclaration SimpleName saved search
+execute saved search SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+saved search SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas search result
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute saved search
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName saved search
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas search result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute saved search
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName saved search
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

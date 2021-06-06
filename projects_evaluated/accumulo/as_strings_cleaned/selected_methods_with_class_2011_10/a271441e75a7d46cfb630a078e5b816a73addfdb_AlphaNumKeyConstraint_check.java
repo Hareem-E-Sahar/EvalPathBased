@@ -1,0 +1,72 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName mutation
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName short
+mutation SimpleName MethodInvocation SimpleName get row
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName mutation
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName get row
+add violation SimpleName MethodInvocation SimpleName violations
+add violation SimpleName MethodInvocation SimpleName non alpha num row
+violations SimpleName MethodInvocation SimpleName non alpha num row
+violations SimpleName Assignment MethodInvocation SimpleName add violation
+violations SimpleName Assignment MethodInvocation SimpleName violations
+violations SimpleName Assignment MethodInvocation SimpleName non alpha num row
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+mutation SimpleName MethodInvocation SimpleName get updates
+updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutation
+updates SimpleName VariableDeclarationFragment MethodInvocation SimpleName get updates
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName column update
+column update SimpleName MethodInvocation SimpleName get column family
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName column update
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName get column family
+add violation SimpleName MethodInvocation SimpleName violations
+add violation SimpleName MethodInvocation SimpleName non alpha num colf
+violations SimpleName MethodInvocation SimpleName non alpha num colf
+violations SimpleName Assignment MethodInvocation SimpleName add violation
+violations SimpleName Assignment MethodInvocation SimpleName violations
+violations SimpleName Assignment MethodInvocation SimpleName non alpha num colf
+column update SimpleName MethodInvocation SimpleName get column qualifier
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName column update
+is alpha num SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+add violation SimpleName MethodInvocation SimpleName violations
+add violation SimpleName MethodInvocation SimpleName non alpha num colq
+violations SimpleName MethodInvocation SimpleName non alpha num colq
+violations SimpleName Assignment MethodInvocation SimpleName add violation
+violations SimpleName Assignment MethodInvocation SimpleName violations
+violations SimpleName Assignment MethodInvocation SimpleName non alpha num colq
+column update SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName updates
+column update SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName updates
+updates SimpleName EnhancedForStatement Block ReturnStatement SimpleName violations
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName check
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName mutation
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName short
+public Modifier MethodDeclaration SimpleName check
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutation
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName updates
+public Modifier MethodDeclaration Block ReturnStatement SimpleName violations
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check
+short SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName check
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName environment
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+check SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutation
+check SimpleName MethodDeclaration Block EnhancedForStatement SimpleName updates
+check SimpleName MethodDeclaration Block ReturnStatement SimpleName violations
+env SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutation

@@ -1,0 +1,52 @@
+class type SimpleName SimpleType SingleVariableDeclaration SimpleName class type
+i referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i referenceable instance
+instances without guids SimpleName MethodInvocation SimpleName get
+instances without guids SimpleName MethodInvocation SimpleName class type
+get SimpleName MethodInvocation SimpleName class type
+to update SimpleName VariableDeclarationFragment MethodInvocation SimpleName instances without guids
+to update SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+to update SimpleName VariableDeclarationFragment MethodInvocation SimpleName class type
+instances without guids SimpleName MethodInvocation SimpleName put
+instances without guids SimpleName MethodInvocation SimpleName class type
+instances without guids SimpleName MethodInvocation SimpleName to update
+put SimpleName MethodInvocation SimpleName class type
+put SimpleName MethodInvocation SimpleName to update
+class type SimpleName MethodInvocation SimpleName to update
+to update SimpleName MethodInvocation SimpleName add
+to update SimpleName MethodInvocation SimpleName instance
+add SimpleName MethodInvocation SimpleName instance
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add to class map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName add to class map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName class type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+add to class map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class type
+add to class map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class type
+add to class map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i referenceable instance
+add to class map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+add to class map SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+class type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+class type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to class map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to class map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

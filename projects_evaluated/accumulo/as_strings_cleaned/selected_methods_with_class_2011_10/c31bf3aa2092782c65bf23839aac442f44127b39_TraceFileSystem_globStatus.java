@@ -1,0 +1,60 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path pattern
+path filter SimpleName SimpleType SingleVariableDeclaration SimpleName filter
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral glob status
+start SimpleName MethodInvocation StringLiteral glob status
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+span SimpleName VariableDeclarationFragment MethodInvocation StringLiteral glob status
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+trace SimpleName MethodInvocation SimpleName is tracing
+path pattern SimpleName MethodInvocation SimpleName to string
+span SimpleName MethodInvocation SimpleName data
+span SimpleName MethodInvocation StringLiteral pattern
+span SimpleName MethodInvocation MethodInvocation SimpleName path pattern
+span SimpleName MethodInvocation MethodInvocation SimpleName to string
+data SimpleName MethodInvocation StringLiteral pattern
+data SimpleName MethodInvocation MethodInvocation SimpleName path pattern
+data SimpleName MethodInvocation MethodInvocation SimpleName to string
+pattern StringLiteral MethodInvocation MethodInvocation SimpleName path pattern
+pattern StringLiteral MethodInvocation MethodInvocation SimpleName to string
+impl SimpleName MethodInvocation SimpleName glob status
+impl SimpleName MethodInvocation SimpleName path pattern
+impl SimpleName MethodInvocation SimpleName filter
+glob status SimpleName MethodInvocation SimpleName path pattern
+glob status SimpleName MethodInvocation SimpleName filter
+path pattern SimpleName MethodInvocation SimpleName filter
+span SimpleName MethodInvocation SimpleName stop
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName glob status
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path pattern
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName file status
+public Modifier MethodDeclaration SimpleName glob status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path pattern
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+file status SimpleName SimpleType ArrayType MethodDeclaration SimpleName glob status
+glob status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+glob status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path pattern
+glob status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path filter
+glob status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter
+glob status SimpleName MethodDeclaration SimpleType SimpleName io exception
+path pattern SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+path pattern SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName glob status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path pattern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName glob status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path pattern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

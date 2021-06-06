@@ -1,0 +1,88 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName from vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName to vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName edge label
+ret SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName from vertex
+graph helper SimpleName MethodInvocation SimpleName edge label
+get out going edges by label SimpleName MethodInvocation SimpleName from vertex
+get out going edges by label SimpleName MethodInvocation SimpleName edge label
+from vertex SimpleName MethodInvocation SimpleName edge label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edges by label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName from vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge label
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName InfixExpression InfixExpression MethodInvocation SimpleName edges
+edges SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get in vertex
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+in vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in vertex
+get id from vertex SimpleName MethodInvocation SimpleName in vertex
+get id from vertex SimpleName MethodInvocation SimpleName to vertex
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName in vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+string utils SimpleName MethodInvocation MethodInvocation SimpleName to vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName in vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName to vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to vertex
+in vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+in vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to vertex
+in vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName string utils
+in vertex SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+ret SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is relationship exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge label
+boolean PrimitiveType MethodDeclaration SimpleName is relationship exists
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge label
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is relationship exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge label
+is relationship exists SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is relationship exists SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+from vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+to vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is relationship exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is relationship exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge label

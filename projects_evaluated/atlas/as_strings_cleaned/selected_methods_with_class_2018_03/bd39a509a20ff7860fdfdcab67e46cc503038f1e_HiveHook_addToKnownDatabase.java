@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName db qualified name
+known databases SimpleName InfixExpression InfixExpression InfixExpression SimpleName db qualified name
+system SimpleName MethodInvocation SimpleName current time millis
+known databases SimpleName MethodInvocation SimpleName put
+known databases SimpleName MethodInvocation SimpleName db qualified name
+known databases SimpleName MethodInvocation MethodInvocation SimpleName system
+known databases SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+put SimpleName MethodInvocation SimpleName db qualified name
+put SimpleName MethodInvocation MethodInvocation SimpleName system
+put SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+db qualified name SimpleName MethodInvocation MethodInvocation SimpleName system
+db qualified name SimpleName MethodInvocation MethodInvocation SimpleName current time millis
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add to known database
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName db qualified name
+void PrimitiveType MethodDeclaration SimpleName add to known database
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName db qualified name
+add to known database SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add to known database SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db qualified name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add to known database
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db qualified name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add to known database
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db qualified name

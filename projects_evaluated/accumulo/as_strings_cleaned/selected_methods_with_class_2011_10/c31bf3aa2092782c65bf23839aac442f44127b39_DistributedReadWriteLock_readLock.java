@@ -1,0 +1,18 @@
+read lock SimpleName SimpleType ClassInstanceCreation SimpleName qlock
+read lock SimpleName SimpleType ClassInstanceCreation SimpleName data
+qlock SimpleName ClassInstanceCreation SimpleName data
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName lock
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read lock
+public Modifier MethodDeclaration SimpleType SimpleName lock
+public Modifier MethodDeclaration SimpleName read lock
+lock SimpleName SimpleType MethodDeclaration SimpleName read lock
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SimpleName read lock
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read lock

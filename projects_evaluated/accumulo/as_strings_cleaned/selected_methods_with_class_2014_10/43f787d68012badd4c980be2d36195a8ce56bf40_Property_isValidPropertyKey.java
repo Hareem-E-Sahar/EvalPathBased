@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property SimpleName SimpleType SingleVariableDeclaration SimpleName p
+property SimpleName MethodInvocation SimpleName values
+p SimpleName MethodInvocation SimpleName get type
+p SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type SimpleName MethodInvocation MethodInvocation SimpleName equals
+p SimpleName MethodInvocation MethodInvocation QualifiedName property typeprefix
+get type SimpleName MethodInvocation MethodInvocation QualifiedName property typeprefix
+equals SimpleName MethodInvocation QualifiedName property typeprefix
+p SimpleName MethodInvocation SimpleName get key
+valid prefixes SimpleName MethodInvocation SimpleName add
+valid prefixes SimpleName MethodInvocation MethodInvocation SimpleName p
+valid prefixes SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName p
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+p SimpleName MethodInvocation SimpleName get key
+valid properties SimpleName MethodInvocation SimpleName add
+valid properties SimpleName MethodInvocation MethodInvocation SimpleName p
+valid properties SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName p
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName property
+p SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+valid properties SimpleName MethodInvocation SimpleName contains
+valid properties SimpleName MethodInvocation SimpleName key
+contains SimpleName MethodInvocation SimpleName key
+is key validly prefixed SimpleName MethodInvocation SimpleName key
+valid properties SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is key validly prefixed
+valid properties SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is key validly prefixed
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is key validly prefixed
+key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+synchronized Modifier MethodDeclaration Modifier static
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName is valid property key
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SimpleName is valid property key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+is valid property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

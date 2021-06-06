@@ -1,0 +1,141 @@
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName option group
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName option group
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName hash set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName option group
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName groups
+parent options SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get options
+final Modifier VariableDeclarationStatement SimpleType SimpleName options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName parent options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName get options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent options
+modified options SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+final Modifier VariableDeclarationStatement SimpleType SimpleName options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName modified options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName modified options
+iterator SimpleName SimpleType ParameterizedType WildcardType ?
+parent options SimpleName MethodInvocation SimpleName get options
+parent options SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get options SimpleName MethodInvocation MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parent options
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get options
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+? WildcardType ParameterizedType VariableDeclarationExpression VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+option SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+option SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+o SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName option
+o SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+o SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+option SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+iterator scopemajc QualifiedName MethodInvocation SimpleName name
+o SimpleName MethodInvocation SimpleName get opt
+iterator scopemajc QualifiedName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+iterator scopemajc QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+iterator scopemajc QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+equals SimpleName MethodInvocation MethodInvocation SimpleName o
+equals SimpleName MethodInvocation MethodInvocation SimpleName get opt
+iterator scopeminc QualifiedName MethodInvocation SimpleName name
+o SimpleName MethodInvocation SimpleName get opt
+iterator scopeminc QualifiedName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+iterator scopeminc QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+iterator scopeminc QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+equals SimpleName MethodInvocation MethodInvocation SimpleName o
+equals SimpleName MethodInvocation MethodInvocation SimpleName get opt
+iterator scopescan QualifiedName MethodInvocation SimpleName name
+o SimpleName MethodInvocation SimpleName get opt
+iterator scopescan QualifiedName MethodInvocation MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName equals
+iterator scopescan QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+iterator scopescan QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName o
+name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+equals SimpleName MethodInvocation MethodInvocation SimpleName o
+equals SimpleName MethodInvocation MethodInvocation SimpleName get opt
+o SimpleName MethodInvocation SimpleName get long opt
+table StringLiteral MethodInvocation SimpleName equals
+table StringLiteral MethodInvocation MethodInvocation SimpleName o
+table StringLiteral MethodInvocation MethodInvocation SimpleName get long opt
+equals SimpleName MethodInvocation MethodInvocation SimpleName o
+equals SimpleName MethodInvocation MethodInvocation SimpleName get long opt
+modified options SimpleName MethodInvocation SimpleName add option
+modified options SimpleName MethodInvocation SimpleName o
+add option SimpleName MethodInvocation SimpleName o
+parent options SimpleName MethodInvocation SimpleName get option group
+parent options SimpleName MethodInvocation SimpleName o
+get option group SimpleName MethodInvocation SimpleName o
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent options
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName get option group
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+option group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+groups SimpleName MethodInvocation SimpleName add
+groups SimpleName MethodInvocation SimpleName group
+add SimpleName MethodInvocation SimpleName group
+option group SimpleName SimpleType SingleVariableDeclaration SimpleName group
+modified options SimpleName MethodInvocation SimpleName add option group
+modified options SimpleName MethodInvocation SimpleName group
+add option group SimpleName MethodInvocation SimpleName group
+option group SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName groups
+group SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName groups
+option SimpleName SimpleType ClassInstanceCreation StringLiteral pn
+option SimpleName SimpleType ClassInstanceCreation StringLiteral profile
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral iterator profile name
+pn StringLiteral ClassInstanceCreation StringLiteral profile
+pn StringLiteral ClassInstanceCreation BooleanLiteral true
+pn StringLiteral ClassInstanceCreation StringLiteral iterator profile name
+profile StringLiteral ClassInstanceCreation BooleanLiteral true
+profile StringLiteral ClassInstanceCreation StringLiteral iterator profile name
+true BooleanLiteral ClassInstanceCreation StringLiteral iterator profile name
+profile opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral pn
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral profile
+profile opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral iterator profile name
+profile opt SimpleName MethodInvocation SimpleName set required
+profile opt SimpleName MethodInvocation BooleanLiteral true
+set required SimpleName MethodInvocation BooleanLiteral true
+profile opt SimpleName MethodInvocation SimpleName set arg name
+profile opt SimpleName MethodInvocation StringLiteral profile
+set arg name SimpleName MethodInvocation StringLiteral profile
+modified options SimpleName MethodInvocation SimpleName add option
+modified options SimpleName MethodInvocation SimpleName profile opt
+add option SimpleName MethodInvocation SimpleName profile opt
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName groups
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName groups
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName groups
+groups SimpleName EnhancedForStatement Block ReturnStatement SimpleName modified options
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName groups
+public Modifier MethodDeclaration Block ReturnStatement SimpleName modified options
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get options SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get options SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get options SimpleName MethodDeclaration Block EnhancedForStatement SimpleName groups
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName modified options
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

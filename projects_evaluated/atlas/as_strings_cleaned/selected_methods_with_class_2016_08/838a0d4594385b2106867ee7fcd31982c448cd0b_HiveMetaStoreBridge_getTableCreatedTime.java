@@ -1,0 +1,32 @@
+table SimpleName SimpleType SingleVariableDeclaration SimpleName table
+table SimpleName MethodInvocation SimpleName get t table
+table SimpleName MethodInvocation MethodInvocation SimpleName get create time
+get t table SimpleName MethodInvocation MethodInvocation SimpleName get create time
+table SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName millis convert factor
+get t table SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName millis convert factor
+get create time SimpleName MethodInvocation InfixExpression SimpleName millis convert factor
+date SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName millis convert factor
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName date
+private Modifier MethodDeclaration SimpleName get table created time
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+static Modifier MethodDeclaration SimpleType SimpleName date
+static Modifier MethodDeclaration SimpleName get table created time
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+date SimpleName SimpleType MethodDeclaration SimpleName get table created time
+date SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+get table created time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table
+get table created time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName date
+public Modifier TypeDeclaration MethodDeclaration SimpleName get table created time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName date
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get table created time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table

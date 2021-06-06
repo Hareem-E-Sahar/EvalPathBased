@@ -1,0 +1,54 @@
+property SimpleName SimpleType SingleVariableDeclaration SimpleName property
+property SimpleName SwitchStatement SwitchCase SimpleName table file compression type
+property SimpleName SwitchStatement SwitchCase SimpleName table file compressed block size
+property SimpleName SwitchStatement SwitchCase SimpleName table file block size
+property SimpleName SwitchStatement SwitchCase SimpleName table file compressed block size index
+property SimpleName SwitchStatement SwitchCase SimpleName table file replication
+table file compression type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file compressed block size
+table file compression type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file block size
+table file compression type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file compressed block size index
+table file compression type SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file replication
+table file compression type SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+table file compressed block size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file block size
+table file compressed block size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file compressed block size index
+table file compressed block size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file replication
+table file compressed block size SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+table file block size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file compressed block size index
+table file block size SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file replication
+table file block size SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+table file block size SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+table file compressed block size index SimpleName SwitchCase SwitchStatement SwitchCase SimpleName table file replication
+table file compressed block size index SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+table file compressed block size index SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+table file replication SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral true
+table file replication SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+true BooleanLiteral ReturnStatement SwitchStatement ReturnStatement BooleanLiteral false
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is supported accumulo property
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName property
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is supported accumulo property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+static Modifier MethodDeclaration Block SwitchStatement SimpleName property
+boolean PrimitiveType MethodDeclaration SimpleName is supported accumulo property
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+boolean PrimitiveType MethodDeclaration Block SwitchStatement SimpleName property
+is supported accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property
+is supported accumulo property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+is supported accumulo property SimpleName MethodDeclaration Block SwitchStatement SimpleName property
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is supported accumulo property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is supported accumulo property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

@@ -1,0 +1,31 @@
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+get state SimpleName MethodInvocation SimpleName element
+get state SimpleName MethodInvocation InfixExpression QualifiedName identity statedeleted
+element SimpleName MethodInvocation InfixExpression QualifiedName identity statedeleted
+identity statedeleted QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName statusdeleted
+identity statedeleted QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName statusactive
+statusdeleted QualifiedName ConditionalExpression QualifiedName statusactive
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName status
+static Modifier MethodDeclaration SimpleName get status
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+status SimpleName SimpleType MethodDeclaration SimpleName get status
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+get status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

@@ -1,0 +1,50 @@
+atlas attribute defcardinality QualifiedName SimpleType SingleVariableDeclaration SimpleName cardinality
+cardinality SimpleName SwitchStatement SwitchCase SimpleName single
+cardinality SimpleName SwitchStatement ReturnStatement SimpleName single
+cardinality SimpleName SwitchStatement SwitchCase SimpleName list
+cardinality SimpleName SwitchStatement ReturnStatement SimpleName list
+cardinality SimpleName SwitchStatement SwitchCase SimpleName set
+single SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName single
+single SimpleName SwitchCase SwitchStatement SwitchCase SimpleName list
+single SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName list
+single SimpleName SwitchCase SwitchStatement SwitchCase SimpleName set
+single SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName set
+single SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName list
+single SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName list
+single SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName set
+single SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName set
+list SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName list
+list SimpleName SwitchCase SwitchStatement SwitchCase SimpleName set
+list SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName set
+list SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName set
+list SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName set
+set SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName set
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral bad cardinality s
+string SimpleName MethodInvocation SimpleName cardinality
+format SimpleName MethodInvocation StringLiteral bad cardinality s
+format SimpleName MethodInvocation SimpleName cardinality
+bad cardinality s StringLiteral MethodInvocation SimpleName cardinality
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral bad cardinality s
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cardinality
+private Modifier MethodDeclaration SimpleType SimpleName atlas cardinality
+private Modifier MethodDeclaration SimpleName to atlas cardinality
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas attribute defcardinality
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cardinality
+private Modifier MethodDeclaration Block SwitchStatement SimpleName cardinality
+atlas cardinality SimpleName SimpleType MethodDeclaration SimpleName to atlas cardinality
+atlas cardinality SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cardinality
+to atlas cardinality SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName atlas attribute defcardinality
+to atlas cardinality SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cardinality
+to atlas cardinality SimpleName MethodDeclaration Block SwitchStatement SimpleName cardinality
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas cardinality
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas cardinality
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cardinality
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas cardinality
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas cardinality
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cardinality

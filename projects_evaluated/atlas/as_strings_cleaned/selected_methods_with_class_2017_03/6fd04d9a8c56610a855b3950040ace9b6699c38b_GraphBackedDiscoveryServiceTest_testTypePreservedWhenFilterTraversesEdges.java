@@ -1,0 +1,119 @@
+dsl SimpleName VariableDeclarationFragment StringLiteral hive table dbnamereporting limit
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dsl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral hive table dbnamereporting limit
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation StringLiteral table
+immutable set SimpleName MethodInvocation StringLiteral table
+immutable set SimpleName MethodInvocation StringLiteral sales fact monthly mv
+immutable set SimpleName MethodInvocation StringLiteral sales fact daily mv
+of SimpleName MethodInvocation StringLiteral table
+of SimpleName MethodInvocation StringLiteral table
+of SimpleName MethodInvocation StringLiteral sales fact monthly mv
+of SimpleName MethodInvocation StringLiteral sales fact daily mv
+table StringLiteral MethodInvocation StringLiteral table
+table StringLiteral MethodInvocation StringLiteral sales fact monthly mv
+table StringLiteral MethodInvocation StringLiteral sales fact daily mv
+table StringLiteral MethodInvocation StringLiteral sales fact monthly mv
+table StringLiteral MethodInvocation StringLiteral sales fact daily mv
+sales fact monthly mv StringLiteral MethodInvocation StringLiteral sales fact daily mv
+expected table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+expected table names SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+expected table names SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+expected table names SimpleName VariableDeclarationFragment MethodInvocation StringLiteral table
+expected table names SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales fact monthly mv
+expected table names SimpleName VariableDeclarationFragment MethodInvocation StringLiteral sales fact daily mv
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation SimpleName dsl
+search by dsl SimpleName MethodInvocation SimpleName dsl
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName search by dsl
+json results SimpleName VariableDeclarationFragment MethodInvocation SimpleName dsl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json results
+assert not null SimpleName MethodInvocation SimpleName json results
+json object SimpleName SimpleType ClassInstanceCreation SimpleName json results
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json object
+results SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName json results
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+rows SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rows
+rows SimpleName MethodInvocation SimpleName length
+expected table names SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected table names
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+rows SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected table names
+rows SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected table names
+length SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+rows SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName rows
+i SimpleName InfixExpression MethodInvocation SimpleName length
+rows SimpleName MethodInvocation SimpleName get json object
+rows SimpleName MethodInvocation SimpleName i
+get json object SimpleName MethodInvocation SimpleName i
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName rows
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get
+row SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+expected table names SimpleName MethodInvocation SimpleName contains
+expected table names SimpleName MethodInvocation MethodInvocation SimpleName row
+expected table names SimpleName MethodInvocation MethodInvocation SimpleName get
+expected table names SimpleName MethodInvocation MethodInvocation StringLiteral name
+contains SimpleName MethodInvocation MethodInvocation SimpleName row
+contains SimpleName MethodInvocation MethodInvocation SimpleName get
+contains SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName expected table names
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName expected table names
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName row
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test type preserved when filter traverses edges
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName discovery exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test type preserved when filter traverses edges
+public Modifier MethodDeclaration SimpleType SimpleName discovery exception
+public Modifier MethodDeclaration SimpleType SimpleName json exception
+void PrimitiveType MethodDeclaration SimpleName test type preserved when filter traverses edges
+void PrimitiveType MethodDeclaration SimpleType SimpleName discovery exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName json exception
+test type preserved when filter traverses edges SimpleName MethodDeclaration SimpleType SimpleName discovery exception
+test type preserved when filter traverses edges SimpleName MethodDeclaration SimpleType SimpleName json exception
+discovery exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName json exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test type preserved when filter traverses edges
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test type preserved when filter traverses edges
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName discovery exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json exception

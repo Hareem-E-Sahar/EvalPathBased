@@ -1,0 +1,71 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+acc conf SimpleName MethodInvocation SimpleName get
+acc conf SimpleName MethodInvocation QualifiedName accumulo class loaderclasspath property name
+acc conf SimpleName MethodInvocation QualifiedName accumulo class loaderaccumulo classpath value
+get SimpleName MethodInvocation QualifiedName accumulo class loaderclasspath property name
+get SimpleName MethodInvocation QualifiedName accumulo class loaderaccumulo classpath value
+accumulo class loaderclasspath property name QualifiedName MethodInvocation QualifiedName accumulo class loaderaccumulo classpath value
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName acc conf
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName accumulo class loaderclasspath property name
+cp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName accumulo class loaderaccumulo classpath value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cp
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+system SimpleName MethodInvocation SimpleName getenv
+replace env vars SimpleName MethodInvocation SimpleName cp
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName system
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName getenv
+cp SimpleName MethodInvocation MethodInvocation SimpleName system
+cp SimpleName MethodInvocation MethodInvocation SimpleName getenv
+replace env vars SimpleName MethodInvocation MethodInvocation SimpleName split
+cp SimpleName MethodInvocation MethodInvocation SimpleName split
+system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+getenv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split
+replace env vars SimpleName MethodInvocation MethodInvocation StringLiteral empty
+cp SimpleName MethodInvocation MethodInvocation StringLiteral empty
+system SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+getenv SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+cps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName replace env vars
+cps SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cp
+cps SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+cps SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName url
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classpath
+classpath SimpleName MethodInvocation SimpleName starts with
+classpath SimpleName MethodInvocation StringLiteral #
+starts with SimpleName MethodInvocation StringLiteral #
+add url SimpleName MethodInvocation SimpleName classpath
+add url SimpleName MethodInvocation SimpleName urls
+classpath SimpleName MethodInvocation SimpleName urls
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cps
+classpath SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cps
+cps SimpleName EnhancedForStatement Block ReturnStatement SimpleName urls
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName url
+private Modifier MethodDeclaration SimpleName find accumulo ur ls
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName cps
+private Modifier MethodDeclaration Block ReturnStatement SimpleName urls
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName array list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName url
+static Modifier MethodDeclaration SimpleName find accumulo ur ls
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName cps
+static Modifier MethodDeclaration Block ReturnStatement SimpleName urls
+array list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find accumulo ur ls
+url SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName find accumulo ur ls
+find accumulo ur ls SimpleName MethodDeclaration SimpleType SimpleName io exception
+find accumulo ur ls SimpleName MethodDeclaration Block EnhancedForStatement SimpleName cps
+find accumulo ur ls SimpleName MethodDeclaration Block ReturnStatement SimpleName urls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName find accumulo ur ls
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find accumulo ur ls
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

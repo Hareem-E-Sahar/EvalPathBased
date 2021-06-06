@@ -1,0 +1,56 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+id to vertex map SimpleName MethodInvocation SimpleName size
+mapping SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName id to vertex map
+mapping SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName id
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+id to vertex map SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName is unassigned
+entry SimpleName MethodInvocation SimpleName get value
+class vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+class vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class vertex
+id SimpleName MethodInvocation SimpleName get id
+graph helper SimpleName MethodInvocation SimpleName get guid
+graph helper SimpleName MethodInvocation SimpleName class vertex
+get guid SimpleName MethodInvocation SimpleName class vertex
+mapping SimpleName MethodInvocation SimpleName put
+mapping SimpleName MethodInvocation MethodInvocation SimpleName id
+mapping SimpleName MethodInvocation MethodInvocation SimpleName get id
+mapping SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+mapping SimpleName MethodInvocation MethodInvocation SimpleName get guid
+mapping SimpleName MethodInvocation MethodInvocation SimpleName class vertex
+put SimpleName MethodInvocation MethodInvocation SimpleName id
+put SimpleName MethodInvocation MethodInvocation SimpleName get id
+put SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation MethodInvocation SimpleName class vertex
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class vertex
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName graph helper
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+get id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName class vertex
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName id to vertex map
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+guid mapping SimpleName SimpleType ClassInstanceCreation SimpleName mapping
+public Modifier MethodDeclaration SimpleType SimpleName guid mapping
+public Modifier MethodDeclaration SimpleName create guid mapping
+guid mapping SimpleName SimpleType MethodDeclaration SimpleName create guid mapping
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName guid mapping
+public Modifier TypeDeclaration MethodDeclaration SimpleName create guid mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName guid mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create guid mapping

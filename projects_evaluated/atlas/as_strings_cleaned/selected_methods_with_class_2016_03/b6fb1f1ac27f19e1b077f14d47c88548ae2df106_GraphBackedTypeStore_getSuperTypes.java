@@ -1,0 +1,62 @@
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+vertex SimpleName MethodInvocation SimpleName get edges
+vertex SimpleName MethodInvocation QualifiedName directionout
+vertex SimpleName MethodInvocation SimpleName supertype edge label
+get edges SimpleName MethodInvocation QualifiedName directionout
+get edges SimpleName MethodInvocation SimpleName supertype edge label
+directionout QualifiedName MethodInvocation SimpleName supertype edge label
+vertex SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get edges SimpleName MethodInvocation MethodInvocation SimpleName iterator
+directionout QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+supertype edge label SimpleName MethodInvocation MethodInvocation SimpleName iterator
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertex
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get edges
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName directionout
+edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName supertype edge label
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+edge SimpleName MethodInvocation SimpleName get vertex
+edge SimpleName MethodInvocation QualifiedName directionin
+get vertex SimpleName MethodInvocation QualifiedName directionin
+edge SimpleName MethodInvocation MethodInvocation SimpleName get property
+get vertex SimpleName MethodInvocation MethodInvocation SimpleName get property
+directionin QualifiedName MethodInvocation MethodInvocation SimpleName get property
+edge SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+get vertex SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+directionin QualifiedName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+get property SimpleName MethodInvocation QualifiedName constantstypename property key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get property
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName constantstypename property key
+super types SimpleName MethodInvocation SimpleName add
+super types SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+super types SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get property
+super types SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName constantstypename property key
+add SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+add SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get property
+add SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName constantstypename property key
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation SimpleName super types
+copy of SimpleName MethodInvocation SimpleName super types
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get super types
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+immutable list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super types
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get super types
+get super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+get super types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get super types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get super types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

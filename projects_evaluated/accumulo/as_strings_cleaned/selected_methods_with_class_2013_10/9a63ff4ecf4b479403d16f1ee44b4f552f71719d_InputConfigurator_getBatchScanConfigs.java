@@ -1,0 +1,141 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+class SimpleName SimpleType ParameterizedType WildcardType ?
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName implementing class
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName batch scan config
+get default batch scan config SimpleName MethodInvocation SimpleName implementing class
+get default batch scan config SimpleName MethodInvocation SimpleName conf
+implementing class SimpleName MethodInvocation SimpleName conf
+default config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default batch scan config
+default config SimpleName VariableDeclarationFragment MethodInvocation SimpleName implementing class
+default config SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+default config SimpleName MethodInvocation SimpleName get key
+default config SimpleName MethodInvocation SimpleName get value
+configs SimpleName MethodInvocation SimpleName put
+configs SimpleName MethodInvocation MethodInvocation SimpleName default config
+configs SimpleName MethodInvocation MethodInvocation SimpleName get key
+configs SimpleName MethodInvocation MethodInvocation SimpleName default config
+configs SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName default config
+put SimpleName MethodInvocation MethodInvocation SimpleName get key
+put SimpleName MethodInvocation MethodInvocation SimpleName default config
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+default config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default config
+default config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default config
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+enum to conf key SimpleName MethodInvocation SimpleName implementing class
+enum to conf key SimpleName MethodInvocation QualifiedName scan optstable configs
+implementing class SimpleName MethodInvocation QualifiedName scan optstable configs
+conf SimpleName MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+conf SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+conf SimpleName MethodInvocation MethodInvocation QualifiedName scan optstable configs
+get SimpleName MethodInvocation MethodInvocation SimpleName enum to conf key
+get SimpleName MethodInvocation MethodInvocation SimpleName implementing class
+get SimpleName MethodInvocation MethodInvocation QualifiedName scan optstable configs
+config string SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+config string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+config string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName enum to conf key
+config string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName implementing class
+config string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName scan optstable configs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config string
+map writable SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName map writable
+map writable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map writable
+config string SimpleName MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation SimpleName decode base
+base SimpleName MethodInvocation MethodInvocation SimpleName config string
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation SimpleName config string
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode base
+bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config string
+bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName bytes
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bytes
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bais
+data input stream SimpleName SimpleType ClassInstanceCreation SimpleName bais
+map writable SimpleName MethodInvocation SimpleName read fields
+map writable SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data input stream
+map writable SimpleName MethodInvocation ClassInstanceCreation SimpleName bais
+read fields SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data input stream
+read fields SimpleName MethodInvocation ClassInstanceCreation SimpleName bais
+bais SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral the table query configurations could not be deserialized from the given configuration
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName writable
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName writable
+writable SimpleName SimpleType ParameterizedType SimpleType SimpleName writable
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+writable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+writable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+map writable SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+text SimpleName SimpleType CastExpression MethodInvocation SimpleName entry
+text SimpleName SimpleType CastExpression MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+batch scan config SimpleName SimpleType CastExpression MethodInvocation SimpleName entry
+batch scan config SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+configs SimpleName MethodInvocation SimpleName put
+configs SimpleName MethodInvocation MethodInvocation SimpleName to string
+configs SimpleName MethodInvocation CastExpression SimpleType SimpleName batch scan config
+configs SimpleName MethodInvocation CastExpression MethodInvocation SimpleName entry
+configs SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get value
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName batch scan config
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName entry
+put SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName map writable
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName batch scan config
+public Modifier MethodDeclaration SimpleName get batch scan configs
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName batch scan config
+static Modifier MethodDeclaration SimpleName get batch scan configs
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration Block ReturnStatement SimpleName configs
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get batch scan configs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get batch scan configs
+batch scan config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get batch scan configs
+get batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+get batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get batch scan configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get batch scan configs SimpleName MethodDeclaration Block ReturnStatement SimpleName configs
+implementing class SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get batch scan configs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get batch scan configs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName implementing class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf

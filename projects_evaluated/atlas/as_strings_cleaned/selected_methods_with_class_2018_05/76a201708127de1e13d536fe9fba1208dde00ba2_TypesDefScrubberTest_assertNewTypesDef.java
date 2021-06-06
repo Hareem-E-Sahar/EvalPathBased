@@ -1,0 +1,343 @@
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName new types
+int PrimitiveType SingleVariableDeclaration SimpleName trait pray index
+int PrimitiveType SingleVariableDeclaration SimpleName vendor pii index
+int PrimitiveType SingleVariableDeclaration SimpleName finance index
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected trait pray struct name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected vendor pii struct name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expected finance struct name
+assert not null SimpleName MethodInvocation SimpleName new types
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName size
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new types
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get struct defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName trait pray index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName trait pray index
+get SimpleName MethodInvocation SimpleName trait pray index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+trait pray index SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+trait pray index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get name SimpleName MethodInvocation MethodInvocation SimpleName contains
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+trait pray index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+get name SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+contains SimpleName MethodInvocation SimpleName legacy type name prefix
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName vendor pii index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName vendor pii index
+get SimpleName MethodInvocation SimpleName vendor pii index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+vendor pii index SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+vendor pii index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get name SimpleName MethodInvocation MethodInvocation SimpleName contains
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+vendor pii index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+get name SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+contains SimpleName MethodInvocation SimpleName legacy type name prefix
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName finance index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName finance index
+get SimpleName MethodInvocation SimpleName finance index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+finance index SimpleName MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+finance index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains
+get name SimpleName MethodInvocation MethodInvocation SimpleName contains
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+finance index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName legacy type name prefix
+get name SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+contains SimpleName MethodInvocation SimpleName legacy type name prefix
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName legacy type name prefix
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName trait pray index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName trait pray index
+get SimpleName MethodInvocation SimpleName trait pray index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+trait pray index SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trait pray index
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName expected trait pray struct name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+trait pray index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+get name SimpleName MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName vendor pii index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName vendor pii index
+get SimpleName MethodInvocation SimpleName vendor pii index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+vendor pii index SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vendor pii index
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName expected vendor pii struct name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected vendor pii struct name
+vendor pii index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected vendor pii struct name
+get name SimpleName MethodInvocation MethodInvocation SimpleName expected vendor pii struct name
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation SimpleName finance index
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName finance index
+get SimpleName MethodInvocation SimpleName finance index
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get SimpleName MethodInvocation MethodInvocation SimpleName get name
+finance index SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName finance index
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName expected finance struct name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected finance struct name
+finance index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected finance struct name
+get name SimpleName MethodInvocation MethodInvocation SimpleName expected finance struct name
+new types SimpleName MethodInvocation SimpleName get struct defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get struct defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get struct defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get struct defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get attribute defs SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation SimpleName get entity defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get attribute defs SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation SimpleName expected trait pray struct name
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+get type name SimpleName MethodInvocation MethodInvocation SimpleName expected trait pray struct name
+new types SimpleName MethodInvocation SimpleName get entity defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get attribute defs SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation SimpleName expected vendor pii struct name
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation SimpleName expected vendor pii struct name
+arrays StringLiteral MethodInvocation SimpleName expected vendor pii struct name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName format
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral arrays
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected vendor pii struct name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral arrays
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected vendor pii struct name
+new types SimpleName MethodInvocation SimpleName get entity defs
+new types SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity defs SimpleName MethodInvocation MethodInvocation SimpleName get
+new types SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+new types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get entity defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation SimpleName get attribute defs
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get attribute defs
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get attribute defs SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get attribute defs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+get SimpleName MethodInvocation MethodInvocation SimpleName get type name
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral mapstrings
+string SimpleName MethodInvocation SimpleName expected finance struct name
+format SimpleName MethodInvocation StringLiteral mapstrings
+format SimpleName MethodInvocation SimpleName expected finance struct name
+mapstrings StringLiteral MethodInvocation SimpleName expected finance struct name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName string
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName format
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral mapstrings
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected finance struct name
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName string
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral mapstrings
+get type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected finance struct name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert new types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new types
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+void PrimitiveType MethodDeclaration SimpleName assert new types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName finance index
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new types
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName finance index
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert new types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+new types SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+trait pray index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+vendor pii index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+vendor pii index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+vendor pii index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+vendor pii index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+vendor pii index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+finance index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+finance index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+finance index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+expected trait pray struct name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+expected trait pray struct name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+expected vendor pii struct name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert new types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert new types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait pray index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vendor pii index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName finance index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected trait pray struct name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected vendor pii struct name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expected finance struct name

@@ -1,0 +1,116 @@
+atlas client v SimpleName MethodInvocation SimpleName call api with body and params
+atlas client v SimpleName MethodInvocation QualifiedName atlas clientapi v version
+call api with body and params SimpleName MethodInvocation QualifiedName atlas clientapi v version
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas client v
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with body and params
+response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas clientapi v version
+object node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName response
+assert not null SimpleName MethodInvocation SimpleName response
+properties configuration SimpleName SimpleType ClassInstanceCreation StringLiteral atlasbuildinfoproperties
+build configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties configuration
+build configuration SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral atlasbuildinfoproperties
+properties configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName build configuration
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation StringLiteral version
+get SimpleName MethodInvocation StringLiteral version
+response SimpleName MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation SimpleName as text
+version StringLiteral MethodInvocation MethodInvocation SimpleName as text
+build configuration SimpleName MethodInvocation SimpleName get string
+build configuration SimpleName MethodInvocation StringLiteral buildversion
+get string SimpleName MethodInvocation StringLiteral buildversion
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral version
+assert SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral buildversion
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral version
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral buildversion
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build configuration
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral buildversion
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+response SimpleName MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation SimpleName as text
+name StringLiteral MethodInvocation MethodInvocation SimpleName as text
+build configuration SimpleName MethodInvocation SimpleName get string
+build configuration SimpleName MethodInvocation StringLiteral projectname
+get string SimpleName MethodInvocation StringLiteral projectname
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral projectname
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral projectname
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build configuration
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral projectname
+response SimpleName MethodInvocation SimpleName get
+response SimpleName MethodInvocation StringLiteral description
+get SimpleName MethodInvocation StringLiteral description
+response SimpleName MethodInvocation MethodInvocation SimpleName as text
+get SimpleName MethodInvocation MethodInvocation SimpleName as text
+description StringLiteral MethodInvocation MethodInvocation SimpleName as text
+build configuration SimpleName MethodInvocation SimpleName get string
+build configuration SimpleName MethodInvocation StringLiteral projectdescription
+get string SimpleName MethodInvocation StringLiteral projectdescription
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+assert SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral projectdescription
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName as text
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName build configuration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral projectdescription
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build configuration
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+as text SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral projectdescription
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get version
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get version
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get version
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get version SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get version
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get version
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,113 @@
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName item
+export context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> process object id
+log SimpleName MethodInvocation SimpleName item
+debug SimpleName MethodInvocation StringLiteral ==> process object id
+debug SimpleName MethodInvocation SimpleName item
+==> process object id StringLiteral MethodInvocation SimpleName item
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity with ext info
+get starting entity SimpleName MethodInvocation SimpleName item
+get starting entity SimpleName MethodInvocation SimpleName context
+item SimpleName MethodInvocation SimpleName context
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get starting entity
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+entities SimpleName MethodInvocation SimpleName size
+entities SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName entity with ext info
+entity with ext info SimpleName MethodInvocation SimpleName get entity
+entity with ext info SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+process entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity with ext info
+process entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get entity
+process entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+process entity SimpleName MethodInvocation SimpleName context
+entity with ext info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName context
+get guid SimpleName MethodInvocation MethodInvocation SimpleName context
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity with ext info SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+contextguids to process QualifiedName MethodInvocation SimpleName is empty
+contextguids to process QualifiedName MethodInvocation SimpleName is empty
+contextguids to process QualifiedName MethodInvocation SimpleName remove
+contextguids to process QualifiedName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName contextguids to process
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+guid SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+process entity SimpleName MethodInvocation SimpleName guid
+process entity SimpleName MethodInvocation SimpleName context
+guid SimpleName MethodInvocation SimpleName context
+contextguids lineage to process QualifiedName MethodInvocation SimpleName is empty
+contextguids to process QualifiedName MethodInvocation SimpleName add all
+contextguids to process QualifiedName MethodInvocation QualifiedName contextguids lineage to process
+add all SimpleName MethodInvocation QualifiedName contextguids lineage to process
+contextguids lineage to process QualifiedName MethodInvocation SimpleName clear
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral fetching entity failed for {}
+log SimpleName MethodInvocation SimpleName item
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation StringLiteral fetching entity failed for {}
+error SimpleName MethodInvocation SimpleName item
+error SimpleName MethodInvocation SimpleName excp
+fetching entity failed for {} StringLiteral MethodInvocation SimpleName item
+fetching entity failed for {} StringLiteral MethodInvocation SimpleName excp
+item SimpleName MethodInvocation SimpleName excp
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== process object id
+log SimpleName MethodInvocation SimpleName item
+debug SimpleName MethodInvocation StringLiteral <== process object id
+debug SimpleName MethodInvocation SimpleName item
+<== process object id StringLiteral MethodInvocation SimpleName item
+private Modifier MethodDeclaration SimpleType QualifiedName atlas export resultoperation status
+private Modifier MethodDeclaration SimpleName process object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName item
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+atlas export resultoperation status QualifiedName SimpleType MethodDeclaration SimpleName process object id
+atlas export resultoperation status QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName item
+atlas export resultoperation status QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+atlas export resultoperation status QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+atlas export resultoperation status QualifiedName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+process object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+process object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName item
+process object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName export context
+process object id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+process object id SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+process object id SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+process object id SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+item SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+atlas service exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+atlas exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas export resultoperation status
+public Modifier TypeDeclaration MethodDeclaration SimpleName process object id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName atlas export resultoperation status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process object id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

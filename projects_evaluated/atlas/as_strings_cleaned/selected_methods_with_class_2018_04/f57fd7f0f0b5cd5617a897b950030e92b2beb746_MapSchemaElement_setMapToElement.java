@@ -1,0 +1,20 @@
+schema element SimpleName SimpleType SingleVariableDeclaration SimpleName map to element
+map to element SimpleName FieldAccess Assignment SimpleName map to element
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set map to element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName schema element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map to element
+void PrimitiveType MethodDeclaration SimpleName set map to element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName schema element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map to element
+set map to element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName schema element
+set map to element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map to element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set map to element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map to element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set map to element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map to element

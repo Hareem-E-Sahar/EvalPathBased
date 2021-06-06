@@ -1,0 +1,188 @@
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create map owner and value entities
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity definition
+entity definition SimpleName MethodInvocation SimpleName get id
+entity definition SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity definition
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName map owner guid
+get entity definition SimpleName MethodInvocation SimpleName map owner guid
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner instance
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner instance
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName object
+assert not null SimpleName MethodInvocation SimpleName object
+object SimpleName InstanceofExpression SimpleType SimpleName map
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+string SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+i typed referenceable instance SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+map SimpleName VariableDeclarationFragment CastExpression SimpleName object
+map SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName map
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation StringLiteral value
+get SimpleName MethodInvocation StringLiteral value
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map value instance SimpleName VariableDeclarationFragment MethodInvocation StringLiteral value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value instance
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName map value instance
+assert not null SimpleName MethodInvocation SimpleName map value instance
+map value instance SimpleName MethodInvocation SimpleName get id
+map value instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+map value guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map value instance
+map value guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+map value guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value guid
+composite map owner typefield mappingfields QualifiedName MethodInvocation SimpleName get
+composite map owner typefield mappingfields QualifiedName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+graph helper SimpleName MethodInvocation SimpleName get edge label
+graph helper SimpleName MethodInvocation SimpleName composite map owner type
+graph helper SimpleName MethodInvocation MethodInvocation QualifiedName composite map owner typefield mappingfields
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get
+graph helper SimpleName MethodInvocation MethodInvocation StringLiteral map
+get edge label SimpleName MethodInvocation SimpleName composite map owner type
+get edge label SimpleName MethodInvocation MethodInvocation QualifiedName composite map owner typefield mappingfields
+get edge label SimpleName MethodInvocation MethodInvocation SimpleName get
+get edge label SimpleName MethodInvocation MethodInvocation StringLiteral map
+composite map owner type SimpleName MethodInvocation MethodInvocation QualifiedName composite map owner typefield mappingfields
+composite map owner type SimpleName MethodInvocation MethodInvocation SimpleName get
+composite map owner type SimpleName MethodInvocation MethodInvocation StringLiteral map
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge label
+edge label SimpleName VariableDeclarationFragment MethodInvocation SimpleName composite map owner type
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName composite map owner typefield mappingfields
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+edge label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral map
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge label
+edge label SimpleName InfixExpression StringLiteral .
+edge label SimpleName InfixExpression StringLiteral value
+. StringLiteral InfixExpression StringLiteral value
+map entry label SimpleName VariableDeclarationFragment InfixExpression SimpleName edge label
+map entry label SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+map entry label SimpleName VariableDeclarationFragment InfixExpression StringLiteral value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map entry label
+atlas edge label SimpleName SimpleType ClassInstanceCreation SimpleName map entry label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas edge label
+atlas edge label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName map entry label
+atlas edge label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas edge label
+graph helper SimpleName MethodInvocation SimpleName get instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get vertex for guid
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+get instance SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+get vertex for guid SimpleName MethodInvocation SimpleName map owner guid
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph helper
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertex for guid
+map owner vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner vertex
+atlas edge label SimpleName MethodInvocation SimpleName get qualified map key
+map owner vertex SimpleName MethodInvocation SimpleName get property
+map owner vertex SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+map owner vertex SimpleName MethodInvocation MethodInvocation SimpleName get qualified map key
+map owner vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+get property SimpleName MethodInvocation MethodInvocation SimpleName atlas edge label
+get property SimpleName MethodInvocation MethodInvocation SimpleName get qualified map key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName object
+object SimpleName Assignment MethodInvocation SimpleName map owner vertex
+object SimpleName Assignment MethodInvocation SimpleName get property
+object SimpleName Assignment MethodInvocation MethodInvocation SimpleName atlas edge label
+object SimpleName Assignment MethodInvocation MethodInvocation SimpleName get qualified map key
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName object
+assert not null SimpleName MethodInvocation SimpleName object
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+delete entities SimpleName MethodInvocation SimpleName map owner guid
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+map owner guid SimpleName MethodInvocation MethodInvocation SimpleName get deleted entities
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName delete entities
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map owner guid
+deleted entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get deleted entities
+deleted entities SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+deleted entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+deleted entities SimpleName MethodInvocation SimpleName contains
+deleted entities SimpleName MethodInvocation SimpleName map owner guid
+contains SimpleName MethodInvocation SimpleName map owner guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+deleted entities SimpleName MethodInvocation SimpleName contains
+deleted entities SimpleName MethodInvocation SimpleName map value guid
+contains SimpleName MethodInvocation SimpleName map value guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName map value guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName map value guid
+assert entity deleted SimpleName MethodInvocation SimpleName map owner guid
+assert entity deleted SimpleName MethodInvocation SimpleName map value guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete entities with composite map reference
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete entities with composite map reference
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete entities with composite map reference
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete entities with composite map reference SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete entities with composite map reference
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete entities with composite map reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

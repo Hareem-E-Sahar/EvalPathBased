@@ -1,0 +1,16 @@
+search parameters SimpleName MethodInvocation SimpleName get query
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName search parameters
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get query
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName search parameters
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get query
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName need full textrocessor
+boolean PrimitiveType MethodDeclaration SimpleName need full textrocessor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName need full textrocessor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName need full textrocessor

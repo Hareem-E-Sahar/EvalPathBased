@@ -1,0 +1,83 @@
+zoo cache SimpleName SimpleType SingleVariableDeclaration SimpleName zoo cache
+uuid SimpleName SimpleType SingleVariableDeclaration SimpleName instance id
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName zoo cache
+argument checker SimpleName MethodInvocation SimpleName instance id
+not null SimpleName MethodInvocation SimpleName zoo cache
+not null SimpleName MethodInvocation SimpleName instance id
+zoo cache SimpleName MethodInvocation SimpleName instance id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+zoo cache SimpleName MethodInvocation SimpleName get children
+zoo cache SimpleName MethodInvocation InfixExpression QualifiedName constantszroot
+zoo cache SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszroot
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantszinstances
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName name
+constantszinstances QualifiedName InfixExpression StringLiteral /
+constantszinstances QualifiedName InfixExpression SimpleName name
+/ StringLiteral InfixExpression SimpleName name
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszinstances
+instance name path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+instance name path SimpleName VariableDeclarationFragment InfixExpression SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name path
+zoo cache SimpleName MethodInvocation SimpleName get
+zoo cache SimpleName MethodInvocation SimpleName instance name path
+get SimpleName MethodInvocation SimpleName instance name path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zoo cache
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance name path
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo cache
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name path
+from string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zoo cache
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name path
+iid SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+iid SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iid
+iid SimpleName MethodInvocation SimpleName equals
+iid SimpleName MethodInvocation SimpleName instance id
+equals SimpleName MethodInvocation SimpleName instance id
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName zoo cache
+name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName lookup instance name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance id
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName lookup instance name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance id
+string SimpleName SimpleType MethodDeclaration SimpleName lookup instance name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance id
+lookup instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo cache
+lookup instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+lookup instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName uuid
+lookup instance name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance id
+zoo cache SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup instance name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup instance name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zoo cache
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance id

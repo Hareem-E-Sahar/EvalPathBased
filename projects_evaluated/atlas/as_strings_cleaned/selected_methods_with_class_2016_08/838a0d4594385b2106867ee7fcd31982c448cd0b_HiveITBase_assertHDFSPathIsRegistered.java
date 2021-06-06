@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral searching for hdfs path {}
+log SimpleName MethodInvocation SimpleName path
+debug SimpleName MethodInvocation StringLiteral searching for hdfs path {}
+debug SimpleName MethodInvocation SimpleName path
+searching for hdfs path {} StringLiteral MethodInvocation SimpleName path
+fs data types SimpleName MethodInvocation SimpleName hdfs path
+fs data types SimpleName MethodInvocation MethodInvocation SimpleName to string
+hdfs path SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert entity is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs data types
+assert entity is registered SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hdfs path
+assert entity is registered SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert entity is registered SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+assert entity is registered SimpleName MethodInvocation SimpleName path
+fs data types SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+hdfs path SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+to string SimpleName MethodInvocation MethodInvocation QualifiedName atlas clientreferenceable attribute name
+fs data types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+hdfs path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName path
+to string SimpleName MethodInvocation MethodInvocation SimpleName path
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName path
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName assert hdfs path is registered
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName assert hdfs path is registered
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName path
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+assert hdfs path is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert hdfs path is registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+assert hdfs path is registered SimpleName MethodDeclaration SimpleType SimpleName exception
+path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert hdfs path is registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert hdfs path is registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

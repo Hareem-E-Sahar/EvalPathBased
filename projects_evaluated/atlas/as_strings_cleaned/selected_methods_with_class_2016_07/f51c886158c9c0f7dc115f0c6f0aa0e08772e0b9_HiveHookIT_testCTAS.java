@@ -1,0 +1,90 @@
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName create table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+table StringLiteral InfixExpression MethodInvocation SimpleName random
+ctas table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+ctas table name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctas table name
+create table StringLiteral InfixExpression SimpleName ctas table name
+create table StringLiteral InfixExpression StringLiteral as select * from
+create table StringLiteral InfixExpression SimpleName table name
+ctas table name SimpleName InfixExpression StringLiteral as select * from
+ctas table name SimpleName InfixExpression SimpleName table name
+as select * from StringLiteral InfixExpression SimpleName table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral create table
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName ctas table name
+query SimpleName VariableDeclarationFragment InfixExpression StringLiteral as select * from
+query SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+run command SimpleName MethodInvocation SimpleName query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName read entity
+get inputs SimpleName MethodInvocation SimpleName table name
+get inputs SimpleName MethodInvocation QualifiedName entitytypetable
+table name SimpleName MethodInvocation QualifiedName entitytypetable
+read entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inputs
+read entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+read entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName read entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName read entities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get inputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName write entity
+get outputs SimpleName MethodInvocation SimpleName ctas table name
+get outputs SimpleName MethodInvocation QualifiedName entitytypetable
+ctas table name SimpleName MethodInvocation QualifiedName entitytypetable
+write entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outputs
+write entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctas table name
+write entities SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName write entity
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName write entities
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get outputs
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctas table name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName entitytypetable
+construct event SimpleName MethodInvocation SimpleName query
+construct event SimpleName MethodInvocation QualifiedName hive operationcreatetable as select
+construct event SimpleName MethodInvocation SimpleName read entities
+construct event SimpleName MethodInvocation SimpleName write entities
+query SimpleName MethodInvocation QualifiedName hive operationcreatetable as select
+query SimpleName MethodInvocation SimpleName read entities
+query SimpleName MethodInvocation SimpleName write entities
+hive operationcreatetable as select QualifiedName MethodInvocation SimpleName read entities
+hive operationcreatetable as select QualifiedName MethodInvocation SimpleName write entities
+read entities SimpleName MethodInvocation SimpleName write entities
+assert process is registered SimpleName MethodInvocation MethodInvocation SimpleName construct event
+assert process is registered SimpleName MethodInvocation MethodInvocation SimpleName query
+assert process is registered SimpleName MethodInvocation MethodInvocation QualifiedName hive operationcreatetable as select
+assert process is registered SimpleName MethodInvocation MethodInvocation SimpleName read entities
+assert process is registered SimpleName MethodInvocation MethodInvocation SimpleName write entities
+assert table is registered SimpleName MethodInvocation SimpleName default db
+assert table is registered SimpleName MethodInvocation SimpleName ctas table name
+default db SimpleName MethodInvocation SimpleName ctas table name
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test ctas
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test ctas
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test ctas
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test ctas SimpleName MethodDeclaration SimpleType SimpleName exception
+test ctas SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test ctas SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test ctas
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test ctas
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

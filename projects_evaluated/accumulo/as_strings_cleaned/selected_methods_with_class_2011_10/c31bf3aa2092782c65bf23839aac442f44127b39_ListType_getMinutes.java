@@ -1,0 +1,19 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+get int parameter SimpleName MethodInvocation SimpleName req
+get int parameter SimpleName MethodInvocation StringLiteral minutes
+get int parameter SimpleName MethodInvocation QualifiedName summarydefault minutes
+req SimpleName MethodInvocation StringLiteral minutes
+req SimpleName MethodInvocation QualifiedName summarydefault minutes
+minutes StringLiteral MethodInvocation QualifiedName summarydefault minutes
+int PrimitiveType MethodDeclaration SimpleName get minutes
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName req
+get minutes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName http servlet request
+get minutes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName req
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get minutes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get minutes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName req

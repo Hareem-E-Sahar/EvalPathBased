@@ -1,0 +1,128 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral user idconnectionsbynamename
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idconnectionsbynamename
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idconnectionsbynamename
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idconnectionsbynamename
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+method name SimpleName VariableDeclarationFragment StringLiteral get connection by name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by name
+log SimpleName MethodInvocation SimpleName is debug enabled
+calling method StringLiteral InfixExpression SimpleName method name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral calling method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral calling method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connection response
+connection response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate initialization SimpleName MethodInvocation SimpleName method name
+connection handler SimpleName SimpleType ClassInstanceCreation SimpleName access service name
+connection handler SimpleName SimpleType ClassInstanceCreation SimpleName repository connector
+access service name SimpleName ClassInstanceCreation SimpleName repository connector
+connection handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName connection handler
+connection handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName access service name
+connection handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName repository connector
+connection handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection handler
+connection handler SimpleName MethodInvocation SimpleName get connection by name
+connection handler SimpleName MethodInvocation SimpleName user id
+connection handler SimpleName MethodInvocation SimpleName name
+get connection by name SimpleName MethodInvocation SimpleName user id
+get connection by name SimpleName MethodInvocation SimpleName name
+user id SimpleName MethodInvocation SimpleName name
+response SimpleName MethodInvocation SimpleName set connection
+response SimpleName MethodInvocation MethodInvocation SimpleName connection handler
+response SimpleName MethodInvocation MethodInvocation SimpleName get connection by name
+response SimpleName MethodInvocation MethodInvocation SimpleName user id
+response SimpleName MethodInvocation MethodInvocation SimpleName name
+set connection SimpleName MethodInvocation MethodInvocation SimpleName connection handler
+set connection SimpleName MethodInvocation MethodInvocation SimpleName get connection by name
+set connection SimpleName MethodInvocation MethodInvocation SimpleName user id
+set connection SimpleName MethodInvocation MethodInvocation SimpleName name
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+property server exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture property server exception SimpleName MethodInvocation SimpleName response
+capture property server exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+unrecognized connection name exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture unrecognized connection name exception SimpleName MethodInvocation SimpleName response
+capture unrecognized connection name exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+ambiguous connection name exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture ambiguous connection name exception SimpleName MethodInvocation SimpleName response
+capture ambiguous connection name exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+response SimpleName MethodInvocation SimpleName to string
+returning from method StringLiteral InfixExpression SimpleName method name
+returning from method StringLiteral InfixExpression StringLiteral with response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName to string
+method name SimpleName InfixExpression StringLiteral with response
+method name SimpleName InfixExpression MethodInvocation SimpleName response
+method name SimpleName InfixExpression MethodInvocation SimpleName to string
+with response StringLiteral InfixExpression MethodInvocation SimpleName response
+with response StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+log SimpleName MethodInvocation InfixExpression StringLiteral with response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral with response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName connection response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName get connection by name
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get connection by name
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get connection by name
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get connection by name
+user idconnectionsbynamename StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName get connection by name
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName name
+connection response SimpleName SimpleType MethodDeclaration SimpleName get connection by name
+connection response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+connection response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get connection by name SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connection by name SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection response
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection by name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection by name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

@@ -1,0 +1,150 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+boolean PrimitiveType SingleVariableDeclaration SimpleName name as key
+get zoo cache SimpleName MethodInvocation SimpleName instance
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get zoo cache
+zc SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+zoo cache SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zc
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zc SimpleName MethodInvocation SimpleName get children
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get children SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get children SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+table ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+table ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+table ids SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsztables
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression SimpleName table id
+get root SimpleName MethodInvocation InfixExpression SimpleName table id
+instance SimpleName MethodInvocation InfixExpression SimpleName table id
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+constantsztables QualifiedName InfixExpression StringLiteral /
+constantsztables QualifiedName InfixExpression SimpleName table id
+constantsztables QualifiedName InfixExpression QualifiedName constantsztable name
+/ StringLiteral InfixExpression SimpleName table id
+/ StringLiteral InfixExpression QualifiedName constantsztable name
+table id SimpleName InfixExpression QualifiedName constantsztable name
+zc SimpleName MethodInvocation SimpleName get
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+zc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+zc SimpleName MethodInvocation InfixExpression StringLiteral /
+zc SimpleName MethodInvocation InfixExpression SimpleName table id
+zc SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName instance
+get SimpleName MethodInvocation InfixExpression QualifiedName constantsztables
+get SimpleName MethodInvocation InfixExpression StringLiteral /
+get SimpleName MethodInvocation InfixExpression SimpleName table id
+get SimpleName MethodInvocation InfixExpression QualifiedName constantsztable name
+tbl path SimpleName VariableDeclarationFragment MethodInvocation SimpleName zc
+tbl path SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tbl path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsztables
+tbl path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+tbl path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName table id
+tbl path SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName constantsztable name
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl path
+string SimpleName SimpleType ClassInstanceCreation SimpleName tbl path
+table map SimpleName MethodInvocation SimpleName put
+table map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+table map SimpleName MethodInvocation ClassInstanceCreation SimpleName tbl path
+table map SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName tbl path
+put SimpleName MethodInvocation SimpleName table id
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table id
+tbl path SimpleName ClassInstanceCreation MethodInvocation SimpleName table id
+string SimpleName SimpleType ClassInstanceCreation SimpleName tbl path
+table map SimpleName MethodInvocation SimpleName put
+table map SimpleName MethodInvocation SimpleName table id
+table map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+table map SimpleName MethodInvocation ClassInstanceCreation SimpleName tbl path
+put SimpleName MethodInvocation SimpleName table id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName tbl path
+table id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+table id SimpleName MethodInvocation ClassInstanceCreation SimpleName tbl path
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName table map
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName put
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName table id
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName table map
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName put
+name as key SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName table id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table ids
+table id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table ids
+table ids SimpleName EnhancedForStatement Block ReturnStatement SimpleName table map
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name as key
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name as key
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName table ids
+static Modifier MethodDeclaration Block ReturnStatement SimpleName table map
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get map
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get map
+get map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+get map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get map SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name as key
+get map SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table ids
+get map SimpleName MethodDeclaration Block ReturnStatement SimpleName table map
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name as key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name as key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name as key

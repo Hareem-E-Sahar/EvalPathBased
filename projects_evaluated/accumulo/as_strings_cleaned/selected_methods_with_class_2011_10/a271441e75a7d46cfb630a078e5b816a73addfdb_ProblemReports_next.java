@@ -1,0 +1,31 @@
+get iter SimpleName MethodInvocation MethodInvocation SimpleName has next
+get iter SimpleName MethodInvocation MethodInvocation SimpleName next
+problem report SimpleName MethodInvocation SimpleName decode zoo keeper entry
+problem report SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iter
+problem report SimpleName MethodInvocation MethodInvocation SimpleName next
+decode zoo keeper entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iter
+decode zoo keeper entry SimpleName MethodInvocation MethodInvocation SimpleName next
+get iter SimpleName MethodInvocation MethodInvocation SimpleName has next
+get iter SimpleName MethodInvocation MethodInvocation SimpleName next
+problem report SimpleName MethodInvocation SimpleName decode metadata entry
+problem report SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iter
+problem report SimpleName MethodInvocation MethodInvocation SimpleName next
+decode metadata entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get iter
+decode metadata entry SimpleName MethodInvocation MethodInvocation SimpleName next
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName problem report
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName problem report
+public Modifier MethodDeclaration SimpleName next
+problem report SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName problem report
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName problem report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

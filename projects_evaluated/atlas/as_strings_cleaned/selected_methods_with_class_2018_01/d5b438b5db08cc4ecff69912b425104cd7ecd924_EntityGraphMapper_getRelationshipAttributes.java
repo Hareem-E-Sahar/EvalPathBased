@@ -1,0 +1,56 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName atlas related object id
+atlas related object id SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get relationship attributes
+relationship struct SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship attributes
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship struct
+relationship struct SimpleName MethodInvocation SimpleName get attributes
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName key relationship attributes
+get SimpleName MethodInvocation SimpleName key relationship attributes
+relationship struct SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+relationship struct SimpleName VariableDeclarationFragment MethodInvocation SimpleName key relationship attributes
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship struct
+relationship struct SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName relationship struct
+atlas type util SimpleName MethodInvocation SimpleName to struct attributes
+atlas type util SimpleName MethodInvocation ParenthesizedExpression CastExpression SimpleName relationship struct
+to struct attributes SimpleName MethodInvocation ParenthesizedExpression CastExpression SimpleName relationship struct
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName get relationship attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName get relationship attributes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attributes
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attributes
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attributes
+get relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get relationship attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get relationship attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

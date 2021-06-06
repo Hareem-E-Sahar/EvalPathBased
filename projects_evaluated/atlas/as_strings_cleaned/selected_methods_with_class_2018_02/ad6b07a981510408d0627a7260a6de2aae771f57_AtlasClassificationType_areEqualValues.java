@@ -1,0 +1,51 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+atlas classification type SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName are equal values
+super type SimpleName MethodInvocation SimpleName val
+super type SimpleName MethodInvocation SimpleName val
+are equal values SimpleName MethodInvocation SimpleName val
+are equal values SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+atlas classification type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+are equal values SimpleName SuperMethodInvocation SimpleName val
+are equal values SimpleName SuperMethodInvocation SimpleName val
+val SimpleName SuperMethodInvocation SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName are equal values
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName are equal values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName super types
+boolean PrimitiveType MethodDeclaration SimpleName are equal values
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName super types
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration Block EnhancedForStatement SimpleName super types
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName are equal values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName are equal values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

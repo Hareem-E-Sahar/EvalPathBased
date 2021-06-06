@@ -1,0 +1,7 @@
+configuration SimpleName SimpleType MethodDeclaration SimpleName get conf
+get conf SimpleName MethodDeclaration Block ReturnStatement SimpleName conf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get conf

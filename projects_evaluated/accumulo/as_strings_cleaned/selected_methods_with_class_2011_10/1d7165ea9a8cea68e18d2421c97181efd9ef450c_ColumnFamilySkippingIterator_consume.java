@@ -1,0 +1,129 @@
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+get source SimpleName MethodInvocation MethodInvocation SimpleName has top
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+col fam set SimpleName MethodInvocation SimpleName contains
+col fam set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+col fam set SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+contains SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+count SimpleName InfixExpression NumberLiteral empty
+get source SimpleName MethodInvocation MethodInvocation SimpleName next
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+sorted col fams SimpleName MethodInvocation SimpleName higher
+sorted col fams SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+sorted col fams SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+higher SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+higher SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+higher cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName sorted col fams
+higher cf SimpleName VariableDeclarationFragment MethodInvocation SimpleName higher
+higher cf SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column family data
+byte sequence SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName higher cf
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName following key
+get top key SimpleName MethodInvocation MethodInvocation SimpleName following key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName partial keyrow
+get top key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+following key SimpleName MethodInvocation QualifiedName partial keyrow
+reseek SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+reseek SimpleName MethodInvocation MethodInvocation SimpleName following key
+reseek SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get row data
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get row data
+get top key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to array
+get row data SimpleName MethodInvocation MethodInvocation SimpleName to array
+higher cf SimpleName MethodInvocation SimpleName to array
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName higher cf
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to array
+key SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation ArrayCreation NumberLiteral empty
+key SimpleName SimpleType ClassInstanceCreation QualifiedName longmax value
+to array SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName higher cf
+to array SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to array
+to array SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+get row data SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName longmax value
+to array SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+higher cf SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+higher cf SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+higher cf SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+to array SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+empty NumberLiteral ArrayCreation ClassInstanceCreation ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation ClassInstanceCreation QualifiedName longmax value
+empty NumberLiteral ArrayCreation ClassInstanceCreation QualifiedName longmax value
+byte PrimitiveType ArrayType ArrayCreation ClassInstanceCreation QualifiedName longmax value
+empty NumberLiteral ArrayCreation ClassInstanceCreation QualifiedName longmax value
+reseek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+reseek SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to array
+reseek SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName higher cf
+reseek SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to array
+reseek SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+reseek SimpleName MethodInvocation ClassInstanceCreation ArrayCreation NumberLiteral empty
+reseek SimpleName MethodInvocation ClassInstanceCreation QualifiedName longmax value
+count SimpleName Assignment NumberLiteral empty
+col fam set SimpleName MethodInvocation SimpleName size
+col fam set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+col fam set SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+get source SimpleName MethodInvocation MethodInvocation SimpleName has top
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column family data
+get top key SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+col fam set SimpleName MethodInvocation SimpleName contains
+col fam set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+col fam set SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+contains SimpleName MethodInvocation MethodInvocation SimpleName get column family data
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName col fam set
+has top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+count SimpleName InfixExpression NumberLiteral empty
+get source SimpleName MethodInvocation MethodInvocation SimpleName next
+get source SimpleName MethodInvocation MethodInvocation SimpleName get top key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName following key
+get top key SimpleName MethodInvocation MethodInvocation SimpleName following key
+get source SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName partial keyrow colfam
+get top key SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam
+following key SimpleName MethodInvocation QualifiedName partial keyrow colfam
+reseek SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get top key
+reseek SimpleName MethodInvocation MethodInvocation SimpleName following key
+reseek SimpleName MethodInvocation MethodInvocation QualifiedName partial keyrow colfam
+count SimpleName Assignment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName inclusive
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName consume
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName consume
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block IfStatement SimpleName inclusive
+void PrimitiveType MethodDeclaration SimpleName consume
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName inclusive
+consume SimpleName MethodDeclaration SimpleType SimpleName io exception
+consume SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+consume SimpleName MethodDeclaration Block IfStatement SimpleName inclusive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName consume
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName consume
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

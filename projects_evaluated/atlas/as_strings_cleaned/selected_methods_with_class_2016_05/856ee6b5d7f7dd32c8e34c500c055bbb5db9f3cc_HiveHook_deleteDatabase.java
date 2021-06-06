@@ -1,0 +1,125 @@
+hive meta store bridge SimpleName SimpleType SingleVariableDeclaration SimpleName dgi bridge
+hive event context SimpleName SimpleType SingleVariableDeclaration SimpleName event
+eventoutputs QualifiedName MethodInvocation SimpleName size
+eventoutputs QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral starting deletion of tables and databases with cascade {}
+log SimpleName MethodInvocation QualifiedName eventquery str
+info SimpleName MethodInvocation StringLiteral starting deletion of tables and databases with cascade {}
+info SimpleName MethodInvocation QualifiedName eventquery str
+starting deletion of tables and databases with cascade {} StringLiteral MethodInvocation QualifiedName eventquery str
+write entity SimpleName SimpleType SingleVariableDeclaration SimpleName output
+output SimpleName MethodInvocation SimpleName get type
+typetable QualifiedName MethodInvocation SimpleName equals
+typetable QualifiedName MethodInvocation MethodInvocation SimpleName output
+typetable QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName output
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+delete table SimpleName MethodInvocation SimpleName dgi bridge
+delete table SimpleName MethodInvocation SimpleName event
+delete table SimpleName MethodInvocation SimpleName output
+dgi bridge SimpleName MethodInvocation SimpleName event
+dgi bridge SimpleName MethodInvocation SimpleName output
+event SimpleName MethodInvocation SimpleName output
+output SimpleName MethodInvocation SimpleName get type
+typedatabase QualifiedName MethodInvocation SimpleName equals
+typedatabase QualifiedName MethodInvocation MethodInvocation SimpleName output
+typedatabase QualifiedName MethodInvocation MethodInvocation SimpleName get type
+equals SimpleName MethodInvocation MethodInvocation SimpleName output
+equals SimpleName MethodInvocation MethodInvocation SimpleName get type
+dgi bridge SimpleName MethodInvocation SimpleName get cluster name
+output SimpleName MethodInvocation SimpleName get database
+output SimpleName MethodInvocation MethodInvocation SimpleName get name
+get database SimpleName MethodInvocation MethodInvocation SimpleName get name
+hive meta store bridge SimpleName MethodInvocation SimpleName get db qualified name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+hive meta store bridge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output
+hive meta store bridge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get database
+hive meta store bridge SimpleName MethodInvocation MethodInvocation SimpleName get name
+get db qualified name SimpleName MethodInvocation MethodInvocation SimpleName dgi bridge
+get db qualified name SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get db qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output
+get db qualified name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get database
+get db qualified name SimpleName MethodInvocation MethodInvocation SimpleName get name
+dgi bridge SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+db qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+db qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get db qualified name
+db qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName dgi bridge
+db qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+db qualified name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName db qualified name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName hive meta store bridge
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get db qualified name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db qualified name
+event SimpleName MethodInvocation SimpleName get user
+hive data typeshive db QualifiedName MethodInvocation SimpleName get name
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName event
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+hook notificationentity delete request QualifiedName SimpleType ClassInstanceCreation SimpleName db qualified name
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+get user SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+event SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+get user SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+event SimpleName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+hive data typeshive db QualifiedName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+get name SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+hive data typeshive db QualifiedName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+atlas clientreferenceable attribute name QualifiedName ClassInstanceCreation SimpleName db qualified name
+messages SimpleName MethodInvocation SimpleName add
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity delete request
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+messages SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+messages SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+messages SimpleName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName hook notificationentity delete request
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName event
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive db
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName atlas clientreferenceable attribute name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName db qualified name
+write entity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName eventoutputs
+output SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName eventoutputs
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete database
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+private Modifier MethodDeclaration Block EnhancedForStatement QualifiedName eventoutputs
+void PrimitiveType MethodDeclaration SimpleName delete database
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration Block EnhancedForStatement QualifiedName eventoutputs
+delete database SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive meta store bridge
+delete database SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+delete database SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName hive event context
+delete database SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+delete database SimpleName MethodDeclaration Block EnhancedForStatement QualifiedName eventoutputs
+dgi bridge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete database
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete database
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dgi bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

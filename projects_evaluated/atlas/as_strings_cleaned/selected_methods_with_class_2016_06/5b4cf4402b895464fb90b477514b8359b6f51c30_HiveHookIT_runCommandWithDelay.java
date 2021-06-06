@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+int PrimitiveType SingleVariableDeclaration SimpleName sleep ms
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral running command {}
+log SimpleName MethodInvocation SimpleName cmd
+debug SimpleName MethodInvocation StringLiteral running command {}
+debug SimpleName MethodInvocation SimpleName cmd
+running command {} StringLiteral MethodInvocation SimpleName cmd
+ss SimpleName MethodInvocation SimpleName set command type
+driver SimpleName MethodInvocation SimpleName run
+driver SimpleName MethodInvocation SimpleName cmd
+run SimpleName MethodInvocation SimpleName cmd
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName driver
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName run
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+command processor response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName get response code
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get response code
+assert equals SimpleName MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get response code SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+sleep ms SimpleName InfixExpression NumberLiteral empty
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName sleep ms
+sleep SimpleName MethodInvocation SimpleName sleep ms
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run command with delay
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+private Modifier MethodDeclaration SimpleType SimpleName command need retry exception
+void PrimitiveType MethodDeclaration SimpleName run command with delay
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+void PrimitiveType MethodDeclaration SimpleType SimpleName command need retry exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+run command with delay SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+run command with delay SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+run command with delay SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+run command with delay SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+run command with delay SimpleName MethodDeclaration SimpleType SimpleName command need retry exception
+run command with delay SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName command need retry exception
+cmd SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName command need retry exception
+sleep ms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName command need retry exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+sleep ms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+command need retry exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run command with delay
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName command need retry exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run command with delay
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sleep ms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName command need retry exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

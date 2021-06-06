@@ -1,0 +1,28 @@
+options SimpleName MethodInvocation SimpleName get
+options SimpleName MethodInvocation SimpleName service key
+get SimpleName MethodInvocation SimpleName service key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName options
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName service key
+service SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+service SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName options
+service SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+service SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName service key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+login exception SimpleName SimpleType ClassInstanceCreation StringLiteral error pam service was not defined
+create pam SimpleName MethodInvocation SimpleName service
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName initialize pam
+private Modifier MethodDeclaration SimpleType SimpleName login exception
+void PrimitiveType MethodDeclaration SimpleName initialize pam
+void PrimitiveType MethodDeclaration SimpleType SimpleName login exception
+initialize pam SimpleName MethodDeclaration SimpleType SimpleName login exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize pam
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName login exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize pam
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName login exception

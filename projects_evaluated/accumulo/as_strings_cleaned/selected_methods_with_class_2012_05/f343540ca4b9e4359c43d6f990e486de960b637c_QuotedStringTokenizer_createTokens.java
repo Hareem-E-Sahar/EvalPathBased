@@ -1,0 +1,309 @@
+in quote SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in quote
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+in escape sequence SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in escape sequence
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hex chars
+in quote char SimpleName VariableDeclarationFragment CharacterLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in quote char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CharacterLiteral empty
+input SimpleName MethodInvocation SimpleName length
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName input
+byte PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName length
+token SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+token SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName input
+token SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token length SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName token length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+input SimpleName MethodInvocation SimpleName get bytes
+input bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+input bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName input bytes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+input SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName input
+i SimpleName InfixExpression MethodInvocation SimpleName length
+input SimpleName MethodInvocation SimpleName char at
+input SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName input
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName input
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+in escape sequence SimpleName Assignment BooleanLiteral false
+ch SimpleName InfixExpression CharacterLiteral x
+hex chars SimpleName Assignment StringLiteral empty
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral \
+ch SimpleName InfixExpression InfixExpression InfixExpression SimpleName ch
+ch SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral \
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName ch
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral \
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression CharacterLiteral \\
+token SimpleName ArrayAccess PostfixExpression SimpleName token length
+input bytes SimpleName ArrayAccess SimpleName i
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName input bytes
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral can only escape single quotes double quotes the space character the backslash and hex input
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName i
+can only escape single quotes double quotes the space character the backslash and hex input StringLiteral ClassInstanceCreation SimpleName input
+can only escape single quotes double quotes the space character the backslash and hex input StringLiteral ClassInstanceCreation SimpleName i
+input SimpleName ClassInstanceCreation SimpleName i
+character SimpleName MethodInvocation SimpleName digit
+character SimpleName MethodInvocation SimpleName ch
+character SimpleName MethodInvocation NumberLiteral empty
+digit SimpleName MethodInvocation SimpleName ch
+digit SimpleName MethodInvocation NumberLiteral empty
+ch SimpleName MethodInvocation NumberLiteral empty
+digit SimpleName VariableDeclarationFragment MethodInvocation SimpleName character
+digit SimpleName VariableDeclarationFragment MethodInvocation SimpleName digit
+digit SimpleName VariableDeclarationFragment MethodInvocation SimpleName ch
+digit SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName digit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName character
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName digit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ch
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+digit SimpleName InfixExpression NumberLiteral empty
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral expected hex character
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName i
+expected hex character StringLiteral ClassInstanceCreation SimpleName input
+expected hex character StringLiteral ClassInstanceCreation SimpleName i
+input SimpleName ClassInstanceCreation SimpleName i
+hex chars SimpleName Assignment SimpleName ch
+hex chars SimpleName MethodInvocation SimpleName length
+hex chars SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+short SimpleName MethodInvocation SimpleName parse short
+short SimpleName MethodInvocation SimpleName hex chars
+short SimpleName MethodInvocation NumberLiteral empty
+parse short SimpleName MethodInvocation SimpleName hex chars
+parse short SimpleName MethodInvocation NumberLiteral empty
+hex chars SimpleName MethodInvocation NumberLiteral empty
+xff NumberLiteral InfixExpression MethodInvocation SimpleName short
+xff NumberLiteral InfixExpression MethodInvocation SimpleName parse short
+xff NumberLiteral InfixExpression MethodInvocation SimpleName hex chars
+xff NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+b SimpleName Assignment CastExpression PrimitiveType byte
+xff NumberLiteral InfixExpression SimpleName b
+character SimpleName MethodInvocation SimpleName is valid code point
+character SimpleName MethodInvocation InfixExpression NumberLiteral xff
+character SimpleName MethodInvocation InfixExpression SimpleName b
+is valid code point SimpleName MethodInvocation InfixExpression NumberLiteral xff
+is valid code point SimpleName MethodInvocation InfixExpression SimpleName b
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral unsupported nonascii character
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName i
+unsupported nonascii character StringLiteral ClassInstanceCreation SimpleName input
+unsupported nonascii character StringLiteral ClassInstanceCreation SimpleName i
+input SimpleName ClassInstanceCreation SimpleName i
+token SimpleName ArrayAccess PostfixExpression SimpleName token length
+token SimpleName ArrayAccess Assignment SimpleName b
+token length SimpleName PostfixExpression ArrayAccess Assignment SimpleName b
+ch SimpleName InfixExpression SimpleName in quote char
+in quote SimpleName Assignment BooleanLiteral false
+string SimpleName SimpleType ClassInstanceCreation SimpleName token
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token length
+string SimpleName SimpleType ClassInstanceCreation QualifiedName shellcharset
+token SimpleName ClassInstanceCreation NumberLiteral empty
+token SimpleName ClassInstanceCreation SimpleName token length
+token SimpleName ClassInstanceCreation QualifiedName shellcharset
+empty NumberLiteral ClassInstanceCreation SimpleName token length
+empty NumberLiteral ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName ClassInstanceCreation QualifiedName shellcharset
+tokens SimpleName MethodInvocation SimpleName add
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+tokens SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+tokens SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName Assignment NumberLiteral empty
+ch SimpleName InfixExpression CharacterLiteral \\
+in escape sequence SimpleName Assignment BooleanLiteral true
+token SimpleName ArrayAccess PostfixExpression SimpleName token length
+input bytes SimpleName ArrayAccess SimpleName i
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName input bytes
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+ch SimpleName InfixExpression CharacterLiteral \
+ch SimpleName InfixExpression CharacterLiteral empty
+ch SimpleName InfixExpression InfixExpression InfixExpression SimpleName ch
+ch SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+\ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName ch
+\ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+token length SimpleName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token length
+string SimpleName SimpleType ClassInstanceCreation QualifiedName shellcharset
+token SimpleName ClassInstanceCreation NumberLiteral empty
+token SimpleName ClassInstanceCreation SimpleName token length
+token SimpleName ClassInstanceCreation QualifiedName shellcharset
+empty NumberLiteral ClassInstanceCreation SimpleName token length
+empty NumberLiteral ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName ClassInstanceCreation QualifiedName shellcharset
+tokens SimpleName MethodInvocation SimpleName add
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+tokens SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+tokens SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName Assignment NumberLiteral empty
+in quote SimpleName Assignment BooleanLiteral true
+in quote char SimpleName Assignment SimpleName ch
+ch SimpleName InfixExpression CharacterLiteral empty
+token length SimpleName InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression InfixExpression InfixExpression SimpleName token length
+ch SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName token length
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token length
+string SimpleName SimpleType ClassInstanceCreation QualifiedName shellcharset
+token SimpleName ClassInstanceCreation NumberLiteral empty
+token SimpleName ClassInstanceCreation SimpleName token length
+token SimpleName ClassInstanceCreation QualifiedName shellcharset
+empty NumberLiteral ClassInstanceCreation SimpleName token length
+empty NumberLiteral ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName ClassInstanceCreation QualifiedName shellcharset
+tokens SimpleName MethodInvocation SimpleName add
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+tokens SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+tokens SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName Assignment NumberLiteral empty
+ch SimpleName InfixExpression CharacterLiteral \\
+in escape sequence SimpleName Assignment BooleanLiteral true
+ch SimpleName InfixExpression CharacterLiteral empty
+token SimpleName ArrayAccess PostfixExpression SimpleName token length
+input bytes SimpleName ArrayAccess SimpleName i
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName input bytes
+token SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+hex chars SimpleName InfixExpression IfStatement IfStatement SimpleName in quote
+in escape sequence SimpleName IfStatement IfStatement InfixExpression SimpleName hex chars
+in escape sequence SimpleName IfStatement IfStatement IfStatement SimpleName in quote
+char PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName in escape sequence
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+input SimpleName MethodInvocation SimpleName length
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral missing terminating quote
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+missing terminating quote StringLiteral ClassInstanceCreation SimpleName input
+missing terminating quote StringLiteral ClassInstanceCreation MethodInvocation SimpleName input
+missing terminating quote StringLiteral ClassInstanceCreation MethodInvocation SimpleName length
+input SimpleName ClassInstanceCreation MethodInvocation SimpleName input
+input SimpleName ClassInstanceCreation MethodInvocation SimpleName length
+in escape sequence SimpleName InfixExpression InfixExpression SimpleName hex chars
+input SimpleName MethodInvocation SimpleName length
+bad argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral escape sequence not complete
+bad argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName input
+bad argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+escape sequence not complete StringLiteral ClassInstanceCreation SimpleName input
+escape sequence not complete StringLiteral ClassInstanceCreation MethodInvocation SimpleName input
+escape sequence not complete StringLiteral ClassInstanceCreation MethodInvocation SimpleName length
+input SimpleName ClassInstanceCreation MethodInvocation SimpleName input
+input SimpleName ClassInstanceCreation MethodInvocation SimpleName length
+in quote SimpleName IfStatement ThrowStatement ClassInstanceCreation StringLiteral missing terminating quote
+in quote SimpleName IfStatement ThrowStatement ClassInstanceCreation SimpleName input
+in quote SimpleName IfStatement IfStatement InfixExpression SimpleName in escape sequence
+token length SimpleName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName token length
+string SimpleName SimpleType ClassInstanceCreation QualifiedName shellcharset
+token SimpleName ClassInstanceCreation NumberLiteral empty
+token SimpleName ClassInstanceCreation SimpleName token length
+token SimpleName ClassInstanceCreation QualifiedName shellcharset
+empty NumberLiteral ClassInstanceCreation SimpleName token length
+empty NumberLiteral ClassInstanceCreation QualifiedName shellcharset
+token length SimpleName ClassInstanceCreation QualifiedName shellcharset
+tokens SimpleName MethodInvocation SimpleName add
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+tokens SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+tokens SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+tokens SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token length
+add SimpleName MethodInvocation ClassInstanceCreation QualifiedName shellcharset
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName in quote
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName in quote
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create tokens
+private Modifier MethodDeclaration SimpleType SimpleName bad argument exception
+private Modifier MethodDeclaration SimpleType SimpleName unsupported encoding exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block IfStatement SimpleName in quote
+void PrimitiveType MethodDeclaration SimpleName create tokens
+void PrimitiveType MethodDeclaration SimpleType SimpleName bad argument exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName unsupported encoding exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName in quote
+create tokens SimpleName MethodDeclaration SimpleType SimpleName bad argument exception
+create tokens SimpleName MethodDeclaration SimpleType SimpleName unsupported encoding exception
+create tokens SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create tokens SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+create tokens SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+create tokens SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+create tokens SimpleName MethodDeclaration Block IfStatement SimpleName in quote
+bad argument exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unsupported encoding exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create tokens
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bad argument exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create tokens
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bad argument exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception

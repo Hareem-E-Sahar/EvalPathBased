@@ -1,0 +1,25 @@
+input stream reader SimpleName SimpleType ClassInstanceCreation FieldAccess SimpleName fis
+d SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+d SimpleName MethodInvocation SimpleName read line
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName read line
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName read line
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName read line
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read line SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read line
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read line
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

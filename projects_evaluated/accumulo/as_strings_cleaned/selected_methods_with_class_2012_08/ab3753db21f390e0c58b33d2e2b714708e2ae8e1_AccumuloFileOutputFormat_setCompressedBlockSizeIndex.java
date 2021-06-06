@@ -1,0 +1,51 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+long PrimitiveType SingleVariableDeclaration SimpleName cblock size index
+propertytable file compressed block size index QualifiedName MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation SimpleName set long
+conf SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size index
+conf SimpleName MethodInvocation MethodInvocation SimpleName get key
+conf SimpleName MethodInvocation SimpleName cblock size index
+set long SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file compressed block size index
+set long SimpleName MethodInvocation MethodInvocation SimpleName get key
+set long SimpleName MethodInvocation SimpleName cblock size index
+propertytable file compressed block size index QualifiedName MethodInvocation MethodInvocation SimpleName cblock size index
+get key SimpleName MethodInvocation MethodInvocation SimpleName cblock size index
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set compressed block size index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set compressed block size index
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+void PrimitiveType MethodDeclaration SimpleName set compressed block size index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+set compressed block size index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set compressed block size index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set compressed block size index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set compressed block size index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set compressed block size index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cblock size index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set compressed block size index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cblock size index

@@ -1,0 +1,11 @@
+enumeration SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName enumeration
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get init parameter names
+enumeration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get init parameter names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get init parameter names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get init parameter names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get init parameter names

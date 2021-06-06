@@ -1,0 +1,91 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral fetching schema for table name
+log SimpleName MethodInvocation SimpleName table name
+info SimpleName MethodInvocation StringLiteral fetching schema for table name
+info SimpleName MethodInvocation SimpleName table name
+fetching schema for table name StringLiteral MethodInvocation SimpleName table name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName table name
+param checker SimpleName MethodInvocation StringLiteral table name cannot be null
+not empty SimpleName MethodInvocation SimpleName table name
+not empty SimpleName MethodInvocation StringLiteral table name cannot be null
+table name SimpleName MethodInvocation StringLiteral table name cannot be null
+validate table exists SimpleName MethodInvocation SimpleName table name
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate table exists
+type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type name
+hive table schema query prefix SimpleName InfixExpression SimpleName type name
+properties conf SimpleName MethodInvocation SimpleName get string
+properties conf SimpleName MethodInvocation InfixExpression SimpleName hive table schema query prefix
+properties conf SimpleName MethodInvocation InfixExpression SimpleName type name
+get string SimpleName MethodInvocation InfixExpression SimpleName hive table schema query prefix
+get string SimpleName MethodInvocation InfixExpression SimpleName type name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName properties conf
+string SimpleName MethodInvocation MethodInvocation SimpleName get string
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName hive table schema query prefix
+string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName type name
+string SimpleName MethodInvocation SimpleName table name
+format SimpleName MethodInvocation MethodInvocation SimpleName properties conf
+format SimpleName MethodInvocation MethodInvocation SimpleName get string
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName hive table schema query prefix
+format SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName type name
+format SimpleName MethodInvocation SimpleName table name
+properties conf SimpleName MethodInvocation MethodInvocation SimpleName table name
+get string SimpleName MethodInvocation MethodInvocation SimpleName table name
+hive table schema query prefix SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName table name
+type name SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName table name
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+schema query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName properties conf
+schema query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+schema query SimpleName VariableDeclarationFragment MethodInvocation SimpleName table name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName schema query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema query
+discovery service SimpleName MethodInvocation SimpleName search by dsl
+discovery service SimpleName MethodInvocation SimpleName schema query
+search by dsl SimpleName MethodInvocation SimpleName schema query
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get schema
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName get schema
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get schema
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName get schema
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get schema SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get schema SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

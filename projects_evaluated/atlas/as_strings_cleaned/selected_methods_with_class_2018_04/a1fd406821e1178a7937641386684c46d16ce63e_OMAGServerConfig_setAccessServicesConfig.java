@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName access service config
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName access services config
+access service config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName access services config
+access services config SimpleName FieldAccess Assignment SimpleName access services config
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set access services config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName access services config
+void PrimitiveType MethodDeclaration SimpleName set access services config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName access services config
+set access services config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName access services config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set access services config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access services config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set access services config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName access services config

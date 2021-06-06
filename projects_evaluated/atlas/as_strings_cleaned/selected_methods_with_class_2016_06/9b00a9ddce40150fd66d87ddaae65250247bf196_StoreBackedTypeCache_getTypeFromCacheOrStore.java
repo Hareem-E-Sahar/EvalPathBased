@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+core types SimpleName MethodInvocation SimpleName contains
+core types SimpleName MethodInvocation SimpleName type name
+contains SimpleName MethodInvocation SimpleName type name
+has SimpleName SuperMethodInvocation SimpleName type name
+core types SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName has
+core types SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName type name
+contains SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName has
+contains SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName type name
+type name SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName has
+type name SimpleName MethodInvocation InfixExpression SuperMethodInvocation SimpleName type name
+context SimpleName MethodInvocation SimpleName is loaded from store
+context SimpleName MethodInvocation SimpleName type name
+is loaded from store SimpleName MethodInvocation SimpleName type name
+get type from store SimpleName MethodInvocation SimpleName type name
+get type from store SimpleName MethodInvocation SimpleName context
+type name SimpleName MethodInvocation SimpleName context
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type from store
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type name
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+types def SimpleName MethodInvocation SimpleName is empty
+type name SimpleName InfixExpression StringLiteral not found in type store
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type name
+atlas exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not found in type store
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get type from cache or store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName get type from cache or store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+get type from cache or store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type from cache or store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get type from cache or store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+get type from cache or store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+get type from cache or store SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type from cache or store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type from cache or store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

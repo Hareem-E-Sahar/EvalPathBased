@@ -1,0 +1,21 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName clone
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName clone not supported exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName clone not supported exception
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName clone not supported exception
+clone SimpleName MethodDeclaration SimpleType SimpleName clone not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName clone not supported exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName clone not supported exception

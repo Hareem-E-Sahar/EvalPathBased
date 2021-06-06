@@ -1,0 +1,64 @@
+text SimpleName SimpleType SingleVariableDeclaration SimpleName row
+connector SimpleName MethodInvocation SimpleName create scanner
+connector SimpleName MethodInvocation SimpleName table
+connector SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+table SimpleName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName connector
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+range SimpleName SimpleType ClassInstanceCreation SimpleName row
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName scanner
+private Modifier MethodDeclaration SimpleName get row
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration SimpleType SimpleName scanner
+static Modifier MethodDeclaration SimpleName get row
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+static Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+static Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+scanner SimpleName SimpleType MethodDeclaration SimpleName get row
+scanner SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+scanner SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+get row SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get row SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+get row SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get row SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get row SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get row SimpleName MethodDeclaration Block ReturnStatement SimpleName scanner
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+public Modifier TypeDeclaration MethodDeclaration SimpleName get row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scanner
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

@@ -1,0 +1,56 @@
+data provider SimpleName MemberValuePair StringLiteral invalid dsl queries provider
+expected exceptions SimpleName MemberValuePair TypeLiteral SimpleType SimpleName discovery exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral invalid dsl queries provider
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected exceptions
+data provider SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+invalid dsl queries provider StringLiteral MemberValuePair NormalAnnotation MemberValuePair SimpleName expected exceptions
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dsl query
+executing dsl query = StringLiteral InfixExpression SimpleName dsl query
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral executing dsl query =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName dsl query
+println SimpleName MethodInvocation InfixExpression StringLiteral executing dsl query =
+println SimpleName MethodInvocation InfixExpression SimpleName dsl query
+search by dsl SimpleName MethodInvocation SimpleName dsl query
+assert SimpleName MethodInvocation SimpleName fail
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+invalid dsl queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+invalid dsl queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test search by dsl invalid queries
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search by dsl invalid queries
+invalid dsl queries provider StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search by dsl invalid queries
+expected exceptions SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test search by dsl invalid queries
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test search by dsl invalid queries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test search by dsl invalid queries
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test search by dsl invalid queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+test search by dsl invalid queries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test search by dsl invalid queries SimpleName MethodDeclaration SimpleType SimpleName exception
+dsl query SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test search by dsl invalid queries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test search by dsl invalid queries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dsl query
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

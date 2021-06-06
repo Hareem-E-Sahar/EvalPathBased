@@ -1,0 +1,30 @@
+io exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName problem
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+index SimpleName SimpleType CastExpression SimpleName obj
+index SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName index
+index SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+index SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+indexreader QualifiedName MethodInvocation SimpleName close
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+problem SimpleName Assignment SimpleName ex
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName heap
+obj SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName heap
+problem SimpleName InfixExpression IfStatement ThrowStatement SimpleName problem
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName heap
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName heap
+close SimpleName MethodDeclaration SimpleType SimpleName io exception
+close SimpleName MethodDeclaration Block EnhancedForStatement SimpleName heap
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

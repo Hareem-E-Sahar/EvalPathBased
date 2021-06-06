@@ -1,0 +1,29 @@
+int PrimitiveType SingleVariableDeclaration SimpleName count
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName with field names
+field value validator SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation StringLiteral count
+with field names SimpleName MethodInvocation MethodInvocation SimpleName with expected values
+count StringLiteral MethodInvocation MethodInvocation SimpleName with expected values
+with field names SimpleName MethodInvocation MethodInvocation SimpleName count
+count StringLiteral MethodInvocation MethodInvocation SimpleName count
+with expected values SimpleName MethodInvocation SimpleName count
+private Modifier MethodDeclaration SimpleType SimpleName field value validator
+private Modifier MethodDeclaration SimpleName make count validator
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName count
+field value validator SimpleName SimpleType MethodDeclaration SimpleName make count validator
+field value validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+field value validator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName count
+make count validator SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+make count validator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName field value validator
+public Modifier TypeDeclaration MethodDeclaration SimpleName make count validator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName field value validator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make count validator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName count

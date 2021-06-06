@@ -1,0 +1,44 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName trait names
+entity vertex SimpleName MethodInvocation SimpleName remove property
+entity vertex SimpleName MethodInvocation SimpleName trait names property key
+remove property SimpleName MethodInvocation SimpleName trait names property key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+graph helper SimpleName MethodInvocation SimpleName add property
+graph helper SimpleName MethodInvocation SimpleName entity vertex
+graph helper SimpleName MethodInvocation SimpleName trait names property key
+graph helper SimpleName MethodInvocation SimpleName trait name
+add property SimpleName MethodInvocation SimpleName entity vertex
+add property SimpleName MethodInvocation SimpleName trait names property key
+add property SimpleName MethodInvocation SimpleName trait name
+entity vertex SimpleName MethodInvocation SimpleName trait names property key
+entity vertex SimpleName MethodInvocation SimpleName trait name
+trait names property key SimpleName MethodInvocation SimpleName trait name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+trait name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName trait names
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update trait names property
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait names
+void PrimitiveType MethodDeclaration SimpleName update trait names property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait names
+update trait names property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+update trait names property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+update trait names property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait names
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update trait names property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update trait names property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait names

@@ -1,0 +1,278 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lines
+boolean PrimitiveType SingleVariableDeclaration SimpleName paginate
+print line SimpleName SimpleType SingleVariableDeclaration SimpleName out
+lines printed SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lines printed
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+prompt SimpleName VariableDeclarationFragment StringLiteral -- hit any key to continue or q to quit --
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prompt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral -- hit any key to continue or q to quit --
+prompt SimpleName MethodInvocation SimpleName length
+last prompt length SimpleName VariableDeclarationFragment MethodInvocation SimpleName prompt
+last prompt length SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last prompt length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName prompt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+reader SimpleName MethodInvocation SimpleName get terminal
+reader SimpleName MethodInvocation MethodInvocation SimpleName get width
+get terminal SimpleName MethodInvocation MethodInvocation SimpleName get width
+term width SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName reader
+term width SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get terminal
+term width SimpleName VariableDeclarationFragment MethodInvocation SimpleName get width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName term width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get width
+reader SimpleName MethodInvocation SimpleName get terminal
+reader SimpleName MethodInvocation MethodInvocation SimpleName get height
+get terminal SimpleName MethodInvocation MethodInvocation SimpleName get height
+max lines SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName reader
+max lines SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get terminal
+max lines SimpleName VariableDeclarationFragment MethodInvocation SimpleName get height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max lines
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get height
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peek
+lines SimpleName MethodInvocation SimpleName has next
+lines SimpleName MethodInvocation SimpleName next
+next line SimpleName VariableDeclarationFragment MethodInvocation SimpleName lines
+next line SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next line
+string SimpleName SimpleType SingleVariableDeclaration SimpleName line
+next line SimpleName MethodInvocation SimpleName split
+next line SimpleName MethodInvocation StringLiteral \
+split SimpleName MethodInvocation StringLiteral \
+reader SimpleName MethodInvocation SimpleName println
+reader SimpleName MethodInvocation SimpleName peek
+println SimpleName MethodInvocation SimpleName peek
+peek SimpleName MethodInvocation SimpleName length
+peek SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+peek SimpleName MethodInvocation SimpleName length
+peek SimpleName MethodInvocation InfixExpression NumberLiteral .
+length SimpleName MethodInvocation InfixExpression NumberLiteral .
+peek SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+length SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+. NumberLiteral InfixExpression InfixExpression SimpleName term width
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression SimpleName term width
+ceil SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+ceil SimpleName MethodInvocation InfixExpression SimpleName term width
+peek SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName math
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName ceil
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName math
+empty NumberLiteral ConditionalExpression MethodInvocation SimpleName ceil
+empty NumberLiteral ConditionalExpression MethodInvocation InfixExpression SimpleName term width
+lines printed SimpleName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+lines printed SimpleName Assignment ConditionalExpression NumberLiteral empty
+lines printed SimpleName Assignment ConditionalExpression MethodInvocation SimpleName math
+lines printed SimpleName Assignment ConditionalExpression MethodInvocation SimpleName ceil
+last prompt length SimpleName InfixExpression NumberLiteral .
+last prompt length SimpleName InfixExpression InfixExpression SimpleName term width
+. NumberLiteral InfixExpression InfixExpression SimpleName term width
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName last prompt length
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression SimpleName term width
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName last prompt length
+ceil SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+ceil SimpleName MethodInvocation InfixExpression SimpleName term width
+prompt SimpleName MethodInvocation SimpleName length
+prompt SimpleName MethodInvocation InfixExpression NumberLiteral .
+length SimpleName MethodInvocation InfixExpression NumberLiteral .
+prompt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+length SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+. NumberLiteral InfixExpression InfixExpression SimpleName term width
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression SimpleName term width
+ceil SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+ceil SimpleName MethodInvocation InfixExpression SimpleName term width
+line SimpleName MethodInvocation SimpleName length
+line SimpleName MethodInvocation InfixExpression NumberLiteral .
+length SimpleName MethodInvocation InfixExpression NumberLiteral .
+line SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+length SimpleName MethodInvocation InfixExpression InfixExpression SimpleName term width
+. NumberLiteral InfixExpression InfixExpression SimpleName term width
+math SimpleName MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression SimpleName term width
+ceil SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+ceil SimpleName MethodInvocation InfixExpression SimpleName term width
+lines printed SimpleName InfixExpression MethodInvocation SimpleName math
+lines printed SimpleName InfixExpression MethodInvocation SimpleName ceil
+lines printed SimpleName InfixExpression MethodInvocation InfixExpression SimpleName term width
+lines printed SimpleName InfixExpression MethodInvocation SimpleName math
+lines printed SimpleName InfixExpression MethodInvocation SimpleName ceil
+lines printed SimpleName InfixExpression MethodInvocation InfixExpression SimpleName term width
+lines printed SimpleName InfixExpression MethodInvocation SimpleName math
+lines printed SimpleName InfixExpression MethodInvocation SimpleName ceil
+lines printed SimpleName InfixExpression MethodInvocation InfixExpression SimpleName term width
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+ceil SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ceil
+lines printed SimpleName InfixExpression InfixExpression SimpleName max lines
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+ceil SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max lines
+lines printed SimpleName Assignment NumberLiteral empty
+prompt SimpleName MethodInvocation SimpleName length
+term width SimpleName InfixExpression MethodInvocation SimpleName prompt
+term width SimpleName InfixExpression MethodInvocation SimpleName length
+term width SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+numdashes SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName numdashes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+repeat SimpleName MethodInvocation StringLiteral -
+repeat SimpleName MethodInvocation SimpleName numdashes
+- StringLiteral MethodInvocation SimpleName numdashes
+repeat SimpleName MethodInvocation StringLiteral -
+repeat SimpleName MethodInvocation SimpleName numdashes
+- StringLiteral MethodInvocation SimpleName numdashes
+repeat SimpleName MethodInvocation InfixExpression SimpleName prompt
+- StringLiteral MethodInvocation InfixExpression SimpleName prompt
+numdashes SimpleName MethodInvocation InfixExpression SimpleName prompt
+repeat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat
+repeat SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral -
+repeat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName numdashes
+- StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName repeat
+- StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral -
+- StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName numdashes
+numdashes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat
+numdashes SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral -
+numdashes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName numdashes
+prompt SimpleName InfixExpression MethodInvocation SimpleName repeat
+prompt SimpleName InfixExpression MethodInvocation StringLiteral -
+prompt SimpleName InfixExpression MethodInvocation SimpleName numdashes
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repeat
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral -
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName numdashes
+next prompt SimpleName VariableDeclarationFragment InfixExpression SimpleName prompt
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repeat
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral -
+next prompt SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName numdashes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next prompt
+next prompt SimpleName MethodInvocation SimpleName length
+last prompt length SimpleName Assignment MethodInvocation SimpleName next prompt
+last prompt length SimpleName Assignment MethodInvocation SimpleName length
+reader SimpleName MethodInvocation SimpleName print
+reader SimpleName MethodInvocation SimpleName next prompt
+print SimpleName MethodInvocation SimpleName next prompt
+reader SimpleName MethodInvocation SimpleName flush
+reader SimpleName MethodInvocation SimpleName read character
+char PrimitiveType CastExpression MethodInvocation SimpleName reader
+char PrimitiveType CastExpression MethodInvocation SimpleName read character
+character SimpleName MethodInvocation SimpleName to upper case
+character SimpleName MethodInvocation CastExpression PrimitiveType char
+character SimpleName MethodInvocation CastExpression MethodInvocation SimpleName reader
+character SimpleName MethodInvocation CastExpression MethodInvocation SimpleName read character
+to upper case SimpleName MethodInvocation CastExpression PrimitiveType char
+to upper case SimpleName MethodInvocation CastExpression MethodInvocation SimpleName reader
+to upper case SimpleName MethodInvocation CastExpression MethodInvocation SimpleName read character
+character SimpleName MethodInvocation InfixExpression CharacterLiteral q
+to upper case SimpleName MethodInvocation InfixExpression CharacterLiteral q
+char PrimitiveType CastExpression MethodInvocation InfixExpression CharacterLiteral q
+reader SimpleName MethodInvocation SimpleName println
+reader SimpleName MethodInvocation SimpleName println
+reader SimpleName MethodInvocation SimpleName get terminal
+reader SimpleName MethodInvocation MethodInvocation SimpleName get width
+get terminal SimpleName MethodInvocation MethodInvocation SimpleName get width
+term width SimpleName Assignment MethodInvocation MethodInvocation SimpleName reader
+term width SimpleName Assignment MethodInvocation MethodInvocation SimpleName get terminal
+term width SimpleName Assignment MethodInvocation SimpleName get width
+reader SimpleName MethodInvocation SimpleName get terminal
+reader SimpleName MethodInvocation MethodInvocation SimpleName get height
+get terminal SimpleName MethodInvocation MethodInvocation SimpleName get height
+max lines SimpleName Assignment MethodInvocation MethodInvocation SimpleName reader
+max lines SimpleName Assignment MethodInvocation MethodInvocation SimpleName get terminal
+max lines SimpleName Assignment MethodInvocation SimpleName get height
+peek SimpleName Assignment SimpleName line
+out SimpleName MethodInvocation SimpleName print
+out SimpleName MethodInvocation SimpleName line
+print SimpleName MethodInvocation SimpleName line
+line SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName next line
+line SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+line SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation StringLiteral \
+out SimpleName InfixExpression InfixExpression InfixExpression SimpleName peek
+reader SimpleName MethodInvocation SimpleName println
+reader SimpleName MethodInvocation SimpleName peek
+println SimpleName MethodInvocation SimpleName peek
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print lines
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paginate
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName print lines
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName lines
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName paginate
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print line
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleName print lines
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lines
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName paginate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print line
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lines
+print lines SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+print lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paginate
+print lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName print line
+print lines SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+print lines SimpleName MethodDeclaration SimpleType SimpleName io exception
+print lines SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+print lines SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+print lines SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+print lines SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+lines SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+lines SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paginate
+lines SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+lines SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+paginate SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+paginate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+out SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print lines
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paginate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print lines
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lines
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paginate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

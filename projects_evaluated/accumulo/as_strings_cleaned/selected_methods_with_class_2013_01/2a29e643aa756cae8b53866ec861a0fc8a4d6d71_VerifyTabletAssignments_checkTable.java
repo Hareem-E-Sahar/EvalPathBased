@@ -1,0 +1,387 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName opts
+final Modifier SingleVariableDeclaration SimpleName opts
+opts SimpleName SimpleType SingleVariableDeclaration SimpleName opts
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName check
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName check
+checking table StringLiteral InfixExpression SimpleName table name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral checking table
+systemout QualifiedName MethodInvocation InfixExpression SimpleName table name
+println SimpleName MethodInvocation InfixExpression StringLiteral checking table
+println SimpleName MethodInvocation InfixExpression SimpleName table name
+check SimpleName MethodInvocation SimpleName size
+checking table StringLiteral InfixExpression SimpleName table name
+checking table StringLiteral InfixExpression StringLiteral again failures
+checking table StringLiteral InfixExpression MethodInvocation SimpleName check
+checking table StringLiteral InfixExpression MethodInvocation SimpleName size
+table name SimpleName InfixExpression StringLiteral again failures
+table name SimpleName InfixExpression MethodInvocation SimpleName check
+table name SimpleName InfixExpression MethodInvocation SimpleName size
+again failures StringLiteral InfixExpression MethodInvocation SimpleName check
+again failures StringLiteral InfixExpression MethodInvocation SimpleName size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral checking table
+systemout QualifiedName MethodInvocation InfixExpression SimpleName table name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral again failures
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName check
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName size
+println SimpleName MethodInvocation InfixExpression StringLiteral checking table
+println SimpleName MethodInvocation InfixExpression SimpleName table name
+println SimpleName MethodInvocation InfixExpression StringLiteral again failures
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName check
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+sorted set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+opts SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName opts
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+conn SimpleName MethodInvocation SimpleName get instance
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+inst SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inst
+conn SimpleName MethodInvocation SimpleName get instance
+opts SimpleName MethodInvocation SimpleName get wrapped token
+opts SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+get wrapped token SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to thrift
+metadata table SimpleName MethodInvocation SimpleName get entries
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName conn
+metadata table SimpleName MethodInvocation MethodInvocation SimpleName get instance
+metadata table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName instance token wrapper
+metadata table SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to thrift
+metadata table SimpleName MethodInvocation SimpleName table name
+metadata table SimpleName MethodInvocation BooleanLiteral false
+get entries SimpleName MethodInvocation MethodInvocation SimpleName conn
+get entries SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get entries SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName instance token wrapper
+get entries SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to thrift
+get entries SimpleName MethodInvocation SimpleName table name
+get entries SimpleName MethodInvocation BooleanLiteral false
+get entries SimpleName MethodInvocation SimpleName locations
+conn SimpleName MethodInvocation MethodInvocation SimpleName table name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table name
+conn SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get instance SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+conn SimpleName MethodInvocation MethodInvocation SimpleName locations
+get instance SimpleName MethodInvocation MethodInvocation SimpleName locations
+conn SimpleName MethodInvocation MethodInvocation SimpleName tablets
+get instance SimpleName MethodInvocation MethodInvocation SimpleName tablets
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName table name
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName table name
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation BooleanLiteral false
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName locations
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName locations
+instance token wrapper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tablets
+to thrift SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tablets
+table name SimpleName MethodInvocation BooleanLiteral false
+table name SimpleName MethodInvocation SimpleName locations
+table name SimpleName MethodInvocation SimpleName tablets
+false BooleanLiteral MethodInvocation SimpleName locations
+false BooleanLiteral MethodInvocation SimpleName tablets
+locations SimpleName MethodInvocation SimpleName tablets
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName hash set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName key extent
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName failures
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName key extent
+locations SimpleName MethodInvocation SimpleName contains key
+locations SimpleName MethodInvocation SimpleName key extent
+contains key SimpleName MethodInvocation SimpleName key extent
+tablet StringLiteral InfixExpression SimpleName key extent
+tablet StringLiteral InfixExpression StringLiteral has no location
+key extent SimpleName InfixExpression StringLiteral has no location
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral tablet
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key extent
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral has no location
+println SimpleName MethodInvocation InfixExpression StringLiteral tablet
+println SimpleName MethodInvocation InfixExpression SimpleName key extent
+println SimpleName MethodInvocation InfixExpression StringLiteral has no location
+locations SimpleName MethodInvocation SimpleName get
+locations SimpleName MethodInvocation SimpleName key extent
+get SimpleName MethodInvocation SimpleName key extent
+tablet StringLiteral InfixExpression SimpleName key extent
+tablet StringLiteral InfixExpression StringLiteral is located at
+tablet StringLiteral InfixExpression MethodInvocation SimpleName locations
+tablet StringLiteral InfixExpression MethodInvocation SimpleName get
+tablet StringLiteral InfixExpression MethodInvocation SimpleName key extent
+key extent SimpleName InfixExpression StringLiteral is located at
+key extent SimpleName InfixExpression MethodInvocation SimpleName locations
+key extent SimpleName InfixExpression MethodInvocation SimpleName get
+key extent SimpleName InfixExpression MethodInvocation SimpleName key extent
+is located at StringLiteral InfixExpression MethodInvocation SimpleName locations
+is located at StringLiteral InfixExpression MethodInvocation SimpleName get
+is located at StringLiteral InfixExpression MethodInvocation SimpleName key extent
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral tablet
+systemout QualifiedName MethodInvocation InfixExpression SimpleName key extent
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral is located at
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName locations
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName key extent
+println SimpleName MethodInvocation InfixExpression StringLiteral tablet
+println SimpleName MethodInvocation InfixExpression SimpleName key extent
+println SimpleName MethodInvocation InfixExpression StringLiteral is located at
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName locations
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key extent
+optsverbose QualifiedName IfStatement ExpressionStatement MethodInvocation QualifiedName systemout
+optsverbose QualifiedName IfStatement ExpressionStatement MethodInvocation SimpleName println
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+key extent SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tablets
+tablets SimpleName EnhancedForStatement IfStatement IfStatement QualifiedName optsverbose
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+locations SimpleName MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName MethodInvocation SimpleName get value
+extents per server SimpleName MethodInvocation SimpleName get
+extents per server SimpleName MethodInvocation MethodInvocation SimpleName entry
+extents per server SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName entry
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+extent list SimpleName VariableDeclarationFragment MethodInvocation SimpleName extents per server
+extent list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+extent list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+extent list SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName MethodInvocation SimpleName get value
+extents per server SimpleName MethodInvocation SimpleName put
+extents per server SimpleName MethodInvocation MethodInvocation SimpleName entry
+extents per server SimpleName MethodInvocation MethodInvocation SimpleName get value
+extents per server SimpleName MethodInvocation SimpleName extent list
+put SimpleName MethodInvocation MethodInvocation SimpleName entry
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName extent list
+entry SimpleName MethodInvocation MethodInvocation SimpleName extent list
+get value SimpleName MethodInvocation MethodInvocation SimpleName extent list
+entry SimpleName MethodInvocation SimpleName get key
+check SimpleName MethodInvocation SimpleName contains
+check SimpleName MethodInvocation MethodInvocation SimpleName entry
+check SimpleName MethodInvocation MethodInvocation SimpleName get key
+contains SimpleName MethodInvocation MethodInvocation SimpleName entry
+contains SimpleName MethodInvocation MethodInvocation SimpleName get key
+check SimpleName InfixExpression InfixExpression MethodInvocation SimpleName check
+check SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+entry SimpleName MethodInvocation SimpleName get key
+extent list SimpleName MethodInvocation SimpleName add
+extent list SimpleName MethodInvocation MethodInvocation SimpleName entry
+extent list SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName entry
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName locations
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+executors SimpleName MethodInvocation SimpleName new fixed thread pool
+executors SimpleName MethodInvocation NumberLiteral empty
+new fixed thread pool SimpleName MethodInvocation NumberLiteral empty
+tp SimpleName VariableDeclarationFragment MethodInvocation SimpleName executors
+tp SimpleName VariableDeclarationFragment MethodInvocation SimpleName new fixed thread pool
+tp SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+executor service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+server configuration SimpleName SimpleType ClassInstanceCreation SimpleName inst
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName server configuration
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName inst
+final Modifier VariableDeclarationStatement SimpleType SimpleName server configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName inst
+server configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName entry
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName entry
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+extents per server SimpleName MethodInvocation SimpleName entry set
+conf SimpleName MethodInvocation SimpleName get configuration
+opts SimpleName MethodInvocation SimpleName get accumulo token
+check tablet server SimpleName MethodInvocation MethodInvocation SimpleName conf
+check tablet server SimpleName MethodInvocation MethodInvocation SimpleName get configuration
+check tablet server SimpleName MethodInvocation MethodInvocation SimpleName opts
+check tablet server SimpleName MethodInvocation MethodInvocation SimpleName get accumulo token
+check tablet server SimpleName MethodInvocation SimpleName entry
+check tablet server SimpleName MethodInvocation SimpleName failures
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get accumulo token
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+get configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get accumulo token
+conf SimpleName MethodInvocation MethodInvocation SimpleName entry
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName entry
+conf SimpleName MethodInvocation MethodInvocation SimpleName failures
+get configuration SimpleName MethodInvocation MethodInvocation SimpleName failures
+opts SimpleName MethodInvocation MethodInvocation SimpleName entry
+get accumulo token SimpleName MethodInvocation MethodInvocation SimpleName entry
+opts SimpleName MethodInvocation MethodInvocation SimpleName failures
+get accumulo token SimpleName MethodInvocation MethodInvocation SimpleName failures
+entry SimpleName MethodInvocation SimpleName failures
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entry SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get message
+failure on ts StringLiteral InfixExpression MethodInvocation SimpleName entry
+failure on ts StringLiteral InfixExpression MethodInvocation SimpleName get key
+failure on ts StringLiteral InfixExpression StringLiteral empty
+failure on ts StringLiteral InfixExpression MethodInvocation SimpleName e
+failure on ts StringLiteral InfixExpression MethodInvocation SimpleName get message
+entry SimpleName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+entry SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+empty StringLiteral InfixExpression MethodInvocation SimpleName e
+empty StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral failure on ts
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral failure on ts
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation SimpleName print stack trace
+entry SimpleName MethodInvocation SimpleName get value
+failures SimpleName MethodInvocation SimpleName add all
+failures SimpleName MethodInvocation MethodInvocation SimpleName entry
+failures SimpleName MethodInvocation MethodInvocation SimpleName get value
+add all SimpleName MethodInvocation MethodInvocation SimpleName entry
+add all SimpleName MethodInvocation MethodInvocation SimpleName get value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+tp SimpleName MethodInvocation SimpleName execute
+tp SimpleName MethodInvocation SimpleName r
+execute SimpleName MethodInvocation SimpleName r
+final Modifier SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName extents per server
+final Modifier SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName extents per server
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+tp SimpleName MethodInvocation SimpleName shutdown
+tp SimpleName MethodInvocation SimpleName await termination
+tp SimpleName MethodInvocation NumberLiteral empty
+tp SimpleName MethodInvocation QualifiedName time unithours
+await termination SimpleName MethodInvocation NumberLiteral empty
+await termination SimpleName MethodInvocation QualifiedName time unithours
+empty NumberLiteral MethodInvocation QualifiedName time unithours
+failures SimpleName MethodInvocation SimpleName size
+failures SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check table SimpleName MethodInvocation SimpleName opts
+check table SimpleName MethodInvocation SimpleName table name
+check table SimpleName MethodInvocation SimpleName failures
+opts SimpleName MethodInvocation SimpleName table name
+opts SimpleName MethodInvocation SimpleName failures
+table name SimpleName MethodInvocation SimpleName failures
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName tablets
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+tablets SimpleName EnhancedForStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check table
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName check table
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName opts
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName check
+void PrimitiveType MethodDeclaration SimpleName check table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName opts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName check
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+check table SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+check table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName opts
+check table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opts
+check table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+check table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName check
+check table SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+check table SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check
+opts SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+opts SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+check SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+check SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+check SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+check SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

@@ -1,0 +1,163 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+omrsrestapi response SimpleName SimpleType SingleVariableDeclaration SimpleName rest result
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull response from api
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull response from api
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation SimpleName repository name
+get formatted error message SimpleName MethodInvocation SimpleName method name
+get formatted error message SimpleName MethodInvocation SimpleName repository name
+method name SimpleName MethodInvocation SimpleName repository name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName method name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repository name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName method name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName repository name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+repository error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+repository error exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+rest result SimpleName MethodInvocation SimpleName get exception class name
+rest result SimpleName MethodInvocation SimpleName get related http code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+rest result SimpleName MethodInvocation SimpleName get exception error message
+rest result SimpleName MethodInvocation SimpleName get exception system action
+rest result SimpleName MethodInvocation SimpleName get exception user action
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rest result
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get related http code
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+repository error exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rest result
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get exception error message
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rest result
+repository error exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get exception system action
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+rest result SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get related http code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception error message
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception error message
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception system action
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception system action
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get related http code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName rest result
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get exception error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName rest result
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get exception system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName rest result
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get exception user action
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception system action
+get exception error message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get exception error message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception system action
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+get exception error message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get exception error message SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+get exception system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rest result
+get exception system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get exception user action
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName detect and throw repository error exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrsrestapi response
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rest result
+private Modifier MethodDeclaration SimpleType SimpleName repository error exception
+void PrimitiveType MethodDeclaration SimpleName detect and throw repository error exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName method name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrsrestapi response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rest result
+void PrimitiveType MethodDeclaration SimpleType SimpleName repository error exception
+detect and throw repository error exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+detect and throw repository error exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+detect and throw repository error exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrsrestapi response
+detect and throw repository error exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rest result
+detect and throw repository error exception SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rest result
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+rest result SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName detect and throw repository error exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rest result
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName detect and throw repository error exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rest result
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

@@ -1,0 +1,500 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral ref to map value
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral composite map value
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityrequired
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+ref to map value StringLiteral ClassInstanceCreation StringLiteral composite map value
+ref to map value StringLiteral ClassInstanceCreation QualifiedName multiplicityrequired
+ref to map value StringLiteral ClassInstanceCreation BooleanLiteral false
+composite map value StringLiteral ClassInstanceCreation QualifiedName multiplicityrequired
+composite map value StringLiteral ClassInstanceCreation BooleanLiteral false
+multiplicityrequired QualifiedName ClassInstanceCreation BooleanLiteral false
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral map value referencer
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral composite map value
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+create class type def SimpleName MethodInvocation StringLiteral map value referencer
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral composite map value
+create class type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value referencer StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+map value referencer StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+map value referencer StringLiteral MethodInvocation MethodInvocation SimpleName of
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation StringLiteral composite map value
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral composite map value
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral composite map value
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map value referencer
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral ref to map value
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral composite map value
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map value referencer type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral false
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation SimpleName map type name
+data types SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+data types SimpleName MethodInvocation MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation StringLiteral map value referencer
+map type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation StringLiteral map value referencer
+data typesstring type QualifiedName MethodInvocation MethodInvocation StringLiteral map value referencer
+get name SimpleName MethodInvocation MethodInvocation StringLiteral map value referencer
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral required map
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName map type name
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral map value referencer
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityrequired
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+required map StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+required map StringLiteral ClassInstanceCreation MethodInvocation SimpleName map type name
+required map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+required map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+required map StringLiteral ClassInstanceCreation MethodInvocation StringLiteral map value referencer
+required map StringLiteral ClassInstanceCreation QualifiedName multiplicityrequired
+required map StringLiteral ClassInstanceCreation BooleanLiteral true
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+map type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+map value referencer StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+multiplicityrequired QualifiedName ClassInstanceCreation BooleanLiteral true
+types util SimpleName MethodInvocation SimpleName create class type def
+types util SimpleName MethodInvocation StringLiteral map value referencer container
+types util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+types util SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+types util SimpleName MethodInvocation MethodInvocation SimpleName of
+types util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+types util SimpleName MethodInvocation ClassInstanceCreation StringLiteral required map
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+types util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value referencer
+types util SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+types util SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+create class type def SimpleName MethodInvocation StringLiteral map value referencer container
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+create class type def SimpleName MethodInvocation ClassInstanceCreation StringLiteral required map
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+create class type def SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value referencer
+create class type def SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+create class type def SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+map value referencer container StringLiteral MethodInvocation MethodInvocation SimpleName immutable set
+map value referencer container StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+map value referencer container StringLiteral MethodInvocation MethodInvocation SimpleName of
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName attribute definition
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation StringLiteral required map
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName data types
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName map type name
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral map value referencer
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map value referencer container StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral required map
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+immutable set SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral required map
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+of SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral true
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName types util
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map value referencer container
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral required map
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation QualifiedName multiplicityrequired
+map value referencer container type def SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation BooleanLiteral true
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName define class types
+type system SimpleName MethodInvocation SimpleName map value referencer type def
+type system SimpleName MethodInvocation SimpleName map value referencer container type def
+define class types SimpleName MethodInvocation SimpleName map value referencer type def
+define class types SimpleName MethodInvocation SimpleName map value referencer container type def
+map value referencer type def SimpleName MethodInvocation SimpleName map value referencer container type def
+defined class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+defined class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName define class types
+defined class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer type def
+defined class types SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer container type def
+defined class types SimpleName MethodInvocation SimpleName get
+defined class types SimpleName MethodInvocation StringLiteral map value referencer
+get SimpleName MethodInvocation StringLiteral map value referencer
+class type SimpleName SimpleType CastExpression MethodInvocation SimpleName defined class types
+class type SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+class type SimpleName SimpleType CastExpression MethodInvocation StringLiteral map value referencer
+map value referencer class type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName class type
+map value referencer class type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName defined class types
+map value referencer class type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+map value referencer class type SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral map value referencer
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer class type
+defined class types SimpleName MethodInvocation SimpleName get
+defined class types SimpleName MethodInvocation StringLiteral map value referencer container
+get SimpleName MethodInvocation StringLiteral map value referencer container
+class type SimpleName SimpleType CastExpression MethodInvocation SimpleName defined class types
+class type SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+class type SimpleName SimpleType CastExpression MethodInvocation StringLiteral map value referencer container
+map value referencer container type SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName class type
+map value referencer container type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName defined class types
+map value referencer container type SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+map value referencer container type SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral map value referencer container
+class type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer container type
+entity definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create map owner and value entities
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity definition
+entity definition SimpleName MethodInvocation SimpleName get id
+entity definition SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entity definition
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+map owner guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName map owner guid
+get entity definition SimpleName MethodInvocation SimpleName map owner guid
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+map owner instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map owner instance
+map owner instance SimpleName MethodInvocation SimpleName get
+map owner instance SimpleName MethodInvocation StringLiteral map
+get SimpleName MethodInvocation StringLiteral map
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName map owner instance
+object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName VariableDeclarationFragment MethodInvocation StringLiteral map
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName object
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName object
+assert not null SimpleName MethodInvocation SimpleName object
+object SimpleName InstanceofExpression SimpleType SimpleName map
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+assert true SimpleName MethodInvocation InstanceofExpression SimpleName object
+assert true SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+map SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+string SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+i typed referenceable instance SimpleName SimpleType ParameterizedType CastExpression SimpleName object
+map SimpleName VariableDeclarationFragment CastExpression SimpleName object
+map SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName map
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+map SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation StringLiteral value
+get SimpleName MethodInvocation StringLiteral value
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+map value instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map value instance SimpleName VariableDeclarationFragment MethodInvocation StringLiteral value
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value instance
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName map value instance
+assert not null SimpleName MethodInvocation SimpleName map value instance
+map value instance SimpleName MethodInvocation SimpleName get id
+map value instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+map value guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map value instance
+map value guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+map value guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value guid
+request context SimpleName MethodInvocation SimpleName create context
+map value referencer container type SimpleName MethodInvocation SimpleName create instance
+map value referencer container SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer container type
+map value referencer container SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer container
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+repository service SimpleName MethodInvocation SimpleName create entities
+repository service SimpleName MethodInvocation SimpleName map value referencer container
+create entities SimpleName MethodInvocation SimpleName map value referencer container
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName create entities
+created entities SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer container
+created entities SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName created entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName created entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+created entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+created entities SimpleName MethodInvocation SimpleName get
+created entities SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+map value referencer container guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName created entities
+map value referencer container guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map value referencer container guid SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer container guid
+created entities SimpleName MethodInvocation SimpleName get
+created entities SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation MethodInvocation SimpleName created entities
+repository service SimpleName MethodInvocation MethodInvocation SimpleName get
+repository service SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName created entities
+get entity definition SimpleName MethodInvocation MethodInvocation SimpleName get
+get entity definition SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+map value referencer container SimpleName Assignment MethodInvocation SimpleName repository service
+map value referencer container SimpleName Assignment MethodInvocation SimpleName get entity definition
+map value referencer container SimpleName Assignment MethodInvocation MethodInvocation SimpleName created entities
+map value referencer container SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+map value referencer container SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+map value referencer class type SimpleName MethodInvocation SimpleName create instance
+map value referencer SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer class type
+map value referencer SimpleName VariableDeclarationFragment MethodInvocation SimpleName create instance
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation StringLiteral value
+collections SimpleName MethodInvocation SimpleName map value referencer
+singleton map SimpleName MethodInvocation StringLiteral value
+singleton map SimpleName MethodInvocation SimpleName map value referencer
+value StringLiteral MethodInvocation SimpleName map value referencer
+map value referencer container SimpleName MethodInvocation SimpleName set
+map value referencer container SimpleName MethodInvocation StringLiteral required map
+map value referencer container SimpleName MethodInvocation MethodInvocation SimpleName collections
+map value referencer container SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+map value referencer container SimpleName MethodInvocation MethodInvocation StringLiteral value
+map value referencer container SimpleName MethodInvocation MethodInvocation SimpleName map value referencer
+set SimpleName MethodInvocation StringLiteral required map
+set SimpleName MethodInvocation MethodInvocation SimpleName collections
+set SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+set SimpleName MethodInvocation MethodInvocation StringLiteral value
+set SimpleName MethodInvocation MethodInvocation SimpleName map value referencer
+required map StringLiteral MethodInvocation MethodInvocation SimpleName collections
+required map StringLiteral MethodInvocation MethodInvocation SimpleName singleton map
+required map StringLiteral MethodInvocation MethodInvocation StringLiteral value
+required map StringLiteral MethodInvocation MethodInvocation SimpleName map value referencer
+map value instance SimpleName MethodInvocation SimpleName get id
+map value referencer SimpleName MethodInvocation SimpleName set
+map value referencer SimpleName MethodInvocation StringLiteral ref to map value
+map value referencer SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+map value referencer SimpleName MethodInvocation MethodInvocation SimpleName get id
+set SimpleName MethodInvocation StringLiteral ref to map value
+set SimpleName MethodInvocation MethodInvocation SimpleName map value instance
+set SimpleName MethodInvocation MethodInvocation SimpleName get id
+ref to map value StringLiteral MethodInvocation MethodInvocation SimpleName map value instance
+ref to map value StringLiteral MethodInvocation MethodInvocation SimpleName get id
+request context SimpleName MethodInvocation SimpleName create context
+repository service SimpleName MethodInvocation SimpleName update entities
+repository service SimpleName MethodInvocation SimpleName map value referencer container
+update entities SimpleName MethodInvocation SimpleName map value referencer container
+update entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+update entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName update entities
+update entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName map value referencer container
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName update entities result
+update entities result SimpleName MethodInvocation SimpleName get created entities
+update entities result SimpleName MethodInvocation MethodInvocation SimpleName size
+get created entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get created entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get created entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+update entities result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get created entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+update entities result SimpleName MethodInvocation SimpleName get update entities
+update entities result SimpleName MethodInvocation MethodInvocation SimpleName size
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+update entities result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get update entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+update entities result SimpleName MethodInvocation SimpleName get update entities
+update entities result SimpleName MethodInvocation MethodInvocation SimpleName get
+get update entities SimpleName MethodInvocation MethodInvocation SimpleName get
+update entities result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get update entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation SimpleName map value referencer container guid
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update entities result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get update entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName map value referencer container guid
+update entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+get update entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+get SimpleName MethodInvocation MethodInvocation SimpleName map value referencer container guid
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName map value referencer container guid
+update entities result SimpleName MethodInvocation SimpleName get created entities
+update entities result SimpleName MethodInvocation MethodInvocation SimpleName get
+get created entities SimpleName MethodInvocation MethodInvocation SimpleName get
+update entities result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get created entities SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+map value referencer guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName update entities result
+map value referencer guid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get created entities
+map value referencer guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+map value referencer guid SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map value referencer guid
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName map owner guid
+arrays SimpleName MethodInvocation SimpleName map value referencer container guid
+as list SimpleName MethodInvocation SimpleName map owner guid
+as list SimpleName MethodInvocation SimpleName map value referencer container guid
+map owner guid SimpleName MethodInvocation SimpleName map value referencer container guid
+repository service SimpleName MethodInvocation SimpleName delete entities
+repository service SimpleName MethodInvocation MethodInvocation SimpleName arrays
+repository service SimpleName MethodInvocation MethodInvocation SimpleName as list
+repository service SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+repository service SimpleName MethodInvocation MethodInvocation SimpleName map value referencer container guid
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName arrays
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName as list
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+delete entities SimpleName MethodInvocation MethodInvocation SimpleName map value referencer container guid
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation SimpleName delete entities
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arrays
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as list
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map owner guid
+delete entities result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map value referencer container guid
+entity result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delete entities result
+delete entities result SimpleName MethodInvocation SimpleName get deleted entities
+delete entities result SimpleName MethodInvocation MethodInvocation SimpleName size
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+delete entities result SimpleName MethodInvocation SimpleName get deleted entities
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName map owner guid
+arrays SimpleName MethodInvocation SimpleName map value guid
+arrays SimpleName MethodInvocation SimpleName map value referencer container guid
+arrays SimpleName MethodInvocation SimpleName map value referencer guid
+as list SimpleName MethodInvocation SimpleName map owner guid
+as list SimpleName MethodInvocation SimpleName map value guid
+as list SimpleName MethodInvocation SimpleName map value referencer container guid
+as list SimpleName MethodInvocation SimpleName map value referencer guid
+map owner guid SimpleName MethodInvocation SimpleName map value guid
+map owner guid SimpleName MethodInvocation SimpleName map value referencer container guid
+map owner guid SimpleName MethodInvocation SimpleName map value referencer guid
+map value guid SimpleName MethodInvocation SimpleName map value referencer container guid
+map value guid SimpleName MethodInvocation SimpleName map value referencer guid
+map value referencer container guid SimpleName MethodInvocation SimpleName map value referencer guid
+delete entities result SimpleName MethodInvocation MethodInvocation SimpleName contains all
+get deleted entities SimpleName MethodInvocation MethodInvocation SimpleName contains all
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner guid
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value guid
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+delete entities result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+get deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName arrays
+contains all SimpleName MethodInvocation MethodInvocation SimpleName as list
+contains all SimpleName MethodInvocation MethodInvocation SimpleName map owner guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName map value guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName map value referencer container guid
+contains all SimpleName MethodInvocation MethodInvocation SimpleName map value referencer guid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner guid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value guid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delete entities result
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get deleted entities
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains all
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName arrays
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as list
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map owner guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer container guid
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map value referencer guid
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test lower bounds ignored when deleting composite entites owned by map
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test lower bounds ignored when deleting composite entites owned by map
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test lower bounds ignored when deleting composite entites owned by map
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test lower bounds ignored when deleting composite entites owned by map SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test

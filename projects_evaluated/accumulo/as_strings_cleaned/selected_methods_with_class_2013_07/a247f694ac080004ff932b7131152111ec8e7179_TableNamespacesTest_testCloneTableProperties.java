@@ -1,0 +1,215 @@
+n SimpleName VariableDeclarationFragment StringLiteral namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral namespace
+n SimpleName VariableDeclarationFragment StringLiteral namespace
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral namespace
+n SimpleName InfixExpression StringLiteral table
+t SimpleName VariableDeclarationFragment InfixExpression SimpleName n
+t SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName InfixExpression StringLiteral table
+t SimpleName VariableDeclarationFragment InfixExpression SimpleName n
+t SimpleName VariableDeclarationFragment InfixExpression StringLiteral table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+propertytable file max QualifiedName MethodInvocation SimpleName get key
+prop key SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytable file max
+prop key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop key
+prop val SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop val
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+prop val SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop val
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+accumulo SimpleName MethodInvocation SimpleName get connector
+accumulo SimpleName MethodInvocation StringLiteral root
+accumulo SimpleName MethodInvocation SimpleName secret
+get connector SimpleName MethodInvocation StringLiteral root
+get connector SimpleName MethodInvocation SimpleName secret
+root StringLiteral MethodInvocation SimpleName secret
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName secret
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName n
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName n
+create SimpleName MethodInvocation SimpleName n
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+create SimpleName MethodInvocation SimpleName t
+c SimpleName MethodInvocation SimpleName table operations
+propertytable file max QualifiedName MethodInvocation SimpleName get key
+c SimpleName MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file max
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable file max
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+remove property SimpleName MethodInvocation SimpleName t
+remove property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file max
+remove property SimpleName MethodInvocation MethodInvocation SimpleName get key
+t SimpleName MethodInvocation MethodInvocation QualifiedName propertytable file max
+t SimpleName MethodInvocation MethodInvocation SimpleName get key
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation SimpleName n
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName n
+c SimpleName MethodInvocation MethodInvocation SimpleName prop key
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName prop key
+c SimpleName MethodInvocation MethodInvocation SimpleName prop val
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName prop val
+set property SimpleName MethodInvocation SimpleName n
+set property SimpleName MethodInvocation SimpleName prop key
+set property SimpleName MethodInvocation SimpleName prop val
+n SimpleName MethodInvocation SimpleName prop key
+n SimpleName MethodInvocation SimpleName prop val
+prop key SimpleName MethodInvocation SimpleName prop val
+it worked SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName it worked
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+get properties SimpleName MethodInvocation SimpleName t
+prop SimpleName MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop key
+get key SimpleName MethodInvocation MethodInvocation SimpleName prop key
+equals SimpleName MethodInvocation SimpleName prop key
+prop SimpleName MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop val
+get value SimpleName MethodInvocation MethodInvocation SimpleName prop val
+equals SimpleName MethodInvocation SimpleName prop val
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop val
+prop key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+prop key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop val
+it worked SimpleName Assignment BooleanLiteral true
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation SimpleName it worked
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName create
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName create
+c SimpleName MethodInvocation MethodInvocation SimpleName n
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName n
+create SimpleName MethodInvocation SimpleName n
+c SimpleName MethodInvocation SimpleName table namespace operations
+c SimpleName MethodInvocation MethodInvocation SimpleName set property
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+c SimpleName MethodInvocation MethodInvocation SimpleName n
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName n
+c SimpleName MethodInvocation MethodInvocation SimpleName prop key
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName prop key
+c SimpleName MethodInvocation MethodInvocation SimpleName prop val
+table namespace operations SimpleName MethodInvocation MethodInvocation SimpleName prop val
+set property SimpleName MethodInvocation SimpleName n
+set property SimpleName MethodInvocation SimpleName prop key
+set property SimpleName MethodInvocation SimpleName prop val
+n SimpleName MethodInvocation SimpleName prop key
+n SimpleName MethodInvocation SimpleName prop val
+prop key SimpleName MethodInvocation SimpleName prop val
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName clone
+table operations SimpleName MethodInvocation MethodInvocation SimpleName clone
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+clone SimpleName MethodInvocation SimpleName t
+clone SimpleName MethodInvocation SimpleName t
+clone SimpleName MethodInvocation BooleanLiteral true
+t SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation BooleanLiteral true
+t SimpleName MethodInvocation BooleanLiteral true
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName remove property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove property
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+c SimpleName MethodInvocation MethodInvocation SimpleName prop key
+table operations SimpleName MethodInvocation MethodInvocation SimpleName prop key
+remove property SimpleName MethodInvocation SimpleName t
+remove property SimpleName MethodInvocation SimpleName prop key
+t SimpleName MethodInvocation SimpleName prop key
+it worked SimpleName Assignment BooleanLiteral false
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop
+c SimpleName MethodInvocation SimpleName table operations
+c SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+c SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+get properties SimpleName MethodInvocation SimpleName t
+prop SimpleName MethodInvocation SimpleName get key
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop key
+get key SimpleName MethodInvocation MethodInvocation SimpleName prop key
+equals SimpleName MethodInvocation SimpleName prop key
+prop SimpleName MethodInvocation SimpleName get value
+prop SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop val
+get value SimpleName MethodInvocation MethodInvocation SimpleName prop val
+equals SimpleName MethodInvocation SimpleName prop val
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop val
+prop key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+prop key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prop val
+it worked SimpleName Assignment BooleanLiteral true
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get properties
+prop SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName t
+assert true SimpleName MethodInvocation SimpleName it worked
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test clone table properties
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test clone table properties
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test clone table properties
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test clone table properties SimpleName MethodDeclaration SimpleType SimpleName exception
+test clone table properties SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test clone table properties
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test clone table properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

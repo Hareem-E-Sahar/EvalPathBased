@@ -1,0 +1,145 @@
+temp folder SimpleName MethodInvocation SimpleName new folder
+temp folder SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+new folder SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+in memory map SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+in memory map SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get absolute path
+false BooleanLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName temp folder
+false BooleanLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName new folder
+false BooleanLiteral ClassInstanceCreation MethodInvocation SimpleName get absolute path
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName in memory map
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+imm SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get absolute path
+in memory map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName imm
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+foocq StringLiteral InfixExpression SimpleName i
+bar StringLiteral InfixExpression SimpleName i
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation InfixExpression StringLiteral foocq
+mutate SimpleName MethodInvocation InfixExpression SimpleName i
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation InfixExpression StringLiteral bar
+mutate SimpleName MethodInvocation InfixExpression SimpleName i
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation InfixExpression StringLiteral foocq
+imm SimpleName MethodInvocation InfixExpression SimpleName i
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation InfixExpression StringLiteral bar
+imm SimpleName MethodInvocation InfixExpression SimpleName i
+r StringLiteral MethodInvocation InfixExpression StringLiteral foocq
+r StringLiteral MethodInvocation InfixExpression SimpleName i
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation InfixExpression StringLiteral bar
+r StringLiteral MethodInvocation InfixExpression SimpleName i
+foocq StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation NumberLiteral empty
+foocq StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral bar
+foocq StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral bar
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral bar
+empty NumberLiteral MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+foocq StringLiteral InfixExpression SimpleName i
+bar StringLiteral InfixExpression SimpleName i
+mutate SimpleName MethodInvocation SimpleName imm
+mutate SimpleName MethodInvocation StringLiteral r
+mutate SimpleName MethodInvocation InfixExpression StringLiteral foocq
+mutate SimpleName MethodInvocation InfixExpression SimpleName i
+mutate SimpleName MethodInvocation NumberLiteral empty
+mutate SimpleName MethodInvocation InfixExpression StringLiteral bar
+mutate SimpleName MethodInvocation InfixExpression SimpleName i
+imm SimpleName MethodInvocation StringLiteral r
+imm SimpleName MethodInvocation InfixExpression StringLiteral foocq
+imm SimpleName MethodInvocation InfixExpression SimpleName i
+imm SimpleName MethodInvocation NumberLiteral empty
+imm SimpleName MethodInvocation InfixExpression StringLiteral bar
+imm SimpleName MethodInvocation InfixExpression SimpleName i
+r StringLiteral MethodInvocation InfixExpression StringLiteral foocq
+r StringLiteral MethodInvocation InfixExpression SimpleName i
+r StringLiteral MethodInvocation NumberLiteral empty
+r StringLiteral MethodInvocation InfixExpression StringLiteral bar
+r StringLiteral MethodInvocation InfixExpression SimpleName i
+foocq StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation NumberLiteral empty
+foocq StringLiteral InfixExpression MethodInvocation InfixExpression StringLiteral bar
+foocq StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral bar
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral bar
+empty NumberLiteral MethodInvocation InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+imm SimpleName MethodInvocation SimpleName skv iterator
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName imm
+ski SimpleName VariableDeclarationFragment MethodInvocation SimpleName skv iterator
+memory iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ski
+column family skipping iterator SimpleName SimpleType ClassInstanceCreation SimpleName ski
+cfsi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName column family skipping iterator
+cfsi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ski
+column family skipping iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cfsi
+imm SimpleName MethodInvocation SimpleName delete
+imm SimpleName MethodInvocation NumberLiteral empty
+delete SimpleName MethodInvocation NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+array byte sequence SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+columns SimpleName MethodInvocation ClassInstanceCreation StringLiteral bar
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral bar
+range SimpleName SimpleType ClassInstanceCreation StringLiteral r
+cfsi SimpleName MethodInvocation SimpleName seek
+cfsi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+cfsi SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+cfsi SimpleName MethodInvocation SimpleName columns
+cfsi SimpleName MethodInvocation BooleanLiteral true
+seek SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+seek SimpleName MethodInvocation ClassInstanceCreation StringLiteral r
+seek SimpleName MethodInvocation SimpleName columns
+seek SimpleName MethodInvocation BooleanLiteral true
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName columns
+r StringLiteral ClassInstanceCreation MethodInvocation SimpleName columns
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+r StringLiteral ClassInstanceCreation MethodInvocation BooleanLiteral true
+columns SimpleName MethodInvocation BooleanLiteral true
+cfsi SimpleName MethodInvocation SimpleName has top
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cfsi
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has top
+ski SimpleName MethodInvocation SimpleName close
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test bug
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bug
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test bug
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test bug SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bug
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bug
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

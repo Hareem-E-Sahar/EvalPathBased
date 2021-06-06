@@ -1,0 +1,222 @@
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName column visibility
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName column visibility
+hash map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName viz map
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName viz map
+column visibility SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName viz map
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column update
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cu
+column update SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cu
+column update SimpleName SimpleType SingleVariableDeclaration SimpleName update
+viz SimpleName VariableDeclarationFragment SimpleName empty vis
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName viz
+column visibility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName empty vis
+update SimpleName MethodInvocation SimpleName is set col visibility
+update SimpleName MethodInvocation SimpleName get col visibility
+get cahced cv SimpleName MethodInvocation SimpleName viz map
+get cahced cv SimpleName MethodInvocation MethodInvocation SimpleName update
+get cahced cv SimpleName MethodInvocation MethodInvocation SimpleName get col visibility
+viz map SimpleName MethodInvocation MethodInvocation SimpleName update
+viz map SimpleName MethodInvocation MethodInvocation SimpleName get col visibility
+viz SimpleName Assignment MethodInvocation SimpleName get cahced cv
+viz SimpleName Assignment MethodInvocation SimpleName viz map
+viz SimpleName Assignment MethodInvocation MethodInvocation SimpleName update
+viz SimpleName Assignment MethodInvocation MethodInvocation SimpleName get col visibility
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+value SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+value SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+update SimpleName MethodInvocation SimpleName is set value
+update SimpleName MethodInvocation SimpleName get value
+value SimpleName Assignment MethodInvocation SimpleName update
+value SimpleName Assignment MethodInvocation SimpleName get value
+update SimpleName MethodInvocation SimpleName is set timestamp
+update SimpleName MethodInvocation SimpleName is set delete cell
+update SimpleName MethodInvocation SimpleName is delete cell
+update SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName update
+update SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is delete cell
+is set delete cell SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName update
+is set delete cell SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is delete cell
+update SimpleName MethodInvocation SimpleName get col family
+update SimpleName MethodInvocation SimpleName get col qualifier
+update SimpleName MethodInvocation SimpleName get timestamp
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get col family
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get col qualifier
+m SimpleName MethodInvocation SimpleName viz
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+put delete SimpleName MethodInvocation MethodInvocation SimpleName update
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get col family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName update
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get col qualifier
+put delete SimpleName MethodInvocation SimpleName viz
+put delete SimpleName MethodInvocation MethodInvocation SimpleName update
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col qualifier
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col qualifier
+update SimpleName MethodInvocation MethodInvocation SimpleName viz
+get col family SimpleName MethodInvocation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+update SimpleName MethodInvocation MethodInvocation SimpleName viz
+get col qualifier SimpleName MethodInvocation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get col qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+viz SimpleName MethodInvocation MethodInvocation SimpleName update
+viz SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+update SimpleName MethodInvocation SimpleName get col family
+update SimpleName MethodInvocation SimpleName get col qualifier
+update SimpleName MethodInvocation SimpleName get timestamp
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get col family
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get col qualifier
+m SimpleName MethodInvocation SimpleName viz
+m SimpleName MethodInvocation MethodInvocation SimpleName update
+m SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+put SimpleName MethodInvocation MethodInvocation SimpleName update
+put SimpleName MethodInvocation MethodInvocation SimpleName get col family
+put SimpleName MethodInvocation MethodInvocation SimpleName update
+put SimpleName MethodInvocation MethodInvocation SimpleName get col qualifier
+put SimpleName MethodInvocation SimpleName viz
+put SimpleName MethodInvocation MethodInvocation SimpleName update
+put SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+put SimpleName MethodInvocation SimpleName value
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col qualifier
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col qualifier
+update SimpleName MethodInvocation MethodInvocation SimpleName viz
+get col family SimpleName MethodInvocation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+update SimpleName MethodInvocation MethodInvocation SimpleName value
+get col family SimpleName MethodInvocation MethodInvocation SimpleName value
+update SimpleName MethodInvocation MethodInvocation SimpleName viz
+get col qualifier SimpleName MethodInvocation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+get col qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName update
+get col qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get timestamp
+update SimpleName MethodInvocation MethodInvocation SimpleName value
+get col qualifier SimpleName MethodInvocation MethodInvocation SimpleName value
+viz SimpleName MethodInvocation MethodInvocation SimpleName update
+viz SimpleName MethodInvocation MethodInvocation SimpleName get timestamp
+viz SimpleName MethodInvocation SimpleName value
+update SimpleName MethodInvocation MethodInvocation SimpleName value
+get timestamp SimpleName MethodInvocation MethodInvocation SimpleName value
+update SimpleName MethodInvocation SimpleName is set delete cell
+update SimpleName MethodInvocation SimpleName is delete cell
+update SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName update
+update SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is delete cell
+is set delete cell SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName update
+is set delete cell SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is delete cell
+update SimpleName MethodInvocation SimpleName get col family
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get col family
+update SimpleName MethodInvocation SimpleName get col qualifier
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col family
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+m SimpleName MethodInvocation SimpleName viz
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col family
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+put delete SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+put delete SimpleName MethodInvocation SimpleName viz
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+get col family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+get col qualifier SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation SimpleName get col family
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get col family
+update SimpleName MethodInvocation SimpleName get col qualifier
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName update
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+value SimpleName SimpleType ClassInstanceCreation SimpleName value
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col family
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+m SimpleName MethodInvocation SimpleName viz
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+m SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col family
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName update
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get col qualifier
+put SimpleName MethodInvocation SimpleName viz
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+get col family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName viz
+update SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+get col qualifier SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+viz SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+viz SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+column update SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cu
+update SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cu
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add updates to mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName viz map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cu
+void PrimitiveType MethodDeclaration SimpleName add updates to mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName viz map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cu
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName cu
+add updates to mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName viz map
+add updates to mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+add updates to mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+add updates to mutation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cu
+add updates to mutation SimpleName MethodDeclaration Block EnhancedForStatement SimpleName cu
+viz map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+viz map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cu
+m SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cu
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add updates to mutation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName viz map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cu
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add updates to mutation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName viz map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cu

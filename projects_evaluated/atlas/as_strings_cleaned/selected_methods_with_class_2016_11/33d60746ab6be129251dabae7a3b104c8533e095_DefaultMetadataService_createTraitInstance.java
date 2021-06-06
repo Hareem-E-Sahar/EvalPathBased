@@ -1,0 +1,73 @@
+struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait instance
+trait instance SimpleName MethodInvocation SimpleName get type name
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+param checker SimpleName MethodInvocation MethodInvocation SimpleName get type name
+param checker SimpleName MethodInvocation StringLiteral entity type
+not empty SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+not empty SimpleName MethodInvocation MethodInvocation SimpleName get type name
+not empty SimpleName MethodInvocation StringLiteral entity type
+trait instance SimpleName MethodInvocation MethodInvocation StringLiteral entity type
+get type name SimpleName MethodInvocation MethodInvocation StringLiteral entity type
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName param checker
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName not empty
+entity type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName trait instance
+entity type name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral entity type
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName param checker
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName not empty
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral entity type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+type system SimpleName MethodInvocation SimpleName entity type name
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait type
+get data type SimpleName MethodInvocation SimpleName entity type name
+trait type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName entity type name
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+trait type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+trait type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait type
+trait type SimpleName MethodInvocation SimpleName convert
+trait type SimpleName MethodInvocation SimpleName trait instance
+trait type SimpleName MethodInvocation QualifiedName multiplicityrequired
+convert SimpleName MethodInvocation SimpleName trait instance
+convert SimpleName MethodInvocation QualifiedName multiplicityrequired
+trait instance SimpleName MethodInvocation QualifiedName multiplicityrequired
+type not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral error deserializing trait instance
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error deserializing trait instance StringLiteral ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i typed struct
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create trait instance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier MethodDeclaration SimpleName create trait instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+i typed struct SimpleName SimpleType MethodDeclaration SimpleName create trait instance
+i typed struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+i typed struct SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct
+create trait instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+create trait instance SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName create trait instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i typed struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create trait instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

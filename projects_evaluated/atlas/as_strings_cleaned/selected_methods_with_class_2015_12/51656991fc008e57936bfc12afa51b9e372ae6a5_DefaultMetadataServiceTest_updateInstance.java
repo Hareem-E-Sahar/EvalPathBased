@@ -1,0 +1,73 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+param checker SimpleName MethodInvocation SimpleName not null
+param checker SimpleName MethodInvocation SimpleName entity
+param checker SimpleName MethodInvocation StringLiteral entity
+not null SimpleName MethodInvocation SimpleName entity
+not null SimpleName MethodInvocation StringLiteral entity
+entity SimpleName MethodInvocation StringLiteral entity
+entity SimpleName MethodInvocation SimpleName get id
+param checker SimpleName MethodInvocation SimpleName not null
+param checker SimpleName MethodInvocation MethodInvocation SimpleName entity
+param checker SimpleName MethodInvocation MethodInvocation SimpleName get id
+param checker SimpleName MethodInvocation StringLiteral entity
+not null SimpleName MethodInvocation MethodInvocation SimpleName entity
+not null SimpleName MethodInvocation MethodInvocation SimpleName get id
+not null SimpleName MethodInvocation StringLiteral entity
+entity SimpleName MethodInvocation MethodInvocation StringLiteral entity
+get id SimpleName MethodInvocation MethodInvocation StringLiteral entity
+instance serialization SimpleName MethodInvocation SimpleName to json
+instance serialization SimpleName MethodInvocation SimpleName entity
+instance serialization SimpleName MethodInvocation BooleanLiteral true
+to json SimpleName MethodInvocation SimpleName entity
+to json SimpleName MethodInvocation BooleanLiteral true
+entity SimpleName MethodInvocation BooleanLiteral true
+entityjson SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance serialization
+entityjson SimpleName VariableDeclarationFragment MethodInvocation SimpleName to json
+entityjson SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+entityjson SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entityjson
+entities json SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName json array
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entities json
+entities json SimpleName MethodInvocation SimpleName put
+entities json SimpleName MethodInvocation SimpleName entityjson
+put SimpleName MethodInvocation SimpleName entityjson
+entities json SimpleName MethodInvocation SimpleName to string
+metadata service SimpleName MethodInvocation SimpleName update entities
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName entities json
+metadata service SimpleName MethodInvocation MethodInvocation SimpleName to string
+update entities SimpleName MethodInvocation MethodInvocation SimpleName entities json
+update entities SimpleName MethodInvocation MethodInvocation SimpleName to string
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata service
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName update entities
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entities json
+response SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+json array SimpleName SimpleType ClassInstanceCreation SimpleName response
+json array SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+response SimpleName ClassInstanceCreation MethodInvocation SimpleName get string
+json array SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+response SimpleName ClassInstanceCreation MethodInvocation NumberLiteral empty
+get string SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName update instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+private Modifier MethodDeclaration SimpleType SimpleName exception
+string SimpleName SimpleType MethodDeclaration SimpleName update instance
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+update instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+update instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+update instance SimpleName MethodDeclaration SimpleType SimpleName exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName update instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

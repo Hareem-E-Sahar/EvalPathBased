@@ -1,0 +1,57 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+get propagate tags SimpleName MethodInvocation SimpleName edge
+propagate tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName get propagate tags
+propagate tags SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+propagate tags SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName propagate tags
+propagate tags SimpleName InfixExpression QualifiedName propagate tagsone to two
+propagate tags SimpleName InfixExpression QualifiedName propagate tagsboth
+propagate tags SimpleName InfixExpression InfixExpression InfixExpression SimpleName propagate tags
+propagate tags SimpleName InfixExpression InfixExpression InfixExpression QualifiedName propagate tagsboth
+propagate tagsone to two QualifiedName InfixExpression InfixExpression InfixExpression SimpleName propagate tags
+propagate tagsone to two QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName propagate tagsboth
+edge SimpleName MethodInvocation SimpleName get out vertex
+get propagation enabled classification vertices SimpleName MethodInvocation MethodInvocation SimpleName edge
+get propagation enabled classification vertices SimpleName MethodInvocation MethodInvocation SimpleName get out vertex
+ret SimpleName MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation MethodInvocation SimpleName get propagation enabled classification vertices
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get out vertex
+add all SimpleName MethodInvocation MethodInvocation SimpleName get propagation enabled classification vertices
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get out vertex
+propagate tags SimpleName InfixExpression QualifiedName propagate tagstwo to one
+propagate tags SimpleName InfixExpression QualifiedName propagate tagsboth
+propagate tags SimpleName InfixExpression InfixExpression InfixExpression SimpleName propagate tags
+propagate tags SimpleName InfixExpression InfixExpression InfixExpression QualifiedName propagate tagsboth
+propagate tagstwo to one QualifiedName InfixExpression InfixExpression InfixExpression SimpleName propagate tags
+propagate tagstwo to one QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName propagate tagsboth
+edge SimpleName MethodInvocation SimpleName get in vertex
+get propagation enabled classification vertices SimpleName MethodInvocation MethodInvocation SimpleName edge
+get propagation enabled classification vertices SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+ret SimpleName MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation MethodInvocation SimpleName get propagation enabled classification vertices
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get in vertex
+add all SimpleName MethodInvocation MethodInvocation SimpleName get propagation enabled classification vertices
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+add all SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get in vertex
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SimpleName get classification vertices
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get classification vertices
+get classification vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+get classification vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+get classification vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

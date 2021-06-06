@@ -1,0 +1,34 @@
+s next id SimpleName MethodInvocation SimpleName get and decrement
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName s next id
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and decrement
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s next id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get and decrement
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment PrefixExpression NumberLiteral empty
+ret SimpleName InfixExpression NumberLiteral empty
+ret SimpleName Assignment QualifiedName longmin value
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName next negative long
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName next negative long
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+long PrimitiveType MethodDeclaration SimpleName next negative long
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+next negative long SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+next negative long SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName next negative long
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next negative long

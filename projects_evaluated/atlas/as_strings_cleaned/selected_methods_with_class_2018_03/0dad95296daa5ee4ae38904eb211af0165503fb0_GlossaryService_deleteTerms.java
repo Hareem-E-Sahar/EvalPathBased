@@ -1,0 +1,75 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName atlas glossary
+final Modifier SingleVariableDeclaration SimpleName existing
+atlas glossary SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas related term header
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName atlas related term header
+final Modifier SingleVariableDeclaration SimpleName terms
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+atlas related term header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName terms
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName terms
+is not empty SimpleName MethodInvocation SimpleName terms
+existing SimpleName MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral deleting terms within glossary guid = {}
+log SimpleName MethodInvocation MethodInvocation SimpleName existing
+log SimpleName MethodInvocation MethodInvocation SimpleName get guid
+debug SimpleName MethodInvocation StringLiteral deleting terms within glossary guid = {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName existing
+debug SimpleName MethodInvocation MethodInvocation SimpleName get guid
+deleting terms within glossary guid = {} StringLiteral MethodInvocation MethodInvocation SimpleName existing
+deleting terms within glossary guid = {} StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+atlas related term header SimpleName SimpleType SingleVariableDeclaration SimpleName term
+term SimpleName MethodInvocation SimpleName get term guid
+delete term SimpleName MethodInvocation MethodInvocation SimpleName term
+delete term SimpleName MethodInvocation MethodInvocation SimpleName get term guid
+atlas related term header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName terms
+term SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName terms
+debug enabled SimpleName IfStatement Block EnhancedForStatement SimpleName terms
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete terms
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName terms
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName delete terms
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName terms
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+delete terms SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary
+delete terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+delete terms SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+delete terms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName terms
+delete terms SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+terms SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete terms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete terms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName terms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

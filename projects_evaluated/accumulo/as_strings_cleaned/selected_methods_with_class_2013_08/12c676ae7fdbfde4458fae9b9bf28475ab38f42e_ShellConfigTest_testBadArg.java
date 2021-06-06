@@ -1,0 +1,36 @@
+shell SimpleName MethodInvocation SimpleName config
+shell SimpleName MethodInvocation StringLiteral bogus
+config SimpleName MethodInvocation StringLiteral bogus
+assert true SimpleName MethodInvocation MethodInvocation SimpleName shell
+assert true SimpleName MethodInvocation MethodInvocation SimpleName config
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral bogus
+output SimpleName MethodInvocation SimpleName get
+output SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get SimpleName MethodInvocation MethodInvocation SimpleName starts with
+output SimpleName MethodInvocation MethodInvocation StringLiteral usage
+get SimpleName MethodInvocation MethodInvocation StringLiteral usage
+starts with SimpleName MethodInvocation StringLiteral usage
+assert true SimpleName MethodInvocation StringLiteral did not print usage
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName output
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert true SimpleName MethodInvocation MethodInvocation SimpleName starts with
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral usage
+did not print usage StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName output
+did not print usage StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+did not print usage StringLiteral MethodInvocation MethodInvocation SimpleName starts with
+did not print usage StringLiteral MethodInvocation MethodInvocation StringLiteral usage
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test bad arg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bad arg
+void PrimitiveType MethodDeclaration SimpleName test bad arg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bad arg
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bad arg

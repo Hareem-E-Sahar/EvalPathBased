@@ -1,0 +1,42 @@
+atlas entity with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName table entity
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+table entity SimpleName MethodInvocation SimpleName get entity
+table entity SimpleName MethodInvocation SimpleName get entity
+table entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+table entity SimpleName MethodInvocation MethodInvocation SimpleName attribute storagedesc
+get entity SimpleName MethodInvocation MethodInvocation SimpleName attribute storagedesc
+get attribute SimpleName MethodInvocation SimpleName attribute storagedesc
+attr sd id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table entity
+attr sd id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get entity
+attr sd id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+attr sd id SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute storagedesc
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr sd id
+attr sd id SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName attr sd id
+attr sd id SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get guid
+table entity SimpleName MethodInvocation SimpleName get referred entity
+table entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get referred entity SimpleName MethodInvocation MethodInvocation SimpleName get guid
+ret SimpleName Assignment MethodInvocation SimpleName table entity
+ret SimpleName Assignment MethodInvocation SimpleName get referred entity
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get guid
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get storage desc entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table entity
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get storage desc entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table entity
+get storage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity with ext info
+get storage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table entity
+get storage desc entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get storage desc entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get storage desc entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table entity

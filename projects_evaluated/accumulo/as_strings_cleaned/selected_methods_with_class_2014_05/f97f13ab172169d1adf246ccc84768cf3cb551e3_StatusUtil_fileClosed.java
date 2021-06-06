@@ -1,0 +1,40 @@
+long PrimitiveType SingleVariableDeclaration SimpleName time closed
+closed status builder SimpleName MethodInvocation SimpleName set closed time
+closed status builder SimpleName MethodInvocation SimpleName time closed
+set closed time SimpleName MethodInvocation SimpleName time closed
+closed status builder SimpleName MethodInvocation SimpleName build
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName status
+public Modifier MethodDeclaration SimpleName file closed
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time closed
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName status
+static Modifier MethodDeclaration SimpleName file closed
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName time closed
+synchronized Modifier MethodDeclaration SimpleType SimpleName status
+synchronized Modifier MethodDeclaration SimpleName file closed
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName time closed
+status SimpleName SimpleType MethodDeclaration SimpleName file closed
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time closed
+file closed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+file closed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time closed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName file closed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time closed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName file closed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time closed

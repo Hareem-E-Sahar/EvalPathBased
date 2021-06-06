@@ -1,0 +1,127 @@
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entries
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName datafile
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev row
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+sorted map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+key extent SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+last row from key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last row from key
+colf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colf
+colq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName colq
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entries SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName Assignment MethodInvocation SimpleName entry
+key SimpleName Assignment MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+val SimpleName Assignment MethodInvocation SimpleName entry
+val SimpleName Assignment MethodInvocation SimpleName get value
+key SimpleName MethodInvocation SimpleName compare row
+key SimpleName MethodInvocation SimpleName last row from key
+compare row SimpleName MethodInvocation SimpleName last row from key
+key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last row from key SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation SimpleName get row
+key SimpleName MethodInvocation SimpleName last row from key
+get row SimpleName MethodInvocation SimpleName last row from key
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName colf
+get column family SimpleName MethodInvocation SimpleName colf
+colf SimpleName Assignment MethodInvocation SimpleName key
+colf SimpleName Assignment MethodInvocation SimpleName get column family
+colf SimpleName Assignment MethodInvocation SimpleName colf
+key SimpleName MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation SimpleName colq
+get column qualifier SimpleName MethodInvocation SimpleName colq
+colq SimpleName Assignment MethodInvocation SimpleName key
+colq SimpleName Assignment MethodInvocation SimpleName get column qualifier
+colq SimpleName Assignment MethodInvocation SimpleName colq
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName equals
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName colf
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName colq
+equals SimpleName MethodInvocation SimpleName colf
+equals SimpleName MethodInvocation SimpleName colq
+colf SimpleName MethodInvocation SimpleName colq
+val SimpleName MethodInvocation SimpleName to string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+datafile SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text
+datafile SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName val
+datafile SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName equals
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName colf
+tablets sectiontablet column familyprev row column QualifiedName MethodInvocation SimpleName colq
+equals SimpleName MethodInvocation SimpleName colf
+equals SimpleName MethodInvocation SimpleName colq
+colf SimpleName MethodInvocation SimpleName colq
+value SimpleName SimpleType ClassInstanceCreation SimpleName val
+prev row SimpleName Assignment ClassInstanceCreation SimpleType SimpleName value
+prev row SimpleName Assignment ClassInstanceCreation SimpleName val
+datafile SimpleName InfixExpression InfixExpression InfixExpression SimpleName prev row
+key SimpleName MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation SimpleName prev row
+key SimpleName MethodInvocation ClassInstanceCreation SimpleName prev row
+get row SimpleName MethodInvocation ClassInstanceCreation SimpleName prev row
+ke SimpleName Assignment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+ke SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+ke SimpleName Assignment ClassInstanceCreation SimpleName prev row
+results SimpleName MethodInvocation SimpleName put
+results SimpleName MethodInvocation SimpleName ke
+results SimpleName MethodInvocation SimpleName datafile
+put SimpleName MethodInvocation SimpleName ke
+put SimpleName MethodInvocation SimpleName datafile
+ke SimpleName MethodInvocation SimpleName datafile
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entries
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName get metadata directory entries
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+public Modifier MethodDeclaration Block ReturnStatement SimpleName results
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key extent
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName get metadata directory entries
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entries
+static Modifier MethodDeclaration Block ReturnStatement SimpleName results
+sorted map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get metadata directory entries
+key extent SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get metadata directory entries
+text SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get metadata directory entries
+get metadata directory entries SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entries
+get metadata directory entries SimpleName MethodDeclaration Block ReturnStatement SimpleName results
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metadata directory entries
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metadata directory entries
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entries

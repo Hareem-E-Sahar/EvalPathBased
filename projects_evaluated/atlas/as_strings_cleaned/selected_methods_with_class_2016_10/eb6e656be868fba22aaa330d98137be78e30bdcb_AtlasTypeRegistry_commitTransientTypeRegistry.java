@@ -1,0 +1,20 @@
+atlas transient type registry SimpleName SimpleType SingleVariableDeclaration SimpleName transient type registry
+registry data SimpleName FieldAccess Assignment QualifiedName transient type registryregistry data
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName commit transient type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName transient type registry
+void PrimitiveType MethodDeclaration SimpleName commit transient type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName transient type registry
+commit transient type registry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas transient type registry
+commit transient type registry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transient type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName commit transient type registry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName commit transient type registry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transient type registry

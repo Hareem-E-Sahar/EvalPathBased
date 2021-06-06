@@ -1,0 +1,91 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unique attribute value
+api SimpleName VariableDeclarationFragment QualifiedName apidelete entity
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName api
+api SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName apidelete entity
+get resource SimpleName MethodInvocation SimpleName api
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+resource SimpleName VariableDeclarationFragment MethodInvocation SimpleName api
+web resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName type
+resource SimpleName MethodInvocation SimpleName entity type
+query param SimpleName MethodInvocation SimpleName type
+query param SimpleName MethodInvocation SimpleName entity type
+type SimpleName MethodInvocation SimpleName entity type
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName type
+resource SimpleName Assignment MethodInvocation SimpleName entity type
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute name
+resource SimpleName MethodInvocation SimpleName unique attribute name
+query param SimpleName MethodInvocation SimpleName attribute name
+query param SimpleName MethodInvocation SimpleName unique attribute name
+attribute name SimpleName MethodInvocation SimpleName unique attribute name
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute name
+resource SimpleName Assignment MethodInvocation SimpleName unique attribute name
+resource SimpleName MethodInvocation SimpleName query param
+resource SimpleName MethodInvocation SimpleName attribute value
+resource SimpleName MethodInvocation SimpleName unique attribute value
+query param SimpleName MethodInvocation SimpleName attribute value
+query param SimpleName MethodInvocation SimpleName unique attribute value
+attribute value SimpleName MethodInvocation SimpleName unique attribute value
+resource SimpleName Assignment MethodInvocation SimpleName resource
+resource SimpleName Assignment MethodInvocation SimpleName query param
+resource SimpleName Assignment MethodInvocation SimpleName attribute value
+resource SimpleName Assignment MethodInvocation SimpleName unique attribute value
+call api with resource SimpleName MethodInvocation QualifiedName apidelete entities
+call api with resource SimpleName MethodInvocation SimpleName resource
+apidelete entities QualifiedName MethodInvocation SimpleName resource
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName call api with resource
+json response SimpleName VariableDeclarationFragment MethodInvocation QualifiedName apidelete entities
+json response SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName json response
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract operation SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+extract results SimpleName MethodInvocation SimpleName json response
+extract results SimpleName MethodInvocation SimpleName guid
+json response SimpleName MethodInvocation SimpleName guid
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName delete entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entity
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName delete entity
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+delete entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+unique attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+unique attribute value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unique attribute value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

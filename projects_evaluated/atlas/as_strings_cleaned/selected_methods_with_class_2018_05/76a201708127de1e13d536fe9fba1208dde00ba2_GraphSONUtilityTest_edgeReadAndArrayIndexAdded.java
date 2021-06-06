@@ -1,0 +1,148 @@
+element processors SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get post process map
+element processors SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName element processors
+element processors SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get post process map
+element processors SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element processors
+tinker graph SimpleName MethodInvocation SimpleName open
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName tinker graph
+tg SimpleName VariableDeclarationFragment MethodInvocation SimpleName open
+tinker graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tg
+graph son utility SimpleName SimpleType ClassInstanceCreation SimpleName element processors
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName graph son utility
+gu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName element processors
+graph son utility SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gu
+add vertex to graph SimpleName MethodInvocation SimpleName tg
+add vertex to graph SimpleName MethodInvocation SimpleName gu
+add vertex to graph SimpleName MethodInvocation MethodInvocation SimpleName get dbv
+add vertex to graph SimpleName MethodInvocation MethodInvocation SimpleName get table v
+add vertex to graph SimpleName MethodInvocation MethodInvocation SimpleName get col
+tg SimpleName MethodInvocation SimpleName gu
+tg SimpleName MethodInvocation MethodInvocation SimpleName get dbv
+tg SimpleName MethodInvocation MethodInvocation SimpleName get table v
+tg SimpleName MethodInvocation MethodInvocation SimpleName get col
+tg SimpleName MethodInvocation MethodInvocation SimpleName get col
+gu SimpleName MethodInvocation MethodInvocation SimpleName get dbv
+gu SimpleName MethodInvocation MethodInvocation SimpleName get table v
+gu SimpleName MethodInvocation MethodInvocation SimpleName get col
+gu SimpleName MethodInvocation MethodInvocation SimpleName get col
+get dbv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table v
+get dbv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col
+get dbv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col
+get table v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col
+get table v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col
+get col SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get col
+add edge to graph SimpleName MethodInvocation SimpleName tg
+add edge to graph SimpleName MethodInvocation SimpleName gu
+add edge to graph SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+add edge to graph SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+add edge to graph SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+tg SimpleName MethodInvocation SimpleName gu
+tg SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+tg SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+tg SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+gu SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mapped element cache
+gu SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+gu SimpleName MethodInvocation MethodInvocation SimpleName get edge col
+get edge col SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get edge col
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName edge
+tg SimpleName MethodInvocation SimpleName edges
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName tg
+edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+edges SimpleName MethodInvocation SimpleName has next
+edges SimpleName MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName edges
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName label
+string utils SimpleName MethodInvocation SimpleName remove
+string utils SimpleName MethodInvocation MethodInvocation SimpleName e
+string utils SimpleName MethodInvocation MethodInvocation SimpleName label
+string utils SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+remove SimpleName MethodInvocation MethodInvocation SimpleName e
+remove SimpleName MethodInvocation MethodInvocation SimpleName label
+remove SimpleName MethodInvocation QualifiedName constantsinternal property key prefix
+e SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+label SimpleName MethodInvocation MethodInvocation QualifiedName constantsinternal property key prefix
+array specific label SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+array specific label SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+array specific label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName e
+array specific label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName label
+array specific label SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsinternal property key prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array specific label
+array specific label SimpleName MethodInvocation SimpleName equals
+array specific label SimpleName MethodInvocation SimpleName hive table columns relationship
+equals SimpleName MethodInvocation SimpleName hive table columns relationship
+e SimpleName MethodInvocation SimpleName property
+e SimpleName MethodInvocation SimpleName attribute index property key
+property SimpleName MethodInvocation SimpleName attribute index property key
+e SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+attribute index property key SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attribute index property key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+e SimpleName MethodInvocation SimpleName property
+e SimpleName MethodInvocation SimpleName edge id in import key
+property SimpleName MethodInvocation SimpleName edge id in import key
+e SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+edge id in import key SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge id in import key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+tg SimpleName MethodInvocation SimpleName vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName tg
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+vertices SimpleName MethodInvocation SimpleName has next
+vertices SimpleName MethodInvocation SimpleName next
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName hive table name property
+property SimpleName MethodInvocation SimpleName hive table name property
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+hive table name property SimpleName MethodInvocation MethodInvocation SimpleName is present
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName hive table name property
+property SimpleName MethodInvocation SimpleName hive table name property
+v SimpleName MethodInvocation MethodInvocation SimpleName value
+property SimpleName MethodInvocation MethodInvocation SimpleName value
+hive table name property SimpleName MethodInvocation MethodInvocation SimpleName value
+v SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+hive table name property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+value SimpleName MethodInvocation MethodInvocation SimpleName to string
+value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table name
+to string SimpleName MethodInvocation MethodInvocation SimpleName hive table name
+equals SimpleName MethodInvocation SimpleName hive table name
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName hive table columns relationship
+property SimpleName MethodInvocation SimpleName hive table columns relationship
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+hive table columns relationship SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hive table columns relationship
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName edge read and array index added
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName edge read and array index added
+void PrimitiveType MethodDeclaration SimpleName edge read and array index added
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName edge read and array index added
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName edge read and array index added

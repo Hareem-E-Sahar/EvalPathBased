@@ -1,0 +1,19 @@
+entity graph discovery SimpleName SimpleType SingleVariableDeclaration SimpleName discoverer
+graph discoverer SimpleName FieldAccess Assignment SimpleName discoverer
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName set graph discoverer
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName discoverer
+void PrimitiveType MethodDeclaration SimpleName set graph discoverer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName discoverer
+set graph discoverer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity graph discovery
+set graph discoverer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName discoverer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graph discoverer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName discoverer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graph discoverer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName discoverer

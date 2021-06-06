@@ -1,0 +1,19 @@
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get total entries
+public Modifier MethodDeclaration Block ReturnStatement SimpleName total entries
+static Modifier MethodDeclaration PrimitiveType long
+static Modifier MethodDeclaration SimpleName get total entries
+static Modifier MethodDeclaration Block ReturnStatement SimpleName total entries
+long PrimitiveType MethodDeclaration SimpleName get total entries
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName total entries
+get total entries SimpleName MethodDeclaration Block ReturnStatement SimpleName total entries
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get total entries
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get total entries

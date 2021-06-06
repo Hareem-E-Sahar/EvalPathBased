@@ -1,0 +1,113 @@
+element type id SimpleName VariableDeclarationFragment StringLiteral eb a - da cab a bd d
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element type id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral eb a - da cab a bd d
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral eb a - da cab a bd d
+element type name SimpleName VariableDeclarationFragment StringLiteral connector type
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element type name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral connector type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral connector type
+element type version SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element type version
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type version
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+element type description SimpleName VariableDeclarationFragment StringLiteral a set of properties describing a type of connector
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element type description
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral a set of properties describing a type of connector
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral a set of properties describing a type of connector
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element access service url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element access service url
+element origin SimpleName VariableDeclarationFragment QualifiedName element originlocal cohort
+final Modifier VariableDeclarationStatement SimpleType SimpleName element origin
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element origin
+final Modifier VariableDeclarationStatement VariableDeclarationFragment QualifiedName element originlocal cohort
+element origin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element origin
+element origin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName element originlocal cohort
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName element home metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element home metadata collection id
+element type SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName element type
+element type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+element type SimpleName MethodInvocation SimpleName set element type id
+element type SimpleName MethodInvocation SimpleName element type id
+set element type id SimpleName MethodInvocation SimpleName element type id
+element type SimpleName MethodInvocation SimpleName set element type name
+element type SimpleName MethodInvocation SimpleName element type name
+set element type name SimpleName MethodInvocation SimpleName element type name
+element type SimpleName MethodInvocation SimpleName set element type version
+element type SimpleName MethodInvocation SimpleName element type version
+set element type version SimpleName MethodInvocation SimpleName element type version
+element type SimpleName MethodInvocation SimpleName set element type description
+element type SimpleName MethodInvocation SimpleName element type description
+set element type description SimpleName MethodInvocation SimpleName element type description
+element type SimpleName MethodInvocation SimpleName set element access service url
+element type SimpleName MethodInvocation SimpleName element access service url
+set element access service url SimpleName MethodInvocation SimpleName element access service url
+element type SimpleName MethodInvocation SimpleName set element origin
+element type SimpleName MethodInvocation SimpleName element origin
+set element origin SimpleName MethodInvocation SimpleName element origin
+element type SimpleName MethodInvocation SimpleName set element home metadata collection id
+element type SimpleName MethodInvocation SimpleName element home metadata collection id
+set element home metadata collection id SimpleName MethodInvocation SimpleName element home metadata collection id
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName element type
+public Modifier MethodDeclaration SimpleName get connector type type
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName element type
+element type SimpleName SimpleType MethodDeclaration SimpleName get connector type type
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get connector type type SimpleName MethodDeclaration Block ReturnStatement SimpleName element type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connector type type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connector type type

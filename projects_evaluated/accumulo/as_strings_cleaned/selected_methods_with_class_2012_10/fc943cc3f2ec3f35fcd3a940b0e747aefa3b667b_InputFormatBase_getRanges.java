@@ -1,0 +1,66 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+string SimpleName SimpleType SingleVariableDeclaration SimpleName range string
+conf SimpleName MethodInvocation SimpleName get string collection
+conf SimpleName MethodInvocation SimpleName ranges
+get string collection SimpleName MethodInvocation SimpleName ranges
+range string SimpleName MethodInvocation SimpleName get bytes
+base SimpleName MethodInvocation SimpleName decode base
+base SimpleName MethodInvocation MethodInvocation SimpleName range string
+base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+decode base SimpleName MethodInvocation MethodInvocation SimpleName range string
+decode base SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName base
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName decode base
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName base
+bais SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName decode base
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bais
+range SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+data input stream SimpleName SimpleType ClassInstanceCreation SimpleName bais
+range SimpleName MethodInvocation SimpleName read fields
+range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data input stream
+range SimpleName MethodInvocation ClassInstanceCreation SimpleName bais
+read fields SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName data input stream
+read fields SimpleName MethodInvocation ClassInstanceCreation SimpleName bais
+ranges SimpleName MethodInvocation SimpleName add
+ranges SimpleName MethodInvocation SimpleName range
+add SimpleName MethodInvocation SimpleName range
+range string SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName conf
+range string SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get string collection
+range string SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName ranges
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+protected Modifier MethodDeclaration SimpleName get ranges
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName range
+static Modifier MethodDeclaration SimpleName get ranges
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ranges
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ranges
+range SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ranges
+get ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get ranges SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get ranges SimpleName MethodDeclaration SimpleType SimpleName io exception
+get ranges SimpleName MethodDeclaration Block ReturnStatement SimpleName ranges
+conf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ranges
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ranges
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

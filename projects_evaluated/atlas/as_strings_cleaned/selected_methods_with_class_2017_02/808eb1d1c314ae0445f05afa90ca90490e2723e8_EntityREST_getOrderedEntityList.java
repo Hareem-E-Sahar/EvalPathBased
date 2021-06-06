@@ -1,0 +1,58 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+atlas entity SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+string SimpleName SimpleType SingleVariableDeclaration SimpleName first item guid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas entity
+entities SimpleName MethodInvocation SimpleName size
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName entities
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entities SimpleName MethodInvocation SimpleName values
+entity SimpleName MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName equals
+string utils SimpleName MethodInvocation MethodInvocation SimpleName entity
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get guid
+string utils SimpleName MethodInvocation SimpleName first item guid
+equals SimpleName MethodInvocation MethodInvocation SimpleName entity
+equals SimpleName MethodInvocation MethodInvocation SimpleName get guid
+equals SimpleName MethodInvocation SimpleName first item guid
+entity SimpleName MethodInvocation MethodInvocation SimpleName first item guid
+get guid SimpleName MethodInvocation MethodInvocation SimpleName first item guid
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName entity
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName entity
+empty NumberLiteral MethodInvocation SimpleName entity
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName entity
+add SimpleName MethodInvocation SimpleName entity
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get ordered entity list
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName first item guid
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ordered entity list
+atlas entity SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get ordered entity list
+get ordered entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+get ordered entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get ordered entity list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName first item guid
+get ordered entity list SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entities SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first item guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ordered entity list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first item guid
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ordered entity list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first item guid

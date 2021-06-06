@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName node sep
+b SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+b SimpleName MethodInvocation SimpleName append
+b SimpleName MethodInvocation QualifiedName ptype name
+append SimpleName MethodInvocation QualifiedName ptype name
+p SimpleName Assignment QualifiedName psub type path
+b SimpleName MethodInvocation SimpleName append
+b SimpleName MethodInvocation SimpleName node sep
+append SimpleName MethodInvocation SimpleName node sep
+b SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName path string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node sep
+string SimpleName SimpleType MethodDeclaration SimpleName path string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node sep
+path string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+path string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node sep
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName path string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node sep
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName path string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node sep

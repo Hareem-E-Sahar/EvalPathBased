@@ -1,0 +1,140 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName file
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName settings
+file writer SimpleName SimpleType ClassInstanceCreation SimpleName file
+file writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file writer
+file writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName file
+file writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file writer
+file writer SimpleName MethodInvocation SimpleName append
+file writer SimpleName MethodInvocation StringLiteral configuration
+append SimpleName MethodInvocation StringLiteral configuration
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName replace
+get value SimpleName MethodInvocation MethodInvocation SimpleName replace
+entry SimpleName MethodInvocation MethodInvocation StringLiteral &
+get value SimpleName MethodInvocation MethodInvocation StringLiteral &
+entry SimpleName MethodInvocation MethodInvocation StringLiteral amp
+get value SimpleName MethodInvocation MethodInvocation StringLiteral amp
+replace SimpleName MethodInvocation StringLiteral &
+replace SimpleName MethodInvocation StringLiteral amp
+& StringLiteral MethodInvocation StringLiteral amp
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+& StringLiteral MethodInvocation MethodInvocation SimpleName replace
+amp StringLiteral MethodInvocation MethodInvocation SimpleName replace
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral <
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral <
+replace SimpleName MethodInvocation MethodInvocation StringLiteral <
+& StringLiteral MethodInvocation MethodInvocation StringLiteral <
+amp StringLiteral MethodInvocation MethodInvocation StringLiteral <
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral lt
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral lt
+replace SimpleName MethodInvocation MethodInvocation StringLiteral lt
+& StringLiteral MethodInvocation MethodInvocation StringLiteral lt
+amp StringLiteral MethodInvocation MethodInvocation StringLiteral lt
+replace SimpleName MethodInvocation StringLiteral <
+replace SimpleName MethodInvocation StringLiteral lt
+< StringLiteral MethodInvocation StringLiteral lt
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation SimpleName replace
+< StringLiteral MethodInvocation MethodInvocation SimpleName replace
+lt StringLiteral MethodInvocation MethodInvocation SimpleName replace
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral >
+replace SimpleName MethodInvocation MethodInvocation StringLiteral >
+< StringLiteral MethodInvocation MethodInvocation StringLiteral >
+lt StringLiteral MethodInvocation MethodInvocation StringLiteral >
+replace SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+& StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+amp StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral gt
+replace SimpleName MethodInvocation MethodInvocation StringLiteral gt
+< StringLiteral MethodInvocation MethodInvocation StringLiteral gt
+lt StringLiteral MethodInvocation MethodInvocation StringLiteral gt
+replace SimpleName MethodInvocation StringLiteral >
+replace SimpleName MethodInvocation StringLiteral gt
+> StringLiteral MethodInvocation StringLiteral gt
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName replace
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral <
+value SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral lt
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral >
+value SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+entry SimpleName MethodInvocation SimpleName get key
+propertyname StringLiteral InfixExpression MethodInvocation SimpleName entry
+propertyname StringLiteral InfixExpression MethodInvocation SimpleName get key
+propertyname StringLiteral InfixExpression StringLiteral namevalue
+propertyname StringLiteral InfixExpression SimpleName value
+propertyname StringLiteral InfixExpression StringLiteral valueproperty
+entry SimpleName MethodInvocation InfixExpression StringLiteral namevalue
+get key SimpleName MethodInvocation InfixExpression StringLiteral namevalue
+entry SimpleName MethodInvocation InfixExpression SimpleName value
+get key SimpleName MethodInvocation InfixExpression SimpleName value
+entry SimpleName MethodInvocation InfixExpression StringLiteral valueproperty
+get key SimpleName MethodInvocation InfixExpression StringLiteral valueproperty
+namevalue StringLiteral InfixExpression SimpleName value
+namevalue StringLiteral InfixExpression StringLiteral valueproperty
+value SimpleName InfixExpression StringLiteral valueproperty
+file writer SimpleName MethodInvocation SimpleName append
+file writer SimpleName MethodInvocation InfixExpression StringLiteral propertyname
+file writer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+file writer SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+file writer SimpleName MethodInvocation InfixExpression StringLiteral namevalue
+file writer SimpleName MethodInvocation InfixExpression SimpleName value
+file writer SimpleName MethodInvocation InfixExpression StringLiteral valueproperty
+append SimpleName MethodInvocation InfixExpression StringLiteral propertyname
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+append SimpleName MethodInvocation InfixExpression StringLiteral namevalue
+append SimpleName MethodInvocation InfixExpression SimpleName value
+append SimpleName MethodInvocation InfixExpression StringLiteral valueproperty
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName settings
+file writer SimpleName MethodInvocation SimpleName append
+file writer SimpleName MethodInvocation StringLiteral configuration
+append SimpleName MethodInvocation StringLiteral configuration
+file writer SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName settings
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName settings
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName settings
+write config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+write config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file
+write config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName settings
+write config SimpleName MethodDeclaration SimpleType SimpleName io exception
+write config SimpleName MethodDeclaration Block EnhancedForStatement SimpleName settings
+file SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName settings
+file SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+settings SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName settings
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName settings
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

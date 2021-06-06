@@ -1,0 +1,46 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName atlas object id
+atlas object id SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get guid
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName atlas object idkey guid
+get SimpleName MethodInvocation QualifiedName atlas object idkey guid
+guid val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+guid val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName atlas object idkey guid
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid val
+guid val SimpleName MethodInvocation SimpleName to string
+guid val SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName guid val
+guid val SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get guid
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get guid
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName get guid
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get guid SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

@@ -1,0 +1,62 @@
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName in
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName out
+entity guid SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+out SimpleName MethodInvocation SimpleName property
+out SimpleName MethodInvocation QualifiedName constantsguid property key
+property SimpleName MethodInvocation QualifiedName constantsguid property key
+out SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName is present
+out SimpleName MethodInvocation SimpleName property
+out SimpleName MethodInvocation QualifiedName constantsguid property key
+property SimpleName MethodInvocation QualifiedName constantsguid property key
+out SimpleName MethodInvocation MethodInvocation SimpleName value
+property SimpleName MethodInvocation MethodInvocation SimpleName value
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName value
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+entity guid SimpleName Assignment CastExpression SimpleType SimpleName string
+entity guid SimpleName Assignment CastExpression MethodInvocation SimpleName value
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation SimpleName entity guid
+is not empty SimpleName MethodInvocation SimpleName entity guid
+in SimpleName MethodInvocation SimpleName property
+in SimpleName MethodInvocation SimpleName classification entity guid
+in SimpleName MethodInvocation SimpleName entity guid
+property SimpleName MethodInvocation SimpleName classification entity guid
+property SimpleName MethodInvocation SimpleName entity guid
+classification entity guid SimpleName MethodInvocation SimpleName entity guid
+in SimpleName MethodInvocation SimpleName property
+in SimpleName MethodInvocation SimpleName classification vertex propagate key
+in SimpleName MethodInvocation BooleanLiteral false
+property SimpleName MethodInvocation SimpleName classification vertex propagate key
+property SimpleName MethodInvocation BooleanLiteral false
+classification vertex propagate key SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add entity guid to trait
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName out
+void PrimitiveType MethodDeclaration SimpleName add entity guid to trait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName out
+add entity guid to trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add entity guid to trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+add entity guid to trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+add entity guid to trait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName out
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add entity guid to trait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add entity guid to trait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName out

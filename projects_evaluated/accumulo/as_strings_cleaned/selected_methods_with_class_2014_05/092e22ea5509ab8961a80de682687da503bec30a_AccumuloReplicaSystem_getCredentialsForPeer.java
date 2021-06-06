@@ -1,0 +1,100 @@
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+replication target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName conf
+check not null SimpleName MethodInvocation SimpleName conf
+preconditions SimpleName MethodInvocation SimpleName check not null
+preconditions SimpleName MethodInvocation SimpleName target
+check not null SimpleName MethodInvocation SimpleName target
+target SimpleName MethodInvocation SimpleName get peer name
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+peer name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer name
+propertyreplication peer user QualifiedName MethodInvocation SimpleName get key
+propertyreplication peer user QualifiedName MethodInvocation InfixExpression SimpleName peer name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer name
+user key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertyreplication peer user
+user key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+user key SimpleName VariableDeclarationFragment InfixExpression SimpleName peer name
+propertyreplication peer password QualifiedName MethodInvocation SimpleName get key
+propertyreplication peer password QualifiedName MethodInvocation InfixExpression SimpleName peer name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer name
+password key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation QualifiedName propertyreplication peer password
+password key SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get key
+password key SimpleName VariableDeclarationFragment InfixExpression SimpleName peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password key
+user key SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName password key
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conf SimpleName MethodInvocation SimpleName get all properties with prefix
+conf SimpleName MethodInvocation QualifiedName propertyreplication peer user
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertyreplication peer user
+peer users SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+peer users SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+peer users SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication peer user
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conf SimpleName MethodInvocation SimpleName get all properties with prefix
+conf SimpleName MethodInvocation QualifiedName propertyreplication peer password
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertyreplication peer password
+peer passwords SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+peer passwords SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+peer passwords SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication peer password
+peer users SimpleName MethodInvocation SimpleName get
+peer users SimpleName MethodInvocation SimpleName user key
+get SimpleName MethodInvocation SimpleName user key
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer users
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName user key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+peer passwords SimpleName MethodInvocation SimpleName get
+peer passwords SimpleName MethodInvocation SimpleName password key
+get SimpleName MethodInvocation SimpleName password key
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName peer passwords
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName password key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+user SimpleName InfixExpression InfixExpression InfixExpression SimpleName password
+user key SimpleName InfixExpression StringLiteral and
+user key SimpleName InfixExpression SimpleName password key
+user key SimpleName InfixExpression StringLiteral not configured cannot replicate
+and StringLiteral InfixExpression SimpleName password key
+and StringLiteral InfixExpression StringLiteral not configured cannot replicate
+password key SimpleName InfixExpression StringLiteral not configured cannot replicate
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral and
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName password key
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not configured cannot replicate
+password token SimpleName SimpleType ClassInstanceCreation SimpleName password
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName user
+credentials SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName password
+user SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName password token
+user SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName password
+protected Modifier MethodDeclaration SimpleType SimpleName credentials
+protected Modifier MethodDeclaration SimpleName get credentials for peer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+credentials SimpleName SimpleType MethodDeclaration SimpleName get credentials for peer
+credentials SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName conf
+credentials SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+get credentials for peer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get credentials for peer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+get credentials for peer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName replication target
+get credentials for peer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SimpleName get credentials for peer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get credentials for peer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

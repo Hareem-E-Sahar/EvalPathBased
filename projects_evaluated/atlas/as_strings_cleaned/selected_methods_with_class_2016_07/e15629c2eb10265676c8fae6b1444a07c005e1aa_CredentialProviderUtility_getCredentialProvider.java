@@ -1,0 +1,86 @@
+text device SimpleName SimpleType SingleVariableDeclaration SimpleName text device
+text device SimpleName MethodInvocation SimpleName read line
+text device SimpleName MethodInvocation StringLiteral please enter the full path to the credential provider
+read line SimpleName MethodInvocation StringLiteral please enter the full path to the credential provider
+provider path SimpleName VariableDeclarationFragment MethodInvocation SimpleName text device
+provider path SimpleName VariableDeclarationFragment MethodInvocation SimpleName read line
+provider path SimpleName VariableDeclarationFragment MethodInvocation StringLiteral please enter the full path to the credential provider
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider path
+file SimpleName SimpleType ClassInstanceCreation SimpleName provider path
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName provider path
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName exists
+s already exists you will need to specify whether existing entries should be StringLiteral InfixExpression StringLiteral overwritten
+s already exists you will need to specify whether existing entries should be StringLiteral InfixExpression StringLiteral default is yes
+overwritten StringLiteral InfixExpression StringLiteral default is yes
+text device SimpleName MethodInvocation SimpleName printf
+text device SimpleName MethodInvocation InfixExpression StringLiteral s already exists you will need to specify whether existing entries should be
+text device SimpleName MethodInvocation InfixExpression StringLiteral overwritten
+text device SimpleName MethodInvocation InfixExpression StringLiteral default is yes
+text device SimpleName MethodInvocation SimpleName provider path
+printf SimpleName MethodInvocation InfixExpression StringLiteral s already exists you will need to specify whether existing entries should be
+printf SimpleName MethodInvocation InfixExpression StringLiteral overwritten
+printf SimpleName MethodInvocation InfixExpression StringLiteral default is yes
+printf SimpleName MethodInvocation SimpleName provider path
+s already exists you will need to specify whether existing entries should be StringLiteral InfixExpression MethodInvocation SimpleName provider path
+overwritten StringLiteral InfixExpression MethodInvocation SimpleName provider path
+default is yes StringLiteral InfixExpression MethodInvocation SimpleName provider path
+java key store providerscheme name QualifiedName InfixExpression StringLiteral file
+java key store providerscheme name QualifiedName InfixExpression SimpleName provider path
+file StringLiteral InfixExpression SimpleName provider path
+provider uri SimpleName VariableDeclarationFragment InfixExpression QualifiedName java key store providerscheme name
+provider uri SimpleName VariableDeclarationFragment InfixExpression StringLiteral file
+provider uri SimpleName VariableDeclarationFragment InfixExpression SimpleName provider path
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider uri
+configuration SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName configuration
+conf SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation QualifiedName credential provider factorycredential provider path
+conf SimpleName MethodInvocation SimpleName provider uri
+set SimpleName MethodInvocation QualifiedName credential provider factorycredential provider path
+set SimpleName MethodInvocation SimpleName provider uri
+credential provider factorycredential provider path QualifiedName MethodInvocation SimpleName provider uri
+credential provider factory SimpleName MethodInvocation SimpleName get providers
+credential provider factory SimpleName MethodInvocation SimpleName conf
+get providers SimpleName MethodInvocation SimpleName conf
+credential provider factory SimpleName MethodInvocation MethodInvocation SimpleName get
+get providers SimpleName MethodInvocation MethodInvocation SimpleName get
+conf SimpleName MethodInvocation MethodInvocation SimpleName get
+credential provider factory SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get providers SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+conf SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName credential provider
+private Modifier MethodDeclaration SimpleName get credential provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName text device
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName credential provider
+static Modifier MethodDeclaration SimpleName get credential provider
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName text device
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+credential provider SimpleName SimpleType MethodDeclaration SimpleName get credential provider
+credential provider SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text device
+credential provider SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text device
+get credential provider SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text device
+get credential provider SimpleName MethodDeclaration SimpleType SimpleName io exception
+text device SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName credential provider
+public Modifier TypeDeclaration MethodDeclaration SimpleName get credential provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text device
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName credential provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get credential provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text device
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

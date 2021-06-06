@@ -1,0 +1,35 @@
+h base test utils SimpleName MethodInvocation SimpleName get connection
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName h base test utils
+connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection
+connection SimpleName MethodInvocation SimpleName get admin
+admin SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+admin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get admin
+admin SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName admin
+admin SimpleName MethodInvocation SimpleName table exists
+admin SimpleName MethodInvocation SimpleName table name
+table exists SimpleName MethodInvocation SimpleName table name
+assert true SimpleName MethodInvocation MethodInvocation SimpleName admin
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table exists
+assert true SimpleName MethodInvocation MethodInvocation SimpleName table name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test table created
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test table created
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test table created
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test table created SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test table created
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test table created
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

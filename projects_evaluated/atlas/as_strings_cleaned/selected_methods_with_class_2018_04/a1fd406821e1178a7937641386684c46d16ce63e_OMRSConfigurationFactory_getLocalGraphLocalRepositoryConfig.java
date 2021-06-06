@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local server url
+get default local repository config SimpleName MethodInvocation SimpleName local server name
+get default local repository config SimpleName MethodInvocation SimpleName local server url
+local server name SimpleName MethodInvocation SimpleName local server url
+local repository config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default local repository config
+local repository config SimpleName VariableDeclarationFragment MethodInvocation SimpleName local server name
+local repository config SimpleName VariableDeclarationFragment MethodInvocation SimpleName local server url
+local repository config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local repository config
+get local graph repository local connection SimpleName MethodInvocation SimpleName local server name
+local repository config SimpleName MethodInvocation SimpleName set local repository local connection
+local repository config SimpleName MethodInvocation MethodInvocation SimpleName get local graph repository local connection
+local repository config SimpleName MethodInvocation MethodInvocation SimpleName local server name
+set local repository local connection SimpleName MethodInvocation MethodInvocation SimpleName get local graph repository local connection
+set local repository local connection SimpleName MethodInvocation MethodInvocation SimpleName local server name
+public Modifier MethodDeclaration SimpleType SimpleName local repository config
+public Modifier MethodDeclaration SimpleName get local graph local repository config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local server name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local server url
+public Modifier MethodDeclaration Block ReturnStatement SimpleName local repository config
+local repository config SimpleName SimpleType MethodDeclaration SimpleName get local graph local repository config
+local repository config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local server name
+local repository config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local server url
+get local graph local repository config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get local graph local repository config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local server name
+get local graph local repository config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get local graph local repository config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local server url
+get local graph local repository config SimpleName MethodDeclaration Block ReturnStatement SimpleName local repository config
+local server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName local repository config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get local graph local repository config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server url
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName local repository config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get local graph local repository config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local server url

@@ -1,0 +1,162 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName trait name
+i typed struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait instance
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName parent instance vertex
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+id SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName id to vertex map
+graph service SimpleName MethodInvocation SimpleName get blueprints graph
+typed instance SimpleName MethodInvocation SimpleName get id
+graph helper SimpleName MethodInvocation SimpleName create vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName graph service
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get blueprints graph
+graph helper SimpleName MethodInvocation SimpleName trait instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get id
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName graph service
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName get blueprints graph
+create vertex SimpleName MethodInvocation SimpleName trait instance
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+create vertex SimpleName MethodInvocation MethodInvocation SimpleName get id
+graph service SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+get blueprints graph SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+graph service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed instance
+graph service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get blueprints graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed instance
+get blueprints graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+trait instance SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+trait instance SimpleName MethodInvocation MethodInvocation SimpleName get id
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertex
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName graph service
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get blueprints graph
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName trait instance
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+trait instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait instance vertex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral created vertex {} for trait {}
+log SimpleName MethodInvocation SimpleName trait instance vertex
+log SimpleName MethodInvocation SimpleName trait name
+debug SimpleName MethodInvocation StringLiteral created vertex {} for trait {}
+debug SimpleName MethodInvocation SimpleName trait instance vertex
+debug SimpleName MethodInvocation SimpleName trait name
+created vertex {} for trait {} StringLiteral MethodInvocation SimpleName trait instance vertex
+created vertex {} for trait {} StringLiteral MethodInvocation SimpleName trait name
+trait instance vertex SimpleName MethodInvocation SimpleName trait name
+typed instance SimpleName MethodInvocation SimpleName get id
+trait instance SimpleName MethodInvocation SimpleName field mapping
+trait instance SimpleName MethodInvocation FieldAccess SimpleName fields
+field mapping SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+map instance to vertex SimpleName MethodInvocation MethodInvocation SimpleName get id
+map instance to vertex SimpleName MethodInvocation SimpleName trait instance
+map instance to vertex SimpleName MethodInvocation SimpleName trait instance vertex
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait instance
+map instance to vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+map instance to vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+map instance to vertex SimpleName MethodInvocation SimpleName id to vertex map
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+get id SimpleName MethodInvocation MethodInvocation SimpleName trait instance
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName trait instance vertex
+get id SimpleName MethodInvocation MethodInvocation SimpleName trait instance vertex
+typed instance SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName fields
+get id SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName fields
+typed instance SimpleName MethodInvocation MethodInvocation SimpleName id to vertex map
+get id SimpleName MethodInvocation MethodInvocation SimpleName id to vertex map
+trait instance SimpleName MethodInvocation SimpleName trait instance vertex
+trait instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait instance
+trait instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+trait instance SimpleName MethodInvocation FieldAccess SimpleName fields
+trait instance SimpleName MethodInvocation SimpleName id to vertex map
+trait instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName trait instance
+trait instance vertex SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName field mapping
+trait instance vertex SimpleName MethodInvocation FieldAccess SimpleName fields
+trait instance vertex SimpleName MethodInvocation SimpleName id to vertex map
+trait instance SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName id to vertex map
+field mapping SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName id to vertex map
+fields SimpleName FieldAccess MethodInvocation SimpleName id to vertex map
+typed instance SimpleName MethodInvocation SimpleName get type name
+typed instance SimpleName MethodInvocation InfixExpression StringLiteral .
+get type name SimpleName MethodInvocation InfixExpression StringLiteral .
+typed instance SimpleName MethodInvocation InfixExpression SimpleName trait name
+get type name SimpleName MethodInvocation InfixExpression SimpleName trait name
+. StringLiteral InfixExpression SimpleName trait name
+relationship label SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName typed instance
+relationship label SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get type name
+relationship label SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+relationship label SimpleName VariableDeclarationFragment InfixExpression SimpleName trait name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship label
+graph helper SimpleName MethodInvocation SimpleName add edge
+graph helper SimpleName MethodInvocation SimpleName parent instance vertex
+graph helper SimpleName MethodInvocation SimpleName trait instance vertex
+graph helper SimpleName MethodInvocation SimpleName relationship label
+add edge SimpleName MethodInvocation SimpleName parent instance vertex
+add edge SimpleName MethodInvocation SimpleName trait instance vertex
+add edge SimpleName MethodInvocation SimpleName relationship label
+parent instance vertex SimpleName MethodInvocation SimpleName trait instance vertex
+parent instance vertex SimpleName MethodInvocation SimpleName relationship label
+trait instance vertex SimpleName MethodInvocation SimpleName relationship label
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName map trait instance to vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+void PrimitiveType MethodDeclaration SimpleName map trait instance to vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait name
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed struct
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i typed referenceable instance
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vertex
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+map trait instance to vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+trait name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+trait instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+typed instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+parent instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+parent instance vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+id to vertex map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map trait instance to vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map trait instance to vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trait instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent instance vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id to vertex map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName metadata exception

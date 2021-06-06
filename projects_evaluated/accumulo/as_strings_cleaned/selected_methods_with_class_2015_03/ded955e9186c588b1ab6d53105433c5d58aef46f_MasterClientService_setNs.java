@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+ns SimpleName FieldAccess Assignment SimpleName ns
+public Modifier MethodDeclaration SimpleType SimpleName remove namespace property args
+public Modifier MethodDeclaration SimpleName set ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+remove namespace property args SimpleName SimpleType MethodDeclaration SimpleName set ns
+remove namespace property args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+set ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName remove namespace property args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName remove namespace property args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns

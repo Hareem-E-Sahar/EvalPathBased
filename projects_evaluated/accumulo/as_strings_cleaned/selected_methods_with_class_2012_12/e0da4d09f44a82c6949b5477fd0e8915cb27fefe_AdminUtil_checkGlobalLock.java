@@ -1,0 +1,73 @@
+i zoo reader writer SimpleName SimpleType SingleVariableDeclaration SimpleName zk
+string SimpleName SimpleType SingleVariableDeclaration SimpleName path
+zk SimpleName MethodInvocation SimpleName get zoo keeper
+zoo lock SimpleName MethodInvocation SimpleName get lock data
+zoo lock SimpleName MethodInvocation MethodInvocation SimpleName zk
+zoo lock SimpleName MethodInvocation MethodInvocation SimpleName get zoo keeper
+zoo lock SimpleName MethodInvocation SimpleName path
+get lock data SimpleName MethodInvocation MethodInvocation SimpleName zk
+get lock data SimpleName MethodInvocation MethodInvocation SimpleName get zoo keeper
+get lock data SimpleName MethodInvocation SimpleName path
+zk SimpleName MethodInvocation MethodInvocation SimpleName path
+get zoo keeper SimpleName MethodInvocation MethodInvocation SimpleName path
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral error master lock is held not running
+println SimpleName MethodInvocation StringLiteral error master lock is held not running
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+keeper exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+error could not read master lock not running StringLiteral InfixExpression MethodInvocation SimpleName e
+error could not read master lock not running StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error could not read master lock not running
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral error could not read master lock not running
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+error could not read master lock not running StringLiteral InfixExpression MethodInvocation SimpleName e
+error could not read master lock not running StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral error could not read master lock not running
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral error could not read master lock not running
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check global lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zk
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+void PrimitiveType MethodDeclaration SimpleName check global lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zk
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+check global lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+check global lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zk
+check global lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check global lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+zk SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check global lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check global lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

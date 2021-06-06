@@ -1,0 +1,227 @@
+atlas edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+atlas relationship with ext info SimpleName SimpleType SingleVariableDeclaration SimpleName relationship with ext info
+boolean PrimitiveType SingleVariableDeclaration SimpleName extended info
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral mapping system attributes for relationship
+debug SimpleName MethodInvocation StringLiteral mapping system attributes for relationship
+relationship with ext info SimpleName MethodInvocation SimpleName get relationship
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship with ext info
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get relationship
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+relationship SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas relationship
+relationship with ext info SimpleName MethodInvocation SimpleName set relationship
+relationship with ext info SimpleName MethodInvocation SimpleName relationship
+set relationship SimpleName MethodInvocation SimpleName relationship
+get relationship guid SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set guid
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get relationship guid
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set guid SimpleName MethodInvocation MethodInvocation SimpleName get relationship guid
+set guid SimpleName MethodInvocation MethodInvocation SimpleName edge
+get type name SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set type name
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+set type name SimpleName MethodInvocation MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get created by as string
+graph helper SimpleName MethodInvocation SimpleName edge
+get created by as string SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set created by
+relationship SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get created by as string
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set created by SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set created by SimpleName MethodInvocation MethodInvocation SimpleName get created by as string
+set created by SimpleName MethodInvocation MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get modified by as string
+graph helper SimpleName MethodInvocation SimpleName edge
+get modified by as string SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set updated by
+relationship SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get modified by as string
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName get modified by as string
+set updated by SimpleName MethodInvocation MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get created time
+graph helper SimpleName MethodInvocation SimpleName edge
+get created time SimpleName MethodInvocation SimpleName edge
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get created time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set create time
+relationship SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get created time
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName edge
+set create time SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get created time
+set create time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get modified time
+graph helper SimpleName MethodInvocation SimpleName edge
+get modified time SimpleName MethodInvocation SimpleName edge
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graph helper
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modified time
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set update time
+relationship SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modified time
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName edge
+set update time SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName graph helper
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modified time
+set update time SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName edge
+graph helper SimpleName MethodInvocation SimpleName get version
+graph helper SimpleName MethodInvocation SimpleName edge
+get version SimpleName MethodInvocation SimpleName edge
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName get version
+version SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName version
+long SimpleName MethodInvocation SimpleName value of
+long SimpleName MethodInvocation NumberLiteral l
+value of SimpleName MethodInvocation NumberLiteral l
+version SimpleName Assignment MethodInvocation SimpleName long
+version SimpleName Assignment MethodInvocation SimpleName value of
+version SimpleName Assignment MethodInvocation NumberLiteral l
+relationship SimpleName MethodInvocation SimpleName set version
+relationship SimpleName MethodInvocation SimpleName version
+set version SimpleName MethodInvocation SimpleName version
+graph helper SimpleName MethodInvocation SimpleName get edge status
+graph helper SimpleName MethodInvocation SimpleName edge
+get edge status SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set status
+relationship SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get edge status
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set status SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+set status SimpleName MethodInvocation MethodInvocation SimpleName get edge status
+set status SimpleName MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName MethodInvocation SimpleName get out vertex
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end vertex
+edge SimpleName MethodInvocation SimpleName get in vertex
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName edge
+end vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end vertex
+get guid SimpleName MethodInvocation SimpleName end vertex
+get type name SimpleName MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+relationship SimpleName MethodInvocation SimpleName set end
+relationship SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+set end SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+get guid SimpleName MethodInvocation SimpleName end vertex
+get type name SimpleName MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get guid
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get guid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+relationship SimpleName MethodInvocation SimpleName set end
+relationship SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+relationship SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+set end SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas object id
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get guid
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+set end SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+edge SimpleName MethodInvocation SimpleName get label
+relationship SimpleName MethodInvocation SimpleName set label
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get label
+set label SimpleName MethodInvocation MethodInvocation SimpleName edge
+set label SimpleName MethodInvocation MethodInvocation SimpleName get label
+get propagate tags SimpleName MethodInvocation SimpleName edge
+relationship SimpleName MethodInvocation SimpleName set propagate tags
+relationship SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+relationship SimpleName MethodInvocation MethodInvocation SimpleName edge
+set propagate tags SimpleName MethodInvocation MethodInvocation SimpleName get propagate tags
+set propagate tags SimpleName MethodInvocation MethodInvocation SimpleName edge
+add to referred entities SimpleName MethodInvocation SimpleName relationship with ext info
+add to referred entities SimpleName MethodInvocation SimpleName end vertex
+relationship with ext info SimpleName MethodInvocation SimpleName end vertex
+add to referred entities SimpleName MethodInvocation SimpleName relationship with ext info
+add to referred entities SimpleName MethodInvocation SimpleName end vertex
+relationship with ext info SimpleName MethodInvocation SimpleName end vertex
+read classifications from edge SimpleName MethodInvocation SimpleName edge
+read classifications from edge SimpleName MethodInvocation SimpleName relationship with ext info
+read classifications from edge SimpleName MethodInvocation SimpleName extended info
+edge SimpleName MethodInvocation SimpleName relationship with ext info
+edge SimpleName MethodInvocation SimpleName extended info
+relationship with ext info SimpleName MethodInvocation SimpleName extended info
+extended info SimpleName IfStatement Block ReturnStatement SimpleName relationship with ext info
+private Modifier MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+private Modifier MethodDeclaration SimpleName map system attributes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName extended info
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SimpleName map system attributes
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName edge
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extended info
+atlas relationship with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas edge
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas relationship with ext info
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+map system attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extended info
+map system attributes SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+map system attributes SimpleName MethodDeclaration Block IfStatement SimpleName extended info
+map system attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName relationship with ext info
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+edge SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+edge SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relationship with ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+relationship with ext info SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+relationship with ext info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+extended info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName map system attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas relationship with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map system attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship with ext info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extended info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

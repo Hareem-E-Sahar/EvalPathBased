@@ -1,0 +1,47 @@
+int PrimitiveType SingleVariableDeclaration SimpleName cf
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cf % d
+string SimpleName MethodInvocation SimpleName cf
+format SimpleName MethodInvocation StringLiteral cf % d
+format SimpleName MethodInvocation SimpleName cf
+cf % d StringLiteral MethodInvocation SimpleName cf
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cf % d
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cf
+tcf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+tcf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+tcf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+tcf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral cf % d
+tcf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cf
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tcf
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName text
+private Modifier MethodDeclaration SimpleName create cf
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cf
+private Modifier MethodDeclaration Block ReturnStatement SimpleName tcf
+static Modifier MethodDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SimpleName create cf
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cf
+static Modifier MethodDeclaration Block ReturnStatement SimpleName tcf
+text SimpleName SimpleType MethodDeclaration SimpleName create cf
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cf
+create cf SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+create cf SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cf
+create cf SimpleName MethodDeclaration Block ReturnStatement SimpleName tcf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName create cf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create cf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cf

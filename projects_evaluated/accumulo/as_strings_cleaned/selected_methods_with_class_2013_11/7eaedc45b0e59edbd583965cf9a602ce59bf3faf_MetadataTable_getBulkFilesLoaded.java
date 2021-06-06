@@ -1,0 +1,119 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+text SimpleName SimpleType SingleVariableDeclaration SimpleName metadata row
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner impl SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner impl SimpleName SimpleType ClassInstanceCreation SimpleName credentials
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+scanner impl SimpleName SimpleType ClassInstanceCreation QualifiedName constantsno auths
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+get instance SimpleName MethodInvocation ClassInstanceCreation SimpleName credentials
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+hdfs zoo instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsno auths
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsno auths
+credentials SimpleName ClassInstanceCreation QualifiedName constantsmetadata table id
+credentials SimpleName ClassInstanceCreation QualifiedName constantsno auths
+constantsmetadata table id QualifiedName ClassInstanceCreation QualifiedName constantsno auths
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner impl
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName hdfs zoo instance
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get instance
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName credentials
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsmetadata table id
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName constantsno auths
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+range SimpleName SimpleType ClassInstanceCreation SimpleName metadata row
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata row
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+set range SimpleName MethodInvocation ClassInstanceCreation SimpleName metadata row
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName constantsmetadata bulkfile column family
+fetch column family SimpleName MethodInvocation QualifiedName constantsmetadata bulkfile column family
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+file SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get column qualifier
+file SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse long SimpleName MethodInvocation MethodInvocation SimpleName to string
+tid SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+tid SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse long
+tid SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+long SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tid
+ret SimpleName MethodInvocation SimpleName put
+ret SimpleName MethodInvocation SimpleName file
+ret SimpleName MethodInvocation SimpleName tid
+put SimpleName MethodInvocation SimpleName file
+put SimpleName MethodInvocation SimpleName tid
+file SimpleName MethodInvocation SimpleName tid
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+scanner SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName get bulk files loaded
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata row
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName get bulk files loaded
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata row
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bulk files loaded
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bulk files loaded
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get bulk files loaded
+get bulk files loaded SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+get bulk files loaded SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+get bulk files loaded SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text
+get bulk files loaded SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata row
+get bulk files loaded SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+get bulk files loaded SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata row
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bulk files loaded
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata row
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bulk files loaded
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata row

@@ -1,0 +1,103 @@
+i typed referenceable instance SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName typed instances
+entity processor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName entity processor
+entity processor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName typed instance
+typed instance SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral walking the object graph for instance {}
+log SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral walking the object graph for instance {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+walking the object graph for instance {} StringLiteral MethodInvocation MethodInvocation SimpleName typed instance
+walking the object graph for instance {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+entity processor SimpleName MethodInvocation SimpleName clean up
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName type system
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName entity processor
+object graph walker SimpleName SimpleType ClassInstanceCreation SimpleName typed instance
+type system SimpleName ClassInstanceCreation SimpleName entity processor
+type system SimpleName ClassInstanceCreation SimpleName typed instance
+entity processor SimpleName ClassInstanceCreation SimpleName typed instance
+object graph walker SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName walk
+type system SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+entity processor SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+typed instance SimpleName ClassInstanceCreation MethodInvocation SimpleName walk
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName me
+repository exception SimpleName SimpleType ClassInstanceCreation StringLiteral type system error when walking the object graph
+repository exception SimpleName SimpleType ClassInstanceCreation SimpleName me
+type system error when walking the object graph StringLiteral ClassInstanceCreation SimpleName me
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+discover instances SimpleName MethodInvocation SimpleName entity processor
+new typed instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName discover instances
+new typed instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+entity processor SimpleName MethodInvocation SimpleName create vertices for class type
+entity processor SimpleName MethodInvocation SimpleName new typed instances
+create vertices for class type SimpleName MethodInvocation SimpleName new typed instances
+instances created SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity processor
+instances created SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertices for class type
+instances created SimpleName VariableDeclarationFragment MethodInvocation SimpleName new typed instances
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+add discovered instance SimpleName MethodInvocation SimpleName entity processor
+add discovered instance SimpleName MethodInvocation SimpleName instance
+entity processor SimpleName MethodInvocation SimpleName instance
+schema violation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+entity exists exception SimpleName SimpleType ClassInstanceCreation SimpleName typed instance
+entity exists exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+typed instance SimpleName ClassInstanceCreation SimpleName e
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName instances created
+instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName instances created
+add full text property SimpleName MethodInvocation SimpleName entity processor
+add full text property SimpleName MethodInvocation SimpleName instances created
+entity processor SimpleName MethodInvocation SimpleName instances created
+typed instance SimpleName MethodInvocation SimpleName get id
+entity processorid to vertex map QualifiedName MethodInvocation SimpleName get
+entity processorid to vertex map QualifiedName MethodInvocation MethodInvocation SimpleName typed instance
+entity processorid to vertex map QualifiedName MethodInvocation MethodInvocation SimpleName get id
+get SimpleName MethodInvocation MethodInvocation SimpleName typed instance
+get SimpleName MethodInvocation MethodInvocation SimpleName get id
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity processorid to vertex map
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName typed instance
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+instance vertex SimpleName MethodInvocation SimpleName get property
+instance vertex SimpleName MethodInvocation QualifiedName constantsguid property key
+get property SimpleName MethodInvocation QualifiedName constantsguid property key
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+guid SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsguid property key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid
+guids SimpleName MethodInvocation SimpleName add
+guids SimpleName MethodInvocation SimpleName guid
+add SimpleName MethodInvocation SimpleName guid
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName typed instances
+typed instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName typed instances
+typed instances SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName instances created
+guids SimpleName MethodInvocation SimpleName size
+guids SimpleName MethodInvocation SimpleName to array
+guids SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName guids
+guids SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName guids
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName map typed instance to graph
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName typed instances
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName map typed instance to graph
+map typed instance to graph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+map typed instance to graph SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+map typed instance to graph SimpleName MethodDeclaration Block EnhancedForStatement SimpleName typed instances
+typed instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName map typed instance to graph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map typed instance to graph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName typed instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

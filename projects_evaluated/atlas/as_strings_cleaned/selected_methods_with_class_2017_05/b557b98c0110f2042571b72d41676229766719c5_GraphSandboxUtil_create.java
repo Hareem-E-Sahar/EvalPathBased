@@ -1,0 +1,22 @@
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+uuid SimpleName VariableDeclarationFragment MethodInvocation SimpleName random uuid
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+uuid SimpleName MethodInvocation SimpleName to string
+create SimpleName MethodInvocation MethodInvocation SimpleName uuid
+create SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName create
+void PrimitiveType MethodDeclaration SimpleName create
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create

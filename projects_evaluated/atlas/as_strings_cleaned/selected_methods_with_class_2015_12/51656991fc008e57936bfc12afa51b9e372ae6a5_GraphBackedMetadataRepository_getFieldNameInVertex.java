@@ -1,0 +1,42 @@
+i data type SimpleName SimpleType ParameterizedType WildcardType ?
+i data type SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName data type
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+graph helper SimpleName MethodInvocation SimpleName get qualified field name
+graph helper SimpleName MethodInvocation SimpleName data type
+graph helper SimpleName MethodInvocation SimpleName attr name
+get qualified field name SimpleName MethodInvocation SimpleName data type
+get qualified field name SimpleName MethodInvocation SimpleName attr name
+data type SimpleName MethodInvocation SimpleName attr name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get field name in vertex
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get field name in vertex
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type
+get field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get field name in vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get field name in vertex SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+data type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+data type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field name in vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field name in vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

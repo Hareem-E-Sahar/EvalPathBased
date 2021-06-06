@@ -1,0 +1,500 @@
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+create optional attr def SimpleName MethodInvocation StringLiteral namespace
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+namespace StringLiteral MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral cluster
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+cluster StringLiteral MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral colo
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+colo StringLiteral MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation SimpleName super type name
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral namespace
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral cluster
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral colo
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type name SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+super type name SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+super type name SimpleName MethodInvocation MethodInvocation SimpleName of
+super type name SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+super type name SimpleName MethodInvocation MethodInvocation StringLiteral namespace
+super type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type name SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+super type name SimpleName MethodInvocation MethodInvocation StringLiteral cluster
+super type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type name SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+super type name SimpleName MethodInvocation MethodInvocation StringLiteral colo
+super type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral namespace
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral namespace
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cluster
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cluster
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral cluster
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral cluster
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral cluster
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+namespace StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+cluster StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+cluster StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+cluster StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral colo
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+super type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral namespace
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral cluster
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral colo
+super type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName super type name
+of SimpleName MethodInvocation SimpleName super type name
+types util SimpleName MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create unique required attr def SimpleName MethodInvocation StringLiteral name
+create unique required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral created
+create optional attr def SimpleName MethodInvocation QualifiedName data typesdate type
+created StringLiteral MethodInvocation QualifiedName data typesdate type
+create required attr def SimpleName MethodInvocation StringLiteral description
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+description StringLiteral MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation SimpleName database type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName super type name
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName types util
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral created
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesdate type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral description
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+database type SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+database type SimpleName MethodInvocation MethodInvocation SimpleName of
+database type SimpleName MethodInvocation MethodInvocation SimpleName super type name
+database type SimpleName MethodInvocation MethodInvocation SimpleName types util
+database type SimpleName MethodInvocation MethodInvocation SimpleName create unique required attr def
+database type SimpleName MethodInvocation MethodInvocation StringLiteral name
+database type SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+database type SimpleName MethodInvocation MethodInvocation SimpleName create optional attr def
+database type SimpleName MethodInvocation MethodInvocation StringLiteral created
+database type SimpleName MethodInvocation MethodInvocation QualifiedName data typesdate type
+database type SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+database type SimpleName MethodInvocation MethodInvocation StringLiteral description
+database type SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types util
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create unique required attr def
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+super type name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral created
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesdate type
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+types util SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+create unique required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+create optional attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+created StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+created StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+created StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesdate type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+data typesdate type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral description
+data typesdate type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+database type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+database type definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName database type
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName super type name
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName types util
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create unique required attr def
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral name
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create optional attr def
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral created
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesdate type
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral description
+database type definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral name
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral serde
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+serde StringLiteral MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral description
+create optional attr def SimpleName MethodInvocation QualifiedName data typesstring type
+description StringLiteral MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation SimpleName create required attr def
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation StringLiteral serde
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+name StringLiteral MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+create required attr def SimpleName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+serde StringLiteral MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+serde StringLiteral MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+serde StringLiteral MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation SimpleName create optional attr def
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation StringLiteral description
+data typesstring type QualifiedName MethodInvocation ArrayInitializer MethodInvocation QualifiedName data typesstring type
+struct type definition SimpleName SimpleType ClassInstanceCreation StringLiteral serde type
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct type definition
+struct type definition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral serde type
+struct type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct type definition
+enum value SimpleName SimpleType ClassInstanceCreation StringLiteral managed
+enum value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+managed StringLiteral ClassInstanceCreation NumberLiteral empty
+enum value SimpleName SimpleType ClassInstanceCreation StringLiteral external
+enum value SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+external StringLiteral ClassInstanceCreation NumberLiteral empty
+managed StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral external
+managed StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral external
+empty NumberLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation NumberLiteral empty
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral managed
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation NumberLiteral empty
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral external
+values SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation NumberLiteral empty
+enum type definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+enum type definition SimpleName SimpleType ClassInstanceCreation SimpleName values
+table type StringLiteral ClassInstanceCreation SimpleName values
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName enum type definition
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral table type
+enum type definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName values
+enum type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enum type definition
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+create required attr def SimpleName MethodInvocation StringLiteral name
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+type StringLiteral MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation StringLiteral column type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+create class type def SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName of
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral name
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+create class type def SimpleName MethodInvocation MethodInvocation SimpleName create required attr def
+create class type def SimpleName MethodInvocation MethodInvocation StringLiteral type
+create class type def SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+column type StringLiteral MethodInvocation MethodInvocation SimpleName immutable list
+column type StringLiteral MethodInvocation MethodInvocation SimpleType SimpleName string
+column type StringLiteral MethodInvocation MethodInvocation SimpleName of
+column type StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+column type StringLiteral MethodInvocation MethodInvocation StringLiteral name
+column type StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+column type StringLiteral MethodInvocation MethodInvocation SimpleName create required attr def
+column type StringLiteral MethodInvocation MethodInvocation StringLiteral type
+column type StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral name
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+of SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+name StringLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName create required attr def
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+columns definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName create class type def
+columns definition SimpleName VariableDeclarationFragment MethodInvocation StringLiteral column type
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable list
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral name
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create required attr def
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral type
+columns definition SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral name
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation QualifiedName data typesstring type
+struct type definition SimpleName SimpleType ClassInstanceCreation StringLiteral partition type
+partition definition SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName struct type definition
+partition definition SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral partition type
+struct type definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName partition definition
+hierarchical type definition SimpleName SimpleType ParameterizedType SimpleType SimpleName class type
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName super type name
+of SimpleName MethodInvocation SimpleName super type name
+types util SimpleName MethodInvocation SimpleName create unique required attr def
+types util SimpleName MethodInvocation StringLiteral name
+types util SimpleName MethodInvocation QualifiedName data typesstring type
+create unique required attr def SimpleName MethodInvocation StringLiteral name
+create unique required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+name StringLiteral MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral description
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+description StringLiteral MethodInvocation QualifiedName data typesstring type
+create required attr def SimpleName MethodInvocation StringLiteral type
+create required attr def SimpleName MethodInvocation QualifiedName data typesstring type
+type StringLiteral MethodInvocation QualifiedName data typesstring type
+create optional attr def SimpleName MethodInvocation StringLiteral created
+create optional attr def SimpleName MethodInvocation QualifiedName data typesdate type
+created StringLiteral MethodInvocation QualifiedName data typesdate type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral table type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityrequired
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+table type StringLiteral ClassInstanceCreation StringLiteral table type
+table type StringLiteral ClassInstanceCreation QualifiedName multiplicityrequired
+table type StringLiteral ClassInstanceCreation BooleanLiteral false
+table type StringLiteral ClassInstanceCreation QualifiedName multiplicityrequired
+table type StringLiteral ClassInstanceCreation BooleanLiteral false
+multiplicityrequired QualifiedName ClassInstanceCreation BooleanLiteral false
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+string SimpleName MethodInvocation MethodInvocation SimpleName get name
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+format SimpleName MethodInvocation MethodInvocation SimpleName get name
+arrays StringLiteral MethodInvocation MethodInvocation QualifiedName data typesstring type
+arrays StringLiteral MethodInvocation MethodInvocation SimpleName get name
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral column names
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral arrays
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+column names StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+column names StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+column names StringLiteral ClassInstanceCreation MethodInvocation StringLiteral arrays
+column names StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+column names StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+column names StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+column names StringLiteral ClassInstanceCreation BooleanLiteral false
+string SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+format SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+arrays StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral false
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation BooleanLiteral false
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral false
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation StringLiteral column type
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation StringLiteral column type
+arrays StringLiteral MethodInvocation StringLiteral column type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral columns
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral arrays
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral column type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+columns StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+columns StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+columns StringLiteral ClassInstanceCreation MethodInvocation StringLiteral arrays
+columns StringLiteral ClassInstanceCreation MethodInvocation StringLiteral column type
+columns StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+columns StringLiteral ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+format SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+arrays StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+column type StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+column type StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral arrays
+string SimpleName MethodInvocation StringLiteral partition type
+format SimpleName MethodInvocation StringLiteral arrays
+format SimpleName MethodInvocation StringLiteral partition type
+arrays StringLiteral MethodInvocation StringLiteral partition type
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral partitions
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral arrays
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral partition type
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+partitions StringLiteral ClassInstanceCreation MethodInvocation SimpleName string
+partitions StringLiteral ClassInstanceCreation MethodInvocation SimpleName format
+partitions StringLiteral ClassInstanceCreation MethodInvocation StringLiteral arrays
+partitions StringLiteral ClassInstanceCreation MethodInvocation StringLiteral partition type
+partitions StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+partitions StringLiteral ClassInstanceCreation BooleanLiteral true
+string SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+format SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+arrays StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+partition type StringLiteral MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+string SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+format SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+arrays StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+partition type StringLiteral MethodInvocation ClassInstanceCreation BooleanLiteral true
+multiplicityoptional QualifiedName ClassInstanceCreation BooleanLiteral true
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+data typesstring type QualifiedName MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation SimpleName map type name
+data types SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+data types SimpleName MethodInvocation MethodInvocation SimpleName get name
+data types SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+data types SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+map type name SimpleName MethodInvocation MethodInvocation QualifiedName data typesstring type
+map type name SimpleName MethodInvocation MethodInvocation SimpleName get name
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+data typesstring type QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data typesstring type
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attribute definition SimpleName SimpleType ClassInstanceCreation StringLiteral parameters map
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName data types
+attribute definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName map type name
+attribute definition SimpleName SimpleType ClassInstanceCreation QualifiedName multiplicityoptional
+attribute definition SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+parameters map StringLiteral ClassInstanceCreation MethodInvocation SimpleName data types
+parameters map StringLiteral ClassInstanceCreation MethodInvocation SimpleName map type name
+parameters map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+parameters map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+parameters map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName data typesstring type
+parameters map StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get name
+parameters map StringLiteral ClassInstanceCreation QualifiedName multiplicityoptional
+parameters map StringLiteral ClassInstanceCreation BooleanLiteral true
+data types SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+map type name SimpleName MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data typesstring type QualifiedName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+get name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName multiplicityoptional
+data types SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true
+map type name SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral true

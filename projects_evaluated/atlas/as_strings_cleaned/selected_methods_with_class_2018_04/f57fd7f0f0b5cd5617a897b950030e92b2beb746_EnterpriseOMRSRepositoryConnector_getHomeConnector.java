@@ -1,0 +1,67 @@
+instance header SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+validate repository is active SimpleName MethodInvocation SimpleName method name
+repository validator SimpleName MethodInvocation SimpleName validate home metadata guid
+repository validator SimpleName MethodInvocation SimpleName repository name
+repository validator SimpleName MethodInvocation SimpleName instance
+repository validator SimpleName MethodInvocation SimpleName method name
+validate home metadata guid SimpleName MethodInvocation SimpleName repository name
+validate home metadata guid SimpleName MethodInvocation SimpleName instance
+validate home metadata guid SimpleName MethodInvocation SimpleName method name
+repository name SimpleName MethodInvocation SimpleName instance
+repository name SimpleName MethodInvocation SimpleName method name
+instance SimpleName MethodInvocation SimpleName method name
+instance SimpleName MethodInvocation SimpleName get metadata collection id
+instance metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+instance metadata collection id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata collection id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance metadata collection id
+local cohort connector SimpleName MethodInvocation SimpleName get metadata collection id
+instance metadata collection id SimpleName MethodInvocation SimpleName equals
+instance metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName local cohort connector
+instance metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+equals SimpleName MethodInvocation MethodInvocation SimpleName local cohort connector
+equals SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+local cohort connector SimpleName MethodInvocation SimpleName get connector
+federated connector SimpleName SimpleType SingleVariableDeclaration SimpleName remote cohort connector
+remote cohort connector SimpleName MethodInvocation SimpleName get metadata collection id
+instance metadata collection id SimpleName MethodInvocation SimpleName equals
+instance metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName remote cohort connector
+instance metadata collection id SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+equals SimpleName MethodInvocation MethodInvocation SimpleName remote cohort connector
+equals SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+remote cohort connector SimpleName MethodInvocation SimpleName get connector
+federated connector SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName remote cohort connectors
+remote cohort connector SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName remote cohort connectors
+protected Modifier MethodDeclaration SimpleType SimpleName omrs repository connector
+protected Modifier MethodDeclaration SimpleName get home connector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName method name
+protected Modifier MethodDeclaration SimpleType SimpleName repository error exception
+omrs repository connector SimpleName SimpleType MethodDeclaration SimpleName get home connector
+omrs repository connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+omrs repository connector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName method name
+omrs repository connector SimpleName SimpleType MethodDeclaration SimpleType SimpleName repository error exception
+get home connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance header
+get home connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get home connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get home connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+get home connector SimpleName MethodDeclaration SimpleType SimpleName repository error exception
+get home connector SimpleName MethodDeclaration Block EnhancedForStatement SimpleName remote cohort connectors
+instance SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+instance SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omrs repository connector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get home connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omrs repository connector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get home connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repository error exception

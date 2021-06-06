@@ -1,0 +1,461 @@
+test name SimpleName MethodInvocation SimpleName get method name
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName test name
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+kdc SimpleName MethodInvocation SimpleName get keytab dir
+user SimpleName InfixExpression StringLiteral keytab
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName kdc
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get keytab dir
+file SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName user
+file SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral keytab
+kdc SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName user
+kdc SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral keytab
+get keytab dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName user
+get keytab dir SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral keytab
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName kdc
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get keytab dir
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName user
+user keytab SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral keytab
+final Modifier VariableDeclarationStatement SimpleType SimpleName file
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName user keytab
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user keytab
+user keytab SimpleName MethodInvocation SimpleName exists
+user keytab SimpleName MethodInvocation SimpleName delete
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to delete {}
+log SimpleName MethodInvocation SimpleName user keytab
+warn SimpleName MethodInvocation StringLiteral unable to delete {}
+warn SimpleName MethodInvocation SimpleName user keytab
+unable to delete {} StringLiteral MethodInvocation SimpleName user keytab
+kdc SimpleName MethodInvocation SimpleName create principal
+kdc SimpleName MethodInvocation SimpleName user keytab
+kdc SimpleName MethodInvocation SimpleName user
+create principal SimpleName MethodInvocation SimpleName user keytab
+create principal SimpleName MethodInvocation SimpleName user
+user keytab SimpleName MethodInvocation SimpleName user
+kdc SimpleName MethodInvocation SimpleName qualify user
+kdc SimpleName MethodInvocation SimpleName user
+qualify user SimpleName MethodInvocation SimpleName user
+user SimpleName Assignment MethodInvocation SimpleName kdc
+user SimpleName Assignment MethodInvocation SimpleName qualify user
+user SimpleName Assignment MethodInvocation SimpleName user
+user keytab SimpleName MethodInvocation SimpleName get absolute path
+user group information SimpleName MethodInvocation SimpleName login user from keytab
+user group information SimpleName MethodInvocation SimpleName user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+login user from keytab SimpleName MethodInvocation SimpleName user
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+user SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral logged in as {}
+log SimpleName MethodInvocation SimpleName user
+info SimpleName MethodInvocation StringLiteral logged in as {}
+info SimpleName MethodInvocation SimpleName user
+logged in as {} StringLiteral MethodInvocation SimpleName user
+mac SimpleName MethodInvocation SimpleName get connector
+mac SimpleName MethodInvocation SimpleName user
+mac SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName mac
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral created connector as {}
+log SimpleName MethodInvocation SimpleName user
+info SimpleName MethodInvocation StringLiteral created connector as {}
+info SimpleName MethodInvocation SimpleName user
+created connector as {} StringLiteral MethodInvocation SimpleName user
+system permission SimpleName SimpleType SingleVariableDeclaration SimpleName perm
+system permission SimpleName MethodInvocation SimpleName values
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName perm
+security operations SimpleName MethodInvocation MethodInvocation SimpleName perm
+has system permission SimpleName MethodInvocation SimpleName user
+has system permission SimpleName MethodInvocation SimpleName perm
+user SimpleName MethodInvocation SimpleName perm
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName conn
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security operations
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has system permission
+assert false SimpleName MethodInvocation MethodInvocation SimpleName user
+assert false SimpleName MethodInvocation MethodInvocation SimpleName perm
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName system permission
+perm SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+root user SimpleName MethodInvocation SimpleName get principal
+root user SimpleName MethodInvocation SimpleName get keytab
+root user SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get keytab SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+user group information SimpleName MethodInvocation SimpleName login user from keytab
+user group information SimpleName MethodInvocation MethodInvocation SimpleName root user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get principal
+user group information SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName root user
+user group information SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get keytab
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName root user
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName get principal
+login user from keytab SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName root user
+login user from keytab SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get keytab
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+root user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+get principal SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get absolute path
+root user SimpleName MethodInvocation SimpleName get principal
+mac SimpleName MethodInvocation SimpleName get connector
+mac SimpleName MethodInvocation MethodInvocation SimpleName root user
+mac SimpleName MethodInvocation MethodInvocation SimpleName get principal
+mac SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+get connector SimpleName MethodInvocation MethodInvocation SimpleName root user
+get connector SimpleName MethodInvocation MethodInvocation SimpleName get principal
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+conn SimpleName Assignment MethodInvocation SimpleName mac
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName root user
+conn SimpleName Assignment MethodInvocation MethodInvocation SimpleName get principal
+test name SimpleName MethodInvocation SimpleName get method name
+test name SimpleName MethodInvocation InfixExpression StringLiteral user table
+get method name SimpleName MethodInvocation InfixExpression StringLiteral user table
+table SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName test name
+table SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get method name
+table SimpleName VariableDeclarationFragment InfixExpression StringLiteral user table
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression StringLiteral user table
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+create SimpleName MethodInvocation SimpleName table
+viz SimpleName VariableDeclarationFragment StringLiteral viz
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName viz
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral viz
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName viz
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral viz
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionread
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionread
+table SimpleName MethodInvocation QualifiedName table permissionread
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionwrite
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionwrite
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionwrite
+table SimpleName MethodInvocation QualifiedName table permissionwrite
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionalter table
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissionalter table
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissionalter table
+table SimpleName MethodInvocation QualifiedName table permissionalter table
+conn SimpleName MethodInvocation SimpleName security operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName grant table permission
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation QualifiedName table permissiondrop table
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissiondrop table
+grant table permission SimpleName MethodInvocation SimpleName user
+grant table permission SimpleName MethodInvocation SimpleName table
+grant table permission SimpleName MethodInvocation QualifiedName table permissiondrop table
+user SimpleName MethodInvocation SimpleName table
+user SimpleName MethodInvocation QualifiedName table permissiondrop table
+table SimpleName MethodInvocation QualifiedName table permissiondrop table
+conn SimpleName MethodInvocation SimpleName security operations
+authorizations SimpleName SimpleType ClassInstanceCreation SimpleName viz
+conn SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+security operations SimpleName MethodInvocation MethodInvocation SimpleName change user authorizations
+conn SimpleName MethodInvocation MethodInvocation SimpleName user
+security operations SimpleName MethodInvocation MethodInvocation SimpleName user
+conn SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName viz
+security operations SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName viz
+change user authorizations SimpleName MethodInvocation SimpleName user
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+change user authorizations SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+user SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+user keytab SimpleName MethodInvocation SimpleName get absolute path
+user group information SimpleName MethodInvocation SimpleName login user from keytab
+user group information SimpleName MethodInvocation SimpleName user
+user group information SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user group information SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+login user from keytab SimpleName MethodInvocation SimpleName user
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+login user from keytab SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+user SimpleName MethodInvocation MethodInvocation SimpleName user keytab
+user SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+mac SimpleName MethodInvocation SimpleName get connector
+mac SimpleName MethodInvocation SimpleName user
+mac SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+user SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName kerberos token
+conn SimpleName Assignment MethodInvocation SimpleName mac
+conn SimpleName Assignment MethodInvocation SimpleName get connector
+conn SimpleName Assignment MethodInvocation SimpleName user
+ts SimpleName VariableDeclarationFragment NumberLiteral l
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral l
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation SimpleName table
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+mutation SimpleName SimpleType ClassInstanceCreation StringLiteral a
+m SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral a
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+viz SimpleName MethodInvocation SimpleName get bytes
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName viz
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral b
+m SimpleName MethodInvocation StringLiteral c
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+m SimpleName MethodInvocation SimpleName ts
+put SimpleName MethodInvocation StringLiteral b
+put SimpleName MethodInvocation StringLiteral c
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName ts
+put SimpleName MethodInvocation StringLiteral d
+b StringLiteral MethodInvocation StringLiteral c
+b StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+b StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+b StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+b StringLiteral MethodInvocation SimpleName ts
+b StringLiteral MethodInvocation StringLiteral d
+c StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+c StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName viz
+c StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+c StringLiteral MethodInvocation SimpleName ts
+c StringLiteral MethodInvocation StringLiteral d
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ts
+viz SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ts
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ts
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral d
+viz SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral d
+get bytes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral d
+ts SimpleName MethodInvocation StringLiteral d
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName close
+conn SimpleName MethodInvocation SimpleName table operations
+compaction config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set wait
+compaction config SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+set wait SimpleName MethodInvocation BooleanLiteral true
+set wait SimpleName MethodInvocation MethodInvocation SimpleName set flush
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName set flush
+set wait SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation MethodInvocation BooleanLiteral true
+set flush SimpleName MethodInvocation BooleanLiteral true
+conn SimpleName MethodInvocation MethodInvocation SimpleName compact
+table operations SimpleName MethodInvocation MethodInvocation SimpleName compact
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set flush
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set flush
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation SimpleName table
+compact SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set wait
+compact SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+compact SimpleName MethodInvocation MethodInvocation SimpleName set flush
+compact SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set wait
+table SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table SimpleName MethodInvocation MethodInvocation SimpleName set flush
+table SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+conn SimpleName MethodInvocation SimpleName table operations
+propertytable bloom enabled QualifiedName MethodInvocation SimpleName get key
+conn SimpleName MethodInvocation MethodInvocation SimpleName set property
+table operations SimpleName MethodInvocation MethodInvocation SimpleName set property
+conn SimpleName MethodInvocation MethodInvocation SimpleName table
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom enabled
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName propertytable bloom enabled
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+conn SimpleName MethodInvocation MethodInvocation StringLiteral true
+table operations SimpleName MethodInvocation MethodInvocation StringLiteral true
+set property SimpleName MethodInvocation SimpleName table
+set property SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom enabled
+set property SimpleName MethodInvocation MethodInvocation SimpleName get key
+set property SimpleName MethodInvocation StringLiteral true
+table SimpleName MethodInvocation MethodInvocation QualifiedName propertytable bloom enabled
+table SimpleName MethodInvocation MethodInvocation SimpleName get key
+table SimpleName MethodInvocation StringLiteral true
+propertytable bloom enabled QualifiedName MethodInvocation MethodInvocation StringLiteral true
+get key SimpleName MethodInvocation MethodInvocation StringLiteral true
+authorizations SimpleName SimpleType ClassInstanceCreation SimpleName viz
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation SimpleName table
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+create scanner SimpleName MethodInvocation SimpleName table
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+create scanner SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName authorizations
+table SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+s SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName viz
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+s SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+assert true SimpleName MethodInvocation StringLiteral no results from iterator
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert true SimpleName MethodInvocation MethodInvocation SimpleName has next
+no results from iterator StringLiteral MethodInvocation MethodInvocation SimpleName iter
+no results from iterator StringLiteral MethodInvocation MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+key SimpleName SimpleType ClassInstanceCreation StringLiteral a
+key SimpleName SimpleType ClassInstanceCreation StringLiteral b
+key SimpleName SimpleType ClassInstanceCreation StringLiteral c
+key SimpleName SimpleType ClassInstanceCreation SimpleName viz
+key SimpleName SimpleType ClassInstanceCreation SimpleName ts
+a StringLiteral ClassInstanceCreation StringLiteral b
+a StringLiteral ClassInstanceCreation StringLiteral c
+a StringLiteral ClassInstanceCreation SimpleName viz
+a StringLiteral ClassInstanceCreation SimpleName ts
+b StringLiteral ClassInstanceCreation StringLiteral c
+b StringLiteral ClassInstanceCreation SimpleName viz
+b StringLiteral ClassInstanceCreation SimpleName ts
+c StringLiteral ClassInstanceCreation SimpleName viz
+c StringLiteral ClassInstanceCreation SimpleName ts
+viz SimpleName ClassInstanceCreation SimpleName ts
+entry SimpleName MethodInvocation SimpleName get key
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral a
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral b
+assert equals SimpleName MethodInvocation ClassInstanceCreation StringLiteral c
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName viz
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName ts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get key
+a StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+a StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get key
+b StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+b StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get key
+c StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+c StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get key
+viz SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+viz SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get key
+ts SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName entry
+ts SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get key
+d StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral d
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+entry SimpleName MethodInvocation SimpleName get value
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral d
+assert equals SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName entry
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get value
+iter SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation StringLiteral had more results from iterator
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iter
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+had more results from iterator StringLiteral MethodInvocation MethodInvocation SimpleName iter
+had more results from iterator StringLiteral MethodInvocation MethodInvocation SimpleName has next
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test user privileges for table
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test user privileges for table
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test user privileges for table
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test user privileges for table SimpleName MethodDeclaration SimpleType SimpleName exception
+test user privileges for table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test user privileges for table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test user privileges for table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test user privileges for table SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test user privileges for table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test user privileges for table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test user privileges for table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

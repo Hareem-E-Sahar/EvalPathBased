@@ -1,0 +1,74 @@
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName vertices
+string SimpleName SimpleType SingleVariableDeclaration SimpleName vertex id
+vertices SimpleName MethodInvocation SimpleName has next
+vertices SimpleName MethodInvocation SimpleName next
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName id
+v SimpleName MethodInvocation MethodInvocation SimpleName to string
+id SimpleName MethodInvocation MethodInvocation SimpleName to string
+v SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName vertex id
+id SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName vertex id
+to string SimpleName MethodInvocation InfixExpression SimpleName vertex id
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName classification entity guid
+property SimpleName MethodInvocation SimpleName classification entity guid
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+classification entity guid SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification entity guid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName classification vertex propagate key
+property SimpleName MethodInvocation SimpleName classification vertex propagate key
+v SimpleName MethodInvocation MethodInvocation SimpleName is present
+property SimpleName MethodInvocation MethodInvocation SimpleName is present
+classification vertex propagate key SimpleName MethodInvocation MethodInvocation SimpleName is present
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification vertex propagate key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is present
+v SimpleName MethodInvocation SimpleName property
+v SimpleName MethodInvocation SimpleName classification vertex propagate key
+property SimpleName MethodInvocation SimpleName classification vertex propagate key
+v SimpleName MethodInvocation MethodInvocation SimpleName values
+property SimpleName MethodInvocation MethodInvocation SimpleName values
+classification vertex propagate key SimpleName MethodInvocation MethodInvocation SimpleName values
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName v
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification vertex propagate key
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName values
+assert equals SimpleName MethodInvocation StringLiteral none
+v SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+property SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+classification vertex propagate key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+values SimpleName MethodInvocation MethodInvocation StringLiteral none
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertices
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+void PrimitiveType MethodDeclaration SimpleName assert vertex
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertices
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+assert vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertices
+assert vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+vertices SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex id

@@ -1,0 +1,48 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName entity vertex
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attributes
+to atlas entity header SimpleName MethodInvocation SimpleName entity vertex
+to atlas entity header SimpleName MethodInvocation SimpleName attributes
+entity vertex SimpleName MethodInvocation SimpleName attributes
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName to atlas entity header
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName attributes
+atlas entity header SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get all classifications SimpleName MethodInvocation SimpleName entity vertex
+ret SimpleName MethodInvocation SimpleName set classifications
+ret SimpleName MethodInvocation MethodInvocation SimpleName get all classifications
+ret SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+set classifications SimpleName MethodInvocation MethodInvocation SimpleName get all classifications
+set classifications SimpleName MethodInvocation MethodInvocation SimpleName entity vertex
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SimpleName to atlas entity header with classifications
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleName to atlas entity header with classifications
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+atlas entity header SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+atlas entity header SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entity header with classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+to atlas entity header with classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+to atlas entity header with classifications SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+to atlas entity header with classifications SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+to atlas entity header with classifications SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+entity vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas entity header with classifications
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity header
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas entity header with classifications
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

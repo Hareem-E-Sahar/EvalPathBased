@@ -1,0 +1,35 @@
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan vertex
+atlas edge SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+titan vertex SimpleName SimpleType ParameterizedType SimpleType SimpleName titan edge
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+titan vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+titan edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edge
+edge SimpleName MethodInvocation SimpleName get e
+edge SimpleName MethodInvocation MethodInvocation SimpleName get wrapped element
+get e SimpleName MethodInvocation MethodInvocation SimpleName get wrapped element
+wrapped SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName edge
+wrapped SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get e
+wrapped SimpleName VariableDeclarationFragment MethodInvocation SimpleName get wrapped element
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wrapped
+wrapped SimpleName MethodInvocation SimpleName remove
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName remove edge
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove edge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName edge
+void PrimitiveType MethodDeclaration SimpleName remove edge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edge
+remove edge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove edge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove edge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edge

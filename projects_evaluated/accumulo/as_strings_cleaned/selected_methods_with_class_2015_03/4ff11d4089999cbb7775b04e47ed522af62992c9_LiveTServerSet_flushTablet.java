@@ -1,0 +1,99 @@
+zoo lock SimpleName SimpleType SingleVariableDeclaration SimpleName lock
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+thrift util SimpleName MethodInvocation SimpleName get client
+thrift util SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+thrift util SimpleName MethodInvocation SimpleName address
+thrift util SimpleName MethodInvocation SimpleName conf
+get client SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName tablet client serviceclientfactory
+get client SimpleName MethodInvocation SimpleName address
+get client SimpleName MethodInvocation SimpleName conf
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName address
+tablet client serviceclientfactory QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName conf
+address SimpleName MethodInvocation SimpleName conf
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName thrift util
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName address
+client SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+tablet client serviceclient QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client
+tracer SimpleName MethodInvocation SimpleName trace info
+security constants SimpleName MethodInvocation SimpleName get system credentials
+lock string SimpleName MethodInvocation SimpleName lock
+extent SimpleName MethodInvocation SimpleName to thrift
+client SimpleName MethodInvocation SimpleName flush tablet
+client SimpleName MethodInvocation MethodInvocation SimpleName tracer
+client SimpleName MethodInvocation MethodInvocation SimpleName trace info
+client SimpleName MethodInvocation MethodInvocation SimpleName security constants
+client SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+client SimpleName MethodInvocation MethodInvocation SimpleName lock string
+client SimpleName MethodInvocation MethodInvocation SimpleName lock
+client SimpleName MethodInvocation MethodInvocation SimpleName extent
+client SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName tracer
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName trace info
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName security constants
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName lock string
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName lock
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName extent
+flush tablet SimpleName MethodInvocation MethodInvocation SimpleName to thrift
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName security constants
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get system credentials
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+tracer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+trace info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock string
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lock
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+security constants SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+get system credentials SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+lock string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+lock string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+lock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName extent
+lock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to thrift
+thrift util SimpleName MethodInvocation SimpleName return client
+thrift util SimpleName MethodInvocation SimpleName client
+return client SimpleName MethodInvocation SimpleName client
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName flush tablet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName flush tablet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName extent
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+flush tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName zoo lock
+flush tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock
+flush tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key extent
+flush tablet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extent
+flush tablet SimpleName MethodDeclaration SimpleType SimpleName t exception
+lock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+lock SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+extent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName flush tablet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flush tablet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

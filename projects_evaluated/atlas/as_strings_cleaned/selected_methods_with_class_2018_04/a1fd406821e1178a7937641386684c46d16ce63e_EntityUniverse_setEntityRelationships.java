@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity relationships
+relationship SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity relationships
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName entity relationships
+entity relationships SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName entity relationships
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set entity relationships
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity relationships
+void PrimitiveType MethodDeclaration SimpleName set entity relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity relationships
+set entity relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity relationships
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set entity relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity relationships
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set entity relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity relationships

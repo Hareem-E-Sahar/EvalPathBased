@@ -1,0 +1,11 @@
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName scope
+public Modifier MethodDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SimpleName get scope
+referenceable SimpleName SimpleType MethodDeclaration SimpleName get scope
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+public Modifier TypeDeclaration MethodDeclaration SimpleName get scope
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get scope

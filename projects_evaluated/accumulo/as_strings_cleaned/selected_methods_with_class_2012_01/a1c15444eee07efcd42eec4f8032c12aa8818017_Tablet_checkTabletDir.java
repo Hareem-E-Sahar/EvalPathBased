@@ -1,0 +1,70 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName tablet dir
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName tablet dir
+list status SimpleName MethodInvocation SimpleName tablet dir
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName tablet dir
+tablet dir SimpleName MethodInvocation SimpleName get name
+tablet dir SimpleName MethodInvocation MethodInvocation SimpleName starts with
+get name SimpleName MethodInvocation MethodInvocation SimpleName starts with
+tablet dir SimpleName MethodInvocation MethodInvocation StringLiteral c
+get name SimpleName MethodInvocation MethodInvocation StringLiteral c
+starts with SimpleName MethodInvocation StringLiteral c
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral had no dir creating
+tablet StringLiteral InfixExpression SimpleName tablet dir
+extent SimpleName InfixExpression StringLiteral had no dir creating
+extent SimpleName InfixExpression SimpleName tablet dir
+had no dir creating StringLiteral InfixExpression SimpleName tablet dir
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral had no dir creating
+log SimpleName MethodInvocation InfixExpression SimpleName tablet dir
+debug SimpleName MethodInvocation InfixExpression StringLiteral tablet
+debug SimpleName MethodInvocation InfixExpression SimpleName extent
+debug SimpleName MethodInvocation InfixExpression StringLiteral had no dir creating
+debug SimpleName MethodInvocation InfixExpression SimpleName tablet dir
+tablet StringLiteral InfixExpression SimpleName extent
+tablet StringLiteral InfixExpression StringLiteral had no dir creating
+tablet StringLiteral InfixExpression SimpleName tablet dir
+extent SimpleName InfixExpression StringLiteral had no dir creating
+extent SimpleName InfixExpression SimpleName tablet dir
+had no dir creating StringLiteral InfixExpression SimpleName tablet dir
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral tablet
+log SimpleName MethodInvocation InfixExpression SimpleName extent
+log SimpleName MethodInvocation InfixExpression StringLiteral had no dir creating
+log SimpleName MethodInvocation InfixExpression SimpleName tablet dir
+warn SimpleName MethodInvocation InfixExpression StringLiteral tablet
+warn SimpleName MethodInvocation InfixExpression SimpleName extent
+warn SimpleName MethodInvocation InfixExpression StringLiteral had no dir creating
+warn SimpleName MethodInvocation InfixExpression SimpleName tablet dir
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName tablet dir
+mkdirs SimpleName MethodInvocation SimpleName tablet dir
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check tablet dir
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tablet dir
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName check tablet dir
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tablet dir
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check tablet dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+check tablet dir SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tablet dir
+check tablet dir SimpleName MethodDeclaration SimpleType SimpleName io exception
+tablet dir SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check tablet dir
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet dir
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check tablet dir
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tablet dir
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

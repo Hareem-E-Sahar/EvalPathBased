@@ -1,0 +1,35 @@
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+get volume by path SimpleName MethodInvocation SimpleName path
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get volume by path
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName path
+volume SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get file system
+v SimpleName MethodInvocation MethodInvocation SimpleName get default replication
+get file system SimpleName MethodInvocation MethodInvocation SimpleName get default replication
+v SimpleName MethodInvocation MethodInvocation SimpleName path
+get file system SimpleName MethodInvocation MethodInvocation SimpleName path
+get default replication SimpleName MethodInvocation SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType short
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get default replication
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get default replication
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+short PrimitiveType MethodDeclaration SimpleName get default replication
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+get default replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName path
+get default replication SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default replication
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default replication
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

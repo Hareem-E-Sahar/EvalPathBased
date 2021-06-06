@@ -1,0 +1,35 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName a info
+a info SimpleName MethodInvocation SimpleName get qualified name
+graph helperedge label prefix QualifiedName InfixExpression MethodInvocation SimpleName a info
+graph helperedge label prefix QualifiedName InfixExpression MethodInvocation SimpleName get qualified name
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get edge label
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a info
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get edge label
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName a info
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+string SimpleName SimpleType MethodDeclaration SimpleName get edge label
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName a info
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get edge label SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a info
+get edge label SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+a info SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get edge label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get edge label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a info
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

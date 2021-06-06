@@ -1,0 +1,68 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+final Modifier VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName Assignment InfixExpression SimpleName val
+ret SimpleName Assignment BooleanLiteral false
+get normalized value SimpleName MethodInvocation SimpleName val
+double val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+double val SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+double SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName double val
+ret SimpleName Assignment BooleanLiteral false
+get normalized value SimpleName MethodInvocation SimpleName val
+double val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get normalized value
+double val SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+double SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName double val
+ret SimpleName Assignment BooleanLiteral false
+double val SimpleName InfixExpression SimpleName double val
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation InfixExpression SimpleName double val
+math SimpleName MethodInvocation InfixExpression SimpleName double val
+abs SimpleName MethodInvocation InfixExpression SimpleName double val
+abs SimpleName MethodInvocation InfixExpression SimpleName double val
+math SimpleName MethodInvocation InfixExpression SimpleName double epsilon
+abs SimpleName MethodInvocation InfixExpression SimpleName double epsilon
+double val SimpleName InfixExpression MethodInvocation InfixExpression SimpleName double epsilon
+double val SimpleName InfixExpression MethodInvocation InfixExpression SimpleName double epsilon
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName math
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName abs
+ret SimpleName Assignment InfixExpression SimpleName double epsilon
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName are equal values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName are equal values
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+are equal values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+are equal values SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+are equal values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+are equal values SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName are equal values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName are equal values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

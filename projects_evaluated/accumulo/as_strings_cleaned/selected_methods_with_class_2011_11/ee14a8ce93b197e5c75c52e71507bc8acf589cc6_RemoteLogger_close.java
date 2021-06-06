@@ -1,0 +1,55 @@
+closed SimpleName Assignment BooleanLiteral true
+work queue SimpleName MethodInvocation SimpleName add
+work queue SimpleName MethodInvocation SimpleName closed marker
+add SimpleName MethodInvocation SimpleName closed marker
+close lock SimpleName SynchronizedStatement Block IfStatement SimpleName closed
+client SimpleName MethodInvocation SimpleName close
+client SimpleName MethodInvocation QualifiedName log fileid
+close SimpleName MethodInvocation QualifiedName log fileid
+t service client SimpleName SimpleType CastExpression SimpleName client
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t service client
+c SimpleName VariableDeclarationFragment CastExpression SimpleName client
+t service client SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get input protocol
+c SimpleName MethodInvocation MethodInvocation SimpleName get transport
+get input protocol SimpleName MethodInvocation MethodInvocation SimpleName get transport
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName close
+get input protocol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName close
+get transport SimpleName MethodInvocation MethodInvocation SimpleName close
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName close
+public Modifier MethodDeclaration SimpleType SimpleName no such log id exception
+public Modifier MethodDeclaration SimpleType SimpleName logger closed exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName close
+synchronized Modifier MethodDeclaration SimpleType SimpleName no such log id exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName logger closed exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration SimpleName close
+void PrimitiveType MethodDeclaration SimpleType SimpleName no such log id exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName logger closed exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName t exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName close lock
+close SimpleName MethodDeclaration SimpleType SimpleName no such log id exception
+close SimpleName MethodDeclaration SimpleType SimpleName logger closed exception
+close SimpleName MethodDeclaration SimpleType SimpleName t exception
+close SimpleName MethodDeclaration Block SynchronizedStatement SimpleName close lock
+no such log id exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName logger closed exception
+no such log id exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+logger closed exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName logger closed exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName no such log id exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName logger closed exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName compress type
+compress type SimpleName FieldAccess Assignment SimpleName compress type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set compress type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName compress type
+void PrimitiveType MethodDeclaration SimpleName set compress type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName compress type
+set compress type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set compress type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName compress type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set compress type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compress type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set compress type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName compress type

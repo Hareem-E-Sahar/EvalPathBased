@@ -1,0 +1,111 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName asset guid
+method name SimpleName VariableDeclarationFragment StringLiteral add rating to asset
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral add rating to asset
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral add rating to asset
+guid parameter SimpleName VariableDeclarationFragment StringLiteral asset guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral asset guid
+url template SimpleName VariableDeclarationFragment StringLiteral /{ asset likes
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral /{ asset likes
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url template
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral /{ asset likes
+validate omas server url SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+validate guid SimpleName MethodInvocation SimpleName asset guid
+validate guid SimpleName MethodInvocation SimpleName guid parameter
+validate guid SimpleName MethodInvocation SimpleName method name
+asset guid SimpleName MethodInvocation SimpleName guid parameter
+asset guid SimpleName MethodInvocation SimpleName method name
+guid parameter SimpleName MethodInvocation SimpleName method name
+omas server url SimpleName InfixExpression SimpleName url template
+call guidpostrest call SimpleName MethodInvocation SimpleName method name
+call guidpostrest call SimpleName MethodInvocation InfixExpression SimpleName omas server url
+call guidpostrest call SimpleName MethodInvocation InfixExpression SimpleName url template
+call guidpostrest call SimpleName MethodInvocation SimpleName user id
+call guidpostrest call SimpleName MethodInvocation SimpleName asset guid
+method name SimpleName MethodInvocation InfixExpression SimpleName omas server url
+method name SimpleName MethodInvocation InfixExpression SimpleName url template
+method name SimpleName MethodInvocation SimpleName user id
+method name SimpleName MethodInvocation SimpleName asset guid
+omas server url SimpleName InfixExpression MethodInvocation SimpleName user id
+url template SimpleName InfixExpression MethodInvocation SimpleName user id
+omas server url SimpleName InfixExpression MethodInvocation SimpleName asset guid
+url template SimpleName InfixExpression MethodInvocation SimpleName asset guid
+user id SimpleName MethodInvocation SimpleName asset guid
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName call guidpostrest call
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName omas server url
+rest result SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName url template
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+rest result SimpleName VariableDeclarationFragment MethodInvocation SimpleName asset guid
+guid response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rest result
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName method name
+detect and throw invalid parameter exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName method name
+detect and throw user not authorized exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+detect and throw property server exception SimpleName MethodInvocation SimpleName method name
+detect and throw property server exception SimpleName MethodInvocation SimpleName rest result
+method name SimpleName MethodInvocation SimpleName rest result
+rest result SimpleName MethodInvocation SimpleName get guid
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName add like to asset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+string SimpleName SimpleType MethodDeclaration SimpleName add like to asset
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+add like to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add like to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+add like to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add like to asset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+add like to asset SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+add like to asset SimpleName MethodDeclaration SimpleType SimpleName property server exception
+add like to asset SimpleName MethodDeclaration SimpleType SimpleName user not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+asset guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add like to asset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add like to asset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName asset guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

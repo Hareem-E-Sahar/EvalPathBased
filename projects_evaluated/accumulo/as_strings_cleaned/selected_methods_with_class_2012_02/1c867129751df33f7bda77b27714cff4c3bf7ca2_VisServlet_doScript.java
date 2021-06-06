@@ -1,0 +1,68 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName tablet server status
+array list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tservers
+tablet server status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tservers
+vis servlet SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get class loader
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+get class loader SimpleName MethodInvocation MethodInvocation StringLiteral webvisxml
+get resource as stream SimpleName MethodInvocation StringLiteral webvisxml
+data SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource as stream
+data SimpleName VariableDeclarationFragment MethodInvocation StringLiteral webvisxml
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+data SimpleName MethodInvocation SimpleName read
+data SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName buffer
+n SimpleName Assignment MethodInvocation SimpleName data
+n SimpleName Assignment MethodInvocation SimpleName read
+n SimpleName Assignment MethodInvocation SimpleName buffer
+n SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName n
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation SimpleName n
+empty NumberLiteral ClassInstanceCreation SimpleName n
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+sb SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+sb SimpleName MethodInvocation ClassInstanceCreation SimpleName n
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+append SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName n
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do script
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tservers
+void PrimitiveType MethodDeclaration SimpleName do script
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tservers
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+do script SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tservers
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do script
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do script
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tservers

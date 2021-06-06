@@ -1,0 +1,91 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName groups
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName groups
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resource type
+atlas resource types SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName resource type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas resource types
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName map
+is access allowed SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is access allowed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer check access for groups
+debug SimpleName MethodInvocation StringLiteral ==> simple atlas authorizer check access for groups
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName groups
+is not empty SimpleName MethodInvocation SimpleName groups
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+check access SimpleName MethodInvocation SimpleName group
+check access SimpleName MethodInvocation SimpleName resource type
+check access SimpleName MethodInvocation SimpleName resource
+check access SimpleName MethodInvocation SimpleName map
+group SimpleName MethodInvocation SimpleName resource type
+group SimpleName MethodInvocation SimpleName resource
+group SimpleName MethodInvocation SimpleName map
+resource type SimpleName MethodInvocation SimpleName resource
+resource type SimpleName MethodInvocation SimpleName map
+resource SimpleName MethodInvocation SimpleName map
+is access allowed SimpleName Assignment MethodInvocation SimpleName check access
+is access allowed SimpleName Assignment MethodInvocation SimpleName group
+is access allowed SimpleName Assignment MethodInvocation SimpleName resource type
+is access allowed SimpleName Assignment MethodInvocation SimpleName resource
+is access allowed SimpleName Assignment MethodInvocation SimpleName map
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName groups
+group SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName groups
+groups SimpleName EnhancedForStatement Block IfStatement SimpleName is access allowed
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== simple atlas authorizer check access for groups
+debug SimpleName MethodInvocation StringLiteral <== simple atlas authorizer check access for groups
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is debug enabled
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is access allowed
+is debug enabled SimpleName IfStatement Block IfStatement SimpleName is debug enabled
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName is access allowed
+is debug enabled SimpleName IfStatement Block ReturnStatement SimpleName is access allowed
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName check access for groups
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName groups
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+boolean PrimitiveType MethodDeclaration SimpleName check access for groups
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName groups
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map
+check access for groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName groups
+check access for groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource type
+check access for groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check access for groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+check access for groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+check access for groups SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+check access for groups SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+check access for groups SimpleName MethodDeclaration Block IfStatement SimpleName is debug enabled
+check access for groups SimpleName MethodDeclaration Block ReturnStatement SimpleName is access allowed
+groups SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource type
+groups SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+groups SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+resource type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+resource type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+resource SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check access for groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check access for groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map

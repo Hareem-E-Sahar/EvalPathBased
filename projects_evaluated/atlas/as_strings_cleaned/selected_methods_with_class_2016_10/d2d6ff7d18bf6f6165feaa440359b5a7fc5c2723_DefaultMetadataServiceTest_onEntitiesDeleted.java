@@ -1,0 +1,48 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName i typed referenceable instance
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+i typed referenceable instance SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entities
+deleted entities SimpleName MethodInvocation SimpleName clear
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+entity SimpleName MethodInvocation SimpleName get id
+entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+deleted entities SimpleName MethodInvocation SimpleName add
+deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+deleted entities SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+deleted entities SimpleName MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entity
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+add SimpleName MethodInvocation MethodInvocation SimpleName get id
+i typed referenceable instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName entities
+entity SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on entities deleted
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entities
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on entities deleted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName entities
+void PrimitiveType MethodDeclaration SimpleName on entities deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entities
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName entities
+on entities deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entities
+on entities deleted SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+on entities deleted SimpleName MethodDeclaration Block EnhancedForStatement SimpleName entities
+entities SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on entities deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on entities deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entities
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName metadata collection id
+omrs repository connector SimpleName SimpleType SingleVariableDeclaration SimpleName local connector
+local connector SimpleName MethodInvocation SimpleName get metadata collection
+federated connector SimpleName SimpleType ClassInstanceCreation SimpleName metadata collection id
+federated connector SimpleName SimpleType ClassInstanceCreation SimpleName local connector
+federated connector SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName local connector
+federated connector SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+metadata collection id SimpleName ClassInstanceCreation SimpleName local connector
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName local connector
+metadata collection id SimpleName ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+local connector SimpleName ClassInstanceCreation MethodInvocation SimpleName local connector
+local connector SimpleName ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+local cohort connector SimpleName Assignment ClassInstanceCreation SimpleType SimpleName federated connector
+local cohort connector SimpleName Assignment ClassInstanceCreation SimpleName metadata collection id
+local cohort connector SimpleName Assignment ClassInstanceCreation SimpleName local connector
+local cohort connector SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName local connector
+local cohort connector SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get metadata collection
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set local connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local connector
+void PrimitiveType MethodDeclaration SimpleName set local connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local connector
+set local connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set local connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+set local connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omrs repository connector
+set local connector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local connector
+metadata collection id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local connector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set local connector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local connector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set local connector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName metadata collection id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local connector

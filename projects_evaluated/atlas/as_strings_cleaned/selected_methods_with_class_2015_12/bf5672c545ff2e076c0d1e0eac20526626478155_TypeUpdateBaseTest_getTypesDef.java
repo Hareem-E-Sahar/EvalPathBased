@@ -1,0 +1,25 @@
+struct type definition SimpleName SimpleType SingleVariableDeclaration SimpleName type definition
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName types def
+protected Modifier MethodDeclaration SimpleName get types def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct type definition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definition
+abstract Modifier MethodDeclaration SimpleType SimpleName types def
+abstract Modifier MethodDeclaration SimpleName get types def
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct type definition
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definition
+types def SimpleName SimpleType MethodDeclaration SimpleName get types def
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type definition
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName struct type definition
+get types def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get types def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get types def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition

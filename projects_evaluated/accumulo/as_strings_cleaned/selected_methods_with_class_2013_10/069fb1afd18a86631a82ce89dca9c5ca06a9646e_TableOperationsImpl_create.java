@@ -1,0 +1,141 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+boolean PrimitiveType SingleVariableDeclaration SimpleName limit version
+time type SimpleName SimpleType SingleVariableDeclaration SimpleName time type
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName table name
+argument checker SimpleName MethodInvocation SimpleName time type
+not null SimpleName MethodInvocation SimpleName table name
+not null SimpleName MethodInvocation SimpleName time type
+table name SimpleName MethodInvocation SimpleName time type
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName byte buffer
+table name SimpleName MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName table name
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation SimpleName table name
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+time type SimpleName MethodInvocation SimpleName name
+time type SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+name SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time type
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+byte buffer SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time type
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName name
+wrap SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+arrays SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+arrays SimpleName MethodInvocation MethodInvocation SimpleName wrap
+arrays SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+as list SimpleName MethodInvocation MethodInvocation SimpleName byte buffer
+as list SimpleName MethodInvocation MethodInvocation SimpleName wrap
+as list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get bytes
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+byte buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer
+wrap SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName arrays
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName as list
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName byte buffer
+args SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wrap
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterator util SimpleName MethodInvocation SimpleName generate initial table properties
+iterator util SimpleName MethodInvocation SimpleName limit version
+generate initial table properties SimpleName MethodInvocation SimpleName limit version
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator util
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName generate initial table properties
+opts SimpleName VariableDeclarationFragment MethodInvocation SimpleName limit version
+do table operation SimpleName MethodInvocation QualifiedName table operationcreate
+do table operation SimpleName MethodInvocation SimpleName args
+do table operation SimpleName MethodInvocation SimpleName opts
+table operationcreate QualifiedName MethodInvocation SimpleName args
+table operationcreate QualifiedName MethodInvocation SimpleName opts
+args SimpleName MethodInvocation SimpleName opts
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName table name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName limit version
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName limit version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time type
+void PrimitiveType MethodDeclaration SimpleName create
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName limit version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time type
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName limit version
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time type
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time type
+create SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+create SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit version
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+limit version SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+limit version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+limit version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+limit version SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+time type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName limit version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

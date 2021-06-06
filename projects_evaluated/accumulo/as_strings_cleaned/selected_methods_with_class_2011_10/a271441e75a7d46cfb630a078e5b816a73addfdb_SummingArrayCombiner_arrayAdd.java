@@ -1,0 +1,168 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName la
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName la
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lb
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName lb
+la SimpleName MethodInvocation SimpleName size
+lb SimpleName MethodInvocation SimpleName size
+la SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lb
+la SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lb
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+lb SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName lb
+i SimpleName InfixExpression MethodInvocation SimpleName size
+la SimpleName MethodInvocation SimpleName get
+la SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+lb SimpleName MethodInvocation SimpleName get
+lb SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+long combiner SimpleName MethodInvocation SimpleName safe add
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName la
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName get
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName i
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName lb
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName get
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName i
+safe add SimpleName MethodInvocation MethodInvocation SimpleName la
+safe add SimpleName MethodInvocation MethodInvocation SimpleName get
+safe add SimpleName MethodInvocation MethodInvocation SimpleName i
+safe add SimpleName MethodInvocation MethodInvocation SimpleName lb
+safe add SimpleName MethodInvocation MethodInvocation SimpleName get
+safe add SimpleName MethodInvocation MethodInvocation SimpleName i
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+la SimpleName MethodInvocation SimpleName set
+la SimpleName MethodInvocation SimpleName i
+la SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+la SimpleName MethodInvocation MethodInvocation SimpleName safe add
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+la SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+set SimpleName MethodInvocation SimpleName i
+set SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+set SimpleName MethodInvocation MethodInvocation SimpleName safe add
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+i SimpleName MethodInvocation MethodInvocation SimpleName safe add
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+la SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName la
+i SimpleName InfixExpression MethodInvocation SimpleName size
+lb SimpleName MethodInvocation SimpleName get
+lb SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+la SimpleName MethodInvocation SimpleName get
+la SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+long combiner SimpleName MethodInvocation SimpleName safe add
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName lb
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName get
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName i
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName la
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName get
+long combiner SimpleName MethodInvocation MethodInvocation SimpleName i
+safe add SimpleName MethodInvocation MethodInvocation SimpleName lb
+safe add SimpleName MethodInvocation MethodInvocation SimpleName get
+safe add SimpleName MethodInvocation MethodInvocation SimpleName i
+safe add SimpleName MethodInvocation MethodInvocation SimpleName la
+safe add SimpleName MethodInvocation MethodInvocation SimpleName get
+safe add SimpleName MethodInvocation MethodInvocation SimpleName i
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+lb SimpleName MethodInvocation SimpleName set
+lb SimpleName MethodInvocation SimpleName i
+lb SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+lb SimpleName MethodInvocation MethodInvocation SimpleName safe add
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+lb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+set SimpleName MethodInvocation SimpleName i
+set SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+set SimpleName MethodInvocation MethodInvocation SimpleName safe add
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation SimpleName long combiner
+i SimpleName MethodInvocation MethodInvocation SimpleName safe add
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lb
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName la
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+public Modifier MethodDeclaration SimpleName array add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName la
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lb
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName long
+static Modifier MethodDeclaration SimpleName array add
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName la
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName lb
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName array add
+long SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName array add
+array add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName la
+array add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lb
+la SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName array add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName la
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lb
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName array add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName la
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lb

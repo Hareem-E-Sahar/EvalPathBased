@@ -1,0 +1,138 @@
+service client SimpleName MethodInvocation SimpleName get entity
+service client SimpleName MethodInvocation SimpleName hive table type
+service client SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+service client SimpleName MethodInvocation SimpleName sales fact table
+get entity SimpleName MethodInvocation SimpleName hive table type
+get entity SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+get entity SimpleName MethodInvocation SimpleName sales fact table
+hive table type SimpleName MethodInvocation QualifiedName atlas clientreferenceable attribute name
+hive table type SimpleName MethodInvocation SimpleName sales fact table
+atlas clientreferenceable attribute name QualifiedName MethodInvocation SimpleName sales fact table
+service client SimpleName MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation SimpleName get id
+hive table type SimpleName MethodInvocation MethodInvocation SimpleName get id
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation SimpleName get id
+sales fact table SimpleName MethodInvocation MethodInvocation SimpleName get id
+service client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+hive table type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+atlas clientreferenceable attribute name QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+sales fact table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id
+get id SimpleName MethodInvocation MethodInvocation SimpleName get id
+table id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get id
+table id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table id
+service client SimpleName MethodInvocation SimpleName get schema for entity
+service client SimpleName MethodInvocation SimpleName table id
+get schema for entity SimpleName MethodInvocation SimpleName table id
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema for entity
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName results
+assert not null SimpleName MethodInvocation SimpleName results
+results SimpleName MethodInvocation SimpleName get json array
+results SimpleName MethodInvocation StringLiteral rows
+get json array SimpleName MethodInvocation StringLiteral rows
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+rows SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json array
+rows SimpleName VariableDeclarationFragment MethodInvocation StringLiteral rows
+json array SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rows
+rows SimpleName MethodInvocation SimpleName length
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName rows
+assert SimpleName MethodInvocation MethodInvocation SimpleName length
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rows
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName length
+assert equals SimpleName MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+length SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+rows SimpleName MethodInvocation SimpleName length
+index SimpleName InfixExpression MethodInvocation SimpleName rows
+index SimpleName InfixExpression MethodInvocation SimpleName length
+rows SimpleName MethodInvocation SimpleName get json object
+rows SimpleName MethodInvocation SimpleName index
+get json object SimpleName MethodInvocation SimpleName index
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName rows
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get json object
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+final Modifier VariableDeclarationStatement SimpleType SimpleName json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rows
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get json object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index
+json object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral name
+get string SimpleName MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral name
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral comment
+get string SimpleName MethodInvocation StringLiteral comment
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral comment
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral comment
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral data type
+get string SimpleName MethodInvocation StringLiteral data type
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral data type
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName row
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert not null SimpleName MethodInvocation MethodInvocation StringLiteral data type
+row SimpleName MethodInvocation SimpleName get string
+row SimpleName MethodInvocation StringLiteral type name
+get string SimpleName MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName row
+assert SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert SimpleName MethodInvocation StringLiteral hive column
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName row
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get string
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral type name
+assert equals SimpleName MethodInvocation StringLiteral hive column
+row SimpleName MethodInvocation MethodInvocation StringLiteral hive column
+get string SimpleName MethodInvocation MethodInvocation StringLiteral hive column
+type name StringLiteral MethodInvocation MethodInvocation StringLiteral hive column
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName index
+index SimpleName InfixExpression ForStatement PostfixExpression SimpleName index
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test schema for entity
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test schema for entity
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test schema for entity
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test schema for entity SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test schema for entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test schema for entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

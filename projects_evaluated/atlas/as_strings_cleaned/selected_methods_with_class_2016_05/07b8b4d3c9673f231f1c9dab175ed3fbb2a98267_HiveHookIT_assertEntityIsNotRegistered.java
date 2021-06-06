@@ -1,0 +1,135 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName property
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+atlas client SimpleName MethodInvocation SimpleName get entity
+atlas client SimpleName MethodInvocation SimpleName type name
+atlas client SimpleName MethodInvocation SimpleName property
+atlas client SimpleName MethodInvocation SimpleName value
+get entity SimpleName MethodInvocation SimpleName type name
+get entity SimpleName MethodInvocation SimpleName property
+get entity SimpleName MethodInvocation SimpleName value
+type name SimpleName MethodInvocation SimpleName property
+type name SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+get status SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+entity was not supposed to exist for type name = s attribute name = s StringLiteral InfixExpression StringLiteral attribute value = s
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral entity was not supposed to exist for type name = s attribute name = s
+string SimpleName MethodInvocation InfixExpression StringLiteral attribute value = s
+string SimpleName MethodInvocation SimpleName type name
+string SimpleName MethodInvocation SimpleName property
+string SimpleName MethodInvocation SimpleName value
+format SimpleName MethodInvocation InfixExpression StringLiteral entity was not supposed to exist for type name = s attribute name = s
+format SimpleName MethodInvocation InfixExpression StringLiteral attribute value = s
+format SimpleName MethodInvocation SimpleName type name
+format SimpleName MethodInvocation SimpleName property
+format SimpleName MethodInvocation SimpleName value
+entity was not supposed to exist for type name = s attribute name = s StringLiteral InfixExpression MethodInvocation SimpleName type name
+attribute value = s StringLiteral InfixExpression MethodInvocation SimpleName type name
+entity was not supposed to exist for type name = s attribute name = s StringLiteral InfixExpression MethodInvocation SimpleName property
+attribute value = s StringLiteral InfixExpression MethodInvocation SimpleName property
+entity was not supposed to exist for type name = s attribute name = s StringLiteral InfixExpression MethodInvocation SimpleName value
+attribute value = s StringLiteral InfixExpression MethodInvocation SimpleName value
+type name SimpleName MethodInvocation SimpleName property
+type name SimpleName MethodInvocation SimpleName value
+property SimpleName MethodInvocation SimpleName value
+fail SimpleName MethodInvocation MethodInvocation SimpleName string
+fail SimpleName MethodInvocation MethodInvocation SimpleName format
+fail SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral entity was not supposed to exist for type name = s attribute name = s
+fail SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral attribute value = s
+fail SimpleName MethodInvocation MethodInvocation SimpleName type name
+fail SimpleName MethodInvocation MethodInvocation SimpleName property
+fail SimpleName MethodInvocation MethodInvocation SimpleName value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName evaluate
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName evaluate
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName evaluate
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+evaluate SimpleName MethodDeclaration SimpleType SimpleName exception
+wait for SimpleName MethodInvocation NumberLiteral empty
+wait for SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+empty NumberLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName predicate
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert entity is not registered
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName assert entity is not registered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert entity is not registered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+assert entity is not registered SimpleName MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+property SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+property SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert entity is not registered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert entity is not registered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

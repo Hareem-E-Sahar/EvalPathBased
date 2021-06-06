@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+titan graph SimpleName MethodInvocation SimpleName query
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+titan graph SimpleName MethodInvocation MethodInvocation QualifiedName constantsvertex type property key
+query SimpleName MethodInvocation MethodInvocation QualifiedName constantsvertex type property key
+titan graph SimpleName MethodInvocation MethodInvocation SimpleName vertex type
+query SimpleName MethodInvocation MethodInvocation SimpleName vertex type
+has SimpleName MethodInvocation QualifiedName constantsvertex type property key
+has SimpleName MethodInvocation SimpleName vertex type
+constantsvertex type property key QualifiedName MethodInvocation SimpleName vertex type
+titan graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation SimpleName has
+vertex type SimpleName MethodInvocation MethodInvocation SimpleName has
+titan graph SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstypename property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantstypename property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+vertex type SimpleName MethodInvocation MethodInvocation QualifiedName constantstypename property key
+titan graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation MethodInvocation SimpleName type name
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation SimpleName type name
+vertex type SimpleName MethodInvocation MethodInvocation SimpleName type name
+has SimpleName MethodInvocation QualifiedName constantstypename property key
+has SimpleName MethodInvocation SimpleName type name
+constantstypename property key QualifiedName MethodInvocation SimpleName type name
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+constantsvertex type property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+vertex type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantstypename property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+type name SimpleName MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantstypename property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+type name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertices
+get types from vertices SimpleName MethodInvocation SimpleName vertices
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName types def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName restore type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName types def
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName restore type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type name
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName types def
+public Modifier MethodDeclaration SimpleName restore type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+types def SimpleName SimpleType MethodDeclaration SimpleName restore type
+types def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+types def SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+restore type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+restore type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+restore type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+public Modifier TypeDeclaration MethodDeclaration SimpleName restore type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName types def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName restore type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

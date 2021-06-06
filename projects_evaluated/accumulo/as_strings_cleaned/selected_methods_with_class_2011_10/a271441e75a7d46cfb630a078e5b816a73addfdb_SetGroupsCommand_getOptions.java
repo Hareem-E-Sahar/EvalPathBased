@@ -1,0 +1,43 @@
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+option SimpleName SimpleType ClassInstanceCreation QualifiedName shelltable option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral table
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral get locality groups for specified table
+shelltable option QualifiedName ClassInstanceCreation StringLiteral table
+shelltable option QualifiedName ClassInstanceCreation BooleanLiteral true
+shelltable option QualifiedName ClassInstanceCreation StringLiteral get locality groups for specified table
+table StringLiteral ClassInstanceCreation BooleanLiteral true
+table StringLiteral ClassInstanceCreation StringLiteral get locality groups for specified table
+true BooleanLiteral ClassInstanceCreation StringLiteral get locality groups for specified table
+table opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+table opt SimpleName Assignment ClassInstanceCreation QualifiedName shelltable option
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral table
+table opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+table opt SimpleName Assignment ClassInstanceCreation StringLiteral get locality groups for specified table
+table opt SimpleName MethodInvocation SimpleName set arg name
+table opt SimpleName MethodInvocation StringLiteral table
+set arg name SimpleName MethodInvocation StringLiteral table
+table opt SimpleName MethodInvocation SimpleName set required
+table opt SimpleName MethodInvocation BooleanLiteral false
+set required SimpleName MethodInvocation BooleanLiteral false
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName table opt
+add option SimpleName MethodInvocation SimpleName table opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

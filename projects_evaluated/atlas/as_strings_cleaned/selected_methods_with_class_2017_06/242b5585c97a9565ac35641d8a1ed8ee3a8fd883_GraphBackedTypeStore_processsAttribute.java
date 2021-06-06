@@ -1,0 +1,175 @@
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+attribute info SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+type visitor SimpleName SimpleType SingleVariableDeclaration SimpleName visitor
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type system SimpleName MethodInvocation SimpleName get core types
+core types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+core types SimpleName VariableDeclarationFragment MethodInvocation SimpleName get core types
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+attribute SimpleName MethodInvocation SimpleName data type
+attr data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+attr data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName data type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr data type
+attr data type SimpleName MethodInvocation SimpleName get type category
+attr data type SimpleName MethodInvocation SimpleName get name
+type utils SimpleName MethodInvocation SimpleName parse as array type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse as array type SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+parse as array type SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+attr type SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as array type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr data type
+attr type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr type
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName attr type
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation SimpleName attr type
+i data type SimpleName SimpleType TypeLiteral MethodInvocation SimpleName attr type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+element type SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr type
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName element type
+add SimpleName MethodInvocation SimpleName element type
+attr data type SimpleName MethodInvocation SimpleName get name
+type utils SimpleName MethodInvocation SimpleName parse as map type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+type utils SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse as map type SimpleName MethodInvocation MethodInvocation SimpleName attr data type
+parse as map type SimpleName MethodInvocation MethodInvocation SimpleName get name
+attr types SimpleName VariableDeclarationFragment MethodInvocation SimpleName type utils
+attr types SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse as map type
+attr types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName attr data type
+attr types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+attr typeslength QualifiedName InfixExpression NumberLiteral empty
+attr types SimpleName InfixExpression InfixExpression InfixExpression QualifiedName attr typeslength
+attr types SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+attr types SimpleName ArrayAccess NumberLiteral empty
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation ArrayAccess SimpleName attr types
+type system SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation ArrayAccess SimpleName attr types
+get data type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+key type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+key type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName attr types
+key type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key type
+attr types SimpleName ArrayAccess NumberLiteral empty
+type system SimpleName MethodInvocation SimpleName get data type
+type system SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+type system SimpleName MethodInvocation ArrayAccess SimpleName attr types
+type system SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get data type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i data type
+get data type SimpleName MethodInvocation ArrayAccess SimpleName attr types
+get data type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+value type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName attr types
+value type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+i data type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName key type
+add SimpleName MethodInvocation SimpleName key type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName value type
+add SimpleName MethodInvocation SimpleName value type
+attr data types SimpleName MethodInvocation SimpleName add
+attr data types SimpleName MethodInvocation SimpleName attr data type
+add SimpleName MethodInvocation SimpleName attr data type
+attr data type SimpleName MethodInvocation SimpleName get type category
+attribute cannot reference instances of type : StringLiteral InfixExpression MethodInvocation SimpleName attr data type
+attribute cannot reference instances of type : StringLiteral InfixExpression MethodInvocation SimpleName get type category
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral attribute cannot reference instances of type :
+attr data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName array
+attr data type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName map
+array SimpleName SwitchCase SwitchStatement SwitchCase SimpleName map
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName enum
+map SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+enum SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName class
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+class SimpleName SwitchCase SwitchStatement SwitchCase SimpleName primitive
+i data type SimpleName SimpleType SingleVariableDeclaration SimpleName attr type
+attr type SimpleName MethodInvocation SimpleName get name
+core types SimpleName MethodInvocation SimpleName contains
+core types SimpleName MethodInvocation MethodInvocation SimpleName attr type
+core types SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains SimpleName MethodInvocation MethodInvocation SimpleName attr type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get name
+visitor SimpleName MethodInvocation SimpleName visit attribute data type
+visitor SimpleName MethodInvocation SimpleName type name
+visitor SimpleName MethodInvocation SimpleName attribute
+visitor SimpleName MethodInvocation SimpleName attr type
+visit attribute data type SimpleName MethodInvocation SimpleName type name
+visit attribute data type SimpleName MethodInvocation SimpleName attribute
+visit attribute data type SimpleName MethodInvocation SimpleName attr type
+type name SimpleName MethodInvocation SimpleName attribute
+type name SimpleName MethodInvocation SimpleName attr type
+attribute SimpleName MethodInvocation SimpleName attr type
+i data type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName attr data types
+attr type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName attr data types
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName processs attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SimpleName processs attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type system
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type visitor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName visitor
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute info
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type visitor
+processs attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName visitor
+processs attribute SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+visitor SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName processs attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName processs attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

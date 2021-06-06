@@ -1,0 +1,31 @@
+application properties SimpleName MethodInvocation SimpleName get
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName get boolean
+conf SimpleName MethodInvocation StringLiteral atlasservicesenabled
+conf SimpleName MethodInvocation BooleanLiteral true
+get boolean SimpleName MethodInvocation StringLiteral atlasservicesenabled
+get boolean SimpleName MethodInvocation BooleanLiteral true
+atlasservicesenabled StringLiteral MethodInvocation BooleanLiteral true
+services enabled SimpleName Assignment MethodInvocation SimpleName conf
+services enabled SimpleName Assignment MethodInvocation SimpleName get boolean
+services enabled SimpleName Assignment MethodInvocation StringLiteral atlasservicesenabled
+services enabled SimpleName Assignment MethodInvocation BooleanLiteral true
+atlas exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start services
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start services
+void PrimitiveType MethodDeclaration SimpleName start services
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start services
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start services

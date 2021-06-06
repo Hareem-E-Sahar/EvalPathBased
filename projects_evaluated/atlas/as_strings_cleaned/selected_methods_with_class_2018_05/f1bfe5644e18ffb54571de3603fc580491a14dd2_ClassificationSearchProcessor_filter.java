@@ -1,0 +1,118 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertices
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity vertices SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> classification search processorfilter
+log SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral ==> classification search processorfilter
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+==> classification search processorfilter StringLiteral MethodInvocation MethodInvocation SimpleName entity vertices
+==> classification search processorfilter StringLiteral MethodInvocation MethodInvocation SimpleName size
+gremlin tag filter query SimpleName InfixExpression InfixExpression InfixExpression SimpleName gremlin query bindings
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+get guids SimpleName MethodInvocation SimpleName entity vertices
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guids
+guids SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertices
+entity vertices SimpleName MethodInvocation SimpleName clear
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName guids
+is not empty SimpleName MethodInvocation SimpleName guids
+gremlin query bindings SimpleName MethodInvocation SimpleName put
+gremlin query bindings SimpleName MethodInvocation StringLiteral guids
+gremlin query bindings SimpleName MethodInvocation SimpleName guids
+put SimpleName MethodInvocation StringLiteral guids
+put SimpleName MethodInvocation SimpleName guids
+guids StringLiteral MethodInvocation SimpleName guids
+context SimpleName MethodInvocation SimpleName get graph
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph
+atlas graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName graph
+graph SimpleName MethodInvocation SimpleName get gremlin script engine
+gremlin script engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph
+gremlin script engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gremlin script engine
+script engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gremlin script engine
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+graph SimpleName MethodInvocation SimpleName execute gremlin script
+graph SimpleName MethodInvocation SimpleName gremlin script engine
+graph SimpleName MethodInvocation SimpleName gremlin query bindings
+graph SimpleName MethodInvocation SimpleName gremlin tag filter query
+graph SimpleName MethodInvocation BooleanLiteral false
+execute gremlin script SimpleName MethodInvocation SimpleName gremlin script engine
+execute gremlin script SimpleName MethodInvocation SimpleName gremlin query bindings
+execute gremlin script SimpleName MethodInvocation SimpleName gremlin tag filter query
+execute gremlin script SimpleName MethodInvocation BooleanLiteral false
+gremlin script engine SimpleName MethodInvocation SimpleName gremlin query bindings
+gremlin script engine SimpleName MethodInvocation SimpleName gremlin tag filter query
+gremlin script engine SimpleName MethodInvocation BooleanLiteral false
+gremlin query bindings SimpleName MethodInvocation SimpleName gremlin tag filter query
+gremlin query bindings SimpleName MethodInvocation BooleanLiteral false
+gremlin tag filter query SimpleName MethodInvocation BooleanLiteral false
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName graph
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName execute gremlin script
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName gremlin script engine
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName gremlin query bindings
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName gremlin tag filter query
+atlas vertices SimpleName VariableDeclarationFragment CastExpression MethodInvocation BooleanLiteral false
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName atlas vertices
+is not empty SimpleName MethodInvocation SimpleName atlas vertices
+entity vertices SimpleName MethodInvocation SimpleName add all
+entity vertices SimpleName MethodInvocation SimpleName atlas vertices
+add all SimpleName MethodInvocation SimpleName atlas vertices
+atlas base exception SimpleName SimpleType UnionType SimpleType SimpleName script exception
+atlas base exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+script exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+collection utils SimpleName MethodInvocation SimpleName filter
+collection utils SimpleName MethodInvocation SimpleName entity vertices
+collection utils SimpleName MethodInvocation SimpleName entity predicate trait names
+filter SimpleName MethodInvocation SimpleName entity vertices
+filter SimpleName MethodInvocation SimpleName entity predicate trait names
+entity vertices SimpleName MethodInvocation SimpleName entity predicate trait names
+filter SimpleName SuperMethodInvocation SimpleName entity vertices
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity vertices SimpleName MethodInvocation SimpleName size
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== classification search processorfilter retsize
+log SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+log SimpleName MethodInvocation MethodInvocation SimpleName size
+debug SimpleName MethodInvocation StringLiteral <== classification search processorfilter retsize
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity vertices
+debug SimpleName MethodInvocation MethodInvocation SimpleName size
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName entity vertices
+<== classification search processorfilter retsize StringLiteral MethodInvocation MethodInvocation SimpleName size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName filter
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+void PrimitiveType MethodDeclaration SimpleName filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertices

@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName obsolete type def guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName obsolete type def name
+method name SimpleName VariableDeclarationFragment StringLiteral delete attribute type def
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral delete attribute type def
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral delete attribute type def
+throw not enterprise function SimpleName MethodInvocation SimpleName method name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete attribute type def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+void PrimitiveType MethodDeclaration SimpleName delete attribute type def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+void PrimitiveType MethodDeclaration SimpleType SimpleName function not supported exception
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete attribute type def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+delete attribute type def SimpleName MethodDeclaration SimpleType SimpleName function not supported exception
+delete attribute type def SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+obsolete type def guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+obsolete type def guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+obsolete type def name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete attribute type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete attribute type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obsolete type def name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName function not supported exception

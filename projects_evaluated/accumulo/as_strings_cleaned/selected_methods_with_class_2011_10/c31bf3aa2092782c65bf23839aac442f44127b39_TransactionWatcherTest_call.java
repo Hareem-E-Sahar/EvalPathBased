@@ -1,0 +1,71 @@
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+sa SimpleName MethodInvocation SimpleName stop
+sa SimpleName MethodInvocation SimpleName tx type
+sa SimpleName MethodInvocation SimpleName txid
+stop SimpleName MethodInvocation SimpleName tx type
+stop SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+callable SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+fail SimpleName MethodInvocation StringLiteral should not be able to start a new work on a discontinued transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+txw SimpleName MethodInvocation SimpleName run
+txw SimpleName MethodInvocation SimpleName tx type
+txw SimpleName MethodInvocation SimpleName txid
+run SimpleName MethodInvocation SimpleName tx type
+run SimpleName MethodInvocation SimpleName txid
+tx type SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName fail
+assert SimpleName MethodInvocation StringLiteral work against a stopped transaction should fail
+fail SimpleName MethodInvocation StringLiteral work against a stopped transaction should fail
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+txw SimpleName MethodInvocation SimpleName is active
+txw SimpleName MethodInvocation SimpleName txid
+is active SimpleName MethodInvocation SimpleName txid
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert SimpleName MethodInvocation MethodInvocation SimpleName txid
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txw
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is active
+assert true SimpleName MethodInvocation MethodInvocation SimpleName txid
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName call
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+call SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

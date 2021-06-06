@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+get attribute def SimpleName SuperMethodInvocation SimpleName attribute name
+ret SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get attribute def
+ret SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName attribute name
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas classification type SimpleName SimpleType SingleVariableDeclaration SimpleName super type
+super type SimpleName MethodInvocation SimpleName get attribute def
+super type SimpleName MethodInvocation SimpleName attribute name
+get attribute def SimpleName MethodInvocation SimpleName attribute name
+ret SimpleName Assignment MethodInvocation SimpleName super type
+ret SimpleName Assignment MethodInvocation SimpleName get attribute def
+ret SimpleName Assignment MethodInvocation SimpleName attribute name
+atlas classification type SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName super types
+super type SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName super types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas attribute def
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get attribute def
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier MethodDeclaration SimpleName get attribute def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName get attribute def
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get attribute def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get attribute def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

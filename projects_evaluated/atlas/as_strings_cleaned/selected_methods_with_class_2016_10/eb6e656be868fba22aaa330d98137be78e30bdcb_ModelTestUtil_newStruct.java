@@ -1,0 +1,70 @@
+atlas struct def SimpleName SimpleType SingleVariableDeclaration SimpleName struct def
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName types registry
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+struct def SimpleName MethodInvocation SimpleName get name
+types registry SimpleName MethodInvocation SimpleName get type
+types registry SimpleName MethodInvocation MethodInvocation SimpleName struct def
+types registry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get type SimpleName MethodInvocation MethodInvocation SimpleName struct def
+get type SimpleName MethodInvocation MethodInvocation SimpleName get name
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName types registry
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName struct def
+data type SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+atlas type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+data type SimpleName InstanceofExpression SimpleType SimpleName atlas struct type
+atlas struct type SimpleName SimpleType CastExpression SimpleName data type
+data type SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create default value
+ret SimpleName Assignment MethodInvocation SimpleName create default value
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName excp
+struct def SimpleName MethodInvocation SimpleName get name
+failed to get structtype StringLiteral InfixExpression MethodInvocation SimpleName struct def
+failed to get structtype StringLiteral InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to get structtype
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName struct def
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName excp
+error SimpleName MethodInvocation InfixExpression StringLiteral failed to get structtype
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName struct def
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+error SimpleName MethodInvocation SimpleName excp
+failed to get structtype StringLiteral InfixExpression MethodInvocation SimpleName excp
+struct def SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName excp
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName excp
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas struct
+public Modifier MethodDeclaration SimpleName new struct
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration SimpleType SimpleName atlas struct
+static Modifier MethodDeclaration SimpleName new struct
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName types registry
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas struct SimpleName SimpleType MethodDeclaration SimpleName new struct
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName struct def
+atlas struct SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct def
+new struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct def
+new struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+new struct SimpleName MethodDeclaration SingleVariableDeclaration SimpleName types registry
+new struct SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+struct def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+public Modifier TypeDeclaration MethodDeclaration SimpleName new struct
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas struct
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new struct
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName types registry

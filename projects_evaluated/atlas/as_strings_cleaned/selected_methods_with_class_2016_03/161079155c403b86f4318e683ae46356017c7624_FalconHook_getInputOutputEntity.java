@@ -1,0 +1,99 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName referenceable
+orgapachefalconentityv clustercluster QualifiedName SimpleType SingleVariableDeclaration SimpleName cluster
+string SimpleName SimpleType SingleVariableDeclaration SimpleName feed name
+store SimpleName MethodInvocation SimpleName get
+store SimpleName MethodInvocation QualifiedName entity typefeed
+store SimpleName MethodInvocation SimpleName feed name
+get SimpleName MethodInvocation QualifiedName entity typefeed
+get SimpleName MethodInvocation SimpleName feed name
+entity typefeed QualifiedName MethodInvocation SimpleName feed name
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+feed SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity typefeed
+feed SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed name
+feed SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed
+cluster SimpleName MethodInvocation SimpleName get name
+feed helper SimpleName MethodInvocation SimpleName get cluster
+feed helper SimpleName MethodInvocation SimpleName feed
+feed helper SimpleName MethodInvocation MethodInvocation SimpleName cluster
+feed helper SimpleName MethodInvocation MethodInvocation SimpleName get name
+get cluster SimpleName MethodInvocation SimpleName feed
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName cluster
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get name
+feed SimpleName MethodInvocation MethodInvocation SimpleName cluster
+feed SimpleName MethodInvocation MethodInvocation SimpleName get name
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed helper
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster
+feed cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+orgapachefalconentityv feedcluster QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feed cluster
+get table SimpleName MethodInvocation SimpleName feed cluster
+get table SimpleName MethodInvocation SimpleName feed
+feed cluster SimpleName MethodInvocation SimpleName feed
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName get table
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed cluster
+table SimpleName VariableDeclarationFragment MethodInvocation SimpleName feed
+final Modifier VariableDeclarationStatement SimpleType SimpleName catalog table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get table
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName feed cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName feed
+catalog table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+catalog storage SimpleName SimpleType ClassInstanceCreation SimpleName cluster
+catalog storage SimpleName SimpleType ClassInstanceCreation SimpleName table
+cluster SimpleName ClassInstanceCreation SimpleName table
+storage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName catalog storage
+storage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster
+storage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table
+catalog storage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName storage
+cluster SimpleName MethodInvocation SimpleName get name
+storage SimpleName MethodInvocation SimpleName get database
+storage SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get database SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+storage SimpleName MethodInvocation SimpleName get table
+storage SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get table SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+create hive table instance SimpleName MethodInvocation MethodInvocation SimpleName cluster
+create hive table instance SimpleName MethodInvocation MethodInvocation SimpleName get name
+create hive table instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storage
+create hive table instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get database
+create hive table instance SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+create hive table instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storage
+create hive table instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table
+create hive table instance SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+to lower case SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName referenceable
+private Modifier MethodDeclaration SimpleName get input output entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachefalconentityv clustercluster
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName feed name
+private Modifier MethodDeclaration SimpleType SimpleName exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get input output entity
+referenceable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get input output entity
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachefalconentityv clustercluster
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get input output entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName feed name
+get input output entity SimpleName MethodDeclaration SimpleType SimpleName exception
+get input output entity SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed name
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+feed name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get input output entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get input output entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName feed name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

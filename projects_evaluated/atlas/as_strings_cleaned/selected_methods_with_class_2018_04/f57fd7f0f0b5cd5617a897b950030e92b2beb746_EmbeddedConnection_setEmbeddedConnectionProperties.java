@@ -1,0 +1,20 @@
+additional properties SimpleName SimpleType SingleVariableDeclaration SimpleName embedded connection properties
+embedded connection properties SimpleName FieldAccess Assignment SimpleName embedded connection properties
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set embedded connection properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName embedded connection properties
+void PrimitiveType MethodDeclaration SimpleName set embedded connection properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName embedded connection properties
+set embedded connection properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName additional properties
+set embedded connection properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName embedded connection properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set embedded connection properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName embedded connection properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set embedded connection properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName embedded connection properties

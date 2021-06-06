@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data type name
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+graph helper SimpleName MethodInvocation SimpleName get id from vertex
+graph helper SimpleName MethodInvocation SimpleName data type name
+graph helper SimpleName MethodInvocation SimpleName vertex
+get id from vertex SimpleName MethodInvocation SimpleName data type name
+get id from vertex SimpleName MethodInvocation SimpleName vertex
+data type name SimpleName MethodInvocation SimpleName vertex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName id
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get id from vertex
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName data type name
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier MethodDeclaration SimpleType SimpleName id
+public Modifier MethodDeclaration SimpleName get id from vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data type name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName vertex
+id SimpleName SimpleType MethodDeclaration SimpleName get id from vertex
+id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data type name
+id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vertex
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data type name
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get id from vertex SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vertex
+data type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id from vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id from vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vertex

@@ -1,0 +1,156 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+accumulo configuration SimpleName SimpleType SingleVariableDeclaration SimpleName acuconf
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+acuconf SimpleName MethodInvocation SimpleName get
+acuconf SimpleName MethodInvocation QualifiedName propertytable locality groups
+get SimpleName MethodInvocation QualifiedName propertytable locality groups
+acuconf SimpleName MethodInvocation MethodInvocation SimpleName split
+get SimpleName MethodInvocation MethodInvocation SimpleName split
+propertytable locality groups QualifiedName MethodInvocation MethodInvocation SimpleName split
+acuconf SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation StringLiteral empty
+propertytable locality groups QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+split SimpleName MethodInvocation StringLiteral empty
+groups SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName acuconf
+groups SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+groups SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName propertytable locality groups
+groups SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+groups SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName group
+group SimpleName MethodInvocation SimpleName length
+group SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName group
+put SimpleName MethodInvocation SimpleName group
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName groups
+group SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName groups
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property
+entry SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+propertytable locality group prefix QualifiedName MethodInvocation SimpleName get key
+prefix SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertytable locality group prefix
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+property SimpleName MethodInvocation SimpleName starts with
+property SimpleName MethodInvocation SimpleName prefix
+starts with SimpleName MethodInvocation SimpleName prefix
+prefix SimpleName MethodInvocation SimpleName length
+property SimpleName MethodInvocation SimpleName substring
+property SimpleName MethodInvocation MethodInvocation SimpleName prefix
+property SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation MethodInvocation SimpleName prefix
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName length
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+group SimpleName MethodInvocation SimpleName split
+group SimpleName MethodInvocation StringLiteral \\.
+split SimpleName MethodInvocation StringLiteral \\.
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+parts SimpleName VariableDeclarationFragment MethodInvocation StringLiteral \\.
+parts SimpleName ArrayAccess NumberLiteral empty
+group SimpleName Assignment ArrayAccess SimpleName parts
+group SimpleName Assignment ArrayAccess NumberLiteral empty
+result SimpleName MethodInvocation SimpleName contains key
+result SimpleName MethodInvocation SimpleName group
+contains key SimpleName MethodInvocation SimpleName group
+partslength QualifiedName InfixExpression NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+decode column families SimpleName MethodInvocation SimpleName value
+col fams set SimpleName VariableDeclarationFragment MethodInvocation SimpleName decode column families
+col fams set SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+collections SimpleName MethodInvocation SimpleName disjoint
+collections SimpleName MethodInvocation SimpleName all
+collections SimpleName MethodInvocation SimpleName col fams set
+disjoint SimpleName MethodInvocation SimpleName all
+disjoint SimpleName MethodInvocation SimpleName col fams set
+all SimpleName MethodInvocation SimpleName col fams set
+col fams set SimpleName MethodInvocation SimpleName retain all
+col fams set SimpleName MethodInvocation SimpleName all
+retain all SimpleName MethodInvocation SimpleName all
+column families StringLiteral InfixExpression SimpleName col fams set
+column families StringLiteral InfixExpression StringLiteral in group
+column families StringLiteral InfixExpression SimpleName group
+column families StringLiteral InfixExpression StringLiteral is already used by another locality group
+col fams set SimpleName InfixExpression StringLiteral in group
+col fams set SimpleName InfixExpression SimpleName group
+col fams set SimpleName InfixExpression StringLiteral is already used by another locality group
+in group StringLiteral InfixExpression SimpleName group
+in group StringLiteral InfixExpression StringLiteral is already used by another locality group
+group SimpleName InfixExpression StringLiteral is already used by another locality group
+locality group configuration error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral column families
+locality group configuration error SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName col fams set
+locality group configuration error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral in group
+locality group configuration error SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName group
+locality group configuration error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is already used by another locality group
+all SimpleName MethodInvocation SimpleName add all
+all SimpleName MethodInvocation SimpleName col fams set
+add all SimpleName MethodInvocation SimpleName col fams set
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName group
+result SimpleName MethodInvocation SimpleName col fams set
+put SimpleName MethodInvocation SimpleName group
+put SimpleName MethodInvocation SimpleName col fams set
+group SimpleName MethodInvocation SimpleName col fams set
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName acuconf
+groups SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName acuconf
+groups SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+acuconf SimpleName EnhancedForStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get locality groups
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+public Modifier MethodDeclaration SimpleType SimpleName locality group configuration error
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get locality groups
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+static Modifier MethodDeclaration SimpleType SimpleName locality group configuration error
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName groups
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName acuconf
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get locality groups
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName accumulo configuration
+get locality groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+get locality groups SimpleName MethodDeclaration SimpleType SimpleName locality group configuration error
+get locality groups SimpleName MethodDeclaration Block EnhancedForStatement SimpleName groups
+get locality groups SimpleName MethodDeclaration Block EnhancedForStatement SimpleName acuconf
+get locality groups SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+acuconf SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName locality group configuration error
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get locality groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName locality group configuration error
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get locality groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName acuconf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName locality group configuration error

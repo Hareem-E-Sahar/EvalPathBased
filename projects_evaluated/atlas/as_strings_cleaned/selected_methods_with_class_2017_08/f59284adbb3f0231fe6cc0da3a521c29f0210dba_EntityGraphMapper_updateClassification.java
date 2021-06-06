@@ -1,0 +1,177 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName entity mutation context
+final Modifier SingleVariableDeclaration SimpleName context
+entity mutation context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas classification SimpleName SimpleType SingleVariableDeclaration SimpleName classification
+atlas graph utils v SimpleName MethodInvocation SimpleName find by guid
+atlas graph utils v SimpleName MethodInvocation SimpleName guid
+find by guid SimpleName MethodInvocation SimpleName guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName find by guid
+instance vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName guid
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance vertex
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinstance guid not found
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName guid
+atlas error codeinstance guid not found QualifiedName ClassInstanceCreation SimpleName guid
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName instance vertex
+get type name SimpleName MethodInvocation SimpleName instance vertex
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas graph utils v
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type name
+entity type name SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName entity type name
+get entity type by name SimpleName MethodInvocation SimpleName entity type name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+final Modifier VariableDeclarationStatement SimpleType SimpleName atlas entity type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type registry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+log SimpleName MethodInvocation SimpleName is debug enabled
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating classification {} for entity {}
+log SimpleName MethodInvocation SimpleName classification
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral updating classification {} for entity {}
+debug SimpleName MethodInvocation SimpleName classification
+debug SimpleName MethodInvocation SimpleName guid
+updating classification {} for entity {} StringLiteral MethodInvocation SimpleName classification
+updating classification {} for entity {} StringLiteral MethodInvocation SimpleName guid
+classification SimpleName MethodInvocation SimpleName guid
+classification SimpleName MethodInvocation SimpleName get type name
+graph helper SimpleName MethodInvocation SimpleName get trait label
+graph helper SimpleName MethodInvocation SimpleName entity type name
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName classification
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get trait label SimpleName MethodInvocation SimpleName entity type name
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName classification
+get trait label SimpleName MethodInvocation MethodInvocation SimpleName get type name
+entity type name SimpleName MethodInvocation MethodInvocation SimpleName classification
+entity type name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait label
+relationship label SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity type name
+relationship label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName classification
+relationship label SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship label
+graph helper SimpleName MethodInvocation SimpleName get edge for label
+graph helper SimpleName MethodInvocation SimpleName instance vertex
+graph helper SimpleName MethodInvocation SimpleName relationship label
+get edge for label SimpleName MethodInvocation SimpleName instance vertex
+get edge for label SimpleName MethodInvocation SimpleName relationship label
+instance vertex SimpleName MethodInvocation SimpleName relationship label
+classification edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+classification edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get edge for label
+classification edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance vertex
+classification edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship label
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification edge
+classification edge is null for label StringLiteral InfixExpression SimpleName relationship label
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid value
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral classification edge is null for label
+atlas base exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName relationship label
+atlas error codeinvalid value QualifiedName ClassInstanceCreation InfixExpression StringLiteral classification edge is null for label
+atlas error codeinvalid value QualifiedName ClassInstanceCreation InfixExpression SimpleName relationship label
+classification edge SimpleName MethodInvocation SimpleName get in vertex
+classification vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification edge
+classification vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in vertex
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification vertex
+log SimpleName MethodInvocation SimpleName is debug enabled
+string SimpleName MethodInvocation SimpleName classification vertex
+classification SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral updating vertex {} for trait {}
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+log SimpleName MethodInvocation MethodInvocation SimpleName classification
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation StringLiteral updating vertex {} for trait {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName string
+debug SimpleName MethodInvocation MethodInvocation SimpleName classification vertex
+debug SimpleName MethodInvocation MethodInvocation SimpleName classification
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+updating vertex {} for trait {} StringLiteral MethodInvocation MethodInvocation SimpleName string
+updating vertex {} for trait {} StringLiteral MethodInvocation MethodInvocation SimpleName classification vertex
+updating vertex {} for trait {} StringLiteral MethodInvocation MethodInvocation SimpleName classification
+updating vertex {} for trait {} StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+classification vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName classification
+classification vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type name
+map classification SimpleName MethodInvocation QualifiedName entity operationupdate
+map classification SimpleName MethodInvocation SimpleName context
+map classification SimpleName MethodInvocation SimpleName classification
+map classification SimpleName MethodInvocation SimpleName entity type
+map classification SimpleName MethodInvocation SimpleName instance vertex
+entity operationupdate QualifiedName MethodInvocation SimpleName context
+entity operationupdate QualifiedName MethodInvocation SimpleName classification
+entity operationupdate QualifiedName MethodInvocation SimpleName entity type
+entity operationupdate QualifiedName MethodInvocation SimpleName instance vertex
+entity operationupdate QualifiedName MethodInvocation SimpleName classification vertex
+context SimpleName MethodInvocation SimpleName classification
+context SimpleName MethodInvocation SimpleName entity type
+context SimpleName MethodInvocation SimpleName instance vertex
+context SimpleName MethodInvocation SimpleName classification vertex
+classification SimpleName MethodInvocation SimpleName entity type
+classification SimpleName MethodInvocation SimpleName instance vertex
+classification SimpleName MethodInvocation SimpleName classification vertex
+entity type SimpleName MethodInvocation SimpleName instance vertex
+entity type SimpleName MethodInvocation SimpleName classification vertex
+instance vertex SimpleName MethodInvocation SimpleName classification vertex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update classification
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName classification
+void PrimitiveType MethodDeclaration SimpleName update classification
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName guid
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName classification
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+update classification SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity mutation context
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas classification
+update classification SimpleName MethodDeclaration SingleVariableDeclaration SimpleName classification
+update classification SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+update classification SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+context SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+context SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+classification SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update classification
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update classification
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

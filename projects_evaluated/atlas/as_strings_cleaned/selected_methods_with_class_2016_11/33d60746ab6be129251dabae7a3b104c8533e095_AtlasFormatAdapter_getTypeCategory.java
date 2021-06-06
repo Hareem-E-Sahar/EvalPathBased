@@ -1,0 +1,6 @@
+type category SimpleName SimpleType MethodDeclaration SimpleName get type category
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type category
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type category
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type category

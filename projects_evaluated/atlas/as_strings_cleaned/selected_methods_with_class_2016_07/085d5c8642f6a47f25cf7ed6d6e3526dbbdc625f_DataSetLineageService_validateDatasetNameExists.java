@@ -1,0 +1,81 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName dataset name
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName dataset name exists query
+string SimpleName MethodInvocation SimpleName dataset name
+format SimpleName MethodInvocation SimpleName dataset name exists query
+format SimpleName MethodInvocation SimpleName dataset name
+dataset name exists query SimpleName MethodInvocation SimpleName dataset name
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName dataset name exists query
+table exists query SimpleName VariableDeclarationFragment MethodInvocation SimpleName dataset name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table exists query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dataset name exists query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dataset name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table exists query
+query params SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+query params SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+discovery service SimpleName MethodInvocation SimpleName evaluate
+discovery service SimpleName MethodInvocation SimpleName table exists query
+discovery service SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+discovery service SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+discovery service SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+evaluate SimpleName MethodInvocation SimpleName table exists query
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+evaluate SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+evaluate SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table exists query SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName query params
+table exists query SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table exists query SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName discovery service
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName evaluate
+query result SimpleName VariableDeclarationFragment MethodInvocation SimpleName table exists query
+query result SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation NumberLiteral empty
+query result SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation NumberLiteral empty
+gremlin query result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query result
+query result SimpleName MethodInvocation SimpleName rows
+query result SimpleName MethodInvocation MethodInvocation SimpleName length
+rows SimpleName MethodInvocation MethodInvocation SimpleName length
+query result SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+dataset name SimpleName InfixExpression StringLiteral does not exist
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dataset name
+entity not found exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral does not exist
+query result SimpleName MethodInvocation SimpleName rows
+query result SimpleName MethodInvocation MethodInvocation SimpleName apply
+rows SimpleName MethodInvocation MethodInvocation SimpleName apply
+query result SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+rows SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+apply SimpleName MethodInvocation NumberLiteral empty
+referenceable instance SimpleName SimpleType CastExpression MethodInvocation SimpleName apply
+referenceable instance SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration SimpleType SimpleName referenceable instance
+private Modifier MethodDeclaration SimpleName validate dataset name exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+referenceable instance SimpleName SimpleType MethodDeclaration SimpleName validate dataset name exists
+referenceable instance SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+referenceable instance SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+validate dataset name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+validate dataset name exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+validate dataset name exists SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+validate dataset name exists SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+dataset name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable instance
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate dataset name exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName referenceable instance
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate dataset name exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dataset name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

@@ -1,0 +1,112 @@
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+date SimpleName SimpleType SingleVariableDeclaration SimpleName as of time
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName relationship
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName relationship
+relationship store SimpleName MethodInvocation SimpleName values
+relationship SimpleName MethodInvocation SimpleName get update time
+relationship SimpleName MethodInvocation SimpleName get guid
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship guid
+relationship SimpleName MethodInvocation SimpleName get update time
+relationship SimpleName MethodInvocation MethodInvocation SimpleName after
+get update time SimpleName MethodInvocation MethodInvocation SimpleName after
+relationship SimpleName MethodInvocation MethodInvocation SimpleName as of time
+get update time SimpleName MethodInvocation MethodInvocation SimpleName as of time
+after SimpleName MethodInvocation SimpleName as of time
+time warped relationship store SimpleName MethodInvocation SimpleName put
+time warped relationship store SimpleName MethodInvocation SimpleName relationship guid
+time warped relationship store SimpleName MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation SimpleName relationship guid
+put SimpleName MethodInvocation SimpleName relationship
+relationship guid SimpleName MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation SimpleName get create time
+relationship SimpleName MethodInvocation SimpleName get create time
+relationship SimpleName MethodInvocation MethodInvocation SimpleName after
+get create time SimpleName MethodInvocation MethodInvocation SimpleName after
+relationship SimpleName MethodInvocation MethodInvocation SimpleName as of time
+get create time SimpleName MethodInvocation MethodInvocation SimpleName as of time
+after SimpleName MethodInvocation SimpleName as of time
+relationship SimpleName MethodInvocation SimpleName get guid
+time warped relationship store SimpleName MethodInvocation SimpleName put
+time warped relationship store SimpleName MethodInvocation MethodInvocation SimpleName relationship
+time warped relationship store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+time warped relationship store SimpleName MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName relationship
+put SimpleName MethodInvocation MethodInvocation SimpleName get guid
+put SimpleName MethodInvocation SimpleName relationship
+relationship SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get guid SimpleName MethodInvocation MethodInvocation SimpleName relationship
+relationship SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName relationship store
+relationship SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+relationship SimpleName SimpleType SingleVariableDeclaration SimpleName old relationship
+old relationship SimpleName MethodInvocation SimpleName get guid
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName old relationship
+relationship guid SimpleName VariableDeclarationFragment MethodInvocation SimpleName get guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship guid
+old relationship SimpleName MethodInvocation SimpleName get update time
+old relationship SimpleName MethodInvocation SimpleName get update time
+old relationship SimpleName MethodInvocation MethodInvocation SimpleName after
+get update time SimpleName MethodInvocation MethodInvocation SimpleName after
+old relationship SimpleName MethodInvocation MethodInvocation SimpleName as of time
+get update time SimpleName MethodInvocation MethodInvocation SimpleName as of time
+after SimpleName MethodInvocation SimpleName as of time
+time warped relationship store SimpleName MethodInvocation SimpleName put
+time warped relationship store SimpleName MethodInvocation SimpleName relationship guid
+time warped relationship store SimpleName MethodInvocation SimpleName old relationship
+put SimpleName MethodInvocation SimpleName relationship guid
+put SimpleName MethodInvocation SimpleName old relationship
+relationship guid SimpleName MethodInvocation SimpleName old relationship
+newer relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName time warped relationship store
+newer relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName put
+newer relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship guid
+newer relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName old relationship
+relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName newer relationship
+time warped relationship store SimpleName MethodInvocation SimpleName put
+time warped relationship store SimpleName MethodInvocation SimpleName relationship guid
+time warped relationship store SimpleName MethodInvocation SimpleName newer relationship
+put SimpleName MethodInvocation SimpleName relationship guid
+put SimpleName MethodInvocation SimpleName newer relationship
+relationship guid SimpleName MethodInvocation SimpleName newer relationship
+old relationship SimpleName MethodInvocation SimpleName get create time
+old relationship SimpleName MethodInvocation SimpleName get create time
+old relationship SimpleName MethodInvocation MethodInvocation SimpleName after
+get create time SimpleName MethodInvocation MethodInvocation SimpleName after
+old relationship SimpleName MethodInvocation MethodInvocation SimpleName as of time
+get create time SimpleName MethodInvocation MethodInvocation SimpleName as of time
+after SimpleName MethodInvocation SimpleName as of time
+time warped relationship store SimpleName MethodInvocation SimpleName put
+time warped relationship store SimpleName MethodInvocation SimpleName relationship guid
+time warped relationship store SimpleName MethodInvocation SimpleName old relationship
+put SimpleName MethodInvocation SimpleName relationship guid
+put SimpleName MethodInvocation SimpleName old relationship
+relationship guid SimpleName MethodInvocation SimpleName old relationship
+relationship SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName relationship history store
+old relationship SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName relationship history store
+relationship history store SimpleName EnhancedForStatement Block ReturnStatement SimpleName time warped relationship store
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName hash map
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName relationship
+protected Modifier MethodDeclaration SimpleName time warp relationship store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName as of time
+protected Modifier MethodDeclaration Block EnhancedForStatement SimpleName relationship history store
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName time warped relationship store
+hash map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName time warp relationship store
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName time warp relationship store
+relationship SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName time warp relationship store
+time warp relationship store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName date
+time warp relationship store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as of time
+time warp relationship store SimpleName MethodDeclaration Block EnhancedForStatement SimpleName relationship history store
+time warp relationship store SimpleName MethodDeclaration Block ReturnStatement SimpleName time warped relationship store
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName time warp relationship store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName time warp relationship store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as of time

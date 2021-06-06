@@ -1,0 +1,128 @@
+range SimpleName SimpleType SingleVariableDeclaration SimpleName scan range
+batch writer SimpleName SimpleType SingleVariableDeclaration SimpleName bw
+connector SimpleName SimpleType SingleVariableDeclaration SimpleName conn
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName constantsmetadata table name
+conn SimpleName MethodInvocation QualifiedName constantsno auths
+create scanner SimpleName MethodInvocation QualifiedName constantsmetadata table name
+create scanner SimpleName MethodInvocation QualifiedName constantsno auths
+constantsmetadata table name QualifiedName MethodInvocation QualifiedName constantsno auths
+scanner SimpleName Assignment MethodInvocation SimpleName conn
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation QualifiedName constantsmetadata table name
+scanner SimpleName Assignment MethodInvocation QualifiedName constantsno auths
+deleting range StringLiteral InfixExpression SimpleName scan range
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting range
+log SimpleName MethodInvocation InfixExpression SimpleName scan range
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleting range
+debug SimpleName MethodInvocation InfixExpression SimpleName scan range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName scan range
+set range SimpleName MethodInvocation SimpleName scan range
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+row iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName row iterator
+row iter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName scanner
+row iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row iter
+row iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row iter SimpleName MethodInvocation SimpleName next
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName row iter
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+row SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName row
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get row
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mutation
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+m SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get row
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName get column qualifier
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column family
+m SimpleName MethodInvocation MethodInvocation SimpleName key
+m SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column family
+put delete SimpleName MethodInvocation MethodInvocation SimpleName key
+put delete SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+deleting entry StringLiteral InfixExpression SimpleName key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleting entry
+log SimpleName MethodInvocation InfixExpression SimpleName key
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleting entry
+debug SimpleName MethodInvocation InfixExpression SimpleName key
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName m
+add mutation SimpleName MethodInvocation SimpleName m
+bw SimpleName MethodInvocation SimpleName flush
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName delete tablets
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName scan range
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bw
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SimpleName delete tablets
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName scan range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conn
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName range
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scan range
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName batch writer
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bw
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connector
+delete tablets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conn
+delete tablets SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+delete tablets SimpleName MethodDeclaration SimpleType SimpleName mutations rejected exception
+scan range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+scan range SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+scan range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+scan range SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+bw SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+conn SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName mutations rejected exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete tablets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete tablets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scan range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conn
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutations rejected exception

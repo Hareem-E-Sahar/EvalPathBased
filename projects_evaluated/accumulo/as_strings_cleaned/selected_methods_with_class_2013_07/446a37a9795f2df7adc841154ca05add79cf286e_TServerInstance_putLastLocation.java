@@ -1,0 +1,29 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+m SimpleName MethodInvocation MethodInvocation SimpleName as column qualifier
+m SimpleName MethodInvocation MethodInvocation SimpleName as mutation value
+put SimpleName MethodInvocation QualifiedName tablets sectionlast location column familyname
+put SimpleName MethodInvocation MethodInvocation SimpleName as column qualifier
+put SimpleName MethodInvocation MethodInvocation SimpleName as mutation value
+tablets sectionlast location column familyname QualifiedName MethodInvocation MethodInvocation SimpleName as column qualifier
+tablets sectionlast location column familyname QualifiedName MethodInvocation MethodInvocation SimpleName as mutation value
+as column qualifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as mutation value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put last location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleName put last location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+put last location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+put last location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put last location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put last location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

@@ -1,0 +1,13 @@
+repo SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+long PrimitiveType SingleVariableDeclaration SimpleName tid
+repo SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName top
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName top
+top SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+top SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName top
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid
+test SimpleName TypeDeclaration MethodDeclaration SimpleName top
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tid

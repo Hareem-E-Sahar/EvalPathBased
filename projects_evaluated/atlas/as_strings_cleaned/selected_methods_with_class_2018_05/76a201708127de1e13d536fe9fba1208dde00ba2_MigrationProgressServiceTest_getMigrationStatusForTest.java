@@ -1,0 +1,33 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName cfg
+tinker graph SimpleName SimpleType SingleVariableDeclaration SimpleName tg
+create migrator SimpleName MethodInvocation SimpleName tg
+migration progress service SimpleName SimpleType ClassInstanceCreation SimpleName cfg
+migration progress service SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create migrator
+migration progress service SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tg
+cfg SimpleName ClassInstanceCreation MethodInvocation SimpleName create migrator
+cfg SimpleName ClassInstanceCreation MethodInvocation SimpleName tg
+private Modifier MethodDeclaration SimpleType SimpleName migration progress service
+private Modifier MethodDeclaration SimpleName get migration status for test
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cfg
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tg
+migration progress service SimpleName SimpleType MethodDeclaration SimpleName get migration status for test
+migration progress service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cfg
+migration progress service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tg
+get migration status for test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+get migration status for test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cfg
+get migration status for test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tinker graph
+get migration status for test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tg
+cfg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName migration progress service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get migration status for test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName migration progress service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get migration status for test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cfg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tg

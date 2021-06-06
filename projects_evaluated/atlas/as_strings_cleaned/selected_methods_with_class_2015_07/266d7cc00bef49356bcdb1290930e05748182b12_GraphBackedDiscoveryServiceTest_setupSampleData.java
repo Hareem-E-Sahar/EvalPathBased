@@ -1,0 +1,117 @@
+graph provider SimpleName MethodInvocation SimpleName get
+titan graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph provider
+titan graph SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+titan graph SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName titan graph
+manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName script engine manager
+script engine manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName manager
+manager SimpleName MethodInvocation SimpleName get engine by name
+manager SimpleName MethodInvocation StringLiteral gremlingroovy
+get engine by name SimpleName MethodInvocation StringLiteral gremlingroovy
+engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName manager
+engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName get engine by name
+engine SimpleName VariableDeclarationFragment MethodInvocation StringLiteral gremlingroovy
+script engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName engine
+engine SimpleName MethodInvocation SimpleName create bindings
+bindings SimpleName VariableDeclarationFragment MethodInvocation SimpleName engine
+bindings SimpleName VariableDeclarationFragment MethodInvocation SimpleName create bindings
+bindings SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bindings
+bindings SimpleName MethodInvocation SimpleName put
+bindings SimpleName MethodInvocation StringLiteral g
+bindings SimpleName MethodInvocation SimpleName titan graph
+put SimpleName MethodInvocation StringLiteral g
+put SimpleName MethodInvocation SimpleName titan graph
+g StringLiteral MethodInvocation SimpleName titan graph
+file utils SimpleName MethodInvocation SimpleName get temp directory
+file utils SimpleName MethodInvocation MethodInvocation SimpleName get path
+get temp directory SimpleName MethodInvocation MethodInvocation SimpleName get path
+system SimpleName MethodInvocation SimpleName nano time
+file utils SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName fileseparator
+get temp directory SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName fileseparator
+get path SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+get path SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nano time
+file utils SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral gson
+get temp directory SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral gson
+get path SimpleName MethodInvocation InfixExpression StringLiteral gson
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName system
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName nano time
+fileseparator QualifiedName InfixExpression StringLiteral gson
+system SimpleName MethodInvocation InfixExpression StringLiteral gson
+nano time SimpleName MethodInvocation InfixExpression StringLiteral gson
+hive graph file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get path
+hive graph file SimpleName VariableDeclarationFragment InfixExpression QualifiedName fileseparator
+hive graph file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+hive graph file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName nano time
+hive graph file SimpleName VariableDeclarationFragment InfixExpression StringLiteral gson
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive graph file
+hive graph file = StringLiteral InfixExpression SimpleName hive graph file
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral hive graph file =
+systemout QualifiedName MethodInvocation InfixExpression SimpleName hive graph file
+println SimpleName MethodInvocation InfixExpression StringLiteral hive graph file =
+println SimpleName MethodInvocation InfixExpression SimpleName hive graph file
+hive titan sample SimpleName MethodInvocation SimpleName write gson
+hive titan sample SimpleName MethodInvocation SimpleName hive graph file
+write gson SimpleName MethodInvocation SimpleName hive graph file
+bindings SimpleName MethodInvocation SimpleName put
+bindings SimpleName MethodInvocation StringLiteral hive graph file
+bindings SimpleName MethodInvocation SimpleName hive graph file
+put SimpleName MethodInvocation StringLiteral hive graph file
+put SimpleName MethodInvocation SimpleName hive graph file
+hive graph file StringLiteral MethodInvocation SimpleName hive graph file
+engine SimpleName MethodInvocation SimpleName eval
+engine SimpleName MethodInvocation StringLiteral gload graph sonhive graph file
+engine SimpleName MethodInvocation SimpleName bindings
+eval SimpleName MethodInvocation StringLiteral gload graph sonhive graph file
+eval SimpleName MethodInvocation SimpleName bindings
+gload graph sonhive graph file StringLiteral MethodInvocation SimpleName bindings
+titan graph SimpleName MethodInvocation SimpleName commit
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral graph dump
+println SimpleName MethodInvocation StringLiteral graph dump
+vertex SimpleName SimpleType SingleVariableDeclaration SimpleName vertex
+titan graph SimpleName MethodInvocation SimpleName get vertices
+graph helper SimpleName MethodInvocation SimpleName vertex string
+graph helper SimpleName MethodInvocation SimpleName vertex
+vertex string SimpleName MethodInvocation SimpleName vertex
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName graph helper
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName vertex string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName vertex
+println SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+println SimpleName MethodInvocation MethodInvocation SimpleName vertex string
+println SimpleName MethodInvocation MethodInvocation SimpleName vertex
+vertex SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName titan graph
+vertex SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get vertices
+edge SimpleName SimpleType SingleVariableDeclaration SimpleName edge
+titan graph SimpleName MethodInvocation SimpleName get edges
+graph helper SimpleName MethodInvocation SimpleName edge string
+graph helper SimpleName MethodInvocation SimpleName edge
+edge string SimpleName MethodInvocation SimpleName edge
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName graph helper
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName edge string
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName edge
+println SimpleName MethodInvocation MethodInvocation SimpleName graph helper
+println SimpleName MethodInvocation MethodInvocation SimpleName edge string
+println SimpleName MethodInvocation MethodInvocation SimpleName edge
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName titan graph
+edge SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get edges
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral graph dump
+println SimpleName MethodInvocation StringLiteral graph dump
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup sample data
+private Modifier MethodDeclaration SimpleType SimpleName script exception
+void PrimitiveType MethodDeclaration SimpleName setup sample data
+void PrimitiveType MethodDeclaration SimpleType SimpleName script exception
+setup sample data SimpleName MethodDeclaration SimpleType SimpleName script exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup sample data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName script exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup sample data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName script exception

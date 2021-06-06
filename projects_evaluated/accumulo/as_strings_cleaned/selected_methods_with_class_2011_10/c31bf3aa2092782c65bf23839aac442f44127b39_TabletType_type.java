@@ -1,0 +1,57 @@
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName key extent
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extents
+key extent SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName extents
+extents SimpleName MethodInvocation SimpleName size
+extents SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tablet type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ttype
+key extent SimpleName SimpleType SingleVariableDeclaration SimpleName extent
+type SimpleName MethodInvocation SimpleName extent
+ttype SimpleName Assignment MethodInvocation SimpleName type
+ttype SimpleName Assignment MethodInvocation SimpleName extent
+type SimpleName MethodInvocation SimpleName extent
+ttype SimpleName InfixExpression MethodInvocation SimpleName type
+ttype SimpleName InfixExpression MethodInvocation SimpleName extent
+type SimpleName MethodInvocation SimpleName extent
+multiple extent types not allowed StringLiteral InfixExpression SimpleName ttype
+multiple extent types not allowed StringLiteral InfixExpression StringLiteral empty
+multiple extent types not allowed StringLiteral InfixExpression MethodInvocation SimpleName type
+multiple extent types not allowed StringLiteral InfixExpression MethodInvocation SimpleName extent
+ttype SimpleName InfixExpression StringLiteral empty
+ttype SimpleName InfixExpression MethodInvocation SimpleName type
+ttype SimpleName InfixExpression MethodInvocation SimpleName extent
+empty StringLiteral InfixExpression MethodInvocation SimpleName type
+empty StringLiteral InfixExpression MethodInvocation SimpleName extent
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple extent types not allowed
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName ttype
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+key extent SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName extents
+extent SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName extents
+extents SimpleName EnhancedForStatement Block ReturnStatement SimpleName ttype
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName tablet type
+public Modifier MethodDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName extents
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName extents
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ttype
+static Modifier MethodDeclaration SimpleType SimpleName tablet type
+static Modifier MethodDeclaration SimpleName type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName extents
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName extents
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ttype
+tablet type SimpleName SimpleType MethodDeclaration SimpleName type
+tablet type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName extents
+type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName extents
+type SimpleName MethodDeclaration Block EnhancedForStatement SimpleName extents
+type SimpleName MethodDeclaration Block ReturnStatement SimpleName ttype
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tablet type
+public Modifier TypeDeclaration MethodDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extents
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tablet type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName extents

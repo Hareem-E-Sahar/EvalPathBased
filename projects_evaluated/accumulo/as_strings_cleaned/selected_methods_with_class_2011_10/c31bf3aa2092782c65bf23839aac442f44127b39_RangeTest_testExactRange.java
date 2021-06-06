@@ -1,0 +1,500 @@
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation StringLiteral abc
+exact SimpleName MethodInvocation StringLiteral abc
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName range
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName exact
+r SimpleName VariableDeclarationFragment MethodInvocation StringLiteral abc
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abcd
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abcd
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abcd
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abcd
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abb
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abb
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abb
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abb
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abd
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abd
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abd
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abd
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation StringLiteral abc
+range SimpleName MethodInvocation StringLiteral def
+exact SimpleName MethodInvocation StringLiteral abc
+exact SimpleName MethodInvocation StringLiteral def
+abc StringLiteral MethodInvocation StringLiteral def
+r SimpleName Assignment MethodInvocation SimpleName range
+r SimpleName Assignment MethodInvocation SimpleName exact
+r SimpleName Assignment MethodInvocation StringLiteral abc
+r SimpleName Assignment MethodInvocation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral defg
+abc StringLiteral ClassInstanceCreation StringLiteral defg
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral defg
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral defg
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral defg
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral dee
+abc StringLiteral ClassInstanceCreation StringLiteral dee
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral dee
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral dee
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral dee
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral deg
+abc StringLiteral ClassInstanceCreation StringLiteral deg
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral deg
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral deg
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral deg
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation StringLiteral abc
+range SimpleName MethodInvocation StringLiteral def
+range SimpleName MethodInvocation StringLiteral ghi
+exact SimpleName MethodInvocation StringLiteral abc
+exact SimpleName MethodInvocation StringLiteral def
+exact SimpleName MethodInvocation StringLiteral ghi
+abc StringLiteral MethodInvocation StringLiteral def
+abc StringLiteral MethodInvocation StringLiteral ghi
+def StringLiteral MethodInvocation StringLiteral ghi
+r SimpleName Assignment MethodInvocation SimpleName range
+r SimpleName Assignment MethodInvocation SimpleName exact
+r SimpleName Assignment MethodInvocation StringLiteral abc
+r SimpleName Assignment MethodInvocation StringLiteral def
+r SimpleName Assignment MethodInvocation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jk
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jk
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jk
+ghi StringLiteral ClassInstanceCreation StringLiteral jk
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghij
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghij
+def StringLiteral ClassInstanceCreation StringLiteral ghij
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghij
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghij
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghij
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghh
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghh
+def StringLiteral ClassInstanceCreation StringLiteral ghh
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghh
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghh
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghh
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghj
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghj
+def StringLiteral ClassInstanceCreation StringLiteral ghj
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghj
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghj
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghj
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation StringLiteral abc
+range SimpleName MethodInvocation StringLiteral def
+range SimpleName MethodInvocation StringLiteral ghi
+range SimpleName MethodInvocation StringLiteral jk
+exact SimpleName MethodInvocation StringLiteral abc
+exact SimpleName MethodInvocation StringLiteral def
+exact SimpleName MethodInvocation StringLiteral ghi
+exact SimpleName MethodInvocation StringLiteral jk
+abc StringLiteral MethodInvocation StringLiteral def
+abc StringLiteral MethodInvocation StringLiteral ghi
+abc StringLiteral MethodInvocation StringLiteral jk
+def StringLiteral MethodInvocation StringLiteral ghi
+def StringLiteral MethodInvocation StringLiteral jk
+ghi StringLiteral MethodInvocation StringLiteral jk
+r SimpleName Assignment MethodInvocation SimpleName range
+r SimpleName Assignment MethodInvocation SimpleName exact
+r SimpleName Assignment MethodInvocation StringLiteral abc
+r SimpleName Assignment MethodInvocation StringLiteral def
+r SimpleName Assignment MethodInvocation StringLiteral ghi
+r SimpleName Assignment MethodInvocation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jk
+abc StringLiteral ClassInstanceCreation NumberLiteral l
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jk
+def StringLiteral ClassInstanceCreation NumberLiteral l
+ghi StringLiteral ClassInstanceCreation StringLiteral jk
+ghi StringLiteral ClassInstanceCreation NumberLiteral l
+jk StringLiteral ClassInstanceCreation NumberLiteral l
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+r SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+contains SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jk
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jkl
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jkl
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jkl
+ghi StringLiteral ClassInstanceCreation StringLiteral jkl
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jkl
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jkl
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jkl
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jj
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jj
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jj
+ghi StringLiteral ClassInstanceCreation StringLiteral jj
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jj
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jj
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jj
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jl
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jl
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jl
+ghi StringLiteral ClassInstanceCreation StringLiteral jl
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jl
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jl
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jl
+range SimpleName MethodInvocation SimpleName exact
+range SimpleName MethodInvocation StringLiteral abc
+range SimpleName MethodInvocation StringLiteral def
+range SimpleName MethodInvocation StringLiteral ghi
+range SimpleName MethodInvocation StringLiteral jk
+exact SimpleName MethodInvocation StringLiteral abc
+exact SimpleName MethodInvocation StringLiteral def
+exact SimpleName MethodInvocation StringLiteral ghi
+exact SimpleName MethodInvocation StringLiteral jk
+exact SimpleName MethodInvocation NumberLiteral l
+abc StringLiteral MethodInvocation StringLiteral def
+abc StringLiteral MethodInvocation StringLiteral ghi
+abc StringLiteral MethodInvocation StringLiteral jk
+abc StringLiteral MethodInvocation NumberLiteral l
+def StringLiteral MethodInvocation StringLiteral ghi
+def StringLiteral MethodInvocation StringLiteral jk
+def StringLiteral MethodInvocation NumberLiteral l
+ghi StringLiteral MethodInvocation StringLiteral jk
+ghi StringLiteral MethodInvocation NumberLiteral l
+jk StringLiteral MethodInvocation NumberLiteral l
+r SimpleName Assignment MethodInvocation SimpleName range
+r SimpleName Assignment MethodInvocation SimpleName exact
+r SimpleName Assignment MethodInvocation StringLiteral abc
+r SimpleName Assignment MethodInvocation StringLiteral def
+r SimpleName Assignment MethodInvocation StringLiteral ghi
+r SimpleName Assignment MethodInvocation StringLiteral jk
+r SimpleName Assignment MethodInvocation NumberLiteral l
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jk
+abc StringLiteral ClassInstanceCreation NumberLiteral l
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jk
+def StringLiteral ClassInstanceCreation NumberLiteral l
+ghi StringLiteral ClassInstanceCreation StringLiteral jk
+ghi StringLiteral ClassInstanceCreation NumberLiteral l
+jk StringLiteral ClassInstanceCreation NumberLiteral l
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+r SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+contains SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+assert true SimpleName MethodInvocation MethodInvocation SimpleName r
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jk
+assert true SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jk
+abc StringLiteral ClassInstanceCreation NumberLiteral l
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jk
+def StringLiteral ClassInstanceCreation NumberLiteral l
+ghi StringLiteral ClassInstanceCreation StringLiteral jk
+ghi StringLiteral ClassInstanceCreation NumberLiteral l
+jk StringLiteral ClassInstanceCreation NumberLiteral l
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+r SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+contains SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jk
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l
+key SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+key SimpleName SimpleType ClassInstanceCreation StringLiteral def
+key SimpleName SimpleType ClassInstanceCreation StringLiteral ghi
+key SimpleName SimpleType ClassInstanceCreation StringLiteral jk
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+abc StringLiteral ClassInstanceCreation StringLiteral def
+abc StringLiteral ClassInstanceCreation StringLiteral ghi
+abc StringLiteral ClassInstanceCreation StringLiteral jk
+abc StringLiteral ClassInstanceCreation NumberLiteral l
+def StringLiteral ClassInstanceCreation StringLiteral ghi
+def StringLiteral ClassInstanceCreation StringLiteral jk
+def StringLiteral ClassInstanceCreation NumberLiteral l
+ghi StringLiteral ClassInstanceCreation StringLiteral jk
+ghi StringLiteral ClassInstanceCreation NumberLiteral l
+jk StringLiteral ClassInstanceCreation NumberLiteral l
+r SimpleName MethodInvocation SimpleName contains
+r SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+r SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+r SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+contains SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral def
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral ghi
+contains SimpleName MethodInvocation ClassInstanceCreation StringLiteral jk
+contains SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+assert false SimpleName MethodInvocation MethodInvocation SimpleName r
+assert false SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral abc
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral def
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral ghi
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral jk
+assert false SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral l

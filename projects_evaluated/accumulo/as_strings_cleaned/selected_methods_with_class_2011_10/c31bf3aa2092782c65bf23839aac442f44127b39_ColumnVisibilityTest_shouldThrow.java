@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName strings
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName get bytes
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName s
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+should throw StringLiteral InfixExpression SimpleName s
+fail SimpleName MethodInvocation InfixExpression StringLiteral should throw
+fail SimpleName MethodInvocation InfixExpression SimpleName s
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName strings
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName strings
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName should throw
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName strings
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName strings
+void PrimitiveType MethodDeclaration SimpleName should throw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName strings
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName strings
+should throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+should throw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName strings
+should throw SimpleName MethodDeclaration Block EnhancedForStatement SimpleName strings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName should throw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strings
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName should throw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strings

@@ -1,0 +1,41 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName strings
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+sb SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName length
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName s
+append SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName strings
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName strings
+visible for testing SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName safe append
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName sb
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName strings
+void PrimitiveType MethodDeclaration SimpleName safe append
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName strings
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName strings
+safe append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+safe append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+safe append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+safe append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName strings
+safe append SimpleName MethodDeclaration Block EnhancedForStatement SimpleName strings
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strings
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName safe append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strings
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName safe append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName strings

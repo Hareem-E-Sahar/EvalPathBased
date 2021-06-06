@@ -1,0 +1,39 @@
+instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+argument checker SimpleName MethodInvocation SimpleName not null
+argument checker SimpleName MethodInvocation SimpleName instance
+not null SimpleName MethodInvocation SimpleName instance
+get connection SimpleName MethodInvocation SimpleName instance
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+master client serviceiface QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName InfixExpression IfStatement ReturnStatement SimpleName result
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType QualifiedName master client serviceiface
+public Modifier MethodDeclaration SimpleName get connection with retry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+public Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+static Modifier MethodDeclaration SimpleType QualifiedName master client serviceiface
+static Modifier MethodDeclaration SimpleName get connection with retry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance
+static Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+master client serviceiface QualifiedName SimpleType MethodDeclaration SimpleName get connection with retry
+master client serviceiface QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance
+get connection with retry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance
+get connection with retry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance
+get connection with retry SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceiface
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection with retry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName master client serviceiface
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection with retry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance

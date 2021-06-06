@@ -1,0 +1,19 @@
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName login
+login SimpleName FieldAccess Assignment SimpleName login
+public Modifier MethodDeclaration SimpleType SimpleName create writer args
+public Modifier MethodDeclaration SimpleName set login
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName login
+create writer args SimpleName SimpleType MethodDeclaration SimpleName set login
+create writer args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName login
+set login SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+set login SimpleName MethodDeclaration SingleVariableDeclaration SimpleName login
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set login
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set login
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName login

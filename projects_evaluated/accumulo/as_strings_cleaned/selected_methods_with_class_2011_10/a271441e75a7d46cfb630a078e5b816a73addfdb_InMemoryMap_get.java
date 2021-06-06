@@ -1,0 +1,21 @@
+key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+native map SimpleName MethodInvocation SimpleName get
+native map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+value SimpleName SimpleType MethodDeclaration SimpleName get
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+string utils SimpleName MethodInvocation SimpleName starts with
+string utils SimpleName MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation SimpleName atlas type map prefix
+starts with SimpleName MethodInvocation SimpleName type name
+starts with SimpleName MethodInvocation SimpleName atlas type map prefix
+type name SimpleName MethodInvocation SimpleName atlas type map prefix
+string utils SimpleName MethodInvocation SimpleName ends with
+string utils SimpleName MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation SimpleName atlas type map suffix
+ends with SimpleName MethodInvocation SimpleName type name
+ends with SimpleName MethodInvocation SimpleName atlas type map suffix
+type name SimpleName MethodInvocation SimpleName atlas type map suffix
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+string utils SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type map suffix
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type map suffix
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+type name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type map suffix
+atlas type map prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string utils
+atlas type map prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ends with
+atlas type map prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName type name
+atlas type map prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type map suffix
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is map type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is map type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+boolean PrimitiveType MethodDeclaration SimpleName is map type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type name
+is map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is map type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is map type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is map type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

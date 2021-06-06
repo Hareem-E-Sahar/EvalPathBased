@@ -1,0 +1,78 @@
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+entity SimpleName MethodInvocation SimpleName get type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation MethodInvocation SimpleName entity
+type registry SimpleName MethodInvocation MethodInvocation SimpleName get type name
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName entity
+get entity type by name SimpleName MethodInvocation MethodInvocation SimpleName get type name
+type registry SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName type registry
+type registry SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get entity type by name
+entity type SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName type registry
+entity type SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName type registry
+entity type SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get entity type by name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity type
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas attribute
+entity type SimpleName MethodInvocation SimpleName get uniq attributes
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity type
+entity type SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get uniq attributes
+uniq attributes SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName entity type
+uniq attributes SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity type
+uniq attributes SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get uniq attributes
+map utils SimpleName MethodInvocation SimpleName is empty
+map utils SimpleName MethodInvocation SimpleName uniq attributes
+is empty SimpleName MethodInvocation SimpleName uniq attributes
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation SimpleName default entity id attribute
+get attribute SimpleName MethodInvocation SimpleName default entity id attribute
+ret SimpleName Assignment MethodInvocation SimpleName entity
+ret SimpleName Assignment MethodInvocation SimpleName get attribute
+ret SimpleName Assignment MethodInvocation SimpleName default entity id attribute
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName uniq attribute
+uniq attributes SimpleName MethodInvocation SimpleName values
+uniq attribute SimpleName MethodInvocation SimpleName get name
+entity SimpleName MethodInvocation SimpleName get attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName uniq attribute
+entity SimpleName MethodInvocation MethodInvocation SimpleName get name
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName uniq attribute
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+ret SimpleName Assignment MethodInvocation SimpleName entity
+ret SimpleName Assignment MethodInvocation SimpleName get attribute
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName uniq attribute
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName get name
+uniq attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName uniq attributes
+uniq attribute SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+ret SimpleName MethodInvocation SimpleName to string
+ret SimpleName InfixExpression ConditionalExpression StringLiteral empty
+ret SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName ret
+ret SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to string
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName ret
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get entity id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+string SimpleName SimpleType MethodDeclaration SimpleName get entity id
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+get entity id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+get entity id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+get entity id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+get entity id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry

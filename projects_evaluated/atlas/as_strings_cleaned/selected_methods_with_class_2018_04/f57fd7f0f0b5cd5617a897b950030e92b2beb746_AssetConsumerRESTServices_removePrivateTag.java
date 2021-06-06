@@ -1,0 +1,128 @@
+method SimpleName MemberValuePair QualifiedName request methodpatch
+path SimpleName MemberValuePair StringLiteral user idtagsprivateguiddelete
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpatch
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idtagsprivateguiddelete
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtagsprivateguiddelete
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtagsprivateguiddelete
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName guid
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+method name SimpleName VariableDeclarationFragment StringLiteral remove private tag
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral remove private tag
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral remove private tag
+log SimpleName MethodInvocation SimpleName is debug enabled
+calling method StringLiteral InfixExpression SimpleName method name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral calling method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral calling method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName void response
+void response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate initialization SimpleName MethodInvocation SimpleName method name
+feedback handler SimpleName SimpleType ClassInstanceCreation SimpleName access service name
+feedback handler SimpleName SimpleType ClassInstanceCreation SimpleName repository connector
+access service name SimpleName ClassInstanceCreation SimpleName repository connector
+feedback handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName feedback handler
+feedback handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName access service name
+feedback handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName repository connector
+feedback handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName feedback handler
+feedback handler SimpleName MethodInvocation SimpleName remove private tag from asset
+feedback handler SimpleName MethodInvocation SimpleName user id
+feedback handler SimpleName MethodInvocation SimpleName guid
+remove private tag from asset SimpleName MethodInvocation SimpleName user id
+remove private tag from asset SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation SimpleName guid
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+property server exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture property server exception SimpleName MethodInvocation SimpleName response
+capture property server exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation SimpleName is debug enabled
+response SimpleName MethodInvocation SimpleName to string
+returning from method StringLiteral InfixExpression SimpleName method name
+returning from method StringLiteral InfixExpression StringLiteral with response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName response
+returning from method StringLiteral InfixExpression MethodInvocation SimpleName to string
+method name SimpleName InfixExpression StringLiteral with response
+method name SimpleName InfixExpression MethodInvocation SimpleName response
+method name SimpleName InfixExpression MethodInvocation SimpleName to string
+with response StringLiteral InfixExpression MethodInvocation SimpleName response
+with response StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+log SimpleName MethodInvocation InfixExpression SimpleName method name
+log SimpleName MethodInvocation InfixExpression StringLiteral with response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral returning from method
+debug SimpleName MethodInvocation InfixExpression SimpleName method name
+debug SimpleName MethodInvocation InfixExpression StringLiteral with response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName response
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idtagsprivateguiddelete StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName void response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName remove private tag
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName remove private tag
+request methodpatch QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName remove private tag
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName remove private tag
+user idtagsprivateguiddelete StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName remove private tag
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName void response
+public Modifier MethodDeclaration SimpleName remove private tag
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+void response SimpleName SimpleType MethodDeclaration SimpleName remove private tag
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove private tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+remove private tag SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+remove private tag SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove private tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName void response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove private tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid

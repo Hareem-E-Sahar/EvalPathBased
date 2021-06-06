@@ -1,0 +1,177 @@
+mock instance SimpleName SimpleType ClassInstanceCreation StringLiteral topstest
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+instance SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral topstest
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral root
+user pass token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+root StringLiteral ClassInstanceCreation StringLiteral empty
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName user pass token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral root
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral root
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+t SimpleName VariableDeclarationFragment StringLiteral table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral table name
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName attach iterator
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+attach iterator SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+conn SimpleName MethodInvocation MethodInvocation SimpleName check iterator conflicts
+table operations SimpleName MethodInvocation MethodInvocation SimpleName check iterator conflicts
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+conn SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all of
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all of
+check iterator conflicts SimpleName MethodInvocation SimpleName t
+check iterator conflicts SimpleName MethodInvocation MethodInvocation SimpleName enum set
+check iterator conflicts SimpleName MethodInvocation MethodInvocation SimpleName all of
+t SimpleName MethodInvocation MethodInvocation SimpleName enum set
+t SimpleName MethodInvocation MethodInvocation SimpleName all of
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+delete SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get iterator setting
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get iterator setting
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+get iterator setting SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get properties
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get properties
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+get properties SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName get splits
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get splits
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+get splits SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName list iterators
+table operations SimpleName MethodInvocation MethodInvocation SimpleName list iterators
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+list iterators SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName remove iterator
+table operations SimpleName MethodInvocation MethodInvocation SimpleName remove iterator
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+remove iterator SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+rename SimpleName MethodInvocation SimpleName t
+rename SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+create SimpleName MethodInvocation SimpleName t
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+create SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+conn SimpleName MethodInvocation SimpleName table operations
+conn SimpleName MethodInvocation MethodInvocation SimpleName rename
+table operations SimpleName MethodInvocation MethodInvocation SimpleName rename
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+conn SimpleName MethodInvocation MethodInvocation SimpleName t
+table operations SimpleName MethodInvocation MethodInvocation SimpleName t
+rename SimpleName MethodInvocation SimpleName t
+rename SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation SimpleName fail
+table exists exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test table not found
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test table not found
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleName test table not found
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+test table not found SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+test table not found SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+test table not found SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+test table not found SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test table not found
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test table not found
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception

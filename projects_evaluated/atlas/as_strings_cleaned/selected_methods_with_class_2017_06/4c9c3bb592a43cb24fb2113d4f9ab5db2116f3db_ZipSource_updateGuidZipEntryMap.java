@@ -1,0 +1,90 @@
+zip input stream SimpleName SimpleType ClassInstanceCreation SimpleName input stream
+zip input stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName zip input stream
+zip input stream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName input stream
+zip input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zip input stream
+zip input stream SimpleName MethodInvocation SimpleName get next entry
+zip entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName zip input stream
+zip entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next entry
+zip entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zip entry
+zip entry SimpleName MethodInvocation SimpleName get name
+zip entry SimpleName MethodInvocation MethodInvocation SimpleName replace
+get name SimpleName MethodInvocation MethodInvocation SimpleName replace
+zip entry SimpleName MethodInvocation MethodInvocation StringLiteral json
+get name SimpleName MethodInvocation MethodInvocation StringLiteral json
+zip entry SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get name SimpleName MethodInvocation MethodInvocation StringLiteral empty
+replace SimpleName MethodInvocation StringLiteral json
+replace SimpleName MethodInvocation StringLiteral empty
+json StringLiteral MethodInvocation StringLiteral empty
+entry name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zip entry
+entry name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get name
+entry name SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+entry name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral json
+entry name SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry name
+guid entity json map SimpleName MethodInvocation SimpleName contains key
+guid entity json map SimpleName MethodInvocation SimpleName entry name
+contains key SimpleName MethodInvocation SimpleName entry name
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+n SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+bos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bos
+zip input stream SimpleName MethodInvocation SimpleName read
+zip input stream SimpleName MethodInvocation SimpleName buf
+zip input stream SimpleName MethodInvocation NumberLiteral empty
+zip input stream SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+n SimpleName Assignment MethodInvocation SimpleName zip input stream
+n SimpleName Assignment MethodInvocation SimpleName read
+n SimpleName Assignment MethodInvocation SimpleName buf
+n SimpleName Assignment MethodInvocation NumberLiteral empty
+n SimpleName Assignment MethodInvocation NumberLiteral empty
+bos SimpleName MethodInvocation SimpleName write
+bos SimpleName MethodInvocation SimpleName buf
+bos SimpleName MethodInvocation NumberLiteral empty
+bos SimpleName MethodInvocation SimpleName n
+write SimpleName MethodInvocation SimpleName buf
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation SimpleName n
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName n
+empty NumberLiteral MethodInvocation SimpleName n
+bos SimpleName MethodInvocation SimpleName to string
+guid entity json map SimpleName MethodInvocation SimpleName put
+guid entity json map SimpleName MethodInvocation SimpleName entry name
+guid entity json map SimpleName MethodInvocation MethodInvocation SimpleName bos
+guid entity json map SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation SimpleName entry name
+put SimpleName MethodInvocation MethodInvocation SimpleName bos
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry name SimpleName MethodInvocation MethodInvocation SimpleName bos
+entry name SimpleName MethodInvocation MethodInvocation SimpleName to string
+zip input stream SimpleName MethodInvocation SimpleName get next entry
+zip entry SimpleName Assignment MethodInvocation SimpleName zip input stream
+zip entry SimpleName Assignment MethodInvocation SimpleName get next entry
+zip input stream SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update guid zip entry map
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName update guid zip entry map
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+update guid zip entry map SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update guid zip entry map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update guid zip entry map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

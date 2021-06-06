@@ -1,0 +1,59 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InfixExpression IfStatement ReturnStatement StringLiteral -
+remote span SimpleName SimpleType CastExpression SimpleName obj
+span SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName remote span
+span SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+remote span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName spantrace id
+to hex string SimpleName MethodInvocation QualifiedName spantrace id
+date SimpleName SimpleType ClassInstanceCreation QualifiedName spanstart
+trace formatter SimpleName MethodInvocation SimpleName format date
+trace formatter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+trace formatter SimpleName MethodInvocation ClassInstanceCreation QualifiedName spanstart
+format date SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format date SimpleName MethodInvocation ClassInstanceCreation QualifiedName spanstart
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral a hreftraceshowidssa
+string SimpleName MethodInvocation MethodInvocation SimpleName long
+string SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+string SimpleName MethodInvocation MethodInvocation QualifiedName spantrace id
+string SimpleName MethodInvocation MethodInvocation SimpleName trace formatter
+string SimpleName MethodInvocation MethodInvocation SimpleName format date
+string SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName spanstart
+format SimpleName MethodInvocation StringLiteral a hreftraceshowidssa
+format SimpleName MethodInvocation MethodInvocation SimpleName long
+format SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+format SimpleName MethodInvocation MethodInvocation QualifiedName spantrace id
+format SimpleName MethodInvocation MethodInvocation SimpleName trace formatter
+format SimpleName MethodInvocation MethodInvocation SimpleName format date
+format SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName spanstart
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation SimpleName long
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation SimpleName to hex string
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation QualifiedName spantrace id
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation SimpleName trace formatter
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation SimpleName format date
+a hreftraceshowidssa StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName spanstart
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trace formatter
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName trace formatter
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName format date
+spantrace id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName trace formatter
+spantrace id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName format date
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType MethodDeclaration SimpleName format
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName obj
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+format SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

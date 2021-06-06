@@ -1,0 +1,95 @@
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zk SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoo reader writer
+zk SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+zoo reader writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zk
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+instances path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+instances path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszinstances
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instances path
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName uuid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zk SimpleName MethodInvocation SimpleName get children
+zk SimpleName MethodInvocation SimpleName instances path
+get children SimpleName MethodInvocation SimpleName instances path
+names SimpleName Assignment MethodInvocation SimpleName zk
+names SimpleName Assignment MethodInvocation SimpleName get children
+names SimpleName Assignment MethodInvocation SimpleName instances path
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle exception SimpleName MethodInvocation SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+constantszroot QualifiedName InfixExpression QualifiedName constantszinstances
+constantszroot QualifiedName InfixExpression StringLiteral /
+constantszroot QualifiedName InfixExpression SimpleName name
+constantszinstances QualifiedName InfixExpression StringLiteral /
+constantszinstances QualifiedName InfixExpression SimpleName name
+/ StringLiteral InfixExpression SimpleName name
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszroot
+instance name path SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszinstances
+instance name path SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+instance name path SimpleName VariableDeclarationFragment InfixExpression SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance name path
+zk SimpleName MethodInvocation SimpleName get data
+zk SimpleName MethodInvocation SimpleName instance name path
+get data SimpleName MethodInvocation SimpleName instance name path
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName zk
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance name path
+uuid SimpleName MethodInvocation SimpleName from string
+uuid SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zk
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data
+uuid SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name path
+from string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName zk
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data
+from string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance name path
+iid SimpleName VariableDeclarationFragment MethodInvocation SimpleName uuid
+iid SimpleName VariableDeclarationFragment MethodInvocation SimpleName from string
+uuid SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iid
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation SimpleName name
+tm SimpleName MethodInvocation SimpleName iid
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName iid
+name SimpleName MethodInvocation SimpleName iid
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle exception SimpleName MethodInvocation SimpleName e
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName names
+name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName names
+names SimpleName EnhancedForStatement Block ReturnStatement SimpleName tm
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName uuid
+private Modifier MethodDeclaration SimpleName get instance names
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName names
+private Modifier MethodDeclaration Block ReturnStatement SimpleName tm
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName uuid
+static Modifier MethodDeclaration SimpleName get instance names
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName names
+static Modifier MethodDeclaration Block ReturnStatement SimpleName tm
+tree map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get instance names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get instance names
+uuid SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get instance names
+get instance names SimpleName MethodDeclaration Block EnhancedForStatement SimpleName names
+get instance names SimpleName MethodDeclaration Block ReturnStatement SimpleName tm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance names
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance names

@@ -1,0 +1,18 @@
+writer SimpleName MethodInvocation SimpleName flush
+mutations rejected exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral error flushing traces
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral error flushing traces
+error SimpleName MethodInvocation SimpleName e
+error flushing traces StringLiteral MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName flush
+void PrimitiveType MethodDeclaration SimpleName flush
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName flush
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName flush

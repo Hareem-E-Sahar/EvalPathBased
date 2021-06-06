@@ -1,0 +1,271 @@
+storage descriptor SimpleName SimpleType SingleVariableDeclaration SimpleName storage desc
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName sd qualified name
+atlas object id SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+hive data typeshive storagedesc QualifiedName MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive storagedesc
+atlas entity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive storagedesc
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute table
+ret SimpleName MethodInvocation SimpleName table id
+set attribute SimpleName MethodInvocation SimpleName attribute table
+set attribute SimpleName MethodInvocation SimpleName table id
+attribute table SimpleName MethodInvocation SimpleName table id
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute qualified name
+ret SimpleName MethodInvocation SimpleName sd qualified name
+set attribute SimpleName MethodInvocation SimpleName attribute qualified name
+set attribute SimpleName MethodInvocation SimpleName sd qualified name
+attribute qualified name SimpleName MethodInvocation SimpleName sd qualified name
+storage desc SimpleName MethodInvocation SimpleName get parameters
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute parameters
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set attribute SimpleName MethodInvocation SimpleName attribute parameters
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+attribute parameters SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute parameters SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+storage desc SimpleName MethodInvocation SimpleName get location
+hdfs name service resolver SimpleName MethodInvocation SimpleName get path with name service id
+hdfs name service resolver SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+hdfs name service resolver SimpleName MethodInvocation MethodInvocation SimpleName get location
+get path with name service id SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+get path with name service id SimpleName MethodInvocation MethodInvocation SimpleName get location
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute location
+ret SimpleName MethodInvocation MethodInvocation SimpleName hdfs name service resolver
+ret SimpleName MethodInvocation MethodInvocation SimpleName get path with name service id
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get location
+set attribute SimpleName MethodInvocation SimpleName attribute location
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName hdfs name service resolver
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get path with name service id
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get location
+attribute location SimpleName MethodInvocation MethodInvocation SimpleName hdfs name service resolver
+attribute location SimpleName MethodInvocation MethodInvocation SimpleName get path with name service id
+attribute location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName storage desc
+attribute location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get location
+storage desc SimpleName MethodInvocation SimpleName get input format
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute input format
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get input format
+set attribute SimpleName MethodInvocation SimpleName attribute input format
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get input format
+attribute input format SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute input format SimpleName MethodInvocation MethodInvocation SimpleName get input format
+storage desc SimpleName MethodInvocation SimpleName get output format
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute output format
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get output format
+set attribute SimpleName MethodInvocation SimpleName attribute output format
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get output format
+attribute output format SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute output format SimpleName MethodInvocation MethodInvocation SimpleName get output format
+storage desc SimpleName MethodInvocation SimpleName is compressed
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute compressed
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName is compressed
+set attribute SimpleName MethodInvocation SimpleName attribute compressed
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName is compressed
+attribute compressed SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute compressed SimpleName MethodInvocation MethodInvocation SimpleName is compressed
+storage desc SimpleName MethodInvocation SimpleName get num buckets
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute num buckets
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get num buckets
+set attribute SimpleName MethodInvocation SimpleName attribute num buckets
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get num buckets
+attribute num buckets SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute num buckets SimpleName MethodInvocation MethodInvocation SimpleName get num buckets
+storage desc SimpleName MethodInvocation SimpleName is stored as sub directories
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute stored as sub directories
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName is stored as sub directories
+set attribute SimpleName MethodInvocation SimpleName attribute stored as sub directories
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName is stored as sub directories
+attribute stored as sub directories SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute stored as sub directories SimpleName MethodInvocation MethodInvocation SimpleName is stored as sub directories
+storage desc SimpleName MethodInvocation SimpleName get bucket cols
+storage desc SimpleName MethodInvocation MethodInvocation SimpleName size
+get bucket cols SimpleName MethodInvocation MethodInvocation SimpleName size
+storage desc SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get bucket cols SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+storage desc SimpleName MethodInvocation SimpleName get bucket cols
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute bucket cols
+ret SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get bucket cols
+set attribute SimpleName MethodInvocation SimpleName attribute bucket cols
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get bucket cols
+attribute bucket cols SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+attribute bucket cols SimpleName MethodInvocation MethodInvocation SimpleName get bucket cols
+storage desc SimpleName MethodInvocation SimpleName get serde info
+storage desc SimpleName MethodInvocation SimpleName get serde info
+serde info SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage desc
+serde info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get serde info
+ser de info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral serde info = {}
+log SimpleName MethodInvocation SimpleName serde info
+debug SimpleName MethodInvocation StringLiteral serde info = {}
+debug SimpleName MethodInvocation SimpleName serde info
+serde info = {} StringLiteral MethodInvocation SimpleName serde info
+hive data typeshive serde QualifiedName MethodInvocation SimpleName get name
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive serde
+atlas struct SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+serde info struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+serde info struct SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName hive data typeshive serde
+serde info struct SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get name
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serde info struct
+serde info SimpleName MethodInvocation SimpleName get name
+serde info struct SimpleName MethodInvocation SimpleName set attribute
+serde info struct SimpleName MethodInvocation SimpleName attribute name
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute SimpleName MethodInvocation SimpleName attribute name
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get name
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName serde info
+attribute name SimpleName MethodInvocation MethodInvocation SimpleName get name
+serde info SimpleName MethodInvocation SimpleName get serialization lib
+serde info struct SimpleName MethodInvocation SimpleName set attribute
+serde info struct SimpleName MethodInvocation SimpleName attribute serialization lib
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get serialization lib
+set attribute SimpleName MethodInvocation SimpleName attribute serialization lib
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get serialization lib
+attribute serialization lib SimpleName MethodInvocation MethodInvocation SimpleName serde info
+attribute serialization lib SimpleName MethodInvocation MethodInvocation SimpleName get serialization lib
+serde info SimpleName MethodInvocation SimpleName get parameters
+serde info struct SimpleName MethodInvocation SimpleName set attribute
+serde info struct SimpleName MethodInvocation SimpleName attribute parameters
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName serde info
+serde info struct SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set attribute SimpleName MethodInvocation SimpleName attribute parameters
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName serde info
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+attribute parameters SimpleName MethodInvocation MethodInvocation SimpleName serde info
+attribute parameters SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute serde info
+ret SimpleName MethodInvocation SimpleName serde info struct
+set attribute SimpleName MethodInvocation SimpleName attribute serde info
+set attribute SimpleName MethodInvocation SimpleName serde info struct
+attribute serde info SimpleName MethodInvocation SimpleName serde info struct
+storage desc SimpleName MethodInvocation SimpleName get sort cols
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+collection utils SimpleName MethodInvocation MethodInvocation SimpleName get sort cols
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName storage desc
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get sort cols
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+order SimpleName SimpleType SingleVariableDeclaration SimpleName sortcol
+storage desc SimpleName MethodInvocation SimpleName get sort cols
+hive data typeshive order QualifiedName MethodInvocation SimpleName get name
+hive order name SimpleName VariableDeclarationFragment MethodInvocation QualifiedName hive data typeshive order
+hive order name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hive order name
+atlas struct SimpleName SimpleType ClassInstanceCreation SimpleName hive order name
+col struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas struct
+col struct SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hive order name
+atlas struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName col struct
+sortcol SimpleName MethodInvocation SimpleName get col
+col struct SimpleName MethodInvocation SimpleName set attribute
+col struct SimpleName MethodInvocation StringLiteral col
+col struct SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+col struct SimpleName MethodInvocation MethodInvocation SimpleName get col
+set attribute SimpleName MethodInvocation StringLiteral col
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get col
+col StringLiteral MethodInvocation MethodInvocation SimpleName sortcol
+col StringLiteral MethodInvocation MethodInvocation SimpleName get col
+sortcol SimpleName MethodInvocation SimpleName get order
+col struct SimpleName MethodInvocation SimpleName set attribute
+col struct SimpleName MethodInvocation StringLiteral order
+col struct SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+col struct SimpleName MethodInvocation MethodInvocation SimpleName get order
+set attribute SimpleName MethodInvocation StringLiteral order
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName sortcol
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName get order
+order StringLiteral MethodInvocation MethodInvocation SimpleName sortcol
+order StringLiteral MethodInvocation MethodInvocation SimpleName get order
+sort cols struct SimpleName MethodInvocation SimpleName add
+sort cols struct SimpleName MethodInvocation SimpleName col struct
+add SimpleName MethodInvocation SimpleName col struct
+sortcol SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName storage desc
+sortcol SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get sort cols
+ret SimpleName MethodInvocation SimpleName set attribute
+ret SimpleName MethodInvocation SimpleName attribute sort cols
+ret SimpleName MethodInvocation SimpleName sort cols struct
+set attribute SimpleName MethodInvocation SimpleName attribute sort cols
+set attribute SimpleName MethodInvocation SimpleName sort cols struct
+attribute sort cols SimpleName MethodInvocation SimpleName sort cols struct
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName to stroage desc entity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName to stroage desc entity
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table id
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage descriptor
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas object id
+to stroage desc entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+to stroage desc entity SimpleName MethodDeclaration SimpleType SimpleName atlas hook exception
+storage desc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+storage desc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+storage desc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+storage desc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+table qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+table qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+table qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+sd qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+sd qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName to stroage desc entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to stroage desc entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName storage desc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sd qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas hook exception

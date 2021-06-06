@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName related media reference
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName related media references
+related media reference SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName related media references
+related media references SimpleName FieldAccess Assignment SimpleName related media references
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set related media references
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName related media references
+void PrimitiveType MethodDeclaration SimpleName set related media references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName related media references
+set related media references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName related media references
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set related media references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName related media references
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set related media references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName related media references

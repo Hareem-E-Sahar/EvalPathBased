@@ -1,0 +1,34 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+security constants SimpleName MethodInvocation SimpleName get system credentials
+client SimpleName MethodInvocation SimpleName get closed logs
+client SimpleName MethodInvocation MethodInvocation SimpleName security constants
+client SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+get closed logs SimpleName MethodInvocation MethodInvocation SimpleName security constants
+get closed logs SimpleName MethodInvocation MethodInvocation SimpleName get system credentials
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get closed logs
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get closed logs
+synchronized Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName t exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get closed logs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get closed logs
+get closed logs SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+get closed logs SimpleName MethodDeclaration SimpleType SimpleName t exception
+thrift security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get closed logs
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get closed logs
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

@@ -1,0 +1,171 @@
+cis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName chunk input stream
+chunk input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cis
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+baddata SimpleName MethodInvocation SimpleName iterator
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName baddata
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName iterator
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+assume exception on read SimpleName MethodInvocation SimpleName cis
+assume exception on read SimpleName MethodInvocation SimpleName b
+cis SimpleName MethodInvocation SimpleName b
+assume exception on close SimpleName MethodInvocation SimpleName cis
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral a
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+to string SimpleName MethodInvocation MethodInvocation StringLiteral a
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+assume exception on read SimpleName MethodInvocation SimpleName cis
+assume exception on read SimpleName MethodInvocation SimpleName b
+cis SimpleName MethodInvocation SimpleName b
+assume exception on close SimpleName MethodInvocation SimpleName cis
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral b c
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b c
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b c
+to string SimpleName MethodInvocation MethodInvocation StringLiteral b c
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+assume exception on read SimpleName MethodInvocation SimpleName cis
+assume exception on read SimpleName MethodInvocation SimpleName b
+cis SimpleName MethodInvocation SimpleName b
+assume exception on close SimpleName MethodInvocation SimpleName cis
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral d e
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral d e
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral d e
+to string SimpleName MethodInvocation MethodInvocation StringLiteral d e
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+cis SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+b SimpleName MethodInvocation Assignment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName b
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName read
+b SimpleName ClassInstanceCreation NumberLiteral empty
+b SimpleName ClassInstanceCreation SimpleName read
+empty NumberLiteral ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName b
+assert equals SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+assert equals SimpleName MethodInvocation ClassInstanceCreation SimpleName read
+assert equals SimpleName MethodInvocation StringLiteral asdfjkl
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral asdfjkl
+b SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfjkl
+empty NumberLiteral ClassInstanceCreation MethodInvocation StringLiteral asdfjkl
+read SimpleName ClassInstanceCreation MethodInvocation StringLiteral asdfjkl
+cis SimpleName MethodInvocation SimpleName read
+cis SimpleName MethodInvocation SimpleName b
+read SimpleName MethodInvocation SimpleName b
+read SimpleName Assignment MethodInvocation SimpleName cis
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation Assignment SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName read
+assert equals SimpleName MethodInvocation Assignment MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+read SimpleName Assignment MethodInvocation PrefixExpression NumberLiteral empty
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral f g
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral f g
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral f g
+to string SimpleName MethodInvocation MethodInvocation StringLiteral f g
+cis SimpleName MethodInvocation SimpleName close
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+assume exception on read SimpleName MethodInvocation SimpleName cis
+assume exception on read SimpleName MethodInvocation SimpleName b
+cis SimpleName MethodInvocation SimpleName b
+cis SimpleName MethodInvocation SimpleName close
+cis SimpleName MethodInvocation SimpleName get visibilities
+cis SimpleName MethodInvocation MethodInvocation SimpleName to string
+get visibilities SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cis
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get visibilities
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to string
+assert equals SimpleName MethodInvocation StringLiteral i j
+cis SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral i j
+get visibilities SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral i j
+to string SimpleName MethodInvocation MethodInvocation StringLiteral i j
+pi SimpleName MethodInvocation SimpleName has next
+assert false SimpleName MethodInvocation MethodInvocation SimpleName pi
+assert false SimpleName MethodInvocation MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+baddata SimpleName MethodInvocation SimpleName iterator
+pi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName baddata
+pi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName iterator
+cis SimpleName MethodInvocation SimpleName set source
+cis SimpleName MethodInvocation SimpleName pi
+set source SimpleName MethodInvocation SimpleName pi
+assume exception on close SimpleName MethodInvocation SimpleName cis
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bad data
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test bad data
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test bad data SimpleName MethodDeclaration SimpleType SimpleName io exception
+test bad data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bad data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bad data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

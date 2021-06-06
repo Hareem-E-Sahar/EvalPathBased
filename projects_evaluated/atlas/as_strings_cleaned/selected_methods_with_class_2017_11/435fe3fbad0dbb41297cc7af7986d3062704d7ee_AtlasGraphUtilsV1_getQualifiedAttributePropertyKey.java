@@ -1,0 +1,64 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName from type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+from type SimpleName MethodInvocation SimpleName get type category
+from type SimpleName MethodInvocation SimpleName get qualified attribute name
+from type SimpleName MethodInvocation SimpleName attribute name
+get qualified attribute name SimpleName MethodInvocation SimpleName attribute name
+from type SimpleName MethodInvocation SimpleName get type category
+from type SimpleName MethodInvocation MethodInvocation SimpleName name
+get type category SimpleName MethodInvocation MethodInvocation SimpleName name
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeunknown type
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName name
+atlas error codeunknown type QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName from type
+atlas error codeunknown type QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get type category
+atlas error codeunknown type QualifiedName ClassInstanceCreation MethodInvocation SimpleName name
+from type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity
+from type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName struct
+from type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName classification
+get type category SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName classification
+entity SimpleName SwitchCase SwitchStatement SwitchCase SimpleName struct
+entity SimpleName SwitchCase SwitchStatement SwitchCase SimpleName classification
+struct SimpleName SwitchCase SwitchStatement SwitchCase SimpleName classification
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get qualified attribute property key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get qualified attribute property key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+string SimpleName SimpleType MethodDeclaration SimpleName get qualified attribute property key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName from type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get qualified attribute property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+get qualified attribute property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from type
+get qualified attribute property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get qualified attribute property key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+get qualified attribute property key SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+from type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+from type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get qualified attribute property key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get qualified attribute property key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

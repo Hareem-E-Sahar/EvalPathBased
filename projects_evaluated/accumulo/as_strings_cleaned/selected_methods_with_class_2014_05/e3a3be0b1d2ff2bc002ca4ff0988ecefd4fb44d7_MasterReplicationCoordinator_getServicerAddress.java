@@ -1,0 +1,142 @@
+int PrimitiveType SingleVariableDeclaration SimpleName remote table id
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+master SimpleName MethodInvocation SimpleName online tablet servers
+tservers SimpleName VariableDeclarationFragment MethodInvocation SimpleName master
+tservers SimpleName VariableDeclarationFragment MethodInvocation SimpleName online tablet servers
+tservers SimpleName MethodInvocation SimpleName is empty
+replication coordinator error codeno available servers QualifiedName MethodInvocation SimpleName ordinal
+remote coordination exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName replication coordinator error codeno available servers
+remote coordination exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote coordination exception SimpleName SimpleType ClassInstanceCreation StringLiteral no tservers are available for replication
+replication coordinator error codeno available servers QualifiedName MethodInvocation ClassInstanceCreation StringLiteral no tservers are available for replication
+ordinal SimpleName MethodInvocation ClassInstanceCreation StringLiteral no tservers are available for replication
+tservers SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName tservers
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName tservers
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+get random t server SimpleName MethodInvocation SimpleName tservers
+get random t server SimpleName MethodInvocation MethodInvocation SimpleName rand
+get random t server SimpleName MethodInvocation MethodInvocation SimpleName next int
+get random t server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tservers
+get random t server SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+tservers SimpleName MethodInvocation MethodInvocation SimpleName rand
+tservers SimpleName MethodInvocation MethodInvocation SimpleName next int
+tservers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tservers
+tservers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName get random t server
+tserver SimpleName VariableDeclarationFragment MethodInvocation SimpleName tservers
+tserver SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+tserver SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tserver
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repl service addr
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName inst
+get root SimpleName MethodInvocation SimpleName inst
+tserver SimpleName MethodInvocation SimpleName host port
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+inst SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+inst SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tserver
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host port
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tserver
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host port
+inst SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tserver
+inst SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host port
+constantszreplication tservers QualifiedName InfixExpression StringLiteral /
+constantszreplication tservers QualifiedName InfixExpression MethodInvocation SimpleName tserver
+constantszreplication tservers QualifiedName InfixExpression MethodInvocation SimpleName host port
+/ StringLiteral InfixExpression MethodInvocation SimpleName tserver
+/ StringLiteral InfixExpression MethodInvocation SimpleName host port
+reader SimpleName MethodInvocation SimpleName get data
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+reader SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+reader SimpleName MethodInvocation InfixExpression StringLiteral /
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tserver
+reader SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host port
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName zoo util
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName inst
+get data SimpleName MethodInvocation InfixExpression QualifiedName constantszreplication tservers
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tserver
+get data SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host port
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data
+string SimpleName SimpleType ClassInstanceCreation QualifiedName standard charsetsutf
+reader SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+get data SimpleName MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+constantszreplication tservers QualifiedName InfixExpression MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+/ StringLiteral InfixExpression MethodInvocation ClassInstanceCreation QualifiedName standard charsetsutf
+repl service addr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+repl service addr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName reader
+repl service addr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get data
+repl service addr SimpleName Assignment ClassInstanceCreation QualifiedName standard charsetsutf
+keeper exception SimpleName SimpleType UnionType SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+interrupted exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral could not fetch repliation service port for tserver
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral could not fetch repliation service port for tserver
+error SimpleName MethodInvocation SimpleName e
+could not fetch repliation service port for tserver StringLiteral MethodInvocation SimpleName e
+replication coordinator error codeservice configuration unavailable QualifiedName MethodInvocation SimpleName ordinal
+tserver SimpleName MethodInvocation SimpleName host port
+could not determine port for replication service running at StringLiteral InfixExpression MethodInvocation SimpleName tserver
+could not determine port for replication service running at StringLiteral InfixExpression MethodInvocation SimpleName host port
+remote coordination exception SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName replication coordinator error codeservice configuration unavailable
+remote coordination exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ordinal
+remote coordination exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not determine port for replication service running at
+replication coordinator error codeservice configuration unavailable QualifiedName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not determine port for replication service running at
+ordinal SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral could not determine port for replication service running at
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get servicer address
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName remote coordination exception
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get servicer address
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+public Modifier MethodDeclaration SimpleType SimpleName remote coordination exception
+public Modifier MethodDeclaration SimpleType SimpleName t exception
+string SimpleName SimpleType MethodDeclaration SimpleName get servicer address
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName remote coordination exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+get servicer address SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get servicer address SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+get servicer address SimpleName MethodDeclaration SimpleType SimpleName remote coordination exception
+get servicer address SimpleName MethodDeclaration SimpleType SimpleName t exception
+get servicer address SimpleName MethodDeclaration Block ReturnStatement SimpleName repl service addr
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName remote coordination exception
+remote table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName remote coordination exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+remote table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName t exception
+remote coordination exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get servicer address
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName remote coordination exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get servicer address
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remote table id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName remote coordination exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

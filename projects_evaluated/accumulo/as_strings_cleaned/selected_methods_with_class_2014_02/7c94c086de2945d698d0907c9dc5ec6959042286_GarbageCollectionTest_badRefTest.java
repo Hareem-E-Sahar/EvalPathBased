@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+gce SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName test gce
+test gce SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gce
+gcecandidates QualifiedName MethodInvocation SimpleName add
+gcecandidates QualifiedName MethodInvocation StringLiteral / t f rf
+add SimpleName MethodInvocation StringLiteral / t f rf
+gce SimpleName MethodInvocation SimpleName add file reference
+gce SimpleName MethodInvocation StringLiteral empty
+gce SimpleName MethodInvocation StringLiteral m
+gce SimpleName MethodInvocation SimpleName ref
+add file reference SimpleName MethodInvocation StringLiteral empty
+add file reference SimpleName MethodInvocation StringLiteral m
+add file reference SimpleName MethodInvocation SimpleName ref
+empty StringLiteral MethodInvocation StringLiteral m
+empty StringLiteral MethodInvocation SimpleName ref
+m StringLiteral MethodInvocation SimpleName ref
+gca SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName garbage collection algorithm
+garbage collection algorithm SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gca
+gca SimpleName MethodInvocation SimpleName collect
+gca SimpleName MethodInvocation SimpleName gce
+collect SimpleName MethodInvocation SimpleName gce
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName bad ref test
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+void PrimitiveType MethodDeclaration SimpleName bad ref test
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ref
+bad ref test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bad ref test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bad ref test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bad ref test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref

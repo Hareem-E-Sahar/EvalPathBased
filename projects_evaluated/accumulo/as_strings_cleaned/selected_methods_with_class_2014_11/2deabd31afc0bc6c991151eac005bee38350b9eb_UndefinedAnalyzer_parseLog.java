@@ -1,0 +1,152 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName log
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName log
+input stream reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName log
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName utf
+file input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+log SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName utf
+buffered reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName utf
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered reader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName utf
+buffered reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+reader SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName reader
+line SimpleName Assignment MethodInvocation SimpleName read line
+line SimpleName MethodInvocation SimpleName starts with
+line SimpleName MethodInvocation StringLiteral uuid
+starts with SimpleName MethodInvocation StringLiteral uuid
+line SimpleName MethodInvocation SimpleName split
+line SimpleName MethodInvocation StringLiteral s
+split SimpleName MethodInvocation StringLiteral s
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+tokens SimpleName ArrayAccess NumberLiteral empty
+time SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+time SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+tokens SimpleName ArrayAccess NumberLiteral empty
+uuid SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+uuid SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uuid
+flushes SimpleName MethodInvocation SimpleName contains key
+flushes SimpleName MethodInvocation SimpleName uuid
+contains key SimpleName MethodInvocation SimpleName uuid
+warn duplicate uuid StringLiteral InfixExpression SimpleName log
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral warn duplicate uuid
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName log
+println SimpleName MethodInvocation InfixExpression StringLiteral warn duplicate uuid
+println SimpleName MethodInvocation InfixExpression SimpleName log
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+collections SimpleName MethodInvocation SimpleName reverse order
+tm SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName collections
+tm SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName reverse order
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName time
+parse long SimpleName MethodInvocation SimpleName time
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation NumberLiteral l
+tm SimpleName MethodInvocation MethodInvocation SimpleName long
+tm SimpleName MethodInvocation MethodInvocation SimpleName parse long
+tm SimpleName MethodInvocation MethodInvocation SimpleName time
+put SimpleName MethodInvocation NumberLiteral l
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put SimpleName MethodInvocation MethodInvocation SimpleName time
+l NumberLiteral MethodInvocation MethodInvocation SimpleName long
+l NumberLiteral MethodInvocation MethodInvocation SimpleName parse long
+l NumberLiteral MethodInvocation MethodInvocation SimpleName time
+flushes SimpleName MethodInvocation SimpleName put
+flushes SimpleName MethodInvocation SimpleName uuid
+flushes SimpleName MethodInvocation SimpleName tm
+put SimpleName MethodInvocation SimpleName uuid
+put SimpleName MethodInvocation SimpleName tm
+uuid SimpleName MethodInvocation SimpleName tm
+warn bad ingest log StringLiteral InfixExpression SimpleName log
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral warn bad ingest log
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName log
+println SimpleName MethodInvocation InfixExpression StringLiteral warn bad ingest log
+println SimpleName MethodInvocation InfixExpression SimpleName log
+reader SimpleName MethodInvocation SimpleName read line
+line SimpleName Assignment MethodInvocation SimpleName reader
+line SimpleName Assignment MethodInvocation SimpleName read line
+line SimpleName MethodInvocation SimpleName split
+line SimpleName MethodInvocation StringLiteral s
+split SimpleName MethodInvocation StringLiteral s
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName line
+tokens SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+tokens SimpleName VariableDeclarationFragment MethodInvocation StringLiteral s
+tokens SimpleName ArrayAccess NumberLiteral empty
+tokens SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+tokens SimpleName ArrayAccess MethodInvocation StringLiteral flush
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral flush
+equals SimpleName MethodInvocation StringLiteral flush
+tokens SimpleName ArrayAccess NumberLiteral empty
+time SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+time SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+tokens SimpleName ArrayAccess NumberLiteral empty
+count SimpleName VariableDeclarationFragment ArrayAccess SimpleName tokens
+count SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName count
+parse long SimpleName MethodInvocation SimpleName count
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation SimpleName time
+parse long SimpleName MethodInvocation SimpleName time
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation MethodInvocation SimpleName long
+tm SimpleName MethodInvocation MethodInvocation SimpleName parse long
+tm SimpleName MethodInvocation MethodInvocation SimpleName count
+tm SimpleName MethodInvocation MethodInvocation SimpleName long
+tm SimpleName MethodInvocation MethodInvocation SimpleName parse long
+tm SimpleName MethodInvocation MethodInvocation SimpleName time
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put SimpleName MethodInvocation MethodInvocation SimpleName count
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put SimpleName MethodInvocation MethodInvocation SimpleName time
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse long
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse long
+count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time
+reader SimpleName MethodInvocation SimpleName close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName parse log
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName log
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName parse log
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName log
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+parse log SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+parse log SimpleName MethodDeclaration SingleVariableDeclaration SimpleName log
+parse log SimpleName MethodDeclaration SimpleType SimpleName exception
+log SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse log
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse log
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName log
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

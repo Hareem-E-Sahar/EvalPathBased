@@ -1,0 +1,46 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iterator environment SimpleName SimpleType SingleVariableDeclaration SimpleName env
+deep copy SimpleName SuperMethodInvocation SimpleName env
+grep iterator SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName deep copy
+grep iterator SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName env
+copy SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName grep iterator
+copy SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName deep copy
+copy SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName env
+grep iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName copy
+arrays SimpleName MethodInvocation SimpleName copy of
+arrays SimpleName MethodInvocation SimpleName term
+arrays SimpleName MethodInvocation QualifiedName termlength
+copy of SimpleName MethodInvocation SimpleName term
+copy of SimpleName MethodInvocation QualifiedName termlength
+term SimpleName MethodInvocation QualifiedName termlength
+copyterm QualifiedName Assignment MethodInvocation SimpleName arrays
+copyterm QualifiedName Assignment MethodInvocation SimpleName copy of
+copyterm QualifiedName Assignment MethodInvocation SimpleName term
+copyterm QualifiedName Assignment MethodInvocation QualifiedName termlength
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName deep copy
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName deep copy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName env
+public Modifier MethodDeclaration Block ReturnStatement SimpleName copy
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName deep copy
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName deep copy
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName deep copy
+deep copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName iterator environment
+deep copy SimpleName MethodDeclaration SingleVariableDeclaration SimpleName env
+deep copy SimpleName MethodDeclaration Block ReturnStatement SimpleName copy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName deep copy
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deep copy
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName env

@@ -1,0 +1,135 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName command line
+final Modifier SingleVariableDeclaration SimpleName cl
+command line SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName table name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+final Modifier SingleVariableDeclaration SimpleType SimpleName shell
+final Modifier SingleVariableDeclaration SimpleName shell state
+shell SimpleName SimpleType SingleVariableDeclaration SimpleName shell state
+formatter opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName formatter opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName formatter opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+formatter opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName formatter opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName formatter opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+accumulo vfs class loader SimpleName MethodInvocation SimpleName load class
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName cl
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName get option value
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter opt
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+accumulo vfs class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName formatter
+load class SimpleName MethodInvocation MethodInvocation SimpleName cl
+load class SimpleName MethodInvocation MethodInvocation SimpleName get option value
+load class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter opt
+load class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName formatter
+formatter interpeter opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName has option
+cl SimpleName MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+has option SimpleName MethodInvocation MethodInvocation SimpleName get opt
+formatter interpeter opt SimpleName MethodInvocation SimpleName get opt
+cl SimpleName MethodInvocation SimpleName get option value
+cl SimpleName MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+cl SimpleName MethodInvocation MethodInvocation SimpleName get opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+get option value SimpleName MethodInvocation MethodInvocation SimpleName get opt
+accumulo vfs class loader SimpleName MethodInvocation SimpleName load class
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName cl
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation SimpleName get option value
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+accumulo vfs class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+accumulo vfs class loader SimpleName MethodInvocation TypeLiteral SimpleType SimpleName formatter
+load class SimpleName MethodInvocation MethodInvocation SimpleName cl
+load class SimpleName MethodInvocation MethodInvocation SimpleName get option value
+load class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName formatter interpeter opt
+load class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get opt
+load class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName formatter
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+shell state SimpleName MethodInvocation SimpleName get reader
+e SimpleName MethodInvocation SimpleName get message
+formatter class could not be loaded StringLiteral InfixExpression MethodInvocation SimpleName e
+formatter class could not be loaded StringLiteral InfixExpression MethodInvocation SimpleName get message
+formatter class could not be loaded StringLiteral InfixExpression StringLiteral empty
+e SimpleName MethodInvocation InfixExpression StringLiteral empty
+get message SimpleName MethodInvocation InfixExpression StringLiteral empty
+shell state SimpleName MethodInvocation MethodInvocation SimpleName print string
+get reader SimpleName MethodInvocation MethodInvocation SimpleName print string
+shell state SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral formatter class could not be loaded
+shell state SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get reader SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral formatter class could not be loaded
+get reader SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+print string SimpleName MethodInvocation InfixExpression StringLiteral formatter class could not be loaded
+print string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+print string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+print string SimpleName MethodInvocation InfixExpression StringLiteral empty
+shell state SimpleName MethodInvocation SimpleName get formatter
+shell state SimpleName MethodInvocation SimpleName table name
+get formatter SimpleName MethodInvocation SimpleName table name
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName class
+protected Modifier MethodDeclaration SimpleName get formatter
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shell state
+class SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get formatter
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName command line
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shell
+get formatter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shell state
+get formatter SimpleName MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+cl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+table name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+shell state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get formatter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get formatter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shell state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,31 @@
+type system SimpleName MethodInvocation SimpleName get instance
+type system SimpleName MethodInvocation MethodInvocation SimpleName reset
+get instance SimpleName MethodInvocation MethodInvocation SimpleName reset
+graph provider SimpleName MethodInvocation SimpleName get
+graph provider SimpleName MethodInvocation MethodInvocation SimpleName shutdown
+get SimpleName MethodInvocation MethodInvocation SimpleName shutdown
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+graph provider SimpleName MethodInvocation SimpleName get
+titan cleanup SimpleName MethodInvocation SimpleName clear
+titan cleanup SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+titan cleanup SimpleName MethodInvocation MethodInvocation SimpleName get
+clear SimpleName MethodInvocation MethodInvocation SimpleName graph provider
+clear SimpleName MethodInvocation MethodInvocation SimpleName get
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName tear down
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName tear down
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+tear down SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tear down
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tear down
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

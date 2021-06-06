@@ -1,0 +1,64 @@
+host and port SimpleName SimpleType SingleVariableDeclaration SimpleName addr
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation SimpleName instance
+get root SimpleName MethodInvocation SimpleName instance
+addr SimpleName MethodInvocation SimpleName to string
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+instance SimpleName MethodInvocation InfixExpression QualifiedName constantsztservers
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+instance SimpleName MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName addr
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName addr
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName addr
+instance SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+constantsztservers QualifiedName InfixExpression StringLiteral /
+constantsztservers QualifiedName InfixExpression MethodInvocation SimpleName addr
+constantsztservers QualifiedName InfixExpression MethodInvocation SimpleName to string
+/ StringLiteral InfixExpression MethodInvocation SimpleName addr
+/ StringLiteral InfixExpression MethodInvocation SimpleName to string
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName instance
+zpath SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantsztservers
+zpath SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName addr
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zoo reader writer SimpleName MethodInvocation SimpleName get instance
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName get children
+get instance SimpleName MethodInvocation MethodInvocation SimpleName get children
+zoo reader writer SimpleName MethodInvocation MethodInvocation SimpleName zpath
+get instance SimpleName MethodInvocation MethodInvocation SimpleName zpath
+get children SimpleName MethodInvocation SimpleName zpath
+children SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName zoo reader writer
+children SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+children SimpleName VariableDeclarationFragment MethodInvocation SimpleName zpath
+children SimpleName MethodInvocation SimpleName is empty
+children SimpleName InfixExpression InfixExpression MethodInvocation SimpleName children
+children SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+keeper exceptionno node exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+ex SimpleName MethodInvocation SimpleName ex
+boolean PrimitiveType MethodDeclaration SimpleName holds lock
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName addr
+holds lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host and port
+holds lock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName addr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName holds lock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName holds lock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName addr

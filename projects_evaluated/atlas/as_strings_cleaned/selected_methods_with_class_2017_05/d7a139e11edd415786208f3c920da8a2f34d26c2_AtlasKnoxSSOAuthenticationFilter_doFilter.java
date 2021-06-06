@@ -1,0 +1,273 @@
+servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName servlet request
+servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName servlet response
+filter chain SimpleName SimpleType SingleVariableDeclaration SimpleName filter chain
+http servlet response SimpleName SimpleType CastExpression SimpleName servlet response
+http response SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http servlet response
+http response SimpleName VariableDeclarationFragment CastExpression SimpleName servlet response
+http servlet response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http response
+atlas response request wrapper SimpleName SimpleType ClassInstanceCreation SimpleName http response
+response wrapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas response request wrapper
+response wrapper SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName http response
+atlas response request wrapper SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response wrapper
+response wrapper SimpleName MethodInvocation SimpleName set header
+response wrapper SimpleName MethodInvocation StringLiteral xframeoptions
+response wrapper SimpleName MethodInvocation StringLiteral deny
+set header SimpleName MethodInvocation StringLiteral xframeoptions
+set header SimpleName MethodInvocation StringLiteral deny
+xframeoptions StringLiteral MethodInvocation StringLiteral deny
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName servlet request
+filter chain SimpleName MethodInvocation SimpleName servlet response
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName servlet response
+servlet request SimpleName MethodInvocation SimpleName servlet response
+http servlet request SimpleName SimpleType CastExpression SimpleName servlet request
+http request SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http servlet request
+http request SimpleName VariableDeclarationFragment CastExpression SimpleName servlet request
+http servlet request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http request
+log SimpleName MethodInvocation SimpleName is debug enabled
+http request SimpleName MethodInvocation SimpleName get request uri
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral knox do filter {}
+log SimpleName MethodInvocation MethodInvocation SimpleName http request
+log SimpleName MethodInvocation MethodInvocation SimpleName get request uri
+debug SimpleName MethodInvocation StringLiteral knox do filter {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName http request
+debug SimpleName MethodInvocation MethodInvocation SimpleName get request uri
+knox do filter {} StringLiteral MethodInvocation MethodInvocation SimpleName http request
+knox do filter {} StringLiteral MethodInvocation MethodInvocation SimpleName get request uri
+http request SimpleName MethodInvocation SimpleName get session
+http request SimpleName MethodInvocation SimpleName get session
+http request SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+get session SimpleName MethodInvocation MethodInvocation SimpleName get attribute
+http request SimpleName MethodInvocation MethodInvocation StringLiteral locallogin
+get session SimpleName MethodInvocation MethodInvocation StringLiteral locallogin
+get attribute SimpleName MethodInvocation StringLiteral locallogin
+servlet request SimpleName MethodInvocation SimpleName set attribute
+servlet request SimpleName MethodInvocation StringLiteral sso enabled
+servlet request SimpleName MethodInvocation BooleanLiteral false
+set attribute SimpleName MethodInvocation StringLiteral sso enabled
+set attribute SimpleName MethodInvocation BooleanLiteral false
+sso enabled StringLiteral MethodInvocation BooleanLiteral false
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName servlet request
+filter chain SimpleName MethodInvocation SimpleName servlet response
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName servlet response
+servlet request SimpleName MethodInvocation SimpleName servlet response
+jwt properties SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is authenticated
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName servlet request
+filter chain SimpleName MethodInvocation SimpleName servlet response
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName servlet response
+servlet request SimpleName MethodInvocation SimpleName servlet response
+log SimpleName MethodInvocation SimpleName is debug enabled
+http request SimpleName MethodInvocation SimpleName get request uri
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral knox sso enabled {} {}
+log SimpleName MethodInvocation SimpleName sso enabled
+log SimpleName MethodInvocation MethodInvocation SimpleName http request
+log SimpleName MethodInvocation MethodInvocation SimpleName get request uri
+debug SimpleName MethodInvocation StringLiteral knox sso enabled {} {}
+debug SimpleName MethodInvocation SimpleName sso enabled
+debug SimpleName MethodInvocation MethodInvocation SimpleName http request
+debug SimpleName MethodInvocation MethodInvocation SimpleName get request uri
+knox sso enabled {} {} StringLiteral MethodInvocation SimpleName sso enabled
+knox sso enabled {} {} StringLiteral MethodInvocation MethodInvocation SimpleName http request
+knox sso enabled {} {} StringLiteral MethodInvocation MethodInvocation SimpleName get request uri
+sso enabled SimpleName MethodInvocation MethodInvocation SimpleName http request
+sso enabled SimpleName MethodInvocation MethodInvocation SimpleName get request uri
+http servlet response SimpleName SimpleType CastExpression SimpleName servlet response
+http servlet response SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName http servlet response
+http servlet response SimpleName VariableDeclarationFragment CastExpression SimpleName servlet response
+http servlet response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName http servlet response
+get jwt from cookie SimpleName MethodInvocation SimpleName http request
+serialized jwt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get jwt from cookie
+serialized jwt SimpleName VariableDeclarationFragment MethodInvocation SimpleName http request
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName serialized jwt
+signed jwt SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jwt token
+signed jwt SimpleName MethodInvocation SimpleName parse
+signed jwt SimpleName MethodInvocation SimpleName serialized jwt
+parse SimpleName MethodInvocation SimpleName serialized jwt
+jwt token SimpleName Assignment MethodInvocation SimpleName signed jwt
+jwt token SimpleName Assignment MethodInvocation SimpleName parse
+jwt token SimpleName Assignment MethodInvocation SimpleName serialized jwt
+validate token SimpleName MethodInvocation SimpleName jwt token
+valid SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate token
+valid SimpleName VariableDeclarationFragment MethodInvocation SimpleName jwt token
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName validate token
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName jwt token
+jwt token SimpleName MethodInvocation SimpleName get jwt claims set
+jwt token SimpleName MethodInvocation MethodInvocation SimpleName get subject
+get jwt claims set SimpleName MethodInvocation MethodInvocation SimpleName get subject
+user name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName jwt token
+user name SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get jwt claims set
+user name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get subject
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user name
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral sso login user : {}
+log SimpleName MethodInvocation SimpleName user name
+info SimpleName MethodInvocation StringLiteral sso login user : {}
+info SimpleName MethodInvocation SimpleName user name
+sso login user : {} StringLiteral MethodInvocation SimpleName user name
+user name SimpleName MethodInvocation SimpleName trim
+user name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+trim SimpleName MethodInvocation MethodInvocation SimpleName is empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName granted authority
+atlas authentication provider SimpleName MethodInvocation SimpleName get authorities from ugi
+atlas authentication provider SimpleName MethodInvocation SimpleName user name
+get authorities from ugi SimpleName MethodInvocation SimpleName user name
+granted auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas authentication provider
+granted auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName get authorities from ugi
+granted auths SimpleName VariableDeclarationFragment MethodInvocation SimpleName user name
+user SimpleName SimpleType ClassInstanceCreation SimpleName user name
+user SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+user SimpleName SimpleType ClassInstanceCreation SimpleName granted auths
+user name SimpleName ClassInstanceCreation StringLiteral empty
+user name SimpleName ClassInstanceCreation SimpleName granted auths
+empty StringLiteral ClassInstanceCreation SimpleName granted auths
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName user
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user name
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+principal SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+final Modifier VariableDeclarationStatement SimpleType SimpleName user details
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName user name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+user details SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName principal
+username password authentication token SimpleName SimpleType ClassInstanceCreation SimpleName principal
+username password authentication token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+username password authentication token SimpleName SimpleType ClassInstanceCreation SimpleName granted auths
+principal SimpleName ClassInstanceCreation StringLiteral empty
+principal SimpleName ClassInstanceCreation SimpleName granted auths
+empty StringLiteral ClassInstanceCreation SimpleName granted auths
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName username password authentication token
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName principal
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+final authentication SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+final Modifier VariableDeclarationStatement SimpleType SimpleName authentication
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final authentication
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName principal
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName granted auths
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final authentication
+web authentication details SimpleName SimpleType ClassInstanceCreation SimpleName http request
+web details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName web authentication details
+web details SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName http request
+web authentication details SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName web details
+abstract authentication token SimpleName SimpleType CastExpression SimpleName final authentication
+final authentication SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set details
+final authentication SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName web details
+set details SimpleName MethodInvocation SimpleName web details
+authentication provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas authentication provider
+atlas authentication provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authentication provider
+authentication provider SimpleName MethodInvocation SimpleName set sso enabled
+authentication provider SimpleName MethodInvocation SimpleName sso enabled
+set sso enabled SimpleName MethodInvocation SimpleName sso enabled
+authentication provider SimpleName MethodInvocation SimpleName authenticate
+authentication provider SimpleName MethodInvocation SimpleName final authentication
+authenticate SimpleName MethodInvocation SimpleName final authentication
+authentication SimpleName VariableDeclarationFragment MethodInvocation SimpleName authentication provider
+authentication SimpleName VariableDeclarationFragment MethodInvocation SimpleName authenticate
+authentication SimpleName VariableDeclarationFragment MethodInvocation SimpleName final authentication
+authentication SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authentication
+security context holder SimpleName MethodInvocation SimpleName get context
+security context holder SimpleName MethodInvocation MethodInvocation SimpleName set authentication
+get context SimpleName MethodInvocation MethodInvocation SimpleName set authentication
+security context holder SimpleName MethodInvocation MethodInvocation SimpleName authentication
+get context SimpleName MethodInvocation MethodInvocation SimpleName authentication
+set authentication SimpleName MethodInvocation SimpleName authentication
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+filter chain SimpleName MethodInvocation SimpleName do filter
+filter chain SimpleName MethodInvocation SimpleName servlet request
+filter chain SimpleName MethodInvocation SimpleName http servlet response
+do filter SimpleName MethodInvocation SimpleName servlet request
+do filter SimpleName MethodInvocation SimpleName http servlet response
+servlet request SimpleName MethodInvocation SimpleName http servlet response
+redirect to knox SimpleName MethodInvocation SimpleName http request
+redirect to knox SimpleName MethodInvocation SimpleName http servlet response
+redirect to knox SimpleName MethodInvocation SimpleName filter chain
+http request SimpleName MethodInvocation SimpleName http servlet response
+http request SimpleName MethodInvocation SimpleName filter chain
+http servlet response SimpleName MethodInvocation SimpleName filter chain
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName valid
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral unable to parse the jwt token
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral unable to parse the jwt token
+warn SimpleName MethodInvocation SimpleName e
+unable to parse the jwt token StringLiteral MethodInvocation SimpleName e
+redirect to knox SimpleName MethodInvocation SimpleName http request
+redirect to knox SimpleName MethodInvocation SimpleName http servlet response
+redirect to knox SimpleName MethodInvocation SimpleName filter chain
+http request SimpleName MethodInvocation SimpleName http servlet response
+http request SimpleName MethodInvocation SimpleName filter chain
+http servlet response SimpleName MethodInvocation SimpleName filter chain
+redirect to knox SimpleName MethodInvocation SimpleName http request
+redirect to knox SimpleName MethodInvocation SimpleName http servlet response
+redirect to knox SimpleName MethodInvocation SimpleName filter chain
+http request SimpleName MethodInvocation SimpleName http servlet response
+http request SimpleName MethodInvocation SimpleName filter chain
+http servlet response SimpleName MethodInvocation SimpleName filter chain
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName do filter
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName do filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+void PrimitiveType MethodDeclaration SimpleName do filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet request
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName servlet response
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter chain
+do filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+do filter SimpleName MethodDeclaration SimpleType SimpleName io exception
+do filter SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+servlet request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+servlet response SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+servlet response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+servlet response SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+filter chain SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName servlet response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter chain
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

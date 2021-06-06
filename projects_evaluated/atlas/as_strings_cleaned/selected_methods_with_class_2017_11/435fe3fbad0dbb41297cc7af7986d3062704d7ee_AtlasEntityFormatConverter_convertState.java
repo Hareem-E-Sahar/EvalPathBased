@@ -1,0 +1,25 @@
+identity state QualifiedName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName equals
+state SimpleName MethodInvocation QualifiedName identity statedeleted
+equals SimpleName MethodInvocation QualifiedName identity statedeleted
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName state
+state SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+state SimpleName InfixExpression InfixExpression MethodInvocation QualifiedName identity statedeleted
+statusdeleted QualifiedName ConditionalExpression QualifiedName statusactive
+private Modifier MethodDeclaration SimpleType SimpleName status
+private Modifier MethodDeclaration SimpleName convert state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identity state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+status SimpleName SimpleType MethodDeclaration SimpleName convert state
+status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName state
+convert state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName identity state
+convert state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName status
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

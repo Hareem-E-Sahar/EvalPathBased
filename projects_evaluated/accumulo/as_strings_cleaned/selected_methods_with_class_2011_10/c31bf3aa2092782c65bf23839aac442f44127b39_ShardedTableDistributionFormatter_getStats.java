@@ -1,0 +1,53 @@
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral day tt servers
+append SimpleName MethodInvocation StringLiteral day tt servers
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral tt
+append SimpleName MethodInvocation StringLiteral tt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName day
+counts by day SimpleName MethodInvocation SimpleName key set
+counts by day SimpleName MethodInvocation SimpleName get
+counts by day SimpleName MethodInvocation SimpleName day
+get SimpleName MethodInvocation SimpleName day
+counts by day SimpleName MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName size
+day SimpleName MethodInvocation MethodInvocation SimpleName size
+day SimpleName InfixExpression StringLiteral tt
+day SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName counts by day
+day SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get
+day SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName day
+day SimpleName InfixExpression MethodInvocation SimpleName size
+day SimpleName InfixExpression StringLiteral empty
+tt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName counts by day
+tt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+tt StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName day
+tt StringLiteral InfixExpression MethodInvocation SimpleName size
+tt StringLiteral InfixExpression StringLiteral empty
+counts by day SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+day SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+size SimpleName MethodInvocation InfixExpression StringLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation InfixExpression SimpleName day
+buf SimpleName MethodInvocation InfixExpression StringLiteral tt
+buf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+buf SimpleName MethodInvocation InfixExpression StringLiteral empty
+append SimpleName MethodInvocation InfixExpression SimpleName day
+append SimpleName MethodInvocation InfixExpression StringLiteral tt
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+append SimpleName MethodInvocation InfixExpression StringLiteral empty
+day SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName counts by day
+day SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+buf SimpleName MethodInvocation SimpleName to string
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get stats
+string SimpleName SimpleType MethodDeclaration SimpleName get stats
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stats
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stats

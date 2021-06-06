@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get id
+byte PrimitiveType MethodDeclaration SimpleName get id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id

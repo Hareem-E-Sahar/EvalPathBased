@@ -1,0 +1,13 @@
+assert property removed SimpleName MethodInvocation SimpleName hive columns property
+assert property removed SimpleName MethodInvocation SimpleName table v
+hive columns property SimpleName MethodInvocation SimpleName table v
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert complete
+void PrimitiveType MethodDeclaration SimpleName assert complete
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert complete
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert complete

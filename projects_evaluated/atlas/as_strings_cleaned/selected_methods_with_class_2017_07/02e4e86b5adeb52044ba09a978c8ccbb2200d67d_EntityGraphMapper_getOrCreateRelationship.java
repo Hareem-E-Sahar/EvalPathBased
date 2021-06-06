@@ -1,0 +1,152 @@
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName end vertex
+atlas vertex SimpleName SimpleType SingleVariableDeclaration SimpleName end vertex
+string SimpleName SimpleType SingleVariableDeclaration SimpleName relationship name
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+get id from vertex SimpleName MethodInvocation SimpleName end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName end vertex
+get type name SimpleName MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName end vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+get id from vertex SimpleName MethodInvocation SimpleName end vertex
+atlas graph utils v SimpleName MethodInvocation SimpleName get type name
+atlas graph utils v SimpleName MethodInvocation SimpleName end vertex
+get type name SimpleName MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get type name
+atlas object id SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName end vertex
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+get id from vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get type name
+end vertex SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName end vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas object id
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get id from vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName end vertex
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName atlas graph utils v
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get type name
+end SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName end vertex
+atlas object id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+atlas relationship SimpleName SimpleType ClassInstanceCreation SimpleName relationship name
+atlas relationship SimpleName SimpleType ClassInstanceCreation SimpleName end
+atlas relationship SimpleName SimpleType ClassInstanceCreation SimpleName end
+relationship name SimpleName ClassInstanceCreation SimpleName end
+relationship name SimpleName ClassInstanceCreation SimpleName end
+end SimpleName ClassInstanceCreation SimpleName end
+relationship store SimpleName MethodInvocation SimpleName get or create
+relationship store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas relationship
+relationship store SimpleName MethodInvocation ClassInstanceCreation SimpleName relationship name
+relationship store SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+relationship store SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+get or create SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas relationship
+get or create SimpleName MethodInvocation ClassInstanceCreation SimpleName relationship name
+get or create SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+get or create SimpleName MethodInvocation ClassInstanceCreation SimpleName end
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName relationship store
+relationship SimpleName VariableDeclarationFragment MethodInvocation SimpleName get or create
+relationship SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName relationship name
+relationship SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName end
+relationship SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName end
+atlas relationship SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName relationship
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+relationship SimpleName MethodInvocation SimpleName get label
+graph helper SimpleName MethodInvocation SimpleName get out going edges by label
+graph helper SimpleName MethodInvocation SimpleName end vertex
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName relationship
+graph helper SimpleName MethodInvocation MethodInvocation SimpleName get label
+get out going edges by label SimpleName MethodInvocation SimpleName end vertex
+get out going edges by label SimpleName MethodInvocation MethodInvocation SimpleName relationship
+get out going edges by label SimpleName MethodInvocation MethodInvocation SimpleName get label
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName relationship
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName get label
+out edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph helper
+out edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get out going edges by label
+out edges SimpleName VariableDeclarationFragment MethodInvocation SimpleName end vertex
+out edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName relationship
+out edges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get label
+out edges SimpleName MethodInvocation SimpleName has next
+out edges SimpleName MethodInvocation SimpleName next
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName out edges
+edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+atlas edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName edge
+get id from vertex SimpleName MethodInvocation SimpleName end vertex
+edge SimpleName MethodInvocation SimpleName get in vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName edge
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName get in vertex
+get id from vertex SimpleName MethodInvocation MethodInvocation SimpleName equals
+end vertex SimpleName MethodInvocation MethodInvocation SimpleName equals
+get id from vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+end vertex SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation SimpleName get id from vertex
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName edge
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get in vertex
+ret SimpleName Assignment SimpleName edge
+private Modifier MethodDeclaration SimpleType SimpleName atlas edge
+private Modifier MethodDeclaration SimpleName get or create relationship
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+atlas edge SimpleName SimpleType MethodDeclaration SimpleName get or create relationship
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+atlas edge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas vertex
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+get or create relationship SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+get or create relationship SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+end vertex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+relationship name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+relationship name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+public Modifier TypeDeclaration MethodDeclaration SimpleName get or create relationship
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas edge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get or create relationship
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end vertex
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName relationship name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

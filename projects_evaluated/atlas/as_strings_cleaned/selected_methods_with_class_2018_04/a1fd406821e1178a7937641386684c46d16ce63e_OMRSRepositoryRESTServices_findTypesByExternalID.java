@@ -1,0 +1,135 @@
+method SimpleName MemberValuePair QualifiedName request methodget
+path SimpleName MemberValuePair StringLiteral user idtypestypedefsbyexternalid
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodget
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral user idtypestypedefsbyexternalid
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypestypedefsbyexternalid
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodget QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral user idtypestypedefsbyexternalid
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName standard
+string SimpleName SimpleType SingleVariableDeclaration SimpleName standard
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName organization
+string SimpleName SimpleType SingleVariableDeclaration SimpleName organization
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName identifier
+string SimpleName SimpleType SingleVariableDeclaration SimpleName identifier
+method name SimpleName VariableDeclarationFragment StringLiteral find types by external id
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by external id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral find types by external id
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type def list response
+type def list response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+validate local repository SimpleName MethodInvocation SimpleName method name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def
+local metadata collection SimpleName MethodInvocation SimpleName find types by external id
+local metadata collection SimpleName MethodInvocation SimpleName user id
+local metadata collection SimpleName MethodInvocation SimpleName standard
+local metadata collection SimpleName MethodInvocation SimpleName organization
+local metadata collection SimpleName MethodInvocation SimpleName identifier
+find types by external id SimpleName MethodInvocation SimpleName user id
+find types by external id SimpleName MethodInvocation SimpleName standard
+find types by external id SimpleName MethodInvocation SimpleName organization
+find types by external id SimpleName MethodInvocation SimpleName identifier
+user id SimpleName MethodInvocation SimpleName standard
+user id SimpleName MethodInvocation SimpleName organization
+user id SimpleName MethodInvocation SimpleName identifier
+standard SimpleName MethodInvocation SimpleName organization
+standard SimpleName MethodInvocation SimpleName identifier
+organization SimpleName MethodInvocation SimpleName identifier
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName local metadata collection
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName find types by external id
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName user id
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName standard
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName organization
+type defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName identifier
+response SimpleName MethodInvocation SimpleName set type defs
+response SimpleName MethodInvocation SimpleName type defs
+set type defs SimpleName MethodInvocation SimpleName type defs
+repository error exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture repository error exception SimpleName MethodInvocation SimpleName response
+capture repository error exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+user not authorized exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture user not authorized exception SimpleName MethodInvocation SimpleName response
+capture user not authorized exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+invalid parameter exception SimpleName SimpleType SingleVariableDeclaration SimpleName error
+capture invalid parameter exception SimpleName MethodInvocation SimpleName response
+capture invalid parameter exception SimpleName MethodInvocation SimpleName error
+response SimpleName MethodInvocation SimpleName error
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+user idtypestypedefsbyexternalid StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName type def list response
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName find types by external id
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by external id
+request methodget QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by external id
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by external id
+user idtypestypedefsbyexternalid StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName find types by external id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName standard
+public Modifier MethodDeclaration SimpleType SimpleName type def list response
+public Modifier MethodDeclaration SimpleName find types by external id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName standard
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName organization
+type def list response SimpleName SimpleType MethodDeclaration SimpleName find types by external id
+type def list response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+type def list response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName standard
+type def list response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName organization
+type def list response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName identifier
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName standard
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName organization
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find types by external id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName identifier
+find types by external id SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+find types by external id SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+standard SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+standard SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+organization SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def list response
+public Modifier TypeDeclaration MethodDeclaration SimpleName find types by external id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def list response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find types by external id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName standard
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName organization
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identifier

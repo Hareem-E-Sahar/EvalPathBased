@@ -1,0 +1,111 @@
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths to wait for
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName paths to wait for
+boolean PrimitiveType SingleVariableDeclaration SimpleName block new scans
+long PrimitiveType SingleVariableDeclaration SimpleName max wait time
+system SimpleName MethodInvocation SimpleName current time millis
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+start time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+trace SimpleName MethodInvocation SimpleName start
+trace SimpleName MethodInvocation StringLiteral wait for scans
+start SimpleName MethodInvocation StringLiteral wait for scans
+wait for scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace
+wait for scans SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+wait for scans SimpleName VariableDeclarationFragment MethodInvocation StringLiteral wait for scans
+span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wait for scans
+reservations blocked SimpleName Assignment BooleanLiteral true
+block new scans SimpleName IfStatement Block IfStatement SimpleName reservations blocked
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+file scan reference counts SimpleName MethodInvocation SimpleName get
+file scan reference counts SimpleName MethodInvocation SimpleName path
+get SimpleName MethodInvocation SimpleName path
+file scan reference counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName start time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName start time
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max wait time
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max wait time
+start time SimpleName InfixExpression InfixExpression SimpleName max wait time
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName max wait time
+tablet SimpleName ThisExpression MethodInvocation SimpleName wait
+tablet SimpleName ThisExpression MethodInvocation NumberLiteral empty
+wait SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName e
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName paths to wait for
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName paths to wait for
+path SimpleName SimpleType SingleVariableDeclaration SimpleName path
+file scan reference counts SimpleName MethodInvocation SimpleName get
+file scan reference counts SimpleName MethodInvocation SimpleName path
+get SimpleName MethodInvocation SimpleName path
+file scan reference counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation InfixExpression NumberLiteral empty
+in use SimpleName MethodInvocation SimpleName add
+in use SimpleName MethodInvocation SimpleName path
+add SimpleName MethodInvocation SimpleName path
+path SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName paths to wait for
+path SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName paths to wait for
+reservations blocked SimpleName Assignment BooleanLiteral false
+tablet SimpleName ThisExpression MethodInvocation SimpleName notify all
+block new scans SimpleName IfStatement Block EnhancedForStatement SimpleName paths to wait for
+block new scans SimpleName IfStatement Block EnhancedForStatement SimpleName paths to wait for
+block new scans SimpleName IfStatement Block IfStatement SimpleName block new scans
+paths to wait for SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName paths to wait for
+paths to wait for SimpleName EnhancedForStatement Block IfStatement SimpleName block new scans
+paths to wait for SimpleName EnhancedForStatement Block IfStatement SimpleName block new scans
+wait for scans SimpleName MethodInvocation SimpleName stop
+long PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName in use
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName path
+private Modifier MethodDeclaration SimpleName wait for scans to finish
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName paths to wait for
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName block new scans
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+tree set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wait for scans to finish
+path SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName wait for scans to finish
+wait for scans to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paths to wait for
+wait for scans to finish SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+wait for scans to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName block new scans
+wait for scans to finish SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait for scans to finish SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+wait for scans to finish SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+wait for scans to finish SimpleName MethodDeclaration Block ReturnStatement SimpleName in use
+paths to wait for SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+paths to wait for SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block new scans
+paths to wait for SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+paths to wait for SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+block new scans SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+block new scans SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for scans to finish
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to wait for
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block new scans
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for scans to finish
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paths to wait for
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName block new scans
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait time

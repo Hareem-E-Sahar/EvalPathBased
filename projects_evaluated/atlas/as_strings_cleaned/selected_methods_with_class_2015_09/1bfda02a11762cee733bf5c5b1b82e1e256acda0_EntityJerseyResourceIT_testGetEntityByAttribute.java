@@ -1,0 +1,81 @@
+referenceable SimpleName SimpleType ClassInstanceCreation SimpleName database type
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName referenceable
+database instance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName database type
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName database instance
+db name SimpleName VariableDeclarationFragment MethodInvocation SimpleName random string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral name
+database instance SimpleName MethodInvocation SimpleName db name
+set SimpleName MethodInvocation StringLiteral name
+set SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+database instance SimpleName MethodInvocation SimpleName set
+database instance SimpleName MethodInvocation StringLiteral description
+database instance SimpleName MethodInvocation StringLiteral foo database
+set SimpleName MethodInvocation StringLiteral description
+set SimpleName MethodInvocation StringLiteral foo database
+description StringLiteral MethodInvocation StringLiteral foo database
+create instance SimpleName MethodInvocation SimpleName database instance
+service client SimpleName MethodInvocation SimpleName get entity
+service client SimpleName MethodInvocation SimpleName database type
+service client SimpleName MethodInvocation StringLiteral name
+service client SimpleName MethodInvocation SimpleName db name
+get entity SimpleName MethodInvocation SimpleName database type
+get entity SimpleName MethodInvocation StringLiteral name
+get entity SimpleName MethodInvocation SimpleName db name
+database type SimpleName MethodInvocation StringLiteral name
+database type SimpleName MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation SimpleName db name
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName service client
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName database type
+referenceable SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+referenceable SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName referenceable
+referenceable SimpleName MethodInvocation SimpleName get type name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName referenceable
+assert SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert SimpleName MethodInvocation SimpleName database type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName referenceable
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get type name
+assert equals SimpleName MethodInvocation SimpleName database type
+referenceable SimpleName MethodInvocation MethodInvocation SimpleName database type
+get type name SimpleName MethodInvocation MethodInvocation SimpleName database type
+referenceable SimpleName MethodInvocation SimpleName get
+referenceable SimpleName MethodInvocation StringLiteral name
+get SimpleName MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName referenceable
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert SimpleName MethodInvocation SimpleName db name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName referenceable
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral name
+assert equals SimpleName MethodInvocation SimpleName db name
+referenceable SimpleName MethodInvocation MethodInvocation SimpleName db name
+get SimpleName MethodInvocation MethodInvocation SimpleName db name
+name StringLiteral MethodInvocation MethodInvocation SimpleName db name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get entity by attribute
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get entity by attribute
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test get entity by attribute
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test get entity by attribute SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get entity by attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get entity by attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

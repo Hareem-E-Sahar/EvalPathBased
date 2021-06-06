@@ -1,0 +1,143 @@
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName muts
+mutation SimpleName SimpleType SingleVariableDeclaration SimpleName m
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation StringLiteral v
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral ab
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cf StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cq StringLiteral MethodInvocation ClassInstanceCreation StringLiteral ab
+cq StringLiteral MethodInvocation StringLiteral v
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral v
+ab StringLiteral ClassInstanceCreation MethodInvocation StringLiteral v
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation NumberLiteral empty
+m SimpleName MethodInvocation StringLiteral v
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+m SimpleName MethodInvocation SimpleName put
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cq
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+m SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral cf
+put SimpleName MethodInvocation StringLiteral cq
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+put SimpleName MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation StringLiteral v
+cf StringLiteral MethodInvocation StringLiteral cq
+cf StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cf StringLiteral MethodInvocation ClassInstanceCreation StringLiteral abc
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral v
+cq StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cq StringLiteral MethodInvocation ClassInstanceCreation StringLiteral abc
+cq StringLiteral MethodInvocation NumberLiteral empty
+cq StringLiteral MethodInvocation StringLiteral v
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+abc StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral v
+abc StringLiteral ClassInstanceCreation MethodInvocation StringLiteral v
+empty NumberLiteral MethodInvocation StringLiteral v
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation StringLiteral cf
+cf StringLiteral MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation NumberLiteral empty
+put delete SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cf
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation NumberLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation StringLiteral abc
+m SimpleName MethodInvocation SimpleName put delete
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation StringLiteral cf
+m SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+m SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+m SimpleName MethodInvocation NumberLiteral empty
+put delete SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation StringLiteral cf
+put delete SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+put delete SimpleName MethodInvocation ClassInstanceCreation StringLiteral abc
+put delete SimpleName MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation StringLiteral cf
+cf StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cf StringLiteral MethodInvocation ClassInstanceCreation StringLiteral abc
+cf StringLiteral MethodInvocation NumberLiteral empty
+cf StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName column visibility
+cf StringLiteral MethodInvocation ClassInstanceCreation StringLiteral abc
+cf StringLiteral MethodInvocation NumberLiteral empty
+column visibility SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+abc StringLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+mutation SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName muts
+m SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName muts
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName populate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName muts
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName muts
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName populate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName muts
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName muts
+void PrimitiveType MethodDeclaration SimpleName populate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName muts
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName muts
+populate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation
+populate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName muts
+populate SimpleName MethodDeclaration Block EnhancedForStatement SimpleName muts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName populate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName muts
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName populate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName muts

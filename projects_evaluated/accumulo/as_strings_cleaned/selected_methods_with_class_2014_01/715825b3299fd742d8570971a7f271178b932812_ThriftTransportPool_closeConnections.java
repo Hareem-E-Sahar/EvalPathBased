@@ -1,0 +1,102 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ccl
+cached connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ccl
+pool SimpleName MethodInvocation SimpleName get cache
+pool SimpleName MethodInvocation MethodInvocation SimpleName values
+get cache SimpleName MethodInvocation MethodInvocation SimpleName values
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+ccl SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName ccl
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+cached connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+cached connection SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+cached connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cached connection
+cached connection SimpleName MethodInvocation SimpleName is reserved
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression QualifiedName cached connectionlast return time
+current time millis SimpleName MethodInvocation InfixExpression QualifiedName cached connectionlast return time
+system SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName poolkill time
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName poolkill time
+cached connectionlast return time QualifiedName InfixExpression InfixExpression QualifiedName poolkill time
+connections to close SimpleName MethodInvocation SimpleName add
+connections to close SimpleName MethodInvocation SimpleName cached connection
+add SimpleName MethodInvocation SimpleName cached connection
+iter SimpleName MethodInvocation SimpleName remove
+ccl SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName cached connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ccl
+cached connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName ccl
+pool SimpleName MethodInvocation SimpleName get cache
+pool SimpleName MethodInvocation MethodInvocation SimpleName values
+get cache SimpleName MethodInvocation MethodInvocation SimpleName values
+cached connection SimpleName SimpleType SingleVariableDeclaration SimpleName cached connection
+cached connectiontransport QualifiedName MethodInvocation SimpleName check for stuck io
+cached connectiontransport QualifiedName MethodInvocation SimpleName stuck threshold
+check for stuck io SimpleName MethodInvocation SimpleName stuck threshold
+cached connection SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName ccl
+cached connection SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName ccl
+ccl SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName thrift transport key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+thrift transport key SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+poolerror time QualifiedName MethodInvocation SimpleName entry set
+poolerror time QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName poolerror time
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName thrift transport key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+thrift transport key SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+system SimpleName MethodInvocation SimpleName current time millis
+entry SimpleName MethodInvocation SimpleName get value
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+system SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName entry
+current time millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+delta SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName system
+delta SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName current time millis
+delta SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName entry
+delta SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delta
+delta SimpleName InfixExpression SimpleName stuck threshold
+entry SimpleName MethodInvocation SimpleName get key
+poolerror count QualifiedName MethodInvocation SimpleName remove
+poolerror count QualifiedName MethodInvocation MethodInvocation SimpleName entry
+poolerror count QualifiedName MethodInvocation MethodInvocation SimpleName get key
+remove SimpleName MethodInvocation MethodInvocation SimpleName entry
+remove SimpleName MethodInvocation MethodInvocation SimpleName get key
+iter SimpleName MethodInvocation SimpleName remove
+cached connection SimpleName SimpleType SingleVariableDeclaration SimpleName cached connection
+cached connectiontransport QualifiedName MethodInvocation SimpleName close
+cached connection SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName connections to close
+cached connection SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName connections to close
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+pool SimpleName SynchronizedStatement Block EnhancedForStatement SimpleName connections to close
+true BooleanLiteral WhileStatement Block SynchronizedStatement SimpleName pool
+true BooleanLiteral WhileStatement Block EnhancedForStatement SimpleName connections to close
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName close connections
+private Modifier MethodDeclaration Block WhileStatement BooleanLiteral true
+void PrimitiveType MethodDeclaration SimpleName close connections
+void PrimitiveType MethodDeclaration Block WhileStatement BooleanLiteral true
+close connections SimpleName MethodDeclaration Block WhileStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName close connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName close connections

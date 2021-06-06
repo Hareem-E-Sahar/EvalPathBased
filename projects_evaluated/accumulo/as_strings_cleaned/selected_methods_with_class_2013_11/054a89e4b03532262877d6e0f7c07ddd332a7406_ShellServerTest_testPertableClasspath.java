@@ -1,0 +1,215 @@
+timeout SimpleName MemberValuePair NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair NumberLiteral empty
+file SimpleName MethodInvocation SimpleName create temp file
+file SimpleName MethodInvocation StringLiteral foo filter
+file SimpleName MethodInvocation StringLiteral jar
+create temp file SimpleName MethodInvocation StringLiteral foo filter
+create temp file SimpleName MethodInvocation StringLiteral jar
+foo filter StringLiteral MethodInvocation StringLiteral jar
+foo filter jar SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+foo filter jar SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp file
+foo filter jar SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo filter
+foo filter jar SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jar
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName foo filter jar
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral foo filterjar
+get resource SimpleName MethodInvocation StringLiteral foo filterjar
+file utils SimpleName MethodInvocation SimpleName copy url to file
+file utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+file utils SimpleName MethodInvocation MethodInvocation SimpleName get resource
+file utils SimpleName MethodInvocation MethodInvocation StringLiteral foo filterjar
+file utils SimpleName MethodInvocation SimpleName foo filter jar
+copy url to file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+copy url to file SimpleName MethodInvocation MethodInvocation SimpleName get resource
+copy url to file SimpleName MethodInvocation MethodInvocation StringLiteral foo filterjar
+copy url to file SimpleName MethodInvocation SimpleName foo filter jar
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName foo filter jar
+get resource SimpleName MethodInvocation MethodInvocation SimpleName foo filter jar
+foo filterjar StringLiteral MethodInvocation MethodInvocation SimpleName foo filter jar
+foo filter jar SimpleName MethodInvocation SimpleName delete on exit
+file SimpleName MethodInvocation SimpleName create temp file
+file SimpleName MethodInvocation StringLiteral foo constraint
+file SimpleName MethodInvocation StringLiteral jar
+create temp file SimpleName MethodInvocation StringLiteral foo constraint
+create temp file SimpleName MethodInvocation StringLiteral jar
+foo constraint StringLiteral MethodInvocation StringLiteral jar
+foo constraint jar SimpleName VariableDeclarationFragment MethodInvocation SimpleName file
+foo constraint jar SimpleName VariableDeclarationFragment MethodInvocation SimpleName create temp file
+foo constraint jar SimpleName VariableDeclarationFragment MethodInvocation StringLiteral foo constraint
+foo constraint jar SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jar
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName foo constraint jar
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral foo constraintjar
+get resource SimpleName MethodInvocation StringLiteral foo constraintjar
+file utils SimpleName MethodInvocation SimpleName copy url to file
+file utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+file utils SimpleName MethodInvocation MethodInvocation SimpleName get resource
+file utils SimpleName MethodInvocation MethodInvocation StringLiteral foo constraintjar
+file utils SimpleName MethodInvocation SimpleName foo constraint jar
+copy url to file SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+copy url to file SimpleName MethodInvocation MethodInvocation SimpleName get resource
+copy url to file SimpleName MethodInvocation MethodInvocation StringLiteral foo constraintjar
+copy url to file SimpleName MethodInvocation SimpleName foo constraint jar
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName foo constraint jar
+get resource SimpleName MethodInvocation MethodInvocation SimpleName foo constraint jar
+foo constraintjar StringLiteral MethodInvocation MethodInvocation SimpleName foo constraint jar
+foo constraint jar SimpleName MethodInvocation SimpleName delete on exit
+propertyvfs context classpath property QualifiedName MethodInvocation SimpleName get key
+foo filter jar SimpleName MethodInvocation SimpleName to uri
+foo filter jar SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+foo constraint jar SimpleName MethodInvocation SimpleName to uri
+foo constraint jar SimpleName MethodInvocation MethodInvocation SimpleName to string
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+config s StringLiteral InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+config s StringLiteral InfixExpression MethodInvocation SimpleName get key
+config s StringLiteral InfixExpression StringLiteral cx =
+config s StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName foo filter jar
+config s StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+config s StringLiteral InfixExpression MethodInvocation SimpleName to string
+config s StringLiteral InfixExpression StringLiteral empty
+config s StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName foo constraint jar
+config s StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+config s StringLiteral InfixExpression MethodInvocation SimpleName to string
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression StringLiteral cx =
+get key SimpleName MethodInvocation InfixExpression StringLiteral cx =
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression StringLiteral empty
+get key SimpleName MethodInvocation InfixExpression StringLiteral empty
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+cx = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName foo filter jar
+cx = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+cx = StringLiteral InfixExpression MethodInvocation SimpleName to string
+cx = StringLiteral InfixExpression StringLiteral empty
+cx = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName foo constraint jar
+cx = StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+cx = StringLiteral InfixExpression MethodInvocation SimpleName to string
+foo filter jar SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to uri SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression StringLiteral empty
+to string SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName foo constraint jar
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName to uri
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation InfixExpression StringLiteral config s
+exec SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+exec SimpleName MethodInvocation InfixExpression StringLiteral cx =
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation InfixExpression StringLiteral empty
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+exec SimpleName MethodInvocation BooleanLiteral true
+config s StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+get key SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+cx = StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+empty StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral createtable ptc
+exec SimpleName MethodInvocation BooleanLiteral true
+createtable ptc StringLiteral MethodInvocation BooleanLiteral true
+propertytable classpath QualifiedName MethodInvocation SimpleName get key
+config t ptc s StringLiteral InfixExpression MethodInvocation QualifiedName propertytable classpath
+config t ptc s StringLiteral InfixExpression MethodInvocation SimpleName get key
+config t ptc s StringLiteral InfixExpression StringLiteral cx
+propertytable classpath QualifiedName MethodInvocation InfixExpression StringLiteral cx
+get key SimpleName MethodInvocation InfixExpression StringLiteral cx
+exec SimpleName MethodInvocation InfixExpression StringLiteral config t ptc s
+exec SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable classpath
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+exec SimpleName MethodInvocation InfixExpression StringLiteral cx
+exec SimpleName MethodInvocation BooleanLiteral true
+config t ptc s StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+propertytable classpath QualifiedName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+get key SimpleName MethodInvocation InfixExpression MethodInvocation BooleanLiteral true
+cx StringLiteral InfixExpression MethodInvocation BooleanLiteral true
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+propertytable iterator prefix QualifiedName MethodInvocation SimpleName get key
+config t ptc s StringLiteral InfixExpression MethodInvocation QualifiedName propertytable iterator prefix
+config t ptc s StringLiteral InfixExpression MethodInvocation SimpleName get key
+config t ptc s StringLiteral InfixExpression StringLiteral scanfoo orgapacheaccumulotestfoo filter
+propertytable iterator prefix QualifiedName MethodInvocation InfixExpression StringLiteral scanfoo orgapacheaccumulotestfoo filter
+get key SimpleName MethodInvocation InfixExpression StringLiteral scanfoo orgapacheaccumulotestfoo filter
+exec SimpleName MethodInvocation InfixExpression StringLiteral config t ptc s
+exec SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertytable iterator prefix
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+exec SimpleName MethodInvocation InfixExpression StringLiteral scanfoo orgapacheaccumulotestfoo filter
+exec SimpleName MethodInvocation StringLiteral insert foo f q v
+exec SimpleName MethodInvocation BooleanLiteral true
+insert foo f q v StringLiteral MethodInvocation BooleanLiteral true
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+exec SimpleName MethodInvocation StringLiteral scan np
+exec SimpleName MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral foo
+exec SimpleName MethodInvocation BooleanLiteral false
+scan np StringLiteral MethodInvocation BooleanLiteral true
+scan np StringLiteral MethodInvocation StringLiteral foo
+scan np StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation StringLiteral foo
+true BooleanLiteral MethodInvocation BooleanLiteral false
+foo StringLiteral MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral constraint a foo constraint
+exec SimpleName MethodInvocation BooleanLiteral true
+constraint a foo constraint StringLiteral MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral offline ptc
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+exec SimpleName MethodInvocation StringLiteral online ptc
+exec SimpleName MethodInvocation StringLiteral table ptc
+exec SimpleName MethodInvocation BooleanLiteral true
+table ptc StringLiteral MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral insert foo f q v
+exec SimpleName MethodInvocation BooleanLiteral false
+insert foo f q v StringLiteral MethodInvocation BooleanLiteral false
+exec SimpleName MethodInvocation StringLiteral insert ok foo q v
+exec SimpleName MethodInvocation BooleanLiteral true
+insert ok foo q v StringLiteral MethodInvocation BooleanLiteral true
+exec SimpleName MethodInvocation StringLiteral deletetable f ptc
+exec SimpleName MethodInvocation BooleanLiteral true
+deletetable f ptc StringLiteral MethodInvocation BooleanLiteral true
+propertyvfs context classpath property QualifiedName MethodInvocation SimpleName get key
+config d StringLiteral InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+config d StringLiteral InfixExpression MethodInvocation SimpleName get key
+config d StringLiteral InfixExpression StringLiteral cx
+propertyvfs context classpath property QualifiedName MethodInvocation InfixExpression StringLiteral cx
+get key SimpleName MethodInvocation InfixExpression StringLiteral cx
+exec SimpleName MethodInvocation InfixExpression StringLiteral config d
+exec SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyvfs context classpath property
+exec SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+exec SimpleName MethodInvocation InfixExpression StringLiteral cx
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test pertable classpath
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test pertable classpath
+empty NumberLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test pertable classpath
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test pertable classpath
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test pertable classpath
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test pertable classpath SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test pertable classpath
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test pertable classpath
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

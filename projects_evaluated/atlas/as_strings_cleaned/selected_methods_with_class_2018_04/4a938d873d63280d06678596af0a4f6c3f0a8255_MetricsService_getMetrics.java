@@ -1,0 +1,371 @@
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+boolean PrimitiveType SingleVariableDeclaration SimpleName ignore cache
+ignore cache SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName is cache valid
+metrics SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas metrics
+atlas metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+type count SimpleName VariableDeclarationFragment NumberLiteral empty
+unused type count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName unused type count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+type count SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName unused type count
+type count SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName unused type count
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type registry SimpleName MethodInvocation SimpleName get all type names
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+type names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all type names
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName type names
+is not empty SimpleName MethodInvocation SimpleName type names
+type names SimpleName MethodInvocation SimpleName size
+type count SimpleName Assignment MethodInvocation SimpleName type names
+type count SimpleName Assignment MethodInvocation SimpleName size
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric type count
+metrics SimpleName MethodInvocation SimpleName type count
+add metric SimpleName MethodInvocation SimpleName general
+add metric SimpleName MethodInvocation SimpleName metric type count
+add metric SimpleName MethodInvocation SimpleName type count
+general SimpleName MethodInvocation SimpleName metric type count
+general SimpleName MethodInvocation SimpleName type count
+metric type count SimpleName MethodInvocation SimpleName type count
+tag count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type registry SimpleName MethodInvocation SimpleName get all classification def names
+type registry SimpleName MethodInvocation MethodInvocation SimpleName stream
+get all classification def names SimpleName MethodInvocation MethodInvocation SimpleName stream
+empty StringLiteral InfixExpression SimpleName x
+empty StringLiteral InfixExpression StringLiteral empty
+x SimpleName InfixExpression StringLiteral empty
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression StringLiteral empty
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression SimpleName x
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression StringLiteral empty
+type registry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+get all classification def names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName x
+map SimpleName MethodInvocation LambdaExpression InfixExpression StringLiteral empty
+map SimpleName MethodInvocation LambdaExpression InfixExpression SimpleName x
+map SimpleName MethodInvocation LambdaExpression InfixExpression StringLiteral empty
+collectors SimpleName MethodInvocation SimpleName to set
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to set
+classification def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+classification def names SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+classification def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+classification def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to set
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName classification def names
+string utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation SimpleName classification def names
+join SimpleName MethodInvocation CharacterLiteral empty
+classification def names SimpleName MethodInvocation CharacterLiteral empty
+classification names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+classification names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+classification names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification def names
+classification names csv SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName classification names csv
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName classification def names
+is not empty SimpleName MethodInvocation SimpleName classification def names
+classification def names SimpleName MethodInvocation SimpleName size
+tag count SimpleName Assignment MethodInvocation SimpleName classification def names
+tag count SimpleName Assignment MethodInvocation SimpleName size
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric tag count
+metrics SimpleName MethodInvocation SimpleName tag count
+add metric SimpleName MethodInvocation SimpleName general
+add metric SimpleName MethodInvocation SimpleName metric tag count
+add metric SimpleName MethodInvocation SimpleName tag count
+general SimpleName MethodInvocation SimpleName metric tag count
+general SimpleName MethodInvocation SimpleName tag count
+metric tag count SimpleName MethodInvocation SimpleName tag count
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+type registry SimpleName MethodInvocation SimpleName get all entity def names
+type registry SimpleName MethodInvocation MethodInvocation SimpleName stream
+get all entity def names SimpleName MethodInvocation MethodInvocation SimpleName stream
+empty StringLiteral InfixExpression SimpleName x
+empty StringLiteral InfixExpression StringLiteral empty
+x SimpleName InfixExpression StringLiteral empty
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression StringLiteral empty
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression SimpleName x
+x SimpleName VariableDeclarationFragment LambdaExpression InfixExpression StringLiteral empty
+type registry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+get all entity def names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName x
+map SimpleName MethodInvocation LambdaExpression InfixExpression StringLiteral empty
+map SimpleName MethodInvocation LambdaExpression InfixExpression SimpleName x
+map SimpleName MethodInvocation LambdaExpression InfixExpression StringLiteral empty
+collectors SimpleName MethodInvocation SimpleName to list
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to list
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to list
+entity def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+entity def names SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+entity def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+entity def names SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to list
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName entity def names
+string utils SimpleName MethodInvocation CharacterLiteral empty
+join SimpleName MethodInvocation SimpleName entity def names
+join SimpleName MethodInvocation CharacterLiteral empty
+entity def names SimpleName MethodInvocation CharacterLiteral empty
+entity names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName string utils
+entity names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+entity names csv SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity def names
+entity names csv SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity names csv
+entity names csv SimpleName InfixExpression StringLiteral empty
+entity names csv SimpleName InfixExpression SimpleName classification names csv
+empty StringLiteral InfixExpression SimpleName classification names csv
+entity and classification names csv SimpleName VariableDeclarationFragment InfixExpression SimpleName entity names csv
+entity and classification names csv SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+entity and classification names csv SimpleName VariableDeclarationFragment InfixExpression SimpleName classification names csv
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity and classification names csv
+gremlin query provider SimpleName MethodInvocation SimpleName get query
+gremlin query provider SimpleName MethodInvocation QualifiedName atlas gremlin queryentity active metric
+get query SimpleName MethodInvocation QualifiedName atlas gremlin queryentity active metric
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName gremlin query provider
+string SimpleName MethodInvocation MethodInvocation SimpleName get query
+string SimpleName MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity active metric
+string SimpleName MethodInvocation SimpleName entity and classification names csv
+format SimpleName MethodInvocation MethodInvocation SimpleName gremlin query provider
+format SimpleName MethodInvocation MethodInvocation SimpleName get query
+format SimpleName MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity active metric
+format SimpleName MethodInvocation SimpleName entity and classification names csv
+gremlin query provider SimpleName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+get query SimpleName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+atlas gremlin queryentity active metric QualifiedName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName gremlin query provider
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get query
+query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity active metric
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity and classification names csv
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+extract counts SimpleName MethodInvocation SimpleName query
+active count map SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract counts
+active count map SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+gremlin query provider SimpleName MethodInvocation SimpleName get query
+gremlin query provider SimpleName MethodInvocation QualifiedName atlas gremlin queryentity deleted metric
+get query SimpleName MethodInvocation QualifiedName atlas gremlin queryentity deleted metric
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation MethodInvocation SimpleName gremlin query provider
+string SimpleName MethodInvocation MethodInvocation SimpleName get query
+string SimpleName MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity deleted metric
+string SimpleName MethodInvocation SimpleName entity and classification names csv
+format SimpleName MethodInvocation MethodInvocation SimpleName gremlin query provider
+format SimpleName MethodInvocation MethodInvocation SimpleName get query
+format SimpleName MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity deleted metric
+format SimpleName MethodInvocation SimpleName entity and classification names csv
+gremlin query provider SimpleName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+get query SimpleName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+atlas gremlin queryentity deleted metric QualifiedName MethodInvocation MethodInvocation SimpleName entity and classification names csv
+query SimpleName Assignment MethodInvocation SimpleName string
+query SimpleName Assignment MethodInvocation SimpleName format
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName gremlin query provider
+query SimpleName Assignment MethodInvocation MethodInvocation SimpleName get query
+query SimpleName Assignment MethodInvocation MethodInvocation QualifiedName atlas gremlin queryentity deleted metric
+query SimpleName Assignment MethodInvocation SimpleName entity and classification names csv
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+extract counts SimpleName MethodInvocation SimpleName query
+deleted count map SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract counts
+deleted count map SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+total entities SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName total entities
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType SingleVariableDeclaration SimpleName entity def name
+type registry SimpleName MethodInvocation SimpleName get all entity def names
+active count map SimpleName MethodInvocation SimpleName get or default
+active count map SimpleName MethodInvocation SimpleName entity def name
+get or default SimpleName MethodInvocation SimpleName entity def name
+active count SimpleName VariableDeclarationFragment MethodInvocation SimpleName active count map
+active count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get or default
+active count SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity def name
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active count
+deleted count map SimpleName MethodInvocation SimpleName get or default
+deleted count map SimpleName MethodInvocation SimpleName entity def name
+get or default SimpleName MethodInvocation SimpleName entity def name
+deleted count SimpleName VariableDeclarationFragment MethodInvocation SimpleName deleted count map
+deleted count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get or default
+deleted count SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity def name
+number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName deleted count
+active entity count SimpleName MethodInvocation SimpleName put
+active entity count SimpleName MethodInvocation SimpleName entity def name
+active entity count SimpleName MethodInvocation SimpleName active count
+put SimpleName MethodInvocation SimpleName entity def name
+put SimpleName MethodInvocation SimpleName active count
+entity def name SimpleName MethodInvocation SimpleName active count
+active count SimpleName MethodInvocation SimpleName int value
+total entities SimpleName Assignment MethodInvocation SimpleName active count
+total entities SimpleName Assignment MethodInvocation SimpleName int value
+deleted entity count SimpleName MethodInvocation SimpleName put
+deleted entity count SimpleName MethodInvocation SimpleName entity def name
+deleted entity count SimpleName MethodInvocation SimpleName deleted count
+put SimpleName MethodInvocation SimpleName entity def name
+put SimpleName MethodInvocation SimpleName deleted count
+entity def name SimpleName MethodInvocation SimpleName deleted count
+deleted count SimpleName MethodInvocation SimpleName int value
+total entities SimpleName Assignment MethodInvocation SimpleName deleted count
+total entities SimpleName Assignment MethodInvocation SimpleName int value
+active count SimpleName InfixExpression InfixExpression InfixExpression SimpleName deleted count
+entity def name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+entity def name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all entity def names
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric type unused count
+metrics SimpleName MethodInvocation SimpleName unused type count
+add metric SimpleName MethodInvocation SimpleName general
+add metric SimpleName MethodInvocation SimpleName metric type unused count
+add metric SimpleName MethodInvocation SimpleName unused type count
+general SimpleName MethodInvocation SimpleName metric type unused count
+general SimpleName MethodInvocation SimpleName unused type count
+metric type unused count SimpleName MethodInvocation SimpleName unused type count
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric entity count
+metrics SimpleName MethodInvocation SimpleName total entities
+add metric SimpleName MethodInvocation SimpleName general
+add metric SimpleName MethodInvocation SimpleName metric entity count
+add metric SimpleName MethodInvocation SimpleName total entities
+general SimpleName MethodInvocation SimpleName metric entity count
+general SimpleName MethodInvocation SimpleName total entities
+metric entity count SimpleName MethodInvocation SimpleName total entities
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName entity
+metrics SimpleName MethodInvocation SimpleName metric entity active
+metrics SimpleName MethodInvocation SimpleName active entity count
+add metric SimpleName MethodInvocation SimpleName entity
+add metric SimpleName MethodInvocation SimpleName metric entity active
+add metric SimpleName MethodInvocation SimpleName active entity count
+entity SimpleName MethodInvocation SimpleName metric entity active
+entity SimpleName MethodInvocation SimpleName active entity count
+metric entity active SimpleName MethodInvocation SimpleName active entity count
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName entity
+metrics SimpleName MethodInvocation SimpleName metric entity deleted
+metrics SimpleName MethodInvocation SimpleName deleted entity count
+add metric SimpleName MethodInvocation SimpleName entity
+add metric SimpleName MethodInvocation SimpleName metric entity deleted
+add metric SimpleName MethodInvocation SimpleName deleted entity count
+entity SimpleName MethodInvocation SimpleName metric entity deleted
+entity SimpleName MethodInvocation SimpleName deleted entity count
+metric entity deleted SimpleName MethodInvocation SimpleName deleted entity count
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName number
+string SimpleName SimpleType SingleVariableDeclaration SimpleName classification name
+type registry SimpleName MethodInvocation SimpleName get all classification def names
+active count map SimpleName MethodInvocation SimpleName get or default
+active count map SimpleName MethodInvocation SimpleName classification name
+get or default SimpleName MethodInvocation SimpleName classification name
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName active count map
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get or default
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName classification name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+number SimpleName SimpleType CastExpression SimpleName count
+tagged entity count SimpleName MethodInvocation SimpleName put
+tagged entity count SimpleName MethodInvocation SimpleName classification name
+tagged entity count SimpleName MethodInvocation CastExpression SimpleType SimpleName number
+tagged entity count SimpleName MethodInvocation CastExpression SimpleName count
+put SimpleName MethodInvocation SimpleName classification name
+put SimpleName MethodInvocation CastExpression SimpleType SimpleName number
+put SimpleName MethodInvocation CastExpression SimpleName count
+classification name SimpleName MethodInvocation CastExpression SimpleType SimpleName number
+classification name SimpleName MethodInvocation CastExpression SimpleName count
+classification name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName type registry
+classification name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all classification def names
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName tag
+metrics SimpleName MethodInvocation SimpleName metric entities per tag
+metrics SimpleName MethodInvocation SimpleName tagged entity count
+add metric SimpleName MethodInvocation SimpleName tag
+add metric SimpleName MethodInvocation SimpleName metric entities per tag
+add metric SimpleName MethodInvocation SimpleName tagged entity count
+tag SimpleName MethodInvocation SimpleName metric entities per tag
+tag SimpleName MethodInvocation SimpleName tagged entity count
+metric entities per tag SimpleName MethodInvocation SimpleName tagged entity count
+system SimpleName MethodInvocation SimpleName current time millis
+collection time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+collection time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName collection time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+metrics SimpleName MethodInvocation SimpleName add metric
+metrics SimpleName MethodInvocation SimpleName general
+metrics SimpleName MethodInvocation SimpleName metric collection time
+metrics SimpleName MethodInvocation SimpleName collection time
+add metric SimpleName MethodInvocation SimpleName general
+add metric SimpleName MethodInvocation SimpleName metric collection time
+add metric SimpleName MethodInvocation SimpleName collection time
+general SimpleName MethodInvocation SimpleName metric collection time
+general SimpleName MethodInvocation SimpleName collection time
+metric collection time SimpleName MethodInvocation SimpleName collection time
+cached metrics SimpleName FieldAccess Assignment SimpleName metrics
+cache ttl in secs SimpleName InfixExpression NumberLiteral empty
+collection time SimpleName InfixExpression InfixExpression SimpleName cache ttl in secs
+collection time SimpleName InfixExpression InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas metrics
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName atlas metrics
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get metrics
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get metrics
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+suppress warnings SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+unchecked StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+public Modifier MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier MethodDeclaration SimpleName get metrics
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cached metrics
+atlas metrics SimpleName SimpleType MethodDeclaration SimpleName get metrics
+atlas metrics SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+atlas metrics SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+get metrics SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+get metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+get metrics SimpleName MethodDeclaration Block ReturnStatement SimpleName cached metrics
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+public Modifier TypeDeclaration MethodDeclaration SimpleName get metrics
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore cache
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName suppress warnings
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral unchecked
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas metrics
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get metrics
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ignore cache

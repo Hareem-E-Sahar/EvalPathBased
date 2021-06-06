@@ -1,0 +1,376 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+argslength QualifiedName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+argslength QualifiedName InfixExpression NumberLiteral empty
+args to pass SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName argslength
+args to pass SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+final Modifier VariableDeclarationStatement ArrayType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName args to pass
+argslength QualifiedName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName args
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName args to pass
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName args
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName args to pass
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression QualifiedName argslength
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+args SimpleName MethodInvocation NumberLiteral empty
+args SimpleName MethodInvocation SimpleName args to pass
+args SimpleName MethodInvocation NumberLiteral empty
+args SimpleName MethodInvocation InfixExpression QualifiedName argslength
+args SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName args to pass
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName argslength
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+args to pass SimpleName MethodInvocation NumberLiteral empty
+args to pass SimpleName MethodInvocation InfixExpression QualifiedName argslength
+args to pass SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName argslength
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+class SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType VariableDeclarationStatement VariableDeclarationFragment SimpleName run tmp
+thread SimpleName MethodInvocation SimpleName current thread
+accumulo class loader SimpleName MethodInvocation SimpleName get class loader
+thread SimpleName MethodInvocation MethodInvocation SimpleName set context class loader
+current thread SimpleName MethodInvocation MethodInvocation SimpleName set context class loader
+thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo class loader
+thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class loader
+current thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo class loader
+current thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class loader
+set context class loader SimpleName MethodInvocation MethodInvocation SimpleName accumulo class loader
+set context class loader SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral master
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral master
+equals SimpleName MethodInvocation StringLiteral master
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloservermastermaster
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloservermastermaster
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloservermastermaster
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral tserver
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral tserver
+equals SimpleName MethodInvocation StringLiteral tserver
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloservertabletservertablet server
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloservertabletservertablet server
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloservertabletservertablet server
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral shell
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral shell
+equals SimpleName MethodInvocation StringLiteral shell
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumulocoreutilshellshell
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumulocoreutilshellshell
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumulocoreutilshellshell
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral init
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral init
+equals SimpleName MethodInvocation StringLiteral init
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverutilinitialize
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverutilinitialize
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloserverutilinitialize
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral admin
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral admin
+equals SimpleName MethodInvocation StringLiteral admin
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverutiladmin
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverutiladmin
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloserverutiladmin
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral gc
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral gc
+equals SimpleName MethodInvocation StringLiteral gc
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloservergcsimple garbage collector
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloservergcsimple garbage collector
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloservergcsimple garbage collector
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral monitor
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral monitor
+equals SimpleName MethodInvocation StringLiteral monitor
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloservermonitormonitor
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloservermonitormonitor
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloservermonitormonitor
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral logger
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral logger
+equals SimpleName MethodInvocation StringLiteral logger
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverloggerlog service
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloserverloggerlog service
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloserverloggerlog service
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral tracer
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral tracer
+equals SimpleName MethodInvocation StringLiteral tracer
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumuloservertracetrace server
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumuloservertracetrace server
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumuloservertracetrace server
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral classpath
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral classpath
+equals SimpleName MethodInvocation StringLiteral classpath
+accumulo class loader SimpleName MethodInvocation SimpleName print class path
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName equals
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName equals
+args SimpleName ArrayAccess MethodInvocation StringLiteral version
+empty NumberLiteral ArrayAccess MethodInvocation StringLiteral version
+equals SimpleName MethodInvocation StringLiteral version
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation StringLiteral orgapacheaccumulocoreconstants
+load class SimpleName MethodInvocation StringLiteral orgapacheaccumulocoreconstants
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation StringLiteral orgapacheaccumulocoreconstants
+run tmp SimpleName MethodInvocation SimpleName get field
+run tmp SimpleName MethodInvocation StringLiteral version
+get field SimpleName MethodInvocation StringLiteral version
+run tmp SimpleName MethodInvocation MethodInvocation SimpleName get
+get field SimpleName MethodInvocation MethodInvocation SimpleName get
+version StringLiteral MethodInvocation MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName run tmp
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get field
+systemout QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral version
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName run tmp
+println SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get field
+println SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral version
+println SimpleName MethodInvocation MethodInvocation SimpleName get
+args SimpleName ArrayAccess NumberLiteral empty
+accumulo class loader SimpleName MethodInvocation SimpleName load class
+accumulo class loader SimpleName MethodInvocation ArrayAccess SimpleName args
+accumulo class loader SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+load class SimpleName MethodInvocation ArrayAccess SimpleName args
+load class SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+run tmp SimpleName Assignment MethodInvocation SimpleName accumulo class loader
+run tmp SimpleName Assignment MethodInvocation SimpleName load class
+run tmp SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+run tmp SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName cnfe
+args SimpleName ArrayAccess NumberLiteral empty
+classname StringLiteral InfixExpression ArrayAccess SimpleName args
+classname StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+classname StringLiteral InfixExpression StringLiteral not found please make sure you use the wholly qualified package name
+args SimpleName ArrayAccess InfixExpression StringLiteral not found please make sure you use the wholly qualified package name
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral not found please make sure you use the wholly qualified package name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral classname
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral not found please make sure you use the wholly qualified package name
+println SimpleName MethodInvocation InfixExpression StringLiteral classname
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral not found please make sure you use the wholly qualified package name
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName main
+args SimpleName MethodInvocation SimpleName get class
+run tmp SimpleName MethodInvocation SimpleName get method
+run tmp SimpleName MethodInvocation StringLiteral main
+run tmp SimpleName MethodInvocation MethodInvocation SimpleName args
+run tmp SimpleName MethodInvocation MethodInvocation SimpleName get class
+get method SimpleName MethodInvocation StringLiteral main
+get method SimpleName MethodInvocation MethodInvocation SimpleName args
+get method SimpleName MethodInvocation MethodInvocation SimpleName get class
+main StringLiteral MethodInvocation MethodInvocation SimpleName args
+main StringLiteral MethodInvocation MethodInvocation SimpleName get class
+main SimpleName Assignment MethodInvocation SimpleName run tmp
+main SimpleName Assignment MethodInvocation SimpleName get method
+main SimpleName Assignment MethodInvocation StringLiteral main
+main SimpleName Assignment MethodInvocation MethodInvocation SimpleName args
+main SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName print stack trace
+main SimpleName MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is public
+modifier SimpleName MethodInvocation MethodInvocation SimpleName main
+modifier SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+is public SimpleName MethodInvocation MethodInvocation SimpleName main
+is public SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+main SimpleName MethodInvocation SimpleName get modifiers
+modifier SimpleName MethodInvocation SimpleName is static
+modifier SimpleName MethodInvocation MethodInvocation SimpleName main
+modifier SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+is static SimpleName MethodInvocation MethodInvocation SimpleName main
+is static SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess InfixExpression StringLiteral must implement a public static void mainstring args method
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral must implement a public static void mainstring args method
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName args
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral must implement a public static void mainstring args method
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName args
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral must implement a public static void mainstring args method
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+this is just one argument SimpleName VariableDeclarationFragment SimpleName args to pass
+final Modifier VariableDeclarationStatement SimpleType SimpleName object
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName this is just one argument
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName args to pass
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this is just one argument
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName args to pass
+final main SimpleName VariableDeclarationFragment SimpleName main
+final Modifier VariableDeclarationStatement SimpleType SimpleName method
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final main
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName main
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final main
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName main
+final main SimpleName MethodInvocation SimpleName invoke
+final main SimpleName MethodInvocation SimpleName this is just one argument
+invoke SimpleName MethodInvocation SimpleName this is just one argument
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+e SimpleName MethodInvocation SimpleName get message
+thread \ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName thread
+thread \ StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName current thread
+thread \ StringLiteral InfixExpression MethodInvocation SimpleName get name
+thread \ StringLiteral InfixExpression StringLiteral \ died
+thread \ StringLiteral InfixExpression MethodInvocation SimpleName e
+thread \ StringLiteral InfixExpression MethodInvocation SimpleName get message
+thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \ died
+current thread SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral \ died
+get name SimpleName MethodInvocation InfixExpression StringLiteral \ died
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+\ died StringLiteral InfixExpression MethodInvocation SimpleName e
+\ died StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral thread \
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral \ died
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral thread \
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral \ died
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+e SimpleName MethodInvocation SimpleName print stack trace
+e SimpleName MethodInvocation QualifiedName systemerr
+print stack trace SimpleName MethodInvocation QualifiedName systemerr
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName runnable
+args SimpleName ArrayAccess NumberLiteral empty
+thread SimpleName SimpleType ClassInstanceCreation SimpleName r
+thread SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+thread SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+r SimpleName ClassInstanceCreation ArrayAccess SimpleName args
+r SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName r
+t SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+t SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+accumulo class loader SimpleName MethodInvocation SimpleName get class loader
+t SimpleName MethodInvocation SimpleName set context class loader
+t SimpleName MethodInvocation MethodInvocation SimpleName accumulo class loader
+t SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+set context class loader SimpleName MethodInvocation MethodInvocation SimpleName accumulo class loader
+set context class loader SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+t SimpleName MethodInvocation SimpleName start
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get message
+uncaught exception StringLiteral InfixExpression MethodInvocation SimpleName t
+uncaught exception StringLiteral InfixExpression MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral uncaught exception
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName t
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+println SimpleName MethodInvocation InfixExpression StringLiteral uncaught exception
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get message
+t SimpleName MethodInvocation SimpleName print stack trace
+t SimpleName MethodInvocation QualifiedName systemerr
+print stack trace SimpleName MethodInvocation QualifiedName systemerr
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,33 @@
+system SimpleName MethodInvocation SimpleName get security manager
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get security manager
+security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName check permission
+sm SimpleName MethodInvocation SimpleName table manager permission
+check permission SimpleName MethodInvocation SimpleName table manager permission
+table manager SimpleName Assignment ClassInstanceCreation SimpleType SimpleName table manager
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName table manager
+public Modifier MethodDeclaration SimpleName get instance
+public Modifier MethodDeclaration Block ReturnStatement SimpleName table manager
+synchronized Modifier MethodDeclaration Modifier static
+synchronized Modifier MethodDeclaration SimpleType SimpleName table manager
+synchronized Modifier MethodDeclaration SimpleName get instance
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName table manager
+static Modifier MethodDeclaration SimpleType SimpleName table manager
+static Modifier MethodDeclaration SimpleName get instance
+static Modifier MethodDeclaration Block ReturnStatement SimpleName table manager
+table manager SimpleName SimpleType MethodDeclaration SimpleName get instance
+get instance SimpleName MethodDeclaration Block ReturnStatement SimpleName table manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table manager
+public Modifier TypeDeclaration MethodDeclaration SimpleName get instance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table manager
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get instance

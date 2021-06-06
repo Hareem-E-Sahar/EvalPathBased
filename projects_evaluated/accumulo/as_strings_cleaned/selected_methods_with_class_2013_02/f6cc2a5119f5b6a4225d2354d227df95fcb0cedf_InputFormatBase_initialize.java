@@ -1,0 +1,285 @@
+input split SimpleName SimpleType SingleVariableDeclaration SimpleName in split
+job conf SimpleName SimpleType SingleVariableDeclaration SimpleName job
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+range input split SimpleName SimpleType CastExpression SimpleName in split
+split SimpleName Assignment CastExpression SimpleType SimpleName range input split
+split SimpleName Assignment CastExpression SimpleName in split
+split SimpleName MethodInvocation SimpleName get range
+initializing input split StringLiteral InfixExpression MethodInvocation SimpleName split
+initializing input split StringLiteral InfixExpression MethodInvocation SimpleName get range
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral initializing input split
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+debug SimpleName MethodInvocation InfixExpression StringLiteral initializing input split
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName split
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get range
+get instance SimpleName MethodInvocation SimpleName job
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+instance SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+get username SimpleName MethodInvocation SimpleName job
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName get username
+user SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user
+get password SimpleName MethodInvocation SimpleName job
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName get password
+password SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName password
+get scan authorizations SimpleName MethodInvocation SimpleName job
+authorizations SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scan authorizations
+authorizations SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+authorizations SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName authorizations
+creating connector with user StringLiteral InfixExpression SimpleName user
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating connector with user
+log SimpleName MethodInvocation InfixExpression SimpleName user
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating connector with user
+debug SimpleName MethodInvocation InfixExpression SimpleName user
+instance SimpleName MethodInvocation SimpleName get connector
+instance SimpleName MethodInvocation SimpleName user
+instance SimpleName MethodInvocation SimpleName password
+get connector SimpleName MethodInvocation SimpleName user
+get connector SimpleName MethodInvocation SimpleName password
+user SimpleName MethodInvocation SimpleName password
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName user
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName password
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+get input table name SimpleName MethodInvocation SimpleName job
+creating scanner for table StringLiteral InfixExpression MethodInvocation SimpleName get input table name
+creating scanner for table StringLiteral InfixExpression MethodInvocation SimpleName job
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral creating scanner for table
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get input table name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+debug SimpleName MethodInvocation InfixExpression StringLiteral creating scanner for table
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get input table name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+authorizations are StringLiteral InfixExpression SimpleName authorizations
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral authorizations are
+log SimpleName MethodInvocation InfixExpression SimpleName authorizations
+debug SimpleName MethodInvocation InfixExpression StringLiteral authorizations are
+debug SimpleName MethodInvocation InfixExpression SimpleName authorizations
+is offline scan SimpleName MethodInvocation SimpleName job
+byte buffer SimpleName MethodInvocation SimpleName wrap
+byte buffer SimpleName MethodInvocation SimpleName password
+wrap SimpleName MethodInvocation SimpleName password
+instance SimpleName MethodInvocation SimpleName get instance id
+credentials SimpleName SimpleType ClassInstanceCreation SimpleName user
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName password
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance
+credentials SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance id
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName byte buffer
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName wrap
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName password
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName instance
+user SimpleName ClassInstanceCreation MethodInvocation SimpleName get instance id
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+byte buffer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+wrap SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+password SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName instance
+password SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id
+get input table name SimpleName MethodInvocation SimpleName job
+tables SimpleName MethodInvocation SimpleName get table id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation MethodInvocation SimpleName get input table name
+tables SimpleName MethodInvocation MethodInvocation SimpleName job
+get table id SimpleName MethodInvocation SimpleName instance
+get table id SimpleName MethodInvocation MethodInvocation SimpleName get input table name
+get table id SimpleName MethodInvocation MethodInvocation SimpleName job
+instance SimpleName MethodInvocation MethodInvocation SimpleName get input table name
+instance SimpleName MethodInvocation MethodInvocation SimpleName job
+offline scanner SimpleName SimpleType ClassInstanceCreation SimpleName instance
+offline scanner SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName user
+offline scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tables
+offline scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get table id
+offline scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName instance
+offline scanner SimpleName SimpleType ClassInstanceCreation SimpleName authorizations
+instance SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName credentials
+instance SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName user
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName byte buffer
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName wrap
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName password
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName instance
+instance SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get instance id
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName tables
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName get table id
+instance SimpleName ClassInstanceCreation MethodInvocation SimpleName instance
+instance SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get input table name
+instance SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName job
+instance SimpleName ClassInstanceCreation SimpleName authorizations
+user SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName tables
+user SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName get table id
+user SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName instance
+credentials SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+user SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+byte buffer SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+wrap SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+password SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+instance SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+get instance id SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName authorizations
+tables SimpleName MethodInvocation ClassInstanceCreation SimpleName authorizations
+get table id SimpleName MethodInvocation ClassInstanceCreation SimpleName authorizations
+instance SimpleName MethodInvocation ClassInstanceCreation SimpleName authorizations
+get input table name SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName authorizations
+job SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName authorizations
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName offline scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleName instance
+scanner SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName user
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName tables
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get table id
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName instance
+scanner SimpleName Assignment ClassInstanceCreation SimpleName authorizations
+get input table name SimpleName MethodInvocation SimpleName job
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation MethodInvocation SimpleName get input table name
+conn SimpleName MethodInvocation MethodInvocation SimpleName job
+conn SimpleName MethodInvocation SimpleName authorizations
+create scanner SimpleName MethodInvocation MethodInvocation SimpleName get input table name
+create scanner SimpleName MethodInvocation MethodInvocation SimpleName job
+create scanner SimpleName MethodInvocation SimpleName authorizations
+get input table name SimpleName MethodInvocation MethodInvocation SimpleName authorizations
+job SimpleName MethodInvocation MethodInvocation SimpleName authorizations
+scanner SimpleName Assignment MethodInvocation SimpleName conn
+scanner SimpleName Assignment MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment MethodInvocation MethodInvocation SimpleName get input table name
+scanner SimpleName Assignment MethodInvocation MethodInvocation SimpleName job
+scanner SimpleName Assignment MethodInvocation SimpleName authorizations
+is isolated SimpleName MethodInvocation SimpleName job
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral creating isolated scanner
+info SimpleName MethodInvocation StringLiteral creating isolated scanner
+isolated scanner SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName isolated scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleName scanner
+uses local iterators SimpleName MethodInvocation SimpleName job
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral using local iterators
+info SimpleName MethodInvocation StringLiteral using local iterators
+client side iterator scanner SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName client side iterator scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleName scanner
+setup iterators SimpleName MethodInvocation SimpleName job
+setup iterators SimpleName MethodInvocation SimpleName scanner
+job SimpleName MethodInvocation SimpleName scanner
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+text SimpleName SimpleType ParameterizedType SimpleType SimpleName text
+pair SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+text SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName c
+get fetched columns SimpleName MethodInvocation SimpleName job
+c SimpleName MethodInvocation SimpleName get second
+c SimpleName MethodInvocation SimpleName get first
+c SimpleName MethodInvocation SimpleName get second
+fetching column StringLiteral InfixExpression MethodInvocation SimpleName c
+fetching column StringLiteral InfixExpression MethodInvocation SimpleName get first
+fetching column StringLiteral InfixExpression StringLiteral :
+fetching column StringLiteral InfixExpression MethodInvocation SimpleName c
+fetching column StringLiteral InfixExpression MethodInvocation SimpleName get second
+c SimpleName MethodInvocation InfixExpression StringLiteral :
+get first SimpleName MethodInvocation InfixExpression StringLiteral :
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+c SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+get first SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+get first SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+: StringLiteral InfixExpression MethodInvocation SimpleName c
+: StringLiteral InfixExpression MethodInvocation SimpleName get second
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral fetching column
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+debug SimpleName MethodInvocation InfixExpression StringLiteral fetching column
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+debug SimpleName MethodInvocation InfixExpression StringLiteral :
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get second
+c SimpleName MethodInvocation SimpleName get first
+c SimpleName MethodInvocation SimpleName get second
+scanner SimpleName MethodInvocation SimpleName fetch column
+scanner SimpleName MethodInvocation MethodInvocation SimpleName c
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get first
+scanner SimpleName MethodInvocation MethodInvocation SimpleName c
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get second
+fetch column SimpleName MethodInvocation MethodInvocation SimpleName c
+fetch column SimpleName MethodInvocation MethodInvocation SimpleName get first
+fetch column SimpleName MethodInvocation MethodInvocation SimpleName c
+fetch column SimpleName MethodInvocation MethodInvocation SimpleName get second
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get second
+c SimpleName MethodInvocation SimpleName get first
+fetching column family StringLiteral InfixExpression MethodInvocation SimpleName c
+fetching column family StringLiteral InfixExpression MethodInvocation SimpleName get first
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral fetching column family
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+debug SimpleName MethodInvocation InfixExpression StringLiteral fetching column family
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get first
+c SimpleName MethodInvocation SimpleName get first
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation MethodInvocation SimpleName c
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get first
+fetch column family SimpleName MethodInvocation MethodInvocation SimpleName c
+fetch column family SimpleName MethodInvocation MethodInvocation SimpleName get first
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get fetched columns
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName job
+split SimpleName MethodInvocation SimpleName get range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation SimpleName split
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get range
+set range SimpleName MethodInvocation MethodInvocation SimpleName split
+set range SimpleName MethodInvocation MethodInvocation SimpleName get range
+num keys read SimpleName Assignment NumberLiteral empty
+scanner SimpleName MethodInvocation SimpleName iterator
+scanner iterator SimpleName Assignment MethodInvocation SimpleName scanner
+scanner iterator SimpleName Assignment MethodInvocation SimpleName iterator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in split
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName in split
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input split
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in split
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job conf
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+initialize SimpleName MethodDeclaration SimpleType SimpleName io exception
+in split SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+in split SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+job SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName connection
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName audit log connections
+connection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName audit log connections
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName audit log connections
+audit log connections SimpleName FieldAccess Assignment ClassInstanceCreation SimpleName audit log connections
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set audit log connections
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName audit log connections
+void PrimitiveType MethodDeclaration SimpleName set audit log connections
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName audit log connections
+set audit log connections SimpleName MethodDeclaration SingleVariableDeclaration SimpleName audit log connections
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set audit log connections
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log connections
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set audit log connections
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName audit log connections

@@ -1,0 +1,19 @@
+principal token SimpleName SimpleType SingleVariableDeclaration SimpleName principal token
+principal token SimpleName FieldAccess Assignment SimpleName principal token
+public Modifier MethodDeclaration SimpleType SimpleName create writer args
+public Modifier MethodDeclaration SimpleName set principal token
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName principal token
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName principal token
+create writer args SimpleName SimpleType MethodDeclaration SimpleName set principal token
+create writer args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName principal token
+set principal token SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName principal token
+set principal token SimpleName MethodDeclaration SingleVariableDeclaration SimpleName principal token
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set principal token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName principal token
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName create writer args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set principal token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName principal token

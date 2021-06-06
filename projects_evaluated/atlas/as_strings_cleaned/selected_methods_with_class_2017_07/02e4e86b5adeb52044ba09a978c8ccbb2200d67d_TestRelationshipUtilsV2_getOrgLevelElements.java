@@ -1,0 +1,90 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas enum element def
+description SimpleName MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName description
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation SimpleName description
+l StringLiteral ClassInstanceCreation MethodInvocation StringLiteral l
+l StringLiteral ClassInstanceCreation NumberLiteral empty
+description SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+description SimpleName MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName description
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation SimpleName description
+l StringLiteral ClassInstanceCreation MethodInvocation StringLiteral l
+l StringLiteral ClassInstanceCreation NumberLiteral empty
+description SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+description SimpleName MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName description
+atlas enum element def SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral l
+atlas enum element def SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation SimpleName description
+l StringLiteral ClassInstanceCreation MethodInvocation StringLiteral l
+l StringLiteral ClassInstanceCreation NumberLiteral empty
+description SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+arrays SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+arrays SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas enum element def
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName description
+as list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral l
+as list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+l StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral l
+empty NumberLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation NumberLiteral empty
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas enum element def
+private Modifier MethodDeclaration SimpleName get org level elements
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas enum element def
+static Modifier MethodDeclaration SimpleName get org level elements
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get org level elements
+atlas enum element def SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get org level elements
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get org level elements
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get org level elements

@@ -1,0 +1,27 @@
+vfs class loader SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+cl SimpleName FieldAccess Assignment SimpleName cl
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set classloader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vfs class loader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set classloader
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vfs class loader
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cl
+void PrimitiveType MethodDeclaration SimpleName set classloader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vfs class loader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cl
+set classloader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName vfs class loader
+set classloader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set classloader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set classloader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cl

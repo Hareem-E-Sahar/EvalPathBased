@@ -1,0 +1,110 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName file name
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral atlasconf
+get property SimpleName MethodInvocation StringLiteral atlasconf
+conf location SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+conf location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+conf location SimpleName VariableDeclarationFragment MethodInvocation StringLiteral atlasconf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf location
+/ StringLiteral InfixExpression SimpleName file name
+application properties SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get resource
+get resource SimpleName MethodInvocation InfixExpression StringLiteral /
+get resource SimpleName MethodInvocation InfixExpression SimpleName file name
+file SimpleName SimpleType ClassInstanceCreation SimpleName conf location
+file SimpleName SimpleType ClassInstanceCreation SimpleName file name
+conf location SimpleName ClassInstanceCreation SimpleName file name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to uri
+conf location SimpleName ClassInstanceCreation MethodInvocation SimpleName to uri
+file name SimpleName ClassInstanceCreation MethodInvocation SimpleName to uri
+conf location SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName to url
+file name SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName to url
+to uri SimpleName MethodInvocation MethodInvocation SimpleName to url
+conf location SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get resource
+conf location SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName to url
+get resource SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName to url
+url SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName conf location
+url SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName to url
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral loading {} from {}
+log SimpleName MethodInvocation SimpleName file name
+log SimpleName MethodInvocation SimpleName url
+info SimpleName MethodInvocation StringLiteral loading {} from {}
+info SimpleName MethodInvocation SimpleName file name
+info SimpleName MethodInvocation SimpleName url
+loading {} from {} StringLiteral MethodInvocation SimpleName file name
+loading {} from {} StringLiteral MethodInvocation SimpleName url
+file name SimpleName MethodInvocation SimpleName url
+application properties SimpleName SimpleType ClassInstanceCreation SimpleName url
+configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName application properties
+configuration SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName url
+application properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configuration SimpleName MethodInvocation SimpleName get keys
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName configuration
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get keys
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral configuration loaded
+debug SimpleName MethodInvocation StringLiteral configuration loaded
+keys SimpleName MethodInvocation SimpleName has next
+keys SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+configuration SimpleName MethodInvocation SimpleName get property
+configuration SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral {} = {}
+log SimpleName MethodInvocation SimpleName key
+log SimpleName MethodInvocation MethodInvocation SimpleName configuration
+log SimpleName MethodInvocation MethodInvocation SimpleName get property
+log SimpleName MethodInvocation MethodInvocation SimpleName key
+debug SimpleName MethodInvocation StringLiteral {} = {}
+debug SimpleName MethodInvocation SimpleName key
+debug SimpleName MethodInvocation MethodInvocation SimpleName configuration
+debug SimpleName MethodInvocation MethodInvocation SimpleName get property
+debug SimpleName MethodInvocation MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation SimpleName key
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName configuration
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName get property
+{} = {} StringLiteral MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation SimpleName configuration
+key SimpleName MethodInvocation MethodInvocation SimpleName get property
+key SimpleName MethodInvocation MethodInvocation SimpleName key
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral failed to load application properties
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+failed to load application properties StringLiteral ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+static Modifier MethodDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SimpleName get
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file name
+static Modifier MethodDeclaration SimpleType SimpleName atlas exception
+configuration SimpleName SimpleType MethodDeclaration SimpleName get
+configuration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName file name
+configuration SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file name
+get SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

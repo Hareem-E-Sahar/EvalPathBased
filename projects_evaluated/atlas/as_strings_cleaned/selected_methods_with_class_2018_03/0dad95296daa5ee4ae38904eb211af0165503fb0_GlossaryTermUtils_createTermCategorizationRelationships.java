@@ -1,0 +1,102 @@
+atlas glossary term SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName categories
+atlas term categorization header SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName categories
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName categories
+is not empty SimpleName MethodInvocation SimpleName categories
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas term categorization header
+existing SimpleName MethodInvocation SimpleName get categories
+existing categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName existing
+existing categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get categories
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration SimpleName categorization header
+objects SimpleName MethodInvocation SimpleName non null
+objects SimpleName MethodInvocation SimpleName existing categories
+non null SimpleName MethodInvocation SimpleName existing categories
+existing categories SimpleName MethodInvocation SimpleName contains
+existing categories SimpleName MethodInvocation SimpleName categorization header
+contains SimpleName MethodInvocation SimpleName categorization header
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing categories
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+objects SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName categorization header
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing categories
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+non null SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName categorization header
+existing categories SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName existing categories
+existing categories SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+existing categories SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName categorization header
+categorization header SimpleName MethodInvocation SimpleName get category guid
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral skipping existing category guid
+log SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+log SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+debug SimpleName MethodInvocation StringLiteral skipping existing category guid
+debug SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+debug SimpleName MethodInvocation MethodInvocation SimpleName get category guid
+skipping existing category guid StringLiteral MethodInvocation MethodInvocation SimpleName categorization header
+skipping existing category guid StringLiteral MethodInvocation MethodInvocation SimpleName get category guid
+existing SimpleName MethodInvocation SimpleName get guid
+categorization header SimpleName MethodInvocation SimpleName get display text
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral creating relation between term = {} and category = {}
+log SimpleName MethodInvocation MethodInvocation SimpleName existing
+log SimpleName MethodInvocation MethodInvocation SimpleName get guid
+log SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+log SimpleName MethodInvocation MethodInvocation SimpleName get display text
+debug SimpleName MethodInvocation StringLiteral creating relation between term = {} and category = {}
+debug SimpleName MethodInvocation MethodInvocation SimpleName existing
+debug SimpleName MethodInvocation MethodInvocation SimpleName get guid
+debug SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+debug SimpleName MethodInvocation MethodInvocation SimpleName get display text
+creating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName existing
+creating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName get guid
+creating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName categorization header
+creating relation between term = {} and category = {} StringLiteral MethodInvocation MethodInvocation SimpleName get display text
+existing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categorization header
+existing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName categorization header
+get guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get display text
+existing SimpleName MethodInvocation SimpleName get guid
+define categorized term SimpleName MethodInvocation SimpleName categorization header
+define categorized term SimpleName MethodInvocation MethodInvocation SimpleName existing
+define categorized term SimpleName MethodInvocation MethodInvocation SimpleName get guid
+categorization header SimpleName MethodInvocation MethodInvocation SimpleName existing
+categorization header SimpleName MethodInvocation MethodInvocation SimpleName get guid
+create relationship SimpleName MethodInvocation MethodInvocation SimpleName define categorized term
+create relationship SimpleName MethodInvocation MethodInvocation SimpleName categorization header
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName existing
+create relationship SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get guid
+atlas term categorization header SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName categories
+categorization header SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName categories
+categories SimpleName EnhancedForStatement Block IfStatement SimpleName debug enabled
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create term categorization relationships
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName categories
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName create term categorization relationships
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName categories
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+create term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary term
+create term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+create term categorization relationships SimpleName MethodDeclaration SingleVariableDeclaration SimpleName categories
+create term categorization relationships SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+categories SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create term categorization relationships
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create term categorization relationships
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName categories
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

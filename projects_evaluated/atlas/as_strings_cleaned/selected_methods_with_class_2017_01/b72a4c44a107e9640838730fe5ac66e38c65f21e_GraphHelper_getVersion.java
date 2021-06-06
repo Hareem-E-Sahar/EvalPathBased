@@ -1,0 +1,31 @@
+atlas element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName get property
+element SimpleName MethodInvocation QualifiedName constantsversion property key
+element SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+get property SimpleName MethodInvocation QualifiedName constantsversion property key
+get property SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+constantsversion property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName integer
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName integer
+public Modifier MethodDeclaration SimpleName get version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName integer
+static Modifier MethodDeclaration SimpleName get version
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+integer SimpleName SimpleType MethodDeclaration SimpleName get version
+integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas element
+get version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

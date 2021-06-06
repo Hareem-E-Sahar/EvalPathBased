@@ -1,0 +1,95 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+final Modifier VariableDeclarationStatement SimpleType SimpleName list
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+val SimpleName InstanceofExpression SimpleType SimpleName list
+list SimpleName SimpleType CastExpression SimpleName val
+ret SimpleName Assignment CastExpression SimpleType SimpleName list
+ret SimpleName Assignment CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName collection
+collection SimpleName SimpleType CastExpression SimpleName val
+val SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName size
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName len
+ret SimpleName Assignment ClassInstanceCreation SimpleName len
+object SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+collection SimpleName SimpleType CastExpression SimpleName val
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName elem
+add SimpleName MethodInvocation SimpleName elem
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation MethodInvocation SimpleName is array
+get class SimpleName MethodInvocation MethodInvocation SimpleName is array
+array SimpleName MethodInvocation SimpleName get length
+array SimpleName MethodInvocation SimpleName val
+get length SimpleName MethodInvocation SimpleName val
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName array
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName len
+ret SimpleName Assignment ClassInstanceCreation SimpleName len
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+array SimpleName MethodInvocation SimpleName get
+array SimpleName MethodInvocation SimpleName val
+array SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName val
+get SimpleName MethodInvocation SimpleName i
+val SimpleName MethodInvocation SimpleName i
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation MethodInvocation SimpleName array
+ret SimpleName MethodInvocation MethodInvocation SimpleName get
+ret SimpleName MethodInvocation MethodInvocation SimpleName val
+ret SimpleName MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName array
+add SimpleName MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName val
+add SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+val SimpleName InstanceofExpression SimpleType SimpleName string
+val SimpleName MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName val
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+from json SimpleName MethodInvocation MethodInvocation SimpleName val
+from json SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName list
+ret SimpleName Assignment MethodInvocation SimpleName atlas type
+ret SimpleName Assignment MethodInvocation SimpleName from json
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName val
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName list
+private Modifier MethodDeclaration SimpleName get list from value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType MethodDeclaration SimpleName get list from value
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+get list from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get list from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get list from value SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get list from value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get list from value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get list from value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

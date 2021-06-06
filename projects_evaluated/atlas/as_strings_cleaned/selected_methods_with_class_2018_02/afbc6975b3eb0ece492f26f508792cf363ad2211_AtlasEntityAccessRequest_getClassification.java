@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier MethodDeclaration SimpleName get classification
+public Modifier MethodDeclaration Block ReturnStatement SimpleName classification
+atlas classification SimpleName SimpleType MethodDeclaration SimpleName get classification
+get classification SimpleName MethodDeclaration Block ReturnStatement SimpleName classification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+public Modifier TypeDeclaration MethodDeclaration SimpleName get classification
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas classification
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get classification

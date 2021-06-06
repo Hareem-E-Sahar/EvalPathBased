@@ -1,0 +1,50 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+javautilfunctionfunction QualifiedName SimpleType TypeLiteral MethodInvocation SimpleName get name
+extra imports SimpleName MethodInvocation SimpleName add
+extra imports SimpleName MethodInvocation MethodInvocation SimpleName get name
+add SimpleName MethodInvocation MethodInvocation SimpleName get name
+p SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression StringLiteral .*
+extra static imports SimpleName MethodInvocation SimpleName add
+extra static imports SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+extra static imports SimpleName MethodInvocation InfixExpression StringLiteral .*
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+add SimpleName MethodInvocation InfixExpression StringLiteral .*
+empty SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression StringLiteral .*
+extra static imports SimpleName MethodInvocation SimpleName add
+extra static imports SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+extra static imports SimpleName MethodInvocation InfixExpression StringLiteral .*
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+add SimpleName MethodInvocation InfixExpression StringLiteral .*
+default import customizer provider SimpleName SimpleType ClassInstanceCreation SimpleName extra imports
+default import customizer provider SimpleName SimpleType ClassInstanceCreation SimpleName extra static imports
+extra imports SimpleName ClassInstanceCreation SimpleName extra static imports
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default import customizer provider
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName extra imports
+provider SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName extra static imports
+compiler customizer provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName provider
+gremlin groovy script engine SimpleName SimpleType ClassInstanceCreation SimpleName provider
+script engine SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gremlin groovy script engine
+script engine SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName provider
+gremlin groovy script engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName script engine
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName gremlin groovy script engine
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get gremlin script engine
+public Modifier MethodDeclaration SimpleType SimpleName gremlin groovy script engine
+public Modifier MethodDeclaration SimpleName get gremlin script engine
+public Modifier MethodDeclaration Block ReturnStatement SimpleName script engine
+gremlin groovy script engine SimpleName SimpleType MethodDeclaration SimpleName get gremlin script engine
+get gremlin script engine SimpleName MethodDeclaration Block ReturnStatement SimpleName script engine
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gremlin groovy script engine
+public Modifier TypeDeclaration MethodDeclaration SimpleName get gremlin script engine
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gremlin groovy script engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get gremlin script engine

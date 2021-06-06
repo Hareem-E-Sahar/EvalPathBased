@@ -1,0 +1,51 @@
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get
+value SimpleName MethodInvocation SimpleName get
+value SimpleName MethodInvocation FieldAccess SimpleName length
+get SimpleName MethodInvocation FieldAccess SimpleName length
+append bytes SimpleName MethodInvocation SimpleName sb
+append bytes SimpleName MethodInvocation MethodInvocation SimpleName value
+append bytes SimpleName MethodInvocation MethodInvocation SimpleName get
+append bytes SimpleName MethodInvocation NumberLiteral empty
+append bytes SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName value
+append bytes SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+append bytes SimpleName MethodInvocation FieldAccess SimpleName length
+sb SimpleName MethodInvocation MethodInvocation SimpleName value
+sb SimpleName MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName value
+sb SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+sb SimpleName MethodInvocation FieldAccess SimpleName length
+value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+get SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName length
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName value
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation FieldAccess SimpleName length
+static Modifier MethodDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SimpleName append value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sb
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+string builder SimpleName SimpleType MethodDeclaration SimpleName append value
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sb
+string builder SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+append value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string builder
+append value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sb
+append value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+append value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+sb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+public Modifier TypeDeclaration MethodDeclaration SimpleName append value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string builder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

@@ -1,0 +1,500 @@
+file system SimpleName SimpleType SingleVariableDeclaration SimpleName fs
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+uuid SimpleName SimpleType SingleVariableDeclaration SimpleName uuid
+file status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fstat
+server constants SimpleName MethodInvocation SimpleName get root tablet dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get root tablet dir
+root tablet SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+root tablet SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName server constants
+root tablet SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get root tablet dir
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName root tablet
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root tablet
+server constants SimpleName MethodInvocation SimpleName get metadata table dir
+server constants SimpleName MethodInvocation InfixExpression QualifiedName constantstable tablet location
+get metadata table dir SimpleName MethodInvocation InfixExpression QualifiedName constantstable tablet location
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantstable tablet location
+table metadata tablet SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+table metadata tablet SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantstable tablet location
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName table metadata tablet
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table metadata tablet
+server constants SimpleName MethodInvocation SimpleName get metadata table dir
+server constants SimpleName MethodInvocation InfixExpression QualifiedName constantsdefault tablet location
+get metadata table dir SimpleName MethodInvocation InfixExpression QualifiedName constantsdefault tablet location
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantsdefault tablet location
+default metadata tablet SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+default metadata tablet SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName constantsdefault tablet location
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName default metadata tablet
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default metadata tablet
+server constants SimpleName MethodInvocation SimpleName get metadata table dir
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata table dir
+metadata table dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+metadata table dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName server constants
+metadata table dir SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata table dir
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata table dir
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata table dir
+server constants SimpleName MethodInvocation SimpleName get data version location
+empty StringLiteral InfixExpression QualifiedName constantsdata version
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get data version location
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+path SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName constantsdata version
+server constants SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+server constants SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName constantsdata version
+get data version location SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+get data version location SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName constantsdata version
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data version location
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+fs SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName constantsdata version
+mkdirs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+mkdirs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server constants
+mkdirs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get data version location
+mkdirs SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+mkdirs SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName constantsdata version
+server constants SimpleName MethodInvocation SimpleName get instance id location
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation MethodInvocation SimpleName get instance id location
+mkdirs SimpleName MethodInvocation MethodInvocation SimpleName server constants
+mkdirs SimpleName MethodInvocation MethodInvocation SimpleName get instance id location
+server constants SimpleName MethodInvocation SimpleName get instance id location
+uuid SimpleName MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName server constants
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance id location
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName uuid
+path SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+server constants SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+server constants SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get instance id location SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+get instance id location SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName create new file
+fs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server constants
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id location
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+fs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+create new file SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName path
+create new file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName server constants
+create new file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get instance id location
+create new file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName uuid
+create new file SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName metadata table dir
+get file status SimpleName MethodInvocation SimpleName metadata table dir
+fstat SimpleName Assignment MethodInvocation SimpleName fs
+fstat SimpleName Assignment MethodInvocation SimpleName get file status
+fstat SimpleName Assignment MethodInvocation SimpleName metadata table dir
+fstat SimpleName MethodInvocation SimpleName is dir
+metadata table dir SimpleName MethodInvocation SimpleName to string
+location StringLiteral InfixExpression MethodInvocation SimpleName metadata table dir
+location StringLiteral InfixExpression MethodInvocation SimpleName to string
+location StringLiteral InfixExpression StringLiteral exists but is not a directory
+metadata table dir SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+to string SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral location
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata table dir
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+fatal SimpleName MethodInvocation InfixExpression StringLiteral location
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata table dir
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName metadata table dir
+mkdirs SimpleName MethodInvocation SimpleName metadata table dir
+metadata table dir SimpleName MethodInvocation SimpleName to string
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName metadata table dir
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata table dir
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName metadata table dir
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fs SimpleName MethodInvocation SimpleName get file status
+fs SimpleName MethodInvocation SimpleName root tablet
+get file status SimpleName MethodInvocation SimpleName root tablet
+fstat SimpleName Assignment MethodInvocation SimpleName fs
+fstat SimpleName Assignment MethodInvocation SimpleName get file status
+fstat SimpleName Assignment MethodInvocation SimpleName root tablet
+fstat SimpleName MethodInvocation SimpleName is dir
+root tablet SimpleName MethodInvocation SimpleName to string
+location StringLiteral InfixExpression MethodInvocation SimpleName root tablet
+location StringLiteral InfixExpression MethodInvocation SimpleName to string
+location StringLiteral InfixExpression StringLiteral exists but is not a directory
+root tablet SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+to string SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral location
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+fatal SimpleName MethodInvocation InfixExpression StringLiteral location
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral exists but is not a directory
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnfe
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName root tablet
+mkdirs SimpleName MethodInvocation SimpleName root tablet
+root tablet SimpleName MethodInvocation SimpleName to string
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName root tablet
+unable to create directory StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName fatal
+log SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+fatal SimpleName MethodInvocation InfixExpression StringLiteral unable to create directory
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName root tablet
+fatal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+server constants SimpleName MethodInvocation SimpleName get metadata table dir
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+file operations SimpleName MethodInvocation SimpleName get new file extension
+file operations SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+file operations SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+get new file extension SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+get new file extension SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+server constants SimpleName MethodInvocation InfixExpression StringLiteral root tablet .
+get metadata table dir SimpleName MethodInvocation InfixExpression StringLiteral root tablet .
+server constants SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file operations
+server constants SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get new file extension
+get metadata table dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName file operations
+get metadata table dir SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get new file extension
+root tablet . StringLiteral InfixExpression MethodInvocation SimpleName file operations
+root tablet . StringLiteral InfixExpression MethodInvocation SimpleName get new file extension
+root tablet . StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName accumulo configuration
+root tablet . StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get default configuration
+init root tab file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server constants
+init root tab file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get metadata table dir
+init root tab file SimpleName VariableDeclarationFragment InfixExpression StringLiteral root tablet .
+init root tab file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName file operations
+init root tab file SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get new file extension
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName init root tab file
+file operations SimpleName MethodInvocation SimpleName get instance
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open writer
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open writer
+file operations SimpleName MethodInvocation MethodInvocation SimpleName init root tab file
+get instance SimpleName MethodInvocation MethodInvocation SimpleName init root tab file
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation SimpleName conf
+get instance SimpleName MethodInvocation MethodInvocation SimpleName conf
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo configuration
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default configuration
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName accumulo configuration
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default configuration
+open writer SimpleName MethodInvocation SimpleName init root tab file
+open writer SimpleName MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation SimpleName conf
+open writer SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+open writer SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+init root tab file SimpleName MethodInvocation SimpleName fs
+init root tab file SimpleName MethodInvocation SimpleName conf
+init root tab file SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+init root tab file SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+fs SimpleName MethodInvocation SimpleName conf
+fs SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName accumulo configuration
+conf SimpleName MethodInvocation MethodInvocation SimpleName get default configuration
+mfw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+mfw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+mfw SimpleName VariableDeclarationFragment MethodInvocation SimpleName open writer
+mfw SimpleName VariableDeclarationFragment MethodInvocation SimpleName init root tab file
+mfw SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+mfw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+mfw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName accumulo configuration
+mfw SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get default configuration
+file skv writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mfw
+mfw SimpleName MethodInvocation SimpleName start default locality group
+constantsroot tablet extent QualifiedName MethodInvocation SimpleName get metadata entry
+root extent SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantsroot tablet extent
+root extent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root extent
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName root extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+root extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+root extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+root extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+root extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+root extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root extent
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+root dir key SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root dir key
+root tablet StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral root tablet
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName root dir key
+mfw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mfw SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral root tablet
+mfw SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+append SimpleName MethodInvocation SimpleName root dir key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral root tablet
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+root dir key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+root dir key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral root tablet
+root dir key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName root extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+root extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+root extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+root extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+root extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+root extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root extent
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+root prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root prev row key
+byte PrimitiveType ArrayType ArrayCreation ArrayInitializer NumberLiteral empty
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName root prev row key
+mfw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+append SimpleName MethodInvocation SimpleName root prev row key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+root prev row key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+text SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+constantsmetadata reserved keyspace start key QualifiedName MethodInvocation SimpleName get row
+key extent SimpleName MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+key extent SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata reserved keyspace start key
+key extent SimpleName MethodInvocation MethodInvocation SimpleName get row
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+get metadata entry SimpleName MethodInvocation MethodInvocation QualifiedName constantsmetadata reserved keyspace start key
+get metadata entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+constantsmetadata table id QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation QualifiedName constantsmetadata reserved keyspace start key
+constantsmetadata table id QualifiedName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get row
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+table extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+table extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+table extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table extent
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName table extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table extent
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table dir key SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table dir key
+constantstable tablet location QualifiedName MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantstable tablet location
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName table dir key
+mfw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mfw SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantstable tablet location
+mfw SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+append SimpleName MethodInvocation SimpleName table dir key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantstable tablet location
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+table dir key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+table dir key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantstable tablet location
+table dir key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+constantsmetadata time column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata time column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName table extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata time column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+constantsmetadata time column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata time column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata time column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table extent
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata time column
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table time key SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table time key
+tablet timelogical time id QualifiedName InfixExpression StringLiteral empty
+tablet timelogical time id QualifiedName InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+empty StringLiteral InfixExpression ParenthesizedExpression MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName table time key
+mfw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mfw SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+append SimpleName MethodInvocation SimpleName table time key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+table time key SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+table time key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata prev row column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName table extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+table extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+table extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata prev row column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table extent
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata prev row column
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+table prev row key SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table prev row key
+text SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+key extent SimpleName MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation SimpleName encode prev end row
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key extent
+key extent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+encode prev end row SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+encode prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key extent
+encode prev end row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+mfw SimpleName MethodInvocation SimpleName append
+mfw SimpleName MethodInvocation SimpleName table prev row key
+mfw SimpleName MethodInvocation MethodInvocation SimpleName key extent
+mfw SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+append SimpleName MethodInvocation SimpleName table prev row key
+append SimpleName MethodInvocation MethodInvocation SimpleName key extent
+append SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+table prev row key SimpleName MethodInvocation MethodInvocation SimpleName key extent
+table prev row key SimpleName MethodInvocation MethodInvocation SimpleName encode prev end row
+text SimpleName SimpleType ClassInstanceCreation QualifiedName constantsmetadata table id
+key extent SimpleName MethodInvocation SimpleName get metadata entry
+key extent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+key extent SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+get metadata entry SimpleName MethodInvocation ClassInstanceCreation QualifiedName constantsmetadata table id
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key extent
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+default extent SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+default extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName key extent
+default extent SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default extent
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column family
+constantsmetadata directory column QualifiedName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName default extent
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+default extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+default extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+default extent SimpleName ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+default extent SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+default extent SimpleName ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column family SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+constantsmetadata directory column QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+default dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key
+default dir key SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName default extent
+default dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName constantsmetadata directory column
+default dir key SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get column family

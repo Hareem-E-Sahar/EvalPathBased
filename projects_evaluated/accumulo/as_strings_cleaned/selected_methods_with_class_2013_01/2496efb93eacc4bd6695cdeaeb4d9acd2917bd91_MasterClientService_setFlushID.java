@@ -1,0 +1,23 @@
+long PrimitiveType SingleVariableDeclaration SimpleName flush id
+flush id SimpleName FieldAccess Assignment SimpleName flush id
+set flush id is set SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName wait for flush args
+public Modifier MethodDeclaration SimpleName set flush id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName flush id
+wait for flush args SimpleName SimpleType MethodDeclaration SimpleName set flush id
+wait for flush args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+wait for flush args SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flush id
+set flush id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set flush id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flush id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName wait for flush args
+public Modifier TypeDeclaration MethodDeclaration SimpleName set flush id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName wait for flush args
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set flush id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id

@@ -1,0 +1,74 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName mutation
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+mutation SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName mutations
+num k vs SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num k vs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+mutations SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName mutations
+i SimpleName InfixExpression MethodInvocation SimpleName size
+mutations SimpleName MethodInvocation SimpleName get
+mutations SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+mutations SimpleName MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName MethodInvocation MethodInvocation SimpleName size
+num k vs SimpleName Assignment MethodInvocation MethodInvocation SimpleName mutations
+num k vs SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+num k vs SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+num k vs SimpleName Assignment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+next kv count SimpleName MethodInvocation SimpleName get and add
+next kv count SimpleName MethodInvocation SimpleName num k vs
+get and add SimpleName MethodInvocation SimpleName num k vs
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName next kv count
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get and add
+kv SimpleName VariableDeclarationFragment MethodInvocation SimpleName num k vs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName kv
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next kv count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get and add
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName num k vs
+map SimpleName MethodInvocation SimpleName mutate
+map SimpleName MethodInvocation SimpleName mutations
+map SimpleName MethodInvocation SimpleName kv
+mutate SimpleName MethodInvocation SimpleName mutations
+mutate SimpleName MethodInvocation SimpleName kv
+mutations SimpleName MethodInvocation SimpleName kv
+kv SimpleName InfixExpression SimpleName num k vs
+kv SimpleName InfixExpression InfixExpression NumberLiteral empty
+num k vs SimpleName InfixExpression InfixExpression NumberLiteral empty
+kv count SimpleName MethodInvocation SimpleName set
+kv count SimpleName MethodInvocation InfixExpression InfixExpression SimpleName kv
+kv count SimpleName MethodInvocation InfixExpression InfixExpression SimpleName num k vs
+kv count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation InfixExpression InfixExpression SimpleName kv
+set SimpleName MethodInvocation InfixExpression InfixExpression SimpleName num k vs
+set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+write serializer SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName write serializer
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mutate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mutations
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName write serializer
+void PrimitiveType MethodDeclaration SimpleName mutate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mutations
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName write serializer
+mutate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mutations
+mutate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+mutate SimpleName MethodDeclaration Block SynchronizedStatement SimpleName write serializer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mutate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mutate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mutations

@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName struct type definition
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName struct type definition
+public Modifier MethodDeclaration SimpleName get struct types
+public Modifier MethodDeclaration Block ReturnStatement SimpleName struct types
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get struct types
+struct type definition SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get struct types
+get struct types SimpleName MethodDeclaration Block ReturnStatement SimpleName struct types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get struct types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get struct types

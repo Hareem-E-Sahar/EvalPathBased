@@ -1,0 +1,70 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName struct container guid
+repository service SimpleName MethodInvocation SimpleName get entity definition
+repository service SimpleName MethodInvocation SimpleName struct container guid
+get entity definition SimpleName MethodInvocation SimpleName struct container guid
+struct container converted entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName repository service
+struct container converted entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity definition
+struct container converted entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct container guid
+i typed referenceable instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct container converted entity
+struct container converted entity SimpleName MethodInvocation SimpleName get
+struct container converted entity SimpleName MethodInvocation StringLiteral struct
+get SimpleName MethodInvocation StringLiteral struct
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName struct container converted entity
+i typed struct SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+i typed struct SimpleName SimpleType CastExpression MethodInvocation StringLiteral struct
+struct SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName i typed struct
+struct SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName struct container converted entity
+struct SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+struct SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral struct
+i typed struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName struct
+struct SimpleName MethodInvocation SimpleName get
+struct SimpleName MethodInvocation StringLiteral target
+get SimpleName MethodInvocation StringLiteral target
+assert null SimpleName MethodInvocation MethodInvocation SimpleName struct
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral target
+struct container converted entity SimpleName MethodInvocation SimpleName get trait
+struct container converted entity SimpleName MethodInvocation StringLiteral test trait
+get trait SimpleName MethodInvocation StringLiteral test trait
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct container converted entity
+trait SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trait
+trait SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test trait
+i struct SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trait
+assert not null SimpleName MethodInvocation SimpleName trait
+trait SimpleName MethodInvocation SimpleName get
+trait SimpleName MethodInvocation StringLiteral target
+get SimpleName MethodInvocation StringLiteral target
+assert null SimpleName MethodInvocation MethodInvocation SimpleName trait
+assert null SimpleName MethodInvocation MethodInvocation SimpleName get
+assert null SimpleName MethodInvocation MethodInvocation StringLiteral target
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName assert test disconnect unidirectional array reference from struct and trait types
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName assert test disconnect unidirectional array reference from struct and trait types
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName assert test disconnect unidirectional array reference from struct and trait types
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+assert test disconnect unidirectional array reference from struct and trait types SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert test disconnect unidirectional array reference from struct and trait types SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+assert test disconnect unidirectional array reference from struct and trait types SimpleName MethodDeclaration SimpleType SimpleName exception
+struct container guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert test disconnect unidirectional array reference from struct and trait types
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert test disconnect unidirectional array reference from struct and trait types
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct container guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

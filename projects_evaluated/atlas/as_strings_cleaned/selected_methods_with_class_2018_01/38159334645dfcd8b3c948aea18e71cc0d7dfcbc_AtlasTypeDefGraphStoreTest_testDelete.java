@@ -1,0 +1,47 @@
+depends on methods SimpleName MemberValuePair ArrayInitializer StringLiteral test update
+data provider SimpleName MemberValuePair StringLiteral all created types
+test SimpleName NormalAnnotation MemberValuePair SimpleName depends on methods
+test SimpleName NormalAnnotation MemberValuePair ArrayInitializer StringLiteral test update
+test SimpleName NormalAnnotation MemberValuePair SimpleName data provider
+test SimpleName NormalAnnotation MemberValuePair StringLiteral all created types
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName data provider
+depends on methods SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral all created types
+atlas types def SimpleName SimpleType SingleVariableDeclaration SimpleName atlas types def
+type def store SimpleName MethodInvocation SimpleName delete types def
+type def store SimpleName MethodInvocation SimpleName atlas types def
+delete types def SimpleName MethodInvocation SimpleName atlas types def
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+fail SimpleName MethodInvocation StringLiteral deletion shouldve succeeded
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+all created types StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+all created types StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test delete
+depends on methods SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete
+data provider SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete
+all created types StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName test delete
+test SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName atlas types def
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atlas types def
+void PrimitiveType MethodDeclaration SimpleName test delete
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName atlas types def
+test delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas types def
+test delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atlas types def
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas types def
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atlas types def

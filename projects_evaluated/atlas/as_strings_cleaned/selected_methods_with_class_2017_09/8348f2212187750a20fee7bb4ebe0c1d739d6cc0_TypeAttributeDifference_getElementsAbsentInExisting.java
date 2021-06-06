@@ -1,0 +1,44 @@
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+atlas enum def SimpleName SimpleType SingleVariableDeclaration SimpleName incoming
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+atlas enum defatlas enum element def QualifiedName SimpleType SingleVariableDeclaration SimpleName ed
+incoming SimpleName MethodInvocation SimpleName get element defs
+update collection with differing attributes SimpleName MethodInvocation SimpleName existing
+update collection with differing attributes SimpleName MethodInvocation SimpleName difference
+update collection with differing attributes SimpleName MethodInvocation SimpleName ed
+existing SimpleName MethodInvocation SimpleName difference
+existing SimpleName MethodInvocation SimpleName ed
+difference SimpleName MethodInvocation SimpleName ed
+ed SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName incoming
+ed SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get element defs
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+private Modifier MethodDeclaration ParameterizedType SimpleType QualifiedName atlas enum defatlas enum element def
+private Modifier MethodDeclaration SimpleName get elements absent in existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName incoming
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get elements absent in existing
+atlas enum defatlas enum element def QualifiedName SimpleType ParameterizedType MethodDeclaration SimpleName get elements absent in existing
+get elements absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+get elements absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+get elements absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas enum def
+get elements absent in existing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName incoming
+get elements absent in existing SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+get elements absent in existing SimpleName MethodDeclaration Block ReturnStatement SimpleName difference
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+incoming SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get elements absent in existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get elements absent in existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName incoming
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

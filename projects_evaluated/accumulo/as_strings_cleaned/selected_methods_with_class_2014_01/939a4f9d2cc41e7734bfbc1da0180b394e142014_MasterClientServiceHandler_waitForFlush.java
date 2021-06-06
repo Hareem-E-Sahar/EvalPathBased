@@ -1,0 +1,500 @@
+t info SimpleName SimpleType SingleVariableDeclaration SimpleName tinfo
+t credentials SimpleName SimpleType SingleVariableDeclaration SimpleName c
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName start row
+byte buffer SimpleName SimpleType SingleVariableDeclaration SimpleName end row
+long PrimitiveType SingleVariableDeclaration SimpleName flush id
+long PrimitiveType SingleVariableDeclaration SimpleName max loops
+tables SimpleName MethodInvocation SimpleName get namespace id
+tables SimpleName MethodInvocation SimpleName instance
+tables SimpleName MethodInvocation SimpleName table id
+get namespace id SimpleName MethodInvocation SimpleName instance
+get namespace id SimpleName MethodInvocation SimpleName table id
+instance SimpleName MethodInvocation SimpleName table id
+namespace id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tables
+namespace id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace id
+namespace id SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+namespace id SimpleName VariableDeclarationFragment MethodInvocation SimpleName table id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace id
+mastersecurity QualifiedName MethodInvocation SimpleName can flush
+mastersecurity QualifiedName MethodInvocation SimpleName c
+mastersecurity QualifiedName MethodInvocation SimpleName table id
+mastersecurity QualifiedName MethodInvocation SimpleName namespace id
+can flush SimpleName MethodInvocation SimpleName c
+can flush SimpleName MethodInvocation SimpleName table id
+can flush SimpleName MethodInvocation SimpleName namespace id
+c SimpleName MethodInvocation SimpleName table id
+c SimpleName MethodInvocation SimpleName namespace id
+table id SimpleName MethodInvocation SimpleName namespace id
+end row SimpleName InfixExpression InfixExpression InfixExpression SimpleName start row
+byte buffer util SimpleName MethodInvocation SimpleName to text
+byte buffer util SimpleName MethodInvocation SimpleName start row
+to text SimpleName MethodInvocation SimpleName start row
+byte buffer util SimpleName MethodInvocation SimpleName to text
+byte buffer util SimpleName MethodInvocation SimpleName end row
+to text SimpleName MethodInvocation SimpleName end row
+byte buffer util SimpleName MethodInvocation MethodInvocation SimpleName compare to
+to text SimpleName MethodInvocation MethodInvocation SimpleName compare to
+start row SimpleName MethodInvocation MethodInvocation SimpleName compare to
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to text
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to text
+to text SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to text
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+compare to SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+compare to SimpleName MethodInvocation MethodInvocation SimpleName to text
+compare to SimpleName MethodInvocation MethodInvocation SimpleName end row
+byte buffer util SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+to text SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+start row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+byte buffer util SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+to text SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+end row SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationflush
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typebad range
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral start row must be less than end row
+table id SimpleName ClassInstanceCreation QualifiedName table operationflush
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typebad range
+table id SimpleName ClassInstanceCreation StringLiteral start row must be less than end row
+table operationflush QualifiedName ClassInstanceCreation QualifiedName table operation exception typebad range
+table operationflush QualifiedName ClassInstanceCreation StringLiteral start row must be less than end row
+table operation exception typebad range QualifiedName ClassInstanceCreation StringLiteral start row must be less than end row
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName t server instance
+mastertserver set QualifiedName MethodInvocation SimpleName get current servers
+servers to flush SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName mastertserver set
+servers to flush SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get current servers
+l SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName l
+long PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+l SimpleName InfixExpression SimpleName max loops
+t server instance SimpleName SimpleType SingleVariableDeclaration SimpleName instance
+mastertserver set QualifiedName MethodInvocation SimpleName get connection
+mastertserver set QualifiedName MethodInvocation SimpleName instance
+get connection SimpleName MethodInvocation SimpleName instance
+server SimpleName VariableDeclarationFragment MethodInvocation QualifiedName mastertserver set
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connection
+server SimpleName VariableDeclarationFragment MethodInvocation SimpleName instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName t server connection
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName mastertserver set
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get connection
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName instance
+t server connection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+byte buffer util SimpleName MethodInvocation SimpleName to bytes
+byte buffer util SimpleName MethodInvocation SimpleName start row
+to bytes SimpleName MethodInvocation SimpleName start row
+byte buffer util SimpleName MethodInvocation SimpleName to bytes
+byte buffer util SimpleName MethodInvocation SimpleName end row
+to bytes SimpleName MethodInvocation SimpleName end row
+server SimpleName MethodInvocation SimpleName flush
+server SimpleName MethodInvocation QualifiedName mastermaster lock
+server SimpleName MethodInvocation SimpleName table id
+server SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+server SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+server SimpleName MethodInvocation MethodInvocation SimpleName start row
+server SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+server SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+server SimpleName MethodInvocation MethodInvocation SimpleName end row
+flush SimpleName MethodInvocation QualifiedName mastermaster lock
+flush SimpleName MethodInvocation SimpleName table id
+flush SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+flush SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+flush SimpleName MethodInvocation MethodInvocation SimpleName start row
+flush SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+flush SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+flush SimpleName MethodInvocation MethodInvocation SimpleName end row
+mastermaster lock QualifiedName MethodInvocation SimpleName table id
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName byte buffer util
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName to bytes
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName start row
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName byte buffer util
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName to bytes
+mastermaster lock QualifiedName MethodInvocation MethodInvocation SimpleName end row
+table id SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+table id SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+table id SimpleName MethodInvocation MethodInvocation SimpleName start row
+table id SimpleName MethodInvocation MethodInvocation SimpleName byte buffer util
+table id SimpleName MethodInvocation MethodInvocation SimpleName to bytes
+table id SimpleName MethodInvocation MethodInvocation SimpleName end row
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to bytes
+byte buffer util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+to bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+to bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to bytes
+to bytes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName byte buffer util
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to bytes
+start row SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName end row
+t exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName to string
+masterlog QualifiedName MethodInvocation SimpleName error
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName ex
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName to string
+error SimpleName MethodInvocation MethodInvocation SimpleName ex
+error SimpleName MethodInvocation MethodInvocation SimpleName to string
+t server instance SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName servers to flush
+instance SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName servers to flush
+max loops SimpleName InfixExpression NumberLiteral empty
+l SimpleName InfixExpression InfixExpression SimpleName max loops
+l SimpleName InfixExpression InfixExpression NumberLiteral empty
+util wait thread SimpleName MethodInvocation SimpleName sleep
+util wait thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+servers to flush SimpleName MethodInvocation SimpleName clear
+master SimpleName MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName master
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+table id SimpleName MethodInvocation SimpleName equals
+table id SimpleName MethodInvocation QualifiedName metadata tableid
+equals SimpleName MethodInvocation QualifiedName metadata tableid
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName root tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName root tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+root tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create scanner
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName root tablename
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName isolated scanner
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName conn
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName root tablename
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+metadata schematablets section QualifiedName MethodInvocation SimpleName get range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+scanner SimpleName MethodInvocation MethodInvocation SimpleName get range
+set range SimpleName MethodInvocation MethodInvocation QualifiedName metadata schematablets section
+set range SimpleName MethodInvocation MethodInvocation SimpleName get range
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName conn
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create scanner
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName metadata tablename
+isolated scanner SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName isolated scanner
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName conn
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create scanner
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName metadata tablename
+scanner SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName authorizationsempty
+text SimpleName SimpleType ClassInstanceCreation SimpleName table id
+byte buffer util SimpleName MethodInvocation SimpleName to text
+byte buffer util SimpleName MethodInvocation SimpleName start row
+to text SimpleName MethodInvocation SimpleName start row
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName table id
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to text
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start row
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName byte buffer util
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to text
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName start row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+table id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+byte buffer util SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+to text SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+start row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+tablets sectionserver column familyflush column QualifiedName MethodInvocation SimpleName fetch
+tablets sectionserver column familyflush column QualifiedName MethodInvocation SimpleName scanner
+fetch SimpleName MethodInvocation SimpleName scanner
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName fetch
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName scanner
+fetch SimpleName MethodInvocation SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+fetch column family SimpleName MethodInvocation QualifiedName tablets sectioncurrent location column familyname
+scanner SimpleName MethodInvocation SimpleName fetch column family
+scanner SimpleName MethodInvocation QualifiedName log column familyname
+fetch column family SimpleName MethodInvocation QualifiedName log column familyname
+row iterator SimpleName SimpleType ClassInstanceCreation SimpleName scanner
+ri SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName row iterator
+ri SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName scanner
+row iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+tablets to wait for SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablets to wait for
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tablet count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+byte buffer util SimpleName MethodInvocation SimpleName to text
+byte buffer util SimpleName MethodInvocation SimpleName end row
+to text SimpleName MethodInvocation SimpleName end row
+ert SimpleName VariableDeclarationFragment MethodInvocation SimpleName byte buffer util
+ert SimpleName VariableDeclarationFragment MethodInvocation SimpleName to text
+ert SimpleName VariableDeclarationFragment MethodInvocation SimpleName end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ert
+ri SimpleName MethodInvocation SimpleName has next
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+ri SimpleName MethodInvocation SimpleName next
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName ri
+row SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+tablet flush id SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet flush id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+logs SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName logs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+online SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName online
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+t server instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+row SimpleName MethodInvocation SimpleName has next
+row SimpleName MethodInvocation SimpleName next
+entry SimpleName Assignment MethodInvocation SimpleName row
+entry SimpleName Assignment MethodInvocation SimpleName next
+entry SimpleName MethodInvocation SimpleName get key
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+key SimpleName MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName get column qualifier
+tablets sectionserver column familyflush column QualifiedName MethodInvocation SimpleName equals
+tablets sectionserver column familyflush column QualifiedName MethodInvocation MethodInvocation SimpleName key
+tablets sectionserver column familyflush column QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+tablets sectionserver column familyflush column QualifiedName MethodInvocation MethodInvocation SimpleName key
+tablets sectionserver column familyflush column QualifiedName MethodInvocation MethodInvocation SimpleName get column qualifier
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column family
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key
+get column family SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get value SimpleName MethodInvocation MethodInvocation SimpleName to string
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+long SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+parse long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+parse long SimpleName MethodInvocation MethodInvocation SimpleName to string
+tablet flush id SimpleName Assignment MethodInvocation SimpleName long
+tablet flush id SimpleName Assignment MethodInvocation SimpleName parse long
+tablet flush id SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+key SimpleName MethodInvocation SimpleName get column family
+log column familyname QualifiedName MethodInvocation SimpleName equals
+log column familyname QualifiedName MethodInvocation MethodInvocation SimpleName key
+log column familyname QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column family
+key SimpleName MethodInvocation SimpleName get column family
+tablets sectioncurrent location column familyname QualifiedName MethodInvocation SimpleName equals
+tablets sectioncurrent location column familyname QualifiedName MethodInvocation MethodInvocation SimpleName key
+tablets sectioncurrent location column familyname QualifiedName MethodInvocation MethodInvocation SimpleName get column family
+equals SimpleName MethodInvocation MethodInvocation SimpleName key
+equals SimpleName MethodInvocation MethodInvocation SimpleName get column family
+online SimpleName Assignment BooleanLiteral true
+entry SimpleName MethodInvocation SimpleName get value
+key SimpleName MethodInvocation SimpleName get column qualifier
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+t server instance SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+entry SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName key
+get value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+server SimpleName Assignment ClassInstanceCreation SimpleType SimpleName t server instance
+server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName entry
+server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get value
+server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName key
+server SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+logs SimpleName InfixExpression NumberLiteral empty
+online SimpleName InfixExpression InfixExpression SimpleName logs
+online SimpleName InfixExpression InfixExpression NumberLiteral empty
+tablet flush id SimpleName InfixExpression SimpleName flush id
+servers to flush SimpleName MethodInvocation SimpleName add
+servers to flush SimpleName MethodInvocation SimpleName server
+add SimpleName MethodInvocation SimpleName server
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get row
+get key SimpleName MethodInvocation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get row
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get end row
+get row SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get end row
+tablet end row SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end row
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tablet end row
+tablet end row SimpleName MethodInvocation SimpleName compare to
+tablet end row SimpleName MethodInvocation SimpleName ert
+compare to SimpleName MethodInvocation SimpleName ert
+tablet end row SimpleName MethodInvocation InfixExpression NumberLiteral empty
+compare to SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ert SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ert SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+tablets to wait for SimpleName InfixExpression NumberLiteral empty
+tablet count SimpleName InfixExpression NumberLiteral empty
+master SimpleName MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName exists
+tables SimpleName MethodInvocation MethodInvocation SimpleName master
+tables SimpleName MethodInvocation MethodInvocation SimpleName get instance
+tables SimpleName MethodInvocation SimpleName table id
+exists SimpleName MethodInvocation MethodInvocation SimpleName master
+exists SimpleName MethodInvocation MethodInvocation SimpleName get instance
+exists SimpleName MethodInvocation SimpleName table id
+master SimpleName MethodInvocation MethodInvocation SimpleName table id
+get instance SimpleName MethodInvocation MethodInvocation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation SimpleName table id
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operationflush
+thrift table operation exception SimpleName SimpleType ClassInstanceCreation QualifiedName table operation exception typenotfound
+table id SimpleName ClassInstanceCreation QualifiedName table operationflush
+table id SimpleName ClassInstanceCreation QualifiedName table operation exception typenotfound
+table operationflush QualifiedName ClassInstanceCreation QualifiedName table operation exception typenotfound
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+accumulo exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+failed to scan StringLiteral InfixExpression QualifiedName metadata tablename
+failed to scan StringLiteral InfixExpression StringLiteral table to wait for flush
+failed to scan StringLiteral InfixExpression SimpleName table id
+metadata tablename QualifiedName InfixExpression StringLiteral table to wait for flush
+metadata tablename QualifiedName InfixExpression SimpleName table id
+table to wait for flush StringLiteral InfixExpression SimpleName table id
+masterlog QualifiedName MethodInvocation SimpleName debug
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral failed to scan
+masterlog QualifiedName MethodInvocation InfixExpression QualifiedName metadata tablename
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral table to wait for flush
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName table id
+masterlog QualifiedName MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed to scan
+debug SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+debug SimpleName MethodInvocation InfixExpression StringLiteral table to wait for flush
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation SimpleName e
+failed to scan StringLiteral InfixExpression MethodInvocation SimpleName e
+metadata tablename QualifiedName InfixExpression MethodInvocation SimpleName e
+table to wait for flush StringLiteral InfixExpression MethodInvocation SimpleName e
+table id SimpleName InfixExpression MethodInvocation SimpleName e
+tablet deleted exception SimpleName SimpleType SingleVariableDeclaration SimpleName tde
+failed to scan StringLiteral InfixExpression QualifiedName metadata tablename
+failed to scan StringLiteral InfixExpression StringLiteral table to wait for flush
+failed to scan StringLiteral InfixExpression SimpleName table id
+metadata tablename QualifiedName InfixExpression StringLiteral table to wait for flush
+metadata tablename QualifiedName InfixExpression SimpleName table id
+table to wait for flush StringLiteral InfixExpression SimpleName table id
+masterlog QualifiedName MethodInvocation SimpleName debug
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral failed to scan
+masterlog QualifiedName MethodInvocation InfixExpression QualifiedName metadata tablename
+masterlog QualifiedName MethodInvocation InfixExpression StringLiteral table to wait for flush
+masterlog QualifiedName MethodInvocation InfixExpression SimpleName table id
+masterlog QualifiedName MethodInvocation SimpleName tde
+debug SimpleName MethodInvocation InfixExpression StringLiteral failed to scan
+debug SimpleName MethodInvocation InfixExpression QualifiedName metadata tablename
+debug SimpleName MethodInvocation InfixExpression StringLiteral table to wait for flush
+debug SimpleName MethodInvocation InfixExpression SimpleName table id
+debug SimpleName MethodInvocation SimpleName tde
+failed to scan StringLiteral InfixExpression MethodInvocation SimpleName tde
+metadata tablename QualifiedName InfixExpression MethodInvocation SimpleName tde
+table to wait for flush StringLiteral InfixExpression MethodInvocation SimpleName tde
+table id SimpleName InfixExpression MethodInvocation SimpleName tde
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+masterlog QualifiedName MethodInvocation SimpleName warn
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName e
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName get message
+masterlog QualifiedName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+masterlog QualifiedName MethodInvocation SimpleName error
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName e
+masterlog QualifiedName MethodInvocation MethodInvocation SimpleName get message
+masterlog QualifiedName MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName l
+long PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max loops
+long PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName l
+l SimpleName InfixExpression ForStatement PostfixExpression SimpleName l
+max loops SimpleName InfixExpression ForStatement PostfixExpression SimpleName l
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName wait for flush
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName wait for flush
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SimpleName wait for flush
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start row
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t info
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tinfo
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName t credentials
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start row
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte buffer
+wait for flush SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end row
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+tinfo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max loops
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+table id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max loops
+table id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end row
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flush id
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+start row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max loops
+start row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+start row SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift table operation exception

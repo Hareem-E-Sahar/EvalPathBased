@@ -1,0 +1,73 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+exclude attributes cache SimpleName MethodInvocation SimpleName contains key
+exclude attributes cache SimpleName MethodInvocation SimpleName type name
+contains key SimpleName MethodInvocation SimpleName type name
+exclude attributes cache SimpleName MethodInvocation SimpleName get
+exclude attributes cache SimpleName MethodInvocation SimpleName type name
+get SimpleName MethodInvocation SimpleName type name
+ret SimpleName Assignment MethodInvocation SimpleName exclude attributes cache
+ret SimpleName Assignment MethodInvocation SimpleName get
+ret SimpleName Assignment MethodInvocation SimpleName type name
+full text exclude attribute property SimpleName InfixExpression StringLiteral .
+full text exclude attribute property SimpleName InfixExpression SimpleName type name
+full text exclude attribute property SimpleName InfixExpression StringLiteral .
+full text exclude attribute property SimpleName InfixExpression StringLiteral attributesexclude
+. StringLiteral InfixExpression SimpleName type name
+. StringLiteral InfixExpression StringLiteral .
+. StringLiteral InfixExpression StringLiteral attributesexclude
+type name SimpleName InfixExpression StringLiteral .
+type name SimpleName InfixExpression StringLiteral attributesexclude
+. StringLiteral InfixExpression StringLiteral attributesexclude
+application properties SimpleName MethodInvocation SimpleName get string array
+application properties SimpleName MethodInvocation InfixExpression SimpleName full text exclude attribute property
+application properties SimpleName MethodInvocation InfixExpression StringLiteral .
+application properties SimpleName MethodInvocation InfixExpression SimpleName type name
+application properties SimpleName MethodInvocation InfixExpression StringLiteral .
+application properties SimpleName MethodInvocation InfixExpression StringLiteral attributesexclude
+get string array SimpleName MethodInvocation InfixExpression SimpleName full text exclude attribute property
+get string array SimpleName MethodInvocation InfixExpression StringLiteral .
+get string array SimpleName MethodInvocation InfixExpression SimpleName type name
+get string array SimpleName MethodInvocation InfixExpression StringLiteral .
+get string array SimpleName MethodInvocation InfixExpression StringLiteral attributesexclude
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string array
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName full text exclude attribute property
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral .
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName type name
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral .
+exclude attributes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral attributesexclude
+array utils SimpleName MethodInvocation SimpleName is not empty
+array utils SimpleName MethodInvocation SimpleName exclude attributes
+is not empty SimpleName MethodInvocation SimpleName exclude attributes
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName exclude attributes
+as list SimpleName MethodInvocation SimpleName exclude attributes
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName arrays
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName as list
+ret SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName exclude attributes
+exclude attributes cache SimpleName MethodInvocation SimpleName put
+exclude attributes cache SimpleName MethodInvocation SimpleName type name
+exclude attributes cache SimpleName MethodInvocation SimpleName ret
+put SimpleName MethodInvocation SimpleName type name
+put SimpleName MethodInvocation SimpleName ret
+type name SimpleName MethodInvocation SimpleName ret
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get exclude attributes for index text
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get exclude attributes for index text
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get exclude attributes for index text
+get exclude attributes for index text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get exclude attributes for index text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+get exclude attributes for index text SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get exclude attributes for index text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get exclude attributes for index text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name

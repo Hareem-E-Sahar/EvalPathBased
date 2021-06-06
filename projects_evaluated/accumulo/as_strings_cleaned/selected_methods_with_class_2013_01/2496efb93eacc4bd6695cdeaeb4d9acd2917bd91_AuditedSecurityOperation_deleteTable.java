@@ -1,0 +1,59 @@
+instance token wrapper SimpleName SimpleType SingleVariableDeclaration SimpleName credentials
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+delete table SimpleName SuperMethodInvocation SimpleName credentials
+delete table SimpleName SuperMethodInvocation SimpleName table
+credentials SimpleName SuperMethodInvocation SimpleName table
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation StringLiteral deleted table s
+audit SimpleName MethodInvocation SimpleName table
+credentials SimpleName MethodInvocation StringLiteral deleted table s
+credentials SimpleName MethodInvocation SimpleName table
+deleted table s StringLiteral MethodInvocation SimpleName table
+thrift security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+audit SimpleName MethodInvocation SimpleName credentials
+audit SimpleName MethodInvocation SimpleName ex
+audit SimpleName MethodInvocation StringLiteral deleting table s
+audit SimpleName MethodInvocation SimpleName table
+credentials SimpleName MethodInvocation SimpleName ex
+credentials SimpleName MethodInvocation StringLiteral deleting table s
+credentials SimpleName MethodInvocation SimpleName table
+ex SimpleName MethodInvocation StringLiteral deleting table s
+ex SimpleName MethodInvocation SimpleName table
+deleting table s StringLiteral MethodInvocation SimpleName table
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation SimpleName ex
+debug SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete table
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier MethodDeclaration SimpleType SimpleName thrift security exception
+void PrimitiveType MethodDeclaration SimpleName delete table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName credentials
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName thrift security exception
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance token wrapper
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName credentials
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+delete table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+delete table SimpleName MethodDeclaration SimpleType SimpleName thrift security exception
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+credentials SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName credentials
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName thrift security exception

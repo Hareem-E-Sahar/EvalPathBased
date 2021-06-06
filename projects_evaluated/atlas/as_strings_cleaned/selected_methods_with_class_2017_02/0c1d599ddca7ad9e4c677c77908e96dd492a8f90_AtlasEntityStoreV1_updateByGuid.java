@@ -1,0 +1,86 @@
+atlas entity type SimpleName SimpleType SingleVariableDeclaration SimpleName entity type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+atlas entity SimpleName SimpleType SingleVariableDeclaration SimpleName updated entity
+log SimpleName MethodInvocation SimpleName is debug enabled
+entity type SimpleName MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> update by unique attributes {})
+log SimpleName MethodInvocation MethodInvocation SimpleName entity type
+log SimpleName MethodInvocation MethodInvocation SimpleName get type name
+log SimpleName MethodInvocation SimpleName guid
+debug SimpleName MethodInvocation StringLiteral ==> update by unique attributes {})
+debug SimpleName MethodInvocation MethodInvocation SimpleName entity type
+debug SimpleName MethodInvocation MethodInvocation SimpleName get type name
+debug SimpleName MethodInvocation SimpleName guid
+==> update by unique attributes {}) StringLiteral MethodInvocation MethodInvocation SimpleName entity type
+==> update by unique attributes {}) StringLiteral MethodInvocation MethodInvocation SimpleName get type name
+==> update by unique attributes {}) StringLiteral MethodInvocation SimpleName guid
+entity type SimpleName MethodInvocation MethodInvocation SimpleName guid
+get type name SimpleName MethodInvocation MethodInvocation SimpleName guid
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeinvalid parameters
+atlas base exception SimpleName SimpleType ClassInstanceCreation StringLiteral no entity to update
+atlas error codeinvalid parameters QualifiedName ClassInstanceCreation StringLiteral no entity to update
+updated entity SimpleName MethodInvocation SimpleName set guid
+updated entity SimpleName MethodInvocation SimpleName guid
+set guid SimpleName MethodInvocation SimpleName guid
+atlas entity stream SimpleName SimpleType ClassInstanceCreation SimpleName updated entity
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas entity stream
+create or update SimpleName MethodInvocation ClassInstanceCreation SimpleName updated entity
+create or update SimpleName MethodInvocation BooleanLiteral true
+atlas entity stream SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+updated entity SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName graph transaction
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update by guid
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration Modifier public
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName entity mutation response
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SimpleName update by guid
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity type
+graph transaction SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier MethodDeclaration SimpleName update by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleName update by guid
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entity type
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity mutation response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+entity mutation response SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity type
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity type
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity
+update by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+update by guid SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+entity type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+updated entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+public Modifier TypeDeclaration MethodDeclaration SimpleName update by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName graph transaction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity mutation response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

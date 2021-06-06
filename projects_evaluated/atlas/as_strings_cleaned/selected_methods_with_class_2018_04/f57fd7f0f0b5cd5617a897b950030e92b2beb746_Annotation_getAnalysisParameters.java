@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName additional properties
+public Modifier MethodDeclaration SimpleName get analysis parameters
+public Modifier MethodDeclaration Block ReturnStatement SimpleName analysis parameters
+additional properties SimpleName SimpleType MethodDeclaration SimpleName get analysis parameters
+get analysis parameters SimpleName MethodDeclaration Block ReturnStatement SimpleName analysis parameters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName get analysis parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName additional properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get analysis parameters

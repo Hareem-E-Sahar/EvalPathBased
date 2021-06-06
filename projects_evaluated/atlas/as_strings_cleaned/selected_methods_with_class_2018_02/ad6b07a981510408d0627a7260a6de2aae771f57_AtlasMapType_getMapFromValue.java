@@ -1,0 +1,43 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+final Modifier VariableDeclarationStatement SimpleType SimpleName map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+val SimpleName InstanceofExpression SimpleType SimpleName map
+map SimpleName SimpleType CastExpression SimpleName val
+ret SimpleName Assignment CastExpression SimpleType SimpleName map
+ret SimpleName Assignment CastExpression SimpleName val
+val SimpleName InstanceofExpression SimpleType SimpleName string
+val SimpleName MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation SimpleName from json
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName val
+atlas type SimpleName MethodInvocation MethodInvocation SimpleName to string
+atlas type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+from json SimpleName MethodInvocation MethodInvocation SimpleName val
+from json SimpleName MethodInvocation MethodInvocation SimpleName to string
+from json SimpleName MethodInvocation TypeLiteral SimpleType SimpleName map
+ret SimpleName Assignment MethodInvocation SimpleName atlas type
+ret SimpleName Assignment MethodInvocation SimpleName from json
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName val
+ret SimpleName Assignment MethodInvocation MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName map
+private Modifier MethodDeclaration SimpleName get map from value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+map SimpleName SimpleType MethodDeclaration SimpleName get map from value
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+get map from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get map from value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get map from value SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get map from value SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName get map from value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get map from value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

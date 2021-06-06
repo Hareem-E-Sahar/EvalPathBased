@@ -1,0 +1,86 @@
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file to server map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName name to file map
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+path SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file server
+path SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file server
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName file server
+file to server map SimpleName MethodInvocation SimpleName entry set
+file server SimpleName MethodInvocation SimpleName get key
+file server SimpleName MethodInvocation MethodInvocation SimpleName get name
+get key SimpleName MethodInvocation MethodInvocation SimpleName get name
+name to file map SimpleName MethodInvocation SimpleName contains key
+name to file map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file server
+name to file map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+name to file map SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName file server
+contains key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get name
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+file server SimpleName MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName get
+result SimpleName MethodInvocation MethodInvocation SimpleName file server
+result SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName file server
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file server
+files SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName path
+file server SimpleName MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation MethodInvocation SimpleName file server
+result SimpleName MethodInvocation MethodInvocation SimpleName get value
+result SimpleName MethodInvocation SimpleName files
+put SimpleName MethodInvocation MethodInvocation SimpleName file server
+put SimpleName MethodInvocation MethodInvocation SimpleName get value
+put SimpleName MethodInvocation SimpleName files
+file server SimpleName MethodInvocation MethodInvocation SimpleName files
+get value SimpleName MethodInvocation MethodInvocation SimpleName files
+file server SimpleName MethodInvocation SimpleName get key
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation MethodInvocation SimpleName file server
+files SimpleName MethodInvocation MethodInvocation SimpleName get key
+add SimpleName MethodInvocation MethodInvocation SimpleName file server
+add SimpleName MethodInvocation MethodInvocation SimpleName get key
+file server SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName file to server map
+file server SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName map servers to files
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map servers to files
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName map servers to files
+map servers to files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+map servers to files SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+map servers to files SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+file to server map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName map servers to files
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map servers to files
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName file to server map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name to file map

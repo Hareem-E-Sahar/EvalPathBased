@@ -1,0 +1,72 @@
+referenceable SimpleName SimpleType SingleVariableDeclaration SimpleName entity
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName traits
+struct SimpleName SimpleType SingleVariableDeclaration SimpleName trait
+atlas type SimpleName MethodInvocation SimpleName to v json
+atlas type SimpleName MethodInvocation SimpleName trait
+to v json SimpleName MethodInvocation SimpleName trait
+added trait StringLiteral InfixExpression MethodInvocation SimpleName atlas type
+added trait StringLiteral InfixExpression MethodInvocation SimpleName to v json
+added trait StringLiteral InfixExpression MethodInvocation SimpleName trait
+create event SimpleName MethodInvocation SimpleName entity
+create event SimpleName MethodInvocation QualifiedName entity audit actiontag add
+create event SimpleName MethodInvocation InfixExpression StringLiteral added trait
+create event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type
+create event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to v json
+create event SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName trait
+entity SimpleName MethodInvocation QualifiedName entity audit actiontag add
+entity SimpleName MethodInvocation InfixExpression StringLiteral added trait
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to v json
+entity SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName trait
+entity audit actiontag add QualifiedName MethodInvocation InfixExpression StringLiteral added trait
+entity audit actiontag add QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName atlas type
+entity audit actiontag add QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName to v json
+entity audit actiontag add QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName trait
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName create event
+event SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity
+event SimpleName VariableDeclarationFragment MethodInvocation QualifiedName entity audit actiontag add
+event SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral added trait
+entity audit event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+audit repository SimpleName MethodInvocation SimpleName put events v
+audit repository SimpleName MethodInvocation SimpleName event
+put events v SimpleName MethodInvocation SimpleName event
+struct SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName traits
+trait SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName traits
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName on traits added
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName entity
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on traits added
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+void PrimitiveType MethodDeclaration SimpleName on traits added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName traits
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas exception
+on traits added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName referenceable
+on traits added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity
+on traits added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName traits
+on traits added SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+entity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+entity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+traits SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on traits added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on traits added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName traits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

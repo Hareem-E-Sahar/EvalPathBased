@@ -1,0 +1,31 @@
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName activity time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName activity time
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName time out
+current time millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName time out
+activity time SimpleName InfixExpression InfixExpression SimpleName time out
+bad servers SimpleName MethodInvocation SimpleName add
+bad servers SimpleName MethodInvocation SimpleName server
+add SimpleName MethodInvocation SimpleName server
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName activity time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName activity time
+time exceeded StringLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName activity time
+time exceeded StringLiteral InfixExpression StringLiteral empty
+time exceeded StringLiteral InfixExpression SimpleName server
+activity time SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral empty
+activity time SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName server
+empty StringLiteral InfixExpression SimpleName server
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral time exceeded
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName server
+void PrimitiveType MethodDeclaration SimpleName check
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+check SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

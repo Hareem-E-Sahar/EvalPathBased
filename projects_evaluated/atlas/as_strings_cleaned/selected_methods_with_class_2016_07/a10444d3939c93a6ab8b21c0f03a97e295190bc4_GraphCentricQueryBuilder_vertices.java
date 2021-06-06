@@ -1,0 +1,41 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName vertex
+construct query SimpleName MethodInvocation QualifiedName element categoryvertex
+query SimpleName VariableDeclarationFragment MethodInvocation SimpleName construct query
+query SimpleName VariableDeclarationFragment MethodInvocation QualifiedName element categoryvertex
+graph centric query SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName query
+query processor SimpleName SimpleType ParameterizedType SimpleType SimpleName graph centric query
+query processor SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+query processor SimpleName SimpleType ParameterizedType SimpleType SimpleName joint index query
+graph centric query SimpleName SimpleType ParameterizedType SimpleType SimpleName titan element
+graph centric query SimpleName SimpleType ParameterizedType SimpleType SimpleName joint index query
+titan element SimpleName SimpleType ParameterizedType SimpleType SimpleName joint index query
+query processor SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName query
+graph centric query SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName query
+titan element SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName query
+joint index query SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName query
+query processor SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName txelement processor
+graph centric query SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName txelement processor
+titan element SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName txelement processor
+joint index query SimpleName SimpleType ParameterizedType ClassInstanceCreation QualifiedName txelement processor
+query SimpleName ClassInstanceCreation QualifiedName txelement processor
+iterables SimpleName MethodInvocation SimpleName filter
+iterables SimpleName MethodInvocation ClassInstanceCreation SimpleName query
+iterables SimpleName MethodInvocation ClassInstanceCreation QualifiedName txelement processor
+iterables SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+filter SimpleName MethodInvocation ClassInstanceCreation SimpleName query
+filter SimpleName MethodInvocation ClassInstanceCreation QualifiedName txelement processor
+filter SimpleName MethodInvocation TypeLiteral SimpleType SimpleName vertex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName vertices
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName vertex
+public Modifier MethodDeclaration SimpleName vertices
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName vertices
+vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName vertices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName vertices
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName vertices

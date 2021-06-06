@@ -1,0 +1,378 @@
+active scan SimpleName SimpleType SingleVariableDeclaration SimpleName other
+other SimpleName MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation MethodInvocation SimpleName equals
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+equals SimpleName MethodInvocation MethodInvocation SimpleName other
+equals SimpleName MethodInvocation MethodInvocation SimpleName get class
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+other SimpleName MethodInvocation SimpleName get class
+other SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+get name SimpleName MethodInvocation MethodInvocation SimpleName compare to
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName other
+compare to SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+compare to SimpleName MethodInvocation MethodInvocation SimpleName get name
+last comparison SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last comparison
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+active scan SimpleName SimpleType CastExpression SimpleName other
+typed other SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName active scan
+typed other SimpleName VariableDeclarationFragment CastExpression SimpleName other
+active scan SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName typed other
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set client
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set client
+typed other SimpleName MethodInvocation SimpleName is set client
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set client SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set client
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set client
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set client
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set client
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName client
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otherclient
+compare to SimpleName MethodInvocation FieldAccess SimpleName client
+compare to SimpleName MethodInvocation QualifiedName typed otherclient
+client SimpleName FieldAccess MethodInvocation QualifiedName typed otherclient
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName client
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otherclient
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set user
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set user
+typed other SimpleName MethodInvocation SimpleName is set user
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set user
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set user
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set user
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set user
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName user
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otheruser
+compare to SimpleName MethodInvocation FieldAccess SimpleName user
+compare to SimpleName MethodInvocation QualifiedName typed otheruser
+user SimpleName FieldAccess MethodInvocation QualifiedName typed otheruser
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName user
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otheruser
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set table
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set table
+typed other SimpleName MethodInvocation SimpleName is set table
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set table
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set table
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set table
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set table
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName table
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed othertable
+compare to SimpleName MethodInvocation FieldAccess SimpleName table
+compare to SimpleName MethodInvocation QualifiedName typed othertable
+table SimpleName FieldAccess MethodInvocation QualifiedName typed othertable
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName table
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed othertable
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set age
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set age
+typed other SimpleName MethodInvocation SimpleName is set age
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set age SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set age
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set age
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set age
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set age
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName age
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otherage
+compare to SimpleName MethodInvocation FieldAccess SimpleName age
+compare to SimpleName MethodInvocation QualifiedName typed otherage
+age SimpleName FieldAccess MethodInvocation QualifiedName typed otherage
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName age
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otherage
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set idle time
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set idle time
+typed other SimpleName MethodInvocation SimpleName is set idle time
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set idle time SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set idle time
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set idle time
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set idle time
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set idle time
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName idle time
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otheridle time
+compare to SimpleName MethodInvocation FieldAccess SimpleName idle time
+compare to SimpleName MethodInvocation QualifiedName typed otheridle time
+idle time SimpleName FieldAccess MethodInvocation QualifiedName typed otheridle time
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName idle time
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otheridle time
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set type
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set type
+typed other SimpleName MethodInvocation SimpleName is set type
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set type
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set type
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set type
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set type
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName type
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed othertype
+compare to SimpleName MethodInvocation FieldAccess SimpleName type
+compare to SimpleName MethodInvocation QualifiedName typed othertype
+type SimpleName FieldAccess MethodInvocation QualifiedName typed othertype
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName type
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed othertype
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set state
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set state
+typed other SimpleName MethodInvocation SimpleName is set state
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set state
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set state
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set state
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set state
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName state
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otherstate
+compare to SimpleName MethodInvocation FieldAccess SimpleName state
+compare to SimpleName MethodInvocation QualifiedName typed otherstate
+state SimpleName FieldAccess MethodInvocation QualifiedName typed otherstate
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName state
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otherstate
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set extent
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set extent
+typed other SimpleName MethodInvocation SimpleName is set extent
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set extent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set extent
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set extent
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set extent
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set extent
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName extent
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otherextent
+compare to SimpleName MethodInvocation FieldAccess SimpleName extent
+compare to SimpleName MethodInvocation QualifiedName typed otherextent
+extent SimpleName FieldAccess MethodInvocation QualifiedName typed otherextent
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName extent
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otherextent
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set columns
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set columns
+typed other SimpleName MethodInvocation SimpleName is set columns
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set columns
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set columns
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set columns
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set columns
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName columns
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed othercolumns
+compare to SimpleName MethodInvocation FieldAccess SimpleName columns
+compare to SimpleName MethodInvocation QualifiedName typed othercolumns
+columns SimpleName FieldAccess MethodInvocation QualifiedName typed othercolumns
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName columns
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed othercolumns
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set iterators
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set iterators
+typed other SimpleName MethodInvocation SimpleName is set iterators
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set iterators SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set iterators
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set iterators
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set iterators
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set iterators
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName iterators
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otheriterators
+compare to SimpleName MethodInvocation FieldAccess SimpleName iterators
+compare to SimpleName MethodInvocation QualifiedName typed otheriterators
+iterators SimpleName FieldAccess MethodInvocation QualifiedName typed otheriterators
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName iterators
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otheriterators
+last comparison SimpleName InfixExpression NumberLiteral empty
+boolean SimpleName MethodInvocation SimpleName value of
+boolean SimpleName MethodInvocation MethodInvocation SimpleName is set authorizations
+value of SimpleName MethodInvocation MethodInvocation SimpleName is set authorizations
+typed other SimpleName MethodInvocation SimpleName is set authorizations
+boolean SimpleName MethodInvocation MethodInvocation SimpleName compare to
+value of SimpleName MethodInvocation MethodInvocation SimpleName compare to
+is set authorizations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName compare to
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+boolean SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set authorizations
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName typed other
+value of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is set authorizations
+compare to SimpleName MethodInvocation MethodInvocation SimpleName typed other
+compare to SimpleName MethodInvocation MethodInvocation SimpleName is set authorizations
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName boolean
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName value of
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName typed other
+last comparison SimpleName Assignment MethodInvocation MethodInvocation SimpleName is set authorizations
+last comparison SimpleName InfixExpression NumberLiteral empty
+orgapachethriftt base helper QualifiedName MethodInvocation SimpleName compare to
+orgapachethriftt base helper QualifiedName MethodInvocation FieldAccess SimpleName authorizations
+orgapachethriftt base helper QualifiedName MethodInvocation QualifiedName typed otherauthorizations
+compare to SimpleName MethodInvocation FieldAccess SimpleName authorizations
+compare to SimpleName MethodInvocation QualifiedName typed otherauthorizations
+authorizations SimpleName FieldAccess MethodInvocation QualifiedName typed otherauthorizations
+last comparison SimpleName Assignment MethodInvocation QualifiedName orgapachethriftt base helper
+last comparison SimpleName Assignment MethodInvocation SimpleName compare to
+last comparison SimpleName Assignment MethodInvocation FieldAccess SimpleName authorizations
+last comparison SimpleName Assignment MethodInvocation QualifiedName typed otherauthorizations
+last comparison SimpleName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName active scan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName active scan
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName active scan
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+compare to SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare to SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

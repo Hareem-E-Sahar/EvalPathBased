@@ -1,0 +1,93 @@
+opts SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get options
+final Modifier VariableDeclarationStatement SimpleType SimpleName options
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SuperMethodInvocation SimpleName get options
+options SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+opt util SimpleName MethodInvocation SimpleName start row opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation MethodInvocation SimpleName opt util
+opts SimpleName MethodInvocation MethodInvocation SimpleName start row opt
+add option SimpleName MethodInvocation MethodInvocation SimpleName opt util
+add option SimpleName MethodInvocation MethodInvocation SimpleName start row opt
+opt util SimpleName MethodInvocation SimpleName end row opt
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation MethodInvocation SimpleName opt util
+opts SimpleName MethodInvocation MethodInvocation SimpleName end row opt
+add option SimpleName MethodInvocation MethodInvocation SimpleName opt util
+add option SimpleName MethodInvocation MethodInvocation SimpleName end row opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral nf
+option SimpleName SimpleType ClassInstanceCreation StringLiteral no flush
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral do not flush table data in memory before compacting
+nf StringLiteral ClassInstanceCreation StringLiteral no flush
+nf StringLiteral ClassInstanceCreation BooleanLiteral false
+nf StringLiteral ClassInstanceCreation StringLiteral do not flush table data in memory before compacting
+no flush StringLiteral ClassInstanceCreation BooleanLiteral false
+no flush StringLiteral ClassInstanceCreation StringLiteral do not flush table data in memory before compacting
+false BooleanLiteral ClassInstanceCreation StringLiteral do not flush table data in memory before compacting
+no flush option SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+no flush option SimpleName Assignment ClassInstanceCreation StringLiteral nf
+no flush option SimpleName Assignment ClassInstanceCreation StringLiteral no flush
+no flush option SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+no flush option SimpleName Assignment ClassInstanceCreation StringLiteral do not flush table data in memory before compacting
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName no flush option
+add option SimpleName MethodInvocation SimpleName no flush option
+option SimpleName SimpleType ClassInstanceCreation StringLiteral w
+option SimpleName SimpleType ClassInstanceCreation StringLiteral wait
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+option SimpleName SimpleType ClassInstanceCreation StringLiteral wait for compact to finish
+w StringLiteral ClassInstanceCreation StringLiteral wait
+w StringLiteral ClassInstanceCreation BooleanLiteral false
+w StringLiteral ClassInstanceCreation StringLiteral wait for compact to finish
+wait StringLiteral ClassInstanceCreation BooleanLiteral false
+wait StringLiteral ClassInstanceCreation StringLiteral wait for compact to finish
+false BooleanLiteral ClassInstanceCreation StringLiteral wait for compact to finish
+wait opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+wait opt SimpleName Assignment ClassInstanceCreation StringLiteral w
+wait opt SimpleName Assignment ClassInstanceCreation StringLiteral wait
+wait opt SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+wait opt SimpleName Assignment ClassInstanceCreation StringLiteral wait for compact to finish
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName wait opt
+add option SimpleName MethodInvocation SimpleName wait opt
+option SimpleName SimpleType ClassInstanceCreation StringLiteral pn
+option SimpleName SimpleType ClassInstanceCreation StringLiteral profile
+option SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+option SimpleName SimpleType ClassInstanceCreation StringLiteral iterator profile name
+pn StringLiteral ClassInstanceCreation StringLiteral profile
+pn StringLiteral ClassInstanceCreation BooleanLiteral true
+pn StringLiteral ClassInstanceCreation StringLiteral iterator profile name
+profile StringLiteral ClassInstanceCreation BooleanLiteral true
+profile StringLiteral ClassInstanceCreation StringLiteral iterator profile name
+true BooleanLiteral ClassInstanceCreation StringLiteral iterator profile name
+profile opt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName option
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral pn
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral profile
+profile opt SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+profile opt SimpleName Assignment ClassInstanceCreation StringLiteral iterator profile name
+profile opt SimpleName MethodInvocation SimpleName set arg name
+profile opt SimpleName MethodInvocation StringLiteral profile
+set arg name SimpleName MethodInvocation StringLiteral profile
+opts SimpleName MethodInvocation SimpleName add option
+opts SimpleName MethodInvocation SimpleName profile opt
+add option SimpleName MethodInvocation SimpleName profile opt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName options
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration SimpleType SimpleName options
+public Modifier MethodDeclaration SimpleName get options
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName opts
+options SimpleName SimpleType MethodDeclaration SimpleName get options
+get options SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get options SimpleName MethodDeclaration Block ReturnStatement SimpleName opts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName options
+public Modifier TypeDeclaration MethodDeclaration SimpleName get options
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName options
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get options

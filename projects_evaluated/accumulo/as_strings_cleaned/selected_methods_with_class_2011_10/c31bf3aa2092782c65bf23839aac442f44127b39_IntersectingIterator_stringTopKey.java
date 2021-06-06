@@ -1,0 +1,34 @@
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+iter SimpleName MethodInvocation SimpleName has top
+iter SimpleName MethodInvocation SimpleName get top key
+iter SimpleName MethodInvocation MethodInvocation SimpleName to string
+get top key SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName string top key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier MethodDeclaration Block ReturnStatement StringLiteral empty
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName string top key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+static Modifier MethodDeclaration Block ReturnStatement StringLiteral empty
+string SimpleName SimpleType MethodDeclaration SimpleName string top key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName iter
+string top key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+string top key SimpleName MethodDeclaration Block ReturnStatement StringLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName string top key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName string top key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName iter

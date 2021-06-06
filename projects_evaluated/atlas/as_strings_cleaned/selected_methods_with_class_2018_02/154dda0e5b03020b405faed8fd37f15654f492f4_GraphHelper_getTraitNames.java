@@ -1,0 +1,58 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas vertex SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName entity vertex
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entity vertex SimpleName MethodInvocation SimpleName get property values
+entity vertex SimpleName MethodInvocation QualifiedName constantstrait names property key
+entity vertex SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+get property values SimpleName MethodInvocation QualifiedName constantstrait names property key
+get property values SimpleName MethodInvocation TypeLiteral SimpleType SimpleName string
+constantstrait names property key QualifiedName MethodInvocation TypeLiteral SimpleType SimpleName string
+property values SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity vertex
+property values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property values
+property values SimpleName VariableDeclarationFragment MethodInvocation QualifiedName constantstrait names property key
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+traits SimpleName MethodInvocation SimpleName add
+traits SimpleName MethodInvocation SimpleName value
+add SimpleName MethodInvocation SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName property values
+value SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName property values
+property values SimpleName EnhancedForStatement Block ReturnStatement SimpleName traits
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get trait names
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName property values
+public Modifier MethodDeclaration Block ReturnStatement SimpleName traits
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get trait names
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName property values
+static Modifier MethodDeclaration Block ReturnStatement SimpleName traits
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get trait names
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration ParameterizedType WildcardType ?
+get trait names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+get trait names SimpleName MethodDeclaration Block EnhancedForStatement SimpleName property values
+get trait names SimpleName MethodDeclaration Block ReturnStatement SimpleName traits
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get trait names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get trait names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entity vertex

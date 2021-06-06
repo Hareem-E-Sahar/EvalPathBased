@@ -1,0 +1,500 @@
+logger SimpleName SimpleType SingleVariableDeclaration SimpleName log
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+bulk StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName uuid
+bulk StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName random uuid
+bulk StringLiteral InfixExpression MethodInvocation SimpleName to string
+path SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bulk
+tmp StringLiteral ClassInstanceCreation InfixExpression StringLiteral bulk
+tmp StringLiteral ClassInstanceCreation InfixExpression MethodInvocation SimpleName to string
+dir SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+dir SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+dir SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral bulk
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+dir SimpleName MethodInvocation SimpleName to string
+dir SimpleName MethodInvocation InfixExpression StringLiteral fail
+to string SimpleName MethodInvocation InfixExpression StringLiteral fail
+path SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral fail
+fail SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path
+fail SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral fail
+final Modifier VariableDeclarationStatement SimpleType SimpleName path
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fail
+path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fail
+accumulo configuration SimpleName MethodInvocation SimpleName get default configuration
+default configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+default configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get default configuration
+final Modifier VariableDeclarationStatement SimpleType SimpleName default configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName default configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName accumulo configuration
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get default configuration
+default configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default configuration
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral rand
+get SimpleName MethodInvocation StringLiteral rand
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+random SimpleName SimpleType CastExpression MethodInvocation StringLiteral rand
+rand SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral rand
+final Modifier VariableDeclarationStatement SimpleType SimpleName random
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral fs
+get SimpleName MethodInvocation StringLiteral fs
+file system SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+file system SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+file system SimpleName SimpleType CastExpression MethodInvocation StringLiteral fs
+fs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file system
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral fs
+final Modifier VariableDeclarationStatement SimpleType SimpleName file system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+file system SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName mkdirs
+fs SimpleName MethodInvocation SimpleName fail
+mkdirs SimpleName MethodInvocation SimpleName fail
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation NumberLiteral empty
+next int SimpleName MethodInvocation NumberLiteral empty
+rand SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next int SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+parts SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName rand
+parts SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName next int
+parts SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+parts SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName parts
+final Modifier VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName parts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+start rows SimpleName MethodInvocation SimpleName add
+start rows SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+start rows SimpleName MethodInvocation SimpleName size
+start rows SimpleName MethodInvocation InfixExpression SimpleName parts
+size SimpleName MethodInvocation InfixExpression SimpleName parts
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation SimpleName lots
+next int SimpleName MethodInvocation SimpleName lots
+start rows SimpleName MethodInvocation SimpleName add
+start rows SimpleName MethodInvocation MethodInvocation SimpleName rand
+start rows SimpleName MethodInvocation MethodInvocation SimpleName next int
+start rows SimpleName MethodInvocation MethodInvocation SimpleName lots
+add SimpleName MethodInvocation MethodInvocation SimpleName rand
+add SimpleName MethodInvocation MethodInvocation SimpleName next int
+add SimpleName MethodInvocation MethodInvocation SimpleName lots
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+start rows SimpleName MethodInvocation SimpleName size
+print rows SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName start rows
+print rows SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName row
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt
+string SimpleName MethodInvocation SimpleName row
+format SimpleName MethodInvocation SimpleName fmt
+format SimpleName MethodInvocation SimpleName row
+fmt SimpleName MethodInvocation SimpleName row
+print rows SimpleName MethodInvocation SimpleName add
+print rows SimpleName MethodInvocation MethodInvocation SimpleName string
+print rows SimpleName MethodInvocation MethodInvocation SimpleName format
+print rows SimpleName MethodInvocation MethodInvocation SimpleName fmt
+print rows SimpleName MethodInvocation MethodInvocation SimpleName row
+add SimpleName MethodInvocation MethodInvocation SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName format
+add SimpleName MethodInvocation MethodInvocation SimpleName fmt
+add SimpleName MethodInvocation MethodInvocation SimpleName row
+integer SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName start rows
+row SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName start rows
+start rows SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName print rows
+start rows SimpleName EnhancedForStatement ExpressionStatement MethodInvocation SimpleName add
+counter SimpleName MethodInvocation SimpleName increment and get
+long SimpleName MethodInvocation SimpleName to string
+long SimpleName MethodInvocation MethodInvocation SimpleName counter
+long SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+to string SimpleName MethodInvocation MethodInvocation SimpleName counter
+to string SimpleName MethodInvocation MethodInvocation SimpleName increment and get
+marker column family SimpleName VariableDeclarationFragment MethodInvocation SimpleName long
+marker column family SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+marker column family SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName counter
+marker column family SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName increment and get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker column family
+lots SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt
+string SimpleName MethodInvocation InfixExpression SimpleName lots
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation SimpleName fmt
+format SimpleName MethodInvocation InfixExpression SimpleName lots
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fmt SimpleName MethodInvocation InfixExpression SimpleName lots
+fmt SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preparing bulk files with start rows StringLiteral InfixExpression SimpleName print rows
+preparing bulk files with start rows StringLiteral InfixExpression StringLiteral last row
+preparing bulk files with start rows StringLiteral InfixExpression MethodInvocation SimpleName string
+preparing bulk files with start rows StringLiteral InfixExpression MethodInvocation SimpleName format
+preparing bulk files with start rows StringLiteral InfixExpression MethodInvocation SimpleName fmt
+preparing bulk files with start rows StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName lots
+preparing bulk files with start rows StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+preparing bulk files with start rows StringLiteral InfixExpression StringLiteral marker
+preparing bulk files with start rows StringLiteral InfixExpression SimpleName marker column family
+print rows SimpleName InfixExpression StringLiteral last row
+print rows SimpleName InfixExpression MethodInvocation SimpleName string
+print rows SimpleName InfixExpression MethodInvocation SimpleName format
+print rows SimpleName InfixExpression MethodInvocation SimpleName fmt
+print rows SimpleName InfixExpression MethodInvocation InfixExpression SimpleName lots
+print rows SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+print rows SimpleName InfixExpression StringLiteral marker
+print rows SimpleName InfixExpression SimpleName marker column family
+last row StringLiteral InfixExpression MethodInvocation SimpleName string
+last row StringLiteral InfixExpression MethodInvocation SimpleName format
+last row StringLiteral InfixExpression MethodInvocation SimpleName fmt
+last row StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName lots
+last row StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+last row StringLiteral InfixExpression StringLiteral marker
+last row StringLiteral InfixExpression SimpleName marker column family
+string SimpleName MethodInvocation InfixExpression StringLiteral marker
+format SimpleName MethodInvocation InfixExpression StringLiteral marker
+fmt SimpleName MethodInvocation InfixExpression StringLiteral marker
+lots SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral marker
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral marker
+string SimpleName MethodInvocation InfixExpression SimpleName marker column family
+format SimpleName MethodInvocation InfixExpression SimpleName marker column family
+fmt SimpleName MethodInvocation InfixExpression SimpleName marker column family
+lots SimpleName InfixExpression MethodInvocation InfixExpression SimpleName marker column family
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName marker column family
+marker StringLiteral InfixExpression SimpleName marker column family
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral preparing bulk files with start rows
+log SimpleName MethodInvocation InfixExpression SimpleName print rows
+log SimpleName MethodInvocation InfixExpression StringLiteral last row
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fmt
+log SimpleName MethodInvocation InfixExpression StringLiteral marker
+log SimpleName MethodInvocation InfixExpression SimpleName marker column family
+debug SimpleName MethodInvocation InfixExpression StringLiteral preparing bulk files with start rows
+debug SimpleName MethodInvocation InfixExpression SimpleName print rows
+debug SimpleName MethodInvocation InfixExpression StringLiteral last row
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName string
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName format
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName fmt
+debug SimpleName MethodInvocation InfixExpression StringLiteral marker
+debug SimpleName MethodInvocation InfixExpression SimpleName marker column family
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName start rows
+integer SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName start rows
+rows SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName start rows
+rows SimpleName MethodInvocation SimpleName add
+rows SimpleName MethodInvocation SimpleName lots
+add SimpleName MethodInvocation SimpleName lots
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName parts
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral part d
+string SimpleName MethodInvocation SimpleName i
+format SimpleName MethodInvocation StringLiteral part d
+format SimpleName MethodInvocation SimpleName i
+part d StringLiteral MethodInvocation SimpleName i
+dir SimpleName InfixExpression StringLiteral /
+dir SimpleName InfixExpression MethodInvocation SimpleName string
+dir SimpleName InfixExpression MethodInvocation SimpleName format
+dir SimpleName InfixExpression MethodInvocation StringLiteral part d
+dir SimpleName InfixExpression MethodInvocation SimpleName i
+dir SimpleName InfixExpression QualifiedName r fileextension
+/ StringLiteral InfixExpression MethodInvocation SimpleName string
+/ StringLiteral InfixExpression MethodInvocation SimpleName format
+/ StringLiteral InfixExpression MethodInvocation StringLiteral part d
+/ StringLiteral InfixExpression MethodInvocation SimpleName i
+/ StringLiteral InfixExpression QualifiedName r fileextension
+string SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+format SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+part d StringLiteral MethodInvocation InfixExpression QualifiedName r fileextension
+i SimpleName MethodInvocation InfixExpression QualifiedName r fileextension
+file name SimpleName VariableDeclarationFragment InfixExpression SimpleName dir
+file name SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+file name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName string
+file name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName format
+file name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation StringLiteral part d
+file name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName i
+file name SimpleName VariableDeclarationFragment InfixExpression QualifiedName r fileextension
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file name
+file operations SimpleName MethodInvocation SimpleName get instance
+fs SimpleName MethodInvocation SimpleName get conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName open writer
+get instance SimpleName MethodInvocation MethodInvocation SimpleName open writer
+file operations SimpleName MethodInvocation MethodInvocation SimpleName file name
+get instance SimpleName MethodInvocation MethodInvocation SimpleName file name
+file operations SimpleName MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+file operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fs
+get instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get conf
+file operations SimpleName MethodInvocation MethodInvocation SimpleName default configuration
+get instance SimpleName MethodInvocation MethodInvocation SimpleName default configuration
+open writer SimpleName MethodInvocation SimpleName file name
+open writer SimpleName MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation MethodInvocation SimpleName fs
+open writer SimpleName MethodInvocation MethodInvocation SimpleName get conf
+open writer SimpleName MethodInvocation SimpleName default configuration
+file name SimpleName MethodInvocation SimpleName fs
+file name SimpleName MethodInvocation MethodInvocation SimpleName fs
+file name SimpleName MethodInvocation MethodInvocation SimpleName get conf
+file name SimpleName MethodInvocation SimpleName default configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName fs
+fs SimpleName MethodInvocation MethodInvocation SimpleName get conf
+fs SimpleName MethodInvocation SimpleName default configuration
+fs SimpleName MethodInvocation MethodInvocation SimpleName default configuration
+get conf SimpleName MethodInvocation MethodInvocation SimpleName default configuration
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName file operations
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get instance
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName open writer
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName file name
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fs
+f SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get conf
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName default configuration
+file skv writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName start default locality group
+rows SimpleName MethodInvocation SimpleName get
+rows SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName rows
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+rows SimpleName MethodInvocation SimpleName get
+rows SimpleName MethodInvocation InfixExpression SimpleName i
+rows SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName rows
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+end SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName i
+end SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName rows
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+j SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+j SimpleName InfixExpression SimpleName end
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt
+string SimpleName MethodInvocation SimpleName j
+format SimpleName MethodInvocation SimpleName fmt
+format SimpleName MethodInvocation SimpleName j
+fmt SimpleName MethodInvocation SimpleName j
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName fmt
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName j
+row SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName string
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName format
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fmt
+row SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName j
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName row
+column SimpleName SimpleType SingleVariableDeclaration SimpleName col
+col SimpleName MethodInvocation SimpleName get column family
+col SimpleName MethodInvocation SimpleName get column qualifier
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName col
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName col
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName col
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName get column family
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName col
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+col SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+col SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+f SimpleName MethodInvocation SimpleName append
+f SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+f SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+f SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+f SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName col
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column qualifier
+append SimpleName MethodInvocation SimpleName value
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName value
+col SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+get column family SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+col SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+get column qualifier SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName value
+column SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName colnames
+col SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName colnames
+text SimpleName SimpleType ClassInstanceCreation SimpleName marker column family
+key SimpleName SimpleType ClassInstanceCreation SimpleName row
+key SimpleName SimpleType ClassInstanceCreation SimpleName marker cf
+key SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName marker column family
+row SimpleName ClassInstanceCreation SimpleName marker cf
+row SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+row SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName marker column family
+marker cf SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName text
+marker cf SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName marker column family
+f SimpleName MethodInvocation SimpleName append
+f SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+f SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+f SimpleName MethodInvocation ClassInstanceCreation SimpleName marker cf
+f SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName marker column family
+f SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName key
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName row
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName marker cf
+append SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName marker column family
+append SimpleName MethodInvocation SimpleName value
+key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName value
+row SimpleName ClassInstanceCreation MethodInvocation SimpleName value
+marker cf SimpleName ClassInstanceCreation MethodInvocation SimpleName value
+marker column family SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+f SimpleName MethodInvocation SimpleName close
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName parts
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+parts SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+setup SimpleName MethodInvocation SimpleName get table name
+dir SimpleName MethodInvocation SimpleName to string
+fail SimpleName MethodInvocation SimpleName to string
+state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName import directory
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName import directory
+table operations SimpleName MethodInvocation MethodInvocation SimpleName import directory
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName setup
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+state SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+table operations SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+import directory SimpleName MethodInvocation MethodInvocation SimpleName setup
+import directory SimpleName MethodInvocation MethodInvocation SimpleName get table name
+import directory SimpleName MethodInvocation MethodInvocation SimpleName dir
+import directory SimpleName MethodInvocation MethodInvocation SimpleName to string
+import directory SimpleName MethodInvocation MethodInvocation SimpleName fail
+import directory SimpleName MethodInvocation MethodInvocation SimpleName to string
+import directory SimpleName MethodInvocation BooleanLiteral true
+setup SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+setup SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dir
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+setup SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail
+setup SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail
+get table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+setup SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get table name SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail
+dir SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fail
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+dir SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fail SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName dir
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName dir
+delete SimpleName MethodInvocation BooleanLiteral true
+dir SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName delete
+fs SimpleName MethodInvocation SimpleName fail
+fs SimpleName MethodInvocation BooleanLiteral true
+delete SimpleName MethodInvocation SimpleName fail
+delete SimpleName MethodInvocation BooleanLiteral true
+fail SimpleName MethodInvocation BooleanLiteral true
+fs SimpleName MethodInvocation SimpleName list status
+fs SimpleName MethodInvocation SimpleName fail
+list status SimpleName MethodInvocation SimpleName fail
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName list status
+failures SimpleName VariableDeclarationFragment MethodInvocation SimpleName fail
+failureslength QualifiedName InfixExpression NumberLiteral empty
+failures SimpleName InfixExpression InfixExpression InfixExpression QualifiedName failureslength
+failures SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation SimpleName failures
+as list SimpleName MethodInvocation SimpleName failures
+failures StringLiteral InfixExpression MethodInvocation SimpleName arrays
+failures StringLiteral InfixExpression MethodInvocation SimpleName as list
+failures StringLiteral InfixExpression MethodInvocation SimpleName failures
+failures StringLiteral InfixExpression StringLiteral found importing files from
+failures StringLiteral InfixExpression SimpleName dir
+arrays SimpleName MethodInvocation InfixExpression StringLiteral found importing files from
+as list SimpleName MethodInvocation InfixExpression StringLiteral found importing files from
+failures SimpleName MethodInvocation InfixExpression StringLiteral found importing files from
+arrays SimpleName MethodInvocation InfixExpression SimpleName dir
+as list SimpleName MethodInvocation InfixExpression SimpleName dir
+failures SimpleName MethodInvocation InfixExpression SimpleName dir
+found importing files from StringLiteral InfixExpression SimpleName dir
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral failures
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral found importing files from
+exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dir
+lots SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation SimpleName fmt
+string SimpleName MethodInvocation InfixExpression SimpleName lots
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation SimpleName fmt
+format SimpleName MethodInvocation InfixExpression SimpleName lots
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fmt SimpleName MethodInvocation InfixExpression SimpleName lots
+fmt SimpleName MethodInvocation InfixExpression NumberLiteral empty
+finished bulk import start rows StringLiteral InfixExpression SimpleName print rows
+finished bulk import start rows StringLiteral InfixExpression StringLiteral last row
+finished bulk import start rows StringLiteral InfixExpression MethodInvocation SimpleName string
+finished bulk import start rows StringLiteral InfixExpression MethodInvocation SimpleName format
+finished bulk import start rows StringLiteral InfixExpression MethodInvocation SimpleName fmt
+finished bulk import start rows StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName lots
+finished bulk import start rows StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+finished bulk import start rows StringLiteral InfixExpression StringLiteral marker
+finished bulk import start rows StringLiteral InfixExpression SimpleName marker column family
+print rows SimpleName InfixExpression StringLiteral last row
+print rows SimpleName InfixExpression MethodInvocation SimpleName string
+print rows SimpleName InfixExpression MethodInvocation SimpleName format
+print rows SimpleName InfixExpression MethodInvocation SimpleName fmt
+print rows SimpleName InfixExpression MethodInvocation InfixExpression SimpleName lots

@@ -1,0 +1,67 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName thread
+thread SimpleName MethodInvocation SimpleName get all stack traces
+thread SimpleName MethodInvocation MethodInvocation SimpleName key set
+get all stack traces SimpleName MethodInvocation MethodInvocation SimpleName key set
+thread set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName thread
+thread set SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get all stack traces
+thread set SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+thread SimpleName SimpleType SingleVariableDeclaration SimpleName thread
+thread SimpleName MethodInvocation SimpleName get class
+thread SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starts with
+get name SimpleName MethodInvocation MethodInvocation SimpleName starts with
+thread SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral orgapachezookeeperclient cnxn
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral orgapachezookeeperclient cnxn
+get name SimpleName MethodInvocation MethodInvocation StringLiteral orgapachezookeeperclient cnxn
+starts with SimpleName MethodInvocation StringLiteral orgapachezookeeperclient cnxn
+thread SimpleName MethodInvocation SimpleName get context class loader
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+current thread SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+thread SimpleName MethodInvocation MethodInvocation SimpleName equals
+get context class loader SimpleName MethodInvocation MethodInvocation SimpleName equals
+thread SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get context class loader
+get context class loader SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get context class loader
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName thread
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName current thread
+equals SimpleName MethodInvocation MethodInvocation SimpleName get context class loader
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+orgapachezookeeperclient cnxn StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+thread SimpleName MethodInvocation SimpleName is alive
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName get message
+error SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get message SimpleName MethodInvocation MethodInvocation SimpleName e
+thread SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName thread set
+thread SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName thread set
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName wait for zoo keeper client threads
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName thread set
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName wait for zoo keeper client threads
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName thread set
+void PrimitiveType MethodDeclaration SimpleName wait for zoo keeper client threads
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName thread set
+wait for zoo keeper client threads SimpleName MethodDeclaration Block EnhancedForStatement SimpleName thread set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wait for zoo keeper client threads
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wait for zoo keeper client threads

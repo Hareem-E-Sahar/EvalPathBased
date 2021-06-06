@@ -1,0 +1,193 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName opts
+opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName opts
+bw opts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer opts
+batch writer opts SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw opts
+continuous moru SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName parse args
+opts SimpleName MethodInvocation MethodInvocation SimpleName get name
+opts SimpleName MethodInvocation SimpleName args
+opts SimpleName MethodInvocation SimpleName bw opts
+parse args SimpleName MethodInvocation MethodInvocation SimpleName get name
+parse args SimpleName MethodInvocation SimpleName args
+parse args SimpleName MethodInvocation SimpleName bw opts
+get name SimpleName MethodInvocation MethodInvocation SimpleName args
+get name SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+args SimpleName MethodInvocation SimpleName bw opts
+get class SimpleName MethodInvocation MethodInvocation SimpleName get simple name
+system SimpleName MethodInvocation SimpleName current time millis
+get class SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression StringLiteral empty
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName system
+get simple name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName current time millis
+empty StringLiteral InfixExpression MethodInvocation SimpleName system
+empty StringLiteral InfixExpression MethodInvocation SimpleName current time millis
+job SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+get conf SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job
+job SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get conf
+job SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression StringLiteral empty
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job SimpleName MethodInvocation SimpleName set jar by class
+job SimpleName MethodInvocation MethodInvocation SimpleName get class
+set jar by class SimpleName MethodInvocation MethodInvocation SimpleName get class
+job SimpleName MethodInvocation SimpleName set input format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+set input format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo input format
+opts SimpleName MethodInvocation SimpleName set accumulo configs
+opts SimpleName MethodInvocation SimpleName job
+set accumulo configs SimpleName MethodInvocation SimpleName job
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName range
+opts SimpleName MethodInvocation SimpleName get connector
+opts SimpleName MethodInvocation MethodInvocation SimpleName table operations
+get connector SimpleName MethodInvocation MethodInvocation SimpleName table operations
+opts SimpleName MethodInvocation SimpleName get table name
+opts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split range by tablets
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName split range by tablets
+table operations SimpleName MethodInvocation MethodInvocation SimpleName split range by tablets
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName opts
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get table name
+opts SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optsmax maps
+get connector SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName optsmax maps
+table operations SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+split range by tablets SimpleName MethodInvocation MethodInvocation SimpleName opts
+split range by tablets SimpleName MethodInvocation MethodInvocation SimpleName get table name
+split range by tablets SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+split range by tablets SimpleName MethodInvocation QualifiedName optsmax maps
+opts SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+get table name SimpleName MethodInvocation MethodInvocation QualifiedName optsmax maps
+range SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName optsmax maps
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName split range by tablets
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName opts
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get table name
+ranges SimpleName VariableDeclarationFragment MethodInvocation QualifiedName optsmax maps
+accumulo input format SimpleName MethodInvocation SimpleName set ranges
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation SimpleName ranges
+set ranges SimpleName MethodInvocation SimpleName job
+set ranges SimpleName MethodInvocation SimpleName ranges
+job SimpleName MethodInvocation SimpleName ranges
+accumulo input format SimpleName MethodInvocation SimpleName set auto adjust ranges
+accumulo input format SimpleName MethodInvocation SimpleName job
+accumulo input format SimpleName MethodInvocation BooleanLiteral false
+set auto adjust ranges SimpleName MethodInvocation SimpleName job
+set auto adjust ranges SimpleName MethodInvocation BooleanLiteral false
+job SimpleName MethodInvocation BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+job SimpleName MethodInvocation SimpleName set mapper class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c mapper
+set mapper class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName c mapper
+job SimpleName MethodInvocation SimpleName set num reduce tasks
+job SimpleName MethodInvocation NumberLiteral empty
+set num reduce tasks SimpleName MethodInvocation NumberLiteral empty
+job SimpleName MethodInvocation SimpleName set output format class
+job SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+set output format class SimpleName MethodInvocation TypeLiteral SimpleType SimpleName accumulo output format
+bw opts SimpleName MethodInvocation SimpleName get batch writer config
+accumulo output format SimpleName MethodInvocation SimpleName set batch writer options
+accumulo output format SimpleName MethodInvocation SimpleName job
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+accumulo output format SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+set batch writer options SimpleName MethodInvocation SimpleName job
+set batch writer options SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+set batch writer options SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+job SimpleName MethodInvocation MethodInvocation SimpleName bw opts
+job SimpleName MethodInvocation MethodInvocation SimpleName get batch writer config
+job SimpleName MethodInvocation SimpleName get configuration
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+conf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configuration
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf
+conf SimpleName MethodInvocation SimpleName set long
+conf SimpleName MethodInvocation SimpleName min
+conf SimpleName MethodInvocation QualifiedName optsmin
+set long SimpleName MethodInvocation SimpleName min
+set long SimpleName MethodInvocation QualifiedName optsmin
+min SimpleName MethodInvocation QualifiedName optsmin
+conf SimpleName MethodInvocation SimpleName set long
+conf SimpleName MethodInvocation SimpleName max
+conf SimpleName MethodInvocation QualifiedName optsmax
+set long SimpleName MethodInvocation SimpleName max
+set long SimpleName MethodInvocation QualifiedName optsmax
+max SimpleName MethodInvocation QualifiedName optsmax
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation SimpleName max cf
+conf SimpleName MethodInvocation QualifiedName optsmax col f
+set int SimpleName MethodInvocation SimpleName max cf
+set int SimpleName MethodInvocation QualifiedName optsmax col f
+max cf SimpleName MethodInvocation QualifiedName optsmax col f
+conf SimpleName MethodInvocation SimpleName set int
+conf SimpleName MethodInvocation SimpleName max cq
+conf SimpleName MethodInvocation QualifiedName optsmax col q
+set int SimpleName MethodInvocation SimpleName max cq
+set int SimpleName MethodInvocation QualifiedName optsmax col q
+max cq SimpleName MethodInvocation QualifiedName optsmax col q
+uuid SimpleName MethodInvocation SimpleName random uuid
+uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+random uuid SimpleName MethodInvocation MethodInvocation SimpleName to string
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName ci id
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+conf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+conf SimpleName MethodInvocation MethodInvocation SimpleName to string
+set SimpleName MethodInvocation SimpleName ci id
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+set SimpleName MethodInvocation MethodInvocation SimpleName to string
+ci id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName uuid
+ci id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName random uuid
+ci id SimpleName MethodInvocation MethodInvocation SimpleName to string
+job SimpleName MethodInvocation SimpleName wait for completion
+job SimpleName MethodInvocation BooleanLiteral true
+wait for completion SimpleName MethodInvocation BooleanLiteral true
+opts SimpleName MethodInvocation SimpleName stop tracing
+job SimpleName MethodInvocation SimpleName is successful
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+job SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+is successful SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+empty NumberLiteral ConditionalExpression NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName args
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleName run
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName class not found exception
+run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+run SimpleName MethodDeclaration SimpleType SimpleName io exception
+run SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+run SimpleName MethodDeclaration SimpleType SimpleName class not found exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName class not found exception
+interrupted exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName class not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception

@@ -1,0 +1,168 @@
+method name SimpleName VariableDeclarationFragment StringLiteral connect to cohort
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral connect to cohort
+error code SimpleName VariableDeclarationFragment QualifiedName omrs error codenull registry store
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+omrs error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName omrs error codenull registry store
+error code SimpleName MethodInvocation SimpleName get error message id
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+omrs runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+registry store SimpleName MethodInvocation SimpleName retrieve local registration
+local registration SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry store
+local registration SimpleName VariableDeclarationFragment MethodInvocation SimpleName retrieve local registration
+member registration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local registration
+local registration SimpleName Assignment ClassInstanceCreation SimpleType SimpleName member registration
+local registration SimpleName MethodInvocation SimpleName set metadata collection id
+local registration SimpleName MethodInvocation SimpleName local metadata collection id
+set metadata collection id SimpleName MethodInvocation SimpleName local metadata collection id
+local registration SimpleName MethodInvocation SimpleName set server name
+local registration SimpleName MethodInvocation SimpleName local server name
+set server name SimpleName MethodInvocation SimpleName local server name
+local registration SimpleName MethodInvocation SimpleName set server type
+local registration SimpleName MethodInvocation SimpleName local server type
+set server type SimpleName MethodInvocation SimpleName local server type
+local registration SimpleName MethodInvocation SimpleName set organization name
+local registration SimpleName MethodInvocation SimpleName local organization name
+set organization name SimpleName MethodInvocation SimpleName local organization name
+local registration SimpleName MethodInvocation SimpleName set repository connection
+local registration SimpleName MethodInvocation SimpleName local repository remote connection
+set repository connection SimpleName MethodInvocation SimpleName local repository remote connection
+request re registration from cohort SimpleName MethodInvocation SimpleName local registration
+local registration SimpleName MethodInvocation SimpleName get registration time
+local registration SimpleName MethodInvocation SimpleName set registration time
+local registration SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+set registration time SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+register local repository with cohort SimpleName MethodInvocation SimpleName local registration
+registry store SimpleName MethodInvocation SimpleName save local registration
+registry store SimpleName MethodInvocation SimpleName local registration
+save local registration SimpleName MethodInvocation SimpleName local registration
+registry store SimpleName MethodInvocation SimpleName save local registration
+registry store SimpleName MethodInvocation SimpleName local registration
+save local registration SimpleName MethodInvocation SimpleName local registration
+request re registration from cohort SimpleName MethodInvocation SimpleName local registration
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName member registration
+registry store SimpleName MethodInvocation SimpleName retrieve remote registrations
+remote registrations SimpleName VariableDeclarationFragment MethodInvocation SimpleName registry store
+remote registrations SimpleName VariableDeclarationFragment MethodInvocation SimpleName retrieve remote registrations
+member registration SimpleName SimpleType SingleVariableDeclaration SimpleName remote member
+remote member SimpleName MethodInvocation SimpleName get metadata collection id
+remote member SimpleName MethodInvocation SimpleName get server name
+remote member SimpleName MethodInvocation SimpleName get server type
+remote member SimpleName MethodInvocation SimpleName get organization name
+remote member SimpleName MethodInvocation SimpleName get repository connection
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName remote member
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName get metadata collection id
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName remote member
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName get server name
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName remote member
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName get server type
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName remote member
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName get organization name
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName remote member
+register remote connection with consumer SimpleName MethodInvocation MethodInvocation SimpleName get repository connection
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server name
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server name
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server type
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server type
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get metadata collection id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server type
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get server type
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+get server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get organization name
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+get server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get server type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+remote member SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+get organization name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName remote member
+get organization name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get repository connection
+member registration SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName remote registrations
+remote member SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName remote registrations
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName connect to cohort
+void PrimitiveType MethodDeclaration SimpleName connect to cohort
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName connect to cohort
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName connect to cohort

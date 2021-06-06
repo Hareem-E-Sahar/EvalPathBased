@@ -1,0 +1,92 @@
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName updated category
+atlas glossary category SimpleName SimpleType SingleVariableDeclaration SimpleName existing
+relationship operation SimpleName SimpleType SingleVariableDeclaration SimpleName op
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral ==> glossary category utilsprocess category relations {} {})
+log SimpleName MethodInvocation SimpleName updated category
+log SimpleName MethodInvocation SimpleName existing
+log SimpleName MethodInvocation SimpleName op
+debug SimpleName MethodInvocation StringLiteral ==> glossary category utilsprocess category relations {} {})
+debug SimpleName MethodInvocation SimpleName updated category
+debug SimpleName MethodInvocation SimpleName existing
+debug SimpleName MethodInvocation SimpleName op
+==> glossary category utilsprocess category relations {} {}) StringLiteral MethodInvocation SimpleName updated category
+==> glossary category utilsprocess category relations {} {}) StringLiteral MethodInvocation SimpleName existing
+==> glossary category utilsprocess category relations {} {}) StringLiteral MethodInvocation SimpleName op
+updated category SimpleName MethodInvocation SimpleName existing
+updated category SimpleName MethodInvocation SimpleName op
+existing SimpleName MethodInvocation SimpleName op
+process category anchor SimpleName MethodInvocation SimpleName updated category
+process category anchor SimpleName MethodInvocation SimpleName existing
+process category anchor SimpleName MethodInvocation SimpleName op
+updated category SimpleName MethodInvocation SimpleName existing
+updated category SimpleName MethodInvocation SimpleName op
+existing SimpleName MethodInvocation SimpleName op
+process parent category SimpleName MethodInvocation SimpleName updated category
+process parent category SimpleName MethodInvocation SimpleName existing
+process parent category SimpleName MethodInvocation SimpleName op
+updated category SimpleName MethodInvocation SimpleName existing
+updated category SimpleName MethodInvocation SimpleName op
+existing SimpleName MethodInvocation SimpleName op
+process category children SimpleName MethodInvocation SimpleName updated category
+process category children SimpleName MethodInvocation SimpleName existing
+process category children SimpleName MethodInvocation SimpleName op
+updated category SimpleName MethodInvocation SimpleName existing
+updated category SimpleName MethodInvocation SimpleName op
+existing SimpleName MethodInvocation SimpleName op
+process associated terms SimpleName MethodInvocation SimpleName updated category
+process associated terms SimpleName MethodInvocation SimpleName existing
+process associated terms SimpleName MethodInvocation SimpleName op
+updated category SimpleName MethodInvocation SimpleName existing
+updated category SimpleName MethodInvocation SimpleName op
+existing SimpleName MethodInvocation SimpleName op
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation StringLiteral <== glossary category utilsprocess category relations
+debug SimpleName MethodInvocation StringLiteral <== glossary category utilsprocess category relations
+debug enabled SimpleName IfStatement Block IfStatement SimpleName debug enabled
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process category relations
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName updated category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship operation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName op
+void PrimitiveType MethodDeclaration SimpleName process category relations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName updated category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName existing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName op
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName updated category
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas glossary category
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName existing
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName relationship operation
+process category relations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName op
+process category relations SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+process category relations SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+process category relations SimpleName MethodDeclaration Block IfStatement SimpleName debug enabled
+updated category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+updated category SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+updated category SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+existing SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+existing SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+op SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process category relations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated category
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process category relations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName updated category
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName existing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName op
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

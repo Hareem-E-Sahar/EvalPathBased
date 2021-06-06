@@ -1,0 +1,224 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+smiscanner QualifiedName MethodInvocation SimpleName set batch size
+smiscanner QualifiedName MethodInvocation SimpleName size
+set batch size SimpleName MethodInvocation SimpleName size
+smiscanner QualifiedName MethodInvocation SimpleName set time out
+smiscanner QualifiedName MethodInvocation SimpleName time out
+set time out SimpleName MethodInvocation SimpleName time out
+smiscanner QualifiedName MethodInvocation SimpleName enable isolation
+smiscanner QualifiedName MethodInvocation SimpleName disable isolation
+isolated SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName smiscanner
+isolated SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName enable isolation
+isolated SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName smiscanner
+isolated SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName disable isolation
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName iter info
+iter info SimpleName SimpleType SingleVariableDeclaration SimpleName iter info
+iter info SimpleName MethodInvocation SimpleName get priority
+tm SimpleName MethodInvocation SimpleName put
+tm SimpleName MethodInvocation MethodInvocation SimpleName iter info
+tm SimpleName MethodInvocation MethodInvocation SimpleName get priority
+tm SimpleName MethodInvocation SimpleName iter info
+put SimpleName MethodInvocation MethodInvocation SimpleName iter info
+put SimpleName MethodInvocation MethodInvocation SimpleName get priority
+put SimpleName MethodInvocation SimpleName iter info
+iter info SimpleName MethodInvocation MethodInvocation SimpleName iter info
+get priority SimpleName MethodInvocation MethodInvocation SimpleName iter info
+iter info SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+iter info SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName server side iterator list
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+tm SimpleName MethodInvocation SimpleName values
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+string SimpleName SimpleType SingleVariableDeclaration SimpleName map file name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName reserve map file reader
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName map file name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName sorted key value iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName key
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName reserve map file reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map file name
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+sorted key value iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+key SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+value SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName reserve map file reader
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+reserve map file reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map file name
+reserve map file reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+map file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName accumulo configuration
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get config
+public Modifier MethodDeclaration SimpleType SimpleName accumulo configuration
+public Modifier MethodDeclaration SimpleName get config
+accumulo configuration SimpleName SimpleType MethodDeclaration SimpleName get config
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName iterator scope
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get iterator scope
+public Modifier MethodDeclaration SimpleType SimpleName iterator scope
+public Modifier MethodDeclaration SimpleName get iterator scope
+iterator scope SimpleName SimpleType MethodDeclaration SimpleName get iterator scope
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName is full major compaction
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is full major compaction
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is full major compaction
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is full major compaction SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+sorted key value iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+sorted key value iterator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName iter
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName register side channel
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register side channel
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName iter
+void PrimitiveType MethodDeclaration SimpleName register side channel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName iter
+register side channel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName iter
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get config
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get config
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get iterator scope
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get iterator scope
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+reserve map file reader SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get iterator scope
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get iterator scope
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get config SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName is full major compaction
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get iterator scope SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+is full major compaction SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+is full major compaction SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+is full major compaction SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName register side channel
+iterator util SimpleName MethodInvocation SimpleName load iterators
+iterator util SimpleName MethodInvocation SimpleName smi
+iterator util SimpleName MethodInvocation MethodInvocation SimpleName tm
+iterator util SimpleName MethodInvocation MethodInvocation SimpleName values
+iterator util SimpleName MethodInvocation SimpleName server side iterator options
+iterator util SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator environment
+load iterators SimpleName MethodInvocation SimpleName smi
+load iterators SimpleName MethodInvocation MethodInvocation SimpleName tm
+load iterators SimpleName MethodInvocation MethodInvocation SimpleName values
+load iterators SimpleName MethodInvocation SimpleName server side iterator options
+load iterators SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator environment
+smi SimpleName MethodInvocation MethodInvocation SimpleName tm
+smi SimpleName MethodInvocation MethodInvocation SimpleName values
+smi SimpleName MethodInvocation SimpleName server side iterator options
+smi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator environment
+tm SimpleName MethodInvocation MethodInvocation SimpleName server side iterator options
+values SimpleName MethodInvocation MethodInvocation SimpleName server side iterator options
+server side iterator options SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName iterator environment
+skvi SimpleName Assignment MethodInvocation SimpleName iterator util
+skvi SimpleName Assignment MethodInvocation SimpleName load iterators
+skvi SimpleName Assignment MethodInvocation SimpleName smi
+skvi SimpleName Assignment MethodInvocation MethodInvocation SimpleName tm
+skvi SimpleName Assignment MethodInvocation MethodInvocation SimpleName values
+skvi SimpleName Assignment MethodInvocation SimpleName server side iterator options
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+tree set SimpleName SimpleType ParameterizedType SimpleType SimpleName byte sequence
+column SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get column family
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName c
+array byte sequence SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column family
+colfs SimpleName MethodInvocation SimpleName add
+colfs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+colfs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName c
+colfs SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName array byte sequence
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName c
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column family
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get fetched columns
+skvi SimpleName MethodInvocation SimpleName seek
+skvi SimpleName MethodInvocation SimpleName range
+skvi SimpleName MethodInvocation SimpleName colfs
+skvi SimpleName MethodInvocation BooleanLiteral true
+seek SimpleName MethodInvocation SimpleName range
+seek SimpleName MethodInvocation SimpleName colfs
+seek SimpleName MethodInvocation BooleanLiteral true
+range SimpleName MethodInvocation SimpleName colfs
+range SimpleName MethodInvocation BooleanLiteral true
+colfs SimpleName MethodInvocation BooleanLiteral true
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+iterator adapter SimpleName SimpleType ClassInstanceCreation SimpleName skvi
+isolated SimpleName IfStatement Block EnhancedForStatement SimpleName server side iterator list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator
+public Modifier MethodDeclaration SimpleName iterator
+public Modifier MethodDeclaration Block IfStatement SimpleName isolated
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+iterator SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName iterator
+iterator SimpleName MethodDeclaration Block IfStatement SimpleName isolated
+iterator SimpleName MethodDeclaration Block EnhancedForStatement SimpleName server side iterator list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName iterator
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName iterator

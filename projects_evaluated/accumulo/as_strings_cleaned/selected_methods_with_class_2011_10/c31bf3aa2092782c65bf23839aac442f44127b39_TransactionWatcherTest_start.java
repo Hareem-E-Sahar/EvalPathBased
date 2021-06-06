@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tx type
+long SimpleName SimpleType SingleVariableDeclaration SimpleName txid
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName tx type
+get SimpleName MethodInvocation SimpleName tx type
+txids SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+txids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+txids SimpleName VariableDeclarationFragment MethodInvocation SimpleName tx type
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+txids SimpleName MethodInvocation SimpleName contains
+txids SimpleName MethodInvocation SimpleName txid
+contains SimpleName MethodInvocation SimpleName txid
+exception SimpleName SimpleType ClassInstanceCreation StringLiteral transaction already started
+txids SimpleName MethodInvocation SimpleName add
+txids SimpleName MethodInvocation SimpleName txid
+add SimpleName MethodInvocation SimpleName txid
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation SimpleName tx type
+map SimpleName MethodInvocation SimpleName txids
+put SimpleName MethodInvocation SimpleName tx type
+put SimpleName MethodInvocation SimpleName txids
+tx type SimpleName MethodInvocation SimpleName txids
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tx type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName txid
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName start
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName tx type
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName txid
+synchronized Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tx type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName txid
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tx type
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txid
+start SimpleName MethodDeclaration SimpleType SimpleName exception
+tx type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txid
+tx type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+txid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tx type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tx type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

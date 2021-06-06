@@ -1,0 +1,60 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+resolve references phase SimpleName SuperMethodInvocation SimpleName type registry
+all attributes SimpleName MethodInvocation SimpleName values
+resolve mapped from ref constraint SimpleName MethodInvocation MethodInvocation SimpleName all attributes
+resolve mapped from ref constraint SimpleName MethodInvocation MethodInvocation SimpleName values
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation MethodInvocation SimpleName resolve mapped from ref constraint
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all attributes
+collections SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+unmodifiable map SimpleName MethodInvocation MethodInvocation SimpleName resolve mapped from ref constraint
+unmodifiable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all attributes
+unmodifiable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName values
+mapped from ref attributes SimpleName Assignment MethodInvocation SimpleName collections
+mapped from ref attributes SimpleName Assignment MethodInvocation SimpleName unmodifiable map
+mapped from ref attributes SimpleName Assignment MethodInvocation MethodInvocation SimpleName resolve mapped from ref constraint
+string SimpleName SimpleType SingleVariableDeclaration SimpleName super type name
+type registry SimpleName MethodInvocation SimpleName get entity type by name
+type registry SimpleName MethodInvocation SimpleName super type name
+get entity type by name SimpleName MethodInvocation SimpleName super type name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName type registry
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity type by name
+super type SimpleName VariableDeclarationFragment MethodInvocation SimpleName super type name
+atlas entity type SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName super type
+super type SimpleName MethodInvocation SimpleName add sub type
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName all super types
+super type name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName all super types
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName resolve references phase
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resolve references phase
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName all super types
+void PrimitiveType MethodDeclaration SimpleName resolve references phase
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName all super types
+resolve references phase SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+resolve references phase SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+resolve references phase SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+resolve references phase SimpleName MethodDeclaration Block EnhancedForStatement SimpleName all super types
+type registry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve references phase
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve references phase
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

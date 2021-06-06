@@ -1,0 +1,97 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+type system SimpleName SimpleType SingleVariableDeclaration SimpleName type system
+immutable list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type names
+type vertex finder SimpleName SimpleType ClassInstanceCreation SimpleName type system
+vertex finder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName type vertex finder
+vertex finder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName type system
+type vertex finder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertex finder
+process types SimpleName MethodInvocation SimpleName type names
+process types SimpleName MethodInvocation SimpleName type system
+process types SimpleName MethodInvocation SimpleName vertex finder
+type names SimpleName MethodInvocation SimpleName type system
+type names SimpleName MethodInvocation SimpleName vertex finder
+type system SimpleName MethodInvocation SimpleName vertex finder
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type vertex info
+vertex finder SimpleName MethodInvocation SimpleName get vertices to create
+type vertices needed SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertex finder
+type vertices needed SimpleName VariableDeclarationFragment MethodInvocation SimpleName get vertices to create
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+create vertices SimpleName MethodInvocation SimpleName type vertices needed
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName create vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName type vertices needed
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+type vertices needed SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName type vertices needed
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+type vertices needed SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName type vertices needed
+i SimpleName InfixExpression MethodInvocation SimpleName size
+type vertices needed SimpleName MethodInvocation SimpleName get
+type vertices needed SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+created vertex info SimpleName VariableDeclarationFragment MethodInvocation SimpleName type vertices needed
+created vertex info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+created vertex info SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+type vertex info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created vertex info
+vertices SimpleName MethodInvocation SimpleName get
+vertices SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+created vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertices
+created vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+created vertex SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName created vertex
+created vertex info SimpleName MethodInvocation SimpleName get type name
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation MethodInvocation SimpleName created vertex info
+result SimpleName MethodInvocation MethodInvocation SimpleName get type name
+result SimpleName MethodInvocation SimpleName created vertex
+put SimpleName MethodInvocation MethodInvocation SimpleName created vertex info
+put SimpleName MethodInvocation MethodInvocation SimpleName get type name
+put SimpleName MethodInvocation SimpleName created vertex
+created vertex info SimpleName MethodInvocation MethodInvocation SimpleName created vertex
+get type name SimpleName MethodInvocation MethodInvocation SimpleName created vertex
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas vertex
+private Modifier MethodDeclaration SimpleName get or create type vertices
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type system
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type names
+private Modifier MethodDeclaration SimpleType SimpleName atlas exception
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get or create type vertices
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get or create type vertices
+atlas vertex SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get or create type vertices
+get or create type vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type system
+get or create type vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type system
+get or create type vertices SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type names
+get or create type vertices SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+get or create type vertices SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+type system SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+type system SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+type names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get or create type vertices
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get or create type vertices
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type system
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

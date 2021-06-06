@@ -1,0 +1,63 @@
+configuration SimpleName SimpleType SingleVariableDeclaration SimpleName conf
+string SimpleName SimpleType SingleVariableDeclaration SimpleName instance name
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName instance has been set
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName instance has been set
+set boolean SimpleName MethodInvocation BooleanLiteral true
+instance has been set SimpleName MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation SimpleName set boolean
+conf SimpleName MethodInvocation SimpleName mock
+conf SimpleName MethodInvocation BooleanLiteral true
+set boolean SimpleName MethodInvocation SimpleName mock
+set boolean SimpleName MethodInvocation BooleanLiteral true
+mock SimpleName MethodInvocation BooleanLiteral true
+conf SimpleName MethodInvocation SimpleName set
+conf SimpleName MethodInvocation SimpleName instance name
+conf SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+set SimpleName MethodInvocation SimpleName instance name
+instance name SimpleName MethodInvocation SimpleName instance name
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier public
+deprecated SimpleName MarkerAnnotation MethodDeclaration Modifier static
+deprecated SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+deprecated SimpleName MarkerAnnotation MethodDeclaration SimpleName set mock instance
+deprecated SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set mock instance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set mock instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName conf
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance name
+void PrimitiveType MethodDeclaration SimpleName set mock instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName conf
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance name
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName configuration
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName conf
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set mock instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance name
+conf SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mock instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName deprecated
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mock instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName conf
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance name

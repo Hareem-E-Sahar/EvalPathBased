@@ -1,0 +1,45 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName base urls
+client SimpleName SimpleType SingleVariableDeclaration SimpleName client
+base urls SimpleName ArrayAccess NumberLiteral empty
+return url SimpleName VariableDeclarationFragment ArrayAccess SimpleName base urls
+return url SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName return url
+base urlslength QualifiedName InfixExpression NumberLiteral empty
+base urlslength QualifiedName InfixExpression InfixExpression PrefixExpression SimpleName first call
+empty NumberLiteral InfixExpression InfixExpression PrefixExpression SimpleName first call
+base urls SimpleName ArrayAccess NumberLiteral empty
+return url SimpleName Assignment ArrayAccess SimpleName base urls
+return url SimpleName Assignment ArrayAccess NumberLiteral empty
+first call SimpleName Assignment BooleanLiteral false
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName determine active service url
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName base urls
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName client
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName determine active service url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName base urls
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName client
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName return url
+string SimpleName SimpleType MethodDeclaration SimpleName determine active service url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base urls
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName client
+determine active service url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base urls
+determine active service url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName client
+determine active service url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName client
+determine active service url SimpleName MethodDeclaration Block ReturnStatement SimpleName return url
+base urls SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName determine active service url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base urls
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName determine active service url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base urls
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName client

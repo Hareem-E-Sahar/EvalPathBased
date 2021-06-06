@@ -1,0 +1,89 @@
+multibinder SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas format adapter
+multibinder SimpleName MethodInvocation SimpleName new set binder
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas format adapter
+new set binder SimpleName MethodInvocation MethodInvocation SimpleName binder
+new set binder SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas format adapter
+multibinder SimpleName VariableDeclarationFragment MethodInvocation SimpleName multibinder
+multibinder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new set binder
+multibinder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName binder
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas struct to struct converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas entity to referenceable converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas classification to trait converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas primitive format converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas enum format converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas map format converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName atlas array format converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName referenceable to atlas entity converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName struct to atlas struct converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+multibinder SimpleName MethodInvocation SimpleName add binding
+multibinder SimpleName MethodInvocation MethodInvocation SimpleName to
+add binding SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName trait to atlas classification converter
+multibinder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+add binding SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as eager singleton
+to SimpleName MethodInvocation MethodInvocation SimpleName as eager singleton
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

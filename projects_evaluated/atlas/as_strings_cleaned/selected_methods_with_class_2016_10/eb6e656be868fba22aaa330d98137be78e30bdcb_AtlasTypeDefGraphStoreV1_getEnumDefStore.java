@@ -1,0 +1,25 @@
+atlas type registry SimpleName SimpleType SingleVariableDeclaration SimpleName type registry
+atlas enum def store v SimpleName SimpleType ClassInstanceCreation SimpleName type registry
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas enum def store
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get enum def store
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type registry
+protected Modifier MethodDeclaration SimpleType SimpleName atlas enum def store
+protected Modifier MethodDeclaration SimpleName get enum def store
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type registry
+atlas enum def store SimpleName SimpleType MethodDeclaration SimpleName get enum def store
+atlas enum def store SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type registry
+get enum def store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas type registry
+get enum def store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type registry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas enum def store
+public Modifier TypeDeclaration MethodDeclaration SimpleName get enum def store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas enum def store
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get enum def store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type registry

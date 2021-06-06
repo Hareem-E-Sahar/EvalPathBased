@@ -1,0 +1,364 @@
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type with complex collection attr
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+entity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type with complex collection attr
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation SimpleName name
+entity SimpleName MethodInvocation SimpleName entity type with complex collection attr
+set attribute SimpleName MethodInvocation SimpleName name
+set attribute SimpleName MethodInvocation SimpleName entity type with complex collection attr
+name SimpleName MethodInvocation SimpleName entity type with complex collection attr
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+arrays SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+arrays SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+as list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+as list SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+name StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct type
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral name
+struct array StringLiteral ClassInstanceCreation MethodInvocation ClassInstanceCreation StringLiteral struct array
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral list of structs
+entity SimpleName MethodInvocation MethodInvocation SimpleName arrays
+entity SimpleName MethodInvocation MethodInvocation SimpleName as list
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+entity SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+set attribute SimpleName MethodInvocation StringLiteral list of structs
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName as list
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+set attribute SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+list of structs StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+list of structs StringLiteral MethodInvocation MethodInvocation SimpleName as list
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct type
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral name
+list of structs StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral struct array
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas struct
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct map
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct map
+name StringLiteral ClassInstanceCreation StringLiteral struct map
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct map
+key StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct type
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral name
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct map
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct map
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct map
+name StringLiteral ClassInstanceCreation StringLiteral struct map
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct map
+key StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct type
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral name
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct map
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct type
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral name
+atlas struct SimpleName SimpleType ClassInstanceCreation StringLiteral struct map
+struct type StringLiteral ClassInstanceCreation StringLiteral name
+struct type StringLiteral ClassInstanceCreation StringLiteral struct map
+name StringLiteral ClassInstanceCreation StringLiteral struct map
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct type
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral name
+put SimpleName MethodInvocation ClassInstanceCreation StringLiteral struct map
+key StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName atlas struct
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct type
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral name
+key StringLiteral MethodInvocation ClassInstanceCreation StringLiteral struct map
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral map of structs
+set attribute SimpleName MethodInvocation StringLiteral map of structs
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity array
+name SimpleName MethodInvocation StringLiteral entity array
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral true
+is replicated StringLiteral MethodInvocation BooleanLiteral true
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e array
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity array
+name SimpleName MethodInvocation StringLiteral entity array
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral false
+is replicated StringLiteral MethodInvocation BooleanLiteral false
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e array
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity array
+name SimpleName MethodInvocation StringLiteral entity array
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral true
+is replicated StringLiteral MethodInvocation BooleanLiteral true
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e array SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e array
+get atlas object id SimpleName MethodInvocation SimpleName e array
+get atlas object id SimpleName MethodInvocation SimpleName e array
+get atlas object id SimpleName MethodInvocation SimpleName e array
+arrays SimpleName MethodInvocation SimpleName as list
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+arrays SimpleName MethodInvocation MethodInvocation SimpleName e array
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+arrays SimpleName MethodInvocation MethodInvocation SimpleName e array
+arrays SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+arrays SimpleName MethodInvocation MethodInvocation SimpleName e array
+as list SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+as list SimpleName MethodInvocation MethodInvocation SimpleName e array
+as list SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+as list SimpleName MethodInvocation MethodInvocation SimpleName e array
+as list SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+as list SimpleName MethodInvocation MethodInvocation SimpleName e array
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+get atlas object id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+e array SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral list of entities
+entity SimpleName MethodInvocation MethodInvocation SimpleName arrays
+entity SimpleName MethodInvocation MethodInvocation SimpleName as list
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+entity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+set attribute SimpleName MethodInvocation StringLiteral list of entities
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName arrays
+set attribute SimpleName MethodInvocation MethodInvocation SimpleName as list
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+set attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+list of entities StringLiteral MethodInvocation MethodInvocation SimpleName arrays
+list of entities StringLiteral MethodInvocation MethodInvocation SimpleName as list
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get atlas object id
+list of entities StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName e array
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity map value
+name SimpleName MethodInvocation StringLiteral entity map value
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral false
+is replicated StringLiteral MethodInvocation BooleanLiteral false
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e map value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity map value
+name SimpleName MethodInvocation StringLiteral entity map value
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral true
+is replicated StringLiteral MethodInvocation BooleanLiteral true
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e map value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation StringLiteral entity map value
+name SimpleName MethodInvocation StringLiteral entity map value
+put SimpleName MethodInvocation StringLiteral is replicated
+put SimpleName MethodInvocation BooleanLiteral false
+is replicated StringLiteral MethodInvocation BooleanLiteral false
+atlas entity SimpleName SimpleType ClassInstanceCreation SimpleName entity type
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity
+e map value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity type
+atlas entity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e map value
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+get atlas object id SimpleName MethodInvocation SimpleName e map value
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+put SimpleName MethodInvocation MethodInvocation SimpleName e map value
+key StringLiteral MethodInvocation MethodInvocation SimpleName get atlas object id
+key StringLiteral MethodInvocation MethodInvocation SimpleName e map value
+get atlas object id SimpleName MethodInvocation SimpleName e map value
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+put SimpleName MethodInvocation MethodInvocation SimpleName e map value
+key StringLiteral MethodInvocation MethodInvocation SimpleName get atlas object id
+key StringLiteral MethodInvocation MethodInvocation SimpleName e map value
+get atlas object id SimpleName MethodInvocation SimpleName e map value
+put SimpleName MethodInvocation StringLiteral key
+put SimpleName MethodInvocation MethodInvocation SimpleName get atlas object id
+put SimpleName MethodInvocation MethodInvocation SimpleName e map value
+key StringLiteral MethodInvocation MethodInvocation SimpleName get atlas object id
+key StringLiteral MethodInvocation MethodInvocation SimpleName e map value
+entity SimpleName MethodInvocation SimpleName set attribute
+entity SimpleName MethodInvocation StringLiteral map of entities
+set attribute SimpleName MethodInvocation StringLiteral map of entities
+atlas entity with ext info SimpleName SimpleType ClassInstanceCreation SimpleName entity
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas entity with ext info
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName entity
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e array
+add referred entity SimpleName MethodInvocation SimpleName e array
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e array
+add referred entity SimpleName MethodInvocation SimpleName e array
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e array
+add referred entity SimpleName MethodInvocation SimpleName e array
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e map value
+add referred entity SimpleName MethodInvocation SimpleName e map value
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e map value
+add referred entity SimpleName MethodInvocation SimpleName e map value
+ret SimpleName MethodInvocation SimpleName add referred entity
+ret SimpleName MethodInvocation SimpleName e map value
+add referred entity SimpleName MethodInvocation SimpleName e map value
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier MethodDeclaration SimpleName create complex collection attr entity
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+static Modifier MethodDeclaration SimpleName create complex collection attr entity
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName create complex collection attr entity
+create complex collection attr entity SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName create complex collection attr entity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create complex collection attr entity

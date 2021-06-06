@@ -1,0 +1,29 @@
+iterator SimpleName MethodInvocation SimpleName has next
+edge SimpleName InfixExpression InfixExpression MethodInvocation SimpleName iterator
+edge SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+local edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+local edge SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+edge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local edge
+local edge SimpleName MethodInvocation SimpleName get label
+local edge SimpleName MethodInvocation MethodInvocation SimpleName equals
+get label SimpleName MethodInvocation MethodInvocation SimpleName equals
+local edge SimpleName MethodInvocation MethodInvocation SimpleName edge label
+get label SimpleName MethodInvocation MethodInvocation SimpleName edge label
+equals SimpleName MethodInvocation SimpleName edge label
+edge SimpleName Assignment SimpleName local edge
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has next
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has next
+boolean PrimitiveType MethodDeclaration SimpleName has next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has next

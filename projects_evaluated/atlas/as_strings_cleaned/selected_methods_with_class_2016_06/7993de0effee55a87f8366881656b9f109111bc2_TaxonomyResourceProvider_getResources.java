@@ -1,0 +1,39 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+do get resources SimpleName MethodInvocation SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get resources
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName invalid query exception
+public Modifier MethodDeclaration SimpleType SimpleName result
+public Modifier MethodDeclaration SimpleName get resources
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName invalid query exception
+public Modifier MethodDeclaration SimpleType SimpleName resource not found exception
+result SimpleName SimpleType MethodDeclaration SimpleName get resources
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+result SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid query exception
+result SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource not found exception
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get resources SimpleName MethodDeclaration SimpleType SimpleName invalid query exception
+get resources SimpleName MethodDeclaration SimpleType SimpleName resource not found exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid query exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+invalid query exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid query exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid query exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource not found exception

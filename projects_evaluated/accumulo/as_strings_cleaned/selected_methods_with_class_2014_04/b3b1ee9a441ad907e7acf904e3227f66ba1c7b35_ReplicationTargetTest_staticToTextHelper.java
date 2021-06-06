@@ -1,0 +1,71 @@
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+replication target SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+foo StringLiteral ClassInstanceCreation StringLiteral bar
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName replication target
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bar
+replication target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output buffer
+data output buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+expected SimpleName MethodInvocation SimpleName write
+expected SimpleName MethodInvocation SimpleName buffer
+write SimpleName MethodInvocation SimpleName buffer
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+buffer SimpleName MethodInvocation SimpleName get data
+buffer SimpleName MethodInvocation SimpleName get length
+t SimpleName MethodInvocation SimpleName set
+t SimpleName MethodInvocation MethodInvocation SimpleName buffer
+t SimpleName MethodInvocation MethodInvocation SimpleName get data
+t SimpleName MethodInvocation NumberLiteral empty
+t SimpleName MethodInvocation MethodInvocation SimpleName buffer
+t SimpleName MethodInvocation MethodInvocation SimpleName get length
+set SimpleName MethodInvocation MethodInvocation SimpleName buffer
+set SimpleName MethodInvocation MethodInvocation SimpleName get data
+set SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation MethodInvocation SimpleName buffer
+set SimpleName MethodInvocation MethodInvocation SimpleName get length
+buffer SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get data SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+buffer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName buffer
+get data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName buffer
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get length
+replication target SimpleName MethodInvocation SimpleName to text
+replication target SimpleName MethodInvocation SimpleName expected
+to text SimpleName MethodInvocation SimpleName expected
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName t
+assert SimpleName MethodInvocation MethodInvocation SimpleName replication target
+assert SimpleName MethodInvocation MethodInvocation SimpleName to text
+assert SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation SimpleName t
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName replication target
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to text
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+t SimpleName MethodInvocation MethodInvocation SimpleName replication target
+t SimpleName MethodInvocation MethodInvocation SimpleName to text
+t SimpleName MethodInvocation MethodInvocation SimpleName expected
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName static to text helper
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName static to text helper
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName static to text helper
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+static to text helper SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName static to text helper
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName static to text helper
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

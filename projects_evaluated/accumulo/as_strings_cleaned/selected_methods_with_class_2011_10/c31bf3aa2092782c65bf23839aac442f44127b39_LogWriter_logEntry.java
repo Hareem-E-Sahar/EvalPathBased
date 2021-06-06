@@ -1,0 +1,68 @@
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+seq SimpleName MethodInvocation SimpleName append
+seq SimpleName MethodInvocation SimpleName key
+seq SimpleName MethodInvocation SimpleName value
+append SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+metrics SimpleName MethodInvocation SimpleName is enabled
+t SimpleName InfixExpression SimpleName t
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName log writer metricslog append
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation QualifiedName log writer metricslog append
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricslog append QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricslog append QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+out SimpleName MethodInvocation SimpleName flush
+system SimpleName MethodInvocation SimpleName current time millis
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+metrics SimpleName MethodInvocation SimpleName is enabled
+t SimpleName InfixExpression SimpleName t
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName log writer metricslog flush
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+metrics SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation QualifiedName log writer metricslog flush
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+add SimpleName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricslog flush QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+log writer metricslog flush QualifiedName MethodInvocation ParenthesizedExpression InfixExpression SimpleName t
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+metrics SimpleName MethodInvocation SimpleName is enabled
+metrics SimpleName MethodInvocation SimpleName add
+metrics SimpleName MethodInvocation QualifiedName log writer metricslog exception
+metrics SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation QualifiedName log writer metricslog exception
+add SimpleName MethodInvocation NumberLiteral empty
+log writer metricslog exception QualifiedName MethodInvocation NumberLiteral empty
+void PrimitiveType MethodDeclaration SimpleName log entry
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+log entry SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log entry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

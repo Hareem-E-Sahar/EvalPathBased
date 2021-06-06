@@ -1,0 +1,70 @@
+atlas entity access request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+object SimpleName SimpleType SingleVariableDeclaration SimpleName error msg params
+is access allowed SimpleName MethodInvocation SimpleName request
+error msg paramslength QualifiedName InfixExpression NumberLiteral empty
+error msg params SimpleName InfixExpression InfixExpression InfixExpression QualifiedName error msg paramslength
+error msg params SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+string utils SimpleName MethodInvocation SimpleName join
+string utils SimpleName MethodInvocation SimpleName error msg params
+join SimpleName MethodInvocation SimpleName error msg params
+string utils SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+join SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+error msg params SimpleName MethodInvocation ConditionalExpression StringLiteral empty
+message SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName string utils
+message SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName join
+message SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName error msg params
+message SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+request SimpleName MethodInvocation SimpleName get user
+atlas base exception SimpleName SimpleType ClassInstanceCreation QualifiedName atlas error codeunauthorized access
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName request
+atlas base exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user
+atlas base exception SimpleName SimpleType ClassInstanceCreation SimpleName message
+atlas error codeunauthorized access QualifiedName ClassInstanceCreation MethodInvocation SimpleName request
+atlas error codeunauthorized access QualifiedName ClassInstanceCreation MethodInvocation SimpleName get user
+atlas error codeunauthorized access QualifiedName ClassInstanceCreation SimpleName message
+request SimpleName MethodInvocation ClassInstanceCreation SimpleName message
+get user SimpleName MethodInvocation ClassInstanceCreation SimpleName message
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName verify access
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity access request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName verify access
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity access request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+static Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+void PrimitiveType MethodDeclaration SimpleName verify access
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity access request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+void PrimitiveType MethodDeclaration SimpleType SimpleName atlas base exception
+verify access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity access request
+verify access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+verify access SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+verify access SimpleName MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+verify access SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+error msg params SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify access
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify access
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error msg params
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

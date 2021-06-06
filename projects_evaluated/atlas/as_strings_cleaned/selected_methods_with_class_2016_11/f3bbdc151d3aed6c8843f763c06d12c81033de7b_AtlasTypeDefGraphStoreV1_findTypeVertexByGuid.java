@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type guid
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas vertex
+atlas graph SimpleName MethodInvocation SimpleName query
+atlas graph SimpleName MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation SimpleName has
+atlas graph SimpleName MethodInvocation MethodInvocation SimpleName vertex type property key
+query SimpleName MethodInvocation MethodInvocation SimpleName vertex type property key
+atlas graph SimpleName MethodInvocation MethodInvocation SimpleName vertex type
+query SimpleName MethodInvocation MethodInvocation SimpleName vertex type
+has SimpleName MethodInvocation SimpleName vertex type property key
+has SimpleName MethodInvocation SimpleName vertex type
+vertex type property key SimpleName MethodInvocation SimpleName vertex type
+atlas graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has
+has SimpleName MethodInvocation MethodInvocation SimpleName has
+vertex type property key SimpleName MethodInvocation MethodInvocation SimpleName has
+vertex type SimpleName MethodInvocation MethodInvocation SimpleName has
+atlas graph SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+query SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName constantsguid property key
+has SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+vertex type property key SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+vertex type SimpleName MethodInvocation MethodInvocation QualifiedName constantsguid property key
+atlas graph SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type guid
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName type guid
+has SimpleName MethodInvocation MethodInvocation SimpleName type guid
+vertex type property key SimpleName MethodInvocation MethodInvocation SimpleName type guid
+vertex type SimpleName MethodInvocation MethodInvocation SimpleName type guid
+has SimpleName MethodInvocation QualifiedName constantsguid property key
+has SimpleName MethodInvocation SimpleName type guid
+constantsguid property key QualifiedName MethodInvocation SimpleName type guid
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+vertex type property key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+vertex type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation SimpleName vertices
+constantsguid property key QualifiedName MethodInvocation MethodInvocation SimpleName vertices
+type guid SimpleName MethodInvocation MethodInvocation SimpleName vertices
+has SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+constantsguid property key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+type guid SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation MethodInvocation SimpleName iterator
+vertices SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vertices
+vertices SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+vertices SimpleName MethodInvocation SimpleName has next
+vertices SimpleName InfixExpression InfixExpression MethodInvocation SimpleName vertices
+vertices SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has next
+vertices SimpleName MethodInvocation SimpleName next
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName vertices
+ret SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName next
+atlas vertex SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+atlas vertex SimpleName SimpleType MethodDeclaration SimpleName find type vertex by guid
+atlas vertex SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type guid
+find type vertex by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find type vertex by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type guid
+find type vertex by guid SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+public Modifier TypeDeclaration MethodDeclaration SimpleName find type vertex by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas vertex
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find type vertex by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type guid

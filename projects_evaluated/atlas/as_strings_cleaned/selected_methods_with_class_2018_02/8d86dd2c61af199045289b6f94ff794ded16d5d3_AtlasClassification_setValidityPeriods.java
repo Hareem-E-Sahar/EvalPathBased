@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName time boundary
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName validity periods
+time boundary SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName validity periods
+validity periods SimpleName FieldAccess Assignment SimpleName validity periods
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set validity periods
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName validity periods
+void PrimitiveType MethodDeclaration SimpleName set validity periods
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName validity periods
+set validity periods SimpleName MethodDeclaration SingleVariableDeclaration SimpleName validity periods
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set validity periods
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName validity periods
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set validity periods
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName validity periods

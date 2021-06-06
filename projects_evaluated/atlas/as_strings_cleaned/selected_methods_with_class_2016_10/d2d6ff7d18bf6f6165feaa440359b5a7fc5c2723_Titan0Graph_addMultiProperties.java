@@ -1,0 +1,21 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName names
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName names
+multi properties SimpleName MethodInvocation SimpleName add all
+multi properties SimpleName MethodInvocation SimpleName names
+add all SimpleName MethodInvocation SimpleName names
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add multi properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName names
+void PrimitiveType MethodDeclaration SimpleName add multi properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName names
+add multi properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add multi properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add multi properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names

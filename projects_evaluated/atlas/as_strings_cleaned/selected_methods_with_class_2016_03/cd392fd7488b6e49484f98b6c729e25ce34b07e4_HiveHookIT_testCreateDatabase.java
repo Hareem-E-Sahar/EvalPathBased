@@ -1,0 +1,128 @@
+db StringLiteral InfixExpression MethodInvocation SimpleName random
+db name SimpleName VariableDeclarationFragment InfixExpression StringLiteral db
+db name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName random
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db name
+create database StringLiteral InfixExpression SimpleName db name
+create database StringLiteral InfixExpression StringLiteral with dbproperties p v p v )
+db name SimpleName InfixExpression StringLiteral with dbproperties p v p v )
+run command SimpleName MethodInvocation InfixExpression StringLiteral create database
+run command SimpleName MethodInvocation InfixExpression SimpleName db name
+run command SimpleName MethodInvocation InfixExpression StringLiteral with dbproperties p v p v )
+assert database is registered SimpleName MethodInvocation SimpleName db name
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert database is registered
+db id SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db id
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName db id
+get entity SimpleName MethodInvocation SimpleName db id
+definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+definition SimpleName VariableDeclarationFragment MethodInvocation SimpleName db id
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName definition
+definition SimpleName MethodInvocation SimpleName get
+definition SimpleName MethodInvocation QualifiedName hive data model generatorparameters
+get SimpleName MethodInvocation QualifiedName hive data model generatorparameters
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName definition
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation QualifiedName hive data model generatorparameters
+params SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+params SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName definition
+params SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+params SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName hive data model generatorparameters
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName params
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName params
+assert not null SimpleName MethodInvocation SimpleName params
+params SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName params
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName params
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+params SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+size SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+params SimpleName MethodInvocation SimpleName get
+params SimpleName MethodInvocation StringLiteral p
+get SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName params
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation StringLiteral v
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName params
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert equals SimpleName MethodInvocation StringLiteral v
+params SimpleName MethodInvocation MethodInvocation StringLiteral v
+get SimpleName MethodInvocation MethodInvocation StringLiteral v
+p StringLiteral MethodInvocation MethodInvocation StringLiteral v
+drop database StringLiteral InfixExpression SimpleName db name
+run command SimpleName MethodInvocation InfixExpression StringLiteral drop database
+run command SimpleName MethodInvocation InfixExpression SimpleName db name
+create database StringLiteral InfixExpression SimpleName db name
+run command SimpleName MethodInvocation InfixExpression StringLiteral create database
+run command SimpleName MethodInvocation InfixExpression SimpleName db name
+assert database is registered SimpleName MethodInvocation SimpleName db name
+dbid SimpleName VariableDeclarationFragment MethodInvocation SimpleName assert database is registered
+dbid SimpleName VariableDeclarationFragment MethodInvocation SimpleName db name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dbid
+dgi c lient SimpleName MethodInvocation SimpleName get entity
+dgi c lient SimpleName MethodInvocation SimpleName dbid
+get entity SimpleName MethodInvocation SimpleName dbid
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName dgi c lient
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity
+db entity SimpleName VariableDeclarationFragment MethodInvocation SimpleName dbid
+referenceable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db entity
+db entity SimpleName MethodInvocation SimpleName get
+db entity SimpleName MethodInvocation StringLiteral qualified name
+get SimpleName MethodInvocation StringLiteral qualified name
+db name SimpleName MethodInvocation SimpleName to lower case
+db name SimpleName MethodInvocation InfixExpression StringLiteral @
+to lower case SimpleName MethodInvocation InfixExpression StringLiteral @
+db name SimpleName MethodInvocation InfixExpression SimpleName cluster name
+to lower case SimpleName MethodInvocation InfixExpression SimpleName cluster name
+@ StringLiteral InfixExpression SimpleName cluster name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName db entity
+assert SimpleName MethodInvocation MethodInvocation SimpleName get
+assert SimpleName MethodInvocation MethodInvocation StringLiteral qualified name
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName db name
+assert SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+assert SimpleName MethodInvocation InfixExpression StringLiteral @
+assert SimpleName MethodInvocation InfixExpression SimpleName cluster name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName db entity
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral qualified name
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName db name
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to lower case
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral @
+assert equals SimpleName MethodInvocation InfixExpression SimpleName cluster name
+db entity SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral @
+db entity SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName cluster name
+get SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral @
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName cluster name
+qualified name StringLiteral MethodInvocation MethodInvocation InfixExpression StringLiteral @
+qualified name StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName cluster name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create database
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create database
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create database
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create database SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create database
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create database
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

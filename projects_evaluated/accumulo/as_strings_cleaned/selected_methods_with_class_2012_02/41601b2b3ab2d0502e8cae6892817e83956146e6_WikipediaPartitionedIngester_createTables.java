@@ -1,0 +1,320 @@
+table operations SimpleName SimpleType SingleVariableDeclaration SimpleName tops
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table name
+table name SimpleName InfixExpression StringLiteral index
+index table name SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+index table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index table name
+table name SimpleName InfixExpression StringLiteral reverse index
+reverse index table name SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+reverse index table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral reverse index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reverse index table name
+table name SimpleName InfixExpression StringLiteral metadata
+metadata table name SimpleName VariableDeclarationFragment InfixExpression SimpleName table name
+metadata table name SimpleName VariableDeclarationFragment InfixExpression StringLiteral metadata
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata table name
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation SimpleName table name
+exists SimpleName MethodInvocation SimpleName table name
+text index families SimpleName VariableDeclarationFragment QualifiedName wikipedia mappertokens field name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text index families
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName wikipedia mappertokens field name
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+text index families SimpleName MethodInvocation SimpleName length
+text index families SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+adding content combiner on the fields StringLiteral InfixExpression SimpleName text index families
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral adding content combiner on the fields
+systemout QualifiedName MethodInvocation InfixExpression SimpleName text index families
+println SimpleName MethodInvocation InfixExpression StringLiteral adding content combiner on the fields
+println SimpleName MethodInvocation InfixExpression SimpleName text index families
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName text index combiner
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName setting
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName column
+string SimpleName SimpleType SingleVariableDeclaration SimpleName family
+string utils SimpleName MethodInvocation SimpleName split
+string utils SimpleName MethodInvocation SimpleName text index families
+string utils SimpleName MethodInvocation CharacterLiteral empty
+split SimpleName MethodInvocation SimpleName text index families
+split SimpleName MethodInvocation CharacterLiteral empty
+text index families SimpleName MethodInvocation CharacterLiteral empty
+fi StringLiteral InfixExpression SimpleName family
+column SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral fi
+column SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName family
+columns SimpleName MethodInvocation SimpleName add
+columns SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+columns SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral fi
+columns SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName family
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression StringLiteral fi
+add SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName family
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName string utils
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName split
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName text index families
+family SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation CharacterLiteral empty
+text index combiner SimpleName MethodInvocation SimpleName set columns
+text index combiner SimpleName MethodInvocation SimpleName setting
+text index combiner SimpleName MethodInvocation SimpleName columns
+set columns SimpleName MethodInvocation SimpleName setting
+set columns SimpleName MethodInvocation SimpleName columns
+setting SimpleName MethodInvocation SimpleName columns
+text index combiner SimpleName MethodInvocation SimpleName set lossyness
+text index combiner SimpleName MethodInvocation SimpleName setting
+text index combiner SimpleName MethodInvocation BooleanLiteral true
+set lossyness SimpleName MethodInvocation SimpleName setting
+set lossyness SimpleName MethodInvocation BooleanLiteral true
+setting SimpleName MethodInvocation BooleanLiteral true
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+tops SimpleName MethodInvocation SimpleName attach iterator
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation SimpleName setting
+tops SimpleName MethodInvocation MethodInvocation SimpleName enum set
+tops SimpleName MethodInvocation MethodInvocation SimpleName all of
+attach iterator SimpleName MethodInvocation SimpleName table name
+attach iterator SimpleName MethodInvocation SimpleName setting
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName enum set
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName all of
+table name SimpleName MethodInvocation SimpleName setting
+table name SimpleName MethodInvocation MethodInvocation SimpleName enum set
+table name SimpleName MethodInvocation MethodInvocation SimpleName all of
+setting SimpleName MethodInvocation MethodInvocation SimpleName enum set
+setting SimpleName MethodInvocation MethodInvocation SimpleName all of
+text SimpleName SimpleType ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+collections SimpleName MethodInvocation ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+singleton SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+singleton SimpleName MethodInvocation ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation StringLiteral wikipedia documents
+collections SimpleName MethodInvocation MethodInvocation SimpleName collections
+collections SimpleName MethodInvocation MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+singleton map SimpleName MethodInvocation StringLiteral wikipedia documents
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName collections
+singleton map SimpleName MethodInvocation MethodInvocation SimpleName singleton
+singleton map SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+wikipedia documents StringLiteral MethodInvocation MethodInvocation SimpleName collections
+wikipedia documents StringLiteral MethodInvocation MethodInvocation SimpleName singleton
+wikipedia documents StringLiteral MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName wikipedia mapperdocument column family
+tops SimpleName MethodInvocation SimpleName set locality groups
+tops SimpleName MethodInvocation SimpleName table name
+tops SimpleName MethodInvocation MethodInvocation SimpleName collections
+tops SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+tops SimpleName MethodInvocation MethodInvocation StringLiteral wikipedia documents
+tops SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+tops SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+set locality groups SimpleName MethodInvocation SimpleName table name
+set locality groups SimpleName MethodInvocation MethodInvocation SimpleName collections
+set locality groups SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+set locality groups SimpleName MethodInvocation MethodInvocation StringLiteral wikipedia documents
+set locality groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+set locality groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+table name SimpleName MethodInvocation MethodInvocation SimpleName collections
+table name SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+table name SimpleName MethodInvocation MethodInvocation StringLiteral wikipedia documents
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation SimpleName index table name
+exists SimpleName MethodInvocation SimpleName index table name
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName index table name
+create SimpleName MethodInvocation SimpleName index table name
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral uid aggregator
+empty NumberLiteral ClassInstanceCreation StringLiteral uid aggregator
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName global index uid combiner
+uid aggregator StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName global index uid combiner
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral uid aggregator
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName setting
+global index uid combiner SimpleName MethodInvocation SimpleName set combine all columns
+global index uid combiner SimpleName MethodInvocation SimpleName setting
+global index uid combiner SimpleName MethodInvocation BooleanLiteral true
+set combine all columns SimpleName MethodInvocation SimpleName setting
+set combine all columns SimpleName MethodInvocation BooleanLiteral true
+setting SimpleName MethodInvocation BooleanLiteral true
+global index uid combiner SimpleName MethodInvocation SimpleName set lossyness
+global index uid combiner SimpleName MethodInvocation SimpleName setting
+global index uid combiner SimpleName MethodInvocation BooleanLiteral true
+set lossyness SimpleName MethodInvocation SimpleName setting
+set lossyness SimpleName MethodInvocation BooleanLiteral true
+setting SimpleName MethodInvocation BooleanLiteral true
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+tops SimpleName MethodInvocation SimpleName attach iterator
+tops SimpleName MethodInvocation SimpleName index table name
+tops SimpleName MethodInvocation SimpleName setting
+tops SimpleName MethodInvocation MethodInvocation SimpleName enum set
+tops SimpleName MethodInvocation MethodInvocation SimpleName all of
+attach iterator SimpleName MethodInvocation SimpleName index table name
+attach iterator SimpleName MethodInvocation SimpleName setting
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName enum set
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName all of
+index table name SimpleName MethodInvocation SimpleName setting
+index table name SimpleName MethodInvocation MethodInvocation SimpleName enum set
+index table name SimpleName MethodInvocation MethodInvocation SimpleName all of
+setting SimpleName MethodInvocation MethodInvocation SimpleName enum set
+setting SimpleName MethodInvocation MethodInvocation SimpleName all of
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation SimpleName reverse index table name
+exists SimpleName MethodInvocation SimpleName reverse index table name
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName reverse index table name
+create SimpleName MethodInvocation SimpleName reverse index table name
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType ClassInstanceCreation StringLiteral uid aggregator
+empty NumberLiteral ClassInstanceCreation StringLiteral uid aggregator
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName global index uid combiner
+uid aggregator StringLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName global index uid combiner
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral uid aggregator
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName setting
+global index uid combiner SimpleName MethodInvocation SimpleName set combine all columns
+global index uid combiner SimpleName MethodInvocation SimpleName setting
+global index uid combiner SimpleName MethodInvocation BooleanLiteral true
+set combine all columns SimpleName MethodInvocation SimpleName setting
+set combine all columns SimpleName MethodInvocation BooleanLiteral true
+setting SimpleName MethodInvocation BooleanLiteral true
+global index uid combiner SimpleName MethodInvocation SimpleName set lossyness
+global index uid combiner SimpleName MethodInvocation SimpleName setting
+global index uid combiner SimpleName MethodInvocation BooleanLiteral true
+set lossyness SimpleName MethodInvocation SimpleName setting
+set lossyness SimpleName MethodInvocation BooleanLiteral true
+setting SimpleName MethodInvocation BooleanLiteral true
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+tops SimpleName MethodInvocation SimpleName attach iterator
+tops SimpleName MethodInvocation SimpleName reverse index table name
+tops SimpleName MethodInvocation SimpleName setting
+tops SimpleName MethodInvocation MethodInvocation SimpleName enum set
+tops SimpleName MethodInvocation MethodInvocation SimpleName all of
+attach iterator SimpleName MethodInvocation SimpleName reverse index table name
+attach iterator SimpleName MethodInvocation SimpleName setting
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName enum set
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName all of
+reverse index table name SimpleName MethodInvocation SimpleName setting
+reverse index table name SimpleName MethodInvocation MethodInvocation SimpleName enum set
+reverse index table name SimpleName MethodInvocation MethodInvocation SimpleName all of
+setting SimpleName MethodInvocation MethodInvocation SimpleName enum set
+setting SimpleName MethodInvocation MethodInvocation SimpleName all of
+tops SimpleName MethodInvocation SimpleName exists
+tops SimpleName MethodInvocation SimpleName metadata table name
+exists SimpleName MethodInvocation SimpleName metadata table name
+tops SimpleName MethodInvocation SimpleName create
+tops SimpleName MethodInvocation SimpleName metadata table name
+create SimpleName MethodInvocation SimpleName metadata table name
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName summing combiner
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+setting SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName setting
+column SimpleName SimpleType ClassInstanceCreation StringLiteral f
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+collections SimpleName MethodInvocation ClassInstanceCreation StringLiteral f
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName column
+singleton list SimpleName MethodInvocation ClassInstanceCreation StringLiteral f
+summing combiner SimpleName MethodInvocation SimpleName set columns
+summing combiner SimpleName MethodInvocation SimpleName setting
+summing combiner SimpleName MethodInvocation MethodInvocation SimpleName collections
+summing combiner SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+summing combiner SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral f
+set columns SimpleName MethodInvocation SimpleName setting
+set columns SimpleName MethodInvocation MethodInvocation SimpleName collections
+set columns SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set columns SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral f
+setting SimpleName MethodInvocation MethodInvocation SimpleName collections
+setting SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+setting SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral f
+summing combiner SimpleName MethodInvocation SimpleName set encoding type
+summing combiner SimpleName MethodInvocation SimpleName setting
+summing combiner SimpleName MethodInvocation QualifiedName summing combinertypevarlen
+set encoding type SimpleName MethodInvocation SimpleName setting
+set encoding type SimpleName MethodInvocation QualifiedName summing combinertypevarlen
+setting SimpleName MethodInvocation QualifiedName summing combinertypevarlen
+enum set SimpleName MethodInvocation SimpleName all of
+enum set SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+all of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName iterator scope
+tops SimpleName MethodInvocation SimpleName attach iterator
+tops SimpleName MethodInvocation SimpleName metadata table name
+tops SimpleName MethodInvocation SimpleName setting
+tops SimpleName MethodInvocation MethodInvocation SimpleName enum set
+tops SimpleName MethodInvocation MethodInvocation SimpleName all of
+attach iterator SimpleName MethodInvocation SimpleName metadata table name
+attach iterator SimpleName MethodInvocation SimpleName setting
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName enum set
+attach iterator SimpleName MethodInvocation MethodInvocation SimpleName all of
+metadata table name SimpleName MethodInvocation SimpleName setting
+metadata table name SimpleName MethodInvocation MethodInvocation SimpleName enum set
+metadata table name SimpleName MethodInvocation MethodInvocation SimpleName all of
+setting SimpleName MethodInvocation MethodInvocation SimpleName enum set
+setting SimpleName MethodInvocation MethodInvocation SimpleName all of
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create tables
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tops
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table name
+private Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleName create tables
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tops
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table name
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName table operations
+create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tops
+create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table name
+create tables SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+create tables SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+create tables SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+tops SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+tops SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+tops SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+tops SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+tops SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+table name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tops
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tops
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception

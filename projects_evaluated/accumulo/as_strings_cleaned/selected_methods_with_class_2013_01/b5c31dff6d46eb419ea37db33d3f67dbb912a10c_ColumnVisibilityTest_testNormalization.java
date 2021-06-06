@@ -1,0 +1,107 @@
+normalized SimpleName MethodInvocation StringLiteral a
+normalized SimpleName MethodInvocation StringLiteral a
+normalized SimpleName MethodInvocation StringLiteral a
+normalized SimpleName MethodInvocation StringLiteral a
+normalized SimpleName MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral ba
+a StringLiteral MethodInvocation StringLiteral ab
+a StringLiteral MethodInvocation StringLiteral bacx
+ba StringLiteral MethodInvocation StringLiteral ab
+ba StringLiteral MethodInvocation StringLiteral ba
+ba StringLiteral MethodInvocation StringLiteral ab
+ba StringLiteral MethodInvocation StringLiteral bacx
+ba StringLiteral MethodInvocation StringLiteral xabc
+ab StringLiteral MethodInvocation StringLiteral ba
+ab StringLiteral MethodInvocation StringLiteral ab
+ab StringLiteral MethodInvocation StringLiteral bacx
+ab StringLiteral MethodInvocation StringLiteral xabc
+ab StringLiteral MethodInvocation StringLiteral a
+ba StringLiteral MethodInvocation StringLiteral ab
+ba StringLiteral MethodInvocation StringLiteral bacx
+ba StringLiteral MethodInvocation StringLiteral xabc
+ba StringLiteral MethodInvocation StringLiteral a
+ba StringLiteral MethodInvocation StringLiteral a
+ab StringLiteral MethodInvocation StringLiteral bacx
+ab StringLiteral MethodInvocation StringLiteral xabc
+ab StringLiteral MethodInvocation StringLiteral a
+ab StringLiteral MethodInvocation StringLiteral a
+bacx StringLiteral MethodInvocation StringLiteral xabc
+bacx StringLiteral MethodInvocation StringLiteral a
+bacx StringLiteral MethodInvocation StringLiteral a
+xabc StringLiteral MethodInvocation StringLiteral a
+xabc StringLiteral MethodInvocation StringLiteral a
+a StringLiteral MethodInvocation StringLiteral a
+norm form SimpleName VariableDeclarationFragment StringLiteral abc
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName norm form
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral abc
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName norm form
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral abc
+normalized SimpleName MethodInvocation StringLiteral bca
+normalized SimpleName MethodInvocation SimpleName norm form
+normalized SimpleName MethodInvocation StringLiteral cba
+normalized SimpleName MethodInvocation SimpleName norm form
+normalized SimpleName MethodInvocation StringLiteral abc
+bca StringLiteral MethodInvocation SimpleName norm form
+bca StringLiteral MethodInvocation StringLiteral cba
+bca StringLiteral MethodInvocation SimpleName norm form
+bca StringLiteral MethodInvocation StringLiteral abc
+bca StringLiteral MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral cba
+norm form SimpleName MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral abc
+norm form SimpleName MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral acb
+cba StringLiteral MethodInvocation SimpleName norm form
+cba StringLiteral MethodInvocation StringLiteral abc
+cba StringLiteral MethodInvocation SimpleName norm form
+cba StringLiteral MethodInvocation StringLiteral acb
+cba StringLiteral MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral abc
+norm form SimpleName MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral acb
+norm form SimpleName MethodInvocation SimpleName norm form
+abc StringLiteral MethodInvocation SimpleName norm form
+abc StringLiteral MethodInvocation StringLiteral acb
+abc StringLiteral MethodInvocation SimpleName norm form
+norm form SimpleName MethodInvocation StringLiteral acb
+norm form SimpleName MethodInvocation SimpleName norm form
+acb StringLiteral MethodInvocation SimpleName norm form
+normalized SimpleName MethodInvocation StringLiteral dcbabcad
+normalized SimpleName MethodInvocation StringLiteral abcd
+dcbabcad StringLiteral MethodInvocation StringLiteral abcd
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test normalization
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test normalization
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test normalization
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test normalization SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test normalization
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test normalization

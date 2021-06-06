@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterator setting
+public Modifier MethodDeclaration SimpleName get iterators
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+iterator setting SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get iterators
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get iterators
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get iterators

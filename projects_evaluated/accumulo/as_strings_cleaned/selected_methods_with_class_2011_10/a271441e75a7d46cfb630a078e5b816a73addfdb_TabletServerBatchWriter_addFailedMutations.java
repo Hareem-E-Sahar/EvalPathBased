@@ -1,0 +1,47 @@
+mutation set SimpleName SimpleType SingleVariableDeclaration SimpleName failed mutations
+mutations SimpleName MethodInvocation SimpleName add all
+mutations SimpleName MethodInvocation SimpleName failed mutations
+add all SimpleName MethodInvocation SimpleName failed mutations
+mutations SimpleName MethodInvocation SimpleName get memory used
+max mem SimpleName InfixExpression NumberLiteral empty
+mutations SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max mem
+mutations SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get memory used SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max mem
+get memory used SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+mutations SimpleName MethodInvocation InfixExpression InfixExpression SimpleName closed
+get memory used SimpleName MethodInvocation InfixExpression InfixExpression SimpleName closed
+max mem SimpleName InfixExpression InfixExpression InfixExpression SimpleName closed
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName closed
+closed SimpleName InfixExpression InfixExpression SimpleName flushing
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add failed mutations
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+private Modifier MethodDeclaration SimpleType SimpleName exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add failed mutations
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+synchronized Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName add failed mutations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+add failed mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation set
+add failed mutations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+add failed mutations SimpleName MethodDeclaration SimpleType SimpleName exception
+failed mutations SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add failed mutations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add failed mutations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName failed mutations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

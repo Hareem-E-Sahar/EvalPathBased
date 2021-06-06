@@ -1,0 +1,243 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+properties SimpleName SimpleType SingleVariableDeclaration SimpleName props
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral rand
+get SimpleName MethodInvocation StringLiteral rand
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+random SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+random SimpleName SimpleType CastExpression MethodInvocation StringLiteral rand
+rand SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName random
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+rand SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral rand
+random SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rand
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral index table name
+get SimpleName MethodInvocation StringLiteral index table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral index table name
+index table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+index table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral index table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index table name
+state SimpleName MethodInvocation SimpleName get
+state SimpleName MethodInvocation StringLiteral doc table name
+get SimpleName MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName state
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral doc table name
+data table name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+data table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName state
+data table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+data table name SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral doc table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data table name
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+props SimpleName MethodInvocation SimpleName key set
+key SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName key
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName starts with
+key SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral pattern
+starts with SimpleName MethodInvocation StringLiteral pattern
+key SimpleName InstanceofExpression InfixExpression MethodInvocation SimpleName starts with
+key SimpleName InstanceofExpression InfixExpression MethodInvocation StringLiteral pattern
+string SimpleName SimpleType CastExpression SimpleName key
+props SimpleName MethodInvocation SimpleName get property
+props SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+props SimpleName MethodInvocation CastExpression SimpleName key
+get property SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+get property SimpleName MethodInvocation CastExpression SimpleName key
+patterns SimpleName MethodInvocation SimpleName add
+patterns SimpleName MethodInvocation MethodInvocation SimpleName props
+patterns SimpleName MethodInvocation MethodInvocation SimpleName get property
+patterns SimpleName MethodInvocation MethodInvocation CastExpression SimpleName key
+add SimpleName MethodInvocation MethodInvocation SimpleName props
+add SimpleName MethodInvocation MethodInvocation SimpleName get property
+add SimpleName MethodInvocation MethodInvocation CastExpression SimpleName key
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName props
+key SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+patterns SimpleName MethodInvocation SimpleName size
+rand SimpleName MethodInvocation SimpleName next int
+rand SimpleName MethodInvocation MethodInvocation SimpleName patterns
+rand SimpleName MethodInvocation MethodInvocation SimpleName size
+next int SimpleName MethodInvocation MethodInvocation SimpleName patterns
+next int SimpleName MethodInvocation MethodInvocation SimpleName size
+patterns SimpleName MethodInvocation SimpleName get
+patterns SimpleName MethodInvocation MethodInvocation SimpleName rand
+patterns SimpleName MethodInvocation MethodInvocation SimpleName next int
+patterns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName patterns
+patterns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+get SimpleName MethodInvocation MethodInvocation SimpleName rand
+get SimpleName MethodInvocation MethodInvocation SimpleName next int
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName patterns
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName patterns
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+pattern SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rand
+pattern SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName next int
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern
+bwc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batch writer config
+batch writer config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bwc
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create batch deleter
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch deleter
+state SimpleName MethodInvocation MethodInvocation SimpleName index table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName index table name
+state SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+state SimpleName MethodInvocation MethodInvocation SimpleName bwc
+get connector SimpleName MethodInvocation MethodInvocation SimpleName bwc
+create batch deleter SimpleName MethodInvocation SimpleName index table name
+create batch deleter SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch deleter SimpleName MethodInvocation NumberLiteral empty
+create batch deleter SimpleName MethodInvocation SimpleName bwc
+index table name SimpleName MethodInvocation QualifiedName authorizationsempty
+index table name SimpleName MethodInvocation NumberLiteral empty
+index table name SimpleName MethodInvocation SimpleName bwc
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation SimpleName bwc
+empty NumberLiteral MethodInvocation SimpleName bwc
+ibd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+ibd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+ibd SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch deleter
+ibd SimpleName VariableDeclarationFragment MethodInvocation SimpleName index table name
+ibd SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+ibd SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+ibd SimpleName VariableDeclarationFragment MethodInvocation SimpleName bwc
+batch deleter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ibd
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+ibd SimpleName MethodInvocation SimpleName set ranges
+ibd SimpleName MethodInvocation MethodInvocation SimpleName collections
+ibd SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex filter
+iter settings SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName iterator setting
+iter settings SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+iterator setting SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter settings
+reg ex filter SimpleName MethodInvocation SimpleName set regexs
+reg ex filter SimpleName MethodInvocation SimpleName iter settings
+reg ex filter SimpleName MethodInvocation SimpleName pattern
+set regexs SimpleName MethodInvocation SimpleName iter settings
+set regexs SimpleName MethodInvocation SimpleName pattern
+iter settings SimpleName MethodInvocation SimpleName pattern
+iter settings SimpleName MethodInvocation BooleanLiteral false
+pattern SimpleName MethodInvocation BooleanLiteral false
+ibd SimpleName MethodInvocation SimpleName add scan iterator
+ibd SimpleName MethodInvocation SimpleName iter settings
+add scan iterator SimpleName MethodInvocation SimpleName iter settings
+ibd SimpleName MethodInvocation SimpleName delete
+ibd SimpleName MethodInvocation SimpleName close
+state SimpleName MethodInvocation SimpleName get connector
+state SimpleName MethodInvocation MethodInvocation SimpleName create batch deleter
+get connector SimpleName MethodInvocation MethodInvocation SimpleName create batch deleter
+state SimpleName MethodInvocation MethodInvocation SimpleName data table name
+get connector SimpleName MethodInvocation MethodInvocation SimpleName data table name
+state SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+get connector SimpleName MethodInvocation MethodInvocation QualifiedName authorizationsempty
+state SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get connector SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+state SimpleName MethodInvocation MethodInvocation SimpleName bwc
+get connector SimpleName MethodInvocation MethodInvocation SimpleName bwc
+create batch deleter SimpleName MethodInvocation SimpleName data table name
+create batch deleter SimpleName MethodInvocation QualifiedName authorizationsempty
+create batch deleter SimpleName MethodInvocation NumberLiteral empty
+create batch deleter SimpleName MethodInvocation SimpleName bwc
+data table name SimpleName MethodInvocation QualifiedName authorizationsempty
+data table name SimpleName MethodInvocation NumberLiteral empty
+data table name SimpleName MethodInvocation SimpleName bwc
+authorizationsempty QualifiedName MethodInvocation NumberLiteral empty
+authorizationsempty QualifiedName MethodInvocation SimpleName bwc
+empty NumberLiteral MethodInvocation SimpleName bwc
+dbd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state
+dbd SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get connector
+dbd SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch deleter
+dbd SimpleName VariableDeclarationFragment MethodInvocation SimpleName data table name
+dbd SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+dbd SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+dbd SimpleName VariableDeclarationFragment MethodInvocation SimpleName bwc
+batch deleter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dbd
+collections SimpleName MethodInvocation SimpleName singleton list
+collections SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+singleton list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName range
+dbd SimpleName MethodInvocation SimpleName set ranges
+dbd SimpleName MethodInvocation MethodInvocation SimpleName collections
+dbd SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName collections
+set ranges SimpleName MethodInvocation MethodInvocation SimpleName singleton list
+iterator setting SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation TypeLiteral SimpleType SimpleName reg ex filter
+iter settings SimpleName Assignment ClassInstanceCreation SimpleType SimpleName iterator setting
+iter settings SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+reg ex filter SimpleName MethodInvocation SimpleName set regexs
+reg ex filter SimpleName MethodInvocation SimpleName iter settings
+reg ex filter SimpleName MethodInvocation SimpleName pattern
+set regexs SimpleName MethodInvocation SimpleName iter settings
+set regexs SimpleName MethodInvocation SimpleName pattern
+iter settings SimpleName MethodInvocation SimpleName pattern
+iter settings SimpleName MethodInvocation BooleanLiteral false
+pattern SimpleName MethodInvocation BooleanLiteral false
+dbd SimpleName MethodInvocation SimpleName add scan iterator
+dbd SimpleName MethodInvocation SimpleName iter settings
+add scan iterator SimpleName MethodInvocation SimpleName iter settings
+dbd SimpleName MethodInvocation SimpleName delete
+dbd SimpleName MethodInvocation SimpleName close
+deleted documents w id matching StringLiteral InfixExpression SimpleName pattern
+deleted documents w id matching StringLiteral InfixExpression StringLiteral empty
+pattern SimpleName InfixExpression StringLiteral empty
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral deleted documents w id matching
+log SimpleName MethodInvocation InfixExpression SimpleName pattern
+log SimpleName MethodInvocation InfixExpression StringLiteral empty
+debug SimpleName MethodInvocation InfixExpression StringLiteral deleted documents w id matching
+debug SimpleName MethodInvocation InfixExpression SimpleName pattern
+debug SimpleName MethodInvocation InfixExpression StringLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName props
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName properties
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName props
+visit SimpleName MethodDeclaration SimpleType SimpleName exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+props SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName visit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName visit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName props
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

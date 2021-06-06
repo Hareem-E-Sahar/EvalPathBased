@@ -1,0 +1,100 @@
+store transaction SimpleName SimpleType SingleVariableDeclaration SimpleName txh
+key column SimpleName SimpleType SingleVariableDeclaration SimpleName lock id
+int PrimitiveType SingleVariableDeclaration SimpleName trial count
+trial count SimpleName InfixExpression SimpleName lock max retries
+lock max wait time ms SimpleName MethodInvocation SimpleName get length
+lock max wait time ms SimpleName MethodInvocation QualifiedName time unitdaysmilliseconds
+get length SimpleName MethodInvocation QualifiedName time unitdaysmilliseconds
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation MethodInvocation SimpleName lock max wait time ms
+thread SimpleName MethodInvocation MethodInvocation SimpleName get length
+thread SimpleName MethodInvocation MethodInvocation QualifiedName time unitdaysmilliseconds
+sleep SimpleName MethodInvocation MethodInvocation SimpleName lock max wait time ms
+sleep SimpleName MethodInvocation MethodInvocation SimpleName get length
+sleep SimpleName MethodInvocation MethodInvocation QualifiedName time unitdaysmilliseconds
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression SimpleName txh
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression StringLiteral lock id
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression SimpleName lock id
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression StringLiteral on retry
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression SimpleName trial count
+txh SimpleName InfixExpression StringLiteral lock id
+txh SimpleName InfixExpression SimpleName lock id
+txh SimpleName InfixExpression StringLiteral on retry
+txh SimpleName InfixExpression SimpleName trial count
+lock id StringLiteral InfixExpression SimpleName lock id
+lock id StringLiteral InfixExpression StringLiteral on retry
+lock id StringLiteral InfixExpression SimpleName trial count
+lock id SimpleName InfixExpression StringLiteral on retry
+lock id SimpleName InfixExpression SimpleName trial count
+on retry StringLiteral InfixExpression SimpleName trial count
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral interrupted while waiting for acquiring lock for transaction
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName txh
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral lock id
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName lock id
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral on retry
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName trial count
+permanent locking exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+interrupted while waiting for acquiring lock for transaction StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+txh SimpleName InfixExpression ClassInstanceCreation SimpleName e
+lock id StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+lock id SimpleName InfixExpression ClassInstanceCreation SimpleName e
+on retry StringLiteral InfixExpression ClassInstanceCreation SimpleName e
+trial count SimpleName InfixExpression ClassInstanceCreation SimpleName e
+bytes SimpleName MethodInvocation SimpleName to string
+bytes SimpleName MethodInvocation SimpleName column family bytes
+to string SimpleName MethodInvocation SimpleName column family bytes
+could not lock the key column StringLiteral InfixExpression SimpleName lock id
+could not lock the key column StringLiteral InfixExpression StringLiteral on cf {}
+could not lock the key column StringLiteral InfixExpression MethodInvocation SimpleName bytes
+could not lock the key column StringLiteral InfixExpression MethodInvocation SimpleName to string
+could not lock the key column StringLiteral InfixExpression MethodInvocation SimpleName column family bytes
+lock id SimpleName InfixExpression StringLiteral on cf {}
+lock id SimpleName InfixExpression MethodInvocation SimpleName bytes
+lock id SimpleName InfixExpression MethodInvocation SimpleName to string
+lock id SimpleName InfixExpression MethodInvocation SimpleName column family bytes
+on cf {} StringLiteral InfixExpression MethodInvocation SimpleName bytes
+on cf {} StringLiteral InfixExpression MethodInvocation SimpleName to string
+on cf {} StringLiteral InfixExpression MethodInvocation SimpleName column family bytes
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not lock the key column
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName lock id
+permanent locking exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral on cf {}
+void PrimitiveType MethodDeclaration SimpleName handle lock failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName store transaction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName txh
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trial count
+void PrimitiveType MethodDeclaration SimpleType SimpleName permanent locking exception
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName store transaction
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txh
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key column
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock id
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+handle lock failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trial count
+handle lock failure SimpleName MethodDeclaration SimpleType SimpleName permanent locking exception
+txh SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock id
+txh SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+txh SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trial count
+txh SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception
+lock id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+lock id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trial count
+lock id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception
+trial count SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle lock failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trial count
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle lock failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txh
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trial count
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName permanent locking exception

@@ -1,0 +1,47 @@
+application properties SimpleName MethodInvocation SimpleName get
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName application properties
+configuration SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration
+authentication util SimpleName MethodInvocation SimpleName is kerberos authentication enabled
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+get string array SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+admin StringLiteral ArrayInitializer StringLiteral admin
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string array
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string array
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+configuration SimpleName MethodInvocation SimpleName get string array
+configuration SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+get string array SimpleName MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string array
+atlas client SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+atlas client SimpleName Assignment ClassInstanceCreation SimpleType SimpleName atlas client
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName configuration
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string array
+atlas client SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName hive meta store bridgeatlas endpoint
+before class SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before class SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before class SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before class
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

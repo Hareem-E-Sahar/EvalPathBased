@@ -1,0 +1,302 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName guid
+method name SimpleName VariableDeclarationFragment StringLiteral get connection by guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral get connection by guid
+guid parameter SimpleName VariableDeclarationFragment StringLiteral guid
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral guid
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName guid parameter
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral guid
+error handler SimpleName MethodInvocation SimpleName validate user id
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate guid
+error handler SimpleName MethodInvocation SimpleName guid
+error handler SimpleName MethodInvocation SimpleName guid parameter
+error handler SimpleName MethodInvocation SimpleName method name
+validate guid SimpleName MethodInvocation SimpleName guid
+validate guid SimpleName MethodInvocation SimpleName guid parameter
+validate guid SimpleName MethodInvocation SimpleName method name
+guid SimpleName MethodInvocation SimpleName guid parameter
+guid SimpleName MethodInvocation SimpleName method name
+guid parameter SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName validate repository connector
+error handler SimpleName MethodInvocation SimpleName method name
+validate repository connector SimpleName MethodInvocation SimpleName method name
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName error handler
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate repository connector
+metadata collection SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+omrs metadata collection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metadata collection
+entity detail SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName connection entity
+metadata collection SimpleName MethodInvocation SimpleName get entity detail
+metadata collection SimpleName MethodInvocation SimpleName user id
+metadata collection SimpleName MethodInvocation SimpleName guid
+get entity detail SimpleName MethodInvocation SimpleName user id
+get entity detail SimpleName MethodInvocation SimpleName guid
+user id SimpleName MethodInvocation SimpleName guid
+connection entity SimpleName Assignment MethodInvocation SimpleName metadata collection
+connection entity SimpleName Assignment MethodInvocation SimpleName get entity detail
+connection entity SimpleName Assignment MethodInvocation SimpleName user id
+connection entity SimpleName Assignment MethodInvocation SimpleName guid
+orgapacheatlasomrsffdcexceptionentity not known exception QualifiedName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codeconnection not found
+error code SimpleName MethodInvocation SimpleName get error message id
+error SimpleName MethodInvocation SimpleName get error message
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName guid
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation MethodInvocation SimpleName error
+error code SimpleName MethodInvocation MethodInvocation SimpleName get error message
+get formatted error message SimpleName MethodInvocation SimpleName guid
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName error
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get error message
+guid SimpleName MethodInvocation SimpleName server name
+guid SimpleName MethodInvocation MethodInvocation SimpleName error
+guid SimpleName MethodInvocation MethodInvocation SimpleName get error message
+server name SimpleName MethodInvocation MethodInvocation SimpleName error
+server name SimpleName MethodInvocation MethodInvocation SimpleName get error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName guid
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName guid
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName guid
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+orgapacheatlasomrsffdcexceptionentity proxy only exception QualifiedName SimpleType SingleVariableDeclaration SimpleName error
+error code SimpleName VariableDeclarationFragment QualifiedName asset consumer error codeproxy connection found
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error code
+asset consumer error code SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName asset consumer error codeproxy connection found
+error code SimpleName MethodInvocation SimpleName get error message id
+error SimpleName MethodInvocation SimpleName get error message
+error code SimpleName MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation SimpleName guid
+error code SimpleName MethodInvocation SimpleName server name
+error code SimpleName MethodInvocation MethodInvocation SimpleName error
+error code SimpleName MethodInvocation MethodInvocation SimpleName get error message
+get formatted error message SimpleName MethodInvocation SimpleName guid
+get formatted error message SimpleName MethodInvocation SimpleName server name
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName error
+get formatted error message SimpleName MethodInvocation MethodInvocation SimpleName get error message
+guid SimpleName MethodInvocation SimpleName server name
+guid SimpleName MethodInvocation MethodInvocation SimpleName error
+guid SimpleName MethodInvocation MethodInvocation SimpleName get error message
+server name SimpleName MethodInvocation MethodInvocation SimpleName error
+server name SimpleName MethodInvocation MethodInvocation SimpleName get error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName guid
+error code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName error code
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get formatted error message
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName guid
+get error message id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName server name
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get error message id
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName error code
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get formatted error message
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName guid
+error message SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName server name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName error message
+error code SimpleName MethodInvocation SimpleName get http error code
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation SimpleName get user action
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get http error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation SimpleName method name
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation SimpleName error message
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName error code
+unrecognized connection guid exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get http error code SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get http error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName method name
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName method name
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName error message
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get system action
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+method name SimpleName ClassInstanceCreation SimpleName error message
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+method name SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get system action
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName error code
+error message SimpleName ClassInstanceCreation MethodInvocation SimpleName get user action
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+error code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error code
+get system action SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get user action
+orgapacheatlasomrsffdcexceptionuser not authorized exception QualifiedName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle unauthorized user
+error handler SimpleName MethodInvocation SimpleName user id
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle unauthorized user SimpleName MethodInvocation SimpleName user id
+handle unauthorized user SimpleName MethodInvocation SimpleName method name
+handle unauthorized user SimpleName MethodInvocation SimpleName server name
+handle unauthorized user SimpleName MethodInvocation SimpleName service name
+user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName error
+error handler SimpleName MethodInvocation SimpleName handle repository error
+error handler SimpleName MethodInvocation SimpleName error
+error handler SimpleName MethodInvocation SimpleName method name
+error handler SimpleName MethodInvocation SimpleName server name
+error handler SimpleName MethodInvocation SimpleName service name
+handle repository error SimpleName MethodInvocation SimpleName error
+handle repository error SimpleName MethodInvocation SimpleName method name
+handle repository error SimpleName MethodInvocation SimpleName server name
+handle repository error SimpleName MethodInvocation SimpleName service name
+error SimpleName MethodInvocation SimpleName method name
+error SimpleName MethodInvocation SimpleName server name
+error SimpleName MethodInvocation SimpleName service name
+method name SimpleName MethodInvocation SimpleName server name
+method name SimpleName MethodInvocation SimpleName service name
+server name SimpleName MethodInvocation SimpleName service name
+get connection from repository SimpleName MethodInvocation SimpleName user id
+get connection from repository SimpleName MethodInvocation SimpleName metadata collection
+get connection from repository SimpleName MethodInvocation SimpleName connection entity
+user id SimpleName MethodInvocation SimpleName metadata collection
+user id SimpleName MethodInvocation SimpleName connection entity
+metadata collection SimpleName MethodInvocation SimpleName connection entity
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SimpleName get connection by guid
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier MethodDeclaration SimpleType SimpleName invalid parameter exception
+connection SimpleName SimpleType MethodDeclaration SimpleName get connection by guid
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName user id
+connection SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName guid
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid parameter exception
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+get connection by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+get connection by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get connection by guid SimpleName MethodDeclaration SingleVariableDeclaration SimpleName guid
+get connection by guid SimpleName MethodDeclaration SimpleType SimpleName invalid parameter exception
+get connection by guid SimpleName MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+get connection by guid SimpleName MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName property server exception
+guid SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+invalid parameter exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+unrecognized connection guid exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName property server exception
+unrecognized connection guid exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+property server exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName user not authorized exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection by guid
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection by guid
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName guid
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unrecognized connection guid exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property server exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName user not authorized exception

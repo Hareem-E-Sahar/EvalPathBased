@@ -1,0 +1,20 @@
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+map SimpleName SimpleType ParameterizedType ArrayType PrimitiveType byte
+byte PrimitiveType ArrayType ParameterizedType ArrayType PrimitiveType byte
+span SimpleName MethodInvocation SimpleName get kv annotations
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get kv annotations
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType ArrayType PrimitiveType byte
+public Modifier MethodDeclaration ParameterizedType ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName get kv annotations
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get kv annotations
+byte PrimitiveType ArrayType ParameterizedType MethodDeclaration SimpleName get kv annotations
+byte PrimitiveType ArrayType ParameterizedType MethodDeclaration SimpleName get kv annotations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get kv annotations
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get kv annotations

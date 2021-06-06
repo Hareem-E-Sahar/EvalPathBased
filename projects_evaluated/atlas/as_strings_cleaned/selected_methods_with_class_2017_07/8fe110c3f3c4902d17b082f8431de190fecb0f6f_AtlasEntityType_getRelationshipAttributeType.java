@@ -1,0 +1,21 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas relationship type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attribute name
+relationship attributes type SimpleName MethodInvocation SimpleName get
+relationship attributes type SimpleName MethodInvocation SimpleName attribute name
+get SimpleName MethodInvocation SimpleName attribute name
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName atlas relationship type
+public Modifier MethodDeclaration SimpleName get relationship attribute type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attribute type
+atlas relationship type SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get relationship attribute type
+get relationship attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get relationship attribute type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship attribute type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship attribute type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute name

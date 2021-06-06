@@ -1,0 +1,98 @@
+attribute definition SimpleName SimpleType SingleVariableDeclaration SimpleName attr definition
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName atlas attribute def
+atlas attribute def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName set name
+ret SimpleName MethodInvocation QualifiedName attr definitionname
+set name SimpleName MethodInvocation QualifiedName attr definitionname
+ret SimpleName MethodInvocation SimpleName set type name
+ret SimpleName MethodInvocation QualifiedName attr definitiondata type name
+set type name SimpleName MethodInvocation QualifiedName attr definitiondata type name
+ret SimpleName MethodInvocation SimpleName set is indexable
+ret SimpleName MethodInvocation QualifiedName attr definitionis indexable
+set is indexable SimpleName MethodInvocation QualifiedName attr definitionis indexable
+ret SimpleName MethodInvocation SimpleName set is unique
+ret SimpleName MethodInvocation QualifiedName attr definitionis unique
+set is unique SimpleName MethodInvocation QualifiedName attr definitionis unique
+multiplicity SimpleName VariableDeclarationFragment QualifiedName attr definitionmultiplicity
+multiplicity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName multiplicity
+multiplicity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName attr definitionmultiplicity
+min count SimpleName VariableDeclarationFragment QualifiedName multiplicitylower
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName multiplicitylower
+max count SimpleName VariableDeclarationFragment QualifiedName multiplicityupper
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName multiplicityupper
+is unique SimpleName VariableDeclarationFragment QualifiedName multiplicityis unique
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is unique
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName multiplicityis unique
+min count SimpleName InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set is optional
+ret SimpleName MethodInvocation BooleanLiteral true
+set is optional SimpleName MethodInvocation BooleanLiteral true
+ret SimpleName MethodInvocation SimpleName set values min count
+ret SimpleName MethodInvocation NumberLiteral empty
+set values min count SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set is optional
+ret SimpleName MethodInvocation BooleanLiteral false
+set is optional SimpleName MethodInvocation BooleanLiteral false
+ret SimpleName MethodInvocation SimpleName set values min count
+ret SimpleName MethodInvocation SimpleName min count
+set values min count SimpleName MethodInvocation SimpleName min count
+max count SimpleName InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName cardinalitysingle
+set cardinality SimpleName MethodInvocation QualifiedName cardinalitysingle
+ret SimpleName MethodInvocation SimpleName set values max count
+ret SimpleName MethodInvocation NumberLiteral empty
+set values max count SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName cardinalitylist
+set cardinality SimpleName MethodInvocation QualifiedName cardinalitylist
+ret SimpleName MethodInvocation SimpleName set cardinality
+ret SimpleName MethodInvocation QualifiedName cardinalityset
+set cardinality SimpleName MethodInvocation QualifiedName cardinalityset
+ret SimpleName MethodInvocation SimpleName set values max count
+ret SimpleName MethodInvocation SimpleName max count
+set values max count SimpleName MethodInvocation SimpleName max count
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+private Modifier MethodDeclaration SimpleName to atlas attribute def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr definition
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName atlas attribute def
+static Modifier MethodDeclaration SimpleName to atlas attribute def
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr definition
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+atlas attribute def SimpleName SimpleType MethodDeclaration SimpleName to atlas attribute def
+atlas attribute def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attr definition
+to atlas attribute def SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute definition
+to atlas attribute def SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr definition
+to atlas attribute def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+to atlas attribute def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+to atlas attribute def SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+to atlas attribute def SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SimpleName to atlas attribute def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to atlas attribute def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr definition

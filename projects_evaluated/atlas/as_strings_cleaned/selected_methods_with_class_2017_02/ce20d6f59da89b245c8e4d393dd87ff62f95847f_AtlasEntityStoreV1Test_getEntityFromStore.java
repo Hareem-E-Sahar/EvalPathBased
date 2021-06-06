@@ -1,0 +1,39 @@
+atlas entity header SimpleName SimpleType SingleVariableDeclaration SimpleName header
+header SimpleName MethodInvocation SimpleName get guid
+entity store SimpleName MethodInvocation SimpleName get by id
+entity store SimpleName MethodInvocation MethodInvocation SimpleName header
+entity store SimpleName MethodInvocation MethodInvocation SimpleName get guid
+get by id SimpleName MethodInvocation MethodInvocation SimpleName header
+get by id SimpleName MethodInvocation MethodInvocation SimpleName get guid
+header SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity store
+header SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get by id
+entity SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName header
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName entity store
+entity SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get by id
+atlas entity with ext info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity
+entity SimpleName MethodInvocation SimpleName get entity
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName entity
+entity SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get entity
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity
+private Modifier MethodDeclaration SimpleName get entity from store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName header
+private Modifier MethodDeclaration SimpleType SimpleName atlas base exception
+atlas entity SimpleName SimpleType MethodDeclaration SimpleName get entity from store
+atlas entity SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName header
+atlas entity SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas base exception
+get entity from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas entity header
+get entity from store SimpleName MethodDeclaration SingleVariableDeclaration SimpleName header
+get entity from store SimpleName MethodDeclaration SimpleType SimpleName atlas base exception
+header SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+public Modifier TypeDeclaration MethodDeclaration SimpleName get entity from store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get entity from store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName header
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas base exception

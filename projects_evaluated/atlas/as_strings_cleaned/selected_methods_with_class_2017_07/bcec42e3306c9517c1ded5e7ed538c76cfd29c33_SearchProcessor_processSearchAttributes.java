@@ -1,0 +1,141 @@
+atlas struct type SimpleName SimpleType SingleVariableDeclaration SimpleName struct type
+filter criteria SimpleName SimpleType SingleVariableDeclaration SimpleName filter criteria
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr filtered
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName solr filtered
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName gremlin filtered
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName gremlin filtered
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all attributes
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName all attributes
+struct type SimpleName InfixExpression InfixExpression InfixExpression SimpleName filter criteria
+filter criteria SimpleName MethodInvocation SimpleName get condition
+filter condition SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+filter condition SimpleName VariableDeclarationFragment MethodInvocation SimpleName get condition
+condition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter condition
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName filter criteria
+filter criteria SimpleName MethodInvocation SimpleName get criterion
+criterion SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+criterion SimpleName VariableDeclarationFragment MethodInvocation SimpleName get criterion
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName criterion
+is not empty SimpleName MethodInvocation SimpleName criterion
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName collection utils
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is not empty
+filter condition SimpleName InfixExpression InfixExpression MethodInvocation SimpleName criterion
+search parametersfilter criteria QualifiedName SimpleType SingleVariableDeclaration SimpleName criteria
+process search attributes SimpleName MethodInvocation SimpleName struct type
+process search attributes SimpleName MethodInvocation SimpleName criteria
+process search attributes SimpleName MethodInvocation SimpleName solr filtered
+process search attributes SimpleName MethodInvocation SimpleName gremlin filtered
+process search attributes SimpleName MethodInvocation SimpleName all attributes
+struct type SimpleName MethodInvocation SimpleName criteria
+struct type SimpleName MethodInvocation SimpleName solr filtered
+struct type SimpleName MethodInvocation SimpleName gremlin filtered
+struct type SimpleName MethodInvocation SimpleName all attributes
+criteria SimpleName MethodInvocation SimpleName solr filtered
+criteria SimpleName MethodInvocation SimpleName gremlin filtered
+criteria SimpleName MethodInvocation SimpleName all attributes
+solr filtered SimpleName MethodInvocation SimpleName gremlin filtered
+solr filtered SimpleName MethodInvocation SimpleName all attributes
+gremlin filtered SimpleName MethodInvocation SimpleName all attributes
+search parametersfilter criteria QualifiedName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName criterion
+criteria SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName criterion
+filter criteria SimpleName MethodInvocation SimpleName get attribute name
+string utils SimpleName MethodInvocation SimpleName is not empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName filter criteria
+is not empty SimpleName MethodInvocation MethodInvocation SimpleName get attribute name
+filter criteria SimpleName MethodInvocation SimpleName get attribute name
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter criteria
+attribute name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attribute name
+struct type SimpleName MethodInvocation SimpleName get qualified attribute name
+struct type SimpleName MethodInvocation SimpleName attribute name
+get qualified attribute name SimpleName MethodInvocation SimpleName attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName struct type
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get qualified attribute name
+qualified name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qualified name
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+context SimpleName MethodInvocation SimpleName get indexed keys
+indexed keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+indexed keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get indexed keys
+indexed keys SimpleName MethodInvocation SimpleName contains
+indexed keys SimpleName MethodInvocation SimpleName qualified name
+contains SimpleName MethodInvocation SimpleName qualified name
+indexed keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName indexed keys
+indexed keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+indexed keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName qualified name
+solr filtered SimpleName MethodInvocation SimpleName add
+solr filtered SimpleName MethodInvocation SimpleName attribute name
+add SimpleName MethodInvocation SimpleName attribute name
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral search includes nonindexed attribute {} might cause poor performance
+log SimpleName MethodInvocation SimpleName qualified name
+warn SimpleName MethodInvocation StringLiteral search includes nonindexed attribute {} might cause poor performance
+warn SimpleName MethodInvocation SimpleName qualified name
+search includes nonindexed attribute {} might cause poor performance StringLiteral MethodInvocation SimpleName qualified name
+gremlin filtered SimpleName MethodInvocation SimpleName add
+gremlin filtered SimpleName MethodInvocation SimpleName attribute name
+add SimpleName MethodInvocation SimpleName attribute name
+all attributes SimpleName MethodInvocation SimpleName add
+all attributes SimpleName MethodInvocation SimpleName attribute name
+add SimpleName MethodInvocation SimpleName attribute name
+atlas base exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+warn SimpleName MethodInvocation MethodInvocation SimpleName e
+warn SimpleName MethodInvocation MethodInvocation SimpleName get message
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName process search attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName struct type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+void PrimitiveType MethodDeclaration SimpleName process search attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName struct type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas struct type
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName struct type
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter criteria
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+process search attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+struct type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+filter criteria SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+solr filtered SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+solr filtered SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+gremlin filtered SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process search attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process search attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName struct type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter criteria
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName solr filtered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gremlin filtered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName all attributes

@@ -1,0 +1,500 @@
+http servlet request SimpleName SimpleType SingleVariableDeclaration SimpleName req
+http servlet response SimpleName SimpleType SingleVariableDeclaration SimpleName resp
+final Modifier SingleVariableDeclaration SimpleType SimpleName string builder
+final Modifier SingleVariableDeclaration SimpleName sb
+string builder SimpleName SimpleType SingleVariableDeclaration SimpleName sb
+get trace id SimpleName MethodInvocation SimpleName req
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get trace id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName req
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+get scanner SimpleName MethodInvocation SimpleName sb
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+text SimpleName SimpleType ClassInstanceCreation SimpleName id
+range SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName id
+range SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName range
+range SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName id
+range SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation SimpleName range
+set range SimpleName MethodInvocation SimpleName range
+tree SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName span tree
+span tree SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tree
+start SimpleName VariableDeclarationFragment QualifiedName longmax value
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName longmax value
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+trace formatter SimpleName MethodInvocation SimpleName get remote span
+trace formatter SimpleName MethodInvocation SimpleName entry
+get remote span SimpleName MethodInvocation SimpleName entry
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName trace formatter
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName get remote span
+span SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+remote span SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName span
+tree SimpleName MethodInvocation SimpleName add node
+tree SimpleName MethodInvocation SimpleName span
+add node SimpleName MethodInvocation SimpleName span
+min SimpleName MethodInvocation SimpleName start
+min SimpleName MethodInvocation QualifiedName spanstart
+start SimpleName MethodInvocation QualifiedName spanstart
+start SimpleName Assignment MethodInvocation SimpleName min
+start SimpleName Assignment MethodInvocation SimpleName start
+start SimpleName Assignment MethodInvocation QualifiedName spanstart
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral style
+append SimpleName MethodInvocation StringLiteral style
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tdright { textalign right }
+append SimpleName MethodInvocation StringLiteral tdright { textalign right }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tableindent { position relative left % }
+append SimpleName MethodInvocation StringLiteral tableindent { position relative left % }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tdleft { textalign left }
+append SimpleName MethodInvocation StringLiteral tdleft { textalign left }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral style
+append SimpleName MethodInvocation StringLiteral style
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral script languagejavascript
+append SimpleName MethodInvocation StringLiteral script languagejavascript
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral function toggleid {
+append SimpleName MethodInvocation StringLiteral function toggleid {
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral var elt = documentget element by idid
+append SimpleName MethodInvocation StringLiteral var elt = documentget element by idid
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral if eltstyledisplaynone {
+append SimpleName MethodInvocation StringLiteral if eltstyledisplaynone {
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral eltstyledisplaytablerow
+append SimpleName MethodInvocation StringLiteral eltstyledisplaytablerow
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral } else {
+append SimpleName MethodInvocation StringLiteral } else {
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral eltstyledisplaynone
+append SimpleName MethodInvocation StringLiteral eltstyledisplaynone
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral }
+append SimpleName MethodInvocation StringLiteral }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral }
+append SimpleName MethodInvocation StringLiteral }
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral script
+append SimpleName MethodInvocation StringLiteral script
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral div
+append SimpleName MethodInvocation StringLiteral div
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tablecaption
+append SimpleName MethodInvocation StringLiteral tablecaption
+date string SimpleName MethodInvocation SimpleName start
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral span classtablecaptiontrace started atbrsspancaption
+string SimpleName MethodInvocation SimpleName id
+string SimpleName MethodInvocation MethodInvocation SimpleName date string
+string SimpleName MethodInvocation MethodInvocation SimpleName start
+format SimpleName MethodInvocation StringLiteral span classtablecaptiontrace started atbrsspancaption
+format SimpleName MethodInvocation SimpleName id
+format SimpleName MethodInvocation MethodInvocation SimpleName date string
+format SimpleName MethodInvocation MethodInvocation SimpleName start
+span classtablecaptiontrace started atbrsspancaption StringLiteral MethodInvocation SimpleName id
+span classtablecaptiontrace started atbrsspancaption StringLiteral MethodInvocation MethodInvocation SimpleName date string
+span classtablecaptiontrace started atbrsspancaption StringLiteral MethodInvocation MethodInvocation SimpleName start
+id SimpleName MethodInvocation MethodInvocation SimpleName date string
+id SimpleName MethodInvocation MethodInvocation SimpleName start
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral span classtablecaptiontrace started atbrsspancaption
+sb SimpleName MethodInvocation MethodInvocation SimpleName id
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date string
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral span classtablecaptiontrace started atbrsspancaption
+append SimpleName MethodInvocation MethodInvocation SimpleName id
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName date string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName start
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral trthtimeththstartththservicelocationththnameththaddl datathtr
+append SimpleName MethodInvocation StringLiteral trthtimeththstartththservicelocationththnameththaddl datathtr
+final start SimpleName VariableDeclarationFragment SimpleName start
+final Modifier VariableDeclarationStatement PrimitiveType long
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName final start
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName final start
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+int PrimitiveType SingleVariableDeclaration SimpleName level
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName node
+collection SimpleName SimpleType ParameterizedType SimpleType SimpleName remote span
+collection SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+remote span SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName children
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tr
+append SimpleName MethodInvocation StringLiteral tr
+nodestop QualifiedName InfixExpression QualifiedName nodestart
+nodestart QualifiedName InfixExpression SimpleName final start
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral td classrightdtdtd classleftdtd
+string SimpleName MethodInvocation InfixExpression QualifiedName nodestop
+string SimpleName MethodInvocation InfixExpression QualifiedName nodestart
+string SimpleName MethodInvocation InfixExpression QualifiedName nodestart
+string SimpleName MethodInvocation InfixExpression SimpleName final start
+format SimpleName MethodInvocation StringLiteral td classrightdtdtd classleftdtd
+format SimpleName MethodInvocation InfixExpression QualifiedName nodestop
+format SimpleName MethodInvocation InfixExpression QualifiedName nodestart
+format SimpleName MethodInvocation InfixExpression QualifiedName nodestart
+format SimpleName MethodInvocation InfixExpression SimpleName final start
+td classrightdtdtd classleftdtd StringLiteral MethodInvocation InfixExpression QualifiedName nodestop
+td classrightdtdtd classleftdtd StringLiteral MethodInvocation InfixExpression QualifiedName nodestart
+td classrightdtdtd classleftdtd StringLiteral MethodInvocation InfixExpression QualifiedName nodestart
+td classrightdtdtd classleftdtd StringLiteral MethodInvocation InfixExpression SimpleName final start
+nodestop QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName nodestart
+nodestop QualifiedName InfixExpression MethodInvocation InfixExpression SimpleName final start
+nodestart QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName nodestart
+nodestart QualifiedName InfixExpression MethodInvocation InfixExpression SimpleName final start
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral td classrightdtdtd classleftdtd
+sb SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestop
+sb SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestart
+sb SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestart
+sb SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName final start
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral td classrightdtdtd classleftdtd
+append SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestop
+append SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestart
+append SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName nodestart
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName final start
+level SimpleName InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral td styletextindent dpxsstd
+string SimpleName MethodInvocation InfixExpression SimpleName level
+string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName MethodInvocation QualifiedName nodesvc
+string SimpleName MethodInvocation QualifiedName nodesender
+format SimpleName MethodInvocation StringLiteral td styletextindent dpxsstd
+format SimpleName MethodInvocation InfixExpression SimpleName level
+format SimpleName MethodInvocation InfixExpression NumberLiteral empty
+format SimpleName MethodInvocation QualifiedName nodesvc
+format SimpleName MethodInvocation QualifiedName nodesender
+td styletextindent dpxsstd StringLiteral MethodInvocation InfixExpression SimpleName level
+td styletextindent dpxsstd StringLiteral MethodInvocation InfixExpression NumberLiteral empty
+td styletextindent dpxsstd StringLiteral MethodInvocation QualifiedName nodesvc
+td styletextindent dpxsstd StringLiteral MethodInvocation QualifiedName nodesender
+level SimpleName InfixExpression MethodInvocation QualifiedName nodesvc
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName nodesvc
+level SimpleName InfixExpression MethodInvocation QualifiedName nodesender
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName nodesender
+nodesvc QualifiedName MethodInvocation QualifiedName nodesender
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral td styletextindent dpxsstd
+sb SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName level
+sb SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation MethodInvocation QualifiedName nodesvc
+sb SimpleName MethodInvocation MethodInvocation QualifiedName nodesender
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral td styletextindent dpxsstd
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName level
+append SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation QualifiedName nodesvc
+append SimpleName MethodInvocation MethodInvocation QualifiedName nodesender
+td StringLiteral InfixExpression QualifiedName nodedescription
+td StringLiteral InfixExpression StringLiteral td
+nodedescription QualifiedName InfixExpression StringLiteral td
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral td
+sb SimpleName MethodInvocation InfixExpression QualifiedName nodedescription
+sb SimpleName MethodInvocation InfixExpression StringLiteral td
+append SimpleName MethodInvocation InfixExpression StringLiteral td
+append SimpleName MethodInvocation InfixExpression QualifiedName nodedescription
+append SimpleName MethodInvocation InfixExpression StringLiteral td
+nodedata QualifiedName MethodInvocation SimpleName is empty
+has data SimpleName VariableDeclarationFragment InfixExpression InfixExpression QualifiedName nodedata
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has data
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName nodespan id
+to hex string SimpleName MethodInvocation QualifiedName nodespan id
+tdinput typecheckbox onclicktoggle StringLiteral InfixExpression MethodInvocation SimpleName long
+tdinput typecheckbox onclicktoggle StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+tdinput typecheckbox onclicktoggle StringLiteral InfixExpression MethodInvocation QualifiedName nodespan id
+tdinput typecheckbox onclicktoggle StringLiteral InfixExpression StringLiteral td
+long SimpleName MethodInvocation InfixExpression StringLiteral td
+to hex string SimpleName MethodInvocation InfixExpression StringLiteral td
+nodespan id QualifiedName MethodInvocation InfixExpression StringLiteral td
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral tdinput typecheckbox onclicktoggle
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+sb SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName nodespan id
+sb SimpleName MethodInvocation InfixExpression StringLiteral td
+append SimpleName MethodInvocation InfixExpression StringLiteral tdinput typecheckbox onclicktoggle
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+append SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName nodespan id
+append SimpleName MethodInvocation InfixExpression StringLiteral td
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tdtd
+append SimpleName MethodInvocation StringLiteral tdtd
+has data SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName sb
+has data SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName append
+has data SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName sb
+has data SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName append
+has data SimpleName IfStatement ExpressionStatement MethodInvocation StringLiteral tdtd
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tr
+append SimpleName MethodInvocation StringLiteral tr
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName nodespan id
+to hex string SimpleName MethodInvocation QualifiedName nodespan id
+tr id StringLiteral InfixExpression MethodInvocation SimpleName long
+tr id StringLiteral InfixExpression MethodInvocation SimpleName to hex string
+tr id StringLiteral InfixExpression MethodInvocation QualifiedName nodespan id
+tr id StringLiteral InfixExpression StringLiteral styledisplaynone
+long SimpleName MethodInvocation InfixExpression StringLiteral styledisplaynone
+to hex string SimpleName MethodInvocation InfixExpression StringLiteral styledisplaynone
+nodespan id QualifiedName MethodInvocation InfixExpression StringLiteral styledisplaynone
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral tr id
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+sb SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName nodespan id
+sb SimpleName MethodInvocation InfixExpression StringLiteral styledisplaynone
+append SimpleName MethodInvocation InfixExpression StringLiteral tr id
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName long
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to hex string
+append SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName nodespan id
+append SimpleName MethodInvocation InfixExpression StringLiteral styledisplaynone
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral td colspan >
+append SimpleName MethodInvocation StringLiteral td colspan >
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table classindentnoborder
+append SimpleName MethodInvocation StringLiteral table classindentnoborder
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+nodedata QualifiedName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+basic servlet SimpleName MethodInvocation SimpleName sanitize
+basic servlet SimpleName MethodInvocation MethodInvocation SimpleName entry
+basic servlet SimpleName MethodInvocation MethodInvocation SimpleName get key
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName entry
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName get key
+trtd StringLiteral InfixExpression MethodInvocation SimpleName basic servlet
+trtd StringLiteral InfixExpression MethodInvocation SimpleName sanitize
+trtd StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+trtd StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get key
+trtd StringLiteral InfixExpression StringLiteral td
+basic servlet SimpleName MethodInvocation InfixExpression StringLiteral td
+sanitize SimpleName MethodInvocation InfixExpression StringLiteral td
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral td
+get key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral td
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral trtd
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName basic servlet
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+sb SimpleName MethodInvocation InfixExpression StringLiteral td
+append SimpleName MethodInvocation InfixExpression StringLiteral trtd
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName basic servlet
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+append SimpleName MethodInvocation InfixExpression StringLiteral td
+entry SimpleName MethodInvocation SimpleName get value
+basic servlet SimpleName MethodInvocation SimpleName sanitize
+basic servlet SimpleName MethodInvocation MethodInvocation SimpleName entry
+basic servlet SimpleName MethodInvocation MethodInvocation SimpleName get value
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName entry
+sanitize SimpleName MethodInvocation MethodInvocation SimpleName get value
+td StringLiteral InfixExpression MethodInvocation SimpleName basic servlet
+td StringLiteral InfixExpression MethodInvocation SimpleName sanitize
+td StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName entry
+td StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get value
+td StringLiteral InfixExpression StringLiteral tdtr
+basic servlet SimpleName MethodInvocation InfixExpression StringLiteral tdtr
+sanitize SimpleName MethodInvocation InfixExpression StringLiteral tdtr
+entry SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral tdtr
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral tdtr
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression StringLiteral td
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName basic servlet
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+sb SimpleName MethodInvocation InfixExpression StringLiteral tdtr
+append SimpleName MethodInvocation InfixExpression StringLiteral td
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName basic servlet
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sanitize
+append SimpleName MethodInvocation InfixExpression StringLiteral tdtr
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName nodedata
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral td
+append SimpleName MethodInvocation StringLiteral td
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral tr
+append SimpleName MethodInvocation StringLiteral tr
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName has data
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName visit
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName level
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName visit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName visit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName level
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName children
+visit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName remote span
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+visit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName children
+visit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+visit SimpleName MethodDeclaration Block IfStatement SimpleName has data
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+level SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName children
+tree SimpleName MethodInvocation SimpleName visit
+tree SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName span tree visitor
+visit SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName span tree visitor
+visited SimpleName VariableDeclarationFragment MethodInvocation SimpleName tree
+visited SimpleName VariableDeclarationFragment MethodInvocation SimpleName visit
+treenodes QualifiedName MethodInvocation SimpleName key set
+treenodes QualifiedName MethodInvocation MethodInvocation SimpleName remove all
+key set SimpleName MethodInvocation MethodInvocation SimpleName remove all
+treenodes QualifiedName MethodInvocation MethodInvocation SimpleName visited
+key set SimpleName MethodInvocation MethodInvocation SimpleName visited
+remove all SimpleName MethodInvocation SimpleName visited
+treenodes QualifiedName MethodInvocation SimpleName is empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral span typewarnwarning the following spans are not rootedspan
+append SimpleName MethodInvocation StringLiteral span typewarnwarning the following spans are not rootedspan
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ul
+append SimpleName MethodInvocation StringLiteral ul
+remote span SimpleName SimpleType SingleVariableDeclaration SimpleName span
+treenodes QualifiedName MethodInvocation SimpleName values
+trace dump SimpleName MethodInvocation SimpleName sort by start
+trace dump SimpleName MethodInvocation MethodInvocation QualifiedName treenodes
+trace dump SimpleName MethodInvocation MethodInvocation SimpleName values
+sort by start SimpleName MethodInvocation MethodInvocation QualifiedName treenodes
+sort by start SimpleName MethodInvocation MethodInvocation SimpleName values
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName spanspan id
+to hex string SimpleName MethodInvocation QualifiedName spanspan id
+long SimpleName MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation QualifiedName spanparent id
+to hex string SimpleName MethodInvocation QualifiedName spanparent id
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral lis s sli
+string SimpleName MethodInvocation MethodInvocation SimpleName long
+string SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+string SimpleName MethodInvocation MethodInvocation QualifiedName spanspan id
+string SimpleName MethodInvocation MethodInvocation SimpleName long
+string SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+string SimpleName MethodInvocation MethodInvocation QualifiedName spanparent id
+string SimpleName MethodInvocation QualifiedName spandescription
+format SimpleName MethodInvocation StringLiteral lis s sli
+format SimpleName MethodInvocation MethodInvocation SimpleName long
+format SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+format SimpleName MethodInvocation MethodInvocation QualifiedName spanspan id
+format SimpleName MethodInvocation MethodInvocation SimpleName long
+format SimpleName MethodInvocation MethodInvocation SimpleName to hex string
+format SimpleName MethodInvocation MethodInvocation QualifiedName spanparent id
+format SimpleName MethodInvocation QualifiedName spandescription
+lis s sli StringLiteral MethodInvocation MethodInvocation SimpleName long
+lis s sli StringLiteral MethodInvocation MethodInvocation SimpleName to hex string
+lis s sli StringLiteral MethodInvocation MethodInvocation QualifiedName spanspan id
+lis s sli StringLiteral MethodInvocation MethodInvocation SimpleName long
+lis s sli StringLiteral MethodInvocation MethodInvocation SimpleName to hex string
+lis s sli StringLiteral MethodInvocation MethodInvocation QualifiedName spanparent id
+lis s sli StringLiteral MethodInvocation QualifiedName spandescription
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+long SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanparent id
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+to hex string SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanparent id
+spanspan id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+spanspan id QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+spanspan id QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanparent id
+long SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+to hex string SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+spanspan id QualifiedName MethodInvocation MethodInvocation QualifiedName spandescription
+long SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+to hex string SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+spanparent id QualifiedName MethodInvocation MethodInvocation QualifiedName spandescription
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral lis s sli
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanspan id
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanparent id
+sb SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral lis s sli
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanspan id
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName long
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to hex string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName spanparent id
+append SimpleName MethodInvocation MethodInvocation QualifiedName spandescription
+span SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName trace dump
+span SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName sort by start
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ul
+append SimpleName MethodInvocation StringLiteral ul
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral table
+append SimpleName MethodInvocation StringLiteral table
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral div
+append SimpleName MethodInvocation StringLiteral div

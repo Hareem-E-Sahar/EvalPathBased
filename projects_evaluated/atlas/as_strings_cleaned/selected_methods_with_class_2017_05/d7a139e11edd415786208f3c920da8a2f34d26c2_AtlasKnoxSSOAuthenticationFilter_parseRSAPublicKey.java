@@ -1,0 +1,107 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pem
+pem header SimpleName VariableDeclarationFragment StringLiteral begin certificate
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pem header
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral begin certificate
+pem footer SimpleName VariableDeclarationFragment StringLiteral end certificate
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pem footer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral end certificate
+pem header SimpleName InfixExpression SimpleName pem
+pem header SimpleName InfixExpression SimpleName pem footer
+pem SimpleName InfixExpression SimpleName pem footer
+full pem SimpleName VariableDeclarationFragment InfixExpression SimpleName pem header
+full pem SimpleName VariableDeclarationFragment InfixExpression SimpleName pem
+full pem SimpleName VariableDeclarationFragment InfixExpression SimpleName pem footer
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full pem
+public key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+certificate factory SimpleName MethodInvocation SimpleName get instance
+certificate factory SimpleName MethodInvocation StringLiteral x
+get instance SimpleName MethodInvocation StringLiteral x
+fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName certificate factory
+fact SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+fact SimpleName VariableDeclarationFragment MethodInvocation StringLiteral x
+certificate factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fact
+full pem SimpleName MethodInvocation SimpleName get bytes
+full pem SimpleName MethodInvocation StringLiteral utf
+get bytes SimpleName MethodInvocation StringLiteral utf
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName full pem
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+byte array input stream SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral utf
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array input stream
+is SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName full pem
+is SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get bytes
+is SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation StringLiteral utf
+byte array input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+fact SimpleName MethodInvocation SimpleName generate certificate
+fact SimpleName MethodInvocation SimpleName is
+generate certificate SimpleName MethodInvocation SimpleName is
+x certificate SimpleName SimpleType CastExpression MethodInvocation SimpleName fact
+x certificate SimpleName SimpleType CastExpression MethodInvocation SimpleName generate certificate
+x certificate SimpleName SimpleType CastExpression MethodInvocation SimpleName is
+cer SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName x certificate
+cer SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fact
+cer SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName generate certificate
+cer SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName is
+x certificate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cer
+cer SimpleName MethodInvocation SimpleName get public key
+key SimpleName Assignment MethodInvocation SimpleName cer
+key SimpleName Assignment MethodInvocation SimpleName get public key
+certificate exception SimpleName SimpleType SingleVariableDeclaration SimpleName ce
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName message
+pem SimpleName MethodInvocation SimpleName starts with
+pem SimpleName MethodInvocation SimpleName pem header
+starts with SimpleName MethodInvocation SimpleName pem header
+certificate exception - be sure not to include pem header StringLiteral InfixExpression StringLiteral and footer in the pem configuration element
+message SimpleName Assignment InfixExpression StringLiteral certificate exception - be sure not to include pem header
+message SimpleName Assignment InfixExpression StringLiteral and footer in the pem configuration element
+message SimpleName Assignment StringLiteral certificate exception - pem may be corrupt
+servlet exception SimpleName SimpleType ClassInstanceCreation SimpleName message
+servlet exception SimpleName SimpleType ClassInstanceCreation SimpleName ce
+message SimpleName ClassInstanceCreation SimpleName ce
+unsupported encoding exception SimpleName SimpleType SingleVariableDeclaration SimpleName uee
+servlet exception SimpleName SimpleType ClassInstanceCreation SimpleName uee
+rsa public key SimpleName SimpleType CastExpression SimpleName key
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rsa public key
+public Modifier MethodDeclaration SimpleName parse rsa public key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pem
+public Modifier MethodDeclaration SimpleType SimpleName certificate exception
+static Modifier MethodDeclaration SimpleType SimpleName rsa public key
+static Modifier MethodDeclaration SimpleName parse rsa public key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pem
+static Modifier MethodDeclaration SimpleType SimpleName certificate exception
+static Modifier MethodDeclaration SimpleType SimpleName unsupported encoding exception
+rsa public key SimpleName SimpleType MethodDeclaration SimpleName parse rsa public key
+rsa public key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pem
+rsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName certificate exception
+rsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName unsupported encoding exception
+rsa public key SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+parse rsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse rsa public key SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pem
+parse rsa public key SimpleName MethodDeclaration SimpleType SimpleName certificate exception
+parse rsa public key SimpleName MethodDeclaration SimpleType SimpleName unsupported encoding exception
+parse rsa public key SimpleName MethodDeclaration SimpleType SimpleName servlet exception
+pem SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName certificate exception
+pem SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+pem SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+certificate exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName unsupported encoding exception
+certificate exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+unsupported encoding exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName servlet exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse rsa public key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pem
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName certificate exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rsa public key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse rsa public key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pem
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName certificate exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName unsupported encoding exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName servlet exception

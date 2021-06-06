@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName peer name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+conf SimpleName MethodInvocation SimpleName get all properties with prefix
+conf SimpleName MethodInvocation QualifiedName propertyreplication peers
+get all properties with prefix SimpleName MethodInvocation QualifiedName propertyreplication peers
+configured peers SimpleName VariableDeclarationFragment MethodInvocation SimpleName conf
+configured peers SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all properties with prefix
+configured peers SimpleName VariableDeclarationFragment MethodInvocation QualifiedName propertyreplication peers
+propertyreplication peers QualifiedName MethodInvocation SimpleName get key
+propertyreplication peers QualifiedName MethodInvocation InfixExpression SimpleName peer name
+get key SimpleName MethodInvocation InfixExpression SimpleName peer name
+configured peers SimpleName MethodInvocation SimpleName get
+configured peers SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyreplication peers
+configured peers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+configured peers SimpleName MethodInvocation InfixExpression SimpleName peer name
+get SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName propertyreplication peers
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+get SimpleName MethodInvocation InfixExpression SimpleName peer name
+peer type SimpleName VariableDeclarationFragment MethodInvocation SimpleName configured peers
+peer type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+peer type SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName peer type
+cannot process replication for unknown peer StringLiteral InfixExpression SimpleName peer name
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral cannot process replication for unknown peer
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName peer name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation SimpleName msg
+warn SimpleName MethodInvocation SimpleName msg
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get peer type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName peer name
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName peer type
+string SimpleName SimpleType MethodDeclaration SimpleName get peer type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName peer name
+get peer type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get peer type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName peer name
+get peer type SimpleName MethodDeclaration Block ReturnStatement SimpleName peer type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get peer type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName peer name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get peer type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName peer name

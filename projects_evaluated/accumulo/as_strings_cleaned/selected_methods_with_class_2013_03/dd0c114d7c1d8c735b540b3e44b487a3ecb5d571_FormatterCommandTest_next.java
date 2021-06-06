@@ -1,0 +1,132 @@
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+iter SimpleName MethodInvocation SimpleName next
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName iter
+entry SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName entry
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName key
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName iter
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+key SimpleName Assignment MethodInvocation SimpleName to string
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName to string no time
+get key SimpleName MethodInvocation MethodInvocation SimpleName to string no time
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName entry
+key SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key
+key SimpleName Assignment MethodInvocation SimpleName to string no time
+entry SimpleName MethodInvocation SimpleName get value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+final Modifier VariableDeclarationStatement SimpleType SimpleName value
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entry
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+key SimpleName MethodInvocation SimpleName length
+v SimpleName MethodInvocation SimpleName get size
+v SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+key SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+final Modifier VariableDeclarationStatement SimpleType SimpleName string builder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName key
+append SimpleName MethodInvocation SimpleName key
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+key SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName tab
+append SimpleName MethodInvocation MethodInvocation SimpleName tab
+key SimpleName MethodInvocation MethodInvocation SimpleName tab
+append SimpleName MethodInvocation SimpleName tab
+byte PrimitiveType SingleVariableDeclaration SimpleName b
+v SimpleName MethodInvocation SimpleName get
+b SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression InfixExpression InfixExpression SimpleName b
+b SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName b
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+b SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression InfixExpression InfixExpression SimpleName b
+b SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName b
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+integer SimpleName MethodInvocation SimpleName value of
+integer SimpleName MethodInvocation SimpleName b
+value of SimpleName MethodInvocation SimpleName b
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral xx
+string SimpleName MethodInvocation MethodInvocation SimpleName integer
+string SimpleName MethodInvocation MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName b
+format SimpleName MethodInvocation StringLiteral xx
+format SimpleName MethodInvocation MethodInvocation SimpleName integer
+format SimpleName MethodInvocation MethodInvocation SimpleName value of
+format SimpleName MethodInvocation MethodInvocation SimpleName b
+xx StringLiteral MethodInvocation MethodInvocation SimpleName integer
+xx StringLiteral MethodInvocation MethodInvocation SimpleName value of
+xx StringLiteral MethodInvocation MethodInvocation SimpleName b
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName string
+sb SimpleName MethodInvocation MethodInvocation SimpleName format
+sb SimpleName MethodInvocation MethodInvocation StringLiteral xx
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+append SimpleName MethodInvocation MethodInvocation SimpleName string
+append SimpleName MethodInvocation MethodInvocation SimpleName format
+append SimpleName MethodInvocation MethodInvocation StringLiteral xx
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integer
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value of
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+byte PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+b SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName v
+b SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName newline
+append SimpleName MethodInvocation SimpleName newline
+sb SimpleName MethodInvocation SimpleName to string
+final Modifier VariableDeclarationStatement Block IfStatement SimpleName print ts
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+print ts SimpleName IfStatement Block VariableDeclarationStatement Modifier final
+print ts SimpleName IfStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block IfStatement SimpleName print ts
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+string SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+next SimpleName MethodDeclaration Block IfStatement SimpleName print ts
+next SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+next SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

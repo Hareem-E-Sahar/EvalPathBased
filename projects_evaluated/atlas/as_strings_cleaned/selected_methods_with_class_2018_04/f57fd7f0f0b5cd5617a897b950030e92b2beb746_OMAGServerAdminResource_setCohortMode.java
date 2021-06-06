@@ -1,0 +1,175 @@
+method SimpleName MemberValuePair QualifiedName request methodpost
+path SimpleName MemberValuePair StringLiteral cohortcohort namemode
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName method
+request mapping SimpleName NormalAnnotation MemberValuePair QualifiedName request methodpost
+request mapping SimpleName NormalAnnotation MemberValuePair SimpleName path
+request mapping SimpleName NormalAnnotation MemberValuePair StringLiteral cohortcohort namemode
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+method SimpleName MemberValuePair NormalAnnotation MemberValuePair StringLiteral cohortcohort namemode
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair SimpleName path
+request methodpost QualifiedName MemberValuePair NormalAnnotation MemberValuePair StringLiteral cohortcohort namemode
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName user id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user id
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName server name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName server name
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName string
+path variable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName cohort name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cohort name
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName omag service mode
+request param SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName service mode
+omag service mode SimpleName SimpleType SingleVariableDeclaration SimpleName service mode
+method name SimpleName VariableDeclarationFragment StringLiteral set cohort mode
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral set cohort mode
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName method name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral set cohort mode
+validate server name SimpleName MethodInvocation SimpleName server name
+validate server name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate user id SimpleName MethodInvocation SimpleName user id
+validate user id SimpleName MethodInvocation SimpleName server name
+validate user id SimpleName MethodInvocation SimpleName method name
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate cohort name SimpleName MethodInvocation SimpleName cohort name
+validate cohort name SimpleName MethodInvocation SimpleName server name
+validate cohort name SimpleName MethodInvocation SimpleName method name
+cohort name SimpleName MethodInvocation SimpleName server name
+cohort name SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+validate service mode SimpleName MethodInvocation SimpleName service mode
+validate service mode SimpleName MethodInvocation SimpleName server name
+validate service mode SimpleName MethodInvocation SimpleName method name
+service mode SimpleName MethodInvocation SimpleName server name
+service mode SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+get server config SimpleName MethodInvocation SimpleName server name
+get server config SimpleName MethodInvocation SimpleName method name
+server name SimpleName MethodInvocation SimpleName method name
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get server config
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName server name
+server config SimpleName VariableDeclarationFragment MethodInvocation SimpleName method name
+omag server config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName server config
+cohort config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new cohort config
+service mode SimpleName InfixExpression QualifiedName omag service modeenabled
+configuration factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName omrs configuration factory
+omrs configuration factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName configuration factory
+server config SimpleName MethodInvocation SimpleName get local server name
+configuration factory SimpleName MethodInvocation SimpleName get default cohort config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName server config
+configuration factory SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+configuration factory SimpleName MethodInvocation SimpleName cohort name
+get default cohort config SimpleName MethodInvocation MethodInvocation SimpleName server config
+get default cohort config SimpleName MethodInvocation MethodInvocation SimpleName get local server name
+get default cohort config SimpleName MethodInvocation SimpleName cohort name
+server config SimpleName MethodInvocation MethodInvocation SimpleName cohort name
+get local server name SimpleName MethodInvocation MethodInvocation SimpleName cohort name
+new cohort config SimpleName Assignment MethodInvocation SimpleName configuration factory
+new cohort config SimpleName Assignment MethodInvocation SimpleName get default cohort config
+new cohort config SimpleName Assignment MethodInvocation MethodInvocation SimpleName server config
+new cohort config SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local server name
+new cohort config SimpleName Assignment MethodInvocation SimpleName cohort name
+set cohort config SimpleName MethodInvocation SimpleName user id
+set cohort config SimpleName MethodInvocation SimpleName server name
+set cohort config SimpleName MethodInvocation SimpleName cohort name
+set cohort config SimpleName MethodInvocation SimpleName new cohort config
+user id SimpleName MethodInvocation SimpleName server name
+user id SimpleName MethodInvocation SimpleName cohort name
+user id SimpleName MethodInvocation SimpleName new cohort config
+server name SimpleName MethodInvocation SimpleName cohort name
+server name SimpleName MethodInvocation SimpleName new cohort config
+cohort name SimpleName MethodInvocation SimpleName new cohort config
+request mapping SimpleName NormalAnnotation MethodDeclaration Modifier public
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+cohortcohort namemode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+request mapping SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+cohortcohort namemode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+request mapping SimpleName NormalAnnotation MethodDeclaration SimpleName set cohort mode
+method SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set cohort mode
+request methodpost QualifiedName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set cohort mode
+path SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName set cohort mode
+cohortcohort namemode StringLiteral MemberValuePair NormalAnnotation MethodDeclaration SimpleName set cohort mode
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user id
+request mapping SimpleName NormalAnnotation MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set cohort mode
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+void PrimitiveType MethodDeclaration SimpleName set cohort mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName server name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omag service mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service mode
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user id
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName server name
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName path variable
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName request param
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName omag service mode
+set cohort mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service mode
+set cohort mode SimpleName MethodDeclaration SimpleType SimpleName omag not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+user id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service mode
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+user id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+server name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service mode
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+server name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service mode
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+cohort name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+service mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+service mode SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+omag not authorized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cohort mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service mode
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName request mapping
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cohort mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName server name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cohort name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service mode
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag not authorized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName omag invalid parameter exception

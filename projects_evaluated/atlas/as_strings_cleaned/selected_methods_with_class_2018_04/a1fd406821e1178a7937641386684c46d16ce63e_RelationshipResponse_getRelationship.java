@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName relationship
+public Modifier MethodDeclaration SimpleName get relationship
+public Modifier MethodDeclaration Block ReturnStatement SimpleName relationship
+relationship SimpleName SimpleType MethodDeclaration SimpleName get relationship
+get relationship SimpleName MethodDeclaration Block ReturnStatement SimpleName relationship
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+public Modifier TypeDeclaration MethodDeclaration SimpleName get relationship
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName relationship
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get relationship

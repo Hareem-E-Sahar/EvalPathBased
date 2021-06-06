@@ -1,0 +1,77 @@
+baos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName baos
+data output stream SimpleName SimpleType ClassInstanceCreation SimpleName baos
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName data output stream
+dos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName baos
+data output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dos
+dos SimpleName MethodInvocation SimpleName write utf
+dos SimpleName MethodInvocation MethodInvocation SimpleName get table name
+write utf SimpleName MethodInvocation MethodInvocation SimpleName get table name
+get problem type SimpleName MethodInvocation MethodInvocation SimpleName name
+dos SimpleName MethodInvocation SimpleName write utf
+dos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get problem type
+dos SimpleName MethodInvocation MethodInvocation SimpleName name
+write utf SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get problem type
+write utf SimpleName MethodInvocation MethodInvocation SimpleName name
+dos SimpleName MethodInvocation SimpleName write utf
+dos SimpleName MethodInvocation MethodInvocation SimpleName get resource
+write utf SimpleName MethodInvocation MethodInvocation SimpleName get resource
+dos SimpleName MethodInvocation SimpleName close
+baos SimpleName MethodInvocation SimpleName close
+hdfs zoo instance SimpleName MethodInvocation SimpleName get instance
+zoo util SimpleName MethodInvocation SimpleName get root
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+zoo util SimpleName MethodInvocation MethodInvocation SimpleName get instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName hdfs zoo instance
+get root SimpleName MethodInvocation MethodInvocation SimpleName get instance
+baos SimpleName MethodInvocation SimpleName to byte array
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName baos
+text SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to byte array
+encoding SimpleName MethodInvocation SimpleName encode as base file name
+encoding SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+encoding SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+encoding SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+encode as base file name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text
+encode as base file name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName baos
+encode as base file name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to byte array
+zoo util SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+get root SimpleName MethodInvocation InfixExpression QualifiedName constantszproblems
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszproblems
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName constantszproblems
+zoo util SimpleName MethodInvocation InfixExpression StringLiteral /
+get root SimpleName MethodInvocation InfixExpression StringLiteral /
+hdfs zoo instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+get instance SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral /
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encoding
+zoo util SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encode as base file name
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encoding
+get root SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName encode as base file name
+constantszproblems QualifiedName InfixExpression StringLiteral /
+constantszproblems QualifiedName InfixExpression MethodInvocation SimpleName encoding
+constantszproblems QualifiedName InfixExpression MethodInvocation SimpleName encode as base file name
+/ StringLiteral InfixExpression MethodInvocation SimpleName encoding
+/ StringLiteral InfixExpression MethodInvocation SimpleName encode as base file name
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName zoo util
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get root
+zpath SimpleName VariableDeclarationFragment InfixExpression QualifiedName constantszproblems
+zpath SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName encoding
+zpath SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName encode as base file name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zpath
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get z path
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName zpath
+string SimpleName SimpleType MethodDeclaration SimpleName get z path
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get z path SimpleName MethodDeclaration SimpleType SimpleName io exception
+get z path SimpleName MethodDeclaration Block ReturnStatement SimpleName zpath
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get z path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get z path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

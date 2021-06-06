@@ -1,0 +1,59 @@
+graph database SimpleName SimpleType ParameterizedType WildcardType ?
+graph database SimpleName SimpleType ParameterizedType WildcardType ?
+? WildcardType ParameterizedType WildcardType ?
+atlas repository configuration SimpleName MethodInvocation SimpleName get graph database impl
+impl class SimpleName VariableDeclarationFragment MethodInvocation SimpleName atlas repository configuration
+impl class SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graph database impl
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl class
+graph database SimpleName SimpleType ParameterizedType SimpleType SimpleName v
+graph database SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+v SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+impl class SimpleName MethodInvocation SimpleName new instance
+graph db SimpleName Assignment CastExpression MethodInvocation SimpleName impl class
+graph db SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral error initializing graph database
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error initializing graph database StringLiteral ClassInstanceCreation SimpleName e
+instantiation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral error initializing graph database
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+error initializing graph database StringLiteral ClassInstanceCreation SimpleName e
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration TypeParameter SimpleName v
+private Modifier MethodDeclaration TypeParameter SimpleName e
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName graph database
+private Modifier MethodDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SimpleName get graph database
+static Modifier MethodDeclaration TypeParameter SimpleName v
+static Modifier MethodDeclaration TypeParameter SimpleName e
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName graph database
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName get graph database
+v SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+v SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+v SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+v SimpleName TypeParameter MethodDeclaration SimpleName get graph database
+e SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+e SimpleName TypeParameter MethodDeclaration ParameterizedType WildcardType ?
+e SimpleName TypeParameter MethodDeclaration SimpleName get graph database
+graph database SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get graph database
+? WildcardType ParameterizedType MethodDeclaration SimpleName get graph database
+? WildcardType ParameterizedType MethodDeclaration SimpleName get graph database
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graph database
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graph database

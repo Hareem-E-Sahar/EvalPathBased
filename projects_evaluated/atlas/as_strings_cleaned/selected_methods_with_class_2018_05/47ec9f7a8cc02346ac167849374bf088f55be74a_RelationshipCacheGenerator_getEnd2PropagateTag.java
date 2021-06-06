@@ -1,0 +1,27 @@
+propagate tags SimpleName SimpleType SingleVariableDeclaration SimpleName end propagate tags
+end propagate tags SimpleName InfixExpression QualifiedName propagate tagsone to two
+end propagate tags SimpleName InfixExpression QualifiedName propagate tagstwo to one
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName propagate tags
+private Modifier MethodDeclaration SimpleName get end propagate tag
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName propagate tags
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags
+static Modifier MethodDeclaration SimpleType SimpleName propagate tags
+static Modifier MethodDeclaration SimpleName get end propagate tag
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName propagate tags
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags
+propagate tags SimpleName SimpleType MethodDeclaration SimpleName get end propagate tag
+propagate tags SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags
+get end propagate tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName propagate tags
+get end propagate tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+public Modifier TypeDeclaration MethodDeclaration SimpleName get end propagate tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName propagate tags
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get end propagate tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end propagate tags

@@ -1,0 +1,44 @@
+type def SimpleName SimpleType SingleVariableDeclaration SimpleName cloned type def
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName external standard mapping
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName external standard mappings
+external standard mapping SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName external standard mappings
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName type def attribute
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+type def attribute SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName type def attributes
+private Modifier MethodDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SimpleName patch type def delete external standards
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+type def SimpleName SimpleType MethodDeclaration SimpleName patch type def delete external standards
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+type def SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+type def SimpleName SimpleType MethodDeclaration SimpleType SimpleName patch error exception
+patch type def delete external standards SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName type def
+patch type def delete external standards SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+patch type def delete external standards SimpleName MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+patch type def delete external standards SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+patch type def delete external standards SimpleName MethodDeclaration SimpleType SimpleName patch error exception
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+cloned type def SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+external standard mappings SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+external standard mappings SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+type def attributes SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+public Modifier TypeDeclaration MethodDeclaration SimpleName patch type def delete external standards
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type def
+test SimpleName TypeDeclaration MethodDeclaration SimpleName patch type def delete external standards
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cloned type def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName external standard mappings
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type def attributes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName patch error exception

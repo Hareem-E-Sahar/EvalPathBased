@@ -1,0 +1,63 @@
+atlas attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attribute
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName atlas edge
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edges
+atlas edge SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName edges
+attribute SimpleName MethodInvocation SimpleName get attribute type
+attribute SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName atlas array type
+get attribute type SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName atlas array type
+collection utils SimpleName MethodInvocation SimpleName is not empty
+collection utils SimpleName MethodInvocation SimpleName edges
+is not empty SimpleName MethodInvocation SimpleName edges
+get index value SimpleName MethodInvocation SimpleName e
+e index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index value
+e index SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e index
+get index value SimpleName MethodInvocation SimpleName e
+e index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index value
+e index SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e index
+e index SimpleName MethodInvocation SimpleName compare to
+e index SimpleName MethodInvocation SimpleName e index
+compare to SimpleName MethodInvocation SimpleName e index
+e SimpleName VariableDeclarationFragment LambdaExpression VariableDeclarationFragment SimpleName e
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName edges
+collections SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+collections SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+sort SimpleName MethodInvocation SimpleName edges
+sort SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+sort SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+edges SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+edges SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName sort collection elements
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName edges
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName sort collection elements
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName edges
+void PrimitiveType MethodDeclaration SimpleName sort collection elements
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName edges
+sort collection elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName atlas attribute
+sort collection elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attribute
+sort collection elements SimpleName MethodDeclaration SingleVariableDeclaration SimpleName edges
+attribute SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sort collection elements
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sort collection elements
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName edges

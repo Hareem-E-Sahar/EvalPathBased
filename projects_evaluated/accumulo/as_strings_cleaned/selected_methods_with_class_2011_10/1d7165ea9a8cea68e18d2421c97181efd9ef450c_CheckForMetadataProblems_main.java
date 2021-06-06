@@ -1,0 +1,73 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+process options SimpleName MethodInvocation SimpleName args
+args SimpleName Assignment MethodInvocation SimpleName process options
+args SimpleName Assignment MethodInvocation SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+user SimpleName Assignment ArrayAccess SimpleName args
+user SimpleName Assignment ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess MethodInvocation SimpleName get bytes
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get bytes
+pass SimpleName Assignment MethodInvocation ArrayAccess SimpleName args
+pass SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+pass SimpleName Assignment MethodInvocation SimpleName get bytes
+check metadata table entries SimpleName MethodInvocation SimpleName offline
+check metadata table entries SimpleName MethodInvocation SimpleName fix
+offline SimpleName MethodInvocation SimpleName fix
+argslength QualifiedName InfixExpression NumberLiteral empty
+argslength QualifiedName InfixExpression InfixExpression SimpleName offline
+empty NumberLiteral InfixExpression InfixExpression SimpleName offline
+check metadata table entries SimpleName MethodInvocation SimpleName offline
+check metadata table entries SimpleName MethodInvocation SimpleName fix
+offline SimpleName MethodInvocation SimpleName fix
+check for metadata problems SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get name
+usage StringLiteral InfixExpression MethodInvocation SimpleName get name
+usage StringLiteral InfixExpression StringLiteral offlinedebug fix username password
+get name SimpleName MethodInvocation InfixExpression StringLiteral offlinedebug fix username password
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral usage
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral offlinedebug fix username password
+println SimpleName MethodInvocation InfixExpression StringLiteral usage
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral offlinedebug fix username password
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+exit SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+saw problems SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName system
+saw problems SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName exit
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration Block IfStatement SimpleName saw problems
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName saw problems
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration Block IfStatement SimpleName saw problems
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

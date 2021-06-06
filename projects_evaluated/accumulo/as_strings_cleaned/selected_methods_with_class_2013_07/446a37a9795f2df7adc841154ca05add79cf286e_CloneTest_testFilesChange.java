@@ -1,0 +1,282 @@
+mi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mock instance
+mock instance SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mi
+password token SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+mi SimpleName MethodInvocation SimpleName get connector
+mi SimpleName MethodInvocation StringLiteral empty
+mi SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+mi SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+get connector SimpleName MethodInvocation StringLiteral empty
+get connector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+get connector SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+empty StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName password token
+empty StringLiteral MethodInvocation ClassInstanceCreation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName mi
+conn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get connector
+conn SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+conn SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation StringLiteral empty
+connector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conn
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName key extent
+ke SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ke
+ke SimpleName MethodInvocation SimpleName get prev row update mutation
+mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName ke
+mut SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prev row update mutation
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+m StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral m
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName put
+tablets sectionserver column familytime column QualifiedName MethodInvocation SimpleName mut
+tablets sectionserver column familytime column QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+tablets sectionserver column familytime column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral m
+tablets sectionserver column familytime column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName mut
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral m
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral m
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+default tablet StringLiteral MethodInvocation SimpleName get bytes
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral default tablet
+value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bytes
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName put
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation SimpleName mut
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral default tablet
+tablets sectionserver column familydirectory column QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+put SimpleName MethodInvocation SimpleName mut
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral default tablet
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+mut SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral default tablet
+mut SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get bytes
+data file column familyname QualifiedName MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+mut SimpleName MethodInvocation MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation StringLiteral default tablet rf
+mut SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral default tablet rf
+put SimpleName MethodInvocation StringLiteral empty
+data file column familyname QualifiedName MethodInvocation MethodInvocation StringLiteral default tablet rf
+to string SimpleName MethodInvocation MethodInvocation StringLiteral default tablet rf
+data file column familyname QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+default tablet rf StringLiteral MethodInvocation StringLiteral empty
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+metadata tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName flush
+conn SimpleName MethodInvocation SimpleName create batch writer
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+create batch writer SimpleName MethodInvocation QualifiedName metadata tablename
+create batch writer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+metadata tablename QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName batch writer config
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+bw SimpleName VariableDeclarationFragment MethodInvocation SimpleName create batch writer
+bw SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+batch writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bw
+metadata table util SimpleName MethodInvocation SimpleName initialize clone
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation SimpleName conn
+metadata table util SimpleName MethodInvocation SimpleName bw
+initialize clone SimpleName MethodInvocation StringLiteral empty
+initialize clone SimpleName MethodInvocation StringLiteral empty
+initialize clone SimpleName MethodInvocation SimpleName conn
+initialize clone SimpleName MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bw
+ke SimpleName MethodInvocation SimpleName get metadata entry
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ke
+mutation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName mutation
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ke
+mut SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get metadata entry
+mutation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mut
+data file column familyname QualifiedName MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation SimpleName put delete
+mut SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+mut SimpleName MethodInvocation MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation StringLiteral default tablet rf
+put delete SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+put delete SimpleName MethodInvocation MethodInvocation SimpleName to string
+put delete SimpleName MethodInvocation StringLiteral default tablet rf
+data file column familyname QualifiedName MethodInvocation MethodInvocation StringLiteral default tablet rf
+to string SimpleName MethodInvocation MethodInvocation StringLiteral default tablet rf
+data file column familyname QualifiedName MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation SimpleName put
+mut SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+mut SimpleName MethodInvocation MethodInvocation SimpleName to string
+mut SimpleName MethodInvocation StringLiteral default tablet rf
+mut SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+put SimpleName MethodInvocation MethodInvocation SimpleName to string
+put SimpleName MethodInvocation StringLiteral default tablet rf
+put SimpleName MethodInvocation StringLiteral empty
+data file column familyname QualifiedName MethodInvocation MethodInvocation StringLiteral default tablet rf
+to string SimpleName MethodInvocation MethodInvocation StringLiteral default tablet rf
+data file column familyname QualifiedName MethodInvocation MethodInvocation StringLiteral empty
+to string SimpleName MethodInvocation MethodInvocation StringLiteral empty
+default tablet rf StringLiteral MethodInvocation StringLiteral empty
+bw SimpleName MethodInvocation SimpleName add mutation
+bw SimpleName MethodInvocation SimpleName mut
+add mutation SimpleName MethodInvocation SimpleName mut
+bw SimpleName MethodInvocation SimpleName flush
+metadata table util SimpleName MethodInvocation SimpleName check clone
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation SimpleName conn
+metadata table util SimpleName MethodInvocation SimpleName bw
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation SimpleName conn
+check clone SimpleName MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bw
+rc SimpleName VariableDeclarationFragment MethodInvocation SimpleName metadata table util
+rc SimpleName VariableDeclarationFragment MethodInvocation SimpleName check clone
+rc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+rc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+rc SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+rc SimpleName VariableDeclarationFragment MethodInvocation SimpleName bw
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName metadata table util
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName check clone
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName conn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName bw
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName rc
+empty NumberLiteral MethodInvocation SimpleName rc
+metadata table util SimpleName MethodInvocation SimpleName check clone
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation StringLiteral empty
+metadata table util SimpleName MethodInvocation SimpleName conn
+metadata table util SimpleName MethodInvocation SimpleName bw
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation StringLiteral empty
+check clone SimpleName MethodInvocation SimpleName conn
+check clone SimpleName MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+empty StringLiteral MethodInvocation SimpleName conn
+empty StringLiteral MethodInvocation SimpleName bw
+conn SimpleName MethodInvocation SimpleName bw
+rc SimpleName Assignment MethodInvocation SimpleName metadata table util
+rc SimpleName Assignment MethodInvocation SimpleName check clone
+rc SimpleName Assignment MethodInvocation StringLiteral empty
+rc SimpleName Assignment MethodInvocation StringLiteral empty
+rc SimpleName Assignment MethodInvocation SimpleName conn
+rc SimpleName Assignment MethodInvocation SimpleName bw
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation SimpleName rc
+empty NumberLiteral MethodInvocation SimpleName rc
+conn SimpleName MethodInvocation SimpleName create scanner
+conn SimpleName MethodInvocation QualifiedName metadata tablename
+conn SimpleName MethodInvocation QualifiedName authorizationsempty
+create scanner SimpleName MethodInvocation QualifiedName metadata tablename
+create scanner SimpleName MethodInvocation QualifiedName authorizationsempty
+metadata tablename QualifiedName MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName conn
+scanner SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scanner
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName metadata tablename
+scanner SimpleName VariableDeclarationFragment MethodInvocation QualifiedName authorizationsempty
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+text SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+key extent SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to metadata range
+empty StringLiteral ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to metadata range
+scanner SimpleName MethodInvocation SimpleName set range
+scanner SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+set range SimpleName MethodInvocation MethodInvocation SimpleName to metadata range
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName key
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+key SimpleName SimpleType ParameterizedType SimpleType SimpleName value
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+value SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column family
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column family
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get column family SimpleName MethodInvocation MethodInvocation SimpleName equals
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data file column familyname
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName data file column familyname
+get column family SimpleName MethodInvocation MethodInvocation QualifiedName data file column familyname
+equals SimpleName MethodInvocation QualifiedName data file column familyname
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+get key SimpleName MethodInvocation MethodInvocation SimpleName get column qualifier
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get column qualifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+files SimpleName MethodInvocation SimpleName add
+files SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+files SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get column qualifier
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+entry SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName scanner
+files SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName files
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName files
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+files SimpleName MethodInvocation SimpleName contains
+files SimpleName MethodInvocation StringLiteral ../ default tablet rf
+contains SimpleName MethodInvocation StringLiteral ../ default tablet rf
+assert true SimpleName MethodInvocation MethodInvocation SimpleName files
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral ../ default tablet rf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test files change
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName scanner
+void PrimitiveType MethodDeclaration SimpleName test files change
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName scanner
+test files change SimpleName MethodDeclaration SimpleType SimpleName exception
+test files change SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test files change SimpleName MethodDeclaration Block EnhancedForStatement SimpleName scanner
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test files change
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test files change
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,52 @@
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get col
+json node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+expected id SimpleName VariableDeclarationFragment NumberLiteral empty
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName expected id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+node SimpleName MethodInvocation SimpleName get
+node SimpleName MethodInvocation QualifiedName graph son tokens tp . id
+get SimpleName MethodInvocation QualifiedName graph son tokens tp . id
+graph son utility SimpleName MethodInvocation SimpleName get typed value from json node
+graph son utility SimpleName MethodInvocation MethodInvocation SimpleName node
+graph son utility SimpleName MethodInvocation MethodInvocation SimpleName get
+graph son utility SimpleName MethodInvocation MethodInvocation QualifiedName graph son tokens tp . id
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName node
+get typed value from json node SimpleName MethodInvocation MethodInvocation SimpleName get
+get typed value from json node SimpleName MethodInvocation MethodInvocation QualifiedName graph son tokens tp . id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName graph son utility
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get typed value from json node
+o SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName node
+o SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName graph son tokens tp . id
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+assert not null SimpleName MethodInvocation SimpleName o
+int PrimitiveType CastExpression SimpleName o
+assert equals SimpleName MethodInvocation CastExpression PrimitiveType int
+assert equals SimpleName MethodInvocation CastExpression SimpleName o
+assert equals SimpleName MethodInvocation SimpleName expected id
+int PrimitiveType CastExpression MethodInvocation SimpleName expected id
+o SimpleName CastExpression MethodInvocation SimpleName expected id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName id fetch
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName id fetch
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName id fetch
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+id fetch SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+id fetch SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName id fetch
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName id fetch

@@ -1,0 +1,80 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName type name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type name
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+atlas client v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get atlas client
+atlas client v SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName atlas client v
+collections SimpleName MethodInvocation SimpleName singleton map
+collections SimpleName MethodInvocation SimpleName attribute qualified name
+collections SimpleName MethodInvocation SimpleName qualified name
+singleton map SimpleName MethodInvocation SimpleName attribute qualified name
+singleton map SimpleName MethodInvocation SimpleName qualified name
+attribute qualified name SimpleName MethodInvocation SimpleName qualified name
+atlas client v SimpleName MethodInvocation SimpleName get entity by attribute
+atlas client v SimpleName MethodInvocation SimpleName type name
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName collections
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+atlas client v SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+get entity by attribute SimpleName MethodInvocation SimpleName type name
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName collections
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+get entity by attribute SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+type name SimpleName MethodInvocation MethodInvocation SimpleName collections
+type name SimpleName MethodInvocation MethodInvocation SimpleName singleton map
+type name SimpleName MethodInvocation MethodInvocation SimpleName attribute qualified name
+type name SimpleName MethodInvocation MethodInvocation SimpleName qualified name
+atlas service exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get status
+e SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+get status SimpleName MethodInvocation InfixExpression QualifiedName client responsestatusnot found
+private Modifier MethodDeclaration SimpleType SimpleName atlas entity with ext info
+private Modifier MethodDeclaration SimpleName find entity
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+private Modifier MethodDeclaration SimpleType SimpleName atlas service exception
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleName find entity
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type name
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+atlas entity with ext info SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas service exception
+find entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+find entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type name
+find entity SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+find entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+find entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+find entity SimpleName MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+type name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+type name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+public Modifier TypeDeclaration MethodDeclaration SimpleName find entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas entity with ext info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas service exception

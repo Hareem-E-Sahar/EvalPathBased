@@ -1,0 +1,440 @@
+read only t store SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+read only t store SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName zs
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName zs
+i zoo reader writer SimpleName SimpleType SingleVariableDeclaration SimpleName zk
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lock path
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+zk SimpleName MethodInvocation SimpleName get children
+zk SimpleName MethodInvocation SimpleName lock path
+get children SimpleName MethodInvocation SimpleName lock path
+locked ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName zk
+locked ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+locked ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName lock path
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+lock path SimpleName InfixExpression StringLiteral /
+lock path SimpleName InfixExpression SimpleName id
+/ StringLiteral InfixExpression SimpleName id
+zk SimpleName MethodInvocation SimpleName get children
+zk SimpleName MethodInvocation InfixExpression SimpleName lock path
+zk SimpleName MethodInvocation InfixExpression StringLiteral /
+zk SimpleName MethodInvocation InfixExpression SimpleName id
+get children SimpleName MethodInvocation InfixExpression SimpleName lock path
+get children SimpleName MethodInvocation InfixExpression StringLiteral /
+get children SimpleName MethodInvocation InfixExpression SimpleName id
+lock nodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName zk
+lock nodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+lock nodes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName lock path
+lock nodes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+lock nodes SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName id
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName lock nodes
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName lock nodes
+lock nodes SimpleName Assignment ClassInstanceCreation SimpleName lock nodes
+collections SimpleName MethodInvocation SimpleName sort
+collections SimpleName MethodInvocation SimpleName lock nodes
+sort SimpleName MethodInvocation SimpleName lock nodes
+pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+saw write lock SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName saw write lock
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+string SimpleName SimpleType SingleVariableDeclaration SimpleName node
+lock path SimpleName InfixExpression StringLiteral /
+lock path SimpleName InfixExpression SimpleName id
+lock path SimpleName InfixExpression StringLiteral /
+lock path SimpleName InfixExpression SimpleName node
+/ StringLiteral InfixExpression SimpleName id
+/ StringLiteral InfixExpression StringLiteral /
+/ StringLiteral InfixExpression SimpleName node
+id SimpleName InfixExpression StringLiteral /
+id SimpleName InfixExpression SimpleName node
+/ StringLiteral InfixExpression SimpleName node
+zk SimpleName MethodInvocation SimpleName get data
+zk SimpleName MethodInvocation InfixExpression SimpleName lock path
+zk SimpleName MethodInvocation InfixExpression StringLiteral /
+zk SimpleName MethodInvocation InfixExpression SimpleName id
+zk SimpleName MethodInvocation InfixExpression StringLiteral /
+zk SimpleName MethodInvocation InfixExpression SimpleName node
+get data SimpleName MethodInvocation InfixExpression SimpleName lock path
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression SimpleName id
+get data SimpleName MethodInvocation InfixExpression StringLiteral /
+get data SimpleName MethodInvocation InfixExpression SimpleName node
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName zk
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName lock path
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName id
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral /
+data SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName node
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName data
+string SimpleName SimpleType ClassInstanceCreation SimpleName utf
+data SimpleName ClassInstanceCreation SimpleName utf
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName split
+data SimpleName ClassInstanceCreation MethodInvocation SimpleName split
+utf SimpleName ClassInstanceCreation MethodInvocation SimpleName split
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral :
+data SimpleName ClassInstanceCreation MethodInvocation StringLiteral :
+utf SimpleName ClassInstanceCreation MethodInvocation StringLiteral :
+split SimpleName MethodInvocation StringLiteral :
+lda SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName data
+lda SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName utf
+lda SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+lda SimpleName VariableDeclarationFragment MethodInvocation StringLiteral :
+lda SimpleName ArrayAccess NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation SimpleName char at
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName char at
+lda SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation InfixExpression CharacterLiteral w
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression CharacterLiteral w
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral w
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral w
+saw write lock SimpleName Assignment BooleanLiteral true
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pos SimpleName InfixExpression NumberLiteral empty
+locks SimpleName Assignment SimpleName held locks
+lda SimpleName ArrayAccess NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation SimpleName char at
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName char at
+lda SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+r CharacterLiteral InfixExpression InfixExpression PrefixExpression SimpleName saw write lock
+locks SimpleName Assignment SimpleName held locks
+locks SimpleName Assignment SimpleName waiting locks
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+lda SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName lda
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName lda
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+locks SimpleName MethodInvocation SimpleName get
+locks SimpleName MethodInvocation MethodInvocation SimpleName long
+locks SimpleName MethodInvocation MethodInvocation SimpleName parse long
+locks SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName lda
+locks SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+locks SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation SimpleName long
+get SimpleName MethodInvocation MethodInvocation SimpleName parse long
+get SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName lda
+get SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName locks
+tables SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName long
+tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parse long
+tables SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+lda SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName lda
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName lda
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+locks SimpleName MethodInvocation SimpleName put
+locks SimpleName MethodInvocation MethodInvocation SimpleName long
+locks SimpleName MethodInvocation MethodInvocation SimpleName parse long
+locks SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName lda
+locks SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+locks SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+locks SimpleName MethodInvocation SimpleName tables
+put SimpleName MethodInvocation MethodInvocation SimpleName long
+put SimpleName MethodInvocation MethodInvocation SimpleName parse long
+put SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName lda
+put SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+put SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+put SimpleName MethodInvocation SimpleName tables
+long SimpleName MethodInvocation MethodInvocation SimpleName tables
+parse long SimpleName MethodInvocation MethodInvocation SimpleName tables
+lda SimpleName ArrayAccess MethodInvocation MethodInvocation SimpleName tables
+empty NumberLiteral ArrayAccess MethodInvocation MethodInvocation SimpleName tables
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName tables
+lda SimpleName ArrayAccess NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation SimpleName char at
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName char at
+lda SimpleName ArrayAccess MethodInvocation NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+lda SimpleName ArrayAccess MethodInvocation InfixExpression StringLiteral :
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression StringLiteral :
+char at SimpleName MethodInvocation InfixExpression StringLiteral :
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral :
+lda SimpleName ArrayAccess MethodInvocation InfixExpression SimpleName id
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression SimpleName id
+char at SimpleName MethodInvocation InfixExpression SimpleName id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName id
+: StringLiteral InfixExpression SimpleName id
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName char at
+tables SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+tables SimpleName MethodInvocation InfixExpression StringLiteral :
+tables SimpleName MethodInvocation InfixExpression SimpleName id
+add SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName char at
+add SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation InfixExpression StringLiteral :
+add SimpleName MethodInvocation InfixExpression SimpleName id
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName lock nodes
+node SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName lock nodes
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName lock nodes
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName lock nodes
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+failed to read locks for StringLiteral InfixExpression SimpleName id
+failed to read locks for StringLiteral InfixExpression StringLiteral continuing
+id SimpleName InfixExpression StringLiteral continuing
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral failed to read locks for
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName id
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral continuing
+println SimpleName MethodInvocation InfixExpression StringLiteral failed to read locks for
+println SimpleName MethodInvocation InfixExpression SimpleName id
+println SimpleName MethodInvocation InfixExpression StringLiteral continuing
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName locked ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName locked ids
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+zs SimpleName MethodInvocation SimpleName list
+transactions SimpleName VariableDeclarationFragment MethodInvocation SimpleName zs
+transactions SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+long SimpleName SimpleType SingleVariableDeclaration SimpleName tid
+zs SimpleName MethodInvocation SimpleName reserve
+zs SimpleName MethodInvocation SimpleName tid
+reserve SimpleName MethodInvocation SimpleName tid
+zs SimpleName MethodInvocation SimpleName get property
+zs SimpleName MethodInvocation SimpleName tid
+zs SimpleName MethodInvocation StringLiteral debug
+get property SimpleName MethodInvocation SimpleName tid
+get property SimpleName MethodInvocation StringLiteral debug
+tid SimpleName MethodInvocation StringLiteral debug
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName zs
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get property
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName tid
+string SimpleName SimpleType CastExpression MethodInvocation StringLiteral debug
+debug SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+debug SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName zs
+debug SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property
+debug SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName tid
+debug SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral debug
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName debug
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+held locks SimpleName MethodInvocation SimpleName remove
+held locks SimpleName MethodInvocation SimpleName tid
+remove SimpleName MethodInvocation SimpleName tid
+hlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName held locks
+hlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+hlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+collections SimpleName MethodInvocation SimpleName empty list
+hlocks SimpleName Assignment MethodInvocation SimpleName collections
+hlocks SimpleName Assignment MethodInvocation SimpleName empty list
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+waiting locks SimpleName MethodInvocation SimpleName remove
+waiting locks SimpleName MethodInvocation SimpleName tid
+remove SimpleName MethodInvocation SimpleName tid
+wlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName waiting locks
+wlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+wlocks SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+collections SimpleName MethodInvocation SimpleName empty list
+wlocks SimpleName Assignment MethodInvocation SimpleName collections
+wlocks SimpleName Assignment MethodInvocation SimpleName empty list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName top
+read only repo SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+zs SimpleName MethodInvocation SimpleName top
+zs SimpleName MethodInvocation SimpleName tid
+top SimpleName MethodInvocation SimpleName tid
+repo SimpleName VariableDeclarationFragment MethodInvocation SimpleName zs
+repo SimpleName VariableDeclarationFragment MethodInvocation SimpleName top
+repo SimpleName VariableDeclarationFragment MethodInvocation SimpleName tid
+repo SimpleName MethodInvocation SimpleName get description
+top SimpleName Assignment MethodInvocation SimpleName repo
+top SimpleName Assignment MethodInvocation SimpleName get description
+t status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status
+zs SimpleName MethodInvocation SimpleName get status
+zs SimpleName MethodInvocation SimpleName tid
+get status SimpleName MethodInvocation SimpleName tid
+status SimpleName Assignment MethodInvocation SimpleName zs
+status SimpleName Assignment MethodInvocation SimpleName get status
+status SimpleName Assignment MethodInvocation SimpleName tid
+zs SimpleName MethodInvocation SimpleName unreserve
+zs SimpleName MethodInvocation SimpleName tid
+zs SimpleName MethodInvocation NumberLiteral empty
+unreserve SimpleName MethodInvocation SimpleName tid
+unreserve SimpleName MethodInvocation NumberLiteral empty
+tid SimpleName MethodInvocation NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral txid % x status %- s op %- s locked %- s locking %- s top sn
+systemout QualifiedName MethodInvocation SimpleName tid
+systemout QualifiedName MethodInvocation SimpleName status
+systemout QualifiedName MethodInvocation SimpleName debug
+printf SimpleName MethodInvocation StringLiteral txid % x status %- s op %- s locked %- s locking %- s top sn
+printf SimpleName MethodInvocation SimpleName tid
+printf SimpleName MethodInvocation SimpleName status
+printf SimpleName MethodInvocation SimpleName debug
+printf SimpleName MethodInvocation SimpleName hlocks
+txid % x status %- s op %- s locked %- s locking %- s top sn StringLiteral MethodInvocation SimpleName tid
+txid % x status %- s op %- s locked %- s locking %- s top sn StringLiteral MethodInvocation SimpleName status
+txid % x status %- s op %- s locked %- s locking %- s top sn StringLiteral MethodInvocation SimpleName debug
+txid % x status %- s op %- s locked %- s locking %- s top sn StringLiteral MethodInvocation SimpleName hlocks
+txid % x status %- s op %- s locked %- s locking %- s top sn StringLiteral MethodInvocation SimpleName wlocks
+tid SimpleName MethodInvocation SimpleName status
+tid SimpleName MethodInvocation SimpleName debug
+tid SimpleName MethodInvocation SimpleName hlocks
+tid SimpleName MethodInvocation SimpleName wlocks
+tid SimpleName MethodInvocation SimpleName top
+status SimpleName MethodInvocation SimpleName debug
+status SimpleName MethodInvocation SimpleName hlocks
+status SimpleName MethodInvocation SimpleName wlocks
+status SimpleName MethodInvocation SimpleName top
+debug SimpleName MethodInvocation SimpleName hlocks
+debug SimpleName MethodInvocation SimpleName wlocks
+debug SimpleName MethodInvocation SimpleName top
+hlocks SimpleName MethodInvocation SimpleName wlocks
+hlocks SimpleName MethodInvocation SimpleName top
+wlocks SimpleName MethodInvocation SimpleName top
+long SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName transactions
+tid SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName transactions
+held locks SimpleName MethodInvocation SimpleName size
+held locks SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+waiting locks SimpleName MethodInvocation SimpleName size
+waiting locks SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral the following locks did not have an associated fate operation
+println SimpleName MethodInvocation StringLiteral the following locks did not have an associated fate operation
+systemout QualifiedName MethodInvocation SimpleName println
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+held locks SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral txid % x locked sn
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get key
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get value
+printf SimpleName MethodInvocation StringLiteral txid % x locked sn
+printf SimpleName MethodInvocation MethodInvocation SimpleName entry
+printf SimpleName MethodInvocation MethodInvocation SimpleName get key
+printf SimpleName MethodInvocation MethodInvocation SimpleName entry
+printf SimpleName MethodInvocation MethodInvocation SimpleName get value
+txid % x locked sn StringLiteral MethodInvocation MethodInvocation SimpleName entry
+txid % x locked sn StringLiteral MethodInvocation MethodInvocation SimpleName get key
+txid % x locked sn StringLiteral MethodInvocation MethodInvocation SimpleName entry
+txid % x locked sn StringLiteral MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName held locks
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+waiting locks SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation SimpleName get value
+systemout QualifiedName MethodInvocation SimpleName printf
+systemout QualifiedName MethodInvocation StringLiteral txid % x locking sn
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get key
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName entry
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get value
+printf SimpleName MethodInvocation StringLiteral txid % x locking sn
+printf SimpleName MethodInvocation MethodInvocation SimpleName entry
+printf SimpleName MethodInvocation MethodInvocation SimpleName get key
+printf SimpleName MethodInvocation MethodInvocation SimpleName entry
+printf SimpleName MethodInvocation MethodInvocation SimpleName get value
+txid % x locking sn StringLiteral MethodInvocation MethodInvocation SimpleName entry
+txid % x locking sn StringLiteral MethodInvocation MethodInvocation SimpleName get key
+txid % x locking sn StringLiteral MethodInvocation MethodInvocation SimpleName entry
+txid % x locking sn StringLiteral MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName waiting locks
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+locked ids SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName transactions
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName zk
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lock path
+void PrimitiveType MethodDeclaration SimpleName print
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName zk
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lock path
+void PrimitiveType MethodDeclaration SimpleType SimpleName keeper exception
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zs
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i zoo reader writer
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleName zk
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lock path
+print SimpleName MethodDeclaration SimpleType SimpleName keeper exception
+print SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+zs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk
+zs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock path
+zs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+zs SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+zk SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock path
+zk SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+zk SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+lock path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+lock path SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+keeper exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock path
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName zk
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lock path
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName keeper exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

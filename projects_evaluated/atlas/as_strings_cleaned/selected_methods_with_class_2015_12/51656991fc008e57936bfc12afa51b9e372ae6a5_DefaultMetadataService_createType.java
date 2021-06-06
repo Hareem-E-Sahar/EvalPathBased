@@ -1,0 +1,109 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type definition
+param checker SimpleName MethodInvocation SimpleName not empty
+param checker SimpleName MethodInvocation SimpleName type definition
+param checker SimpleName MethodInvocation StringLiteral type definition cannot be empty
+not empty SimpleName MethodInvocation SimpleName type definition
+not empty SimpleName MethodInvocation StringLiteral type definition cannot be empty
+type definition SimpleName MethodInvocation StringLiteral type definition cannot be empty
+validate type definition SimpleName MethodInvocation SimpleName type definition
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName validate type definition
+types def SimpleName VariableDeclarationFragment MethodInvocation SimpleName type definition
+types def SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types def
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i data type
+type system SimpleName MethodInvocation SimpleName define types
+type system SimpleName MethodInvocation SimpleName types def
+define types SimpleName MethodInvocation SimpleName types def
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName type system
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName define types
+types added SimpleName VariableDeclarationFragment MethodInvocation SimpleName types def
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName map
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName i data type
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName types added
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type system
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName define types
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName types def
+on types added SimpleName MethodInvocation SimpleName types added
+types added SimpleName MethodInvocation SimpleName key set
+immutable list SimpleName MethodInvocation SimpleName copy of
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName types added
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName key set
+copy of SimpleName MethodInvocation MethodInvocation SimpleName types added
+copy of SimpleName MethodInvocation MethodInvocation SimpleName key set
+type store SimpleName MethodInvocation SimpleName store
+type store SimpleName MethodInvocation SimpleName type system
+type store SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+type store SimpleName MethodInvocation MethodInvocation SimpleName copy of
+type store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+type store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+store SimpleName MethodInvocation SimpleName type system
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+store SimpleName MethodInvocation MethodInvocation SimpleName copy of
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+type system SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+type system SimpleName MethodInvocation MethodInvocation SimpleName copy of
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+types added SimpleName MethodInvocation SimpleName key set
+type system SimpleName MethodInvocation SimpleName remove types
+type system SimpleName MethodInvocation MethodInvocation SimpleName types added
+type system SimpleName MethodInvocation MethodInvocation SimpleName key set
+remove types SimpleName MethodInvocation MethodInvocation SimpleName types added
+remove types SimpleName MethodInvocation MethodInvocation SimpleName key set
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to persist types
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName t
+unable to persist types StringLiteral ClassInstanceCreation SimpleName t
+types added SimpleName MethodInvocation SimpleName key set
+put SimpleName MethodInvocation QualifiedName atlas clienttypes
+put SimpleName MethodInvocation MethodInvocation SimpleName types added
+put SimpleName MethodInvocation MethodInvocation SimpleName key set
+atlas clienttypes QualifiedName MethodInvocation MethodInvocation SimpleName types added
+atlas clienttypes QualifiedName MethodInvocation MethodInvocation SimpleName key set
+json exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation StringLiteral unable to create response for types
+log SimpleName MethodInvocation SimpleName type definition
+log SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation StringLiteral unable to create response for types
+error SimpleName MethodInvocation SimpleName type definition
+error SimpleName MethodInvocation SimpleName e
+unable to create response for types StringLiteral MethodInvocation SimpleName type definition
+unable to create response for types StringLiteral MethodInvocation SimpleName e
+type definition SimpleName MethodInvocation SimpleName e
+atlas exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to create response
+atlas exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+unable to create response StringLiteral ClassInstanceCreation SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName json object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type definition
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier MethodDeclaration SimpleType SimpleName json object
+public Modifier MethodDeclaration SimpleName create type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier MethodDeclaration SimpleType SimpleName atlas exception
+json object SimpleName SimpleType MethodDeclaration SimpleName create type
+json object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type definition
+json object SimpleName SimpleType MethodDeclaration SimpleType SimpleName atlas exception
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type definition
+create type SimpleName MethodDeclaration SimpleType SimpleName atlas exception
+type definition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+public Modifier TypeDeclaration MethodDeclaration SimpleName create type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName atlas exception

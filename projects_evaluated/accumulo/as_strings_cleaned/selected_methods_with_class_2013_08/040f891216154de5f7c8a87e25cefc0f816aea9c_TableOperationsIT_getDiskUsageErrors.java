@@ -1,0 +1,181 @@
+empty NumberLiteral InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+timeout SimpleName MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair SimpleName timeout
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+test SimpleName NormalAnnotation MemberValuePair InfixExpression NumberLiteral empty
+table name SimpleName VariableDeclarationFragment MethodInvocation SimpleName make table name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table name
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName create
+table operations SimpleName MethodInvocation MethodInvocation SimpleName create
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+create SimpleName MethodInvocation SimpleName table name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk usage
+connector SimpleName MethodInvocation SimpleName table operations
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName table name
+singleton SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName collections
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName singleton
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName table name
+disk usage SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName connector
+disk usage SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table operations
+disk usage SimpleName VariableDeclarationFragment MethodInvocation SimpleName get disk usage
+disk usage SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collections
+disk usage SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName singleton
+disk usage SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName table name
+disk usage SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName disk usage
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName disk usage
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+disk usage SimpleName MethodInvocation SimpleName get
+disk usage SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+disk usage SimpleName MethodInvocation MethodInvocation SimpleName get usage
+get SimpleName MethodInvocation MethodInvocation SimpleName get usage
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get usage
+long PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName disk usage
+long PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get
+long PrimitiveType CastExpression MethodInvocation MethodInvocation NumberLiteral empty
+long PrimitiveType CastExpression MethodInvocation SimpleName get usage
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation CastExpression PrimitiveType long
+assert equals SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get usage
+empty NumberLiteral MethodInvocation CastExpression PrimitiveType long
+empty NumberLiteral MethodInvocation CastExpression MethodInvocation SimpleName get usage
+disk usage SimpleName MethodInvocation SimpleName get
+disk usage SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+disk usage SimpleName MethodInvocation MethodInvocation SimpleName get tables
+get SimpleName MethodInvocation MethodInvocation SimpleName get tables
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get tables
+disk usage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+get tables SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get tables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+assert equals SimpleName MethodInvocation SimpleName table name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName next
+table name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+table name SimpleName MethodInvocation MethodInvocation SimpleName next
+connector SimpleName MethodInvocation SimpleName security operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+security operations SimpleName MethodInvocation MethodInvocation SimpleName revoke table permission
+connector SimpleName MethodInvocation MethodInvocation SimpleName root
+security operations SimpleName MethodInvocation MethodInvocation SimpleName root
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+security operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+security operations SimpleName MethodInvocation MethodInvocation QualifiedName table permissionread
+revoke table permission SimpleName MethodInvocation SimpleName root
+revoke table permission SimpleName MethodInvocation SimpleName table name
+revoke table permission SimpleName MethodInvocation QualifiedName table permissionread
+root SimpleName MethodInvocation SimpleName table name
+root SimpleName MethodInvocation QualifiedName table permissionread
+table name SimpleName MethodInvocation QualifiedName table permissionread
+connector SimpleName MethodInvocation SimpleName table operations
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName table name
+singleton SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName collections
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName singleton
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName table name
+fail SimpleName MethodInvocation StringLiteral should throw securityexception
+accumulo security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+connector SimpleName MethodInvocation SimpleName table operations
+connector SimpleName MethodInvocation MethodInvocation SimpleName delete
+table operations SimpleName MethodInvocation MethodInvocation SimpleName delete
+connector SimpleName MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation SimpleName table name
+delete SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation SimpleName table operations
+collections SimpleName MethodInvocation SimpleName singleton
+collections SimpleName MethodInvocation SimpleName table name
+singleton SimpleName MethodInvocation SimpleName table name
+connector SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+table operations SimpleName MethodInvocation MethodInvocation SimpleName get disk usage
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+connector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collections
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName singleton
+table operations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName table name
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName collections
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName singleton
+get disk usage SimpleName MethodInvocation MethodInvocation SimpleName table name
+fail SimpleName MethodInvocation StringLiteral should throw tablenotfound
+table not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName get disk usage errors
+timeout SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName get disk usage errors
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get disk usage errors
+public Modifier MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleName get disk usage errors
+void PrimitiveType MethodDeclaration SimpleType SimpleName table exists exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName accumulo security exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName table not found exception
+get disk usage errors SimpleName MethodDeclaration SimpleType SimpleName table exists exception
+get disk usage errors SimpleName MethodDeclaration SimpleType SimpleName accumulo exception
+get disk usage errors SimpleName MethodDeclaration SimpleType SimpleName accumulo security exception
+get disk usage errors SimpleName MethodDeclaration SimpleType SimpleName table not found exception
+get disk usage errors SimpleName MethodDeclaration SimpleType SimpleName t exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+table exists exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName accumulo security exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName table not found exception
+accumulo security exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+table not found exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName t exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get disk usage errors
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get disk usage errors
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table exists exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName accumulo security exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName table not found exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t exception

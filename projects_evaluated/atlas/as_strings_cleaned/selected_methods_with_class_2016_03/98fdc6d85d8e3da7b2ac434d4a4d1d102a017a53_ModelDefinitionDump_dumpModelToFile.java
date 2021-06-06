@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName output file name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName model as json
+file SimpleName SimpleType ClassInstanceCreation SimpleName output file name
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get parent file
+output file name SimpleName ClassInstanceCreation MethodInvocation SimpleName get parent file
+dir SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName output file name
+dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir
+dir SimpleName MethodInvocation SimpleName exists
+dir SimpleName MethodInvocation SimpleName mkdirs
+file writer SimpleName SimpleType ClassInstanceCreation SimpleName output file name
+buffered writer SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName output file name
+print writer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName print writer
+print writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName print writer
+print writer SimpleName MethodInvocation SimpleName write
+print writer SimpleName MethodInvocation SimpleName model as json
+write SimpleName MethodInvocation SimpleName model as json
+print writer SimpleName MethodInvocation SimpleName close
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dump model to file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName output file name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName model as json
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName dump model to file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName output file name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName model as json
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName dump model to file
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName output file name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName model as json
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+dump model to file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dump model to file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName output file name
+dump model to file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dump model to file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName model as json
+dump model to file SimpleName MethodDeclaration SimpleType SimpleName io exception
+output file name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName model as json
+output file name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+model as json SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dump model to file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output file name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName model as json
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dump model to file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName output file name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName model as json
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

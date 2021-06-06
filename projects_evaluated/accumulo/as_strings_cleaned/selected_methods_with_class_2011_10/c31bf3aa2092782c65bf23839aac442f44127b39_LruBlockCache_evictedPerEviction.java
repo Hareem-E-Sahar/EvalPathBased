@@ -1,0 +1,13 @@
+float PrimitiveType CastExpression MethodInvocation SimpleName get evicted count
+float PrimitiveType CastExpression MethodInvocation SimpleName get eviction count
+float PrimitiveType CastExpression InfixExpression CastExpression PrimitiveType float
+public Modifier MethodDeclaration PrimitiveType double
+public Modifier MethodDeclaration SimpleName evicted per eviction
+double PrimitiveType MethodDeclaration SimpleName evicted per eviction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName evicted per eviction
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName evicted per eviction

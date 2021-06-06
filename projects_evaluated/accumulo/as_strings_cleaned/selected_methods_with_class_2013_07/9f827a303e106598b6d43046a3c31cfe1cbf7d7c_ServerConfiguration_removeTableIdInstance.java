@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table id
+table instances SimpleName MethodInvocation SimpleName remove
+table instances SimpleName MethodInvocation SimpleName table id
+remove SimpleName MethodInvocation SimpleName table id
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName remove table id instance
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName table id
+static Modifier MethodDeclaration Block SynchronizedStatement SimpleName table instances
+void PrimitiveType MethodDeclaration SimpleName remove table id instance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table id
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName table instances
+remove table id instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove table id instance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table id
+remove table id instance SimpleName MethodDeclaration Block SynchronizedStatement SimpleName table instances
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove table id instance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove table id instance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table id
